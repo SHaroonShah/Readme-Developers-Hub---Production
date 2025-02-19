@@ -1,3 +1,4 @@
 - get_v4-shippinglocations
 - post_v4-shippinglocations
 - get_v4-shippinglocations-shippinglocationid
+- put_v4-shippinglocations-shippinglocationid
