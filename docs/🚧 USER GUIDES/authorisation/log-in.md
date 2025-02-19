@@ -15,29 +15,14 @@ next:
 To log in to the SAPIENT system, follow the instructions as explained in the following procedure.
 
 1. Open your browser and in the address bar, enter the URL address of the SAPIENT system.
-2. Depending on the type of the user (<<glossary:admin>> or <<glossary:customer>>), you are offered to, enter your email address and password, and then click **Sign in**.
+2. Depending on the type of the user (<Glossary>admin</Glossary> or <Glossary>customer</Glossary>), you are offered to, enter your email address and password, and then click **Sign in**.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/fa5d0ced6ed38b419fa15c57f5b03fdddf6284adfcc85b48370c67d1aa07c5f8-Sapient_Login_window.png",
-        "",
-        "Logging into SAPIENT"
-      ],
-      "align": "center",
-      "sizing": "300px",
-      "border": true,
-      "caption": "Logging into SAPIENT"
-    }
-  ]
-}
-[/block]
-
+<Image alt="Logging into SAPIENT" align="center" width="300px" border={true} src="https://files.readme.io/fa5d0ced6ed38b419fa15c57f5b03fdddf6284adfcc85b48370c67d1aa07c5f8-Sapient_Login_window.png">
+  Logging into SAPIENT
+</Image>
 
 3. Once clicked, the SAPIENT Home page opens. You can now start using the system and execute your workflows.
 
-> 💡 _Tip_
-> 
-> _On the application header of the home page, you can [change the password](https://docs.intersoftsapient.net/docs/change-password), or [log out](https://docs.intersoftsapient.net/docs/log-out), by selecting the user profile icon._
+> 💡 *Tip*
+>
+> *On the application header of the home page, you can[change the password](https://docs.intersoftsapient.net/docs/change-password), or [log out](https://docs.intersoftsapient.net/docs/log-out), by selecting the user profile icon.*
