@@ -6,3 +6,5 @@
 - get_v4-shippingaccounts-rm-shippingaccountid-shippinglocations
 - >-
   get_v4-shippingaccounts-rm-shippingaccountid-shippinglocations-shippinglocationid
+- >-
+  put_v4-shippingaccounts-rm-shippingaccountid-shippinglocations-shippinglocationid
