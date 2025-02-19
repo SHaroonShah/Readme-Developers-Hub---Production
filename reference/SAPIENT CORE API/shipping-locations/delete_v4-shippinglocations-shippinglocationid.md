@@ -1,0 +1,15 @@
+---
+title: Delete Location
+excerpt: Delete a specific shipping location.
+api:
+  file: sapient-core-api.json
+  operationId: delete_v4-shippinglocations-shippinglocationid
+deprecated: false
+hidden: false
+metadata:
+  title: ''
+  description: ''
+  robots: index
+next:
+  description: ''
+---
