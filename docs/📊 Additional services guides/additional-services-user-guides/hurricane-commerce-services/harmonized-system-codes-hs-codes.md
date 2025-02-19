@@ -14,37 +14,22 @@ metadata:
 next:
   description: ''
 ---
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/1c67b5bfcde800b140388aef21b072010032929380b40bc2652f36fc7a5388cc-HS_code.png",
-        "",
-        ""
-      ],
-      "align": "center",
-      "border": true
-    }
-  ]
-}
-[/block]
+<Image align="center" className="border" border={true} src="https://files.readme.io/1c67b5bfcde800b140388aef21b072010032929380b40bc2652f36fc7a5388cc-HS_code.png" />
 
-
-As the world of eCommerce progresses, customs in countries around the globe are insisting on good quality data to facilitate simple clearance of goods being shipped. Many destinations now require electronic pre-advice data which includes Harmonised System commodity codes (<<glossary:HS Code>>).
+As the world of eCommerce progresses, customs in countries around the globe are insisting on good quality data to facilitate simple clearance of goods being shipped. Many destinations now require electronic pre-advice data which includes Harmonised System commodity codes (<Glossary>HS Code</Glossary>).
 
 Hurricane commerce service checks and identifies the HS code and their descriptions, ensuring they are correct and compliant with customs regulations, preventing delays and penalties.
 
 With this fast and effective API service, you can either validate your current data for correction or look up the required codes and descriptions to ensure compliance when shipping cross-border. The API service assists you with the following:
 
-- Validate and match HS code and description
-- Provide “most likely” or “suitable” 10-digit export codes
-- Provide “most likely” or "suitable" 10-digit import codes
-- Generate a suitable description based on provided HS6
-- Generate “most likely” or “suitable” HS6 based on provided description
+* Validate and match HS code and description
+* Provide “most likely” or “suitable” 10-digit export codes
+* Provide “most likely” or "suitable" 10-digit import codes
+* Generate a suitable description based on provided HS6
+* Generate “most likely” or “suitable” HS6 based on provided description
 
 Accurate HS code data not only facilitates smooth processing of your data by customs, but also ensures that any duty and tax calculations are accurate.
 
-> 📘 _Note_
-> 
-> _For more information on how to use this API service, refer to the [Commodity Code Validation](https://docs.intersoftsapient.net/reference/post_v4-getcommoditycodevalidations) block of the **API References** section._
+> 📘 *Note*
+>
+> *For more information on how to use this API service, refer to the[Commodity Code Validation](https://docs.intersoftsapient.net/reference/post_v4-getcommoditycodevalidations) block of the **API References** section.*
