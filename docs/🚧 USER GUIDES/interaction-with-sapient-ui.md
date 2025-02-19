@@ -16,23 +16,9 @@ This section of the user guide explains the general UI elements that are availab
 
 Generally, the SAPIENT application consists of the following main blocks:
 
-- [Application header](https://docs.intersoftsapient.net/docs/application-header)
-- [Top toolbar](https://docs.intersoftsapient.net/docs/top-toolbar)
-- [Side navigation panel](https://docs.intersoftsapient.net/docs/side-navigation-panel)
-- [Contents panel](https://docs.intersoftsapient.net/docs/dashboard)
+* [Application header](https://docs.intersoftsapient.net/docs/application-header)
+* [Top toolbar](https://docs.intersoftsapient.net/docs/top-toolbar)
+* [Side navigation panel](https://docs.intersoftsapient.net/docs/side-navigation-panel)
+* [Contents panel](https://docs.intersoftsapient.net/docs/dashboard)
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/861adf6f71014eaec71f405700d6caf2b539c93ac2359625b7ef5727d5f7d9a7-Interaction_with_SAP_UI_image.png",
-        "",
-        ""
-      ],
-      "align": "center",
-      "sizing": "900px"
-    }
-  ]
-}
-[/block]
+<Image align="center" width="900px" src="https://files.readme.io/861adf6f71014eaec71f405700d6caf2b539c93ac2359625b7ef5727d5f7d9a7-Interaction_with_SAP_UI_image.png" />
