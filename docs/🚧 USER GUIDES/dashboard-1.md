@@ -15,17 +15,4 @@ next:
 ---
 In SAPIENT, the dashboard is referred as the **Home** page that displays the featured content and provides quick access to the core functionalities, such as **Shipping Locations**, **API credentials**, **API Documentation**, and others—each leading to their corresponding pages in the UI where you can perform your desired actions.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/4a855d2c57ea1e9e170779a29f408316f569a4129f71fd2ade49b6c10acfd135-SAPIENT_dashboard.png",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
+<Image align="center" src="https://files.readme.io/4a855d2c57ea1e9e170779a29f408316f569a4129f71fd2ade49b6c10acfd135-SAPIENT_dashboard.png" />
