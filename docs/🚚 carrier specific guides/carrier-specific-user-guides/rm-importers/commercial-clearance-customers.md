@@ -19,33 +19,85 @@ Customers prepare commercial customs data/paperwork to their independent customs
 
 To efficiently handle the imports, make sure to fill in the necessary details as explained in the following table.     
 
-> 💡 _Tip_
-> 
-> _In the following table, the mandatory requirements are marked with an asterisk (\*)._
+> 💡 *Tip*
+>
+> *In the following table, the mandatory requirements are marked with an asterisk (\*).*
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Requirement",
-    "h-1": "Description",
-    "0-0": "**Shipper Address\\***",
-    "0-1": "Represents a UK based address.",
-    "1-0": "**Return Address\\***",
-    "1-1": "Represents a UK based address.",
-    "2-0": "**Customs documentation**",
-    "2-1": "Not required.",
-    "3-0": "**Manifest - Royal Mail Sales Order Summary\\***",
-    "3-1": "Represents the printed version that needs to be handed over to the driver at the point of parcel collection",
-    "4-0": "**Royal Mail Sign Off\\***",
-    "4-1": "Represents the physical sign off label.  \n  \n_`Note:` Details on this label are shared once the [Sandbox Test Pack](https://docs.intersoftsapient.net/docs/royal-mail-importers-sandbox-test-pack)  is approved._",
-    "5-0": "**Create Shipment field requirements**",
-    "5-1": "- Domestic shipments requirements as per our [API specs](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm)\n- Destination Contact Email"
-  },
-  "cols": 2,
-  "rows": 6,
-  "align": [
-    "center",
-    "left"
-  ]
-}
-[/block]
+<Table align={["center","left"]}>
+  <thead>
+    <tr>
+      <th style={{ textAlign: "center" }}>
+        Requirement
+      </th>
+
+      <th style={{ textAlign: "left" }}>
+        Description
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td style={{ textAlign: "center" }}>
+        **Shipper Address\***
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        Represents a UK based address.
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "center" }}>
+        **Return Address\***
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        Represents a UK based address.
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "center" }}>
+        **Customs documentation**
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        Not required.
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "center" }}>
+        **Manifest - Royal Mail Sales Order Summary\***
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        Represents the printed version that needs to be handed over to the driver at the point of parcel collection
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "center" }}>
+        **Royal Mail Sign Off\***
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        Represents the physical sign off label.  
+
+        *`Note:`Details on this label are shared once the[Sandbox Test Pack](https://docs.intersoftsapient.net/docs/royal-mail-importers-sandbox-test-pack)  is approved.*
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "center" }}>
+        **Create Shipment field requirements**
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        * Domestic shipments requirements as per our [API specs](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm)
+        * Destination Contact Email
+      </td>
+    </tr>
+  </tbody>
+</Table>
