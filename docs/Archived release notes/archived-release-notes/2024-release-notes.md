@@ -20,7 +20,7 @@ A new DX Freight integration is coming soon! This integration aims to enhance yo
 
 The following information has been added to the swagger documentation:
 
-- As part of our CORE API, the description of the **Trackings** endpoint has been updated to clarify that it is now a chargeable service, billing users automatically based on the number of shipments tracked. Previously, customers manually developed endpoints to register tracking numbers for shipments, which is no longer necessary as tracking data will automatically push to their webhook upon creating a tracking account.
+* As part of our CORE API, the description of the **Trackings** endpoint has been updated to clarify that it is now a chargeable service, billing users automatically based on the number of shipments tracked. Previously, customers manually developed endpoints to register tracking numbers for shipments, which is no longer necessary as tracking data will automatically push to their webhook upon creating a tracking account.
 
 ## Local collect service enhancements
 
@@ -38,7 +38,7 @@ The ability to create a DX shipment to Channel Islands has been added in SAPIENT
 
 The following information has been added to the swagger documentation:
 
-- A new **Shipping Account ID** parameter has been added to the **Carriers** > **Get Carriers** section as part of our CORE API. This endpoint allows customers to get the list of services associated with a particular shipping account.
+* A new **Shipping Account ID** parameter has been added to the **Carriers** > **Get Carriers** section as part of our CORE API. This endpoint allows customers to get the list of services associated with a particular shipping account.
 
 ***
 
@@ -70,8 +70,8 @@ Customers that have a webhook set up in SAPIENT, can now receive an ‘Expired�
 
 The following information has been added to the swagger documentation: 
 
-- A new **Manifest Status** endpoint has been added to the **Manifest** section as part of our CORE API. This endpoint allows customers to manifest their shipments in large volumes and efficiently monitor the stages of the manifest status in real-time.
-- A new **Manifest Async** endpoint has been added to the **Manifest** section as part of our CORE API.  This endpoint enables the system to process the shipments requests asynchronously, ensuring consistent performance even during high-volume shipment processing.
+* A new **Manifest Status** endpoint has been added to the **Manifest** section as part of our CORE API. This endpoint allows customers to manifest their shipments in large volumes and efficiently monitor the stages of the manifest status in real-time.
+* A new **Manifest Async** endpoint has been added to the **Manifest** section as part of our CORE API.  This endpoint enables the system to process the shipments requests asynchronously, ensuring consistent performance even during high-volume shipment processing.
 
 ***
 
@@ -85,9 +85,9 @@ Each tracking account screen now can receive tracking events after the ‘Delive
 
 The following updated have been made to the swagger documentation: 
 
-- ID8000 Category fields description and available values are updated in Hazmat Information element in Royal Mail Create Shipment Request and APIs under Products section.
-- Error Responses for HTTP 400 error has been updated in the Get Time Zones API under Reference Data section.
-- Section Description has been updated in the Get Collections Timeslots, Book Collection and Cancel Collection APIs under Collections section in Royal Mail API.
+* ID8000 Category fields description and available values are updated in Hazmat Information element in Royal Mail Create Shipment Request and APIs under Products section.
+* Error Responses for HTTP 400 error has been updated in the Get Time Zones API under Reference Data section.
+* Section Description has been updated in the Get Collections Timeslots, Book Collection and Cancel Collection APIs under Collections section in Royal Mail API.
 
 ***
 
@@ -149,8 +149,8 @@ Create Shipment endpoint has been updated to include USA Army Post Office (APO) 
 
 The destinations include:
 
-- Armed Forces Pacific (County Code - **AP**)
-- Armed Forces Europe (County Code - **AE**)
+* Armed Forces Pacific (County Code - **AP**)
+* Armed Forces Europe (County Code - **AE**)
 
 ***
 
@@ -165,9 +165,9 @@ The Royal Mail Create Shipment endpoint now includes four unincorporated territo
 3. Guam
 4. The Northern Mariana Islands 
 
-> 📘 _Note_
-> 
-> _The State Code on the label uses the ISO Country Code from the request, and the Country on the label is USA. The billing code follows the service billing code for the USA._
+> 📘 *Note*
+>
+> *The State Code on the label uses the ISO Country Code from the request, and the Country on the label is USA. The billing code follows the service billing code for the USA.*
 
 ***
 
@@ -183,13 +183,13 @@ BG3, BP3, DG3, DG6, IE3, IG3, IG6, IP3, IP6, MB3, PS6, PS8, WE3, WG3, WG6, WP3, 
 
 ### New import services:
 
-- ITI, ITJ, DE9, DEO, DEP, DEQ, DER, DEU, DEV, DEX, DEY, DEZ, DE5, DE7, and DE8. 
-- They come with domestic labels as shipments created with these services are entering Great Britain from international locations. All these services are closed, requiring a service contract for use.
+* ITI, ITJ, DE9, DEO, DEP, DEQ, DER, DEU, DEV, DEX, DEY, DEZ, DE5, DE7, and DE8. 
+* They come with domestic labels as shipments created with these services are entering Great Britain from international locations. All these services are closed, requiring a service contract for use.
 
 ### New international cross-border services:
 
-- DE0, ITO, ITQ, ITT, ITV, ITW, IYX, ITY, ITZ, IT1, IT5, IT6, IT7, IT8, IT9, IT0, TIF, and TIH. 
-- They come with international labels. All these services are closed and require a service contract for use.
+* DE0, ITO, ITQ, ITT, ITV, ITW, IYX, ITY, ITZ, IT1, IT5, IT6, IT7, IT8, IT9, IT0, TIF, and TIH. 
+* They come with international labels. All these services are closed and require a service contract for use.
 
 ***
 
@@ -197,9 +197,9 @@ BG3, BP3, DG3, DG6, IE3, IG3, IG6, IP3, IP6, MB3, PS6, PS8, WE3, WG3, WG6, WP3, 
 
 Swagger documentation has been updated as per below:
 
-- **EVRI Create Shipment API **- Description for ‘Packages’ field has been updated to reflect that EVRI supports single-piece shipment only.
-- **Royal Mail Create Shipment API **- The County field description has been revised to specify that when provided for the USA, Australia, and Canada, it must contain a valid state code or name.
-- **Royal Mail Create Shipment API **- The description for the SpecialistPhoneNumber field has been revised and highlighted in bold for customer reference.
+* **EVRI Create Shipment API** - Description for ‘Packages’ field has been updated to reflect that EVRI supports single-piece shipment only.
+* **Royal Mail Create Shipment API** - The County field description has been revised to specify that when provided for the USA, Australia, and Canada, it must contain a valid state code or name.
+* **Royal Mail Create Shipment API** - The description for the SpecialistPhoneNumber field has been revised and highlighted in bold for customer reference.
 
 ***
 
@@ -291,9 +291,9 @@ The Royal Mail integration has been updated to allow shipments to be created con
 
 LQDG can also be used with offline barcodes and pre-allocated tracking numbers.
 
-> 📘 _Note_
-> 
-> _See the API Reference page for more information on the updates to the Add Product and Royal Mail Create Shipment endpoints._
+> 📘 *Note*
+>
+> *See the API Reference page for more information on the updates to the Add Product and Royal Mail Create Shipment endpoints.*
 
 ***
 
