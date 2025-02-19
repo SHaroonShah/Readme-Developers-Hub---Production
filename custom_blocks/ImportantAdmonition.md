@@ -1,6 +1,4 @@
 ---
 name: Important admonition
 ---
-> 🚧 _Important_
-> 
->
+> 🚧 *Important*
