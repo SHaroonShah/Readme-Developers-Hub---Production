@@ -14,31 +14,96 @@ next:
 ---
 If you are importing goods into the UK via Freight 2 Post route, please ensure to provide the following details.
 
-> 🚧 _Important_
-> 
-> _The following requirements are Royal Mail specific in addition to Intersoft's mandatory fields._
+> 🚧 *Important*
+>
+> *The following requirements are Royal Mail specific in addition to Intersoft's mandatory fields.*
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Section",
-    "h-1": "Required details",
-    "0-0": "**SHIPPER**",
-    "0-1": "ContactName  \nCompanyName  \nContactEmail  \nContactPhone  \nLine1  \nTown  \nPostcode  \nCountryCode",
-    "1-0": "**DESTINATION**",
-    "1-1": "ContactName  \nCompanyName - highly recommended  \nContactEmail  \nContactPhone  \nLine1  \nTown  \nPostcode  \nCountryCode",
-    "2-0": "**SHIPMENT INFORMATION**",
-    "2-1": "DescriptionOfGoods  \nDeclaredValue  \nDeclaredWeight  \nCurrencyCode",
-    "3-0": "**ITEMS**",
-    "3-1": "Quantity  \nDescription  \nValue  \nWeight  \nHSCode  \nCountryOfOrigin",
-    "4-0": "**CUSTOMS**",
-    "4-1": "ShippingCharges  \n  \n_`Note:`Please make sure to populate this field either with the exact amount the end customer was charged for shipping or with \"0\" if the shipping was for free._"
-  },
-  "cols": 2,
-  "rows": 5,
-  "align": [
-    "center",
-    "left"
-  ]
-}
-[/block]
+<Table align={["center","left"]}>
+  <thead>
+    <tr>
+      <th style={{ textAlign: "center" }}>
+        Section
+      </th>
+
+      <th style={{ textAlign: "left" }}>
+        Required details
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td style={{ textAlign: "center" }}>
+        **SHIPPER**
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        ContactName\
+        CompanyName\
+        ContactEmail\
+        ContactPhone\
+        Line1\
+        Town\
+        Postcode\
+        CountryCode
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "center" }}>
+        **DESTINATION**
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        ContactName\
+        CompanyName - highly recommended\
+        ContactEmail\
+        ContactPhone\
+        Line1\
+        Town\
+        Postcode\
+        CountryCode
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "center" }}>
+        **SHIPMENT INFORMATION**
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        DescriptionOfGoods\
+        DeclaredValue\
+        DeclaredWeight\
+        CurrencyCode
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "center" }}>
+        **ITEMS**
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        Quantity\
+        Description\
+        Value\
+        Weight\
+        HSCode\
+        CountryOfOrigin
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "center" }}>
+        **CUSTOMS**
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        ShippingCharges  
+
+        *`Note:`Please make sure to populate this field either with the exact amount the end customer was charged for shipping or with "0" if the shipping was for free.*
+      </td>
+    </tr>
+  </tbody>
+</Table>
