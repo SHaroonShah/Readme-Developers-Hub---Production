@@ -15,7 +15,7 @@ metadata:
 next:
   description: ''
 ---
-The barcode ranges functionality facilitates the <<glossary:data solution>> on behalf of customers who are shipping into the UK from abroad. This solution is dependent on the customer scanning a <<glossary:shipment>> into a <<glossary:container>> . When all the shipments for that container have been scanned, a summary barcode is produced.
+The barcode ranges functionality facilitates the <Glossary>data solution</Glossary> on behalf of customers who are shipping into the UK from abroad. This solution is dependent on the customer scanning a <Glossary>shipment</Glossary> into a <Glossary>container</Glossary> . When all the shipments for that container have been scanned, a summary barcode is produced.
 
 This summary barcode, known as a WAND ID barcode is attached to the outside of the receptacle. As a result, an electronic data solution file is produced, in a predefined format and sent to Royal Mail, detailing the WAND ID and the individual shipment barcodes. This enables a link between the WAND ID used on a container and the tracking numbers of the shipments held within it. 
 
@@ -25,104 +25,34 @@ To add a barcode range for international arrival containers in SAPIENT, follow t
 
 1. In the left navigation panel, select **Integrations**.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/84039ea8d38560195f244c1aba1f5fdc49e22260967548a94b5ddc56e5c79c00-Accessing_Integrations_option.png",
-        "",
-        "Accessing integrations"
-      ],
-      "align": "center",
-      "border": true,
-      "caption": "Accessing integrations"
-    }
-  ]
-}
-[/block]
-
+<Image alt="Accessing integrations" align="center" border={true} src="https://files.readme.io/84039ea8d38560195f244c1aba1f5fdc49e22260967548a94b5ddc56e5c79c00-Accessing_Integrations_option.png">
+  Accessing integrations
+</Image>
 
 2. In the list of carrier integrations that appears, next to Royal Mail, select **LABELS**.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/3d5109652b0b0cee5b6649c52dc92786f106840ba45e6ecea801be23f2b8d6af-Labels_option.png",
-        "",
-        "Accessing labels integration"
-      ],
-      "align": "center",
-      "border": true,
-      "caption": "Accessing labels integration"
-    }
-  ]
-}
-[/block]
-
+<Image alt="Accessing labels integration" align="center" border={true} src="https://files.readme.io/3d5109652b0b0cee5b6649c52dc92786f106840ba45e6ecea801be23f2b8d6af-Labels_option.png">
+  Accessing labels integration
+</Image>
 
 3. On the page that opens, under the **Available Integrations** block, in the **LABELS** section, select **CONFIGURE**.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/dc329170de3da55ba71a66858dc11d115904b5001362a12f87aea85d0e7656f4-Configure_labels_option.png",
-        "",
-        "Configuring labels integration"
-      ],
-      "align": "center",
-      "border": true,
-      "caption": "Configuring labels integration"
-    }
-  ]
-}
-[/block]
-
+<Image alt="Configuring labels integration" align="center" border={true} src="https://files.readme.io/dc329170de3da55ba71a66858dc11d115904b5001362a12f87aea85d0e7656f4-Configure_labels_option.png">
+  Configuring labels integration
+</Image>
 
 4. In the **Configure Royal Mail** page that opens, select the **International Arrivals Container Settings** tab. In the page that opens, enter your six-digit customer number provided to you by our onboarding team and then select ![alt text](https://files.readme.io/7c98764e6500bab5bbcb768bbff9aa47d0681116fc91a6a2921c0394178f7550-Save_changes_button.png). 
 5. Once you are added, select ![alt text](https://files.readme.io/d48a6a38086006b7b6e7e4edaaabed26a14571fe2fe075d2749bd142ac31f03f-Add_barcode_range_button.png).
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/b97eed8bcf06eb4bc0f3d303c0758e223459b710117e7e2464410003bd430bcb-Add_barcode_range_option.png",
-        "",
-        "Accessing option to add barcode range"
-      ],
-      "align": "center",
-      "border": true,
-      "caption": "Accessing option to add barcode range"
-    }
-  ]
-}
-[/block]
-
+<Image alt="Accessing option to add barcode range" align="center" border={true} src="https://files.readme.io/b97eed8bcf06eb4bc0f3d303c0758e223459b710117e7e2464410003bd430bcb-Add_barcode_range_option.png">
+  Accessing option to add barcode range
+</Image>
 
 5. In the **Barcode Range Details** form that opens, enter the necessary information as explained in the following table.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/f034c697c47c3c50bea13ef9821e4caec23a81ca1fc2252ab2457489d0c2a745-Barcode_range_details_form.png",
-        "",
-        "Entering barcode range details"
-      ],
-      "align": "center",
-      "border": true,
-      "caption": "Entering barcode range details"
-    }
-  ]
-}
-[/block]
-
+<Image alt="Entering barcode range details" align="center" border={true} src="https://files.readme.io/f034c697c47c3c50bea13ef9821e4caec23a81ca1fc2252ab2457489d0c2a745-Barcode_range_details_form.png">
+  Entering barcode range details
+</Image>
 
 <AsteridkForMandatoryElements />
 
