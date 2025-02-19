@@ -12,7 +12,7 @@ metadata:
 next:
   description: ''
 ---
-If you operate in a single location with a single account with each <<glossary:carrier>> , then you may skip this section and set up these areas via the UI.
+If you operate in a single location with a single account with each <Glossary>carrier</Glossary> , then you may skip this section and set up these areas via the UI.
 
 🧾 [Add shipping account](https://docs.intersoftsapient.net/docs/add-a-shipping-account)
 
