@@ -20,17 +20,4 @@ If you create the shipments using Action: Create or Allocate, labels must be pri
 
 > 🚧 Shipments that have been on hold for more than 28 days will be cancelled automatically.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/5568e03-Manifest_Hold_Shipments_Diagram.png",
-        "",
-        ""
-      ],
-      "align": "center"
-    }
-  ]
-}
-[/block]
+<Image align="center" src="https://files.readme.io/5568e03-Manifest_Hold_Shipments_Diagram.png" />
