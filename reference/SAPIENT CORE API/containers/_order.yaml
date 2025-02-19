@@ -2,3 +2,4 @@
 - post_v4-containers
 - get_v4-containers-containerid
 - put_v4-containers-containerid
+- delete_v4-containers-containerid
