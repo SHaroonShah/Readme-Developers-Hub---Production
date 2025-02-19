@@ -19,22 +19,7 @@ next:
       slug: shipping-account-setup
       title: UPS shipping account setup
 ---
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/afec4e485f461b873476f04e7712572b474ba6552fdacea5d984530b5e16cd5b-image.png",
-        null,
-        ""
-      ],
-      "align": "center",
-      "sizing": "60px"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="60px" src="https://files.readme.io/afec4e485f461b873476f04e7712572b474ba6552fdacea5d984530b5e16cd5b-image.png" />
 
 ***
 
@@ -42,5 +27,5 @@ In SAPIENT, you can integrate with various available UPS services and features t
 
 In this section, learn how to:
 
-- [Add UPS shipping account](https://docs.intersoftsapient.net/docs/shipping-account-setup)
-- [Add UPS tracking account](https://docs.intersoftsapient.net/docs/tracking-2)
+* [Add UPS shipping account](https://docs.intersoftsapient.net/docs/shipping-account-setup)
+* [Add UPS tracking account](https://docs.intersoftsapient.net/docs/tracking-2)
