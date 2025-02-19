@@ -15,21 +15,8 @@ metadata:
 next:
   description: ''
 ---
-In SAPIENT, while [configuring the Hurricane commerce service](https://docs.intersoftsapient.net/docs/configure-hurricane-commerce-service),  the denied parties API provides an interface for the end user to check if the person that the <<glossary:product>>(s) are being shipped to exists on any of the global and national restricted persons lists. We source this data from the United Nations, trade bodies, regional and national lists.
+In SAPIENT, while [configuring the Hurricane commerce service](https://docs.intersoftsapient.net/docs/configure-hurricane-commerce-service),  the denied parties API provides an interface for the end user to check if the person that the <Glossary>product</Glossary>(s) are being shipped to exists on any of the global and national restricted persons lists. We source this data from the United Nations, trade bodies, regional and national lists.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/034f4680d679a260821c6edc87a787cbb97887a401cb96e3ceb7904a811b6b1d-Configuring_hurricane_services.png",
-        "",
-        "Configuring hurricane services"
-      ],
-      "align": "center",
-      "border": true,
-      "caption": "Configuring denied parties"
-    }
-  ]
-}
-[/block]
+<Image alt="Configuring hurricane services" align="center" border={true} src="https://files.readme.io/034f4680d679a260821c6edc87a787cbb97887a401cb96e3ceb7904a811b6b1d-Configuring_hurricane_services.png">
+  Configuring denied parties
+</Image>
