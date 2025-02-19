@@ -18,22 +18,7 @@ next:
       slug: shipping-account-setup-3
       title: Evri shipping account setup
 ---
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/49cf864b835a4e2de7c4ebfd3cea85e552a3a27790c9dd755e39162cdb71c63e-image.png",
-        null,
-        ""
-      ],
-      "align": "center",
-      "sizing": "140px"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="140px" src="https://files.readme.io/49cf864b835a4e2de7c4ebfd3cea85e552a3a27790c9dd755e39162cdb71c63e-image.png" />
 
 ***
 
@@ -41,5 +26,5 @@ In SAPIENT, you can integrate with various available EVRi services and features 
 
 In this section, learn how to: 
 
-- [Add EVRi shipping account](https://docs.intersoftsapient.net/docs/shipping-account-setup-3)
-- [Add EVRi tracking account](https://docs.intersoftsapient.net/docs/tracking-account-setup)
+* [Add EVRi shipping account](https://docs.intersoftsapient.net/docs/shipping-account-setup-3)
+* [Add EVRi tracking account](https://docs.intersoftsapient.net/docs/tracking-account-setup)
