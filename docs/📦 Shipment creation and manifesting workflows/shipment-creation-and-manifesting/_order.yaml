@@ -3,3 +3,4 @@
 - create-shipment-with-action-process
 - defer-shipments
 - manifest-shipments-by-onhold-status
+- manifest-shipments-in-a-container
