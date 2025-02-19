@@ -14,22 +14,10 @@ next:
 ---
 Depending on the feature selected, it may accommodate different elements, the main of which are: 
 
-- [Table](https://docs.intersoftsapient.net/docs/table)
-- [Pagination bar](https://docs.intersoftsapient.net/docs/pagination-bar)
-- [Search and filter bar](https://docs.intersoftsapient.net/docs/search-and-filter-panel)
+* [Table](https://docs.intersoftsapient.net/docs/table)
+* [Pagination bar](https://docs.intersoftsapient.net/docs/pagination-bar)
+* [Search and filter bar](https://docs.intersoftsapient.net/docs/search-and-filter-panel)
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/368df6f180bee1d3a95fc9bc9d71b3df7583b2262d40ca7383eecd614596b2df-Contents_panel.png",
-        "",
-        "SAPIENT contents panel"
-      ],
-      "align": "center",
-      "caption": "SAPIENT contents panel"
-    }
-  ]
-}
-[/block]
+<Image alt="SAPIENT contents panel" align="center" src="https://files.readme.io/368df6f180bee1d3a95fc9bc9d71b3df7583b2262d40ca7383eecd614596b2df-Contents_panel.png">
+  SAPIENT contents panel
+</Image>
