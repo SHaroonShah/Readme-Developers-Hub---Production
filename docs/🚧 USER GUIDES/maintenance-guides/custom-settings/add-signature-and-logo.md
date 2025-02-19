@@ -19,114 +19,100 @@ To add signature and logo in SAPIENT, follow the steps as explained in the follo
 
 1. In the left navigation panel, select **Customs Settings** > **Signatures and Logos**.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/00c81ec3f8935f700829d2ec2e8ed30d0fa0bd6fc0a5d658684f8609202fab93-Signatures_and_logos_option.png",
-        "",
-        "Accessing signatures and logos"
-      ],
-      "align": "center",
-      "border": true,
-      "caption": "Accessing signatures and logos"
-    }
-  ]
-}
-[/block]
-
+<Image alt="Accessing signatures and logos" align="center" border={true} src="https://files.readme.io/00c81ec3f8935f700829d2ec2e8ed30d0fa0bd6fc0a5d658684f8609202fab93-Signatures_and_logos_option.png">
+  Accessing signatures and logos
+</Image>
 
 2. In the **Signatures and Logos** page that opens, select ![alt text](https://files.readme.io/2e03049feb3d93343e3c10aeb0958e95489136884c6fea556824482504e36176-Add_sign_and_logo_button.png).
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/af0587aafff2921d2ae9f21523162ad00f35e5b667c43e7d98d5c5844644d248-Add_sign_and_logo_option.png",
-        "",
-        "Accessing option to add signature and logo"
-      ],
-      "align": "center",
-      "border": true,
-      "caption": "Accessing option to add signature and logo"
-    }
-  ]
-}
-[/block]
+<Image alt="Accessing option to add signature and logo" align="center" border={true} src="https://files.readme.io/af0587aafff2921d2ae9f21523162ad00f35e5b667c43e7d98d5c5844644d248-Add_sign_and_logo_option.png">
+  Accessing option to add signature and logo
+</Image>
 
+3. In the **Add Signature and Logo** form that opens, in the **SHIPPING ACCOUNT** block, from the dropdown menu, select the <Glossary>shipping account</Glossary> for which you want to add the signature and logo.
 
-3. In the **Add Signature and Logo** form that opens, in the **SHIPPING ACCOUNT** block, from the dropdown menu, select the <<glossary:shipping account>> for which you want to add the signature and logo.
-
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/5ae73e9b31172ef595d23ce52d14ebecfe8fc628d7496ede4c7d79941a79a92c-Shipping_account_block_4.png",
-        "",
-        "Selecting shipping account"
-      ],
-      "align": "center",
-      "border": true,
-      "caption": "Selecting shipping account"
-    }
-  ]
-}
-[/block]
-
+<Image alt="Selecting shipping account" align="center" border={true} src="https://files.readme.io/5ae73e9b31172ef595d23ce52d14ebecfe8fc628d7496ede4c7d79941a79a92c-Shipping_account_block_4.png">
+  Selecting shipping account
+</Image>
 
 4. After, in the **SIGNATURE AND LOGO** block that appears, enter the necessary information as explained in the following table.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/42f3cd704b6a44482e97a5d987957886231cedb5e0107daa688b33e38d7666f0-Signature_and_logo_block.png",
-        "",
-        "Entering signature, logo and their details"
-      ],
-      "align": "center",
-      "border": true,
-      "caption": "Entering signature/logo details"
-    }
-  ]
-}
-[/block]
+<Image alt="Entering signature, logo and their details" align="center" border={true} src="https://files.readme.io/42f3cd704b6a44482e97a5d987957886231cedb5e0107daa688b33e38d7666f0-Signature_and_logo_block.png">
+  Entering signature/logo details
+</Image>
 
+<Table align={["center","left"]}>
+  <thead>
+    <tr>
+      <th style={{ textAlign: "center" }}>
+        Element
+      </th>
 
-[block:parameters]
-{
-  "data": {
-    "h-0": "Element",
-    "h-1": "Description",
-    "0-0": "**Shipping Location**",
-    "0-1": "From the dropdown menu, select the <<glossary:shipping location>> for which you want to add the signature and logo.  \n  \nYou can also select **All** if you want to add the signature and logo for all the existing shipping accounts. ",
-    "1-0": "**Logo Image**",
-    "1-1": "Select **Choose File**, follow the prompts of your computer, and then select the logo file that you want to upload.  \n  \nAlternatively, drag the desired logo file to this field.",
-    "2-0": "**Signature Image**",
-    "2-1": "Select **Choose File**, follow the prompts of your computer, and then select the signature file that you want to upload.  \n  \nAlternatively, drag the desired signature file to this field.",
-    "3-0": "**Signature Name**",
-    "3-1": "Enter the name of the signature that you have uploaded.  \n  \n_Note: This field is only required if the signature file is uploaded._"
-  },
-  "cols": 2,
-  "rows": 4,
-  "align": [
-    "center",
-    "left"
-  ]
-}
-[/block]
+      <th style={{ textAlign: "left" }}>
+        Description
+      </th>
+    </tr>
+  </thead>
 
+  <tbody>
+    <tr>
+      <td style={{ textAlign: "center" }}>
+        **Shipping Location**
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        From the dropdown menu, select the <Glossary>shipping location</Glossary> for which you want to add the signature and logo.  
+
+        You can also select **All** if you want to add the signature and logo for all the existing shipping accounts. 
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "center" }}>
+        **Logo Image**
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        Select **Choose File**, follow the prompts of your computer, and then select the logo file that you want to upload.  
+
+        Alternatively, drag the desired logo file to this field.
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "center" }}>
+        **Signature Image**
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        Select **Choose File**, follow the prompts of your computer, and then select the signature file that you want to upload.  
+
+        Alternatively, drag the desired signature file to this field.
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "center" }}>
+        **Signature Name**
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+        Enter the name of the signature that you have uploaded.  
+
+        *Note: This field is only required if the signature file is uploaded.*
+      </td>
+    </tr>
+  </tbody>
+</Table>
 
 5. After entering all the relevant information, select ![alt text](https://files.readme.io/c1375586543672a250a0ceed102488466614757b1d851bc6084d22ceeb9f5306-Add_sign_and_logo_button_2.png).
 
-Once selected, the signature and logos is added successfully and appears in the **Signatures and Logos** list. You can now use them in your <<glossary:label>>, <<glossary:CN23>>, or any <<glossary:commercial invoice>> generated by this system.
+Once selected, the signature and logos is added successfully and appears in the **Signatures and Logos** list. You can now use them in your <Glossary>label</Glossary>, <Glossary>CN23</Glossary>, or any <Glossary>commercial invoice</Glossary> generated by this system.
 
-> 💡 _Tip_
-> 
+> 💡 *Tip*
+>
 > If you want to remove a specific signature and logo, then in the **Signatures and Logos** list, next to the one you want to delete, select ![alt text](https://files.readme.io/0979c7211f5ae99308ba3f765bd083d41949895562626a4f0cc33acd80b30762-Trash_icon.png).
-> 
-> [block:image]{"images":[{"image":["https://files.readme.io/18854da926a99e35b6280bbb19445cac623a73a7f01d8cb9df4c99cd2a6fe6e9-Removing_item.png","","Deleting pre-registration number"],"align":"center","border":true,"caption":"Deleting signature and logo"}]}[/block]
+>
+> <Image alt="Deleting pre-registration number" align="center" border={true} src="https://files.readme.io/18854da926a99e35b6280bbb19445cac623a73a7f01d8cb9df4c99cd2a6fe6e9-Removing_item.png">
+>   Deleting signature and logo
+> </Image>
