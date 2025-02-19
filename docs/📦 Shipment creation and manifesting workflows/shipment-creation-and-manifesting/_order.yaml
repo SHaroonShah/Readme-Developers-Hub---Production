@@ -2,3 +2,4 @@
 - create-shipments-with-action-create
 - create-shipment-with-action-process
 - defer-shipments
+- manifest-shipments-by-onhold-status
