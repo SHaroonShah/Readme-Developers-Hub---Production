@@ -3,3 +3,4 @@
 - get_v4-shippingaccounts-ups-shippingaccountid
 - put_v4-shippingaccounts-ups-shippingaccountid
 - post_v4-shippingaccounts-ups-shippingaccountid-linklocations
+- get_v4-shippingaccounts-ups-shippingaccountid-shippinglocations
