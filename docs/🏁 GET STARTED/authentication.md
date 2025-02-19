@@ -22,18 +22,18 @@ next:
 
 Intersoft SAPIENT API uses the **OAuth2** authentication, which is a specific protocol used for authorisation that allows third-party applications to access the user's data without exposing their credentials.
 
-OAuth2 works by obtaining limited access rights to a resource on behalf of the user.  Before you can use the **API** and generate the <<glossary:bearer token>> , you need to create your [API Credentials](https://docs.intersoftsapient.net/docs/create-api-credentials).
+OAuth2 works by obtaining limited access rights to a resource on behalf of the user.  Before you can use the **API** and generate the <Glossary>bearer token</Glossary> , you need to create your [API Credentials](https://docs.intersoftsapient.net/docs/create-api-credentials).
 
 API credentials are used to generate an access token, JWT (JSON Web Token) or bearer token. To generate the token, refer to the [Bearer Token Generation](https://docs.intersoftsapient.net/docs/bearer-token-generation-1) section using the **Try it** function.
 
-> 💡 _Tip_
-> 
-> _The API credentials are unique for each customer. Keep these credentials safe as they cannot be viewed after being generated. If you lose these credentials you need to generate new ones._
+> 💡 *Tip*
+>
+> *The API credentials are unique for each customer. Keep these credentials safe as they cannot be viewed after being generated. If you lose these credentials you need to generate new ones.*
 
 Please be aware that the token expires after 60 minutes. In such cases, you need to request a new access token to continue making API calls. 
 
-> 🚧 _Important_
-> 
-> _Make sure you cache the authentication token before requesting a new one_.
+> 🚧 *Important*
+>
+> *Make sure you cache the authentication token before requesting a new one*.
 
-When using the **Try It** function, make sure you are in the **Production** environment and any shipping accounts that you create or use for testing have the <<glossary:account type>> set to **Sandbox**.
+When using the **Try It** function, make sure you are in the **Production** environment and any shipping accounts that you create or use for testing have the <Glossary>account type</Glossary> set to **Sandbox**.
