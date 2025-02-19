@@ -16,72 +16,27 @@ To reset your password in SAPIENT, follow the steps as explained in the followin
 
 1. In the Sign in form that opens, click the **Forgot Password?** link. 
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/1fcc5c0d56c42a3f325897424b3ba0d66b1cb5249f16845a07aef94600a2abdf-Forgot_password_link.png",
-        "",
-        "Resetting password"
-      ],
-      "align": "center",
-      "sizing": "300px",
-      "border": true,
-      "caption": "Accessing option to reset password"
-    }
-  ]
-}
-[/block]
-
+<Image alt="Resetting password" align="center" width="300px" border={true} src="https://files.readme.io/1fcc5c0d56c42a3f325897424b3ba0d66b1cb5249f16845a07aef94600a2abdf-Forgot_password_link.png">
+  Accessing option to reset password
+</Image>
 
 2. In the **Forgot Password** form that opens, enter your email address for which you want to reset the password and select ![alt text](https://files.readme.io/7f63454aace6de6533b67b3c473e6301d3e7e61f5add1b6ca4f2bf515d4157e4-Reset_password_button.png).
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/d3315d3adc579fdcc233c97806b70738438238cd351880f6e699c5e0ffab88fa-Forgot_password_dialog.png",
-        "",
-        "Resetting password"
-      ],
-      "align": "center",
-      "sizing": "300px",
-      "border": true,
-      "caption": "Requesting password reset"
-    }
-  ]
-}
-[/block]
-
+<Image alt="Resetting password" align="center" width="300px" border={true} src="https://files.readme.io/d3315d3adc579fdcc233c97806b70738438238cd351880f6e699c5e0ffab88fa-Forgot_password_dialog.png">
+  Requesting password reset
+</Image>
 
 3. Once applied, you receive an email with further instructions on how to reset your password. Select the link provided in the received email. 
 
-> 🚧 _Important_
-> 
-> _In case you cannot find the confirmation email, remember to check your spam or junk folders._
+> 🚧 *Important*
+>
+> *In case you cannot find the confirmation email, remember to check your spam or junk folders.*
 
 4. In the **Password Reset** form that opens, enter the the necessary information as explained in the following table. 
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/0b6edea46fb9a041a616d39e280e1fbc4d0b125f2834c1d3fb6cead06ff4538d-Password_reset_dialog.png",
-        "",
-        "Resetting password"
-      ],
-      "align": "center",
-      "sizing": "300px",
-      "border": true,
-      "caption": "Resetting password"
-    }
-  ]
-}
-[/block]
-
+<Image alt="Resetting password" align="center" width="300px" border={true} src="https://files.readme.io/0b6edea46fb9a041a616d39e280e1fbc4d0b125f2834c1d3fb6cead06ff4538d-Password_reset_dialog.png">
+  Resetting password
+</Image>
 
 <AsteridkForMandatoryElements />
 
@@ -95,6 +50,6 @@ To reset your password in SAPIENT, follow the steps as explained in the followin
 
 Once finished, your password is successfully reset and updated. You can now log in to SAPIENT with your updated password.
 
-> 🚧 _Important_
-> 
-> _The **Reset my password** activation link in the received email is available once per 24 hours only. After that, you need to submit a new request._
+> 🚧 *Important*
+>
+> *The**Reset my password** activation link in the received email is available once per 24 hours only. After that, you need to submit a new request.*
