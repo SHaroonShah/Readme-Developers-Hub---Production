@@ -4,3 +4,4 @@
 - put_v4-shippinglocations-shippinglocationid
 - delete_v4-shippinglocations-shippinglocationid
 - get_v4-shippinglocations-shippinglocationid-shippingaccounts
+- get_v4-shippinglocations-carriercode
