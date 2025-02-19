@@ -16,56 +16,26 @@ To change the password, follow the steps as explained in the following procedure
 
 1. In the application header, select the user icon. In the dropdown menu that opens, select **Change Password**.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/fbd8fe18894e83420059e7b25295e31b6f258429703e28b7ef21b88ace2d2bbc-Change_password_option.png",
-        "",
-        "Changing password"
-      ],
-      "align": "center",
-      "sizing": "150px",
-      "border": true,
-      "caption": "Changing password"
-    }
-  ]
-}
-[/block]
-
+<Image alt="Changing password" align="center" width="150px" border={true} src="https://files.readme.io/fbd8fe18894e83420059e7b25295e31b6f258429703e28b7ef21b88ace2d2bbc-Change_password_option.png">
+  Changing password
+</Image>
 
 2. In the **Change Password** form that opens, enter the necessary information as explained in the following table.
 
-> 🚧 _Important_
-> 
-> _Before you set or change your password, ensure the following: _
-> 
-> 1. _Use a password manager to secure your password in an encrypted format. _
-> 2. _Include a mix of characters, such as a combination of uppercase, lowercase, number, and special characters._
-> 3. _Avoid common words or phrases._
-> 4. _Monitor for breaches._
+> 🚧 *Important*
+>
+> *Before you set or change your password, ensure the following:*
+>
+> 1. *Use a password manager to secure your password in an encrypted format.*
+> 2. *Include a mix of characters, such as a combination of uppercase, lowercase, number, and special characters.*
+> 3. *Avoid common words or phrases.*
+> 4. *Monitor for breaches.*
 
 <br />
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/5d2b94ec1944f824776030f65f260caf76d36fb7d893dbfc6bc1a6f0e3676db4-Change_password_dialog.png",
-        "",
-        "Entering new password"
-      ],
-      "align": "center",
-      "sizing": "300px",
-      "border": true,
-      "caption": "Entering new password"
-    }
-  ]
-}
-[/block]
-
+<Image alt="Entering new password" align="center" width="300px" border={true} src="https://files.readme.io/5d2b94ec1944f824776030f65f260caf76d36fb7d893dbfc6bc1a6f0e3676db4-Change_password_dialog.png">
+  Entering new password
+</Image>
 
 <AsteridkForMandatoryElements />
 
