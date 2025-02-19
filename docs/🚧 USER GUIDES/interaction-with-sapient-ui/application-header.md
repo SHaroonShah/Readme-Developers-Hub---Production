@@ -14,19 +14,6 @@ metadata:
 next:
   description: ''
 ---
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/9131d5540865fd88c7c0cc07cb2b3478ad05e761cab1fa56ac5e9604ddab3a9a-Application_header.png",
-        "",
-        "Application header components"
-      ],
-      "align": "center",
-      "sizing": "1000px",
-      "caption": "Application header components"
-    }
-  ]
-}
-[/block]
+<Image alt="Application header components" align="center" width="1000px" src="https://files.readme.io/9131d5540865fd88c7c0cc07cb2b3478ad05e761cab1fa56ac5e9604ddab3a9a-Application_header.png">
+  Application header components
+</Image>
