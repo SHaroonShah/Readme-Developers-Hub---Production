@@ -26,22 +26,7 @@ Improvement to Shipment Processing UI, Narrow by Service will display the first 
 
 New International Letter-boxable services have been added to the Royal Mail integration. These can be used for sending single-package shipments to international destinations.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/9c4301b-image.png",
-        null,
-        ""
-      ],
-      "align": "center",
-      "border": true
-    }
-  ]
-}
-[/block]
-
+<Image align="center" className="border" border={true} src="https://files.readme.io/9c4301b-image.png" />
 
 ***
 
@@ -79,7 +64,7 @@ The maximum length of the address fields in the Royal Mail Create Shipment reque
 
 This has been updated in the Shipper Address, Destination Address and Return to Sender Address objects. 
 
-**For more information, see the [API Reference](https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts) page and the Royal Mail API section.**
+**For more information, see the[API Reference](https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts) page and the Royal Mail API section.**
 
 ***
 
@@ -109,21 +94,21 @@ If the tracking webhook is deactivated due to one or more failed attempts to sen
 
 The Hurricane services Item Verification, Prohibited Items and Denied Parties checks can now be configured to run as part of the shipment creation process. For these checks to run, Hurricane services will first need to be enabled on the customer’s account. The customer will then need to enable each check individually in the Hurricane integration screen. Once a Hurricane service has been enabled, Sapient will automatically run that data check each time a dutiable international shipment is created. 
 
-> 📘 _Note_
-> 
-> _For more information please contact our [Sales ](onboardng@intersoft.co.uk)team._
+> 📘 *Note*
+>
+> *For more information please contact our[Sales ](onboardng@intersoft.co.uk)team.*
 
 If the Hurricane Item Verification check is enabled, then customers can view details of the HS Code and Item Description changes made by Hurricane from the Shipment Processing screen and choose whether to accept or reject the changes. If the customer chooses to revert to the original values, they can re-print customs documents to ensure this contains the correct data.
 
-> 🚧 _Important_
-> 
-> _The Hurricane data checks can also be completed outside of the shipment creation process by calling the Hurricane Services APIs – see the API Reference section for more details._
+> 🚧 *Important*
+>
+> *The Hurricane data checks can also be completed outside of the shipment creation process by calling the Hurricane Services APIs – see the API Reference section for more details.*
 
 ***
 
 ## EORI Number Format Validation Added to API and UI
 
-When an **EORI **number is provided in either the createShipment request or Customs Settings UI, Pro Shipping will validate that the number is in a valid format and return an error if the **EORI **number is not valid.
+When an **EORI** number is provided in either the createShipment request or Customs Settings UI, Pro Shipping will validate that the number is in a valid format and return an error if the **EORI** number is not valid.
 
 ***
 
@@ -137,9 +122,9 @@ A new API has been added to allow customers who are using Royal Mail offline bar
 
 The following updates have been made to the Royal Mail integration, in accordance with Royal Mail’s latest specifications:
 
-- The maximum weight of the Tracked Returns 24 and 48 services has been changed from 30kg to 20 kg.
-- The Special Delivery Uncommon Services LA1-LA6 have been removed, as Royal Mail have withdrawn these.
-- The Consequential Loss service enhancements have been added. For more information on the available service enhancements, see the API Reference page, Royal Mail createShipment API schema and the carrierSpecifics element.
+* The maximum weight of the Tracked Returns 24 and 48 services has been changed from 30kg to 20 kg.
+* The Special Delivery Uncommon Services LA1-LA6 have been removed, as Royal Mail have withdrawn these.
+* The Consequential Loss service enhancements have been added. For more information on the available service enhancements, see the API Reference page, Royal Mail createShipment API schema and the carrierSpecifics element.
 
 ***
 
@@ -159,8 +144,8 @@ The **Edit Shipping Location UI** screen has been updated to allow shipping loca
 
 The following updates have been made to the Royal Mail integration, in accordance with Royal Mail’s latest specifications:
 
-- The maximum weight of the **Special Delivery Guaranteed** services has been increased from 10KG to 20KG
-- The **Tracked 24** and **48 Returns** labels have been updated to match Royal Mail’s latest format. These labels will now contain the gazetteer information (in the same way as this is currently provided for outbound labels) and some minor formatting and wording changes have been made.
+* The maximum weight of the **Special Delivery Guaranteed** services has been increased from 10KG to 20KG
+* The **Tracked 24** and **48 Returns** labels have been updated to match Royal Mail’s latest format. These labels will now contain the gazetteer information (in the same way as this is currently provided for outbound labels) and some minor formatting and wording changes have been made.
 
 ***
 
@@ -194,14 +179,14 @@ The Edit Shipping Account UI screen has been updated to allow shipping accounts 
 
 The following changes have been made to the validation of Shipping Accounts that have the Account Type set as Sandbox:
 
-- For Royal Mail Sandbox shipping accounts, the Department Number sent in the createShipment request does not need to be a valid Department for the Royal Mail account
-- It will now be possible for a shipping account to be changed from Production to Sandbox if Production shipments have been created for the account. When this is done, the Production shipments will still be available for manifesting in the Manifesting UI.
+* For Royal Mail Sandbox shipping accounts, the Department Number sent in the createShipment request does not need to be a valid Department for the Royal Mail account
+* It will now be possible for a shipping account to be changed from Production to Sandbox if Production shipments have been created for the account. When this is done, the Production shipments will still be available for manifesting in the Manifesting UI.
 
 ***
 
 ## OBA Access Code Feature Improvements
 
-The process for requesting an OBA access code when onboarding Royal Mail customers in SAPIENT has been updated. When an OBA is requested the user linked to the RM account will receive an email confirmation automatically when the OBA code has been generated. This code is a 7-digit code.  
+The process for requesting an OBA access code when onboarding Royal Mail customers in SAPIENT has been updated. When an OBA is requested the user linked to the RM account will receive an email confirmation automatically when the OBA code has been generated. This code is a 7-digit code.\
 These changes are designed to make the OBA Access Code request process smoother and more efficient.
 
 ***
@@ -212,10 +197,10 @@ Hurricane Commerce is the international data partner for postal operators, onlin
 
 Hurricane is now fully integrated with Sapient, providing a suite of APIs to allow:
 
-- HS Code look-up and validation.
-- Prohibited & Restricted goods screening.
-- Denied Parties screening.
-- Full Landed-Cost duty and tax calculations
+* HS Code look-up and validation.
+* Prohibited & Restricted goods screening.
+* Denied Parties screening.
+* Full Landed-Cost duty and tax calculations
 
 ***
 
