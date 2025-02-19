@@ -14,22 +14,7 @@ metadata:
 next:
   description: ''
 ---
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/52ad6b6ebfdbf46379079a883536233d11c1742aaa2b1359159df5a653b16609-image.png",
-        null,
-        ""
-      ],
-      "align": "center",
-      "sizing": "100px"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="100px" src="https://files.readme.io/52ad6b6ebfdbf46379079a883536233d11c1742aaa2b1359159df5a653b16609-image.png" />
 
 ***
 
@@ -39,12 +24,12 @@ In SAPIENT, you can integrate with various available DX Express services and fea
 
 In this section, learn how to:
 
-- [Add DX shipping account](https://docs.intersoftsapient.net/docs/shipping-accounts-5)
-- [Add DX tracking account](https://docs.intersoftsapient.net/docs/tracking-1)
+* [Add DX shipping account](https://docs.intersoftsapient.net/docs/shipping-accounts-5)
+* [Add DX tracking account](https://docs.intersoftsapient.net/docs/tracking-1)
 
 ***
 
 ## See also
 
-- [DX rate limiting](https://docs.intersoftsapient.net/docs/dx-rate-limit)
-- [Set up DX API credentials](https://docs.intersoftsapient.net/docs/setting-up-dx-api-credentials)
+* [DX rate limiting](https://docs.intersoftsapient.net/docs/dx-rate-limit)
+* [Set up DX API credentials](https://docs.intersoftsapient.net/docs/setting-up-dx-api-credentials)
