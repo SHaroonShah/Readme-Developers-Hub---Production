@@ -19,13 +19,13 @@ next:
 
 Setting up a rate limit has many benefits, but the most primary ones include the following:
 
-- **Preventing system abuse**: rate limiting helps protect the API from malicious users, bots, or applications that may overwhelm the server with excessive requests.
-- **Maintaining performance**: by controlling the flow of requests, rate limiting helps maintain the overall performance and responsiveness of the API for all users.
-- **Resource management**: rate limiting aids in managing and shifting server resources to prevent overloading, which could eventually lead to poor performance or service outages.
+* **Preventing system abuse**: rate limiting helps protect the API from malicious users, bots, or applications that may overwhelm the server with excessive requests.
+* **Maintaining performance**: by controlling the flow of requests, rate limiting helps maintain the overall performance and responsiveness of the API for all users.
+* **Resource management**: rate limiting aids in managing and shifting server resources to prevent overloading, which could eventually lead to poor performance or service outages.
 
 ## Role of TPS in rate limiting
 
-_Transactions per second_ or _TPS_ is a performance metric used to measure the number of requests that an application can handle in one second. This is crucial for understanding the capacity and performance capabilities of the software’s API.
+*Transactions per second* or *TPS* is a performance metric used to measure the number of requests that an application can handle in one second. This is crucial for understanding the capacity and performance capabilities of the software’s API.
 
 Moreover, knowing the TPS helps in predicting the number of users or transactions the API can handle concurrently. Specially, for the carrier management platforms, it can establish a baseline for testing the API under various conditions to ensure it can cope up with anticipated traffic peaks, such as Christmas, new year, and other peak days.
 
@@ -33,12 +33,12 @@ Moreover, knowing the TPS helps in predicting the number of users or transaction
 
 If rate limiting is not appropriately configured or enforced, it may fail to throttle excessive users effectively leading to the following issues:
 
-- Performance degradation
-- Service outages
-- Data integrity issues
-- Increased cost
-- Security vulnerability
-- Coordination challenges at peak times
+* Performance degradation
+* Service outages
+* Data integrity issues
+* Increased cost
+* Security vulnerability
+* Coordination challenges at peak times
 
 ## Handling rate limits
 
@@ -68,24 +68,9 @@ Rate limits can be handled by both client and the server. For you to handle your
 
 Intersoft enforces limits on the API calls a customer can make based on their subscription settings. The limits apply to the use of the **CreateShipment** API.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/719a12c369c234e47811487ce0fd5676ff2279762a470472873b90f2f3066148-Throttling.png",
-        "",
-        "Throttling additional requests"
-      ],
-      "align": "center",
-      "sizing": "600px",
-      "border": true,
-      "caption": "Throttling additional requests"
-    }
-  ]
-}
-[/block]
-
+<Image alt="Throttling additional requests" align="center" width="600px" border={true} src="https://files.readme.io/719a12c369c234e47811487ce0fd5676ff2279762a470472873b90f2f3066148-Throttling.png">
+  Throttling additional requests
+</Image>
 
 Our rate limiting policy is designed to strike a balance between providing access to our services and ensuring their reliability and performance. It is a critical component of responsible API usage, and we appreciate your cooperation in adhering to the following limits. 
 
@@ -93,9 +78,9 @@ Our rate limiting policy is designed to strike a balance between providing acces
 | :---------------------: | :--------------------------: | :------------------------------------------ |
 |            60           |               6              | Default for all existing and new customers. |
 
-> 📘 _Note_
-> 
-> _The rate limit mentioned in the preceding table is Intersoft specific. Some carriers may have their own rate limits and additional carrier limitations. If the existing rate limit do not fit your needs, please reach out to our customers solutions team. _
+> 📘 *Note*
+>
+> *The rate limit mentioned in the preceding table is Intersoft specific. Some carriers may have their own rate limits and additional carrier limitations. If the existing rate limit do not fit your needs, please reach out to our customers solutions team.*
 
 # Frequently asked questions (FAQs)
 
