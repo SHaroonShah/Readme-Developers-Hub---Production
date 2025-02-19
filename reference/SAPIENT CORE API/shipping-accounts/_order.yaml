@@ -1,2 +1,3 @@
 - get_v4-shippingaccounts
 - put_v4-shippingaccounts-carriercode-shippingaccountid-unlinklocations
+- delete_v4-shippingaccounts-carriercode-shippingaccountid
