@@ -16,17 +16,17 @@ metadata:
 next:
   description: ''
 ---
-Royal Mail have a set of import services. These are used for <<glossary:shipments>> that are imported and delivered into the UK  as a domestic shipments. For shipments using these services with a shipment value of £135 or under, Royal Mail uses the label image to be a combined label by integrating the Royal Mail domestic tracked label with a <<glossary:CN22>> customs form into a single 6x4, ensuring compliance for international shipments.
+Royal Mail have a set of import services. These are used for <Glossary>shipments</Glossary> that are imported and delivered into the UK  as a domestic shipments. For shipments using these services with a shipment value of £135 or under, Royal Mail uses the label image to be a combined label by integrating the Royal Mail domestic tracked label with a <Glossary>CN22</Glossary> customs form into a single 6x4, ensuring compliance for international shipments.
 
-> 🚧 _Important_
-> 
-> _Before using the combined label, be mindful of the following:_
-> 
-> 1. _You are a Royal Mail Freight 2 Post customer._
-> 2. _The shipment you have created contains up to 8 items._
-> 3. _The label format is requested in the PDF format._
-> 4. _If the import services are being used and the shipment does not meet the requirements for a combined label, you will receive a standard shipping label and <<glossary:CN23>> customs documentation as you have so far._
-> 5. _The existing procedures for shipments over £135 will remain unchanged, ensuring that those shipments continue to follow the established guidelines._
+> 🚧 *Important*
+>
+> *Before using the combined label, be mindful of the following:*
+>
+> 1. *You are a Royal Mail Freight 2 Post customer.*
+> 2. *The shipment you have created contains up to 8 items.*
+> 3. *The label format is requested in the PDF format.*
+> 4. *If the import services are being used and the shipment does not meet the requirements for a combined label, you will receive a standard shipping label and<Glossary>CN23</Glossary> customs documentation as you have so far.*
+> 5. *The existing procedures for shipments over £135 will remain unchanged, ensuring that those shipments continue to follow the established guidelines.*
 
 The combined label can be used over a multiple range of import services as explained in the following table: 
 
@@ -62,20 +62,6 @@ The combined label can be used over a multiple range of import services as expla
 
 For customers and businesses using Royal Mail for their shipping needs, this combined label offers a more efficient process, simplifying documentation and tracking for lower-value shipments. It is crucial to stay informed about this update and to prepare for the necessary adjustments in operations to accommodate the new label format.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/a76f471cddaa9df9193944a1f9b9c45194007a8eb549f646ee45c149bfc733a0-Combined_label_template-1.png",
-        "",
-        "Combined label example"
-      ],
-      "align": "center",
-      "sizing": "450px",
-      "border": true,
-      "caption": "Combined label example"
-    }
-  ]
-}
-[/block]
+<Image alt="Combined label example" align="center" width="450px" border={true} src="https://files.readme.io/a76f471cddaa9df9193944a1f9b9c45194007a8eb549f646ee45c149bfc733a0-Combined_label_template-1.png">
+  Combined label example
+</Image>
