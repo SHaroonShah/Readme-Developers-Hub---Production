@@ -4,3 +4,5 @@
 - put_v4-shippingaccounts-dx-shippingaccountid
 - post_v4-shippingaccounts-dx-shippingaccountid-linklocations
 - get_v4-shippingaccounts-dx-shippingaccountid-shippinglocations
+- >-
+  get_v4-shippingaccounts-dx-shippingaccountid-shippinglocations-shippinglocationid
