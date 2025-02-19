@@ -19,67 +19,24 @@ To delete a user in SAPIENT, follow the steps as explained in the following proc
 
 1. In the left navigation panel, select **Users**.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/dda0e89b323a4d869472cc629a9fc0349403f8ba24930ac43a31a8f9a7542929-Users_option.png",
-        "",
-        "Accessing users"
-      ],
-      "align": "center",
-      "border": true,
-      "caption": "Accessing users"
-    }
-  ]
-}
-[/block]
+<Image alt="Accessing users" align="center" border={true} src="https://files.readme.io/dda0e89b323a4d869472cc629a9fc0349403f8ba24930ac43a31a8f9a7542929-Users_option.png">
+  Accessing users
+</Image>
 
+2. On the **Users** page that appears, from the list select the user that you want to delete, and then in the **Edit User\[user name]** form that opens, select ![alt text](https://files.readme.io/ba995922a9d4d840facdf2ad9a4ffdef969eb24477c4b85ba42682221649265f-Delete_user_button.png).
 
-2. On the **Users** page that appears, from the list select the user that you want to delete, and then in the **Edit User [user name]** form that opens, select ![alt text](https://files.readme.io/ba995922a9d4d840facdf2ad9a4ffdef969eb24477c4b85ba42682221649265f-Delete_user_button.png).
-
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/d648002a464a94ba8d34ec471c3b706d61d33ad19f466980e47014be2bd05d4d-Deleting_user.png",
-        "",
-        "Selecting option to add user"
-      ],
-      "align": "center",
-      "border": true,
-      "caption": "Deleting user"
-    }
-  ]
-}
-[/block]
-
+<Image alt="Selecting option to add user" align="center" border={true} src="https://files.readme.io/d648002a464a94ba8d34ec471c3b706d61d33ad19f466980e47014be2bd05d4d-Deleting_user.png">
+  Deleting user
+</Image>
 
 3. In the confirmation dialog that appears, select **Yes** to confirm your action.
 
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/e9750d4607f346cdcbf80a135558cbd56e48072b8cd7256d0d3c1d982123350e-Confirming_user_deletion.png",
-        "",
-        "Confirming user deletion"
-      ],
-      "align": "center",
-      "sizing": "350px",
-      "border": true,
-      "caption": "Confirming user deletion"
-    }
-  ]
-}
-[/block]
-
+<Image alt="Confirming user deletion" align="center" width="350px" border={true} src="https://files.readme.io/e9750d4607f346cdcbf80a135558cbd56e48072b8cd7256d0d3c1d982123350e-Confirming_user_deletion.png">
+  Confirming user deletion
+</Image>
 
 Once confirmed, the user is deleted successfully and is no longer displayed in the **Users** list.
 
 ## See also
 
-- [Add user](https://docs.intersoftsapient.net/docs/add-users-to-your-organisation-to-begin-collaborating-with-your-team)
+* [Add user](https://docs.intersoftsapient.net/docs/add-users-to-your-organisation-to-begin-collaborating-with-your-team)
