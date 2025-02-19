@@ -19,22 +19,7 @@ next:
       slug: shipping-account-setup-1
       title: Yodel shipping account setup
 ---
-[block:image]
-{
-  "images": [
-    {
-      "image": [
-        "https://files.readme.io/6bb2b97788b8ae71adbb45e1d2c1d8095e6ea532a364aafbf784365c823c24ba-image.png",
-        null,
-        ""
-      ],
-      "align": "center",
-      "sizing": "120px"
-    }
-  ]
-}
-[/block]
-
+<Image align="center" width="120px" src="https://files.readme.io/6bb2b97788b8ae71adbb45e1d2c1d8095e6ea532a364aafbf784365c823c24ba-image.png" />
 
 ***
 
@@ -42,5 +27,5 @@ In SAPIENT, you can integrate with various available YODEL services and features
 
 In this section, learn how to: 
 
-- [Add YODEL shipping account](https://docs.intersoftsapient.net/docs/shipping-account-setup-1)
-- [Add YODEL tracking account](https://docs.intersoftsapient.net/docs/tracking)
+* [Add YODEL shipping account](https://docs.intersoftsapient.net/docs/shipping-account-setup-1)
+* [Add YODEL tracking account](https://docs.intersoftsapient.net/docs/tracking)
