@@ -17,7 +17,7 @@ next:
 ---
 Royal Mail works in collaboration with the Ministry of Defence to provide BFPO services, handling the logistics of BFPO mail delivery; and as a part of its broader mailing services network, it ensures that military personnel receive their correspondence and packages in a timely manner.
 
-In SAPIENT, you can use the **createShipment** request to facilitate the BFPO <<glossary:shipments>>. 
+In SAPIENT, you can use the **createShipment** request to facilitate the BFPO <Glossary>shipments</Glossary>. 
 
 The British Forces Post Office® (BFPO) offers discounted mail delivery up to 2kg. 
 
@@ -25,11 +25,11 @@ The services that can be used for BFPO destinations are all domestic services, i
 
 The **createShipment** request must contain the destination information in the following format:
 
-**ContactName**: service number, rank, and name.  
-**Address Line1**: Unit or Regiment.  
-**Town**: Operation or location name (if applicable).  
+**ContactName**: service number, rank, and name.\
+**Address Line1**: Unit or Regiment.\
+**Town**: Operation or location name (if applicable).\
 **Postcode**: BFPO postcode.
 
-> 🚧 _Important_
-> 
-> _The shipments to BFPO locations are supported by all Royal Mail domestic services and are not restricted to BF services only. Although RM allows customers to use a domestic service to ship to BFPO, you are advised to provide certain information that you would otherwise provide for the international shipments, such as the reason for export. This will return the response with the relevant documents and <<glossary:CN23>> that must be attached to the parcel._
+> 🚧 *Important*
+>
+> *The shipments to BFPO locations are supported by all Royal Mail domestic services and are not restricted to BF services only. Although RM allows customers to use a domestic service to ship to BFPO, you are advised to provide certain information that you would otherwise provide for the international shipments, such as the reason for export. This will return the response with the relevant documents and<Glossary>CN23</Glossary> that must be attached to the parcel.*
