@@ -1,2 +1,3 @@
 - post_v4-shipments-rm
 - get_v4-shipments-printlabel-rm-shipmentid
+- get_v4-shipments-printmylabelqrcode-rm-shipmentid
