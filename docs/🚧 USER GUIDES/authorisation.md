@@ -16,12 +16,12 @@ next:
 ---
 To sign in to the SAPIENT platform, there several important factors that deals with what you can see and how much you can perform within the system.
 
-- The URL of the specific environment: <<glossary:development>>, <<glossary:test>>, or <<glossary:production>> environment.
-- The type of users attempting to access SAPIENT: <<glossary:admin>> or a <<glossary:customer>> .
+* The URL of the specific environment: <Glossary>development</Glossary>, <Glossary>test</Glossary>, or <Glossary>production</Glossary> environment.
+* The type of users attempting to access SAPIENT: <Glossary>admin</Glossary> or a <Glossary>customer</Glossary> .
 
 In this section, learn how to: 
 
-- [Log in to SAPIENT](https://docs.intersoftsapient.net/docs/log-in)
-- [Change password](https://docs.intersoftsapient.net/docs/change-password)
-- [Reset password](https://docs.intersoftsapient.net/docs/reset-password)
-- [Log out](https://docs.intersoftsapient.net/docs/log-out)
+* [Log in to SAPIENT](https://docs.intersoftsapient.net/docs/log-in)
+* [Change password](https://docs.intersoftsapient.net/docs/change-password)
+* [Reset password](https://docs.intersoftsapient.net/docs/reset-password)
+* [Log out](https://docs.intersoftsapient.net/docs/log-out)
