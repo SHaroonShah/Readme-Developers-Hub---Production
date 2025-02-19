@@ -1,3 +1,4 @@
 - get_v4-addresses
 - post_v4-addresses
 - delete_v4-addresses-addressid
+- get_v4-addresses-addressid
