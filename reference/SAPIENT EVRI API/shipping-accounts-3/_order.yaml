@@ -4,3 +4,5 @@
 - put_v4-shippingaccounts-evri-shippingaccountid
 - post_v4-shippingaccounts-evri-shippingaccountid-linklocations
 - get_v4-shippingaccounts-evri-shippingaccountid-shippinglocations
+- >-
+  get_v4-shippingaccounts-evri-shippingaccountid-shippinglocations-shippinglocationid
