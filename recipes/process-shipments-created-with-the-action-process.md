@@ -3,7 +3,7 @@ title: Process shipments created with the action “Process”
 description: >-
   Execute actions on shipments that have been created and marked for processing
   within Sapient.
-hidden: true
+hidden: false
 recipe:
   color: '#939495'
   icon: 📮
