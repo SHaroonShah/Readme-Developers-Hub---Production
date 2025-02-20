@@ -3,7 +3,7 @@ title: Book collection with automatic collection date
 description: >-
   Schedule a collection for shipment pickup with the system selecting the
   earliest available date automatically.
-hidden: true
+hidden: false
 recipe:
   color: '#939495'
   icon: 📦
