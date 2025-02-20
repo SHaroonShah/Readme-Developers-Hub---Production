@@ -21,7 +21,7 @@ Generating a bearer token is essential for securely managing access to APIs, all
 >
 > *This section explains the process of generating the bearer token via the Postman application. You may use other platforms to generate the bearer token, if applicable.*
 
-To generate the bearer token via the Postman application, follow the instructions as explained in the following procedure. 
+To generate the bearer token via the Postman application, follow the instructions as explained in the following procedure.
 
 1. Launch the Postman application or log in into your Postman account. If you have selected the online version, make sure to activate your account.
 
@@ -29,17 +29,13 @@ To generate the bearer token via the Postman application, follow the instruction
 >
 > If you do not have the Postman application, you can download it [here](https://www.postman.com/downloads/) or register for an online Postman account, respectively.
 
-1. After successfully logging in, on your workspace toolbar, select **New** > **HTTP** . Alternatively, on your workspace, select **+** tab to add a new HTTP request tab. 
+1. After successfully logging in, on your workspace toolbar, select **New** > **HTTP** . Alternatively, on your workspace, select **+** tab to add a new HTTP request tab.
 
-<Image alt="Creating new HTTP request in Postman" align="center" border={true} src="https://files.readme.io/93a14a1a00ff5ad67a4e5ad4a74677828b0e364b445c378ee24cd5795fe6acd5-New_HTTP_request_option.png">
-  Creating new HTTP request in Postman
-</Image>
+<Image align="center" alt="Creating new HTTP request in Postman" border={true} caption="Creating new HTTP request in Postman" src="https://files.readme.io/93a14a1a00ff5ad67a4e5ad4a74677828b0e364b445c378ee24cd5795fe6acd5-New_HTTP_request_option.png" />
 
 2. In the new request tab that opens, from the left dropdown menu, select **POST** and enter the following URL in the **Enter request URL** field.
 
-<Image alt="Entering URL" align="center" border={true} src="https://files.readme.io/ab6a0e55d341d8aaf0cddbe95208ebc3c035155faeb32dd652bf011f79369dec-Postman_dropdown.png">
-  Entering URL
-</Image>
+<Image align="center" alt="Entering URL" border={true} caption="Entering URL" src="https://files.readme.io/ab6a0e55d341d8aaf0cddbe95208ebc3c035155faeb32dd652bf011f79369dec-Postman_dropdown.png" />
 
 3. Now, select the **Body** tab and then click the **x-www-form-urlencoded** option. In the table that appears, enter the following key-value pairs in the **KEY** column:
 
@@ -47,21 +43,17 @@ To generate the bearer token via the Postman application, follow the instruction
 * **client\_secret**
 * **grant\_type**
 
-After, in the VALUE column, enter the credentials generated via the [SAPIENT API Credentials](https://docs.intersoftsapient.net/docs/create-api-credentials) functionality. For the **grant\_type** key, set the value to **client-credentials**. 
+After, in the VALUE column, enter the credentials generated via the [SAPIENT API Credentials](https://docs.intersoftsapient.net/docs/create-api-credentials) functionality. For the **grant\_type** key, set the value to **client-credentials**.
 
-<Image alt="Adding keys value pairs" align="center" border={true} src="https://files.readme.io/ca361ef126d7b2b88c83d9c6b38ae3e56a4e1d5a0e38b0beed057fc05b86067c-Adding_key_value_pairs.png">
-  Adding keys value pairs
-</Image>
+<Image align="center" alt="Adding keys value pairs" border={true} caption="Adding keys value pairs" src="https://files.readme.io/ca361ef126d7b2b88c83d9c6b38ae3e56a4e1d5a0e38b0beed057fc05b86067c-Adding_key_value_pairs.png" />
 
 5. After entering the necessary information, select **Send**.
 
 {/*-*/}
 
-5. If the credentials match the ones that have been set in the **Create API Credentials** functionality, then the bearer token is returned in the response.
+6. If the credentials match the ones that have been set in the **Create API Credentials** functionality, then the bearer token is returned in the response.
 
-<Image alt="Bearer token response example" align="center" border={true} src="https://files.readme.io/b8499e2-image.png">
-  Bearer token response example
-</Image>
+<Image align="center" alt="Bearer token response example" border={true} caption="Bearer token response example" src="https://files.readme.io/b8499e2-image.png" />
 
 7. The **expires in** value returned in the preceding token response is the amount of time the token is valid in seconds (that is, 3600 seconds = 60 minutes).
 
@@ -71,8 +63,6 @@ After, in the VALUE column, enter the credentials generated via the [SAPIENT API
 
 8. You can use the generated bearer token provided in the [API References](https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts) section for testing purposes.
 
-<Image alt="Sample bearer token" align="center" width="50% " border={true} src="https://files.readme.io/c67152f-image.png">
-  Bearer token sample
-</Image>
+<Image align="center" alt="Sample bearer token" border={true} caption="Bearer token sample" src="https://files.readme.io/c67152f-image.png" width="50% " />
 
 Once the bearer token has been generated successfully, you can now use it for authentication purposes.
