@@ -16,8 +16,8 @@ next:
 
 <details>
 <summary>A</summary>
-<br>
-
+<br/>
+ 
 * **Account type**. A classification of a shipping account. SAPIENT allows for two account types—Sandbox and Production. When a Shipping Account is set as Sandbox, it can only be used to create test shipments or while testing your integrations with our API. The shipping account still needs to be linked to a shipping location and approved by the carrier before it can be used for shipments.
 * **Admin**. The owner of the system, who is responsible for configuring the system and manage access permissions.
 * **All tracking events**. A setting that enables the monitoring and logging of every possible event related to a shipment throughout its lifecycle, for example, shipment announced, shipment departed depot, delivered to safe place, and others.
@@ -29,7 +29,7 @@ next:
 
 <details>
 <summary>B</summary>
-<br>
+<br/>
 
 * **Bearer token**. A type of access token that is used in the authentication and authorisation processes for APIs. It is a string that provides the user or system the identity to access to sensitive resources or actions on a server. Bearer tokens are commonly used in the token-based authentication systems, such as OAuth2.
 
@@ -39,7 +39,7 @@ next:
 
 <details>
 <summary>C</summary>
-<br>
+<br/>
 
 * **Carrier**. A company that provide transportation services for cargo either by land, sea, or air.
 * **Commercial invoice**. A document provided by the seller to the buyer that details the sale transaction, including item descriptions, quantities, and prices, used for customs declaration. The commercial invoice records accounts receivable for the seller (sender) and accounts payable for the buyer. The content of commercial invoice is almost the same as proforma invoice. However, the final sale price may vary with the proforma invoice, as proforma invoice is issued prior to actual sale taking place.
@@ -58,7 +58,7 @@ next:
 
 <details>
 <summary>D</summary>
-<br>
+<br/>
 
 * **Data stream**. A continuous flow of data transmitted from one point to another, essential for tracking, monitoring, and managing shipping information. data stream is only available if it has been activated on your account. Label components are broken down into a data stream for you to draw your own label.
 * **Default shipping location**. A primary location from where the shipments are despatched. A customer can have one default shipping location at any given time. Any of your shipping locations can be set as the default shipping location.
@@ -80,7 +80,7 @@ next:
 
 <details>
 <summary>E</summary>
-<br>
+<br/>
 
 * **Economic Operators Registration and Identification (EORI) number**. A European Union registration and identification number for businesses which undertake the import or export of goods into or out of the EU.
 * <br />
@@ -91,7 +91,7 @@ next:
 
 <details>
 <summary>F</summary>
-<br>
+<br/>
 
 *There are currently no abbreviations or terms available for this letter.* 
 
@@ -101,7 +101,7 @@ next:
 
 <details>
 <summary>G</summary>
-<br>
+<br/>
 
 * **Goods and services tax (GST) number**. A number assigned to businesses in countries like Australia, Canada, Hong Kong, New Zeeland, and a few others for tax collection on sales.
 
@@ -111,7 +111,7 @@ next:
 
 <details>
 <summary>H</summary>
-<br>
+<br/>
 
 * **Home collection**. A parcel service where the courier picks up your parcel directly from your doorstep and delivers it to your designated address.
 * **HS Code**. The Harmonized System (HS) Code used internationally to classify and describe traded products for customs purposes, aiding in tariff determination. The Harmonized System (HS) is an internationally standardised system of description and numbers and forms the first part of the 10-digit classification code when importing goods into the UK (8-digits when exporting from the UK). 
@@ -126,7 +126,7 @@ For more information, refer to [www.gov.uk/government/publications/rules-of-orig
 
 <details>
 <summary>I</summary>
-<br>
+<br/>
 
 * **ISO country code**. A two or three-letter code assigned by the International Organization for Standardization (ISO) to represent countries and some dependent territories. These codes saves time and avoids errors as instead of using a country’s name (which changes depending on the language being used). Additionally, these codes use a combination of letters and/or numbers that are understood all over the world. Postal organizations throughout the world exchange international mail in containers identified with the relevant country code.
 
@@ -149,7 +149,7 @@ For more information, refer to [www.incotermsexplained.com/the-incoterms-rules/i
 
 <details>
 <summary>J</summary>
-<br>
+<br/>
 
 *There are currently no abbreviations or terms available for this letter.*
 
@@ -159,7 +159,7 @@ For more information, refer to [www.incotermsexplained.com/the-incoterms-rules/i
 
 <details>
 <summary>K</summary>
-<br>
+<br/>
 
 *There are currently no abbreviations or terms available for this letter.*
 
@@ -169,7 +169,7 @@ For more information, refer to [www.incotermsexplained.com/the-incoterms-rules/i
 
 <details>
 <summary>L</summary>
-<br>
+<br/>
 
 * **Label**. A sticker that displays important information about a package’s destination to a carrier during transportation. It includes details such as names, addresses, tracking codes, and a scannable barcode with a tracking number.
 * **Label format**. A specific design and layout of shipping labels, including dimensions, barcode placement, and information display. This is the label format for the shipment that is returned upon successful creation of the shipment. The labels are returned as a base64 string that needs to be converted by your integration in the format they have been generated.
@@ -180,7 +180,7 @@ For more information, refer to [www.incotermsexplained.com/the-incoterms-rules/i
 
 <details>
 <summary>M</summary>
-<br>
+<br/>
 
 * **Multi piece shipment**. A shipment consisting of multiple individual items or packages that are grouped together (package) under a single consignment. All packages are classed as one shipment.
 * **Manifest**. A comprehensive document that lists all the cargo intended for transport on a specific vessel or vehicle and declares what shipments are ready for dispatch and will be handed over to the carrier. It includes details such as item descriptions, quantities, weights, and the origin and destination of the goods. Manifests are essential for customs clearance, inventory tracking, and ensuring compliance with shipping regulations.
@@ -192,7 +192,7 @@ For more information, refer to [www.incotermsexplained.com/the-incoterms-rules/i
 
 <details>
 <summary>N</summary>
-<br>
+<br/>
 
 * **Non-dutiable shipments**. Shipments that do not incur import duties or taxes upon entry into a foreign country, often due to specific exemptions or valuation thresholds. Applicable to DOX shipments to and from any destination, and domestic shipments of any type (DOX, NDX or HV) and EU to EU shipments of any type (DOX, NDX and HV).
 
@@ -202,7 +202,7 @@ For more information, refer to [www.incotermsexplained.com/the-incoterms-rules/i
 
 <details>
 <summary>O</summary>
-<br>
+<br/>
 
 * **One Stop Shop (OSS)**. An an online portal, developed from the existing Mini One Stop Shop, that allows online businesses to report certain B2C EU supplies in a single member state. As such, a single quarterly payment and VAT return is due for the supplies covered by OSS, rather than multiple local returns and endless payments.
 * **Online Business Account (OBA)**. An online account service provided by Royal Mail for businesses to manage their mailing needs, including shipping and tracking parcels. 
@@ -215,7 +215,7 @@ For more information, refer to [www.royalmail.com/discounts-payment/credit-accou
 
 <details>
 <summary>P</summary>
-<br>
+<br/>
 
 * **Package**. A unit or container that holds goods or items being shipped from one location to another location.
 * **Package type**. A specific format or style in which goods are shipped. The choice of package can significantly effect shipping costs, handling, and overall logistics. Few example of the package types are boxes, bags, crates, drums, and so on. Some carriers have rules around max weight and max dimensions allowed for a service. A shipment can have between 1 and 99 packages. All packages in the shipments must be within the limits for the selected service.
@@ -235,7 +235,7 @@ For more information, refer to [www.royalmail.com/discounts-payment/credit-accou
 
 <details>
 <summary>Q</summary>
-<br>
+<br/>
 
 *There are currently no abbreviations or terms available for this letter.*
 
@@ -245,7 +245,7 @@ For more information, refer to [www.royalmail.com/discounts-payment/credit-accou
 
 <details>
 <summary>R</summary>
-<br>
+<br/>
 
 * **Rest of the world (ROW)**. Refers to UK transports to and from countries that are not EU member states. Since 1st January 2021, UK is included in ROW.
 * **Reason for export**. A justification or explanation for the export of goods, often required for customs documentation to ensure compliance with regulations. This can be carrier specific and determines the tax if any applied by customs to the shipment. Royal Mail accepts the following reasons for exports. Gift, Commercial Sample, Documents, Sale of Goods, Return of Goods, Mixed Content, and others.
@@ -256,7 +256,7 @@ For more information, refer to [www.royalmail.com/discounts-payment/credit-accou
 
 <details>
 <summary>S</summary>
-<br>
+<br/>
 
 * **Sandbox**. A SAPIENT configuration environment in which the implemented features and changes are tested by the Quality Assurance team.
 * **Service enhancements**. Additional features or services offered by the carriers to improve the shipping experience, such as tracking upgrades, SMS notifications, email notification, signature on receipt, and so on. You must specify what enhancements you want to add to your shipments. The enhancement must be available for the carrier and service used to create the shipment.
@@ -274,7 +274,7 @@ For more information, refer to [www.royalmail.com/discounts-payment/credit-accou
 
 <details>
 <summary>T</summary>
-<br>
+<br/>
 
 * **Tracking account**. A dedicated account that helps users, businesses, or customers to monitor and manage the status of shipments in real-time. This account provides access to tracking information for parcels and freight moving through logistics network or with specific carriers.
 * **Tracking webhook**. A valuable tool for receiving real-time updates and data from various services and applications. It allows you to automate workflows, integrate systems, and stay up to date on important events.
@@ -287,7 +287,7 @@ For more information, refer to [www.royalmail.com/discounts-payment/credit-accou
 
 <details>
 <summary>U</summary>
-<br>
+<br/>
 
 * **Universal Postal Union (UPU)**. A primary forum for cooperation between postal sector players. It helps to ensure a truly universal network of up-to-date products and services.
 
@@ -299,7 +299,7 @@ For more information, refer to [www.royalmail.com/discounts-payment/credit-accou
 
 <details>
 <summary>V</summary>
-<br>
+<br/>
 
 * **Value Added Tax (VAT) number**. A unique identifier assigned to a business or individual registered for Value Added Tax, necessary for conducting tax-exempt or taxable transactions.
 
@@ -309,7 +309,7 @@ For more information, refer to [www.royalmail.com/discounts-payment/credit-accou
 
 <details>
 <summary>W</summary>
-<br>
+<br/>
 
 * **What3words**. A three-word proprietary geocode system designed to identify any location on the surface of Earth with a resolution of about 3 metres. For example, 10 Downing Street is slurs.this.shark and Wembley Stadium is villa.first.mount.
 
@@ -319,7 +319,7 @@ For more information, refer to [www.royalmail.com/discounts-payment/credit-accou
 
 <details>
 <summary>X</summary>
-<br>
+<br/>
 
 *There are currently no abbreviations or terms available for this letter.*
 
@@ -329,7 +329,7 @@ For more information, refer to [www.royalmail.com/discounts-payment/credit-accou
 
 <details>
 <summary>Y</summary>
-<br>
+<br/>
 
 *There are currently no abbreviations or terms available for this letter.*
 
@@ -339,7 +339,7 @@ For more information, refer to [www.royalmail.com/discounts-payment/credit-accou
 
 <details>
 <summary>Z</summary>
-<br>
+<br/>
 
 * **ZPL300DPI**. A Base 64 encoded text for Zebra printer at 300 DPI – ZPL (Zebra Programming Language) the printing control language used by Zebra printers.
 * **ZPL203DPI**. A Base 64 encoded text for Zebra printer at 203 DPI – ZPL (Zebra Programming Language) the printing control language used by Zebra printers.
