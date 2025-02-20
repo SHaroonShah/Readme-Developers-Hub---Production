@@ -19,7 +19,7 @@ In SAPIENT, you can create a shipping account with Royal Mail, assign your Royal
 > *Before you can set up a shipping account, you must ensure you have[enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with Royal Mail.*
 
 To add a shipping account for Royal Mail in SAPIENT, follow the instructions as explained in the following procedure.
-
+ 
 1. Log in to the SAPIENT platform using your credentials.
 
 <Image alt="Logging into SAPIENT" align="center" width="500px" border={true} src="https://files.readme.io/fa5d0ced6ed38b419fa15c57f5b03fdddf6284adfcc85b48370c67d1aa07c5f8-Sapient_Login_window.png">
