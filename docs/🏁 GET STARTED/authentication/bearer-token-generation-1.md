@@ -55,7 +55,7 @@ After, in the VALUE column, enter the credentials generated via the [SAPIENT API
 
 <Image align="center" alt="Bearer token response example" border={true} caption="Bearer token response example" src="https://files.readme.io/b8499e2-image.png" />
 
-7. The **expires in** value returned in the preceding token response is the amount of time the token is valid in seconds (that is, 3600 seconds = 60 minutes).
+7. The **expires in** value in the preceding token response indicates the duration for which the token remains valid, measured in seconds. For example, a value of 3600 seconds corresponds to 60 minutes of validity.
 
 > 🚧 *Important*
 >
