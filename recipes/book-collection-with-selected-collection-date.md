@@ -1,7 +1,7 @@
 ---
 title: Book Collection with Selected Collection Date
 description: Arrange for shipment collections by specifying a preferred date for pickup.
-hidden: true
+hidden: false
 recipe:
   color: '#939495'
   icon: 📅
