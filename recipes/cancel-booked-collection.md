@@ -3,7 +3,7 @@ title: Cancel booked collection
 description: >-
   Terminate a previously scheduled collection for shipment pickup, freeing the
   allocated resources.
-hidden: true
+hidden: false
 recipe:
   color: '#939495'
   icon: 🚚
