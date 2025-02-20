@@ -3,7 +3,7 @@ title: Containerisation
 description: >-
   Group multiple individual shipments into a single container for more efficient
   shipping management.
-hidden: true
+hidden: false
 recipe:
   color: '#878682'
   icon: 📋
