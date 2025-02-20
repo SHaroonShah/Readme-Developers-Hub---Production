@@ -3,7 +3,7 @@ title: Use pre-allocated tracking number
 description: >-
   Utilise a predefined tracking number for a shipment , ensuring seamless and
   consistent tracking across the logistics process.
-hidden: true
+hidden: false
 recipe:
   color: '#a5a9ac'
   icon: 🗃️
