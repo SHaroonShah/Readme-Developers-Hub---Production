@@ -15,7 +15,7 @@ metadata:
 next:
   description: ''
 ---
-If you need to communicate the Royal Mail tracking number to your customers before you have all the shipment details, you can request a pre-allocated tracking number by providing the following details: 
+If you need to communicate the Royal Mail tracking number to your customers before you have all the shipment details, you can request a pre-allocated tracking number by providing the following details:  
 
 * Destination country
 * Postcode (depending on the Destination Country)
