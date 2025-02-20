@@ -12,7 +12,7 @@ next:
 ---
 <details>
 <summary>Jan 2025</summary>
-<br>
+<br/>
 
 ## Royal Mail HVD and ITO services description updates
 
