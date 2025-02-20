@@ -3,7 +3,7 @@ title: Book a collection with "BringMyLabel"
 description: >-
   Arrange a collection while opting to provide your own shipping label,
   simplifying the despatch process.
-hidden: true
+hidden: false
 recipe:
   color: '#939495'
   icon: 🏷️
