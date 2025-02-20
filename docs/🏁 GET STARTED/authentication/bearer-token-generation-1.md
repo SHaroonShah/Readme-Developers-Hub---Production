@@ -61,8 +61,6 @@ After, in the VALUE column, enter the credentials generated via the [SAPIENT API
 >
 > *Please ensure you cache the authentication token and check for expiry before requesting a new one.*
 
-8. You can use the generated bearer token provided in the [API References](https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts) section for testing purposes.
-
 <Image align="center" alt="Sample bearer token" border={true} caption="Bearer token sample" src="https://files.readme.io/c67152f-image.png" width="50% " />
 
 Once the bearer token has been generated successfully, you can now use it for authentication purposes.
