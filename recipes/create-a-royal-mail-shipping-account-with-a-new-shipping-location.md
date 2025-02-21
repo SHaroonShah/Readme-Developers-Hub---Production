@@ -3,7 +3,7 @@ title: Create a Royal Mail shipping account with a new shipping location
 description: >-
   Create a new Royal Mail shipment account from scratch and add a shipping
   location to it for future dispatches.
-hidden: true
+hidden: false
 recipe:
   color: '#8d8f91'
   icon: 🏦
