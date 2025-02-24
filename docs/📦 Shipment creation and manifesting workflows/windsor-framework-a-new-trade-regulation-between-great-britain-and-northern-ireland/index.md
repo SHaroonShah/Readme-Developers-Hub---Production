@@ -19,10 +19,6 @@ One of the most significant aspects of the Windsor Framework is its impact on al
 
 To align with the Windsor Framework changes, customers using the Sapient system must update their shipping protocols and documentation processes. This includes integrating the new customs requirements into their logistics workflows and ensuring that all necessary data is captured correctly for both B2B and B2C shipments. Training staff on these updates will be crucial to ensure compliance and streamline operations.
 
-> 🚧 *Important*
->
-> *In the scope of the Windsor Framework changes, you might see some new fields in the API References. Some  are carrier specific and some are used by commercial shipments. These new fields are optional and not required for shipments to NI.*
-
 If you are sending B2B shipments, make sure to populate the following fields in your create shipment API request.
 
 > 📘 *Note*
