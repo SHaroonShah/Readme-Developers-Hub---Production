@@ -91,3 +91,11 @@ Before sending your shipments to Northern Ireland, Intersoft recommends you to d
 <Accordion title="What is the UKIMS format?">
   Provide the authorisation decision number for the UKIMS authorisation which will be in the format it always follows - *XIUKIM+EORI+YYYY+MM+DD+HH+MM+SS*. So, the EORI is the traders EORI number and the other fields are the time stamp as to when the UKIMS authorisation was logged (Year, Month, Date, Hour, Minute, Second), for example, **XIUKIM12345678900020240619102423**.
 </Accordion>
+
+<Accordion title="What is the ‘Green/Red lane’ system?">
+  The following sets of customs checks will be performed according to where goods entering Northern Ireland from Great Britain are being sold:
+
+  • Goods for sale in Northern Ireland will use the ‘green lane’ and be subject to minimal checks, providing firms sign 		up to new ‘trusted trader’ schemes.
+
+  • Goods travelling further, for sale in the EU including Ireland, will be subject to more comprehensive checks with 		more documentation required.
+</Accordion>
