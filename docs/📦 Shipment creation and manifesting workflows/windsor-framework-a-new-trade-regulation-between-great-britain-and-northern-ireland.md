@@ -15,7 +15,7 @@ hidden: true
 metadata:
   robots: index
 ---
-One of the most significant aspects of the Windsor Framework is its impact on all carriers and customers involved in shipping goods to Northern Ireland. With specific requirements set to come into effect on March 31, 2025, businesses must prepare for changes in their shipping processes. The framework delineates clear guidelines for Business-to-Business (B2B) and Business-to-Consumer (B2C) shipments, ensuring that regulations are followed while facilitating smoother trade operations.
+One of the most significant aspects of the Windsor Framework is its impact on all <Glossary>carriers</Glossary> and <Glossary>customer</Glossary>s involved in shipping goods to Northern Ireland. With specific requirements set to come into effect on March 31, 2025, businesses must prepare for changes in their shipping processes. The framework delineates clear guidelines for Business-to-Business (B2B) and Business-to-Consumer (B2C) shipments, ensuring that regulations are followed while facilitating smoother trade operations.
 
 The Windsor Framework is designed to simplify customs procedures, reducing the administrative burden on businesses. It enhances clarity around trade regulations, making it easier for carriers and customers to understand their obligations. Additionally, it aims to prevent disruptions to the supply chain, ensuring that goods can move efficiently between Great Britain and Northern Ireland.
 
@@ -164,6 +164,6 @@ curl --request POST \
 
 > 💡 *Tip*
 >
-> For more information on how to populated the required fields, refer to the [API References](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm) section.
+> *For more information on how to populated the required fields, refer to the[API References](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm) section.*
 
 As the implementation date of March 31, 2025, approaches, it is vital for businesses to proactively adapt to the changes brought about by the Windsor Framework. By doing so, they can ensure that their trade operations with Northern Ireland remain compliant and efficient. This agreement not only marks a significant step in post-Brexit trade relations but also sets a precedent for how similar arrangements may evolve in the future.
