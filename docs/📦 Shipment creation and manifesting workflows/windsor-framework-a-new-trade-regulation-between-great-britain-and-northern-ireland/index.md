@@ -5,9 +5,7 @@ title: >-
 excerpt: >-
   The _Windsor Framework_ is a crucial agreement established between the United
   Kingdom and the European Union to manage trade from Great Britain to Northern
-  Ireland in the wake of Brexit. This framework aims to simplify customs
-  procedures and checks, ensuring that the flow of goods remains efficient and
-  compliant with both UK and EU regulations. 
+  Ireland in the wake of Brexit. 
 deprecated: false
 hidden: false
 metadata:
