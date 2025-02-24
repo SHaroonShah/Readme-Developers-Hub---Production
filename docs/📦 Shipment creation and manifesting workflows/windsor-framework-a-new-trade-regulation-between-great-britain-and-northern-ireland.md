@@ -43,7 +43,7 @@ curl --request POST \
     "DimensionsUnitOfMeasure": "MM", 
     "ContainerId": "South East"
     
-    /* Must be populated*/
+    /* BusinessTransactionType must be populated*/
     
     "BusinessTransactionType": "B2B"
     
@@ -83,6 +83,9 @@ curl --request POST \
       "County": "NSW", 
       "CountryCode": "AU" 
     }, 
+      
+       /*EoriNumber must be populated*/
+      
     "EoriNumber": "GB123456789000", 
     "VatNumber": "GB123456789" 
   }, 
