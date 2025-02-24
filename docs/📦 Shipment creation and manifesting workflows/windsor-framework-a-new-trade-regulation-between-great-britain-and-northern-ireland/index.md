@@ -25,7 +25,7 @@ If you are sending B2B shipments, make sure to populate the following fields in 
 
 > 📘 *Note*
 >
-> *Please note that the following script is only displaying the necessary fields that are required for B2B shipments to NI. Please make sure these fields are populated along with all the necessary fields of that particular object. For more information on how to populate the required fields, refer to the[API References](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm) section.*
+> *Please note that the following script is only displaying the necessary fields that are required for B2B shipments to NI. Please make sure these fields are populated along with all the necessary fields associated to that particular object. For more information on how to populate the required fields, refer to the[API References](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm) section.*
 
 ```
 curl --request POST \ 
