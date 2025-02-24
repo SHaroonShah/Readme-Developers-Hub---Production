@@ -19,3 +19,7 @@ Before sending your shipments to Northern Ireland, Intersoft recommends you to d
 <Accordion title="Does the Windsor Framework affect all customers?">
   The Windsor Framework only affects customers sending goods from Great Britain (Great Britain) to Northern Ireland (Northern Ireland). The new regulations do not affect goods sent from Northern Ireland to Great Britain or from Northern Ireland to Northern Ireland, or items of correspondence.
 </Accordion>
+
+<Accordion title="Are all carriers subject to Windsor Framework?">
+  Yes. The regulations apply to all carriers and will take effect from 31 March 2025, however, If a carrier only ships B2C (business to consumer) or C2C (consumer to consumer) parcels between Great Britain (GB) and Northern Ireland (NI), the Windsor Framework applies, but with fewer restrictions. Some items like food, plants and medicines may need extra checks.
+</Accordion>
