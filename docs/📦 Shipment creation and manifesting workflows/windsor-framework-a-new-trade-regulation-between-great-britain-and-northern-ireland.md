@@ -25,7 +25,9 @@ To align with the Windsor Framework changes, customers using the Sapient system 
 
 If you are sending B2B shipments, make sure to include the necessary information as explained in the following example script:
 
-```
+<br />
+
+```text
 curl --request POST \ 
      --url https://api.intersoftsapient.net/v4/shipments/rm \ 
      --header 'accept: application/json' \ 
