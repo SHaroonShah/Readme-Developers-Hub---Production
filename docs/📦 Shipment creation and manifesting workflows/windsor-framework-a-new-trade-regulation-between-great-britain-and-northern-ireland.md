@@ -27,9 +27,7 @@ All businesses that ship goods to Northern Ireland will be affected by the chang
 
 To align with the Windsor Framework changes, customers using the Sapient system must update their shipping protocols and documentation processes. This includes integrating the new customs requirements into their logistics workflows and ensuring that all necessary data is captured correctly for both B2B and B2C shipments. Training staff on these updates will be crucial to ensure compliance and streamline operations.
 
-If you are sending B2B shipments, make sure to include the necessary information as explained in the following script:
-
-&#x20;&#x20;
+If you are sending B2B shipments, make sure to include the necessary information as explained in the following example script:
 
 ```
 curl --request POST \ 
@@ -163,5 +161,9 @@ curl --request POST \
 
 
 ```
+
+> 💡 *Tip*
+>
+> For more information on how to populated the required fields, refer to the [API References](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm) section.
 
 As the implementation date of March 31, 2025, approaches, it is vital for businesses to proactively adapt to the changes brought about by the Windsor Framework. By doing so, they can ensure that their trade operations with Northern Ireland remain compliant and efficient. This agreement not only marks a significant step in post-Brexit trade relations but also sets a precedent for how similar arrangements may evolve in the future.
