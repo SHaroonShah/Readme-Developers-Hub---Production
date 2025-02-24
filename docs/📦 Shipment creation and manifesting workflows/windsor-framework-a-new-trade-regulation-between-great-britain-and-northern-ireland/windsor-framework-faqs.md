@@ -93,9 +93,9 @@ Before sending your shipments to Northern Ireland, Intersoft recommends you to d
 </Accordion>
 
 <Accordion title="What is the ‘Green/Red lane’ system?">
-  The following sets of customs checks will be performed according to where goods entering Northern Ireland from Great Britain are being sold:
+  The following sets of customs checks are performed according to where goods entering Northern Ireland from Great Britain are being sold:
 
-  • Goods for sale in Northern Ireland will use the ‘green lane’ and be subject to minimal checks, providing firms sign 		up to new ‘trusted trader’ schemes.
+  • Goods for sale in Northern Ireland use the ‘green lane’ and are subject to minimal checks, providing firms sign 		up to new ‘trusted trader’ schemes.
 
-  • Goods travelling further, for sale in the EU including Ireland, will be subject to more comprehensive checks with 		more documentation required.
+  • Goods travelling further for sale in the EU including Ireland, are  subject to more comprehensive checks with additional documentation required.
 </Accordion>
