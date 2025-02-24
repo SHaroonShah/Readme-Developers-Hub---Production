@@ -65,3 +65,17 @@ Before sending your shipments to Northern Ireland, Intersoft recommends you to d
 <Accordion title="What is the UK Internal Market Scheme (UKIMS)?">
   The UK Internal Market Scheme is an authorisation that allows registered businesses to declare your goods ‘not at risk’ if they are brought into Northern Ireland for sale or final use by end consumers in Northern Ireland (and Great Britain in the case of movements from Great Britain) and meet all the other criteria to move under UKIMS as set out in the guidance. For further details on its benefits, eligibility and registration, visit GOV.UK.
 </Accordion>
+
+<Accordion title="Can I use a UK Internal Market Scheme (UKIMS) that is not the senders?">
+  Yes, but only under specific conditions and depending on the carriers. The UKIMS number provided must belong to the Northern Ireland recipient (consignee) or a recognised trader responsible for the movement. Further details can be found here.
+
+  Please see below carrier specific requirements
+
+  • DX: Do not have a field to capture UKIMS. There is a field in the create shipment request for DX to declare a 					shipment as UKIMS compliant, that is the only data required by DX for UKIMS.
+
+  • Evri: Does not support B2B (Business to Business) shipments, so UKIMS isn’t applicable.
+
+  • Royal Mail: Customer can provide either sender or receiver UKIMS, but the EORI portion of the UKIMS provided must 			contain either the sender or receiver EORI provided for the shipment. If the UKIMS provided does not contain either 			the sender or receiver EORI, the shipment will fail.
+
+  • UPS: Customer supplies UKIMS number to UPS which is  set against their account in UPS’ system, we do not supply it 			 in the API request.
+</Accordion>
