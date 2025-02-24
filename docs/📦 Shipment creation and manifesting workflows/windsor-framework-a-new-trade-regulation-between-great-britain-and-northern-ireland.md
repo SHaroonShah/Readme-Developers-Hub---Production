@@ -23,7 +23,7 @@ All businesses that ship goods to Northern Ireland will be affected by the chang
 
 > 🚧 *Important*
 >
-> *Businesses must familiarise themselves with the specific requirements set out in the[Windsor Framework by HMRC](https://www.gov.uk/government/publications/moving-parcels-from-great-britain-to-northern-ireland-under-the-windsor-framework). This involves reviewing shipping procedures, ensuring that accurate documentation is in place, and understanding any new customs checks that will be required.*
+> *Businesses must familiarise themselves with the specific requirements set out in the[Windsor Framework](https://www.gov.uk/government/publications/moving-parcels-from-great-britain-to-northern-ireland-under-the-windsor-framework) by HMRC . This involves reviewing shipping procedures, ensuring that accurate documentation is in place, and understanding any new customs checks that will be required.*
 
 To align with the Windsor Framework changes, customers using the Sapient system must update their shipping protocols and documentation processes. This includes integrating the new customs requirements into their logistics workflows and ensuring that all necessary data is captured correctly for both B2B and B2C shipments. Training staff on these updates will be crucial to ensure compliance and streamline operations.
 
