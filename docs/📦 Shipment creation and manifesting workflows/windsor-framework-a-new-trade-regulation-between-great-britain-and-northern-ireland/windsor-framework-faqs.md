@@ -11,8 +11,8 @@ metadata:
 ---
 Before sending your shipments to Northern Ireland, Intersoft recommends you to do do the following:
 
-* [ ] Review the full breakdown of the technical requirements and populate the fields outlined in the example script provided in the [Windsor Framework](https://docs.intersoftsapient.net/docs/windsor-framework-a-new-trade-regulation-between-great-britain-and-northern-ireland) section.
-* [ ] Confirm the mandatory fields with the <Glossary>carrier</Glossary> to ensure compliance.
+* [x] Review the full breakdown of the technical requirements and populate the fields outlined in the example script provided in the [Windsor Framework](https://docs.intersoftsapient.net/docs/windsor-framework-a-new-trade-regulation-between-great-britain-and-northern-ireland) section.
+* [x] Confirm the mandatory fields with the <Glossary>carrier</Glossary> to ensure compliance.
 
 &#x20;&#x20;
 
