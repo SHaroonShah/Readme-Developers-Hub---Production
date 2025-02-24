@@ -11,7 +11,7 @@ excerpt: >-
   understanding the implications of this framework is essential for all parties
   involved.
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   robots: index
 ---
