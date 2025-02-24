@@ -79,3 +79,15 @@ Before sending your shipments to Northern Ireland, Intersoft recommends you to d
 
   • **UPS**: Customer supplies UKIMS number to UPS which is  set against their account in UPS’ system, we do not supply it 			 in the API request.
 </Accordion>
+
+<Accordion title="Do all customers have to register with the UK Internal Market Scheme (UKIMS)?">
+  UKIMS only applies to B2B movements. UKIMS-registered businesses will be required to provide a reduced dataset compared to businesses that are  not UKIMS-registered. B2B goods movements categorised as ‘not at risk’ must be accompanied by a valid UKIMS registration.
+</Accordion>
+
+<Accordion title="What are the advantages of registering with the UKIMS scheme?">
+  Together with the reduced dataset requirements (compared to non-UKIMS B2B movements), a UKIMS registration will reduce the likelihood of goods movements being delayed or held for inspection, with potential custom charges applied.
+</Accordion>
+
+<Accordion title="What is the UKIMS format?">
+  Provide the authorisation decision number for the UKIMS authorisation which will be in the format it always follows - *XIUKIM+EORI+YYYY+MM+DD+HH+MM+SS*. So, the EORI is the traders EORI number and the other fields are the time stamp as to when the UKIMS authorisation was logged (Year, Month, Date, Hour, Minute, Second), for example **XIUKIM12345678900020240619102423**.
+</Accordion>
