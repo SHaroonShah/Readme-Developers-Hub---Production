@@ -1,6 +1,6 @@
 ---
 title: >-
-  Windsor framework: A new trade regulation between Great Britain and Northern
+  Windsor Framework: A new trade regulation between Great Britain and Northern
   Ireland 
 excerpt: >-
   The _Windsor Framework_ is a crucial agreement established between the United
@@ -19,7 +19,7 @@ All businesses that ship goods to Northern Ireland will be affected by the chang
 
 > 🚧 *Important*
 >
-> \_Businesses must familiarise themselves with the specific requirements set out in the[Windsor Framework](https://www.gov.uk/government/publications/moving-parcels-from-great-britain-to-northern-ireland-under-the-windsor-framework) by HMRC.
+> *Businesses must familiarise themselves with the specific requirements set out in the[Windsor Framework](https://www.gov.uk/government/publications/moving-parcels-from-great-britain-to-northern-ireland-under-the-windsor-framework) by HMRC.*
 
 To align with the Windsor Framework changes, customers using the Sapient system must update their shipping protocols and documentation processes. This includes integrating the new customs requirements into their logistics workflows and ensuring that all necessary data is captured correctly for both B2B and B2C shipments. Training staff on these updates will be crucial to ensure compliance and streamline operations.
 
@@ -31,17 +31,7 @@ curl --request POST \
      --header 'accept: application/json' \ 
      --header 'content-type: application/json' \ 
      --data ' 
-  "ShipmentInformation": { 
-    "ContentType": "NDX", 
-    "Action": "Process", 
-    "LabelFormat": "PDF", 
-    "ServiceCode": "OLA", 
-    "DescriptionOfGoods": "Clothing", 
-    "ShipmentDate": "2024-06-17", 
-    "CurrencyCode": "GBP", 
-    "WeightUnitOfMeasure": "KG", 
-    "DimensionsUnitOfMeasure": "MM", 
-    "ContainerId": "South East" 
+  "ShipmentInformation": {  
     "BusinessTransactionType": "B2B"
   }, 
   "Shipper": { 
@@ -57,11 +47,7 @@ curl --request POST \
       "Postcode": "AA34 3AB", 
       "County": "Surrey", 
       "CountryCode": "GB" 
-    }, 
-    "ShippingAccountId": "1991b077-3934-4efc-b9cb-2a916436d3ae", 
-    "ShippingLocationId": "f7f38476-3d11-4c8e-be61-20b158393401", 
-    "Reference1": "OrderRef56", 
-    "DepartmentNumber": "0123456789", 
+    },   
     "EoriNumber": "GB213456789000", 
     "VatNumber": "GB213456789" 
   }, 
