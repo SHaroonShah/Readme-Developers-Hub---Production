@@ -57,7 +57,7 @@ Before sending your shipments to Northern Ireland, Intersoft recommends you to d
 
   • **Item HS Code**
 
-  • \* Item Country of Origin\*\*
+  • **Item Country of Origin**
 
   You do not need to worry about UKIMS numbers or pre-registration requirements—these only apply to B2B shipment
 </Accordion>
