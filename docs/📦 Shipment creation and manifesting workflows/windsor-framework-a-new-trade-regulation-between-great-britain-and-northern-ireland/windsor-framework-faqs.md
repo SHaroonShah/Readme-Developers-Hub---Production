@@ -30,7 +30,9 @@ Before sending your shipments to Northern Ireland, Intersoft recommends you to d
   1. Shipments Over £135
 
   • You must provide a UKIMS pre-registration number.
+
   • Item HS Code is optional if a UKIMS number is provided.
+
   • Item Country of Origin is mandatory.
 
   2. Shipments £135 or Under
