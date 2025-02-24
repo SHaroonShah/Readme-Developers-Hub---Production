@@ -23,7 +23,11 @@ All businesses that ship goods to Northern Ireland will be affected by the chang
 
 To align with the Windsor Framework changes, customers using the Sapient system must update their shipping protocols and documentation processes. This includes integrating the new customs requirements into their logistics workflows and ensuring that all necessary data is captured correctly for both B2B and B2C shipments. Training staff on these updates will be crucial to ensure compliance and streamline operations.
 
-If you are sending B2B shipments, make sure to populate the following fields information as explained in the following example script:
+If you are sending B2B shipments, make sure to populate the following fields in your create shipment API request.
+
+> 📘 Note
+>
+> *Please note that the fields provided in the following script must be entered with all the necessary fields of that particular object. For more information on how to populate the required fields, refer to the[API References](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm) section.*
 
 ```
 curl --request POST \ 
@@ -32,62 +36,14 @@ curl --request POST \
      --header 'content-type: application/json' \ 
      --data ' 
   "ShipmentInformation": { 
-    "ContentType": "NDX", 
-    "Action": "Process", 
-    "LabelFormat": "PDF", 
-    "ServiceCode": "OLA", 
-    "DescriptionOfGoods": "Clothing", 
-    "ShipmentDate": "2024-06-17", 
-    "CurrencyCode": "GBP", 
-    "WeightUnitOfMeasure": "KG", 
-    "DimensionsUnitOfMeasure": "MM", 
-    "ContainerId": "South East"
-    
-    /* BusinessTransactionType must be populated*/
-    
     "BusinessTransactionType": "B2B"
     
   }, 
   "Shipper": { 
-    "Address": { 
-      "ContactName": "Jane Smith", 
-      "CompanyName": "Company & Co.", 
-      "ContactEmail": "email@server.com", 
-      "ContactPhone": "607723456789", 
-      "Line1": "Level 5", 
-      "Line2": "Hashmoore House", 
-      "Line3": "10 Sky Lane", 
-      "Town": "Leatherhead", 
-      "Postcode": "AA34 3AB", 
-      "County": "Surrey", 
-      "CountryCode": "GB" 
-    }, 
-    "ShippingAccountId": "1991b077-3934-4efc-b9cb-2a916436d3ae", 
-    "ShippingLocationId": "f7f38476-3d11-4c8e-be61-20b158393401", 
-    "Reference1": "OrderRef56", 
-    "DepartmentNumber": "0123456789", 
-      
-      /*EoriNumber must be populated*/
-      
     "EoriNumber": "GB213456789000", 
-    "VatNumber": "GB213456789" 
   }, 
   "Destination": { 
-    "Address": { 
-      "ContactName": "John Smith", 
-      "ContactEmail": "john.smith@example.com", 
-      "ContactPhone": "07123456789", 
-      "Line1": "10 Sky Road", 
-      "Town": "Sydney", 
-      "Postcode": "2000", 
-      "County": "NSW", 
-      "CountryCode": "AU" 
-    }, 
-      
-       /*EoriNumber must be populated*/
-      
     "EoriNumber": "GB123456789000", 
-    "VatNumber": "GB123456789" 
   }, 
   "CarrierSpecifics": { 
     "ServiceLevel": "02", 
