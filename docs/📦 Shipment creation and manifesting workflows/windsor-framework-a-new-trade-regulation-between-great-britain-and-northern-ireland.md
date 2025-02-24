@@ -154,6 +154,6 @@ curl --request POST \
 
 > 💡 *Tip*
 >
-> *For more information on how to populate the required fields, refer to the[API References](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm) section.*
+> *For more information on how to populate the required fields, refer to the section.*
 
 As the implementation date of March 31, 2025, approaches, it is vital for businesses to proactively adapt to the changes brought about by the Windsor Framework. By doing so, they can ensure that their trade operations with Northern Ireland remain compliant and efficient. This agreement not only marks a significant step in post-Brexit trade relations but also sets a precedent for how similar arrangements may evolve in the future.
