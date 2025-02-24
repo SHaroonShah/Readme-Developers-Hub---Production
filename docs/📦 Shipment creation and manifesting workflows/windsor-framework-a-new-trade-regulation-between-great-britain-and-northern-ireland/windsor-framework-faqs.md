@@ -102,4 +102,4 @@ Before sending your shipments to Northern Ireland, Intersoft recommends you to d
 
 > 📘 Note
 >
-> \_To learn more about the green and red lane system, refer to The [Windsor Framework - The Green Lane](https://docs.intersoftsapient.net/docs/windsor-framework-faqs#/) article. \_
+> \_To learn more about the green and red lane system, refer to the [Windsor Framework - The Green Lane](https://docs.intersoftsapient.net/docs/windsor-framework-faqs#/) article. \_
