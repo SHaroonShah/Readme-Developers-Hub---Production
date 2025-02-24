@@ -41,8 +41,12 @@ curl --request POST \
     "CurrencyCode": "GBP", 
     "WeightUnitOfMeasure": "KG", 
     "DimensionsUnitOfMeasure": "MM", 
-    "ContainerId": "South East" 
-  *"BusinessTransactionType": "B2B"*
+    "ContainerId": "South East"
+    
+    /* Must be populated*/
+    
+    "BusinessTransactionType": "B2B"
+    
   }, 
   "Shipper": { 
     "Address": { 
@@ -62,6 +66,9 @@ curl --request POST \
     "ShippingLocationId": "f7f38476-3d11-4c8e-be61-20b158393401", 
     "Reference1": "OrderRef56", 
     "DepartmentNumber": "0123456789", 
+      
+      /*EoriNumber must be populated*/
+      
     "EoriNumber": "GB213456789000", 
     "VatNumber": "GB213456789" 
   }, 
