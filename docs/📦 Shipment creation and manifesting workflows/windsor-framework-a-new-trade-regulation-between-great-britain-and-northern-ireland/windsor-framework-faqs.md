@@ -61,3 +61,7 @@ Before sending your shipments to Northern Ireland, Intersoft recommends you to d
 
   You do not need to worry about UKIMS numbers or pre-registration requirements—these only apply to B2B shipment
 </Accordion>
+
+<Accordion title="What is the UK Internal Market Scheme (UKIMS)?">
+  The UK Internal Market Scheme is an authorisation that allows registered businesses to declare your goods ‘not at risk’ if they are brought into Northern Ireland for sale or final use by end consumers in Northern Ireland (and Great Britain in the case of movements from Great Britain) and meet all the other criteria to move under UKIMS as set out in the guidance. For further details on its benefits, eligibility and registration, visit GOV.UK.
+</Accordion>
