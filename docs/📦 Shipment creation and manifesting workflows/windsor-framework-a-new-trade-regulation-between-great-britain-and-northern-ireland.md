@@ -137,16 +137,6 @@ curl --request POST \
   ], 
   "Items": [ 
     { 
-      "SkuCode": "SKU123", 
-      "PackageOccurrence": 1, 
-      "Quantity": 1, 
-      "Description": "White Mens Large T-shirt", 
-      "Value": 19.99, 
-      "Weight": 0.5, 
-      "HSCode": "6109100010", 
-      "CountryOfOrigin": "CN" 
-    }, 
-    { 
       "SkuCode": "SKU456", 
       "PackageOccurrence": 1, 
       "Quantity": 2, 
