@@ -94,3 +94,17 @@ Once the activation is confirmed, the system sends an email to the main user on 
 > 📘 *Note*
 >
 > *If you do not see the carrier(s) you are looking for, please reach out to our Customer Solutions team at[onboarding@intersoft.co.uk](mailto:onboarding@intersoft.co.uk) and we can consider getting these added in our upcoming deployment.*
+
+<Columns layout="auto">
+  <Column>
+    Neque porro quisquam est qui dolorem ipsum quia
+  </Column>
+
+  <Column>
+    *Lorem ipsum dolor sit amet, consectetur adipiscing elit*
+  </Column>
+
+  <Column>
+    > Ut enim ad minim veniam, quis nostrud ullamco
+  </Column>
+</Columns>
