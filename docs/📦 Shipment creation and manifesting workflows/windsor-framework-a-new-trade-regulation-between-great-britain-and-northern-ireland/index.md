@@ -36,7 +36,7 @@ curl --request POST \
      --header 'content-type: application/json' \ 
      --data ' 
   "ShipmentInformation": { 
-   **"BusinessTransactionType": "B2B"**
+   "**BusinessTransactionType": "B2B**"
     
   }, 
     
