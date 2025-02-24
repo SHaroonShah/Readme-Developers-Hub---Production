@@ -81,7 +81,7 @@ As a B2C customer shipping from Great Britain to Northern Ireland, you do not ne
 > *The UKIMS or pre-registration number requirements are only applicable to to B2B shipments.*
 
 <Cards columns={4}>
-  <Card title="Windsor Framework FAQ's" href="https://readme.com" icon="fa fa-question-circle" target="_blank">
+  <Card title="Windsor Framework FAQ's" href="https://docs.intersoftsapient.net/docs/windsor-framework-faqs#/" icon="fa fa-question-circle" target="_blank">
     Find answers to common queries and additional guidance on compliance.
   </Card>
 </Cards>
