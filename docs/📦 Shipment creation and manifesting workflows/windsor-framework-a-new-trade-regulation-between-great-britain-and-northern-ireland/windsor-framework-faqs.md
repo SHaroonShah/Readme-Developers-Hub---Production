@@ -16,6 +16,6 @@ Before sending your shipments to Northern Ireland, Intersoft recommends you to d
 
 &#x20;&#x20;
 
-<Accordion title="Does the Windsor Framework affect all customers?" icon="fa fa-question">
+<Accordion title="Does the Windsor Framework affect all customers?">
   The Windsor Framework only affects customers sending goods from Great Britain (Great Britain) to Northern Ireland (Northern Ireland). The new regulations do not affect goods sent from Northern Ireland to Great Britain or from Northern Ireland to Northern Ireland, or items of correspondence.
 </Accordion>
