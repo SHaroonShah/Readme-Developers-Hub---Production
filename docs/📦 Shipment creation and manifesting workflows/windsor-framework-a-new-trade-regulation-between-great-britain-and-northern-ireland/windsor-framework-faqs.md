@@ -71,11 +71,11 @@ Before sending your shipments to Northern Ireland, Intersoft recommends you to d
 
   Please see below carrier specific requirements
 
-  • DX: Do not have a field to capture UKIMS. There is a field in the create shipment request for DX to declare a 					shipment as UKIMS compliant, that is the only data required by DX for UKIMS.
+  • **DX**: Do not have a field to capture UKIMS. There is a field in the create shipment request for DX to declare a 					shipment as UKIMS compliant, that is the only data required by DX for UKIMS.
 
-  • Evri: Does not support B2B (Business to Business) shipments, so UKIMS isn’t applicable.
+  • **Evri**: Does not support B2B (Business to Business) shipments, so UKIMS isn’t applicable.
 
-  • Royal Mail: Customer can provide either sender or receiver UKIMS, but the EORI portion of the UKIMS provided must 			contain either the sender or receiver EORI provided for the shipment. If the UKIMS provided does not contain either 			the sender or receiver EORI, the shipment will fail.
+  • **Royal Mail**: Customer can provide either sender or receiver UKIMS, but the EORI portion of the UKIMS provided must 			contain either the sender or receiver EORI provided for the shipment. If the UKIMS provided does not contain either 			the sender or receiver EORI, the shipment will fail.
 
-  • UPS: Customer supplies UKIMS number to UPS which is  set against their account in UPS’ system, we do not supply it 			 in the API request.
+  • **UPS**: Customer supplies UKIMS number to UPS which is  set against their account in UPS’ system, we do not supply it 			 in the API request.
 </Accordion>
