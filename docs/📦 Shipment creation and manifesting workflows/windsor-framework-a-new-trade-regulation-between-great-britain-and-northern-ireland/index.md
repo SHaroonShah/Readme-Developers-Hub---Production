@@ -71,9 +71,7 @@ curl --request POST \
 >
 > *In the scope of the Windsor Framework changes, you might see some new fields in the API References. Some are carrier specific and some are used by commercial shipments. These new fields are optional and not required for shipments to NI.*
 
-As a B2C customer shipping from Great Britain to Northern Ireland, you do not need to provide the Item **HSCode** or **CountryOfOrigin**.
-
-<br />
+As a B2C customer shipping from Great Britain to Northern Ireland, you do not need to provide the Item **HSCode** or **CountryOfOrigin**. However, if you are a Royal Mail B2C customer, it is recommended to refer to the Royal Mail [Create Shipment API field descriptions](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm#/) and populate them as required.
 
 > 📘 *Note*
 >
