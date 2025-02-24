@@ -11,15 +11,17 @@ hidden: false
 metadata:
   robots: index
 ---
-One of the most significant aspects of the Windsor Framework is its impact on all <Glossary>carriers</Glossary> and <Glossary>customer</Glossary>s involved in shipping goods from Great Britain (GB) to Northern Ireland (NI). With specific requirements set to come into effect on March 31, 2025, businesses must prepare for changes in their shipping processes. The framework delineates clear guidelines for Business-to-Business (B2B) and Business-to-Consumer (B2C) shipments, ensuring that regulations are followed while facilitating smoother trade operations.
-
-All businesses that ship goods to Northern Ireland will be affected by the changes introduced by the Windsor Framework. This includes both B2B and B2C shipments, meaning that all carriers and customers must stay informed about the new requirements and how they might impact their trading activities.
+One of the most significant aspects of the Windsor Framework is its impact on all <Glossary>carriers</Glossary> and <Glossary>customer</Glossary>s involved in shipping goods from Great Britain (GB) to Northern Ireland (NI). The framework delineates clear guidelines for Business-to-Business (B2B) and Business-to-Consumer (B2C) shipments, ensuring that regulations are followed while facilitating smoother trade operations.
 
 > 🚧 *Important*
 >
 > *Businesses must familiarise themselves with the specific requirements set out in the[Windsor Framework](https://www.gov.uk/government/publications/moving-parcels-from-great-britain-to-northern-ireland-under-the-windsor-framework) by HMRC.*
 
 To align with the Windsor Framework changes, customers using the Sapient system must update their shipping protocols and documentation processes. This includes integrating the new customs requirements into their logistics workflows and ensuring that all necessary data is captured correctly for both B2B and B2C shipments. Training staff on these updates will be crucial to ensure compliance and streamline operations.
+
+> 🚧 *Important*
+>
+> *In the scope of the Windsor Framework changes, you might see some new fields in the API References. Some  are carrier specific and some are used by commercial shipments. These new fields are optional and not required for shipments to NI.*
 
 If you are sending B2B shipments, make sure to populate the following fields in your create shipment API request.
 
@@ -68,6 +70,10 @@ curl --request POST \
 } 
 
 ```
+
+> 🚧 *Important*
+>
+> *In the scope of the Windsor Framework changes, you might see some new fields in the API References. Some are carrier specific and some are used by commercial shipments. These new fields are optional and not required for shipments to NI.*
 
 As a B2C customer shipping from Great Britain to Northern Ireland, you do not need to provide the following:
 
