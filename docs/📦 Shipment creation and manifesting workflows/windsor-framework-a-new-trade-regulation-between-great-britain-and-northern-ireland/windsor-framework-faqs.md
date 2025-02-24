@@ -27,7 +27,7 @@ Before sending your shipments to Northern Ireland, Intersoft recommends you to d
 <Accordion title="What do I need to do if I am a Business to Business (B2B) customer?">
   If you are shipping B2B (Business-to-Business) from Great Britain to Northern Ireland, the requirements depend on the shipment value and whether you have a UKIMS pre-registration number.
 
-  1.**Shipments Over £135**
+  1. **Shipments Over £135**
 
   • You must provide a UKIMS pre-registration number.
 
@@ -35,7 +35,7 @@ Before sending your shipments to Northern Ireland, Intersoft recommends you to d
 
   • Item Country of Origin is mandatory.
 
-  2. Shipments £135 or Under
+  2. **Shipments £135 or Under**
 
      • You can ship with or without a UKIMS pre-registration number.
 
@@ -45,7 +45,7 @@ Before sending your shipments to Northern Ireland, Intersoft recommends you to d
 
      • Item Country of Origin is always mandatory.
 
-  3. UKIMS Number Validation
+  3. **UKIMS Number Validation**
 
      • If a UKIMS number is provided, it must include either the sender’s or receiver’s EORI number.
 
