@@ -51,3 +51,13 @@ Before sending your shipments to Northern Ireland, Intersoft recommends you to d
 
   If it does not match the  EORI numbers, the shipment will be rejected.
 </Accordion>
+
+<Accordion title="What do I need to do if I am a Business to Consumer (B2C) customer?">
+  As a B2C customer shipping from Great Britain to Northern Ireland, you do not need to provide the following:
+
+  • Item HS Code
+
+  • Item Country of Origin
+
+  You do not need to worry about UKIMS numbers or pre-registration requirements—these only apply to B2B shipment
+</Accordion>
