@@ -42,7 +42,7 @@ curl --request POST \
     "WeightUnitOfMeasure": "KG", 
     "DimensionsUnitOfMeasure": "MM", 
     "ContainerId": "South East" 
-    "BusinessTransactionType": "B2B"
+  *"BusinessTransactionType": "B2B"*
   }, 
   "Shipper": { 
     "Address": { 
