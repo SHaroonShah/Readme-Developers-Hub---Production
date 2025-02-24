@@ -7,9 +7,7 @@ excerpt: >-
   Kingdom and the European Union to manage trade from Great Britain to Northern
   Ireland in the wake of Brexit. This framework aims to simplify customs
   procedures and checks, ensuring that the flow of goods remains efficient and
-  compliant with both UK and EU regulations. As trade dynamics evolve,
-  understanding the implications of this framework is essential for all parties
-  involved.
+  compliant with both UK and EU regulations. 
 deprecated: false
 hidden: false
 metadata:
@@ -17,13 +15,11 @@ metadata:
 ---
 One of the most significant aspects of the Windsor Framework is its impact on all <Glossary>carriers</Glossary> and <Glossary>customer</Glossary>s involved in shipping goods to Northern Ireland. With specific requirements set to come into effect on March 31, 2025, businesses must prepare for changes in their shipping processes. The framework delineates clear guidelines for Business-to-Business (B2B) and Business-to-Consumer (B2C) shipments, ensuring that regulations are followed while facilitating smoother trade operations.
 
-The Windsor Framework is designed to simplify customs procedures, reducing the administrative burden on businesses. It enhances clarity around trade regulations, making it easier for carriers and customers to understand their obligations. Additionally, it aims to prevent disruptions to the supply chain, ensuring that goods can move efficiently between Great Britain and Northern Ireland.
-
 All businesses that ship goods to Northern Ireland will be affected by the changes introduced by the Windsor Framework. This includes both B2B and B2C shipments, meaning that all carriers and customers must stay informed about the new requirements and how they might impact their trading activities.
 
 > 🚧 *Important*
 >
-> *Businesses must familiarise themselves with the specific requirements set out in the[Windsor Framework](https://www.gov.uk/government/publications/moving-parcels-from-great-britain-to-northern-ireland-under-the-windsor-framework) by HMRC. This involves reviewing shipping procedures, ensuring that accurate documentation is in place, and understanding any new customs checks that will be required.*
+> \_Businesses must familiarise themselves with the specific requirements set out in the[Windsor Framework](https://www.gov.uk/government/publications/moving-parcels-from-great-britain-to-northern-ireland-under-the-windsor-framework) by HMRC.
 
 To align with the Windsor Framework changes, customers using the Sapient system must update their shipping protocols and documentation processes. This includes integrating the new customs requirements into their logistics workflows and ensuring that all necessary data is captured correctly for both B2B and B2C shipments. Training staff on these updates will be crucial to ensure compliance and streamline operations.
 
