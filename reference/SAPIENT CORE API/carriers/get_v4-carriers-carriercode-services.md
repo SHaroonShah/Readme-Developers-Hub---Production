@@ -1,8 +1,8 @@
 ---
 title: Get Carrier Services
 excerpt: >-
-  Provides all services available for a specific carrier and specific shipping
-  account ID.
+  Retrieves a list of services offered by a specific carrier, giving users
+  insight into the various available transportation and logistics options.
 api:
   file: sapient-core-api.json
   operationId: get_v4-carriers-carriercode-services

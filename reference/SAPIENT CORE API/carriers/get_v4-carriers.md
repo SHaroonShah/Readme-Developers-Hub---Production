@@ -1,6 +1,9 @@
 ---
 title: Get Carriers
-excerpt: Provides a list of all carriers available on the system.
+excerpt: >-
+  Retrieves a list of of available carriers on the system along with their
+  unique codes and descriptive details, enabling users to view and select from
+  different carriers.
 api:
   file: sapient-core-api.json
   operationId: get_v4-carriers
