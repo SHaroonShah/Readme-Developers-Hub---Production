@@ -21,7 +21,7 @@ If your password fails these checks, you will receive one of the following error
 > * This password has been previously found in a data breach. Please choose a more secure password.
 > * That password is too weak; please choose a stronger password.
 
-## Use password manager
+## Using password managers
 
 We recommend you use a **[password manager](https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/password-managers)** for generating and storing your passwords. This is the most secure and convenient way to manage passwords. Used properly, it completely eliminates the risk of using a weak or commonly used password.
 
