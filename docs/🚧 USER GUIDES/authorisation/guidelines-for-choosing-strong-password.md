@@ -33,6 +33,16 @@ Password managers are built into most browsers. Alternatively, there are free an
 > * ***Include all characters**: Incorporate numbers, special characters, and upper and lower case letters.*
 > * ***Unique per site**: Always generate a new, unique password for each site.*
 
+## What if I cannot use a password manager?
+
+If you cannot use a password manager, consider using any three random words, for example,  horsebatteryhouse as an alternative.
+
+> 💡 *Tip*
+>
+> *For more information on the three random words, visit[https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/three-random-words](https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/three-random-words).*
+
+<br />
+
 <Accordion title="What if I cannot use a password manager?" icon="fa-fa-question">
   If you cannott use a password manager, consider using any three random words, for example,  horsebatteryhouse as an alternative.
 
