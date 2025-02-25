@@ -19,14 +19,26 @@ next:
 ---
 The PUDO SFTP (Secure File Transfer Protocol) integration involves establishing a secure connection that enables data exchange between SAPIENT and Royal Mail PUDO service. This integration facilitates the exchange of crucial information, such as drop-off locations, opening and closing times, and shipment tracking details in a secure manner.
 
-> 🚧 _Important_ 
-> 
-> _If you want to set up the PUDO integration, make sure to meet the following prerequisites:_ 
-> 
-> - _[Enable PUDO integration](https://docs.intersoftsapient.net/docs/integration-activation) via the Royal Mail **Integration Activation** screen._
-> - _Create a location for us to connect, and then raise a request to our onboarding team for PUDO data via SFTP by providing your RSA Public Key. Based on the details provided, our team will respond back with your connection details._
+> 🚧 *Important*
+>
+> *If you want to set up the PUDO integration, make sure to meet the following prerequisites:*
+>
+> * *[Enable PUDO integration](https://docs.intersoftsapient.net/docs/integration-activation) via the Royal Mail **Integration Activation** screen.*
+> * *Create a location for us to connect, and then raise a request to our onboarding team for PUDO data via SFTP by providing your RSA Public Key. Based on the details provided, our team will respond back with your connection details.*
 
 The PUDO SFTP solution provides you with all locations in a single file that you can store as a library. The file is generated on a daily basis— the structure and its contents are explained in the following sections.
+
+> 💡 *Tip*
+>
+> \_To learn more about the file structure and its data, refer to the example file
+>
+> <HTMLBlock>{`
+> <a href="https://docs.google.com/spreadsheets/d/1wiz8kcQlMscAj81c-OFOPh_3gkfOheLadDkt5GYyAKo/edit?usp=sharing" download="https://docs.google.com/spreadsheets/d/1wiz8kcQlMscAj81c-OFOPh_3gkfOheLadDkt5GYyAKo/edit?usp=sharing">download this</a>
+> `}</HTMLBlock>
+>
+> .\_
+
+<br />
 
 ## File Naming
 
@@ -54,14 +66,14 @@ Each file consists of a full list of available locations each day. Everyday, the
 
 ## File Format
 
-The file is saved in the CSV format with comma delimiters.  
+The file is saved in the CSV format with comma delimiters.\
 The following table describes the records and fields that are present in the data file for each PUDO location.
 
 ***
 
 ## Header Record
 
-| \# | Name        | Type | Max Length | Comments                                                                 |
+| #  | Name        | Type | Max Length | Comments                                                                 |
 | :- | :---------- | :--- | :--------- | :----------------------------------------------------------------------- |
 | 1  | Record Type | C    | 1          | This will always be H                                                    |
 | 2  | Date        | D    | 8          | Represents the date when the file was created in the format**ddmmyyyy**. |
@@ -752,9 +764,9 @@ The following table describes the records and fields that are present in the dat
 </table>
 `}</HTMLBlock>
 
-> 🚧 _Important_
-> 
-> _Each office can have up to a maximum of 3 opening windows in a day. Therefore, the open/close profiles for any day may vary as shown in the following tables._
+> 🚧 *Important*
+>
+> *Each office can have up to a maximum of 3 opening windows in a day. Therefore, the open/close profiles for any day may vary as shown in the following tables.*
 
 | Name    | Opening/closing times |
 | :------ | :-------------------- |
@@ -787,8 +799,8 @@ The following table describes the records and fields that are present in the dat
 | Close 2 |                       |
 | Close 3 |                       |
 
-> 📘 _Note_
-> 
-> _For more information on how to use this API endpoint, refer to the [PUDO Locations](https://docs.intersoftsapient.net/reference/get_v4-pudolocations-carriercode-countrycode-postcode) API reference. However, based on your requirements, you can use the SFTP solution as well. _
-> 
-> > _For instance,  if you want to find the PUDO locations for one postcode at a time, for example to integrate with the checkout feature on their website, then the API would be the more suitable solution. On the contrary, if you want to download the PUDO data into your own system to check the PUDO locations that are close by to a given address by yourself, then the SFTP solution would be more suitable._
+> 📘 *Note*
+>
+> \_For more information on how to use this API endpoint, refer to the [PUDO Locations](https://docs.intersoftsapient.net/reference/get_v4-pudolocations-carriercode-countrycode-postcode) API reference. However, based on your requirements, you can use the SFTP solution as well. \_
+>
+> > *For instance,  if you want to find the PUDO locations for one postcode at a time, for example to integrate with the checkout feature on their website, then the API would be the more suitable solution. On the contrary, if you want to download the PUDO data into your own system to check the PUDO locations that are close by to a given address by yourself, then the SFTP solution would be more suitable.*
