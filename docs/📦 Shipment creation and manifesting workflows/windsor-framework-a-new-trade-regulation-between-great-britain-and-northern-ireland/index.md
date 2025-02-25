@@ -79,8 +79,6 @@ As a B2C customer shipping from Great Britain to Northern Ireland, you do not ne
 | **Business 2 Business (B2B)** - value of goods above £135          | Exporter/Sender deatils (including EORI), Importer/Receiver details (including EORI), total value (not by item), country of origin, gross mass, description of goods, confirmation of goods categorisation by item(optional), UKIMS number.              |
 | **Business 2 Business (B2B)** - value of goods up to £135 or less) | Exporter/Sender deatils (including EORI), Importer/Receiver details (including EORI), total value (not by item), country of origin, gross mass, description of goods, confirmation of goods categorisation by item (mandatory), UKIMS number (optional). |
 
-<br />
-
 > 📘 *Note*
 >
 > *The UKIMS or pre-registration number requirements are only applicable to to B2B shipments.*
