@@ -69,7 +69,7 @@ This section provides you with the complimentary information that you might find
 * [Archived release notes](https://docs.intersoftsapient.net/docs/archived-release-notes)
 
 <HTMLBlock>{`
-<a href="files/RMLC20241209.csv" download="https://intersoftuk.atlassian.net/wiki/spaces/Files/pages/2542600193/Files">download this</a>
+<a href="files/RMLC20241209.csv" download="RMLC20241209.csv">download this</a>
 `}</HTMLBlock>
 
-[download this](files/RMLC20241209.csv.zip)
+[download this](https://docs.google.com/spreadsheets/d/1wiz8kcQlMscAj81c-OFOPh_3gkfOheLadDkt5GYyAKo/edit?gid=543663962#gid=543663962)
