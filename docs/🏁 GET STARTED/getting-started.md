@@ -72,4 +72,4 @@ This section provides you with the complimentary information that you might find
 <a href="files/RMLC20241209.csv" download="RMLC20241209.csv">download this</a>
 `}</HTMLBlock>
 
-[download this](https://docs.google.com/spreadsheets/d/1wiz8kcQlMscAj81c-OFOPh_3gkfOheLadDkt5GYyAKo/edit?gid=543663962#gid=543663962)
+[download this](https://docs.google.com/spreadsheets/d/1wiz8kcQlMscAj81c-OFOPh_3gkfOheLadDkt5GYyAKo/edit?usp=sharing)
