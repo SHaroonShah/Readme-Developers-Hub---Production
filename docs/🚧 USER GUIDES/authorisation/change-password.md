@@ -29,7 +29,7 @@ To change the password, follow the steps as explained in the following procedure
 > 3. *Avoid common words or phrases.*
 > 4. *Monitor for breaches.*
 >
-> *For more information on how to set up a strong password, refer to the[ guidelines for choosing a string password](https://docs.intersoftsapient.net/docs/guidelines-for-choosing-strong-password#/) section.*
+> *For more information on how to set up a strong password, refer to the[ guidelines for choosing a strong password](https://docs.intersoftsapient.net/docs/guidelines-for-choosing-strong-password#/) section.*
 
 <br />
 
