@@ -59,7 +59,8 @@ curl --request POST \
       "Description": "White Mens Large T-shirt", 
       "Value": 19.99, 
       "Weight": 0.5, 
-      "HSCode": "6109100010", 
+      "HSCode": "6109100010",
+      "SuplementaryUnitCode":"25.78",
       "CountryOfOrigin": "CN" 
     }, 
   ] 
