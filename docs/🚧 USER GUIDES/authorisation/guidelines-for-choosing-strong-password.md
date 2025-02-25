@@ -36,5 +36,5 @@ Password managers are built into most browsers. Alternatively, there are free an
 <Accordion title="What if I cannot use a password manager?" icon="fa-fa-question">
   If you cannott use a password manager, consider using any three random words, for example,  horsebatteryhouse as an alternative.
 
-  For more information, visit \[[https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/three-random-words](https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/three-random-words)]\[[https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/three-random-words](https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/three-random-words)]
+  For more information, visit \[[https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/three-random-words](https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/three-random-words)]
 </Accordion>
