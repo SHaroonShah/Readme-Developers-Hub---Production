@@ -72,7 +72,7 @@ This section provides you with the complimentary information that you might find
 
 ```mermaid
 flowchart LR 
- A --- B[fa:fa-spinner B] 
+ Create Shipment --- Create Container[fa:fa-add B] 
  B --> C[fa:fa-check C] 
  C --> D[fa:fa-ban D]
 ```
