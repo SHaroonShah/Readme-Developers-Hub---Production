@@ -9,7 +9,7 @@ hidden: false
 metadata:
   robots: index
 ---
-<Image align="center" border={false} src="https://files.readme.io/d10349573b6aa93551df287194370e8a2fb5bc17f8977ffac9618fb1e1e87ced-Two_factor_authentication-pana.png" width="400px" />
+<Image align="center" width="400px" src="https://files.readme.io/d10349573b6aa93551df287194370e8a2fb5bc17f8977ffac9618fb1e1e87ced-Two_factor_authentication-pana.png" />
 
 To maintain the security of your account, we check the following when you change or set your password:
 
@@ -33,7 +33,7 @@ Password managers are built into most browsers. Alternatively, there are free an
 >
 > * ***Increase the length**: Set longer passwords (20+ characters), as they are generally more secure.*
 > * ***Include all characters**: Incorporate numbers, special characters, and upper and lower case letters.*
-> * ***Unique per site**: Always generate a new, unique password for each site.*
+> * ***Make it unique per site**: Always generate a new, unique password for each site.*
 
 ## What if I cannot use a password manager?
 
