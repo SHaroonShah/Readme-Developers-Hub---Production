@@ -33,7 +33,7 @@ The PUDO SFTP solution provides you with all locations in a single file that you
 > \_To learn more about the file structure and its data, refer to the example file
 >
 > <HTMLBlock>{`
-> <a href="https://docs.google.com/spreadsheets/d/1wiz8kcQlMscAj81c-OFOPh_3gkfOheLadDkt5GYyAKo/edit?usp=sharing" download="https://docs.google.com/spreadsheets/d/1wiz8kcQlMscAj81c-OFOPh_3gkfOheLadDkt5GYyAKo/edit?usp=sharing">download this</a>
+> <a href="https://docs.google.com/spreadsheets/d/1wiz8kcQlMscAj81c-OFOPh_3gkfOheLadDkt5GYyAKo/edit?usp=sharing" download="https://docs.google.com/spreadsheets/d/1wiz8kcQlMscAj81c-OFOPh_3gkfOheLadDkt5GYyAKo/edit?usp=sharing">example file</a>
 > `}</HTMLBlock>
 >
 > .\_
