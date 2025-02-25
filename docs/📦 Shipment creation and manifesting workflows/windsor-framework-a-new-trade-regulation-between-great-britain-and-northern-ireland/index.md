@@ -71,7 +71,15 @@ curl --request POST \
 >
 > *In the scope of the Windsor Framework changes, you might see some new fields in the API References. Some are carrier specific and some are used by commercial shipments. These new fields are optional and not required for shipments to NI.*
 
-As a B2C customer shipping from Great Britain to Northern Ireland, you do not need to provide the Item **HSCode** or **CountryOfOrigin**. However, if you are a Royal Mail B2C customer, it is recommended to refer to the Royal Mail [Create Shipment API field descriptions](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm#/) and populate them as required.
+As a B2C customer shipping from Great Britain to Northern Ireland, you do not need to provide the Item **HSCode** or **CountryOfOrigin**. However, if you are a Royal Mail B2C customer, make sure the correct information is provided in the following table:
+
+| Transaction type                                               | Fields                                                                                                                                                                                                                                                   |
+| :------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Business 2 Consumer (B2C)                                      | Goods description, confirmation of goods categorisation by item (optional), weight (by item), value (by item), and country of origin.                                                                                                                    |
+| Business 2 Business (B2B) - value of goods above £135          | Exporter/Sender deatils (including EORI), Importer/Receiver details (including EORI), total value (not by item), country of origin, gross mass, description of goods, confirmation of goods categorisation by item(optional), UKIMS number.              |
+| Business 2 Business (B2B) - value of goods up to £135 or less) | Exporter/Sender deatils (including EORI), Importer/Receiver details (including EORI), total value (not by item), country of origin, gross mass, description of goods, confirmation of goods categorisation by item (mandatory), UKIMS number (optional). |
+
+<br />
 
 > 📘 *Note*
 >
