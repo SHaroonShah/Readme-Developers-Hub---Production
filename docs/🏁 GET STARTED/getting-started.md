@@ -67,21 +67,3 @@ This section provides you with the complimentary information that you might find
 * [Carrier specific guides](https://docs.intersoftsapient.net/docs/carrier-specific-user-guides)
 * [Glossary](https://docs.intersoftsapient.net/docs/glossary-1)
 * [Archived release notes](https://docs.intersoftsapient.net/docs/archived-release-notes)
-
-<br />
-
-```mermaid
-flowchart LR 
- Create Shipment --- Create Container[fa:fa-spinner Create Container] 
- Create Container --> Add Shipments to Container[fa:fa-check Add Shipments to Container] 
- Add Shipments to Container --> Manifest Container[fa:fa-ban Manifest Container]
-```
-
-<br />
-
-```mermaid
-flowchart LR 
- Create Shipment --- B[fa:fa-spinner B] 
- B --> C[fa:fa-check C] 
- B --> D[fa:fa-ban D]
-```
