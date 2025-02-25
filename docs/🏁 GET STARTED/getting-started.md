@@ -68,4 +68,4 @@ This section provides you with the complimentary information that you might find
 * [Glossary](https://docs.intersoftsapient.net/docs/glossary-1)
 * [Archived release notes](https://docs.intersoftsapient.net/docs/archived-release-notes)
 
-[download this](files/file.csv)
+[download this](https://intersoftuk.atlassian.net/wiki/spaces/Files/pages/2542600193/PUDO+via+SFTP)
