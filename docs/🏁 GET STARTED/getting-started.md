@@ -76,3 +76,12 @@ flowchart LR
  Create Container --> Add Shipments to Container[fa:fa-check Add Shipments to Container] 
  Add Shipments to Container --> Manifest Container[fa:fa-ban Manifest Container]
 ```
+
+<br />
+
+```mermaid
+flowchart LR 
+ Hi --- B[fa:fa-spinner B] 
+ B --> C[fa:fa-check C] 
+ B --> D[fa:fa-ban D]
+```
