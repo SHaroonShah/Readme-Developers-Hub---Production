@@ -1,8 +1,8 @@
 ---
 title: Change password
 excerpt: >-
-  For security reasons, it is recommended that you change your password at
-  regular intervals.
+  For security reasons, it is recommended that you choose the correct guidelines
+  or your compny policies to set your password.
 deprecated: false
 hidden: false
 metadata:
