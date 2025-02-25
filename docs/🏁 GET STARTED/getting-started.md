@@ -68,6 +68,11 @@ This section provides you with the complimentary information that you might find
 * [Glossary](https://docs.intersoftsapient.net/docs/glossary-1)
 * [Archived release notes](https://docs.intersoftsapient.net/docs/archived-release-notes)
 
-<HTMLBlock>{`
-<a href="https://docs.google.com/spreadsheets/d/1wiz8kcQlMscAj81c-OFOPh_3gkfOheLadDkt5GYyAKo/edit?usp=sharing" download="https://docs.google.com/spreadsheets/d/1wiz8kcQlMscAj81c-OFOPh_3gkfOheLadDkt5GYyAKo/edit?usp=sharing">download this</a>
-`}</HTMLBlock>
+<br />
+
+```mermaid
+flowchart LR 
+ A --- B[fa:fa-spinner B] 
+ B --> C[fa:fa-check C] 
+ B --> D[fa:fa-ban D]
+```
