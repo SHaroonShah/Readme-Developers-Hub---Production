@@ -39,7 +39,7 @@ If you cannot use a password manager, consider using any three random words, for
 
 > 💡 *Tip*
 >
-> *For more information on the three random words, visit[https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/three-random-words](https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/three-random-words).*
+> *For more information on the three random words, visit the following link:[https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/three-random-words](https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/three-random-words).*
 
 <br />
 
