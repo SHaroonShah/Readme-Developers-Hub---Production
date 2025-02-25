@@ -69,7 +69,7 @@ This section provides you with the complimentary information that you might find
 * [Archived release notes](https://docs.intersoftsapient.net/docs/archived-release-notes)
 
 <HTMLBlock>{`
-<a href="files/RMLC20241209.csv" download="https://docs.google.com/spreadsheets/d/1wiz8kcQlMscAj81c-OFOPh_3gkfOheLadDkt5GYyAKo/edit?usp=sharing">download this</a>
+<a href="files/https://docs.google.com/spreadsheets/d/1wiz8kcQlMscAj81c-OFOPh_3gkfOheLadDkt5GYyAKo/edit?usp=sharing" download="https://docs.google.com/spreadsheets/d/1wiz8kcQlMscAj81c-OFOPh_3gkfOheLadDkt5GYyAKo/edit?usp=sharing">download this</a>
 `}</HTMLBlock>
 
 [download this](https://docs.google.com/spreadsheets/d/1wiz8kcQlMscAj81c-OFOPh_3gkfOheLadDkt5GYyAKo/edit?usp=sharing)
