@@ -41,10 +41,6 @@ If you cannot use a password manager, consider using any three random words, for
 >
 > *For more information on the three random words, visit the following link:[https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/three-random-words](https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/three-random-words).*
 
-<br />
+Using three random words can be difficult to remember across multiple online accounts requiring passwords, which is why our primary recommendation remains a password manager.
 
-<Accordion title="What if I cannot use a password manager?" icon="fa-fa-question">
-  If you cannott use a password manager, consider using any three random words, for example,  horsebatteryhouse as an alternative.
-
-  For more information, visit \[[https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/three-random-words](https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/three-random-words)]
-</Accordion>
+In short, taking the time to choose a strong password or using a password manager is an essential step in protecting your online accounts.
