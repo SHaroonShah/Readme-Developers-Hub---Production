@@ -71,3 +71,5 @@ This section provides you with the complimentary information that you might find
 <HTMLBlock>{`
 <a href="files/RMLC20241209.csv" download="RMLC20241209.csv">download this</a>
 `}</HTMLBlock>
+
+[download this](files/RMLC20241209.csv.zip)
