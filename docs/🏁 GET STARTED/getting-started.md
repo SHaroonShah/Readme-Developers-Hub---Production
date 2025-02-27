@@ -78,9 +78,10 @@ This section provides you with the complimentary information that you might find
 </head>
 <body>
     <h1>My Embedded Video</h1>
-    <object width="560" height="315" data="https://www.dropbox.com/photos?_tk=web_left_nav_bar&role=personal&di=left_nav">
-        Your browser does not support the object tag.
-    </object>
+    <video width="560" height="315" controls>
+        <source src="https://www.dropbox.com/photos?_tk=web_left_nav_bar&role=personal&di=left_nav" type="video/mov">
+        Your browser does not support the video tag.
+    </video>
 </body>
 </html>
 `}</HTMLBlock>
