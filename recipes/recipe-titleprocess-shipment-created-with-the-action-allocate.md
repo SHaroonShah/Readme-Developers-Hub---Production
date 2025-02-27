@@ -3,7 +3,7 @@ title: Process shipment created with the action "Allocate"
 description: Recipe Description
 hidden: true
 recipe:
-  color: '#018FF4'
+  color: '#a5a9ac'
   icon: ↙️
 ---
 ```csharp C#
