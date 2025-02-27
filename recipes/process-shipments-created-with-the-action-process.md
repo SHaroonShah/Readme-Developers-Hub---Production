@@ -1,8 +1,8 @@
 ---
 title: Process shipment created with the action “Process”
 description: >-
-  Execute actions on shipments that have been created and marked for processing
-  within Sapient.
+  Create a shipment, generate the tracking number, and get the labels in the
+  response. 
 hidden: false
 recipe:
   color: '#939495'
