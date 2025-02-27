@@ -175,8 +175,14 @@ Book a collection for Royal Mail returns shipment with the first available colle
 
 Get the shipment ID of the created shipment. 
 
-# Book colection
+# Book collection
 
 <!-- csharp@125-126 -->
 
 Book collection with the earliest available time. You can book the collection using the shipment ID, tracking number, or a barcode number.
+
+# Save the collection data
+
+<!-- csharp@ -->
+
+Retrieve and store the collection data for reference or later use.
