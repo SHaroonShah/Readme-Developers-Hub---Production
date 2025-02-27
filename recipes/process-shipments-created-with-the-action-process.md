@@ -98,6 +98,14 @@ namespace MCSS.CodeForRecipes.Recipes
                 }
             });
             var shipmentResponse = await client.PostAsync<ShipmentResponse>(shipmentRequest);
+          /* 
+			 * Once the labels are printed the shipment will be ready for manifest.
+			 * Shipments must be manifested before they are handed over to the carrier.
+			 * Shipments must be manifested a minimum of once a day, normally in line with the final collection of the day.
+			 * They can be manifested more frequently if needed e.g. If a carrier makes several collections per day.
+			 * Shipments should be manifested in bulk before they are collected.
+			 * Shipments must not be manifested individually once the label is printed.
+			 */
 
             // Manifested shipments are ready to be picked up by the carrier.
             var manifestRequest = new RestRequest($"/v4/manifests/RM", Method.Post);
