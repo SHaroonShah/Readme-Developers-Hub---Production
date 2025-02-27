@@ -8,7 +8,7 @@ recipe:
   color: '#939495'
   icon: 🏷️
 ---
-```shell Shell
+```csharp C#
 using MCSS.CodeForRecipes.Schema;
 using RestSharp;
 using System;
@@ -185,36 +185,60 @@ var cancelCollectionResponse = await client.PutAsync(cancelCollectionRequest);
 
 # Set up environment
 
-<!-- shell@1-14 -->
+<!-- csharp@1-14 -->
 
 Set up your environment using your authentication and shipping details.
 
 # Get an authentication token
 
-<!-- shell@21-37 -->
+<!-- csharp@21-37 -->
 
 Try and get the token from the cache.  If it does not exist, then retrieve it from authentication server and cache it.
 
 # Set up API Client
 
-<!-- shell@40-41 -->
+<!-- csharp@40-41 -->
 
 Pass the token to your API Client.
 
 # Create a shipment using a Royal Mail return service (Tracked Returns 24 (T24), Enhanced TSN, or Tracked Returns 48 (T48) Enhanced TSS)
 
-<!-- shell@44-164 -->
+<!-- csharp@44-164 -->
 
 Book your collection using the Royal Mail return service with your own return label.
 
 # Get shipment ID
 
-<!-- shell@120-121 -->
+<!-- csharp@120-121 -->
 
 Get the shipment ID of the created shipment
 
 # Mnaifest shipment
 
-<!-- shell@ -->
+<!-- csharp@124-138 -->
 
-Manifested shipments 
+Manifested shipments are ready to be picked up by the carrier.
+
+# Get collection timeslots
+
+<!-- csharp@142-144 -->
+
+Get the collection timeslots using the shipment ID, tracking number, or a barcode number.
+
+# Save timeslot response 
+
+<!-- csharp@147-149 -->
+
+Store the timeslot data for reference or later use.
+
+# Book collection
+
+<!-- csharp@156-164 -->
+
+Book collection with the chosen data and set BringMyLabel = true
+
+# Cancel collection
+
+<!-- csharp@166-168 -->
+
+Cancel the collection that was previously booked.
