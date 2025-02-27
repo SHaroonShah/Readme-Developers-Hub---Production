@@ -3,7 +3,7 @@ title: Process shipment created with the action "Create"
 description: Recipe Description
 hidden: true
 recipe:
-  color: '#f4d601'
+  color: '#f9b411'
   icon: ➕
 ---
 ```csharp C#
