@@ -6,7 +6,7 @@ recipe:
   color: '#f4d601'
   icon: ➕
 ---
-```shell Shell
+```csharp C#
 
 ```
 
@@ -16,5 +16,5 @@ recipe:
 
 # Set up client
 
-<!-- shell@ -->
+<!-- csharp@ -->
 
