@@ -201,7 +201,7 @@ The "containerId" is your reference to the container and is used to add shipment
 
 Add the previously created shipment to your container. You can repeat this process until you want to close the container and manifest it.
 
-# Manifest the container
+# Manifest container
 
 <!-- csharp@104-111 -->
 
