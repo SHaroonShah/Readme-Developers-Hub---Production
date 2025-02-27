@@ -1,5 +1,5 @@
 ---
-title: Process shipments created with the action “Process”
+title: Process shipment created with the action “Process”
 description: >-
   Execute actions on shipments that have been created and marked for processing
   within Sapient.
