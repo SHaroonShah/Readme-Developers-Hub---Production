@@ -1,7 +1,7 @@
 ---
 title: Process shipment created with the action "Allocate"
 description: Recipe Description
-hidden: true
+hidden: false
 recipe:
   color: '#a5a9ac'
   icon: ↙️
