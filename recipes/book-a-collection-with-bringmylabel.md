@@ -236,9 +236,3 @@ Store the timeslot data for reference or later use.
 <!-- csharp@156-164 -->
 
 Book collection with the chosen data and set BringMyLabel = true
-
-# Cancel collection
-
-<!-- csharp@166-168 -->
-
-If needed, cancel the collection that was previously booked.
