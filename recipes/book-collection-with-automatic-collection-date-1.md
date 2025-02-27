@@ -168,3 +168,15 @@ Pass the token to your API Client.
 <!-- shell@44-130 -->
 
 Book a collection for Royal Mail returns shipment with the first available collection date.
+
+# Get the shipment ID
+
+<!-- shell@120-121 -->
+
+Get the shipment ID of the created shipment. 
+
+# Book colection
+
+<!-- shell@125-126 -->
+
+Book collection with the earliest available time. You can book the collection using the shipment ID, tracking number, or a barcode number.
