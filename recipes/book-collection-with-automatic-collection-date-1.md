@@ -8,7 +8,7 @@ recipe:
   color: '#939495'
   icon: 📦
 ---
-```shell Shell
+```csharp C#
 using MCSS.CodeForRecipes.Schema;
 using RestSharp;
 using System.Threading.Tasks;
@@ -147,36 +147,36 @@ DateTime collectionDate = collectionResponse.CollectionDate;
 
 # Set up environment
 
-<!-- shell@1-13 -->
+<!-- csharp@1-13 -->
 
 Set up your environment using your authentication and shipping details.
 
 # Get an authentication token
 
-<!-- shell@21-37 -->
+<!-- csharp@21-37 -->
 
 Try and get the token from the cache.  If it does not exist, then retrieve it from authentication server and cache it.
 
 # Set up API Client
 
-<!-- shell@40-41 -->
+<!-- csharp@40-41 -->
 
 Pass the token to your API Client.
 
 # Create a shipment using a RM return service (Tracked Returns 24 (T24), Enhanced TSN, or Tracked Returns 48 (T48) Enhanced TSS)
 
-<!-- shell@44-130 -->
+<!-- csharp@44-130 -->
 
 Book a collection for Royal Mail returns shipment with the first available collection date.
 
 # Get the shipment ID
 
-<!-- shell@120-121 -->
+<!-- csharp@120-121 -->
 
 Get the shipment ID of the created shipment. 
 
 # Book colection
 
-<!-- shell@125-126 -->
+<!-- csharp@125-126 -->
 
 Book collection with the earliest available time. You can book the collection using the shipment ID, tracking number, or a barcode number.
