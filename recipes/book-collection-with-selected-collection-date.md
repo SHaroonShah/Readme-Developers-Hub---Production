@@ -6,7 +6,7 @@ recipe:
   color: '#939495'
   icon: 📅
 ---
-```shell Shell
+```csharp C#
 using MCSS.CodeForRecipes.Schema;
 using RestSharp;
 using System;
@@ -179,25 +179,25 @@ var cancelCollectionResponse = await client.PutAsync(cancelCollectionRequest);
 
 # Set up environment
 
-<!-- shell@1-15 -->
+<!-- csharp@1-15 -->
 
 Set up your environment using your authentication and shipping details.
 
 # Get an authentication token
 
-<!-- shell@22-38 -->
+<!-- csharp@22-38 -->
 
 Try and get the token from the cache.  If it does not exist, then retrieve it from authentication server and cache it.
 
 # Set up API Client
 
-<!-- shell@41-42 -->
+<!-- csharp@41-42 -->
 
 Pass the token to your API client.
 
 # Create a shipment using the Royal Mail return service (Tracked Returns 24 (T24), Enhanced TSN, or Tracked Returns 48 (T48) Enhanced TSS)
 
-<!-- shell@121-164 -->
+<!-- csharp@121-164 -->
 
 First, request to get available slot dates for collection. 
 
