@@ -204,3 +204,14 @@ First, request to get available slot dates for collection.
 After, book the collection with a selected date. 
 
 Slots are reserved for a maximum of 15 minutes, which means there cannot be more than 15 minutes between when the available slots are received and the request for booking the collection with the selected slot is sent.
+
+# Get shipment ID
+
+<!-- csharp@120-122 -->
+
+Get the ShipmentId in the create shipment response
+
+# Manifest shipment
+
+<!-- csharp@ -->
+
