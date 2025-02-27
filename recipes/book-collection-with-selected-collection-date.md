@@ -234,9 +234,3 @@ Save the timeslot returned in the response for later use.
 <!-- csharp@152-160 -->
 
 Book shipment collection with the chosen collection date.
-
-# Cancel collection
-
-<!-- csharp@163-164 -->
-
-If needed, cancel the collection that was previously booked.
