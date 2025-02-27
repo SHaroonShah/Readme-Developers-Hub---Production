@@ -27,26 +27,40 @@ namespace MCSS.CodeForRecipes.Recipes
 
 			var shippingAccountId = "my-shipping-account-id-or-alias";
 
+			var token = "";
+
 			// Please note this code excludes all error handling
-			// This code uses the RestSharp NuGet package
-			// dotnet add package RestSharp
+			// This code uses the Microsoft Memory Cache
+			// dotnet add package Microsoft.Extensions.Caching.Memory
 
-			// Get authentication token
-			// remember to only get a new token once the old token has expired
-			using var authClient = new RestClient(authenticationUrl);
-			var authRequest = new RestRequest("/connect/token", Method.Post);
+			// Try and get the token from the cache. Retrieve from authentication server if it doesn't exist & cache it.
+			if (!Cache.TryGetValue(AUTH_CACHE_KEY, out string cachedToken))
+			{
+				using var authClient = new RestClient(authenticationUrl);
+				var authRequest = new RestRequest("/connect/token", Method.Post);
 
-			authRequest.AddParameter("grant_type", "client_credentials");
-			authRequest.AddParameter("client_id", clientId);
-			authRequest.AddParameter("client_secret", clientSecret);
+				authRequest.AddParameter("grant_type", "client_credentials");
+				authRequest.AddParameter("client_id", clientId);
+				authRequest.AddParameter("client_secret", clientSecret);
 
-			var authResponse = await authClient.PostAsync<TokenResponse>(authRequest);
-			var token = authResponse.AccessToken;
+				var authResponse = await authClient.PostAsync<TokenResponse>(authRequest);
 
-			// Setup API Client
+				// Store the token in the cache, calculate the cache expiry from the tokens expiry
+				var tokenValidForSeconds = GetTokenExpiryInSeconds(authResponse);
+				Cache.Set(AUTH_CACHE_KEY, authResponse.AccessToken, TimeSpan.FromSeconds(tokenValidForSeconds));
+
+				token = authResponse.AccessToken;
+			}
+			else
+			{
+				token = cachedToken;
+			}
+      
+      // Setup API Client
 			using var client = new RestClient(apiUrl);
 			client.AddDefaultHeader("Authorization", "Bearer " + token);
-
+      
+      
 			// Create a shipment with Action: "Create".
 			// This creates a shipment, but does not allocate a tracking number, print the label(s), or return the label(s) in the response.
 			var shipmentRequest = new RestRequest("/v4/shipments/rm", Method.Post);
@@ -133,29 +147,44 @@ namespace MCSS.CodeForRecipes.Recipes
 
 # Set up environment
 
-<!-- csharp@ -->
+<!-- csharp@1-17 -->
 
-
+Set up your environment using your authentication and shipping details.
 
 # Get an authenication token
 
-<!-- csharp@ -->
+<!-- csharp@26-46 -->
 
-
+Try and get the token from the cache. If it does not exist, then retrieve it from authentication server and cache it.
 
 # Set up API Client
 
-<!-- csharp@ -->
+<!-- csharp@49-50 -->
 
-
+Pass the token to your API Client.
 
 # Create shipment with the action "Create"
 
-<!-- csharp@ -->
+<!-- csharp@55-98 -->
 
+Create shipments with the action “Create.”
 
+# Get shipment ID
+
+<!-- csharp@104-105 -->
+
+Get the shipment ID of the created shipment an save it.
+
+# Print label
+
+<!-- csharp@107-111 -->
+
+Print the labels for the shipment. 
+
+Make sure the shipment status is set to "Printed" before being manifested.
 
 # Manifest shipment
 
-<!-- csharp@ -->
+<!-- csharp@114-130 -->
 
+Manifested shipments are ready to be picked up by the carrier.
