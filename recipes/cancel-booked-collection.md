@@ -162,18 +162,18 @@ Set up your environment using your authentication and shipping details.
 
 # Get an authentication token
 
-<!-- shell@24-40 -->
+<!-- shell@ -->
 
 Try and get the token from the cache.  If it does not exist, then retrieve it from authentication server and cache it.
 
 # Set up API Client
 
-
+<!-- shell@ -->
 
 Pass the token to your API Client.
 
 # Cancel booked collection
 
-<!-- shell@136-193 -->
+<!-- shell@ -->
 
 Request to cancel your booked collection.
