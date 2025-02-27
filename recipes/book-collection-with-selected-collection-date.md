@@ -225,11 +225,11 @@ Get the collection time slots available using the shipment ID, barcode number, o
 
 # Save the timeslot response
 
-<!-- csharp@ -->
+<!-- csharp@148-150 -->
 
 Save the timeslot returned in the response for later use.
 
-# Book collection 
+# Book collection
 
 <!-- csharp@152-160 -->
 
