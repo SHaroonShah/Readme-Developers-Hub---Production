@@ -3,7 +3,7 @@ title: Process shipment created with the action "Create"
 description: >-
   Create a shipment without getting the tracking number and labels in the
   response.
-hidden: true
+hidden: false
 recipe:
   color: '#f9b411'
   icon: ➕
