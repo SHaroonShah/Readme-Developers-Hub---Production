@@ -197,7 +197,7 @@ Try and get the token from the cache.  If it does not exist, then retrieve it fr
 
 # Set up API Client
 
-
+<!-- shell@40-41 -->
 
 Pass the token to your API Client.
 
@@ -206,3 +206,15 @@ Pass the token to your API Client.
 <!-- shell@44-164 -->
 
 Book your collection using the Royal Mail return service with your own return label.
+
+# Get shipment ID
+
+<!-- shell@120-121 -->
+
+Get the shipment ID of the created shipment
+
+# Mnaifest shipment
+
+<!-- shell@ -->
+
+Manifested shipments 
