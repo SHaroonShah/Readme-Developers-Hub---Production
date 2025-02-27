@@ -5,7 +5,7 @@ description: >-
   shipping management.
 hidden: false
 recipe:
-  color: '#f1a601'
+  color: '#f9b411'
   icon: 📥
 ---
 ```csharp C#
