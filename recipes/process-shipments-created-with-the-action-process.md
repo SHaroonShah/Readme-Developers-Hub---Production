@@ -142,7 +142,7 @@ Try and get the token from the cache.  If it does not exist, then retrieve it fr
 
 Pass the token to your API Client.
 
-# Create shipments with the action “Process”
+# Create shipment with the action “Process”
 
 <!-- csharp@46-86 -->
 
@@ -150,7 +150,7 @@ Create shipments with the action “Process”.
 
 If applicable, this action returns a label and CN23 in the success API response.
 
-# Manifest Shipments
+# Manifest Shipment
 
 <!-- csharp@89-107 -->
 
