@@ -17,31 +17,25 @@ next:
 ---
 Releasing a shipment from hold is crucial for maintaining operational efficiency, ensuring timey delivery, and upholding customer relationships.
 
-In SAPIENT, you can anytime release the [held](https://docs.intersoftsapient.net/docs/held-shipments)<Glossary>shipments</Glossary>  .
+In SAPIENT, you can anytime release the [held](https://docs.intersoftsapient.net/docs/held-shipments) <Glossary>shipments</Glossary>  .
 
 > 💡 *Tip*
 >
-> *You can release the shipments both via UI and the API. For more information on how to release shipments via API, refer to the[API References](https://docs.intersoftsapient.net/reference/put_v4-shipments-status) section.*
+> *You can release the shipments both via UI and the API. For more information on how to release shipments via API, refer to the[ API References](https://docs.intersoftsapient.net/reference/put_v4-shipments-status) section.*
 
 To release a shipment in SAPIENT, follow the steps as explained in the following procedure.
 
 1. In the side navigation panel, select the **Shipment Processing** > **Held** option.
 
-<Image alt="Accessing shipments" align="center" border={true} src="https://files.readme.io/c0796ec5b2d1123cc03bd22830f7520bddea1408599b62a0b00be63dff75e887-Held_option.png">
-  Accessing held shipments
-</Image>
+<Image align="center" alt="Accessing shipments" border={true} caption="Accessing held shipments" src="https://files.readme.io/c0796ec5b2d1123cc03bd22830f7520bddea1408599b62a0b00be63dff75e887-Held_option.png" />
 
-2. In the **Held Shipments** page that opens, select the checkboxes next to the shipments you want to release, and then select ![alt text](https://files.readme.io/ea4f0d57b9918ccc9192a3d230a9dbd24e3e5a33c864e0dd4e8c973181d78f46-Release_shipments_button.png). 
+2. In the **Held Shipments** page that opens, select the checkboxes next to the shipments you want to release, and then select ![alt text](https://files.readme.io/ea4f0d57b9918ccc9192a3d230a9dbd24e3e5a33c864e0dd4e8c973181d78f46-Release_shipments_button.png).
 
-<Image alt="Recalling shipment" align="center" border={true} src="https://files.readme.io/a64211ea7a7073f81971a21ff07e429fe56864cd50f4be911b9af62da763fe8d-Releasing_shipment.png">
-  Releasing shipments
-</Image>
+<Image align="center" alt="Recalling shipment" border={true} caption="Releasing shipments" src="https://files.readme.io/a64211ea7a7073f81971a21ff07e429fe56864cd50f4be911b9af62da763fe8d-Releasing_shipment.png" />
 
 3. In the confirmation dialog that appears, select **Yes**.
 
-<Image alt="Confirming shipment recalling" align="center" width="350px" border={true} src="https://files.readme.io/6357a15bc67e4c76c3e37aca5da2842b7bdb395cf3c3ce8fa6e6bd16bba7a751-Confirming_shipment_release.png">
-  Confirming shipment release
-</Image>
+<Image align="center" alt="Confirming shipment recalling" border={true} caption="Confirming shipment release" src="https://files.readme.io/6357a15bc67e4c76c3e37aca5da2842b7bdb395cf3c3ce8fa6e6bd16bba7a751-Confirming_shipment_release.png" width="350px" />
 
 3. Once confirmed, the shipment(s) is removed from the **Held Shipments** list and goes back to its previous status and is included in the next manifest.
 
