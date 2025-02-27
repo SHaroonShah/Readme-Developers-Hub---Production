@@ -5,7 +5,7 @@ description: >-
   response.
 hidden: false
 recipe:
-  color: '#f9b411'
+  color: '#a5a9ac'
   icon: ➕
 ---
 ```csharp C#
