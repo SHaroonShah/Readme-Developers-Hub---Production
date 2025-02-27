@@ -133,7 +133,7 @@ namespace MCSS.CodeForRecipes.Recipes
 
 <!-- csharp@ -->
 
-
+Create a shipment without the tracking number and labels. 
 
 # Get an authenication token
 
@@ -156,3 +156,4 @@ namespace MCSS.CodeForRecipes.Recipes
 # Manifest shipment
 
 <!-- csharp@ -->
+
