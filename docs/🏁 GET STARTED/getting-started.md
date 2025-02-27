@@ -67,3 +67,17 @@ This section provides you with the complimentary information that you might find
 * [Carrier specific guides](https://docs.intersoftsapient.net/docs/carrier-specific-user-guides)
 * [Glossary](https://docs.intersoftsapient.net/docs/glossary-1)
 * [Archived release notes](https://docs.intersoftsapient.net/docs/archived-release-notes)
+
+\<!DOCTYPE html>
+
+\<html lang="en">
+\<head>
+&#x20;   \<meta charset="UTF-8">
+&#x20;   \<meta name="viewport" content="width=device-width, initial-scale=1.0">
+&#x20;   \<title>Embed Video Example\</title>
+\</head>
+\<body>
+&#x20;   \<h1>My Embedded Video\</h1>
+&#x20;   \<iframe width="560" height="315" src="https\://www\.youtube.com/embed/watch?v=Oz-o3Q5kyMA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>\</iframe>
+\</body>
+\</html>
