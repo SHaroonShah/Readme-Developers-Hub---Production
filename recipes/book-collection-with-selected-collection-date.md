@@ -233,4 +233,4 @@ Save the timeslot returned in the response for later use.
 
 <!-- csharp@152-160 -->
 
-Book shipment collection with the chose date.
+Book shipment collection with the chosen collection date.
