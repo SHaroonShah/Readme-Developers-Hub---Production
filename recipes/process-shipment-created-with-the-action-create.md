@@ -1,6 +1,6 @@
 ---
 title: Process shipment created with the action "Create"
-description: Recipe Description
+description: 'Create a shipment without the tracking number and labels. '
 hidden: true
 recipe:
   color: '#f9b411'
@@ -133,7 +133,7 @@ namespace MCSS.CodeForRecipes.Recipes
 
 <!-- csharp@ -->
 
-Create a shipment without the tracking number and labels. 
+
 
 # Get an authenication token
 
