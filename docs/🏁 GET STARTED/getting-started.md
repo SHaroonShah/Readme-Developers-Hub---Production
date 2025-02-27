@@ -79,7 +79,7 @@ This section provides you with the complimentary information that you might find
 <body>
     <h1>My Embedded Video</h1>
     <video width="560" height="315" controls>
-        <source src="https://www.dropbox.com/photos?_tk=web_left_nav_bar&role=personal&di=left_nav" type="video/mov">
+        <source src="https://https://www.dropbox.com/scl/fi/s2yc79qmdb3zeuyfey6jw/UFJE3237.mov?rlkey=a5ilbbykz13m23cf98a1517gp&st=afjuo2ln&dl=0" type="video/mov">
         Your browser does not support the video tag.
     </video>
 </body>
