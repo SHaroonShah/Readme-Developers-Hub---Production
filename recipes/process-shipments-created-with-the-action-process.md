@@ -8,7 +8,7 @@ recipe:
   color: '#939495'
   icon: 📮
 ---
-```curl cURL
+```csharp C#
 namespace MCSS.CodeForRecipes.Recipes
 {
     using RestSharp;
@@ -118,25 +118,25 @@ namespace MCSS.CodeForRecipes.Recipes
 
 # Set up environment
 
-<!-- curl@1-17 -->
+<!-- csharp@1-17 -->
 
 Set-up your environment using your authentication and shipping details.
 
 # Get an authentication token
 
-<!-- curl@24-40 -->
+<!-- csharp@ -->
 
 Try and get the token from the cache.  If it does not exist, then retrieve it from authentication server and cache it.
 
 # Set up API Client
 
-<!-- curl@43-44 -->
+<!-- csharp@ -->
 
 Pass the token to your API Client.
 
 # Create shipments with the action “Process”
 
-<!-- curl@47-89 -->
+<!-- csharp@ -->
 
 Create shipments with the action “Process”.
 
@@ -144,6 +144,6 @@ If applicable, this action returns a label and CN23 in the success API response.
 
 # Manifest Shipments
 
-<!-- curl@92-98 -->
+<!-- csharp@ -->
 
 Manifested shipments are ready to be picked up by the carrier.
