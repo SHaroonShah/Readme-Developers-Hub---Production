@@ -225,7 +225,7 @@ Manifested shipments are ready to be picked up by the carrier.
 
 Get the collection timeslots using the shipment ID, tracking number, or a barcode number.
 
-# Save timeslot response 
+# Save timeslot response
 
 <!-- csharp@147-149 -->
 
@@ -241,4 +241,4 @@ Book collection with the chosen data and set BringMyLabel = true
 
 <!-- csharp@166-168 -->
 
-Cancel the collection that was previously booked.
+If needed, cancel the collection that was previously booked.
