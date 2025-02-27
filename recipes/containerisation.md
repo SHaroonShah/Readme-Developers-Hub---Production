@@ -6,7 +6,7 @@ description: >-
 hidden: false
 recipe:
   color: '#878682'
-  icon: 📋
+  icon: 📥
 ---
 ```csharp C#
 using RestSharp;
