@@ -3,8 +3,8 @@
 - use-pre-allocated-tracking-number
 - process-shipments-created-with-the-action-process
 - process-shipment-created-with-the-action-create
-- book-collection-with-selected-collection-date
 - recipe-titleprocess-shipment-created-with-the-action-allocate
+- book-collection-with-selected-collection-date
 - book-collection-with-automatic-collection-date-1
 - book-a-collection-with-bringmylabel
 - cancel-booked-collection
