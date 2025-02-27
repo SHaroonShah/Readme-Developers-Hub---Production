@@ -1,6 +1,8 @@
 ---
 title: Process shipment created with the action "Create"
-description: 'Create a shipment without the tracking number and labels. '
+description: >-
+  Create a shipment without getting the tracking number and labels in the
+  response.
 hidden: true
 recipe:
   color: '#f9b411'
