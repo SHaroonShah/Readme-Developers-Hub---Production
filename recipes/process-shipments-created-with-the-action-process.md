@@ -1,8 +1,8 @@
 ---
 title: Process shipment created with the action “Process”
 description: >-
-  Create a shipment, generate the tracking number, and get the labels in the
-  response. 
+  Create a shipment, generate the tracking number, print the label for each
+  package in the shipment, and get the labels in the response. 
 hidden: false
 recipe:
   color: '#939495'
