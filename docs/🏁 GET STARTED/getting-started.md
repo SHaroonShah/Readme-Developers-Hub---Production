@@ -67,21 +67,3 @@ This section provides you with the complimentary information that you might find
 * [Carrier specific guides](https://docs.intersoftsapient.net/docs/carrier-specific-user-guides)
 * [Glossary](https://docs.intersoftsapient.net/docs/glossary-1)
 * [Archived release notes](https://docs.intersoftsapient.net/docs/archived-release-notes)
-
-<HTMLBlock>{`
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Embed Video Example</title>
-</head>
-<body>
-    <h1>My Embedded Video</h1>
-    <video width="560" height="315" controls>
-        <source src="https://https://www.dropbox.com/scl/fi/s2yc79qmdb3zeuyfey6jw/UFJE3237.mov?rlkey=a5ilbbykz13m23cf98a1517gp&st=afjuo2ln&dl=0" type="video/mov">
-        Your browser does not support the video tag.
-    </video>
-</body>
-</html>
-`}</HTMLBlock>
