@@ -18,3 +18,27 @@ recipe:
 
 <!-- csharp@ -->
 
+
+
+# Get an authentication token
+
+<!-- csharp@ -->
+
+
+
+# Set up API Client
+
+<!-- csharp@ -->
+
+
+
+# Create shipment with the action "Allocate"
+
+<!-- csharp@ -->
+
+
+
+# Manifest shipment
+
+<!-- csharp@ -->
+
