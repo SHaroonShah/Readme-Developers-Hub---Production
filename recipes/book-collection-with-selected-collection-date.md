@@ -197,7 +197,7 @@ Pass the token to your API client.
 
 # Create a shipment using the Royal Mail return service (Tracked Returns 24 (T24), Enhanced TSN, or Tracked Returns 48 (T48) Enhanced TSS)
 
-<!-- csharp@121-164 -->
+<!-- csharp@44-116 -->
 
 First, request to get available slot dates for collection. 
 
