@@ -156,4 +156,3 @@ namespace MCSS.CodeForRecipes.Recipes
 # Manifest shipment
 
 <!-- csharp@ -->
-
