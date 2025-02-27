@@ -67,3 +67,20 @@ This section provides you with the complimentary information that you might find
 * [Carrier specific guides](https://docs.intersoftsapient.net/docs/carrier-specific-user-guides)
 * [Glossary](https://docs.intersoftsapient.net/docs/glossary-1)
 * [Archived release notes](https://docs.intersoftsapient.net/docs/archived-release-notes)
+
+<HTMLBlock>{`
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embed Video Example</title>
+</head>
+<body>
+    <h1>My Embedded Video</h1>
+    <object width="560" height="315" data="https://www.dropbox.com/photos?_tk=web_left_nav_bar&role=personal&di=left_nav">
+        Your browser does not support the object tag.
+    </object>
+</body>
+</html>
+`}</HTMLBlock>
