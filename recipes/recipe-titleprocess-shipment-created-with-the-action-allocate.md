@@ -140,39 +140,42 @@ namespace MCSS.CodeForRecipes.Recipes
 
 <!-- csharp@1-18 -->
 
-
+Set up your environment using your authentication and shipping details.
 
 # Get an authentication token
 
 <!-- csharp@27-47 -->
 
-
+Try and get the token from the cache. If it does not exist, then retrieve it from authentication server and cache it.
 
 # Set up API Client
 
 <!-- csharp@49-51 -->
 
-
+Pass the token to your API Client.
 
 # Create shipment with the action "Allocate"
 
 <!-- csharp@54-94 -->
 
-
+Create shipments with the action “Allocate.”
 
 # Get shipment ID
 
 <!-- csharp@96-97 -->
 
-
+Get the shipment ID of the created shipment an save it.
 
 # Print label
 
 <!-- csharp@99-102 -->
 
+Print the labels for the shipment.
 
+Make sure the shipment status is set to "Printed" before being manifested.
 
 # Manifest shipment
 
 <!-- csharp@104-123 -->
 
+Manifested shipments are ready to be picked up by the carrier.
