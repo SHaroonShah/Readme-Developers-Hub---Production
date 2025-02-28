@@ -4,7 +4,7 @@ description: Recipe Description
 hidden: true
 recipe:
   color: '#018FF4'
-  icon: 🦉
+  icon: ⏳
 ---
 ```csharp C#
 namespace MCSS.CodeForRecipes.Recipes
