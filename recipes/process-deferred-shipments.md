@@ -1,6 +1,6 @@
 ---
 title: Process deferred shipments
-description: Recipe Description
+description: ''
 hidden: false
 recipe:
   color: '#018FF4'
