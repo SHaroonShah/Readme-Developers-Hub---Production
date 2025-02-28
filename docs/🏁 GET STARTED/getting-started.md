@@ -53,7 +53,7 @@ Let us dive in and explore how to get started on SAPIENT
 
 > 🚧 *Important*
 >
-> *The API requires the user to provide a[ Bearer token](https://docs.intersoftsapient.net/docs/bearer-token-generation-1). To learn more about the bearer token and its generation, refer to the [Authentication](https://docs.intersoftsapient.net/docs/authentication) section.*
+> *The API requires the user to provide a[Bearer token](https://docs.intersoftsapient.net/docs/bearer-token-generation-1). To learn more about the bearer token and its generation, refer to the [Authentication](https://docs.intersoftsapient.net/docs/authentication) section.*
 
 ***
 
