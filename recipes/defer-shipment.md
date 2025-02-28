@@ -3,7 +3,7 @@ title: Defer shipment
 description: Recipe Description
 hidden: true
 recipe:
-  color: '#018FF4'
+  color: '#939495'
   icon: ⏳
 ---
 ```csharp C#
