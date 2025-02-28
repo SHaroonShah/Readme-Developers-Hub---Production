@@ -4,7 +4,7 @@ description: ' Specify which shipments you would like to defer and provide new s
 hidden: false
 recipe:
   color: '#018FF4'
-  icon: 🦉
+  icon: 🔂
 ---
 ```csharp C#
 namespace MCSS.CodeForRecipes.Recipes
