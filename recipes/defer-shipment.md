@@ -1,6 +1,9 @@
 ---
 title: Defer shipment
-description: Recipe Description
+description: >-
+  Specify which shipments you would like to defer, , streamlining the logistics
+  workflow when shipments cannot proceed as planned due to issues, such as
+  delays, scheduling conflicts, or customer requests.
 hidden: false
 recipe:
   color: '#939495'
