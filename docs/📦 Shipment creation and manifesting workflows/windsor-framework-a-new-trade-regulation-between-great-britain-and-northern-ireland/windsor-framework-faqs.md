@@ -103,6 +103,6 @@ Before sending your shipments to Northern Ireland, Intersoft recommends you to d
   • Goods travelling further for sale in the EU including Ireland, are  subject to more comprehensive checks with additional documentation required.
 </Accordion>
 
-> 📘 Note
+> 📘 *Note*
 >
 > *To learn more about the green and red lane system, refer to the[ Windsor Framework - The Green Lane](https://docs.intersoftsapient.net/docs/windsor-framework-faqs#/) article.*
