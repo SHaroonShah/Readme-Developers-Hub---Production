@@ -110,4 +110,4 @@ Before sending your shipments to Northern Ireland, Intersoft recommends you to d
 
 > 📘 *Note*
 >
-> *For more information, refer to the[HMRC Windsor Framework guidelines](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fassets.publishing.service.gov.uk%2Fmedia%2F66ec2e6d526bfd7665fa14ac%2FGuidance-for-business-sending-parcels-to-Northern-Ireland-from-the-rest-of-the-UK.odt\&wdOrigin=BROWSELINK).*
+> *For more information, refer to the[ HMRC Windsor Framework guidelines](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fassets.publishing.service.gov.uk%2Fmedia%2F66ec2e6d526bfd7665fa14ac%2FGuidance-for-business-sending-parcels-to-Northern-Ireland-from-the-rest-of-the-UK.odt\&wdOrigin=BROWSELINK).*
