@@ -14,8 +14,6 @@ Before sending your shipments to Northern Ireland, Intersoft recommends you to d
 * [x] Review the full breakdown of the technical requirements and populate the fields outlined in the example script provided in the [Windsor Framework](https://docs.intersoftsapient.net/docs/windsor-framework-a-new-trade-regulation-between-great-britain-and-northern-ireland) section.
 * [x] Confirm the mandatory fields with the <Glossary>carrier</Glossary> to ensure compliance.
 
-&#x20;&#x20;
-
 <Accordion title="Does the Windsor Framework affect all customers?">
   The Windsor Framework only affects customers sending goods from Great Britain (Great Britain) to Northern Ireland (Northern Ireland). The new regulations do not affect goods sent from Northern Ireland to Great Britain or from Northern Ireland to Northern Ireland, or items of correspondence.
 </Accordion>
@@ -60,6 +58,11 @@ Before sending your shipments to Northern Ireland, Intersoft recommends you to d
   • **Item Country of Origin**
 
   You do not need to worry about UKIMS numbers or pre-registration requirements—these only apply to B2B shipment
+</Accordion>
+
+<Accordion title="What do I need to do if I have items to return?">
+  A return is classified as a Consumer-to-Business (C2B) movement under the UK government’s Windsor Framework guidance, as it involves a consumer returning an item to the business that originally sent it.
+  HMRC’s Windsor Framework guidance states that C2B shipments from Great Britain to Northern Ireland should be treated the same as Business-to-Consumer (B2C) shipments.—providing the same data they would for a standard B2C shipment from GB to Northern Ireland.
 </Accordion>
 
 <Accordion title="What is the UK Internal Market Scheme (UKIMS)?">
