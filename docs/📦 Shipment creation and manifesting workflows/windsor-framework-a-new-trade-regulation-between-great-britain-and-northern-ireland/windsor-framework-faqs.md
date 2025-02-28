@@ -60,11 +60,6 @@ Before sending your shipments to Northern Ireland, Intersoft recommends you to d
   You do not need to worry about UKIMS numbers or pre-registration requirements—these only apply to B2B shipment
 </Accordion>
 
-<Accordion title="What do I need to do if I have items to return?">
-  A return is classified as a Consumer-to-Business (C2B) movement under the UK government’s Windsor Framework guidance, as it involves a consumer returning an item to the business that originally sent it.
-  HMRC’s Windsor Framework guidance states that C2B shipments from Great Britain to Northern Ireland should be treated the same as Business-to-Consumer (B2C) shipments.—providing the same data they would for a standard B2C shipment from GB to Northern Ireland.
-</Accordion>
-
 <Accordion title="What is the UK Internal Market Scheme (UKIMS)?">
   The UK Internal Market Scheme is an authorisation that allows registered businesses to declare your goods ‘not at risk’ if they are brought into Northern Ireland for sale or final use by end consumers in Northern Ireland (and Great Britain in the case of movements from Great Britain) and meet all the other criteria to move under UKIMS as set out in the guidance. For further details on its benefits, eligibility and registration, visit GOV.UK.
 </Accordion>
@@ -106,3 +101,8 @@ Before sending your shipments to Northern Ireland, Intersoft recommends you to d
 > 📘 *Note*
 >
 > *To learn more about the green and red lane system, refer to the[ Windsor Framework - The Green Lane](https://docs.intersoftsapient.net/docs/windsor-framework-faqs#/) article.*
+
+<Accordion title="What do I need to do if I have items to return?">
+  A return is classified as a Consumer-to-Business (C2B) movement under the UK government’s Windsor Framework guidance, as it involves a consumer returning an item to the business that originally sent it.
+  HMRC’s Windsor Framework guidance states that C2B shipments from Great Britain to Northern Ireland should be treated the same as Business-to-Consumer (B2C) shipments.—providing the same data they would for a standard B2C shipment from GB to Northern Ireland.
+</Accordion>
