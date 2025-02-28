@@ -104,5 +104,10 @@ Before sending your shipments to Northern Ireland, Intersoft recommends you to d
 
 <Accordion title="What do I need to do if I have items to return?">
   A return is classified as a **Consumer-to-Business (C2B)** movement under the UK government’s Windsor Framework guidance, as it involves a consumer returning an item to the business that originally sent it.
-  HMRC’s Windsor Framework guidance states that C2B shipments from Great Britain to Northern Ireland should be treated the same as Business-to-Consumer (B2C) shipments.—providing the same data they would for a standard B2C shipment from GB to Northern Ireland.
+
+  As per the HMRC’s Windsor Framework guidance, **C2B** shipments from Great Britain (GB) to Northern Ireland (NI) should be treated the same as **Business-to-Consumer (B2C)** shipments. That is, providing the same data they would for a standard **B2C** shipment from GB to NI.
 </Accordion>
+
+> 📘 *Note*
+>
+> *For more information, refer to the HMRC Windsor Framework guidelines.*
