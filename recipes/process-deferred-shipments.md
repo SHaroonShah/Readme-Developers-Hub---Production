@@ -1,7 +1,7 @@
 ---
 title: Process deferred shipments
 description: Recipe Description
-hidden: true
+hidden: false
 recipe:
   color: '#018FF4'
   icon: 🦉
@@ -153,7 +153,7 @@ Pass the token to your API Client.
 
 Create a shipment with all the necessary details.
 
-# Get shipment ID 
+# Get shipment ID
 
 <!-- csharp@89-90 -->
 
