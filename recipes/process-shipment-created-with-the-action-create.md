@@ -173,7 +173,7 @@ Create shipments with the action “Create.”
 
 <!-- csharp@104-105 -->
 
-Get the shipment ID of the created shipment an save it.
+Get the shipment ID of the created shipment and save it.
 
 # Print label
 
