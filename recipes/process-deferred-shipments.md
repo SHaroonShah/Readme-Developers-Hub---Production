@@ -3,7 +3,7 @@ title: Process deferred shipments
 description: ' Specify which shipments you would like to defer and provide new shipment dates, and manifest them when they are ready.'
 hidden: false
 recipe:
-  color: '#018FF4'
+  color: '#939495'
   icon: 🔂
 ---
 ```csharp C#
