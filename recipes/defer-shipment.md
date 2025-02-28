@@ -1,7 +1,7 @@
 ---
 title: Defer shipment
 description: >-
-  Specify which shipments you would like to defer, , streamlining the logistics
+  Specify which shipments you would like to defer, streamlining the logistics
   workflow when shipments cannot proceed as planned due to issues, such as
   delays, scheduling conflicts, or customer requests.
 hidden: false
