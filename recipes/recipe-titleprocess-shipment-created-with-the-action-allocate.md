@@ -164,7 +164,7 @@ Create shipments with the action “Allocate.”
 
 <!-- csharp@96-97 -->
 
-Get the shipment ID of the created shipment an save it.
+Get the shipment ID of the created shipment and save it.
 
 # Print label
 
