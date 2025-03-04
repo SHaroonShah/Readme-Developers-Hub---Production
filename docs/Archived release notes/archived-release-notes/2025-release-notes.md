@@ -10,10 +10,6 @@ metadata:
 next:
   description: ''
 ---
-\<details>
-\<summary>Jan\</summary>
-\<br>
-
 ## Royal Mail HVD and ITO services description updates
 
 The service descriptions for Royal Mail's HVD and ITO services have been updated to ensure alignment with the latest specifications. The service name for HVD has been changed from "INTL BUSINESS TRACKED EXPRESS NPC" to "INTL BUSINESS TRACKED PRIORITY," while the ITO service name has been updated from "DEImpNonUK TrkPCL Hvy (EMS)" to "DE Import Non-UK Tracked Parcel Cmp Heavy (DEImpNonUK TrkPCLCmp Hvy (EMS))." These updates reflect the current shipping services offered and enhance clarity for users.
@@ -75,6 +71,3 @@ The following information has been added to the swagger documentation:
     * **Add/Remove Shipments**
     * **Delete Container**
     * **Get Container**
-
-
-\</details>
