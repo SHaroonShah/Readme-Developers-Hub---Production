@@ -10,6 +10,25 @@ metadata:
 next:
   description: ''
 ---
+## Royal Mail combined label
+
+A new Royal Mail label type has been added for shipments imported into GB, specifically aimed at those with a shipment value of £135 or under. These shipments will now require a combined label image of a domestic tracked label and a CN22 customs form. This update streamlines the process for lower-value shipments, which previously utilised CN23 forms exclusively for higher-value items. The new combined label will be produced in a standard 6x4 size, featuring two labels side by side for clarity and efficiency.
+
+## Swagger documentation updates
+
+As part of our **CORE API**, the descriptions of the following API endpoints have been updated for clarity and improved user experience:
+
+* **Get Carrier**
+* **Get Carriers**
+* **Get Carrier Services**
+* **Get Carrier Service Package Types**
+
+## FedEx integration (coming soon)
+
+A new FedEx integration is coming soon! This integration aims to enhance your shipping experience with improved functionality and efficiency. Stay tuned for more updates, as we will provide further details on features and availability shortly.
+
+***
+
 ## Royal Mail HVD and ITO services description updates
 
 The service descriptions for Royal Mail's HVD and ITO services have been updated to ensure alignment with the latest specifications. The service name for HVD has been changed from "INTL BUSINESS TRACKED EXPRESS NPC" to "INTL BUSINESS TRACKED PRIORITY," while the ITO service name has been updated from "DEImpNonUK TrkPCL Hvy (EMS)" to "DE Import Non-UK Tracked Parcel Cmp Heavy (DEImpNonUK TrkPCLCmp Hvy (EMS))." These updates reflect the current shipping services offered and enhance clarity for users.
