@@ -2,7 +2,7 @@
 title: Release and manifest held shipment
 description: >-
   Modify the current status of one or more shipments in the system, such as
-  cancelling them or releasing them for delivery.
+  releasing the held shipments and manifesting them for delivery.
 hidden: false
 recipe:
   color: '#939495'
