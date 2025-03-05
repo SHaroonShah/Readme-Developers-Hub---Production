@@ -183,13 +183,13 @@ Create a shipment with all the necessary details.
 
 Get the shipment ID of the created shipment and save it.
 
-# Update shipment with the status "Cancel"
+# Update the shipment status to "Cancel"
 
 <!-- csharp@95-105 -->
 
 Update the shipment and set it status to Cancel.
 
-# Update the shipment with the status "Release"
+# Update the shipment status to "Release"
 
 <!-- csharp@107-116 -->
 
