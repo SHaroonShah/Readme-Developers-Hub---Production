@@ -3,8 +3,8 @@ title: Cancel and Release shipments
 description: Recipe Description
 hidden: true
 recipe:
-  color: '#018FF4'
-  icon: 🦉
+  color: '#939495'
+  icon: 🔄
 ---
 ```csharp C#
 namespace MCSS.CodeForRecipes.Recipes
