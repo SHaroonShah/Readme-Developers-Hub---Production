@@ -3,7 +3,7 @@ title: Cancel and Release shipments
 description: >-
   Modify the current status of one or more shipments in the system, such as
   cancelling them or releasing them for delivery.
-hidden: true
+hidden: false
 recipe:
   color: '#939495'
   icon: 🔄
