@@ -12,3 +12,4 @@
 - process-deferred-shipments
 - cancel-and-release-shipments
 - release-and-manifest-held-shipments
+- release-and-manifest-held-shipment
