@@ -1,7 +1,7 @@
 ---
 title: Release and manifest held shipment
 description: Recipe Description
-hidden: true
+hidden: false
 recipe:
   color: '#939495'
   icon: ✅
