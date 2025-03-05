@@ -1,10 +1,12 @@
 ---
 title: Manifest picked shipments
-description: Recipe Description
+description: >-
+  Update the status of your shipment to Picked and get them ready to be picked
+  up by the carrier for delivery.
 hidden: true
 recipe:
-  color: '#018FF4'
-  icon: 🦉
+  color: '#939495'
+  icon: 📃
 ---
 ```csharp C#
 namespace MCSS.CodeForRecipes.Recipes
