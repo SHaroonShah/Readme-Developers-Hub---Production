@@ -1,5 +1,5 @@
 ---
-title: Release and manifest held shipments
+title: Manifest picked shipments
 description: Recipe Description
 hidden: true
 recipe:
