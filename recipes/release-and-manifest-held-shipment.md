@@ -1,6 +1,8 @@
 ---
 title: Release and manifest held shipment
-description: Recipe Description
+description: >-
+  Modify the current status of one or more shipments in the system, such as
+  cancelling them or releasing them for delivery.
 hidden: false
 recipe:
   color: '#939495'
