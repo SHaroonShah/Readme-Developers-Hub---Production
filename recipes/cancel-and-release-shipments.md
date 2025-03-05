@@ -187,7 +187,7 @@ Get the shipment ID of the created shipment and save it.
 
 <!-- csharp@95-105 -->
 
-Update the shipment and set it status to Cancel.
+Update the shipment status to Cancel.
 
 # Update the shipment status to "Release"
 
