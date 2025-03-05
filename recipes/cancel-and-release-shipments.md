@@ -1,6 +1,8 @@
 ---
 title: Cancel and Release shipments
-description: Recipe Description
+description: >-
+  Modify the current status of one or more shipments in the system, such as
+  cancelling them or releasing them for delivery.
 hidden: true
 recipe:
   color: '#939495'
