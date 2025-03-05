@@ -10,3 +10,4 @@
 - cancel-booked-collection
 - defer-shipment
 - process-deferred-shipments
+- cancel-and-release-shipments
