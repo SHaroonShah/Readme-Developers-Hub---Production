@@ -3,7 +3,7 @@ title: Manifest picked shipments
 description: >-
   Update the status of your shipment to Picked and get them ready to be picked
   up by the carrier for delivery.
-hidden: true
+hidden: false
 recipe:
   color: '#939495'
   icon: 📃
