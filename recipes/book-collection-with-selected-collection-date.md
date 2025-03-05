@@ -1,5 +1,5 @@
 ---
-title: Book Collection with Selected Collection Date
+title: Book collection with selected collection date
 description: Arrange for shipment collections by specifying a preferred date for pickup.
 hidden: false
 recipe:
