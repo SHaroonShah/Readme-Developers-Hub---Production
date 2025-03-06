@@ -105,7 +105,7 @@ A list of possible error codes are explained in the following table.
       </td>
 
       <td>
-        Forbidden
+        **Forbidden**
         (Unauthorized)
       </td>
 
