@@ -1,5 +1,5 @@
 ---
-title: Book a collection with "BringMyLabel"
+title: Book collection with "BringMyLabel"
 description: >-
   Arrange a collection while opting to provide your own shipping label,
   simplifying the despatch process.
