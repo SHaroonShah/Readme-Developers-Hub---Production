@@ -1,6 +1,6 @@
 ---
 title: Process shipment created with the action "Allocate"
-description: Recipe Description
+description: Create a shipment and get the tracking number and label in response.
 hidden: false
 recipe:
   color: '#a5a9ac'
