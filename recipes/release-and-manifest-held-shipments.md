@@ -1,8 +1,8 @@
 ---
 title: Manifest picked shipment
 description: >-
-  Update the status of your shipment to Picked and get them ready to be picked
-  up by the carrier for delivery.
+  Update the status of your shipment to Picked and get it ready to be picked up
+  by the carrier for delivery.
 hidden: false
 recipe:
   color: '#939495'
