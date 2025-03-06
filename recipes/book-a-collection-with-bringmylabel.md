@@ -211,7 +211,7 @@ Book your collection using the Royal Mail return service with your own return la
 
 <!-- csharp@120-121 -->
 
-Get the shipment ID of the created shipment
+Get the shipment ID of the created shipment.
 
 # Manifest shipment
 
