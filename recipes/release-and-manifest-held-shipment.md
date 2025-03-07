@@ -1,5 +1,5 @@
 ---
-title: Release and manifest held shipment
+title: Release and manifest held shipments
 description: >-
   Modify the current status of one or more shipments in the system, such as
   releasing the held shipments and manifesting them for delivery.
