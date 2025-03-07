@@ -5,8 +5,8 @@
 - containerisation
 - release-and-manifest-held-shipments
 - use-pre-allocated-tracking-number
-- defer-shipment
 - book-collection-with-selected-collection-date
+- defer-shipment
 - book-collection-with-automatic-collection-date-1
 - book-a-collection-with-bringmylabel
 - cancel-booked-collection
