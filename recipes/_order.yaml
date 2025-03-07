@@ -7,8 +7,8 @@
 - use-pre-allocated-tracking-number
 - book-collection-with-selected-collection-date
 - book-collection-with-automatic-collection-date-1
-- book-a-collection-with-bringmylabel
 - defer-shipment
+- book-a-collection-with-bringmylabel
 - cancel-booked-collection
 - process-deferred-shipments
 - cancel-and-release-shipments
