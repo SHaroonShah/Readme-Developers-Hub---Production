@@ -1,5 +1,5 @@
 ---
-title: Defer shipment
+title: Defer shipments
 description: >-
   Specify which shipments you would like to defer, streamlining the logistics
   workflow when shipments cannot proceed as planned due to issues, such as
