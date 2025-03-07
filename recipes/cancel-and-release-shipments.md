@@ -115,35 +115,7 @@ namespace MCSS.CodeForRecipes.Recipes
             // Receive the 200 OK response - All shipments set to "Cancel" successfully
             var updateShipmentStatusResponseWithCancelStatus = await client.ExecuteAsync(updateShipmentStatusToCancelRequest);
 
-            // Update the shipment with the status "Release"
-            var updateShipmentStatusToReleaseRequest = new RestRequest("/v4/shipments/status", Method.Put);
-            updateShipmentStatusToReleaseRequest.AddJsonBody(new
-            {
-                ShipmentIds = new[] { shipmentId },
-                Status = "Release",
-            });
-
-            // Receive the 200 OK response - All shipments set to "Release" successfully
-            var updateShipmentStatusResponseWithRelease = await client.ExecuteAsync(updateShipmentStatusToReleaseRequest);
-
-
-            /* 
-			 * Once the labels are printed the shipment will be ready for manifest.
-			 * Shipments must be manifested before they are handed over to the carrier.
-			 * Shipments must be manifested a minimum of once a day, normally in line with the final collection of the day.
-			 * They can be manifested more frequently if needed e.g. If a carrier makes several collections per day.
-			 * Shipments should be manifested in bulk before they are collected.
-			 * Shipments must not be manifested individually once the label is printed.
-			 */
-
-            var manifestRequest = new RestRequest($"/v4/manifests/RM", Method.Post);
-            manifestRequest.AddJsonBody(new
-            {
-                ShippingAccountId = shippingAccountId,
-                ShippingLocationId = shippingLocationId
-            });
-
-            await client.ExecuteAsync(manifestRequest);
+        
         }
     }
 }
@@ -188,19 +160,3 @@ Get the shipment ID of the created shipment and save it.
 <!-- csharp@95-105 -->
 
 Update the shipment status to Cancel.
-
-# Update the shipment status to "Release"
-
-<!-- csharp@107-116 -->
-
-Update the shipment by changing the status of the cancelled shipment to Release.
-
-You can release the shipments that were cancelled for less than 24 hours.
-
-# Manifest shipment
-
-<!-- csharp@120-138 -->
-
-When ready, manifest the shipments as usual.
-
-Manifested shipments are ready to be picked up by the carrier.
