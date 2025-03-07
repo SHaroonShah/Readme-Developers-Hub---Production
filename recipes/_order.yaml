@@ -3,8 +3,8 @@
 - process-shipment-created-with-the-action-create
 - recipe-titleprocess-shipment-created-with-the-action-allocate
 - defer-shipment
-- containerisation
 - process-deferred-shipments
+- containerisation
 - release-and-manifest-held-shipments
 - use-pre-allocated-tracking-number
 - book-collection-with-selected-collection-date
