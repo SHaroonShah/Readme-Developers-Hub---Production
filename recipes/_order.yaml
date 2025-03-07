@@ -2,8 +2,8 @@
 - process-shipments-created-with-the-action-process
 - process-shipment-created-with-the-action-create
 - recipe-titleprocess-shipment-created-with-the-action-allocate
-- containerisation
 - defer-shipment
+- containerisation
 - release-and-manifest-held-shipments
 - process-deferred-shipments
 - use-pre-allocated-tracking-number
