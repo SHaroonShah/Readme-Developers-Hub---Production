@@ -1,5 +1,5 @@
 ---
-title: Cancel shipment
+title: Cancel shipments
 description: >-
   Modify the current status of one or more shipments in the system, such as
   cancelling them or releasing them for delivery.
