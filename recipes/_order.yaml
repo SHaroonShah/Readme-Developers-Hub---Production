@@ -6,8 +6,8 @@
 - process-deferred-shipments
 - cancel-and-release-shipments
 - release-and-manifest-held-shipment
-- containerisation
 - release-and-manifest-held-shipments
+- containerisation
 - use-pre-allocated-tracking-number
 - book-collection-with-selected-collection-date
 - book-collection-with-automatic-collection-date-1
