@@ -8,8 +8,8 @@
 - book-collection-with-automatic-collection-date-1
 - book-a-collection-with-bringmylabel
 - cancel-booked-collection
-- defer-shipment
 - release-and-manifest-held-shipments
+- defer-shipment
 - process-deferred-shipments
 - cancel-and-release-shipments
 - release-and-manifest-held-shipment
