@@ -1,5 +1,5 @@
 ---
-title: Manifest picked shipment
+title: Manifest picked shipments
 description: >-
   Update the status of your shipment to Picked and get it ready to be picked up
   by the carrier for delivery.
