@@ -9,7 +9,7 @@
 - book-a-collection-with-bringmylabel
 - cancel-booked-collection
 - defer-shipment
-- process-deferred-shipments
 - release-and-manifest-held-shipments
+- process-deferred-shipments
 - cancel-and-release-shipments
 - release-and-manifest-held-shipment
