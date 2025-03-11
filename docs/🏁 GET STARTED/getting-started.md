@@ -69,5 +69,5 @@ This section provides you with the complimentary information that you might find
 * [Archived release notes](https://docs.intersoftsapient.net/docs/archived-release-notes)
 
 <HTMLBlock>{`
-<iframe width="600" height="400" src="https://www.dropbox.com/scl/fi/1ir199sp62zp8uvn7y3od/Italicised-behavior.mp4" frameborder="0" allowfullscreen></iframe>
+<object width="600" height="400" data="https://media.geeksforgeeks.org/wp-content/uploads/20231020155223/Full-Stack-Development-_-LIVE-Classes-_-GeeksforGeeks.mp4" type="video/mp4"></object>
 `}</HTMLBlock>
