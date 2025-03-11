@@ -1,5 +1,8 @@
 ---
 title: Royal Mail sign-off
+excerpt: >-
+  Sign-off is a process used by the carrier that all necessary steps have been
+  completed before using it for creating the shipments.
 deprecated: false
 hidden: false
 metadata:
