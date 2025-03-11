@@ -7,8 +7,8 @@
 - cancel-and-release-shipments
 - release-and-manifest-held-shipment
 - release-and-manifest-held-shipments
-- containerisation
 - manifest-shipment-on-hold
+- containerisation
 - book-collection-with-selected-collection-date
 - book-collection-with-automatic-collection-date-1
 - book-a-collection-with-bringmylabel
