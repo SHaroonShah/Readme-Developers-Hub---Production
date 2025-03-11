@@ -66,4 +66,4 @@ For customers and businesses using Royal Mail for their shipping needs, this com
 
 > 💡 *Tip*
 >
->
+> In the Sign & Date section of  the label, you can use your own signature or logo if you have [added and configured it](https://docs.intersoftsapient.net/docs/add-signature-and-logo#/) via the SAPIENT UI. If the signature and logo has not been configured, then by default the shipper name is used.
