@@ -69,5 +69,5 @@ This section provides you with the complimentary information that you might find
 * [Archived release notes](https://docs.intersoftsapient.net/docs/archived-release-notes)
 
 <HTMLBlock>{`
-<object width="600" height="400" data="https://media.geeksforgeeks.org/wp-content/uploads/20231020155223/Full-Stack-Development-_-LIVE-Classes-_-GeeksforGeeks.mp4" type="video/mp4"></object>
+<object width="600" height="400" data="https://www.youtube.com/watch?v=a8CwpGARAsQ" type="video/mp4"></object>
 `}</HTMLBlock>
