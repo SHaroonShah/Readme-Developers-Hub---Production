@@ -25,6 +25,8 @@ If you use the action [Create](https://docs.intersoftsapient.net/docs/create-shi
 
 You can update the shipment status one by one or in batches, depending on your warehouse process.
 
-<Image alt="Workflow of manifesting shipments with the Picked status" align="center" src="https://files.readme.io/ed310971eabce3d2cd34b1a1a63a2d1683f26ee432f6cf1601d0dae6851b1a2e-Manifest_by_picked_flow.png">
-  Workflow of manifesting shipments by Picked status
-</Image>
+<Image align="center" alt="Workflow of manifesting shipments with the Picked status" border={false} caption="Workflow of manifesting shipments by Picked status" src="https://files.readme.io/ed310971eabce3d2cd34b1a1a63a2d1683f26ee432f6cf1601d0dae6851b1a2e-Manifest_by_picked_flow.png" />
+
+To view a step-by-step process on how to manifest the shipments by the **Picked** status via API, refer to the following API recipe:
+
+<TutorialTile emoji="🦉" slug="release-and-manifest-held-shipments" title="Manifest picked shipments" />
