@@ -16,7 +16,7 @@ In SAPIENT, you can create a shipping account with Royal Mail, assign your Royal
 
 > 🚧 *Important*
 >
-> *Before you can set up a shipping account, you must ensure you have [enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with Royal Mail.*
+> *Before you can set up a shipping account, you must ensure you have[enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with Royal Mail.*
 
 To add a shipping account for Royal Mail in SAPIENT, follow the instructions as explained in the following procedure.
 
@@ -88,6 +88,8 @@ To add a shipping account for Royal Mail in SAPIENT, follow the instructions as 
         • **[Production](https://docs.intersoftsapient.net/docs/sandbox-account)**: a live environment where the final version of the application is deployed and made available to the users.
 
         • **[Sandbox](https://docs.intersoftsapient.net/docs/sandbox-account)**: a testing environment that mimics the **Production** environment but is isolated from it. The sandbox environment is primarily used for development and testing purposes.
+
+        **Note**: For testing purposes, you can set up a Sandbox account for Royal Mail by using a dummy account number and PLN as this data is not validated and allows you to test the integration.
       </td>
     </tr>
 
