@@ -42,3 +42,7 @@ To release a shipment in SAPIENT, follow the steps as explained in the following
 > 💡 *Tip*
 >
 > *If you want to export the label for the held shipments, then in the**Tracking Number** column select ![alt text](https://files.readme.io/3df26abe526e632f50567b6ad821d178d4193a2d068a9f584e3e6a2b547b4417-Cloud_icon.png). Follow the prompts of your computer and download it.*
+
+To view a step-by-step process on how to release held shipments and manifest them via API, refer to the following API recipe:
+
+<TutorialTile emoji="🦉" slug="release-and-manifest-held-shipment" title="Release and manifest held shipments" />
