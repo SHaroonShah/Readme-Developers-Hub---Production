@@ -1,5 +1,6 @@
 - oba-email-validation
 - shipping-account-requirements
+- royal-mail-sign-off
 - royal-mail-tracking-account-setup
 - bfpo-shipments
 - royal-mail-returns
@@ -8,4 +9,3 @@
 - pudo-api
 - pudo-data-via-sftp
 - use-local-collect-shipment-service
-- royal-mail-sign-off
