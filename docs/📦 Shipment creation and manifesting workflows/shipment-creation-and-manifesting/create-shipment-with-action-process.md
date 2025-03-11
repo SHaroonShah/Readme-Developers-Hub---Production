@@ -18,6 +18,8 @@ If your warehouse simultaneously picks, packs and sticks labels to shipments, th
 
 If no value is set for the **Create Shipment** action, then the shipments are  created with the **Process** status.
 
-<Image alt="Workflow for creating shipments with the Process action" align="center" src="https://files.readme.io/f762106c6e0adca64fd03cbc168faecdddceccf9adcb67b8bb963988cc3090bc-Process_flow.png">
-  Workflow for creating shipments with Process action
-</Image>
+<Image align="center" alt="Workflow for creating shipments with the Process action" border={false} caption="Workflow for creating shipments with Process action" src="https://files.readme.io/f762106c6e0adca64fd03cbc168faecdddceccf9adcb67b8bb963988cc3090bc-Process_flow.png" />
+
+To view a step-by-step process on how to process the shipments that are created with the action "Process," refer to the following API recipe:
+
+<TutorialTile emoji="🦉" slug="process-shipments-created-with-the-action-process" title="Process shipment created with the action “Process”" />
