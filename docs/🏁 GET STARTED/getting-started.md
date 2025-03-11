@@ -67,3 +67,8 @@ This section provides you with the complimentary information that you might find
 * [Carrier specific guides](https://docs.intersoftsapient.net/docs/carrier-specific-user-guides)
 * [Glossary](https://docs.intersoftsapient.net/docs/glossary-1)
 * [Archived release notes](https://docs.intersoftsapient.net/docs/archived-release-notes)
+
+\<video width="600" height="400" controls>
+\<source src="https\://media.geeksforgeeks.org/wp-content/uploads/20231020155223/Full-Stack-Development-\_-LIVE-Classes-\_-GeeksforGeeks.mp4" type="video/mp4">
+Your browser does not support the video tag
+\</video>
