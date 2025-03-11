@@ -89,7 +89,7 @@ To add a shipping account for Royal Mail in SAPIENT, follow the instructions as 
 
         • **[Sandbox](https://docs.intersoftsapient.net/docs/sandbox-account)**: a testing environment that mimics the **Production** environment but is isolated from it. The sandbox environment is primarily used for development and testing purposes.
 
-        ***Note**: For testing purposes, you can set up a Sandbox account for Royal Mail by using a dummy account number and PLN as this data is not validated and allows you to test the integration. If you choose to switch the account to Production, then the account details are sent to the <Glossary>Online Business Account</Glossary> (OBA) team and validated. Based on this validation the shipping account is either approved or rejected.*
+        ***Note**: For testing purposes, you can set up a **Sandbox** account for Royal Mail by using a dummy account number and PLN as this data is not validated and allows you to test the integration. If you choose to switch the account to **Production**, then the account details are sent to the <Glossary>Online Business Account</Glossary> (OBA) team and validated. Based on this validation, the shipping account is either approved or rejected.*
       </td>
     </tr>
 
