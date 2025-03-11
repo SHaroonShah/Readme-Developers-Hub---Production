@@ -69,7 +69,5 @@ This section provides you with the complimentary information that you might find
 * [Archived release notes](https://docs.intersoftsapient.net/docs/archived-release-notes)
 
 <HTMLBlock>{`
-<video width="600" height="400" controls>
-<source src="https://www.dropbox.com/Italicised-behavior.mp4" type="video/mp4">
-</video>
+<iframe width="600" height="400" src="https://www.youtube.com/embed/lcZDWo6hiuI" frameborder="0" allowfullscreen></iframe>
 `}</HTMLBlock>
