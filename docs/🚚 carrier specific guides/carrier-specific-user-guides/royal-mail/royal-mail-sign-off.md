@@ -20,7 +20,7 @@ To get your shipping account approved, consider the following:
 
 > 📘 *Note*
 >
-> *Shipping account(s) can be added and managed via API. For more information, refer to the[API References](https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts) section.*
+> *Shipping account(s) can be added and managed via API. For more information, refer to the [API References](https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts) section.*
 
 To view a step-by-step process on how to add a shipping account with a new shipping location, refer to the following API recipe:
 
