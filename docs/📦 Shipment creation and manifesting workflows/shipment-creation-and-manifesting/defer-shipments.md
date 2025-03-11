@@ -22,6 +22,8 @@ If you have shipments with a future date and goods become available before the s
 >
 > *A shipment can be deferred for a maximum of 28 days, and you can defer the shipment again either for the current date or for up to another 28 days. If the shipment is not further deferred, it is manifested automatically when the shipment date has been reached.*
 
-<Image alt="Workflow for defer shipment request" align="center" src="https://files.readme.io/60bca3e1e424cc4ea4fedb09016ef3f69f29ff6deae8f0110fa57f62a7b8884e-Defer_flow.png">
-  Workflow for defer shipment request
-</Image>
+<Image align="center" alt="Workflow for defer shipment request" border={false} caption="Workflow for defer shipment request" src="https://files.readme.io/60bca3e1e424cc4ea4fedb09016ef3f69f29ff6deae8f0110fa57f62a7b8884e-Defer_flow.png" />
+
+To view a step-by-step process on how to defer shipments via API, refer to the following API recipe:
+
+<TutorialTile emoji="🦉" slug="defer-shipment" title="Defer shipments" />
