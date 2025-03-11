@@ -21,7 +21,7 @@ In SAPIENT, you can <Glossary>manifest</Glossary> the <Glossary>shipment</Glossa
 
 > 💡 *Tip*
 >
-> *You can manifest the shipments both via UI and the API. For more information on how to manifest shipments via API, refer to the[API References](https://docs.intersoftsapient.net/reference/post_v4-manifests-carriercode) section.*
+> *You can manifest the shipments both via UI and the API. For more information on how to manifest shipments via API, refer to the [API References](https://docs.intersoftsapient.net/reference/post_v4-manifests-carriercode) section.*
 
 To manifest a shipment in SAPIENT, follow the steps as explained in the following procedure.
 
