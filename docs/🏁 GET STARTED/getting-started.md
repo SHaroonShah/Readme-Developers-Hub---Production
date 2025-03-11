@@ -70,7 +70,7 @@ This section provides you with the complimentary information that you might find
 
 <HTMLBlock>{`
 <video width="600" height="400" controls>
-<source src="https://www.dropbox.com/preview/Italicised%20behavior.mp4" type="video/mp4">
+<source src="https://media.geeksforgeeks.org/wp-content/uploads/20231020155223/Full-Stack-Development-_-LIVE-Classes-_-GeeksforGeeks.mp4" type="video/mp4">
 Your browser does not support the video tag
 </video>
 `}</HTMLBlock>
