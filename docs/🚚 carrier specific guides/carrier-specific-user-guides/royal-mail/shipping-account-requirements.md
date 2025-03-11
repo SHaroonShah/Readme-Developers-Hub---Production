@@ -220,3 +220,7 @@ Once done, you have now successfully added a shipping account. You can now [add 
 > 📘 *Note*
 >
 > *Shipping account(s) can be added and managed via API. For more information, refer to the[API References](https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts) section.*
+
+### See also
+
+* [Edit shipping account](https://docs.intersoftsapient.net/docs/edit-shipping-account)
