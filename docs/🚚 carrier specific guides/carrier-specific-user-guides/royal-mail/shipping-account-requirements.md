@@ -16,7 +16,7 @@ In SAPIENT, you can create a shipping account with Royal Mail, assign your Royal
 
 > 🚧 *Important*
 >
-> *Before you can set up a shipping account, you must ensure you have [enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with Royal Mail.*
+> *Before you can set up a shipping account, you must ensure you have[enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with Royal Mail.*
 
 To add a shipping account for Royal Mail in SAPIENT, follow the instructions as explained in the following procedure.
 
@@ -217,27 +217,6 @@ To add a shipping account for Royal Mail in SAPIENT, follow the instructions as 
 
 Once done, you have now successfully added a shipping account. You can now [add a shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location) to your new shipping account.
 
-***
-
-## Account approval
-
-Once you have created the Royal Mail shipping account, the account needs to be approved before you start using it to ship with Royal Mail.
-
-To get your shipping account approved, consider the following:
-
-1. If the <Glossary>account type</Glossary> you have created is **Production**, you will receive a confirmation email.
-2. Initially, the account status is set to **'Disabled'** until the account has been approved by the Royal Mail OBA team. This can typically take 2-5 working days.
-3. Once the account has been approved, the status of your shipping account is changed to **'Enabled'**. You can check the account status by viewing the shipping account or via the [Get Account](https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-rm-shippingaccountid) API.
-4. If the account cannot be approved, we will contact you and advise accordingly.
-
 > 📘 *Note*
 >
 > *Shipping account(s) can be added and managed via API. For more information, refer to the[API References](https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts) section.*
-
-To view a step-by-step process on how to add a Royal Mail shipping account with a new shipping location, refer to the following API recipe:
-
-<TutorialTile backgroundColor="#8d8f91" emoji="🏦" id="64353537ec43f4006b97047f" link="https://docs.intersoftsapient.net/v4.02/recipes/create-a-royal-mail-shipping-account-with-a-new-shipping-location" slug="create-a-royal-mail-shipping-account-with-a-new-shipping-location" title="Create a Royal Mail shipping account with a new shipping location" />
-
-### See also
-
-* [Edit shipping account](https://docs.intersoftsapient.net/docs/edit-shipping-account)
