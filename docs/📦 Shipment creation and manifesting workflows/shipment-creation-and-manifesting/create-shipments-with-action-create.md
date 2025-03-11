@@ -23,6 +23,8 @@ If no value is set for this action in the [CreateShipment](https://docs.intersof
 
 This functionality is included for backwards compatibility to allow existing customers to migrate to the new platform.
 
-<Image alt="Example flow of creating shipment with Create action" align="center" src="https://files.readme.io/822c8b02ea907f91f7549757093ce56cf1c8823b6b310fe73a1b7874474bc8f1-Create_flow.png">
-  Workflow for creating shipments with Create action
-</Image>
+<Image align="center" alt="Example flow of creating shipment with Create action" border={false} caption="Workflow for creating shipments with Create action" src="https://files.readme.io/822c8b02ea907f91f7549757093ce56cf1c8823b6b310fe73a1b7874474bc8f1-Create_flow.png" />
+
+To view a step-by-step process on how to process the shipments that are created with the action "Create," refer to the following API recipe:
+
+<TutorialTile emoji="🦉" slug="process-shipment-created-with-the-action-create" title="Process shipment created with the action &#x22;Create&#x22;" />
