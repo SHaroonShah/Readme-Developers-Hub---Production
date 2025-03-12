@@ -33,7 +33,7 @@ To generate the bearer token via the Postman application, follow the instruction
 
 <Image align="center" alt="Creating new HTTP request in Postman" border={true} caption="Creating new HTTP request in Postman" src="https://files.readme.io/93a14a1a00ff5ad67a4e5ad4a74677828b0e364b445c378ee24cd5795fe6acd5-New_HTTP_request_option.png" />
 
-2. In the new request tab that opens, from the left dropdown menu, select **POST** and enter the following URL in the **Enter request URL** field.
+2. In the new request tab that opens, from the left dropdown menu, select \*\*POST\*\* and enter the following URL in the \*\*Enter request URL\*\* field: \<https\://authentication.intersoftsapient.net/connect/token>
 
 <Image align="center" alt="Entering URL" border={true} caption="Entering URL" src="https://files.readme.io/ab6a0e55d341d8aaf0cddbe95208ebc3c035155faeb32dd652bf011f79369dec-Postman_dropdown.png" />
 
