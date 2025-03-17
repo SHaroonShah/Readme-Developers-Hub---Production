@@ -22,7 +22,7 @@ The FedEx-SAPIENT integration aims to enhance operational efficiency and provide
 This integration provides the following key features:
 
 * **Ship from destinations**: The integration supports shipping from locations in Great Britain (GB) and Europe.
-* **Ship To Destinations**: Users can send shipments to Great Britain (GB), Europe, and the Rest of the World (ROW).
+* **Ship To Destinations**: Users can send <Glossary>shipments</Glossary> to Great Britain (GB), Europe, and the <Glossary>ROW</Glossary> (Rest of the World).
 * **Service Type**: The integration is focused on outbound shipping and returns.
 
 ## Enhancements
@@ -46,4 +46,4 @@ The FedEx integration provides the following additional features:
 * **Multipiece shipments**: Support for multipiece shipments is included in the integration.
 * **Package Types**: FedEx offers its own distinct <Glossary>package type</Glossary>s.
 * **Incoterms**: The integration supports <Glossary>DDU</Glossary> (Delivered Duty Unpaid), <Glossary>DDP</Glossary> (Delivered Duty Paid), and <Glossary>DAP</Glossary> (Delivered At Place)
-* *Electronic Trade Document (ETD)*: Integration of electronic trade documents is included in the scope.
+* **Electronic Trade Document (ETD)**: Inclusion of electronic trade documents while configuring the FedEx <Glossary>shipping account</Glossary>.
