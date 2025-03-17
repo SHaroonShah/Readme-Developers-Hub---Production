@@ -19,4 +19,4 @@ In SAPIENT, you can create a shipping account with FedEx, and then link it to th
 > Before setting up the shipping account, make sure yo have the following information:
 >
 > * The 9-digit FedEx carrier account number.
-> * The exact shipping address that you have provided to FedEx as this information is validated via the Address Validation API. If the address does not match, then a corresponding error message is displayed.
+> * The exact shipping address that you have provided to FedEx as this information is validated via the Address Validation API. If the address does not match, then a corresponding error message is displayed—and you will not proceed to the **Multi-Factor Authentication** (MFA) stage of the **Add Shipping Account** form.
