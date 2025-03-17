@@ -47,3 +47,20 @@ The FedEx integration provides the following additional features:
 * **Package Types**: FedEx offers its own distinct <Glossary>package type</Glossary>s.
 * **Incoterms**: The integration supports <Glossary>DDU</Glossary> (Delivered Duty Unpaid), <Glossary>DDP</Glossary> (Delivered Duty Paid), and <Glossary>DAP</Glossary> (Delivered At Place)
 * **Electronic Trade Document (ETD)**: Inclusion of electronic trade documents while configuring the FedEx <Glossary>shipping account</Glossary>.
+
+## Carrier API services
+
+The following API services are provided by the FedEx integration:
+
+* **Create Shipment**: The integration for creating shipments to reflect FedEx as a primary carrier and allowing users to create shipments using the **Create Shipment** endpoint.
+* *Cancel Shipment*: The integration for cancelling shipments.
+
+> 🚧 *Important*
+>
+> *It is important to note that FedEx will not charge customers for transportation costs. However, the customs clearance fees may still apply if a package is not cancelled and scanned by FedEx.*
+
+<br />
+
+<br />
+
+* *Upload Images*: Users can upload their logo and signature images for use on commercial invoices.
