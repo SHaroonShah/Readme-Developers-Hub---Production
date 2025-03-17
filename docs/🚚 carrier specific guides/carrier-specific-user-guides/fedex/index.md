@@ -45,5 +45,5 @@ The FedEx integration provides the following additional features:
 
 * **Multipiece shipments**: Support for multipiece shipments is included in the integration.
 * **Package Types**: FedEx offers its own distinct package types.
-* **Incoterms**: The integration supports <Glossary>DDU</Glossary> (Delivered Duty Unpaid), <Glossary>DDP</Glossary> (Delivered Duty Paid), and <Glossary>Delivery At Place (DAP)</Glossary>DAP (Delivered At Place).
+* **Incoterms**: The integration supports <Glossary>DDU</Glossary> (Delivered Duty Unpaid), <Glossary>DDP</Glossary> (Delivered Duty Paid), and <Glossary>DAP</Glossary> (Delivered At Place)
 * *Electronic Trade Document (ETD)*: Integration of electronic trade documents is included in the scope.
