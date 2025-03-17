@@ -60,3 +60,8 @@ The following API services are provided by the FedEx integration:
 > *It is important to note that FedEx will not charge customers for transportation costs. However, the customs clearance fees may still apply if a package is not cancelled and scanned by FedEx.*
 
 * **Upload Images**: Users can upload their logo and signature images for use on commercial invoices. This information is included as part of the electronic trade document.
+
+In this section, learn how to:
+
+* Add a FedEx shipping account
+* Add a FedEx tracking account
