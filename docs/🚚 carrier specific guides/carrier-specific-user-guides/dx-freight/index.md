@@ -18,7 +18,7 @@ next:
 
 ***
 
-Freight is one of DX's core solutions, also referred to as *IDW* (Irregular Dimensions and Weight), that provides delivery services to businesses and home addresses for multi-item <Glossary>consignment</Glossary>s, pallets up to 6 metres in length, and individual <Glossary>items</Glossary> in excess of 25 kg in weight.  
+Freight is one of DX's core solutions, also referred to as *IDW* (Irregular Dimensions and Weight), that provides delivery services to businesses and home addresses for multi-item <Glossary>consignment</Glossary>s, pallets up to 6 metres in length, and individual <Glossary>items</Glossary> in excess of 25 kg in weight.
 
 The following are one of the main DX Freight service types tailored to meet different delivery requirements:
 
@@ -27,7 +27,7 @@ The following are one of the main DX Freight service types tailored to meet diff
 
 In SAPIENT, you can integrate with various available DX Freight services and features to streamline your shipping process.
 
-In this section, learn how to: 
+In this section, learn how to:
 
-* [Add DX Freight shipping account](https://docs.intersoftsapient.net/docs/add-dx-freight-shipping-account)
+* [Add DX a Freight shipping account](https://docs.intersoftsapient.net/docs/add-dx-freight-shipping-account)
 * Add DX Freight tracking account
