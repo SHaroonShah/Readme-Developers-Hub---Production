@@ -25,7 +25,9 @@ This integration provides the following key features:
 * **Ship To Destinations**: Users can send shipments to Great Britain (GB), Europe, and the Rest of the World (ROW).
 * **Service Type**: The integration is focused on outbound shipping and returns.
 
-The following key enhancements are offered through the FedEx integration:
+## Enhancements
+
+The following are the key enhancements provided by the FedEx integration:
 
 * **Saturday Delivery**: The option to deliver packages on Saturdays for added convenience.
 * **Food shipping**: Specialised services catering to the transportation of food items.
@@ -36,4 +38,12 @@ The following key enhancements are offered through the FedEx integration:
   * Indirect signature
   * No signature required
   * **Email notifications**: Notifications available on delivery, estimated delivery, exceptions, shipment status, and tender.
-  &#x20;
+
+## Additional features
+
+The FedEx integration provides the following additional features:
+
+* **Multipiece shipments**: Support for multipiece shipments is included in the integration.
+* **Package Types**: FedEx offers its own distinct package types.
+* *Incoterms*: The integration supports DDU (Delivered Duty Unpaid), DDP (Delivered Duty Paid), and DAP (Delivered At Place).
+* *Electronic Trade Document (ETD)*: Integration of electronic trade documents is included in the scope.
