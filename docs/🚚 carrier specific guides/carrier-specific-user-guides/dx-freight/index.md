@@ -29,5 +29,5 @@ In SAPIENT, you can integrate with various available DX Freight services and fea
 
 In this section, learn how to:
 
-* [Add DX a Freight shipping account](https://docs.intersoftsapient.net/docs/add-dx-freight-shipping-account)
+* [Add a DX Freight shipping account](https://docs.intersoftsapient.net/docs/add-dx-freight-shipping-account)
 * [Add a DX Freight tracking account](https://docs.intersoftsapient.net/docs/add-dx-freight-tracking-account#/)
