@@ -43,7 +43,7 @@ To generate the bearer token via the Postman application, follow the instruction
 * **client\_secret**
 * **grant\_type**
 
-After, in the VALUE column, enter the credentials generated via the [SAPIENT API Credentials](https://docs.intersoftsapient.net/docs/create-api-credentials) functionality. For the **grant\_type** key, set the value to **client-credentials**.
+After, in the VALUE column, enter the credentials generated via the [SAPIENT API Credentials](https://docs.intersoftsapient.net/docs/create-api-credentials) functionality. For the **grant\_type** key, set the value to **client\_credentials**.
 
 <Image align="center" alt="Adding keys value pairs" border={true} caption="Adding keys value pairs" src="https://files.readme.io/ca361ef126d7b2b88c83d9c6b38ae3e56a4e1d5a0e38b0beed057fc05b86067c-Adding_key_value_pairs.png" />
 
