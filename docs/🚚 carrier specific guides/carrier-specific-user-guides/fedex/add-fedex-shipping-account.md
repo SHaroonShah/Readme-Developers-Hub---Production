@@ -193,7 +193,7 @@ To add a shipping account for FedEx in SAPIENT, follow the instructions as expla
 
     <tr>
       <td>
-        Third Party Account Number\*
+        **Third Party Account Number**\*
       </td>
 
       <td>
@@ -203,7 +203,7 @@ To add a shipping account for FedEx in SAPIENT, follow the instructions as expla
 
     <tr>
       <td>
-        Third Party Contact Name
+        **Third Party Contact Name**
       </td>
 
       <td>
@@ -213,7 +213,7 @@ To add a shipping account for FedEx in SAPIENT, follow the instructions as expla
 
     <tr>
       <td>
-        Third Party Company Name
+        **Third Party Company Name**
       </td>
 
       <td>
@@ -223,7 +223,7 @@ To add a shipping account for FedEx in SAPIENT, follow the instructions as expla
 
     <tr>
       <td>
-        Third Party Address Line 1\*
+        **Third Party Address Line 1**\*
       </td>
 
       <td>
@@ -233,7 +233,7 @@ To add a shipping account for FedEx in SAPIENT, follow the instructions as expla
 
     <tr>
       <td>
-        Third Party Address Line 2
+        **Third Party Address Line 2**
       </td>
 
       <td>
@@ -243,7 +243,7 @@ To add a shipping account for FedEx in SAPIENT, follow the instructions as expla
 
     <tr>
       <td>
-        Third Party Address Line 3
+        **Third Party Address Line 3**
       </td>
 
       <td>
@@ -253,7 +253,7 @@ To add a shipping account for FedEx in SAPIENT, follow the instructions as expla
 
     <tr>
       <td>
-        Third Party Town\*
+        **Third Party Town**\*
       </td>
 
       <td>
@@ -263,7 +263,7 @@ To add a shipping account for FedEx in SAPIENT, follow the instructions as expla
 
     <tr>
       <td>
-        Third Party Country\*
+        **Third Party Country**\*
       </td>
 
       <td>
@@ -273,7 +273,7 @@ To add a shipping account for FedEx in SAPIENT, follow the instructions as expla
 
     <tr>
       <td>
-        Third Party Postcode
+        **Third Party Postcode**
       </td>
 
       <td>
@@ -283,7 +283,7 @@ To add a shipping account for FedEx in SAPIENT, follow the instructions as expla
 
     <tr>
       <td>
-        Third Party Contact Phone
+        **Third Party Contact Phone**
       </td>
 
       <td>
@@ -293,7 +293,7 @@ To add a shipping account for FedEx in SAPIENT, follow the instructions as expla
 
     <tr>
       <td>
-        Tax Identification Numbers\*
+        **Tax Identification Numbers**\*
       </td>
 
       <td>
