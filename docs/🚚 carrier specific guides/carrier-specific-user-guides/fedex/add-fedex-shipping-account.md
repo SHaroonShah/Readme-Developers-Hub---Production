@@ -103,9 +103,9 @@ To add a shipping account for FedEx in SAPIENT, follow the instructions as expla
       </td>
 
       <td>
-        Enter the account number for FedEx.
+        Enter the 9-digit account number for FedEx.
 
-        The format of the account number must be compliant with the carrier you have selected. For FedEx, the account number must be 9 characters long.
+        *`Note`: The carrier account number must be an exact match with what FedEx have provided.*
       </td>
     </tr>
 
