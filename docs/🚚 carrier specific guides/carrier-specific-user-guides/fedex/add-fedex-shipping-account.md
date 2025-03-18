@@ -75,9 +75,9 @@ To add a shipping account for FedEx in SAPIENT, follow the instructions as expla
   </tbody>
 </Table>
 
-4. In the **CONNECT YOUR FEDEX ACCOUNT** form that appears, enter the necessary information as explained in the following table.
+4. In the **CONNECT YOUR FEDEX ACCOUNT** form that appears, at the **Shipping Account** stage, enter the necessary information as explained in the following table.
 
-<Image align="center" alt="Specifying shipping account details" border={true} caption="Specifying shipping account details" src="https://files.readme.io/d0eae769c813147e1ba1ff428f31e2a84852aba1218a4858b7324d86458cd559-Shipping_account_block_DX.png" width="400px" />
+<Image align="center" alt="Specifying shipping account details" border={true} caption="Specifying shipping account details" src="https://files.readme.io/fa447171e8f90a43d206fa93b5dacfb723a09dca86dd4b979c21153c4a169bda-FEDEX_Shipping_account_stage.png" />
 
 > 💡 *Tip*
 >
@@ -105,9 +105,7 @@ To add a shipping account for FedEx in SAPIENT, follow the instructions as expla
       <td>
         Enter the account number for DX Freight.
 
-        The format of the account number must be compliant with the carrier you have selected. For DX Freight, the account number must be 8 characters long.
-
-        *`Note`: If you already have an account with DX Freight that is actively being used, and if you wish to receive tracking via INTERSOFT, then you need to request DX to enable tracking and send it to INTERSOFT.*
+        The format of the account number must be compliant with the carrier you have selected. For FedEx, the account number must be 9 characters long.
       </td>
     </tr>
 
