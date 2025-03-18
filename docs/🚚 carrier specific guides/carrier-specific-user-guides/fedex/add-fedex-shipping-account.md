@@ -131,7 +131,7 @@ To add a shipping account for FedEx in SAPIENT, follow the instructions as expla
 
         • **[Sandbox](https://docs.intersoftsapient.net/docs/sandbox-account)**: a testing environment that mimics the **Production** environment but is isolated from it. The sandbox environment is primarily used for development and testing purposes. If you select the **Sandbox** environment, then the shipping account is created without the address and MFA validation processes.
 
-        *`Note`: You can use the**Sandbox** account for testing the integration and generating test label to ensure whether the integration is configured correctly or not.*
+        *`Note`: You can use the**Sandbox** account to test the integration and generate test labels to ensure that it is configured correctly or not.*
       </td>
     </tr>
 
