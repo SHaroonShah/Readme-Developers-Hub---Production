@@ -175,7 +175,7 @@ To add a shipping account for FedEx in SAPIENT, follow the instructions as expla
 
         • **Sender**: The sender (or shipper) is responsible for any duties and taxes incurred when the <Glossary>shipment</Glossary> reaches its destination. This option is typically used when the sender wants full control over the shipment's costs.
 
-        • **ThirdParty**: A third-party account is billed for duties and taxes. This option is used when the sender wants another designated company (not the sender or receiver) to pay the applicable fees. This means that the designated third party will bear the costs of duties and taxes instead of the sender or receipient.
+        • **ThirdParty**: A third-party account is billed for duties and taxes. This option is used when the sender wants another designated company (not the sender or receiver) to pay the applicable fees. This means that the designated third party will bear the costs of duties and taxes instead of the sender or recipient.
 
         *`Note`: When the**ThirdParty** option is selected, an additional form is displayed for you to enter the third-party account details.*
       </td>
