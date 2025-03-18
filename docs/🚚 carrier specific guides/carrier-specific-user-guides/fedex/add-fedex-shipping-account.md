@@ -171,7 +171,7 @@ To add a shipping account for FedEx in SAPIENT, follow the instructions as expla
       </td>
 
       <td>
-
+        Select this checkbox if you want to utilise electronic trade documents when shipping with FedEx. When this option is selected, you are prompted and redirected to the Add signature and logo page of the application, where you can configure the required data for ETD.
       </td>
     </tr>
 
@@ -183,11 +183,131 @@ To add a shipping account for FedEx in SAPIENT, follow the instructions as expla
       <td>
         From the dropdown menu, select one of the following options:
 
-        • **Sender**: The sender (or shipper) is responsible for any duties and taxes incurred when the <Glossary>shipment</Glossary> reaches its destination. This option is typically used when the sender wants full control over the shipment's costs.
+        • **Sender** (a default value): The sender (or shipper) is responsible for any duties and taxes incurred when the <Glossary>shipment</Glossary> reaches its destination. This option is typically used when the sender wants full control over the shipment's costs.
 
         • **ThirdParty**: A third-party account is billed for duties and taxes. This option is used when the sender wants another designated company (not the sender or receiver) to pay the applicable fees. This means that the designated third party will bear the costs of duties and taxes instead of the sender or recipient.
 
         *`Note`: When the**ThirdParty** option is selected, an additional form is displayed for you to enter the third-party account details. For more information on how to fill this form, refer to the fields explained below.*
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Third Party Account Number\*
+      </td>
+
+      <td>
+        Enter the account
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Third Party Contact Name
+      </td>
+
+      <td>
+
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Third Party Company Name
+      </td>
+
+      <td>
+
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Third Party Address Line 1\*
+      </td>
+
+      <td>
+
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Third Party Address Line 2
+      </td>
+
+      <td>
+
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Third Party Address Line 3
+      </td>
+
+      <td>
+
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Third Party Town\*
+      </td>
+
+      <td>
+
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Third Party Country\*
+      </td>
+
+      <td>
+
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Third Party Postcode
+      </td>
+
+      <td>
+
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Third Party Contact Phone
+      </td>
+
+      <td>
+
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Tax Identification Numbers\*
+      </td>
+
+      <td>
+
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+
+      </td>
+
+      <td>
+
       </td>
     </tr>
   </tbody>
