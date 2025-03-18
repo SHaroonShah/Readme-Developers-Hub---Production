@@ -317,7 +317,8 @@ To add a shipping account for FedEx in SAPIENT, follow the instructions as expla
       </td>
 
       <td>
-        Select ![alt text](https://files.readme.io/2ffa9cf28233588e3fa0be9258d8a2d6f5aa9d84f5e25f263c2c4d8c214cdbba-Submit_button.png) to create the shipping account and close the for
+        Select ![alt text](https://files.readme.io/2ffa9cf28233588e3fa0be9258d8a2d6f5aa9d84f5e25f263c2c4d8c214cdbba-Submit_button.png) to create the shipping account and close the form.\
+        *`Note`: This button is only displayed if you have selected the**Sandbox** <Glossary>account type</Glossary>.*
       </td>
     </tr>
   </tbody>
