@@ -65,3 +65,7 @@ In this section, learn how to:
 
 * Add a FedEx shipping account
 * Add a FedEx tracking account
+
+> 📘 *Note*
+>
+> *For more information on how to activate the FedEx integration, refer to the[Activate integration](https://docs.intersoftsapient.net/docs/integration-activation#/) section.*
