@@ -141,7 +141,7 @@ To add a shipping account for FedEx in SAPIENT, follow the instructions as expla
       </td>
 
       <td>
-        Enter a custom name which can be used in the API request instead of using the shipping account ID when connecting to us. Therefore, it is recommend that this name must be memorable and available for reference purposes.
+        Enter a custom name which can be used when connecting to us. Therefore, it is recommend that this name must be memorable and available for reference purposes.
       </td>
     </tr>
 
@@ -162,6 +162,32 @@ To add a shipping account for FedEx in SAPIENT, follow the instructions as expla
 
       <td>
         Enter the contact number for the account you are adding.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        **Duties and taxes payment type**
+      </td>
+
+      <td>
+        From the dropdown menu, select one of the following options:
+
+        • **Sender**: The sender (or shipper) is responsible for any duties and taxes incurred when the <Glossary>shipment</Glossary> reaches its destination. This option is typically used when the sender wants full control over the shipment's costs.
+
+        • **ThirdParty**: A third-party account is billed for duties and taxes. This option is used when the sender wants another designated company (not the sender or receiver) to pay the applicable fees.
+
+        *`Note`: When the**ThirdParty** option is selected, an additional form is displayed for you to enter the third-party account details.*
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        **Enable Electronic Trade Documents (ETD)**
+      </td>
+
+      <td>
+
       </td>
     </tr>
   </tbody>
