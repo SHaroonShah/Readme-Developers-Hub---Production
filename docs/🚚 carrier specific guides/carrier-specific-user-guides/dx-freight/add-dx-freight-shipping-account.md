@@ -20,34 +20,28 @@ In SAPIENT, you can create a shipping account with DX Freight, and then link it 
 
 To add a shipping account for DX Freight in SAPIENT, follow the instructions as explained in the following procedure.
 
-1. In the left navigation panel, select **Shipping Accounts**. 
+1. In the left navigation panel, select **Shipping Accounts**.
 
-<Image alt="Accessing shipping accounts" align="center" border={true} src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png">
-  Accessing shipping accounts
-</Image>
+<Image align="center" alt="Accessing shipping accounts" border={true} caption="Accessing shipping accounts" src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" />
 
 2. On the **Shipping Accounts** page that opens, select ![alt text](https://files.readme.io/5eb134426849b1adb3049756830b6bef19e7dc67dca55891e64ff7b9c8eadd8e-add_shipping_account_button.png).
 
-<Image alt="Accessing option to add shipping account" align="center" border={true} src="https://files.readme.io/3b149ee84f86fb8d4f02c43b2733c7eb85aea3ac6e2f01692af371f631570bf3-Add_shipping_account_button_DX.png">
-  Selecting option to add shipping account
-</Image>
+<Image align="center" alt="Accessing option to add shipping account" border={true} caption="Selecting option to add shipping account" src="https://files.readme.io/3b149ee84f86fb8d4f02c43b2733c7eb85aea3ac6e2f01692af371f631570bf3-Add_shipping_account_button_DX.png" />
 
 3. On the **Add Shipping Account** form that appears, in the **ACCOUNT DETAILS** block, fill in the necessary information as described in the following table.
 
-<Image alt="Entering account details" align="center" width="500px" border={true} src="https://files.readme.io/40bb3dfde408f1f6eee74c938c73d944f393452152128675900492ecb24a3e52-Account_details_block_DX_Freight.png">
-  Entering account details
-</Image>
+<Image align="center" alt="Entering account details" border={true} caption="Entering account details" src="https://files.readme.io/40bb3dfde408f1f6eee74c938c73d944f393452152128675900492ecb24a3e52-Account_details_block_DX_Freight.png" width="500px" />
 
 <AsteridkForMandatoryElements />
 
 <Table align={["center","left"]}>
   <thead>
     <tr>
-      <th style={{ textAlign: "center" }}>
+      <th>
         Element
       </th>
 
-      <th style={{ textAlign: "left" }}>
+      <th>
         Description
       </th>
     </tr>
@@ -55,22 +49,22 @@ To add a shipping account for DX Freight in SAPIENT, follow the instructions as 
 
   <tbody>
     <tr>
-      <td style={{ textAlign: "center" }}>
+      <td>
         **Carrier\***
       </td>
 
-      <td style={{ textAlign: "left" }}>
+      <td>
         From the dropdown list, select **DXF - DX Freight**.
       </td>
     </tr>
 
     <tr>
-      <td style={{ textAlign: "center" }}>
+      <td>
         **Shipping Location\***
       </td>
 
-      <td style={{ textAlign: "left" }}>
-        From the dropdown menu, select the location that you want to assign to the shipping account you are creating.  
+      <td>
+        From the dropdown menu, select the location that you want to assign to the shipping account you are creating.
 
         *`Note`: Before selecting the shipping location, make sure you have[created one](https://docs.intersoftsapient.net/docs/add-a-shipping-location) beforehand.*
       </td>
@@ -80,9 +74,7 @@ To add a shipping account for DX Freight in SAPIENT, follow the instructions as 
 
 4. In the **SHIPPING ACCOUNT** block, enter the necessary information as explained in the following table.
 
-<Image alt="Specifying shipping account details" align="center" width="400px" border={true} src="https://files.readme.io/d0eae769c813147e1ba1ff428f31e2a84852aba1218a4858b7324d86458cd559-Shipping_account_block_DX.png">
-  Specifying shipping account details
-</Image>
+<Image align="center" alt="Specifying shipping account details" border={true} caption="Specifying shipping account details" src="https://files.readme.io/d0eae769c813147e1ba1ff428f31e2a84852aba1218a4858b7324d86458cd559-Shipping_account_block_DX.png" width="400px" />
 
 > 💡 *Tip*
 >
@@ -91,11 +83,11 @@ To add a shipping account for DX Freight in SAPIENT, follow the instructions as 
 <Table align={["center","left"]}>
   <thead>
     <tr>
-      <th style={{ textAlign: "center" }}>
+      <th>
         Element
       </th>
 
-      <th style={{ textAlign: "left" }}>
+      <th>
         Description
       </th>
     </tr>
@@ -103,69 +95,69 @@ To add a shipping account for DX Freight in SAPIENT, follow the instructions as 
 
   <tbody>
     <tr>
-      <td style={{ textAlign: "center" }}>
+      <td>
         **Carrier Account Number\***
       </td>
 
-      <td style={{ textAlign: "left" }}>
-        Enter the account number for DX Freight.  
+      <td>
+        Enter the account number for DX Freight.
 
-        The format of the account number must be compliant with the carrier you have selected. For DX Freight, the account number must be 8 characters long.  
+        The format of the account number must be compliant with the carrier you have selected. For DX Freight, the account number must be 8 characters long.
 
         *`Note`: If you already have an account with DX Freight that is actively being used, and if you wish to receive tracking via INTERSOFT, then you need to request DX to enable tracking and send it to INTERSOFT.*
       </td>
     </tr>
 
     <tr>
-      <td style={{ textAlign: "center" }}>
+      <td>
         **Account Name (if different than customer)\***
       </td>
 
-      <td style={{ textAlign: "left" }}>
+      <td>
         Enter the name of the account you are adding.
       </td>
     </tr>
 
     <tr>
-      <td style={{ textAlign: "center" }}>
+      <td>
         **Account Type\***
       </td>
 
-      <td style={{ textAlign: "left" }}>
-        From the dropdown menu, select one of the following account types that you want to set up for the the shipping account you are adding:  
+      <td>
+        From the dropdown menu, select one of the following account types that you want to set up for the the shipping account you are adding:
 
-        • **[Production](https://docs.intersoftsapient.net/docs/sandbox-account)**: a live environment where the final version of the application is deployed and made available to the users.  
+        • **[Production](https://docs.intersoftsapient.net/docs/sandbox-account)**: a live environment where the final version of the application is deployed and made available to the users.
 
         • **[Sandbox](https://docs.intersoftsapient.net/docs/sandbox-account)**: a testing environment that mimics the **Production** environment but is isolated from it. The sandbox environment is primarily used for development and testing purposes.
       </td>
     </tr>
 
     <tr>
-      <td style={{ textAlign: "center" }}>
+      <td>
         **Alias\***
       </td>
 
-      <td style={{ textAlign: "left" }}>
+      <td>
         Enter a custom name which can be used in the API request instead of using the shipping account ID when connecting to us. Therefore, it is recommend that this name must be memorable and available for reference purposes.
       </td>
     </tr>
 
     <tr>
-      <td style={{ textAlign: "center" }}>
+      <td>
         **Contact Name\***
       </td>
 
-      <td style={{ textAlign: "left" }}>
+      <td>
         Enter the contact name for the account you are adding.
       </td>
     </tr>
 
     <tr>
-      <td style={{ textAlign: "center" }}>
+      <td>
         **Contact Number\***
       </td>
 
-      <td style={{ textAlign: "left" }}>
+      <td>
         Enter the contact number for the account you are adding.
       </td>
     </tr>
@@ -174,20 +166,18 @@ To add a shipping account for DX Freight in SAPIENT, follow the instructions as 
 
 5. In the **CARRIER DETAILS** block, enter the necessary information as explained in the following table.
 
-<Image alt="Entering carrier details" align="center" width="400px" border={true} src="https://files.readme.io/3707bf4d346ea1f22c7d1d3be7bf1d030ca19d84c84998da95fc31d47eb8fc70-carrier_details_block_DX_Freight.png">
-  Entering carrier details
-</Image>
+<Image align="center" alt="Entering carrier details" border={true} caption="Entering carrier details" src="https://files.readme.io/3707bf4d346ea1f22c7d1d3be7bf1d030ca19d84c84998da95fc31d47eb8fc70-carrier_details_block_DX_Freight.png" width="400px" />
 
 <AsteridkForMandatoryElements />
 
 <Table align={["center","left"]}>
   <thead>
     <tr>
-      <th style={{ textAlign: "center" }}>
+      <th>
         Element
       </th>
 
-      <th style={{ textAlign: "left" }}>
+      <th>
         Description
       </th>
     </tr>
@@ -195,40 +185,40 @@ To add a shipping account for DX Freight in SAPIENT, follow the instructions as 
 
   <tbody>
     <tr>
-      <td style={{ textAlign: "center" }}>
+      <td>
         **Origin Service Centre (Also referred to as "Depot")\***
       </td>
 
-      <td style={{ textAlign: "left" }}>
-        Enter the origin service code for identifying the correct physical location from which the <Glossary>shipments</Glossary> originate.  
+      <td>
+        Enter the origin service code for identifying the correct physical location from which the <Glossary>shipments</Glossary> originate.
 
         *`Note`: This code may vary depending on the selected service type, for example it can be a single number or a combination of  two letters and numbers. For more information, please contact DX Freight.*
       </td>
     </tr>
 
     <tr>
-      <td style={{ textAlign: "center" }}>
+      <td>
         **Password\***
       </td>
 
-      <td style={{ textAlign: "left" }}>
+      <td>
         Enter the password associated with your DX Freight account. It is essential for securing the account and ensuring that only authorized users have access to shipping details and operations.
       </td>
     </tr>
 
     <tr>
-      <td style={{ textAlign: "center" }}>
+      <td>
         **Service Type\***
       </td>
 
-      <td style={{ textAlign: "left" }}>
-        From the dropdown menu, select one the following service types that you want to use for your shipments, specifically in terms of the number of personnel involved in the delivery:  
+      <td>
+        From the dropdown menu, select one the following service types that you want to use for your shipments, specifically in terms of the number of personnel involved in the delivery:
 
-        • **1 Man**: This service type typically means that one crew member will handle the delivery. This is suitable for smaller, lighter <Glossary>items</Glossary> that one person can manage without assistance.  
+        • **1 Man**: This service type typically means that one crew member will handle the delivery. This is suitable for smaller, lighter <Glossary>items</Glossary> that one person can manage without assistance.
 
-        • **2 Man**: This indicates that two personnel will be involved in the delivery process, which is often necessary for larger or heavier items that require additional handling or lifting.  
+        • **2 Man**: This indicates that two personnel will be involved in the delivery process, which is often necessary for larger or heavier items that require additional handling or lifting.
 
-        *`Note`: Bear in mind that you need to create separate shipping accounts for each service type that you wish to use in your shipments.* 
+        *`Note`: Bear in mind that you need to create separate shipping accounts for each service type that you wish to use in your shipments.*
       </td>
     </tr>
   </tbody>
