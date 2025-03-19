@@ -34,6 +34,11 @@ The information on how to fill in the the necessary information at this stage ar
 Once the information is submitted, the system runs a validation check by validating the provided address via the**Address Validation** API. Based on the validation output, the system does the following:
 
 * If the validation is successful, then the **accountAuthToken** is generated to be used in completing the multi-factor authentication process.
+
+> 🚧 *Important*
+>
+> *The**accountAuthToken** is only valid for 30 minutes. If it is not utilised within this time period, then the shipping address is revalidated by triggering the **Address Validation** API to generate a new **accountAuthToken**.*
+
 * If the validation fails (that is, the address does not match in the FedEx systems), then a corresponding error message is displayed—and you will not proceed to the**Multi-Factor Authentication** (MFA) stage of the **Add Shipping Account** form.
 
 <br />
