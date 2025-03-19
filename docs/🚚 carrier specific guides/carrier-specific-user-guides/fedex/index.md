@@ -30,7 +30,6 @@ This integration provides the following key features:
 The following are the key enhancements provided by the FedEx integration:
 
 * **Saturday Delivery**: The option to deliver packages on Saturdays for added convenience.
-* **Food shipping**: Specialised services catering to the transportation of food items.
 * **Enhanced transit Liability**: A surcharge is applicable if the requested enhanced value of the shipment exceeds the liability stated in FedEx's terms and conditions for the selected service.
 * **Signature options**: Enhanced signature options include:
   * Adult signature
@@ -68,4 +67,4 @@ In this section, learn how to:
 
 > 📘 *Note*
 >
-> *For more information on how to activate the FedEx integration, refer to the [Activate integration](https://docs.intersoftsapient.net/docs/integration-activation#/) section.*
+> *For more information on how to activate the FedEx integration, refer to the[Activate integration](https://docs.intersoftsapient.net/docs/integration-activation#/) section.*
