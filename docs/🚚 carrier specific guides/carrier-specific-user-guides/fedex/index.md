@@ -52,7 +52,7 @@ The FedEx integration provides the following additional features:
 The following API services are provided by the FedEx integration:
 
 * **Create Shipment**: The integration for creating shipments to reflect FedEx as a primary carrier and allowing users to create shipments using the **Create Shipment** endpoint.
-* *Cancel Shipment*: The integration for cancelling shipments.
+* **Cancel Shipment**: The integration for cancelling shipments.
 
 > 🚧 *Important*
 >
