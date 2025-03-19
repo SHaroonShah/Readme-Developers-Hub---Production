@@ -1,7 +1,7 @@
 ---
 title: Specify shipping address details
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   robots: index
 ---
