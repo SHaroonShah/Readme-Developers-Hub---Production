@@ -79,7 +79,7 @@ The information on how to fill in the the necessary information at this stage ar
 
     <tr>
       <td>
-        **Address LIne 3\***
+        **Address Line 3\***
       </td>
 
       <td>
