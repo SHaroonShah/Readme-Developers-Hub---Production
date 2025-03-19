@@ -76,8 +76,15 @@ To add a shipping account for FedEx in SAPIENT, follow the instructions as expla
 </Table>
 
 4. After specifying the carrier and shipping location, a new **CONNECT YOUR FEDEX ACCOUNT** form appears.  At the **Shipping Account** stage of the form, specify the general details associated to your FedEx account number and then select ![alt text](https://files.readme.io/cc0b1ba97fd42622607551903346520543f58dfb3740f9f55eec3021b0a251d0-Next_button.png).
-5. At the **Shipping Address** stage that appears, specify the FedEx shipping address details so that the system can validate and match it with the address registered in the FedEx systems. After the address has been validated, select ![alt text](https://files.readme.io/b1609bfc8152341b73491d22eb12d4e9afd120ad0d5644d8bdb0f0dd82f7ee2b-Next_button.png).
-6. In the **CONNECT YOUR FEDEX ACCOUNT** form that appears, at the **Shipping Account** stage, enter the necessary information as explained in the following table.
+5. At the **Shipping Address** stage that appears, specify the FedEx shipping address details so that the system can validate and match it with the address registered in the FedEx systems. After the address has been validated, the **accountAuthToken** is generated. Save the generated token and select ![alt text](https://files.readme.io/b1609bfc8152341b73491d22eb12d4e9afd120ad0d5644d8bdb0f0dd82f7ee2b-Next_button.png).
+6. At the Multi Factor Authentication stage, complete the multi-factor authentication process by using the **accountAuthToken** generated at the **Shipping Address** stage.
+7. Once all the stages have been completed, select ![alt text](https://files.readme.io/de151504635fd8047fe8fb205e9722ac5f626457b36dfc580618e40a539af45a-Submit_button.png).
+
+> 📘 *Note*
+>
+> \_After submitting the form, if you have enabled the Enable Electronic Trade Documents (ETD) checkbox, then a corresponding dialog is displayed, prompting you to configure the ETD data in the [Signatures and logos](https://docs.intersoftsapient.net/docs/add-signature-and-logo#/) page of SAPIENT. \_
+
+4. In the **CONNECT YOUR FEDEX ACCOUNT** form that appears, at the **Shipping Account** stage, enter the necessary information as explained in the following table.
 
 <Image align="center" alt="Specifying shipping account details" border={true} caption="Specifying shipping account details" src="https://files.readme.io/fa447171e8f90a43d206fa93b5dacfb723a09dca86dd4b979c21153c4a169bda-FEDEX_Shipping_account_stage.png" />
 
