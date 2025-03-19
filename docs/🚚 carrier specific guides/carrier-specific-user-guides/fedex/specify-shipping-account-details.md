@@ -1,7 +1,7 @@
 ---
 title: Specify shipping account details
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   robots: index
 ---
