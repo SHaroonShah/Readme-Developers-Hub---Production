@@ -109,7 +109,7 @@ The information on how to fill in the the necessary information at this stage ar
 
     <tr>
       <td>
-        State
+        **State**
       </td>
 
       <td>
@@ -119,7 +119,7 @@ The information on how to fill in the the necessary information at this stage ar
 
     <tr>
       <td>
-        Postcode
+        **Postcode**
       </td>
 
       <td>
@@ -129,7 +129,7 @@ The information on how to fill in the the necessary information at this stage ar
 
     <tr>
       <td>
-        This is a residential address
+        **This is a residential address**
       </td>
 
       <td>
@@ -139,7 +139,7 @@ The information on how to fill in the the necessary information at this stage ar
 
     <tr>
       <td>
-        Previous
+        **Previous**
       </td>
 
       <td>
@@ -149,7 +149,7 @@ The information on how to fill in the the necessary information at this stage ar
 
     <tr>
       <td>
-        Submit
+        **Submit**
       </td>
 
       <td>
