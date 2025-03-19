@@ -17,6 +17,8 @@ The information on how to fill in the the necessary information at this stage ar
 
 <AsteridkForMandatoryElements />
 
+<br />
+
 <Table align={["center","left"]}>
   <thead>
     <tr>
@@ -37,9 +39,7 @@ The information on how to fill in the the necessary information at this stage ar
       </td>
 
       <td>
-        Enter the carrier account number.
-
-        The format of the account number must be compliant with the carrier you have selected. If your account number does not meet the requirements, you may need to add the required amount of zero's at the beginning of the number to ensure it lies within the standard character length range for that carrier.
+        Enter the name of the customer that
       </td>
     </tr>
 
