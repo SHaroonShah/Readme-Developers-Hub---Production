@@ -1,7 +1,7 @@
 ---
 title: Initiate Multi-factoer authentication process
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
