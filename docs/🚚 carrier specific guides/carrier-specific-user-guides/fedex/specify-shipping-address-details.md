@@ -33,7 +33,7 @@ The information on how to fill in the the necessary information at this stage ar
 
 Once the information is submitted, the system runs a validation check by validating the provided address via the**Address Validation** API. Based on the validation output, the system does the following:
 
-* If the validation is successful, then the **accountAuthToken** is generated to be used in completing the multi-factor authentication process. Save the token and proceed to the Multi Factor Authentication stage of the form.
+* If the validation is successful, then the **accountAuthToken** is generated to be used in completing the multi-factor authentication process. Save the token and proceed to the [Multi Factor Authentication](https://docs.intersoftsapient.net/docs/initiate-multi-factoer-authentication-process#/) stage of the form.
 
 > 🚧 *Important*
 >
