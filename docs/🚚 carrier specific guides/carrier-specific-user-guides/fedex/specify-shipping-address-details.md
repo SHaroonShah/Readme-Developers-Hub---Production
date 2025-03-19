@@ -31,4 +31,12 @@ The information on how to fill in the the necessary information at this stage ar
 |            **Previous**           | Select ![alt text](https://files.readme.io/32d1e0325bb43e32995a83a961895c700550d54e72e6ecdece1661a2fe88d0a9-Previous_button.png) to return to the [Shipping Account](https://docs.intersoftsapient.net/docs/specify-shipping-account-details#/) stage and update the information, if needed. |
 |             **Submit**            | Select ![alt text](https://files.readme.io/d1aaa1a96df2bb864b3c2ff0bca425a2c21b8a8e159fa5bca06bdd323c0b3775-Submit_button.png) to save the entered information.                                                                                                                              |
 
-Once the information is submitted
+Once the information is submitted, the system runs a validation check by validating the provided address via the**Address Validation** API. Based on the validation output, the system does the following:
+
+* If the validation is successful, then the **accountAuthToken** is generated to be used in completing the multi-factor authentication process.
+* If the validation fails (that is, the address does not match in the FedEx systems), then a corresponding error message is displayed—and you will not proceed to the**Multi-Factor Authentication** (MFA) stage of the **Add Shipping Account** form.
+
+<br />
+
+4. After the address has been validated, the **accountAuthToken** is generated. Save the generated token.
+5. <br />
