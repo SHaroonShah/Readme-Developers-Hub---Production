@@ -103,7 +103,7 @@ The information on how to fill in the the necessary information at this stage ar
       </td>
 
       <td>
-        Select this checkbox if you want to utilise electronic trade documents when shipping with FedEx. When this option is selected, you are prompted and redirected to the [Add signature and logo](https://docs.intersoftsapient.net/docs/add-signature-and-logo#/) page of the application, where you can configure the required data for ETD.
+        Select this checkbox if you want to utilise electronic trade documents when shipping with FedEx. If you have completed the account creation process with this option selected, then at the end of the from, the system prompts you to go to the [Add signature and logo](https://docs.intersoftsapient.net/docs/add-signature-and-logo#/) page of the application to configure the required data for ETD.
       </td>
     </tr>
 
@@ -119,7 +119,7 @@ The information on how to fill in the the necessary information at this stage ar
 
         • **ThirdParty**: A third-party account is billed for duties and taxes. This option is used when the sender wants another designated company (not the sender or receiver) to pay the applicable fees. This means that the designated third party will bear the costs of duties and taxes instead of the sender or recipient.
 
-        *`Note`: When the **ThirdParty** option is selected, an additional form is displayed for you to enter the third-party account details. For more information on how to fill this form, refer to the fields explained below.*
+        *`Note`: When the**ThirdParty** option is selected, an additional form is displayed for you to enter the third-party account details. For more information on how to fill this form, refer to the fields explained below.*
       </td>
     </tr>
 
