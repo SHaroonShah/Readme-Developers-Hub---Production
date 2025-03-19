@@ -109,7 +109,7 @@ The information on how to fill in the the necessary information at this stage ar
 
     <tr>
       <td>
-        **Duties and taxes payment type**
+        **Duties and taxes payment type**\*
       </td>
 
       <td>
