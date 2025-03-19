@@ -239,7 +239,7 @@ The information on how to fill in the the necessary information at this stage ar
       </td>
 
       <td>
-        Select ![alt text](https://files.readme.io/b6c8af0dd2df7d574d6e95a6d57dee08b1b36bfe92e4350a94cb3b7eee6a5b71-Next_button.png) to proceed to the Shipping Address stage of the form.
+        Select ![alt text](https://files.readme.io/b6c8af0dd2df7d574d6e95a6d57dee08b1b36bfe92e4350a94cb3b7eee6a5b71-Next_button.png) to proceed to the [Shipping Address](https://docs.intersoftsapient.net/docs/specify-shipping-address-details#/) stage of the form.
       </td>
     </tr>
 
