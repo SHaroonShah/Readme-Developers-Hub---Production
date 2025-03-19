@@ -17,8 +17,6 @@ The information on how to fill in the the necessary information at this stage ar
 
 <AsteridkForMandatoryElements />
 
-<br />
-
 <Table align={["center","left"]}>
   <thead>
     <tr>
@@ -39,7 +37,7 @@ The information on how to fill in the the necessary information at this stage ar
       </td>
 
       <td>
-        Enter the name of the customer that
+        Enter the name of the customer registered with FedEx.
       </td>
     </tr>
 
