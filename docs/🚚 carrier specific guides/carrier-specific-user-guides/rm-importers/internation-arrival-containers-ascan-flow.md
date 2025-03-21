@@ -34,7 +34,7 @@ As the shipments are in transit, tracking is initiated with a first tracking eve
 #### See also
 
 <Cards columns={4}>
-  <Card title="ASCAN flow" href="https://docs.intersoftsapient.net/docs/internation-arrival-containers-ascan-flow#/" icon="fas fa-bezier-curve" target="_blank">
+  <Card title="Set up Internatinal Arrival Conatiners barcode ranges" href="https://docs.intersoftsapient.net/docs/add-barcode-range-for-international-arrival-containers#/" icon="fas fa-bezier-curve" target="_blank">
     Learn how the **International Arrivals Containers** process works and get to know the entire journey of the UK arrival containers on the fly.
   </Card>
 
