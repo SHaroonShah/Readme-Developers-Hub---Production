@@ -35,7 +35,7 @@ As the shipments are in transit, tracking is initiated with a first tracking eve
 
 <Cards columns={4}>
   <Card title="Set up Internatinal Arrival Containers barcode ranges" href="https://docs.intersoftsapient.net/docs/add-barcode-range-for-international-arrival-containers#/" icon="fa-solid fa-barcode-read" target="_blank">
-    Configure a specific set of numbers designated for tracking containers arriving into the UK from overseas. These barcodes are used to uniquely identify containers at various stages of the shipping and handling process, facilitating efficient tracking and management.
+    Configure a specific set of numbers designated for tracking containers arriving into the UK from overseas, facilitating efficient tracking and management.
   </Card>
 
   <Card title="Internation Arrivals Containers API" href="https://docs.intersoftsapient.net/reference/post_v4-internationalarrivalscontainers-rm#/" icon="fa-solid fa-gear-complex-code">
