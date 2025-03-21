@@ -56,6 +56,8 @@ To add a barcode range for international arrival containers in SAPIENT, follow t
 
 Once the relevant information is entered, select ![alt text](https://files.readme.io/79e0cb9c566226cd8b320dc3529f556e5d94e2faa0622645bd0bc2c572957cab-Add_barcode_range_button_2.png) to save and add the bar code. You can now use this bar code range in your [manifest shipments](https://docs.intersoftsapient.net/reference/post_v4-manifests-carriercode) request for international arrival containers. When the international arrival container is manifested, the data solution UK arrivals file is sent to Royal Mail via SFTP.
 
+## See also
+
 <Cards columns={4}>
   <Card title="ASCAN flow" href="https://docs.intersoftsapient.net/docs/internation-arrival-containers-ascan-flow#/" icon="fas fa-bezier-curve" target="_blank">
     Laern how the International Arrivals Containers process works and get to know the entire journey of the UK arrival containers on the fly.
