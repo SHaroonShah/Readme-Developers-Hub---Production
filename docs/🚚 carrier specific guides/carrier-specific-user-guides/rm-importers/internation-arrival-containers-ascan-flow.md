@@ -9,4 +9,6 @@ Unlike the common Containers API, the [International arrival Containers](https:/
 
 The following flows explain the entire journey of the containers with the shipments being transported into the UK.
 
-##
+## Create shipment and allocating container when the ContainerId is known
+
+<Image align="center" width="1000px" src="https://files.readme.io/52b50d0cc4bfa6df5f69b1f36acf1c7f04dcc2e8b77f3ab56bb05989d466dca8-Flow_1.png" />
