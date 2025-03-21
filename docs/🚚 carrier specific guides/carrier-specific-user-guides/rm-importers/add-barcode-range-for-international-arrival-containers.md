@@ -61,7 +61,7 @@ Once the relevant information is entered, select ![alt text](https://files.readm
     Neque porro quisquam est qui dolorem ipsum quia
   </Card>
 
-  <Card title="Internation Arrivals Containers API" icon="fa-solid fa-gear-complex-code">
+  <Card title="Internation Arrivals Containers API" href="https://docs.intersoftsapient.net/reference/post_v4-internationalarrivalscontainers-rm#/" icon="fa-solid fa-gear-complex-code">
     *Lorem ipsum dolor sit amet, consectetur adipiscing elit*
   </Card>
 
