@@ -60,7 +60,7 @@ Once the relevant information is entered, select ![alt text](https://files.readm
 
 <Cards columns={4}>
   <Card title="ASCAN flow" href="https://docs.intersoftsapient.net/docs/internation-arrival-containers-ascan-flow#/" icon="fas fa-bezier-curve" target="_blank">
-    Learn how the International Arrivals Containers process works and get to know the entire journey of the UK arrival containers on the fly.
+    Learn how the **International Arrivals Containers** process works and get to know the entire journey of the UK arrival containers on the fly.
   </Card>
 
   <Card title="Internation Arrivals Containers API" href="https://docs.intersoftsapient.net/reference/post_v4-internationalarrivalscontainers-rm#/" icon="fa-solid fa-gear-complex-code">
