@@ -15,7 +15,7 @@ One of the most significant aspects of the Windsor Framework is its impact on al
 
 > 🚧 *Important*
 >
-> *Businesses must familiarise themselves with the specific requirements set out in the[ Windsor Framework](https://www.gov.uk/government/publications/moving-parcels-from-great-britain-to-northern-ireland-under-the-windsor-framework) by HMRC.*
+> *Businesses must familiarise themselves with the specific requirements set out in the[Windsor Framework](https://www.gov.uk/government/publications/moving-parcels-from-great-britain-to-northern-ireland-under-the-windsor-framework) by HMRC.*
 
 To align with the Windsor Framework changes, customers using the Sapient system must update their shipping protocols and documentation processes. This includes integrating the new customs requirements into their logistics workflows and ensuring that all necessary data is captured correctly for both B2B and B2C shipments. Training staff on these updates will be crucial to ensure compliance and streamline operations.
 
@@ -23,7 +23,7 @@ If you are sending B2B shipments, make sure to populate the following fields in 
 
 > 📘 *Note*
 >
-> *Please note that the following script is only displaying the necessary fields that are required for B2B shipments to NI. Please make sure these fields are populated along with all the necessary fields associated to that particular object. For more information on how to populate the required fields, refer to the[ API References](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm) section.*
+> *Please note that the following script is only displaying the necessary fields that are required for B2B shipments to NI. Please make sure these fields are populated along with all the necessary fields associated to that particular object. For more information on how to populate the required fields, refer to the[API References](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm) section.*
 
 ```
 curl --request POST \ 
