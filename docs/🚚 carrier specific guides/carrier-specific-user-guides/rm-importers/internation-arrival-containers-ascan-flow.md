@@ -25,7 +25,7 @@ The flow outlines the process of creating shipments when the `ContainerId` is un
 
 ### Manifest container
 
-<Image align="center" className="border" border={true} src="https://files.readme.io/6b0fa31d35b9ef08d803ba6952d1892219cb3c61fce8de145897aad1eec74f38-Flow_3.png" />
+<Image align="center" className="border" border={true} src="https://files.readme.io/e29b772c2b3929f4f9950e2088f48fe8dc6bb679993a3029f3bd56747268b786-Flow_3.png" />
 
 The flowchart outlines the process for managing shipments with Royal Mail. Initially, it checks if all shipments have been allocated; if so, the shipments are <Glossary>manifest</Glossary>ed and its details are sent to Royal Mail for processing, along with the container details. Once the containers arrive in the UK, the shipments are converted from Freight 2 Post and injected to the Royal Mail network.
 
