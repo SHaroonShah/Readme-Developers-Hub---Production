@@ -20,3 +20,11 @@ The flowchart outlines a process for creating a shipment and allocating a contai
 <Image align="center" className="border" border={true} src="https://files.readme.io/2f89d2a4753066b08fa33913ccb06da98269f5c36c69e33dfb91aa6fefef7d31-Flow_2.png" />
 
 The flow outlines the process of creating shipments when the `ContainerId` is unknown, which involves several key steps. First, an order is created by sending the [Create Shipment request](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm#/). If all required fields are populated, the shipment is successfully created, prompting the system to generate tracking numbers and labels. Subsequently, a container for a UK arrival is created, and a request to add a new container is sent. Shipments are allocated to the newly created container using an [Add/Remove Shipments request](https://docs.intersoftsapient.net/reference/put_v4-internationalarrivalscontainers-rm-containerid#/), allowing up to 10,000 shipments to be linked to a single container before packing the shipment and finalising the process.
+
+## Manifest container
+
+<Image align="center" className="border" border={true} src="https://files.readme.io/6b0fa31d35b9ef08d803ba6952d1892219cb3c61fce8de145897aad1eec74f38-Flow_3.png" />
+
+The flowchart outlines the process for managing shipments with Royal Mail. Initially, it checks if all shipments have been allocated; if so, the shipments are manifested and its details are sent to Royal Mail for processing, along with the container details. Once the containers arrive in the UK, the shipments are converted from Freight 2 Post and injected to the Royal Mail network.
+
+As the shipments are in transit, tracking is initiated with a first tracking event triggered by the system. Subsequently, additional tracking events are logged upon reaching specific statuses, culminating in the delivery of the shipment, which is confirmed through a successful delivery trigger. If shipments have not been allocated, the process reverts to continue allocating shipments until all are accounted for.
