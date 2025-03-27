@@ -128,7 +128,7 @@ namespace MCSS.CodeForRecipes.Recipes
 
 <!-- csharp@1-17 -->
 
-Set-up your environment using your authentication and shipping details.
+Set-up your environment using your authentication and shipping details. `code`
 
 # Get an authentication token
 
