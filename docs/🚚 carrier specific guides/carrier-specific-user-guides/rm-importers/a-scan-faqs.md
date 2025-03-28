@@ -19,7 +19,7 @@ metadata:
 
   • Minumum weight 1.500 Kg
 
-  • Maximum weight applies to the following consitions:
+  • Maximum weight applies to the following conditions:
 
   • 30 Kg for any GB shiipments
 
