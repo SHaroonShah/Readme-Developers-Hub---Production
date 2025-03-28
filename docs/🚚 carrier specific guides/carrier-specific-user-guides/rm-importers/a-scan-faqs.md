@@ -11,7 +11,7 @@ metadata:
 </Accordion>
 
 <Accordion title="Can you have multiple services in one container?">
-  No, you cannot mix different services within a bag- the bags must be separated by service in accordance with the mail preparation specifications for each service.
+  No, you cannot mix different services within a bag. The bags must be separated by service in accordance with the mail preparation specifications for each service.
 </Accordion>
 
 <Accordion title="Are there any limits regarding the container’s weight?">
