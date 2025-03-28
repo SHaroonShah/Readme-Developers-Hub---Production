@@ -22,6 +22,16 @@ metadata:
   • 11 Kg for any non-GB shipments, for example, those using the DEI, DEJ, PS5, PS7, and so on.
 </Accordion>
 
-<Accordion title="Is A-Scan mandatory?">
-  The International Product Team have mandated that all Freight to Post customers must have A-Scan set up.
+<Accordion title="How many parcel formats can the containers have?">
+  Containers can only have one parcel format. This format is poupulated in the **RmContentFormat** field with one of the following values:
+  • **G**: Large Letters and Parcels
+  • **P**: Small Letters
+</Accordion>
+
+<Accordion title="When should the container be finalised?">
+  The container must be finalised latest by one hour before the flight lands in the UK, so that Royal Mail can receive all the data on time.
+</Accordion>
+
+<Accordion title="What needs to pupolated in the **rmService** field?">
+  The \**RMService* field must be populated with P (Prioroty).
 </Accordion>
