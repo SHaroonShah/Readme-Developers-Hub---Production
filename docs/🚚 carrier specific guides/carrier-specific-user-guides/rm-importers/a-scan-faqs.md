@@ -7,7 +7,7 @@ metadata:
   robots: index
 ---
 <Accordion title="Is A-Scan mandatory?">
-  The International Product Team have mandated that all Freight to Post customers must have A-Scan set up.
+  The International Product Team have mandated that all Freight to Post customers must have an A-Scan set up.
 </Accordion>
 
 <Accordion title="Can you have multiple services in one container?">
