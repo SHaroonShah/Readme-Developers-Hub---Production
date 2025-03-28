@@ -1,5 +1,5 @@
 ---
-title: Internation arrival containers (ASCAN) flow
+title: Internation arrival containers (A-Scan) flow
 deprecated: false
 hidden: false
 metadata:
