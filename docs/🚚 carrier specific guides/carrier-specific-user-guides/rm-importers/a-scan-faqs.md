@@ -6,7 +6,7 @@ hidden: false
 metadata:
   robots: index
 ---
-<Accordion title="Is A-Scan mandatory? " icon="fa-info-circle">
+<Accordion title="Is A-Scan mandatory?">
   Lorem ipsum dolor sit amet, **consectetur adipiscing elit.** Ut enim
   ad minim veniam, quis nostrud exercitation ullamco. Excepteur sint
   occaecat cupidatat non proident!
