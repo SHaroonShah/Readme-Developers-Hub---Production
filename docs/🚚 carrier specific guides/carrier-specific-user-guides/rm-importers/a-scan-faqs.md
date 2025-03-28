@@ -39,5 +39,5 @@ metadata:
 </Accordion>
 
 <Accordion title="What needs to pupolated in the **rmService** field?">
-  The \**RMService* field must be populated with P (Prioroty).
+  The **RMService** field must be populated with **P** (Prioroty).
 </Accordion>
