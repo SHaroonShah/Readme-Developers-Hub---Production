@@ -16,15 +16,21 @@ metadata:
 
 <Accordion title="Are there any limits regarding the container’s weight?">
   Yes, teh following are the accepted bag weights:
+
   • Minumum weight 1.500 Kg
+
   • Maximum weight applies to the following consitions:
+
   • 30 Kg for any GB shiipments
+
   • 11 Kg for any non-GB shipments, for example, those using the DEI, DEJ, PS5, PS7, and so on.
 </Accordion>
 
 <Accordion title="How many parcel formats can the containers have?">
   Containers can only have one parcel format. This format is poupulated in the **RmContentFormat** field with one of the following values:
+
   • **G**: Large Letters and Parcels
+
   • **P**: Small Letters
 </Accordion>
 
