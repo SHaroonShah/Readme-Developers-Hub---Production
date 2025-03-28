@@ -42,7 +42,7 @@ As the shipments are in transit, tracking is initiated with a first tracking eve
     *Create and name (with and ID or alias) a new international arrivals container to be used for manifesting a specific group of shipments. Define which carrier and shipping location the container should be linked to.*
   </Card>
 
-  <Card title="A-Scan FAQs" href="https://docs.intersoftsapient.net/reference/post_v4-internationalarrivalscontainers-rm#/" icon="fa-solid fa-gear-complex-code">
+  <Card title="A-Scan FAQs" href="https://docs.intersoftsapient.net/reference/post_v4-internationalarrivalscontainers-rm#/" icon="fa-solid fa-messages-question">
     *Frequently asked questions regarding the International Arrivals Containers API/A-Scan.*
   </Card>
 </Cards>
