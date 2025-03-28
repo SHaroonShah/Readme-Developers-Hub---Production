@@ -6,8 +6,8 @@ hidden: false
 metadata:
   robots: index
 ---
-<Accordion title="Is A-Scan mandatory?">
-  Lorem ipsum dolor sit amet, **consectetur adipiscing elit.** Ut enim
-  ad minim veniam, quis nostrud exercitation ullamco. Excepteur sint
-  occaecat cupidatat non proident!
-</Accordion>
+\<Accordion title="Is A-Scan mandatory?">
+&#x20; The International Product Team have mandated that all Freight to Post customers must have A-Scan set up.
+&#x20; \<Accordion title="Is A-Scan mandatory?">
+&#x20; The International Product Team have mandated that all Freight to Post customers must have A-Scan set up.
+\</Accordion>
