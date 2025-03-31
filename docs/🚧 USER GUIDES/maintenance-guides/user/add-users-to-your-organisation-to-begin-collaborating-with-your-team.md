@@ -82,8 +82,3 @@ After the user is added, a confirmation is sent to the specified email address. 
 > 🚧 *Important*
 >
 > *The Admin user has the access to all functionalities, but an Administrator, Lead or Operator must be assigned to different permissions. Whether the user has accepted the invite or not, you can quickly update their roles and permissions straight from the**Users** tab on the **Edit User** page. Make your choice and select the **Save Changes** button to update your changes.*
-
-| access | user | tab | actor | Manager | Administrator | handler | Loader |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
-| :----- | :--- | :-- | :---- | :------ | :------------ | :------ | :----- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- | :- |
-|        |      |     |       |         |               |         |        |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
-|        |      |     |       |         |               |         |        |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
