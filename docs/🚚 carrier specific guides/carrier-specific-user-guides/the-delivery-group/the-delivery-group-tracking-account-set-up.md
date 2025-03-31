@@ -1,5 +1,5 @@
 ---
-title: The Delivery Group tracking account set up
+title: Add The Delivery Group tracking account
 excerpt: ''
 deprecated: false
 hidden: true
