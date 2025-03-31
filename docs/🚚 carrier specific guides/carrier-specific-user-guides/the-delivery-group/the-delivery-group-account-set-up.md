@@ -1,5 +1,5 @@
 ---
-title: The Delivery Group account set up
+title: Add The Delivery Group shipping account
 excerpt: ''
 deprecated: false
 hidden: true
