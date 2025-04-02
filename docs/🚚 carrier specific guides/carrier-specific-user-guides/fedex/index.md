@@ -7,7 +7,7 @@ excerpt: >-
   making it an essential partner for businesses seeking to optimize their
   shipping operations.
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''
