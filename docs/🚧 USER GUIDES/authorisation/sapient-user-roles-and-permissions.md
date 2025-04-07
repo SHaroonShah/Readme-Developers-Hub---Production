@@ -44,7 +44,7 @@ metadata:
 
 ## Access permissions to custom settings
 
-| User role                                                                                   | Pre-registration numbers | VAT and EORI numbers | Signatures and Logos |
+| User role       | Pre-registration numbers | VAT and EORI numbers | Signatures and Logos |
 | :------------------------------------------------------------------------------------------ | :----------------------- | :------------------- | :------------------- |
 | **Carrier Accounts Administrator** (Can configure any carrier they are assigned to)         | ⛔                        | ⛔                    | ⛔                    |
 | **User Administrator** (can manage website users)                                           | ⛔                        | ⛔                    | ⛔                    |
