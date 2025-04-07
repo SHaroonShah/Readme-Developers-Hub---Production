@@ -1,7 +1,7 @@
 ---
 title: Customer administrator role-based access to SAPIENT actions
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   robots: index
 ---
