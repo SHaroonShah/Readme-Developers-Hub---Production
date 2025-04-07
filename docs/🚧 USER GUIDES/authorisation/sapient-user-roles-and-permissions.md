@@ -12,7 +12,7 @@ metadata:
 ---
 ## Access permissions to SAPIENT user interface
 
-| User role | Home page | Shipment search | View shipments | View manifest history | View cancelled shipments | View held shipments | Manifesting |
+| User role         | Home page | Shipment search | View shipments | View manifest history | View cancelled shipments | View held shipments | Manifesting |
 | :------------------------------------------------------------------------------------------ | :-------- | :-------------- | :------------- | :-------------------- | :----------------------- | :------------------ | :---------- |
 | **Carrier Accounts Administrator** (Can configure any carrier they are assigned to)         | ✅         | ⛔               | ⛔              | ⛔                     | ⛔                        | ⛔                   | ⛔           |
 | **User Administrator** (can manage website users)                                           | ✅         | ⛔               | ⛔              | ⛔                     | ⛔                        | ⛔                   | ⛔           |
