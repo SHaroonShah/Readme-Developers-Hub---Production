@@ -21,3 +21,11 @@ metadata:
 | **Shipment Manifesting** (a permission to manifest the shipments via the UI)                | ✅         | ⛔               | ⛔              | ⛔                     | ⛔                        | ⛔                   | ⛔           |
 
 ## Access permissions to maintenance functionality
+
+| User role                                                                                   | Home page | Shipment search | View shipments | View Manifest History | View Cancelled Shipments | View Held shipments | Manifesting |
+| :------------------------------------------------------------------------------------------ | :-------- | :-------------- | :------------- | :-------------------- | :----------------------- | :------------------ | :---------- |
+| **Carrier Accounts Administrator** (Can configure any carrier they are assigned to)         | ✅         | ⛔               | ⛔              | ⛔                     | ⛔                        | ⛔                   | ⛔           |
+| **User Administrator** (can manage website users)                                           | ✅         | ⛔               | ⛔              | ⛔                     | ⛔                        | ⛔                   | ⛔           |
+| **Customer Configuration Manager** (can access and update settings related to the customer) | ✅         | ⛔               | ⛔              | ⛔                     | ⛔                        | ⛔                   | ⛔           |
+| **History Access** (a permission to gain access to past shipments and manifests)            | ✅         | ✅               | ✅              | ✅                     | ⛔                        | ⛔                   | ⛔           |
+| **Shipment Manifesting** (a permission to manifest the shipments via the UI)                | ✅         | ⛔               | ⛔              | ⛔                     | ⛔                        | ⛔                   | ⛔           |
