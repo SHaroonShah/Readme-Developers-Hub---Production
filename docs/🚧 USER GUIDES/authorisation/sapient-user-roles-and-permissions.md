@@ -10,6 +10,8 @@ hidden: false
 metadata:
   robots: index
 ---
+## Access permissions to SAPIENT user interface
+
 | User role                                                                                   | Home page | Shipment search | View shipments | View Manifest History | View Cancelled Shipments | View Held shipments | Manifesting |
 | :------------------------------------------------------------------------------------------ | :-------- | :-------------- | :------------- | :-------------------- | :----------------------- | :------------------ | :---------- |
 | **Carrier Accounts Administrator** (Can configure any carrier they are assigned to)         | ✅         | ⛔               | ⛔              | ⛔                     | ⛔                        | ⛔                   | ⛔           |
