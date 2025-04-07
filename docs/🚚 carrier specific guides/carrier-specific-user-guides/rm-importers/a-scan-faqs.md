@@ -41,3 +41,7 @@ metadata:
 <Accordion title="What needs to pupolated in the **rmService** field?">
   The **RMService** field must be populated with **P** (Priority).
 </Accordion>
+
+<Accordion title="What are the event codes in the tracking API complete for ETSF?">
+  You will first get the **PSAN** tracking event code which indicates that pre-advice was received by Royal Mail—then **PRID**—shipment received in the depot event once the shipment arrives in the UK.
+</Accordion>
