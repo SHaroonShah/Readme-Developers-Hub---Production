@@ -7,7 +7,7 @@ metadata:
 ---
 | User role                          | Home page | Shipment search | View shipments | View Manifest History | View Cancelled Shipments | View Held shipments | Manifesting |
 | :--------------------------------- | :-------- | :-------------- | :------------- | :-------------------- | :----------------------- | :------------------ | :---------- |
-| **Carrier Accounts Administrator** | ✅         | ❌               | ❌              | ❌                     | ❌                        | ❌                   | ❌           |
+| **Carrier Accounts Administrator** | ✅         | ⛔               | ❌              | ❌                     | ❌                        | ❌                   | ❌           |
 | **User Administrator**             | ✅         | ❌               | ❌              | ❌                     | ❌                        | ❌                   | ❌           |
 | **Customer Configuration Manager** | ✅         | ❌               | ❌              | ❌                     | ❌                        | ❌                   | ❌           |
 | **History Access**                 | ✅         | ✅               | ✅              | ✅                     | ❌                        | ❌                   | ❌           |
