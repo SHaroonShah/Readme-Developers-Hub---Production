@@ -15,7 +15,7 @@ One of the most significant aspects of the Windsor Framework is its impact on al
 
 > 🚧 *Important*
 >
-> *Businesses must familiarise themselves with the specific requirements set out in the [Windsor Framework](https://www.gov.uk/government/publications/moving-parcels-from-great-britain-to-northern-ireland-under-the-windsor-framework) by HMRC.*
+> *Businesses must familiarise themselves with the specific requirements set out in the[Windsor Framework](https://www.gov.uk/government/publications/moving-parcels-from-great-britain-to-northern-ireland-under-the-windsor-framework) by HMRC.*
 
 To align with the Windsor Framework changes, customers using the Sapient system must update their shipping protocols and documentation processes. This includes integrating the new customs requirements into their logistics workflows and ensuring that all necessary data is captured correctly for both B2B and B2C shipments. Training staff on these updates will be crucial to ensure compliance and streamline operations.
 
@@ -23,7 +23,7 @@ If you are sending B2B shipments, make sure to populate the following fields in 
 
 > 📘 *Note*
 >
-> *Please note that the following script is only displaying the necessary fields that are required for B2B shipments to NI. Please make sure these fields are populated along with all the necessary fields associated to that particular object. For more information on how to populate the required fields, refer to the [API References](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm) section.*
+> *Please note that the following script is only displaying the necessary fields that are required for B2B shipments to NI. Please make sure these fields are populated along with all the necessary fields associated to that particular object. For more information on how to populate the required fields, refer to the[API References](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm) section.*
 
 ```
 curl --request POST \ 
@@ -74,11 +74,11 @@ curl --request POST \
 
 As a B2C customer shipping from Great Britain to Northern Ireland, you do not need to provide the Item **HSCode** or **CountryOfOrigin**. However, if you are a Royal Mail B2C customer, make sure the correct information is provided as explained in the following table:
 
-| Transaction type                                                   | Fields                                                                                                                                                                                                                                                   |
-| :----------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Business 2 Consumer (B2C)**                                      | Goods description, confirmation of goods categorisation by item (optional), weight (by item), value (by item), and country of origin.                                                                                                                    |
-| **Business 2 Business (B2B)** - value of goods above £135          | Exporter/Sender deatils (including EORI), Importer/Receiver details (including EORI), total value (not by item), country of origin, gross mass, description of goods, confirmation of goods categorisation by item(optional), UKIMS number.              |
-| **Business 2 Business (B2B)** - value of goods up to £135 or less) | Exporter/Sender deatils (including EORI), Importer/Receiver details (including EORI), total value (not by item), country of origin, gross mass, description of goods, confirmation of goods categorisation by item (mandatory), UKIMS number (optional). |
+| Transaction type                                                   | Fields                                                                                                                                                                                                                                                                  |
+| :----------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Business 2 Consumer (B2C)**                                      | Exporter/Sender details, Importer/Receiver details, customs value, country of origin, gross mass, goods description, <Glossary>HS Code</Glossary>/product classification, <Glossary>IOSS</Glossary> number (where held).                                                |
+| **Business 2 Business (B2B)**                                      | Exporter/Sender details (including <Glossary>Economic Operators Registration and Identification (EORI) number</Glossary>), Importer/Receiver details (including EORI), customs value, country of origin, gross mass, goods description, HS code/product classification. |
+| **Business 2 Business (B2B)** - value of goods up to £135 or less) | Exporter/Sender details (including EORI), Importer/Receiver details (including EORI), total value (not by item), country of origin, gross mass, description of goods, confirmation of goods categorisation by item (mandatory), UKIMS number (optional).                |
 
 > 📘 *Note*
 >
