@@ -46,7 +46,7 @@ Rate limits can be handled by both client and the server. For you to handle your
 
 1. **Understand rate limits**: familiarize yourself with the API provider's rate limiting policies, including limits on requests per minute, hour, or day, as well as any specific rules related to your account type.
 
-2. **Monitor API usage**: it is recommended to regularly check the number of requests made and the remaining calls to prevent hitting the limits unexpectedly. 
+2. **Monitor API usage**: it is recommended to regularly check the number of requests made and the remaining calls to prevent hitting the limits unexpectedly.
 
 3. **Implement backoff**: develop a logic that progressively waits longer before retrying requests when rate limits are approached.
 
@@ -68,11 +68,9 @@ Rate limits can be handled by both client and the server. For you to handle your
 
 Intersoft enforces limits on the API calls a customer can make based on their subscription settings. The limits apply to the use of the **CreateShipment** API.
 
-<Image alt="Throttling additional requests" align="center" width="600px" border={true} src="https://files.readme.io/719a12c369c234e47811487ce0fd5676ff2279762a470472873b90f2f3066148-Throttling.png">
-  Throttling additional requests
-</Image>
+<Image align="center" alt="Throttling additional requests" border={true} caption="Throttling additional requests" src="https://files.readme.io/719a12c369c234e47811487ce0fd5676ff2279762a470472873b90f2f3066148-Throttling.png" width="600px" />
 
-Our rate limiting policy is designed to strike a balance between providing access to our services and ensuring their reliability and performance. It is a critical component of responsible API usage, and we appreciate your cooperation in adhering to the following limits. 
+Our rate limiting policy is designed to strike a balance between providing access to our services and ensuring their reliability and performance. It is a critical component of responsible API usage, and we appreciate your cooperation in adhering to the following limits.
 
 | Requests per 10 seconds | Transaction per second (TPS) | Notes                                       |
 | :---------------------: | :--------------------------: | :------------------------------------------ |
@@ -84,14 +82,18 @@ Our rate limiting policy is designed to strike a balance between providing acces
 
 # Frequently asked questions (FAQs)
 
-**How do I choose the right API rate limiting solution for my needs?**
+<Accordion title="What do I need to do if I need a higher rate limit?">
+  The rate limit mentioned in the preceding table is Intersoft specific. Some carriers may have their own rate limits and additional carrier limitations. If you need a higher rate limit than the our existing one, please reach out to our customers solutions team.
+</Accordion>
 
-To choose the right API rate limiting solution for your needs, you should consider factors such as the number of API calls you need to support, the level of security you require, and your budget.
+<Accordion title="How do I choose the right API rate limiting solution for my needs?">
+  To choose the right API rate limiting solution for your needs, you should consider factors such as the number of API calls you need to support, the level of security you require, and your budget.
+</Accordion>
 
-**How much does a higher API TPS solution cost?**
+<Accordion title="How much does a higher API TPS solution cost?">
+  The cost of a higher API TPS solution varies depending on the the number of API calls you need to support, and the level of support you require. However, as a general guideline, it is recommended to reach out to our sales team and discuss your requirements.
+</Accordion>
 
-The cost of a higher API TPS solution varies depending on the the number of API calls you need to support, and the level of support you require. However, as a general guideline, it is recommended to reach out to our sales team and discuss your requirements.
-
-**How can I get started with an API rate limiting solution?**
-
-To get started with an API rate limiting solution, you can contact our customer solutions team to discuss your specific needs and requirements. We will help you choose the right solution and provide you with the necessary support to get started.
+<Accordion title="How can I get started with an API rate limiting solution?">
+  To get started with an API rate limiting solution, you can contact our customer solutions team to discuss your specific needs and requirements. We will help you choose the right solution and provide you with the necessary support to get started.
+</Accordion>
