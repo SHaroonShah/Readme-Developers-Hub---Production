@@ -7,7 +7,7 @@ metadata:
 ---
 | User role            | Home page | Shipment search | View shipments | View Manifest History | View Cancelled Shipments | View Held shipments | Manifesting |
 | :------------------- | :-------- | :-------------- | :------------- | :-------------------- | :----------------------- | :------------------ | :---------- |
-| System administrator |           |                 |                |                       |                          |                     |             |
+| System administrator                          |                     |             |
 | Carrier acocunt      | ✅         | ❌               | ❌              | ❌                     |                          |                     |             |
 | User admin           | ✅         | ❌               | ❌              | ❌                     |                          |                     |             |
 | Customer On-boarding | ✅         | ❌               | ❌              | ❌                     |                          |                     |             |
