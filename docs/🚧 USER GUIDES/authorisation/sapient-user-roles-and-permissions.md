@@ -12,14 +12,12 @@ metadata:
             <th>Layer 1</th>
             <th>Layer 2</th>
             <th>Layer 3</th>
-          	<th>Layer 4</th>
-       
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td rowspan=4>Customer Administrator</td>
-            <td rowspan=2>Operations Operator</td>
+            <td rowspan=4>L1 Name</td>
+            <td rowspan=2>L2 Name A</td>
             <td>L3 Name A</td>
         </tr>
         <tr>
