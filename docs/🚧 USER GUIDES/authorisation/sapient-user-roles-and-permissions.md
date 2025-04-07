@@ -5,39 +5,29 @@ hidden: false
 metadata:
   robots: index
 ---
-<HTMLBlock>{`
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Merge Table Rows</title>
-    <style>
-        table {
-            width: 50%;
-            border-collapse: collapse;
-        }
-        th, td {
-            border: 1px solid black;
-            padding: 8px;
-            text-align: center;
-        }
-    </style>
-</head>
-<body>
-    <table>
-        <tr>
-            <th>Header 1</th>
-            <th>Header 2</th>
-        </tr>
-        <tr>
-            <td rowspan="2">Merged Row</td>
-            <td>Row 1, Column 2</td>
-        </tr>
-        <tr>
-            <td>Row 2, Column 2</td>
-        </tr>
-    </table>
-</body>
-</html>
-`}</HTMLBlock>
+\<table>
+&#x20;   \<thead>
+&#x20;       \<tr>
+&#x20;           \<th>Layer 1\</th>
+&#x20;           \<th>Layer 2\</th>
+&#x20;           \<th>Layer 3\</th>
+&#x20;       \</tr>
+&#x20;   \</thead>
+&#x20;   \<tbody>
+&#x20;       \<tr>
+&#x20;           \<td rowspan=4>L1 Name\</td>
+&#x20;           \<td rowspan=2>L2 Name A\</td>
+&#x20;           \<td>L3 Name A\</td>
+&#x20;       \</tr>
+&#x20;       \<tr>
+&#x20;           \<td>L3 Name B\</td>
+&#x20;       \</tr>
+&#x20;       \<tr>
+&#x20;           \<td rowspan=2>L2 Name B\</td>
+&#x20;           \<td>L3 Name C\</td>
+&#x20;       \</tr>
+&#x20;       \<tr>
+&#x20;           \<td>L3 Name D\</td>
+&#x20;       \</tr>
+&#x20;   \</tbody>
+\</table>
