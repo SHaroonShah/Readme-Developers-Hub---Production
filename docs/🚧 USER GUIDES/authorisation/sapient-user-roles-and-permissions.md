@@ -32,8 +32,6 @@ metadata:
 
 ## Access permissions to API
 
-<br />
-
 | User role/permission                                                                        | View API credentials | Delete API credentials | Create API credentials | API documentation | Reference data - Countries | Reference data - Currencies | Reference data - Time Zones | Tracking webhook | View tracking account | Add tracking account | Edit tracking account | Delete tracking accounts |
 | :------------------------------------------------------------------------------------------ | :------------------- | :--------------------- | :--------------------- | :---------------- | :------------------------- | :-------------------------- | :-------------------------- | :--------------- | :-------------------- | :------------------- | :-------------------- | :----------------------- |
 | **Carrier Accounts Administrator** (Can configure any carrier they are assigned to)         | ⛔                    | ⛔                      | ⛔                      | ✅                 | ⛔                          | ⛔                           | ⛔                           | ⛔                | ⛔                     | ⛔                    | ⛔                     | ⛔                        |
@@ -44,7 +42,7 @@ metadata:
 
 ## Access permissions to custom settings
 
-| User role | Pre-registration numbers | VAT and EORI numbers | Signatures and Logos |
+| User role                                                                                   | Pre-registration numbers | VAT and EORI numbers | Signatures and Logos |
 | :------------------------------------------------------------------------------------------ | :----------------------- | :------------------- | :------------------- |
 | **Carrier Accounts Administrator** (Can configure any carrier they are assigned to)         | ⛔                        | ⛔                    | ⛔                    |
 | **User Administrator** (can manage website users)                                           | ⛔                        | ⛔                    | ⛔                    |
