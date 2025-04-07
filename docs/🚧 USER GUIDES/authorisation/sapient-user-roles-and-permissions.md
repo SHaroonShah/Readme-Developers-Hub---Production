@@ -42,4 +42,4 @@ metadata:
 | **History Access** (a permission to gain access to past shipments and manifests)            | ⛔                    | ⛔                      | ⛔                      | ✅                 | ⛔                          | ⛔                           | ⛔                           | ⛔                | ⛔                     | ⛔                    | ⛔                     | ⛔                        |
 | **Shipment Manifesting** (a permission to manifest the shipments via the UI)                | ⛔                    | ⛔                      | ⛔                      | ✅                 | ⛔                          | ⛔                           | ⛔                           | ⛔                | ⛔                     | ⛔                    | ⛔                     | ⛔                        |
 
-## Access permissions to maintenance functionality
+## Access permissions to custom settings
