@@ -76,10 +76,6 @@ Our rate limiting policy is designed to strike a balance between providing acces
 | :---------------------: | :--------------------------: | :------------------------------------------ |
 |            60           |               6              | Default for all existing and new customers. |
 
-> 📘 *Note*
->
-> *The rate limit mentioned in the preceding table is Intersoft specific. Some carriers may have their own rate limits and additional carrier limitations. If the existing rate limit do not fit your needs, please reach out to our customers solutions team.*
-
 # Frequently asked questions (FAQs)
 
 <Accordion title="What do I need to do if I need a higher rate limit?">
