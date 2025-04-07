@@ -31,6 +31,8 @@ The flowchart outlines the process for managing shipments with Royal Mail. Initi
 
 As the shipments are in transit, tracking is initiated with a first tracking event triggered by the system. Subsequently, additional tracking events are logged upon reaching specific statuses, culminating in the delivery of the shipment, which is confirmed through a successful delivery trigger. If the expected number of shipments for that container have not been allocated, then you must revert back to continue allocating shipments until all are accounted for.
 
+<Image align="center" border={true} caption="Container barcode label example" src="https://files.readme.io/0fe72ecc237cd3cf26a2335f526ac2f68c9d2f65b921e5cea7554dd880ce1f72-ASCAN_label.jpg" width="400px" />
+
 ## See also
 
 <Cards columns={4}>
