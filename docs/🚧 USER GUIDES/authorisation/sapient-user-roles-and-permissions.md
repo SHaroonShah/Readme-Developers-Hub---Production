@@ -1,5 +1,5 @@
 ---
-title: SAPIENT user roles and permissions
+title: Recommended role-based access to SAPIENT actions
 deprecated: false
 hidden: false
 metadata:
