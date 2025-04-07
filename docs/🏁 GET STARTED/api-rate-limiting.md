@@ -72,9 +72,9 @@ Intersoft enforces limits on the API calls a customer can make based on their su
 
 Our rate limiting policy is designed to strike a balance between providing access to our services and ensuring their reliability and performance. It is a critical component of responsible API usage, and we appreciate your cooperation in adhering to the following limits.
 
-| Requests per 10 seconds | Transaction per second (TPS) | Notes                                       |
-| :---------------------: | :--------------------------: | :------------------------------------------ |
-|            60           |               6              | Default for all existing and new customers. |
+| Requests per 10 seconds | Transaction per second (TPS) | Notes                       |
+| :---------------------: | :--------------------------: | :-------------------------- |
+|            10           |               1              | Base product account level. |
 
 # Frequently asked questions (FAQs)
 
