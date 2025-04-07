@@ -74,11 +74,10 @@ curl --request POST \
 
 As a B2C customer shipping from Great Britain to Northern Ireland, you do not need to provide the Item **HSCode** or **CountryOfOrigin**. However, if you are a Royal Mail B2C customer, make sure the correct information is provided as explained in the following table:
 
-| Transaction type                                                   | Fields                                                                                                                                                                                                                                                   |
-| :----------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Business 2 Consumer (B2C)**                                      | Exporter/Sender details, Importer/Receiver details, customs value, country of origin, gross mass, <Glossary>description of goods</Glossary>, <Glossary>HS Code</Glossary>/product classification, <Glossary>IOSS</Glossary> number (where held).         |
-| **Business 2 Business (B2B)**                                      | Exporter/Sender details (including \<Glossary>EORI\</Glossary>, Importer/Receiver details (including EORI), customs value, country of origin, gross mass, goods description, HS code/product classification. \<goo                                       |
-| **Business 2 Business (B2B)** - value of goods up to £135 or less) | Exporter/Sender details (including EORI), Importer/Receiver details (including EORI), total value (not by item), country of origin, gross mass, description of goods, confirmation of goods categorisation by item (mandatory), UKIMS number (optional). |
+| Transaction type              | Fields                                                                                                                                                                                                                                           |
+| :---------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Business 2 Consumer (B2C)** | Exporter/sender details, importer/receiver details, customs value, country of origin, gross mass, <Glossary>description of goods</Glossary>, <Glossary>HS Code</Glossary>/product classification, <Glossary>IOSS</Glossary> number (where held). |
+| **Business 2 Business (B2B)** | Exporter/sender details (including <Glossary>EORI</Glossary>), importer/receiver details (including EORI), customs value, country of origin, gross mass, description of goods, HS code/product classification.                                   |
 
 > 📘 *Note*
 >
