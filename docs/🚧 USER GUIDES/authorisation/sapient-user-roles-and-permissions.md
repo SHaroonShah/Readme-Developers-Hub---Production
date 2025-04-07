@@ -6,37 +6,6 @@ metadata:
   robots: index
 ---
 <HTMLBlock>{`
-<informaltable>
-    <colgroup>
-      <col align="center"></col>
-      <col align="center"></col>
-      <col align="center"></col>
-      <col align="center"></col>
-      <col align="center"></col>
-      <col align="center"></col>
-    </colgroup>
-    <thead>
-      <tr>
-        <th align="center">
-          <para>Role</para>
-        </th>
-        <th align="center">
-          <para>Home Page</para>
-        </th>
-        <th align="center">
-          <para>Shipment search</para>
-        </th>
-        <th align="center">
-          <para>View shipments</para>
-        </th>
-        <th align="center">
-          <para>View Manifest</para>
-        </th>
-        <th align="center">
-          <para>View Held</para>
-        </th>
-      </tr>
-    </thead>
     <tbody>
       <tr>
         <td colspan="6" align="center">
@@ -146,5 +115,4 @@ metadata:
         </td>
       </tr>
     </tbody>
-  </informaltable>
 `}</HTMLBlock>
