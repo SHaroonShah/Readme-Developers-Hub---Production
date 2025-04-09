@@ -187,21 +187,6 @@ Once done, you have now successfully added a shipping account. You can now [add 
 
 ***
 
-## Account approval
-
-Once you have created the YODEL shipping account, the account needs to be approved before you start using it to ship with YODEL.
-
-To get your shipping account approved, consider the following:
-
-1. If the account type you have created is **Production**, you will receive a confirmation email.
-2. Initially, the account status is set to **'Disabled'** until the account has been approved by the YODEL's IT integration team. This can typically take 2-5 working days.
-3. Once the account has been approved, the status of your shipping account is change to **'Enabled'**. You can check the account status by viewing the shipping account or via the [Get Account](https://api.test.intersoftsapient.net/docs/v4-YODEL/api/index.html#tag/Shipping-Accounts/paths/~1v4~1shippingAccounts~1yodel~1%7BshippingAccountId%7D/get) API.
-4. If the account cannot be approved, we will contact you and advise accordingly.
-
-> 📘 *Note*
->
-> *Shipping account(s) can be added and managed via API. For more information, refer to the[API References](https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts) section.*
-
 ### See also
 
 * [Edit shipping account](https://docs.intersoftsapient.net/docs/edit-shipping-account)
