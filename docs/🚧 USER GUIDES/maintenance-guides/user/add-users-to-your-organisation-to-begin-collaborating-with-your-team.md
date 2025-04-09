@@ -82,3 +82,5 @@ After the user is added, a confirmation is sent to the specified email address. 
 > 🚧 *Important*
 >
 > *The Admin user has the access to all functionalities, but an Administrator, Lead or Operator must be assigned to different permissions. Whether the user has accepted the invite or not, you can quickly update their roles and permissions straight from the**Users** tab on the **Edit User** page. Make your choice and select the **Save Changes** button to update your changes.*
+>
+> For more information on the user role and access permissions, refer to the [role-based access to SAPIENT actions](https://docs.intersoftsapient.net/docs/sapient-user-roles-and-permissions#/) section.
