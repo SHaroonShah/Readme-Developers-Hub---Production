@@ -10,3 +10,4 @@ hidden: false
 metadata:
   robots: index
 ---
+## Access permissions to SAPIENT user interface
