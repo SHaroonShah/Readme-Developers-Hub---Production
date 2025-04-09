@@ -20,23 +20,17 @@ In SAPIENT, you can create a shipping account with YODEL, assign your YODEL cred
 
 To add a shipping account for YODEL in SAPIENT, follow the instructions as explained in the following procedure.
 
-1. In the left navigation panel, select **Shipping Accounts**. 
+1. In the left navigation panel, select **Shipping Accounts**.
 
-<Image alt="Accessing shipping accounts" align="center" border={true} src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png">
-  Accessing shipping accounts
-</Image>
+<Image align="center" alt="Accessing shipping accounts" border={true} caption="Accessing shipping accounts" src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" />
 
 2. On the **Shipping Accounts** page that opens, select ![alt text](https://files.readme.io/e27a112101fea1d20bb870a5c570ce3cb3889d2c514dd5bc0920c2ea630f9943-add_shipping_account_button.png).
 
-<Image alt="Accessing option to add shipping account" align="center" border={true} src="https://files.readme.io/1f21da8d1e1c679c2ed31d67bfc7551e5c9477f2f22b16c279aed71ab9688809-Add_shipping_account_button_YODEL.png">
-  Selecting option to add shipping account
-</Image>
+<Image align="center" alt="Accessing option to add shipping account" border={true} caption="Selecting option to add shipping account" src="https://files.readme.io/1f21da8d1e1c679c2ed31d67bfc7551e5c9477f2f22b16c279aed71ab9688809-Add_shipping_account_button_YODEL.png" />
 
 3. On the **Add Shipping Account** form that appears, in the **ACCOUNT DETAILS** block, fill in the necessary information as described in the following table.
 
-<Image alt="Entering account details" align="center" width="500px" border={true} src="https://files.readme.io/c430911306cfc97f8609b300891198244b5504b1eb732e5cb8199dec132659eb-Account_details_block_YODEL.png">
-  Entering account details
-</Image>
+<Image align="center" alt="Entering account details" border={true} caption="Entering account details" src="https://files.readme.io/c430911306cfc97f8609b300891198244b5504b1eb732e5cb8199dec132659eb-Account_details_block_YODEL.png" width="500px" />
 
 <AsteridkForMandatoryElements />
 
@@ -47,9 +41,7 @@ To add a shipping account for YODEL in SAPIENT, follow the instructions as expla
 
 4. In the **SHIPPING ACCOUNT** block, enter the necessary information as explained in the following table.
 
-<Image alt="Specifying shipping account details" align="center" width="500px" border={true} src="https://files.readme.io/4668084ea31679c03a9b0cee35f97a98dff1a6a9b196155c7fb39b9e91c7b66e-Shipping_account_block_YODEL.png">
-  Specifying shipping account details
-</Image>
+<Image align="center" alt="Specifying shipping account details" border={true} caption="Specifying shipping account details" src="https://files.readme.io/4668084ea31679c03a9b0cee35f97a98dff1a6a9b196155c7fb39b9e91c7b66e-Shipping_account_block_YODEL.png" width="500px" />
 
 > 💡 *Tip*
 >
@@ -58,11 +50,11 @@ To add a shipping account for YODEL in SAPIENT, follow the instructions as expla
 <Table align={["center","left"]}>
   <thead>
     <tr>
-      <th style={{ textAlign: "center" }}>
+      <th>
         Element
       </th>
 
-      <th style={{ textAlign: "left" }}>
+      <th>
         Description
       </th>
     </tr>
@@ -70,65 +62,65 @@ To add a shipping account for YODEL in SAPIENT, follow the instructions as expla
 
   <tbody>
     <tr>
-      <td style={{ textAlign: "center" }}>
+      <td>
         **Carrier Account Number\***
       </td>
 
-      <td style={{ textAlign: "left" }}>
+      <td>
         Enter the nine digit account number for YODEL.
       </td>
     </tr>
 
     <tr>
-      <td style={{ textAlign: "center" }}>
+      <td>
         **Account Name (if different than customer)\***
       </td>
 
-      <td style={{ textAlign: "left" }}>
+      <td>
         Enter the name of the account you are adding.
       </td>
     </tr>
 
     <tr>
-      <td style={{ textAlign: "center" }}>
+      <td>
         **Account Type\***
       </td>
 
-      <td style={{ textAlign: "left" }}>
-        From the dropdown menu, select one of the following account types that you want to set up for the the shipping account you are adding:  
+      <td>
+        From the dropdown menu, select one of the following account types that you want to set up for the the shipping account you are adding:
 
-        • **[Production](https://docs.intersoftsapient.net/docs/sandbox-account)**: a live environment where the final version of the application is deployed and made available to the users.  
+        • **[Production](https://docs.intersoftsapient.net/docs/sandbox-account)**: a live environment where the final version of the application is deployed and made available to the users.
 
         • **[Sandbox](https://docs.intersoftsapient.net/docs/sandbox-account)**: a testing environment that mimics the **Production** environment but is isolated from it. The sandbox environment is primarily used for development and testing purposes.
       </td>
     </tr>
 
     <tr>
-      <td style={{ textAlign: "center" }}>
+      <td>
         **Alias\***
       </td>
 
-      <td style={{ textAlign: "left" }}>
+      <td>
         Enter a custom name which can be used in the API request instead of using the shipping account ID when connecting to us. Therefore, it is recommended that this name must be memorable and available for reference purposes.
       </td>
     </tr>
 
     <tr>
-      <td style={{ textAlign: "center" }}>
+      <td>
         **Contact Name\***
       </td>
 
-      <td style={{ textAlign: "left" }}>
+      <td>
         Enter the contact name for the account you are adding.
       </td>
     </tr>
 
     <tr>
-      <td style={{ textAlign: "center" }}>
+      <td>
         **Contact Number\***
       </td>
 
-      <td style={{ textAlign: "left" }}>
+      <td>
         Enter the contact number for the account you are adding.
       </td>
     </tr>
@@ -137,20 +129,18 @@ To add a shipping account for YODEL in SAPIENT, follow the instructions as expla
 
 5. In the **CARRIER DETAILS** block, enter the necessary information as explained in the following table.
 
-<Image alt="Entering carrier details" align="center" width="400px" border={true} src="https://files.readme.io/a2d5436c5b557ca7ba52fbd8239764e70cb7b9449239eceea0d5d0796ec7be3b-carrier_details_block_YODEL.png">
-  Entering carrier details
-</Image>
+<Image align="center" alt="Entering carrier details" border={true} caption="Entering carrier details" src="https://files.readme.io/a2d5436c5b557ca7ba52fbd8239764e70cb7b9449239eceea0d5d0796ec7be3b-carrier_details_block_YODEL.png" width="400px" />
 
 <AsteridkForMandatoryElements />
 
 <Table align={["center","left"]}>
   <thead>
     <tr>
-      <th style={{ textAlign: "center" }}>
+      <th>
         Element
       </th>
 
-      <th style={{ textAlign: "left" }}>
+      <th>
         Description
       </th>
     </tr>
@@ -158,32 +148,32 @@ To add a shipping account for YODEL in SAPIENT, follow the instructions as expla
 
   <tbody>
     <tr>
-      <td style={{ textAlign: "center" }}>
-        Contract Number\*
+      <td>
+        **Contract Number**\*
       </td>
 
-      <td style={{ textAlign: "left" }}>
+      <td>
         Enter your seven digit YODEL contract number.
       </td>
     </tr>
 
     <tr>
-      <td style={{ textAlign: "center" }}>
-        Schedule Number\*
+      <td>
+        **Schedule Number**\*
       </td>
 
-      <td style={{ textAlign: "left" }}>
+      <td>
         Enter your four digit YODEL schedule number
       </td>
     </tr>
 
     <tr>
-      <td style={{ textAlign: "center" }}>
-        Meter Number
+      <td>
+        **Meter Number**\*
       </td>
 
-      <td style={{ textAlign: "left" }}>
-        Enter your five digit meter number.  
+      <td>
+        Enter your five digit meter number.
 
         This number is used to create the unique YODEL barcode range.
       </td>
@@ -193,7 +183,7 @@ To add a shipping account for YODEL in SAPIENT, follow the instructions as expla
 
 6. After entering all the required information, select ![alt text](https://files.readme.io/4d8fd2c9a6fad152f41e65d82274b94a6d3a8978f69bb88fbe74ba2d54138fe8-add_shipping_account_button_2.png).
 
- Once done, you have now successfully added a shipping account. You can now [add a shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location) to your new shipping account.
+Once done, you have now successfully added a shipping account. You can now [add a shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location) to your new shipping account.
 
 ***
 
@@ -201,12 +191,12 @@ To add a shipping account for YODEL in SAPIENT, follow the instructions as expla
 
 Once you have created the YODEL shipping account, the account needs to be approved before you start using it to ship with YODEL.
 
-To get your shipping account approved, consider the following:  
+To get your shipping account approved, consider the following:
 
-1. If the account type you have created is **Production**, you will receive a confirmation email. 
-2. Initially, the account status is set to **'Disabled'** until the account has been approved by the YODEL's IT integration team. This can typically take 2-5 working days. 
-3. Once the account has been approved, the status of your shipping account is change to **'Enabled'**. You can check the account status by viewing the shipping account or via the [Get Account](https://api.test.intersoftsapient.net/docs/v4-YODEL/api/index.html#tag/Shipping-Accounts/paths/~1v4~1shippingAccounts~1yodel~1%7BshippingAccountId%7D/get) API. 
-4. If the account cannot be approved, we will contact you and advise accordingly. 
+1. If the account type you have created is **Production**, you will receive a confirmation email.
+2. Initially, the account status is set to **'Disabled'** until the account has been approved by the YODEL's IT integration team. This can typically take 2-5 working days.
+3. Once the account has been approved, the status of your shipping account is change to **'Enabled'**. You can check the account status by viewing the shipping account or via the [Get Account](https://api.test.intersoftsapient.net/docs/v4-YODEL/api/index.html#tag/Shipping-Accounts/paths/~1v4~1shippingAccounts~1yodel~1%7BshippingAccountId%7D/get) API.
+4. If the account cannot be approved, we will contact you and advise accordingly.
 
 > 📘 *Note*
 >
