@@ -18,7 +18,7 @@ metadata:
 | **User Administrator** (can manage website users)                                           | ✅         | ⛔               | ⛔              | ⛔                     | ⛔                        | ⛔                   | ⛔           |
 | **Customer Configuration Manager** (can access and update settings related to the customer) | ✅         | ⛔               | ⛔              | ⛔                     | ⛔                        | ⛔                   | ⛔           |
 | **History Access** (a permission to gain access to past shipments and manifests)            | ✅         | ✅               | ✅              | ✅                     | ⛔                        | ⛔                   | ⛔           |
-| **Shipment Manifesting** (a permission to manifest the shipments via the UI)                | ✅         | ⛔               | ⛔              | ⛔                     | ⛔                        | ⛔                   | ⛔           |
+| **Shipment Manifesting** (a permission to manifest the shipments via the UI)                | ✅         | ⛔               | ⛔              | ⛔                     | ✅                        | ✅                   | ✅           |
 
 ## Access permissions to maintenance functionality
 
