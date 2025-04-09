@@ -59,13 +59,13 @@ In SAPIENT, users with the Admin role can add users and assign them specific rol
 
 <Image align="center" alt="Assigning permissions" border={true} caption="Assigning permissions" src="https://files.readme.io/2ed27a48c71de0cb667898056414d5f35d0fef1e4ba93113f74a641dddc8b13a-Permissions_block.png" width="400px" />
 
-In SAPIENT, you can assign the following permissions to the users:
+In SAPIENT, you can assign the following user types or permissions to the users:
 
-* **Carrier accounts Administrator**: to manage carrier accounts for all assigned  <Glossary>carrier</Glossary>(s).
-* **Customer Configuration Manager**: to update settings relating to the customer.
-* **History access**:  access to previous <Glossary>shipments</Glossary> and manifests.
-* **Shipment Manifesting**: to <Glossary>manifest</Glossary> the shipments via the SAPIENT UI.
-* **User Administrator**: to manage website users.
+* **Carrier accounts Administrator**: a user type with the ability to manage carrier accounts for all assigned  <Glossary>carrier</Glossary>(s).
+* **Customer Configuration Manager**: a user type with the ability to update settings relating to the customer.
+* **User Administrator**: a user type with the ability to manage website users.
+* **History access**:  a permission that allows access to previous <Glossary>shipments</Glossary> and manifests.
+* **Shipment Manifesting**: a permission that allows to <Glossary>manifest</Glossary> the shipments via the SAPIENT UI.
 
 > 📘 *Note*
 >
