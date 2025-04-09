@@ -15,13 +15,13 @@ metadata:
 next:
   description: ''
 ---
-The collections service integration automates the return process, reducing manual work and potential errors associated with managing returns and tracking items. 
+The collections service integration automates the return process, reducing manual work and potential errors associated with managing returns and tracking items.
 
 > 🚧 *Important*
 >
-> *Before using this feature, make sure to enable the**'Collect'** integration via the [integration activation](https://docs.intersoftsapient.net/docs/integration-activation) page.*
+> *Before using this feature, make sure to enable the**Collect** integration via the [integration activation](https://docs.intersoftsapient.net/docs/integration-activation) page.*
 
-If you want to enable your customers to have their returns collected from their homes, you can create a Royal Mail shipment using one of Royal Mail's return services <Glossary>TSN Tracked Returns 24</Glossary> or <Glossary>TSS Tracked Returns 48</Glossary>. Please ensure to meet [all the requirements](https://docs.intersoftsapient.net/docs/royal-mail-returns) when creating a returns shipment. You can then request a Royal Mail collection for the <Glossary>shipment</Glossary>. 
+If you want to enable your customers to have their returns collected from their homes, you can create a Royal Mail shipment using one of Royal Mail's return services <Glossary>TSN Tracked Returns 24</Glossary> or <Glossary>TSS Tracked Returns 48</Glossary>. Please ensure to meet [all the requirements](https://docs.intersoftsapient.net/docs/royal-mail-returns) when creating a returns shipment. You can then request a Royal Mail collection for the <Glossary>shipment</Glossary>.
 
 > 🚧 *Important*
 >
@@ -35,9 +35,7 @@ You can either allow SAPIENT to default the collection to the first available co
 
 By default, the labels are not brought by Royal Mail. If you need this enhancement, you must specify it by setting the **BringMyLabel** parameter to **True**. The return shipments and collections do not require manifesting.
 
-<Image alt="Workflow for creating shipments using collection service" align="center" src="https://files.readme.io/23d766f112ee59190e6487da2b979ae6ab2368a441d69ab8f6c8463360b56f94-Collection_service_flow.png">
-  Workflow for creating shipments using collection service
-</Image>
+<Image align="center" alt="Workflow for creating shipments using collection service" border={false} caption="Workflow for creating shipments using collection service" src="https://files.readme.io/23d766f112ee59190e6487da2b979ae6ab2368a441d69ab8f6c8463360b56f94-Collection_service_flow.png" />
 
 > 📘 *Note*
 >
