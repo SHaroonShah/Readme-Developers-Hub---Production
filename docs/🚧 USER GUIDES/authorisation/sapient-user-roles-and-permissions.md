@@ -1,5 +1,5 @@
 ---
-title: Customer administrator role-based access to SAPIENT actions
+title: Role-based access to SAPIENT actions
 excerpt: >-
   Acess to SAPIENT options and features varies and depends on your role within
   the organisation. A list of recommended and basic roles and permissions are
