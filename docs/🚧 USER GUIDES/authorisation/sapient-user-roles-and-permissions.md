@@ -10,6 +10,12 @@ hidden: false
 metadata:
   robots: index
 ---
+The user roles and permissions described in the following tables are associated with the following user types in SAPIENT:
+
+* **Customer Administrator**
+* **Operations Operator**
+* **Operations Lead**
+
 ## Access permissions to SAPIENT user interface
 
 | User role                                                                                   | Home page | Shipment search | View shipments | View manifest history | View cancelled shipments | View held shipments | Manifesting |
