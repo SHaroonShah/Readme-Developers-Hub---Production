@@ -18,7 +18,7 @@ next:
 ---
 In SAPIENT, while [configuring the tracking webhook](https://docs.intersoftsapient.net/docs/create-tracking-webhook), You can choose to receive <Glossary>all tracking events</Glossary> or tracking <Glossary>milestones</Glossary> only.
 
-* If you select to receive milestones only, the system only pushes the tracking when a new milestone is triggered. 
+* If you select to receive milestones only, the system only pushes the tracking when a new milestone is triggered.
 * If you select to receive full tracking events, then the system pushes the tracking every time it receives a new tracking event from the carrier, regardless of whether the tracking event triggers a new milestone or not.
 
 ***
@@ -32,11 +32,11 @@ If you choose to receive tracking milestones, bear in mind that each milestone o
 <Table align={["center","left"]}>
   <thead>
     <tr>
-      <th style={{ textAlign: "center" }}>
+      <th>
         Milestone
       </th>
 
-      <th style={{ textAlign: "left" }}>
+      <th>
         Description
       </th>
     </tr>
@@ -44,113 +44,113 @@ If you choose to receive tracking milestones, bear in mind that each milestone o
 
   <tbody>
     <tr>
-      <td style={{ textAlign: "center" }}>
+      <td>
         **IT'S ON IT'S WAY**
       </td>
 
-      <td style={{ textAlign: "left" }}>
+      <td>
         The <Glossary>shipment</Glossary> was handed over or is on its way to the <Glossary>carrier</Glossary>.
       </td>
     </tr>
 
     <tr>
-      <td style={{ textAlign: "center" }}>
+      <td>
         **IN TRANSIT**
       </td>
 
-      <td style={{ textAlign: "left" }}>
+      <td>
         The shipment is travelling through the carrier's network.
       </td>
     </tr>
 
     <tr>
-      <td style={{ textAlign: "center" }}>
+      <td>
         **TRANSIT DELAY**
       </td>
 
-      <td style={{ textAlign: "left" }}>
+      <td>
         The shipment processing through the carrier's network is delayed.
       </td>
     </tr>
 
     <tr>
-      <td style={{ textAlign: "center" }}>
+      <td>
         **IN CUSTOMS**
       </td>
 
-      <td style={{ textAlign: "left" }}>
-        The shipment is undergoing customs inspections.  
+      <td>
+        The shipment is undergoing customs inspections.
 
         *`Note`: this is applicable to international shipments only.*
       </td>
     </tr>
 
     <tr>
-      <td style={{ textAlign: "center" }}>
+      <td>
         **OUT FOR DELIVERY**
       </td>
 
-      <td style={{ textAlign: "left" }}>
+      <td>
         The shipment is on the way to the recipient.
       </td>
     </tr>
 
     <tr>
-      <td style={{ textAlign: "center" }}>
+      <td>
         **DELIVERY ATTEMPT FAILED**
       </td>
 
-      <td style={{ textAlign: "left" }}>
+      <td>
         The delivery was attempted, but failed.
       </td>
     </tr>
 
     <tr>
-      <td style={{ textAlign: "center" }}>
+      <td>
         **READY FOR COLLECTION**
       </td>
 
-      <td style={{ textAlign: "left" }}>
+      <td>
         The shipment was left at a chosen location for the recipient to collect.
       </td>
     </tr>
 
     <tr>
-      <td style={{ textAlign: "center" }}>
+      <td>
         **DELIVERED**
       </td>
 
-      <td style={{ textAlign: "left" }}>
+      <td>
         The shipment was successfully delivered to the recipient (or another person/place chosen by the recipient).
       </td>
     </tr>
 
     <tr>
-      <td style={{ textAlign: "center" }}>
+      <td>
         **COLLECTED**
       </td>
 
-      <td style={{ textAlign: "left" }}>
+      <td>
         The shipment was successfully collected from the collection point.
       </td>
     </tr>
 
     <tr>
-      <td style={{ textAlign: "center" }}>
+      <td>
         **PART DELIVERED**
       </td>
 
-      <td style={{ textAlign: "left" }}>
+      <td>
         The part of a consignment shipment was delivered successfully.
       </td>
     </tr>
 
     <tr>
-      <td style={{ textAlign: "center" }}>
+      <td>
         **UNDELIVERABLE**
       </td>
 
-      <td style={{ textAlign: "left" }}>
+      <td>
         The delivery of the shipment was not possible.
       </td>
     </tr>
@@ -161,7 +161,7 @@ If you choose to receive tracking milestones, bear in mind that each milestone o
 
 ## Final events
 
-Final events are the stages of a shipment lifecycle where no further tracking statuses are sent after the event/milestone was hit. 
+Final events are the stages of a shipment lifecycle where no further tracking statuses are sent after the event/milestone was hit.
 
 The following events are considered as the final events.
 
@@ -176,4 +176,4 @@ The following events are considered as the final events.
 
 The following table displays a comprehensive structure of the milestones, event codes, and events that occur throughout the shipping journey of a shipment.
 
-<Image align="center" src="https://files.readme.io/1312237f5bcebd28d9d969bebf4a03fb61a27d49511ac12a3668ab47f40d1bf0-Tracking_milestones_list.png" />
+<Image align="center" src="https://files.readme.io/b37deb6c82da2e5c0ea031539002ada0ed543dbebb9fca496ac712fa79d4900c-Tracking_milestones_list.png" />
