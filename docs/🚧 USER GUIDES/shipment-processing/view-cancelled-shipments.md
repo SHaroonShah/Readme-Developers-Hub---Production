@@ -17,7 +17,7 @@ In SAPIENT, you can cancel the <Glossary>shipments</Glossary> to ensure that res
 
 > 💡 *Tip*
 >
-> *You can cancel the shipments both via UI and the API. For more information on how to cancel shipments via API, refer to the[API References](https://docs.intersoftsapient.net/reference/put_v4-shipments-status) section.*
+> *You can cancel the shipments both via UI and the API. For more information on how to cancel shipments via API, refer to the [API References](https://docs.intersoftsapient.net/reference/put_v4-shipments-status) section.*
 
 To cancel shipment(s), follow the steps as explained in the following procedure.
 
