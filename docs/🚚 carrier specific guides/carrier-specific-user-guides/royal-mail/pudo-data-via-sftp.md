@@ -71,12 +71,121 @@ The following table describes the records and fields that are present in the dat
 
 ## Header Record
 
-| #  | Name        | Type | Max Length | Comments                                                                 |
-| :- | :---------- | :--- | :--------- | :----------------------------------------------------------------------- |
-| 1  | Record Type | C    | 1          | This will always be H                                                    |
-| 2  | Date        | D    | 8          | Represents the date when the file was created in the format**ddmmyyyy**. |
-| 3  | PO Records  | D    | 6          | Represents the number of Post Office records contained in the file.      |
-| 4  | CSP Records | D    | 6          | Represents the number of CSP Records contained in the file.              |
+<Table align={["left","left","left","left","left"]}>
+  <thead>
+    <tr>
+      <th>
+        #
+      </th>
+
+      <th>
+        Name
+      </th>
+
+      <th>
+        Type
+      </th>
+
+      <th>
+        Max Length
+      </th>
+
+      <th>
+        Comments
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        1
+      </td>
+
+      <td>
+        Record Type
+      </td>
+
+      <td>
+        C
+      </td>
+
+      <td>
+        1
+      </td>
+
+      <td>
+        This will always be H
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        2
+      </td>
+
+      <td>
+        Date
+      </td>
+
+      <td>
+        D
+      </td>
+
+      <td>
+        8
+      </td>
+
+      <td>
+        Represents the date when the file was created in the format**ddmmyyyy**.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        3
+      </td>
+
+      <td>
+        PO Records
+      </td>
+
+      <td>
+        D
+      </td>
+
+      <td>
+        6
+      </td>
+
+      <td>
+        Represents the number of Post Office records contained in the file.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        4
+      </td>
+
+      <td>
+        CSP Records
+      </td>
+
+      <td>
+        D
+      </td>
+
+      <td>
+        6
+      </td>
+
+      <td>
+        Represents the number of CSP Records contained in the file.
+      </td>
+    </tr>
+  </tbody>
+</Table>
 
 ***
 
@@ -799,6 +908,6 @@ The following table describes the records and fields that are present in the dat
 
 > 📘 *Note*
 >
-> \_For more information on how to use this API endpoint, refer to the [PUDO Locations](https://docs.intersoftsapient.net/reference/get_v4-pudolocations-carriercode-countrycode-postcode) API reference. However, based on your requirements, you can use the SFTP solution as well. \_
+> \_*For more information on how to use this API endpoint, refer to the[PUDO Locations](https://docs.intersoftsapient.net/reference/get_v4-pudolocations-carriercode-countrycode-postcode) API reference. However, based on your requirements, you can use the SFTP solution as well.*
 >
 > > *For instance,  if you want to find the PUDO locations for one postcode at a time, for example to integrate with the checkout feature on their website, then the API would be the more suitable solution. On the contrary, if you want to download the PUDO data into your own system to check the PUDO locations that are close by to a given address by yourself, then the SFTP solution would be more suitable.*
