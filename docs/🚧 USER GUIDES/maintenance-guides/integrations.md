@@ -18,4 +18,4 @@ next:
 
 > 📘 *Note*
 >
-> *To learn more on how to access and activate the integrations, refer to the [Activate integration](https://docs.intersoftsapient.net/docs/integration-activation) section.*
+> *To learn more on how to access and activate the integrations, refer to the[Activate integration](https://docs.intersoftsapient.net/docs/integration-activation) section.*
