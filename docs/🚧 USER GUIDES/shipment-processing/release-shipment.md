@@ -21,7 +21,7 @@ In SAPIENT, you can anytime release the [held](https://docs.intersoftsapient.net
 
 > 💡 *Tip*
 >
-> *You can release the shipments both via UI and the API. For more information on how to release shipments via API, refer to the[ API References](https://docs.intersoftsapient.net/reference/put_v4-shipments-status) section.*
+> *You can release the shipments both via UI and the API. For more information on how to release shipments via API, refer to the [API References](https://docs.intersoftsapient.net/reference/put_v4-shipments-status) section.*
 
 To release a shipment in SAPIENT, follow the steps as explained in the following procedure.
 
