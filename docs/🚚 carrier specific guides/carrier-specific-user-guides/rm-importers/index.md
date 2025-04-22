@@ -15,7 +15,7 @@ metadata:
 next:
   description: ''
 ---
-If you wish to use the Royal Mail import services, you can integrate with Intersoft SAPIENT and start your seamless importing journey.  
+If you wish to use the Royal Mail import services, you can integrate with Intersoft SAPIENT and start your seamless importing journey.
 
 > 🚧 *Important*
 >
@@ -27,19 +27,15 @@ To integrate with the Royal Mail import services via SAPIENT, follow the instruc
 
 2. After, proceed to [creating your API credentials](https://docs.intersoftsapient.net/docs/create-api-credentials).
 
-3. Now, on the SAPIENT Home page, select **Integrations**. On the **Integrations** page that opens, within the **Royal Mail** block, select **LABELS**. 
+3. Now, on the SAPIENT Home page, select **Integrations**. On the **Integrations** page that opens, within the **Royal Mail** block, select **LABELS**.
 
-<Image alt="Selecting Royal Mail labels integration" align="center" border={true} src="https://files.readme.io/d83f58ad7239cbd1faadbb4d1783adbfceaaef163fb864672d6c2600b954e14e-Rm_lables_integration.png">
-  Selecting Royal Mail labels integration
-</Image>
+<Image align="center" alt="Selecting Royal Mail labels integration" border={true} caption="Selecting Royal Mail labels integration" src="https://files.readme.io/d83f58ad7239cbd1faadbb4d1783adbfceaaef163fb864672d6c2600b954e14e-Rm_lables_integration.png" />
 
-4. On the integrations page that opens, in the **LABELS** block, select **ACTIVATE**. 
+4. On the integrations page that opens, in the **LABELS** block, select **ACTIVATE**.
 
-<Image alt="Activating Royal Mail labels integration" align="center" border={true} src="https://files.readme.io/abc4b6de2300fc06a50a56e87560afb0251fd5a13cf521fff5c473cdc4502d51-RM_Labels_activation.png">
-  Activating Royal Mail labels integration
-</Image>
+<Image align="center" alt="Activating Royal Mail labels integration" border={true} caption="Activating Royal Mail labels integration" src="https://files.readme.io/abc4b6de2300fc06a50a56e87560afb0251fd5a13cf521fff5c473cdc4502d51-RM_Labels_activation.png" />
 
-5. Once activated, now proceed to adding the  [shipping account](https://docs.intersoftsapient.net/docs/shipping-account-requirements) and [shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location) for Royal Mail.  
+5. Once activated, now proceed to adding the  [shipping account](https://docs.intersoftsapient.net/docs/shipping-account-requirements) and [shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location) for Royal Mail.
 
 > 💡 *Tip*
 >
@@ -51,7 +47,9 @@ To integrate with the Royal Mail import services via SAPIENT, follow the instruc
 * If you are a commercial clearance customer, refer to the [corresponding requirements](https://docs.intersoftsapient.net/docs/commercial-clearance-customers).
 * If you are a freight 2 post customer, refer to the [corresponding requirements](https://docs.intersoftsapient.net/docs/freight-2-post-customers).
 
-> 🚧 Please also ensure that you adhere to our [API Rate Limits](https://docs.intersoftsapient.net/docs/api-rate-limiting).
+> 🚧 *Important*
+>
+> *Please also ensure that you adhere to our[API Rate Limits](https://docs.intersoftsapient.net/docs/api-rate-limiting).*
 
 8. Once all the necessary steps have been completed, you are now ready to go live. Before getting you live on board, make sure you complete our [Test Pack](https://docs.intersoftsapient.net/docs/royal-mail-importers-sandbox-test-pack) and submit it at [onboarding@intersoft.co.uk](mailto:onboarding@intersoft.co.uk).
 
@@ -59,7 +57,7 @@ To integrate with the Royal Mail import services via SAPIENT, follow the instruc
 >
 > *A test pack is a critical step in the implementation process, ensuring a smooth transition to the live environment and minimising disruptions in shipping operations.*
 
-9. Once the **Test Pack** is approved, our team will [switch your account to Production](https://docs.intersoftsapient.net/docs/switching-the-account-to-production) and share with you the details on the sign off process required by Royal Mail. 
+9. Once the **Test Pack** is approved, our team will [switch your account to Production](https://docs.intersoftsapient.net/docs/switching-the-account-to-production) and share with you the details on the sign off process required by Royal Mail.
 
 Please direct any questions or issues with this service to [onboarding@intersoft.co.uk.](mailto:onboarding@intersoft.co.uk.). For INTERSOFT to investigate your issue accordingly, kindly include copies of both the API request and API response.
 
@@ -69,10 +67,10 @@ Please direct any questions or issues with this service to [onboarding@intersoft
 
 ## See also
 
-If you are interested in our tracking solution, refer to the following sections on how to set up our <Glossary>tracking webhook</Glossary> solution:  
+If you are interested in our tracking solution, refer to the following sections on how to set up our <Glossary>tracking webhook</Glossary> solution:
 
 * [Tracking webhook](https://docs.intersoftsapient.net/docs/tracking-webhook-1): set up the webhook connection, create tracking account, and much more.
-* [Response examples](https://docs.intersoftsapient.net/reference/post_v4-trackings-pushpayloadexample): view response example of the tracking webhook push notification payload, as sent to a customer's webhook when tracking information is received from a carrier.  
+* [Response examples](https://docs.intersoftsapient.net/reference/post_v4-trackings-pushpayloadexample): view response example of the tracking webhook push notification payload, as sent to a customer's webhook when tracking information is received from a carrier.
 * [Royal Mail tracking account setup](https://docs.intersoftsapient.net/docs/royal-mail-tracking-account-setup): set up Royal Mail <Glossary>tracking account</Glossary> .
 
 > 📘 *Note*
