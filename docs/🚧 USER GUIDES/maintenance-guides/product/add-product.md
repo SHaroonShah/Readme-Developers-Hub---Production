@@ -64,7 +64,7 @@ To add a new <Glossary>product</Glossary> in SAPIENT, follow the steps as explai
       <td>
         Enter the <Glossary>HS Code</Glossary> for the product you are adding.
 
-        *`Note`: A minimum of 6 alpha numeric code is required when the HS Code is provided (some services/destinations may require 8). Additionally, this information is required by some carriers for dutiable shipments.*
+        *`Note`: A minimum of 6 alpha-numeric code is required when the HS Code is provided (some services/destinations may require 8). Additionally, this information is required by some carriers for dutiable shipments.*
       </td>
     </tr>
 
