@@ -23,7 +23,7 @@ In SAPIENT, you can create a shipping account with EVRi, assign your EVRi creden
 
 > 🚧 *Important*
 >
-> *Before you can set up a shipping account, make sure you have[enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with EVRi.*
+> *Before you can set up a shipping account, make sure you have [enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with EVRi.*
 
 To add a shipping account for EVRi in SAPIENT, follow the instructions as explained in the following procedure.
 
@@ -43,8 +43,8 @@ To add a shipping account for EVRi in SAPIENT, follow the instructions as explai
 
 |         Element         | Description                                                                                                                                 |
 | :---------------------: | :------------------------------------------------------------------------------------------------------------------------------------------ |
-|      **Carrier\***      | From the dropdown list, select **EVRI - EVRi**.                                                                                             |
-| **Shipping Location\*** | From the dropdown menu, select the <Glossary>shipping location</Glossary> that you want to assign to the shipping account you are creating. |
+|      **Carrier**\*      | From the dropdown list, select **EVRI - EVRi**.                                                                                             |
+| **Shipping Location**\* | From the dropdown menu, select the <Glossary>shipping location</Glossary> that you want to assign to the shipping account you are creating. |
 
 4. In the **SHIPPING ACCOUNT** block, enter the necessary information as explained in the following table.
 
@@ -70,7 +70,7 @@ To add a shipping account for EVRi in SAPIENT, follow the instructions as explai
   <tbody>
     <tr>
       <td>
-        **Carrier Account Number\***
+        **Carrier Account Number**\*
       </td>
 
       <td>
@@ -80,7 +80,7 @@ To add a shipping account for EVRi in SAPIENT, follow the instructions as explai
 
     <tr>
       <td>
-        **Account Name (if different than customer)\***
+        **Account Name (if different than customer)**\*
       </td>
 
       <td>
@@ -90,7 +90,7 @@ To add a shipping account for EVRi in SAPIENT, follow the instructions as explai
 
     <tr>
       <td>
-        **Account Type\***
+        **Account Type**\*
       </td>
 
       <td>
@@ -104,7 +104,7 @@ To add a shipping account for EVRi in SAPIENT, follow the instructions as explai
 
     <tr>
       <td>
-        **Alias\***
+        **Alias**\*
       </td>
 
       <td>
@@ -114,7 +114,7 @@ To add a shipping account for EVRi in SAPIENT, follow the instructions as explai
 
     <tr>
       <td>
-        **Contact Name\***
+        **Contact Name**\*
       </td>
 
       <td>
@@ -124,7 +124,7 @@ To add a shipping account for EVRi in SAPIENT, follow the instructions as explai
 
     <tr>
       <td>
-        **Contact Number\***
+        **Contact Number**\*
       </td>
 
       <td>
@@ -156,7 +156,7 @@ To add a shipping account for EVRi in SAPIENT, follow the instructions as explai
   <tbody>
     <tr>
       <td>
-        **Username\***
+        **Username**\*
       </td>
 
       <td>
@@ -168,7 +168,7 @@ To add a shipping account for EVRi in SAPIENT, follow the instructions as explai
 
     <tr>
       <td>
-        **Password\***
+        **Password**\*
       </td>
 
       <td>
