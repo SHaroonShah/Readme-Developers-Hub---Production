@@ -1,5 +1,5 @@
 ---
-title: Initiate Multi-factoer authentication process
+title: Initiate Multi-factor authentication process
 deprecated: false
 hidden: true
 metadata:
