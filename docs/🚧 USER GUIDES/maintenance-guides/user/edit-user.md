@@ -16,9 +16,7 @@ In SAPIENT, you can edit the users to maintain accurate and up-to-date records o
 
 1. In the left navigation panel, select **Users**.
 
-<Image alt="Accessing users" align="center" border={true} src="https://files.readme.io/dda0e89b323a4d869472cc629a9fc0349403f8ba24930ac43a31a8f9a7542929-Users_option.png">
-  Accessing users
-</Image>
+<Image align="center" alt="Accessing users" border={true} caption="Accessing users" src="https://files.readme.io/dda0e89b323a4d869472cc629a9fc0349403f8ba24930ac43a31a8f9a7542929-Users_option.png" />
 
 2. On the **Users** page that appears, from the list select the user that you want to edit, and then in the Edit User \[user name] form that opens, update the necessary information as explained in the [Add user](https://docs.intersoftsapient.net/docs/add-users-to-your-organisation-to-begin-collaborating-with-your-team) section.
 
@@ -28,14 +26,12 @@ In SAPIENT, you can edit the users to maintain accurate and up-to-date records o
 
 <br />
 
-<Image alt="Selecting option to add user" align="center" border={true} src="https://files.readme.io/8b00fa4896a209d03b12b11b629b1008c180492d00769d0534c3b4f4e587206f-Editing_user.png">
-  Editing users 
-</Image>
+<Image align="center" alt="Selecting option to add user" border={true} caption="Editing users" src="https://files.readme.io/8b00fa4896a209d03b12b11b629b1008c180492d00769d0534c3b4f4e587206f-Editing_user.png" />
 
 3. After entering all the necessary user details, select ![alt text](https://files.readme.io/72a599fc376bd8f5a05777b3fea1ddf73227db655f06d7f14941cabad0cd49ec-Save_changes_button.png).
 
-Once done, the user is updated successfully. 
+Once done, the user is updated successfully.
 
 > 📘 *Note*
 >
-> *You cannot add or manage users via API.*
+> *You cannot edit or manage users via API.*
