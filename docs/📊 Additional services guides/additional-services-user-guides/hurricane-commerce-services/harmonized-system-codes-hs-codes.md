@@ -32,4 +32,4 @@ Accurate HS code data not only facilitates smooth processing of your data by cus
 
 > 📘 *Note*
 >
-> *For more information on how to use this API service, refer to the[Commodity Code Validation](https://docs.intersoftsapient.net/reference/post_v4-getcommoditycodevalidations) block of the **API References** section.*
+> *For more information on how to use this API service, refer to the [Commodity Code Validation](https://docs.intersoftsapient.net/reference/post_v4-getcommoditycodevalidations) block of the **API References** section.*
