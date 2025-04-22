@@ -34,4 +34,4 @@ Once done, the address is updated successfully and now up-to-date.
 
 > 📘 *Note*
 >
-> *Addresses can be modified via API. To learn more on how to edit an address via API, refer to the[API References](https://docs.intersoftsapient.net/reference/put_v4-addresses-addressid) section.*
+> *Addresses can be modified via API. To learn more on how to edit an address via API, refer to the [API References](https://docs.intersoftsapient.net/reference/put_v4-addresses-addressid) section.*
