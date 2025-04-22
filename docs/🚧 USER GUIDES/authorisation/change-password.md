@@ -29,7 +29,7 @@ To change the password, follow the steps as explained in the following procedure
 > 3. *Avoid common words or phrases.*
 > 4. *Monitor for breaches.*
 >
-> *For more information on how to set up a strong password, refer to the[ guidelines for choosing a strong password](https://docs.intersoftsapient.net/docs/guidelines-for-choosing-strong-password#/) section.*
+> *For more information on how to set up a strong password, refer to the [guidelines for choosing a strong password](https://docs.intersoftsapient.net/docs/guidelines-for-choosing-strong-password#/) section.*
 
 <br />
 
@@ -39,10 +39,10 @@ To change the password, follow the steps as explained in the following procedure
 
 |                                                          Element                                                         | Description                                                                          |
 | :----------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------- |
-|                                                        **Email\***                                                       | Represents a read-only field that displays your current email address.               |
-|                                                  **Current password\***                                                  | Enter your current password.                                                         |
-|                                                    **New password\***                                                    | Enter a strong password that adheres to our password policy.                         |
-|                                                  **Confirm password\***                                                  | Enter your new password again.                                                       |
+|                                                        **Email**\*                                                       | Represents a read-only field that displays your current email address.               |
+|                                                  **Current password**\*                                                  | Enter your current password.                                                         |
+|                                                    **New password**\*                                                    | Enter a strong password that adheres to our password policy.                         |
+|                                                  **Confirm password**\*                                                  | Enter your new password again.                                                       |
 | ![](https://files.readme.io/1d822ac791ace548678e2df2b91b48dff225c277ada65e20c6e8e1e4216a393d-Change_password_button.png) | Select this button to finish the password change process and save your new password. |
 |          ![](https://files.readme.io/1a0c1dc614bae533ff101da4ad4b3f1d0c825e7de658eb210230ef2917b4c9fc-image.png)         | Select this button to go back to the SAPIENT **Home** page.                          |
 
