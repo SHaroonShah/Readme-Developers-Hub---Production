@@ -18,42 +18,36 @@ In SAPIENT, you can add tracking accounts for Royal Mail to enhance visibility, 
 
 > 🚧 *Important*
 >
-> *Prior to adding a Royal Mail tracking account, make sure you have completed the following prerequisites:* 
+> *Prior to adding a Royal Mail tracking account, make sure you have completed the following prerequisites:*
 >
-> 1. *Enabled the[label integration](https://docs.intersoftsapient.net/docs/integration-activation) with Royal Mail.*
-> 2. *Enabled the[tracking integration](https://docs.intersoftsapient.net/docs/integration-activation) with Royal Mail.* 
+> 1. *Enabled the [label integration](https://docs.intersoftsapient.net/docs/integration-activation) with Royal Mail.*
+> 2. *Enabled the [tracking integration](https://docs.intersoftsapient.net/docs/integration-activation) with Royal Mail.*
 > 3. *Set up your<Glossary>tracking webhook</Glossary>. For more information on how to set up a tracking webhook, refer to the [Create tracking webhook](https://docs.intersoftsapient.net/docs/create-tracking-webhook) section. This is a one-time activity, you do not have to do this every time you add a tracking account.*
 
 To add a tracking account for Royal Mail in SAPIENT, follow the steps as explained in the following procedure.
 
-1. On the SAPIENT **Home** page, in the left navigation panel, select **API** > **Webhooks**. On the page that opens, select the **Tracking Accounts** tab. 
+1. On the SAPIENT **Home** page, in the left navigation panel, select **API** > **Webhooks**. On the page that opens, select the **Tracking Accounts** tab.
 
-<Image alt="Accessing tracking accounts" align="center" border={true} src="https://files.readme.io/86ec4af66edcc1841f0e501f76224d944ebc62c345dae8b6c66944c9ff8585c3-Tracking_accounts_tab.png">
-  Accessing tracking accounts
-</Image>
+<Image align="center" alt="Accessing tracking accounts" border={true} caption="Accessing tracking accounts" src="https://files.readme.io/86ec4af66edcc1841f0e501f76224d944ebc62c345dae8b6c66944c9ff8585c3-Tracking_accounts_tab.png" />
 
 2. In the **Tracking Accounts** page that opens, select ![alt text](https://files.readme.io/c9db68351fac05183f1fb5e96c283dba68f88004061886b8c16c6da1b45a38ee-Add_tracking_account_button.png).
 
-<Image alt="Accessing option to add tracking account" align="center" border={true} src="https://files.readme.io/fdfcd880b84fd960b85197f1403debf6b591d0531f2ca13638b5fad703b4e560-Add_tracking_accounts_button.png">
-  Accessing option to add tracking account
-</Image>
+<Image align="center" alt="Accessing option to add tracking account" border={true} caption="Accessing option to add tracking account" src="https://files.readme.io/fdfcd880b84fd960b85197f1403debf6b591d0531f2ca13638b5fad703b4e560-Add_tracking_accounts_button.png" />
 
 3. On the **Add Tracking account** page that appears, in the **DETAILS** block, enter the necessary information as explained in the following table.
 
-<Image alt="Adding tracking account" align="center" border={true} src="https://files.readme.io/f2159cfc5df8047ce939baae8432347a35e1010906cc7596b53f8eca75c6cf46-Add_tracking_account_screen.png">
-  Adding tracking account
-</Image>
+<Image align="center" alt="Adding tracking account" border={true} caption="Adding tracking account" src="https://files.readme.io/f2159cfc5df8047ce939baae8432347a35e1010906cc7596b53f8eca75c6cf46-Add_tracking_account_screen.png" />
 
 <AsteridkForMandatoryElements />
 
 <Table align={["center","left"]}>
   <thead>
     <tr>
-      <th style={{ textAlign: "center" }}>
+      <th>
         Element
       </th>
 
-      <th style={{ textAlign: "left" }}>
+      <th>
         Description
       </th>
     </tr>
@@ -61,34 +55,34 @@ To add a tracking account for Royal Mail in SAPIENT, follow the steps as explain
 
   <tbody>
     <tr>
-      <td style={{ textAlign: "center" }}>
-        **Carrier\***
+      <td>
+        **Carrier**\*
       </td>
 
-      <td style={{ textAlign: "left" }}>
+      <td>
         From the dropdown menu, select Royal Mail as your carrier option.
       </td>
     </tr>
 
     <tr>
-      <td style={{ textAlign: "center" }}>
+      <td>
         **Receive tracking after Delivered event**
       </td>
 
-      <td style={{ textAlign: "left" }}>
-        Turn the toggle on/off to perform the following operations:  
+      <td>
+        Turn the toggle on/off to perform the following operations:
 
-        • Toggle on: to continue receiving any tracking events that occur after the final delivery in exceptional circumstances.\
+        • Toggle on: to continue receiving any tracking events that occur after the final delivery in exceptional circumstances.
         • Toggle off (a default state): to stop receiving the tracking events after the final delivery.
       </td>
     </tr>
 
     <tr>
-      <td style={{ textAlign: "center" }}>
-        **Shipping Account\***
+      <td>
+        **Shipping Account**\*
       </td>
 
-      <td style={{ textAlign: "left" }}>
+      <td>
         From the dropdown menu, select the <Glossary>shipping account</Glossary> for which you want to receive  tracking.
       </td>
     </tr>
