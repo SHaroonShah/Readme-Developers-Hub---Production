@@ -16,7 +16,7 @@ In SAPIENT, you can create a shipping account with UPS, assign your UPS credenti
 
 > 🚧 *Important*
 >
-> *Before you can set up a shipping account, make sure you have[enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with UPS.*
+> *Before you can set up a shipping account, make sure you have [enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with UPS.*
 
 To add a shipping account for UPS in SAPIENT, follow the instructions as explained in the following procedure.
 
@@ -36,8 +36,8 @@ To add a shipping account for UPS in SAPIENT, follow the instructions as explain
 
 |         Element         | Description                                                                                                   |
 | :---------------------: | :------------------------------------------------------------------------------------------------------------ |
-|      **Carrier\***      | From the dropdown list, select **UPS**.                                                                       |
-| **Shipping Location\*** | From the dropdown menu, select the location that you want to assign to the shipping account you are creating. |
+|      **Carrier**\*      | From the dropdown list, select **UPS**.                                                                       |
+| **Shipping Location**\* | From the dropdown menu, select the location that you want to assign to the shipping account you are creating. |
 
 5. In the **SHIPPING ACCOUNT** block, enter the necessary information as explained in the following table.
 
@@ -63,7 +63,7 @@ To add a shipping account for UPS in SAPIENT, follow the instructions as explain
   <tbody>
     <tr>
       <td>
-        **Carrier Account Number\***
+        **Carrier Account Number**\*
       </td>
 
       <td>
@@ -73,7 +73,7 @@ To add a shipping account for UPS in SAPIENT, follow the instructions as explain
 
     <tr>
       <td>
-        **Account Name (if different than customer)\***
+        **Account Name (if different than customer)**\*
       </td>
 
       <td>
@@ -83,7 +83,7 @@ To add a shipping account for UPS in SAPIENT, follow the instructions as explain
 
     <tr>
       <td>
-        **Account Type\***
+        **Account Type**\*
       </td>
 
       <td>
@@ -97,7 +97,7 @@ To add a shipping account for UPS in SAPIENT, follow the instructions as explain
 
     <tr>
       <td>
-        **Alias\***
+        **Alias**\*
       </td>
 
       <td>
@@ -107,7 +107,7 @@ To add a shipping account for UPS in SAPIENT, follow the instructions as explain
 
     <tr>
       <td>
-        **Contact Name\***
+        **Contact Name**\*
       </td>
 
       <td>
@@ -117,7 +117,7 @@ To add a shipping account for UPS in SAPIENT, follow the instructions as explain
 
     <tr>
       <td>
-        **Contact Number\***
+        **Contact Number**\*
       </td>
 
       <td>
@@ -149,7 +149,7 @@ To add a shipping account for UPS in SAPIENT, follow the instructions as explain
   <tbody>
     <tr>
       <td>
-        **UPS Client Id\***
+        **UPS Client Id**\*
       </td>
 
       <td>
@@ -161,7 +161,7 @@ To add a shipping account for UPS in SAPIENT, follow the instructions as explain
 
     <tr>
       <td>
-        **UPS Client Secret\***
+        **UPS Client Secret**\*
       </td>
 
       <td>
