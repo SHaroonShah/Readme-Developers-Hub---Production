@@ -18,21 +18,15 @@ To edit an address in SAPIENT, follow the steps as explained in the following pr
 
 1. In the left navigation panel, select **Address Book**.
 
-<Image alt="Accessing address book" align="center" border={true} src="https://files.readme.io/145195adcbdbf39b1faea51d1afa71dcc10a408409060a05d02bc12fb48a8630-Address_option.png">
-  Accessing address book
-</Image>
+<Image align="center" alt="Accessing address book" border={true} caption="Accessing address book" src="https://files.readme.io/145195adcbdbf39b1faea51d1afa71dcc10a408409060a05d02bc12fb48a8630-Address_option.png" />
 
 2. In the **Address Book** page that opens, from the list, select the address that you want edit.
 
-<Image alt="Accessing option to add address" align="center" border={true} src="https://files.readme.io/4eb2b8b120c2894a1c42c57b7ab17d508d933c2de59520bd5be2f88b08f723f8-Editing_address.png">
-  Editing address
-</Image>
+<Image align="center" alt="Accessing option to add address" border={true} caption="Editing address" src="https://files.readme.io/4eb2b8b120c2894a1c42c57b7ab17d508d933c2de59520bd5be2f88b08f723f8-Editing_address.png" />
 
 3. In the **Edit Address** form that opens, update the necessary information as explained in the Add address section.
 
-<Image alt="Editing address" align="center" border={true} src="https://files.readme.io/1b3e80e0f16f5a38056c1e8fa5a41a42ce78f1012f724c2eaa3075a366de6b85-Editing_address.png">
-  Editing address
-</Image>
+<Image align="center" alt="Editing address" border={true} caption="Editing address" src="https://files.readme.io/1b3e80e0f16f5a38056c1e8fa5a41a42ce78f1012f724c2eaa3075a366de6b85-Editing_address.png" />
 
 4. After updating the relevant information, select ![alt text](https://files.readme.io/ad9e5914fc6e05f9f14e1da660f4d564a88845b37bfe08a5efbf76997ebb406a-Save_changes_button.png).
 
