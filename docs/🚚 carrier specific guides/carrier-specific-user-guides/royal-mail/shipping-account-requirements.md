@@ -16,7 +16,7 @@ In SAPIENT, you can create a shipping account with Royal Mail, assign your Royal
 
 > 🚧 *Important*
 >
-> *Before you can set up a shipping account, you must ensure you have[enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with Royal Mail.*
+> *Before you can set up a shipping account, you must ensure you have [enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with Royal Mail.*
 
 To add a shipping account for Royal Mail in SAPIENT, follow the instructions as explained in the following procedure.
 
@@ -40,8 +40,8 @@ To add a shipping account for Royal Mail in SAPIENT, follow the instructions as 
 
 |         Element         | Description                                                                                                   |
 | :---------------------: | :------------------------------------------------------------------------------------------------------------ |
-|      **Carrier\***      | From the dropdown list, select **RM - Royal Mail**.                                                           |
-| **Shipping Location\*** | From the dropdown menu, select the location that you want to assign to the shipping account you are creating. |
+|      **Carrier**\*      | From the dropdown list, select **RM - Royal Mail**.                                                           |
+| **Shipping Location**\* | From the dropdown menu, select the location that you want to assign to the shipping account you are creating. |
 
 5. In the **SHIPPING ACCOUNT** block, enter the necessary information as explained in the following table.
 
@@ -67,7 +67,7 @@ To add a shipping account for Royal Mail in SAPIENT, follow the instructions as 
   <tbody>
     <tr>
       <td>
-        **Carrier Account Number\***
+        **Carrier Account Number**\*
       </td>
 
       <td>
@@ -79,7 +79,7 @@ To add a shipping account for Royal Mail in SAPIENT, follow the instructions as 
 
     <tr>
       <td>
-        **Account Type\***
+        **Account Type**\*
       </td>
 
       <td>
@@ -95,7 +95,7 @@ To add a shipping account for Royal Mail in SAPIENT, follow the instructions as 
 
     <tr>
       <td>
-        **Account Name (if different than customer)\***
+        **Account Name (if different than customer)**\*
       </td>
 
       <td>
@@ -105,7 +105,7 @@ To add a shipping account for Royal Mail in SAPIENT, follow the instructions as 
 
     <tr>
       <td>
-        **Registered Email Address\***
+        **Registered Email Address**\*
       </td>
 
       <td>
@@ -127,7 +127,7 @@ To add a shipping account for Royal Mail in SAPIENT, follow the instructions as 
 
     <tr>
       <td>
-        **Alias\***
+        **Alias**\*
       </td>
 
       <td>
@@ -137,7 +137,7 @@ To add a shipping account for Royal Mail in SAPIENT, follow the instructions as 
 
     <tr>
       <td>
-        **Contact Name\***
+        **Contact Name**\*
       </td>
 
       <td>
@@ -147,7 +147,7 @@ To add a shipping account for Royal Mail in SAPIENT, follow the instructions as 
 
     <tr>
       <td>
-        **Contact Number\***
+        **Contact Number**\*
       </td>
 
       <td>
@@ -179,7 +179,7 @@ To add a shipping account for Royal Mail in SAPIENT, follow the instructions as 
   <tbody>
     <tr>
       <td>
-        **Posting Location Code\***
+        **Posting Location Code**\*
       </td>
 
       <td>
@@ -191,7 +191,7 @@ To add a shipping account for Royal Mail in SAPIENT, follow the instructions as 
 
     <tr>
       <td>
-        **Receiving Hub Code\***
+        **Receiving Hub Code**\*
       </td>
 
       <td>
