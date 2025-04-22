@@ -64,7 +64,7 @@ To add a new <Glossary>product</Glossary> in SAPIENT, follow the steps as explai
       <td>
         Enter the <Glossary>HS Code</Glossary> for the product you are adding.
 
-        *`**Note**`: A minimum of 6 alpha numeric code is required when the HS Code is provided (some services/destinations may require 8). Additionally, this information is required by some carriers for dutiable shipments.*
+        *`Note`: A minimum of 6 alpha numeric code is required when the HS Code is provided (some services/destinations may require 8). Additionally, this information is required by some carriers for dutiable shipments.*
       </td>
     </tr>
 
@@ -86,7 +86,7 @@ To add a new <Glossary>product</Glossary> in SAPIENT, follow the steps as explai
       <td>
         From the dropdown menu, select the country where the product you are adding was manufactured.
 
-        *`**Note**`: This information is required by some carriers for dutiable shipments.*
+        *`Note`: This information is required by some carriers for dutiable shipments.*
       </td>
     </tr>
 
@@ -120,7 +120,7 @@ To add a new <Glossary>product</Glossary> in SAPIENT, follow the steps as explai
       <td>
         Enter the weight of the product you are adding. The unit of measure is set to **Kg** by default and can be a maximum of 1000 kg.
 
-        *`**Note**`: This information is required for dutiable shipments and must be a minimum of 1 g.*
+        *`Note`: This information is required for dutiable shipments and must be a minimum of 1 g.*
       </td>
     </tr>
 
