@@ -18,13 +18,13 @@ In order for our customers to use Intersoft's Royal Mail label service, each cus
 
 > 📘 *Note*
 >
-> *If you do not have a Royal Mail Account, please[contact](https://www.royalmail.com/discounts-payment/credit-account/online-business-account) Royal Mail.*
+> *If you do not have a Royal Mail Account, please [contact](https://www.royalmail.com/discounts-payment/credit-account/online-business-account) Royal Mail.*
 
 Please provide the below information so that your account with us can be set up accordingly.
 
 ## Check OBA account activation
 
-An active OBA account must be provided in order for Intersoft to set up your account. 
+An active OBA account must be provided in order for Intersoft to set up your account.
 
 > 🚧 *Important*
 >
@@ -34,21 +34,17 @@ To check whether your OBA account is active, follow the instructions as explaine
 
 1. Access the Royal Mail [Website](https://www.royalmail.com/discounts-payment/credit-account/online-business-account).
 
-2. On the page that appears, enter your login credentials (email address and password) and select **Log in**. 
+2. On the page that appears, enter your login credentials (email address and password) and select **Log in**.
 
-<Image alt="Logging into RM OBA" align="center" width="600px" border={true} src="https://files.readme.io/ba7290711628e12af9e9a6131ca7fc9cbc8c63b417aff2dbd720fe1c6bce51b9-OBA_login_page.png">
-  Logging into RM OBA
-</Image>
+<Image align="center" alt="Logging into RM OBA" border={true} caption="Logging into RM OBA" src="https://files.readme.io/ba7290711628e12af9e9a6131ca7fc9cbc8c63b417aff2dbd720fe1c6bce51b9-OBA_login_page.png" width="600px" />
 
 > 📘 *Note*
 >
-> *If you do not know which email address is associated with your OBA account, please contact the OBA Helpdesk—call at 08457 950 950, or send an email at[oba.helpdesk@royalmail.com](mailto:oba.helpdesk@royalmail.com).*
+> *If you do not know which email address is associated with your OBA account, please contact the OBA Helpdesk—call at 08457 950 950, or send an email at [oba.helpdesk@royalmail.com](mailto:oba.helpdesk@royalmail.com).*
 
 3. Once logged in, select **Access Online Business Account**.
 
-<Image alt="Accessing OBA" align="center" border={true} src="https://files.readme.io/463e646-image.png">
-  Accessing OBA
-</Image>
+<Image align="center" alt="Accessing OBA" border={true} caption="Accessing OBA" src="https://files.readme.io/463e646-image.png" />
 
 If your OBA account is active you are directed to your online business account. Please enter this OBA email address into our customer onboarding form.
 
@@ -60,6 +56,4 @@ If your account is not active the page will either reload and you will be return
 
 After accessing your OBA account, you can now view your billing and reports for tracked services.
 
-<Image alt="Displaying OBA" align="center" border={true} src="https://files.readme.io/8bf81a9-image.png">
-  Displaying OBA dashboard
-</Image>
+<Image align="center" alt="Displaying OBA" border={true} caption="Displaying OBA dashboard" src="https://files.readme.io/8bf81a9-image.png" />
