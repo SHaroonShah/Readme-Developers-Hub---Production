@@ -16,7 +16,7 @@ In SAPIENT, you can create a shipping account with DX Freight, and then link it 
 
 > 🚧 *Important*
 >
-> *Before you can set up a shipping account, make sure you have[enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with DX Freight and have already [created a shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location).*
+> *Before you can set up a shipping account, make sure you have [enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with DX Freight and have already [created a shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location).*
 
 To add a shipping account for DX Freight in SAPIENT, follow the instructions as explained in the following procedure.
 
@@ -50,7 +50,7 @@ To add a shipping account for DX Freight in SAPIENT, follow the instructions as 
   <tbody>
     <tr>
       <td>
-        **Carrier\***
+        **Carrier**\*
       </td>
 
       <td>
@@ -60,7 +60,7 @@ To add a shipping account for DX Freight in SAPIENT, follow the instructions as 
 
     <tr>
       <td>
-        **Shipping Location\***
+        **Shipping Location**\*
       </td>
 
       <td>
@@ -96,7 +96,7 @@ To add a shipping account for DX Freight in SAPIENT, follow the instructions as 
   <tbody>
     <tr>
       <td>
-        **Carrier Account Number\***
+        **Carrier Account Number**\*
       </td>
 
       <td>
@@ -110,7 +110,7 @@ To add a shipping account for DX Freight in SAPIENT, follow the instructions as 
 
     <tr>
       <td>
-        **Account Name (if different than customer)\***
+        **Account Name (if different than customer)**\*
       </td>
 
       <td>
@@ -120,7 +120,7 @@ To add a shipping account for DX Freight in SAPIENT, follow the instructions as 
 
     <tr>
       <td>
-        **Account Type\***
+        **Account Type**\*
       </td>
 
       <td>
@@ -134,7 +134,7 @@ To add a shipping account for DX Freight in SAPIENT, follow the instructions as 
 
     <tr>
       <td>
-        **Alias\***
+        **Alias**\*
       </td>
 
       <td>
@@ -144,7 +144,7 @@ To add a shipping account for DX Freight in SAPIENT, follow the instructions as 
 
     <tr>
       <td>
-        **Contact Name\***
+        **Contact Name**\*
       </td>
 
       <td>
@@ -154,7 +154,7 @@ To add a shipping account for DX Freight in SAPIENT, follow the instructions as 
 
     <tr>
       <td>
-        **Contact Number\***
+        **Contact Number**\*
       </td>
 
       <td>
@@ -186,7 +186,7 @@ To add a shipping account for DX Freight in SAPIENT, follow the instructions as 
   <tbody>
     <tr>
       <td>
-        **Origin Service Centre (Also referred to as "Depot")\***
+        **Origin Service Centre (Also referred to as "Depot")**\*
       </td>
 
       <td>
@@ -198,7 +198,7 @@ To add a shipping account for DX Freight in SAPIENT, follow the instructions as 
 
     <tr>
       <td>
-        **Password\***
+        **Password**\*
       </td>
 
       <td>
@@ -208,7 +208,7 @@ To add a shipping account for DX Freight in SAPIENT, follow the instructions as 
 
     <tr>
       <td>
-        **Service Type\***
+        **Service Type**\*
       </td>
 
       <td>
@@ -230,7 +230,7 @@ Once done, you have now successfully added a shipping account. You can now [add 
 
 > 📘 *Note*
 >
-> *Shipping account(s) can be added and managed via API. For more information, refer to the[API References](https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts) section.*
+> *Shipping account(s) can be added and managed via API. For more information, refer to the [API References](https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts) section.*
 
 ### See also
 
