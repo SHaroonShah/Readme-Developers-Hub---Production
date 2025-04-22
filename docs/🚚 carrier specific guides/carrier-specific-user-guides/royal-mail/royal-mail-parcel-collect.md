@@ -31,7 +31,7 @@ You can either allow SAPIENT to default the collection to the first available co
 
 > 📘 *Note*
 >
-> *The return shipment must be created using the[CreateShipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm) request.*
+> *The return shipment must be created using the [CreateShipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm) request.*
 
 By default, the labels are not brought by Royal Mail. If you need this enhancement, you must specify it by setting the **BringMyLabel** parameter to **True**. The return shipments and collections do not require manifesting.
 
