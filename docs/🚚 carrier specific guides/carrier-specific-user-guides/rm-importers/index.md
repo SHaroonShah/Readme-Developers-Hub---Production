@@ -21,11 +21,11 @@ If you wish to use the Royal Mail import services, you can integrate with Inters
 >
 > *This section is only applicable if you are a Royal Mail customer who is importing goods into the UK. Before initiating the integration, make sure you have an agreement with Royal Mail to use this service.*
 
-To integrate with the Royal Mail import services via SAPIENT, follow the instructions as explained in the following procedure.
+To integrate with the Royal Mail import services via SAPIENT, follow the steps listed below:
 
-1. At first, ensure to activate your account on SAPIENT. Upon activation, a confirmation email is sent to you from [onboarding@intersoftsapient.net](mailto:noreply@intelligentshipper.net). Proceed to activate your account as directed in the email.
+1. At first, ensure to activate your account on SAPIENT as directed in an account confirmation email  sent to you from [onboarding@intersoftsapient.net](mailto:noreply@intelligentshipper.net).
 
-2. After, proceed to [creating your API credentials](https://docs.intersoftsapient.net/docs/create-api-credentials).
+2. After, proceed to [creating your API Credentials](https://docs.intersoftsapient.net/docs/create-api-credentials).
 
 3. Now, on the SAPIENT Home page, select **Integrations**. On the **Integrations** page that opens, within the **Royal Mail** block, select **LABELS**.
 
@@ -35,23 +35,23 @@ To integrate with the Royal Mail import services via SAPIENT, follow the instruc
 
 <Image align="center" alt="Activating Royal Mail labels integration" border={true} caption="Activating Royal Mail labels integration" src="https://files.readme.io/abc4b6de2300fc06a50a56e87560afb0251fd5a13cf521fff5c473cdc4502d51-RM_Labels_activation.png" />
 
-5. Once activated, now proceed to adding the  [shipping account](https://docs.intersoftsapient.net/docs/shipping-account-requirements) and [shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location) for Royal Mail.
+5. Once activated, now proceed to adding the  [Shipping Account](https://docs.intersoftsapient.net/docs/shipping-account-requirements) and [Shipping Location](https://docs.intersoftsapient.net/docs/add-a-shipping-location) for Royal Mail.
 
 > 💡 *Tip*
 >
-> *For Sandbox (Test) account, you can fill the information with dummy details. For more information on how to set up a Royal Mail<Glossary>shipping account</Glossary> , refer to the [Setup Royal Mail shipping account](https://docs.intersoftsapient.net/docs/shipping-account-requirements) section.*
+> *For Sandbox (Test) account, please fill the information with dummy details. For more information on how to set up a Royal Mail S<Glossary>hipping Account</Glossary> , refer to the [Setup Royal Mail Shipping Account](https://docs.intersoftsapient.net/docs/shipping-account-requirements) section.*
 
-6. If you are a freight 2 post customer, set up [international arrival containers (A-scan)](https://docs.intersoftsapient.net/docs/add-barcode-range-for-international-arrival-containers). For now this can be filled with dummy details. Production details will be provided to you when your account is switched onto production.
+6. If you are a Freight 2 Post customer, set up [International Arrival Containers (A-scan)](https://docs.intersoftsapient.net/docs/add-barcode-range-for-international-arrival-containers). For now this can be filled with dummy details. Production details will be provided to you when your account is switched onto production.
 7. After, develop all the [API calls required](https://docs.intersoftsapient.net/docs/sandbox-development-api-requirements) considering the specific requirements applicable to you:
 
-* If you are a commercial clearance customer, refer to the [corresponding requirements](https://docs.intersoftsapient.net/docs/commercial-clearance-customers).
-* If you are a freight 2 post customer, refer to the [corresponding requirements](https://docs.intersoftsapient.net/docs/freight-2-post-customers).
+* If you are a Commercial Clearance customer, refer to the [corresponding requirements](https://docs.intersoftsapient.net/docs/commercial-clearance-customers).
+* If you are a Freight 2 Post customer, refer to the [corresponding requirements](https://docs.intersoftsapient.net/docs/freight-2-post-customers).
 
 > 🚧 *Important*
 >
 > *Please also ensure that you adhere to our[API Rate Limits](https://docs.intersoftsapient.net/docs/api-rate-limiting).*
 
-8. Once all the necessary steps have been completed, you are now ready to go live. Before getting you live on board, make sure you complete our [Test Pack](https://docs.intersoftsapient.net/docs/royal-mail-importers-sandbox-test-pack) and submit it at [onboarding@intersoft.co.uk](mailto:onboarding@intersoft.co.uk).
+8. Once all the above steps have been done, make sure you complete our [Test Pack](https://docs.intersoftsapient.net/docs/royal-mail-importers-sandbox-test-pack) and submit it at [onboarding@intersoft.co.uk](mailto:onboarding@intersoft.co.uk).
 
 > 📘 *Note*
 >
@@ -70,8 +70,8 @@ Please direct any questions or issues with this service to [onboarding@intersoft
 If you are interested in our tracking solution, refer to the following sections on how to set up our <Glossary>tracking webhook</Glossary> solution:
 
 * [Tracking webhook](https://docs.intersoftsapient.net/docs/tracking-webhook-1): set up the webhook connection, create tracking account, and much more.
-* [Response examples](https://docs.intersoftsapient.net/reference/post_v4-trackings-pushpayloadexample): view response example of the tracking webhook push notification payload, as sent to a customer's webhook when tracking information is received from a carrier.
 * [Royal Mail tracking account setup](https://docs.intersoftsapient.net/docs/royal-mail-tracking-account-setup): set up Royal Mail <Glossary>tracking account</Glossary> .
+* [Response examples](https://docs.intersoftsapient.net/reference/post_v4-trackings-pushpayloadexample): view response example of the tracking webhook push notification payload, as sent to a customer's webhook when tracking information is received from a carrier.
 
 > 📘 *Note*
 >
