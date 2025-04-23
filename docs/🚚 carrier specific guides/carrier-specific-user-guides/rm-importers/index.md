@@ -69,7 +69,7 @@ Please direct any questions or issues with this service to [onboarding@intersoft
 
 If you are interested in our tracking solution, refer to the following sections on how to set up our <Glossary>tracking webhook</Glossary> solution:
 
-* [Tracking webhook](https://docs.intersoftsapient.net/docs/tracking-webhook-1): set up the webhook connection, create tracking account, and much more.
+* [Tracking Webhook](https://docs.intersoftsapient.net/docs/tracking-webhook-1): set up the webhook connection, create tracking account, and much more.
 * [Royal Mail tracking account setup](https://docs.intersoftsapient.net/docs/royal-mail-tracking-account-setup): set up Royal Mail <Glossary>tracking account</Glossary> .
 * [Response examples](https://docs.intersoftsapient.net/reference/post_v4-trackings-pushpayloadexample): view response example of the tracking webhook push notification payload, as sent to a customer's webhook when tracking information is received from a carrier.
 
