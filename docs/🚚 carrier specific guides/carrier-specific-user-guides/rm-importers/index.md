@@ -67,6 +67,8 @@ Please direct any questions or issues with this service to [onboarding@intersoft
 
 ## See also
 
+If you are interested as well in using returns service(s), refer to our article [here](https://docs.intersoftsapient.net/docs/switching-the-account-to-production) listing all the requirements.
+
 If you are interested in our tracking solution, refer to the following sections on how to set up our <Glossary>tracking webhook</Glossary> solution:
 
 * [Tracking Webhook](https://docs.intersoftsapient.net/docs/tracking-webhook-1): set up the webhook connection, create tracking account, and much more.
