@@ -1,7 +1,7 @@
 ---
-title: Set up international arrival containers
+title: Set up International Arrival Containers
 excerpt: >-
-  A _barcode range_ for an international arrival container is a specific set of
+  A _barcode range_ for an International Arrival Container is a specific set of
   numbers designated for tracking containers arriving into the UK from overseas.
   These barcodes are used to uniquely identify containers at various stages of
   the shipping and handling process, facilitating efficient tracking and
@@ -15,9 +15,9 @@ metadata:
 next:
   description: ''
 ---
-The barcode ranges functionality facilitates the <Glossary>data solution</Glossary> on behalf of customers who are shipping into the UK from abroad. This solution is dependent on the customer scanning a <Glossary>shipment</Glossary> into a <Glossary>container</Glossary> . When all the shipments for that container have been scanned, a summary barcode is produced.
+The barcode ranges functionality facilitates the <Glossary>Data Solution</Glossary> on behalf of customers who are shipping into the UK from abroad. This solution is dependent on the customer allocating a <Glossary>shipment</Glossary> into a <Glossary>container</Glossary> . When all the shipments for that container have been allocated and a container manifested, a summary barcode is produced.
 
-This summary barcode, known as a WAND ID barcode is attached to the outside of the receptacle. As a result, an electronic data solution file is produced, in a predefined format and sent to Royal Mail, detailing the WAND ID and the individual shipment barcodes. This enables a link between the WAND ID used on a container and the tracking numbers of the shipments held within it.
+This summary barcode, known as a WAND ID barcode is attached to the outside of the receptacle. As a result, an electronic Data Solution file is produced, in a predefined format and sent to Royal Mail, detailing the WAND ID and the individual shipment barcodes. This enables a link between the WAND ID used on a container and the tracking numbers of the shipments held within it.
 
 IN SAPIENT, you can add a barcode range under the **International Arrival Containers** API service to capture the data required to populate the data solution file.
 
@@ -48,13 +48,15 @@ To add a barcode range for international arrival containers in SAPIENT, follow t
 
 |      Element     | Description                                                                                                                                                                                                                                                                                                                                    |
 | :--------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|   **Prefix\***   | Enter a fixed set of characters to be added at the beginning of the barcode numbers. It often indicates the type of shipment or the service provider, helping to categorize items within the system.                                                                                                                                           |
-| **Seed Start\*** | Enter the initial numbers in the barcode range. It marks the beginning of the numbering sequence for the barcodes to be generated, establishing where the sequence will commence.                                                                                                                                                              |
-|  **Seed End\***  | Enter the final numbers in the barcode range. It denotes the endpoint of the numbering sequence, determining how many unique barcodes can be created within that range.                                                                                                                                                                        |
+|   **Prefix**\*   | Enter a fixed set of characters to be added at the beginning of the barcode numbers. It often indicates the type of shipment or the service provider, helping to categorize items within the system.                                                                                                                                           |
+| **Seed Start**\* | Enter the initial numbers in the barcode range. It marks the beginning of the numbering sequence for the barcodes to be generated, establishing where the sequence will commence.                                                                                                                                                              |
+|  **Seed End**\*  | Enter the final numbers in the barcode range. It denotes the endpoint of the numbering sequence, determining how many unique barcodes can be created within that range.                                                                                                                                                                        |
 | **Total Number** | Represents the total count of unique barcodes that can be generated within the specified range, calculated as the difference between the seed end and seed start plus one (that is, Seed End - Seed Start + 1).                                                                                                                                |
 |   **Calculate**  | Select ![alt text](https://files.readme.io/530aac60a4604cd28b9c5f84111d35151d47395157c95e3c0a1ef527b7fd4e02-Calculate_button.png) to compute the total number of barcodes based on the seed start and seed end fields. It validates the range and ensures consistency by recalculating the total whenever changes are made to the seed values. |
 
-Once the relevant information is entered, select ![alt text](https://files.readme.io/79e0cb9c566226cd8b320dc3529f556e5d94e2faa0622645bd0bc2c572957cab-Add_barcode_range_button_2.png) to save and add the bar code. You can now use this bar code range in your [manifest shipments](https://docs.intersoftsapient.net/reference/post_v4-manifests-carriercode) request for international arrival containers. When the international arrival container is manifested, the data solution UK arrivals file is sent to Royal Mail via SFTP.
+> 💡 For development and testing purposes this can be filled with dummy details. Production details will be provided to you when your account is switched onto production.
+
+Once the relevant information is entered, select ![alt text](https://files.readme.io/79e0cb9c566226cd8b320dc3529f556e5d94e2faa0622645bd0bc2c572957cab-Add_barcode_range_button_2.png) to save and add the barcode. You can now use this barcode range in your [manifest shipments](https://docs.intersoftsapient.net/reference/post_v4-manifests-carriercode) request for international arrival containers. When the international arrival container is manifested, the Data Solution UK arrivals file is sent to Royal Mail via SFTP.
 
 ## See also
 
