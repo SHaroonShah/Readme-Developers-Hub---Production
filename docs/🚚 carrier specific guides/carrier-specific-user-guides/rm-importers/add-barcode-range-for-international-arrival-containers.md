@@ -54,7 +54,9 @@ To add a barcode range for international arrival containers in SAPIENT, follow t
 | **Total Number** | Represents the total count of unique barcodes that can be generated within the specified range, calculated as the difference between the seed end and seed start plus one (that is, Seed End - Seed Start + 1).                                                                                                                                |
 |   **Calculate**  | Select ![alt text](https://files.readme.io/530aac60a4604cd28b9c5f84111d35151d47395157c95e3c0a1ef527b7fd4e02-Calculate_button.png) to compute the total number of barcodes based on the seed start and seed end fields. It validates the range and ensures consistency by recalculating the total whenever changes are made to the seed values. |
 
-> 💡 For development and testing purposes this can be filled with dummy details. Production details will be provided to you when your account is switched onto production.
+> 💡 *Tip*
+>
+> *For development and testing purposes this can be filled with dummy details. Production details will be provided to you when your account is switched onto production.*
 
 Once the relevant information is entered, select ![alt text](https://files.readme.io/79e0cb9c566226cd8b320dc3529f556e5d94e2faa0622645bd0bc2c572957cab-Add_barcode_range_button_2.png) to save and add the barcode. You can now use this barcode range in your [manifest shipments](https://docs.intersoftsapient.net/reference/post_v4-manifests-carriercode) request for international arrival containers. When the international arrival container is manifested, the Data Solution UK arrivals file is sent to Royal Mail via SFTP.
 
