@@ -28,7 +28,8 @@ Prior to going live on SAPIENT, first provide a <Glossary>bearer token</Glossary
   * [Add / Remove Shipments](https://docs.intersoftsapient.net/reference/put_v4-internationalarrivalscontainers-rm-containerid): to allocate shipments to a container or remove them from it before the container will be manifested.
   * [Delete Container](https://docs.intersoftsapient.net/reference/delete_v4-internationalarrivalscontainers-rm-containerid): to delete a specific container.
   * [Get Container ](https://docs.intersoftsapient.net/reference/get_v4-internationalarrivalscontainers-rm-containerid): to get details for a specific container.
-* [Manifest Shipments](https://docs.intersoftsapient.net/reference/post_v4-manifests-carriercode): to closeout shipments, which produces the collection <Glossary>manifest</Glossary> (Royal Mail Sales Order Summary) to be handed over to the driver and triggers electronic <Glossary>pre-advice</Glossary> and billing data to be sent to the <Glossary>carrier</Glossary>. This must be done before your <Glossary>shipment</Glossary> enters Royal Mail network.  Not doing it may result in multiple issues such as delays, missing tracking, lack of notifications for your end consumers, surcharges, and others.
+* [Manifest Shipments](https://docs.intersoftsapient.net/reference/post_v4-manifests-carriercode): to closeout shipments, which produces the collection <Glossary>manifest</Glossary> (Royal Mail Sales Order Summary) to be handed over to the driver and triggers electronic <Glossary>pre-advice</Glossary> and billing data to be sent to the <Glossary>carrier</Glossary>. This must be done before your <Glossary>shipment</Glossary> enters Royal Mail network.  Not doing it may result in multiple issues such as delays, missing tracking, lack of notifications for your end consumers, surcharges, and others.\
+  **Freight 2 Post customers** must manifest their shipments by container.
 
 > 📘 *Note*
 >
