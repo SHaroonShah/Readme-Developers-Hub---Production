@@ -21,11 +21,11 @@ If you are importing goods into the UK via Freight 2 Post route, please ensure t
 <Table align={["center","left"]}>
   <thead>
     <tr>
-      <th style={{ textAlign: "center" }}>
+      <th>
         Section
       </th>
 
-      <th style={{ textAlign: "left" }}>
+      <th>
         Required details
       </th>
     </tr>
@@ -33,77 +33,81 @@ If you are importing goods into the UK via Freight 2 Post route, please ensure t
 
   <tbody>
     <tr>
-      <td style={{ textAlign: "center" }}>
+      <td>
         **SHIPPER**
       </td>
 
-      <td style={{ textAlign: "left" }}>
-        ContactName\
-        CompanyName\
-        ContactEmail\
-        ContactPhone\
-        Line1\
-        Town\
-        Postcode\
+      <td>
+        ContactName - this must be an individual person's name, not a company name.
+        CompanyName
+        ContactEmail
+        ContactPhone
+        Line1
+        Town
+        Postcode
         CountryCode
       </td>
     </tr>
 
     <tr>
-      <td style={{ textAlign: "center" }}>
+      <td>
         **DESTINATION**
       </td>
 
-      <td style={{ textAlign: "left" }}>
-        ContactName\
-        CompanyName - highly recommended\
-        ContactEmail\
-        ContactPhone\
-        Line1\
-        Town\
-        Postcode\
+      <td>
+        ContactName
+        CompanyName - highly recommended
+        ContactEmail
+        ContactPhone
+        Line1
+        Town
+        Postcode
         CountryCode
       </td>
     </tr>
 
     <tr>
-      <td style={{ textAlign: "center" }}>
+      <td>
         **SHIPMENT INFORMATION**
       </td>
 
-      <td style={{ textAlign: "left" }}>
-        DescriptionOfGoods\
-        DeclaredValue\
-        DeclaredWeight\
+      <td>
+        DescriptionOfGoods
+        DeclaredValue
+        DeclaredWeight
         CurrencyCode
       </td>
     </tr>
 
     <tr>
-      <td style={{ textAlign: "center" }}>
+      <td>
         **ITEMS**
       </td>
 
-      <td style={{ textAlign: "left" }}>
-        Quantity\
-        Description\
-        Value\
-        Weight\
-        HSCode\
+      <td>
+        Quantity
+        Description
+        Value
+        Weight
+        HSCode
         CountryOfOrigin
       </td>
     </tr>
 
     <tr>
-      <td style={{ textAlign: "center" }}>
+      <td>
         **CUSTOMS**
       </td>
 
-      <td style={{ textAlign: "left" }}>
-        ShippingCharges  
+      <td>
+        ShippingCharges
 
         *`Note:`Please make sure to populate this field either with the exact amount the end customer was charged for shipping or with "0" if the shipping was for free.*
       </td>
     </tr>
   </tbody>
 </Table>
+
+> 🚧 *Please note*
+>
+> \_The above are also requirements specific for Royal Mail customers creating international shipments. \_
