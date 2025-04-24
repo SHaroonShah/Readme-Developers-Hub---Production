@@ -55,14 +55,14 @@ If you are importing goods into the UK via Freight 2 Post route, please ensure t
       </td>
 
       <td>
-        ContactName\
-        CompanyName - highly recommended
-        ContactEmail
-        ContactPhone
-        Line1
-        Town
-        Postcode
-        CountryCode
+        * ContactName
+        * CompanyName - highly recommended
+        * ContactEmail
+        * ContactPhone
+        * Line1
+        * Town
+        * Postcode
+        * CountryCode
       </td>
     </tr>
 
@@ -72,10 +72,10 @@ If you are importing goods into the UK via Freight 2 Post route, please ensure t
       </td>
 
       <td>
-        DescriptionOfGoods\
-        DeclaredValue
-        DeclaredWeight
-        CurrencyCode
+        * DescriptionOfGoods
+        * DeclaredValue
+        * DeclaredWeight
+        * CurrencyCode
       </td>
     </tr>
 
@@ -85,12 +85,12 @@ If you are importing goods into the UK via Freight 2 Post route, please ensure t
       </td>
 
       <td>
-        Quantity\
-        Description
-        Value
-        Weight
-        HSCode
-        CountryOfOrigin
+        * Quantity
+        * Description
+        * Value
+        * Weight
+        * HSCode
+        * CountryOfOrigin
       </td>
     </tr>
 
@@ -100,9 +100,7 @@ If you are importing goods into the UK via Freight 2 Post route, please ensure t
       </td>
 
       <td>
-        ShippingCharges
-
-        *`Note:`Please make sure to populate this field either with the exact amount the end customer was charged for shipping or with "0" if the shipping was for free.*
+        * ShippingCharges\_`Note:`Please make sure to populate this field either with the exact amount the end customer was charged for shipping or with "0" if the shipping was for free.\_
       </td>
     </tr>
   </tbody>
