@@ -89,8 +89,9 @@ In UK, the <Glossary>shipments</Glossary> arrive as freight. For custom clearanc
       </td>
 
       <td>
-        Required – CDS checks and physical labels.\
-        For CDS checks, you will be requested to create couple of labels, manifest them and share with us the PDFs so they can be reviewed and signed off.
+        Required – CDS checks and physical labels.
+
+        For CDS checks, you will be requested to create couple of labels, manifest them and share with us the PDFs so they can be reviewed and signed off.\
         For physical label sign off, you will be requested to create couple of labels, manifest them and ship them to Royal Mail.
 
         *`Note:`Details on this label are shared once the[Sandbox Test Pack](https://docs.intersoftsapient.net/docs/royal-mail-importers-sandbox-test-pack)  is approved.*
