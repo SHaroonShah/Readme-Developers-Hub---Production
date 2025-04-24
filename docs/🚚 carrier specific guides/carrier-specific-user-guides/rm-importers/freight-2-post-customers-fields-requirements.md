@@ -108,4 +108,4 @@ If you are importing goods into the UK via Freight 2 Post route, please ensure t
 
 > 🚧 *Please note*
 >
-> \_The above are also requirements specific for Royal Mail customers creating international shipments. \_
+> *The above are also requirements specific for Royal Mail customers creating international shipments.*
