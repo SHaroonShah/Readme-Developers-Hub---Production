@@ -100,7 +100,7 @@ If you are importing goods into the UK via Freight 2 Post route, please ensure t
       </td>
 
       <td>
-        * ShippingCharges\_`Note:`Please make sure to populate this field either with the exact amount the end customer was charged for shipping or with "0" if the shipping was for free.\_
+        * ShippingCharges - please make sure to populate this field either with the exact amount the end customer was charged for shipping or with "0" if the shipping was for free.
       </td>
     </tr>
   </tbody>
