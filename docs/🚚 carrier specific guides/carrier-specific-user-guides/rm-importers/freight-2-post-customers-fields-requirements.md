@@ -38,14 +38,14 @@ If you are importing goods into the UK via Freight 2 Post route, please ensure t
       </td>
 
       <td>
-        ContactName - this must be an individual person's name, not a company name.
-        CompanyName
-        ContactEmail
-        ContactPhone
-        Line1
-        Town
-        Postcode
-        CountryCode
+        * ContactName - this must be an individual person's name, not a company name.
+        * CompanyName
+        * ContactEmail
+        * ContactPhone
+        * Line1
+        * Town
+        * Postcode
+        * CountryCode
       </td>
     </tr>
 
@@ -55,7 +55,7 @@ If you are importing goods into the UK via Freight 2 Post route, please ensure t
       </td>
 
       <td>
-        ContactName
+        ContactName\
         CompanyName - highly recommended
         ContactEmail
         ContactPhone
@@ -72,7 +72,7 @@ If you are importing goods into the UK via Freight 2 Post route, please ensure t
       </td>
 
       <td>
-        DescriptionOfGoods
+        DescriptionOfGoods\
         DeclaredValue
         DeclaredWeight
         CurrencyCode
@@ -85,7 +85,7 @@ If you are importing goods into the UK via Freight 2 Post route, please ensure t
       </td>
 
       <td>
-        Quantity
+        Quantity\
         Description
         Value
         Weight
