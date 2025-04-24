@@ -114,4 +114,4 @@ In UK, the <Glossary>shipments</Glossary> arrive as freight. For custom clearanc
 
 > 🚧 *Important*
 >
-> Please also remember to develop our International Arrivals Containers (A-scan) API. It's one of the sets of API calls mandatory for Freight 2 Post customers.
+> Please also remember to develop our **International Arrivals Containers (A-scan) API calls**. It's mandatory for Freight 2 Post customers.
