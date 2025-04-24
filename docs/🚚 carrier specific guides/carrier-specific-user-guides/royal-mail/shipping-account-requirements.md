@@ -219,7 +219,7 @@ Once done, you have now successfully added a shipping account. Once the account 
 
 > 📘 *Note*
 >
-> *Shipping account(s) can be added and managed via API. For more information, refer to the [API References](https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts) section.*
+> *Shipping account(s) can be added and managed via API. For more information, refer to the[API References](https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts) section.*
 
 ### See also
 
