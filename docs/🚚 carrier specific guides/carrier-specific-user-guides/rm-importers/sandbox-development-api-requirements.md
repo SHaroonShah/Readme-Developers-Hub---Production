@@ -36,7 +36,7 @@ Prior to going live on SAPIENT, first provide a <Glossary>bearer token</Glossary
 >
 > *For example, when creating a new shipment replace the[https://api.intersoftsapient.net/v4/shipments/rm](https://api.intersoftsapient.net/v4/shipments/rm) URL with [https://api.intersoftsapient.cn/v4/shipments/rm](https://api.intersoftsapient.net/v4/shipments/rm).*
 >
-> *As a back-up, please develop\*\* .net\*\* as well.*
+> *As a back-up, please develo&#x70;**.net** as well.*
 
 ## See also
 
