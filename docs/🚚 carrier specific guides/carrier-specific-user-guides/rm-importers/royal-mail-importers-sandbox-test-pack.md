@@ -19,6 +19,7 @@ Before going live on SAPIENT, you are required to complete our Test Pack and sub
 * **Manifest/Sales Order Summary**- **Commercial Clearance customers only:** the <Glossary>manifest</Glossary> must be produced by calling the [Manifest Shipments](https://docs.intersoftsapient.net/reference/post_v4-manifests-carriercode) API request for the labels being supplied in the Test Pack.
 * **Request and Response examples**\
   **For all customers:** example of an API request and response for creating <Glossary>shipment</Glossary>, cancelling shipment and for manifesting shipment.
+
   **Additionally for Freight 2 Post customers:** example of an API requests and responses for International Arrivals Containers (A-scan) related calls.
 * **Test labels**. Test labels must be printed on a production printer and an image, or a scan of these labels, together with the rest of the required documents shared with us for an initial approval.
 * **Test pack submission**. Submit the complete **Test Pack** at [onboarding@intersoft.co.uk](mailto:onboarding@intersoft.co.uk).
