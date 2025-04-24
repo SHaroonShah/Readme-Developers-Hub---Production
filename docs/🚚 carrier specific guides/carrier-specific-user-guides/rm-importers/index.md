@@ -39,7 +39,7 @@ To integrate with the Royal Mail import services via SAPIENT, follow the steps l
 
 > 💡 *Tip*
 >
-> *For Sandbox (Test) account, please fill the information with dummy details. For more information on how to set up a Royal Mail S<Glossary>hipping Account</Glossary> , refer to the [Setup Royal Mail Shipping Account](https://docs.intersoftsapient.net/docs/shipping-account-requirements) section.*
+> *For Sandbox (Test) account, please fill the information with dummy details. For more information on how to set up a Royal Mail S<Glossary>hipping Account</Glossary> , refer to the [Set up Royal Mail Shipping Account](https://docs.intersoftsapient.net/docs/shipping-account-requirements) section.*
 
 6. If you are a Freight 2 Post customer, set up [International Arrival Containers (A-scan)](https://docs.intersoftsapient.net/docs/add-barcode-range-for-international-arrival-containers). For now this can be filled with dummy details. Production details will be provided to you when your account is switched onto production.
 7. After, develop all the [API calls required](https://docs.intersoftsapient.net/docs/sandbox-development-api-requirements) considering the specific requirements applicable to you:
