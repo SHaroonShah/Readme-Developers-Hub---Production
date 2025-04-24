@@ -50,7 +50,7 @@ In UK, the <Glossary>shipments</Glossary> arrive as freight. For custom clearanc
       </td>
 
       <td>
-        **Return to Sender** section of the **Create Shipment** request to be populated with the Royal Mail HWDC Distribution Centre address:
+        **Return to Sender** section of the **Create Shipment** request to be populated with the Royal Mail Heathrow Distribution Centre address:
 
         * **CompanyName**: COMPANY NAME - Royal Mail HWDC
         * **Line1:** Axis Park, Hurricane Way
