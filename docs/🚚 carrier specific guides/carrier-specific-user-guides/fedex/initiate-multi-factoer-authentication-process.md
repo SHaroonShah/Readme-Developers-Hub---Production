@@ -11,7 +11,7 @@ With FedEx, you can only create shipments using the OAuth token in the header of
 
 To retrieve the child key and child secret, you first need to complete the multi-factor authentication process by using one of the following validation methods available at the **Multi Factor Authentication** stage of the form.
 
-## Authentication with recent invoice
+## Authentication with recent invoice details
 
 If you want to validate your FedEx shipping account via the recent invoice, then you must select the **Recent Invoice** option, and enter the necessary information as described in the following table.
 
