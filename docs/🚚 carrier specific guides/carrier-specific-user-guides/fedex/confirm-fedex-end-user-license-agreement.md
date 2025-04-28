@@ -1,7 +1,7 @@
 ---
 title: Confirm FedEx end user license agreement
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
