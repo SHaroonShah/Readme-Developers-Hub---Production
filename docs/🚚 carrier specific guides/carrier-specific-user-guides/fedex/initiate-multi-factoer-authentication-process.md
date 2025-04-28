@@ -35,9 +35,7 @@ If you want to validate your FedEx shipping account via the recent invoice, then
       </td>
 
       <td>
-        Enter the carrier account number.
-
-        The format of the account number must be compliant with the carrier you have selected. If your account number does not meet the requirements, you may need to add the required amount of zero's at the beginning of the number to ensure it lies within the standard character length range for that carrier.
+        Enter a valid invoice number through which you want to authenticate the shipping account.
       </td>
     </tr>
 
@@ -47,11 +45,9 @@ If you want to validate your FedEx shipping account via the recent invoice, then
       </td>
 
       <td>
-        From the dropdown menu, select one of the following account types that you want to set up for the the shipping account you are adding:
+        Enter the date when the invoice was issued.
 
-        • **[Production](https://docs.intersoftsapient.net/docs/sandbox-account)**: a live environment where the final version of the application is deployed and made available to the users.
-
-        • **[Sandbox](https://docs.intersoftsapient.net/docs/sandbox-account)**: a testing environment that mimics the **Production** environment but is isolated from it. The sandbox environment is primarily used for development and testing purposes.
+        *`Note`: The invoice date must have been issued within the last 90 days.*
       </td>
     </tr>
 
@@ -61,7 +57,7 @@ If you want to validate your FedEx shipping account via the recent invoice, then
       </td>
 
       <td>
-        Enter the account name.
+        From the dropdown menu, select the currency specified with the amount in your invoice.
       </td>
     </tr>
 
@@ -71,17 +67,8 @@ If you want to validate your FedEx shipping account via the recent invoice, then
       </td>
 
       <td>
-        Enter the email address that was used to register the account for the carrier you selected.
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        **Contact Name**\*
-      </td>
-
-      <td>
-        Enter the contact name for the account you are adding.
+        Enter the exact amount displayed on your invoice.\
+        *`Note`: The invoice amount must be in the US format with decimals, for example, 234.50.*
       </td>
     </tr>
 
@@ -91,7 +78,7 @@ If you want to validate your FedEx shipping account via the recent invoice, then
       </td>
 
       <td>
-        Enter the contact number for the account you are adding.
+        Select
       </td>
     </tr>
   </tbody>
