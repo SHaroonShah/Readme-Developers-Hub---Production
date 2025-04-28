@@ -92,6 +92,8 @@ Upon validation, SAPIENT sends the Invoice Validation API request to FedEx using
 
 If you want to validate your FedEx shipping account via PIN, then you must select the **PIN Generation** option, and enter the necessary information as described in the following table.
 
+<Image align="center" border={true} caption="Authenticating FedEx shipping account with PIN generation" src="https://files.readme.io/1dd479887e9c4881543742d8ef07a3a1c993eefa871db0e9125ccaa3918fc77e-PIN_generation_options.png" />
+
 <Table align={["center","left"]}>
   <thead>
     <tr>
