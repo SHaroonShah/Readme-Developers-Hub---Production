@@ -30,7 +30,7 @@ To edit a <Glossary>shipping account</Glossary> in SAPIENT, follow the steps as 
 
 <Image align="center" alt="Selecting option to edit shipping account" border={true} caption="Selecting option to edit shipping account" src="https://files.readme.io/d81e673f87f261d6b098f8e062f8580297676b82eabd667fbb8a2df03beffd37-Edit_shipping_account_option.png" />
 
-5. In the **Edit Shipping Account\[account name]** form that opens, edit the necessary fields as explained in the [Add Shipping Account](doc:add-a-shipping-account) section. Select
+5. In the **Edit Shipping Account\[account name]** form that opens, edit the necessary fields as explained in the [Add Shipping Account](doc:add-a-shipping-account) section. Select ![alt text](https://files.readme.io/7d51785d13050e8a7f07e25cfb722d4d8afcff81a9a6b017d397b1fbbdaabb54-Save_changes_button.png).
 
 <Image align="center" alt="Editing shipping account" border={true} caption="Editing shipping account" src="https://files.readme.io/739afa80bd803ba071007e376bc6f3332ed5c2271b178d3b6f99ddad3f5a8f0b-Edit_shipping_account_page.png" />
 
