@@ -164,7 +164,7 @@ If you want to validate your FedEx shipping account via PIN, then you must selec
       </td>
 
       <td>
-        select ![alt text](https://files.readme.io/9ad4e9682f0c8d463a45785d7597c52ee40602f9e6a914f27bb6656409011726-Validate_button.png) to initiate the MFA validation process.
+        Select ![alt text](https://files.readme.io/9ad4e9682f0c8d463a45785d7597c52ee40602f9e6a914f27bb6656409011726-Validate_button.png) to initiate the MFA validation process.
       </td>
     </tr>
   </tbody>
