@@ -138,7 +138,7 @@ If you want to validate your FedEx shipping account via PIN, then you must selec
       </td>
 
       <td>
-        Enter the 6-digit PIN code you received via SMS, phone call, or email.
+        Enter the 6-digit PIN code you received via the method you selected for the PIN generation request.
       </td>
     </tr>
 
