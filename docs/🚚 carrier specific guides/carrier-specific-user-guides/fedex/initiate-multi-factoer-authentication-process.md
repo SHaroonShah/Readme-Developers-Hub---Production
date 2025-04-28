@@ -91,3 +91,78 @@ Upon validation, SAPIENT calls the Invoice Validation API request using the Auth
 ## Authentication with PIN generation
 
 If you want to validate your FedEx shipping account via PIN, then you must select the **PIN Generation** option, and enter the necessary information as described in the following table.
+
+<Table align={["center","left"]}>
+  <thead>
+    <tr>
+      <th>
+        Element
+      </th>
+
+      <th>
+        Description
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        **Verify with PIN**\*
+      </td>
+
+      <td>
+        From the dropdown menu, select one of the following options:
+
+        • SMS: select this option if you want to receive the PIN via SMS. In this case, the PIN is sent as as a text message to your contact number registered with your FedEx account.
+
+        • Phone Call: Select this option if you want to receive the PIN via phone call. In this case, the PIN is disclosed on a phone call at your contact number registered with your FedEx account.
+
+        • Email: Select this option if you want to receive the PIN via email. In this case, the PIN is sent your email registered with your FedEx account.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        **Request PIN**\*
+      </td>
+
+      <td>
+        Enter the date when the invoice was issued.
+
+        *`Note`: The invoice date must have been issued within the last 90 days.*
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        **Enter the 6 digit code we sent you**\*
+      </td>
+
+      <td>
+        From the dropdown menu, select the currency specified with the amount in your invoice.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        **Request a new PIN**\*
+      </td>
+
+      <td>
+        Enter the exact amount displayed on your invoice.\
+        *`Note`: The invoice amount must be in the US format with decimals, for example, 234.50.*
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        **Validate**\*
+      </td>
+
+      <td>
+        select ![alt text](https://files.readme.io/9ad4e9682f0c8d463a45785d7597c52ee40602f9e6a914f27bb6656409011726-Validate_button.png) to initiate the MFA validation process.
+      </td>
+    </tr>
+  </tbody>
+</Table>
