@@ -25,7 +25,7 @@ To edit a FedEx <Glossary>shipping account</Glossary> in SAPIENT, follow the ste
 
 > 🚧 *Important*
 >
-> *While editing the FedEx shipping account, please be advised that at the**EULA** stage of the **Edit Shipping Account** form, you cannot clear the already accepted end user license agreement checkbox. It is a one-time activity that you already did during the account creation process.*
+> *While editing the FedEx shipping account, please be advised that at the**EULA** stage of the **Edit Shipping Account** form, you cannot clear the already accepted end user license agreement checkbox. It is a one-time confirmation that [you already did](https://docs.intersoftsapient.net/docs/confirm-fedex-end-user-license-agreement#/) during the account creation process.*
 
 <br />
 
