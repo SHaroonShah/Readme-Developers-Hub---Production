@@ -82,7 +82,7 @@ To add a shipping account for FedEx in SAPIENT, follow the instructions as expla
 
 > 📘 *Note*
 >
-> *After submitting the form, if you have enabled the**Enable Electronic Trade Documents (ETD)** checkbox, then a corresponding dialog is displayed, prompting you to configure the ETD data via the [Signatures and logos](https://docs.intersoftsapient.net/docs/add-signature-and-logo#/) feature of SAPIENT.*
+> *After submitting the form, if you have enabled the**Enable Electronic Trade Documents (ETD)** checkbox, then a corresponding link is displayed with your successful account creation notification, prompting you to configure the ETD data via the [Signatures and logos](https://docs.intersoftsapient.net/docs/add-signature-and-logo#/) feature of SAPIENT.*
 
 Once validated, if the all the entered information is correct, the FedEx passes the MFA validation, and your FedEx shipping account is created successfully. You can now [add a shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location) to your new shipping account and start shipping with it.
 
