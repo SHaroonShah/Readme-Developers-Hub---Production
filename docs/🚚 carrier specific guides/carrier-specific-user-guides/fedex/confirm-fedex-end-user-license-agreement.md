@@ -5,4 +5,4 @@ hidden: true
 metadata:
   robots: index
 ---
-After successfully specifying the shipping account details
+After successfully specifying the shipping account details, at the **EULA** stage, read the FedEx end user license agreement and confirm your
