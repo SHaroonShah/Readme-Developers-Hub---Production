@@ -28,11 +28,11 @@ To edit a <Glossary>shipping account</Glossary> in SAPIENT, follow the steps as 
 3. On the **Shipping Accounts** page that opens, from the list of shipping accounts, select the account that you want to edit.
 4. In the **View Shipping Account\[account name]** page that opens, select ![alt text](https://files.readme.io/af5c41de6009316deb4ab39f682b3be215f7a7673548911d06c333bc5ccf7606-Edit_shipping_account_button.png).
 
-<Image align="center" alt="Selecting option to edit shipping account" border={true} caption="Selecting option to edit shipping account" src="https://files.readme.io/da8720593ce4c11fe44f88c066ea0f48bd55f3577cee604d77b48ccc1ca9554d-Edit_FedEx_shiiping_account_option.png" />
+<Image align="center" alt="Selecting option to edit shipping account" border={true} caption="Selecting option to edit shipping account" src="https://files.readme.io/d81e673f87f261d6b098f8e062f8580297676b82eabd667fbb8a2df03beffd37-Edit_shipping_account_option.png" />
 
 5. In the **Edit Shipping Account\[account name]** form that opens, edit the necessary fields as explained in the [Add Shipping Account](doc:add-a-shipping-account) section. Select
 
-<Image align="center" alt="Editing shipping account" border={true} caption="Editing shipping account" src="https://files.readme.io/64c1e29ed7ccfbfe62b22c1b8ee57a9955e254c1709263a38ad366e1f433f5fd-Edit_FedEx_shipping_account_screen.png" />
+<Image align="center" alt="Editing shipping account" border={true} caption="Editing shipping account" src="https://files.readme.io/739afa80bd803ba071007e376bc6f3332ed5c2271b178d3b6f99ddad3f5a8f0b-Edit_shipping_account_page.png" />
 
 > 🚧 *Important*
 >
