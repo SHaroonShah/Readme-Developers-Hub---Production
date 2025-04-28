@@ -5,7 +5,7 @@ hidden: true
 metadata:
   robots: index
 ---
-After specifying the shipping address details of your FedEx account, at the **Multi Factor Authentication** stage, you can validate your account.
+After [specifying the shipping address details](https://docs.intersoftsapient.net/docs/specify-shipping-address-details#/) of your FedEx account, at the **Multi Factor Authentication** stage, you can validate your account with FedEx.
 
 With FedEx, you can only create shipments using the OAuth token in the header of the FedEx API request. To obtain the OAuth token, you need to send the client ID, client secret, child key, and child secret in the API authorisation request.
 
