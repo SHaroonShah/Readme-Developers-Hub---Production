@@ -23,11 +23,11 @@ To edit a FedEx <Glossary>shipping account</Glossary> in SAPIENT, follow the ste
 
 5. In the **Edit Shipping Account \[account name]** form that opens, edit the necessary fields as explained in the [Add Fedex shipping account](https://docs.intersoftsapient.net/docs/add-fedex-shipping-account#/) section. Select ![alt text](https://files.readme.io/48e123d1c99c9c82703c570d1923be1ec7ebc0c29b7036d462fc0adcf4afafe5-Validate_button.png).
 
+<Image align="center" border={true} caption="Editing FedEx shipping account" src="https://files.readme.io/da15a035c9dc328d1185e652151f1a3ea234281ba0c942b8ff5d8d419c00b27d-Edit_FedEx_shipping_account_screen.png" />
+
 > 🚧 *Important*
 >
 > *While editing the FedEx shipping account, please be advised that at the**EULA** stage of the **Edit Shipping Account** form, you cannot clear the already accepted end user license agreement checkbox. It is a one-time confirmation that [you already did](https://docs.intersoftsapient.net/docs/confirm-fedex-end-user-license-agreement#/) during the account creation process.*
-
-<Image align="center" src="https://files.readme.io/51ee3b460f8c4123c9d99f6174e7397184cd768adcf09b06aef8bb8709e1b6a3-Edit_FedEx_shipping_account_screen.png" />
 
 Once the changes are saved, the shipping account is updated successfully.
 
