@@ -175,3 +175,7 @@ If you want to validate your FedEx shipping account via PIN, then you must selec
 Upon validation, SAPIENT sends the PIN Generation API request to FedEx using the Authorisation and AccountAuthToken , and returns the child ID and child secret in the success response. This information is stored in the your shipping account record and will be used to get the OAuth token for your account.
 
 Once validated, if the all the entered information is correct, the FedEx passes the MFA validation, and your FedEx shipping account is created successfully. You can now [add a shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location) to your new shipping account and start shipping with it.
+
+## See also
+
+* [Edit FedEx shipping account](https://docs.intersoftsapient.net/docs/edit-fedex-shipping-account#/)
