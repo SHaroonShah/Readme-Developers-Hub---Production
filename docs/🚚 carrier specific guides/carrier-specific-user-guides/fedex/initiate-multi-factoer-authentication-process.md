@@ -98,8 +98,6 @@ If you want to validate your FedEx shipping account via PIN, then you must selec
 
 <AsteridkForMandatoryElements />
 
-<br />
-
 <Table align={["center","left"]}>
   <thead>
     <tr>
@@ -164,7 +162,7 @@ If you want to validate your FedEx shipping account via PIN, then you must selec
 
     <tr>
       <td>
-        **Validate**\*
+        **Validate**
       </td>
 
       <td>
@@ -173,6 +171,8 @@ If you want to validate your FedEx shipping account via PIN, then you must selec
     </tr>
   </tbody>
 </Table>
+
+<br />
 
 Upon validation, SAPIENT sends the PIN Generation API request to FedEx using the Authorisation and AccountAuthToken , and returns the child ID and child secret in the success response. This information is stored in the your shipping account record and will be used to get the OAuth token for your account.
 
