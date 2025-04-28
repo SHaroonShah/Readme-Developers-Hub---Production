@@ -114,11 +114,11 @@ If you want to validate your FedEx shipping account via PIN, then you must selec
       <td>
         From the dropdown menu, select one of the following options:
 
-        • SMS: select this option if you want to receive the PIN via SMS. In this case, the PIN is sent as as a text message to your contact number registered with your FedEx account.
+        • **SMS**: Select this option if you want to receive the PIN via SMS. In this case, the PIN is sent as as a text message to your contact number registered with your FedEx account.
 
-        • Phone Call: Select this option if you want to receive the PIN via phone call. In this case, the PIN is disclosed on a phone call at your contact number registered with your FedEx account.
+        • **Phone Call**: Select this option if you want to receive the PIN via phone call. In this case, the PIN is disclosed on a phone call at your contact number registered with your FedEx account.
 
-        • Email: Select this option if you want to receive the PIN via email. In this case, the PIN is sent your email registered with your FedEx account.
+        • **Email**: Select this option if you want to receive the PIN via email. In this case, the PIN is sent as an email to your email address registered with your FedEx account.
       </td>
     </tr>
 
@@ -128,7 +128,7 @@ If you want to validate your FedEx shipping account via PIN, then you must selec
       </td>
 
       <td>
-        After selecting the desired method for PIN generation, select ![alt text](https://files.readme.io/ebe52fd81561c33e443aee0579c17fdf72a4d5359574d110acd760c025baec5a-Request_pin_button.png) to trigger the request operation.
+        After selecting the desired method for PIN generation, select ![alt text](https://files.readme.io/ebe52fd81561c33e443aee0579c17fdf72a4d5359574d110acd760c025baec5a-Request_pin_button.png) to trigger the PIN generation .
       </td>
     </tr>
 
