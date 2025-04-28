@@ -138,7 +138,7 @@ If you want to validate your FedEx shipping account via PIN, then you must selec
       </td>
 
       <td>
-        From the dropdown menu, select the currency specified with the amount in your invoice.
+        Enter the 6-digit PIN code you received via SMS, phone call, or email.
       </td>
     </tr>
 
@@ -164,3 +164,5 @@ If you want to validate your FedEx shipping account via PIN, then you must selec
     </tr>
   </tbody>
 </Table>
+
+Upon validation, SAPIENT calls the Invoice Validation API request using the Authorisation and AccountAuthToken and returns the child ID and child secret in the success response. This information is stored in the your shipping account record and will be used to get the OAuth token for your account.
