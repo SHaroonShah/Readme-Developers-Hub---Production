@@ -11,6 +11,6 @@ After successfully specifying the shipping account details, at the **EULA** stag
 
 > 🚧 *Important*
 >
-> *The checkbox is only activated after you have fully scrolled down to the bottom of the agreement. Please make sure you read the license agreement carefully before accepting it.*
+> *The checkbox is only activated after you have fully scrolled down to the bottom of the agreement. Please make sure you read the license agreement carefully before accepting it. Once the account is created , you cannot undo this selection*
 
 Once you have read the EULA confirmed your agreement, the system marks the agreement as signed with the current date, and displays the name of the user who signed it.
