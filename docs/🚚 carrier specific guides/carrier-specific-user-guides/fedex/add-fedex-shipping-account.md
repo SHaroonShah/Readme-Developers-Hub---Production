@@ -76,7 +76,7 @@ To add a shipping account for FedEx in SAPIENT, follow the instructions as expla
 </Table>
 
 4. After specifying the carrier and shipping location, a new **CONNECT YOUR FEDEX ACCOUNT** form appears.  At the **Shipping Account** stage of the form, specify the general details associated to your FedEx account number and then select ![alt text](https://files.readme.io/cc0b1ba97fd42622607551903346520543f58dfb3740f9f55eec3021b0a251d0-Next_button.png).
-5. At the **EULA** stage, carefully read the FedEx end user license agreement and confirm your agreement by selecting the checkbox and ![alt text](https://files.readme.io/a544674d471b96aadef7f8afe38ba10b912f11fb7b7fd758dc372d04dfbdd7da-I_agree_button.png) button.
+5. At the **EULA** stage, carefully read the FedEx end user license agreement and confirm your agreement by selecting the checkbox and ![alt text](https://files.readme.io/a544674d471b96aadef7f8afe38ba10b912f11fb7b7fd758dc372d04dfbdd7da-I_agree_button.png) button to proceed to the next stage.
 6. At the **Shipping Address** stage that appears, specify the FedEx shipping address details so that the system can validate and match it with the address registered in the FedEx systems. Select ![alt text](https://files.readme.io/467fc35d98b9402e95108b15780beb269e7b7c935be406e916cb506d31d25663-Submit_button.png). After the address has been validated, the **accountAuthToken** is generated. Save the generated token.
 7. At the **Multi Factor Authentication** stage, complete the multi-factor authentication process by using the **accountAuthToken** generated at the **Shipping Address** stage.
 8. Once all the stages have been completed, select ![alt text](https://files.readme.io/de151504635fd8047fe8fb205e9722ac5f626457b36dfc580618e40a539af45a-Submit_button.png).
