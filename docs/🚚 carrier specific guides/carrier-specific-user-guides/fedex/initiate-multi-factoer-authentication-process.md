@@ -78,8 +78,10 @@ If you want to validate your FedEx shipping account via the recent invoice, then
       </td>
 
       <td>
-        Select
+        select ![alt text](https://files.readme.io/9ad4e9682f0c8d463a45785d7597c52ee40602f9e6a914f27bb6656409011726-Validate_button.png) to initiate the MFA validation process.
       </td>
     </tr>
   </tbody>
 </Table>
+
+Upon validating, SAPIENT calls the Invoice Validation APIU request using the Authorisation and AccountAuthToken and returns the child ID and child secret in the success response. This information is stored in the your shipping account record and will be used to get the OAuth token for your account.
