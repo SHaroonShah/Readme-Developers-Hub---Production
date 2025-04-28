@@ -21,6 +21,6 @@ To edit a FedEx <Glossary>shipping account</Glossary> in SAPIENT, follow the ste
 
 <Image align="center" src="https://files.readme.io/32144b2ccde49fe928d90eb420f045ac8b1063bb6af0ea32d4ba65e7bb037dc3-Edit_FedEx_shiiping_account_option.png" />
 
-5. In the **Edit Shipping Account \[account name]** form that opens, edit the necessary fields as explained in the [Add Fedex shipping account](https://docs.intersoftsapient.net/docs/add-fedex-shipping-account#/) section. Select ![alt text](https://files.readme.io/7d51785d13050e8a7f07e25cfb722d4d8afcff81a9a6b017d397b1fbbdaabb54-Save_changes_button.png).
+5. In the **Edit Shipping Account \[account name]** form that opens, edit the necessary fields as explained in the [Add Fedex shipping account](https://docs.intersoftsapient.net/docs/add-fedex-shipping-account#/) section. Select ![alt text](https://files.readme.io/48e123d1c99c9c82703c570d1923be1ec7ebc0c29b7036d462fc0adcf4afafe5-Validate_button.png).
 
 <Image align="center" border={true} caption="Editing FedEx shipping account" src="https://files.readme.io/210747d9034a244d188df7015debab14c2a6fb1e3eb29fa00dfcccc4ba81df9b-Edit_FedEx_shipping_account_screen.png" />
