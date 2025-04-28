@@ -112,7 +112,7 @@ If you want to validate your FedEx shipping account via PIN, then you must selec
       </td>
 
       <td>
-        From the dropdown menu, select one of the following options:
+        From the dropdown menu, select one of the following options for the PIN generation request:
 
         • **SMS**: Select this option if you want to receive the PIN via SMS. In this case, the PIN is sent as as a text message to your contact number registered with your FedEx account.
 
@@ -148,7 +148,8 @@ If you want to validate your FedEx shipping account via PIN, then you must selec
       </td>
 
       <td>
-        Enter the exact amount displayed on your invoice.\
+        Enter the exact amount displayed on your invoice.
+
         *`Note`: The invoice amount must be in the US format with decimals, for example, 234.50.*
       </td>
     </tr>
