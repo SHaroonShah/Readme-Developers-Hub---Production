@@ -154,7 +154,7 @@ If you want to validate your FedEx shipping account via PIN, then you must selec
       </td>
 
       <td>
-        Select this link of your current link is expired or you did not receive one in the initial request.
+        Select this link if your current PIN is expired or you did not receive one in the initial request.
       </td>
     </tr>
 
