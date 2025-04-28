@@ -1,7 +1,7 @@
 ---
 title: Edit FedEx shipping account
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
