@@ -17,6 +17,10 @@ If you want to validate your FedEx shipping account via the recent invoice, then
 
 <Image align="center" border={true} caption="Authenticating FedEx shipping account with invoice details" src="https://files.readme.io/d5ab0db4e4030ad6c483ebfee1f964109f4d0d4c3d8839a9224b656fb463a4e9-Recent_invoice_option.png" />
 
+<AsteridkForMandatoryElements />
+
+<br />
+
 <Table align={["center","left"]}>
   <thead>
     <tr>
