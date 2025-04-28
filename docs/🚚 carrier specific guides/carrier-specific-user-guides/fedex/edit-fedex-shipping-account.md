@@ -8,3 +8,4 @@ hidden: true
 metadata:
   robots: index
 ---
+Unlike other carriers, FedEx does not have the standard shipping account screens, it works differently by providing you with a form, consisting of multiple tabs. Each tab is handled independently, but are interconnected to each other.
