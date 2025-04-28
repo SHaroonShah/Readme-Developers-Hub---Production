@@ -15,6 +15,8 @@ To retrieve the child key and child secret, you first need to complete the multi
 
 If you want to validate your FedEx shipping account via the recent invoice, then you must select the **Recent Invoice** option, and enter the necessary information as described in the following table.
 
+<Image align="center" border={true} caption="Authenticating FedEx shipping account with invoice details" src="https://files.readme.io/d5ab0db4e4030ad6c483ebfee1f964109f4d0d4c3d8839a9224b656fb463a4e9-Recent_invoice_option.png" />
+
 <Table align={["center","left"]}>
   <thead>
     <tr>
@@ -85,3 +87,7 @@ If you want to validate your FedEx shipping account via the recent invoice, then
 </Table>
 
 Upon validation, SAPIENT calls the Invoice Validation API request using the Authorisation and AccountAuthToken and returns the child ID and child secret in the success response. This information is stored in the your shipping account record and will be used to get the OAuth token for your account.
+
+## Authentication with PIN generation
+
+If you want to validate your FedEx shipping account via PIN, then you must select the **PIN Generation** option, and enter the necessary information as described in the following table.
