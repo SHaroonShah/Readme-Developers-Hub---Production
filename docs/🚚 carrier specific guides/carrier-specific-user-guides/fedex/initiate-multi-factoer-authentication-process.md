@@ -128,7 +128,7 @@ If you want to validate your FedEx shipping account via PIN, then you must selec
       </td>
 
       <td>
-        Enter the date when the invoice was issued.
+        After selecting the desired method for PIN generation, select ![alt text](https://files.readme.io/ebe52fd81561c33e443aee0579c17fdf72a4d5359574d110acd760c025baec5a-Request_pin_button.png) to trigger the request opertaion.
 
         *`Note`: The invoice date must have been issued within the last 90 days.*
       </td>
