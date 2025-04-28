@@ -154,9 +154,7 @@ If you want to validate your FedEx shipping account via PIN, then you must selec
       </td>
 
       <td>
-        Enter the exact amount displayed on your invoice.
-
-        *`Note`: The invoice amount must be in the US format with decimals, for example, 234.50.*
+        Select this link of your current link is expired or you did not receive one in the initial request.
       </td>
     </tr>
 
