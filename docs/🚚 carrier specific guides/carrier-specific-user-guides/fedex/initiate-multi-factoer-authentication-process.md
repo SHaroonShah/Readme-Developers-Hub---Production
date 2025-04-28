@@ -9,7 +9,7 @@ After [specifying the shipping address details](https://docs.intersoftsapient.ne
 
 With FedEx, you can only create shipments using the OAuth token in the header of the FedEx API request. To obtain the OAuth token, you need to send the client ID, client secret, child key, and child secret in the API authorisation request.
 
-To retrieve the child key and child secret, you first need to complete the multi-factor authentication process by using one of the following validation methods available at the **Multi Factor Authentication** stage of the form.
+To retrieve the child key and child secret, you first need to complete the multi-factor authentication process by using the validation methods available at the **Multi Factor Authentication** stage of the form.
 
 ## Authentication with recent invoice details
 
