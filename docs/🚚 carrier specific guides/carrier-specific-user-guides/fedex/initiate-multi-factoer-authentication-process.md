@@ -78,7 +78,7 @@ If you want to validate your FedEx shipping account via the recent invoice, then
 
     <tr>
       <td>
-        **Validate**\*
+        **Validate**
       </td>
 
       <td>
