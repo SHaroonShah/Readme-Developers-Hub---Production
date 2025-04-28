@@ -5,3 +5,4 @@ hidden: true
 metadata:
   robots: index
 ---
+After successfully specifying the shipping account details
