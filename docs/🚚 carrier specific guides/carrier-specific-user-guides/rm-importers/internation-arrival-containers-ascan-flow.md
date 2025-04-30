@@ -13,7 +13,7 @@ Based on your business requirements, you may proceed with any of the preceding o
 
 ### Create shipment and allocate container when the ContainerId is known
 
-<Image align="center" className="border" border={true} width="1000px" src="https://files.readme.io/5df9bc450c50a1edc88f858518058b4357749c69960cea101a8f706c9124b3c8-Flow_1.png" />
+<Image align="center" className="border" border={true} width="1000px" src="https://files.readme.io/9bbca314d86f05e79fe4a8debb357a98b9c3176a7c47b4268a670f2b3c93fd90-ASCAN_flow_-_1.png" />
 
 The flowchart outlines a process for creating a shipment and allocating a container when the `ContainerId` is known, starting with the creation of a container in advance. Then it follows with the creation of an order and a shipment request. It checks for the presence of the `ContainerId`; if known, it retrieves container details and proceeds to populate required fields. If the shipment is successfully created, <Glossary>tracking number</Glossary>s and <Glossary>labels</Glossary> are generated, leading to the printing of labels and preparation of the shipment for despatch. If any errors occur during the process, appropriate error responses are returned to ensure all issues are addressed systematically.
 
