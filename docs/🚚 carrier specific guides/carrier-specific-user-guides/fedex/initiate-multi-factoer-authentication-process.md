@@ -1,7 +1,7 @@
 ---
 title: Initiate Multi-factor authentication process
 excerpt: >-
-  he Multi-Factor Authentication (MFA) is a two-step process that end-customers
+  The Multi-Factor Authentication (MFA) is a two-step process that end-customers
   need to follow when onboarding on a third-party software solution. The purpose
   is to validate their identity as a designated representative of the
   EAN-holding company whose account number is being used for onboarding. It has
