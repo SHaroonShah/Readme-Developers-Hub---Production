@@ -3,8 +3,8 @@ title: Use local collect shipment service
 excerpt: >-
   _Local collect_ is a convenient delivery service through which you can have
   your parcels sent to a nearby post office or a designated collection point
-  instead of their home address. Recipients can choose their preferred location
-  for collection, making it easier to pick up packages at their convenience.
+  instead of your home address. With it, you can choose a preferred location for
+  collection, making it easier to pick up packages at your convenience.
 deprecated: false
 hidden: false
 metadata:
