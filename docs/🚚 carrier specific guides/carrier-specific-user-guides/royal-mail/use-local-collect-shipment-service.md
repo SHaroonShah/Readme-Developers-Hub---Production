@@ -70,8 +70,6 @@ A new `PudoId` field is included in **Address** object of the Royal Mail Create 
 > * *If the`pudoId` is provided for any other address other than the destination address, an error will be returned.*
 > * *If the`pudoId` is provided for a carrier that does not use PUDO, it will be ignored.*
 
-<br />
-
 The following snippet represents an example JSON response of the Get PUDO Location endpoint with the
 
 ```Text JSON
