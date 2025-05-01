@@ -150,4 +150,4 @@ The following snippet represents an example JSON response schema of the Get PUDO
 
 > 🚧 *Important*
 >
-> *If the destination company name includes “c/o” and the`PudoId` is not populated, the existing Local Collect functionality will continue to apply until customers update their integration with SAPIENT.*
+> *If the destination company name includes “c/o” and the`PudoId` is not populated, the existing Local Collect functionality will continue to apply.*
