@@ -58,7 +58,7 @@ The following new fields have been introduced in the TPLMS file.
 |         **Signature**        | Represents whether the location accepts signature or non-signature shipments                                                        |
 |         **Services**         | Represents the list of services offered at the location, for example, pick-up, drop-off, print label.                               |
 |        **Facilities**        | Represents the information about the available facilities, for example, disabled access, indoor locker, car parking.                |
-|  **Additional Information**  | Any additional information associated with the location.                                                                            |
+|  **Additional Information**  | Represents any additional information associated with the location.                                                                 |
 
 A new `PudoId` field is included in **Address** object of the Royal Mail Create Shipment request to recognise the specific Royal Mail location by its unique ID. When the `PudoId` field is utilised, the label and pre-advice will be generated with the updated information.
 
