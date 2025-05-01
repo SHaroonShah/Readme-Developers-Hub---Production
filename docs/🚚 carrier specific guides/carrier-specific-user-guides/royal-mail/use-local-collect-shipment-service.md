@@ -37,7 +37,7 @@ To make the **LocalCollect** shipment request, it is necessary to provide the fo
 
 Royal Mail’s Local Collect service is evolving to meet the needs of modern consumers. By enabling customers to receive their parcels at more diverse locations and providing a more robust data structure through the TPLMS file format, Royal Mail is enhancing the user experience and ensuring compliance with future shipping requirements
 
-With the introduction of a new TPLMS file, Royal Mail now supports the following new additional location types while also updating the <Glossary>label</Glossary> and <Glossary>pre-advice</Glossary> file.
+With the introduction of a new TPLMS file, Royal Mail now supports the following new additional location types while also updating the <Glossary>label</Glossary> and <Glossary>pre-advice</Glossary> file:
 
 * **Lockers (LOK)**: Convenient parcel lockers available for pickup.
 * **Collect+ Stores (PSH)**: A network of retail outlets, offering parcel collection services.
