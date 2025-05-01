@@ -908,6 +908,6 @@ The following table describes the records and fields that are present in the dat
 
 > 📘 *Note*
 >
-> \_*For more information on how to use this API endpoint, refer to the [PUDO Locations](https://docs.intersoftsapient.net/reference/get_v4-pudolocations-carriercode-countrycode-postcode) API reference. However, based on your requirements, you can use the SFTP solution as well.*
+> \_*For more information on how to use this API endpoint, refer to the[PUDO Locations](https://docs.intersoftsapient.net/reference/get_v4-pudolocations-carriercode-countrycode-postcode) API reference. However, based on your requirements, you can use the SFTP solution as well.*
 >
 > > *For instance,  if you want to find the PUDO locations for one postcode at a time, for example to integrate with the checkout feature on their website, then the API would be the more suitable solution. On the contrary, if you want to download the PUDO data into your own system to check the PUDO locations that are close by to a given address by yourself, then the SFTP solution would be more suitable.*
