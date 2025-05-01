@@ -64,9 +64,9 @@ A new `PudoId` field is included in **Address** object of the Royal Mail Create 
 
 > 🚧 *Important*
 >
-> Before providing the `pudoId`, make sure of the following:
+> *Before providing the`pudoId`, make sure of the following:*
 >
-> * \_For Royal Mail shipments, `pudoId` is only supported with the destination address as the Royal Mail's Local Collect label and pre-advice requirements only relate to this address. \_
+> * *For Royal Mail shipments,`pudoId` is only supported with the destination address (that is, collection shipments) as the Royal Mail's Local Collect label and pre-advice requirements only relate to this address. Please be advised that `pudoId` is not used for drop-off to a Local Collect store or Lockers as Royal Mail does not use the Unique ID for shipment drop-offs.*
 > * *If the`pudoId` is provided for any other address other than the destination address, an error will be returned.*
 > * *If the`pudoId` is provided for a carrier that does not use PUDO, it will be ignored.*
 
