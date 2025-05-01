@@ -15,7 +15,7 @@ metadata:
 next:
   description: ''
 ---
-The [PUDO API](https://docs.intersoftsapient.net/reference/get_v4-pudolocations-carriercode-countrycode-postcode#/) and the PUDO via SFTP solution enhances the convenience of shipping by allowing you to integrate pick-up and drop-off locations into your shipping processes. This flexibility enables you to offer more choices in how and where you receive you orders. Currently, these locations include Post Offices (POL) and Customer Service Points (CSP) via the Local Collect CSV file.
+The [PUDO API](https://docs.intersoftsapient.net/reference/get_v4-pudolocations-carriercode-countrycode-postcode#/) and the [PUDO via SFTP](https://docs.intersoftsapient.net/docs/pudo-data-via-sftp#/) solution enhances the convenience of shipping by allowing you to integrate pick-up and drop-off locations into your shipping processes. This flexibility enables you to offer more choices in how and where you receive you orders. Currently, these locations include Post Offices (POL) and Customer Service Points (CSP) via the Local Collect CSV file.
 
 <Image align="center" className="border" border={true} width="400px" src="https://files.readme.io/fc9948cba5b87c15e89ceda1d55fe6f022a938bb2b8661ace1f6f9c9e5572799-Post_office.gif" />
 
