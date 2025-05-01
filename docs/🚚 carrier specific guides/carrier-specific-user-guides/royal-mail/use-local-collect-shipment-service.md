@@ -15,7 +15,7 @@ metadata:
 next:
   description: ''
 ---
-The [PUDO API](https://docs.intersoftsapient.net/reference/get_v4-pudolocations-carriercode-countrycode-postcode#/) and the [PUDO via SFTP](https://docs.intersoftsapient.net/docs/pudo-data-via-sftp#/) solution enhances the convenience of shipping by allowing you to integrate pick-up and drop-off locations into your shipping processes. This flexibility enables you to offer more choices in how and where you receive you orders. Currently, these locations include Post Offices (POL) and Customer Service Points (CSP) via the Local Collect CSV file.
+The [PUDO API](https://docs.intersoftsapient.net/reference/get_v4-pudolocations-carriercode-countrycode-postcode#/) and the [PUDO via SFTP](https://docs.intersoftsapient.net/docs/pudo-data-via-sftp#/) solution enhances the convenience of shipping by allowing you to integrate pick-up and drop-off locations into your shipping processes. This flexibility offers more choices in how and where you receive you orders. Currently, these locations include Post Offices (POL) and Customer Service Points (CSP) via the Local Collect CSV file. When you send the [Get PUDO Locations](https://docs.intersoftsapient.net/reference/get_v4-pudolocations-carriercode-countrycode-postcode#/) request, the data imported from this file is used to determine the available PUDO locations that can be returned to the customer.
 
 <Image align="center" className="border" border={true} width="400px" src="https://files.readme.io/fc9948cba5b87c15e89ceda1d55fe6f022a938bb2b8661ace1f6f9c9e5572799-Post_office.gif" />
 
@@ -33,9 +33,9 @@ To make the **LocalCollect** shipment request, it is necessary to provide the fo
 2. The **ServiceEnhancements** code—**LocalCollect** must be used.
 3. The **Email** or **SMS** notification service enhancement must be used by providing the destination's **ContactPhone** or **ContactEmail** information, so the end consumer can be notified when their item is ready to be collected from the post office.
 
-## Use local collect with TPLMS file
+## Use local collect with PUDO ID
 
-Royal Mail’s Local Collect service is evolving to meet the needs of modern consumers. By enabling customers to send their parcels to more diverse locations and providing a more robust data structure through the TPLMS file format, Royal Mail is enhancing the user experience and ensuring compliance with future shipping requirements
+Royal Mail’s Local Collect service is evolving to meet the needs of modern consumers. By enabling customers to receive their parcels at more diverse locations and providing a more robust data structure through the TPLMS file format, Royal Mail is enhancing the user experience and ensuring compliance with future shipping requirements
 
 With the introduction of a new TPLMS file, Royal Mail now supports the following new additional location types while also updating the <Glossary>label</Glossary> and <Glossary>pre-advice</Glossary> file.
 
@@ -48,7 +48,7 @@ The following new fields have been introduced in the TPLMS file.
 | :--------------------------: | :---------------------------------------------------------------------------------------------------------------------------------- |
 |        **Supplier**\*        | Represents the name of the location supplier.                                                                                       |
 |     **Supplement Code**\*    | Represents additional identification code for the location supplier.                                                                |
-| **Supplier Location Type**\* | Represents the category of the supplier location.                                                                                   |
+| **Supplier Location Type**\* | Represents the category of the supplier location, for example, Collect+.                                                            |
 |        **Unique ID**\*       | Represents a distinct identifier for each collection point.                                                                         |
 |        **Label ID**\*        | Represents a unique identifier associated with the shipment label.                                                                  |
 |    **What3Words Value**\*    | Represents a precise address identifier for the location.                                                                           |
@@ -60,7 +60,95 @@ The following new fields have been introduced in the TPLMS file.
 |        **Facilities**        | Represents the information about the available facilities, for example, disabled access, indoor locker, car parking.                |
 |  **Additional Information**  | Any additional information associated with the location.                                                                            |
 
-A new `PudoId` field is included in the Royal Mail Create Shipment request to recognise the specific Royal Mail location by its unique ID. When the `PudoId` field is utilised, the label and pre-advice will be generated with the updated information.
+A new `PudoId` field is included in **Address** object of the Royal Mail Create Shipment request to recognise the specific Royal Mail location by its unique ID. When the `PudoId` field is utilised, the label and pre-advice will be generated with the updated information.
+
+> 🚧 *Important*
+>
+> Before providing the `pudoId`, make sure of the following:
+>
+> * \_For Royal Mail shipments, `pudoId` is only supported with the destination address as the Royal Mail's Local Collect label and pre-advice requirements only relate to this address. \_
+> * *If the`pudoId` is provided for any other address other than the destination address, an error will be returned.*
+> * *If the`pudoId` is provided for a carrier that does not use PUDO, it will be ignored.*
+
+<br />
+
+The following snippet represents an example JSON response of the Get PUDO Location endpoint with the
+
+```Text JSON
+{
+  "Locations": [
+    {
+      "CarrierCode": "RM",
+      "LocationAlias": "J S Pound Plus",
+      "LocationId": "2373391",
+      "Address": {
+        "Line1": "10 Grasmere Parade Wexham Road",
+        "Line2": "",
+        "Line3": "",
+        "Town": "Slough",
+        "Postcode": "SL2 5HZ",
+        "Geolocation": {
+          "Longitude": -0.5787,
+          "Latitude": 51.5183
+        },
+        "OpeningHours": {
+          "Monday": {
+            "OpeningTime": "10:00:00",
+            "ClosingTime": "21:00:00"
+          },
+          "Tuesday": {
+            "OpeningTime": "10:00:00",
+            "ClosingTime": "21:00:00"
+          },
+          "Wednesday": {
+            "OpeningTime": "10:00:00",
+            "ClosingTime": "21:00:00"
+          },
+          "Thursday": {
+            "OpeningTime": "10:00:00",
+            "ClosingTime": "21:00:00"
+          },
+          "Friday": {
+            "OpeningTime": "10:00:00",
+            "ClosingTime": "21:00:00"
+          },
+          "Saturday": {
+            "OpeningTime": "10:00:00",
+            "ClosingTime": "21:00:00"
+          },
+          "Sunday": {
+            "OpeningTime": "10:00:00",
+            "ClosingTime": "21:00:00"
+          }
+        }
+      },
+      "enhancedLocationDetails": {
+        "LocationType": "PSH",
+        "Supplier": "Collect+",
+        "SupplierLocationType": "Collect+",
+        "LabelId": "31262463",
+        "DistanceFromPostcode": "3.2",
+		"DistanceUnit": "miles",
+        "LocationAvailableFeatures": {
+          "ServiceCode": "TPN|TPS|TPM|TPL|ITL|ITM|ITN|ITS|TRL|TRM|TRN|TRS|ITC|ITD|ITE|ITF",
+          "AcceptSignature": "True",
+          "AcceptNonSignature": "True",
+          "LocationServices": "pickup|dropoff|printinstore",
+          "Facilities": "carparking"
+        },
+        "LocationRestrictions": {
+          "MaxHeight": "",
+          "MaxWidth": "",
+          "MaxLength": "",
+          "MaxWeight": "",
+          "MaxSize": ""
+        }
+      }
+    }
+  ],
+  "TotalCount": 1
+}
+```
 
 > 🚧 *Important*
 >
