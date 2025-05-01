@@ -1,6 +1,5 @@
 ---
 title: PUDO API
-excerpt: Coming soon!
 deprecated: false
 hidden: true
 metadata:
