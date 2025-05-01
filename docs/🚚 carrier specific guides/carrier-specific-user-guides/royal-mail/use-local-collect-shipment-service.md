@@ -35,12 +35,14 @@ To make the **LocalCollect** shipment request, it is necessary to provide the fo
 
 ## Use local collect with TPLMS file
 
+Royal Mail’s Local Collect service is evolving to meet the needs of modern consumers. By enabling customers to send their parcels to more diverse locations and providing a more robust data structure through the TPLMS file format, Royal Mail is enhancing the user experience and ensuring compliance with future shipping requirements
+
 With the introduction of a new TPLMS file, Royal Mail now supports the following new additional location types while also updating the <Glossary>label</Glossary> and <Glossary>pre-advice</Glossary> file.
 
 * **Lockers (LOK)**: Convenient parcel lockers available for pickup.
 * **Collect+ Stores (PSH)**: A network of retail outlets, offering parcel collection services.
 
-The following new fields have been introduced in the TPLMS file
+The following new fields have been introduced in the TPLMS file.
 
 |             Field            | Description                                                                                                                         |
 | :--------------------------: | :---------------------------------------------------------------------------------------------------------------------------------- |
@@ -56,4 +58,10 @@ The following new fields have been introduced in the TPLMS file
 |         **Signature**        | Represents whether the location accepts signature or non-signature shipments                                                        |
 |         **Services**         | Represents the list of services offered at the location, for example, pick-up, drop-off, print label.                               |
 |        **Facilities**        | Represents the information about the available facilities, for example, disabled access, indoor locker, car parking.                |
-|  **Additional Information**  | Any additional information associated with th e                                                                                     |
+|  **Additional Information**  | Any additional information associated with the location.                                                                            |
+
+A new `PudoId` field is included in the Royal Mail Create Shipment request to recognise the specific Royal Mail location by its unique ID. When the `PudoId` field is utilised, the label and pre-advice will be generated with the updated information.
+
+> 🚧 *Important*
+>
+> *If the destination company name includes “c/o” and the`PudoId` is not populated, the existing Local Collect functionality will continue to apply until customers update their integration with SAPIENT.*
