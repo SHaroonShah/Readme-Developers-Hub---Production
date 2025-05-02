@@ -25,14 +25,14 @@ This integration provides the following key features:
 
 * **Ship from destinations**: The integration supports shipping from locations in Great Britain (GB) and Europe.
 * **Ship To Destinations**: Users can send <Glossary>shipments</Glossary> to Great Britain (GB), Europe, and the <Glossary>ROW</Glossary> (Rest of the World).
-* **Service Type**: The integration is focused on outbound shipping and returns.
+* **Service Type**: The integration is focused on outbound shipping.
 
 ## Enhancements
 
 The following are the key enhancements provided by the FedEx integration:
 
 * **Saturday Delivery**: The option to deliver packages on Saturdays for added convenience.
-* **Enhanced transit Liability**: A surcharge is applicable if the requested enhanced value of the shipment exceeds the liability stated in FedEx's terms and conditions for the selected service.
+* **Declared Values**: A surcharge is applicable if the requested declared value of the shipment exceeds the liability stated in FedEx's terms and conditions for the selected service. The *declared value* of a package represents the maximum liability in connection with the shipment of the package, including, but not limited to, any loss, damage, delay, or missed delivery relating to that shipment. As the shipper, it’s your responsibility to prove any actual damages. Exposure to and risk of any loss in excess of your declared value is assumed by you.
 * **Signature options**: Enhanced signature options include:
   * Adult signature
   * Direct signature
