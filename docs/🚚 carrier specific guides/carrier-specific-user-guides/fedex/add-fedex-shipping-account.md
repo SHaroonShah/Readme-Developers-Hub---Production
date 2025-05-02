@@ -18,9 +18,9 @@ In SAPIENT, you can create a shipping account with FedEx, and then link it to th
 >
 > *Before setting up the<Glossary>shipping account</Glossary>, make sure:*
 >
-> * You have enabled the FedEx label integration.
-> * *The 9-digit FedEx carrier account number.*
-> * *The exact shipping address that you have provided to FedEx, as this information is validated via the**Address Validation** API. If the address does not match, then a corresponding error message is displayed—and you will not proceed to the**Multi-Factor Authentication** (MFA) stage of the **Add Shipping Account** form.*
+> * *You have[enabled the integration](https://docs.intersoftsapient.net/docs/integration-activation) with FedEx and have already [created a shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location).*
+> * *You have the 9-digit FedEx carrier account number.*
+> * *You have the exact shipping address that you have provided to FedEx, as this information is validated via the**Address Validation** API. If the address does not match, then a corresponding error message is displayed—and you will not proceed to the**Multi-Factor Authentication** (MFA) stage of the **Add Shipping Account** form.*
 
 To add a shipping account for FedEx in SAPIENT, follow the instructions as explained in the following procedure.
 
