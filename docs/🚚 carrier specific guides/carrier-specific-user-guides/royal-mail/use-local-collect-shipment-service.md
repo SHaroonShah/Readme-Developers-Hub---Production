@@ -6,7 +6,7 @@ excerpt: >-
   instead of your home address. With it, you can choose a preferred location for
   collection, making it easier to pick up packages at your convenience.
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   title: ''
   description: ''
