@@ -38,7 +38,7 @@ The following are the key enhancements provided by the FedEx integration:
   * **Direct signature**: To obtain a signature from someone at the delivery address only. If no one is available to sign, a redelivery attempt of the package will be made on another date.
   * **Indirect signature**: To obtain a signature from someone at the delivery address, from a neighbour or from a building manager. If no one is available to sign, the package will be delivered on another date.
   * **No signature required**: To obtain a signature at the delivery address. If no one is available to sign, the package will be kept in a safe place without obtaining the signature.
-  * **Email notifications**: Notifications available on delivery, estimated delivery, exceptions, shipment status, and tender.
+* **Email notifications**: Notifications available on delivery, estimated delivery, exceptions, shipment status, and tender.
 
 ## Additional features
 
