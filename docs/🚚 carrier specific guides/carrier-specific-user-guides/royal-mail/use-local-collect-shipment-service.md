@@ -71,37 +71,29 @@ Along with the new TPLMS file, the following new query parameters have been adde
   <tbody>
     <tr>
       <td>
-        locationServices
+        **locationServices**
       </td>
 
       <td>
-        <br />
+        This parameter specifies the available services offered at the PUDO location, such as pickup, dropoff, or print in store.
       </td>
     </tr>
 
     <tr>
       <td>
-        includeEnhancedLocationDetails
+        **includeEnhancedLocationDetails**
       </td>
 
       <td>
+        This parameter determines whether the response includes additional details about each PUDO location.
 
+        • If set to true, the JSON response will include `enhancedLocationDetails` object for each PUDO location. This includes more comprehensive information, such as facilities available at the location, for example, disabled access, parking, and so on, final collection times, and any additional attributes relevant to the location that might insist users in making informed decisions.
+
+        • If set to false, the response will be limited to the basic details of the PUDO locations without the enhanced attributes.
       </td>
     </tr>
   </tbody>
 </Table>
-
-<br />
-
-A new `PudoId` field is included in **Address** object of the Royal Mail Create Shipment request to recognise the specific Royal Mail location by its unique ID. When the `PudoId` field is utilised, the label and pre-advice will be generated with the updated information.
-
-> 🚧 *Important*
->
-> *Before providing the`pudoId`, make sure of the following:*
->
-> * *For Royal Mail shipments,`pudoId` is only supported with the destination address (that is, collection shipments) as the Royal Mail's Local Collect label and pre-advice requirements only relate to this address. Please be advised that `pudoId` is not used for drop-off to a Local Collect store or Lockers as Royal Mail does not use the Unique ID for shipment drop-offs.*
-> * *If the`pudoId` is provided for any other address other than the destination address, an error will be returned.*
-> * *If the`pudoId` is provided for a carrier that does not use PUDO, an error will be returned.*
 
 The following snippet represents an example JSON response schema of the Get PUDO Location endpoint via the TPLMS file.
 
@@ -180,6 +172,18 @@ The following snippet represents an example JSON response schema of the Get PUDO
   "TotalCount": 1
 }
 ```
+
+A new `PudoId` field is included in **Address** object of the Royal Mail Create Shipment request to recognise the specific Royal Mail location by its unique ID. When the `PudoId` field is utilised, the label and pre-advice will be generated with the updated information.
+
+> 🚧 *Important*
+>
+> *Before providing the`pudoId`, make sure of the following:*
+>
+> * *For Royal Mail shipments,`pudoId` is only supported with the destination address (that is, collection shipments) as the Royal Mail's Local Collect label and pre-advice requirements only relate to this address. Please be advised that `pudoId` is not used for drop-off to a Local Collect store or Lockers as Royal Mail does not use the Unique ID for shipment drop-offs.*
+> * *If the`pudoId` is provided for any other address other than the destination address, an error will be returned.*
+> * *If the`pudoId` is provided for a carrier that does not use PUDO, an error will be returned.*
+
+<br />
 
 > 🚧 *Important*
 >
