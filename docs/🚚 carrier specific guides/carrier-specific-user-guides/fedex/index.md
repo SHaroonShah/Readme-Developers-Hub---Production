@@ -17,6 +17,8 @@ next:
 ---
 <Image align="center" width="100px" src="https://files.readme.io/88a7599e1a64e2eb5cd20cc992a3a87dc3b68ebb766615ba6766c7f560586e5e-FedEx_White_BG.png" />
 
+***
+
 The FedEx-SAPIENT integration aims to enhance operational efficiency and provide users with tailored shipping options. By leveraging FedEx's extensive capabilities, businesses can ensure a streamlined shipping process that meets diverse logistical needs. This integration represents a significant step towards optimising shipping functions within SAPIENT.
 
 This integration provides the following key features:
