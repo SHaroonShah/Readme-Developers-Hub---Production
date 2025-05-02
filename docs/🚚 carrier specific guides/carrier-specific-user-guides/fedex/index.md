@@ -62,7 +62,7 @@ The following API services are provided by the FedEx integration:
 
 In this section, learn how to:
 
-* Add a FedEx shipping account
+* [Add a FedEx shipping account](https://docs.intersoftsapient.net/docs/add-fedex-shipping-account#/)
 * Add a FedEx tracking account
 
 > 📘 *Note*
