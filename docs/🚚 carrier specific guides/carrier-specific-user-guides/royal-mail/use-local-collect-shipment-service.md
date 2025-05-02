@@ -6,7 +6,7 @@ excerpt: >-
   instead of your home address. With it, you can choose a preferred location for
   collection, making it easier to pick up packages at your convenience.
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   title: ''
   description: ''
@@ -14,15 +14,9 @@ metadata:
 next:
   description: ''
 ---
-The [PUDO API](https://docs.intersoftsapient.net/reference/get_v4-pudolocations-carriercode-countrycode-postcode#/) and the [PUDO via SFTP](https://docs.intersoftsapient.net/docs/pudo-data-via-sftp#/) solution enhances the convenience of shipping by allowing you to integrate pick-up and drop-off locations into your shipping processes. This flexibility offers more choices in how and where you receive you orders. Currently, these locations include Post Offices (POL) and Customer Service Points (CSP) via the Local Collect CSV file. When you send the [Get PUDO Locations](https://docs.intersoftsapient.net/reference/get_v4-pudolocations-carriercode-countrycode-postcode#/) request, the data imported from this file is used to determine the available PUDO locations that is returned in the response for your to choose.s
+The [PUDO API](https://docs.intersoftsapient.net/reference/get_v4-pudolocations-carriercode-countrycode-postcode#/) and the [PUDO via SFTP](https://docs.intersoftsapient.net/docs/pudo-data-via-sftp#/) solution enhances the convenience of shipping by allowing you to integrate pick-up and drop-off locations into your shipping processes. This flexibility offers more choices in how and where you receive you orders. Currently, these locations include Post Offices (POL) and Customer Service Points (CSP) via the Local Collect CSV file. When you send the [Get PUDO Locations](https://docs.intersoftsapient.net/reference/get_v4-pudolocations-carriercode-countrycode-postcode#/) request, the data imported from this file is used to determine the available PUDO locations that are returned in the response for your to choose.
 
 <Image align="center" className="border" border={true} width="400px" src="https://files.readme.io/fc9948cba5b87c15e89ceda1d55fe6f022a938bb2b8661ace1f6f9c9e5572799-Post_office.gif" />
-
-Royal Mail utilises the **Local Collect** API service to implement and manage this delivery option within its shipping framework. Through the API function, the following functions can be facilitated:
-
-* **Collection point lookup**: enables customers to search for nearby collection points to select the most convenient location for their delivery.
-* **Parcel tracking**: provides updates on the status of the parcel and notifications when it is ready for collection.
-* **Integrations**: allows businesses to offer the **Local Collect** service at the point of sale, so that the customers can  retrieve an up-to-date list of Post Offices and Royal Mail customer service points, where the item can be held awaiting collection, thereby enhancing the overall customer experience and streamlining the shipping process.
 
 In SAPIENT, the local collect shipments can be created using the Royal Mail [Create Shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm) API.
 
@@ -67,7 +61,7 @@ A new `PudoId` field is included in **Address** object of the Royal Mail Create 
 >
 > * *For Royal Mail shipments,`pudoId` is only supported with the destination address (that is, collection shipments) as the Royal Mail's Local Collect label and pre-advice requirements only relate to this address. Please be advised that `pudoId` is not used for drop-off to a Local Collect store or Lockers as Royal Mail does not use the Unique ID for shipment drop-offs.*
 > * *If the`pudoId` is provided for any other address other than the destination address, an error will be returned.*
-> * *If the`pudoId` is provided for a carrier that does not use PUDO, it will be ignored.*
+> * *If the`pudoId` is provided for a carrier that does not use PUDO, an error will be returned.*
 
 The following snippet represents an example JSON response schema of the Get PUDO Location endpoint via the TPLMS file.
 
