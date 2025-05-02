@@ -15,7 +15,7 @@ metadata:
 next:
   description: ''
 ---
-<Image align="center" width="100px" src="https://files.readme.io/2fc819fdb5e6b061a5be95e2af7e86431549b3e904473971e9ff008852c8dcc7-da55dfr-7a2a61fc-9583-44cc-b724-fc2468b317df.png" />
+<Image align="center" width="100px" src="https://files.readme.io/b7abee5d9bccd03f529ac21be387220ead0a5f54ec0127725d9f4d06768c809d-fe688f144-fedex-logo-fedex-colors-html-hex-rgb-and-cmyk-color-codes.png" />
 
 The FedEx-SAPIENT integration aims to enhance operational efficiency and provide users with tailored shipping options. By leveraging FedEx's extensive capabilities, businesses can ensure a streamlined shipping process that meets diverse logistical needs. This integration represents a significant step towards optimising shipping functions within SAPIENT.
 
