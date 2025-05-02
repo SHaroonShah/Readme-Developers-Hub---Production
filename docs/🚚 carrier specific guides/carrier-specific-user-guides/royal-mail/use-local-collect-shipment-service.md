@@ -53,6 +53,46 @@ The following new fields have been introduced in the TPLMS file.
 |        **Facilities**        | Represents the information about the available facilities, for example, disabled access, indoor locker, car parking.                |
 |  **Additional Information**  | Represents any additional information associated with the location.                                                                 |
 
+Along with the new TPLMS file, the following new query parameters have been added to the Get PUDO Locations API request.
+
+<Table align={["center","left"]}>
+  <thead>
+    <tr>
+      <th>
+        Element
+      </th>
+
+      <th>
+        Description
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        locationServices
+      </td>
+
+      <td>
+        <br />
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        includeEnhancedLocationDetails
+      </td>
+
+      <td>
+
+      </td>
+    </tr>
+  </tbody>
+</Table>
+
+<br />
+
 A new `PudoId` field is included in **Address** object of the Royal Mail Create Shipment request to recognise the specific Royal Mail location by its unique ID. When the `PudoId` field is utilised, the label and pre-advice will be generated with the updated information.
 
 > 🚧 *Important*
