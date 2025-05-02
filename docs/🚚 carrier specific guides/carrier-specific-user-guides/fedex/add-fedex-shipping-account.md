@@ -20,7 +20,9 @@ In SAPIENT, you can create a shipping account with FedEx, and then link it to th
 >
 > * *You have[enabled the integration](https://docs.intersoftsapient.net/docs/integration-activation) with FedEx and have already [created a shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location).*
 > * *You have the 9-digit FedEx carrier account number.*
-> * *Make sure you have the exact shipping address that you have provided to FedEx, as this information is validated via the Address Validation API. If the address does not match, then a corresponding error message is displayed—and you will not proceed to the**Multi-Factor Authentication** (MFA) stage of the **Add Shipping Account** form. The multi-factor authentication is a crucial stage of the FedEx shipping account creation process, and this authentication must be completed by the FedEx account holder. This is done so that the account is validated in a secure manner and then can be used for shipping via our API.*
+> * *Make sure you have the exact shipping address that you have provided to FedEx, as this information is validated via the Address Validation API. If the address does not match, then a corresponding error message is displayed—and you will not proceed to the**Multi-Factor Authentication** (MFA) stage of the **Add Shipping Account** form.*
+>
+> *The multi-factor authentication is a crucial stage of the FedEx shipping account creation process, and this authentication must be completed by the FedEx account holder. This is done so that the account is validated in a secure manner and then can be used for shipping via our API.*
 
 To add a shipping account for FedEx in SAPIENT, follow the instructions as explained in the following procedure.
 
@@ -70,7 +72,7 @@ To add a shipping account for FedEx in SAPIENT, follow the instructions as expla
       <td>
         From the dropdown menu, select the location that you want to assign to the shipping account you are creating.
 
-        *`Note`: Before selecting the shipping location, make sure you have [created one](https://docs.intersoftsapient.net/docs/add-a-shipping-location) beforehand.*
+        *`Note`: Before selecting the shipping location, make sure you have[created one](https://docs.intersoftsapient.net/docs/add-a-shipping-location) beforehand.*
       </td>
     </tr>
   </tbody>
