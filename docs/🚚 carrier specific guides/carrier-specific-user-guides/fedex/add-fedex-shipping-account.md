@@ -88,15 +88,17 @@ To add a shipping account for FedEx in SAPIENT, follow the instructions as expla
 
 4. At the **Shipping Address** stage that appears, [specify the FedEx shipping address details](https://docs.intersoftsapient.net/docs/specify-shipping-address-details#/) so that the system can validate and match it with the address registered in the FedEx systems. Select ![alt text](https://files.readme.io/467fc35d98b9402e95108b15780beb269e7b7c935be406e916cb506d31d25663-Submit_button.png). After the address has been validated, the **accountAuthToken** is generated. Save the generated token.
 
-<Image align="center" border={true} caption="Specifying FedEx shipping address details" src="https://files.readme.io/20bfbbef05fe131fc7ef2852f79d1130a60f69a2b6fd7ed209900ca089b3ca18-FedEx_Shippig_address_stage.png" />
+<Image align="center" border={true} caption="Specifying FedEx shipping address details" src="https://files.readme.io/44a0d7bc452b2b65f362c4365107b07a28760e52cfce04c2ddd7418dbae127f3-FedEx_Shippig_address_stage.png" />
 
 4. At the **Multi Factor Authentication** stage, [complete the multi-factor authentication process](https://docs.intersoftsapient.net/docs/initiate-multi-factoer-authentication-process#/) by using the invoice number or PIN generation validation methods. Select ![alt text](https://files.readme.io/9ad4e9682f0c8d463a45785d7597c52ee40602f9e6a914f27bb6656409011726-Validate_button.png).
+
+<Image align="center" src="https://files.readme.io/7b2058eb6bf72d27640c63a5d639fd9b2a4675a4c0e83b7236a917e77f748842-Recent_invoice_option.png" />
 
 > 📘 *Note*
 >
 > *After submitting the form, if you have enabled the**Enable Electronic Trade Documents (ETD)** checkbox, then a corresponding link is displayed with your successful account creation notification, prompting you to configure the ETD data via the [Signatures and logos](https://docs.intersoftsapient.net/docs/add-signature-and-logo#/) feature of SAPIENT.*
 
-Once validated, if the all the entered information is correct, the FedEx passes the MFA validation, and your FedEx shipping account is created successfully. You can now [add a shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location) to your new shipping account and start shipping with it.
+Once validated, if the all the entered information is correct, the FedEx passes the MFA validation, and your FedEx shipping account is created successfully. At this point, INTERSOFT will get t
 
 > 🚧 *Important*
 >
