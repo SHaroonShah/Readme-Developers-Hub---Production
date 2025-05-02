@@ -11,6 +11,6 @@ After successfully specifying the shipping account details, at the **EULA** stag
 
 > 🚧 *Important*
 >
-> *The checkbox is only activated after you have fully scrolled down to the bottom of the agreement. Please make sure you read the license agreement carefully before accepting it. Once the account is created , you cannot undo this selection*
+> *The checkbox is only activated after you have fully scrolled down to the bottom of the agreement. Please make sure you read the license agreement carefully before accepting it. Once the account is created, you cannot undo this selection.*
 
 After you have read the EULA and confirmed your agreement, the system marks the agreement as signed with the current date and the name of the user who signed it. Now, you are proceeded to the  [Shipping Address](https://docs.intersoftsapient.net/docs/specify-shipping-address-details#/) stage of the form.
