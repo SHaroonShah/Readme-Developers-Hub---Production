@@ -15,7 +15,7 @@ metadata:
 next:
   description: ''
 ---
-<Image align="center" width="100px" src="https://files.readme.io/7fdbe37491cd4cb64c9b34a2eb87c9e0f35428aececde1dff435205b1d970a6e-FedEx.png" />
+<Image align="center" width="100px" src="https://files.readme.io/2fc819fdb5e6b061a5be95e2af7e86431549b3e904473971e9ff008852c8dcc7-da55dfr-7a2a61fc-9583-44cc-b724-fc2468b317df.png" />
 
 The FedEx-SAPIENT integration aims to enhance operational efficiency and provide users with tailored shipping options. By leveraging FedEx's extensive capabilities, businesses can ensure a streamlined shipping process that meets diverse logistical needs. This integration represents a significant step towards optimising shipping functions within SAPIENT.
 
@@ -67,4 +67,4 @@ In this section, learn how to:
 
 > 📘 *Note*
 >
-> *For more information on how to activate the FedEx integration, refer to the [Activate integration](https://docs.intersoftsapient.net/docs/integration-activation#/) section.*
+> *For more information on how to activate the FedEx integration, refer to the[Activate integration](https://docs.intersoftsapient.net/docs/integration-activation#/) section.*
