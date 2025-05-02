@@ -7,7 +7,7 @@ metadata:
 ---
 While creating a new FedEx shipping account in SAPIENT, at the **Shipping Account** stage, you can specify the general details associated to your FedEx account number.
 
-<Image align="center" alt="Specifying shipping account details" border={true} caption="Specifying shipping account details" src="https://files.readme.io/fa447171e8f90a43d206fa93b5dacfb723a09dca86dd4b979c21153c4a169bda-FEDEX_Shipping_account_stage.png" />
+<Image align="center" alt="Specifying shipping account details" border={true} caption="Specifying shipping account details" src="https://files.readme.io/f09b766e605894fe2654059248e798b97d0255e3b4f8535c7ce81dc4893ed87a-FEDEX_Shipping_account_stage.png" />
 
 The information on how to fill in the the necessary information at this stage are explained in the following table.
 
@@ -31,7 +31,7 @@ The information on how to fill in the the necessary information at this stage ar
   <tbody>
     <tr>
       <td>
-        **Carrier Account Number\***
+        **Carrier Account Number**\*
       </td>
 
       <td>
@@ -43,7 +43,7 @@ The information on how to fill in the the necessary information at this stage ar
 
     <tr>
       <td>
-        **Account Name (if different than customer)\***
+        **Account Name (if different than customer)**\*
       </td>
 
       <td>
@@ -53,7 +53,7 @@ The information on how to fill in the the necessary information at this stage ar
 
     <tr>
       <td>
-        **Account Type\***
+        **Account Type**\*
       </td>
 
       <td>
@@ -69,7 +69,7 @@ The information on how to fill in the the necessary information at this stage ar
 
     <tr>
       <td>
-        **Alias\***
+        **Alias**\*
       </td>
 
       <td>
@@ -79,7 +79,7 @@ The information on how to fill in the the necessary information at this stage ar
 
     <tr>
       <td>
-        **Contact Name\***
+        **Contact Name**\*
       </td>
 
       <td>
@@ -89,7 +89,7 @@ The information on how to fill in the the necessary information at this stage ar
 
     <tr>
       <td>
-        **Contact Number\***
+        **Contact Number**\*
       </td>
 
       <td>
@@ -135,7 +135,7 @@ The information on how to fill in the the necessary information at this stage ar
 
     <tr>
       <td>
-        **Third Party Contact Name**
+        **Contact Name**
       </td>
 
       <td>
@@ -145,7 +145,7 @@ The information on how to fill in the the necessary information at this stage ar
 
     <tr>
       <td>
-        **Third Party Company Name**
+        **Company Name**
       </td>
 
       <td>
@@ -155,7 +155,17 @@ The information on how to fill in the the necessary information at this stage ar
 
     <tr>
       <td>
-        **Third Party Address Line 1**\*
+        **Country**
+      </td>
+
+      <td>
+        From the dropdown menu, select the country in which the third party operates.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        **Address**\*
       </td>
 
       <td>
@@ -165,7 +175,7 @@ The information on how to fill in the the necessary information at this stage ar
 
     <tr>
       <td>
-        **Third Party Address Line 2**
+        **Address 2**
       </td>
 
       <td>
@@ -175,7 +185,7 @@ The information on how to fill in the the necessary information at this stage ar
 
     <tr>
       <td>
-        **Third Party Address Line 3**
+        **Address 3**
       </td>
 
       <td>
@@ -185,7 +195,7 @@ The information on how to fill in the the necessary information at this stage ar
 
     <tr>
       <td>
-        **Third Party Town**\*
+        **Town**\*
       </td>
 
       <td>
@@ -195,17 +205,17 @@ The information on how to fill in the the necessary information at this stage ar
 
     <tr>
       <td>
-        **Third Party Country**\*
+        **County**
       </td>
 
       <td>
-        Enter country in which the third party company operates.
+        Enter the name of the county in which the the third party company is located.
       </td>
     </tr>
 
     <tr>
       <td>
-        **Third Party Postcode**
+        **Postcode**
       </td>
 
       <td>
@@ -215,7 +225,7 @@ The information on how to fill in the the necessary information at this stage ar
 
     <tr>
       <td>
-        **Third Party Contact Phone**
+        **Contact Phone**
       </td>
 
       <td>
