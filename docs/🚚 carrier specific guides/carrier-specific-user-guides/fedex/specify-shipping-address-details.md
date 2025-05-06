@@ -55,7 +55,7 @@ The information on how to fill in the the necessary information at this stage ar
       <td>
         Enter the first line of the customer's address, typically including the street address or location where the customer is based. This is important for accurate validation of the customer details.
 
-        *`Note:`Make sure you enter the exact address that you want provided to FedEx. If the address validation fails, you will not proceed to the**Multi-Factor Authentication** stage of the form.*
+        *`Note:`Make sure you enter the exact address that you have provided against your FedEx account number. If the address validation fails, you will not proceed to the**Multi-Factor Authentication** stage of the form.*
       </td>
     </tr>
 
@@ -143,10 +143,5 @@ The information on how to fill in the the necessary information at this stage ar
 
 Once the information is submitted, the system runs a validation check by validating the provided address via the**Address Validation** API. Based on the validation output, the system does the following:
 
-* If the validation is successful, then the **accountAuthToken** is generated to be used in completing the multi-factor authentication process. Save the token and proceed to the [Multi Factor Authentication](https://docs.intersoftsapient.net/docs/initiate-multi-factoer-authentication-process#/) stage of the form.
-
-> 🚧 *Important*
->
-> *The**accountAuthToken** is only valid for 30 minutes. If it is not utilised within this duration, then the shipping address is revalidated by triggering the **Address Validation** API to generate a new **accountAuthToken**.*
-
-* If the validation fails (that is, the address is not matched in the FedEx systems), then a corresponding error message is displayed—and you will not proceed to the **Multi-Factor Authentication** (MFA) stage of the **Add Shipping Account** form.
+* If the validation is successful, you can proceed to the [Multi Factor Authentication](https://docs.intersoftsapient.net/docs/initiate-multi-factoer-authentication-process#/) stage of the form.
+* If the validation fails (that is, the address is not matched in the FedEx systems), then a corresponding error message is displayed—and you will not proceed to the **Multi-Factor Authentication** (MFA) stage of the **Add Shipping Account** form. To proceed, you must correct the address details.
