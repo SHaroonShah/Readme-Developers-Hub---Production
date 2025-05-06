@@ -1,7 +1,7 @@
 ---
 title: Specify shipping address details (MFA stage 1)
 excerpt: >-
-  The Multi-Factor Authentication (MFA) is a two-step process that you need to
+  The _Multi-Factor Authentication (MFA)_ is a two-step process that you need to
   follow when onboarding on a third-party software solution. The purpose is to
   validate your identity as a designated representative of the EAN-holding
   company whose account number is being used for onboarding. It has been
