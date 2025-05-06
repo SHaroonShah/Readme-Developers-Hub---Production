@@ -242,6 +242,146 @@ The information on how to fill in the the necessary information at this stage ar
         Enter the third party's tax identification numbers (TINs). If there are multiple TINs that need to be provided, separate each ID with a comma. This information is often required for customs clearance and ensures compliance with tax regulations.
       </td>
     </tr>
+  </tbody>
+</Table>
+
+If the **Duties and taxes payment type** field is set to Third Party, then you are must fill the additional fields as explained in the following table.
+
+<br />
+
+<Table align={["center","left"]}>
+  <thead>
+    <tr>
+      <th>
+        Element
+      </th>
+
+      <th>
+        Description
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        **Contact Name**
+      </td>
+
+      <td>
+        Enter the name of the primary contact person associated with the third party account.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        **Company Name**
+      </td>
+
+      <td>
+        Enter the name of the company associated with the third party account.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        **Country**
+      </td>
+
+      <td>
+        From the dropdown menu, select the country in which the third party operates.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        **Address**\*
+      </td>
+
+      <td>
+        Enter the first line of the third party's address, typically including the street address or location where the company is based. This is important for accurate delivery and communication.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        **Address 2**
+      </td>
+
+      <td>
+        Enter any additional address information that may be necessary, such as suite or apartment numbers, building names, or other relevant details that can help clarify the location.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        **Address 3**
+      </td>
+
+      <td>
+        Enter any extra details on the address to specify the location if the previous two fields do not fully convey the address.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        **Town**\*
+      </td>
+
+      <td>
+        Enter the town or city where the third party company is located.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        **County**
+      </td>
+
+      <td>
+        Enter the name of the county in which the the third party company is located.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        **Postcode**
+      </td>
+
+      <td>
+        Enter the postal/ZIP code for the third party's address.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        **Contact Phone**
+      </td>
+
+      <td>
+        Enter the phone number for the third party's primary contact person.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        **Third Party Account Number**\*
+      </td>
+
+      <td>
+        Enter the the unique FedEx account number of the third party that will be billed for the duties and taxes.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        **Tax Identification Numbers**\*
+      </td>
+
+      <td>
+        Enter the third party's tax identification numbers (TINs). If there are multiple TINs that need to be provided, separate each ID with a comma. This information is often required for customs clearance and ensures compliance with tax regulations.
+      </td>
+    </tr>
 
     <tr>
       <td>
@@ -249,7 +389,7 @@ The information on how to fill in the the necessary information at this stage ar
       </td>
 
       <td>
-        Select ![alt text](https://files.readme.io/b6c8af0dd2df7d574d6e95a6d57dee08b1b36bfe92e4350a94cb3b7eee6a5b71-Next_button.png) to proceed to the [Shipping Address](https://docs.intersoftsapient.net/docs/specify-shipping-address-details#/) stage of the form.
+        Select ![alt text](https://files.readme.io/b6c8af0dd2df7d574d6e95a6d57dee08b1b36bfe92e4350a94cb3b7eee6a5b71-Next_button.png) to proceed to the [Shipping Address](https://docs.intersoftsapient.net/docs/specify-shipping-address-details#/)  stage of the form.
       </td>
     </tr>
 
@@ -259,29 +399,9 @@ The information on how to fill in the the necessary information at this stage ar
       </td>
 
       <td>
-        Select ![alt text](https://files.readme.io/2ffa9cf28233588e3fa0be9258d8a2d6f5aa9d84f5e25f263c2c4d8c214cdbba-Submit_button.png) to create the shipping account and close the form.\
-        *`Note`: This button is only displayed if you have selected the**Sandbox** <Glossary>account type</Glossary>.*
+        Select ![alt text](https://files.readme.io/2ffa9cf28233588e3fa0be9258d8a2d6f5aa9d84f5e25f263c2c4d8c214cdbba-Submit_button.png) to create the shipping account and close the form.
+        *`Note`: This button is only displayed if you have selected the**Sandbox** <Glossary>account type</Glossary>*.
       </td>
     </tr>
   </tbody>
 </Table>
-
-If the **Duties and taxes payment type** field is set to Third Party, then you are must fill the additional fields as explained in the following table.
-
-<br />
-
-|              Element             | Description                                                                                                                                                                                                                                          |
-| :------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Third Party Account Number**\* | Enter the the unique FedEx account number of the third party that will be billed for the duties and taxes.                                                                                                                                           |
-|         **Contact Name**         | Enter the name of the primary contact person associated with the third party account.                                                                                                                                                                |
-|         **Company Name**         | Enter the name of the company associated with the third party account.                                                                                                                                                                               |
-|            **Country**           | From the dropdown menu, select the country in which the third party operates.                                                                                                                                                                        |
-|           **Address**\*          | Enter the first line of the third party's address, typically including the street address or location where the company is based. This is important for accurate delivery and communication.                                                         |
-|           **Address 2**          | Enter any additional address information that may be necessary, such as suite or apartment numbers, building names, or other relevant details that can help clarify the location.                                                                    |
-|           **Address 3**          | Enter any extra details on the address to specify the location if the previous two fields do not fully convey the address.                                                                                                                           |
-|            **Town**\*            | Enter the town or city where the third party company is located.                                                                                                                                                                                     |
-|            **County**            | Enter the name of the county in which the the third party company is located.                                                                                                                                                                        |
-|           **Postcode**           | Enter the postal/ZIP code for the third party's address.                                                                                                                                                                                             |
-|         **Contact Phone**        | Enter the phone number for the third party's primary contact person.                                                                                                                                                                                 |
-| **Third Party Account Number**\* |                                                                                                                                                                                                                                                      |
-| **Tax Identification Numbers**\* | Enter the third party's tax identification numbers (TINs). If there are multiple TINs that need to be provided, separate each ID with a comma. This information is often required for customs clearance and ensures compliance with tax regulations. |
