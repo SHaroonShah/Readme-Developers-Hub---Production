@@ -1,5 +1,5 @@
 ---
-title: Initiate Multi-factor authentication process. Stage 2
+title: Initiate Multi-factor authentication process (MFA stage 2)
 excerpt: >-
   The Multi-Factor Authentication (MFA) is a two-step process that you need to
   follow when onboarding on a third-party software solution. The purpose is to
