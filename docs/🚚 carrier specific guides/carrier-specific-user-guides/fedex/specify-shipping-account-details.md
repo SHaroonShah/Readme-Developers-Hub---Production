@@ -247,8 +247,6 @@ The information on how to fill in the the necessary information at this stage ar
 
 If the **Duties and taxes payment type** field is set to Third Party, then you are must fill the additional fields as explained in the following table.
 
-<br />
-
 <Table align={["center","left"]}>
   <thead>
     <tr>
