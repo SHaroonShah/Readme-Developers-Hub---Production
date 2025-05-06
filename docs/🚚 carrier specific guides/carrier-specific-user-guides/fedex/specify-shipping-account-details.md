@@ -119,7 +119,7 @@ The information on how to fill in the the necessary information at this stage ar
 
         • **ThirdParty**: A third-party account is billed for duties and taxes. This option is used when the sender wants another designated company (not the sender or receiver) to pay the applicable fees. This means that the designated third party will bear the costs of duties and taxes instead of the sender or recipient.
 
-        *`Note`: When the**ThirdParty** option is selected, an additional form is displayed for you to enter the third-party account details. For more information on how to fill this form, refer to the fields explained below.*
+        *`Note`: When the**ThirdParty** option is selected, an additional form is displayed for you to enter the third-party account details. For more information on how to fill this form, refer to the fields explained in the following table.*
       </td>
     </tr>
 
@@ -265,3 +265,23 @@ The information on how to fill in the the necessary information at this stage ar
     </tr>
   </tbody>
 </Table>
+
+If the **Duties and taxes payment type** field is set to Third Party, then you are must fill the additional fields as explained in the following table.
+
+<br />
+
+|              Element             | Description                                                                                                                                                                                                                                          |
+| :------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Third Party Account Number**\* | Enter the the unique FedEx account number of the third party that will be billed for the duties and taxes.                                                                                                                                           |
+|         **Contact Name**         | Enter the name of the primary contact person associated with the third party account.                                                                                                                                                                |
+|         **Company Name**         | Enter the name of the company associated with the third party account.                                                                                                                                                                               |
+|            **Country**           | From the dropdown menu, select the country in which the third party operates.                                                                                                                                                                        |
+|           **Address**\*          | Enter the first line of the third party's address, typically including the street address or location where the company is based. This is important for accurate delivery and communication.                                                         |
+|           **Address 2**          | Enter any additional address information that may be necessary, such as suite or apartment numbers, building names, or other relevant details that can help clarify the location.                                                                    |
+|           **Address 3**          | Enter any extra details on the address to specify the location if the previous two fields do not fully convey the address.                                                                                                                           |
+|            **Town**\*            | Enter the town or city where the third party company is located.                                                                                                                                                                                     |
+|            **County**            | Enter the name of the county in which the the third party company is located.                                                                                                                                                                        |
+|           **Postcode**           | Enter the postal/ZIP code for the third party's address.                                                                                                                                                                                             |
+|         **Contact Phone**        | Enter the phone number for the third party's primary contact person.                                                                                                                                                                                 |
+| **Third Party Account Number**\* |                                                                                                                                                                                                                                                      |
+| **Tax Identification Numbers**\* | Enter the third party's tax identification numbers (TINs). If there are multiple TINs that need to be provided, separate each ID with a comma. This information is often required for customs clearance and ensures compliance with tax regulations. |
