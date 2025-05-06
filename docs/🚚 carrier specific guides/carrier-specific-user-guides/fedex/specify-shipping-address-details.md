@@ -1,5 +1,5 @@
 ---
-title: Specify shipping address details
+title: Specify shipping address details (MFA stage 1)
 deprecated: false
 hidden: true
 metadata:
