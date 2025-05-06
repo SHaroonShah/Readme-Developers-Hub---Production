@@ -1,6 +1,10 @@
 ---
 title: Add FedEx tracking account
-excerpt: ''
+excerpt: >-
+  A _tracking account_ is a dedicated account that helps users, businesses, or
+  customers to monitor and manage the status of shipments in real-time. This
+  account provides access to tracking information for parcels and freight moving
+  through logistics network or with specific carriers.
 deprecated: false
 hidden: true
 metadata:
@@ -10,17 +14,17 @@ metadata:
 next:
   description: ''
 ---
-In SAPIENT, you can add tracking accounts for UPS to enhance visibility, improving customer interactions, and streamlining logistics operations for UPS.
+In SAPIENT, you can add tracking accounts for FedEx to enhance visibility, improving customer interactions, and streamlining logistics operations for FedEx.
 
 > 🚧 *Important*
 >
-> *Prior to adding a UPS tracking account, make sure you have completed the following prerequisites:*
+> *Prior to adding a FedEx tracking account, make sure you have completed the following prerequisites:*
 >
-> 1. *Enabled the[label integration](https://docs.intersoftsapient.net/docs/integration-activation) with UPS.*
-> 2. *Enabled the[tracking integration](https://docs.intersoftsapient.net/docs/integration-activation) with UPS.*
+> 1. *Enabled the[label integration](https://docs.intersoftsapient.net/docs/integration-activation) with FedEx.*
+> 2. *Enabled the[tracking integration](https://docs.intersoftsapient.net/docs/integration-activation) with FedEx.*
 > 3. *Set up your<Glossary>tracking webhook</Glossary>. For more information on how to set up a tracking webhook, refer to the [Create tracking webhook](https://docs.intersoftsapient.net/docs/create-tracking-webhook) section. This is a one-time activity, you do not have to do this every time you add a tracking account.*
 
-To add a tracking account for UPS in SAPIENT, follow the steps as explained in the following procedure.
+To add a tracking account for FedEx in SAPIENT, follow the steps as explained in the following procedure.
 
 1. In the left navigation panel, select **API** > **Webhooks**. On the page that opens, select the **Tracking Accounts** tab.
 
@@ -32,15 +36,15 @@ To add a tracking account for UPS in SAPIENT, follow the steps as explained in t
 
 3. On the **Add Tracking account** page that appears, in the **DETAILS** block, enter the necessary information as explained in the following table.
 
-<Image align="center" alt="Adding tracking account" border={true} caption="Adding tracking account" src="https://files.readme.io/d5239464ffac95ad4b5081802a5b002a3e966e94ab27e760cf7ba3d2eeecaf56-Details_block_UPS.png" width="500px" />
+<Image align="center" alt="Adding tracking account" border={true} caption="Adding tracking account" src="https://files.readme.io/30ef485f9710ebdcbd038ba34728a378b581e371d21be08b19bd9b416cb4e579-Adding_FedEx_tracking_account.png" width="500px" />
 
 <AsteridkForMandatoryElements />
 
 |         Element        | Description                                                                                                      |
 | :--------------------: | :--------------------------------------------------------------------------------------------------------------- |
-|      **Carrier**\*     | From the dropdown menu, select UPS as your carrier option.                                                       |
+|      **Carrier**\*     | From the dropdown menu, select FedEx as your carrier option.                                                     |
 | **Shipping Account**\* | From the dropdown menu, select the <Glossary>shipping account</Glossary> for which you want to receive tracking. |
 
 4. After entering all the necessary information, select ![alt text](https://files.readme.io/41bf635f2c82bf95197e5a2f62939d396ead6033e48a985a30965d84a5be57b8-Add_tracking_account_button_2.png).
 
-Once done, the UPS tracking account is added successfully and appears in the **Tracking Accounts** list. You can now receive the tracking information on your <Glossary>shipments</Glossary>.
+Once done, the FedEx tracking account is added successfully and appears in the **Tracking Accounts** list. You can now receive the tracking information on your <Glossary>shipments</Glossary>.
