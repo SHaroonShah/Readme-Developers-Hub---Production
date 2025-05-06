@@ -11,11 +11,7 @@ hidden: true
 metadata:
   robots: index
 ---
-After [specifying the shipping address details](https://docs.intersoftsapient.net/docs/specify-shipping-address-details#/) of your FedEx account, the **Multi Factor Authentication** is the second factor of authentication, where you can validate your account with FedEx.
-
-With FedEx, you can only create shipments using the OAuth token in the header of the FedEx API request. To obtain the OAuth token, you need to send the client ID, client secret, child key, and child secret in the API authorisation request.
-
-To retrieve the child key and child secret, you first need to complete the multi-factor authentication process by using the validation methods available at the **Multi Factor Authentication** stage of the form.
+After [specifying the shipping address details](https://docs.intersoftsapient.net/docs/specify-shipping-address-details#/) of your FedEx account and successfully completing the address validation, you are proceeded to the **Multi Factor Authentication** stage. This stage is the second factor of authentication, where you can validate your account with FedEx.
 
 ## Authentication with recent invoice details
 
