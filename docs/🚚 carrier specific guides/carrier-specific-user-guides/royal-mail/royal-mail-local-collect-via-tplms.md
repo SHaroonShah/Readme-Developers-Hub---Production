@@ -70,7 +70,7 @@ Along with the new TPLMS file, the following new query parameters have been adde
       <td>
         This parameter determines whether the response includes additional details about each PUDO location.
 
-        • If set to true, the JSON response will include `enhancedLocationDetails` object for each PUDO location. This includes more comprehensive information, such as facilities available at the location, for example, disabled access, parking, and so on, final collection times, and any additional attributes relevant to the location that might insist users in making informed decisions.
+        • If set to true, the JSON response will include `enhancedLocationDetails` object for each PUDO location. This includes more comprehensive information, such as facilities available at the location, for example, disabled access, parking, and so on, distance from postcode, and any additional attributes relevant to the location that might insist customers in making informed decisions.
 
         • If set to false, the response will be limited to the basic details of the PUDO locations without the enhanced attributes.
       </td>
