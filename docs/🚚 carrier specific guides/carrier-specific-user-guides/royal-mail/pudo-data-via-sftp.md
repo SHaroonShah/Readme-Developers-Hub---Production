@@ -32,8 +32,18 @@ The PUDO SFTP solution provides you with all locations in a single file that you
 >
 > *To learn more about the file structure and its data, refer to the following example file:*
 >
+> * [RMIS20250506](https://docs.google.com/spreadsheets/d/1QIJ8IxkWM3QJTeECVOOhIOYvgG76arF4cmZ8OSemUOQ/edit?gid=65170461#gid=65170461)
+
+<br />
+
+> 💡 *Tip*
+>
+> *To learn more about the file structure and its data, refer to the following example file:*
+>
+>
+>
 > <HTMLBlock>{`
-> <a href="https://docs.google.com/spreadsheets/d/1wiz8kcQlMscAj81c-OFOPh_3gkfOheLadDkt5GYyAKo/edit?usp=sharing" download="https://docs.google.com/spreadsheets/d/1QIJ8IxkWM3QJTeECVOOhIOYvgG76arF4cmZ8OSemUOQ/edit?usp=sharing">• RMlS20250506</a>
+>
 > `}</HTMLBlock>
 
 <br />
