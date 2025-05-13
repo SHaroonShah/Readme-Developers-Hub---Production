@@ -224,7 +224,7 @@ The following table describes the records and fields that are present in the dat
 </td>
   <td style="border: 1px solid #ddd; padding: 8px;"><p>3</p>
 </td>
-  <td style="border: 1px solid #ddd; padding: 8px;"><p>Represents the values of either CSP (for RM Customer Service Points) or POL(for Post Offices).</p>
+  <td style="border: 1px solid #ddd; padding: 8px;"><p>Represents the values of either CSP (for RM Customer Service Points), POL(for Post Offices), and PSH (Parcel Shop) for Collect + stores.</p>
 </td>
 </tr>
 <tr>
