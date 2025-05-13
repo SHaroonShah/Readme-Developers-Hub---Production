@@ -34,20 +34,6 @@ The PUDO SFTP solution provides you with all locations in a single file that you
 >
 > * [RMIS20250506](https://docs.google.com/spreadsheets/d/1QIJ8IxkWM3QJTeECVOOhIOYvgG76arF4cmZ8OSemUOQ/edit?gid=65170461#gid=65170461)
 
-<br />
-
-> 💡 *Tip*
->
-> *To learn more about the file structure and its data, refer to the following example file:*
->
->
->
-> <HTMLBlock>{`
->
-> `}</HTMLBlock>
-
-<br />
-
 ## File Naming
 
 All tracking data files will use the following naming conventions.
