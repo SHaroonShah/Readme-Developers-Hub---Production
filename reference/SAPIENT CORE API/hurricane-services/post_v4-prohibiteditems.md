@@ -1,9 +1,6 @@
 ---
 title: Prohibited Items
-excerpt: >-
-  Enables checking for any restrictions or prohibitions on products being
-  shipped, such as whether the product can be shipped from the shipper country
-  to the destination country.
+excerpt: "Check whether specific items in a shipment are prohibited for import, export, or transport based on the regulations related to the shipper's and destination countries. \r<br />            This API helps ensure compliance with international trade laws by identifying items that cannot legally cross borders, thereby preventing legal issues and shipment delays."
 api:
   file: sapient-core-api.json
   operationId: post_v4-prohibiteditems

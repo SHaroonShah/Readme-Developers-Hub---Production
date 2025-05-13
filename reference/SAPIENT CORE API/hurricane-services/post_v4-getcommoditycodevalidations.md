@@ -1,9 +1,6 @@
 ---
 title: Commodity Codes Validation
-excerpt: >-
-  Provides a suitable description and HS Code that would be better suited to the
-  items being shipped, to help improve the quality of customs data provided for
-  international shipments.
+excerpt: "Validate the Harmonized System (HS) codes for items being shipped. \r<br />            This API helps ensure that the HS codes provided for items accurately correspond to the descriptions and comply with customs requirements, providing improved quality of customs data provided for international shipments."
 api:
   file: sapient-core-api.json
   operationId: post_v4-getcommoditycodevalidations
