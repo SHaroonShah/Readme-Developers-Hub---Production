@@ -22,5 +22,6 @@ In SAPIENT, the local collect shipments can be created using the Royal Mail [Cre
 
 To make the **LocalCollect** shipment request, it is necessary to provide the following information:
 
-1. The **ServiceEnhancements** code—**LocalCollect** must be used.
-2. The **Email** or **SMS** notification service enhancement must be used by providing the destination's **ContactPhone** or **ContactEmail** information, so the end consumer can be notified when their item is ready to be collected from the post office.
+1. The request must include *“c/o”* with the location name.
+2. The **ServiceEnhancements** code—**LocalCollect** must be used.
+3. The **Email** or **SMS** notification service enhancement must be used by providing the destination's **ContactPhone** or **ContactEmail** information, so the end consumer can be notified when their item is ready to be collected from the post office.
