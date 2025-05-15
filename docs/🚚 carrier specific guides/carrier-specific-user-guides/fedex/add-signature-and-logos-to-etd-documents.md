@@ -182,7 +182,7 @@ Alternatively, select the link that was displayed with your successful FedEx acc
       </td>
 
       <td>
-        select ![alt text](https://files.readme.io/866310e4fa14cf86a31a827c203da1fa0b2f7dbd5f52e868b6d96692fc223f3d-Cancel_button.png) to discard the changes and close the form. No changes are saved in this case.
+        Select ![alt text](https://files.readme.io/866310e4fa14cf86a31a827c203da1fa0b2f7dbd5f52e868b6d96692fc223f3d-Cancel_button.png) to discard the changes and close the form. No changes are saved in this case.
       </td>
     </tr>
   </tbody>
