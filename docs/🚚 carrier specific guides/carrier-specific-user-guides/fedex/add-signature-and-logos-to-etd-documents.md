@@ -20,7 +20,7 @@ To add signature and logo to your electronic trade documents in SAPIENT, follow 
 
 <Image align="center" alt="Accessing signatures and logos" border={true} caption="Accessing signatures and logos" src="https://files.readme.io/00c81ec3f8935f700829d2ec2e8ed30d0fa0bd6fc0a5d658684f8609202fab93-Signatures_and_logos_option.png" />
 
-Alternatively, select the link that was displayed with your successful account creation notification, directing you to the **Signatures and Logos** page for ETD configuration.
+Alternatively, select the link that was displayed with your successful FedEx account creation notification, directing you to the **Signatures and Logos** page for ETD configuration.
 
 <Image align="center" border={true} caption="Selecting link to configure ETD documents" src="https://files.readme.io/1b876fd165eaa4b02e5b3b5f93d838fdcb8cdad9798ebd58c6f7ed45a01b92e4-ETD_config_notification.png" />
 
