@@ -90,7 +90,7 @@ Alternatively, select the link that was displayed with your successful FedEx acc
 
 > 💡 *Tip*
 >
-> *The**SIGNATURES & LOGO** block is not mandatory, if you do not want to configure it, then skip this section and select ![alt text](https://files.readme.io/57defd548ada4f381b9968a291bb45d55b435feab09408e30266126b303228fc-Add_documents_and_images_button.png) to save your ETD documents.*
+> *The**SIGNATURES & LOGO** block is not mandatory, if you do not want to configure it, then skip this section and select ![alt text](https://files.readme.io/57defd548ada4f381b9968a291bb45d55b435feab09408e30266126b303228fc-Add_documents_and_images_button.png) to save your uploaded ETD documents.*
 
 <Image align="center" alt="Entering signature, logo and their details" border={true} caption="Entering signature/logo details" src="https://files.readme.io/1581b1454c74b50460fcd92a434d115676e887baec535dfc63e79ba6706ce55e-Signature_and_logo_block.png" />
 
