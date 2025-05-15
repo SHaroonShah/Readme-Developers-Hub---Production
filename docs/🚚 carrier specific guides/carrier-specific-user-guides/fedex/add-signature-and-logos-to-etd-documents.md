@@ -2,7 +2,7 @@
 title: Add ETD documents
 excerpt: >-
   This setting enables the businesses to upload their branding elements, such as
-  Electronic aTrade Documents (ETD), digital signatures and company logos, which
+  Electronic Trade Documents (ETD), digital signatures and company logos, which
   can be included on the commercial and proforma invoice customs documents
   related to the shipments.
 deprecated: false
