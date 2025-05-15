@@ -1,5 +1,5 @@
 ---
-title: Add ETD documents
+title: Add ETD documents for FedEx shipping account
 excerpt: >-
   This setting enables the businesses to upload their branding elements, such as
   Electronic Trade Documents (ETD), digital signatures and company logos, which
