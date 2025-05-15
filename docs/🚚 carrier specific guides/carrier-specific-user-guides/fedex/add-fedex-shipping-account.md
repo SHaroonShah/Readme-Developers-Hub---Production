@@ -18,7 +18,7 @@ In SAPIENT, you can create a shipping account with FedEx, and then link it to th
 >
 > *Before setting up the<Glossary>shipping account</Glossary>, make sure:*
 >
-> * *You have [enabled the integration](https://docs.intersoftsapient.net/docs/integration-activation) with FedEx and have already [created a shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location).*
+> * *You have[enabled the integration](https://docs.intersoftsapient.net/docs/integration-activation) with FedEx and have already [created a shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location).*
 > * *You have the 9-digit FedEx carrier account number.*
 > * *Make sure you have the exact shipping address that you have provided to FedEx, as this information is validated via the Address Validation API. If the address does not match, then a corresponding error message is displayed—and you will not proceed to the**Multi-Factor Authentication** (MFA) stage of the **Add Shipping Account** form.*
 >
@@ -96,7 +96,7 @@ To add a shipping account for FedEx in SAPIENT, follow the instructions as expla
 
 > 📘 *Note*
 >
-> *After submitting the form, if you have selected the**Enable Electronic Trade Documents (ETD)** checkbox, then a corresponding link is displayed with your successful account creation notification, prompting you to configure the ETD data via the [Signatures and logos](https://docs.intersoftsapient.net/docs/add-signature-and-logo#/) feature of SAPIENT.*
+> *After submitting the form, if you have selected the**Enable Electronic Trade Documents (ETD)** checkbox, then a corresponding link is displayed with your successful account creation notification, prompting you to configure the ETD data via the [Signatures and logos](https://docs.intersoftsapient.net/docs/add-signature-and-logos-to-etd-documents#/) feature of SAPIENT.*
 
 Once validated, if the all the entered information is correct, the FedEx passes the MFA validation, and your FedEx shipping account is created successfully. At this point, INTERSOFT will get the new API credentials from FedEx for your shipping account for you to start shipping with your newly created FedEx account via our API.
 
