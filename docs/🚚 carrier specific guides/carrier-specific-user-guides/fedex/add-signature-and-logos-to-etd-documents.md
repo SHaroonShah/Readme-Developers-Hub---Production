@@ -1,5 +1,5 @@
 ---
-title: Add signature and logos to ETD documents
+title: Add signature and logo to ETD documents
 excerpt: >-
   This setting enables the businesses to upload their branding elements, such as
   digital signatures and company logos, which can be included on the commercial
