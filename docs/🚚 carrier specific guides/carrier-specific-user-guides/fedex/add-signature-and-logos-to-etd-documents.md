@@ -2,22 +2,17 @@
 title: Add ETD documents
 excerpt: >-
   This setting enables the businesses to upload their branding elements, such as
-  digital signatures and company logos, which can be included on the commercial
-  and proforma invoice customs documents related to the shipments.
+  Electronic aTrade Documents (ETD), digital signatures and company logos, which
+  can be included on the commercial and proforma invoice customs documents
+  related to the shipments.
 deprecated: false
 hidden: true
 metadata:
   robots: index
 ---
-In SAPIENT, you can add logos and signatures to enhance the your brand visibility and professionalism by ensuring that all shipping documents are consistent with the company’s branding, providing authentic and trustworthy representation of the business, particularly when dealing with customers and partners.
+In SAPIENT, you can add ETDs, logos, and signatures to enhance the your brand visibility and professionalism by ensuring that all shipping documents are consistent with the company’s branding, providing authentic and trustworthy representation of the business, particularly when dealing with customers and partners.
 
-While specifying the FedEx shipping account details of the create shipping account process, if you have selected the Enable Electronic Trade Documents (ETD) checkbox, you can configure the ETD data via the **Signatures and Logos** feature of SAPIENT.
-
-<Image align="center" border={true} caption="Selecting link to configure ETD documents" src="https://files.readme.io/1b876fd165eaa4b02e5b3b5f93d838fdcb8cdad9798ebd58c6f7ed45a01b92e4-ETD_config_notification.png" />
-
-> 📘 *Note*
->
-> *If you do not want to add signatures and logos instantly via the notification link, you can always add them later by accessing the**Signatures and Logos** screen.*
+While [specifying the FedEx shipping account details](https://docs.intersoftsapient.net/docs/specify-shipping-account-details#/) during the create shipping account process, if you have selected the **Enable Electronic Trade Documents (ETD)** checkbox, then you can configure the ETD data via the **Signatures and Logos** feature of SAPIENT.
 
 To add signature and logo to your electronic trade documents in SAPIENT, follow the steps as explained in the following procedure.
 
@@ -25,21 +20,79 @@ To add signature and logo to your electronic trade documents in SAPIENT, follow 
 
 <Image align="center" alt="Accessing signatures and logos" border={true} caption="Accessing signatures and logos" src="https://files.readme.io/00c81ec3f8935f700829d2ec2e8ed30d0fa0bd6fc0a5d658684f8609202fab93-Signatures_and_logos_option.png" />
 
-Alternatively, select the link that was displayed with your successful account creation notification, directing you to the Signatures and Logos page for ETD configuration.
+Alternatively, select the link that was displayed with your successful account creation notification, directing you to the **Signatures and Logos** page for ETD configuration.
 
-&#x20;
+<Image align="center" border={true} caption="Selecting link to configure ETD documents" src="https://files.readme.io/1b876fd165eaa4b02e5b3b5f93d838fdcb8cdad9798ebd58c6f7ed45a01b92e4-ETD_config_notification.png" />
 
 2. In the **Signatures and Logos** page that opens, select ![alt text](https://files.readme.io/2e03049feb3d93343e3c10aeb0958e95489136884c6fea556824482504e36176-Add_sign_and_logo_button.png).
 
 <Image align="center" alt="Accessing option to add signature and logo" border={true} caption="Accessing option to add signature and logo" src="https://files.readme.io/af0587aafff2921d2ae9f21523162ad00f35e5b667c43e7d98d5c5844644d248-Add_sign_and_logo_option.png" />
 
-3. In the **Add Signature and Logo** form that opens, in the **SHIPPING ACCOUNT** block, from the dropdown menu, select the <Glossary>shipping account</Glossary> for which you want to add the signature and logo.
+3. In the **Add Signature and Logo** form that opens, in the **SHIPPING ACCOUNT** block, from the dropdown menu, select your FedEx <Glossary>shipping account</Glossary> for which you want to add the ETD documents.
 
-<Image align="center" alt="Selecting shipping account" border={true} caption="Selecting shipping account" src="https://files.readme.io/5ae73e9b31172ef595d23ce52d14ebecfe8fc628d7496ede4c7d79941a79a92c-Shipping_account_block_4.png" />
+<Image align="center" alt="Selecting shipping account" border={true} caption="Selecting FedEx shipping account" src="https://files.readme.io/2a35a1f372f43c2ca5e3fb4e861cdaff59b039a5d61a870f882cdee2c37629bd-Selecting_FedEx_shipping_account_for_Logos.png" />
 
-4. After, in the **SIGNATURE AND LOGO** block that appears, enter the necessary information as explained in the following table.
+4. In the **ELECTRONIC TRADE DOCUMENTS** block that opens, enter the enter the necessary information as explained in the following table.
 
-<Image align="center" alt="Entering signature, logo and their details" border={true} caption="Entering signature/logo details" src="https://files.readme.io/42f3cd704b6a44482e97a5d987957886231cedb5e0107daa688b33e38d7666f0-Signature_and_logo_block.png" />
+<Image align="center" alt="Entering signature, logo and their details" border={true} caption="Adding electronic trade documents" src="https://files.readme.io/e91ef385e6f0f934f5eb9b32ca72cf0e6a1b9cc2a636daf98659d25f7b655c36-FedEx_Logo_screen.png" />
+
+<Table align={["center","left"]}>
+  <thead>
+    <tr>
+      <th>
+        Element
+      </th>
+
+      <th>
+        Description
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        **Letterhead Image**
+      </td>
+
+      <td>
+        Select **Choose File**, follow the prompts of your computer, and then select the letterhead image that you want to upload.
+
+        Alternatively, drag the desired logo file to this field.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        **ETD Signature Image**
+      </td>
+
+      <td>
+        Select **Choose File**, follow the prompts of your computer, and then select the ETD signature image file that you want to upload.
+
+        Alternatively, drag the desired logo file to this field.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        **ETD Declaration Statement**
+      </td>
+
+      <td>
+        Carefully read the ETD declaration statement before proceeding.
+      </td>
+    </tr>
+  </tbody>
+</Table>
+
+4. After, in the **SIGNATURE AND LOGO** block, if you want to add any additional images for branding purposes, then enter the necessary information as explained in the following table.
+
+> 💡 *Tip*
+>
+> *The**SIGNATURES & LOGO** block is not mandatory, if you do not want to configure it, then skip this section and select ![alt text](https://files.readme.io/57defd548ada4f381b9968a291bb45d55b435feab09408e30266126b303228fc-Add_documents_and_images_button.png) to save your ETD documents.*
+
+<Image align="center" alt="Entering signature, logo and their details" border={true} caption="Entering signature/logo details" src="https://files.readme.io/72c5b835d1837175a95638db3bfb7e5c47d60175777dce5ba881648fa6e782a2-Signature_and_logo_block.png" />
 
 <Table align={["center","left"]}>
   <thead>
@@ -102,12 +155,40 @@ Alternatively, select the link that was displayed with your successful account c
         *Note: This field is only required if the signature file is uploaded.*
       </td>
     </tr>
+
+    <tr>
+      <td>
+        **Declaration Statement**\*
+      </td>
+
+      <td>
+        Carefully read the declaration statement before saving your documents.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        **Add Documents & Images**
+      </td>
+
+      <td>
+        Select ![alt text](https://files.readme.io/f7ceba9e8e14a6f791412024b91067a8b8d456a409caa520dd553eec1af3ed42-Add_documents_and_images_button.png) to save your documents.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        **Cancel**
+      </td>
+
+      <td>
+        select ![alt text](https://files.readme.io/866310e4fa14cf86a31a827c203da1fa0b2f7dbd5f52e868b6d96692fc223f3d-Cancel_button.png) to discard the changes and close the form. No changes are saved in this case.
+      </td>
+    </tr>
   </tbody>
 </Table>
 
-5. After entering all the relevant information, select ![alt text](https://files.readme.io/c1375586543672a250a0ceed102488466614757b1d851bc6084d22ceeb9f5306-Add_sign_and_logo_button_2.png).
-
-Once selected, the signature and logos is added successfully and appears in the **Signatures and Logos** list. You can now use them in your <Glossary>label</Glossary>, <Glossary>CN23</Glossary>, or any <Glossary>commercial invoice</Glossary> generated by this system.
+Once saved, the ETDs, signatures, and logos are added successfully and appears in the **Signatures and Logos** list. You can now use them in your <Glossary>label</Glossary>, <Glossary>CN23</Glossary>, or any <Glossary>commercial invoice</Glossary> generated by this system.
 
 > 💡 *Tip*
 >
