@@ -14,7 +14,7 @@ In SAPIENT, you can add ETDs, logos, and signatures to enhance the your brand vi
 
 While [specifying the FedEx shipping account details](https://docs.intersoftsapient.net/docs/specify-shipping-account-details#/) during the create shipping account process, if you have selected the **Enable Electronic Trade Documents (ETD)** checkbox, then you can configure the ETD data via the **Signatures and Logos** feature of SAPIENT.
 
-To add signature and logo to your electronic trade documents in SAPIENT, follow the steps as explained in the following procedure.
+To add ETDs and signature and logo to shipping account in SAPIENT, follow the steps as explained in the following procedure.
 
 1. In the left navigation panel, select **Customs Settings** > **Signatures and Logos**.
 
