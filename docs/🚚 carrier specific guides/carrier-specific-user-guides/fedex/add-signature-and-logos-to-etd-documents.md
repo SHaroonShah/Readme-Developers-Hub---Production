@@ -1,5 +1,5 @@
 ---
-title: Configure images for FedEx ETD documents
+title: 'Configure ETD for FedEx shipping account '
 excerpt: >-
   This setting enables the FexEx customers to add the letterhead image and
   signatures, which can be included on their Electronic Trade Document (ETD)
