@@ -105,7 +105,7 @@ Alternatively, select the link that was displayed with your successful FedEx acc
   </tbody>
 </Table>
 
-4. After, in the **SIGNATURE AND LOGO** block, if you want to add any additional images for branding purposes, then enter the necessary information as explained in the following table.
+<br />
 
 > 📘 *Note*
 >
