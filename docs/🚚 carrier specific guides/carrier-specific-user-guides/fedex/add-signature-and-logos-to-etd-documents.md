@@ -109,7 +109,7 @@ Alternatively, select the link that was displayed with your successful FedEx acc
 >
 > *The**SIGNATURES & LOGO** block is not mandatory, if you do not want to configure it, then skip this section and select ![alt text](https://files.readme.io/57defd548ada4f381b9968a291bb45d55b435feab09408e30266126b303228fc-Add_documents_and_images_button.png) to save your uploaded ETD documents. You may want to configure this block, for example, in cases where some destinations do not support ETD, and you wish to attach a <Glossary>commercial invoice</Glossary> to the parcel. To configure this block, refer to the [Add Signatures and Logos](https://docs.intersoftsapient.net/docs/add-signature-and-logo#/) section.*
 
-Once saved, the letterhead image and signatures, and logos are added successfully and appears in the **Signatures and Logos** list and can be used in any relevant ETDs.
+Once saved, the letterhead image and signatures are added successfully and appears in the **Signatures and Logos** list. These can now be used in any relevant ETDs.
 
 > 💡 *Tip*
 >
