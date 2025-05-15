@@ -1,5 +1,5 @@
 ---
-title: Add signature and logo to FedEx ETD documents
+title: Add signature and logo to FedEx's ETD documents
 excerpt: >-
   This setting enables the businesses to upload their branding elements, such as
   digital signatures and company logos, which can be included on the commercial
