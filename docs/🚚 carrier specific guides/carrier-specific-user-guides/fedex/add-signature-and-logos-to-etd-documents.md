@@ -113,6 +113,6 @@ Once saved, the letterhead image and signatures are added successfully and appea
 
 > 💡 *Tip*
 >
-> If you want to remove a specific signature and logo, then in the **Signatures and Logos** list, next to the one you want to delete, select ![alt text](https://files.readme.io/0979c7211f5ae99308ba3f765bd083d41949895562626a4f0cc33acd80b30762-Trash_icon.png).
+> If you want to remove a specific ETD configuration, then in the **Signatures and Logos** list, next to the one you want to delete, select ![alt text](https://files.readme.io/0979c7211f5ae99308ba3f765bd083d41949895562626a4f0cc33acd80b30762-Trash_icon.png).
 >
-> <Image align="center" alt="Deleting pre-registration number" border={true} caption="Deleting image and signatures" src="https://files.readme.io/18854da926a99e35b6280bbb19445cac623a73a7f01d8cb9df4c99cd2a6fe6e9-Removing_item.png" />
+> <Image align="center" alt="Deleting pre-registration number" border={true} caption="Deleting ETD configs" src="https://files.readme.io/18854da926a99e35b6280bbb19445cac623a73a7f01d8cb9df4c99cd2a6fe6e9-Removing_item.png" />
