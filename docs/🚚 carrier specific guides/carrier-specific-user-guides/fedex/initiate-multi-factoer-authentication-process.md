@@ -170,6 +170,6 @@ If you want to validate your FedEx shipping account via PIN, then you must selec
   </tbody>
 </Table>
 
-Once validated, if the all the entered information is correct, the FedEx passes the MFA validation, and your FedEx shipping account is created successfully.
+Once validated, if the all the entered information is correct, the FedEx passes the MFA validation and your FedEx shipping account is created successfully.
 
 * [Edit FedEx shipping account](https://docs.intersoftsapient.net/docs/edit-fedex-shipping-account#/)
