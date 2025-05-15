@@ -1,20 +1,19 @@
 ---
 title: Add ETD documents for FedEx shipping account
 excerpt: >-
-  This setting enables the businesses to upload their branding elements, such as
-  Electronic Trade Documents (ETD), digital signatures and company logos, which
-  can be included on the commercial and proforma invoice customs documents
+  This setting enables the FexEx customers to add the letterhead image and
+  signatures, which can be included on their Electronic Trade Document (ETD)
   related to the shipments.
 deprecated: false
 hidden: true
 metadata:
   robots: index
 ---
-In SAPIENT, you can add ETDs, logos, and signatures to enhance the your brand visibility and professionalism by ensuring that all shipping documents are consistent with the company’s branding, providing authentic and trustworthy representation of the business, particularly when dealing with customers and partners.
+In SAPIENT, you can add letterhead images and signatures to you ETDs to ensure that all shipping documents are consistent with the company’s branding, providing authentic and trustworthy representation of the business, particularly when dealing with customers and partners.
 
 While [specifying the FedEx shipping account details](https://docs.intersoftsapient.net/docs/specify-shipping-account-details#/) during the create shipping account process, if you have selected the **Enable Electronic Trade Documents (ETD)** checkbox, then you can configure the ETD data via the **Signatures and Logos** feature of SAPIENT.
 
-To add ETD and signature and logo to your FedEx shipping account in SAPIENT, follow the steps as explained in the following procedure.
+To add letterhead image and signature to your ETDs in SAPIENT, perform the steps as explained in the following procedure.
 
 1. In the left navigation panel, select **Customs Settings** > **Signatures and Logos**.
 
@@ -88,9 +87,9 @@ Alternatively, select the link that was displayed with your successful FedEx acc
 
 4. After, in the **SIGNATURE AND LOGO** block, if you want to add any additional images for branding purposes, then enter the necessary information as explained in the following table.
 
-> 💡 *Tip*
+> 📘 *Note*
 >
-> *The**SIGNATURES & LOGO** block is not mandatory, if you do not want to configure it, then skip this section and select ![alt text](https://files.readme.io/57defd548ada4f381b9968a291bb45d55b435feab09408e30266126b303228fc-Add_documents_and_images_button.png) to save your uploaded ETD documents.*
+> *The**SIGNATURES & LOGO** block is not mandatory, if you do not want to configure it, then skip this section and select ![alt text](https://files.readme.io/57defd548ada4f381b9968a291bb45d55b435feab09408e30266126b303228fc-Add_documents_and_images_button.png) to save your uploaded ETD documents. You may want to configure this block, for example, in cases where some destinations do not support ETD, and you want to attach a <Glossary>commercial invoice</Glossary> to the parcel. To configure this block, refer to the Add Signatures and Logos section.*
 
 <Image align="center" alt="Entering signature, logo and their details" border={true} caption="Entering signature/logo details" src="https://files.readme.io/1581b1454c74b50460fcd92a434d115676e887baec535dfc63e79ba6706ce55e-Signature_and_logo_block.png" />
 
