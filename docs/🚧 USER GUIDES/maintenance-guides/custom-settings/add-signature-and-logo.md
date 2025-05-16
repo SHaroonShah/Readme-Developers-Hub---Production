@@ -31,7 +31,7 @@ To add signature and logo in SAPIENT, follow the steps as explained in the follo
 
 4. After, in the **SIGNATURE AND LOGO** block that appears, enter the necessary information as explained in the following table.
 
-<Image align="center" alt="Entering signature, logo and their details" border={true} caption="Entering signature/logo details" src="https://files.readme.io/e91ef385e6f0f934f5eb9b32ca72cf0e6a1b9cc2a636daf98659d25f7b655c36-FedEx_Logo_screen.png" />
+<Image align="center" alt="Entering signature, logo and their details" border={true} caption="Entering signature/logo details" src="https://files.readme.io/e76e58044cb974222ae08b816f28699b06536a50962f10e46fac92c01ef98dac-Signatures_and_Logos_generic_screen.png" />
 
 <Table align={["center","left"]}>
   <thead>
