@@ -102,6 +102,8 @@ To add signature and logo in SAPIENT, follow the steps as explained in the follo
 
       <td>
         Carefully read the declaration statement before saving your documents.
+
+        *`Note`: This filed is editable and if needed, you can modify this statement as per your business requirements.*
       </td>
     </tr>
 
