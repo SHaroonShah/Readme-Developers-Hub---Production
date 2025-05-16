@@ -80,6 +80,8 @@ Alternatively, select the link that was displayed with your successful FedEx acc
 
       <td>
         Carefully read the ETD declaration statement before proceeding.
+
+        *`Note`: This filed is editable and if needed, you can modify this statement as per your business requirements.*
       </td>
     </tr>
 
