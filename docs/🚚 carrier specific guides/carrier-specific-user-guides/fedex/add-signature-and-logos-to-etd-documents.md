@@ -33,6 +33,10 @@ Alternatively, select the link that was displayed with your successful FedEx acc
 
 4. In the **ELECTRONIC TRADE DOCUMENTS** block that opens, enter the enter the necessary information as explained in the following table.
 
+> 🚧 *Important*
+>
+> *This block is only available if the**Shipping Location** field is set to **All** and the ETD is enabled for your shipping account.*
+
 <Image align="center" alt="Entering signature, logo and their details" border={true} caption="Adding electronic trade documents" src="https://files.readme.io/e91ef385e6f0f934f5eb9b32ca72cf0e6a1b9cc2a636daf98659d25f7b655c36-FedEx_Logo_screen.png" />
 
 <Table align={["center","left"]}>
