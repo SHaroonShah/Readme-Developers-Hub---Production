@@ -4,7 +4,7 @@ excerpt: >-
   Editing shipping account enables users to update the shipping accounts
   details, shipping address details, and authentication process.
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   robots: index
 ---
