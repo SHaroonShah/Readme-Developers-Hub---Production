@@ -5,7 +5,7 @@ excerpt: >-
   signatures, which can be included on their Electronic Trade Document (ETD)
   related to the shipments.
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   robots: index
 ---
