@@ -7,7 +7,7 @@ excerpt: >-
   company whose account number is being used for onboarding. It has been
   introduced to avoid fraudulent activity.  
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   robots: index
 ---
