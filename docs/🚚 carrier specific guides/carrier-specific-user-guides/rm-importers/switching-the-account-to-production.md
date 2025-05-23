@@ -38,6 +38,11 @@ The full details on this are shared with you closer to the date.
 
 6. Once the labels are signed off and the go-live action is agreed with Royal Mail,  you can start shipping via Intersoft SAPIENT.
 
+> ⚠️ *Important*
+>
+> \_Once you go-live any technical issues should be raised directly with our Tech Support team by following the steps listed [here](https://docs.intersoftsapient.net/docs/troubleshooting#/).\
+> Enquiries regarding addition of the new services, features etc. should be continued being sent to [onboarding@intersoft.co.uk](mailto:onboarding@intersoft.co.uk). \_
+
 ## See also
 
 If you are interested in creating a Tracking Account for the newly added Shipping Account, refer to the following sections on how to set up our <Glossary>Tracking Webhook</Glossary> solution:
