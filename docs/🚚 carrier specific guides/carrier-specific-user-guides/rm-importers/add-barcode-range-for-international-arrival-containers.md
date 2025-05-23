@@ -62,19 +62,14 @@ Once the relevant information is entered, select ![alt text](https://files.readm
 
 ## See also
 
-\<Cards columns=\{4}>
-&#x20; \<Card title="ASCAN flow" href="https\://docs.intersoftsapient.net/docs/internation-arrival-containers-ascan-flow#/" icon="fas fa-bezier-curve" target="\_blank">
-&#x20;   Learn how the \*\*International Arrivals Containers\*\* process works and get to know the entire journey of the UK arrival containers on the fly.
-&#x20; \</Card>
+\<Cards columns=\{4}>\
+\<Card title="ASCAN flow" href="[https://docs.intersoftsapient.net/docs/internation-arrival-containers-ascan-flow#/](https://docs.intersoftsapient.net/docs/internation-arrival-containers-ascan-flow#/)" icon="fas fa-bezier-curve" target="\_blank">
+Learn how the **International Arrivals Containers** process works and get to know the entire journey of the UK arrival containers on the fly.
+\</Card>
 
-&#x20; \<Card title="Internation Arrivals Containers API" href="https\://docs.intersoftsapient.net/reference/post\_v4-internationalarrivalscontainers-rm#/" icon="fa-solid fa-gear-complex-code">
-&#x20;   \*Create and name (with and ID or alias) a new international arrivals container to be used for manifesting a specific group of shipments. Define which carrier and shipping location the container should be linked to.\*
-&#x20; \</Card>
-\</Cards>
-
-&#x20;\<Card title="A-Scan FAQs" href="https\://docs.intersoftsapient.net/docs/a-scan-faqs#/" icon="fa-solid fa-gear-complex-code">
-&#x20;   \*Frequently asked questions reagrding the International Arrivals Container API.\*
-&#x20; \</Card>
+\<Card title="Internation Arrivals Containers API" href="[https://docs.intersoftsapient.net/reference/post\_v4-internationalarrivalscontainers-rm#/](https://docs.intersoftsapient.net/reference/post_v4-internationalarrivalscontainers-rm#/)" icon="fa-solid fa-gear-complex-code">\
+*Create and name (with and ID or alias) a new international arrivals container to be used for manifesting a specific group of shipments. Define which carrier and shipping location the container should be linked to.*
+\</Card>
 \</Cards>
 
 &#x20;&#x20;
