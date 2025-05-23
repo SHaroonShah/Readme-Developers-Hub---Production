@@ -1,4 +1,4 @@
 ---
 title: Shipping Accounts
-hidden: false
+hidden: true
 ---
