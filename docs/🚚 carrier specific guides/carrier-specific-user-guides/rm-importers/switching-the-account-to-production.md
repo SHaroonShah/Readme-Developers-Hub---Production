@@ -27,7 +27,7 @@ To set up the  Production <Glossary>Shipping Account</Glossary>, perform the fol
 >
 > *The Shipping Account you set up previously stay as the**Sandbox** account type and you can continue using it for testing purposes.*
 
-4. If you are a Freight 2 Post customer, ensure that [International Arival Containers (A-scan)](https://docs.intersoftsapient.net/docs/add-barcode-range-for-international-arrival-containers)  is set up with valid details provided to you by Intersoft Onboarding team.
+4. If you are a Freight 2 Post customer, ensure that [International Arrival Containers (A-scan)](https://docs.intersoftsapient.net/docs/add-barcode-range-for-international-arrival-containers)  is set up with valid details provided to you by Intersoft Onboarding team.
 5. After, you you can proceed with the **label sign off** required by Royal Mail. The sign off depends on what type of Royal Mail you are:
 
 * **Royal Mail importers using Commercial Clearance route and Tracked High Volume customers**: involves physical label sign off—where you are requested to create couple of labels, manifest them, print them out using your production printers and ship them to Royal Mail for review and quality testing.
