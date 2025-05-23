@@ -1,12 +1,12 @@
 ---
-title: Combined label
+title: Combined label + CN22
 excerpt: >-
-  A _combined label_ is a shipping label that consolidates multiple essential
-  documents into one. Typically, it includes a shipping label and any necessary
-  customs forms, allowing for efficient processing and compliance during
-  shipping. This format simplifies the shipping process by reducing the number
-  of labels needed, making it easier for both senders and carriers to manage
-  shipments.
+  A _combined label_+_CN22_ is a shipping label that consolidates multiple
+  essential documents into one. Typically, it includes a shipping label and any
+  necessary customs forms, allowing for efficient processing and compliance
+  during shipping. This format simplifies the shipping process by reducing the
+  number of labels needed, making it easier for both senders and carriers to
+  manage shipments.
 deprecated: false
 hidden: false
 metadata:
