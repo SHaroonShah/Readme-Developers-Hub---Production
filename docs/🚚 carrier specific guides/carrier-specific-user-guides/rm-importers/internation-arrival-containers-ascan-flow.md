@@ -1,11 +1,11 @@
 ---
-title: Internation arrival containers (A-Scan) flow
+title: International Arrival Containers (A-Scan) flow
 deprecated: false
 hidden: false
 metadata:
   robots: index
 ---
-Unlike the common **Containers** API, the [International arrival Containers](https://docs.intersoftsapient.net/reference/post_v4-internationalarrivalscontainers-rm#/) endpoint is used for Royal Mail <Glossary>shipments</Glossary> that are being imported into UK only. For shipments in these <Glossary>container</Glossary>s, a <Glossary>data solution</Glossary> file is generated and sent to Royal Mail, which allows them to associate the shipments in the container with the `containerId` of the container, for better tracking and visibility purposes.
+Unlike the common **Containers** API, the [International Arrival Containers](https://docs.intersoftsapient.net/reference/post_v4-internationalarrivalscontainers-rm#/) endpoint is used for Royal Mail <Glossary>shipments</Glossary> that are being imported into UK only. For shipments in these <Glossary>container</Glossary>s, a <Glossary>Data Solution</Glossary> file is generated and sent to Royal Mail, which allows them to associate the shipments in the container with the `containerId` of the container, for better tracking and visibility purposes.
 
 Using this endpoint, you can either create the shipments and allocate the already created container (**Option 1**) or first create the shipments and then the container and later allocate your shipments to the container (**Option 2**).
 
@@ -15,7 +15,7 @@ Based on your business requirements, you may proceed with any of the preceding o
 
 <Image align="center" className="border" border={true} width="1000px" src="https://files.readme.io/9bbca314d86f05e79fe4a8debb357a98b9c3176a7c47b4268a670f2b3c93fd90-ASCAN_flow_-_1.png" />
 
-The flowchart outlines a process for creating a shipment and allocating a container when the `ContainerId` is known, starting with the creation of a container in advance. Then it follows with the creation of an order and a shipment request. It checks for the presence of the `ContainerId`; if known, it retrieves container details and proceeds to populate required fields. If the shipment is successfully created, <Glossary>tracking number</Glossary>s and <Glossary>labels</Glossary> are generated, leading to the printing of labels and preparation of the shipment for despatch. If any errors occur during the process, appropriate error responses are returned to ensure all issues are addressed systematically.
+The flowchart outlines a process for creating a shipment and allocating a container when the `ContainerId` is known, starting with the creation of a container in advance. Then it follows with the creation of an order and a shipment request. It checks for the presence of the `ContainerId`; if known, it retrieves container details and proceeds to populate required fields. If the shipment is successfully created, <Glossary>tracking numbers</Glossary> and <Glossary>labels</Glossary> are generated, leading to the printing of labels and preparation of the shipment for despatch. If any errors occur during the process, appropriate error responses are returned to ensure all issues are addressed systematically.
 
 ### Create shipment when containerId is unknown and allocating them later
 
@@ -27,7 +27,7 @@ The flow outlines the process of creating shipments when the `ContainerId` is un
 
 <Image align="center" className="border" border={true} src="https://files.readme.io/e29b772c2b3929f4f9950e2088f48fe8dc6bb679993a3029f3bd56747268b786-Flow_3.png" />
 
-The flowchart outlines the process for managing shipments with Royal Mail. Initially, it checks if all shipments have been allocated; if so, the shipments are <Glossary>manifest</Glossary>ed and its details are sent to Royal Mail for processing, along with the container details. Once the containers arrive in the UK, the shipments are converted from Freight 2 Post and injected to the Royal Mail network.
+The flowchart outlines the process for managing shipments with Royal Mail. Initially, it checks if all shipments have been allocated; if so, the shipments are <Glossary>manifested</Glossary> and its details are sent to Royal Mail for processing, along with the container details. Once the containers arrive in the UK, the shipments are converted from Freight 2 Post and injected to the Royal Mail network.
 
 As the shipments are in transit, tracking is initiated with a first tracking event triggered by the system. Subsequently, additional tracking events are logged upon reaching specific statuses, culminating in the delivery of the shipment, which is confirmed through a successful delivery trigger. If the expected number of shipments for that container have not been allocated, then you must revert back to continue allocating shipments until all are accounted for.
 
