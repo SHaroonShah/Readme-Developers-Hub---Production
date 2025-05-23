@@ -22,9 +22,9 @@ Royal Mail have a set of import services. These are used for <Glossary>shipments
 >
 > *This is a fully automated process, driven by what the customer populates the create shipment request with. The requirements for combined label + CN22 are as per below:*
 >
-> 1. *You are a Royal Mail Freight 2 Post customer, shipping from outside the UK to the UK*
+> 1. *You are a Royal Mail Freight 2 Post customer, shipping from outside the UK to the UK.*
 > 2. *The shipment you have created contains up to 8 items.*
-> 3. *The total shipment value is £135 or under*
+> 3. *The total shipment value is £135 or under.*
 > 4. *The label format is requested in the PDF format.*
 >
 > *For any other shipments that do not meet the requirements for a combined label, you will receive a standard shipping label and a separate<Glossary>CN23</Glossary> customs documentation within the Documents section of the create shipment response.*
