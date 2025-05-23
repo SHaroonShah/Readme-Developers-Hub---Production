@@ -74,10 +74,6 @@ Once the relevant information is entered, select ![alt text](https://files.readm
   <Card title="A-scan FAQs" href="https://docs.intersoftsapient.net/docs/a-scan-faqs#/" icon="fa-solid fa-messages-question">
     Frequently asked questions reagrding the International Arrivals Container API.
   </Card>
-
-  <Card title="Fourth Card" icon="fa-question">
-    **Excepteur sint occaecat cupidatat non proident**
-  </Card>
 </Cards>
 
 &#x20;&#x20;
