@@ -41,7 +41,7 @@ The full details on this are shared with you closer to the date.
 > ⚠️ *Important*
 >
 > *Once you go-live any technical issues should be raised directly with our Tech Support team by following the steps listed[here](https://docs.intersoftsapient.net/docs/troubleshooting#/) .*\
-> *Enquiries regarding addition of the new services, features etc. should be continued being sent to[onboarding@intersoft.co.uk](mailto:onboarding@intersoft.co.uk).*
+> Enquiries regarding addition of the new services, features etc. should be continued being sent to  [onboarding@intersoft.co.uk](mailto:onboarding@intersoft.co.uk).
 
 ## See also
 
