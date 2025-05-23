@@ -15,7 +15,7 @@ metadata:
 </Accordion>
 
 <Accordion title="Are there any limits regarding the container’s weight?">
-  Yes, teh following are the accepted bag weights:
+  Yes, the following are the accepted bag weights:
 
   • Minumum weight 1.500 Kg
 
@@ -34,7 +34,7 @@ metadata:
   • **P**: Small Letters
 </Accordion>
 
-<Accordion title="When should the container be finalised?">
+<Accordion title="When should the container be finalised/ manifested?">
   The container must be finalised latest by one hour before the flight lands in the UK, so that Royal Mail can receive all the data on time.
 </Accordion>
 
