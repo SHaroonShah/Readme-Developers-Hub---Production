@@ -38,7 +38,7 @@ metadata:
   The container must be finalised latest by one hour before the flight lands in the UK, so that Royal Mail can receive all the data on time.
 </Accordion>
 
-<Accordion title="What needs to pupolated in the **rmService** field?">
+<Accordion title="What needs to pupolated in the RMService field?">
   The **RMService** field must be populated with **P** (Priority).
 </Accordion>
 
