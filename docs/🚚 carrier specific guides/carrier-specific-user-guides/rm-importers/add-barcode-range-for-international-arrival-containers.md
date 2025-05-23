@@ -17,11 +17,11 @@ next:
 ---
 The barcode ranges functionality facilitates the <Glossary>Data Solution</Glossary> on behalf of customers who are shipping into the UK from abroad. This solution is dependent on the customer allocating a <Glossary>shipment</Glossary> into a <Glossary>container</Glossary> . When all the shipments for that container have been allocated and a container manifested, a summary barcode is produced.
 
-This summary barcode, known as a WAND ID barcode is attached to the outside of the receptacle. As a result, an electronic Data Solution file is produced, in a predefined format and sent to Royal Mail, detailing the WAND ID and the individual shipment barcodes. This enables a link between the WAND ID used on a container and the tracking numbers of the shipments held within it.
+This summary barcode, known as a WAND ID barcode is attached to the outside of the receptacle. As a result, an electronic Data Solution file is produced, in a predefined format and sent to Royal Mail, detailing the WAND ID and the individual shipment barcodes. It allows Royal Mail to process more efficiently shipments arriving in the UK.
 
-IN SAPIENT, you can add a barcode range under the **International Arrival Containers** API service to capture the data required to populate the data solution file.
+IN SAPIENT, you can add a barcode range under the **International Arrival Containers** API service to capture the data required to populate the Data Solution file.
 
-To add a barcode range for international arrival containers in SAPIENT, follow the steps as explained in the following procedure.
+To add a barcode range for International Arrival Containers in SAPIENT, follow the steps as explained in the following procedure.
 
 1. In the left navigation panel, select **Integrations**.
 
@@ -56,9 +56,9 @@ To add a barcode range for international arrival containers in SAPIENT, follow t
 
 > 💡 *Tip*
 >
-> *For development and testing purposes this can be filled with dummy details. Production details will be provided to you when your account is switched onto production.*
+> *For development and testing purposes the Customer Number can be filled with dummy details. The Barcode Range used for testing purposes should be AC40000001 to AC49999999. Production details will be provided to you when your account is switched onto production.*
 
-Once the relevant information is entered, select ![alt text](https://files.readme.io/79e0cb9c566226cd8b320dc3529f556e5d94e2faa0622645bd0bc2c572957cab-Add_barcode_range_button_2.png) to save and add the barcode. You can now use this barcode range in your [manifest shipments](https://docs.intersoftsapient.net/reference/post_v4-manifests-carriercode) request for international arrival containers. When the international arrival container is manifested, the Data Solution UK arrivals file is sent to Royal Mail via SFTP.
+Once the relevant information is entered, select ![alt text](https://files.readme.io/79e0cb9c566226cd8b320dc3529f556e5d94e2faa0622645bd0bc2c572957cab-Add_barcode_range_button_2.png) to save and add the barcode. You can now use this barcode range in your [manifest shipments](https://docs.intersoftsapient.net/reference/post_v4-manifests-carriercode) request for International Arrival Containers. When the international arrival container is manifested, the Data Solution file is sent to Royal Mail via SFTP.
 
 ## See also
 
