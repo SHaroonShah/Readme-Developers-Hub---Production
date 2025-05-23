@@ -6,13 +6,6 @@ excerpt: >-
   in reality. Shipments must be updated to printed status prior to manifesting.
 api:
   file: sapient-dx-freight-api.json
-  operationId: get_v4-shipments-printlabel-dxf-shipmentid
-deprecated: false
+  operationId: get_v4-shipments-printlabel-fedex-shipmentid
 hidden: false
-metadata:
-  title: ''
-  description: ''
-  robots: index
-next:
-  description: ''
 ---
