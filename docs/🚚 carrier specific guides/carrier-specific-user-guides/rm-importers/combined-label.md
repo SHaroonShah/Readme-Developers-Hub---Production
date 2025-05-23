@@ -16,19 +16,20 @@ metadata:
 next:
   description: ''
 ---
-Royal Mail have a set of import services. These are used for <Glossary>shipments</Glossary> that are imported and delivered into the UK  as a domestic shipments. For shipments using these services with a shipment value of £135 or under, Royal Mail uses the label image to be a combined label by integrating the Royal Mail domestic tracked label with a <Glossary>CN22</Glossary> customs form into a single 6x4, ensuring compliance for international shipments.
+Royal Mail have a set of import services. These are used for <Glossary>shipments</Glossary> that are imported and delivered into the UK. For shipments using these services with a shipment value of £135 or under, Royal Mail uses the label image to be a combined label by integrating the Royal Mail domestic tracked label with a <Glossary>CN22</Glossary> customs form into a single 6x4, ensuring compliance for international shipments.
 
 > 🚧 *Important*
 >
-> *Before using the combined label, be mindful of the following:*
+> *This is a fully automated process, driven by what the customer populates the create shipment request with. The requirements for combined label + CN22 are as per below:*
 >
-> 1. *You are a Royal Mail Freight 2 Post customer.*
+> 1. \_You are a Royal Mail Freight 2 Post customer, shipping from outside the UK to the UK \_
 > 2. *The shipment you have created contains up to 8 items.*
-> 3. *The label format is requested in the PDF format.*
-> 4. *If the import services are being used and the shipment does not meet the requirements for a combined label, you will receive a standard shipping label and<Glossary>CN23</Glossary> customs documentation as you have so far.*
-> 5. *The existing procedures for shipments over £135 will remain unchanged, ensuring that those shipments continue to follow the established guidelines.*
+> 3. *The total shipment value is £135 or under*
+> 4. *The label format is requested in the PDF format.*
+>
+> *For any other shipments that do not meet the requirements for a combined label, you will receive a standard shipping label and a separate<Glossary>CN23</Glossary> customs documentation within the Documents section of the create shipment response.*
 
-The combined label can be used over a multiple range of import services as explained in the following table:
+The combined label can be used over a multiple range of services as explained in the following table:
 
 | Service Code | Service Name                                |
 | :----------: | :------------------------------------------ |
@@ -66,4 +67,4 @@ For customers and businesses using Royal Mail for their shipping needs, this com
 
 > 💡 *Tip*
 >
-> *In the**Sign & Date** section of  the combined label, you can use your own signature or logo if you have [added and configured it](https://docs.intersoftsapient.net/docs/add-signature-and-logo#/) via the SAPIENT UI. If the signature and logo has not been configured, then by default, the shipper name is used.*
+> *In the**Sign & Date** section of  the combined label, you can use your own signature or logo if you have [added and configured it](https://docs.intersoftsapient.net/docs/add-signature-and-logo#/) via the SAPIENT UI. If the signature and logo has not been configured, then by default, the Shipper Contact Name is used.*
