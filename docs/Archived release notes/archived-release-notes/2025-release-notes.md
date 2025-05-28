@@ -10,6 +10,26 @@ metadata:
 next:
   description: ''
 ---
+## Royal Mail heavy weight services
+
+The maximum combined dimension validation for Royal Mail heavy weight services has been updated. This is done for accurate validation based solely on individual parcel dimensions, in line with our parcel specifications. This change facilitates a smoother shipment creation process, improving the overall user experience for customers utilising Royal Mail heavy weight services.
+
+## Tracking event enhancements
+
+INTERSOFT's **PRID** tracking event code has now been mapped to the **In Transit** milestone, replacing its previous association with the **It’s on its way** milestone. This change aims to provide customers opting for tracking milestones with clearer visibility of their shipment's journey through the Royal Mail network, accurately reflecting its status and enhancing overall transparency in the tracking process.
+
+## Royal Mail collection booking
+
+The Royal Mail collection logic for shipments has been updated that allows the system to default the dimensions and format based on the weight of the shipment, applying the maximum dimensions specified on our website for each format:
+
+* Shipments weighing 750g or under will be classified as Large Letters.
+* Shipments weighing between 751g and 2kg will be classified as Small Parcels.
+* Shipments weighing over 2kg up to 20kg will be classified as Medium Parcels.
+
+This change aims to ensure that collections are accepted based on the actual weight and format of the parcels, enhancing the overall shipping experience for our customers.
+
+***
+
 ## Maintenance
 
 Routine back-end work and minor UI improvements were addressed and deployed.
