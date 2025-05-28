@@ -101,6 +101,7 @@ The following information has been added to the swagger documentation:
   * **Shipping Account**
     * **Get Accounts**: Retrieve a list of DX Freight shipping accounts.
     * **Add Account**: Add a new DX Freight shipping account.
+    * **Get Account**: Retrieve details of a specific DX Freight shipping account.
     * **Update Account**: Update details of an existing DX Freight shipping account.
     * **Link Locations**: Link shipping locations to DX Freight shipping accounts.
     * **Get Associated Locations**: Retrieve locations linked to the DX Freight shipping account.
