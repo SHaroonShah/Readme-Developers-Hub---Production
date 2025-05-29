@@ -7,7 +7,7 @@ metadata:
 ---
 While creating a new FedEx shipping account in SAPIENT, at the **Shipping Account** stage, you can specify the general details associated to your FedEx account number.
 
-<Image align="center" alt="Specifying shipping account details" border={true} caption="Specifying shipping account details" src="https://files.readme.io/f09b766e605894fe2654059248e798b97d0255e3b4f8535c7ce81dc4893ed87a-FEDEX_Shipping_account_stage.png" />
+<Image align="center" alt="Specifying shipping account details" border={true} caption="Specifying shipping account details" src="https://files.readme.io/8822b5421cd564a71a5d9e39a2ad6ec6cc6eb783034bb5979b0b2522299bdc55-FEDEX_Shipping_account_stage.png" />
 
 The information on how to fill in the the necessary information at this stage are explained in the following table.
 
