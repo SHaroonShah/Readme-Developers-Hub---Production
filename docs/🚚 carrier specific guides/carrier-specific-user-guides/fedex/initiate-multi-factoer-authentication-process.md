@@ -145,6 +145,8 @@ If you want to validate your FedEx shipping account via PIN, then you must selec
 
       <td>
         Enter the 6-digit PIN code you received via the method you selected for the PIN generation request.
+
+        *`**Note**`: The pin is valid for 10 minutes only. If it is not utilised within this time frame, then you must request a new one.*
       </td>
     </tr>
 
