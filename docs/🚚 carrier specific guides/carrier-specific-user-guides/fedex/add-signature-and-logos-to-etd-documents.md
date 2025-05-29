@@ -124,3 +124,5 @@ Once saved, the letterhead image and signatures are added successfully and appea
 > <Image align="center" alt="Deleting pre-registration number" border={true} caption="Deleting ETD configs" src="https://files.readme.io/18854da926a99e35b6280bbb19445cac623a73a7f01d8cb9df4c99cd2a6fe6e9-Removing_item.png" />
 >
 > *Please be advised that the delete option only removes the ETD documents from the SAPIENT system, not the FedEx system. In order to update your ETD documents, you must replace them with the new ones so that they are replaced in the FedEx system next time when you call the create shipment API.*
+>
+> Alternatively, if you do not want t use any documents, simply clear the ETD checkbox.
