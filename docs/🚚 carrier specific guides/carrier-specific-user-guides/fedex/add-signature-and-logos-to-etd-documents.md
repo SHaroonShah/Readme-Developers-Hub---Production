@@ -35,7 +35,7 @@ Alternatively, select the link that was displayed with your successful FedEx acc
 
 > 🚧 *Important*
 >
-> *This block is only available if the **Shipping Location** field is set to **All** and the ETD is enabled for your shipping account.*
+> *This block is only available if the**Shipping Location** field is set to **All** and the ETD is enabled for your shipping account.*
 
 <Image align="center" alt="Entering signature, logo and their details" border={true} caption="Adding electronic trade documents" src="https://files.readme.io/e91ef385e6f0f934f5eb9b32ca72cf0e6a1b9cc2a636daf98659d25f7b655c36-FedEx_Logo_screen.png" />
 
@@ -113,7 +113,7 @@ Alternatively, select the link that was displayed with your successful FedEx acc
 
 > 📘 *Note*
 >
-> *The **SIGNATURES & LOGO** block is not mandatory, if you do not want to configure it, then skip this section and select ![alt text](https://files.readme.io/57defd548ada4f381b9968a291bb45d55b435feab09408e30266126b303228fc-Add_documents_and_images_button.png) to save your uploaded ETD documents. You may want to configure this block, for example, in cases where some destinations do not support ETD, and you wish to attach a <Glossary>commercial invoice</Glossary> to the parcel. To configure this block, refer to the [Add Signatures and Logos](https://docs.intersoftsapient.net/docs/add-signature-and-logo#/) section.*
+> *The**SIGNATURES & LOGO** block is not mandatory, if you do not want to configure it, then skip this section and select ![alt text](https://files.readme.io/57defd548ada4f381b9968a291bb45d55b435feab09408e30266126b303228fc-Add_documents_and_images_button.png) to save your uploaded ETD documents. You may want to configure this block, for example, in cases where some destinations do not support ETD, and you wish to attach a <Glossary>commercial invoice</Glossary> to the parcel. To configure this block, refer to the [Add Signatures and Logos](https://docs.intersoftsapient.net/docs/add-signature-and-logo#/) section.*
 
 Once saved, the letterhead image and signatures are added successfully and appears in the **Signatures and Logos** list. These can now be used in any relevant ETDs.
 
@@ -122,3 +122,5 @@ Once saved, the letterhead image and signatures are added successfully and appea
 > If you want to remove a specific ETD configuration, then in the **Signatures and Logos** list, next to the one you want to delete, select ![alt text](https://files.readme.io/0979c7211f5ae99308ba3f765bd083d41949895562626a4f0cc33acd80b30762-Trash_icon.png).
 >
 > <Image align="center" alt="Deleting pre-registration number" border={true} caption="Deleting ETD configs" src="https://files.readme.io/18854da926a99e35b6280bbb19445cac623a73a7f01d8cb9df4c99cd2a6fe6e9-Removing_item.png" />
+>
+> *Please be advised that the delete option only removes the ETD documents from the SAPIENT system, not the FedEx system. In order to update your ETD documents, you must replace them with the new ones so that they are replaced in the FedEx system next time when you call the create shipment API.*
