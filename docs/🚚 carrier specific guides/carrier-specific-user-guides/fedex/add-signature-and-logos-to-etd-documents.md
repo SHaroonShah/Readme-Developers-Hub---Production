@@ -125,4 +125,4 @@ Once saved, the letterhead image and signatures are added successfully and appea
 >
 > *Please be advised that the delete option only removes the ETD documents from the SAPIENT system, not the FedEx system. In order to update your ETD documents, you must replace them with the new ones so that they are replaced in the FedEx system next time when you call the create shipment API.*
 >
-> Alternatively, if you do not want t use any documents, simply clear the ETD checkbox.
+> Alternatively, if you do not want t use any documents, simply [clear the Electronic Trade Documents (ETD) checkbox](https://docs.intersoftsapient.net/docs/specify-shipping-account-details#/).
