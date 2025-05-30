@@ -1,7 +1,7 @@
 ---
 title: Add Amazon shipping account
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
