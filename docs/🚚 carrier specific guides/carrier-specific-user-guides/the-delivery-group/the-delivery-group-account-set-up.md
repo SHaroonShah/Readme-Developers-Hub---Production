@@ -34,8 +34,6 @@ To add a shipping account for The Delivery Group in SAPIENT, follow the instruct
 
 <AsteridkForMandatoryElements />
 
-<br />
-
 <Table align={["center","left"]}>
   <thead>
     <tr>
