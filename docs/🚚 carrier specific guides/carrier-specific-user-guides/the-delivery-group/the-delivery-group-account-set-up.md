@@ -14,9 +14,15 @@ next:
 ---
 In SAPIENT, you can create a shipping account with The Delivery Group, and then link it to the relevant <Glossary>shipping location</Glossary>(s).
 
+As a The Delivery Group (TDG) customer, you must follow the following prerequisites before onboarding with Intersoft:
+
+1. First, you need to contact the TDG sales team to discuss and agree on commercial terms and participate in initial onboarding discussions.
+2. Once the commercial agreement is in place, the Sales Account Manager will forward the account to the TDG Onboarding team, where an Onboarding Manager will be assigned to you.
+3. After, The TDG Onboarding team will assign and provide the you with the necessary API credentials required for connecting to Intersoft.
+
 > 🚧 *Important*
 >
-> *Before you can set up a shipping account, make sure you have[enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with The Delivery Group and have already [created a shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location).*
+> can set up a shipping account, make sure you have[enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with The Delivery Group and have already [created a shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location).\_
 
 To add a shipping account for The Delivery Group in SAPIENT, follow the instructions as explained in the following procedure.
 
