@@ -74,7 +74,7 @@ To add a shipping account for The Delivery Group in SAPIENT, follow the instruct
 
 4. In the **SHIPPING ACCOUNT** block, enter the necessary information as explained in the following table.
 
-<Image align="center" alt="Specifying shipping account details" border={true} caption="Specifying shipping account details" src="https://files.readme.io/d0eae769c813147e1ba1ff428f31e2a84852aba1218a4858b7324d86458cd559-Shipping_account_block_DX.png" width="400px" />
+<Image align="center" alt="Specifying shipping account details" border={true} caption="Specifying shipping account details" src="https://files.readme.io/12ec9fe8afb8e032cec6894c74922036fc43d0290e2b288af427a0a6c6689d06-Shipping_account_block_TDG.png" width="400px" />
 
 > 💡 *Tip*
 >
@@ -100,11 +100,9 @@ To add a shipping account for The Delivery Group in SAPIENT, follow the instruct
       </td>
 
       <td>
-        Enter the account number for DX Freight.
+        Enter the account number for The Delivery Group.
 
-        The format of the account number must be compliant with the carrier you have selected. For DX Freight, the account number must be 8 characters long.
-
-        *`Note`: If you already have an account with DX Freight that is actively being used, and if you wish to receive tracking via INTERSOFT, then you need to request DX to enable tracking and send it to INTERSOFT.*
+        The format of the account number must be compliant with the carrier you have selected.
       </td>
     </tr>
 
@@ -114,7 +112,7 @@ To add a shipping account for The Delivery Group in SAPIENT, follow the instruct
       </td>
 
       <td>
-        Enter the name of the account you are adding.
+        Enter the client name allocated to you by The Delivery Group.
       </td>
     </tr>
 
@@ -166,63 +164,14 @@ To add a shipping account for The Delivery Group in SAPIENT, follow the instruct
 
 5. In the **CARRIER DETAILS** block, enter the necessary information as explained in the following table.
 
-<Image align="center" alt="Entering carrier details" border={true} caption="Entering carrier details" src="https://files.readme.io/3707bf4d346ea1f22c7d1d3be7bf1d030ca19d84c84998da95fc31d47eb8fc70-carrier_details_block_DX_Freight.png" width="400px" />
+<Image align="center" alt="Entering carrier details" border={true} caption="Entering carrier details" src="https://files.readme.io/8dbf30060f2fe9a26e0b63a6a82fa6402ff99ed4d4c3e4f87547b240dd441c55-carrier_details_block_TDG.png" width="400px" />
 
 <AsteridkForMandatoryElements />
 
-<Table align={["center","left"]}>
-  <thead>
-    <tr>
-      <th>
-        Element
-      </th>
-
-      <th>
-        Description
-      </th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <tr>
-      <td>
-        **Origin Service Centre (Also referred to as "Depot")**\*
-      </td>
-
-      <td>
-        Enter the origin service code for identifying the correct physical location from which the <Glossary>shipments</Glossary> originate.
-
-        *`Note`: This code may vary depending on the selected service type, for example it can be a single number or a combination of  two letters and numbers. For more information, please contact DX Freight.*
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        **Password**\*
-      </td>
-
-      <td>
-        Enter the password associated with your DX Freight account. It is essential for securing the account and ensuring that only authorized users have access to shipping details and operations.
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        **Service Type**\*
-      </td>
-
-      <td>
-        From the dropdown menu, select one the following service types that you want to use for your shipments, specifically in terms of the number of personnel involved in the delivery:
-
-        • **1 Man**: This service type typically means that one crew member will handle the delivery. This is suitable for smaller, lighter <Glossary>items</Glossary> that one person can manage without assistance.
-
-        • **2 Man**: This indicates that two personnel will be involved in the delivery process, which is often necessary for larger or heavier items that require additional handling or lifting.
-
-        *`Note`: Bear in mind that you need to create separate shipping accounts for each service type that you wish to use in your shipments.*
-      </td>
-    </tr>
-  </tbody>
-</Table>
+|              Element              | Description                                                                                                                                                                                     |
+| :-------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **The Delivery Group Username**\* | Enter the user name that is registered with The Delivery Group.                                                                                                                                 |
+| **The Delivery Group Password**\* | Enter the password associated with The Delivery Group account. It is essential for securing the account and ensuring that only authorized users have access to shipping details and operations. |
 
 6. After entering all the required information, select ![alt text](https://files.readme.io/721eb0f8be0c99a924b61cbca6496517d03fcbbf235aa0c3d579c60b3131df2a-add_shipping_account_button_2.png).
 
@@ -234,5 +183,5 @@ Once done, you have now successfully added a shipping account. You can now [add 
 
 ### See also
 
-* [DX Freight sign-off](https://docs.intersoftsapient.net/docs/dx-freight-sign-off)
+* [The Delivery group sign-off](https://docs.intersoftsapient.net/docs/dx-freight-sign-off)
 * [Edit shipping account](https://docs.intersoftsapient.net/docs/edit-shipping-account)
