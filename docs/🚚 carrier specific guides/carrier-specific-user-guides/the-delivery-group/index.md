@@ -12,9 +12,14 @@ metadata:
 next:
   description: ''
 ---
-The Delivery Group services are broken down into four simple categories:
+The Delivery Group handover to other carries for final mile delivery of their shipments. Therefore, the services for this integration include services for carriers such as Evri and Yodel. We just create the shipment with The Delivery Group using the requested service, and The Delivery Group manage sending the data and transferring the shipment to the final mile carrier.
 
-* **Post**: Delivering letters, large letters and parcels for your business to national and international locations.
-* **Packets & Parcels**:  Delivering packets and parcels in partnership with the online traders or multichannel retailers.
-* **Pallets**: Delivering pallets with a wide range of options and time specific delivery.
-* **Special Services**: Delivering managed mail to guarantee savings on your postal charges, same day courier to cities throughout Europe, and our very own postal hand delivery within London.
+The Delivery Group integration provides the following key features:
+
+* **Ship from destinations**: GB.
+* **Ship to destinations**: GB, EU, ,<Glossary>ROW</Glossary>.
+* **Outbound/Returns services**: Outbound only.
+* **Package type**: Single-package shipments only. Consignment services are not supported.
+* **Incoterms**: <Glossary>DDU</Glossary> and <Glossary>DDP</Glossary>
+* **Label formats**: <Glossary>PDF</Glossary> and <Glossary>PNG</Glossary>.
+* Carrier API services: Tracking and SubmitItemAdvice
