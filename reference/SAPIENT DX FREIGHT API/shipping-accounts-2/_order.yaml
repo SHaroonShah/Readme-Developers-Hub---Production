@@ -1,0 +1,8 @@
+- get_v4-shippingaccounts-dxf
+- post_v4-shippingaccounts-dxf
+- get_v4-shippingaccounts-dxf-shippingaccountid
+- put_v4-shippingaccounts-dxf-shippingaccountid
+- post_v4-shippingaccounts-dxf-shippingaccountid-linklocations
+- get_v4-shippingaccounts-dxf-shippingaccountid-shippinglocations
+- >-
+  get_v4-shippingaccounts-dxf-shippingaccountid-shippinglocations-shippinglocationid
