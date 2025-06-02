@@ -30,7 +30,7 @@ To add a shipping account for The Delivery Group in SAPIENT, follow the instruct
 
 3. On the **Add Shipping Account** form that appears, in the **ACCOUNT DETAILS** block, fill in the necessary information as described in the following table.
 
-<Image align="center" alt="Entering account details" border={true} caption="Entering account details" src="https://files.readme.io/40bb3dfde408f1f6eee74c938c73d944f393452152128675900492ecb24a3e52-Account_details_block_DX_Freight.png" width="500px" />
+<Image align="center" alt="Entering account details" border={true} caption="Entering account details" src="https://files.readme.io/f979b6d755483ee5fc3af33e47c43bbdf078b633d3b3fb581e0e0baf1e209b85-Account_details_block_TDG.png" width="500px" />
 
 <AsteridkForMandatoryElements />
 
@@ -54,7 +54,7 @@ To add a shipping account for The Delivery Group in SAPIENT, follow the instruct
       </td>
 
       <td>
-        From the dropdown list, select **DXF - DX Freight**.
+        From the dropdown list, select **TDG - The Delivery Group**.
       </td>
     </tr>
 
