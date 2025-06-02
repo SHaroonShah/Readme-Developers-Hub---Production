@@ -72,7 +72,7 @@ To add a shipping account for The Delivery Group in SAPIENT, follow the instruct
       <td>
         From the dropdown menu, select the location that you want to assign to the shipping account you are creating.
 
-        *`Note`: Before selecting the shipping location, make sure you have[created one](https://docs.intersoftsapient.net/docs/add-a-shipping-location) beforehand.*
+        *`Note`: Before selecting the shipping location, make sure you have [created one](https://docs.intersoftsapient.net/docs/add-a-shipping-location) beforehand.*
       </td>
     </tr>
   </tbody>
