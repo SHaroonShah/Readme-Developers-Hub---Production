@@ -1,8 +1,6 @@
 ---
 title: Create Shipment
-excerpt: >-
-  Create a DX shipment. This will return an image of the shipping label in
-  ZPL203, PDF or PNG format.
+excerpt: Create a DX shipment. This will return an image of the shipping label in PDF.
 api:
   file: sapient-dx-api.json
   operationId: post_v4-shipments-dx
