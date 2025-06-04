@@ -7,7 +7,7 @@ excerpt: >-
   Kingdom and the European Union to manage trade from Great Britain to Northern
   Ireland in the wake of Brexit. 
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
