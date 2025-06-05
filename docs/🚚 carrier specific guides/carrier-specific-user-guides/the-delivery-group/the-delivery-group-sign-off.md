@@ -8,7 +8,7 @@ hidden: false
 metadata:
   robots: index
 ---
-Once you have created the Delivery Group (TDG) <Glossary>shipping account</Glossary>, make sure you have the correct information before you start using it to ship with The Delivery Group.
+Once you have [created](https://docs.intersoftsapient.net/docs/the-delivery-group-account-set-up#/) the Delivery Group (TDG) <Glossary>shipping account</Glossary>, make sure you have the correct information before you start using it to ship with The Delivery Group.
 
 > 💡 *Tip*
 >
