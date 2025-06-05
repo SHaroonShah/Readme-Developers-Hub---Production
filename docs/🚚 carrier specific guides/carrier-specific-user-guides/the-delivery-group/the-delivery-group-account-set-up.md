@@ -22,7 +22,7 @@ As a TDG customer, you must follow the following prerequisites before onboarding
 
 > 🚧 *Important*
 >
-> *After you have received the API credentials from TDG, you can now set up a shipping account on SAPIENT. Before doing that, make sure you have [enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with The Delivery Group and have already [created a shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location).*
+> *After you have received the API credentials from TDG, you can now set up a shipping account on SAPIENT. Before doing that, make sure you have[enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with The Delivery Group and have already [created a shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location).*
 
 To add a shipping account for The Delivery Group in SAPIENT, follow the instructions as explained in the following procedure.
 
@@ -185,9 +185,9 @@ Once done, you have now successfully added a shipping account. You can now [add 
 
 > 📘 *Note*
 >
-> *Shipping account(s) can be added and managed via API. For more information, refer to the [API References](https://docs.intersoftsapient.net/reference/post_v4-shippingaccounts-tdg#/) section.*
+> *Shipping account(s) can be added and managed via API. For more information, refer to the[API References](https://docs.intersoftsapient.net/reference/post_v4-shippingaccounts-tdg#/) section.*
 
 ### See also
 
-* [The Delivery group sign-off](https://docs.intersoftsapient.net/docs/dx-freight-sign-off)
+* [The Delivery group sign-off](https://docs.intersoftsapient.net/docs/the-delivery-group-sign-off#/)
 * [Edit shipping account](https://docs.intersoftsapient.net/docs/edit-shipping-account)
