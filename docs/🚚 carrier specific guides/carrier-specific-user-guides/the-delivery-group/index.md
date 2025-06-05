@@ -4,7 +4,7 @@ excerpt: >-
   The Delivery Group is a prominent carrier specializing in mail distribution
   services to enhance the efficiency of shipping and delivery processes.
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   title: ''
   description: ''
