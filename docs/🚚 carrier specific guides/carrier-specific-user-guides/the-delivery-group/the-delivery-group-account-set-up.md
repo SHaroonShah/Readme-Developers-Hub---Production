@@ -17,8 +17,8 @@ In SAPIENT, you can create a shipping account with The Delivery Group (TDG), and
 As a TDG customer, you must follow the following prerequisites before onboarding with Intersoft:
 
 1. First, you need to contact the TDG sales team to discuss and agree on commercial terms and participate in initial onboarding discussions.
-2. Once the commercial agreement is in place, the Sales Account Manager will forward the account to the TDG Onboarding team, where an Onboarding Manager will be assigned to you.
-3. After, The TDG Onboarding team will assign and provide the you with the necessary API credentials required for connecting to Intersoft.
+2. Once the commercial agreement is in place, the Sales Account Manager will forward the account to the TDG Onboarding team, where an onboarding Manager will be assigned to you.
+3. After, The TDG onboarding team will assign and provide the you with the necessary API credentials required for connecting to Intersoft.
 
 > 🚧 *Important*
 >
