@@ -16,7 +16,7 @@ In SAPIENT, you can create a shipping account with DX Freight, and then link it 
 
 > 🚧 *Important*
 >
-> *Before you can set up a shipping account, make sure you have [enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with DX Freight and have already [created a shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location).*
+> *Before you can set up a shipping account, make sure you have[enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with DX Freight and have already [created a shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location).*
 
 To add a shipping account for DX Freight in SAPIENT, follow the instructions as explained in the following procedure.
 
@@ -126,9 +126,9 @@ To add a shipping account for DX Freight in SAPIENT, follow the instructions as 
       <td>
         From the dropdown menu, select one of the following account types that you want to set up for the the shipping account you are adding:
 
-        • **[Production](https://docs.intersoftsapient.net/docs/sandbox-account)**: a live environment where the final version of the application is deployed and made available to the users.
+        • **[Production](https://docs.intersoftsapient.net/docs/sandbox-account)**: A live environment where the final version of the application is deployed and made available to the users.
 
-        • **[Sandbox](https://docs.intersoftsapient.net/docs/sandbox-account)**: a testing environment that mimics the **Production** environment but is isolated from it. The sandbox environment is primarily used for development and testing purposes.
+        • **[Sandbox](https://docs.intersoftsapient.net/docs/sandbox-account)**: A testing environment that mimics the **Production** environment but is isolated from it. The sandbox environment is primarily used for development and testing purposes.
       </td>
     </tr>
 
