@@ -14,7 +14,11 @@ next:
 ---
 The Delivery Group handover to other carries for final mile delivery of their shipments. Therefore, the services for this integration include services for carriers such as Evri and Yodel. We just create the shipment with The Delivery Group using the requested service, and The Delivery Group manage sending the data and transferring the shipment to the final mile carrier.
 
-<Image align="center" src="https://files.readme.io/dee7e03f4fc438e22ff8b5f02d2ae2a0be3ca82996f418fd99366685714a7f3d-TDG_logo.png" />
+***
+
+<Image align="center" width="100px" src="https://files.readme.io/286a64f989b3a1aabc9c959e88aeec2a6247d843683e6817ed6411711de16c8f-TDG_logo.png" />
+
+***
 
 The Delivery Group integration provides the following key features:
 
