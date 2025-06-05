@@ -22,7 +22,7 @@ As a TDG customer, you must follow the following prerequisites before onboarding
 
 > 🚧 *Important*
 >
-> *After you have received the API credentials from TDG, you can now set up a shipping account on SAPIENT. Before doing that, make sure you have [enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with The Delivery Group and have already [created a shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location).*
+> *After you have received the API credentials from TDG, you can now set up a shipping account on SAPIENT. Before doing that, make sure you have[enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with The Delivery Group and have already [created a shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location).*
 
 To add a shipping account for The Delivery Group in SAPIENT, follow the instructions as explained in the following procedure.
 
@@ -72,7 +72,7 @@ To add a shipping account for The Delivery Group in SAPIENT, follow the instruct
       <td>
         From the dropdown menu, select the location that you want to assign to the shipping account you are creating.
 
-        *`Note`: Before selecting the shipping location, make sure you have [created one](https://docs.intersoftsapient.net/docs/add-a-shipping-location) beforehand.*
+        *`Note`: Before selecting the shipping location, make sure you have[created one](https://docs.intersoftsapient.net/docs/add-a-shipping-location) beforehand.*
       </td>
     </tr>
   </tbody>
@@ -185,7 +185,7 @@ Once done, you have now successfully added a shipping account. You can now [add 
 
 > 📘 *Note*
 >
-> *Shipping account(s) can be added and managed via API. For more information, refer to the [API References](https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts) section.*
+> *Shipping account(s) can be added and managed via API. For more information, refer to the[API References](https://docs.intersoftsapient.net/reference/post_v4-shippingaccounts-tdg#/) section.*
 
 ### See also
 
