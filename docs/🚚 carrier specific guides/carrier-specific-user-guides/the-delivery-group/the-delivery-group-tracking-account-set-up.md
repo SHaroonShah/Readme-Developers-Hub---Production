@@ -6,7 +6,7 @@ excerpt: >-
   account provides access to tracking information for parcels and freight moving
   through logistics network or with specific carriers.
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   title: ''
   description: ''
