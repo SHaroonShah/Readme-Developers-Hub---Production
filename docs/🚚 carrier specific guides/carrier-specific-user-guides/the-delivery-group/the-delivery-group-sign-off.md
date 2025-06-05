@@ -22,4 +22,4 @@ In order to ship with The Delivery Group, consider the following:
 4. Once everything is set up, you must create a few test labels with services you will be using and share the <Glossary>labels</Glossary> with the TDG onboarding manager.
 5. It is also recommended to run the end to end test to ensure that the integration was set up correctly by sending out a test parcel. If tracking has been enabled for the carrier, then you should also receive the tracking events via the <Glossary>tracking webhook</Glossary>.
 6. After the TDG sign-off, a confirmation will be sent to you agreeing to go live.
-7. Now, you can set your account type as **Production**.
+7. Now, you can set your account type as **Production** and start shipping with it.
