@@ -28,6 +28,8 @@ Royal Mail have a set of import services. These are used for <Glossary>shipments
 > 4. *The label format is requested in the PDF format.*
 >
 > *For any other shipments that do not meet the requirements for a combined label, you will receive a standard shipping label and a separate<Glossary>CN23</Glossary> customs documentation within the Documents section of the create shipment response.*
+>
+> *Please be advised that for customs documentation the currency conversion functionality is in place, so if the shipment value is not provided in GBP, our system will convert it accordingly.*
 
 The combined label can be used over a multiple range of services as explained in the following table:
 
