@@ -166,3 +166,4 @@ A new `PudoId` field is included in **Address** object of the Royal Mail Create 
 > * *If the`pudoId` is provided for any other address other than the destination address, an error will be returned.*
 > * *If the`pudoId` is provided for a carrier that does not use PUDO, an error will be returned.*
 > * *If the destination company name includes “c/o” and the`PudoId` is not populated, the existing Local Collect functionality will continue to apply.*
+> * Supplement code is automartically added to pre advice based on the Pudo ID
