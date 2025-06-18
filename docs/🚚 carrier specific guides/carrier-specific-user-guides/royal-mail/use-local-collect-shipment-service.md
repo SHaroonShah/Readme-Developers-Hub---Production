@@ -187,8 +187,6 @@ A new `PudoId` field is included in **Address** object of the Royal Mail Create 
 <Tabs>
   <Tab title="LC1">
     Welcome to the content that you can only see inside the first Tab.
-
-    ![]()
   </Tab>
 
   <Tab title="Second Tab">
