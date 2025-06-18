@@ -201,13 +201,16 @@ A new `PudoId` field is included in **Address** object of the Royal Mail Create 
 <Columns layout="auto">
   <Column>
     Neque porro quisquam est qui dolorem ipsum quia
+<Image align="center" src="https://files.readme.io/fca718749327d776e4c9a68abe93db3a8743dddd70c8c9b0490111c1bc043b6f-Accessing_cancelled_shipments.png" />
   </Column>
 
   <Column>
     *Lorem ipsum dolor sit amet, consectetur adipiscing elit*
+<Image align="center" src="https://files.readme.io/fca718749327d776e4c9a68abe93db3a8743dddd70c8c9b0490111c1bc043b6f-Accessing_cancelled_shipments.png" />
   </Column>
 
   <Column>
     > Ut enim ad minim veniam, quis nostrud ullamco
+<Image align="center" src="https://files.readme.io/fca718749327d776e4c9a68abe93db3a8743dddd70c8c9b0490111c1bc043b6f-Accessing_cancelled_shipments.png" />
   </Column>
 </Columns>
