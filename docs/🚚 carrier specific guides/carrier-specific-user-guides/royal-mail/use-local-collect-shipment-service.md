@@ -184,22 +184,18 @@ A new `PudoId` field is included in **Address** object of the Royal Mail Create 
 > * *If the`pudoId` is provided for a carrier that does not use PUDO, an error will be returned.*
 > * *If the destination company name includes “c/o” and the`PudoId` is not populated, the existing Local Collect functionality will continue to apply.*
 
-\<Tabs>
-&#x20; \<Tab title="First Tab">
-&#x20;   Welcome to the content that you can only see inside the first Tab.
-\<Image align="center" src="https\://files.readme.io/fca718749327d776e4c9a68abe93db3a8743dddd70c8c9b0490111c1bc043b6f-Accessing\_cancelled\_shipments.png" />
-&#x20; \</Tab>
+<Tabs>
+  <Tab title="First Tab">
+    Welcome to the content that you can only see inside the first Tab.
 
-&#x20; \<Tab title="Second Tab">
-&#x20;   Here's content that's only inside the second Tab.
-\<Image align="center" src="https\://files.readme.io/fca718749327d776e4c9a68abe93db3a8743dddd70c8c9b0490111c1bc043b6f-Accessing\_cancelled\_shipments.png" />
-&#x20; \</Tab>
+    <Image align="center" src="https://files.readme.io/fca718749327d776e4c9a68abe93db3a8743dddd70c8c9b0490111c1bc043b6f-Accessing_cancelled_shipments.png" />
+  </Tab>
 
-&#x20; \<Tab title="Third Tab">
-&#x20;   Here's content that's only inside the third Tab.
-\<Image align="center" src="https\://files.readme.io/fca718749327d776e4c9a68abe93db3a8743dddd70c8c9b0490111c1bc043b6f-Accessing\_cancelled\_shipments.png" />
-&#x20; \</Tab>
-\</Tabs>
+  <Tab title="Second Tab">
+    Here's content that's only inside the second Tab.
+  </Tab>
 
-
-\</Columns>
+  <Tab title="Third Tab">
+    Here's content that's only inside the third Tab.
+  </Tab>
+</Tabs>
