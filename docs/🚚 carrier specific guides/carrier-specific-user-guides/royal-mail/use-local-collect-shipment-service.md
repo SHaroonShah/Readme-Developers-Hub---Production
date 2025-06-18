@@ -184,9 +184,10 @@ A new `PudoId` field is included in **Address** object of the Royal Mail Create 
 > * *If the`pudoId` is provided for a carrier that does not use PUDO, an error will be returned.*
 > * *If the destination company name includes “c/o” and the`PudoId` is not populated, the existing Local Collect functionality will continue to apply.*
 
-<Image align="center" src="https://files.readme.io/eaa7c9e5a5432bd21e83f881fb06581f593667fc8b6cada72a5c23ea9041886b-FedEx_partner_Label_2.png" />
+<Image align="center" src="https://files.readme.io/fca718749327d776e4c9a68abe93db3a8743dddd70c8c9b0490111c1bc043b6f-Accessing_cancelled_shipments.png" />
 
 <Accordion title="My Accordion Title" icon="fa-info-circle">
+<Image align="center" src="https://files.readme.io/fca718749327d776e4c9a68abe93db3a8743dddd70c8c9b0490111c1bc043b6f-Accessing_cancelled_shipments.png" />
   Lorem ipsum dolor sit amet, **consectetur adipiscing elit.** Ut enim
   ad minim veniam, quis nostrud exercitation ullamco. Excepteur sint
   occaecat cupidatat non proident!
