@@ -28,14 +28,14 @@ To make the **LocalCollect** shipment request, it is necessary to provide the fo
 
 ## Use local collect with PUDO ID
 
-Royal Mail’s Local Collect service is evolving to meet the needs of modern consumers. By enabling customers to receive their parcels at more diverse locations and providing a more robust data structure through the TPLMS file format, Royal Mail is enhancing the user experience and ensuring compliance with future shipping requirements
+Royal Mail’s Local Collect service is evolving to meet the needs of modern consumers. By enabling customers to receive their parcels at more diverse locations and providing a more robust data structure, enhancing the user experience and ensuring compliance with future shipping requirements.
 
-With the introduction of a new `pudoId`, Royal Mail now supports the following new additional location types while also updating the <Glossary>label</Glossary> and <Glossary>pre-advice</Glossary> file:
+With the advancements in the location services, Royal Mail now supports the following new additional location types while also updating the <Glossary>label</Glossary> and <Glossary>pre-advice</Glossary> file:
 
 * **Lockers (LOK)**: Convenient parcel lockers available for pickup.
 * **Collect+ Stores (PSH)**: A network of retail outlets, offering parcel collection services.
 
-The following new fields have been introduced in the TPLMS file.
+The following new fields have been introduced in the API request.
 
 |             Field            | Description                                                                                                                         |
 | :--------------------------: | :---------------------------------------------------------------------------------------------------------------------------------- |
@@ -53,7 +53,7 @@ The following new fields have been introduced in the TPLMS file.
 |        **Facilities**        | Represents the information about the available facilities, for example, disabled access, indoor locker, car parking.                |
 |  **Additional Information**  | Represents any additional information associated with the location.                                                                 |
 
-Along with the new TPLMS file, the following new query parameters have been added to the Get PUDO Locations API request.
+Along with the new fields, the following new query parameters have been added to the [Get PUDO Locations](https://docs.intersoftsapient.net/reference/get_v4-pudolocations-carriercode-countrycode-postcode#/) API request.
 
 <Table align={["center","left"]}>
   <thead>
@@ -183,4 +183,17 @@ A new `PudoId` field is included in **Address** object of the Royal Mail Create 
 > * *If the`pudoId` is provided for any other address other than the destination address, an error will be returned.*
 > * *If the`pudoId` is provided for a carrier that does not use PUDO, an error will be returned.*
 > * *If the destination company name includes “c/o” and the`PudoId` is not populated, the existing Local Collect functionality will continue to apply.*
-> * Supplement code is automartically added to pre advice based on the Pudo ID
+
+<Tabs>
+  <Tab title="LC1">
+    Welcome to the content that you can only see inside the first Tab.
+  </Tab>
+
+  <Tab title="Second Tab">
+    Here's content that's only inside the second Tab.
+  </Tab>
+
+  <Tab title="Third Tab">
+    Here's content that's only inside the third Tab.
+  </Tab>
+</Tabs>
