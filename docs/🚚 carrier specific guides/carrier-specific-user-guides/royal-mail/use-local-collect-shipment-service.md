@@ -193,9 +193,13 @@ A new `PudoId` field is included in **Address** object of the Royal Mail Create 
 
   <Tab title="Second Tab">
     Here's content that's only inside the second Tab.
+
+    <Image align="center" src="https://files.readme.io/fca718749327d776e4c9a68abe93db3a8743dddd70c8c9b0490111c1bc043b6f-Accessing_cancelled_shipments.png" />
   </Tab>
 
   <Tab title="Third Tab">
     Here's content that's only inside the third Tab.
+
+    <Image align="center" src="https://files.readme.io/fca718749327d776e4c9a68abe93db3a8743dddd70c8c9b0490111c1bc043b6f-Accessing_cancelled_shipments.png" />
   </Tab>
 </Tabs>
