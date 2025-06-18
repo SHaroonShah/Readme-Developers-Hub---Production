@@ -184,33 +184,22 @@ A new `PudoId` field is included in **Address** object of the Royal Mail Create 
 > * *If the`pudoId` is provided for a carrier that does not use PUDO, an error will be returned.*
 > * *If the destination company name includes “c/o” and the`PudoId` is not populated, the existing Local Collect functionality will continue to apply.*
 
-<Tabs>
-  <Tab title="First Tab">
-    Welcome to the content that you can only see inside the first Tab.
-  </Tab>
+\<Tabs>
+&#x20; \<Tab title="First Tab">
+&#x20;   Welcome to the content that you can only see inside the first Tab.
+\<Image align="center" src="https\://files.readme.io/fca718749327d776e4c9a68abe93db3a8743dddd70c8c9b0490111c1bc043b6f-Accessing\_cancelled\_shipments.png" />
+&#x20; \</Tab>
 
-  <Tab title="Second Tab">
-    Here's content that's only inside the second Tab.
-  </Tab>
+&#x20; \<Tab title="Second Tab">
+&#x20;   Here's content that's only inside the second Tab.
+\<Image align="center" src="https\://files.readme.io/fca718749327d776e4c9a68abe93db3a8743dddd70c8c9b0490111c1bc043b6f-Accessing\_cancelled\_shipments.png" />
+&#x20; \</Tab>
 
-  <Tab title="Third Tab">
-    Here's content that's only inside the third Tab.
-  </Tab>
-</Tabs>
+&#x20; \<Tab title="Third Tab">
+&#x20;   Here's content that's only inside the third Tab.
+\<Image align="center" src="https\://files.readme.io/fca718749327d776e4c9a68abe93db3a8743dddd70c8c9b0490111c1bc043b6f-Accessing\_cancelled\_shipments.png" />
+&#x20; \</Tab>
+\</Tabs>
 
-<Columns layout="auto">
-  <Column>
-    Neque porro quisquam est qui dolorem ipsum quia
-<Image align="center" src="https://files.readme.io/fca718749327d776e4c9a68abe93db3a8743dddd70c8c9b0490111c1bc043b6f-Accessing_cancelled_shipments.png" />
-  </Column>
 
-  <Column>
-    *Lorem ipsum dolor sit amet, consectetur adipiscing elit*
-<Image align="center" src="https://files.readme.io/fca718749327d776e4c9a68abe93db3a8743dddd70c8c9b0490111c1bc043b6f-Accessing_cancelled_shipments.png" />
-  </Column>
-
-  <Column>
-    > Ut enim ad minim veniam, quis nostrud ullamco
-<Image align="center" src="https://files.readme.io/fca718749327d776e4c9a68abe93db3a8743dddd70c8c9b0490111c1bc043b6f-Accessing_cancelled_shipments.png" />
-  </Column>
-</Columns>
+\</Columns>
