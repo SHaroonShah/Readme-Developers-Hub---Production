@@ -35,7 +35,7 @@ With the advancements in the location services, Royal Mail now supports the foll
 * **Lockers (LOK)**: Convenient parcel lockers available for pickup.
 * **Collect+ Stores (PSH)**: A network of retail outlets, offering parcel collection services.
 
-The following new fields have been introduced in the API request.
+The following new fields have been introduced in the file.
 
 |             Field            | Description                                                                                                                         |
 | :--------------------------: | :---------------------------------------------------------------------------------------------------------------------------------- |
