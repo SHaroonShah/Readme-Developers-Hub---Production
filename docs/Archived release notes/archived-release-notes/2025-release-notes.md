@@ -10,6 +10,58 @@ metadata:
 next:
   description: ''
 ---
+## Royal Mail SFTP and PUDO API updates
+
+The Royal Mail Collect + locations are now integrated into the **SFTP** and **PUDO** API, allowing you to easily access and create shipments for collection from Collect + points. This addition provides greater flexibility and convenience for users, streamlining the collection process for their shipments.
+
+## The Delivery Group integration
+
+The Delivery Group integration has been added to the SAPIENT system. This integration expands our shipping options, allowing our customers to utilise The Delivery Group for their shipping needs, improving overall service flexibility and efficiency.
+
+With this addition, the following information has been added to the swagger documentation:
+
+* **New API endpoints**. A new **THE DELIVERY GROUP** block has been added to our carrier-specific APIs. This block includes the following API endpoints:
+  * **Shipping Account**
+    * **Get Accounts**: Retrieve a list of the delivery group shipping accounts.
+    * **Add Account**: Add a new delivery group shipping account.
+    * **Get Account**: Retrieve details of a specific delivery group shipping account.
+    * **Update Account**: Update details of an existing delivery group shipping account.
+    * **Link Locations**: Link shipping locations to the delivery group shipping accounts.
+    * **Get Associated Locations**: Retrieve locations linked to the delivery group shipping account.
+    * **Get Associated Location**: Fetch details for a specific associated location.
+  * **Shipments**
+    * **Create Shipment**: Create a new delivery group shipment request.
+    * **Print Label**: Generate a label for the delivery group shipment.
+
+## FedEx integration
+
+The FedEx carrier integration has been added to the SAPIENT system. This enhancement provides our customers with expanded shipping options and improved logistics capabilities, allowing for more efficient management of their shipments.
+
+With this addition, the following information has been added to the swagger documentation:
+
+* **New API endpoints**. A new **FedEx** block has been added to our carrier-specific APIs. This block includes the following API endpoints:
+* **Shipping Account**
+  * **Get Accounts**: Retrieve a list of FedEx shipping accounts.
+  * **Get Account**: Retrieve details of a specific FedEx shipping account.
+  * **Link Locations**: Link shipping locations to FedEx shipping accounts.
+  * **Get Associated Locations**: Retrieve locations linked to the FedEx shipping account.
+  * **Get Associated Location**: Fetch details for a specific associated location.
+* **Shipments**
+  * **Create Shipment**: Create a new FedEx shipment request.
+  * **Print Label**: Generate a label for a FedEx shipment.
+
+> 📘 *Note*
+>
+> *For more information on how to set up a FedEx shipping account via the SAPIENT UI, refer to the[Add FedEx shipping account](https://docs.intersoftsapient.net/docs/add-fedex-shipping-account#/) section of our carrier-specific user guides.*
+
+## New SupplementaryUnits field
+
+A new field **supplementaryUnits** has been added to the **Items** object in the **Create Shipment** request. This field can be used to provide the measure of supplementary units for HS codes that support this, for example, the number of pieces, litres or square metres of the item. The unit of measure for the supplementary units does not need to be provided, as this is determined by the HS Code itself (litres, square metres, and so on).
+
+For more information on this field, see the field description in the Create Shipment request under the [API References](https://docs.intersoftsapient.net/reference/get_v4-carriers#/) page.
+
+***
+
 ## Royal Mail heavy weight services
 
 The maximum combined dimension validation for Royal Mail heavy weight services has been updated. This is done for accurate validation based solely on individual parcel dimensions, in line with our parcel specifications. This change facilitates a smoother shipment creation process, improving the overall user experience for customers utilising Royal Mail heavy weight services.
