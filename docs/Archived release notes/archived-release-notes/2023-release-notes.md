@@ -32,7 +32,7 @@ New International Letter-boxable services have been added to the Royal Mail inte
 
 ## Yodel Integration
 
-The Yodel integration has been added to Sapient. The integration supports multi-piece shipments for domestic destinations and single-piece shipments for international destinations. The label will be common for all domestic services and the international services have a different label. The label format will be PDF or PNG. 
+The Yodel integration has been added to Sapient. The integration supports multi-piece shipments for domestic destinations and single-piece shipments for international destinations. The label will be common for all domestic services and the international services have a different label. The label format will be PDF or PNG.
 
 A new Barcode Range Management screen has been added for customers to add a new barcode range for Yodel shipping accounts. For more information on how to create a Yodel shipment and manage Yodel shipping accounts, see the API reference page and the Yodel API section.
 
@@ -40,11 +40,11 @@ A new Barcode Range Management screen has been added for customers to add a new 
 
 ## Royal Mail Create Shipment API Updated to Support Multiple Package Offline Barcoding Shipments
 
-The Royal Mail [Create Shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm) request has been updated to allow offline barcoding shipments to contain multiple packages, **when all packages are going to the same destination as part of a single order**. 
+The Royal Mail [Create Shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm) request has been updated to allow offline barcoding shipments to contain multiple packages, **when all packages are going to the same destination as part of a single order**.
 
 A new OfflineBarcodes object has been added to the request to allow multiple packages to be specified.
 
- To create a multi-package offline barcode shipment, this new object must be used. The existing OfflineBarcode object only supports single-package shipments.
+To create a multi-package offline barcode shipment, this new object must be used. The existing OfflineBarcode object only supports single-package shipments.
 
 See the [API Reference](https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts) page and the Royal Mail [Create Shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm) API for more information.
 
@@ -60,9 +60,9 @@ Please note: The tracking event details are only sent when the tracking webhook 
 
 ## Royal Mail Address Field Lengths Updated to 40 Characters
 
-The maximum length of the address fields in the Royal Mail Create Shipment request has been increased from 35 characters to 40 characters. 
+The maximum length of the address fields in the Royal Mail Create Shipment request has been increased from 35 characters to 40 characters.
 
-This has been updated in the Shipper Address, Destination Address and Return to Sender Address objects. 
+This has been updated in the Shipper Address, Destination Address and Return to Sender Address objects.
 
 **For more information, see the[API Reference](https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts) page and the Royal Mail API section.**
 
@@ -70,9 +70,9 @@ This has been updated in the Shipper Address, Destination Address and Return to 
 
 ## New API – Pre-Allocate Royal Mail Tracking Number
 
-A new API has been added to allow a Royal Mail tracking number to be requested before creating a shipment. 
+A new API has been added to allow a Royal Mail tracking number to be requested before creating a shipment.
 
-This API will pre-allocate a tracking number without generating a shipment or label. The tracking number can then be used in the Create Shipment request to create a shipment using the same service and destination associated with the pre-allocated tracking number. 
+This API will pre-allocate a tracking number without generating a shipment or label. The tracking number can then be used in the Create Shipment request to create a shipment using the same service and destination associated with the pre-allocated tracking number.
 
 The API is available for Royal Mail shipments only. **For more information, see the** [API Reference](https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts) page and the Royal Mail API section.
 
@@ -92,7 +92,7 @@ If the tracking webhook is deactivated due to one or more failed attempts to sen
 
 ## Optional Hurricane Services Data Cleansing Checks Added on Shipment Creation
 
-The Hurricane services Item Verification, Prohibited Items and Denied Parties checks can now be configured to run as part of the shipment creation process. For these checks to run, Hurricane services will first need to be enabled on the customer’s account. The customer will then need to enable each check individually in the Hurricane integration screen. Once a Hurricane service has been enabled, Sapient will automatically run that data check each time a dutiable international shipment is created. 
+The Hurricane services Item Verification, Prohibited Items and Denied Parties checks can now be configured to run as part of the shipment creation process. For these checks to run, Hurricane services will first need to be enabled on the customer’s account. The customer will then need to enable each check individually in the Hurricane integration screen. Once a Hurricane service has been enabled, Sapient will automatically run that data check each time a dutiable international shipment is created.
 
 > 📘 *Note*
 >
@@ -174,8 +174,6 @@ The Edit Shipping Account UI screen has been updated to allow shipping accounts 
 ***
 
 ## Changes to validation of Shipping Accounts with Account Type of Sandbox
-
-<br />
 
 The following changes have been made to the validation of Shipping Accounts that have the Account Type set as Sandbox:
 
