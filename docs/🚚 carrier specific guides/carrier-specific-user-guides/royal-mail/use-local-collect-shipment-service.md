@@ -24,11 +24,11 @@ The second approach involves SFTP (Secure File Transfer Protocol), where custome
 
 Based on your requirements, you can choose various approaches to use the local collect service enhancement as explained in the following sections.
 
-\<Accordion title="Utilising PUDO API"
-&#x20; Lorem ipsum dolor sit amet, \*\*consectetur adipiscing elit.\*\* Ut enim
-&#x20; ad minim veniam, quis nostrud exercitation ullamco. Excepteur sint
-&#x20; occaecat cupidatat non proident!
-\</Accordion>
+<Accordion title="Utilising PUDO API for local collect enhancement" icon="fa-info-circle">
+  Lorem ipsum dolor sit amet, **consectetur adipiscing elit.** Ut enim
+  ad minim veniam, quis nostrud exercitation ullamco. Excepteur sint
+  occaecat cupidatat non proident!
+</Accordion>
 
 In SAPIENT, the local collect shipments can be created using the Royal Mail [Create Shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm) API.
 
