@@ -90,7 +90,8 @@ Additionally, the following new query parameters have been added to the [Get PUD
 
 Based on your requirements, you can choose various approaches to use the local collect service enhancement by as explained in the following sections.
 
-<Accordion title="Utilising PUDO API for local collect enhancement" />
+\<Accordion title="Utilising PUDO API for local collect enhancement" />
+\</Accordion>
 
 In SAPIENT, the local collect shipments can be created using the Royal Mail [Create Shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm) API.
 
