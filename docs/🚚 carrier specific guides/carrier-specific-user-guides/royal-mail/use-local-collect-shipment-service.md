@@ -48,7 +48,7 @@ The following new fields have been introduced in the file.
 
 Based on your requirements, you can choose various approaches to use the local collect service enhancement by as explained in the following sections.
 
-<Accordion title="Utilising PUDO API for local collect enhancement">
+<Accordion title="Utilising PUDO API for local collect">
   In the SAPIENT system, the integration of the PUDO API allows Royal Mail customers to efficiently access collection point locations for their shipments. This API is a vital component of the local collect enhancement, offering a flexible solution during the checkout process.
 
   ## How it works
@@ -101,7 +101,6 @@ Based on your requirements, you can choose various approaches to use the local c
       </tr>
     </tbody>
   </Table>
-
 
   The following snippet represents an example JSON response schema of the Get PUDO Location endpoint.
 
@@ -182,6 +181,34 @@ Based on your requirements, you can choose various approaches to use the local c
   ```
 </Accordion>
 
+<Accordion title="Accessing PUDO Locations via SFTP for local collect">
+  The PUDO SFTP (Secure File Transfer Protocol) integration involves establishing a secure connection that enables customers to securely connect to a location to pick up a CSV file containing all the Royal Mail PUDO locations.
+
+## How it works
+
+You can use the SFTP solution, if you want to download the PUDO data into your own system to check the PUDO locations that are close by to a given address by yourself.
+
+> 🚧 *Important*
+>
+> If you want to set up the PUDO integration, make sure to meet the following prerequisites:
+>
+> * Enable PUDO integration via the Royal Mail Integration Activation screen.
+>
+> <Image align="center" border={false} caption="Activating PUDO integration" src="https://files.readme.io/735e213c58d29db4438e9cc89a873cba9c4a35bbaaf4f3663f68817f8c32327a-image.png" />
+>
+> * Create a location for us to connect, and then [raise a request](mailto:onboarding@intersoftsapient.net) to our onboarding team for PUDO data via SFTP by providing your RSA Public Key through a secure gateway. Based on the details provided, our team will respond back with your connection details.
+
+The PUDO SFTP solution provides you with all locations in a single file that you can store as a library.
+
+> 💡 *Tip*
+>
+> *The file is generated on a daily basis. To learn more about the file structure and its data, refer to the following example file:*
+>
+> * [RMPUDO20250619](https://docs.google.com/spreadsheets/d/1DZ1INbGf893MCEF1ijgeMOZn-cskd0TDcZW7DtPJjLQ/edit?usp=sharing)
+>
+> *This file is available for download on a daily basis via SFTP. You must first connect to the location, download the file, and then close the connection. You cannot delete or move the file, you can only download it.*
+</Accordion>
+
 In SAPIENT, the local collect shipments can be created using the Royal Mail [Create Shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm) API.
 
 To make the **LocalCollect** shipment request, it is necessary to provide the following information:
@@ -190,152 +217,9 @@ To make the **LocalCollect** shipment request, it is necessary to provide the fo
 2. The **ServiceEnhancements** code—**LocalCollect** must be used.
 3. The **Email** or **SMS** notification service enhancement must be used by providing the destination's **ContactPhone** or **ContactEmail** information, so the end consumer can be notified when their item is ready to be collected from the post office.
 
-## Use local collect with PUDO ID
+<br />
 
-Royal Mail’s Local Collect service is evolving to meet the needs of modern consumers. By enabling customers to receive their parcels at more diverse locations and providing a more robust data structure, enhancing the user experience and ensuring compliance with future shipping requirements.
-
-With the advancements in the location services, Royal Mail now supports the following new additional location types while also updating the <Glossary>label</Glossary> and <Glossary>pre-advice</Glossary> file:
-
-* **Lockers (LOK)**: Convenient parcel lockers available for pickup.
-* **Collect+ Stores (PSH)**: A network of retail outlets, offering parcel collection services.
-
-The following new fields have been introduced in the file.
-
-|             Field            | Description                                                                                                                         |
-| :--------------------------: | :---------------------------------------------------------------------------------------------------------------------------------- |
-|        **Supplier**\*        | Represents the name of the location supplier.                                                                                       |
-|     **Supplement Code**\*    | Represents additional identification code for the location supplier.                                                                |
-| **Supplier Location Type**\* | Represents the category of the supplier location, for example, Collect+.                                                            |
-|        **Unique ID**\*       | Represents a distinct identifier for each collection point.                                                                         |
-|        **Label ID**\*        | Represents a unique identifier associated with the shipment label.                                                                  |
-|    **What3Words Value**\*    | Represents a precise address identifier for the location.                                                                           |
-| **Final Collection Times**\* | Represents specified collection times for each day of the week.                                                                     |
-|         **Products**         | Represents the list products accepted at the location.                                                                              |
-|      **Max dimensions**      | Represents details regarding parcel size (small, medium, large) and weight limits for parcels that can be accepted at the location. |
-|         **Signature**        | Represents whether the location accepts signature or non-signature shipments                                                        |
-|         **Services**         | Represents the list of services offered at the location, for example, pick-up, drop-off, print label.                               |
-|        **Facilities**        | Represents the information about the available facilities, for example, disabled access, indoor locker, car parking.                |
-|  **Additional Information**  | Represents any additional information associated with the location.                                                                 |
-
-Along with the new fields, the following new query parameters have been added to the [Get PUDO Locations](https://docs.intersoftsapient.net/reference/get_v4-pudolocations-carriercode-countrycode-postcode#/) API request.
-
-<Table align={["center","left"]}>
-  <thead>
-    <tr>
-      <th>
-        Element
-      </th>
-
-      <th>
-        Description
-      </th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <tr>
-      <td>
-        **locationServices**
-      </td>
-
-      <td>
-        This parameter specifies the available services offered at the PUDO location, such as pickup, dropoff, or print in store.
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        **includeEnhancedLocationDetails**
-      </td>
-
-      <td>
-        This parameter determines whether the response includes additional details about each PUDO location.
-
-        • If set to true, the JSON response will include `enhancedLocationDetails` object for each PUDO location. This includes more comprehensive information, such as facilities available at the location, for example, disabled access, parking, and so on, distance from postcode, and any additional attributes relevant to the location that might insist customers in making informed decisions.
-
-        • If set to false, the response will be limited to the basic details of the PUDO locations without the enhanced attributes.
-      </td>
-    </tr>
-  </tbody>
-</Table>
-
-The following snippet represents an example JSON response schema of the Get PUDO Location endpoint via the TPLMS file.
-
-```Text JSON
-{
-  "Locations": [
-    {
-      "CarrierCode": "RM",
-      "LocationAlias": "J S Pound Plus",
-      "LocationId": "2373391",
-      "Address": {
-        "Line1": "10 Grasmere Parade Wexham Road",
-        "Line2": "",
-        "Line3": "",
-        "Town": "Slough",
-        "Postcode": "SL2 5HZ",
-        "Geolocation": {
-          "Longitude": -0.5787,
-          "Latitude": 51.5183
-        },
-        "OpeningHours": {
-          "Monday": {
-            "OpeningTime": "10:00:00",
-            "ClosingTime": "21:00:00"
-          },
-          "Tuesday": {
-            "OpeningTime": "10:00:00",
-            "ClosingTime": "21:00:00"
-          },
-          "Wednesday": {
-            "OpeningTime": "10:00:00",
-            "ClosingTime": "21:00:00"
-          },
-          "Thursday": {
-            "OpeningTime": "10:00:00",
-            "ClosingTime": "21:00:00"
-          },
-          "Friday": {
-            "OpeningTime": "10:00:00",
-            "ClosingTime": "21:00:00"
-          },
-          "Saturday": {
-            "OpeningTime": "10:00:00",
-            "ClosingTime": "21:00:00"
-          },
-          "Sunday": {
-            "OpeningTime": "10:00:00",
-            "ClosingTime": "21:00:00"
-          }
-        }
-      },
-      "enhancedLocationDetails": {
-        "LocationType": "PSH",
-        "Supplier": "Collect+",
-        "SupplierLocationType": "Collect+",
-        "LabelId": "31262463",
-        "DistanceFromPostcode": "3.2",
-		"DistanceUnit": "miles",
-        "LocationAvailableFeatures": {
-          "ServiceCode": "TPN|TPS|TPM|TPL|ITL|ITM|ITN|ITS|TRL|TRM|TRN|TRS|ITC|ITD|ITE|ITF",
-          "AcceptSignature": "True",
-          "AcceptNonSignature": "True",
-          "LocationServices": "pickup|dropoff|printinstore",
-          "Facilities": "carparking"
-        },
-        "LocationRestrictions": {
-          "MaxHeight": "",
-          "MaxWidth": "",
-          "MaxLength": "",
-          "MaxWeight": "",
-          "MaxSize": ""
-        }
-      }
-    }
-  ],
-  "TotalCount": 1
-}
-```
+<br />
 
 A new `PudoId` field is included in **Address** object of the Royal Mail Create Shipment request to recognise the specific Royal Mail location by its unique ID. When the `PudoId` field is utilised, the label and pre-advice will be generated with the updated information.
 
@@ -348,133 +232,28 @@ A new `PudoId` field is included in **Address** object of the Royal Mail Create 
 > * *If the`pudoId` is provided for a carrier that does not use PUDO, an error will be returned.*
 > * *If the destination company name includes “c/o” and the`PudoId` is not populated, the existing Local Collect functionality will continue to apply.*
 
-In the SAPIENT system, the integration of the PUDO API allows Royal Mail customers to efficiently access collection point locations for their shipments. This API is a vital component of the local collect enhancement, offering a flexible solution during the checkout process.
+The PUDO SFTP (Secure File Transfer Protocol) integration involves establishing a secure connection that enables customers to securely connect to a location to pick up a CSV file containing all the Royal Mail PUDO locations.
 
 ## How it works
 
-1. **Integration Activation**: The PUDO integration must be enabled within the Sapient system for customers to leverage this feature.
+You can use the SFTP solution, if you want to download the PUDO data into your own system to check the PUDO locations that are close by to a given address by yourself.
 
-<Image align="center" border={true} caption="Activating PUDO integration" src="https://files.readme.io/130681c4ccc5018415e332ba70d3239a8e6c5b1c30b509fd21437710dfe3c46a-image.png" />
+> 🚧 *Important*
+>
+> If you want to set up the PUDO integration, make sure to meet the following prerequisites:
+>
+> * Enable PUDO integration via the Royal Mail Integration Activation screen.
+>
+> <Image align="center" border={false} caption="Activating PUDO integration" src="https://files.readme.io/735e213c58d29db4438e9cc89a873cba9c4a35bbaaf4f3663f68817f8c32327a-image.png" />
+>
+> * Create a location for us to connect, and then [raise a request](mailto:onboarding@intersoftsapient.net) to our onboarding team for PUDO data via SFTP by providing your RSA Public Key through a secure gateway. Based on the details provided, our team will respond back with your connection details.
 
-2. **Ad-Hoc Calling**: During the checkout process, customers can call the PUDO API to retrieve a list of nearby collection points based on their delivery address.
-3. **Result Delivery**: The API responds with a real-time list of PUDO locations for selection.
+The PUDO SFTP solution provides you with all locations in a single file that you can store as a library.
 
-The following new query parameters have been added to the [Get PUDO Locations](https://docs.intersoftsapient.net/reference/get_v4-pudolocations-carriercode-countrycode-postcode#/) API request.
-
-<Table align={["center","left"]}>
-  <thead>
-    <tr>
-      <th>
-        Element
-      </th>
-
-      <th>
-        Description
-      </th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <tr>
-      <td>
-        **locationServices**
-      </td>
-
-      <td>
-        This parameter specifies the available services offered at the PUDO location, such as pickup, dropoff, or print in store.
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        **includeEnhancedLocationDetails**
-      </td>
-
-      <td>
-        This parameter determines whether the response includes additional details about each PUDO location.
-
-        • If set to true, the JSON response will include `enhancedLocationDetails` object for each PUDO location. This includes more comprehensive information, such as facilities available at the location, for example, disabled access, parking, and so on, distance from postcode, and any additional attributes relevant to the location that might insist customers in making informed decisions.
-
-        • If set to false, the response will be limited to the basic details of the PUDO locations without the enhanced attributes.
-      </td>
-    </tr>
-  </tbody>
-</Table>
-
-The following snippet represents an example JSON response schema of the Get PUDO Location endpoint.
-
-```
-{
-  "Locations": [
-    {
-      "CarrierCode": "RM",
-      "LocationAlias": "J S Pound Plus",
-      "LocationId": "2373391",
-      "Address": {
-        "Line1": "10 Grasmere Parade Wexham Road",
-        "Line2": "",
-        "Line3": "",
-        "Town": "Slough",
-        "Postcode": "SL2 5HZ",
-        "Geolocation": {
-          "Longitude": -0.5787,
-          "Latitude": 51.5183
-        },
-        "OpeningHours": {
-          "Monday": {
-            "OpeningTime": "10:00:00",
-            "ClosingTime": "21:00:00"
-          },
-          "Tuesday": {
-            "OpeningTime": "10:00:00",
-            "ClosingTime": "21:00:00"
-          },
-          "Wednesday": {
-            "OpeningTime": "10:00:00",
-            "ClosingTime": "21:00:00"
-          },
-          "Thursday": {
-            "OpeningTime": "10:00:00",
-            "ClosingTime": "21:00:00"
-          },
-          "Friday": {
-            "OpeningTime": "10:00:00",
-            "ClosingTime": "21:00:00"
-          },
-          "Saturday": {
-            "OpeningTime": "10:00:00",
-            "ClosingTime": "21:00:00"
-          },
-          "Sunday": {
-            "OpeningTime": "10:00:00",
-            "ClosingTime": "21:00:00"
-          }
-        }
-      },
-      "enhancedLocationDetails": {
-        "LocationType": "PSH",
-        "Supplier": "Collect+",
-        "SupplierLocationType": "Collect+",
-        "LabelId": "31262463",
-        "DistanceFromPostcode": "3.2",
-		"DistanceUnit": "miles",
-        "LocationAvailableFeatures": {
-          "ServiceCode": "TPN|TPS|TPM|TPL|ITL|ITM|ITN|ITS|TRL|TRM|TRN|TRS|ITC|ITD|ITE|ITF",
-          "AcceptSignature": "True",
-          "AcceptNonSignature": "True",
-          "LocationServices": "pickup|dropoff|printinstore",
-          "Facilities": "carparking"
-        },
-        "LocationRestrictions": {
-          "MaxHeight": "",
-          "MaxWidth": "",
-          "MaxLength": "",
-          "MaxWeight": "",
-          "MaxSize": ""
-        }
-      }
-    }
-  ],
-  "TotalCount": 1
-}
-```
+> 💡 *Tip*
+>
+> *The file is generated on a daily basis. To learn more about the file structure and its data, refer to the following example file:*
+>
+> * [RMPUDO20250619](https://docs.google.com/spreadsheets/d/1DZ1INbGf893MCEF1ijgeMOZn-cskd0TDcZW7DtPJjLQ/edit?usp=sharing)
+>
+> *This file is available for download on a daily basis via SFTP. You must first connect to the location, download the file, and then close the connection. You cannot delete or move the file, you can only download it.*
