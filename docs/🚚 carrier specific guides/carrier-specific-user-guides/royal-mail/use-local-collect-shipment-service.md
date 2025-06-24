@@ -48,7 +48,7 @@ The following new fields have been introduced in the file.
 
 Based on your requirements, you can choose various approaches to use the local collect service enhancement by as explained in the following sections.
 
-<Accordion title="Utilising PUDO API for local collect">
+<Accordion title="Utilising PUDO API for local collect enhancement">
   In the SAPIENT system, the integration of the PUDO API allows Royal Mail customers to efficiently access collection point locations for their shipments. This API is a vital component of the local collect enhancement, offering a flexible solution during the checkout process.
 
   ## How it works
@@ -181,7 +181,7 @@ Based on your requirements, you can choose various approaches to use the local c
   ```
 </Accordion>
 
-<Accordion title="Accessing PUDO Locations via SFTP for local collect">
+<Accordion title="Accessing PUDO Locations via SFTP for local collect enhancement">
   The PUDO SFTP (Secure File Transfer Protocol) integration involves establishing a secure connection that enables customers to securely connect to a location to pick up a CSV file containing all the Royal Mail PUDO locations.
 
   ## How it works
@@ -210,23 +210,22 @@ Based on your requirements, you can choose various approaches to use the local c
 </Accordion>
 
 <Accordion title="Create shipment using local collect enhancement">
-In SAPIENT, there are two distinct ways to [create a Royal Mail shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm) aimed at delivery to a PUDO point—one method involves using the direct address of the chosen location, while the other relies on utilising the `pudoId` returned from the PUDO lookup, offering flexibility in how shipments can be generated.
+  In SAPIENT, there are two distinct ways to [create a Royal Mail shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm) aimed at delivery to a PUDO point—one method involves using the direct address of the chosen location, while the other relies on utilising the `pudoId` returned from the PUDO lookup, offering flexibility in how shipments can be generated.
 
-To make the **LocalCollect** shipment request, it is necessary to provide the following information:
+  To make the **LocalCollect** shipment request, it is necessary to provide the following information:
 
-1. The request must include *“c/o”* with the location name.
-2. The **ServiceEnhancements** code—**LocalCollect** must be used.
-3. The **Email** or **SMS** notification service enhancement must be used by providing the destination's **ContactPhone** or **ContactEmail** information, so the end consumer can be notified when their item is ready to be collected from the post office.
+  1. The request must include *“c/o”* with the location name.
+  2. The **ServiceEnhancements** code—**LocalCollect** must be used.
+  3. The **Email** or **SMS** notification service enhancement must be used by providing the destination's **ContactPhone** or **ContactEmail** information, so the end consumer can be notified when their item is ready to be collected from the post office.
 
-Keeping intact the existing functionality, for a more enhanced user experience, new `pudoId` field is included in **Address** object of the Royal Mail Create Shipment request to recognise the specific Royal Mail location by its unique ID. When the `pudoId` field is utilised, the label and pre-advice will be generated with the updated information.
+  Keeping intact the existing functionality, for a more enhanced user experience, new `pudoId` field is included in **Address** object of the Royal Mail Create Shipment request to recognise the specific Royal Mail location by its unique ID. When the `pudoId` field is utilised, the label and pre-advice will be generated with the updated information.
 
-> 🚧 *Important*
->
-> *Before providing the`pudoId`, make sure of the following:*
->
-> * *For Royal Mail shipments,`pudoId` is only supported with the destination address (that is, an outbound shipment for a delivery to a PUDO location) as the Royal Mail's Local Collect label requirements only relate to this address. Please be advised that `pudoId` is not used for drop-off to a Local Collect store or Lockers as Royal Mail does not use the Unique ID for shipment drop-offs.*
-> * *If the`pudoId` is provided for any other address other than the destination address, an error will be returned.*
-> * *If the`pudoId` is provided for a carrier that does not use PUDO, an error will be returned.*
-> * *If the destination company name includes “c/o” and the`PudoId` is not populated, the existing Local Collect functionality will continue to apply.*
+  > 🚧 *Important*
+  >
+  > *Before providing the`pudoId`, make sure of the following:*
+  >
+  > * *For Royal Mail shipments,`pudoId` is only supported with the destination address (that is, an outbound shipment for a delivery to a PUDO location) as the Royal Mail's Local Collect label requirements only relate to this address. Please be advised that `pudoId` is not used for drop-off to a Local Collect store or Lockers as Royal Mail does not use the Unique ID for shipment drop-offs.*
+  > * *If the`pudoId` is provided for any other address other than the destination address, an error will be returned.*
+  > * *If the`pudoId` is provided for a carrier that does not use PUDO, an error will be returned.*
+  > * *If the destination company name includes “c/o” and the`PudoId` is not populated, the existing Local Collect functionality will continue to apply.*
 </Accordion>
-
