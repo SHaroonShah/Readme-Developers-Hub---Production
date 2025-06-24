@@ -209,8 +209,7 @@ Based on your requirements, you can choose various approaches to use the local c
   > *This file is available for download on a daily basis via SFTP. You must first connect to the location, download the file, and then close the connection. You cannot delete or move the file, you can only download it.*
 </Accordion>
 
-<Accordion title="My Accordion Title" />
-
+<Accordion title="Create shipment using local collect enhancement">
 In SAPIENT, there are two distinct ways to [create a Royal Mail shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm) aimed at delivery to a PUDO point—one method involves using the direct address of the chosen location, while the other relies on utilising the `pudoId` returned from the PUDO lookup, offering flexibility in how shipments can be generated.
 
 To make the **LocalCollect** shipment request, it is necessary to provide the following information:
@@ -229,3 +228,5 @@ Keeping intact the existing functionality, for a more enhanced user experience, 
 > * *If the`pudoId` is provided for any other address other than the destination address, an error will be returned.*
 > * *If the`pudoId` is provided for a carrier that does not use PUDO, an error will be returned.*
 > * *If the destination company name includes “c/o” and the`PudoId` is not populated, the existing Local Collect functionality will continue to apply.*
+</Accordion>
+
