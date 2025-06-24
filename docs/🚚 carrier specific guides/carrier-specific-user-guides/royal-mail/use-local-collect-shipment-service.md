@@ -22,9 +22,9 @@ The SAPIENT system offers two effective approaches for accessing PUDO (Pick Up D
 
 The second approach involves SFTP (Secure File Transfer Protocol), where customers can download a comprehensive, daily-updated library of all available PUDO locations. Together, these options provide flexibility and convenience, catering to the diverse shipping needs of Royal Mail customers.
 
-Based on your requirements, you can choose various approaches to use the local collect service enhancement as explained in the following sections.
+Based on your requirements, you can choose various approaches to use the local collect service enhancement by expanding any of the following sections.
 
-<Accordion title="Utilising PUDO API for local collect enhancement" icon="fa-info-circle">
+<Accordion title="Utilising PUDO API for local collect enhancement">
   Lorem ipsum dolor sit amet, **consectetur adipiscing elit.** Ut enim
   ad minim veniam, quis nostrud exercitation ullamco. Excepteur sint
   occaecat cupidatat non proident!
