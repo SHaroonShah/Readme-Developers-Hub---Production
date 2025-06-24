@@ -102,6 +102,7 @@ Based on your requirements, you can choose various approaches to use the local c
     </tbody>
   </Table>
 
+
   The following snippet represents an example JSON response schema of the Get PUDO Location endpoint.
 
   ```
