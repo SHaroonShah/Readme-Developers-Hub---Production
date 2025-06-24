@@ -184,32 +184,34 @@ Based on your requirements, you can choose various approaches to use the local c
 <Accordion title="Accessing PUDO Locations via SFTP for local collect">
   The PUDO SFTP (Secure File Transfer Protocol) integration involves establishing a secure connection that enables customers to securely connect to a location to pick up a CSV file containing all the Royal Mail PUDO locations.
 
-## How it works
+  ## How it works
 
-You can use the SFTP solution, if you want to download the PUDO data into your own system to check the PUDO locations that are close by to a given address by yourself.
+  You can use the SFTP solution, if you want to download the PUDO data into your own system to check the PUDO locations that are close by to a given address by yourself.
 
-> 🚧 *Important*
->
-> If you want to set up the PUDO integration, make sure to meet the following prerequisites:
->
-> * Enable PUDO integration via the Royal Mail Integration Activation screen.
->
-> <Image align="center" border={false} caption="Activating PUDO integration" src="https://files.readme.io/735e213c58d29db4438e9cc89a873cba9c4a35bbaaf4f3663f68817f8c32327a-image.png" />
->
-> * Create a location for us to connect, and then [raise a request](mailto:onboarding@intersoftsapient.net) to our onboarding team for PUDO data via SFTP by providing your RSA Public Key through a secure gateway. Based on the details provided, our team will respond back with your connection details.
+  > 🚧 *Important*
+  >
+  > If you want to set up the PUDO integration, make sure to meet the following prerequisites:
+  >
+  > * Enable PUDO integration via the Royal Mail Integration Activation screen.
+  >
+  >   <Image align="center" src="https://files.readme.io/735e213c58d29db4438e9cc89a873cba9c4a35bbaaf4f3663f68817f8c32327a-image.png" />
+  >
+  > * Create a location for us to connect, and then [raise a request](mailto:onboarding@intersoftsapient.net) to our onboarding team for PUDO data via SFTP by providing your RSA Public Key through a secure gateway. Based on the details provided, our team will respond back with your connection details.
 
-The PUDO SFTP solution provides you with all locations in a single file that you can store as a library.
+  The PUDO SFTP solution provides you with all locations in a single file that you can store as a library.
 
-> 💡 *Tip*
->
-> *The file is generated on a daily basis. To learn more about the file structure and its data, refer to the following example file:*
->
-> * [RMPUDO20250619](https://docs.google.com/spreadsheets/d/1DZ1INbGf893MCEF1ijgeMOZn-cskd0TDcZW7DtPJjLQ/edit?usp=sharing)
->
-> *This file is available for download on a daily basis via SFTP. You must first connect to the location, download the file, and then close the connection. You cannot delete or move the file, you can only download it.*
+  > 💡 *Tip*
+  >
+  > *The file is generated on a daily basis. To learn more about the file structure and its data, refer to the following example file:*
+  >
+  > * [RMPUDO20250619](https://docs.google.com/spreadsheets/d/1DZ1INbGf893MCEF1ijgeMOZn-cskd0TDcZW7DtPJjLQ/edit?usp=sharing)
+  >
+  > *This file is available for download on a daily basis via SFTP. You must first connect to the location, download the file, and then close the connection. You cannot delete or move the file, you can only download it.*
 </Accordion>
 
-In SAPIENT, the local collect shipments can be created using the Royal Mail [Create Shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm) API.
+<Accordion title="My Accordion Title" />
+
+In SAPIENT, there are two distinct ways to [create a Royal Mail shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm) aimed at delivery to a PUDO point—one method involves using the direct address of the chosen location, while the other relies on utilising the `pudoId` returned from the PUDO lookup, offering flexibility in how shipments can be generated.
 
 To make the **LocalCollect** shipment request, it is necessary to provide the following information:
 
@@ -217,43 +219,13 @@ To make the **LocalCollect** shipment request, it is necessary to provide the fo
 2. The **ServiceEnhancements** code—**LocalCollect** must be used.
 3. The **Email** or **SMS** notification service enhancement must be used by providing the destination's **ContactPhone** or **ContactEmail** information, so the end consumer can be notified when their item is ready to be collected from the post office.
 
-<br />
-
-<br />
-
-A new `PudoId` field is included in **Address** object of the Royal Mail Create Shipment request to recognise the specific Royal Mail location by its unique ID. When the `PudoId` field is utilised, the label and pre-advice will be generated with the updated information.
+Keeping intact the existing functionality, for a more enhanced user experience, new `pudoId` field is included in **Address** object of the Royal Mail Create Shipment request to recognise the specific Royal Mail location by its unique ID. When the `pudoId` field is utilised, the label and pre-advice will be generated with the updated information.
 
 > 🚧 *Important*
 >
 > *Before providing the`pudoId`, make sure of the following:*
 >
-> * *For Royal Mail shipments,`pudoId` is only supported with the destination address (that is, collection shipments) as the Royal Mail's Local Collect label and pre-advice requirements only relate to this address. Please be advised that `pudoId` is not used for drop-off to a Local Collect store or Lockers as Royal Mail does not use the Unique ID for shipment drop-offs.*
+> * *For Royal Mail shipments,`pudoId` is only supported with the destination address (that is, an outbound shipment for a delivery to a PUDO location) as the Royal Mail's Local Collect label requirements only relate to this address. Please be advised that `pudoId` is not used for drop-off to a Local Collect store or Lockers as Royal Mail does not use the Unique ID for shipment drop-offs.*
 > * *If the`pudoId` is provided for any other address other than the destination address, an error will be returned.*
 > * *If the`pudoId` is provided for a carrier that does not use PUDO, an error will be returned.*
 > * *If the destination company name includes “c/o” and the`PudoId` is not populated, the existing Local Collect functionality will continue to apply.*
-
-The PUDO SFTP (Secure File Transfer Protocol) integration involves establishing a secure connection that enables customers to securely connect to a location to pick up a CSV file containing all the Royal Mail PUDO locations.
-
-## How it works
-
-You can use the SFTP solution, if you want to download the PUDO data into your own system to check the PUDO locations that are close by to a given address by yourself.
-
-> 🚧 *Important*
->
-> If you want to set up the PUDO integration, make sure to meet the following prerequisites:
->
-> * Enable PUDO integration via the Royal Mail Integration Activation screen.
->
-> <Image align="center" border={false} caption="Activating PUDO integration" src="https://files.readme.io/735e213c58d29db4438e9cc89a873cba9c4a35bbaaf4f3663f68817f8c32327a-image.png" />
->
-> * Create a location for us to connect, and then [raise a request](mailto:onboarding@intersoftsapient.net) to our onboarding team for PUDO data via SFTP by providing your RSA Public Key through a secure gateway. Based on the details provided, our team will respond back with your connection details.
-
-The PUDO SFTP solution provides you with all locations in a single file that you can store as a library.
-
-> 💡 *Tip*
->
-> *The file is generated on a daily basis. To learn more about the file structure and its data, refer to the following example file:*
->
-> * [RMPUDO20250619](https://docs.google.com/spreadsheets/d/1DZ1INbGf893MCEF1ijgeMOZn-cskd0TDcZW7DtPJjLQ/edit?usp=sharing)
->
-> *This file is available for download on a daily basis via SFTP. You must first connect to the location, download the file, and then close the connection. You cannot delete or move the file, you can only download it.*
