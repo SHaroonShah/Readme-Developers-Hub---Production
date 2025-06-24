@@ -14,9 +14,21 @@ metadata:
 next:
   description: ''
 ---
-The [PUDO API](https://docs.intersoftsapient.net/reference/get_v4-pudolocations-carriercode-countrycode-postcode#/) and the [PUDO via SFTP](https://docs.intersoftsapient.net/docs/pudo-data-via-sftp#/) solution enhances the convenience of shipping by allowing you to integrate pick-up and drop-off locations into your shipping processes. This flexibility offers more choices in how and where you receive you orders. Currently, these locations include Post Offices (POL), Customer Service Points (CSP), and PSH (parcel Shops) via the Local Collect CSV file. When you send the [Get PUDO Locations](https://docs.intersoftsapient.net/reference/get_v4-pudolocations-carriercode-countrycode-postcode#/) request, the data imported from this file is used to determine the available PUDO locations that are returned in the response for your to choose.
+The Pick Up and Drop Off [PUDO](https://docs.intersoftsapient.net/reference/get_v4-pudolocations-carriercode-countrycode-postcode#/) facilitates customers to collect or drop off their shipments at designated locations instead of waiting for home delivery. These locations can include retail stores, parcel lockers, or shipping facilities, offering greater convenience and flexibility for customers. The PUDO API can also be utilised as a resource for finding drop-off locations. This dual functionality enhances customer convenience by allowing them to access essential shipping options for both sending and returning packages seamlessly.
 
 <Image align="center" className="border" border={true} width="400px" src="https://files.readme.io/fc9948cba5b87c15e89ceda1d55fe6f022a938bb2b8661ace1f6f9c9e5572799-Post_office.gif" />
+
+The SAPIENT system offers two effective approaches for accessing PUDO (Pick Up Drop Off) locations to enhance local collection options for Royal Mail customers. The first method utilises the PUDO API, which allows users to retrieve nearby collection points on an ad-hoc basis during checkout ensuring real-time access to essential location information. These locations also act as a drop-off points for return services that allows customers to return their shipments to a suitable location.
+
+The second approach involves SFTP (Secure File Transfer Protocol), where customers can download a comprehensive, daily-updated library of all available PUDO locations. Together, these options provide flexibility and convenience, catering to the diverse shipping needs of Royal Mail customers.
+
+Based on your requirements, you can choose various approaches to use the local collect service enhancement as explained in the following sections.
+
+\<Accordion title="Utilising PUDO API"
+&#x20; Lorem ipsum dolor sit amet, \*\*consectetur adipiscing elit.\*\* Ut enim
+&#x20; ad minim veniam, quis nostrud exercitation ullamco. Excepteur sint
+&#x20; occaecat cupidatat non proident!
+\</Accordion>
 
 In SAPIENT, the local collect shipments can be created using the Royal Mail [Create Shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm) API.
 
