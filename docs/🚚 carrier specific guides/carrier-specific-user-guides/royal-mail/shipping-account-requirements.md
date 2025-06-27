@@ -215,7 +215,7 @@ To add a shipping account for Royal Mail in SAPIENT, follow the instructions as 
 
 7. After entering all the required information, select ![alt text](https://files.readme.io/db03c9a2b7ee816f42db617829469dce01bbdfd35aca00ace480fd78db31aa11-add_shipping_account_button_2.png).
 
-Once done, you have now successfully added a shipping account. Once the account is [approved](https://docs.intersoftsapient.net/docs/royal-mail-sign-off#/), you can now [add a shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location) to your new shipping account.
+Once done, you have now successfully added a shipping account. Once the account is [approved](https://docs.intersoftsapient.net/docs/royal-mail-sign-off#/), you can now start shipping with it.
 
 > 📘 *Note*
 >
