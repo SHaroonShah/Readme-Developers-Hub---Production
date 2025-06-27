@@ -16,7 +16,7 @@ In SAPIENT, you can create a shipping account with YODEL, assign your YODEL cred
 
 > 🚧 *IMPORTANT*
 >
-> *Before you can set up a shipping account, make sure you have [enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with YODEL.*
+> *Before you can set up a shipping account, make sure you have[enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with YODEL.*
 
 To add a shipping account for YODEL in SAPIENT, follow the instructions as explained in the following procedure.
 
@@ -183,9 +183,7 @@ To add a shipping account for YODEL in SAPIENT, follow the instructions as expla
 
 6. After entering all the required information, select ![alt text](https://files.readme.io/4d8fd2c9a6fad152f41e65d82274b94a6d3a8978f69bb88fbe74ba2d54138fe8-add_shipping_account_button_2.png).
 
-Once done, you have now successfully added a shipping account. You can now [add a shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location) to your new shipping account.
-
-***
+Once done, you have now successfully added a shipping account. You can now start shipping with it.
 
 ### See also
 
