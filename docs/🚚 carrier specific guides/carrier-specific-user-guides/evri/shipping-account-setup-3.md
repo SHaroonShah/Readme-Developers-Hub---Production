@@ -23,7 +23,7 @@ In SAPIENT, you can create a shipping account with EVRi, assign your EVRi creden
 
 > 🚧 *Important*
 >
-> *Before you can set up a shipping account, make sure you have [enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with EVRi.*
+> *Before you can set up a shipping account, make sure you have[enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with EVRi.*
 
 To add a shipping account for EVRi in SAPIENT, follow the instructions as explained in the following procedure.
 
@@ -192,7 +192,7 @@ To add a shipping account for EVRi in SAPIENT, follow the instructions as explai
 
 6. After entering all the required information, select ![alt text](https://files.readme.io/99e4e322c6a3f874e0258a73646a551aa2120d8d359b2ce5d09a4cf0eabcd44a-add_shipping_account_button_2.png).
 
-Once done, you have now successfully added a shipping account. You can now [add a shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location) to your new shipping account.
+Once done, you have now successfully added a shipping account. You can now start shipping with it.
 
 ***
 
