@@ -200,7 +200,6 @@ Based on your requirements, you can choose various approaches to use the PUDO lo
   > * [RMPUDO20250619](https://docs.google.com/spreadsheets/d/1DZ1INbGf893MCEF1ijgeMOZn-cskd0TDcZW7DtPJjLQ/edit?usp=sharing)
   >
   > *The file will have a naming convention of RMPUDOyyyymmdd.csv and will be in csv format with comma delimiters.*
-  > For more
 </Accordion>
 
 <Accordion title="Create shipment using local collect enhancement">
