@@ -50,7 +50,7 @@ Based on your requirements, you can choose various approaches to use the PUDO lo
 
   <Image align="center" border={true} src="https://files.readme.io/130681c4ccc5018415e332ba70d3239a8e6c5b1c30b509fd21437710dfe3c46a-image.png" />
 
-  2. **Ad-Hoc Calling**: During the checkout process, customers can call the PUDO API to retrieve a list of nearby collection points based on their delivery address.
+  2. **Ad-Hoc Calling**: During the checkout process, customers can call the PUDO API to retrieve a list of nearby collection points based on their delivery postcode.
   3. **Result Delivery**: The API responds with a real-time list of PUDO locations for selection.
 
   The following new query parameters have been added to the [Get PUDO Locations](https://docs.intersoftsapient.net/reference/get_v4-pudolocations-carriercode-countrycode-postcode#/) API request.
@@ -199,12 +199,15 @@ Based on your requirements, you can choose various approaches to use the PUDO lo
   >
   > * [RMPUDO20250619](https://docs.google.com/spreadsheets/d/1DZ1INbGf893MCEF1ijgeMOZn-cskd0TDcZW7DtPJjLQ/edit?usp=sharing)
   >
-  > *The file will have a naming convention of RMPUDOyyyymmdd.csv and will be in csv format with comma delimiters. To learn more about the structure of the file refer to the [PUDO file structure](https://docs.google.com/spreadsheets/d/1M86m55PXHYYoR97QIXCddtuqc80321CPKENqeKZ1y3I/edit?usp=sharing).*
-
+  > *The file will have a naming convention of RMPUDOyyyymmdd.csv and will be in csv format with comma delimiters. To learn more about the structure of the file refer to the[PUDO file structure](https://docs.google.com/spreadsheets/d/1M86m55PXHYYoR97QIXCddtuqc80321CPKENqeKZ1y3I/edit?usp=sharing).*
 </Accordion>
 
 <Accordion title="Create shipment using local collect enhancement">
-  In SAPIENT, there are two distinct ways to [create a Royal Mail shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm) aimed at delivery to a PUDO point—one method involves using the direct address of the chosen location, while the other relies on utilising the `pudoId` returned from the PUDO lookup, offering flexibility in how shipments can be generated.
+  SAPIENT not only supports retrieving the PUDO location information, but also the creation of Royal Mail outbound shipments that will be collected from a PUDO location - Local Collect.\
+  There are two distinct ways to [create a Royal Mail shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm) aimed at delivery to a PUDO point:
+
+  1. By providing the full address of the PUDO:
+     a.
 
   To make the **LocalCollect** shipment request, it is necessary to provide the following information:
 
