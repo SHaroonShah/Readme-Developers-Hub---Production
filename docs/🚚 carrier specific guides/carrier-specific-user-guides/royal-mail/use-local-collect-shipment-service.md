@@ -195,11 +195,12 @@ Based on your requirements, you can choose various approaches to use the PUDO lo
 
   > 💡 *Tip*
   >
-  > *The file is generated on a daily basis. To learn more about the file structure and its data, refer to the following example file:*
+  > *The file is generated on a daily basis. To learn more about the file data, refer to the following example file:*
   >
   > * [RMPUDO20250619](https://docs.google.com/spreadsheets/d/1DZ1INbGf893MCEF1ijgeMOZn-cskd0TDcZW7DtPJjLQ/edit?usp=sharing)
   >
   > *The file will have a naming convention of RMPUDOyyyymmdd.csv and will be in csv format with comma delimiters.*
+  > For more
 </Accordion>
 
 <Accordion title="Create shipment using local collect enhancement">
