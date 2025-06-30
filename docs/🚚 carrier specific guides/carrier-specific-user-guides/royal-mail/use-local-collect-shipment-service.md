@@ -172,7 +172,7 @@ Based on your requirements, you can choose various approaches to use the PUDO lo
 </Accordion>
 
 <Accordion title="Accessing PUDO Locations via SFTP for local collect">
-  The PUDO SFTP (Secure File Transfer Protocol) integration involves establishing a secure connection that enables customers to securely connect to a location to pick up a CSV file containing all the Royal Mail PUDO locations.
+  The PUDO SFTP (Secure File Transfer Protocol) integration involves establishing a secure connection that enables data exchange between you and Intersoft. This integration facilitates the exchange of crucial information, such as drop-off locations, opening and closing times, and shipment tracking details in a secure manner.
 
   ## How it works
 
