@@ -211,6 +211,11 @@ Based on your requirements, you can choose various approaches to use the PUDO lo
    2. The **ServiceEnhancements** code—**LocalCollect** must be used.
    3. The **Email** or **SMS** notification service enhancement must be used by providing the destination's **ContactPhone** or **ContactEmail** information, so the end consumer can be notified when their item is ready to be collected from the post office.
 
+2. By providing PUDO ID:
+   1. The request must include `PudoId`.
+   2. The **ServiceEnhancements** code—**LocalCollect** must be used.
+   3. The **Email** or **SMS** notification service enhancement must be used by providing the destination's **ContactPhone** or **ContactEmail** information, so the end consumer can be notified when their item is ready to be collected from the post office.
+
   If the `pudoId` field is included in **Address** object of the Royal Mail Create Shipment request, then SAPIENT recognises the specific Royal Mail location by its unique ID, and the label will be generated with the address information of that PUDO location.
 
   > 🚧 *Important*
