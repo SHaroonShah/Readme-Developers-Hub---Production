@@ -215,15 +215,24 @@ Based on your requirements, you can choose various approaches to use the PUDO lo
    2. The **ServiceEnhancements** code—**LocalCollect** must be used.
    3. The **Email** or **SMS** notification service enhancement must be used by providing the destination's **ContactPhone** or **ContactEmail** information, so the end consumer can be notified when their item is ready to be collected from the post office.
 
-If the `pudoId` field is included in **Address** object of the Royal Mail Create Shipment request, then SAPIENT recognises the specific Royal Mail location by its unique ID, and the label will be generated with the address information of that PUDO location.
+  If the `pudoId` field is included in **Address** object of the Royal Mail Create Shipment request, then SAPIENT recognises the specific Royal Mail location by its unique ID, and the label will be generated with the address information of that PUDO location.
 
   > 🚧 *Important*
   >
   > *Before providing the`pudoId`, make sure of the following:*
   >
-  > * *If the `pudoId` is provided for any address other than the destination address, an error will be returned.*
-  > * *If the `pudoId` is provided for a carrier that does not use PUDO, an error will be returned.*
+  > * *If the`pudoId` is provided for any address other than the destination address, an error will be returned.*
+  > * *If the`pudoId` is provided for a carrier that does not use PUDO, an error will be returned.*
   > * *If the destination company name includes “c/o” and the`PudoId` is not populated, the existing Local Collect functionality will continue to apply.*
 </Accordion>
+
 <br />
 
+1. By providing the full address of the PUDO:
+   1. The request must include “c/o” with the location name.
+   2. The **ServiceEnhancements** code—**LocalCollect** must be used.
+   3. The **Email** or **SMS** notification service enhancement must be used by providing the destination's **ContactPhone** or **ContactEmail** information, so the end consumer can be notified when their item is ready to be collected from the post office.
+2. By providing PUDO ID:
+   1. The request must include `PudoId`.
+   2. The **ServiceEnhancements** code—**LocalCollect** must be used.
+   3. The **Email** or **SMS** notification service enhancement must be used by providing the destination's **ContactPhone** or **ContactEmail** information, so the end consumer can be notified when their item is ready to be collected from the post office.
