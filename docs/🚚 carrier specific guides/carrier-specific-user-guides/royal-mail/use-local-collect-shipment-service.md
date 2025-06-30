@@ -23,10 +23,13 @@ The [PUDO API](https://docs.intersoftsapient.net/reference/get_v4-pudolocations-
 
 With the advancements in the location services, Royal Mail now supports the following location types:
 
-* **Customer Service point (CSP)**: Customer Service Point at a Delivery Office.
-* **Post Office (POL)**: Nearby post office.
-* **Lockers (LOK)**: Convenient parcel lockers available for pickup.
-* **Collect+ Stores (PSH)**: A network of retail outlets, offering parcel collection services.
+📍**Customer Service point (CSP)**: Customer Service Point at a Delivery Office.
+
+📍**Post Office (POL)**: Nearby post office.
+
+📍**Lockers (LOK)**: Convenient parcel lockers available for pickup.
+
+📍**Collect+ Stores (PSH)**: A network of retail outlets, offering parcel collection services.
 
 The SAPIENT system offers two effective approaches for accessing PUDO (Pick Up Drop Off) locations to enhance local collection options for Royal Mail customers.
 
