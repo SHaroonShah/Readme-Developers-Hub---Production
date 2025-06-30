@@ -228,13 +228,3 @@ Based on your requirements, you can choose various approaches to use the PUDO lo
 </Accordion>
 
 <br />
-
-1. By providing the full address of the PUDO:
-   1. The request must include “c/o” with the location name.
-   2. The **ServiceEnhancements** code—**LocalCollect** must be used.
-   3. The **Email** or **SMS** notification service enhancement must be used by providing the destination's **ContactPhone** or **ContactEmail** information, so the end consumer can be notified when their item is ready to be collected from the post office.
-
-2. By providing PUDO ID:
-   1. The request must include `PudoId`.
-   2. The **ServiceEnhancements** code—**LocalCollect** must be used.
-   3. The **Email** or **SMS** notification service enhancement must be used by providing the destination's **ContactPhone** or **ContactEmail** information, so the end consumer can be notified when their item is ready to be collected from the post office.
