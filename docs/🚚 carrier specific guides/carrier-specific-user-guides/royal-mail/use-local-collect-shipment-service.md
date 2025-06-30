@@ -226,5 +226,4 @@ Based on your requirements, you can choose various approaches to use the PUDO lo
   > * *If the`pudoId` is provided for a carrier that does not use PUDO, an error will be returned.*
   > * *If the destination company name includes “c/o” and the`PudoId` is not populated, the existing Local Collect functionality will continue to apply.*
 </Accordion>
-
 <br />
