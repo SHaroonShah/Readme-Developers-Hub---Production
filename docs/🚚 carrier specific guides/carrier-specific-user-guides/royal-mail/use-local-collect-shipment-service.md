@@ -1,10 +1,10 @@
 ---
-title: Use local collect shipment service
+title: Use PUDO service
 excerpt: >-
-  _Local collect_ is a convenient delivery service through which you can have
-  your parcels sent to a nearby post office or a designated collection point
-  instead of your home address. With it, you can choose a preferred location for
-  collection, making it easier to pick up packages at your convenience.
+  The Royal Mail Pick Up and Drop Off (PUDO) service enables customers to use a
+  convenient out of home option to collect or return parcels at designated
+  locations. These locations can include Post Offices, retail stores, or
+  lockers, offering greater convenience and flexibility for customers. 
 deprecated: false
 hidden: false
 metadata:
@@ -14,39 +14,32 @@ metadata:
 next:
   description: ''
 ---
-The Pick Up and Drop Off [PUDO](https://docs.intersoftsapient.net/reference/get_v4-pudolocations-carriercode-countrycode-postcode#/) facilitates customers to collect or drop off their shipments at designated locations instead of waiting for home delivery. These locations can include retail stores, parcel lockers, or shipping facilities, offering greater convenience and flexibility for customers. The PUDO API can also be utilised as a resource for finding drop-off locations. This dual functionality enhances customer convenience by allowing them to access essential shipping options for both sending and returning packages seamlessly.
+The [PUDO API](https://docs.intersoftsapient.net/reference/get_v4-pudolocations-carriercode-countrycode-postcode#/) enhances customer convenience by allowing them to access essential shipping options for both sending and returning packages seamlessly by offering the following options:
 
-<Image align="center" className="border" border={true} width="400px" src="https://files.readme.io/fc9948cba5b87c15e89ceda1d55fe6f022a938bb2b8661ace1f6f9c9e5572799-Post_office.gif" />
+* **Pick Up**: Allows customers to choose to collect their parcel from a PUDO point. It is particularly beneficial for those who may not always be available for direct delivery, helping to reduce missed delivery attempts and enhance overall customer satisfaction.
+* **Drop-off**: Allows customers to find a location where they can drop off a parcel they want to return.
 
-The SAPIENT system offers two effective approaches for accessing PUDO (Pick Up Drop Off) locations to enhance local collection options for Royal Mail customers. The first method utilises the PUDO API, which allows users to retrieve nearby collection points on an ad-hoc basis during checkout ensuring real-time access to essential location information. These locations also act as a drop-off points for return services that allows customers to return their shipments to a suitable location.
+<Image align="center" className="border" border={true} width="200px" src="https://files.readme.io/fc9948cba5b87c15e89ceda1d55fe6f022a938bb2b8661ace1f6f9c9e5572799-Post_office.gif" />
 
-The second approach involves SFTP (Secure File Transfer Protocol), where customers can download a comprehensive, daily-updated library of all available PUDO locations. Together, these options provide flexibility and convenience, catering to the diverse shipping needs of Royal Mail customers.
+With the advancements in the location services, Royal Mail now supports the following location types:
 
-With the advancements in the location services, Royal Mail now supports the following new additional location types while also updating the label and pre-advice file:
+📍**Customer Service point (CSP)**: Customer Service Point at a Delivery Office.
 
-**Lockers (LOK)**: Convenient parcel lockers available for pickup.
+📍**Post Office (POL)**: Nearby post office.
 
-**Collect+ Stores (PSH)**: A network of retail outlets, offering parcel collection services.
+📍**Lockers (LOK)**: Convenient parcel lockers available for pickup.
 
-The following new fields have been introduced in the file.
+📍**Collect+ Stores (PSH)**: A network of retail outlets, offering parcel collection services.
 
-|             Field            | Description                                                                                                                         |
-| :--------------------------: | :---------------------------------------------------------------------------------------------------------------------------------- |
-|        **Supplier**\*        | Represents the name of the location supplier.                                                                                       |
-|     **Supplement Code**\*    | Represents additional identification code for the location supplier.                                                                |
-| **Supplier Location Type**\* | Represents the category of the supplier location, for example, Collect+.                                                            |
-|        **Unique ID**\*       | Represents a distinct identifier for each collection point.                                                                         |
-|        **Label ID**\*        | Represents a unique identifier associated with the shipment label.                                                                  |
-|    **What3Words Value**\*    | Represents a precise address identifier for the location.                                                                           |
-| **Final Collection Times**\* | Represents specified collection times for each day of the week.                                                                     |
-|         **Products**         | Represents the list products accepted at the location.                                                                              |
-|      **Max dimensions**      | Represents details regarding parcel size (small, medium, large) and weight limits for parcels that can be accepted at the location. |
-|         **Signature**        | Represents whether the location accepts signature or non-signature shipments                                                        |
-|         **Services**         | Represents the list of services offered at the location, for example, pick-up, drop-off, print label.                               |
-|        **Facilities**        | Represents the information about the available facilities, for example, disabled access, indoor locker, car parking.                |
-|  **Additional Information**  | Represents any additional information associated with the location                                                                  |
+The SAPIENT system offers two effective approaches for accessing PUDO (Pick Up Drop Off) locations to enhance local collection options for Royal Mail customers.
 
-Based on your requirements, you can choose various approaches to use the local collect service enhancement by as explained in the following sections.
+The first method utilises the [PUDO API](https://docs.intersoftsapient.net/reference/get_v4-pudolocations-carriercode-countrycode-postcode#/), which allows users to retrieve nearby collection points on an ad-hoc basis during checkout ensuring real-time access to essential location information.
+
+The second approach involves SFTP (Secure File Transfer Protocol), where customers can download a comprehensive, daily-updated library of all available PUDO locations.
+
+Together, these options provide flexibility and convenience, catering to the diverse shipping needs of Royal Mail customers.
+
+Based on your requirements, you can choose various approaches to use the PUDO lookup and create a Royal Mail shipment with the Local Collect enhancement as explained in the following sections.
 
 <Accordion title="Utilising PUDO API for local collect enhancement">
   In the SAPIENT system, the integration of the PUDO API allows Royal Mail customers to efficiently access collection point locations for their shipments. This API is a vital component of the local collect enhancement, offering a flexible solution during the checkout process.
@@ -57,7 +50,7 @@ Based on your requirements, you can choose various approaches to use the local c
 
   <Image align="center" border={true} src="https://files.readme.io/130681c4ccc5018415e332ba70d3239a8e6c5b1c30b509fd21437710dfe3c46a-image.png" />
 
-  2. **Ad-Hoc Calling**: During the checkout process, customers can call the PUDO API to retrieve a list of nearby collection points based on their delivery address.
+  2. **Ad-Hoc Calling**: During the checkout process, customers can call the PUDO API to retrieve a list of nearby collection points based on their delivery postcode.
   3. **Result Delivery**: The API responds with a real-time list of PUDO locations for selection.
 
   The following new query parameters have been added to the [Get PUDO Locations](https://docs.intersoftsapient.net/reference/get_v4-pudolocations-carriercode-countrycode-postcode#/) API request.
@@ -181,8 +174,8 @@ Based on your requirements, you can choose various approaches to use the local c
   ```
 </Accordion>
 
-<Accordion title="Accessing PUDO Locations via SFTP for local collect enhancement">
-  The PUDO SFTP (Secure File Transfer Protocol) integration involves establishing a secure connection that enables customers to securely connect to a location to pick up a CSV file containing all the Royal Mail PUDO locations.
+<Accordion title="Accessing PUDO Locations via SFTP for local collect">
+  The PUDO SFTP (Secure File Transfer Protocol) integration involves establishing a secure connection that enables data exchange between you and Intersoft. This integration facilitates the exchange of crucial information, such as drop-off locations, opening and closing times, and shipment tracking details in a secure manner.
 
   ## How it works
 
@@ -190,42 +183,47 @@ Based on your requirements, you can choose various approaches to use the local c
 
   > 🚧 *Important*
   >
-  > If you want to set up the PUDO integration, make sure to meet the following prerequisites:
+  > *If you want to set up the PUDO integration, make sure to meet the following prerequisites:*
   >
-  > * Enable PUDO integration via the Royal Mail Integration Activation screen.
+  > * *[Enable PUDO integration](https://docs.intersoftsapient.net/v4.02_Archive/update/docs/integration-activation#/) via the Royal Mail Integration Activation screen.*
   >
   >   <Image align="center" src="https://files.readme.io/735e213c58d29db4438e9cc89a873cba9c4a35bbaaf4f3663f68817f8c32327a-image.png" />
   >
-  > * Create a location for us to connect, and then [raise a request](mailto:onboarding@intersoftsapient.net) to our onboarding team for PUDO data via SFTP by providing your RSA Public Key through a secure gateway. Based on the details provided, our team will respond back with your connection details.
+  > * *[Raise a request](mailto:onboarding@intersoftsapient.net) to our onboarding team to create a location for you to connect and download the PUDO data via SFTP by providing your RSA Public Key through a secure gateway. Our team will respond with your connection details.*
 
   The PUDO SFTP solution provides you with all locations in a single file that you can store as a library.
 
   > 💡 *Tip*
   >
-  > *The file is generated on a daily basis. To learn more about the file structure and its data, refer to the following example file:*
+  > *The file is generated on a daily basis. To learn more about the file data, refer to the following example file:*
   >
   > * [RMPUDO20250619](https://docs.google.com/spreadsheets/d/1DZ1INbGf893MCEF1ijgeMOZn-cskd0TDcZW7DtPJjLQ/edit?usp=sharing)
   >
-  > *This file is available for download on a daily basis via SFTP. You must first connect to the location, download the file, and then close the connection. You cannot delete or move the file, you can only download it.*
+  > *The file will have a naming convention of RMPUDOyyyymmdd.csv and will be in csv format with comma delimiters. To learn more about the structure of the file refer to the[PUDO file structure](https://docs.google.com/spreadsheets/d/1M86m55PXHYYoR97QIXCddtuqc80321CPKENqeKZ1y3I/edit?usp=sharing).*
 </Accordion>
 
 <Accordion title="Create shipment using local collect enhancement">
-  In SAPIENT, there are two distinct ways to [create a Royal Mail shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm) aimed at delivery to a PUDO point—one method involves using the direct address of the chosen location, while the other relies on utilising the `pudoId` returned from the PUDO lookup, offering flexibility in how shipments can be generated.
+  SAPIENT not only supports retrieving the PUDO location information, but also the creation of Royal Mail outbound shipments that will be collected from a PUDO location - Local Collect.\
+  There are two distinct ways to [create a Royal Mail shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm) aimed at delivery to a PUDO point:
 
-  To make the **LocalCollect** shipment request, it is necessary to provide the following information:
+1. By providing the full address of the PUDO:
+   1. The request must include “c/o” with the location name.
+   2. The **ServiceEnhancements** code—**LocalCollect** must be used.
+   3. The **Email** or **SMS** notification service enhancement must be used by providing the destination's **ContactPhone** or **ContactEmail** information, so the end consumer can be notified when their item is ready to be collected from the post office.
 
-  1. The request must include *“c/o”* with the location name.
-  2. The **ServiceEnhancements** code—**LocalCollect** must be used.
-  3. The **Email** or **SMS** notification service enhancement must be used by providing the destination's **ContactPhone** or **ContactEmail** information, so the end consumer can be notified when their item is ready to be collected from the post office.
+2. By providing PUDO ID:
+   1. The request must include `PudoId`.
+   2. The **ServiceEnhancements** code—**LocalCollect** must be used.
+   3. The **Email** or **SMS** notification service enhancement must be used by providing the destination's **ContactPhone** or **ContactEmail** information, so the end consumer can be notified when their item is ready to be collected from the post office.
 
-  Keeping intact the existing functionality, for a more enhanced user experience, new `pudoId` field is included in **Address** object of the Royal Mail Create Shipment request to recognise the specific Royal Mail location by its unique ID. When the `pudoId` field is utilised, the label and pre-advice will be generated with the updated information.
+  If the `pudoId` field is included in **Address** object of the Royal Mail Create Shipment request, then SAPIENT recognises the specific Royal Mail location by its unique ID, and the label will be generated with the address information of that PUDO location.
 
   > 🚧 *Important*
   >
   > *Before providing the`pudoId`, make sure of the following:*
   >
-  > * *For Royal Mail shipments,`pudoId` is only supported with the destination address (that is, an outbound shipment for a delivery to a PUDO location) as the Royal Mail's Local Collect label requirements only relate to this address. Please be advised that `pudoId` is not used for drop-off to a Local Collect store or Lockers as Royal Mail does not use the Unique ID for shipment drop-offs.*
-  > * *If the`pudoId` is provided for any other address other than the destination address, an error will be returned.*
+  > * *If the`pudoId` is provided for any address other than the destination address, an error will be returned.*
   > * *If the`pudoId` is provided for a carrier that does not use PUDO, an error will be returned.*
   > * *If the destination company name includes “c/o” and the`PudoId` is not populated, the existing Local Collect functionality will continue to apply.*
 </Accordion>
+<br />
