@@ -965,3 +965,26 @@ The following table describes the records and fields that are present in the dat
 | 53  | Sunday Close 1 | D   | 5   | First Closing time on Sunday in format hh:mm (in 24hr clock format) |
 | 54  | Sunday Close 2 | D   | 5   | Second Closing time on Sunday in format hh:mm (in 24hr clock format) (will be blank if office only has one Closing time) |
 | 55  | Sunday Close 3 | D   | 5   | Third Closing time on Sunday in format hh:mm (in 24hr clock format) (will be blank if office only has one or two Closing times) |
+| 56  | Wednesday Open 1 | D   | 5   | First opening time on Wednesday in format hh:mm (in 24hr clock format) |
+| 57  | Wednesday Open 2 | D   | 5   | Second opening time on Wednesday in format hh:mm (in 24hr clock format) (will be blank if office only has one opening time) |
+| 58  | Wednesday Open 3 | D   | 5   | Third opening time on Wednesday in format hh:mm (in 24hr clock format) (will be blank if office only has one or two opening times) |
+| 59  | Wednesday Close 1 | D   | 5   | First Closing time on Wednesday in format hh:mm (in 24hr clock format) |
+| 60  | Wednesday Close 2 | D   | 5   | Second Closing time on Wednesday in format hh:mm (in 24hr clock format) (will be blank if office only has one Closing time) |
+| 61  | Wednesday Close 3 | D   | 5   | Third Closing time on Wednesday in format hh:mm (in 24hr clock format) (will be blank if office only has one or two Closing times) |
+| 62  | Thursday Open 1 | D   | 5   | First opening time on Thursday in format hh:mm (in 24hr clock format) |
+| 63  | Thursday Open 2 | D   | 5   | Second opening time on Thursday in format hh:mm (in 24hr clock format) (will be blank if office only has one opening time) |
+| 64  | Thursday Open 3 | D   | 5   | Third opening time on Thursday in format hh:mm (in 24hr clock format) (will be blank if office only has one or two opening times) |
+| 65  | Thursday Close 1 | D   | 5   | First Closing time on Thursday in format hh:mm (in 24hr clock format) |
+| 66  | Thursday Close 2 | D   | 5   | Second Closing time on Thursday in format hh:mm (in 24hr clock format) (will be blank if office only has one Closing time) |
+| 67  | Thursday Close 3 | D   | 5   | Third Closing time on Thursday in format hh:mm (in 24hr clock format) (will be blank if office only has one or two Closing times) |
+| 68  | Friday Open 1 | D   | 5   | First opening time on Friday in format hh:mm (in 24hr clock format) |
+| 69  | Friday Open 2 | D   | 5   | Second opening time on Friday in format hh:mm (in 24hr clock format) (will be blank if office only has one opening time) |
+| 70  | Friday Open 3 | D   | 5   | Third opening time on Friday in format hh:mm (in 24hr clock format) (will be blank if office only has one or two opening times) |
+| 71  | Friday Close 1 | D   | 5   | First Closing time on Friday in format hh:mm (in 24hr clock format) |
+| 72  | Friday Close 2 | D   | 5   | Second Closing time on Friday in format hh:mm (in 24hr clock format) (will be blank if office only has one Closing time) |
+| 73  | Friday Close 3 | D   | 5   | Third Closing time on Friday in format hh:mm (in 24hr clock format) (will be blank if office only has one or two Closing times) |
+| 74  | Saturday Open 1 | D   | 5   | First opening time on Saturday in format hh:mm (in 24hr clock format) |
+| 75  | Saturday Open 2 | D   | 5   | Second opening time on Saturday in format hh:mm (in 24hr clock format) (will be blank if office only has one opening time) |
+| 76  | Saturday Open 3 | D   | 5   | Third opening time on Saturday in format hh:mm (in 24hr clock format) (will be blank if office only has one or two opening times) |
+| 77  | Saturday Close 1 | D   | 5   | First Closing time on Saturday in format hh:mm (in 24hr clock format) |
+| 78  | Saturday Close 2 | D   | 5   | Second Closing time on Saturday in format hh:mm (in 24hr clock format) (will be blank if office only has one Closing time) |
