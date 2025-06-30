@@ -199,7 +199,7 @@ Based on your requirements, you can choose various approaches to use the PUDO lo
   >
   > * [RMPUDO20250619](https://docs.google.com/spreadsheets/d/1DZ1INbGf893MCEF1ijgeMOZn-cskd0TDcZW7DtPJjLQ/edit?usp=sharing)
   >
-  > *This file is available for download on a daily basis via SFTP. You must first connect to the location, download the file, and then close the connection. You cannot delete or move the file, you can only download it.*
+  > *The file will have a naming convention of RMPUDOyyyymmdd.csv and will be in csv format with comma delimiters.*
 </Accordion>
 
 <Accordion title="Create shipment using local collect enhancement">
