@@ -206,13 +206,8 @@ Based on your requirements, you can choose various approaches to use the PUDO lo
   SAPIENT not only supports retrieving the PUDO location information, but also the creation of Royal Mail outbound shipments that will be collected from a PUDO location - Local Collect.\
   There are two distinct ways to [create a Royal Mail shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm) aimed at delivery to a PUDO point:
 
-  1. By providing the full address of the PUDO:
-   1. The request must include `PudoId`.
-   2. The **ServiceEnhancements** code—**LocalCollect** must be used.
-   3. The **Email** or **SMS** notification service enhancement must be used by providing the destination's **ContactPhone** or **ContactEmail** information, so the end consumer can be notified when their item is ready to be collected from the post office.
-
-2. By providing PUDO ID:
-   1. The request must include `PudoId`.
+1. By providing the full address of the PUDO:
+   1. The request must include “c/o” with the location name.
    2. The **ServiceEnhancements** code—**LocalCollect** must be used.
    3. The **Email** or **SMS** notification service enhancement must be used by providing the destination's **ContactPhone** or **ContactEmail** information, so the end consumer can be notified when their item is ready to be collected from the post office.
 
