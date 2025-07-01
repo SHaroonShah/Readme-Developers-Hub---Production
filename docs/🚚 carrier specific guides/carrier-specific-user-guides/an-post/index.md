@@ -16,6 +16,14 @@ The integration of An Post, Ireland's national postal service, into the SAPIENT 
 
 This integration provides the following key features:
 
-* **Ship from destinations**: The integration supports shipping from locations in Great Britain (GB) and Europe.
-* **Ship To Destinations**: Users can send <Glossary>shipments</Glossary> to Great Britain (GB), Europe, and the <Glossary>ROW</Glossary> (Rest of the World).
-* **Service Type**: The integration is focused on outbound shipping.
+* **Ship from destinations**: The integration supports shipping from locations in Ireland (IE) and Great Britain (GB).
+* **Ship To Destinations**: Users can send <Glossary>shipments</Glossary> to Ireland (IE), Great Britain (GB), Europe, and the <Glossary>ROW</Glossary> (Rest of the World).
+* **Service Type**: The integration is focused on outbound and inbound shipping.
+
+> 📘 *Note*
+>
+> *An Post do not support consignment services; all services are single-package services only. Also, the Express International and Priority Post services are only available to limited destinations.*
+
+* Incoterms supported: <Glossary>DDU</Glossary>
+* Label image formats: <Glossary>PDF</Glossary> and <Glossary>PNG</Glossary>
+* Integrations in scope: Label, Manifest, and Tracking
