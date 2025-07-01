@@ -12,4 +12,10 @@ hidden: true
 metadata:
   robots: index
 ---
-Coming soon.
+The integration of An Post, Ireland's national postal service, into the SAPIENT platform is a significant step in enhancing shipping capabilities. This section discusses the in-scope features of this integration and the services this carrier offers.
+
+This integration provides the following key features:
+
+* **Ship from destinations**: The integration supports shipping from locations in Great Britain (GB) and Europe.
+* **Ship To Destinations**: Users can send <Glossary>shipments</Glossary> to Great Britain (GB), Europe, and the <Glossary>ROW</Glossary> (Rest of the World).
+* **Service Type**: The integration is focused on outbound shipping.
