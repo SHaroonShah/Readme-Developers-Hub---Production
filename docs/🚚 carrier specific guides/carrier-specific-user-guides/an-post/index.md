@@ -26,7 +26,7 @@ This integration provides the following key features:
 
 > 📘 *Note*
 >
-> *An Post do not support consignment services; all services are single-package services only. Also, the Express International and Priority Post services are only available to limited destinations.*
+> *An Post does not support consignment services; all services are single-package services only. Also, the Express International and Priority Post services are only available to limited destinations.*
 
 * **Supported incoterms**: <Glossary>DDU</Glossary>
 * **Label image formats**: <Glossary>PDF</Glossary> and <Glossary>PNG</Glossary>
