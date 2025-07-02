@@ -37,7 +37,7 @@ To add a shipping account for An Post in SAPIENT, follow the instructions as exp
 
 4. In the **SHIPPING ACCOUNT** block, enter the necessary information as explained in the following table.
 
-<Image align="center" alt="Specifying shipping account details" border={true} caption="Specifying shipping account details" src="https://files.readme.io/4668084ea31679c03a9b0cee35f97a98dff1a6a9b196155c7fb39b9e91c7b66e-Shipping_account_block_YODEL.png" width="500px" />
+<Image align="center" alt="Specifying shipping account details" border={true} caption="sample image" src="https://files.readme.io/4668084ea31679c03a9b0cee35f97a98dff1a6a9b196155c7fb39b9e91c7b66e-Shipping_account_block_YODEL.png" width="500px" />
 
 > 💡 *Tip*
 >
@@ -125,7 +125,7 @@ To add a shipping account for An Post in SAPIENT, follow the instructions as exp
 
 5. In the **CARRIER DETAILS** block, enter the necessary information as explained in the following table.
 
-<Image align="center" alt="Entering carrier details" border={true} caption="Entering carrier details" src="https://files.readme.io/a2d5436c5b557ca7ba52fbd8239764e70cb7b9449239eceea0d5d0796ec7be3b-carrier_details_block_YODEL.png" width="400px" />
+<Image align="center" alt="Entering carrier details" border={true} caption="sample image" src="https://files.readme.io/a2d5436c5b557ca7ba52fbd8239764e70cb7b9449239eceea0d5d0796ec7be3b-carrier_details_block_YODEL.png" width="400px" />
 
 <AsteridkForMandatoryElements />
 
@@ -149,7 +149,7 @@ To add a shipping account for An Post in SAPIENT, follow the instructions as exp
       </td>
 
       <td>
-        Enter your seven digit YODEL contract number.
+
       </td>
     </tr>
 
@@ -159,7 +159,7 @@ To add a shipping account for An Post in SAPIENT, follow the instructions as exp
       </td>
 
       <td>
-        Enter your four digit YODEL schedule number
+
       </td>
     </tr>
 
@@ -169,9 +169,9 @@ To add a shipping account for An Post in SAPIENT, follow the instructions as exp
       </td>
 
       <td>
-        Enter your five digit meter number.
+        <br />
 
-        This number is used to create the unique YODEL barcode range.
+        <br />
       </td>
     </tr>
   </tbody>
