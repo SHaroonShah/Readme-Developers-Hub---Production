@@ -31,7 +31,14 @@ This integration provides the following key features:
 * **Supported incoterms**: <Glossary>DDU</Glossary>
 * **Label image formats**: <Glossary>PDF</Glossary> and <Glossary>PNG</Glossary>
 * **Integrations in scope**: The following integrations are added to the scope:
-  * **Label integration**: Label management is another critical aspect of the An Post integration with Sapient. The label integration feature simplifies the process of generating and managing shipping labels in the PDF format, which is essential for efficient logistics.
+  * **Label integration**: This integration feature simplifies the process of generating and managing shipping labels in the PDF format, which is essential for efficient logistics. Based on the destination country, customers must be aware of the following:
+    * For delivery to addresses in Northern Ireland (IE), only the shipping <Glossary>label</Glossary> is required.
+      * For delivery to EU destinations excluding Northern Ireland (IE), a security declaration is required.
+      * The signature image will be taken from the signature image the customer has uploaded for the shipping account in the [Logos and Signatures](https://docs.intersoftsapient.net/docs/add-signature-and-logo#/) screen.
+    * For delivery to ROW address, including GB and Northern Ireland (IE), a shipping label and <Glossary>CN23</Glossary> is required. Sapient will generate a separate address label and CN23, as this is consistent with the behaviour for other integrations.
+    > 📘 *Note*
+    >
+    > \_Please be advised that the existing SAPIET CN23 format will be used, rather than the CN23 shown in the An Post’s specification. \_
   * **Tracking integration**: This integration allows users to monitor their shipments in real-time, providing transparency and peace of mind. Users can access detailed tracking information, including, real-time updates, tracking numbers, and delivery notifications.
   * **Manifest or pre-advice integration**: when An Post shipments are manifested, an electronic pre-advice/manifest file will be generated and sent to An Post via SFTP.
 
