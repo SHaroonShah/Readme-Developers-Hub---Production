@@ -32,7 +32,7 @@ To add a tracking account for An Post in SAPIENT, follow the steps as explained 
 
 3. On the **Add Tracking account** page that appears, in the **DETAILS** block, enter the necessary information as explained in the following table.
 
-<Image align="center" alt="Adding tracking account" border={true} caption="sample image" src="https://files.readme.io/bdd3b8cd7af1eabe8440a60e0a01efce5c257219392d854103969955b32435d5-Adding_An_post_tracking_account.png" width="500px" />
+<Image align="center" alt="Adding tracking account" border={true} caption="Adding tracking account" src="https://files.readme.io/bdd3b8cd7af1eabe8440a60e0a01efce5c257219392d854103969955b32435d5-Adding_An_post_tracking_account.png" width="500px" />
 
 <AsteridkForMandatoryElements />
 
