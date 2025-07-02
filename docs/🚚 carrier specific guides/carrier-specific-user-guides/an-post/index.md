@@ -8,7 +8,7 @@ excerpt: >-
   its extensive network of post offices across Ireland, offering not just
   mailing services but also banking and government services.
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
