@@ -32,13 +32,13 @@ To add a tracking account for An Post in SAPIENT, follow the steps as explained 
 
 3. On the **Add Tracking account** page that appears, in the **DETAILS** block, enter the necessary information as explained in the following table.
 
-<Image align="center" alt="Adding tracking account" border={true} caption="sample image" src="https://files.readme.io/d5239464ffac95ad4b5081802a5b002a3e966e94ab27e760cf7ba3d2eeecaf56-Details_block_UPS.png" width="500px" />
+<Image align="center" alt="Adding tracking account" border={true} caption="sample image" src="https://files.readme.io/bdd3b8cd7af1eabe8440a60e0a01efce5c257219392d854103969955b32435d5-Adding_An_post_tracking_account.png" width="500px" />
 
 <AsteridkForMandatoryElements />
 
 |         Element        | Description                                                                                                      |
 | :--------------------: | :--------------------------------------------------------------------------------------------------------------- |
-|      **Carrier**\*     | From the dropdown menu, select UPS as your carrier option.                                                       |
+|      **Carrier**\*     | From the dropdown menu, select An Post as your carrier option.                                                   |
 | **Shipping Account**\* | From the dropdown menu, select the <Glossary>shipping account</Glossary> for which you want to receive tracking. |
 
 4. After entering all the necessary information, select ![](https://files.readme.io/41bf635f2c82bf95197e5a2f62939d396ead6033e48a985a30965d84a5be57b8-Add_tracking_account_button_2.png).
