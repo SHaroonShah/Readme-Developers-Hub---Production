@@ -37,5 +37,5 @@ This integration provides the following key features:
 
 In this section, learn how to:
 
-* [Add an An Post shipping account](https://docs.intersoftsapient.net/docs/add-fedex-shipping-account#/)
+* [Add an An Post shipping account](https://docs.intersoftsapient.net/docs/add-an-post-shipping-account#/)
 * [Add an An Post tracking account](https://docs.intersoftsapient.net/docs/add-fedex-tracking-account#/)
