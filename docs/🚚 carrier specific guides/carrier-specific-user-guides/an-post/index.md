@@ -34,3 +34,8 @@ This integration provides the following key features:
   * **Label integration**: Label management is another critical aspect of the An Post integration with Sapient. The label integration feature simplifies the process of generating and managing shipping labels in the PDF format, which is essential for efficient logistics.
   * **Tracking integration**: This integration allows users to monitor their shipments in real-time, providing transparency and peace of mind. Users can access detailed tracking information, including, real-time updates, tracking numbers, and delivery notifications.
   * **Manifest or pre-advice integration**: when An Post shipments are manifested, an electronic pre-advice/manifest file will be generated and sent to An Post via SFTP.
+
+In this section, learn how to:
+
+* [Add an An Post shipping account](https://docs.intersoftsapient.net/docs/add-fedex-shipping-account#/)
+* [Add an An Post tracking account](https://docs.intersoftsapient.net/docs/add-fedex-tracking-account#/)
