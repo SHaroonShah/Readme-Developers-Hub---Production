@@ -1,7 +1,7 @@
 ---
 title: An Post
 excerpt: >-
-  An Post is the national postal service provider of Ireland. An Post offers a
+  An Post is the national postal service provider of Ireland. It offers a
   variety of services including mail delivery, parcel shipping, and financial
   services.  It provides a comprehensive range of postal services, including
   mail delivery, parcel shipping, and logistics solutions. An Post is known for
