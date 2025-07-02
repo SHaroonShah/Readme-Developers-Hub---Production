@@ -38,7 +38,7 @@ This integration provides the following key features:
     * For delivery to ROW address, including GB and Northern Ireland (IE), a shipping label and <Glossary>CN23</Glossary> is required. Sapient will generate a separate address label and CN23, as this is consistent with the behaviour for other integrations.
     > 📘 *Note*
     >
-    > \_Please be advised that the existing SAPIET CN23 format will be used, rather than the CN23 shown in the An Post’s specification. \_
+    > *Please be advised that the existing SAPIET CN23 format will be used, rather than the CN23 shown in the An Post’s specification.*
   * **Tracking integration**: This integration allows users to monitor their shipments in real-time, providing transparency and peace of mind. Users can access detailed tracking information, including, real-time updates, tracking numbers, and delivery notifications.
   * **Manifest or pre-advice integration**: when An Post shipments are manifested, an electronic pre-advice/manifest file will be generated and sent to An Post via SFTP.
 
