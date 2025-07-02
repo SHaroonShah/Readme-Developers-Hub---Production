@@ -40,7 +40,7 @@ This integration provides the following key features:
     >
     > *Please be advised that the existing SAPIENT CN23 format will be used.*
   * **Tracking integration**: This integration allows users to monitor their shipments in real-time, providing transparency and peace of mind. Users can access detailed tracking information, including, real-time updates, tracking numbers, and delivery notifications.
-  * **Manifest or pre-advice integration**: This integration generate an electronic pre-advice/manifest file upon manifesting a shipment and sent to An Post via SFTP.
+  * **Manifest or pre-advice integration**: This integration generate an electronic <Glossary>pre-advice</Glossary>/manifest file upon manifesting a shipment and sent to An Post via SFTP.
 
 In this section, learn how to:
 
