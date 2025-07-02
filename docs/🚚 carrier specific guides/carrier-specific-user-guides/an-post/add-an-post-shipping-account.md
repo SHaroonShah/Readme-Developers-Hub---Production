@@ -1,7 +1,7 @@
 ---
 title: Add An Post shipping account
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   robots: index
 ---
