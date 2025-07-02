@@ -35,7 +35,7 @@ This integration provides the following key features:
     * For delivery to addresses in Northern Ireland (IE), only the shipping <Glossary>label</Glossary> is required.
       * For delivery to EU destinations excluding Northern Ireland (IE), a security declaration is required.
       * The signature image will be taken from the signature image the customer has uploaded for the shipping account in the [Logos and Signatures](https://docs.intersoftsapient.net/docs/add-signature-and-logo#/) screen.
-    * For delivery to ROW address, including GB and Northern Ireland (IE), a shipping label and <Glossary>CN23</Glossary> is required. Sapient will generate a separate address label and CN23, as this is consistent with the behaviour for other integrations.
+    * For delivery to ROW addresses, including GB and Northern Ireland (IE), a shipping label and <Glossary>CN23</Glossary> is required. Sapient will generate a separate address label and CN23, as this is consistent with the behaviour for other integrations.
     > 📘 *Note*
     >
     > *Please be advised that the existing SAPIENT CN23 format will be used.*
