@@ -198,7 +198,6 @@ Based on your requirements, you can choose various approaches to use the PUDO lo
   > *The file is generated on a daily basis. To learn more about the file data, refer to the following example file:*
   >
   > * <a href="https://docs.google.com/spreadsheets/d/1DZ1INbGf893MCEF1ijgeMOZn-cskd0TDcZW7DtPJjLQ/edit?gid=598993087#gid=598993087" target="_blank" rel="noopener noreferrer">RMPUDO20250619</a>
-  >   RMPUDO20250619
   >
   > *The file will have a naming convention of RMPUDOyyyymmdd.csv and will be in csv format with comma delimiters. To learn more about the structure of the file refer to the[PUDO file structure](https://docs.google.com/spreadsheets/d/1M86m55PXHYYoR97QIXCddtuqc80321CPKENqeKZ1y3I/edit?usp=sharing).*
 </Accordion>
