@@ -21,9 +21,9 @@ next:
 
 ***
 
-In SAPIENT, you can integrate with various Royal Mail services and features to streamline your shipping process. 
+In SAPIENT, you can integrate with various Royal Mail services and features to streamline your shipping process.
 
-In this section, learn how to: 
+In this section, learn how to:
 
 * [Set up Royal Mail Online Business Account (OBA)](https://docs.intersoftsapient.net/docs/oba-email-validation)
 * [Set up Royal Mail shipping account](https://docs.intersoftsapient.net/docs/shipping-account-requirements)
@@ -32,7 +32,5 @@ In this section, learn how to:
 * [Return shipments](https://docs.intersoftsapient.net/docs/royal-mail-returns)
 * [Use pre-allocated tracking number](https://docs.intersoftsapient.net/docs/use-the-royal-mail-pre-allocated-tracking-number)
 * [Use collection service](https://docs.intersoftsapient.net/docs/royal-mail-parcel-collect)
-* [Use Pick Up and Drop Off (PUDO) service](https://docs.intersoftsapient.net/docs/pudo-api)
-* [Set up PUDO via SFTP](https://docs.intersoftsapient.net/docs/pudo-data-via-sftp)
-* [Use Royal Mail local collect shipment service](https://docs.intersoftsapient.net/docs/use-local-collect-shipment-service)
+* [Use PUDO service](https://docs.intersoftsapient.net/docs/use-local-collect-shipment-service#/)
 * [Set up international arrival containers](https://docs.intersoftsapient.net/docs/add-barcode-range-for-international-arrival-containers)
