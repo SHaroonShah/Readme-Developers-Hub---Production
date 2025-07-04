@@ -199,7 +199,7 @@ Based on your requirements, you can choose various approaches to use the PUDO lo
   >
   > *
   >
-  > *The file will have a naming convention of RMPUDOyyyymmdd.csv and will be in csv format with comma delimiters. To learn more about the structure of the file refer to the PUDO file structure.*
+  > *The file will have a naming convention of RMPUDOyyyymmdd.csv and will be in csv format with comma delimiters. To learn more about the structure of the file refer to the<a href="https://docs.google.com/spreadsheets/d/1M86m55PXHYYoR97QIXCddtuqc80321CPKENqeKZ1y3I/edit?gid=128980765#gid=128980765" target="_blank" rel="noopener noreferrer"> PUDO file structure.</a>*
 </Accordion>
 
 <Accordion title="Create shipment using local collect enhancement">
