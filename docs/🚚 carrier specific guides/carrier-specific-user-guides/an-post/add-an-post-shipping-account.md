@@ -63,7 +63,7 @@ To add a shipping account for An Post in SAPIENT, follow the instructions as exp
       </td>
 
       <td>
-        Enter the nine digit account number for YODEL.
+        Enter the nine digit account number for An Post.
       </td>
     </tr>
 
