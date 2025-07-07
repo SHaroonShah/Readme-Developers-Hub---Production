@@ -9,3 +9,4 @@ hidden: true
 metadata:
   robots: index
 ---
+InPostInPost provides a convenient, eco-friendly parcel delivery service through a network of 24/7 automated lockers and partnered shops in the UK. You can drop off or pick up parcels at these locations anytime, offering flexibility and ease for both senders and recipients.
