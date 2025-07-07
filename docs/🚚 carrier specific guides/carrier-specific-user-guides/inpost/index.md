@@ -27,4 +27,4 @@ InPost is launching an innovative and affordable parcel locker service in the UK
 
 In this section, learn how to:
 
-* <Anchor label="Add an An Post shipping account" target="_blank" href="https://docs.intersoftsapient.net/docs/add-inpost-shipping-account#/">Add an An Post shipping account</Anchor>
+* <Anchor label="Add an InPost shipping account" target="_blank" href="https://docs.intersoftsapient.net/docs/add-inpost-shipping-account#/">Add an InPost shipping account</Anchor>
