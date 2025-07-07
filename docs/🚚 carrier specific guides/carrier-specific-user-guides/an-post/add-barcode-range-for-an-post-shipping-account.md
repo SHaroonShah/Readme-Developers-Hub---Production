@@ -80,7 +80,7 @@ To add a barcode range for an An Post shipping account in SAPIENT, follow the st
       <td>
         Enter a fixed set of characters to be added at the beginning of the barcode numbers.
 
-        *`Note`: Make sure the prefix correspond to the selected service. To learn more about the services and their prefixes, refer to the<a href="https://docs.google.com/spreadsheets/d/1Jp7nTCtK-nhORTupG_5iPgJy_B9oQR7YABfj3rkV1m4/edit?usp=sharing" target="_blank" rel="noopener noreferrer">An Post services list</a>.*
+        *`Note`: Make sure the prefix correspond to the selected service. To learn more about the services and their prefixes, refer to the <a href="https://docs.google.com/spreadsheets/d/1Jp7nTCtK-nhORTupG_5iPgJy_B9oQR7YABfj3rkV1m4/edit?usp=sharing" target="_blank" rel="noopener noreferrer">An Post services list</a>.*
       </td>
     </tr>
 
