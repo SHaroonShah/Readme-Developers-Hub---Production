@@ -1,5 +1,5 @@
 ---
-title: Add An Post tracking account (in progress)
+title: Add An Post tracking account
 excerpt: >-
   A _tracking account_ is a dedicated account that helps users, businesses, or
   customers to monitor and manage the status of shipments in real-time. This
