@@ -19,7 +19,7 @@ The barcode ranges functionality facilitates the <Glossary>Data Solution</Glossa
 
 This summary barcode, known as a WAND ID barcode is attached to the outside of the receptacle. As a result, an electronic Data Solution file is produced, in a predefined format and sent to Royal Mail, detailing the WAND ID and the individual shipment barcodes. It allows Royal Mail to process more efficiently shipments arriving in the UK.
 
-IN SAPIENT, you can add a barcode range under the **International Arrival Containers** API service to capture the data required to populate the Data Solution file.
+In SAPIENT, you can add a barcode range under the **International Arrival Containers** API service to capture the data required to populate the Data Solution file.
 
 To add a barcode range for International Arrival Containers in SAPIENT, follow the steps as explained in the following procedure.
 
