@@ -37,7 +37,7 @@ To add a shipping account for An Post in SAPIENT, follow the instructions as exp
 
 4. In the **SHIPPING ACCOUNT** block, enter the necessary information as explained in the following table.
 
-<Image align="center" alt="Specifying shipping account details" border={true} caption="sample image" src="https://files.readme.io/4668084ea31679c03a9b0cee35f97a98dff1a6a9b196155c7fb39b9e91c7b66e-Shipping_account_block_YODEL.png" width="500px" />
+<Image align="center" alt="Specifying shipping account details" border={true} caption="sample image" src="https://files.readme.io/95e80494ef1a7d23ee73c2d200a7ada240f0d1318161488c240a373d637f3c01-Shipping_account_block_An_Post.png" width="500px" />
 
 > 💡 *Tip*
 >
