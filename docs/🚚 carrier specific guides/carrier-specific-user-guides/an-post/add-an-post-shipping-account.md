@@ -1,5 +1,5 @@
 ---
-title: Add An Post shipping account (in progress)
+title: Add An Post shipping account
 excerpt: >-
   A _shipping account_ is a specific account set up with a shipping carrier or
   logistics provider that enables businesses to manage shipping activities.
