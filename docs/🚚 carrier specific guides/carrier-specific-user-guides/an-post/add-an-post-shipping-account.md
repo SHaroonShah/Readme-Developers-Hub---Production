@@ -32,7 +32,7 @@ To add a shipping account for An Post in SAPIENT, follow the instructions as exp
 
 |         Element         | Description                                                                                                                                 |
 | :---------------------: | :------------------------------------------------------------------------------------------------------------------------------------------ |
-|      **Carrier**\*      | From the dropdown list, select                                                                                                              |
+|      **Carrier**\*      | From the dropdown list, select **ANPOST - An Post**.                                                                                        |
 | **Shipping Location**\* | From the dropdown menu, select the <Glossary>shipping location</Glossary> that you want to assign to the shipping account you are creating. |
 
 4. In the **SHIPPING ACCOUNT** block, enter the necessary information as explained in the following table.
@@ -63,7 +63,7 @@ To add a shipping account for An Post in SAPIENT, follow the instructions as exp
       </td>
 
       <td>
-        Enter the nine digit account number for An Post.
+        Enter account number for An Post.
       </td>
     </tr>
 
