@@ -123,60 +123,6 @@ To add a shipping account for An Post in SAPIENT, follow the instructions as exp
   </tbody>
 </Table>
 
-5. In the **CARRIER DETAILS** block, enter the necessary information as explained in the following table.
-
-<Image align="center" alt="Entering carrier details" border={true} caption="sample image" src="https://files.readme.io/a2d5436c5b557ca7ba52fbd8239764e70cb7b9449239eceea0d5d0796ec7be3b-carrier_details_block_YODEL.png" width="400px" />
-
-<AsteridkForMandatoryElements />
-
-<Table align={["center","left"]}>
-  <thead>
-    <tr>
-      <th>
-        Element
-      </th>
-
-      <th>
-        Description
-      </th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <tr>
-      <td>
-        **Contract Number**\*
-      </td>
-
-      <td>
-
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        **Schedule Number**\*
-      </td>
-
-      <td>
-
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        **Meter Number**\*
-      </td>
-
-      <td>
-        <br />
-
-        <br />
-      </td>
-    </tr>
-  </tbody>
-</Table>
-
 6. After entering all the required information, select ![](https://files.readme.io/4d8fd2c9a6fad152f41e65d82274b94a6d3a8978f69bb88fbe74ba2d54138fe8-add_shipping_account_button_2.png).
 
 Once done, you have now successfully added a shipping account. You can now start shipping with it.
