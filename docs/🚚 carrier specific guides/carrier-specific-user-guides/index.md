@@ -26,4 +26,4 @@ The following carrier-specific guides are included in this section:
 * <Anchor label="DX" target="_blank" href="https://docs.intersoftsapient.net/docs/dx">DX</Anchor>
 * <Anchor label="DX Freight" target="_blank" href="https://docs.intersoftsapient.net/docs/dx-freight#/">DX Freight</Anchor>
 * <Anchor label="The Delivery Group" target="_blank" href="https://docs.intersoftsapient.net/docs/the-delivery-group#/">The Delivery Group</Anchor>
-* [FedEx](https://docs.intersoftsapient.net/docs/fedex#/)
+* <Anchor label="FedEx" target="_blank" href="https://docs.intersoftsapient.net/docs/fedex#/">FedEx</Anchor>
