@@ -18,10 +18,12 @@ In this section you can access various guides developed for each available <Glos
 
 The following carrier-specific guides are included in this section:
 
-* [Royal Mail](https://docs.intersoftsapient.net/docs/royal-mail)
-* [Royal Mail Importers](https://docs.intersoftsapient.net/docs/rm-importers)
-* [EVRi](https://docs.intersoftsapient.net/docs/evri)
-* [YODEL](https://docs.intersoftsapient.net/docs/yodel)
-* [UPS](https://docs.intersoftsapient.net/docs/ups)
-* [DX](https://docs.intersoftsapient.net/docs/dx)
-* [DX Freight](https://docs.intersoftsapient.net/docs/dx-freight#/)
+* <Anchor label="Royal Mail" target="_blank" href="https://docs.intersoftsapient.net/docs/royal-mail">Royal Mail</Anchor>
+* <Anchor label="Royal Mail Importers" target="_blank" href="https://docs.intersoftsapient.net/docs/rm-importers">Royal Mail Importers</Anchor>
+* <Anchor label="EVRi" target="_blank" href="https://docs.intersoftsapient.net/docs/evri">EVRi</Anchor>
+* <Anchor label="YODEL" target="_blank" href="https://docs.intersoftsapient.net/docs/yodel">YODEL</Anchor>
+* <Anchor label="UPS" target="_blank" href="https://docs.intersoftsapient.net/docs/ups">UPS</Anchor>
+* <Anchor label="DX" target="_blank" href="https://docs.intersoftsapient.net/docs/dx">DX</Anchor>
+* <Anchor label="DX Freight" target="_blank" href="https://docs.intersoftsapient.net/docs/dx-freight#/">DX Freight</Anchor>
+* <Anchor label="The Delivery Group" target="_blank" href="https://docs.intersoftsapient.net/docs/the-delivery-group#/">The Delivery Group</Anchor>
+* [FedEx](https://docs.intersoftsapient.net/docs/fedex#/)
