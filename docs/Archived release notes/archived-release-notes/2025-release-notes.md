@@ -10,6 +10,50 @@ metadata:
 next:
   description: ''
 ---
+## Royal Mail Local Collect enhancements
+
+The Royal Mail's Local Collect enhancement now provides the following two new location types:
+
+* **Collect+**: Now receiving data from Royal Mail for collect+ location, enabling customers to choose from a wide range of collection points.
+* **Lockers**: This location will be available soon as part of the Local Collect enhancement.
+
+This update allows customers to access a broader range of collection points. To utilise these new location types, the customers need to request the **enhancedLocationDetails** object to be returned in the [GET PUDO Locations](https://docs.intersoftsapient.net/reference/get_v4-pudolocations-carriercode-countrycode-postcode#/) response, and save the **locationId** of the chosen location to be sent in the `pudoId` field of the destination address object when preparing the shipment. The existing Local Collect functionality will remain effective if the `pudoId` is not provided.
+
+> 📘 *Note*
+>
+> *For more information on the new local collect enhancements, refer to the<Anchor label="Use local collect shipment service" target="_blank" href="https://docs.intersoftsapient.net/update/docs/use-local-collect-shipment-service#/">Use local collect shipment service</Anchor> section.*
+
+## Swagger documentation updates
+
+The following updates have been made to the swagger documentation:
+
+* **Get PUDO Locations**. The **GET PUDO Locations** API has been updated to improve its functionality and user experience. Key enhancements include allowing for additional data to be returned from the new Local Collect file and introducing new query parameters for better filtering of pickup and drop-off points. The updates include the following:
+  * The **Get PUDO Locations** endpoint has been updated to modify the default value for the **MaximumResults** field from 30 to 10 when a maximum number of locations is not specified by the customer.
+  * The existing **locationId** field has been modified to return Royal Mail's unique ID for locations, replacing the previous postcode response.
+  * A new **enhancedLocationDetails** object is included in the **GET PUDO Locations** API response when the **includeEnhancedLocationDetails** query parameter is set to true, providing more detailed information about the PUDO locations.
+
+> 📘 *Note*
+>
+> *For more information on the new local collect enhancements, refer to the<Anchor label="Use local collect shipment service" target="_blank" href="https://docs.intersoftsapient.net/update/docs/use-local-collect-shipment-service#/">Use local collect shipment service</Anchor> section.*
+
+* **Royal Mail Create Shipment API endpoint**. A new **pudoId** field has been added to the **Address** object in the Royal Mail Create Shipment request, allowing the capture of the Location ID returned by the **Get PUDO Locations** endpoint. This optional field is only valid for the destination address in Royal Mail shipments and is essential for collection shipments.
+
+## Offline barcoding shipments
+
+Royal Mail customers can now create Offline Barcoding shipments without requiring a fully matching postcode in the Gazetteer. This enhancement allows customers using offline barcoding to generate pre-advice and OBA data for existing shipments that have "non-matching" postcodes, enabling accurate billing. This change aims to reduce the number of uncharged shipments and streamline the billing process for Royal Mail's Offline Barcoding customers.
+
+## Royal Mail domestic and international label templates
+
+All Royal Mail’s international and domestic label templates have been updated to include the King’s crown in the Royal Mail cruciform logo. This enhancement ensures that customers can generate labels that meet the latest Royal Mail standards, keeping the SAPIENT system compliant with ongoing updates to the bespoke shipping solution.
+
+<Image align="center" border={true} caption="Royal Mail new logo example" src="https://files.readme.io/22779b14c0d377c9cdf45cdb2845b229d69c87b26709b8535d3921c658e7df86-Delivered_By-min.jpg" width="500px" />
+
+## InPost integration (coming soon)
+
+A new InPost integration is coming soon! This integration aims to enhance your shipping experience with improved functionality and efficiency. Stay tuned for more updates, as we will provide further details on features and availability shortly.
+
+***
+
 ## Royal Mail SFTP and PUDO API updates
 
 The Royal Mail Collect + locations are now integrated into the **SFTP** and **PUDO** API, allowing you to easily access and create shipments for collection from Collect + points. This addition provides greater flexibility and convenience for users, streamlining the collection process for their shipments.
