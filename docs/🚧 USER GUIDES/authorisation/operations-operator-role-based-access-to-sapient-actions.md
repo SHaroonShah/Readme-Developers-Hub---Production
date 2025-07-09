@@ -6,7 +6,7 @@ excerpt: >-
   explained in detail in the following tables for each functionality in
   SAPIENT. 
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   robots: index
 ---
