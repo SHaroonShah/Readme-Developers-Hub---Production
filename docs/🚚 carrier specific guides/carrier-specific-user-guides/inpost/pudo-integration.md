@@ -42,7 +42,7 @@ If the `pudoId` field is included in **Address** object of the InPost Create Shi
 > *Before providing the`pudoId`, make sure of the following:*
 >
 > * *If the`pudoId` is provided for any address other than the destination address, an error will be returned.*
-> * *The`pudoId` field is mandatory for B2C <Glossary>business transaction type</Glossary> shiopments.*
+> * *The`pudoId` field is mandatory for B2C shipments.*
 > * *The`pudoId` field must not be populated for the returns services. The consumer can drop their return at any parcel locker or PUDO location.*
 > * *If the`pudoId` is provided for a carrier that does not use PUDO, an error will be returned.*
 > * *If the destination company name includes “c/o” and the`PudoId` is not populated, an error will be returned.*
