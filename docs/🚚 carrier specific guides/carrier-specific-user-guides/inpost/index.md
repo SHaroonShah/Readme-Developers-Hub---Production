@@ -6,7 +6,7 @@ excerpt: >-
   service operated in Poland, Italy, United Kingdom, France, Benelux, Spain, and
   Portugal.
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   robots: index
 ---
