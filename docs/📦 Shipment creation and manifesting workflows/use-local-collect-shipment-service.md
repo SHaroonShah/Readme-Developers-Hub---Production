@@ -193,13 +193,15 @@ Based on your requirements, you can choose various approaches to use the PUDO lo
 
   The PUDO SFTP solution provides you with all locations in a single file that you can store as a library.
 
-  > 💡 *Tip*
-  >
-  > *The file is generated on a daily basis. To learn more about the file data, refer to the following example file:*
-  >
-  > * <a href="https://docs.google.com/spreadsheets/d/16ygmINFe4-1UUKqZ2Jwf3-7ms9Pl5qBMRVTUCz5XJJ0/edit?usp=sharing" target="_blank" rel="noopener noreferrer">RMPUDO20250718</a>
-  >
-  > *The file will have a naming convention of RMPUDOyyyymmdd.csv and will be in csv format with comma delimiters. To learn more about the structure of the file refer to the<a href="https://docs.google.com/spreadsheets/d/1M86m55PXHYYoR97QIXCddtuqc80321CPKENqeKZ1y3I/edit?usp=sharing" target="_blank" rel="noopener noreferrer">PUDO file structure.</a>*
+  <Callout icon="💡" theme="default">
+    ### *Tip*
+
+    *The file is generated on a daily basis. To learn more about the file data, refer to the following example file:*
+
+    * <a href="https://docs.google.com/spreadsheets/d/16ygmINFe4-1UUKqZ2Jwf3-7ms9Pl5qBMRVTUCz5XJJ0/edit?usp=sharing" target="_blank" rel="noopener noreferrer">RMPUDO20250718</a>
+
+    *The file will have a naming convention of RMPUDOyyyymmdd.csv and will be in csv format with comma delimiters. To learn more about the structure of the file refer to the<a href="https://docs.google.com/spreadsheets/d/1M86m55PXHYYoR97QIXCddtuqc80321CPKENqeKZ1y3I/edit?usp=sharing" target="_blank" rel="noopener noreferrer">PUDO file structure.</a>*
+  </Callout>
 </Accordion>
 
 <Accordion title="Create shipment using local collect enhancement">
