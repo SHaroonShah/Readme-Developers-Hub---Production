@@ -3,8 +3,9 @@ title: Inpost PUDO service
 excerpt: >-
   The Pick Up and Drop Off (PUDO) service enables customers to use a convenient
   out of home option to collect or return parcels at designated locations. These
-  locations can include Post Offices, retail stores, or lockers, offering
-  greater convenience and flexibility for customers. 
+  locations can include Automated Parcel Machines (APMs), that is Parcel Lockers
+  and PUDOs (stores), offering greater convenience and flexibility for
+  customers. 
 deprecated: false
 hidden: true
 metadata:
