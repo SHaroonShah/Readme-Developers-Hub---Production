@@ -1,5 +1,5 @@
 ---
-title: Use Inpost PUDO service
+title: Inpost PUDO service
 deprecated: false
 hidden: true
 metadata:
