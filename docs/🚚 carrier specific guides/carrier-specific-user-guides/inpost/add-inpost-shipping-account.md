@@ -10,9 +10,11 @@ metadata:
 ---
 In SAPIENT, you can create a shipping account with InPost, assign your InPost credentials to it, and then link it to the relevant <Glossary>shipping location</Glossary>(s).
 
-> 🚧 *IMPORTANT*
->
-> *Before you can set up a shipping account, make sure you have[enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with InPost.*
+<Callout icon="🚧" theme="warn">
+  ***Important***
+
+  *Before you can set up a shipping account, make sure you have[enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with InPost.*
+</Callout>
 
 To add a shipping account for InPost in SAPIENT, follow the instructions as explained in the following procedure.
 
@@ -39,9 +41,11 @@ To add a shipping account for InPost in SAPIENT, follow the instructions as expl
 
 <Image align="center" alt="Specifying shipping account details" border={true} caption="Entering shipping account details" src="https://files.readme.io/95e80494ef1a7d23ee73c2d200a7ada240f0d1318161488c240a373d637f3c01-Shipping_account_block_An_Post.png" width="500px" />
 
-> 💡 *Tip*
->
-> *In the following table, the mandatory fields are marked with an asterisk (\*).*
+<Callout icon="💡" theme="default">
+  ### *Tip*
+
+  *In the following table, the mandatory fields are marked with an asterisk (\*).*
+</Callout>
 
 <Table align={["center","left"]}>
   <thead>
