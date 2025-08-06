@@ -25,6 +25,12 @@ The SAPIENT's [PUDO API](https://docs.intersoftsapient.net/reference/get_v4-pudo
 
 SAPIENT not only supports retrieving the PUDO location information, but also the creation of InPost outbound shipments that will be collected from a PUDO location.
 
+<Callout icon="🚧" theme="warn">
+  ***Important***
+
+  *Before you can use the PUDO api, make sure you have[enabled the pudo integration](https://docs.intersoftsapient.net/docs/integration-activation) with InPost.*
+</Callout>
+
 There are two distinct ways to [create an Inpost shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-inpost#/) aimed at delivery to a PUDO point:
 
 1. By providing the full address of the PUDO:
