@@ -1,10 +1,11 @@
 ---
 title: Inpost PUDO service
 excerpt: >-
-  The InPost Pick Up and Drop Off (PUDO) service enables customers to use a
-  convenient out of home option to collect or return parcels at designated
-  locations. These locations can include Post Offices, retail stores, or
-  lockers, offering greater convenience and flexibility for customers. 
+  The InPost uses SAPIENT's Pick Up and Drop Off (PUDO) service that enables
+  customers to use a convenient out of home option to collect or return parcels
+  at designated locations. These locations can include Post Offices, retail
+  stores, or lockers, offering greater convenience and flexibility for
+  customers. 
 deprecated: false
 hidden: true
 metadata:
