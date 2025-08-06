@@ -1,5 +1,5 @@
 ---
-title: Add barcode range to An post shipping account
+title: Add barcode range to An Post shipping account
 excerpt: >-
   A _barcode range_ is a specific set of numbers designated for tracking
   shipments. These barcodes are used to uniquely identify shipments at various
@@ -12,7 +12,7 @@ metadata:
 ---
 The primary purpose of creating barcodes is to facilitate efficient tracking and management of shipments. Barcodes allow for the easy identification of items at various points in the shipping process, from dispatch to delivery. By assigning a unique barcode to each <Glossary>shipment</Glossary>, An Post can streamline its operations and improve accuracy in handling processes.
 
-In SAPIENT, for an AN n Post <Glossary>shipping account</Glossary>, you can add a separate barcode number range per customer account and service.
+In SAPIENT, for an An Post <Glossary>shipping account</Glossary>, you can add a separate barcode number range per customer account and service.
 
 To add a barcode range for an An Post shipping account in SAPIENT, follow the steps as explained in the following procedure.
 
