@@ -19,7 +19,7 @@ InPost is launching an innovative and affordable parcel locker service in the UK
 * **Service Type**: The integration is focused on outbound and inbound shipping.
 * **InPost shipping services**: These services include the following:
   * **Labelled B2C**: to generate and return a <Glossary>label</Glossary> to be attached to the parcel for a B2C <Glossary>business transaction type</Glossary> deliveries.
-  * **Labelless returns using QR codes**: to generate a QR code for a return <Glossary>shipment</Glossary> which eliminates the need for printing shipping labels. This feature enhances the return process and makes it more environmentally friendly.
+  * **Labelless returns using QR codes**: to generate a QR code for a return shipment which eliminates the need for printing shipping labels. This feature enhances the return process and makes it more environmentally friendly.
 * **API endpoints for shipment creation and QR code retrieval**: The integration includes specific API endpoints that developers can use to create shipments and retrieve labels or QR codes. This enables seamless interaction between the InPost service and SAPIENT system, ensuring efficient data flow and functionality.
   * Create Parcel endpoint for B2C service
   * Create Parcel endpoint for returns service
