@@ -21,8 +21,6 @@ With this integration, Inpost offers the following location types:
 * **Lockers**: Convenient parcel lockers available for pickup.
 * **Collect +**: A network of retail stores, offering parcel pick up an drop off services.
 
-<br />
-
 The SAPIENT's [PUDO API](https://docs.intersoftsapient.net/reference/get_v4-pudolocations-carriercode-countrycode-postcode#/), allows users to retrieve nearby collection points on an ad-hoc basis during checkout ensuring real-time access to essential location information.
 
 SAPIENT not only supports retrieving the PUDO location information, but also the creation of InPost outbound shipments that will be collected from a PUDO location.
