@@ -31,7 +31,7 @@ SAPIENT not only supports retrieving the PUDO location information, but also the
   *Before you can use the PUDO API, make sure you have[enabled the pudo integration](https://docs.intersoftsapient.net/docs/integration-activation) with InPost.*
 </Callout>
 
-There are two distinct ways to [create an Inpost shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-inpost#/) aimed at delivery to a PUDO point:
+There are two distinct ways to [create an InPost shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-inpost#/) aimed at delivery to a PUDO point:
 
 1. By providing the full address of the PUDO:
    1. The request must include “c/o” with the location name.
