@@ -1,5 +1,5 @@
 ---
-title: Inpost PUDO service
+title: InPost PUDO service
 excerpt: >-
   The Pick Up and Drop Off (PUDO) service enables customers to use a convenient
   out of home option to collect or return parcels at designated locations. These
@@ -11,12 +11,12 @@ hidden: false
 metadata:
   robots: index
 ---
-For this service, Inpost utilises the SAPIENT's [Get PUDO Locations](https://docs.intersoftsapient.net/reference/get_v4-pudolocations-carriercode-countrycode-postcode#/) endpoint that allows users to access essential shipping options for both sending and returning packages seamlessly by offering the following options:
+For this service, InPost utilises the SAPIENT's [Get PUDO Locations](https://docs.intersoftsapient.net/reference/get_v4-pudolocations-carriercode-countrycode-postcode#/) endpoint that allows users to access essential shipping options for both sending and returning packages seamlessly by offering the following options:
 
 * **Pick Up**: Allows customers to choose to collect their parcel from a <Glossary>PUDO</Glossary> point. It is particularly beneficial for those who may not always be available for direct delivery, helping to reduce missed delivery attempts and enhance overall customer satisfaction.
 * **Drop-off**: Allows customers to find a location where they can drop off a parcel they want to return.
 
-With this integration, Inpost offers the following location types:
+With this integration, InPost offers the following location types:
 
 * **Lockers**: Convenient parcel lockers available for pickup.
 * **Collect +**: A network of retail stores, offering parcel pick up an drop off services.
