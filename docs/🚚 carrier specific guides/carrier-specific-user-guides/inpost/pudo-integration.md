@@ -43,12 +43,14 @@ There are two distinct ways to [create an Inpost shipment](https://docs.intersof
 
 If the `pudoId` field is included in **Address** object of the InPost Create Shipment request, then SAPIENT recognises the specific InPost location by its unique ID, and the label will be generated with the address information of that PUDO location.
 
-> 🚧 *Important*
->
-> *Before providing the`pudoId`, make sure of the following:*
->
-> * *If the`pudoId` is provided for any address other than the destination address, an error will be returned.*
-> * *The`pudoId` field is mandatory for B2C shipments.*
-> * *The`pudoId` field must not be populated for the returns services. The consumer can drop their return at any parcel locker or PUDO location.*
-> * *If the`pudoId` is provided for a carrier that does not use PUDO, an error will be returned.*
-> * *If the destination company name includes “c/o” and the`PudoId` is not populated, an error will be returned.*
+<Callout icon="🚧" theme="warn">
+  ***Important***
+
+  *Before providing the`pudoId`, make sure of the following:*
+
+  * *If the`pudoId` is provided for any address other than the destination address, an error will be returned.*
+  * *The`pudoId` field is mandatory for B2C shipments.*
+  * *The`pudoId` field must not be populated for the returns services. The consumer can drop their return at any parcel locker or PUDO location.*
+  * *If the`pudoId` is provided for a carrier that does not use PUDO, an error will be returned.*
+  * *If the destination company name includes “c/o” and the`PudoId` is not populated, an error will be returned.*
+</Callout>
