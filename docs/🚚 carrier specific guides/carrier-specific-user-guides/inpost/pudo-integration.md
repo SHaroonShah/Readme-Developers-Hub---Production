@@ -33,9 +33,9 @@ SAPIENT not only supports retrieving the PUDO location information, but also the
 
 You can [create an InPost shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-inpost#/) aimed at delivery to a PUDO point by using the following approach:
 
-1. By providing PUDO ID:
-   1. The request must include `PudoId`.
-   2. The destination's **ContactPhone** or **ContactEmail** information must be provided, so the end consumer can be notified when their item is ready to be collected from the PUDO location.
+* By providing PUDO ID:
+  * The request must include `PudoId`.
+  * The destination's **ContactPhone** or **ContactEmail** information must be provided, so the end consumer can be notified when their item is ready to be collected from the PUDO location.
 
 If the `pudoId` field is included in **Address** object of the InPost Create Shipment request, then SAPIENT recognises the specific InPost location by its unique ID, and the label will be generated with the address information of that PUDO location.
 
