@@ -1,7 +1,7 @@
 ---
 title: Add DPD UK shipping account
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
