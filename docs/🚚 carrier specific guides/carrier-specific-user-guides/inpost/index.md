@@ -24,6 +24,7 @@ InPost is launching an innovative and affordable parcel locker service in the UK
   * Create Parcel endpoint for B2C service
   * Create Parcel endpoint for returns service
   * Get Label/QR code endpoint
+  * Get PUDO Locations endpoint
 
 In this section, learn how to:
 
