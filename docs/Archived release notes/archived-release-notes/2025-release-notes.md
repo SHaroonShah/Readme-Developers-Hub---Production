@@ -10,6 +10,19 @@ metadata:
 next:
   description: ''
 ---
+## New international UPS services
+
+The following two new UPS international services have been added in addition to the existing ones.
+
+| Service Name                  | Service Code |
+| :---------------------------- | :----------- |
+| **UPS Worldwide Economy DDU** | 17           |
+| **UPS Economy DDP**           | 72           |
+
+Both services support multipiece shipments and packages up to 99 per shipment (subject to SAPIENT maximum). These additional services aims to enhance the international shipping capabilities, providing customers with more flexible options for their shipping needs.
+
+***
+
 ## Royal Mail Local Collect enhancements
 
 The Royal Mail's Local Collect enhancement now provides the following two new location types:
