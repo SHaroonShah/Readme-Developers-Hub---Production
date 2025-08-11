@@ -6,4 +6,3 @@ hidden: false
 metadata:
   robots: index
 ---
-Integration coming soon!
