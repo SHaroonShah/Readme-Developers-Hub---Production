@@ -21,7 +21,7 @@ next:
 ---
 In SAPIENT, you can create a shipping account with EVRi, assign your EVRi credentials to it, and then link it to the relevant <Glossary>shipping location</Glossary>(s).
 
-<br />
+Unlike other carriers, EVRi customers can have a main (parent) shipping account and may choose to have multiple sub-accounts under the main account. For example, if the customers want to ship multiple different brands.
 
 > 🚧 *Important*
 >
