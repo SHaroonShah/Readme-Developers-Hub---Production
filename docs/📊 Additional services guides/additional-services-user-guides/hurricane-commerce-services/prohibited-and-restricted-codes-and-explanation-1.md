@@ -6,6 +6,7 @@ excerpt: >-
   conditions.
 deprecated: false
 hidden: false
+icon: fad fa-closed-captioning-slash
 metadata:
   title: ''
   description: ''
