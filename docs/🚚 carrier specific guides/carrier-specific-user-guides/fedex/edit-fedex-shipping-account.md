@@ -5,6 +5,7 @@ excerpt: >-
   details, shipping address details, and authentication process.
 deprecated: false
 hidden: false
+icon: fad fa-pen-circle
 metadata:
   robots: index
 ---
