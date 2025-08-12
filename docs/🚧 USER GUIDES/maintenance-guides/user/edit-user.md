@@ -5,6 +5,7 @@ excerpt: >-
   changing contact details, resetting passwords, or adjusting permissions.
 deprecated: false
 hidden: false
+icon: fad fa-user-pen
 metadata:
   title: ''
   description: ''
