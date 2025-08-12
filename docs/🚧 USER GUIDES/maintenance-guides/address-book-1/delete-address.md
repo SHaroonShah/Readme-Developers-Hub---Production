@@ -5,6 +5,7 @@ excerpt: >-
   typically when it is no longer needed or relevant.
 deprecated: false
 hidden: false
+icon: fad fa-circle-trash
 metadata:
   title: ''
   description: ''
