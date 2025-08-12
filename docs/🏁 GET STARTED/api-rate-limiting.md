@@ -8,6 +8,7 @@ excerpt: >-
   specified time frame, for example, per second, per minute, or hour.
 deprecated: false
 hidden: false
+icon: fad fa-transporter-7
 metadata:
   title: ''
   description: ''
