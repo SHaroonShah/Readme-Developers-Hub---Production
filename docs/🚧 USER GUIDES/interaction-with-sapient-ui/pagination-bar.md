@@ -6,6 +6,7 @@ excerpt: >-
   the current table items.
 deprecated: false
 hidden: false
+icon: fad fa-input-numeric
 metadata:
   title: ''
   description: ''
