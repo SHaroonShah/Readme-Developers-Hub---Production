@@ -5,6 +5,7 @@ excerpt: >-
   recipient, sender, or shipping location.
 deprecated: false
 hidden: false
+icon: fad fa-book-medical
 metadata:
   title: ''
   description: ''
