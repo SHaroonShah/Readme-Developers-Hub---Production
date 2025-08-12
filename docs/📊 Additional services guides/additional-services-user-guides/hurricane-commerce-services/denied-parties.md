@@ -8,6 +8,7 @@ excerpt: >-
   activities.
 deprecated: false
 hidden: false
+icon: fad fa-do-not-enter
 metadata:
   title: ''
   description: ''
