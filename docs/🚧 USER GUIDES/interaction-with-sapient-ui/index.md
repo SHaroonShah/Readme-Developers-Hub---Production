@@ -5,6 +5,7 @@ excerpt: >-
   purpose.
 deprecated: false
 hidden: false
+icon: fad fa-computer-classic
 metadata:
   title: ''
   description: ''
