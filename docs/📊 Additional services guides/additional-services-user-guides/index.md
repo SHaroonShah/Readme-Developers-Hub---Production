@@ -7,6 +7,7 @@ excerpt: >-
   delivery and responsiveness.
 deprecated: false
 hidden: false
+icon: fad fa-square-dashed-circle-plus
 metadata:
   title: ''
   description: ''
