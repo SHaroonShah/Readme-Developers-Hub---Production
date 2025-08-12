@@ -6,7 +6,7 @@ excerpt: >-
   documents and prepare for the actual shipping process.
 deprecated: false
 hidden: false
-icon: fad fa-cart-flatbed-boxes
+icon: fad fa-cart-plus
 metadata:
   title: ''
   description: ''
