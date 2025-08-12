@@ -7,6 +7,7 @@ excerpt: >-
   their shipping operations from a single platform.
 deprecated: false
 hidden: false
+icon: fad fa-object-union
 metadata:
   title: ''
   description: ''
