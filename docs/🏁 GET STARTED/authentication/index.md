@@ -7,6 +7,7 @@ excerpt: >-
   perform actions.
 deprecated: false
 hidden: false
+icon: fad fa-check-double
 metadata:
   title: ''
   description: ''
