@@ -7,6 +7,7 @@ excerpt: >-
   chemicals to specific types of food or products that violate local laws.
 deprecated: false
 hidden: false
+icon: fad fa-not-equal
 metadata:
   title: ''
   description: ''
