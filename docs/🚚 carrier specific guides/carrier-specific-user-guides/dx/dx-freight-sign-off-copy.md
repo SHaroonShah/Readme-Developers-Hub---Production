@@ -5,7 +5,7 @@ excerpt: >-
   completed before using it for the creation of shipments.
 deprecated: false
 hidden: false
-icon: fad fa-toilet-paper-check
+icon: fad fa-clipboard-list-check
 metadata:
   title: ''
   description: ''
