@@ -6,7 +6,7 @@ excerpt: >-
   different departments, teams, or locations while maintaining central control
   under a primary parent account.
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   title: ''
   description: ''
