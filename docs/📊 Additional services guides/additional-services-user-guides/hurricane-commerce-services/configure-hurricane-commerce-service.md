@@ -6,7 +6,7 @@ excerpt: >-
   e-commerce has become a crucial part of the retail industry.
 deprecated: false
 hidden: false
-icon: fad fa-comment-arrow-up-right
+icon: fad fa-scanner-touchscreen
 metadata:
   title: ''
   description: ''
