@@ -9,6 +9,7 @@ excerpt: >-
   carrier.
 deprecated: false
 hidden: false
+icon: fad fa-cart-plus
 metadata:
   title: ''
   description: ''
