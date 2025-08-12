@@ -7,6 +7,7 @@ excerpt: >-
   under a primary parent account.
 deprecated: false
 hidden: false
+icon: 😀
 metadata:
   title: ''
   description: ''
