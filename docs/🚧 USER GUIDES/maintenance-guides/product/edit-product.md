@@ -6,6 +6,7 @@ excerpt: >-
   instructions.
 deprecated: false
 hidden: false
+icon: fad fa-pen-circle
 metadata:
   title: ''
   description: ''
