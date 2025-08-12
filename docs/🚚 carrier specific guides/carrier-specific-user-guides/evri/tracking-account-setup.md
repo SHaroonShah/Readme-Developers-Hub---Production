@@ -7,6 +7,7 @@ excerpt: >-
   through logistics network or with specific carriers.
 deprecated: false
 hidden: false
+icon: fad fa-album-circle-plus
 metadata:
   title: ''
   description: ''
