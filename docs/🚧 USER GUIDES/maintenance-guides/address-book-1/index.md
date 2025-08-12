@@ -6,6 +6,7 @@ excerpt: >-
   addresses, supplier locations, and warehouses.
 deprecated: false
 hidden: false
+icon: fad fa-address-book
 metadata:
   title: ''
   description: ''
