@@ -6,6 +6,7 @@ excerpt: >-
   inventory management
 deprecated: false
 hidden: false
+icon: fad fa-circle-trash
 metadata:
   title: ''
   description: ''
