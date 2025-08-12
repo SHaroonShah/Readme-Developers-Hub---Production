@@ -7,6 +7,7 @@ excerpt: >-
   and accessing a range of mailing and reporting services offered by Royal Mail.
 deprecated: false
 hidden: false
+icon: fad fa-table-cells-column-lock
 metadata:
   title: ''
   description: ''
