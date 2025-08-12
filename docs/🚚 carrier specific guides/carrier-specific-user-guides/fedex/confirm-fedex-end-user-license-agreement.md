@@ -2,6 +2,7 @@
 title: Confirm FedEx end user license agreement
 deprecated: false
 hidden: false
+icon: far fa-list-check
 metadata:
   robots: index
 ---
