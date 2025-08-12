@@ -7,6 +7,7 @@ excerpt: >-
   your shipping operations from a single platform.
 deprecated: false
 hidden: false
+icon: fad fa-square-caret-right
 metadata:
   title: ''
   description: ''
