@@ -7,6 +7,7 @@ excerpt: >-
   challenges, and so on.
 deprecated: false
 hidden: false
+icon: fad fa-cart-xmark
 metadata:
   title: ''
   description: ''
