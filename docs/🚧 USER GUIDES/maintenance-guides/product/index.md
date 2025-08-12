@@ -6,6 +6,7 @@ excerpt: >-
   goods and industrial materials to perishable items and fragile products.
 deprecated: false
 hidden: false
+icon: fad fa-list-timeline
 metadata:
   title: ''
   description: ''
