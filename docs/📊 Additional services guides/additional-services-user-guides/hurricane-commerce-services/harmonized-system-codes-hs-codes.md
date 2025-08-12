@@ -7,6 +7,7 @@ excerpt: >-
   determining tariffs and taxes.
 deprecated: false
 hidden: false
+icon: fad fa-input-numeric
 metadata:
   title: ''
   description: ''
