@@ -2,6 +2,7 @@
 title: International Arrival Containers (A-Scan) flow
 deprecated: false
 hidden: false
+icon: fad fa-container-storage
 metadata:
   robots: index
 ---
