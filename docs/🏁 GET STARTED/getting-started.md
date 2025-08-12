@@ -8,6 +8,7 @@ excerpt: >-
   shipping API to easily create and manage shipments, generate labels, and more.
 deprecated: false
 hidden: false
+icon: fad fa-diagram-lean-canvas
 metadata:
   title: ''
   description: ''
