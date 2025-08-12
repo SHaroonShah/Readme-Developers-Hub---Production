@@ -6,6 +6,7 @@ excerpt: >-
   logistics tasks.
 deprecated: false
 hidden: false
+icon: fad fa-user
 metadata:
   title: ''
   description: ''
