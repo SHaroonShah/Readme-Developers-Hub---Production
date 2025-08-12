@@ -6,6 +6,7 @@ excerpt: >-
   related to the shipments.
 deprecated: false
 hidden: false
+icon: fad fa-file-doc
 metadata:
   robots: index
 ---
