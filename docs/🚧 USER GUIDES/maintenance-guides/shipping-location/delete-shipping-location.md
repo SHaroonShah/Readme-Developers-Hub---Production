@@ -5,6 +5,7 @@ excerpt: >-
   it is no longer required.
 deprecated: false
 hidden: false
+icon: fad fa-location-xmark
 metadata:
   title: ''
   description: ''
