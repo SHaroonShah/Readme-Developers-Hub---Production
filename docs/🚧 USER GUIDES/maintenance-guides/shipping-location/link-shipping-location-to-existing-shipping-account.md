@@ -39,3 +39,9 @@ To link a shipping location to your carrier shipping account in SAPIENT, follow 
 4. After entering all the relevant information, select ![](https://files.readme.io/7f3338ad6d04eed0cfe60a5831902bd726f21988472aa810308695f020fe5b89-Link_shipping_account_button.png).
 
 Once done, the shipping location is successfully linked to your shipping account.
+
+<Callout icon="💡" theme="default">
+  ### *Tip*
+
+  *You can also link the shipping locations to your carrier's shipping account via the[Link Locations](https://docs.intersoftsapient.net/reference/post_v4-shippingaccounts-rm-shippingaccountid-linklocations#/) API endpoint.*
+</Callout>
