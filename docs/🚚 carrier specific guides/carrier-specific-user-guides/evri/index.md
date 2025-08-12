@@ -22,9 +22,39 @@ next:
 
 ***
 
-In SAPIENT, you can integrate with various available EVRi services and features to streamline your shipping process.
+The EVRi integration into the SAPIENT platform enhances our shipping capabilities by enabling users to seamlessly manage their shipments through Evri's robust delivery network. Customers can now access Evri's comprehensive suite of services, including real-time tracking, flexible delivery options, and efficient returns management, all within the familiar SAPIENT interface. This enhancement aims to streamline the shipping process, improve operational efficiency, and provide a better overall experience for our users.
 
-In this section, learn how to: 
+This integration provides the following key features:
+
+**Ship from destinations**: The integration supports shipping from locations in Great Britain (GB) only.
+
+* **Ship To Destinations**: Users can send <Glossary>shipments</Glossary> to Great Britain (GB), Europe, and the <Glossary>ROW</Glossary> (Rest of the World).
+* **Service Type**: The integration is focused on outbound and Returns shipping services.
+
+> 📘 *Note*
+>
+> *QR code generation is supported for the returns shipments.*
+
+## Enhancements
+
+The following are the key enhancements provided by the EVRi integration:
+
+* Service enhancements: These services include the following:
+  * **Signed**: Requires a signature upon delivery.
+  * **SMS**: Requires a contact number to receive delivery updates via SMS.
+* **Single package**: All services in this integration support only single-package services. Which means, only one package can be sent per request.
+* **Label formats**: The EVRi's label integration support labels in the <Glossary>PDF</Glossary> and <Glossary>PNG</Glossary> formats.
+* **Incoterms**: This integration only supports <Glossary>DDU</Glossary>.
+
+## Integration types
+
+This integrations supports the following integration types on SAPIENT:
+
+**Label**: Enables delivery routing request to be used for outbound services, and collection routing request for the returns services.
+
+**Tracking**: Enables data files to be sent via SFTP.
+
+In this section, learn how to:
 
 * [Add EVRi shipping account](https://docs.intersoftsapient.net/docs/shipping-account-setup-3)
 * [Add EVRi tracking account](https://docs.intersoftsapient.net/docs/tracking-account-setup)
