@@ -8,6 +8,7 @@ excerpt: >-
   concerns.
 deprecated: false
 hidden: false
+icon: fad fa-right-long
 metadata:
   title: ''
   description: ''
