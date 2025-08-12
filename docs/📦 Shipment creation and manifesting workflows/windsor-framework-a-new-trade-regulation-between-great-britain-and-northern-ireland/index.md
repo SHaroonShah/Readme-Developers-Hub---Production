@@ -8,6 +8,7 @@ excerpt: >-
   Ireland in the wake of Brexit. 
 deprecated: false
 hidden: false
+icon: fad fa-newspaper
 metadata:
   robots: index
 ---
