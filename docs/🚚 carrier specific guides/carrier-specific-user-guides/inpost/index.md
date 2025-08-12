@@ -10,6 +10,10 @@ hidden: false
 metadata:
   robots: index
 ---
+<Image align="center" width="100px" src="https://files.readme.io/c9a342d05f1245bceed832bf7bb489e46969f9bddf8cb6b92007139484f4cf6b-InPost_logo.png" />
+
+***
+
 InPost provides a convenient, eco-friendly parcel delivery service through a network of 24/7 automated lockers and partnered shops in the UK. You can drop off or pick up parcels at these locations anytime, offering flexibility and ease for both senders and recipients.
 
 InPost is launching an innovative and affordable parcel locker service in the UK, aimed at enhancing the shipping experience for both outbound and return deliveries. With its integration with SAPIENT, it offers several key features that streamline the shipping process. This article summarises the in-scope features of the integration and provides detailed explanations of the associated process flows.
