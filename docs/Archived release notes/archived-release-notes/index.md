@@ -5,6 +5,7 @@ excerpt: >-
   deployed on Readme.
 deprecated: false
 hidden: false
+icon: fad fa-notes
 metadata:
   title: ''
   description: ''
