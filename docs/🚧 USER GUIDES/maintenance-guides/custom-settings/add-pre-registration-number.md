@@ -8,6 +8,7 @@ excerpt: >-
   borders
 deprecated: false
 hidden: false
+icon: fad fa-square-plus
 metadata:
   title: ''
   description: ''
