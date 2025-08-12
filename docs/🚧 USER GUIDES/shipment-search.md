@@ -7,6 +7,7 @@ excerpt: >-
   manage logistics more efficiently.
 deprecated: false
 hidden: false
+icon: fad fa-print-magnifying-glass
 metadata:
   title: ''
   description: ''
