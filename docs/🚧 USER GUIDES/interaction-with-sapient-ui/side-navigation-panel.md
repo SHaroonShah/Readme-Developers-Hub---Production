@@ -7,6 +7,7 @@ excerpt: >-
   your preferences, perform your desired actions, and so on.
 deprecated: false
 hidden: false
+icon: fad fa-distribute-spacing-horizontal
 metadata:
   title: ''
   description: ''
