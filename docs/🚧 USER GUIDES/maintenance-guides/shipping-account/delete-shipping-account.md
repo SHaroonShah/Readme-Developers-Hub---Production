@@ -6,7 +6,7 @@ excerpt: >-
   business discontinues a partnership with a shipping provider.
 deprecated: false
 hidden: false
-icon: fad fa-trash-xmark
+icon: fad fa-circle-trash
 metadata:
   title: ''
   description: ''
