@@ -5,6 +5,7 @@ excerpt: >-
   reset your password, and also log out of SAPIENT.
 deprecated: false
 hidden: false
+icon: fad fa-chalkboard-user
 metadata:
   title: ''
   description: ''
