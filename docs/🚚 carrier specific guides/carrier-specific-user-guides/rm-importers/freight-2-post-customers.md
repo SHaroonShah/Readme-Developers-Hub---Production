@@ -5,6 +5,7 @@ excerpt: >-
   shipping service that combines freight transport with postal delivery methods.
 deprecated: false
 hidden: false
+icon: fad fa-file-circle-info
 metadata:
   title: ''
   description: ''
