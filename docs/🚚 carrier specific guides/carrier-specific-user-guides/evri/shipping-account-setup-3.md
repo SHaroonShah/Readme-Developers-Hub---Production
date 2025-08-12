@@ -203,4 +203,3 @@ Once done, you have now successfully added a shipping account. You can now start
 ### See also
 
 * [Edit shipping account](https://docs.intersoftsapient.net/docs/edit-shipping-account)
-* <br />
