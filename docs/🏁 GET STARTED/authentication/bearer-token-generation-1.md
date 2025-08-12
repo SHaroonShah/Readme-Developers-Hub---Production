@@ -8,6 +8,7 @@ excerpt: >-
   such as OAuth2.
 deprecated: false
 hidden: false
+icon: fad fa-layer-plus
 metadata:
   title: ''
   description: ''
