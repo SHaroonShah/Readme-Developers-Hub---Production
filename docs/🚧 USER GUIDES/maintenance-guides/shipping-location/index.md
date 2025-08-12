@@ -6,6 +6,7 @@ excerpt: >-
   shipping process.
 deprecated: false
 hidden: false
+icon: fad fa-location-dot
 metadata:
   title: ''
   description: ''
