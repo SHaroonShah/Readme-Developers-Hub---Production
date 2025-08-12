@@ -6,6 +6,7 @@ excerpt: >-
   integrate systems, and stay up to date on important events.
 deprecated: false
 hidden: false
+icon: fad fa-webhook
 metadata:
   title: ''
   description: ''
