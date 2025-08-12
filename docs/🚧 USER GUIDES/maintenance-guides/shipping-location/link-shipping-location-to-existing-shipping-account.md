@@ -9,4 +9,4 @@ hidden: false
 metadata:
   robots: index
 ---
-In SAPIENT, you can link multiple <Glossary>shipping locations</Glossary>
+In SAPIENT, you can link multiple <Glossary>shipping location</Glossary>s
