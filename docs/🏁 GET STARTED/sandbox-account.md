@@ -5,6 +5,7 @@ excerpt: >-
   deployment, each serving different purposes.
 deprecated: false
 hidden: false
+icon: fad fa-viruses
 metadata:
   title: ''
   description: ''
