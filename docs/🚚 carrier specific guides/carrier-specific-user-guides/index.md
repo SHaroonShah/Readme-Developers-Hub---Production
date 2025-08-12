@@ -5,6 +5,7 @@ excerpt: >-
   instructions and information tailored to specific shipping carriers.
 deprecated: false
 hidden: false
+icon: fad fa-truck-arrow-right
 metadata:
   title: ''
   description: ''
