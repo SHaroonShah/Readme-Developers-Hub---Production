@@ -5,6 +5,7 @@ excerpt: >-
   shipment events due to an error.
 deprecated: false
 hidden: false
+icon: fad fa-file-circle-minus
 metadata:
   title: ''
   description: ''
