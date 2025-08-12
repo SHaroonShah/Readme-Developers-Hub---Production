@@ -1,5 +1,5 @@
 ---
-title: Client Id and Child Clinet Id management
+title: Create child client department to parent shipping account
 excerpt: ''
 deprecated: false
 hidden: true
