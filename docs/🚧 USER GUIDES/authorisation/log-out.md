@@ -6,6 +6,7 @@ excerpt: >-
   working on.
 deprecated: false
 hidden: false
+icon: fad fa-right-long-to-line
 metadata:
   title: ''
   description: ''
