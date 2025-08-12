@@ -6,6 +6,7 @@ excerpt: >-
   shipping operations.
 deprecated: false
 hidden: false
+icon: fad fa-folder-gear
 metadata:
   title: ''
   description: ''
