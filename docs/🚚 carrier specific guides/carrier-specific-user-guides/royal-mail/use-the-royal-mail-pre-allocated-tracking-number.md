@@ -8,6 +8,7 @@ excerpt: >-
   its journey.
 deprecated: false
 hidden: false
+icon: fad fa-rectangle-barcode
 metadata:
   title: ''
   description: ''
