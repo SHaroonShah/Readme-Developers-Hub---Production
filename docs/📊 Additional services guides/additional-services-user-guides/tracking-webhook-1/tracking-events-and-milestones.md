@@ -9,6 +9,7 @@ excerpt: >-
   such as order created, label printed, out for delivery, and so on.
 deprecated: false
 hidden: false
+icon: fad fa-timeline-arrow
 metadata:
   title: ''
   description: ''
