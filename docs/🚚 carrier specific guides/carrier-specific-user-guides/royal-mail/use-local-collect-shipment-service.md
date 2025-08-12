@@ -7,6 +7,7 @@ excerpt: >-
   lockers, offering greater convenience and flexibility for customers. 
 deprecated: false
 hidden: false
+icon: fad fa-map-location-dot
 metadata:
   title: ''
   description: ''
