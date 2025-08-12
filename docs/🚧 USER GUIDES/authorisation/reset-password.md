@@ -5,6 +5,7 @@ excerpt: >-
   have forgotten your password, you can reset it again.
 deprecated: false
 hidden: false
+icon: fad fa-user-unlock
 metadata:
   title: ''
   description: ''
