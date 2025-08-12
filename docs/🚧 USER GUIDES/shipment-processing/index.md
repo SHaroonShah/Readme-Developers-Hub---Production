@@ -5,6 +5,7 @@ excerpt: >-
   execution of shipping tasks and operations.
 deprecated: false
 hidden: false
+icon: fad fa-hourglass-clock
 metadata:
   title: ''
   description: ''
