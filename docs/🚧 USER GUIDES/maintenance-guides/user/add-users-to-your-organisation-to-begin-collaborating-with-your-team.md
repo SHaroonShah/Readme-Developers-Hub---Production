@@ -6,6 +6,7 @@ excerpt: >-
   assigning roles and permissions appropriate to their responsibilities
 deprecated: false
 hidden: false
+icon: fad fa-user-plus
 metadata:
   title: ''
   description: ''
