@@ -7,6 +7,7 @@ excerpt: >-
   functionalities that the software can rely on once it is fully operational.
 deprecated: false
 hidden: false
+icon: fad fa-circle-exclamation-check
 metadata:
   title: ''
   description: ''
