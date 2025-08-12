@@ -5,6 +5,7 @@ excerpt: >-
   Industry.
 deprecated: false
 hidden: false
+icon: fad fa-arrow-up-a-z
 metadata:
   title: ''
   description: ''
