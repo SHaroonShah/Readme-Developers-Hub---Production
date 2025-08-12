@@ -9,6 +9,7 @@ excerpt: >-
   management.
 deprecated: false
 hidden: false
+icon: fad fa-truck-container
 metadata:
   title: ''
   description: ''
