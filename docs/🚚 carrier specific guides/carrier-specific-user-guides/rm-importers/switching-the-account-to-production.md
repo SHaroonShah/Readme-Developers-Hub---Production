@@ -7,6 +7,7 @@ excerpt: >-
   optimised.
 deprecated: false
 hidden: false
+icon: fad fa-arrow-up-right-dots
 metadata:
   title: ''
   description: ''
