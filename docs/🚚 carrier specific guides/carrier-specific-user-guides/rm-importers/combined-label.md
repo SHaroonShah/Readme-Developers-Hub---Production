@@ -9,6 +9,7 @@ excerpt: >-
   shipments.
 deprecated: false
 hidden: false
+icon: fad fa-tachograph-digital
 metadata:
   title: ''
   description: ''
