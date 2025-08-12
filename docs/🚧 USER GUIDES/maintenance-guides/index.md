@@ -5,6 +5,7 @@ excerpt: >-
   up of a new shipping location and carrier shipping accounts.
 deprecated: false
 hidden: false
+icon: fad fa-users-rectangle
 metadata:
   title: ''
   description: ''
