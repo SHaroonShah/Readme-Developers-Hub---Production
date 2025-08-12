@@ -8,6 +8,7 @@ excerpt: >-
   shipping process.
 deprecated: false
 hidden: false
+icon: fad fa-cart-circle-check
 metadata:
   title: ''
   description: ''
