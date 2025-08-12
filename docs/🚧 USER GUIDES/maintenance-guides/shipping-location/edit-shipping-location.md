@@ -5,6 +5,7 @@ excerpt: >-
   shipping information, ensuring smooth operations and minimizing errors.
 deprecated: false
 hidden: false
+icon: fad fa-location-pen
 metadata:
   title: ''
   description: ''
