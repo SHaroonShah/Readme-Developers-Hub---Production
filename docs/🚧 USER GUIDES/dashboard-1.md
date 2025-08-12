@@ -6,6 +6,7 @@ excerpt: >-
   users see when they log in to the application.
 deprecated: false
 hidden: false
+icon: fad fa-display-chart-up
 metadata:
   title: ''
   description: ''
