@@ -5,6 +5,7 @@ excerpt: >-
   content of the currently selected tab, option, or item.
 deprecated: false
 hidden: false
+icon: fad fa-memo-pad
 metadata:
   title: ''
   description: ''
