@@ -9,6 +9,7 @@ excerpt: >-
   activities within the EU. It is used to identify traders in customs systems.
 deprecated: false
 hidden: false
+icon: fad fa-square-plus
 metadata:
   title: ''
   description: ''
