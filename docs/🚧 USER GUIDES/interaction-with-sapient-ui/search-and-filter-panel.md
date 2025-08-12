@@ -6,6 +6,7 @@ excerpt: >-
   displayed at the top of the table.
 deprecated: false
 hidden: false
+icon: fad fa-magnifying-glass
 metadata:
   title: ''
   description: ''
