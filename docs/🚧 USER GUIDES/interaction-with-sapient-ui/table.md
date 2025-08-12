@@ -6,6 +6,7 @@ excerpt: >-
   the columns, filters, and pagination bar options.
 deprecated: false
 hidden: false
+icon: fad fa-table-list
 metadata:
   title: ''
   description: ''
