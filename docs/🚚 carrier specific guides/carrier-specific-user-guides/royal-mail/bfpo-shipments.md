@@ -8,6 +8,7 @@ excerpt: >-
   were in the UK, regardless of their posting overseas.
 deprecated: false
 hidden: false
+icon: fad fa-person-military-to-person
 metadata:
   title: ''
   description: ''
