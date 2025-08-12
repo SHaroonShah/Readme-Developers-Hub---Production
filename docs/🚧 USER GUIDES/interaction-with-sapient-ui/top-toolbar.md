@@ -3,6 +3,7 @@ title: Top toolbar
 excerpt: The top toolbar is located below the application header.
 deprecated: false
 hidden: false
+icon: fad fa-bars
 metadata:
   title: ''
   description: ''
