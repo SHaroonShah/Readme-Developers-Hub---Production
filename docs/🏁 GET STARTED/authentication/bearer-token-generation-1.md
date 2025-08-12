@@ -25,15 +25,17 @@ To generate the bearer token via the Postman application, follow the instruction
 
 1. Launch the Postman application or log in into your Postman account. If you have selected the online version, make sure to activate your account.
 
-> 💡 Tip
->
-> If you do not have the Postman application, you can download it [here](https://www.postman.com/downloads/) or register for an online Postman account, respectively.
+<Callout icon="💡" theme="default">
+  ### *Tip*
+
+  *If you do not have the Postman application, you can download it[here](https://www.postman.com/downloads/) or register for an online Postman account, respectively.*
+</Callout>
 
 1. After successfully logging in, on your workspace toolbar, select **New** > **HTTP** . Alternatively, on your workspace, select **+** tab to add a new HTTP request tab.
 
 <Image align="center" alt="Creating new HTTP request in Postman" border={true} caption="Creating new HTTP request in Postman" src="https://files.readme.io/93a14a1a00ff5ad67a4e5ad4a74677828b0e364b445c378ee24cd5795fe6acd5-New_HTTP_request_option.png" />
 
-2. In the new request tab that opens, from the left dropdown menu, select \*\*POST\*\* and enter the following URL in the \*\*Enter request URL\*\* field: [https://authentication.intersoftsapient.net/connect/token](https://authentication.intersoftsapient.net/connect/token)
+2. In the new request tab that opens, from the left dropdown menu, select **POST** and enter the following URL in the **Enter request URL** field: [https://authentication.intersoftsapient.net/connect/token](https://authentication.intersoftsapient.net/connect/token)
 
 <Image align="center" alt="Entering URL" border={true} caption="Entering URL" src="https://files.readme.io/ab6a0e55d341d8aaf0cddbe95208ebc3c035155faeb32dd652bf011f79369dec-Postman_dropdown.png" />
 
