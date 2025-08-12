@@ -5,6 +5,7 @@ excerpt: >-
   shipment that was previously cancelled.
 deprecated: false
 hidden: false
+icon: fad fa-circle-arrow-left
 metadata:
   title: ''
   description: ''
