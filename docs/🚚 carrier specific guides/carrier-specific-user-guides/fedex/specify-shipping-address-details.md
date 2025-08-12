@@ -8,6 +8,7 @@ excerpt: >-
   introduced to avoid fraudulent activity.  
 deprecated: false
 hidden: false
+icon: fad fa-location-check
 metadata:
   robots: index
 ---
