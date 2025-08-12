@@ -92,7 +92,7 @@ To add the child client department to the EVRi's parent shipping account, follow
       <td>
         Enter the SMS group code if you wish you receive delivery updates via SMS.
 
-        *`Note`: This is an optional field. If you provide this information, make sure to enable the SMS enhancement in your[Create Shipment request](https://docs.intersoftsapient.net/reference/post_v4-shipments-evri#/) beforehand.*
+        *`Note`: This is an optional field. If you provide this information, make sure to enable the SMS service enhancement in your[Create Shipment request](https://docs.intersoftsapient.net/reference/post_v4-shipments-evri#/) beforehand.*
       </td>
     </tr>
   </tbody>
