@@ -8,6 +8,7 @@ excerpt: >-
   management.
 deprecated: false
 hidden: false
+icon: fad fa-barcode-scan
 metadata:
   title: ''
   description: ''
