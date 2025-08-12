@@ -5,6 +5,7 @@ excerpt: >-
   information, such as street names, postal codes, or contact details.
 deprecated: false
 hidden: false
+icon: fad fa-square-pen
 metadata:
   title: ''
   description: ''
