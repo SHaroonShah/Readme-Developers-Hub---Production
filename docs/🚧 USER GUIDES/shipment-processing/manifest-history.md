@@ -7,6 +7,7 @@ excerpt: >-
   helping with audit or compliance checks.
 deprecated: false
 hidden: false
+icon: fad fa-rectangle-vertical-history
 metadata:
   title: ''
   description: ''
