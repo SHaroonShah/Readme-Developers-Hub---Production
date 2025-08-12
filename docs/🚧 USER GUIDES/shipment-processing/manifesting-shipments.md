@@ -7,6 +7,7 @@ excerpt: >-
   finalise the manifest and generate shipping labels for efficient despatch.
 deprecated: false
 hidden: false
+icon: fad fa-cart-flatbed-empty
 metadata:
   title: ''
   description: ''
