@@ -7,6 +7,7 @@ excerpt: >-
   customs requirements, facilitating smooth and efficient cross-border shipping.
 deprecated: false
 hidden: false
+icon: fad fa-gears
 metadata:
   title: ''
   description: ''
