@@ -5,6 +5,7 @@ excerpt: >-
   logistics provider that enables businesses to manage shipping activities.
 deprecated: false
 hidden: false
+icon: fad fa-square-plus
 metadata:
   title: ''
   description: ''
