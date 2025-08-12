@@ -2,6 +2,7 @@
 title: Specify shipping account details
 deprecated: false
 hidden: false
+icon: fad fa-album-collection-circle-plus
 metadata:
   robots: index
 ---
