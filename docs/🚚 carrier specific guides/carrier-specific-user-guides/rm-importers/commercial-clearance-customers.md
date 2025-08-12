@@ -6,6 +6,7 @@ excerpt: >-
   on the customs clearance process.
 deprecated: false
 hidden: false
+icon: fad fa-file-lines
 metadata:
   title: ''
   description: ''
