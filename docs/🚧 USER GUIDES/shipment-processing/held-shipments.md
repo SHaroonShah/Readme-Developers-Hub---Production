@@ -7,6 +7,7 @@ excerpt: >-
   resolve the problems and proceed with processing.
 deprecated: false
 hidden: false
+icon: fad fa-sensor-triangle-exclamation
 metadata:
   title: ''
   description: ''
