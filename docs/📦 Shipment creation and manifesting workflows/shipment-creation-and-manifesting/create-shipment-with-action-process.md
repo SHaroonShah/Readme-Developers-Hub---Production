@@ -5,6 +5,7 @@ excerpt: >-
   shipment for transportation.
 deprecated: false
 hidden: false
+icon: fad fa-cart-minus
 metadata:
   title: ''
   description: ''
