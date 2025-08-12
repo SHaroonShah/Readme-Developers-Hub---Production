@@ -7,6 +7,7 @@ excerpt: >-
   information within the system.
 deprecated: false
 hidden: false
+icon: fad fa-user-shield
 metadata:
   title: ''
   description: ''
