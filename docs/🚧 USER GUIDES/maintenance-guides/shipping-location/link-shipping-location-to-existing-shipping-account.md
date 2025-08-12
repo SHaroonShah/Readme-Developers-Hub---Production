@@ -34,7 +34,7 @@ To link a shipping location to your carrier shipping account in SAPIENT, follow 
 
 > 📘 *Note*
 >
-> *If you have selected Royal Mail as your carrier option, then an additional**CARRIER DETAILS** block is displayed. To learn more on how to fill this block, refer to the [Add Royal Mail shipping account](https://docs.intersoftsapient.net/docs/shipping-account-requirements#/) section.*
+> *If you have selected Royal Mail as your carrier option, then an additional**CARRIER DETAILS** block is displayed. To learn more on how to fill this block, refer to the <Anchor label="Add Royal Mail shipping account" target="_blank" href="https://docs.intersoftsapient.net/docs/shipping-account-requirements#/">Add Royal Mail shipping account</Anchor> section.*
 
 4. After entering all the relevant information, select ![](https://files.readme.io/7f3338ad6d04eed0cfe60a5831902bd726f21988472aa810308695f020fe5b89-Link_shipping_account_button.png).
 
@@ -43,5 +43,5 @@ Once done, the shipping location is successfully linked to your shipping account
 <Callout icon="💡" theme="default">
   ### *Tip*
 
-  *You can also link the shipping locations to your carrier's shipping account via the[Link Locations](https://docs.intersoftsapient.net/reference/post_v4-shippingaccounts-rm-shippingaccountid-linklocations#/) API endpoint.*
+  *You can also link the shipping locations to your carrier's shipping account via the<Anchor label="Link Locations" target="_blank" href="https://docs.intersoftsapient.net/reference/post_v4-shippingaccounts-rm-shippingaccountid-linklocations#/">Link Locations</Anchor> API endpoint.*
 </Callout>
