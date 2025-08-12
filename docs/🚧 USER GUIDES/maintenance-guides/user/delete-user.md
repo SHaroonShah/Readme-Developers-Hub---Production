@@ -6,6 +6,7 @@ excerpt: >-
   or change positions.
 deprecated: false
 hidden: false
+icon: fad fa-user-xmark
 metadata:
   title: ''
   description: ''
