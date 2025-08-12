@@ -8,6 +8,7 @@ excerpt: >-
   eCommerce.
 deprecated: false
 hidden: false
+icon: fad fa-money-check-dollar-pen
 metadata:
   title: ''
   description: ''
