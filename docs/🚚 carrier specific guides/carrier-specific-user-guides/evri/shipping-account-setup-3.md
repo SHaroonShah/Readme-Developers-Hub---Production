@@ -27,7 +27,7 @@ Unlike other carriers, EVRi customers can have a main (parent) shipping account 
 >
 > *Before you can set up a shipping account, make sure you have[enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with EVRi.*
 
-To add a shipping account for EVRi in SAPIENT, follow the instructions as explained in the following procedure.
+To add a parent shipping account for EVRi in SAPIENT, follow the instructions as explained in the following procedure.
 
 1. In the left navigation panel, select **Shipping Accounts**.
 
