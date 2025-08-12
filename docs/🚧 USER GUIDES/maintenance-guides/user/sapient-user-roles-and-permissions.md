@@ -7,6 +7,7 @@ excerpt: >-
   SAPIENT. 
 deprecated: false
 hidden: false
+icon: fad fa-users-line
 metadata:
   robots: index
 ---
