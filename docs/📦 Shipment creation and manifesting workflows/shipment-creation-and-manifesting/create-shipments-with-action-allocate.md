@@ -6,7 +6,7 @@ excerpt: >-
   intended for shipment are set aside and ready to be despatched.
 deprecated: false
 hidden: false
-icon: fad fa-cart-flatbed-suitcase
+icon: fad fa-cart-arrow-up
 metadata:
   title: ''
   description: ''
