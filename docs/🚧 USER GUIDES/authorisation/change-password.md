@@ -5,6 +5,7 @@ excerpt: >-
   or follow your company policies to set your password.
 deprecated: false
 hidden: false
+icon: fad fa-user-lock
 metadata:
   title: ''
   description: ''
