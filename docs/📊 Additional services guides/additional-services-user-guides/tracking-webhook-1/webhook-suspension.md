@@ -17,9 +17,13 @@ If the receiving endpoint (the system where the notifications are sent) is down 
 
 If the threshold value for retrying the webhook within the given intervals is exceeded, then the webhook is suspended and a corresponding email is sent to the primary user registered for the customer. A *primary user* is set up at the time of customer onboarding. If you want to change the primary user, you can contact Intersoft's onboarding team.
 
-> 💡 *Tip*
->
-> *The webhook can be[activated](https://docs.intersoftsapient.net/docs/create-tracking-webhook) via the GUI.*
+<Callout icon="💡" theme="default">
+  ### *Tip*
+
+  *To avoid webhook suspension, it is highly recommended to set up a monitoring system before we send the suspension. In case the webhook is suspended, you can[reactivate](https://docs.intersoftsapient.net/docs/create-tracking-webhook) it by turning on the **Activate** toggle in the GUI.*
+
+  <Image align="center" alt="Activating tracking webhook" border={true} caption="Activating tracking webhook" src="https://files.readme.io/a76feb6-image.png" width="660px" />
+</Callout>
 
 The retry intervals for the webhook are provided in the following table.
 
@@ -287,6 +291,8 @@ A list of possible error codes are explained in the following table.
   </tbody>
 </Table>
 
-> 💡 *Tip*
->
-> *It is a good practice to have a dedicated monitoring for the webhook so that you can be notified when it starts returning the errors.*
+<Callout icon="💡" theme="default">
+  ### *Tip*
+
+  *It is a good practice to have a dedicated monitoring for the webhook so that you can be notified when it starts returning the errors.*
+</Callout>
