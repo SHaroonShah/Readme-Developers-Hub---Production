@@ -12,7 +12,7 @@ metadata:
 In SAPIENT, you can create a shipping account with InPost, assign your InPost credentials to it, and then link it to the relevant <Glossary>shipping location</Glossary>(s).
 
 <Callout icon="🚧" theme="warn">
-  *Important*
+  ***Important***\_
 
   *Before you can set up a shipping account, be advised on the following:*
 
