@@ -36,7 +36,7 @@ The retry intervals for the webhook are provided in the following table.
 |                   5                   | 4          | 300 (5 hours)     |
 |                   6                   | 5          | 1080 (18 hours)   |
 |                   7                   | 6          | 1440 (24 hours)   |
-|                   8                   | 7          | 1440 (24 hours    |
+|                   8                   | 7          | 1440 (24 hours)   |
 
 > 🚧 *Important*
 >
