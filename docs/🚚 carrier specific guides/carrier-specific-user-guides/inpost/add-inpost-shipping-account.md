@@ -14,7 +14,7 @@ In SAPIENT, you can create a shipping account with InPost, assign your InPost cr
 <Callout icon="🚧" theme="warn">
   ***Important***
 
-  *Before you can set up a shipping account, make sure you have [enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with InPost.*
+  *Before you can set up a shipping account, make sure you have[enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with InPost.*
 </Callout>
 
 To add a shipping account for InPost in SAPIENT, follow the instructions as explained in the following procedure.
@@ -40,7 +40,7 @@ To add a shipping account for InPost in SAPIENT, follow the instructions as expl
 
 4. In the **SHIPPING ACCOUNT** block, enter the necessary information as explained in the following table.
 
-<Image align="center" alt="Specifying shipping account details" border={true} caption="Entering shipping account details" src="https://files.readme.io/95e80494ef1a7d23ee73c2d200a7ada240f0d1318161488c240a373d637f3c01-Shipping_account_block_An_Post.png" width="500px" />
+<Image align="center" alt="Specifying shipping account details" border={true} caption="Entering shipping account details" src="https://files.readme.io/aab73fec0c0be8505e9adce3450d783ae7d9f8ed4c7a9c0b9198b4682fb89679-Shipping_account_block_INPOST.png" width="500px" />
 
 <Callout icon="💡" theme="default">
   ### *Tip*
@@ -62,16 +62,6 @@ To add a shipping account for InPost in SAPIENT, follow the instructions as expl
   </thead>
 
   <tbody>
-    <tr>
-      <td>
-        **Carrier Account Number**\*
-      </td>
-
-      <td>
-        Enter the account number for InPost.
-      </td>
-    </tr>
-
     <tr>
       <td>
         **Account Name (if different than customer)**\*
@@ -164,7 +154,7 @@ To add a shipping account for InPost in SAPIENT, follow the instructions as expl
       </td>
 
       <td>
-        Enter the token provided by InPost.
+        Enter the bearer token provided by InPost.
 
         *`Note`: There is no authorisation/authentication API call needed to retrieve the bearer token.*
       </td>
