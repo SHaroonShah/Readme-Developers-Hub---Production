@@ -14,7 +14,7 @@ Once you have [created](https://docs.intersoftsapient.net/docs/add-inpost-shippi
 <Callout icon="💡" theme="default">
   ### *Tip*
 
-  *The DX Freight integration is pre-approved, but you must have the required information beforehand to ship with DX Freight.*
+  *The InPost integration is pre-approved, but you must have the required information beforehand to ship with InPost.*
 </Callout>
 
 In order to ship with DX Express, consider the following:
