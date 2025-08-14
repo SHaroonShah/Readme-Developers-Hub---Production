@@ -1,7 +1,7 @@
 ---
 title: InPost sign-off
 deprecated: false
-hidden: false
+hidden: true
 icon: far fa-clipboard-check
 metadata:
   robots: index
