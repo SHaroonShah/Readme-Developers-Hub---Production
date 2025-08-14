@@ -1,12 +1,15 @@
 ---
 title: InPost sign-off
+excerpt: >-
+  Sign-off is a process used by the carrier that all necessary steps have been
+  completed before using it for creating the shipments.
 deprecated: false
 hidden: true
 icon: far fa-clipboard-check
 metadata:
   robots: index
 ---
-Once you have created the DX Freight <Glossary>shipping account</Glossary>, make sure you have the correct information before you start using it to ship with DX Freight.
+Once you have [created](https://docs.intersoftsapient.net/docs/add-inpost-shipping-account#/) the InPost <Glossary>shipping account</Glossary>, make sure you have the correct information before you start using it to ship with InPost.
 
 <Callout icon="💡" theme="default">
   ### *Tip*
