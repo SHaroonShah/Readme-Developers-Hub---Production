@@ -14,7 +14,7 @@ In SAPIENT, you can create a shipping account with InPost, assign your InPost cr
 <Callout icon="🚧" theme="warn">
   ***Important***
 
-  *Before you can set up a shipping account, make sure you have[enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with InPost.*
+  *Before you can set up a shipping account, make sure you have [enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with InPost.*
 </Callout>
 
 To add a shipping account for InPost in SAPIENT, follow the instructions as explained in the following procedure.
