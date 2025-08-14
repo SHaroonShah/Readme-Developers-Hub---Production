@@ -20,7 +20,7 @@ If the threshold value for retrying the webhook within the given intervals is ex
 <Callout icon="💡" theme="default">
   ### *Tip*
 
-  *To avoid webhook suspension, we highly recommend setting up a monitoring system before the suspension notification is triggered. If the webhook does get suspended, you can[reactivate](https://docs.intersoftsapient.net/docs/create-tracking-webhook) it by enabling the **Activate** toggle in the GUI.*
+  *To avoid webhook suspension, we highly recommend setting up a dedicated webhook monitoring system before the suspension notification is triggered. If the webhook does get suspended, you can[reactivate](https://docs.intersoftsapient.net/docs/create-tracking-webhook) it by enabling the **Activate** toggle in the GUI.*
 
   <Image align="center" alt="Activating tracking webhook" border={true} caption="Activating tracking webhook" src="https://files.readme.io/a76feb6-image.png" width="660px" />
 </Callout>
@@ -290,9 +290,3 @@ A list of possible error codes are explained in the following table.
     </tr>
   </tbody>
 </Table>
-
-<Callout icon="💡" theme="default">
-  ### *Tip*
-
-  *It is a good practice to have a dedicated monitoring for the webhook so that you can be notified when it starts returning the errors.*
-</Callout>
