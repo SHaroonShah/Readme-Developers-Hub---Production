@@ -20,37 +20,76 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
 
 The new Royal Mail international services are listed in the following table.
 
-| Service Code | Service Name                     | Partner Label Required | Partner Carrier |
-| :----------: | :------------------------------- | :--------------------- | :-------------- |
-|      ERB     | EUROPRIORITY DDP                 | ✅                      | GLS             |
-|      ER6     | EUROPRIORITY DDP-EXTRACOMP1      | ✅                      | GLS             |
-|      ER7     | EUROPRIORITY DDP-EXTRACOMP2      | ✅                      | GLS             |
-|      ER8     | EUROPRIORITY DDP-EXTRACOMP3      | ✅                      | GLS             |
-|      ERA     | EUROPRIORITY DTP IOSS            | ✅                      | GLS             |
-|      ER1     | EUROPRIORITY DTP IOSS-EXTRACOMP1 | ✅                      | GLS             |
-|      ER2     | EUROPRIORITY DTP IOSS-EXTRCOMP2  | ✅                      | GLS             |
-|      ER3     | EUROPRIORITY DTP IOSS-EXTRACOMP3 | ✅                      | GLS             |
-|      GXR     | GLOBALEXPRESS                    | ✅                      | FedEx           |
-|      GX1     | GLOBALEXPRESS-EXTRACOMP1         | ✅                      | FedEx           |
-|      GX2     | GLOBALEXPRESS-EXTRACOMP2         | ✅                      | FedEx           |
-|      GX3     | GLOBALEXPRESS-EXTRACOMP3         | ✅                      | FedEx           |
-|      ECA     | GLOBALPRIORITY EUROPE            | ⛔                      | N/A             |
-|      EC1     | GLOBALPRIORITY EUROPE-EXTRACOMP1 | ⛔                      | N/A             |
-|      EC2     | GLOBALPRIORITY EUROPE-EXTRACOMP2 | ⛔                      | N/A             |
-|      EC3     | GLOBALPRIORITY EUROPE-EXTRACOMP3 | ⛔                      | N/A             |
-|      GPA     | GLOBALPRIORITY ROW               | ⛔                      | N/A             |
-|      GP1     | GLOBALPRIORITY ROW-EXTRACOMP1    | ⛔                      | N/A             |
-|      GP2     | GLOBALPRIORITY ROW-EXTRACOMP2    | ⛔                      | N/A             |
-|      GP3     | GLOBALPRIORITY ROW-EXTRACOMP3    | ⛔                      | N/A             |
-|      IXA     | IRELAND EXPRESS                  | ✅                      | GLS             |
-|      IX1     | IRELAND EXPRESS-EXTRACOMP1       | ✅                      | GLS             |
-|      IX2     | IRELAND EXPRESS-EXTRACOMP2       | ✅                      | GLS             |
-|      IX3     | IRELAND EXPRESS-EXTRACOMP3       | ✅                      | GLS             |
-|      CEO     | China Economy - Personal Effects | ⛔                      | N/A             |
-|      CEP     | China Economy - POL Drop         | ⛔                      | N/A             |
-|      CEQ     | China Economy - Depot Drop       | ⛔                      | N/A             |
-|      CER     | China Economy - 3PC              | ⛔                      | N/A             |
-|      CES     | China Economy - Direct Hub Drop  | ⛔                      | N/A             |
+| Service Code | Service Name                                                                                |
+| :----------: | :------------------------------------------------------------------------------------------ |
+|      TE1     | EXPRESS10 - delivery next working day by 10am.                                              |
+|      TA1     | EUROPRIORITY DDP-EXTRACOMP1                                                                 |
+|      TA2     | EUROPRIORITY DDP-EXTRACOMP2                                                                 |
+|      TA3     | EUROPRIORITY DDP-EXTRACOMP3                                                                 |
+|      TA4     | EUROPRIORITY DTP IOSS                                                                       |
+|      TE2     | EUROPRIORITY DTP IOSS-EXTRACOMP1                                                            |
+|      TE3     | EUROPRIORITY DTP IOSS-EXTRCOMP2                                                             |
+|      TE4     | EUROPRIORITY DTP IOSS-EXTRACOMP3                                                            |
+|      NDA     | GLOBALEXPRESS                                                                               |
+|      NDH     | GLOBALEXPRESS-EXTRACOMP1                                                                    |
+|      NDI     | GLOBALEXPRESS-EXTRACOMP2                                                                    |
+|      NDJ     | GLOBALEXPRESS-EXTRACOMP3                                                                    |
+|      NDK     | GLOBALPRIORITY EUROPE                                                                       |
+|      NDB     | GLOBALPRIORITY EUROPE-EXTRACOMP1                                                            |
+|      NDC     | GLOBALPRIORITY EUROPE-EXTRACOMP2                                                            |
+|      NDE     | GLOBALPRIORITY EUROPE-EXTRACOMP3                                                            |
+|      RT0     | GLOBALPRIORITY ROW                                                                          |
+|      RT1     | GLOBALPRIORITY ROW-EXTRACOMP1                                                               |
+|      RT2     | GLOBALPRIORITY ROW-EXTRACOMP2                                                               |
+|      RT3     | GLOBALPRIORITY ROW-EXTRACOMP3                                                               |
+|      FEK     | IRELAND EXPRESS                                                                             |
+|      NDO     | IRELAND EXPRESS-EXTRACOMP1                                                                  |
+|      FEQ     | IRELAND EXPRESS-EXTRACOMP2                                                                  |
+|      NDS     | IRELAND EXPRESS-EXTRACOMP3                                                                  |
+|      FER     | China Economy - Personal Effects                                                            |
+|      NDT     | China Economy - POL Drop                                                                    |
+|      FEU     | China Economy - Depot Drop                                                                  |
+|      NDV     | China Economy - 3PC                                                                         |
+|      TEA     | China Economy - Direct Hub Drop                                                             |
+|      TEB     | EXPRESS24 WITH PIN COMP 1                                                                   |
+|      TEC     | EXPRESS24 WITH PIN COMP 2                                                                   |
+|      TED     | EXPRESS24 WITH PIN COMP 3                                                                   |
+|      RT4     | EXPRESS24 WITH PIN WEEKEND                                                                  |
+|      RT5     | EXPRESS24 WITH PIN WEEKEND COMP 1                                                           |
+|      RTE     | EXPRESS24 WITH PIN WEEKEND COMP 2                                                           |
+|      RTF     | EXPRESS24 WITH PIN WEEKEND COMP 3                                                           |
+|      FE0     | EXPRESS48 – delivery within 2 working days.                                                 |
+|      FEA     | EXPRESS48 AGE                                                                               |
+|      FEB     | EXPRESS48 AGE COMP 1                                                                        |
+|      FEC     | EXPRESS48 AGE COMP 2                                                                        |
+|      FED     | EXPRESS48 AGE COMP 3                                                                        |
+|      FE1     | EXPRESS48 COMP 1                                                                            |
+|      FE2     | EXPRESS48 COMP 2                                                                            |
+|      FE3     | EXPRESS48 COMP 3                                                                            |
+|      FEM     | EXPRESS48 LARGE – delivery within 2 working days for items up to 2.5m long.                 |
+|      FEN     | EXPRESS48 LARGE COMP 1                                                                      |
+|      FEO     | EXPRESS48 LARGE COMP 2                                                                      |
+|      FEP     | EXPRESS48 LARGE COMP 3                                                                      |
+|      RTA     | EXPRESS48 RETURNS – collection within 2 working days from your home or  nearby post office. |
+|      RTB     | EXPRESS48 RETURNS COMP 1                                                                    |
+|      RTC     | EXPRESS48 RETURNS COMP 2                                                                    |
+|      RTD     | EXPRESS48 RETURNS COMP 3                                                                    |
+|      FEE     | EXPRESSAM – delivery next working day by 12 noon.                                           |
+|      MA1     | EXPRESSAM AGE                                                                               |
+|      MA2     | EXPRESSAM AGE COMP 1                                                                        |
+|      MA3     | EXPRESSAM AGE COMP 2                                                                        |
+|      MA4     | EXPRESSAM AGE COMP 3                                                                        |
+|      FEF     | EXPRESSAM COMP 1                                                                            |
+|      FEG     | EXPRESSAM COMP 2                                                                            |
+|      FEL     | EXPRESSAM COMP 3                                                                            |
+|      TEH     | EXPRESSAM WEEKEND – delivery on weekend by 12 noon.                                         |
+|      M07     | EXPRESSAM WEEKEND AGE                                                                       |
+|      M08     | EXPRESSAM WEEKEND AGE COMP 1                                                                |
+|      M09     | EXPRESSAM WEEKEND AGE COMP 2                                                                |
+|      M10     | EXPRESSAM WEEKEND AGE COMP 3                                                                |
+|      TEI     | EXPRESSAM WEEKEND COMP 1                                                                    |
+|      TEJ     | EXPRESSAM WEEKEND COMP 2                                                                    |
+|      TEK     | EXPRESSAM WEEKEND COMP 3                                                                    |
 
 ## API request and response for partner label
 
