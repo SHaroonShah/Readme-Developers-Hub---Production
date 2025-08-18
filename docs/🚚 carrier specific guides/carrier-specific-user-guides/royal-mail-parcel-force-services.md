@@ -192,3 +192,37 @@ RESPOSNE
 <Image align="center" width="300px" src="https://files.readme.io/dc8ee4c38fbca556406dffd6bed5af8af1336871730ec786bdbaf1d9ebf0e238-image.png" />
 
 <Image align="center" className="border" border={true} width="300px" src="https://files.readme.io/bb0e617b2ad053080ffaa51ae2d32b289789aa07072e167b07b835f4c6773e2a-image.png" />
+
+<br />
+
+| Service Code | Service Name                     | Partner Label Required | Partner Carrier |
+| :----------: | :------------------------------- | :--------------------- | :-------------- |
+|      ERB     | EUROPRIORITY DDP                 | ✅                      | GLS             |
+|      ER6     | EUROPRIORITY DDP-EXTRACOMP1      | ✅                      | GLS             |
+|      ER7     | EUROPRIORITY DDP-EXTRACOMP2      | ✅                      | GLS             |
+|      ER8     | EUROPRIORITY DDP-EXTRACOMP3      | ✅                      | GLS             |
+|      ERA     | EUROPRIORITY DTP IOSS            | ✅                      | GLS             |
+|      ER1     | EUROPRIORITY DTP IOSS-EXTRACOMP1 | ✅                      | GLS             |
+|      ER2     | EUROPRIORITY DTP IOSS-EXTRCOMP2  | ✅                      | GLS             |
+|      ER3     | EUROPRIORITY DTP IOSS-EXTRACOMP3 | ✅                      | GLS             |
+|      GXR     | GLOBALEXPRESS                    | ✅                      | FedEx           |
+|      GX1     | GLOBALEXPRESS-EXTRACOMP1         | ✅                      | FedEx           |
+|      GX2     | GLOBALEXPRESS-EXTRACOMP2         | ✅                      | FedEx           |
+|      GX3     | GLOBALEXPRESS-EXTRACOMP3         | ✅                      | FedEx           |
+|      ECA     | GLOBALPRIORITY EUROPE            | ⛔                      | N/A             |
+|      EC1     | GLOBALPRIORITY EUROPE-EXTRACOMP1 | ⛔                      | N/A             |
+|      EC2     | GLOBALPRIORITY EUROPE-EXTRACOMP2 | ⛔                      | N/A             |
+|      EC3     | GLOBALPRIORITY EUROPE-EXTRACOMP3 | ⛔                      | N/A             |
+|      GPA     | GLOBALPRIORITY ROW               | ⛔                      | N/A             |
+|      GP1     | GLOBALPRIORITY ROW-EXTRACOMP1    | ⛔                      | N/A             |
+|      GP2     | GLOBALPRIORITY ROW-EXTRACOMP2    | ⛔                      | N/A             |
+|      GP3     | GLOBALPRIORITY ROW-EXTRACOMP3    | ⛔                      | N/A             |
+|      IXA     | IRELAND EXPRESS                  | ✅                      | GLS             |
+|      IX1     | IRELAND EXPRESS-EXTRACOMP1       | ✅                      | GLS             |
+|      IX2     | IRELAND EXPRESS-EXTRACOMP2       | ✅                      | GLS             |
+|      IX3     | IRELAND EXPRESS-EXTRACOMP3       | ✅                      | GLS             |
+|      CEO     | China Economy - Personal Effects | ⛔                      | N/A             |
+|      CEP     | China Economy - POL Drop         | ⛔                      | N/A             |
+|      CEQ     | China Economy - Depot Drop       | ⛔                      | N/A             |
+|      CER     | China Economy - 3PC              | ⛔                      | N/A             |
+|      CES     | China Economy - Direct Hub Drop  | ⛔                      | N/A             |
