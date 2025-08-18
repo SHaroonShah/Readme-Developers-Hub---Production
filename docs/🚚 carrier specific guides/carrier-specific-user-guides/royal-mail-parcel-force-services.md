@@ -365,6 +365,7 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
     </createShipmentRequest>
 
   RESPONSE
+
   <createShipmentResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
       <integrationHeader>
           <dateTimeStamp>2025-07-09 08:20</dateTimeStamp>
