@@ -7,8 +7,8 @@ excerpt: >-
   software capabilities within the Royal Mail Group, thereby streamlining
   operations within the Royal Mail network.
 deprecated: false
-hidden: true
-icon: fad fa-square-dashed-circle-plus
+hidden: false
+icon: fad fa-square-virus
 metadata:
   robots: index
 ---
