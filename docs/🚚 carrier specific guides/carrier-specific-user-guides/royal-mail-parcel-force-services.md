@@ -18,6 +18,8 @@ A *partner label* is a shipping label utilised in collaboration with other carri
 
 Partner label involves utilising two separate labels on a shipment to reflect both the originating carrier (Royal Mail) and the partner carrier (GLS or FedEx) responsible for the last-mile delivery. Therefore, for services using partner labels, SAPIENT will generate both the Royal Mail and partner label and return them in the Create Shipment response. This dual labelling mechanism helps streamline the logistics process and enhances tracking and accountability throughout the delivery journey. By utilising partners, Royal Mail aims to provide an enhanced service that meets customer expectations around the globe.
 
+<br />
+
 The new Royal Mail international services are listed in the following table.
 
 | Service Code | Service Name                     | Partner Label Required | Partner Carrier |
