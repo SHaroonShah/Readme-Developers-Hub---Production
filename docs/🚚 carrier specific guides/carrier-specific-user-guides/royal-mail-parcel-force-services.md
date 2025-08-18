@@ -186,3 +186,9 @@ RESPOSNE
 }
 
 ```
+
+## Partner label template example
+
+<Image align="center" width="300px" src="https://files.readme.io/dc8ee4c38fbca556406dffd6bed5af8af1336871730ec786bdbaf1d9ebf0e238-image.png" />
+
+<Image align="center" className="border" border={true} width="300px" src="https://files.readme.io/bb0e617b2ad053080ffaa51ae2d32b289789aa07072e167b07b835f4c6773e2a-image.png" />
