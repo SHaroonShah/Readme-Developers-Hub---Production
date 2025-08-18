@@ -46,7 +46,7 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
       </td>
 
       <td style={{ textAlign: "left" }}>
-
+        EUROPRIORITY DDP
       </td>
 
       <td style={{ textAlign: "left" }}>
@@ -54,9 +54,7 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
       </td>
 
       <td style={{ textAlign: "left" }}>
-        Enter the carrier account number.
-
-        The format of the account number must be compliant with the carrier you have selected. If your account number does not meet the requirements, you may need to add the required amount of zero's at the beginning of the number to ensure it lies within the standard character length range for that carrier.
+        <br />
       </td>
     </tr>
 
@@ -66,7 +64,7 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
       </td>
 
       <td style={{ textAlign: "left" }}>
-
+        EUROPRIORITY DDP-EXTRACOMP1
       </td>
 
       <td style={{ textAlign: "left" }}>
@@ -74,11 +72,7 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
       </td>
 
       <td style={{ textAlign: "left" }}>
-        From the dropdown menu, select one of the following account types that you want to set up for the the shipping account you are adding:
-
-        • **[Production](https://docs.intersoftsapient.net/docs/sandbox-account)**: a live environment where the final version of the application is deployed and made available to the users.
-
-        • **[Sandbox](https://docs.intersoftsapient.net/docs/sandbox-account)**: a testing environment that mimics the **Production** environment but is isolated from it. The sandbox environment is primarily used for development and testing purposes.
+        <br />
       </td>
     </tr>
 
@@ -88,7 +82,7 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
       </td>
 
       <td style={{ textAlign: "left" }}>
-
+        EUROPRIORITY DDP-EXTRACOMP2
       </td>
 
       <td style={{ textAlign: "left" }}>
@@ -96,7 +90,7 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
       </td>
 
       <td style={{ textAlign: "left" }}>
-        Enter the account name.
+
       </td>
     </tr>
 
@@ -106,7 +100,7 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
       </td>
 
       <td style={{ textAlign: "left" }}>
-
+        EUROPRIORITY DDP-EXTRACOMP3
       </td>
 
       <td style={{ textAlign: "left" }}>
@@ -114,7 +108,7 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
       </td>
 
       <td style={{ textAlign: "left" }}>
-        Enter the email address that was used to register the account for the carrier you selected.
+
       </td>
     </tr>
 
@@ -124,7 +118,7 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
       </td>
 
       <td style={{ textAlign: "left" }}>
-
+        EUROPRIORITY DTP IOSS
       </td>
 
       <td style={{ textAlign: "left" }}>
@@ -132,7 +126,7 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
       </td>
 
       <td style={{ textAlign: "left" }}>
-        Enter a custom name which can be used in the API request instead of using the shipping location ID when connecting to us. Therefore, it is recommend that this name must be memorable and available for reference purposes.
+
       </td>
     </tr>
 
@@ -142,7 +136,7 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
       </td>
 
       <td style={{ textAlign: "left" }}>
-
+        EUROPRIORITY DTP IOSS-EXTRACOMP1
       </td>
 
       <td style={{ textAlign: "left" }}>
@@ -150,7 +144,7 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
       </td>
 
       <td style={{ textAlign: "left" }}>
-        Enter the contact name for the account you are adding.
+
       </td>
     </tr>
 
@@ -160,7 +154,7 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
       </td>
 
       <td style={{ textAlign: "left" }}>
-
+        EUROPRIORITY DTP IOSS-EXTRCOMP2
       </td>
 
       <td style={{ textAlign: "left" }}>
@@ -168,7 +162,7 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
       </td>
 
       <td style={{ textAlign: "left" }}>
-        Enter the contact number for the account you are adding.
+
       </td>
     </tr>
 
@@ -178,7 +172,7 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
       </td>
 
       <td style={{ textAlign: "left" }}>
-
+        EUROPRIORITY DTP IOSS-EXTRACOMP3
       </td>
 
       <td style={{ textAlign: "left" }}>
@@ -196,7 +190,7 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
       </td>
 
       <td style={{ textAlign: "left" }}>
-
+        GLOBALEXPRESS
       </td>
 
       <td style={{ textAlign: "left" }}>
@@ -214,7 +208,7 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
       </td>
 
       <td style={{ textAlign: "left" }}>
-
+        GLOBALEXPRESS-EXTRACOMP1
       </td>
 
       <td style={{ textAlign: "left" }}>
@@ -232,7 +226,7 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
       </td>
 
       <td style={{ textAlign: "left" }}>
-
+        GLOBALEXPRESS-EXTRACOMP2
       </td>
 
       <td style={{ textAlign: "left" }}>
@@ -250,7 +244,7 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
       </td>
 
       <td style={{ textAlign: "left" }}>
-
+        GLOBALEXPRESS-EXTRACOMP3
       </td>
 
       <td style={{ textAlign: "left" }}>
@@ -268,7 +262,7 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
       </td>
 
       <td style={{ textAlign: "left" }}>
-
+        GLOBALPRIORITY EUROPE
       </td>
 
       <td style={{ textAlign: "left" }}>
@@ -286,7 +280,7 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
       </td>
 
       <td style={{ textAlign: "left" }}>
-
+        GLOBALPRIORITY EUROPE-EXTRACOMP1
       </td>
 
       <td style={{ textAlign: "left" }}>
@@ -304,7 +298,7 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
       </td>
 
       <td style={{ textAlign: "left" }}>
-
+        GLOBALPRIORITY EUROPE-EXTRACOMP2
       </td>
 
       <td style={{ textAlign: "left" }}>
@@ -322,7 +316,7 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
       </td>
 
       <td style={{ textAlign: "left" }}>
-
+        GLOBALPRIORITY EUROPE-EXTRACOMP3
       </td>
 
       <td style={{ textAlign: "left" }}>
@@ -340,7 +334,7 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
       </td>
 
       <td style={{ textAlign: "left" }}>
-
+        GLOBALPRIORITY ROW
       </td>
 
       <td style={{ textAlign: "left" }}>
@@ -358,7 +352,7 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
       </td>
 
       <td style={{ textAlign: "left" }}>
-
+        GLOBALPRIORITY ROW-EXTRACOMP1
       </td>
 
       <td style={{ textAlign: "left" }}>
@@ -376,7 +370,7 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
       </td>
 
       <td style={{ textAlign: "left" }}>
-
+        GLOBALPRIORITY ROW-EXTRACOMP2
       </td>
 
       <td style={{ textAlign: "left" }}>
@@ -394,7 +388,7 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
       </td>
 
       <td style={{ textAlign: "left" }}>
-
+        GLOBALPRIORITY ROW-EXTRACOMP3
       </td>
 
       <td style={{ textAlign: "left" }}>
@@ -412,7 +406,7 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
       </td>
 
       <td style={{ textAlign: "left" }}>
-
+        IRELAND EXPRESS
       </td>
 
       <td style={{ textAlign: "left" }}>
@@ -430,7 +424,7 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
       </td>
 
       <td style={{ textAlign: "left" }}>
-
+        IRELAND EXPRESS-EXTRACOMP1
       </td>
 
       <td style={{ textAlign: "left" }}>
@@ -448,7 +442,7 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
       </td>
 
       <td style={{ textAlign: "left" }}>
-
+        IRELAND EXPRESS-EXTRACOMP2
       </td>
 
       <td style={{ textAlign: "left" }}>
@@ -466,7 +460,7 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
       </td>
 
       <td style={{ textAlign: "left" }}>
-
+        IRELAND EXPRESS-EXTRACOMP3
       </td>
 
       <td style={{ textAlign: "left" }}>
@@ -484,7 +478,7 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
       </td>
 
       <td style={{ textAlign: "left" }}>
-
+        China Economy - Personal Effects
       </td>
 
       <td style={{ textAlign: "left" }}>
@@ -502,7 +496,7 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
       </td>
 
       <td style={{ textAlign: "left" }}>
-
+        China Economy - POL Drop
       </td>
 
       <td style={{ textAlign: "left" }}>
@@ -520,7 +514,7 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
       </td>
 
       <td style={{ textAlign: "left" }}>
-
+        China Economy - Depot Drop
       </td>
 
       <td style={{ textAlign: "left" }}>
@@ -538,7 +532,7 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
       </td>
 
       <td style={{ textAlign: "left" }}>
-
+        China Economy - 3PC
       </td>
 
       <td style={{ textAlign: "left" }}>
@@ -556,7 +550,7 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
       </td>
 
       <td style={{ textAlign: "left" }}>
-
+        China Economy - Direct Hub Drop
       </td>
 
       <td style={{ textAlign: "left" }}>
