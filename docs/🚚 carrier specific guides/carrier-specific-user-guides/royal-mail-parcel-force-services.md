@@ -42,7 +42,7 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
   <tbody>
     <tr>
       <td style={{ textAlign: "center" }}>
-        **Carrier Account Number**\*
+        ERB
       </td>
 
       <td style={{ textAlign: "left" }}>
@@ -62,7 +62,7 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
 
     <tr>
       <td style={{ textAlign: "center" }}>
-        **Account Type**\*
+        ER6
       </td>
 
       <td style={{ textAlign: "left" }}>
@@ -84,7 +84,7 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
 
     <tr>
       <td style={{ textAlign: "center" }}>
-        **Account Name (if different than customer)**\*
+        ER7
       </td>
 
       <td style={{ textAlign: "left" }}>
@@ -102,7 +102,7 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
 
     <tr>
       <td style={{ textAlign: "center" }}>
-        **Registered Email Address**\*
+        ER8
       </td>
 
       <td style={{ textAlign: "left" }}>
@@ -120,7 +120,7 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
 
     <tr>
       <td style={{ textAlign: "center" }}>
-        **Alias**\*
+        ERA
       </td>
 
       <td style={{ textAlign: "left" }}>
@@ -138,7 +138,7 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
 
     <tr>
       <td style={{ textAlign: "center" }}>
-        **Contact Name**\*
+        ER1
       </td>
 
       <td style={{ textAlign: "left" }}>
@@ -156,7 +156,7 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
 
     <tr>
       <td style={{ textAlign: "center" }}>
-        **Contact Number**\*
+        ER2
       </td>
 
       <td style={{ textAlign: "left" }}>
@@ -169,6 +169,240 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
 
       <td style={{ textAlign: "left" }}>
         Enter the contact number for the account you are adding.
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "center" }}>
+        ER3
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "center" }}>
+        GXR
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "center" }}>
+
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "center" }}>
+
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "center" }}>
+
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "center" }}>
+
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "center" }}>
+
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "center" }}>
+
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "center" }}>
+
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "center" }}>
+
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "center" }}>
+
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "center" }}>
+
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "center" }}>
+
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
       </td>
     </tr>
   </tbody>
