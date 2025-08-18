@@ -210,7 +210,7 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
 
     <tr>
       <td style={{ textAlign: "center" }}>
-
+        GX1
       </td>
 
       <td style={{ textAlign: "left" }}>
@@ -228,7 +228,7 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
 
     <tr>
       <td style={{ textAlign: "center" }}>
-
+        GX2
       </td>
 
       <td style={{ textAlign: "left" }}>
@@ -246,7 +246,7 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
 
     <tr>
       <td style={{ textAlign: "center" }}>
-
+        GX3
       </td>
 
       <td style={{ textAlign: "left" }}>
@@ -264,7 +264,7 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
 
     <tr>
       <td style={{ textAlign: "center" }}>
-
+        ECA
       </td>
 
       <td style={{ textAlign: "left" }}>
@@ -282,7 +282,7 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
 
     <tr>
       <td style={{ textAlign: "center" }}>
-
+        EC1
       </td>
 
       <td style={{ textAlign: "left" }}>
@@ -300,7 +300,7 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
 
     <tr>
       <td style={{ textAlign: "center" }}>
-
+        EC2
       </td>
 
       <td style={{ textAlign: "left" }}>
@@ -318,7 +318,7 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
 
     <tr>
       <td style={{ textAlign: "center" }}>
-
+        EC3
       </td>
 
       <td style={{ textAlign: "left" }}>
@@ -336,7 +336,7 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
 
     <tr>
       <td style={{ textAlign: "center" }}>
-
+        GPA
       </td>
 
       <td style={{ textAlign: "left" }}>
@@ -354,7 +354,7 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
 
     <tr>
       <td style={{ textAlign: "center" }}>
-
+        GP1
       </td>
 
       <td style={{ textAlign: "left" }}>
@@ -372,7 +372,7 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
 
     <tr>
       <td style={{ textAlign: "center" }}>
-
+        GP2
       </td>
 
       <td style={{ textAlign: "left" }}>
@@ -390,7 +390,169 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
 
     <tr>
       <td style={{ textAlign: "center" }}>
+        GP3
+      </td>
 
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "center" }}>
+        IXA
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "center" }}>
+        IX1
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "center" }}>
+        IX2
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "center" }}>
+        IX3
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "center" }}>
+        CEO
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "center" }}>
+        CEP
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "center" }}>
+        CEQ
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "center" }}>
+        CER
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+
+      <td style={{ textAlign: "left" }}>
+
+      </td>
+    </tr>
+
+    <tr>
+      <td style={{ textAlign: "center" }}>
+        CES
       </td>
 
       <td style={{ textAlign: "left" }}>
