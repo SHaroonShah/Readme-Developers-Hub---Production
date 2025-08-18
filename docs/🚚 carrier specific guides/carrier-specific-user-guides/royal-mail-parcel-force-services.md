@@ -8,7 +8,7 @@ excerpt: >-
   operations within the Royal Mail network.
 deprecated: false
 hidden: false
-icon: fad fa-square-virus
+icon: fad fa-truck-arrow-right
 metadata:
   robots: index
 ---
