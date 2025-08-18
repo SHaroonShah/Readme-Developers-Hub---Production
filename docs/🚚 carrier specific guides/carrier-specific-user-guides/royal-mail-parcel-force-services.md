@@ -388,3 +388,7 @@ RESPONSE
 
 
 ```
+
+## Domestic label template example
+
+<Image align="center" className="border" border={true} width="300px" src="https://files.readme.io/c9bd0fc953ff5ea7953e9b41461c16de453bb7a6ab10c3bf2f12368bd3031c80-image.png" />
