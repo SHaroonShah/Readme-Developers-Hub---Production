@@ -20,76 +20,76 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
 
 The new Royal Mail international services are listed in the following table.
 
-| Service Code | Service Name                                                                                |
-| :----------: | :------------------------------------------------------------------------------------------ |
-|      TE1     | EXPRESS10 - delivery next working day by 10am.                                              |
-|      TA1     | EUROPRIORITY DDP-EXTRACOMP1                                                                 |
-|      TA2     | EUROPRIORITY DDP-EXTRACOMP2                                                                 |
-|      TA3     | EUROPRIORITY DDP-EXTRACOMP3                                                                 |
-|      TA4     | EUROPRIORITY DTP IOSS                                                                       |
-|      TE2     | EUROPRIORITY DTP IOSS-EXTRACOMP1                                                            |
-|      TE3     | EUROPRIORITY DTP IOSS-EXTRCOMP2                                                             |
-|      TE4     | EUROPRIORITY DTP IOSS-EXTRACOMP3                                                            |
-|      NDA     | GLOBALEXPRESS                                                                               |
-|      NDH     | GLOBALEXPRESS-EXTRACOMP1                                                                    |
-|      NDI     | GLOBALEXPRESS-EXTRACOMP2                                                                    |
-|      NDJ     | GLOBALEXPRESS-EXTRACOMP3                                                                    |
-|      NDK     | GLOBALPRIORITY EUROPE                                                                       |
-|      NDB     | GLOBALPRIORITY EUROPE-EXTRACOMP1                                                            |
-|      NDC     | GLOBALPRIORITY EUROPE-EXTRACOMP2                                                            |
-|      NDE     | GLOBALPRIORITY EUROPE-EXTRACOMP3                                                            |
-|      RT0     | GLOBALPRIORITY ROW                                                                          |
-|      RT1     | GLOBALPRIORITY ROW-EXTRACOMP1                                                               |
-|      RT2     | GLOBALPRIORITY ROW-EXTRACOMP2                                                               |
-|      RT3     | GLOBALPRIORITY ROW-EXTRACOMP3                                                               |
-|      FEK     | IRELAND EXPRESS                                                                             |
-|      NDO     | IRELAND EXPRESS-EXTRACOMP1                                                                  |
-|      FEQ     | IRELAND EXPRESS-EXTRACOMP2                                                                  |
-|      NDS     | IRELAND EXPRESS-EXTRACOMP3                                                                  |
-|      FER     | China Economy - Personal Effects                                                            |
-|      NDT     | China Economy - POL Drop                                                                    |
-|      FEU     | China Economy - Depot Drop                                                                  |
-|      NDV     | China Economy - 3PC                                                                         |
-|      TEA     | China Economy - Direct Hub Drop                                                             |
-|      TEB     | EXPRESS24 WITH PIN COMP 1                                                                   |
-|      TEC     | EXPRESS24 WITH PIN COMP 2                                                                   |
-|      TED     | EXPRESS24 WITH PIN COMP 3                                                                   |
-|      RT4     | EXPRESS24 WITH PIN WEEKEND                                                                  |
-|      RT5     | EXPRESS24 WITH PIN WEEKEND COMP 1                                                           |
-|      RTE     | EXPRESS24 WITH PIN WEEKEND COMP 2                                                           |
-|      RTF     | EXPRESS24 WITH PIN WEEKEND COMP 3                                                           |
-|      FE0     | EXPRESS48 – delivery within 2 working days.                                                 |
-|      FEA     | EXPRESS48 AGE                                                                               |
-|      FEB     | EXPRESS48 AGE COMP 1                                                                        |
-|      FEC     | EXPRESS48 AGE COMP 2                                                                        |
-|      FED     | EXPRESS48 AGE COMP 3                                                                        |
-|      FE1     | EXPRESS48 COMP 1                                                                            |
-|      FE2     | EXPRESS48 COMP 2                                                                            |
-|      FE3     | EXPRESS48 COMP 3                                                                            |
-|      FEM     | EXPRESS48 LARGE – delivery within 2 working days for items up to 2.5m long.                 |
-|      FEN     | EXPRESS48 LARGE COMP 1                                                                      |
-|      FEO     | EXPRESS48 LARGE COMP 2                                                                      |
-|      FEP     | EXPRESS48 LARGE COMP 3                                                                      |
-|      RTA     | EXPRESS48 RETURNS – collection within 2 working days from your home or  nearby post office. |
-|      RTB     | EXPRESS48 RETURNS COMP 1                                                                    |
-|      RTC     | EXPRESS48 RETURNS COMP 2                                                                    |
-|      RTD     | EXPRESS48 RETURNS COMP 3                                                                    |
-|      FEE     | EXPRESSAM – delivery next working day by 12 noon.                                           |
-|      MA1     | EXPRESSAM AGE                                                                               |
-|      MA2     | EXPRESSAM AGE COMP 1                                                                        |
-|      MA3     | EXPRESSAM AGE COMP 2                                                                        |
-|      MA4     | EXPRESSAM AGE COMP 3                                                                        |
-|      FEF     | EXPRESSAM COMP 1                                                                            |
-|      FEG     | EXPRESSAM COMP 2                                                                            |
-|      FEL     | EXPRESSAM COMP 3                                                                            |
-|      TEH     | EXPRESSAM WEEKEND – delivery on weekend by 12 noon.                                         |
-|      M07     | EXPRESSAM WEEKEND AGE                                                                       |
-|      M08     | EXPRESSAM WEEKEND AGE COMP 1                                                                |
-|      M09     | EXPRESSAM WEEKEND AGE COMP 2                                                                |
-|      M10     | EXPRESSAM WEEKEND AGE COMP 3                                                                |
-|      TEI     | EXPRESSAM WEEKEND COMP 1                                                                    |
-|      TEJ     | EXPRESSAM WEEKEND COMP 2                                                                    |
-|      TEK     | EXPRESSAM WEEKEND COMP 3                                                                    |
+| Service Code | Service Name                                                                                         |
+| :----------: | :--------------------------------------------------------------------------------------------------- |
+|      TE1     | EXPRESS10 - delivery next working day by 10am.                                                       |
+|      TA1     | EUROPRIORITY DDP-EXTRACOMP1                                                                          |
+|      TA2     | EUROPRIORITY DDP-EXTRACOMP2                                                                          |
+|      TA3     | EUROPRIORITY DDP-EXTRACOMP3                                                                          |
+|      TA4     | EUROPRIORITY DTP IOSS                                                                                |
+|      TE2     | EXPRESS10 COMP 1                                                                                     |
+|      TE3     | EXPRESS10 COMP 2                                                                                     |
+|      TE4     | EXPRESS10 COMP 3                                                                                     |
+|      NDA     | EXPRESS 24 – delivery next working day by close of business.                                         |
+|      NDH     | EXPRESS24 AGE                                                                                        |
+|      NDI     | EXPRESS24 AGE COMP 1                                                                                 |
+|      NDJ     | EXPRESS24 AGE COMP 2                                                                                 |
+|      NDK     | EXPRESS24 AGE COMP 3                                                                                 |
+|      NDB     | EXPRESS24 COMP 1                                                                                     |
+|      NDC     | EXPRESS24 COMP 2                                                                                     |
+|      NDE     | EXPRESS24 COMP 3                                                                                     |
+|      RT0     | EXPRESS24 RETURNS – collection next day from your home or nearby post office.                        |
+|      RT1     | EXPRESS24 RETURNS COMP 1                                                                             |
+|      RT2     | EXPRESS24 RETURNS COMP 2                                                                             |
+|      RT3     | EXPRESS24 RETURNS COMP 3                                                                             |
+|      FEK     | EXPRESS24 WEEKEND – delivery next day on weekend.                                                    |
+|      NDO     | EXPRESS24 WEEKEND AGE                                                                                |
+|      FEQ     | EXPRESS24 WEEKEND COMP 1                                                                             |
+|      DS      | EXPRESS24 WEEKEND COMP 1 AGE                                                                         |
+|      FER     | EXPRESS24 WEEKEND COMP 2                                                                             |
+|      NDT     | EXPRESS24 WEEKEND COMP 2 AGE                                                                         |
+|      FEU     | EXPRESS24 WEEKEND COMP 3                                                                             |
+|      NDV     | EXPRESS24 WEEKEND COMP 3 AGE                                                                         |
+|      TEA     | EXPRESS24 WITH PIN – delivery next working day by close of business with PIN required upon delivery. |
+|      TEB     | EXPRESS24 WITH PIN COMP 1                                                                            |
+|      TEC     | EXPRESS24 WITH PIN COMP 2                                                                            |
+|      TED     | EXPRESS24 WITH PIN COMP 3                                                                            |
+|      RT4     | EXPRESS24 WITH PIN WEEKEND                                                                           |
+|      RT5     | EXPRESS24 WITH PIN WEEKEND COMP 1                                                                    |
+|      RTE     | EXPRESS24 WITH PIN WEEKEND COMP 2                                                                    |
+|      RTF     | EXPRESS24 WITH PIN WEEKEND COMP 3                                                                    |
+|      FE0     | EXPRESS48 – delivery within 2 working days.                                                          |
+|      FEA     | EXPRESS48 AGE                                                                                        |
+|      FEB     | EXPRESS48 AGE COMP 1                                                                                 |
+|      FEC     | EXPRESS48 AGE COMP 2                                                                                 |
+|      FED     | EXPRESS48 AGE COMP 3                                                                                 |
+|      FE1     | EXPRESS48 COMP 1                                                                                     |
+|      FE2     | EXPRESS48 COMP 2                                                                                     |
+|      FE3     | EXPRESS48 COMP 3                                                                                     |
+|      FEM     | EXPRESS48 LARGE – delivery within 2 working days for items up to 2.5m long.                          |
+|      FEN     | EXPRESS48 LARGE COMP 1                                                                               |
+|      FEO     | EXPRESS48 LARGE COMP 2                                                                               |
+|      FEP     | EXPRESS48 LARGE COMP 3                                                                               |
+|      RTA     | EXPRESS48 RETURNS – collection within 2 working days from your home or  nearby post office.          |
+|      RTB     | EXPRESS48 RETURNS COMP 1                                                                             |
+|      RTC     | EXPRESS48 RETURNS COMP 2                                                                             |
+|      RTD     | EXPRESS48 RETURNS COMP 3                                                                             |
+|      FEE     | EXPRESSAM – delivery next working day by 12 noon.                                                    |
+|      MA1     | EXPRESSAM AGE                                                                                        |
+|      MA2     | EXPRESSAM AGE COMP 1                                                                                 |
+|      MA3     | EXPRESSAM AGE COMP 2                                                                                 |
+|      MA4     | EXPRESSAM AGE COMP 3                                                                                 |
+|      FEF     | EXPRESSAM COMP 1                                                                                     |
+|      FEG     | EXPRESSAM COMP 2                                                                                     |
+|      FEL     | EXPRESSAM COMP 3                                                                                     |
+|      TEH     | EXPRESSAM WEEKEND – delivery on weekend by 12 noon.                                                  |
+|      M07     | EXPRESSAM WEEKEND AGE                                                                                |
+|      M08     | EXPRESSAM WEEKEND AGE COMP 1                                                                         |
+|      M09     | EXPRESSAM WEEKEND AGE COMP 2                                                                         |
+|      M10     | EXPRESSAM WEEKEND AGE COMP 3                                                                         |
+|      TEI     | EXPRESSAM WEEKEND COMP 1                                                                             |
+|      TEJ     | EXPRESSAM WEEKEND COMP 2                                                                             |
+|      TEK     | EXPRESSAM WEEKEND COMP 3                                                                             |
 
 ## API request and response for partner label
 
