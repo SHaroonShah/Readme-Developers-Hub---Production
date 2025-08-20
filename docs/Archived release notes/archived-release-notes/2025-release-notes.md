@@ -11,6 +11,46 @@ metadata:
 next:
   description: ''
 ---
+## HS Code validation enhancement in SAPIENT's core API
+
+The **Hurricane Services** API endpoint of the Sapient Core API is now enhanced to support HS codes longer than 10 digits, enabling accurate code validation for countries like Qatar and Kuwait. The **Commodity Codes Validation** endpoint will send requests to Hurricane’s Quick Check API. In response, two new fields—**originalImportCode** and **originalExportCode**—will be included under the **Items** object, providing the correct codes directly from the Hurricane service. The originalImportCode and originalExportCode fields aren't currently being populated, but have been added to the Commodity Codes Validation response in preparation for future use.
+
+## Return label at package-level in create shipment request
+
+A new field—**ReturnLabelsAtPackageLevel** has been added to the **ShipmentInformation** object of the Create Shipment request within the . This optional field allows customers to choose between returning labels at the shipment-level or at the package-level. Additionally, a **Label** field is also added to the **Packages** object in the Create Shipment response to return a Base64 string of the corresponding label when the **ReturnLabelsAtPackageLevel** field is set to True.
+
+> 📘 ***Note***
+>
+> *This functionality is currently**only supported for Royal Mail shipments**. The functionality is available with both consignment and multi-piece shipments. If the shipment is processed with this field populated, the labels will be returned at the package level, including Royal Mail partner carrier labels, if applicable. If using offline barcoding without Royal Mail partner labels, the field will be ignored.*
+
+## Get PUDO locations endpoint enhancements
+
+A new **SupplementCode** field has been added to the **EnhancedLocationDetails** object of the **Get PUDO Locations** response. This field contains the Royal Mail supplement code associated with the location. It has been added so that any customers who are using the Get PUDO Locations API but not shipping via Sapient have the correct supplement code available. For customers creating Local Collect shipments via Sapient, the supplement code does \*\*not \*\*need to be provided in the create shipment request - Sapient applies the code automatically when a destinationPudoId is provided.
+
+## InPost integration
+
+The In Post integration has been added to the SAPIENT system, providing users with flexible shipping options, including lookup for convenient locker services for secure parcel pickups via the SAPIENT’s **PUDO Locations** endpoint. This enhancement streamlines shipment management and leverages new capabilities for a better shipping experience.
+
+**New API endpoints**. A new **IN POST** block has been added to our carrier-specific APIs. This block includes the following API endpoints:
+
+* **Shipping Account**
+  * **Get Accounts**: Retrieve a list of the InPost shipping accounts.
+  * **Add Account**: Add a new InPost shipping account.
+  * **Get Account**: Retrieve details of a specific InPost shipping account.
+  * **Update Account**: Update details of an existing InPost shipping account.
+  * **Link Locations**: Link shipping locations to an InPost shipping accounts.
+  * **Get Associated Locations**: Retrieve locations linked to the InPost shipping account.
+  * **Get Associated Location**: Retrieve details for a specific InPost associated location.
+  * **Shipments**
+    * **Create Shipment**: Create a new InPost shipment request.
+    * **Print Label**: Generate a label for the InPost shipment.
+
+***
+
+* **InPost shipping account screen**. As part of the InPost integration in Sapient, customer users and Carrier Account Administrators can now configure the InPost shipping account via the SAPIENT UI for creating shipments. This integration supports both outbound and return shipments using InPost’s eco-friendly parcel locker service across England, Wales, and Scotland. The **Add Shipping Account** screen will now include InPost as a carrier for selection, with mandatory fields required for configuration. Additionally, carrier-specific fields for the InPost integration include a mandatory **Client ID** and a **Bearer token** (to be provided by the carrier).
+
+***
+
 ## New international UPS services
 
 The following two new UPS international services have been added in addition to the existing ones.
