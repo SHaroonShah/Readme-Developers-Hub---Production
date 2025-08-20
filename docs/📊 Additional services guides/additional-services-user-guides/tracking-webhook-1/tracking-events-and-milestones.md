@@ -177,4 +177,4 @@ The following events are considered as the final events.
 
 The following table displays a comprehensive structure of the milestones, event codes, and events that occur throughout the shipping journey of a shipment.
 
-<Image align="center" border={true} caption="Intersoft milestones and tracking event codes" src="https://files.readme.io/b1700586e9f4dcf22e7ad38f9fa200672bf8ee2ecf5740f71683472dbd90d26f-Tracking_webhook_milestones_and_events_latest.png" />
+<Image align="center" border={true} caption="Intersoft milestones and tracking event codes" src="https://files.readme.io/eb95e75d0daacf194095d1854612c88d7afcce16df350286d3c0ad919e4d7f58-Tracking_webhook_milestones_and_events_latest.png" />
