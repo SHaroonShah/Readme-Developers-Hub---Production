@@ -1,9 +1,8 @@
 ---
 title: Get Associated Location
 excerpt: >-
-  Provides information for a specific shipping location linked to a DX shipping
-  account including location alias, timezone, address, when it was last updated,
-  and by who.
+  Retrieve detailed information about a specific shipping location that is
+  associated with a DX shipping account.
 api:
   file: sapient-dx-api.json
   operationId: >-
