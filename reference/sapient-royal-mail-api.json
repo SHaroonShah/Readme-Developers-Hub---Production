@@ -1,13 +1,16 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "INTERSOFT SAPIENT API",
+    "title": "SAPIENT ROYAL MAIL API",
     "description": "# Introduction\nHere you will find requirements for integrating with INTERSOFT SAPIENT API.\n\nThe documentation specifically covers how the API can be used by business customers to conduct shipping activity with available carriers and provides the technical information to build this integration. The API allows customers to create and manage shipments, produce labels, customs documentation, and collection manifests, retrieve reference data such as carriers and countries, and maintain their own data such as shipping account details.\n\nIntersoft API is a fully RESTful service implemented using JSON messaging. You, as the customer are responsible for sending JSON messages and for maintaining the capability of receiving JSON messages in the format described in this specification. Request and response examples for each API service are included in this specification.\n\n# Authentication\n\nThe INTERSOFT SAPIENT API uses OAuth2 authentication.\n\nTo request the authorization token you need to create API credentials (Client ID and Secret) on the system first. If you have not done it already, log into your account and go to API Credentials or follow the link [add a link here with the path to the API Credentials menu]. Use the credentials to retrieve the authorization token.\n\nNote: Make sure you copy the Secret and keep it secure as you won't be able to view it again on the system.\n\n<!-- ReDoc-Inject: <SecurityDefinitions /> -->\n",
     "version": "v4.0-RM",
     "x-logo": {
       "url": "/Content/images/redoc-logo.png",
       "altText": "ReDoc"
     }
+  },
+  "x-readme": {
+    "explorer-enabled": false
   },
   "servers": [
     {
@@ -154,7 +157,7 @@
                         "PostingLocationCode": "2345654321",
                         "ObaAccessCode": "123456",
                         "ReceivingHubCode": "002610",
-                        "ShippingLocationId": "6139e4bf-2860-4230-89c3-6b9a09d44973"
+                        "ShippingLocationId": "562c21ba-b5ec-42be-ae8e-34c740bb5e41"
                       }
                     ]
                   }
@@ -730,12 +733,12 @@
                       "ContentType": "NDX",
                       "ServiceCode": "CRL1",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2025-08-06",
+                      "ShipmentDate": "2025-08-27",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "ce9ba1bc-3c56-4e34-a1b6-b9f29ecd0be5",
+                      "ShippingAccountId": "78c59623-546f-4b7d-8fe0-2304cd80cb46",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -775,15 +778,15 @@
                       "ContentType": "NDX",
                       "ServiceCode": "CRL1",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2025-08-06",
+                      "ShipmentDate": "2025-08-27",
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM",
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "bce3d08f-4972-4802-ba8e-c23c4ad22db4",
-                      "ShippingLocationId": "82eac8ee-0895-4b71-8ebb-9788d8c9731c",
+                      "ShippingAccountId": "3739ce41-762b-4415-9e5e-87c360904ce2",
+                      "ShippingLocationId": "efc11c33-8c40-471d-8832-a63267475a6f",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -873,13 +876,13 @@
                       "ContentType": "NDX",
                       "ServiceCode": "OLA",
                       "DescriptionOfGoods": "Clothing",
-                      "ShipmentDate": "2025-08-06",
+                      "ShipmentDate": "2025-08-27",
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "MM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "a2af44ea-405b-484e-8f08-13c0744cb39c",
+                      "ShippingAccountId": "a15b0678-9090-4088-9660-c9fc927e7847",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -949,15 +952,15 @@
                       "ContentType": "NDX",
                       "ServiceCode": "OLA",
                       "DescriptionOfGoods": "Clothing",
-                      "ShipmentDate": "2025-08-06",
+                      "ShipmentDate": "2025-08-27",
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "MM",
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "6d3ab65c-4c06-4171-abe0-dc6f171c8b46",
-                      "ShippingLocationId": "a6159482-964a-42a0-a468-39467285e325",
+                      "ShippingAccountId": "a22eb395-b33d-4cda-a7a3-f58678fb37b1",
+                      "ShippingLocationId": "0f41ae2d-868b-4e14-87e4-0564d5956a50",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -1034,7 +1037,7 @@
                       "OtherCharges": 32,
                       "QuotedLandedCost": 82.74,
                       "InvoiceNumber": "INV-12345",
-                      "InvoiceDate": "2025-08-06",
+                      "InvoiceDate": "2025-08-27",
                       "ExportLicenceRequired": false,
                       "Airn": "231.002.999-00"
                     },
@@ -1176,13 +1179,13 @@
                       "ContentType": "NDX",
                       "ServiceCode": "TPS",
                       "DescriptionOfGoods": "Aftershave",
-                      "ShipmentDate": "2025-08-06",
+                      "ShipmentDate": "2025-08-27",
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "0b1ef177-7d0b-4bf8-ae60-2f4dc27c2216",
+                      "ShippingAccountId": "5572999e-eadb-4579-ba77-447d3cd6fecd",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -1281,14 +1284,14 @@
                       "ContentType": "NDX",
                       "ServiceCode": "OLA",
                       "DescriptionOfGoods": "Clothing",
-                      "ShipmentDate": "2025-08-06",
+                      "ShipmentDate": "2025-08-27",
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "MM",
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "d4928285-70bd-4403-a5d9-b8014cc89d69",
+                      "ShippingAccountId": "67d29005-83bc-4d49-8b7d-259567d5253f",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -1362,7 +1365,7 @@
                     "value": {
                       "Packages": [
                         {
-                          "ShipmentId": "aaf1ca99-f925-4308-874a-d13427fdbf8f",
+                          "ShipmentId": "57c3b33c-91a4-42e9-b9cf-5835ae9a7ca8",
                           "PackageOccurrence": 1
                         }
                       ]
@@ -1375,7 +1378,7 @@
                           "CarrierDetails": {
                             "UniqueId": "3A07033860010000B2268"
                           },
-                          "ShipmentId": "4bf0eb83-6d06-465e-88e8-570ec85807c0",
+                          "ShipmentId": "a598f297-a5cc-4494-84b8-56ef3c4e121b",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "TT123456785GB",
                           "CarrierTrackingUrl": "https://www.royalmail.com/track-your-item#/tracking-results/TT123456785GB"
@@ -1392,7 +1395,7 @@
                           "CarrierDetails": {
                             "UniqueId": "4F006978600000137EB39"
                           },
-                          "ShipmentId": "56a0ad99-16a3-42ba-bb98-ab3bf0a1d480",
+                          "ShipmentId": "536dc2f1-aeff-4be8-8491-edb146b325fe",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "EO000250025GB",
                           "CarrierTrackingUrl": "https://www.royalmail.com/track-your-item#/tracking-results/EO000250025GB"
@@ -1419,7 +1422,7 @@
                               "Primary1DBarcodeData": "TT123456785GB"
                             }
                           },
-                          "ShipmentId": "8fd8a8aa-ae88-489e-b359-e803450c82e5",
+                          "ShipmentId": "6d80574a-6f07-4603-b860-4efabc504cb7",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "TT123456785GB",
                           "CarrierTrackingUrl": "https://www.royalmail.com/track-your-item#/tracking-results/TT123456785GB"
@@ -1437,7 +1440,7 @@
                           "CarrierDetails": {
                             "UniqueId": "4F2310202400000AF1E3E"
                           },
-                          "ShipmentId": "e6ef52c5-8001-48d2-ab01-bb74ec570e41",
+                          "ShipmentId": "f924a472-ee25-4fdb-83e3-8d98251b4e83",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "AB123456789GB",
                           "CarrierTrackingUrl": "https://www.royalmail.com/track-your-item#/tracking-results/AB123456789GB"
@@ -1446,7 +1449,7 @@
                           "CarrierDetails": {
                             "UniqueId": "4F2310202400000AF1E4C"
                           },
-                          "ShipmentId": "ae07ca82-f96a-42ba-9e5f-c98bf8ddc85b",
+                          "ShipmentId": "620e5a42-4fcf-4ce4-a3fe-73a0a3999cb8",
                           "PackageOccurrence": 2,
                           "TrackingNumber": "AB123456790GB",
                           "CarrierTrackingUrl": "https://www.royalmail.com/track-your-item#/tracking-results/AB123456790GB"
@@ -1469,7 +1472,7 @@
                               "PartnerTrackingUrl": "https://gls-group.com/GROUP/en/parcel-tracking"
                             }
                           },
-                          "ShipmentId": "ca24e64f-1a8b-42eb-b7fe-b0414e717bb8",
+                          "ShipmentId": "9bba6376-1478-4dab-9ebb-3c559e08beed",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "EO000250025GB",
                           "CarrierTrackingUrl": "https://www.royalmail.com/track-your-item#/tracking-results/EO000250025GB"
@@ -1491,7 +1494,7 @@
                               "PartnerTrackingUrl": "https://gls-group.com/GROUP/en/parcel-tracking"
                             }
                           },
-                          "ShipmentId": "9341471a-3627-4259-ac50-7c6cb4f519f5",
+                          "ShipmentId": "1d9ecb54-2c6c-4e42-9df5-0feccbbb0e00",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "EO000250025GB",
                           "CarrierTrackingUrl": "https://www.royalmail.com/track-your-item#/tracking-results/EO000250025GB",
@@ -1507,7 +1510,7 @@
                               "PartnerTrackingUrl": "https://gls-group.com/GROUP/en/parcel-tracking"
                             }
                           },
-                          "ShipmentId": "e7790cbc-92dc-431e-b17e-dead86dffa54",
+                          "ShipmentId": "c67a77dc-a68e-451e-bdd5-025f881aab5e",
                           "PackageOccurrence": 2,
                           "TrackingNumber": "EO000250458GB",
                           "CarrierTrackingUrl": "https://www.royalmail.com/track-your-item#/tracking-results/EO000250458GB",
@@ -1782,8 +1785,8 @@
               "examples": {
                 "Create Collection With Timeslot ID": {
                   "value": {
-                    "SlotReservationId": "336fe5ff-6632-4991-96a6-3a338aa9863b",
-                    "SlotDate": "2025-08-06",
+                    "SlotReservationId": "2ce33cf3-5da9-47f8-83ed-15c48f5e900c",
+                    "SlotDate": "2025-08-27",
                     "BringMyLabel": false
                   }
                 },
@@ -1891,15 +1894,15 @@
                 },
                 "example": {
                   "ShipmentId": "072d80e4-8f9f-42e4-9c03-6b81a3597ce6",
-                  "SlotReservationId": "9d15c1f8-abd1-4f1f-b627-883d8f8b6b7a",
-                  "SlotReservationExpiryTime": "2025-08-06T09:15:42.292Z",
+                  "SlotReservationId": "14e20ad9-9ee4-4923-b539-a4d2acae0305",
+                  "SlotReservationExpiryTime": "2025-08-27T08:18:32.123Z",
                   "Slots": [
                     {
-                      "SlotDate": "2025-08-07",
+                      "SlotDate": "2025-08-28",
                       "EstimatedWindow": "14:30-16:30"
                     },
                     {
-                      "SlotDate": "2025-08-08",
+                      "SlotDate": "2025-08-29",
                       "EstimatedWindow": "14:30-16:30"
                     }
                   ]
@@ -2065,12 +2068,12 @@
                     {
                       "ContainerId": "South East",
                       "ContainerBarcode": "TT12345678GB",
-                      "CreatedDateUtc": "2025-08-06T09:00:43.210Z",
+                      "CreatedDateUtc": "2025-08-27T08:03:32.736Z",
                       "ShippingLocationAlias": "Northern Warehouse",
                       "ShippingLocationId": "93f6d928-9456-434a-9d69-60f3b7dea091",
                       "ContainerStatus": "Manifested",
                       "DestinationCountryCode": "GB",
-                      "ExportDate": "2025-08-06",
+                      "ExportDate": "2025-08-27",
                       "Mawb": "125-12345678",
                       "RmService": "P",
                       "RmProduct": "T",
@@ -2085,12 +2088,12 @@
                     {
                       "ContainerId": "South West",
                       "ContainerBarcode": "TT12345679GB",
-                      "CreatedDateUtc": "2025-08-05T09:00:43.210Z",
+                      "CreatedDateUtc": "2025-08-26T08:03:32.737Z",
                       "ShippingLocationAlias": "Northern Warehouse",
                       "ShippingLocationId": "93f6d928-9456-434a-9d69-60f3b7dea091",
                       "ContainerStatus": "Active",
                       "DestinationCountryCode": "GB",
-                      "ExportDate": "2025-08-06",
+                      "ExportDate": "2025-08-27",
                       "Mawb": "125-12345678",
                       "RmService": "S",
                       "RmProduct": "O",
@@ -2434,12 +2437,12 @@
                     "value": {
                       "ContainerId": "South East",
                       "ContainerBarcode": "TT12345678GB",
-                      "CreatedDateUtc": "2025-08-06T09:00:43.875Z",
+                      "CreatedDateUtc": "2025-08-27T08:03:33.239Z",
                       "ShippingLocationAlias": "Northern Warehouse",
                       "ShippingLocationId": "93f6d928-9456-434a-9d69-60f3b7dea091",
                       "ContainerStatus": "Active",
                       "DestinationCountryCode": "GB",
-                      "ExportDate": "2025-08-06",
+                      "ExportDate": "2025-08-27",
                       "Mawb": "125-12345678",
                       "RmService": "P",
                       "RmProduct": "T",
@@ -2456,12 +2459,12 @@
                     "value": {
                       "ContainerId": "South East",
                       "ContainerBarcode": "TT12345678GB",
-                      "CreatedDateUtc": "2025-08-06T09:00:43.875Z",
+                      "CreatedDateUtc": "2025-08-27T08:03:33.241Z",
                       "ShippingLocationAlias": "Northern Warehouse",
                       "ShippingLocationId": "93f6d928-9456-434a-9d69-60f3b7dea091",
                       "ContainerStatus": "Active",
                       "DestinationCountryCode": "GB",
-                      "ExportDate": "2025-08-06",
+                      "ExportDate": "2025-08-27",
                       "Mawb": "125-12345678",
                       "RmService": "P",
                       "RmProduct": "T",
@@ -2611,7 +2614,7 @@
           "Production"
         ],
         "type": "string",
-        "description": "Account Type\r<br />Sandbox shipping accounts can only be used for testing your integration.\r<br />Production accounts can be used to ship."
+        "description": "Indicates whether the account is set up as a \"sandbox\" or \"production\" account. A **Sandbox** account is for testing and development, while a **Production** account is used for live shipments and transactions."
       },
       "AddInternationalArrivalsContainerRequest": {
         "required": [
@@ -2718,19 +2721,19 @@
             "maxLength": 100,
             "minLength": 1,
             "type": "string",
-            "description": "Shipping Location Alias\r<br />Your identifier for this shipping location",
+            "description": "A unique user-defined identifier for the shipping location, providing a convenient way to identify it, for example,  Home or Warehouse.",
             "example": "Main Warehouse"
           },
           "Timezone": {
             "maxLength": 100,
             "minLength": 1,
             "type": "string",
-            "description": "Time zone",
+            "description": "The timezone in which the shipping location is located, important for scheduling and logistical considerations.",
             "example": "Europe/London"
           },
           "IsDefaultLocation": {
             "type": "boolean",
-            "description": "Is Default Location\r<br />If true, this location is the default location used.\r<br />You must have 1 default location.\r<br />Set to false if not provided, or true if is the first location to be added.\r<br />If true, this will set this location as the default location.",
+            "description": "A boolean value indicating whether the shipping location is set as the default for shipping operations.\r<br />\r<br />***Note:** If true, then this location is set as the default one.Otherwise, it is set to false. The shipping account must have at least one default location.*",
             "nullable": true,
             "example": false
           },
@@ -2739,19 +2742,19 @@
           }
         },
         "additionalProperties": false,
-        "description": "Shipping Location\r<br />\r<br />Add a new shipping location to this account.\r<br />Either a Shipping Location Id must be provided, or the details of a new shipping location provided."
+        "description": "This object is used to create a new shipping location that will be linked to the shipping account that is being created."
       },
       "AddShippingAccountResponse": {
         "type": "object",
         "properties": {
           "ShippingAccountId": {
             "type": "string",
-            "description": "Shipping Account Id\r<br />The SAPIENT Identifier assigned to this shipping account.",
+            "description": "A unique identifier for the shipping account assigned by the system, allowing for efficient reference and management of individual accounts within the system.",
             "format": "uuid"
           },
           "ShippingLocationId": {
             "type": "string",
-            "description": "Shipping Location Id\r<br />The SAPIENT Identifier assigned to the new location (only populated if new location added).",
+            "description": "A unique identifier assigned to the new shipping location by the system. This ID is used to distinguish between different shipping locations within the system, facilitating, referencing and operations, such as updates, deletions, or specific queries related to that location.\r<br />\r<br />***Note:** This field is only populated if the details of a new location were provided in the request.*",
             "format": "uuid",
             "nullable": true
           }
@@ -2765,49 +2768,49 @@
           "AddressId": {
             "maxLength": 70,
             "type": "string",
-            "description": "The address Id\r<br />If supplied all address fields will be ignored and the stored address will be used.",
+            "description": "A unique identifier for the new shipping location that will be associated with the shipping account being added.\r<br />\r<br />***Note:** If this information is provided, then all the address fields will be ignored and the relevant information will be used from the addresses stored in the **Address Book**.*",
             "nullable": true,
             "example": "John Brown Default"
           },
           "Line1": {
             "maxLength": 40,
             "type": "string",
-            "description": "First Line Address<br />*Required if not using a stored address from the Address Book.*",
+            "description": "The first line of the address, typically containing the primary address information such as house number and street name. <br /><br />***Note:** This information is required if the address is not used from the stored addresses in the **Address Book**.*",
             "nullable": true,
             "example": "Brown Cottage"
           },
           "Line2": {
             "maxLength": 40,
             "type": "string",
-            "description": "Second Line Address, if applicable",
+            "description": "An optional second line for the address, often used for additional details like apartment numbers or suite designations.",
             "nullable": true,
             "example": "10 Sky Lane"
           },
           "Line3": {
             "maxLength": 40,
             "type": "string",
-            "description": "Third Line Address, if applicable",
+            "description": "A third optional line in the address to include any further address specifications, allowing for more detailed address information if necessary.",
             "nullable": true,
             "example": "Hills End"
           },
           "Town": {
             "maxLength": 40,
             "type": "string",
-            "description": "Town<br />*Required if not using a stored address from the Address Book.*",
+            "description": "The town or city, indicating the specific locality where the shipping location is situated. <br /><br />***Note:** This information is required if the address is not used from the stored addresses in the **Address Book**.*",
             "nullable": true,
             "example": "Christchurch"
           },
           "Postcode": {
             "maxLength": 10,
             "type": "string",
-            "description": "Postcode / Zip<br />Required for United Kingdom addresses and some international addresses.<br />The Countries API can be used to check whether postcode/zip code is required for a country.",
+            "description": "The postal or ZIP code corresponding to the shipping location, used for mail sorting and to identify specific geographic areas. <br /><br />***Note:** This information is required for the addresses in the UK and a for some outside it. To check for the postcode requirements, refer to the **Countries** API.*",
             "nullable": true,
             "example": "TW20 0HJ"
           },
           "County": {
             "maxLength": 40,
             "type": "string",
-            "description": "County / State / Province<br />May be required depending on the country.<br />For USA, Australia and Canada, if provided, must be a valid state code or name.<br />The Countries API can be used to check whether county/state is required for a country.",
+            "description": "The county, state, or province in which the shipping location resides, providing additional geographical context for the address.<br /><br />***Note:** This information may be required depending on the country. If the country is USA, Australia, or Canada, then it must be a valid state code or name, respectively. To check for the county/state/province requirements, refer to the **Countries** API.*",
             "nullable": true,
             "example": "Surrey"
           },
@@ -2815,27 +2818,27 @@
             "maxLength": 2,
             "minLength": 2,
             "type": "string",
-            "description": "Country Code\r<br />2 Digit ISO Country Code, per ISO 3166 Standard.\r<br />*Required if not using a stored address from the Address Book.*",
+            "description": "An abbreviation representing the country of the shipping location, typically following the ISO 3166-1 alpha-2 standard, for example,  \"GB\" for the United Kingdom.\r<br />\r<br />***Note:** This information is required if the address is not used from the stored addresses in the **Address Book**.*",
             "nullable": true,
             "example": "GB"
           },
           "What3Words": {
             "type": "string",
-            "description": "The what3words identifier for this address.",
+            "description": "A three-word location identifier provided by the What3words service, offering a precise way to define locations using a unique combination of three words, for example, the front door of 10 Downing Street in London is identified by slurs.this.shark.",
             "nullable": true,
             "example": "brick.space.employ"
           },
           "ContactPhone": {
             "maxLength": 20,
             "type": "string",
-            "description": "Contact Phone Number\r<br />If provided, and the shipper address is not provided for a create shipment request, this will be used as the shipper's contact phone number for this location, instead of the shipping account's contact phone number.",
+            "description": "The contact phone number associated with the shipping location, facilitating communication regarding shipments or deliveries.\r<br />\r<br />***Note:** If the shipper address is not provided for the Create Shipment request, this information is used as the shipper's contact phone number for this location, instead of the shipping account contact phone number. Characters like +, /, -, or space are supported.*",
             "format": "tel",
             "nullable": true,
             "example": "07123887422"
           }
         },
         "additionalProperties": false,
-        "description": "Add Shipping Location Address"
+        "description": "The complete address of the shipping location, consisting of multiple components including street information, locality, and so on."
       },
       "BusinessTransactionType": {
         "enum": [
@@ -3130,42 +3133,42 @@
           "Line1": {
             "maxLength": 40,
             "type": "string",
-            "description": "First Line Address<br />*Required if not using a stored address from the Address Book.*",
+            "description": "The first line of the address, typically containing the primary address information such as house number and street name. <br /><br />***Note:** This information is required if the address is not used from the stored addresses in the **Address Book**.*",
             "nullable": true,
             "example": "Brown Cottage"
           },
           "Line2": {
             "maxLength": 40,
             "type": "string",
-            "description": "Second Line Address, if applicable",
+            "description": "An optional second line for the address, often used for additional details like apartment numbers or suite designations.",
             "nullable": true,
             "example": "10 Sky Lane"
           },
           "Line3": {
             "maxLength": 40,
             "type": "string",
-            "description": "Third Line Address, if applicable",
+            "description": "A third optional line in the address to include any further address specifications, allowing for more detailed address information if necessary.",
             "nullable": true,
             "example": "Hills End"
           },
           "Town": {
             "maxLength": 40,
             "type": "string",
-            "description": "Town<br />*Required if not using a stored address from the Address Book.*",
+            "description": "The town or city, indicating the specific locality where the shipping location is situated. <br /><br />***Note:** This information is required if the address is not used from the stored addresses in the **Address Book**.*",
             "nullable": true,
             "example": "Christchurch"
           },
           "Postcode": {
             "maxLength": 10,
             "type": "string",
-            "description": "Postcode / Zip<br />Required for United Kingdom addresses and some international addresses.<br />The Countries API can be used to check whether postcode/zip code is required for a country.",
+            "description": "The postal or ZIP code corresponding to the shipping location, used for mail sorting and to identify specific geographic areas. <br /><br />***Note:** This information is required for the addresses in the UK and a for some outside it. To check for the postcode requirements, refer to the **Countries** API.*",
             "nullable": true,
             "example": "TW20 0HJ"
           },
           "County": {
             "maxLength": 40,
             "type": "string",
-            "description": "County / State / Province<br />May be required depending on the country.<br />For USA, Australia and Canada, if provided, must be a valid state code or name.<br />The Countries API can be used to check whether county/state is required for a country.",
+            "description": "The county, state, or province in which the shipping location resides, providing additional geographical context for the address.<br /><br />***Note:** This information may be required depending on the country. If the country is USA, Australia, or Canada, then it must be a valid state code or name, respectively. To check for the county/state/province requirements, refer to the **Countries** API.*",
             "nullable": true,
             "example": "Surrey"
           },
@@ -3173,13 +3176,13 @@
             "maxLength": 2,
             "minLength": 2,
             "type": "string",
-            "description": "Country Code\r<br />2 Digit ISO Country Code, per ISO 3166 Standard.\r<br />*Required if not using a stored address from the Address Book.*",
+            "description": "An abbreviation representing the country of the shipping location, typically following the ISO 3166-1 alpha-2 standard, for example,  \"GB\" for the United Kingdom.\r<br />\r<br />***Note:** This information is required if the address is not used from the stored addresses in the **Address Book**.*",
             "nullable": true,
             "example": "GB"
           },
           "What3Words": {
             "type": "string",
-            "description": "The what3words identifier for this address.",
+            "description": "A three-word location identifier provided by the What3words service, offering a precise way to define locations using a unique combination of three words, for example, the front door of 10 Downing Street in London is identified by slurs.this.shark.",
             "nullable": true,
             "example": "brick.space.employ"
           }
@@ -3522,6 +3525,11 @@
             "maxLength": 20,
             "type": "string",
             "description": "The specialist advice phone number to contact if there are any issues with the hazardous item.\r<br />If not provided, when a hazardous stored product is used in create shipment request, the phone number will be set from the customer shipping account record.",
+            "nullable": true
+          },
+          "PrintId8000Label": {
+            "type": "boolean",
+            "description": "Customer can populate and define if they want an ID8000 label or not. If the tag is populated with false, the ID8000 label will not be returned. Only PDF labels are supported.",
             "nullable": true
           }
         },
@@ -3901,42 +3909,42 @@
           "Line1": {
             "maxLength": 40,
             "type": "string",
-            "description": "First Line Address<br />*Required if not using a stored address from the Address Book.*",
+            "description": "The first line of the address, typically containing the primary address information such as house number and street name. <br /><br />***Note:** This information is required if the address is not used from the stored addresses in the **Address Book**.*",
             "nullable": true,
             "example": "Brown Cottage"
           },
           "Line2": {
             "maxLength": 40,
             "type": "string",
-            "description": "Second Line Address, if applicable",
+            "description": "An optional second line for the address, often used for additional details like apartment numbers or suite designations.",
             "nullable": true,
             "example": "10 Sky Lane"
           },
           "Line3": {
             "maxLength": 40,
             "type": "string",
-            "description": "Third Line Address, if applicable",
+            "description": "A third optional line in the address to include any further address specifications, allowing for more detailed address information if necessary.",
             "nullable": true,
             "example": "Hills End"
           },
           "Town": {
             "maxLength": 40,
             "type": "string",
-            "description": "Town<br />*Required if not using a stored address from the Address Book.*",
+            "description": "The town or city, indicating the specific locality where the shipping location is situated. <br /><br />***Note:** This information is required if the address is not used from the stored addresses in the **Address Book**.*",
             "nullable": true,
             "example": "Christchurch"
           },
           "Postcode": {
             "maxLength": 10,
             "type": "string",
-            "description": "Postcode / Zip<br />Required for United Kingdom addresses and some international addresses.<br />The Countries API can be used to check whether postcode/zip code is required for a country.",
+            "description": "The postal or ZIP code corresponding to the shipping location, used for mail sorting and to identify specific geographic areas. <br /><br />***Note:** This information is required for the addresses in the UK and a for some outside it. To check for the postcode requirements, refer to the **Countries** API.*",
             "nullable": true,
             "example": "TW20 0HJ"
           },
           "County": {
             "maxLength": 40,
             "type": "string",
-            "description": "County / State / Province<br />May be required depending on the country.<br />For USA, Australia and Canada, if provided, must be a valid state code or name.<br />The Countries API can be used to check whether county/state is required for a country.",
+            "description": "The county, state, or province in which the shipping location resides, providing additional geographical context for the address.<br /><br />***Note:** This information may be required depending on the country. If the country is USA, Australia, or Canada, then it must be a valid state code or name, respectively. To check for the county/state/province requirements, refer to the **Countries** API.*",
             "nullable": true,
             "example": "Surrey"
           },
@@ -3944,13 +3952,13 @@
             "maxLength": 2,
             "minLength": 2,
             "type": "string",
-            "description": "Country Code\r<br />2 Digit ISO Country Code, per ISO 3166 Standard.\r<br />*Required if not using a stored address from the Address Book.*",
+            "description": "An abbreviation representing the country of the shipping location, typically following the ISO 3166-1 alpha-2 standard, for example,  \"GB\" for the United Kingdom.\r<br />\r<br />***Note:** This information is required if the address is not used from the stored addresses in the **Address Book**.*",
             "nullable": true,
             "example": "GB"
           },
           "What3Words": {
             "type": "string",
-            "description": "The what3words identifier for this address.",
+            "description": "A three-word location identifier provided by the What3words service, offering a precise way to define locations using a unique combination of three words, for example, the front door of 10 Downing Street in London is identified by slurs.this.shark.",
             "nullable": true,
             "example": "brick.space.employ"
           }
@@ -4001,7 +4009,7 @@
           "ShippingLocationId": {
             "maxLength": 100,
             "type": "string",
-            "description": "Shipping Location Identifier\r<br />SAPIENT Shipping Location Id(assigned by SAPIENT) or Alias(assigned by you).\r<br />\r<br />Link an existing location to this account.\r<br />Either a Shipping Location Id must be provided, or the details of a new shipping location provided.",
+            "description": "This field is used to link an existing shipping location to the new shipping account that is being created, and either the shipping location Id or alias can be provided to link the shipping location to the shipping account.",
             "nullable": true,
             "example": "D94E8CFD-604B-4B87-83E9-3F20CAF02837"
           },
@@ -4075,13 +4083,13 @@
             "maxLength": 30,
             "minLength": 1,
             "type": "string",
-            "description": "Account Alias\r<br />Your identifier for this account. Must be unique.",
+            "description": "A unique, user-defined name for the shipping account, providing a convenient way to reference the account in a more memorable manner.",
             "example": "RM-99112347707"
           },
           "RegisteredBillingPostcode": {
             "maxLength": 20,
             "type": "string",
-            "description": "Registered Billing Postcode\r<br />The postcode that Royal Mail will send the invoice to for the account",
+            "description": "The postcode associated with the billing address for the shipping account. \r<br />This postcode is used by Royal Mail for sending invoices and other relevant billing communications related to the account.",
             "nullable": true,
             "example": "TW20 0HJ"
           },
@@ -4089,14 +4097,14 @@
             "maxLength": 100,
             "minLength": 1,
             "type": "string",
-            "description": "Contact Name\r<br />Used in a create shipment request as the shipper's contact name if the shipper address is not provided.",
+            "description": "The name of the primary contact person for the shipping account, facilitating communication regarding shipping and account-related matters.",
             "example": "John Smith"
           },
           "ContactNumber": {
             "maxLength": 20,
             "minLength": 1,
             "type": "string",
-            "description": "Contact Number\r<br />Used in a create shipment request as the shipper's contact number if the shipper address is not provided, and the contact number is not set on the associated shipping location.",
+            "description": "The phone number associated with the shipping account's primary contact person, facilitating communication regarding shipping inquiries, account management, and issue resolution.",
             "format": "tel",
             "example": "0123456789"
           },
@@ -4105,7 +4113,7 @@
             "items": {
               "$ref": "#/components/schemas/RoyalMailAddShippingAccountLocation"
             },
-            "description": "Shipping Locations\r<br />At least one location is required when adding a shipping account.\r<br />If providing a new location when adding the account, only one location can be added."
+            "description": "An object that allows the customer to specify the shipping location(s) that will be associated with the new shipping account. Within this object, the customer can either link the existing shipping location(s) or add a new one.\r<br />\r<br />***Note:** While adding a shipping account, make sure to provide at least one shipping location.If you are providing a new shipping location, then only one location can be added.*"
           }
         },
         "additionalProperties": false,
@@ -4462,26 +4470,26 @@
         "properties": {
           "ShipmentId": {
             "type": "string",
-            "description": "Shipment Id",
+            "description": "A unique identifier assigned to the shipment by the carrier for which the label is requested. This reaffirms the specific shipment being referenced.",
             "format": "uuid",
             "example": "c4e60776-288f-464e-b35b-ff0f3252c0f0"
           },
           "TrackingNumber": {
             "type": "string",
-            "description": "Tracking Number",
+            "description": "A unique number assigned to the shipment that allows both the sender and the receiver to track the shipment's status and location throughout its transit. This number is essential for monitoring the delivery progress.",
             "nullable": true,
             "example": "TT12384739GB"
           },
           "CarrierTrackingUrl": {
             "type": "string",
-            "description": "Carrier Tracking URL",
+            "description": "A URL link provided by the carrier that directs users to a webpage where they can track the shipment in real-time. This link provides detailed status updates and visibility into the shipment's journey.",
             "format": "uri",
             "nullable": true,
             "example": "http://shipmentcarrier.com/tracking/DF12384739GB"
           },
           "Label": {
             "type": "string",
-            "description": "Label\r<br />Base 64 Encoded String of the given label format.",
+            "description": "The generated base64-encoded string of the shipping label in the format requested in the **LabelFormat** field. This label includes essential shipping information, barcodes, and addresses, necessary for the proper handling and delivery of the shipment.",
             "nullable": true,
             "example": "iVBORw0KGgoAAAANSUhEUgAA ... A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4"
           },
@@ -4511,7 +4519,7 @@
           },
           "ReturnLabelsAtPackageLevel": {
             "type": "boolean",
-            "description": "A boolean field that provides customers with the choice to generate labels at the package level instead of the shipment level. When set to true, the system returns labels for each individual package contained within the shipment.\r<br />\r<br />***Note**: This field is ignored if the **Action** field is populated with values other than **Process**. By default, this field is set to false.*",
+            "description": "A boolean field that provides customers with the choice to generate labels at the package level instead of the shipment level. When set to true, the system returns labels for each individual package contained within the shipment.\r<br />This field is currently only supported for Royal Mail shipments.\r<br />\r<br />***Note**: This field is ignored if the **Action** field is populated with values other than **Process**. By default, this field is set to false.*",
             "default": false
           },
           "ContentType": {
@@ -4592,7 +4600,7 @@
             "maxLength": 100,
             "minLength": 1,
             "type": "string",
-            "description": "Shipping Location Identifier\r<br />SAPIENT Shipping Location Id(assigned by SAPIENT) or Alias(assigned by you).",
+            "description": "A unique identifier for the shipping location assigned by the system or by you (alias), allowing users to reference and manage specific locations effectively.\r<br />\r<br />***Note:** The information provided in this field and the ShippingAccountId field are being linked with each other.*",
             "example": "D94E8CFD-604B-4B87-83E9-3F20CAF02837"
           },
           "PostingLocationCode": {
@@ -4616,6 +4624,13 @@
             "description": "Receiving Hub Code\r<br />Receiving Hub/Regional Distribution Center used for this Shipping Location.\r<br />Must be an existing receiving hub code.\r<br />Please refer to Royal Mail ReceivingHubs for a list of possible receiving hubs.\r<br />If the receiving hub is not provided, we will match it to the one that corresponds to the postcode of the location's address.",
             "nullable": true,
             "example": "002610"
+          },
+          "RegisteredBillingPostcode": {
+            "maxLength": 20,
+            "type": "string",
+            "description": "The postcode associated with the billing address for the shipping account. \r<br />This postcode is used by Royal Mail for sending invoices and other relevant billing communications related to the account.<br>*<br>**Note:** This field is mandatory when the shipping account does not have a registered billing postcode.*",
+            "nullable": true,
+            "example": "TW20 0HJ"
           }
         },
         "additionalProperties": false,
@@ -4964,18 +4979,18 @@
         "properties": {
           "ShippingAccountId": {
             "type": "string",
-            "description": "Shipping Account Id\r<br />The system identifier for this account.\r<br />Use one of the Id or Alias in the Create Shipment Request to identify the account to use.",
+            "description": "A unique identifier for each shipping account assigned by the system (ShippingAccountId), allowing for efficient reference and management of individual accounts within the system.",
             "format": "uuid"
           },
           "CarrierCode": {
             "minLength": 1,
             "type": "string",
-            "description": "Carrier Code\r<br />The carrier that this shipping account is for.",
+            "description": "A unique identifier for the carrier associated with the shipping account. This code is typically alphanumeric and helps in identifying the specific carrier linked to the shipping account.",
             "example": "RM"
           },
           "AccountNumber": {
             "type": "string",
-            "description": "Carrier Account Number\r<br />The account number given by the carrier.",
+            "description": "The number assigned to the shipping account by the carrier, typically used for tracking shipments and billing purposes.",
             "nullable": true,
             "example": "0123456789"
           },
@@ -4986,7 +5001,7 @@
             "maxLength": 35,
             "minLength": 1,
             "type": "string",
-            "description": "Shipping Account Name\r<br />The name of the Shipping Account.\r<br />Defaults to your Customer name if not provided.",
+            "description": "The official name of the shipping account as designated by the user or organization, aiding in easy identification and reference of accounts.",
             "example": "AB VideoGames"
           },
           "AccountRegisteredEmail": {
@@ -5001,7 +5016,7 @@
             "maxLength": 30,
             "minLength": 1,
             "type": "string",
-            "description": "Shipping Account Alias\r<br />Your identifier for this account. Must be unique.",
+            "description": "A unique, user-defined name for the shipping account, providing a convenient way to reference the account in a more memorable manner.",
             "example": "JSL"
           },
           "RegisteredBillingPostcode": {
@@ -5014,33 +5029,33 @@
           "AccountStatus": {
             "minLength": 1,
             "type": "string",
-            "description": "Account Status\r<br />The status of the shipping account.",
+            "description": "The current status of the shipping account, which could denote whether it is enabled, disabled, or confirmed, helping users understand the account's usability.",
             "example": "Enabled"
           },
           "ContactName": {
             "maxLength": 100,
             "minLength": 1,
             "type": "string",
-            "description": "Contact Name\r<br />Used in a create shipment request as the shipper's contact name if the shipper address is not provided.",
+            "description": "The name of the primary contact person for the shipping account, facilitating communication regarding shipping and account-related matters.",
             "example": "John Smith"
           },
           "ContactNumber": {
             "maxLength": 20,
             "minLength": 1,
             "type": "string",
-            "description": "Contact Number\r<br />Used in a create shipment request as the shipper's contact number if the shipper address is not provided, and the contact number is not set on the associated shipping location.",
+            "description": "The phone number associated with the shipping account's primary contact person, facilitating communication regarding shipping inquiries, account management, and issue resolution.",
             "format": "tel",
             "example": "0123456789"
           },
           "LastUpdatedBy": {
             "minLength": 1,
             "type": "string",
-            "description": "Last Updated By\r<br />The user that last updated the shipping account.",
+            "description": "The identifier (such as a username or system account) of the individual or system that last modified the shipping account information, ensuring accountability.",
             "example": "User A"
           },
           "LastUpdatedDateUtc": {
             "type": "string",
-            "description": "Last Updated Date UTC\r<br />The system date and time when the shipping account was last updated.",
+            "description": "A timestamp indicating the last time the shipping account details were updated, formatted in Coordinated Universal Time (UTC).",
             "format": "date-time"
           }
         },
@@ -5059,11 +5074,11 @@
             "items": {
               "$ref": "#/components/schemas/RoyalMailShippingAccount"
             },
-            "description": "Shipping Accounts\r<br />The shipping accounts for the requested page only."
+            "description": "An array containing the shipping accounts associated with the shipping location that match the query parameters specified in the request."
           },
           "TotalCount": {
             "type": "integer",
-            "description": "Total Count\r<br />The total number of accounts available",
+            "description": "An integer representing the total number of shipping accounts associated with the specified shipping location, giving users a quick overview of how many accounts are linked to their operations.",
             "format": "int32",
             "example": 303
           }
@@ -5126,7 +5141,7 @@
           "RegisteredBillingPostcode": {
             "maxLength": 20,
             "type": "string",
-            "description": "Registered Billing Postcode\r<br />The postcode that Royal Mail will send the invoice to for the account",
+            "description": "The postcode associated with the billing address for the shipping account. \r<br />This postcode is used by Royal Mail for sending invoices and other relevant billing communications related to the account.",
             "nullable": true,
             "example": "TW20 0HJ"
           },
@@ -5144,28 +5159,28 @@
             "maxLength": 35,
             "minLength": 1,
             "type": "string",
-            "description": "Account Name\r<br />The name on this Account.",
+            "description": "The official name of the shipping account as designated by the user or organization, aiding in easy identification and reference of accounts.\r<br />\r<br />***Note:** By default, this value is set to the customer name if not provided in the request.*",
             "example": "AB VideoGames"
           },
           "AccountAlias": {
             "maxLength": 30,
             "minLength": 1,
             "type": "string",
-            "description": "Account Alias\r<br />Your identifier for this account. Must be unique.",
+            "description": "A unique, user-defined name for the shipping account, providing a convenient way to reference the account in a more memorable manner.",
             "example": "RM-99112347707"
           },
           "ContactName": {
             "maxLength": 100,
             "minLength": 1,
             "type": "string",
-            "description": "Contact Name\r<br />Used in a create shipment request as the shipper's contact name if the shipper address is not provided.",
+            "description": "The name of the primary contact person for the shipping account, facilitating communication regarding shipping and account-related matters.",
             "example": "John Smith"
           },
           "ContactNumber": {
             "maxLength": 20,
             "minLength": 1,
             "type": "string",
-            "description": "Contact Number\r<br />Used in a create shipment request as the shipper's contact number if the shipper address is not provided, and the contact number is not set on the associated shipping location.",
+            "description": "The phone number associated with the shipping account's primary contact person, facilitating communication regarding shipping inquiries, account management, and issue resolution.",
             "format": "tel",
             "example": "0123456789"
           }
@@ -5230,14 +5245,14 @@
         "properties": {
           "ShippingLocationId": {
             "type": "string",
-            "description": "Shipping Location Id\r<br />The system identifier for this shipping location.",
+            "description": "A unique identifier for the shipping location assigned by the system, allowing users to reference and manage specific locations effectively.",
             "format": "uuid"
           },
           "LocationAlias": {
             "maxLength": 100,
             "minLength": 1,
             "type": "string",
-            "description": "Shipping Location Alias\r<br />Your identifier for this shipping location. Must be unique.",
+            "description": "A unique, user-defined identifier for the shipping location, providing a convenient way to identify it, for example,  Home or Warehouse.",
             "example": "Main Warehouse"
           },
           "CarrierSpecifics": {
@@ -5247,12 +5262,12 @@
             "maxLength": 100,
             "minLength": 1,
             "type": "string",
-            "description": "Time zone",
+            "description": "The timezone in which the shipping location is located, important for scheduling and logistical considerations.",
             "example": "Europe/London"
           },
           "LastUpdatedDateUtc": {
             "type": "string",
-            "description": "Last Updated Date UTC",
+            "description": "A timestamp indicating the last time the shipping location details were updated, formatted in Coordinated Universal Time (UTC).",
             "format": "date-time",
             "example": "2022-02-06T16:13:24.010Z"
           },
@@ -5260,7 +5275,7 @@
             "maxLength": 100,
             "minLength": 1,
             "type": "string",
-            "description": "Last Updated By",
+            "description": "The identifier (such as a username or system account) of the individual or system that last modified the shipping location information, ensuring accountability.",
             "example": "User A"
           },
           "Address": {
@@ -5286,7 +5301,7 @@
           },
           "TotalCount": {
             "type": "integer",
-            "description": "Total Count\r<br />The total number of locations available",
+            "description": "An integer representing the total number of shipping locations associated with the specified shipping account that matches the search criteria, giving users a quick overview of how many locations are linked to their accounts.",
             "format": "int32",
             "example": 303
           }
@@ -5343,42 +5358,42 @@
           "Line1": {
             "maxLength": 40,
             "type": "string",
-            "description": "First Line Address<br />*Required if not using a stored address from the Address Book.*",
+            "description": "The first line of the address, typically containing the primary address information such as house number and street name. <br /><br />***Note:** This information is required if the address is not used from the stored addresses in the **Address Book**.*",
             "nullable": true,
             "example": "Brown Cottage"
           },
           "Line2": {
             "maxLength": 40,
             "type": "string",
-            "description": "Second Line Address, if applicable",
+            "description": "An optional second line for the address, often used for additional details like apartment numbers or suite designations.",
             "nullable": true,
             "example": "10 Sky Lane"
           },
           "Line3": {
             "maxLength": 40,
             "type": "string",
-            "description": "Third Line Address, if applicable",
+            "description": "A third optional line in the address to include any further address specifications, allowing for more detailed address information if necessary.",
             "nullable": true,
             "example": "Hills End"
           },
           "Town": {
             "maxLength": 40,
             "type": "string",
-            "description": "Town<br />*Required if not using a stored address from the Address Book.*",
+            "description": "The town or city, indicating the specific locality where the shipping location is situated. <br /><br />***Note:** This information is required if the address is not used from the stored addresses in the **Address Book**.*",
             "nullable": true,
             "example": "Christchurch"
           },
           "Postcode": {
             "maxLength": 10,
             "type": "string",
-            "description": "Postcode / Zip<br />Required for United Kingdom addresses and some international addresses.<br />The Countries API can be used to check whether postcode/zip code is required for a country.",
+            "description": "The postal or ZIP code corresponding to the shipping location, used for mail sorting and to identify specific geographic areas. <br /><br />***Note:** This information is required for the addresses in the UK and a for some outside it. To check for the postcode requirements, refer to the **Countries** API.*",
             "nullable": true,
             "example": "TW20 0HJ"
           },
           "County": {
             "maxLength": 40,
             "type": "string",
-            "description": "County / State / Province<br />May be required depending on the country.<br />For USA, Australia and Canada, if provided, must be a valid state code or name.<br />The Countries API can be used to check whether county/state is required for a country.",
+            "description": "The county, state, or province in which the shipping location resides, providing additional geographical context for the address.<br /><br />***Note:** This information may be required depending on the country. If the country is USA, Australia, or Canada, then it must be a valid state code or name, respectively. To check for the county/state/province requirements, refer to the **Countries** API.*",
             "nullable": true,
             "example": "Surrey"
           },
@@ -5386,13 +5401,13 @@
             "maxLength": 2,
             "minLength": 2,
             "type": "string",
-            "description": "Country Code\r<br />2 Digit ISO Country Code, per ISO 3166 Standard.\r<br />*Required if not using a stored address from the Address Book.*",
+            "description": "An abbreviation representing the country of the shipping location, typically following the ISO 3166-1 alpha-2 standard, for example,  \"GB\" for the United Kingdom.\r<br />\r<br />***Note:** This information is required if the address is not used from the stored addresses in the **Address Book**.*",
             "nullable": true,
             "example": "GB"
           },
           "What3Words": {
             "type": "string",
-            "description": "The what3words identifier for this address.",
+            "description": "A three-word location identifier provided by the What3words service, offering a precise way to define locations using a unique combination of three words, for example, the front door of 10 Downing Street in London is identified by slurs.this.shark.",
             "nullable": true,
             "example": "brick.space.employ"
           }
@@ -5510,42 +5525,42 @@
           "Line1": {
             "maxLength": 40,
             "type": "string",
-            "description": "First Line Address<br />*Required if not using a stored address from the Address Book.*",
+            "description": "The first line of the address, typically containing the primary address information such as house number and street name. <br /><br />***Note:** This information is required if the address is not used from the stored addresses in the **Address Book**.*",
             "nullable": true,
             "example": "Brown Cottage"
           },
           "Line2": {
             "maxLength": 40,
             "type": "string",
-            "description": "Second Line Address, if applicable",
+            "description": "An optional second line for the address, often used for additional details like apartment numbers or suite designations.",
             "nullable": true,
             "example": "10 Sky Lane"
           },
           "Line3": {
             "maxLength": 40,
             "type": "string",
-            "description": "Third Line Address, if applicable",
+            "description": "A third optional line in the address to include any further address specifications, allowing for more detailed address information if necessary.",
             "nullable": true,
             "example": "Hills End"
           },
           "Town": {
             "maxLength": 40,
             "type": "string",
-            "description": "Town<br />*Required if not using a stored address from the Address Book.*",
+            "description": "The town or city, indicating the specific locality where the shipping location is situated. <br /><br />***Note:** This information is required if the address is not used from the stored addresses in the **Address Book**.*",
             "nullable": true,
             "example": "Christchurch"
           },
           "Postcode": {
             "maxLength": 10,
             "type": "string",
-            "description": "Postcode / Zip<br />Required for United Kingdom addresses and some international addresses.<br />The Countries API can be used to check whether postcode/zip code is required for a country.",
+            "description": "The postal or ZIP code corresponding to the shipping location, used for mail sorting and to identify specific geographic areas. <br /><br />***Note:** This information is required for the addresses in the UK and a for some outside it. To check for the postcode requirements, refer to the **Countries** API.*",
             "nullable": true,
             "example": "TW20 0HJ"
           },
           "County": {
             "maxLength": 40,
             "type": "string",
-            "description": "County / State / Province<br />May be required depending on the country.<br />For USA, Australia and Canada, if provided, must be a valid state code or name.<br />The Countries API can be used to check whether county/state is required for a country.",
+            "description": "The county, state, or province in which the shipping location resides, providing additional geographical context for the address.<br /><br />***Note:** This information may be required depending on the country. If the country is USA, Australia, or Canada, then it must be a valid state code or name, respectively. To check for the county/state/province requirements, refer to the **Countries** API.*",
             "nullable": true,
             "example": "Surrey"
           },
@@ -5553,13 +5568,13 @@
             "maxLength": 2,
             "minLength": 2,
             "type": "string",
-            "description": "Country Code\r<br />2 Digit ISO Country Code, per ISO 3166 Standard.\r<br />*Required if not using a stored address from the Address Book.*",
+            "description": "An abbreviation representing the country of the shipping location, typically following the ISO 3166-1 alpha-2 standard, for example,  \"GB\" for the United Kingdom.\r<br />\r<br />***Note:** This information is required if the address is not used from the stored addresses in the **Address Book**.*",
             "nullable": true,
             "example": "GB"
           },
           "What3Words": {
             "type": "string",
-            "description": "The what3words identifier for this address.",
+            "description": "A three-word location identifier provided by the What3words service, offering a precise way to define locations using a unique combination of three words, for example, the front door of 10 Downing Street in London is identified by slurs.this.shark.",
             "nullable": true,
             "example": "brick.space.employ"
           }
@@ -5583,42 +5598,42 @@
           "Line1": {
             "maxLength": 40,
             "type": "string",
-            "description": "First Line Address<br />*Required if not using a stored address from the Address Book.*",
+            "description": "The first line of the address, typically containing the primary address information such as house number and street name. <br /><br />***Note:** This information is required if the address is not used from the stored addresses in the **Address Book**.*",
             "nullable": true,
             "example": "Brown Cottage"
           },
           "Line2": {
             "maxLength": 40,
             "type": "string",
-            "description": "Second Line Address, if applicable",
+            "description": "An optional second line for the address, often used for additional details like apartment numbers or suite designations.",
             "nullable": true,
             "example": "10 Sky Lane"
           },
           "Line3": {
             "maxLength": 40,
             "type": "string",
-            "description": "Third Line Address, if applicable",
+            "description": "A third optional line in the address to include any further address specifications, allowing for more detailed address information if necessary.",
             "nullable": true,
             "example": "Hills End"
           },
           "Town": {
             "maxLength": 40,
             "type": "string",
-            "description": "Town<br />*Required if not using a stored address from the Address Book.*",
+            "description": "The town or city, indicating the specific locality where the shipping location is situated. <br /><br />***Note:** This information is required if the address is not used from the stored addresses in the **Address Book**.*",
             "nullable": true,
             "example": "Christchurch"
           },
           "Postcode": {
             "maxLength": 10,
             "type": "string",
-            "description": "Postcode / Zip<br />Required for United Kingdom addresses and some international addresses.<br />The Countries API can be used to check whether postcode/zip code is required for a country.",
+            "description": "The postal or ZIP code corresponding to the shipping location, used for mail sorting and to identify specific geographic areas. <br /><br />***Note:** This information is required for the addresses in the UK and a for some outside it. To check for the postcode requirements, refer to the **Countries** API.*",
             "nullable": true,
             "example": "TW20 0HJ"
           },
           "County": {
             "maxLength": 40,
             "type": "string",
-            "description": "County / State / Province<br />May be required depending on the country.<br />For USA, Australia and Canada, if provided, must be a valid state code or name.<br />The Countries API can be used to check whether county/state is required for a country.",
+            "description": "The county, state, or province in which the shipping location resides, providing additional geographical context for the address.<br /><br />***Note:** This information may be required depending on the country. If the country is USA, Australia, or Canada, then it must be a valid state code or name, respectively. To check for the county/state/province requirements, refer to the **Countries** API.*",
             "nullable": true,
             "example": "Surrey"
           },
@@ -5626,27 +5641,27 @@
             "maxLength": 2,
             "minLength": 2,
             "type": "string",
-            "description": "Country Code\r<br />2 Digit ISO Country Code, per ISO 3166 Standard.\r<br />*Required if not using a stored address from the Address Book.*",
+            "description": "An abbreviation representing the country of the shipping location, typically following the ISO 3166-1 alpha-2 standard, for example,  \"GB\" for the United Kingdom.\r<br />\r<br />***Note:** This information is required if the address is not used from the stored addresses in the **Address Book**.*",
             "nullable": true,
             "example": "GB"
           },
           "What3Words": {
             "type": "string",
-            "description": "The what3words identifier for this address.",
+            "description": "A three-word location identifier provided by the What3words service, offering a precise way to define locations using a unique combination of three words, for example, the front door of 10 Downing Street in London is identified by slurs.this.shark.",
             "nullable": true,
             "example": "brick.space.employ"
           },
           "ContactPhone": {
             "maxLength": 20,
             "type": "string",
-            "description": "Contact Phone Number\r<br />If provided, and the shipper address is not provided for a create shipment request, this will be used as the shipper's contact phone number for this location, instead of the shipping account's contact phone number.",
+            "description": "The contact phone number associated with the shipping location, facilitating communication regarding shipments or deliveries.",
             "format": "tel",
             "nullable": true,
             "example": "07123887422"
           }
         },
         "additionalProperties": false,
-        "description": "Shipping Location Address"
+        "description": "The complete address of the shipping location, consisting of multiple components including street information, locality, and so on."
       },
       "ShippingLocationsSortBy": {
         "enum": [
