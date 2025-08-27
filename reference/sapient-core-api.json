@@ -1,13 +1,16 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "INTERSOFT SAPIENT API",
+    "title": "SAPIENT CORE API",
     "description": "# Introduction\nHere you will find requirements for integrating with INTERSOFT SAPIENT API.\n\nThe documentation specifically covers how the API can be used by business customers to conduct shipping activity with available carriers and provides the technical information to build this integration. The API allows customers to create and manage shipments, produce labels, customs documentation, and collection manifests, retrieve reference data such as carriers and countries, and maintain their own data such as shipping account details.\n\nIntersoft API is a fully RESTful service implemented using JSON messaging. You, as the customer are responsible for sending JSON messages and for maintaining the capability of receiving JSON messages in the format described in this specification. Request and response examples for each API service are included in this specification.\n\n# Authentication\n\nThe INTERSOFT SAPIENT API uses OAuth2 authentication.\n\nTo request the authorization token you need to create API credentials (Client ID and Secret) on the system first. If you have not done it already, log into your account and go to API Credentials or follow the link [add a link here with the path to the API Credentials menu]. Use the credentials to retrieve the authorization token.\n\nNote: Make sure you copy the Secret and keep it secure as you won't be able to view it again on the system.\n\n<!-- ReDoc-Inject: <SecurityDefinitions /> -->\n",
     "version": "v4.0",
     "x-logo": {
       "url": "/Content/images/redoc-logo.png",
       "altText": "ReDoc"
     }
+  },
+  "x-readme": {
+    "explorer-enabled": false
   },
   "servers": [
     {
@@ -373,14 +376,14 @@
                       "TrackingNumber": "TT000000005GB",
                       "BarcodeNumber": "4C0069786000000000B1F",
                       "Reference1": "OrderRef56",
-                      "ShipmentDate": "2025-08-06",
+                      "ShipmentDate": "2025-08-27",
                       "Status": "Created",
                       "ManifestNumber": "ISH2802532",
                       "ContainerId": "South East 1234",
                       "Carrier": "RM",
                       "DestinationCountryCode": "GB",
                       "LastUpdatedBy": "User A",
-                      "LastUpdatedDateUtc": "2025-08-06T09:00:12.798Z"
+                      "LastUpdatedDateUtc": "2025-08-27T08:03:07.507Z"
                     },
                     {
                       "ShippingAccountId": "310d6beb-ae36-40e7-918f-f92100c1719d",
@@ -388,14 +391,14 @@
                       "TrackingNumber": "",
                       "BarcodeNumber": "",
                       "Reference1": "OrderRef57",
-                      "ShipmentDate": "2025-08-06",
+                      "ShipmentDate": "2025-08-27",
                       "Status": "LabelPrinted",
                       "ManifestNumber": "",
                       "ContainerId": "",
                       "Carrier": "RM",
                       "DestinationCountryCode": "GB",
                       "LastUpdatedBy": "User B",
-                      "LastUpdatedDateUtc": "2025-08-06T09:00:12.798Z"
+                      "LastUpdatedDateUtc": "2025-08-27T08:03:07.507Z"
                     }
                   ],
                   "TotalCount": 2
@@ -724,11 +727,11 @@
               "example": [
                 {
                   "ShipmentId": "AD123456783GB",
-                  "ShipmentDate": "2025-08-11"
+                  "ShipmentDate": "2025-09-01"
                 },
                 {
                   "ShipmentId": "e3239e85-ddf8-4323-9064-b83c38eff927",
-                  "ShipmentDate": "2025-08-16"
+                  "ShipmentDate": "2025-09-06"
                 }
               ]
             }
@@ -1417,7 +1420,7 @@
                     {
                       "ContainerId": "South East",
                       "ContainerStatus": "Manifested",
-                      "CreatedDateUtc": "2025-08-06T09:00:06.508Z",
+                      "CreatedDateUtc": "2025-08-27T08:02:59.485Z",
                       "ShippingLocationId": "93f6d928-9456-434a-9d69-60f3b7dea091",
                       "ShippingLocationAlias": "Northern Warehouse",
                       "TotalWeight": 12,
@@ -1428,7 +1431,7 @@
                     {
                       "ContainerId": "South West",
                       "ContainerStatus": "Active",
-                      "CreatedDateUtc": "2025-08-05T09:00:06.508Z",
+                      "CreatedDateUtc": "2025-08-26T08:02:59.485Z",
                       "ShippingLocationId": "93f6d928-9456-434a-9d69-60f3b7dea091",
                       "ShippingLocationAlias": "Northern Warehouse",
                       "TotalWeight": 14,
@@ -1587,7 +1590,7 @@
                     "value": {
                       "ContainerId": "South East",
                       "ContainerStatus": "Active",
-                      "CreatedDateUtc": "2025-08-06T09:00:07.190Z",
+                      "CreatedDateUtc": "2025-08-27T08:03:00.299Z",
                       "CarrierCode": "RM",
                       "ShippingLocationId": "93f6d928-9456-434a-9d69-60f3b7dea091",
                       "ShippingLocationAlias": "Northern Warehouse",
@@ -1604,7 +1607,7 @@
                       "ManifestNumbers": [
                         "COS0000016"
                       ],
-                      "CreatedDateUtc": "2025-08-06T09:00:07.191Z",
+                      "CreatedDateUtc": "2025-08-27T08:03:00.299Z",
                       "CarrierCode": "RM",
                       "ShippingLocationId": "93f6d928-9456-434a-9d69-60f3b7dea091",
                       "ShippingLocationAlias": "Northern Warehouse",
@@ -1986,7 +1989,7 @@
                           "OriginalExportCode": "61091090001"
                         }
                       ],
-                      "GeneratedDate": "2025-08-06T09:00:08.114Z"
+                      "GeneratedDate": "2025-08-27T08:03:01.797Z"
                     }
                   },
                   "Incorrect HSCode": {
@@ -2008,7 +2011,7 @@
                           "OriginalExportCode": "61091090001"
                         }
                       ],
-                      "GeneratedDate": "2025-08-06T09:00:08.114Z"
+                      "GeneratedDate": "2025-08-27T08:03:01.798Z"
                     }
                   }
                 }
@@ -2203,7 +2206,7 @@
                   ],
                   "IsError": false,
                   "Notes": "<taxBreakdown><city><rate>0</rate><value>0</value></city><special><rate>0</rate><value>0</value></special><county><rate>0</rate><value>0</value></county><state><rate>0.06625</rate><value>0</value></state></taxBreakdown>",
-                  "GeneratedDate": "2025-08-06T09:00:09.093Z"
+                  "GeneratedDate": "2025-08-27T08:03:03.490Z"
                 }
               }
             }
@@ -2341,7 +2344,7 @@
                       "IsError": false,
                       "ErrorDescription": "",
                       "Notes": "",
-                      "GeneratedDate": "2025-08-06T09:00:09.710Z"
+                      "GeneratedDate": "2025-08-27T08:03:04.210Z"
                     }
                   },
                   "Prohibited Item": {
@@ -2362,7 +2365,7 @@
                       "IsError": true,
                       "ErrorDescription": "The item amaranth is prohibited",
                       "Notes": "",
-                      "GeneratedDate": "2025-08-06T09:00:09.710Z"
+                      "GeneratedDate": "2025-08-27T08:03:04.210Z"
                     }
                   }
                 }
@@ -2434,44 +2437,44 @@
               "examples": {
                 "Manifest by Shipping Account": {
                   "value": {
-                    "ShippingLocationId": "2ac9cffb-4cb3-49c6-a647-ff42922b28e7",
-                    "ShippingAccountId": "9db0209e-d7d4-41b8-a627-faae29be3e0a",
+                    "ShippingLocationId": "49127da1-a968-4bba-a6fc-bdcf20ad69af",
+                    "ShippingAccountId": "f4084493-cb9f-4590-b7ef-1a74a7405220",
                     "Async": false
                   }
                 },
                 "Manifest by Shipping Account in the background": {
                   "value": {
-                    "ShippingLocationId": "019258a0-711a-4f89-b0ca-c38c1d9868d0",
-                    "ShippingAccountId": "eec26ed9-7a04-4f7f-8f68-d87dd44a8e18",
+                    "ShippingLocationId": "8e5d7352-1339-40c7-a69f-fe9cf4edc746",
+                    "ShippingAccountId": "31d4a402-bb08-4fab-b35b-5cda8d7dd842",
                     "Async": true
                   }
                 },
                 "Manifest by Service": {
                   "value": {
-                    "ShippingLocationId": "e456f87b-66e4-463a-b6b4-ee959e1f98bf",
+                    "ShippingLocationId": "4d3f83c7-9f73-4ff3-b8bc-39636a4a64f0",
                     "ServiceCode": "EXPRESS",
                     "Async": false
                   }
                 },
                 "Manifest by Service for Shipping Account Only": {
                   "value": {
-                    "ShippingLocationId": "f0f628fc-b22e-40dd-85c1-5a4e7a7c5ae2",
-                    "ShippingAccountId": "e55e95d1-faa4-4992-8851-099f9baf3939",
+                    "ShippingLocationId": "577d2949-e3c2-4ae9-bd01-9ea36d2a47a4",
+                    "ShippingAccountId": "494d9bc7-76a8-407b-ad71-fcb7a80ecfc7",
                     "ServiceCode": "EXPRESS",
                     "Async": false
                   }
                 },
                 "Manifest by Status": {
                   "value": {
-                    "ShippingLocationId": "7a3a92cf-b62d-4c6e-a0a8-75a122d6c883",
+                    "ShippingLocationId": "fba66b32-b867-48dd-978f-bc9d252de19e",
                     "Status": "Picked",
                     "Async": false
                   }
                 },
                 "Manifest by Container": {
                   "value": {
-                    "ShippingLocationId": "1a61d931-3964-48f6-9a58-93d7423bbf85",
-                    "ContainerId": "0b0cfe26-0f2c-4863-a942-74efb6fe382a",
+                    "ShippingLocationId": "4b0ca439-9a26-4fc6-8f61-a0f5f2f4d6db",
+                    "ContainerId": "ad5f0186-01ed-4c94-8fba-4c908a2a6e18",
                     "Async": false
                   }
                 }
@@ -4563,7 +4566,7 @@
           "Production"
         ],
         "type": "string",
-        "description": "Account Type\r<br />Sandbox shipping accounts can only be used for testing your integration.\r<br />Production accounts can be used to ship."
+        "description": "Indicates whether the account is set up as a \"sandbox\" or \"production\" account. A **Sandbox** account is for testing and development, while a **Production** account is used for live shipments and transactions."
       },
       "AddAddressBook": {
         "required": [
@@ -4779,7 +4782,7 @@
           "AddressId": {
             "maxLength": 70,
             "type": "string",
-            "description": "The address Id\r<br />If supplied all address fields will be ignored and the stored address will be used.",
+            "description": "A unique identifier for the new shipping location that will be associated with the shipping account being added.\r<br />\r<br />***Note:** If this information is provided, then all the address fields will be ignored and the relevant information will be used from the addresses stored in the **Address Book**.*",
             "nullable": true,
             "example": "John Brown Default"
           },
@@ -4829,27 +4832,27 @@
             "maxLength": 2,
             "minLength": 2,
             "type": "string",
-            "description": "Country Code\r<br />2 Digit ISO Country Code, per ISO 3166 Standard.\r<br />*Required if not using a stored address from the Address Book.*",
+            "description": "An abbreviation representing the country of the shipping location, typically following the ISO 3166-1 alpha-2 standard, for example,  \"GB\" for the United Kingdom.\r<br />\r<br />***Note:** This information is required if the address is not used from the stored addresses in the **Address Book**.*",
             "nullable": true,
             "example": "GB"
           },
           "What3Words": {
             "type": "string",
-            "description": "The what3words identifier for this address.",
+            "description": "A three-word location identifier provided by the What3words service, offering a precise way to define locations using a unique combination of three words, for example, the front door of 10 Downing Street in London is identified by slurs.this.shark.",
             "nullable": true,
             "example": "brick.space.employ"
           },
           "ContactPhone": {
             "maxLength": 20,
             "type": "string",
-            "description": "Contact Phone Number\r<br />If provided, and the shipper address is not provided for a create shipment request, this will be used as the shipper's contact phone number for this location, instead of the shipping account's contact phone number.",
+            "description": "The contact phone number associated with the shipping location, facilitating communication regarding shipments or deliveries.\r<br />\r<br />***Note:** If the shipper address is not provided for the Create Shipment request, this information is used as the shipper's contact phone number for this location, instead of the shipping account contact phone number. Characters like +, /, -, or space are supported.*",
             "format": "tel",
             "nullable": true,
             "example": "07123887422"
           }
         },
         "additionalProperties": false,
-        "description": "Add Shipping Location Address"
+        "description": "The complete address of the shipping location, consisting of multiple components including street information, locality, and so on."
       },
       "AddShippingLocationRequest": {
         "required": [
@@ -4863,19 +4866,19 @@
             "maxLength": 100,
             "minLength": 1,
             "type": "string",
-            "description": "Shipping Location Alias\r<br />Your identifier for this shipping location",
+            "description": "A unique user-defined identifier for the shipping location, providing a convenient way to identify it, for example,  Home or Warehouse.",
             "example": "Main Warehouse"
           },
           "Timezone": {
             "maxLength": 100,
             "minLength": 1,
             "type": "string",
-            "description": "Time zone",
+            "description": "The timezone in which the shipping location is located, important for scheduling and logistical considerations.",
             "example": "Europe/London"
           },
           "IsDefaultLocation": {
             "type": "boolean",
-            "description": "Is Default Location\r<br />If true, this location is the default location used.\r<br />You must have 1 default location.\r<br />Set to false if not provided, or true if is the first location to be added.\r<br />If true, this will set this location as the default location.",
+            "description": "A boolean value indicating whether the shipping location is set as the default for shipping operations.\r<br />\r<br />***Note:** If true, then this location is set as the default one.Otherwise, it is set to false. The shipping account must have at least one default location.*",
             "nullable": true,
             "example": false
           },
@@ -5313,7 +5316,7 @@
           "Document": {
             "minLength": 1,
             "type": "string",
-            "description": "The base64-encoded string of the document to be uploaded.",
+            "description": "The base64-encoded string of the document to be uploaded.\r<br />\r<br />***Note**: The max file size allowed for the encoded base64 PDF is 2MB.*",
             "example": "iVBORw0KGgoAAAANSUhEUgAA ... A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4"
           }
         },
@@ -6200,7 +6203,7 @@
           },
           "SupplementCode": {
             "type": "string",
-            "description": "A specific code that represents the type of location associated with a PUDO (Pick Up Drop Off) point. This code is essential in the pre-advice for shipments and indicates the type of PUDO location. However, when using the Create Shipment request, this code is automatically added based on the selected PUDO location.\r<br />\r<br />The codes may include the following: \r<br /><ul><li>**LC1**: Customer Service Point (CSP)</li><li>**LC2**: Post Office (POL)</li><li>**LC3**: Collect+ (Parcel Shop) (PSH)</li><li>**LC4**: Locker (LOK)</li></ul>",
+            "description": "A specific code that represents the type of location associated with a PUDO (Pick Up Drop Off) point. This code is essential in the pre-advice for shipments and indicates the type of PUDO location. However, when using the Create Shipment request, this code is automatically added based on the selected PUDO location.\r<br />\r<br />The codes may include the following with their associated suppliers:\r<br /><ul><li>**LC1**: Customer Service Point (CSP)—Royal Mail</li><li>**LC2**: Post Office (POL)—Post Office</li><li>**LC3**: Collect+ (Parcel Shop) (PSH)—Collect+ stores</li><li>**LC4**: Locker (LOK)—Quadient</li><li>**LC5**: Locker (LOK)—Royal Mail</li></ul>",
             "nullable": true
           },
           "LocationAvailableFeatures": {
@@ -8608,18 +8611,18 @@
         "properties": {
           "ShippingAccountId": {
             "type": "string",
-            "description": "Shipping Account Id\r<br />The system identifier for this account.\r<br />Use one of the Id or Alias in the Create Shipment Request to identify the account to use.",
+            "description": "A unique identifier for each shipping account assigned by the system (ShippingAccountId), allowing for efficient reference and management of individual accounts within the system.",
             "format": "uuid"
           },
           "CarrierCode": {
             "minLength": 1,
             "type": "string",
-            "description": "Carrier Code\r<br />The carrier that this shipping account is for.",
+            "description": "A unique identifier for the carrier associated with the shipping account. This code is typically alphanumeric and helps in identifying the specific carrier linked to the shipping account.",
             "example": "RM"
           },
           "AccountNumber": {
             "type": "string",
-            "description": "Carrier Account Number\r<br />The account number given by the carrier.",
+            "description": "The number assigned to the shipping account by the carrier, typically used for tracking shipments and billing purposes.",
             "nullable": true,
             "example": "0123456789"
           },
@@ -8630,46 +8633,46 @@
             "maxLength": 35,
             "minLength": 1,
             "type": "string",
-            "description": "Shipping Account Name\r<br />The name of the Shipping Account.\r<br />Defaults to your Customer name if not provided.",
+            "description": "The official name of the shipping account as designated by the user or organization, aiding in easy identification and reference of accounts.",
             "example": "AB VideoGames"
           },
           "AccountAlias": {
             "maxLength": 30,
             "minLength": 1,
             "type": "string",
-            "description": "Shipping Account Alias\r<br />Your identifier for this account. Must be unique.",
+            "description": "A unique, user-defined name for the shipping account, providing a convenient way to reference the account in a more memorable manner.",
             "example": "JSL"
           },
           "AccountStatus": {
             "minLength": 1,
             "type": "string",
-            "description": "Account Status\r<br />The status of the shipping account.",
+            "description": "The current status of the shipping account, which could denote whether it is enabled, disabled, or confirmed, helping users understand the account's usability.",
             "example": "Enabled"
           },
           "ContactName": {
             "maxLength": 100,
             "minLength": 1,
             "type": "string",
-            "description": "Contact Name\r<br />Used in a create shipment request as the shipper's contact name if the shipper address is not provided.",
+            "description": "The name of the primary contact person for the shipping account, facilitating communication regarding shipping and account-related matters.",
             "example": "John Smith"
           },
           "ContactNumber": {
             "maxLength": 20,
             "minLength": 1,
             "type": "string",
-            "description": "Contact Number\r<br />Used in a create shipment request as the shipper's contact number if the shipper address is not provided, and the contact number is not set on the associated shipping location.",
+            "description": "The phone number associated with the shipping account's primary contact person, facilitating communication regarding shipping inquiries, account management, and issue resolution.",
             "format": "tel",
             "example": "0123456789"
           },
           "LastUpdatedBy": {
             "minLength": 1,
             "type": "string",
-            "description": "Last Updated By\r<br />The user that last updated the shipping account.",
+            "description": "The identifier (such as a username or system account) of the individual or system that last modified the shipping account information, ensuring accountability.",
             "example": "User A"
           },
           "LastUpdatedDateUtc": {
             "type": "string",
-            "description": "Last Updated Date UTC\r<br />The system date and time when the shipping account was last updated.",
+            "description": "A timestamp indicating the last time the shipping account details were updated, formatted in Coordinated Universal Time (UTC).",
             "format": "date-time"
           }
         },
@@ -8724,31 +8727,31 @@
         "properties": {
           "ShippingLocationId": {
             "type": "string",
-            "description": "Shipping Location Id\r<br />The system identifier for this shipping location.",
+            "description": "A unique identifier for the shipping location assigned by the system, allowing users to reference and manage specific locations effectively.",
             "format": "uuid"
           },
           "LocationAlias": {
             "maxLength": 100,
             "minLength": 1,
             "type": "string",
-            "description": "Shipping Location Alias\r<br />Your identifier for this shipping location. Must be unique.",
+            "description": "A unique, user-defined identifier for the shipping location, providing a convenient way to identify it, for example,  Home or Warehouse.",
             "example": "Main Warehouse"
           },
           "IsDefaultLocation": {
             "type": "boolean",
-            "description": "Is Default Location\r<br />If true, this location is the default location.",
+            "description": "A boolean value indicating whether the shipping location is set as the default for shipping operations, streamlining the selection process during shipments.",
             "example": false
           },
           "Timezone": {
             "maxLength": 100,
             "minLength": 1,
             "type": "string",
-            "description": "Time zone",
+            "description": "The timezone in which the shipping location is located, important for scheduling and logistical considerations.",
             "example": "Europe/London"
           },
           "LastUpdatedDateUtc": {
             "type": "string",
-            "description": "Last Updated Date UTC",
+            "description": "A timestamp indicating the last time the shipping location details were updated, formatted in Coordinated Universal Time (UTC).",
             "format": "date-time",
             "example": "2022-02-06T16:13:24.010Z"
           },
@@ -8756,7 +8759,7 @@
             "maxLength": 100,
             "minLength": 1,
             "type": "string",
-            "description": "Last Updated By",
+            "description": "The identifier (such as a username or system account) of the individual or system that last modified the shipping location information, ensuring accountability.",
             "example": "User A"
           },
           "Address": {
@@ -8815,27 +8818,27 @@
             "maxLength": 2,
             "minLength": 2,
             "type": "string",
-            "description": "Country Code\r<br />2 Digit ISO Country Code, per ISO 3166 Standard.\r<br />*Required if not using a stored address from the Address Book.*",
+            "description": "An abbreviation representing the country of the shipping location, typically following the ISO 3166-1 alpha-2 standard, for example,  \"GB\" for the United Kingdom.\r<br />\r<br />***Note:** This information is required if the address is not used from the stored addresses in the **Address Book**.*",
             "nullable": true,
             "example": "GB"
           },
           "What3Words": {
             "type": "string",
-            "description": "The what3words identifier for this address.",
+            "description": "A three-word location identifier provided by the What3words service, offering a precise way to define locations using a unique combination of three words, for example, the front door of 10 Downing Street in London is identified by slurs.this.shark.",
             "nullable": true,
             "example": "brick.space.employ"
           },
           "ContactPhone": {
             "maxLength": 20,
             "type": "string",
-            "description": "Contact Phone Number\r<br />If provided, and the shipper address is not provided for a create shipment request, this will be used as the shipper's contact phone number for this location, instead of the shipping account's contact phone number.",
+            "description": "The contact phone number associated with the shipping location, facilitating communication regarding shipments or deliveries.",
             "format": "tel",
             "nullable": true,
             "example": "07123887422"
           }
         },
         "additionalProperties": false,
-        "description": "Shipping Location Address"
+        "description": "The complete address of the shipping location, consisting of multiple components including street information, locality, and so on."
       },
       "ShippingLocationIdRequest": {
         "required": [
@@ -8847,7 +8850,7 @@
             "maxLength": 100,
             "minLength": 1,
             "type": "string",
-            "description": "Shipping Location Identifier\r<br />SAPIENT Shipping Location Id(assigned by SAPIENT) or Alias(assigned by you).",
+            "description": "A unique identifier for the shipping location assigned by the system or by you (alias), allowing users to reference and manage specific locations effectively.\r<br />\r<br />***Note:** The information provided in this field and the ShippingAccountId field are being linked with each other.*",
             "example": "D94E8CFD-604B-4B87-83E9-3F20CAF02837"
           }
         },
@@ -8873,12 +8876,12 @@
             "maxLength": 100,
             "minLength": 1,
             "type": "string",
-            "description": "Time zone",
+            "description": "The timezone in which the shipping location is located, important for scheduling and logistical considerations.",
             "example": "Europe/London"
           },
           "IsDefaultLocation": {
             "type": "boolean",
-            "description": "Is Default Location\r<br />If true, this location is the default location used.\r<br />You must have 1 default location.\r<br />Set to false if not provided, or true if is the first location to be added.\r<br />If true, this will set this location as the default location.",
+            "description": "A boolean value indicating whether the shipping location is set as the default for shipping operations, streamlining the selection process during shipments.",
             "nullable": true,
             "example": false
           },
