@@ -171,7 +171,7 @@ If for some reason, the connectivity test fails, the following message is displa
 
 4. Now, from the **Select to receive either Milestones or Full Tracking Events** dropdown, select one of the following options:
    * **Milestones**: to receive tracking <Glossary>milestones</Glossary> only.
-   * **Full Tracking Events**: to receive <Glossary>all tracking events</Glossary> throughout the shipping journey. Additionally, with this option selected, you can also select the **Received Expired Event** toggle  to choose whether you want to receive the expired event or not. This feature is essential for the shipments that have not received a tracking number after a set number of days.
+   * **Full Tracking Events**: to receive <Glossary>all tracking events</Glossary> throughout the shipping journey. Additionally, with this option selected, you can also turn on the **Received Expired Event** toggle  to choose whether you want to receive the expired event or not. This feature is essential for the shipments that have not received a tracking number after a set number of days.
 
 <Callout icon="💡" theme="default">
   ### _Tip_
