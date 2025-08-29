@@ -38,8 +38,6 @@ The ID8000 label con only be printed under the following conditions:
 >
 > _The ID8000 labels are valid only within the UK; hence, if a Class 9 shipment's destination is outside of UK, the ID8000 label will not be generated._
 
-<br />
-
 The following are the accepted Values for ID8000Category:
 
 * Medicine
