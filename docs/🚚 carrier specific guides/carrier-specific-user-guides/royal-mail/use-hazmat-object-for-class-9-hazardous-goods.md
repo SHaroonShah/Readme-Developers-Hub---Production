@@ -16,8 +16,22 @@ metadata:
 ---
 _Class 9 hazardous goods_ encompass a variety of materials that, while not covered by the other eight hazardous material classes, still pose risks in transport. This category includes items that may be subject to specific regulations but do not fit the criteria for flammable, explosive, or otherwise dangerous materials. Class 9 goods include substances that may be environmentally hazardous or have other regulatory considerations.
 
-As part of the Royal Mail integration into the Sapient shipping solution, an _ID8000 label_ is to be generated alongside the standard shipping label for Class 9 hazardous goods. This is done to ensure that customers have all necessary documentation for compliant shipping practices.
-
 In SAPIENT, you can specify the class 9 hazardous goods [via the UI](https://docs.intersoftsapient.net/docs/add-product#/) or in the [Create Shipment request](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm#/).
 
-<br />
+As part of the Royal Mail integration into the Sapient system, an _ID8000 label_ is to be generated alongside the standard shipping label for Class 9 hazardous goods. This is done to ensure that customers have all necessary documentation for compliant shipping practices.
+
+The ID8000 label con only be printed under the following conditions:
+
+1. **Class determination**: The ID8000 label is exclusively generated for *_Class 9_ shipments; no other classes apply. 
+
+2. **ID8000Category field**: When creating the shipping request, the **Id8000Category** field in the API must be populated to match existing values.
+
+3. **PrintId8000Label field**: The Create Shipment API response will include the ID8000 label only if the **PrintId8000Label** field is populated with "yes."
+
+4. **Multiple items**: For shipments containing multiple Class 9 items, a single ID8000 label will be produced with all relevant categories checked on the label.
+
+5. **Item selection**: The items associated with the ID8000Category provided in the request will be pre-selected on the label. If the submitted category does not match an accepted value, the label will still be generated, but no item will be pre-checked, requiring manual entry by the customer.
+
+6. **Label format**: Both the ID8000 label and the shipping label can only be generated as <Glossary>PDF</Glossary>s for hazmat shipments.
+
+7. **Destination limitations**: ID8000 labels are valid only within the UK; hence, if a Class 9 shipment's destination is outside of UK, the ID8000 label will not be generated.
