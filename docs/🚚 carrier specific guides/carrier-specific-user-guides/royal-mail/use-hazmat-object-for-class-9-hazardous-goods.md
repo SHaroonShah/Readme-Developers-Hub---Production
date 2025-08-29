@@ -1,5 +1,5 @@
 ---
-title: Use Hazmat object for Class 9 hazardous goods
+title: Generate hazmat label for Class 9 hazardous goods
 excerpt: >-
   A _hazardous (hazmat) material_ is any substance that poses a risk to health,
   safety, or property due to its chemical nature. These materials can be solids,
