@@ -22,7 +22,7 @@ As part of the Royal Mail integration into the Sapient system, an _ID8000 label_
 
 The ID8000 label con only be printed under the following conditions:
 
-1. **Class determination**: The ID8000 label is exclusively generated for *_Class 9_ shipments; no other classes apply. 
+1. **Class determination**: The ID8000 label is exclusively generated for *_Class 9_ shipments; no other classes apply.
 
 2. **ID8000Category field**: When creating the shipping request, the **Id8000Category** field in the API must be populated to match existing values.
 
@@ -30,8 +30,19 @@ The ID8000 label con only be printed under the following conditions:
 
 4. **Multiple items**: For shipments containing multiple Class 9 items, a single ID8000 label will be produced with all relevant categories checked on the label.
 
-5. **Item selection**: The items associated with the ID8000Category provided in the request will be pre-selected on the label. If the submitted category does not match an accepted value, the label will still be generated, but no item will be pre-checked, requiring manual entry by the customer.
+5. **Item selection**: The items associated with the ID8000Category provided in the request will be pre-selected on the label. If the submitted category does not match an accepted value, the label will still be generated, but no item will be pre-checked, requiring manual entry by the customer. For instance, if a shipment contains both “Medicines” and “Nail Varnish,” both corresponding items will be marked on the label.
 
 6. **Label format**: Both the ID8000 label and the shipping label can only be generated as <Glossary>PDF</Glossary>s for hazmat shipments.
 
 7. **Destination limitations**: ID8000 labels are valid only within the UK; hence, if a Class 9 shipment's destination is outside of UK, the ID8000 label will not be generated.
+
+The following are the accepted Values for ID8000Category: 
+
+* Medicine
+* Perfume/Aftershave
+* Nail Varnish
+* Toiletry or Medicinal Aerosols
+
+<Image align="center" border={false} caption="Hazmat label example" src="https://files.readme.io/aa4ac259770b0d327a8cd43d0e47c31f8af7b5b1b10cb41fd7c141830787b4e7-Hazmat_label_example_1.png" width="300px" />
+
+<br />
