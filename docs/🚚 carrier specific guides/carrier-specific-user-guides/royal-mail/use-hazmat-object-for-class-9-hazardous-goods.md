@@ -20,7 +20,7 @@ In SAPIENT, you can specify the class 9 hazardous goods [via the UI](https://doc
 
 As part of the Royal Mail integration into the Sapient system, an _ID8000 label_ is to be generated alongside the standard shipping label for Class 9 hazardous goods. This is done to ensure that customers have all necessary documentation for compliant shipping practices.
 
-The ID8000 label con only be printed under the following conditions:
+The ID8000 label can only be printed under the following conditions:
 
 1. **Class determination**: The ID8000 label is exclusively generated for *_Class 9_ shipments; no other classes apply.
 
