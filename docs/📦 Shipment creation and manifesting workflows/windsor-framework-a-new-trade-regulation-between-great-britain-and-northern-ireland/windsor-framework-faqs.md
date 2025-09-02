@@ -49,7 +49,12 @@ Before sending your shipments to Northern Ireland, Intersoft recommends you to d
      • If a UKIMS number is provided, it must include either the sender’s or receiver’s EORI number.
 
   If it does not match the  EORI numbers, the shipment will be rejected.
-  4\. EORI Number vValidation
+
+  3. **EORI Number Validation**
+
+     • If a EORI number is provided, it must include either the sender’s and receiver’s EORI number.
+
+  If either field is missing, the shipment will be rejected.
 </Accordion>
 
 <Accordion title="What do I need to do if I am a Business to Consumer (B2C) customer?">
