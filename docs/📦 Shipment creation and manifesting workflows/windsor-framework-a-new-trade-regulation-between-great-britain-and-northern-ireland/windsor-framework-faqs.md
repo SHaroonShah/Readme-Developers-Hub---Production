@@ -50,7 +50,7 @@ Before sending your shipments to Northern Ireland, Intersoft recommends you to d
 
   If it does not match the  EORI numbers, the shipment will be rejected.
 
-  3. **EORI Number Validation**
+  4. **EORI Number Validation**
 
      • If a EORI number is provided, it must include either the sender’s and receiver’s EORI number.
 
