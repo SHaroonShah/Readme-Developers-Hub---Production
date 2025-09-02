@@ -49,6 +49,7 @@ Before sending your shipments to Northern Ireland, Intersoft recommends you to d
      • If a UKIMS number is provided, it must include either the sender’s or receiver’s EORI number.
 
   If it does not match the  EORI numbers, the shipment will be rejected.
+  4\. EORI Number vValidation
 </Accordion>
 
 <Accordion title="What do I need to do if I am a Business to Consumer (B2C) customer?">
@@ -99,9 +100,9 @@ Before sending your shipments to Northern Ireland, Intersoft recommends you to d
   • Goods travelling further for sale in the EU including Ireland, are  subject to more comprehensive checks with additional documentation required.
 </Accordion>
 
-> 📘 *Note*
+> 📘 _Note_
 >
-> *To learn more about the green and red lane system, refer to the[ Windsor Framework - The Green Lane](https://docs.intersoftsapient.net/docs/windsor-framework-faqs#/) article.*
+> _To learn more about the green and red lane system, refer to the[ Windsor Framework - The Green Lane](https://docs.intersoftsapient.net/docs/windsor-framework-faqs#/) article._
 
 <Accordion title="What do I need to do if I have items to return?">
   A return is classified as a **Consumer-to-Business (C2B)** movement under the UK government’s Windsor Framework guidance, as it involves a consumer returning an item to the business that originally sent it.
@@ -109,6 +110,6 @@ Before sending your shipments to Northern Ireland, Intersoft recommends you to d
   As per the HMRC’s Windsor Framework guidance, **C2B** shipments from Great Britain (GB) to Northern Ireland (NI) should be treated the same as **Business-to-Consumer (B2C)** shipments. That is, providing the same data they would for a standard **B2C** shipment from GB to NI.
 </Accordion>
 
-> 📘 *Note*
+> 📘 _Note_
 >
-> *For more information, refer to the[ HMRC Windsor Framework guidelines](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fassets.publishing.service.gov.uk%2Fmedia%2F66ec2e6d526bfd7665fa14ac%2FGuidance-for-business-sending-parcels-to-Northern-Ireland-from-the-rest-of-the-UK.odt\&wdOrigin=BROWSELINK).*
+> _For more information, refer to the[ HMRC Windsor Framework guidelines](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fassets.publishing.service.gov.uk%2Fmedia%2F66ec2e6d526bfd7665fa14ac%2FGuidance-for-business-sending-parcels-to-Northern-Ireland-from-the-rest-of-the-UK.odt&wdOrigin=BROWSELINK)._
