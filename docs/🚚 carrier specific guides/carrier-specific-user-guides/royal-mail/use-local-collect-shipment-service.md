@@ -173,6 +173,7 @@ Based on your requirements, you can choose various approaches to use the PUDO lo
     "TotalCount": 1
   }
   ```
+<Image align="center" border={false} caption="Local collect label example" src="https://files.readme.io/36569617c265f4481d748095c90867d93937deaf399ff2d0fa9ec68316f283ae-Local_Collect_label_example.png" />
 </Accordion>
 
 <Accordion title="Accessing PUDO Locations via SFTP for local collect">
@@ -229,7 +230,5 @@ Based on your requirements, you can choose various approaches to use the PUDO lo
   > * *If the`pudoId` is provided for a carrier that does not use PUDO, an error will be returned.*
   > * *If the destination company name includes “c/o” and the`PudoId` is not populated, the existing Local Collect functionality will continue to apply.*
 </Accordion>
-
-<Image align="center" border={false} caption="Local collect label example" src="https://files.readme.io/36569617c265f4481d748095c90867d93937deaf399ff2d0fa9ec68316f283ae-Local_Collect_label_example.png" />
 
 <br />
