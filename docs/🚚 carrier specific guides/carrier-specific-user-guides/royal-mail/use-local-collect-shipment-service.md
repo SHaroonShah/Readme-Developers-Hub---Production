@@ -152,7 +152,8 @@ Based on your requirements, you can choose various approaches to use the PUDO lo
           "SupplierLocationType": "Collect+",
           "LabelId": "31262463",
           "DistanceFromPostcode": "3.2",
-  		"DistanceUnit": "miles",
+          "DistanceUnit": "miles",
+    				"SupplementCode": "LC3",
           "LocationAvailableFeatures": {
             "ServiceCode": "TPN|TPS|TPM|TPL|ITL|ITM|ITN|ITS|TRL|TRM|TRN|TRS|ITC|ITD|ITE|ITF",
             "AcceptSignature": "True",
@@ -173,7 +174,8 @@ Based on your requirements, you can choose various approaches to use the PUDO lo
     "TotalCount": 1
   }
   ```
-<Image align="center" border={false} caption="Local collect label example" src="https://files.readme.io/36569617c265f4481d748095c90867d93937deaf399ff2d0fa9ec68316f283ae-Local_Collect_label_example.png" />
+
+  <Image align="center" src="https://files.readme.io/36569617c265f4481d748095c90867d93937deaf399ff2d0fa9ec68316f283ae-Local_Collect_label_example.png" />
 </Accordion>
 
 <Accordion title="Accessing PUDO Locations via SFTP for local collect">
