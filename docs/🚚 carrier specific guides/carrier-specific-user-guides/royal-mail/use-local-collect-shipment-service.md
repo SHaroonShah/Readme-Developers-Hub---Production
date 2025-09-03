@@ -104,7 +104,7 @@ Based on your requirements, you can choose various approaches to use the PUDO lo
       {
         "CarrierCode": "RM",
         "LocationAlias": "J S Pound Plus",
-        "LocationId": "2373391",
+        "LocationId": "002373391",
         "Address": {
           "Line1": "10 Grasmere Parade Wexham Road",
           "Line2": "",
