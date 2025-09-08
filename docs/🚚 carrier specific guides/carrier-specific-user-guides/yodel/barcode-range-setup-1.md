@@ -25,9 +25,10 @@ The Yodel barcode is referred to as the License Plate Number, and is constructed
 
 > 🚧 _Important_
 >
-> Before adding the barcode range, please be advised on the following: 
+> _Before adding the barcode range, please be advised on the following:_
 >
-> * The barcode range will only be auto-generated if a range does not already exist for that shipping account and meter number.
-> * The meter number must be unique and cannot be duplicated across shipping accounts.
+> * _The barcode range will only be auto-generated if a range does not already exist for that shipping account and meter number._
+> * _The meter number must be unique and cannot be duplicated across shipping accounts._
+> * _When the number range expires, Yodel issues a new meter number to the customer._
 
 <br />
