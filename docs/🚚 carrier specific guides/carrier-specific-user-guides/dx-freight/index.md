@@ -14,11 +14,11 @@ metadata:
 next:
   description: ''
 ---
-<Image align="center" width="100px" src="https://files.readme.io/52ad6b6ebfdbf46379079a883536233d11c1742aaa2b1359159df5a653b16609-image.png" />
+<Image align="center" width="130px" src="https://files.readme.io/9b5162bacf5f3ac36b0200401aa0441bd609545eaf01e789087d520c1455ca64-DX_freight_logo.png" />
 
 ***
 
-Freight is one of DX's core solutions, also referred to as *IDW* (Irregular Dimensions and Weight), that provides delivery services to businesses and home addresses for multi-item <Glossary>consignment</Glossary>s, pallets up to 6 metres in length, and individual <Glossary>items</Glossary> in excess of 25 kg in weight.
+Freight is one of DX's core solutions, also referred to as _IDW_ (Irregular Dimensions and Weight), that provides delivery services to businesses and home addresses for multi-item <Glossary>consignment</Glossary>s, pallets up to 6 metres in length, and individual <Glossary>items</Glossary> in excess of 25 kg in weight.
 
 The following are one of the main DX Freight service types tailored to meet different delivery requirements:
 
