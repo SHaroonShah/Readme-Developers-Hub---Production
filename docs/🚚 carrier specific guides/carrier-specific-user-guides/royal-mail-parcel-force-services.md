@@ -20,6 +20,11 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
 
 <Accordion title="International services">
   The new Royal Mail international services are listed in the following table.
+<Callout icon="💡" theme="default">
+  ### _Tip_
+
+  _In the following table, the EXTRACOMP is the name of the product and its value specify the maximum compensation value that can be applied to a shipment using the product._
+</Callout>
 
   | Service Code | Service Name                     | Partner Label Required | Partner Carrier |
   | :----------: | :------------------------------- | :--------------------- | :-------------- |
@@ -396,10 +401,6 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
   <Image align="center" border={true} src="https://files.readme.io/c9bd0fc953ff5ea7953e9b41461c16de453bb7a6ab10c3bf2f12368bd3031c80-image.png" width="300px" />
 </Accordion>
 
-<Callout icon="💡" theme="default">
-  ### _Tip_
 
-  _In the following table, the EXTRACOMP is the name of the product and its value specify the maximum compensation value that can be applied to a shipment using the product._
-</Callout>
 
 <br />
