@@ -17,7 +17,7 @@ next:
       slug: shipping-account-requirements
       title: Royal Mail shipping account setup
 ---
-<Image align="center" width="120px" src="https://files.readme.io/a89bcfcb801f493eca18567e743f5440b21de0a72a1e59c527b0d11d004811ab-RM_favicon.png" />
+<Image align="center" width="120px" src="https://files.readme.io/a9ee760d85555af384cfd0575c7bc99d51a1aada6dec34c8bfb588907ccd9422-RM_favicon.png" />
 
 ***
 
