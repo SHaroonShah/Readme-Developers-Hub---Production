@@ -31,9 +31,9 @@ This integration provides the following key features:
 * **Ship To Destinations**: Users can send <Glossary>shipments</Glossary> to Great Britain (GB), Europe, and the <Glossary>ROW</Glossary> (Rest of the World).
 * **Service Type**: The integration is focused on outbound and Returns shipping services.
 
-> 📘 *Note*
+> 📘 _Note_
 >
-> *QR code generation is supported for the returns shipments.*
+> _QR code generation is supported for the returns shipments._
 
 ## Enhancements
 
@@ -58,3 +58,4 @@ In this section, learn how to:
 
 * [Add EVRi shipping account](https://docs.intersoftsapient.net/docs/shipping-account-setup-3)
 * [Add EVRi tracking account](https://docs.intersoftsapient.net/docs/tracking-account-setup)
+* [Add child client department to parent shipping account](https://docs.intersoftsapient.net/docs/client-id-and-child-clinet-id-management-1#/)
