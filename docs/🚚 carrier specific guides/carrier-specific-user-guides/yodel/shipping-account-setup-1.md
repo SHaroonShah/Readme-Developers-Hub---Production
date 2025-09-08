@@ -15,9 +15,9 @@ next:
 ---
 In SAPIENT, you can create a shipping account with YODEL, assign your YODEL credentials to it, and then link it to the relevant <Glossary>shipping location</Glossary>(s).
 
-> 🚧 *IMPORTANT*
+> 🚧 _IMPORTANT_
 >
-> *Before you can set up a shipping account, make sure you have[enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with YODEL.*
+> _Before you can set up a shipping account, make sure you have[enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with YODEL._
 
 To add a shipping account for YODEL in SAPIENT, follow the instructions as explained in the following procedure.
 
@@ -35,18 +35,20 @@ To add a shipping account for YODEL in SAPIENT, follow the instructions as expla
 
 <AsteridkForMandatoryElements />
 
-|         Element         | Description                                                                                                                                 |
-| :---------------------: | :------------------------------------------------------------------------------------------------------------------------------------------ |
-|      **Carrier**\*      | From the dropdown list, select **YODEL - Yodel**.                                                                                           |
-| **Shipping Location**\* | From the dropdown menu, select the <Glossary>shipping location</Glossary> that you want to assign to the shipping account you are creating. |
+|         Element        | Description                                                                                                                                 |
+| :--------------------: | :------------------------------------------------------------------------------------------------------------------------------------------ |
+|      **Carrier***      | From the dropdown list, select **YODEL - Yodel**.                                                                                           |
+| **Shipping Location*** | From the dropdown menu, select the <Glossary>shipping location</Glossary> that you want to assign to the shipping account you are creating. |
 
 4. In the **SHIPPING ACCOUNT** block, enter the necessary information as explained in the following table.
 
 <Image align="center" alt="Specifying shipping account details" border={true} caption="Specifying shipping account details" src="https://files.readme.io/4668084ea31679c03a9b0cee35f97a98dff1a6a9b196155c7fb39b9e91c7b66e-Shipping_account_block_YODEL.png" width="500px" />
 
-> 💡 *Tip*
->
-> *In the following table, the mandatory fields are marked with an asterisk (\*).*
+<Callout icon="💡" theme="default">
+  ### _Tip_
+
+  _In the following table, the mandatory fields are marked with an asterisk (*)._
+</Callout>
 
 <Table align={["center","left"]}>
   <thead>
@@ -64,7 +66,7 @@ To add a shipping account for YODEL in SAPIENT, follow the instructions as expla
   <tbody>
     <tr>
       <td>
-        **Carrier Account Number**\*
+        **Carrier Account Number***
       </td>
 
       <td>
@@ -74,7 +76,7 @@ To add a shipping account for YODEL in SAPIENT, follow the instructions as expla
 
     <tr>
       <td>
-        **Account Name (if different than customer)**\*
+        **Account Name (if different than customer)***
       </td>
 
       <td>
@@ -84,7 +86,7 @@ To add a shipping account for YODEL in SAPIENT, follow the instructions as expla
 
     <tr>
       <td>
-        **Account Type**\*
+        **Account Type***
       </td>
 
       <td>
@@ -98,7 +100,7 @@ To add a shipping account for YODEL in SAPIENT, follow the instructions as expla
 
     <tr>
       <td>
-        **Alias**\*
+        **Alias***
       </td>
 
       <td>
@@ -108,7 +110,7 @@ To add a shipping account for YODEL in SAPIENT, follow the instructions as expla
 
     <tr>
       <td>
-        **Contact Name**\*
+        **Contact Name***
       </td>
 
       <td>
@@ -118,7 +120,7 @@ To add a shipping account for YODEL in SAPIENT, follow the instructions as expla
 
     <tr>
       <td>
-        **Contact Number**\*
+        **Contact Number***
       </td>
 
       <td>
@@ -150,7 +152,7 @@ To add a shipping account for YODEL in SAPIENT, follow the instructions as expla
   <tbody>
     <tr>
       <td>
-        **Contract Number**\*
+        **Contract Number***
       </td>
 
       <td>
@@ -160,7 +162,7 @@ To add a shipping account for YODEL in SAPIENT, follow the instructions as expla
 
     <tr>
       <td>
-        **Schedule Number**\*
+        **Schedule Number***
       </td>
 
       <td>
@@ -170,13 +172,15 @@ To add a shipping account for YODEL in SAPIENT, follow the instructions as expla
 
     <tr>
       <td>
-        **Meter Number**\*
+        **Meter Number***
       </td>
 
       <td>
         Enter your five digit meter number.
 
         This number is used to create the unique YODEL barcode range.
+
+        `_Note_:` _The meter number must be unique and cannot be duplicated across shipping accounts._ 
       </td>
     </tr>
   </tbody>
