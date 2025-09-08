@@ -7,6 +7,7 @@ excerpt: >-
   and management.
 deprecated: false
 hidden: true
+icon: fad fa-barcode-read
 metadata:
   title: ''
   description: ''
