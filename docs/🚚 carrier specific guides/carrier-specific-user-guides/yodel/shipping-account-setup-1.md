@@ -180,7 +180,7 @@ To add a shipping account for YODEL in SAPIENT, follow the instructions as expla
 
         This number is used to create the unique YODEL barcode range.
 
-        _`Note:`_ _The meter number must be unique and cannot be duplicated across shipping accounts._
+        _`Note:`_: The meter number must be unique and cannot be duplicated across shipping accounts._
       </td>
     </tr>
   </tbody>
