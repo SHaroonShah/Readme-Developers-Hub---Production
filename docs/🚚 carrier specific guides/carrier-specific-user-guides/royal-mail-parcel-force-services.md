@@ -14,7 +14,7 @@ metadata:
 ---
 The introduction of the new services represents a comprehensive approach to international and domestic shipping needs. Some international services require a partner label for completing the final mile delivery.
 
-A *partner label* is a shipping label utilised in collaboration with other carriers, which facilitates the last-mile delivery of shipments. For Royal Mail, partners such as GLS and FedEx will use these partner labels to manage the final stages of delivery to the recipient outside the UK.
+A _partner label_ is a shipping label utilised in collaboration with other carriers, which facilitates the last-mile delivery of shipments. For Royal Mail, partners such as GLS and FedEx will use these partner labels to manage the final stages of delivery to the recipient outside the UK.
 
 Partner label involves utilising two separate labels on a shipment to reflect both the originating carrier (Royal Mail) and the partner carrier (GLS or FedEx) responsible for the last-mile delivery. Therefore, for services using partner labels, SAPIENT will generate both the Royal Mail and partner label and return them in the Create Shipment response. This dual labelling mechanism helps streamline the logistics process and enhances tracking and accountability throughout the delivery journey. By utilising partners, Royal Mail aims to provide an enhanced service that meets customer expectations around the globe.
 
@@ -395,3 +395,11 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
 
   <Image align="center" border={true} src="https://files.readme.io/c9bd0fc953ff5ea7953e9b41461c16de453bb7a6ab10c3bf2f12368bd3031c80-image.png" width="300px" />
 </Accordion>
+
+<Callout icon="💡" theme="default">
+  ### _Tip_
+
+  _In the following table, the EXTRACOMP is the name of the product and its value specify the maximum compensation value that can be applied to a shipment using the product._
+</Callout>
+
+<br />
