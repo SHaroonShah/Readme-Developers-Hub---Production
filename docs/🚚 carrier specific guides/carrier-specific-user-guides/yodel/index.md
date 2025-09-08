@@ -53,8 +53,8 @@ The YODEL integration provides the following additional features:
 
 **Tracking**: Enables data files to be sent via SFTP.
 
-In this section, learn how to do the following: 
+In this section, learn how to do the following:
 
 * [Add a YODEL shipping account](https://docs.intersoftsapient.net/docs/shipping-account-setup-1)
 * [Add a YODEL tracking account](https://docs.intersoftsapient.net/docs/tracking)
-* Add a barcode range to YODEL shipping account
+* [Add a tracking barcode range to YODEL shipping account](https://docs.intersoftsapient.net/docs/barcode-range-setup-1#/)
