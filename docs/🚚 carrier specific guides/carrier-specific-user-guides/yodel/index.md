@@ -23,7 +23,7 @@ next:
 
 ***
 
-YODEL, is fully integrated into the Intersoft SAPIENT platform. This integration allows businesses to seamlessly access YODEL’s delivery network through SAPIENT’s unified API, enabling the following key features: 
+YODEL, is fully integrated into the Intersoft SAPIENT platform. This integration allows businesses to seamlessly access YODEL’s delivery network through SAPIENT’s unified API, enabling the following key features:
 
 * **Ship from destinations**: The integration supports shipping from locations in Great Britain (GB) only.
 * **Ship To Destinations**: Users can send <Glossary>shipments</Glossary> to Great Britain (GB), Europe, and the <Glossary>ROW</Glossary> (Rest of the World).
@@ -53,6 +53,8 @@ The YODEL integration provides the following additional features:
 
 **Tracking**: Enables data files to be sent via SFTP.
 
-* [Add YODEL shipping account](https://docs.intersoftsapient.net/docs/shipping-account-setup-1)
-* [Add YODEL tracking account](https://docs.intersoftsapient.net/docs/tracking)
-* Add barcode range to YODEL shipping account
+In this section, learn how to do the following: 
+
+* [Add a YODEL shipping account](https://docs.intersoftsapient.net/docs/shipping-account-setup-1)
+* [Add a YODEL tracking account](https://docs.intersoftsapient.net/docs/tracking)
+* Add a barcode range to YODEL shipping account
