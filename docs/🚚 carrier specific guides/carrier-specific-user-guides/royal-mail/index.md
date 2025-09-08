@@ -21,7 +21,7 @@ next:
 
 ***
 
-In SAPIENT, you can integrate with various Royal Mail services and features to streamline your shipping process.
+The Royal Mail-SAPIENT integration aims to enhance operational efficiency and provide users with tailored shipping options. By leveraging Royal Mail's extensive capabilities, businesses can ensure a streamlined shipping process that meets diverse logistical needs. This integration represents a significant step towards optimising shipping functions within SAPIENT.
 
 In this section, learn how to:
 
