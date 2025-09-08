@@ -1,5 +1,5 @@
 ---
-title: Add tracking barcoderange to YODEL shipping account
+title: Add tracking barcode range to YODEL shipping account
 excerpt: >-
   A tracking range_ is a specific set of numbers designated for tracking
   shipments. These barcodes are used to uniquely identify shipments at various
