@@ -23,7 +23,11 @@ next:
 
 ***
 
-In SAPIENT, you can integrate with various available UPS services and features to streamline your shipping process.
+The UPS carrier integration within the SAPIENT system enables seamless communication between SAPIENT and UPS’s shipping services. This integration allows customers to efficiently create shipments and track deliveries in real time, directly within the SAPIENT system.
+
+This integration provides the following key features: 
+
+<br />
 
 In this section, learn how to:
 
