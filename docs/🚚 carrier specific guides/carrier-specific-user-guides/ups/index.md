@@ -40,6 +40,18 @@ The following carrier services are included in the integration:
 * **UPS Worldwide Expedited** (2-5 business days): This service provides day-definite delivery to over 220 countries and territories. Fully tracked, with generous weight limits (up to 150 lbs).
 * **UPS Worldwide Expedited Plus** (next business day): This service provides premium express service with the fastest international delivery times.
 * **UPS Worldwide Saver** (1-3 business days): This service provides guaranteed afternoon delivery to over 215 countries. and territories.
+
+## Service enhancements
+
+The following are the key enhancements provided by the UPS integration:
+
+* Email notification: To use this enhancement, you must provide a valid email address. This enhancement includes the following: 
+  * QV (Quantum View) ship:
+  * QV exception: 
+  * QV delivery: 
+  * Alternate Delivery Location:
+  * Saturday Delivery:
+  * Delivery confirmation adult signature required: 
 * In this section, learn how to:
 * [Add UPS shipping account](https://docs.intersoftsapient.net/docs/shipping-account-setup)
 * [Add UPS tracking account](https://docs.intersoftsapient.net/docs/tracking-2)
