@@ -63,18 +63,18 @@ The UPS integration provides the following additional features:
 
 ## Carrier API services
 
- The following API services are provided by the UPS integration:
+The following API services are provided by the UPS integration:
 
 * **Authorisation**: The integration to authenticate and authorise users to use the carrier services via API.
 * **Create Shipment**: The integration for creating shipments to reflect UPS as a primary carrier and allowing users to create shipments using the **Create Shipment** endpoint.
-* **Tracking**: The integration to track and monitor shipments in real time by receiving automatic updates on shipment status, delivery progress, and exceptions. 
+* **Tracking**: The integration to track and monitor shipments in real time by receiving automatic updates on shipment status, delivery progress, and exceptions.
 
 ## Integration types
 
-The following integration types are available for this integration: 
+The following integration types are available for this integration:
 
 * **Label**: This integration is In-house, which means that the label is generated within the SAPIENT system without calling the carrier API.
-* **Tracking**: Enables data files to be sent via SFTP.
+* **Tracking**: Enables the tracking data to be sent via the Tracking API.
 * In this section, learn how to:
 * [Add UPS shipping account](https://docs.intersoftsapient.net/docs/shipping-account-setup)
 * [Add UPS tracking account](https://docs.intersoftsapient.net/docs/tracking-2)
