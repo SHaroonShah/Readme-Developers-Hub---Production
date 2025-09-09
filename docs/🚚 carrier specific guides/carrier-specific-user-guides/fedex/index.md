@@ -32,7 +32,7 @@ This integration provides the following key features:
 The following are the key enhancements provided by the FedEx integration:
 
 * **Saturday Delivery**: The option to deliver packages on Saturdays for added convenience.
-* **Declared Values**: A surcharge is applicable if the requested declared value of the shipment exceeds the liability stated in FedEx's terms and conditions for the selected service. The *declared value* of a package represents the maximum liability in connection with the shipment of the package, including, but not limited to, any loss, damage, delay, or missed delivery relating to that shipment. As the shipper, it’s your responsibility to prove any actual damages. Exposure to and risk of any loss in excess of your declared value is assumed by you.
+* **Declared Values**: A surcharge is applicable if the requested declared value of the shipment exceeds the liability stated in FedEx's terms and conditions for the selected service. The _declared value_ of a package represents the maximum liability in connection with the shipment of the package, including, but not limited to, any loss, damage, delay, or missed delivery relating to that shipment. As the shipper, it’s your responsibility to prove any actual damages. Exposure to and risk of any loss in excess of your declared value is assumed by you.
 * **Signature options**: Enhanced signature options include:
   * **Adult signature**: To obtain a signature from any person of legal age at the delivery address, subject to the provision of a valid ID. If no one qualified to sign is available, an attempt will be made to redeliver the package on another date. Legal age varies depending on the destination country/territory and is governed by local legal age of an adult, not the legal age to purchase specific products.
   * **Direct signature**: To obtain a signature from someone at the delivery address only. If no one is available to sign, a redelivery attempt of the package will be made on another date.
@@ -46,7 +46,7 @@ The FedEx integration provides the following additional features:
 
 * **Multipiece shipments**: Support for multipiece shipments is included in the integration.
 * **Package Types**: FedEx offers its own distinct <Glossary>package type</Glossary>s. You can look up for the packages types by calling the [Get Carrier Service Package Types](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services-servicecode-packagetypes#/) endpoint.
-* **Incoterms**: The integration supports <Glossary>DDU</Glossary> (Delivered Duty Unpaid), <Glossary>DDP</Glossary> (Delivered Duty Paid), and <Glossary>DAP</Glossary> (Delivered At Place)
+* **Incoterms**: The integration supports <Glossary>DDU</Glossary> (Delivered Duty Unpaid), <Glossary>DDP</Glossary> (Delivered Duty Paid), and <Glossary>DAP</Glossary> (Delivered At Place).
 * **Electronic Trade Document (ETD)**: Inclusion of electronic trade documents, such as  <Glossary>commercial invoice</Glossary>, <Glossary>proforma invoice</Glossary>, and in some cases, other specific documents. while configuring the FedEx <Glossary>shipping account</Glossary>. This solution solution allows you to create and send your trade documents electronically when shipping internationally.
 
 ## Carrier API services
@@ -56,15 +56,15 @@ The following API services are provided by the FedEx integration:
 * **Create Shipment**: The integration for creating shipments to reflect FedEx as a primary carrier and allowing users to create shipments using the **Create Shipment** endpoint.
 * **Cancel Shipment**: The integration for cancelling shipments.
 
-> 🚧 *Important*
+> 🚧 _Important_
 >
-> *It is important to note that FedEx will not charge customers for transportation costs. However, the customs clearance fees may still apply if a package is not cancelled and scanned by FedEx.*
+> _It is important to note that FedEx will not charge customers for transportation costs. However, the customs clearance fees may still apply if a package is not cancelled and scanned by FedEx._
 
 In this section, learn how to:
 
 * [Add a FedEx shipping account](https://docs.intersoftsapient.net/docs/add-fedex-shipping-account#/)
 * [Add a FedEx tracking account](https://docs.intersoftsapient.net/docs/add-fedex-tracking-account#/)
 
-> 📘 *Note*
+> 📘 _Note_
 >
-> *For more information on how to activate the FedEx integration, refer to the[Activate integration](https://docs.intersoftsapient.net/docs/integration-activation#/) section.*
+> _For more information on how to activate the FedEx integration, refer to the[Activate integration](https://docs.intersoftsapient.net/docs/integration-activation#/) section._
