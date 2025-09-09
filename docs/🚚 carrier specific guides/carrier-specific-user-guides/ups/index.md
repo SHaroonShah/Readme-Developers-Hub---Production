@@ -45,13 +45,36 @@ The following carrier services are included in the integration:
 
 The following are the key enhancements provided by the UPS integration:
 
-* Email notification: To use this enhancement, you must provide a valid email address. This enhancement includes the following: 
-  * QV (Quantum View) ship:
-  * QV exception: 
-  * QV delivery: 
-  * Alternate Delivery Location:
-  * Saturday Delivery:
-  * Delivery confirmation adult signature required: 
+* Email notification: To use this enhancement, you must provide a valid email address. This enhancement includes the following codes:
+  * **QV (Quantum View) ship**: An enhancement code that sends an email notification to the shipper when the shipment has been shipped.
+  * **QV exception**: An enhancement code that notifies the shipper via email if there is an exception or issue with the shipment during transit.
+  * **QV delivery**: An enhancement code that allows UPS to send an email notification to the shipper when the shipment has been successfully delivered.
+  * **Alternate Delivery Location**: An enhancement code that sends an email notification to the shipper with details of the alternative delivery location if the package cannot be delivered to the original address.
+  * **Saturday Delivery**: An enhancement code that permits delivery on Saturdays, offering greater flexibility in shipping schedules.
+  * **Adult Signature**: An enhancement code that requires an adult signature upon delivery, ensuring that the package is received by someone of legal age.
+
+## Additional features
+
+The UPS integration provides the following additional features:
+
+* **Multi-piece shipments**: Supports a maximum of 99999 pieces per single shipment request.
+* **Incoterms**: The integration supports <Glossary>DDU</Glossary> and <Glossary>DDP</Glossary>.
+* **Label formats**: <Glossary>PDF</Glossary>, <Glossary>PNG</Glossary>, and <Glossary>ZPL203DPI</Glossary>.
+
+## Carrier API services
+
+ The following API services are provided by the UPS integration:
+
+* **Authorisation**: The integration to authenticate and authorise users to use the carrier services via API.
+* **Create Shipment**: The integration for creating shipments to reflect UPS as a primary carrier and allowing users to create shipments using the **Create Shipment** endpoint.
+* **Tracking**: The integration to track and monitor shipments in real time by receiving automatic updates on shipment status, delivery progress, and exceptions. 
+
+## Integration types
+
+The following integration types are available for this integration: 
+
+* **Label**: This integration is In-house, which means that the label is generated within the SAPIENT system without calling the carrier API.
+* **Tracking**: Enables data files to be sent via SFTP.
 * In this section, learn how to:
 * [Add UPS shipping account](https://docs.intersoftsapient.net/docs/shipping-account-setup)
 * [Add UPS tracking account](https://docs.intersoftsapient.net/docs/tracking-2)
