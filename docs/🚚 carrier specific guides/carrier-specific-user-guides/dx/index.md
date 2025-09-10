@@ -20,9 +20,15 @@ next:
 
 Express is one of DX's core solutions that provides a fast and secure next-day delivery service to businesses and home addresses for single and multiple items under 25 kg in weight and 2 metres in dimension.
 
-The DX Express integration into the SAPIENT system provides the following key features: 
+The DX Express integration into the SAPIENT system provides the following key features:
 
-In this section, learn how to:
+* **Ship from destinations**: The integration supports shipping from locations in Great Britain (GB) only.
+* **Ship To Destinations**: Users can send <Glossary>shipments</Glossary> to Great Britain (GB) and Northern Ireland (NI). Shipments to GB country code with a postcode beginning with BT).
+* **Service Type**: The integration is focused on outbound shipping.
+
+## Carrier services
+
+This integration provides the following services;
 
 * [Add DX shipping account](https://docs.intersoftsapient.net/docs/shipping-accounts-5)
 * [Add DX tracking account](https://docs.intersoftsapient.net/docs/tracking-1)
