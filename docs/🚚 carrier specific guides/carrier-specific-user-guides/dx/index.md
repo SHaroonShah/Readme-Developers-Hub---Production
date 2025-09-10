@@ -18,9 +18,9 @@ next:
 
 ***
 
-Express is one of DX's core solutions that provides a fast and secure next-day delivery service to businesses and home addresses for single and multiple items under 25 kg in weight and 2 metres in dimension. 
+Express is one of DX's core solutions that provides a fast and secure next-day delivery service to businesses and home addresses for single and multiple items under 25 kg in weight and 2 metres in dimension.
 
-In SAPIENT, you can integrate with various available DX Express services and features to streamline your shipping process.
+The DX Express integration into the SAPIENT system provides the following key features: 
 
 In this section, learn how to:
 
