@@ -23,11 +23,11 @@ Freight is one of DX's core solutions, also referred to as _IDW_ (Irregular Dime
 This integration provides the following key features:
 
 * **Ship from destinations**: The integration supports shipping from locations in Great Britain (GB) only.
-* **Ship To Destinations**: Users can send <Glossary>shipments</Glossary> to Great Britain (GB) and Channel Islands. 
+* **Ship To Destinations**: Users can send <Glossary>shipments</Glossary> to Great Britain (GB) and Channel Islands.
 
 > 📘 _Note_
 >
-> _Shipments to Channel Islands are treated as domestic destination for freight shipments._ 
+> _Shipments to Channel Islands are treated as domestic destination for freight shipments._
 
 * **Service Type**: The integration is focused on outbound shipping.
 
@@ -35,7 +35,7 @@ This integration provides the following key features:
 
 The following are one of the main DX Freight service types tailored to meet different delivery requirements:
 
-* **DX-1**: a 1 man service type that is typically deigned for door to door standard next-day delivery of parcels weighing up to a specific limit (50 kg) to the capability of effectively handling pallets. This service is usually best for smaller and lighter <Glossary>package</Glossary>s. 1Man service type includes the following services: 
+* **DX-1**: a 1 man service type that is typically deigned for door to door standard next-day delivery of parcels weighing up to a specific limit (50 kg) to the capability of effectively handling pallets. This service is usually best for smaller and lighter <Glossary>package</Glossary>s. 1Man service type includes the following services:
   * **ON**: Overnight
   * **3D**: 3Day
   * 930: Overnight 9:30
@@ -65,7 +65,7 @@ The following API services are provided by the UPS integration:
 The following integration types are available for this integration:
 
 * **Label**: Enables retrieving the package label in the PDF or ZPL format.
-* **Tracking**: Enables data files to be sent via SFTP both—for 1Man and 2Man services.
+* **Tracking**: Enables data files to be sent via SFTP for both—1Man and 2Man services.
 
 In SAPIENT, you can integrate with various available DX Freight services and features to streamline your shipping process.
 
