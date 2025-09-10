@@ -26,10 +26,27 @@ The DX Express integration into the SAPIENT system provides the following key fe
 * **Ship To Destinations**: Users can send <Glossary>shipments</Glossary> to Great Britain (GB) and Northern Ireland (NI). Shipments to GB country code with a postcode beginning with BT).
 * **Service Type**: The integration is focused on outbound shipping.
 
-## Carrier services
+## Additional features
 
-This integration provides the following services;
+The DX Express integration provides the following additional features:
 
+* **Single-piece shipments**: Supports only single-piece shipment (not consignment or multipiece)
+* **Incoterms**: The integration supports <Glossary>DAP</Glossary> and <Glossary>DDP</Glossary>.
+* **Label formats**: <Glossary>PDF</Glossary>, <Glossary>ZPL203DPI</Glossary>, and <Glossary>ZPL300DPI</Glossary>
+* **Package types**: DX support <Glossary>package type</Glossary>s. You can look up for the packages types by calling the [Get Carrier Service Package Types](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services-servicecode-packagetypes#/) endpoint.
+  ## Carrier API services
+  The following API services are provided by the DX Express integration:
+  * **Session API**: The integration to authenticate and authorise users to use the carrier services via API.
+  * **Consignment (Create Shipment) API**: The integration for creating individual shipments per request.
+  * **Label API**: The integration for retrieving the package label in the PDF or ZPL format.
+  * **Tracking**: The integration to track and monitor shipments in real time by receiving automatic updates on shipment status, delivery progress, and exceptions.
+
+## Integration types
+
+The following integration types are available for this integration:
+
+* **Label**: Enables retrieving the package label in the PDF or ZPL format.
+* **Tracking**: Enables the tracking data to be sent via the Tracking API.
 * [Add DX shipping account](https://docs.intersoftsapient.net/docs/shipping-accounts-5)
 * [Add DX tracking account](https://docs.intersoftsapient.net/docs/tracking-1)
 
