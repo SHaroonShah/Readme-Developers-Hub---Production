@@ -26,7 +26,7 @@ In SAPIENT, while [configuring the tracking webhook](https://docs.intersoftsapie
 
 ## Milestones
 
-*Milestones* refer to significant stages within the shipment process that are essential for monitoring process, such as order created, label printed, out for delivery, and so on.
+_Milestones_ refer to significant stages within the shipment process that are essential for monitoring process, such as order created, label printed, out for delivery, and so on.
 
 If you choose to receive tracking milestones, bear in mind that each milestone only gets triggered once. To understand each milestone and its expected order of occurrence, refer to the information explained in the following table:
 
@@ -82,7 +82,7 @@ If you choose to receive tracking milestones, bear in mind that each milestone o
       <td>
         The shipment is undergoing customs inspections.
 
-        *`Note`: this is applicable to international shipments only.*
+        _`Note`: this is applicable to international shipments only._
       </td>
     </tr>
 
@@ -177,4 +177,10 @@ The following events are considered as the final events.
 
 The following table displays a comprehensive structure of the milestones, event codes, and events that occur throughout the shipping journey of a shipment.
 
-<Image align="center" border={true} caption="Intersoft milestones and tracking event codes" src="https://files.readme.io/eb95e75d0daacf194095d1854612c88d7afcce16df350286d3c0ad919e4d7f58-Tracking_webhook_milestones_and_events_latest.png" />
+<Image align="center" border={true} caption="Intersoft milestones and tracking event codes" src="https://files.readme.io/b1bbca49f16a96a5b27941ec0f42315cb937cf2541b6b0a6021cb9f03e317333-Tracking_milestones_list.png" />
+
+> 📘 _Note_
+>
+> _The **ICLR**, **IARR**, and **IRCO** tracking events have not been allocated to any milestones._
+
+<br />
