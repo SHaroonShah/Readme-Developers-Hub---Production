@@ -11,6 +11,36 @@ metadata:
 next:
   description: ''
 ---
+## Royal Mail ID8000 Label Generation for Class 9 Hazardous Goods
+
+Royal Mail customers can now generate ID8000 label alongside the shipping label for Class 9 hazardous goods in SAPIENT. When creating a hazardous shipment, the **Id8000Category** field must be populated to specify the category, such as Medicines or Perfume. If the **PrintId8000Label** field is set to "yes," both the shipping label and ID8000 label will be included in the API response. For multiple Class 9 items, a single ID8000 label will be produced with all relevant categories checked.
+
+> 📘 _Note_
+>
+> _The ID8000 labels are valid only within the UK; shipments destined for outside UK will not generate an ID8000 label_.
+
+## Automated OBA Access Code retrieval for Royal Mail (Coming Soon)
+
+Soon, SAPIENT will support automatic retrieval of OBA Access Codes when adding a new Royal Mail shipping account, updating the Roya Mail shipping accounts from **Sandbox** to **Production**, or linking a new shipping location to an existing shipping account via UI and API. This enhancement leverages Royal Mail’s new **Get Access Code** API to validate account details in real time and eliminate the current 2–5-day approval delay. Once live, customers will experience a faster, more efficient onboarding process without needing manual intervention from the Royal Mail OBA team.
+
+## Swagger documentation updates
+
+The following enhancements have been made to the swagger documentation:
+
+* **Get PUDO Locations**. A new **LC5** code has been added to the **SupplementCode** field in the **Get PUDO Locations** API response. The field description has been updated to include this new code and clarify the suppliers associated with each location type.
+* **DX endpoint updates**. The query and response field descriptions for the following DX API endpoints have been updated to improve clarity and support correct usage of the API:
+  * **Get Accounts**
+  * **Add Account**
+  * **Get Account**
+  * **Update Account**
+  * **Link Locations**
+  * **Get Associated Locations**
+  * **Get Associated Location**
+  * **Create Shipment**
+  * **Print Label**
+
+***
+
 ## HS Code validation enhancement in SAPIENT's core API
 
 The **Hurricane Services** API endpoint of the Sapient Core API is now enhanced to support HS codes longer than 10 digits, enabling accurate code validation for countries like Qatar and Kuwait. The **Commodity Codes Validation** endpoint will send requests to Hurricane’s Quick Check API. In response, two new fields—**originalImportCode** and **originalExportCode**—will be included under the **Items** object, providing the correct codes directly from the Hurricane service. The originalImportCode and originalExportCode fields aren't currently being populated, but have been added to the Commodity Codes Validation response in preparation for future use.
@@ -19,13 +49,13 @@ The **Hurricane Services** API endpoint of the Sapient Core API is now enhanced 
 
 A new field—**ReturnLabelsAtPackageLevel** has been added to the **ShipmentInformation** object of the Create Shipment request within the . This optional field allows customers to choose between returning labels at the shipment-level or at the package-level. Additionally, a **Label** field is also added to the **Packages** object in the Create Shipment response to return a Base64 string of the corresponding label when the **ReturnLabelsAtPackageLevel** field is set to True.
 
-> 📘 ***Note***
+> 📘 _**Note**_
 >
-> *This functionality is currently**only supported for Royal Mail shipments**. The functionality is available with both consignment and multi-piece shipments. If the shipment is processed with this field populated, the labels will be returned at the package level, including Royal Mail partner carrier labels, if applicable. If using offline barcoding without Royal Mail partner labels, the field will be ignored.*
+> _This functionality is currently**only supported for Royal Mail shipments**. The functionality is available with both consignment and multi-piece shipments. If the shipment is processed with this field populated, the labels will be returned at the package level, including Royal Mail partner carrier labels, if applicable. If using offline barcoding without Royal Mail partner labels, the field will be ignored._
 
 ## Get PUDO locations endpoint enhancements
 
-A new **SupplementCode** field has been added to the **EnhancedLocationDetails** object of the **Get PUDO Locations** response. This field contains the Royal Mail supplement code associated with the location. It has been added so that any customers who are using the Get PUDO Locations API but not shipping via Sapient have the correct supplement code available. For customers creating Local Collect shipments via Sapient, the supplement code does \*\*not \*\*need to be provided in the create shipment request - Sapient applies the code automatically when a destinationPudoId is provided.
+A new **SupplementCode** field has been added to the **EnhancedLocationDetails** object of the **Get PUDO Locations** response. This field contains the Royal Mail supplement code associated with the location. It has been added so that any customers who are using the Get PUDO Locations API but not shipping via Sapient have the correct supplement code available. For customers creating Local Collect shipments via Sapient, the supplement code does **not **need to be provided in the create shipment request - Sapient applies the code automatically when a destinationPudoId is provided.
 
 ## InPost integration
 
@@ -73,9 +103,9 @@ The Royal Mail's Local Collect enhancement now provides the following two new lo
 
 This update allows customers to access a broader range of collection points. To utilise these new location types, the customers need to request the **enhancedLocationDetails** object to be returned in the [GET PUDO Locations](https://docs.intersoftsapient.net/reference/get_v4-pudolocations-carriercode-countrycode-postcode#/) response, and save the **locationId** of the chosen location to be sent in the `pudoId` field of the destination address object when preparing the shipment. The existing Local Collect functionality will remain effective if the `pudoId` is not provided.
 
-> 📘 *Note*
+> 📘 _Note_
 >
-> *For more information on the new local collect enhancements, refer to the<Anchor label="Use local collect shipment service" target="_blank" href="https://docs.intersoftsapient.net/update/docs/use-local-collect-shipment-service#/">Use local collect shipment service</Anchor> section.*
+> _For more information on the new local collect enhancements, refer to the[Use local collect shipment service](https://docs.intersoftsapient.net/update/docs/use-local-collect-shipment-service#/) section._
 
 ## Swagger documentation updates
 
@@ -86,9 +116,9 @@ The following updates have been made to the swagger documentation:
   * The existing **locationId** field has been modified to return Royal Mail's unique ID for locations, replacing the previous postcode response.
   * A new **enhancedLocationDetails** object is included in the **GET PUDO Locations** API response when the **includeEnhancedLocationDetails** query parameter is set to true, providing more detailed information about the PUDO locations.
 
-> 📘 *Note*
+> 📘 _Note_
 >
-> *For more information on the new local collect enhancements, refer to the<Anchor label="Use local collect shipment service" target="_blank" href="https://docs.intersoftsapient.net/update/docs/use-local-collect-shipment-service#/">Use local collect shipment service</Anchor> section.*
+> _For more information on the new local collect enhancements, refer to the[Use local collect shipment service](https://docs.intersoftsapient.net/update/docs/use-local-collect-shipment-service#/) section._
 
 * **Royal Mail Create Shipment API endpoint**. A new **pudoId** field has been added to the **Address** object in the Royal Mail Create Shipment request, allowing the capture of the Location ID returned by the **Get PUDO Locations** endpoint. This optional field is only valid for the destination address in Royal Mail shipments and is essential for collection shipments.
 
@@ -148,9 +178,9 @@ With this addition, the following information has been added to the swagger docu
   * **Create Shipment**: Create a new FedEx shipment request.
   * **Print Label**: Generate a label for a FedEx shipment.
 
-> 📘 *Note*
+> 📘 _Note_
 >
-> *For more information on how to set up a FedEx shipping account via the SAPIENT UI, refer to the[Add FedEx shipping account](https://docs.intersoftsapient.net/docs/add-fedex-shipping-account#/) section of our carrier-specific user guides.*
+> _For more information on how to set up a FedEx shipping account via the SAPIENT UI, refer to the[Add FedEx shipping account](https://docs.intersoftsapient.net/docs/add-fedex-shipping-account#/) section of our carrier-specific user guides._
 
 ## New SupplementaryUnits field
 
