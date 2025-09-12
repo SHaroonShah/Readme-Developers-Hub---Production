@@ -2,6 +2,7 @@
 - rm-importers
 - royal-mail
 - an-post
+- dpd-uk
 - dx
 - dx-freight
 - evri
@@ -12,5 +13,4 @@
 - ups
 - the-delivery-group
 - amazon
-- dpd-uk
 - dpd-local
