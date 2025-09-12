@@ -21,9 +21,9 @@ As a TDG customer, you must follow the following prerequisites before onboarding
 2. Once the commercial agreement is in place, the Sales Account Manager will forward the account to the TDG Onboarding team, where an onboarding Manager will be assigned to you.
 3. After, The TDG onboarding team will assign and provide the you with the necessary API credentials required for connecting to Intersoft.
 
-> 🚧 *Important*
+> 🚧 _Important_
 >
-> *After you have received the API credentials from TDG, you can now set up a shipping account on SAPIENT. Before doing that, make sure you have[enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with The Delivery Group and have already [created a shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location).*
+> _After you have received the API credentials from TDG, you can now set up a shipping account on SAPIENT. Before doing that, make sure you have[enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with The Delivery Group and have already [created a shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location)._
 
 To add a shipping account for The Delivery Group in SAPIENT, follow the instructions as explained in the following procedure.
 
@@ -31,7 +31,7 @@ To add a shipping account for The Delivery Group in SAPIENT, follow the instruct
 
 <Image align="center" alt="Accessing shipping accounts" border={true} caption="Accessing shipping accounts" src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" />
 
-2. On the **Shipping Accounts** page that opens, select ![alt text](https://files.readme.io/5eb134426849b1adb3049756830b6bef19e7dc67dca55891e64ff7b9c8eadd8e-add_shipping_account_button.png).
+2. On the **Shipping Accounts** page that opens, select ![](https://files.readme.io/5eb134426849b1adb3049756830b6bef19e7dc67dca55891e64ff7b9c8eadd8e-add_shipping_account_button.png).
 
 <Image align="center" alt="Accessing option to add shipping account" border={true} caption="Selecting option to add shipping account" src="https://files.readme.io/3b149ee84f86fb8d4f02c43b2733c7eb85aea3ac6e2f01692af371f631570bf3-Add_shipping_account_button_DX.png" />
 
@@ -57,7 +57,7 @@ To add a shipping account for The Delivery Group in SAPIENT, follow the instruct
   <tbody>
     <tr>
       <td>
-        **Carrier**\*
+        **Carrier***
       </td>
 
       <td>
@@ -67,13 +67,13 @@ To add a shipping account for The Delivery Group in SAPIENT, follow the instruct
 
     <tr>
       <td>
-        **Shipping Location**\*
+        **Shipping Location***
       </td>
 
       <td>
         From the dropdown menu, select the location that you want to assign to the shipping account you are creating.
 
-        *`Note`: Before selecting the shipping location, make sure you have[created one](https://docs.intersoftsapient.net/docs/add-a-shipping-location) beforehand.*
+        _`Note`: Before selecting the shipping location, make sure you have[created one](https://docs.intersoftsapient.net/docs/add-a-shipping-location) beforehand._
       </td>
     </tr>
   </tbody>
@@ -83,9 +83,11 @@ To add a shipping account for The Delivery Group in SAPIENT, follow the instruct
 
 <Image align="center" alt="Specifying shipping account details" border={true} caption="Specifying shipping account details" src="https://files.readme.io/12ec9fe8afb8e032cec6894c74922036fc43d0290e2b288af427a0a6c6689d06-Shipping_account_block_TDG.png" width="400px" />
 
-> 💡 *Tip*
->
-> *In the following table, the mandatory fields are marked with an asterisk (\*).*
+<Callout icon="💡" theme="default">
+  ### _Tip_
+
+  _In the following table, the mandatory fields are marked with an asterisk (*)._
+</Callout>
 
 <Table align={["center","left"]}>
   <thead>
@@ -103,7 +105,7 @@ To add a shipping account for The Delivery Group in SAPIENT, follow the instruct
   <tbody>
     <tr>
       <td>
-        **Carrier Account Number**\*
+        **Carrier Account Number***
       </td>
 
       <td>
@@ -115,7 +117,7 @@ To add a shipping account for The Delivery Group in SAPIENT, follow the instruct
 
     <tr>
       <td>
-        **Account Name (if different than customer)**\*
+        **Account Name (if different than customer)***
       </td>
 
       <td>
@@ -125,7 +127,7 @@ To add a shipping account for The Delivery Group in SAPIENT, follow the instruct
 
     <tr>
       <td>
-        **Account Type**\*
+        **Account Type***
       </td>
 
       <td>
@@ -139,7 +141,7 @@ To add a shipping account for The Delivery Group in SAPIENT, follow the instruct
 
     <tr>
       <td>
-        **Alias**\*
+        **Alias***
       </td>
 
       <td>
@@ -149,7 +151,7 @@ To add a shipping account for The Delivery Group in SAPIENT, follow the instruct
 
     <tr>
       <td>
-        **Contact Name**\*
+        **Contact Name***
       </td>
 
       <td>
@@ -159,7 +161,7 @@ To add a shipping account for The Delivery Group in SAPIENT, follow the instruct
 
     <tr>
       <td>
-        **Contact Number**\*
+        **Contact Number***
       </td>
 
       <td>
@@ -175,18 +177,18 @@ To add a shipping account for The Delivery Group in SAPIENT, follow the instruct
 
 <AsteridkForMandatoryElements />
 
-|              Element              | Description                                                                                                                                                                                     |
-| :-------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **The Delivery Group Username**\* | Enter the user name that is registered with The Delivery Group.                                                                                                                                 |
-| **The Delivery Group Password**\* | Enter the password associated with The Delivery Group account. It is essential for securing the account and ensuring that only authorized users have access to shipping details and operations. |
+|              Element             | Description                                                                                                                                                                                     |
+| :------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **The Delivery Group Username*** | Enter the user name that is registered with The Delivery Group.                                                                                                                                 |
+| **The Delivery Group Password*** | Enter the password associated with The Delivery Group account. It is essential for securing the account and ensuring that only authorized users have access to shipping details and operations. |
 
-6. After entering all the required information, select ![alt text](https://files.readme.io/721eb0f8be0c99a924b61cbca6496517d03fcbbf235aa0c3d579c60b3131df2a-add_shipping_account_button_2.png).
+6. After entering all the required information, select ![](https://files.readme.io/721eb0f8be0c99a924b61cbca6496517d03fcbbf235aa0c3d579c60b3131df2a-add_shipping_account_button_2.png).
 
 Once done, you have now successfully added a shipping account. You can now start shipping with it.
 
-> 📘 *Note*
+> 📘 _Note_
 >
-> *Shipping account(s) can be added and managed via API. For more information, refer to the[API References](https://docs.intersoftsapient.net/reference/post_v4-shippingaccounts-tdg#/) section.*
+> _Shipping account(s) can be added and managed via API. For more information, refer to the[API References](https://docs.intersoftsapient.net/reference/post_v4-shippingaccounts-tdg#/) section._
 
 ### See also
 
