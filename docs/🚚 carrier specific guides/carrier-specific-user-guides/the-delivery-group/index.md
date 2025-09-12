@@ -28,7 +28,7 @@ The Delivery Group integration provides the following key features:
 * **Package type**: Single-package shipments only. Consignment services are not supported.
 * **Incoterms**: <Glossary>DDU</Glossary> and <Glossary>DDP</Glossary>
 * **Label formats**: <Glossary>PDF</Glossary> and <Glossary>PNG</Glossary>.
-* **Carrier API services**: Tracking and [SubmitItemAdvice](https://docs.intersoftsapient.net/docs/the-delivery-group#carrier-api-services)
+* **Carrier API services**: Tracking and [SubmitItemAdvice]()
 * Package dimensions: Mandatory for TDG.
 
 ## Service enhancements
