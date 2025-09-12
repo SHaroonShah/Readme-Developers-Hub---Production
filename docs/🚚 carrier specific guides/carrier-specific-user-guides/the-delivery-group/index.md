@@ -34,7 +34,7 @@ The Delivery Group integration provides the following key features:
 ## Service enhancements
 
 * **Signed**: To require a signature is required upon delivery of the shipment.
-* **Delivery instructions**: To provide special instructions related to the delivery of the shipment. This may involve guidance on how the package should be handled or specific requests regarding the delivery location (for example, leave at the back door or deliver to a neighbour to sign). 
+* **Delivery instructions**: To provide special instructions related to the delivery of the shipment. This may involve guidance on how the package should be handled or specific requests regarding the delivery location (for example, leave at the back door or deliver to a neighbour to sign).
 
 ## Carrier API services
 
@@ -42,8 +42,6 @@ The following services are included in the The Delivery Group carrier integratio
 
 * **SubmitItemAPI**: This is used to pre-advise the Delivery Group of shipments. In this case, We will request The Delivery Group to send the label in the **SubmitItemAdvice** response, which returns the shipment tracking number and label, therefore there is no need to call the **GetLabel** API to retrieve the label.
 * **TrackingAPI**: The Delivery Group’s tracking API uses the same credentials as the **SubmitItemAdvice** API. Therefore, the username and password set on the shipping account linked to the tracking account is used to authorise requests to the Tracking API.
-
-<br />
 
 In this section, learn how to
 
