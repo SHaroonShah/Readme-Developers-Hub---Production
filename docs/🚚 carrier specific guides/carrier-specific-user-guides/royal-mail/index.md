@@ -26,7 +26,7 @@ The Royal Mail-SAPIENT integration aims to enhance operational efficiency and pr
 This integration provides the following key features:
 
 * **Ship from destinations**: The integration supports shipping from locations in Great Britain (GB) only.
-* **Ship To Destinations**: Users can send <Glossary>shipments</Glossary> to Great Britain (GB), Europe, and the <Glossary>ROW</Glossary> (Rest of the World).
+* **Ship To Destinations**: Users can send <Glossary>shipments</Glossary> to Europe and the <Glossary>ROW</Glossary> (Rest of the World).
 * **Service Type**: The integration is focused on inbound outbound shipping.
 
 ## Enhancements
@@ -58,11 +58,16 @@ The Royal Mail integration provides the following additional features:
 
 The following API services are provided by the Royal Mail integration:
 
-* **Create Shipment**: The integration for creating shipments to reflect FedEx as a primary carrier and allowing users to create shipments using the **Create Shipment** endpoint.
-* **Print Label**:
-* **Print My Label QR Code**:
+* **Create Shipment**: The integration for creating shipments to reflect Royal Mail as a primary carrier and allowing users to create shipments using the **Create Shipment** endpoint.
+* **Print Label**: Generate and return the label for the Royal Mail shipment. This endpoint is utilised after a Royal Mail shipment has been created and is meant to facilitate the printing of the label required for that shipment.
+* **Print My Label QR Code**: Generatr an easy-to-scan QR code for the associated label specified in the **PrintLabel** API endpoint.
+
+> 🚧 _Important_
+>
+> _This endpoint can only be used for Royal Mail Tracked Return services._
+
 * **Pre Allocate Tracking Number**:
-* **Offline Barcoding**: 
+* **Offline Barcoding**:
 * **PUDO Locations**: The integration for cancelling shipments.
 * **International Arrivals Containers**:
 
