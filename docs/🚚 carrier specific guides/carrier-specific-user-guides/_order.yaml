@@ -1,6 +1,7 @@
 - royal-mail-parcel-force-services
 - rm-importers
 - royal-mail
+- amazon
 - an-post
 - dpd-local
 - dpd-uk
@@ -13,4 +14,3 @@
 - the-delivery-group
 - yodel
 - ups
-- amazon
