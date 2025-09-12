@@ -2,7 +2,7 @@
 title: DPD Local
 excerpt: Integration coming soon!
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
