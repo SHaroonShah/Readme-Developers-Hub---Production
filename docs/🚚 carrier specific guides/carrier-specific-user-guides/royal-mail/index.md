@@ -56,10 +56,15 @@ The Royal Mail integration provides the following additional features:
 
 ## Carrier API services
 
-The following API services are provided by the FedEx integration:
+The following API services are provided by the Royal Mail integration:
 
 * **Create Shipment**: The integration for creating shipments to reflect FedEx as a primary carrier and allowing users to create shipments using the **Create Shipment** endpoint.
-* **Cancel Shipment**: The integration for cancelling shipments.
+* **Print Label**:
+* **Print My Label QR Code**:
+* **Pre Allocate Tracking Number**:
+* **Offline Barcoding**: 
+* **PUDO Locations**: The integration for cancelling shipments.
+* **International Arrivals Containers**:
 
 In this section, learn how to:
 
