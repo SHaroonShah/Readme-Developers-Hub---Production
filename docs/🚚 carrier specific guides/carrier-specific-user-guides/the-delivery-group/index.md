@@ -34,7 +34,7 @@ The Delivery Group integration provides the following key features:
 ## Service enhancements
 
 * **Signed**:
-* Delivery instructions: 
+* Delivery instructions:
 
 ## Carrier API services
 
