@@ -31,25 +31,28 @@ This integration provides the following key features:
 
 ## Enhancements
 
-The following are the key enhancements provided by the FedEx integration:
+The following are the key enhancements provided by the Royal Mail integration:
 
-* **Saturday Delivery**: The option to deliver packages on Saturdays for added convenience.
-* **Declared Values**: A surcharge is applicable if the requested declared value of the shipment exceeds the liability stated in FedEx's terms and conditions for the selected service. The _declared value_ of a package represents the maximum liability in connection with the shipment of the package, including, but not limited to, any loss, damage, delay, or missed delivery relating to that shipment. As the shipper, it’s your responsibility to prove any actual damages. Exposure to and risk of any loss in excess of your declared value is assumed by you.
-* **Signature options**: Enhanced signature options include:
-  * **Adult signature**: To obtain a signature from any person of legal age at the delivery address, subject to the provision of a valid ID. If no one qualified to sign is available, an attempt will be made to redeliver the package on another date. Legal age varies depending on the destination country/territory and is governed by local legal age of an adult, not the legal age to purchase specific products.
-  * **Direct signature**: To obtain a signature from someone at the delivery address only. If no one is available to sign, a redelivery attempt of the package will be made on another date.
-  * **Indirect signature**: To obtain a signature from someone at the delivery address, from a neighbour or from a building manager. If no one is available to sign, the package will be delivered on another date.
-  * **No signature required**: To obtain a signature at the delivery address. If no one is available to sign, the package will be kept in a safe place without obtaining the signature.
-* **Email notifications**: Notifications available on delivery, estimated delivery, exceptions, shipment status, and tender.
+* **CL1** - Consequential Loss £1000: Coverage for losses up to £1000.
+* **CL2** - Consequential Loss £2500: Coverage for losses up to £2500.
+* **CL3** - Consequential Loss £5000: Coverage for losses up to £5000.
+* **CL4** - Consequential Loss £7500: Coverage for losses up to £7500.
+* **CL5** - Consequential Loss £10000: Coverage for losses up to £10000
+* **Signed**: A signature is required upon delivery, applicable to 24, 48, 1st Class, and 2nd Class services.
+* **SMS**: Provides delivery updates via SMS for Special Delivery Guaranteed, Tracked, and Tracked High Volume services.
+* **Email**: Sends delivery updates via email for eligible services, such as Special Delivery Guaranteed, Tracked and Tracked High Volume, International Tracked and International Tracked and Signed services.
+* **Safeplace**: The shipment will be left in a specified safe place location; details must be provided in the SafeplaceLocation field. Can be used with Tracked, Tracked High Volume and 24/48 services.
+* **LocalCollect**: The shipment will be delivered to a Post Office for collection by the receiver.  Can be used with Special Delivery Guaranteed, Tracked and Tracked High Volume services.
+* **CustomsEmail**: The receiver's email address will be included in eCustoms data. This enhancement code can be used with international services.
+* **CustomsPhone**: The receiver's phone number will be included in eCustoms data. This enhancement code can be used with international services.
 
 ## Additional features
 
-The FedEx integration provides the following additional features:
+The Royal Mail integration provides the following additional features:
 
 * **Multipiece shipments**: Support for multipiece shipments is included in the integration.
-* **Package Types**: FedEx offers its own distinct <Glossary>package type</Glossary>s. You can look up for the packages types by calling the [Get Carrier Service Package Types](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services-servicecode-packagetypes#/) endpoint.
-* **Incoterms**: The integration supports <Glossary>DDU</Glossary> (Delivered Duty Unpaid), <Glossary>DDP</Glossary> (Delivered Duty Paid), and <Glossary>DAP</Glossary> (Delivered At Place).
-* **Electronic Trade Document (ETD)**: Inclusion of electronic trade documents, such as  <Glossary>commercial invoice</Glossary>, <Glossary>proforma invoice</Glossary>, and in some cases, other specific documents. while configuring the FedEx <Glossary>shipping account</Glossary>. This solution solution allows you to create and send your trade documents electronically when shipping internationally.
+* **Package Types**: Royal Mail offers its own distinct <Glossary>package type</Glossary>s, such as Letter, Large letter, Parcel, and Printed papers. You can look up for the packages types by calling the [Get Carrier Service Package Types](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services-servicecode-packagetypes#/) endpoint.
+* **Incoterms**: The integration supports <Glossary>DDU</Glossary>, <Glossary>DDP</Glossary>, <Glossary>DAP</Glossary>, and <Glossary>DAT</Glossary>.
 
 ## Carrier API services
 
