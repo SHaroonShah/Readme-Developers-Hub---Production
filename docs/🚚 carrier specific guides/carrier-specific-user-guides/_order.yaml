@@ -1,6 +1,7 @@
 - royal-mail-parcel-force-services
 - rm-importers
 - royal-mail
+- an-post
 - evri
 - yodel
 - ups
@@ -9,7 +10,6 @@
 - gls
 - the-delivery-group
 - fedex
-- an-post
 - amazon
 - inpost
 - dpd-uk
