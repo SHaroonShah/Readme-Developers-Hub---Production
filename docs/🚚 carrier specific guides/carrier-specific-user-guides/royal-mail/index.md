@@ -13,9 +13,9 @@ metadata:
 next:
   description: ''
   pages:
-    - type: basic
-      slug: shipping-account-requirements
+    - slug: shipping-account-requirements
       title: Royal Mail shipping account setup
+      type: basic
 ---
 <Image align="center" width="120px" src="https://files.readme.io/a9ee760d85555af384cfd0575c7bc99d51a1aada6dec34c8bfb588907ccd9422-RM_favicon.png" />
 
@@ -31,29 +31,16 @@ This integration provides the following key features:
 
 ## Enhancements
 
-The following are the key enhancements provided by the Royal Mail integration:
+The following are the key enhancements provided by the FedEx integration:
 
-* CL1 - Consequential Loss £1000: Coverage for losses up to £1000.
-* CL2 - Consequential Loss £2500: Coverage for losses up to £2500.
-* CL3 - Consequential Loss £5000: Coverage for losses up to £5000.
-* CL4 - Consequential Loss £7500: Coverage for losses up to £7500.
-* CL5 - Consequential Loss £10000: Coverage for losses up to £10000
-
-Note: Only one type of Consequential Loss is allowed.
-
-• Signed: A signature is required upon delivery, applicable to 24, 48, 1st Class, and 2nd Class services.
-
-• SMS: Provides delivery updates via SMS for Special Delivery Guaranteed, Tracked, and Tracked High Volume services.
-
-• Email: Sends delivery updates via email for eligible services, such as Special Delivery Guaranteed, Tracked and Tracked High Volume, International Tracked and International Tracked and Signed services.
-
-• Safeplace: The shipment will be left in a specified safe place location; details must be provided in the SafeplaceLocation field. Can be used with Tracked, Tracked High Volume and 24/48 services.
-
-• LocalCollect: The shipment will be delivered to a Post Office for collection by the receiver.  Can be used with Special Delivery Guaranteed, Tracked and Tracked High Volume services.
-
-• CustomsEmail: The receiver's email address will be included in eCustoms data. This enhancement code can be used with international services.
-
-• CustomsPhone: The receiver's phone number will be included in eCustoms data. This enhancement code can be used with international services.
+* **Saturday Delivery**: The option to deliver packages on Saturdays for added convenience.
+* **Declared Values**: A surcharge is applicable if the requested declared value of the shipment exceeds the liability stated in FedEx's terms and conditions for the selected service. The _declared value_ of a package represents the maximum liability in connection with the shipment of the package, including, but not limited to, any loss, damage, delay, or missed delivery relating to that shipment. As the shipper, it’s your responsibility to prove any actual damages. Exposure to and risk of any loss in excess of your declared value is assumed by you.
+* **Signature options**: Enhanced signature options include:
+  * **Adult signature**: To obtain a signature from any person of legal age at the delivery address, subject to the provision of a valid ID. If no one qualified to sign is available, an attempt will be made to redeliver the package on another date. Legal age varies depending on the destination country/territory and is governed by local legal age of an adult, not the legal age to purchase specific products.
+  * **Direct signature**: To obtain a signature from someone at the delivery address only. If no one is available to sign, a redelivery attempt of the package will be made on another date.
+  * **Indirect signature**: To obtain a signature from someone at the delivery address, from a neighbour or from a building manager. If no one is available to sign, the package will be delivered on another date.
+  * **No signature required**: To obtain a signature at the delivery address. If no one is available to sign, the package will be kept in a safe place without obtaining the signature.
+* **Email notifications**: Notifications available on delivery, estimated delivery, exceptions, shipment status, and tender.
 
 ## Additional features
 
