@@ -74,9 +74,9 @@ The following API services are provided by the Royal Mail integration:
 >
 > _This endpoint must be called before the **Create Shipment** endpoint so that the desired PUDO location is selected in the Create Shipment request_.
 
-<br />
+* **International Arrivals Containers**: Create and name (with and ID or alias) a new international arrivals container to be used for manifesting a specific group of shipments. Define which carrier and shipping location the container should be linked to.
 
-* **International Arrivals Containers**:
+  Unlike the common [Containers](https://docs.intersoftsapient.net/reference/get_v4-containers#/) API, the **International Arrivals Containers** endpoint is used for Royal Mail shipments that are being imported into GB only. For shipments in these containers, a <Glossary>data solution</Glossary> file is generated and sent to Royal Mail, which allows them to associate the shipments in the container with its associated ID, for better tracking and visibility purposes.
 
 In this section, learn how to:
 
