@@ -28,13 +28,13 @@ The Delivery Group integration provides the following key features:
 * **Package type**: Single-package shipments only. Consignment services are not supported.
 * **Incoterms**: <Glossary>DDU</Glossary> and <Glossary>DDP</Glossary>
 * **Label formats**: <Glossary>PDF</Glossary> and <Glossary>PNG</Glossary>.
-* **Carrier API services**: Tracking and SubmitItemAdvice
-* **Delivery instructions**:
+* **Carrier API services**: Tracking and [SubmitItemAdvice](https://docs.intersoftsapient.net/docs/the-delivery-group#carrier-api-services)
 * Package dimensions: Mandatory for TDG.
 
 ## Service enhancements
 
-* **Signed**: 
+* **Signed**:
+* Delivery instructions: 
 
 ## Carrier API services
 
@@ -43,10 +43,7 @@ The following services are included in the The Delivery Group carrier integratio
 * **SubmitItemAPI**: This is used to pre-advise the Delivery Group of shipments. In this case, We will request The Delivery Group to send the label in the **SubmitItemAdvice** response, which returns the shipment tracking number and label, therefore there is no need to call the **GetLabel** API to retrieve the label.
 * **TrackingAPI**: The Delivery Group’s tracking API uses the same credentials as the **SubmitItemAdvice** API. Therefore, the username and password set on the shipping account linked to the tracking account is used to authorise requests to the Tracking API.
 
-## Integration types
-
-* **Label**: 
-* **Tracking**:
+<br />
 
 In this section, learn how to
 
