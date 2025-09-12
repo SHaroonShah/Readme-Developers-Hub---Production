@@ -29,12 +29,12 @@ The Delivery Group integration provides the following key features:
 * **Incoterms**: <Glossary>DDU</Glossary> and <Glossary>DDP</Glossary>
 * **Label formats**: <Glossary>PDF</Glossary> and <Glossary>PNG</Glossary>.
 * **Carrier API services**: Tracking and SubmitItemAdvice
-* Package dimensions: Mandatory for TDG.
+* **Package dimensions**: Mandatory for TDG.
 
 ## Service enhancements
 
-* **Signed**:
-* Delivery instructions:
+* **Signed**: To require a signature is required upon delivery of the shipment.
+* **Delivery instructions**: To provide special instructions related to the delivery of the shipment. This may involve guidance on how the package should be handled or specific requests regarding the delivery location (for example, leave at the back door or deliver to a neighbour to sign). 
 
 ## Carrier API services
 
