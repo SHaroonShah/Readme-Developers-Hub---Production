@@ -44,14 +44,7 @@ The DX Express integration provides the following additional features:
   > 🚧 _Important_
   >
   > _If you attempt to release a held shipment to a later date, please be aware that the shipment will no longer be eligible for cancellation._
-  <br />
   * **Tracking**: The integration to track and monitor shipments in real time by receiving automatic updates on shipment status, delivery progress, and exceptions.
-
-> 🚧 _Important_
->
-> _If you attempt to release a held shipment to a later date, please be aware that the shipment will no longer be eligible for cancellation._
-
-<br />
 
 ## Integration types
 
