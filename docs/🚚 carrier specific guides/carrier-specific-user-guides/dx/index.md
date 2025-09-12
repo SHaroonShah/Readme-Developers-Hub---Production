@@ -39,6 +39,10 @@ The DX Express integration provides the following additional features:
   * **Session API**: The integration to authenticate and authorise users to use the carrier services via API.
   * **Consignment (Create Shipment) API**: The integration for creating individual shipments per request.
   * **Label API**: The integration for retrieving the package label in the PDF or ZPL format.
+  * **Cancel API**: The integration for  directly calling the DX’s API to cancel shipments within DX’s system, to ensures that cancellations are fully registered with DX, helping prevent customers from being mistakenly charged for cancelled shipments.
+  > 🚧 _Important_
+  >
+  > _If you attempt to release a held shipment to a later date, please be aware that the shipment will no longer be eligible for cancellation._
   * **Tracking**: The integration to track and monitor shipments in real time by receiving automatic updates on shipment status, delivery progress, and exceptions.
 
 ## Integration types
