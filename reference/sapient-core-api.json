@@ -2,7 +2,7 @@
   "openapi": "3.0.1",
   "info": {
     "title": "SAPIENT CORE API",
-    "description": "# Introduction\nHere you will find requirements for integrating with INTERSOFT SAPIENT API.\n\nThe documentation specifically covers how the API can be used by business customers to conduct shipping activity with available carriers and provides the technical information to build this integration. The API allows customers to create and manage shipments, produce labels, customs documentation, and collection manifests, retrieve reference data such as carriers and countries, and maintain their own data such as shipping account details.\n\nIntersoft API is a fully RESTful service implemented using JSON messaging. You, as the customer are responsible for sending JSON messages and for maintaining the capability of receiving JSON messages in the format described in this specification. Request and response examples for each API service are included in this specification.\n\n# Authentication\n\nThe INTERSOFT SAPIENT API uses OAuth2 authentication.\n\nTo request the authorization token you need to create API credentials (Client ID and Secret) on the system first. If you have not done it already, log into your account and go to API Credentials or follow the link [add a link here with the path to the API Credentials menu]. Use the credentials to retrieve the authorization token.\n\nNote: Make sure you copy the Secret and keep it secure as you won't be able to view it again on the system.\n\n<!-- ReDoc-Inject: <SecurityDefinitions /> -->\n",
+    "description": "# Introduction\nHere you will find requirements for integrating with SAPIENT CORE API.\n\nThe documentation specifically covers how the API can be used by business customers to conduct shipping activity with available carriers and provides the technical information to build this integration. The API allows customers to create and manage shipments, produce labels, customs documentation, and collection manifests, retrieve reference data such as carriers and countries, and maintain their own data such as shipping account details.\n\nIntersoft API is a fully RESTful service implemented using JSON messaging. You, as the customer are responsible for sending JSON messages and for maintaining the capability of receiving JSON messages in the format described in this specification. Request and response examples for each API service are included in this specification.\n\n# Authentication\n\nThe SAPIENT CORE API uses OAuth2 authentication.\n\nTo request the authorization token you need to create API credentials (Client ID and Secret) on the system first. If you have not done it already, log into your account and go to API Credentials or follow the link [add a link here with the path to the API Credentials menu]. Use the credentials to retrieve the authorization token.\n\nNote: Make sure you copy the Secret and keep it secure as you won't be able to view it again on the system.\n\n<!-- ReDoc-Inject: <SecurityDefinitions /> -->\n",
     "version": "v4.0",
     "x-logo": {
       "url": "/Content/images/redoc-logo.png",
@@ -376,14 +376,14 @@
                       "TrackingNumber": "TT000000005GB",
                       "BarcodeNumber": "4C0069786000000000B1F",
                       "Reference1": "OrderRef56",
-                      "ShipmentDate": "2025-08-27",
+                      "ShipmentDate": "2025-09-17",
                       "Status": "Created",
                       "ManifestNumber": "ISH2802532",
                       "ContainerId": "South East 1234",
                       "Carrier": "RM",
                       "DestinationCountryCode": "GB",
                       "LastUpdatedBy": "User A",
-                      "LastUpdatedDateUtc": "2025-08-27T08:03:07.507Z"
+                      "LastUpdatedDateUtc": "2025-09-17T08:48:22.500Z"
                     },
                     {
                       "ShippingAccountId": "310d6beb-ae36-40e7-918f-f92100c1719d",
@@ -391,14 +391,14 @@
                       "TrackingNumber": "",
                       "BarcodeNumber": "",
                       "Reference1": "OrderRef57",
-                      "ShipmentDate": "2025-08-27",
+                      "ShipmentDate": "2025-09-17",
                       "Status": "LabelPrinted",
                       "ManifestNumber": "",
                       "ContainerId": "",
                       "Carrier": "RM",
                       "DestinationCountryCode": "GB",
                       "LastUpdatedBy": "User B",
-                      "LastUpdatedDateUtc": "2025-08-27T08:03:07.507Z"
+                      "LastUpdatedDateUtc": "2025-09-17T08:48:22.500Z"
                     }
                   ],
                   "TotalCount": 2
@@ -727,11 +727,11 @@
               "example": [
                 {
                   "ShipmentId": "AD123456783GB",
-                  "ShipmentDate": "2025-09-01"
+                  "ShipmentDate": "2025-09-22"
                 },
                 {
                   "ShipmentId": "e3239e85-ddf8-4323-9064-b83c38eff927",
-                  "ShipmentDate": "2025-09-06"
+                  "ShipmentDate": "2025-09-27"
                 }
               ]
             }
@@ -1420,7 +1420,7 @@
                     {
                       "ContainerId": "South East",
                       "ContainerStatus": "Manifested",
-                      "CreatedDateUtc": "2025-08-27T08:02:59.485Z",
+                      "CreatedDateUtc": "2025-09-17T08:48:17.405Z",
                       "ShippingLocationId": "93f6d928-9456-434a-9d69-60f3b7dea091",
                       "ShippingLocationAlias": "Northern Warehouse",
                       "TotalWeight": 12,
@@ -1431,7 +1431,7 @@
                     {
                       "ContainerId": "South West",
                       "ContainerStatus": "Active",
-                      "CreatedDateUtc": "2025-08-26T08:02:59.485Z",
+                      "CreatedDateUtc": "2025-09-16T08:48:17.405Z",
                       "ShippingLocationId": "93f6d928-9456-434a-9d69-60f3b7dea091",
                       "ShippingLocationAlias": "Northern Warehouse",
                       "TotalWeight": 14,
@@ -1590,7 +1590,7 @@
                     "value": {
                       "ContainerId": "South East",
                       "ContainerStatus": "Active",
-                      "CreatedDateUtc": "2025-08-27T08:03:00.299Z",
+                      "CreatedDateUtc": "2025-09-17T08:48:17.781Z",
                       "CarrierCode": "RM",
                       "ShippingLocationId": "93f6d928-9456-434a-9d69-60f3b7dea091",
                       "ShippingLocationAlias": "Northern Warehouse",
@@ -1607,7 +1607,7 @@
                       "ManifestNumbers": [
                         "COS0000016"
                       ],
-                      "CreatedDateUtc": "2025-08-27T08:03:00.299Z",
+                      "CreatedDateUtc": "2025-09-17T08:48:17.781Z",
                       "CarrierCode": "RM",
                       "ShippingLocationId": "93f6d928-9456-434a-9d69-60f3b7dea091",
                       "ShippingLocationAlias": "Northern Warehouse",
@@ -1989,7 +1989,7 @@
                           "OriginalExportCode": "61091090001"
                         }
                       ],
-                      "GeneratedDate": "2025-08-27T08:03:01.797Z"
+                      "GeneratedDate": "2025-09-17T08:48:18.479Z"
                     }
                   },
                   "Incorrect HSCode": {
@@ -2011,7 +2011,7 @@
                           "OriginalExportCode": "61091090001"
                         }
                       ],
-                      "GeneratedDate": "2025-08-27T08:03:01.798Z"
+                      "GeneratedDate": "2025-09-17T08:48:18.479Z"
                     }
                   }
                 }
@@ -2206,7 +2206,7 @@
                   ],
                   "IsError": false,
                   "Notes": "<taxBreakdown><city><rate>0</rate><value>0</value></city><special><rate>0</rate><value>0</value></special><county><rate>0</rate><value>0</value></county><state><rate>0.06625</rate><value>0</value></state></taxBreakdown>",
-                  "GeneratedDate": "2025-08-27T08:03:03.490Z"
+                  "GeneratedDate": "2025-09-17T08:48:19.773Z"
                 }
               }
             }
@@ -2344,7 +2344,7 @@
                       "IsError": false,
                       "ErrorDescription": "",
                       "Notes": "",
-                      "GeneratedDate": "2025-08-27T08:03:04.210Z"
+                      "GeneratedDate": "2025-09-17T08:48:20.095Z"
                     }
                   },
                   "Prohibited Item": {
@@ -2365,7 +2365,7 @@
                       "IsError": true,
                       "ErrorDescription": "The item amaranth is prohibited",
                       "Notes": "",
-                      "GeneratedDate": "2025-08-27T08:03:04.210Z"
+                      "GeneratedDate": "2025-09-17T08:48:20.095Z"
                     }
                   }
                 }
@@ -2437,44 +2437,44 @@
               "examples": {
                 "Manifest by Shipping Account": {
                   "value": {
-                    "ShippingLocationId": "49127da1-a968-4bba-a6fc-bdcf20ad69af",
-                    "ShippingAccountId": "f4084493-cb9f-4590-b7ef-1a74a7405220",
+                    "ShippingLocationId": "81dfc839-7edd-4477-ad69-98efe7187929",
+                    "ShippingAccountId": "e8d80161-64a0-4dd4-a081-8aaac55eb79c",
                     "Async": false
                   }
                 },
                 "Manifest by Shipping Account in the background": {
                   "value": {
-                    "ShippingLocationId": "8e5d7352-1339-40c7-a69f-fe9cf4edc746",
-                    "ShippingAccountId": "31d4a402-bb08-4fab-b35b-5cda8d7dd842",
+                    "ShippingLocationId": "e5f4ca05-ab56-416e-91f8-12819208f1a2",
+                    "ShippingAccountId": "86a0b197-4d55-4cc4-a146-73024cad1157",
                     "Async": true
                   }
                 },
                 "Manifest by Service": {
                   "value": {
-                    "ShippingLocationId": "4d3f83c7-9f73-4ff3-b8bc-39636a4a64f0",
+                    "ShippingLocationId": "faf9d163-f228-4d62-a2a5-26583093244e",
                     "ServiceCode": "EXPRESS",
                     "Async": false
                   }
                 },
                 "Manifest by Service for Shipping Account Only": {
                   "value": {
-                    "ShippingLocationId": "577d2949-e3c2-4ae9-bd01-9ea36d2a47a4",
-                    "ShippingAccountId": "494d9bc7-76a8-407b-ad71-fcb7a80ecfc7",
+                    "ShippingLocationId": "4bf8af61-0346-4e3a-8709-2775448189e6",
+                    "ShippingAccountId": "9a359393-2f3a-451a-a360-a1584803bfa4",
                     "ServiceCode": "EXPRESS",
                     "Async": false
                   }
                 },
                 "Manifest by Status": {
                   "value": {
-                    "ShippingLocationId": "fba66b32-b867-48dd-978f-bc9d252de19e",
+                    "ShippingLocationId": "b2ae4af8-c9c3-473a-8cc2-ecaf294d22ab",
                     "Status": "Picked",
                     "Async": false
                   }
                 },
                 "Manifest by Container": {
                   "value": {
-                    "ShippingLocationId": "4b0ca439-9a26-4fc6-8f61-a0f5f2f4d6db",
-                    "ContainerId": "ad5f0186-01ed-4c94-8fba-4c908a2a6e18",
+                    "ShippingLocationId": "b6459cf8-5aa7-42d7-a345-14a465067649",
+                    "ContainerId": "637a25ad-ce65-43a3-8b76-d892ef8d08a3",
                     "Async": false
                   }
                 }
@@ -3207,79 +3207,136 @@
                 "schema": {
                   "$ref": "#/components/schemas/GetPudoLocationsResponse"
                 },
-                "example": {
-                  "Locations": [
-                    {
-                      "CarrierCode": "RM",
-                      "LocationAlias": "Chobham Post Office",
-                      "LocationId": "A1B2C3D4",
-                      "Address": {
-                        "Line1": "30 Chertsey Road",
-                        "Line2": "",
-                        "Line3": "Chobham",
-                        "Town": "Woking",
-                        "Postcode": "GU24 8PQ",
-                        "Geolocation": {
-                          "Longitude": -0.5988,
-                          "Latitude": 51.3498
-                        },
-                        "OpeningHours": {
-                          "Monday": {
-                            "OpeningTime": "09:00:00",
-                            "ClosingTime": "17:00:00"
-                          },
-                          "Tuesday": {
-                            "OpeningTime": "09:00:00",
-                            "ClosingTime": "17:00:00"
-                          },
-                          "Wednesday": {
-                            "OpeningTime": "09:00:00",
-                            "ClosingTime": "17:00:00"
-                          },
-                          "Thursday": {
-                            "OpeningTime": "09:00:00",
-                            "ClosingTime": "17:00:00"
-                          },
-                          "Friday": {
-                            "OpeningTime": "09:00:00",
-                            "ClosingTime": "17:00:00"
-                          },
-                          "Saturday": {
-                            "OpeningTime": "09:00:00",
-                            "ClosingTime": "12:30:00"
-                          },
-                          "Sunday": {
-                            "OpeningTime": "",
-                            "ClosingTime": ""
+                "examples": {
+                  "Response": {
+                    "value": {
+                      "Locations": [
+                        {
+                          "CarrierCode": "RM",
+                          "LocationAlias": "J S Pound Plus",
+                          "LocationId": "002373391",
+                          "Address": {
+                            "Line1": "10 Grasmere Parade Wexham Road",
+                            "Line2": "",
+                            "Line3": "",
+                            "Town": "Slough",
+                            "Postcode": "SL2 5HZ",
+                            "Geolocation": {
+                              "Longitude": -0.5787,
+                              "Latitude": 51.5183
+                            },
+                            "OpeningHours": {
+                              "Monday": {
+                                "OpeningTime": "10:00:00",
+                                "ClosingTime": "21:00:00"
+                              },
+                              "Tuesday": {
+                                "OpeningTime": "10:00:00",
+                                "ClosingTime": "21:00:00"
+                              },
+                              "Wednesday": {
+                                "OpeningTime": "10:00:00",
+                                "ClosingTime": "21:00:00"
+                              },
+                              "Thursday": {
+                                "OpeningTime": "10:00:00",
+                                "ClosingTime": "21:00:00"
+                              },
+                              "Friday": {
+                                "OpeningTime": "10:00:00",
+                                "ClosingTime": "21:00:00"
+                              },
+                              "Saturday": {
+                                "OpeningTime": "10:00:00",
+                                "ClosingTime": "21:00:00"
+                              },
+                              "Sunday": {
+                                "OpeningTime": "10:00:00",
+                                "ClosingTime": "21:00:00"
+                              }
+                            }
                           }
                         }
-                      },
-                      "EnhancedLocationDetails": {
-                        "LocationType": "PSH",
-                        "Supplier": "Collect+",
-                        "SupplierLocationType": "Collect+",
-                        "LabelId": "31262463",
-                        "DistanceFromPostcode": 3.2,
-                        "DistanceUnit": "miles",
-                        "SupplementCode": "LC3",
-                        "LocationAvailableFeatures": {
-                          "ServiceCode": "TPN|TPS|TPM|TPL|ITL|ITM|ITN|ITS|TRL|TRM|TRN|TRS|ITC|ITD|ITE|ITF",
-                          "AcceptSignature": true,
-                          "AcceptNonSignature": true,
-                          "LocationServices": "pickup|dropoff|printinstore",
-                          "Facilities": "carparking"
-                        },
-                        "LocationRestrictions": {
-                          "MaxHeight": 45,
-                          "MaxWidth": 35,
-                          "MaxLength": 45,
-                          "MaxWeight": 20,
-                          "MaxSize": "Medium"
-                        }
-                      }
+                      ],
+                      "TotalCount": 1
                     }
-                  ],
-                  "TotalCount": 1
+                  },
+                  "Response with location details": {
+                    "value": {
+                      "Locations": [
+                        {
+                          "CarrierCode": "RM",
+                          "LocationAlias": "J S Pound Plus",
+                          "LocationId": "002373391",
+                          "Address": {
+                            "Line1": "10 Grasmere Parade Wexham Road",
+                            "Line2": "",
+                            "Line3": "",
+                            "Town": "Slough",
+                            "Postcode": "SL2 5HZ",
+                            "Geolocation": {
+                              "Longitude": -0.5787,
+                              "Latitude": 51.5183
+                            },
+                            "OpeningHours": {
+                              "Monday": {
+                                "OpeningTime": "10:00:00",
+                                "ClosingTime": "21:00:00"
+                              },
+                              "Tuesday": {
+                                "OpeningTime": "10:00:00",
+                                "ClosingTime": "21:00:00"
+                              },
+                              "Wednesday": {
+                                "OpeningTime": "10:00:00",
+                                "ClosingTime": "21:00:00"
+                              },
+                              "Thursday": {
+                                "OpeningTime": "10:00:00",
+                                "ClosingTime": "21:00:00"
+                              },
+                              "Friday": {
+                                "OpeningTime": "10:00:00",
+                                "ClosingTime": "21:00:00"
+                              },
+                              "Saturday": {
+                                "OpeningTime": "10:00:00",
+                                "ClosingTime": "21:00:00"
+                              },
+                              "Sunday": {
+                                "OpeningTime": "10:00:00",
+                                "ClosingTime": "21:00:00"
+                              }
+                            }
+                          },
+                          "EnhancedLocationDetails": {
+                            "LocationType": "PSH",
+                            "Supplier": "Collect+",
+                            "SupplierLocationType": "Collect+",
+                            "LabelId": "31262463",
+                            "DistanceFromPostcode": 3.2,
+                            "DistanceUnit": "miles",
+                            "SupplementCode": "LC3",
+                            "LocationAvailableFeatures": {
+                              "ServiceCode": "TPN|TPS|TPM|TPL|ITL|ITM|ITN|ITS|TRL|TRM|TRN|TRS|ITC|ITD|ITE|ITF",
+                              "AcceptSignature": true,
+                              "AcceptNonSignature": true,
+                              "LocationServices": "pickup|dropoff|printinstore",
+                              "Facilities": "carparking"
+                            },
+                            "LocationRestrictions": {
+                              "MaxHeight": 45,
+                              "MaxWidth": 35,
+                              "MaxLength": 45,
+                              "MaxWeight": 20,
+                              "MaxSize": "Medium"
+                            }
+                          }
+                        }
+                      ],
+                      "TotalCount": 1
+                    }
+                  }
                 }
               }
             }
@@ -6151,7 +6208,7 @@
           "MM"
         ],
         "type": "string",
-        "description": "The unit of measurement used for the dimensions provided in the **MaxDimensions** object. These values are commonly defined in centimeters or millimeters.\r<br />**Note**: *By default, this field is set to CM.*"
+        "description": "The unit of measure used for all the dimensions (length, width, height) values of the packages being shipped, allowing for measurements in millimeters and centimeters. This ensures consistency in how dimensions are handled.\r<br />\r<br />***Note:** By Default, this field is set to CM.*"
       },
       "DocumentType": {
         "enum": [
@@ -6214,7 +6271,7 @@
           }
         },
         "additionalProperties": false,
-        "description": "This object provides detailed information on the PUDO location for the requested service.\r<br />\r<br />***Note**: This information is only provided if the **includeEnhancedLocationDetails** field in the query parameter is set to true.*"
+        "description": "This object provides detailed information on the PUDO location for the requested service.\r<br />\r<br />***Note**: This information is only provided if the **enhancedLocationDetails** field in the query parameter is set to true.*"
       },
       "ErrorDetail": {
         "type": "object",
@@ -9154,7 +9211,7 @@
           "Grams"
         ],
         "type": "string",
-        "description": "The unit of measurement used for the weight specified in the MaxWeight field, such as kilograms (kg). For example, if the WeightUnitOfMeasure is \"kg\", all weight limits must be interpreted in kilograms, indicating compliance with the carrier's specifications. The valid values for this field are KG and Grams.\r<br />**Note**: *By default, this field is set to KG.*"
+        "description": " The unit of measure used for all weight values in the shipment, expressed in grams and kilograms, for example, DeclaredWeight, ItemWeight. This is crucial for accurately describing shipment weight.\r<br /> \r<br />***Note:** By default, this field is set to KG.*"
       }
     },
     "securitySchemes": {
