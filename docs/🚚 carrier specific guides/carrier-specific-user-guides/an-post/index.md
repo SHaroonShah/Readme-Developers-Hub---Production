@@ -24,7 +24,7 @@ This integration provides the following key features:
 
 > 🚧 _Important_
 >
-> _If shipping from the GB to Ireland, undelivered or returned parcels will not be returned to your UK address. Instead, they can only be returned to a designated PO Box address at the Portlaoise Mail Centre in Ireland._
+> _If shipping from GB to Ireland, undelivered or returned parcels will not be returned to your UK address. Instead, they can only be returned to a designated PO Box address at the Portlaoise Mail Centre in Ireland._
 
 * **Ship to Destinations**: Users can send <Glossary>shipments</Glossary> to Ireland (IE), Great Britain (GB), Europe, and the <Glossary>ROW</Glossary> (Rest of the World).
 * **Service Type**: The integration is focused on outbound and inbound shipping.
