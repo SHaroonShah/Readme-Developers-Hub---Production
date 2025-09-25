@@ -24,7 +24,7 @@ next:
 
 APIs play a crucial role in the SAPIENT system by facilitating seamless integration with various shipping carriers, third party logistics providers, and other eCommerce platforms. This connectivity allows businesses to automate data exchange, streamline workflows, and ensure real-time updates on shipping performance.
 
-<Image align="center" className="border" border={true} src="https://files.readme.io/82fb0cbe41a890f07d419cd0f39a19ec47336cd51e97fe6969efdb6b26a4d82d-Sapient.png" />
+<Image align="center" border={true} src="https://files.readme.io/82fb0cbe41a890f07d419cd0f39a19ec47336cd51e97fe6969efdb6b26a4d82d-Sapient.png" className="border" />
 
 If you are looking to build an integration, then our API solution will help you incorporate the intelligence of Intersoft SAPIENT into your software with minimal integration effort.
 
@@ -38,7 +38,7 @@ This section outlines the essential information on our APIs and steps to begin u
 
 **Intersoft API**is a fully RESTful service implemented using JSON messaging. You, as the customer, are responsible for sending JSON messages and for maintaining the capability of receiving JSON messages in the format described in this documentation.
 
-<Image align="center" width="500px" src="https://files.readme.io/c388f57ddfed471dccc9c49befdedf8da79a14260f9ffbbc5e7f5996226f2022-Intersoft_api_art.png" />
+<Image align="center" border={false} width="500px" src="https://files.readme.io/c388f57ddfed471dccc9c49befdedf8da79a14260f9ffbbc5e7f5996226f2022-Intersoft_api_art.png" />
 
 ### Seamless integration awaits: Get started with SAPIENT
 
@@ -52,9 +52,9 @@ Let us dive in and explore how to get started on SAPIENT
 * [ ] [Add shipping location(s)](https://docs.intersoftsapient.net/docs/add-a-shipping-location)
 * [ ] [Add shipping account(s)](https://docs.intersoftsapient.net/docs/add-a-shipping-account)
 
-> 🚧 *Important*
+> 🚧 _Important_
 >
-> *The API requires the user to provide a[Bearer token](https://docs.intersoftsapient.net/docs/bearer-token-generation-1). To learn more about the bearer token and its generation, refer to the [Authentication](https://docs.intersoftsapient.net/docs/authentication) section.*
+> _The API requires the user to provide a[Bearer token](https://docs.intersoftsapient.net/docs/bearer-token-generation-1). To learn more about the bearer token and its generation, refer to the [Authentication](https://docs.intersoftsapient.net/docs/authentication) section._
 
 ***
 
@@ -68,3 +68,7 @@ This section provides you with the complimentary information that you might find
 * [Carrier specific guides](https://docs.intersoftsapient.net/docs/carrier-specific-user-guides)
 * [Glossary](https://docs.intersoftsapient.net/docs/glossary-1)
 * [Archived release notes](https://docs.intersoftsapient.net/docs/archived-release-notes)
+
+<Embed typeOfEmbed="iframe" url="" html="false" iframe="true" />
+
+<br />
