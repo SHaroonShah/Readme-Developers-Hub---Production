@@ -70,11 +70,3 @@ This section provides you with the complimentary information that you might find
 * [Carrier specific guides](https://docs.intersoftsapient.net/docs/carrier-specific-user-guides)
 * [Glossary](https://docs.intersoftsapient.net/docs/glossary-1)
 * [Archived release notes](https://docs.intersoftsapient.net/docs/archived-release-notes)
-
-<HTMLBlock>{`
-<KeyPress keyCombo="Ctrl+d">
-  <div>You hit control + d. GREAT JOB!!!!</div>
-</KeyPress>
-`}</HTMLBlock>
-
-<br />
