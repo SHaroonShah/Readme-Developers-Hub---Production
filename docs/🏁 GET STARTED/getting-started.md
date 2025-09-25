@@ -20,17 +20,6 @@ next:
       slug: integration-activation
       title: Integration Activation
 ---
-<HTMLBlock>{`
-<Banner
-  isInline={true}
-  message="This banner is displayed inline. Set isInline to false to move it seamlessly into your page's header!"
-  color="#118cfd"
-  textColor="#ffffff"
-  fontSize="14px"
-  fontWeight="bold"
-/>
-`}</HTMLBlock>
-
 <br />
 
 # Introduction
@@ -83,3 +72,21 @@ This section provides you with the complimentary information that you might find
 * [Archived release notes](https://docs.intersoftsapient.net/docs/archived-release-notes)
 
 <br />
+
+<Cards columns={4}>
+  <Card title="First Card" href="https://readme.com" icon="fa-home" target="_blank">
+    Neque porro quisquam est qui dolorem ipsum quia
+  </Card>
+
+  <Card title="Second Card" icon="fa-user">
+    *Lorem ipsum dolor sit amet, consectetur adipiscing elit*
+  </Card>
+
+  <Card title="Third Card" icon="fa-star">
+    `Ut enim ad minim veniam, quis nostrud ullamco`
+  </Card>
+
+  <Card title="Fourth Card" icon="fa-question">
+    **Excepteur sint occaecat cupidatat non proident**
+  </Card>
+</Cards>
