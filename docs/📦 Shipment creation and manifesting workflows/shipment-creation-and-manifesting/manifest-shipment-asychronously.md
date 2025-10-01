@@ -5,7 +5,7 @@ excerpt: >-
   background without requiring the user to wait for the completion of those
   tasks. 
 deprecated: false
-hidden: true
+hidden: false
 icon: fad fa-diagram-lean-canvas
 metadata:
   robots: index
