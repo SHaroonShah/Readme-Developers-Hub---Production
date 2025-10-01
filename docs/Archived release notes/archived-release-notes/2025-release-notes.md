@@ -11,6 +11,20 @@ metadata:
 next:
   description: ''
 ---
+## Swagger documentation updates
+
+<br />
+
+The following enhancements have been made to the swagger documentation:
+
+* **Get PUDO Locations**. The following enhancements have been made to the **Get PUDO Locations** endpoint:
+  * The **Get PUDO Locations** endpoint has been enhanced to integrate with the InPost **Locations Points** service, unlocking access to both Automated Parcel Machines (APMs or Lockers) and PUDO shop locations. This enhancement provides greater flexibility and convenience for customers choosing out-of-home delivery and return options.
+  * The response example for the **Get PUDO Locations** endpoint in our Swagger documentation has been refined to reflect accurate, up-to-date data, ensuring greater clarity and reliability for customers integrating with our API.
+  * The description of the **Labels** field in the Royal Mail Create Shipment response has been updated to reflect the generation of the ID8000 label—provided that the **PrintId8000Label** field in the request parameters is set to true.
+  * The query and response field descriptions of all the DX API endpoints have been updated to improve clarity and support correct usage of the API.
+
+***
+
 ## Royal Mail ID8000 Label Generation for Class 9 Hazardous Goods
 
 Royal Mail customers can now generate ID8000 label alongside the shipping label for Class 9 hazardous goods in SAPIENT. When creating a hazardous shipment, the **Id8000Category** field must be populated to specify the category, such as Medicines or Perfume. If the **PrintId8000Label** field is set to "yes," both the shipping label and ID8000 label will be included in the API response. For multiple Class 9 items, a single ID8000 label will be produced with all relevant categories checked.
