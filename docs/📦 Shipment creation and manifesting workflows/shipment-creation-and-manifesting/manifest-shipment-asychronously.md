@@ -31,7 +31,7 @@ The primary purpose of implementing an asynchronous manifesting process is to:
 To manifest the shipments in an asynchronous manner via the API, you can use the following endpoints introduced in our core **Manifests** API endpoint:
 
 <Accordion title="Manifest Shipments Async">
-  With this endpoint, you can submit the manifest requests to be processed asynchronously. This endpoint accepts the same parameters as the existing [Manifests](https://docs.intersoftsapient.net/reference/post_v4-manifests-carriercode#/) endpoint, excluding the async parameter.
+  With this endpoint, you can submit the manifest requests to be processed asynchronously. This endpoint acepts same parameters as the existing [Manifests](https://docs.intersoftsapient.net/reference/post_v4-manifests-carriercode#/) endpoint, excluding the async parameter.
 
   A successful async manifest response returns the following parameters:
 
@@ -61,12 +61,12 @@ To manifest the shipments in an asynchronous manner via the API, you can use the
 </Accordion>
 
 <Accordion title="Get Manifest Request Status">
-  With this endpoint, you can check the status of a submitted manifest request. In this endpoint, you must consider the following request parameters:
+  This endpoint allows you to check the status of a submitted manifest request. you must consider the following request parameters:
 
   * **manifestDetail**: An optional parameter, if set to `false` or not populated, the response will include:
-    * **manifestId**
-    * **manifestStatus**
-    * **manifestCount**
+    →→ **manifestId**
+    →→ **manifestStatus**
+    →→ **manifestCount**
 
   If this parameter is set to `true`, and the status is `COMPLETE`, then a full manifest information response will be returned, including manifest images. If the status is `FAILED`, an error will be returned in the response.
 
