@@ -71,5 +71,4 @@ To view a step-by-step process on how to create and manifest shipments via API, 
 **See also**
 
 * [Set up manifest webhook](https://docs.intersoftsapient.net/docs/manifest-webhook#/)
-* [Manifest shipments via UI](https://docs.intersoftsapient.net/docs/manifesting-shipments#/)
 * [View manifest history](https://docs.intersoftsapient.net/docs/manifest-history#/)
