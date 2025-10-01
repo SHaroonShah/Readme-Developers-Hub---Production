@@ -28,7 +28,7 @@ calling to retrieve the manifest status and details, you can set up the webhook 
 
 > 🚧 _Important_
 >
-> _The manifest webhook is only used if you are using the Manifest Shipments Async endpoint to manifest asynchronously._
+> _The manifest webhook is only used if you are using the **Manifest Shipments Async** endpoint to manifest asynchronously._
 
 To set up the manifest webhook connection in SAPIENT, follow the instructions as explained in the following procedure.
 
