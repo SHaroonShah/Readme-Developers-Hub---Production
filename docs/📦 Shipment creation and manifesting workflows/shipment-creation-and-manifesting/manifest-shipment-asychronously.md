@@ -6,7 +6,7 @@ excerpt: >-
   tasks. 
 deprecated: false
 hidden: false
-icon: fad fa-diagram-lean-canvas
+icon: fad fa-loader
 metadata:
   robots: index
 ---
