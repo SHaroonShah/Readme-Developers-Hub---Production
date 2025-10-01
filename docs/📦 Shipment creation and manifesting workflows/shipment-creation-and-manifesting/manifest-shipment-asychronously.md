@@ -14,24 +14,24 @@ metadata:
 
 In the context of the <Glossary>shipment</Glossary> manifesting process, this means that when you submit a <Glossary>manifest</Glossary> request with a large volume of shipments, you will receive an immediate confirmation that their request has been received, while the actual processing of that manifest occurs in the background. You can continue using the system without interruption, improving overall efficiency.
 
-This section provides detailed instructions and information regarding the asynchronous shipment manifesting process for customers using the shipment manifest API in SAPIENT.
+This section provides detailed instructions and information regarding the asynchronous shipment manifesting process for customers using the shipment manifest API or by [setting up the manifest webhook](https://docs.intersoftsapient.net/docs/manifest-webhook#/) in SAPIENT.
 
 The primary purpose of implementing an asynchronous manifesting process is to:
 
 * **Enhanced performance**: By processing manifest requests in the background, the system avoids performance bottlenecks, especially when handling large volumes of shipments simultaneously.
-* **Improved user experience**: You can submit requests without waiting for long processing times and can continue performing other tasks while the shipments are being manifested.
+* **Improved user experience**: You can submit requests without waiting for long processing times and can continue performing other tasks while their shipments are being manifested.
 * **Utilise queueing system**: The requests are managed through a queueing system to ensure they are processed sequentially without overwhelming the system, allowing for more reliable service.
 
 > 🚧 _Important_
 >
-> _It is recommended to use the **Manifest Shipments Async** API endpoint when manifesting your shipments. However, if you are manifesting more than 20k shipments, then you must only use this endpoint. This ensures that requests are processed through the new asynchronous queue, enabling better system performance and improved tracking._
+> _All shipment manifesting operations must now be performed using the **Manifest Shipments Async** API endpoint. This ensures that requests are processed through the new asynchronous queue, enabling better system performance and improved tracking._
 
 ### Manifesting via API
 
 To manifest the shipments in an asynchronous manner via the API, you can use the following endpoints introduced in our core **Manifests** API endpoint:
 
 <Accordion title="Manifest Shipments Async">
-  With this endpoint, you can submit the manifest requests to be processed asynchronously. This endpoint acepts same parameters as the existing [Manifests](https://docs.intersoftsapient.net/reference/post_v4-manifests-carriercode#/) endpoint, excluding the async parameter.
+  With this endpoint, you can submit the manifest requests to be processed asynchronously. This endpoint accepts the same parameters as the existing [Manifests](https://docs.intersoftsapient.net/reference/post_v4-manifests-carriercode#/) endpoint, excluding the async parameter.
 
   A successful async manifest response returns the following parameters:
 
@@ -39,7 +39,7 @@ To manifest the shipments in an asynchronous manner via the API, you can use the
   * **ManifestStatus**: Status of the request, defaults to `PENDING`.
   * **ManifestCount**: Number of manifests created, which will be 0 when initially set to `PENDING`.
 
-  **Example request with service code parameter**
+  **Example request**
 
   ```
   {  
@@ -61,15 +61,12 @@ To manifest the shipments in an asynchronous manner via the API, you can use the
 </Accordion>
 
 <Accordion title="Get Manifest Request Status">
-  This endpoint allows you to check the status of a submitted manifest request. To use this enpoint, you must consider the following request parameters:
+  With this endpoint, you can check the status of a submitted manifest request. In this endpoint, you must consider the following request parameters:
 
   * **manifestDetail**: An optional parameter, if set to `false` or not populated, the response will include:
-
-    → **manifestId**
-
-    → **manifestStatus**
-
-    → **manifestCount**
+    * **manifestId**
+    * **manifestStatus**
+    * **manifestCount**
 
   If this parameter is set to `true`, and the status is `COMPLETE`, then a full manifest information response will be returned, including manifest images. If the status is `FAILED`, an error will be returned in the response.
 
