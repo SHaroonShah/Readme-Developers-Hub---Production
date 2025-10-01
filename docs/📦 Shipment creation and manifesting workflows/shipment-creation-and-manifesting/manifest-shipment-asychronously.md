@@ -64,9 +64,10 @@ To manifest the shipments in an asynchronous manner via the API, you can use the
   This endpoint allows you to check the status of a submitted manifest request. To use this enpoint, you must consider the following request parameters:
 
   * **manifestDetail**: An optional parameter, if set to `false` or not populated, the response will include:
-    →→ **manifestId**
-    →→ **manifestStatus**
-    →→ **manifestCount**
+
+    → **manifestId**
+    → **manifestStatus**
+    → **manifestCount**
 
   If this parameter is set to `true`, and the status is `COMPLETE`, then a full manifest information response will be returned, including manifest images. If the status is `FAILED`, an error will be returned in the response.
 
