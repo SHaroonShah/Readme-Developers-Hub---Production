@@ -195,14 +195,14 @@ The webhook payload will be sent for manifest requests with a status of both `CO
 
 > 🚧 _Important_
 >
-> If the webhook call is not sent successfully, SAPIENT will retry sending the webhook at the following
-> intervals: 
+> _If the webhook call is not sent successfully, SAPIENT will retry sending the webhook at the following
+> intervals:_
 >
-> * 5 mins
-> * 15 mins 
-> * 60 mins 
+> * _5 mins_
+> * _15 mins_
+> * _60 mins_
 >
-> _If the retry attempts are all unsuccessful, the webhook call will fail and SAPIENT will no longer send it again. In this case the Webhook will be suspended and will be notified to you via email._
+> _If the retry attempts are all unsuccessful, the webhook call will fail and SAPIENT will no longer send it again. In this case the Webhook will be suspended. For more information on how to handle the webhook suspension, refer to the Webhook suspension section._
 
 <br />
 
