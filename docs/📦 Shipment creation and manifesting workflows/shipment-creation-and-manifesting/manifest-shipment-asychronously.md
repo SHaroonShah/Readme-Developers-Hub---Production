@@ -90,7 +90,7 @@ To manifest the shipments in an asynchronous manner via the API, you can use the
   ```
 </Accordion>
 
-## **See also**
+#### **See also**
 
 * [Set up manifest webhook](https://docs.intersoftsapient.net/docs/manifest-webhook#/)
 * [Manifest shipments via UI](https://docs.intersoftsapient.net/docs/manifesting-shipments#/)
