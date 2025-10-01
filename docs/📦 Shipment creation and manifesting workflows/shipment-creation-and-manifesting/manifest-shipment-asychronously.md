@@ -31,7 +31,7 @@ The primary purpose of implementing an asynchronous manifesting process is to:
 To manifest the shipments in an asynchronous manner via the API, you can use the following endpoints introduced in our core [Manifests](https://docs.intersoftsapient.net/reference/post_v4-manifests-carriercode#/) API endpoint:
 
 <Accordion title="Manifest Shipments Async">
-  With this endpoint, you can submit the manifest requests to be processed asynchronously. This endpoint accepts the same parameters as the existing Manifests endpoint, excluding the async parameter.
+  With this endpoint, you can submit the manifest requests to be processed asynchronously. This endpoint accepts the same parameters as the existing [Manifests](https://docs.intersoftsapient.net/reference/post_v4-manifests-carriercode#/) endpoint, excluding the async parameter.
 
   A successful async manifest response returns the following parameters:
 
