@@ -26,8 +26,6 @@ The primary purpose of implementing an asynchronous manifesting process is to:
 >
 > _All shipment manifesting operations must now be performed using the **Manifest Shipments Async** API endpoint. This ensures that requests are processed through the new asynchronous queue, enabling better system performance and improved tracking._
 
-<br />
-
 ### Manifesting via API
 
 To manifest the shipments in an asynchronous manner via the API, you can use the following endpoints introduced in our core [Manifests](https://docs.intersoftsapient.net/reference/post_v4-manifests-carriercode#/) API endpoint:
