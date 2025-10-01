@@ -29,47 +29,49 @@ To manifest the shipments in an asynchronous manner via the API, you can use the
 <Accordion title="Manifest Shipments Async">
   With this endpoint, you can submit the manifest requests to be processed asynchronously. This endpoint accepts the same parameters as the existing Manifests endpoint, excluding the async parameter.
 
-A successful async manifest response returns the following parameters:
+  A successful async manifest response returns the following parameters:
 
-* **ManifestRequestID**: GUID to uniquely identify the manifest request.
-* **ManifestStatus**: Status of the request, defaults to `PENDING`.
-* **ManifestCount**: Number of manifests created, which will be 0 when initially set to `PENDING`.
+  * **ManifestRequestID**: GUID to uniquely identify the manifest request.
+  * **ManifestStatus**: Status of the request, defaults to `PENDING`.
+  * **ManifestCount**: Number of manifests created, which will be 0 when initially set to `PENDING`.
 
-**Example request**
+  **Example request**
 
-```
-{  
- "ShippingLocationId": "16f91589-cb07-430f-aed8-6c0c025bdc32",  
- "ShippingAccountId": "24a8da75-a148-415c-802e-e37a72acfa7f",  
- "ServiceCode": "CRL1"  
-} 
-```
+  ```
+  {  
+   "ShippingLocationId": "16f91589-cb07-430f-aed8-6c0c025bdc32",  
+   "ShippingAccountId": "24a8da75-a148-415c-802e-e37a72acfa7f",  
+   "ServiceCode": "CRL1"  
+  } 
+  ```
 
-Example response (🟢200 - Successful)
+  Example response (🟢200 - Successful)
 
-```
-{  
- "ManifestRequestId": "3a0c17c5-0ca4-455c-ac65-a20d95e656bc",  
- "ManifestRequestStatus": "PENDING",  
- "ManifestCount": 0  
-}
-```
+  ```
+  {  
+   "ManifestRequestId": "3a0c17c5-0ca4-455c-ac65-a20d95e656bc",  
+   "ManifestRequestStatus": "PENDING",  
+   "ManifestCount": 0  
+  }
+  ```
 </Accordion>
 
-### Manifest Shipments Async
-
-
+<Accordion title="Get Manifest Request Status">
+  Lorem ipsum dolor sit amet, **consectetur adipiscing elit.** Ut enim
+  ad minim veniam, quis nostrud exercitation ullamco. Excepteur sint
+  occaecat cupidatat non proident!
+</Accordion>
 
 ### Get Manifest Request Status
 
 With this endpoint, you can check the status of a submitted manifest request. In this endpoint, you must consider the following request parameters:
 
-* **manifestDetail**: An optional parameter, if set to `false` or not populated, the response will include: 
+* **manifestDetail**: An optional parameter, if set to `false` or not populated, the response will include:
   * **manifestId**
   * **manifestStatus**
   * **manifestCount**
 
- If this parameter is set to `true`, and the status is `COMPLETE`, then a full manifest information response will be returned, including manifest images. If the status is `FAILED`, an error will be returned in the response.
+If this parameter is set to `true`, and the status is `COMPLETE`, then a full manifest information response will be returned, including manifest images. If the status is `FAILED`, an error will be returned in the response.
 
 **Example request**
 
