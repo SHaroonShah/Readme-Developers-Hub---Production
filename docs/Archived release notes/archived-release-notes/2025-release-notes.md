@@ -11,9 +11,31 @@ metadata:
 next:
   description: ''
 ---
-## Swagger documentation updates
+## DX Cancel API
 
-<br />
+The SAPIENT system now directly calls DX’s API to cancel shipments within DX’s system. This enhancement ensures that cancellations are fully registered with DX, helping prevent customers from being mistakenly charged for cancelled shipments.
+
+## Recall cancelled DX shipment
+
+The SAPIENT system now prevents any recall actions for a cancelled DX shipment and ensures the shipment remains in its cancelled state.
+
+## INTERSOFT's new tracking events
+
+The following new tracking events have been added in addition to our existing ones:
+
+| Tracking event code | Event description                               |
+| :------------------ | :---------------------------------------------- |
+| **IARR**            | Shipment Arrived at Facility                    |
+| **ICLR**            | Shipment Customs Cleared                        |
+| **IRCO**            | Shipment Ready for Collection from the Facility |
+
+## Royal Mail logo update
+
+The Royal Mail carrier logo has been updated on our ReadMe platform and the **Get Carrier** endpoint response to reflect the new King’s Cruciform emblem. This change honours the latest royal insignia and ensures our visuals stay current and consistent across all touchpoints.
+
+<Image align="center" border={true} width="300px" src="https://files.readme.io/d7a05aaef8593abbeec4d05402e47fb6bf6dccabae93be7f1a6bd58f91b98d85-RM_favicon.png" className="border" />
+
+## Swagger documentation updates
 
 The following enhancements have been made to the swagger documentation:
 
@@ -88,9 +110,6 @@ The In Post integration has been added to the SAPIENT system, providing users wi
   * **Shipments**
     * **Create Shipment**: Create a new InPost shipment request.
     * **Print Label**: Generate a label for the InPost shipment.
-
-***
-
 * **InPost shipping account screen**. As part of the InPost integration in Sapient, customer users and Carrier Account Administrators can now configure the InPost shipping account via the SAPIENT UI for creating shipments. This integration supports both outbound and return shipments using InPost’s eco-friendly parcel locker service across England, Wales, and Scotland. The **Add Shipping Account** screen will now include InPost as a carrier for selection, with mandatory fields required for configuration. Additionally, carrier-specific fields for the InPost integration include a mandatory **Client ID** and a **Bearer token** (to be provided by the carrier).
 
 ***
