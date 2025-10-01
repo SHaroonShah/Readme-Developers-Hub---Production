@@ -12,7 +12,7 @@ metadata:
 ---
 ## Manifesting shipments via asynchronous process
 
-In the context of the shipment manifesting process, this means that when customers submit a manifest request with a large volume of shipments, they will receive an immediate confirmation that their request has been received, while the actual processing of that manifest occurs in the background. You can continue using the system without interruption, improving overall efficiency.
+In the context of the shipment manifesting process, this means that when you submit a manifest request with a large volume of shipments, you will receive an immediate confirmation that their request has been received, while the actual processing of that manifest occurs in the background. You can continue using the system without interruption, improving overall efficiency.
 
 This section provides detailed instructions and information regarding the asynchronous shipment manifesting process for customers using the shipment manifest API in SAPIENT.
 
