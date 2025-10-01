@@ -1,5 +1,5 @@
 ---
-title: Manifest history
+title: View manifest history
 excerpt: >-
   The manifest history feature provides a comprehensive record of all shipping
   manifests generated over time. It is primarily used to review , track, and
