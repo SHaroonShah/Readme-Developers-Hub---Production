@@ -19,7 +19,7 @@ This section provides detailed instructions and information regarding the asynch
 The primary purpose of implementing an asynchronous manifesting process is to:
 
 * **Enhanced performance**: By processing manifest requests in the background, the system avoids performance bottlenecks, especially when handling large volumes of shipments simultaneously.
-* **Improved user experience**: You can submit requests without waiting for long processing times and can continue performing other tasks while their shipments are being manifested.
+* **Improved user experience**: You can submit requests without waiting for long processing times and can continue performing other tasks while the shipments are being manifested.
 * **Utilise queueing system**: The requests are managed through a queueing system to ensure they are processed sequentially without overwhelming the system, allowing for more reliable service.
 
 > 🚧 _Important_
