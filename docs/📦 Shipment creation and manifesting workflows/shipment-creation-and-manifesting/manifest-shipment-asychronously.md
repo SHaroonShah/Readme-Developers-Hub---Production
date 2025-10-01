@@ -57,35 +57,39 @@ To manifest the shipments in an asynchronous manner via the API, you can use the
 </Accordion>
 
 <Accordion title="Get Manifest Request Status">
- With this endpoint, you can check the status of a submitted manifest request. In this endpoint, you must consider the following request parameters:
+  With this endpoint, you can check the status of a submitted manifest request. In this endpoint, you must consider the following request parameters:
 
-* **manifestDetail**: An optional parameter, if set to `false` or not populated, the response will include:
-  * **manifestId**
-  * **manifestStatus**
-  * **manifestCount**
+  * **manifestDetail**: An optional parameter, if set to `false` or not populated, the response will include:
+    * **manifestId**
+    * **manifestStatus**
+    * **manifestCount**
 
-If this parameter is set to `true`, and the status is `COMPLETE`, then a full manifest information response will be returned, including manifest images. If the status is `FAILED`, an error will be returned in the response.
+  If this parameter is set to `true`, and the status is `COMPLETE`, then a full manifest information response will be returned, including manifest images. If the status is `FAILED`, an error will be returned in the response.
 
-**Example request**
+  **Example request**
 
-```
-{
-"ManifestRequestId": "3a0c17c5-0ca4-455c-ac65-a20d95e656bc"
-"ManifestDetail":"true"
-}  
-```
+  ```
+  {
+  "ManifestRequestId": "3a0c17c5-0ca4-455c-ac65-a20d95e656bc"
+  "ManifestDetail":"true"
+  }  
+  ```
 
-**Example response**(🟢200 - Successful)
+  **Example response**(🟢200 - Successful)
 
-```
-{  
- "ManifestRequestId": "3a0c17c5-0ca4-455c-ac65-a20d95e656bc",  
- "ManifestRequestStatus": "IN PROGRESS"  
- "ManifestCount": 0  
-}
-```
+  ```
+  {  
+   "ManifestRequestId": "3a0c17c5-0ca4-455c-ac65-a20d95e656bc",  
+   "ManifestRequestStatus": "IN PROGRESS"  
+   "ManifestCount": 0  
+  }
+  ```
 </Accordion>
 
 **See also**
 
-* <br />
+* [Set up manifest webhook](https://docs.intersoftsapient.net/docs/manifest-webhook#/)
+* [Manifest shipment from UI](https://docs.intersoftsapient.net/docs/manifesting-shipments#/)
+* [View manifest history](https://docs.intersoftsapient.net/docs/manifest-history#/) 
+
+<br />
