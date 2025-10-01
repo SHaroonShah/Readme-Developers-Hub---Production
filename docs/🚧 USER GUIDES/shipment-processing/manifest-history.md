@@ -153,3 +153,9 @@ To search manifested shipments in SAPIENT, follow the steps as explained in the 
 </Table>
 
 After viewing the manifest history, you can now return to the **Home** page and continue working with your ongoing shipments as needed.
+
+**See also**
+
+* [Set up manifest webhook](https://docs.intersoftsapient.net/docs/manifest-webhook#/)
+* [Manifest shipments via UI](https://docs.intersoftsapient.net/docs/manifesting-shipments#/)
+* [View manifest history](https://docs.intersoftsapient.net/docs/manifest-history#/)
