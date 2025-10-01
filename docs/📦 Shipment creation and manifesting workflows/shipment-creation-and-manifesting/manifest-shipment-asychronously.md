@@ -61,7 +61,7 @@ To manifest the shipments in an asynchronous manner via the API, you can use the
 </Accordion>
 
 <Accordion title="Get Manifest Request Status">
-  This endpoint allows you to check the status of a submitted manifest request. you must consider the following request parameters:
+  This endpoint allows you to check the status of a submitted manifest request. To use this enpoint, you must consider the following request parameters:
 
   * **manifestDetail**: An optional parameter, if set to `false` or not populated, the response will include:
     →→ **manifestId**
