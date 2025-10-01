@@ -39,7 +39,7 @@ To manifest the shipments in an asynchronous manner via the API, you can use the
   * **ManifestStatus**: Status of the request, defaults to `PENDING`.
   * **ManifestCount**: Number of manifests created, which will be 0 when initially set to `PENDING`.
 
-  **Example request**
+  **Example request with service code parameter**
 
   ```
   {  
@@ -49,7 +49,7 @@ To manifest the shipments in an asynchronous manner via the API, you can use the
   } 
   ```
 
-  Example response (🟢200 - Successful)
+  **Example response** (🟢200 - Successful)
 
   ```
   {  
