@@ -19,12 +19,12 @@ This section provides detailed instructions and information regarding the asynch
 The primary purpose of implementing an asynchronous manifesting process is to:
 
 * **Enhanced performance**: By processing manifest requests in the background, the system avoids performance bottlenecks, especially when handling large volumes of shipments simultaneously.
-* **Improved user experience**: You can submit requests without waiting for long processing times and can continue performing other tasks while their shipments are being manifested.
+* **Improved user experience**: You can submit requests without waiting for long processing times and can continue performing other tasks while the shipments are being manifested.
 * **Utilise queueing system**: The requests are managed through a queueing system to ensure they are processed sequentially without overwhelming the system, allowing for more reliable service.
 
 > 🚧 _Important_
 >
-> _All shipment manifesting operations must now be performed using the **Manifest Shipments Async** API endpoint. This ensures that requests are processed through the new asynchronous queue, enabling better system performance and improved tracking._
+> _It is recommended to use the **Manifest Shipments Async** API endpoint when manifesting your shipments. However, if you are manifesting more than 20k shipments, then you must only use this endpoint. This ensures that requests are processed through the new asynchronous queue, enabling better system performance and improved tracking._
 
 ### Manifesting via API
 
@@ -39,7 +39,7 @@ To manifest the shipments in an asynchronous manner via the API, you can use the
   * **ManifestStatus**: Status of the request, defaults to `PENDING`.
   * **ManifestCount**: Number of manifests created, which will be 0 when initially set to `PENDING`.
 
-  **Example request**
+  **Example request with service code parameter**
 
   ```
   {  
