@@ -233,6 +233,8 @@ The webhook payload will be sent for manifest requests with a status of both `CO
 
 **See also**
 
-* <br />
+* <Anchor label="Manifest shipments asynchronously" target="_blank" href="https://docs.intersoftsapient.net/docs/manifest-shipment-asychronously#/">Manifest shipments asynchronously</Anchor>
+* [Manifest shipment from UI](https://docs.intersoftsapient.net/docs/manifesting-shipments#/)
+* [View manifest history](https://docs.intersoftsapient.net/docs/manifest-history#/)
 
 <br />
