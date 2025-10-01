@@ -188,10 +188,36 @@ If for some reason, the connectivity test fails, the following message is displa
 The webhook payload will be sent for manifest requests with a status of both `COMPLETE` and
 `FAILED`.
 
-* If the manifestStatus = `FAILED`, the webhook payload will be the same as the Get Manifest Status
-  endpoint FailedStatus response – that is, it will contain a FailureReason and error details.
-* If the manifestStatus = `COMPLETE`, the webhook payload will be the same as the Get Manifest Status
+* If the **manifestStatus** = `COMPLETE`, the webhook payload will be the same as the **Get Manifest Status**
   endpoint detailed response.
+
+**Example payload**
+
+```
+{
+       "manifestRequestId": "unique-guid",
+       "manifestRequestStatus": "COMPLETE",
+       "ManifestCount": 10,
+       // ... additional details
+   }
+```
+
+* If the **manifestStatus** = `FAILED`, the webhook payload will be the same as the **Get Manifest Status**
+  endpoint FailedStatus response – that is, it will contain a FailureReason and error details.
+
+**Failed request example**
+
+```
+ {
+       "ManifestRequestId": "3a0c17c5-0ca4-455c-ac65-a20d95e656bc",  
+ "ManifestRequestStatus": "FAILED",  
+ "ManifestCount": 10,  
+ "FailedReason": "Reason for failure",{  
+ "Message": "Error message ",   
+ "Errors": "list of errors",[  
+       }
+   }
+```
 
 > 🚧 _Important_
 >
