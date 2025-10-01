@@ -231,6 +231,8 @@ The webhook payload will be sent for manifest requests with a status of both `CO
 >
 > _If the retry attempts are all unsuccessful, the webhook call will fail and SAPIENT will no longer send it again. In this case the Webhook will be suspended. For more information on how to handle the webhook suspension, refer to the [Webhook suspension](https://docs.intersoftsapient.net/docs/webhook-suspension#/) section._
 
-<br />
+**See also**
+
+* <br />
 
 <br />
