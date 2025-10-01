@@ -89,7 +89,7 @@ To manifest the shipments in an asynchronous manner via the API, you can use the
 **See also**
 
 * [Set up manifest webhook](https://docs.intersoftsapient.net/docs/manifest-webhook#/)
-* [Manifest shipment from UI](https://docs.intersoftsapient.net/docs/manifesting-shipments#/)
-* [View manifest history](https://docs.intersoftsapient.net/docs/manifest-history#/) 
+* [Manifest shipment via UI](https://docs.intersoftsapient.net/docs/manifesting-shipments#/)
+* [View manifest history](https://docs.intersoftsapient.net/docs/manifest-history#/)
 
 <br />
