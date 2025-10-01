@@ -158,4 +158,5 @@ After viewing the manifest history, you can now return to the **Home** page and 
 
 * [Set up manifest webhook](https://docs.intersoftsapient.net/docs/manifest-webhook#/)
 * [Manifest shipments via UI](https://docs.intersoftsapient.net/docs/manifesting-shipments#/)
-* [View manifest history](https://docs.intersoftsapient.net/docs/manifest-history#/)
+
+<br />
