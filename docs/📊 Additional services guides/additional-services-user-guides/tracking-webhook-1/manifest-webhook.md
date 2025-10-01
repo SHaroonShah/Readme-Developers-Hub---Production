@@ -8,7 +8,7 @@ excerpt: >-
   statuses without the need for constant polling or manual checking.
 deprecated: false
 hidden: false
-icon: fad fa-truck-arrow-right
+icon: fad fa-spider-web
 metadata:
   title: ''
   description: ''
