@@ -36,7 +36,7 @@ This section outlines the sign-off process for each scenario, highlights key API
 > * _SAPIENT sends a separate **OBA Access Code** request for each linked location._
 > * _All locations must succeed for the account to be updated to **Production**._
 > * _If any location fails, the account remains as Sandbox._
-> * _Once you switch from **Sandbox** to **Production**, the system makes a one-time **OBA Access Code** request. If the switch is successful, future changes to the account type will not trigger another OBA call, since the account is already approved and active._ 
+> * _Once you switch from **Sandbox** to **Production**, the system makes a one-time **OBA Access Code** request. If the switch is successful, future changes to the account type will not trigger another OBA call, since the account is already approved and active._
 
 ## Linking a new location to an existing shipping account
 
@@ -58,6 +58,170 @@ After your shipping account has been approved by Royal Mail,  the status of your
 To view a step-by-step process on how to add a shipping account with a new shipping location, refer to the following API recipe:
 
 <Recipe slug="create-a-royal-mail-shipping-account-with-a-new-shipping-location" title="Create a shipping account with a new shipping location" />
+
+## Possible OBA error codes
+
+<Table align={["center","left","left"]}>
+  <thead>
+    <tr>
+      <th>
+        Error Code
+      </th>
+
+      <th>
+        Error Message
+      </th>
+
+      <th>
+        Reason 
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        E0004
+      </td>
+
+      <td>
+        <br /><br />
+      </td>
+
+      <td>
+
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        E0005
+      </td>
+
+      <td>
+
+      </td>
+
+      <td>
+
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        E0006
+      </td>
+
+      <td>
+
+      </td>
+
+      <td>
+
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        E0007
+      </td>
+
+      <td>
+
+      </td>
+
+      <td>
+
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        E0008
+      </td>
+
+      <td>
+
+      </td>
+
+      <td>
+
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        E0009
+      </td>
+
+      <td>
+
+      </td>
+
+      <td>
+
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        E0011
+      </td>
+
+      <td>
+
+      </td>
+
+      <td>
+
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        E0012
+      </td>
+
+      <td>
+
+      </td>
+
+      <td>
+
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        E0013
+      </td>
+
+      <td>
+
+      </td>
+
+      <td>
+
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        E0016
+      </td>
+
+      <td>
+
+      </td>
+
+      <td>
+
+      </td>
+    </tr>
+  </tbody>
+</Table>
+
+<br />
 
 ### See also
 
