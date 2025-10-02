@@ -1,5 +1,5 @@
 ---
-title: Set up manifest webhook
+title: Set up manifest webhook (coming soon)
 excerpt: >-
   A _Manifest Webhook_ is a tool used particularly in API integrations, to
   receive real-time updates or notifications whenever specific events occur in
