@@ -17,8 +17,11 @@ next:
 ---
 In SAPIENT, you can <Glossary>manifest</Glossary> the <Glossary>shipment</Glossary>:
 
-* [In a container](https://docs.intersoftsapient.net/docs/manifest-shipments-in-a-container)
-* [By the Picked status](https://docs.intersoftsapient.net/docs/manifest-shipments-by-picked-status)
+* <Anchor label="In a container" target="_blank" href="https://docs.intersoftsapient.net/docs/manifest-shipments-in-a-container">In a container</Anchor>
+* <Anchor label="By the Picked status" target="_blank" href="https://docs.intersoftsapient.net/docs/manifest-shipments-by-picked-status">By the Picked status</Anchor>
+* Shipping location
+* Shipping account
+* Service code
 
 <Callout icon="💡" theme="default">
   ### _Tip_
