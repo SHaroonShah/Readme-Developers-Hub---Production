@@ -27,8 +27,6 @@ To view a step-by-step process on how to add a shipping account with a new shipp
 
 <Recipe slug="create-a-royal-mail-shipping-account-with-a-new-shipping-location" title="Create a shipping account with a new shipping location" />
 
-<br />
-
 ### See also
 
 * [Edit shipping account](https://docs.intersoftsapient.net/docs/edit-shipping-account)
