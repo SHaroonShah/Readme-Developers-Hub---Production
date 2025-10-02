@@ -9,7 +9,7 @@ icon: far fa-clipboard-check
 metadata:
   robots: index
 ---
-To ensure a seamless integration between SAPIENT and Royal Mail’s shipping services, it is essential to understand how the Get OBA Access Code API is used across different account lifecycle events. Whether you are dding a new shipping account, transitioning a Sandbox account to Production, or linking a new location to an existing account, SAPIENT coordinates with Royal Mail to validate and activate shipping capabilities by calling its Get OBA Access Code API. 
+To ensure a seamless integration between SAPIENT and Royal Mail’s shipping services, it is essential to understand how the Get OBA Access Code API is used across different account lifecycle events. Whether you are dding a new shipping account, transitioning a Sandbox account to Production, or linking a new location to an existing account, SAPIENT coordinates with Royal Mail to validate and activate shipping capabilities by calling its Get OBA Access Code API.
 
 This section outlines the sign-off process for each scenario, highlights key API interactions, and clarifies limitations and error handling to help customers navigate setup and updates with confidence.
 
@@ -21,13 +21,13 @@ This section outlines the sign-off process for each scenario, highlights key API
 
 > 📘 _Note_
 >
-> _If the <Glossary>account type</Glossary> is set to **Sandbox** and OBA access code is not provided, SAPIENT does not send a request to Royal Mail and the account is created successfully without an OBA access code._
+> _If the <Glossary>account type</Glossary> is set to **Sandbox** and the OBA access code is not provided, SAPIENT does not send a request to Royal Mail and the account is created successfully without an OBA access code._
 
 ## Changing account type from Sandbox to Production
 
-1. If you change the Royal Mail shipping account type from Sandbox to Production, SAPIENT sends a **Get OBA Access Code** request to Royal Mail. 
-2.  If Royal Mail responds successfully, the account type is updated to Production.
-3. If Royal Mail responds with an error, the account remains as Sandbox, and an error message is returned.
+1. If you change the Royal Mail shipping account type from **Sandbox** to **Production**, SAPIENT sends a **Get OBA Access Code** request to Royal Mail.
+2. If Royal Mail responds successfully, the account type is updated to **Production**.
+3. If Royal Mail responds with an error, the account remains as **Sandbox**, and an error message is returned.
 
 > 🚧 _Important_
 >
@@ -45,7 +45,7 @@ This section outlines the sign-off process for each scenario, highlights key API
 
 ## Post-approval activities
 
-After your shipping account has been approved by Royal Mail,  the status of your shipping account is changed to **'Enabled'**. As part of the post-approval activities, you may perform the following tasks, if needed. 
+After your shipping account has been approved by Royal Mail,  the status of your shipping account is changed to **'Enabled'**. Optionally, as part of the post-approval activities, you may perform the following tasks:
 
 1. You can check the account status by viewing the shipping account or via the [Get Account](https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-rm-shippingaccountid) API.
 2. It is also recommended to run the end to end test to ensure that the integration was set up correctly by sending out a test parcel. If tracking has been enabled for the carrier, then you should also receive the tracking events via the <Glossary>tracking webhook</Glossary>.
