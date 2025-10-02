@@ -17,7 +17,7 @@ This section outlines the sign-off process for each scenario, highlights key API
 
 1. After sending the Royal Mail Add Account request with all mandatory fields populated except the OBA access code, SAPIENT sends a **Get OBA Access Code** Request to Royal Mail.
 2. If Royal Mail responds successfully, the shipping account is created in the **Active** status.
-3. If Royal Mail returns an error, the account is not created, and SAPIENT returns the error response.
+3. If Royal Mail returns an error, the account is not created, and SAPIENT returns the [error response](https://docs.intersoftsapient.net/docs/royal-mail-sign-off#possible-oba-error-codes).
 
 > 📘 _Note_
 >
@@ -27,7 +27,7 @@ This section outlines the sign-off process for each scenario, highlights key API
 
 1. If you change the Royal Mail shipping account type from **Sandbox** to **Production**, SAPIENT sends a **Get OBA Access Code** request to Royal Mail.
 2. If Royal Mail responds successfully, the account type is updated to **Production**.
-3. If Royal Mail responds with an error, the account remains as **Sandbox**, and an error message is returned.
+3. If Royal Mail responds with an error, the account remains as **Sandbox**, and an [error message](https://docs.intersoftsapient.net/docs/royal-mail-sign-off#possible-oba-error-codes) is returned.
 
 > 🚧 _Important_
 >
@@ -42,7 +42,7 @@ This section outlines the sign-off process for each scenario, highlights key API
 
 1. When you send the Link Location request, SAPIENT sends the **Get OBA Access Code** request to Royal Mail.
 2. If Royal Mail responds successfully, the location is linked to the shipping account and a successful response is returned.
-3. If Royal Mail responds with an error, the location is not linked, and an error message is returned.
+3. If Royal Mail responds with an error, the location is not linked, and an [error message](https://docs.intersoftsapient.net/docs/royal-mail-sign-off#possible-oba-error-codes) is returned.
 
 ## Post-approval activities
 
