@@ -21,7 +21,7 @@ This section outlines the sign-off process for each scenario, highlights key API
 
 > 📘 _Note_
 >
-> _If the <Glossary>account type</Glossary> is set to **Sandbox** and the OBA access code is not provided, SAPIENT does not send a request to Royal Mail and the account is created successfully without an OBA access code._
+> _If the <Glossary>account type</Glossary> is set to **Sandbox** and the OBA access code is not provided, SAPIENT does not send a request to Royal Mail and the account is created successfully without an OBA access code. You can use this account to create test shipmnets_
 
 ## Changing account type from Sandbox to Production
 
