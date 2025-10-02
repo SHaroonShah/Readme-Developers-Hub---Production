@@ -1,5 +1,5 @@
 ---
-title: Royal Mail sign-off
+title: Royal Mail sign-off via OBA Access Code API
 excerpt: >-
   Sign-off is a process used by the carrier that all necessary steps have been
   completed before using it for creating the shipments.
