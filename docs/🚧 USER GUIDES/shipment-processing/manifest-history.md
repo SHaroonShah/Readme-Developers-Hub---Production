@@ -136,7 +136,7 @@ To search manifested shipments in SAPIENT, follow the steps as explained in the 
       </td>
 
       <td>
-        Represents the total number of <Glossary>package</Glossary>s included in the shipment, vital for planning and inventory management.
+        Represents the total number of <Glossary>package</Glossary>s included in the manifest, vital for planning and inventory management.
       </td>
     </tr>
 
