@@ -1,5 +1,5 @@
 ---
-title: Royal Mail sign-off via OBA Access Code API
+title: Royal Mail OBA account validation and sign-off
 excerpt: >-
   Sign-off is a process used by the carrier that all necessary steps have been
   completed before using it for creating the shipments.
@@ -9,7 +9,7 @@ icon: far fa-clipboard-check
 metadata:
   robots: index
 ---
-To ensure a seamless integration between SAPIENT and Royal Mail’s shipping services, it is essential to understand how the Get OBA Access Code API is used across different account lifecycle events. Whether you are dding a new shipping account, transitioning a Sandbox account to Production, or linking a new location to an existing account, SAPIENT coordinates with Royal Mail to validate and activate shipping capabilities by calling its Get OBA Access Code API.
+To ensure a seamless integration between SAPIENT and Royal Mail’s shipping services, it is essential to understand how the **Get OBA Access Code** API is used across different account lifecycle events. Whether you are dding a new shipping account, transitioning a Sandbox account to Production, or linking a new location to an existing account, SAPIENT coordinates with Royal Mail to validate and activate shipping capabilities by calling its **OBA Access Code** API.
 
 This section outlines the sign-off process for each scenario, highlights key API interactions, and clarifies limitations and error handling to help customers navigate setup and updates with confidence.
 
@@ -34,7 +34,7 @@ This section outlines the sign-off process for each scenario, highlights key API
 > _If your shipping account has multiple locations linked to it, then before transitioning to **Production**, keep in mind the following:_
 >
 > * _SAPIENT sends a separate **OBA Access Code** request for each linked location._
-> * _All locations must succeed for the account to be updated to **Production**._
+> * _All locations must succeed for the account to be updated to Production._
 > * _If any location fails, the account remains as Sandbox._
 
 ## Linking a new location to an existing shipping account
