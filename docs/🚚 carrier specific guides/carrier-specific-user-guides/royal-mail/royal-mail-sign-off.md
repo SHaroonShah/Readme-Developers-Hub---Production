@@ -73,7 +73,7 @@ To view a step-by-step process on how to add a shipping account with a new shipp
       </th>
 
       <th>
-        Reason 
+        Reason for failure
       </th>
     </tr>
   </thead>
