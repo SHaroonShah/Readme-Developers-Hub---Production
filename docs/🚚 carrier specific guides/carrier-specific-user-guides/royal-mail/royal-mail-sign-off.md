@@ -19,11 +19,15 @@ To get your shipping account approved, consider the following:
 4. It is also recommended to run the end to end test to ensure that the integration was set up correctly by sending out a test parcel. If tracking has been enabled for the carrier, then you should also receive the tracking events via the <Glossary>tracking webhook</Glossary>.
 5. If the account cannot be approved, we will contact you and advise accordingly.
 
-> 📘 *Note*
+> 📘 _Note_
 >
-> *Shipping account(s) can be added and managed via API. For more information, refer to the [API References](https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts) section.*
+> _Shipping account(s) can be added and managed via API. For more information, refer to the [API References](https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts) section._
 
 To view a step-by-step process on how to add a shipping account with a new shipping location, refer to the following API recipe:
+
+<Recipe slug="create-a-royal-mail-shipping-account-with-a-new-shipping-location" title="Create a shipping account with a new shipping location" />
+
+<br />
 
 ### See also
 
