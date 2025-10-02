@@ -73,7 +73,7 @@ To view a step-by-step process on how to add a shipping account with a new shipp
       </th>
 
       <th>
-        Reason for failure
+        Error failure
       </th>
     </tr>
   </thead>
@@ -85,11 +85,11 @@ To view a step-by-step process on how to add a shipping account with a new shipp
       </td>
 
       <td>
-        <br /><br />
+        <br />OBA registration failed - Account Number does not exist in OBA
       </td>
 
       <td>
-
+        AccountNumber
       </td>
     </tr>
 
@@ -99,11 +99,11 @@ To view a step-by-step process on how to add a shipping account with a new shipp
       </td>
 
       <td>
-
+        OBA registration failed - Account Number does not have an associated Registered Email Address
       </td>
 
       <td>
-
+        AccountNumber
       </td>
     </tr>
 
@@ -113,11 +113,11 @@ To view a step-by-step process on how to add a shipping account with a new shipp
       </td>
 
       <td>
-
+        OBA registration failed - Registered Email Address is not linked to the Account Number
       </td>
 
       <td>
-
+        AccountRegisteredEmail
       </td>
     </tr>
 
@@ -127,11 +127,11 @@ To view a step-by-step process on how to add a shipping account with a new shipp
       </td>
 
       <td>
-
+        OBA registration failed - Posting Location Number (PLN) does not exist
       </td>
 
       <td>
-
+        PostingLocationCode
       </td>
     </tr>
 
@@ -141,11 +141,11 @@ To view a step-by-step process on how to add a shipping account with a new shipp
       </td>
 
       <td>
-
+        OBA registration failed - Registered Billing Postcode does not match
       </td>
 
       <td>
-
+        RegisteredBillingPostcode
       </td>
     </tr>
 
@@ -155,11 +155,11 @@ To view a step-by-step process on how to add a shipping account with a new shipp
       </td>
 
       <td>
-
+        OBA registration failed - Shipping Location postcode does not match 
       </td>
 
       <td>
-
+        Postcode
       </td>
     </tr>
 
@@ -169,11 +169,11 @@ To view a step-by-step process on how to add a shipping account with a new shipp
       </td>
 
       <td>
-
+        OBA registration failed - Please try again later
       </td>
 
       <td>
-
+        ObaAccessCodeApi
       </td>
     </tr>
 
@@ -183,11 +183,11 @@ To view a step-by-step process on how to add a shipping account with a new shipp
       </td>
 
       <td>
-
+        OBA registration failed - Account number is not active (E01) or suspended (E05)
       </td>
 
       <td>
-
+        AccountNumber
       </td>
     </tr>
 
@@ -197,11 +197,11 @@ To view a step-by-step process on how to add a shipping account with a new shipp
       </td>
 
       <td>
-
+        OBA registration failed - Posting Location Number (PLN) is not linked to the Account Number 
       </td>
 
       <td>
-
+        PostingLocationCode
       </td>
     </tr>
 
@@ -211,17 +211,15 @@ To view a step-by-step process on how to add a shipping account with a new shipp
       </td>
 
       <td>
-
+        OBA registration failed - Matching record already exist in OBA
       </td>
 
       <td>
-
+        ObaAccessCodeApi
       </td>
     </tr>
   </tbody>
 </Table>
-
-<br />
 
 ### See also
 
