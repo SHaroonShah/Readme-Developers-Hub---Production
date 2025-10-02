@@ -1,5 +1,5 @@
 ---
-title: 'Manifest shipments asychronously  '
+title: Manifest shipments asychronously (coming soon)
 excerpt: >-
   An _asynchronous (async)_ process enables the system to perform tasks in the
   background without requiring the user to wait for the completion of those
