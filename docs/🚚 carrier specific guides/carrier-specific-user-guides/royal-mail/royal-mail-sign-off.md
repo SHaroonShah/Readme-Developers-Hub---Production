@@ -34,7 +34,7 @@ This section outlines the sign-off process for each scenario, highlights key API
 > _If your shipping account has multiple locations linked to it, then before transitioning to **Production**, keep in mind the following:_
 >
 > * _SAPIENT sends a separate **OBA Access Code** request for each linked location._
-> * _All locations must succeed for the account to be updated to Production._
+> * _All locations must succeed for the account to be updated to **Production**._
 > * _If any location fails, the account remains as Sandbox._
 
 ## Linking a new location to an existing shipping account
