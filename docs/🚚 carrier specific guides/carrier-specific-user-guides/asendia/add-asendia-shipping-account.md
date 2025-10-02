@@ -1,7 +1,7 @@
 ---
 title: Add Asendia shipping account
 deprecated: false
-hidden: true
+hidden: false
 icon: fad fa-square-plus
 metadata:
   robots: index
