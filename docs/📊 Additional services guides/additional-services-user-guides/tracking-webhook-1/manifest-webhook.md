@@ -167,9 +167,43 @@ To set up the manifest webhook connection in SAPIENT, follow the instructions as
 
 <Image align="center" alt="Success response" border={true} caption="Success response" src="https://files.readme.io/0994fa6-image.png" width="660px" />
 
-Following the success response, a test tracking payload is sent to the webhook as follows:
+Following the success response, a test manifest payload is sent to the webhook as follows:
 
-<Image align="center" alt="tracking payload response example" border={true} caption="tracking payload response example" src="https://files.readme.io/6b06c9d-image.png" />
+```
+{
+  "ManifestRequestId": "3a0c17c5-0ca4-455c-ac65-a20d95e656bc",
+  "ManifestRequestStatus": "COMPLETE",
+  "ManifestCount": 1,
+    "Manifests": [
+      {
+        "CarrierCode": "RM",
+        "CreatedDateUtc": "2024-06-17T10:36:20.072Z",
+        "ManifestDate": "2024-06-17",
+        "ManifestImage": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
+        "ManifestNumber": "ISH2802532",
+        "Service": "CRL1",
+        "ShippingAccount": {
+          "AccountAlias": "Account 1",
+          "AccountName": "AB VideoGames",
+          "AccountNumber": "0123456789",
+          "ShippingAccountId": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+        },
+        "ShippingLocation": {
+          "LocationAlias": "Main Warehouse",
+          "LocationCountry": "GB",
+          "LocationPostcode": "TW20 0HJ",
+          "ShippingLocationId": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+        },
+        "TotalItems": 562,
+        "TotalShipments": 562,
+        "TotalWeight": 545.612,
+        "WeightUnitOfMeasure": "KG"
+      }
+    ],
+  }
+```
+
+<br />
 
 If for some reason, the connectivity test fails, the following message is displayed:
 
