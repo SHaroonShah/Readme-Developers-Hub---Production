@@ -257,4 +257,16 @@ The webhook payload will be sent for manifest requests with a status of both `CO
 * [Manifest shipment from UI](https://docs.intersoftsapient.net/docs/manifesting-shipments#/)
 * [View manifest history](https://docs.intersoftsapient.net/docs/manifest-history#/)
 
-<br />
+<SimpleStepper>
+  <SimpleStep header="Step 1: Plan">
+    Plan your documentation and gather resources.
+  </SimpleStep>
+
+  <SimpleStep header="Step 2: Write">
+    Write effective and clear documentation.
+  </SimpleStep>
+
+  <SimpleStep header="Step 3: Review">
+    Review and refine your content.
+  </SimpleStep>
+</SimpleStepper>
