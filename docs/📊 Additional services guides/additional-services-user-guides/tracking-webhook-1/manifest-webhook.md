@@ -257,6 +257,6 @@ The webhook payload will be sent for manifest requests with a status of both `CO
 * [Manifest shipment from UI](https://docs.intersoftsapient.net/docs/manifesting-shipments#/)
 * [View manifest history](https://docs.intersoftsapient.net/docs/manifest-history#/)
 
-<KeyPress keyCombo="Alt+T">You hit control + d. GREAT JOB!!!!</KeyPress>
+<KeyPress keyCombo="Ctrl+d">You hit control + d. GREAT JOB!!!!</KeyPress>
 
 <br />
