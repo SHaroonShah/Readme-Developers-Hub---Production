@@ -19,9 +19,8 @@ next:
 The manifest webhook feature has several purposes:
 
 * **Real-time Updates**: to receive immediate notifications about shipment activities or status changes, ensuring that the information is up-to-date.
-* **Automation**: to automate the processing of shipping events, reducing manual work and enhances efficiency.
 * **Integration**: to better integration with various services and APIs by providing a mechanism to push data and initiate workflows based on shipping events.
-* **Error Handling**: to notify systems about issues or failures in shipment processing, allowing for timely corrections.
+* **Error Handling**: to notify systems about issues or failures in manifest processing, allowing for timely corrections.
 
 The Manifests webhook is developed as an alternative to the Get Manifest Status endpoint. Instead of
 calling to retrieve the manifest status and details, you can set up the webhook to receive the manifest details when the manifest request has finished processing.
