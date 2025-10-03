@@ -95,7 +95,7 @@ This section provides you with the complimentary information that you might find
             <h2 id="drawer-title" class="text-base font-semibold text-gray-900">Welcome</h2>
           </div>
           <div class="relative mt-6 flex-1 px-4 sm:px-6">
-            <This section provides you with the complimentary information that you might find useful for further insights into the SAPIENT system.>
+            <!This section provides you with the complimentary information that you might find useful for further insights into the SAPIENT system.>
           </div>
         </div>
       </el-dialog-panel>
