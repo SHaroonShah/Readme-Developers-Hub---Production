@@ -1,11 +1,11 @@
 ---
 title: Set up manifest webhook (coming soon)
 excerpt: >-
-  A _Manifest Webhook_ is a tool used particularly in API integrations, to
-  receive real-time updates or notifications whenever specific events occur in
-  the system (such as shipping updates, status changes, and so on). It is
-  commonly used in shipping software to keep track of shipments and their
-  statuses without the need for constant polling or manual checking.
+  A _Webhook_ is a tool used particularly in API integrations, to receive
+  real-time updates or notifications whenever specific events occur in the
+  system (such as shipping updates, status changes, and so on). It is commonly
+  used in shipping software to keep track of shipments and their statuses
+  without the need for constant polling or manual checking.
 deprecated: false
 hidden: false
 icon: fad fa-spider-web
@@ -191,11 +191,36 @@ The webhook payload will be sent for manifest requests with a status of both `CO
 
 ```
 {
-       "manifestRequestId": "unique-guid",
-       "manifestRequestStatus": "COMPLETE",
-       "ManifestCount": 10,
-       // ... additional details
-   }
+  "ManifestRequestId": "3a0c17c5-0ca4-455c-ac65-a20d95e656bc",
+  "ManifestRequestStatus": "COMPLETE",
+  "ManifestCount": 1,
+    "Manifests": [
+      {
+        "CarrierCode": "RM",
+        "CreatedDateUtc": "2024-06-17T10:36:20.072Z",
+        "ManifestDate": "2024-06-17",
+        "ManifestImage": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
+        "ManifestNumber": "ISH2802532",
+        "Service": "CRL1",
+        "ShippingAccount": {
+          "AccountAlias": "Account 1",
+          "AccountName": "AB VideoGames",
+          "AccountNumber": "0123456789",
+          "ShippingAccountId": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+        },
+        "ShippingLocation": {
+          "LocationAlias": "Main Warehouse",
+          "LocationCountry": "GB",
+          "LocationPostcode": "TW20 0HJ",
+          "ShippingLocationId": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+        },
+        "TotalItems": 562,
+        "TotalShipments": 562,
+        "TotalWeight": 545.612,
+        "WeightUnitOfMeasure": "KG"
+      }
+    ],
+  }
 ```
 
 * If the **manifestStatus** = `FAILED`, the webhook payload will be the same as the **Get Manifest Status**
