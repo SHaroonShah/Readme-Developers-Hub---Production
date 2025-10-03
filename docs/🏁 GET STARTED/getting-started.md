@@ -20,6 +20,61 @@ next:
       slug: integration-activation
       title: Integration Activation
 ---
+<HTMLBlock>{`
+Ctrl K
+Docs
+Blog
+Showcase
+Sponsor
+Plus
+July 25, 2025
+Vanilla JavaScript support for Tailwind Plus
+
+Philipp Spiess
+@PhilippSpiess
+
+Adam Wathan
+@adamwathan
+Tailwind Plus Elements
+There are a lot of UI blocks in Tailwind Plus that need JavaScript to really be useful, like dialogs, dropdowns, command palettes, and more. And unless you're a React or Vue user, using those UI blocks has always meant writing all of that tricky JavaScript yourself.
+
+Well today that finally changes — every UI block in Tailwind Plus is now fully functional, accessible, and interactive, including the plain HTML examples.
+
+Now you can use any dropdown, command palette, dialog, drawer, and more in any project you're working on — no JavaScript framework required.
+
+No framework required
+To pull this off, we built @tailwindplus/elements — a library we're releasing exclusively for Tailwind Plus customers.
+
+Elements is a collection of headless custom elements that wrap up all of the complex behavior needed to build custom interactive UIs using just HTML, and can be styled any way you like using utility classes or custom CSS.
+
+Instead of being coupled to a specific JavaScript framework, these custom elements work anywhere you can use a <script> tag:
+
+index.html
+<script src="https://cdn.jsdelivr.net/npm/@tailwindplus/elements@1" type="module"></script>
+Here's what it look like to build a custom dropdown menu with Elements:
+
+<el-dropdown class="relative inline-block text-left">
+  <button class="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-xs ring-1 ring-gray-300 ring-inset hover:bg-gray-50">
+    Options
+    <svg viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="-mr-1 size-5 text-gray-400">
+      <path d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" fill-rule="evenodd" />
+    </svg>
+  </button>
+  <el-menu anchor="bottom end" popover class="w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black/5 transition transition-discrete [--anchor-gap:--spacing(2)] focus:outline-hidden data-closed:scale-95 data-closed:transform data-closed:opacity-0 data-enter:duration-100 data-enter:ease-out data-leave:duration-75 data-leave:ease-in">
+    <div class="py-1">
+      <a href="#" class="block px-4 py-2 text-sm text-gray-700 focus:bg-gray-100 focus:text-gray-900 focus:outline-hidden">Account settings</a>
+      <a href="#" class="block px-4 py-2 text-sm text-gray-700 focus:bg-gray-100 focus:text-gray-900 focus:outline-hidden">Support</a>
+      <a href="#" class="block px-4 py-2 text-sm text-gray-700 focus:bg-gray-100 focus:text-gray-900 focus:outline-hidden">License</a>
+      <form action="#" method="POST">
+        <button type="submit" class="block w-full px-4 py-2 text-left text-sm text-gray-700 focus:bg-gray-100 focus:text-gray-900 focus:outline-hidden">Sign out</button>
+      </form>
+    </div>
+  </el-menu>
+</el-dropdown>
+`}</HTMLBlock>
+
+<br />
+
 # Introduction
 
 APIs play a crucial role in the SAPIENT system by facilitating seamless integration with various shipping carriers, third party logistics providers, and other eCommerce platforms. This connectivity allows businesses to automate data exchange, streamline workflows, and ensure real-time updates on shipping performance.
