@@ -5,6 +5,6 @@ hidden: false
 metadata:
   robots: index
 ---
-> 📘 _Note_
+> 🚧 _Important_
 >
-> _This integration is currently under development and is coming soon._
+> _This integration is currently under development. The contents are to be updated as soon as possible._
