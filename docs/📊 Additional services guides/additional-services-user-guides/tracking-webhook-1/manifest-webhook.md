@@ -203,8 +203,6 @@ Following the success response, a test manifest payload is sent to the webhook a
   }
 ```
 
-<br />
-
 If for some reason, the connectivity test fails, the following message is displayed:
 
 <Image align="center" alt="Failed connection response" border={true} caption="Failed connection response" src="https://files.readme.io/65a4983-image.png" width="660px" />
