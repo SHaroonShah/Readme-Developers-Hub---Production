@@ -2,15 +2,12 @@
   "openapi": "3.0.1",
   "info": {
     "title": "SAPIENT CORE API",
-    "description": "# Introduction\nHere you will find requirements for integrating with SAPIENT CORE API.\n\nThe documentation specifically covers how the API can be used by business customers to conduct shipping activity with available carriers and provides the technical information to build this integration. The API allows customers to create and manage shipments, produce labels, customs documentation, and collection manifests, retrieve reference data such as carriers and countries, and maintain their own data such as shipping account details.\n\nIntersoft API is a fully RESTful service implemented using JSON messaging. You, as the customer are responsible for sending JSON messages and for maintaining the capability of receiving JSON messages in the format described in this specification. Request and response examples for each API service are included in this specification.\n\n# Authentication\n\nThe SAPIENT CORE API uses OAuth2 authentication.\n\nTo request the authorization token you need to create API credentials (Client ID and Secret) on the system first. If you have not done it already, log into your account and go to API Credentials or follow the link [add a link here with the path to the API Credentials menu]. Use the credentials to retrieve the authorization token.\n\nNote: Make sure you copy the Secret and keep it secure as you won't be able to view it again on the system.\n\n<!-- ReDoc-Inject: <SecurityDefinitions /> -->\n",
+    "description": "# Introduction\nHere you will find requirements for integrating with INTERSOFT SAPIENT API.\n\nThe documentation specifically covers how the API can be used by business customers to conduct shipping activity with available carriers and provides the technical information to build this integration. The API allows customers to create and manage shipments, produce labels, customs documentation, and collection manifests, retrieve reference data such as carriers and countries, and maintain their own data such as shipping account details.\n\nIntersoft API is a fully RESTful service implemented using JSON messaging. You, as the customer are responsible for sending JSON messages and for maintaining the capability of receiving JSON messages in the format described in this specification. Request and response examples for each API service are included in this specification.\n\n# Authentication\n\nThe INTERSOFT SAPIENT API uses OAuth2 authentication.\n\nTo request the authorization token you need to create API credentials (Client ID and Secret) on the system first. If you have not done it already, log into your account and go to API Credentials or follow the link [add a link here with the path to the API Credentials menu]. Use the credentials to retrieve the authorization token.\n\nNote: Make sure you copy the Secret and keep it secure as you won't be able to view it again on the system.\n\n<!-- ReDoc-Inject: <SecurityDefinitions /> -->\n",
     "version": "v4.0",
     "x-logo": {
       "url": "/Content/images/redoc-logo.png",
       "altText": "ReDoc"
     }
-  },
-  "x-readme": {
-    "explorer-enabled": false
   },
   "servers": [
     {
@@ -376,14 +373,14 @@
                       "TrackingNumber": "TT000000005GB",
                       "BarcodeNumber": "4C0069786000000000B1F",
                       "Reference1": "OrderRef56",
-                      "ShipmentDate": "2025-09-17",
+                      "ShipmentDate": "2025-10-08",
                       "Status": "Created",
                       "ManifestNumber": "ISH2802532",
                       "ContainerId": "South East 1234",
                       "Carrier": "RM",
                       "DestinationCountryCode": "GB",
                       "LastUpdatedBy": "User A",
-                      "LastUpdatedDateUtc": "2025-09-17T08:48:22.500Z"
+                      "LastUpdatedDateUtc": "2025-10-08T20:16:58.593Z"
                     },
                     {
                       "ShippingAccountId": "310d6beb-ae36-40e7-918f-f92100c1719d",
@@ -391,14 +388,14 @@
                       "TrackingNumber": "",
                       "BarcodeNumber": "",
                       "Reference1": "OrderRef57",
-                      "ShipmentDate": "2025-09-17",
+                      "ShipmentDate": "2025-10-08",
                       "Status": "LabelPrinted",
                       "ManifestNumber": "",
                       "ContainerId": "",
                       "Carrier": "RM",
                       "DestinationCountryCode": "GB",
                       "LastUpdatedBy": "User B",
-                      "LastUpdatedDateUtc": "2025-09-17T08:48:22.500Z"
+                      "LastUpdatedDateUtc": "2025-10-08T20:16:58.593Z"
                     }
                   ],
                   "TotalCount": 2
@@ -727,11 +724,11 @@
               "example": [
                 {
                   "ShipmentId": "AD123456783GB",
-                  "ShipmentDate": "2025-09-22"
+                  "ShipmentDate": "2025-10-13"
                 },
                 {
                   "ShipmentId": "e3239e85-ddf8-4323-9064-b83c38eff927",
-                  "ShipmentDate": "2025-09-27"
+                  "ShipmentDate": "2025-10-18"
                 }
               ]
             }
@@ -1420,7 +1417,7 @@
                     {
                       "ContainerId": "South East",
                       "ContainerStatus": "Manifested",
-                      "CreatedDateUtc": "2025-09-17T08:48:17.405Z",
+                      "CreatedDateUtc": "2025-10-08T20:16:53.785Z",
                       "ShippingLocationId": "93f6d928-9456-434a-9d69-60f3b7dea091",
                       "ShippingLocationAlias": "Northern Warehouse",
                       "TotalWeight": 12,
@@ -1431,7 +1428,7 @@
                     {
                       "ContainerId": "South West",
                       "ContainerStatus": "Active",
-                      "CreatedDateUtc": "2025-09-16T08:48:17.405Z",
+                      "CreatedDateUtc": "2025-10-07T20:16:53.785Z",
                       "ShippingLocationId": "93f6d928-9456-434a-9d69-60f3b7dea091",
                       "ShippingLocationAlias": "Northern Warehouse",
                       "TotalWeight": 14,
@@ -1590,7 +1587,7 @@
                     "value": {
                       "ContainerId": "South East",
                       "ContainerStatus": "Active",
-                      "CreatedDateUtc": "2025-09-17T08:48:17.781Z",
+                      "CreatedDateUtc": "2025-10-08T20:16:54.110Z",
                       "CarrierCode": "RM",
                       "ShippingLocationId": "93f6d928-9456-434a-9d69-60f3b7dea091",
                       "ShippingLocationAlias": "Northern Warehouse",
@@ -1607,7 +1604,7 @@
                       "ManifestNumbers": [
                         "COS0000016"
                       ],
-                      "CreatedDateUtc": "2025-09-17T08:48:17.781Z",
+                      "CreatedDateUtc": "2025-10-08T20:16:54.110Z",
                       "CarrierCode": "RM",
                       "ShippingLocationId": "93f6d928-9456-434a-9d69-60f3b7dea091",
                       "ShippingLocationAlias": "Northern Warehouse",
@@ -1989,7 +1986,7 @@
                           "OriginalExportCode": "61091090001"
                         }
                       ],
-                      "GeneratedDate": "2025-09-17T08:48:18.479Z"
+                      "GeneratedDate": "2025-10-08T20:16:54.879Z"
                     }
                   },
                   "Incorrect HSCode": {
@@ -2011,7 +2008,7 @@
                           "OriginalExportCode": "61091090001"
                         }
                       ],
-                      "GeneratedDate": "2025-09-17T08:48:18.479Z"
+                      "GeneratedDate": "2025-10-08T20:16:54.879Z"
                     }
                   }
                 }
@@ -2206,7 +2203,7 @@
                   ],
                   "IsError": false,
                   "Notes": "<taxBreakdown><city><rate>0</rate><value>0</value></city><special><rate>0</rate><value>0</value></special><county><rate>0</rate><value>0</value></county><state><rate>0.06625</rate><value>0</value></state></taxBreakdown>",
-                  "GeneratedDate": "2025-09-17T08:48:19.773Z"
+                  "GeneratedDate": "2025-10-08T20:16:55.623Z"
                 }
               }
             }
@@ -2344,7 +2341,7 @@
                       "IsError": false,
                       "ErrorDescription": "",
                       "Notes": "",
-                      "GeneratedDate": "2025-09-17T08:48:20.095Z"
+                      "GeneratedDate": "2025-10-08T20:16:56.005Z"
                     }
                   },
                   "Prohibited Item": {
@@ -2365,7 +2362,7 @@
                       "IsError": true,
                       "ErrorDescription": "The item amaranth is prohibited",
                       "Notes": "",
-                      "GeneratedDate": "2025-09-17T08:48:20.095Z"
+                      "GeneratedDate": "2025-10-08T20:16:56.005Z"
                     }
                   }
                 }
@@ -2437,44 +2434,44 @@
               "examples": {
                 "Manifest by Shipping Account": {
                   "value": {
-                    "ShippingLocationId": "81dfc839-7edd-4477-ad69-98efe7187929",
-                    "ShippingAccountId": "e8d80161-64a0-4dd4-a081-8aaac55eb79c",
+                    "ShippingLocationId": "0dc6d24a-4b8e-4e91-9220-40841ea716b0",
+                    "ShippingAccountId": "0b101e40-03a5-47c3-93b3-7266ec94e326",
                     "Async": false
                   }
                 },
                 "Manifest by Shipping Account in the background": {
                   "value": {
-                    "ShippingLocationId": "e5f4ca05-ab56-416e-91f8-12819208f1a2",
-                    "ShippingAccountId": "86a0b197-4d55-4cc4-a146-73024cad1157",
+                    "ShippingLocationId": "d58a3ae1-b20f-4dd5-a3bf-fc5c0340a186",
+                    "ShippingAccountId": "d7d9e594-0760-4c5a-a836-274ef4ccbd66",
                     "Async": true
                   }
                 },
                 "Manifest by Service": {
                   "value": {
-                    "ShippingLocationId": "faf9d163-f228-4d62-a2a5-26583093244e",
+                    "ShippingLocationId": "3c4f2397-1224-4cb4-ba00-27180b21641d",
                     "ServiceCode": "EXPRESS",
                     "Async": false
                   }
                 },
                 "Manifest by Service for Shipping Account Only": {
                   "value": {
-                    "ShippingLocationId": "4bf8af61-0346-4e3a-8709-2775448189e6",
-                    "ShippingAccountId": "9a359393-2f3a-451a-a360-a1584803bfa4",
+                    "ShippingLocationId": "18ccd28c-7c63-4e87-8668-7e4c5c9cd1d0",
+                    "ShippingAccountId": "b42d8ef7-2ba6-479a-b45d-b4ead2c5f79b",
                     "ServiceCode": "EXPRESS",
                     "Async": false
                   }
                 },
                 "Manifest by Status": {
                   "value": {
-                    "ShippingLocationId": "b2ae4af8-c9c3-473a-8cc2-ecaf294d22ab",
+                    "ShippingLocationId": "0bf1fb0b-6271-4dcd-a3bc-948796f365a8",
                     "Status": "Picked",
                     "Async": false
                   }
                 },
                 "Manifest by Container": {
                   "value": {
-                    "ShippingLocationId": "b6459cf8-5aa7-42d7-a345-14a465067649",
-                    "ContainerId": "637a25ad-ce65-43a3-8b76-d892ef8d08a3",
+                    "ShippingLocationId": "d7875b8e-7048-496d-9d03-353ff7ebed7e",
+                    "ContainerId": "42f56f17-ffe0-4f92-9026-aacf0bbc298e",
                     "Async": false
                   }
                 }
@@ -4889,7 +4886,7 @@
             "maxLength": 2,
             "minLength": 2,
             "type": "string",
-            "description": "An abbreviation representing the country of the shipping location, typically following the ISO 3166-1 alpha-2 standard, for example,  \"GB\" for the United Kingdom.\r<br />\r<br />***Note:** This information is required if the address is not used from the stored addresses in the **Address Book**.*",
+            "description": "An abbreviation representing the country of the shipping location, typically following the ISO 3166-1 alpha-2 standard, for example,  \"GB\" for the United Kingdom.",
             "nullable": true,
             "example": "GB"
           },
@@ -8875,7 +8872,7 @@
             "maxLength": 2,
             "minLength": 2,
             "type": "string",
-            "description": "An abbreviation representing the country of the shipping location, typically following the ISO 3166-1 alpha-2 standard, for example,  \"GB\" for the United Kingdom.\r<br />\r<br />***Note:** This information is required if the address is not used from the stored addresses in the **Address Book**.*",
+            "description": "An abbreviation representing the country of the shipping location, typically following the ISO 3166-1 alpha-2 standard, for example,  \"GB\" for the United Kingdom.",
             "nullable": true,
             "example": "GB"
           },
@@ -9281,5 +9278,8 @@
       "name": "Reference Data",
       "description": "This section provides information about reference data used on the system."
     }
-  ]
+  ],
+  "x-readme": {
+    "explorer-enabled": false
+  }
 }
