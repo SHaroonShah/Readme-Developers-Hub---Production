@@ -10,9 +10,9 @@ metadata:
 ---
 In SAPIENT, you can create a shipping account with An Post, assign your An Post credentials to it, and then link it to the relevant <Glossary>shipping location</Glossary>(s).
 
-> 🚧 *IMPORTANT*
+> 🚧 _IMPORTANT_
 >
-> *Before you can set up a shipping account, make sure you have[enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with An Post.*
+> _Before you can set up a shipping account, make sure you have[enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with An Post._
 
 To add a shipping account for An Post in SAPIENT, follow the instructions as explained in the following procedure.
 
@@ -30,18 +30,20 @@ To add a shipping account for An Post in SAPIENT, follow the instructions as exp
 
 <AsteridkForMandatoryElements />
 
-|         Element         | Description                                                                                                                                 |
-| :---------------------: | :------------------------------------------------------------------------------------------------------------------------------------------ |
-|      **Carrier**\*      | From the dropdown list, select **ANPOST - An Post**.                                                                                        |
-| **Shipping Location**\* | From the dropdown menu, select the <Glossary>shipping location</Glossary> that you want to assign to the shipping account you are creating. |
+|         Element        | Description                                                                                                                                 |
+| :--------------------: | :------------------------------------------------------------------------------------------------------------------------------------------ |
+|      **Carrier***      | From the dropdown list, select **ANPOST - An Post**.                                                                                        |
+| **Shipping Location*** | From the dropdown menu, select the <Glossary>shipping location</Glossary> that you want to assign to the shipping account you are creating. |
 
 4. In the **SHIPPING ACCOUNT** block, enter the necessary information as explained in the following table.
 
 <Image align="center" alt="Specifying shipping account details" border={true} caption="Entering shipping account details" src="https://files.readme.io/95e80494ef1a7d23ee73c2d200a7ada240f0d1318161488c240a373d637f3c01-Shipping_account_block_An_Post.png" width="500px" />
 
-> 💡 *Tip*
->
-> *In the following table, the mandatory fields are marked with an asterisk (\*).*
+<Callout icon="💡" theme="default">
+  ### _Tip_
+
+  _In the following table, the mandatory fields are marked with an asterisk (*)._
+</Callout>
 
 <Table align={["center","left"]}>
   <thead>
@@ -59,7 +61,7 @@ To add a shipping account for An Post in SAPIENT, follow the instructions as exp
   <tbody>
     <tr>
       <td>
-        **Carrier Account Number**\*
+        **Carrier Account Number***
       </td>
 
       <td>
@@ -69,7 +71,7 @@ To add a shipping account for An Post in SAPIENT, follow the instructions as exp
 
     <tr>
       <td>
-        **Account Name (if different than customer)**\*
+        **Account Name (if different than customer)***
       </td>
 
       <td>
@@ -79,7 +81,7 @@ To add a shipping account for An Post in SAPIENT, follow the instructions as exp
 
     <tr>
       <td>
-        **Account Type**\*
+        **Account Type***
       </td>
 
       <td>
@@ -93,7 +95,7 @@ To add a shipping account for An Post in SAPIENT, follow the instructions as exp
 
     <tr>
       <td>
-        **Alias**\*
+        **Alias***
       </td>
 
       <td>
@@ -103,7 +105,7 @@ To add a shipping account for An Post in SAPIENT, follow the instructions as exp
 
     <tr>
       <td>
-        **Contact Name**\*
+        **Contact Name***
       </td>
 
       <td>
@@ -113,7 +115,7 @@ To add a shipping account for An Post in SAPIENT, follow the instructions as exp
 
     <tr>
       <td>
-        **Contact Number**\*
+        **Contact Number***
       </td>
 
       <td>
@@ -125,7 +127,7 @@ To add a shipping account for An Post in SAPIENT, follow the instructions as exp
 
 6. After entering all the required information, select ![](https://files.readme.io/4d8fd2c9a6fad152f41e65d82274b94a6d3a8978f69bb88fbe74ba2d54138fe8-add_shipping_account_button_2.png).
 
-Once done, you have now successfully added a shipping account. You can now start shipping with it.
+Once done, you have now successfully added a shipping account. You can now start <Anchor label="adding the barcode range" target="_blank" href="https://docs.intersoftsapient.net/docs/add-barcode-range-for-an-post-shipping-account#/">adding the barcode range</Anchor> to it and then use it for your shipping needs.
 
 ### See also
 
