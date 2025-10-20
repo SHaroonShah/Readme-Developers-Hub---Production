@@ -12,7 +12,7 @@ hidden: true
 metadata:
   robots: index
 ---
-<Image align="center" width="100px" src="https://files.readme.io/7e02be8b94572feafa989a21a47f67912c0f1afcaeb4b5e8339cd690e591cd46-image.png" />
+<Image align="center" border={false} width="100px" src="https://files.readme.io/7e02be8b94572feafa989a21a47f67912c0f1afcaeb4b5e8339cd690e591cd46-image.png" />
 
 ***
 
@@ -24,7 +24,7 @@ This integration provides the following key features:
 
 > 🚧 _Important_
 >
-> _If shipping from GB to Ireland, undelivered or returned parcels will not be returned to your UK address. Instead, they must be returned to a designated PO Box address at the Portlaoise Mail Centre in Ireland._
+> _If shipping from GB to Ireland, undelivered or returned parcels will not be returned to your UK address. Instead, they must be returned to a designated PO Box address at the Portlaoise Mail Centre in Ireland. This information must be populated in the **ReturnToSender** section of the API documentation._
 
 * **Ship to Destinations**: Users can send <Glossary>shipments</Glossary> to Ireland (IE), Great Britain (GB), Europe, and the <Glossary>ROW</Glossary> (Rest of the World).
 * **Service Type**: The integration is focused on outbound and inbound shipping.
