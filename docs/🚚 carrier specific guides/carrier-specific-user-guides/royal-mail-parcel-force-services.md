@@ -231,7 +231,7 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
   |      FEK     | **EXPRESS24 WEEKEND** – delivery next day on weekend.                                                    |
   |      NDO     | EXPRESS24 WEEKEND AGE                                                                                    |
   |      FEQ     | EXPRESS24 WEEKEND COMP 1                                                                                 |
-  |      NDS      | EXPRESS24 WEEKEND COMP 1 AGE                                                                             |
+  |      NDS     | EXPRESS24 WEEKEND COMP 1 AGE                                                                             |
   |      FER     | EXPRESS24 WEEKEND COMP 2                                                                                 |
   |      NDT     | EXPRESS24 WEEKEND COMP 2 AGE                                                                             |
   |      FEU     | EXPRESS24 WEEKEND COMP 3                                                                                 |
@@ -256,7 +256,6 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
   |      FEN     | EXPRESS48 LARGE COMP 1                                                                                   |
   |      FEO     | EXPRESS48 LARGE COMP 2                                                                                   |
   |      FEP     | EXPRESS48 LARGE COMP 3                                                                                   |
-  |      RTA     | **EXPRESS48 RETURNS** – collection within 2 working days from your home or  nearby post office.          |
   |      RTB     | EXPRESS48 RETURNS COMP 1                                                                                 |
   |      RTC     | EXPRESS48 RETURNS COMP 2                                                                                 |
   |      RTD     | EXPRESS48 RETURNS COMP 3                                                                                 |
