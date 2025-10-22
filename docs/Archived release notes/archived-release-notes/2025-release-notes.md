@@ -11,6 +11,51 @@ metadata:
 next:
   description: ''
 ---
+## Mandatory Registered Billing Postcode for Royal Mail production shipping accounts
+
+The **Registered Billing Postcode** field in both the **Add Shipping Account** UI and API is now required in the following scenarios:
+
+* Creating a new **Production** shipping account.
+* Switching an existing account from **Sandbox** to **Production**, if the account does not already have a Registered Billing Postcode.
+
+This change ensures compliance with Royal Mail’s account validation and sign-off process requirements and improves data accuracy during onboarding.
+
+## Automated OBA Access Code retrieval for Royal Mail
+
+The SAPIENT system now supports automatic retrieval of OBA Access Codes when adding a new Royal Mail shipping account, updating the Royal Mail shipping accounts from **Sandbox** to **Production**, or linking a new shipping location to an existing shipping account via UI and API. This enhancement leverages Royal Mail’s new **Get Access Code** API to validate account details in real time and eliminate the current 2–5-day approval delay. With it, customers can now experience a faster, more efficient onboarding process without needing manual intervention from the Royal Mail OBA team.
+
+> 📘 _Note_
+>
+> _For more information on the **OBA Access Code** API and Royal Mail's sign-off process, refer to the [Royal Mail OBA account validation and sign-off](https://docs.intersoftsapient.net/docs/royal-mail-sign-off#/) section._
+
+## Asynchronous shipment manifesting (coming soon)
+
+Soon, a fully asynchronous shipment manifesting process will be introduced across the SAPIENT API and UI, allowing customers to submit manifest requests without waiting for completion.
+
+* **API endpoints**: The following two new endpoints will be added to our existing **Manifests** API endpoint.
+  * **Manifest Shipments Async**. To submit the manifest requests to be processed asynchronously. This endpoint accepts the same parameters as the existing [Manifests](https://docs.intersoftsapient.net/reference/post_v4-manifests-carriercode#/) endpoint, excluding the **async** parameter.
+  * **Get Manifest Request Status**: To check the status of the submitted manifest request with optional detailed responses, including manifest images when complete.
+* **Manifest webhook**: To configure a manifest webhook via the UI to receive automatic updates when a manifest request completes or fails, with retry logic and suspension handling.
+* **Manifest via UI**: To get real-time progress on async manifest in a separate pop-up dialog and access to completed manifests through the **Manifest History** page.
+
+## Royal Mail label template updates
+
+The Royal Mail label templates for express weekend services have been updated to include the following:
+
+* **Safeplace**: For parcels that can be left in a designated safeplace location upon delivery, enhancing customer satisfaction by providing flexibility while maintaining security.
+
+<Image align="center" border={true} caption="Safeplace label template example" src="https://files.readme.io/6d6098e15d4c247ea06f60f96df9f0114e93d954391907a5580182c8afcf6232-Safeplace_only.png" width="300px" />
+
+* **DO NOT FLY (LQDG)**: For parcels containing Limited Quantity Dangerous Goods (LQDG) that cannot be transported via air, land, or sea. This label prominently displays the **DO NOT FLY** instruction to prevent mishandling and ensure compliance with the safety regulations.
+
+<Image align="center" border={true} caption="LQDG label template example" src="https://files.readme.io/24456f0cae721db1b9d271895a0dc789e6ccf0a4b62c54be1a0a576166e3a718-LQDG_only.png" width="300px" />
+
+* **Combined Safeplace + DO NOT FLY**: For parcels that are subjected to both safeplace and LQDG. This label includes instructions for leaving the parcel in a safeplace location while also highlighting that the contents are subject to the DO NOT FLY requirement due to hazardous materials.
+
+<Image align="center" border={true} caption="Safeplace and LQDG label template example" src="https://files.readme.io/3f987ccb3d34ed2611cd6c617201043aaba21360a6834d448852a8f21e02c606-Safeplace_and_LQDG.png" width="300px" />
+
+***
+
 ## DX Cancel API
 
 The SAPIENT system now directly calls DX’s API to cancel shipments within DX’s system. This enhancement ensures that cancellations are fully registered with DX, helping prevent customers from being mistakenly charged for cancelled shipments.
