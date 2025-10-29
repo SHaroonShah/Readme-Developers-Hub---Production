@@ -2,3 +2,5 @@
 - get_v4-manifests-carriercode
 - get_v4-manifests-carriercode-manifestnumber
 - get_v4-manifests-carriercode-manifestnumber-shipments
+- post_v4-manifests-async-carriercode
+- get_v4-manifests-manifeststatus-manifestrequestid

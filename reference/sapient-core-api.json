@@ -2,7 +2,7 @@
   "openapi": "3.0.1",
   "info": {
     "title": "SAPIENT CORE API",
-    "description": "# Introduction\nHere you will find requirements for integrating with INTERSOFT SAPIENT API.\n\nThe documentation specifically covers how the API can be used by business customers to conduct shipping activity with available carriers and provides the technical information to build this integration. The API allows customers to create and manage shipments, produce labels, customs documentation, and collection manifests, retrieve reference data such as carriers and countries, and maintain their own data such as shipping account details.\n\nIntersoft API is a fully RESTful service implemented using JSON messaging. You, as the customer are responsible for sending JSON messages and for maintaining the capability of receiving JSON messages in the format described in this specification. Request and response examples for each API service are included in this specification.\n\n# Authentication\n\nThe INTERSOFT SAPIENT API uses OAuth2 authentication.\n\nTo request the authorization token you need to create API credentials (Client ID and Secret) on the system first. If you have not done it already, log into your account and go to API Credentials or follow the link [add a link here with the path to the API Credentials menu]. Use the credentials to retrieve the authorization token.\n\nNote: Make sure you copy the Secret and keep it secure as you won't be able to view it again on the system.\n\n<!-- ReDoc-Inject: <SecurityDefinitions /> -->\n",
+    "description": "# Introduction\nHere you will find requirements for integrating with SAPIENT CORE API.\n\nThe documentation specifically covers how the API can be used by business customers to conduct shipping activity with available carriers and provides the technical information to build this integration. The API allows customers to create and manage shipments, produce labels, customs documentation, and collection manifests, retrieve reference data such as carriers and countries, and maintain their own data such as shipping account details.\n\nIntersoft API is a fully RESTful service implemented using JSON messaging. You, as the customer are responsible for sending JSON messages and for maintaining the capability of receiving JSON messages in the format described in this specification. Request and response examples for each API service are included in this specification.\n\n# Authentication\n\nThe SAPIENT CORE API uses OAuth2 authentication.\n\nTo request the authorization token you need to create API credentials (Client ID and Secret) on the system first. If you have not done it already, log into your account and go to API Credentials or follow the link [add a link here with the path to the API Credentials menu]. Use the credentials to retrieve the authorization token.\n\nNote: Make sure you copy the Secret and keep it secure as you won't be able to view it again on the system.\n\n<!-- ReDoc-Inject: <SecurityDefinitions /> -->\n",
     "version": "v4.0",
     "x-logo": {
       "url": "/Content/images/redoc-logo.png",
@@ -373,14 +373,14 @@
                       "TrackingNumber": "TT000000005GB",
                       "BarcodeNumber": "4C0069786000000000B1F",
                       "Reference1": "OrderRef56",
-                      "ShipmentDate": "2025-10-08",
+                      "ShipmentDate": "2025-10-29",
                       "Status": "Created",
                       "ManifestNumber": "ISH2802532",
                       "ContainerId": "South East 1234",
                       "Carrier": "RM",
                       "DestinationCountryCode": "GB",
                       "LastUpdatedBy": "User A",
-                      "LastUpdatedDateUtc": "2025-10-08T20:16:58.593Z"
+                      "LastUpdatedDateUtc": "2025-10-29T09:04:45.885Z"
                     },
                     {
                       "ShippingAccountId": "310d6beb-ae36-40e7-918f-f92100c1719d",
@@ -388,14 +388,14 @@
                       "TrackingNumber": "",
                       "BarcodeNumber": "",
                       "Reference1": "OrderRef57",
-                      "ShipmentDate": "2025-10-08",
+                      "ShipmentDate": "2025-10-29",
                       "Status": "LabelPrinted",
                       "ManifestNumber": "",
                       "ContainerId": "",
                       "Carrier": "RM",
                       "DestinationCountryCode": "GB",
                       "LastUpdatedBy": "User B",
-                      "LastUpdatedDateUtc": "2025-10-08T20:16:58.593Z"
+                      "LastUpdatedDateUtc": "2025-10-29T09:04:45.885Z"
                     }
                   ],
                   "TotalCount": 2
@@ -724,11 +724,11 @@
               "example": [
                 {
                   "ShipmentId": "AD123456783GB",
-                  "ShipmentDate": "2025-10-13"
+                  "ShipmentDate": "2025-11-03"
                 },
                 {
                   "ShipmentId": "e3239e85-ddf8-4323-9064-b83c38eff927",
-                  "ShipmentDate": "2025-10-18"
+                  "ShipmentDate": "2025-11-08"
                 }
               ]
             }
@@ -1417,7 +1417,7 @@
                     {
                       "ContainerId": "South East",
                       "ContainerStatus": "Manifested",
-                      "CreatedDateUtc": "2025-10-08T20:16:53.785Z",
+                      "CreatedDateUtc": "2025-10-29T09:04:40.154Z",
                       "ShippingLocationId": "93f6d928-9456-434a-9d69-60f3b7dea091",
                       "ShippingLocationAlias": "Northern Warehouse",
                       "TotalWeight": 12,
@@ -1428,7 +1428,7 @@
                     {
                       "ContainerId": "South West",
                       "ContainerStatus": "Active",
-                      "CreatedDateUtc": "2025-10-07T20:16:53.785Z",
+                      "CreatedDateUtc": "2025-10-28T09:04:40.154Z",
                       "ShippingLocationId": "93f6d928-9456-434a-9d69-60f3b7dea091",
                       "ShippingLocationAlias": "Northern Warehouse",
                       "TotalWeight": 14,
@@ -1587,7 +1587,7 @@
                     "value": {
                       "ContainerId": "South East",
                       "ContainerStatus": "Active",
-                      "CreatedDateUtc": "2025-10-08T20:16:54.110Z",
+                      "CreatedDateUtc": "2025-10-29T09:04:40.459Z",
                       "CarrierCode": "RM",
                       "ShippingLocationId": "93f6d928-9456-434a-9d69-60f3b7dea091",
                       "ShippingLocationAlias": "Northern Warehouse",
@@ -1604,7 +1604,7 @@
                       "ManifestNumbers": [
                         "COS0000016"
                       ],
-                      "CreatedDateUtc": "2025-10-08T20:16:54.110Z",
+                      "CreatedDateUtc": "2025-10-29T09:04:40.459Z",
                       "CarrierCode": "RM",
                       "ShippingLocationId": "93f6d928-9456-434a-9d69-60f3b7dea091",
                       "ShippingLocationAlias": "Northern Warehouse",
@@ -1986,7 +1986,7 @@
                           "OriginalExportCode": "61091090001"
                         }
                       ],
-                      "GeneratedDate": "2025-10-08T20:16:54.879Z"
+                      "GeneratedDate": "2025-10-29T09:04:41.258Z"
                     }
                   },
                   "Incorrect HSCode": {
@@ -2008,7 +2008,7 @@
                           "OriginalExportCode": "61091090001"
                         }
                       ],
-                      "GeneratedDate": "2025-10-08T20:16:54.879Z"
+                      "GeneratedDate": "2025-10-29T09:04:41.258Z"
                     }
                   }
                 }
@@ -2203,7 +2203,7 @@
                   ],
                   "IsError": false,
                   "Notes": "<taxBreakdown><city><rate>0</rate><value>0</value></city><special><rate>0</rate><value>0</value></special><county><rate>0</rate><value>0</value></county><state><rate>0.06625</rate><value>0</value></state></taxBreakdown>",
-                  "GeneratedDate": "2025-10-08T20:16:55.623Z"
+                  "GeneratedDate": "2025-10-29T09:04:42.360Z"
                 }
               }
             }
@@ -2341,7 +2341,7 @@
                       "IsError": false,
                       "ErrorDescription": "",
                       "Notes": "",
-                      "GeneratedDate": "2025-10-08T20:16:56.005Z"
+                      "GeneratedDate": "2025-10-29T09:04:42.683Z"
                     }
                   },
                   "Prohibited Item": {
@@ -2362,7 +2362,7 @@
                       "IsError": true,
                       "ErrorDescription": "The item amaranth is prohibited",
                       "Notes": "",
-                      "GeneratedDate": "2025-10-08T20:16:56.005Z"
+                      "GeneratedDate": "2025-10-29T09:04:42.683Z"
                     }
                   }
                 }
@@ -2434,44 +2434,44 @@
               "examples": {
                 "Manifest by Shipping Account": {
                   "value": {
-                    "ShippingLocationId": "0dc6d24a-4b8e-4e91-9220-40841ea716b0",
-                    "ShippingAccountId": "0b101e40-03a5-47c3-93b3-7266ec94e326",
+                    "ShippingLocationId": "0f6827e3-917d-48cc-a3b0-f35a8afd594d",
+                    "ShippingAccountId": "2b8034c9-15d2-413c-884c-441f228dba5a",
                     "Async": false
                   }
                 },
                 "Manifest by Shipping Account in the background": {
                   "value": {
-                    "ShippingLocationId": "d58a3ae1-b20f-4dd5-a3bf-fc5c0340a186",
-                    "ShippingAccountId": "d7d9e594-0760-4c5a-a836-274ef4ccbd66",
+                    "ShippingLocationId": "7b5addf8-ff28-45ea-bfb1-9efe1b5b2730",
+                    "ShippingAccountId": "984edc27-a18d-4b5a-be70-af32c2d8ab3c",
                     "Async": true
                   }
                 },
                 "Manifest by Service": {
                   "value": {
-                    "ShippingLocationId": "3c4f2397-1224-4cb4-ba00-27180b21641d",
+                    "ShippingLocationId": "58860ee8-d119-444f-aa43-2d2576220541",
                     "ServiceCode": "EXPRESS",
                     "Async": false
                   }
                 },
                 "Manifest by Service for Shipping Account Only": {
                   "value": {
-                    "ShippingLocationId": "18ccd28c-7c63-4e87-8668-7e4c5c9cd1d0",
-                    "ShippingAccountId": "b42d8ef7-2ba6-479a-b45d-b4ead2c5f79b",
+                    "ShippingLocationId": "a487cd8d-0efd-4233-bc4c-965aad020b8b",
+                    "ShippingAccountId": "bd41b12b-da61-4ac3-b503-cfa7bdf2259d",
                     "ServiceCode": "EXPRESS",
                     "Async": false
                   }
                 },
                 "Manifest by Status": {
                   "value": {
-                    "ShippingLocationId": "0bf1fb0b-6271-4dcd-a3bc-948796f365a8",
+                    "ShippingLocationId": "dfcc46a2-d3d6-4698-b120-52edca4c5b90",
                     "Status": "Picked",
                     "Async": false
                   }
                 },
                 "Manifest by Container": {
                   "value": {
-                    "ShippingLocationId": "d7875b8e-7048-496d-9d03-353ff7ebed7e",
-                    "ContainerId": "42f56f17-ffe0-4f92-9026-aacf0bbc298e",
+                    "ShippingLocationId": "abab9bf7-bd8a-43c1-b8c3-146e638c34e7",
+                    "ContainerId": "f4a49785-4bcc-49d7-83f2-e83606f58e31",
                     "Async": false
                   }
                 }
@@ -2674,6 +2674,214 @@
           },
           "404": {
             "description": "The carrier code was not found."
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        },
+        "security": [
+          {
+            "oauth2": []
+          }
+        ]
+      }
+    },
+    "/v4/manifests/async/{carrierCode}": {
+      "post": {
+        "tags": [
+          "Manifests"
+        ],
+        "summary": "Manifest Shipments Async",
+        "description": "By manifesting shipments you declare what shipments are ready for dispatch and will be handed over to the carrier. \r<br />The API allows you to manifest via the below methods (parameters):\r<br />\r<br />- shipping location\r<br />- shipping account\r<br />- shipment status (picked)\r<br />- service code\r<br />- container\r<br />\r<br />Note: If no parameters are set, all shipments in the LabelPrinted or Picked status will be manifested (excluding future dated shipments or shipments assigned to a container).\r<br />\r<br />The API response contains a manifest image which should be printed and handed over to the driver (if required).",
+        "parameters": [
+          {
+            "name": "carrierCode",
+            "in": "path",
+            "description": "Carrier Code",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "description": "Manifest Request",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ManifestAsyncRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "The shipments have been manifested successfully and all created manifests returned.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ManifestShipmentsAsyncResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid request response.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                },
+                "examples": {
+                  "Example 1": {
+                    "value": {
+                      "Message": "There are no shipments ready to be manifested.",
+                      "Errors": []
+                    }
+                  },
+                  "Example 2": {
+                    "value": {
+                      "Message": "Invalid Request",
+                      "Errors": [
+                        {
+                          "Message": "The service code maximum length is 10 characters.",
+                          "Cause": "ServiceCode",
+                          "ErrorCode": "E1002"
+                        },
+                        {
+                          "Message": "The shipping account Id does not exist.",
+                          "Cause": "ShippingAccountId",
+                          "ErrorCode": "E1004"
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        },
+        "security": [
+          {
+            "oauth2": []
+          }
+        ]
+      }
+    },
+    "/v4/manifests/manifestStatus/{manifestRequestId}": {
+      "get": {
+        "tags": [
+          "Manifests"
+        ],
+        "summary": "Get Manifest Request Status",
+        "description": "Provides base64 encoded image and details for a specific manifest request id.",
+        "parameters": [
+          {
+            "name": "manifestRequestId",
+            "in": "path",
+            "description": "ManifestRequestId\r<br />            This is a system Guid",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          },
+          {
+            "name": "manifestDetail",
+            "in": "query",
+            "description": "Manifest Detail \r<br />            Populate this and set to True to return full manifest details including manifest images. \r<br />            If set to \"False\" or not provided, then only manifestId, manifestStatus and manifestCount will be returned in the success response.",
+            "schema": {
+              "type": "boolean"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The manifest request status is returned.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ManifestRequestStatusResponse"
+                },
+                "examples": {
+                  "Pending Manifest Request": {
+                    "value": {
+                      "ManifestRequestId": "00000000-0000-0000-0000-000000000000",
+                      "ManifestRequestStatus": "PENDING",
+                      "ManifestCount": 0
+                    }
+                  },
+                  "Complete Manifest Request": {
+                    "value": {
+                      "ManifestRequestId": "00000000-0000-0000-0000-000000000000",
+                      "ManifestRequestStatus": "COMPLETE",
+                      "ManifestCount": 1
+                    }
+                  },
+                  "Complete Manifest Request with Details": {
+                    "value": {
+                      "ManifestRequestId": "00000000-0000-0000-0000-000000000000",
+                      "ManifestRequestStatus": "COMPLETE",
+                      "ManifestCount": 1,
+                      "Manifests": [
+                        {
+                          "ManifestImage": "JVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
+                          "ManifestNumber": "ISH2802532",
+                          "CarrierCode": "RM",
+                          "TotalWeight": 1,
+                          "WeightUnitOfMeasure": "KG",
+                          "TotalShipments": 1,
+                          "TotalItems": 1,
+                          "ManifestDate": "2025-10-29",
+                          "CreatedDateUtc": "2025-10-29T09:04:43.576Z",
+                          "ShippingLocation": {
+                            "ShippingLocationId": "6a763948-8cac-4a20-b770-a80e597cbd1e",
+                            "LocationAlias": "London",
+                            "LocationCountry": "GB",
+                            "LocationPostcode": "TW20 0HJ"
+                          },
+                          "ShippingAccount": {
+                            "ShippingAccountId": "1c815267-9205-4eab-9bf1-11a3901eab49",
+                            "AccountName": "AccountName",
+                            "AccountAlias": "Test",
+                            "AccountNumber": "1234567890"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "Failed Manifest Request": {
+                    "value": {
+                      "ManifestRequestId": "00000000-0000-0000-0000-000000000000",
+                      "ManifestRequestStatus": "FAILED",
+                      "ManifestCount": 0,
+                      "FailedReason": {
+                        "Message": "There are no shipments ready to be manifested.",
+                        "Errors": []
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "The manifest request was not found."
           },
           "500": {
             "description": "Internal Server Error"
@@ -4886,7 +5094,7 @@
             "maxLength": 2,
             "minLength": 2,
             "type": "string",
-            "description": "An abbreviation representing the country of the shipping location, typically following the ISO 3166-1 alpha-2 standard, for example,  \"GB\" for the United Kingdom.",
+            "description": "An abbreviation representing the country of the shipping location, typically following the ISO 3166-1 alpha-2 standard, for example,  \"GB\" for the United Kingdom.\r<br />\r<br />***Note**: This information is required if the address is not used from the stored addresses in the **Address Book***",
             "nullable": true,
             "example": "GB"
           },
@@ -8872,7 +9080,7 @@
             "maxLength": 2,
             "minLength": 2,
             "type": "string",
-            "description": "An abbreviation representing the country of the shipping location, typically following the ISO 3166-1 alpha-2 standard, for example,  \"GB\" for the United Kingdom.",
+            "description": "An abbreviation representing the country of the shipping location, typically following the ISO 3166-1 alpha-2 standard, for example,  \"GB\" for the United Kingdom.\r<br />\r<br />***Note**: This information is required if the address is not used from the stored addresses in the **Address Book***",
             "nullable": true,
             "example": "GB"
           },
@@ -9208,7 +9416,7 @@
           "Grams"
         ],
         "type": "string",
-        "description": " The unit of measure used for all weight values in the shipment, expressed in grams and kilograms, for example, DeclaredWeight, ItemWeight. This is crucial for accurately describing shipment weight.\r<br /> \r<br />***Note:** By default, this field is set to KG.*"
+        "description": " The unit of measure used for all weight values in the shipment, expressed in grams and kilograms, for example, **DeclaredWeight**, **ItemWeight**. This is crucial for accurately describing shipment weight.\r<br /> \r<br />***Note:** By default, this field is set to KG.*"
       }
     },
     "securitySchemes": {
