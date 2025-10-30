@@ -70,32 +70,3 @@ This section provides you with the complimentary information that you might find
 * [Glossary](https://docs.intersoftsapient.net/docs/glossary-1)
 * [Archived release notes](https://docs.intersoftsapient.net/docs/archived-release-notes)
 
-<table>
-  <tr>
-    <th colspan="4">API Integration Overview</th>
-  </tr>
-  <tr>
-    <td>Feature</td>
-    <td>Description</td>
-    <td>Endpoint</td>
-    <td>Status</td>
-  </tr>
-  <tr>
-    <td>Authentication</td>
-    <td>Bearer token authentication</td>
-    <td>/auth/token</td>
-    <td>Available</td>
-  </tr>
-  <tr>
-    <td>Shipment Management</td>
-    <td>Create and manage shipments</td>
-    <td>/api/shipments</td>
-    <td>Available</td>
-  </tr>
-  <tr>
-    <td>Label Generation</td>
-    <td>Generate shipping labels</td>
-    <td>/api/labels</td>
-    <td>Available</td>
-  </tr>
-</table>
