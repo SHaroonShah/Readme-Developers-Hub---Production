@@ -193,26 +193,23 @@ Based on your requirements, you can choose various approaches to use the PUDO lo
   >
   >   <Image align="center" src="https://files.readme.io/735e213c58d29db4438e9cc89a873cba9c4a35bbaaf4f3663f68817f8c32327a-image.png" />
   >
-  > * *[Raise a request](mailto:onboarding@intersoftsapient.net) to our onboarding team to create a location for you to connect and download the PUDO data via SFTP by providing your RSA Public Key through a secure gateway. Our team will respond with the following connection details that you must use to connect to the SFTP server:
+  > * \*[Raise a request](mailto:onboarding@intersoftsapient.net) to our onboarding team to create a location for you to connect and download the PUDO data via SFTP by providing your RSA Public Key through a secure gateway. Our team will respond with the following connection details that you must use to connect to the SFTP server:*
+>  * *Host name*
+  * *Username*
+  * *Password*
+  * *Private key*
 
-* _Host name_
-* _Username_
-* _Password_
-* _Private key_*
+    The PUDO SFTP solution provides you with all locations in a single file that you can store as a library.
 
+    <Callout icon="💡" theme="default">
+      ### *Tip*
 
+      *The file is generated on a daily basis. To learn more about the file data, refer to the following example file:*
 
-  The PUDO SFTP solution provides you with all locations in a single file that you can store as a library.
+      * <a href="https://docs.google.com/spreadsheets/d/16ygmINFe4-1UUKqZ2Jwf3-7ms9Pl5qBMRVTUCz5XJJ0/edit?usp=sharing" target="_blank" rel="noopener noreferrer">RMPUDO20250718</a>
 
-  <Callout icon="💡" theme="default">
-    ### *Tip*
-
-    *The file is generated on a daily basis. To learn more about the file data, refer to the following example file:*
-
-    * <a href="https://docs.google.com/spreadsheets/d/16ygmINFe4-1UUKqZ2Jwf3-7ms9Pl5qBMRVTUCz5XJJ0/edit?usp=sharing" target="_blank" rel="noopener noreferrer">RMPUDO20250718</a>
-
-    *The file will have a naming convention of RMPUDOyyyymmdd.csv and will be in csv format with comma delimiters. To learn more about the structure of the file refer to the<a href="https://docs.google.com/spreadsheets/d/1M86m55PXHYYoR97QIXCddtuqc80321CPKENqeKZ1y3I/edit?usp=sharing" target="_blank" rel="noopener noreferrer">PUDO file structure.</a>*
-  </Callout>
+      *The file will have a naming convention of RMPUDOyyyymmdd.csv and will be in csv format with comma delimiters. To learn more about the structure of the file refer to the<a href="https://docs.google.com/spreadsheets/d/1M86m55PXHYYoR97QIXCddtuqc80321CPKENqeKZ1y3I/edit?usp=sharing" target="_blank" rel="noopener noreferrer">PUDO file structure.</a>*
+    </Callout>
 </Accordion>
 
 <Accordion title="Create shipment using local collect enhancement">
