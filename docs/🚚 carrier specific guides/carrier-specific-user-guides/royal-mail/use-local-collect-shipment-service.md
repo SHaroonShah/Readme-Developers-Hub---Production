@@ -185,19 +185,19 @@ Based on your requirements, you can choose various approaches to use the PUDO lo
 
   You can use the SFTP solution, if you want to download the PUDO data into your own system to check the PUDO locations that are close by to a given address by yourself.
 
-  > 🚧 *Important*
-  >
-  > *If you want to set up the PUDO integration, make sure to meet the following prerequisites:*
-  >
-  > * *[Enable PUDO integration](https://docs.intersoftsapient.net/v4.02_Archive/update/docs/integration-activation#/) via the Royal Mail Integration Activation screen.*
-  >
-  >   <Image align="center" src="https://files.readme.io/735e213c58d29db4438e9cc89a873cba9c4a35bbaaf4f3663f68817f8c32327a-image.png" />
-  >
-  > * \*[Raise a request](mailto:onboarding@intersoftsapient.net) to our onboarding team to create a location for you to connect and download the PUDO data via SFTP by providing your RSA Public Key through a secure gateway. Our team will respond with the following connection details that you must use to connect to the SFTP server:*
->  * *Host name*
-  * *Username*
-  * *Password*
-  * *Private key*
+> 🚧 _Important_
+>
+> _If you want to set up the PUDO integration, make sure to meet the following prerequisites:_
+>
+> * _[Enable PUDO integration](https://docs.intersoftsapient.net/v4.02_Archive/update/docs/integration-activation#/) via the Royal Mail Integration Activation screen._
+>
+>   <Image align="center" border={false} src="https://files.readme.io/735e213c58d29db4438e9cc89a873cba9c4a35bbaaf4f3663f68817f8c32327a-image.png" />
+>
+> * *[Raise a request](mailto:onboarding@intersoftsapient.net) to our onboarding team to create a location for you to connect and download the PUDO data via SFTP by providing your RSA Public Key through a secure gateway. Our team will respond with the following connection details that you must use to connect to the SFTP server:* 
+>   * _Host name_
+>   * Username_
+>   * _Password_
+>   * _Private key_
 
     The PUDO SFTP solution provides you with all locations in a single file that you can store as a library.
 
@@ -241,3 +241,7 @@ Based on your requirements, you can choose various approaches to use the PUDO lo
 * _Username_
 * _Password_
 * _Private key_
+
+<br />
+
+
