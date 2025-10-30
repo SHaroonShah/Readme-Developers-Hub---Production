@@ -195,7 +195,7 @@ Based on your requirements, you can choose various approaches to use the PUDO lo
 >
 > * *[Raise a request](mailto:onboarding@intersoftsapient.net) to our onboarding team to create a location for you to connect and download the PUDO data via SFTP by providing your RSA Public Key through a secure gateway. Our team will respond with the following connection details that you must use to connect to the SFTP server:* 
 >   * _Host name_
->   * Username_
+>   * _Username_
 >   * _Password_
 >   * _Private key_
 
@@ -237,11 +237,4 @@ Based on your requirements, you can choose various approaches to use the PUDO lo
   > * *If the destination company name includes “c/o” and the`PudoId` is not populated, the existing Local Collect functionality will continue to apply.*
 </Accordion>
 
-* _Host name_
-* _Username_
-* _Password_
-* _Private key_
-
 <br />
-
-
