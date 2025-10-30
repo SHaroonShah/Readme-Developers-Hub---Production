@@ -193,11 +193,13 @@ Based on your requirements, you can choose various approaches to use the PUDO lo
   >
   >   <Image align="center" src="https://files.readme.io/735e213c58d29db4438e9cc89a873cba9c4a35bbaaf4f3663f68817f8c32327a-image.png" />
   >
-  > * *[Raise a request](mailto:onboarding@intersoftsapient.net) to our onboarding team to create a location for you to connect and download the PUDO data via SFTP by providing your RSA Public Key through a secure gateway. Our team will respond with the following connection details that you must use to connect to the SFTP server:*
+  > * *[Raise a request](mailto:onboarding@intersoftsapient.net) to our onboarding team to create a location for you to connect and download the PUDO data via SFTP by providing your RSA Public Key through a secure gateway. Our team will respond with the following connection details that you must use to connect to the SFTP server:
+
 * _Host name_
 * _Username_
 * _Password_
-* _Private key_
+* _Private key_*
+
 
 
   The PUDO SFTP solution provides you with all locations in a single file that you can store as a library.
