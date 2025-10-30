@@ -20,7 +20,7 @@ The [PUDO API](https://docs.intersoftsapient.net/reference/get_v4-pudolocations-
 * **Pick Up**: Allows customers to choose to collect their parcel from a PUDO point. It is particularly beneficial for those who may not always be available for direct delivery, helping to reduce missed delivery attempts and enhance overall customer satisfaction.
 * **Drop-off**: Allows customers to find a location where they can drop off a parcel they want to return.
 
-<Image align="center" className="border" border={true} width="200px" src="https://files.readme.io/fc9948cba5b87c15e89ceda1d55fe6f022a938bb2b8661ace1f6f9c9e5572799-Post_office.gif" />
+<Image align="center" border={true} width="200px" src="https://files.readme.io/fc9948cba5b87c15e89ceda1d55fe6f022a938bb2b8661ace1f6f9c9e5572799-Post_office.gif" className="border" />
 
 With the advancements in the location services, Royal Mail now supports the following location types:
 
@@ -193,7 +193,7 @@ Based on your requirements, you can choose various approaches to use the PUDO lo
   >
   >   <Image align="center" src="https://files.readme.io/735e213c58d29db4438e9cc89a873cba9c4a35bbaaf4f3663f68817f8c32327a-image.png" />
   >
-  > * *[Raise a request](mailto:onboarding@intersoftsapient.net) to our onboarding team to create a location for you to connect and download the PUDO data via SFTP by providing your RSA Public Key through a secure gateway. Our team will respond with your connection details.*
+  > * *[Raise a request](mailto:onboarding@intersoftsapient.net) to our onboarding team to create a location for you to connect and download the PUDO data via SFTP by providing your RSA Public Key through a secure gateway. Our team will respond with your connection details that includes the following:*
 
   The PUDO SFTP solution provides you with all locations in a single file that you can store as a library.
 
