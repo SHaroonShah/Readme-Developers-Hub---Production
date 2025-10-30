@@ -9,12 +9,12 @@ excerpt: >-
 deprecated: false
 hidden: false
 icon: fad fa-layer-plus
+link:
+  new_tab: false
 metadata:
   title: ''
   description: ''
   robots: index
-next:
-  description: ''
 ---
 Generating a bearer token is essential for securely managing access to APIs, allowing for robust authentication mechanisms while maintaining a stateless, scalable architecture.
 
@@ -29,7 +29,7 @@ To generate the bearer token via the Postman application, follow the instruction
 <Callout icon="💡" theme="default">
   ### *Tip*
 
-  *If you do not have the Postman application, you can download it[here](https://www.postman.com/downloads/) or register for an online Postman account, respectively.*
+  *If you do not have the Postman application, you can download it [here](https://www.postman.com/downloads/) or register for an online Postman account, respectively.*
 </Callout>
 
 1. After successfully logging in, on your workspace toolbar, select **New** > **HTTP** . Alternatively, on your workspace, select **+** tab to add a new HTTP request tab.
