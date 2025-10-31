@@ -66,7 +66,7 @@ This section outlines the essential information on our APIs and steps to begin u
 ### Setup Checklist
 
 <Cards columns="2">
-  <Card title="Create API Credentials" href="https://docs.intersoftsapient.net/docs/create-api-credentials">
+  <Card title="Create API Credentials" href="https://docs.intersoftsapient.net/docs/create-api-credentials" icon="fa-solid fa-key">
     Set up your API credentials to authenticate with the SAPIENT platform
   </Card>
 
