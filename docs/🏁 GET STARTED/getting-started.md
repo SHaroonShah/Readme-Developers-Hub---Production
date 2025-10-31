@@ -33,6 +33,7 @@ APIs play a crucial role in the SAPIENT system by facilitating seamless integrat
 
     The Intersoft SAPIENT Developers Hub provides both new and current users with a step-by-step guide on how to set up a <Glossary>shipping account</Glossary>, <Glossary>shipments</Glossary>, and get started as a new user.
   </Column>
+
   <Column>
     Furthermore, this section covers the vital processes on how the business clients can utilise the API to carry out shipping activities with available carriers, as well as the technical details required to build this integration.
   </Column>
@@ -48,16 +49,17 @@ This section outlines the essential information on our APIs and steps to begin u
 
     **Intersoft API** is a fully RESTful service implemented using JSON messaging. You, as the customer, are responsible for sending JSON messages and for maintaining the capability of receiving JSON messages in the format described in this documentation.
 
-    <Image align="center" border={false} width="500px" src="https://files.readme.io/c388f57ddfed471dccc9c49befdedf8da79a14260f9ffbbc5e7f5996226f2022-Intersoft_api_art.png" />
+    <Image align="center" src="https://files.readme.io/c388f57ddfed471dccc9c49befdedf8da79a14260f9ffbbc5e7f5996226f2022-Intersoft_api_art.png" width="500px" />
   </Tab>
+
   <Tab title="Integration Steps">
     ### Seamless integration awaits: Get started with SAPIENT
 
     Get ready to integrate our powerful API into your existing systems. Whether you are looking to streamline shipping management, monitor performance metrics, or customise your logistics workflows, our APIs provide the flexibility and scalability you need to succeed.
 
-    > 🚧 _Important_
+    > 🚧 *Important*
     >
-    > _The API requires the user to provide a [Bearer token](https://docs.intersoftsapient.net/docs/bearer-token-generation-1). To learn more about the bearer token and its generation, refer to the [Authentication](https://docs.intersoftsapient.net/docs/authentication) section._
+    > *The API requires the user to provide a[Bearer token](https://docs.intersoftsapient.net/docs/bearer-token-generation-1). To learn more about the bearer token and its generation, refer to the [Authentication](https://docs.intersoftsapient.net/docs/authentication) section.*
   </Tab>
 </Tabs>
 
@@ -67,21 +69,25 @@ This section outlines the essential information on our APIs and steps to begin u
   <Card title="Create API Credentials" href="https://docs.intersoftsapient.net/docs/create-api-credentials" icon="key">
     Set up your API credentials to authenticate with the SAPIENT platform
   </Card>
+
   <Card title="Activate Integration" href="doc:integration-activation" icon="power-off">
     Activate your integration to start using SAPIENT services
   </Card>
+
   <Card title="Add Users" href="doc:add-users-to-your-organisation-to-begin-collaborating-with-your-team" icon="users">
     Add team members to your organisation for collaboration
   </Card>
+
   <Card title="Add Shipping Locations" href="https://docs.intersoftsapient.net/docs/add-a-shipping-location" icon="map-marker-alt">
     Configure your shipping locations for dispatch
   </Card>
+
   <Card title="Add Shipping Accounts" href="https://docs.intersoftsapient.net/docs/add-a-shipping-account" icon="credit-card">
     Set up carrier accounts for shipping services
   </Card>
 </Cards>
 
----
+***
 
 ## Further Reading
 
@@ -89,103 +95,27 @@ This section outlines the essential information on our APIs and steps to begin u
   <Card title="User Guides" href="https://docs.intersoftsapient.net/docs/maintenance-guides" icon="book">
     Comprehensive guides for using SAPIENT features
   </Card>
+
   <Card title="Shipment Creation" href="https://docs.intersoftsapient.net/docs/shipment-creation-and-manifesting" icon="box">
     Learn about creating shipments and manifesting
   </Card>
+
   <Card title="Additional Services" href="https://docs.intersoftsapient.net/docs/additional-services-user-guides" icon="plus-circle">
     Explore additional SAPIENT services
   </Card>
+
   <Card title="Carrier Guides" href="https://docs.intersoftsapient.net/docs/carrier-specific-user-guides" icon="truck">
     Carrier-specific implementation guides
   </Card>
+
   <Card title="Glossary" href="https://docs.intersoftsapient.net/docs/glossary-1" icon="list">
     Terms and definitions used in SAPIENT
   </Card>
+
   <Card title="Release Notes" href="https://docs.intersoftsapient.net/docs/archived-release-notes" icon="clipboard-list">
     Archived release notes and updates
   </Card>
 </Cards>
 
-## MDF Validation Rules
+<br />
 
-The following validation rules apply to different shipment scenarios:
-
-<Accordion title="Rule A - Domestic & Document Shipments" icon="home">
-**Scenario:** All domestic shipments (within the same country) and international document shipments (letters, paperwork)
-
-**Mandatory Fields:**
-- Sender Name, Address 1, Town, Postcode, Country
-- Destination Name, Address 1, Town, Country
-</Accordion>
-
-<Accordion title="Rule B - International Goods (Basic DDU)" icon="globe">
-**Scenario:** International non-document shipments (goods) using DDU (buyer pays duties/taxes)
-
-**Mandatory Fields:**
-- All Rule A fields plus:
-- Item Quantity, Description, Value, Weight
-</Accordion>
-
-<Accordion title="Rule C - International Goods (Enhanced DDU)" icon="globe-americas">
-**Scenario:** International non-document shipments (goods) using DDU, with extra customs data
-
-**Mandatory Fields:**
-- All Rule B fields plus:
-- Item HS Code, Country of Origin
-</Accordion>
-
-<Accordion title="Rule D - DDU with Contact Details" icon="phone">
-**Scenario:** International non-document shipments (goods) using DDU, with extra customs data and mandatory recipient contact details
-
-**Mandatory Fields:**
-- All Rule C fields plus:
-- Recipient Contact Phone Number, Email
-</Accordion>
-
-<Accordion title="Rule E - DDP Non-EU Destinations" icon="calculator">
-**Scenario:** International non-document shipments (goods) using DDP (seller pays duties/taxes), sent to non-EU destinations
-
-**Mandatory Fields:**
-- All Rule D fields plus:
-- Customs Quoted Landed Cost
-</Accordion>
-
-<Accordion title="Rule F - DDP EU Destinations" icon="flag">
-**Scenario:** International non-document shipments (goods) using DDP, sent to EU destinations
-
-**Mandatory Fields:**
-- All Rule E fields plus:
-- Shipper EORI Number
-</Accordion>
-
-<Accordion title="Rule G - IOSS Registration" icon="certificate">
-**Scenario:** International non-document shipments (goods) with IOSS registration (EU VAT scheme for e-commerce)
-
-**Mandatory Fields:**
-- All Rule D fields plus:
-- IOSS Preregistration Type, Number
-</Accordion>
-
-<Accordion title="Rule H - Other Preregistration Schemes" icon="registered">
-**Scenario:** International non-document shipments (goods) with other preregistration schemes (PRS)
-
-**Mandatory Fields:**
-- All Rule D fields plus:
-- Non-IOSS Preregistration Type, Number
-</Accordion>
-
-<Accordion title="Rule K - Business-to-Business Shipments" icon="building">
-**Scenario:** Business-to-business (B2B) shipments
-
-**Mandatory Fields:**
-- All Rule C fields plus:
-- Recipient EORI Number, Shipper EORI Number
-</Accordion>
-
-<Accordion title="Rule L - DDP with Importer Details" icon="user-tie">
-**Scenario:** International non-document shipments (goods) using DDP, with importer details required
-
-**Mandatory Fields:**
-- All Rule E fields plus:
-- Importer Name, Address 1, Country Code, Town
-</Accordion>
