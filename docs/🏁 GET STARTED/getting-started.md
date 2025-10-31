@@ -99,12 +99,10 @@ This section provides you with the complimentary information that you might find
        <td colspan="2"> <b>Address</b> </td>
      </tr>
      <tr>
-       <td> Town </td>
-       <td> ABB </td>
+       <td colspan="2">Town</td>
      </tr>
      <tr>
-       <td> PostCode </td>
-       <td> GB5674 </td>
+       <td colspan="2">PostCode</td>
      </tr>
      <tr>
        <td> County </td>
