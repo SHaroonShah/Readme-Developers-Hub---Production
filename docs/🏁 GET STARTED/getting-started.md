@@ -112,12 +112,10 @@ This section provides you with the complimentary information that you might find
      </tr>
      <tr>
        <td colspan="2"> <b>Packages</b> </td>
-     </tr>
-       <td colspan="2"> <b>Address</b> </td>
-     </tr>
      <tr>
        <td> Town </td>
        <td> ABB </td>
+</tr>
    </tbody>
 </table>
 `}</HTMLBlock>
