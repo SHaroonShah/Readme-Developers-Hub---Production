@@ -27,8 +27,6 @@ APIs play a crucial role in the SAPIENT system by facilitating seamless integrat
 
 ![](https://files.readme.io/388cd2a3a1d8218b544e56f932524b5d0ea3007df9949f6898ef360c04903e64-moving_conveyor_loop.gif).
 
-<Image align="center" border={true} src="https://files.readme.io/82fb0cbe41a890f07d419cd0f39a19ec47336cd51e97fe6969efdb6b26a4d82d-Sapient.png" className="border" />
-
 <Columns layout="auto">
   <Column>
     If you are looking to build an integration, then our API solution will help you incorporate the intelligence of Intersoft SAPIENT into your software with minimal integration effort.
