@@ -115,9 +115,11 @@ This section provides you with the complimentary information that you might find
      <tr>
        <td> Town </td>
        <td> ABB </td>
-<td> PostCode </td>
-       <td> GB5674 </td>
+     </tr>     <tr>
+       <td> City </td>
+       <td> Aberdeen </td>
 </tr>
+
    </tbody>
 </table>
 `}</HTMLBlock>
