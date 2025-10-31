@@ -70,7 +70,7 @@ This section outlines the essential information on our APIs and steps to begin u
     Set up your API credentials to authenticate with the SAPIENT platform
   </Card>
 
-  <Card title="Activate Integration" href="doc:integration-activation" icon="power-off">
+  <Card title="Activate Integration" href="doc:integration-activation" icon="fa-solid fa-power-off">
     Activate your integration to start using SAPIENT services
   </Card>
 
