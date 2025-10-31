@@ -85,3 +85,36 @@ This section provides you with the complimentary information that you might find
 | **H**           | International non-document shipments (goods) with other preregistration schemes (PRS)                                          | Sender Name, Sender Address 1, Sender Town, Sender Postcode, Sender Country, Destination Name, Destination Address 1, Destination Town, Destination Country, Item Quantity, Item Description, Item Value, Item Weight, Item HS Code, Item Country of Origin, Recipient Contact Phone Number, Recipient Email, Non-IOSS Preregistration Type, Non-IOSS Preregistration Number                                                           |
 | **K**           | Business-to-business (B2B) shipments                                                                                           | Sender Name, Sender Address 1, Sender Town, Sender Postcode, Sender Country, Destination Name, Destination Address 1, Destination Town, Destination Country, Item Quantity, Item Description, Item Value, Item Weight, Item HS Code, Item Country of Origin, Recipient EORI Number, Shipper EORI Number                                                                                                                                |
 | **L**           | International non-document shipments (goods) using DDP, with importer details required                                         | Sender Name, Sender Address 1, Sender Town, Sender Postcode, Sender Country, Destination Name, Destination Address 1, Destination Town, Destination Country, Shipper EORI Number, Recipient Email, Recipient Contact Phone Number, Item Quantity, Item Description, Item Value, Item Weight, Item HS Code, Item Country of Origin, Customs Quoted Landed Cost, Importer Name, Importer Address 1, Importer Country Code, Importer Town |
+
+<HTMLBlock>{`
+ <table>
+   <thead>
+     <tr>
+       <th> API Object </th>
+       <th> API Field Name </th>
+     </tr>
+   </thead>
+   <tbody>
+     <tr>
+       <td colspan="2"> <b>Address</b> </td>
+     </tr>
+     <tr>
+       <td> Town </td>
+       <td> ABB </td>
+     </tr>
+     <tr>
+       <td> PostCode </td>
+       <td> GB5674 </td>
+     </tr>
+     <tr>
+       <td> County </td>
+       <td> Surrey </td>
+     </tr>
+     <tr>
+       <td colspan="2"> <b>Packages</b> </td>
+     </tr>
+   </tbody>
+</table>
+`}</HTMLBlock>
+
+<br />
