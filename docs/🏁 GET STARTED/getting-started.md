@@ -21,7 +21,7 @@ next:
       title: Integration Activation
       type: basic
 ---
-<Image align="center" border={false} src="https://files.readme.io/8245c7a82add49c903fa4c71a0cd47d0a13597f19c6fc5d9b0265ad35b2cdddc-generated_image_1.png" />
+<Image align="center" border={false} src="https://files.readme.io/0584ce0be71c220cb468d3c532a2c8ce10f81d4f6a9d8db111ca945bee9ac384-generated_image_222222222.gif" />
 
 # Introduction
 
