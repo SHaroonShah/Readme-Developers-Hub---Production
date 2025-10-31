@@ -113,6 +113,11 @@ This section provides you with the complimentary information that you might find
      <tr>
        <td colspan="2"> <b>Packages</b> </td>
      </tr>
+       <td colspan="2"> <b>Address</b> </td>
+     </tr>
+     <tr>
+       <td> Town </td>
+       <td> ABB </td>
    </tbody>
 </table>
 `}</HTMLBlock>
