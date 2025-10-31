@@ -123,38 +123,38 @@ This section provides you with the complimentary information that you might find
 
 <Accordion title="Rule A" icon="fa-info-circle">
   <HTMLBlock>{`
-         <table>
-           <thead>
-             <tr>
-               <th> API Object </th>
-               <th> API Field Name </th>
-             </tr>
-           </thead>
-           <tbody>
-             <tr>
-               <td colspan="2"> <b>Address</b> </td>
-             </tr>
-             <tr>
-               <td colspan="2">Town</td>
-             </tr>
-             <tr>
-               <td colspan="2">PostCode</td>
-             </tr>
-             <tr>
-               <td> County </td>
-               <td> Surrey </td>
-             </tr>
-             <tr>
-               <td colspan="2"> <b>Packages</b> </td>
-             <tr>
-               <td> Town </td>
-               <td> ABB </td>
-             </tr>     <tr>
-               <td> City </td>
-               <td> Aberdeen </td>
-        </tr>
+           <table>
+             <thead>
+               <tr>
+                 <th> API Object </th>
+                 <th> API Field Name </th>
+               </tr>
+             </thead>
+             <tbody>
+               <tr>
+                 <td colspan="2"> <b>Sender > Address</b> </td>
+               </tr>
+               <tr>
+                 <td colspan="2">Town</td>
+               </tr>
+               <tr>
+                 <td colspan="2">PostCode</td>
+               </tr>
+               <tr>
+                 <td> County </td>
+                 <td> Surrey </td>
+               </tr>
+               <tr>
+                 <td colspan="2"> <b>Packages</b> </td>
+               <tr>
+                 <td> Town </td>
+                 <td> ABB </td>
+               </tr>     <tr>
+                 <td> City </td>
+                 <td> Aberdeen </td>
+          </tr>
 
-           </tbody>
-        </table>
+             </tbody>
+          </table>
   `}</HTMLBlock>
 </Accordion>
