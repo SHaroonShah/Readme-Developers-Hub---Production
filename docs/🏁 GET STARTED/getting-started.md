@@ -148,7 +148,8 @@ This section outlines the essential information on our APIs and steps to begin u
        <td> PostCode </td> 
      </tr>
      <tr>
-       <td> County </td>
+       <td> County 
+         <I> Note: hi hello you</I> </td>
        
      </tr>
    </tbody>
