@@ -131,26 +131,21 @@ This section outlines the essential information on our APIs and steps to begin u
      </tr>
      <tr>
        <td> Town </td>
-    
      </tr>
      <tr>
        <td> PostCode </td>
-       
      </tr>
      <tr>
        <td> County </td>
-       
      </tr>
      <tr>
        <td rowspan="4"> <b>Packages</b> </td>
      </tr>
      <tr>
        <td> Town </td>
-    
      </tr>
      <tr>
-       <td> PostCode </td>
-       
+       <td> PostCode </td> 
      </tr>
      <tr>
        <td> County </td>
