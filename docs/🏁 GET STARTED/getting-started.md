@@ -131,17 +131,23 @@ This section outlines the essential information on our APIs and steps to begin u
      </tr>
      <tr>
        <td> Town </td>
-       <td> ABB </td>
      </tr>
      <tr>
        <td> PostCode </td>
-       <td> GB5674 </td>
      </tr>
      <tr>
        <td> County </td>
-       <td> Surrey </td>
      </tr>
      <tr>
+ <tr>
+       <td> Town </td>
+     </tr>
+     <tr>
+       <td> PostCode </td>
+     </tr>
+     <tr>
+       <td> County </td>
+     </tr>
        <td rowspan="5"> <b>Packages</b> </td>
      </tr>
    </tbody>
