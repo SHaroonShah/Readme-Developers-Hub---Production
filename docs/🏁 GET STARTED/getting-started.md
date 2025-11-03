@@ -117,4 +117,35 @@ This section outlines the essential information on our APIs and steps to begin u
   </Card>
 </Cards>
 
+<HTMLBlock>{`
+ <table>
+   <thead>
+     <tr>
+       <th> API Object </th>
+       <th> API Field Name </th>
+     </tr>
+   </thead>
+   <tbody>
+     <tr>
+       <td colspan="2"> <b>Address</b> </td>
+     </tr>
+     <tr>
+       <td> Town </td>
+       <td> ABB </td>
+     </tr>
+     <tr>
+       <td> PostCode </td>
+       <td> GB5674 </td>
+     </tr>
+     <tr>
+       <td> County </td>
+       <td> Surrey </td>
+     </tr>
+     <tr>
+       <td colspan="2"> <b>Packages</b> </td>
+     </tr>
+   </tbody>
+</table>
+`}</HTMLBlock>
+
 <br />
