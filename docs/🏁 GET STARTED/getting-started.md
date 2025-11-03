@@ -142,7 +142,7 @@ This section outlines the essential information on our APIs and steps to begin u
        
      </tr>
      <tr>
-       <td colspan="4"> <b>Packages</b> </td>
+       <td rowspan="4"> <b>Packages</b> </td>
      </tr>
      <tr>
        <td> Town </td>
