@@ -142,7 +142,19 @@ This section outlines the essential information on our APIs and steps to begin u
        
      </tr>
      <tr>
-       <td colspan="2"> <b>Packages</b> </td>
+       <td colspan="4"> <b>Packages</b> </td>
+     </tr>
+     <tr>
+       <td> Town </td>
+    
+     </tr>
+     <tr>
+       <td> PostCode </td>
+       
+     </tr>
+     <tr>
+       <td> County </td>
+       
      </tr>
    </tbody>
 </table>
