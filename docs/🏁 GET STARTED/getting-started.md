@@ -127,7 +127,7 @@ This section outlines the essential information on our APIs and steps to begin u
    </thead>
    <tbody>
      <tr>
-       <td rowspan="3"> <b>Address</b> </td>
+       <td rowspan="4"> <b>Address</b> </td>
      </tr>
      <tr>
        <td> Town </td>
