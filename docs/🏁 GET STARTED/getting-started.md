@@ -142,7 +142,7 @@ This section outlines the essential information on our APIs and steps to begin u
        <td> Surrey </td>
      </tr>
      <tr>
-       <td colspan="2"> <b>Packages</b> </td>
+       <td rowspan="5"> <b>Packages</b> </td>
      </tr>
    </tbody>
 </table>
