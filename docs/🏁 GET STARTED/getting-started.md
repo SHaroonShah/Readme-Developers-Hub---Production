@@ -149,7 +149,7 @@ This section outlines the essential information on our APIs and steps to begin u
      </tr>
      <tr>
        <td> County 
-         <I> Note: hi hello you</I> </td>
+         </td>
        
      </tr>
    </tbody>
