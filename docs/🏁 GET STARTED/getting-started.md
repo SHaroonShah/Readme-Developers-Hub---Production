@@ -15,7 +15,7 @@ next:
       title: Integration Activation
       type: basic
 ---
-<Banner isInline={true} message="Welcome to SAPIENT DEVELOPERS HUB" color="#118cfd" textColor="#ffffff" fontSize="14px" fontWeight="bold" Image align="center" src="https://files.readme.io/c388f57ddfed471dccc9c49befdedf8da79a14260f9ffbbc5e7f5996226f2022-Intersoft_api_art.png" width="500px" />
+<Banner isInline={true} message="Welcome to SAPIENT DEVELOPERS HUB APIs play a crucial role in the SAPIENT system by facilitating seamless integration with various shipping carriers, third party logistics providers, and other eCommerce platforms. This connectivity allows businesses to automate data exchange, streamline workflows, and ensure real-time updates on shipping performance." color="#118cfd" textColor="#ffffff" fontSize="14px" fontWeight="bold" />
 
 # Introduction
 
