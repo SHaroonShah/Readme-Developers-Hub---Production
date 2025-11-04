@@ -67,7 +67,7 @@ This section outlines the essential information on our APIs and steps to begin u
   </Card>
 
   <Card title="" href="https://docs.intersoftsapient.net/docs/create-api-credentials" Width="200">
-    <Image align="center" src="https://files.readme.io/a9ee760d85555af384cfd0575c7bc99d51a1aada6dec34c8bfb588907ccd9422-RM_favicon.png" width="200px" alt="thumbnail" />
+    <Image align="center" src="https://files.readme.io/9b5162bacf5f3ac36b0200401aa0441bd609545eaf01e789087d520c1455ca64-DX_freight_logo.png" width="180px" alt="thumbnail" />
   </Card>
 
   <Card title="" href="https://docs.intersoftsapient.net/docs/create-api-credentials" Width="200">
