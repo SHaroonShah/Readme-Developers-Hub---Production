@@ -15,7 +15,7 @@ next:
       title: Integration Activation
       type: basic
 ---
-<Banner isInline={true} image="https://files.readme.io/c388f57ddfed471dccc9c49befdedf8da79a14260f9ffbbc5e7f5996226f2022-Intersoft_api_art.png" width="500px" color="#ffb600" textColor="a5b6c8" fontSize="14px" fontWeight="bold" />
+<Banner isInline={true} imagesrc="https://files.readme.io/c388f57ddfed471dccc9c49befdedf8da79a14260f9ffbbc5e7f5996226f2022-Intersoft_api_art.png" width="500px" color="#ffb600" textColor="a5b6c8" fontSize="14px" fontWeight="bold" />
 
 # Introduction
 
