@@ -63,7 +63,7 @@ This section outlines the essential information on our APIs and steps to begin u
   </Card>
 
   <Card title="Activate Integration" href="doc:integration-activation" icon="fa-solid fa-power-off">
-    Activate your integration to start using SAPIENT services
+    <Image align="center" src="https://files.readme.io/a9ee760d85555af384cfd0575c7bc99d51a1aada6dec34c8bfb588907ccd9422-RM_favicon.png" width="200px" alt="thumbnail" />
   </Card>
 
   <Card title="Add Users" href="doc:add-users-to-your-organisation-to-begin-collaborating-with-your-team" icon="users">
