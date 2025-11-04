@@ -55,7 +55,7 @@ This section outlines the essential information on our APIs and steps to begin u
   </Tab>
 </Tabs>
 
-### Setup Checklist
+### Carrier Guides
 
 <Cards columns="3">
   <Card title="" href="https://docs.intersoftsapient.net/docs/create-api-credentials" Width="200">
