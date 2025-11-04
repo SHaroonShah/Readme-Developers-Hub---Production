@@ -27,9 +27,11 @@ next:
   <SimpleStep header="Step 3: Review">
     Review and refine your content.
   </SimpleStep>
+ <SimpleStep header="Step 4: Plan">
+    Plan your documentation and gather resources.
+  </SimpleStep>
 </SimpleStepper>
 
-<PostList_1 Title="Review and refine your content." />
 
 # Introduction
 
