@@ -16,12 +16,14 @@ next:
       type: basic
 ---
 <SimpleStepper>
-  <SimpleStep header="Step 1: Plan">
+  <SimpleStep header="Step 1: Plan" background-color="ffb600">
     Plan your documentation and gather resources.
   </SimpleStep>
+
   <SimpleStep header="Step 2: Write">
     Write effective and clear documentation.
   </SimpleStep>
+
   <SimpleStep header="Step 3: Review">
     Review and refine your content.
   </SimpleStep>
