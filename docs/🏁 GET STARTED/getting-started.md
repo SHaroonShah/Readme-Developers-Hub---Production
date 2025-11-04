@@ -15,19 +15,50 @@ next:
       title: Integration Activation
       type: basic
 ---
-<SimpleStepper>
-  <SimpleStep header="Step 1: Plan">
+<HTMLBlock>{`
+<SimpleStepper class="custom-stepper">
+  <SimpleStep header="Step 1: Plan" style="background-color:#f0f8ff;">
     Plan your documentation and gather resources.
   </SimpleStep>
 
-  <SimpleStep header="Step 2: Write">
+  <SimpleStep header="Step 2: Write" style="background-color:#e6ffe6;">
     Write effective and clear documentation.
   </SimpleStep>
 
-  <SimpleStep header="Step 3: Review">
+  <SimpleStep header="Step 3: Review" style="background-color:#fff0f5;">
     Review and refine your content.
   </SimpleStep>
 </SimpleStepper>
+
+<style>
+  /* Change step indicator background */
+  .custom-stepper .step-indicator {
+    background-color: #6a0dad; /* Purple */
+    color: #fff;
+  }
+
+  /* Active step indicator */
+  .custom-stepper .step-indicator.active {
+    background-color: #4b0082; /* Darker purple */
+  }
+
+  /* Style buttons */
+  .custom-stepper button {
+    background-color: #6a0dad; /* Purple */
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .custom-stepper button:hover {
+    background-color: #4b0082; /* Darker purple on hover */
+  }
+</style>
+`}</HTMLBlock>
+
+<br />
 
 # Introduction
 
