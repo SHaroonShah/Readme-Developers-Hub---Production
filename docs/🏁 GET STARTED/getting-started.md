@@ -15,17 +15,28 @@ next:
       title: Integration Activation
       type: basic
 ---
-<Columns layout="fixed">
-  <Column>
-    Neque porro quisquam est qui dolorem ipsum quia
-  </Column>
-  <Column>
-    *Lorem ipsum dolor sit amet, consectetur adipiscing elit*
-  </Column>
-  <Column>
-    **Ut enim ad minim veniam, quis nostrud ullamco**
-  </Column>
-</Columns>
+<SimpleStepper>
+  <SimpleStep header="Step 1: Plan">
+    Plan your documentation and gather resources.
+  </SimpleStep>
+  <SimpleStep header="Step 2: Write">
+    Write effective and clear documentation.
+  </SimpleStep>
+  <SimpleStep header="Step 3: Review">
+    Review and refine your content.
+  </SimpleStep>
+</SimpleStepper>
+
+<PostList_1 />
+
+<ToggleList>
+  <ToggleListItem title="What type of books do owls like to read?">
+    Hoooo-dunnits 🔎
+  </ToggleListItem>
+  <ToggleListItem title="What’s an owl’s favorite drink?">
+    Hoot beer 🥤
+  </ToggleListItem>
+</ToggleList>
 
 # Introduction
 
