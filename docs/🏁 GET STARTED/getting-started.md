@@ -59,7 +59,7 @@ This section outlines the essential information on our APIs and steps to begin u
 
 <Cards columns="3">
   <Card title="" href="https://docs.intersoftsapient.net/docs/create-api-credentials" Width="200">
-    <Image align="center" src="https://files.readme.io/a9ee760d85555af384cfd0575c7bc99d51a1aada6dec34c8bfb588907ccd9422-RM_favicon.png" width="200px" alt="thumbnail" />
+    <Image align="center" src="https://files.readme.io/a9ee760d85555af384cfd0575c7bc99d51a1aada6dec34c8bfb588907ccd9422-RM_favicon.png" width="180px" alt="thumbnail" />
   </Card>
 
   <Card title="" href="https://docs.intersoftsapient.net/docs/create-api-credentials" Width="200">
@@ -70,7 +70,7 @@ This section outlines the essential information on our APIs and steps to begin u
     <Image align="center" src="https://files.readme.io/a9ee760d85555af384cfd0575c7bc99d51a1aada6dec34c8bfb588907ccd9422-RM_favicon.png" width="200px" alt="thumbnail" />
   </Card>
 
- <Card title="" href="https://docs.intersoftsapient.net/docs/create-api-credentials" Width="200">
+  <Card title="" href="https://docs.intersoftsapient.net/docs/create-api-credentials" Width="200">
     <Image align="center" src="https://files.readme.io/a9ee760d85555af384cfd0575c7bc99d51a1aada6dec34c8bfb588907ccd9422-RM_favicon.png" width="200px" alt="thumbnail" />
   </Card>
 
