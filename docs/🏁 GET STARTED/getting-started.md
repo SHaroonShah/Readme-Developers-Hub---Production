@@ -16,7 +16,7 @@ next:
       type: basic
 ---
 <SimpleStepper>
-  <SimpleStep header="Step 1: Plan" background-color="ffb600">
+  <SimpleStep header="Step 1: Plan" header background-color="ffb600">
     Plan your documentation and gather resources.
   </SimpleStep>
 
