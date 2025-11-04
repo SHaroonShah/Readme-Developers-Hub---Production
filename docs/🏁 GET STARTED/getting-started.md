@@ -62,20 +62,20 @@ This section outlines the essential information on our APIs and steps to begin u
     <Image align="center" src="https://files.readme.io/a9ee760d85555af384cfd0575c7bc99d51a1aada6dec34c8bfb588907ccd9422-RM_favicon.png" width="200px" alt="thumbnail" />
   </Card>
 
-  <Card title="Activate Integration" href="doc:integration-activation" icon="fa-solid fa-power-off">
+  <Card title="" href="https://docs.intersoftsapient.net/docs/create-api-credentials" Width="200">
     <Image align="center" src="https://files.readme.io/a9ee760d85555af384cfd0575c7bc99d51a1aada6dec34c8bfb588907ccd9422-RM_favicon.png" width="200px" alt="thumbnail" />
   </Card>
 
-  <Card title="Add Users" href="doc:add-users-to-your-organisation-to-begin-collaborating-with-your-team" icon="users">
-    Add team members to your organisation for collaboration
+  <Card title="" href="https://docs.intersoftsapient.net/docs/create-api-credentials" Width="200">
+    <Image align="center" src="https://files.readme.io/a9ee760d85555af384cfd0575c7bc99d51a1aada6dec34c8bfb588907ccd9422-RM_favicon.png" width="200px" alt="thumbnail" />
   </Card>
 
-  <Card title="Add Shipping Locations" href="https://docs.intersoftsapient.net/docs/add-a-shipping-location" icon="map-marker-alt">
-    Configure your shipping locations for dispatch
+ <Card title="" href="https://docs.intersoftsapient.net/docs/create-api-credentials" Width="200">
+    <Image align="center" src="https://files.readme.io/a9ee760d85555af384cfd0575c7bc99d51a1aada6dec34c8bfb588907ccd9422-RM_favicon.png" width="200px" alt="thumbnail" />
   </Card>
 
-  <Card title="Add Shipping Accounts" href="https://docs.intersoftsapient.net/docs/add-a-shipping-account" icon="credit-card">
-    Set up carrier accounts for shipping services
+  <Card title="" href="https://docs.intersoftsapient.net/docs/create-api-credentials" Width="200">
+    <Image align="center" src="https://files.readme.io/a9ee760d85555af384cfd0575c7bc99d51a1aada6dec34c8bfb588907ccd9422-RM_favicon.png" width="200px" alt="thumbnail" />
   </Card>
 </Cards>
 
