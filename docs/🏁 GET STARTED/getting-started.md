@@ -27,9 +27,7 @@ next:
   <SimpleStep header="Step 3: Review">
     Review and refine your content.
   </SimpleStep>
-<button type="button" disabled="" aria-label="Previous Step" style="padding: 8px 16px; margin: 10px; border: none; border-radius: 4px; background-color: rgb(90, 60, 133); color: white; cursor: pointer;">Back</button>
 </SimpleStepper>
-
 
 # Introduction
 
