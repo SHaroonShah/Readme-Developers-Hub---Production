@@ -77,6 +77,18 @@ This section outlines the essential information on our APIs and steps to begin u
   <Card title="" href="https://docs.intersoftsapient.net/docs/create-api-credentials" Width="200">
     <Image align="center" src="https://files.readme.io/88a7599e1a64e2eb5cd20cc992a3a87dc3b68ebb766615ba6766c7f560586e5e-FedEx_White_BG.png" width="160px" alt="thumbnail" />
   </Card>
+<Card title="" href="https://docs.intersoftsapient.net/docs/create-api-credentials" Width="200">
+    <Image align="center" src="https://files.readme.io/88a7599e1a64e2eb5cd20cc992a3a87dc3b68ebb766615ba6766c7f560586e5e-FedEx_White_BG.png" width="160px" alt="thumbnail" />
+  </Card>
+<Card title="" href="https://docs.intersoftsapient.net/docs/create-api-credentials" Width="200">
+    <Image align="center" src="https://files.readme.io/88a7599e1a64e2eb5cd20cc992a3a87dc3b68ebb766615ba6766c7f560586e5e-FedEx_White_BG.png" width="160px" alt="thumbnail" />
+  </Card>
+<Card title="" href="https://docs.intersoftsapient.net/docs/create-api-credentials" Width="200">
+    <Image align="center" src="https://files.readme.io/88a7599e1a64e2eb5cd20cc992a3a87dc3b68ebb766615ba6766c7f560586e5e-FedEx_White_BG.png" width="160px" alt="thumbnail" />
+  </Card>
+<Card title="" href="https://docs.intersoftsapient.net/docs/create-api-credentials" Width="200">
+    <Image align="center" src="https://files.readme.io/88a7599e1a64e2eb5cd20cc992a3a87dc3b68ebb766615ba6766c7f560586e5e-FedEx_White_BG.png" width="160px" alt="thumbnail" />
+  </Card>
 </Cards>
 
 ***
