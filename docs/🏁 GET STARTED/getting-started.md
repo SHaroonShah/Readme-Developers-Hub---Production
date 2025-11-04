@@ -19,9 +19,11 @@ next:
   <SimpleStep header="Step 1: Plan">
     Plan your documentation and gather resources.
   </SimpleStep>
+
   <SimpleStep header="Step 2: Write">
     Write effective and clear documentation.
   </SimpleStep>
+
   <SimpleStep header="Step 3: Review">
     Review and refine your content.
   </SimpleStep>
@@ -29,14 +31,7 @@ next:
 
 <PostList_1 />
 
-<ToggleList>
-  <ToggleListItem title="What type of books do owls like to read?">
-    Hoooo-dunnits 🔎
-  </ToggleListItem>
-  <ToggleListItem title="What’s an owl’s favorite drink?">
-    Hoot beer 🥤
-  </ToggleListItem>
-</ToggleList>
+
 
 # Introduction
 
