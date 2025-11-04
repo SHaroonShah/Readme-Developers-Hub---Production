@@ -57,14 +57,7 @@ This section outlines the essential information on our APIs and steps to begin u
 
 ### Carrier Guides
 
-<Banner
-  isInline={true}
-  message=""
-  color="#118cfd"
-  textColor="#ffffff"
-  fontSize="14px"
-  fontWeight="bold"
- />
+<Banner isInline={true} message="" color="#ffb600" textColor="#ffffff" fontSize="14px" fontWeight="bold" />
 
 <Cards columns="4">
   <Card title="" href="https://docs.intersoftsapient.net/docs/create-api-credentials" Width="200">
