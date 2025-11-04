@@ -15,6 +15,18 @@ next:
       title: Integration Activation
       type: basic
 ---
+<SimpleStepper>
+  <SimpleStep header="Step 1: Plan">
+    Plan your documentation and gather resources.
+  </SimpleStep>
+  <SimpleStep header="Step 2: Write">
+    Write effective and clear documentation.
+  </SimpleStep>
+  <SimpleStep header="Step 3: Review">
+    Review and refine your content.
+  </SimpleStep>
+</SimpleStepper>
+
 # Introduction
 
 APIs play a crucial role in the SAPIENT system by facilitating seamless integration with various shipping carriers, third party logistics providers, and other eCommerce platforms. This connectivity allows businesses to automate data exchange, streamline workflows, and ensure real-time updates on shipping performance.
