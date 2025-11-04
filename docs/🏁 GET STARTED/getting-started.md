@@ -65,7 +65,7 @@ This section outlines the essential information on our APIs and steps to begin u
 
 ### Setup Checklist
 
-<Cards columns="4">
+<Cards columns="3">
   <Card title="Create API Credentials" href="https://docs.intersoftsapient.net/docs/create-api-credentials" icon="fa-solid fa-key">
     <Image align="center" src="https://files.readme.io/c388f57ddfed471dccc9c49befdedf8da79a14260f9ffbbc5e7f5996226f2022-Intersoft_api_art.png" width="200px" />
 
