@@ -21,8 +21,6 @@ next:
       title: Integration Activation
       type: basic
 ---
-<Image align="center" border={false} src="https://files.readme.io/0584ce0be71c220cb468d3c532a2c8ce10f81d4f6a9d8db111ca945bee9ac384-generated_image_222222222.gif" />
-
 # Introduction
 
 APIs play a crucial role in the SAPIENT system by facilitating seamless integration with various shipping carriers, third party logistics providers, and other eCommerce platforms. This connectivity allows businesses to automate data exchange, streamline workflows, and ensure real-time updates on shipping performance.
