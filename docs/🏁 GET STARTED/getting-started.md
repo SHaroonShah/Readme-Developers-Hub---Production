@@ -66,8 +66,8 @@ This section outlines the essential information on our APIs and steps to begin u
 ### Setup Checklist
 
 <Cards columns="3">
-  <Card title="" href="" icon="">
-    <Image align="center" src="https://files.readme.io/c388f57ddfed471dccc9c49befdedf8da79a14260f9ffbbc5e7f5996226f2022-Intersoft_api_art.png"href="https://docs.intersoftsapient.net/docs/create-api-credentials" width="200px" />
+  <Card title="" href="https://docs.intersoftsapient.net/docs/create-api-credentials" icon="">
+    <Image align="center" src="https://files.readme.io/c388f57ddfed471dccc9c49befdedf8da79a14260f9ffbbc5e7f5996226f2022-Intersoft_api_art.png" width="200px" />
   </Card>
 
   <Card title="Activate Integration" href="doc:integration-activation" icon="fa-solid fa-power-off">
