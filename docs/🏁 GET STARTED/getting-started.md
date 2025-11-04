@@ -1,11 +1,5 @@
 ---
 title: Welcome to SAPIENT Developers Hub
-excerpt: >-
-  Welcome to Intersoft SAPIENT, a scalable carrier management platform designed
-  to facilitate seamless integration with various shipping carriers, third-party
-  logistics provider, and other eCommerce platforms. By leveraging APIs, SAPIENT
-  enhances its adaptability and user friendliness, providing a simple, reliant
-  shipping API to easily create and manage shipments, generate labels, and more.
 deprecated: false
 hidden: false
 icon: fad fa-diagram-lean-canvas
