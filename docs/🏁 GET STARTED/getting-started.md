@@ -29,9 +29,7 @@ next:
   </SimpleStep>
 </SimpleStepper>
 
-<PostList_1 />
-
-
+<PostList_1 Title="Review and refine your content." />
 
 # Introduction
 
