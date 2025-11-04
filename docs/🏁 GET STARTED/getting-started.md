@@ -156,4 +156,6 @@ This section outlines the essential information on our APIs and steps to begin u
 </table>
 `}</HTMLBlock>
 
+[![Go to Documentation](https://example.com/Intersoft_api_art.png)](https://-page)
+
 <br />
