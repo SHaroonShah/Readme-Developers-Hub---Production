@@ -20,51 +20,53 @@ The following sections summarises the MDF validation rules, their respective shi
 
 <Accordion title="Rule A: All domestic and international DOX shipments" icon="fa-info-circle">
   **Scenario description**: All domestic shipments and international <Glossary>DOX</Glossary> (document) shipments.
+
   <HTMLBlock>{`
-                                <table>
-                                  <thead>
-                                    <tr>
-                                      <th>API object</th>
-                                      <th>Mandatory fields</th>
-                                    </tr>
-                                  </thead>
-                                  <tbody>
-                                    <tr>
-                                      <td rowspan="5"> <b>Shipper > Address</b></td>
-                                      <td>ContactName</td>
-                                    </tr>
-                                    <tr>
-                                      <td>Line 1</td>
-                                    </tr>
-                                    <tr>
-                                      <td>Town</td>
-                                    </tr>
-                                    <tr>
-                                      <td>Postcode</td>
-                                    </tr>
-                                    <tr>
-                                      <td>CountryCode</td>
-                                    </tr>
-                                    <tr>
-                                      <td rowspan="4"><b>Destination > Address</b></td>
-                                      <td>ContactName</td>
-                                    </tr>
-                                    <tr>
-                                      <td>Line 1</td>
-                                    </tr>
-                                    <tr>
-                                      <td>Town</td>
-                                    </tr>
-                                    <tr>
-                                      <td>CountryCode</td>
-                                    </tr>
-                                  </tbody>
-                                </table>
+                                  <table>
+                                    <thead>
+                                      <tr>
+                                        <th>API object</th>
+                                        <th>Mandatory fields</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td rowspan="5"> <b>Shipper > Address</b></td>
+                                        <td>ContactName</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Line 1</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Town</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Postcode</td>
+                                      </tr>
+                                      <tr>
+                                        <td>CountryCode</td>
+                                      </tr>
+                                      <tr>
+                                        <td rowspan="4"><b>Destination > Address</b></td>
+                                        <td>ContactName</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Line 1</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Town</td>
+                                      </tr>
+                                      <tr>
+                                        <td>CountryCode</td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
   `}</HTMLBlock>
 </Accordion>
 
 <Accordion title="Rule B: NDX shipments with DDU incoterm" icon="fa-info-circle">
- **Scenario description**: International non-document (<Glossary>NDX</Glossary>) shipments (goods) using <Glossary>DDU</Glossary> incoterm
+  **Scenario description**: International non-document (<Glossary>NDX</Glossary>) shipments (goods) using <Glossary>DDU</Glossary> incoterm
+
   <table>
     <tr>
       <th>API object</th>
@@ -129,7 +131,8 @@ The following sections summarises the MDF validation rules, their respective shi
 </Accordion>
 
 <Accordion title="Rule C: NDX shipment with DDU incoterm and additional mandatory customs data" icon="fa-info-circle">
-**Scenario description**: International non-document (<Glossary>NDX</Glossary>) shipments (goods) using <Glossary>DDU</Glossary> incoterm, with customs data
+  **Scenario description**: International non-document (<Glossary>NDX</Glossary>) shipments (goods) using <Glossary>DDU</Glossary> incoterm, with customs data
+
   <table>
     <tr>
       <th>API object</th>
@@ -202,7 +205,8 @@ The following sections summarises the MDF validation rules, their respective shi
 </Accordion>
 
 <Accordion title="Rule D: NDX shipment with DDU incoterm, additional mandatory customs data, and mandatory receiver contact details" icon="fa-info-circle">
-**Scenario description**: International non-document (<Glossary>NDX</Glossary>) shipments (goods) using <Glossary>DDU</Glossary>, with extra customs data and mandatory receiver contact details
+  **Scenario description**: International non-document (<Glossary>NDX</Glossary>) shipments (goods) using <Glossary>DDU</Glossary>, with extra customs data and mandatory receiver contact details
+
   <table>
     <tr>
       <th>API object</th>
@@ -283,7 +287,8 @@ The following sections summarises the MDF validation rules, their respective shi
 </Accordion>
 
 <Accordion title="Rule E: NDX shipment with DDP incoterm and ROW destination" icon="fa-info-circle">
-**Scenario description**: International non-document (<Glossary>NDX</Glossary>) shipments (goods) using <Glossary>DDP</Glossary> incoterm, sent to non-EU destinations, that is Rest of the World (<Glossary>ROW</Glossary>)
+  **Scenario description**: International non-document (<Glossary>NDX</Glossary>) shipments (goods) using <Glossary>DDP</Glossary> incoterm, sent to non-EU destinations, that is Rest of the World (<Glossary>ROW</Glossary>)
+
   <table>
     <tr>
       <th>API object</th>
@@ -369,7 +374,8 @@ The following sections summarises the MDF validation rules, their respective shi
 </Accordion>
 
 <Accordion title="Rule F: NDX shipment with DDP incoterm and EU destination" icon="fa-info-circle">
-**Scenario description**: International non-document (<Glossary>NDX</Glossary>) shipments (goods) using <Glossary>DDP</Glossary> incoterm, sent to EU destinations
+  **Scenario description**: International non-document (<Glossary>NDX</Glossary>) shipments (goods) using <Glossary>DDP</Glossary> incoterm, sent to EU destinations
+
   <table>
     <tr>
       <th>API object</th>
@@ -460,7 +466,7 @@ The following sections summarises the MDF validation rules, their respective shi
 </Accordion>
 
 <Accordion title="Rule G: NDX shipment with IOSS information" icon="fa-info-circle">
-**Scenario description**: International non-document (<Glossary>NDX</Glossary>) shipments (goods) with <Glossary>IOSS</Glossary> <Glossary>Pre-registration number</Glossary>
+  **Scenario description**: International non-document (<Glossary>NDX</Glossary>) shipments (goods) with <Glossary>IOSS</Glossary> <Glossary>Pre-registration number</Glossary>
 
   <table>
     <tr>
@@ -551,7 +557,7 @@ The following sections summarises the MDF validation rules, their respective shi
 </Accordion>
 
 <Accordion title="Rule H: NDX shipment with Pre-registration number" icon="fa-info-circle">
-**Scenario description**: International non-document (<Glossary>NDX</Glossary>) shipments (goods) with <Glossary>Pre-registration number</Glossary>
+  **Scenario description**: International non-document (<Glossary>NDX</Glossary>) shipments (goods) with <Glossary>Pre-registration number</Glossary>
 
   <table border="1" cellpadding="5" cellspacing="0">
     <thead>
@@ -849,7 +855,7 @@ G. **Scenario description**: International non-document (<Glossary>NDX</Glossary
 
 H. **Scenario description**: International non-document (<Glossary>NDX</Glossary>) shipments (goods) with <Glossary>Pre-registration number</Glossary>
 
-K. **Scenario description**: Business-to-business (B2B) shipments
+K. **Scenario description**: Shipments with B2B <Glossary>business transaction type</Glossary>.
 
 L. **Scenario description**: International non-document (<Glossary>NDX</Glossary>) shipments (goods) using <Glossary>DDP</Glossary> incoterm, with importer details required
 
