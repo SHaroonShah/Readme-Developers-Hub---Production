@@ -133,3 +133,65 @@ The following sections summarises the MDF validation rules, their respective shi
     </tr>
   </table>
 </Accordion>
+
+<Accordion title="Rule C" icon="fa-info-circle">
+  Lorem ipsum dolor sit amet, **consectetur adipiscing elit.** Ut enim
+  ad minim veniam, quis nostrud exercitation ullamco. Excepteur sint
+  occaecat cupidatat non proident!
+<table>
+    <tr>
+        <th>API object</th>
+        <th>Mandatory fields</th>
+    </tr>
+    <tr>
+        <td rowspan="5">Shipper > Address</td>
+        <td>ContactName</td>
+    </tr>
+    <tr>
+        <td>Line 1</td>
+    </tr>
+    <tr>
+        <td>Town</td>
+    </tr>
+    <tr>
+        <td>PostCode</td>
+    </tr>
+    <tr>
+        <td>CountryCode</td>
+    </tr>
+    <tr>
+        <td rowspan="4">Destination > Address</td>
+        <td>ContactName</td>
+    </tr>
+    <tr>
+        <td>Line 1</td>
+    </tr>
+    <tr>
+        <td>Town</td>
+    </tr>
+    <tr>
+        <td>CountryCode</td>
+    </tr>
+    <tr>
+        <td rowspan="5">Items</td>
+        <td>Quantity</td>
+    </tr>
+    <tr>
+        <td>Description</td>
+    </tr>
+    <tr>
+        <td>Value</td>
+    </tr>
+    <tr>
+        <td>Weight</td>
+    </tr>
+    <tr>
+        <td>HSCode</td>
+    </tr>
+    <tr>
+        <td>CountryOfOrigin</td>
+    </tr>
+</table>
+</Accordion>
+
+<br />
