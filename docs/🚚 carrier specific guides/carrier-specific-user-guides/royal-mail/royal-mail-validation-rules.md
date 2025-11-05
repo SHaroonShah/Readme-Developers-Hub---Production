@@ -204,7 +204,7 @@ The following sections summarises the MDF validation rules, their respective shi
   </table>
 </Accordion>
 
-<Accordion title="Rule D: NDX shipment with DDU incoterm, additional mandatory customs data, and mandatory receiver contact details" icon="fa-info-circle">
+<Accordion title="Rule D: NDX shipment with DDU incoterm, customs data, and mandatory receiver contact details" icon="fa-info-circle">
   **Scenario description**: International non-document (<Glossary>NDX</Glossary>) shipments (goods) using <Glossary>DDU</Glossary>, with extra customs data and mandatory receiver contact details
 
   <table>
