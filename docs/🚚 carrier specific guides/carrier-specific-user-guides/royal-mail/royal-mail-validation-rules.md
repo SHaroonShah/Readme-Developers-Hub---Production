@@ -403,3 +403,76 @@ The following sections summarises the MDF validation rules, their respective shi
   </tr>
 </table>
 </Accordion>
+
+<Accordion title="Rule G" icon="fa-info-circle">
+  Lorem ipsum dolor sit amet, **consectetur adipiscing elit.** Ut enim
+  ad minim veniam, quis nostrud exercitation ullamco. Excepteur sint
+  occaecat cupidatat non proident!
+<table>
+  <tr>
+    <th>API object</th>
+    <th>Mandatory fields</th>
+  </tr>
+  <tr>
+    <td rowspan="5"><strong>Shipper > Address</strong></td>
+    <td>ContactName</td>
+  </tr>
+  <tr>
+    <td>Line 1</td>
+  </tr>
+  <tr>
+    <td>Town</td>
+  </tr>
+  <tr>
+    <td>PostCode</td>
+  </tr>
+  <tr>
+    <td>CountryCode</td>
+  </tr>
+  <tr>
+    <td rowspan="5"><strong>Destination > Address</strong></td>
+    <td>ContactName</td>
+  </tr>
+  <tr>
+    <td>Line 1</td>
+  </tr>
+  <tr>
+    <td>Town</td>
+  </tr>
+  <tr>
+    <td>CountryCode</td>
+  </tr>
+  <tr>
+    <td>ContactEmail</td>
+  </tr>
+  <tr>
+    <td>ContactPhone</td>
+  </tr>
+  <tr>
+    <td rowspan="6"><strong>Items</strong></td>
+    <td>Quantity</td>
+  </tr>
+  <tr>
+    <td>Description</td>
+  </tr>
+  <tr>
+    <td>Value</td>
+  </tr>
+  <tr>
+    <td>Weight</td>
+  </tr>
+  <tr>
+    <td>HSCode</td>
+  </tr>
+  <tr>
+    <td>CountryOfOrigin</td>
+  </tr>
+  <tr>
+    <td rowspan="2"><strong>Customs</strong></td>
+    <td>IOSS PreRegistrationNumber</td>
+  </tr>
+  <tr>
+    <td>IOSS PreRegistrationType</td>
+  </tr>
+</table>
+</Accordion>
