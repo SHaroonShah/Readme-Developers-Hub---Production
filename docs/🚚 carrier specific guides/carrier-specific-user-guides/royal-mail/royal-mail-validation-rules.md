@@ -368,11 +368,8 @@ The following sections summarises the MDF validation rules, their respective shi
   </table>
 </Accordion>
 
-<Accordion title="Rule F" icon="fa-info-circle">
-  Lorem ipsum dolor sit amet, **consectetur adipiscing elit.** Ut enim
-  ad minim veniam, quis nostrud exercitation ullamco. Excepteur sint
-  occaecat cupidatat non proident!
-
+<Accordion title="Rule F: NDX shipment with DDP incoterm and EU destination" icon="fa-info-circle">
+**Scenario description**: International non-document (<Glossary>NDX</Glossary>) shipments (goods) using <Glossary>DDP</Glossary> incoterm, sent to EU destinations
   <table>
     <tr>
       <th>API object</th>
@@ -462,10 +459,8 @@ The following sections summarises the MDF validation rules, their respective shi
   </table>
 </Accordion>
 
-<Accordion title="Rule G" icon="fa-info-circle">
-  Lorem ipsum dolor sit amet, **consectetur adipiscing elit.** Ut enim
-  ad minim veniam, quis nostrud exercitation ullamco. Excepteur sint
-  occaecat cupidatat non proident!
+<Accordion title="Rule G: NDX shipment with IOSS information" icon="fa-info-circle">
+**Scenario description**: International non-document (<Glossary>NDX</Glossary>) shipments (goods) with <Glossary>IOSS</Glossary> <Glossary>Pre-registration number</Glossary>
 
   <table>
     <tr>
@@ -555,10 +550,8 @@ The following sections summarises the MDF validation rules, their respective shi
   </table>
 </Accordion>
 
-<Accordion title="Rule H " icon="fa-info-circle">
-  Lorem ipsum dolor sit amet, **consectetur adipiscing elit.** Ut enim
-  ad minim veniam, quis nostrud exercitation ullamco. Excepteur sint
-  occaecat cupidatat non proident!
+<Accordion title="Rule H: NDX shipment with Pre-registration number" icon="fa-info-circle">
+**Scenario description**: International non-document (<Glossary>NDX</Glossary>) shipments (goods) with <Glossary>Pre-registration number</Glossary>
 
   <table border="1" cellpadding="5" cellspacing="0">
     <thead>
@@ -652,7 +645,7 @@ The following sections summarises the MDF validation rules, their respective shi
   </table>
 </Accordion>
 
-<Accordion title="Rule K" icon="fa-info-circle">
+<Accordion title="Rule K: B2B shipment" icon="fa-info-circle">
   Lorem ipsum dolor sit amet, **consectetur adipiscing elit.** Ut enim
   ad minim veniam, quis nostrud exercitation ullamco. Excepteur sint
   occaecat cupidatat non proident!
