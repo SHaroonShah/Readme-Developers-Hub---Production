@@ -404,12 +404,12 @@ The following sections summarises the MDF validation rules, their respective shi
     </tr>
 
     <tr>
-      <td>Shipper</td>
+      <td><b>Shipper</b></td>
       <td>EoriNumber</td>
     </tr>
 
     <tr>
-      <td rowspan="6">Destination > Address</td>
+      <td rowspan="6"><b>Destination > Address</b></td>
       <td>ContactName</td>
     </tr>
 
@@ -434,7 +434,7 @@ The following sections summarises the MDF validation rules, their respective shi
     </tr>
 
     <tr>
-      <td rowspan="6">Items</td>
+      <td rowspan="6"><b>Items</b></td>
       <td>Quantity</td>
     </tr>
 
@@ -459,7 +459,7 @@ The following sections summarises the MDF validation rules, their respective shi
     </tr>
 
     <tr>
-      <td>Customs</td>
+      <td><b>Customs</b></td>
       <td>QuotedLandedCost</td>
     </tr>
   </table>
@@ -731,7 +731,7 @@ The following sections summarises the MDF validation rules, their respective shi
     </tr>
 
     <tr>
-      <td rowspan="5">Shipper > Address</td>
+      <td rowspan="5"><b>Shipper > Address</b></td>
       <td>ContactName</td>
     </tr>
 
@@ -752,14 +752,14 @@ The following sections summarises the MDF validation rules, their respective shi
     </tr>
 
     <tr>
-      <td rowspan="2">Shipper</td>
+      <td rowspan="2"><b>Shipper</b></td>
       <td>EoriNumber</td>
     </tr>
 
     <tr />
 
     <tr>
-      <td rowspan="5">Destination > Address</td>
+      <td rowspan="5"><b>Destination > Address</b></td>
       <td>ContactName</td>
     </tr>
 
@@ -780,14 +780,14 @@ The following sections summarises the MDF validation rules, their respective shi
     </tr>
 
     <tr>
-      <td rowspan="2">Destination</td>
+      <td rowspan="2"><b>Destination</b></td>
       <td>EoriNumber</td>
     </tr>
 
     <tr />
 
     <tr>
-      <td rowspan="6">Items</td>
+      <td rowspan="6"><b>Items</b></td>
       <td>Quantity</td>
     </tr>
 
@@ -812,12 +812,12 @@ The following sections summarises the MDF validation rules, their respective shi
     </tr>
 
     <tr>
-      <td rowspan="1">Customs</td>
+      <td rowspan="1"><b>Customs</b></td>
       <td>QuotedLandedCost</td>
     </tr>
 
     <tr>
-      <td rowspan="5">CarrierSpecifics > Importer > Address</td>
+      <td rowspan="5"><b>CarrierSpecifics > Importer > Address</b></td>
       <td>ContactName</td>
     </tr>
 
