@@ -18,51 +18,51 @@ When creating a shipment, these validation rules verify that all necessary infor
 
 The following sections summarises the MDF validation rules, their respective shipment scenarios, and the mandatory fields for each rule. The field are mapped to their typical names for clarity and reference.
 
-<Accordion title="My Accordion Title" icon="fa-info-circle">
+<Accordion title="Rule A " icon="fa-info-circle">
   Lorem ipsum dolor sit amet, **consectetur adipiscing elit.** Ut enim
   ad minim veniam, quis nostrud exercitation ullamco. Excepteur sint
   occaecat cupidatat non proident!
 
   <HTMLBlock>{`
-  <table>
-    <thead>
-      <tr>
-        <th>API object</th>
-        <th>Mandatory fields</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td rowspan="5"> <b>Shipper > Address</b></td>
-        <td>ContactName</td>
-      </tr>
-      <tr>
-        <td>Line 1</td>
-      </tr>
-      <tr>
-        <td>Town</td>
-      </tr>
-      <tr>
-        <td>Postcode</td>
-      </tr>
-      <tr>
-        <td>CountryCode</td>
-      </tr>
-      <tr>
-        <td rowspan="4"><b>Destination > Address</b></td>
-        <td>ContactName</td>
-      </tr>
-      <tr>
-        <td>Line 1</td>
-      </tr>
-      <tr>
-        <td>Town</td>
-      </tr>
-      <tr>
-        <td>CountryCode</td>
-      </tr>
-    </tbody>
-  </table>
+    <table>
+      <thead>
+        <tr>
+          <th>API object</th>
+          <th>Mandatory fields</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="5"> <b>Shipper > Address</b></td>
+          <td>ContactName</td>
+        </tr>
+        <tr>
+          <td>Line 1</td>
+        </tr>
+        <tr>
+          <td>Town</td>
+        </tr>
+        <tr>
+          <td>Postcode</td>
+        </tr>
+        <tr>
+          <td>CountryCode</td>
+        </tr>
+        <tr>
+          <td rowspan="4"><b>Destination > Address</b></td>
+          <td>ContactName</td>
+        </tr>
+        <tr>
+          <td>Line 1</td>
+        </tr>
+        <tr>
+          <td>Town</td>
+        </tr>
+        <tr>
+          <td>CountryCode</td>
+        </tr>
+      </tbody>
+    </table>
   `}</HTMLBlock>
 </Accordion>
 
