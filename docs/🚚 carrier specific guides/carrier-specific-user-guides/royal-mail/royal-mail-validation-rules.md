@@ -5,7 +5,7 @@ excerpt: >-
   set of validation rules that ensure all required data is accurately provided
   to the carrier.
 deprecated: false
-hidden: false
+hidden: true
 icon: fad fa-truck-arrow-right
 metadata:
   robots: index
