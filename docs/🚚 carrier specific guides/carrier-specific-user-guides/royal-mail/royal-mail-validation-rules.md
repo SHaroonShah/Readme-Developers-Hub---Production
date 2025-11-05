@@ -201,11 +201,8 @@ The following sections summarises the MDF validation rules, their respective shi
   </table>
 </Accordion>
 
-<Accordion title="Rule D" icon="fa-info-circle">
-  Lorem ipsum dolor sit amet, **consectetur adipiscing elit.** Ut enim
-  ad minim veniam, quis nostrud exercitation ullamco. Excepteur sint
-  occaecat cupidatat non proident!
-
+<Accordion title="Rule D: NDX shipment with DDU incoterm, additional mandatory customs data, and mandatory receiver contact details" icon="fa-info-circle">
+**Scenario description**: International non-document (<Glossary>NDX</Glossary>) shipments (goods) using <Glossary>DDU</Glossary>, with extra customs data and mandatory receiver contact details
   <table>
     <tr>
       <th>API object</th>
@@ -285,11 +282,8 @@ The following sections summarises the MDF validation rules, their respective shi
   </table>
 </Accordion>
 
-<Accordion title="Rule E" icon="fa-info-circle">
-  Lorem ipsum dolor sit amet, **consectetur adipiscing elit.** Ut enim
-  ad minim veniam, quis nostrud exercitation ullamco. Excepteur sint
-  occaecat cupidatat non proident!
-
+<Accordion title="Rule E: NDX shipment with DDP incoterm and ROW destination" icon="fa-info-circle">
+**Scenario description**: International non-document (<Glossary>NDX</Glossary>) shipments (goods) using <Glossary>DDP</Glossary> incoterm, sent to non-EU destinations, that is Rest of the World (<Glossary>ROW</Glossary>)
   <table>
     <tr>
       <th>API object</th>
