@@ -24,45 +24,45 @@ The following sections summarises the MDF validation rules, their respective shi
   occaecat cupidatat non proident!
 
   <HTMLBlock>{`
-                        <table>
-                          <thead>
-                            <tr>
-                              <th>API object</th>
-                              <th>Mandatory fields</th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                            <tr>
-                              <td rowspan="5"> <b>Shipper > Address</b></td>
-                              <td>ContactName</td>
-                            </tr>
-                            <tr>
-                              <td>Line 1</td>
-                            </tr>
-                            <tr>
-                              <td>Town</td>
-                            </tr>
-                            <tr>
-                              <td>Postcode</td>
-                            </tr>
-                            <tr>
-                              <td>CountryCode</td>
-                            </tr>
-                            <tr>
-                              <td rowspan="4"><b>Destination > Address</b></td>
-                              <td>ContactName</td>
-                            </tr>
-                            <tr>
-                              <td>Line 1</td>
-                            </tr>
-                            <tr>
-                              <td>Town</td>
-                            </tr>
-                            <tr>
-                              <td>CountryCode</td>
-                            </tr>
-                          </tbody>
-                        </table>
+                          <table>
+                            <thead>
+                              <tr>
+                                <th>API object</th>
+                                <th>Mandatory fields</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td rowspan="5"> <b>Shipper > Address</b></td>
+                                <td>ContactName</td>
+                              </tr>
+                              <tr>
+                                <td>Line 1</td>
+                              </tr>
+                              <tr>
+                                <td>Town</td>
+                              </tr>
+                              <tr>
+                                <td>Postcode</td>
+                              </tr>
+                              <tr>
+                                <td>CountryCode</td>
+                              </tr>
+                              <tr>
+                                <td rowspan="4"><b>Destination > Address</b></td>
+                                <td>ContactName</td>
+                              </tr>
+                              <tr>
+                                <td>Line 1</td>
+                              </tr>
+                              <tr>
+                                <td>Town</td>
+                              </tr>
+                              <tr>
+                                <td>CountryCode</td>
+                              </tr>
+                            </tbody>
+                          </table>
   `}</HTMLBlock>
 </Accordion>
 
@@ -743,112 +743,95 @@ The following sections summarises the MDF validation rules, their respective shi
   Lorem ipsum dolor sit amet, **consectetur adipiscing elit.** Ut enim
   ad minim veniam, quis nostrud exercitation ullamco. Excepteur sint
   occaecat cupidatat non proident!
-
-  <table>
-    <tr>
-      <th>API object</th>
-      <th>Mandatory fields</th>
-    </tr>
-
-    <tr>
-      <td rowspan="5">Shipper > Address</td>
-      <td>ContactName</td>
-    </tr>
-
-    <tr>
-      <td>Line1</td>
-    </tr>
-
-    <tr>
-      <td>Town</td>
-    </tr>
-
-    <tr>
-      <td>PostCode</td>
-    </tr>
-
-    <tr>
-      <td>CountryCode</td>
-    </tr>
-
-    <tr>
-      <td rowspan="2">Shipper</td>
-      <td>EoriNumber</td>
-    </tr>
-
-    <tr>
-      <td rowspan="5">Destination > Address</td>
-      <td>ContactName</td>
-    </tr>
-
-    <tr>
-      <td>Line 1</td>
-    </tr>
-
-    <tr>
-      <td>Town</td>
-    </tr>
-
-    <tr>
-      <td>CountryCode</td>
-    </tr>
-
-    <tr>
-      <td>ContactPhone</td>
-    </tr>
-
-    <tr>
-      <td rowspan="2">Destination</td>
-      <td>EoriNumber</td>
-    </tr>
-
-    <tr>
-      <td rowspan="6">Items</td>
-      <td>Quantity</td>
-    </tr>
-
-    <tr>
-      <td>Description</td>
-    </tr>
-
-    <tr>
-      <td>Value</td>
-    </tr>
-
-    <tr>
-      <td>Weight</td>
-    </tr>
-
-    <tr>
-      <td>HSCode</td>
-    </tr>
-
-    <tr>
-      <td>CountryOfOrigin</td>
-    </tr>
-
-    <tr>
-      <td rowspan="1">Customs</td>
-      <td>QuotedLandedCost</td>
-    </tr>
-
-    <tr>
-      <td rowspan="5">CarrierSpecifics > Importer > Address</td>
-      <td>ContactName</td>
-    </tr>
-
-    <tr>
-      <td>Line1</td>
-    </tr>
-
-    <tr>
-      <td>Town</td>
-    </tr>
-
-    <tr>
-      <td>CountryCode</td>
-    </tr>
-  </table>
+<table>
+  <tr>
+    <th>API object</th>
+    <th>Mandatory fields</th>
+  </tr>
+  <tr>
+    <td rowspan="5">Shipper > Address</td>
+    <td>ContactName</td>
+  </tr>
+  <tr>
+    <td>Line1</td>
+  </tr>
+  <tr>
+    <td>Town</td>
+  </tr>
+  <tr>
+    <td>PostCode</td>
+  </tr>
+  <tr>
+    <td>CountryCode</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Shipper</td>
+    <td>EoriNumber</td>
+  </tr>
+  <tr>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="5">Destination > Address</td>
+    <td>ContactName</td>
+  </tr>
+  <tr>
+    <td>Line 1</td>
+  </tr>
+  <tr>
+    <td>Town</td>
+  </tr>
+  <tr>
+    <td>CountryCode</td>
+  </tr>
+  <tr>
+    <td>ContactPhone</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Destination</td>
+    <td>EoriNumber</td>
+  </tr>
+  <tr>
+    <td></td>
+  </tr>
+  <tr>
+    <td rowspan="6">Items</td>
+    <td>Quantity</td>
+  </tr>
+  <tr>
+    <td>Description</td>
+  </tr>
+  <tr>
+    <td>Value</td>
+  </tr>
+  <tr>
+    <td>Weight</td>
+  </tr>
+  <tr>
+    <td>HSCode</td>
+  </tr>
+  <tr>
+    <td>CountryOfOrigin</td>
+  </tr>
+  <tr>
+    <td rowspan="1">Customs</td>
+    <td>QuotedLandedCost</td>
+  </tr>
+  <tr>
+    <td rowspan="5">CarrierSpecifics > Importer > Address</td>
+    <td>ContactName</td>
+  </tr>
+  <tr>
+    <td>Line1</td>
+  </tr>
+  <tr>
+    <td>Town</td>
+  </tr>
+  <tr>
+    <td>CountryCode</td>
+  </tr>
+</table>
+ 
 </Accordion>
 
 <br />
