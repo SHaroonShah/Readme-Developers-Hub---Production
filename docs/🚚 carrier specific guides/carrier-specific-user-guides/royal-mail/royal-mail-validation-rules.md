@@ -18,51 +18,51 @@ When creating a shipment, these validation rules verify that all necessary infor
 
 The following sections summarises the MDF validation rules, their respective shipment scenarios, and the mandatory fields for each rule. The field are mapped to their typical names for clarity and reference.
 
-<Accordion title="Rule A " icon="fa-info-circle">
+<Accordion title="Rule A: " icon="fa-info-circle">
   Lorem ipsum dolor sit amet, **consectetur adipiscing elit.** Ut enim
   ad minim veniam, quis nostrud exercitation ullamco. Excepteur sint
   occaecat cupidatat non proident!
 
   <HTMLBlock>{`
-    <table>
-      <thead>
-        <tr>
-          <th>API object</th>
-          <th>Mandatory fields</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td rowspan="5"> <b>Shipper > Address</b></td>
-          <td>ContactName</td>
-        </tr>
-        <tr>
-          <td>Line 1</td>
-        </tr>
-        <tr>
-          <td>Town</td>
-        </tr>
-        <tr>
-          <td>Postcode</td>
-        </tr>
-        <tr>
-          <td>CountryCode</td>
-        </tr>
-        <tr>
-          <td rowspan="4"><b>Destination > Address</b></td>
-          <td>ContactName</td>
-        </tr>
-        <tr>
-          <td>Line 1</td>
-        </tr>
-        <tr>
-          <td>Town</td>
-        </tr>
-        <tr>
-          <td>CountryCode</td>
-        </tr>
-      </tbody>
-    </table>
+      <table>
+        <thead>
+          <tr>
+            <th>API object</th>
+            <th>Mandatory fields</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td rowspan="5"> <b>Shipper > Address</b></td>
+            <td>ContactName</td>
+          </tr>
+          <tr>
+            <td>Line 1</td>
+          </tr>
+          <tr>
+            <td>Town</td>
+          </tr>
+          <tr>
+            <td>Postcode</td>
+          </tr>
+          <tr>
+            <td>CountryCode</td>
+          </tr>
+          <tr>
+            <td rowspan="4"><b>Destination > Address</b></td>
+            <td>ContactName</td>
+          </tr>
+          <tr>
+            <td>Line 1</td>
+          </tr>
+          <tr>
+            <td>Town</td>
+          </tr>
+          <tr>
+            <td>CountryCode</td>
+          </tr>
+        </tbody>
+      </table>
   `}</HTMLBlock>
 </Accordion>
 
@@ -70,52 +70,66 @@ The following sections summarises the MDF validation rules, their respective shi
   Lorem ipsum dolor sit amet, **consectetur adipiscing elit.** Ut enim
   ad minim veniam, quis nostrud exercitation ullamco. Excepteur sint
   occaecat cupidatat non proident!
-<table>
+
+  <table>
     <tr>
-        <th>API object</th>
-        <th>Mandatory fields</th>
+      <th>API object</th>
+      <th>Mandatory fields</th>
     </tr>
+
     <tr>
-        <td rowspan="5">Shipper > Address</td>
-        <td>ContactName</td>
+      <td rowspan="5">Shipper > Address</td>
+      <td>ContactName</td>
     </tr>
+
     <tr>
-        <td>Line 1</td>
+      <td>Line 1</td>
     </tr>
+
     <tr>
-        <td>Town</td>
+      <td>Town</td>
     </tr>
+
     <tr>
-        <td>PostCode</td>
+      <td>PostCode</td>
     </tr>
+
     <tr>
-        <td>CountryCode</td>
+      <td>CountryCode</td>
     </tr>
+
     <tr>
-        <td rowspan="4">Destination > Address</td>
-        <td>ContactName</td>
+      <td rowspan="4">Destination > Address</td>
+      <td>ContactName</td>
     </tr>
+
     <tr>
-        <td>Line 1</td>
+      <td>Line 1</td>
     </tr>
+
     <tr>
-        <td>Town</td>
+      <td>Town</td>
     </tr>
+
     <tr>
-        <td>CountryCode</td>
+      <td>CountryCode</td>
     </tr>
+
     <tr>
-        <td rowspan="4">Items</td>
-        <td>Quantity</td>
+      <td rowspan="4">Items</td>
+      <td>Quantity</td>
     </tr>
+
     <tr>
-        <td>Description</td>
+      <td>Description</td>
     </tr>
+
     <tr>
-        <td>Value</td>
+      <td>Value</td>
     </tr>
+
     <tr>
-        <td>Weight</td>
+      <td>Weight</td>
     </tr>
-</table>
+  </table>
 </Accordion>
