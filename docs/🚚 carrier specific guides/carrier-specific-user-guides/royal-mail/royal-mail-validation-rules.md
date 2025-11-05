@@ -128,11 +128,8 @@ The following sections summarises the MDF validation rules, their respective shi
   </table>
 </Accordion>
 
-<Accordion title="Rule C" icon="fa-info-circle">
-  Lorem ipsum dolor sit amet, **consectetur adipiscing elit.** Ut enim
-  ad minim veniam, quis nostrud exercitation ullamco. Excepteur sint
-  occaecat cupidatat non proident!
-
+<Accordion title="Rule C: NDX shipment with DDU incoterm and additional mandatory customs data" icon="fa-info-circle">
+**Scenario description**: International non-document (<Glossary>NDX</Glossary>) shipments (goods) using <Glossary>DDU</Glossary> incoterm, with customs data
   <table>
     <tr>
       <th>API object</th>
