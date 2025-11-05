@@ -24,45 +24,45 @@ The following sections summarises the MDF validation rules, their respective shi
   occaecat cupidatat non proident!
 
   <HTMLBlock>{`
-                    <table>
-                      <thead>
-                        <tr>
-                          <th>API object</th>
-                          <th>Mandatory fields</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td rowspan="5"> <b>Shipper > Address</b></td>
-                          <td>ContactName</td>
-                        </tr>
-                        <tr>
-                          <td>Line 1</td>
-                        </tr>
-                        <tr>
-                          <td>Town</td>
-                        </tr>
-                        <tr>
-                          <td>Postcode</td>
-                        </tr>
-                        <tr>
-                          <td>CountryCode</td>
-                        </tr>
-                        <tr>
-                          <td rowspan="4"><b>Destination > Address</b></td>
-                          <td>ContactName</td>
-                        </tr>
-                        <tr>
-                          <td>Line 1</td>
-                        </tr>
-                        <tr>
-                          <td>Town</td>
-                        </tr>
-                        <tr>
-                          <td>CountryCode</td>
-                        </tr>
-                      </tbody>
-                    </table>
+                      <table>
+                        <thead>
+                          <tr>
+                            <th>API object</th>
+                            <th>Mandatory fields</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td rowspan="5"> <b>Shipper > Address</b></td>
+                            <td>ContactName</td>
+                          </tr>
+                          <tr>
+                            <td>Line 1</td>
+                          </tr>
+                          <tr>
+                            <td>Town</td>
+                          </tr>
+                          <tr>
+                            <td>Postcode</td>
+                          </tr>
+                          <tr>
+                            <td>CountryCode</td>
+                          </tr>
+                          <tr>
+                            <td rowspan="4"><b>Destination > Address</b></td>
+                            <td>ContactName</td>
+                          </tr>
+                          <tr>
+                            <td>Line 1</td>
+                          </tr>
+                          <tr>
+                            <td>Town</td>
+                          </tr>
+                          <tr>
+                            <td>CountryCode</td>
+                          </tr>
+                        </tbody>
+                      </table>
   `}</HTMLBlock>
 </Accordion>
 
@@ -606,7 +606,7 @@ The following sections summarises the MDF validation rules, their respective shi
       </tr>
 
       <tr>
-        <td rowspan="5"><strong>Destination > Address</strong></td>
+        <td rowspan="6"><strong>Destination > Address</strong></td>
         <td>ContactName</td>
       </tr>
 
