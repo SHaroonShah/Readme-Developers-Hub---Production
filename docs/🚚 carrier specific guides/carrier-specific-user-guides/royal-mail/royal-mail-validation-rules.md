@@ -22,45 +22,45 @@ The following sections summarises the MDF validation rules, their respective shi
   **Scenario description**: All domestic shipments and international <Glossary>DOX</Glossary> (document) shipments.
 
   <HTMLBlock>{`
-                                            <table>
-                                              <thead>
-                                                <tr>
-                                                  <th>API object</th>
-                                                  <th>Mandatory fields</th>
-                                                </tr>
-                                              </thead>
-                                              <tbody>
-                                                <tr>
-                                                  <td rowspan="5"> <b>Shipper > Address</b></td>
-                                                  <td>ContactName</td>
-                                                </tr>
-                                                <tr>
-                                                  <td>Line 1</td>
-                                                </tr>
-                                                <tr>
-                                                  <td>Town</td>
-                                                </tr>
-                                                <tr>
-                                                  <td>Postcode</td>
-                                                </tr>
-                                                <tr>
-                                                  <td>CountryCode</td>
-                                                </tr>
-                                                <tr>
-                                                  <td rowspan="4"><b>Destination > Address</b></td>
-                                                  <td>ContactName</td>
-                                                </tr>
-                                                <tr>
-                                                  <td>Line 1</td>
-                                                </tr>
-                                                <tr>
-                                                  <td>Town</td>
-                                                </tr>
-                                                <tr>
-                                                  <td>CountryCode</td>
-                                                </tr>
-                                              </tbody>
-                                            </table>
+                                              <table>
+                                                <thead>
+                                                  <tr>
+                                                    <th>API object</th>
+                                                    <th>Mandatory fields</th>
+                                                  </tr>
+                                                </thead>
+                                                <tbody>
+                                                  <tr>
+                                                    <td rowspan="5"> <strong>Shipper > Address</strong></td>
+                                                    <td>ContactName</td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td>Line 1</td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td>Town</td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td>Postcode</td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td>CountryCode</td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td rowspan="4"><strong>Destination > Address</strong></td>
+                                                    <td>ContactName</td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td>Line 1</td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td>Town</td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td>CountryCode</td>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
   `}</HTMLBlock>
 </Accordion>
 
@@ -383,7 +383,7 @@ The following sections summarises the MDF validation rules, their respective shi
     </tr>
 
     <tr>
-      <td rowspan="5"><b>Shipper > Address</b></td>
+      <td rowspan="5"><strong>Shipper > Address</strong></td>
       <td>ContactName</td>
     </tr>
 
@@ -404,12 +404,12 @@ The following sections summarises the MDF validation rules, their respective shi
     </tr>
 
     <tr>
-      <td><b>Shipper</b></td>
+      <td><strong>Shipper</strong></td>
       <td>EoriNumber</td>
     </tr>
 
     <tr>
-      <td rowspan="6"><b>Destination > Address</b></td>
+      <td rowspan="6"><strong>Destination > Address</strong></td>
       <td>ContactName</td>
     </tr>
 
@@ -434,7 +434,7 @@ The following sections summarises the MDF validation rules, their respective shi
     </tr>
 
     <tr>
-      <td rowspan="6"><b>Items</b></td>
+      <td rowspan="6"><strong>Items</strong></td>
       <td>Quantity</td>
     </tr>
 
@@ -459,7 +459,7 @@ The following sections summarises the MDF validation rules, their respective shi
     </tr>
 
     <tr>
-      <td><b>Customs</b></td>
+      <td><strong>Customs</strong></td>
       <td>QuotedLandedCost</td>
     </tr>
   </table>
@@ -731,7 +731,7 @@ The following sections summarises the MDF validation rules, their respective shi
     </tr>
 
     <tr>
-      <td rowspan="5"><b>Shipper > Address</b></td>
+      <td rowspan="5"><strong>Shipper > Address</strong></td>
       <td>ContactName</td>
     </tr>
 
@@ -752,14 +752,14 @@ The following sections summarises the MDF validation rules, their respective shi
     </tr>
 
     <tr>
-      <td rowspan="2"><b>Shipper</b></td>
+      <td rowspan="2"><strong>Shipper</strong></td>
       <td>EoriNumber</td>
     </tr>
 
     <tr />
 
     <tr>
-      <td rowspan="5"><b>Destination > Address</b></td>
+      <td rowspan="5"><strong>Destination > Address</strong></td>
       <td>ContactName</td>
     </tr>
 
@@ -780,14 +780,14 @@ The following sections summarises the MDF validation rules, their respective shi
     </tr>
 
     <tr>
-      <td rowspan="2"><b>Destination</b></td>
+      <td rowspan="2"><strong>Destination</strong></td>
       <td>EoriNumber</td>
     </tr>
 
     <tr />
 
     <tr>
-      <td rowspan="6"><b>Items</b></td>
+      <td rowspan="6"><strong>Items</strong></td>
       <td>Quantity</td>
     </tr>
 
@@ -812,12 +812,12 @@ The following sections summarises the MDF validation rules, their respective shi
     </tr>
 
     <tr>
-      <td rowspan="1"><b>Customs</b></td>
+      <td rowspan="1"><strong>Customs</strong></td>
       <td>QuotedLandedCost</td>
     </tr>
 
     <tr>
-      <td rowspan="5"><b>CarrierSpecifics > Importer > Address</b></td>
+      <td rowspan="5"><strong>CarrierSpecifics > Importer > Address</strong></td>
       <td>ContactName</td>
     </tr>
 
