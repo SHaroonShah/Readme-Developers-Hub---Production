@@ -15,7 +15,7 @@ This section includes the following guides:
 * <Anchor label="Authorisation" target="_blank" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/authorisation#/">Authorisation</Anchor>
 * <Anchor label="Interaction with SAPIENT UI" target="_blank" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/interaction-with-sapient-ui#/">Interaction with SAPIENT UI</Anchor>
 * [Dashboard](https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/dashboard-1#/)
-* Search shipments
+* [Search shipments](https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/shipment-search#/)
 * Shipment processing
 * Maintenance
 
