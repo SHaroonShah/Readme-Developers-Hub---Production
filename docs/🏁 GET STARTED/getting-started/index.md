@@ -30,7 +30,7 @@ next:
     > Ut enim ad minim veniam, quis nostrud ullamco
   </Card>
 
-  <Card title="Additional Services" href="https://readme.com" icon="fa-grid-round-plus">
+  <Card title="Additional Services" href="https://readme.com" icon="fa-square-dashed-plus">
     **Excepteur sint occaecat cupidatat non proident**
   </Card>
 </Cards>
