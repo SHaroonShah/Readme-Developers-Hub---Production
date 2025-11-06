@@ -2,8 +2,8 @@
 - application-header
 - top-toolbar
 - side-navigation-panel
-- shipment-search
 - dashboard
+- shipment-search
 - table
 - pagination-bar
 - search-and-filter-panel
