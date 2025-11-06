@@ -13,7 +13,7 @@ This page provides essential guidance for users interacting with the system. It 
 This section includes the following guides:
 
 * <Anchor label="Authorisation" target="_blank" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/authorisation#/">Authorisation</Anchor>
-* [Interaction with SAPIENT UI](https://docs.intersoftsapient.net/v4.02_4.03_Testing/update/docs/interaction-with-sapient-ui#/)
+* <Anchor label="Interaction with SAPIENT UI" target="_blank" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/interaction-with-sapient-ui#/">Interaction with SAPIENT UI</Anchor>
 * Dashboard
 * Search shipments
 * Shipment processing
