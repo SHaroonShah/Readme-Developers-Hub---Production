@@ -23,7 +23,7 @@ next:
   </Card>
 
   <Card title="System User Guides" href="https://readme.com" icon="fa-book-open">
-    *Lorem ipsum dolor sit amet, consectetur adipiscing elit*
+    >Lorem ipsum dolor sit amet, consectetur adipiscing elit
   </Card>
 
   <Card title="Shipment Creation and Manifesting Workflows" href="https://readme.com" icon="fa-solid fa-arrow-progress">
