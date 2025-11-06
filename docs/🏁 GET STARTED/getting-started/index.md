@@ -22,7 +22,7 @@ next:
     Neque porro quisquam est qui dolorem ipsum quia
   </Card>
 
-  <Card title="System User Guides" href="https://readme.com" icon="fa-solid fa-book-open">
+  <Card title="System User Guides" href="https://readme.com" icon="fa-book-open">
     *Lorem ipsum dolor sit amet, consectetur adipiscing elit*
   </Card>
 
