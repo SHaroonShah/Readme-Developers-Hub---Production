@@ -30,7 +30,7 @@ next:
     > Ut enim ad minim veniam, quis nostrud ullamco
   </Card>
 
-  <Card title="Additional Services" href="https://readme.com" icon="fa-question">
+  <Card title="Additional Services" href="https://readme.com" icon="fa-clone-plus">
     **Excepteur sint occaecat cupidatat non proident**
   </Card>
 </Cards>
