@@ -18,7 +18,7 @@ next:
 ## Resources
 
 <Cards columns={4}>
-  <Card title="Getting Started" href="https://readme.com" icon="fa-home" target="_blank">
+  <Card title="Getting Started" href="https://readme.com" icon="fa-solid fa-plug" target="_blank">
     Neque porro quisquam est qui dolorem ipsum quia
   </Card>
 
