@@ -65,7 +65,7 @@ next:
   </Card>
 
   <Card title="" href="https://docs.intersoftsapient.net/docs/create-api-credentials" Width="200">
-    <Image align="center" src="https://files.readme.io/286a64f989b3a1aabc9c959e88aeec2a6247d843683e6817ed6411711de16c8f-TDG_logo.png" width="140px" alt="thumbnail" />
+    <Image align="center" src="https://files.readme.io/b5aa9b3a487e32e4187f0ceb0350547aed7b781d0e5ceed3af44d7f93124526e-TDG_white_logo.png" width="140px" alt="thumbnail" />
   </Card>
 
   <Card title="" href="https://docs.intersoftsapient.net/docs/create-api-credentials" Width="200">
