@@ -22,7 +22,7 @@ next:
     Neque porro quisquam est qui dolorem ipsum quia
   </Card>
 
-  <Card title="System User Guides" icon="fa-solid fa-book-open fa-lines">
+  <Card title="System User Guides" icon="fa-solid fa-book-cover">
     *Lorem ipsum dolor sit amet, consectetur adipiscing elit*
   </Card>
 
