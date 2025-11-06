@@ -16,7 +16,7 @@ This section includes the following guides:
 * <Anchor label="Interaction with SAPIENT UI" target="_blank" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/interaction-with-sapient-ui#/">Interaction with SAPIENT UI</Anchor>
 * [Dashboard](https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/dashboard-1#/)
 * [Search shipments](https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/shipment-search#/)
-* Shipment processing
+* [Shipment processing](https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/shipment-processing#/)
 * Maintenance
 
 Considering these guides, add a layout to this page
