@@ -22,11 +22,11 @@ next:
     Neque porro quisquam est qui dolorem ipsum quia
   </Card>
 
-  <Card title="System User Guides" href="https://readme.com" icon="fa-book-open-lines">
+  <Card title="System User Guides" href="https://readme.com" icon="fa-book-open">
     *Lorem ipsum dolor sit amet, consectetur adipiscing elit*
   </Card>
 
-  <Card title="Shipment Creation and Manifesting Workflows" href="https://readme.com" icon="fa-arrow-progress">
+  <Card title="Shipment Creation and Manifesting Workflows" href="https://readme.com" icon="fa-chart-diagram">
     > Ut enim ad minim veniam, quis nostrud ullamco
   </Card>
 
