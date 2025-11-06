@@ -26,7 +26,7 @@ next:
     *Lorem ipsum dolor sit amet, consectetur adipiscing elit*
   </Card>
 
-  <Card title="Shipment Creation and Manifesting Workflows" href="https://readme.com" icon="fa-star">
+  <Card title="Shipment Creation and Manifesting Workflows" href="https://readme.com" icon="fa-solid fa-chart-diagram">
     > Ut enim ad minim veniam, quis nostrud ullamco
   </Card>
 
