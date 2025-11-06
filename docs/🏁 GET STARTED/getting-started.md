@@ -125,45 +125,6 @@ This section outlines the essential information on our APIs and steps to begin u
   </Card>
 </Cards>
 
-<HTMLBlock>{`
- <table>
-   <thead>
-     <tr>
-       <th> API Object </th>
-       <th> API Field Name </th>
-     </tr>
-   </thead>
-   <tbody>
-     <tr>
-       <td rowspan="4"> <b>Address</b> </td>
-     </tr>
-     <tr>
-       <td> Town </td>
-     </tr>
-     <tr>
-       <td> PostCode </td>
-     </tr>
-     <tr>
-       <td> County </td>
-     </tr>
-     <tr>
-       <td rowspan="4"> <b>Packages</b> </td>
-     </tr>
-     <tr>
-       <td> Town </td>
-     </tr>
-     <tr>
-       <td> PostCode </td> 
-     </tr>
-     <tr>
-       <td> County 
-         </td>
-       
-     </tr>
-   </tbody>
-</table>
-`}</HTMLBlock>
-
 <br />
 
 <br />
