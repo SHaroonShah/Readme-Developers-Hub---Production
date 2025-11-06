@@ -16,7 +16,7 @@ The Delivery Group handover to other carries for final mile delivery of their sh
 
 ***
 
-<Image align="center" width="100px" src="https://files.readme.io/286a64f989b3a1aabc9c959e88aeec2a6247d843683e6817ed6411711de16c8f-TDG_logo.png" />
+<Image align="center" border={false} width="100px" src="https://files.readme.io/b5aa9b3a487e32e4187f0ceb0350547aed7b781d0e5ceed3af44d7f93124526e-TDG_white_logo.png" />
 
 ***
 
