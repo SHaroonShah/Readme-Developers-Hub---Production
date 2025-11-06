@@ -17,6 +17,6 @@ This section includes the following guides:
 * [Dashboard](https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/dashboard-1#/)
 * [Search shipments](https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/shipment-search#/)
 * [Shipment processing](https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/shipment-processing#/)
-* Maintenance
+* [Maintenance](https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/maintenance-guides#/)
 
-Considering these guides, add a layout to this page
+<br />
