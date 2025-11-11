@@ -499,7 +499,7 @@ The following sections summarises the MDF validation rules, their respective shi
     <tr>
       <td>CountryCode</td>
     </tr>
-
+***
     <tr>
       <td rowspan="6"><strong>Destination > Address</strong></td>
       <td>ContactName</td>
