@@ -50,7 +50,7 @@ The following sections summarises the MDF validation rules, their respective shi
       <td>CountryCode</td>
     </tr>
 
-    <Banner isInline={true} color="#ffb600" fontWeight="50" />
+    <Banner isInline={true} color="#ffb600" fontWeight="lighter" />
 
     <tr>
       <td rowspan="4"><strong>Destination > Address</strong></td>
