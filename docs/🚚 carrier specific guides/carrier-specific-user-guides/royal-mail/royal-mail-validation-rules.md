@@ -912,9 +912,4 @@ The following sections summarises the MDF validation rules, their respective shi
 
 <Banner isInline={false} color="#118cfd" fontSize="0px" fontWeight="0px" />
 
-| sx | sx | xsxsxsxsxsxsxsxsxs   |
-| :- | :- | :------------------- |
-|    |    | sxsxsxxxxxxxxxxxxxxx |
-|    |    | xssssssssssssss      |
-
 <br />
