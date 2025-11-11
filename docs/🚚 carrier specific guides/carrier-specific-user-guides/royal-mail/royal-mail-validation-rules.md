@@ -912,10 +912,4 @@ The following sections summarises the MDF validation rules, their respective shi
 
 <Banner isInline={true} color="#ffb600" />
 
-<Banner
-  isInline={true}
-  message="This banner is displayed inline. Set isInline to false to move it seamlessly into your page's header!"
-  color="#118cfd"
-  fontSize="10px"
-  fontWeight="normal"
- />
+<Banner isInline={true} color="#118cfd" fontSize="10px" fontWeight="normal" />
