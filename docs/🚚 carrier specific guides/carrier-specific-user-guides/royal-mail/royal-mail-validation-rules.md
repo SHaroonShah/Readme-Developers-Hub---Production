@@ -7,6 +7,8 @@ excerpt: >-
 deprecated: false
 hidden: true
 icon: fad fa-truck-arrow-right
+link:
+  new_tab: false
 metadata:
   robots: index
 ---
@@ -21,50 +23,41 @@ The following sections summarises the MDF validation rules, their respective shi
 <Accordion title="All domestic DOX, NDX, and international DOX shipments" icon="fa-solid fa-shield-check">
   **Scenario description**: Domestic <Glossary>DOX</Glossary>, <Glossary>NDX</Glossary>, and international DOX shipments.
 
-  <HTMLBlock>{`
-                                                                                                                                                                                                        <table>
-                                                                                                                                                                                                          <thead>
-                                                                                                                                                                                                            <tr>
-                                                                                                                                                                                                              <th>API object</th>
-                                                                                                                                                                                                              <th>Mandatory fields</th>
-                                                                                                                                                                                                            </tr>
-                                                                                                                                                                                                          </thead>
-                                                                                                                                                                                                          <tbody>
-                                                                                                                                                                                                            <tr>
-                                                                                                                                                                                                            <td rowspan="5"> <strong>Shipper > Address</strong></td>
-
-                                                                                                                                                                                                              <td>ContactName</td>
-                                                                                                                                                                                                            </tr>
-                                                                                                                                                                                                            <tr>
-                                                                                                                                                                                                              <td>Line 1</td>
-                                                                                                                                                                                                            </tr>
-                                                                                                                                                                                                            <tr>
-                                                                                                                                                                                                              <td>Town</td>
-                                                                                                                                                                                                            </tr>
-                                                                                                                                                                                                            <tr>
-                                                                                                                                                                                                              <td>Postcode</td>
-                                                                                                                                                                                                            </tr>
-                                                                                                                                                                                                            <tr>
-                                                                                                                                                                                                              <td>CountryCode</td>
-                                                                                                                                                                                                              </tr><Banner Weight="100px" isInline={true} color="#ffb600" textColor="" fontSize="" fontWeight="" />
-
-                                                                                                                                                                                                            <tr>
-                                                                                                                                                                                                              <td rowspan="4"><strong>Destination > Address</strong></td>
-                                                                                                                                                                                                              <td>ContactName</td>
-                                                                                                                                                                                                            </tr>
-                                                                                                                                                                                                            <tr>
-                                                                                                                                                                                                              <td>Line 1</td>
-                                                                                                                                                                                                            </tr>
-                                                                                                                                                                                                            <tr>
-                                                                                                                                                                                                              <td>Town</td>
-                                                                                                                                                                                                            </tr>
-                                                                                                                                                                                                            <tr>
-                                                                                                                                                                                                              <td>CountryCode</td>
-                                                                                                                                                                                                              </tr><Banner Weight="100px" isInline={true} color="#ffb600" textColor="" fontSize="" fontWeight="" />
-
-                                                                                                                                                                                                          </tbody>
-                                                                                                                                                                                                        </table>
-  `}</HTMLBlock>
+  <table>
+    <tr>
+      <th>API object</th>
+      <th>Mandatory fields</th>
+    </tr>
+    <tr>
+      <td rowspan="5"><strong>Shipper > Address</strong></td>
+      <td>ContactName</td>
+    </tr>
+    <tr>
+      <td>Line 1</td>
+    </tr>
+    <tr>
+      <td>Town</td>
+    </tr>
+    <tr>
+      <td>Postcode</td>
+    </tr>
+    <tr>
+      <td>CountryCode</td>
+    </tr>
+    <tr>
+      <td rowspan="4"><strong>Destination > Address</strong></td>
+      <td>ContactName</td>
+    </tr>
+    <tr>
+      <td>Line 1</td>
+    </tr>
+    <tr>
+      <td>Town</td>
+    </tr>
+    <tr>
+      <td>CountryCode</td>
+    </tr>
+  </table>
 </Accordion>
 
 <Accordion title="International NDX shipments with DDU incoterm" icon="fa-solid fa-shield-check">
@@ -97,8 +90,6 @@ The following sections summarises the MDF validation rules, their respective shi
       <td>CountryCode</td>
     </tr>
 
-    <Banner Weight="100px" isInline={true} color="#ffb600" textColor="" fontSize="" fontWeight="" />
-
     <tr>
       <td rowspan="4"><strong>Destination > Address</strong></td>
       <td>ContactName</td>
@@ -116,8 +107,6 @@ The following sections summarises the MDF validation rules, their respective shi
       <td>CountryCode</td>
     </tr>
 
-    <Banner width="767px" isInline={true} message="" color="#ffb600" textColor="#ffffff" fontSize="14px" fontWeight="bold" />
-
     <tr>
       <td rowspan="4"><strong>Items</strong></td>
       <td>Quantity</td>
@@ -134,8 +123,6 @@ The following sections summarises the MDF validation rules, their respective shi
     <tr>
       <td>Weight</td>
     </tr>
-
-    <Banner isInline={true} message="" color="#ffb600" textColor="#ffffff" fontSize="14px" fontWeight="bold" />
   </table>
 </Accordion>
 
@@ -568,95 +555,91 @@ The following sections summarises the MDF validation rules, their respective shi
 <Accordion title="International NDX shipment with Pre-registration number" icon="fa-solid fa-shield-check">
   **Scenario description**: International non-document (<Glossary>NDX</Glossary>) shipments with <Glossary>Pre-registration number</Glossary>.
 
-  <table border="1" cellpadding="5" cellspacing="0">
-    <thead>
-      <tr>
-        <th>API object</th>
-        <th>Mandatory fields</th>
-      </tr>
-    </thead>
+  <table>
+    <tr>
+      <th>API object</th>
+      <th>Mandatory fields</th>
+    </tr>
 
-    <tbody>
-      <tr>
-        <td rowspan="5"><strong>Shipper > Address</strong></td>
-        <td>ContactName</td>
-      </tr>
+    <tr>
+      <td rowspan="5"><strong>Shipper > Address</strong></td>
+      <td>ContactName</td>
+    </tr>
 
-      <tr>
-        <td>Line 1</td>
-      </tr>
+    <tr>
+      <td>Line 1</td>
+    </tr>
 
-      <tr>
-        <td>Town</td>
-      </tr>
+    <tr>
+      <td>Town</td>
+    </tr>
 
-      <tr>
-        <td>PostCode</td>
-      </tr>
+    <tr>
+      <td>PostCode</td>
+    </tr>
 
-      <tr>
-        <td>CountryCode</td>
-      </tr>
+    <tr>
+      <td>CountryCode</td>
+    </tr>
 
-      <tr>
-        <td rowspan="6"><strong>Destination > Address</strong></td>
-        <td>ContactName</td>
-      </tr>
+    <tr>
+      <td rowspan="6"><strong>Destination > Address</strong></td>
+      <td>ContactName</td>
+    </tr>
 
-      <tr>
-        <td>Line 1</td>
-      </tr>
+    <tr>
+      <td>Line 1</td>
+    </tr>
 
-      <tr>
-        <td>Town</td>
-      </tr>
+    <tr>
+      <td>Town</td>
+    </tr>
 
-      <tr>
-        <td>CountryCode</td>
-      </tr>
+    <tr>
+      <td>CountryCode</td>
+    </tr>
 
-      <tr>
-        <td>ContactEmail</td>
-      </tr>
+    <tr>
+      <td>ContactEmail</td>
+    </tr>
 
-      <tr>
-        <td>ContactPhone</td>
-      </tr>
+    <tr>
+      <td>ContactPhone</td>
+    </tr>
 
-      <tr>
-        <td rowspan="6"><strong>Items</strong></td>
-        <td>Quantity</td>
-      </tr>
+    <tr>
+      <td rowspan="6"><strong>Items</strong></td>
+      <td>Quantity</td>
+    </tr>
 
-      <tr>
-        <td>Description</td>
-      </tr>
+    <tr>
+      <td>Description</td>
+    </tr>
 
-      <tr>
-        <td>Value</td>
-      </tr>
+    <tr>
+      <td>Value</td>
+    </tr>
 
-      <tr>
-        <td>Weight</td>
-      </tr>
+    <tr>
+      <td>Weight</td>
+    </tr>
 
-      <tr>
-        <td>HSCode</td>
-      </tr>
+    <tr>
+      <td>HSCode</td>
+    </tr>
 
-      <tr>
-        <td>CountryOfOrigin</td>
-      </tr>
+    <tr>
+      <td>CountryOfOrigin</td>
+    </tr>
 
-      <tr>
-        <td rowspan="2"><strong>Customs</strong></td>
-        <td>PreRegistrationNumber</td>
-      </tr>
+    <tr>
+      <td rowspan="2"><strong>Customs</strong></td>
+      <td>PreRegistrationNumber</td>
+    </tr>
 
-      <tr>
-        <td>PreRegistrationType</td>
-      </tr>
-    </tbody>
+    <tr>
+      <td>PreRegistrationType</td>
+    </tr>
   </table>
 </Accordion>
 
@@ -761,11 +744,9 @@ The following sections summarises the MDF validation rules, their respective shi
     </tr>
 
     <tr>
-      <td rowspan="2"><strong>Shipper</strong></td>
+      <td><strong>Shipper</strong></td>
       <td>EoriNumber</td>
     </tr>
-
-    <tr />
 
     <tr>
       <td rowspan="5"><strong>Destination > Address</strong></td>
@@ -789,11 +770,9 @@ The following sections summarises the MDF validation rules, their respective shi
     </tr>
 
     <tr>
-      <td rowspan="2"><strong>Destination</strong></td>
+      <td><strong>Destination</strong></td>
       <td>EoriNumber</td>
     </tr>
-
-    <tr />
 
     <tr>
       <td rowspan="6"><strong>Items</strong></td>
@@ -821,12 +800,12 @@ The following sections summarises the MDF validation rules, their respective shi
     </tr>
 
     <tr>
-      <td rowspan="1"><strong>Customs</strong></td>
+      <td><strong>Customs</strong></td>
       <td>QuotedLandedCost</td>
     </tr>
 
     <tr>
-      <td rowspan="5"><strong>CarrierSpecifics > Importer > Address</strong></td>
+      <td rowspan="4"><strong>CarrierSpecifics > Importer > Address</strong></td>
       <td>ContactName</td>
     </tr>
 
@@ -843,9 +822,3 @@ The following sections summarises the MDF validation rules, their respective shi
     </tr>
   </table>
 </Accordion>
-
-<br />
-
-<Banner isInline={true} message="" color="#ffb600" textColor="" fontSize="14px" fontWeight="bold" />
-
-<br />
