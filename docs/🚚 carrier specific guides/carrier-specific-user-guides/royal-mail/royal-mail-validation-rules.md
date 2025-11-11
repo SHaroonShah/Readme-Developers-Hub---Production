@@ -22,45 +22,45 @@ The following sections summarises the MDF validation rules, their respective shi
   **Scenario description**: Domestic <Glossary>DOX</Glossary>, <Glossary>NDX</Glossary>, and international DOX shipments.
 
   <HTMLBlock>{`
-                                                                <table>
-                                                                  <thead>
-                                                                    <tr>
-                                                                      <th>API object</th>
-                                                                      <th>Mandatory fields</th>
-                                                                    </tr>
-                                                                  </thead>
-                                                                  <tbody>
-                                                                    <tr>
-                                                                      <td rowspan="5"> <strong>Shipper > Address</strong></td>
-                                                                      <td>ContactName</td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                      <td>Line 1</td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                      <td>Town</td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                      <td>Postcode</td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                      <td>CountryCode</td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                      <td rowspan="4"><strong>Destination > Address</strong></td>
-                                                                      <td>ContactName</td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                      <td>Line 1</td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                      <td>Town</td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                      <td>CountryCode</td>
-                                                                    </tr>
-                                                                  </tbody>
-                                                                </table>
+                                                                  <table>
+                                                                    <thead>
+                                                                      <tr>
+                                                                        <th>API object</th>
+                                                                        <th>Mandatory fields</th>
+                                                                      </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                      <tr>
+                                                                        <td rowspan="5"> <strong>Shipper > Address</strong></td>
+                                                                        <td>ContactName</td>
+                                                                      </tr>
+                                                                      <tr>
+                                                                        <td>Line 1</td>
+                                                                      </tr>
+                                                                      <tr>
+                                                                        <td>Town</td>
+                                                                      </tr>
+                                                                      <tr>
+                                                                        <td>Postcode</td>
+                                                                      </tr>
+                                                                      <tr>
+                                                                        <td>CountryCode</td>
+                                                                      </tr>
+                                                                      <tr>
+                                                                        <td rowspan="4"><strong>Destination > Address</strong></td>
+                                                                        <td>ContactName</td>
+                                                                      </tr>
+                                                                      <tr>
+                                                                        <td>Line 1</td>
+                                                                      </tr>
+                                                                      <tr>
+                                                                        <td>Town</td>
+                                                                      </tr>
+                                                                      <tr>
+                                                                        <td>CountryCode</td>
+                                                                      </tr>
+                                                                    </tbody>
+                                                                  </table>
   `}</HTMLBlock>
 </Accordion>
 
@@ -547,11 +547,11 @@ The following sections summarises the MDF validation rules, their respective shi
 
     <tr>
       <td rowspan="2"><strong>Customs</strong></td>
-      <td>IOSS PreRegistrationNumber</td>
+      <td>PreRegistrationNumber populated with the IOSS number</td>
     </tr>
 
     <tr>
-      <td>IOSS PreRegistrationType</td>
+      <td>PreRegistrationType defined as IOSS</td>
     </tr>
   </table>
 </Accordion>
