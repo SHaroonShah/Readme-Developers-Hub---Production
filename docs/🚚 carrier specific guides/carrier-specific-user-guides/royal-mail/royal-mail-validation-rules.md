@@ -22,46 +22,46 @@ The following sections summarises the MDF validation rules, their respective shi
   **Scenario description**: Domestic <Glossary>DOX</Glossary>, <Glossary>NDX</Glossary>, and international DOX shipments.
 
   <HTMLBlock>{`
-                                                                                                                                                                                  <table>
-                                                                                                                                                                                    <thead>
-                                                                                                                                                                                      <tr>
-                                                                                                                                                                                        <th>API object</th>
-                                                                                                                                                                                        <th>Mandatory fields</th>
-                                                                                                                                                                                      </tr>
-                                                                                                                                                                                    </thead>
-                                                                                                                                                                                    <tbody>
-                                                                                                                                                                                      <tr>
-                                                                                                                                                                                      <td rowspan="5"> <strong>Shipper > Address</strong></td>
+                                                                                                                                                                                    <table>
+                                                                                                                                                                                      <thead>
+                                                                                                                                                                                        <tr>
+                                                                                                                                                                                          <th>API object</th>
+                                                                                                                                                                                          <th>Mandatory fields</th>
+                                                                                                                                                                                        </tr>
+                                                                                                                                                                                      </thead>
+                                                                                                                                                                                      <tbody>
+                                                                                                                                                                                        <tr>
+                                                                                                                                                                                        <td rowspan="5"> <strong>Shipper > Address</strong></td>
 
-                                                                                                                                                                                        <td>ContactName</td>
-                                                                                                                                                                                      </tr>
-                                                                                                                                                                                      <tr>
-                                                                                                                                                                                        <td>Line 1</td>
-                                                                                                                                                                                      </tr>
-                                                                                                                                                                                      <tr>
-                                                                                                                                                                                        <td>Town</td>
-                                                                                                                                                                                      </tr>
-                                                                                                                                                                                      <tr>
-                                                                                                                                                                                        <td>Postcode</td>
-                                                                                                                                                                                      </tr>
-                                                                                                                                                                                      <tr>
-                                                                                                                                                                                        <td>CountryCode</td>
-                                                                                                                                                                                      </tr>
-                                                                                                                                                                                      <tr>
-                                                                                                                                                                                        <td rowspan="4"><strong>Destination > Address</strong></td>
-                                                                                                                                                                                        <td>ContactName</td>
-                                                                                                                                                                                      </tr>
-                                                                                                                                                                                      <tr>
-                                                                                                                                                                                        <td>Line 1</td>
-                                                                                                                                                                                      </tr>
-                                                                                                                                                                                      <tr>
-                                                                                                                                                                                        <td>Town</td>
-                                                                                                                                                                                      </tr>
-                                                                                                                                                                                      <tr>
-                                                                                                                                                                                        <td>CountryCode</td>
-                                                                                                                                                                                      </tr>
-                                                                                                                                                                                    </tbody>
-                                                                                                                                                                                  </table>
+                                                                                                                                                                                          <td>ContactName</td>
+                                                                                                                                                                                        </tr>
+                                                                                                                                                                                        <tr>
+                                                                                                                                                                                          <td>Line 1</td>
+                                                                                                                                                                                        </tr>
+                                                                                                                                                                                        <tr>
+                                                                                                                                                                                          <td>Town</td>
+                                                                                                                                                                                        </tr>
+                                                                                                                                                                                        <tr>
+                                                                                                                                                                                          <td>Postcode</td>
+                                                                                                                                                                                        </tr>
+                                                                                                                                                                                        <tr>
+                                                                                                                                                                                          <td>CountryCode</td>
+                                                                                                                                                                                        </tr>
+                                                                                                                                                                                        <tr>
+                                                                                                                                                                                          <td rowspan="4"><strong>Destination > Address</strong></td>
+                                                                                                                                                                                          <td>ContactName</td>
+                                                                                                                                                                                        </tr>
+                                                                                                                                                                                        <tr>
+                                                                                                                                                                                          <td>Line 1</td>
+                                                                                                                                                                                        </tr>
+                                                                                                                                                                                        <tr>
+                                                                                                                                                                                          <td>Town</td>
+                                                                                                                                                                                        </tr>
+                                                                                                                                                                                        <tr>
+                                                                                                                                                                                          <td>CountryCode</td>
+                                                                                                                                                                                        </tr>
+                                                                                                                                                                                      </tbody>
+                                                                                                                                                                                    </table>
   `}</HTMLBlock>
 </Accordion>
 
@@ -880,7 +880,7 @@ The following sections summarises the MDF validation rules, their respective shi
   <!-- Banner spanning both columns -->
   <tr>
     <td colspan="2">
-      <Banner isInline={true} message="" color="#ffb600" textColor="#ffffff" fontSize="14px" fontWeight="bold" />
+      <Banner isInline={true} message="" color="#ffb600" textColor="" fontSize="" fontWeight="bold" />
     </td>
   </tr>
 
