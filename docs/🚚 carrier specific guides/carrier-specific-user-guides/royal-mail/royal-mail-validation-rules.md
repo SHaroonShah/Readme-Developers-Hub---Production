@@ -49,7 +49,10 @@ The following sections summarises the MDF validation rules, their respective shi
     <tr>
       <td>CountryCode</td>
     </tr>
-
+<Banner
+  isInline={true}
+  color="#ffb600"
+ />
     <tr>
       <td rowspan="4"><strong>Destination > Address</strong></td>
       <td>ContactName</td>
@@ -499,7 +502,9 @@ The following sections summarises the MDF validation rules, their respective shi
     <tr>
       <td>CountryCode</td>
     </tr>
-***
+
+    ***
+
     <tr>
       <td rowspan="6"><strong>Destination > Address</strong></td>
       <td>ContactName</td>
@@ -832,7 +837,9 @@ The following sections summarises the MDF validation rules, their respective shi
   </table>
 </Accordion>
 
-
 ***
 
-<br />
+<Banner
+  isInline={true}
+  color="#ffb600"
+ />
