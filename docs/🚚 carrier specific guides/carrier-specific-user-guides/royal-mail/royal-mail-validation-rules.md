@@ -22,49 +22,49 @@ The following sections summarises the MDF validation rules, their respective shi
   **Scenario description**: Domestic <Glossary>DOX</Glossary>, <Glossary>NDX</Glossary>, and international DOX shipments.
 
   <HTMLBlock>{`
-                                                              <table>
-                                                                <thead>
-                                                                  <tr>
-                                                                    <th>API object</th>
-                                                                    <th>Mandatory fields</th>
-                                                                  </tr>
-                                                                </thead>
-                                                                <tbody>
-                                                                  <tr>
-                                                                    <td rowspan="5"> <strong>Shipper > Address</strong></td>
-                                                                    <td>ContactName</td>
-                                                                  </tr>
-                                                                  <tr>
-                                                                    <td>Line 1</td>
-                                                                  </tr>
-                                                                  <tr>
-                                                                    <td>Town</td>
-                                                                  </tr>
-                                                                  <tr>
-                                                                    <td>Postcode</td>
-                                                                  </tr>
-                                                                  <tr>
-                                                                    <td>CountryCode</td>
-                                                                  </tr>
-                                                                  <tr>
-                                                                    <td rowspan="4"><strong>Destination > Address</strong></td>
-                                                                    <td>ContactName</td>
-                                                                  </tr>
-                                                                  <tr>
-                                                                    <td>Line 1</td>
-                                                                  </tr>
-                                                                  <tr>
-                                                                    <td>Town</td>
-                                                                  </tr>
-                                                                  <tr>
-                                                                    <td>CountryCode</td>
-                                                                  </tr>
-                                                                </tbody>
-                                                              </table>
+                                                                <table>
+                                                                  <thead>
+                                                                    <tr>
+                                                                      <th>API object</th>
+                                                                      <th>Mandatory fields</th>
+                                                                    </tr>
+                                                                  </thead>
+                                                                  <tbody>
+                                                                    <tr>
+                                                                      <td rowspan="5"> <strong>Shipper > Address</strong></td>
+                                                                      <td>ContactName</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                      <td>Line 1</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                      <td>Town</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                      <td>Postcode</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                      <td>CountryCode</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                      <td rowspan="4"><strong>Destination > Address</strong></td>
+                                                                      <td>ContactName</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                      <td>Line 1</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                      <td>Town</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                      <td>CountryCode</td>
+                                                                    </tr>
+                                                                  </tbody>
+                                                                </table>
   `}</HTMLBlock>
 </Accordion>
 
-<Accordion title="NDX shipments with DDU incoterm" icon="fa-solid fa-shield-check">
+<Accordion title="International NDX shipments with DDU incoterm" icon="fa-solid fa-shield-check">
   **Scenario description**: International non-document (<Glossary>NDX</Glossary>) shipments using <Glossary>DDU</Glossary> incoterm.
 
   <table>
@@ -130,7 +130,7 @@ The following sections summarises the MDF validation rules, their respective shi
   </table>
 </Accordion>
 
-<Accordion title="NDX shipment with DDU incoterm and additional item information" icon="fa-solid fa-shield-check">
+<Accordion title="International NDX shipment with DDU incoterm and additional item information" icon="fa-solid fa-shield-check">
   **Scenario description**: International non-document (<Glossary>NDX</Glossary>) shipments using <Glossary>DDU</Glossary> incoterm, with additional item information.
 
   <table>
@@ -204,7 +204,7 @@ The following sections summarises the MDF validation rules, their respective shi
   </table>
 </Accordion>
 
-<Accordion title="NDX shipment with DDU incoterm, customs data, and mandatory receiver contact details" icon="fa-solid fa-shield-check">
+<Accordion title="International NDX shipment with DDU incoterm, customs data, and mandatory receiver contact details" icon="fa-solid fa-shield-check">
   **Scenario description**: International non-document (<Glossary>NDX</Glossary>) shipments using <Glossary>DDU</Glossary>, with extra customs data and mandatory receiver contact details.
 
   <table>
@@ -286,7 +286,7 @@ The following sections summarises the MDF validation rules, their respective shi
   </table>
 </Accordion>
 
-<Accordion title="NDX shipment with DDP incoterm and ROW destination" icon="fa-solid fa-shield-check">
+<Accordion title="International NDX shipment with DDP incoterm and ROW destination" icon="fa-solid fa-shield-check">
   **Scenario description**: International non-document (<Glossary>NDX</Glossary>) shipments using <Glossary>DDP</Glossary> incoterm, sent to non-EU destinations, that is Rest of the World (<Glossary>ROW</Glossary>).
 
   <table>
@@ -373,7 +373,7 @@ The following sections summarises the MDF validation rules, their respective shi
   </table>
 </Accordion>
 
-<Accordion title="NDX shipment with DDP incoterm and EU destination" icon="fa-solid fa-shield-check">
+<Accordion title="International NDX shipment with DDP incoterm and EU destination" icon="fa-solid fa-shield-check">
   **Scenario description**: International non-document (<Glossary>NDX</Glossary>) shipments using <Glossary>DDP</Glossary> incoterm, sent to EU destinations.
 
   <table>
@@ -465,7 +465,7 @@ The following sections summarises the MDF validation rules, their respective shi
   </table>
 </Accordion>
 
-<Accordion title="NDX shipment with IOSS information" icon="fa-solid fa-shield-check">
+<Accordion title="International NDX shipment with IOSS information" icon="fa-solid fa-shield-check">
   **Scenario description**: International non-document (<Glossary>NDX</Glossary>) shipments with <Glossary>IOSS</Glossary> <Glossary>Pre-registration number</Glossary>.
 
   <table>
@@ -556,7 +556,7 @@ The following sections summarises the MDF validation rules, their respective shi
   </table>
 </Accordion>
 
-<Accordion title="NDX shipment with Pre-registration number" icon="fa-solid fa-shield-check">
+<Accordion title="International NDX shipment with Pre-registration number" icon="fa-solid fa-shield-check">
   **Scenario description**: International non-document (<Glossary>NDX</Glossary>) shipments with <Glossary>Pre-registration number</Glossary>.
 
   <table border="1" cellpadding="5" cellspacing="0">
@@ -651,7 +651,7 @@ The following sections summarises the MDF validation rules, their respective shi
   </table>
 </Accordion>
 
-<Accordion title="B2B shipment" icon="fa-solid fa-shield-check">
+<Accordion title="International B2B shipment" icon="fa-solid fa-shield-check">
   **Scenario description**: Shipment with B2B <Glossary>business transaction type</Glossary>.
 
   <table>
@@ -721,7 +721,7 @@ The following sections summarises the MDF validation rules, their respective shi
   </table>
 </Accordion>
 
-<Accordion title="NDX shipment with DDP incoterm and Importer details" icon="fa-solid fa-shield-check">
+<Accordion title="International NDX shipment with DDP incoterm and Importer details" icon="fa-solid fa-shield-check">
   **Scenario description**: International non-document (<Glossary>NDX</Glossary>) shipments using <Glossary>DDP</Glossary> incoterm, with importer details required.
 
   <table>
