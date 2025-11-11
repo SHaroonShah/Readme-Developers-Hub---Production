@@ -205,7 +205,7 @@ The following sections summarises the MDF validation rules, their respective shi
 </Accordion>
 
 <Accordion title="NDX shipment with DDU incoterm, customs data, and mandatory receiver contact details" icon="fa-solid fa-shield-check">
-  **Scenario description**: International non-document (<Glossary>NDX</Glossary>) shipments (goods) using <Glossary>DDU</Glossary>, with extra customs data and mandatory receiver contact details.
+  **Scenario description**: International non-document (<Glossary>NDX</Glossary>) shipments using <Glossary>DDU</Glossary>, with extra customs data and mandatory receiver contact details.
 
   <table>
     <tr>
@@ -287,7 +287,7 @@ The following sections summarises the MDF validation rules, their respective shi
 </Accordion>
 
 <Accordion title="NDX shipment with DDP incoterm and ROW destination" icon="fa-solid fa-shield-check">
-  **Scenario description**: International non-document (<Glossary>NDX</Glossary>) shipments (goods) using <Glossary>DDP</Glossary> incoterm, sent to non-EU destinations, that is Rest of the World (<Glossary>ROW</Glossary>).
+  **Scenario description**: International non-document (<Glossary>NDX</Glossary>) shipments using <Glossary>DDP</Glossary> incoterm, sent to non-EU destinations, that is Rest of the World (<Glossary>ROW</Glossary>).
 
   <table>
     <tr>
@@ -374,7 +374,7 @@ The following sections summarises the MDF validation rules, their respective shi
 </Accordion>
 
 <Accordion title="NDX shipment with DDP incoterm and EU destination" icon="fa-solid fa-shield-check">
-  **Scenario description**: International non-document (<Glossary>NDX</Glossary>) shipments (goods) using <Glossary>DDP</Glossary> incoterm, sent to EU destinations.
+  **Scenario description**: International non-document (<Glossary>NDX</Glossary>) shipments using <Glossary>DDP</Glossary> incoterm, sent to EU destinations.
 
   <table>
     <tr>
@@ -466,7 +466,7 @@ The following sections summarises the MDF validation rules, their respective shi
 </Accordion>
 
 <Accordion title="NDX shipment with IOSS information" icon="fa-solid fa-shield-check">
-  **Scenario description**: International non-document (<Glossary>NDX</Glossary>) shipments (goods) with <Glossary>IOSS</Glossary> <Glossary>Pre-registration number</Glossary>.
+  **Scenario description**: International non-document (<Glossary>NDX</Glossary>) shipments with <Glossary>IOSS</Glossary> <Glossary>Pre-registration number</Glossary>.
 
   <table>
     <tr>
@@ -557,7 +557,7 @@ The following sections summarises the MDF validation rules, their respective shi
 </Accordion>
 
 <Accordion title="NDX shipment with Pre-registration number" icon="fa-solid fa-shield-check">
-  **Scenario description**: International non-document (<Glossary>NDX</Glossary>) shipments (goods) with <Glossary>Pre-registration number</Glossary>.
+  **Scenario description**: International non-document (<Glossary>NDX</Glossary>) shipments with <Glossary>Pre-registration number</Glossary>.
 
   <table border="1" cellpadding="5" cellspacing="0">
     <thead>
@@ -722,7 +722,7 @@ The following sections summarises the MDF validation rules, their respective shi
 </Accordion>
 
 <Accordion title="NDX shipment with DDP incoterm and Importer details" icon="fa-solid fa-shield-check">
-  **Scenario description**: International non-document (<Glossary>NDX</Glossary>) shipments (goods) using <Glossary>DDP</Glossary> incoterm, with importer details required.
+  **Scenario description**: International non-document (<Glossary>NDX</Glossary>) shipments using <Glossary>DDP</Glossary> incoterm, with importer details required.
 
   <table>
     <tr>
