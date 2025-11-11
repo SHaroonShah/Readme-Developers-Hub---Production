@@ -19,7 +19,7 @@ When creating a shipment, these validation rules verify that all necessary infor
 The following sections summarises the MDF validation rules, their respective shipment scenarios, and the mandatory fields for each rule. The field are mapped to their typical names for clarity and reference.
 
 <Accordion title="All domestic DOX, NDX, and international DOX shipments" icon="fa-solid fa-shield-check">
-  **Scenario description**: All domestic <Glossary>DOX</Glossary>, <Glossary>NDX</Glossary>, and international DOX shipments.
+  **Scenario description**: Domestic <Glossary>DOX</Glossary>, <Glossary>NDX</Glossary>, and international DOX shipments.
 
   <HTMLBlock>{`
                                                             <table>
