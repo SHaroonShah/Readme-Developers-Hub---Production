@@ -641,11 +641,11 @@ The following sections summarises the MDF validation rules, their respective shi
 
       <tr>
         <td rowspan="2"><strong>Customs</strong></td>
-        <td>Non-IOSS PreRegistrationNumber</td>
+        <td>PreRegistrationNumber</td>
       </tr>
 
       <tr>
-        <td>Non-IOSS PreRegistrationType</td>
+        <td>PreRegistrationType</td>
       </tr>
     </tbody>
   </table>
