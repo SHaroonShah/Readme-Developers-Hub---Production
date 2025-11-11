@@ -840,4 +840,4 @@ The following sections summarises the MDF validation rules, their respective shi
 
 <br />
 
-<Banner isInline={true} message="" color="#118cfd" textColor="#ffb600" fontSize="14px" fontWeight="bold" />
+<Banner isInline={true} message="" color="#ffb600" textColor="#ffb600" fontSize="14px" fontWeight="bold" />
