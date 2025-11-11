@@ -465,7 +465,7 @@ The following sections summarises the MDF validation rules, their respective shi
   </table>
 </Accordion>
 
-<Accordion title="International NDX shipment with IOSS information to EU destinations" icon="fa-solid fa-shield-check">
+<Accordion title="International NDX shipment with IOSS information to EU destination" icon="fa-solid fa-shield-check">
   **Scenario description**: International non-document (<Glossary>NDX</Glossary>) shipments with an <Glossary>IOSS</Glossary> <Glossary>Pre-registration number</Glossary>, shipped to EU destinations.
 
   <table>
