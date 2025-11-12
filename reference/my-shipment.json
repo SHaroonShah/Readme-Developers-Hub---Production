@@ -11,7 +11,7 @@
   ],
   "tags": [],
   "paths": {
-    "/new-endpoint": {
+    "/shipment": {
       "get": {
         "summary": "New Endpoint",
         "description": "This is your first endpoint! Edit this page to start documenting your API.",
@@ -20,7 +20,35 @@
           "200": {
             "description": "Successful response"
           }
-        }
+        },
+        "parameters": [
+          {
+            "in": "query",
+            "name": "ShipmentId",
+            "schema": {
+              "type": "object",
+              "enum": [
+                1122589
+              ],
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "description": "_xwxwxw_"
+                }
+              }
+            },
+            "description": "This is the shipment ID.",
+            "required": true
+          },
+          {
+            "in": "header",
+            "name": "",
+            "schema": {
+              "type": "string"
+            },
+            "description": "swxxxxxxxxxxxxxx"
+          }
+        ]
       }
     }
   },
