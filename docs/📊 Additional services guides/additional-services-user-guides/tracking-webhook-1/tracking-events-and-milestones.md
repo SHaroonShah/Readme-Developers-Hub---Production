@@ -383,7 +383,6 @@ The following table displays a comprehensive structure of the milestones, event 
     <td>Shipment Misrouted</td>
   </tr>
   <tr>
-    <td></td>
     <td>PRET</td>
     <td>Shipment Retention</td>
   </tr>
