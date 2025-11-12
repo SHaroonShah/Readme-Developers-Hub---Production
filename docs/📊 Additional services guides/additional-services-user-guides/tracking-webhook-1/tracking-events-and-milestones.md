@@ -213,8 +213,8 @@ The following table displays a comprehensive structure of the milestones, event 
     <td>Shipment Despatched</td>
   </tr>
   <tr>
-    <td rowspan="4">In Transit</td>
-    <td rowspan="4">2</td>
+    <td rowspan="5">In Transit</td>
+    <td rowspan="5">2</td>
     <td>PINT</td>
     <td>In Transit</td>
   </tr>
@@ -240,7 +240,7 @@ The following table displays a comprehensive structure of the milestones, event 
   </tr>
   <tr>
     <td rowspan="3">In Customs</td>
-    <td>3</td>
+    <td rowspan="3">3</td>
     <td>BCUI</td>
     <td>Customs Inspection</td>
   </tr>
@@ -255,7 +255,7 @@ The following table displays a comprehensive structure of the milestones, event 
     <td>Released by Customs</td>
   </tr>
   <tr>
-    <td rowspan="6">Out for Delivery</td>
+    <td rowspan="1">Out for Delivery</td>
     <td>4</td>
     <td>POFD</td>
     <td>Out for Delivery</td>
