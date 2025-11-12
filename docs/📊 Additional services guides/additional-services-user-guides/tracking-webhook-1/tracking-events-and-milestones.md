@@ -177,7 +177,7 @@ The following events are considered as the final events.
 
 The following section displays a comprehensive structure of the milestones, event codes, and events that occur throughout the shipping journey of a shipment.
 
-<Accordion title="Tracking Events and Milestones" icon="fa-info-circle">
+<Accordion title="Tracking Events and Milestones" icon="fa-display-chart-up">
   <HTMLBlock>{`
     <table>
       <tr>
