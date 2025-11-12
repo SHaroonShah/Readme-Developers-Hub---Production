@@ -186,7 +186,7 @@ The following table displays a comprehensive structure of the milestones, event 
 <HTMLBlock>{`
 <table>
   <tr>
-    <th background="#ffb600">Milestone Name</th>
+    <th color="#ffb600">Milestone Name</th>
     <th>Milestone Order</th>
     <th>Tracking Event Code</th>
     <th>Tracking Event Name</th>
@@ -402,5 +402,3 @@ The following table displays a comprehensive structure of the milestones, event 
   </tr>
 </table>
 `}</HTMLBlock>
-
-<br />
