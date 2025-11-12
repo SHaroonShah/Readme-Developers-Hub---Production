@@ -206,7 +206,6 @@ The following table displays a comprehensive structure of the milestones, event 
     <td>Shipment Collected</td>
   </tr>
   <tr>
-    <td></td>
     <td>PSDE</td>
     <td>Shipment Despatched</td>
   </tr>
