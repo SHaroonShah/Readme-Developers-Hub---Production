@@ -238,12 +238,10 @@ The following table displays a comprehensive structure of the milestones, event 
     <td>Customs Inspection</td>
   </tr>
   <tr>
-    <td></td>
     <td>BHBC</td>
     <td>Held by Customs</td>
   </tr>
   <tr>
-    <td></td>
     <td>BRBC</td>
     <td>Released by Customs</td>
   </tr>
