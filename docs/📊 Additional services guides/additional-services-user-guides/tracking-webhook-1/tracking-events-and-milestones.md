@@ -216,22 +216,18 @@ The following table displays a comprehensive structure of the milestones, event 
     <td>In Transit</td>
   </tr>
   <tr>
-    <td></td>
     <td>PPID</td>
     <td>Shipment Processed in Depot</td>
   </tr>
   <tr>
-    <td></td>
     <td>PRID</td>
     <td>Shipment Received in Depot</td>
   </tr>
   <tr>
-    <td></td>
     <td>PSDD</td>
     <td>Shipment Departed Depot</td>
   </tr>
   <tr>
-    <td></td>
     <td>IOWS</td>
     <td>Oversize/weight Shipment</td>
   </tr>
