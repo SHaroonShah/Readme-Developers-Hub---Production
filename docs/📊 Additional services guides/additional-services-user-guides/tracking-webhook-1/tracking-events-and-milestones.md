@@ -252,35 +252,38 @@ The following table displays a comprehensive structure of the milestones, event 
     <td>Out for Delivery</td>
   </tr>
   <tr>
-    <td rowspan="6">Delivery Attempt Failed</td>
-    <td>5</td>
+    <td rowspan="8">Delivery Attempt Failed</td>
+    <td rowspan="8">5</td>
     <td>FDAF</td>
     <td>Delivery Attempt Failed</td>
   </tr>
   <tr>
-    <td></td>
     <td>FNCO</td>
     <td>Not Collected</td>
   </tr>
   <tr>
-    <td></td>
     <td>FCAR</td>
     <td>No Answer - Carded</td>
   </tr>
   <tr>
-    <td></td>
     <td>FANK</td>
-    <td>Address not known</td>
+    <td>Address Not Known</td>
   </tr>
   <tr>
-    <td></td>
     <td>FRNK</td>
-    <td>Recipient not known</td>
+    <td>Recipient Not Known</td>
   </tr>
   <tr>
-    <td></td>
     <td>FRAA</td>
     <td>Refused at Delivery Address</td>
+  </tr>
+  <tr>
+    <td>FINA</td>
+    <td>Incomplete Address</td>
+  </tr>
+  <tr>
+    <td>FUTA</td>
+    <td>Unable to Access Delivery Point</td>
   </tr>
   <tr>
     <td rowspan="6">Part Delivered</td>
