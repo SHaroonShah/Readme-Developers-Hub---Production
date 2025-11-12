@@ -286,7 +286,7 @@ The following table displays a comprehensive structure of the milestones, event 
     <td>Unable to Access Delivery Point</td>
   </tr>
   <tr>
-    <td rowspan="6">Part Delivered</td>
+    <td rowspan="1">Part Delivered</td>
     <td>6</td>
     <td>DPAR</td>
     <td>Partially delivered</td>
