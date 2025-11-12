@@ -192,7 +192,7 @@ The following table displays a comprehensive structure of the milestones, event 
     <th>Tracking Event Name</th>
   </tr>
   <tr>
-    <td rowspan="5">It’s on its Way</td>
+    <td rowspan="4">It’s on its Way</td>
     <td>1</td>
     <td>PSRE</td>
     <td>Shipment Received</td>
