@@ -214,7 +214,7 @@ The following table displays a comprehensive structure of the milestones, event 
   </tr>
   <tr>
     <td rowspan="5">In Transit</td>
-    <td>2</td>
+    <td rowspan="4">2</td>
     <td>PINT</td>
     <td>In Transit</td>
   </tr>
