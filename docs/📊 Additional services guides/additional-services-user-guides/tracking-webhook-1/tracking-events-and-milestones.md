@@ -195,7 +195,7 @@ The following table displays a comprehensive structure of the milestones, event 
     <td rowspan="4"style="background-color: lightgray;"><strong>It’s on its Way</strong></td>
     <td rowspan="4">1</td>
     <td>PSRE</td>
-    <td>Shipment Received</td>
+    <td style="background-color: lightgray;">Shipment Received</td>
 </tr>
   <tr>
     <td>PSAN</td>
