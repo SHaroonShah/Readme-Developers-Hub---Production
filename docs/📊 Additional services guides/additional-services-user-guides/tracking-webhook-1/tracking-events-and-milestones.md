@@ -210,7 +210,7 @@ The following table displays a comprehensive structure of the milestones, event 
     <td>Shipment Despatched</td>
   </tr>
   <tr>
-    <td rowspan="5">In Transit</td>
+    <td rowspan="5"><strong>In Transit</strong></td>
     <td rowspan="5">2</td>
     <td>PINT</td>
     <td>In Transit</td>
@@ -232,7 +232,7 @@ The following table displays a comprehensive structure of the milestones, event 
     <td>Oversize/weight Shipment</td>
   </tr>
   <tr>
-    <td rowspan="3">In Customs</td>
+    <td rowspan="3"><strong>In Customs</strong></td>
     <td rowspan="3">3</td>
     <td>BCUI</td>
     <td>Customs Inspection</td>
@@ -246,13 +246,13 @@ The following table displays a comprehensive structure of the milestones, event 
     <td>Released by Customs</td>
   </tr>
   <tr>
-    <td rowspan="1">Out for Delivery</td>
+    <td rowspan="1"><strong>Out for Delivery</strong></td>
     <td>4</td>
     <td>POFD</td>
     <td>Out for Delivery</td>
   </tr>
   <tr>
-    <td rowspan="8">Delivery Attempt Failed</td>
+    <td rowspan="8"><strong>Delivery Attempt Failed</strong></td>
     <td rowspan="8">5</td>
     <td>FDAF</td>
     <td>Delivery Attempt Failed</td>
@@ -286,19 +286,19 @@ The following table displays a comprehensive structure of the milestones, event 
     <td>Unable to Access Delivery Point</td>
   </tr>
   <tr>
-    <td rowspan="1">Part Delivered</td>
+    <td rowspan="1"><strong>Part Delivered</strong></td>
     <td>6</td>
     <td>DPAR</td>
     <td>Partially delivered</td>
   </tr>
   <tr>
-    <td rowspan="1">Ready for Collection</td>
+    <td rowspan="1"><strong>Ready for Collection</strong></td>
     <td>7</td>
     <td>DRFC</td>
     <td>Ready for Collection</td>
   </tr>
   <tr>
-    <td rowspan="8">Delivered</td>
+    <td rowspan="8"><strong>Delivered</strong></td>
     <td rowspan="8">8</td>
     <td>DELV</td>
     <td>Delivered</td>
@@ -332,13 +332,13 @@ The following table displays a comprehensive structure of the milestones, event 
     <td>Delivered to Neighbour with Signature - Over 25</td>
   </tr>
   <tr>
-    <td rowspan="1">Collected</td>
+    <td rowspan="1"><strong>Collected</strong></td>
     <td>9</td>
     <td>DRCO</td>
     <td>Recipient Collected</td>
   </tr>
   <tr>
-    <td rowspan="7">Undeliverable</td>
+    <td rowspan="7"><strong>Undeliverable</strong></td>
     <td rowspan="7">10</td>
     <td>RTNS</td>
     <td>Return to Sender</td>
@@ -369,7 +369,7 @@ The following table displays a comprehensive structure of the milestones, event 
   </tr>
 
   <tr>
-    <td rowspan="4">Transit Delay</td>
+    <td rowspan="4"><strong>Transit Delay</strong></td>
     <td rowspan="4">Null</td>
     <td>IDIP</td>
     <td>Delay in Processing</td>
@@ -387,7 +387,7 @@ The following table displays a comprehensive structure of the milestones, event 
     <td>Shipment Retention</td>
   </tr>
   <tr>
-    <td rowspan="3">N/A</td>
+    <td rowspan="3"><strong>N/A</strong></td>
     <td rowspan="3">Null</td>
     <td>ICLR</td>
     <td>Shipment Customs Cleared</td>
