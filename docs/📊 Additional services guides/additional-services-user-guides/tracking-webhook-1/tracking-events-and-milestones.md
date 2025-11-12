@@ -332,40 +332,53 @@ The following table displays a comprehensive structure of the milestones, event 
     <td>Delivered to Neighbour with Signature - Over 25</td>
   </tr>
   <tr>
-    <td rowspan="4">Collected</td>
+    <td rowspan="1">Collected</td>
     <td>9</td>
     <td>DRCO</td>
     <td>Recipient Collected</td>
   </tr>
   <tr>
-    <td rowspan="3">Undeliverable</td>
-    <td>10</td>
+    <td rowspan="7">Undeliverable</td>
+    <td rowspan="7">10</td>
     <td>RTNS</td>
     <td>Return to Sender</td>
   </tr>
   <tr>
-    <td></td>
     <td>RUND</td>
     <td>Undeliverable - Return to Sender</td>
   </tr>
   <tr>
-    <td></td>
     <td>RNCO</td>
     <td>Not Collected - Return to Sender</td>
   </tr>
   <tr>
-    <td rowspan="5">Transit Delay</td>
-    <td>Null</td>
+    <td>UDTS</td>
+    <td>Delivered to Sender</td>
+  </tr>
+  <tr>
+    <td>IDES</td>
+    <td>Shipment Lost/Destroyed</td>
+  </tr>
+  <tr>
+    <td>ICAN</td>
+    <td>Shipment Cancelled</td>
+  </tr>
+  <tr>
+    <td>FUDS</td>
+    <td>Undeliverable - Destroyed</td>
+  </tr>
+
+  <tr>
+    <td rowspan="4">Transit Delay</td>
+    <td rowspan="4">Null</td>
     <td>IDIP</td>
     <td>Delay in Processing</td>
   </tr>
   <tr>
-    <td></td>
     <td>IFME</td>
     <td>Force Majure/ Exceptional Event</td>
   </tr>
   <tr>
-    <td></td>
     <td>ISMI</td>
     <td>Shipment Misrouted</td>
   </tr>
@@ -376,17 +389,15 @@ The following table displays a comprehensive structure of the milestones, event 
   </tr>
   <tr>
     <td rowspan="3">N/A</td>
-    <td>Null</td>
+    <td rowspan="3">Null</td>
     <td>ICLR</td>
     <td>Shipment Customs Cleared</td>
   </tr>
   <tr>
-    <td></td>
     <td>IARR</td>
     <td>Shipment Arrived at Facility</td>
   </tr>
   <tr>
-    <td></td>
     <td>IRCO</td>
     <td>Shipment Ready for Collection from the Facility</td>
   </tr>
