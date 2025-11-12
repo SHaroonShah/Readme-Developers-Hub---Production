@@ -196,7 +196,9 @@ The following table displays a comprehensive structure of the milestones, event 
     <td rowspan="4">1</td>
     <td>PSRE</td>
     <td>Shipment Received</td>
-
+</tr>
+  <tr>
+    <td></td>
     <td>PSAN</td>
     <td>Shipment Announced</td>
   </tr>
