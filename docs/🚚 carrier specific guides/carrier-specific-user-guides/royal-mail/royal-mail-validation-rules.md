@@ -50,7 +50,6 @@ The following sections summarises the MDF validation rules, their respective shi
       <td>CountryCode</td>
     </tr>
 
-
     <tr>
       <td rowspan="4"><strong>Destination > Address</strong></td>
       <td>ContactName</td>
@@ -67,8 +66,6 @@ The following sections summarises the MDF validation rules, their respective shi
     <tr>
       <td>CountryCode</td>
     </tr>
-
-    
   </table>
 </Accordion>
 
@@ -102,7 +99,7 @@ The following sections summarises the MDF validation rules, their respective shi
       <td>CountryCode</td>
     </tr>
 
-    <Banner isInline={true} color="#ffb600" />
+  
 
     <tr>
       <td rowspan="4"><strong>Destination > Address</strong></td>
@@ -121,7 +118,7 @@ The following sections summarises the MDF validation rules, their respective shi
       <td>CountryCode</td>
     </tr>
 
-    <Banner isInline={true} color="#ffb600" />
+   
 
     <tr>
       <td rowspan="4"><strong>Items</strong></td>
@@ -140,7 +137,7 @@ The following sections summarises the MDF validation rules, their respective shi
       <td>Weight</td>
     </tr>
 
-    <Banner isInline={true} color="#ffb600" />
+  
   </table>
 </Accordion>
 
@@ -174,7 +171,7 @@ The following sections summarises the MDF validation rules, their respective shi
       <td>CountryCode</td>
     </tr>
 
-    <Banner isInline={true} color="#ffb600" />
+    
 
     <tr>
       <td rowspan="4"><strong>Destination > Address</strong></td>
@@ -193,7 +190,7 @@ The following sections summarises the MDF validation rules, their respective shi
       <td>CountryCode</td>
     </tr>
 
-    <Banner isInline={true} color="#ffb600" />
+    
 
     <tr>
       <td rowspan="6"><strong>Items</strong></td>
@@ -220,7 +217,7 @@ The following sections summarises the MDF validation rules, their respective shi
       <td>CountryOfOrigin</td>
     </tr>
 
-    <Banner isInline={true} color="#ffb600" />
+   
   </table>
 </Accordion>
 
@@ -254,7 +251,6 @@ The following sections summarises the MDF validation rules, their respective shi
       <td>CountryCode</td>
     </tr>
 
-    <Banner isInline={true} color="#ffb600" />
 
     <tr>
       <td rowspan="6"><strong>Destination > Address</strong></td>
@@ -281,7 +277,7 @@ The following sections summarises the MDF validation rules, their respective shi
       <td>ContactPhone</td>
     </tr>
 
-    <Banner isInline={true} color="#ffb600" />
+    
 
     <tr>
       <td rowspan="6"><strong>Items</strong></td>
@@ -308,7 +304,7 @@ The following sections summarises the MDF validation rules, their respective shi
       <td>CountryOfOrigin</td>
     </tr>
 
-    <Banner isInline={true} color="#ffb600" />
+    
   </table>
 </Accordion>
 
@@ -342,7 +338,7 @@ The following sections summarises the MDF validation rules, their respective shi
       <td>CountryCode</td>
     </tr>
 
-    <Banner isInline={true} color="#ffb600" />
+    
 
     <tr>
       <td rowspan="6"><strong>Destination > Address</strong></td>
@@ -369,7 +365,7 @@ The following sections summarises the MDF validation rules, their respective shi
       <td>ContactPhone</td>
     </tr>
 
-    <Banner isInline={true} color="#ffb600" />
+  
 
     <tr>
       <td rowspan="6"><strong>Items</strong></td>
@@ -396,14 +392,14 @@ The following sections summarises the MDF validation rules, their respective shi
       <td>CountryOfOrigin</td>
     </tr>
 
-    <Banner isInline={true} color="#ffb600" />
+    
 
     <tr>
       <td rowspan="1"><strong>Customs</strong></td>
       <td>QuotedLandedCost</td>
     </tr>
 
-    <Banner isInline={true} color="#ffb600" />
+    
   </table>
 </Accordion>
 
@@ -437,14 +433,14 @@ The following sections summarises the MDF validation rules, their respective shi
       <td>CountryCode</td>
     </tr>
 
-    <Banner isInline={true} color="#ffb600" />
+    
 
     <tr>
       <td><strong>Shipper</strong></td>
       <td>EoriNumber</td>
     </tr>
 
-    <Banner isInline={true} color="#ffb600" />
+    
 
     <tr>
       <td rowspan="6"><strong>Destination > Address</strong></td>
@@ -471,7 +467,7 @@ The following sections summarises the MDF validation rules, their respective shi
       <td>ContactPhone</td>
     </tr>
 
-    <Banner isInline={true} color="#ffb600" />
+    
 
     <tr>
       <td rowspan="6"><strong>Items</strong></td>
@@ -498,14 +494,14 @@ The following sections summarises the MDF validation rules, their respective shi
       <td>CountryOfOrigin</td>
     </tr>
 
-    <Banner isInline={true} color="#ffb600" />
+    
 
     <tr>
       <td><strong>Customs</strong></td>
       <td>QuotedLandedCost</td>
     </tr>
 
-    <Banner isInline={true} color="#ffb600" />
+    
   </table>
 </Accordion>
 
@@ -539,7 +535,7 @@ The following sections summarises the MDF validation rules, their respective shi
       <td>CountryCode</td>
     </tr>
 
-    <Banner isInline={true} color="#ffb600" />
+    
 
     <tr>
       <td rowspan="6"><strong>Destination > Address</strong></td>
@@ -566,7 +562,7 @@ The following sections summarises the MDF validation rules, their respective shi
       <td>ContactPhone</td>
     </tr>
 
-    <Banner isInline={true} color="#ffb600" />
+    
 
     <tr>
       <td rowspan="6"><strong>Items</strong></td>
@@ -593,7 +589,7 @@ The following sections summarises the MDF validation rules, their respective shi
       <td>CountryOfOrigin</td>
     </tr>
 
-    <Banner isInline={true} color="#ffb600" />
+    
 
     <tr>
       <td rowspan="2"><strong>Customs</strong></td>
@@ -604,7 +600,7 @@ The following sections summarises the MDF validation rules, their respective shi
       <td>PreRegistrationType defined as IOSS</td>
     </tr>
 
-    <Banner isInline={true} color="#ffb600" />
+    
   </table>
 </Accordion>
 
@@ -638,7 +634,7 @@ The following sections summarises the MDF validation rules, their respective shi
       <td>CountryCode</td>
     </tr>
 
-    <Banner isInline={true} color="#ffb600" />
+    
 
     <tr>
       <td rowspan="6"><strong>Destination > Address</strong></td>
@@ -665,7 +661,7 @@ The following sections summarises the MDF validation rules, their respective shi
       <td>ContactPhone</td>
     </tr>
 
-    <Banner isInline={true} color="#ffb600" />
+    
 
     <tr>
       <td rowspan="6"><strong>Items</strong></td>
@@ -692,7 +688,7 @@ The following sections summarises the MDF validation rules, their respective shi
       <td>CountryOfOrigin</td>
     </tr>
 
-    <Banner isInline={true} color="#ffb600" />
+    
 
     <tr>
       <td rowspan="2"><strong>Customs</strong></td>
@@ -703,7 +699,7 @@ The following sections summarises the MDF validation rules, their respective shi
       <td>PreRegistrationType</td>
     </tr>
 
-    <Banner isInline={true} color="#ffb600" />
+    
   </table>
 </Accordion>
 
@@ -737,7 +733,7 @@ The following sections summarises the MDF validation rules, their respective shi
       <td>CountryCode</td>
     </tr>
 
-    <Banner isInline={true} color="#ffb600" />
+    
 
     <tr>
       <td rowspan="3"><strong>Destination</strong></td>
@@ -752,7 +748,7 @@ The following sections summarises the MDF validation rules, their respective shi
       <td>Town</td>
     </tr>
 
-    <Banner isInline={true} color="#ffb600" />
+    
 
     <tr>
       <td rowspan="6"><strong>Items</strong></td>
@@ -779,7 +775,7 @@ The following sections summarises the MDF validation rules, their respective shi
       <td>CountryOfOrigin</td>
     </tr>
 
-    <Banner isInline={true} color="#ffb600" />
+    
   </table>
 </Accordion>
 
@@ -813,14 +809,14 @@ The following sections summarises the MDF validation rules, their respective shi
       <td>CountryCode</td>
     </tr>
 
-    <Banner isInline={true} color="#ffb600" />
+    
 
     <tr>
       <td><strong>Shipper</strong></td>
       <td>EoriNumber</td>
     </tr>
 
-    <Banner isInline={true} color="#ffb600" />
+    
 
     <tr>
       <td rowspan="5"><strong>Destination > Address</strong></td>
@@ -843,14 +839,14 @@ The following sections summarises the MDF validation rules, their respective shi
       <td>ContactPhone</td>
     </tr>
 
-    <Banner isInline={true} color="#ffb600" />
+    
 
     <tr>
       <td><strong>Destination</strong></td>
       <td>EoriNumber</td>
     </tr>
 
-    <Banner isInline={true} color="#ffb600" />
+    
 
     <tr>
       <td rowspan="6"><strong>Items</strong></td>
@@ -877,14 +873,14 @@ The following sections summarises the MDF validation rules, their respective shi
       <td>CountryOfOrigin</td>
     </tr>
 
-    <Banner isInline={true} color="#ffb600" />
+    
 
     <tr>
       <td><strong>Customs</strong></td>
       <td>QuotedLandedCost</td>
     </tr>
 
-    <Banner isInline={true} color="#ffb600" />
+    
 
     <tr>
       <td rowspan="4"><strong>CarrierSpecifics > Importer > Address</strong></td>
@@ -903,10 +899,10 @@ The following sections summarises the MDF validation rules, their respective shi
       <td>CountryCode</td>
     </tr>
 
-    <Banner isInline={true} color="#ffb600" />
+    
   </table>
 </Accordion>
 
-<line isInline={true} color="#ffb600" />
+
 
 <br />
