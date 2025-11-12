@@ -186,10 +186,10 @@ The following table displays a comprehensive structure of the milestones, event 
 <HTMLBlock>{`
 <table>
   <tr>
-    <th style="background-color: lightgray;"> Milestone Name</th>
-    <th>Milestone Order</th>
-    <th>Tracking Event Code</th>
-    <th>Tracking Event Name</th>
+    <th style="background-color: lightgray;">Milestone Name</th>
+    <thstyle="background-color: lightgray;">Milestone Order</th>
+    <thstyle="background-color: lightgray;">Tracking Event Code</th>
+    <thstyle="background-color: lightgray;">Tracking Event Name</th>
   </tr>
   <tr>
     <td rowspan="4"><strong>It’s on its Way</strong></td>
