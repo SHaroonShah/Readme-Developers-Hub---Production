@@ -17,7 +17,7 @@ metadata:
 next:
   description: ''
 ---
-In SAPIENT, while [configuring the tracking webhook](https://docs.intersoftsapient.net/docs/create-tracking-webhook), You can choose to receive <Glossary>all tracking events</Glossary> or tracking <Glossary>milestones</Glossary> only.
+/cusIn SAPIENT, while [configuring the tracking webhook](https://docs.intersoftsapient.net/docs/create-tracking-webhook), You can choose to receive <Glossary>all tracking events</Glossary> or tracking <Glossary>milestones</Glossary> only.
 
 * If you select to receive milestones only, the system only pushes the tracking when a new milestone is triggered.
 * If you select to receive full tracking events, then the system pushes the tracking every time it receives a new tracking event from the carrier, regardless of whether the tracking event triggers a new milestone or not.
@@ -182,5 +182,218 @@ The following table displays a comprehensive structure of the milestones, event 
 > 📘 _Note_
 >
 > _The **ICLR**, **IARR**, and **IRCO** tracking events have not been allocated to any milestones._
+
+<HTMLBlock>{`
+<table>
+  <tr>
+    <th>Milestone Name</th>
+    <th>Milestone Order</th>
+    <th>Tracking Event Code</th>
+    <th>Tracking Event Name</th>
+  </tr>
+  <tr>
+    <td rowspan="5">It’s on its Way</td>
+    <td>1</td>
+    <td>PSRE</td>
+    <td>Shipment Received</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>PSAN</td>
+    <td>Shipment Announced</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>PSCO</td>
+    <td>Shipment Collected</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>PSDE</td>
+    <td>Shipment Despatched</td>
+  </tr>
+  <tr>
+    <td rowspan="5">In Transit</td>
+    <td>2</td>
+    <td>PINT</td>
+    <td>In Transit</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>PPID</td>
+    <td>Shipment Processed in Depot</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>PRID</td>
+    <td>Shipment Received in Depot</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>PSDD</td>
+    <td>Shipment Departed Depot</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>IOWS</td>
+    <td>Oversize/weight Shipment</td>
+  </tr>
+  <tr>
+    <td rowspan="3">In Customs</td>
+    <td>3</td>
+    <td>BCUI</td>
+    <td>Customs Inspection</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>BHBC</td>
+    <td>Held by Customs</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>BRBC</td>
+    <td>Released by Customs</td>
+  </tr>
+  <tr>
+    <td rowspan="6">Out for Delivery</td>
+    <td>4</td>
+    <td>POFD</td>
+    <td>Out for Delivery</td>
+  </tr>
+  <tr>
+    <td rowspan="6">Delivery Attempt Failed</td>
+    <td>5</td>
+    <td>FDAF</td>
+    <td>Delivery Attempt Failed</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>FNCO</td>
+    <td>Not Collected</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>FCAR</td>
+    <td>No Answer - Carded</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>FANK</td>
+    <td>Address not known</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>FRNK</td>
+    <td>Recipient not known</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>FRAA</td>
+    <td>Refused at Delivery Address</td>
+  </tr>
+  <tr>
+    <td rowspan="6">Part Delivered</td>
+    <td>6</td>
+    <td>DPAR</td>
+    <td>Partially delivered</td>
+  </tr>
+  <tr>
+    <td rowspan="6">Ready for Collection</td>
+    <td>7</td>
+    <td>DRFC</td>
+    <td>Ready for Collection</td>
+  </tr>
+  <tr>
+    <td rowspan="6">Delivered</td>
+    <td>8</td>
+    <td>DELV</td>
+    <td>Delivered</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>DTSP</td>
+    <td>Delivered to Safe Place</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>DPOB</td>
+    <td>Delivered to PO Box</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>DDMG</td>
+    <td>Delivered Damaged</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>DTNB</td>
+    <td>Delivered to Neighbour - No Signature</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>DTNS</td>
+    <td>Delivered to Neighbour with Signature</td>
+  </tr>
+  <tr>
+    <td rowspan="4">Collected</td>
+    <td>9</td>
+    <td>DRCO</td>
+    <td>Recipient Collected</td>
+  </tr>
+  <tr>
+    <td rowspan="3">Undeliverable</td>
+    <td>10</td>
+    <td>RTNS</td>
+    <td>Return to Sender</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>RUND</td>
+    <td>Undeliverable - Return to Sender</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>RNCO</td>
+    <td>Not Collected - Return to Sender</td>
+  </tr>
+  <tr>
+    <td rowspan="5">Transit Delay</td>
+    <td>Null</td>
+    <td>IDIP</td>
+    <td>Delay in Processing</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>IFME</td>
+    <td>Force Majure/ Exceptional Event</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>ISMI</td>
+    <td>Shipment Misrouted</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>PRET</td>
+    <td>Shipment Retention</td>
+  </tr>
+  <tr>
+    <td rowspan="3">N/A</td>
+    <td>Null</td>
+    <td>ICLR</td>
+    <td>Shipment Customs Cleared</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>IARR</td>
+    <td>Shipment Arrived at Facility</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>IRCO</td>
+    <td>Shipment Ready for Collection from the Facility</td>
+  </tr>
+</table>
+`}</HTMLBlock>
 
 <br />
