@@ -198,12 +198,10 @@ The following table displays a comprehensive structure of the milestones, event 
     <td>Shipment Received</td>
 </tr>
   <tr>
-    <td></td>
     <td>PSAN</td>
     <td>Shipment Announced</td>
   </tr>
   <tr>
-    <td></td>
     <td>PSCO</td>
     <td>Shipment Collected</td>
   </tr>
