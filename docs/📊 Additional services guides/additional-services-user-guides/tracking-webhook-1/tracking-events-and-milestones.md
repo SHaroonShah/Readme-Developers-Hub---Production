@@ -299,7 +299,7 @@ The following table displays a comprehensive structure of the milestones, event 
   </tr>
   <tr>
     <td rowspan="8">Delivered</td>
-    <td>8</td>
+    <td rowspan="8">8</td>
     <td>DELV</td>
     <td>Delivered</td>
   </tr>
