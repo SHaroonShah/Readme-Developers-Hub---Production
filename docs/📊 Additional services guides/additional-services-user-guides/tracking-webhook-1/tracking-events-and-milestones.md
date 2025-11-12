@@ -292,41 +292,44 @@ The following table displays a comprehensive structure of the milestones, event 
     <td>Partially delivered</td>
   </tr>
   <tr>
-    <td rowspan="6">Ready for Collection</td>
+    <td rowspan="1">Ready for Collection</td>
     <td>7</td>
     <td>DRFC</td>
     <td>Ready for Collection</td>
   </tr>
   <tr>
-    <td rowspan="6">Delivered</td>
+    <td rowspan="8">Delivered</td>
     <td>8</td>
     <td>DELV</td>
     <td>Delivered</td>
   </tr>
   <tr>
-    <td></td>
     <td>DTSP</td>
     <td>Delivered to Safe Place</td>
   </tr>
   <tr>
-    <td></td>
     <td>DPOB</td>
     <td>Delivered to PO Box</td>
   </tr>
   <tr>
-    <td></td>
     <td>DDMG</td>
     <td>Delivered Damaged</td>
   </tr>
   <tr>
-    <td></td>
     <td>DTNB</td>
     <td>Delivered to Neighbour - No Signature</td>
   </tr>
   <tr>
-    <td></td>
     <td>DTNS</td>
     <td>Delivered to Neighbour with Signature</td>
+  </tr>
+<tr>
+    <td>DNSV</td>
+    <td>Delivered to Neighbour with Signature - ID Verified</td>
+  </tr>
+<tr>
+    <td>DNSO</td>
+    <td>Delivered to Neighbour with Signature - Over 25</td>
   </tr>
   <tr>
     <td rowspan="4">Collected</td>
