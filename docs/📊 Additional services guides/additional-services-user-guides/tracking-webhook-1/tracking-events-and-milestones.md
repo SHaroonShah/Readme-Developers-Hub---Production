@@ -46,7 +46,7 @@ If you choose to receive tracking milestones, bear in mind that each milestone o
   <tbody>
     <tr>
       <td>
-        **IT'S ON IT'S WAY**
+        **IT'S ON ITS WAY**
       </td>
 
       <td>
