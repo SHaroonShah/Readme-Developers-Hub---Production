@@ -213,8 +213,8 @@ The following table displays a comprehensive structure of the milestones, event 
     <td>Shipment Despatched</td>
   </tr>
   <tr>
-    <td rowspan="5">In Transit</td>
-    <td rowspan="5">2</td>
+    <td rowspan="6">In Transit</td>
+    <td rowspan="6">2</td>
     <td>PINT</td>
     <td>In Transit</td>
   </tr>
