@@ -45,11 +45,13 @@ The FedEx integration provides the following additional features:
 
 * **Single package shipments**: Asendia only support single package shipments.
 * **Hazardous shipments**: Hazmat shipments are only supported with the e-PAQ Select and Elite DG services.
+* **Carrier specific fields**: The **CarrierSpecifics** object contains the following fields: 
+  * **Format**: To be populated as either **B** (Boxable) or **N** (Non-boxable).
 
 ## Carrier API services
 
 The following API services are provided by the Asendia integration:
 
-* **Authenticate**:
+* **Authenticate**: This API must be called first to exchange the API credentials for a token, which is used in the other API calls to Asendia.
 * **AddAndPrintShipment**: The integration for creating shipments to reflect FedEx as a primary carrier and allowing users to create shipments using the **Create Shipment** endpoint.
-* **Tracking**: The integration for cancelling shipments.
+* **Tracking**: Retrieves the tracking data by calling the Asendia's API. 
