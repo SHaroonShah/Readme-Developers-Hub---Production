@@ -17,7 +17,7 @@ Asendia is an API integration and in SAPIENT, it integrates with its newest AShi
 * **Incoterms**: <Glossary>DDU</Glossary>, <Glossary>DDP</Glossary>, and <Glossary>DAP</Glossary>.
 * **Label formats**: <Glossary>PDF</Glossary> and <Glossary>ZPL203DPI</Glossary>.
 
-## Carrier services
+## Carrier shipping services
 
 The following are the key services are provided by the Asendia integration:
 
