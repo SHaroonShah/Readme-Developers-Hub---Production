@@ -19,7 +19,7 @@ Asendia is an API integration and in SAPIENT, it integrates with its newest AShi
 
 ## Enhancements
 
-The following are the key services provided by the Asendia integration:
+The following are the key services are provided by the Asendia integration:
 
 * **e-PAQ Standard**: Untracked postal delivery, with low cost and high global reach. Last-mile delivery and customs clearance is handled by the country's postal service. This service includes the following: 
   * e-PAQ Standard Priority
@@ -46,7 +46,7 @@ The FedEx integration provides the following additional features:
 * **Single package shipments**: Asendia only support single package shipments.
 * **Hazardous shipments**: Hazmat shipments are only supported with the e-PAQ Select and Elite DG services.
 * **Carrier specific fields**: The **CarrierSpecifics** object contains the following fields: 
-  * **Format**: To be populated as either **B** (Boxable) or **N** (Non-boxable).
+  * **Format**: To specify whether the shipment to EU is either **B** (Boxable) or **N** (Non-boxable) on e-PAQ Standard and e-PAQ Plus services.
 
 ## Carrier API services
 
