@@ -53,5 +53,5 @@ The FedEx integration provides the following additional features:
 The following API services are provided by the Asendia integration:
 
 * **Authenticate**: This API must be called first to exchange the API credentials for a token, which is used in the other API calls to Asendia.
-* **AddAndPrintShipment**: The integration for creating shipments to reflect FedEx as a primary carrier and allowing users to create shipments using the **Create Shipment** endpoint.
+* **AddAndPrintShipment**: The integration for creating shipments to reflect Asendia as a primary carrier and allowing users to create shipments using the **Create Shipment** endpoint.
 * **Tracking**: Retrieves the tracking data by calling the Asendia's API. 
