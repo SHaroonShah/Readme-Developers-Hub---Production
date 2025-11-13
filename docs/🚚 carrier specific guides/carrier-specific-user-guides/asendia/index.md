@@ -45,7 +45,7 @@ The FedEx integration provides the following additional features:
 
 * **Single package shipments**: Asendia only support single package shipments.
 * **Hazardous shipments**: Hazmat shipments are only supported with the e-PAQ Select and Elite DG services.
-* **Carrier specific fields**: The **CarrierSpecifics** object contains the following fields:
+* **Carrier specific fields**: The **CarrierSpecifics** object contains the following field:
   * **Format**: To specify whether the shipment to EU is either **B** (Boxable) or **N** (Non-boxable) on e-PAQ Standard and e-PAQ Plus services.
 
 ## Carrier API services
