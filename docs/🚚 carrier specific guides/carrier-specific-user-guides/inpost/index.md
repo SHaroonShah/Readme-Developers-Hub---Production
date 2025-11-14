@@ -10,7 +10,7 @@ hidden: false
 metadata:
   robots: index
 ---
-<Image align="center" width="100px" src="https://files.readme.io/c9a342d05f1245bceed832bf7bb489e46969f9bddf8cb6b92007139484f4cf6b-InPost_logo.png" />
+<Image align="center" border={false} width="100px" src="https://files.readme.io/c9a342d05f1245bceed832bf7bb489e46969f9bddf8cb6b92007139484f4cf6b-InPost_logo.png" />
 
 ***
 
@@ -21,9 +21,16 @@ InPost is launching an innovative and affordable parcel locker service in the UK
 * **Ship from destinations**: The integration supports shipping from locations in Great Britain (GB) mainland only (England, Wales, and Scotland).
 * **Ship to Destinations**: Users can send <Glossary>shipments</Glossary> to the Great Britain (GB) mainland only.
 * **Service Type**: The integration is focused on outbound and return shipping.
-* **InPost shipping services**: These services include the following:
-  * **Labelled B2C**: to generate and return a <Glossary>label</Glossary> to be attached to the parcel for a B2C <Glossary>business transaction type</Glossary> deliveries.
-  * **Labelless returns using QR codes**: to generate a QR code for a return shipment which eliminates the need for printing shipping labels. This feature enhances the return process and makes it more environmentally friendly.
+
+## Carrier shipping services
+
+ These services include the following:
+
+* **Labelled B2C**: to generate and return a <Glossary>label</Glossary> to be attached to the parcel for a B2C <Glossary>business transaction type</Glossary> deliveries.
+* **Labelless returns using QR codes**: to generate a QR code for a return shipment which eliminates the need for printing shipping labels. This feature enhances the return process and makes it more environmentally friendly.
+
+## Carrier API services
+
 * **API endpoints for shipment creation and QR code retrieval**: The integration includes specific API endpoints that developers can use to create shipments, get PUDO locations, and retrieve labels or QR codes. This enables seamless interaction between the InPost service and SAPIENT system, ensuring efficient data flow and functionality.
   * Create Parcel endpoint for B2C service
   * Create Parcel endpoint for returns service
