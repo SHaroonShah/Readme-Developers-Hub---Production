@@ -71,4 +71,4 @@ In this section, learn how to:
 
 > 📘 _Note_
 >
-> _For more information on how to activate the EVRi integration, refer to the[Activate integration](https://docs.intersoftsapient.net/docs/integration-activation#/) section._
+> _For more information on how to activate the EVRi integration, refer to the<Anchor label="Activate integration" target="_blank" href="https://docs.intersoftsapient.net/docs/integration-activation#/">Activate integration</Anchor> section._
