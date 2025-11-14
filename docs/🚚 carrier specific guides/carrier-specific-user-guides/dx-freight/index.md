@@ -79,4 +79,6 @@ In this section, learn how to:
 * [Add a DX Freight shipping account](https://docs.intersoftsapient.net/docs/add-dx-freight-shipping-account)
 * [Add a DX Freight tracking account](https://docs.intersoftsapient.net/docs/add-dx-freight-tracking-account#/)
 
-<br />
+> 📘 _Note_
+>
+> _For more information on how to activate the DX Freight integration, refer to the [Activate integration](https://docs.intersoftsapient.net/docs/integration-activation#/) section._
