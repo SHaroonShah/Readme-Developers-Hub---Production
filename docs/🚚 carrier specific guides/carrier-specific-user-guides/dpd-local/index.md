@@ -64,6 +64,10 @@ The following API services are provided by the DPD Local integration:
 * **Manifest integration (via SFTP)**: Generates an electronic manifest data file in the SAPIENT's default <Glossary>PDF</Glossary> format and send it to DPD LOCAL via SFTP.
 * **Tracking integration (via SFTP)**: Enables data files to be sent via SFTP.
 
+***
+
+<br />
+
 > 📘 _Note_
 >
 > _For more information on how to activate the DPD Local integration, refer to the [Activate integration](https://docs.intersoftsapient.net/docs/integration-activation#/) section._
