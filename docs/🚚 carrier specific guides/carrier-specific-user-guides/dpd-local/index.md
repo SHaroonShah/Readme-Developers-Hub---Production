@@ -52,7 +52,7 @@ The following API services are provided by the DPD Local integration:
 >
 > _Please bear in mind that DPD Local have separate specifications for domestic and international shipping along with some other specification for certain types of shipments, such as shipments to Northern Ireland (NI)._
 
-* **Label**: 
-* **Routing data import (via SFTP)**: 
-* **Manifest (via SFTP)**: 
-* **Tracking (via SFTP)**: 
+* **Label integration**:
+* **Routing data import integration (via SFTP)**:
+* **Manifest integration (via SFTP)**:
+* **Tracking integration (via SFTP)**:
