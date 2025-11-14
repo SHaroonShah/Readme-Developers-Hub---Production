@@ -12,7 +12,7 @@ metadata:
 next:
   description: ''
 ---
-The Delivery Group handover to other carries for final mile delivery of their shipments. Therefore, the services for this integration include services for carriers such as Evri and Yodel. We just create the shipment with The Delivery Group using the requested service, and The Delivery Group manage sending the data and transferring the shipment to the final mile carrier.
+The Delivery Group (TD handover to other carries for final mile delivery of their shipments. Therefore, the services for this integration include services for carriers such as Evri and Yodel. We just create the shipment with The Delivery Group using the requested service, and The Delivery Group manage sending the data and transferring the shipment to the final mile carrier.
 
 ***
 
@@ -38,6 +38,8 @@ The Delivery Group integration provides the following key features:
 * **Delivery instructions**: To provide special instructions related to the delivery of the shipment. This may involve guidance on how the package should be handled or specific requests regarding the delivery location (for example, leave at the back door or deliver to a neighbour to sign).
 
 ## Additional features
+
+The TDG integration provides the following additional features:
 
 <br />
 
