@@ -93,3 +93,7 @@ In this section, learn how to:
 * [Use collection service](https://docs.intersoftsapient.net/docs/royal-mail-parcel-collect)
 * [Use PUDO service](https://docs.intersoftsapient.net/docs/use-local-collect-shipment-service#/)
 * [Set up international arrival containers](https://docs.intersoftsapient.net/docs/add-barcode-range-for-international-arrival-containers)
+
+> 📘 _Note_
+>
+> _For more information on how to activate the Royal Mail integration, refer to the [Activate integration](https://docs.intersoftsapient.net/docs/integration-activation#/) section._
