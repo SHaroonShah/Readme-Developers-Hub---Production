@@ -64,4 +64,6 @@ In this section, learn now to:
 * [Handle DX rate limiting](https://docs.intersoftsapient.net/docs/dx-rate-limit)
 * [Set up DX API credentials](https://docs.intersoftsapient.net/docs/setting-up-dx-api-credentials)
 
-<br />
+> 📘 _Note_
+>
+> _For more information on how to activate the DX Express integration, refer to the [Activate integration](https://docs.intersoftsapient.net/docs/integration-activation#/) section._
