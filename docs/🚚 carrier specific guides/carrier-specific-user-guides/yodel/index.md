@@ -19,21 +19,24 @@ next:
       slug: shipping-account-setup-1
       title: Yodel shipping account setup
 ---
-<Image align="center" width="120px" src="https://files.readme.io/6bb2b97788b8ae71adbb45e1d2c1d8095e6ea532a364aafbf784365c823c24ba-image.png" />
+<Image align="center" border={false} width="120px" src="https://files.readme.io/6bb2b97788b8ae71adbb45e1d2c1d8095e6ea532a364aafbf784365c823c24ba-image.png" />
 
 ***
 
 YODEL, is fully integrated into the Intersoft SAPIENT platform. This integration allows businesses to seamlessly access YODEL’s delivery network through SAPIENT’s unified API, enabling the following key features:
 
+## Key features
+
 * **Ship from destinations**: The integration supports shipping from locations in Great Britain (GB) only.
 * **Ship To Destinations**: Users can send <Glossary>shipments</Glossary> to Great Britain (GB), Europe, and the <Glossary>ROW</Glossary> (Rest of the World).
+* **Label formats**: <Glossary>PDF</Glossary> and <Glossary>PNG</Glossary>.
+* **Incoterms**: The integration supports <Glossary>DDU</Glossary> (Delivered Duty Unpaid) incoterm only.
 
 > 📘 _**Note**_
 >
 > _Shipments to Northern Ireland (NI) and Channel Islands are treated as international._
 
 * **Service Type**: The integration is focused on outbound shipping.
-* **Label formats**: <Glossary>PDF</Glossary> and <Glossary>PNG</Glossary>.
 
 ## Additional features
 
@@ -44,8 +47,6 @@ The YODEL integration provides the following additional features:
 > 📘 _Note_
 >
 > _Multi-package requests are not supported for single-package services._
-
-* **Incoterms**: The integration supports <Glossary>DDU</Glossary> (Delivered Duty Unpaid) incoterm only.
 
 ## Integration types
 
