@@ -72,6 +72,8 @@ The following integration types are available for this integration:
 
 In SAPIENT, you can integrate with various available DX Freight services and features to streamline your shipping process.
 
+***
+
 In this section, learn how to:
 
 * [Add a DX Freight shipping account](https://docs.intersoftsapient.net/docs/add-dx-freight-shipping-account)
