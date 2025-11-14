@@ -68,3 +68,7 @@ In this section, learn how to:
 * [Add an EVRi shipping account](https://docs.intersoftsapient.net/docs/shipping-account-setup-3)
 * [Add an EVRi tracking account](https://docs.intersoftsapient.net/docs/tracking-account-setup)
 * [Add a child client department to parent shipping account](https://docs.intersoftsapient.net/docs/client-id-and-child-clinet-id-management-1#/)
+
+> 📘 _Note_
+>
+> _For more information on how to activate the EVRi integration, refer to the[Activate integration](https://docs.intersoftsapient.net/docs/integration-activation#/) section._
