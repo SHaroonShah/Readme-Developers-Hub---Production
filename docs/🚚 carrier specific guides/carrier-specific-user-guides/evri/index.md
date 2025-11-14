@@ -47,7 +47,9 @@ The following are the key enhancements provided by the EVRi integration:
   * **Signed**: Requires a signature upon delivery.
   * **SMS**: Requires a contact number to receive delivery updates via SMS.
 
-## Additional fetaures
+## Additional features
+
+The EVRi integration provides the following additional features:
 
 * **Single package**: All services in this integration support only single-package services. Which means, only one package can be sent per request.
 
