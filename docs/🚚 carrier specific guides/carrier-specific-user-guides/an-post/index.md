@@ -18,6 +18,8 @@ metadata:
 
 The integration of An Post, Ireland's national postal service, into the SAPIENT platform is a significant step in enhancing shipping capabilities. This section discusses the in-scope features of this integration and the services this carrier offers.
 
+## Key Features
+
 This integration provides the following key features:
 
 * **Ship from destinations**: The integration supports shipping from locations in Ireland (IE) and Great Britain (GB).
@@ -35,6 +37,9 @@ This integration provides the following key features:
 
 * **Supported incoterms**: <Glossary>DDU</Glossary>
 * **Label image formats**: <Glossary>PDF</Glossary> and <Glossary>PNG</Glossary>
+
+## Integration types
+
 * **Integrations in scope**: The following integrations are added to the scope:
   * **Label integration**: This integration feature simplifies the process of generating and managing shipping labels in the standard 6x4 size, PDF format, which is essential for efficient logistics. Based on the destination country, customers must be aware of the following:
     * For delivery to addresses in Northern Ireland (IE), only the shipping <Glossary>label</Glossary> is required.
