@@ -11,51 +11,36 @@ hidden: true
 metadata:
   robots: index
 ---
-DPD Local offers a range of specialist solutions and services. With over 6,000 drop-off locations throughout the UK, DPD Local gives customers the flexibility to arrange their deliveries around their needs. DPD Local also offers a range of collection services as well as free DPD Local tracking on every booking, whilst international shipping is available to send to one of over 200 countries worldwide at a low cost.
-
-This in an in-house integration, which means that the <Glossary>label</Glossary> will be generated in the SAPIENT system. Additionally, an electronic <Glossary>manifest</Glossary> data file is sent to DPD LOCAL via SFTP when the shipments are manifested. 
-
 > 🚧 _Important_
 >
 > _This integration is currently under development. The contents are to be updated as soon as possible._
 
-<br />
+DPD Local offers a range of specialist solutions and services. With over 6,000 drop-off locations throughout the UK, DPD Local gives customers the flexibility to arrange their deliveries around their needs. DPD Local also offers a range of collection services as well as free DPD Local tracking on every booking, whilst international shipping is available to send to one of over 200 countries worldwide at a low cost.
 
-Asendia is an API integration and in SAPIENT, it integrates with its newest AShipping solution. This integration provides the following key features:
+This in an in-house integration, which means that the <Glossary>label</Glossary> will be generated in the SAPIENT system. Additionally, an electronic <Glossary>manifest</Glossary> data file is sent to DPD Local via SFTP when the shipments are manifested.
+
+This integration provides the following key features:
 
 * **Ship from destinations**: The integration supports shipping from locations in Great Britain (GB) only.
 * **Ship To Destinations**: Users can send <Glossary>shipments</Glossary> to Great Britain (GB), Europe, and the <Glossary>ROW</Glossary> (Rest of the World).
 * **Service Type**: The integration is focused on outbound shipping.
-* **Incoterms**: <Glossary>DDU</Glossary>, <Glossary>DDP</Glossary>, and <Glossary>DAP</Glossary>.
-* **Label formats**: <Glossary>PDF</Glossary> and <Glossary>ZPL203DPI</Glossary>.
+* **Incoterms**: <Glossary>DAP</Glossary> and <Glossary>DDP</Glossary>.
+* **Label formats**: <Glossary>PDF</Glossary>.
 
-## Carrier shipping services
+## Service enhancements
 
 The following are the key services are provided by the Asendia integration:
 
-* **e-PAQ Standard**: Untracked postal delivery, with low cost and high global reach. Last-mile delivery and customs clearance is handled by the country's postal service. This service includes the following:
-  * e-PAQ Standard Priority
-  * e-PAQ Standard Non-Priority
-* **e-PAQ Plus**: Tracked postal delivery, offering simplified customs processing. Last-mile delivery and customs clearance is handled by the country's postal service, utilising their tracked service. This service includes the following:
-  * e-PAQ Plus Mailbox
-  * e-PAQ Plus Personal
-* **e-PAQ Select**: Home delivery service. offering full feature, and adapted to every market you sell in. Last-mile delivery is handled by a best-in-class parcel delivery partner in each country. This service includes the following:
-  * e-PAQ Select DG (dangerous goods)
-* **e-PAQ Elite**: Precision delivery service for your most time-critical and valuable shipments. Last-mile delivery is handled by courier partners that specialise in express and heavier weight shipments. This includes the following:
-  * e-PAQ Elite – Economy <Glossary>DAP</Glossary>
-  * e_PAQ Elite – Economy with DAP incoterm
-  * e_PAQ Elite – Express with DAP incoterm
-  * e_PAQ Elite – Express with DDP incoterm
-  * e_PAQ Elite – express Domestic
-  * e_PAQ Elite – Express DAP DG
-  * e_PAQ Elite – Express DDP DG
-  * e_PAQ Elite – Express Domestic DG
+* **Proof of Identity**: Requires the receiver to present valid identification at the point of delivery.
+* **Proof of Age**: Ensures the recipient meets a minimum age requirement, like for age-restricted goods.
+* **Pin Required**: A secure PIN is sent to the receiver, which must be provided upon delivery.
+* **Pin Required & Proof of Age**: Requires PIN and age verification at the point of delivery for added security.
 
 ## Additional features
 
 The FedEx integration provides the following additional features:
 
-* **Single package shipments**: Asendia only support single package shipments.
+* **Consignment services**:  <Glossary>consignment</Glossary> services are supported, and DPD Local allows a maximum of 99 <Glossary>package</Glossary>s per consignment.
 * **Hazardous shipments**: Hazmat shipments are only supported with the e-PAQ Select and Elite DG services.
 * **Carrier specific fields**: The **CarrierSpecifics** object contains the following field:
   * **Format**: To specify whether the shipment to EU is either **B** (Boxable) or **N** (Non-boxable) on e-PAQ Standard and e-PAQ Plus services.
