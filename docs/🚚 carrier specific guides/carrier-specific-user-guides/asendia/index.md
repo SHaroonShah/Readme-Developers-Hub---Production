@@ -13,14 +13,14 @@ metadata:
 >
 > _This integration is currently under development. The contents are to be updated as soon as possible._
 
-Asendia is an API integration and in SAPIENT, it integrates with its newest AShipping solution. 
+Asendia is an API integration and in SAPIENT, it integrates with its newest AShipping solution.
 
 ## Key features
 
 This integration provides the following key features:
 
 * **Ship from destinations**: The integration supports shipping from locations in Great Britain (GB) only.
-* **Ship To Destinations**: Users can send <Glossary>shipments</Glossary> to Great Britain (GB), Europe, and the <Glossary>ROW</Glossary> (Rest of the World).
+* **Ship To Destinations**: Users can send <Glossary>shipments</Glossary> to Great Britain (GB), Europe (EU), and the <Glossary>ROW</Glossary> (Rest of the World).
 * **Service Type**: The integration is focused on outbound shipping.
 * **Incoterms**: <Glossary>DDU</Glossary>, <Glossary>DDP</Glossary>, and <Glossary>DAP</Glossary>.
 * **Label formats**: <Glossary>PDF</Glossary> and <Glossary>ZPL203DPI</Glossary>.
