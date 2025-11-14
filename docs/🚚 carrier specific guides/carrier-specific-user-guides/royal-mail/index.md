@@ -29,7 +29,7 @@ This integration provides the following key features:
 
 * **Ship from destinations**: The integration supports shipping from locations in Great Britain (GB) only.
 * **Ship To Destinations**: Users can send <Glossary>shipments</Glossary> to Europe and the <Glossary>ROW</Glossary> (Rest of the World).
-* **Service Type**: The integration is focused on inbound outbound shipping.
+* **Service Type**: The integration is focused on inbound and outbound shipping.
 * **Incoterms**: The integration supports <Glossary>DDU</Glossary>, <Glossary>DDP</Glossary>, <Glossary>DAP</Glossary>, and <Glossary>DAT</Glossary>.
 
 ## Service enhancements
