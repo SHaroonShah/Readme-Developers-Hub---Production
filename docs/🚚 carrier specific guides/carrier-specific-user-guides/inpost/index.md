@@ -16,7 +16,11 @@ metadata:
 
 InPost provides a convenient, eco-friendly parcel delivery service through a network of 24/7 automated lockers and partnered shops in the UK. You can drop off or pick up parcels at these locations anytime, offering flexibility and ease for both senders and recipients.
 
-InPost is launching an innovative and affordable parcel locker service in the UK, aimed at enhancing the shipping experience for both outbound and return deliveries. With its integration with SAPIENT, it offers several key features that streamline the shipping process. This article summarises the in-scope features of the integration and provides detailed explanations of the associated process flows.
+This integration offers several key features that streamline the shipping process. This article summarises the in-scope features of the integration and provides detailed explanations of the associated process flows.
+
+## Key features
+
+This integration provides the following key features:
 
 * **Ship from destinations**: The integration supports shipping from locations in Great Britain (GB) mainland only (England, Wales, and Scotland).
 * **Ship to Destinations**: Users can send <Glossary>shipments</Glossary> to the Great Britain (GB) mainland only.
@@ -24,7 +28,7 @@ InPost is launching an innovative and affordable parcel locker service in the UK
 
 ## Carrier shipping services
 
- These services include the following:
+These services include the following:
 
 * **Labelled B2C**: to generate and return a <Glossary>label</Glossary> to be attached to the parcel for a B2C <Glossary>business transaction type</Glossary> deliveries.
 * **Labelless returns using QR codes**: to generate a QR code for a return shipment which eliminates the need for printing shipping labels. This feature enhances the return process and makes it more environmentally friendly.
