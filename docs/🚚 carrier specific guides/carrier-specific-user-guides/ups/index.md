@@ -75,8 +75,8 @@ The following API services are provided by the UPS integration:
 
 The following integration types are available for this integration:
 
-* **Label**: This integration is In-house, which means that the label is generated within the SAPIENT system without calling the carrier API.
-* **Tracking**: Enables the tracking data to be sent via the Tracking API.
+* **Label integration**: This integration is In-house, which means that the label is generated within the SAPIENT system without calling the carrier API.
+* **Tracking integration**: Enables the tracking data to be sent via the Tracking API.
 
 In this section, learn how to:
 
