@@ -1,6 +1,11 @@
 ---
 title: DPD Local
-excerpt: Integration coming soon!
+excerpt: >-
+  DPD Local is part of DPD and Geopost, one of the world’s leading parcel
+  delivery networks operating in over 50 countries. DPD Local is a sister
+  company to DPD, and used to be called ‘Interlink Express’ until it was
+  re-branded to DPD Local in 2017. Like DPD, DPD Local is a major carrier in the
+  UK, offering both domestic and international shipping services.
 deprecated: false
 hidden: true
 metadata:
