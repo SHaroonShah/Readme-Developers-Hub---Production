@@ -44,10 +44,15 @@ The FedEx integration provides the following additional features:
 * **Carrier specific fields**: The **CarrierSpecifics** object contains the following field:
   * **DeliveryInstructions**: To provide any additional instructions to the <Glossary>carrier</Glossary> regarding the delivery of the shipment.
 
-## Carrier API services
+## Integration types
 
-The following API services are provided by the Asendia integration:
+The following API services are provided by the DPD Local integration:
 
-* **Authenticate**: This API must be called first to exchange the API credentials for a token, which is used in the other API calls to Asendia.
-* **AddAndPrintShipment**: The integration for creating shipments to reflect Asendia as a primary carrier and allowing users to create shipments using the **Create Shipment** that returns the <Glossary>label</Glossary> in base64 encoded format alongside a <Glossary>CN22</Glossary>. For postal services, a <Glossary>CN23</Glossary> is included with the label image for all dutiable shipments.
-* **Tracking**: Retrieves the tracking data by calling the Asendia's API.
+> 🚧 _Important_
+>
+> _Please bear in mind that DPD Local have separate specifications for domestic and international shipping along with some other specification for certain types of shipments, such as shipments to Northern Ireland (NI)._
+
+* **Label**: 
+* **Routing data import (via SFTP)**: 
+* **Manifest (via SFTP)**: 
+* **Tracking (via SFTP)**: 
