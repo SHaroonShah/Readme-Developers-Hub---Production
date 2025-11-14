@@ -31,6 +31,7 @@ This integration provides the following key features:
 >
 > _Shipments to Channel Islands are treated as domestic destination for freight shipments._
 
+* **Label formats**: <Glossary>PDF</Glossary>, <Glossary>ZPL203DPI</Glossary>, and <Glossary>ZPL300DPI</Glossary>.
 * **Service Type**: The integration is focused on outbound shipping.
 
 ## Carrier services
