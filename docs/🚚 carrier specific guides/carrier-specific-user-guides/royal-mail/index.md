@@ -32,7 +32,7 @@ This integration provides the following key features:
 * **Service Type**: The integration is focused on inbound outbound shipping.
 * **Incoterms**: The integration supports <Glossary>DDU</Glossary>, <Glossary>DDP</Glossary>, <Glossary>DAP</Glossary>, and <Glossary>DAT</Glossary>.
 
-## Enhancements
+## Service enhancements
 
 The following are the key enhancements provided by the Royal Mail integration:
 
@@ -55,7 +55,6 @@ The Royal Mail integration provides the following additional features:
 
 * **Multipiece shipments**: Support for multipiece shipments is included in the integration.
 * **Package Types**: Royal Mail offers its own distinct <Glossary>package type</Glossary>s, such as Letter, Large letter, Parcel, and Printed papers. You can look up for the packages types by calling the [Get Carrier Service Package Types](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services-servicecode-packagetypes#/) endpoint.
-* *
 
 ## Carrier API services
 
