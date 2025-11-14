@@ -69,4 +69,4 @@ In this section, learn how to:
 
 > 📘 _Note_
 >
-> _For more information on how to activate the FedEx integration, refer to the[Activate integration](https://docs.intersoftsapient.net/docs/integration-activation#/) section._
+> _For more information on how to activate the FedEx integration, refer to the [Activate integration](https://docs.intersoftsapient.net/docs/integration-activation#/) section._
