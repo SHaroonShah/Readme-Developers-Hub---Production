@@ -50,9 +50,11 @@ The YODEL integration provides the following additional features:
 
 ## Integration types
 
-**Label**: This integration is In-house, which means that the label is generated within the SAPIENT system without calling the carrier API.
+**Label integration**: This integration is In-house, which means that the label is generated within the SAPIENT system without calling the carrier API.
 
-**Tracking**: Enables data files to be sent via SFTP.
+**Tracking integration**: Enables data files to be sent via SFTP.
+
+***
 
 In this section, learn how to do the following:
 
