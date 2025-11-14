@@ -41,9 +41,8 @@ The following are the key services are provided by the Asendia integration:
 The FedEx integration provides the following additional features:
 
 * **Consignment services**:  <Glossary>consignment</Glossary> services are supported, and DPD Local allows a maximum of 99 <Glossary>package</Glossary>s per consignment.
-* **Hazardous shipments**: Hazmat shipments are only supported with the e-PAQ Select and Elite DG services.
 * **Carrier specific fields**: The **CarrierSpecifics** object contains the following field:
-  * **Format**: To specify whether the shipment to EU is either **B** (Boxable) or **N** (Non-boxable) on e-PAQ Standard and e-PAQ Plus services.
+  * **DeliveryInstructions**: To provide any additional instructions to the <Glossary>carrier</Glossary> regarding the delivery of the shipment.
 
 ## Carrier API services
 
