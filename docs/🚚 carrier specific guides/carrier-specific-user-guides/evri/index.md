@@ -61,8 +61,12 @@ This integrations supports the following integration types on SAPIENT:
 
 **Tracking**: Enables data files to be sent via SFTP.
 
+***
+
 In this section, learn how to:
 
-* [Add EVRi shipping account](https://docs.intersoftsapient.net/docs/shipping-account-setup-3)
-* [Add EVRi tracking account](https://docs.intersoftsapient.net/docs/tracking-account-setup)
-* [Add child client department to parent shipping account](https://docs.intersoftsapient.net/docs/client-id-and-child-clinet-id-management-1#/)
+* [Add an EVRi shipping account](https://docs.intersoftsapient.net/docs/shipping-account-setup-3)
+* [Add an EVRi tracking account](https://docs.intersoftsapient.net/docs/tracking-account-setup)
+* [Add a child client department to parent shipping account](https://docs.intersoftsapient.net/docs/client-id-and-child-clinet-id-management-1#/)
+
+<br />
