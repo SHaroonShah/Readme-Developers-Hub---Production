@@ -14,11 +14,13 @@ metadata:
 next:
   description: ''
 ---
-<Image align="center" width="130px" src="https://files.readme.io/9b5162bacf5f3ac36b0200401aa0441bd609545eaf01e789087d520c1455ca64-DX_freight_logo.png" />
+<Image align="center" border={false} width="130px" src="https://files.readme.io/9b5162bacf5f3ac36b0200401aa0441bd609545eaf01e789087d520c1455ca64-DX_freight_logo.png" />
 
 ***
 
 Freight is one of DX's core solutions, also referred to as _IDW_ (Irregular Dimensions and Weight), that provides delivery services to businesses and home addresses for multi-item <Glossary>consignment</Glossary>s, pallets up to 6 metres in length, and individual <Glossary>items</Glossary> in excess of 25 kg in weight.
+
+## Key features
 
 This integration provides the following key features:
 
@@ -64,8 +66,8 @@ The following API services are provided by the UPS integration:
 
 The following integration types are available for this integration:
 
-* **Label**: Enables retrieving the package label in the PDF or ZPL format.
-* **Tracking**: Enables data files to be sent via SFTP for both—1Man and 2Man services.
+* **Label integration**: Enables retrieving the package label in the PDF or ZPL format.
+* **Tracking integration**: Enables data files to be sent via SFTP for both—1Man and 2Man services.
 
 In SAPIENT, you can integrate with various available DX Freight services and features to streamline your shipping process.
 
