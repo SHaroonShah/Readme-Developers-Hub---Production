@@ -14,25 +14,27 @@ metadata:
 next:
   description: ''
 ---
-<Image align="center" width="130px" src="https://files.readme.io/160d38a06e94f72bb4eed1107cfb82c795f7bb915566bfa72eb3b8b3698bf38d-DX_express_logo.png" />
+<Image align="center" border={false} width="130px" src="https://files.readme.io/160d38a06e94f72bb4eed1107cfb82c795f7bb915566bfa72eb3b8b3698bf38d-DX_express_logo.png" />
 
 ***
 
 Express is one of DX's core solutions that provides a fast and secure next-day delivery service to businesses and home addresses for single and multiple items under 25 kg in weight and 2 metres in dimension.
+
+## Key features
 
 The DX Express integration into the SAPIENT system provides the following key features:
 
 * **Ship from destinations**: The integration supports shipping from locations in Great Britain (GB) only.
 * **Ship To Destinations**: Users can send <Glossary>shipments</Glossary> to Great Britain (GB) and Northern Ireland (NI). Shipments to GB country code with a postcode beginning with BT).
 * **Service Type**: The integration is focused on outbound shipping.
+* **Label formats**: <Glossary>PDF</Glossary>, <Glossary>ZPL203DPI</Glossary>, and <Glossary>ZPL300DPI</Glossary>.
+* **Incoterms**: The integration supports <Glossary>DAP</Glossary> and <Glossary>DDP</Glossary>.
 
 ## Additional features
 
 The DX Express integration provides the following additional features:
 
-* **Single-piece shipments**: Supports only single-piece shipment (not consignment or multipiece)
-* **Incoterms**: The integration supports <Glossary>DAP</Glossary> and <Glossary>DDP</Glossary>.
-* **Label formats**: <Glossary>PDF</Glossary>, <Glossary>ZPL203DPI</Glossary>, and <Glossary>ZPL300DPI</Glossary>
+* **Single-piece shipments**: Supports only single-piece shipment (not consignment or multipiece).
 * **Package types**: DX support <Glossary>package type</Glossary>s. You can look up for the packages types by calling the [Get Carrier Service Package Types](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services-servicecode-packagetypes#/) endpoint.
   ## Carrier API services
   The following API services are provided by the DX Express integration:
@@ -52,12 +54,14 @@ The following integration types are available for this integration:
 
 * **Label**: Enables retrieving the package label in the PDF or ZPL format.
 * **Tracking**: Enables the tracking data to be sent via the Tracking API.
-* [Add DX shipping account](https://docs.intersoftsapient.net/docs/shipping-accounts-5)
-* [Add DX tracking account](https://docs.intersoftsapient.net/docs/tracking-1)
+* <br />
+*
 
 ***
 
 ## See also
 
+* [Add DX shipping account](https://docs.intersoftsapient.net/docs/shipping-accounts-5)
+* [Add DX tracking account](https://docs.intersoftsapient.net/docs/tracking-1)
 * [DX rate limiting](https://docs.intersoftsapient.net/docs/dx-rate-limit)
 * [Set up DX API credentials](https://docs.intersoftsapient.net/docs/setting-up-dx-api-credentials)
