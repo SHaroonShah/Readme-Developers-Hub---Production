@@ -18,17 +18,21 @@ next:
       slug: shipping-account-setup-3
       title: Evri shipping account setup
 ---
-<Image align="center" width="140px" src="https://files.readme.io/49cf864b835a4e2de7c4ebfd3cea85e552a3a27790c9dd755e39162cdb71c63e-image.png" />
+<Image align="center" border={false} width="140px" src="https://files.readme.io/49cf864b835a4e2de7c4ebfd3cea85e552a3a27790c9dd755e39162cdb71c63e-image.png" />
 
 ***
 
 The EVRi integration into the SAPIENT platform enhances our shipping capabilities by enabling users to seamlessly manage their shipments through Evri's robust delivery network. Customers can now access Evri's comprehensive suite of services, including real-time tracking, flexible delivery options, and efficient returns management, all within the familiar SAPIENT interface. This enhancement aims to streamline the shipping process, improve operational efficiency, and provide a better overall experience for our users.
+
+## Key features
 
 This integration provides the following key features:
 
 **Ship from destinations**: The integration supports shipping from locations in Great Britain (GB) only.
 
 * **Ship To Destinations**: Users can send <Glossary>shipments</Glossary> to Great Britain (GB), Europe, and the <Glossary>ROW</Glossary> (Rest of the World).
+* **Label formats**: The EVRi's label integration support labels in the <Glossary>PDF</Glossary> and <Glossary>PNG</Glossary> formats.
+* **Incoterms**: This integration only supports <Glossary>DDU</Glossary>.
 * **Service Type**: The integration is focused on outbound and Returns shipping services.
 
 > 📘 _Note_
@@ -42,9 +46,10 @@ The following are the key enhancements provided by the EVRi integration:
 * Service enhancements: These services include the following:
   * **Signed**: Requires a signature upon delivery.
   * **SMS**: Requires a contact number to receive delivery updates via SMS.
+
+## Additional fetaures
+
 * **Single package**: All services in this integration support only single-package services. Which means, only one package can be sent per request.
-* **Label formats**: The EVRi's label integration support labels in the <Glossary>PDF</Glossary> and <Glossary>PNG</Glossary> formats.
-* **Incoterms**: This integration only supports <Glossary>DDU</Glossary>.
 
 ## Integration types
 
