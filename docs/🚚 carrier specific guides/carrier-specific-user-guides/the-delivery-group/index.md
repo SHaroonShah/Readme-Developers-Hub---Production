@@ -23,7 +23,7 @@ The Delivery Group (TD handover to other carries for final mile delivery of thei
 
 The Delivery Group integration provides the following key features:
 
-* **Ship from destinations**: GB.
+* **Ship from destinations**: The integration supports shipping from locations in Great Britain (GB) only.
 * **Ship to destinations**: GB, EU, ,<Glossary>ROW</Glossary>.
 * **Outbound/Returns services**: Outbound only.
 * **Incoterms**: <Glossary>DDU</Glossary> and <Glossary>DDP</Glossary>
