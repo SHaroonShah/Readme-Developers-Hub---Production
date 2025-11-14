@@ -55,11 +55,9 @@ The following API services are provided by the DPD Local integration:
 * **Label integration**: This in-house integration feature simplifies the process of generating and managing shipping labels in the PDF format by the SAPIENT system. DPD Local use routing data to determine if the destination post code and shipment data (such as weight and maximum number of packages) are valid for the service. If the data is valid, then the routing data is printed on the generated label.
 * **Routing data import integration (via SFTP)**: Imports the routing data from the DPD Local's SFTP location ans updates the routing data in the SAPIENT database. 
 
-> 🚧 _Important_
+> 📘 _Note_
 >
 > _The system only imports the data for services that are in scope and does not add any additional services into the integration. It only updates the routing data for the existing service codes._  
 
-<br />
-
-* **Manifest integration (via SFTP)**:
+* **Manifest integration (via SFTP)**: Generates an electronic manifest data file in the SAPIENT's default <Glossary>PDF</Glossary> format and send it to DPD LOCAL via SFTP. 
 * **Tracking integration (via SFTP)**:
