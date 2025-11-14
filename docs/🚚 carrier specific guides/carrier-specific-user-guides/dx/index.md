@@ -59,7 +59,9 @@ The following integration types are available for this integration:
 
 In this section, learn now to:
 
-* [Add DX shipping account](https://docs.intersoftsapient.net/docs/shipping-accounts-5)
-* [Add DX tracking account](https://docs.intersoftsapient.net/docs/tracking-1)
+* [Add a DX shipping account](https://docs.intersoftsapient.net/docs/shipping-accounts-5)
+* [Add a DX tracking account](https://docs.intersoftsapient.net/docs/tracking-1)
 * [Handle DX rate limiting](https://docs.intersoftsapient.net/docs/dx-rate-limit)
 * [Set up DX API credentials](https://docs.intersoftsapient.net/docs/setting-up-dx-api-credentials)
+
+<br />
