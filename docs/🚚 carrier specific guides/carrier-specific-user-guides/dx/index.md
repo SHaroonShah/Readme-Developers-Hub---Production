@@ -54,8 +54,6 @@ The following integration types are available for this integration:
 
 * **Label**: Enables retrieving the package label in the PDF or ZPL format.
 * **Tracking**: Enables the tracking data to be sent via the Tracking API.
-* <br />
-*
 
 ***
 
