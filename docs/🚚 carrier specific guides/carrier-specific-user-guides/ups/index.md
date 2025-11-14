@@ -78,6 +78,8 @@ The following integration types are available for this integration:
 * **Label integration**: This integration is In-house, which means that the label is generated within the SAPIENT system without calling the carrier API.
 * **Tracking integration**: Enables the tracking data to be sent via the Tracking API.
 
+***
+
 In this section, learn how to:
 
 * [Add UPS shipping account](https://docs.intersoftsapient.net/docs/shipping-account-setup)
