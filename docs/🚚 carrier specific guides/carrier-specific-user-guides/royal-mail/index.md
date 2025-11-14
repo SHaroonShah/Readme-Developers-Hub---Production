@@ -82,8 +82,6 @@ The following API services are provided by the Royal Mail integration:
 
 ***
 
-## See also
-
 In this section, learn how to:
 
 * [Set up Royal Mail Online Business Account (OBA)](https://docs.intersoftsapient.net/docs/oba-email-validation)
