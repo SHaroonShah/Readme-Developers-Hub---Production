@@ -20,6 +20,8 @@ The Delivery Group handover to other carries for final mile delivery of their sh
 
 ***
 
+## Key features
+
 The Delivery Group integration provides the following key features:
 
 * **Ship from destinations**: GB.
@@ -28,13 +30,16 @@ The Delivery Group integration provides the following key features:
 * **Package type**: Single-package shipments only. Consignment services are not supported.
 * **Incoterms**: <Glossary>DDU</Glossary> and <Glossary>DDP</Glossary>
 * **Label formats**: <Glossary>PDF</Glossary> and <Glossary>PNG</Glossary>.
-* **Carrier API services**: Tracking and SubmitItemAdvice
 * **Package dimensions**: Mandatory for TDG.
 
 ## Service enhancements
 
 * **Signed**: To require a signature is required upon delivery of the shipment.
 * **Delivery instructions**: To provide special instructions related to the delivery of the shipment. This may involve guidance on how the package should be handled or specific requests regarding the delivery location (for example, leave at the back door or deliver to a neighbour to sign).
+
+## Additional features
+
+<br />
 
 ## Carrier API services
 
