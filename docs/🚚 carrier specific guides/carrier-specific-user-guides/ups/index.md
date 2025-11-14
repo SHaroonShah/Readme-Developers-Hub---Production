@@ -19,16 +19,20 @@ next:
       slug: shipping-account-setup
       title: UPS shipping account setup
 ---
-<Image align="center" width="60px" src="https://files.readme.io/afec4e485f461b873476f04e7712572b474ba6552fdacea5d984530b5e16cd5b-image.png" />
+<Image align="center" border={false} width="60px" src="https://files.readme.io/afec4e485f461b873476f04e7712572b474ba6552fdacea5d984530b5e16cd5b-image.png" />
 
 ***
 
 The UPS carrier integration within the SAPIENT system enables seamless communication between SAPIENT and UPS’s shipping services. This integration allows customers to efficiently create shipments and track deliveries in real time, directly within the SAPIENT system.
 
+## Key features
+
 This integration provides the following key features:
 
 * **Ship from destinations**: The integration supports shipping from locations in Great Britain (GB) only.
 * **Ship To Destinations**: Users can send <Glossary>shipments</Glossary> to Great Britain (GB), Europe, and the <Glossary>ROW</Glossary> (Rest of the World). This may include a specific country list, if applicable.
+* **Incoterms**: The integration supports <Glossary>DDU</Glossary> and <Glossary>DDP</Glossary>.
+* **Label formats**: <Glossary>PDF</Glossary>, <Glossary>PNG</Glossary>, and <Glossary>ZPL203DPI</Glossary>.
 * **Service Type**: The integration is focused on outbound shipping.
 
 ## Carrier services
@@ -58,8 +62,6 @@ The following are the key enhancements provided by the UPS integration:
 The UPS integration provides the following additional features:
 
 * **Multi-piece shipments**: Supports a maximum of 99999 pieces per single shipment request.
-* **Incoterms**: The integration supports <Glossary>DDU</Glossary> and <Glossary>DDP</Glossary>.
-* **Label formats**: <Glossary>PDF</Glossary>, <Glossary>PNG</Glossary>, and <Glossary>ZPL203DPI</Glossary>.
 
 ## Carrier API services
 
