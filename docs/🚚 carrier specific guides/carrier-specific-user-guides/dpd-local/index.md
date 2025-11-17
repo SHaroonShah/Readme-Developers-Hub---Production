@@ -21,6 +21,28 @@ This in an in-house integration, which means that the <Glossary>label</Glossary>
 
 ## Key features
 
+<Tabs>
+  <Tab title="Ship From Destinations">
+    Welcome to the content that you can only see inside the first Tab.
+  </Tab>
+
+  <Tab title="Ship To Destinations">
+    Here's content that's only inside the second Tab.
+  </Tab>
+
+  <Tab title="Service Type">
+    Here's content that's only inside the third Tab.
+  </Tab>
+ <Tab title="Incoterms">
+    Here's content that's only inside the third Tab.
+  </Tab>
+ <Tab title="Label Formats">
+    Here's content that's only inside the third Tab.
+  </Tab>
+</Tabs>
+
+## Key features
+
 This integration provides the following key features:
 
 * **Ship from destinations**: The integration supports shipping from locations in Great Britain (GB) only.
