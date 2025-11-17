@@ -49,7 +49,7 @@ The following are the key services are provided by the Asendia integration:
 
 ## Additional features
 
-The FedEx integration provides the following additional features:
+The Asendia integration provides the following additional features:
 
 * **Single package shipments**: Asendia only support single package shipments.
 * **Hazardous shipments**: Hazmat shipments are only supported with the e-PAQ Select and Elite DG services.
