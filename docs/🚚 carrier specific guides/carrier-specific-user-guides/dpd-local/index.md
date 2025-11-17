@@ -42,7 +42,7 @@ This in an in-house integration, which means that the <Glossary>label</Glossary>
   </Tab>
 
   <Tab title="Label Formats">
-    The integration supports generating labels only in the <Glossary>PDF</Glossary> format.
+    The integration supports generating labels on in the <Glossary>PDF</Glossary> format.
   </Tab>
 </Tabs>
 
