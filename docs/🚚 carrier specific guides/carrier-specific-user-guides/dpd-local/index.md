@@ -23,21 +23,24 @@ This in an in-house integration, which means that the <Glossary>label</Glossary>
 
 <Tabs>
   <Tab title="Ship From Destinations">
-    Welcome to the content that you can only see inside the first Tab.
+    The integration supports shipping from locations in Great Britain (GB) only.
   </Tab>
 
   <Tab title="Ship To Destinations">
-    Here's content that's only inside the second Tab.
+    Users can send <Glossary>shipments</Glossary> to Great Britain (GB), Europe, and the <Glossary>ROW</Glossary> (Rest of the World).
   </Tab>
 
   <Tab title="Service Type">
-    Here's content that's only inside the third Tab.
+    The integration is focused on outbound shipping.
   </Tab>
- <Tab title="Incoterms">
-    Here's content that's only inside the third Tab.
+
+  <Tab title="Incoterms">
+    * <Glossary>DAP</Glossary>
+*<Glossary>DDP</Glossary>.
   </Tab>
- <Tab title="Label Formats">
-    Here's content that's only inside the third Tab.
+
+  <Tab title="Label Formats">
+    <Glossary>PDF</Glossary>.
   </Tab>
 </Tabs>
 
