@@ -36,7 +36,7 @@ This in an in-house integration, which means that the <Glossary>label</Glossary>
 
   <Tab title="Incoterms">
     * <Glossary>DAP</Glossary>
-*<Glossary>DDP</Glossary>.
+    *<Glossary>DDP</Glossary>.
   </Tab>
 
   <Tab title="Label Formats">
