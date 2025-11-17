@@ -35,12 +35,13 @@ This in an in-house integration, which means that the <Glossary>label</Glossary>
   </Tab>
 
   <Tab title="Incoterms">
+The intergration supports the following incoterms:
     * <Glossary>DAP</Glossary> <br />
     * <Glossary>DDP</Glossary>.
   </Tab>
 
   <Tab title="Label Formats">
-    <Glossary>PDF</Glossary>.
+    The integration supports generating label on in the <Glossary>PDF</Glossary> format.
   </Tab>
 </Tabs>
 
