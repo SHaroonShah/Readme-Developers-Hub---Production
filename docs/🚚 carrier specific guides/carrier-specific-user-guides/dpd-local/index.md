@@ -31,7 +31,7 @@ This integration provides the following key features:
 
 ## Service enhancements
 
-The following are the key services are provided by the Asendia integration:
+The following are the key services are provided by the DPD Local integration:
 
 * **Proof of Identity**: Requires the receiver to present valid identification at the point of delivery.
 * **Proof of Age**: Ensures the recipient meets a minimum age requirement, like for age-restricted goods.
@@ -66,8 +66,10 @@ The following API services are provided by the DPD Local integration:
 
 ***
 
-<br />
-
 > 📘 _Note_
 >
 > _For more information on how to activate the DPD Local integration, refer to the [Activate integration](https://docs.intersoftsapient.net/docs/integration-activation#/) section._
+
+<br />
+
+<br />
