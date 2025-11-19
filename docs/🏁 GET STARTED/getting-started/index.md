@@ -109,6 +109,31 @@ next:
   </Card>
 </Cards>
 
+<HTMLBlock>{`
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .container {
+            width: 300px;
+            height: 200px;
+            border: 2px solid #333;
+            padding: 20px;
+            margin: 20px auto;
+            background-color: #f9f9f9;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>This is a container box</h2>
+        <p>You can add text, images, or other elements inside.</p>
+    </div>
+</body>
+</html>
+`}</HTMLBlock>
+
 <br />
 
 <br />
