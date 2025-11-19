@@ -73,13 +73,12 @@ next:
   <Card title="" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/ups#/" Width="200">
     <Image align="center" src="https://files.readme.io/84a4a5263deb06eda05f635353182a78211838764f54b2dd5d50f170cd40cc57-UPS_logo_white.png" width="160px" alt="thumbnail" />
   </Card>
+<Banner isInline={true} message="" color="#ffb600" textColor="#ffffff" fontSize="14px" fontWeight="bold" width="120px" />
 
   <Card title="" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/yodel#/" Width="200">
     <Image align="center" src="https://files.readme.io/61c486262839c956e4cc9acbe36948996187ed1caf5a9e2298414d5efc63fd2b-Yodel_logo_white.png" alt="thumbnail" />
   </Card>
 </Cards>
-
-***
 
 
 <Cards columns="3">
