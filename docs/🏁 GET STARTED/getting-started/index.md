@@ -90,7 +90,7 @@ next:
     Contact our Support Team for assistance.
   </Card>
 
-  <Card title="Status" href="https://www.readmestatus.com" icon="clipboard-list">
+  <Card title="Status" href="https://www.readmestatus.com" icon="fa-solid fa-battery-bolt">
     See our 99.9% uptime API status
   </Card>
 </Cards>
