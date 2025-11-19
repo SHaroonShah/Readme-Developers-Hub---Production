@@ -109,6 +109,6 @@ next:
   </Card>
 </Cards>
 
-<br />
+<StatusPage title="ReadMe Status" url="https://www.readmestatus.com" />
 
 <br />
