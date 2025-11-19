@@ -84,13 +84,12 @@ next:
 <Banner isInline={true} message="" color="#ffb600" textColor="#ffffff" fontSize="14px" fontWeight="bold" />
 
 <Cards columns="3">
-
-  <Card title="Carrier Guides" href="https://docs.intersoftsapient.net/docs/carrier-specific-user-guides" icon="truck">
+  <Card title="Support" href="https://docs.intersoftsapient.net/docs/carrier-specific-user-guides" icon="truck">
     Carrier-specific implementation guides
   </Card>
 
   <Card title="Glossary" href="https://docs.intersoftsapient.net/docs/glossary-1" icon="list">
-    Terms and definitions used in SAPIENT
+    Explore industry-wide terms and definitions used in SAPIENT
   </Card>
 
   <Card title="Status" href="https://www.readmestatus.com" icon="clipboard-list">
