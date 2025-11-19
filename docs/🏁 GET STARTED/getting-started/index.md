@@ -25,7 +25,7 @@ next:
   </Card>
 
   <Card title="System User Guides" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/system-user-guides#/" icon="fa-book-open">
-    Learn how to interact with SAPIENT in the most efficient way.
+    Learn how to interact with the SAPIENT UI in the most efficient way.
   </Card>
 
   <Card title="Shipment and Manifesting Workflows" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/shipment-creation-and-manifesting#/" icon="fa-solid fa-arrow-progress">
