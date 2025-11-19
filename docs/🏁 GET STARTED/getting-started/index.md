@@ -18,19 +18,19 @@ next:
 ## Resources
 
 <Cards columns={4}>
-  <Card title="Getting Started" href="https://readme.com" icon="fa-solid fa-plug" target="_blank">
+  <Card title="Getting Started" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/getting-started-1#/" icon="fa-solid fa-plug" target="_blank">
     Neque porro quisquam est qui dolorem ipsum quia
   </Card>
 
-  <Card title="System User Guides" href="https://readme.com" icon="fa-book-open">
+  <Card title="System User Guides" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/system-user-guides#/" icon="fa-book-open">
     > Lorem ipsum dolor sit amet, consectetur adipiscing elit
   </Card>
 
-  <Card title="Shipment Creation and Manifesting Workflows" href="https://readme.com" icon="fa-solid fa-arrow-progress">
+  <Card title="Shipment Creation and Manifesting Workflows" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/shipment-creation-and-manifesting#/" icon="fa-solid fa-arrow-progress">
     > Ut enim ad minim veniam, quis nostrud ullamco
   </Card>
 
-  <Card title="Additional Services" href="https://readme.com" icon="fa-solid fa-layer-plus">
+  <Card title="Additional Services" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/additional-services-user-guides#/" icon="fa-solid fa-layer-plus">
     **Excepteur sint occaecat cupidatat non proident**
   </Card>
 </Cards>
