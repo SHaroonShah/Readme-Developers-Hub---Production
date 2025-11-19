@@ -47,7 +47,7 @@ next:
   </Card>
 
   <Card title="" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/an-post#/" Width="200">
-    <Image align="center" src="https://files.readme.io/2f3ae891dd17c3da760fcca644ee8a66a0a84b1b8c6837c7ce9fa088150817e2-An_post_logo_white.png" width="120px" alt="thumbnail" />
+    <Image align="center" src="https://files.readme.io/2f3ae891dd17c3da760fcca644ee8a66a0a84b1b8c6837c7ce9fa088150817e2-An_post_logo_white.png" width="160px" alt="thumbnail" />
   </Card>
 
   <Card title="" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/dx#/" Width="200">
