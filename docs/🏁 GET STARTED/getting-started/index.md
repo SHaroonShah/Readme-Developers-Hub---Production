@@ -84,7 +84,7 @@ next:
 <Banner isInline={true} message="" color="#ffb600" textColor="#ffffff" fontSize="14px" fontWeight="bold" />
 
 <Cards columns="3">
-  <Card title="Support" href="https://docs.intersoftsapient.net/docs/carrier-specific-user-guides" icon="truck">
+  <Card title="Support" href="https://intersoftuk-servicedesk.atlassian.net/servicedesk/customer/portal/1" icon="truck">
     Carrier-specific implementation guides
   </Card>
 
