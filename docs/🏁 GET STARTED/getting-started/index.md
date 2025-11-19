@@ -19,7 +19,7 @@ next:
 
 <Cards columns={4}>
   <Card title="Getting Started" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/getting-started-1#/" icon="fa-solid fa-plug" target="_blank">
-    build your integration with our API solution with minimal effort.
+    Build your integration with our API solution with minimal effort.
   </Card>
 
   <Card title="System User Guides" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/system-user-guides#/" icon="fa-book-open">
