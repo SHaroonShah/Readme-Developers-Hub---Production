@@ -88,7 +88,7 @@ next:
     Carrier-specific implementation guides
   </Card>
 
-  <Card title="Glossary" href="https://docs.intersoftsapient.net/docs/glossary-1" icon="list">
+  <Card title="Glossary" href="https://docs.intersoftsapient.net/docs/glossary-1" icon="fa-solid fa-arrow-down-a-z">
     Explore industry-wide terms and definitions used in SAPIENT
   </Card>
 
