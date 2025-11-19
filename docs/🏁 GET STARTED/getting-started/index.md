@@ -84,12 +84,11 @@ next:
 <Banner isInline={true} message="" color="#ffb600" textColor="#ffffff" fontSize="14px" fontWeight="bold" />
 
 <Cards columns="3">
-  <Card title="Support" href="https://intersoftuk-servicedesk.atlassian.net/servicedesk/customer/portal/1" icon="truck">
-    Carrier-specific implementation guides
-  </Card>
-
-  <Card title="Glossary" href="https://docs.intersoftsapient.net/docs/glossary-1" icon="fa-solid fa-arrow-down-a-z">
+ <Card title="Glossary" href="https://docs.intersoftsapient.net/docs/glossary-1" icon="fa-solid fa-arrow-down-a-z">
     Explore industry-wide terms and definitions used in SAPIENT
+  </Card>
+  <Card title="Support" href="https://intersoftuk-servicedesk.atlassian.net/servicedesk/customer/portal/1" icon="truck">
+    Contact our Support Team for assistance.
   </Card>
 
   <Card title="Status" href="https://www.readmestatus.com" icon="clipboard-list">
