@@ -87,15 +87,15 @@ next:
 
 <Cards columns="3">
   <Card title="Glossary" href="https://docs.intersoftsapient.net/docs/glossary-1" icon="fa-solid fa-arrow-down-a-z">
-    Explore industry-wide terms and definitions used in SAPIENT
+    > Explore industry-wide terms and definitions used in SAPIENT
   </Card>
 
   <Card title="Support" href="https://intersoftuk-servicedesk.atlassian.net/servicedesk/customer/portal/1" icon="fa-solid fa-comments-question-check">
-    Contact our Support Team for assistance.
+    > Contact our Support Team for assistance.
   </Card>
 
   <Card title="Status" href="https://www.readmestatus.com" icon="fa-solid fa-battery-bolt">
-    See our 99.9% uptime API status
+    > See our 99.9% uptime API status
   </Card>
 </Cards>
 
