@@ -84,17 +84,6 @@ next:
 <Banner isInline={true} message="" color="#ffb600" textColor="#ffffff" fontSize="14px" fontWeight="bold" />
 
 <Cards columns="3">
-  <Card title="User Guides" href="https://docs.intersoftsapient.net/docs/maintenance-guides" icon="book">
-    Comprehensive guides for using SAPIENT features
-  </Card>
-
-  <Card title="Shipment Creation" href="https://docs.intersoftsapient.net/docs/shipment-creation-and-manifesting" icon="box">
-    Learn about creating shipments and manifesting
-  </Card>
-
-  <Card title="Additional Services" href="https://docs.intersoftsapient.net/docs/additional-services-user-guides" icon="plus-circle">
-    Explore additional SAPIENT services
-  </Card>
 
   <Card title="Carrier Guides" href="https://docs.intersoftsapient.net/docs/carrier-specific-user-guides" icon="truck">
     Carrier-specific implementation guides
@@ -108,6 +97,5 @@ next:
     See our 99.9% uptime API status
   </Card>
 </Cards>
-
 
 <br />
