@@ -18,7 +18,7 @@ next:
 ## Resources
 
 <Cards columns={4}>
-  <Card title="Getting Started" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/getting-started-1#/" icon="fa-solid fa-plug" target="_blank"  Width="400">
+  <Card title="Getting Started" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/getting-started-1#/" icon="fa-solid fa-plug" target="_blank" Width="200">
     Neque porro quisquam est qui dolorem ipsum quia
   </Card>
 
