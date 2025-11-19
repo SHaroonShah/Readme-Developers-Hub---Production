@@ -82,7 +82,6 @@ next:
 ***
 
 
-
 <Cards columns="3">
   <Card title="Glossary" href="https://docs.intersoftsapient.net/docs/glossary-1" icon="fa-solid fa-arrow-down-a-z">
     Explore industry-wide terms and definitions used in SAPIENT
