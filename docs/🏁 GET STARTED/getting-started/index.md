@@ -52,7 +52,7 @@ next:
     <Image align="center" src="https://files.readme.io/9b5162bacf5f3ac36b0200401aa0441bd609545eaf01e789087d520c1455ca64-DX_freight_logo.png" width="155px" alt="thumbnail" />
   </Card>
 
-  <Card title="" href="https://docs.intersoftsapient.net/docs/create-api-credentials" Width="200">
+  <Card title="" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/evri#/" Width="200">
     <Image align="center" src="https://files.readme.io/49cf864b835a4e2de7c4ebfd3cea85e552a3a27790c9dd755e39162cdb71c63e-image.png" width="150px" alt="thumbnail" />
   </Card>
 
