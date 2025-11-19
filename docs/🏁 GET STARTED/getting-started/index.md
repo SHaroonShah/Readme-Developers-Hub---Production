@@ -29,7 +29,7 @@ next:
   </Card>
 
   <Card title="Shipment and Manifesting Workflows" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/shipment-creation-and-manifesting#/" icon="fa-solid fa-arrow-progress">
-    Manage when to print labels and how to manifest accurately at the end of each working day
+    Learn about creating shipments and manifesting
   </Card>
 
   <Card title="Additional Services" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/additional-services-user-guides#/" icon="fa-solid fa-layer-plus">
