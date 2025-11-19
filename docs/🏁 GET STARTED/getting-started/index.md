@@ -45,6 +45,9 @@ next:
   <Card title="" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/royal-mail#/" Width="200">
     <Image align="center" src="https://files.readme.io/a9ee760d85555af384cfd0575c7bc99d51a1aada6dec34c8bfb588907ccd9422-RM_favicon.png" width="140px" alt="thumbnail" />
   </Card>
+  <Card title="" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/dx-freight#/" Width="200">
+    <Image align="center" src="https://files.readme.io/9b5162bacf5f3ac36b0200401aa0441bd609545eaf01e789087d520c1455ca64-DX_freight_logo.png" width="155px" alt="thumbnail" />
+  </Card>
 
   <Card title="" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/dx#/" Width="200">
     <Image align="center" src="https://files.readme.io/160d38a06e94f72bb4eed1107cfb82c795f7bb915566bfa72eb3b8b3698bf38d-DX_express_logo.png" width="160px" alt="thumbnail" />
