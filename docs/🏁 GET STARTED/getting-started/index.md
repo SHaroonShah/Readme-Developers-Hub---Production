@@ -28,7 +28,7 @@ next:
     Learn how to interact with the SAPIENT UI in the most efficient way.
   </Card>
 
-  <Card title="Shipment and Manifesting Workflows" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/shipment-creation-and-manifesting#/" icon="fa-solid fa-arrow-progress">
+  <Card title="Workflows" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/shipment-creation-and-manifesting#/" icon="fa-solid fa-arrow-progress">
     Learn about creating shipments and manifesting
   </Card>
 
