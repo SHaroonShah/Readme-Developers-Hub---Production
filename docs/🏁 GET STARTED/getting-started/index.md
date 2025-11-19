@@ -81,7 +81,7 @@ next:
 
 ***
 
-<Banner isInline={true} message="" color="#ffb600" textColor="#ffffff" fontSize="14px" fontWeight="bold" />
+
 
 <Cards columns="3">
   <Card title="Glossary" href="https://docs.intersoftsapient.net/docs/glossary-1" icon="fa-solid fa-arrow-down-a-z">
