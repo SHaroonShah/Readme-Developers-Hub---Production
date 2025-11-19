@@ -23,7 +23,7 @@ next:
   </Card>
 
   <Card title="System User Guides" href="https://readme.com" icon="fa-book-open">
-    >Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    > Lorem ipsum dolor sit amet, consectetur adipiscing elit
   </Card>
 
   <Card title="Shipment Creation and Manifesting Workflows" href="https://readme.com" icon="fa-solid fa-arrow-progress">
@@ -40,7 +40,7 @@ next:
 <Banner isInline={true} message="" color="#ffb600" textColor="#ffffff" fontSize="14px" fontWeight="bold" />
 
 <Cards columns="5">
-  <Card title="" href="https://docs.intersoftsapient.net/docs/create-api-credentials" Width="200">
+  <Card title="" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/royal-mail#/" Width="200">
     <Image align="center" src="https://files.readme.io/a9ee760d85555af384cfd0575c7bc99d51a1aada6dec34c8bfb588907ccd9422-RM_favicon.png" width="140px" alt="thumbnail" />
   </Card>
 
