@@ -104,11 +104,10 @@ next:
     Terms and definitions used in SAPIENT
   </Card>
 
-  <Card title="Release Notes" href="https://docs.intersoftsapient.net/docs/archived-release-notes" icon="clipboard-list">
-    Archived release notes and updates
+  <Card title="Status" href="https://www.readmestatus.com" icon="clipboard-list">
+    See our 99.9% uptime API status
   </Card>
 </Cards>
 
-<StatusPage title="ReadMe Status" url="https://www.readmestatus.com" />
 
 <br />
