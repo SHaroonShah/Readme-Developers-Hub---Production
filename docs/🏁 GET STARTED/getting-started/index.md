@@ -23,7 +23,7 @@ next:
   </Card>
 
   <Card title="System User Guides" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/system-user-guides#/" icon="fa-book-open">
-    > Learn how to interact with SAPIENT in the most efficient way.
+    Learn how to interact with SAPIENT in the most efficient way.
   </Card>
 
   <Card title="Shipment and Manifesting Workflows" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/shipment-creation-and-manifesting#/" icon="fa-solid fa-arrow-progress">
@@ -31,7 +31,7 @@ next:
   </Card>
 
   <Card title="Additional Services" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/additional-services-user-guides#/" icon="fa-solid fa-layer-plus">
-    > Explore our additional services that helps businesses navigate complex logistics challenges
+    Explore our additional services that helps businesses navigate complex logistics challenges
   </Card>
 </Cards>
 
