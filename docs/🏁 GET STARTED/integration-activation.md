@@ -15,9 +15,11 @@ metadata:
 next:
   description: ''
 ---
-> 💡 *Tip*
->
-> *You may need to refer to this section every time you wish to activate a new integration. Therefore, we recommend you to familiarise yourself with this section and understand the icons and functionalities offered in the SAPIENT platform.*
+<Callout icon="💡" theme="default">
+  ### _Tip_
+
+  _You may need to refer to this section every time you wish to activate a new integration. Therefore, we recommend you to familiarise yourself with this section and understand the icons and functionalities offered in the SAPIENT platform._
+</Callout>
 
 ## Access integrations page
 
@@ -33,9 +35,9 @@ To access the **Integrations** page, perform the steps as explained in the follo
 
 <Image align="center" alt="Accessing integrations" border={true} caption="Accessing integrations" src="https://files.readme.io/9edbbe0f060a9821348b7a077aae6171ab9fde12fd7b6d2ffdbe5d215b463f3a-Sapient_home_page.png" />
 
-> 🚧 *Important*
+> 🚧 _Important_
 >
-> *The**Integrations** page contains access to some services that are chargeable, the associated fees are stated during the process. If you activate any of the chargeable services, you will be invoiced directly and any associated usage fees will be applied going forwards. Only approved personnel from your company should be given permission to access these pages and activate these services.*
+> _The **Integrations** page contains access to some services that are chargeable, the associated fees are stated during the process. If you activate any of the chargeable services, you will be invoiced directly and any associated usage fees will be applied going forwards. Only approved personnel from your company should be given permission to access these pages and activate these services._
 
 3. On the **Integrations** page that opens, next to each carrier, the following integration types are displayed with their corresponding icons and symbols. Please select the needed integrations as per your business requirements.
 
@@ -84,14 +86,14 @@ After you have viewed the carrier-specific integrations and have decided to move
 
 3. In the **Integration Activation** screen, select the Terms and Conditions checkbox to agree to the company's terms on accessing and using their services.
 
-> 🚧 *Important*
+> 🚧 _Important_
 >
-> *You can only use the integration once you have activated it*.
+> _You can only use the integration once you have activated it_.
 
 4. After the integration is activated, you can now start configuring it. For more information on how to configure the integration, refer to the [Carrier specific user guides](https://docs.intersoftsapient.net/docs/carrier-specific-user-guides) and the [Additional services guides](https://docs.intersoftsapient.net/docs/additional-services-user-guides) section.
 
 Once the activation is confirmed, the system sends an email to the main user on the account as well as to the one who activated the integration.
 
-> 📘 *Note*
+> 📘 _Note_
 >
-> *If you do not see the carrier(s) you are looking for, please reach out to our Customer Solutions team at [onboarding@intersoft.co.uk](mailto:onboarding@intersoft.co.uk) and we can consider getting these added in our upcoming deployment.*
+> _If you do not see the carrier(s) you are looking for, please reach out to our Customer Solutions team at [onboarding@intersoft.co.uk](mailto:onboarding@intersoft.co.uk) and we can consider getting these added in our upcoming deployment._
