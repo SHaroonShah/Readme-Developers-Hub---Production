@@ -6,7 +6,7 @@ excerpt: >-
   to the carrier.
 deprecated: false
 hidden: false
-icon: fad fa-truck-arrow-right
+icon: far fa-shield-check
 link:
   new_tab: false
 metadata:
