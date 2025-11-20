@@ -45,11 +45,11 @@ Get ready to integrate our powerful API into your existing systems. Whether you 
     Review and refine your content.
   </SimpleStep>
 
-  <SimpleStep header="Step 4: Review">
+  <SimpleStep header="Step 4: Add Shipping Location">
     Review and refine your content.
   </SimpleStep>
 
-  <SimpleStep header="Step 5: Review">
+  <SimpleStep header="Step 5: Ad Shipping Account">
     Review and refine your content.
   </SimpleStep>
 </SimpleStepper>
