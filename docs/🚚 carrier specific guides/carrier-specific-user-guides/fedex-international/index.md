@@ -1,5 +1,5 @@
 ---
-title: FedEx international connect
+title: FedEx International Connect
 deprecated: false
 hidden: false
 metadata:
