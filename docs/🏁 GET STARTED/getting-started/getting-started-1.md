@@ -46,7 +46,7 @@ Get ready to integrate our powerful API into your existing systems. Whether you 
   </SimpleStep>
 
   <SimpleStep header="4. Add Shipping Location">
-    Configure your shipping locations to define from where the shipments will originate.
+    [Configure your shipping locations](https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/add-a-shipping-location#/) to define from where the shipments will originate.
   </SimpleStep>
 
   <SimpleStep header="5. Add Shipping Account">
