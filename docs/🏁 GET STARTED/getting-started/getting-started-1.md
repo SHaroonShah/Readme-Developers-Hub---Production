@@ -36,9 +36,10 @@ Get ready to integrate our powerful API into your existing systems. Whether you 
 
 <HTMLBlock>{`
 <SimpleStepper>
-  <SimpleStep " header="1. Create API Credentials" style="background-color: #ffb600;" a href=(https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/create-api-credentials#/
-  Set up your authentication credentials</a> to start accessing the SAPIENT API securely
+  <SimpleStep header="1. Create API Credentials" style="background-color: #f0f8ff;">
+    <a href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/create-api-ls#/Set up your authentication credentials</a> to start accessing the SAPIENT API securely
   </SimpleStep>
+</SimpleStepper>
 `}</HTMLBlock>
 
 <SimpleStepper>
