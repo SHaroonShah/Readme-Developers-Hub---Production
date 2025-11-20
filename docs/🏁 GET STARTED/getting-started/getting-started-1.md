@@ -18,6 +18,8 @@ If you are looking to build an integration, then our API solution will help you 
 
 ## Overview
 
+<PostList_1 />
+
 <Accordion title="What is SAPIENT API?" icon="rocket">
   This section outlines the essential information on our APIs and steps to begin utilising the SAPIENT APIs, including setup instructions, authentication processes, and key functionalities that can be accessed through the API and SAPIENT's UI. Whether you are a developer or a business user, this section offers the necessary resources to seamlessly connect and optimise your processes within the SAPIENT platform.
 
