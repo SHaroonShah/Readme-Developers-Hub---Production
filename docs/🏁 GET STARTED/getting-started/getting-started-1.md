@@ -33,23 +33,23 @@ The Intersoft SAPIENT Developers Hub provides both new and current users with a 
 Get ready to integrate our powerful API into your existing systems. Whether you are looking to streamline shipping management, monitor performance metrics, or customise your logistics workflows, our APIs provide the flexibility and scalability you need to succeed.
 
 <SimpleStepper>
-  <SimpleStep header="1: Create API Credentials">
+  <SimpleStep header="1. Create API Credentials">
     Set up your authentication credentials to start accessing the SAPIENT API securely
   </SimpleStep>
 
-  <SimpleStep header="2: Activate Integration">
+  <SimpleStep header="2. Activate Integration">
     Enable your integration to begin using SAPIENT's shipping capabilities
   </SimpleStep>
 
-  <SimpleStep header="3: Add Users">
+  <SimpleStep header="3. Add Users">
     Invite team members to collaborate and manage your shipping operations
   </SimpleStep>
 
-  <SimpleStep header="4: Add Shipping Location">
+  <SimpleStep header="4. Add Shipping Location">
     Configure your shipping locations to define from where the shipments will originate.
   </SimpleStep>
 
-  <SimpleStep header="5: Add Shipping Account">
+  <SimpleStep header="5. Add Shipping Account">
     Set up carrier shipping accounts to enable shipping services through SAPIENT
   </SimpleStep>
 </SimpleStepper>
