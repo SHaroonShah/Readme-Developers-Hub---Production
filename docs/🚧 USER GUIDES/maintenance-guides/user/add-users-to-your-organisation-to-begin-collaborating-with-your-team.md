@@ -18,11 +18,11 @@ The main purpose of adding users is to enhance collaboration among various depar
 
 Moreover, different roles and permissions improve security by restricting access to sensitive information, while also allowing for a customised user experience.
 
-> 📘 *Note*
+> 📘 _Note_
 >
-> *You cannot add or manage users via API.*
+> _You cannot add or manage users via API._
 
-In SAPIENT, users with the Admin role can add users and assign them specific roles and permissions. To add users in SAPIENT, follow the steps explained in the following procedure.
+In SAPIENT, users with the **Admin** role can add users and assign them specific roles and permissions. To add users in SAPIENT, follow the steps explained in the following procedure.
 
 1. In the left navigation panel, select **Users**.
 
@@ -49,12 +49,12 @@ In SAPIENT, users with the Admin role can add users and assign them specific rol
 
 <AsteridkForMandatoryElements />
 
-|       Element       | Description                                                                                                                                                    |
-| :-----------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|  **Upload Avatar**  | Drag the image that you want to upload to this block, or simply click the upload (cloud) icon to select the images from the desired location on your computer. |
-| **Email Address\*** | Enter a valid email address that is accessible to the user you are adding.                                                                                     |
-|  **Display Name\*** | Enter the display name for the user you are adding.                                                                                                            |
-|  **Contact Number** | Enter a valid contact number that is accessible to the user you are adding.                                                                                    |
+|       Element      | Description                                                                                                                                                    |
+| :----------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|  **Upload Avatar** | Drag the image that you want to upload to this block, or simply click the upload (cloud) icon to select the images from the desired location on your computer. |
+| **Email Address*** | Enter a valid email address that is accessible to the user you are adding.                                                                                     |
+|  **Display Name*** | Enter the display name for the user you are adding.                                                                                                            |
+| **Contact Number** | Enter a valid contact number that is accessible to the user you are adding.                                                                                    |
 
 6. Now, after entering the user details, in the **PERMISSIONS** block, next to each permission, turn the toggle on to assign the necessary permission to the user you are adding.
 
@@ -68,9 +68,9 @@ In SAPIENT, you can assign the following user types or permissions to the users:
 * **History access**:  a permission that allows access to previous <Glossary>shipments</Glossary> and manifests.
 * **Shipment Manifesting**: a permission that allows to <Glossary>manifest</Glossary> the shipments via the SAPIENT UI.
 
-> 📘 *Note*
+> 📘 _Note_
 >
-> *The availability of the permissions may vary based on the selected location of the user*.
+> _The availability of the permissions may vary based on the selected location of the user_.
 
 7. After entering all the necessary user details, select the **Add User** button.
 
@@ -80,8 +80,8 @@ Once done, the new user is created successfully and a corresponding success mess
 
 After the user is added, a confirmation is sent to the specified email address. Once the user confirms it and set their user credentials (username and password), the status of the user account is set to **Active**.
 
-> 🚧 *Important*
+> 🚧 _Important_
 >
-> *The Admin user has the access to all functionalities, but an Administrator, Lead or Operator must be assigned to different permissions. Whether the user has accepted the invite or not, you can quickly update their roles and permissions straight from the**Users** tab on the **Edit User** page. Make your choice and select the **Save Changes** button to update your changes.*
+> _The Admin user has the access to all functionalities, but an Administrator, Lead or Operator must be assigned to different permissions. Whether the user has accepted the invite or not, you can quickly update their roles and permissions straight from the**Users** tab on the **Edit User** page. Make your choice and select the **Save Changes** button to update your changes._
 >
 > For more information on the user role and access permissions, refer to the [role-based access to SAPIENT actions](https://docs.intersoftsapient.net/docs/sapient-user-roles-and-permissions#/) section.
