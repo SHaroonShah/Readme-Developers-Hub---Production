@@ -33,48 +33,26 @@ The Intersoft SAPIENT Developers Hub provides both new and current users with a 
 Get ready to integrate our powerful API into your existing systems. Whether you are looking to streamline shipping management, monitor performance metrics, or customise your logistics workflows, our APIs provide the flexibility and scalability you need to succeed.
 
 <SimpleStepper>
-  <SimpleStep header="Step 1: Create API Credentials">
-    Plan your documentation and gather resources.
+  <SimpleStep header="1: Create API Credentials">
+    Set up your authentication credentials to start accessing the SAPIENT API securely
   </SimpleStep>
 
-  <SimpleStep header="Step 2: Activate Integration">
-    Write effective and clear documentation.
+  <SimpleStep header="2: Activate Integration">
+    Enable your integration to begin using SAPIENT's shipping capabilities
   </SimpleStep>
 
-  <SimpleStep header="Step 3: Add Users">
-    Review and refine your content.
+  <SimpleStep header="3: Add Users">
+    Invite team members to collaborate and manage your shipping operations
   </SimpleStep>
 
-  <SimpleStep header="Step 4: Add Shipping Location">
-    Review and refine your content.
+  <SimpleStep header="4: Add Shipping Location">
+    Configure your shipping locations to define from where the shipments will originate.
   </SimpleStep>
 
-  <SimpleStep header="Step 5: Ad Shipping Account">
-    Review and refine your content.
+  <SimpleStep header="5: Add Shipping Account">
+    Set up carrier shipping accounts to enable shipping services through SAPIENT
   </SimpleStep>
 </SimpleStepper>
-
-<Cards columns={2}>
-  <Card title="Create API Credentials" href="https://docs.intersoftsapient.net/docs/create-api-credentials" icon="key">
-    Set up your authentication credentials to start accessing the SAPIENT API securely.
-  </Card>
-
-  <Card title="Activate Integration" href="doc:integration-activation" icon="power-off">
-    Enable your integration to begin using SAPIENT's shipping capabilities.
-  </Card>
-
-  <Card title="Add Users" href="doc:add-users-to-your-organisation-to-begin-collaborating-with-your-team" icon="users">
-    Invite team members to collaborate and manage your shipping operations together.
-  </Card>
-
-  <Card title="Add Shipping Locations" href="https://docs.intersoftsapient.net/docs/add-a-shipping-location" icon="map-marker-alt">
-    Configure your shipping locations to define where packages will be sent from.
-  </Card>
-
-  <Card title="Add Shipping Accounts" href="https://docs.intersoftsapient.net/docs/add-a-shipping-account" icon="credit-card">
-    Set up carrier accounts to enable shipping services through various providers.
-  </Card>
-</Cards>
 
 > 🚧 _Important_
 >
