@@ -16,9 +16,9 @@ If you are looking to build an integration, then our API solution will help you 
 
 <Image align="center" border={false} width="300px" src="https://files.readme.io/c388f57ddfed471dccc9c49befdedf8da79a14260f9ffbbc5e7f5996226f2022-Intersoft_api_art.png" />
 
-## What is SAPIENT API?
+## Overview?
 
-<Accordion title="API Overview" icon="code">
+<Accordion title="What is SAPIENT API" icon="code">
   **Intersoft SAPIENT API** enables you to create and manage shipments, produce labels and customs documentation, generate and print collection manifests. The API also allows you to retrieve reference data such as carriers supported by the platform and the countries where shipments can be sent, maintain your own data required for these, such as adding and managing shipping accounts and <Glossary>shipping location</Glossary> details.
 
   **Intersoft API** is a fully RESTful service implemented using JSON messaging. You, as the customer, are responsible for sending JSON messages and for maintaining the capability of receiving JSON messages in the format described in this documentation.
