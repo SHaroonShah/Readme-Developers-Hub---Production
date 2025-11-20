@@ -50,7 +50,7 @@ Get ready to integrate our powerful API into your existing systems. Whether you 
   </SimpleStep>
 
   <SimpleStep header="5. Add Shipping Account">
-    Set up carrier shipping accounts to enable shipping services through SAPIENT
+    [Set up carrier shipping accounts](https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/add-a-shipping-account#/) to enable shipping services through SAPIENT
   </SimpleStep>
 </SimpleStepper>
 
