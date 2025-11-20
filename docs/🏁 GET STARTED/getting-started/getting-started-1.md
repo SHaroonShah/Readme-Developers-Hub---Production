@@ -38,7 +38,7 @@ Get ready to integrate our powerful API into your existing systems. Whether you 
   </SimpleStep>
 
   <SimpleStep header="2. Activate Integration">
-    [Enable your integration] (https://docs.intersoftsapient.net/docs/carrier-specific-user-guides) to begin using SAPIENT's shipping capabilities
+    [Enable your integration](https://docs.intersoftsapient.net/docs/carrier-specific-user-guides) to begin using SAPIENT's shipping capabilities
   </SimpleStep>
 
   <SimpleStep header="3. Add Users">
