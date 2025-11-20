@@ -1,7 +1,7 @@
 ---
 title: FedEx International Connect
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
