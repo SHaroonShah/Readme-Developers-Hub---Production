@@ -42,7 +42,7 @@ Get ready to integrate our powerful API into your existing systems. Whether you 
   </SimpleStep>
 
   <SimpleStep header="3. Add Users">
-    Invite team members to collaborate and manage your shipping operations
+    [Add users](https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/add-users-to-your-organisation-to-begin-collaborating-with-your-team#/) and invite them to collaborate and manage your shipping operations
   </SimpleStep>
 
   <SimpleStep header="4. Add Shipping Location">
