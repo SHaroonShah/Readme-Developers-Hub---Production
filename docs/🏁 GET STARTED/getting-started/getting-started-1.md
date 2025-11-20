@@ -37,11 +37,11 @@ Get ready to integrate our powerful API into your existing systems. Whether you 
     Plan your documentation and gather resources.
   </SimpleStep>
 
-  <SimpleStep header="Step 2: Write">
+  <SimpleStep header="Step 2: Activate Integration">
     Write effective and clear documentation.
   </SimpleStep>
 
-  <SimpleStep header="Step 3: Review">
+  <SimpleStep header="Step 3: Add Users">
     Review and refine your content.
   </SimpleStep>
 
