@@ -73,7 +73,7 @@ Explore additional resources to deepen your understanding of the SAPIENT system 
         Discover additional services and features available through SAPIENT.
       </Card>
 
-      <Card title="Carrier-Specific Guides" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/carrrier-specific-user-guides#/versions" icon="tools">
+      <Card title="Carrier-Specific Guides" href="https://docs.intersoftsapient.net/docs/maintenance-guides" icon="tools">
         Learn how to maintain and configure your SAPIENT system effectively.
       </Card>
     </Cards>
@@ -85,7 +85,7 @@ Explore additional resources to deepen your understanding of the SAPIENT system 
         Complete guide on creating shipments and generating manifests.
       </Card>
 
-      <Card title="Carrier Specific Guides" target="_blank" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/carrrier-specific-user-guides#/">
+      <Card title="Carrier Specific Guides" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/carrrier-specific-user-guides#/" icon="">
         Detailed instructions for working with specific shipping carriers.
       </Card>
     </Cards>
@@ -103,3 +103,16 @@ Explore additional resources to deepen your understanding of the SAPIENT system 
     </Cards>
   </Tab>
 </Tabs>
+
+// Usage Example
+<Cards columns={3}>
+  <Card title="First Card" href="https://readme.com" icon="fa-home" iconColor="blue">
+    *Lorem ipsum dolor sit amet, consectetur adipiscing elit*
+  </Card>
+  <Card title="Third Card" icon="fa-star" iconColor="blue-500">
+    `Ut enim ad minim veniam, quis nostrud ullamco`
+  </Card>
+  <Card title="Fourth Card" icon="fa-question" iconColor="blue-500">
+    **Excepteur sint occaecat cupidatat non proident**
+  </Card>
+</Cards>
