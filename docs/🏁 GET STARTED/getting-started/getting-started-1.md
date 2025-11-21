@@ -31,8 +31,7 @@ The Intersoft SAPIENT Developers Hub provides both new and current users with a 
 Get ready to integrate our powerful API into your existing systems. Whether you are looking to streamline shipping management, monitor performance metrics, or customise your logistics workflows, our APIs provide the flexibility and scalability you need to succeed.
 
 <SimpleStepper>
-  <SimpleStep header="1. Create API Credentials"> <Image align="center" border={false} width="500px" src="https://files.readme.io/ba2e4cf676068f7374031536e0195f5b7bf19ca1f12dc8114b46e9a6e6750e19-Users_art.png" />
-
+  <SimpleStep header="1. Create API Credentials">
     [Set up your authentication credentials](https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/create-api-credentials#/) to start accessing the SAPIENT API securely
   </SimpleStep>
 
