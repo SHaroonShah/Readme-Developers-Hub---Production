@@ -40,25 +40,25 @@ Get ready to integrate our powerful API into your existing systems. Whether you 
   </SimpleStep>
 
   <SimpleStep header="2. Activate Integration">
-    <Image align="center" src="https://files.readme.io/b3b216f1e4d1606c7f5b69906e5ed09aae810f258935199574d414f97b43e1d5-Activate_icon.png" width="100px" />
+    <Image align="center" src="https://files.readme.io/b3b216f1e4d1606c7f5b69906e5ed09aae810f258935199574d414f97b43e1d5-Activate_icon.png" width="70px" />
 
     [Enable your integration](https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/integration-activation#/) to begin using SAPIENT's shipping capabilities
   </SimpleStep>
 
   <SimpleStep header="3. Add Users">
-    <Image align="center" src="https://files.readme.io/bc37ec1b10f542b05ed6072bf6f39667e215b559b61cf9fdb252a56fa50d24d9-Add_user_icon.png" width="100px" />
+    <Image align="center" src="https://files.readme.io/bc37ec1b10f542b05ed6072bf6f39667e215b559b61cf9fdb252a56fa50d24d9-Add_user_icon.png" width="70px" />
 
     [Add users](https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/add-users-to-your-organisation-to-begin-collaborating-with-your-team#/) and invite them to collaborate and manage your shipping operations
   </SimpleStep>
 
   <SimpleStep header="4. Add Shipping Location">
-    <Image align="center" src="https://files.readme.io/4b468b69ac1d9cd0943247cae3dd280125797d622cc5e829173a009fc44e5aef-Add_location_icon.png" width="100px" />
+    <Image align="center" src="https://files.readme.io/4b468b69ac1d9cd0943247cae3dd280125797d622cc5e829173a009fc44e5aef-Add_location_icon.png" width="70px" />
 
     [Configure your shipping locations](https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/add-a-shipping-location#/) to define from where the shipments will originate.
   </SimpleStep>
 
   <SimpleStep header="5. Add Shipping Account">
-   <Image align="center" border={false} width="100px" src="https://files.readme.io/4552bab17f8918d2c3798a73045513e467d7b498a0ff5302a7b29ce08e239965-Add_shipping_account_icon.png" />
+   <Image align="center" border={false} width="60px" src="https://files.readme.io/4552bab17f8918d2c3798a73045513e467d7b498a0ff5302a7b29ce08e239965-Add_shipping_account_icon.png" />
 
     [Set up carrier shipping accounts](https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/add-a-shipping-account#/) to enable shipping services through SAPIENT
   </SimpleStep>
