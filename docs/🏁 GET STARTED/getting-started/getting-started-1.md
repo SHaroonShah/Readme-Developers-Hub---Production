@@ -28,7 +28,7 @@ The Intersoft SAPIENT Developers Hub provides both new and current users with a 
 
 ***
 
-<Banner isInline={true} message="Seamless integration awaits: Get started with SAPIENT" color="#ffb600" textColor="#ffffff" fontSize="14px" fontWeight="bold" />
+<Banner isInline={true} message="Seamless integration awaits: Get started with SAPIENT" color="#ffb600" textColor="#ffffff" fontSize="24px" fontWeight="bold" />
 
 Get ready to integrate our powerful API into your existing systems. Whether you are looking to streamline shipping management, monitor performance metrics, or customise your logistics workflows, our APIs provide the flexibility and scalability you need to succeed.
 
