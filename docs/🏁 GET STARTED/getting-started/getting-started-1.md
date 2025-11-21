@@ -72,6 +72,9 @@ Explore additional resources to deepen your understanding of the SAPIENT system 
       <Card title="Additional Services" href="https://docs.intersoftsapient.net/docs/additional-services-user-guides" icon="plus-circle">
         Discover additional services and features available through SAPIENT.
       </Card>
+<Card title="Carrier-Specific Guides" href="https://docs.intersoftsapient.net/docs/maintenance-guides" icon="tools">
+        Learn how to maintain and configure your SAPIENT system effectively.
+      </Card>
     </Cards>
   </Tab>
 
