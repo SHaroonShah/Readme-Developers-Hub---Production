@@ -15,8 +15,6 @@ In this section you can access various guides developed for each available <Glos
 
 The following carrier-specific guides are included in this section:
 
-<br />
-
 <Banner isInline={true} message="" color="#ffb600" textColor="#ffffff" fontSize="14px" fontWeight="bold" />
 
 <Cards columns="5">
