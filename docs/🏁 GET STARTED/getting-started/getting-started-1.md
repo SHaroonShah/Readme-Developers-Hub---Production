@@ -46,7 +46,7 @@ Get ready to integrate our powerful API into your existing systems. Whether you 
   </SimpleStep>
 
   <SimpleStep header="3. Add Users">
-    <Image align="center" border={false} width="100px" src="https://files.readme.io/bc37ec1b10f542b05ed6072bf6f39667e215b559b61cf9fdb252a56fa50d24d9-Add_user_icon.png" />>
+    <Image align="center" border={false} width="100px" src="https://files.readme.io/bc37ec1b10f542b05ed6072bf6f39667e215b559b61cf9fdb252a56fa50d24d9-Add_user_icon.png" />
 
     [Add users](https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/add-users-to-your-organisation-to-begin-collaborating-with-your-team#/) and invite them to collaborate and manage your shipping operations
   </SimpleStep>
