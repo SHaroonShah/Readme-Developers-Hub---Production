@@ -14,7 +14,7 @@ metadata:
 ---
 If you are looking to build an integration, then our API solution will help you incorporate the intelligence of Intersoft SAPIENT into your software with minimal integration effort.
 
-<Image align="center" border={false} width="100px" src="https://files.readme.io/4eedaeeeef8679fd39265b1fc8d530e81b90ac23120604904fe4de12580e0af8-Add_location_icon.png" />
+<Image align="center" border={false} width="100px" src="https://files.readme.io/4b468b69ac1d9cd0943247cae3dd280125797d622cc5e829173a009fc44e5aef-Add_location_icon.png" />
 
 <Accordion title="What is SAPIENT API?" icon="code">
   **Intersoft SAPIENT API** is a fullt RESTful service that enables you to create and manage shipments, produce labels and customs documentation, generate and print collection manifests. The API also allows you to retrieve reference data such as carriers supported by the platform and the countries where shipments can be sent, maintain your own data required for these, such as adding and managing shipping accounts and <Glossary>shipping location</Glossary> details.
@@ -52,7 +52,7 @@ Get ready to integrate our powerful API into your existing systems. Whether you 
   </SimpleStep>
 
   <SimpleStep header="4. Add Shipping Location">
-    <Image align="center" border={false} width="100px" src="https://files.readme.io/4eedaeeeef8679fd39265b1fc8d530e81b90ac23120604904fe4de12580e0af8-Add_location_icon.png" />
+    <Image align="center" border={false} width="100px" src="https://files.readme.io/4b468b69ac1d9cd0943247cae3dd280125797d622cc5e829173a009fc44e5aef-Add_location_icon.png" />
 
     [Configure your shipping locations](https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/add-a-shipping-location#/) to define from where the shipments will originate.
   </SimpleStep>
