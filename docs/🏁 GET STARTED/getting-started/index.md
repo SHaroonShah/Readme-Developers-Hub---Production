@@ -15,16 +15,7 @@ next:
       title: Integration Activation
       type: basic
 ---
-## Resources
-
-<Banner
-  isInline={true}
-  message="Resources"
-  color="#118cfd"
-  textColor="#ffffff"
-  fontSize="20px"
-  fontWeight="bold"
- />
+<Banner isInline={true} message="Resources" color="#ffb600" textColor="#ffffff" fontSize="20px" fontWeight="bold" />
 
 <Banner isInline={true} message="" color="#ffb600" textColor="#ffffff" fontSize="14px" fontWeight="bold" width="120px" />
 
@@ -46,16 +37,7 @@ next:
   </Card>
 </Cards>
 
-### Carrier Guides
-
-<Banner
-  isInline={true}
-  message="Carrier Guides"
-  color="#118cfd"
-  textColor="#ffffff"
-  fontSize="20px"
-  fontWeight="bold"
- />
+<Banner isInline={true} message="Carrier Guides" color="#ffb600" textColor="#ffffff" fontSize="20px" fontWeight="bold" />
 
 <Banner isInline={true} message="" color="#ffb600" textColor="#ffffff" fontSize="14px" fontWeight="bold" />
 
