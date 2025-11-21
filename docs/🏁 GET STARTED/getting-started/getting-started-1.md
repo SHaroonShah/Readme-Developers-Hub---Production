@@ -64,19 +64,19 @@ Explore additional resources to deepen your understanding of the SAPIENT system 
 
 <Tabs>
   <Tab title="User Guides">
- <Cards columns={3}>
-  <Card title="Maintenance Guides" href="https://docs.intersoftsapient.net/docs/maintenance-guides" icon="fa-home" iconColor="">
-    Learn how to maintain and configure your SAPIENT system effectively
-  </Card>
+    <Cards columns={3}>
+      <Card title="`Maintenance Guides`" href="https://docs.intersoftsapient.net/docs/maintenance-guides" icon="fa-home" iconColor="">
+        Learn how to maintain and configure your SAPIENT system effectively
+      </Card>
 
-  <Card title="Additional Services" href="https://docs.intersoftsapient.net/docs/additional-services-user-guides" icon="fa-star" iconColor="">
-    Discover additional services and features available through SAPIENT
-  </Card>
+      <Card title="Additional Services" href="https://docs.intersoftsapient.net/docs/additional-services-user-guides" icon="fa-star" iconColor="">
+        Discover additional services and features available through SAPIENT
+      </Card>
 
-  <Card title="Carrier-Specific Guides" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/carrrier-specific-user-guides#/" icon="fa-question" iconColor="">
-    Explore the carrier integrations available on SAPIENT
-  </Card>
-</Cards>
+      <Card title="Carrier-Specific Guides" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/carrrier-specific-user-guides#/" icon="fa-question" iconColor="">
+        Explore the carrier integrations available on SAPIENT
+      </Card>
+    </Cards>
   </Tab>
 
   <Tab title="Operations">
