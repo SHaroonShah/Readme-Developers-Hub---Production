@@ -85,7 +85,7 @@ Explore additional resources to deepen your understanding of the SAPIENT system 
         Complete guide on creating shipments and generating manifests.
       </Card>
 
-      <Card title="Carrier Specific Guides" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/carrrier-specific-user-guides#/">
+      <Card title="Carrier Specific Guides" target="_blank" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/carrrier-specific-user-guides#/">
         Detailed instructions for working with specific shipping carriers.
       </Card>
     </Cards>
