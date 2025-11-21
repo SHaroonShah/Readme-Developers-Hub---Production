@@ -14,7 +14,7 @@ metadata:
 ---
 If you are looking to build an integration, then our API solution will help you incorporate the intelligence of Intersoft SAPIENT into your software with minimal integration effort.
 
-<Image align="center" border={false} width="100px" src="https://files.readme.io/455609ccce9609415e0b95934989f2039616bc5c45546e5c5f59c415c68fef10-API_icon.png" />
+<Image align="center" border={false} width="100px" src="https://files.readme.io/bc37ec1b10f542b05ed6072bf6f39667e215b559b61cf9fdb252a56fa50d24d9-Add_user_icon.png" />
 
 <Accordion title="What is SAPIENT API?" icon="code">
   **Intersoft SAPIENT API** is a fullt RESTful service that enables you to create and manage shipments, produce labels and customs documentation, generate and print collection manifests. The API also allows you to retrieve reference data such as carriers supported by the platform and the countries where shipments can be sent, maintain your own data required for these, such as adding and managing shipping accounts and <Glossary>shipping location</Glossary> details.
@@ -34,7 +34,7 @@ Get ready to integrate our powerful API into your existing systems. Whether you 
 
 <SimpleStepper>
   <SimpleStep header="1. Create API Credentials">
-   <Image align="center" border={false} width="100px" src="https://files.readme.io/455609ccce9609415e0b95934989f2039616bc5c45546e5c5f59c415c68fef10-API_icon.png" />
+    <Image align="center" src="https://files.readme.io/455609ccce9609415e0b95934989f2039616bc5c45546e5c5f59c415c68fef10-API_icon.png" width="100px" />
 
     [Set up your authentication credentials](https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/create-api-credentials#/) to start accessing the SAPIENT API securely
   </SimpleStep>
@@ -46,7 +46,7 @@ Get ready to integrate our powerful API into your existing systems. Whether you 
   </SimpleStep>
 
   <SimpleStep header="3. Add Users">
-    <Image align="center" src="https://files.readme.io/40046041ff9ea146936bbf057f0e7f0852ab21c369f1f5f5faae31f3b7c422b5-Add_user_icon.png" width="60px" />
+    <Image align="center" border={false} width="100px" src="https://files.readme.io/bc37ec1b10f542b05ed6072bf6f39667e215b559b61cf9fdb252a56fa50d24d9-Add_user_icon.png" />>
 
     [Add users](https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/add-users-to-your-organisation-to-begin-collaborating-with-your-team#/) and invite them to collaborate and manage your shipping operations
   </SimpleStep>
