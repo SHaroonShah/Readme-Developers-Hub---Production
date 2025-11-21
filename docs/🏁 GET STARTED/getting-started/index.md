@@ -17,6 +17,15 @@ next:
 ---
 ## Resources
 
+<Banner
+  isInline={true}
+  message="Resources"
+  color="#118cfd"
+  textColor="#ffffff"
+  fontSize="20px"
+  fontWeight="bold"
+ />
+
 <Banner isInline={true} message="" color="#ffb600" textColor="#ffffff" fontSize="14px" fontWeight="bold" width="120px" />
 
 <Cards columns={4}>
@@ -38,6 +47,15 @@ next:
 </Cards>
 
 ### Carrier Guides
+
+<Banner
+  isInline={true}
+  message="Carrier Guides"
+  color="#118cfd"
+  textColor="#ffffff"
+  fontSize="20px"
+  fontWeight="bold"
+ />
 
 <Banner isInline={true} message="" color="#ffb600" textColor="#ffffff" fontSize="14px" fontWeight="bold" />
 
