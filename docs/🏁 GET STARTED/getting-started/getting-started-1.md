@@ -14,8 +14,6 @@ metadata:
 ---
 If you are looking to build an integration, then our API solution will help you incorporate the intelligence of Intersoft SAPIENT into your software with minimal integration effort.
 
-<Image align="center" border={false} width="100px" src="https://files.readme.io/64e393361c1c16ea40dd8eeddf405669b120c75e8de985ab796823611c2a63c3-API_icon.png" />
-
 <Accordion title="What is SAPIENT API?" icon="code">
   **Intersoft SAPIENT API** is a fullt RESTful service that enables you to create and manage shipments, produce labels and customs documentation, generate and print collection manifests. The API also allows you to retrieve reference data such as carriers supported by the platform and the countries where shipments can be sent, maintain your own data required for these, such as adding and managing shipping accounts and <Glossary>shipping location</Glossary> details.
 
@@ -33,23 +31,31 @@ The Intersoft SAPIENT Developers Hub provides both new and current users with a 
 Get ready to integrate our powerful API into your existing systems. Whether you are looking to streamline shipping management, monitor performance metrics, or customise your logistics workflows, our APIs provide the flexibility and scalability you need to succeed.
 
 <SimpleStepper>
-  <SimpleStep header="1. Create API Credentials"> <Image align="center" border={false} width="100px" src="https://files.readme.io/64e393361c1c16ea40dd8eeddf405669b120c75e8de985ab796823611c2a63c3-API_icon.png" />
+  <SimpleStep header="1. Create API Credentials">
+    <Image align="center" src="https://files.readme.io/64e393361c1c16ea40dd8eeddf405669b120c75e8de985ab796823611c2a63c3-API_icon.png" width="100px" />
+
     [Set up your authentication credentials](https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/create-api-credentials#/) to start accessing the SAPIENT API securely
   </SimpleStep>
 
   <SimpleStep header="2. Activate Integration">
+    <Image align="center" src="https://files.readme.io/b3b216f1e4d1606c7f5b69906e5ed09aae810f258935199574d414f97b43e1d5-Activate_icon.png" width="100px" />
+
     [Enable your integration](https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/integration-activation#/) to begin using SAPIENT's shipping capabilities
   </SimpleStep>
 
   <SimpleStep header="3. Add Users">
+    <Image align="center" src="https://files.readme.io/40046041ff9ea146936bbf057f0e7f0852ab21c369f1f5f5faae31f3b7c422b5-Add_user_icon.png" width="100px" />
+
     [Add users](https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/add-users-to-your-organisation-to-begin-collaborating-with-your-team#/) and invite them to collaborate and manage your shipping operations
   </SimpleStep>
 
   <SimpleStep header="4. Add Shipping Location">
+    <Image align="center" src="https://files.readme.io/842c0ddab3868f41dd7755f050120ded67f82a2997b86819e667220c68fbc1c5-Add_location_icon.png" width="100px" />
+
     [Configure your shipping locations](https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/add-a-shipping-location#/) to define from where the shipments will originate.
   </SimpleStep>
 
-  <SimpleStep header="5. Add Shipping Account">
+  <SimpleStep header="5. Add Shipping Account"> <Image align="center" border={false} width="100px" src="https://files.readme.io/216e7d9811e02c6481ad25ec861f576f2add5874c68a9b5883e865fecc415178-Add_shipping_account_icon.png" />
     [Set up carrier shipping accounts](https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/add-a-shipping-account#/) to enable shipping services through SAPIENT
   </SimpleStep>
 </SimpleStepper>
