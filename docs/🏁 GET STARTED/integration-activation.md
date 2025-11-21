@@ -90,10 +90,12 @@ After you have viewed the carrier-specific integrations and have decided to move
 >
 > _You can only use the integration once you have activated it_.
 
-4. After the integration is activated, you can now start configuring it. For more information on how to configure the integration, refer to the [Carrier specific user guides](https://docs.intersoftsapient.net/docs/carrier-specific-user-guides) and the [Additional services guides](https://docs.intersoftsapient.net/docs/additional-services-user-guides) section.
+4. After the integration is activated, you can now start configuring it. For more information on how to configure the integration, refer to the <Anchor label="Carrier specific user guides" target="_blank" href="https://docs.intersoftsapient.net/docs/carrier-specific-user-guides">Carrier specific user guides</Anchor> and the [Additional services guides](https://docs.intersoftsapient.net/docs/additional-services-user-guides) section.
 
 Once the activation is confirmed, the system sends an email to the main user on the account as well as to the one who activated the integration.
 
 > 📘 _Note_
 >
 > _If you do not see the carrier(s) you are looking for, please reach out to our Customer Solutions team at [onboarding@intersoft.co.uk](mailto:onboarding@intersoft.co.uk) and we can consider getting these added in our upcoming deployment._
+
+<br />
