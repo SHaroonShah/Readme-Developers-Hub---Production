@@ -29,7 +29,7 @@ To access the **Integrations** page, perform the steps as explained in the follo
 
 1. Log in to the SAPIENT platform using your credentials.
 
-<Image align="center" alt="Logging into SAPIENT" border={true} caption="Logging into SAPIENT" src="https://files.readme.io/9d01c43822f6ea8e09f2dcc827a191c1d319511fdbf63e40e4a779b72ec3c46d-Sapient_Login_window.png" width="500px" alt="Zoom-in"/>
+<Image align="center" alt="Zoom-in" border={true} caption="Logging into SAPIENT" src="https://files.readme.io/9d01c43822f6ea8e09f2dcc827a191c1d319511fdbf63e40e4a779b72ec3c46d-Sapient_Login_window.png" width="500px" />
 
 2. On the **Home** page that opens, in the left navigation panel, select **Integrations**.
 
@@ -37,7 +37,7 @@ To access the **Integrations** page, perform the steps as explained in the follo
 
 > 🚧 _Important_
 >
-> _The**Integrations** page contains access to some services that are chargeable, the associated fees are stated during the process. If you activate any of the chargeable services, you will be invoiced directly and any associated usage fees will be applied going forwards. Only approved personnel from your company should be given permission to access these pages and activate these services._
+> _The **Integrations** page contains access to some services that are chargeable, the associated fees are stated during the process. If you activate any of the chargeable services, you will be invoiced directly and any associated usage fees will be applied going forwards. Only approved personnel from your company should be given permission to access these pages and activate these services._
 
 3. On the **Integrations** page that opens, next to each carrier, the following integration types are displayed with their corresponding icons and symbols. Please select the needed integrations as per your business requirements.
 
