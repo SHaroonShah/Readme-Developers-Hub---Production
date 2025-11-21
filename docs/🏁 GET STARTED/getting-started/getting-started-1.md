@@ -56,7 +56,7 @@ Get ready to integrate our powerful API into your existing systems. Whether you 
 
 > 🚧 _Important_
 >
-> _The API requires the user to provide a [Bearer token](https://docs.intersoftsapient.net/docs/bearer-token-generation-1). To learn more about the bearer token and its generation, refer to the [Authentication](https://docs.intersoftsapient.net/docs/authentication) section._
+> _The API requires the user to provide a <Anchor label="Bearer token" target="_blank" href="https://docs.intersoftsapient.net/docs/bearer-token-generation-1">Bearer token</Anchor>. To learn more about the bearer token and its generation, refer to the <Anchor label="Authentication" target="_blank" href="https://docs.intersoftsapient.net/docs/authentication">Authentication</Anchor> section._
 
 ***
 
