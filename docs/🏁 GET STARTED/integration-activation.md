@@ -62,35 +62,38 @@ next:
 
 <Accordion title="Carrier-specific integrations">
   The carrier-specific integrations can be accessed by selecting the carrier on the Integrations page. The carrier-specific page provides you with the full range of additional features and services offered by that carrier.
-<Image align="center" alt="Viewing carrier-specific integrations" border={true} caption="Viewing carrier-specific integrations" src="https://files.readme.io/9b0f989-image.png" />
-<ToggleList>
-  <ToggleListItem title="Top Services">
-         This block highlights the primary services offered by the carrier, such as:
+
+  <Image align="center" border={true} src="https://files.readme.io/9b0f989-image.png" alt="Viewing carrier-specific integrations" />
+
+  <ToggleList>
+    <ToggleListItem title={<strong>"Top Services"</strong>}>
+      This block highlights the primary services offered by the carrier, such as:
 
       * Standard shipping
       * International delivery
       * Tracking options
       * Special delivery services
-  </ToggleListItem>
-  <ToggleListItem title="Top Features">
-         This block entails the key functionalities that enhance the user experience and operational efficiency:
+    </ToggleListItem>
+
+    <ToggleListItem title="Top Features">
+      This block entails the key functionalities that enhance the user experience and operational efficiency:
 
       * Real-time tracking capabilities
       * Automated label generation
       * Home collection services
       * Advanced shipping options
-  </ToggleListItem>
- <ToggleListItem title="Useful Links">
-         This block provides valuable resources for users:
+    </ToggleListItem>
+
+    <ToggleListItem title="Useful Links">
+      This block provides valuable resources for users:
 
       * Direct links to the carrier's website
       * API documentation
       * User guides
       * FAQs
       * Support contact informati
-  </ToggleListItem>
-</ToggleList>
-
+    </ToggleListItem>
+  </ToggleList>
 </Accordion>
 
 ## Activate integration
