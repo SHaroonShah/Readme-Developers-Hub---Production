@@ -75,7 +75,7 @@ next:
       * Special delivery services
     </ToggleListItem>
 
-    <ToggleListItem title="Top Features">
+    <ToggleListItem title={<strong>Top Features</strong>}>
       This block entails the key functionalities that enhance the user experience and operational efficiency:
 
       * Real-time tracking capabilities
