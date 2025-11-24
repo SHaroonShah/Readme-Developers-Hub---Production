@@ -62,8 +62,6 @@ next:
 
 <Accordion title="Carrier-specific integrations">
   The carrier-specific integrations can be accessed by selecting the carrier on the Integrations page. The carrier-specific page provides you with the full range of additional features and services offered by that carrier.
-</Accordion>
-
 <ToggleList>
   <ToggleListItem title="Top Services">
     This block highlights the primary services offered by the carrier, such as:
@@ -93,6 +91,9 @@ next:
     * Support contact information
   </ToggleListItem>
 </ToggleList>
+</Accordion>
+
+
 
 * **Top Services**: this block highlights the primary services offered by the carrier, such as standard shipping, international delivery, tracking options, special delivery, and so on.
 * **Top Features**: this block entails the key functionalities that enhance the user experience and operational efficiency. This may include real-time tracking capabilities, automated label generation, home collection services, and much more.
