@@ -93,7 +93,7 @@ next:
       * API documentation
       * User guides
       * FAQs
-      * Support contact informati
+      * Support contact information
     </ToggleListItem>
   </ToggleList>
 </Accordion>
