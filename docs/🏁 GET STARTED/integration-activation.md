@@ -25,7 +25,8 @@ next:
 
 This section explains the components available on the **Integrations** page of the SAPIENT platform. The Integrations page displays the <Glossary>carrier</Glossary>(s) that are available or coming soon to the platform. Each carrier has its own specific block with its description of what it offers as well as showcasing its available integration types. You can click into the carrier specific page by clicking their logo or the **Learn More** button.
 
-To access the **Integrations** page, perform the steps as explained in the following procedure:
+<Accordion title="My Accordion Title" icon="fa-info-circle">
+  To access the **Integrations** page, perform the steps as explained in the following procedure:
 
 1. Log in to the SAPIENT platform using your credentials.
 
@@ -42,6 +43,9 @@ To access the **Integrations** page, perform the steps as explained in the follo
 3. On the **Integrations** page that opens, next to each carrier, the following integration types are displayed with their corresponding icons and symbols. Please select the needed integrations as per your business requirements.
 
 <Image align="center" alt="Selecting integrations" border={true} caption="Selecting integrations" src="https://files.readme.io/42044e1252f492b4bd51e1ed7d86a66048cc74d82bf26ee7fc53761e7780c2c1-Integrations_page.png" />
+</Accordion>
+
+
 
 |                                       Integration types and icons                                       | Description                                                                                                 |
 | :-----------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------- |
