@@ -34,7 +34,7 @@ Get ready to integrate our powerful API into your existing systems. Whether you 
 
 <SimpleStepper>
   <SimpleStep header="1. Create API Credentials">
-    <Image align="center" src="https://files.readme.io/631288afff2a17353aead1452f46b1c8477702d40886341d0ee7b672de51bba0-API_icon.png" width="100px" />
+    <Image align="center" src="https://files.readme.io/631288afff2a17353aead1452f46b1c8477702d40886341d0ee7b672de51bba0-API_icon.png" width="120px" />
 
     [Set up your authentication credentials](https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/create-api-credentials#/) to start accessing the SAPIENT API securely
   </SimpleStep>
