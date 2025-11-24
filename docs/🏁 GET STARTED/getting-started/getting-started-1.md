@@ -75,15 +75,15 @@ Explore additional resources to deepen your understanding of the SAPIENT system 
 <Tabs>
   <Tab title="User Guides">
     <Cards columns={3}>
-      <Card title="Maintenance Guides" href="https://docs.intersoftsapient.net/docs/maintenance-guides" icon="fa-home" iconColor="">
+      <Card title="Maintenance Guides" href="https://docs.intersoftsapient.net/docs/maintenance-guides" icon="fa-book-open" iconColor="">
         Learn how to maintain and configure your SAPIENT system effectively
       </Card>
 
-      <Card title="Additional Services" href="https://docs.intersoftsapient.net/docs/additional-services-user-guides" icon="fa-star" iconColor="">
+      <Card title="Additional Services" href="https://docs.intersoftsapient.net/docs/additional-services-user-guides" icon="fa-solid fa-layer-plus" iconColor="">
         Discover additional services and features available through SAPIENT
       </Card>
 
-      <Card title="Carrier-Specific Guides" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/carrrier-specific-user-guides#/" icon="fa-question" iconColor="">
+      <Card title="Carrier-Specific Guides" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/carrrier-specific-user-guides#/" icon="fa-book-open" iconColor="">
         Explore the carrier integrations available on SAPIENT
       </Card>
     </Cards>
@@ -91,11 +91,11 @@ Explore additional resources to deepen your understanding of the SAPIENT system 
 
   <Tab title="Operations">
     <Cards columns={2}>
-      <Card title="Shipment Creation & Manifesting" href="https://docs.intersoftsapient.net/docs/shipment-creation-and-manifesting" icon="fa-home" iconColor="">
+      <Card title="Shipment Creation & Manifesting" href="https://docs.intersoftsapient.net/docs/shipment-creation-and-manifesting" icon="fa-solid fa-arrow-progress" iconColor="">
         Full flows on creating shipments and generating manifests
       </Card>
 
-      <Card title="Intersoft Tracking Webhook" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/tracking-webhook-1#/versions" icon="fa-star" iconColor="">
+      <Card title="Intersoft Tracking Webhook" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/tracking-webhook-1#/versions" icon="fa-solid fa-webhook" iconColor="">
         Use our tracking webhook solution to receive real-time updates and data from various services and applications.
       </Card>
     </Cards>
@@ -103,11 +103,11 @@ Explore additional resources to deepen your understanding of the SAPIENT system 
 
   <Tab title="Reference">
     <Cards columns={2}>
-      <Card title="Glossary" href="https://docs.intersoftsapient.net/docs/glossary-1" icon="book">
+      <Card title="Glossary" href="https://docs.intersoftsapient.net/docs/glossary-1" icon="fa-solid fa-arrow-down-a-z">
         Definitions and explanations of key terms used in SAPIENT.
       </Card>
 
-      <Card title="Archived Release Notes" href="https://docs.intersoftsapient.net/docs/archived-release-notes" icon="archive">
+      <Card title="Archived Release Notes" href="https://docs.intersoftsapient.net/docs/archived-release-notes" icon="fa-solid fa-box-archive">
         Historical information about previous system updates and changes.
       </Card>
     </Cards>
