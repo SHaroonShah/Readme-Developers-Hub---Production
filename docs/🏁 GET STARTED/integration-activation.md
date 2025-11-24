@@ -100,26 +100,27 @@ next:
 
 <Accordion title="Activate integration" icon="">
   After you have viewed the carrier-specific integrations and have decided to move forward with that carrier, you can now activate the integration.
-To do so, follow the instructions provided in the following procedure:
-1. Select the carrier that you want to integrate and then choose the integration that that you want to activate for that carrier.
-2. Based on your selected integration type, you may see one of the following **Integration Activation** screens.
+  To do so, follow the instructions provided in the following procedure:
 
-|              Available integration             |         Pricing and contract agreement         |              Upcoming integrations             |
-| :--------------------------------------------: | :--------------------------------------------: | :--------------------------------------------: |
-| ![](https://files.readme.io/b0940a4-image.png) | ![](https://files.readme.io/b8c6bfd-image.png) | ![](https://files.readme.io/11cb1ac-image.png) |
+  1. Select the carrier that you want to integrate and then choose the integration that that you want to activate for that carrier.
+  2. Based on your selected integration type, you may see one of the following **Integration Activation** screens.
 
-3. In the **Integration Activation** screen, select the Terms and Conditions checkbox to agree to the company's terms on accessing and using their services.
+  |              Available integration             |         Pricing and contract agreement         |              Upcoming integrations             |
+  | :--------------------------------------------: | :--------------------------------------------: | :--------------------------------------------: |
+  | ![](https://files.readme.io/b0940a4-image.png) | ![](https://files.readme.io/b8c6bfd-image.png) | ![](https://files.readme.io/11cb1ac-image.png) |
 
-> 🚧 _Important_
->
-> _You can only use the integration once you have activated it_.
 
-4. After the integration is activated, you can now start configuring it. For more information on how to configure the integration, refer to the [Carrier specific user guides](https://docs.intersoftsapient.net/docs/carrier-specific-user-guides) and the [Additional services guides](https://docs.intersoftsapient.net/docs/additional-services-user-guides) section.
+  3. In the **Integration Activation** screen, select the Terms and Conditions checkbox to agree to the company's terms on accessing and using their services.
 
-Once the activation is confirmed, the system sends an email to the main user on the account as well as to the one who activated the integration.
+  > 🚧 *Important*
+  >
+  > *You can only use the integration once you have activated it*.
 
-> 📘 _Note_
->
-> _If you do not see the carrier(s) you are looking for, please reach out to our Customer Solutions team at [onboarding@intersoft.co.uk](mailto:onboarding@intersoft.co.uk) and we can consider getting these added in our upcoming deployment._
+  4. After the integration is activated, you can now start configuring it. For more information on how to configure the integration, refer to the [Carrier specific user guides](https://docs.intersoftsapient.net/docs/carrier-specific-user-guides) and the [Additional services guides](https://docs.intersoftsapient.net/docs/additional-services-user-guides) section.
 
+  Once the activation is confirmed, the system sends an email to the main user on the account as well as to the one who activated the integration.
+
+  > 📘 *Note*
+  >
+  > *If you do not see the carrier(s) you are looking for, please reach out to our Customer Solutions team at[onboarding@intersoft.co.uk](mailto:onboarding@intersoft.co.uk) and we can consider getting these added in our upcoming deployment.*
 </Accordion>
