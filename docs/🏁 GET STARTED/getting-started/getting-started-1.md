@@ -14,7 +14,7 @@ metadata:
 ---
 If you are looking to build an integration, then our API solution will help you incorporate the intelligence of Intersoft SAPIENT into your software with minimal integration effort.
 
-<Image align="center" border={false} width="100px" src="https://files.readme.io/631288afff2a17353aead1452f46b1c8477702d40886341d0ee7b672de51bba0-API_icon.png" />
+<Image align="center" border={false} width="100px" src="https://files.readme.io/5983b6b19fcad48ede8cf0f1c5fd97ae8eb55e5ea6e3eaf39de12345fa83d586-Activate_icon.png" />
 
 <Accordion title="What is SAPIENT API?" icon="code">
   **Intersoft SAPIENT API** is a fullt RESTful service that enables you to create and manage shipments, produce labels and customs documentation, generate and print collection manifests. The API also allows you to retrieve reference data such as carriers supported by the platform and the countries where shipments can be sent, maintain your own data required for these, such as adding and managing shipping accounts and <Glossary>shipping location</Glossary> details.
@@ -34,13 +34,13 @@ Get ready to integrate our powerful API into your existing systems. Whether you 
 
 <SimpleStepper>
   <SimpleStep header="1. Create API Credentials">
-<Image align="center" border={false} width="100px" src="https://files.readme.io/631288afff2a17353aead1452f46b1c8477702d40886341d0ee7b672de51bba0-API_icon.png" />
+    <Image align="center" src="https://files.readme.io/631288afff2a17353aead1452f46b1c8477702d40886341d0ee7b672de51bba0-API_icon.png" width="100px" />
 
     [Set up your authentication credentials](https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/create-api-credentials#/) to start accessing the SAPIENT API securely
   </SimpleStep>
 
   <SimpleStep header="2. Activate Integration">
-    <Image align="center" src="https://files.readme.io/b3b216f1e4d1606c7f5b69906e5ed09aae810f258935199574d414f97b43e1d5-Activate_icon.png" width="70px" />
+    <Image align="center" border={false} width="100px" src="https://files.readme.io/5983b6b19fcad48ede8cf0f1c5fd97ae8eb55e5ea6e3eaf39de12345fa83d586-Activate_icon.png" />
 
     [Enable your integration](https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/integration-activation#/) to begin using SAPIENT's shipping capabilities
   </SimpleStep>
