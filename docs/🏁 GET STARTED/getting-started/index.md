@@ -32,10 +32,7 @@ next:
     Learn about creating shipments and manifesting
   </Card>
 
-  <Card title="Tracking Webhook" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/additional-services-user-guides#/" icon="fa-solid fa-layer-plus">
-    Explore our additional services that helps businesses navigate complex logistics challenges
-  </Card>
- <Card title="Hurricane Services" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/additional-services-user-guides#/" icon="fa-solid fa-layer-plus">
+  <Card title="Additional Services" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/additional-services-user-guides#/" icon="fa-solid fa-layer-plus">
     Explore our additional services that helps businesses navigate complex logistics challenges
   </Card>
 </Cards>
