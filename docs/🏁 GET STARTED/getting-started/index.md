@@ -59,7 +59,7 @@ next:
   </Card>
 
   <Card title="" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/evri#/" Width="200">
-    <Image align="center" src="https://files.readme.io/49cf864b835a4e2de7c4ebfd3cea85e552a3a27790c9dd755e39162cdb71c63e-image.png" width="120px" alt="thumbnail" />
+    <Image align="center" src="https://files.readme.io/49cf864b835a4e2de7c4ebfd3cea85e552a3a27790c9dd755e39162cdb71c63e-image.png" width="150px" alt="thumbnail" />
   </Card>
 
   <Card title="" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/fedex#/" Width="200">
