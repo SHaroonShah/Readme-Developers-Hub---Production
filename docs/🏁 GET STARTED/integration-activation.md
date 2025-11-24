@@ -65,30 +65,32 @@ next:
 </Accordion>
 
 <ToggleList>
-  <ToggleListItem title="Top Services">
-         This block highlights the primary services offered by the carrier, such as:
+  <ToggleListItem title="<string>Top Services</strong>">
+    This block highlights the primary services offered by the carrier, such as:
 
-      * Standard shipping
-      * International delivery
-      * Tracking options
-      * Special delivery services
+    * Standard shipping
+    * International delivery
+    * Tracking options
+    * Special delivery services
   </ToggleListItem>
+
   <ToggleListItem title="Top Features">
-     This block entails the key functionalities that enhance the user experience and operational efficiency:
+    This block entails the key functionalities that enhance the user experience and operational efficiency:
 
-      * Real-time tracking capabilities
-      * Automated label generation
-      * Home collection services
-      * Advanced shipping options
+    * Real-time tracking capabilities
+    * Automated label generation
+    * Home collection services
+    * Advanced shipping options
   </ToggleListItem>
-<ToggleListItem title="Useful Links">
-     This block provides valuable resources for users:
 
-      * Direct links to the carrier's website
-      * API documentation
-      * User guides
-      * FAQs
-      * Support contact information
+  <ToggleListItem title="Useful Links">
+    This block provides valuable resources for users:
+
+    * Direct links to the carrier's website
+    * API documentation
+    * User guides
+    * FAQs
+    * Support contact information
   </ToggleListItem>
 </ToggleList>
 
