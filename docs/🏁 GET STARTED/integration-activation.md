@@ -65,7 +65,7 @@ next:
 </Accordion>
 
 <ToggleList>
-  <ToggleListItem title="**Top Services**">
+  <ToggleListItem title="Top Services" font="bold">
     This block highlights the primary services offered by the carrier, such as:
 
     * Standard shipping
