@@ -108,8 +108,7 @@ next:
   |              Available integration             |         Pricing and contract agreement         |              Upcoming integrations             |
   | :--------------------------------------------: | :--------------------------------------------: | :--------------------------------------------: |
   | ![](https://files.readme.io/b0940a4-image.png) | ![](https://files.readme.io/b8c6bfd-image.png) | ![](https://files.readme.io/11cb1ac-image.png) |
-
-
+<br></br>
   3. In the **Integration Activation** screen, select the Terms and Conditions checkbox to agree to the company's terms on accessing and using their services.
 
   > 🚧 *Important*
