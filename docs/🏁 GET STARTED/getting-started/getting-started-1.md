@@ -91,7 +91,7 @@ Explore additional resources to deepen your understanding of the SAPIENT system 
 
   <Tab title="Operations">
     <Cards columns={2}>
-      <Card title="Shipment Creattion & Manifesting" href="https://docs.intersoftsapient.net/docs/shipment-creation-and-manifesting" icon="fa-home" iconColor="">
+      <Card title="Shipment Creation & Manifesting" href="https://docs.intersoftsapient.net/docs/shipment-creation-and-manifesting" icon="fa-home" iconColor="">
         Full flows on creating shipments and generating manifests
       </Card>
 
