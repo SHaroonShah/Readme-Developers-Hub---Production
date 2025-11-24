@@ -62,48 +62,36 @@ next:
 
 <Accordion title="Carrier-specific integrations">
   The carrier-specific integrations can be accessed by selecting the carrier on the Integrations page. The carrier-specific page provides you with the full range of additional features and services offered by that carrier.
+<Image align="center" alt="Viewing carrier-specific integrations" border={true} caption="Viewing carrier-specific integrations" src="https://files.readme.io/9b0f989-image.png" />
 <ToggleList>
   <ToggleListItem title="Top Services">
-    This block highlights the primary services offered by the carrier, such as:
+         This block highlights the primary services offered by the carrier, such as:
 
-    * Standard shipping
-    * International delivery
-    * Tracking options
-    * Special delivery services
+      * Standard shipping
+      * International delivery
+      * Tracking options
+      * Special delivery services
   </ToggleListItem>
-
   <ToggleListItem title="Top Features">
-    This block entails the key functionalities that enhance the user experience and operational efficiency:
+         This block entails the key functionalities that enhance the user experience and operational efficiency:
 
-    * Real-time tracking capabilities
-    * Automated label generation
-    * Home collection services
-    * Advanced shipping options
+      * Real-time tracking capabilities
+      * Automated label generation
+      * Home collection services
+      * Advanced shipping options
   </ToggleListItem>
+ <ToggleListItem title="Useful Links">
+         This block provides valuable resources for users:
 
-  <ToggleListItem title="Useful Links">
-    This block provides valuable resources for users:
-
-    * Direct links to the carrier's website
-    * API documentation
-    * User guides
-    * FAQs
-    * Support contact information
+      * Direct links to the carrier's website
+      * API documentation
+      * User guides
+      * FAQs
+      * Support contact informati
   </ToggleListItem>
 </ToggleList>
+
 </Accordion>
-
-
-
-* **Top Services**: this block highlights the primary services offered by the carrier, such as standard shipping, international delivery, tracking options, special delivery, and so on.
-* **Top Features**: this block entails the key functionalities that enhance the user experience and operational efficiency. This may include real-time tracking capabilities, automated label generation, home collection services, and much more.
-* **Useful Links**: this block provides valuable resources for users, such as direct links to the carrier's website, API documentation, user guides, FAQs, and support contact information.
-
-Additionally, you can also see the list of available integrations types for that carrier.
-
-<Image align="center" alt="Viewing carrier-specific integrations" border={true} caption="Viewing carrier-specific integrations" src="https://files.readme.io/9b0f989-image.png" />
-
-***
 
 ## Activate integration
 
