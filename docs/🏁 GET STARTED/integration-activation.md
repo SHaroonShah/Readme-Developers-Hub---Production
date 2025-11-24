@@ -28,12 +28,14 @@ next:
   1. Log in to the SAPIENT platform using your credentials.
 
   <Image align="center" border={true} src="https://files.readme.io/9d01c43822f6ea8e09f2dcc827a191c1d319511fdbf63e40e4a779b72ec3c46d-Sapient_Login_window.png" width="500px" alt="Logging into SAPIENT" />
-<br></br>
+
+  <br />
 
   2. On the **Home** page that opens, in the left navigation panel, select **Integrations**.
 
   <Image align="center" border={true} src="https://files.readme.io/9edbbe0f060a9821348b7a077aae6171ab9fde12fd7b6d2ffdbe5d215b463f3a-Sapient_home_page.png" alt="Accessing integrations" />
-<br></br>
+
+  <br />
 
   > 🚧 *Important*
   >
@@ -125,5 +127,5 @@ next:
 
   > 📘 *Note*
   >
-  > *If you do not see the carrier(s) you are looking for, please reach out to our Customer Solutions team at[onboarding@intersoft.co.uk](mailto:onboarding@intersoft.co.uk) and we can consider getting these added in our upcoming deployment.*
+  > *If you do not see the carrier(s) you are looking for, please reach out to our Customer Solutions team at [onboarding@intersoft.co.uk](mailto:onboarding@intersoft.co.uk) and we can consider getting these added in our upcoming deployment.*
 </Accordion>
