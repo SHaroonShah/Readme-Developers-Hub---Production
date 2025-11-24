@@ -113,15 +113,3 @@ Explore additional resources to deepen your understanding of the SAPIENT system 
     </Cards>
   </Tab>
 </Tabs>
-
-// Usage Example
-
-<Cards columns={2}>
-  <Card title="Glossary" href="https://docs.intersoftsapient.net/docs/shipment-creation-and-manifesting" icon="fa-home" iconColor="">
-    Full flows on creating shipments and generating manifests
-  </Card>
-
-  <Card title="Archived Release Notes" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/tracking-webhook-1#/versions" icon="fa-star" iconColor="">
-    Use our tracking webhook solution to receive real-time updates and data from various services and applications.
-  </Card>
-</Cards>
