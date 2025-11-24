@@ -98,7 +98,7 @@ next:
   </ToggleList>
 </Accordion>
 
-<Accordion title="Activate integration" icon="fa-play">
+<Accordion title="Activate integration" icon="fa-solid fa-play">
   After you have viewed the carrier-specific integrations and have decided to move forward with that carrier, you can now activate the integration.
 To do so, follow the instructions provided in the following procedure:
 1. Select the carrier that you want to integrate and then choose the integration that that you want to activate for that carrier.
