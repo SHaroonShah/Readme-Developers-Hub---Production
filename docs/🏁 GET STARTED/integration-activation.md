@@ -43,30 +43,27 @@ next:
 </Accordion>
 
 <Accordion title="Integration types" icon="fa-info-circle">
-Each carrier offers different integration types, represented by specific icons and symbols. Here's what each one means:
+  Each carrier offers different integration types, represented by specific icons and symbols. Here's what each one means:
 
-|                                       Integration types and icons                                       | Description                                                                                                 |
-| :-----------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------- |
-|                              ![](https://files.readme.io/e7a5d5f-image.png)                             | Create shipments and <Glossary>labels</Glossary>.                                                           |
-|                              ![](https://files.readme.io/c4982ae-image.png)                             | Receive tracking data for shipments via the <Glossary>tracking webhook</Glossary>.                          |
-|                              ![](https://files.readme.io/49ffe79-image.png)                             | Retrieve a list of available <Glossary>PUDO</Glossary> locations for local collect and return services.     |
-|                              ![](https://files.readme.io/455aadf-image.png)                             | Arrange the collections via an API. Mostly referred to as the <Glossary>home collection</Glossary> service. |
-|                              ![](https://files.readme.io/9b34d8a-image.png)                             | Manage compliance with cross-border trade.                                                                  |
-| ![](https://files.readme.io/9312632b86156fbf1e5207b2bd99d08e14151def017bb7c2872709b642aa4653-image.png) | Get more information on the carrier-specific integrations and services.                                     |
-|                              ![](https://files.readme.io/55241d1-image.png)                             | Represents the integrations that are not yet available and coming soon!                                     |
-|                              ![](https://files.readme.io/b378434-image.png)                             | Represents the integrations that are available on the platform but are not activated by you.                |
-|                              ![](https://files.readme.io/bcf414e-image.png)                             | Represents the integration that are activated and ready to be configured.                                   |
+  |                                       Integration types and icons                                       | Description                                                                                                 |
+  | :-----------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------- |
+  |                              ![](https://files.readme.io/e7a5d5f-image.png)                             | Create shipments and <Glossary>labels</Glossary>.                                                           |
+  |                              ![](https://files.readme.io/c4982ae-image.png)                             | Receive tracking data for shipments via the <Glossary>tracking webhook</Glossary>.                          |
+  |                              ![](https://files.readme.io/49ffe79-image.png)                             | Retrieve a list of available <Glossary>PUDO</Glossary> locations for local collect and return services.     |
+  |                              ![](https://files.readme.io/455aadf-image.png)                             | Arrange the collections via an API. Mostly referred to as the <Glossary>home collection</Glossary> service. |
+  |                              ![](https://files.readme.io/9b34d8a-image.png)                             | Manage compliance with cross-border trade.                                                                  |
+  | ![](https://files.readme.io/9312632b86156fbf1e5207b2bd99d08e14151def017bb7c2872709b642aa4653-image.png) | Get more information on the carrier-specific integrations and services.                                     |
+  |                              ![](https://files.readme.io/55241d1-image.png)                             | Represents the integrations that are not yet available and coming soon!                                     |
+  |                              ![](https://files.readme.io/b378434-image.png)                             | Represents the integrations that are available on the platform but are not activated by you.                |
+  |                              ![](https://files.readme.io/bcf414e-image.png)                             | Represents the integration that are activated and ready to be configured.                                   |
 
-After viewing the general information, you may select a particular carrier that you wish to integrate with and learn more about its additional features and services.
-
+  After viewing the general information, you may select a particular carrier that you wish to integrate with and learn more about its additional features and services.
 </Accordion>
 
+<Accordion title="Carrier-specific integrations">
+  The carrier-specific integrations can be accessed by selecting the carrier on the Integrations page. The carrier-specific page provides you with the full range of additional features and services offered by that carrier.
+</Accordion>
 
-***
-
-## View carrier-specific integrations
-
-The carrier-specific integrations can be accessed by selecting the carrier on the Integrations page. The carrier-specific page provide you with the full range of additional features and services offered by that carrier that includes the following:
 
 * **Top Services**: this block highlights the primary services offered by the carrier, such as standard shipping, international delivery, tracking options, special delivery, and so on.
 * **Top Features**: this block entails the key functionalities that enhance the user experience and operational efficiency. This may include real-time tracking capabilities, automated label generation, home collection services, and much more.
