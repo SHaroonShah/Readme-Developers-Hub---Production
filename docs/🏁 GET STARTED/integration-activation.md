@@ -66,7 +66,7 @@ next:
   <Image align="center" border={true} src="https://files.readme.io/9b0f989-image.png" alt="Viewing carrier-specific integrations" />
 
   <ToggleList>
-    <ToggleListItem title={<strong>"Top Services"</strong>}>
+    <ToggleListItem title={<strong>Top Services</strong>}>
       This block highlights the primary services offered by the carrier, such as:
 
       * Standard shipping
