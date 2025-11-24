@@ -14,7 +14,7 @@ metadata:
 ---
 If you are looking to build an integration, then our API solution will help you incorporate the intelligence of Intersoft SAPIENT into your software with minimal integration effort.
 
-<Image align="center" border={false} width="100px" src="https://files.readme.io/5983b6b19fcad48ede8cf0f1c5fd97ae8eb55e5ea6e3eaf39de12345fa83d586-Activate_icon.png" />
+<Image align="center" border={false} width="100px" src="https://files.readme.io/a8a7db329e4b7bd5ab53f21f2e828fe49d17a0b01f58a50cf87cef4d1525af53-Activate_icon.png" />
 
 <Accordion title="What is SAPIENT API?" icon="code">
   **Intersoft SAPIENT API** is a fullt RESTful service that enables you to create and manage shipments, produce labels and customs documentation, generate and print collection manifests. The API also allows you to retrieve reference data such as carriers supported by the platform and the countries where shipments can be sent, maintain your own data required for these, such as adding and managing shipping accounts and <Glossary>shipping location</Glossary> details.
@@ -40,7 +40,7 @@ Get ready to integrate our powerful API into your existing systems. Whether you 
   </SimpleStep>
 
   <SimpleStep header="2. Activate Integration">
-    <Image align="center" border={false} width="100px" src="https://files.readme.io/5983b6b19fcad48ede8cf0f1c5fd97ae8eb55e5ea6e3eaf39de12345fa83d586-Activate_icon.png" />
+    <Image align="center" border={false} width="100px" src="https://files.readme.io/a8a7db329e4b7bd5ab53f21f2e828fe49d17a0b01f58a50cf87cef4d1525af53-Activate_icon.png" />
 
     [Enable your integration](https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/integration-activation#/) to begin using SAPIENT's shipping capabilities
   </SimpleStep>
