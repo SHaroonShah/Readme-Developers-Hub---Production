@@ -98,10 +98,9 @@ next:
   </ToggleList>
 </Accordion>
 
-## Activate integration
-
-After you have viewed the carrier-specific integrations and have decided to move forward with that <Glossary>carrier</Glossary>, you can now activate the integration. To do so, follow the instructions provided in the following procedure:
-
+<Accordion title="Activate integration" icon="fa-info-circle">
+  After you have viewed the carrier-specific integrations and have decided to move forward with that carrier, you can now activate the integration.
+To do so, follow the instructions provided in the following procedure:
 1. Select the carrier that you want to integrate and then choose the integration that that you want to activate for that carrier.
 2. Based on your selected integration type, you may see one of the following **Integration Activation** screens.
 
@@ -122,3 +121,8 @@ Once the activation is confirmed, the system sends an email to the main user on 
 > 📘 _Note_
 >
 > _If you do not see the carrier(s) you are looking for, please reach out to our Customer Solutions team at [onboarding@intersoft.co.uk](mailto:onboarding@intersoft.co.uk) and we can consider getting these added in our upcoming deployment._
+
+</Accordion>
+
+
+
