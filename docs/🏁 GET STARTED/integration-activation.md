@@ -64,6 +64,7 @@ next:
   The carrier-specific integrations can be accessed by selecting the carrier on the Integrations page. The carrier-specific page provides you with the full range of additional features and services offered by that carrier.
 
   <Image align="center" border={true} src="https://files.readme.io/9b0f989-image.png" alt="Viewing carrier-specific integrations" />
+<br></br>
 
   <ToggleList>
     <ToggleListItem title={<strong>Top Services</strong>}>
