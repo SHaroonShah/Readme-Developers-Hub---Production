@@ -19,7 +19,7 @@ next:
 
 <Banner isInline={true} message="" color="#ffb600" textColor="#ffffff" fontSize="14px" fontWeight="bold" width="120px" />
 
-<Cards columns={5}>
+<Cards columns={4}>
   <Card title="Getting Started" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/getting-started-1#/" icon="fa-animation fa-plug" target="_blank">
     Build your integration with our API solution with minimal effort.
   </Card>
