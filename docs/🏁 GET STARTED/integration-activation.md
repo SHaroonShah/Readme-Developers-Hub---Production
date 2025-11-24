@@ -84,7 +84,7 @@ next:
       * Advanced shipping options
     </ToggleListItem>
 
-    <ToggleListItem title="Useful Links">
+    <ToggleListItem title={<strong>Useful Links</strong>}>
       This block provides valuable resources for users:
 
       * Direct links to the carrier's website
