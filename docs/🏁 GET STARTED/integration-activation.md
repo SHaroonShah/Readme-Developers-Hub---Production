@@ -21,7 +21,7 @@ next:
   _You may need to refer to this section every time you wish to activate a new integration. Therefore, we recommend you to familiarise yourself with this section and understand the icons and functionalities offered in the SAPIENT platform._
 </Callout>
 
-<Accordion title="Access integrations page" icon="fa-info-circle">
+<Accordion title="Access integrations page" icon="">
   This section explains the components available on the **Integrations** page of the SAPIENT platform. The Integrations page displays the <Glossary>carrier</Glossary>(s) that are available or coming soon to the platform. Each carrier has its own specific block with its description of what it offers as well as showcasing its available integration types. You can click into the carrier specific page by clicking their logo or the **Learn More** button.\
   To access the **Integrations** page, perform the steps as explained in the following procedure:
 
@@ -42,7 +42,7 @@ next:
   <Image align="center" border={true} src="https://files.readme.io/42044e1252f492b4bd51e1ed7d86a66048cc74d82bf26ee7fc53761e7780c2c1-Integrations_page.png" alt="Selecting integrations" />
 </Accordion>
 
-<Accordion title="Integration types" icon="fa-info-circle">
+<Accordion title="Integration types" icon="">
   Each carrier offers different integration types, represented by specific icons and symbols. Here's what each one means:
 
   |                                       Integration types and icons                                       | Description                                                                                                 |
@@ -64,7 +64,8 @@ next:
   The carrier-specific integrations can be accessed by selecting the carrier on the Integrations page. The carrier-specific page provides you with the full range of additional features and services offered by that carrier.
 
   <Image align="center" border={true} src="https://files.readme.io/9b0f989-image.png" alt="Viewing carrier-specific integrations" />
-<br></br>
+
+  <br />
 
   <ToggleList>
     <ToggleListItem title={<strong>Top Services</strong>}>
