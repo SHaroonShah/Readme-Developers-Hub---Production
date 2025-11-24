@@ -75,7 +75,7 @@ Explore additional resources to deepen your understanding of the SAPIENT system 
 <Tabs>
   <Tab title="User Guides">
     <Cards columns={3}>
-      <Card title="Maintenance Guides" href="https://docs.intersoftsapient.net/docs/maintenance-guides" icon="fa-book-open" iconColor="">
+      <Card title="System User Guides" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/system-user-guides#/" icon="fa-book-open" iconColor="">
         Learn how to maintain and configure your SAPIENT system effectively
       </Card>
 
