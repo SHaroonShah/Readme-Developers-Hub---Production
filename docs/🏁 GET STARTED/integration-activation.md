@@ -127,5 +127,5 @@ next:
 
   > 📘 *Note*
   >
-  > *If you do not see the carrier(s) you are looking for, please reach out to our Customer Solutions team at[onboarding@intersoft.co.uk](mailto:onboarding@intersoft.co.uk) and we can consider getting these added in our upcoming deployment.*
+  > *If you do not see the carrier(s) you are looking for, please reach out to our Customer Solutions team at [onboarding@intersoft.co.uk](mailto:onboarding@intersoft.co.uk) and we can consider getting these added in our upcoming deployment.*
 </Accordion>
