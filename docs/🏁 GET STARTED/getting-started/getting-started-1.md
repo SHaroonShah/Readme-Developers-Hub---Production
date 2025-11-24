@@ -96,7 +96,7 @@ Explore additional resources to deepen your understanding of the SAPIENT system 
       </Card>
 
       <Card title="Intersoft Tracking Webhook" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/tracking-webhook-1#/versions" icon="fa-solid fa-webhook" iconColor="">
-        Use our tracking webhook solution to receive real-time updates and data from various services and applications.
+        Use our tracking webhook solution to receive real-time updates and data from various services and applications
       </Card>
     </Cards>
   </Tab>
