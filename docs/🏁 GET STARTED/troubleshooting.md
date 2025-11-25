@@ -93,7 +93,7 @@ While using the system, if you run into any issues that you are unable to resolv
 > * _Do not send your Intersoft Sapient Client ID or Secret._
 > * _Store the Intersoft format of the JSON request and response to allow us to investigate any API related issues._
 
-If the issue you are experiencing is not outlined in the preceding list or you do not have all the information on the issue, please reach out to our Tech Support team and provide all the necessary details of the issue to escalate the process.
+If the issue you are experiencing is not outlined in the preceding cards or you do not have all the information on the issue, please reach out to our Tech Support team and provide all the necessary details of the issue to escalate the process.
 </Accordion>
 
 
