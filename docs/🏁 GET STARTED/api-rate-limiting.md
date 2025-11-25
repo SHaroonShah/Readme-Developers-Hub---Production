@@ -75,5 +75,3 @@ _Note: Some carriers may have additional rate limits beyond Intersoft's policy._
     Reach out to our customer solutions team to discuss your requirements and get the right solution configured.
   </ToggleListItem>
 </ToggleList>
-
-<Compatibility title="Feature Name" subtitle="This is a description of the feature" plans={{ Free: false, Business: true, Enterprise: true }} />
