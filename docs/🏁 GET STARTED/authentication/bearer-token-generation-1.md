@@ -40,6 +40,26 @@ Generating a bearer token is essential for securely managing access to APIs, all
 
 ### To generate the bearer token
 
+<br />
+
+<ToggleList>
+  <ToggleListItem title={<strong>Set up Postman</strong>} icon="fa-rocket">
+    Contact our customer solutions team to discuss upgrading your rate limits. Additional carrier limitations may also apply.
+  </ToggleListItem>
+
+  <ToggleListItem title={<strong>How do I choose the right rate limiting solution?</strong>}>
+    Consider your API call volume, security requirements, and budget. Our sales team can help assess your specific needs.
+  </ToggleListItem>
+
+  <ToggleListItem title={<strong>What does a higher TPS solution cost?</strong>}>
+    Pricing varies based on call volume and support level required. Contact our sales team for custom pricing.
+  </ToggleListItem>
+
+  <ToggleListItem title={<strong>How do I get started?</strong>}>
+    Reach out to our customer solutions team to discuss your requirements and get the right solution configured.
+  </ToggleListItem>
+</ToggleList>
+
 <Accordion title="1. Set Up Postman" icon="fa-rocket">
   Launch the Postman application or log in into your Postman account. If you have selected the online version, make sure to activate your account.
 
