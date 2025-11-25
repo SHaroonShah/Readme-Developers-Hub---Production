@@ -53,12 +53,14 @@ To generate the bearer token, perform the steps as explained in the following pr
 
       *If you do not have the Postman application, you can download it[here](https://www.postman.com/downloads/) or register for an online Postman account, respectively.*
     </Callout>
+***
   </ToggleListItem>
 
   <br />
 
   <ToggleListItem title={<strong>2. Create HTTP request</strong>}>
-***
+    ***
+
     After successfully logging in, on your workspace toolbar, select **New** > **HTTP**. Alternatively, on your workspace, select **+** tab to add a new HTTP request tab.
 
     <Image align="center" border={true} src="https://files.readme.io/93a14a1a00ff5ad67a4e5ad4a74677828b0e364b445c378ee24cd5795fe6acd5-New_HTTP_request_option.png" alt="Creating new HTTP request in Postman" />
@@ -67,7 +69,8 @@ To generate the bearer token, perform the steps as explained in the following pr
   <br />
 
   <ToggleListItem title={<strong>3. Configure Request URL</strong>}>
-***
+    ***
+
     In the new request tab that opens, from the left dropdown menu, select **POST** and enter the following URL in the **Enter request URL** field:
 
     `https://authentication.intersoftsapient.net/connect/token`
@@ -78,7 +81,8 @@ To generate the bearer token, perform the steps as explained in the following pr
   <br />
 
   <ToggleListItem title={<strong>4. Set Request Body Parameters</strong>}>
-***
+    ***
+
     Now, select the **Body** tab and then click the **x-www-form-urlencoded** option. In the table that appears, enter the following key-value pairs:
 
     <Columns layout="auto">
@@ -107,7 +111,8 @@ To generate the bearer token, perform the steps as explained in the following pr
   <br />
 
   <ToggleListItem title={<strong>5. Send Request and Get Token</strong>}>
-***
+    ***
+
     After entering the necessary information, select **Send**.
 
     If the credentials match the ones that have been set in the **Create API Credentials** functionality, then the bearer token is returned in the response.
