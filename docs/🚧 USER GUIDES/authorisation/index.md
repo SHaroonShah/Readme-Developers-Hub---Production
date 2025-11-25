@@ -1,28 +1,52 @@
 ---
 title: Authorisation
 excerpt: >-
-  Authorisation refers to the control of the user's access to a particular
-  system. It involves the process of checking and deciding if the user, based on
-  their role, is worthy of carrying out a certain task or seeing a particular
-  information within the system.
+  Learn about SAPIENT platform authorisation including access requirements, user
+  types, and essential authentication functions like login, password management,
+  and logout procedures.
 deprecated: false
 hidden: false
 icon: fad fa-user-shield
+link:
+  new_tab: false
 metadata:
   title: ''
   description: ''
   robots: index
-next:
-  description: ''
 ---
-To sign in to the SAPIENT platform, there several important factors that deals with what you can see and how much you can perform within the system.
+To sign in to the SAPIENT platform, there are several important factors that determine what you can see and how much you can perform within the system.
 
-* The URL of the specific environment: <Glossary>development</Glossary>, <Glossary>test</Glossary>, or <Glossary>production</Glossary> environment.
-* The type of users attempting to access SAPIENT: <Glossary>admin</Glossary> or a <Glossary>customer</Glossary> .
+## Key Access Requirements
 
-In this section, learn how to: 
+<Cards columns={2}>
+  <Card title="Environment URL" icon="globe">
+    You need the specific URL for your target environment:
+    - <Glossary>Development</Glossary> environment
+    - <Glossary>Test</Glossary> environment  
+    - <Glossary>Production</Glossary> environment
+  </Card>
+  <Card title="User Type" icon="user">
+    Your access level depends on your user role:
+    - <Glossary>Admin</Glossary> users have full system access
+    - <Glossary>Customer</Glossary> users have limited permissions
+  </Card>
+</Cards>
 
-* [Log in to SAPIENT](https://docs.intersoftsapient.net/docs/log-in)
-* [Change password](https://docs.intersoftsapient.net/docs/change-password)
-* [Reset password](https://docs.intersoftsapient.net/docs/reset-password)
-* [Log out](https://docs.intersoftsapient.net/docs/log-out)
+## Authentication Actions
+
+Manage your SAPIENT platform access with these essential functions:
+
+<Cards columns={2}>
+  <Card title="Log In" href="https://docs.intersoftsapient.net/docs/log-in" icon="sign-in-alt">
+    Access your SAPIENT account with your credentials
+  </Card>
+  <Card title="Change Password" href="https://docs.intersoftsapient.net/docs/change-password" icon="key">
+    Update your current password for enhanced security
+  </Card>
+  <Card title="Reset Password" href="https://docs.intersoftsapient.net/docs/reset-password" icon="unlock">
+    Recover access when you've forgotten your password
+  </Card>
+  <Card title="Log Out" href="https://docs.intersoftsapient.net/docs/log-out" icon="sign-out-alt">
+    Safely exit your SAPIENT session
+  </Card>
+</Cards>
