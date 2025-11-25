@@ -33,25 +33,23 @@ When it comes to troubleshooting API related issues, it is important to first un
 
 For smooth interaction with the APIs it is recommended to follow some best practises to maintain the functionality and avoid issue generation.
 
+<Columns layout="auto">
+  <Column>
+    **Analysis & Monitoring**
 
-  <Columns layout="auto">
-    <Column>
-      **Analysis & Monitoring**
+    * **Analyze response errors**: Review HTTP status codes (400, 401, 429, 500) to understand failures
+    * **Perform logging and monitoring**: Use logs to track API interactions and identify errors
+    * **Check your rate limits**: Verify that request frequency stays within allowed limits
+  </Column>
 
-      * **Analyze response errors**: Review HTTP status codes (400, 401, 429, 500) to understand failures
-      * **Perform logging and monitoring**: Use logs to track API interactions and identify errors
-      * **Check your rate limits**: Verify that request frequency stays within allowed limits
-    </Column>
+  <Column>
+    **Testing & Documentation**
 
-    <Column>
-      **Testing & Documentation**
-
-      * **Use testing tools**: Leverage tools like Postman or curl for manual API testing
-      * **Adhere to required formats**: Ensure API requests follow the correct format (JSON, XML, etc.)
-      * **Refer to documentation**: Consult API references for proper usage and expected responses
-    </Column>
-  </Columns>
-
+    * **Use testing tools**: Leverage tools like Postman or curl for manual API testing
+    * **Adhere to required formats**: Ensure API requests follow the correct format (JSON, XML, and so on.)
+    * **Refer to documentation**: Consult API references for proper usage and expected responses
+  </Column>
+</Columns>
 
 ***
 
