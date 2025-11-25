@@ -57,29 +57,29 @@ For smooth interaction with the APIs it is recommended to follow some best pract
 
 While using the system, if you run into any issues that you are unable to resolve or troubleshoot, you can always contact Intersoft. This section lists the standard information for all requests that we will require from you to troubleshoot your issues.
 
-<Accordion title="Information Required for Support Requests" icon="list-ul">
+<Accordion title="Information Required for Support Requests" icon="">
   When contacting Intersoft for troubleshooting assistance, please provide the following information to expedite resolution:
 
   <Cards columns="2">
-    <Card title="Basic Information" icon="info-circle">
+    <Card title="Basic Information" icon="fa-solid fa-circle-info">
       * Customer name
       * Brief description of the issue and affected system areas
       * Issue severity level
       * Screenshots (if applicable)
     </Card>
 
-    <Card title="Technical Details" icon="cogs">
+    <Card title="Technical Details" icon="fa-solid fa-tachograph-digital">
       * Shipping location and/or shipping account details (ID or Alias)
       * Affected carriers
       * Date/time when the issue occurred
     </Card>
 
-    <Card title="Tracking-Specific Info" icon="shipping-fast">
+    <Card title="Tracking-Specific Info" icon="fa-solid fa-calendar-clock">
       * Example tracking numbers (for tracking-related issues)
       * Specify if tracking numbers are from Intersoft Sapient system OR registered via /trackings API
     </Card>
 
-    <Card title="API Details" icon="code">
+    <Card title="API Details" icon="fa-solid fa-code">
       * Store Intersoft format JSON request and response
       * Relevant error codes or messages
       * API endpoint information
