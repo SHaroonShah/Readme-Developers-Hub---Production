@@ -33,7 +33,9 @@ To access the SAPIENT system, you'll need to log in with your credentials. This 
 To log in to the SAPIENT system, follow the instructions as explained in the following procedure.
 
 <ToggleList>
-  <ToggleListItem title={<strong>1. Access the system</strong>} icon="fa-rocket"> <br></br>
+  <ToggleListItem title={<strong>1. Access the system</strong>} icon="fa-rocket">
+  
+
     Open your browser and in the address bar, enter the URL address of the SAPIENT system.
   </ToggleListItem>
 
