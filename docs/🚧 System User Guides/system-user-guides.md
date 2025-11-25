@@ -18,7 +18,7 @@ metadata:
 
 <Cards columns={3}>
   <Card title="Authorisation" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/authorisation#/" icon="fa-solid fa-badge-check">
-    Learn how to authenticate and authorize access to the SAPIENT system securely
+    Learn how to authenticate and authorise access to the SAPIENT system securely
   </Card>
 
   <Card title="SAPIENT UI Interaction" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/interaction-with-sapient-ui#/" icon="fa-solid fa-sidebar">
@@ -33,7 +33,7 @@ metadata:
 ## Operations & Processing
 
 <Cards columns={2}>
-  <Card title="Search Shipments" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/shipment-search#/" icon="fa-solid fa-box-magnifying-glass">
+  <Card title="Search Shipments" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/shipment-search#/" icon="fa-solid fa-magnifying-glass">
     Learn efficient methods to search and locate shipments within the system.
   </Card>
 
