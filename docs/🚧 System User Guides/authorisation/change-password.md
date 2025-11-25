@@ -29,17 +29,6 @@ To change the password, follow the steps as explained in the following procedure
   <ToggleListItem title={<strong>2. Change password</strong>} icon="fa-rocket">
     In the **Change Password** form that opens, enter the necessary information as explained in the following table.
 
-> 🚧 _Important_
->
-> _Before you set or change your password, ensure the following:_
->
-> 1. _Use a password manager to secure your password in an encrypted format._
-> 2. _Include a mix of characters, such as a combination of uppercase, lowercase, number, and special characters._
-> 3. _Avoid common words or phrases._
-> 4. _Monitor for breaches._
->
-> _For more information on how to set up a strong password, refer to the [guidelines for choosing a strong password](https://docs.intersoftsapient.net/docs/guidelines-for-choosing-strong-password#/) section._
-
 <br />
 
 <Image align="center" alt="Entering new password" border={true} caption="Entering new password" src="https://files.readme.io/5d2b94ec1944f824776030f65f260caf76d36fb7d893dbfc6bc1a6f0e3676db4-Change_password_dialog.png" width="300px" />
@@ -59,4 +48,3 @@ Once finished, you are directed to the Sign in page page, meaning that you have 
   </ToggleListItem>
 
 </ToggleList>
-
