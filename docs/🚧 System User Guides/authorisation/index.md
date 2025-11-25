@@ -45,15 +45,15 @@ Manage your SAPIENT platform access with these essential functions:
     Access your SAPIENT account with your credentials
   </Card>
 
-  <Card title="Change Password" href="https://docs.intersoftsapient.net/docs/change-password" icon="key">
+  <Card title="Change Password" href="https://docs.intersoftsapient.net/docs/change-password" icon="fa-solid fa-key">
     Update your current password for enhanced security
   </Card>
 
-  <Card title="Reset Password" href="https://docs.intersoftsapient.net/docs/reset-password" icon="unlock">
+  <Card title="Reset Password" href="https://docs.intersoftsapient.net/docs/reset-password" icon="fa-solid fa-unlock">
     Recover access when you've forgotten your password
   </Card>
 
-  <Card title="Log Out" href="https://docs.intersoftsapient.net/docs/log-out" icon="sign-out-alt">
+  <Card title="Log Out" href="https://docs.intersoftsapient.net/docs/log-out" icon="fa-solid fa-arrow-right-from-bracket">
     Safely exit your SAPIENT session
   </Card>
 </Cards>
