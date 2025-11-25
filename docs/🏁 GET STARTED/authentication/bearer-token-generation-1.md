@@ -65,6 +65,7 @@ To generate the bearer token, perform the steps as explained in the following pr
     After successfully logging in, on your workspace toolbar, select **New** > **HTTP**. Alternatively, on your workspace, select **+** tab to add a new HTTP request tab.
 
     <Image align="center" border={true} src="https://files.readme.io/93a14a1a00ff5ad67a4e5ad4a74677828b0e364b445c378ee24cd5795fe6acd5-New_HTTP_request_option.png" alt="Creating new HTTP request in Postman" />
+***
   </ToggleListItem>
 
   <br />
@@ -77,7 +78,8 @@ To generate the bearer token, perform the steps as explained in the following pr
     `https://authentication.intersoftsapient.net/connect/token`
 
     <Image align="center" border={true} src="https://files.readme.io/ab6a0e55d341d8aaf0cddbe95208ebc3c035155faeb32dd652bf011f79369dec-Postman_dropdown.png" alt="Entering URL" />
-***
+
+    ***
   </ToggleListItem>
 
   <br />
@@ -108,7 +110,8 @@ To generate the bearer token, perform the steps as explained in the following pr
     Enter the credentials generated via the [SAPIENT API Credentials](https://docs.intersoftsapient.net/docs/create-api-credentials) functionality. For the **grant\_type** key, set the value to **client\_credentials**.
 
     <Image align="center" border={true} src="https://files.readme.io/ca361ef126d7b2b88c83d9c6b38ae3e56a4e1d5a0e38b0beed057fc05b86067c-Adding_key_value_pairs.png" alt="Adding keys value pairs" />
-***
+
+    ***
   </ToggleListItem>
 
   <br />
@@ -121,7 +124,8 @@ To generate the bearer token, perform the steps as explained in the following pr
     If the credentials match the ones that have been set in the **Create API Credentials** functionality, then the bearer token is returned in the response.
 
     <Image align="center" border={true} src="https://files.readme.io/b8499e2-image.png" alt="Bearer token response example" />
-***
+
+    ***
   </ToggleListItem>
 </ToggleList>
 
