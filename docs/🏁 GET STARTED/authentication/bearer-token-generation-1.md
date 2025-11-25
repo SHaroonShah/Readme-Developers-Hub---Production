@@ -42,7 +42,8 @@ Generating a bearer token is essential for securely managing access to APIs, all
   Launch the Postman application or log in into your Postman account. If you have selected the online version, make sure to activate your account.
 
   <Callout icon="💡" theme="default">
-    **Tip:** If you do not have the Postman application, you can download it [here](https://www.postman.com/downloads/) or register for an online Postman account, respectively.
+    **###_Tip_ 
+If you do not have the Postman application, you can download it [here](https://www.postman.com/downloads/) or register for an online Postman account, respectively.
   </Callout>
 </Accordion>
 
