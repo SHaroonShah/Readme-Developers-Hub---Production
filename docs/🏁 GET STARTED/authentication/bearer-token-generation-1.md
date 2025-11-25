@@ -41,7 +41,7 @@ Generating a bearer token is essential for securely managing access to APIs, all
   </Card>
 </Cards>
 
-## Step-by-Step Process
+### To generate the bearer token
 
 <Accordion title="Step 1: Set Up Postman" icon="fa-rocket">
   Launch the Postman application or log in into your Postman account. If you have selected the online version, make sure to activate your account.
