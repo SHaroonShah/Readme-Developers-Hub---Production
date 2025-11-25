@@ -1,7 +1,7 @@
 ---
 title: Log in to SAPIENT
 excerpt: >-
-  This section describesLearn how to log in to the SAPIENT system, manage your
+  This section describes how to log in to the SAPIENT system, manage your
   password, and log out securely with step-by-step instructions for different
   user types.
 deprecated: false
