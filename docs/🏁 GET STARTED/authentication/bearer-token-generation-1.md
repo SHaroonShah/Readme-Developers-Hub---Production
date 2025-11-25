@@ -21,21 +21,9 @@ metadata:
 ---
 Generating a bearer token is essential for securely managing access to APIs, allowing for robust authentication mechanisms while maintaining a stateless, scalable architecture.
 
-> 📘 _Note_ 
+> 📘 _Note_
 >
 > _This section explains the process of generating the bearer token via the Postman application. You may use other platforms to generate the bearer token, if applicable._
-
-<Callout icon="💡" theme="default">
-  ### _Tip_
-
-  _If you do not have the Postman application, you can download it [here](https://www.postman.com/downloads/) or register for an online Postman account, respectively._
-</Callout>
-
-> 🚧 _Important_
->
-> _Please ensure you cache the authentication token and check for expiry before requesting a new one._
-
-<br />
 
 ## Overview
 
@@ -58,11 +46,11 @@ Generating a bearer token is essential for securely managing access to APIs, all
 <Accordion title="Step 1: Set Up Postman" icon="fa-rocket">
   Launch the Postman application or log in into your Postman account. If you have selected the online version, make sure to activate your account.
 
-<Callout icon="💡" theme="default">
-  ### _Tip_
+  <Callout icon="💡" theme="default">
+    ### *Tip*
 
-  _If you do not have the Postman application, you can download it [here](https://www.postman.com/downloads/) or register for an online Postman account, respectively._
-</Callout>
+    *If you do not have the Postman application, you can download it[here](https://www.postman.com/downloads/) or register for an online Postman account, respectively.*
+  </Callout>
 </Accordion>
 
 <Accordion title="Step 2: Create HTTP Request" icon="fa-plus">
@@ -127,10 +115,9 @@ Generating a bearer token is essential for securely managing access to APIs, all
   <Tab title="Token Expiry">
     The **expires\_in** value indicates the duration for which the token remains valid, measured in seconds. For example, a value of 3600 seconds corresponds to 60 minutes of validity.
 
-> 🚧 _Important_
->
-> _Please ensure you cache the authentication token and check for expiry before requesting a new one._
-    
+    > 🚧 *Important*
+    >
+    > *Please ensure you cache the authentication token and check for expiry before requesting a new one.*
   </Tab>
 </Tabs>
 
