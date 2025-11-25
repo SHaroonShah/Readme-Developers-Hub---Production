@@ -40,8 +40,6 @@ Generating a bearer token is essential for securely managing access to APIs, all
 
 ### To generate the bearer token
 
-<br />
-
 <ToggleList>
   <ToggleListItem title={<strong>Set up Postman</strong>} icon="fa-rocket">
     Contact our customer solutions team to discuss upgrading your rate limits. Additional carrier limitations may also apply.
