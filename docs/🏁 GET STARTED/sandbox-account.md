@@ -28,7 +28,7 @@ next:
 
     * Provided during initial onboarding
     * Create test labels
-    * Familiarize yourself with the system
+    * Familiarise yourself with the system
     * Test your API credentials
   </Card>
 
