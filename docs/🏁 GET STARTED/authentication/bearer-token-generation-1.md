@@ -52,13 +52,15 @@ To generate the bearer token, perform the steps as explained in the following pr
       *If you do not have the Postman application, you can download it[here](https://www.postman.com/downloads/) or register for an online Postman account, respectively.*
     </Callout>
   </ToggleListItem>
-<br></br>
+
+  <br />
+
   <ToggleListItem title={<strong>2. Create HTTP request</strong>}>
     After successfully logging in, on your workspace toolbar, select **New** > **HTTP**. Alternatively, on your workspace, select **+** tab to add a new HTTP request tab.
 
     <Image align="center" border={true} src="https://files.readme.io/93a14a1a00ff5ad67a4e5ad4a74677828b0e364b445c378ee24cd5795fe6acd5-New_HTTP_request_option.png" alt="Creating new HTTP request in Postman" />
   </ToggleListItem>
-
+<br></br>
   <ToggleListItem title={<strong>3. Configure Request URL</strong>}>
     In the new request tab that opens, from the left dropdown menu, select **POST** and enter the following URL in the **Enter request URL** field:
 
