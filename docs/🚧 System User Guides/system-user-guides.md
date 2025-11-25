@@ -34,11 +34,11 @@ metadata:
 
 <Cards columns={2}>
   <Card title="Search Shipments" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/shipment-search#/" icon="fa-solid fa-magnifying-glass">
-    Learn efficient methods to search and locate shipments within the system.
+    Learn efficient methods to search and locate shipments within the system
   </Card>
 
   <Card title="Shipment Processing" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/shipment-processing#/" icon="fa-solid fa-loader">
-    Complete guide for processing shipments from start to finish.
+    Complete guide for processing shipments from start to finish
   </Card>
 </Cards>
 
@@ -46,7 +46,7 @@ metadata:
 
 <Cards columns={1}>
   <Card title="Maintenance" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/maintenance-guides#/" icon="fa-solid fa-screwdriver-wrench">
-    Essential maintenance tasks and procedures to keep the system running smoothly.
+    Essential maintenance tasks and procedures to keep the system running smoothly
   </Card>
 </Cards>
 
