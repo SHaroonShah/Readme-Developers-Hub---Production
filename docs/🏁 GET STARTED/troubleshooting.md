@@ -113,7 +113,7 @@ Please use any of the following contact details to reach out to our Technical Su
     </Column>
 
     <Column>
-      **Alternative Ticketing Domains**
+     > **Alternative Ticketing Domains**
 
       For seamless interaction with our support team, you can also use:
 
