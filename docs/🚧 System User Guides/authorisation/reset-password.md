@@ -60,7 +60,6 @@ To reset your password in SAPIENT, follow the steps as explained in the followin
     |                                            Confirm password\*                                           | Enter your new password again.                                         |
     | ![](https://files.readme.io/cc9ea11a8d08d31a6981094a3f4ad62ee7e7a97c0aa128831d78a46be3b96ed5-image.png) | Select this button to update and save your new password.               |
     | ![](https://files.readme.io/38bb42a804e626718cb9ec7a2d32ed60a2b1b5f56fce2f60e302ed4c706f2e96-image.png) | Select this button to stop the password resetting process.             |
-
   </ToggleListItem>
 </ToggleList>
 
@@ -68,4 +67,4 @@ Once finished, your password is successfully reset and updated. You can now log 
 
 > 🚧 _Important_
 >
-> _The**Reset my password** activation link in the received email is available once per 24 hours only. After that, you need to submit a new request._
+> _The **Reset my password** activation link in the received email is available once per 24 hours only. After that, you need to submit a new request._
