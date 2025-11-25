@@ -75,4 +75,4 @@ To reset your password in SAPIENT, follow the steps as explained in the followin
   </ToggleListItem>
 </ToggleList>
 
-Once finished, your password is **successfully** reset and updated. You can now log in to SAPIENT with your updated password.
+Once finished, your password is successfully reset and updated. You can now log in to SAPIENT with your updated password.
