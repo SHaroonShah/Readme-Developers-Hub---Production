@@ -53,12 +53,7 @@ For smooth interaction with the APIs it is recommended to follow some best pract
   </Columns>
 </Accordion>
 
-* **Analyse response errors**: analysing HTTP status codes (like 400, 401, 429, 500) to understand failures.
-* **Adhere to requested formats**: ensuring that API requests adhere to the required format (JSON, XML, and others).
-* **Check your rate limits**: checking if the number of requests exceeds the allowed limits.
-* **Perform logging and monitoring**: utilising logs to track APIP interactions and identify errors.
-* **Use testing tools**: using tools like Postman or curl to manually test API calls.
-* **Refer to supporting documentation**: consulting the API references and documentation for correct usage and expected responses.
+***
 
 # Troubleshooting at Intersoft
 
