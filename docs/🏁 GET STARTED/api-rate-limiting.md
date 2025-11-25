@@ -75,10 +75,21 @@ _Note: Some carriers may have additional rate limits beyond Intersoft's policy._
 </Accordion>
 
 <ToggleList>
-  <ToggleListItem title="What type of books do owls like to read?">
-    Hoooo-dunnits 🔎
-  </ToggleListItem>
-  <ToggleListItem title="What’s an owl’s favorite drink?">
-    Hoot beer 🥤
-  </ToggleListItem>
-</ToggleList>
+    <ToggleListItem title={<strong>What if I need a higher rate limit?</strong>}>
+      Contact our customer solutions team to discuss upgrading your rate limits. Additional carrier limitations may also apply.
+    </ToggleListItem>
+
+    <ToggleListItem title={<strong>How do I choose the right rate limiting solution?</strong>}>
+ Consider your API call volume, security requirements, and budget. Our sales team can help assess your specific needs.
+    </ToggleListItem>
+
+    <ToggleListItem title={<strong>What does a higher TPS solution cost?</strong>}>
+      Pricing varies based on call volume and support level required. Contact our sales team for custom pricing.
+
+  </ToggleListItem>   <ToggleListItem title={<strong>How do I get started?</strong>}>
+ Reach out to our customer solutions team to discuss your requirements and get the right solution configured.
+    </ToggleListItem>
+
+  </ToggleList>
+
+<br />
