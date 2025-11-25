@@ -1,7 +1,8 @@
 ---
 name: ToggleList_1
 ---
-import { useState, useMemo} from 'react';
+
+import { useState, useMemo } from 'react';
 
 export const ToggleList = ({ children, ...rest }) => {
   return <ul style={{ padding: 0 }} {...rest}>{children}</ul>;
@@ -30,7 +31,15 @@ export const ToggleListItem = ({ title, children, ...rest }) => {
             className={`${isOpen ? 'rotate-90 ' : ''} transition-all transform fa-regular fa-chevron-right`}
           />
         </button>
-        <span>{title}</span>
+        {/* Apply dynamic color */}
+        <span
+          style={{
+            color: isOpen ? '#ffb600' : '#000', // Orange when open, black when closed
+            fontWeight: 'bold'
+          }}
+        >
+          {title}
+        </span>
       </div>
       {!!isOpen && (
         <div className="ml-8 mt-2" id={contentId}>
@@ -41,6 +50,7 @@ export const ToggleListItem = ({ title, children, ...rest }) => {
   );
 };
 
+// Usage
 <ToggleList>
   <ToggleListItem title="What type of books do owls like to read?">
     Hoooo-dunnits 🔎
