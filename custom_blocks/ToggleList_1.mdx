@@ -22,7 +22,7 @@ export const ToggleListItem = ({ title, children, ...rest }) => {
           aria-controls={contentId}
           aria-expanded={isOpen}
           aria-label={isOpen ? 'Close' : 'Open'}
-          className="h-6 w-6 flex items-center justify-center bg-transparent border-none cursor-pointer"
+          className="h-6 w-6 flex items-center justify-center bg-transparen border-none cursor-pointer"
           onClick={() => setIsOpen(prev => !prev)}
           type="button"
         >
@@ -34,7 +34,7 @@ export const ToggleListItem = ({ title, children, ...rest }) => {
         {/* Apply dynamic color */}
         <span
           style={{
-            color: isOpen ? '#ffb600' : '#00', // Orange when open, black when closed
+            color: isOpen ? '#ffb600' : '', // Orange when open, black when closed
             fontWeight: 'bold'
           }}
         >
