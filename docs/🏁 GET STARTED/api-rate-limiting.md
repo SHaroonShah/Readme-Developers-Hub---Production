@@ -19,16 +19,17 @@ Rate limiting controls the number of requests a client can make to an API within
 
 ## Key Benefits
 
-- **Prevents abuse**: Protects against malicious users and bots overwhelming the server
-- **Maintains performance**: Ensures consistent API responsiveness for all users
-- **Resource management**: Prevents server overload and service outages
+* **Prevents abuse**: Protects against malicious users and bots overwhelming the server
+* **Maintains performance**: Ensures consistent API responsiveness for all users
+* **Resource management**: Prevents server overload and service outages
 
 ## Understanding TPS
 
-*Transactions per Second (TPS)* measures how many requests an API can handle per second. This metric helps:
-- Determine system capacity and performance limits
-- Predict concurrent user handling capabilities
-- Establish baselines for peak traffic testing
+_Transactions per Second (TPS)_ measures how many requests an API can handle per second. This metric helps:
+
+* Determine system capacity and performance limits
+* Predict concurrent user handling capabilities
+* Establish baselines for peak traffic testing
 
 ## Best Practices for Handling Rate Limits
 
@@ -49,11 +50,11 @@ Intersoft enforces limits on API calls based on subscription settings, specifica
 
 <Image align="center" alt="Throttling additional requests" border={true} caption="Throttling additional requests" src="https://files.readme.io/719a12c369c234e47811487ce0fd5676ff2279762a470472873b90f2f3066148-Throttling.png" width="600px" />
 
-| Requests per 10 seconds | TPS | Account Level | Estimated Monthly Volume |
-| :---------------------: | :-: | :------------ | :---------------------- |
-|           10            |  1  | Base product  | 72k requests            |
+| Requests per 10 seconds | TPS | Account Level              | Estimated Volume (1 hour/day, 20 days/month |
+| :---------------------: | :-: | :------------------------- | :------------------------------------------ |
+|            10           |  1  | Base product account level | 72k requests                                |
 
-*Note: Some carriers may have additional rate limits beyond Intersoft's policy.*
+_Note: Some carriers may have additional rate limits beyond Intersoft's policy._
 
 ## Frequently Asked Questions
 
