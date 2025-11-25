@@ -41,6 +41,7 @@ To reset your password in SAPIENT, follow the steps as explained in the followin
     >
     > *In case you cannot find the confirmation email, remember to check your spam or junk folders.*
   </ToggleListItem>
+<br></br>
 
   <ToggleListItem title={<strong>4. Complete the password reset form </strong>}>
     In the **Password Reset** form that opens, enter the necessary information as explained in the following table.
