@@ -43,7 +43,7 @@ Generating a bearer token is essential for securely managing access to APIs, all
 
 ### To generate the bearer token
 
-<Accordion title="Set Up Postman" icon="fa-rocket">
+<Accordion title="1. Set Up Postman" icon="fa-rocket">
   Launch the Postman application or log in into your Postman account. If you have selected the online version, make sure to activate your account.
 
   <Callout icon="💡" theme="default">
@@ -53,13 +53,13 @@ Generating a bearer token is essential for securely managing access to APIs, all
   </Callout>
 </Accordion>
 
-<Accordion title="Create HTTP Request" icon="fa-plus">
+<Accordion title="2. Create HTTP Request" icon="fa-plus">
   After successfully logging in, on your workspace toolbar, select **New** > **HTTP**. Alternatively, on your workspace, select **+** tab to add a new HTTP request tab.
 
   <Image align="center" border={true} src="https://files.readme.io/93a14a1a00ff5ad67a4e5ad4a74677828b0e364b445c378ee24cd5795fe6acd5-New_HTTP_request_option.png" alt="Creating new HTTP request in Postman" />
 </Accordion>
 
-<Accordion title="Configure Request URL" icon="fa-link">
+<Accordion title="3. Configure Request URL" icon="fa-link">
   In the new request tab that opens, from the left dropdown menu, select **POST** and enter the following URL in the **Enter request URL** field:
 
   `https://authentication.intersoftsapient.net/connect/token`
@@ -67,7 +67,7 @@ Generating a bearer token is essential for securely managing access to APIs, all
   <Image align="center" border={true} src="https://files.readme.io/ab6a0e55d341d8aaf0cddbe95208ebc3c035155faeb32dd652bf011f79369dec-Postman_dropdown.png" alt="Entering URL" />
 </Accordion>
 
-<Accordion title="Set Request Body Parameters" icon="fa-table">
+<Accordion title="4. Set Request Body Parameters" icon="fa-table">
   Now, select the **Body** tab and then click the **x-www-form-urlencoded** option. In the table that appears, enter the following key-value pairs:
 
   <Columns layout="auto">
