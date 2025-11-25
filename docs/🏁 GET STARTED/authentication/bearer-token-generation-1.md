@@ -38,57 +38,59 @@ Generating a bearer token is essential for securely managing access to APIs, all
   </Card>
 </Cards>
 
-### To generate the bearer token
+### Generating the bearer token
+
+To generate the bearer token, perform the steps as explained in the following procedure:
 
 <ToggleList>
   <ToggleListItem title={<strong>1. Set up Postman</strong>} icon="fa-rocket">
-      Launch the Postman application or log in into your Postman account. If you have selected the online version, make sure to activate your account.
+    Launch the Postman application or log in into your Postman account. If you have selected the online version, make sure to activate your account.
 
-  <Callout icon="💡" theme="default">
-    ### *Tip*
+    <Callout icon="💡" theme="default">
+      ### *Tip*
 
-    *If you do not have the Postman application, you can download it[here](https://www.postman.com/downloads/) or register for an online Postman account, respectively.*
-</Callout>
+      *If you do not have the Postman application, you can download it[here](https://www.postman.com/downloads/) or register for an online Postman account, respectively.*
+    </Callout>
   </ToggleListItem>
 
   <ToggleListItem title={<strong>2. Create HTTP request</strong>}>
-     After successfully logging in, on your workspace toolbar, select **New** > **HTTP**. Alternatively, on your workspace, select **+** tab to add a new HTTP request tab.
+    After successfully logging in, on your workspace toolbar, select **New** > **HTTP**. Alternatively, on your workspace, select **+** tab to add a new HTTP request tab.
 
-  <Image align="center" border={true} src="https://files.readme.io/93a14a1a00ff5ad67a4e5ad4a74677828b0e364b445c378ee24cd5795fe6acd5-New_HTTP_request_option.png" alt="Creating new HTTP request in Postman" />
+    <Image align="center" border={true} src="https://files.readme.io/93a14a1a00ff5ad67a4e5ad4a74677828b0e364b445c378ee24cd5795fe6acd5-New_HTTP_request_option.png" alt="Creating new HTTP request in Postman" />
   </ToggleListItem>
 
   <ToggleListItem title={<strong>3. Configure Request URL</strong>}>
-     In the new request tab that opens, from the left dropdown menu, select **POST** and enter the following URL in the **Enter request URL** field:
+    In the new request tab that opens, from the left dropdown menu, select **POST** and enter the following URL in the **Enter request URL** field:
 
-  `https://authentication.intersoftsapient.net/connect/token`
+    `https://authentication.intersoftsapient.net/connect/token`
 
-  <Image align="center" border={true} src="https://files.readme.io/ab6a0e55d341d8aaf0cddbe95208ebc3c035155faeb32dd652bf011f79369dec-Postman_dropdown.png" alt="Entering URL" />
+    <Image align="center" border={true} src="https://files.readme.io/ab6a0e55d341d8aaf0cddbe95208ebc3c035155faeb32dd652bf011f79369dec-Postman_dropdown.png" alt="Entering URL" />
   </ToggleListItem>
 
   <ToggleListItem title={<strong>4. Set Request Body Parameters</strong>}>
-     Now, select the **Body** tab and then click the **x-www-form-urlencoded** option. In the table that appears, enter the following key-value pairs:
+    Now, select the **Body** tab and then click the **x-www-form-urlencoded** option. In the table that appears, enter the following key-value pairs:
 
-  <Columns layout="auto">
-    <Column>
-      **Required Keys:**
+    <Columns layout="auto">
+      <Column>
+        **Required Keys:**
 
-      * `client_id`
-      * `client_secret`
-      * `grant_type`
-    </Column>
+        * `client_id`
+        * `client_secret`
+        * `grant_type`
+      </Column>
 
-    <Column>
-      **Values:**
+      <Column>
+        **Values:**
 
-      * Your client ID from API credentials
-      * Your client secret from API credentials
-      * Set to `client_credentials`
-    </Column>
-  </Columns>
+        * Your client ID from API credentials
+        * Your client secret from API credentials
+        * Set to `client_credentials`
+      </Column>
+    </Columns>
 
-  Enter the credentials generated via the [SAPIENT API Credentials](https://docs.intersoftsapient.net/docs/create-api-credentials) functionality. For the **grant\_type** key, set the value to **client\_credentials**.
+    Enter the credentials generated via the [SAPIENT API Credentials](https://docs.intersoftsapient.net/docs/create-api-credentials) functionality. For the **grant\_type** key, set the value to **client\_credentials**.
 
-  <Image align="center" border={true} src="https://files.readme.io/ca361ef126d7b2b88c83d9c6b38ae3e56a4e1d5a0e38b0beed057fc05b86067c-Adding_key_value_pairs.png" alt="Adding keys value pairs" />
+    <Image align="center" border={true} src="https://files.readme.io/ca361ef126d7b2b88c83d9c6b38ae3e56a4e1d5a0e38b0beed057fc05b86067c-Adding_key_value_pairs.png" alt="Adding keys value pairs" />
   </ToggleListItem>
 </ToggleList>
 
