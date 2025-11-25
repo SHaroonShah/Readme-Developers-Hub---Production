@@ -50,7 +50,7 @@ Manage your SAPIENT platform access with these essential functions:
   </Card>
 
   <Card title="Reset Password" href="https://docs.intersoftsapient.net/docs/reset-password" icon="fa-solid fa-unlock">
-    Recover access when you've forgotten your password
+    Recover access when you have forgotten your password
   </Card>
 
   <Card title="Log Out" href="https://docs.intersoftsapient.net/docs/log-out" icon="fa-solid fa-arrow-right-from-bracket">
