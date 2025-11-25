@@ -77,7 +77,9 @@ _Note: Some carriers may have additional rate limits beyond Intersoft's policy._
 </ToggleList>
 
 <Compatibility title="Feature Name" subtitle="This is a description of the feature" plans={{ Free: false, Business: true, Enterprise: true }} />
-<Compatibility title="Feature Name" subtitle="This is a description of the feature" plans={{ Free: false, Business: true, Enterprise: true }} />
+
+<Compatibility title="Feature Name" subtitle="This is a description of the feature" plans={{ Free: false, Business: true, Enterprise: true }} title="Feature Name" subtitle="This is a description of the feature" plans={{ Free: false, Business: true, Enterprise: true }} />
+
 <Compatibility title="Feature Name" subtitle="This is a description of the feature" plans={{ Free: false, Business: true, Enterprise: true }} />
 
 <br />
