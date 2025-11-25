@@ -24,7 +24,6 @@ next:
 This section explains the components available on the **Integrations** page of the SAPIENT platform. The Integrations page displays the <Glossary>carrier</Glossary>(s) that are available or coming soon to the platform. Each carrier has its own specific block with its description of what it offers as well as showcasing its available integration types. You can click into the carrier specific page by clicking their logo or the **Learn More** button.
 
 <Accordion title="Access integrations page" icon="">
-  
   To access the **Integrations** page, perform the steps as explained in the following procedure:
 
   1. Log in to the SAPIENT platform using your credentials.
@@ -129,5 +128,5 @@ This section explains the components available on the **Integrations** page of t
 
   > 📘 *Note*
   >
-  > *If you do not see the carrier(s) you are looking for, please reach out to our Customer Solutions team at[onboarding@intersoft.co.uk](mailto:onboarding@intersoft.co.uk) and we can consider getting these added in our upcoming deployment.*
+  > *If you do not see the carrier(s) you are looking for, please reach out to our Customer Solutions team at [onboarding@intersoft.co.uk](mailto:onboarding@intersoft.co.uk) and we can consider getting these added in our upcoming deployment.*
 </Accordion>
