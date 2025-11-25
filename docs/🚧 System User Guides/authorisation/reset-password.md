@@ -16,7 +16,7 @@ next:
 To reset your password in SAPIENT, follow the steps as explained in the following procedure.
 
 <ToggleList>
-  <ToggleListItem title={<strong>1. Access the Forgot Password option </strong>}>
+  <ToggleListItem title={<strong>1. Access the Forgot Password option </strong>} color="#ffb600">
     <br />
 
     In the Sign in form that opens, click the **Forgot Password?** link.
