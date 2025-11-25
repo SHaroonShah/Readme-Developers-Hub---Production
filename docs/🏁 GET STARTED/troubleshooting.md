@@ -33,7 +33,7 @@ When it comes to troubleshooting API related issues, it is important to first un
 
 For smooth interaction with the APIs it is recommended to follow some best practises to maintain the functionality and avoid issue generation.
 
-<Accordion title="Recommended practises" icon="fa-info-circle">
+
   <Columns layout="auto">
     <Column>
       **Analysis & Monitoring**
@@ -51,7 +51,7 @@ For smooth interaction with the APIs it is recommended to follow some best pract
       * **Refer to documentation**: Consult API references for proper usage and expected responses
     </Column>
   </Columns>
-</Accordion>
+
 
 ***
 
