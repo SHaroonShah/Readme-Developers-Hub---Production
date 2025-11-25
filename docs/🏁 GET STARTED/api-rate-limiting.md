@@ -58,7 +58,6 @@ _Note: Some carriers may have additional rate limits beyond Intersoft's policy._
 
 ## Frequently Asked Questions
 
-
 <ToggleList>
   <ToggleListItem title={<strong>What if I need a higher rate limit?</strong>}>
     Contact our customer solutions team to discuss upgrading your rate limits. Additional carrier limitations may also apply.
@@ -77,4 +76,4 @@ _Note: Some carriers may have additional rate limits beyond Intersoft's policy._
   </ToggleListItem>
 </ToggleList>
 
-<br />
+<Compatibility title="Feature Name" subtitle="This is a description of the feature" plans={{ Free: false, Business: true, Enterprise: true }} />
