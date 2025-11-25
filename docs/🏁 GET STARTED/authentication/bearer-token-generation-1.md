@@ -60,7 +60,9 @@ To generate the bearer token, perform the steps as explained in the following pr
 
     <Image align="center" border={true} src="https://files.readme.io/93a14a1a00ff5ad67a4e5ad4a74677828b0e364b445c378ee24cd5795fe6acd5-New_HTTP_request_option.png" alt="Creating new HTTP request in Postman" />
   </ToggleListItem>
-<br></br>
+
+  <br />
+
   <ToggleListItem title={<strong>3. Configure Request URL</strong>}>
     In the new request tab that opens, from the left dropdown menu, select **POST** and enter the following URL in the **Enter request URL** field:
 
@@ -68,7 +70,7 @@ To generate the bearer token, perform the steps as explained in the following pr
 
     <Image align="center" border={true} src="https://files.readme.io/ab6a0e55d341d8aaf0cddbe95208ebc3c035155faeb32dd652bf011f79369dec-Postman_dropdown.png" alt="Entering URL" />
   </ToggleListItem>
-
+<br></br>
   <ToggleListItem title={<strong>4. Set Request Body Parameters</strong>}>
     Now, select the **Body** tab and then click the **x-www-form-urlencoded** option. In the table that appears, enter the following key-value pairs:
 
