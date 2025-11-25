@@ -33,11 +33,11 @@ metadata:
 ## Operations & Processing
 
 <Cards columns={2}>
-  <Card title="Search Shipments" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/shipment-search#/" icon="search">
+  <Card title="Search Shipments" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/shipment-search#/" icon="fa-solid fa-box-magnifying-glass">
     Learn efficient methods to search and locate shipments within the system.
   </Card>
 
-  <Card title="Shipment Processing" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/shipment-processing#/" icon="boxes">
+  <Card title="Shipment Processing" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/shipment-processing#/" icon="fa-solid fa-arrow-progress">
     Complete guide for processing shipments from start to finish.
   </Card>
 </Cards>
