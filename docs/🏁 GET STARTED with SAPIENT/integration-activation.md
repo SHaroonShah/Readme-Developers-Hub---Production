@@ -21,7 +21,7 @@ next:
   _You may need to refer to this section every time you wish to activate a new integration. Therefore, we recommend you to familiarise yourself with this section and understand the icons and functionalities offered in the SAPIENT platform._
 </Callout>
 
-This section explains the components available on the **Integrations** page of the SAPIENT platform. The Integrations page displays the <Glossary>carrier</Glossary>(s) that are available or coming soon to the platform. Each carrier has its own specific block with its description of what it offers as well as showcasing its available integration types. You can click into the carrier specific page by clicking their logo or the **Learn More** button.\
+This section explains the components available on the **Integrations** page of the SAPIENT platform. The Integrations page displays the <Glossary>carrier</Glossary>(s) that are available or coming soon to the platform. Each carrier has its own specific block with its description of what it offers as well as showcasing its available integration types. You can click into the carrier specific page by clicking their logo or the **Learn More** button.
 
 <Accordion title="Access integrations page" icon="">
   
