@@ -73,3 +73,12 @@ _Note: Some carriers may have additional rate limits beyond Intersoft's policy._
 <Accordion title="How do I get started?">
   Reach out to our customer solutions team to discuss your requirements and get the right solution configured.
 </Accordion>
+
+<ToggleList>
+  <ToggleListItem title="What type of books do owls like to read?">
+    Hoooo-dunnits 🔎
+  </ToggleListItem>
+  <ToggleListItem title="What’s an owl’s favorite drink?">
+    Hoot beer 🥤
+  </ToggleListItem>
+</ToggleList>
