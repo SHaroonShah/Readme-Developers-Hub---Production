@@ -1,8 +1,9 @@
 ---
 title: Log in to SAPIENT
 excerpt: >-
-  This section describes how you can log in to the SAPIENT system, change or
-  reset your password, and also log out of SAPIENT.
+  This section describesLearn how to log in to the SAPIENT system, manage your
+  password, and log out securely with step-by-step instructions for different
+  user types.
 deprecated: false
 hidden: false
 icon: fad fa-chalkboard-user
