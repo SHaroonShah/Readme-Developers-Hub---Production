@@ -13,14 +13,43 @@ metadata:
 next:
   description: ''
 ---
-A *Sandbox* is a testing environment that stimulates the production environment but is isolated from the real-world operations. In this environment, the developers and testers can experiment, develop, and test applications without affecting the systems. The main purpose of the Sandbox environment is to ensure functionality, identify bugs, and experiment with new features safely.
+<Cards columns={2}>
+  <Card title="Sandbox Environment" icon="fa-solid fa-flask">
+    A **testing environment** that simulates the production environment but is isolated from real-world operations.
 
-On the contrary, a *Production* environment is the live setup where the applications or systems operate and is accessible to the end users or customers. The primary goal of the Production environment is to provide a stable, secure, and reliable service to users. 
+    **Purpose:**
 
-In SAPIENT, during your initial onboarding you are given access to the ***Sandbox*** account. This is essentially a test environment where you can create test labels and familiarise yourself with the system as well as testing your API credentials.
+    * Experiment and develop safely
+    * Test applications without affecting live systems
+    * Identify bugs and issues
+    * Experiment with new features
 
-Once you are onboarded, you are then ready to go live. With that, you are provided with the access to our live ***Production*** account where you can officially start shipping and creating labels via SAPIENT. 
+    **In SAPIENT:**
 
-> 🚧 *Important*
+    * Provided during initial onboarding
+    * Create test labels
+    * Familiarize yourself with the system
+    * Test your API credentials
+  </Card>
+
+  <Card title="Production Environment" icon="fa-solid fa-conveyor-belt-arm">
+    The **live setup** where applications operate and are accessible to end users and customers.
+
+    **Purpose:**
+
+    * Provide stable, secure, and reliable service
+    * Handle real customer transactions
+    * Process actual shipments
+
+    **In SAPIENT:**
+
+    * Access provided after onboarding completion
+    * Official shipping and label creation
+    * Live carrier integrations
+    * Billable shipments
+  </Card>
+</Cards>
+
+> 🚧 _Important_
 >
-> *Always be aware of what account you are logged into. Any shipments accidently created in the**Production** account are counted. Which means, that these shipments are created with the carrier as live shipments and may be billed.*
+> _Always be aware of what account you are logged into. Any shipments accidently created in the**Production** account are counted. Which means, that these shipments are created with the carrier as live shipments and may be billed._
