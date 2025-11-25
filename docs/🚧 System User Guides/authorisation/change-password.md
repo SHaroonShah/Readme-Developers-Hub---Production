@@ -19,7 +19,9 @@ To change the password, follow the steps as explained in the following procedure
 
 <ToggleList>
   <ToggleListItem title={<strong>1. Access the option </strong>} icon="fa-rocket">
-    Open your browser and in the address bar, enter the URL address of the SAPIENT system.
+    In the application header, select the user icon. In the dropdown menu that opens, select **Change Password**.
+
+<Image align="center" alt="Changing password" border={true} caption="Changing password" src="https://files.readme.io/fbd8fe18894e83420059e7b25295e31b6f258429703e28b7ef21b88ace2d2bbc-Change_password_option.png" width="150px" />
   </ToggleListItem>
 
   <br />
@@ -30,11 +32,7 @@ To change the password, follow the steps as explained in the following procedure
     <Image align="center" border={true} src="https://files.readme.io/fa5d0ced6ed38b419fa15c57f5b03fdddf6284adfcc85b48370c67d1aa07c5f8-Sapient_Login_window.png" width="300px" alt="Logging into SAPIENT" />
   </ToggleListItem>
 
-  <br />
 
-  <ToggleListItem title={<strong>3. </strong>} icon="fa-rocket">
-    Once clicked, the SAPIENT Home page opens. You can now start using the system and execute your workflows.
-  </ToggleListItem>
 </ToggleList>
 
 1. In the application header, select the user icon. In the dropdown menu that opens, select **Change Password**.
