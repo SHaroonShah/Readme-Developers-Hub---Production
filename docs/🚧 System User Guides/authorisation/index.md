@@ -20,7 +20,7 @@ To sign in to the SAPIENT platform, there are several important factors that det
 ## Key Access Requirements
 
 <Cards columns={2}>
-  <Card title="Environment URL" icon="globe">
+  <Card title="Environment URL" icon="fa-solid fa-globe">
     You need the specific URL for your target environment:
 
     * <Glossary>Development</Glossary> environment
@@ -28,7 +28,7 @@ To sign in to the SAPIENT platform, there are several important factors that det
     * <Glossary>Production</Glossary> environment
   </Card>
 
-  <Card title="User Type" icon="user">
+  <Card title="User Type" icon="fa-solid fa-user">
     Your access level depends on your user role:
 
     * <Glossary>Admin</Glossary> users have full system access
@@ -41,7 +41,7 @@ To sign in to the SAPIENT platform, there are several important factors that det
 Manage your SAPIENT platform access with these essential functions:
 
 <Cards columns={2}>
-  <Card title="Log In" href="https://docs.intersoftsapient.net/docs/log-in" icon="sign-in-alt">
+  <Card title="Log In" href="https://docs.intersoftsapient.net/docs/log-in" icon="fa-solid fa-arrow-left-to-bracket">
     Access your SAPIENT account with your credentials
   </Card>
 
