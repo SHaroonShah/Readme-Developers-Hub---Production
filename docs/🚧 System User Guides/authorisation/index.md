@@ -17,7 +17,7 @@ next:
 ---
 To sign in to the SAPIENT platform, there are several important factors that determine what you can see and how much you can perform within the system.
 
-## Key Access Requirements
+## Key access requirements
 
 <Cards columns={2}>
   <Card title="Environment URL" icon="fa-solid fa-globe">
@@ -36,7 +36,7 @@ To sign in to the SAPIENT platform, there are several important factors that det
   </Card>
 </Cards>
 
-## Authentication Actions
+## Authentication actions
 
 Manage your SAPIENT platform access with these essential functions:
 
