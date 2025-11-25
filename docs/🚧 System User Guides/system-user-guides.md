@@ -17,15 +17,15 @@ metadata:
 ## Quick Access Guides
 
 <Cards columns={3}>
-  <Card title="Authorisation" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/authorisation#/" icon="lock">
+  <Card title="Authorisation" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/authorisation#/" icon="fa-solid fa-badge-check">
     Learn how to authenticate and authorize access to the SAPIENT system securely.
   </Card>
 
-  <Card title="SAPIENT UI Interaction" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/interaction-with-sapient-ui#/" icon="desktop">
+  <Card title="SAPIENT UI Interaction" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/interaction-with-sapient-ui#/" icon="fa-solid fa-sidebar">
     Master the fundamentals of navigating and interacting with the SAPIENT user interface.
   </Card>
 
-  <Card title="Dashboard" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/dashboard-1#/" icon="tachometer-alt">
+  <Card title="Dashboard" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/dashboard-1#/" icon="fa-solid fa-browsers">
     Understand how to use and customize your dashboard for optimal workflow management.
   </Card>
 </Cards>
