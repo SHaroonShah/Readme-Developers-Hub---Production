@@ -85,8 +85,7 @@ While using the system, if you run into any issues that you are unable to resolv
       * API endpoint information
     </Card>
   </Cards>
-</Accordion>
-
+<br></br>
 > 🚧 _Important_
 >
 > _Before sending us the request, please be aware of the following:_
@@ -95,6 +94,9 @@ While using the system, if you run into any issues that you are unable to resolv
 > * _Store the Intersoft format of the JSON request and response to allow us to investigate any API related issues._
 
 If the issue you are experiencing is not outlined in the preceding list or you do not have all the information on the issue, please reach out to our Tech Support team and provide all the necessary details of the issue to escalate the process.
+</Accordion>
+
+
 
 ## Intersoft Tech Support contact details
 
