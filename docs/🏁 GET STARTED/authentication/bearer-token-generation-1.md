@@ -123,6 +123,6 @@ Generating a bearer token is essential for securely managing access to APIs, all
 
 <Image align="center" alt="Sample bearer token" border={true} caption="Bearer token sample" src="https://files.readme.io/c67152f-image.png" width="50%" />
 
-## Next Steps
+<br />
 
 Once the bearer token has been generated successfully, you can now use it for authentication purposes in your API requests. Include the token in the Authorization header as: `Bearer [your-token-here]`
