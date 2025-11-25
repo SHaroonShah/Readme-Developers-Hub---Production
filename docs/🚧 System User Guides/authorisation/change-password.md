@@ -18,11 +18,22 @@ In this section, learn how to securely change your password with step-by-step in
 To change the password, follow the steps as explained in the following procedure.
 
 <ToggleList>
-  <ToggleListItem title="What type of books do owls like to read?">
-    Hoooo-dunnits 🔎
+  <ToggleListItem title={<strong>1. Access the option </strong>} icon="fa-rocket">
+    Open your browser and in the address bar, enter the URL address of the SAPIENT system.
   </ToggleListItem>
-  <ToggleListItem title="What’s an owl’s favorite drink?">
-    Hoot beer 🥤
+
+  <br />
+
+  <ToggleListItem title={<strong>2. Change password</strong>} icon="fa-rocket">
+    Depending on the type of the user (<Glossary>admin</Glossary> or <Glossary>customer</Glossary>), you are offered to enter your email address and password, and then click **Sign in**.
+
+    <Image align="center" border={true} src="https://files.readme.io/fa5d0ced6ed38b419fa15c57f5b03fdddf6284adfcc85b48370c67d1aa07c5f8-Sapient_Login_window.png" width="300px" alt="Logging into SAPIENT" />
+  </ToggleListItem>
+
+  <br />
+
+  <ToggleListItem title={<strong>3. </strong>} icon="fa-rocket">
+    Once clicked, the SAPIENT Home page opens. You can now start using the system and execute your workflows.
   </ToggleListItem>
 </ToggleList>
 
