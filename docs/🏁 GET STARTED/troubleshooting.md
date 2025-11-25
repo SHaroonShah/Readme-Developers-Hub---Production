@@ -101,15 +101,23 @@ If the issue you are experiencing is not outlined in the preceding cards or you 
 
 Please use any of the following contact details to reach out to our Technical Support team:
 
-**Raise a ticket**: [Intersoft Customer Portal](https://intersoftuk-servicedesk.atlassian.net/servicedesk/customer/portal/1?utm_source=hs_email\&utm_medium=email&_hsenc=p2ANqtz--Rf9pAocdpFBSK4Gjy9bwkO0ltWcb7apBqIoY-ugKNNGZaGP1BKnxqPBRddJlJY6Es78Fu)  
-**Email**: [TechSupport@intersoft.co.uk](mailto:TechSupport@intersoft.co.uk)
-**Phone**: (+44) 01753 689 292
+ <Columns layout="auto">
+    <Column>
+      **Primary Contact Methods**
 
-<Callout icon="💡" theme="default">
-  ### _Tip_
+      📋 **Raise a Ticket**: [Intersoft Customer Portal](https://intersoftuk-servicedesk.atlassian.net/servicedesk/customer/portal/1?utm_source=hs_email\&utm_medium=email&_hsenc=p2ANqtz--Rf9pAocdpFBSK4Gjy9bwkO0ltWcb7apBqIoY-ugKNNGZaGP1BKnxqPBRddJlJY6Es78Fu)
 
-  _For seamless interaction with our support team, you may also raise your queries using any of the following domains of our internal ticketing system:_
+      ✉️ **Email**: [TechSupport@intersoft.co.uk](mailto:TechSupport@intersoft.co.uk)
 
-  * _intersoftuk.atlassian.net_
-  * _intersoftuk-servicedesk.atlassian.net_
-</Callout>
+      📞 **Phone**: (+44) 01753 689 292
+    </Column>
+
+    <Column>
+      **Alternative Ticketing Domains**
+
+      For seamless interaction with our support team, you can also use:
+
+      * intersoftuk.atlassian.net
+      * intersoftuk-servicedesk.atlassian.net
+</Column>
+</Columns>
