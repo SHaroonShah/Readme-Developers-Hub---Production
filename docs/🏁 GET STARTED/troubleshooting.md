@@ -58,7 +58,6 @@ For smooth interaction with the APIs it is recommended to follow some best pract
 While using the system, if you run into any issues that you are unable to resolve or troubleshoot, provide the following information to expedite resolution:
 
 <Accordion title="Information Required for Support Requests" icon="">
-  When contacting Intersoft for troubleshooting assistance, please :
 
   <Cards columns="2">
     <Card title="Basic Information" icon="fa-solid fa-circle-info">
