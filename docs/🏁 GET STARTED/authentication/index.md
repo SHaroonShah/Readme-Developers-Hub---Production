@@ -1,40 +1,63 @@
 ---
 title: Authentication
 excerpt: >-
-  _Authentication_ refers to the process of verifying the identity of a user or
-  application that is trying to access an API. This is crucial for ensuring that
-  only authorised users can interact with the API and access sensitive data or
-  perform actions.
+  Learn about OAuth2 authentication, API credentials, bearer token generation,
+  and best practices for secure API access with the Intersoft SAPIENT API.
 deprecated: false
 hidden: false
 icon: fad fa-check-double
+link:
+  new_tab: false
 metadata:
   title: ''
   description: ''
   robots: index
 next:
-  description: ''
   pages:
-    - type: basic
-      slug: bearer-token-generation-1
+    - slug: bearer-token-generation-1
       title: Bearer Token Generation
+      type: basic
 ---
-# Best practises
+# Best Practises
 
-Intersoft SAPIENT API uses the **OAuth2** authentication, which is a specific protocol used for authorisation that allows third-party applications to access the user's data without exposing their credentials.
+<Cards columns={2}>
+  <Card title="OAuth2 Authentication" icon="shield-alt">
+    Intersoft SAPIENT API uses **OAuth2** authentication - a specific protocol for authorisation that allows third-party applications to access user data without exposing credentials.
+    
+    OAuth2 works by obtaining limited access rights to a resource on behalf of the user.
+  </Card>
+  
+  <Card title="API Credentials Required" href="https://docs.intersoftsapient.net/docs/create-api-credentials" icon="key">
+    Before using the API and generating the <Glossary>bearer token</Glossary>, you need to create your API Credentials.
+    
+    These credentials are used to generate access tokens (JWT or bearer tokens).
+  </Card>
+</Cards>
 
-OAuth2 works by obtaining limited access rights to a resource on behalf of the user.  Before you can use the **API** and generate the <Glossary>bearer token</Glossary> , you need to create your [API Credentials](https://docs.intersoftsapient.net/docs/create-api-credentials).
+<Accordion title="Token Generation & Management" icon="cog">
 
-API credentials are used to generate an access token, JWT (JSON Web Token) or bearer token. To generate the token, refer to the [Bearer Token Generation](https://docs.intersoftsapient.net/docs/bearer-token-generation-1) section using the **Try it** function.
+## Bearer Token Generation
 
-> 💡 *Tip*
+To generate your bearer token, refer to the [Bearer Token Generation](https://docs.intersoftsapient.net/docs/bearer-token-generation-1) section using the **Try it** function.
+
+## Token Security & Storage
+
+> 💡 **Tip**
 >
-> *The API credentials are unique for each customer. Keep these credentials safe as they cannot be viewed after being generated. If you lose these credentials you need to generate new ones.*
+> The API credentials are unique for each customer. Keep these credentials safe as they cannot be viewed after being generated. If you lose these credentials you need to generate new ones.
 
-Please be aware that the token expires after 60 minutes. In such cases, you need to request a new access token to continue making API calls. 
+## Token Expiration
 
-> 🚧 *Important*
+Please be aware that the token expires after **60 minutes**. In such cases, you need to request a new access token to continue making API calls.
+
+> 🚧 **Important**
 >
-> *Make sure you cache the authentication token before requesting a new one*.
+> Make sure you cache the authentication token before requesting a new one.
+
+</Accordion>
+
+<Accordion title="Testing Environment Setup" icon="flask">
 
 When using the **Try It** function, make sure you are in the **Production** environment and any shipping accounts that you create or use for testing have the <Glossary>account type</Glossary> set to **Sandbox**.
+
+</Accordion>
