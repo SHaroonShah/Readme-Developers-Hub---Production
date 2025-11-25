@@ -27,19 +27,7 @@ To change the password, follow the steps as explained in the following procedure
   <br />
 
   <ToggleListItem title={<strong>2. Change password</strong>} icon="fa-rocket">
-    Depending on the type of the user (<Glossary>admin</Glossary> or <Glossary>customer</Glossary>), you are offered to enter your email address and password, and then click **Sign in**.
-
-    <Image align="center" border={true} src="https://files.readme.io/fa5d0ced6ed38b419fa15c57f5b03fdddf6284adfcc85b48370c67d1aa07c5f8-Sapient_Login_window.png" width="300px" alt="Logging into SAPIENT" />
-  </ToggleListItem>
-
-
-</ToggleList>
-
-1. In the application header, select the user icon. In the dropdown menu that opens, select **Change Password**.
-
-<Image align="center" alt="Changing password" border={true} caption="Changing password" src="https://files.readme.io/fbd8fe18894e83420059e7b25295e31b6f258429703e28b7ef21b88ace2d2bbc-Change_password_option.png" width="150px" />
-
-2. In the **Change Password** form that opens, enter the necessary information as explained in the following table.
+    In the **Change Password** form that opens, enter the necessary information as explained in the following table.
 
 > 🚧 _Important_
 >
@@ -68,3 +56,7 @@ To change the password, follow the steps as explained in the following procedure
 |          ![](https://files.readme.io/1a0c1dc614bae533ff101da4ad4b3f1d0c825e7de658eb210230ef2917b4c9fc-image.png)         | Select this button to go back to the SAPIENT **Home** page.                          |
 
 Once finished, you are directed to the Sign in page page, meaning that you have successfully changed your password. The system is now ready for you to log in with your new password.
+  </ToggleListItem>
+
+</ToggleList>
+
