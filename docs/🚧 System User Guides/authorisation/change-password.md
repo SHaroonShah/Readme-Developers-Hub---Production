@@ -39,8 +39,6 @@ To change the password, follow the steps as explained in the following procedure
   <ToggleListItem title={<strong>2. Change password</strong>} icon="fa-rocket">
     In the **Change Password** form that opens, enter the necessary information as explained in the following table.
 
-<br />
-
 <Image align="center" alt="Entering new password" border={true} caption="Entering new password" src="https://files.readme.io/5d2b94ec1944f824776030f65f260caf76d36fb7d893dbfc6bc1a6f0e3676db4-Change_password_dialog.png" width="300px" />
 
 <AsteridkForMandatoryElements />
