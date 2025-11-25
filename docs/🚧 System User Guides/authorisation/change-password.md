@@ -14,6 +14,16 @@ next:
   description: ''
 ---
 In this section, learn how to securely change your password with step-by-step instructions and security best practices.
+> 🚧 _Important_
+>
+> _Before you set or change your password, ensure the following:_
+>
+> 1. _Use a password manager to secure your password in an encrypted format._
+> 2. _Include a mix of characters, such as a combination of uppercase, lowercase, number, and special characters._
+> 3. _Avoid common words or phrases._
+> 4. _Monitor for breaches._
+>
+> _For more information on how to set up a strong password, refer to the [guidelines for choosing a strong password](https://docs.intersoftsapient.net/docs/guidelines-for-choosing-strong-password#/) section._
 
 To change the password, follow the steps as explained in the following procedure.
 
