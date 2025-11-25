@@ -40,7 +40,7 @@ To sign in to the SAPIENT platform, there are several important factors that det
 
 Manage your SAPIENT platform access with these essential functions:
 
-<Cards columns={2}>
+<Cards columns={4}>
   <Card title="Log In" href="https://docs.intersoftsapient.net/docs/log-in" icon="fa-solid fa-arrow-left-to-bracket">
     Access your SAPIENT account with your credentials
   </Card>
