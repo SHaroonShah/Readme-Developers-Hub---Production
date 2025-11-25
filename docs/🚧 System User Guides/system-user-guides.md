@@ -52,4 +52,4 @@ metadata:
 
 ***
 
-_Need help with something specific? Use the search function or contact support for additional assistance._
+<br />
