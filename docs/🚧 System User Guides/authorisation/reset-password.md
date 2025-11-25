@@ -22,7 +22,8 @@ To reset your password in SAPIENT, follow the steps as explained in the followin
     In the Sign in form that opens, click the **Forgot Password?** link.
 
     <Image align="center" border={true} src="https://files.readme.io/1fcc5c0d56c42a3f325897424b3ba0d66b1cb5249f16845a07aef94600a2abdf-Forgot_password_link.png" width="300px" alt="Resetting password" />
-***
+
+    ***
   </ToggleListItem>
 
   <br />
@@ -35,7 +36,8 @@ To reset your password in SAPIENT, follow the steps as explained in the followin
     <Image align="center" border={true} src="https://files.readme.io/d3315d3adc579fdcc233c97806b70738438238cd351880f6e699c5e0ffab88fa-Forgot_password_dialog.png" width="300px" alt="Resetting password" />
 
     <Image align="center" border={true} src="https://files.readme.io/fa5d0ced6ed38b419fa15c57f5b03fdddf6284adfcc85b48370c67d1aa07c5f8-Sapient_Login_window.png" width="300px" alt="Logging into SAPIENT" />
-***
+
+    ***
   </ToggleListItem>
 
   <br />
@@ -47,8 +49,9 @@ To reset your password in SAPIENT, follow the steps as explained in the followin
 
     > 🚧 *Important*
     >
-    > *In case you cannot find the confirmation email, remember to check your spam or junk folders.*
-***
+    > * The Reset my password activation link in the received email is available once per 24 hours only. After that, you need to submit a new request. In case you cannot find the confirmation email, remember to check your spam or junk folders.*
+
+    ***
   </ToggleListItem>
 
   <br />
