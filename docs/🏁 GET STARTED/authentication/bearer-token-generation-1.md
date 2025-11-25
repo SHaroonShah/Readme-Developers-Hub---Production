@@ -41,49 +41,32 @@ Generating a bearer token is essential for securely managing access to APIs, all
 ### To generate the bearer token
 
 <ToggleList>
-  <ToggleListItem title={<strong>Set up Postman</strong>} icon="fa-rocket">
-    Contact our customer solutions team to discuss upgrading your rate limits. Additional carrier limitations may also apply.
-  </ToggleListItem>
-
-  <ToggleListItem title={<strong>How do I choose the right rate limiting solution?</strong>}>
-    Consider your API call volume, security requirements, and budget. Our sales team can help assess your specific needs.
-  </ToggleListItem>
-
-  <ToggleListItem title={<strong>What does a higher TPS solution cost?</strong>}>
-    Pricing varies based on call volume and support level required. Contact our sales team for custom pricing.
-  </ToggleListItem>
-
-  <ToggleListItem title={<strong>How do I get started?</strong>}>
-    Reach out to our customer solutions team to discuss your requirements and get the right solution configured.
-  </ToggleListItem>
-</ToggleList>
-
-<Accordion title="1. Set Up Postman" icon="fa-rocket">
-  Launch the Postman application or log in into your Postman account. If you have selected the online version, make sure to activate your account.
+  <ToggleListItem title={<strong>1. Set up Postman</strong>} icon="fa-rocket">
+      Launch the Postman application or log in into your Postman account. If you have selected the online version, make sure to activate your account.
 
   <Callout icon="💡" theme="default">
     ### *Tip*
 
     *If you do not have the Postman application, you can download it[here](https://www.postman.com/downloads/) or register for an online Postman account, respectively.*
-  </Callout>
-</Accordion>
+</Callout>
+  </ToggleListItem>
 
-<Accordion title="2. Create HTTP Request" icon="fa-plus">
-  After successfully logging in, on your workspace toolbar, select **New** > **HTTP**. Alternatively, on your workspace, select **+** tab to add a new HTTP request tab.
+  <ToggleListItem title={<strong>2. Create HTTP request</strong>}>
+     After successfully logging in, on your workspace toolbar, select **New** > **HTTP**. Alternatively, on your workspace, select **+** tab to add a new HTTP request tab.
 
   <Image align="center" border={true} src="https://files.readme.io/93a14a1a00ff5ad67a4e5ad4a74677828b0e364b445c378ee24cd5795fe6acd5-New_HTTP_request_option.png" alt="Creating new HTTP request in Postman" />
-</Accordion>
+  </ToggleListItem>
 
-<Accordion title="3. Configure Request URL" icon="fa-link">
-  In the new request tab that opens, from the left dropdown menu, select **POST** and enter the following URL in the **Enter request URL** field:
+  <ToggleListItem title={<strong>3. Configure Request URL</strong>}>
+     In the new request tab that opens, from the left dropdown menu, select **POST** and enter the following URL in the **Enter request URL** field:
 
   `https://authentication.intersoftsapient.net/connect/token`
 
   <Image align="center" border={true} src="https://files.readme.io/ab6a0e55d341d8aaf0cddbe95208ebc3c035155faeb32dd652bf011f79369dec-Postman_dropdown.png" alt="Entering URL" />
-</Accordion>
+  </ToggleListItem>
 
-<Accordion title="4. Set Request Body Parameters" icon="fa-table">
-  Now, select the **Body** tab and then click the **x-www-form-urlencoded** option. In the table that appears, enter the following key-value pairs:
+  <ToggleListItem title={<strong>4. Set Request Body Parameters</strong>}>
+     Now, select the **Body** tab and then click the **x-www-form-urlencoded** option. In the table that appears, enter the following key-value pairs:
 
   <Columns layout="auto">
     <Column>
@@ -106,15 +89,8 @@ Generating a bearer token is essential for securely managing access to APIs, all
   Enter the credentials generated via the [SAPIENT API Credentials](https://docs.intersoftsapient.net/docs/create-api-credentials) functionality. For the **grant\_type** key, set the value to **client\_credentials**.
 
   <Image align="center" border={true} src="https://files.readme.io/ca361ef126d7b2b88c83d9c6b38ae3e56a4e1d5a0e38b0beed057fc05b86067c-Adding_key_value_pairs.png" alt="Adding keys value pairs" />
-</Accordion>
-
-<Accordion title="5. Send Request and Get Token" icon="fa-paper-plane">
-  After entering the necessary information, select **Send**.
-
-  If the credentials match the ones that have been set in the **Create API Credentials** functionality, then the bearer token is returned in the response.
-
-  <Image align="center" border={true} src="https://files.readme.io/b8499e2-image.png" alt="Bearer token response example" />
-</Accordion>
+  </ToggleListItem>
+</ToggleList>
 
 ## Understanding the Response
 
