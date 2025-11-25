@@ -93,7 +93,7 @@ Generating a bearer token is essential for securely managing access to APIs, all
   <Image align="center" border={true} src="https://files.readme.io/ca361ef126d7b2b88c83d9c6b38ae3e56a4e1d5a0e38b0beed057fc05b86067c-Adding_key_value_pairs.png" alt="Adding keys value pairs" />
 </Accordion>
 
-<Accordion title="Step 5: Send Request and Get Token" icon="fa-paper-plane">
+<Accordion title="5. Send Request and Get Token" icon="fa-paper-plane">
   After entering the necessary information, select **Send**.
 
   If the credentials match the ones that have been set in the **Create API Credentials** functionality, then the bearer token is returned in the response.
