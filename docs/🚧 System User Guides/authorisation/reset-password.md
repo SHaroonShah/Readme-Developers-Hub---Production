@@ -49,7 +49,7 @@ To reset your password in SAPIENT, follow the steps as explained in the followin
 
     > 🚧 *Important*
     >
-    > * The Reset my password activation link in the received email is available once per 24 hours only. After that, you need to submit a new request. In case you cannot find the confirmation email, remember to check your spam or junk folders.*
+    >  _The Reset my password activation link in the received email is available once per 24 hours only. After that, you need to submit a new request. In case you cannot find the confirmation email, remember to check your spam or junk folders._
 
     ***
   </ToggleListItem>
