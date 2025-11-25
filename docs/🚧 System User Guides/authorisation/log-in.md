@@ -52,8 +52,10 @@ To log in to the SAPIENT system, follow the instructions as explained in the fol
   </ToggleListItem>
 </ToggleList>
 
-<Callout icon="💡" theme="default">
-  ### _Tip_
+## Account management
 
-  _On the application header of the home page, you can [change the password](https://docs.intersoftsapient.net/docs/change-password), or [log out](https://docs.intersoftsapient.net/docs/log-out), by selecting the user profile icon._
-</Callout>
+On the application header of the home page, you can access additional account options by selecting the user profile icon:
+ * **[Change Password](https://docs.intersoftsapient.net/docs/change-password)** - Update your password for security
+  * **[Log Out](https://docs.intersoftsapient.net/docs/log-out)** - Securely exit the system
+
+<br />
