@@ -42,7 +42,7 @@ To log in to the SAPIENT system, follow the instructions as explained in the fol
   <ToggleListItem title={<strong>2. Enter your credentials</strong>} icon="fa-rocket">
     Depending on the type of the user (<Glossary>admin</Glossary> or <Glossary>customer</Glossary>), you are offered to enter your email address and password, and then click **Sign in**.
 
-    <Image align="center" border={true} src="https://files.readme.io/fa5d0ced6ed38b419fa15c57f5b03fdddf6284adfcc85b48370c67d1aa07c5f8-Sapient_Login_window.png" width="300px" alt="Logging into SAPIENT" />
+    <Image align="center" border={false} src="https://files.readme.io/fa5d0ced6ed38b419fa15c57f5b03fdddf6284adfcc85b48370c67d1aa07c5f8-Sapient_Login_window.png" width="300px" alt="Logging into SAPIENT" />
   </ToggleListItem>
 
   <br />
@@ -55,7 +55,8 @@ To log in to the SAPIENT system, follow the instructions as explained in the fol
 ## Account management
 
 On the application header of the home page, you can access additional account options by selecting the user profile icon:
- * **[Change Password](https://docs.intersoftsapient.net/docs/change-password)** - Update your password for security
-  * **[Log Out](https://docs.intersoftsapient.net/docs/log-out)** - Securely exit the system
+
+* **[Change Password](https://docs.intersoftsapient.net/docs/change-password)** - Update your password for security
+* **[Log Out](https://docs.intersoftsapient.net/docs/log-out)** - Securely exit the system
 
 <br />
