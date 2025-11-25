@@ -52,4 +52,10 @@ next:
 
 > 🚧 _Important_
 >
-> _Always be aware of what account you are logged into. Any shipments accidently created in the**Production** account are counted. Which means, that these shipments are created with the carrier as live shipments and may be billed._
+> _Always be aware of what account you are logged into. Any shipments accidently created in the**Production** account are counted as live shipments. This means:_
+>
+> * _These shipments are created with the carrier as actual shipments_
+> * _You may be billed for these shipments_
+> * _These shipments cannot be reversed_
+>
+> _It is recommended to double-check your environment before creating any shipments to avoid unexpected charges._
