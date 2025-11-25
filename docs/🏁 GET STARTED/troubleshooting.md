@@ -1,74 +1,135 @@
 ---
 title: Troubleshooting
 excerpt: >-
-  Troubleshooting is a systematic process for identifying, diagnosing, and
-  resolving problems for issues. It involves investigating a malfunction or
-  failure to ensure that system or process runs smoothly.
+  Comprehensive troubleshooting guide for API issues and Intersoft system
+  support with best practices and contact information.
 deprecated: false
 hidden: false
 icon: fad fa-screwdriver-wrench
+link:
+  new_tab: false
 metadata:
   title: ''
   description: ''
   robots: index
-next:
-  description: ''
 ---
-# Common issues
+<Accordion title="Common API Issues" icon="exclamation-triangle">
 
-When it comes to troubleshooting API related issues, it is important to first understand the issue. Here are some common API related issues that you might encounter during your processes:
+When troubleshooting API-related issues, it's important to first understand the problem. Here are the most common issues you might encounter:
 
-* **Authentication failures**: problems related to API keys, tokens, or user credentials.
-* **Network issues**: problems with connectivity that prevents the API to reach.
-* **Rate limiting**: problems with hitting the rate limits.
-* **API request and response issues**: problems related to the communication between the two API held systems. In this case, issues can arise at both ends (that is, request or response).
-* **Affected API endpoint**: problems associated with API endpoints.
-* Tracking issues: problems related to the process of monitoring or recording the interactions between a client application and API.
+<Cards columns="2">
+  <Card title="Authentication Failures" icon="lock">
+    Problems related to API keys, tokens, or user credentials that prevent access to the system.
+  </Card>
+  
+  <Card title="Network Issues" icon="wifi">
+    Connectivity problems that prevent the API from being reached or responding properly.
+  </Card>
+  
+  <Card title="Rate Limiting" icon="tachometer-alt">
+    Issues arising from hitting the maximum allowed number of requests per time period.
+  </Card>
+  
+  <Card title="Request/Response Issues" icon="exchange-alt">
+    Communication problems between API systems that can occur at either the request or response end.
+  </Card>
+  
+  <Card title="Endpoint Problems" icon="plug">
+    Issues specifically associated with API endpoints, including availability and configuration.
+  </Card>
+  
+  <Card title="Tracking Issues" icon="search">
+    Problems related to monitoring or recording interactions between client applications and APIs.
+  </Card>
+</Cards>
 
-## Best practises
+</Accordion>
 
-For smooth interaction with the APIs it is recommended to follow some best practises to maintain the functionality and avoid issue generation.
+<Accordion title="Best Practices for API Troubleshooting" icon="check-circle">
 
-* **Analyse response errors**: analysing HTTP status codes (like 400, 401, 429, 500) to understand failures.
-* **Adhere to requested formats**: ensuring that API requests adhere to the required format (JSON, XML, and others).
-* **Check your rate limits**: checking if the number of requests exceeds the allowed limits.
-* **Perform logging and monitoring**: utilising logs to track APIP interactions and identify errors.
-* **Use testing tools**: using tools like Postman or curl to manually test API calls.
-* **Refer to supporting documentation**: consulting the API references and documentation for correct usage and expected responses.
+Follow these recommended practices to maintain functionality and prevent issues:
 
-# Troubleshooting at Intersoft
+<Columns layout="auto">
+  <Column>
+    **Analysis & Monitoring**
+    - **Analyze response errors**: Review HTTP status codes (400, 401, 429, 500) to understand failures
+    - **Perform logging and monitoring**: Use logs to track API interactions and identify errors
+    - **Check your rate limits**: Verify that request frequency stays within allowed limits
+  </Column>
+  
+  <Column>
+    **Testing & Documentation**
+    - **Use testing tools**: Leverage tools like Postman or curl for manual API testing
+    - **Adhere to required formats**: Ensure API requests follow the correct format (JSON, XML, etc.)
+    - **Refer to documentation**: Consult API references for proper usage and expected responses
+  </Column>
+</Columns>
 
-While using the system, if you run into any issues that you are unable to resolve or troubleshoot, you can always contact Intersoft. This section lists the standard information for all requests that we will require from you to troubleshoot your issues.
+</Accordion>
 
-* Customer name
-* Brief description of the issue and what areas of the system are impacted (provide any screenshots necessary)
-* Severity of the issue
-* Shipping location and/or shipping accounts affected (ID or Alias)
-* Affected carriers
-* Examples of tracking numbers (for tracking-related issues)
-* Advise if the tracking numbers belong to shipments that have been created on the Intersoft Sapient system OR if they have been registered via the /trackings API.
-* Date/time of when the issue was generated
+## Troubleshooting Support at Intersoft
 
-> 🚧 *Important*
+<Accordion title="Information Required for Support Requests" icon="list-ul">
+
+When contacting Intersoft for troubleshooting assistance, please provide the following information to expedite resolution:
+
+<Cards columns="2">
+  <Card title="Basic Information" icon="info-circle">
+    - Customer name
+    - Brief description of the issue and affected system areas
+    - Issue severity level
+    - Screenshots (if applicable)
+  </Card>
+  
+  <Card title="Technical Details" icon="cogs">
+    - Shipping location and/or shipping account details (ID or Alias)
+    - Affected carriers
+    - Date/time when the issue occurred
+  </Card>
+  
+  <Card title="Tracking-Specific Info" icon="shipping-fast">
+    - Example tracking numbers (for tracking-related issues)
+    - Specify if tracking numbers are from Intersoft Sapient system OR registered via /trackings API
+  </Card>
+  
+  <Card title="API Details" icon="code">
+    - Store Intersoft format JSON request and response
+    - Relevant error codes or messages
+    - API endpoint information
+  </Card>
+</Cards>
+
+> 🚧 **Important Security Note**
 >
-> *Before sending us the request, please be aware of the following:*
->
-> * *Do not send your Intersoft Sapient Client ID or Secret.*
-> * *Store the Intersoft format of the JSON request and response to allow us to investigate any API related issues.*
+> **Before sending your request:**
+> - Do **NOT** send your Intersoft Sapient Client ID or Secret
+> - Store the complete JSON request and response format to help with API issue investigation
 
-If the issue you are experiencing is not outlined in the preceding list or you do not have all the information on the issue, please reach out to our Tech Support team and provide all the necessary details of the issue to escalate the process.
+</Accordion>
 
-## Intersoft Tech Support contact details
+<Accordion title="Contact Intersoft Tech Support" icon="phone">
 
-Please use any of the following contact details to reach out to our Technical Support team:
+<Columns layout="auto">
+  <Column>
+    **Primary Contact Methods**
+    
+    📋 **Raise a Ticket**: [Intersoft Customer Portal](https://intersoftuk-servicedesk.atlassian.net/servicedesk/customer/portal/1?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz--Rf9pAocdpFBSK4Gjy9bwkO0ltWcb7apBqIoY-ugKNNGZaGP1BKnxqPBRddJlJY6Es78Fu)
+    
+    ✉️ **Email**: [TechSupport@intersoft.co.uk](mailto:TechSupport@intersoft.co.uk)
+    
+    📞 **Phone**: (+44) 01753 689 292
+  </Column>
+  
+  <Column>
+    **Alternative Ticketing Domains**
+    
+    For seamless interaction with our support team, you can also use:
+    
+    - intersoftuk.atlassian.net
+    - intersoftuk-servicedesk.atlassian.net
+    
+    > 💡 **Tip**: Using our internal ticketing system ensures faster response times and better issue tracking.
+  </Column>
+</Columns>
 
-**Raise a ticket**: [Intersoft Customer Portal](https://intersoftuk-servicedesk.atlassian.net/servicedesk/customer/portal/1?utm_source=hs_email\&utm_medium=email&_hsenc=p2ANqtz--Rf9pAocdpFBSK4Gjy9bwkO0ltWcb7apBqIoY-ugKNNGZaGP1BKnxqPBRddJlJY6Es78Fu)\
-**Email**: [TechSupport@intersoft.co.uk](mailto:TechSupport@intersoft.co.uk)
-**Phone**: (+44) 01753 689 292
-
-> 💡 *Tip*
->
-> *For seamless interaction with our support team, you may also raise your queries using any of the following domains of our internal ticketing system:*
->
-> * *intersoftuk.atlassian.net*
-> * *intersoftuk-servicedesk.atlassian.net*
+</Accordion>
