@@ -52,7 +52,7 @@ To generate the bearer token, perform the steps as explained in the following pr
       *If you do not have the Postman application, you can download it[here](https://www.postman.com/downloads/) or register for an online Postman account, respectively.*
     </Callout>
   </ToggleListItem>
-
+<br></br>
   <ToggleListItem title={<strong>2. Create HTTP request</strong>}>
     After successfully logging in, on your workspace toolbar, select **New** > **HTTP**. Alternatively, on your workspace, select **+** tab to add a new HTTP request tab.
 
