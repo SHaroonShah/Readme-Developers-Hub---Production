@@ -32,7 +32,7 @@ Click on any of the following cards to learn more about specific UI elements and
     Contains frequently used tools and actions specific to your current workspace, enabling quick access to common operations.
   </Card>
 
-  <Card title="Side Navigation Panel" href="https://docs.intersoftsapient.net/docs/side-navigation-panel" icon="fa-solid fa-bars">
+  <Card title="Side Navigation Panel" href="https://docs.intersoftsapient.net/docs/side-navigation-panel" icon="fa-solid fa-sidebar">
     Your primary navigation hub for accessing different modules, features, and sections within the SAPIENT application.
   </Card>
 
