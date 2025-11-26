@@ -10,14 +10,13 @@ link:
   new_tab: false
 metadata:
   title: ''
-  description: ''
+  description: >-
+    Logging out of the SAPIENT system redirects you to the main **Sign in** page
+    that ensures that you have successfully logged out of the session you were
+    working on.
   robots: index
 ---
-Logging out of the SAPIENT system redirects you to the main **Sign in** page that ensures that you have successfully logged out of the session you were working on.
-
-<Accordion title="How to Log Out" icon="sign-out-alt">
-
-To log out of SAPIENT, follow these simple steps:
+To log out of SAPIENT, follow the steps as explained in the following procedure.
 
 1. In the application header, select the user icon. 
 2. In the dropdown menu that opens, select **Logout**.
@@ -28,16 +27,8 @@ To log out of SAPIENT, follow these simple steps:
 
 You are now redirected to the **Sign in** page, which indicates that you have successfully logged out.
 
-</Accordion>
-
-<Cards columns={1}>
-  <Card title="Important Security Information" icon="shield-alt">
-    **Automatic Session Termination**
-    
-    For security reasons, SAPIENT automatically terminates your session after a specified time of inactivity.
-    
-    **Reauthentication Process**
-    
-    After successful reauthentication, you are redirected back to the application. The system opens the last page of the application with which you were working before the logout.
-  </Card>
-</Cards>
+> 🚧 *Important*
+>
+> *For security reasons, SAPIENT automatically terminates your session after a specified time of inactivity.*
+>
+> *After successful reauthentication, you are redirected back to the application. Also, the system opens the last page of the application with which you were working before the logout.*
