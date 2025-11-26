@@ -10,6 +10,10 @@ icon: fad fa-ballot-check
 link:
   new_tab: false
 metadata:
+  description: >-
+    Choosing a strong and unique password is vital to ensure your account
+    remains secure. If your password is weak (easily guessable) or commonly
+    used, it increases the risk of your account being compromised. 
   robots: index
 ---
 <Image align="center" width="400px" src="https://files.readme.io/d10349573b6aa93551df287194370e8a2fb5bc17f8977ffac9618fb1e1e87ced-Two_factor_authentication-pana.png" />
@@ -24,54 +28,28 @@ If your password fails these checks, you will receive one of the following error
 > * This password has been previously found in a data breach. Please choose a more secure password.
 > * That password is too weak; please choose a stronger password.
 
-## Password Security Approaches
+## Using password managers
 
-<Cards columns={2}>
-  <Card title="Password Managers" href="#using-password-managers" icon="shield-alt">
-    The most secure and convenient way to manage passwords. Generates and stores strong, unique passwords automatically.
-  </Card>
-  <Card title="Three Random Words" href="#alternative-approach" icon="key">
-    A simple alternative method for creating memorable yet secure passwords when password managers aren't available.
-  </Card>
-</Cards>
-
-<Tabs>
-  <Tab title="Password Managers (Recommended)">
-    
 We recommend you use a **[password manager](https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/password-managers)** for generating and storing your passwords. This is the most secure and convenient way to manage passwords. Used properly, it completely eliminates the risk of using a weak or commonly used password.
 
 Password managers are built into most browsers. Alternatively, there are free and paid third-party solutions available.
 
-<Accordion title="Password Manager Guidelines" icon="cog">
+> 🚧 *Important*
+>
+> *When generating a password from a password manager, follow these guidelines:*
+>
+> * ***Increase the length**: Set longer passwords (20+ characters), as they are generally more secure.*
+> * ***Include all characters**: Incorporate numbers, special characters, and upper and lower case letters.*
+> * ***Make it unique per site**: Always generate a new, unique password for each site.*
 
-When generating a password from a password manager, follow these guidelines:
-
-* **Increase the length**: Set longer passwords (20+ characters), as they are generally more secure.
-* **Include all characters**: Incorporate numbers, special characters, and upper and lower case letters.
-* **Make it unique per site**: Always generate a new, unique password for each site.
-
-</Accordion>
-
-  </Tab>
-  <Tab title="Alternative Approach">
-    
 ## What if I cannot use a password manager?
 
-If you cannot use a password manager, consider using any three random words, for example, `horsebatteryhouse` as an alternative.
+If you cannot use a password manager, consider using any three random words, for example,  horsebatteryhouse as an alternative.
 
 > 💡 *Tip*
 >
-> *For more information on the three random words, visit the following link: [https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/three-random-words](https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/three-random-words).*
+> *For more information on the three random words, visit the following link:[https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/three-random-words](https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/three-random-words).*
 
 Using three random words can be difficult to remember across multiple online accounts requiring passwords, which is why our primary recommendation remains a password manager.
 
-  </Tab>
-</Tabs>
-
----
-
-<Cards columns={1}>
-  <Card title="Key Takeaway" icon="exclamation-triangle">
-    Taking the time to choose a strong password or using a password manager is an essential step in protecting your online accounts.
-  </Card>
-</Cards>
+In short, taking the time to choose a strong password or using a password manager is an essential step in protecting your online accounts.
