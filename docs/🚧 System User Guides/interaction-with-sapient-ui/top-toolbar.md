@@ -22,7 +22,7 @@ The SAPIENT top toolbar is located below the application header and contains ess
     Navigate through your application hierarchy with breadcrumb trail navigation. Click any breadcrumb link to return to a previous page, or use the ![Home button](https://files.readme.io/5cbcc9024801646cae18edc6965107b0be004ce243a4833b552e89e16521a197-Home_button.png) home button to jump directly to the application's main page.
   </Card>
 
-  <Card title="Workspace Toolbar" icon="fa-tools">
+  <Card title="Workspace Toolbar" icon="fa-solid fa-browsers">
     Access context-sensitive actions and tools in the top-right corner. Available options adapt based on your current object and workflow, such as **Add Shipping Account**, **Delete Product**, or **Back to Shipping Locations**.
   </Card>
 </Cards>
