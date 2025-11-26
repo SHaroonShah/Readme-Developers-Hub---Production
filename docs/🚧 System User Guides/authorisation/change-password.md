@@ -29,13 +29,14 @@ In this section, learn how to securely change your password with step-by-step in
 To change the password, follow the steps as explained in the following procedure.
 
 <ToggleList>
-  <ToggleListItem title={<strong>1. Access the option </strong>} icon="fa-rocket">
+  <ToggleListItem title={<strong>1. Access the Change Password option </strong>} icon="fa-rocket">
     <br />
 
     In the application header, select the user icon. In the dropdown menu that opens, select **Change Password**.
 
     <Image align="center" border={true} src="https://files.readme.io/fbd8fe18894e83420059e7b25295e31b6f258429703e28b7ef21b88ace2d2bbc-Change_password_option.png" width="150px" alt="Changing password" />
-***
+
+    ***
   </ToggleListItem>
 
   <br />
