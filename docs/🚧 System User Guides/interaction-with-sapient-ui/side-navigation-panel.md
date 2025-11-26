@@ -30,7 +30,7 @@ The side navigation panel is comprised of the following:
   </Card>
 
   <Card title="Shipment Processing" icon="fa-solid fa-loader">
-    > An option that provides you with detailed information on managing or processing shipments. Handle all aspects of your shipment workflow from this centralized location.
+    > An option that provides you with detailed information on managing or processing shipments. Handle all aspects of your shipment workflow from this centralised location.
   </Card>
 
   <Card title="Maintenance" icon="fa-solid fa-tools">
