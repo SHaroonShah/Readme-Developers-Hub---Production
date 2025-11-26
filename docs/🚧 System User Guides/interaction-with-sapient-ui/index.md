@@ -21,7 +21,7 @@ This section of the user guide explains the general UI elements that are availab
 
 The SAPIENT application consists of four main blocks, each serving a specific purpose in your workflow. Each of the components work together to provide a comprehensive and user-friendly interface that supports your daily operations within SAPIENT.
 
-Click on any of the following cards to learn more about specific UI elements and their functionalities:
+Click any of the following cards to learn more about specific UI elements and their functionalities:
 
 <Cards columns={2}>
   <Card title="Application Header" href="https://docs.intersoftsapient.net/docs/application-header" icon="fa-solid fa-window-maximize">
