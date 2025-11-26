@@ -37,7 +37,7 @@ The side navigation panel is comprised of the following:
     A comprehensive block that provides you with core operations for managing your shipments, including creating shipping accounts, adding users, managing products, and other essential administrative tasks.
   </Card>
 
-  <Card title="Utilities" icon="bars">
+  <Card title="Utilities" icon="fa-solid fa-bars">
     A block that provides you with miscellaneous actions and system utilities, such as logging out of the application and accessing additional tools and settings.
   </Card>
 </Cards>
