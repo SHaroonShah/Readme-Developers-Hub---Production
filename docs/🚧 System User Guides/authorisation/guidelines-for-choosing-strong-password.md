@@ -10,7 +10,7 @@ icon: fad fa-ballot-check
 metadata:
   robots: index
 ---
-<Image align="center" width="400px" src="https://files.readme.io/d10349573b6aa93551df287194370e8a2fb5bc17f8977ffac9618fb1e1e87ced-Two_factor_authentication-pana.png" />
+<Image align="center" border={false} width="400px" src="https://files.readme.io/d10349573b6aa93551df287194370e8a2fb5bc17f8977ffac9618fb1e1e87ced-Two_factor_authentication-pana.png" />
 
 To maintain the security of your account, we check the following when you change or set your password:
 
@@ -22,28 +22,46 @@ If your password fails these checks, you will receive one of the following error
 > * This password has been previously found in a data breach. Please choose a more secure password.
 > * That password is too weak; please choose a stronger password.
 
-## Using password managers
+## Password security management 
 
-We recommend you use a **[password manager](https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/password-managers)** for generating and storing your passwords. This is the most secure and convenient way to manage passwords. Used properly, it completely eliminates the risk of using a weak or commonly used password.
+<br />
 
-Password managers are built into most browsers. Alternatively, there are free and paid third-party solutions available.
+<Cards columns={2}>
+  <Card title="Password Managers" href="#using-password-managers" icon="shield-alt">
+    The most secure and convenient way to manage passwords. Generates and stores strong, unique passwords automatically.
+  </Card>
 
-> 🚧 *Important*
->
-> *When generating a password from a password manager, follow these guidelines:*
->
-> * ***Increase the length**: Set longer passwords (20+ characters), as they are generally more secure.*
-> * ***Include all characters**: Incorporate numbers, special characters, and upper and lower case letters.*
-> * ***Make it unique per site**: Always generate a new, unique password for each site.*
+  <Card title="Three Random Words" href="#alternative-approach" icon="key">
+    A simple alternative method for creating memorable yet secure passwords when password managers aren't available.
+  </Card>
+</Cards>
 
-## What if I cannot use a password manager?
+<Tabs>
+  <Tab title="Password Managers (Recommended)">
+    We recommend you use a **[password manager](https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/password-managers)** for generating and storing your passwords. This is the most secure and convenient way to manage passwords. Used properly, it completely eliminates the risk of using a weak or commonly used password.
 
-If you cannot use a password manager, consider using any three random words, for example,  horsebatteryhouse as an alternative.
+    Password managers are built into most browsers. Alternatively, there are free and paid third-party solutions available.
 
-> 💡 *Tip*
->
-> *For more information on the three random words, visit the following link:[https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/three-random-words](https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/three-random-words).*
+    <Accordion title="Password Manager Guidelines" icon="cog">
+      When generating a password from a password manager, follow these guidelines:
 
-Using three random words can be difficult to remember across multiple online accounts requiring passwords, which is why our primary recommendation remains a password manager.
+      * **Increase the length**: Set longer passwords (20+ characters), as they are generally more secure.
+      * **Include all characters**: Incorporate numbers, special characters, and upper and lower case letters.
+      * **Make it unique per site**: Always generate a new, unique password for each site.
+    </Accordion>
+  </Tab>
 
-In short, taking the time to choose a strong password or using a password manager is an essential step in protecting your online accounts.
+  <Tab title="Alternative Approach">
+    ## What if I cannot use a password manager?
+
+    If you cannot use a password manager, consider using any three random words, for example, `horsebatteryhouse` as an alternative.
+
+    <Callout icon="💡" theme="default">
+      ### *Tip*
+
+      *For more information on the three random words, visit the following link:[https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/three-random-words](https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/three-random-words).*
+    </Callout>
+
+    Using three random words can be difficult to remember across multiple online accounts requiring passwords, which is why our primary recommendation remains a password manager.
+  </Tab>
+</Tabs>
