@@ -81,7 +81,6 @@ Once finished, your password is successfully reset and updated. You can now log 
 
 ## See also
 
-// Usage Example
 <Cards columns={1}>
   <Card title="Guidelines for choosing stromg password" href="https://readme.com" icon="fa-solid fa-list">
     *Lorem ipsum dolor sit amet, consectetur adipiscing elit*
