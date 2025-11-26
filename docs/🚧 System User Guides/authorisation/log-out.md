@@ -14,19 +14,33 @@ metadata:
 next:
   description: ''
 ---
-To log out of SAPIENT, follow the steps as explained in the following procedure.
+<br />
 
-1. In the application header, select the user icon. 
-2. In the dropdown menu that opens, select **Logout**.
+<ToggleList>
+  <ToggleListItem title={<strong>1. Access the user icon </strong>} color="#ffb600">
+    <br />
 
-<Image alt="Logging out of SAPIENT" align="center" width="150px" border={true} src="https://files.readme.io/cfcec17df89b1c8d62c3ceb2a1adf91f3a3c7fa8ef3b113a8208a8081c71c484-Log_out_option.png">
-  Logging out of SAPIENT
-</Image>
+    In the application header, select the user icon.
+
+    ***
+  </ToggleListItem>
+
+  <br />
+
+  <ToggleListItem title={<strong>2. Log out from the system </strong>}>
+    <br />
+
+    In the dropdown menu that opens, select **Logout**.
+
+<Image align="center" alt="Logging out of SAPIENT" border={true} caption="Logging out of SAPIENT" src="https://files.readme.io/cfcec17df89b1c8d62c3ceb2a1adf91f3a3c7fa8ef3b113a8208a8081c71c484-Log_out_option.png" width="150px" />
 
 You are now redirected to the **Sign in** page, which indicates that you have successfully logged out.
+> 🚧 _Important_
+>
+> _For security reasons, SAPIENT automatically terminates your session after a specified time of inactivity._
+>
+> _After successful reauthentication, you are redirected back to the application. Also, the system opens the last page of the application with which you were working before the logout._
+</ToggleListItem>
+</ToggleList>
 
-> 🚧 *Important*
->
-> *For security reasons, SAPIENT automatically terminates your session after a specified time of inactivity.*
->
-> *After successful reauthentication, you are redirected back to the application. Also, the system opens the last page of the application with which you were working before the logout.*
+
