@@ -22,9 +22,7 @@ If your password fails these checks, you will receive one of the following error
 > * This password has been previously found in a data breach. Please choose a more secure password.
 > * That password is too weak; please choose a stronger password.
 
-## Password security management 
-
-<br />
+## Password security management
 
 <Cards columns={2}>
   <Card title="Password Managers" href="#using-password-managers" icon="shield-alt">
