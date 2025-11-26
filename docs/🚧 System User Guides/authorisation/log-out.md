@@ -22,6 +22,7 @@ To log out of SAPIENT, follow the steps as explained in the following procedure.
     <br />
 
     In the application header, select the user icon.
+<Image align="center" border={true} caption="Accessing user icon" src="https://files.readme.io/9e1599436553f2802ddaa259364f1182248b22f106c78d7311424476e7178545-Accessing_user_icon.png" />
 
     ***
   </ToggleListItem>
