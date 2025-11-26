@@ -10,191 +10,31 @@ icon: fad fa-users-between-lines
 link:
   new_tab: false
 metadata:
+  description: >-
+    Acess to SAPIENT options and features varies and depends on your role within
+    the organisation. A list of recommended and basic roles and permissions are
+    explained in detail in the following tables for each functionality in
+    SAPIENT. 
   robots: index
 ---
-Access to SAPIENT options and features varies and depends on your role within the organisation. The following sections detail recommended roles and permissions for each functionality in SAPIENT.
+## Access permissions to SAPIENT user interface
 
-<Tabs>
-  <Tab title="SAPIENT User Interface Access">
-    <Accordion title="Carrier Accounts Administrator" icon="user-cog">
-      **Role Description:** Can configure any carrier they are assigned to
-      
-      **Permissions:**
-      - ✅ Home page
-      - ⛔ Shipment search
-      - ⛔ View shipments
-      - ⛔ View manifest history
-      - ⛔ View cancelled shipments
-      - ⛔ View held shipments
-      - ⛔ Manifesting
-    </Accordion>
-    
-    <Accordion title="User Administrator" icon="users-cog">
-      **Role Description:** Can manage website users
-      
-      **Permissions:**
-      - ✅ Home page
-      - ⛔ Shipment search
-      - ⛔ View shipments
-      - ⛔ View manifest history
-      - ⛔ View cancelled shipments
-      - ⛔ View held shipments
-      - ⛔ Manifesting
-    </Accordion>
-    
-    <Accordion title="Customer Configuration Manager" icon="cogs">
-      **Role Description:** Can access and update settings related to the customer
-      
-      **Permissions:**
-      - ✅ Home page
-      - ⛔ Shipment search
-      - ⛔ View shipments
-      - ⛔ View manifest history
-      - ⛔ View cancelled shipments
-      - ⛔ View held shipments
-      - ⛔ Manifesting
-    </Accordion>
-    
-    <Accordion title="History Access" icon="history">
-      **Role Description:** A permission to gain access to past shipments and manifests
-      
-      **Permissions:**
-      - ✅ Home page
-      - ✅ Shipment search
-      - ✅ View shipments
-      - ✅ View manifest history
-      - ⛔ View cancelled shipments
-      - ⛔ View held shipments
-      - ⛔ Manifesting
-    </Accordion>
-    
-    <Accordion title="Shipment Manifesting" icon="clipboard-list">
-      **Role Description:** A permission to manifest the shipments via the UI
-      
-      **Permissions:**
-      - ✅ Home page
-      - ⛔ Shipment search
-      - ⛔ View shipments
-      - ⛔ View manifest history
-      - ✅ View cancelled shipments
-      - ✅ View held shipments
-      - ✅ Manifesting
-    </Accordion>
-  </Tab>
-  
-  <Tab title="Maintenance Functionality Access">
-    <Accordion title="Carrier Accounts Administrator" icon="user-cog">
-      **Role Description:** Can configure any carrier they are assigned to
-      
-      **Customer Management:**
-      - ⛔ View Customers
-      - ⛔ Customer onboarding wizard
-      - ⛔ View customer details
-      - ⛔ Edit customer details
-      - ⛔ Delete customer
-      - ⛔ View customer users
-      
-      **Location & Account Management:**
-      - ✅ View shipping locations
-      - ⛔ Add shipping location
-      - ⛔ View location users
-      - ✅ Edit shipping location
-      - ✅ Link existing shipping account
-      - ✅ View shipping accounts
-      - ✅ Edit shipping account
-      - ✅ Delete account
-      - ✅ Refresh account status
-      - ✅ Add shipping account
-      
-      **Billing & Services:**
-      - ✅ View billing departments
-      - ✅ View service contracts
-      
-      **Products & Integrations:**
-      - ⛔ Add product
-      - ⛔ Lists products
-      - ⛔ Edit product
-      - ⛔ Delete product
-      - ⛔ Integrations
-      
-      **Other:**
-      - ⛔ View Held shipments
-    </Accordion>
-    
-    <Accordion title="User Administrator" icon="users-cog">
-      **Role Description:** Can manage website users
-      
-      **Permissions:** This role has no access to maintenance functionality features.
-      
-      All maintenance functions are restricted (⛔) for this role.
-    </Accordion>
-    
-    <Accordion title="Customer Configuration Manager" icon="cogs">
-      **Role Description:** Can access and update settings related to the customer
-      
-      **Customer Management:**
-      - ⛔ View Customers
-      - ⛔ Customer onboarding wizard
-      - ⛔ View customer details
-      - ⛔ Edit customer details
-      - ⛔ Delete customer
-      - ⛔ View customer users
-      
-      **Location Management:**
-      - ✅ View shipping locations
-      - ✅ Add shipping location
-      - ✅ View location users
-      - ✅ Edit shipping location
-      
-      **Account Management:**
-      - ⛔ Link existing shipping account
-      - ⛔ View shipping accounts
-      - ⛔ Edit shipping account
-      - ⛔ Delete account
-      - ⛔ Refresh account status
-      - ⛔ Add shipping account
-      
-      **Products & Integrations:**
-      - ✅ Add product
-      - ✅ Lists products
-      - ✅ Edit product
-      - ✅ Delete product
-      - ✅ Integrations
-      
-      **Other:**
-      - ⛔ View Held shipments
-      - ⛔ View billing departments
-      - ⛔ View service contracts
-    </Accordion>
-    
-    <Accordion title="History Access" icon="history">
-      **Role Description:** A permission to gain access to past shipments and manifests
-      
-      **Customer Management:**
-      - ✅ View Customers
-      - ✅ Customer onboarding wizard
-      - ✅ View customer details
-      - ✅ Edit customer details
-      - ⛔ Delete customer
-      - ⛔ View customer users
-      
-      **Other Permissions:**
-      All other maintenance functionality features are restricted (⛔) for this role, including location management, account management, products, and integrations.
-    </Accordion>
-    
-    <Accordion title="Shipment Manifesting" icon="clipboard-list">
-      **Role Description:** A permission to manifest the shipments via the UI
-      
-      **Permissions:** This role has no access to maintenance functionality features.
-      
-      All maintenance functions are restricted (⛔) for this role.
-    </Accordion>
-  </Tab>
-</Tabs>
+| User role                                                                                   | Home page | Shipment search | View shipments | View manifest history | View cancelled shipments | View held shipments | Manifesting |
+| :------------------------------------------------------------------------------------------ | :-------- | :-------------- | :------------- | :-------------------- | :----------------------- | :------------------ | :---------- |
+| **Carrier Accounts Administrator** (Can configure any carrier they are assigned to)         | ✅         | ⛔               | ⛔              | ⛔                     | ⛔                        | ⛔                   | ⛔           |
+| **User Administrator** (can manage website users)                                           | ✅         | ⛔               | ⛔              | ⛔                     | ⛔                        | ⛔                   | ⛔           |
+| **Customer Configuration Manager** (can access and update settings related to the customer) | ✅         | ⛔               | ⛔              | ⛔                     | ⛔                        | ⛔                   | ⛔           |
+| **History Access** (a permission to gain access to past shipments and manifests)            | ✅         | ✅               | ✅              | ✅                     | ⛔                        | ⛔                   | ⛔           |
+| **Shipment Manifesting** (a permission to manifest the shipments via the UI)                | ✅         | ⛔               | ⛔              | ⛔                     | ✅                        | ✅                   | ✅           |
 
-## Key Points
+## Access permissions to maintenance functionality
 
-- **✅** indicates the user role has access to the functionality
-- **⛔** indicates the user role does not have access to the functionality
-- Roles can be combined to provide users with the specific permissions they need
-- Contact your system administrator to modify role assignments and permissions
+<br />
+
+| User role/permission                                                                        | View Customers | Customer onboarding wizard | View customer details | Edit customer details | Delete customer | View Held shipments | View customer users | View shipping locations | Add shipping location | View location users | Edit shipping location | Link existing shipping account | View shipping accounts | Edit shipping account | Delete account | Refresh account status | View billing departments | View service contracts | Add shipping account | Add product | Lists products | Edit product | Delete product | Integrations |
+| :------------------------------------------------------------------------------------------ | :------------- | :------------------------- | :-------------------- | :-------------------- | :-------------- | :------------------ | :------------------ | :---------------------- | :-------------------- | :------------------ | :--------------------- | :----------------------------- | :--------------------- | :-------------------- | :------------- | :--------------------- | :----------------------- | :--------------------- | :------------------- | :---------- | :------------- | :----------- | :------------- | :----------- |
+| **Carrier Accounts Administrator** (can configure any carrier they are assigned to)         | ⛔              | ⛔                          | ⛔                     | ⛔                     | ⛔               | ⛔                   | ⛔                   | ✅                       | ⛔                     | ⛔                   | ✅                      | ✅                              | ✅                      | ✅                     | ✅              | ✅                      | ✅                        | ✅                      | ✅                    | ⛔           | ⛔              | ⛔            | ⛔              | ⛔            |
+| **User Administrator** (can manage website users)                                           | ⛔              | ⛔                          | ⛔                     | ⛔                     | ⛔               | ⛔                   | ⛔                   | ⛔                       | ⛔                     | ⛔                   | ⛔                      | ⛔                              | ⛔                      | ⛔                     | ⛔              | ⛔                      | ⛔                        | ⛔                      | ⛔                    | ⛔           | ⛔              | ⛔            | ⛔              | ⛔            |
+| **Customer Configuration Manager** (can access and update settings related to the customer) | ⛔              | ⛔                          | ⛔                     | ⛔                     | ⛔               | ⛔                   | ⛔                   | ✅                       | ✅                     | ✅                   | ✅                      | ⛔                              | ⛔                      | ⛔                     | ⛔              | ⛔                      | ⛔                        | ⛔                      | ⛔                    | ✅           | ✅              | ✅            | ✅              | ✅            |
+| **History Access** (a permission to gain access to past shipments and manifests)            | ✅              | ✅                          | ✅                     | ✅                     | ⛔               | ⛔                   | ⛔                   | ⛔                       | ⛔                     | ⛔                   | ⛔                      | ⛔                              | ⛔                      | ⛔                     | ⛔              | ⛔                      | ⛔                        | ⛔                      | ⛔                    | ⛔           | ⛔              | ⛔            | ⛔              | ⛔            |
+| **Shipment Manifesting** (a permission to manifest the shipments via the UI)                | ⛔              | ⛔                          | ⛔                     | ⛔                     | ⛔               | ⛔                   | ⛔                   | ⛔                       | ⛔                     | ⛔                   | ⛔                      | ⛔                              | ⛔                      | ⛔                     | ⛔              | ⛔                      | ⛔                        | ⛔                      | ⛔                    | ⛔           | ⛔              | ⛔            | ⛔              | ⛔            |
