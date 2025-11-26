@@ -14,6 +14,7 @@ next:
   description: ''
 ---
 Logging out of the SAPIENT system redirects you to the main Sign in page that ensures that you have successfully logged out of the session you were working on.
+
 To log out of SAPIENT, follow the steps as explained in the following procedure.
 
 <ToggleList>
