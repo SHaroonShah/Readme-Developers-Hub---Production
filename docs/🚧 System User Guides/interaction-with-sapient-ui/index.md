@@ -40,18 +40,3 @@ Click on any of the following cards to learn more about specific UI elements and
     The main working area where you'll view and interact with your data, reports, and primary application content.
   </Card>
 </Cards>
-
-<Accordion title="Navigation Tips" icon="lightbulb">
-  **Getting Started with SAPIENT UI:**
-
-  * Familiarize yourself with each component's location and purpose
-  * Use the side navigation panel for primary feature access
-  * Access frequently used tools through the top toolbar
-  * Monitor your workspace through the contents panel/dashboard
-
-  **Best Practices:**
-
-  * Keep the application header visible for quick access to global settings
-  * Utilize keyboard shortcuts when available for faster navigation
-  * Customize your workspace layout according to your workflow preferences
-</Accordion>
