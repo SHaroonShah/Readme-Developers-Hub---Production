@@ -1,9 +1,8 @@
 ---
 title: Log out
 excerpt: >-
-  Logging out of the SAPIENT system redirects you to the main **Sign in** page
-  that ensures that you have successfully logged out of the session you were
-  working on.
+  Learn how to securely log out of the SAPIENT system, including automatic
+  session termination and reauthentication procedures.
 deprecated: false
 hidden: false
 icon: fad fa-right-long-to-line
@@ -15,6 +14,7 @@ next:
   description: ''
 ---
 <br />
+Logging out of the SAPIENT system redirects you to the main Sign in page that ensures that you have successfully logged out of the session you were working on.
 To log out of SAPIENT, follow the steps as explained in the following procedure.
 <ToggleList>
   <ToggleListItem title={<strong>1. Access the user icon </strong>} color="#ffb600">
