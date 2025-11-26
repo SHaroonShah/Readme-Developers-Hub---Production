@@ -76,3 +76,14 @@ To reset your password in SAPIENT, follow the steps as explained in the followin
 </ToggleList>
 
 Once finished, your password is successfully reset and updated. You can now log in to SAPIENT with your updated password.
+
+***
+
+## See also
+
+// Usage Example
+<Cards columns={1}>
+  <Card title="Guidelines for choosing stromg password" href="https://readme.com" icon="fa-solid fa-list">
+    *Lorem ipsum dolor sit amet, consectetur adipiscing elit*
+  </Card>
+</Cards>
