@@ -15,7 +15,7 @@ next:
   description: ''
 ---
 <br />
-
+To log out of SAPIENT, follow the steps as explained in the following procedure.
 <ToggleList>
   <ToggleListItem title={<strong>1. Access the user icon </strong>} color="#ffb600">
     <br />
@@ -42,5 +42,3 @@ You are now redirected to the **Sign in** page, which indicates that you have su
 > _After successful reauthentication, you are redirected back to the application. Also, the system opens the last page of the application with which you were working before the logout._
 </ToggleListItem>
 </ToggleList>
-
-
