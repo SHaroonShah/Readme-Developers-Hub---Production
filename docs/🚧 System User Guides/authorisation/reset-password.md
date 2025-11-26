@@ -83,6 +83,6 @@ Once finished, your password is successfully reset and updated. You can now log 
 
 <Cards columns={1}>
   <Card title="Guidelines for choosing strong password" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/guidelines-for-choosing-strong-password#/" icon="fa-solid fa-list">
-    *Lorem ipsum dolor sit amet, consectetur adipiscing elit*
+    *Set a unique password to ensure your account remains secure*
   </Card>
 </Cards>
