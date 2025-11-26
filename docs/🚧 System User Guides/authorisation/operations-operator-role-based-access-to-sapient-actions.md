@@ -15,7 +15,7 @@ Access to SAPIENT options and features varies and depends on your role within th
 <Callout icon="💡" theme="default">
   ### _Tip_
 
-  _To make reviewing permissions more convenient, it’s helpful to understand the following information:_
+  _To make reviewing permissions more convenient, it is helpful to understand the following information:_
 
   * **✅** _indicates the user role has access to the functionality_
   * **⛔** _indicates the user role does not have access to the functionality_
