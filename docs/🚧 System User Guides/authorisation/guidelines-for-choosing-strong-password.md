@@ -10,7 +10,7 @@ icon: fad fa-ballot-check
 metadata:
   robots: index
 ---
-<Image align="center" border={false} width="400px" src="https://files.readme.io/d10349573b6aa93551df287194370e8a2fb5bc17f8977ffac9618fb1e1e87ced-Two_factor_authentication-pana.png" />
+<Image align="center" border={false} width="200px" src="https://files.readme.io/d10349573b6aa93551df287194370e8a2fb5bc17f8977ffac9618fb1e1e87ced-Two_factor_authentication-pana.png" />
 
 To maintain the security of your account, we check the following when you change or set your password:
 
