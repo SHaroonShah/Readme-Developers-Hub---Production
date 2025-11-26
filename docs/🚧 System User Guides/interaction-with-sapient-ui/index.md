@@ -19,7 +19,7 @@ This section of the user guide explains the general UI elements that are availab
 
 ## Main UI components
 
-The SAPIENT application consists of four main blocks, each serving a specific purpose in your workflow. Each of the components work together to provide a comprehensive and user-friendly interface that supports your daily operations within SAPIENT. 
+The SAPIENT application consists of four main blocks, each serving a specific purpose in your workflow. Each of the components work together to provide a comprehensive and user-friendly interface that supports your daily operations within SAPIENT.
 
 Click on any of the following cards to learn more about specific UI elements and their functionalities:
 
@@ -28,15 +28,15 @@ Click on any of the following cards to learn more about specific UI elements and
     The top-level navigation and branding area that provides access to global application functions and user settings.
   </Card>
 
-  <Card title="Top Toolbar" href="https://docs.intersoftsapient.net/docs/top-toolbar" icon="tools">
+  <Card title="Top Toolbar" href="https://docs.intersoftsapient.net/docs/top-toolbar" icon="fa-solid fa-tools">
     Contains frequently used tools and actions specific to your current workspace, enabling quick access to common operations.
   </Card>
 
-  <Card title="Side Navigation Panel" href="https://docs.intersoftsapient.net/docs/side-navigation-panel" icon="bars">
+  <Card title="Side Navigation Panel" href="https://docs.intersoftsapient.net/docs/side-navigation-panel" icon="fa-solid fa-bars">
     Your primary navigation hub for accessing different modules, features, and sections within the SAPIENT application.
   </Card>
 
-  <Card title="Contents Panel (Dashboard)" href="https://docs.intersoftsapient.net/docs/dashboard" icon="dashboard">
+  <Card title="Contents Panel (Dashboard)" href="https://docs.intersoftsapient.net/docs/dashboard" icon="fa-solid fa-dashboard">
     The main working area where you'll view and interact with your data, reports, and primary application content.
   </Card>
 </Cards>
