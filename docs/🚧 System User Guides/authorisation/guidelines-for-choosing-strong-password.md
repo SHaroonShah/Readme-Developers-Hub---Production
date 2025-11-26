@@ -22,6 +22,8 @@ If your password fails these checks, you will receive one of the following error
 > * This password has been previously found in a data breach. Please choose a more secure password.
 > * That password is too weak; please choose a stronger password.
 
+***
+
 ## Password security management
 
 <Cards columns={2}>
