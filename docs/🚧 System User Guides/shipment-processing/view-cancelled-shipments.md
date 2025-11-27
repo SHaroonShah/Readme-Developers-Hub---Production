@@ -102,6 +102,13 @@ In SAPIENT, you can cancel the <Glossary>shipments</Glossary> to ensure that res
       </ToggleListItem>
     </ToggleList>
   </Tab>
+<Callout icon="💡" theme="default">
+  ### _Tip_
+
+  _You can access the canceled shipments directly from this page by selecting the**View Cancelled Shipments** option or by accessing the **Shipment Processing** > **Cancelled** option from the side navigation panel._
+
+  <Image align="center" alt="Accessing canceled shipments" border={true} caption="Accessing cancelled shipments" src="https://files.readme.io/98bb78638eb05e979777dfd34b1a13605cab5520fa6017f7a980a02fc38a0602-Canceled_shipments_option.png" />
+</Callout>
 
   <Tab title="Via API">
     To cancel shipment via our API, refer to the following endpoint:
@@ -122,13 +129,7 @@ In SAPIENT, you can cancel the <Glossary>shipments</Glossary> to ensure that res
   </Tab>
 </Tabs>
 
-<Callout icon="💡" theme="default">
-  ### _Tip_
 
-  _You can access the canceled shipments directly from this page by selecting the**View Cancelled Shipments** option or by accessing the **Shipment Processing** > **Cancelled** option from the side navigation panel._
-
-  <Image align="center" alt="Accessing canceled shipments" border={true} caption="Accessing cancelled shipments" src="https://files.readme.io/98bb78638eb05e979777dfd34b1a13605cab5520fa6017f7a980a02fc38a0602-Canceled_shipments_option.png" />
-</Callout>
 
 <br />
 
