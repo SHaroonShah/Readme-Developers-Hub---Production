@@ -27,11 +27,11 @@ If your password fails these checks, you will receive one of the following error
 ## Password security management
 
 <Cards columns={2}>
-  <Card title="Password Managers" href="#using-password-managers" icon="fa-solid fa-shield-key">
+  <Card title="Password Managers" href="#using-password-managers" icon="fa-solid fa-shield">
     The most secure and convenient way to manage passwords. Generates and stores strong, unique passwords automatically.
   </Card>
 
-  <Card title="Three Random Words" href="#alternative-approach" icon="key">
+  <Card title="Three Random Words" href="#alternative-approach" icon="fa-solid fa-key">
     A simple alternative method for creating memorable yet secure passwords when password managers aren't available.
   </Card>
 </Cards>
