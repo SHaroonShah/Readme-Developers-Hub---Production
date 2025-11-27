@@ -80,7 +80,7 @@ In SAPIENT, you can cancel the <Glossary>shipments</Glossary> to ensure that res
       <ToggleListItem title={<strong>4. Select and cancel shipments </strong>} icon="fa-rocket">
         <br />
 
-        Next to the shipment you want to cancel, select ![alt text](https://files.readme.io/ade8694f40f0b89e1cfab543051a5b77f7a307552c22b1c0105f7f2439dd065e-View_button.png). On the page that opens, select the checkbox next to the shipment, and then click ![alt text](https://files.readme.io/ce57b2272ffff135c3c09d4b532c2cbff21b8ffeaaacb4bb668edcbd00c2e67c-Cancel_shipments_button.png)
+        Next to the shipment you want to cancel, select ![alt text](https://files.readme.io/ade8694f40f0b89e1cfab543051a5b77f7a307552c22b1c0105f7f2439dd065e-View_button.png). On the page that opens, select the checkbox next to the shipment, and then click ![alt text](https://files.readme.io/ce57b2272ffff135c3c09d4b532c2cbff21b8ffeaaacb4bb668edcbd00c2e67c-Cancel_shipments_button.png).
 
         <br />
 
@@ -94,7 +94,7 @@ In SAPIENT, you can cancel the <Glossary>shipments</Glossary> to ensure that res
       <ToggleListItem title={<strong>5. Confirm cancellation</strong>} icon="fa-rocket">
         <br />
 
-        In the confirmation dialog that opens, enter the reason for canceling the shipment and select **Yes** to confirm
+        In the confirmation dialog that opens, enter the reason for canceling the shipment and select **Yes** to confirm.
 
         <br />
 
