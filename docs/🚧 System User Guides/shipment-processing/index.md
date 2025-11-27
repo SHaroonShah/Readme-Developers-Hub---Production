@@ -15,12 +15,12 @@ next:
 ---
 In SAPIENT, the primary purpose of the **Shipment Processing** feature is to allow users to track and control the status of shipments as they move through different stages of the shipping process, ensuring efficiency and accuracy in logistics management.
 
-<Image align="center" border={true} src="https://files.readme.io/2148c6141328734d3e4f852fdfc27e8ef114486ae0bacf6b754daaf8111a53bd-Shipment_processing.png" width="350px" />
+<Image align="center" border={true} width="350px" src="https://files.readme.io/2148c6141328734d3e4f852fdfc27e8ef114486ae0bacf6b754daaf8111a53bd-Shipment_processing.png" className="border" />
 
 With the shipment processing feature, you can monitor and track the details of your shipments and do the following:
 
 <Cards columns={3}>
-  <Card title="Cancel Shipment" href="https://docs.intersoftsapient.net/docs/view-cancelled-shipments" icon="times-circle">
+  <Card title="Cancel Shipment" href="https://docs.intersoftsapient.net/docs/view-cancelled-shipments" icon="fa-slid fa-nfc-slash">
     Stop a shipment that is no longer needed or has issues that prevent delivery.
   </Card>
 
