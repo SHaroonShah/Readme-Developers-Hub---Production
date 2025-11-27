@@ -61,11 +61,12 @@ In SAPIENT, you can cancel the <Glossary>shipments</Glossary> to ensure that res
       <ToggleListItem title={<strong>3. Apply Additional Filters </strong>} icon="fa-rocket">
         <br />
 
-        Once clicked, the SAPIENT Home page opens. You can now start using the system and execute your workflows.
+        
 
         ***
       </ToggleListItem>
-<br></br>
+
+      <br />
 
       <ToggleListItem title={<strong>4. Select and Cancel Shipments </strong>} icon="fa-rocket">
         <br />
@@ -78,7 +79,8 @@ In SAPIENT, you can cancel the <Glossary>shipments</Glossary> to ensure that res
 
         ***
       </ToggleListItem>
-<br></br>
+
+      <br />
 
       <ToggleListItem title={<strong>5. Confirm Cancellation</strong>} icon="fa-rocket">
         <br />
