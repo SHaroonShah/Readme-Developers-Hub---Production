@@ -24,7 +24,7 @@ With the shipment processing feature, you can monitor and track the details of y
     Stop a shipment that is no longer needed or has issues that prevent delivery.
   </Card>
 
-  <Card title="Recall Shipment" href="https://docs.intersoftsapient.net/docs/recall-shipment" icon="fa-solid fa-arrow-u-turn-down-right">
+  <Card title="Recall Shipment" href="https://docs.intersoftsapient.net/docs/recall-shipment" icon="fa-solid fa-undo">
     Retrieve a shipment that has already been processed but needs to be brought back.
   </Card>
 
