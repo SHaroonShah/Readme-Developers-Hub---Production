@@ -22,7 +22,7 @@ In SAPIENT, you can cancel the <Glossary>shipments</Glossary> to ensure that res
   </Card>
 
   <Card title="API Cancellation" icon="code">
-    Programmatically cancel shipments using our REST API endpoints
+    cancel shipments using our REST API endpoint
   </Card>
 </Cards>
 
