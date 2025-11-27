@@ -46,11 +46,13 @@ To log out of SAPIENT, follow the steps as explained in the following procedure.
     > *For security reasons, SAPIENT automatically terminates your session after a specified time of inactivity.*
     >
     > *After successful reauthentication, you are redirected back to the application. Also, the system opens the last page of the application with which you were working before the logout.*
-  </ToggleListItem>
-</ToggleList>
 
 <Callout icon="💡" theme="default">
   ### _Tip_
 
   _You can also log out of from the system by selecting ![](https://files.readme.io/b48e59dfed1d8e9e37160ed82cb6c411f6f667623b937a13b366596b3f690fbe-Log_out_icon.png) from the side navigation panel._
 </Callout>
+  </ToggleListItem>
+</ToggleList>
+
+
