@@ -27,7 +27,7 @@ If your password fails these checks, you will receive one of the following error
 ## Password security management
 
 <Cards columns={2}>
-  <Card title="Password Managers" href="#using-password-managers" icon="shield-alt">
+  <Card title="Password Managers" href="#using-password-managers" icon="fa-solid fa-shield-key">
     The most secure and convenient way to manage passwords. Generates and stores strong, unique passwords automatically.
   </Card>
 
