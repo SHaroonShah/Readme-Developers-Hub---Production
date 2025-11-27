@@ -31,7 +31,7 @@ Depending on the feature selected, it may accommodate different elements, the ma
     Navigation controls that allow users to browse through multiple pages of content when dealing with large datasets.
   </Card>
 
-  <Card title="Search and Filter Bar" href="https://docs.intersoftsapient.net/docs/search-and-filter-panel" icon="fa-light fa-filter">
+  <Card title="Search and Filter Bar" href="https://docs.intersoftsapient.net/docs/search-and-filter-panel" icon="fa-duotone fa-filter">
     Interactive tools that enable users to quickly find specific content and apply filters to refine their data view.
   </Card>
 </Cards>
