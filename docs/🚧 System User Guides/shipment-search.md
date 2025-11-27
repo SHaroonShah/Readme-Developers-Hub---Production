@@ -17,6 +17,8 @@ next:
 ---
 In SAPIENT, you can search your <Glossary>shipments</Glossary> based on <Glossary>customer</Glossary>, <Glossary>shipping location</Glossary>, and date ranges.
 
+To search shipments in SAPIENT, follow the steps as explained in the following procedure.
+
 <ToggleList>
   <ToggleListItem title={<strong>1. Access shipment search</strong>} icon="fa-rocket">
     <br />
