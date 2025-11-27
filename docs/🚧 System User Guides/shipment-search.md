@@ -17,8 +17,6 @@ next:
 ---
 In SAPIENT, you can search your <Glossary>shipments</Glossary> based on <Glossary>customer</Glossary>, <Glossary>shipping location</Glossary>, and date ranges.
 
-<br />
-
 <ToggleList>
   <ToggleListItem title={<strong>1. Access shipment search</strong>} icon="fa-rocket">
     <br />
@@ -54,7 +52,8 @@ In SAPIENT, you can search your <Glossary>shipments</Glossary> based on <Glossar
     Once filtered, the **Shipment Search** table displays the shipments matching your search criteria. The columns displayed in the table are explained in the following table.
 
     <Image align="center" border={true} src="https://files.readme.io/c285916b7f58433871d17666a0e9fc2aa38ea4b929a4cb089304fd5b608b87ba-Shipment_search_table.png" alt="Viewing shipments" />
-<br></br>
+
+    <br />
 
     <Table align={["center","left"]}>
       <thead>
