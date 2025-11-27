@@ -29,7 +29,7 @@ In SAPIENT, you can cancel the <Glossary>shipments</Glossary> to ensure that res
 ## How to cancel shipments
 
 <Tabs>
-  <Tab title="Via User Interface">
+  <Tab title="Via SAPIENT UI">
     Follow these steps to cancel shipments through the SAPIENT UI:
 
     <ToggleList>
