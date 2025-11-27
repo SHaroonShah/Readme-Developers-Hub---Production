@@ -60,8 +60,12 @@ In SAPIENT, you can cancel the <Glossary>shipments</Glossary> to ensure that res
 
       <ToggleListItem title={<strong>3. Apply Additional Filters </strong>} icon="fa-rocket">
         <br />
+   Filter the table data using:
 
-        
+    * **Narrow by Status**: Filter by shipment status
+    * **Narrow by Service**: Filter by carrier service codes
+
+    <Image align="center" border={true} src="https://files.readme.io/4f3b0dfcf1502b52e1c71c7448e95814a0afee4d9d9b865ba27082f2acbde5ed-Narrowing_manifesting.png" alt="Viewing shipments" />
 
         ***
       </ToggleListItem>
