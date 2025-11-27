@@ -8,23 +8,27 @@ excerpt: >-
 deprecated: false
 hidden: false
 icon: fad fa-print-magnifying-glass
+link:
+  new_tab: false
 metadata:
   title: ''
   description: ''
   robots: index
-next:
-  description: ''
 ---
-In SAPIENT, you can search your <Glossary>shipments</Glossary> based on <Glossary>customer</Glossary>, <Glossary>shipping location</Glossary>, and date ranges.\
+In SAPIENT, you can search your <Glossary>shipments</Glossary> based on <Glossary>customer</Glossary>, <Glossary>shipping location</Glossary>, and date ranges.
+
 To search shipments in SAPIENT, follow the steps as explained in the following procedure.
 
-1. In the side navigation panel, select the **Shipment Search** option.
+<Accordion title="Step 1: Access Shipment Search" icon="search">
+In the side navigation panel, select the **Shipment Search** option.
 
 <Image alt="Accessing shipments" align="center" border={true} src="https://files.readme.io/61c56d1eac2f021d25812b6f6bda320ace57046cc188b77226161bca4a73963e-Shipment_search_option.png">
   Accessing shipments
 </Image>
+</Accordion>
 
-2. In the **Shipment Search** page that opens, in the **FILTERS** block, specify your filters based on which you want to search your shipments, and then select ![alt text](https://files.readme.io/34fc7db79563540c7ec5a0d5ec80b50898cfa4ddd9fba622f178d517803116e6-Show_shipments_button.png). 
+<Accordion title="Step 2: Apply Filters" icon="filter">
+In the **Shipment Search** page that opens, in the **FILTERS** block, specify your filters based on which you want to search your shipments, and then select ![alt text](https://files.readme.io/34fc7db79563540c7ec5a0d5ec80b50898cfa4ddd9fba622f178d517803116e6-Show_shipments_button.png).
 
 > 📘 *Note*
 >
@@ -33,8 +37,10 @@ To search shipments in SAPIENT, follow the steps as explained in the following p
 <Image alt="Specifying filters" align="center" border={true} src="https://files.readme.io/f9ddcaf850dfd3eab60dd8b53e411e104e71000c4a4447df5a251a6368f39409-Shipment_search_filter.png">
   Specifying filters
 </Image>
+</Accordion>
 
-3. Once filtered, the **Shipment Search** table displays the shipments matching your search criteria. The columns displayed in the table are explained in the following table.
+<Accordion title="Step 3: View Search Results" icon="table">
+Once filtered, the **Shipment Search** table displays the shipments matching your search criteria. The columns displayed in the table are explained in the following table.
 
 <Image alt="Viewing shipments" align="center" border={true} src="https://files.readme.io/c285916b7f58433871d17666a0e9fc2aa38ea4b929a4cb089304fd5b608b87ba-Shipment_search_table.png">
   Viewing filtered shipments
@@ -167,5 +173,6 @@ To search shipments in SAPIENT, follow the steps as explained in the following p
     </tr>
   </tbody>
 </Table>
+</Accordion>
 
 After viewing your shipments, you can now take necessary actions on your shipments as needed.
