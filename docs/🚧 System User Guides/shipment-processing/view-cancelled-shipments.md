@@ -93,7 +93,7 @@ In SAPIENT, you can cancel the <Glossary>shipments</Glossary> to ensure that res
         <br />
 
         In the confirmation dialog that opens, enter the reason for canceling the shipment and select **Yes** to confirm
-
+<br></br>
         <Image align="center" border={true} src="https://files.readme.io/add229243a38970d994d96735c0f6ad74a1ca4404fa57475b6c9fc2a85b038ad-Confirming_shipment_cancellation.png" width="350px" alt="Confirming shipment cancellation" />
       </ToggleListItem>
     </ToggleList>
