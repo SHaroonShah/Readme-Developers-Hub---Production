@@ -21,23 +21,23 @@ The side navigation panel is located on the extreme left of the SAPIENT applicat
 The side navigation panel is comprised of the following:
 
 <Cards columns={2}>
-  <Card title="Home" icon="fa-solid fa-home" href="https://docs.intersoftsapient.net/v4.02_Coding/docs/dashboard-1#/">
+  <Card title="Home" icon="fa-solid fa-home" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/dashboard-1#/">
     > Link to the main landing page of the application. This serves as your central hub for accessing all SAPIENT features and getting an overview of your activities.
   </Card>
 
-  <Card title="Shipment Search" icon="fa-solid fa-search">
+  <Card title="Shipment Search" icon="fa-solid fa-search" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/shipment-search#/">
     > A powerful feature for users to look up shipments using shipping locations and date filters. Quickly find specific shipments with advanced search capabilities.
   </Card>
 
-  <Card title="Shipment Processing" icon="fa-solid fa-loader">
+  <Card title="Shipment Processing" icon="fa-solid fa-loader" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/shipment-processing#/">
     > An option that provides you with detailed information on managing or processing shipments. Handle all aspects of your shipment workflow from this centralised location.
   </Card>
 
-  <Card title="Maintenance" icon="fa-solid fa-tools">
+  <Card title="Maintenance" icon="fa-solid fa-tools" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/maintenance-guides#/">
     > A comprehensive block that provides you with core operations for managing your shipments, including creating shipping accounts, adding users, managing products, and other essential administrative tasks.
   </Card>
 
-  <Card title="Utilities" icon="fa-solid fa-bars">
+  <Card title="Utilities" icon="fa-solid fa-bars" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/log-out#/">
     > A block that provides you with miscellaneous actions and system utilities, such as logging out of the application and accessing additional tools and settings.
   </Card>
 </Cards>
