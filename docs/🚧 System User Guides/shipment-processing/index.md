@@ -24,19 +24,19 @@ With the shipment processing feature, you can monitor and track the details of y
     Stop a shipment that is no longer needed or has issues that prevent delivery.
   </Card>
 
-  <Card title="Recall Shipment" href="https://docs.intersoftsapient.net/docs/recall-shipment" icon="undo">
+  <Card title="Recall Shipment" href="https://docs.intersoftsapient.net/docs/recall-shipment" icon="fa-solid fa-arrow-u-turn-down-right">
     Retrieve a shipment that has already been processed but needs to be brought back.
   </Card>
 
-  <Card title="Hold Shipment" href="https://docs.intersoftsapient.net/docs/held-shipments" icon="pause-circle">
+  <Card title="Hold Shipment" href="https://docs.intersoftsapient.net/docs/held-shipments" icon="fa-solid fa-circle-pause">
     Temporarily pause a shipment for review or to address any issues before proceeding.
   </Card>
 
-  <Card title="Release Shipment" href="https://docs.intersoftsapient.net/docs/release-shipment" icon="play-circle">
+  <Card title="Release Shipment" href="https://docs.intersoftsapient.net/docs/release-shipment" icon="fa-solid fa-circle-play">
     Resume processing of a held shipment once issues are resolved or review is complete.
   </Card>
 
-  <Card title="Manifest Shipment" href="https://docs.intersoftsapient.net/docs/manifesting-shipments" icon="clipboard-list">
+  <Card title="Manifest Shipment" href="https://docs.intersoftsapient.net/docs/manifesting-shipments" icon="fa-solid fa-truck-ramp-box">
     Generate and process the shipping manifest for final shipment preparation.
   </Card>
 </Cards>
