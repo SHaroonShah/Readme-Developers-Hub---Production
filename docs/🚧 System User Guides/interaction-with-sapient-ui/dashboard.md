@@ -16,7 +16,7 @@ next:
 ---
 The contents panel is a central part of the user interface that displays the content of the currently selected tab, option, or item.
 
-<Image align="center" alt="SAPIENT contents panel" border={true} caption="SAPIENT contents panel" src="https://files.readme.io/368df6f180bee1d3a95fc9bc9d71b3df7583b2262d40ca7383eecd614596b2df-Contents_panel.png" />
+<Image align="center" alt="SAPIENT contents panel" border={false} caption="SAPIENT contents panel" src="https://files.readme.io/368df6f180bee1d3a95fc9bc9d71b3df7583b2262d40ca7383eecd614596b2df-Contents_panel.png" />
 
 ## Main components
 
