@@ -20,7 +20,7 @@ In SAPIENT, the primary purpose of the **Shipment Processing** feature is to all
 With the shipment processing feature, you can monitor and track the details of your shipments and do the following:
 
 <Cards columns={3}>
-  <Card title="Cancel Shipment" href="https://docs.intersoftsapient.net/docs/view-cancelled-shipments" icon="fa-slid fa-nfc-slash">
+  <Card title="Cancel Shipment" href="https://docs.intersoftsapient.net/docs/view-cancelled-shipments" icon="fa-solid fa-nfc-slash">
     Stop a shipment that is no longer needed or has issues that prevent delivery.
   </Card>
 
