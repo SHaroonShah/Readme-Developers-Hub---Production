@@ -111,7 +111,8 @@ In SAPIENT, you can cancel the <Glossary>shipments</Glossary> to ensure that res
         Complete API reference for shipment status updates including cancellation
       </Card>
     </Cards>
-***
+
+    ***
 
     ### API recipe guide
 
