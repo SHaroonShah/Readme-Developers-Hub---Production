@@ -23,9 +23,9 @@ In SAPIENT, you can search your <Glossary>shipments</Glossary> based on <Glossar
   <ToggleListItem title={<strong>1. Access shipment search</strong>} icon="fa-rocket">
     <br />
 
-      In the side navigation panel, select the **Shipment Search** option.
+    In the side navigation panel, select the **Shipment Search** option.
 
-  <Image align="center" border={true} src="https://files.readme.io/61c56d1eac2f021d25812b6f6bda320ace57046cc188b77226161bca4a73963e-Shipment_search_option.png" alt="Accessing shipments" />
+    <Image align="center" border={true} src="https://files.readme.io/61c56d1eac2f021d25812b6f6bda320ace57046cc188b77226161bca4a73963e-Shipment_search_option.png" alt="Accessing shipments" />
 
     ***
   </ToggleListItem>
@@ -35,13 +35,13 @@ In SAPIENT, you can search your <Glossary>shipments</Glossary> based on <Glossar
   <ToggleListItem title={<strong>2. Apply filters </strong>} icon="fa-rocket">
     <br />
 
-     In the **Shipment Search** page that opens, in the **FILTERS** block, specify your filters based on which you want to search your shipments, and then select ![alt text](https://files.readme.io/34fc7db79563540c7ec5a0d5ec80b50898cfa4ddd9fba622f178d517803116e6-Show_shipments_button.png).
+    In the **Shipment Search** page that opens, in the **FILTERS** block, specify your filters based on which you want to search your shipments, and then select ![alt text](https://files.readme.io/34fc7db79563540c7ec5a0d5ec80b50898cfa4ddd9fba622f178d517803116e6-Show_shipments_button.png).
 
-  > 📘 *Note*
-  >
-  > *The maximum date range for shipment search is 30 days*.
+    > 📘 *Note*
+    >
+    > *The maximum date range for shipment search is 30 days*.
 
-  <Image align="center" border={true} src="https://files.readme.io/f9ddcaf850dfd3eab60dd8b53e411e104e71000c4a4447df5a251a6368f39409-Shipment_search_filter.png" alt="Specifying filters" />
+    <Image align="center" border={true} src="https://files.readme.io/f9ddcaf850dfd3eab60dd8b53e411e104e71000c4a4447df5a251a6368f39409-Shipment_search_filter.png" alt="Specifying filters" />
 
     ***
   </ToggleListItem>
@@ -51,137 +51,138 @@ In SAPIENT, you can search your <Glossary>shipments</Glossary> based on <Glossar
   <ToggleListItem title={<strong>3. View search results </strong>} icon="fa-rocket">
     <br />
 
-     Once filtered, the **Shipment Search** table displays the shipments matching your search criteria. The columns displayed in the table are explained in the following table.
+    Once filtered, the **Shipment Search** table displays the shipments matching your search criteria. The columns displayed in the table are explained in the following table.
 
-  <Image align="center" border={true} src="https://files.readme.io/c285916b7f58433871d17666a0e9fc2aa38ea4b929a4cb089304fd5b608b87ba-Shipment_search_table.png" alt="Viewing shipments" />
+    <Image align="center" border={true} src="https://files.readme.io/c285916b7f58433871d17666a0e9fc2aa38ea4b929a4cb089304fd5b608b87ba-Shipment_search_table.png" alt="Viewing shipments" />
+<br></br>
 
-  <Table align={["center","left"]}>
-    <thead>
-      <tr>
-        <th>
-          Element
-        </th>
+    <Table align={["center","left"]}>
+      <thead>
+        <tr>
+          <th>
+            Element
+          </th>
 
-        <th>
-          Description
-        </th>
-      </tr>
-    </thead>
+          <th>
+            Description
+          </th>
+        </tr>
+      </thead>
 
-    <tbody>
-      <tr>
-        <td>
-          **Tracking Number**
-        </td>
+      <tbody>
+        <tr>
+          <td>
+            **Tracking Number**
+          </td>
 
-        <td>
-          Represents the unique identifier assigned to each shipment, allowing users to monitor its progress through the shipping system.
+          <td>
+            Represents the unique identifier assigned to each shipment, allowing users to monitor its progress through the shipping system.
 
-          Note: in this column, you can also download the shipment <Glossary>label</Glossary> or copy the <Glossary>tracking number</Glossary> by selecting the corresponding icons.
-        </td>
-      </tr>
+            Note: in this column, you can also download the shipment <Glossary>label</Glossary> or copy the <Glossary>tracking number</Glossary> by selecting the corresponding icons.
+          </td>
+        </tr>
 
-      <tr>
-        <td>
-          **Shipment date**
-        </td>
+        <tr>
+          <td>
+            **Shipment date**
+          </td>
 
-        <td>
-          Represents  date on which the shipment was processed and dispatched, essential for tracking timelines and delivery expectations.
-        </td>
-      </tr>
+          <td>
+            Represents  date on which the shipment was processed and dispatched, essential for tracking timelines and delivery expectations.
+          </td>
+        </tr>
 
-      <tr>
-        <td>
-          **Carrier**
-        </td>
+        <tr>
+          <td>
+            **Carrier**
+          </td>
 
-        <td>
-          Represents the name and logo of the <Glossary>carrier</Glossary> responsible for delivering the shipment.
-        </td>
-      </tr>
+          <td>
+            Represents the name and logo of the <Glossary>carrier</Glossary> responsible for delivering the shipment.
+          </td>
+        </tr>
 
-      <tr>
-        <td>
-          **Account**
-        </td>
+        <tr>
+          <td>
+            **Account**
+          </td>
 
-        <td>
-          Represents the account name associated with the shipment, used for billing and record-keeping purposes within the system.
-        </td>
-      </tr>
+          <td>
+            Represents the account name associated with the shipment, used for billing and record-keeping purposes within the system.
+          </td>
+        </tr>
 
-      <tr>
-        <td>
-          **Reference**
-        </td>
+        <tr>
+          <td>
+            **Reference**
+          </td>
 
-        <td>
-          Represents an additional identifier information, such as an order number or customer reference, providing context for the shipment.
-        </td>
-      </tr>
+          <td>
+            Represents an additional identifier information, such as an order number or customer reference, providing context for the shipment.
+          </td>
+        </tr>
 
-      <tr>
-        <td>
-          **Service**
-        </td>
+        <tr>
+          <td>
+            **Service**
+          </td>
 
-        <td>
-          Represents the type of shipping service used (for example, standard, express), influencing delivery speed and cost.
-        </td>
-      </tr>
+          <td>
+            Represents the type of shipping service used (for example, standard, express), influencing delivery speed and cost.
+          </td>
+        </tr>
 
-      <tr>
-        <td>
-          **Recipient**
-        </td>
+        <tr>
+          <td>
+            **Recipient**
+          </td>
 
-        <td>
-          Represents the name of the individual or entity designated to receive the shipment, important for ensuring accurate delivery.
-        </td>
-      </tr>
+          <td>
+            Represents the name of the individual or entity designated to receive the shipment, important for ensuring accurate delivery.
+          </td>
+        </tr>
 
-      <tr>
-        <td>
-          **Destination**
-        </td>
+        <tr>
+          <td>
+            **Destination**
+          </td>
 
-        <td>
-          Represents  final location where the shipment is being sent, needed for route planning and logistical coordination.
-        </td>
-      </tr>
+          <td>
+            Represents  final location where the shipment is being sent, needed for route planning and logistical coordination.
+          </td>
+        </tr>
 
-      <tr>
-        <td>
-          **Status**
-        </td>
+        <tr>
+          <td>
+            **Status**
+          </td>
 
-        <td>
-          Represents  the current state of the shipment (for example, **Confirmed**, **Label Printed**, and so on), providing timely updates to users.
-        </td>
-      </tr>
+          <td>
+            Represents  the current state of the shipment (for example, **Confirmed**, **Label Printed**, and so on), providing timely updates to users.
+          </td>
+        </tr>
 
-      <tr>
-        <td>
-          **Packages**
-        </td>
+        <tr>
+          <td>
+            **Packages**
+          </td>
 
-        <td>
-          Represents quantity of <Glossary>package</Glossary>s included in the shipment, vital for planning and inventory management.
-        </td>
-      </tr>
+          <td>
+            Represents quantity of <Glossary>package</Glossary>s included in the shipment, vital for planning and inventory management.
+          </td>
+        </tr>
 
-      <tr>
-        <td>
-          **Last Modified**
-        </td>
+        <tr>
+          <td>
+            **Last Modified**
+          </td>
 
-        <td>
-          Represents the date and time of the most recent update to the shipment's information, helping users track changes and ensure accuracy.
-        </td>
-      </tr>
-    </tbody>
-  </Table>
+          <td>
+            Represents the date and time of the most recent update to the shipment's information, helping users track changes and ensure accuracy.
+          </td>
+        </tr>
+      </tbody>
+    </Table>
 
     ***
   </ToggleListItem>
