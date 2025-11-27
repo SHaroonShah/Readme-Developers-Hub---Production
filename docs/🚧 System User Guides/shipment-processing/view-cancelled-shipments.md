@@ -104,7 +104,7 @@ In SAPIENT, you can cancel the <Glossary>shipments</Glossary> to ensure that res
   </Tab>
 
   <Tab title="Via API">
-    For programmatic shipment cancellation, use our REST API endpoints.
+    For cancellation shipment via our API, refer to the following endpoint:
 
     <Cards>
       <Card title="Update Status" href="https://docs.intersoftsapient.net/reference/put_v4-shipments-status" icon="fa-solid fa-code">
