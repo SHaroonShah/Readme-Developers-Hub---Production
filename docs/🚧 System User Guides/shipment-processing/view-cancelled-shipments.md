@@ -112,10 +112,11 @@ In SAPIENT, you can cancel the <Glossary>shipments</Glossary> to ensure that res
       </Card>
     </Cards>
 
-    ### API Recipe Tutorial
+    ### API recipe guide
 
-    For a detailed step-by-step process on canceling shipments via API:
-<Recipe slug="cancel-and-release-shipments" title="Cancel shipments" />
+    To view a step-by-step process on how to cancel shipments via API, refer to the following API recipe:
+
+    <Recipe />
   </Tab>
 </Tabs>
 
