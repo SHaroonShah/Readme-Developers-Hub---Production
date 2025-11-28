@@ -25,6 +25,8 @@ After you have [cancelled](https://docs.intersoftsapient.net/docs/view-cancelled
   </Card>
 </Cards>
 
+## Recalling shipments
+
 To recall shipment(s), follow the steps as explained in the following procedure.
 
 <Tabs>
@@ -81,7 +83,21 @@ To recall shipment(s), follow the steps as explained in the following procedure.
   </Tab>
 </Tabs>
 
-<br />
+## Considerations
+
+<Accordion title="Special Cases and Notes" icon="exclamation-triangle">
+  ### Previously Held Shipments
+
+  If the shipment was canceled while it was held and was recalled, then the recalled shipment goes back to the held status. If you wish to manifest it, then you must release it first.
+
+  ### Bulk Operations
+
+  You can recall multiple shipments at once by selecting multiple checkboxes before clicking the recall button.
+
+  ### Status Restoration
+
+  Recalled shipments automatically return to their previous status in the processing workflow, allowing you to continue where you left off.
+</Accordion>
 
 <br />
 
