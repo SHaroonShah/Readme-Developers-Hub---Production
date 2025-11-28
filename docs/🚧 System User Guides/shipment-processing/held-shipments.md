@@ -26,23 +26,37 @@ In SAPIENT, you can hold the <Glossary>shipments</Glossary> for 28 days. Shipmen
     Use the SAPIENT API to programmatically hold shipments. View the API reference for detailed implementation.
   </Card>
 </Cards>
+
 <Accordion title="Prerequisites & Important Information" icon="info-circle">
-      **Before holding a shipment, make sure of the following:**
+  **Before holding a shipment, make sure of the following:**
 
-      * You can only put shipments on hold that are in the **Label Printed** status, as only shipments with this status are included in manifests.
-      * If the shipments are released or taken off hold, they go back to the status from which they were kept on hold. For example, if the shipment was in the **Label Printed** status, after taking it off hold, it goes back to the **Label Printed** status.
-      * If the shipment was created 23 days ago and was taken off hold in the current date, it will be picked by manifesting with the current date and set this date as the actual shipment date—not the one created 23 days ago.
-    </Accordion>
+  * You can only put shipments on hold that are in the **Label Printed** status, as only shipments with this status are included in manifests.
+  * If the shipments are released or taken off hold, they go back to the status from which they were kept on hold. For example, if the shipment was in the **Label Printed** status, after taking it off hold, it goes back to the **Label Printed** status.
+  * If the shipment was created 23 days ago and was taken off hold in the current date, it will be picked by manifesting with the current date and set this date as the actual shipment date—not the one created 23 days ago.
+</Accordion>
+<Tabs>
+  <Tab title="Hold via UI">
+    To hold the shipments in SAPIENT, follow the steps as explained in the following procedure.
+  </Tab>
 
-> 📘 _Note_
->
-> _Before holding a shipment, make sure of the following:_
->
-> * _You can only put shipments on hold that are in the**Label Printed** status, as only shipments with this status are included in manifests._
-> * _If the shipments are released or taken off hold, they go back to the status from which they were kept on hold. For example, if the shipment was in the**Label Printed** status, after taking it off hold, it goes back to the **Label Printed** status._
-> * _If the shipment was created 23 days ago and was taken off hold in the current date, it will be picked by manifesting with the current date and set this date as the actual shipment date—not the one created 23 days ago._
+  <Tab title="Hold via API">
+    You can also hold shipments programmatically using the SAPIENT API.
 
-To hold the shipments in SAPIENT, follow the steps as explained in the following procedure.
+    <Cards columns={1}>
+      <Card title="API Reference" href="https://docs.intersoftsapient.net/reference/put_v4-shipments-status" icon="code">
+        For detailed information on how to hold shipments via API, refer to the API References section.
+      </Card>
+    </Cards>
+  </Tab>
+</Tabs>
+
+<br />
+
+
+
+
+
+<br />
 
 1. In the side navigation panel, select the **Shipment Processing** > **Manifesting** option.
 
