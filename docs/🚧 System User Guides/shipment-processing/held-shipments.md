@@ -42,9 +42,9 @@ In SAPIENT, you can hold the <Glossary>shipments</Glossary> for 28 days. Shipmen
       <ToggleListItem title={<strong>1. Access the manifesting option</strong>} icon="fa-rocket">
         <br />
 
-        In the side navigation panel, select **Shipment Processing** > **Manifesting**.
+        In the side navigation panel, select the **Shipment Processing** > **Manifesting** option.
 
-        <Image align="center" border={true} src="https://files.readme.io/43b41b65377780fd19531fd2378483c9b0c7d99c88b2c5242e584ef4225c5dae-Accessing_manifesting_option.png" alt="Accessing shipments" />
+    <Image align="center" border={true} src="https://files.readme.io/43b41b65377780fd19531fd2378483c9b0c7d99c88b2c5242e584ef4225c5dae-Accessing_manifesting_option.png" alt="Accessing shipments" />
 
         ***
       </ToggleListItem>
@@ -54,14 +54,12 @@ In SAPIENT, you can hold the <Glossary>shipments</Glossary> for 28 days. Shipmen
       <ToggleListItem title={<strong>2. Configure filters and sorting</strong>} icon="fa-rocket">
         <br />
 
-        In the **Manifesting** page that opens, you can perform the following actions and filter the tabe data as per your needs:
+          In the **Manifesting** page that opens, you can:
 
-        * Sort the list by <Glossary>carrier</Glossary> or <Glossary>shipping account</Glossary>
-        * Change the <Glossary>shipping location</Glossary> by selecting **Change Location**
+    * Sort the list either by <Glossary>carrier</Glossary> or <Glossary>shipping account</Glossary>
+    * Change the <Glossary>shipping location</Glossary> by selecting the **Change Location** button
 
-        <br />
-
-        <Image align="center" border={true} src="https://files.readme.io/41603935fe204b0f21f146742408bd60584a5659ebb2a31c9302a475d93d24cf-sorting_and_changing_location.png" alt="Specifying filters" />
+    <Image align="center" border={true} src="https://files.readme.io/41603935fe204b0f21f146742408bd60584a5659ebb2a31c9302a475d93d24cf-sorting_and_changing_location.png" alt="Specifying filters" />
       </ToggleListItem>
 
       <br />
@@ -69,43 +67,55 @@ In SAPIENT, you can hold the <Glossary>shipments</Glossary> for 28 days. Shipmen
       <ToggleListItem title={<strong>3. Apply additional filters </strong>} icon="fa-rocket">
         <br />
 
-        Filter the table data using:
+    In the **Manifesting** page that opens, you can:
 
-        * **Narrow by Status**: Filter by shipment status
-        * **Narrow by Service**: Filter by carrier service codes
+    * Sort the list either by <Glossary>carrier</Glossary> or <Glossary>shipping account</Glossary>
+    * Change the <Glossary>shipping location</Glossary> by selecting the **Change Location** button
 
-        <br />
-
-        <Image align="center" border={true} src="https://files.readme.io/4f3b0dfcf1502b52e1c71c7448e95814a0afee4d9d9b865ba27082f2acbde5ed-Narrowing_manifesting.png" alt="Viewing shipments" />
+    <Image align="center" border={true} src="https://files.readme.io/41603935fe204b0f21f146742408bd60584a5659ebb2a31c9302a475d93d24cf-sorting_and_changing_location.png" alt="Specifying filters" />
 
         ***
       </ToggleListItem>
 
       <br />
 
-      <ToggleListItem title={<strong>4. Select and cancel shipments </strong>} icon="fa-rocket">
+      <ToggleListItem title={<strong>4. Select shipments to hold </strong>} icon="fa-rocket">
         <br />
 
-        Next to the shipment you want to cancel, select ![alt text](https://files.readme.io/ade8694f40f0b89e1cfab543051a5b77f7a307552c22b1c0105f7f2439dd065e-View_button.png). On the page that opens, select the checkbox next to the shipment, and then click ![alt text](https://files.readme.io/ce57b2272ffff135c3c09d4b532c2cbff21b8ffeaaacb4bb668edcbd00c2e67c-Cancel_shipments_button.png).
+           <Columns layout="auto">
+      <Column>
+        **For Bulk Operations:**
+        Next to the shipments that you want to hold, select ![alt text](https://files.readme.io/9a2d6ed673346e9c4c73e5a15a5dd8078483d6a780cf49d3f274cbf22c4df997-Hold_button.png).
+      </Column>
 
-        <br />
-
-        <Image align="center" border={true} src="https://files.readme.io/1b5ebf0996d78e8b255de85c8da7e377d6f19524f9899bc8155d4b48f34ea0d0-Canceling_shipments.png" alt="Accessing option to cancel shipments" />
+      <Column>
+        **For Individual Shipments:**
+        Next to the shipment, select ![alt text](https://files.readme.io/b9b3f904604324043bea000c1255950ee01f735b7e665909e3bbd409faeb2956-View_button.png).
+      </Column>
+    </Columns>
 
         ***
       </ToggleListItem>
 
       <br />
 
-      <ToggleListItem title={<strong>5. Confirm cancellation</strong>} icon="fa-rocket">
+      <ToggleListItem title={<strong>5. Confirm hold action</strong>} icon="fa-rocket">
         <br />
 
-        In the confirmation dialog that opens, enter the reason for canceling the shipment and select **Yes** to confirm.
+    On the page that opens, next to the shipment, select the checkbox and then click ![alt text](https://files.readme.io/1d487b18ddbdc249cef48fe35d465d2c89f5c7feb501f8cc797061ee607320cb-Hold_Shipments_button.png).
 
+    <Image align="center" border={true} src="https://files.readme.io/3320e4d15decec9a248bb0a89c20e394b259c8c1368bd741773cd7814ed774c4-Hold_shipments_option.png" alt="Accessing option to cancel shipments" />
+  </ToggleListItem>
+ <ToggleListItem title={<strong>5. Provide reason for hold</strong>} icon="fa-rocket">
         <br />
 
-        <Image align="center" border={true} src="https://files.readme.io/add229243a38970d994d96735c0f6ad74a1ca4404fa57475b6c9fc2a85b038ad-Confirming_shipment_cancellation.png" width="350px" alt="Confirming shipment cancellation" />
-      </ToggleListItem>
+       In the confirmation dialog that appears, from the dropdown menu, select the reason for holding the shipment, and then click **Yes**.
+
+    <Image align="center" border={true} src="https://files.readme.io/2ab6f56822de74b6346b1480d45c322673c372603a21ae06bb225425ba332f70-Conforming_shipment_hold.png" width="350px" alt="Confirming shipment cancellation" />
+
+    Once confirmed, the shipment(s) is removed from the current list and is displayed in the list of held shipments
+  </ToggleListItem>
+
     </ToggleList>
   </Tab>
 
