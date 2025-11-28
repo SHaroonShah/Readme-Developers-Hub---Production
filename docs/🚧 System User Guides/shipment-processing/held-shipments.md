@@ -19,19 +19,20 @@ In SAPIENT, you can hold the <Glossary>shipments</Glossary> for 28 days. Shipmen
 
 <Cards columns={2}>
   <Card title="UI Method" icon="desktop">
-    Recall shipments directly through the SAPIENT user interface using the step-by-step process below.
+    Hold shipments directly through the SAPIENT user interface using the step-by-step process below.
   </Card>
 
   <Card title="API Method" icon="code">
-    Use the SAPIENT API to programmatically recall shipments. View the API reference for detailed implementation.
+    Use the SAPIENT API to programmatically hold shipments. View the API reference for detailed implementation.
   </Card>
 </Cards>
+<Accordion title="Prerequisites & Important Information" icon="info-circle">
+      **Before holding a shipment, make sure of the following:**
 
-<Callout icon="💡" theme="default">
-  ### _Tip_
-
-  _You can hold the shipments both via UI and the API. For more information on how to hold shipments via API, refer to the [API References](https://docs.intersoftsapient.net/reference/put_v4-shipments-status) section._
-</Callout>
+      * You can only put shipments on hold that are in the **Label Printed** status, as only shipments with this status are included in manifests.
+      * If the shipments are released or taken off hold, they go back to the status from which they were kept on hold. For example, if the shipment was in the **Label Printed** status, after taking it off hold, it goes back to the **Label Printed** status.
+      * If the shipment was created 23 days ago and was taken off hold in the current date, it will be picked by manifesting with the current date and set this date as the actual shipment date—not the one created 23 days ago.
+    </Accordion>
 
 > 📘 _Note_
 >
