@@ -17,17 +17,29 @@ next:
 ---
 In SAPIENT, you can hold the <Glossary>shipments</Glossary> for 28 days. Shipments that are kept on hold longer than 28 days are cancelled automatically.
 
-> 💡 *Tip*
->
-> *You can hold the shipments both via UI and the API. For more information on how to hold shipments via API, refer to the [API References](https://docs.intersoftsapient.net/reference/put_v4-shipments-status) section.*
+<Cards columns={2}>
+  <Card title="Via SAPIENT UI" icon="desktop">
+    Recall shipments directly through the SAPIENT user interface using the step-by-step process below.
+  </Card>
 
-> 📘 *Note*
+  <Card title="Via API" icon="code">
+    Use the SAPIENT API to programmatically recall shipments. View the API reference for detailed implementation.
+  </Card>
+</Cards>
+
+<Callout icon="💡" theme="default">
+  ### _Tip_
+
+  _You can hold the shipments both via UI and the API. For more information on how to hold shipments via API, refer to the [API References](https://docs.intersoftsapient.net/reference/put_v4-shipments-status) section._
+</Callout>
+
+> 📘 _Note_
 >
-> *Before holding a shipment, make sure of the following:*
+> _Before holding a shipment, make sure of the following:_
 >
-> * *You can only put shipments on hold that are in the**Label Printed** status, as only shipments with this status are included in manifests.*
-> * *If the shipments are released or taken off hold, they go back to the status from which they were kept on hold. For example, if the shipment was in the**Label Printed** status, after taking it off hold, it goes back to the **Label Printed** status.*
-> * *If the shipment was created 23 days ago and was taken off hold in the current date, it will be picked by manifesting with the current date and set this date as the actual shipment date—not the one created 23 days ago.*
+> * _You can only put shipments on hold that are in the**Label Printed** status, as only shipments with this status are included in manifests._
+> * _If the shipments are released or taken off hold, they go back to the status from which they were kept on hold. For example, if the shipment was in the**Label Printed** status, after taking it off hold, it goes back to the **Label Printed** status._
+> * _If the shipment was created 23 days ago and was taken off hold in the current date, it will be picked by manifesting with the current date and set this date as the actual shipment date—not the one created 23 days ago._
 
 To hold the shipments in SAPIENT, follow the steps as explained in the following procedure.
 
@@ -43,9 +55,9 @@ To hold the shipments in SAPIENT, follow the steps as explained in the following
 
 <Image align="center" alt="Viewing shipments" border={true} caption="Viewing filtered shipments" src="https://files.readme.io/4f3b0dfcf1502b52e1c71c7448e95814a0afee4d9d9b865ba27082f2acbde5ed-Narrowing_manifesting.png" />
 
-4. After you have filtered your desired shipments, if you want to hold the shipments in bulk, then next to the shipments that you want to hold, select ![alt text](https://files.readme.io/9a2d6ed673346e9c4c73e5a15a5dd8078483d6a780cf49d3f274cbf22c4df997-Hold_button.png).
-5. Alternatively, if you want to hold a particular shipment, then next to the shipment, select ![alt text](https://files.readme.io/b9b3f904604324043bea000c1255950ee01f735b7e665909e3bbd409faeb2956-View_button.png).
-6. On the page that opens, next to the shipment, select the checkbox and then click  ![alt text](https://files.readme.io/1d487b18ddbdc249cef48fe35d465d2c89f5c7feb501f8cc797061ee607320cb-Hold_Shipments_button.png).
+4. After you have filtered your desired shipments, if you want to hold the shipments in bulk, then next to the shipments that you want to hold, select ![](https://files.readme.io/9a2d6ed673346e9c4c73e5a15a5dd8078483d6a780cf49d3f274cbf22c4df997-Hold_button.png).
+5. Alternatively, if you want to hold a particular shipment, then next to the shipment, select ![](https://files.readme.io/b9b3f904604324043bea000c1255950ee01f735b7e665909e3bbd409faeb2956-View_button.png).
+6. On the page that opens, next to the shipment, select the checkbox and then click  ![](https://files.readme.io/1d487b18ddbdc249cef48fe35d465d2c89f5c7feb501f8cc797061ee607320cb-Hold_Shipments_button.png).
 
 <Image align="center" alt="Accessing option to cancel shipments" border={true} caption="Accessing option to hold shipments" src="https://files.readme.io/3320e4d15decec9a248bb0a89c20e394b259c8c1368bd741773cd7814ed774c4-Hold_shipments_option.png" />
 
@@ -55,8 +67,10 @@ To hold the shipments in SAPIENT, follow the steps as explained in the following
 
 Once confirmed, the shipment(s) is removed from the current list and is displayed in the list of held shipments. If needed, you can [release the held shipments](https://docs.intersoftsapient.net/docs/release-shipment) within the 28 days time frame and work with them accordingly.
 
-> 💡 *Tip*
->
-> *You can access the held shipments directly from this page by selecting the**View Held Shipments** option or by accessing the **Shipment Processing** > **Held** option from the side navigation panel.*
->
-> <Image align="center" alt="Accessing canceled shipments" border={true} caption="Accessing held shipments" src="https://files.readme.io/bc5120461fe99089d00c1c83f39a4e5e0706b8a62d25f2c39b697cb4377bf6b4-Accessing_held_shipmehts.png" />
+<Callout icon="💡" theme="default">
+  ### _Tip_
+
+  _You can access the held shipments directly from this page by selecting the**View Held Shipments** option or by accessing the **Shipment Processing** > **Held** option from the side navigation panel._
+
+  <Image align="center" alt="Accessing canceled shipments" border={true} caption="Accessing held shipments" src="https://files.readme.io/bc5120461fe99089d00c1c83f39a4e5e0706b8a62d25f2c39b697cb4377bf6b4-Accessing_held_shipmehts.png" />
+</Callout>
