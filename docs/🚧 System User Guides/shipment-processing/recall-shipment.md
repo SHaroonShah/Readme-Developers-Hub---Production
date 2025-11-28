@@ -75,7 +75,7 @@ To recall shipment(s), follow the steps as explained in the following procedure.
 
     <Cards>
       <Card title="Update Status" href="https://docs.intersoftsapient.net/reference/put_v4-shipments-status" icon="fa-solid fa-code">
-        Complete API reference for shipment status updates including cancellation
+        Complete API reference for shipment status updates including recalling
       </Card>
     </Cards>
   </Tab>
