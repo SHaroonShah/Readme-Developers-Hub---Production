@@ -43,11 +43,9 @@ In SAPIENT, you can hold the <Glossary>shipments</Glossary> for 28 days. Shipmen
 
     <ToggleList>
       <ToggleListItem title={<strong>1. Access the manifesting option</strong>} icon="fa-rocket">
-        <br></br>
+        <br />
 
         In the side navigation panel, select the **Shipment Processing** > **Manifesting** option.
-
-        
 
         <Image align="center" border={true} src="https://files.readme.io/43b41b65377780fd19531fd2378483c9b0c7d99c88b2c5242e584ef4225c5dae-Accessing_manifesting_option.png" alt="Accessing shipments" />
 
@@ -63,7 +61,7 @@ In SAPIENT, you can hold the <Glossary>shipments</Glossary> for 28 days. Shipmen
 
         * Sort the list either by <Glossary>carrier</Glossary> or <Glossary>shipping account</Glossary>
         * Change the <Glossary>shipping location</Glossary> by selecting the **Change Location** button
-
+<br></br>
         <Image align="center" border={true} src="https://files.readme.io/41603935fe204b0f21f146742408bd60584a5659ebb2a31c9302a475d93d24cf-sorting_and_changing_location.png" alt="Specifying filters" />
       </ToggleListItem>
 
@@ -76,7 +74,7 @@ In SAPIENT, you can hold the <Glossary>shipments</Glossary> for 28 days. Shipmen
 
         * Sort the list either by <Glossary>carrier</Glossary> or <Glossary>shipping account</Glossary>
         * Change the <Glossary>shipping location</Glossary> by selecting the **Change Location** button
-
+<br></br>
         <Image align="center" border={true} src="https://files.readme.io/41603935fe204b0f21f146742408bd60584a5659ebb2a31c9302a475d93d24cf-sorting_and_changing_location.png" alt="Specifying filters" />
 
         ***
