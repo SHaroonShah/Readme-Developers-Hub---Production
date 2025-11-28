@@ -43,10 +43,12 @@ In SAPIENT, you can hold the <Glossary>shipments</Glossary> for 28 days. Shipmen
 
     <ToggleList>
       <ToggleListItem title={<strong>1. Access the manifesting option</strong>} icon="fa-rocket">
-        <br />
+        <br></br>
 
         In the side navigation panel, select the **Shipment Processing** > **Manifesting** option.
-<br></br>
+
+        
+
         <Image align="center" border={true} src="https://files.readme.io/43b41b65377780fd19531fd2378483c9b0c7d99c88b2c5242e584ef4225c5dae-Accessing_manifesting_option.png" alt="Accessing shipments" />
 
         ***
