@@ -39,12 +39,10 @@ With the shipment processing feature, you can monitor and track the details of y
   <Card title="Manifest Shipment" href="https://docs.intersoftsapient.net/docs/manifesting-shipments" icon="fa-solid fa-truck-ramp-box">
     Generate and process the shipping manifest for final shipment preparation.
   </Card>
-</Cards>
-
-### See also
-
-<Cards>
-  <Card title="View manifest history" href="https://docs.intersoftsapient.net/v4.02_Coding/docs/manifest-history#/" icon="fa-solid fa-file">
+ <Card title="View manifest history" href="https://docs.intersoftsapient.net/v4.02_Coding/docs/manifest-history#/" icon="fa-solid fa-file">
     View a comprehensive record of all shipping manifests generated over time.
   </Card>
 </Cards>
+
+<br />
+
