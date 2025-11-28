@@ -38,7 +38,7 @@ In SAPIENT, you can hold the <Glossary>shipments</Glossary> for 28 days. Shipmen
 ## How to hold shipments
 
 <Tabs>
-  <Tab title="Hold via SAPIENT UI">
+  <Tab title="Hold via SAPIENT UI" icon="fa-solid fa-pause">
     <br />
 
     To hold the shipments in SAPIENT, perform the steps as explained in the following procedure.
@@ -126,13 +126,14 @@ In SAPIENT, you can hold the <Glossary>shipments</Glossary> for 28 days. Shipmen
         Once confirmed, the shipment(s) is removed from the current list and is displayed in the list of held shipments
       </ToggleListItem>
     </ToggleList>
-<Callout icon="💡" theme="default">
-  ### _Tip_
 
-  _You can access the held shipments directly from this page by selecting the**View Held Shipments** option or by accessing the **Shipment Processing** > **Held** option from the side navigation panel._
+    <Callout icon="💡" theme="default">
+      ### *Tip*
 
-  <Image align="center" alt="Accessing canceled shipments" border={true} caption="Accessing held shipments" src="https://files.readme.io/bc5120461fe99089d00c1c83f39a4e5e0706b8a62d25f2c39b697cb4377bf6b4-Accessing_held_shipmehts.png" />
-</Callout>
+      *You can access the held shipments directly from this page by selecting the**View Held Shipments** option or by accessing the **Shipment Processing** > **Held** option from the side navigation panel.*
+
+      <Image align="center" border={true} src="https://files.readme.io/bc5120461fe99089d00c1c83f39a4e5e0706b8a62d25f2c39b697cb4377bf6b4-Accessing_held_shipmehts.png" alt="Accessing canceled shipments" />
+    </Callout>
   </Tab>
 
   <Tab title="Hold via API">
