@@ -106,9 +106,11 @@ In SAPIENT, you can hold the <Glossary>shipments</Glossary> for 28 days. Shipmen
         On the page that opens, next to the shipment, select the checkbox and then click ![alt text](https://files.readme.io/1d487b18ddbdc249cef48fe35d465d2c89f5c7feb501f8cc797061ee607320cb-Hold_Shipments_button.png).
 
         <Image align="center" border={true} src="https://files.readme.io/3320e4d15decec9a248bb0a89c20e394b259c8c1368bd741773cd7814ed774c4-Hold_shipments_option.png" alt="Accessing option to cancel shipments" />
-***
+
+        ***
       </ToggleListItem>
-<br></br>
+
+      <br />
 
       <ToggleListItem title={<strong>6. Provide reason for hold</strong>} icon="fa-rocket">
         <br />
@@ -123,7 +125,7 @@ In SAPIENT, you can hold the <Glossary>shipments</Glossary> for 28 days. Shipmen
   </Tab>
 
   <Tab title="Hold via API">
-    You can also hold shipments programmatically using the SAPIENT API.
+    To recall shipment via our API, refer to the following endpoint:
 
     <Cards columns={1}>
       <Card title="API Reference" href="https://docs.intersoftsapient.net/reference/put_v4-shipments-status" icon="code">
