@@ -36,7 +36,7 @@ In SAPIENT, you can hold the <Glossary>shipments</Glossary> for 28 days. Shipmen
 </Accordion>
 
 <Tabs>
-  <Tab title="Hold via UI">
+  <Tab title="Hold via SAPIENT UI">
     <br />
 
     To hold the shipments in SAPIENT, follow the steps as explained in the following procedure.
@@ -91,11 +91,11 @@ In SAPIENT, you can hold the <Glossary>shipments</Glossary> for 28 days. Shipmen
 
         Based on your requirements, select any of the following options:
 
-       * **For Bulk Operations:**
-        Next to the shipments that you want to hold, select ![alt text](https://files.readme.io/9a2d6ed673346e9c4c73e5a15a5dd8078483d6a780cf49d3f274cbf22c4df997-Hold_button.png).
+        * **For Bulk Operations:**
+          Next to the shipments that you want to hold, select ![alt text](https://files.readme.io/9a2d6ed673346e9c4c73e5a15a5dd8078483d6a780cf49d3f274cbf22c4df997-Hold_button.png).
 
-       * **For Individual Shipments:**
-        Next to the shipment, select ![alt text](https://files.readme.io/b9b3f904604324043bea000c1255950ee01f735b7e665909e3bbd409faeb2956-View_button.png).
+        * **For Individual Shipments:**
+          Next to the shipment, select ![alt text](https://files.readme.io/b9b3f904604324043bea000c1255950ee01f735b7e665909e3bbd409faeb2956-View_button.png).
 
         ***
       </ToggleListItem>
