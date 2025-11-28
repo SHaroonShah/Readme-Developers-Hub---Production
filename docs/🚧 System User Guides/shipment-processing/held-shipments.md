@@ -38,13 +38,14 @@ In SAPIENT, you can hold the <Glossary>shipments</Glossary> for 28 days. Shipmen
 <Tabs>
   <Tab title="Hold via UI">
     To hold the shipments in SAPIENT, follow the steps as explained in the following procedure.
-<ToggleList>
+
+    <ToggleList>
       <ToggleListItem title={<strong>1. Access the manifesting option</strong>} icon="fa-rocket">
         <br />
 
         In the side navigation panel, select the **Shipment Processing** > **Manifesting** option.
 
-    <Image align="center" border={true} src="https://files.readme.io/43b41b65377780fd19531fd2378483c9b0c7d99c88b2c5242e584ef4225c5dae-Accessing_manifesting_option.png" alt="Accessing shipments" />
+        <Image align="center" border={true} src="https://files.readme.io/43b41b65377780fd19531fd2378483c9b0c7d99c88b2c5242e584ef4225c5dae-Accessing_manifesting_option.png" alt="Accessing shipments" />
 
         ***
       </ToggleListItem>
@@ -54,12 +55,12 @@ In SAPIENT, you can hold the <Glossary>shipments</Glossary> for 28 days. Shipmen
       <ToggleListItem title={<strong>2. Configure filters and sorting</strong>} icon="fa-rocket">
         <br />
 
-          In the **Manifesting** page that opens, you can:
+        In the **Manifesting** page that opens, you can:
 
-    * Sort the list either by <Glossary>carrier</Glossary> or <Glossary>shipping account</Glossary>
-    * Change the <Glossary>shipping location</Glossary> by selecting the **Change Location** button
+        * Sort the list either by <Glossary>carrier</Glossary> or <Glossary>shipping account</Glossary>
+        * Change the <Glossary>shipping location</Glossary> by selecting the **Change Location** button
 
-    <Image align="center" border={true} src="https://files.readme.io/41603935fe204b0f21f146742408bd60584a5659ebb2a31c9302a475d93d24cf-sorting_and_changing_location.png" alt="Specifying filters" />
+        <Image align="center" border={true} src="https://files.readme.io/41603935fe204b0f21f146742408bd60584a5659ebb2a31c9302a475d93d24cf-sorting_and_changing_location.png" alt="Specifying filters" />
       </ToggleListItem>
 
       <br />
@@ -67,12 +68,12 @@ In SAPIENT, you can hold the <Glossary>shipments</Glossary> for 28 days. Shipmen
       <ToggleListItem title={<strong>3. Apply additional filters </strong>} icon="fa-rocket">
         <br />
 
-    In the **Manifesting** page that opens, you can:
+        In the **Manifesting** page that opens, you can:
 
-    * Sort the list either by <Glossary>carrier</Glossary> or <Glossary>shipping account</Glossary>
-    * Change the <Glossary>shipping location</Glossary> by selecting the **Change Location** button
+        * Sort the list either by <Glossary>carrier</Glossary> or <Glossary>shipping account</Glossary>
+        * Change the <Glossary>shipping location</Glossary> by selecting the **Change Location** button
 
-    <Image align="center" border={true} src="https://files.readme.io/41603935fe204b0f21f146742408bd60584a5659ebb2a31c9302a475d93d24cf-sorting_and_changing_location.png" alt="Specifying filters" />
+        <Image align="center" border={true} src="https://files.readme.io/41603935fe204b0f21f146742408bd60584a5659ebb2a31c9302a475d93d24cf-sorting_and_changing_location.png" alt="Specifying filters" />
 
         ***
       </ToggleListItem>
@@ -82,17 +83,17 @@ In SAPIENT, you can hold the <Glossary>shipments</Glossary> for 28 days. Shipmen
       <ToggleListItem title={<strong>4. Select shipments to hold </strong>} icon="fa-rocket">
         <br />
 
-           <Columns layout="auto">
-      <Column>
-        **For Bulk Operations:**
-        Next to the shipments that you want to hold, select ![alt text](https://files.readme.io/9a2d6ed673346e9c4c73e5a15a5dd8078483d6a780cf49d3f274cbf22c4df997-Hold_button.png).
-      </Column>
+        <Columns layout="auto">
+          <Column>
+            **For Bulk Operations:**
+            Next to the shipments that you want to hold, select ![alt text](https://files.readme.io/9a2d6ed673346e9c4c73e5a15a5dd8078483d6a780cf49d3f274cbf22c4df997-Hold_button.png).
+          </Column>
 
-      <Column>
-        **For Individual Shipments:**
-        Next to the shipment, select ![alt text](https://files.readme.io/b9b3f904604324043bea000c1255950ee01f735b7e665909e3bbd409faeb2956-View_button.png).
-      </Column>
-    </Columns>
+          <Column>
+            **For Individual Shipments:**
+            Next to the shipment, select ![alt text](https://files.readme.io/b9b3f904604324043bea000c1255950ee01f735b7e665909e3bbd409faeb2956-View_button.png).
+          </Column>
+        </Columns>
 
         ***
       </ToggleListItem>
@@ -102,20 +103,22 @@ In SAPIENT, you can hold the <Glossary>shipments</Glossary> for 28 days. Shipmen
       <ToggleListItem title={<strong>5. Confirm hold action</strong>} icon="fa-rocket">
         <br />
 
-    On the page that opens, next to the shipment, select the checkbox and then click ![alt text](https://files.readme.io/1d487b18ddbdc249cef48fe35d465d2c89f5c7feb501f8cc797061ee607320cb-Hold_Shipments_button.png).
+        On the page that opens, next to the shipment, select the checkbox and then click ![alt text](https://files.readme.io/1d487b18ddbdc249cef48fe35d465d2c89f5c7feb501f8cc797061ee607320cb-Hold_Shipments_button.png).
 
-    <Image align="center" border={true} src="https://files.readme.io/3320e4d15decec9a248bb0a89c20e394b259c8c1368bd741773cd7814ed774c4-Hold_shipments_option.png" alt="Accessing option to cancel shipments" />
-  </ToggleListItem>
- <ToggleListItem title={<strong>5. Provide reason for hold</strong>} icon="fa-rocket">
+        <Image align="center" border={true} src="https://files.readme.io/3320e4d15decec9a248bb0a89c20e394b259c8c1368bd741773cd7814ed774c4-Hold_shipments_option.png" alt="Accessing option to cancel shipments" />
+***
+      </ToggleListItem>
+<br></br>
+
+      <ToggleListItem title={<strong>6. Provide reason for hold</strong>} icon="fa-rocket">
         <br />
 
-       In the confirmation dialog that appears, from the dropdown menu, select the reason for holding the shipment, and then click **Yes**.
+        In the confirmation dialog that appears, from the dropdown menu, select the reason for holding the shipment, and then click **Yes**.
 
-    <Image align="center" border={true} src="https://files.readme.io/2ab6f56822de74b6346b1480d45c322673c372603a21ae06bb225425ba332f70-Conforming_shipment_hold.png" width="350px" alt="Confirming shipment cancellation" />
+        <Image align="center" border={true} src="https://files.readme.io/2ab6f56822de74b6346b1480d45c322673c372603a21ae06bb225425ba332f70-Conforming_shipment_hold.png" width="350px" alt="Confirming shipment cancellation" />
 
-    Once confirmed, the shipment(s) is removed from the current list and is displayed in the list of held shipments
-  </ToggleListItem>
-
+        Once confirmed, the shipment(s) is removed from the current list and is displayed in the list of held shipments
+      </ToggleListItem>
     </ToggleList>
   </Tab>
 
