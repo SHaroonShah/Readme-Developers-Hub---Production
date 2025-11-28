@@ -25,7 +25,7 @@ After you have [cancelled](https://docs.intersoftsapient.net/docs/view-cancelled
   </Card>
 </Cards>
 
-## Recalling shipments
+## How to recall shipments
 
 To recall shipment(s), follow the steps as explained in the following procedure.
 
