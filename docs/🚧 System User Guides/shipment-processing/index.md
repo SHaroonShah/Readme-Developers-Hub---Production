@@ -43,6 +43,6 @@ With the shipment processing feature, you can monitor and track the details of y
 
 ### See also
 
-<Card title="Manifest Shipment" href="https://docs.intersoftsapient.net/v4.02_Coding/docs/manifest-history#/" icon="fa-solid fa-document">
+<Card title="View nanifest history" href="https://docs.intersoftsapient.net/v4.02_Coding/docs/manifest-history#/" icon="fa-solid fa-document">
   View a comprehensive record of all shipping manifests generated over time.
 </Card>
