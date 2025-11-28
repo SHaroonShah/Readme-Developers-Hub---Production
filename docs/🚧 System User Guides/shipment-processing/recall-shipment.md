@@ -27,7 +27,7 @@ After you have [cancelled](https://docs.intersoftsapient.net/docs/view-cancelled
 
 ## How to recall shipments
 
-To recall shipment(s), follow the steps as explained in the following procedure.
+Follow these steps to recall cancelled shipments through the SAPIENT interface:
 
 <Tabs>
   <Tab title="Via SAPIENT UI">
