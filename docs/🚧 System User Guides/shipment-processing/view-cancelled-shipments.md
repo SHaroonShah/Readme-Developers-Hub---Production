@@ -29,8 +29,10 @@ In SAPIENT, you can cancel the <Glossary>shipments</Glossary> to ensure that res
 ## How to cancel shipments
 
 <Tabs>
-  <Tab title="Cancel via SAPIENT UI"><br></br>
-    Follow these steps to cancel shipments through the SAPIENT UI:
+  <Tab title="Cancel via SAPIENT UI">
+    <br />
+
+    To cancel the shipments via the SAPIENT UI, perform the steps as explained in the following procedure.
 
     <ToggleList>
       <ToggleListItem title={<strong>1. Access the manifesting option</strong>} icon="fa-rocket">
@@ -111,7 +113,9 @@ In SAPIENT, you can cancel the <Glossary>shipments</Glossary> to ensure that res
     </Callout>
   </Tab>
 
-  <Tab title="Cancel via API"><br></br>
+  <Tab title="Cancel via API">
+    <br />
+
     To cancel shipment via our API, refer to the following endpoint:
 
     <Cards>
