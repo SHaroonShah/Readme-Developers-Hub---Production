@@ -18,11 +18,11 @@ next:
 In SAPIENT, you can hold the <Glossary>shipments</Glossary> for 28 days. Shipments that are kept on hold longer than 28 days are cancelled automatically.
 
 <Cards columns={2}>
-  <Card title="Via SAPIENT UI" icon="desktop">
+  <Card title="UI Method" icon="desktop">
     Recall shipments directly through the SAPIENT user interface using the step-by-step process below.
   </Card>
 
-  <Card title="Via API" icon="code">
+  <Card title="API Method" icon="code">
     Use the SAPIENT API to programmatically recall shipments. View the API reference for detailed implementation.
   </Card>
 </Cards>
