@@ -37,12 +37,12 @@ If your password fails these checks, you will receive one of the following error
 </Cards>
 
 <Tabs>
-  <Tab title="Password managers (recommended)">
+  <Tab title="Password managers (recommended)"><br></br>
     We recommend you use a **[password manager](https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/password-managers)** for generating and storing your passwords. This is the most secure and convenient way to manage passwords. Used properly, it completely eliminates the risk of using a weak or commonly used password.
 
     Password managers are built into most browsers. Alternatively, there are free and paid third-party solutions available.
 
-    <Accordion title="Password manager guidelines" icon="cog">
+    <Accordion title="Password manager guidelines" icon="cog"><br></br>
       When generating a password from a password manager, follow these guidelines:
 
       * **Increase the length**: Set longer passwords (20+ characters), as they are generally more secure.
