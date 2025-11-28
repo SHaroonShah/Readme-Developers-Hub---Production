@@ -24,7 +24,7 @@ Access to SAPIENT options and features varies and depends on your role within th
 </Callout>
 
 <Tabs>
-  <Tab title="SAPIENT User Interface Access">
+  <Tab title="SAPIENT User Interface Access"> <br></br>
     <Accordion title="Carrier Accounts Administrator" icon="user-cog">
       **Role Description:** Can configure any carrier they are assigned to
 
@@ -96,7 +96,7 @@ Access to SAPIENT options and features varies and depends on your role within th
     </Accordion>
   </Tab>
 
-  <Tab title="Maintenance Functionality Access">
+  <Tab title="Maintenance Functionality Access"><br></br>
     <Accordion title="Carrier Accounts Administrator" icon="user-cog">
       **Role Description:** Can configure any carrier they are assigned to
 
