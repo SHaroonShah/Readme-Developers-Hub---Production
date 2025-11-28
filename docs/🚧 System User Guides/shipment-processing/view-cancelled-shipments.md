@@ -17,11 +17,11 @@ next:
 In SAPIENT, you can cancel the <Glossary>shipments</Glossary> to ensure that resources can be reallocated and allow users to manage customer expectations. The shipment can be canceled if it has been confirmed by being manifested.
 
 <Cards columns="2">
-  <Card title="UI Cancellation" icon="mouse-pointer">
+  <Card title="UI Cancellation" icon="fa-solid fa-desktop">
     Cancel shipments directly through the SAPIENT interface with step-by-step guidance
   </Card>
 
-  <Card title="API Cancellation" icon="code">
+  <Card title="API Cancellation" icon="fa-solid fa-code">
     Cancel shipments using our REST API endpoint
   </Card>
 </Cards>
