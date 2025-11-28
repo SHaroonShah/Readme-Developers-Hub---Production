@@ -35,7 +35,6 @@ In SAPIENT, you can hold the <Glossary>shipments</Glossary> for 28 days. Shipmen
   * If the shipment was created 23 days ago and was taken off hold in the current date, it will be picked by manifesting with the current date and set this date as the actual shipment date—not the one created 23 days ago.
 </Accordion>
 
-
 <Tabs>
   <Tab title="Hold via SAPIENT UI">
     <br />
@@ -128,7 +127,7 @@ In SAPIENT, you can hold the <Glossary>shipments</Glossary> for 28 days. Shipmen
   </Tab>
 
   <Tab title="Hold via API">
-    To recall shipment via our API, refer to the following endpoint:
+    To recall shipment via our API, refer to the following endpoint
 
     <Cards>
       <Card title="Update Status" href="https://docs.intersoftsapient.net/reference/put_v4-shipments-status" icon="fa-solid fa-code">
