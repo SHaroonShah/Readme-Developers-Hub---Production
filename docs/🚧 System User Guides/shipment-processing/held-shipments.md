@@ -61,7 +61,9 @@ In SAPIENT, you can hold the <Glossary>shipments</Glossary> for 28 days. Shipmen
 
         * Sort the list either by <Glossary>carrier</Glossary> or <Glossary>shipping account</Glossary>
         * Change the <Glossary>shipping location</Glossary> by selecting the **Change Location** button
-<br></br>
+
+        <br />
+
         <Image align="center" border={true} src="https://files.readme.io/41603935fe204b0f21f146742408bd60584a5659ebb2a31c9302a475d93d24cf-sorting_and_changing_location.png" alt="Specifying filters" />
       </ToggleListItem>
 
@@ -74,7 +76,9 @@ In SAPIENT, you can hold the <Glossary>shipments</Glossary> for 28 days. Shipmen
 
         * Sort the list either by <Glossary>carrier</Glossary> or <Glossary>shipping account</Glossary>
         * Change the <Glossary>shipping location</Glossary> by selecting the **Change Location** button
-<br></br>
+
+        <br />
+
         <Image align="center" border={true} src="https://files.readme.io/41603935fe204b0f21f146742408bd60584a5659ebb2a31c9302a475d93d24cf-sorting_and_changing_location.png" alt="Specifying filters" />
 
         ***
@@ -84,18 +88,13 @@ In SAPIENT, you can hold the <Glossary>shipments</Glossary> for 28 days. Shipmen
 
       <ToggleListItem title={<strong>4. Select shipments to hold </strong>} icon="fa-rocket">
         <br />
-
-        <Columns layout="auto">
-          <Column>
+Based on your requirements, select any of the following options:
             **For Bulk Operations:**
             Next to the shipments that you want to hold, select ![alt text](https://files.readme.io/9a2d6ed673346e9c4c73e5a15a5dd8078483d6a780cf49d3f274cbf22c4df997-Hold_button.png).
-          </Column>
-
-          <Column>
+         
             **For Individual Shipments:**
             Next to the shipment, select ![alt text](https://files.readme.io/b9b3f904604324043bea000c1255950ee01f735b7e665909e3bbd409faeb2956-View_button.png).
-          </Column>
-        </Columns>
+         
 
         ***
       </ToggleListItem>
