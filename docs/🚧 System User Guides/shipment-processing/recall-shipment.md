@@ -83,6 +83,8 @@ Follow these steps to recall cancelled shipments through the SAPIENT interface:
   </Tab>
 </Tabs>
 
+***
+
 ## Considerations
 
 <Accordion title="Special Cases and Notes" icon="exclamation-triangle">
