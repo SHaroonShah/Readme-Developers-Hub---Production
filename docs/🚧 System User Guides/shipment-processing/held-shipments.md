@@ -127,9 +127,9 @@ In SAPIENT, you can hold the <Glossary>shipments</Glossary> for 28 days. Shipmen
   <Tab title="Hold via API">
     To recall shipment via our API, refer to the following endpoint:
 
-  <Cards>
+    <Cards>
       <Card title="Update Status" href="https://docs.intersoftsapient.net/reference/put_v4-shipments-status" icon="fa-solid fa-code">
-        Complete API reference for shipment status updates including recalling
+        Complete API reference for shipment status updates including holding
       </Card>
     </Cards>
   </Tab>
