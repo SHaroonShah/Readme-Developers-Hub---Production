@@ -37,7 +37,7 @@ If your password fails these checks, you will receive one of the following error
 </Cards>
 
 <Tabs>
-  <Tab title="Password Managers (Recommended)">
+  <Tab title="Password managers (recommended)">
     We recommend you use a **[password manager](https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/password-managers)** for generating and storing your passwords. This is the most secure and convenient way to manage passwords. Used properly, it completely eliminates the risk of using a weak or commonly used password.
 
     Password managers are built into most browsers. Alternatively, there are free and paid third-party solutions available.
