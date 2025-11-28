@@ -59,7 +59,9 @@ To recall shipment(s), follow the steps as explained in the following procedure.
 
         In the confirmation dialog that appears, select **Yes**.
 
-        <Image align="center" src="https://files.readme.io/19f0b9332e273ee9df9bf4c94083980f8361c7ec4df29feb79081577da31ed54-Confirming_shipment_recalling.png" width="350px" alt="Confirming shipment recalling" /><br></br>
+        <Image align="center" src="https://files.readme.io/19f0b9332e273ee9df9bf4c94083980f8361c7ec4df29feb79081577da31ed54-Confirming_shipment_recalling.png" width="350px" alt="Confirming shipment recalling" />
+
+        <br />
 
         Once confirmed, the shipment(s) is removed from the **Cancelled Shipments** list and goes back to its previous status and is ready for manifesting.
 
@@ -69,7 +71,7 @@ To recall shipment(s), follow the steps as explained in the following procedure.
   </Tab>
 
   <Tab title="Via API">
-    To cancel shipment via our API, refer to the following endpoint:
+    To recall shipment via our API, refer to the following endpoint:
 
     <Cards>
       <Card title="Update Status" href="https://docs.intersoftsapient.net/reference/put_v4-shipments-status" icon="fa-solid fa-code">
