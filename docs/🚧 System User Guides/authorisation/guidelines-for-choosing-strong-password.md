@@ -51,7 +51,7 @@ If your password fails these checks, you will receive one of the following error
     </Accordion>
   </Tab>
 
-  <Tab title="Alternative Approach">
+  <Tab title="Alternative approach">
     ## What if I cannot use a password manager?
 
     If you cannot use a password manager, consider using any three random words, for example, `horsebatteryhouse` as an alternative.
