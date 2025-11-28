@@ -30,7 +30,7 @@ After you have [cancelled](https://docs.intersoftsapient.net/docs/view-cancelled
 Follow these steps to recall cancelled shipments through the SAPIENT interface:
 
 <Tabs>
-  <Tab title="Via SAPIENT UI">
+  <Tab title="Via SAPIENT UI"> <br></br>
     Follow these steps to cancel shipments through the SAPIENT UI:
 
     <ToggleList>
