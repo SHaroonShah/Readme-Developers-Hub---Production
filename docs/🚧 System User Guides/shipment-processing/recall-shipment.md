@@ -20,7 +20,7 @@ After you have [cancelled](https://docs.intersoftsapient.net/docs/view-cancelled
     Recall shipments directly through the SAPIENT user interface using the step-by-step process below.
   </Card>
 
-  <Card title="API Method" href="https://docs.intersoftsapient.net/reference/put_v4-shipments-status" icon="code">
+  <Card title="API Method" icon="code">
     Use the SAPIENT API to programmatically recall shipments. View the API reference for detailed implementation.
   </Card>
 </Cards>
