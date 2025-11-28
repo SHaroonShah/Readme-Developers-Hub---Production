@@ -53,7 +53,9 @@ After you have [cancelled](https://docs.intersoftsapient.net/docs/view-cancelled
 
         <Image align="center" border={true} src="https://files.readme.io/7dd1d2279a2b79ecebfd8ec87b54829eed58a38965b0bbc8c851a26d7b97f86e-Recall_shipments_option.png" alt="Recalling shipment" />
       </ToggleListItem>
-***
+
+      ***
+
       <br />
 
       <ToggleListItem title={<strong>3. Confirm the action </strong>} icon="fa-rocket">
@@ -87,7 +89,7 @@ After you have [cancelled](https://docs.intersoftsapient.net/docs/view-cancelled
 
 ***
 
-## Considerations
+## Key considerations
 
 <Accordion title="Special Cases and Notes" icon="exclamation-triangle">
   ### Handling previously held shipments
