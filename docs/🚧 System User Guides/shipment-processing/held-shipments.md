@@ -27,7 +27,7 @@ In SAPIENT, you can hold the <Glossary>shipments</Glossary> for 28 days. Shipmen
   </Card>
 </Cards>
 
-<Accordion title="Prerequisites & Important Information" icon="info-circle">
+<Accordion title="Prerequisites and important information" icon="info-circle">
   Before holding a shipment, make sure of the following:
 
   * You can only put shipments on hold that are in the **Label Printed** status, as only shipments with this status are included in manifests.
