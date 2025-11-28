@@ -35,7 +35,6 @@ In SAPIENT, you can hold the <Glossary>shipments</Glossary> for 28 days. Shipmen
   * If the shipment was created 23 days ago and was taken off hold in the current date, it will be picked by manifesting with the current date and set this date as the actual shipment date—not the one created 23 days ago.
 </Accordion>
 
-
 <Tabs>
   <Tab title="Hold via SAPIENT UI">
     <br />
@@ -137,6 +136,8 @@ In SAPIENT, you can hold the <Glossary>shipments</Glossary> for 28 days. Shipmen
     </Cards>
   </Tab>
 </Tabs>
+
+## How to hold shipments
 
 <br />
 
