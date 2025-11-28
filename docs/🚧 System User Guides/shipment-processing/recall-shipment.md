@@ -34,7 +34,7 @@ Follow these steps to recall cancelled shipments through the SAPIENT interface:
     Follow these steps to cancel shipments through the SAPIENT UI:
 
     <ToggleList>
-      <ToggleListItem title={<strong>1. Access Cancelled Shipments</strong>} icon="fa-rocket">
+      <ToggleListItem title={<strong>1. Access cancelled shipments</strong>} icon="fa-rocket">
         <br />
 
         In the side navigation panel, select the **Shipment Processing** > **Cancelled** option.
@@ -46,7 +46,7 @@ Follow these steps to recall cancelled shipments through the SAPIENT interface:
 
       <br />
 
-      <ToggleListItem title={<strong>2. Select Shipments to Recall</strong>} icon="fa-rocket">
+      <ToggleListItem title={<strong>2. Select shipments to recall</strong>} icon="fa-rocket">
         <br />
 
         In the **Cancelled Shipments** page that opens, select the checkboxes next to the shipments you want to recall, and then select ![alt text](https://files.readme.io/79126340250abbe6f8c76ada767569f8015d1010731e0f45f0c35b2ea8e59fbd-Recall_shipments_button.png).
@@ -56,7 +56,7 @@ Follow these steps to recall cancelled shipments through the SAPIENT interface:
 
       <br />
 
-      <ToggleListItem title={<strong>3. Confirm the Action </strong>} icon="fa-rocket">
+      <ToggleListItem title={<strong>3. Confirm the action </strong>} icon="fa-rocket">
         <br />
 
         In the confirmation dialog that appears, select **Yes**.
@@ -88,15 +88,15 @@ Follow these steps to recall cancelled shipments through the SAPIENT interface:
 ## Considerations
 
 <Accordion title="Special Cases and Notes" icon="exclamation-triangle">
-  ### Previously Held Shipments
+  ### Previously held shipments
 
   If the shipment was canceled while it was held and was recalled, then the recalled shipment goes back to the held status. If you wish to manifest it, then you must release it first.
 
-  ### Bulk Operations
+  ### Bulk operations
 
   You can recall multiple shipments at once by selecting multiple checkboxes before clicking the recall button.
 
-  ### Status Restoration
+  ### Status restoration
 
   Recalled shipments automatically return to their previous status in the processing workflow, allowing you to continue where you left off.
 </Accordion>
