@@ -16,11 +16,11 @@ next:
 After you have [cancelled](https://docs.intersoftsapient.net/docs/view-cancelled-shipments) the <Glossary>shipment</Glossary> in SAPIENT, you can anytime recall it and proceed with its processing. This might involve taking necessary actions to fulfil the order again after addressing the reasons for its cancellation.
 
 <Cards columns={2}>
-  <Card title="UI Method" icon="desktop">
+  <Card title="UI Method" icon="fa-solid fa-desktop">
     Recall shipments directly through the SAPIENT user interface using the step-by-step process below.
   </Card>
 
-  <Card title="API Method" icon="code">
+  <Card title="API Method" icon="fa-solid fa-code">
     Use the SAPIENT API to programmatically recall shipments. View the API reference for detailed implementation.
   </Card>
 </Cards>
