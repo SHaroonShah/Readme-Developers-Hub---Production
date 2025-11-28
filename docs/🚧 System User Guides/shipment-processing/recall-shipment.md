@@ -33,7 +33,7 @@ Follow these steps to recall cancelled shipments through the SAPIENT interface:
   <Tab title="Recall via SAPIENT UI">
     <br />
 
-    Follow these steps to cancel shipments through the SAPIENT UI:
+    To recall the shipments via the SAPIENT UI, perform the steps as explained in the following procedure.
 
     <ToggleList>
       <ToggleListItem title={<strong>1. Access cancelled shipments</strong>} icon="fa-rocket">
