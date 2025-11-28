@@ -131,7 +131,6 @@ In SAPIENT, you can hold the <Glossary>shipments</Glossary> for 28 days. Shipmen
       ### *Tip*
 
       *You can access the held shipments directly from this page by selecting the**View Held Shipments** option or by accessing the **Shipment Processing** > **Held** option from the side navigation panel.*
-
       <Image align="center" border={true} src="https://files.readme.io/bc5120461fe99089d00c1c83f39a4e5e0706b8a62d25f2c39b697cb4377bf6b4-Accessing_held_shipmehts.png" alt="Accessing canceled shipments" />
     </Callout>
   </Tab>
