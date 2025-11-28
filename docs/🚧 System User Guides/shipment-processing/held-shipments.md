@@ -23,7 +23,7 @@ In SAPIENT, you can hold the <Glossary>shipments</Glossary> for 28 days. Shipmen
   </Card>
 
   <Card title="API Method" icon="code">
-    Use the SAPIENT API to programmatically hold shipments. View the API reference for detailed implementation.
+    Use the SAPIENT API to programmatically hold shipments. View the API references for detailed implementation.
   </Card>
 </Cards>
 
