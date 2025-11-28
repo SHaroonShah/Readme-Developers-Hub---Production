@@ -18,7 +18,7 @@ next:
 In SAPIENT, you can hold the <Glossary>shipments</Glossary> for 28 days. Shipments that are kept on hold longer than 28 days are cancelled automatically.
 
 <Cards columns={2}>
-  <Card title="UI Method" icon="desktop">
+  <Card title="UI Method" icon="fa-solid fa-desktop">
     Hold shipments directly through the SAPIENT user interface using the step-by-step process below.
   </Card>
 
