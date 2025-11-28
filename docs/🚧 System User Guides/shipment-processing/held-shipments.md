@@ -139,7 +139,7 @@ In SAPIENT, you can hold the <Glossary>shipments</Glossary> for 28 days. Shipmen
   </Tab>
 </Tabs>
 
-Once confirmed, the shipment(s) is removed from the current list and is displayed in the list of held shipments. If needed, you can [release the held shipments](https://docs.intersoftsapient.net/docs/release-shipment) within the 28 days time frame and work with them accordingly.
+Once confirmed, the shipments are removed from the current list and is displayed in the list of held shipments. If needed, you can [release the held shipments](https://docs.intersoftsapient.net/docs/release-shipment) within the 28 days time frame and work with them accordingly.
 
 <Callout icon="💡" theme="default">
   ### _Tip_
