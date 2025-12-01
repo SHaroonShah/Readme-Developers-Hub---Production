@@ -20,25 +20,68 @@ Releasing a shipment from hold is crucial for maintaining operational efficiency
 
 In SAPIENT, you can anytime release the [held](https://docs.intersoftsapient.net/docs/held-shipments) <Glossary>shipments</Glossary>  .
 
-<br />
-
 <Cards columns={2}>
   <Card title="UI Method" icon="fa-solid fa-desktop">
-    Hold shipments directly through the SAPIENT user interface using the step-by-step process below.
+    Release held shipments directly through the SAPIENT user interface using the step-by-step process below.
   </Card>
 
   <Card title="API Method" icon="fa-solid fa-code">
-    Use the SAPIENT API to programmatically hold shipments. View the API references for detailed implementation.
+    Use the SAPIENT API to programmatically release shipments. View the API references for detailed implementation.
   </Card>
 </Cards>
 
-<Accordion title="Prerequisites and important information" icon="info-circle">
-  Before holding a shipment, make sure of the following:
+## How to release shipments
 
-  * You can only put shipments on hold that are in the **Label Printed** status, as only shipments with this status are included in manifests.
-  * If the shipments are released or taken off hold, they go back to the status from which they were kept on hold. For example, if the shipment was in the **Label Printed** status, after taking it off hold, it goes back to the **Label Printed** status.
-  * If the shipment was created 23 days ago and was taken off hold in the current date, it will be picked by manifesting with the current date and set this date as the actual shipment date—not the one created 23 days ago.
-</Accordion>
+<Tabs>
+  <Tab title="Release via SAPIENT UI">
+    <br />
+
+    To release the shipments in SAPIENT, perform the steps as explained in the following procedure.
+
+    <ToggleList>
+      <ToggleListItem title={<strong>1. Access held shipments</strong>} icon="fa-rocket">
+        <br />
+
+        In the side navigation panel, select the **Shipment Processing** > **Held** option.
+
+        <Image align="center" border={true} src="https://files.readme.io/c0796ec5b2d1123cc03bd22830f7520bddea1408599b62a0b00be63dff75e887-Held_option.png" alt="Accessing shipments" />
+
+        ***
+      </ToggleListItem>
+
+      <br />
+
+      <ToggleListItem title={<strong>2. Select shipments to release</strong>} icon="fa-rocket">
+        <br />
+
+   In the **Held Shipments** page that opens, select the checkboxes next to the shipments you want to release, and then select ![alt text](https://files.readme.io/ea4f0d57b9918ccc9192a3d230a9dbd24e3e5a33c864e0dd4e8c973181d78f46-Release_shipments_button.png).
+
+        <Image align="center" border={true} src="https://files.readme.io/a64211ea7a7073f81971a21ff07e429fe56864cd50f4be911b9af62da763fe8d-Releasing_shipment.png" alt="Recalling shipment" /><br></br>
+</ToggleListItem>
+
+
+      <ToggleListItem title={<strong>3. Confirm your action </strong>} icon="fa-rocket">
+        <br />
+
+In the confirmation dialog that appears, select **Yes**.
+
+        <Image align="center" border={true} src="https://files.readme.io/6357a15bc67e4c76c3e37aca5da2842b7bdb395cf3c3ce8fa6e6bd16bba7a751-Confirming_shipment_release.png" width="350px" alt="Confirming shipment recalling" /><br></br>
+ Once confirmed, the shipment(s) is removed from the **Held Shipments** list and goes back to its previous status and is included in the next manifest.
+        ***
+      </ToggleListItem>
+</ToggleList>
+  </Tab>
+
+  <Tab title="Hold via API">
+    To recall shipment via our API, refer to the following endpoint
+
+    <Cards>
+      <Card title="Update Status" href="https://docs.intersoftsapient.net/reference/put_v4-shipments-status" icon="fa-solid fa-code">
+        Complete API reference for shipment status updates including holding
+      </Card>
+    </Cards>
+  </Tab>
+</Tabs>
 
 To release a shipment in SAPIENT, follow the steps as explained in the following procedure.
 
