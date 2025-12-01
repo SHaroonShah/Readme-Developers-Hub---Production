@@ -125,9 +125,8 @@ You can also manifest shipments by:
         <Image align="center" border={true} src="https://files.readme.io/94ad18f86e7c082888deddcd6fd000efdf60439d19d1779d552b579fe3f219d1-Manifest_processing_page.png" alt="Processing manifest" />
 
         <br />
+***
       </ToggleListItem>
-
-      ***
 
       <br />
 
@@ -139,7 +138,8 @@ You can also manifest shipments by:
         <Image align="center" border={true} src="https://files.readme.io/a160eccb1432a48bba9e1295800375eb7307516e9c2fbcbb7d5f386f98648443-Manifest_details.png" alt="Viewing manifest details" />
 
         <br />
-You have now successfully manifested your shipments.
+
+        You have now successfully manifested your shipments.
 
         <Callout icon="💡" theme="default">
           ### *Tip*
