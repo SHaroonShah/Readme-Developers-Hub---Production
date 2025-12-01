@@ -63,7 +63,7 @@ To search shipments in SAPIENT, perform the steps as explained in the following 
       <thead>
         <tr>
           <th>
-            Element
+            Column
           </th>
 
           <th>
