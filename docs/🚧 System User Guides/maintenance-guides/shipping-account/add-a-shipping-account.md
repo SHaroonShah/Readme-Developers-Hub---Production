@@ -67,8 +67,8 @@ In SAPIENT, you can create a shipping account, assign your <Glossary>carrier</Gl
           *In the following table, the mandatory fields are marked with an asterisk (\*).*
         </Callout>
 
-        | Element                 | Description                                                                                                  |
-        | ----------------------- | ------------------------------------------------------------------------------------------------------------ |
+        | Element                 | Description                                                                                                   |
+        | ----------------------- | ------------------------------------------------------------------------------------------------------------- |
         | **Carrier**\*           | From the dropdown list, select the carrier for which you want to add a shipping account.                      |
         | **Shipping Location**\* | From the dropdown menu, select the location that you want to assign to the shipping account you are creating. |
 
@@ -82,7 +82,7 @@ In SAPIENT, you can create a shipping account, assign your <Glossary>carrier</Gl
 
         In the **SHIPPING ACCOUNT** block, enter the necessary information:
 
-        <Image align="center" border={true} src="https://files.readme.io/86c792139df738b9d3d72e61e3a2d9edf6e95e49ebaed402137335a66e796d4a-Shipping_account_block.png" width="400px" alt="Specifying shipping account details" />
+        <Image align="center" border={true} src="https://files.readme.io/86c792139df738b9d3d72e61e3a2d9edf6e95e49ebaed402137335a66e796d4a-Shipping_account_block.png" width="400px" alt="Specifying shipping account details" /><br></br>
 
         <Accordion title="Shipping Account Fields" icon="list">
           <br />
@@ -93,21 +93,21 @@ In SAPIENT, you can create a shipping account, assign your <Glossary>carrier</Gl
             *In the following table, the mandatory fields are marked with an asterisk (\*).*
           </Callout>
 
-         | Element | Description |
-|---------|-------------|
-| **Carrier Account Number*** | Enter the carrier account number. The format must be compliant with your selected carrier. Add leading zeros if needed to meet character length requirements |
-| **Account Type*** | Select either **Production** (live environment) or **Sandbox** (testing environment) |
-| **Account Name*** | Enter the account name if different from customer name |
-| **Registered Email Address*** | Enter the email address used to register with the carrier |
-| **Registered Billing Postcode** | Enter the postcode for billing.<br></br> `Note`: _If you are unsure of the postcode, use the one shown on your invoice._|
+          | Element                         | Description                                                                                                                                                  |
+          | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+          | **Carrier Account Number**\*    | Enter the carrier account number. The format must be compliant with your selected carrier. Add leading zeros if needed to meet character length requirements |
+          | **Account Type**\*              | Select either **Production** (live environment) or **Sandbox** (testing environment)                                                                         |
+          | **Account Name**\*              | Enter the account name if different from customer name                                                                                                       |
+          | **Registered Email Address**\*  | Enter the email address used to register with the carrier                                                                                                    |
+          | **Registered Billing Postcode** | Enter the postcode for billing.<br /> `Note`: *If you are unsure of the postcode, use the one shown on your invoice.*                                        |
 
-### Contact Information
+          ### Contact Information
 
-| Element | Description |
-|---------|-------------|
-| **Alias*** | Enter a memorable custom name for API requests instead of using shipping location ID |
-| **Contact Name*** | Enter the primary contact name for this account |
-| **Contact Number*** | Enter the contact phone number for this account |
+          | Element              | Description                                                                          |
+          | -------------------- | ------------------------------------------------------------------------------------ |
+          | **Alias**\*          | Enter a memorable custom name for API requests instead of using shipping location ID |
+          | **Contact Name**\*   | Enter the primary contact name for this account                                      |
+          | **Contact Number**\* | Enter the contact phone number for this account                                      |
         </Accordion>
 
         ***
@@ -120,9 +120,9 @@ In SAPIENT, you can create a shipping account, assign your <Glossary>carrier</Gl
 
         In the **CARRIER DETAILS** block, complete the carrier-specific fields.
 
-        > 🚧 _Important_
->
-> _The fields in this section vary depending on your selected carrier. Each carrier has unique requirements and authentication methods. To get more information on how to fill the fields in this block, refer to the [carrier specific guides](https://docs.intersoftsapient.net/docs/carrier-specific-user-guides) section._
+        > 🚧 *Important*
+        >
+        > *The fields in this section vary depending on your selected carrier. Each carrier has unique requirements and authentication methods. To get more information on how to fill the fields in this block, refer to the[carrier specific guides](https://docs.intersoftsapient.net/docs/carrier-specific-user-guides) section.*
 
         <br />
 
@@ -155,7 +155,5 @@ In SAPIENT, you can create a shipping account, assign your <Glossary>carrier</Gl
   * Configure additional carrier settings
   * Test your account in the sandbox environment before going live
 </Accordion>
-
-
 
 <br />
