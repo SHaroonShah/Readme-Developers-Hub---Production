@@ -13,7 +13,7 @@ metadata:
 next:
   description: ''
 ---
-<Image align="center" border={false} src="https://files.readme.io/cabe76f05d382d205a864327a56a8c3857b2f1d558ac730f69ee6afee9cc09f8-Add_account_art.png" />
+<Image align="center" border={false} width="200px" src="https://files.readme.io/cabe76f05d382d205a864327a56a8c3857b2f1d558ac730f69ee6afee9cc09f8-Add_account_art.png" />
 
 This centralised system allows you to handle all aspects of your shipping operations efficiently.
 
