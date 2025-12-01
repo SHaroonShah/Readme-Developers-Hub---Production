@@ -15,8 +15,6 @@ next:
 ---
 ## Getting started
 
-***
-
 <Columns layout="auto">
   <Column>
     ### Single Location Setup
