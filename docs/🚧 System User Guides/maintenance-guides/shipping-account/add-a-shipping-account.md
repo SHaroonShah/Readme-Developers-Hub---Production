@@ -41,10 +41,9 @@ In SAPIENT, you can create a shipping account, assign your <Glossary>carrier</Gl
       <br />
 
       <ToggleListItem title={<strong>2. Select the add shipping account button</strong>} icon="fa-rocket">
-
+<br />
         On the **Shipping Accounts** page that opens, select the **Add Shipping Account** button.
 
-        <br />
 
         <Image align="center" border={true} src="https://files.readme.io/8490d8ba65c4eca10caa8c051c5e73bf366fc5a6269e84a2bfb697544105b343-Add_shipping_account_option.png" alt="Accessing option to add shipping account" />
 
