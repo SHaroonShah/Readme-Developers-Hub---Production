@@ -41,7 +41,6 @@ In SAPIENT, you can create a shipping account, assign your <Glossary>carrier</Gl
       <br />
 
       <ToggleListItem title={<strong>2. Select the add shipping account button</strong>} icon="fa-rocket">
-        <br />
 
         On the **Shipping Accounts** page that opens, select the **Add Shipping Account** button.
 
@@ -59,13 +58,15 @@ In SAPIENT, you can create a shipping account, assign your <Glossary>carrier</Gl
 
         On the **Add Shipping Account** form that appears, fill in the **ACCOUNT DETAILS** block:
 
-        <Image align="center" border={true} src="https://files.readme.io/dc5c99c4576f2625aa7809d67c9cf26573ed44dbce51fdebc2df7f43013cde3b-Account_details_block.png" alt="Entering account details" /><br></br>
+        <Image align="center" border={true} src="https://files.readme.io/dc5c99c4576f2625aa7809d67c9cf26573ed44dbce51fdebc2df7f43013cde3b-Account_details_block.png" alt="Entering account details" />
+
+        <br />
 
         <Callout icon="💡" theme="default">
-  ### _Tip_
+          ### *Tip*
 
-  _In the following table, the mandatory fields are marked with an asterisk (*)._
-</Callout>
+          *In the following table, the mandatory fields are marked with an asterisk (\*).*
+        </Callout>
 
         | Element                 | Description                                                                                                  |
         | ----------------------- | ------------------------------------------------------------------------------------------------------------ |
@@ -87,12 +88,13 @@ In SAPIENT, you can create a shipping account, assign your <Glossary>carrier</Gl
         <Image align="center" border={true} src="https://files.readme.io/86c792139df738b9d3d72e61e3a2d9edf6e95e49ebaed402137335a66e796d4a-Shipping_account_block.png" width="400px" alt="Specifying shipping account details" />
 
         <Accordion title="Shipping Account Fields" icon="list">
-          <br></br>
-<Callout icon="💡" theme="default">
-  ### _Tip_
+          <br />
 
-  _In the following table, the mandatory fields are marked with an asterisk (*)._
-</Callout>
+          <Callout icon="💡" theme="default">
+            ### *Tip*
+
+            *In the following table, the mandatory fields are marked with an asterisk (\*).*
+          </Callout>
 
           | Element                         | Description                                                                                                                                                  |
           | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
