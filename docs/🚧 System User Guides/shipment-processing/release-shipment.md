@@ -97,8 +97,10 @@ In SAPIENT, you can anytime release the [held](https://docs.intersoftsapient.net
     </Cards>
 
     <br />
-***
-##API recipe guide
+
+    ***
+
+    \## API recipe guide
 
     To view a step-by-step process on how to release held shipments and manifest them via API, refer to the following API recipe:
 
