@@ -62,7 +62,8 @@ In SAPIENT, you can anytime release the [held](https://docs.intersoftsapient.net
 
         <br />
       </ToggleListItem>
-<br></br>
+
+      <br />
 
       <ToggleListItem title={<strong>3. Confirm your action </strong>} icon="fa-rocket">
         <br />
@@ -80,12 +81,12 @@ In SAPIENT, you can anytime release the [held](https://docs.intersoftsapient.net
     </ToggleList>
   </Tab>
 
-  <Tab title="Hold via API">
-    To recall shipment via our API, refer to the following endpoint
+  <Tab title="Release via API">
+    To release shipment via our API, refer to the following endpoint
 
     <Cards>
       <Card title="Update Status" href="https://docs.intersoftsapient.net/reference/put_v4-shipments-status" icon="fa-solid fa-code">
-        Complete API reference for shipment status updates including holding
+        Complete API reference for shipment status updates including releasing
       </Card>
     </Cards>
   </Tab>
