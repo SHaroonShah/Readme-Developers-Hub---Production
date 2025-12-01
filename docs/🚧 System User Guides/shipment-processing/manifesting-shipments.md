@@ -160,10 +160,11 @@ You can also manifest shipments by:
       <Card title="Manifest Shipments" href="https://docs.intersoftsapient.net/v4.02_Coding/reference/post_v4-manifests-carriercode#/" icon="fa-solid fa-code">
         Complete API reference for manifesting shipments via our API
       </Card>
-    </Cards>
-To view a step-by-step process on how to create and manifest shipments via API, refer to the following API recipe:
+    </Cards><br></br>
 
-<Recipe slug="process-shipments-created-with-the-action-process" title="Process shipment created with the action “Process”" />
+    To view a step-by-step process on how to create and manifest shipments via API, refer to the following API recipe:
+
+    <Recipe />
   </Tab>
 </Tabs>
 
