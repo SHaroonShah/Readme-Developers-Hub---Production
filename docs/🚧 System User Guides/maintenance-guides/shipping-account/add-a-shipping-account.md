@@ -129,12 +129,14 @@ In SAPIENT, you can create a <Glossary>shipping account</Glossary>, assign your 
     </ToggleList>
   </Tab>
 
-  <Tab title="Add via API"><br></br>
+  <Tab title="Add via API">
+    <br />
+
     To add a shipping account via our API, refer to the following endpoint:
 
     <Cards>
       <Card title="Add Account" href="https://docs.intersoftsapient.net/reference/post_v4-shippingaccounts-rm#/" icon="fa-solid fa-code">
-        Complete API reference for shipment status updates including holding
+        Complete API reference for adding shipments
       </Card>
     </Cards>
   </Tab>
