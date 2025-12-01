@@ -82,10 +82,9 @@ In SAPIENT, you can create a shipping account, assign your <Glossary>carrier</Gl
 
         In the **SHIPPING ACCOUNT** block, enter the necessary information:
 
-        <Image align="center" border={true} src="https://files.readme.io/86c792139df738b9d3d72e61e3a2d9edf6e95e49ebaed402137335a66e796d4a-Shipping_account_block.png" width="400px" alt="Specifying shipping account details" /><br></br>
+        <Image align="center" border={true} src="https://files.readme.io/86c792139df738b9d3d72e61e3a2d9edf6e95e49ebaed402137335a66e796d4a-Shipping_account_block.png" width="400px" alt="Specifying shipping account details" />
 
-        <Accordion title="Shipping Account Fields" icon="list">
-          <br />
+        <br />
 
           <Callout icon="💡" theme="default">
             ### *Tip*
@@ -108,7 +107,7 @@ In SAPIENT, you can create a shipping account, assign your <Glossary>carrier</Gl
           | **Alias**\*          | Enter a memorable custom name for API requests instead of using shipping location ID |
           | **Contact Name**\*   | Enter the primary contact name for this account                                      |
           | **Contact Number**\* | Enter the contact phone number for this account                                      |
-        </Accordion>
+        
 
         ***
       </ToggleListItem>
