@@ -52,8 +52,9 @@ After you have [cancelled](https://docs.intersoftsapient.net/docs/view-cancelled
         In the **Cancelled Shipments** page that opens, select the checkboxes next to the shipments you want to recall, and then select ![alt text](https://files.readme.io/79126340250abbe6f8c76ada767569f8015d1010731e0f45f0c35b2ea8e59fbd-Recall_shipments_button.png).
 
         <Image align="center" border={true} src="https://files.readme.io/7dd1d2279a2b79ecebfd8ec87b54829eed58a38965b0bbc8c851a26d7b97f86e-Recall_shipments_option.png" alt="Recalling shipment" />
-     ***
-</ToggleListItem>
+
+        ***
+      </ToggleListItem>
 
       <br />
 
@@ -67,8 +68,6 @@ After you have [cancelled](https://docs.intersoftsapient.net/docs/view-cancelled
         <br />
 
         Once confirmed, the shipment(s) is removed from the **Cancelled Shipments** list and goes back to its previous status and is ready for manifesting.
-
-        ***
       </ToggleListItem>
     </ToggleList>
   </Tab>
