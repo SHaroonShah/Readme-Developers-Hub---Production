@@ -125,13 +125,11 @@ In SAPIENT, you can create a <Glossary>shipping account</Glossary>, assign your 
         <br />
 
         After entering all the required information, select ![](https://files.readme.io/c8e36ac323cf6d3859bfa7081ee7ab63495ded4fd04cdb97aa685e06071cf4b4-add_shipping_account_button_2.png).
-
-      
       </ToggleListItem>
     </ToggleList>
   </Tab>
 
-  <Tab title="Add via API">
+  <Tab title="Add via API"><br></br>
     To add a shipping account via our API, refer to the following endpoint:
 
     <Cards>
