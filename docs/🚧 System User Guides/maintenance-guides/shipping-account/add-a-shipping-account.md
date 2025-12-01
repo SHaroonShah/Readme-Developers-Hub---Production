@@ -13,7 +13,7 @@ metadata:
 next:
   description: ''
 ---
-In SAPIENT, you can create a shipping account, assign your <Glossary>carrier</Glossary> credentials to it, and then link them to the relevant <Glossary>shipping location</Glossary>(s).
+In SAPIENT, you can create a <Glossary>shipping account</Glossary>, assign your <Glossary>carrier</Glossary> credentials to it, and then link them to the relevant <Glossary>shipping location</Glossary>(s).
 
 > 📘 _Note_
 >
@@ -92,13 +92,13 @@ In SAPIENT, you can create a shipping account, assign your <Glossary>carrier</Gl
           *In the following table, the mandatory fields are marked with an asterisk (\*).*
         </Callout>
 
-        | Element                         | Description                                                                                                                                                  |
-        | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-        | **Carrier Account Number**\*    | Enter the carrier account number. The format must be compliant with your selected carrier. Add leading zeros if needed to meet character length requirements |
-        | **Account Type**\*              | Select either [Production](https://docs.intersoftsapient.net/docs/sandbox-account) (live environment) or [Sandbox](https://docs.intersoftsapient.net/docs/sandbox-account) (testing environment)                                       |
-        | **Account Name**\*              | Enter the account name if different from customer name                                                                                                       |
-        | **Registered Email Address**\*  | Enter the email address used to register with the carrier                                                                                                    |
-        | **Registered Billing Postcode** | Enter the postcode for billing.<br /> `Note`: *If you are unsure of the postcode, use the one shown on your invoice.*                                        |
+        | Element                         | Description                                                                                                                                                                                      |
+        | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+        | **Carrier Account Number**\*    | Enter the carrier account number. The format must be compliant with your selected carrier. Add leading zeros if needed to meet character length requirements                                     |
+        | **Account Type**\*              | Select either [Production](https://docs.intersoftsapient.net/docs/sandbox-account) (live environment) or [Sandbox](https://docs.intersoftsapient.net/docs/sandbox-account) (testing environment) |
+        | **Account Name**\*              | Enter the account name if different from customer name                                                                                                                                           |
+        | **Registered Email Address**\*  | Enter the email address used to register with the carrier                                                                                                                                        |
+        | **Registered Billing Postcode** | Enter the postcode for billing.<br /> `Note`: *If you are unsure of the postcode, use the one shown on your invoice.*                                                                            |
 
         ### Contact Information
 
