@@ -100,8 +100,7 @@ In SAPIENT, you can create a shipping account, assign your <Glossary>carrier</Gl
 | **Account Name*** | Enter the account name if different from customer name |
 | **Registered Email Address*** | Enter the email address used to register with the carrier |
 | **Registered Billing Postcode** | Enter the postcode for billing
-
- `Note`: _If you are unsure of the postcode, use the one shown on your invoice._ |
+`Note`: _If you are unsure of the postcode, use the one shown on your invoice._|
 
 ### Contact Information
 
