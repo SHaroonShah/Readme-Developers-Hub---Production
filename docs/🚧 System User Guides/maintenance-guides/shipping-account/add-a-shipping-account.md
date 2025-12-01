@@ -19,7 +19,7 @@ In SAPIENT, you can create a shipping account, assign your <Glossary>carrier</Gl
 >
 > _Users with the**Admin** role permissions can create unlimited shipping accounts for their customers._
 
-<br />
+## How to add shipping account
 
 <Tabs>
   <Tab title="Add via SAPIENT UI">
