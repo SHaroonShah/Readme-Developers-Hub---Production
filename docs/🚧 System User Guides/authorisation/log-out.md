@@ -15,6 +15,8 @@ next:
 ---
 Logging out of the SAPIENT system redirects you to the main Sign in page that ensures that you have successfully logged out of the session you were working on.
 
+## How to log out from SAPIENT
+
 To log out of SAPIENT, follow the steps as explained in the following procedure.
 
 <ToggleList>
@@ -47,10 +49,10 @@ To log out of SAPIENT, follow the steps as explained in the following procedure.
     >
     > *After successful reauthentication, you are redirected back to the application. Also, the system opens the last page of the application with which you were working before the logout.*
 
-<Callout icon="💡" theme="default">
-  ### _Tip_
+    <Callout icon="💡" theme="default">
+      ### *Tip*
 
-  _You can also log out of from the system by selecting ![](https://files.readme.io/b48e59dfed1d8e9e37160ed82cb6c411f6f667623b937a13b366596b3f690fbe-Log_out_icon.png) from the [side navigation panel](https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/side-navigation-panel#/)._
-</Callout>
+      *You can also log out of from the system by selecting![](https://files.readme.io/b48e59dfed1d8e9e37160ed82cb6c411f6f667623b937a13b366596b3f690fbe-Log_out_icon.png) from the [side navigation panel](https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/side-navigation-panel#/).*
+    </Callout>
   </ToggleListItem>
 </ToggleList>
