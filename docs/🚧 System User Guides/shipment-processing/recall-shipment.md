@@ -25,13 +25,13 @@ After you have [cancelled](https://docs.intersoftsapient.net/docs/view-cancelled
   </Card>
 </Cards>
 
-## How to recall shipments
+## How to recall shipment
 
 <Tabs>
   <Tab title="Recall via SAPIENT UI">
     <br />
 
-    To recall the shipments via the SAPIENT UI, perform the steps as explained in the following procedure.
+    To recall a shipment via the SAPIENT UI, perform the steps as explained in the following procedure.
 
     <ToggleList>
       <ToggleListItem title={<strong>1. Access cancelled shipments</strong>} icon="fa-rocket">
