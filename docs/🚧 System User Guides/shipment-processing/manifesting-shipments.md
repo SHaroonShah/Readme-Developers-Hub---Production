@@ -161,9 +161,10 @@ You can also manifest shipments by:
         Complete API reference for manifesting shipments via our API
       </Card>
     </Cards>
+To view a step-by-step process on how to create and manifest shipments via API, refer to the following API recipe:
+
+<Recipe slug="process-shipments-created-with-the-action-process" title="Process shipment created with the action “Process”" />
   </Tab>
 </Tabs>
 
 <br />
-
-
