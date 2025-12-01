@@ -13,6 +13,8 @@ metadata:
 next:
   description: ''
 ---
+## How to reset password on SAPIENT
+
 To reset your password in SAPIENT, follow the steps as explained in the following procedure.
 
 <ToggleList>
