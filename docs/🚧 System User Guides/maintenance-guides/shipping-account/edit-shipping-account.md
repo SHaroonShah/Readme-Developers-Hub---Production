@@ -26,7 +26,7 @@ The editing process ensures that the information is current and accurate, which 
   </Card>
 
   <Card title="System Integration" icon="sync">
-    Helps to keep shipping information synchronized with other systems, such as inventory or order management systems.
+    Helps to keep shipping information synchronised with other systems, such as inventory or order management systems.
   </Card>
 </Cards>
 
