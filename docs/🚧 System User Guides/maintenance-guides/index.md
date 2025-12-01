@@ -15,6 +15,8 @@ next:
 ---
 ## Getting started
 
+***
+
 <Columns layout="auto">
   <Column>
     ### Single Location Setup
@@ -28,6 +30,8 @@ next:
     For 3Pi platforms servicing multiple customers or managing multiple locations with different carrier accounts, incorporate these API functions into your workflow to build automation and minimise manual processes.
   </Column>
 </Columns>
+
+***
 
 ## Essential setup guides
 
