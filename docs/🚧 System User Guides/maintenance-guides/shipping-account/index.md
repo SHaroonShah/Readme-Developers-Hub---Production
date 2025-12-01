@@ -13,10 +13,24 @@ metadata:
 next:
   description: ''
 ---
-<Image align="center" src="https://files.readme.io/cabe76f05d382d205a864327a56a8c3857b2f1d558ac730f69ee6afee9cc09f8-Add_account_art.png" />
+<Image align="center" border={false} src="https://files.readme.io/cabe76f05d382d205a864327a56a8c3857b2f1d558ac730f69ee6afee9cc09f8-Add_account_art.png" />
 
-In this section learn how to: 
+This centralised system allows you to handle all aspects of your shipping operations efficiently.
 
-* [Add a shipping account](https://docs.intersoftsapient.net/docs/add-a-shipping-account)
-* [Edit a shipping account](https://docs.intersoftsapient.net/docs/edit-shipping-account)
-* [Delete a shipping account](https://docs.intersoftsapient.net/docs/delete-shipping-account)
+## Manage your shipping accounts
+
+In this section, learn how to do the following:
+
+<Cards columns="3">
+  <Card title="Add Account" href="https://docs.intersoftsapient.net/docs/add-a-shipping-account" icon="plus">
+    Set up a new shipping account with your preferred carrier or logistics provider to start processing shipments.
+  </Card>
+
+  <Card title="Edit Account" href="https://docs.intersoftsapient.net/docs/edit-shipping-account" icon="edit">
+    Modify existing shipping account details, update credentials, or change configuration settings.
+  </Card>
+
+  <Card title="Delete Account" href="https://docs.intersoftsapient.net/docs/delete-shipping-account" icon="trash">
+    Remove shipping accounts that are no longer needed or have been deactivated.
+  </Card>
+</Cards>
