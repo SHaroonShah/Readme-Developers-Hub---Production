@@ -26,6 +26,8 @@ In this section, learn how to securely change your password with step-by-step in
 >
 > _For more information on how to set up a strong password, refer to the [guidelines for choosing a strong password](https://docs.intersoftsapient.net/docs/guidelines-for-choosing-strong-password#/) section._
 
+## How to change password on SAPIENT
+
 To change the password, follow the steps as explained in the following procedure.
 
 <ToggleList>
