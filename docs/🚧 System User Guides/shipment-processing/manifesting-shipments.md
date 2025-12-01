@@ -153,7 +153,9 @@ You can also manifest shipments by:
     </ToggleList>
   </Tab>
 
-  <Tab title="Manifest via API"><br></br>
+  <Tab title="Manifest via API">
+    <br />
+
     To manifest shipments via our API, refer to the following endpoint
 
     <Cards>
@@ -163,7 +165,8 @@ You can also manifest shipments by:
     </Cards>
 
     <br />
-
+    ***
+### API recipe guide
     To view a step-by-step process on how to create and manifest shipments via API, refer to the following API recipe:
 
     <Recipe />
