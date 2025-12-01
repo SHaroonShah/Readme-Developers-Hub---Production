@@ -22,15 +22,15 @@ This centralised system allows you to handle all aspects of your shipping operat
 In this section, learn how to do the following:
 
 <Cards columns="3">
-  <Card title="Add Account" href="https://docs.intersoftsapient.net/docs/add-a-shipping-account" icon="plus">
+  <Card title="Add Account" href="https://docs.intersoftsapient.net/docs/add-a-shipping-account" icon="fa-solid fa-plus">
     Set up a new shipping account with your preferred carrier or logistics provider to start processing shipments.
   </Card>
 
-  <Card title="Edit Account" href="https://docs.intersoftsapient.net/docs/edit-shipping-account" icon="edit">
+  <Card title="Edit Account" href="https://docs.intersoftsapient.net/docs/edit-shipping-account" icon="fa-solid fa-edit">
     Modify existing shipping account details, update credentials, or change configuration settings.
   </Card>
 
-  <Card title="Delete Account" href="https://docs.intersoftsapient.net/docs/delete-shipping-account" icon="trash">
+  <Card title="Delete Account" href="https://docs.intersoftsapient.net/docs/delete-shipping-account" icon="fa-solid fa-trash">
     Remove shipping accounts that are no longer needed or have been deactivated.
   </Card>
 </Cards>
