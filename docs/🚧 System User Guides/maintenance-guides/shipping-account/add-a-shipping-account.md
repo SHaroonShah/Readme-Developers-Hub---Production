@@ -86,28 +86,27 @@ In SAPIENT, you can create a shipping account, assign your <Glossary>carrier</Gl
 
         <br />
 
-          <Callout icon="💡" theme="default">
-            ### *Tip*
+        <Callout icon="💡" theme="default">
+          ### *Tip*
 
-            *In the following table, the mandatory fields are marked with an asterisk (\*).*
-          </Callout>
+          *In the following table, the mandatory fields are marked with an asterisk (\*).*
+        </Callout>
 
-          | Element                         | Description                                                                                                                                                  |
-          | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-          | **Carrier Account Number**\*    | Enter the carrier account number. The format must be compliant with your selected carrier. Add leading zeros if needed to meet character length requirements |
-          | **Account Type**\*              | Select either **Production** (live environment) or **Sandbox** (testing environment)                                                                         |
-          | **Account Name**\*              | Enter the account name if different from customer name                                                                                                       |
-          | **Registered Email Address**\*  | Enter the email address used to register with the carrier                                                                                                    |
-          | **Registered Billing Postcode** | Enter the postcode for billing.<br /> `Note`: *If you are unsure of the postcode, use the one shown on your invoice.*                                        |
+        | Element                         | Description                                                                                                                                                  |
+        | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+        | **Carrier Account Number**\*    | Enter the carrier account number. The format must be compliant with your selected carrier. Add leading zeros if needed to meet character length requirements |
+        | **Account Type**\*              | Select either **Production** (live environment) or **Sandbox** (testing environment)                                                                         |
+        | **Account Name**\*              | Enter the account name if different from customer name                                                                                                       |
+        | **Registered Email Address**\*  | Enter the email address used to register with the carrier                                                                                                    |
+        | **Registered Billing Postcode** | Enter the postcode for billing.<br /> `Note`: *If you are unsure of the postcode, use the one shown on your invoice.*                                        |
 
-          ### Contact Information
+        ### Contact Information
 
-          | Element              | Description                                                                          |
-          | -------------------- | ------------------------------------------------------------------------------------ |
-          | **Alias**\*          | Enter a memorable custom name for API requests instead of using shipping location ID |
-          | **Contact Name**\*   | Enter the primary contact name for this account                                      |
-          | **Contact Number**\* | Enter the contact phone number for this account                                      |
-        
+        | Element              | Description                                                                          |
+        | -------------------- | ------------------------------------------------------------------------------------ |
+        | **Alias**\*          | Enter a memorable custom name for API requests instead of using shipping location ID |
+        | **Contact Name**\*   | Enter the primary contact name for this account                                      |
+        | **Contact Number**\* | Enter the contact phone number for this account                                      |
 
         ***
       </ToggleListItem>
