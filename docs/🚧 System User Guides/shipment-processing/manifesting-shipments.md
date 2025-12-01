@@ -19,11 +19,11 @@ In this stage, shipments are being prepared for processing into a shipping manif
 In SAPIENT, you can <Glossary>manifest</Glossary> the <Glossary>shipment</Glossary> in several ways:
 
 <Cards columns="2">
-  <Card title="Container-based manifesting" href="https://docs.intersoftsapient.net/docs/manifest-shipments-in-a-container" icon="box">
+  <Card title="Container-based manifesting" href="https://docs.intersoftsapient.net/docs/manifest-shipments-in-a-container" icon="fa-solid fa-container-storage">
     Manifest shipments grouped within a specific container
   </Card>
 
-  <Card title="Status-based manifesting" href="https://docs.intersoftsapient.net/docs/manifest-shipments-by-picked-status" icon="check-circle">
+  <Card title="Status-based manifesting" href="https://docs.intersoftsapient.net/docs/manifest-shipments-by-picked-status" icon="fa-solid fa-check-circle">
     Manifest shipments filtered by their Picked status
   </Card>
 </Cards>
@@ -165,8 +165,11 @@ You can also manifest shipments by:
     </Cards>
 
     <br />
+
     ***
-### API recipe guide
+
+    ### API recipe guide
+
     To view a step-by-step process on how to create and manifest shipments via API, refer to the following API recipe:
 
     <Recipe />
