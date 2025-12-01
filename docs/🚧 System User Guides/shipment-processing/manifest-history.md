@@ -55,10 +55,10 @@ To search manifested shipments in SAPIENT, follow the steps as explained in the 
 
     <Image align="center" border={true} src="https://files.readme.io/deeb8cf7c4927c2b815c757d722955250f58d02c85345f159c594a7fb238c59b-Manifest_history_filter.png" alt="Specifying filters" />
 
-    <br />
-
     ***
-  </ToggleListItem><br></br>
+  </ToggleListItem>
+
+  <br />
 
   <ToggleListItem title={<strong>3. View results </strong>} icon="fa-rocket">
     <br />
