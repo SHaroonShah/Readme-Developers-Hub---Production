@@ -93,27 +93,21 @@ In SAPIENT, you can create a shipping account, assign your <Glossary>carrier</Gl
             *In the following table, the mandatory fields are marked with an asterisk (\*).*
           </Callout>
 
-          | Element                         | Description                                                                                                                                                  |
-          | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-          | **Carrier Account Number**\*    | Enter the carrier account number. The format must be compliant with your selected carrier. Add leading zeros if needed to meet character length requirements |
-          | **Account Type**\*              | From the dropdown menu, select one of the following account types that you want to set up for the the shipping account you are adding:
+         | Element | Description |
+|---------|-------------|
+| **Carrier Account Number*** | Enter the carrier account number. The format must be compliant with your selected carrier. Add leading zeros if needed to meet character length requirements |
+| **Account Type*** | Select either **Production** (live environment) or **Sandbox** (testing environment) |
+| **Account Name*** | Enter the account name if different from customer name |
+| **Registered Email Address*** | Enter the email address used to register with the carrier |
+| **Registered Billing Postcode** | Enter the postcode for billing (optional) |
 
-        • **[Production](https://docs.intersoftsapient.net/docs/sandbox-account)**: a live environment where the final version of the application is deployed and made available to the users.
+### Contact Information
 
-        • **[Sandbox](https://docs.intersoftsapient.net/docs/sandbox-account)**: a testing environment that mimics the **Production** environment but is isolated from it. The sandbox environment is primarily used for development and testing purposes.                                                                         |
-          | **Account Name**\*              | Enter the account name if different from customer name                                                                                                       |
-          | **Registered Email Address**\*  | Enter the email address that was used to register the account for the carrier you selected.                                                                                                    |
-          | **Registered Billing Postcode** | Enter the postcode registered with the carrier for receiving invoices. 
-
- `Note`: _If you are unsure of the postcode, use the one shown on your invoice._                                                                                                                   |
-
-          ### Contact Information
-
-          | Element              | Description                                                                          |
-          | -------------------- | ------------------------------------------------------------------------------------ |
-          | **Alias**\*          | Enter a memorable custom name for API requests instead of using shipping location ID |
-          | **Contact Name**\*   | Enter the primary contact name for this account                                      |
-          | **Contact Number**\* | Enter the contact phone number for this account                                      |
+| Element | Description |
+|---------|-------------|
+| **Alias*** | Enter a memorable custom name for API requests instead of using shipping location ID |
+| **Contact Name*** | Enter the primary contact name for this account |
+| **Contact Number*** | Enter the contact phone number for this account |
         </Accordion>
 
         ***
