@@ -57,10 +57,12 @@ In SAPIENT, you can anytime release the [held](https://docs.intersoftsapient.net
         In the **Held Shipments** page that opens, select the checkboxes next to the shipments you want to release, and then select ![alt text](https://files.readme.io/ea4f0d57b9918ccc9192a3d230a9dbd24e3e5a33c864e0dd4e8c973181d78f46-Release_shipments_button.png).
 
         <Image align="center" border={true} src="https://files.readme.io/a64211ea7a7073f81971a21ff07e429fe56864cd50f4be911b9af62da763fe8d-Releasing_shipment.png" alt="Recalling shipment" />
-***
+
+        ***
 
         <br />
       </ToggleListItem>
+<br></br>
 
       <ToggleListItem title={<strong>3. Confirm your action </strong>} icon="fa-rocket">
         <br />
