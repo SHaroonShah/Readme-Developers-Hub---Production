@@ -125,7 +125,8 @@ You can also manifest shipments by:
         <Image align="center" border={true} src="https://files.readme.io/94ad18f86e7c082888deddcd6fd000efdf60439d19d1779d552b579fe3f219d1-Manifest_processing_page.png" alt="Processing manifest" />
 
         <br />
-***
+
+        ***
       </ToggleListItem>
 
       <br />
@@ -165,6 +166,4 @@ You can also manifest shipments by:
 
 <br />
 
-To view a step-by-step process on how to create and manifest shipments via API, refer to the following API recipe:
 
-<Recipe slug="process-shipments-created-with-the-action-process" title="Process shipment created with the action “Process”" />
