@@ -31,6 +31,6 @@ In this section, learn how to do the following:
   </Card>
 
   <Card title="Delete Account" href="https://docs.intersoftsapient.net/docs/delete-shipping-account" icon="fa-solid fa-trash">
-    Remove shipping accounts that are no longer needed or have been deactivated.
+    Remove shipping accounts that are no longer needed or have been disabled.
   </Card>
 </Cards>
