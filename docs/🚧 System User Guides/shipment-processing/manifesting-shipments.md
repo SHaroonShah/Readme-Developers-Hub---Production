@@ -43,10 +43,10 @@ You can also manifest shipments by:
 ## How to manifest shipment
 
 <Tabs>
-  <Tab title="Hold via SAPIENT UI">
+  <Tab title="Manifest via SAPIENT UI">
     <br />
 
-    To hold the shipments in SAPIENT, perform the steps as explained in the following procedure.
+    To manifest a shipment in SAPIENT, perform the steps as explained in the following procedure.
 
     <ToggleList>
       <ToggleListItem title={<strong>1. Access the manifesting option</strong>} icon="fa-rocket">
@@ -79,10 +79,10 @@ You can also manifest shipments by:
       <ToggleListItem title={<strong>3. Apply additional filters </strong>} icon="fa-rocket">
         <br />
 
-        In the **Manifesting** page that opens, you can:
+        In the **Manifesting** page that opens, you can sort the list either of the following ways:
 
-        * Sort the list either by <Glossary>carrier</Glossary> or <Glossary>shipping account</Glossary>
-        * Change the <Glossary>shipping location</Glossary> by selecting the **Change Location** button
+        * *By status*: Filter by shipment status
+        * *By service*: Filter by carrier service codes
 
         <br />
 
@@ -93,54 +93,61 @@ You can also manifest shipments by:
 
       <br />
 
-      <ToggleListItem title={<strong>4. Select shipments to hold </strong>} icon="fa-rocket">
+      <ToggleListItem title={<strong>4. Initiate manifesting </strong>} icon="fa-rocket">
         <br />
 
-        Based on your requirements, select any of the following options:
+         Next to your desired shipment, select the manifest button: ![Manifest button](https://files.readme.io/fcb77ce4360ada3f172a0dccfceec28b483d6f4aa3e2a6a467929cf803686efe-Manifest_button.png)
 
-        * **For bulk operations:**
-          Next to the shipments that you want to hold, select ![alt text](https://files.readme.io/9a2d6ed673346e9c4c73e5a15a5dd8078483d6a780cf49d3f274cbf22c4df997-Hold_button.png).
-
-        * **For individual shipments:**
-          Next to the shipment, select ![alt text](https://files.readme.io/b9b3f904604324043bea000c1255950ee01f735b7e665909e3bbd409faeb2956-View_button.png).
+    <Image align="center" border={true} src="https://files.readme.io/417b398230fd2d49d159b9cc0cffa33e38496a2e5649b8fe2ec36d0a3078ce4a-Manifest_option.png" alt="Manifesting shipment" />).
 
         ***
       </ToggleListItem>
 
       <br />
 
-      <ToggleListItem title={<strong>5. Confirm hold action</strong>} icon="fa-rocket">
+      <ToggleListItem title={<strong>5. Confirm the manifest</strong>} icon="fa-rocket">
         <br />
 
-        On the page that opens, next to the shipment, select the checkbox and then click ![alt text](https://files.readme.io/1d487b18ddbdc249cef48fe35d465d2c89f5c7feb501f8cc797061ee607320cb-Hold_Shipments_button.png).
+          Review the confirmation dialog carefully and select **Yes** if everything is correct.
 
-        <Image align="center" border={true} src="https://files.readme.io/3320e4d15decec9a248bb0a89c20e394b259c8c1368bd741773cd7814ed774c4-Hold_shipments_option.png" alt="Accessing option to cancel shipments" />
+    <Image align="center" border={true} src="https://files.readme.io/2b517ebeb7b8975acf72b7691c2d98aa3fd26d639e5ae366fdb98d5c5ae9d80e-Confirming_manifest.png" width="350px" />
 
         ***
       </ToggleListItem>
 
       <br />
 
-      <ToggleListItem title={<strong>6. Provide reason for hold</strong>} icon="fa-rocket">
+      <ToggleListItem title={<strong>6. Monitor progress</strong>} icon="fa-rocket">
         <br />
 
-        In the confirmation dialog that appears, from the dropdown menu, select the reason for holding the shipment, and then click **Yes**.
+            After confirming, you are directed to the **Manifest Processing Page** to track your manifest progress.
 
-        <Image align="center" border={true} src="https://files.readme.io/2ab6f56822de74b6346b1480d45c322673c372603a21ae06bb225425ba332f70-Conforming_shipment_hold.png" width="350px" alt="Confirming shipment cancellation" />
+    <Image align="center" border={true} src="https://files.readme.io/94ad18f86e7c082888deddcd6fd000efdf60439d19d1779d552b579fe3f219d1-Manifest_processing_page.png" alt="Processing manifest" />
 
         <br />
-
-        Once confirmed, the shipments are removed from the current list and is displayed in the list of held shipments. If needed, you can [release the held shipments](https://docs.intersoftsapient.net/docs/release-shipment) within the 28 days time frame and work with them accordingly.
       </ToggleListItem>
-    </ToggleList>
+       ***
 
-    <Callout icon="💡" theme="default">
+      <br />
+
+      <ToggleListItem title={<strong>7. View manifest details</strong>} icon="fa-rocket">
+        <br />
+
+            Once processing is complete, expand the **Manifest/s processed** section using the view button: ![View manifests button](https://files.readme.io/b912251130f1a55af9a87de2cd47d96fa27576b740d7f5e4c4100d08470606d9-View_manifests_button.png)
+
+    <Image align="center" border={true} src="https://files.readme.io/a160eccb1432a48bba9e1295800375eb7307516e9c2fbcbb7d5f386f98648443-Manifest_details.png" alt="Viewing manifest details" />
+
+        <br />
+   <Callout icon="💡" theme="default">
       ### *Tip*
 
-      *You can access the held shipments directly from this page by selecting the**View Held Shipments** option or by accessing the **Shipment Processing** > **Held** option from the side navigation panel.*
+      If needed, you can export your manifest file by selecting the **Download as PDF** icon ![PDF icon](https://files.readme.io/e12fc39d80fd5eb7931db6e1db22df354422aa16bbc2c675f70c85c4a788431c-PDF_icon.png) in the **Manifest Number** column.
 
       <Image align="center" border={true} src="https://files.readme.io/bc5120461fe99089d00c1c83f39a4e5e0706b8a62d25f2c39b697cb4377bf6b4-Accessing_held_shipmehts.png" alt="Accessing canceled shipments" />
     </Callout>
+      </ToggleListItem>
+    </ToggleList>
+
   </Tab>
 
   <Tab title="Hold via API">
