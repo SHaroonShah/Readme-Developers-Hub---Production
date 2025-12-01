@@ -32,7 +32,7 @@ next:
 ## Essential setup guides
 
 <Cards columns={2}>
-  <Card title="Add Shipping Account" href="https://docs.intersoftsapient.net/docs/add-a-shipping-account" icon="fa-solid fa-box-isometric-tape">
+  <Card title="Add Shipping Account" href="https://docs.intersoftsapient.net/docs/add-a-shipping-account" icon="fa-solid fa-box-isometric">
     Set up and configure carrier shipping accounts for your operations.
   </Card>
 
