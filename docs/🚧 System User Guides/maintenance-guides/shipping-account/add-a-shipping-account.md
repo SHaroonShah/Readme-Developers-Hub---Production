@@ -15,9 +15,15 @@ next:
 ---
 In SAPIENT, you can create a shipping account, assign your <Glossary>carrier</Glossary> credentials to it, and then link them to the relevant <Glossary>shipping location</Glossary>(s).
 
-> 📘 *Note*
+> 📘 _Note_
 >
-> *Users with the**Admin** role permissions can create unlimited shipping accounts for their customers.*
+> _Users with the**Admin** role permissions can create unlimited shipping accounts for their customers._
+
+<br />
+
+<br />
+
+<br />
 
 To create a shipping account in SAPIENT, follow the instructions as explained in the following procedure.
 
@@ -25,7 +31,7 @@ To create a shipping account in SAPIENT, follow the instructions as explained in
 
 <Image align="center" alt="Accessing shipping accounts" border={true} caption="Accessing shipping accounts" src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" />
 
-2. On the **Shipping Accounts** page that opens, select ![alt text](https://files.readme.io/0a2190f702c512528e9b264765a05e8b507cecbb379fd3fe390767ed8518382a-add_shipping_account_button.png).
+2. On the **Shipping Accounts** page that opens, select ![](https://files.readme.io/0a2190f702c512528e9b264765a05e8b507cecbb379fd3fe390767ed8518382a-add_shipping_account_button.png).
 
 <Image align="center" alt="Accessing option to add shipping account" border={true} caption="Selecting option to add shipping account" src="https://files.readme.io/8490d8ba65c4eca10caa8c051c5e73bf366fc5a6269e84a2bfb697544105b343-Add_shipping_account_option.png" />
 
@@ -35,18 +41,20 @@ To create a shipping account in SAPIENT, follow the instructions as explained in
 
 <AsteridkForMandatoryElements />
 
-|         Element         | Description                                                                                                                        |
-| :---------------------: | :--------------------------------------------------------------------------------------------------------------------------------- |
-|      **Carrier**\*      | From the dropdown list, select the carrier for which you want to add a shipping account.                                           |
-| **Shipping Location**\* | From the dropdown menu, select the location that you want to assign to the <Glossary>shipping account</Glossary> you are creating. |
+|         Element        | Description                                                                                                                        |
+| :--------------------: | :--------------------------------------------------------------------------------------------------------------------------------- |
+|      **Carrier***      | From the dropdown list, select the carrier for which you want to add a shipping account.                                           |
+| **Shipping Location*** | From the dropdown menu, select the location that you want to assign to the <Glossary>shipping account</Glossary> you are creating. |
 
 4. In the **SHIPPING ACCOUNT** block, enter the necessary information as explained in the following table.
 
 <Image align="center" alt="Specifying shipping account details" border={true} caption="Specifying shipping account details" src="https://files.readme.io/86c792139df738b9d3d72e61e3a2d9edf6e95e49ebaed402137335a66e796d4a-Shipping_account_block.png" width="400px" />
 
-> 💡 *Tip*
->
-> *In the following table, the mandatory fields are marked with an asterisk (\*).*
+<Callout icon="💡" theme="default">
+  ### _Tip_
+
+  _In the following table, the mandatory fields are marked with an asterisk (*)._
+</Callout>
 
 <Table align={["center","left"]}>
   <thead>
@@ -64,7 +72,7 @@ To create a shipping account in SAPIENT, follow the instructions as explained in
   <tbody>
     <tr>
       <td>
-        **Carrier Account Number**\*
+        **Carrier Account Number***
       </td>
 
       <td>
@@ -76,7 +84,7 @@ To create a shipping account in SAPIENT, follow the instructions as explained in
 
     <tr>
       <td>
-        **Account Type**\*
+        **Account Type***
       </td>
 
       <td>
@@ -90,7 +98,7 @@ To create a shipping account in SAPIENT, follow the instructions as explained in
 
     <tr>
       <td>
-        **Account Name (if different than customer)**\*
+        **Account Name (if different than customer)***
       </td>
 
       <td>
@@ -100,7 +108,7 @@ To create a shipping account in SAPIENT, follow the instructions as explained in
 
     <tr>
       <td>
-        **Registered Email Address**\*
+        **Registered Email Address***
       </td>
 
       <td>
@@ -120,7 +128,7 @@ To create a shipping account in SAPIENT, follow the instructions as explained in
 
     <tr>
       <td>
-        **Alias**\*
+        **Alias***
       </td>
 
       <td>
@@ -130,7 +138,7 @@ To create a shipping account in SAPIENT, follow the instructions as explained in
 
     <tr>
       <td>
-        **Contact Name**\*
+        **Contact Name***
       </td>
 
       <td>
@@ -140,7 +148,7 @@ To create a shipping account in SAPIENT, follow the instructions as explained in
 
     <tr>
       <td>
-        **Contact Number**\*
+        **Contact Number***
       </td>
 
       <td>
@@ -151,10 +159,10 @@ To create a shipping account in SAPIENT, follow the instructions as explained in
 </Table>
 
 5. In the **CARRIER DETAILS** block, the fields you see are carrier-specific and vary for each carrier. To get more information on how to fill the fields in this block, refer to the [carrier specific guides](https://docs.intersoftsapient.net/docs/carrier-specific-user-guides) section.
-6. After entering all the required information, select ![alt text](https://files.readme.io/c8e36ac323cf6d3859bfa7081ee7ab63495ded4fd04cdb97aa685e06071cf4b4-add_shipping_account_button_2.png).
+6. After entering all the required information, select ![](https://files.readme.io/c8e36ac323cf6d3859bfa7081ee7ab63495ded4fd04cdb97aa685e06071cf4b4-add_shipping_account_button_2.png).
 
 Once done, you have now successfully added a shipping account. You can now [add a shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location) to your new shipping account.
 
-> 📘 *Note*
+> 📘 _Note_
 >
-> *Shipping account(s) can be added and managed via API. For more information, refer to the [API References](https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts) section.*
+> _Shipping account(s) can be added and managed via API. For more information, refer to the [API References](https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts) section._
