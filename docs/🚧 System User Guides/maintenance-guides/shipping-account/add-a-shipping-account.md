@@ -138,6 +138,8 @@ In SAPIENT, you can create a shipping account, assign your <Glossary>carrier</Gl
   </Tab>
 </Tabs>
 
+***
+
 ## Next Steps
 
 <Accordion title="What's Next?" icon="arrow-right">
