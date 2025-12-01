@@ -38,8 +38,7 @@ To search and view manifested shipments in SAPIENT, follow the steps as explaine
 
   <br />
 
-  <ToggleListItem title={<strong>2. Apply filters</strong>} icon="fa-rocket">
-
+  <ToggleListItem title={<strong>2. Apply filters</strong>} icon="fa-rocket"><br></br>
     In the **Manifest History** page that opens, in the **FILTERS** block, specify your filters based on which you want to search your shipments, and then select ![](https://files.readme.io/34fc7db79563540c7ec5a0d5ec80b50898cfa4ddd9fba622f178d517803116e6-Show_shipments_button.png).
 
     > 📘 *Note*
