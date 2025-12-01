@@ -59,9 +59,13 @@ In SAPIENT, you can create a shipping account, assign your <Glossary>carrier</Gl
 
         On the **Add Shipping Account** form that appears, fill in the **ACCOUNT DETAILS** block:
 
-        <Image align="center" border={true} src="https://files.readme.io/dc5c99c4576f2625aa7809d67c9cf26573ed44dbce51fdebc2df7f43013cde3b-Account_details_block.png" alt="Entering account details" />
+        <Image align="center" border={true} src="https://files.readme.io/dc5c99c4576f2625aa7809d67c9cf26573ed44dbce51fdebc2df7f43013cde3b-Account_details_block.png" alt="Entering account details" /><br></br>
 
-        ### Required Fields
+        <Callout icon="💡" theme="default">
+  ### _Tip_
+
+  _In the following table, the mandatory fields are marked with an asterisk (*)._
+</Callout>
 
         | Element                 | Description                                                                                                  |
         | ----------------------- | ------------------------------------------------------------------------------------------------------------ |
@@ -83,7 +87,12 @@ In SAPIENT, you can create a shipping account, assign your <Glossary>carrier</Gl
         <Image align="center" border={true} src="https://files.readme.io/86c792139df738b9d3d72e61e3a2d9edf6e95e49ebaed402137335a66e796d4a-Shipping_account_block.png" width="400px" alt="Specifying shipping account details" />
 
         <Accordion title="Shipping Account Fields" icon="list">
-          ### Account Configuration
+          <br></br>
+<Callout icon="💡" theme="default">
+  ### _Tip_
+
+  _In the following table, the mandatory fields are marked with an asterisk (*)._
+</Callout>
 
           | Element                         | Description                                                                                                                                                  |
           | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
