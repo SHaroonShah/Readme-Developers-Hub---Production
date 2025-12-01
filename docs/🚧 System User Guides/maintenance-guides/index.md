@@ -25,14 +25,14 @@ next:
   <Column>
     ### Multi-Location & 3Pi Platforms
 
-    For 3Pi platforms servicing multiple customers or managing multiple locations with different carrier accounts, incorporate these API functions into your workflow to build automation and minimize manual processes.
+    For 3Pi platforms servicing multiple customers or managing multiple locations with different carrier accounts, incorporate these API functions into your workflow to build automation and minimise manual processes.
   </Column>
 </Columns>
 
 ## Essential setup guides
 
 <Cards columns={2}>
-  <Card title="Add Shipping Account" href="https://docs.intersoftsapient.net/docs/add-a-shipping-account" icon="credit-card">
+  <Card title="Add Shipping Account" href="https://docs.intersoftsapient.net/docs/add-a-shipping-account" icon="fa-solid fa-box-isometric-tape">
     Set up and configure carrier shipping accounts for your operations.
   </Card>
 
