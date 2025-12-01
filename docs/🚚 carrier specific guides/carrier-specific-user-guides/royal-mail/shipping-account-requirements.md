@@ -15,9 +15,9 @@ next:
 ---
 In SAPIENT, you can create a shipping account with Royal Mail, assign your Royal Mail credentials to it, and then link it to the relevant <Glossary>shipping location</Glossary>(s).
 
-> 🚧 *Important*
+> 🚧 _Important_
 >
-> *Before you can set up a shipping account, you must ensure you have[enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with Royal Mail.*
+> _Before you can set up a shipping account, you must ensure you have[enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with Royal Mail._
 
 To add a shipping account for Royal Mail in SAPIENT, follow the instructions as explained in the following procedure.
 
@@ -29,7 +29,7 @@ To add a shipping account for Royal Mail in SAPIENT, follow the instructions as 
 
 <Image align="center" alt="Accessing shipping accounts" border={true} caption="Accessing shipping accounts" src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" />
 
-3. On the **Shipping Accounts** page that opens, select ![alt text](https://files.readme.io/44690bc0342682d80d45da0ca9e41920f4a8e30430a7279053ef6348e2900569-add_shipping_account_button.png).
+3. On the **Shipping Accounts** page that opens, select ![](https://files.readme.io/44690bc0342682d80d45da0ca9e41920f4a8e30430a7279053ef6348e2900569-add_shipping_account_button.png).
 
 <Image align="center" alt="Accessing option to add shipping account" border={true} caption="Selecting option to add shipping account" src="https://files.readme.io/6a8c9af67fce1cfe9d27b55871687460e467417da0f236b1fa0a7a622241a67d-RM_create_shiipping_accounts_option.png" />
 
@@ -39,18 +39,20 @@ To add a shipping account for Royal Mail in SAPIENT, follow the instructions as 
 
 <AsteridkForMandatoryElements />
 
-|         Element         | Description                                                                                                   |
-| :---------------------: | :------------------------------------------------------------------------------------------------------------ |
-|      **Carrier**\*      | From the dropdown list, select **RM - Royal Mail**.                                                           |
-| **Shipping Location**\* | From the dropdown menu, select the location that you want to assign to the shipping account you are creating. |
+|         Element        | Description                                                                                                   |
+| :--------------------: | :------------------------------------------------------------------------------------------------------------ |
+|      **Carrier***      | From the dropdown list, select **RM - Royal Mail**.                                                           |
+| **Shipping Location*** | From the dropdown menu, select the location that you want to assign to the shipping account you are creating. |
 
 5. In the **SHIPPING ACCOUNT** block, enter the necessary information as explained in the following table.
 
 <Image align="center" alt="Specifying shipping account details" border={true} caption="Specifying shipping account details" src="https://files.readme.io/86c792139df738b9d3d72e61e3a2d9edf6e95e49ebaed402137335a66e796d4a-Shipping_account_block.png" width="400px" />
 
-> 💡 *Tip*
->
-> *In the following table, the mandatory fields are marked with an asterisk (\*).*
+<Callout icon="💡" theme="default">
+  ### _Tip_
+
+  _In the following table, the mandatory fields are marked with an asterisk (*)._
+</Callout>
 
 <Table align={["center","left"]}>
   <thead>
@@ -68,7 +70,7 @@ To add a shipping account for Royal Mail in SAPIENT, follow the instructions as 
   <tbody>
     <tr>
       <td>
-        **Carrier Account Number**\*
+        **Carrier Account Number***
       </td>
 
       <td>
@@ -80,7 +82,7 @@ To add a shipping account for Royal Mail in SAPIENT, follow the instructions as 
 
     <tr>
       <td>
-        **Account Type**\*
+        **Account Type***
       </td>
 
       <td>
@@ -90,13 +92,13 @@ To add a shipping account for Royal Mail in SAPIENT, follow the instructions as 
 
         • **[Sandbox](https://docs.intersoftsapient.net/docs/sandbox-account)**: a testing environment that mimics the **Production** environment but is isolated from it. The sandbox environment is primarily used for development and testing purposes.
 
-        ***Note**: for testing purposes, you can set up a **Sandbox** account for Royal Mail by using a dummy account number and PLN as this data is not validated and allows you to test the integration. If you choose to switch the account to **Production**, then the account details are sent to the <Glossary>Online Business Account</Glossary> (OBA) team and validated. Based on this validation, the shipping account is either approved or rejected.*
+        `Note`: _For testing purposes, you can set up a **Sandbox** account for Royal Mail by using a dummy account number and PLN as this data is not validated and allows you to test the integration. If you choose to switch the account to **Production**, then the account details are sent to the <Glossary>Online Business Account</Glossary> (OBA) team and validated. Based on this validation, the shipping account is either approved or rejected._
       </td>
     </tr>
 
     <tr>
       <td>
-        **Account Name (if different than customer)**\*
+        **Account Name (if different than customer)***
       </td>
 
       <td>
@@ -106,7 +108,7 @@ To add a shipping account for Royal Mail in SAPIENT, follow the instructions as 
 
     <tr>
       <td>
-        **Registered Email Address**\*
+        **Registered Email Address***
       </td>
 
       <td>
@@ -122,13 +124,15 @@ To add a shipping account for Royal Mail in SAPIENT, follow the instructions as 
       </td>
 
       <td>
-        Enter the postcode registered with Royal Mail for receiving invoices.
+        Enter the postcode registered with Royal Mail for receiving invoices.  
+
+        `Note`: _If you are unsure of the postcode, use the one shown on your invoice._
       </td>
     </tr>
 
     <tr>
       <td>
-        **Alias**\*
+        **Alias***
       </td>
 
       <td>
@@ -138,7 +142,7 @@ To add a shipping account for Royal Mail in SAPIENT, follow the instructions as 
 
     <tr>
       <td>
-        **Contact Name**\*
+        **Contact Name***
       </td>
 
       <td>
@@ -148,7 +152,7 @@ To add a shipping account for Royal Mail in SAPIENT, follow the instructions as 
 
     <tr>
       <td>
-        **Contact Number**\*
+        **Contact Number***
       </td>
 
       <td>
@@ -180,7 +184,7 @@ To add a shipping account for Royal Mail in SAPIENT, follow the instructions as 
   <tbody>
     <tr>
       <td>
-        **Posting Location Code**\*
+        **Posting Location Code***
       </td>
 
       <td>
@@ -192,7 +196,7 @@ To add a shipping account for Royal Mail in SAPIENT, follow the instructions as 
 
     <tr>
       <td>
-        **Receiving Hub Code**\*
+        **Receiving Hub Code***
       </td>
 
       <td>
@@ -214,13 +218,13 @@ To add a shipping account for Royal Mail in SAPIENT, follow the instructions as 
   </tbody>
 </Table>
 
-7. After entering all the required information, select ![alt text](https://files.readme.io/db03c9a2b7ee816f42db617829469dce01bbdfd35aca00ace480fd78db31aa11-add_shipping_account_button_2.png).
+7. After entering all the required information, select ![](https://files.readme.io/db03c9a2b7ee816f42db617829469dce01bbdfd35aca00ace480fd78db31aa11-add_shipping_account_button_2.png).
 
 Once done, you have now successfully added a shipping account. Once the account is [approved](https://docs.intersoftsapient.net/docs/royal-mail-sign-off#/), you can now start shipping with it.
 
-> 📘 *Note*
+> 📘 _Note_
 >
-> *Shipping account(s) can be added and managed via API. For more information, refer to the[API References](https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts) section.*
+> _Shipping account(s) can be added and managed via API. For more information, refer to the[API References](https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts) section._
 
 ### See also
 
