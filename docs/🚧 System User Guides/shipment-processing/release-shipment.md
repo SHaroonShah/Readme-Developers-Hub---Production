@@ -54,22 +54,28 @@ In SAPIENT, you can anytime release the [held](https://docs.intersoftsapient.net
       <ToggleListItem title={<strong>2. Select shipments to release</strong>} icon="fa-rocket">
         <br />
 
-   In the **Held Shipments** page that opens, select the checkboxes next to the shipments you want to release, and then select ![alt text](https://files.readme.io/ea4f0d57b9918ccc9192a3d230a9dbd24e3e5a33c864e0dd4e8c973181d78f46-Release_shipments_button.png).
+        In the **Held Shipments** page that opens, select the checkboxes next to the shipments you want to release, and then select ![alt text](https://files.readme.io/ea4f0d57b9918ccc9192a3d230a9dbd24e3e5a33c864e0dd4e8c973181d78f46-Release_shipments_button.png).
 
-        <Image align="center" border={true} src="https://files.readme.io/a64211ea7a7073f81971a21ff07e429fe56864cd50f4be911b9af62da763fe8d-Releasing_shipment.png" alt="Recalling shipment" /><br></br>
-</ToggleListItem>
+        <Image align="center" border={true} src="https://files.readme.io/a64211ea7a7073f81971a21ff07e429fe56864cd50f4be911b9af62da763fe8d-Releasing_shipment.png" alt="Recalling shipment" />
+***
 
+        <br />
+      </ToggleListItem>
 
       <ToggleListItem title={<strong>3. Confirm your action </strong>} icon="fa-rocket">
         <br />
 
-In the confirmation dialog that appears, select **Yes**.
+        In the confirmation dialog that appears, select **Yes**.
 
-        <Image align="center" border={true} src="https://files.readme.io/6357a15bc67e4c76c3e37aca5da2842b7bdb395cf3c3ce8fa6e6bd16bba7a751-Confirming_shipment_release.png" width="350px" alt="Confirming shipment recalling" /><br></br>
- Once confirmed, the shipment(s) is removed from the **Held Shipments** list and goes back to its previous status and is included in the next manifest.
+        <Image align="center" border={true} src="https://files.readme.io/6357a15bc67e4c76c3e37aca5da2842b7bdb395cf3c3ce8fa6e6bd16bba7a751-Confirming_shipment_release.png" width="350px" alt="Confirming shipment recalling" />
+
+        <br />
+
+        Once confirmed, the shipment(s) is removed from the **Held Shipments** list and goes back to its previous status and is included in the next manifest.
+
         ***
       </ToggleListItem>
-</ToggleList>
+    </ToggleList>
   </Tab>
 
   <Tab title="Hold via API">
