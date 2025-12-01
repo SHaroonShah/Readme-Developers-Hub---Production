@@ -30,13 +30,13 @@ In SAPIENT, you can anytime release the [held](https://docs.intersoftsapient.net
   </Card>
 </Cards>
 
-## How to release shipments
+## How to release shipment
 
 <Tabs>
   <Tab title="Release via SAPIENT UI">
     <br />
 
-    To release the shipments in SAPIENT, perform the steps as explained in the following procedure.
+    To release a shipment in SAPIENT, perform the steps as explained in the following procedure.
 
     <ToggleList>
       <ToggleListItem title={<strong>1. Access held shipments</strong>} icon="fa-rocket">
@@ -100,6 +100,6 @@ In SAPIENT, you can anytime release the [held](https://docs.intersoftsapient.net
 
     To view a step-by-step process on how to release held shipments and manifest them via API, refer to the following API recipe:
 
-<Recipe slug="release-and-manifest-held-shipment" title="Release and manifest held shipments" />
+    <Recipe />
   </Tab>
 </Tabs>
