@@ -140,7 +140,7 @@ In SAPIENT, you can create a shipping account, assign your <Glossary>carrier</Gl
 
 ***
 
-## Next Steps
+## Next steps
 
 <Accordion title="What's Next?" icon="arrow-right">
   Once you've successfully added your shipping account, you can:
