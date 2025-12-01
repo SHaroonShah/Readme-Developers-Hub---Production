@@ -127,11 +127,11 @@ In SAPIENT, you can create a shipping account, assign your <Glossary>carrier</Gl
     </ToggleList>
   </Tab>
 
-  <Tab title="Hold via API">
-    To hold shipment via our API, refer to the following endpoint
+  <Tab title="Add via API">
+    To add a shipping account via our API, refer to the following endpoint:
 
     <Cards>
-      <Card title="Update Status" href="https://docs.intersoftsapient.net/reference/put_v4-shipments-status" icon="fa-solid fa-code">
+      <Card title="Add Account" href="https://docs.intersoftsapient.net/reference/post_v4-shippingaccounts-rm#/" icon="fa-solid fa-code">
         Complete API reference for shipment status updates including holding
       </Card>
     </Cards>
