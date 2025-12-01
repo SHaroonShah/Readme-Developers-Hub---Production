@@ -108,8 +108,6 @@ In SAPIENT, you can create a shipping account, assign your <Glossary>carrier</Gl
           | **Alias**\*          | Enter a memorable custom name for API requests instead of using shipping location ID |
           | **Contact Name**\*   | Enter the primary contact name for this account                                      |
           | **Contact Number**\* | Enter the contact phone number for this account                                      |
-
- 
         </Accordion>
 
         ***
@@ -123,7 +121,8 @@ In SAPIENT, you can create a shipping account, assign your <Glossary>carrier</Gl
         In the **CARRIER DETAILS** block, complete the carrier-specific fields.
 
         <Callout icon="💡" theme="info">
-          **Important**: The fields in this section vary depending on your selected carrier. Each carrier has unique requirements and authentication methods. To get more information on how to fill the fields in this block, refer to the [carrier specific guides](https://docs.intersoftsapient.net/docs/carrier-specific-user-guides) section.
+          ###*Important*
+*The fields in this section vary depending on your selected carrier. Each carrier has unique requirements and authentication methods. To get more information on how to fill the fields in this block, refer to the [carrier specific guides](https://docs.intersoftsapient.net/docs/carrier-specific-user-guides) section.*
         </Callout>
 
         <br />
