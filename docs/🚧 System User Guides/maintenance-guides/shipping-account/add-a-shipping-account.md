@@ -69,8 +69,8 @@ In SAPIENT, you can create a shipping account, assign your <Glossary>carrier</Gl
 
         | Element                 | Description                                                                                                  |
         | ----------------------- | ------------------------------------------------------------------------------------------------------------ |
-        | **Carrier**\*           | From the dropdown list, select the carrier for which you want to add a shipping account                      |
-        | **Shipping Location**\* | From the dropdown menu, select the location that you want to assign to the shipping account you are creating |
+        | **Carrier**\*           | From the dropdown list, select the carrier for which you want to add a shipping account.                      |
+        | **Shipping Location**\* | From the dropdown menu, select the location that you want to assign to the shipping account you are creating. |
 
         ***
       </ToggleListItem>
