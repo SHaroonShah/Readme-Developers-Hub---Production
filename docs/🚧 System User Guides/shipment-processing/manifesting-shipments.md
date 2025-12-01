@@ -152,18 +152,18 @@ You have now successfully manifested your shipments.
     </ToggleList>
   </Tab>
 
-  <Tab title="Hold via API">
-    To recall shipment via our API, refer to the following endpoint
+  <Tab title="Manifest via API">
+    To manifest shipments via our API, refer to the following endpoint
 
     <Cards>
-      <Card title="Update Status" href="https://docs.intersoftsapient.net/reference/put_v4-shipments-status" icon="fa-solid fa-code">
-        Complete API reference for shipment status updates including holding
+      <Card title="Manifest Shipments" href="https://docs.intersoftsapient.net/v4.02_Coding/reference/post_v4-manifests-carriercode#/" icon="fa-solid fa-code">
+        Complete API reference for manifesting shipments via our API
       </Card>
     </Cards>
   </Tab>
 </Tabs>
 
-You have now successfully manifested your shipments.
+<br />
 
 To view a step-by-step process on how to create and manifest shipments via API, refer to the following API recipe:
 
