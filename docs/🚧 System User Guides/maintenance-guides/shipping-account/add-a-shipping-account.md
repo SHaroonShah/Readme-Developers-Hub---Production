@@ -21,9 +21,115 @@ In SAPIENT, you can create a shipping account, assign your <Glossary>carrier</Gl
 
 <br />
 
-<br />
+<Tabs>
+  <Tab title="Add via SAPIENT UI">
+    <br />
 
-<br />
+    To add a shipping account in SAPIENT, perform the steps as explained in the following procedure.
+
+    <ToggleList>
+      <ToggleListItem title={<strong>1. Access the shipping accounts page</strong>} icon="fa-rocket">
+        <br />
+
+        In the left navigation panel, select **Shipping Accounts**.
+
+    <Image align="center" border={true} src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" alt="Accessing shipping accounts" />
+
+        ***
+      </ToggleListItem>
+
+      <br />
+
+      <ToggleListItem title={<strong>2. Select the add shipping account button</strong>} icon="fa-rocket">
+        <br />
+
+ On the **Shipping Accounts** page that opens, select the **Add Shipping Account** button.
+<br></br>
+        <Image align="center" border={true} src="https://files.readme.io/8490d8ba65c4eca10caa8c051c5e73bf366fc5a6269e84a2bfb697544105b343-Add_shipping_account_option.png" alt="Accessing option to add shipping account" />
+***
+      </ToggleListItem>
+
+      <br />
+
+      <ToggleListItem title={<strong>3. Enter account details </strong>} icon="fa-rocket">
+        <br />
+
+ On the **Add Shipping Account** form that appears, fill in the **ACCOUNT DETAILS** block:
+
+    <Image align="center" border={true} src="https://files.readme.io/dc5c99c4576f2625aa7809d67c9cf26573ed44dbce51fdebc2df7f43013cde3b-Account_details_block.png" alt="Entering account details" />
+
+    ### Required Fields
+
+    | Element                 | Description                                                                                                  |
+    | ----------------------- | ------------------------------------------------------------------------------------------------------------ |
+    | **Carrier**\*           | From the dropdown list, select the carrier for which you want to add a shipping account                      |
+    | **Shipping Location**\* | From the dropdown menu, select the location that you want to assign to the shipping account you are creating |
+
+    *Required fields are marked with an asterisk (*)
+
+        ***
+      </ToggleListItem>
+
+      <br />
+
+      <ToggleListItem title={<strong>4. Enter shipping account details </strong>} icon="fa-rocket">
+        <br />
+
+        In the **SHIPPING ACCOUNT** block, enter the necessary information:
+
+    <Image align="center" border={true} src="https://files.readme.io/86c792139df738b9d3d72e61e3a2d9edf6e95e49ebaed402137335a66e796d4a-Shipping_account_block.png" width="400px" alt="Specifying shipping account details" />
+
+    <Accordion title="Shipping Account Fields" icon="list">
+      ### Account Configuration
+
+      | Element                         | Description                                                                                                                                                  |
+      | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+      | **Carrier Account Number**\*    | Enter the carrier account number. The format must be compliant with your selected carrier. Add leading zeros if needed to meet character length requirements |
+      | **Account Type**\*              | Select either **Production** (live environment) or **Sandbox** (testing environment)                                                                         |
+      | **Account Name**\*              | Enter the account name if different from customer name                                                                                                       |
+      | **Registered Email Address**\*  | Enter the email address used to register with the carrier                                                                                                    |
+      | **Registered Billing Postcode** | Enter the postcode for billing (optional)                                                                                                                    |
+
+      ### Contact Information
+
+      | Element              | Description                                                                          |
+      | -------------------- | ------------------------------------------------------------------------------------ |
+      | **Alias**\*          | Enter a memorable custom name for API requests instead of using shipping location ID |
+      | **Contact Name**\*   | Enter the primary contact name for this account                                      |
+      | **Contact Number**\* | Enter the contact phone number for this account                                      |
+
+      *Required fields are marked with an asterisk (*)
+    </Accordion>
+
+        ***
+      </ToggleListItem>
+
+      <br />
+
+      <ToggleListItem title={<strong>5. Enter carrier-specific details</strong>} icon="fa-rocket">
+        <br />
+
+        In the **CARRIER DETAILS** block, complete the carrier-specific fields.
+
+    <Callout icon="💡" theme="info">
+      **Important**: The fields in this section vary depending on your selected carrier. Each carrier has unique requirements and authentication methods. To get more information on how to fill the fields in this block, refer to the [carrier specific guides](https://docs.intersoftsapient.net/docs/carrier-specific-user-guides) section.
+        </Callout><br></br>
+After entering all the required information, select ![](https://files.readme.io/c8e36ac323cf6d3859bfa7081ee7ab63495ded4fd04cdb97aa685e06071cf4b4-add_shipping_account_button_2.png).
+        ***
+      </ToggleListItem>
+</ToggleList>
+  </Tab>
+
+  <Tab title="Hold via API">
+    To hold shipment via our API, refer to the following endpoint
+
+    <Cards>
+      <Card title="Update Status" href="https://docs.intersoftsapient.net/reference/put_v4-shipments-status" icon="fa-solid fa-code">
+        Complete API reference for shipment status updates including holding
+      </Card>
+    </Cards>
+  </Tab>
+</Tabs>
 
 To create a shipping account in SAPIENT, follow the instructions as explained in the following procedure.
 
