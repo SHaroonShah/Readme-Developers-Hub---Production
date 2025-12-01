@@ -13,7 +13,12 @@ link:
   new_tab: false
 metadata:
   title: ''
-  description: ''
+  description: >-
+    Releasing a shipment refers to the process of removing any restrictions or
+    barriers that prevented it from being processed or shipped. It typically
+    involves resolving any issues that cause the shipment hold, such as
+    completing the required documentation, verifying payment, or addressing
+    compliance concerns.
   robots: index
 ---
 Releasing a shipment from hold is crucial for maintaining operational efficiency, ensuring timey delivery, and upholding customer relationships.
@@ -24,7 +29,7 @@ In SAPIENT, you can anytime release the [held](https://docs.intersoftsapient.net
 >
 > *You can release the shipments both via UI and the API. For more information on how to release shipments via API, refer to the [API References](https://docs.intersoftsapient.net/reference/put_v4-shipments-status) section.*
 
-<Accordion title="How to Release a Shipment in SAPIENT" icon="unlock">
+To release a shipment in SAPIENT, follow the steps as explained in the following procedure.
 
 1. In the side navigation panel, select the **Shipment Processing** > **Held** option.
 
@@ -38,9 +43,7 @@ In SAPIENT, you can anytime release the [held](https://docs.intersoftsapient.net
 
 <Image align="center" alt="Confirming shipment recalling" border={true} caption="Confirming shipment release" src="https://files.readme.io/6357a15bc67e4c76c3e37aca5da2842b7bdb395cf3c3ce8fa6e6bd16bba7a751-Confirming_shipment_release.png" width="350px" />
 
-4. Once confirmed, the shipment(s) is removed from the **Held Shipments** list and goes back to its previous status and is included in the next manifest.
-
-</Accordion>
+3. Once confirmed, the shipment(s) is removed from the **Held Shipments** list and goes back to its previous status and is included in the next manifest.
 
 > 💡 *Tip*
 >
