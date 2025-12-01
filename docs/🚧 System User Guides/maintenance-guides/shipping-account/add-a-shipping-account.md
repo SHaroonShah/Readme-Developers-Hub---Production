@@ -120,10 +120,9 @@ In SAPIENT, you can create a shipping account, assign your <Glossary>carrier</Gl
 
         In the **CARRIER DETAILS** block, complete the carrier-specific fields.
 
-        <Callout icon="💡" theme="info">
-          ###*Important*
-*The fields in this section vary depending on your selected carrier. Each carrier has unique requirements and authentication methods. To get more information on how to fill the fields in this block, refer to the [carrier specific guides](https://docs.intersoftsapient.net/docs/carrier-specific-user-guides) section.*
-        </Callout>
+        > 🚧 _Important_
+>
+> _The fields in this section vary depending on your selected carrier. Each carrier has unique requirements and authentication methods. To get more information on how to fill the fields in this block, refer to the[carrier specific guides](https://docs.intersoftsapient.net/docs/carrier-specific-user-guides) section._
 
         <br />
 
@@ -156,3 +155,7 @@ In SAPIENT, you can create a shipping account, assign your <Glossary>carrier</Gl
   * Configure additional carrier settings
   * Test your account in the sandbox environment before going live
 </Accordion>
+
+
+
+<br />
