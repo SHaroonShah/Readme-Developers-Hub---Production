@@ -122,7 +122,7 @@ In SAPIENT, you can create a shipping account, assign your <Glossary>carrier</Gl
 
         > 🚧 _Important_
 >
-> _The fields in this section vary depending on your selected carrier. Each carrier has unique requirements and authentication methods. To get more information on how to fill the fields in this block, refer to the[carrier specific guides](https://docs.intersoftsapient.net/docs/carrier-specific-user-guides) section._
+> _The fields in this section vary depending on your selected carrier. Each carrier has unique requirements and authentication methods. To get more information on how to fill the fields in this block, refer to the [carrier specific guides](https://docs.intersoftsapient.net/docs/carrier-specific-user-guides) section._
 
         <br />
 
