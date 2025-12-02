@@ -1,4 +1,4 @@
 ---
-title: /new-endpoint
+title: Shipments
 hidden: false
 ---
