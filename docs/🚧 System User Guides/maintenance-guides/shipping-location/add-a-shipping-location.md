@@ -133,12 +133,12 @@ To add a new shipping location in SAPIENT, follow the instructions as described 
 ### See also
 
 <Cards columns="3">
-  
   <Card title="Edit Location" href="https://docs.intersoftsapient.net/docs/edit-shipping-location" icon="fa-solid fa-edit">
     Modify existing shipping location details and settings.
   </Card>
-<Card title="Link Location to Shipping Account" href="https://docs.intersoftsapient.net/docs/add-a-shipping-location" icon="Fa- solid fa-link">
-    Learn how to link a shipping location with an existing shipping account in your system.
+
+  <Card title="Link Location to Shipping Account" href="https://docs.intersoftsapient.net/docs/add-a-shipping-location" icon="Fa- solid fa-link">
+    Learn how to link a shipping location with an existing shipping account.
   </Card>
 
   <Card title="Delete Location" href="https://docs.intersoftsapient.net/docs/delete-shipping-location" icon="fa-solid fa-trash-alt">
