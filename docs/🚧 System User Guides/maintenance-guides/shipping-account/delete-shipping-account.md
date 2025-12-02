@@ -91,20 +91,22 @@ Deleting the <Glossary>shipping account</Glossary> that is no longer required is
     </ToggleList>
   </Tab>
 
-  <Tab title="Add via API">
+  <Tab title="Delete via API">
     <br />
 
-    To add a shipping account via our API, refer to the following endpoint:
+    To delete a shipping account via our API, refer to the following endpoint:
 
     <Cards>
-      <Card title="Add Account" href="https://docs.intersoftsapient.net/reference/post_v4-shippingaccounts-rm#/" icon="fa-solid fa-code">
+      <Card title="Delete Account" href="https://docs.intersoftsapient.net/reference/delete_v4-shippingaccounts-carriercode-shippingaccountid#/" icon="fa-solid fa-code">
         Complete API reference for adding shipments
       </Card>
     </Cards>
   </Tab>
 </Tabs>
 
-## See also
+***
+
+### See also
 
 <Cards>
   <Card title="Add shipping account" href="https://docs.intersoftsapient.net/docs/add-a-shipping-account" icon="fa-solid fa-plus">
