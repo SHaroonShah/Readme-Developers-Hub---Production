@@ -5,4 +5,6 @@ api:
   file: my-api.json
   operationId: get_new-endpoint
 hidden: false
+link:
+  new_tab: false
 ---
