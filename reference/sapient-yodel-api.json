@@ -9,9 +9,6 @@
       "altText": "ReDoc"
     }
   },
-  "x-readme": {
-    "explorer-enabled": false
-  },
   "servers": [
     {
       "url": "https://api.intersoftsapient.net/",
@@ -99,7 +96,7 @@
                       "ContractNumber": "1511116",
                       "ScheduleNumber": "0001",
                       "LastUpdatedBy": "User A",
-                      "LastUpdatedDateUtc": "2025-09-17T08:52:51.585Z"
+                      "LastUpdatedDateUtc": "2025-10-29T09:07:52.485Z"
                     },
                     {
                       "ShippingAccountId": "46d58272-5f6a-405d-a947-c46c9caea56f",
@@ -114,7 +111,7 @@
                       "ContractNumber": "1511117",
                       "ScheduleNumber": "0002",
                       "LastUpdatedBy": "User B",
-                      "LastUpdatedDateUtc": "2025-09-17T08:52:51.585Z"
+                      "LastUpdatedDateUtc": "2025-10-29T09:07:52.485Z"
                     }
                   ],
                   "TotalCount": 2
@@ -190,7 +187,7 @@
                     "MeterNumber": "35111",
                     "ShippingLocations": [
                       {
-                        "ShippingLocationId": "e568c7ce-d059-4912-84c5-c0cf51cdea9d"
+                        "ShippingLocationId": "bac11afb-e888-4abd-8348-a1a8e8cd5ce2"
                       }
                     ]
                   }
@@ -323,7 +320,7 @@
                   "ContractNumber": "1511116",
                   "ScheduleNumber": "0001",
                   "LastUpdatedBy": "User A",
-                  "LastUpdatedDateUtc": "2025-09-17T08:52:51.905Z"
+                  "LastUpdatedDateUtc": "2025-10-29T09:07:52.952Z"
                 }
               }
             }
@@ -710,12 +707,12 @@
                       "ContentType": "NDX",
                       "ServiceCode": "1CN",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2025-09-17",
+                      "ShipmentDate": "2025-10-29",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "90c40a92-c0f8-4e14-9001-f3c9c0737910",
+                      "ShippingAccountId": "f3f13626-4803-430a-b266-9234dcc9057f",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -753,15 +750,15 @@
                       "ContentType": "NDX",
                       "ServiceCode": "1CN",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2025-09-17",
+                      "ShipmentDate": "2025-10-29",
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM",
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "86fac520-49f3-4819-bc6c-c211d78cb31e",
-                      "ShippingLocationId": "439fab82-4089-41e6-8d8b-59c08998ee0d",
+                      "ShippingAccountId": "25eb05df-2637-4777-b398-5b8e183a66ae",
+                      "ShippingLocationId": "24abd65f-61d6-4460-9eae-97e15ce35776",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -850,14 +847,14 @@
                       "ContentType": "NDX",
                       "ServiceCode": "1CEN",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2025-09-17",
+                      "ShipmentDate": "2025-10-29",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "64972852-82f9-4fb1-9932-781e40e6f058",
+                      "ShippingAccountId": "b3f0349a-445e-4807-b32c-4d4cfd6feea3",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -920,7 +917,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "1CEN",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2025-09-17",
+                      "ShipmentDate": "2025-10-29",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
@@ -928,8 +925,8 @@
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "2736dc1e-b231-452f-9503-6ebb59251148",
-                      "ShippingLocationId": "f7a6bde7-0ae2-43fe-824f-ebc348778abb",
+                      "ShippingAccountId": "a5ee28b3-3ad1-467a-b910-25be565f9e23",
+                      "ShippingLocationId": "a52caef8-4e66-4b5b-9ac1-b512e51a2193",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -1003,7 +1000,7 @@
                       "OtherCharges": 32,
                       "QuotedLandedCost": 82.74,
                       "InvoiceNumber": "INV-12345",
-                      "InvoiceDate": "2025-09-17",
+                      "InvoiceDate": "2025-10-29",
                       "ExportLicenceRequired": false,
                       "Airn": "231.002.999-00"
                     },
@@ -1031,12 +1028,12 @@
                       "ContentType": "NDX",
                       "ServiceCode": "1CN",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2025-09-17",
+                      "ShipmentDate": "2025-10-29",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "2cb9932f-b659-4ff2-b823-57a23d3dbd8a",
+                      "ShippingAccountId": "9b73c2e8-1e32-4c38-a232-7b8f65b993d8",
                       "Reference1": "OrderRef56",
                       "Address": {
                         "AddressId": "John Brown Default"
@@ -1081,7 +1078,7 @@
                     "value": {
                       "Packages": [
                         {
-                          "ShipmentId": "eb1566cb-2999-4468-af79-0991522925c8",
+                          "ShipmentId": "27bccd84-e339-4b62-99b0-6777375efe10",
                           "PackageOccurrence": 1
                         }
                       ]
@@ -1089,7 +1086,7 @@
                   },
                   "Create - Consignment Shipment": {
                     "value": {
-                      "ConsignmentShipmentId": "02d66088-83ec-4fc2-9cc0-33afc57e7f90",
+                      "ConsignmentShipmentId": "0ee55a99-01a5-4ea5-85f2-8ac63d0c1b85",
                       "Packages": [
                         {
                           "PackageOccurrence": 1
@@ -1101,7 +1098,7 @@
                     "value": {
                       "Packages": [
                         {
-                          "ShipmentId": "cf9d53fe-788b-4640-9908-784e4d93a490",
+                          "ShipmentId": "992bd6a8-6c84-4832-839b-d142cb381640",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "JJD0002234001002147",
                           "CarrierTrackingUrl": "https://www.yodel.co.uk/track?trackNumber=JJD0002234001002147"
@@ -1111,7 +1108,7 @@
                   },
                   "Allocate - Consignment Shipment": {
                     "value": {
-                      "ConsignmentShipmentId": "b990cdc5-adba-439f-b545-604065a905c3",
+                      "ConsignmentShipmentId": "0f0bfe48-06e0-48bd-914c-de0d9bf99fcc",
                       "ConsignmentTrackingNumber": "JJD0002234001002147",
                       "ConsignmentCarrierTrackingUrl": "https://www.yodel.co.uk/track?trackNumber=JJD0002234001002147",
                       "Packages": [
@@ -1129,7 +1126,7 @@
                       "LabelFormat": "PDF",
                       "Packages": [
                         {
-                          "ShipmentId": "750b25cf-7def-4fa3-b5c7-dbf0f49539fe",
+                          "ShipmentId": "92610b8e-c807-4b00-ad86-4345e491de01",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "JJD0002234001002147",
                           "CarrierTrackingUrl": "https://www.yodel.co.uk/track?trackNumber=JJD0002234001002147"
@@ -1139,7 +1136,7 @@
                   },
                   "Process - PDF - Consignment Shipment": {
                     "value": {
-                      "ConsignmentShipmentId": "e2be00c2-2b83-4b17-9917-5f27b67aed43",
+                      "ConsignmentShipmentId": "562ef3f1-5656-4795-8206-8d29e81fe771",
                       "ConsignmentTrackingNumber": "JJD0002234001002147",
                       "ConsignmentCarrierTrackingUrl": "https://www.yodel.co.uk/track?trackNumber=JJD0002234001002147",
                       "Labels": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
@@ -1159,7 +1156,7 @@
                       "LabelFormat": "PNG",
                       "Packages": [
                         {
-                          "ShipmentId": "e0eee618-c302-4ead-bba2-12a8dd7602b0",
+                          "ShipmentId": "efb651a6-afae-4391-aa7d-3606b4d6ed27",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "JJD0002234001002147",
                           "CarrierTrackingUrl": "https://www.yodel.co.uk/track?trackNumber=JJD0002234001002147"
@@ -1169,7 +1166,7 @@
                   },
                   "Process - PNG - Consignment Shipment": {
                     "value": {
-                      "ConsignmentShipmentId": "f16d6d40-c902-43ab-8e6f-3c1bf1aec224",
+                      "ConsignmentShipmentId": "beb22f4b-b05a-4a54-b2bb-d050c29a7151",
                       "ConsignmentTrackingNumber": "JJD0002234001002147",
                       "ConsignmentCarrierTrackingUrl": "https://www.yodel.co.uk/track?trackNumber=JJD0002234001002147",
                       "Labels": "iVBORw0KGgoAAAANSUhEUgAA.....Hj16v8HJtP5+yLszwEAAAAASUVORK5CYII=",
@@ -1271,7 +1268,7 @@
                 "examples": {
                   "PDF": {
                     "value": {
-                      "ShipmentId": "f7640c9c-cae2-4548-8c29-4b9e524aaba0",
+                      "ShipmentId": "2b057b7b-115d-4344-8b15-f0eab486235c",
                       "TrackingNumber": "H03TCA0000000118",
                       "CarrierTrackingUrl": "https://www.yodel.co.uk/track?trackNumber=H03TCA0000000118",
                       "Label": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
@@ -1280,7 +1277,7 @@
                   },
                   "PNG": {
                     "value": {
-                      "ShipmentId": "d194e3ee-4275-41db-8488-cdf617d738fc",
+                      "ShipmentId": "0bb6a392-b50b-4bfe-a059-86e887597cbc",
                       "TrackingNumber": "H03TCA0000000118",
                       "CarrierTrackingUrl": "https://www.yodel.co.uk/track?trackNumber=H03TCA0000000118",
                       "Label": "ëPNG♫◙→◙w0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
@@ -1330,38 +1327,7 @@
           }
         ]
       }
-    },
-    "/new-endpoint": {
-      "post": {
-        "description": "",
-        "operationId": "get_new-endpoint",
-        "responses": {
-          "200": {
-            "description": ""
-          }
-        },
-        "parameters": [],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "type": "object",
-                "properties": {
-                  "name": {
-                    "type": "string",
-                    "description": ""
-                  }
-                },
-                "required": [
-                  "name"
-                ]
-              }
-            }
-          }
-        }
-      }
-    },
-    "/v4/shipments/printLabel/yodel/{shipmentId}-1": {}
+    }
   },
   "components": {
     "schemas": {
@@ -1456,7 +1422,7 @@
           "Line1": {
             "maxLength": 35,
             "type": "string",
-            "description": "The first line of the address, typically containing the primary address information such as house number and street name. <br /><br />***Note:** This information is required if the address is not used from the stored addresses in the **Address Book**.*",
+            "description": "The first line of the address, typically containing the primary address information such as house number and street name. <br/> <br/> ***Note:** Characters like +, /, -, or space are supported.*",
             "nullable": true,
             "example": "Brown Cottage"
           },
@@ -1477,21 +1443,21 @@
           "Town": {
             "maxLength": 35,
             "type": "string",
-            "description": "The town or city, indicating the specific locality where the shipping location is situated. <br /><br />***Note:** This information is required if the address is not used from the stored addresses in the **Address Book**.*",
+            "description": "The town or city, indicating the specific locality where the shipping location is situated. <br/> <br/> ***Note:** This information is required if the address is not used from the stored addresses in the **Address Book**.*",
             "nullable": true,
             "example": "Christchurch"
           },
           "Postcode": {
             "maxLength": 9,
             "type": "string",
-            "description": "The postal or ZIP code corresponding to the shipping location, used for mail sorting and to identify specific geographic areas. <br /><br />***Note:** This information is required for the addresses in the UK and a for some outside it. To check for the postcode requirements, refer to the **Countries** API.*",
+            "description": "The postal or ZIP code corresponding to the shipping location, used for mail sorting and to identify specific geographic areas.<br/> <br/> ***Note:** This information is only required for the addresses in the UK and for some outside it. To check for the postcode requirements, refer to the **Countries** API.*",
             "nullable": true,
             "example": "TW20 0HJ"
           },
           "County": {
             "maxLength": 35,
             "type": "string",
-            "description": "The county, state, or province in which the shipping location resides, providing additional geographical context for the address.<br /> <br />***Note:** This information may be required depending on the country. If the country is USA, Australia, or Canada, then it must be a valid state code or name, respectively. To check for the county/state/province requirements, refer to the **Countries** API.*",
+            "description": "The county, state, or province in which the shipping location resides, providing additional geographical context for the address.<br/> <br/> ***Note:** This information may be required depending on the country. If the country is USA, Australia, or Canada, then it must be a valid state code or name, respectively. To check for the county/state/province requirements, refer to the **Countries** API.*",
             "nullable": true,
             "example": "Surrey"
           },
@@ -1499,7 +1465,7 @@
             "maxLength": 2,
             "minLength": 2,
             "type": "string",
-            "description": "An abbreviation representing the country of the shipping location, typically following the ISO 3166-1 alpha-2 standard, for example,  \"GB\" for the United Kingdom.\r<br />\r<br />***Note:** This information is required if the address is not used from the stored addresses in the **Address Book**.*",
+            "description": "An abbreviation representing the country of the shipping location, typically following the ISO 3166-1 alpha-2 standard, for example,  \"GB\" for the United Kingdom.\r<br />\r<br />***Note**: This information is required if the address is not used from the stored addresses in the **Address Book***",
             "nullable": true,
             "example": "GB"
           },
@@ -1538,7 +1504,7 @@
           "HV"
         ],
         "type": "string",
-        "description": "Defines the type of contents being shipped. This helps the carrier manage the shipment according to its content type.\r<br />\r<br />Valid values are:\r<br />            \r<br />**NDX** - Non Documents\r<br />**DOX** - Documents\r<br />**HV** - Non Documents of High Value"
+        "description": "Defines the type of contents being shipped. This helps the carrier manage the shipment according to its content type.\r<br />\r<br />Valid values are: <br />\r<br />**NDX** (Non Documents)\r<br />**DOX** (Documents)\r<br />**HV** (Non Documents of High Value)"
       },
       "CreateShipmentAction": {
         "enum": [
@@ -1565,7 +1531,7 @@
           "PreRegistrationNumber": {
             "maxLength": 50,
             "type": "string",
-            "description": "A number for tax pre-registration in countries where required for compliance during DDU shipments.  \r<br />\r<br />If applicable, this number is required for countries operating a Tax Pre-Registration scheme(for example, VOEC in Norway, GST in Australia) when shipping under DDU Incoterms.If not provided and DDU is specified, any pre-registration numbers configured in the Customs Settings GUI for the account will be used.\r<br />\r<br />***Note:** VAT and EORI numbers should be provided in the Shipper and receiver **VatNumber** and **EoriNumber** fields, not in this field.*",
+            "description": "A number for tax pre-registration in countries where required for compliance during DDU shipments.<br />\r<br />If applicable, this number is required for countries operating a Tax Pre-Registration scheme(for example, VOEC in Norway, GST in Australia) when shipping under DDU Incoterms.If not provided and DDU is specified, any pre-registration numbers configured in the Customs Settings GUI for the account will be used.\r<br />\r<br />***Note:** VAT and EORI numbers should be provided in the Shipper and receiver **VatNumber** and **EoriNumber** fields, not in this field.*",
             "nullable": true,
             "example": "0123456789"
           },
@@ -1641,14 +1607,14 @@
           "EoriNumber": {
             "maxLength": 17,
             "type": "string",
-            "description": "The EORI (Economic Operators Registration and Identification) number for the receiver, which must start with the ISO Alpha-2 Country Code followed by up to 15 alphanumeric characters. For Northern Ireland, it starts with XI. \r<br />\r<br />***Note:** Make sure to provide this information here—not in the Customs object.*",
+            "description": "The EORI (Economic Operators Registration and Identification) number for the receiver, which must start with the ISO Alpha-2 Country Code followed by up to 15 alphanumeric characters. For Northern Ireland, it starts with XI. \r<br />\r<br />***Note:** Make sure to provide this information here—not in the **Customs** object.*",
             "nullable": true,
             "example": "GB 123 4567 89 000"
           },
           "VatNumber": {
             "maxLength": 15,
             "type": "string",
-            "description": "The VAT (Value Added Tax) number for the receiver, which, if applicable, is used for tax compliance. \r<br />\r<br />***Note:** Make sure to provide this information here—not in the Customs object.*",
+            "description": "The VAT (Value Added Tax) number for the receiver, which, if applicable, is used for tax compliance. \r<br />\r<br />***Note:** Make sure to provide this information here—not in the **Customs** object.*",
             "nullable": true,
             "example": "GB 123 4567 89"
           },
@@ -1665,7 +1631,7 @@
           "AddressId": {
             "maxLength": 70,
             "type": "string",
-            "description": "A unique identifier for the address. This information ensures that each address can be distinctly referenced and managed within the system.\r<br />\r<br />***Note:**  If this information is provided, then all the fields under the Address object are ignored and the stored address in the Address Book will be used.*",
+            "description": "A unique identifier for the address. This information ensures that each address can be distinctly referenced and managed within the system.\r<br />\r<br />***Note:**  If this information is provided, then all the fields under the **Address** object are ignored and the stored address in the **Address Book** will be used.*",
             "nullable": true,
             "example": "John Brown Default"
           },
@@ -1707,7 +1673,7 @@
           "Line1": {
             "maxLength": 35,
             "type": "string",
-            "description": "The first line of the address, typically containing the primary address information such as house number and street name. <br /><br />***Note:** This information is required if the address is not used from the stored addresses in the **Address Book**.*",
+            "description": "The first line of the address, typically containing the primary address information such as house number and street name. <br/> <br/> ***Note:** Characters like +, /, -, or space are supported.*",
             "nullable": true,
             "example": "Brown Cottage"
           },
@@ -1728,21 +1694,21 @@
           "Town": {
             "maxLength": 35,
             "type": "string",
-            "description": "The town or city, indicating the specific locality where the shipping location is situated. <br /><br />***Note:** This information is required if the address is not used from the stored addresses in the **Address Book**.*",
+            "description": "The town or city, indicating the specific locality where the shipping location is situated. <br/> <br/> ***Note:** This information is required if the address is not used from the stored addresses in the **Address Book**.*",
             "nullable": true,
             "example": "Christchurch"
           },
           "Postcode": {
             "maxLength": 9,
             "type": "string",
-            "description": "The postal or ZIP code corresponding to the shipping location, used for mail sorting and to identify specific geographic areas. <br /><br />***Note:** This information is required for the addresses in the UK and a for some outside it. To check for the postcode requirements, refer to the **Countries** API.*",
+            "description": "The postal or ZIP code corresponding to the shipping location, used for mail sorting and to identify specific geographic areas.<br/> <br/> ***Note:** This information is only required for the addresses in the UK and for some outside it. To check for the postcode requirements, refer to the **Countries** API.*",
             "nullable": true,
             "example": "TW20 0HJ"
           },
           "County": {
             "maxLength": 35,
             "type": "string",
-            "description": "The county, state, or province in which the shipping location resides, providing additional geographical context for the address.<br /> <br />***Note:** This information may be required depending on the country. If the country is USA, Australia, or Canada, then it must be a valid state code or name, respectively. To check for the county/state/province requirements, refer to the **Countries** API.*",
+            "description": "The county, state, or province in which the shipping location resides, providing additional geographical context for the address.<br/> <br/> ***Note:** This information may be required depending on the country. If the country is USA, Australia, or Canada, then it must be a valid state code or name, respectively. To check for the county/state/province requirements, refer to the **Countries** API.*",
             "nullable": true,
             "example": "Surrey"
           },
@@ -1750,7 +1716,7 @@
             "maxLength": 2,
             "minLength": 2,
             "type": "string",
-            "description": "An abbreviation representing the country of the shipping location, typically following the ISO 3166-1 alpha-2 standard, for example,  \"GB\" for the United Kingdom.\r<br />\r<br />***Note:** This information is required if the address is not used from the stored addresses in the **Address Book**.*",
+            "description": "An abbreviation representing the country of the shipping location, typically following the ISO 3166-1 alpha-2 standard, for example,  \"GB\" for the United Kingdom.\r<br />\r<br />***Note**: This information is required if the address is not used from the stored addresses in the **Address Book***",
             "nullable": true,
             "example": "GB"
           },
@@ -1972,7 +1938,7 @@
           "Description": {
             "maxLength": 255,
             "type": "string",
-            "description": "A brief summary providing details about the specifc item being shipped, outlining its type, features, uses, and any pertinent information that helps users understand the item, such as 'skirt' instead of 'ladies clothing.'\r<br />\r<br />***Note:* This information is mandatory for dutiable shipments unless a SKU Code of a stored product is provided.If a SKU Code of a stored product is present and this field is left blank, it will be automatically populated from the stored product; if both are provided, the input in this field takes precedence.*",
+            "description": "A brief summary providing details about the specifc item being shipped, outlining its type, features, uses, and any pertinent information that helps users understand the item, such as 'skirt' instead of 'ladies clothing.'\r<br />\r<br />***Note:** This information is mandatory for dutiable shipments unless a SKU Code of a stored product is provided.If a SKU Code of a stored product is present and this field is left blank, it will be automatically populated from the stored product; if both are provided, the input in this field takes precedence.*",
             "nullable": true,
             "example": "White Tee-shirt"
           },
@@ -2055,9 +2021,8 @@
           },
           "Labels": {
             "type": "string",
-            "description": "Returns the generated shipping labels for the shipment. This field is populated only if the requested action was \"Process.\" The labels include the necessary barcodes and shipping information  required for effective transit and delivery of the packages. \r<br />\r<br />***Note:** This field has the following reservations:\r<br /><ul><li>This field returns the labels only if the **ReturnLabelsAtPackageLevel** field is set to false.</li><li>In addition to the shipping label, this field also returns the ID8000 label for Class 9 hazardous products—provided that the **PrintId8000Label** field in the request parameters is set to true.*</li></ul>",
-            "nullable": true,
-            "example": "iVBORw0KGgoAAAANSUhEUgAA ... A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4"
+            "description": "<br>Returns the generated shipping labels for the shipment. This field is populated only if the requested action was \"Process.\" The labels include the necessary barcodes and shipping information  required for effective transit and delivery of the packages.<br/><br/>***Note:** This field has the following reservations:* <br/><ul><li>This field returns the labels only if the **ReturnLabelsAtPackageLevel** field is set to false.</li></ul>",
+            "nullable": true
           },
           "LabelFormat": {
             "$ref": "#/components/schemas/LabelFormat"
@@ -2163,7 +2128,7 @@
           },
           "ShipmentDate": {
             "type": "string",
-            "description": "The scheduled date for the shipment to be shipped, which cannot be in the past and must not exceed 28 days into the future. If omitted, it defaults to the current date.\r<br />\r<br />*The shipment date must be in the YYYY-MM-DD format.*",
+            "description": "The scheduled date for the shipment to be shipped, which cannot be in the past and must not exceed 28 days into the future. If omitted, it defaults to the current date.",
             "format": "date",
             "nullable": true
           },
@@ -2200,7 +2165,7 @@
           },
           "ContainerId": {
             "type": "string",
-            "description": "A unique identifier assigned by the system to the container in a shipment, so that the shipment can be added to the existing container when the shipment is created.\r<br />\r<br />If a valid **ContainerId** is specified, the shipments in the request will be automatically allocated to that container upon creation.If the **ContainerId** is provided, then the **Process** action is required.  \r<br />\r<br />***Note:** The container must already exist for the same Carrier and Shipping Location as the shipment.*",
+            "description": "A unique identifier assigned by the system to the container in a shipment, so that the shipment can be added to the existing container when the shipment is created.\r<br />\r<br />If a valid **ContainerId** is specified, the shipments in the request will be automatically allocated to that container upon creation.If the **ContainerId** is provided, then the **Process** action is required.<br /> \r<br />***Note:** The container must already exist for the same Carrier and Shipping Location as the shipment.*",
             "nullable": true,
             "example": "South East"
           }
@@ -2304,7 +2269,7 @@
           "AddressId": {
             "maxLength": 70,
             "type": "string",
-            "description": "A unique identifier for the address. This information ensures that each address can be distinctly referenced and managed within the system.\r<br />\r<br />***Note:**  If this information is provided, then all the fields under the Address object are ignored and the stored address in the Address Book will be used.*",
+            "description": "A unique identifier for the address. This information ensures that each address can be distinctly referenced and managed within the system.\r<br />\r<br />***Note:**  If this information is provided, then all the fields under the **Address** object are ignored and the stored address in the **Address Book** will be used.*",
             "nullable": true,
             "example": "John Brown Default"
           },
@@ -2346,7 +2311,7 @@
           "Line1": {
             "maxLength": 35,
             "type": "string",
-            "description": "The first line of the address, typically containing the primary address information such as house number and street name. <br /><br />***Note:** This information is required if the address is not used from the stored addresses in the **Address Book**.*",
+            "description": "The first line of the address, typically containing the primary address information such as house number and street name. <br/> <br/> ***Note:** Characters like +, /, -, or space are supported.*",
             "nullable": true,
             "example": "Brown Cottage"
           },
@@ -2367,21 +2332,21 @@
           "Town": {
             "maxLength": 35,
             "type": "string",
-            "description": "The town or city, indicating the specific locality where the shipping location is situated. <br /><br />***Note:** This information is required if the address is not used from the stored addresses in the **Address Book**.*",
+            "description": "The town or city, indicating the specific locality where the shipping location is situated. <br/> <br/> ***Note:** This information is required if the address is not used from the stored addresses in the **Address Book**.*",
             "nullable": true,
             "example": "Christchurch"
           },
           "Postcode": {
             "maxLength": 9,
             "type": "string",
-            "description": "The postal or ZIP code corresponding to the shipping location, used for mail sorting and to identify specific geographic areas. <br /><br />***Note:** This information is required for the addresses in the UK and a for some outside it. To check for the postcode requirements, refer to the **Countries** API.*",
+            "description": "The postal or ZIP code corresponding to the shipping location, used for mail sorting and to identify specific geographic areas.<br/> <br/> ***Note:** This information is only required for the addresses in the UK and for some outside it. To check for the postcode requirements, refer to the **Countries** API.*",
             "nullable": true,
             "example": "TW20 0HJ"
           },
           "County": {
             "maxLength": 35,
             "type": "string",
-            "description": "The county, state, or province in which the shipping location resides, providing additional geographical context for the address.<br /> <br />***Note:** This information may be required depending on the country. If the country is USA, Australia, or Canada, then it must be a valid state code or name, respectively. To check for the county/state/province requirements, refer to the **Countries** API.*",
+            "description": "The county, state, or province in which the shipping location resides, providing additional geographical context for the address.<br/> <br/> ***Note:** This information may be required depending on the country. If the country is USA, Australia, or Canada, then it must be a valid state code or name, respectively. To check for the county/state/province requirements, refer to the **Countries** API.*",
             "nullable": true,
             "example": "Surrey"
           },
@@ -2389,7 +2354,7 @@
             "maxLength": 2,
             "minLength": 2,
             "type": "string",
-            "description": "An abbreviation representing the country of the shipping location, typically following the ISO 3166-1 alpha-2 standard, for example,  \"GB\" for the United Kingdom.\r<br />\r<br />***Note:** This information is required if the address is not used from the stored addresses in the **Address Book**.*",
+            "description": "An abbreviation representing the country of the shipping location, typically following the ISO 3166-1 alpha-2 standard, for example,  \"GB\" for the United Kingdom.\r<br />\r<br />***Note**: This information is required if the address is not used from the stored addresses in the **Address Book***",
             "nullable": true,
             "example": "GB"
           },
@@ -2401,7 +2366,7 @@
           }
         },
         "additionalProperties": false,
-        "description": "Return To Sender address and contact details."
+        "description": "The complete address of the return to sender location, consisting of multiple components including street information, locality, and so on."
       },
       "Shipper": {
         "required": [
@@ -2471,7 +2436,7 @@
           "AddressId": {
             "maxLength": 70,
             "type": "string",
-            "description": "A unique identifier for the address. This information ensures that each address can be distinctly referenced and managed within the system.\r<br />\r<br />***Note:**  If this information is provided, then all the fields under the Address object are ignored and the stored address in the Address Book will be used.*",
+            "description": "A unique identifier for the address. This information ensures that each address can be distinctly referenced and managed within the system.\r<br />\r<br />***Note:**  If this information is provided, then all the fields under the **Address** object are ignored and the stored address in the **Address Book** will be used.*",
             "nullable": true,
             "example": "John Brown Default"
           },
@@ -2513,7 +2478,7 @@
           "Line1": {
             "maxLength": 35,
             "type": "string",
-            "description": "The first line of the address, typically containing the primary address information such as house number and street name. <br /><br />***Note:** This information is required if the address is not used from the stored addresses in the **Address Book**.*",
+            "description": "The first line of the address, typically containing the primary address information such as house number and street name. <br/> <br/> ***Note:** Characters like +, /, -, or space are supported.*",
             "nullable": true,
             "example": "Brown Cottage"
           },
@@ -2534,21 +2499,21 @@
           "Town": {
             "maxLength": 35,
             "type": "string",
-            "description": "The town or city, indicating the specific locality where the shipping location is situated. <br /><br />***Note:** This information is required if the address is not used from the stored addresses in the **Address Book**.*",
+            "description": "The town or city, indicating the specific locality where the shipping location is situated. <br/> <br/> ***Note:** This information is required if the address is not used from the stored addresses in the **Address Book**.*",
             "nullable": true,
             "example": "Christchurch"
           },
           "Postcode": {
             "maxLength": 9,
             "type": "string",
-            "description": "The postal or ZIP code corresponding to the shipping location, used for mail sorting and to identify specific geographic areas. <br /><br />***Note:** This information is required for the addresses in the UK and a for some outside it. To check for the postcode requirements, refer to the **Countries** API.*",
+            "description": "The postal or ZIP code corresponding to the shipping location, used for mail sorting and to identify specific geographic areas.<br/> <br/> ***Note:** This information is only required for the addresses in the UK and for some outside it. To check for the postcode requirements, refer to the **Countries** API.*",
             "nullable": true,
             "example": "TW20 0HJ"
           },
           "County": {
             "maxLength": 35,
             "type": "string",
-            "description": "The county, state, or province in which the shipping location resides, providing additional geographical context for the address.<br /> <br />***Note:** This information may be required depending on the country. If the country is USA, Australia, or Canada, then it must be a valid state code or name, respectively. To check for the county/state/province requirements, refer to the **Countries** API.*",
+            "description": "The county, state, or province in which the shipping location resides, providing additional geographical context for the address.<br/> <br/> ***Note:** This information may be required depending on the country. If the country is USA, Australia, or Canada, then it must be a valid state code or name, respectively. To check for the county/state/province requirements, refer to the **Countries** API.*",
             "nullable": true,
             "example": "Surrey"
           },
@@ -2642,7 +2607,7 @@
           "Line1": {
             "maxLength": 35,
             "type": "string",
-            "description": "The first line of the address, typically containing the primary address information such as house number and street name. <br /><br />***Note:** This information is required if the address is not used from the stored addresses in the **Address Book**.*",
+            "description": "The first line of the address, typically containing the primary address information such as house number and street name. <br/> <br/> ***Note:** Characters like +, /, -, or space are supported.*",
             "nullable": true,
             "example": "Brown Cottage"
           },
@@ -2663,21 +2628,21 @@
           "Town": {
             "maxLength": 35,
             "type": "string",
-            "description": "The town or city, indicating the specific locality where the shipping location is situated. <br /><br />***Note:** This information is required if the address is not used from the stored addresses in the **Address Book**.*",
+            "description": "The town or city, indicating the specific locality where the shipping location is situated. <br/> <br/> ***Note:** This information is required if the address is not used from the stored addresses in the **Address Book**.*",
             "nullable": true,
             "example": "Christchurch"
           },
           "Postcode": {
             "maxLength": 9,
             "type": "string",
-            "description": "The postal or ZIP code corresponding to the shipping location, used for mail sorting and to identify specific geographic areas. <br /><br />***Note:** This information is required for the addresses in the UK and a for some outside it. To check for the postcode requirements, refer to the **Countries** API.*",
+            "description": "The postal or ZIP code corresponding to the shipping location, used for mail sorting and to identify specific geographic areas.<br/> <br/> ***Note:** This information is only required for the addresses in the UK and for some outside it. To check for the postcode requirements, refer to the **Countries** API.*",
             "nullable": true,
             "example": "TW20 0HJ"
           },
           "County": {
             "maxLength": 35,
             "type": "string",
-            "description": "The county, state, or province in which the shipping location resides, providing additional geographical context for the address.<br /> <br />***Note:** This information may be required depending on the country. If the country is USA, Australia, or Canada, then it must be a valid state code or name, respectively. To check for the county/state/province requirements, refer to the **Countries** API.*",
+            "description": "The county, state, or province in which the shipping location resides, providing additional geographical context for the address.<br/> <br/> ***Note:** This information may be required depending on the country. If the country is USA, Australia, or Canada, then it must be a valid state code or name, respectively. To check for the county/state/province requirements, refer to the **Countries** API.*",
             "nullable": true,
             "example": "Surrey"
           },
@@ -2685,7 +2650,7 @@
             "maxLength": 2,
             "minLength": 2,
             "type": "string",
-            "description": "An abbreviation representing the country of the shipping location, typically following the ISO 3166-1 alpha-2 standard, for example,  \"GB\" for the United Kingdom.\r<br />\r<br />***Note:** This information is required if the address is not used from the stored addresses in the **Address Book**.*",
+            "description": "An abbreviation representing the country of the shipping location, typically following the ISO 3166-1 alpha-2 standard, for example,  \"GB\" for the United Kingdom.\r<br />\r<br />***Note**: This information is required if the address is not used from the stored addresses in the **Address Book***",
             "nullable": true,
             "example": "GB"
           },
@@ -2821,7 +2786,7 @@
           "Grams"
         ],
         "type": "string",
-        "description": " The unit of measure used for all weight values in the shipment, expressed in grams and kilograms, for example, DeclaredWeight, ItemWeight. This is crucial for accurately describing shipment weight.\r<br /> \r<br />***Note:** By default, this field is set to KG.*"
+        "description": " The unit of measure used for all weight values in the shipment, expressed in grams and kilograms, for example, **DeclaredWeight**, **ItemWeight**. This is crucial for accurately describing shipment weight.\r<br /> \r<br />***Note:** By default, this field is set to KG.*"
       },
       "YodelAddShippingAccountRequest": {
         "required": [
@@ -3197,5 +3162,8 @@
       "name": "Shipments",
       "description": "This section provides information relating to creating Yodel shipments, printing shipping labels, the customs documentation."
     }
-  ]
+  ],
+  "x-readme": {
+    "explorer-enabled": false
+  }
 }
