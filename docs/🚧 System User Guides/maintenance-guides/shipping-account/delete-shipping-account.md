@@ -98,7 +98,7 @@ Deleting the <Glossary>shipping account</Glossary> that is no longer required is
 
     <Cards>
       <Card title="Delete Account" href="https://docs.intersoftsapient.net/reference/delete_v4-shippingaccounts-carriercode-shippingaccountid#/" icon="fa-solid fa-code">
-        Complete API reference for adding shipments
+        Complete API reference for deleting shipping account
       </Card>
     </Cards>
   </Tab>
