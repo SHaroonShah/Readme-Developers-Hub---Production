@@ -32,7 +32,7 @@ The editing process ensures that the information is current and accurate, which 
 
 ## How to edit shipping account
 
-To edit a shipping account, perform the steps as explained in the following proceudre:
+To edit a shipping account, perform the steps as explained in the following procedure:
 
 <ToggleList>
   <ToggleListItem title={<strong>1. Access the shipping accounts page</strong>} icon="fa-rocket">
