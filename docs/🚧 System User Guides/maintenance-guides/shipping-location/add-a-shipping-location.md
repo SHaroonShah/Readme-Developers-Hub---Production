@@ -18,15 +18,21 @@ The process of adding a <Glossary>shipping location</Glossary> helps in streamli
 
 To add a new shipping location in SAPIENT, follow the instructions as described in the following procedure.
 
+<br />
+
+<br />
+
+<br />
+
 1. Log in to the SAPIENT platform using your credentials.
 
-<Image align="center" className="border" border={true} width="500px" src="https://files.readme.io/c2af709d6dafdead99cae2dfd707cdd74065a776db2a6ad1c641d28c2705d229-Sapient_Login_window.png" />
+<Image align="center" border={true} width="500px" src="https://files.readme.io/c2af709d6dafdead99cae2dfd707cdd74065a776db2a6ad1c641d28c2705d229-Sapient_Login_window.png" className="border" />
 
 2. On the **Home** page that opens, in the left navigation panel, select **Shipping Locations**.
 
 <Image align="center" alt="Accessing shipping locations" border={true} caption="Accessing shipping locations" src="https://files.readme.io/a84f50bafad4110e2244fa56d73b34787cf197d6a4e3de326ad287880d85e835-Shipping_locations_option.png" />
 
-3. On the **Shipping Locations** page that appears, select ![alt text](https://files.readme.io/e50833cb14406497b4c50b5eb8c6997612af96e420fd9930bc45c1c883dd09a0-Add_shipping_location_button.png).
+3. On the **Shipping Locations** page that appears, select ![](https://files.readme.io/e50833cb14406497b4c50b5eb8c6997612af96e420fd9930bc45c1c883dd09a0-Add_shipping_location_button.png).
 
 <Image align="center" alt="Selecting option to add shipping location" border={true} caption="Selecting option to add shipping location" src="https://files.readme.io/6e836d0e0573bdc15c4d746439001e41ccf2631c0e7bb1bc2f38149dee53e9e3-Selecting_add_shipping_location_button.png" />
 
@@ -52,7 +58,7 @@ To add a new shipping location in SAPIENT, follow the instructions as described 
   <tbody>
     <tr>
       <td>
-        **Name / Alias**\*
+        **Name / Alias***
       </td>
 
       <td>
@@ -92,20 +98,20 @@ To add a new shipping location in SAPIENT, follow the instructions as described 
 
 |       Element      | Description                                                                                                                        |
 | :----------------: | :--------------------------------------------------------------------------------------------------------------------------------- |
-|    **Country**\*   | Enter the name of the country where your location is based.                                                                        |
-|    **Address**\*   | Enter the first line of address for your location.                                                                                 |
+|    **Country***    | Enter the name of the country where your location is based.                                                                        |
+|    **Address***    | Enter the first line of address for your location.                                                                                 |
 |    **Address 2**   | Enter the second line of address for your location, if applicable.                                                                 |
 |    **Address 3**   | Enter the third line of address for your location, if applicable.                                                                  |
 | **Contact Number** | Enter the contact number that can be access at the location you are adding.                                                        |
-|     **Town**\*     | Enter the name of the town where your location is based.                                                                           |
+|      **Town***     | Enter the name of the town where your location is based.                                                                           |
 |     **County**     | Enter the name of the county where your location is based.                                                                         |
-|   **Postcode**\*   | Enter the exact post code of the location you are adding.                                                                          |
+|    **Postcode***   | Enter the exact post code of the location you are adding.                                                                          |
 |   **What3Words**   | Enter the  <Glossary>What3words</Glossary> for your location to be able to get identified within the resolution of about 3 meters. |
 
-6. After entering all the relevant information, select ![alt text](https://files.readme.io/656f8ada261afe731847fa985571a318b7e27a15af1b7bb917149489b6f974ef-Add_shipping_location_button_2.png).
+6. After entering all the relevant information, select ![](https://files.readme.io/656f8ada261afe731847fa985571a318b7e27a15af1b7bb917149489b6f974ef-Add_shipping_location_button_2.png).
 
 Once done, a new shipping location is created successfully and appears in the **Shipping Locations** table. You can now manage it as per your business needs.
 
-> 📘 *Note*
+> 📘 _Note_
 >
-> *Shipping locations can be added and managed via API. To learn more on how to add a shipping locations via API, refer to the [API References](https://docs.intersoftsapient.net/reference/post_v4-shippinglocations) section.*
+> _Shipping locations can be added and managed via API. To learn more on how to add a shipping locations via API, refer to the [API References](https://docs.intersoftsapient.net/reference/post_v4-shippinglocations) section._
