@@ -45,37 +45,34 @@
           "content": {
             "application/json": {
               "schema": {
-                "type": "array",
-                "items": {
-                  "type": "object",
-                  "properties": {
-                    "ShipmentInformation": {
-                      "type": "object",
-                      "properties": {
-                        "ShipmentInfo": {
-                          "type": "object",
-                          "properties": {
-                            "Action": {
-                              "type": "string",
-                              "description": "",
-                              "enum": [
-                                "Process",
-                                "Create",
-                                "Allocate"
-                              ],
-                              "default": "Process"
-                            }
-                          },
-                          "description": "Shipment information"
-                        }
-                      },
-                      "description": "Used to **provide** shipment-level _information_ such as service code, content type, general goods description, total shipment weight and value etc."
-                    }
-                  },
-                  "required": [
-                    "ShipmentInformation"
-                  ]
-                }
+                "type": "object",
+                "properties": {
+                  "ShipmentInformation": {
+                    "type": "object",
+                    "properties": {
+                      "ShipmentInfo": {
+                        "type": "object",
+                        "properties": {
+                          "Action": {
+                            "type": "string",
+                            "description": "",
+                            "enum": [
+                              "Process",
+                              "Create",
+                              "Allocate"
+                            ],
+                            "default": "Process"
+                          }
+                        },
+                        "description": "Shipment information"
+                      }
+                    },
+                    "description": "Used to **provide** shipment-level _information_ such as service code, content type, general goods description, total shipment weight and value etc."
+                  }
+                },
+                "required": [
+                  "ShipmentInformation"
+                ]
               }
             }
           }
