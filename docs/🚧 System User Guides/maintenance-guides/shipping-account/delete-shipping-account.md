@@ -78,7 +78,9 @@ Deleting the <Glossary>shipping account</Glossary> that is no longer required is
 
         In the confirmation dialog that appears, select **Yes** to confirm your action.
 
-        <Image align="center" border={true} src="https://files.readme.io/914ca92582b92600a9af9e9237ab6669e325795bab18d4de668c666d6d420606-Confirming_account_deletion.png" width="400px" alt="Confirming account deletion" /><br></br>
+        <Image align="center" border={true} src="https://files.readme.io/914ca92582b92600a9af9e9237ab6669e325795bab18d4de668c666d6d420606-Confirming_account_deletion.png" width="400px" alt="Confirming account deletion" />
+
+        <br />
 
         Once confirmed, the shipping account is deleted successfully and no longer displays in the **Shipping Accounts** list.
 
@@ -89,11 +91,14 @@ Deleting the <Glossary>shipping account</Glossary> that is no longer required is
     </ToggleList>
   </Tab>
 
-  <Tab title="Delete via API">
-    To delete the shipping account via our API, refer to the following endpoint
+  <Tab title="Add via API">
+    <br />
+
+    To add a shipping account via our API, refer to the following endpoint:
+
     <Cards>
-      <Card title="Delete Account" href="https://docs.intersoftsapient.net/reference/delete_v4-shippingaccounts-carriercode-shippingaccountid#/" icon="fa-solid fa-trash">
-        Complete API reference for deleting shipping account
+      <Card title="Add Account" href="https://docs.intersoftsapient.net/reference/post_v4-shippingaccounts-rm#/" icon="fa-solid fa-code">
+        Complete API reference for adding shipments
       </Card>
     </Cards>
   </Tab>
