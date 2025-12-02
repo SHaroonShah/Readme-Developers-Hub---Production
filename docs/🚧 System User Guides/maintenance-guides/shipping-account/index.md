@@ -22,7 +22,7 @@ This centralised system allows you to handle all aspects of your shipping operat
 In this section, learn how to do the following:
 
 <Cards columns="3">
-  <Card title="Add Account" href="https://docs.intersoftsapient.net/docs/add-a-shipping-account" icon="fa-solid fa-plus">
+  <Card title="Add Account" href="https://docs.intersoftsapient.net/docs/add-a-shipping-account" icon="fa-solid fa-plus-circle">
     Set up a new shipping account with your preferred carrier or logistics provider to start processing shipments.
   </Card>
 
