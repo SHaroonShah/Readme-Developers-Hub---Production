@@ -32,7 +32,24 @@
                   "properties": {
                     "ShipmentInformation": {
                       "type": "object",
-                      "properties": {},
+                      "properties": {
+                        "ShipmentInfo": {
+                          "type": "object",
+                          "properties": {
+                            "Action": {
+                              "type": "string",
+                              "description": "Action",
+                              "enum": [
+                                "Process",
+                                "Create",
+                                "Allocate"
+                              ],
+                              "default": "Process"
+                            }
+                          },
+                          "description": "Shipment information"
+                        }
+                      },
                       "description": "Used to _provide_ shipment-level information such as service code, content type, general goods description, total shipment weight and value etc."
                     }
                   },
