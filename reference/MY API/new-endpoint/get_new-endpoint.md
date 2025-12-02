@@ -6,4 +6,4 @@ api:
   operationId: get_new-endpoint
 hidden: false
 ---
-* My shipment
+Used to **provide** shipment-level _information_ such as service code, content type, general goods description, total shipment weight and value etc.
