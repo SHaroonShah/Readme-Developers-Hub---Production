@@ -50,7 +50,7 @@
                           "description": "Shipment information"
                         }
                       },
-                      "description": "Used to _provide_ shipment-level information such as service code, content type, general goods description, total shipment weight and value etc."
+                      "description": "**Used** to _provide_ shipment-level information such as service code, content type, general goods description, total shipment weight and value etc."
                     }
                   },
                   "required": [
