@@ -1332,7 +1332,7 @@
       }
     },
     "/new-endpoint": {
-      "get": {
+      "post": {
         "description": "",
         "operationId": "get_new-endpoint",
         "responses": {
@@ -1340,7 +1340,25 @@
             "description": ""
           }
         },
-        "parameters": []
+        "parameters": [],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string",
+                    "description": ""
+                  }
+                },
+                "required": [
+                  "name"
+                ]
+              }
+            }
+          }
+        }
       }
     }
   },
