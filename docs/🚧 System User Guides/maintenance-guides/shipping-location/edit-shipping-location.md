@@ -89,10 +89,7 @@ In SAPIENT, you can edit the <Glossary>shipping location</Glossary> to enhance c
 
 ### See also
 
-<br />
-
 <Cards columns="2">
-  
   <Card title="Link Location to Shipping Account" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/link-shipping-location-to-existing-shipping-account#/" icon="Fa- solid fa-link">
     Learn how to link a shipping location with an existing shipping account.
   </Card>
