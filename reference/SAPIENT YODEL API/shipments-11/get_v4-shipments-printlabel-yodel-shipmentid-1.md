@@ -6,6 +6,6 @@ excerpt: >-
   in reality. Shipments must be updated to printed status prior to manifesting.
 api:
   file: my-api.json
-  operationId: get_v4-shipments-printlabel-ups-shipmentid
+  operationId: get_v4-shipments-printlabel-yodel-shipmentid
 hidden: false
 ---

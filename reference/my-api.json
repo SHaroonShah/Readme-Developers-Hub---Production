@@ -1,9 +1,9 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "SAPIENT UPS API",
+    "title": "SAPIENT YODEL API",
     "description": "# Introduction\nHere you will find requirements for integrating with INTERSOFT SAPIENT API.\n\nThe documentation specifically covers how the API can be used by business customers to conduct shipping activity with available carriers and provides the technical information to build this integration. The API allows customers to create and manage shipments, produce labels, customs documentation, and collection manifests, retrieve reference data such as carriers and countries, and maintain their own data such as shipping account details.\n\nIntersoft API is a fully RESTful service implemented using JSON messaging. You, as the customer are responsible for sending JSON messages and for maintaining the capability of receiving JSON messages in the format described in this specification. Request and response examples for each API service are included in this specification.\n\n# Authentication\n\nThe INTERSOFT SAPIENT API uses OAuth2 authentication.\n\nTo request the authorization token you need to create API credentials (Client ID and Secret) on the system first. If you have not done it already, log into your account and go to API Credentials or follow the link [add a link here with the path to the API Credentials menu]. Use the credentials to retrieve the authorization token.\n\nNote: Make sure you copy the Secret and keep it secure as you won't be able to view it again on the system.\n\n<!-- ReDoc-Inject: <SecurityDefinitions /> -->\n",
-    "version": "v4.0-UPS",
+    "version": "v4.0-YODEL",
     "x-logo": {
       "url": "/Content/images/redoc-logo.png",
       "altText": "ReDoc"
@@ -16,13 +16,13 @@
     }
   ],
   "paths": {
-    "/v4/shippingAccounts/ups": {
+    "/v4/shippingAccounts/yodel": {
       "get": {
         "tags": [
           "Shipping Accounts"
         ],
         "summary": "Get Accounts",
-        "description": "Provides a list of UPS shipping accounts only.\r<br />Information about the account number, account type, and contact details is included in the response.",
+        "description": "Provides a list of Yodel shipping accounts only.\r<br />Information about the account number, account type, and contact details is included in the response.",
         "parameters": [
           {
             "name": "searchTerm",
@@ -79,37 +79,39 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/UpsShippingAccountNoClientSecretShippingAccountsPagedResponse"
+                  "$ref": "#/components/schemas/YodelShippingAccountShippingAccountsPagedResponse"
                 },
                 "example": {
                   "ShippingAccounts": [
                     {
                       "ShippingAccountId": "c5ad86eb-3547-480e-9249-c52a6b71bc0b",
-                      "CarrierCode": "UPS",
-                      "AccountNumber": "991234",
+                      "CarrierCode": "YODEL",
+                      "AccountNumber": "010857948",
                       "AccountType": "Sandbox",
                       "AccountName": "AB VideoGames",
-                      "AccountAlias": "Ups-9912346902",
+                      "AccountAlias": "Yodel-9912346902",
                       "AccountStatus": "Enabled",
                       "ContactName": "John Smith",
                       "ContactNumber": "0123456789",
-                      "UpsClientId": "ClientId",
+                      "ContractNumber": "1511116",
+                      "ScheduleNumber": "0001",
                       "LastUpdatedBy": "User A",
-                      "LastUpdatedDateUtc": "2025-10-29T09:08:25.424Z"
+                      "LastUpdatedDateUtc": "2025-10-29T09:07:52.485Z"
                     },
                     {
                       "ShippingAccountId": "46d58272-5f6a-405d-a947-c46c9caea56f",
-                      "CarrierCode": "UPS",
-                      "AccountNumber": "991758",
+                      "CarrierCode": "YODEL",
+                      "AccountNumber": "010857949",
                       "AccountType": "Sandbox",
                       "AccountName": "KG Pet Shop",
-                      "AccountAlias": "Ups-9917584966",
+                      "AccountAlias": "Yodel-9917584966",
                       "AccountStatus": "Enabled",
                       "ContactName": "Joan Smith",
                       "ContactNumber": "0123456789",
-                      "UpsClientId": "ClientId",
+                      "ContractNumber": "1511117",
+                      "ScheduleNumber": "0002",
                       "LastUpdatedBy": "User B",
-                      "LastUpdatedDateUtc": "2025-10-29T09:08:25.424Z"
+                      "LastUpdatedDateUtc": "2025-10-29T09:07:52.485Z"
                     }
                   ],
                   "TotalCount": 2
@@ -163,42 +165,44 @@
           "Shipping Accounts"
         ],
         "summary": "Add Account",
-        "description": "Add a shipping account for UPS and link it with an existing shipping location.\r<br />Ensure to have required carrier details ready like UPS account number so that you can use the account for shipping with UPS.",
+        "description": "Add a shipping account for Yodel and link it with an existing shipping location.\r<br />Ensure to have required carrier details ready like Yodel account number so that you can use the account for shipping with Yodel.",
         "requestBody": {
           "description": "Add Shipping Account Request",
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/UpsAddShippingAccountRequest"
+                "$ref": "#/components/schemas/YodelAddShippingAccountRequest"
               },
               "examples": {
                 "Add account to existing location": {
                   "value": {
-                    "AccountNumber": "991234",
+                    "AccountNumber": "010857948",
                     "AccountType": "Sandbox",
                     "AccountName": "AB VideoGames",
-                    "AccountAlias": "Ups-9912346902",
+                    "AccountAlias": "Yodel-9912346902",
                     "ContactName": "John Smith",
                     "ContactNumber": "0123456789",
-                    "UpsClientId": "ClientId",
-                    "UpsClientSecret": "ClientSecret",
+                    "ContractNumber": "1511116",
+                    "ScheduleNumber": "0001",
+                    "MeterNumber": "35111",
                     "ShippingLocations": [
                       {
-                        "ShippingLocationId": "cdcab739-2664-4456-b0d5-1f2cf81b79a3"
+                        "ShippingLocationId": "bac11afb-e888-4abd-8348-a1a8e8cd5ce2"
                       }
                     ]
                   }
                 },
                 "Add account at new location": {
                   "value": {
-                    "AccountNumber": "991234",
+                    "AccountNumber": "010857948",
                     "AccountType": "Sandbox",
                     "AccountName": "AB VideoGames",
-                    "AccountAlias": "Ups-9912346902",
+                    "AccountAlias": "Yodel-9912346902",
                     "ContactName": "John Smith",
                     "ContactNumber": "0123456789",
-                    "UpsClientId": "ClientId",
-                    "UpsClientSecret": "ClientSecret",
+                    "ContractNumber": "1511116",
+                    "ScheduleNumber": "0001",
+                    "MeterNumber": "35111",
                     "ShippingLocations": [
                       {
                         "ShippingLocation": {
@@ -277,13 +281,13 @@
         ]
       }
     },
-    "/v4/shippingAccounts/ups/{shippingAccountId}": {
+    "/v4/shippingAccounts/yodel/{shippingAccountId}": {
       "get": {
         "tags": [
           "Shipping Accounts"
         ],
         "summary": "Get Account",
-        "description": "Provides details for a UPS account.\r<br />Information about the account number, alias, account type, and contact details is included in the response.",
+        "description": "Provides details for a Yodel account.\r<br />Information about the account number, alias, account type, and contact details is included in the response.",
         "parameters": [
           {
             "name": "shippingAccountId",
@@ -301,21 +305,22 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/UpsShippingAccountNoClientSecret"
+                  "$ref": "#/components/schemas/YodelShippingAccount"
                 },
                 "example": {
                   "ShippingAccountId": "c5ad86eb-3547-480e-9249-c52a6b71bc0b",
-                  "CarrierCode": "UPS",
-                  "AccountNumber": "991234",
+                  "CarrierCode": "YODEL",
+                  "AccountNumber": "010857948",
                   "AccountType": "Sandbox",
                   "AccountName": "AB VideoGames",
-                  "AccountAlias": "Ups-9912346902",
+                  "AccountAlias": "Yodel-9912346902",
                   "AccountStatus": "Enabled",
                   "ContactName": "John Smith",
                   "ContactNumber": "0123456789",
-                  "UpsClientId": "ClientId",
+                  "ContractNumber": "1511116",
+                  "ScheduleNumber": "0001",
                   "LastUpdatedBy": "User A",
-                  "LastUpdatedDateUtc": "2025-10-29T09:08:25.911Z"
+                  "LastUpdatedDateUtc": "2025-10-29T09:07:52.952Z"
                 }
               }
             }
@@ -361,17 +366,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/UpsUpdateShippingAccountRequest"
+                "$ref": "#/components/schemas/YodelUpdateShippingAccountRequest"
               },
               "example": {
-                "AccountNumber": "991234",
+                "AccountNumber": "010857948",
                 "AccountType": "Sandbox",
                 "AccountName": "AB VideoGames",
-                "AccountAlias": "Ups-9912346902",
+                "AccountAlias": "Yodel-9912346902",
                 "ContactName": "John Smith",
                 "ContactNumber": "0123456789",
-                "UpsClientId": "ClientId",
-                "UpsClientSecret": "ClientSecret"
+                "ContractNumber": "1511116",
+                "ScheduleNumber": "0001"
               }
             }
           }
@@ -425,13 +430,13 @@
         ]
       }
     },
-    "/v4/shippingAccounts/ups/{shippingAccountId}/linkLocations": {
+    "/v4/shippingAccounts/yodel/{shippingAccountId}/linkLocations": {
       "post": {
         "tags": [
           "Shipping Accounts"
         ],
         "summary": "Link Locations",
-        "description": "Link one or more shipping locations with a UPS shipping account.",
+        "description": "Link one or more shipping locations with a Yodel shipping account.",
         "parameters": [
           {
             "name": "shippingAccountId",
@@ -500,13 +505,13 @@
         ]
       }
     },
-    "/v4/shippingAccounts/ups/{shippingAccountId}/shippingLocations": {
+    "/v4/shippingAccounts/yodel/{shippingAccountId}/shippingLocations": {
       "get": {
         "tags": [
           "Shipping Accounts"
         ],
         "summary": "Get Associated Locations",
-        "description": "Provides a list of all shipping locations associated with a UPS shipping account.",
+        "description": "Provides a list of all shipping locations associated with a Yodel shipping account.",
         "parameters": [
           {
             "name": "shippingAccountId",
@@ -622,13 +627,13 @@
         ]
       }
     },
-    "/v4/shippingAccounts/ups/{shippingAccountId}/shippingLocations/{shippingLocationId}": {
+    "/v4/shippingAccounts/yodel/{shippingAccountId}/shippingLocations/{shippingLocationId}": {
       "get": {
         "tags": [
           "Shipping Accounts"
         ],
         "summary": "Get Associated Location",
-        "description": "Provides information for a specific shipping location linked to a UPS shipping account including location alias, timezone, address, when it was last updated, and by who.",
+        "description": "Provides information for a specific shipping location linked to a Yodel shipping account including location alias, timezone, address, when it was last updated, and by who.",
         "parameters": [
           {
             "name": "shippingAccountId",
@@ -680,19 +685,19 @@
         ]
       }
     },
-    "/v4/shipments/ups": {
+    "/v4/shipments/yodel": {
       "post": {
         "tags": [
           "Shipments"
         ],
         "summary": "Create Shipment",
-        "description": "Create a UPS shipment. This will return an image of the shipping label in ZPL203, PDF or PNG format.",
+        "description": "Create a Yodel shipment. This will return an image of the shipping label in PDF or PNG format.",
         "requestBody": {
           "description": "Shipment Details",
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/UpsShipmentRequestCarrierSpecificsUpsPackageUpsLabelFormatCreateShipmentRequest"
+                "$ref": "#/components/schemas/YodelShipmentRequestCarrierSpecificsPackageDetailsLabelFormatCreateShipmentRequest"
               },
               "examples": {
                 "Domestic - Basic Fields": {
@@ -700,22 +705,20 @@
                     "ShipmentInformation": {
                       "ReturnLabelsAtPackageLevel": false,
                       "ContentType": "NDX",
-                      "ServiceCode": "11",
+                      "ServiceCode": "1CN",
                       "DescriptionOfGoods": "Clothes",
                       "ShipmentDate": "2025-10-29",
-                      "DeclaredWeight": 1.5,
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "856ba79a-f9f6-4a9b-a3af-cadcd97914c9",
+                      "ShippingAccountId": "f3f13626-4803-430a-b266-9234dcc9057f",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
                       "Address": {
                         "ContactPhone": "07123456789",
                         "ContactName": "John Smith",
-                        "CompanyName": "Company",
                         "ContactEmail": "john.smith@example.com",
                         "Line1": "10 Sky Road",
                         "Town": "Woking",
@@ -738,29 +741,24 @@
                 "Domestic - All Fields": {
                   "value": {
                     "CarrierSpecifics": {
-                      "Enhancements": [
-                        {
-                          "Code": "AdultSign"
-                        }
-                      ]
+                      "ContractNumber": "1511116"
                     },
                     "ShipmentInformation": {
                       "Action": "Process",
                       "LabelFormat": "PDF",
                       "ReturnLabelsAtPackageLevel": false,
                       "ContentType": "NDX",
-                      "ServiceCode": "11",
+                      "ServiceCode": "1CN",
                       "DescriptionOfGoods": "Clothes",
                       "ShipmentDate": "2025-10-29",
-                      "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM",
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "5a03c5de-fa6b-43fa-b717-7b2e5a514073",
-                      "ShippingLocationId": "2c13039f-bebc-4295-9133-70af74a9d5fe",
+                      "ShippingAccountId": "25eb05df-2637-4777-b398-5b8e183a66ae",
+                      "ShippingLocationId": "24abd65f-61d6-4460-9eae-97e15ce35776",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -785,7 +783,6 @@
                       "Address": {
                         "ContactPhone": "07123456789",
                         "ContactName": "John Smith",
-                        "CompanyName": "Company",
                         "ContactEmail": "john.smith@example.com",
                         "Line1": "10 Sky Road",
                         "Town": "Woking",
@@ -825,7 +822,22 @@
                         "HSCode": "6110113000",
                         "CountryOfOrigin": "CN"
                       }
-                    ]
+                    ],
+                    "ReturnToSender": {
+                      "Address": {
+                        "ContactPhone": "07723456789",
+                        "ContactName": "Jane Smith",
+                        "CompanyName": "Company & Co.",
+                        "ContactEmail": "email@server.com",
+                        "Line1": "Level 5",
+                        "Line2": "Hashmoore House",
+                        "Line3": "10 Sky Lane",
+                        "Town": "Leatherhead",
+                        "Postcode": "AA34 3AB",
+                        "County": "Surrey",
+                        "CountryCode": "GB"
+                      }
+                    }
                   }
                 },
                 "International - Basic Fields": {
@@ -833,7 +845,7 @@
                     "ShipmentInformation": {
                       "ReturnLabelsAtPackageLevel": false,
                       "ContentType": "NDX",
-                      "ServiceCode": "54",
+                      "ServiceCode": "1CEN",
                       "DescriptionOfGoods": "Clothes",
                       "ShipmentDate": "2025-10-29",
                       "DeclaredWeight": 1.5,
@@ -842,22 +854,18 @@
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "caeb5bb9-02d4-46b3-85af-27708b526090",
-                      "Reference1": "OrderRef56",
-                      "EoriNumber": "GB12345",
-                      "VatNumber": "VA12345"
+                      "ShippingAccountId": "b3f0349a-445e-4807-b32c-4d4cfd6feea3",
+                      "Reference1": "OrderRef56"
                     },
                     "Destination": {
                       "Address": {
                         "ContactPhone": "07123456789",
                         "ContactName": "John Smith",
-                        "CompanyName": "Company",
                         "ContactEmail": "john.smith@example.com",
-                        "Line1": "10 Sky Road",
-                        "Town": "Sydney",
-                        "Postcode": "2000",
-                        "County": "NSW",
-                        "CountryCode": "AU"
+                        "Line1": "1 Clos Morel",
+                        "Town": "St Ouen",
+                        "Postcode": "JE2 3QA",
+                        "CountryCode": "JE"
                       }
                     },
                     "Packages": [
@@ -892,25 +900,22 @@
                     ],
                     "Customs": {
                       "ReasonForExport": "Sale of Goods",
-                      "Incoterms": "DDU"
+                      "Incoterms": "DDU",
+                      "ShippingCharges": 10
                     }
                   }
                 },
                 "International - All Fields": {
                   "value": {
                     "CarrierSpecifics": {
-                      "Enhancements": [
-                        {
-                          "Code": "AdultSign"
-                        }
-                      ]
+                      "ContractNumber": "1511116"
                     },
                     "ShipmentInformation": {
                       "Action": "Process",
                       "LabelFormat": "PDF",
                       "ReturnLabelsAtPackageLevel": false,
                       "ContentType": "NDX",
-                      "ServiceCode": "54",
+                      "ServiceCode": "1CEN",
                       "DescriptionOfGoods": "Clothes",
                       "ShipmentDate": "2025-10-29",
                       "DeclaredWeight": 1.5,
@@ -920,8 +925,8 @@
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "1d8d462d-bc2d-40bf-92d6-db138deae011",
-                      "ShippingLocationId": "e68cf6fc-bf3e-4c91-898d-b2f9fe90878f",
+                      "ShippingAccountId": "a5ee28b3-3ad1-467a-b910-25be565f9e23",
+                      "ShippingLocationId": "a52caef8-4e66-4b5b-9ac1-b512e51a2193",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -946,13 +951,11 @@
                       "Address": {
                         "ContactPhone": "07123456789",
                         "ContactName": "John Smith",
-                        "CompanyName": "Company",
                         "ContactEmail": "john.smith@example.com",
-                        "Line1": "10 Sky Road",
-                        "Town": "Sydney",
-                        "Postcode": "2000",
-                        "County": "NSW",
-                        "CountryCode": "AU"
+                        "Line1": "1 Clos Morel",
+                        "Town": "St Ouen",
+                        "Postcode": "JE2 3QA",
+                        "CountryCode": "JE"
                       }
                     },
                     "Packages": [
@@ -1023,14 +1026,14 @@
                     "ShipmentInformation": {
                       "ReturnLabelsAtPackageLevel": false,
                       "ContentType": "NDX",
-                      "ServiceCode": "11",
+                      "ServiceCode": "1CN",
                       "DescriptionOfGoods": "Clothes",
                       "ShipmentDate": "2025-10-29",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "b9073be9-b366-4818-a48c-d2de822302ce",
+                      "ShippingAccountId": "9b73c2e8-1e32-4c38-a232-7b8f65b993d8",
                       "Reference1": "OrderRef56",
                       "Address": {
                         "AddressId": "John Brown Default"
@@ -1050,7 +1053,12 @@
                           "Height": 20
                         }
                       }
-                    ]
+                    ],
+                    "ReturnToSender": {
+                      "Address": {
+                        "AddressId": "John Brown Default"
+                      }
+                    }
                   }
                 }
               }
@@ -1063,12 +1071,22 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/UpsLabelFormatPackageResponseDetailsCreateShipmentResponse"
+                  "$ref": "#/components/schemas/LabelFormatPackageResponseDetailsCreateShipmentResponse"
                 },
                 "examples": {
-                  "Create": {
+                  "Create - Non-consignment Shipment": {
                     "value": {
-                      "ConsignmentShipmentId": "097d6d6f-f615-4b8f-8e90-1e0b5ca701e5",
+                      "Packages": [
+                        {
+                          "ShipmentId": "27bccd84-e339-4b62-99b0-6777375efe10",
+                          "PackageOccurrence": 1
+                        }
+                      ]
+                    }
+                  },
+                  "Create - Consignment Shipment": {
+                    "value": {
+                      "ConsignmentShipmentId": "0ee55a99-01a5-4ea5-85f2-8ac63d0c1b85",
                       "Packages": [
                         {
                           "PackageOccurrence": 1
@@ -1076,48 +1094,88 @@
                       ]
                     }
                   },
-                  "Allocate": {
+                  "Allocate - Non-consignment Shipment": {
                     "value": {
-                      "ConsignmentShipmentId": "c700eeb1-433d-4222-a6cf-8f201ba273fe",
-                      "ConsignmentTrackingNumber": "H03TCA0000000118",
-                      "ConsignmentCarrierTrackingUrl": "https://onlinetools.ups.com/api/track/v1/details/H03TCA0000000118",
                       "Packages": [
                         {
+                          "ShipmentId": "992bd6a8-6c84-4832-839b-d142cb381640",
                           "PackageOccurrence": 1,
-                          "TrackingNumber": "H03TCA0000000118",
-                          "CarrierTrackingUrl": "https://onlinetools.ups.com/api/track/v1/details/H03TCA0000000118"
+                          "TrackingNumber": "JJD0002234001002147",
+                          "CarrierTrackingUrl": "https://www.yodel.co.uk/track?trackNumber=JJD0002234001002147"
                         }
                       ]
                     }
                   },
-                  "Process - PDF": {
+                  "Allocate - Consignment Shipment": {
                     "value": {
-                      "ConsignmentShipmentId": "4c03f475-3a75-4977-a0cb-552997aea8b4",
-                      "ConsignmentTrackingNumber": "H03TCA0000000118",
-                      "ConsignmentCarrierTrackingUrl": "https://onlinetools.ups.com/api/track/v1/details/H03TCA0000000118",
+                      "ConsignmentShipmentId": "0f0bfe48-06e0-48bd-914c-de0d9bf99fcc",
+                      "ConsignmentTrackingNumber": "JJD0002234001002147",
+                      "ConsignmentCarrierTrackingUrl": "https://www.yodel.co.uk/track?trackNumber=JJD0002234001002147",
+                      "Packages": [
+                        {
+                          "PackageOccurrence": 1,
+                          "TrackingNumber": "JJD0002234001002147",
+                          "CarrierTrackingUrl": "https://www.yodel.co.uk/track?trackNumber=JJD0002234001002147"
+                        }
+                      ]
+                    }
+                  },
+                  "Process - PDF - Non-consignment Shipment": {
+                    "value": {
+                      "Labels": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
+                      "LabelFormat": "PDF",
+                      "Packages": [
+                        {
+                          "ShipmentId": "92610b8e-c807-4b00-ad86-4345e491de01",
+                          "PackageOccurrence": 1,
+                          "TrackingNumber": "JJD0002234001002147",
+                          "CarrierTrackingUrl": "https://www.yodel.co.uk/track?trackNumber=JJD0002234001002147"
+                        }
+                      ]
+                    }
+                  },
+                  "Process - PDF - Consignment Shipment": {
+                    "value": {
+                      "ConsignmentShipmentId": "562ef3f1-5656-4795-8206-8d29e81fe771",
+                      "ConsignmentTrackingNumber": "JJD0002234001002147",
+                      "ConsignmentCarrierTrackingUrl": "https://www.yodel.co.uk/track?trackNumber=JJD0002234001002147",
                       "Labels": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
                       "LabelFormat": "PDF",
                       "Packages": [
                         {
                           "PackageOccurrence": 1,
-                          "TrackingNumber": "H03TCA0000000118",
-                          "CarrierTrackingUrl": "https://onlinetools.ups.com/api/track/v1/details/H03TCA0000000118"
+                          "TrackingNumber": "JJD0002234001002147",
+                          "CarrierTrackingUrl": "https://www.yodel.co.uk/track?trackNumber=JJD0002234001002147"
                         }
                       ]
                     }
                   },
-                  "Process - ZPL203": {
+                  "Process - PNG - Non-consignment Shipment": {
                     "value": {
-                      "ConsignmentShipmentId": "1d3a0d12-7edf-4514-863d-c1235c69b6b9",
-                      "ConsignmentTrackingNumber": "H03TCA0000000118",
-                      "ConsignmentCarrierTrackingUrl": "https://onlinetools.ups.com/api/track/v1/details/H03TCA0000000118",
-                      "Labels": "Cl5YQQ0KXkxSTg0KXk1OWQ0K.....MDAwMDAwMDAwMDAwMDANCl5ETg0KXlhaDQo=",
-                      "LabelFormat": "ZPL203DPI",
+                      "Labels": "iVBORw0KGgoAAAANSUhEUgAA.....Hj16v8HJtP5+yLszwEAAAAASUVORK5CYII=",
+                      "LabelFormat": "PNG",
+                      "Packages": [
+                        {
+                          "ShipmentId": "efb651a6-afae-4391-aa7d-3606b4d6ed27",
+                          "PackageOccurrence": 1,
+                          "TrackingNumber": "JJD0002234001002147",
+                          "CarrierTrackingUrl": "https://www.yodel.co.uk/track?trackNumber=JJD0002234001002147"
+                        }
+                      ]
+                    }
+                  },
+                  "Process - PNG - Consignment Shipment": {
+                    "value": {
+                      "ConsignmentShipmentId": "beb22f4b-b05a-4a54-b2bb-d050c29a7151",
+                      "ConsignmentTrackingNumber": "JJD0002234001002147",
+                      "ConsignmentCarrierTrackingUrl": "https://www.yodel.co.uk/track?trackNumber=JJD0002234001002147",
+                      "Labels": "iVBORw0KGgoAAAANSUhEUgAA.....Hj16v8HJtP5+yLszwEAAAAASUVORK5CYII=",
+                      "LabelFormat": "PNG",
                       "Packages": [
                         {
                           "PackageOccurrence": 1,
-                          "TrackingNumber": "H03TCA0000000118",
-                          "CarrierTrackingUrl": "https://onlinetools.ups.com/api/track/v1/details/H03TCA0000000118"
+                          "TrackingNumber": "JJD0002234001002147",
+                          "CarrierTrackingUrl": "https://www.yodel.co.uk/track?trackNumber=JJD0002234001002147"
                         }
                       ]
                     }
@@ -1171,7 +1229,7 @@
         ]
       }
     },
-    "/v4/shipments/printLabel/ups/{shipmentId}": {
+    "/v4/shipments/printLabel/yodel/{shipmentId}": {
       "get": {
         "tags": [
           "Shipments"
@@ -1193,9 +1251,9 @@
           {
             "name": "labelFormat",
             "in": "query",
-            "description": "Label Format\r<br />            \r<br />**PDF** Base 64 encoded PDF\r<br />**PNG** Base 64 encoded PNG\r<br />            \r<br />Defaults To PDF",
+            "description": "Label Format\r<br />\r<br />**PDF** Base 64 encoded PDF\r<br />**PNG** Base 64 encoded PNG\r<br />\r<br />Defaults To PDF",
             "schema": {
-              "$ref": "#/components/schemas/UpsLabelFormat"
+              "$ref": "#/components/schemas/LabelFormat"
             }
           }
         ],
@@ -1205,25 +1263,25 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/UpsLabelFormatPrintLabelResponse"
+                  "$ref": "#/components/schemas/LabelFormatPrintLabelResponse"
                 },
                 "examples": {
                   "PDF": {
                     "value": {
-                      "ShipmentId": "ae560209-c323-4510-846c-1b829d208d1b",
+                      "ShipmentId": "2b057b7b-115d-4344-8b15-f0eab486235c",
                       "TrackingNumber": "H03TCA0000000118",
-                      "CarrierTrackingUrl": "https://onlinetools.ups.com/api/track/v1/details/H03TCA0000000118",
+                      "CarrierTrackingUrl": "https://www.yodel.co.uk/track?trackNumber=H03TCA0000000118",
                       "Label": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
                       "LabelFormat": "PDF"
                     }
                   },
-                  "ZPL203DPI": {
+                  "PNG": {
                     "value": {
-                      "ShipmentId": "c5ef774c-1108-4b31-8771-43c11e3aa6e5",
+                      "ShipmentId": "0bb6a392-b50b-4bfe-a059-86e887597cbc",
                       "TrackingNumber": "H03TCA0000000118",
-                      "CarrierTrackingUrl": "https://onlinetools.ups.com/api/track/v1/details/H03TCA0000000118",
+                      "CarrierTrackingUrl": "https://www.yodel.co.uk/track?trackNumber=H03TCA0000000118",
                       "Label": "ëPNG♫◙→◙w0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
-                      "LabelFormat": "ZPL203DPI"
+                      "LabelFormat": "PNG"
                     }
                   }
                 }
@@ -1383,7 +1441,7 @@
             "example": "Hills End"
           },
           "Town": {
-            "maxLength": 30,
+            "maxLength": 35,
             "type": "string",
             "description": "The town or city, indicating the specific locality where the shipping location is situated. <br/> <br/> ***Note:** This information is required if the address is not used from the stored addresses in the **Address Book**.*",
             "nullable": true,
@@ -1397,7 +1455,7 @@
             "example": "TW20 0HJ"
           },
           "County": {
-            "maxLength": 50,
+            "maxLength": 35,
             "type": "string",
             "description": "The county, state, or province in which the shipping location resides, providing additional geographical context for the address.<br/> <br/> ***Note:** This information may be required depending on the country. If the country is USA, Australia, or Canada, then it must be a valid state code or name, respectively. To check for the county/state/province requirements, refer to the **Countries** API.*",
             "nullable": true,
@@ -1463,7 +1521,7 @@
           "ReasonForExport": {
             "maxLength": 250,
             "type": "string",
-            "description": "Identifies the purpose of the export, such as sale, gift, or return. This information is useful for customs processing to determine the appropriate tariffs and requirements.<br>This field is mandatory for UPS International dutiable shipments.</br>The following values are accepted:</br><ul><li>SALE</li><li>GIFT</li><li>SAMPLE</li><li>RETURN</li><li>REPAIR</li><li>INTERCOMPANYDATA</li></ul>",
+            "description": "Identifies the purpose of the export, such as sale, gift, or return. This information is useful for customs processing to determine the appropriate tariffs and requirements.<br>This field is mandatory for Yodel international shipments.</br>The following values are accepted:</br><ul><li>Sales</li><li>Gift</li><li>Sample</li><li>Personal</li></ul>",
             "nullable": true,
             "example": "Sale of Goods"
           },
@@ -1514,12 +1572,12 @@
           "InvoiceNumber": {
             "maxLength": 35,
             "type": "string",
-            "description": "A specific number that is associated with a shipment. This is useful for tracking, billing, and reconcilliation purposes.\r<br />\r<br />***Note:** When sending an item to an overseas address and a Commercial or Proforma invoice is available, the **InvoiceNumber** and **InvoiceDate** should be provided to support customs processing.If provided, it will be displayed on commercial invoices generated for the shipment.Please be advised that this field is required if the **InvoiceDate** is provided.*<br>Mandatory for UPS international dutiable shipments",
+            "description": "A specific number that is associated with a shipment. This is useful for tracking, billing, and reconcilliation purposes.\r<br />\r<br />***Note:** When sending an item to an overseas address and a Commercial or Proforma invoice is available, the **InvoiceNumber** and **InvoiceDate** should be provided to support customs processing.If provided, it will be displayed on commercial invoices generated for the shipment.Please be advised that this field is required if the **InvoiceDate** is provided.*",
             "nullable": true
           },
           "InvoiceDate": {
             "type": "string",
-            "description": "The date on which the invoice was created. This information is useful for record-keeping, billing cycles, and tracking payment due dates. \r<br />\r<br />***Note:** The InvoiceDate must be in the YYYY-MM-DD format.This field is ignored if the **InvoiceNumber** is not provided. If the **InvoiceNumber** is provided without the invoice date, then the **InvoiceDate** defaults to today's date.*<br>Mandatory for UPS international dutiable shipments",
+            "description": "The date on which the invoice was created. This information is useful for record-keeping, billing cycles, and tracking payment due dates. \r<br />\r<br />***Note:** The InvoiceDate must be in the YYYY-MM-DD format.This field is ignored if the **InvoiceNumber** is not provided. If the **InvoiceNumber** is provided without the invoice date, then the **InvoiceDate** defaults to today's date.*",
             "format": "date",
             "nullable": true
           },
@@ -1584,7 +1642,7 @@
             "nullable": true
           },
           "ContactName": {
-            "maxLength": 35,
+            "maxLength": 50,
             "type": "string",
             "description": "The name of the primary contact person for the shipment at the address. <br /><br />***Note:** Either the **Contact Name** or **Company Name** must be provided.*",
             "nullable": true,
@@ -1598,7 +1656,7 @@
             "example": "My Company Ltd."
           },
           "ContactEmail": {
-            "maxLength": 50,
+            "maxLength": 254,
             "type": "string",
             "description": "The email address of the contact person for any communication regarding the shipment at the address.",
             "format": "email",
@@ -1606,7 +1664,7 @@
             "example": "jane@example.com"
           },
           "ContactPhone": {
-            "maxLength": 15,
+            "maxLength": 20,
             "type": "string",
             "description": "The contact phone number associated with the receiver, facilitating communication regarding shipments or deliveries.\r<br />\r<br />***Note:** Characters like +, /, -, or space are supported.*",
             "nullable": true,
@@ -1634,7 +1692,7 @@
             "example": "Hills End"
           },
           "Town": {
-            "maxLength": 30,
+            "maxLength": 35,
             "type": "string",
             "description": "The town or city, indicating the specific locality where the shipping location is situated. <br/> <br/> ***Note:** This information is required if the address is not used from the stored addresses in the **Address Book**.*",
             "nullable": true,
@@ -1648,7 +1706,7 @@
             "example": "TW20 0HJ"
           },
           "County": {
-            "maxLength": 50,
+            "maxLength": 35,
             "type": "string",
             "description": "The county, state, or province in which the shipping location resides, providing additional geographical context for the address.<br/> <br/> ***Note:** This information may be required depending on the country. If the country is USA, Australia, or Canada, then it must be a valid state code or name, respectively. To check for the county/state/province requirements, refer to the **Countries** API.*",
             "nullable": true,
@@ -1873,7 +1931,7 @@
             "maximum": 2147483647,
             "minimum": 1,
             "type": "integer",
-            "description": "The quantity of this item in the package being shipped.<br>The maximum quantity of a single item that UPS support per shipment is 9",
+            "description": "The quantity of this item in the package being shipped.",
             "format": "int32",
             "example": 1
           },
@@ -1904,7 +1962,7 @@
           },
           "HSCode": {
             "type": "string",
-            "description": "The Harmonized System (HS) code used by customs to determine potential duties and taxes for the product. This code ranges from 6 to 13 alphanumeric characters, depending on specific services or destinations. Some countries may also use the HS codes of other character lengths.\r<br />\r<br />***Note:** Characters like space and dot are supported.*\r<br />\r<br />For more information on HS Codes and to find the correct HS Codes for your items, refer to the following link:  https://www.gov.uk/trade-tariff<br>Mandatory for UPS international dutiable shipments",
+            "description": "The Harmonized System (HS) code used by customs to determine potential duties and taxes for the product. This code ranges from 6 to 13 alphanumeric characters, depending on specific services or destinations. Some countries may also use the HS codes of other character lengths.\r<br />\r<br />***Note:** Characters like space and dot are supported.*\r<br />\r<br />For more information on HS Codes and to find the correct HS Codes for your items, refer to the following link:  https://www.gov.uk/trade-tariff",
             "nullable": true,
             "example": "6109100010"
           },
@@ -1930,6 +1988,191 @@
         "additionalProperties": false,
         "description": "Used to provide details of the items sent in the shipment package(s). \r<br />Item information is optional for domestic and non-dutiable shipments, but required for dutiable shipments. \r<br />If item information is provided, this element must be repeated for each unique item in the shipment."
       },
+      "LabelFormat": {
+        "enum": [
+          "PDF",
+          "PNG"
+        ],
+        "type": "string",
+        "description": "Sets the label format that will be returned in the createShipment Response.\r<br />Valid values are:\r<br />**PDF** - returns a Base64-encoded PDF\r<br />**PNG** - returns a Base64-enconded PNG\r<br />Defaults to PDF if not populated."
+      },
+      "LabelFormatPackageResponseDetailsCreateShipmentResponse": {
+        "type": "object",
+        "properties": {
+          "ConsignmentShipmentId": {
+            "type": "string",
+            "description": "A unique identifier assigned to the shipment by the carrier. This ID is useful for tracking and managing the shipment throughout its transit journey and can be used in future queries or to reference the specific shipment.\r<br />\r<br />***Note:** This field is only populated if a consignment service was used in the request.*",
+            "format": "uuid",
+            "nullable": true,
+            "example": "c4e60776-288f-464e-b35b-ff0f3252c0f0"
+          },
+          "ConsignmentTrackingNumber": {
+            "type": "string",
+            "description": "A unique identifier assigned to the entire consignment shipment by the carrier. This number allows shippers and recipients to track the status and location of the entire shipment throughout its transit. It is useful for monitoring progress, ensuring timely delivery, and addressing any issues that may arise during transportation.\r<br />\r<br />***Note:** This field is only populated if the service is a consignment service.*",
+            "nullable": true,
+            "example": "DF12384739GB"
+          },
+          "ConsignmentCarrierTrackingUrl": {
+            "type": "string",
+            "description": "A URL link provided by the carrier that allows the shipper and recipients to access real-time tracking information about the consignment shipment. This link directs users to the carrier's website where they can view detailed status updates and current location of the shipment.\r<br />\r<br />***Note:** This field is only populated if this feature is available and the service is a consignment service.*",
+            "format": "uri",
+            "nullable": true,
+            "example": "http://shipmentcarrier.com/tracking/DF12384739GB"
+          },
+          "Labels": {
+            "type": "string",
+            "description": "<br>Returns the generated shipping labels for the shipment. This field is populated only if the requested action was \"Process.\" The labels include the necessary barcodes and shipping information  required for effective transit and delivery of the packages.<br/><br/>***Note:** This field has the following reservations:* <br/><ul><li>This field returns the labels only if the **ReturnLabelsAtPackageLevel** field is set to false.</li></ul>",
+            "nullable": true
+          },
+          "LabelFormat": {
+            "$ref": "#/components/schemas/LabelFormat"
+          },
+          "Packages": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/PackageResponseDetails"
+            },
+            "description": "An array that details information about each package included in the shipment. This includes essential data, such as package occurrence and tracking information. Each package is clearly documented to facilitate tracking and handling.",
+            "nullable": true
+          },
+          "Documents": {
+            "type": "string",
+            "description": "This object is only returned if the shipment is dutiable and the requested action was \"Process.\"  This object includes any requisite documentation necessary for customs clearance and compliance, ensuring that all regulatory requirements are met for international shipments.",
+            "nullable": true,
+            "example": "iVBORw0KGgoAAAANSUhEUgAA ... A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4"
+          },
+          "DocumentFormat": {
+            "$ref": "#/components/schemas/DocumentFormat"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Create Shipment Response"
+      },
+      "LabelFormatPrintLabelResponse": {
+        "required": [
+          "LabelFormat",
+          "ShipmentId"
+        ],
+        "type": "object",
+        "properties": {
+          "ShipmentId": {
+            "type": "string",
+            "description": "A unique identifier assigned to the shipment by the carrier for which the label is requested. This reaffirms the specific shipment being referenced.",
+            "format": "uuid",
+            "example": "c4e60776-288f-464e-b35b-ff0f3252c0f0"
+          },
+          "TrackingNumber": {
+            "type": "string",
+            "description": "A unique number assigned to the shipment that allows both the sender and the receiver to track the shipment's status and location throughout its transit. This number is essential for monitoring the delivery progress.",
+            "nullable": true,
+            "example": "TT12384739GB"
+          },
+          "CarrierTrackingUrl": {
+            "type": "string",
+            "description": "A URL link provided by the carrier that directs users to a webpage where they can track the shipment in real-time. This link provides detailed status updates and visibility into the shipment's journey.",
+            "format": "uri",
+            "nullable": true,
+            "example": "http://shipmentcarrier.com/tracking/DF12384739GB"
+          },
+          "Label": {
+            "type": "string",
+            "description": "The generated base64-encoded string of the shipping label in the format requested in the **LabelFormat** field. This label includes essential shipping information, barcodes, and addresses, necessary for the proper handling and delivery of the shipment.",
+            "nullable": true,
+            "example": "iVBORw0KGgoAAAANSUhEUgAA ... A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4"
+          },
+          "LabelFormat": {
+            "$ref": "#/components/schemas/LabelFormat"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Print Label Response"
+      },
+      "LabelFormatShipmentInformation": {
+        "required": [
+          "ContentType",
+          "DescriptionOfGoods",
+          "ServiceCode"
+        ],
+        "type": "object",
+        "properties": {
+          "Action": {
+            "$ref": "#/components/schemas/CreateShipmentAction"
+          },
+          "LabelFormat": {
+            "$ref": "#/components/schemas/LabelFormat"
+          },
+          "ReturnLabelsAtPackageLevel": {
+            "type": "boolean",
+            "description": "A boolean field that provides customers with the choice to generate labels at the package level instead of the shipment level. When set to true, the system returns labels for each individual package contained within the shipment.\r<br />This field is currently only supported for Royal Mail shipments.\r<br />\r<br />***Note**: This field is ignored if the **Action** field is populated with values other than **Process**. By default, this field is set to false.*",
+            "default": false
+          },
+          "ContentType": {
+            "$ref": "#/components/schemas/ContentType"
+          },
+          "ServiceCode": {
+            "maxLength": 10,
+            "minLength": 1,
+            "type": "string",
+            "description": "A valid unique code identifying the service selected for the shipment's delivery, which determines pricing, delivery speed, and other service attributes.",
+            "example": "CRL1"
+          },
+          "DescriptionOfGoods": {
+            "maxLength": 70,
+            "minLength": 1,
+            "type": "string",
+            "description": "A general description of the items being shipped, which may include details such as type, quantity, and specifications. This field provides clarity about the contents for customs and handling purposes.",
+            "example": "Clothing"
+          },
+          "BusinessTransactionType": {
+            "$ref": "#/components/schemas/BusinessTransactionType"
+          },
+          "ShipmentDate": {
+            "type": "string",
+            "description": "The scheduled date for the shipment to be shipped, which cannot be in the past and must not exceed 28 days into the future. If omitted, it defaults to the current date.",
+            "format": "date",
+            "nullable": true
+          },
+          "DeclaredValue": {
+            "maximum": 9999999.99,
+            "minimum": 0,
+            "type": "number",
+            "description": "The declared monetary value assigned to the shipment in the specified currency. If provided, it must equal or exceed the sum of all item values. If not provided, it defaults to the sum of all item values.",
+            "format": "double",
+            "nullable": true,
+            "example": 98.99
+          },
+          "DeclaredWeight": {
+            "minimum": 0.001,
+            "type": "number",
+            "description": "The total weight of the shipment in the unit of measure specified in the **WeightUnitOfMeasure** field. This weight should meet or exceed the weight of all packages or items and is required for consignment services. The minimum allowed weight is 0.001 Kg and the maximum is dependent on the carrier, service, and destination.\r<br />\r<br />***Note:** For all Non-Consignment Services, use the declared weight at the package level instead.*",
+            "format": "double",
+            "nullable": true,
+            "example": 1.5
+          },
+          "CurrencyCode": {
+            "maxLength": 3,
+            "minLength": 3,
+            "type": "string",
+            "description": "The three-letter ISO code indicating the currency in which any monetary value is specified (for example, USD, EUR). This ensures clarity for payment and invoicing purposes.",
+            "nullable": true,
+            "example": "GBP"
+          },
+          "WeightUnitOfMeasure": {
+            "$ref": "#/components/schemas/WeightUnitOfMeasure"
+          },
+          "DimensionsUnitOfMeasure": {
+            "$ref": "#/components/schemas/DimensionsUnitOfMeasure"
+          },
+          "ContainerId": {
+            "type": "string",
+            "description": "A unique identifier assigned by the system to the container in a shipment, so that the shipment can be added to the existing container when the shipment is created.\r<br />\r<br />If a valid **ContainerId** is specified, the shipments in the request will be automatically allocated to that container upon creation.If the **ContainerId** is provided, then the **Process** action is required.<br /> \r<br />***Note:** The container must already exist for the same Carrier and Shipping Location as the shipment.*",
+            "nullable": true,
+            "example": "South East"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Used to provide shipment-level information such as service code, content type, general goods description, total shipment weight and value etc."
+      },
       "OrderDirection": {
         "enum": [
           "Ascending",
@@ -1937,6 +2180,42 @@
         ],
         "type": "string",
         "description": "Order Direction"
+      },
+      "PackageDetails": {
+        "type": "object",
+        "properties": {
+          "PackageOccurrence": {
+            "maximum": 99,
+            "minimum": 1,
+            "type": "integer",
+            "description": "A unique identifier for each package within the shipment that is used to match a returned package ID to this package. This field can also be used to assign items to a specific package. \r<br />\r<br /> ***Note:** If multiple packages exist and a consignment service is not used, this field is mandatory to ensure each package occurrence is distinct.*",
+            "format": "int32",
+            "nullable": true,
+            "example": 1
+          },
+          "DeclaredWeight": {
+            "minimum": 0.001,
+            "type": "number",
+            "description": "The total weight of the package being declared in the unit of measure specified in the WeightUnitOfMeasure field. \r<br />\r<br />***Note:** The minimum allowed weight is 0.001 kg and the maximum weight is dependent on the carrier, service and destination.This field is mandatory for shipments using non-consignment services.*",
+            "format": "double",
+            "nullable": true,
+            "example": 1.5
+          },
+          "DeclaredValue": {
+            "maximum": 9999999.99,
+            "minimum": 0.01,
+            "type": "number",
+            "description": "The declared monetary value of the package specified in the **CurrencyCode** field.\r<br />\r<br />***Note:** If provided, then the declared value must meet or exceed the sum of all item values assigned to this package.Otherwise, it defaults to this sum.This value can be used for non-consignment services, though it is not mandatory.*",
+            "format": "double",
+            "nullable": true,
+            "example": 98.99
+          },
+          "Dimensions": {
+            "$ref": "#/components/schemas/Dimensions"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Shipment Package\r<br />Each shipment must have at least one package."
       },
       "PackageResponseDetails": {
         "type": "object",
@@ -1982,7 +2261,7 @@
           }
         },
         "additionalProperties": false,
-        "description": "Used to provide the address details to be used when returning the shipment back to the sender.<br>Ignored for UPS shipments - field not required, as UPS shipments will be returned to the Shipper's address"
+        "description": "Used to provide the address details to be used when returning the shipment back to the sender."
       },
       "ReturnToSenderAddress": {
         "type": "object",
@@ -2001,7 +2280,7 @@
             "nullable": true
           },
           "ContactName": {
-            "maxLength": 35,
+            "maxLength": 50,
             "type": "string",
             "description": "The name of the primary contact person for the shipment at the address. <br /><br />***Note:** Either the **Contact Name** or **Company Name** must be provided.*",
             "nullable": true,
@@ -2015,7 +2294,7 @@
             "example": "My Company Ltd."
           },
           "ContactEmail": {
-            "maxLength": 50,
+            "maxLength": 254,
             "type": "string",
             "description": "The email address of the contact person for any communication regarding the shipment at the address.",
             "format": "email",
@@ -2023,7 +2302,7 @@
             "example": "jane@example.com"
           },
           "ContactPhone": {
-            "maxLength": 15,
+            "maxLength": 20,
             "type": "string",
             "description": "The contact phone number associated with the return to sender address, facilitating communication regarding shipments or deliveries.\r<br />\r<br />***Note:** Characters like +, /, -, or space are supported.*",
             "nullable": true,
@@ -2051,7 +2330,7 @@
             "example": "Hills End"
           },
           "Town": {
-            "maxLength": 30,
+            "maxLength": 35,
             "type": "string",
             "description": "The town or city, indicating the specific locality where the shipping location is situated. <br/> <br/> ***Note:** This information is required if the address is not used from the stored addresses in the **Address Book**.*",
             "nullable": true,
@@ -2065,7 +2344,7 @@
             "example": "TW20 0HJ"
           },
           "County": {
-            "maxLength": 50,
+            "maxLength": 35,
             "type": "string",
             "description": "The county, state, or province in which the shipping location resides, providing additional geographical context for the address.<br/> <br/> ***Note:** This information may be required depending on the country. If the country is USA, Australia, or Canada, then it must be a valid state code or name, respectively. To check for the county/state/province requirements, refer to the **Countries** API.*",
             "nullable": true,
@@ -2168,7 +2447,7 @@
             "nullable": true
           },
           "ContactName": {
-            "maxLength": 35,
+            "maxLength": 50,
             "type": "string",
             "description": "The name of the primary contact person for the shipment at the address. <br /><br />***Note:** Either the **Contact Name** or **Company Name** must be provided.*",
             "nullable": true,
@@ -2182,7 +2461,7 @@
             "example": "My Company Ltd."
           },
           "ContactEmail": {
-            "maxLength": 50,
+            "maxLength": 254,
             "type": "string",
             "description": "The email address of the contact person for any communication regarding the shipment at the address.",
             "format": "email",
@@ -2190,7 +2469,7 @@
             "example": "jane@example.com"
           },
           "ContactPhone": {
-            "maxLength": 15,
+            "maxLength": 20,
             "type": "string",
             "description": "The contact phone number associated with the shipping location, facilitating communication regarding shipments or deliveries.\r<br />\r<br />***Note:** Characters like +, /, -, or space are supported.*",
             "nullable": true,
@@ -2218,7 +2497,7 @@
             "example": "Hills End"
           },
           "Town": {
-            "maxLength": 30,
+            "maxLength": 35,
             "type": "string",
             "description": "The town or city, indicating the specific locality where the shipping location is situated. <br/> <br/> ***Note:** This information is required if the address is not used from the stored addresses in the **Address Book**.*",
             "nullable": true,
@@ -2232,7 +2511,7 @@
             "example": "TW20 0HJ"
           },
           "County": {
-            "maxLength": 50,
+            "maxLength": 35,
             "type": "string",
             "description": "The county, state, or province in which the shipping location resides, providing additional geographical context for the address.<br/> <br/> ***Note:** This information may be required depending on the country. If the country is USA, Australia, or Canada, then it must be a valid state code or name, respectively. To check for the county/state/province requirements, refer to the **Countries** API.*",
             "nullable": true,
@@ -2347,7 +2626,7 @@
             "example": "Hills End"
           },
           "Town": {
-            "maxLength": 30,
+            "maxLength": 35,
             "type": "string",
             "description": "The town or city, indicating the specific locality where the shipping location is situated. <br/> <br/> ***Note:** This information is required if the address is not used from the stored addresses in the **Address Book**.*",
             "nullable": true,
@@ -2361,7 +2640,7 @@
             "example": "TW20 0HJ"
           },
           "County": {
-            "maxLength": 50,
+            "maxLength": 35,
             "type": "string",
             "description": "The county, state, or province in which the shipping location resides, providing additional geographical context for the address.<br/> <br/> ***Note:** This information may be required depending on the country. If the country is USA, Australia, or Canada, then it must be a valid state code or name, respectively. To check for the county/state/province requirements, refer to the **Countries** API.*",
             "nullable": true,
@@ -2501,21 +2780,30 @@
         "type": "string",
         "description": "Specifies the International Commercial Terms (Incoterms) applicable to the shipment, governing responsibilities and financial obligations. \r<br />\r<br />Valid values include the following: \r<br /><ul><li>**DDU** — Delivered Duty Unpaid.The receiver is responsible for paying customs duties and taxes.</li><li>**DDP** — Delivered Duty Paid.The seller is responsible for paying customs duties and taxes.</li><li>**DAP** — Delivered At Place.The receiver is responsible for paying customs duties and taxes.</li><li>**DAT** — Delivered At Terminal.The receiver is responsible for paying customs duties and taxes.</li></ul>\r<br />***Note:** By default, this field is set to DDU if not provided for dutiable shipments. Please be advised that this information is not required for non-dutiable shipments.*"
       },
-      "UpsAddShippingAccountRequest": {
+      "WeightUnitOfMeasure": {
+        "enum": [
+          "KG",
+          "Grams"
+        ],
+        "type": "string",
+        "description": " The unit of measure used for all weight values in the shipment, expressed in grams and kilograms, for example, **DeclaredWeight**, **ItemWeight**. This is crucial for accurately describing shipment weight.\r<br /> \r<br />***Note:** By default, this field is set to KG.*"
+      },
+      "YodelAddShippingAccountRequest": {
         "required": [
           "AccountAlias",
           "AccountNumber",
           "AccountType",
           "ContactName",
           "ContactNumber",
-          "ShippingLocations",
-          "UpsClientId",
-          "UpsClientSecret"
+          "ContractNumber",
+          "MeterNumber",
+          "ScheduleNumber",
+          "ShippingLocations"
         ],
         "type": "object",
         "properties": {
           "AccountNumber": {
-            "maxLength": 6,
+            "maxLength": 9,
             "minLength": 1,
             "type": "string",
             "description": "Carrier Account Number\r<br />The account number given by the carrier.",
@@ -2553,19 +2841,29 @@
             "format": "tel",
             "example": "0123456789"
           },
-          "UpsClientId": {
-            "maxLength": 65,
+          "ContractNumber": {
+            "maxLength": 7,
             "minLength": 1,
+            "pattern": "^[0-9]*$",
             "type": "string",
-            "description": "UPS Public Identifier (username) for authentication",
-            "example": "ClientId"
+            "description": "The Yodel contract number.",
+            "example": "1511116"
           },
-          "UpsClientSecret": {
-            "maxLength": 100,
+          "ScheduleNumber": {
+            "maxLength": 4,
             "minLength": 1,
+            "pattern": "^[0-9]*$",
             "type": "string",
-            "description": "Client Secret provided by UPS",
-            "example": "ClientSecret"
+            "description": "The Yodel contracted schedule number.",
+            "example": "0001"
+          },
+          "MeterNumber": {
+            "maxLength": 5,
+            "minLength": 1,
+            "pattern": "^[0-9]*$",
+            "type": "string",
+            "description": "The Yodel meter number.\r<br />This will be used to create the shipping account's first tracking range.",
+            "example": "35111"
           },
           "ShippingLocations": {
             "type": "array",
@@ -2576,303 +2874,22 @@
           }
         },
         "additionalProperties": false,
-        "description": "UPS Add Shipping Account Request"
+        "description": "Yodel Add Shipping Account Request"
       },
-      "UpsEnhancementCode": {
-        "enum": [
-          "EmailQVShip",
-          "EmailQVException",
-          "EmailQVDelivery",
-          "EmailAltDeliveryLoc",
-          "SaturdayDelivery",
-          "AdultSign"
-        ],
-        "type": "string",
-        "description": "Enhancement code of the service enhancement. Valid values are:\r<br />**EmailQVShip** - Email notification - QV ship\r<br />**EmailQVException** - Email Notification - QV exception\r<br />**EmailQVDelivery** - Email Notification - QV delivery\r<br />**EmailAltDeliveryLoc** - Email Notification - Alternate Delivery Location\r<br />**SaturdayDelivery** - Saturday delivery\r<br />**AdultSign** - Delivery confirmation adult signature required Destination.\r<br />ContactEmail is mandatory if an email notification enhancement is used.\r<br />A maximum of 1 email service enhancement can be used per shipment."
-      },
-      "UpsLabelFormat": {
-        "enum": [
-          "PDF",
-          "PNG",
-          "ZPL203DPI"
-        ],
-        "type": "string",
-        "description": "Sets the label format that will be returned in the createShipment Response.\r<br />Valid values are:\r<br />**PDF** - returns a Base64-encoded PDF\r<br />**PNG** - returns a Base64-encoded PNG\r<br />**ZPL203DPI** - returns Base 64 encoded text for Zebra printer at 203 DPI\r<br />Defaults to PDF if not populated."
-      },
-      "UpsLabelFormatPackageResponseDetailsCreateShipmentResponse": {
+      "YodelShipmentRequestCarrierSpecifics": {
         "type": "object",
         "properties": {
-          "ConsignmentShipmentId": {
+          "ContractNumber": {
+            "maxLength": 7,
             "type": "string",
-            "description": "A unique identifier assigned to the shipment by the carrier. This ID is useful for tracking and managing the shipment throughout its transit journey and can be used in future queries or to reference the specific shipment.\r<br />\r<br />***Note:** This field is only populated if a consignment service was used in the request.*",
-            "format": "uuid",
-            "nullable": true,
-            "example": "c4e60776-288f-464e-b35b-ff0f3252c0f0"
-          },
-          "ConsignmentTrackingNumber": {
-            "type": "string",
-            "description": "A unique identifier assigned to the entire consignment shipment by the carrier. This number allows shippers and recipients to track the status and location of the entire shipment throughout its transit. It is useful for monitoring progress, ensuring timely delivery, and addressing any issues that may arise during transportation.\r<br />\r<br />***Note:** This field is only populated if the service is a consignment service.*",
-            "nullable": true,
-            "example": "DF12384739GB"
-          },
-          "ConsignmentCarrierTrackingUrl": {
-            "type": "string",
-            "description": "A URL link provided by the carrier that allows the shipper and recipients to access real-time tracking information about the consignment shipment. This link directs users to the carrier's website where they can view detailed status updates and current location of the shipment.\r<br />\r<br />***Note:** This field is only populated if this feature is available and the service is a consignment service.*",
-            "format": "uri",
-            "nullable": true,
-            "example": "http://shipmentcarrier.com/tracking/DF12384739GB"
-          },
-          "Labels": {
-            "type": "string",
-            "description": "<br>Returns the generated shipping labels for the shipment. This field is populated only if the requested action was \"Process.\" The labels include the necessary barcodes and shipping information  required for effective transit and delivery of the packages.<br/><br/>***Note:** This field has the following reservations:* <br/><ul><li>This field returns the labels only if the **ReturnLabelsAtPackageLevel** field is set to false.</li></ul>",
-            "nullable": true
-          },
-          "LabelFormat": {
-            "$ref": "#/components/schemas/UpsLabelFormat"
-          },
-          "Packages": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/PackageResponseDetails"
-            },
-            "description": "An array that details information about each package included in the shipment. This includes essential data, such as package occurrence and tracking information. Each package is clearly documented to facilitate tracking and handling.",
-            "nullable": true
-          },
-          "Documents": {
-            "type": "string",
-            "description": "This object is only returned if the shipment is dutiable and the requested action was \"Process.\"  This object includes any requisite documentation necessary for customs clearance and compliance, ensuring that all regulatory requirements are met for international shipments.",
-            "nullable": true,
-            "example": "iVBORw0KGgoAAAANSUhEUgAA ... A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4"
-          },
-          "DocumentFormat": {
-            "$ref": "#/components/schemas/DocumentFormat"
-          }
-        },
-        "additionalProperties": false,
-        "description": "Create Shipment Response"
-      },
-      "UpsLabelFormatPrintLabelResponse": {
-        "required": [
-          "LabelFormat",
-          "ShipmentId"
-        ],
-        "type": "object",
-        "properties": {
-          "ShipmentId": {
-            "type": "string",
-            "description": "A unique identifier assigned to the shipment by the carrier for which the label is requested. This reaffirms the specific shipment being referenced.",
-            "format": "uuid",
-            "example": "c4e60776-288f-464e-b35b-ff0f3252c0f0"
-          },
-          "TrackingNumber": {
-            "type": "string",
-            "description": "A unique number assigned to the shipment that allows both the sender and the receiver to track the shipment's status and location throughout its transit. This number is essential for monitoring the delivery progress.",
-            "nullable": true,
-            "example": "TT12384739GB"
-          },
-          "CarrierTrackingUrl": {
-            "type": "string",
-            "description": "A URL link provided by the carrier that directs users to a webpage where they can track the shipment in real-time. This link provides detailed status updates and visibility into the shipment's journey.",
-            "format": "uri",
-            "nullable": true,
-            "example": "http://shipmentcarrier.com/tracking/DF12384739GB"
-          },
-          "Label": {
-            "type": "string",
-            "description": "The generated base64-encoded string of the shipping label in the format requested in the **LabelFormat** field. This label includes essential shipping information, barcodes, and addresses, necessary for the proper handling and delivery of the shipment.",
-            "nullable": true,
-            "example": "iVBORw0KGgoAAAANSUhEUgAA ... A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4"
-          },
-          "LabelFormat": {
-            "$ref": "#/components/schemas/UpsLabelFormat"
-          }
-        },
-        "additionalProperties": false,
-        "description": "Print Label Response"
-      },
-      "UpsLabelFormatShipmentInformation": {
-        "required": [
-          "ContentType",
-          "DescriptionOfGoods",
-          "ServiceCode"
-        ],
-        "type": "object",
-        "properties": {
-          "Action": {
-            "$ref": "#/components/schemas/CreateShipmentAction"
-          },
-          "LabelFormat": {
-            "$ref": "#/components/schemas/UpsLabelFormat"
-          },
-          "ReturnLabelsAtPackageLevel": {
-            "type": "boolean",
-            "description": "A boolean field that provides customers with the choice to generate labels at the package level instead of the shipment level. When set to true, the system returns labels for each individual package contained within the shipment.\r<br />This field is currently only supported for Royal Mail shipments.\r<br />\r<br />***Note**: This field is ignored if the **Action** field is populated with values other than **Process**. By default, this field is set to false.*",
-            "default": false
-          },
-          "ContentType": {
-            "$ref": "#/components/schemas/ContentType"
-          },
-          "ServiceCode": {
-            "maxLength": 10,
-            "minLength": 1,
-            "type": "string",
-            "description": "A valid unique code identifying the service selected for the shipment's delivery, which determines pricing, delivery speed, and other service attributes.",
-            "example": "CRL1"
-          },
-          "DescriptionOfGoods": {
-            "maxLength": 70,
-            "minLength": 1,
-            "type": "string",
-            "description": "A general description of the items being shipped, which may include details such as type, quantity, and specifications. This field provides clarity about the contents for customs and handling purposes.",
-            "example": "Clothing"
-          },
-          "BusinessTransactionType": {
-            "$ref": "#/components/schemas/BusinessTransactionType"
-          },
-          "ShipmentDate": {
-            "type": "string",
-            "description": "The scheduled date for the shipment to be shipped, which cannot be in the past and must not exceed 28 days into the future. If omitted, it defaults to the current date.<br><br />*The shipment date must be in the YYYY-MM-DD format.*<br /><br />UPS only allows future dates up to 7 days in the future",
-            "format": "date",
-            "nullable": true
-          },
-          "DeclaredValue": {
-            "maximum": 9999999.99,
-            "minimum": 0,
-            "type": "number",
-            "description": "The declared monetary value assigned to the shipment in the specified currency. If provided, it must equal or exceed the sum of all item values. If not provided, it defaults to the sum of all item values.",
-            "format": "double",
-            "nullable": true,
-            "example": 98.99
-          },
-          "DeclaredWeight": {
-            "minimum": 0.001,
-            "type": "number",
-            "description": "The total weight of the shipment in the unit of measure specified in the **WeightUnitOfMeasure** field. This weight should meet or exceed the weight of all packages or items and is required for consignment services. The minimum allowed weight is 0.001 Kg and the maximum is dependent on the carrier, service, and destination.\r<br />\r<br />***Note:** For all Non-Consignment Services, use the declared weight at the package level instead.*",
-            "format": "double",
-            "nullable": true,
-            "example": 1.5
-          },
-          "CurrencyCode": {
-            "maxLength": 3,
-            "minLength": 3,
-            "type": "string",
-            "description": "The three-letter ISO code indicating the currency in which any monetary value is specified (for example, USD, EUR). This ensures clarity for payment and invoicing purposes.",
-            "nullable": true,
-            "example": "GBP"
-          },
-          "WeightUnitOfMeasure": {
-            "$ref": "#/components/schemas/WeightUnitOfMeasure"
-          },
-          "DimensionsUnitOfMeasure": {
-            "$ref": "#/components/schemas/DimensionsUnitOfMeasure"
-          },
-          "ContainerId": {
-            "type": "string",
-            "description": "A unique identifier assigned by the system to the container in a shipment, so that the shipment can be added to the existing container when the shipment is created.\r<br />\r<br />If a valid **ContainerId** is specified, the shipments in the request will be automatically allocated to that container upon creation.If the **ContainerId** is provided, then the **Process** action is required.<br /> \r<br />***Note:** The container must already exist for the same Carrier and Shipping Location as the shipment.*",
-            "nullable": true,
-            "example": "South East"
-          }
-        },
-        "additionalProperties": false,
-        "description": "Used to provide shipment-level information such as service code, content type, general goods description, total shipment weight and value etc."
-      },
-      "UpsPackage": {
-        "type": "object",
-        "properties": {
-          "PackageOccurrence": {
-            "maximum": 99,
-            "minimum": 1,
-            "type": "integer",
-            "description": "A unique identifier for each package within the shipment that is used to match a returned package ID to this package. This field can also be used to assign items to a specific package. \r<br />\r<br /> ***Note:** If multiple packages exist and a consignment service is not used, this field is mandatory to ensure each package occurrence is distinct.*",
-            "format": "int32",
-            "nullable": true,
-            "example": 1
-          },
-          "PackageType": {
-            "$ref": "#/components/schemas/UpsPackageTypeCode"
-          },
-          "DeclaredWeight": {
-            "minimum": 0.001,
-            "type": "number",
-            "description": "The total weight of the package being declared in the unit of measure specified in the WeightUnitOfMeasure field. \r<br />\r<br />***Note:** The minimum allowed weight is 0.001 kg and the maximum weight is dependent on the carrier, service and destination.This field is mandatory for shipments using non-consignment services.*",
-            "format": "double",
-            "nullable": true,
-            "example": 1.5
-          },
-          "DeclaredValue": {
-            "maximum": 9999999.99,
-            "minimum": 0.01,
-            "type": "number",
-            "description": "The declared monetary value of the package specified in the **CurrencyCode** field.\r<br />\r<br />***Note:** If provided, then the declared value must meet or exceed the sum of all item values assigned to this package.Otherwise, it defaults to this sum.This value can be used for non-consignment services, though it is not mandatory.*",
-            "format": "double",
-            "nullable": true,
-            "example": 98.99
-          },
-          "Dimensions": {
-            "$ref": "#/components/schemas/Dimensions"
-          }
-        },
-        "additionalProperties": false,
-        "description": "UPS Package"
-      },
-      "UpsPackageTypeCode": {
-        "enum": [
-          "Custom",
-          "UPSLetter",
-          "Flats",
-          "StandardFlat",
-          "UPS25Box",
-          "UPS10Box",
-          "UPSExpressBox",
-          "SmallExpressBox",
-          "MediumExpressBox",
-          "LargeExpressBox",
-          "Tube",
-          "Parcels",
-          "PAK",
-          "BPM",
-          "BPMFlat",
-          "BPMParcel",
-          "FirstClass",
-          "Priority",
-          "ParcelPost",
-          "MediaMail",
-          "Machineables",
-          "Irregulars",
-          "Pallet"
-        ],
-        "type": "string",
-        "description": "The package type used for the shipment.\r<br />If package type is not provided on shipment creation, it will be defaulted to Custom (Customer Supplied Package)"
-      },
-      "UpsServiceEnhancement": {
-        "required": [
-          "Code"
-        ],
-        "type": "object",
-        "properties": {
-          "Code": {
-            "$ref": "#/components/schemas/UpsEnhancementCode"
-          }
-        },
-        "additionalProperties": false,
-        "description": "Service Enhancement"
-      },
-      "UpsShipmentRequestCarrierSpecifics": {
-        "type": "object",
-        "properties": {
-          "Enhancements": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/UpsServiceEnhancement"
-            },
-            "description": "Enhancements\r<br />Any enhancements that you would like to add to the requested service.",
+            "description": "Contract Number\r<br />If this field is populated, then the Contract Number provided here will be used for the shipment instead of the Contract Number stored on the Shipping Account. \r<br />If this field is not populated, the contract number stored on the shipping account will be used for the shipment.",
             "nullable": true
           }
         },
         "additionalProperties": false,
-        "description": "UPS - specific features that can be used when creating a UPS shipment."
+        "description": "Yodel - specific features that can be used when creating a Yodel shipment."
       },
-      "UpsShipmentRequestCarrierSpecificsUpsPackageUpsLabelFormatCreateShipmentRequest": {
+      "YodelShipmentRequestCarrierSpecificsPackageDetailsLabelFormatCreateShipmentRequest": {
         "required": [
           "Destination",
           "Packages",
@@ -2882,7 +2899,7 @@
         "type": "object",
         "properties": {
           "ShipmentInformation": {
-            "$ref": "#/components/schemas/UpsLabelFormatShipmentInformation"
+            "$ref": "#/components/schemas/LabelFormatShipmentInformation"
           },
           "Shipper": {
             "$ref": "#/components/schemas/Shipper"
@@ -2891,14 +2908,14 @@
             "$ref": "#/components/schemas/Destination"
           },
           "CarrierSpecifics": {
-            "$ref": "#/components/schemas/UpsShipmentRequestCarrierSpecifics"
+            "$ref": "#/components/schemas/YodelShipmentRequestCarrierSpecifics"
           },
           "Packages": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/UpsPackage"
+              "$ref": "#/components/schemas/PackageDetails"
             },
-            "description": "Shipment Packages<br/>The packages that are being sent in this shipment.<br/>There must be at least 1 package.<br/>A maximum of 50 packages are allowed for Domestic services<br/>A maximum of 20 packages are allowed for International services"
+            "description": "Used to provide information on the packages that are being sent in this shipment.  \r<br />\r<br />***Note:** You must add at least one package to the shipment.You can add a maximum of 50 packages in a single shipment.If the number of packages exceeds 50, an error will be returned, and the shipment will not be created.*"
           },
           "Items": {
             "type": "array",
@@ -2918,7 +2935,7 @@
         "additionalProperties": false,
         "description": "Create Shipment Request"
       },
-      "UpsShippingAccountNoClientSecret": {
+      "YodelShippingAccount": {
         "required": [
           "AccountAlias",
           "AccountName",
@@ -2927,10 +2944,11 @@
           "CarrierCode",
           "ContactName",
           "ContactNumber",
+          "ContractNumber",
           "LastUpdatedBy",
           "LastUpdatedDateUtc",
-          "ShippingAccountId",
-          "UpsClientId"
+          "ScheduleNumber",
+          "ShippingAccountId"
         ],
         "type": "object",
         "properties": {
@@ -2989,12 +3007,21 @@
             "format": "tel",
             "example": "0123456789"
           },
-          "UpsClientId": {
-            "maxLength": 65,
+          "ContractNumber": {
+            "maxLength": 7,
             "minLength": 1,
+            "pattern": "^[0-9]*$",
             "type": "string",
-            "description": "UPS Public Identifier (username) for authentication",
-            "example": "ClientId"
+            "description": "The Yodel contract number.",
+            "example": "1511116"
+          },
+          "ScheduleNumber": {
+            "maxLength": 4,
+            "minLength": 1,
+            "pattern": "^[0-9]*$",
+            "type": "string",
+            "description": "The Yodel contracted schedule number.",
+            "example": "0000001"
           },
           "LastUpdatedBy": {
             "minLength": 1,
@@ -3011,7 +3038,7 @@
         "additionalProperties": false,
         "description": "Shipping Account\r<br />An account that sends shipments. A shipping account is for a specified carrier.\r<br />You can have multiple shipping accounts.\r<br />A Shipping Account must have at least one Shipping Location."
       },
-      "UpsShippingAccountNoClientSecretShippingAccountsPagedResponse": {
+      "YodelShippingAccountShippingAccountsPagedResponse": {
         "required": [
           "ShippingAccounts",
           "TotalCount"
@@ -3021,7 +3048,7 @@
           "ShippingAccounts": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/UpsShippingAccountNoClientSecret"
+              "$ref": "#/components/schemas/YodelShippingAccount"
             },
             "description": "An array containing the shipping accounts associated with the shipping location that match the query parameters specified in the request."
           },
@@ -3035,7 +3062,7 @@
         "additionalProperties": false,
         "description": "The paged response containing the entities for the requested page only, and the total number available."
       },
-      "UpsUpdateShippingAccountRequest": {
+      "YodelUpdateShippingAccountRequest": {
         "required": [
           "AccountAlias",
           "AccountName",
@@ -3043,13 +3070,13 @@
           "AccountType",
           "ContactName",
           "ContactNumber",
-          "UpsClientId",
-          "UpsClientSecret"
+          "ContractNumber",
+          "ScheduleNumber"
         ],
         "type": "object",
         "properties": {
           "AccountNumber": {
-            "maxLength": 6,
+            "maxLength": 9,
             "minLength": 0,
             "type": "string",
             "description": "Carrier Account Number\r<br />The account number given by the carrier.",
@@ -3087,31 +3114,25 @@
             "format": "tel",
             "example": "0123456789"
           },
-          "UpsClientId": {
-            "maxLength": 65,
+          "ContractNumber": {
+            "maxLength": 7,
             "minLength": 1,
+            "pattern": "^[0-9]*$",
             "type": "string",
-            "description": "UPS Public Identifier (username) for authentication",
-            "example": "ClientId"
+            "description": "The Yodel contract number.",
+            "example": "1511116"
           },
-          "UpsClientSecret": {
-            "maxLength": 100,
+          "ScheduleNumber": {
+            "maxLength": 4,
             "minLength": 1,
+            "pattern": "^[0-9]*$",
             "type": "string",
-            "description": "Client Secret provided by UPS",
-            "example": "ClientSecret"
+            "description": "The Yodel contracted schedule number.",
+            "example": "0001"
           }
         },
         "additionalProperties": false,
-        "description": "UPS Update Shipping Account Request"
-      },
-      "WeightUnitOfMeasure": {
-        "enum": [
-          "KG",
-          "Grams"
-        ],
-        "type": "string",
-        "description": " The unit of measure used for all weight values in the shipment, expressed in grams and kilograms, for example, **DeclaredWeight**, **ItemWeight**. This is crucial for accurately describing shipment weight.\r<br /> \r<br />***Note:** By default, this field is set to KG.*"
+        "description": "Yodel Update Shipping Account Request"
       }
     },
     "securitySchemes": {
@@ -3139,7 +3160,7 @@
     },
     {
       "name": "Shipments",
-      "description": "This section provides information relating to creating UPS shipments, printing shipping labels, the customs documentation."
+      "description": "This section provides information relating to creating Yodel shipments, printing shipping labels, the customs documentation."
     }
   ],
   "x-readme": {

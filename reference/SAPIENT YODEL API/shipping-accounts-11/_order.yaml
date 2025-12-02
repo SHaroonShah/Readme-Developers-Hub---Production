@@ -1,0 +1,8 @@
+- get_v4-shippingaccounts-yodel-1
+- post_v4-shippingaccounts-yodel-1
+- get_v4-shippingaccounts-yodel-shippingaccountid-1
+- put_v4-shippingaccounts-yodel-shippingaccountid-1
+- post_v4-shippingaccounts-yodel-shippingaccountid-linklocations-1
+- get_v4-shippingaccounts-yodel-shippingaccountid-shippinglocations-1
+- >-
+  get_v4-shippingaccounts-yodel-shippingaccountid-shippinglocations-shippinglocationid-1
