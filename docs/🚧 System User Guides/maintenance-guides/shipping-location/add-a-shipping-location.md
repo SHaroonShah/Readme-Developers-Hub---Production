@@ -56,7 +56,7 @@ To add a new shipping location in SAPIENT, follow the instructions as described 
 
         On the **Add Shipping Location** form that opens, in the **LOCATION DETAILS** block, enter the necessary information.
 
-        <Image align="center" border={true} src="https://files.readme.io/5e6bebc209c1497103efb0288fd1a0d15ddc0bbb04d07e5d7bc4490f825c649b-Location_details_block.png" alt="Entering location details" />
+        <Image align="center" border={true} src="https://files.readme.io/5e6bebc209c1497103efb0288fd1a0d15ddc0bbb04d07e5d7bc4490f825c649b-Location_details_block.png" alt="Entering location details" /><br></br>
 
         <AsteridkForMandatoryElements />
 
