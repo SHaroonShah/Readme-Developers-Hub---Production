@@ -70,7 +70,7 @@ In SAPIENT, you can edit the <Glossary>shipping location</Glossary> to enhance c
     </ToggleList>
   </Tab>
 
-  <Tab title="Update via API">
+  <Tab title="Edit via API">
     <br />
 
     To update a shipping location via our API, refer to the following endpoint:
