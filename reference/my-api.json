@@ -73,6 +73,12 @@
                 "required": [
                   "ShipmentInformation"
                 ]
+              },
+              "examples": {
+                "Domestic": {
+                  "summary": "Domestic",
+                  "value": "curl --request POST \\\n     --url https://api.intersoftsapient.net/v4/shipments/rm \\\n     --header 'accept: application/json' \\\n     --header 'content-type: application/json' \\\n     --data '\n{\n  \"ShipmentInformation\": {\n    \"ReturnLabelsAtPackageLevel\": false,\n    \"ContentType\": \"NDX\",\n    \"ServiceCode\": \"CRL1\",\n    \"DescriptionOfGoods\": \"Clothes\",\n    \"ShipmentDate\": \"2025-10-29\",\n    \"WeightUnitOfMeasure\": \"KG\",\n    \"DimensionsUnitOfMeasure\": \"CM\"\n  },\n  \"Shipper\": {\n    \"ShippingAccountId\": \"45662b9e-3346-436e-bf5c-67dac61ec0af\",\n    \"Reference1\": \"OrderRef56\"\n  },\n  \"Destination\": {\n    \"Address\": {\n      \"ContactPhone\": \"07123456789\",\n      \"ContactName\": \"John Smith\",\n      \"ContactEmail\": \"john.smith@example.com\",\n      \"Line1\": \"10 Sky Road\",\n      \"Town\": \"Woking\",\n      \"Postcode\": \"GU21 4TE\",\n      \"CountryCode\": \"GB\"\n    }\n  },\n  \"Packages\": [\n    {\n      \"PackageType\": \"Parcel\",\n      \"DeclaredWeight\": 1.5\n    }\n  ]\n}\n'"
+                }
               }
             }
           }
