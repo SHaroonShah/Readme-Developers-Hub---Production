@@ -16,6 +16,8 @@ next:
 ---
 Deleting the <Glossary>shipping account</Glossary> that is no longer required is quite handy in certain situations, for example,  if an account was set up incorrectly or is causing issues, deleting it can clear up any confusion and prevent operational problem or removing obsolete data that could complicate integration processes with external APIs or systems.
 
+## How to delete shipping account 
+
 <Tabs>
   <Tab title="Delete via SAPIENT UI">
     <br />
