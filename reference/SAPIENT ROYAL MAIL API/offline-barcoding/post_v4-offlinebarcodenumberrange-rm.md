@@ -6,7 +6,6 @@ api:
   operationId: post_v4-offlinebarcodenumberrange-rm
 deprecated: false
 hidden: false
-icon: fad fa-barcode-read
 metadata:
   title: ''
   description: ''
