@@ -16,9 +16,7 @@ next:
 ---
 The process of adding a <Glossary>shipping location</Glossary> helps in streamlining the order fulfillment process, enhance inventory oversight, aids in coordination, and contributes to customer satisfaction. Shipping locations are fundamental to ensuring that the products are despatched effectively and reach their destinations in a timely manner.
 
-To add a new shipping location in SAPIENT, follow the instructions as described in the following procedure.
-
-<br />
+## How to add shipping location
 
 <Tabs>
   <Tab title="Add via SAPIENT UI">
@@ -129,6 +127,8 @@ To add a new shipping location in SAPIENT, follow the instructions as described 
     </Cards>
   </Tab>
 </Tabs>
+
+***
 
 ### See also
 
