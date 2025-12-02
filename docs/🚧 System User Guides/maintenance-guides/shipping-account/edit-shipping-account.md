@@ -88,4 +88,4 @@ To edit a shipping account, perform the steps as explained in the following proc
 
 > 🚧 **_Important_**
 >
-> _The fields in the **Edit Shipping Account** form may differ based on the carrier account you choose. For more information on how to correctly fill these fields, refer to the [Carrier specific user guides](doc:carrier-specific-user-guides) section of our documentation._
+> _The fields in the **Edit Shipping Account** form may differ based on the carrier account you choose. For more information on how to correctly fill these fields, refer to the <Anchor label="Carrier specific user guides" target="_blank" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/carrrier-specific-user-guides#/">Carrier specific user guides</Anchor> section of our documentation._
