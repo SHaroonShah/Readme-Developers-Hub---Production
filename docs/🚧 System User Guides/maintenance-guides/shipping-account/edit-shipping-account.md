@@ -30,7 +30,7 @@ The editing process ensures that the information is current and accurate, which 
   </Card>
 </Cards>
 
-## How to edit shipping location
+## How to edit shipping account
 
 To edit a shipping account, perform the steps as explained in the following proceudre:
 
