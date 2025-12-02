@@ -107,7 +107,7 @@ Deleting the <Glossary>shipping account</Glossary> that is no longer required is
 ## See also
 
 <Cards>
-  <Card title="Add shipping account" href="https://docs.intersoftsapient.net/docs/add-a-shipping-account" icon="plus">
+  <Card title="Add shipping account" href="https://docs.intersoftsapient.net/docs/add-a-shipping-account" icon="fa-solid fa-plus">
     Learn how to create new shipping accounts in SAPIENT
   </Card>
 </Cards>
