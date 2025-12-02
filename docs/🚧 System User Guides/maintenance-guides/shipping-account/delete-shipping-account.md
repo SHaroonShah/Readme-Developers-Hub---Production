@@ -25,71 +25,69 @@ Deleting the <Glossary>shipping account</Glossary> that is no longer required is
     To delete a shipping account in SAPIENT, perform the steps as explained in the following procedure.
 
     <ToggleList>
-  <ToggleListItem title={<strong>1. Access the shipping accounts page</strong>} icon="fa-rocket">
-    <br />
+      <ToggleListItem title={<strong>1. Access the shipping accounts page</strong>} icon="fa-rocket">
+        <br />
 
-    On the **Home** page that opens, in the left navigation panel, select **Shipping Accounts**.
+        On the **Home** page that opens, in the left navigation panel, select **Shipping Accounts**.
 
-    <Image align="center" border={true} src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" alt="Accessing shipping accounts" />
+        <Image align="center" border={true} src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" alt="Accessing shipping accounts" />
 
-    ***
-  </ToggleListItem>
-
-  <br />
-
-  <ToggleListItem title={<strong>2. Select the shipping account to edit</strong>} icon="fa-rocket">
-    <br />
-
-    On the **Shipping Accounts** page that opens, from the list of shipping accounts, select the account that you want to delete.
-
-    <br />
-
-    <Image align="center" border={true} src="https://files.readme.io/41603935fe204b0f21f146742408bd60584a5659ebb2a31c9302a475d93d24cf-sorting_and_changing_location.png" alt="Specifying filters" />
-  </ToggleListItem>
-
-  <br />
-
-  <ToggleListItem title={<strong>3. View shipping account details </strong>} icon="fa-rocket">
-    <br />
-
-    In the **View Shipping Account\[account name]** page that opens, select ![alt text](https://files.readme.io/af5c41de6009316deb4ab39f682b3be215f7a7673548911d06c333bc5ccf7606-Edit_shipping_account_button.png).
-
-    <Image align="center" border={true} src="https://files.readme.io/d81e673f87f261d6b098f8e062f8580297676b82eabd667fbb8a2df03beffd37-Edit_shipping_account_option.png" alt="Selecting option to edit shipping account" />
-
-    ***
-  </ToggleListItem>
-
-  <br />
-
-  <ToggleListItem title={<strong>4. Delete shipping account </strong>} icon="fa-rocket">
-    <br />
-
-    In the **Edit Shipping Account\[account name]** form that opens, on the top right corner, select ![alt text](https://files.readme.io/2b717367c6b8d33a03ad2eebc3a40edb38663cb47e41c7e3517289780460ef19-Delete_account_button.png).
-
-      <Image align="center" border={true} src="https://files.readme.io/d0978d6da7df64866e6544071d90031fe5f91669b2cfc0eeef0fbd460c9a20b4-Deleting_shipping_account.png" alt="Editing shipping account" />
-
-    <br />
-
-    ***
+        ***
       </ToggleListItem>
+
       <br />
-<ToggleListItem title={<strong>5. Confirm your action </strong>} icon="fa-rocket">
-    <br />
 
-    In the confirmation dialog that appears, select **Yes** to confirm your action.
+      <ToggleListItem title={<strong>2. Select the shipping account to edit</strong>} icon="fa-rocket">
+        <br />
 
-      <Image align="center" border={true} src="https://files.readme.io/914ca92582b92600a9af9e9237ab6669e325795bab18d4de668c666d6d420606-Confirming_account_deletion.png" width="400px" alt="Confirming account deletion" />
+        On the **Shipping Accounts** page that opens, from the list of shipping accounts, select the account that you want to delete.
 
-      Once confirmed, the shipping account is deleted successfully and no longer displays in the **Shipping Accounts** list.
-
-    <br />
-
-    ***
+       ***
       </ToggleListItem>
 
-    </ToggleList>
-</Tab>
+      <br />
 
+      <ToggleListItem title={<strong>3. View shipping account details </strong>} icon="fa-rocket">
+        <br />
+
+        In the **View Shipping Account\[account name]** page that opens, select ![alt text](https://files.readme.io/af5c41de6009316deb4ab39f682b3be215f7a7673548911d06c333bc5ccf7606-Edit_shipping_account_button.png).
+
+        <Image align="center" border={true} src="https://files.readme.io/d81e673f87f261d6b098f8e062f8580297676b82eabd667fbb8a2df03beffd37-Edit_shipping_account_option.png" alt="Selecting option to edit shipping account" />
+
+        ***
+      </ToggleListItem>
+
+      <br />
+
+      <ToggleListItem title={<strong>4. Delete shipping account </strong>} icon="fa-rocket">
+        <br />
+
+        In the **Edit Shipping Account\[account name]** form that opens, on the top right corner, select ![alt text](https://files.readme.io/2b717367c6b8d33a03ad2eebc3a40edb38663cb47e41c7e3517289780460ef19-Delete_account_button.png).
+
+        <Image align="center" border={true} src="https://files.readme.io/d0978d6da7df64866e6544071d90031fe5f91669b2cfc0eeef0fbd460c9a20b4-Deleting_shipping_account.png" alt="Editing shipping account" />
+
+        <br />
+
+        ***
+      </ToggleListItem>
+
+      <br />
+
+      <ToggleListItem title={<strong>5. Confirm your action </strong>} icon="fa-rocket">
+        <br />
+
+        In the confirmation dialog that appears, select **Yes** to confirm your action.
+
+        <Image align="center" border={true} src="https://files.readme.io/914ca92582b92600a9af9e9237ab6669e325795bab18d4de668c666d6d420606-Confirming_account_deletion.png" width="400px" alt="Confirming account deletion" />
+
+        Once confirmed, the shipping account is deleted successfully and no longer displays in the **Shipping Accounts** list.
+
+        <br />
+
+        ***
+      </ToggleListItem>
+    </ToggleList>
+  </Tab>
 
   <Tab title="Delete via API">
     To delete the shipping account via our API, refer to the following endpoint
