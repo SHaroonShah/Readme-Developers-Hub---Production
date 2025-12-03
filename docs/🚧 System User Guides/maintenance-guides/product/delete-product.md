@@ -52,7 +52,7 @@ In SAPIENT, you can delete a product to cleanup the database, preventing confusi
       <ToggleListItem title={<strong>3. Delete product</strong>} icon="fa-rocket">
         <br />
 
-        In the **Edit Product** form that opens, click) ![](https://files.readme.io/63292b906edfcaf8554e4c4b9385b1ba483ec4ada1541955dde6ff5a78cc55fe-Delete_product_button.png).
+        In the **Edit Product** form that opens, click ![](https://files.readme.io/63292b906edfcaf8554e4c4b9385b1ba483ec4ada1541955dde6ff5a78cc55fe-Delete_product_button.png).
 
         <Image align="center" border={true} src="https://files.readme.io/c84f99786468144347b5039b2c1bde7322000a27e08f78cb070a4fbd17dbd9f0-Delete_product_option.png" alt="Selecting option to add shipping location" />
 
