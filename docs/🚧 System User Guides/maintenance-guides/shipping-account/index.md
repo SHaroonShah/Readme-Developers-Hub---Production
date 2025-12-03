@@ -19,18 +19,18 @@ This centralised system allows you to handle all aspects of your shipping operat
 
 ## Manage your shipping accounts
 
-In this section, learn how to do the following:
+In this section, learn how to mange your shipping accounts with these essential operations:
 
 <Cards columns="3">
-  <Card title="Add an Account" href="https://docs.intersoftsapient.net/docs/add-a-shipping-account" icon="fa-solid fa-plus-circle">
+  <Card title="Add Account" href="https://docs.intersoftsapient.net/docs/add-a-shipping-account" icon="fa-solid fa-plus-circle">
     Set up a new shipping account with your preferred carrier or logistics provider to start processing shipments.
   </Card>
 
-  <Card title="Edit an Account" href="https://docs.intersoftsapient.net/docs/edit-shipping-account" icon="fa-solid fa-edit">
+  <Card title="Edit Account" href="https://docs.intersoftsapient.net/docs/edit-shipping-account" icon="fa-solid fa-edit">
     Modify existing shipping account details, update credentials, or change configuration settings.
   </Card>
 
-  <Card title="Delete an Account" href="https://docs.intersoftsapient.net/docs/delete-shipping-account" icon="fa-solid fa-trash">
+  <Card title="Delete Account" href="https://docs.intersoftsapient.net/docs/delete-shipping-account" icon="fa-solid fa-trash">
     Remove shipping accounts that are no longer needed or have been disabled.
   </Card>
 </Cards>
