@@ -66,10 +66,12 @@ In SAPIENT, you can add as many products as you want and use them in your <Gloss
         On the **Add Product** form that opens, in the **PRODUCT DETAILS** block, enter the necessary information as explained in the following table.
 
         <Tabs>
-          <Tab title="Basic Product Details">
+          <Tab title="Basic product details">
             On the **Add Product** form that opens, in the **PRODUCT DETAILS** block, enter the necessary information.
 
-            <Image align="center" border={true} src="https://files.readme.io/3a7afb46d19e9ed7a9c70e204c3a8abfbc168b76acc5bd3c6bad4737f9734ce9-Product_details_form.png" alt="Entering location details" /><br />
+            <Image align="center" border={true} src="https://files.readme.io/3a7afb46d19e9ed7a9c70e204c3a8abfbc168b76acc5bd3c6bad4737f9734ce9-Product_details_form.png" alt="Entering location details" />
+
+            <br />
 
             <AsteridkForMandatoryElements />
 
@@ -178,10 +180,10 @@ In SAPIENT, you can add as many products as you want and use them in your <Gloss
             </Table>
           </Tab>
 
-          <Tab title="Hazardous Materials">
+          <Tab title="Hazardous product details">
             If the product you are adding is a hazardous material, then turn on ![alt text](https://files.readme.io/efe8272f619daf8eb5e78d9b1c0e910a406242d6d5a9ced9a84d013216a8521c-Hazardous_product_toggle.png) toggle and enter the necessary information as explained in the following table.
 
-            <Image align="center" border={true} src="https://files.readme.io/81567e5b0718c10f9e6955ed1b44915b5f824ddc836d0c1243b598f03225d20a-Hazardous_information_form.png" alt="Entering address details" />
+            <Image align="center" border={true} src="https://files.readme.io/81567e5b0718c10f9e6955ed1b44915b5f824ddc836d0c1243b598f03225d20a-Hazardous_information_form.png" alt="Entering address details" /><br />
 
             <AsteridkForMandatoryElements />
 
