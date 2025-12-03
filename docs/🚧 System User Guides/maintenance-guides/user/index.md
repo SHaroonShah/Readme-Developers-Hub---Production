@@ -38,4 +38,8 @@ In this section, learn how to:
 
 ## See also
 
-* [Authorisation](https://docs.intersoftsapient.net/docs/authorisation)
+<Cards>
+  <Card title="Authorisation" href="https://docs.intersoftsapient.net/docs/authorisation" icon="fa-solid fa-circle-plus">
+    Learn more about user permissions, access controls, and security settings in the SAPIENT system.
+  </Card>
+</Cards>
