@@ -22,7 +22,7 @@ In SAPIENT, you can add as many products as you want and use them in your <Gloss
     Standard items with basic product information like dimensions, weight, and value.
   </Card>
 
-  <Card title="Hazardous Materials" icon="fa-solid fa-radiation-triangle">
+  <Card title="Hazardous Materials" icon="fa-solid fa-radiation">
     Special products requiring additional safety information and compliance details.
   </Card>
 </Cards>
