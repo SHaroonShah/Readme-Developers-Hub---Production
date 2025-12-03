@@ -197,3 +197,7 @@ Moreover, different roles and permissions improve security by restricting access
   2. The user must confirm the email and set their credentials (username and password).
   3. Once confirmed, the user account status is set to **Active**.
 </Accordion>
+
+***
+
+### See also
