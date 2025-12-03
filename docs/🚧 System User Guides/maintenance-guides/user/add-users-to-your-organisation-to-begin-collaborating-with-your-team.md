@@ -162,7 +162,16 @@ Moreover, different roles and permissions improve security by restricting access
       <Card title="Shipment Manifesting" icon="clipboard-list">
         Permission that allows to <Glossary>manifest</Glossary> shipments via the SAPIENT UI.
       </Card>
-    </Cards>
+    </Cards><br />
+> 🚧 _**Important**_
+>
+> _The Admin user has access to all functionalities, but Administrator, Lead, or Operator roles must be assigned specific permissions._
+>
+> _Whether the user has accepted the invite or not, you can update their roles and permissions from the **Users** tab on the **Edit User** page. Make your changes and select **Save Changes** to update_.
+>
+> _For detailed information on user roles and access permissions, refer to the [role-based access to SAPIENT actions](https://docs.intersoftsapient.net/docs/sapient-user-roles-and-permissions#/) section._
+
+<br />
     
   </Tab>
 </Tabs>
@@ -177,12 +186,4 @@ Moreover, different roles and permissions improve security by restricting access
   3. Once confirmed, the user account status is set to **Active**
 </Accordion>
 
-> 🚧 _**Important**_
->
-> _The Admin user has access to all functionalities, but Administrator, Lead, or Operator roles must be assigned specific permissions._
->
-> _Whether the user has accepted the invite or not, you can update their roles and permissions from the **Users** tab on the **Edit User** page. Make your changes and select **Save Changes** to update_.
->
-> _For detailed information on user roles and access permissions, refer to the [role-based access to SAPIENT actions](https://docs.intersoftsapient.net/docs/sapient-user-roles-and-permissions#/) section._
 
-<br />
