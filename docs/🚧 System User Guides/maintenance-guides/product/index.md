@@ -1,7 +1,7 @@
 ---
 title: Product
 excerpt: >-
-  A product is any physical item or good that is being transported from one
+  A _product_ is any physical item or good that is being transported from one
   location to another. This can include a wide range of items, from consumer
   goods and industrial materials to perishable items and fragile products.
 deprecated: false
