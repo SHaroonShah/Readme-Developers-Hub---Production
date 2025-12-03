@@ -23,7 +23,9 @@ Moreover, different roles and permissions improve security by restricting access
 > _You cannot add or manage users via API._
 
 <Tabs>
-  <Tab title="Add User"><br />
+  <Tab title="Add User">
+    <br />
+
     > 🚧 *Important*
     >
     > *You cannot add or manage users via API.*
@@ -118,7 +120,7 @@ Moreover, different roles and permissions improve security by restricting access
 
         <br />
 
-        > 📘 &#xNAN;***Note***
+        > 📘 *Note*
         >
         > *The availability of permissions may vary based on the selected user location.*
 
@@ -169,7 +171,8 @@ Moreover, different roles and permissions improve security by restricting access
     </Cards>
 
     <br />
-> 🚧 *Important*
+
+    > 🚧 *Important*
     >
     > *The Admin user has access to all functionalities, but Administrator, Lead, or Operator roles must be assigned specific permissions.*
     >
