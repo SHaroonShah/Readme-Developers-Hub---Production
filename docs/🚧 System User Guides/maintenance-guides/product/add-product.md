@@ -38,9 +38,10 @@ In SAPIENT, you can add as many products as you want and use them in your <Gloss
     <ToggleList>
       <ToggleListItem title={<strong>1. Access the products page</strong>} icon="fa-rocket">
         <br />
-In the left navigation panel, select **Products**.
 
-  <Image align="center" border={true} src="https://files.readme.io/ec355529da5603569fe7c27204b1b58b5f7368185e1daa06e9836a6a0c4e855b-Acccessing_products_option.png" alt="Accessing shipping locations" />
+        In the left navigation panel, select **Products**.
+
+        <Image align="center" border={true} src="https://files.readme.io/ec355529da5603569fe7c27204b1b58b5f7368185e1daa06e9836a6a0c4e855b-Acccessing_products_option.png" alt="Accessing shipping locations" />
 
         ***
       </ToggleListItem>
@@ -52,7 +53,7 @@ In the left navigation panel, select **Products**.
 
         On the **Products** page that appears, select ![alt text](https://files.readme.io/551c1450e733a95bd452603ef5b85d1a7117a44a87b0689da3cd7b09b6351023-Add_product_button.png).
 
-  <Image align="center" border={true} src="https://files.readme.io/dc08b7bdd1de178e0ec7835267721eea82af919b8f983ac89e33bcfdcb7ddef4-Add_product_option.png" alt="Selecting option to add shipping location" />
+        <Image align="center" border={true} src="https://files.readme.io/dc08b7bdd1de178e0ec7835267721eea82af919b8f983ac89e33bcfdcb7ddef4-Add_product_option.png" alt="Selecting option to add shipping location" />
 
         ***
       </ToggleListItem>
@@ -63,245 +64,238 @@ In the left navigation panel, select **Products**.
         <br />
 
         On the **Add Product** form that opens, in the **PRODUCT DETAILS** block, enter the necessary information.
-<Tabs>
-  <Tab title="Basic Product Details">
-    On the **Add Product** form that opens, in the **PRODUCT DETAILS** block, enter the necessary information.
 
-    <Image align="center" border={true} src="https://files.readme.io/3a7afb46d19e9ed7a9c70e204c3a8abfbc168b76acc5bd3c6bad4737f9734ce9-Product_details_form.png" alt="Entering location details" />
+        <Tabs>
+          <Tab title="Basic Product Details">
+            On the **Add Product** form that opens, in the **PRODUCT DETAILS** block, enter the necessary information.
 
-    <AsteridkForMandatoryElements />
+            <Image align="center" border={true} src="https://files.readme.io/3a7afb46d19e9ed7a9c70e204c3a8abfbc168b76acc5bd3c6bad4737f9734ce9-Product_details_form.png" alt="Entering location details" />
 
-    <Accordion title="Required Fields Reference" icon="list">
-      <Table align={["center","left"]}>
-        <thead>
-          <tr>
-            <th style={{ textAlign: "center" }}>
-              Element
-            </th>
+            <AsteridkForMandatoryElements />
 
-            <th style={{ textAlign: "left" }}>
-              Description
-            </th>
-          </tr>
-        </thead>
+       
+              <Table align={["center","left"]}>
+                <thead>
+                  <tr>
+                    <th style={{ textAlign: "center" }}>
+                      Element
+                    </th>
 
-        <tbody>
-          <tr>
-            <td style={{ textAlign: "center" }}>
-              **SKU Code**\*
-            </td>
+                    <th style={{ textAlign: "left" }}>
+                      Description
+                    </th>
+                  </tr>
+                </thead>
 
-            <td style={{ textAlign: "left" }}>
-              Enter the <Glossary>stock keeping unit</Glossary> of the product you are adding.
-            </td>
-          </tr>
+                <tbody>
+                  <tr>
+                    <td style={{ textAlign: "center" }}>
+                      **SKU Code**\*
+                    </td>
 
-          <tr>
-            <td style={{ textAlign: "center" }}>
-              **HS Code**
-            </td>
+                    <td style={{ textAlign: "left" }}>
+                      Enter the <Glossary>stock keeping unit</Glossary> of the product you are adding.
+                    </td>
+                  </tr>
 
-            <td style={{ textAlign: "left" }}>
-              Enter the <Glossary>HS Code</Glossary> for the product you are adding.
+                  <tr>
+                    <td style={{ textAlign: "center" }}>
+                      **HS Code**
+                    </td>
 
-              *`Note`: A minimum of 6 alpha-numeric code is required when the HS Code is provided (some services/destinations may require 8). Additionally, this information is required by some carriers for dutiable shipments.*
-            </td>
-          </tr>
+                    <td style={{ textAlign: "left" }}>
+                      Enter the <Glossary>HS Code</Glossary> for the product you are adding.
 
-          <tr>
-            <td style={{ textAlign: "center" }}>
-              **Description**\*
-            </td>
+                      *`Note`: A minimum of 6 alpha-numeric code is required when the HS Code is provided (some services/destinations may require 8). Additionally, this information is required by some carriers for dutiable shipments.*
+                    </td>
+                  </tr>
 
-            <td style={{ textAlign: "left" }}>
-              Enter a detailed description of the product you are adding.
-            </td>
-          </tr>
+                  <tr>
+                    <td style={{ textAlign: "center" }}>
+                      **Description**\*
+                    </td>
 
-          <tr>
-            <td style={{ textAlign: "center" }}>
-              **Country of Origin**
-            </td>
+                    <td style={{ textAlign: "left" }}>
+                      Enter a detailed description of the product you are adding.
+                    </td>
+                  </tr>
 
-            <td style={{ textAlign: "left" }}>
-              From the dropdown menu, select the country where the product you are adding was manufactured.
+                  <tr>
+                    <td style={{ textAlign: "center" }}>
+                      **Country of Origin**
+                    </td>
 
-              *`Note`: This information is required by some carriers for dutiable shipments.*
-            </td>
-          </tr>
+                    <td style={{ textAlign: "left" }}>
+                      From the dropdown menu, select the country where the product you are adding was manufactured.
 
-          <tr>
-            <td style={{ textAlign: "center" }}>
-              **Value**\*
-            </td>
+                      *`Note`: This information is required by some carriers for dutiable shipments.*
+                    </td>
+                  </tr>
 
-            <td style={{ textAlign: "left" }}>
-              Enter the monetary value of the product you are adding.
-            </td>
-          </tr>
+                  <tr>
+                    <td style={{ textAlign: "center" }}>
+                      **Value**\*
+                    </td>
 
-          <tr>
-            <td style={{ textAlign: "center" }}>
-              **Currency**\*
-            </td>
+                    <td style={{ textAlign: "left" }}>
+                      Enter the monetary value of the product you are adding.
+                    </td>
+                  </tr>
 
-            <td style={{ textAlign: "left" }}>
-              From the dropdown menu, select the currency code in which the value of the product is set.
+                  <tr>
+                    <td style={{ textAlign: "center" }}>
+                      **Currency**\*
+                    </td>
 
-              *Note: This information is required if any monetary values other than zero are provided.*
-            </td>
-          </tr>
+                    <td style={{ textAlign: "left" }}>
+                      From the dropdown menu, select the currency code in which the value of the product is set.
 
-          <tr>
-            <td style={{ textAlign: "center" }}>
-              **Weight (kg)**\*
-            </td>
+                      *Note: This information is required if any monetary values other than zero are provided.*
+                    </td>
+                  </tr>
 
-            <td style={{ textAlign: "left" }}>
-              Enter the weight of the product you are adding. The unit of measure is set to **Kg** by default and can be a maximum of 1000 kg.
+                  <tr>
+                    <td style={{ textAlign: "center" }}>
+                      **Weight (kg)**\*
+                    </td>
 
-              *`Note`: This information is required for dutiable shipments and must be a minimum of 1 g.*
-            </td>
-          </tr>
+                    <td style={{ textAlign: "left" }}>
+                      Enter the weight of the product you are adding. The unit of measure is set to **Kg** by default and can be a maximum of 1000 kg.
 
-          <tr>
-            <td style={{ textAlign: "center" }}>
-              **Hazardous Product**
-            </td>
+                      *`Note`: This information is required for dutiable shipments and must be a minimum of 1 g.*
+                    </td>
+                  </tr>
 
-            <td style={{ textAlign: "left" }}>
-              This toggle is turned off by default. If the product you are adding is a hazardous material, then turn on this toggle and enter the necessary information as explained in the Hazardous Materials tab.
-            </td>
-          </tr>
-        </tbody>
-      </Table>
-    </Accordion>
-  </Tab>
+                  <tr>
+                    <td style={{ textAlign: "center" }}>
+                      **Hazardous Product**
+                    </td>
 
-  <Tab title="Hazardous Materials">
-    If the product you are adding is a hazardous material, then turn on ![alt text](https://files.readme.io/efe8272f619daf8eb5e78d9b1c0e910a406242d6d5a9ced9a84d013216a8521c-Hazardous_product_toggle.png) toggle.
+                    <td style={{ textAlign: "left" }}>
+                      This toggle is turned off by default. If the product you are adding is a hazardous material, then turn on this toggle and enter the necessary information as explained in the Hazardous Materials tab.
+                    </td>
+                  </tr>
+                </tbody>
+              </Table>
+          </Tab>
 
-    <Image align="center" border={true} src="https://files.readme.io/81567e5b0718c10f9e6955ed1b44915b5f824ddc836d0c1243b598f03225d20a-Hazardous_information_form.png" alt="Entering address details" />
+          <Tab title="Hazardous Materials">
+            If the product you are adding is a hazardous material, then turn on ![alt text](https://files.readme.io/efe8272f619daf8eb5e78d9b1c0e910a406242d6d5a9ced9a84d013216a8521c-Hazardous_product_toggle.png) toggle and enter the necessary information as explained in the following table.
 
-    <Cards columns={1}>
-      <Card title="Important Safety Notice" icon="shield-alt">
-        Hazardous materials require additional compliance information for safe shipping. Ensure all fields are completed accurately to meet regulatory requirements.
-      </Card>
-    </Cards>
+            <Image align="center" border={true} src="https://files.readme.io/81567e5b0718c10f9e6955ed1b44915b5f824ddc836d0c1243b598f03225d20a-Hazardous_information_form.png" alt="Entering address details" />
 
-    <Accordion title="Hazardous Information Fields" icon="exclamation-triangle">
-      <AsteridkForMandatoryElements />
+              <AsteridkForMandatoryElements />
 
-      <Table align={["center","left"]}>
-        <thead>
-          <tr>
-            <th style={{ textAlign: "center" }}>
-              Element
-            </th>
+              <Table align={["center","left"]}>
+                <thead>
+                  <tr>
+                    <th style={{ textAlign: "center" }}>
+                      Element
+                    </th>
 
-            <th style={{ textAlign: "left" }}>
-              Description
-            </th>
-          </tr>
-        </thead>
+                    <th style={{ textAlign: "left" }}>
+                      Description
+                    </th>
+                  </tr>
+                </thead>
 
-        <tbody>
-          <tr>
-            <td style={{ textAlign: "center" }}>
-              **UN Code**\*
-            </td>
+                <tbody>
+                  <tr>
+                    <td style={{ textAlign: "center" }}>
+                      **UN Code**\*
+                    </td>
 
-            <td style={{ textAlign: "left" }}>
-              Enter the unique four digit number assigned by the United Nations to identify hazardous substances. It helps in recognising the hazardous product during shipping.
-            </td>
-          </tr>
+                    <td style={{ textAlign: "left" }}>
+                      Enter the unique four digit number assigned by the United Nations to identify hazardous substances. It helps in recognising the hazardous product during shipping.
+                    </td>
+                  </tr>
 
-          <tr>
-            <td style={{ textAlign: "center" }}>
-              **Proper Shipping Name**
-            </td>
+                  <tr>
+                    <td style={{ textAlign: "center" }}>
+                      **Proper Shipping Name**
+                    </td>
 
-            <td style={{ textAlign: "left" }}>
-              Enter the official name of the hazardous product as specified in the transport regulations, which clearly describes the substance and its potential hazards.
-            </td>
-          </tr>
+                    <td style={{ textAlign: "left" }}>
+                      Enter the official name of the hazardous product as specified in the transport regulations, which clearly describes the substance and its potential hazards.
+                    </td>
+                  </tr>
 
-          <tr>
-            <td style={{ textAlign: "center" }}>
-              **Quantity**\*
-            </td>
+                  <tr>
+                    <td style={{ textAlign: "center" }}>
+                      **Quantity**\*
+                    </td>
 
-            <td style={{ textAlign: "left" }}>
-              Enter total amount of the hazardous product being shipped.
-            </td>
-          </tr>
+                    <td style={{ textAlign: "left" }}>
+                      Enter total amount of the hazardous product being shipped.
+                    </td>
+                  </tr>
 
-          <tr>
-            <td style={{ textAlign: "center" }}>
-              **Unit of Measure**\*
-            </td>
+                  <tr>
+                    <td style={{ textAlign: "center" }}>
+                      **Unit of Measure**\*
+                    </td>
 
-            <td style={{ textAlign: "left" }}>
-              Enter the measurement unit (such as kilograms, litres, pounds, and so on) used to quantify the quantity of the hazardous product.
-            </td>
-          </tr>
+                    <td style={{ textAlign: "left" }}>
+                      Enter the measurement unit (such as kilograms, litres, pounds, and so on) used to quantify the quantity of the hazardous product.
+                    </td>
+                  </tr>
 
-          <tr>
-            <td style={{ textAlign: "center" }}>
-              **Class**\*
-            </td>
+                  <tr>
+                    <td style={{ textAlign: "center" }}>
+                      **Class**\*
+                    </td>
 
-            <td style={{ textAlign: "left" }}>
-              Enter the classification number that reflects the type of hazard posed by the product (for example, inflammable, toxic, corrosive) which is crucial for determining the appropriate handling and transportation measures.
-            </td>
-          </tr>
+                    <td style={{ textAlign: "left" }}>
+                      Enter the classification number that reflects the type of hazard posed by the product (for example, inflammable, toxic, corrosive) which is crucial for determining the appropriate handling and transportation measures.
+                    </td>
+                  </tr>
 
-          <tr>
-            <td style={{ textAlign: "center" }}>
-              **ID8000 Category**
-            </td>
+                  <tr>
+                    <td style={{ textAlign: "center" }}>
+                      **ID8000 Category**
+                    </td>
 
-            <td style={{ textAlign: "left" }}>
-              This field is only available if the class of the hazardous product is 9.
+                    <td style={{ textAlign: "left" }}>
+                      This field is only available if the class of the hazardous product is 9.
 
-              From the dropdown menu, select the category of the dangerous goods identified under ID8000 regulations.
-            </td>
-          </tr>
+                      From the dropdown menu, select the category of the dangerous goods identified under ID8000 regulations.
+                    </td>
+                  </tr>
 
-          <tr>
-            <td style={{ textAlign: "center" }}>
-              **Emergency Action Code**
-            </td>
+                  <tr>
+                    <td style={{ textAlign: "center" }}>
+                      **Emergency Action Code**
+                    </td>
 
-            <td style={{ textAlign: "left" }}>
-              Enter the code that indicates necessary emergency response actions to take in the event of of an incident involving the hazardous product during transport.
-            </td>
-          </tr>
+                    <td style={{ textAlign: "left" }}>
+                      Enter the code that indicates necessary emergency response actions to take in the event of of an incident involving the hazardous product during transport.
+                    </td>
+                  </tr>
 
-          <tr>
-            <td style={{ textAlign: "center" }}>
-              **Hazchem Number**
-            </td>
+                  <tr>
+                    <td style={{ textAlign: "center" }}>
+                      **Hazchem Number**
+                    </td>
 
-            <td style={{ textAlign: "left" }}>
-              Enter the number assigned to the hazardous material that indicates the specific firefighting and emergency response measures required, ensuring that responders have quick access to critical information.
-            </td>
-          </tr>
+                    <td style={{ textAlign: "left" }}>
+                      Enter the number assigned to the hazardous material that indicates the specific firefighting and emergency response measures required, ensuring that responders have quick access to critical information.
+                    </td>
+                  </tr>
 
-          <tr>
-            <td style={{ textAlign: "center" }}>
-              **Specialist Advice Contact Number**
-            </td>
+                  <tr>
+                    <td style={{ textAlign: "center" }}>
+                      **Specialist Advice Contact Number**
+                    </td>
 
-            <td style={{ textAlign: "left" }}>
-              Enter the telephone number for reaching an expert or specialist who can provide guidance on handling the hazardous product in case of emergencies or specific inquiries regarding its transport.
-            </td>
-          </tr>
-        </tbody>
-      </Table>
-    </Accordion>
-  </Tab>
-</Tabs>
+                    <td style={{ textAlign: "left" }}>
+                      Enter the telephone number for reaching an expert or specialist who can provide guidance on handling the hazardous product in case of emergencies or specific inquiries regarding its transport.
+                    </td>
+                  </tr>
+                </tbody>
+              </Table>
+            
+          </Tab>
+        </Tabs>
 
         ***
       </ToggleListItem>
