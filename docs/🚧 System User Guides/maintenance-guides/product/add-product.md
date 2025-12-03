@@ -304,12 +304,12 @@ In SAPIENT, you can add as many products as you want and use them in your <Gloss
 
       <br />
 
-      <ToggleListItem title={<strong>4. Confirm deletion </strong>} icon="fa-rocket">
+      <ToggleListItem title={<strong>4. Add product </strong>} icon="fa-rocket">
         <br />
 
-        In the confirmation dialog that appears, select **Yes** to confirm your action.
+        After entering all the relevant information, select ![](https://files.readme.io/cbbd6f41c2af58489811253c7a470ba0541bace30346d7d0e2f0fd2c222348fa-Add_product_button_2.png).
 
-        <Image align="center" border={true} src="https://files.readme.io/a6e38fbaadee4529ebe22646e35a12534d4a944a8bfb768a243d02380f082af2-Confirming_account_deletion.png" width="350px" alt="Confirming deletion" />
+Once done, a new product is added successfully and appears in the **Products** table. You can now manage it as per your business needs and use them in your shipment requests.
       </ToggleListItem>
     </ToggleList>
   </Tab>
@@ -332,7 +332,6 @@ In SAPIENT, you can add as many products as you want and use them in your <Gloss
 ### See also
 
 <Cards columns={2}>
-  
   <Card title="Edit Product" href="https://docs.intersoftsapient.net/docs/edit-product" icon="fa-solid fa-edit">
     Modify existing product information, update specifications, or change handling instructions.
   </Card>
