@@ -23,15 +23,15 @@ The address book facilitates easier management and retrieval of shipping address
 In this section, learn how to mange your address book with these essential operations:
 
 <Cards columns="3">
-  <Card title="Add Address" href="https://docs.intersoftsapient.net/docs/add-address" icon="plus-circle">
+  <Card title="Add Address" href="https://docs.intersoftsapient.net/docs/add-address" icon="fa-solid fa-plus-circle">
     Create new addresses for customers, vendors, suppliers, or warehouse locations to expand your address repository.
   </Card>
 
-  <Card title="Edit Address" href="https://docs.intersoftsapient.net/docs/edit-address" icon="edit">
+  <Card title="Edit Address" href="https://docs.intersoftsapient.net/docs/edit-address" icon="fa-solid fa-edit">
     Update existing address details to keep your records current and accurate for reliable shipping.
   </Card>
 
-  <Card title="Delete Address" href="https://docs.intersoftsapient.net/docs/delete-address" icon="trash-alt">
+  <Card title="Delete Address" href="https://docs.intersoftsapient.net/docs/delete-address" icon="fa-solid fa-trash">
     Remove outdated or unnecessary addresses to maintain a clean and organised address book.
   </Card>
 </Cards>
