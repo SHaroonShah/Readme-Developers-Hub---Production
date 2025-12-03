@@ -181,9 +181,7 @@ Moreover, different roles and permissions improve security by restricting access
 <Accordion title="Email confirmation & account activation" icon="envelope">
   After the user is added:
 
-  1. A confirmation email is sent to the specified email address
-  2. The user must confirm the email and set their credentials (username and password)
-  3. Once confirmed, the user account status is set to **Active**
+  1. A confirmation email is sent to the specified email address.
+  2. The user must confirm the email and set their credentials (username and password).
+  3. Once confirmed, the user account status is set to **Active**.
 </Accordion>
-
-
