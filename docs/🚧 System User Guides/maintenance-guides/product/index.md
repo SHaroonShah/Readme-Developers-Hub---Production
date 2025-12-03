@@ -20,7 +20,7 @@ The shipping of these products often requires specific handling, packaging, and 
 
 ## Manage your products
 
-In this section, learn how to do the following: 
+In this section, learn how to do the following:
 
 <Cards columns={3}>
   <Card title="Add a Product" href="https://docs.intersoftsapient.net/docs/add-product" icon="fa-solid fa-plus-circle">
@@ -32,6 +32,6 @@ In this section, learn how to do the following:
   </Card>
 
   <Card title="Delete a Product" href="https://docs.intersoftsapient.net/docs/delete-product" icon="fa-solid fa-trash-alt">
-    Remove products from your system when they are no longer needed or relevant.
+    Remove products from your system that are no longer needed.
   </Card>
 </Cards>
