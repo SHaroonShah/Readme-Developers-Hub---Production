@@ -32,6 +32,6 @@ In this section, learn how to mange your address book with these essential opera
   </Card>
 
   <Card title="Delete Address" href="https://docs.intersoftsapient.net/docs/delete-address" icon="trash-alt">
-    Remove outdated or unnecessary addresses to maintain a clean and organized address book.
+    Remove outdated or unnecessary addresses to maintain a clean and organised address book.
   </Card>
 </Cards>
