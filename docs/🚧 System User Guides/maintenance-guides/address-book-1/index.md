@@ -28,7 +28,7 @@ In this section, learn how to mange your address book with these essential opera
   </Card>
 
   <Card title="Edit Address" href="https://docs.intersoftsapient.net/docs/edit-address" icon="edit">
-    Update existing address information to keep your records current and accurate for reliable shipping.
+    Update existing address details to keep your records current and accurate for reliable shipping.
   </Card>
 
   <Card title="Delete Address" href="https://docs.intersoftsapient.net/docs/delete-address" icon="trash-alt">
