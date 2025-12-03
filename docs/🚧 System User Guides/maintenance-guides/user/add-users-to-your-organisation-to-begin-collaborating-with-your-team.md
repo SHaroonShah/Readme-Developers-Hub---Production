@@ -115,6 +115,7 @@ Moreover, different roles and permissions improve security by restricting access
         <Image align="center" border={true} src="https://files.readme.io/2ed27a48c71de0cb667898056414d5f35d0fef1e4ba93113f74a641dddc8b13a-Permissions_block.png" width="400px" alt="Assigning permissions" />
 
         > 📘***Note***
+>
         > *The availability of permissions may vary based on the selected user location.*
 
         ***
