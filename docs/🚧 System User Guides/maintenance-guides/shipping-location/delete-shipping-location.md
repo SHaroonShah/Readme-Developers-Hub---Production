@@ -32,9 +32,9 @@ In SAPIENT, you can delete the shipping location to keep the shipping database c
       <ToggleListItem title={<strong>1. Access the shipping locations page</strong>} icon="fa-rocket">
         <br />
 
-         In the left navigation panel, select **Shipping Locations**.
+        In the left navigation panel, select **Shipping Locations**.
 
-    <Image align="center" border={true} src="https://files.readme.io/a84f50bafad4110e2244fa56d73b34787cf197d6a4e3de326ad287880d85e835-Shipping_locations_option.png" alt="Accessing shipping locations" />
+        <Image align="center" border={true} src="https://files.readme.io/a84f50bafad4110e2244fa56d73b34787cf197d6a4e3de326ad287880d85e835-Shipping_locations_option.png" alt="Accessing shipping locations" />
 
         ***
       </ToggleListItem>
@@ -46,7 +46,7 @@ In SAPIENT, you can delete the shipping location to keep the shipping database c
 
         On the **Shipping Locations** page, select the shipping location you want to delete. On the **View Shipping Location \[location name]** form that opens, select the edit button.
 
-    <Image align="center" border={true} src="https://files.readme.io/0ffbf35c04a6aa2b82329f91bca4df861fae2511cfbe07feeee4d9e97827d8c5-Edit_shippig_location_option.png" alt="Selecting option to add shipping location" />
+        <Image align="center" border={true} src="https://files.readme.io/0ffbf35c04a6aa2b82329f91bca4df861fae2511cfbe07feeee4d9e97827d8c5-Edit_shippig_location_option.png" alt="Selecting option to add shipping location" />
 
         ***
       </ToggleListItem>
@@ -58,7 +58,7 @@ In SAPIENT, you can delete the shipping location to keep the shipping database c
 
         On the **Edit Shipping Location \[location name]** form, select the delete button in the right corner.
 
-    <Image align="center" border={true} src="https://files.readme.io/bd3538aec38b70a7d69715426fca677ddc2922db2b942448fce828b6357e2cad-Deleting_shipping_location.png" alt="Entering location details" />
+        <Image align="center" border={true} src="https://files.readme.io/bd3538aec38b70a7d69715426fca677ddc2922db2b942448fce828b6357e2cad-Deleting_shipping_location.png" alt="Entering location details" />
 
         ***
       </ToggleListItem>
@@ -70,9 +70,7 @@ In SAPIENT, you can delete the shipping location to keep the shipping database c
 
         In the confirmation dialog that appears, select **Yes** to confirm your action.
 
-    <Image align="center" border={true} src="https://files.readme.io/a6e38fbaadee4529ebe22646e35a12534d4a944a8bfb768a243d02380f082af2-Confirming_account_deletion.png" width="350px" alt="Confirming deletion" />
-
-        ***
+        <Image align="center" border={true} src="https://files.readme.io/a6e38fbaadee4529ebe22646e35a12534d4a944a8bfb768a243d02380f082af2-Confirming_account_deletion.png" width="350px" alt="Confirming deletion" />
       </ToggleListItem>
     </ToggleList>
   </Tab>
