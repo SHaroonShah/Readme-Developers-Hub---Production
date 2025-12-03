@@ -15,14 +15,14 @@ next:
 ---
 In SAPIENT, you can edit the users to maintain accurate and up-to-date records of users, reflecting changes in personnel or responsibilities. This process enhances security and operational efficiency by adjusting access rights based on the user’s evolving role within the organization.
 
-## Ho to edit user
+> 📘 _Note_
+>
+> _You cannot add or manage users via API._
+
+## How to edit user
 
 <ToggleList>
   To edit a user in SAPIENT, perform the steps as explained in the following procedure:
-
-  > 📘 *Note*
-  >
-  > *You cannot edit or manage users via API.*
 
   <ToggleListItem title={<strong>1. Access users page</strong>} icon="fa-rocket">
     <br />
