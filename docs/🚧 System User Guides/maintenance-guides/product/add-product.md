@@ -331,4 +331,13 @@ In SAPIENT, you can add as many products as you want and use them in your <Gloss
 
 ### See also
 
-<br />
+<Cards columns={2}>
+  
+  <Card title="Edit Product" href="https://docs.intersoftsapient.net/docs/edit-product" icon="fa-solid fa-edit">
+    Modify existing product information, update specifications, or change handling instructions.
+  </Card>
+
+  <Card title="Delete Product" href="https://docs.intersoftsapient.net/docs/delete-product" icon="fa-solid fa-trash-alt">
+    Remove products from your system that are no longer needed.
+  </Card>
+</Cards>
