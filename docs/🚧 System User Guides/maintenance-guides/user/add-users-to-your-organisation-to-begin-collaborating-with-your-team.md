@@ -84,11 +84,12 @@ Moreover, different roles and permissions improve security by restricting access
 
       <br />
 
-      <ToggleListItem title={<strong>5. Enter user details</strong>} icon="fa-rocket"><br></br>
+      <ToggleListItem title={<strong>5. Enter user details</strong>} icon="fa-rocket">
+        <br />
 
         In the **USER DETAILS** block, enter the necessary information:
 
-        <Image align="center" border={true} src="https://files.readme.io/4cf9c1127ab7a7b23af6107408ed6fc0e7500f1bacef3af2f2a51ad15c3be18e-User_details_block.png" width="400px" alt="Entering user details" />
+        <Image align="center" border={true} src="https://files.readme.io/4cf9c1127ab7a7b23af6107408ed6fc0e7500f1bacef3af2f2a51ad15c3be18e-User_details_block.png" width="400px" alt="Entering user details" /><br />
 
         <AsteridkForMandatoryElements />
 
@@ -101,6 +102,7 @@ Moreover, different roles and permissions improve security by restricting access
 
         ***
       </ToggleListItem>
+<br />
 
       <ToggleListItem title={<strong>6. Assign permissions </strong>} icon="fa-rocket">
         <br />
