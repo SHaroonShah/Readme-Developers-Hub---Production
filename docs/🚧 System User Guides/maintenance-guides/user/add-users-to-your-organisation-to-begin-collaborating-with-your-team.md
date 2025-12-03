@@ -114,8 +114,8 @@ Moreover, different roles and permissions improve security by restricting access
 
         <Image align="center" border={true} src="https://files.readme.io/2ed27a48c71de0cb667898056414d5f35d0fef1e4ba93113f74a641dddc8b13a-Permissions_block.png" width="400px" alt="Assigning permissions" />
 
-        > 📘***Note***
->
+        > 📘 &#xNAN;***Note***
+        >
         > *The availability of permissions may vary based on the selected user location.*
 
         ***
@@ -139,10 +139,10 @@ Moreover, different roles and permissions improve security by restricting access
     </ToggleList>
   </Tab>
 
-  <Tab title="User Types & Permissions">
+  <Tab title="User types & permissions">
     ## Available User Types and Permissions
 
-    <Cards columns={2}>
+    <Cards>
       <Card title="Carrier Accounts Administrator" icon="truck">
         User type with the ability to manage carrier accounts for all assigned <Glossary>carrier</Glossary>(s).
       </Card>
