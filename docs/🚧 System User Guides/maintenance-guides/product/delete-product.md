@@ -66,7 +66,7 @@ In SAPIENT, you can delete a product to cleanup the database, preventing confusi
 
         In the confirmation dialog that appears, select **Yes** to confirm your action.
 
-        <Image align="center" border={true} src="https://files.readme.io/2c4dc02c1409b059556e92db227a058f328c7cfb5de80c36e95021287647f311-Confirming_product_deletion.png" width="350px" alt="Confirming product deletion" />
+        <Image align="center" border={true} src="https://files.readme.io/2c4dc02c1409b059556e92db227a058f328c7cfb5de80c36e95021287647f311-Confirming_product_deletion.png" width="350px" alt="Confirming product deletion" /><br />
 
         Once confirmed, the product is deleted successfully and no longer displays in the **Product** list.
 
