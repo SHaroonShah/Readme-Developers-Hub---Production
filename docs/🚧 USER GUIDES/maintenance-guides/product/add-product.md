@@ -1,37 +1,62 @@
 ---
-title: Add product
+title: Add Product
 excerpt: >-
-  Adding a product enables businesses to introduce new items into their shipping
-  inventory. This process often involves providing essential details about the
-  product, such as dimensions, weight, value, handling instructions, and any
-  specific shipping requirements.
+  Learn how to add products to your SAPIENT inventory with step-by-step
+  instructions for both regular and hazardous materials, including required
+  fields and API options.
 deprecated: false
 hidden: false
 icon: fad fa-square-plus
+link:
+  new_tab: false
 metadata:
   title: ''
   description: ''
   robots: index
-next:
-  description: ''
 ---
 In SAPIENT, you can add as many products as you want and use them in your <Glossary>shipment</Glossary> request. This helps ensuring accurate data for pricing, labeling, and compliance.
 
-To add a new <Glossary>product</Glossary> in SAPIENT, follow the steps as explained in the following procedure.
+<Cards columns={2}>
+  <Card title="Regular Products" icon="box">
+    Standard items with basic product information like dimensions, weight, and value.
+  </Card>
+  <Card title="Hazardous Materials" icon="exclamation-triangle">
+    Special products requiring additional safety information and compliance details.
+  </Card>
+</Cards>
 
-1. In the left navigation panel, select **Products**.
+## Getting Started
+
+To add a new <Glossary>product</Glossary> in SAPIENT, follow these steps:
+
+<Accordion title="Step 1: Access Products Section" icon="arrow-right">
+
+In the left navigation panel, select **Products**.
 
 <Image align="center" alt="Accessing shipping locations" border={true} caption="Accessing products" src="https://files.readme.io/ec355529da5603569fe7c27204b1b58b5f7368185e1daa06e9836a6a0c4e855b-Acccessing_products_option.png" />
 
-2. On the **Products** page that appears, select ![alt text](https://files.readme.io/551c1450e733a95bd452603ef5b85d1a7117a44a87b0689da3cd7b09b6351023-Add_product_button.png).
+</Accordion>
+
+<Accordion title="Step 2: Start Adding Product" icon="plus">
+
+On the **Products** page that appears, select ![alt text](https://files.readme.io/551c1450e733a95bd452603ef5b85d1a7117a44a87b0689da3cd7b09b6351023-Add_product_button.png).
 
 <Image align="center" alt="Selecting option to add shipping location" border={true} caption="Selecting option to add product" src="https://files.readme.io/dc08b7bdd1de178e0ec7835267721eea82af919b8f983ac89e33bcfdcb7ddef4-Add_product_option.png" />
 
-3. On the **Add Product** form that opens, in the **PRODUCT DETAILS** block, enter the necessary information as explained in the following table.
+</Accordion>
+
+## Product Information
+
+<Tabs>
+  <Tab title="Basic Product Details">
+  
+On the **Add Product** form that opens, in the **PRODUCT DETAILS** block, enter the necessary information.
 
 <Image align="center" alt="Entering location details" border={true} caption="Entering product details" src="https://files.readme.io/3a7afb46d19e9ed7a9c70e204c3a8abfbc168b76acc5bd3c6bad4737f9734ce9-Product_details_form.png" />
 
 <AsteridkForMandatoryElements />
+
+<Accordion title="Required Fields Reference" icon="list">
 
 <Table align={["center","left"]}>
   <thead>
@@ -131,15 +156,29 @@ To add a new <Glossary>product</Glossary> in SAPIENT, follow the steps as explai
       </td>
 
       <td>
-        This toggle is turned off by default. If the product you are adding is a hazardous material, then turn on this toggle and enter the necessary information as explained in step 4.
+        This toggle is turned off by default. If the product you are adding is a hazardous material, then turn on this toggle and enter the necessary information as explained in the Hazardous Materials tab.
       </td>
     </tr>
   </tbody>
 </Table>
 
-4. If the product you are adding is a hazardous material, then turn on ![alt text](https://files.readme.io/efe8272f619daf8eb5e78d9b1c0e910a406242d6d5a9ced9a84d013216a8521c-Hazardous_product_toggle.png) toggle. In the **HAZARDOUS INFORMATION** form that opens, enter the necessary information as explained in the following table.
+</Accordion>
+
+  </Tab>
+  
+  <Tab title="Hazardous Materials">
+  
+If the product you are adding is a hazardous material, then turn on ![alt text](https://files.readme.io/efe8272f619daf8eb5e78d9b1c0e910a406242d6d5a9ced9a84d013216a8521c-Hazardous_product_toggle.png) toggle. 
 
 <Image align="center" alt="Entering address details" border={true} caption="Entering hazardous product information" src="https://files.readme.io/81567e5b0718c10f9e6955ed1b44915b5f824ddc836d0c1243b598f03225d20a-Hazardous_information_form.png" />
+
+<Cards columns={1}>
+  <Card title="Important Safety Notice" icon="shield-alt">
+    Hazardous materials require additional compliance information for safe shipping. Ensure all fields are completed accurately to meet regulatory requirements.
+  </Card>
+</Cards>
+
+<Accordion title="Hazardous Information Fields" icon="exclamation-triangle">
 
 <AsteridkForMandatoryElements />
 
@@ -251,10 +290,29 @@ To add a new <Glossary>product</Glossary> in SAPIENT, follow the steps as explai
   </tbody>
 </Table>
 
-5. After entering all the relevant information, select ![alt text](https://files.readme.io/cbbd6f41c2af58489811253c7a470ba0541bace30346d7d0e2f0fd2c222348fa-Add_product_button_2.png).
+</Accordion>
+
+  </Tab>
+</Tabs>
+
+## Finalizing Your Product
+
+<Accordion title="Step 5: Save Your Product" icon="check">
+
+After entering all the relevant information, select ![alt text](https://files.readme.io/cbbd6f41c2af58489811253c7a470ba0541bace30346d7d0e2f0fd2c222348fa-Add_product_button_2.png).
 
 Once done, a new product is added successfully and appears in the **Products** table. You can now manage it as per your business needs and use them in your shipment requests.
 
-> 📘 *Note*
+</Accordion>
+
+## Alternative Methods
+
+<Cards columns={1}>
+  <Card title="API Integration" href="https://docs.intersoftsapient.net/reference/post_v4-products" icon="code">
+    Products can be added and managed via API. Access our API References section to learn how to add products programmatically for automated workflows.
+  </Card>
+</Cards>
+
+> 📘 **Next Steps**
 >
-> *Products can be added and managed via API. To learn more on how to add a product via API, refer to the[API References](https://docs.intersoftsapient.net/reference/post_v4-products) section.*
+> After adding your products, you can use them in shipment requests to ensure accurate pricing, labeling, and compliance for your deliveries.
