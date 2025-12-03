@@ -32,7 +32,7 @@ In SAPIENT, you can edit the <Glossary>product</Glossary>, ensuring that any cha
 
         In the left navigation panel, select **Products**.
 
-       <Image align="center" alt="Accessing shipping locations" border={true} caption="Accessing products" src="https://files.readme.io/ec355529da5603569fe7c27204b1b58b5f7368185e1daa06e9836a6a0c4e855b-Acccessing_products_option.png" />
+        <Image align="center" border={true} src="https://files.readme.io/ec355529da5603569fe7c27204b1b58b5f7368185e1daa06e9836a6a0c4e855b-Acccessing_products_option.png" alt="Accessing shipping locations" />
 
         ***
       </ToggleListItem>
@@ -44,22 +44,24 @@ In SAPIENT, you can edit the <Glossary>product</Glossary>, ensuring that any cha
 
         On the **Products** page that appears, from the list, select the product that you want to edit.
 
-<Image align="center" border={true} caption="Selecting product to edit" src="https://files.readme.io/a1a7bc27c6253ce0355cb87cc2f549c247ac33518acf56a929598df85fda5882-Selecting_products_to_edit.png" />
-
+        <Image align="center" border={true} src="https://files.readme.io/a1a7bc27c6253ce0355cb87cc2f549c247ac33518acf56a929598df85fda5882-Selecting_products_to_edit.png" />
 
         ***
       </ToggleListItem>
 
       <br />
-<ToggleListItem title={<strong>3. Edit product</strong>} icon="fa-rocket">
+
+      <ToggleListItem title={<strong>3. Edit product</strong>} icon="fa-rocket">
         <br />
 
         In the **Edit Product** form that opens, start updating the necessary information as explained in the [Add product](https://docs.intersoftsapient.net/docs/add-product) section.
 
-        <Image align="center" alt="Selecting option to add shipping location" border={true} caption="Editing product" src="https://files.readme.io/31fc405902585254ecaa88262b003ed2eac86db261007455a03b6b114699e91b-Editing_product.png" />
+        <Image align="center" border={true} src="https://files.readme.io/31fc405902585254ecaa88262b003ed2eac86db261007455a03b6b114699e91b-Editing_product.png" alt="Selecting option to add shipping location" />
 
         ***
-      </ToggleListItem><br />
+      </ToggleListItem>
+
+      <br />
 
       <ToggleListItem title={<strong>4. Save changes </strong>} icon="fa-rocket">
         <br />
@@ -90,4 +92,12 @@ In SAPIENT, you can edit the <Glossary>product</Glossary>, ensuring that any cha
 
 ### See also
 
-<br />
+<Cards columns={2}>
+  <Card title="Add Product" href="https://docs.intersoftsapient.net/docs/add-product" icon="fa-solid fa-plus-circle">
+    Create new product entries in your system with all necessary details and shipping requirements.
+  </Card>
+
+  <Card title="Delete Product" href="https://docs.intersoftsapient.net/docs/delete-product" icon="fa-solid fa-trash-alt">
+    Remove products from your system that are no longer needed.
+  </Card>
+</Cards>
