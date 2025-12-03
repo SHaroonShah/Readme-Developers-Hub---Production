@@ -18,7 +18,7 @@ Users can include a variety of roles such as shippers, warehouse staff, logistic
 
 <Image align="center" border={false} width="400px" src="https://files.readme.io/ba2e4cf676068f7374031536e0195f5b7bf19ca1f12dc8114b46e9a6e6750e19-Users_art.png" />
 
-## Manage your users
+## User management
 
 In this section, learn how to manage your users with these essential operations:
 
