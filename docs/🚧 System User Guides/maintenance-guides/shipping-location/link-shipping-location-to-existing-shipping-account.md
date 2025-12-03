@@ -60,7 +60,6 @@ In SAPIENT, you can link on or more shipping locations to your carrier's existin
 
         <Columns layout="auto">
           <Column>
-            #### Required Fields
 
             |         Element        | Description                                                                                           |
             | :--------------------: | :---------------------------------------------------------------------------------------------------- |
