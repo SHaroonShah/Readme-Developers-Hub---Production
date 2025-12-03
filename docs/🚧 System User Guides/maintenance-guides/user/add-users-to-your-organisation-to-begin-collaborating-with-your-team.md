@@ -118,7 +118,7 @@ Moreover, different roles and permissions improve security by restricting access
 
         <br />
 
-        > 📘***Note***
+        > 📘 ***Note***
         >
         > *The availability of permissions may vary based on the selected user location.*
 
