@@ -173,7 +173,7 @@ In SAPIENT, you can add as many products as you want and use them in your <Gloss
                   </td>
 
                   <td>
-                    This toggle is turned off by default. If the product you are adding is a hazardous material, then turn on this toggle and enter the necessary information as explained in the Hazardous Materials tab.
+                    This toggle is turned off by default. If the product you are adding is a hazardous material, then turn on this toggle and enter the necessary information as explained in the Hazardous product details tab.
                   </td>
                 </tr>
               </tbody>
@@ -183,7 +183,9 @@ In SAPIENT, you can add as many products as you want and use them in your <Gloss
           <Tab title="Hazardous product details">
             If the product you are adding is a hazardous material, then turn on ![alt text](https://files.readme.io/efe8272f619daf8eb5e78d9b1c0e910a406242d6d5a9ced9a84d013216a8521c-Hazardous_product_toggle.png) toggle and enter the necessary information as explained in the following table.
 
-            <Image align="center" border={true} src="https://files.readme.io/81567e5b0718c10f9e6955ed1b44915b5f824ddc836d0c1243b598f03225d20a-Hazardous_information_form.png" alt="Entering address details" /><br />
+            <Image align="center" border={true} src="https://files.readme.io/81567e5b0718c10f9e6955ed1b44915b5f824ddc836d0c1243b598f03225d20a-Hazardous_information_form.png" alt="Entering address details" />
+
+            <br />
 
             <AsteridkForMandatoryElements />
 
