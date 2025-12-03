@@ -26,7 +26,7 @@ In SAPIENT, you can link on or more shipping locations to your carrier's existin
 
         In the left navigation panel, select **Shipping Locations**.
 
-  <Image align="center" border={true} src="https://files.readme.io/a84f50bafad4110e2244fa56d73b34787cf197d6a4e3de326ad287880d85e835-Shipping_locations_option.png" alt="Accessing shipping locations" />
+        <Image align="center" border={true} src="https://files.readme.io/a84f50bafad4110e2244fa56d73b34787cf197d6a4e3de326ad287880d85e835-Shipping_locations_option.png" alt="Accessing shipping locations" />
 
         ***
       </ToggleListItem>
@@ -38,7 +38,7 @@ In SAPIENT, you can link on or more shipping locations to your carrier's existin
 
         On the **Shipping Locations** page that appears, select the shipping location that you want to link to an existing shipping account and on the **View Shipping Location\[location name]** form that opens, in the ASSOCIATED SHIPPING ACCOUNTS block, select ![](https://files.readme.io/80cdc77d8bb03dab8b51d717f073576dae0699b7acc8a964c6f2cf74bcd27556-Link_existing_shipping_account_button.png).
 
-  <Image align="center" border={true} src="https://files.readme.io/0caad28a80311077a940bff28ebd29c2ceadd655c014741d090bcb5c51f5cbc5-Linking_shipping_account.png" alt="Selecting option to add shipping location" />
+        <Image align="center" border={true} src="https://files.readme.io/0caad28a80311077a940bff28ebd29c2ceadd655c014741d090bcb5c51f5cbc5-Linking_shipping_account.png" alt="Selecting option to add shipping location" />
 
         ***
       </ToggleListItem>
@@ -50,24 +50,28 @@ In SAPIENT, you can link on or more shipping locations to your carrier's existin
 
         On the **Link Shipping Account** form that opens, update the necessary information as expalined in the following table.
 
-  <Image align="center" border={true} src="https://files.readme.io/3de31c22fb2c5ee0f5257c680dbd966f3059acb17241abb26012ed820a9dc1f6-Entering_shipping_account_details.png" alt="Entering location details" /><br />
+        <Image align="center" border={true} src="https://files.readme.io/3de31c22fb2c5ee0f5257c680dbd966f3059acb17241abb26012ed820a9dc1f6-Entering_shipping_account_details.png" alt="Entering location details" />
 
-  <AsteridkForMandatoryElements /><br />
+        <br />
 
-  <Columns layout="auto">
-    <Column>
-      #### Required Fields
+        <AsteridkForMandatoryElements />
 
-      |         Element        | Description                                                                                           |
-      | :--------------------: | :---------------------------------------------------------------------------------------------------- |
-      |      **Carrier**\*     | From the dropdown menu, select the needed carrier.                                                    |
-      | **Shipping Account**\* | From the dropdown menu, select the shipping account to which you want to link this shipping location. |
-    </Column>
-  </Columns>
+        <br />
 
-  > 📘 **Note**
-  >
-  > If you have selected Royal Mail as your carrier option, then an additional **CARRIER DETAILS** block is displayed. To learn more on how to fill this block, refer to the <Anchor label="Add Royal Mail shipping account" target="_blank" href="https://docs.intersoftsapient.net/docs/shipping-account-requirements#/">Add Royal Mail shipping account</Anchor> section.
+        <Columns layout="auto">
+          <Column>
+            #### Required Fields
+
+            |         Element        | Description                                                                                           |
+            | :--------------------: | :---------------------------------------------------------------------------------------------------- |
+            |      **Carrier**\*     | From the dropdown menu, select the needed carrier.                                                    |
+            | **Shipping Account**\* | From the dropdown menu, select the shipping account to which you want to link this shipping location. |
+          </Column>
+        </Columns>
+
+        > 📘 **Note**
+        >
+        > If you have selected Royal Mail as your carrier option, then an additional **CARRIER DETAILS** block is displayed. To learn more on how to fill this block, refer to the <Anchor label="Add Royal Mail shipping account" target="_blank" href="https://docs.intersoftsapient.net/docs/shipping-account-requirements#/">Add Royal Mail shipping account</Anchor> section.
 
         ***
       </ToggleListItem>
@@ -77,9 +81,9 @@ In SAPIENT, you can link on or more shipping locations to your carrier's existin
       <ToggleListItem title={<strong>4. Save changes </strong>} icon="fa-rocket">
         <br />
 
-         After entering all the relevant information, select ![](https://files.readme.io/7f3338ad6d04eed0cfe60a5831902bd726f21988472aa810308695f020fe5b89-Link_shipping_account_button.png).
+        After entering all the relevant information, select ![](https://files.readme.io/7f3338ad6d04eed0cfe60a5831902bd726f21988472aa810308695f020fe5b89-Link_shipping_account_button.png).
 
-  Once done, the shipping location is successfully linked to your shipping account.
+        Once done, the shipping location is successfully linked to your shipping account.
 
         ***
       </ToggleListItem>
@@ -133,7 +137,5 @@ Once done, the shipping location is successfully linked to your shipping account
 
   _You can also link the shipping locations to your carrier's shipping account via the<Anchor label="Link Locations" target="_blank" href="https://docs.intersoftsapient.net/reference/post_v4-shippingaccounts-rm-shippingaccountid-linklocations#/">Link Locations</Anchor> API endpoint._
 </Callout>
-
-<Embed typeOfEmbed="iframe" url="" html="false" iframe="true" />
 
 <br />
