@@ -18,7 +18,7 @@ The shipping of these products often requires specific handling, packaging, and 
 
 <Image align="center" border={false} width="200px" src="https://files.readme.io/2e38e29e35083fb970d68086d43ae0fbcd011375d18f644f93c76666411539bd-Product_art.png" />
 
-## Manage your products
+## Product management
 
 In this section, learn how to mange your products with these essential operations:
 
