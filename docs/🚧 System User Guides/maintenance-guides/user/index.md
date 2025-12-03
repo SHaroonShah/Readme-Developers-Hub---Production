@@ -24,7 +24,7 @@ In this section, learn how to:
 
 <Cards columns="3">
   <Card title="Add User" href="https://docs.intersoftsapient.net/docs/add-users-to-your-organisation-to-begin-collaborating-with-your-team" icon="fa-solid fa-circle-plus">
-    Learn how to add new users to your organization and set up team collaboration.
+    Learn how to add new users to your organisation and set up team collaboration.
   </Card>
 
   <Card title="Edit User" href="https://docs.intersoftsapient.net/docs/edit-user" icon="fa-solid fa-edit">
@@ -32,7 +32,7 @@ In this section, learn how to:
   </Card>
 
   <Card title="Delete User" href="https://docs.intersoftsapient.net/docs/delete-user" icon="fa-solid fa-trash">
-    Remove users from your organization when they're no longer needed.
+    Remove users from your organization when they are no longer needed.
   </Card>
 </Cards>
 
