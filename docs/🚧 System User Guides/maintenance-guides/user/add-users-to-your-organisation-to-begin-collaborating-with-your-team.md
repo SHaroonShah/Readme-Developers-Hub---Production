@@ -24,72 +24,13 @@ Moreover, different roles and permissions improve security by restricting access
 
 <Tabs>
   <Tab title="Add User">
-    > 🚧 _Important\_
+    > 🚧 \_Important\_
     >
     > *You cannot add or manage users via API.*
 
     To add a user in SAPIENT, perform the steps as explained in the following procedure:
-
-    <Accordion title="Step 1: Access Users Section" icon="arrow-right">
-      In the left navigation panel, select **Users**.
-
-      <Image align="center" border={true} src="https://files.readme.io/dda0e89b323a4d869472cc629a9fc0349403f8ba24930ac43a31a8f9a7542929-Users_option.png" alt="Accessing users" />
-    </Accordion>
-
-    <Accordion title="Step 2: Start Adding User" icon="arrow-right">
-      On the **Users** page that appears, select the **Add User** button.
-
-      <Image align="center" border={true} src="https://files.readme.io/5dd3caded45f180a719da8bad14bebe550fa87a1a49abe4dd32d6ac541979509-Add_users_button.png" alt="Selecting option to add user" />
-    </Accordion>
-
-    <Accordion title="Step 3: Select User Type" icon="arrow-right">
-      On the **Add User** form that opens, in the **USER TYPE** block, from the **Type of User** dropdown, select the user type from the list of available ones.
-
-      <Image align="center" border={true} src="https://files.readme.io/bb66dcbf937dc36953a8242a21580c7d67c3e4d804f438040b8aecdebe3defe5-User_type_block.png" width="400px" alt="Specifying user type" />
-    </Accordion>
-
-    <Accordion title="Step 4: Configure Customer Details" icon="arrow-right">
-      In the **CUSTOMER DETAILS** block, from the **Location** dropdown, select the location of the user from the list of available ones.
-
-      **Restrict to Own Shipments Toggle:**
-
-      * **Toggle on**: Users can view, manage, and interact with <Glossary>shipments</Glossary> that they have personally created or are directly responsible for
-      * **Toggle off** (default): Users gain access to view and manage all shipments within the system. If assigned to a customer account, they can only view shipments for their own customer account
-
-      <Image align="center" border={true} src="https://files.readme.io/5c3b0190d7620a52e992ee8a9f1e82aa374d36c20b2394ff4c64531b2ad888f3-Customer_details_block.png" width="400px" alt="Entering customer details" />
-    </Accordion>
-
-    <Accordion title="Step 5: Enter User Details" icon="arrow-right">
-      In the **USER DETAILS** block, enter the necessary information:
-
-      <Image align="center" border={true} src="https://files.readme.io/4cf9c1127ab7a7b23af6107408ed6fc0e7500f1bacef3af2f2a51ad15c3be18e-User_details_block.png" width="400px" alt="Entering user details" />
-
-      <AsteridkForMandatoryElements />
-
-      | Element             | Description                                                                    |
-      | ------------------- | ------------------------------------------------------------------------------ |
-      | **Upload Avatar**   | Drag the image to upload or click the upload icon to select from your computer |
-      | **Email Address**\* | Enter a valid, accessible email address for the user                           |
-      | **Display Name**\*  | Enter the display name for the user                                            |
-      | **Contact Number**  | Enter a valid, accessible contact number for the user                          |
-    </Accordion>
-
-    <Accordion title="Step 6: Assign Permissions" icon="arrow-right">
-      In the **PERMISSIONS** block, turn on toggles next to each permission to assign necessary permissions to the user.
-
-      <Image align="center" border={true} src="https://files.readme.io/2ed27a48c71de0cb667898056414d5f35d0fef1e4ba93113f74a641dddc8b13a-Permissions_block.png" width="400px" alt="Assigning permissions" />
-
-      > 📘 **Note**: The availability of permissions may vary based on the selected user location.
-    </Accordion>
-
-    <Accordion title="Step 7: Complete User Creation" icon="arrow-right">
-      After entering all necessary details, select the **Add User** button.
-
-      Once completed, a success message displays. You can choose to continue editing the user or return to the **Users** list.
-
-      <Image align="center" border={true} src="https://files.readme.io/8d8f9b98121ae25f8892d3079beff6342030746c83ec67bf5ae55a3166688ce4-Add_user_confirmation_dialog.png" width="350px" alt="Confirmation message" />
-    </Accordion>
-  </Tab>
+</Tab>
+    
 
   <Tab title="User Types & Permissions">
     ## Available User Types and Permissions
