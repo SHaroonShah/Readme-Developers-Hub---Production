@@ -22,6 +22,8 @@ Moreover, different roles and permissions improve security by restricting access
 >
 > _You cannot add or manage users via API._
 
+## How to add user
+
 <Tabs>
   <Tab title="Add User">
     <br />
