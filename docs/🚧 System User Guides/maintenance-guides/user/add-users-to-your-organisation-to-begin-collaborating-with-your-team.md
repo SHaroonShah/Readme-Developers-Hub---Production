@@ -24,7 +24,7 @@ Moreover, different roles and permissions improve security by restricting access
 
 <Tabs>
   <Tab title="Add User">
-    > 🚧 _Important_
+    > 🚧 *Important*
     >
     > *You cannot add or manage users via API.*
 
@@ -84,8 +84,7 @@ Moreover, different roles and permissions improve security by restricting access
 
       <br />
 
-      <ToggleListItem title={<strong>5. Enter user details</strong>} icon="fa-rocket">
-        <br />
+      <ToggleListItem title={<strong>5. Enter user details</strong>} icon="fa-rocket"><br></br>
 
         In the **USER DETAILS** block, enter the necessary information:
 
@@ -110,7 +109,7 @@ Moreover, different roles and permissions improve security by restricting access
 
         <Image align="center" border={true} src="https://files.readme.io/2ed27a48c71de0cb667898056414d5f35d0fef1e4ba93113f74a641dddc8b13a-Permissions_block.png" width="400px" alt="Assigning permissions" />
 
-        > 📘 &#xNAN;***Note***
+        > 📘 \&#xNAN;***Note***
         > *The availability of permissions may vary based on the selected user location.*
 
         ***
