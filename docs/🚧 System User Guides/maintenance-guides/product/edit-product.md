@@ -16,8 +16,6 @@ next:
 ---
 In SAPIENT, you can edit the <Glossary>product</Glossary>, ensuring that any changes in product specifications are accurately communicated throughout the shipping and logistics processes. This process eventually reduces the risk of shipping errors, delays, or issues related to regulatory compliance.
 
-<Image align="center" border={true} caption="Selecting product to edit" src="https://files.readme.io/a1a7bc27c6253ce0355cb87cc2f549c247ac33518acf56a929598df85fda5882-Selecting_products_to_edit.png" />
-
 ## How to edit product
 
 <Tabs>
