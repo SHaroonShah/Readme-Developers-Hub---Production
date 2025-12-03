@@ -1,9 +1,9 @@
 ---
 title: Address book
 excerpt: >-
-  An address book is a centralised repository that stores addresses for various
-  recipients and shipping locations. This can include customer addresses, vendor
-  addresses, supplier locations, and warehouses.
+  An _address book_ is a centralised repository that stores addresses for
+  various recipients and shipping locations. This can include customer
+  addresses, vendor addresses, supplier locations, and warehouses.
 deprecated: false
 hidden: false
 icon: fad fa-address-book
