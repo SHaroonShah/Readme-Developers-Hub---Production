@@ -52,7 +52,7 @@ Additionally, this process helps streamline user management by removing inactive
 
     In the confirmation dialog that appears, select **Yes** to confirm your action.
 
-    <Image align="center" border={true} src="https://files.readme.io/e9750d4607f346cdcbf80a135558cbd56e48072b8cd7256d0d3c1d982123350e-Confirming_user_deletion.png" width="350px" alt="Confirming user deletion" />
+    <Image align="center" border={true} src="https://files.readme.io/e9750d4607f346cdcbf80a135558cbd56e48072b8cd7256d0d3c1d982123350e-Confirming_user_deletion.png" width="350px" alt="Confirming user deletion" /><br />
 
     Once confirmed, the user is deleted successfully and is no longer displayed in the **Users** list.
 
