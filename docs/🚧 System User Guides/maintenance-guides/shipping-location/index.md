@@ -27,15 +27,15 @@ The following are the primary purposes of a shipping location:
 In this section, learn how to do the following:
 
 <Cards columns="3">
-  <Card title="Add Location" href="https://docs.intersoftsapient.net/docs/add-a-shipping-location" icon="Fa- solid fa-plus-circle">
+  <Card title="Add a Location" href="https://docs.intersoftsapient.net/docs/add-a-shipping-location" icon="Fa- solid fa-plus-circle">
     Learn how to create and set up a new shipping location in your system.
   </Card>
 
-  <Card title="Edit Location" href="https://docs.intersoftsapient.net/docs/edit-shipping-location" icon="fa-solid fa-edit">
+  <Card title="Edit a Location" href="https://docs.intersoftsapient.net/docs/edit-shipping-location" icon="fa-solid fa-edit">
     Modify existing shipping location details and settings.
   </Card>
 
-  <Card title="Delete Location" href="https://docs.intersoftsapient.net/docs/delete-shipping-location" icon="fa-solid fa-trash-alt">
+  <Card title="Delete a Location" href="https://docs.intersoftsapient.net/docs/delete-shipping-location" icon="fa-solid fa-trash-alt">
     Remove shipping locations that are no longer needed.
   </Card>
 </Cards>
