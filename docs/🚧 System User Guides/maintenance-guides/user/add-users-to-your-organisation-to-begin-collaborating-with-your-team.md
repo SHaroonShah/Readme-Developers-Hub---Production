@@ -76,7 +76,8 @@ Moreover, different roles and permissions improve security by restricting access
 
         * **Toggle on**: Users can view, manage, and interact with <Glossary>shipments</Glossary> that they have personally created or are directly responsible for
         * **Toggle off** (default): Users gain access to view and manage all shipments within the system. If assigned to a customer account, they can only view shipments for their own customer account.
-<br />
+
+        <br />
 
         <Image align="center" border={true} src="https://files.readme.io/5c3b0190d7620a52e992ee8a9f1e82aa374d36c20b2394ff4c64531b2ad888f3-Customer_details_block.png" width="400px" alt="Entering customer details" />
 
@@ -117,7 +118,7 @@ Moreover, different roles and permissions improve security by restricting access
 
         <br />
 
-        > 📘 \&#xNAN;***Note***
+        > 📘 ***Note***
         >
         > *The availability of permissions may vary based on the selected user location.*
 
@@ -169,7 +170,7 @@ Moreover, different roles and permissions improve security by restricting access
 
     <br />
 
-    > 🚧 \&#xNAN;***Important***
+    > 🚧 ***Important***
     >
     > *The Admin user has access to all functionalities, but Administrator, Lead, or Operator roles must be assigned specific permissions.*
     >
