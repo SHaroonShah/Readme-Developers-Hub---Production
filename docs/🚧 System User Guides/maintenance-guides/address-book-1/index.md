@@ -18,10 +18,8 @@ The address book facilitates easier management and retrieval of shipping address
 
 <Image align="center" border={false} width="300px" src="https://files.readme.io/6af12a143b71e6e4b43ade563352ca07cdad5e2ee02bf72234d90fd4f2f63d5b-Address_art.png" />
 
-In this section, learn how to:
+## Manage your address book
 
-* [Add an address](https://docs.intersoftsapient.net/docs/add-address)
-* [Edit an address](https://docs.intersoftsapient.net/docs/edit-address)
-* [Delete an address](https://docs.intersoftsapient.net/docs/delete-address)
+In this section, learn how to:
 
 <br />
