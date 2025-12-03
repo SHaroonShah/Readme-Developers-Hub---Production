@@ -118,7 +118,7 @@ Moreover, different roles and permissions improve security by restricting access
 
         <br />
 
-        > 📘 ***Note***
+        > 📘***Note***
         >
         > *The availability of permissions may vary based on the selected user location.*
 
@@ -170,7 +170,7 @@ Moreover, different roles and permissions improve security by restricting access
 
     <br />
 
-    > 🚧 ***Important***
+    > 🚧***Important***
     >
     > *The Admin user has access to all functionalities, but Administrator, Lead, or Operator roles must be assigned specific permissions.*
     >
@@ -181,6 +181,8 @@ Moreover, different roles and permissions improve security by restricting access
     <br />
   </Tab>
 </Tabs>
+
+***
 
 ### Post creation process
 
