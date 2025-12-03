@@ -71,9 +71,9 @@ In SAPIENT, you can edit the users to maintain accurate and up-to-date records o
 
 ### See also
 
-<Cards columns="2">
-  <Card title="Edit User" href="https://docs.intersoftsapient.net/docs/edit-user" icon="fa-solid fa-edit">
-    Modify user profiles, permissions, and access levels for existing team members.
+<Cards>
+  <Card title="Add User" href="https://docs.intersoftsapient.net/docs/add-users-to-your-organisation-to-begin-collaborating-with-your-team" icon="fa-solid fa-circle-plus">
+    Learn how to add new users to your organisation and set up team collaboration.
   </Card>
 
   <Card title="Delete User" href="https://docs.intersoftsapient.net/docs/delete-user" icon="fa-solid fa-trash">
