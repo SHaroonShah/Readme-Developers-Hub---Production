@@ -27,6 +27,10 @@ In SAPIENT, you can add as many products as you want and use them in your <Gloss
   </Card>
 </Cards>
 
+## How to add product
+
+<br />
+
 To add a new <Glossary>product</Glossary> in SAPIENT, follow the steps as explained in the following procedure.
 
 1. In the left navigation panel, select **Products**.
