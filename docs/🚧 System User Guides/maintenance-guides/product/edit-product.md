@@ -51,7 +51,7 @@ In SAPIENT, you can edit the <Glossary>product</Glossary>, ensuring that any cha
       </ToggleListItem>
 
       <br />
-<ToggleListItem title={<strong>2. Edit product</strong>} icon="fa-rocket">
+<ToggleListItem title={<strong>3. Edit product</strong>} icon="fa-rocket">
         <br />
 
         In the **Edit Product** form that opens, start updating the necessary information as explained in the [Add product](https://docs.intersoftsapient.net/docs/add-product) section.
@@ -61,7 +61,7 @@ In SAPIENT, you can edit the <Glossary>product</Glossary>, ensuring that any cha
         ***
       </ToggleListItem><br />
 
-      <ToggleListItem title={<strong>3. Save changes </strong>} icon="fa-rocket">
+      <ToggleListItem title={<strong>4. Save changes </strong>} icon="fa-rocket">
         <br />
 
         After entering all the relevant information, select ![](https://files.readme.io/44d2859089ab3d4ffcb5341e904f29d383f25f9fa79e210a09482d2a26998248-Save_changes_button.png).
