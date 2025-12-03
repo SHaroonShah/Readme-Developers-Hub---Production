@@ -75,7 +75,7 @@ Moreover, different roles and permissions improve security by restricting access
         **Restrict to Own Shipments Toggle:**
 
         * **Toggle on**: Users can view, manage, and interact with <Glossary>shipments</Glossary> that they have personally created or are directly responsible for
-        * **Toggle off** (default): Users gain access to view and manage all shipments within the system. If assigned to a customer account, they can only view shipments for their own customer account. <br />
+        * **Toggle off** (default): Users gain access to view and manage all shipments within the system. If assigned to a customer account, they can only view shipments for their own customer account.<br></br>
 
         <Image align="center" border={true} src="https://files.readme.io/5c3b0190d7620a52e992ee8a9f1e82aa374d36c20b2394ff4c64531b2ad888f3-Customer_details_block.png" width="400px" alt="Entering customer details" />
 
@@ -112,9 +112,11 @@ Moreover, different roles and permissions improve security by restricting access
 
         In the **PERMISSIONS** block, turn on toggles next to each permission to assign necessary permissions to the user.
 
-        <Image align="center" border={true} src="https://files.readme.io/2ed27a48c71de0cb667898056414d5f35d0fef1e4ba93113f74a641dddc8b13a-Permissions_block.png" width="400px" alt="Assigning permissions" /><br />
+        <Image align="center" border={true} src="https://files.readme.io/2ed27a48c71de0cb667898056414d5f35d0fef1e4ba93113f74a641dddc8b13a-Permissions_block.png" width="400px" alt="Assigning permissions" />
 
-        > 📘 ***Note***
+        <br />
+
+        > 📘 &#xNAN;***Note***
         >
         > *The availability of permissions may vary based on the selected user location.*
 
@@ -162,17 +164,19 @@ Moreover, different roles and permissions improve security by restricting access
       <Card title="Shipment Manifesting" icon="clipboard-list">
         Permission that allows to <Glossary>manifest</Glossary> shipments via the SAPIENT UI.
       </Card>
-    </Cards><br />
-> 🚧 _**Important**_
->
-> _The Admin user has access to all functionalities, but Administrator, Lead, or Operator roles must be assigned specific permissions._
->
-> _Whether the user has accepted the invite or not, you can update their roles and permissions from the **Users** tab on the **Edit User** page. Make your changes and select **Save Changes** to update_.
->
-> _For detailed information on user roles and access permissions, refer to the [role-based access to SAPIENT actions](https://docs.intersoftsapient.net/docs/sapient-user-roles-and-permissions#/) section._
+    </Cards>
 
-<br />
-    
+    <br />
+
+    > 🚧 &#xNAN;***Important***
+    >
+    > *The Admin user has access to all functionalities, but Administrator, Lead, or Operator roles must be assigned specific permissions.*
+    >
+    > *Whether the user has accepted the invite or not, you can update their roles and permissions from the**Users** tab on the **Edit User** page. Make your changes and select **Save Changes** to update*.
+    >
+    > *For detailed information on user roles and access permissions, refer to the[role-based access to SAPIENT actions](https://docs.intersoftsapient.net/docs/sapient-user-roles-and-permissions#/) section.*
+
+    <br />
   </Tab>
 </Tabs>
 
