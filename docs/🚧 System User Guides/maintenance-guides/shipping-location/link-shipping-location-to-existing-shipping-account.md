@@ -56,7 +56,6 @@ In SAPIENT, you can link on or more shipping locations to your carrier's existin
 
         <AsteridkForMandatoryElements />
 
-        <br />
 
         <Columns layout="auto">
           <Column>
@@ -69,9 +68,9 @@ In SAPIENT, you can link on or more shipping locations to your carrier's existin
 
         <br />
 
-        > 📘 &#xNAN;***Note***
+        > 📘 \&#xNAN;***Note***
         >
-        > _If you have selected Royal Mail as your carrier option, then an additional **CARRIER DETAILS** block is displayed. To learn more on how to fill this block, refer to the <Anchor label="Add Royal Mail shipping account" target="_blank" href="https://docs.intersoftsapient.net/docs/shipping-account-requirements#/">Add Royal Mail shipping account</Anchor> section._
+        > *If you have selected Royal Mail as your carrier option, then an additional**CARRIER DETAILS** block is displayed. To learn more on how to fill this block, refer to the <Anchor label="Add Royal Mail shipping account" target="_blank" href="https://docs.intersoftsapient.net/docs/shipping-account-requirements#/">Add Royal Mail shipping account</Anchor> section.*
 
         ***
       </ToggleListItem>
