@@ -16,6 +16,8 @@ next:
 ---
 In SAPIENT, you can edit the <Glossary>product</Glossary>, ensuring that any changes in product specifications are accurately communicated throughout the shipping and logistics processes. This process eventually reduces the risk of shipping errors, delays, or issues related to regulatory compliance.
 
+<Image align="center" border={true} caption="Selecting product to edit" src="https://files.readme.io/a1a7bc27c6253ce0355cb87cc2f549c247ac33518acf56a929598df85fda5882-Selecting_products_to_edit.png" />
+
 ## How to edit product
 
 <Tabs>
@@ -42,7 +44,7 @@ In SAPIENT, you can edit the <Glossary>product</Glossary>, ensuring that any cha
 
         On the **Products** page that appears, from the list, select the product that you want to edit, and then in the **Edit Product** form that opens, start updating the necessary information as explained in the [Add product](https://docs.intersoftsapient.net/docs/add-product) section.
 
-<Image align="center" alt="Selecting option to add shipping location" border={true} caption="Editing product" src="https://files.readme.io/31fc405902585254ecaa88262b003ed2eac86db261007455a03b6b114699e91b-Editing_product.png" />
+        <Image align="center" border={true} src="https://files.readme.io/31fc405902585254ecaa88262b003ed2eac86db261007455a03b6b114699e91b-Editing_product.png" alt="Selecting option to add shipping location" />
 
         ***
       </ToggleListItem>
@@ -54,11 +56,11 @@ In SAPIENT, you can edit the <Glossary>product</Glossary>, ensuring that any cha
 
         After entering all the relevant information, select ![](https://files.readme.io/44d2859089ab3d4ffcb5341e904f29d383f25f9fa79e210a09482d2a26998248-Save_changes_button.png).
 
-Once done, the product is updated successfully. You can now manage it as per your business needs and use them in your <Glossary>shipment</Glossary> requests.
+        Once done, the product is updated successfully. You can now manage it as per your business needs and use them in your <Glossary>shipment</Glossary> requests.
 
         ***
-        </ToggleListItem>
-</ToggleList>
+      </ToggleListItem>
+    </ToggleList>
   </Tab>
 
   <Tab title="Edit via API">
