@@ -38,9 +38,9 @@ Additionally, this process helps streamline user management by removing inactive
   <ToggleListItem title={<strong>2. Delete user</strong>} icon="fa-rocket">
     <br />
 
-    On the **Users** page that appears, from the list select the user that you want to delete, and then in the **Edit User[user name]** form that opens, select ![](https://files.readme.io/ba995922a9d4d840facdf2ad9a4ffdef969eb24477c4b85ba42682221649265f-Delete_user_button.png).
+    On the **Users** page that appears, from the list select the user that you want to delete, and then in the **Edit User\[user name]** form that opens, select ![](https://files.readme.io/ba995922a9d4d840facdf2ad9a4ffdef969eb24477c4b85ba42682221649265f-Delete_user_button.png).
 
-<Image align="center" alt="Selecting option to add user" border={true} caption="Deleting user" src="https://files.readme.io/d648002a464a94ba8d34ec471c3b706d61d33ad19f466980e47014be2bd05d4d-Deleting_user.png" />
+    <Image align="center" border={true} src="https://files.readme.io/d648002a464a94ba8d34ec471c3b706d61d33ad19f466980e47014be2bd05d4d-Deleting_user.png" alt="Selecting option to add user" />
 
     ***
   </ToggleListItem>
@@ -50,11 +50,11 @@ Additionally, this process helps streamline user management by removing inactive
   <ToggleListItem title={<strong>3. Confirm your action</strong>} icon="fa-rocket">
     <br />
 
-   In the confirmation dialog that appears, select **Yes** to confirm your action.
+    In the confirmation dialog that appears, select **Yes** to confirm your action.
 
-<Image align="center" alt="Confirming user deletion" border={true} caption="Confirming user deletion" src="https://files.readme.io/e9750d4607f346cdcbf80a135558cbd56e48072b8cd7256d0d3c1d982123350e-Confirming_user_deletion.png" width="350px" />
+    <Image align="center" border={true} src="https://files.readme.io/e9750d4607f346cdcbf80a135558cbd56e48072b8cd7256d0d3c1d982123350e-Confirming_user_deletion.png" width="350px" alt="Confirming user deletion" />
 
-Once confirmed, the user is deleted successfully and is no longer displayed in the **Users** list.
+    Once confirmed, the user is deleted successfully and is no longer displayed in the **Users** list.
 
     ***
   </ToggleListItem>
@@ -64,4 +64,8 @@ Once confirmed, the user is deleted successfully and is no longer displayed in t
 
 ### See also
 
-<br />
+<Cards>
+  <Card title="Add User" href="https://docs.intersoftsapient.net/docs/add-users-to-your-organisation-to-begin-collaborating-with-your-team" icon="fa-solid fa-circle-plus">
+    Learn how to add new users to your organisation and set up team collaboration.
+  </Card>
+</Cards>
