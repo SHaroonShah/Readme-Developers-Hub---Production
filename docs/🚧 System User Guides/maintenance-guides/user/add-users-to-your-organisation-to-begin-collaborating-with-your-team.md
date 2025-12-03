@@ -114,7 +114,7 @@ Moreover, different roles and permissions improve security by restricting access
 
         <Image align="center" border={true} src="https://files.readme.io/2ed27a48c71de0cb667898056414d5f35d0fef1e4ba93113f74a641dddc8b13a-Permissions_block.png" width="400px" alt="Assigning permissions" />
 
-        > 📘 &#xNAN;***Note***
+        > 📘 \&#xNAN;***Note***
         >
         > *The availability of permissions may vary based on the selected user location.*
 
@@ -163,26 +163,7 @@ Moreover, different roles and permissions improve security by restricting access
         Permission that allows to <Glossary>manifest</Glossary> shipments via the SAPIENT UI.
       </Card>
     </Cards>
-
-    ## Post-Creation Process
-
-    <Accordion title="Email Confirmation & Account Activation" icon="envelope">
-      After the user is added:
-
-      1. A confirmation email is sent to the specified email address
-      2. The user must confirm the email and set their credentials (username and password)
-      3. Once confirmed, the user account status is set to **Active**
-    </Accordion>
-
-    <Accordion title="Managing User Permissions" icon="user-shield">
-      > 🚧 **Important**
-      >
-      > The Admin user has access to all functionalities, but Administrator, Lead, or Operator roles must be assigned specific permissions.
-      >
-      > Whether the user has accepted the invite or not, you can update their roles and permissions from the **Users** tab on the **Edit User** page. Make your changes and select **Save Changes** to update.
-
-      For detailed information on user roles and access permissions, refer to the [role-based access to SAPIENT actions](https://docs.intersoftsapient.net/docs/sapient-user-roles-and-permissions#/) section.
-    </Accordion>
+    
   </Tab>
 </Tabs>
 
