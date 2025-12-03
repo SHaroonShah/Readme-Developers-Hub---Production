@@ -20,29 +20,29 @@ In SAPIENT, the primary purpose of the **Shipment Processing** feature is to all
 With the shipment processing feature, you can monitor and track the details of your shipments and do the following:
 
 <Cards columns={3}>
-  <Card title="Cancel Shipment" href="https://docs.intersoftsapient.net/docs/view-cancelled-shipments" icon="fa-solid fa-nfc-slash">
+  <Card title="Cancel a Shipment" href="https://docs.intersoftsapient.net/docs/view-cancelled-shipments" icon="fa-solid fa-nfc-slash">
     Stop a shipment that is no longer needed or has issues that prevent delivery.
   </Card>
 
-  <Card title="Recall Shipment" href="https://docs.intersoftsapient.net/docs/recall-shipment" icon="fa-solid fa-undo">
+  <Card title="Recall a Shipment" href="https://docs.intersoftsapient.net/docs/recall-shipment" icon="fa-solid fa-undo">
     Retrieve a shipment that has already been processed but needs to be brought back.
   </Card>
 
-  <Card title="Hold Shipment" href="https://docs.intersoftsapient.net/docs/held-shipments" icon="fa-solid fa-circle-pause">
+  <Card title="Hold a Shipment" href="https://docs.intersoftsapient.net/docs/held-shipments" icon="fa-solid fa-circle-pause">
     Temporarily pause a shipment for review or to address any issues before proceeding.
   </Card>
 
-  <Card title="Release Shipment" href="https://docs.intersoftsapient.net/docs/release-shipment" icon="fa-solid fa-circle-play">
+  <Card title="Release a Shipment" href="https://docs.intersoftsapient.net/docs/release-shipment" icon="fa-solid fa-circle-play">
     Resume processing of a held shipment once issues are resolved or review is complete.
   </Card>
 
-  <Card title="Manifest Shipment" href="https://docs.intersoftsapient.net/docs/manifesting-shipments" icon="fa-solid fa-truck-ramp-box">
+  <Card title="Manifest a Shipment" href="https://docs.intersoftsapient.net/docs/manifesting-shipments" icon="fa-solid fa-truck-ramp-box">
     Generate and process the shipping manifest for final shipment preparation.
   </Card>
- <Card title="View manifest history" href="https://docs.intersoftsapient.net/v4.02_Coding/docs/manifest-history#/" icon="fa-solid fa-file">
+
+  <Card title="View manifest history" href="https://docs.intersoftsapient.net/v4.02_Coding/docs/manifest-history#/" icon="fa-solid fa-file">
     View a comprehensive record of all shipping manifests generated over time.
   </Card>
 </Cards>
 
 <br />
-
