@@ -167,7 +167,25 @@ Moreover, different roles and permissions improve security by restricting access
   </Tab>
 </Tabs>
 
-<br />
+### Post creation process
+
+<Accordion title="Email confirmation & account activation" icon="envelope">
+  After the user is added:
+
+  1. A confirmation email is sent to the specified email address
+  2. The user must confirm the email and set their credentials (username and password)
+  3. Once confirmed, the user account status is set to **Active**
+</Accordion>
+
+<Accordion title="Managing user permissions" icon="user-shield">
+  > 🚧 **Important**
+  >
+  > The Admin user has access to all functionalities, but Administrator, Lead, or Operator roles must be assigned specific permissions.
+  >
+  > Whether the user has accepted the invite or not, you can update their roles and permissions from the **Users** tab on the **Edit User** page. Make your changes and select **Save Changes** to update.
+
+  For detailed information on user roles and access permissions, refer to the [role-based access to SAPIENT actions](https://docs.intersoftsapient.net/docs/sapient-user-roles-and-permissions#/) section.
+</Accordion>
 
 <br />
 
