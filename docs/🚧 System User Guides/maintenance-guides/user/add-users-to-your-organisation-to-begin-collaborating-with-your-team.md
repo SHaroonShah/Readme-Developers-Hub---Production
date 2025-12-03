@@ -89,7 +89,9 @@ Moreover, different roles and permissions improve security by restricting access
 
         In the **USER DETAILS** block, enter the necessary information:
 
-        <Image align="center" border={true} src="https://files.readme.io/4cf9c1127ab7a7b23af6107408ed6fc0e7500f1bacef3af2f2a51ad15c3be18e-User_details_block.png" width="400px" alt="Entering user details" /><br />
+        <Image align="center" border={true} src="https://files.readme.io/4cf9c1127ab7a7b23af6107408ed6fc0e7500f1bacef3af2f2a51ad15c3be18e-User_details_block.png" width="400px" alt="Entering user details" />
+
+        <br />
 
         <AsteridkForMandatoryElements />
 
@@ -102,7 +104,8 @@ Moreover, different roles and permissions improve security by restricting access
 
         ***
       </ToggleListItem>
-<br />
+
+      <br />
 
       <ToggleListItem title={<strong>6. Assign permissions </strong>} icon="fa-rocket">
         <br />
@@ -111,7 +114,7 @@ Moreover, different roles and permissions improve security by restricting access
 
         <Image align="center" border={true} src="https://files.readme.io/2ed27a48c71de0cb667898056414d5f35d0fef1e4ba93113f74a641dddc8b13a-Permissions_block.png" width="400px" alt="Assigning permissions" />
 
-        > 📘 \&#xNAN;***Note***
+        > 📘***Note***
         > *The availability of permissions may vary based on the selected user location.*
 
         ***
