@@ -44,7 +44,7 @@ In SAPIENT, you can edit the users to maintain accurate and up-to-date records o
     <Callout icon="💡" theme="default">
       ### *Tip*
 
-      *If needed, from the**Edit User** page, you can also [reset your password](https://docs.intersoftsapient.net/docs/reset-password) by selecting ![](https://files.readme.io/72a7b73173a791e4e2c30096fe1bbd3813b130f0289272639bfd092d33f0fbd9-Reset_password_button.png).*
+      *If needed, from the **Edit User** page, you can also [reset your password](https://docs.intersoftsapient.net/docs/reset-password) by selecting ![](https://files.readme.io/72a7b73173a791e4e2c30096fe1bbd3813b130f0289272639bfd092d33f0fbd9-Reset_password_button.png).*
     </Callout>
 
     <br />
