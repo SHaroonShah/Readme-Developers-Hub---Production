@@ -39,12 +39,12 @@ In SAPIENT, you can edit the users to maintain accurate and up-to-date records o
   <ToggleListItem title={<strong>2. Edit user</strong>} icon="fa-rocket">
     <br />
 
-    On the **Users** page that appears, from the list select the user that you want to edit, and then in the Edit User \[user name] form that opens, update the necessary information as explained in the [Add user](https://docs.intersoftsapient.net/docs/add-users-to-your-organisation-to-begin-collaborating-with-your-team) section.
+    On the **Users** page that appears, from the list select the user that you want to edit, and then in the **Edit User \[user name]** form that opens, update the necessary information as explained in the [Add user](https://docs.intersoftsapient.net/docs/add-users-to-your-organisation-to-begin-collaborating-with-your-team) section.
 
     <Callout icon="💡" theme="default">
       ### *Tip*
 
-      *If needed, from the **Edit User** page, you can also [reset your password](https://docs.intersoftsapient.net/docs/reset-password) by selecting ![](https://files.readme.io/72a7b73173a791e4e2c30096fe1bbd3813b130f0289272639bfd092d33f0fbd9-Reset_password_button.png).*
+      *If needed, from the**Edit User** page, you can also [reset your password](https://docs.intersoftsapient.net/docs/reset-password) by selecting ![](https://files.readme.io/72a7b73173a791e4e2c30096fe1bbd3813b130f0289272639bfd092d33f0fbd9-Reset_password_button.png).*
     </Callout>
 
     <br />
