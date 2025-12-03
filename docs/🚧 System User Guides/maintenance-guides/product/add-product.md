@@ -17,13 +17,23 @@ next:
 ---
 In SAPIENT, you can add as many products as you want and use them in your <Glossary>shipment</Glossary> request. This helps ensuring accurate data for pricing, labeling, and compliance.
 
+<Cards columns={2}>
+  <Card title="Regular Products" icon="fa-solid fa-box">
+    Standard items with basic product information like dimensions, weight, and value.
+  </Card>
+
+  <Card title="Hazardous Materials" icon="fa-solid fa-exclamation-triangle">
+    Special products requiring additional safety information and compliance details.
+  </Card>
+</Cards>
+
 To add a new <Glossary>product</Glossary> in SAPIENT, follow the steps as explained in the following procedure.
 
 1. In the left navigation panel, select **Products**.
 
 <Image align="center" alt="Accessing shipping locations" border={true} caption="Accessing products" src="https://files.readme.io/ec355529da5603569fe7c27204b1b58b5f7368185e1daa06e9836a6a0c4e855b-Acccessing_products_option.png" />
 
-2. On the **Products** page that appears, select ![alt text](https://files.readme.io/551c1450e733a95bd452603ef5b85d1a7117a44a87b0689da3cd7b09b6351023-Add_product_button.png).
+2. On the **Products** page that appears, select ![](https://files.readme.io/551c1450e733a95bd452603ef5b85d1a7117a44a87b0689da3cd7b09b6351023-Add_product_button.png).
 
 <Image align="center" alt="Selecting option to add shipping location" border={true} caption="Selecting option to add product" src="https://files.readme.io/dc08b7bdd1de178e0ec7835267721eea82af919b8f983ac89e33bcfdcb7ddef4-Add_product_option.png" />
 
@@ -49,7 +59,7 @@ To add a new <Glossary>product</Glossary> in SAPIENT, follow the steps as explai
   <tbody>
     <tr>
       <td>
-        **SKU Code**\*
+        **SKU Code***
       </td>
 
       <td>
@@ -65,13 +75,13 @@ To add a new <Glossary>product</Glossary> in SAPIENT, follow the steps as explai
       <td>
         Enter the <Glossary>HS Code</Glossary> for the product you are adding.
 
-        *`Note`: A minimum of 6 alpha-numeric code is required when the HS Code is provided (some services/destinations may require 8). Additionally, this information is required by some carriers for dutiable shipments.*
+        _`Note`: A minimum of 6 alpha-numeric code is required when the HS Code is provided (some services/destinations may require 8). Additionally, this information is required by some carriers for dutiable shipments._
       </td>
     </tr>
 
     <tr>
       <td>
-        **Description**\*
+        **Description***
       </td>
 
       <td>
@@ -87,13 +97,13 @@ To add a new <Glossary>product</Glossary> in SAPIENT, follow the steps as explai
       <td>
         From the dropdown menu, select the country where the product you are adding was manufactured.
 
-        *`Note`: This information is required by some carriers for dutiable shipments.*
+        _`Note`: This information is required by some carriers for dutiable shipments._
       </td>
     </tr>
 
     <tr>
       <td>
-        **Value**\*
+        **Value***
       </td>
 
       <td>
@@ -103,25 +113,25 @@ To add a new <Glossary>product</Glossary> in SAPIENT, follow the steps as explai
 
     <tr>
       <td>
-        **Currency**\*
+        **Currency***
       </td>
 
       <td>
         From the dropdown menu, select the currency code in which the value of the product is set.
 
-        *Note: This information is required if any monetary values other than zero are provided.*
+        _Note: This information is required if any monetary values other than zero are provided._
       </td>
     </tr>
 
     <tr>
       <td>
-        **Weight (kg)**\*
+        **Weight (kg)***
       </td>
 
       <td>
         Enter the weight of the product you are adding. The unit of measure is set to **Kg** by default and can be a maximum of 1000 kg.
 
-        *`Note`: This information is required for dutiable shipments and must be a minimum of 1 g.*
+        _`Note`: This information is required for dutiable shipments and must be a minimum of 1 g._
       </td>
     </tr>
 
@@ -137,7 +147,7 @@ To add a new <Glossary>product</Glossary> in SAPIENT, follow the steps as explai
   </tbody>
 </Table>
 
-4. If the product you are adding is a hazardous material, then turn on ![alt text](https://files.readme.io/efe8272f619daf8eb5e78d9b1c0e910a406242d6d5a9ced9a84d013216a8521c-Hazardous_product_toggle.png) toggle. In the **HAZARDOUS INFORMATION** form that opens, enter the necessary information as explained in the following table.
+4. If the product you are adding is a hazardous material, then turn on ![](https://files.readme.io/efe8272f619daf8eb5e78d9b1c0e910a406242d6d5a9ced9a84d013216a8521c-Hazardous_product_toggle.png) toggle. In the **HAZARDOUS INFORMATION** form that opens, enter the necessary information as explained in the following table.
 
 <Image align="center" alt="Entering address details" border={true} caption="Entering hazardous product information" src="https://files.readme.io/81567e5b0718c10f9e6955ed1b44915b5f824ddc836d0c1243b598f03225d20a-Hazardous_information_form.png" />
 
@@ -159,7 +169,7 @@ To add a new <Glossary>product</Glossary> in SAPIENT, follow the steps as explai
   <tbody>
     <tr>
       <td>
-        **UN Code**\*
+        **UN Code***
       </td>
 
       <td>
@@ -179,7 +189,7 @@ To add a new <Glossary>product</Glossary> in SAPIENT, follow the steps as explai
 
     <tr>
       <td>
-        **Quantity**\*
+        **Quantity***
       </td>
 
       <td>
@@ -189,7 +199,7 @@ To add a new <Glossary>product</Glossary> in SAPIENT, follow the steps as explai
 
     <tr>
       <td>
-        **Unit of Measure**\*
+        **Unit of Measure***
       </td>
 
       <td>
@@ -199,7 +209,7 @@ To add a new <Glossary>product</Glossary> in SAPIENT, follow the steps as explai
 
     <tr>
       <td>
-        **Class**\*
+        **Class***
       </td>
 
       <td>
@@ -251,10 +261,10 @@ To add a new <Glossary>product</Glossary> in SAPIENT, follow the steps as explai
   </tbody>
 </Table>
 
-5. After entering all the relevant information, select ![alt text](https://files.readme.io/cbbd6f41c2af58489811253c7a470ba0541bace30346d7d0e2f0fd2c222348fa-Add_product_button_2.png).
+5. After entering all the relevant information, select ![](https://files.readme.io/cbbd6f41c2af58489811253c7a470ba0541bace30346d7d0e2f0fd2c222348fa-Add_product_button_2.png).
 
 Once done, a new product is added successfully and appears in the **Products** table. You can now manage it as per your business needs and use them in your shipment requests.
 
-> 📘 *Note*
+> 📘 _Note_
 >
-> *Products can be added and managed via API. To learn more on how to add a product via API, refer to the[API References](https://docs.intersoftsapient.net/reference/post_v4-products) section.*
+> _Products can be added and managed via API. To learn more on how to add a product via API, refer to the[API References](https://docs.intersoftsapient.net/reference/post_v4-products) section._
