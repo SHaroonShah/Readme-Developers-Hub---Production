@@ -42,7 +42,7 @@ In SAPIENT, you can edit the <Glossary>product</Glossary>, ensuring that any cha
       <ToggleListItem title={<strong>2. Select product to edit</strong>} icon="fa-rocket">
         <br />
 
-        On the **Products** page that appears, from the list, select the product that you want to edit, and then in the **Edit Product** form that opens, start updating the necessary information as explained in the [Add product](https://docs.intersoftsapient.net/docs/add-product) section.
+        On the **Products** page that appears, from the list, select the product that you want to edit and start updating the necessary information as explained in the [Add product](https://docs.intersoftsapient.net/docs/add-product) section.
 
 <Image align="center" border={true} caption="Selecting product to edit" src="https://files.readme.io/a1a7bc27c6253ce0355cb87cc2f549c247ac33518acf56a929598df85fda5882-Selecting_products_to_edit.png" />
 
