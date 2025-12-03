@@ -52,9 +52,9 @@ In SAPIENT, you can delete a product to cleanup the database, preventing confusi
       <ToggleListItem title={<strong>3. Delete product</strong>} icon="fa-rocket">
         <br />
 
-        In the **Edit Product** form that opens, start updating the necessary information as explained in the [Add product](https://docs.intersoftsapient.net/docs/aclick ![](https://files.readme.io/63292b906edfcaf8554e4c4b9385b1ba483ec4ada1541955dde6ff5a78cc55fe-Delete_product_button.png).
+        In the **Edit Product** form that opens, click) ![](https://files.readme.io/63292b906edfcaf8554e4c4b9385b1ba483ec4ada1541955dde6ff5a78cc55fe-Delete_product_button.png).
 
-        <Image align="center" alt="Selecting option to add shipping location" border={true} caption="Deleting product" src="https://files.readme.io/c84f99786468144347b5039b2c1bde7322000a27e08f78cb070a4fbd17dbd9f0-Delete_product_option.png" />
+        <Image align="center" border={true} src="https://files.readme.io/c84f99786468144347b5039b2c1bde7322000a27e08f78cb070a4fbd17dbd9f0-Delete_product_option.png" alt="Selecting option to add shipping location" />
 
         ***
       </ToggleListItem>
@@ -66,9 +66,9 @@ In SAPIENT, you can delete a product to cleanup the database, preventing confusi
 
         In the confirmation dialog that appears, select **Yes** to confirm your action.
 
-<Image align="center" alt="Confirming product deletion" border={true} caption="Confirming product deletion" src="https://files.readme.io/2c4dc02c1409b059556e92db227a058f328c7cfb5de80c36e95021287647f311-Confirming_product_deletion.png" width="350px" />
+        <Image align="center" border={true} src="https://files.readme.io/2c4dc02c1409b059556e92db227a058f328c7cfb5de80c36e95021287647f311-Confirming_product_deletion.png" width="350px" alt="Confirming product deletion" />
 
-Once confirmed, the product is deleted successfully and no longer displays in the **Product** list.
+        Once confirmed, the product is deleted successfully and no longer displays in the **Product** list.
 
         ***
       </ToggleListItem>
