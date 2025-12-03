@@ -36,6 +36,8 @@ In this section, learn how to:
   </Card>
 </Cards>
 
+***
+
 ## See also
 
 <Cards>
