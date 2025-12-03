@@ -24,7 +24,7 @@ The following are the primary purposes of a shipping location:
 
 ## Manage your shipping locations
 
-In this section, learn how to do the following:
+In this section, learn how to mange your shipping locations with these essential operations:
 
 <Cards columns="3">
   <Card title="Add a Location" href="https://docs.intersoftsapient.net/docs/add-a-shipping-location" icon="Fa- solid fa-plus-circle">
