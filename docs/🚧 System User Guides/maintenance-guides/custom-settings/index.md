@@ -56,15 +56,15 @@ The main benefits of this setting are explained as follows:
 In this section, learn how to configure your customs settings with these essential operations:
 
 <Cards columns="3">
-  <Card title="Pre-registration Number" href="https://docs.intersoftsapient.net/docs/add-pre-registration-number" icon="clipboard-list">
+  <Card title="Pre-registration Number" href="https://docs.intersoftsapient.net/docs/add-pre-registration-number" icon="fa-solid fa-clipboard-list">
     Learn how to add and configure pre-registration numbers for customs compliance
   </Card>
 
-  <Card title="VAT and EORI Numbers" href="https://docs.intersoftsapient.net/docs/add-vat-and-eori-numbers" icon="id-card">
+  <Card title="VAT and EORI Numbers" href="https://docs.intersoftsapient.net/docs/add-vat-and-eori-numbers" icon="fa-solid fa-id-card">
     Set up VAT and EORI numbers for European trade requirements
   </Card>
 
-  <Card title="Signature and Logo" href="https://docs.intersoftsapient.net/docs/add-signature-and-logo" icon="signature">
+  <Card title="Signature and Logo" href="https://docs.intersoftsapient.net/docs/add-signature-and-logo" icon="fa-solid fa-signature">
     Add your business signature and logo to customs documentation
   </Card>
 </Cards>
