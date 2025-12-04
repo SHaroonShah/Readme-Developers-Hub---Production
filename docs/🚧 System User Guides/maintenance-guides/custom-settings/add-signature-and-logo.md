@@ -6,7 +6,7 @@ excerpt: >-
   and proforma invoice customs documents related to the shipments.
 deprecated: false
 hidden: false
-icon: fad fa-upload
+icon: fad fa-file-signature
 metadata:
   title: ''
   description: ''
