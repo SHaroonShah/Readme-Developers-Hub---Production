@@ -37,7 +37,7 @@ The main benefits of this setting are explained as follows:
   </Card>
 
   <Card title="Tariff Classification" icon="tags">
-    Assign correct HS Codes and tariff classifications to determine duties and ensure compliance
+    Assign correct <Glossary>HS Code</Glossary>s and tariff classifications to determine duties and ensure compliance
   </Card>
 
   <Card title="Restricted Items Management" icon="exclamation-triangle">
