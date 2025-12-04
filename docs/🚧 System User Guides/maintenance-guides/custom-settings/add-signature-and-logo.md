@@ -24,9 +24,9 @@ To add signature and logo in SAPIENT, follow the steps as explained in the follo
   <ToggleListItem title={<strong>1. Access signagures and logos settings</strong>} icon="fa-rocket">
     <br />
 
-   In the left navigation panel, select **Customs Settings** > **Signatures and Logos**.
+    In the left navigation panel, select **Customs Settings** > **Signatures and Logos**.
 
-<Image align="center" alt="Accessing signatures and logos" border={true} caption="Accessing signatures and logos" src="https://files.readme.io/00c81ec3f8935f700829d2ec2e8ed30d0fa0bd6fc0a5d658684f8609202fab93-Signatures_and_logos_option.png" />
+    <Image align="center" border={true} src="https://files.readme.io/00c81ec3f8935f700829d2ec2e8ed30d0fa0bd6fc0a5d658684f8609202fab93-Signatures_and_logos_option.png" alt="Accessing signatures and logos" />
 
     ***
   </ToggleListItem>
@@ -38,7 +38,7 @@ To add signature and logo in SAPIENT, follow the steps as explained in the follo
 
     In the **Signatures and Logos** page that opens, select ![](https://files.readme.io/2e03049feb3d93343e3c10aeb0958e95489136884c6fea556824482504e36176-Add_sign_and_logo_button.png).
 
-<Image align="center" alt="Accessing option to add signature and logo" border={true} caption="Accessing option to add signature and logo" src="https://files.readme.io/af0587aafff2921d2ae9f21523162ad00f35e5b667c43e7d98d5c5844644d248-Add_sign_and_logo_option.png" />
+    <Image align="center" border={true} src="https://files.readme.io/af0587aafff2921d2ae9f21523162ad00f35e5b667c43e7d98d5c5844644d248-Add_sign_and_logo_option.png" alt="Accessing option to add signature and logo" />
 
     ***
   </ToggleListItem>
@@ -50,7 +50,7 @@ To add signature and logo in SAPIENT, follow the steps as explained in the follo
 
     In the **Add Signature and Logo** form that opens, in the **SHIPPING ACCOUNT** block, from the dropdown menu, select the <Glossary>shipping account</Glossary> for which you want to add the signature and logo.
 
-<Image align="center" alt="Selecting shipping account" border={true} caption="Selecting shipping account" src="https://files.readme.io/5ae73e9b31172ef595d23ce52d14ebecfe8fc628d7496ede4c7d79941a79a92c-Shipping_account_block_4.png" />
+    <Image align="center" border={true} src="https://files.readme.io/5ae73e9b31172ef595d23ce52d14ebecfe8fc628d7496ede4c7d79941a79a92c-Shipping_account_block_4.png" alt="Selecting shipping account" />
 
     ***
   </ToggleListItem>
@@ -60,120 +60,114 @@ To add signature and logo in SAPIENT, follow the steps as explained in the follo
   <ToggleListItem title={<strong>4. Enter signature and logo details </strong>} icon="fa-rocket">
     <br />
 
-    In the **VAT/EORI NUMBER** block that appears, enter the necessary information as detailed in the configuration table below.
-
-    <Image align="center" border={true} src="https://files.readme.io/7c7d4e9ebcc049fcd2bd43fac3ce92d73d2f654b832d368199aeb91eb9e830e5-VAT-EORI_Number_block.png" alt="Entering VAT/EORI number and its details" />
-
-    <br />
-
     After, in the **SIGNATURE AND LOGO** block that appears, enter the necessary information as explained in the following table.
 
-<Image align="center" alt="Entering signature, logo and their details" border={true} caption="Entering signature/logo details" src="https://files.readme.io/e76e58044cb974222ae08b816f28699b06536a50962f10e46fac92c01ef98dac-Signatures_and_Logos_generic_screen.png" />
+    <Image align="center" border={true} src="https://files.readme.io/e76e58044cb974222ae08b816f28699b06536a50962f10e46fac92c01ef98dac-Signatures_and_Logos_generic_screen.png" alt="Entering signature, logo and their details" />
 
-<Table align={["center","left"]}>
-  <thead>
-    <tr>
-      <th>
-        Element
-      </th>
+    <Table align={["center","left"]}>
+      <thead>
+        <tr>
+          <th>
+            Element
+          </th>
 
-      <th>
-        Description
-      </th>
-    </tr>
-  </thead>
+          <th>
+            Description
+          </th>
+        </tr>
+      </thead>
 
-  <tbody>
-    <tr>
-      <td>
-        **Shipping Location**
-      </td>
+      <tbody>
+        <tr>
+          <td>
+            **Shipping Location**
+          </td>
 
-      <td>
-        From the dropdown menu, select the <Glossary>shipping location</Glossary> for which you want to add the signature and logo.
+          <td>
+            From the dropdown menu, select the <Glossary>shipping location</Glossary> for which you want to add the signature and logo.
 
-        You can also select **All** if you want to add the signature and logo for all the existing shipping accounts.
-      </td>
-    </tr>
+            You can also select **All** if you want to add the signature and logo for all the existing shipping accounts.
+          </td>
+        </tr>
 
-    <tr>
-      <td>
-        **Logo Image**
-      </td>
+        <tr>
+          <td>
+            **Logo Image**
+          </td>
 
-      <td>
-        Select **Choose File**, follow the prompts of your computer, and then select the logo file that you want to upload.
+          <td>
+            Select **Choose File**, follow the prompts of your computer, and then select the logo file that you want to upload.
 
-        Alternatively, drag the desired logo file to this field.
-      </td>
-    </tr>
+            Alternatively, drag the desired logo file to this field.
+          </td>
+        </tr>
 
-    <tr>
-      <td>
-        **Signature Image**
-      </td>
+        <tr>
+          <td>
+            **Signature Image**
+          </td>
 
-      <td>
-        Select **Choose File**, follow the prompts of your computer, and then select the signature file that you want to upload.
+          <td>
+            Select **Choose File**, follow the prompts of your computer, and then select the signature file that you want to upload.
 
-        Alternatively, drag the desired signature file to this field.
-      </td>
-    </tr>
+            Alternatively, drag the desired signature file to this field.
+          </td>
+        </tr>
 
-    <tr>
-      <td>
-        **Signature Name**
-      </td>
+        <tr>
+          <td>
+            **Signature Name**
+          </td>
 
-      <td>
-        Enter the name of the signature that you have uploaded.
+          <td>
+            Enter the name of the signature that you have uploaded.
 
-        _Note: This field is only required if the signature file is uploaded._
-      </td>
-    </tr>
+            *Note: This field is only required if the signature file is uploaded.*
+          </td>
+        </tr>
 
-    <tr>
-      <td>
-        **Declaration Statement***
-      </td>
+        <tr>
+          <td>
+            **Declaration Statement**\*
+          </td>
 
-      <td>
-        Carefully read the declaration statement before saving your documents.
+          <td>
+            Carefully read the declaration statement before saving your documents.
 
-        _`Note`: This filed is editable and if needed, you can modify this statement as per your business requirements._
-      </td>
-    </tr>
+            *`Note`: This filed is editable and if needed, you can modify this statement as per your business requirements.*
+          </td>
+        </tr>
 
-    <tr>
-      <td>
-        **Add Documents & Images**
-      </td>
+        <tr>
+          <td>
+            **Add Documents & Images**
+          </td>
 
-      <td>
-        Select ![](https://files.readme.io/f7ceba9e8e14a6f791412024b91067a8b8d456a409caa520dd553eec1af3ed42-Add_documents_and_images_button.png) to save your documents.
-      </td>
-    </tr>
+          <td>
+            Select ![](https://files.readme.io/f7ceba9e8e14a6f791412024b91067a8b8d456a409caa520dd553eec1af3ed42-Add_documents_and_images_button.png) to save your documents.
+          </td>
+        </tr>
 
-    <tr>
-      <td>
-        **Cancel**
-      </td>
+        <tr>
+          <td>
+            **Cancel**
+          </td>
 
-      <td>
-        Select ![](https://files.readme.io/866310e4fa14cf86a31a827c203da1fa0b2f7dbd5f52e868b6d96692fc223f3d-Cancel_button.png) to discard the changes and close the form. No changes are saved in this case.
-      </td>
-    </tr>
-  </tbody>
-</Table>
+          <td>
+            Select ![](https://files.readme.io/866310e4fa14cf86a31a827c203da1fa0b2f7dbd5f52e868b6d96692fc223f3d-Cancel_button.png) to discard the changes and close the form. No changes are saved in this case.
+          </td>
+        </tr>
+      </tbody>
+    </Table>
 
-Once saved, the signature and logo is added successfully and appears in the **Signatures and Logos** list. You can now use them in your <Glossary>label</Glossary>, <Glossary>CN23</Glossary>, or any <Glossary>commercial invoice</Glossary> generated by this system.
+    Once saved, the signature and logo is added successfully and appears in the **Signatures and Logos** list. You can now use them in your <Glossary>label</Glossary>, <Glossary>CN23</Glossary>, or any <Glossary>commercial invoice</Glossary> generated by this system.
 
-<Callout icon="💡" theme="default">
-  ### _Tip_
+    <Callout icon="💡" theme="default">
+      ### *Tip*
 
-  If you want to remove a specific signature and logo, then in the **Signatures and Logos** list, next to the one you want to delete, select ![](https://files.readme.io/0979c7211f5ae99308ba3f765bd083d41949895562626a4f0cc33acd80b30762-Trash_icon.png).
+      If you want to remove a specific signature and logo, then in the **Signatures and Logos** list, next to the one you want to delete, select ![](https://files.readme.io/0979c7211f5ae99308ba3f765bd083d41949895562626a4f0cc33acd80b30762-Trash_icon.png).
 
-  <Image align="center" alt="Deleting pre-registration number" border={true} caption="Deleting signature and logo" src="https://files.readme.io/18854da926a99e35b6280bbb19445cac623a73a7f01d8cb9df4c99cd2a6fe6e9-Removing_item.png" />
-</Callout>
+      <Image align="center" border={true} src="https://files.readme.io/18854da926a99e35b6280bbb19445cac623a73a7f01d8cb9df4c99cd2a6fe6e9-Removing_item.png" alt="Deleting pre-registration number" />
+    </Callout>
   </ToggleListItem>
 </ToggleList>
