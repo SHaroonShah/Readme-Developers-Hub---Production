@@ -113,7 +113,7 @@ In SAPIENT, you can add as many addresses as you want to enhance the system's ef
     To add an address to the address book via our API, refer to the following endpoint:
 
     <Cards>
-      <Card title="Add Address" href="https://docs.intersoftsapient.net/reference/post_v4-addresses#/" icon="fa-solid fa-code">
+      <Card title="Add Address Book" href="https://docs.intersoftsapient.net/reference/post_v4-addresses#/" icon="fa-solid fa-code">
         Complete API reference for adding address to address book
       </Card>
     </Cards>
