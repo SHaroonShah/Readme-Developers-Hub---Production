@@ -31,7 +31,7 @@ In this section, you can find information on the following components:
     Detailed reference materials on how to use the shipping API, including endpoints, request/response formats, error handling, and example use cases.
   </Card>
 
-  <Card title="Reference Data" href="https://docs.intersoftsapient.net/docs/api#accessing-reference-data-1" icon="fa-solid fa-database">
+  <Card title="Reference Data" href="## Accessing reference data" icon="fa-solid fa-database">
     Standardised read-only reference data for shipping attributes, including lists of countries, supported currencies, and time zone information. Essential for correct address formatting, currency conversions, and scheduling.
   </Card>
 
