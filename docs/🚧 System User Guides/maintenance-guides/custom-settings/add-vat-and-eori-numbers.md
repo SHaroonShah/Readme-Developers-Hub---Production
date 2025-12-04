@@ -198,7 +198,7 @@ To add the VAT and EORI numbers in SAPIENT, perform the steps as explained in th
     <Callout icon="💡" theme="default">
       ### *Tip*
 
-      If you want to remove the VAT and EORI number, then in the **VAT and EORI Numbers** list, next to the one you want to delete, select  ![alt text](https://files.readme.io/0979c7211f5ae99308ba3f765bd083d41949895562626a4f0cc33acd80b30762-Trash_icon.png).
+      *If you want to remove the VAT and EORI number, then in the **VAT and EORI Numbers** list, next to the one you want to delete, select  ![alt text](https://files.readme.io/0979c7211f5ae99308ba3f765bd083d41949895562626a4f0cc33acd80b30762-Trash_icon.png).*
 
       <Image align="center" border={true} src="https://files.readme.io/18854da926a99e35b6280bbb19445cac623a73a7f01d8cb9df4c99cd2a6fe6e9-Removing_item.png" alt="Deleting VAT/EORI number" />
     </Callout>
