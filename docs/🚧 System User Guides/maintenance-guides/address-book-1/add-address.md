@@ -124,8 +124,6 @@ In SAPIENT, you can add as many addresses as you want to enhance the system's ef
 
 ### See also
 
-<br />
-
 <Cards>
   <Card title="Edit Address" href="https://docs.intersoftsapient.net/docs/edit-address" icon="fa-solid fa-edit">
     Update existing address details to keep your records current and accurate for reliable shipping.
