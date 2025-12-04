@@ -88,3 +88,13 @@ In SAPIENT, you can edit the addresses that you have added previously to maintai
 ***
 
 ### See also
+
+<Cards>
+  <Card title="Add Address" href="https://docs.intersoftsapient.net/docs/add-address" icon="fa-solid fa-plus-circle">
+    Create new addresses for customers, vendors, suppliers, or warehouse locations to expand your address repository.
+  </Card>
+
+  <Card title="Delete Address" href="https://docs.intersoftsapient.net/docs/delete-address" icon="fa-solid fa-trash">
+    Remove outdated or unnecessary addresses to maintain a clean and organised address book.
+  </Card>
+</Cards>
