@@ -185,10 +185,6 @@ To add a pre-registration number via the SAPIENT UI, perform the steps as explai
 
     Once selected, the pre-registration number is added successfully and displays in the **Pre-Registration Numbers** list. You can now use this number in your [Create Shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm) request.
 
-    ***
-  </ToggleListItem>
-</ToggleList>
-
 <Callout icon="💡" theme="default">
   ### _Tip_
 
@@ -196,3 +192,7 @@ To add a pre-registration number via the SAPIENT UI, perform the steps as explai
 
   <Image align="center" alt="Deleting pre-registration number" border={true} caption="Deleting pre-registration number" src="https://files.readme.io/18854da926a99e35b6280bbb19445cac623a73a7f01d8cb9df4c99cd2a6fe6e9-Removing_item.png" />
 </Callout>
+  </ToggleListItem>
+</ToggleList>
+
+
