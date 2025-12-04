@@ -41,7 +41,7 @@ In SAPIENT, you can edit the addresses that you have added previously to maintai
 
         In the **Address Book** page that opens, from the list, select the address that you want edit.
 
-<Image align="center" alt="Accessing option to add address" border={true} caption="Editing address" src="https://files.readme.io/4eb2b8b120c2894a1c42c57b7ab17d508d933c2de59520bd5be2f88b08f723f8-Editing_address.png" />
+        <Image align="center" border={false} src="https://files.readme.io/ff8a355df4c747af6625d590d1ae4969c04ca1fc54583d44664f74dbaa97454d-Selecting_address_to_edit.png" />
 
         ***
       </ToggleListItem>
@@ -51,9 +51,9 @@ In SAPIENT, you can edit the addresses that you have added previously to maintai
       <ToggleListItem title={<strong>3. Edit address </strong>} icon="fa-rocket">
         <br />
 
-       In the **Edit Address** form that opens, update the necessary information as explained in the [Add address](https://docs.intersoftsapient.net/docs/add-address#/) section.
+        In the **Edit Address** form that opens, update the necessary information as explained in the [Add address](https://docs.intersoftsapient.net/docs/add-address#/) section.
 
-<Image align="center" alt="Editing address" border={true} caption="Editing address" src="https://files.readme.io/1b3e80e0f16f5a38056c1e8fa5a41a42ce78f1012f724c2eaa3075a366de6b85-Editing_address.png" />
+        <Image align="center" border={true} src="https://files.readme.io/1b3e80e0f16f5a38056c1e8fa5a41a42ce78f1012f724c2eaa3075a366de6b85-Editing_address.png" alt="Editing address" />
 
         ***
       </ToggleListItem>
@@ -63,9 +63,9 @@ In SAPIENT, you can edit the addresses that you have added previously to maintai
       <ToggleListItem title={<strong>4. Save your changes </strong>} icon="fa-rocket">
         <br />
 
-       After updating the relevant information, select ![](https://files.readme.io/ad9e5914fc6e05f9f14e1da660f4d564a88845b37bfe08a5efbf76997ebb406a-Save_changes_button.png).
+        After updating the relevant information, select ![](https://files.readme.io/ad9e5914fc6e05f9f14e1da660f4d564a88845b37bfe08a5efbf76997ebb406a-Save_changes_button.png).
 
-Once done, the address is updated successfully and now up-to-date.
+        Once done, the address is updated successfully and now up-to-date.
 
         ***
       </ToggleListItem>
