@@ -26,17 +26,15 @@ In SAPIENT, you can add the pre-registration number to ensure compliance with in
 
 ## How to add pre-registration number
 
-<br />
-
 To add an address to the address book in SAPIENT, perform the steps as explained in the following procedure.
 
 <ToggleList>
   <ToggleListItem title={<strong>1. Access Pre-registration numbers</strong>} icon="fa-rocket">
     <br />
 
-     In the left navigation panel, select **Customs Settings** > **Pre-Registration Numbers**.
+    In the left navigation panel, select **Customs Settings** > **Pre-Registration Numbers**.
 
-  <Image align="center" border={true} src="https://files.readme.io/52fba08b346b45d4888a1dc14a06bf395cc4b30bdd9eeec98113d4c2fa2e416f-Pre-registration_numbers_option.png" alt="Accessing pre-registration numbers" />
+    <Image align="center" border={true} src="https://files.readme.io/52fba08b346b45d4888a1dc14a06bf395cc4b30bdd9eeec98113d4c2fa2e416f-Pre-registration_numbers_option.png" alt="Accessing pre-registration numbers" />
 
     ***
   </ToggleListItem>
@@ -48,7 +46,7 @@ To add an address to the address book in SAPIENT, perform the steps as explained
 
     In the **Pre-Registration Numbers** page that opens, select ![alt text](https://files.readme.io/574f2d3dd4cce77a9cde0e299f8a2f591fab81c8c7b4b49266c81ed4528c661d-Add_pre-registration_number_button.png).
 
-  <Image align="center" src="https://files.readme.io/d7897eb60920589421496b60ad5a80cb6864a92a17cfb7f3f5aa143994d24e65-Add_pre-registration_number_option.png" alt="Accessing option to add pre-registration number" />
+    <Image align="center" src="https://files.readme.io/d7897eb60920589421496b60ad5a80cb6864a92a17cfb7f3f5aa143994d24e65-Add_pre-registration_number_option.png" alt="Accessing option to add pre-registration number" />
 
     ***
   </ToggleListItem>
@@ -58,9 +56,9 @@ To add an address to the address book in SAPIENT, perform the steps as explained
   <ToggleListItem title={<strong>3. Select shipping account </strong>} icon="fa-rocket">
     <br />
 
-     In the **Add Pre-Registration Number** form that opens, in the **SHIPPING ACCOUNT** block, from the dropdown menu, select the <Glossary>shipping account</Glossary> for which you want to add the pre-registration number.
+    In the **Add Pre-Registration Number** form that opens, in the **SHIPPING ACCOUNT** block, from the dropdown menu, select the <Glossary>shipping account</Glossary> for which you want to add the pre-registration number.
 
-  <Image align="center" border={true} src="https://files.readme.io/1eec0cd1bf0612547a50a5de7866c9467f0e0faaff330c61093b16e411869a0f-Shipping_account_block_2.png" alt="Selecting shipping account" />
+    <Image align="center" border={true} src="https://files.readme.io/1eec0cd1bf0612547a50a5de7866c9467f0e0faaff330c61093b16e411869a0f-Shipping_account_block_2.png" alt="Selecting shipping account" />
 
     ***
   </ToggleListItem>
@@ -72,107 +70,109 @@ To add an address to the address book in SAPIENT, perform the steps as explained
 
     After selecting the shipping account, in the **PRE-REGISTRATION NUMBER** block that appears, enter the necessary information.
 
-  <Image align="center" border={true} src="https://files.readme.io/e915ba8ed9b9e03c3d9a7662a7ce8fca175d3a707b9348ab7509b35df51fed36-Pre-registration_number_block.png" alt="Entering pre-registration number and its details" />
+    <Image align="center" border={true} src="https://files.readme.io/e915ba8ed9b9e03c3d9a7662a7ce8fca175d3a707b9348ab7509b35df51fed36-Pre-registration_number_block.png" alt="Entering pre-registration number and its details" />
 
-  <AsteridkForMandatoryElements />
-  <Table align={["center","left"]}>
-    <thead>
-      <tr>
-        <th style={{ textAlign: "center" }}>
-          Element
-        </th>
+    <AsteridkForMandatoryElements />
 
-        <th style={{ textAlign: "left" }}>
-          Description
-        </th>
-      </tr>
-    </thead>
+    <Table align={["center","left"]}>
+      <thead>
+        <tr>
+          <th>
+            Element
+          </th>
 
-    <tbody>
-      <tr>
-        <td style={{ textAlign: "center" }}>
-          **Shipping Location**
-        </td>
+          <th>
+            Description
+          </th>
+        </tr>
+      </thead>
 
-        <td style={{ textAlign: "left" }}>
-          From the dropdown menu, select the <Glossary>shipping location</Glossary> for which you want to add the pre-registration number.
+      <tbody>
+        <tr>
+          <td>
+            **Shipping Location**
+          </td>
 
-          You can also select **All** if you want to add a pre-registration number for all the existing shipping accounts.
-        </td>
-      </tr>
+          <td>
+            From the dropdown menu, select the <Glossary>shipping location</Glossary> for which you want to add the pre-registration number.
 
-      <tr>
-        <td style={{ textAlign: "center" }}>
-          **Country**
-        </td>
+            You can also select **All** if you want to add a pre-registration number for all the existing shipping accounts.
+          </td>
+        </tr>
 
-        <td style={{ textAlign: "left" }}>
-          From the dropdown menu, select the specific destination country for which you want to add the pre-registration number.
+        <tr>
+          <td>
+            **Country**
+          </td>
 
-          You may select **All** if you want to include all the countries (that are, countries grouped by European Union or <Glossary>ROW</Glossary> categories).
-        </td>
-      </tr>
+          <td>
+            From the dropdown menu, select the specific destination country for which you want to add the pre-registration number.
 
-      <tr>
-        <td style={{ textAlign: "center" }}>
-          **Country Group**
-        </td>
+            You may select **All** if you want to include all the countries (that are, countries grouped by European Union or <Glossary>ROW</Glossary> categories).
+          </td>
+        </tr>
 
-        <td style={{ textAlign: "left" }}>
-          From the dropdown menu, select the country group for which you want to add the pre-registration number.
+        <tr>
+          <td>
+            **Country Group**
+          </td>
 
-          *Note: If you have selected a specific country in the**Country** field, then in this field, select **N/A**. Otherwise, select either **EuropeanUnion** or **RestOfTheWorld** options. In this case, the **Country** field value is set to **All**.*
-        </td>
-      </tr>
+          <td>
+            From the dropdown menu, select the country group for which you want to add the pre-registration number.
 
-      <tr>
-        <td style={{ textAlign: "center" }}>
-          **Type\***
-        </td>
+            *Note: If you have selected a specific country in the**Country** field, then in this field, select **N/A**. Otherwise, select either **EuropeanUnion** or **RestOfTheWorld** options. In this case, the **Country** field value is set to **All**.*
+          </td>
+        </tr>
 
-        <td style={{ textAlign: "left" }}>
-          From the dropdown menu, select any of the following types that you want to associated with your pre-registration number:
+        <tr>
+          <td>
+            **Type\***
+          </td>
 
-          • <Glossary>OSS</Glossary>\
-          • <Glossary>IOSS</Glossary>\
-          • <Glossary>GST</Glossary>\
-          • **Other, please specify**: choose this option, only if the type you want to specify is other than the ones mentioned in this dropdown field.
-        </td>
-      </tr>
+          <td>
+            From the dropdown menu, select any of the following types that you want to associated with your pre-registration number:
 
-      <tr>
-        <td style={{ textAlign: "center" }}>
-          **Other Type**
-        </td>
+            • <Glossary>OSS</Glossary>\
+            • <Glossary>IOSS</Glossary>\
+            • <Glossary>GST</Glossary>\
+            • **Other, please specify**: choose this option, only if the type you want to specify is other than the ones mentioned in this dropdown field.
+          </td>
+        </tr>
 
-        <td style={{ textAlign: "left" }}>
-          This field is only available if you have selected the **Other, please specify** option in the **Type** field.
+        <tr>
+          <td>
+            **Other Type**
+          </td>
 
-          Enter the type that you want to associate with the pre-registration number you are adding.
-        </td>
-      </tr>
+          <td>
+            This field is only available if you have selected the **Other, please specify** option in the **Type** field.
 
-      <tr>
-        <td style={{ textAlign: "center" }}>
-          **Pre-Registration Number\***
-        </td>
+            Enter the type that you want to associate with the pre-registration number you are adding.
+          </td>
+        </tr>
 
-        <td style={{ textAlign: "left" }}>
-          Enter your pre-registration number
-        </td>
-      </tr>
+        <tr>
+          <td>
+            **Pre-Registration Number\***
+          </td>
 
-      <tr>
-        <td style={{ textAlign: "center" }}>
-          **Valid From\***
-        </td>
+          <td>
+            Enter your pre-registration number
+          </td>
+        </tr>
 
-        <td style={{ textAlign: "left" }}>
-          From the date picker, select the date from which the pre-registration number you are adding is valid.
-        </td>
-      </tr>
-</tbody>
-  </Table>
+        <tr>
+          <td>
+            **Valid From\***
+          </td>
+
+          <td>
+            From the date picker, select the date from which the pre-registration number you are adding is valid.
+          </td>
+        </tr>
+      </tbody>
+    </Table>
+
     ***
   </ToggleListItem>
 
@@ -181,9 +181,10 @@ To add an address to the address book in SAPIENT, perform the steps as explained
   <ToggleListItem title={<strong>5. Save the configuration </strong>} icon="fa-rocket">
     <br />
 
-     After entering the relevant information, select ![alt text](https://files.readme.io/5041628c1ebe60cd9a698ff4068b10ef8341649edfe2e513e460f7afddb93d08-Add_pre-registration_number_button_2.png).
+    After entering the relevant information, select ![alt text](https://files.readme.io/5041628c1ebe60cd9a698ff4068b10ef8341649edfe2e513e460f7afddb93d08-Add_pre-registration_number_button_2.png).
 
-  Once selected, the pre-registration number is added successfully and displays in the **Pre-Registration Numbers** list. You can now use this number in your [Create Shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm) request.
+    Once selected, the pre-registration number is added successfully and displays in the **Pre-Registration Numbers** list. You can now use this number in your [Create Shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm) request.
+
     ***
   </ToggleListItem>
 </ToggleList>
