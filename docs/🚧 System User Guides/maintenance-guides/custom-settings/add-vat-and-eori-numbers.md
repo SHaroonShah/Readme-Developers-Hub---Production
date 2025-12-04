@@ -32,7 +32,7 @@ next:
 
 <Columns layout="auto">
   <Column>
-    **VAT Number Benefits:**
+    **VAT Number:**
 
     * Ensures proper tax handling during cross-border transactions
     * Enables VAT compliance with local and international regulations
@@ -40,7 +40,7 @@ next:
   </Column>
 
   <Column>
-    **EORI Number Benefits:**
+    **EORI Number:**
 
     * Expedites customs clearance processes
     * Reduces risk of delays or complications at borders
