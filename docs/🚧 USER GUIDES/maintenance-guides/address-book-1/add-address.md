@@ -11,42 +11,24 @@ link:
   new_tab: false
 metadata:
   title: ''
-  description: ''
+  description: >-
+    Adding a new address involves including a new entry in the address book for
+    a recipient, sender, or shipping location.
   robots: index
 ---
 In SAPIENT, you can add as many addresses as you want to enhance the system's efficiency by allowing users to save frequently used addresses, reducing repetitive data entry during shipment creation. This process supports better organization of shipping logistics by easily categorising, accessing, and using multiple addresses in your <Glossary>shipment</Glossary> requests.
 
-<Cards columns={2}>
-  <Card title="Via User Interface" icon="desktop">
-    Add addresses through the SAPIENT web interface using the Address Book feature
-  </Card>
-  <Card title="Via API" icon="code">
-    Programmatically add addresses using the SAPIENT API endpoints
-  </Card>
-</Cards>
+To add an address in SAPIENT, follow the steps as explained in the following procedure.
 
-<Tabs>
-  <Tab title="User Interface Method">
-
-## Step-by-Step Instructions
-
-Follow these steps to add an address through the SAPIENT interface:
-
-**Step 1: Access Address Book**
-
-In the left navigation panel, select **Address Book**.
+1. In the left navigation panel, select **Address Book**.
 
 <Image align="center" alt="Accessing address book" border={true} caption="Accessing address book" src="https://files.readme.io/145195adcbdbf39b1faea51d1afa71dcc10a408409060a05d02bc12fb48a8630-Address_option.png" />
 
-**Step 2: Initiate Add Address**
-
-In the **Address Book** page that opens, select ![alt text](https://files.readme.io/04fd0ca01e1aa046f9d359b1784c7829dfc49e228f54bd96c6929c86db7d79fa-Add_address_button.png).
+2. In the **Address Book** page that opens, select ![alt text](https://files.readme.io/04fd0ca01e1aa046f9d359b1784c7829dfc49e228f54bd96c6929c86db7d79fa-Add_address_button.png).
 
 <Image align="center" alt="Accessing option to add address" border={true} caption="Accessing option to add address" src="https://files.readme.io/8ae2dc77ad318b15a6820eafa0a2e377d27bdb399930a943b1234114ad63a4fc-Add_address_option.png" />
 
-**Step 3: Enter Address Name**
-
-In the **Add Address** form that opens, in the **ADDRESS NAME** block, enter the **Address id** (your identifier for the address).
+3. In the **Add Address** form that opens, in the **ADDRESS NAME** block, enter the **Address id** (your identifier for the address).
 
 > 📘 *Note*
 >
@@ -54,13 +36,9 @@ In the **Add Address** form that opens, in the **ADDRESS NAME** block, enter the
 
 <Image align="center" alt="Adding address name" border={true} caption="Adding address name" src="https://files.readme.io/023cc3556d6fb1c94f4a6342c6ec4bd549475a0e67cdde381a4aaa8fca5ac29a-Address_name_block.png" width="400px" />
 
-**Step 4: Complete Address Details**
-
-In the **ADDRESS DETAILS** block, enter the necessary information according to the field descriptions below.
+4. Now, in the **ADDRESS DETAILS** block, enter the necessary information as explained in the following table.
 
 <Image align="center" alt="Entering address details" border={true} caption="Entering address details" src="https://files.readme.io/7c75448e34131d863e8b073a1c6afc592b7938e71b88744e044df22b9f7f1cf7-Address_details_block_2.png" />
-
-<Accordion title="Address Form Fields Reference" icon="list">
 
 <AsteridkForMandatoryElements />
 
@@ -79,47 +57,10 @@ In the **ADDRESS DETAILS** block, enter the necessary information according to t
 |   **Postcode**\*   | Enter the exact postcode of the address you are adding.                                                                           |
 |   **What3Words**   | Enter the  <Glossary>What3words</Glossary> for your address to be able to get identified within the resolution of about 3 meters. |
 
-</Accordion>
+5. After entering the relevant information, select ![alt text](https://files.readme.io/e2e5dd875af649b5a87d4cbf536ab34d05d2123fe4b11ef132d8cb46ddd43e15-Add_address_button_2.png).
 
-**Step 5: Save the Address**
+Once done, the address is added successfully and appears in the **Address Book** list.
 
-After entering the relevant information, select ![alt text](https://files.readme.io/e2e5dd875af649b5a87d4cbf536ab34d05d2123fe4b11ef132d8cb46ddd43e15-Add_address_button_2.png).
-
-Once completed, the address is added successfully and appears in the **Address Book** list.
-
-  </Tab>
-  <Tab title="API Method">
-
-## Adding Addresses via API
-
-For programmatic address management, you can use the SAPIENT API to add addresses directly to your system.
-
-<Accordion title="API Integration Details" icon="code">
-
-Addresses can be added and managed via API for automated workflows and system integrations. This method is ideal for:
-
-- Bulk address imports
-- Integration with existing systems
-- Automated address management
-- Custom application development
-
-To learn more about adding addresses via API, including request parameters, response formats, and authentication requirements, refer to the [API References](https://docs.intersoftsapient.net/reference/post_v4-addresses) section.
-
-</Accordion>
-
-### Key Benefits of API Integration
-
-<Cards columns={3}>
-  <Card title="Automation" icon="robot">
-    Streamline address addition through automated processes
-  </Card>
-  <Card title="Bulk Operations" icon="layer-group">
-    Add multiple addresses efficiently in batch operations
-  </Card>
-  <Card title="System Integration" icon="plug">
-    Seamlessly integrate with existing business systems
-  </Card>
-</Cards>
-
-  </Tab>
-</Tabs>
+> 📘 *Note*
+>
+> *Addresses can be added and managed via API. To learn more on how to add an address via API, refer to the[API References](https://docs.intersoftsapient.net/reference/post_v4-addresses) section.*
