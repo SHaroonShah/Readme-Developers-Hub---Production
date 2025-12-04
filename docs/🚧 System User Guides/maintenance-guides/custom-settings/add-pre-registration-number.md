@@ -71,7 +71,8 @@ To add a pre-registration number via the SAPIENT UI, perform the steps as explai
     After selecting the shipping account, in the **PRE-REGISTRATION NUMBER** block that appears, enter the necessary information as explained in the following table.
 
     <Image align="center" border={true} src="https://files.readme.io/e915ba8ed9b9e03c3d9a7662a7ce8fca175d3a707b9348ab7509b35df51fed36-Pre-registration_number_block.png" alt="Entering pre-registration number and its details" />
-<br />
+
+    <br />
 
     <AsteridkForMandatoryElements />
 
@@ -186,12 +187,12 @@ To add a pre-registration number via the SAPIENT UI, perform the steps as explai
 
     Once selected, the pre-registration number is added successfully and displays in the **Pre-Registration Numbers** list. You can now use this number in your [Create Shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm) request.
 
-<Callout icon="💡" theme="default">
-  ### _Tip_
+    <Callout icon="💡" theme="default">
+      ### *Tip*
 
-  If you want to remove the pre-registration number, then in the **Pre-Registration Numbers** list, next to the one you want to delete, select ![](https://files.readme.io/0979c7211f5ae99308ba3f765bd083d41949895562626a4f0cc33acd80b30762-Trash_icon.png).
+      *If you want to remove the pre-registration number, then in the **Pre-Registration Numbers** list, next to the one you want to delete, select ![](https://files.readme.io/0979c7211f5ae99308ba3f765bd083d41949895562626a4f0cc33acd80b30762-Trash_icon.png).*
 
-  <Image align="center" alt="Deleting pre-registration number" border={true} caption="Deleting pre-registration number" src="https://files.readme.io/18854da926a99e35b6280bbb19445cac623a73a7f01d8cb9df4c99cd2a6fe6e9-Removing_item.png" />
-</Callout>
+      <Image align="center" border={true} src="https://files.readme.io/18854da926a99e35b6280bbb19445cac623a73a7f01d8cb9df4c99cd2a6fe6e9-Removing_item.png" alt="Deleting pre-registration number" />
+    </Callout>
   </ToggleListItem>
 </ToggleList>
