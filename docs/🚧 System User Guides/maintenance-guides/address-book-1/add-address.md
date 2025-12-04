@@ -119,3 +119,19 @@ In SAPIENT, you can add as many addresses as you want to enhance the system's ef
     </Cards>
   </Tab>
 </Tabs>
+
+***
+
+### See also
+
+<br />
+
+<Cards>
+  <Card title="Edit Address" href="https://docs.intersoftsapient.net/docs/edit-address" icon="fa-solid fa-edit">
+    Update existing address details to keep your records current and accurate for reliable shipping.
+  </Card>
+
+  <Card title="Delete Address" href="https://docs.intersoftsapient.net/docs/delete-address" icon="fa-solid fa-trash">
+    Remove outdated or unnecessary addresses to maintain a clean and organised address book.
+  </Card>
+</Cards>
