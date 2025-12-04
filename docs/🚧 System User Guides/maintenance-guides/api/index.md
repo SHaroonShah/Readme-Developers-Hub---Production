@@ -40,6 +40,8 @@ In this section, you can find information on the following components:
   </Card>
 </Cards>
 
+***
+
 ## Accessing reference data
 
 <Accordion title="How to Access Reference Data" icon="info-circle">
