@@ -45,7 +45,7 @@ In this section, you can find information on the following components:
 ## Accessing reference data
 
 <Accordion title="How to Access Reference Data" icon="info-circle">
-  To access the reference data, follow these steps:
+  To access the reference data, perform the following steps:
 
   1. In the left navigation panel, select **API** > **Reference Data**
   2. In the dropdown menu that opens, choose any of the following options:
