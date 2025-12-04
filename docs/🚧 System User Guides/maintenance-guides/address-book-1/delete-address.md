@@ -91,4 +91,8 @@ In SAPIENT, you can delete the address to keep the address book clean and manage
 
 ### See also
 
-<br />
+<Cards>
+  <Card title="Add Address" href="https://docs.intersoftsapient.net/docs/add-address" icon="fa-solid fa-plus-circle">
+    Create new addresses for customers, vendors, suppliers, or warehouse locations to expand your address repository.
+  </Card>
+</Cards>
