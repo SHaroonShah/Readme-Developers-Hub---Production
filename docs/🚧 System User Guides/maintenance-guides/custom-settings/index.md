@@ -29,7 +29,7 @@ The main benefits of this setting are explained as follows:
   </Card>
 
   <Card title="Accurate Documentation" icon="file-invoice">
-    Generate necessary documents like commercial invoices, export declarations, and packing lists
+    Generate necessary documents like <Glossary>commercial invoice</Glossary>s, export declarations, and packing lists
   </Card>
 
   <Card title="Duty & Tax Calculation" icon="calculator">
