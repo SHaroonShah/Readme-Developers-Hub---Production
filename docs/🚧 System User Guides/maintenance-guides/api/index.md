@@ -24,7 +24,7 @@ In this section, you can find information on the following components:
 
 <Cards columns={2}>
   <Card title="Credentials" href="https://docs.intersoftsapient.net/docs/create-api-credentials" icon="fa-solid fa-key">
-    Authentication details required to create and access the shipping API, including API keys, tokens, or OAuth credentials. Ensures only authorized users or applications can make requests to the API.
+    Authentication details required to create and access the shipping API, including API keys, tokens, or OAuth credentials. Ensures only authorised users or applications can make requests to the API.
   </Card>
 
   <Card title="Documentation" href="https://api.test.intersoftsapient.net/docs/v4/api/index.html" icon="fa-solid fa-book-open">
