@@ -68,9 +68,10 @@ To add a pre-registration number via the SAPIENT UI, perform the steps as explai
   <ToggleListItem title={<strong>4. Enter pre-regitsration details </strong>} icon="fa-rocket">
     <br />
 
-    After selecting the shipping account, in the **PRE-REGISTRATION NUMBER** block that appears, enter the necessary information.
+    After selecting the shipping account, in the **PRE-REGISTRATION NUMBER** block that appears, enter the necessary information as explained in the following table.
 
     <Image align="center" border={true} src="https://files.readme.io/e915ba8ed9b9e03c3d9a7662a7ce8fca175d3a707b9348ab7509b35df51fed36-Pre-registration_number_block.png" alt="Entering pre-registration number and its details" />
+<br />
 
     <AsteridkForMandatoryElements />
 
@@ -194,5 +195,3 @@ To add a pre-registration number via the SAPIENT UI, perform the steps as explai
 </Callout>
   </ToggleListItem>
 </ToggleList>
-
-
