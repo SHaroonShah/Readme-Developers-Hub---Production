@@ -20,7 +20,7 @@ Some countries operate a Tax Pre-Registration scheme, for example, VOEC in Norwa
 
 > 🚧 _Important_
 >
-> _The pre-registration number is only relevant for<Glossary>shipments</Glossary> with the <Glossary>DDU</Glossary> <Glossary>incoterms</Glossary>. If not provided in the **Create Shipment** API request and the shipment incoterms are set to DDU, then any pre-registration numbers that are set for your account in the **Customs Settings** GUI are used._
+> _The pre-registration number is only relevant for <Glossary>shipments</Glossary> with the <Glossary>DDU</Glossary> <Glossary>incoterms</Glossary>. If not provided in the **Create Shipment** API request and the shipment incoterms are set to DDU, then any pre-registration numbers that are set for your account in the **Customs Settings** GUI are used._
 
 In SAPIENT, you can add the pre-registration number to ensure compliance with international shipping regulations and customs processes. This number facilitates smoother clearance of goods at customs, reducing delays in shipment and helps maintain accurate records of shipments for auditing and tracking purposes.
 
@@ -190,7 +190,7 @@ To add a pre-registration number via the SAPIENT UI, perform the steps as explai
     <Callout icon="💡" theme="default">
       ### *Tip*
 
-      *If you want to remove the pre-registration number, then in the **Pre-Registration Numbers** list, next to the one you want to delete, select ![](https://files.readme.io/0979c7211f5ae99308ba3f765bd083d41949895562626a4f0cc33acd80b30762-Trash_icon.png).*
+      *If you want to remove the pre-registration number, then in the**Pre-Registration Numbers** list, next to the one you want to delete, select ![](https://files.readme.io/0979c7211f5ae99308ba3f765bd083d41949895562626a4f0cc33acd80b30762-Trash_icon.png).*
 
       <Image align="center" border={true} src="https://files.readme.io/18854da926a99e35b6280bbb19445cac623a73a7f01d8cb9df4c99cd2a6fe6e9-Removing_item.png" alt="Deleting pre-registration number" />
     </Callout>
