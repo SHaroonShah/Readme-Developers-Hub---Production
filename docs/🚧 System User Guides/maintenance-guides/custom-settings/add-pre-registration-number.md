@@ -26,7 +26,7 @@ In SAPIENT, you can add the pre-registration number to ensure compliance with in
 
 ## How to add pre-registration number
 
-To add an address to the address book in SAPIENT, perform the steps as explained in the following procedure.
+To add a pre-registration number via the SAPIENT UI, perform the steps as explained in the following procedure.
 
 <ToggleList>
   <ToggleListItem title={<strong>1. Access Pre-registration numbers</strong>} icon="fa-rocket">
@@ -188,129 +188,6 @@ To add an address to the address book in SAPIENT, perform the steps as explained
     ***
   </ToggleListItem>
 </ToggleList>
-
-To add a pre-registration number in SAPIENT, follow the steps as explained in the following procedure.
-
-1. In the left navigation panel, select **Customs Settings** > **Pre-Registration Numbers**.
-
-<Image align="center" alt="Accessing pre-registration numbers" border={true} caption="Accessing pre-registration numbers" src="https://files.readme.io/52fba08b346b45d4888a1dc14a06bf395cc4b30bdd9eeec98113d4c2fa2e416f-Pre-registration_numbers_option.png" />
-
-2. In the **Pre-Registration Numbers** page that opens, select ![](https://files.readme.io/574f2d3dd4cce77a9cde0e299f8a2f591fab81c8c7b4b49266c81ed4528c661d-Add_pre-registration_number_button.png).
-
-<Image align="center" alt="Accessing option to add pre-registration number" border={false} caption="Accessing option to add pre-registration number" src="https://files.readme.io/d7897eb60920589421496b60ad5a80cb6864a92a17cfb7f3f5aa143994d24e65-Add_pre-registration_number_option.png" />
-
-3. In the **Add Pre-Registration Number** form that opens, in the **SHIPPING ACCOUNT** block, from the dropdown menu, select the <Glossary>shipping account</Glossary> for which you want to add the pre-registration number.
-
-<Image align="center" alt="Selecting shipping account" border={true} caption="Selecting shipping account" src="https://files.readme.io/1eec0cd1bf0612547a50a5de7866c9467f0e0faaff330c61093b16e411869a0f-Shipping_account_block_2.png" />
-
-4. After, in the **PRE-REGISTRATION NUMBER** block that appears, enter the necessary information as explained in the following table.
-
-<Image align="center" alt="Entering pre-registration number and its details" border={true} caption="Entering pre-registration number and its details" src="https://files.readme.io/e915ba8ed9b9e03c3d9a7662a7ce8fca175d3a707b9348ab7509b35df51fed36-Pre-registration_number_block.png" />
-
-<AsteridkForMandatoryElements />
-
-<Table align={["center","left"]}>
-  <thead>
-    <tr>
-      <th>
-        Element
-      </th>
-
-      <th>
-        Description
-      </th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <tr>
-      <td>
-        **Shipping Location**
-      </td>
-
-      <td>
-        From the dropdown menu, select the <Glossary>shipping location</Glossary> for which you want to add the pre-registration number.
-
-        You can also select **All** if you want to add a pre-registration number for all the existing shipping accounts.
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        **Country**
-      </td>
-
-      <td>
-        From the dropdown menu, select the specific destination country for which you want to add the pre-registration number.
-
-        You may select **All** if you want to include all the countries (that are, countries grouped by European Union or <Glossary>ROW</Glossary> categories).
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        **Country Group**
-      </td>
-
-      <td>
-        From the dropdown menu, select the country group for which you want to add the pre-registration number.
-
-        _Note: If you have selected a specific country in the**Country** field, then in this field, select **N/A**. Otherwise, select either **EuropeanUnion** or **RestOfTheWorld** options. In this case, the **Country** field value is set to **All**._
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        **Type***
-      </td>
-
-      <td>
-        From the dropdown menu, select any of the following types that you want to associated with your pre-registration number:
-
-        • <Glossary>OSS</Glossary>  
-        • <Glossary>IOSS</Glossary>  
-        • <Glossary>GST</Glossary>  
-        • **Other, please specify**: choose this option, only if the type you want to specify is other than the ones mentioned in this dropdown field.
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        **Other Type**
-      </td>
-
-      <td>
-        This field is only available if you have selected the **Other, please specify** option in the **Type** field.
-
-        Enter the type that you want to associate with the pre-registration number you are adding.
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        **Pre-Registration Number***
-      </td>
-
-      <td>
-        Enter your pre-registration number
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        **Valid From***
-      </td>
-
-      <td>
-        From the date picker, select the date from which the pre-registration number you are adding is valid.
-      </td>
-    </tr>
-  </tbody>
-</Table>
-
-5. After entering the relevant information, select  ![](https://files.readme.io/5041628c1ebe60cd9a698ff4068b10ef8341649edfe2e513e460f7afddb93d08-Add_pre-registration_number_button_2.png).
-
-Once selected, the pre-registration number is added successfully and displays in the **Pre-Registration Numbers** list. You can now use this number in your [Create Shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm) request.
 
 <Callout icon="💡" theme="default">
   ### _Tip_
