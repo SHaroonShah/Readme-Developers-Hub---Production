@@ -25,7 +25,7 @@ The main benefits of this setting are explained as follows:
 
 <Cards columns="2">
   <Card title="Regulatory Compliance" icon="shield-alt">
-    Ensure all shipments meet legal requirements imposed by customs authorities across different countries
+    Ensure all <Glossary>shipments</Glossary> meet legal requirements imposed by customs authorities across different countries
   </Card>
 
   <Card title="Accurate Documentation" icon="file-invoice">
