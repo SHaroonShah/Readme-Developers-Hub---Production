@@ -79,7 +79,7 @@ In SAPIENT, you can edit the addresses that you have added previously to maintai
 
     <Cards>
       <Card title="Update Address Book" href="https://docs.intersoftsapient.net/reference/put_v4-addresses-addressid#/" icon="fa-solid fa-code">
-        Complete API reference for editing address in the address book
+        Complete API reference for editing address in address book
       </Card>
     </Cards>
   </Tab>
