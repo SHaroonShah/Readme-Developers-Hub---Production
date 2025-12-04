@@ -25,27 +25,27 @@ The main benefits of this setting are explained as follows:
 
 <Cards columns="2">
   <Card title="Regulatory Compliance" icon="shield-alt">
-    Ensure all <Glossary>shipments</Glossary> meet legal requirements imposed by customs authorities across different countries
+    Ensure all <Glossary>shipments</Glossary> meet legal requirements imposed by customs authorities across different countries.
   </Card>
 
   <Card title="Accurate Documentation" icon="file-invoice">
-    Generate necessary documents like <Glossary>commercial invoice</Glossary>s, export declarations, and packing lists
+    Generate necessary documents like <Glossary>commercial invoice</Glossary>s, export declarations, and packing lists.
   </Card>
 
   <Card title="Duty & Tax Calculation" icon="calculator">
-    Calculate applicable duties and taxes based on product value and classification for financial planning
+    Calculate applicable duties and taxes based on product value and classification for financial planning.
   </Card>
 
   <Card title="Tariff Classification" icon="tags">
-    Assign correct <Glossary>HS Code</Glossary>s and tariff classifications to determine duties and ensure compliance
+    Assign correct <Glossary>HS Code</Glossary>s and tariff classifications to determine duties and ensure compliance.
   </Card>
 
   <Card title="Restricted Items Management" icon="exclamation-triangle">
-    Handle restricted or prohibited items by flagging products and providing legal guidance
+    Handle restricted or prohibited items by flagging products and providing legal guidance.
   </Card>
 
   <Card title="Enhanced Tracking" icon="search-location">
-    Provide better visibility into shipment status during customs processing for improved transparency
+    Provide better visibility into shipment status during customs processing for improved transparency.
   </Card>
 </Cards>
 
