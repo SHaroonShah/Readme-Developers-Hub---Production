@@ -99,8 +99,6 @@ The following sections summarises the MDF validation rules, their respective shi
       <td>CountryCode</td>
     </tr>
 
-  
-
     <tr>
       <td rowspan="4"><strong>Destination > Address</strong></td>
       <td>ContactName</td>
@@ -118,8 +116,6 @@ The following sections summarises the MDF validation rules, their respective shi
       <td>CountryCode</td>
     </tr>
 
-   
-
     <tr>
       <td rowspan="4"><strong>Items</strong></td>
       <td>Quantity</td>
@@ -136,8 +132,6 @@ The following sections summarises the MDF validation rules, their respective shi
     <tr>
       <td>Weight</td>
     </tr>
-
-  
   </table>
 </Accordion>
 
@@ -171,8 +165,6 @@ The following sections summarises the MDF validation rules, their respective shi
       <td>CountryCode</td>
     </tr>
 
-    
-
     <tr>
       <td rowspan="4"><strong>Destination > Address</strong></td>
       <td>ContactName</td>
@@ -189,8 +181,6 @@ The following sections summarises the MDF validation rules, their respective shi
     <tr>
       <td>CountryCode</td>
     </tr>
-
-    
 
     <tr>
       <td rowspan="6"><strong>Items</strong></td>
@@ -216,8 +206,6 @@ The following sections summarises the MDF validation rules, their respective shi
     <tr>
       <td>CountryOfOrigin</td>
     </tr>
-
-   
   </table>
 </Accordion>
 
@@ -251,7 +239,6 @@ The following sections summarises the MDF validation rules, their respective shi
       <td>CountryCode</td>
     </tr>
 
-
     <tr>
       <td rowspan="6"><strong>Destination > Address</strong></td>
       <td>ContactName</td>
@@ -277,8 +264,6 @@ The following sections summarises the MDF validation rules, their respective shi
       <td>ContactPhone</td>
     </tr>
 
-    
-
     <tr>
       <td rowspan="6"><strong>Items</strong></td>
       <td>Quantity</td>
@@ -303,8 +288,6 @@ The following sections summarises the MDF validation rules, their respective shi
     <tr>
       <td>CountryOfOrigin</td>
     </tr>
-
-    
   </table>
 </Accordion>
 
@@ -338,8 +321,6 @@ The following sections summarises the MDF validation rules, their respective shi
       <td>CountryCode</td>
     </tr>
 
-    
-
     <tr>
       <td rowspan="6"><strong>Destination > Address</strong></td>
       <td>ContactName</td>
@@ -364,8 +345,6 @@ The following sections summarises the MDF validation rules, their respective shi
     <tr>
       <td>ContactPhone</td>
     </tr>
-
-  
 
     <tr>
       <td rowspan="6"><strong>Items</strong></td>
@@ -392,14 +371,10 @@ The following sections summarises the MDF validation rules, their respective shi
       <td>CountryOfOrigin</td>
     </tr>
 
-    
-
     <tr>
       <td rowspan="1"><strong>Customs</strong></td>
       <td>QuotedLandedCost</td>
     </tr>
-
-    
   </table>
 </Accordion>
 
@@ -433,14 +408,10 @@ The following sections summarises the MDF validation rules, their respective shi
       <td>CountryCode</td>
     </tr>
 
-    
-
     <tr>
       <td><strong>Shipper</strong></td>
       <td>EoriNumber</td>
     </tr>
-
-    
 
     <tr>
       <td rowspan="6"><strong>Destination > Address</strong></td>
@@ -467,8 +438,6 @@ The following sections summarises the MDF validation rules, their respective shi
       <td>ContactPhone</td>
     </tr>
 
-    
-
     <tr>
       <td rowspan="6"><strong>Items</strong></td>
       <td>Quantity</td>
@@ -494,14 +463,10 @@ The following sections summarises the MDF validation rules, their respective shi
       <td>CountryOfOrigin</td>
     </tr>
 
-    
-
     <tr>
       <td><strong>Customs</strong></td>
       <td>QuotedLandedCost</td>
     </tr>
-
-    
   </table>
 </Accordion>
 
@@ -535,8 +500,6 @@ The following sections summarises the MDF validation rules, their respective shi
       <td>CountryCode</td>
     </tr>
 
-    
-
     <tr>
       <td rowspan="6"><strong>Destination > Address</strong></td>
       <td>ContactName</td>
@@ -561,8 +524,6 @@ The following sections summarises the MDF validation rules, their respective shi
     <tr>
       <td>ContactPhone</td>
     </tr>
-
-    
 
     <tr>
       <td rowspan="6"><strong>Items</strong></td>
@@ -589,8 +550,6 @@ The following sections summarises the MDF validation rules, their respective shi
       <td>CountryOfOrigin</td>
     </tr>
 
-    
-
     <tr>
       <td rowspan="2"><strong>Customs</strong></td>
       <td>PreRegistrationNumber populated with the IOSS number</td>
@@ -599,8 +558,6 @@ The following sections summarises the MDF validation rules, their respective shi
     <tr>
       <td>PreRegistrationType defined as IOSS</td>
     </tr>
-
-    
   </table>
 </Accordion>
 
@@ -634,8 +591,6 @@ The following sections summarises the MDF validation rules, their respective shi
       <td>CountryCode</td>
     </tr>
 
-    
-
     <tr>
       <td rowspan="6"><strong>Destination > Address</strong></td>
       <td>ContactName</td>
@@ -660,8 +615,6 @@ The following sections summarises the MDF validation rules, their respective shi
     <tr>
       <td>ContactPhone</td>
     </tr>
-
-    
 
     <tr>
       <td rowspan="6"><strong>Items</strong></td>
@@ -688,8 +641,6 @@ The following sections summarises the MDF validation rules, their respective shi
       <td>CountryOfOrigin</td>
     </tr>
 
-    
-
     <tr>
       <td rowspan="2"><strong>Customs</strong></td>
       <td>PreRegistrationNumber</td>
@@ -698,12 +649,10 @@ The following sections summarises the MDF validation rules, their respective shi
     <tr>
       <td>PreRegistrationType</td>
     </tr>
-
-    
   </table>
 </Accordion>
 
-<Accordion title="International B2B shipment" icon="fa-solid fa-shield-check">
+<Accordion title="B2B shipment" icon="fa-solid fa-shield-check">
   **Scenario description**: Shipment with B2B <Glossary>business transaction type</Glossary>.
 
   <table>
@@ -733,8 +682,6 @@ The following sections summarises the MDF validation rules, their respective shi
       <td>CountryCode</td>
     </tr>
 
-    
-
     <tr>
       <td rowspan="3"><strong>Destination</strong></td>
       <td>ContactName</td>
@@ -747,8 +694,6 @@ The following sections summarises the MDF validation rules, their respective shi
     <tr>
       <td>Town</td>
     </tr>
-
-    
 
     <tr>
       <td rowspan="6"><strong>Items</strong></td>
@@ -774,8 +719,6 @@ The following sections summarises the MDF validation rules, their respective shi
     <tr>
       <td>CountryOfOrigin</td>
     </tr>
-
-    
   </table>
 </Accordion>
 
@@ -809,14 +752,10 @@ The following sections summarises the MDF validation rules, their respective shi
       <td>CountryCode</td>
     </tr>
 
-    
-
     <tr>
       <td><strong>Shipper</strong></td>
       <td>EoriNumber</td>
     </tr>
-
-    
 
     <tr>
       <td rowspan="5"><strong>Destination > Address</strong></td>
@@ -839,14 +778,10 @@ The following sections summarises the MDF validation rules, their respective shi
       <td>ContactPhone</td>
     </tr>
 
-    
-
     <tr>
       <td><strong>Destination</strong></td>
       <td>EoriNumber</td>
     </tr>
-
-    
 
     <tr>
       <td rowspan="6"><strong>Items</strong></td>
@@ -873,14 +808,10 @@ The following sections summarises the MDF validation rules, their respective shi
       <td>CountryOfOrigin</td>
     </tr>
 
-    
-
     <tr>
       <td><strong>Customs</strong></td>
       <td>QuotedLandedCost</td>
     </tr>
-
-    
 
     <tr>
       <td rowspan="4"><strong>CarrierSpecifics > Importer > Address</strong></td>
@@ -898,11 +829,7 @@ The following sections summarises the MDF validation rules, their respective shi
     <tr>
       <td>CountryCode</td>
     </tr>
-
-    
   </table>
 </Accordion>
-
-
 
 <br />
