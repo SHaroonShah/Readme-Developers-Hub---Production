@@ -84,7 +84,7 @@ To create new API credentials, follow the instructions as explained in the follo
 
     <Image align="center" border={true} src="https://files.readme.io/2792065801168e1bbda76a6bdae6035bf62a1d53d16fd27b2e49b72b2d199746-API_Credentials_dialog.png" width="400px" alt="Saving client ID and secret" />
 
-    > 🚧 **Important Security Notice**
+    > 🚧 *Important Security Notice*
     >
     > *Make sure you copy the**Secret** and keep it safe as we do not store this anywhere within the application and you cannot see it again. If you lose the secret, you must create a new set of credentials.*<br />
     
