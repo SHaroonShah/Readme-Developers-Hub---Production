@@ -86,10 +86,9 @@ To create new API credentials, follow the instructions as explained in the follo
 
     > 🚧 *Important Security Notice*
     >
-    > *Make sure you copy the**Secret** and keep it safe as we do not store this anywhere within the application and you cannot see it again. If you lose the secret, you must create a new set of credentials.*<br />
-    
- After copying the client ID and secret, select **Close**.
-    Once done,  your new API credentials are successfully created and appear in the **CURRENT API CREDENTIALS** table on the **API Credentials** page.  You can now use these credentials to authenticate each API call when making requests to the SAPIENT API.
+    > *Make sure you copy the **Secret** and keep it safe as we do not store this anywhere within the application and you cannot see it again. If you lose the secret, you must create a new set of credentials.*<br />
 
+    After copying the client ID and secret, select **Close**.<br />
+    Once done,  your new API credentials are successfully created and appear in the **CURRENT API CREDENTIALS** table on the **API Credentials** page.  You can now use these credentials to authenticate each API call when making requests to the SAPIENT API.
   </ToggleListItem>
 </ToggleList>
