@@ -656,7 +656,7 @@ The following sections summarises the MDF validation rules, their respective shi
   </table>
 </Accordion>
 
-<Accordion title="Ruleset I" icon="fa-solid fa-shield-check">
+<Accordion title="Ruleset K" icon="fa-solid fa-shield-check">
   **Scenario example**: Shipment with B2B <Glossary>business transaction type</Glossary>.
 
   <table>
@@ -726,7 +726,7 @@ The following sections summarises the MDF validation rules, their respective shi
   </table>
 </Accordion>
 
-<Accordion title="Ruleset J" icon="fa-solid fa-shield-check">
+<Accordion title="Ruleset L" icon="fa-solid fa-shield-check">
   **Scenario example**: International non-document (<Glossary>NDX</Glossary>) shipments using <Glossary>DDP</Glossary> incoterm, with importer details required.
 
   <table>
