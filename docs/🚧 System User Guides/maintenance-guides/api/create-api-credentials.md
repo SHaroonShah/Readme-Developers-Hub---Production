@@ -82,14 +82,17 @@ To create new API credentials, follow the instructions as explained in the follo
 
     In the **API Credentials** dialog, copy the generated **Client ID** and **Secret**.
 
-    <Image align="center" border={true} src="https://files.readme.io/2792065801168e1bbda76a6bdae6035bf62a1d53d16fd27b2e49b72b2d199746-API_Credentials_dialog.png" width="400px" alt="Saving client ID and secret" /><br />
+    <Image align="center" border={true} src="https://files.readme.io/2792065801168e1bbda76a6bdae6035bf62a1d53d16fd27b2e49b72b2d199746-API_Credentials_dialog.png" width="400px" alt="Saving client ID and secret" />
 
-    > 🚧 *Important Security Notice*
+    <br />
+
+    > 🚧 *Important*
     >
     > *Make sure you copy the**Secret** and keep it safe as we do not store this anywhere within the application and you cannot see it again. If you lose the secret, you must create a new set of credentials.*<br />
 
-    After copying the client ID and secret, select **Close**.<br />
+    After copying the client ID and secret, select **Close**.
 <br />
+
     Once done,  your new API credentials are successfully created and appear in the **CURRENT API CREDENTIALS** table on the **API Credentials** page.  You can now use these credentials to authenticate each API call when making requests to the SAPIENT API.
   </ToggleListItem>
 </ToggleList>
