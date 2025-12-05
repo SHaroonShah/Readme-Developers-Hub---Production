@@ -41,6 +41,7 @@ To create new API credentials, follow the instructions as explained in the follo
     On the **API Credentials** page, select the **Create API Credentials** button.
 
     <Image align="center" src="https://files.readme.io/94c18d9f5d3e5c663beae626b71b6bd8bd0d72614e7d70cb57905b252570c20e-Create_API_Credentials_button.png" alt="Selecting option to create API credentials" />
+<br />
 
     > 📘 **Note**
     >
