@@ -43,7 +43,7 @@ The SAPIENT API has been designed to accommodate different methods of processing
       </Card>
     </Cards>
 
-    ### Key Differences
+    ### Key differences
 
     * **Process**: Label generated immediately, ready for manifesting
     * **Create**: No immediate label or tracking number - generated at Print Shipment
