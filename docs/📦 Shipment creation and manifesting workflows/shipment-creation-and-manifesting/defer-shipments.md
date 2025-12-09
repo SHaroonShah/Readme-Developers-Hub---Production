@@ -40,12 +40,6 @@ When goods become available before their scheduled shipment dates, you can also 
   * **Repeatable process:** You can defer shipments multiple times as needed
   * **Auto-manifestation:** Shipments are automatically manifested when the deferred date is reached (if not further deferred)
   * **Early shipping:** Shipments can be moved to earlier dates, including the current date
-
-  ### Important Notes:
-
-  * Each deferral can extend the shipment date by up to 28 days
-  * If you don't defer a shipment again before its scheduled date, it will be automatically processed
-  * This flexibility helps you adapt to changing inventory and customer needs
 </Accordion>
 
 ### Workflow process
