@@ -14,13 +14,13 @@ next:
   description: ''
 ---
 <Cards columns={2}>
-  <Card title="Key Benefits" icon="fa-check-circle">
+  <Card title="Key benefits">
     * Shipments are ready to be manifested immediately
     * Reduces the number of API calls required
     * Labels and CN23 forms are returned in the response
   </Card>
 
-  <Card title="When to Use" icon="fa-warehouse">
+  <Card title="When to use">
     Perfect for warehouses that simultaneously pick, pack, and stick labels to shipments
   </Card>
 </Cards>
@@ -30,11 +30,11 @@ next:
 To use the Process action in your [Create Shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm) request:
 
 <Tabs>
-  <Tab title="API Call">
+  <Tab title="API call">
     Set the `action` parameter to `"Process"` in your request body when calling the Create Shipment endpoint.
   </Tab>
 
-  <Tab title="Expected Response">
+  <Tab title="Expected response">
     The response will include:
 
     * Shipment confirmation details
