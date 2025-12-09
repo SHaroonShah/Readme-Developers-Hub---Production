@@ -104,7 +104,8 @@ The SAPIENT API has been designed to accommodate different methods of processing
         **Examples**: Date-based containers for scheduled releases or seasonal promotions.
       </Card>
     </Cards>
-<br />
+
+    <br />
 
     > 📘 *Note*
     >
@@ -134,7 +135,7 @@ The SAPIENT API has been designed to accommodate different methods of processing
 
       When requesting pre-allocated tracking number, only a small amount of information is passed in the request body and minimal validation is done to return a Royal Mail <Glossary>tracking number</Glossary>.
     </Accordion>
-
+<br />
     > 🚧 *Important*
     >
     > *Currently, this service is only available for Royal Mail services that have a 1D Tracking Number generated—this includes shipments using untracked services with the Royal Mail Recorded Signed for enhancement.*
