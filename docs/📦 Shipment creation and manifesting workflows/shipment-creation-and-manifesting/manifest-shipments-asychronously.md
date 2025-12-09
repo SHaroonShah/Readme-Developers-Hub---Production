@@ -6,6 +6,7 @@ excerpt: >-
   tasks. 
 deprecated: false
 hidden: false
+icon: fad fa-loader
 metadata:
   robots: index
 ---
