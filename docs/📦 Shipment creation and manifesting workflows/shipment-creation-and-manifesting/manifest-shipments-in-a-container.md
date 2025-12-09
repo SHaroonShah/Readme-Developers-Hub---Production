@@ -37,7 +37,7 @@ You can create as many <Glossary>container</Glossary>(s) as you need and add num
 >
 > _Before manifesting the container, make sure of the following:_
 >
-> * _The**containerId** must be unique for each customer and can be reused after the container has been manifested._
+> * _The **containerId** must be unique for each customer and can be reused after the container has been manifested._
 > * _The containers can be manifested only via the API._
 
 Once the container has been manifested, you can create a new container with the same name and repeat the process as needed.
