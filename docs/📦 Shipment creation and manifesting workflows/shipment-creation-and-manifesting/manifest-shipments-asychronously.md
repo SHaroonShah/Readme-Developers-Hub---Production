@@ -20,6 +20,8 @@ This section provides detailed instructions and information regarding the asynch
 >
 > _We recommend using the **Manifest Shipments Async** API endpoint to manifest your shipments. However, if you are manifesting more than 20k shipments, then you must only use this endpoint to ensures that requests are processed through the new asynchronous queue, enabling better system performance and improved tracking._
 
+***
+
 ## Key benefits
 
 <Cards columns="3">
@@ -36,7 +38,9 @@ This section provides detailed instructions and information regarding the asynch
   </Card>
 </Cards>
 
-### Manifesting via API
+***
+
+## Manifesting via API
 
 To manifest the shipments in an asynchronous manner via the API, you can use the following endpoints introduced in our core **Manifests** API endpoint:
 
@@ -139,8 +143,4 @@ To manifest the shipments in an asynchronous manner via the API, you can use the
   </Tab>
 </Tabs>
 
-#### **See also**
-
-* [Set up manifest webhook](https://docs.intersoftsapient.net/docs/manifest-webhook#/)
-* [Manifest shipments via UI](https://docs.intersoftsapient.net/docs/manifesting-shipments#/)
-* [View manifest history](https://docs.intersoftsapient.net/docs/manifest-history#/)
+<br />
