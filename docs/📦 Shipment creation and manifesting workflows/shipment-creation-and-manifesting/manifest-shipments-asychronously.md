@@ -120,19 +120,19 @@ To manifest the shipments in an asynchronous manner via the API, you can use the
     For more information on webhook, refer to the following sections:
 
     <Cards columns="4">
-      <Card title="Set up manifest webhook" href="https://docs.intersoftsapient.net/docs/manifest-webhook#/" icon="webhook">
+      <Card title="Set up manifest webhook" href="https://docs.intersoftsapient.net/docs/manifest-webhook#/" icon="fa-solid fa-webhook">
         Configure webhooks to receive real-time notifications about manifest processing status.
       </Card>
 
-      <Card title="Manifest shipments via UI" href="https://docs.intersoftsapient.net/docs/manifesting-shipments#/" icon="desktop">
+      <Card title="Manifest shipments via UI" href="https://docs.intersoftsapient.net/docs/manifesting-shipments#/" icon="fa-solid fa-desktop">
         Learn how to manifest shipments using the SAPIENT user interface.
       </Card>
 
-      <Card title="View manifest history" href="https://docs.intersoftsapient.net/docs/manifest-history#/" icon="history">
+      <Card title="View manifest history" href="https://docs.intersoftsapient.net/docs/manifest-history#/" icon="fa-solid fa-history">
         Access and review your previous manifest requests and their status.
       </Card>
 
-      <Card title="Manifests API Reference" href="https://docs.intersoftsapient.net/reference/post_v4-manifests-carriercode#/" icon="code">
+      <Card title="Manifests API Reference" href="https://docs.intersoftsapient.net/reference/post_v4-manifests-carriercode#/" icon="fa-solid fa-code">
         View the complete API reference for the synchronous manifests endpoint.
       </Card>
     </Cards>
