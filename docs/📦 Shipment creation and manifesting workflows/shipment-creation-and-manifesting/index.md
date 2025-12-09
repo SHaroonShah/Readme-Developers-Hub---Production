@@ -46,8 +46,8 @@ The SAPIENT API has been designed to accommodate different methods of processing
     ### Key differences
 
     * **Process**: Label generated immediately, ready for manifesting
-    * **Create**: No immediate label or tracking number - generated at Print Shipment
-    * **Allocate**: Tracking number provided immediately, label generated at Print Shipment
+    * **Create**: No immediate label or tracking number - generated when the Print Shipment API is called
+    * **Allocate**: Tracking number provided immediately, label generated when Print Shipment API is called
   </Tab>
 
   <Tab title="Shipment Status">
