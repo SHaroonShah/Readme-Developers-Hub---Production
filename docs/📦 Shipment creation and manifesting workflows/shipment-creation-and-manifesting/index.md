@@ -31,7 +31,7 @@ The SAPIENT API has been designed to accommodate different methods of processing
 
     <Cards columns="3">
       <Card title="Process" href="https://docs.intersoftsapient.net/docs/create-shipment-with-action-process" icon="cog">
-        **Default Action** - Finalises the shipment creation and prepares the shipment for transportation. A label is returned in the Create Shipment response and the shipment is ready for manifesting immediately.
+        Finalises the shipment creation and prepares the shipment for transportation. A label is returned in the Create Shipment response and the shipment is ready for manifesting immediately.
       </Card>
 
       <Card title="Create" href="https://docs.intersoftsapient.net/docs/create-shipments-with-action-create" icon="plus-circle">
