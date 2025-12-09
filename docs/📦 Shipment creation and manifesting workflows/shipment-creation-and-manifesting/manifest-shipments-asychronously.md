@@ -75,6 +75,7 @@ To manifest the shipments in an asynchronous manner via the API, you can use the
       }
       ```
     </Accordion>
+<br />
 
     <Accordion title="Get Manifest Request Status" icon="search">
       Check the status of a submitted manifest request using the following parameters:
