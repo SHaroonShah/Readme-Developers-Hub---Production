@@ -1,4 +1,3 @@
-- manifest-shipments-asychronously
 - create-shipments-with-action-allocate
 - create-shipments-with-action-create
 - create-shipment-with-action-process
@@ -6,3 +5,4 @@
 - manifest-shipments-by-onhold-status
 - manifest-shipments-in-a-container
 - manifest-shipments-by-picked-status
+- manifest-shipments-asychronously
