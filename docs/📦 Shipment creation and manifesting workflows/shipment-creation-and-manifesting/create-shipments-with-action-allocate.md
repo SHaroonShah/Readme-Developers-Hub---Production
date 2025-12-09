@@ -28,7 +28,7 @@ next:
 
 ***
 
-## How it works
+## How Allocate action works
 
 If your packages are pre-sorted and need labels to be printed after the <Glossary>shipments</Glossary> have been created, using the **Allocate** action in your [Create Shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm) request enables you to print <Glossary>labels</Glossary> only when they are required in your warehouse process, and only shipments that you have printed the labels for will be ready to be manifested.
 
