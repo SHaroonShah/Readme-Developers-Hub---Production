@@ -104,6 +104,7 @@ The SAPIENT API has been designed to accommodate different methods of processing
         **Examples**: Date-based containers for scheduled releases or seasonal promotions.
       </Card>
     </Cards>
+<br />
 
     > 📘 *Note*
     >
