@@ -78,6 +78,7 @@ The SAPIENT API has been designed to accommodate different methods of processing
 
       **Use Case**: Temporarily delay shipments that are awaiting stock, payment, or other requirements. Only included in manifest production once released.
     </Accordion>
+<br />
 
     > 📘 *Note*
     >
