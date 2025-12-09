@@ -17,11 +17,11 @@ next:
 ## When to use Allocate action
 
 <Cards columns={2}>
-  <Card title="Pre-sorted Packages" icon="box">
+  <Card title="Pre-sorted packages" icon="box">
     Perfect for packages that are already sorted and only need labels printed after shipment creation.
   </Card>
 
-  <Card title="On-demand Label Printing" icon="print">
+  <Card title="On-demand label pinting" icon="print">
     Enables printing labels only when required in your warehouse process, optimizing workflow efficiency.
   </Card>
 </Cards>
