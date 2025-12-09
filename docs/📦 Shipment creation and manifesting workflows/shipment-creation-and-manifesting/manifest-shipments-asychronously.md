@@ -75,7 +75,8 @@ To manifest the shipments in an asynchronous manner via the API, you can use the
       }
       ```
     </Accordion>
-<br />
+
+    <br />
 
     <Accordion title="Get Manifest Request Status" icon="search">
       Check the status of a submitted manifest request using the following parameters:
@@ -115,26 +116,26 @@ To manifest the shipments in an asynchronous manner via the API, you can use the
     For automated processing and real-time updates, you can set up manifest webhooks in SAPIENT. This allows you to receive notifications when manifest processing is complete.
 
     [Learn how to set up manifest webhooks →](https://docs.intersoftsapient.net/docs/manifest-webhook#/)
-    
+
     For more information on webhook, refer to the following sections:
-<Cards columns="2">
-  <Card title="Set up manifest webhook" href="https://docs.intersoftsapient.net/docs/manifest-webhook#/" icon="webhook">
-    Configure webhooks to receive real-time notifications about manifest processing status.
-  </Card>
 
-  <Card title="Manifest shipments via UI" href="https://docs.intersoftsapient.net/docs/manifesting-shipments#/" icon="desktop">
-    Learn how to manifest shipments using the SAPIENT user interface.
-  </Card>
+    <Cards columns="4">
+      <Card title="Set up manifest webhook" href="https://docs.intersoftsapient.net/docs/manifest-webhook#/" icon="webhook">
+        Configure webhooks to receive real-time notifications about manifest processing status.
+      </Card>
 
-  <Card title="View manifest history" href="https://docs.intersoftsapient.net/docs/manifest-history#/" icon="history">
-    Access and review your previous manifest requests and their status.
-  </Card>
+      <Card title="Manifest shipments via UI" href="https://docs.intersoftsapient.net/docs/manifesting-shipments#/" icon="desktop">
+        Learn how to manifest shipments using the SAPIENT user interface.
+      </Card>
 
-  <Card title="Manifests API Reference" href="https://docs.intersoftsapient.net/reference/post_v4-manifests-carriercode#/" icon="code">
-    View the complete API reference for the synchronous manifests endpoint.
-  </Card>
-</Cards>
+      <Card title="View manifest history" href="https://docs.intersoftsapient.net/docs/manifest-history#/" icon="history">
+        Access and review your previous manifest requests and their status.
+      </Card>
 
+      <Card title="Manifests API Reference" href="https://docs.intersoftsapient.net/reference/post_v4-manifests-carriercode#/" icon="code">
+        View the complete API reference for the synchronous manifests endpoint.
+      </Card>
+    </Cards>
   </Tab>
 </Tabs>
 
