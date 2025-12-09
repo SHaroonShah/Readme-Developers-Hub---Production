@@ -36,6 +36,8 @@ If no value is set for this action in the **Create Shipment** request, then the 
 
 <Image align="center" alt="Workflow for creating shipments with Allocate action" border={false} caption="Workflow for creating shipments with Allocate action" src="https://files.readme.io/ba62c3736040ac758d924aa4f0ec47c4dc6d3bcd390cd370b139454f8e2a4a47-Allocate_flow.png" />
 
+***
+
 ### API recipe
 
 To view a step-by-step process on how to process the shipments that are created with the action "Allocate," refer to the following API recipe:
