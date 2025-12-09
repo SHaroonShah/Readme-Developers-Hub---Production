@@ -31,8 +31,6 @@ If you have one or more shipments that you're unable to ship immediately, you ca
 
 When goods become available before their scheduled shipment dates, you can also defer shipments to an earlier date, including today's date.
 
-<br />
-
 <Accordion title="Deferring Rules & Limitations" icon="info-circle">
   ### Key Rules:
 
