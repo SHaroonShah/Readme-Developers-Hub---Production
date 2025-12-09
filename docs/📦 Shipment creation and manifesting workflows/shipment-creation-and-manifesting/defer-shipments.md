@@ -32,8 +32,7 @@ If you have one or more shipments that you're unable to ship immediately, you ca
 When goods become available before their scheduled shipment dates, you can also defer shipments to an earlier date, including today's date.
 
 <Accordion title="Deferring Rules & Limitations" icon="info-circle">
-  ### Key Rules:
-
+  
   * **Maximum defer period:** 28 days from the current date
   * **Repeatable process:** You can defer shipments multiple times as needed
   * **Auto-manifestation:** Shipments are automatically manifested when the deferred date is reached (if not further deferred)
