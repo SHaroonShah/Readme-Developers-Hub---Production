@@ -23,11 +23,11 @@ If you do not want the <Glossary>tracking number</Glossary> returned until you s
 ## How Create action works
 
 <Cards columns={2}>
-  <Card title="Delayed Tracking Numbers" icon="clock">
+  <Card title="Delayed tracking numbers" icon="clock">
     Tracking numbers are not returned until you send the Print Label request, giving you flexibility in your shipping workflow.
   </Card>
 
-  <Card title="Process Status Default" icon="cogs">
+  <Card title="Process status default" icon="cogs">
     If no action value is specified in the CreateShipment request, shipments are automatically created with "Process" status for backwards compatibility.
   </Card>
 </Cards>
