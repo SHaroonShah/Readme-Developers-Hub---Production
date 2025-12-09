@@ -46,6 +46,8 @@ To use the Process action in your [Create Shipment](https://docs.intersoftsapien
   </Tab>
 </Tabs>
 
+### Workflow process
+
 <Image align="center" alt="Workflow for creating shipments with the Process action" border={false} caption="Workflow for creating shipments with Process action" src="https://files.readme.io/f762106c6e0adca64fd03cbc168faecdddceccf9adcb67b8bb963988cc3090bc-Process_flow.png" />
 
 To view a step-by-step process on how to process the shipments that are created with the action "Process," refer to the following API recipe:
