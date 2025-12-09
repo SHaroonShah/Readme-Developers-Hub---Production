@@ -27,7 +27,7 @@ If you use the action [Create](https://docs.intersoftsapient.net/docs/create-shi
 ## Workflow options
 
 <Tabs>
-  <Tab title="Process cction (default)">
+  <Tab title="Process action (default)">
     When using the **Process** action in your Create Shipment requests:
 
     * Labels are automatically returned in the response
