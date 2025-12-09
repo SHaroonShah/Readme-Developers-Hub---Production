@@ -62,6 +62,12 @@ If you use the action [Create](https://docs.intersoftsapient.net/docs/create-shi
   </Card>
 </Cards>
 
+***
+
+### API recipe
+
 To view a step-by-step process on how to manifest the shipments by the **Picked** status via API, refer to the following API recipe:
 
 <Recipe slug="release-and-manifest-held-shipments" title="Manifest picked shipments" />
+
+<br />
