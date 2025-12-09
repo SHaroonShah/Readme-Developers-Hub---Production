@@ -16,82 +16,126 @@ In the context of the <Glossary>shipment</Glossary> manifesting process, this me
 
 This section provides detailed instructions and information regarding the asynchronous shipment manifesting process for customers using the shipment manifest API or by [setting up the manifest webhook](https://docs.intersoftsapient.net/docs/manifest-webhook#/) in SAPIENT.
 
-The primary purpose of implementing an asynchronous manifesting process is to:
-
-* **Enhanced performance**: By processing manifest requests in the background, the system avoids performance bottlenecks, especially when handling large volumes of shipments simultaneously.
-* **Improved user experience**: You can submit requests without waiting for long processing times and can continue performing other tasks while the shipments are being manifested.
-* **Utilise queueing system**: The requests are managed through a queueing system to ensure they are processed sequentially without overwhelming the system, allowing for more reliable service.
-
 > 🚧 _Important_
 >
 > _We recommend using the **Manifest Shipments Async** API endpoint to manifest your shipments. However, if you are manifesting more than 20k shipments, then you must only use this endpoint to ensures that requests are processed through the new asynchronous queue, enabling better system performance and improved tracking._
+
+## Key benefits
+
+<Cards columns="3">
+  <Card title="Enhanced Performance" icon="tachometer-alt">
+    By processing manifest requests in the background, the system avoids performance bottlenecks, especially when handling large volumes of shipments simultaneously.
+  </Card>
+
+  <Card title="Improved User Experience" icon="user-check">
+    Submit requests without waiting for long processing times and continue performing other tasks while shipments are being manifested.
+  </Card>
+
+  <Card title="Reliable Queueing System" icon="list-ol">
+    Requests are managed through a queueing system to ensure they are processed sequentially without overwhelming the system.
+  </Card>
+</Cards>
 
 ### Manifesting via API
 
 To manifest the shipments in an asynchronous manner via the API, you can use the following endpoints introduced in our core **Manifests** API endpoint:
 
-<Accordion title="Manifest Shipments Async">
-  With this endpoint, you can submit the manifest requests to be processed asynchronously. This endpoint accepts the same parameters as the existing [Manifests](https://docs.intersoftsapient.net/reference/post_v4-manifests-carriercode#/) endpoint, excluding the async parameter.
+<Tabs>
+  <Tab title="API Integration">
+    ### Manifesting via API
 
-  A successful async manifest response returns the following parameters:
+    Use the following endpoints introduced in our core **Manifests** API to manifest shipments asynchronously:
 
-  * **ManifestRequestID**: GUID to uniquely identify the manifest request.
-  * **ManifestStatus**: Status of the request, defaults to `PENDING`.
-  * **ManifestCount**: Number of manifests created, which will be 0 when initially set to `PENDING`.
+    <Accordion title="Manifest Shipments Async" icon="paper-plane">
+      Submit manifest requests to be processed asynchronously. This endpoint accepts the same parameters as the existing [Manifests](https://docs.intersoftsapient.net/reference/post_v4-manifests-carriercode#/) endpoint, excluding the async parameter.
 
-  **Example request with service code parameter**
+      A successful async manifest response returns the following parameters:
 
-  ```
-  {  
-   "ShippingLocationId": "16f91589-cb07-430f-aed8-6c0c025bdc32",  
-   "ShippingAccountId": "24a8da75-a148-415c-802e-e37a72acfa7f",  
-   "ServiceCode": "CRL1"  
-  } 
-  ```
+      * **ManifestRequestID**: GUID to uniquely identify the manifest request.
+      * **ManifestStatus**: Status of the request, defaults to `PENDING`.
+      * **ManifestCount**: Number of manifests created, which will be 0 when initially set to `PENDING`.
 
-  **Example response** (🟢200 - Successful)
+      **Example request with service code parameter**
 
-  ```
-  {  
-   "ManifestRequestId": "3a0c17c5-0ca4-455c-ac65-a20d95e656bc",  
-   "ManifestRequestStatus": "PENDING",  
-   "ManifestCount": 0  
-  }
-  ```
-</Accordion>
+      ```json
+      {  
+       "ShippingLocationId": "16f91589-cb07-430f-aed8-6c0c025bdc32",  
+       "ShippingAccountId": "24a8da75-a148-415c-802e-e37a72acfa7f",  
+       "ServiceCode": "CRL1"  
+      } 
+      ```
 
-<Accordion title="Get Manifest Request Status">
-  With this endpoint, you can check the status of a submitted manifest request. In this endpoint, you must consider the following request parameters:
+      **Example response** (🟢200 - Successful)
 
-  * **manifestDetail**: An optional parameter, if set to `false` or not populated, the response will include:
+      ```json
+      {  
+       "ManifestRequestId": "3a0c17c5-0ca4-455c-ac65-a20d95e656bc",  
+       "ManifestRequestStatus": "PENDING",  
+       "ManifestCount": 0  
+      }
+      ```
+    </Accordion>
 
-    → **manifestId**
+    <Accordion title="Get Manifest Request Status" icon="search">
+      Check the status of a submitted manifest request using the following parameters:
 
-    → **manifestStatus**
+      * **manifestDetail**: An optional parameter that controls the response detail level:
 
-    → **manifestCount**
+        → If set to `false` or not populated: Returns basic information (manifestId, manifestStatus, manifestCount)
 
-  If this parameter is set to `true`, and the status is `COMPLETE`, then a full manifest information response will be returned, including manifest images. If the status is `FAILED`, an error will be returned in the response.
+        → If set to `true` and status is `COMPLETE`: Returns full manifest information including manifest images
 
-  **Example request**
+        → If set to `true` and status is `FAILED`: Returns error information in the response
 
-  ```
-  {
-  "ManifestRequestId": "3a0c17c5-0ca4-455c-ac65-a20d95e656bc"
-  "ManifestDetail":"true"
-  }  
-  ```
+      **Example request**
 
-  **Example response**(🟢200 - Successful)
+      ```json
+      {
+      "ManifestRequestId": "3a0c17c5-0ca4-455c-ac65-a20d95e656bc",
+      "ManifestDetail": "true"
+      }  
+      ```
 
-  ```
-  {  
-   "ManifestRequestId": "3a0c17c5-0ca4-455c-ac65-a20d95e656bc",  
-   "ManifestRequestStatus": "IN PROGRESS"  
-   "ManifestCount": 0  
-  }
-  ```
-</Accordion>
+      **Example response** (🟢200 - Successful)
+
+      ```json
+      {  
+       "ManifestRequestId": "3a0c17c5-0ca4-455c-ac65-a20d95e656bc",  
+       "ManifestRequestStatus": "IN PROGRESS",
+       "ManifestCount": 0  
+      }
+      ```
+    </Accordion>
+  </Tab>
+
+  <Tab title="Webhook Setup">
+    ### Webhook Integration
+
+    For automated processing and real-time updates, you can set up manifest webhooks in SAPIENT. This allows you to receive notifications when manifest processing is complete.
+
+    [Learn how to set up manifest webhooks →](https://docs.intersoftsapient.net/docs/manifest-webhook#/)
+    
+    For more information on webhook, refer to the following sections:
+<Cards columns="2">
+  <Card title="Set up manifest webhook" href="https://docs.intersoftsapient.net/docs/manifest-webhook#/" icon="webhook">
+    Configure webhooks to receive real-time notifications about manifest processing status.
+  </Card>
+
+  <Card title="Manifest shipments via UI" href="https://docs.intersoftsapient.net/docs/manifesting-shipments#/" icon="desktop">
+    Learn how to manifest shipments using the SAPIENT user interface.
+  </Card>
+
+  <Card title="View manifest history" href="https://docs.intersoftsapient.net/docs/manifest-history#/" icon="history">
+    Access and review your previous manifest requests and their status.
+  </Card>
+
+  <Card title="Manifests API Reference" href="https://docs.intersoftsapient.net/reference/post_v4-manifests-carriercode#/" icon="code">
+    View the complete API reference for the synchronous manifests endpoint.
+  </Card>
+</Cards>
+
+  </Tab>
+</Tabs>
 
 #### **See also**
 
