@@ -119,8 +119,6 @@ To manifest the shipments in an asynchronous manner via the API, you can use the
 
     For automated processing and real-time updates, you can set up manifest webhooks in SAPIENT. This allows you to receive notifications when manifest processing is complete.
 
-    [Learn how to set up manifest webhooks →](https://docs.intersoftsapient.net/docs/manifest-webhook#/)
-
     For more information on webhook, refer to the following sections:
 
     <Cards columns="4">
