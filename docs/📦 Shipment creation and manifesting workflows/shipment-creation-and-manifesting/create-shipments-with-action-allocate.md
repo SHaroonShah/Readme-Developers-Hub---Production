@@ -14,8 +14,6 @@ metadata:
 next:
   description: ''
 ---
-## When to use Allocate action
-
 <Cards columns={2}>
   <Card title="Pre-sorted packages" icon="box">
     Perfect for packages that are already sorted and only need labels printed after shipment creation.
