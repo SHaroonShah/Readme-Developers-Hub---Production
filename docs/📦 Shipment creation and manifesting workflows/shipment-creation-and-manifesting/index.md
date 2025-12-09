@@ -58,27 +58,28 @@ The SAPIENT API has been designed to accommodate different methods of processing
     <Accordion title="Picked Status" icon="hand-paper">
       Indicates that the items for the shipment have been successfully collected from the inventory and are ready for the next steps in the shipment process.
 
-      **Use Case**: Print labels in advance by creating shipments using the **Process** action. When picked and ready to despatch, update the status to **Picked**. You can then manifest all picked shipments, ensuring unpicked shipments are not manifested.
+      **Use case**: Print labels in advance by creating shipments using the **Process** action. When picked and ready to despatch, update the status to **Picked**. You can then manifest all picked shipments, ensuring unpicked shipments are not manifested.
     </Accordion>
 
     <Accordion title="Release Status" icon="unlock">
       Indicates that the shipment has been authorised for despatch or has been cleared for shipment to the next destination.
 
-      **Use Case**: Perfect for managing approval workflows where shipments need authorization before despatch.
+      **Use case**: Manage approval workflows where shipments need authorisation before despatch.
     </Accordion>
 
     <Accordion title="Cancel Status" icon="times-circle">
       Indicates that the shipment has been canceled and will not be processed any further.
 
-      **Use Case**: Prevents cancelled shipments from being included in manifests and carrier handovers.
+      **Use case**: Prevents cancelled shipments from being included in manifests and carrier handovers.
     </Accordion>
 
     <Accordion title="Hold Status" icon="pause-circle">
       Indicates that the shipment is temporarily paused and is not progressing to the next phases of fulfillment or transport until the necessary requirements are fulfilled.
 
-      **Use Case**: Temporarily delay shipments that are awaiting stock, payment, or other requirements. Only included in manifest production once released.
+      **Use case**: Temporarily delay shipments that are awaiting stock, payment, or other requirements. Only included in manifest production once released.
     </Accordion>
-<br />
+
+    <br />
 
     > 📘 *Note*
     >
