@@ -48,6 +48,8 @@ If you use the action [Create](https://docs.intersoftsapient.net/docs/create-shi
 
 <Image align="center" alt="Workflow of manifesting shipments with the Picked status" border={false} caption="Workflow of manifesting shipments by Picked status" src="https://files.readme.io/ed310971eabce3d2cd34b1a1a63a2d1683f26ee432f6cf1601d0dae6851b1a2e-Manifest_by_picked_flow.png" />
 
+***
+
 ## Key process steps
 
 <Cards columns={2}>
