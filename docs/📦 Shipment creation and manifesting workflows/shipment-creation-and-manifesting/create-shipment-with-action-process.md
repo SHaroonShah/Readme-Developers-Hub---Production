@@ -25,6 +25,8 @@ next:
   </Card>
 </Cards>
 
+***
+
 ## How Process action works
 
 To use the Process action in your [Create Shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm) request:
