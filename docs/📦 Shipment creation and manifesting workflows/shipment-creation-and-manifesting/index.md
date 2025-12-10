@@ -128,7 +128,7 @@ The SAPIENT API has been designed to accommodate different methods of processing
 
       * Link tracking numbers to orders early in the process
       * Minimal validation required for quick number allocation
-      * Seamless integration with Create Shipment API
+      * Seamless integration with the Create Shipment API
     </Accordion>
 
     <br />
