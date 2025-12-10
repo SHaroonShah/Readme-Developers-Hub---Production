@@ -105,9 +105,7 @@ The SAPIENT API has been designed to accommodate different methods of processing
       </Card>
 
       <Card title="Managing Despatch Dates" icon="calendar">
-        If you process pre-orders that need to be despatched on a specific date, a container ID could be set up for each date and shipments allocated based on requirements with the manifesting done by date, at container level.
-
-        **Examples**: Date-based containers for scheduled releases or seasonal promotions.
+        If you process pre-orders that need to be despatched on a specific date, a container ID could be set up for each date and shipments allocated based on requirements with the manifesting done by date, at container level..
       </Card>
     </Cards>
 
@@ -131,7 +129,9 @@ The SAPIENT API has been designed to accommodate different methods of processing
       * Link tracking numbers to orders early in the process
       * Minimal validation required for quick number allocation
       * Seamless integration with Create Shipment API
-    </Accordion><br />
+    </Accordion>
+
+    <br />
 
     <Accordion title="How It Works" icon="workflow">
       1. **Request pre-allocated tracking number** - Only minimal information required
