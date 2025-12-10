@@ -16,11 +16,11 @@ next:
   description: ''
 ---
 <Cards columns={2}>
-  <Card title="Pre-orders & Delayed Stock" icon="clock">
+  <Card title="Pre-orders & delayed stock" icon="clock">
     Defer shipments when goods are not yet available, such as pre-orders or items awaiting restocking.
   </Card>
 
-  <Card title="Early Availability" icon="fast-forward">
+  <Card title="Early availability" icon="fast-forward">
     Move future-dated shipments to an earlier date when goods become available ahead of schedule.
   </Card>
 </Cards>
