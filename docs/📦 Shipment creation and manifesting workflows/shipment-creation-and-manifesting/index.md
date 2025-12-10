@@ -59,19 +59,19 @@ The SAPIENT API has been designed to accommodate different methods of processing
       Indicates that the items for the shipment have been successfully collected from the inventory and are ready for the next steps in the shipment process.
 
       **Use case**: Print labels in advance by creating shipments using the **Process** action. When picked and ready to despatch, update the status to **Picked**. You can then manifest all picked shipments, ensuring unpicked shipments are not manifested.
-    </Accordion>
+    </Accordion><br />
 
     <Accordion title="Release Status" icon="unlock">
       Indicates that the shipment has been authorised for despatch or has been cleared for shipment to the next destination.
 
       **Use case**: Manage approval workflows where shipments need authorisation before despatch.
-    </Accordion>
+    </Accordion><br />
 
     <Accordion title="Cancel Status" icon="times-circle">
       Indicates that the shipment has been canceled and will not be processed any further.
 
       **Use case**: Prevents cancelled shipments from being included in manifests and carrier handovers.
-    </Accordion>
+    </Accordion><br />
 
     <Accordion title="Hold Status" icon="pause-circle">
       Indicates that the shipment is temporarily paused and is not progressing to the next phases of fulfillment or transport until the necessary requirements are fulfilled.
