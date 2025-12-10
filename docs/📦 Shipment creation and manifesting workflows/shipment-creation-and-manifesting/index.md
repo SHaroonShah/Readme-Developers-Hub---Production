@@ -116,10 +116,10 @@ The SAPIENT API has been designed to accommodate different methods of processing
     > *A container can be created with any Container ID that suits the needs of the organisation.*
   </Tab>
 
-  <Tab title="Pre-allocate tracking">
+  <Tab title="Pre-allocate tracking API">
     ## Pre-allocate tracking number API
 
-    The <Glossary>pre-allocated tracking number</Glossary> API offers you the opportunity to request a pre-allocated Royal Mail tracking number for a destination and service.
+    The <Glossary>pre-allocated tracking number</Glossary> API provides you the ability to request a pre-allocated Royal Mail tracking number for a destination and service.
 
     <Accordion title="When to Use Pre-allocation" icon="barcode">
       If your warehouse or eCommerce site operates in a way that you require a tracking number to be linked with your order, but you do not have the final details of your order yet, then consider using the [Pre Allocate Tracking Number](https://docs.intersoftsapient.net/reference/post_v4-shipments-preallocatetrackingnumber-rm) service.
