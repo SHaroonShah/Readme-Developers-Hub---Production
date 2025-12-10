@@ -121,7 +121,7 @@ To manifest the shipments in an asynchronous manner via the API, you can use the
 
     For more information on webhook, refer to the following sections:
 
-    <Cards columns="4">
+    <Cards columns="2">
       <Card title="Set up manifest webhook" href="https://docs.intersoftsapient.net/docs/manifest-webhook#/" icon="fa-solid fa-webhook">
         Configure webhooks to receive real-time notifications about manifest processing status.
       </Card>
