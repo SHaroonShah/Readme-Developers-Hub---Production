@@ -24,7 +24,7 @@ The SAPIENT API has been designed to accommodate different methods of processing
 > _For more detailed information, please contact the Intersoft Customer Operations team to arrange a consultation._
 
 <Tabs>
-  <Tab title="Shipment Actions">
+  <Tab title="Shipment actions">
     ## Use shipment actions in Create Shipment API
 
     Shipment actions are specific operations that can be performed on a shipment during its lifecycle. These actions allow businesses to manage and control various aspects of the shipment process.
@@ -50,7 +50,7 @@ The SAPIENT API has been designed to accommodate different methods of processing
     * **Allocate**: Tracking number provided immediately, label generated when Print Shipment API is called
   </Tab>
 
-  <Tab title="Shipment Status">
+  <Tab title="Shipment status">
     ## Use shipment status in Update Shipment API
 
     The *shipment status* indicates the current state or condition of a shipment within the shipment process. Each status reflects a specific phase in the shipment lifecycle, providing visibility to both shippers and recipients.
@@ -112,7 +112,7 @@ The SAPIENT API has been designed to accommodate different methods of processing
     > *A container can be created with any Container ID that suits the needs of the organisation.*
   </Tab>
 
-  <Tab title="Pre-allocate Tracking">
+  <Tab title="Pre-allocate tracking">
     ## Pre-allocate tracking number API
 
     The <Glossary>pre-allocated tracking number</Glossary> API offers you the opportunity to request a pre-allocated Royal Mail tracking number for a destination and service.
