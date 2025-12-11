@@ -36,16 +36,11 @@ The following are the key services are provided by the Asendia integration:
   * e-PAQ Plus Mailbox
   * e-PAQ Plus Personal
 * **e-PAQ Select**: Home delivery service. offering full feature, and adapted to every market you sell in. Last-mile delivery is handled by a best-in-class parcel delivery partner in each country. This service includes the following:
-  * e-PAQ Select DG (dangerous goods)
-* **e-PAQ Elite**: Precision delivery service for your most time-critical and valuable shipments. Last-mile delivery is handled by courier partners that specialise in express and heavier weight shipments. This includes the following:
-  * e-PAQ Elite – Economy <Glossary>DAP</Glossary>
-  * e_PAQ Elite – Economy with DAP incoterm
-  * e_PAQ Elite – Express with DAP incoterm
-  * e_PAQ Elite – Express with DDP incoterm
-  * e_PAQ Elite – express Domestic
-  * e_PAQ Elite – Express DAP DG
-  * e_PAQ Elite – Express DDP DG
-  * e_PAQ Elite – Express Domestic DG
+  * e-PAQ Select
+  * e-PAQ Select, shipping dangerous goods
+* **e-PAQ Elite**: Precision delivery service for your most time-critical and valuable shipments. Last-mile delivery is handled by courier partners that specialise in express and heavier weight shipments. This service includes the following with domestic and international shipping, including hazardous items:
+  * e-PAQ Elite – Economy
+  * e_PAQ Elite – Express 
 
 ## Additional features
 
@@ -60,6 +55,7 @@ The Asendia integration provides the following additional features:
 
 The following API services are provided by the Asendia integration:
 
-* **Authenticate**: This API must be called first to exchange the API credentials for a token, which is used in the other API calls to Asendia.
-* **AddAndPrintShipment**: The integration for creating shipments to reflect Asendia as a primary carrier and allowing users to create shipments using the **Create Shipment** that returns the <Glossary>label</Glossary> in base64 encoded format alongside a <Glossary>CN22</Glossary>. For postal services, a <Glossary>CN23</Glossary> is included with the label image for all dutiable shipments.
-* **Tracking**: Retrieves the tracking data by calling the Asendia's API.
+* **Create shipment**: The integration for creating shipments to reflect Asendia as a primary carrier and allowing users to create shipments using the **Create Shipment** that returns the <Glossary>label</Glossary> in base64 encoded format alongside a <Glossary>CN22</Glossary>. For postal services, a <Glossary>CN23</Glossary> is included with the label image for all dutiable shipments.
+* **Tracking**: Retrieves the tracking data via the tracking webhook.
+
+<br />
