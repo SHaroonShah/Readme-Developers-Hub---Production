@@ -66,10 +66,6 @@ next:
     <Image align="center" src="https://files.readme.io/88a7599e1a64e2eb5cd20cc992a3a87dc3b68ebb766615ba6766c7f560586e5e-FedEx_White_BG.png" width="160px" alt="thumbnail" />
   </Card>
 
-  <Card title="" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/fedex#/" Width="200">
-    <Image align="center" border={false} width="160px" src="https://files.readme.io/2dc894e8421e0d77dd4d59d23b89b1ebe11b83a813bdd7269827f82d77cb3f70-image.png" width="160px" alt="thumbnail" />
-  </Card>
-
   <Card title="" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/inpost#/" Width="200">
     <Image align="center" src="https://files.readme.io/c9a342d05f1245bceed832bf7bb489e46969f9bddf8cb6b92007139484f4cf6b-InPost_logo.png" width="160px" alt="thumbnail" />
   </Card>
