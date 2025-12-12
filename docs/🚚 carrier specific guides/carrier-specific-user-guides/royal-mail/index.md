@@ -27,8 +27,8 @@ The Royal Mail-SAPIENT integration aims to enhance operational efficiency and pr
 
 This integration provides the following key features:
 
-* **Ship from destinations**: The integration supports shipping from locations in Great Britain (GB) only.
-* **Ship To Destinations**: Users can send <Glossary>shipments</Glossary> to Europe and the <Glossary>ROW</Glossary> (Rest of the World).
+* **Ship from destinations**: 
+* **Ship To Destinations**: Primarily, the carrier is used for domestic shipping. However, users can also send <Glossary>shipments</Glossary> to Europe and the <Glossary>ROW</Glossary> (Rest of the World). 
 * **Service Type**: The integration is focused on inbound and outbound shipping.
 * **Incoterms**: The integration supports <Glossary>DDU</Glossary>, <Glossary>DDP</Glossary>, <Glossary>DAP</Glossary>, and <Glossary>DAT</Glossary>.
 
@@ -53,7 +53,7 @@ The following are the key enhancements provided by the Royal Mail integration:
 
 The Royal Mail integration provides the following additional features:
 
-* **Multipiece shipments**: Support for multipiece shipments is included in the integration.
+* **Singlepiece shipments**: The integration supports single piece shipments. However, the customer can make multiple shipments to the same address via a single API call. As a result, they will receive multiple single shipments and tracking numbers for each shipment in the response.
 * **Package Types**: Royal Mail offers its own distinct <Glossary>package type</Glossary>s, such as Letter, Large letter, Parcel, and Printed papers. You can look up for the packages types by calling the [Get Carrier Service Package Types](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services-servicecode-packagetypes#/) endpoint.
 
 ## Carrier API services
