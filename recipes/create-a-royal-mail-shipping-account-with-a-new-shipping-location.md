@@ -15,14 +15,14 @@ using System.Threading.Tasks;
 using System.Text.Json.Serialization;
 
 
-var authenticationUrl = "AUTHENTICATION_URL";
+			var authenticationUrl = "AUTHENTICATION_URL";
 
-var clientId = "my-client-id";
-var clientSecret = "my-client-secret";
+			var clientId = "my-client-id";
+			var clientSecret = "my-client-secret";
 
-var apiUrl = "API_URL";
+			var apiUrl = "API_URL";
 
-var token = "";
+			var token = "";
 			// Please note this code excludes all error handling
 			// This code uses the Microsoft Memory Cache
 			// dotnet add package Microsoft.Extensions.Caching.Memory
@@ -45,25 +45,25 @@ var token = "";
 				token = cachedToken;
 			}
 
-// Set up API Client
-using var client = new RestClient(apiUrl);
-client.AddDefaultHeader("Authorization", "Bearer " + token);
+			// Set up API Client
+			using var client = new RestClient(apiUrl);
+			client.AddDefaultHeader("Authorization", "Bearer " + token);
 
-// Create a Royal Mail Shipping Account at new shipping location
-var shippingAccountRequest = new RestRequest("/v4/shippingAccounts/rm", Method.Post);
-shippingAccountRequest.AddJsonBody(new
-{
-	AccountNumber = "9912347707",
-	AccountRegisteredEmail = "my.email@test.com",
-	AccountName = "AB VideoGames",
-	AccountAlias = "RM-99112347707",
-	AccountType = "Sandbox",
-	ContactName = "John Smith",
-	ContactNumber = "0123456789",
-	ShippingLocations = new []
-	{
-		new 
-		{
+			// Create a Royal Mail Shipping Account at new shipping location
+			var shippingAccountRequest = new RestRequest("/v4/shippingAccounts/rm", Method.Post);
+			shippingAccountRequest.AddJsonBody(new
+			{
+				AccountNumber = "9912347707",
+				AccountRegisteredEmail = "my.email@test.com",
+				AccountName = "AB VideoGames",
+				AccountAlias = "RM-99112347707",
+				AccountType = "Sandbox",
+				ContactName = "John Smith",
+				ContactNumber = "0123456789",
+				ShippingLocations = new []
+			{
+			new 
+			{
 			ShippingLocation = new
 			{
 				LocationAlias = "Main Warehouse",
@@ -78,46 +78,46 @@ shippingAccountRequest.AddJsonBody(new
 					County = "Surrey",
 					CountryCode = "GB"
 				}
-			},
+				},
 			PostingLocationCode = "2345654321",
 			ObaAccessCode = "1234567",
 			ReceivingHubCode = "002610"
-		}
-	}
+				}
+			}
    
-});
-var shippingAccountResponse = await client.PostAsync<ShippingAccountResponse>(shippingAccountRequest);
+		});
+		var shippingAccountResponse = await client.PostAsync<ShippingAccountResponse>(shippingAccountRequest);
 
-// retrieve and store the created identifiers for future use.
-var shippingAccountId = shippingAccountResponse.ShippingAccountId;
-var shippingLocationId = shippingAccountResponse.ShippingLocationId;
-
-
-
-public class ShippingAccountResponse
-{
-	/// <summary>
-	/// The SAPIENT Identifier assigned to the new shipping account.
-	/// </summary>
-	public Guid ShippingAccountId { get; set; }
-
-	/// <summary>
-	/// The SAPIENT Identifier assigned to the new shipping location.
-	/// </summary>
-	public Guid ShippingLocationId { get; set; }
-}
+		// retrieve and store the created identifiers for future use.
+		var shippingAccountId = shippingAccountResponse.ShippingAccountId;
+		var shippingLocationId = shippingAccountResponse.ShippingLocationId;
 
 
 
+		public class ShippingAccountResponse
+		{
+		/// <summary>
+		/// The SAPIENT Identifier assigned to the new shipping account.
+		/// </summary>
+		public Guid ShippingAccountId { get; set; }
 
-public record TokenResponse
-{
-	/// <summary>
-	/// The Access Token
-	/// </summary>
+		/// <summary>
+		/// The SAPIENT Identifier assigned to the new shipping location.
+		/// </summary>
+		public Guid ShippingLocationId { get; set; }
+		}
+
+
+
+
+		public record TokenResponse
+		{
+		/// <summary>
+		/// The Access Token
+		/// </summary>
 	[JsonPropertyName("access_token")]
 	public string AccessToken { get; init; }
-}
+		}
 ```
 
 ```json Response Example
