@@ -40,7 +40,7 @@ The following are the key services are provided by the Asendia integration:
   * e-PAQ Select, shipping dangerous goods
 * **e-PAQ Elite**: Precision delivery service for your most time-critical and valuable shipments. Last-mile delivery is handled by courier partners that specialise in express and heavier weight shipments. This service includes the following with domestic and international shipping, including hazardous items:
   * e-PAQ Elite – Economy
-  * e_PAQ Elite – Express 
+  * e_PAQ Elite – Express
 
 ## Additional features
 
@@ -55,7 +55,7 @@ The Asendia integration provides the following additional features:
 
 The following API services are provided by the Asendia integration:
 
-* **Create shipment**: The integration for creating shipments to reflect Asendia as a primary carrier and allowing users to create shipments using the **Create Shipment** that returns the <Glossary>label</Glossary> in base64 encoded format alongside a <Glossary>CN22</Glossary>. For postal services, a <Glossary>CN23</Glossary> is included with the label image for all dutiable shipments.
+* **Create shipment**: The integration for creating shipments to reflect Asendia as a primary carrier and allowing users to create shipments using the **Create Shipment** that returns the <Glossary>label</Glossary> in base64 encoded format alongside a <Glossary>CN22</Glossary>. For postal services, a <Glossary>CN23</Glossary> is included is returned in the **Documents** section of the response for all <Glossary>dutiable shipments</Glossary>.
 * **Tracking**: Retrieves the tracking data via the tracking webhook.
 
 <br />
