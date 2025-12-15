@@ -47,7 +47,7 @@ next:
   </Card>
 
   <Card title="" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/royal-mail#/" Width="200">
-    <Image align="center" src="https://files.readme.io/804406868b0a577f006ad0e27f26795c08b533faccf39d7c0c30e47c9d56f7a7-image.png" width="140px" padding="5px" />
+    <Image align="center" src="https://files.readme.io/804406868b0a577f006ad0e27f26795c08b533faccf39d7c0c30e47c9d56f7a7-image.png" width="140px" />
   </Card>
 
   <Card title="" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/an-post#/" Width="200">
@@ -104,5 +104,3 @@ next:
 </Cards>
 
 <br />
-
-<Image align="center" border={false} width="160px" src="https://files.readme.io/883cffbd153e33a98dec3e3a9e330ef2ec9e351e68dc5ec3254be62e97fb7b5c-image.png" />
