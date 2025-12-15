@@ -12,7 +12,7 @@ namespace MCSS.CodeForRecipes.Recipes
     using RestSharp;
     using MCSS.CodeForRecipes.Schema;
 
-	public class CreateShipmentAllocate
+		public class CreateShipmentAllocate
     {
         public async Task RunTheCodeAsync()
         {
@@ -26,40 +26,40 @@ namespace MCSS.CodeForRecipes.Recipes
             var shippingAccountId = "my-shipping-account-id-or-alias";
             var shippingLocationId = "my-shipping-location-id-or-alias";
           
-          var token = "";
+          	var token = "";
 
-			// Please note this code excludes all error handling
-			// This code uses the Microsoft Memory Cache
-			// dotnet add package Microsoft.Extensions.Caching.Memory
+            // Please note this code excludes all error handling
+            // This code uses the Microsoft Memory Cache
+            // dotnet add package Microsoft.Extensions.Caching.Memory
 
-			// Try and get the token from the cache. Retrieve from authentication server if it doesn't exist & cache it.
-			if (!Cache.TryGetValue(AUTH_CACHE_KEY, out string cachedToken))
-			{
-				using var authClient = new RestClient(authenticationUrl);
-				var authRequest = new RestRequest("/connect/token", Method.Post);
+        		// Try and get the token from the cache. Retrieve from authentication server if it doesn't exist & cache it.
+						if (!Cache.TryGetValue(AUTH_CACHE_KEY, out string cachedToken))
+						{
+								using var authClient = new RestClient(authenticationUrl);
+								var authRequest = new RestRequest("/connect/token", Method.Post);
 
-				authRequest.AddParameter("grant_type", "client_credentials");
-				authRequest.AddParameter("client_id", clientId);
-				authRequest.AddParameter("client_secret", clientSecret);
+								authRequest.AddParameter("grant_type", "client_credentials");
+          			authRequest.AddParameter("client_id", clientId);
+          			authRequest.AddParameter("client_secret", clientSecret);			
 
-				var authResponse = await authClient.PostAsync<TokenResponse>(authRequest);
+								var authResponse = await authClient.PostAsync<TokenResponse>(authRequest);
 
-				// Store the token in the cache, calculate the cache expiry from the tokens expiry
-				var tokenValidForSeconds = GetTokenExpiryInSeconds(authResponse);
-				Cache.Set(AUTH_CACHE_KEY, authResponse.AccessToken, TimeSpan.FromSeconds(tokenValidForSeconds));
+								// Store the token in the cache, calculate the cache expiry from the tokens expiry
+								var tokenValidForSeconds = GetTokenExpiryInSeconds(authResponse);
+								Cache.Set(AUTH_CACHE_KEY, authResponse.AccessToken, TimeSpan.FromSeconds(tokenValidForSeconds));
 
-				token = authResponse.AccessToken;
-			}
-			else
-			{
-				token = cachedToken;
-			}
+								token = authResponse.AccessToken;
+						}
+						else
+						{
+								token = cachedToken;
+						}
       
-      // Setup API Client
-			using var client = new RestClient(apiUrl);
-			client.AddDefaultHeader("Authorization", "Bearer " + token);
-          
-          // Create a shipment with action 'Allocate'
+      			// Setup API Client
+						using var client = new RestClient(apiUrl);
+						client.AddDefaultHeader("Authorization", "Bearer " + token);
+     	     
+          	// Create a shipment with action 'Allocate'
             var shipmentRequest = new RestRequest("/v4/shipments/rm", Method.Post);
             shipmentRequest.AddJsonBody(new
             {
@@ -106,11 +106,11 @@ namespace MCSS.CodeForRecipes.Recipes
             var shipmentId = shipmentResponse.Packages.First().ShipmentId;
 
             // Print the labels for the shipment
-			var printLabelsRequest = new RestRequest($"/v4/shipments/printlabel/rm/{shipmentId}", Method.Get);
+						var printLabelsRequest = new RestRequest($"/v4/shipments/printlabel/rm/{shipmentId}", Method.Get);
 
-			var printLabelsResponse = await client.GetAsync<PrintLabelsResponse>(printLabelsRequest);
+						var printLabelsResponse = await client.GetAsync<PrintLabelsResponse>(printLabelsRequest);
 
-			/* 
+						/* 
              * Once the labels are printed the shipment will be ready for manifest.
              * Shipments must be manifested before they are handed over to the carrier.
              * Shipments must be manifested a minimum of once a day, normally in line with the final collection of the day.
@@ -119,7 +119,7 @@ namespace MCSS.CodeForRecipes.Recipes
              * Shipments must not be manifested individually once the label is printed.
              */
 
-			var manifestRequest = new RestRequest($"/v4/manifests/RM", Method.Post);
+						var manifestRequest = new RestRequest($"/v4/manifests/RM", Method.Post);
             manifestRequest.AddJsonBody(new
             {
                 ShippingLocationId = shippingLocationId,
