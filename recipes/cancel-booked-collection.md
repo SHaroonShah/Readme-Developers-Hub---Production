@@ -6,7 +6,7 @@ description: >-
 hidden: false
 recipe:
   color: '#939495'
-  icon: 🚚
+  icon: ❌
 ---
 ```csharp C#
 namespace MCSS.CodeForRecipes.Recipes
