@@ -114,8 +114,7 @@ namespace MCSS.CodeForRecipes.Recipes
 
             // Receive the 200 OK response - All shipments set to "Cancel" successfully
             var updateShipmentStatusResponseWithCancelStatus = await client.ExecuteAsync(updateShipmentStatusToCancelRequest);
-
-        
+    
         }
     }
 }
