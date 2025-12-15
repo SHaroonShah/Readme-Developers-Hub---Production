@@ -99,26 +99,26 @@ namespace MCSS.CodeForRecipes.Recipes
     }
 }
 
-public class ShippingAccountResponse
-{
-	/// <summary>
-	/// The SAPIENT Identifier assigned to the new shipping account.
-	/// </summary>
-	public Guid ShippingAccountId { get; set; }
+					public class ShippingAccountResponse
+					{
+					/// <summary>
+					/// The SAPIENT Identifier assigned to the new shipping account.
+					/// </summary>
+					public Guid ShippingAccountId { get; set; }
 
-	/// <summary>
-	/// The SAPIENT Identifier assigned to the new shipping location.
-	/// </summary>
-	public Guid ShippingLocationId { get; set; }
-}
+					/// <summary>
+					/// The SAPIENT Identifier assigned to the new shipping location.
+					/// </summary>
+					public Guid ShippingLocationId { get; set; }
+					}
 
-public record TokenResponse
-{
-	/// <summary>
-	/// The Access Token
-	/// </summary>
-	[JsonPropertyName("access_token")]
-	public string AccessToken { get; init; }
+					public record TokenResponse
+					{
+					/// <summary>
+					/// The Access Token
+					/// </summary>
+					[JsonPropertyName("access_token")]
+					public string AccessToken { get; init; }
 	
 ```
 
