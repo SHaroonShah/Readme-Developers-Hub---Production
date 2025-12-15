@@ -27,7 +27,7 @@ namespace MCSS.CodeForRecipes.Recipes
 
 			var shippingAccountId = "my-shipping-account-id-or-alias";
       
-       var token = "";
+      var token = "";
 			// Please note this code excludes all error handling
 			// This code uses the Microsoft Memory Cache
 			// dotnet add package Microsoft.Extensions.Caching.Memory
