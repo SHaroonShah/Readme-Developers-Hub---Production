@@ -28,27 +28,27 @@ namespace MCSS.CodeForRecipes.Recipes
             var shippingLocationId = "my-shipping-location-id-or-alias";
 
             var token = "";
-			// Please note this code excludes all error handling
-			// This code uses the Microsoft Memory Cache
-			// dotnet add package Microsoft.Extensions.Caching.Memory
-			// Try and get the token from the cache.  If it does not exist, then retrieve it from authentication server and cache it.
-			if (!Cache.TryGetValue(AUTH_CACHE_KEY, out string cachedToken))
-			{
-				using var authClient = new RestClient(authenticationUrl);
-				var authRequest = new RestRequest("/connect/token", Method.Post);
-				authRequest.AddParameter("grant_type", "client_credentials");
-				authRequest.AddParameter("client_id", clientId);
-				authRequest.AddParameter("client_secret", clientSecret);
-				var authResponse = await authClient.PostAsync<TokenResponse>(authRequest);
-				// Store the token in the cache, calculate the cache expiry from the tokens expiry
-				var tokenValidForSeconds = GetTokenExpiryInSeconds(authResponse);
-				Cache.Set(AUTH_CACHE_KEY, authResponse.AccessToken, TimeSpan.FromSeconds(tokenValidForSeconds));
-				token = authResponse.AccessToken;
-			}
-			else
-			{
-				token = cachedToken;
-			}
+			      // Please note this code excludes all error handling
+						// This code uses the Microsoft Memory Cache
+						// dotnet add package Microsoft.Extensions.Caching.Memory
+						// Try and get the token from the cache.  If it does not exist, then retrieve it from authentication server and cache it.
+						if (!Cache.TryGetValue(AUTH_CACHE_KEY, out string cachedToken))
+						{
+								using var authClient = new RestClient(authenticationUrl);
+								var authRequest = new RestRequest("/connect/token", Method.Post);
+								authRequest.AddParameter("grant_type", "client_credentials");
+								authRequest.AddParameter("client_id", clientId);
+								authRequest.AddParameter("client_secret", clientSecret);
+								var authResponse = await authClient.PostAsync<TokenResponse>(authRequest);
+								// Store the token in the cache, calculate the cache expiry from the tokens expiry
+								var tokenValidForSeconds = GetTokenExpiryInSeconds(authResponse);
+								Cache.Set(AUTH_CACHE_KEY, authResponse.AccessToken, TimeSpan.FromSeconds(tokenValidForSeconds));
+								token = authResponse.AccessToken;
+						}
+						else
+						{
+								token = cachedToken;
+						}
 
             // Setup API Client
             using var client = new RestClient(apiUrl);
@@ -98,14 +98,14 @@ namespace MCSS.CodeForRecipes.Recipes
                 }
             });
             var shipmentResponse = await client.PostAsync<ShipmentResponse>(shipmentRequest);
-          /* 
-			 * Once the labels are printed the shipment will be ready for manifest.
-			 * Shipments must be manifested before they are handed over to the carrier.
-			 * Shipments must be manifested a minimum of once a day, normally in line with the final collection of the day.
-			 * They can be manifested more frequently if needed e.g. If a carrier makes several collections per day.
-			 * Shipments should be manifested in bulk before they are collected.
-			 * Shipments must not be manifested individually once the label is printed.
-			 */
+          	/* 
+					 	 * Once the labels are printed the shipment will be ready for manifest.
+			 			 * Shipments must be manifested before they are handed over to the carrier.
+			 			 * Shipments must be manifested a minimum of once a day, normally in line with the final collection of the day.
+			 			 * They can be manifested more frequently if needed e.g. If a carrier makes several collections per day.
+			 			 * Shipments should be manifested in bulk before they are collected.
+			 			 * Shipments must not be manifested individually once the label is printed.
+			 			 */
 
             // Manifested shipments are ready to be picked up by the carrier.
             var manifestRequest = new RestRequest($"/v4/manifests/RM", Method.Post);
