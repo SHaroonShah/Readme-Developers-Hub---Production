@@ -37,7 +37,7 @@ next:
 <Tabs>
   <Tab title="Key Features">
     <Cards columns={2}>
-      <Card title="Shipping Origins" icon="fa-solid fa-map-marker">
+      <Card title="Shipping Origins" icon="fa-solid fa-map-marker-alt">
         The integration supports shipping from locations in Great Britain (GB) only.
       </Card>
 
