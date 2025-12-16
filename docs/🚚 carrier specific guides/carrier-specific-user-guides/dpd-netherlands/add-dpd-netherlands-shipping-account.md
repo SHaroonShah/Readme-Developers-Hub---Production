@@ -1,5 +1,5 @@
 ---
-title: Add DPD Netherlands shipping account
+title: Add DPD NL shipping account
 deprecated: false
 hidden: false
 metadata:
