@@ -61,7 +61,7 @@ next:
         Support for single shipments is included in the integration, allowing users to send single shipment. However users can create multiple single shipments via a single API call.
       </Card>
 
-      <Card title="Package Types" icon="fa-solid fa-package">
+      <Card title="Package Types" icon="fa-solid fa-boxes">
         Royal Mail offers its own distinct <Glossary>package type</Glossary>s, such as Letter, Large letter, Parcel, and Printed papers. You can look up package types by calling the [Get Carrier Service Package Types](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services-servicecode-packagetypes#/) endpoint.
       </Card>
     </Cards>
