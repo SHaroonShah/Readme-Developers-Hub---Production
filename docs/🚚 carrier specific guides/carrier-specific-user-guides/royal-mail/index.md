@@ -213,7 +213,7 @@ next:
 
 <Banner isInline={true} message="" color="#ffb600" textColor="#ffffff" fontSize="14px" fontWeight="bold" width="120px" />
 
-<Cards columns={4}>
+<Cards>
   <Card title="Activate this integration" href="https://docs.intersoftsapient.net/docs/integration-activation#/" icon="fa-solid fa-circle-play" target="_blank">
     Seamlessly connect with Royal Mail and manage your shipping operations from a single platform.
   </Card>
