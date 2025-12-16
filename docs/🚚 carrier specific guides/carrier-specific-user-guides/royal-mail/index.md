@@ -211,7 +211,7 @@ next:
   </Tab>
 </Tabs>
 
-<Banner isInline={true} message="" color="#ffb600" textColor="#ffffff" fontSize="14px" fontWeight="bold" width="120px" />
+<Banner isInline={true} message="Ready to integrate?" color="#ffb600" textColor="#ffffff" fontSize="20px" fontWeight="bold" width="120px" />
 
 <Cards>
   <Card title="Activate this integration" href="https://docs.intersoftsapient.net/docs/integration-activation#/" icon="fa-solid fa-circle-play" target="_blank">
