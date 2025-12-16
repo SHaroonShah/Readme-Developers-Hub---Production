@@ -51,7 +51,7 @@ This integration represents a significant step towards optimising shipping funct
 
   <Tab title="Additional Features">
     <Cards columns={2}>
-      <Card title="Single piece shipments" icon="fa-solid fa-box">
+      <Card title="Single Piece shipments" icon="fa-solid fa-box">
         Support for single shipments is included in the integration, allowing users to send single shipment. However, users can create multiple single shipments via a single API call.
       </Card>
 
@@ -61,7 +61,7 @@ This integration represents a significant step towards optimising shipping funct
     </Cards>
   </Tab>
 
-  <Tab title="Service enhancements">
+  <Tab title="Service Enhancements">
     <Accordion title="Consequential Loss Coverage" icon="shield-alt">
       Royal Mail offers multiple tiers of consequential loss coverage to protect your shipments:
 
