@@ -87,7 +87,7 @@ next:
   </Card>
 </Cards>
 
-<Banner isInline={true} message="Featured articles" color="#ffb600" textColor="#ffffff" fontSize="20px" fontWeight="bold" width="120px" />
+<Banner isInline={true} message="Featured content" color="#ffb600" textColor="#ffffff" fontSize="20px" fontWeight="bold" width="120px" />
 
 <Banner isInline={true} message="" color="#ffb600" textColor="#ffffff" fontSize="14px" fontWeight="bold" />
 
