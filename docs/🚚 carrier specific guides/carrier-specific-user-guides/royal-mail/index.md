@@ -185,7 +185,7 @@ This integration represents a significant step towards optimising shipping funct
       </Card>
 
       <Card title="Pre-allocated Tracking" href="https://docs.intersoftsapient.net/docs/use-the-royal-mail-pre-allocated-tracking-number" icon="fa-solid fa-input-numeric">
-        Get the pre-allocated trackiing number in advance to a shipment or order before despaching.
+        Get the pre-allocated tracking number in advance for a shipment or order before despaching.
       </Card>
     </Cards>
   </Tab>
