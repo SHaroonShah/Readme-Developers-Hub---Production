@@ -105,23 +105,27 @@ next:
 
 <Tabs>
   <Tab title="Core Services">
-      <Accordion title="Create Shipment" icon="plus-circle">
-        The integration for creating shipments to reflect Royal Mail as a primary carrier and allowing users to create shipments using the **Create Shipment** endpoint.
+    <Accordion title="Create Shipment" icon="plus-circle">
+      The integration for creating shipments to reflect Royal Mail as a primary carrier and allowing users to create shipments using the **Create Shipment** endpoint.
+    </Accordion>
+
+    <br />
+
+    <Accordion title="Print Label" icon="print">
+      Generate and return the label for the Royal Mail shipment. This endpoint is utilised after a Royal Mail shipment has been created and is meant to facilitate the printing of the label required for that shipment.
+
+      > 📘 *Note*: This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting.
     </Accordion><br />
 
-      <Accordion title="Print Label" icon="print">
-        Generate and return the label for the Royal Mail shipment. This endpoint is utilised after a Royal Mail shipment has been created and is meant to facilitate the printing of the label required for that shipment.
+    <Accordion title="Print My Label QR Code" icon="qrcode">
+      Generate an easy-to-scan QR code for the associated label specified in the **PrintLabel** API endpoint. This endpoint can only be used for Royal Mail Tracked Return services.
+    </Accordion>
 
-        > 📘 *Note*: This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting.
-      </Accordion>
+    <br />
 
-      <Accordion title="Print My Label QR Code" icon="qrcode">
-        Generate an easy-to-scan QR code for the associated label specified in the **PrintLabel** API endpoint. This endpoint can only be used for Royal Mail Tracked Return services.
-        </Accordion><br />
-
-      <Accordion title="Pre Allocate Tracking Number" icon="hashtag">
-        Receive a Royal Mail Tracking Number that will be pre-allocated to the service and destination supplied in the request. No shipment or label will be produced using this endpoint. This endpoint can only be used for services that are assigned a tracking number.
-      </Accordion>
+    <Accordion title="Pre Allocate Tracking Number" icon="hashtag">
+      Receive a Royal Mail Tracking Number that will be pre-allocated to the service and destination supplied in the request. No shipment or label will be produced using this endpoint. This endpoint can only be used for services that are assigned a tracking number.
+    </Accordion>
   </Tab>
 
   <Tab title="Advanced Services">
