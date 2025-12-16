@@ -76,7 +76,9 @@ next:
       * **CL3** - Consequential Loss £5000: Coverage for losses up to £5000.
       * **CL4** - Consequential Loss £7500: Coverage for losses up to £7500.
       * **CL5** - Consequential Loss £10000: Coverage for losses up to £10000
-    </Accordion><br />
+    </Accordion>
+
+    <br />
 
     <Accordion title="Delivery Options & Notifications" icon="bell">
       Enhanced delivery and notification services:
@@ -86,7 +88,9 @@ next:
       * **Email**: Sends delivery updates via email for eligible services, such as Special Delivery Guaranteed, Tracked and Tracked High Volume, International Tracked and International Tracked and Signed services.
       * **Safeplace**: The shipment will be left in a specified safe place location; details must be provided in the SafeplaceLocation field. Can be used with Tracked, Tracked High Volume and 24/48 services.
       * **LocalCollect**: The shipment will be delivered to a Post Office for collection by the receiver. Can be used with Special Delivery Guaranteed, Tracked and Tracked High Volume services.
-    </Accordion><br />
+    </Accordion>
+
+    <br />
 
     <Accordion title="International Services" icon="plane">
       Additional enhancements for international shipments:
@@ -97,31 +101,27 @@ next:
   </Tab>
 </Tabs>
 
-## Service Enhancements
-
 ## API Services
 
 <Tabs>
   <Tab title="Core Services">
-    <Cards columns={2}>
-      <Card title="Create Shipment" icon="plus-circle">
+      <Accordion title="Create Shipment" icon="plus-circle">
         The integration for creating shipments to reflect Royal Mail as a primary carrier and allowing users to create shipments using the **Create Shipment** endpoint.
-      </Card>
+    </Accordion><br />
 
-      <Card title="Print Label" icon="print">
+      <Accordion title="Print Label" icon="print">
         Generate and return the label for the Royal Mail shipment. This endpoint is utilised after a Royal Mail shipment has been created and is meant to facilitate the printing of the label required for that shipment.
 
         > 📘 *Note*: This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting.
-      </Card>
+      </Accordion>
 
-      <Card title="Print My Label QR Code" icon="qrcode">
+      <Accordion title="Print My Label QR Code" icon="qrcode">
         Generate an easy-to-scan QR code for the associated label specified in the **PrintLabel** API endpoint. This endpoint can only be used for Royal Mail Tracked Return services.
-      </Card>
+        </Accordion><br />
 
-      <Card title="Pre Allocate Tracking Number" icon="hashtag">
+      <Accordion title="Pre Allocate Tracking Number" icon="hashtag">
         Receive a Royal Mail Tracking Number that will be pre-allocated to the service and destination supplied in the request. No shipment or label will be produced using this endpoint. This endpoint can only be used for services that are assigned a tracking number.
-      </Card>
-    </Cards>
+      </Accordion>
   </Tab>
 
   <Tab title="Advanced Services">
