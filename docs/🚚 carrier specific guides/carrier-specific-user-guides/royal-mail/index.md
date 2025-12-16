@@ -38,27 +38,27 @@ next:
   <Tab title="Key Features">
     <Cards columns={2}>
       <Card title="Shipping Origins" icon="map-marker-alt">
-        **Ship from destinations**: The integration supports shipping from locations in Great Britain (GB) only.
+        The integration supports shipping from locations in Great Britain (GB) only.
       </Card>
 
       <Card title="Global Destinations" icon="globe">
-        **Ship To Destinations**: Users can send <Glossary>shipments</Glossary> to Europe and the <Glossary>ROW</Glossary> (Rest of the World).
+        Users can send <Glossary>shipments</Glossary> to Europe and the <Glossary>ROW</Glossary> (Rest of the World).
       </Card>
 
       <Card title="Service Type" icon="shipping-fast">
-        **Service Type**: The integration is focused on inbound and outbound shipping.
+        The integration is focused on inbound and outbound shipping.
       </Card>
 
       <Card title="Incoterms Support" icon="file-contract">
-        **Incoterms**: The integration supports <Glossary>DDU</Glossary>, <Glossary>DDP</Glossary>, <Glossary>DAP</Glossary>, and <Glossary>DAT</Glossary>.
+        The integration supports <Glossary>DDU</Glossary>, <Glossary>DDP</Glossary>, <Glossary>DAP</Glossary>, and <Glossary>DAT</Glossary>.
       </Card>
     </Cards>
   </Tab>
 
   <Tab title="Additional Features">
     <Cards columns={2}>
-      <Card title="Multipiece Shipments" icon="boxes">
-        Support for multipiece shipments is included in the integration, allowing you to send multiple packages as a single shipment.
+      <Card title="Single piece shipments" icon="boxes">
+        Support for single shipments is included in the integration, allowing users to send single shipment. However users can create multiple single shipments via a single API call.
       </Card>
 
       <Card title="Package Types" icon="package">
@@ -68,28 +68,25 @@ next:
   </Tab>
 
   <Tab title="Service enhancements">
-        <Accordion title="Consequential Loss Coverage" icon="shield-alt">
-          Royal Mail offers multiple tiers of consequential loss coverage to protect your shipments:
+    <Accordion title="Consequential Loss Coverage" icon="shield-alt">
+      Royal Mail offers multiple tiers of consequential loss coverage to protect your shipments:
 
-          * **CL1** - Consequential Loss £1000: Coverage for losses up to £1000.
-          * **CL2** - Consequential Loss £2500: Coverage for losses up to £2500.
-          * **CL3** - Consequential Loss £5000: Coverage for losses up to £5000.
-          * **CL4** - Consequential Loss £7500: Coverage for losses up to £7500.
-          * **CL5** - Consequential Loss £10000: Coverage for losses up to £10000
-        </Accordion>
-      
+      * **CL1** - Consequential Loss £1000: Coverage for losses up to £1000.
+      * **CL2** - Consequential Loss £2500: Coverage for losses up to £2500.
+      * **CL3** - Consequential Loss £5000: Coverage for losses up to £5000.
+      * **CL4** - Consequential Loss £7500: Coverage for losses up to £7500.
+      * **CL5** - Consequential Loss £10000: Coverage for losses up to £10000
+    </Accordion><br />
 
-      
-        <Accordion title="Delivery Options & Notifications" icon="bell">
-          Enhanced delivery and notification services:
+    <Accordion title="Delivery Options & Notifications" icon="bell">
+      Enhanced delivery and notification services:
 
-          * **Signed**: A signature is required upon delivery, applicable to 24, 48, 1st Class, and 2nd Class services.
-          * **SMS**: Provides delivery updates via SMS for Special Delivery Guaranteed, Tracked, and Tracked High Volume services.
-          * **Email**: Sends delivery updates via email for eligible services, such as Special Delivery Guaranteed, Tracked and Tracked High Volume, International Tracked and International Tracked and Signed services.
-          * **Safeplace**: The shipment will be left in a specified safe place location; details must be provided in the SafeplaceLocation field. Can be used with Tracked, Tracked High Volume and 24/48 services.
-          * **LocalCollect**: The shipment will be delivered to a Post Office for collection by the receiver. Can be used with Special Delivery Guaranteed, Tracked and Tracked High Volume services.
-        </Accordion>
-
+      * **Signed**: A signature is required upon delivery, applicable to 24, 48, 1st Class, and 2nd Class services.
+      * **SMS**: Provides delivery updates via SMS for Special Delivery Guaranteed, Tracked, and Tracked High Volume services.
+      * **Email**: Sends delivery updates via email for eligible services, such as Special Delivery Guaranteed, Tracked and Tracked High Volume, International Tracked and International Tracked and Signed services.
+      * **Safeplace**: The shipment will be left in a specified safe place location; details must be provided in the SafeplaceLocation field. Can be used with Tracked, Tracked High Volume and 24/48 services.
+      * **LocalCollect**: The shipment will be delivered to a Post Office for collection by the receiver. Can be used with Special Delivery Guaranteed, Tracked and Tracked High Volume services.
+    </Accordion><br />
 
     <Accordion title="International Services" icon="plane">
       Additional enhancements for international shipments:
