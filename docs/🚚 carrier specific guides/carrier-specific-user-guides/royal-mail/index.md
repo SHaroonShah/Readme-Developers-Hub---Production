@@ -164,15 +164,15 @@ next:
 <Tabs>
   <Tab title="Account Setup">
     <Cards columns={3}>
-      <Card title="Account Setup" href="https://docs.intersoftsapient.net/docs/oba-email-validation" icon="user-plus">
+      <Card title="Account Setup" href="https://docs.intersoftsapient.net/docs/oba-email-validation" icon="fa-solid fa-user-plus">
         Set up Royal Mail Online Business Account (OBA)
       </Card>
 
-      <Card title="Shipping Account" href="https://docs.intersoftsapient.net/docs/shipping-account-requirements" icon="truck">
+      <Card title="Shipping Account" href="https://docs.intersoftsapient.net/docs/shipping-account-requirements" icon="fa-solid fa-truck">
         Set up Royal Mail shipping account
       </Card>
 
-      <Card title="Tracking Account" href="https://docs.intersoftsapient.net/docs/royal-mail-tracking-account-setup" icon="search-location">
+      <Card title="Tracking Account" href="https://docs.intersoftsapient.net/docs/royal-mail-tracking-account-setup" icon="fa-solid fa-search-location">
         Set up Royal Mail tracking account
       </Card>
     </Cards>
@@ -180,15 +180,15 @@ next:
 
   <Tab title="Shipment Services">
     <Cards columns={3}>
-      <Card title="BFPO Shipments" href="https://docs.intersoftsapient.net/docs/bfpo-shipments" icon="military">
+      <Card title="BFPO Shipments" href="https://docs.intersoftsapient.net/docs/bfpo-shipments" icon="fa-solid fa-military">
         Create BFPO shipments
       </Card>
 
-      <Card title="Return Shipments" href="https://docs.intersoftsapient.net/docs/royal-mail-returns" icon="undo">
+      <Card title="Return Shipments" href="https://docs.intersoftsapient.net/docs/royal-mail-returns" icon="fa-solid fa-undo">
         Return shipments
       </Card>
 
-      <Card title="Pre-allocated Tracking" href="https://docs.intersoftsapient.net/docs/use-the-royal-mail-pre-allocated-tracking-number" icon="number">
+      <Card title="Pre-allocated Tracking" href="https://docs.intersoftsapient.net/docs/use-the-royal-mail-pre-allocated-tracking-number" icon="fa-solid fa-number">
         Use pre-allocated tracking number
       </Card>
     </Cards>
@@ -196,15 +196,15 @@ next:
 
   <Tab title="Advanced Features">
     <Cards columns={3}>
-      <Card title="Collection Service" href="https://docs.intersoftsapient.net/docs/royal-mail-parcel-collect" icon="hand-holding-box">
+      <Card title="Collection Service" href="https://docs.intersoftsapient.net/docs/royal-mail-parcel-collect" icon="fa-solid fa-hand-holding-box">
         Use collection service
       </Card>
 
-      <Card title="PUDO Service" href="https://docs.intersoftsapient.net/docs/use-local-collect-shipment-service#/" icon="store">
+      <Card title="PUDO Service" href="https://docs.intersoftsapient.net/docs/use-local-collect-shipment-service#/" icon="fa-solid fa-store">
         Use PUDO service
       </Card>
 
-      <Card title="International Containers" href="https://docs.intersoftsapient.net/docs/add-barcode-range-for-international-arrival-containers" icon="globe-americas">
+      <Card title="International Containers" href="https://docs.intersoftsapient.net/docs/add-barcode-range-for-international-arrival-containers" icon="fa-solid fa-globe-americas">
         Set up international arrival containers
       </Card>
     </Cards>
