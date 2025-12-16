@@ -133,17 +133,21 @@ next:
   </Tab>
 
   <Tab title="Advanced Services">
-      <Accordion title="Offline Barcoding" icon="barcode">
-        Request a specific range of barcodes for use in your shipping processes. Offline Barcoding is only available if it has been activated on your customer account in the GUI.
-    </Accordion><br />
+    <Accordion title="Offline Barcoding" icon="barcode">
+      Request a specific range of barcodes for use in your shipping processes. Offline Barcoding is only available if it has been activated on your customer account in the GUI.
+    </Accordion>
 
-      <Accordion title="PUDO Locations" icon="map-marked-alt">
-        Retrieves a list of Pick-Up and Drop-Off (PUDO) locations associated with a specified carriers that are within a set radius of the postcode provided in the request. That radius is set to 10 Miles / 16.09 Kilometres.
+    <br />
 
-        > 🚧 _Important_
-        >
-  > This endpoint must be called before the **Create Shipment** endpoint so that the desired PUDO location is selected in the Create Shipment request.
-    </Accordion><br />
+    <Accordion title="PUDO Locations" icon="map-marked-alt">
+      Retrieves a list of Pick-Up and Drop-Off (PUDO) locations associated with a specified carriers that are within a set radius of the postcode provided in the request. That radius is set to 10 Miles / 16.09 Kilometres.
+
+      > 🚧 *Important*
+      >
+      > _This endpoint must be called before the **Create Shipment** endpoint so that the desired PUDO location is selected in the Create Shipment request._
+    </Accordion>
+
+    <br />
 
     <Accordion title="International Arrivals Containers" icon="container-storage">
       Create and name (with and ID or alias) a new international arrivals container to be used for manifesting a specific group of shipments. Define which carrier and shipping location the container should be linked to.
