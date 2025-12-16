@@ -211,6 +211,12 @@ next:
   </Tab>
 </Tabs>
 
-> 📘 _Note_
->
-> _For more information on how to activate the Royal Mail integration, refer to the [Activate integration](https://docs.intersoftsapient.net/docs/integration-activation#/) section._
+<Banner isInline={true} message="" color="#ffb600" textColor="#ffffff" fontSize="14px" fontWeight="bold" width="120px" />
+
+<Cards columns={4}>
+  <Card title="Activate this integration" href="https://docs.intersoftsapient.net/docs/integration-activation#/" icon="fa-solid fa-circle-play" target="_blank">
+    Seamlessly connect with Royal Mail and manage your shipping operations from a single platform.
+  </Card>
+</Cards>
+
+<br />
