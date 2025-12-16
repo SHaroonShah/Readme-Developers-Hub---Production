@@ -180,7 +180,7 @@ next:
 
   <Tab title="Shipment Services">
     <Cards columns={3}>
-      <Card title="BFPO Shipments" href="https://docs.intersoftsapient.net/docs/bfpo-shipments" icon="fa-solid fa-military">
+      <Card title="BFPO Shipments" href="https://docs.intersoftsapient.net/docs/bfpo-shipments" icon="fa-solid fa-post">
         Create BFPO shipments
       </Card>
 
