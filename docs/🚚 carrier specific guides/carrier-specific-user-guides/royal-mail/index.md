@@ -37,19 +37,19 @@ next:
 <Tabs>
   <Tab title="Key Features">
     <Cards columns={2}>
-      <Card title="Shipping Origins" icon="map-marker-alt">
+      <Card title="Shipping Origins" icon="fa-solid fa-solid-map-marker-alt">
         The integration supports shipping from locations in Great Britain (GB) only.
       </Card>
 
-      <Card title="Global Destinations" icon="globe">
+      <Card title="Global Destinations" icon="fa-solid fa-globe">
         Users can send <Glossary>shipments</Glossary> to Europe and the <Glossary>ROW</Glossary> (Rest of the World).
       </Card>
 
-      <Card title="Service Type" icon="shipping-fast">
+      <Card title="Service Type" icon="fa-solid fa-shipping-fast">
         The integration is focused on inbound and outbound shipping.
       </Card>
 
-      <Card title="Incoterms Support" icon="file-contract">
+      <Card title="Incoterms Support" icon="fa-solid fa-file-contract">
         The integration supports <Glossary>DDU</Glossary>, <Glossary>DDP</Glossary>, <Glossary>DAP</Glossary>, and <Glossary>DAT</Glossary>.
       </Card>
     </Cards>
@@ -144,7 +144,7 @@ next:
 
       > 🚧 *Important*
       >
-      > _This endpoint must be called before the **Create Shipment** endpoint so that the desired PUDO location is selected in the Create Shipment request._
+      > *This endpoint must be called before the**Create Shipment** endpoint so that the desired PUDO location is selected in the Create Shipment request.*
     </Accordion>
 
     <br />
