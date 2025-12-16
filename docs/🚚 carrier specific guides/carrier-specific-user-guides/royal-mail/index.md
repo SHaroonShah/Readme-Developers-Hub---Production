@@ -188,7 +188,7 @@ next:
         Return shipments
       </Card>
 
-      <Card title="Pre-allocated Tracking" href="https://docs.intersoftsapient.net/docs/use-the-royal-mail-pre-allocated-tracking-number" icon="fa-solid fa-number">
+      <Card title="Pre-allocated Tracking" href="https://docs.intersoftsapient.net/docs/use-the-royal-mail-pre-allocated-tracking-number" icon="fa-solid fa-input-number">
         Use pre-allocated tracking number
       </Card>
     </Cards>
