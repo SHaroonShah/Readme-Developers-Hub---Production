@@ -15,12 +15,68 @@ next:
 ---
 If the receiving endpoint (the system where the notifications are sent) is down or encounters errors, for example, time out, invalid data, SAPIENT may suspend sending further webhook notifications to avoid overwhelming the system.
 
-If the threshold value for retrying the webhook within the given intervals is exceeded, then the webhook is suspended and a corresponding email is sent to the primary user registered for the customer. A *primary user* is set up at the time of customer onboarding. If you want to change the primary user, you can contact Intersoft's onboarding team.
+If the threshold value for retrying the webhook within the given intervals is exceeded, then the webhook is suspended and a corresponding email is sent to the primary user registered for the customer. A _primary user_ is set up at the time of customer onboarding. If you want to change the primary user, you can contact Intersoft's onboarding team.
+
+<br />
+
+<Cards columns={2}>
+  <Card title="Quick Recovery" icon="bolt">
+    Reactivate suspended webhooks immediately using the **Activate** toggle in the GUI to minimize data loss.
+  </Card>
+
+  <Card title="Monitoring Setup" icon="chart-line">
+    Set up dedicated webhook monitoring before suspension notifications are triggered for better reliability.
+  </Card>
+</Cards>
+
+## How webhook suspension works
+
+<br />
+
+<Accordion title="Suspension Process" icon="pause-circle">
+  When your webhook endpoint is down or encounters errors, SAPIENT follows a structured retry process before suspending the webhook:
+
+  1. **Error Detection**: The system detects issues like timeouts, invalid data, or server errors
+  2. **Retry Attempts**: Multiple retry attempts are made following specific intervals
+  3. **Threshold Exceeded**: If all retry attempts fail, the webhook is suspended
+  4. **Notification**: An email is sent to the primary user registered for the customer
+
+  > **Primary User**: Set up during customer onboarding. Contact Intersoft's onboarding team to change the primary user.
+</Accordion>
+
+<Accordion title="Retry Schedule" icon="clock">
+  The system follows this retry schedule before suspending a webhook:
+
+  | Retry ID | Retry Count | Interval    |
+  | :------: | :---------: | :---------- |
+  |     1    |      0      | 5 minutes\* |
+  |     2    |      1      | 10 minutes  |
+  |     3    |      2      | 15 minutes  |
+  |     4    |      3      | 30 minutes  |
+  |     5    |      4      | 5 hours     |
+  |     6    |      5      | 18 hours    |
+  |     7    |      6      | 24 hours    |
+  |     8    |      7      | 24 hours    |
+
+  \*Initial retry after first failure
+</Accordion>
+
+<Accordion title="Reactivation Process" icon="power-off">
+  To reactivate a suspended webhook:
+
+  1. Navigate to the webhook configuration in your GUI
+  2. Toggle the **Activate** switch to enable the webhook
+  3. Monitor the endpoint to ensure it's functioning properly
+
+  <Image align="center" border={true} src="https://files.readme.io/a76feb6-image.png" width="660px" alt="Activating tracking webhook" />
+</Accordion>
+
+<br />
 
 <Callout icon="💡" theme="default">
-  ### *Tip*
+  ### _Tip_
 
-  *To avoid webhook suspension, we highly recommend setting up a dedicated webhook monitoring system before the suspension notification is triggered. If the webhook does get suspended, you can[reactivate](https://docs.intersoftsapient.net/docs/create-tracking-webhook) it by enabling the **Activate** toggle in the GUI.*
+  _To avoid webhook suspension, we highly recommend setting up a dedicated webhook monitoring system before the suspension notification is triggered. If the webhook does get suspended, you can[reactivate](https://docs.intersoftsapient.net/docs/create-tracking-webhook) it by enabling the **Activate** toggle in the GUI._
 
   <Image align="center" alt="Activating tracking webhook" border={true} caption="Activating tracking webhook" src="https://files.readme.io/a76feb6-image.png" width="660px" />
 </Callout>
@@ -29,7 +85,7 @@ The retry intervals for the webhook are provided in the following table.
 
 | ShipmentTrackingStatusRetryIntervalId | RetryCount | IntervalInMinutes |
 | :-----------------------------------: | :--------- | :---------------- |
-|                   1                   | 0          | 5\* (see below)   |
+|                   1                   | 0          | 5* (see below)    |
 |                   2                   | 1          | 10                |
 |                   3                   | 2          | 15                |
 |                   4                   | 3          | 30                |
@@ -38,9 +94,9 @@ The retry intervals for the webhook are provided in the following table.
 |                   7                   | 6          | 1440 (24 hours)   |
 |                   8                   | 7          | 1440 (24 hours)   |
 
-> 🚧 *Important*
+> 🚧 _Important_
 >
-> *Once the webhook is suspended, it looses all its tracking data. For example, if a customer reactivates the webhook after one week, they loose one week of the tracking data. Therefore, if you do not want to loose any tracking data, then make sure to activate it promptly.*
+> _Once the webhook is suspended, it looses all its tracking data. For example, if a customer reactivates the webhook after one week, they loose one week of the tracking data. Therefore, if you do not want to loose any tracking data, then make sure to activate it promptly._
 
 A list of possible error codes are explained in the following table.
 
