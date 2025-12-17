@@ -93,12 +93,16 @@ In this section, learn how to:
 
 <HTMLBlock>{`
 <Banner
-  isInline={true}
+  isInline={false}
   color="#118cfd"
   textColor="#ffffff"
   fontSize="14px"
- 422-RM_favicon.png
-\`\`
+  fontWeight="bold"
+  imageSrc="https://files.readme.io/a9ee760d85555af384cfd0575c7bc99d51a1aada6dec34c8bfb588907ccd9422-RM_favicon.png"
+  imageAlt="ReadMe favicon"
+  linkHref="https://example.com"
+  imageWidth="48px"
+  imageHeight="48px"
 `}</HTMLBlock>
 
 <br />
