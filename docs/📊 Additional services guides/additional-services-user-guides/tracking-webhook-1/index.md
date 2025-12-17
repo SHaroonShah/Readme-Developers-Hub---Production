@@ -39,7 +39,7 @@ With this solution, you can track:
 In this section, learn how to:
 
 <Cards columns="3">
-  <Card title="Create Tracking Webhook" href="https://docs.intersoftsapient.net/docs/create-tracking-webhook" icon="fa-solid-fa-calendar-circle-plus">
+  <Card title="Create Tracking Webhook" href="https://docs.intersoftsapient.net/docs/create-tracking-webhook" icon="fa-solid fa-calendar-circle-plus">
     Configure your webhook endpoint to receive tracking data.
   </Card>
 
@@ -47,7 +47,7 @@ In this section, learn how to:
     Establish your tracking account for seamless integration.
   </Card>
 
-  <Card title="Set Up Manifest Webhook" href="https://docs.intersoftsapient.net/docs/manifest-webhook" icon="fa-solid fa-webhook-plus">
+  <Card title="Set Up Manifest Webhook" href="https://docs.intersoftsapient.net/docs/manifest-webhook" icon="fa-solid fa-webhook">
     Track Royal Mail shipments created on any external shipping platform or by individuals.
   </Card>
 
