@@ -25,7 +25,7 @@ To set up the tracking webhook connection in SAPIENT, perform the steps as expla
   <ToggleListItem title={<strong>1. Access tracking webhook </strong>} icon="fa-rocket">
     <br />
 
-    On the SAPIENT **Home** page, navigate to **API** > **Webhooks** in the left panel. The **Tracking Webhook** tab opens by default
+    On the SAPIENT **Home** page, navigate to **API** > **Webhooks** in the left panel. The **Tracking Webhook** tab opens by default.
 
     <Image align="center" border={true} src="https://files.readme.io/7becde66bf84f680af845714283a1b1f8b8d4a236c27df0d5feea8e22b2fa051-Tracking_webhok_tab.png" alt="Accessing tracking webhook" />
 
