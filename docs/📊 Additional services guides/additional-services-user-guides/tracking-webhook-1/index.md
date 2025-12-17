@@ -18,15 +18,43 @@ The application sending the data sends a **POST** API call containing the data t
 
 INTERSOFT offers a comprehensive <Glossary>tracking webhook</Glossary> solution for receiving tracking events from carriers. The tracking data is sent to the customer’s endpoint configured in the tracking webhook setup.
 
-With this solution, you can track:  
+With this solution, you can track:
 
-* All <Glossary>shipments</Glossary> created on SAPIENT
-* Specific shipments created on Intelligent Shipper  
-* Royal Mail shipments created on any external shipping platform or by individuals
+<Cards columns="3">
+  <Card title="SAPIENT Shipments" icon="box">
+    Track all shipments created on the SAPIENT platform with comprehensive tracking data and real-time updates.
+  </Card>
 
-***
+  <Card title="Intelligent Shipper" icon="truck">
+    Monitor specific shipments created on Intelligent Shipper for targeted tracking capabilities.
+  </Card>
 
-In this section, learn how to: 
+  <Card title="Royal Mail Integration" icon="mail-bulk">
+    Track Royal Mail shipments created on any external shipping platform or by individuals.
+  </Card>
+</Cards>
+
+In this section, learn how to:
+
+<Cards columns="3">
+  <Card title="Create Tracking Webhook" icon="box">
+    Configure your webhook endpoint to receive tracking data.
+  </Card>
+
+  <Card title="Set Up Tracking Account" icon="truck">
+    Establish your tracking account for seamless integration.
+  </Card>
+
+  <Card title="Set Up Manifest Webhook" icon="mail-bulk">
+    Track Royal Mail shipments created on any external shipping platform or by individuals.
+  </Card>
+<Card title="Track Events and Milestones" icon="mail-bulk">
+     Understand tracking events and milestone data.
+  </Card>
+<Card title="Handle Webhook Suspension " icon="mail-bulk">
+    Manage webhook suspension scenarios
+  </Card>
+</Cards>
 
 * [Create tracking webhook](https://docs.intersoftsapient.net/docs/create-tracking-webhook)
 * [Set up tracking account](https://docs.intersoftsapient.net/docs/create-tracking-account)
