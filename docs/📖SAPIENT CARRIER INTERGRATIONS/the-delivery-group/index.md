@@ -5,6 +5,7 @@ excerpt: >-
   services to enhance the efficiency of shipping and delivery processes.
 deprecated: false
 hidden: false
+icon: fad fa-truck-fast
 metadata:
   title: ''
   description: ''
