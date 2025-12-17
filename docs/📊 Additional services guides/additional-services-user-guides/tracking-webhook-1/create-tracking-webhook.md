@@ -13,11 +13,7 @@ metadata:
 next:
   description: ''
 ---
-<Cards>
-<Card title="Why Use Webhooks?" icon="bolt">
-    Instead of periodic updates, webhooks provide instantaneous updates, enhancing logistics efficiency with immediate and accurate shipment information.
-  </Card>
-</Cards>
+Instead of periodic updates, webhooks provide instantaneous updates, enhancing logistics efficiency with immediate and accurate shipment information.
 
 In SAPIENT, you can set up your <Glossary>tracking webhook</Glossary> connection to enhance the overall efficiency of logistics by ensuring that all stakeholders have immediate and accurate information on their shipments.
 
