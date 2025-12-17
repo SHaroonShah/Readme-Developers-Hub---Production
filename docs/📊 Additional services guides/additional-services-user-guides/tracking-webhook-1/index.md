@@ -46,7 +46,7 @@ In this section, learn how to:
   </Card>
 
   <Card title="Set Up Tracking Webhook Connection" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/create-tracking-webhook" icon="fa-solid fa-code-pull-request">
-    Configure your webhook endpoint to receive tracking data.
+    Automate the instantaneous flow of information regarding the status of shipments. 
   </Card>
 
   <Card title="Set Up Tracking Account" href="https://docs.intersoftsapient.net/docs/create-tracking-account" icon="fa-solid fa-alarm-plus">
