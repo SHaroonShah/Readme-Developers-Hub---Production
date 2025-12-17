@@ -34,6 +34,8 @@ With this solution, you can track:
   </Card>
 </Cards>
 
+***
+
 ## Get started
 
 In this section, learn how to:
@@ -59,9 +61,3 @@ In this section, learn how to:
     Manage webhook suspension scenarios
   </Card>
 </Cards>
-
-* [Create tracking webhook](https://docs.intersoftsapient.net/docs/create-tracking-webhook)
-* [Set up tracking account](https://docs.intersoftsapient.net/docs/create-tracking-account)
-* [Set up manifest webhook](https://docs.intersoftsapient.net/docs/manifest-webhook)
-* [Track events and milestones](https://docs.intersoftsapient.net/docs/tracking-events-and-milestones)
-* [View webhook suspension codes](https://docs.intersoftsapient.net/docs/webhook-suspension)
