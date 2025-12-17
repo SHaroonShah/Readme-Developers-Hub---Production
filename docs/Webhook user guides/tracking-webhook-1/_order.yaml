@@ -1,7 +1,7 @@
 - tracking-webhook-info
 - create-tracking-account
-- manifest-webhook
 - create-tracking-webhook
+- manifest-webhook
 - tracking-events-and-milestones
 - trackings-api
 - retry-logic-errors-etc
