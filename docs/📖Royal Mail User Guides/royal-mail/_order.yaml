@@ -1,4 +1,3 @@
-- royal-mail-parcel-force-services
 - oba-email-validation
 - shipping-account-requirements
 - royal-mail-sign-off
@@ -9,3 +8,4 @@
 - royal-mail-parcel-collect
 - use-local-collect-shipment-service
 - use-hazmat-object-for-class-9-hazardous-goods
+- royal-mail-parcel-force-services
