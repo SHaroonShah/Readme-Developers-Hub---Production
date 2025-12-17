@@ -1,5 +1,5 @@
 ---
-title: Webhook suspension
+title: Handle webhook suspension
 excerpt: >-
   _Webhook suspension_ refers to the disabling of the webhook notifications for
   shipment events due to an error.
