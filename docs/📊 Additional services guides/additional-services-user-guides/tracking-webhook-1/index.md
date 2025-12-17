@@ -45,7 +45,7 @@ In this section, learn how to:
     Configure your webhook endpoint to receive tracking data.
   </Card>
 
-  <Card title="Set Up Tracking Webhook Connection" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/create-tracking-webhook" icon="fa-solid fa-connectdevelop">
+  <Card title="Set Up Tracking Webhook Connection" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/create-tracking-webhook" icon="fa-solid fa-pull-request">
     Configure your webhook endpoint to receive tracking data.
   </Card>
 
