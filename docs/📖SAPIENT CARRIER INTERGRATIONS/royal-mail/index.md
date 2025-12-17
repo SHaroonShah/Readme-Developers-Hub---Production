@@ -92,6 +92,8 @@ In this section, learn how to:
 * [Use PUDO service](https://docs.intersoftsapient.net/docs/use-local-collect-shipment-service#/)
 * [Set up international arrival containers](https://docs.intersoftsapient.net/docs/add-barcode-range-for-international-arrival-containers)
 
+<br />
+
 <HTMLBlock>{`
 <Banner
   isInline={false}
@@ -107,4 +109,11 @@ In this section, learn how to:
 />
 `}</HTMLBlock>
 
-<br />
+<Banner
+  isInline={true}
+  message="This banner is displayed inline. Set isInline to false to move it seamlessly into your page's header!"
+  color="#118cfd"
+  textColor="#ffffff"
+  fontSize="14px"
+  fontWeight="bold"
+ />
