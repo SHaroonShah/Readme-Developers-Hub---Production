@@ -129,8 +129,6 @@ If the receiving endpoint (the system where the notifications are sent) is down 
 
 ### See also
 
-<br />
-
 <Cards columns="3">
   <Card title="Add Tracking Webhook" href="https://docs.intersoftsapient.net/docs/create-tracking-webhook" icon="fa-solid fa-calendar-circle-plus">
     Configure your webhook endpoint to receive tracking data.
