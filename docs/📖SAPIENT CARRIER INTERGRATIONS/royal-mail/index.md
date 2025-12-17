@@ -109,4 +109,4 @@ In this section, learn how to:
 />
 `}</HTMLBlock>
 
-<Banner isInline={true}   imageSrc="https://files.readme.io/a9ee760d85555af384cfd0575c7bc99d51a1aada6dec34c8bfb588907ccd9422-RM_favicon.png" message="This banner is displayed inline. Set isInline to false to move it seamlessly into your page's header!" color="#118cfd" textColor="#ffffff" fontSize="14px" fontWeight="bold" />
+<Banner isInline={true} imageSrc="https://files.readme.io/a9ee760d85555af384cfd0575c7bc99d51a1aada6dec34c8bfb588907ccd9422-RM_favicon.png" linkHref="https://example.com" message="" color="#118cfd" textColor="#ffffff" fontSize="14px" fontWeight="bold" />
