@@ -7,7 +7,7 @@ excerpt: >-
   commonly used in shipping software to keep track of shipments and their
   statuses without the need for constant polling or manual checking.
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   title: ''
   description: ''
