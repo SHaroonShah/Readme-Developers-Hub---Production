@@ -18,11 +18,11 @@ next:
       title: Royal Mail shipping account setup
       type: basic
 ---
-<Image align="center" border={false} width="120px" src="https://files.readme.io/a9ee760d85555af384cfd0575c7bc99d51a1aada6dec34c8bfb588907ccd9422-RM_favicon.png" />
+<Image align="center" border={false} width="600px" src="https://files.readme.io/740b0f20d74391637eec47a8969211425c98266a086cdae88b48d622527d46f9-RM_white_banner.png" />
 
 ***
 
-The Royal Mail-SAPIENT integration aims to enhance operational efficiency and provide users with tailored shipping options. By leveraging Royal Mail's extensive capabilities, businesses can ensure a streamlined shipping process that meets diverse logistical needs.
+The Royal Mail-SAPIENT integration aims to enhance operational efficiency and provide users with tailored s6hipping options. By leveraging Royal Mail's extensive capabilities, businesses can ensure a streamlined shipping process that meets diverse logistical needs.
 
 This integration represents a significant step towards optimising shipping functions within SAPIENT, offering comprehensive coverage from Great Britain to Europe and the Rest of the World.
 
