@@ -90,7 +90,7 @@ To align with the Windsor Framework changes, customers using the Sapient system 
 
     > 📘 **Note**
     >
-    > The UKIMS or pre-registration number requirements are only applicable to B2B shipments.
+    > _The UKIMS or pre-registration number requirements are only applicable to B2B shipments._
   </Tab>
 
   <Tab title="B2C Shipments">
@@ -114,6 +114,8 @@ To align with the Windsor Framework changes, customers using the Sapient system 
 > 🚧 _Important_
 >
 > _In the scope of the Windsor Framework changes, you might see some new fields in the API References. Some are carrier specific and some are used by commercial shipments. These new fields are optional and not required for shipments to NI._
+
+***
 
 ### See also
 
