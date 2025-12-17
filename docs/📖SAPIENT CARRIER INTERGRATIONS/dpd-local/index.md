@@ -3,6 +3,7 @@ title: DPD Local
 excerpt: Integration coming soon!
 deprecated: false
 hidden: false
+icon: fad fa-truck-fast
 metadata:
   robots: index
 ---
