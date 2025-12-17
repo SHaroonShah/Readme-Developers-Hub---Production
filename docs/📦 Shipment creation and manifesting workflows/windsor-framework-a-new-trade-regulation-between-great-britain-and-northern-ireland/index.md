@@ -24,17 +24,15 @@ To align with the Windsor Framework changes, customers using the Sapient system 
 
 ## Shipment requirements by type
 
-<br />
-
 <Tabs>
   <Tab title="B2B Shipments">
     ### Business-to-Business Requirements
 
     If you are sending B2B shipments, make sure to populate the following fields in your create shipment API request.
 
-    > 📘 ***Note***
+    > 📘 &#xNAN;***Note***
     >
-    > _Please note that the following script is only displaying the necessary fields that are required for B2B shipments to NI. Please make sure these fields are populated along with all the necessary fields associated to that particular object. For more information on how to populate the required fields, refer to the [API References](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm) section._
+    > *Please note that the following script is only displaying the necessary fields that are required for B2B shipments to NI. Please make sure these fields are populated along with all the necessary fields associated to that particular object. For more information on how to populate the required fields, refer to the[API References](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm) section.*
 
     ```curl
     curl --request POST \ 
@@ -78,7 +76,7 @@ To align with the Windsor Framework changes, customers using the Sapient system 
     } 
     ```
 
-    ### B2B Required Fields Summary
+    ### B2B required fields summary
 
     * Exporter/sender details (including <Glossary>EORI</Glossary>)
     * Importer/receiver details (including EORI)
@@ -88,7 +86,7 @@ To align with the Windsor Framework changes, customers using the Sapient system 
     * <Glossary>Description of goods</Glossary>
     * <Glossary>HS Code</Glossary>/product classification
 
-    > 📘 ***Note***
+    > 📘 &#xNAN;***Note***
     >
     > *The UKIMS or pre-registration number requirements are only applicable to B2B shipments.*
   </Tab>
@@ -98,7 +96,7 @@ To align with the Windsor Framework changes, customers using the Sapient system 
 
     As a B2C customer shipping from Great Britain to Northern Ireland, you do not need to provide the Item **HSCode** or **CountryOfOrigin**. However, if you are a Royal Mail B2C customer, make sure the correct information is provided.
 
-    ### B2C Required Fields Summary
+    ### B2C required fields summary
 
     * Exporter/sender details
     * Importer/receiver details
