@@ -15,10 +15,6 @@ next:
 ---
 If the receiving endpoint (the system where the notifications are sent) is down or encounters errors, for example, time out, invalid data, SAPIENT may suspend sending further webhook notifications to avoid overwhelming the system.
 
-If the threshold value for retrying the webhook within the given intervals is exceeded, then the webhook is suspended and a corresponding email is sent to the primary user registered for the customer. A _primary user_ is set up at the time of customer onboarding. If you want to change the primary user, you can contact Intersoft's onboarding team.
-
-<br />
-
 <Cards columns={2}>
   <Card title="Quick Recovery" icon="bolt">
     Reactivate suspended webhooks immediately using the **Activate** toggle in the GUI to minimize data loss.
@@ -30,8 +26,6 @@ If the threshold value for retrying the webhook within the given intervals is ex
 </Cards>
 
 ## How webhook suspension works
-
-<br />
 
 <Accordion title="Suspension Process" icon="pause-circle">
   When your webhook endpoint is down or encounters errors, SAPIENT follows a structured retry process before suspending the webhook:
