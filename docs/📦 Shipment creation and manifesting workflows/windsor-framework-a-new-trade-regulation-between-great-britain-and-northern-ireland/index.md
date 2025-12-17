@@ -111,76 +111,20 @@ To align with the Windsor Framework changes, customers using the Sapient system 
   </Tab>
 </Tabs>
 
-If you are sending B2B shipments, make sure to populate the following fields in your create shipment API request.
-
-> 📘 _Note_
->
-> _Please note that the following script is only displaying the necessary fields that are required for B2B shipments to NI. Please make sure these fields are populated along with all the necessary fields associated to that particular object. For more information on how to populate the required fields, refer to the[API References](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm) section._
-
-```
-curl --request POST \ 
-     --url https://api.intersoftsapient.net/v4/shipments/rm \ 
-     --header 'accept: application/json' \ 
-     --header 'content-type: application/json' \ 
-     --data ' 
-  "ShipmentInformation": { 
-   "BusinessTransactionType": "B2B"
-    
-  }, 
-    
-  "Shipper": { 
-    "EoriNumber": "GB213456789000", 
-  }, 
-    
-  "Destination": { 
-    "EoriNumber": "GB123456789000", 
-  }, 
- 
-  "Customs": { 
-    "ReasonForExport": "Sale Of Goods", 
-    "Incoterms": "DDU", 
-    "PreRegistrationNumber": "XIUKIMGB123345566700020240712163125", 
-    "PreRegistrationType": "UKIMS", 
-
-  }, 
-  "Items": [ 
-    { 
-      "SkuCode": "SKU123", 
-      "PackageOccurrence": 1, 
-      "Quantity": 1, 
-      "Description": "White Mens Large T-shirt", 
-      "Value": 19.99, 
-      "Weight": 0.5, 
-      "HSCode": "6109100010",
-      "SuplementaryUnits":"25.78",
-      "CountryOfOrigin": "CN" 
-    }, 
-  ] 
-} 
-
-```
-
 > 🚧 _Important_
 >
 > _In the scope of the Windsor Framework changes, you might see some new fields in the API References. Some are carrier specific and some are used by commercial shipments. These new fields are optional and not required for shipments to NI._
 
-As a B2C customer shipping from Great Britain to Northern Ireland, you do not need to provide the Item **HSCode** or **CountryOfOrigin**. However, if you are a Royal Mail B2C customer, make sure the correct information is provided as explained in the following table:
+### See also
 
-| Transaction type              | Fields                                                                                                                                                                                                                                           |
-| :---------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Business 2 Consumer (B2C)** | Exporter/sender details, importer/receiver details, customs value, country of origin, gross mass, <Glossary>description of goods</Glossary>, <Glossary>HS Code</Glossary>/product classification, <Glossary>IOSS</Glossary> number (where held). |
-| **Business 2 Business (B2B)** | Exporter/sender details (including <Glossary>EORI</Glossary>), importer/receiver details (including EORI), customs value, country of origin, gross mass, description of goods, HS code/product classification.                                   |
-
-> 📘 _Note_
->
-> _The UKIMS or pre-registration number requirements are only applicable to to B2B shipments._
-
-<br />
-
-<br />
-
-<Cards columns={4}>
-  <Card title="Windsor Framework FAQ's" href="https://docs.intersoftsapient.net/docs/windsor-framework-faqs#/" icon="fa fa-question-circle" target="_blank">
+<Cards columns={2}>
+  <Card title="Windsor Framework FAQ's" href="https://docs.intersoftsapient.net/docs/windsor-framework-faqs#/" icon="fa-question-circle">
     Find answers to common queries and additional guidance on compliance.
   </Card>
+
+  <Card title="API References" href="https://docs.intersoftsapient.net/reference/post_v4-shipments-rm" icon="fa-code">
+    Complete API documentation for shipment creation and field requirements.
+  </Card>
 </Cards>
+
+<br />
