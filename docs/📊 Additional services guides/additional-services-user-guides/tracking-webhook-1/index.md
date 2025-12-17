@@ -39,23 +39,23 @@ With this solution, you can track:
 In this section, learn how to:
 
 <Cards columns="3">
-  <Card title="Create Tracking Webhook" href="https://docs.intersoftsapient.net/docs/create-tracking-webhook" icon="box">
+  <Card title="Create Tracking Webhook" href="https://docs.intersoftsapient.net/docs/create-tracking-webhook" icon="fa-solid-fa-calendar-circle-plus">
     Configure your webhook endpoint to receive tracking data.
   </Card>
 
-  <Card title="Set Up Tracking Account" href="https://docs.intersoftsapient.net/docs/create-tracking-account" icon="truck">
+  <Card title="Set Up Tracking Account" href="https://docs.intersoftsapient.net/docs/create-tracking-account" icon="fa-solid fa-alarm-plus">
     Establish your tracking account for seamless integration.
   </Card>
 
-  <Card title="Set Up Manifest Webhook" href="https://docs.intersoftsapient.net/docs/manifest-webhook" icon="mail-bulk">
+  <Card title="Set Up Manifest Webhook" href="https://docs.intersoftsapient.net/docs/manifest-webhook" icon="fa-solid fa-webhook-plus">
     Track Royal Mail shipments created on any external shipping platform or by individuals.
   </Card>
 
-  <Card title="Track Events and Milestones" href="https://docs.intersoftsapient.net/docs/tracking-events-and-milestones" icon="mail-bulk">
+  <Card title="Track Events and Milestones" href="https://docs.intersoftsapient.net/docs/tracking-events-and-milestones" icon="fa-solid fa-chart-line-up">
     Understand tracking events and milestone data.
   </Card>
 
-  <Card title="Handle Webhook Suspension" href="https://docs.intersoftsapient.net/docs/webhook-suspension" icon="mail-bulk">
+  <Card title="Handle Webhook Suspension" href="https://docs.intersoftsapient.net/docs/webhook-suspension" icon="fa-solid fa-dial-max">
     Manage webhook suspension scenarios
   </Card>
 </Cards>
