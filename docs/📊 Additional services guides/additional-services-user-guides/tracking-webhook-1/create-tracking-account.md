@@ -125,3 +125,22 @@ To add a tracking account in SAPIENT, follow the steps as explained in the follo
 ### See also
 
 <br />
+
+<Cards>
+
+  <Card title="Set Up Tracking Account" href="https://docs.intersoftsapient.net/docs/create-tracking-account" icon="fa-solid fa-alarm-plus">
+    Establish your tracking account for seamless integration.
+  </Card>
+
+  <Card title="Set Up Manifest Webhook" href="https://docs.intersoftsapient.net/docs/manifest-webhook" icon="fa-solid fa-webhook">
+    Enable webhook notifications for manifest-level tracking operations.
+  </Card>
+
+  <Card title="Track Events and Milestones" href="https://docs.intersoftsapient.net/docs/tracking-events-and-milestones" icon="fa-solid fa-chart-line-up">
+    Understand tracking events and milestone data.
+  </Card>
+
+  <Card title="Handle Webhook Suspension" href="https://docs.intersoftsapient.net/docs/webhook-suspension" icon="fa-solid fa-dial-max">
+    Manage and resolve webhook suspension scenarios.
+  </Card>
+</Cards>
