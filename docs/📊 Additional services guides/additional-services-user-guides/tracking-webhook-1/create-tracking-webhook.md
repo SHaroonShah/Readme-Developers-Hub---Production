@@ -40,7 +40,8 @@ To set up the tracking webhook connection in SAPIENT, perform the steps as expla
     In the **WEBHOOK DETAILS** block, enter the required information based on your authentication type:
 
     <Image align="center" border={true} src="https://files.readme.io/9ce50f6d2ac1bc058b72b5232cf2b81a2ed76a909088ca2512d01f617884f1c4-Adding_tracking_webhook.png" width="500px" />
-<br />
+
+    <br />
 
     <AsteridkForMandatoryElements />
 
@@ -78,15 +79,15 @@ To set up the tracking webhook connection in SAPIENT, perform the steps as expla
     After entering all the necessary details, select ![](https://files.readme.io/dcabcea774e82fdcf39f03bfcdcd2d95520a6aead65cb9bd47e7ccc32a8c085c-Test_button.png) to check if the setup is configured correctly. Once the test has been completed, and the setup configuration is correct, the webhook is activated and the following success response is displayed:
 
     <Image align="center" border={true} src="https://files.readme.io/0994fa6-image.png" width="660px" alt="Success response" />
-
+<br />
     Following the success response, a test tracking payload is sent to the webhook as follows:
 
     <Image align="center" border={true} src="https://files.readme.io/6b06c9d-image.png" alt="tracking payload response example" />
-
+<br />
     If for some reason, the connectivity test fails, the following message is displayed:
 
     <Image align="center" border={true} src="https://files.readme.io/65a4983-image.png" width="660px" alt="Failed connection response" />
-
+<br />
     > 🚧 *Important*
     >
     > *The connectivity test fails when SAPIENT is unable to call the configured endpoint with the credentials provided by the customer. To avoid that, it is recommended for the customers to check the credentials and endpoint URL for correctness—update it, if necessary, and try again. If the credentials and URL are correct and the test still fails, then the customers need to check whether the endpoint is working correctly on their side.*
