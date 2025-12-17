@@ -41,7 +41,10 @@ With this solution, you can track:
 In this section, learn how to:
 
 <Cards columns="3">
-  <Card title="Create Tracking Webhook" href="https://docs.intersoftsapient.net/docs/create-tracking-webhook" icon="fa-solid fa-calendar-circle-plus">
+  <Card title="Add Tracking Webhook" href="https://docs.intersoftsapient.net/docs/create-tracking-webhook" icon="fa-solid fa-calendar-circle-plus">
+    Configure your webhook endpoint to receive tracking data.
+  </Card>
+<Card title="Set Up Tracking Webhook Connection" href="https://docs.intersoftsapient.net/docs/create-tracking-webhook" icon="fa-solid fa-calendar-circle-plus">
     Configure your webhook endpoint to receive tracking data.
   </Card>
 
@@ -50,7 +53,7 @@ In this section, learn how to:
   </Card>
 
   <Card title="Set Up Manifest Webhook" href="https://docs.intersoftsapient.net/docs/manifest-webhook" icon="fa-solid fa-webhook">
-     Enable webhook notifications for manifest-level tracking operations.
+    Enable webhook notifications for manifest-level tracking operations.
   </Card>
 
   <Card title="Track Events and Milestones" href="https://docs.intersoftsapient.net/docs/tracking-events-and-milestones" icon="fa-solid fa-chart-line-up">
