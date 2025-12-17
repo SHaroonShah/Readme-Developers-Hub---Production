@@ -36,7 +36,7 @@ Click any of the following cards to learn more about specific UI elements and th
     > Your primary navigation hub for accessing different modules, features, and sections within the SAPIENT application.
   </Card>
 
-  <Card title="Contents Panel (Dashboard)" href="https://docs.intersoftsapient.net/docs/dashboard" icon="fa-solid fa-dashboard">
+  <Card title="Contents Panel" href="https://docs.intersoftsapient.net/docs/dashboard" icon="fa-solid fa-dashboard">
     > The main working area where you can view and interact with your data, reports, and primary application content.
   </Card>
 </Cards>
