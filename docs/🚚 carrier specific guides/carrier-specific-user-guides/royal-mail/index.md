@@ -35,7 +35,7 @@ This integration represents a significant step towards optimising shipping funct
         The integration supports shipping from locations in Great Britain (GB) only.
       </Card>
 
-      <Card title="Global Destinations" icon="fa-solid fa-globe">
+      <Card title="Shipping Destinations" icon="fa-solid fa-globe">
         Users can send <Glossary>shipments</Glossary> to Europe and the <Glossary>ROW</Glossary> (Rest of the World).
       </Card>
 
