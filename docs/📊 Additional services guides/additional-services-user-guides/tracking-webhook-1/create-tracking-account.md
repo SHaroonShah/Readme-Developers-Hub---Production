@@ -59,6 +59,7 @@ To add a tracking account in SAPIENT, follow the steps as explained in the follo
     On the **Add Tracking account** page that appears, in the **DETAILS** block, enter the necessary information as explained in the following table.
 
     <Image align="center" border={true} src="https://files.readme.io/d5239464ffac95ad4b5081802a5b002a3e966e94ab27e760cf7ba3d2eeecaf56-Details_block_UPS.png" width="500px" alt="Adding tracking account" />
+<br />
 
     <AsteridkForMandatoryElements />
 
@@ -99,7 +100,7 @@ To add a tracking account in SAPIENT, follow the steps as explained in the follo
         </tr>
       </tbody>
     </Table>
-
+<br />
     Once entered, an additional **SFTP DETAILS** block may appear for specific carriers, for example YODEL and EVRi. This is only required if the carrier supports receiving the tracking details via SFTP (Secure File Transfer Protocol). For more information on how to fill this block, refer to the [Carrier specific guides](https://docs.intersoftsapient.net/docs/carrier-specific-user-guides) section.
 
     ***
@@ -113,39 +114,6 @@ To add a tracking account in SAPIENT, follow the steps as explained in the follo
     After entering all the necessary information, select ![alt text](https://files.readme.io/ed87f1de8d9350f6fed52ac5c3b52ce0e63e2e6358aebac01389e9081c7b12d9-Add_tracking_account_button_2.png).
 
     Once the tracking account is set up, any carrier tracking data for this account will be sent to your tracking webhook.
-
-    <br />
-
-    <AsteridkForMandatoryElements />
-
-    |       Element      | Description                                                                                                                       |
-    | :----------------: | :-------------------------------------------------------------------------------------------------------------------------------- |
-    |  **Contact Name**  | Enter the name of the country where your location is based.                                                                       |
-    |    **Country**\*   | From the dropdown menu, select the country code where the address you are adding is based.                                        |
-    |    **Address**\*   | Enter the first line of address.                                                                                                  |
-    |    **Address 2**   | Enter the second line of address, if applicable.                                                                                  |
-    |    **Address 3**   | Enter the third line of address, if applicable.                                                                                   |
-    |  **Contact Email** | Enter the email address that can be accessed by the contact name provided.                                                        |
-    | **Contact Number** | Enter the contact number that can be accessed at the address you are adding.                                                      |
-    |  **Company Name**  | Enter the name of the company registered at the address you are adding.                                                           |
-    |     **Town**\*     | Enter the name of the town where your address is based.                                                                           |
-    |     **County**     | Enter the name of the county where your address is based.                                                                         |
-    |   **Postcode**\*   | Enter the exact postcode of the address you are adding.                                                                           |
-    |   **What3Words**   | Enter the  <Glossary>What3words</Glossary> for your address to be able to get identified within the resolution of about 3 meters. |
-
-    ***
-  </ToggleListItem>
-
-  <br />
-
-  <ToggleListItem title={<strong>5. Save the address </strong>} icon="fa-rocket">
-    <br />
-
-    After entering the relevant information, select ![alt text](https://files.readme.io/e2e5dd875af649b5a87d4cbf536ab34d05d2123fe4b11ef132d8cb46ddd43e15-Add_address_button_2.png).
-
-    Once completed, the address is added successfully and appears in the **Address Book** list.
-
-    ***
   </ToggleListItem>
 </ToggleList>
 
