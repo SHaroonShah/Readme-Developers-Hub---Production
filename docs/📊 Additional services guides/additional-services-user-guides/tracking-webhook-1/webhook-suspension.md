@@ -63,13 +63,14 @@ If the receiving endpoint (the system where the notifications are sent) is down 
   3. Monitor the endpoint to ensure it's functioning properly
 
   <Image align="center" border={true} src="https://files.readme.io/a76feb6-image.png" width="660px" alt="Activating tracking webhook" />
-
   <br />
-</Accordion>
-
 > 🚧 _Important_
 >
 > _Once the webhook is suspended, it looses all its tracking data. For example, if a customer reactivates the webhook after one week, they loose one week of the tracking data. Therefore, if you do not want to loose any tracking data, then make sure to activate it promptly._
+<br />
+</Accordion>
+
+
 
 ***
 
