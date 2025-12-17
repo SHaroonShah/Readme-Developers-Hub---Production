@@ -40,6 +40,7 @@ To set up the tracking webhook connection in SAPIENT, perform the steps as expla
     In the **WEBHOOK DETAILS** block, enter the required information based on your authentication type:
 
     <Image align="center" border={true} src="https://files.readme.io/9ce50f6d2ac1bc058b72b5232cf2b81a2ed76a909088ca2512d01f617884f1c4-Adding_tracking_webhook.png" width="500px" />
+<br />
 
     <AsteridkForMandatoryElements />
 
