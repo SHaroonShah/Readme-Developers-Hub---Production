@@ -22,7 +22,7 @@ In this section you can learn more about the following additional services provi
     Get real-time updates on shipment status by sending automated notifications directly to your system. Stay informed about every step of your logistics process.
   </Card>
 
-  <Card title="Hurricane Commerce Services" href="https://docs.intersoftsapient.net/docs/hurricane-commerce-services" icon="fa-solid fa-arrows-spin">
+  <Card title="Hurricane Commerce Services" href="https://docs.intersoftsapient.net/docs/hurricane-commerce-services" icon="fa-solid fa-hurricane">
     Access comprehensive logistics support for cross-border shipments. Streamline your international shipping operations with our specialized commerce services.
   </Card>
 </Cards>
