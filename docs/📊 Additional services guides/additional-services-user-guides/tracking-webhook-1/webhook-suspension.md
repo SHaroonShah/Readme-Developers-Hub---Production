@@ -71,9 +71,9 @@ If the receiving endpoint (the system where the notifications are sent) is down 
 >
 > _Once the webhook is suspended, it looses all its tracking data. For example, if a customer reactivates the webhook after one week, they loose one week of the tracking data. Therefore, if you do not want to loose any tracking data, then make sure to activate it promptly._
 
-## Error reference
+***
 
-<br />
+## Error reference
 
 <Accordion title="Common Error Codes" icon="bug">
   Understanding these error codes can help you troubleshoot webhook issues:
@@ -106,6 +106,8 @@ If the receiving endpoint (the system where the notifications are sent) is down 
     </Tab>
   </Tabs>
 </Accordion>
+
+***
 
 ## Best Practices
 
