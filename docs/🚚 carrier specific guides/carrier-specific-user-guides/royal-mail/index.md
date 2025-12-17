@@ -29,6 +29,7 @@ This integration represents a significant step towards optimising shipping funct
 ## Overview
 
 <Tabs>
+<br />
   <Tab title="Key Features">
     <Cards columns={2}>
       <Card title="Shipping Origins" icon="fa-solid fa-map-marker-alt">
