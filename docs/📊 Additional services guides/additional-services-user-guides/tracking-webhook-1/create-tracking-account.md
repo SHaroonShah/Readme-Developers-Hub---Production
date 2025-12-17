@@ -124,10 +124,7 @@ To add a tracking account in SAPIENT, follow the steps as explained in the follo
 
 ### See also
 
-<br />
-
 <Cards>
-
   <Card title="Set Up Tracking Account" href="https://docs.intersoftsapient.net/docs/create-tracking-account" icon="fa-solid fa-alarm-plus">
     Establish your tracking account for seamless integration.
   </Card>
