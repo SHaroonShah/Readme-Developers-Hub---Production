@@ -21,7 +21,77 @@ In SAPIENT, you can set up your <Glossary>tracking webhook</Glossary> connection
 
 To set up the tracking webhook connection in SAPIENT, perform the steps as explained in the following procedure.
 
-<br />
+<ToggleList>
+  <ToggleListItem title={<strong>1. Access tracking webhook </strong>} icon="fa-rocket">
+    <br />
+
+    On the SAPIENT **Home** page, navigate to **API** > **Webhooks** in the left panel. The **Tracking Webhook** tab opens by default 
+
+    <Image align="center" border={true} src="https://files.readme.io/7becde66bf84f680af845714283a1b1f8b8d4a236c27df0d5feea8e22b2fa051-Tracking_webhok_tab.png" alt="Accessing tracking webhook" />
+
+    ***
+  </ToggleListItem>
+
+  <br />
+
+  <ToggleListItem title={<strong>2. Configure webhook details</strong>} icon="fa-rocket">
+    <br />
+
+    In the **WEBHOOK DETAILS** block, enter the required information based on your authentication type:
+
+    <Image align="center" border={true} src="https://files.readme.io/9ce50f6d2ac1bc058b72b5232cf2b81a2ed76a909088ca2512d01f617884f1c4-Adding_tracking_webhook.png" width="500px" />
+
+<AsteridkForMandatoryElements />
+
+  <Tabs>
+    <Tab title="Basic Authentication">
+      **Authentication Type**: Simple HTTP protocol authentication using encoded credentials (Base64)
+
+      | Field              | Description                                             |
+      | ------------------ | ------------------------------------------------------- |
+      | **Endpoint URL**\* | Your endpoint URL for connection identification         |
+      | **Username**\*     | Username to identify and authenticate INTERSOFT payload |
+      | **Password**\*     | Password for the specified username                     |
+    </Tab>
+
+    <Tab title="OAuth2 Authentication">
+      **Authentication Type**: Authorization protocol allowing third-party access without exposing credentials
+
+      | Field              | Description                                            |
+      | ------------------ | ------------------------------------------------------ |
+      | **Endpoint URL**\* | Your endpoint URL for connection identification        |
+      | **Token URL**\*    | Endpoint to connect and retrieve security token        |
+      | **Client ID**\*    | Client identifier for INTERSOFT payload authentication |
+      | **Secret**\*       | Secret key for INTERSOFT payload authentication        |
+    </Tab>
+  </Tabs>
+
+    ***
+  </ToggleListItem>
+
+  <br />
+
+  <ToggleListItem title={<strong>3. Test your configuration </strong>} icon="fa-rocket">
+    <br />
+
+     After entering all the necessary details, select ![](https://files.readme.io/dcabcea774e82fdcf39f03bfcdcd2d95520a6aead65cb9bd47e7ccc32a8c085c-Test_button.png) to check if the setup is configured correctly. Once the test has been completed, and the setup configuration is correct, the webhook is activated and the following success response is displayed:
+
+<Image align="center" alt="Success response" border={true} caption="Success response" src="https://files.readme.io/0994fa6-image.png" width="660px" />
+
+Following the success response, a test tracking payload is sent to the webhook as follows:
+
+<Image align="center" alt="tracking payload response example" border={true} caption="tracking payload response example" src="https://files.readme.io/6b06c9d-image.png" />
+
+If for some reason, the connectivity test fails, the following message is displayed:
+
+<Image align="center" alt="Failed connection response" border={true} caption="Failed connection response" src="https://files.readme.io/65a4983-image.png" width="660px" />
+
+> 🚧 _Important_
+>
+> _The connectivity test fails when SAPIENT is unable to call the configured endpoint with the credentials provided by the customer. To avoid that, it is recommended for the customers to check the credentials and endpoint URL for correctness—update it, if necessary, and try again. If the credentials and URL are correct and the test still fails, then the customers need to check whether the endpoint is working correctly on their side._
+***
+</ToggleListItem>
+</ToggleList>
 
 1. On the SAPIENT **Home** page, in the left navigation panel, select **API** > **Webhooks**. In the page that opens,  the **Tracking Webhook** tab is opened by default.
 
