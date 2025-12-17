@@ -7,12 +7,13 @@ excerpt: >-
 deprecated: false
 hidden: false
 icon: fad fa-truck-fast
+link:
+  new_tab: false
 metadata:
   title: ''
   description: ''
   robots: index
 next:
-  description: ''
   pages:
     - slug: shipping-account-requirements
       title: Royal Mail shipping account setup
@@ -103,6 +104,7 @@ In this section, learn how to:
   linkHref="https://example.com"
   imageWidth="48px"
   imageHeight="48px"
+/>
 `}</HTMLBlock>
 
 <br />
