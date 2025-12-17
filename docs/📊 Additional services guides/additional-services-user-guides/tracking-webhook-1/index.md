@@ -44,7 +44,8 @@ In this section, learn how to:
   <Card title="Add Tracking Webhook" href="https://docs.intersoftsapient.net/docs/create-tracking-webhook" icon="fa-solid fa-calendar-circle-plus">
     Configure your webhook endpoint to receive tracking data.
   </Card>
-<Card title="Set Up Tracking Webhook Connection" href="https://docs.intersoftsapient.net/docs/create-tracking-webhook" icon="fa-solid fa-calendar-circle-plus">
+
+  <Card title="Set Up Tracking Webhook Connection" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/create-tracking-webhook" icon="fa-solid fa-calendar-circle-plus">
     Configure your webhook endpoint to receive tracking data.
   </Card>
 
