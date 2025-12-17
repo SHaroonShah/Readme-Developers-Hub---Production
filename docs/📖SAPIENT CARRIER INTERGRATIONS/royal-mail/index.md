@@ -18,7 +18,7 @@ next:
       title: Royal Mail shipping account setup
       type: basic
 ---
-<Image align="center" width="120px" src="https://files.readme.io/a9ee760d85555af384cfd0575c7bc99d51a1aada6dec34c8bfb588907ccd9422-RM_favicon.png" />
+<Image align="center" border={false} width="120px" src="https://files.readme.io/a9ee760d85555af384cfd0575c7bc99d51a1aada6dec34c8bfb588907ccd9422-RM_favicon.png" />
 
 ***
 
@@ -90,3 +90,15 @@ In this section, learn how to:
 * [Use collection service](https://docs.intersoftsapient.net/docs/royal-mail-parcel-collect)
 * [Use PUDO service](https://docs.intersoftsapient.net/docs/use-local-collect-shipment-service#/)
 * [Set up international arrival containers](https://docs.intersoftsapient.net/docs/add-barcode-range-for-international-arrival-containers)
+
+<HTMLBlock>{`
+<Banner
+  isInline={true}
+  color="#118cfd"
+  textColor="#ffffff"
+  fontSize="14px"
+ 422-RM_favicon.png
+\`\`
+`}</HTMLBlock>
+
+<br />
