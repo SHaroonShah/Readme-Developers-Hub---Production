@@ -110,18 +110,20 @@ To set up the tracking webhook connection in SAPIENT, perform the steps as expla
 
     <Cards columns={2}>
       <Card title="Milestones" icon="flag">
-        Receive tracking milestones only - key status updates throughout the shipping journey.
+        Receive tracking milestones only, allowing key status updates throughout the shipping journey.
       </Card>
 
       <Card title="Full Tracking Events" icon="stream">
         Receive all tracking events with optional **Received Expired Event** toggle for shipments without tracking numbers after set days.
       </Card>
     </Cards>
-<br />
-    <Callout icon="💡" theme="default">
-      ### _Tip_
 
-      _Find detailed lists of milestones and tracking events in the [Tracking events and milestones](https://docs.intersoftsapient.net/docs/tracking-events-and-milestones) section._
+    <br />
+
+    <Callout icon="💡" theme="default">
+      ### *Tip*
+
+      *Find detailed lists of milestones and tracking events in the[Tracking events and milestones](https://docs.intersoftsapient.net/docs/tracking-events-and-milestones) section.*
     </Callout>
 
     ***
