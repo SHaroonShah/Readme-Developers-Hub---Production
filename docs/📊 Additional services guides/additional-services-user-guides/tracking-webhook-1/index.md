@@ -50,7 +50,7 @@ In this section, learn how to:
   </Card>
 
   <Card title="Set Up Manifest Webhook" href="https://docs.intersoftsapient.net/docs/manifest-webhook" icon="fa-solid fa-webhook">
-    Track Royal Mail shipments created on any external shipping platform or by individuals.
+     Enable webhook notifications for manifest-level tracking operations.
   </Card>
 
   <Card title="Track Events and Milestones" href="https://docs.intersoftsapient.net/docs/tracking-events-and-milestones" icon="fa-solid fa-chart-line-up">
