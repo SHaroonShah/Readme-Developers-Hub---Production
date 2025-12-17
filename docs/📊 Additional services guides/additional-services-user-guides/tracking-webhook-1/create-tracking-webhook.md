@@ -13,11 +13,19 @@ metadata:
 next:
   description: ''
 ---
-The primary purpose of a tracking webhook is to automate the flow of information regarding the status of <Glossary>shipments</Glossary> . Instead of relying on periodic updates (where one system constantly checks another for updates)—webhooks enable instantaneous updates.
+<Cards>
+<Card title="Why Use Webhooks?" icon="bolt">
+    Instead of periodic updates, webhooks provide instantaneous updates, enhancing logistics efficiency with immediate and accurate shipment information.
+  </Card>
+</Cards>
 
 In SAPIENT, you can set up your <Glossary>tracking webhook</Glossary> connection to enhance the overall efficiency of logistics by ensuring that all stakeholders have immediate and accurate information on their shipments.
 
-To set up the tracking webhook connection in SAPIENT, follow the instructions as explained in the following procedure.
+## How to set up tracking webhook connection
+
+To set up the tracking webhook connection in SAPIENT, perform the steps as explained in the following procedure.
+
+<br />
 
 1. On the SAPIENT **Home** page, in the left navigation panel, select **API** > **Webhooks**. In the page that opens,  the **Tracking Webhook** tab is opened by default.
 
@@ -25,7 +33,7 @@ To set up the tracking webhook connection in SAPIENT, follow the instructions as
 
 2. In the **WEBHOOK DETAILS** block of the **Tracking Webhook** tab, enter the necessary information as described in the following table.
 
-<Image align="center" className="border" border={true} width="500px" src="https://files.readme.io/9ce50f6d2ac1bc058b72b5232cf2b81a2ed76a909088ca2512d01f617884f1c4-Adding_tracking_webhook.png" />
+<Image align="center" border={true} width="500px" src="https://files.readme.io/9ce50f6d2ac1bc058b72b5232cf2b81a2ed76a909088ca2512d01f617884f1c4-Adding_tracking_webhook.png" className="border" />
 
 <AsteridkForMandatoryElements />
 
