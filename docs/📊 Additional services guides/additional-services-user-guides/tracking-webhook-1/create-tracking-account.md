@@ -28,8 +28,6 @@ To allow the system to automatically track <Glossary>shipments</Glossary> create
 
 To add a tracking account in SAPIENT, follow the steps as explained in the following procedure.
 
-<br />
-
 <ToggleList>
   <ToggleListItem title={<strong>1. Access tracking accounts page</strong>} icon="fa-rocket">
     <br />
@@ -46,9 +44,9 @@ To add a tracking account in SAPIENT, follow the steps as explained in the follo
   <ToggleListItem title={<strong>2. Select option to add new tracking account</strong>} icon="fa-rocket">
     <br />
 
-     In the **Tracking Accounts** page that opens, select ![alt text](https://files.readme.io/139bbda69af885f0824e5d5070ea342a6fb0a8d348c754389edb7a4dcfff7da2-Add_tracking_account_button.png).
+    In the **Tracking Accounts** page that opens, select ![alt text](https://files.readme.io/139bbda69af885f0824e5d5070ea342a6fb0a8d348c754389edb7a4dcfff7da2-Add_tracking_account_button.png).
 
- <Image align="center" border={true} src="https://files.readme.io/78c8641717e62040ab3526e6706d6a1f3259fe7c85b2d92281d861538afc0ab8-Add_tracking_account_option.png" alt="Accessing option to add tracking account" />
+    <Image align="center" border={true} src="https://files.readme.io/78c8641717e62040ab3526e6706d6a1f3259fe7c85b2d92281d861538afc0ab8-Add_tracking_account_option.png" alt="Accessing option to add tracking account" />
 
     ***
   </ToggleListItem>
@@ -58,11 +56,11 @@ To add a tracking account in SAPIENT, follow the steps as explained in the follo
   <ToggleListItem title={<strong>3. Enter account details </strong>} icon="fa-rocket">
     <br />
 
-   On the **Add Tracking account** page that appears, in the **DETAILS** block, enter the necessary information as explained in the following table.
+    On the **Add Tracking account** page that appears, in the **DETAILS** block, enter the necessary information as explained in the following table.
 
     <Image align="center" border={true} src="https://files.readme.io/d5239464ffac95ad4b5081802a5b002a3e966e94ab27e760cf7ba3d2eeecaf56-Details_block_UPS.png" width="500px" alt="Adding tracking account" />
-    
-<AsteridkForMandatoryElements />
+
+    <AsteridkForMandatoryElements />
 
     <Table align={["center","left"]}>
       <thead>
@@ -101,8 +99,8 @@ To add a tracking account in SAPIENT, follow the steps as explained in the follo
         </tr>
       </tbody>
     </Table>
-    
-Once entered, an additional **SFTP DETAILS** block may appear for specific carriers, for example YODEL and EVRi. This is only required if the carrier supports receiving the tracking details via SFTP (Secure File Transfer Protocol). For more information on how to fill this block, refer to the [Carrier specific guides](https://docs.intersoftsapient.net/docs/carrier-specific-user-guides) section.
+
+    Once entered, an additional **SFTP DETAILS** block may appear for specific carriers, for example YODEL and EVRi. This is only required if the carrier supports receiving the tracking details via SFTP (Secure File Transfer Protocol). For more information on how to fill this block, refer to the [Carrier specific guides](https://docs.intersoftsapient.net/docs/carrier-specific-user-guides) section.
 
     ***
   </ToggleListItem>
@@ -114,7 +112,7 @@ Once entered, an additional **SFTP DETAILS** block may appear for specific carri
 
     After entering all the necessary information, select ![alt text](https://files.readme.io/ed87f1de8d9350f6fed52ac5c3b52ce0e63e2e6358aebac01389e9081c7b12d9-Add_tracking_account_button_2.png).
 
-Once the tracking account is set up, any carrier tracking data for this account will be sent to your tracking webhook.
+    Once the tracking account is set up, any carrier tracking data for this account will be sent to your tracking webhook.
 
     <br />
 
