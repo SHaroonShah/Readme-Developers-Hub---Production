@@ -17,12 +17,20 @@ next:
 ---
 To allow the system to automatically track <Glossary>shipments</Glossary> created on Intersoft SAPIENT and send tracking updates to the <Glossary>tracking webhook</Glossary> , the tracking accounts must be set up.
 
-> 🚧 *Important*
+> 🚧 _Important_
 >
-> *Before setting up the tracking account, make sure that you have completed the following prerequisites:*
+> _Before setting up the tracking account, make sure that you have completed the following prerequisites:_
 >
-> 1. *Successfully [enabled the label and tracking integration](https://docs.intersoftsapient.net/docs/integration-activation) with your chosen <Glossary>carrier</Glossary> via the **Integration Activation** screen.*
-> 2. *Set up your tracking webhook. For more information on how to set up a tracking webhook, refer to the [Create tracking webhook](https://docs.intersoftsapient.net/docs/create-tracking-webhook) section. This is a one-time activity, you do not have to do this every time you add a tracking account.*
+> 1. _Successfully [enabled the label and tracking integration](https://docs.intersoftsapient.net/docs/integration-activation) with your chosen <Glossary>carrier</Glossary> via the **Integration Activation** screen._
+> 2. _Set up your tracking webhook. For more information on how to set up a tracking webhook, refer to the [Create tracking webhook](https://docs.intersoftsapient.net/docs/create-tracking-webhook) section. This is a one-time activity, you do not have to do this every time you add a tracking account._
+
+## How to add tracking account
+
+<br />
+
+<br />
+
+<br />
 
 To add a tracking account in SAPIENT, follow the steps as explained in the following procedure.
 
@@ -30,7 +38,7 @@ To add a tracking account in SAPIENT, follow the steps as explained in the follo
 
 <Image align="center" alt="Accessing tracking accounts" border={true} caption="Accessing tracking accounts" src="https://files.readme.io/f53608e208015447ef8f7fd5f987b3ecf8415f81e2736ec01c552a9c41436479-Tracking_accounts_tab.png" />
 
-2. In the **Tracking Accounts** page that opens, select ![alt text](https://files.readme.io/139bbda69af885f0824e5d5070ea342a6fb0a8d348c754389edb7a4dcfff7da2-Add_tracking_account_button.png).
+2. In the **Tracking Accounts** page that opens, select ![](https://files.readme.io/139bbda69af885f0824e5d5070ea342a6fb0a8d348c754389edb7a4dcfff7da2-Add_tracking_account_button.png).
 
 <Image align="center" alt="Accessing option to add tracking account" border={true} caption="Accessing option to add tracking account" src="https://files.readme.io/78c8641717e62040ab3526e6706d6a1f3259fe7c85b2d92281d861538afc0ab8-Add_tracking_account_option.png" />
 
@@ -56,7 +64,7 @@ To add a tracking account in SAPIENT, follow the steps as explained in the follo
   <tbody>
     <tr>
       <td>
-        **Carrier**\*
+        **Carrier***
       </td>
 
       <td>
@@ -66,7 +74,7 @@ To add a tracking account in SAPIENT, follow the steps as explained in the follo
 
     <tr>
       <td>
-        **Shipping Account**\*
+        **Shipping Account***
       </td>
 
       <td>
@@ -79,6 +87,6 @@ To add a tracking account in SAPIENT, follow the steps as explained in the follo
 </Table>
 
 4. Once entered, an additional **SFTP DETAILS** block may appear for specific carriers, for example YODEL and EVRi. This is only required if the carrier supports receiving the tracking details via SFTP (Secure File Transfer Protocol). For more information on how to fill this block, refer to the [Carrier specific guides](https://docs.intersoftsapient.net/docs/carrier-specific-user-guides) section.
-5. After entering all the necessary information, select ![alt text](https://files.readme.io/ed87f1de8d9350f6fed52ac5c3b52ce0e63e2e6358aebac01389e9081c7b12d9-Add_tracking_account_button_2.png).
+5. After entering all the necessary information, select ![](https://files.readme.io/ed87f1de8d9350f6fed52ac5c3b52ce0e63e2e6358aebac01389e9081c7b12d9-Add_tracking_account_button_2.png).
 
 Once the tracking account is set up, any carrier tracking data for this account will be sent to your tracking webhook.
