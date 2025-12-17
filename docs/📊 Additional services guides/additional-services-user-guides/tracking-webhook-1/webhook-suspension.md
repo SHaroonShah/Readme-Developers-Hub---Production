@@ -63,6 +63,7 @@ If the receiving endpoint (the system where the notifications are sent) is down 
   3. Monitor the endpoint to ensure it's functioning properly
 
   <Image align="center" border={true} src="https://files.readme.io/a76feb6-image.png" width="660px" alt="Activating tracking webhook" />
+<br />
 </Accordion>
 
 <br />
