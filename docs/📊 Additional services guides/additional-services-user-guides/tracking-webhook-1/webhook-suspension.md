@@ -17,7 +17,7 @@ If the receiving endpoint (the system where the notifications are sent) is down 
 
 <Cards columns={2}>
   <Card title="Quick Recovery" icon="bolt">
-    Reactivate suspended webhooks immediately using the **Activate** toggle in the GUI to minimize data loss.
+    Reactivate suspended webhooks immediately using the **Activate** toggle in the GUI to minimise data loss.
   </Card>
 
   <Card title="Monitoring Setup" icon="chart-line">
@@ -63,7 +63,8 @@ If the receiving endpoint (the system where the notifications are sent) is down 
   3. Monitor the endpoint to ensure it's functioning properly
 
   <Image align="center" border={true} src="https://files.readme.io/a76feb6-image.png" width="660px" alt="Activating tracking webhook" />
-<br />
+
+  <br />
 </Accordion>
 
 <br />
