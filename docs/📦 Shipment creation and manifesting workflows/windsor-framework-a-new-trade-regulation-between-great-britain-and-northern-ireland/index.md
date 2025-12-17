@@ -32,9 +32,9 @@ To align with the Windsor Framework changes, customers using the Sapient system 
 
     If you are sending B2B shipments, make sure to populate the following fields in your create shipment API request.
 
-    > 📘 **Note**
+    > 📘 ***Note***
     >
-    > Please note that the following script is only displaying the necessary fields that are required for B2B shipments to NI. Please make sure these fields are populated along with all the necessary fields associated to that particular object. For more information on how to populate the required fields, refer to the [API References](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm) section.
+    > _Please note that the following script is only displaying the necessary fields that are required for B2B shipments to NI. Please make sure these fields are populated along with all the necessary fields associated to that particular object. For more information on how to populate the required fields, refer to the [API References](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm) section._
 
     ```curl
     curl --request POST \ 
@@ -88,9 +88,9 @@ To align with the Windsor Framework changes, customers using the Sapient system 
     * <Glossary>Description of goods</Glossary>
     * <Glossary>HS Code</Glossary>/product classification
 
-    > 📘 **Note**
+    > 📘 ***Note***
     >
-    > _The UKIMS or pre-registration number requirements are only applicable to B2B shipments._
+    > *The UKIMS or pre-registration number requirements are only applicable to B2B shipments.*
   </Tab>
 
   <Tab title="B2C Shipments">
