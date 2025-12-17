@@ -71,7 +71,7 @@ On the application header of the home page, you can access additional account op
     Learn how to update the password for enhanced security.
   </Card>
 
-  <Card title="Log out" icon="fa-solid fa-logout">
+  <Card title="Log out" icon="fa-solid fa-arrow-right-from-bracket">
     Learn how to exit the system securely.
   </Card>
 </Cards>
