@@ -16,7 +16,7 @@ One of the most significant aspects of the Windsor Framework is its impact on al
 
 > 🚧 _Important_
 >
-> _Businesses must familiarise themselves with the specific requirements set out in the[Windsor Framework](https://www.gov.uk/government/publications/moving-parcels-from-great-britain-to-northern-ireland-under-the-windsor-framework) by HMRC._
+> _Businesses must familiarise themselves with the specific requirements set out in the [Windsor Framework](https://www.gov.uk/government/publications/moving-parcels-from-great-britain-to-northern-ireland-under-the-windsor-framework) by HMRC._
 
 ## System integration requirements
 
@@ -32,7 +32,7 @@ To align with the Windsor Framework changes, customers using the Sapient system 
 
     > 📘 *Note*
     >
-    > *Please note that the following script is only displaying the necessary fields that are required for B2B shipments to NI. Please make sure these fields are populated along with all the necessary fields associated to that particular object. For more information on how to populate the required fields, refer to the[API References](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm) section.*
+    > *Please note that the following script is only displaying the necessary fields that are required for B2B shipments to NI. Please make sure these fields are populated along with all the necessary fields associated to that particular object. For more information on how to populate the required fields, refer to the [API References](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm) section.*
 
     ```curl
     curl --request POST \ 
@@ -86,7 +86,7 @@ To align with the Windsor Framework changes, customers using the Sapient system 
     * <Glossary>Description of goods</Glossary>
     * <Glossary>HS Code</Glossary>/product classification
 
-    > 📘 _Note_
+    > 📘 *Note*
     >
     > *The UKIMS or pre-registration number requirements are only applicable to B2B shipments.*
   </Tab>
@@ -109,9 +109,9 @@ To align with the Windsor Framework changes, customers using the Sapient system 
   </Tab>
 </Tabs>
 
-> 🚧 _Important_
->
-> _In the scope of the Windsor Framework changes, you might see some new fields in the API References. Some are carrier specific and some are used by commercial shipments. These new fields are optional and not required for shipments to NI._
+<Accordion title="Additional API Changes" icon="fa-info-circle">
+  In the scope of the Windsor Framework changes, you might see some new fields in the API References. Some are carrier specific and some are used by commercial shipments. These new fields are optional and not required for shipments to NI.
+</Accordion>
 
 ***
 
