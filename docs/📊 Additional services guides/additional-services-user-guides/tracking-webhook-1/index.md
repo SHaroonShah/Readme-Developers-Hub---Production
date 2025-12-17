@@ -58,6 +58,6 @@ In this section, learn how to:
   </Card>
 
   <Card title="Handle Webhook Suspension" href="https://docs.intersoftsapient.net/docs/webhook-suspension" icon="fa-solid fa-dial-max">
-    Manage webhook suspension scenarios
+    Manage and resolve webhook suspension scenarios.
   </Card>
 </Cards>
