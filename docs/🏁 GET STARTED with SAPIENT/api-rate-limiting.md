@@ -22,6 +22,8 @@ next:
 * **Maintains performance**: Ensures consistent API responsiveness for all users
 * **Resource management**: Prevents server overload and service outages
 
+***
+
 ## Understanding TPS
 
 _Transactions per Second (TPS)_ measures how many requests an API can handle per second. This metric helps:
@@ -29,6 +31,8 @@ _Transactions per Second (TPS)_ measures how many requests an API can handle per
 * Determine system capacity and performance limits
 * Predict concurrent user handling capabilities
 * Establish baselines for peak traffic testing
+
+***
 
 ## Best Practices for Handling Rate Limits
 
@@ -42,6 +46,8 @@ _Transactions per Second (TPS)_ measures how many requests an API can handle per
 8. **Test thoroughly**: Simulate high-volume scenarios during development
 9. **Stay updated**: Monitor API provider announcements for policy changes
 10. **Monitor API health**: Use tools to track response times and adjust request rates accordingly
+
+***
 
 ## Intersoft Rate Limiting Policy
 
@@ -57,7 +63,9 @@ Intersoft enforces limits on API calls based on subscription settings, specifica
 >
 > _Some carriers may have additional rate limits beyond Intersoft's policy._
 
-# Frequently asked questions (FAQs)
+***
+
+### Frequently asked questions (FAQs)
 
 <Accordion title="What do I need to do if I need a higher rate limit?">
   The rate limit mentioned in the preceding table is Intersoft specific. Some carriers may have their own rate limits and additional carrier limitations. If you need a higher rate limit than the our existing one, please reach out to our customers solutions team.
