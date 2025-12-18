@@ -187,7 +187,7 @@ Configuring Hurricane services"
     <Callout icon="💡" theme="default">
       ### *Tip*
 
-      *You can also add a new country to the list by selecting the **Add Country** button and configure the desired hurricane services for it on the fly*.
+      *You can also add a new country to the list by selecting the**Add Country** button and configure the desired hurricane services for it on the fly*.
     </Callout>
 
     ***
@@ -198,4 +198,24 @@ Configuring Hurricane services"
 
 ### See also
 
-<br />
+<Cards columns={3}>
+  <Card title="Commodity Code Validations" href="https://docs.intersoftsapient.net/docs/harmonized-system-codes-hs-codes" icon="fa-solid fa-barcode">
+    Learn more about how Hurricane services validate commodity codes.
+  </Card>
+
+  <Card title="Quoted Landed Cost" href="https://docs.intersoftsapient.net/docs/brexituknorthernirelandandeurope" icon="fa-solid fa-money-bill-wave">
+    Understand the quoted landed cost in cross-border e-commerce.
+  </Card>
+
+  <Card title="Prohibited and Restricted Items" href="https://docs.intersoftsapient.net/docs/prohibited-and-restricted-items" icon="fa-solid fa-ban">
+    Check the list of prohibited and restricted items.
+  </Card>
+
+  <Card title="Export Codes Details" href="https://docs.intersoftsapient.net/docs/prohibited-and-restricted-codes-and-explanation" icon="fa-solid fa-file-export">
+    Explore export codes for prohibited and restricted items.
+  </Card>
+
+  <Card title="Import Code Details" href="https://docs.intersoftsapient.net/docs/prohibited-and-restricted-codes-and-explanation-1" icon="fa-solid fa-file-import">
+    Discover import codes for prohibited and restricted items.
+  </Card>
+</Cards>
