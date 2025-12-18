@@ -22,7 +22,7 @@ In SAPIENT, while [configuring the Hurricane commerce service](https://docs.inte
 
 <Columns layout="auto">
   <Column>
-    <Cards columns={1}>
+    <Cards columns={2}>
       <Card title="Global Lists" icon="fa-solid fa-globe">
         Information sourced from the United Nations and other international bodies.
       </Card>
