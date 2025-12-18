@@ -54,7 +54,7 @@ The following tables contains the export codes returned by the Hurricane LCE.
 
 ### See also
 
-<Cards columns={3}>
+<Cards columns={2}>
   <Card title="Commodity Code Validations" href="https://docs.intersoftsapient.net/docs/harmonized-system-codes-hs-codes" icon="fa-solid fa-barcode">
     Learn more about how Hurricane services validate commodity codes.
   </Card>
