@@ -68,8 +68,6 @@ The following tables contains the import codes returned by the Hurricane LCE.
 
 ### See also
 
-<br />
-
 <Cards columns={2}>
   <Card title="Commodity Code Validations" href="https://docs.intersoftsapient.net/docs/harmonized-system-codes-hs-codes" icon="fa-solid fa-barcode">
     Learn more about how Hurricane services validate commodity codes.
