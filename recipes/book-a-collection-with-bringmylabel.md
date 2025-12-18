@@ -63,9 +63,9 @@ namespace MCSS.CodeForRecipes.Recipes
 						var shipmentRequest = new RestRequest("/v4/shipments/rm", Method.Post);
 						shipmentRequest.AddJsonBody(new
 						{
-    				ShipmentInformation = new
-    				{
-       					Action = "Process",
+    						ShipmentInformation = new
+    						{
+       							Action = "Process",
                     ContentType = "NDX",
                     ServiceCode = "TSN",
                     DescriptionOfGoods = "Clothes",
