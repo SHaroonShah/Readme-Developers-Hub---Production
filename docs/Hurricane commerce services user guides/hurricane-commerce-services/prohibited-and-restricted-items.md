@@ -45,7 +45,7 @@ The compliance API provides a standalone interface for the end user to check if 
 
 ### See also
 
-<Cards columns={3}>
+<Cards columns={2}>
   <Card title="Commodity Code Validations" href="https://docs.intersoftsapient.net/docs/harmonized-system-codes-hs-codes" icon="fa-solid fa-barcode">
     Learn more about how Hurricane services validate commodity codes.
   </Card>
