@@ -82,7 +82,7 @@ Selecting Hurricane services"
   <ToggleListItem title={<strong>5. Enable Hurricane services </strong>} icon="fa-rocket">
     <br />
 
-    If you wish to select the **Enable Prohibited Items check on shipment creation** or **Enable Denied Parties check on shipment creation** options, then a **DENIED PARTIES AND PROHIBITED ITEMS COUNTRIES [COUNTER]** table is displayed with the following columns.
+    If you wish to select the **Enable Prohibited Items check on shipment creation** or **Enable Denied Parties check on shipment creation** options, then a **DENIED PARTIES AND PROHIBITED ITEMS COUNTRIES \[COUNTER]** table is displayed with the following columns.
 
     <Image
       align="center"
@@ -187,7 +187,7 @@ Configuring Hurricane services"
     <Callout icon="💡" theme="default">
       ### *Tip*
 
-      *You can also add a new country to the list by selecting the**Add Country** button and configure the desired hurricane services for it on the fly*.
+      *You can also add a new country to the list by selecting the **Add Country** button and configure the desired hurricane services for it on the fly*.
     </Callout>
 
     ***
