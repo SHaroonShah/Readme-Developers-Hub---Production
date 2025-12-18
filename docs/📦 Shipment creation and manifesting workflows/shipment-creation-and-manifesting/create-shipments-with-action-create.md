@@ -40,6 +40,6 @@ If you do not want the <Glossary>tracking number</Glossary> returned until you s
 
 ### API Recipe
 
-To view a step-by-step process on how to process the shipments that are created with the action "Create," refer to the following API recipe:
+To view a step-by-step guide on how to process the shipments that are created with the action "Create," refer to the following API recipe:
 
 <Recipe slug="process-shipment-created-with-the-action-create" title="Process shipment created with the action &#x22;Create&#x22;" />
