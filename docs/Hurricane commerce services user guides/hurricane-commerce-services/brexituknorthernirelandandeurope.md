@@ -18,13 +18,7 @@ next:
 ---
 <Image align="center" border={true} src="https://files.readme.io/da57719cc32502c64211e5e633a756ba6c2a110aebef12d763a10cff64c017e3-Duty_and_tax.png" className="border" />
 
-<br />
 
-<Columns layout="auto">
-  <Column>
-    <Image align="center" border={true} src="https://files.readme.io/da57719cc32502c64211e5e633a756ba6c2a110aebef12d763a10cff64c017e3-Duty_and_tax.png" />
-  </Column>
-</Columns>
 
 <Cards columns={2}>
   <Card title="Understanding Quoted Landed Cost" icon="fa-solid fa-money-bill-wave">
