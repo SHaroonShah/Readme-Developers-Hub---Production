@@ -91,7 +91,9 @@ Selecting Hurricane services"
       alt=">
 Configuring Hurricane services"
     />
-<br />
+
+    <br />
+
     <Table align={["center","left"]}>
       <thead>
         <tr>
@@ -179,11 +181,13 @@ Configuring Hurricane services"
         </tr>
       </tbody>
     </Table>
-<br />
+
+    <br />
+
     <Callout icon="💡" theme="default">
       ### *Tip*
 
-      *You can also add a new country to the list by selecting the**Add Country** button and configure the desired hurricane services for it on the fly*.
+      *You can also add a new country to the list by selecting the **Add Country** button and configure the desired hurricane services for it on the fly*.
     </Callout>
 
     ***
