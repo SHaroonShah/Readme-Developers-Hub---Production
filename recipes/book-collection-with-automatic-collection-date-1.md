@@ -70,7 +70,7 @@ namespace MCSS.CodeForRecipes.Recipes
                     WeightUnitOfMeasure = "KG",
                     DimensionsUnitOfMeasure = "CM",
                     CurrencyCode = "GBP"
-                },
+            },
 
                 Shipper = new
                 {
