@@ -64,7 +64,7 @@ To learn more about the Hurricane commerce services and how it works with the SA
   <Card title="Import Code Details" href="https://docs.intersoftsapient.net/docs/prohibited-and-restricted-codes-and-explanation-1" icon="fa-solid fa-file-import">
     Discover import codes for prohibited and restricted items.
   </Card>
-<Card title="Denied Parties" href="https://docs.intersoftsapient.net/docs/prohibited-and-restricted-codes-and-explanation-1" icon="fa-solid fa-file-import">
+<Card title="Denied Parties" href="https://docs.intersoftsapient.net/docs/denied-parties" icon="fa-solid fa-file-import">
     Check the lists of internationally and nationally denied parties, as well as countries where items are prohibited..
   </Card>
 </Cards>
