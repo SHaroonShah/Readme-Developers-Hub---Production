@@ -43,23 +43,47 @@ The following tables contains the import codes returned by the Hurricane LCE.
     *In the following table, codes that are marked with an asterisk (\*) are considered as advisory*
   </Callout>
 
-<Image align="center" border={false} src="https://files.readme.io/ea5a778-image.png" />
+  <Image align="center" src="https://files.readme.io/ea5a778-image.png" />
 
-<Image align="center" border={false} src="https://files.readme.io/0006496-image.png" />
+  <Image align="center" src="https://files.readme.io/0006496-image.png" />
 
-<Image align="center" border={false} src="https://files.readme.io/9ee9ca3-image.png" />
+  <Image align="center" src="https://files.readme.io/9ee9ca3-image.png" />
 
-<Image align="center" border={false} src="https://files.readme.io/6f88685-image.png" />
+  <Image align="center" src="https://files.readme.io/6f88685-image.png" />
 
-<Image align="center" border={false} src="https://files.readme.io/c74381a-image.png" />
+  <Image align="center" src="https://files.readme.io/c74381a-image.png" />
 
-<Image align="center" border={false} src="https://files.readme.io/06d9c3f-image.png" />
+  <Image align="center" src="https://files.readme.io/06d9c3f-image.png" />
 
-<Image align="center" border={false} src="https://files.readme.io/e161630-image.png" />
+  <Image align="center" src="https://files.readme.io/e161630-image.png" />
 
-<Image align="center" border={false} src="https://files.readme.io/808b38c-image.png" />
+  <Image align="center" src="https://files.readme.io/808b38c-image.png" />
 
-<Image align="center" border={false} src="https://files.readme.io/54f0f3b-image.png" />
+  <Image align="center" src="https://files.readme.io/54f0f3b-image.png" />
 
-<Image align="center" border={false} src="https://files.readme.io/722d388-image.png" />
+  <Image align="center" src="https://files.readme.io/722d388-image.png" />
 </Accordion>
+
+***
+
+### See also
+
+<br />
+
+<Cards columns={2}>
+  <Card title="Commodity Code Validations" href="https://docs.intersoftsapient.net/docs/harmonized-system-codes-hs-codes" icon="fa-solid fa-barcode">
+    Learn more about how Hurricane services validate commodity codes.
+  </Card>
+
+  <Card title="Quoted Landed Cost" href="https://docs.intersoftsapient.net/docs/brexituknorthernirelandandeurope" icon="fa-solid fa-money-bill-wave">
+    Understand the quoted landed cost in cross-border e-commerce.
+  </Card>
+
+  <Card title="Prohibited and Restricted Items" href="https://docs.intersoftsapient.net/docs/prohibited-and-restricted-items" icon="fa-solid fa-ban">
+    Check the list of prohibited and restricted items.
+  </Card>
+
+  <Card title="Export Codes Details" href="https://docs.intersoftsapient.net/docs/prohibited-and-restricted-codes-and-explanation" icon="fa-solid fa-file-export">
+    Explore export codes for prohibited and restricted items.
+  </Card>
+</Cards>
