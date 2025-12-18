@@ -25,23 +25,23 @@ With this fast and effective API service, you can either validate your current d
 
 <Cards columns={2}>
   <Card title="Validate and Match" icon="fa-check-circle">
-    Validate and match HS code and description
+    Validate and match HS code and description.
   </Card>
 
   <Card title="Export Codes" icon="fa-file-export">
-    Provide “most likely” or “suitable” 10-digit export codes
+    Provide “most likely” or “suitable” 10-digit export codes.
   </Card>
 
   <Card title="Import Codes" icon="fa-file-import">
-    Provide “most likely” or "suitable" 10-digit import codes
+    Provide “most likely” or "suitable" 10-digit import codes.
   </Card>
 
   <Card title="Generate Description" icon="fa-file-alt">
-    Generate a suitable description based on provided HS6
+    Generate a suitable description based on provided HS6.
   </Card>
 
   <Card title="Generate HS6" icon="fa-code">
-    Generate “most likely” or “suitable” HS6 based on provided description
+    Generate “most likely” or “suitable” HS6 based on provided description.
   </Card>
 </Cards>
 
