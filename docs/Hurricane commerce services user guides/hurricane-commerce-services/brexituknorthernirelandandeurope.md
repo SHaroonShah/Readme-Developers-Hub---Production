@@ -44,7 +44,7 @@ next:
 
 ### See also
 
-<Cards columns={3}>
+<Cards columns={2}>
   <Card title="Commodity Code Validations" href="https://docs.intersoftsapient.net/docs/harmonized-system-codes-hs-codes" icon="fa-solid fa-barcode">
     Learn more about how Hurricane services validate commodity codes.
   </Card>
@@ -61,4 +61,3 @@ next:
     Discover import codes for prohibited and restricted items.
   </Card>
 </Cards>
-
