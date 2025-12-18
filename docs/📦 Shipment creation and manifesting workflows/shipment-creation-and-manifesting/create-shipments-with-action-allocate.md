@@ -40,6 +40,6 @@ If no value is set for this action in the **Create Shipment** request, then the 
 
 ### API recipe
 
-To view a step-by-step process on how to process the shipments that are created with the action "Allocate," refer to the following API recipe:
+To view a step-by-step guide on how to process the shipments that are created with the action "Allocate," refer to the following API recipe:
 
 <Recipe slug="recipe-titleprocess-shipment-created-with-the-action-allocate" title="Process shipment created with the action &#x22;Allocate&#x22;" />
