@@ -36,11 +36,14 @@ Explore the classifications and conditions for prohibited and restricted import 
 
 The following tables contains the import codes returned by the Hurricane LCE.
 
-<Callout icon="💡" theme="default">
-  ### _Tip_
+<br />
 
-  _In the following table, codes that are marked with an asterisk (*) are considered as advisory_
-</Callout>
+<Accordion title="Restricted Export Codes" icon="exclamation-triangle">
+  <Callout icon="💡" theme="default">
+    ### *Tip*
+
+    *In the following table, codes that are marked with an asterisk (\*) are considered as advisory*
+  </Callout>
 
 <Image align="center" border={false} src="https://files.readme.io/ea5a778-image.png" />
 
@@ -61,3 +64,6 @@ The following tables contains the import codes returned by the Hurricane LCE.
 <Image align="center" border={false} src="https://files.readme.io/54f0f3b-image.png" />
 
 <Image align="center" border={false} src="https://files.readme.io/722d388-image.png" />
+</Accordion>
+
+
