@@ -184,7 +184,7 @@ namespace MCSS.CodeForRecipes.Recipes
 
 						// Cancel Collection
 						var cancelCollectionRequest = new RestRequest($"v4/collections/rm/{shipmentId}/cancel", Method.Put);
-          var cancelCollectionResponse = await client.PutAsync(cancelCollectionRequest);
+          	var cancelCollectionResponse = await client.PutAsync(cancelCollectionRequest);
         }
     }
 }
