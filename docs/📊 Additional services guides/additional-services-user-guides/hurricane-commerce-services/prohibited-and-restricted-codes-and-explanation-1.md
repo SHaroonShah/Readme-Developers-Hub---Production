@@ -36,35 +36,35 @@ Restricted import codes apply to products that can be imported but with specific
 
 > 💡 *Tip*: *In the following table, codes that are marked with an asterisk (\*) are considered as advisory*
 
-<Columns layout="auto">
-  <Column>
+<Cards columns="3">
+  <Card title="Code 1" href="#" icon="file-code">
     <Image align="center" src="https://files.readme.io/ea5a778-image.png" />
-  </Column>
-  <Column>
+  </Card>
+  <Card title="Code 2" href="#" icon="file-code">
     <Image align="center" src="https://files.readme.io/0006496-image.png" />
-  </Column>
-  <Column>
+  </Card>
+  <Card title="Code 3" href="#" icon="file-code">
     <Image align="center" src="https://files.readme.io/9ee9ca3-image.png" />
-  </Column>
-  <Column>
+  </Card>
+  <Card title="Code 4" href="#" icon="file-code">
     <Image align="center" src="https://files.readme.io/6f88685-image.png" />
-  </Column>
-  <Column>
+  </Card>
+  <Card title="Code 5" href="#" icon="file-code">
     <Image align="center" src="https://files.readme.io/c74381a-image.png" />
-  </Column>
-  <Column>
+  </Card>
+  <Card title="Code 6" href="#" icon="file-code">
     <Image align="center" src="https://files.readme.io/06d9c3f-image.png" />
-  </Column>
-  <Column>
+  </Card>
+  <Card title="Code 7" href="#" icon="file-code">
     <Image align="center" src="https://files.readme.io/e161630-image.png" />
-  </Column>
-  <Column>
+  </Card>
+  <Card title="Code 8" href="#" icon="file-code">
     <Image align="center" src="https://files.readme.io/808b38c-image.png" />
-  </Column>
-  <Column>
+  </Card>
+  <Card title="Code 9" href="#" icon="file-code">
     <Image align="center" src="https://files.readme.io/54f0f3b-image.png" />
-  </Column>
-  <Column>
+  </Card>
+  <Card title="Code 10" href="#" icon="file-code">
     <Image align="center" src="https://files.readme.io/722d388-image.png" />
-  </Column>
-</Columns>
+  </Card>
+</Cards>
