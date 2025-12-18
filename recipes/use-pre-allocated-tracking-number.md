@@ -127,7 +127,7 @@ namespace MCSS.CodeForRecipes.Recipes
                         DeclaredWeight = 1.5,
                         DeclaredValue =  98.99,
                         Dimensions = new
-                     {
+                     		{
                             Length = 40,
                             Width = 30,
                             Height = 20
