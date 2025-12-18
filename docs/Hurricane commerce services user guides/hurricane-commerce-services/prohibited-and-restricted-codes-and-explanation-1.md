@@ -36,8 +36,6 @@ Explore the classifications and conditions for prohibited and restricted import 
 
 The following tables contains the import codes returned by the Hurricane LCE.
 
-<br />
-
 <Accordion title="Restricted Export Codes" icon="exclamation-triangle">
   <Callout icon="💡" theme="default">
     ### *Tip*
@@ -65,5 +63,3 @@ The following tables contains the import codes returned by the Hurricane LCE.
 
 <Image align="center" border={false} src="https://files.readme.io/722d388-image.png" />
 </Accordion>
-
-
