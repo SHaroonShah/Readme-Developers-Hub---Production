@@ -40,7 +40,7 @@ With this fast and effective API service, you can either validate your current d
     Generate a suitable description based on provided HS6.
   </Card>
 
-  <Card title="Generate HS6" icon="fa-code">
+  <Card title="Generate HS6" icon="fa-code" align="center">
     Generate “most likely” or “suitable” HS6 based on provided description.
   </Card>
 </Cards>
