@@ -55,8 +55,7 @@ Accurate HS code data not only facilitates smooth processing of your data by cus
 
 ### See also
 
-<Cards columns={3}>
-
+<Cards columns={2}>
   <Card title="Quoted Landed Cost" href="https://docs.intersoftsapient.net/docs/brexituknorthernirelandandeurope" icon="fa-solid fa-money-bill-wave">
     Understand the quoted landed cost in cross-border e-commerce.
   </Card>
