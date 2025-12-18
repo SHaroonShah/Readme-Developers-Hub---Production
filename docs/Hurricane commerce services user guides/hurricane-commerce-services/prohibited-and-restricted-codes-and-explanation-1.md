@@ -17,20 +17,20 @@ next:
 Explore the classifications and conditions for prohibited and restricted import codes, including examples and advisory notes.
 
 <Cards columns="2">
-  <Card title="Prohibited Export Codes" icon="fa-solid fa-ban">
+  <Card title="Prohibited Import Codes" icon="fa-solid fa-ban">
     Prohibited import codes are associated with <Glossary>product</Glossary>(s) that cannot be imported under any circumstances. Few of the examples are:
 
-  * Illegal drugs or controlled substances
-  * Pirated products
-  * Certain firearms, ammunitions, and others.
+    * Illegal drugs or controlled substances
+    * Pirated products
+    * Certain firearms, ammunitions, and others.
   </Card>
 
-  <Card title="Restricted Export Codes" icon="fa-solid fa-exclamation-triangle">
+  <Card title="Restricted Import Codes" icon="fa-solid fa-exclamation-triangle">
     Restricted import codes apply to products that can be imported but with specific limitations, this often includes needing permits, licenses, or compliance with particular regulations. Few examples of restricted items includes the following:
 
-  * Agricultural products (like certain fruits, vegetables, or meats) from specific countries.
-  * Dual-use goods (items that can be used for both civilian and military applications).
-  * Pharmaceuticals or medical devices that require regulatory approvals.
+    * Agricultural products (like certain fruits, vegetables, or meats) from specific countries.
+    * Dual-use goods (items that can be used for both civilian and military applications).
+    * Pharmaceuticals or medical devices that require regulatory approvals.
   </Card>
 </Cards>
 
