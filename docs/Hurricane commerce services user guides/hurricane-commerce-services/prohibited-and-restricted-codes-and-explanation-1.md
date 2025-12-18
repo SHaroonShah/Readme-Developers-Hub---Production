@@ -34,19 +34,7 @@ Explore the classifications and conditions for prohibited and restricted import 
   </Card>
 </Cards>
 
-Prohibited import codes are associated with <Glossary>product</Glossary>(s) that are banned from being imported into a country. The examples are:
-
-* Illegal drugs or controlled substances
-* Pirated products
-* Certain firearms, ammunitions, and others.
-
-Restricted import codes apply to products that can be imported but with specific limitations, this often includes needing permits, licenses, or compliance with particular regulations. Examples of restricted items includes the following:
-
-* Agricultural products (like certain fruits, vegetables, or meats) from specific countries.
-* Dual-use goods (items that can be used for both civilian and military applications).
-* Pharmaceuticals or medical devices that require regulatory approvals.
-
-The following table contains the import codes returned by the Hurricane LCE.
+The following tables contains the import codes returned by the Hurricane LCE.
 
 <Callout icon="💡" theme="default">
   ### _Tip_
