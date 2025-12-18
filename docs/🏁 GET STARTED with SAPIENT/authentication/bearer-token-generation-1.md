@@ -38,6 +38,8 @@ Generating a bearer token is essential for securely managing access to APIs, all
   </Card>
 </Cards>
 
+***
+
 ### Generating bearer token
 
 To generate the bearer token, perform the steps as explained in the following procedure:
@@ -65,7 +67,8 @@ To generate the bearer token, perform the steps as explained in the following pr
     After successfully logging in, on your workspace toolbar, select **New** > **HTTP**. Alternatively, on your workspace, select **+** tab to add a new HTTP request tab.
 
     <Image align="center" border={true} src="https://files.readme.io/93a14a1a00ff5ad67a4e5ad4a74677828b0e364b445c378ee24cd5795fe6acd5-New_HTTP_request_option.png" alt="Creating new HTTP request in Postman" />
-***
+
+    ***
   </ToggleListItem>
 
   <br />
@@ -128,6 +131,8 @@ To generate the bearer token, perform the steps as explained in the following pr
     ***
   </ToggleListItem>
 </ToggleList>
+
+***
 
 ## Understanding response
 
