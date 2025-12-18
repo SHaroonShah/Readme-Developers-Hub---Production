@@ -18,9 +18,13 @@ next:
 
 ***
 
+## Overview
+
 There are some significant challenges faced by the retailers, including the accurate calculation of duties, taxes, and fees associated with shipping goods internationally.This is where Hurricane commerce services comes in. The company has developed a suite of tools that help retailers and postal operators comply with international regulations and requirements related to cross-border e-commerce.
 
 Their solutions use machine learning algorithms and data analysis to accurately classify products, calculate duties and taxes, and identify prohibited or restricted items that may be subject to customs scrutiny.
+
+## Integrated services
 
 The Hurricane services have been [integrated into the SAPIENT APIs](https://api.test.intersoftsapient.net/docs/v4/api/index.html#tag/Hurricane-Services) to perform the following operations:
 
