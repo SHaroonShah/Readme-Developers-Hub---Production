@@ -55,8 +55,6 @@ Accurate HS code data not only facilitates smooth processing of your data by cus
 
 ### See also
 
-<br />
-
 <Cards columns={3}>
 
   <Card title="Quoted Landed Cost" href="https://docs.intersoftsapient.net/docs/brexituknorthernirelandandeurope" icon="fa-solid fa-money-bill-wave">
@@ -73,13 +71,5 @@ Accurate HS code data not only facilitates smooth processing of your data by cus
 
   <Card title="Import Code Details" href="https://docs.intersoftsapient.net/docs/prohibited-and-restricted-codes-and-explanation-1" icon="fa-solid fa-file-import">
     Discover import codes for prohibited and restricted items.
-  </Card>
-</Cards>
-
-<Banner isInline={true} message="Ready to integrate?" color="#ffb600" textColor="#ffffff" fontSize="20px" fontWeight="bold" width="120px" />
-
-<Cards>
-  <Card title="Configure Hurricane Commerce Services" href="https://docs.intersoftsapient.net/docs/configure-hurricane-commerce-service#/versions" icon="fa-solid fa-hurricane">
-    Seamlessly connect with Hurricane services on SAPIENT and manage your cross-border shioments.
   </Card>
 </Cards>
