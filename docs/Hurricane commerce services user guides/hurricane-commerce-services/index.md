@@ -36,12 +36,30 @@ Hurricane commerce services has quickly become a leader in the field of cross-bo
 
 ***
 
-## Further reading
+## Get started
 
 To learn more about the Hurricane commerce services and how it works with the SAPIIENT API, refer to the following sections:
 
-* [Commodity code validations](https://docs.intersoftsapient.net/docs/harmonized-system-codes-hs-codes)
-* [Quoted landed cost](https://docs.intersoftsapient.net/docs/brexituknorthernirelandandeurope)
-* [Prohibited and restricted items](https://docs.intersoftsapient.net/docs/prohibited-and-restricted-items)
-* [Export codes details for prohibited and restricted items](https://docs.intersoftsapient.net/docs/prohibited-and-restricted-codes-and-explanation)
-* [Import code details for prohibited and restricted items](https://docs.intersoftsapient.net/docs/prohibited-and-restricted-codes-and-explanation-1)
+<Cards columns={2}>
+  <Card title="Commodity Code Validations" href="https://docs.intersoftsapient.net/docs/harmonized-system-codes-hs-codes" icon="barcode">
+    Learn more about how Hurricane services validate commodity codes.
+  </Card>
+
+  <Card title="Quoted Landed Cost" href="https://docs.intersoftsapient.net/docs/brexituknorthernirelandandeurope" icon="money-bill-wave">
+    Understand the quoted landed cost in cross-border e-commerce.
+  </Card>
+
+  <Card title="Prohibited and Restricted Items" href="https://docs.intersoftsapient.net/docs/prohibited-and-restricted-items" icon="ban">
+    Check the list of prohibited and restricted items.
+  </Card>
+
+  <Card title="Export Codes Details" href="https://docs.intersoftsapient.net/docs/prohibited-and-restricted-codes-and-explanation" icon="file-export">
+    Explore export codes for prohibited and restricted items.
+  </Card>
+
+  <Card title="Import Code Details" href="https://docs.intersoftsapient.net/docs/prohibited-and-restricted-codes-and-explanation-1" icon="file-import">
+    Discover import codes for prohibited and restricted items.
+  </Card>
+</Cards>
+
+<br />
