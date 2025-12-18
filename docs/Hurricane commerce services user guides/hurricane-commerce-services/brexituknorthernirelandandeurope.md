@@ -1,7 +1,7 @@
 ---
 title: Quoted landed cost
 excerpt: >-
-  Quoted landed cost is the total cost of a product once it has arrived at its
+  _Quoted landed cost_ is the total cost of a product once it has arrived at its
   destination. It includes the product price, shipping fees, custom duties,
   taxes, and any other fees incurred during transit. Accurate calculation of the
   quoted landed cost is essential for pricing and profitability in cross-border
