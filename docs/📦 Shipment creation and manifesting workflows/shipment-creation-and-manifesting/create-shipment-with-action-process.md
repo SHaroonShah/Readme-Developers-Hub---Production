@@ -54,6 +54,6 @@ To use the Process action in your [Create Shipment](https://docs.intersoftsapien
 
 ### API recipe
 
-To view a step-by-step process on how to process the shipments that are created with the action "Process," refer to the following API recipe:
+To view a step-by-step guide on how to process the shipments that are created with the action "Process," refer to the following API recipe:
 
 <Recipe slug="process-shipments-created-with-the-action-process" title="Process shipment created with the action “Process”" />
