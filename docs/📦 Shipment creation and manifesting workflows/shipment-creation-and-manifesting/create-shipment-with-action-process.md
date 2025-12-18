@@ -29,7 +29,7 @@ next:
 
 ## How Process action works
 
-To use the Process action in your [Create Shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm) request:
+To use the Process action in your [Create Shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm) request, refer to the following instructions and flow:
 
 <Tabs>
   <Tab title="API call">
