@@ -69,7 +69,7 @@ namespace MCSS.CodeForRecipes.Recipes
                     ContentType = "NDX",
                     ServiceCode = "CRL1",
                     DescriptionOfGoods = "Clothes",
-					ShipmentDate = DateTime.Now.ToString("yyyy-MM-dd"),
+										ShipmentDate = DateTime.Now.ToString("yyyy-MM-dd"),
                     WeightUnitOfMeasure = "KG",
                     DimensionsUnitOfMeasure = "CM"
                 },
@@ -94,7 +94,7 @@ namespace MCSS.CodeForRecipes.Recipes
                     }
                 },
                 Packages = new[]
-            {
+            		{
                     new
                     {
                         PackageType = "Parcel",
