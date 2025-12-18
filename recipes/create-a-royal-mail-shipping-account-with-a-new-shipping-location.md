@@ -95,30 +95,33 @@ namespace MCSS.CodeForRecipes.Recipes
             // retrieve and store the created identifiers for future use (or use your alias's).
             var shippingAccountId = shippingAccountResponse.ShippingAccountId;
           	var shippingLocationId = shippingAccountResponse.ShippingLocationId;
+          					public class ShippingAccountResponse
+						{
+						/// <summary>
+						/// The SAPIENT Identifier assigned to the new shipping account.
+						/// </summary>
+						public Guid ShippingAccountId { get; set; }
+
+						/// <summary>
+						/// The SAPIENT Identifier assigned to the new shipping location.
+						/// </summary>
+						public Guid ShippingLocationId { get; set; }
+						}
+
+						public record TokenResponse
+						{
+						/// <summary>
+						/// The Access Token
+						/// </summary>
+						[JsonPropertyName("access_token")]
+           	public string AccessToken { get; init;}
+          
         }
     }
 }
 
-					public class ShippingAccountResponse
-					{
-					/// <summary>
-					/// The SAPIENT Identifier assigned to the new shipping account.
-					/// </summary>
-					public Guid ShippingAccountId { get; set; }
 
-					/// <summary>
-					/// The SAPIENT Identifier assigned to the new shipping location.
-					/// </summary>
-					public Guid ShippingLocationId { get; set; }
-					}
-
-					public record TokenResponse
-					{
-					/// <summary>
-					/// The Access Token
-					/// </summary>
-					[JsonPropertyName("access_token")]
-					public string AccessToken { get; init; }
+				
 ```
 
 ```json Response Example
