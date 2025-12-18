@@ -69,7 +69,7 @@ To learn more about the Hurricane commerce services and how it works with the SA
 <Banner isInline={true} message="Ready to integrate?" color="#ffb600" textColor="#ffffff" fontSize="20px" fontWeight="bold" width="120px" />
 
 <Cards>
-  <Card title="Configure Hurricane Commerce Services" href="https://docs.intersoftsapient.net/docs/prohibited-and-restricted-codes-and-explanation-1" icon="fa-solid fa-hurricane">
+  <Card title="Configure Hurricane Commerce Services" href="https://docs.intersoftsapient.net/docs/configure-hurricane-commerce-service#/versions" icon="fa-solid fa-hurricane">
     Seamlessly connect with Hurricane services on SAPIENT and manage your cross-border shioments.
   </Card>
 </Cards>
