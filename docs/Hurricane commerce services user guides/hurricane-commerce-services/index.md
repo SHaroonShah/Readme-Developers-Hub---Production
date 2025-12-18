@@ -44,7 +44,7 @@ Hurricane commerce services has quickly become a leader in the field of cross-bo
 
 To learn more about the Hurricane commerce services and how it works with the SAPIIENT API, refer to the following sections:
 
-<Cards columns={2}>
+<Cards columns={3}>
   <Card title="Commodity Code Validations" href="https://docs.intersoftsapient.net/docs/harmonized-system-codes-hs-codes" icon="fa-solid fa-barcode">
     Learn more about how Hurricane services validate commodity codes.
   </Card>
