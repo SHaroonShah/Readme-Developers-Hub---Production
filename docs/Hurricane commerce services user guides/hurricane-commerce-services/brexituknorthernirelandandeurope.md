@@ -27,7 +27,7 @@ next:
 </Columns>
 
 <Cards columns={2}>
-  <Card title="Understanding Quoted Landed Cost" icon="info-circle">
+  <Card title="Understanding Quoted Landed Cost" icon="fa-solid fa-money-bill-wave">
     Calculating accurate landed cost is hugely complex with each country. Since each country sets their own levels on the value of goods that can be imported before the taxes and duties are payable, they apply their own rules for the level of tax and duty on different types of goods.
   </Card>
 
