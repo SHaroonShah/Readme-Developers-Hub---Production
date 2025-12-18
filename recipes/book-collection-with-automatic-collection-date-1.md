@@ -60,8 +60,8 @@ namespace MCSS.CodeForRecipes.Recipes
 						var shipmentRequest = new RestRequest("/v4/shipments/rm", Method.Post);
 						shipmentRequest.AddJsonBody(new
 						{
-    				ShipmentInformation = new
-    				{
+    					ShipmentInformation = new
+    					{
         				Action = "Process",
                     ContentType = "NDX",
                     ServiceCode = "TSN",
@@ -70,7 +70,7 @@ namespace MCSS.CodeForRecipes.Recipes
                     WeightUnitOfMeasure = "KG",
                     DimensionsUnitOfMeasure = "CM",
                     CurrencyCode = "GBP"
-            },
+            	},
 
                 Shipper = new
                 {
