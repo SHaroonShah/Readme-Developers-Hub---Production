@@ -14,7 +14,7 @@ namespace MCSS.CodeForRecipes.Recipes
     using RestSharp;
     using MCSS.CodeForRecipes.Schema;
 
-	public class ManifestPickedShipments
+		public class ManifestPickedShipments
     {
         public async Task RunTheCodeAsync()
         {
@@ -90,7 +90,7 @@ namespace MCSS.CodeForRecipes.Recipes
                     }
                 },
                 Packages = new[]
-            {
+            		{
                     new
                     {
                         PackageType = "Parcel",
