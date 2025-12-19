@@ -51,7 +51,7 @@ next:
   </Card>
 
   <Card title="" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/an-post#/" Width="200">
-    <Image align="center" src="https://files.readme.io/ceca828b433cacc09b0543bef2b7f4de9c7a2189af47d307aeea1899c57f9dd5-An_post_logo_white.png" width="160px" alt="thumbnail" />
+    <Image align="center" border={false} width="160px" src="https://files.readme.io/d9abe19c227f2929cd54060e73918e919883e231b2bc5fcc2648d48fd0e0d6f2-An_post_logo_white.png" />
   </Card>
 
   <Card title="" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/dx#/" Width="200">
@@ -109,6 +109,6 @@ next:
   </Card>
 </Cards>
 
-<Image align="center" border={false} src="https://files.readme.io/d9abe19c227f2929cd54060e73918e919883e231b2bc5fcc2648d48fd0e0d6f2-An_post_logo_white.png" />
+<Image align="center" border={false} width="160px" src="https://files.readme.io/d9abe19c227f2929cd54060e73918e919883e231b2bc5fcc2648d48fd0e0d6f2-An_post_logo_white.png" />
 
 <br />
