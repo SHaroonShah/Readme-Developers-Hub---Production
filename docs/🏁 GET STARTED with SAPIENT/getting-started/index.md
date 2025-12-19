@@ -47,7 +47,7 @@ next:
   </Card>
 
   <Card title="" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/royal-mail#/" Width="200">
-    <Image align="center" src="https://files.readme.io/804406868b0a577f006ad0e27f26795c08b533faccf39d7c0c30e47c9d56f7a7-image.png" width="140px" />
+    <Image align="center" border={false} src="https://files.readme.io/20e86384381d8267381c8f8a73fd2b0ec4a625d0f0325533f2551f43afa20d5a-RM_TEST_LOGO.png" />
   </Card>
 
   <Card title="" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/an-post#/" Width="200">
@@ -108,5 +108,7 @@ next:
     > See our 99.9% uptime API status
   </Card>
 </Cards>
+
+<Image align="center" border={false} src="https://files.readme.io/20e86384381d8267381c8f8a73fd2b0ec4a625d0f0325533f2551f43afa20d5a-RM_TEST_LOGO.png" />
 
 <br />
