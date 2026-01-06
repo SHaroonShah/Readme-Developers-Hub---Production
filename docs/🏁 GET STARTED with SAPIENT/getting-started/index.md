@@ -88,6 +88,23 @@ next:
 </Cards>
 
 <Banner isInline={true} message="Featured Content" color="#ffb600" textColor="#ffffff" fontSize="20px" fontWeight="bold" width="120px" />
+<Cards columns={4}>
+  <Card title="Webhooks" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/getting-started-1#/" icon="fa-solid fa-webhook" target="_blank">
+    Get real-time updates on shipment status by sending notifications to the user's system.
+  </Card>
+
+  <Card title="Hurricane Commerce Services" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/system-user-guides#/" icon="fa-solid fa-hurricane">
+    Get logistics support for cross-border shipments via Hurricane Commerce Services
+  </Card>
+
+  <Card title="PUDO service" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/shipment-creation-and-manifesting#/" icon="fa-solid fa-arrow-progress">
+    Learn about creating shipments and manifesting
+  </Card>
+
+  <Card title="Activate Integration" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/integration-activation" icon="fa-solid fa-circle-play">
+    Seamlessly connect with our existing carriers and manage your shipping operations from a single platform.
+  </Card>
+</Cards>
 
 <Banner isInline={true} message="" color="#ffb600" textColor="#ffffff" fontSize="14px" fontWeight="bold" />
 
