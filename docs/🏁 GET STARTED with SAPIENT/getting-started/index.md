@@ -102,7 +102,7 @@ next:
     Get logistics support for cross-border shipments via Hurricane Commerce Services
   </Card>
 
-  <Card title="PUDO service" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/shipment-creation-and-manifesting#/" icon="fa-solid fa-arrow-progress">
+  <Card title="PUDO service" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/shipment-creation-and-manifesting#/" icon="fa-solid fa-store">
     Use the Royal Mail pick up and drop-off services for a conveninent out-of-home collection or return of your items.
   </Card>
 </Cards>
