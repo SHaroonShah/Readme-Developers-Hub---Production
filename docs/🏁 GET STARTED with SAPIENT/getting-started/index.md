@@ -107,8 +107,6 @@ next:
   </Card>
 </Cards>
 
-<Banner isInline={true} message="" color="#ffb600" textColor="#ffffff" fontSize="14px" fontWeight="bold" />
-
 <Banner isInline={true} message="Support" color="#ffb600" textColor="#ffffff" fontSize="20px" fontWeight="bold" width="120px" />
 
 <Banner isInline={true} message="" color="#ffb600" textColor="#ffffff" fontSize="14px" fontWeight="bold" />
