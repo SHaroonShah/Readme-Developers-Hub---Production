@@ -19,7 +19,7 @@ next:
       slug: shipping-account-setup-3
       title: Evri shipping account setup
 ---
-<Image align="center" width="140px" src="https://files.readme.io/49cf864b835a4e2de7c4ebfd3cea85e552a3a27790c9dd755e39162cdb71c63e-image.png" />
+<Image align="center" border={false} width="140px" src="https://files.readme.io/5f47bbfece5dfa6b92a239bca05c7a58e433200896d66f591e03ec7de4c6b17f-EVRi_logo_white.png" />
 
 ***
 
