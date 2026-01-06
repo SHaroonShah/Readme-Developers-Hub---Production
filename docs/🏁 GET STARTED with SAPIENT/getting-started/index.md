@@ -92,6 +92,9 @@ next:
   <Card title="Webhooks" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/getting-started-1#/" icon="fa-solid fa-webhook" target="_blank">
     Get real-time updates on shipment status by sending notifications to the user's system.
   </Card>
+ <Card title="Intersoft Tracking Events and Milestones" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/integration-activation" icon="fa-solid fa-circle-play">
+    View a comprehensive structure of the milestones, event codes, and events that occur throughout the shipping journey of a shipment.
+  </Card>
 
   <Card title="Hurricane Commerce Services" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/system-user-guides#/" icon="fa-solid fa-hurricane">
     Get logistics support for cross-border shipments via Hurricane Commerce Services
@@ -101,9 +104,7 @@ next:
     Use the Royal Mail pick up and drop-off services for a conveninent out-of-home collection or return of your items.
   </Card>
 
-  <Card title="Tracking Webhook" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/integration-activation" icon="fa-solid fa-circle-play">
-    Seamlessly connect with our existing carriers and manage your shipping operations from a single platform.
-  </Card>
+ 
 </Cards>
 
 <Banner isInline={true} message="" color="#ffb600" textColor="#ffffff" fontSize="14px" fontWeight="bold" />
