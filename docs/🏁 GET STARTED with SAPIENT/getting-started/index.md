@@ -96,15 +96,15 @@ next:
     Get real-time updates on shipment status by sending notifications to the user's system.
   </Card>
 
-  <Card title="Intersoft Tracking Events and Milestones" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/integration-activation" icon="fa-solid fa-chart-line-up">
+  <Card title="Intersoft Tracking Events and Milestones" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/tracking-events-and-milestones" icon="fa-solid fa-chart-line-up">
     View a comprehensive structure of the milestones, event codes, and events that occur throughout the shipping journey of a shipment.
   </Card>
 
-  <Card title="Hurricane Commerce Services" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/system-user-guides#/" icon="fa-solid fa-hurricane">
+  <Card title="Hurricane Commerce Services" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/hurricane-commerce-services" icon="fa-solid fa-hurricane">
     Get logistics support for cross-border shipments via Hurricane Commerce Services
   </Card>
 
-  <Card title="PUDO service" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/shipment-creation-and-manifesting#/" icon="fa-solid fa-store">
+  <Card title="PUDO service" href="https://docs.intersoftsapient.net/docs/use-local-collect-shipment-service" icon="fa-solid fa-store">
     Use the Royal Mail pick up and drop-off services for a conveninent out-of-home collection or return of your items.
   </Card>
 </Cards>
