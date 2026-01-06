@@ -98,10 +98,10 @@ next:
   </Card>
 
   <Card title="PUDO service" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/shipment-creation-and-manifesting#/" icon="fa-solid fa-arrow-progress">
-    Learn about creating shipments and manifesting
+    Use the Royal Mail pick up and drop-off services for a conveninent out-of-home collection or return of your items.
   </Card>
 
-  <Card title="Activate Integration" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/integration-activation" icon="fa-solid fa-circle-play">
+  <Card title="Tracking Webhook" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/integration-activation" icon="fa-solid fa-circle-play">
     Seamlessly connect with our existing carriers and manage your shipping operations from a single platform.
   </Card>
 </Cards>
