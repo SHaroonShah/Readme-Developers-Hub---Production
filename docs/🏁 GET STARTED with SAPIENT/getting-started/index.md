@@ -32,7 +32,7 @@ next:
     Learn about creating shipments and manifesting
   </Card>
 
-  <Card title="Activate Integration" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/additional-services-user-guides#/" icon="fa-solid fa-circle-play">
+  <Card title="Activate Integration" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/integration-activation" icon="fa-solid fa-circle-play">
     Explore our additional services that helps businesses navigate complex logistics challenges
   </Card>
 </Cards>
