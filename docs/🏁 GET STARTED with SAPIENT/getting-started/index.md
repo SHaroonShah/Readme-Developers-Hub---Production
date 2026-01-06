@@ -109,6 +109,4 @@ next:
   </Card>
 </Cards>
 
-<Image align="center" border={false} width="160px" src="https://files.readme.io/d9abe19c227f2929cd54060e73918e919883e231b2bc5fcc2648d48fd0e0d6f2-An_post_logo_white.png" />
-
 <br />
