@@ -94,7 +94,7 @@ next:
     Get real-time updates on shipment status by sending notifications to the user's system.
   </Card>
 
-  <Card title="Intersoft Tracking Events and Milestones" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/integration-activation" icon="fa-solid fa-circle-play">
+  <Card title="Intersoft Tracking Events and Milestones" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/integration-activation" icon="fa-solid fa-chart-line-up">
     View a comprehensive structure of the milestones, event codes, and events that occur throughout the shipping journey of a shipment.
   </Card>
 
