@@ -33,7 +33,7 @@ next:
   </Card>
 
   <Card title="Activate Integration" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/integration-activation" icon="fa-solid fa-circle-play">
-    Explore our additional services that helps businesses navigate complex logistics challenges
+    Seamlessly connect with our existing carriers and manage your shipping operations from a single platform.
   </Card>
 </Cards>
 
