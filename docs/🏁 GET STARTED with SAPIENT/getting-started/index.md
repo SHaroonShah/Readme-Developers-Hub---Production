@@ -46,10 +46,6 @@ next:
     <Image align="center" src="https://files.readme.io/a9ee760d85555af384cfd0575c7bc99d51a1aada6dec34c8bfb588907ccd9422-RM_favicon.png" width="160px" alt="thumbnail" />
   </Card>
 
-  <Card title="" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/royal-mail#/" Width="200">
-    <Image align="center" src="https://files.readme.io/20e86384381d8267381c8f8a73fd2b0ec4a625d0f0325533f2551f43afa20d5a-RM_TEST_LOGO.png" />
-  </Card>
-
   <Card title="" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/an-post#/" Width="200">
     <Image align="center" src="https://files.readme.io/d9abe19c227f2929cd54060e73918e919883e231b2bc5fcc2648d48fd0e0d6f2-An_post_logo_white.png" width="160px" />
   </Card>
@@ -63,7 +59,7 @@ next:
   </Card>
 
   <Card title="" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/evri#/" Width="200">
-    <Image align="center" src="https://files.readme.io/49cf864b835a4e2de7c4ebfd3cea85e552a3a27790c9dd755e39162cdb71c63e-image.png" width="150px" alt="thumbnail" />
+    <Image align="center" src="https://files.readme.io/49cf864b835a4e2de7c4ebfd3cea85e552a3a27790c9dd755e39162cdb71c63e-image.png" width="130px" alt="thumbnail" />
   </Card>
 
   <Card title="" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/fedex#/" Width="200">
