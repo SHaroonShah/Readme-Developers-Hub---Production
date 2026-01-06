@@ -51,7 +51,7 @@ next:
   </Card>
 
   <Card title="" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/dx#/" Width="200">
-    <Image align="center" src="https://files.readme.io/160d38a06e94f72bb4eed1107cfb82c795f7bb915566bfa72eb3b8b3698bf38d-DX_express_logo.png" width="160px" alt="thumbnail" />
+    <Image align="center" border={false} width="120px" src="https://files.readme.io/1728c137b6a42c2b650407df865d731d4129f8ecedf13cd78f4fd195352ac537-EVRi_logo_white.png" width="160px" alt="thumbnail" />
   </Card>
 
   <Card title="" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/dx-freight#/" Width="200">
