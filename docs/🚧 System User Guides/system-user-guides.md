@@ -14,7 +14,7 @@ link:
 metadata:
   robots: index
 ---
-## Quick Access Guides
+## Quick access guides
 
 <Cards columns={3}>
   <Card title="Authorisation" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/authorisation#/" icon="fa-solid fa-badge-check">
@@ -30,7 +30,7 @@ metadata:
   </Card>
 </Cards>
 
-## Operations & Processing
+## Operations & processing
 
 <Cards columns={2}>
   <Card title="Search Shipments" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/shipment-search#/" icon="fa-solid fa-magnifying-glass">
@@ -42,7 +42,7 @@ metadata:
   </Card>
 </Cards>
 
-## System Management
+## System management
 
 <Cards>
   <Card title="Maintenance" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/maintenance-guides#/" icon="fa-solid fa-screwdriver-wrench">
