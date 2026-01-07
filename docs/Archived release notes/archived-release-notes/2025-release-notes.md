@@ -11,6 +11,68 @@ metadata:
 next:
   description: ''
 ---
+## Royal Mail international signed label template updates
+
+The Royal Mail International Signed label template has been updated to show "International Registered" as the service indicator, in line with Universal Postal Union (UPU) requirements.
+
+<Image align="center" border={true} caption="Example of the Royal Mail label template showing International Registered" src="https://files.readme.io/1115ec228fc85aa1c30af36ab1d13632f0660c52345e74e1a547f4d3ba75409a-image.png" width="300px" />
+
+## Asynchronous shipment manifesting
+
+A fully asynchronous shipment manifesting process has been introduced across the SAPIENT API and UI, allowing customers to submit manifest requests without waiting for completion.
+
+* **API endpoints**: The following two new endpoints have been added to our existing **Manifests** API endpoint.
+  * **Manifest Shipments Async**. To submit the manifest requests to be processed asynchronously. This endpoint accepts the same parameters as the existing [Manifests](https://docs.intersoftsapient.net/reference/post_v4-manifests-carriercode#/) endpoint, excluding the **async** parameter.
+  * **Get Manifest Request Status**: To check the status of the submitted manifest request with optional detailed responses, including manifest images when complete.
+* **Manifest webhook**: To configure a manifest webhook via the UI to receive automatic updates when a manifest request completes or fails, with retry logic and suspension handling.
+* **Manifest via UI**: To get real-time progress on async manifest in a separate pop-up dialog and access to completed manifests through the **Manifest History** page.
+
+## Royal Mail international label templates
+
+The Royal Mail international label templates have been updated to include the recipient contact number to conform with the overseas delivery partners and customs authorities.
+
+<Image align="center" border={false} caption="Example of Royal Mail international label with recipient contact number" src="https://files.readme.io/70bf5e05ef54dc3311da46b04adb7e4e03286cd9146951da7d29ac988553220a-image.png" width="300px" />
+
+## Royal Mail express weekend services
+
+The label template of the following express weekend services has been updated to include the Local Collect instructions. This is done to correctly display the supplement and local collect information for these services
+
+| Service code | Service description      |
+| :----------- | :----------------------- |
+| **FEK**      | express24 Weekend        |
+| **FEQ**      | express24 Weekend Comp 1 |
+| **FER**      | express24 Weekend Comp 2 |
+| **FEU**      | express24 Weekend Comp 3 |
+| **TEH**      | expressAM Weekend        |
+| **TEI**      | expressAM Weekend Comp 1 |
+| **TEJ**      | expressAM Weekend Comp 2 |
+| **TEK**      | expressAM Weekend Comp 3 |
+
+## Royal Mail dimension validations
+
+Dimension validations for Royal Mail International Tracked Heavier, International Commercial, and all domestic services have been removed to minimise the risk of shipment failures.
+
+## Error message enhancements
+
+Several error messages have been updated throughout the system to provide clearer guidance and improve user experience, helping users to resolve common issues more efficiently.
+
+## Swagger documentation updates
+
+The following changes have been made to the swagger documentation:
+
+* The Datastream response example in the Royal Mail create shipments response list has been updated to accurately reflect the new fields, providing improved clarity and alignment with current system functionality.
+* Miscellaneous DX API field descriptions have been updated to reflect the correct usage of the fields while creating the DX shipments in SAPIENT.
+
+## Channel Island shipments validation (coming soon)
+
+Royal Mail shipments from Great Britain to Guernsey will soon be treated as international dutiable. When the destination postcode begins with **GY** and the country code is **GB** or **GG** a <Glossary>CN23</Glossary> customs declaration form will be automatically generated. To ensure compliance, customers will also be required to provide detailed item information, including the **HS code** and **country of origin**.
+
+> 📘 _Note_
+>
+> _This enhancement is currently under development and will be available in the next release._
+
+***
+
 ## Mandatory Registered Billing Postcode for Royal Mail production shipping accounts
 
 The **Registered Billing Postcode** field in both the **Add Shipping Account** UI and API is now required in the following scenarios:
