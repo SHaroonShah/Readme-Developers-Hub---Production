@@ -24,7 +24,7 @@ next:
     Build your integration with our API solution with minimal effort.
   </Card>
 
-  <Card title="System User Guides" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/system-user-guides#/" icon="fa-book-open fa-beat">
+  <Card title="System User Guides" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/system-user-guides#/" icon="fa-book-open">
     Learn how to interact with the SAPIENT UI in the most efficient way
   </Card>
 
@@ -51,7 +51,7 @@ next:
   </Card>
 
   <Card title="" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/dx#/" Width="200">
-    <Image align="center" border={false} width="130px" src="https://files.readme.io/160d38a06e94f72bb4eed1107cfb82c795f7bb915566bfa72eb3b8b3698bf38d-DX_express_logo.png" width="160px" alt="thumbnail" />
+    <Image align="center" src="https://files.readme.io/160d38a06e94f72bb4eed1107cfb82c795f7bb915566bfa72eb3b8b3698bf38d-DX_express_logo.png" width="160px" alt="thumbnail" />
   </Card>
 
   <Card title="" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/dx-freight#/" Width="200">
