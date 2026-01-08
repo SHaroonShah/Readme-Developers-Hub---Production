@@ -13,7 +13,7 @@ In SAPIENT, you can create a shipping account with DPD UK, and then link it to t
 
 > 🚧 _Important_
 >
-> _Before you can set up a shipping account, make sure you have [enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) for DX Express._
+> _Before you can set up a shipping account, make sure you have [enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) for DPD UK._
 
 To add a shipping account for DPD UK in SAPIENT, follow the instructions as explained in the following procedure.
 
@@ -182,5 +182,6 @@ Once done, you have now successfully added a shipping account. You can now start
 
 ### See also
 
-* [DX Express sign-off](https://docs.intersoftsapient.net/docs/dx-freight-sign-off-copy)
 * [Edit shipping account](https://docs.intersoftsapient.net/docs/edit-shipping-account)
+
+<br />
