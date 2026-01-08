@@ -63,9 +63,7 @@ In this section, learn now to:
 
 * <Anchor label="Add a DPD UK shipping account" target="_blank" href="https://docs.intersoftsapient.net/docs/add-dpd-uk-shipping-account">Add a DPD UK shipping account</Anchor>
 * <Anchor label="Add a DPD UK tracking account" target="_blank" href="https://docs.intersoftsapient.net/docs/tracking-1">Add a DPD UK tracking account</Anchor>
-* [Handle DX rate limiting](https://docs.intersoftsapient.net/docs/dx-rate-limit)
-* [Set up DX API credentials](https://docs.intersoftsapient.net/docs/setting-up-dx-api-credentials)
 
 > 📘 _Note_
 >
-> _For more information on how to activate the DX Express integration, refer to the [Activate integration](https://docs.intersoftsapient.net/docs/integration-activation#/) section._
+> _For more information on how to activate the DPD UK integration, refer to the [Activate integration](https://docs.intersoftsapient.net/docs/integration-activation#/) section._
