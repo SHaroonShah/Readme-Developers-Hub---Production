@@ -20,9 +20,9 @@ In SAPIENT, you can add tracking accounts for DPD UK to enhance visibility, impr
 > 2. _Enabled the <Anchor label="tracking integration" target="_blank" href="https://docs.intersoftsapient.net/docs/integration-activation">tracking integration</Anchor> with DPD UK._
 > 3. _Set up your<Glossary>tracking webhook</Glossary>. For more information on how to set up a tracking webhook, refer to the [Create tracking webhook](https://docs.intersoftsapient.net/docs/create-tracking-webhook) section. This is a one-time activity, you do not have to do this every time you add a tracking account._
 >
-> _If you wish to receive the tracking events via Intersoft using the tracking account you have created, make sure it is is activated._
+> _If you wish to receive the tracking events via Intersoft using the tracking account you have created, make sure it is is activated by the DPD UK team._
 
-To add a tracking account for DX Freight in SAPIENT, follow the steps as explained in the following procedure.
+To add a tracking account for DPD UK in SAPIENT, follow the steps as explained in the following procedure.
 
 1. On the SAPIENT **Home** page, in the left navigation panel, select **API** > **Webhooks**. On the page that opens, select the **Tracking Accounts** tab.
 
@@ -34,7 +34,7 @@ To add a tracking account for DX Freight in SAPIENT, follow the steps as explain
 
 3. On the **Add Tracking account** page that appears, in the **DETAILS** block, enter the necessary information as explained in the following table.
 
-<Image align="center" alt="Adding tracking account" border={true} caption="Adding tracking account" src="https://files.readme.io/71660774643cc7fc552e07d51be76065dea9e76a94cbc63f0c29dfb7761d44e1-DXF_Add_Tracking_account_page.png" width="500px" />
+<Image align="center" alt="Adding tracking account" border={true} caption="Adding tracking account" src="https://files.readme.io/0360cf8a986002fef3a87b152306907f660fb5c7f85e0f328e4f830b03b8a818-Adding_DPD_UK_tracking_account.png" width="500px" />
 
 <AsteridkForMandatoryElements />
 
@@ -58,7 +58,7 @@ To add a tracking account for DX Freight in SAPIENT, follow the steps as explain
       </td>
 
       <td>
-        From the dropdown menu, select DXF - DX Freight as your carrier option.
+        From the dropdown menu, select DPD UK as your carrier option.
       </td>
     </tr>
 
@@ -78,4 +78,6 @@ To add a tracking account for DX Freight in SAPIENT, follow the steps as explain
 
 4. After entering all the necessary information, select ![](https://files.readme.io/2b94d65d1e560fcc17ab8e2c3e2af0c1e52b9dad2a1484f80ad7652b734ba1be-Add_tracking_account_button_2.png).
 
-Once done, the DX Express tracking account is added successfully and appears in the **Tracking Accounts** list. You can now receive the tracking information on your <Glossary>shipments</Glossary>.
+Once done, the DPD UK tracking account is added successfully and appears in the **Tracking Accounts** list. You can now receive the tracking information on your <Glossary>shipments</Glossary>.
+
+<br />
