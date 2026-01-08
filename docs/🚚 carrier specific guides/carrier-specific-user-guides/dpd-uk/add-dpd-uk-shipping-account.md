@@ -177,7 +177,7 @@ Once done, you have now successfully added a shipping account. You can now start
 
 > 📘 _Note_
 >
-> _Shipping account(s) can be added and managed via API. For more information, refer to the<Anchor label="API References" target="_blank" href="https://docs.intersoftsapient.net/reference/get_v4-carriers">API References</Anchor> section._
+> _Shipping account(s) can be added and managed via API. For more information, refer to the <Anchor label="API References" target="_blank" href="https://docs.intersoftsapient.net/reference/get_v4-carriers">API References</Anchor> section._
 
 ### See also
 
