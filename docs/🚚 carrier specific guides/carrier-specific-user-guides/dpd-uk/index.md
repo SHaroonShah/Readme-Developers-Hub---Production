@@ -62,7 +62,7 @@ The following API services are provided by the DPD UK integration:
 In this section, learn now to:
 
 * <Anchor label="Add a DPD UK shipping account" target="_blank" href="https://docs.intersoftsapient.net/docs/add-dpd-uk-shipping-account">Add a DPD UK shipping account</Anchor>
-* [Add a DX tracking account](https://docs.intersoftsapient.net/docs/tracking-1)
+* <Anchor label="Add a DPD UK tracking account" target="_blank" href="https://docs.intersoftsapient.net/docs/tracking-1">Add a DPD UK tracking account</Anchor>
 * [Handle DX rate limiting](https://docs.intersoftsapient.net/docs/dx-rate-limit)
 * [Set up DX API credentials](https://docs.intersoftsapient.net/docs/setting-up-dx-api-credentials)
 
