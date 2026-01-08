@@ -36,20 +36,20 @@ namespace MCSS.CodeForRecipes.Recipes
 			// Try and get the token from the cache. Retrieve from authentication server if it doesn't exist & cache it.
 			if (!Cache.TryGetValue(AUTH_CACHE_KEY, out string cachedToken))
 			{
-				using var authClient = new RestClient(authenticationUrl);
-				var authRequest = new RestRequest("/connect/token", Method.Post);
+					using var authClient = new RestClient(authenticationUrl);
+					var authRequest = new RestRequest("/connect/token", Method.Post);
 
-				authRequest.AddParameter("grant_type", "client_credentials");
-				authRequest.AddParameter("client_id", clientId);
-				authRequest.AddParameter("client_secret", clientSecret);
+					authRequest.AddParameter("grant_type", "client_credentials");
+					authRequest.AddParameter("client_id", clientId);
+					authRequest.AddParameter("client_secret", clientSecret);
 
-				var authResponse = await authClient.PostAsync<TokenResponse>(authRequest);
+					var authResponse = await authClient.PostAsync<TokenResponse>(authRequest);
 
-				// Store the token in the cache, calculate the cache expiry from the tokens expiry
-				var tokenValidForSeconds = GetTokenExpiryInSeconds(authResponse);
-				Cache.Set(AUTH_CACHE_KEY, authResponse.AccessToken, TimeSpan.FromSeconds(tokenValidForSeconds));
+					// Store the token in the cache, calculate the cache expiry from the tokens expiry
+					var tokenValidForSeconds = GetTokenExpiryInSeconds(authResponse);
+					Cache.Set(AUTH_CACHE_KEY, authResponse.AccessToken, TimeSpan.FromSeconds(tokenValidForSeconds));
 
-				token = authResponse.AccessToken;
+					token = authResponse.AccessToken;
 			}
 			else
 			{
