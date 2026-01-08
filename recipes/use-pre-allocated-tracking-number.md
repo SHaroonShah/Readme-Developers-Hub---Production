@@ -51,8 +51,6 @@ namespace MCSS.CodeForRecipes.Recipes
 								token = cachedToken;
 						}
 	
-     
-
             // Setup API Client
             using var client = new RestClient(apiUrl);
             client.AddDefaultHeader("Authorization", "Bearer " + token);
