@@ -57,6 +57,8 @@ The following API services are provided by the DPD UK integration:
 * **Manifest integration** (via SFTP): A crucial API for DPD UK that generates an electronic manifest data file in the SAPIENT's default PDF format and send it to DPD UK via SFTP.
 * **Tracking integration** (via SFTP): Enables data files to be sent via SFTP and received through the SAPIENT tracking webhook.
 
+***
+
 In this section, learn now to:
 
 * [Add a DX shipping account](https://docs.intersoftsapient.net/docs/shipping-accounts-5)
