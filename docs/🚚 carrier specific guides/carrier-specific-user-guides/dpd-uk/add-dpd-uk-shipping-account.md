@@ -65,9 +65,9 @@ To add a shipping account for DPD UK in SAPIENT, follow the instructions as expl
       </td>
 
       <td>
-        Enter the account number for DPD UK.
+        Enter the account number, which is the DPD UK client ID.
 
-        _`Note`: If you already have an account with DX that is actively being used, and if you wish to receive tracking via Intersoft, then you need to request a new account number in order to integrate with Intersoft. This request can be made to your DX account manager._
+        _`Note`: If you already have an account with DPD UK that is actively being used, and if you wish to receive tracking via Intersoft, then you need to request a new account number in order to integrate with Intersoft. This request can be made to your DPD account manager._
       </td>
     </tr>
 
@@ -129,7 +129,7 @@ To add a shipping account for DPD UK in SAPIENT, follow the instructions as expl
 
 5. In the **CARRIER DETAILS** block, enter the necessary information as explained in the following table.
 
-<Image align="center" alt="Entering carrier details" border={true} caption="Entering carrier details" src="https://files.readme.io/fccccd4dc5ad4bc5f6a8bb8f7447d45b031f644466df17c80c3a9770a498fa66-carrier_details_block_DX.png" width="400px" />
+<Image align="center" alt="Entering carrier details" border={true} caption="Entering carrier details" src="https://files.readme.io/7c33d0683d772640711106d7353fba4e51c9a321c1bcab6c03953d9fcd3b8570-DPD_UK_Carrier_Details_block.png" width="400px" />
 
 <AsteridkForMandatoryElements />
 
@@ -149,25 +149,23 @@ To add a shipping account for DPD UK in SAPIENT, follow the instructions as expl
   <tbody>
     <tr>
       <td>
-        **DX Username***
+        **Authorisation code***
       </td>
 
       <td>
-        Enter your DX username.
+        Enter a unique 8-digit identifier as your authorisation code for DPD UK. This code is used to validate or link the manifest to the correct shipper or contract.   
 
-        _`Note`: This information is your DX API credentials. For more information on how to create the API credentials, refer to the__[Set up DX API credentials](https://docs.intersoftsapient.net/docs/setting-up-dx-api-credentials) ** section._
+        _`Note`: This identifier is included in the manifest file names._
       </td>
     </tr>
 
     <tr>
       <td>
-        **DX Password***
+        **SLID***
       </td>
 
       <td>
-        Enter your DX password.
-
-        _`Note`: This information is your DX API credentials. For more information on how to create the API credentials, refer to the__[Set up DX API credentials](https://docs.intersoftsapient.net/docs/setting-up-dx-api-credentials)  ** section._
+        Enter the account number provided by DPD UK.
       </td>
     </tr>
   </tbody>
@@ -179,7 +177,7 @@ Once done, you have now successfully added a shipping account. You can now start
 
 > 📘 _Note_
 >
-> _Shipping account(s) can be added and managed via API. For more information, refer to the[API References](https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts) section._
+> _Shipping account(s) can be added and managed via API. For more information, refer to the<Anchor label="API References" target="_blank" href="https://docs.intersoftsapient.net/reference/get_v4-carriers">API References</Anchor> section._
 
 ### See also
 
