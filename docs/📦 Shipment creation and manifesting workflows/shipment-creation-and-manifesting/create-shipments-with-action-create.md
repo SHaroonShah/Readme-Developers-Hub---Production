@@ -16,16 +16,30 @@ next:
 ---
 If you do not want the <Glossary>tracking number</Glossary> returned until you send the [Print Label](https://docs.intersoftsapient.net/reference/get_v4-shipments-printlabel-rm-shipmentid) request, you can create <Glossary>shipments</Glossary> using the **Create** action.
 
-> 🚧 *Important*
+> 🚧 _Important_
 >
-> *You can only manifest the shipments for which you have printed the labels.*
+> _You can only manifest the shipments for which you have printed the labels._
 
-If no value is set for this action in the [CreateShipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm) request, then the shipments are created with the “**Process**” status.
+## How Create action works
 
-This functionality is included for backwards compatibility to allow existing customers to migrate to the new platform.
+<Cards columns={2}>
+  <Card title="Delayed tracking numbers" icon="clock">
+    Tracking numbers are not returned until you send the Print Label request, giving you flexibility in your shipping workflow.
+  </Card>
+
+  <Card title="Process status default" icon="cogs">
+    If no action value is specified in the CreateShipment request, shipments are automatically created with "Process" status for backwards compatibility.
+  </Card>
+</Cards>
+
+### Workflow process
 
 <Image align="center" alt="Example flow of creating shipment with Create action" border={false} caption="Workflow for creating shipments with Create action" src="https://files.readme.io/822c8b02ea907f91f7549757093ce56cf1c8823b6b310fe73a1b7874474bc8f1-Create_flow.png" />
 
-To view a step-by-step process on how to process the shipments that are created with the action "Create," refer to the following API recipe:
+***
 
-<TutorialTile emoji="🦉" slug="process-shipment-created-with-the-action-create" title="Process shipment created with the action &#x22;Create&#x22;" />
+### API Recipe
+
+To view a step-by-step guide on how to process the shipments that are created with the action "Create," refer to the following API recipe:
+
+<Recipe slug="process-shipment-created-with-the-action-create" title="Process shipment created with the action &#x22;Create&#x22;" />
