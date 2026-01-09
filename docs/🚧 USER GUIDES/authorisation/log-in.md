@@ -70,7 +70,7 @@ On the application header of the home page, you can access additional account op
     Learn how to update the password for enhanced security.
   </Card>
 
-  <Card title="Log out" icon="fa-solid fa-arrow-right-from-bracket">
+  <Card title="Log out" href="https://docs.intersoftsapient.net/v4.02/docs/log-out" icon="fa-solid fa-arrow-right-from-bracket">
     Learn how to exit the system securely.
   </Card>
 </Cards>
