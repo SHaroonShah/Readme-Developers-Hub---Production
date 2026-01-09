@@ -27,14 +27,17 @@ OAuth2 works by obtaining limited access rights to a resource on behalf of the u
 
 API credentials are used to generate an access token, JWT (JSON Web Token) or bearer token. To generate the token, refer to the [Bearer Token Generation](https://docs.intersoftsapient.net/docs/bearer-token-generation-1) section using the **Try it** function.
 
-> 💡 *Tip*
->
-> *The API credentials are unique for each customer. Keep these credentials safe as they cannot be viewed after being generated. If you lose these credentials you need to generate new ones.*
+<Callout icon="💡" theme="default">
+  ### _Tip_
 
-Please be aware that the token expires after 60 minutes. In such cases, you need to request a new access token to continue making API calls. 
+  _The API credentials are unique for each customer. Keep these credentials safe as they cannot be viewed after being generated. If you lose these credentials you need to generate new ones._
+</Callout>
 
-> 🚧 *Important*
+Please be aware that the token expires after 60 minutes. In such cases, you need to request a new access token to continue making API calls.
+
+> 🚧 _Important_
 >
-> *Make sure you cache the authentication token before requesting a new one*.
+> _Make sure you cache the authentication token before requesting a new one_.
 
 When using the **Try It** function, make sure you are in the **Production** environment and any shipping accounts that you create or use for testing have the <Glossary>account type</Glossary> set to **Sandbox**.
+
