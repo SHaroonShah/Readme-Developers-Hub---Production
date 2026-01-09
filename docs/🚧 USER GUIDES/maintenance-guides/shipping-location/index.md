@@ -14,16 +14,28 @@ metadata:
 next:
   description: ''
 ---
-The following are the primary purposes of a shipping location: 
+<Image align="center" border={false} width="200px" src="https://files.readme.io/b0ac258ea85ca74b41e8de03c2099584280e6cfe1861a0511a92ff8370855499-Add_location_art.png" />
+
+The following are the primary purposes of a shipping location:
 
 * **Origin point**: it acts as the starting point for shipments, where <Glossary>items</Glossary> are collected before being shipped to their final destinations.
 * **Convenience**: these locations provide users with accessible points for sending and receiving <Glossary>package</Glossary>s, which can simplify logistics management for businesses and customers.
 * **Efficiency**: a defined shipping location helps optimize the routing and handling of packages, allowing for better utilization of resources and streamlined workflows.
 
-<Image align="center" width="350px" src="https://files.readme.io/b0ac258ea85ca74b41e8de03c2099584280e6cfe1861a0511a92ff8370855499-Add_location_art.png" />
+## Shipping location management
 
-In this section learn how to: 
+In this section, learn how to mange your shipping locations with these essential operations:
 
-* [Add a shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location)
-* [Edit a shipping location](https://docs.intersoftsapient.net/docs/edit-shipping-location)
-* [Delete a shipping location](https://docs.intersoftsapient.net/docs/delete-shipping-location)
+<Cards columns="3">
+  <Card title="Add Location" href="https://docs.intersoftsapient.net/docs/add-a-shipping-location" icon="Fa- solid fa-plus-circle">
+    Learn how to create and set up a new shipping location in your system.
+  </Card>
+
+  <Card title="Edit Location" href="https://docs.intersoftsapient.net/docs/edit-shipping-location" icon="fa-solid fa-edit">
+    Modify existing shipping location details and settings.
+  </Card>
+
+  <Card title="Delete Location" href="https://docs.intersoftsapient.net/docs/delete-shipping-location" icon="fa-solid fa-trash-alt">
+    Remove shipping locations that are no longer needed.
+  </Card>
+</Cards>
