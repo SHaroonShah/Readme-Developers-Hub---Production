@@ -180,7 +180,7 @@ To set up the manifest webhook connection in SAPIENT, follow the instructions as
 
   <br />
 
-  <ToggleListItem title={<strong>3. Save your configuration </strong>} icon="fa-rocket">
+  <ToggleListItem title={<strong>3. Test your configuration </strong>} icon="fa-rocket">
     <br />
 
     After entering all the necessary details, select ![](https://files.readme.io/dcabcea774e82fdcf39f03bfcdcd2d95520a6aead65cb9bd47e7ccc32a8c085c-Test_button.png) to check if the setup is configured correctly. Once the test has been completed, and the setup configuration is correct, the webhook is activated and the following success response is displayed:
@@ -212,7 +212,7 @@ If for some reason, the connectivity test fails, the following message is displa
 > _The webhook only works if it is in the**Active** state. Any changes made to the webhook configuration deactivates it. Therefore, make sure the toggle is set to **Active** whenever the configuration is updated._
   </ToggleListItem>
 <br />
-<ToggleListItem title={<strong>5. Confirm setup</strong>} icon="fa-rocket">
+<ToggleListItem title={<strong>5. Save configuration</strong>} icon="fa-rocket">
     <br />
 
    Select ![](https://files.readme.io/2f9b4304c20f01f6272a39bbdeef71a6abc9242aec6337ed7c3926401517f2f1-save_changes_button_2.png) to confirm the setup completion.
