@@ -8,12 +8,12 @@ excerpt: >-
 deprecated: false
 hidden: false
 icon: fad fa-print-magnifying-glass
+link:
+  new_tab: false
 metadata:
   title: ''
   description: ''
   robots: index
-next:
-  description: ''
 ---
 In SAPIENT, you can search your <Glossary>shipments</Glossary> based on <Glossary>customer</Glossary>, <Glossary>shipping location</Glossary>, and date ranges.
 
