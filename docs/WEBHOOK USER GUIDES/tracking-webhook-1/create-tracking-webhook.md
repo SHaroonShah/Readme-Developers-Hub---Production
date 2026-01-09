@@ -13,178 +13,161 @@ metadata:
 next:
   description: ''
 ---
-The primary purpose of a tracking webhook is to automate the flow of information regarding the status of <Glossary>shipments</Glossary> . Instead of relying on periodic updates (where one system constantly checks another for updates)—webhooks enable instantaneous updates.
+Instead of periodic updates, webhooks provide instantaneous updates, enhancing logistics efficiency with immediate and accurate shipment information.
 
 In SAPIENT, you can set up your <Glossary>tracking webhook</Glossary> connection to enhance the overall efficiency of logistics by ensuring that all stakeholders have immediate and accurate information on their shipments.
 
-To set up the tracking webhook connection in SAPIENT, follow the instructions as explained in the following procedure.
+## How to set up tracking webhook connection
 
-1. On the SAPIENT **Home** page, in the left navigation panel, select **API** > **Webhooks**. In the page that opens,  the **Tracking Webhook** tab is opened by default.
+To set up the tracking webhook connection in SAPIENT, perform the steps as explained in the following procedure.
 
-<Image align="center" alt="Accessing tracking webhook" border={true} caption="Accessing tracking webhook" src="https://files.readme.io/7becde66bf84f680af845714283a1b1f8b8d4a236c27df0d5feea8e22b2fa051-Tracking_webhok_tab.png" />
+<ToggleList>
+  <ToggleListItem title={<strong>1. Access tracking webhook </strong>} icon="fa-rocket">
+    <br />
 
-2. In the **WEBHOOK DETAILS** block of the **Tracking Webhook** tab, enter the necessary information as described in the following table.
+    On the SAPIENT **Home** page, navigate to **API** > **Webhooks** in the left panel. The **Tracking Webhook** tab opens by default.
 
-<Image align="center" className="border" border={true} width="500px" src="https://files.readme.io/9ce50f6d2ac1bc058b72b5232cf2b81a2ed76a909088ca2512d01f617884f1c4-Adding_tracking_webhook.png" />
+    <Image align="center" border={true} src="https://files.readme.io/7becde66bf84f680af845714283a1b1f8b8d4a236c27df0d5feea8e22b2fa051-Tracking_webhok_tab.png" alt="Accessing tracking webhook" />
 
-<AsteridkForMandatoryElements />
+    ***
+  </ToggleListItem>
 
-<Table align={["center","left","left"]}>
-  <thead>
-    <tr>
-      <th>
-        Element
-      </th>
+  <br />
 
-      <th>
-        Basic authentication
-      </th>
+  <ToggleListItem title={<strong>2. Configure webhook details</strong>} icon="fa-rocket">
+    <br />
 
-      <th>
-        OAuth2 authentication
-      </th>
-    </tr>
-  </thead>
+    In the **WEBHOOK DETAILS** block, enter the required information based on your authentication type:
 
-  <tbody>
-    <tr>
-      <td>
-        **Authentication type***
-      </td>
+    <Image align="center" border={true} src="https://files.readme.io/9ce50f6d2ac1bc058b72b5232cf2b81a2ed76a909088ca2512d01f617884f1c4-Adding_tracking_webhook.png" width="500px" />
 
-      <td>
-        From the dropdown menu, if applicable, select the **Basic** authentication type.
+    <br />
 
-        Basic is a simple authentication type built into the HTTP protocol. It involves sending the user's credentials (username and password) in an encoded format (Base64) within an HTTP header.
-      </td>
+    <AsteridkForMandatoryElements />
 
-      <td>
-        From the dropdown menu, if applicable, select the **OAuth2** authentication type.
+    <Tabs>
+      <Tab title="Basic Authentication">
+        **Authentication Type**: Simple HTTP protocol authentication using encoded credentials (Base64)
 
-        oAuth2 is a specific protocol used for authorisation that allows third-party applications to access the user's data without exposing their credentials. It also involves exchanging credentials for an authorisation token, which is then used to authenticate in other API calls.
-      </td>
-    </tr>
+        | Field              | Description                                             |
+        | ------------------ | ------------------------------------------------------- |
+        | **Endpoint URL**\* | Your endpoint URL for connection identification         |
+        | **Username**\*     | Username to identify and authenticate INTERSOFT payload |
+        | **Password**\*     | Password for the specified username                     |
+      </Tab>
 
-    <tr>
-      <td>
-        **Endpoint URL***
-      </td>
+      <Tab title="OAuth2 Authentication">
+        **Authentication Type**: Authorization protocol allowing third-party access without exposing credentials
 
-      <td>
-        Enter your endpoint URL. This is the URL that we use to connect for identification purposes.
-      </td>
+        | Field              | Description                                            |
+        | ------------------ | ------------------------------------------------------ |
+        | **Endpoint URL**\* | Your endpoint URL for connection identification        |
+        | **Token URL**\*    | Endpoint to connect and retrieve security token        |
+        | **Client ID**\*    | Client identifier for INTERSOFT payload authentication |
+        | **Secret**\*       | Secret key for INTERSOFT payload authentication        |
+      </Tab>
+    </Tabs>
 
-      <td>
-        Enter your endpoint URL. This is the URL that we use to connect for identification purposes.
-      </td>
-    </tr>
+    ***
+  </ToggleListItem>
 
-    <tr>
-      <td>
-        **Username***
-      </td>
+  <br />
 
-      <td>
-        Enter your username to identify and authenticate the INTERSOFT payload.
-      </td>
+  <ToggleListItem title={<strong>3. Test your configuration </strong>} icon="fa-rocket">
+    <br />
 
-      <td>
-        ❌ Not applicable
-      </td>
-    </tr>
+    After entering all the necessary details, select ![](https://files.readme.io/dcabcea774e82fdcf39f03bfcdcd2d95520a6aead65cb9bd47e7ccc32a8c085c-Test_button.png) to check if the setup is configured correctly. Once the test has been completed, and the setup configuration is correct, the webhook is activated and the following success response is displayed:
 
-    <tr>
-      <td>
-        **Password***
-      </td>
+    <Image align="center" border={true} src="https://files.readme.io/0994fa6-image.png" width="660px" alt="Success response" />
 
-      <td>
-        Enter the password for the username you entered to identify and authenticate the INTERSOFT payload.
-      </td>
+    <br />
 
-      <td>
-        ❌ Not applicable
-      </td>
-    </tr>
+    Following the success response, a test tracking payload is sent to the webhook as follows:
 
-    <tr>
-      <td>
-        **Token URL***
-      </td>
+    <Image align="center" border={true} src="https://files.readme.io/6b06c9d-image.png" alt="tracking payload response example" />
 
-      <td>
-        ❌ Not applicable
-      </td>
+    <br />
 
-      <td>
-        Enter your token URL. This is an endpoint we use to connect and get the security token.
-      </td>
-    </tr>
+    If for some reason, the connectivity test fails, the following message is displayed:
 
-    <tr>
-      <td>
-        **Client ID***
-      </td>
+    <Image align="center" border={true} src="https://files.readme.io/65a4983-image.png" width="660px" alt="Failed connection response" />
 
-      <td>
-        ❌ Not applicable
-      </td>
+    <br />
 
-      <td>
-        Enter your client ID  to identify and authenticate the INTERSOFT payload.
-      </td>
-    </tr>
+    > 🚧 *Important*
+    >
+    > *The connectivity test fails when SAPIENT is unable to call the configured endpoint with the credentials provided by the customer. To avoid that, it is recommended for the customers to check the credentials and endpoint URL for correctness—update it, if necessary, and try again. If the credentials and URL are correct and the test still fails, then the customers need to check whether the endpoint is working correctly on their side.*
 
-    <tr>
-      <td>
-        **Secret***
-      </td>
+    ***
+  </ToggleListItem>
 
-      <td>
-        ❌ Not applicable
-      </td>
+  <br />
 
-      <td>
-        Enter your secret to identify and authenticate the INTERSOFT payload
-      </td>
-    </tr>
-  </tbody>
-</Table>
+  <ToggleListItem title={<strong>4. Select tracking event type </strong>} icon="fa-rocket">
+    <br />
 
-3. After entering all the necessary details, select ![](https://files.readme.io/dcabcea774e82fdcf39f03bfcdcd2d95520a6aead65cb9bd47e7ccc32a8c085c-Test_button.png) to check if the setup is configured correctly. Once the test has been completed, and the setup configuration is correct, the webhook is activated and the following success response is displayed:
+    Choose your preferred tracking event level from the dropdown:
 
-<Image align="center" alt="Success response" border={true} caption="Success response" src="https://files.readme.io/0994fa6-image.png" width="660px" />
+    <Cards columns={2}>
+      <Card title="Milestones" icon="flag">
+        Receive tracking milestones only, allowing key status updates throughout the shipping journey.
+      </Card>
 
-Following the success response, a test tracking payload is sent to the webhook as follows:
+      <Card title="Full Tracking Events" icon="stream">
+        Receive all tracking events with optional **Received Expired Event** toggle for shipments without tracking numbers after set days.
+      </Card>
+    </Cards>
 
-<Image align="center" alt="tracking payload response example" border={true} caption="tracking payload response example" src="https://files.readme.io/6b06c9d-image.png" />
+    <br />
 
-If for some reason, the connectivity test fails, the following message is displayed:
+    <Callout icon="💡" theme="default">
+      ### *Tip*
 
-<Image align="center" alt="Failed connection response" border={true} caption="Failed connection response" src="https://files.readme.io/65a4983-image.png" width="660px" />
+      *Find detailed lists of milestones and tracking events in the[Tracking events and milestones](https://docs.intersoftsapient.net/docs/tracking-events-and-milestones) section.*
+    </Callout>
 
-> 🚧 _Important_
->
-> _The connectivity test fails when SAPIENT is unable to call the configured endpoint with the credentials provided by the customer. To avoid that, it is recommended for the customers to check the credentials and endpoint URL for correctness—update it, if necessary, and try again. If the credentials and URL are correct and the test still fails, then the customers need to check whether the endpoint is working correctly on their side._
+    ***
+  </ToggleListItem>
 
-<br />
+  <br />
 
-4. Now, from the **Select to receive either Milestones or Full Tracking Events** dropdown, select one of the following options:
-   * **Milestones**: to receive tracking <Glossary>milestones</Glossary> only.
-   * **Full Tracking Events**: to receive <Glossary>all tracking events</Glossary> throughout the shipping journey. Additionally, with this option selected, you can also turn on the **Received Expired Event** toggle  to choose whether you want to receive the expired event or not. This feature is essential for the shipments that have not received a tracking number after a set number of days.
+  <ToggleListItem title={<strong>5. Activate and save </strong>} icon="fa-rocket">
+    <br />
 
-<Callout icon="💡" theme="default">
-  ### _Tip_
+    Turn on the **Active** toggle to enable the webhook
 
-  _A list of milestones and full tracking events can be found in the[Tracking events and milestones](https://docs.intersoftsapient.net/docs/tracking-events-and-milestones) section._
-</Callout>
+    <Image align="center" border={true} src="https://files.readme.io/a76feb6-image.png" width="660px" alt="Activating tracking webhook" />
 
-4. After, turn on the **Active** toggle if you wany to activate the tracking webhook.
+    <br />
 
-<Image align="center" alt="Activating tracking webhook" border={true} caption="Activating tracking webhook" src="https://files.readme.io/a76feb6-image.png" width="660px" />
+    Once activated, click ![Save changes](https://files.readme.io/2f9b4304c20f01f6272a39bbdeef71a6abc9242aec6337ed7c3926401517f2f1-save_changes_button_2.png) to complete setup.
 
-> 🚧 _Important_
->
-> _The webhook only works if it is in the**Active** state. Any changes made to the webhook configuration deactivates it. Therefore, make sure the toggle is set to **Active** whenever the configuration is updated._
+    > 🚧 *Important*
+    >
+    > *The webhook only works in**Active** state. Configuration changes deactivate it, so ensure the toggle is **Active** after any updates.*
 
-5. Select ![](https://files.readme.io/2f9b4304c20f01f6272a39bbdeef71a6abc9242aec6337ed7c3926401517f2f1-save_changes_button_2.png) to confirm the setup completion.
+    ***
+  </ToggleListItem>
+</ToggleList>
+
+***
+
+### See also
+
+<Cards>
+  <Card title="Set Up Tracking Account" href="https://docs.intersoftsapient.net/docs/create-tracking-account" icon="fa-solid fa-alarm-plus">
+    Establish your tracking account for seamless integration.
+  </Card>
+
+  <Card title="Set Up Manifest Webhook" href="https://docs.intersoftsapient.net/docs/manifest-webhook" icon="fa-solid fa-webhook">
+    Enable webhook notifications for manifest-level tracking operations.
+  </Card>
+
+  <Card title="Track Events and Milestones" href="https://docs.intersoftsapient.net/docs/tracking-events-and-milestones" icon="fa-solid fa-chart-line-up">
+    Understand tracking events and milestone data.
+  </Card>
+
+  <Card title="Handle Webhook Suspension" href="https://docs.intersoftsapient.net/docs/webhook-suspension" icon="fa-solid fa-dial-max">
+    Manage and resolve webhook suspension scenarios.
+  </Card>
+</Cards>
