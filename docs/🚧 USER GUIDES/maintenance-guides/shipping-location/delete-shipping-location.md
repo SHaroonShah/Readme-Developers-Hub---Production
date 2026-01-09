@@ -44,7 +44,7 @@ In SAPIENT, you can delete the shipping location to keep the shipping database c
       <ToggleListItem title={<strong>2. Select location to delete</strong>} icon="fa-rocket">
         <br />
 
-        On the **Shipping Locations** page, select the shipping location you want to delete. On the **View Shipping Location \[location name]** form that opens, select the edit button.
+        On the **Shipping Locations** page, select the shipping location you want to delete. On the **View Shipping Location \[location name]** form that opens, select the **Edit Shipping Location** button.
 
         <Image align="center" border={true} src="https://files.readme.io/0ffbf35c04a6aa2b82329f91bca4df861fae2511cfbe07feeee4d9e97827d8c5-Edit_shippig_location_option.png" alt="Selecting option to add shipping location" />
 
