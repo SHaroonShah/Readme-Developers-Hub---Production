@@ -66,7 +66,7 @@ To log in to the SAPIENT system, follow the instructions as explained in the fol
 On the application header of the home page, you can access additional account options by selecting the user profile icon:
 
 <Cards columns={2}>
-  <Card title="Change Password" icon="fa-solid fa-key">
+  <Card title="Change Password" href="https://docs.intersoftsapient.net/v4.02/docs/change-password" icon="fa-solid fa-key">
     Learn how to update the password for enhanced security.
   </Card>
 
