@@ -13,14 +13,40 @@ metadata:
 next:
   description: ''
 ---
-If you operate in a single location with a single account with each <Glossary>carrier</Glossary> , then you may skip this section and set up these areas via the UI.
+## Getting started
 
-🧾 [Add shipping account](https://docs.intersoftsapient.net/docs/add-a-shipping-account)
+<Columns layout="auto">
+  <Column>
+    ### Single Location Setup
 
-📍 [Add shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location)
+    If you operate in a single location with a single account with each <Glossary>carrier</Glossary>, you can set up these areas directly via the UI using the guides below.
+  </Column>
 
-👥 [Add users](https://docs.intersoftsapient.net/docs/add-users-to-your-organisation-to-begin-collaborating-with-your-team)
+  <Column>
+    ### Multi-Location & 3Pi Platforms
 
-🔑 [Create API credentials](https://docs.intersoftsapient.net/docs/create-api-credentials)
+    For 3Pi platforms servicing multiple customers or managing multiple locations with different carrier accounts, incorporate these API functions into your workflow to build automation and minimise manual processes.
+  </Column>
+</Columns>
 
-However, if you operate a 3Pi platform servicing multiple customers or manage a selection of locations with different carrier accounts, you can incorporate these API functions into your workflow to design and build some automation into your own solution to minimise manual processes.
+***
+
+## Essential setup guides
+
+<Cards columns={2}>
+  <Card title="Add Shipping Account" href="https://docs.intersoftsapient.net/docs/add-a-shipping-account" icon="fa-solid fa-plus">
+    Set up and configure carrier shipping accounts for your operations.
+  </Card>
+
+  <Card title="Add Shipping Location" href="https://docs.intersoftsapient.net/docs/add-a-shipping-location" icon="fa-solid fa-map-marker-alt">
+    Configure shipping locations and manage multiple facility setups.
+  </Card>
+
+  <Card title="Add Users" href="https://docs.intersoftsapient.net/docs/add-users-to-your-organisation-to-begin-collaborating-with-your-team" icon="fa-solid fa-users">
+    Add team members and manage user permissions for collaboration.
+  </Card>
+
+  <Card title="Create API Credentials" href="https://docs.intersoftsapient.net/docs/create-api-credentials" icon="fa-solid fa-key">
+    Generate API credentials for automated integrations and workflows.
+  </Card>
+</Cards>
