@@ -15,14 +15,45 @@ metadata:
 next:
   description: ''
 ---
-To sign in to the SAPIENT platform, there several important factors that deals with what you can see and how much you can perform within the system.
+To sign in to the SAPIENT platform, there are several important factors that determine what you can see and how much you can perform within the system.
 
-* The URL of the specific environment: <Glossary>development</Glossary>, <Glossary>test</Glossary>, or <Glossary>production</Glossary> environment.
-* The type of users attempting to access SAPIENT: <Glossary>admin</Glossary> or a <Glossary>customer</Glossary> .
+## Key access requirements
 
-In this section, learn how to: 
+<Cards columns={2}>
+  <Card title="Environment URL" icon="fa-solid fa-globe">
+    You need the specific URL for your target environment:
 
-* [Log in to SAPIENT](https://docs.intersoftsapient.net/docs/log-in)
-* [Change password](https://docs.intersoftsapient.net/docs/change-password)
-* [Reset password](https://docs.intersoftsapient.net/docs/reset-password)
-* [Log out](https://docs.intersoftsapient.net/docs/log-out)
+    * <Glossary>Development</Glossary> environment
+    * <Glossary>Test</Glossary> environment
+    * <Glossary>Production</Glossary> environment
+  </Card>
+
+  <Card title="User Type" icon="fa-solid fa-user">
+    Your access level depends on your user role:
+
+    * <Glossary>Admin</Glossary> users have full system access
+    * <Glossary>Customer</Glossary> users have limited permissions
+  </Card>
+</Cards>
+
+## Authentication actions
+
+Manage your SAPIENT platform access with these essential functions:
+
+<Cards columns={4}>
+  <Card title="Log In" href="https://docs.intersoftsapient.net/docs/log-in" icon="fa-solid fa-arrow-left-to-bracket">
+    Access your SAPIENT account with your credentials.
+  </Card>
+
+  <Card title="Change Password" href="https://docs.intersoftsapient.net/docs/change-password" icon="fa-solid fa-key">
+    Update your current password for enhanced security.
+  </Card>
+
+  <Card title="Reset Password" href="https://docs.intersoftsapient.net/docs/reset-password" icon="fa-solid fa-unlock">
+    Recover access when you have forgotten your password.
+  </Card>
+
+  <Card title="Log Out" href="https://docs.intersoftsapient.net/docs/log-out" icon="fa-solid fa-arrow-right-from-bracket">
+    Safely exit your SAPIENT session.
+  </Card>
+</Cards>
