@@ -21,52 +21,112 @@ next:
       title: Integration Activation
       type: basic
 ---
-# Introduction
+<Banner isInline={true} message="Resources" color="#ffb600" textColor="#ffffff" fontSize="20px" fontWeight="bold" />
 
-APIs play a crucial role in the SAPIENT system by facilitating seamless integration with various shipping carriers, third-party logistics providers, and other eCommerce platforms. This connectivity allows businesses to automate data exchange, streamline workflows, and ensure real-time updates on shipping performance.
+<Banner isInline={true} message="" color="#ffb600" textColor="#ffffff" fontSize="14px" fontWeight="bold" width="120px" />
 
-<Image align="center" border={true} src="https://files.readme.io/82fb0cbe41a890f07d419cd0f39a19ec47336cd51e97fe6969efdb6b26a4d82d-Sapient.png" className="border" />
+<Cards columns={4}>
+  <Card title="Getting Started" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/getting-started-1#/" icon="fa-animation fa-plug" target="_blank">
+    Build your integration with our API solution with minimal effort.
+  </Card>
 
-If you are looking to build an integration, then our API solution will help you incorporate the intelligence of Intersoft SAPIENT into your software with minimal integration effort.
+  <Card title="System User Guides" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/system-user-guides#/" icon="fa-book-open">
+    Learn how to interact with the SAPIENT UI in the most efficient way
+  </Card>
 
-The Intersoft SAPIENT Developers Hub provides both new and current users with a step-by-step guide on how to set up a <Glossary>shipping account</Glossary>, <Glossary>shipments</Glossary>, and get started as a new user. Furthermore, this section covers the vital processes on how the business clients can utilise the API to carry out shipping activities with available carriers, as well as the technical details required to build this integration.
+  <Card title="Workflows" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/shipment-creation-and-manifesting#/" icon="fa-solid fa-arrow-progress">
+    Learn about creating shipments and manifesting
+  </Card>
 
-## Getting started
+  <Card title="Activate Integration" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/integration-activation" icon="fa-solid fa-circle-play">
+    Seamlessly connect with our existing carriers and manage your shipping operations from a single platform.
+  </Card>
+</Cards>
 
-This section outlines the essential information on our APIs and steps to begin utilising the SAPIENT APIs, including setup instructions, authentication processes, and key functionalities that can be accessed through the API and SAPIENT's UI. Whether you are a developer or a business user, this section offers the necessary resources to seamlessly connect and optimise your processes within the SAPIENT platform.
+<Banner isInline={true} message="Carrier Guides" color="#ffb600" textColor="#ffffff" fontSize="20px" fontWeight="bold" />
 
-**Intersoft SAPIENT API** enables you to create and manage shipments, produce labels and customs documentation, generate and print collection manifests. The API also allows you to retrieve reference data such as carriers supported by the platform and the countries where shipments can be sent, maintain your own data required for these, such as adding and managing shipping accounts and <Glossary>shipping location</Glossary> details.
+<Banner isInline={true} message="" color="#ffb600" textColor="#ffffff" fontSize="14px" fontWeight="bold" />
 
-**Intersoft API** is a fully RESTful service implemented using JSON messaging. You, as the customer, are responsible for sending JSON messages and for maintaining the capability of receiving JSON messages in the format described in this documentation.
+<Cards columns="5">
+  <Card title="" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/royal-mail#/" Width="200">
+    <Image align="center" src="https://files.readme.io/a9ee760d85555af384cfd0575c7bc99d51a1aada6dec34c8bfb588907ccd9422-RM_favicon.png" width="160px" alt="thumbnail" />
+  </Card>
 
-<Image align="center" border={false} width="500px" src="https://files.readme.io/c388f57ddfed471dccc9c49befdedf8da79a14260f9ffbbc5e7f5996226f2022-Intersoft_api_art.png" />
+  <Card title="" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/an-post#/" Width="200">
+    <Image align="center" src="https://files.readme.io/d9abe19c227f2929cd54060e73918e919883e231b2bc5fcc2648d48fd0e0d6f2-An_post_logo_white.png" width="160px" />
+  </Card>
 
-### Seamless integration awaits: Get started with SAPIENT
+  <Card title="" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/dx#/" Width="200">
+    <Image align="center" src="https://files.readme.io/160d38a06e94f72bb4eed1107cfb82c795f7bb915566bfa72eb3b8b3698bf38d-DX_express_logo.png" width="160px" alt="thumbnail" />
+  </Card>
 
-Get ready to integrate our powerful API into your existing systems. Whether you are looking to streamline shipping management, monitor performance metrics, or customise your logistics workflows, our APIs provide the flexibility and scalability you need to succeed.
+  <Card title="" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/dx-freight#/" Width="200">
+    <Image align="center" src="https://files.readme.io/9b5162bacf5f3ac36b0200401aa0441bd609545eaf01e789087d520c1455ca64-DX_freight_logo.png" width="155px" alt="thumbnail" />
+  </Card>
 
-Let us dive in and explore how to get started on SAPIENT
+  <Card title="" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/evri#/" Width="200">
+    <Image align="center" src="https://files.readme.io/5f47bbfece5dfa6b92a239bca05c7a58e433200896d66f591e03ec7de4c6b17f-EVRi_logo_white.png" width="100px" alt="thumbnail" />
+  </Card>
 
-* [ ] [Create API credentials](https://docs.intersoftsapient.net/docs/create-api-credentials)
-* [ ] [Activate integration](doc:integration-activation)
-* [ ] [Add users](doc:add-users-to-your-organisation-to-begin-collaborating-with-your-team)
-* [ ] [Add shipping location(s)](https://docs.intersoftsapient.net/docs/add-a-shipping-location)
-* [ ] [Add shipping account(s)](https://docs.intersoftsapient.net/docs/add-a-shipping-account)
+  <Card title="" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/fedex#/" Width="200">
+    <Image align="center" src="https://files.readme.io/88a7599e1a64e2eb5cd20cc992a3a87dc3b68ebb766615ba6766c7f560586e5e-FedEx_White_BG.png" width="160px" alt="thumbnail" />
+  </Card>
 
-> 🚧 _Important_
->
-> _The API requires the user to provide a [Bearer token](https://docs.intersoftsapient.net/docs/bearer-token-generation-1). To learn more about the bearer token and its generation, refer to the [Authentication](https://docs.intersoftsapient.net/docs/authentication) section._
+  <Card title="" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/inpost#/" Width="200">
+    <Image align="center" src="https://files.readme.io/c9a342d05f1245bceed832bf7bb489e46969f9bddf8cb6b92007139484f4cf6b-InPost_logo.png" width="160px" alt="thumbnail" />
+  </Card>
 
-***
+  <Card title="" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/the-delivery-group#/" Width="200">
+    <Image align="center" src="https://files.readme.io/b5aa9b3a487e32e4187f0ceb0350547aed7b781d0e5ceed3af44d7f93124526e-TDG_white_logo.png" width="140px" alt="thumbnail" />
+  </Card>
 
-## Further reading
+  <Card title="" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/ups#/" Width="200">
+    <Image align="center" src="https://files.readme.io/84a4a5263deb06eda05f635353182a78211838764f54b2dd5d50f170cd40cc57-UPS_logo_white.png" width="160px" alt="thumbnail" />
+  </Card>
 
-This section provides you with the complimentary information that you might find useful for further insights into the SAPIENT system.
+  <Card title="" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/yodel#/" Width="200">
+    <Image align="center" src="https://files.readme.io/61c486262839c956e4cc9acbe36948996187ed1caf5a9e2298414d5efc63fd2b-Yodel_logo_white.png" alt="thumbnail" />
+  </Card>
+</Cards>
 
-* [User guides](https://docs.intersoftsapient.net/docs/maintenance-guides)
-* [Shipment creation and manifesting](https://docs.intersoftsapient.net/docs/shipment-creation-and-manifesting)
-* [Additional services](https://docs.intersoftsapient.net/docs/additional-services-user-guides)
-* [Carrier specific guides](https://docs.intersoftsapient.net/docs/carrier-specific-user-guides)
-* [Glossary](https://docs.intersoftsapient.net/docs/glossary-1)
-* [Archived release notes](https://docs.intersoftsapient.net/docs/archived-release-notes)
+<Banner isInline={true} message="Featured Content" color="#ffb600" textColor="#ffffff" fontSize="20px" fontWeight="bold" width="120px" />
 
+<Banner isInline={true} message="" color="#ffb600" textColor="#ffffff" fontSize="14px" fontWeight="bold" />
+
+<Cards columns={2}>
+  <Card title="Webhooks" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/tracking-webhook-1" icon="fa-solid fa-webhook" target="_blank">
+    Get real-time updates on shipment status by sending notifications to the user's system.
+  </Card>
+
+  <Card title="Intersoft Tracking Events and Milestones" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/tracking-events-and-milestones" icon="fa-solid fa-chart-line-up">
+    View a comprehensive structure of the milestones, event codes, and events that occur throughout the shipping journey of a shipment.
+  </Card>
+
+  <Card title="Hurricane Commerce Services" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/hurricane-commerce-services" icon="fa-solid fa-hurricane">
+    Get logistics support for cross-border shipments via Hurricane Commerce Services
+  </Card>
+
+  <Card title="PUDO service" href="https://docs.intersoftsapient.net/docs/use-local-collect-shipment-service" icon="fa-solid fa-store">
+    Use the Royal Mail pick up and drop-off services for a conveninent out-of-home collection or return of your items.
+  </Card>
+</Cards>
+
+<Banner isInline={true} message="Support" color="#ffb600" textColor="#ffffff" fontSize="20px" fontWeight="bold" width="120px" />
+
+<Banner isInline={true} message="" color="#ffb600" textColor="#ffffff" fontSize="14px" fontWeight="bold" />
+
+<Cards columns="3">
+  <Card title="Glossary" href="https://docs.intersoftsapient.net/docs/glossary-1" icon="fa-solid fa-arrow-down-a-z">
+    > Explore industry-wide terms and definitions used in SAPIENT
+  </Card>
+
+  <Card title="Support" href="https://intersoftuk-servicedesk.atlassian.net/servicedesk/customer/portal/1" icon="fa-solid fa-comments-question-check">
+    > Contact our Support Team for assistance.
+  </Card>
+
+  <Card title="Status" href="https://www.readmestatus.com" icon="fa-solid fa-battery-bolt">
+    > See our 99.9% uptime API status
+  </Card>
+</Cards>
+
+<br />
