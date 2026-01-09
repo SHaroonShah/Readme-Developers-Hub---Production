@@ -19,15 +19,13 @@ next:
 The manifest webhook feature has several purposes:
 
 * **Real-time Updates**: to receive immediate notifications about shipment activities or status changes, ensuring that the information is up-to-date.
+* **Automation**: to automate the processing of shipping events, reducing manual work and enhances efficiency.
 * **Integration**: to better integration with various services and APIs by providing a mechanism to push data and initiate workflows based on shipping events.
-* **Error Handling**: to notify systems about issues or failures in manifest processing, allowing for timely corrections.
-
-The Manifests webhook is developed as an alternative to the Get Manifest Status endpoint. Instead of
-calling to retrieve the manifest status and details, you can set up the webhook to receive the manifest details when the manifest request has finished processing.
+* **Error Handling**: to notify systems about issues or failures in shipment processing, allowing for timely corrections.
 
 > 🚧 _Important_
 >
-> _The manifest webhook is only used if you are using the **Manifest Shipments Async** endpoint to manifest asynchronously._
+> _The manifest webhook is only used if you are using the manifest async endpoint to manifest asynchronously._
 
 To set up the manifest webhook connection in SAPIENT, follow the instructions as explained in the following procedure.
 
@@ -167,6 +165,10 @@ To set up the manifest webhook connection in SAPIENT, follow the instructions as
 
 <Image align="center" alt="Success response" border={true} caption="Success response" src="https://files.readme.io/0994fa6-image.png" width="660px" />
 
+Following the success response, a test tracking payload is sent to the webhook as follows:
+
+<Image align="center" alt="tracking payload response example" border={true} caption="tracking payload response example" src="https://files.readme.io/6b06c9d-image.png" />
+
 If for some reason, the connectivity test fails, the following message is displayed:
 
 <Image align="center" alt="Failed connection response" border={true} caption="Failed connection response" src="https://files.readme.io/65a4983-image.png" width="660px" />
@@ -180,81 +182,3 @@ If for some reason, the connectivity test fails, the following message is displa
 > _The webhook only works if it is in the**Active** state. Any changes made to the webhook configuration deactivates it. Therefore, make sure the toggle is set to **Active** whenever the configuration is updated._
 
 5. Select ![](https://files.readme.io/2f9b4304c20f01f6272a39bbdeef71a6abc9242aec6337ed7c3926401517f2f1-save_changes_button_2.png) to confirm the setup completion.
-
-The webhook payload will be sent for manifest requests with a status of both `COMPLETE` and
-`FAILED`.
-
-* If the **manifestStatus** = `COMPLETE`, the webhook payload will be the same as the **Get Manifest Status**
-  endpoint detailed response.
-
-**Example payload**
-
-```
-{
-  "ManifestRequestId": "3a0c17c5-0ca4-455c-ac65-a20d95e656bc",
-  "ManifestRequestStatus": "COMPLETE",
-  "ManifestCount": 1,
-    "Manifests": [
-      {
-        "CarrierCode": "RM",
-        "CreatedDateUtc": "2024-06-17T10:36:20.072Z",
-        "ManifestDate": "2024-06-17",
-        "ManifestImage": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
-        "ManifestNumber": "ISH2802532",
-        "Service": "CRL1",
-        "ShippingAccount": {
-          "AccountAlias": "Account 1",
-          "AccountName": "AB VideoGames",
-          "AccountNumber": "0123456789",
-          "ShippingAccountId": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
-        },
-        "ShippingLocation": {
-          "LocationAlias": "Main Warehouse",
-          "LocationCountry": "GB",
-          "LocationPostcode": "TW20 0HJ",
-          "ShippingLocationId": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
-        },
-        "TotalItems": 562,
-        "TotalShipments": 562,
-        "TotalWeight": 545.612,
-        "WeightUnitOfMeasure": "KG"
-      }
-    ],
-  }
-```
-
-* If the **manifestStatus** = `FAILED`, the webhook payload will be the same as the **Get Manifest Status**
-  endpoint FailedStatus response – that is, it will contain a FailureReason and error details.
-
-**Failed request example**
-
-```
- {
-       "ManifestRequestId": "3a0c17c5-0ca4-455c-ac65-a20d95e656bc",  
- "ManifestRequestStatus": "FAILED",  
- "ManifestCount": 10,  
- "FailedReason": "Reason for failure",{  
- "Message": "Error message ",   
- "Errors": "list of errors",[  
-       }
-   }
-```
-
-> 🚧 _Important_
->
-> _If the webhook call is not sent successfully, SAPIENT will retry sending the webhook at the following
-> intervals:_
->
-> * _5 mins_
-> * _15 mins_
-> * _60 mins_
->
-> _If the retry attempts are all unsuccessful, the webhook call will fail and SAPIENT will no longer send it again. In this case the Webhook will be suspended. For more information on how to handle the webhook suspension, refer to the [Webhook suspension](https://docs.intersoftsapient.net/docs/webhook-suspension#/) section._
-
-**See also**
-
-* <Anchor label="Manifest shipments asynchronously" target="_blank" href="https://docs.intersoftsapient.net/docs/manifest-shipment-asychronously#/">Manifest shipments asynchronously</Anchor>
-* [Manifest shipment from UI](https://docs.intersoftsapient.net/docs/manifesting-shipments#/)
-* [View manifest history](https://docs.intersoftsapient.net/docs/manifest-history#/)
-
-<br />
