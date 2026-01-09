@@ -1,7 +1,8 @@
 ---
 name: ToggleList
 ---
-import { useState, useMemo} from 'react';
+
+import { useState, useMemo } from 'react';
 
 export const ToggleList = ({ children, ...rest }) => {
   return <ul style={{ padding: 0 }} {...rest}>{children}</ul>;
@@ -21,7 +22,7 @@ export const ToggleListItem = ({ title, children, ...rest }) => {
           aria-controls={contentId}
           aria-expanded={isOpen}
           aria-label={isOpen ? 'Close' : 'Open'}
-          className="h-6 w-6 flex items-center justify-center bg-transparent border-none cursor-pointer"
+          className="h-6 w-6 flex items-center justify-center bg-transparen border-none cursor-pointer"
           onClick={() => setIsOpen(prev => !prev)}
           type="button"
         >
@@ -30,7 +31,15 @@ export const ToggleListItem = ({ title, children, ...rest }) => {
             className={`${isOpen ? 'rotate-90 ' : ''} transition-all transform fa-regular fa-chevron-right`}
           />
         </button>
-        <span>{title}</span>
+        {/* Apply dynamic color */}
+        <span
+          style={{
+            color: isOpen ? '#ffb600' : '', // Orange when open, black when closed
+            fontWeight: 'bold'
+          }}
+        >
+          {title}
+        </span>
       </div>
       {!!isOpen && (
         <div className="ml-8 mt-2" id={contentId}>
@@ -41,6 +50,7 @@ export const ToggleListItem = ({ title, children, ...rest }) => {
   );
 };
 
+// Usage
 <ToggleList>
   <ToggleListItem title="What type of books do owls like to read?">
     Hoooo-dunnits 🔎
