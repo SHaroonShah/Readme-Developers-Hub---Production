@@ -16,10 +16,20 @@ next:
 ---
 The shipping of these products often requires specific handling, packaging, and transportation methods based on their unique characteristics.
 
-<Image align="center" width="350px" src="https://files.readme.io/2e38e29e35083fb970d68086d43ae0fbcd011375d18f644f93c76666411539bd-Product_art.png" />
+## Product management
 
-In this section, learn how to: 
+In this section, learn how to mange your products with these essential operations:
 
-* [Add a product](https://docs.intersoftsapient.net/docs/add-product)
-* [Edit a product](https://docs.intersoftsapient.net/docs/edit-product)
-* [Delete a product](https://docs.intersoftsapient.net/docs/delete-product)
+<Cards columns={3}>
+  <Card title="Add Product" href="https://docs.intersoftsapient.net/docs/add-product" icon="fa-solid fa-plus-circle">
+    Create new product entries in your system with all necessary details and shipping requirements.
+  </Card>
+
+  <Card title="Edit Product" href="https://docs.intersoftsapient.net/docs/edit-product" icon="fa-solid fa-edit">
+    Modify existing product information, update specifications, or change handling instructions.
+  </Card>
+
+  <Card title="Delete Product" href="https://docs.intersoftsapient.net/docs/delete-product" icon="fa-solid fa-trash-alt">
+    Remove products from your system that are no longer needed.
+  </Card>
+</Cards>
