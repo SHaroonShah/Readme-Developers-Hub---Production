@@ -1,10 +1,9 @@
 ---
 title: Side navigation panel
 excerpt: >-
-  The side navigation panel is located on the extreme left of the SAPIENT
-  application. It incorporates the set of core features that you can use to
-  quickly navigate to specific pages in the application, view the contents, set
-  your preferences, perform your desired actions, and so on.
+  Learn how to use the SAPIENT side navigation panel to quickly access core
+  features including Home, Shipment Search, Shipment Processing, Maintenance,
+  and Utilities.
 deprecated: false
 hidden: false
 icon: fad fa-distribute-spacing-horizontal
@@ -15,14 +14,30 @@ metadata:
 next:
   description: ''
 ---
-<Image alt="Side navigation panel" align="center" src="https://files.readme.io/de9ef03273783acf900834b8213af47f89e3066e701e4246458bdc10c854a490-Side_navigation_panel.png">
-  Side navigation panel
-</Image>
+The side navigation panel is located on the extreme left of the SAPIENT application. It incorporates the set of core features that you can use to quickly navigate to specific pages in the application, view the contents, set your preferences, perform your desired actions, and so on.
 
-In SAPIENT, you can use the side navigation panel to navigate through various categories, pages, or functionalities without cluttering the main content area. The side navigation panel is comprised of the following: 
+<Image align="center" alt="Side navigation panel" border={false} caption="Side navigation panel" src="https://files.readme.io/de9ef03273783acf900834b8213af47f89e3066e701e4246458bdc10c854a490-Side_navigation_panel.png" />
 
-* **Home**: link to the main landing page of the application.
-* **Shipment Search**: a feature for users to look up shipments using shipping locations and date filters.
-* **Shipment processing**: an option that provides you with the details on managing or processing shipments.
-* **Maintenance**: a block that provides you with core operations that you can perform on your shipments, such as, creating a shipping account, adding users, products, and so on.
-* **Utilities**: a block that provides you with the miscellaneous actions, such as logging out of the application.
+The side navigation panel is comprised of the following blocks:
+
+<Cards>
+  <Card title="Home" icon="fa-solid fa-home" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/dashboard-1#/">
+    > Link to the main landing page of the application. This serves as your central hub for accessing all SAPIENT features and getting an overview of your activities.
+  </Card>
+
+  <Card title="Shipment Search" icon="fa-solid fa-search" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/shipment-search#/">
+    > A powerful feature for users to look up shipments using shipping locations and date filters. Quickly find specific shipments with advanced search capabilities.
+  </Card>
+
+  <Card title="Shipment Processing" icon="fa-solid fa-loader" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/shipment-processing#/">
+    > An option that provides you with detailed information on managing or processing shipments. Handle all aspects of your shipment workflow from this centralised location.
+  </Card>
+
+  <Card title="Maintenance" icon="fa-solid fa-tools" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/maintenance-guides#/">
+    > A comprehensive block that provides you with core operations for managing your shipments, including creating shipping accounts, adding users, managing products, and other essential administrative tasks.
+  </Card>
+
+  <Card title="Utilities" icon="fa-solid fa-bars" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/log-out#/">
+    > A block that provides you with miscellaneous actions and system utilities, such as logging out of the application and accessing additional tools and settings.
+  </Card>
+</Cards>
