@@ -27,13 +27,27 @@ The manifest webhook feature has several purposes:
 >
 > _The manifest webhook is only used if you are using the manifest async endpoint to manifest asynchronously._
 
+## How to set up manifest webhook connection
+
 To set up the manifest webhook connection in SAPIENT, follow the instructions as explained in the following procedure.
 
-1. On the SAPIENT **Home** page, in the left navigation panel, select **API** > **Webhooks**. In the page that opens,  select the **Manifest Webhook** tab.
+<ToggleList>
+  <ToggleListItem title={<strong>1. Access manifest webhook page</strong>} icon="fa-rocket">
+    <br />
+
+    On the SAPIENT **Home** page, in the left navigation panel, select **API** > **Webhooks**. In the page that opens,  select the **Manifest Webhook** tab.
 
 <Image align="center" alt="Accessing tracking webhook" border={true} caption="Accessing tracking webhook" src="https://files.readme.io/2e9bf0ceab366ca1de8ba425c319222ec683bf3338c285a74952d5d9baae6c05-Manifest_webhook_tab.png" />
 
-2. In the **WEBHOOK DETAILS** block of the **Tracking Webhook** tab, enter the necessary information as described in the following table.
+    ***
+  </ToggleListItem>
+
+  <br />
+
+  <ToggleListItem title={<strong>2. Enter webhook details</strong>} icon="fa-rocket">
+    <br />
+
+    In the **WEBHOOK DETAILS** block of the **Tracking Webhook** tab, enter the necessary information as described in the following table.
 
 <Image align="center" border={true} width="500px" src="https://files.readme.io/f1b9e78c168e83ad35f8c5df9fccd857c57a045811daba57e58b2512f11b42f6-Manifest_webhook_details_block.png" className="border" />
 
@@ -161,7 +175,15 @@ To set up the manifest webhook connection in SAPIENT, follow the instructions as
   </tbody>
 </Table>
 
-3. After entering all the necessary details, select ![](https://files.readme.io/dcabcea774e82fdcf39f03bfcdcd2d95520a6aead65cb9bd47e7ccc32a8c085c-Test_button.png) to check if the setup is configured correctly. Once the test has been completed, and the setup configuration is correct, the webhook is activated and the following success response is displayed:
+    ***
+  </ToggleListItem>
+
+  <br />
+
+  <ToggleListItem title={<strong>3. Save your configuration </strong>} icon="fa-rocket">
+    <br />
+
+    After entering all the necessary details, select ![](https://files.readme.io/dcabcea774e82fdcf39f03bfcdcd2d95520a6aead65cb9bd47e7ccc32a8c085c-Test_button.png) to check if the setup is configured correctly. Once the test has been completed, and the setup configuration is correct, the webhook is activated and the following success response is displayed:
 
 <Image align="center" alt="Success response" border={true} caption="Success response" src="https://files.readme.io/0994fa6-image.png" width="660px" />
 
@@ -173,12 +195,26 @@ If for some reason, the connectivity test fails, the following message is displa
 
 <Image align="center" alt="Failed connection response" border={true} caption="Failed connection response" src="https://files.readme.io/65a4983-image.png" width="660px" />
 
-4. After, turn on the **Active** toggle if you wany to activate the manifest webhook.
+    ***
+  </ToggleListItem>
+
+  <br />
+
+  <ToggleListItem title={<strong>4. Activate webhook</strong>} icon="fa-rocket">
+    <br />
+
+   After, turn on the **Active** toggle if you wany to activate the manifest webhook.
 
 <Image align="center" alt="Activating tracking webhook" border={true} caption="Activating manifest webhook" src="https://files.readme.io/a76feb6-image.png" width="660px" />
 
 > 🚧 _Important_
 >
 > _The webhook only works if it is in the**Active** state. Any changes made to the webhook configuration deactivates it. Therefore, make sure the toggle is set to **Active** whenever the configuration is updated._
+  </ToggleListItem>
+<br />
+<ToggleListItem title={<strong>5. Confirm setup</strong>} icon="fa-rocket">
+    <br />
 
-5. Select ![](https://files.readme.io/2f9b4304c20f01f6272a39bbdeef71a6abc9242aec6337ed7c3926401517f2f1-save_changes_button_2.png) to confirm the setup completion.
+   Select ![](https://files.readme.io/2f9b4304c20f01f6272a39bbdeef71a6abc9242aec6337ed7c3926401517f2f1-save_changes_button_2.png) to confirm the setup completion.
+  </ToggleListItem>
+</ToggleList>
