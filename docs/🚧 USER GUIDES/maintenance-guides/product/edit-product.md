@@ -16,20 +16,86 @@ next:
 ---
 In SAPIENT, you can edit the <Glossary>product</Glossary>, ensuring that any changes in product specifications are accurately communicated throughout the shipping and logistics processes. This process eventually reduces the risk of shipping errors, delays, or issues related to regulatory compliance.
 
-To edit the product in SAPIENT, follow the steps as explained in the following procedure.
+## How to edit product
 
-1. In the left navigation panel, select **Products**.
+<Tabs>
+  <Tab title="Edit via SAPIENT UI">
+    <br />
 
-<Image align="center" alt="Accessing shipping locations" border={true} caption="Accessing products" src="https://files.readme.io/ec355529da5603569fe7c27204b1b58b5f7368185e1daa06e9836a6a0c4e855b-Acccessing_products_option.png" />
+    To edit a product in SAPIENT, perform the steps as explained in the following procedure.
 
-2. On the **Products** page that appears, from the list, select the product that you want to edit, and then in the **Edit Product** form that opens, start updating the necessary information as explained in the [Add product](https://docs.intersoftsapient.net/docs/add-product) section.
+    <ToggleList>
+      <ToggleListItem title={<strong>1. Access the products page</strong>} icon="fa-rocket">
+        <br />
 
-<Image align="center" alt="Selecting option to add shipping location" border={true} caption="Editing product" src="https://files.readme.io/31fc405902585254ecaa88262b003ed2eac86db261007455a03b6b114699e91b-Editing_product.png" />
+        In the left navigation panel, select **Products**.
 
-3. After entering all the relevant information, select ![alt text](https://files.readme.io/44d2859089ab3d4ffcb5341e904f29d383f25f9fa79e210a09482d2a26998248-Save_changes_button.png).
+        <Image align="center" border={true} src="https://files.readme.io/ec355529da5603569fe7c27204b1b58b5f7368185e1daa06e9836a6a0c4e855b-Acccessing_products_option.png" alt="Accessing shipping locations" />
 
-Once done, the product is updated successfully. You can now manage it as per your business needs and use them in your <Glossary>shipment</Glossary> requests.
+        ***
+      </ToggleListItem>
 
-> 📘 *Note*
->
-> *Products can be updated via API. To learn more on how to edit a product via API, refer to the [API References](https://docs.intersoftsapient.net/reference/post_v4-products) section.*
+      <br />
+
+      <ToggleListItem title={<strong>2. Select product to edit</strong>} icon="fa-rocket">
+        <br />
+
+        On the **Products** page that appears, from the list, select the product that you want to edit.
+
+        <Image align="center" border={true} src="https://files.readme.io/a1a7bc27c6253ce0355cb87cc2f549c247ac33518acf56a929598df85fda5882-Selecting_products_to_edit.png" />
+
+        ***
+      </ToggleListItem>
+
+      <br />
+
+      <ToggleListItem title={<strong>3. Edit product</strong>} icon="fa-rocket">
+        <br />
+
+        In the **Edit Product** form that opens, start updating the necessary information as explained in the [Add product](https://docs.intersoftsapient.net/docs/add-product) section.
+
+        <Image align="center" border={true} src="https://files.readme.io/31fc405902585254ecaa88262b003ed2eac86db261007455a03b6b114699e91b-Editing_product.png" alt="Selecting option to add shipping location" />
+
+        ***
+      </ToggleListItem>
+
+      <br />
+
+      <ToggleListItem title={<strong>4. Save changes </strong>} icon="fa-rocket">
+        <br />
+
+        After entering all the relevant information, select ![](https://files.readme.io/44d2859089ab3d4ffcb5341e904f29d383f25f9fa79e210a09482d2a26998248-Save_changes_button.png).
+
+        Once done, the product is updated successfully. You can now manage it as per your business needs and use them in your <Glossary>shipment</Glossary> requests.
+
+        ***
+      </ToggleListItem>
+    </ToggleList>
+  </Tab>
+
+  <Tab title="Edit via API">
+    <br />
+
+    To edit a product via our API, refer to the following endpoint:
+
+    <Cards>
+      <Card title="Update Product" href="https://docs.intersoftsapient.net/v4.02_Coding/reference/put_v4-products-skucode#/" icon="fa-solid fa-code">
+        Complete API reference for editing products
+      </Card>
+    </Cards>
+  </Tab>
+</Tabs>
+
+***
+
+### See also
+
+<Cards columns={2}>
+  <Card title="Add Product" href="https://docs.intersoftsapient.net/docs/add-product" icon="fa-solid fa-plus-circle">
+    Create new product entries in your system with all necessary details and shipping requirements.
+  </Card>
+
+  <Card title="Delete Product" href="https://docs.intersoftsapient.net/docs/delete-product" icon="fa-solid fa-trash-alt">
+    Remove products from your system that are no longer needed.
+  </Card>
+</Cards>
