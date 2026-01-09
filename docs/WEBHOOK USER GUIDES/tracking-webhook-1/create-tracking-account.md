@@ -1,5 +1,5 @@
 ---
-title: Set up tracking account
+title: Add tracking account
 excerpt: >-
   A _tracking account_ is a dedicated account that helps users, businesses, or
   customers to monitor and manage the status of shipments in real-time. This
@@ -17,68 +17,131 @@ next:
 ---
 To allow the system to automatically track <Glossary>shipments</Glossary> created on Intersoft SAPIENT and send tracking updates to the <Glossary>tracking webhook</Glossary> , the tracking accounts must be set up.
 
-> 🚧 *Important*
+> 🚧 _Important_
 >
-> *Before setting up the tracking account, make sure that you have completed the following prerequisites:*
+> _Before setting up the tracking account, make sure that you have completed the following prerequisites:_
 >
-> 1. *Successfully [enabled the label and tracking integration](https://docs.intersoftsapient.net/docs/integration-activation) with your chosen <Glossary>carrier</Glossary> via the **Integration Activation** screen.*
-> 2. *Set up your tracking webhook. For more information on how to set up a tracking webhook, refer to the [Create tracking webhook](https://docs.intersoftsapient.net/docs/create-tracking-webhook) section. This is a one-time activity, you do not have to do this every time you add a tracking account.*
+> 1. _Successfully [enabled the label and tracking integration](https://docs.intersoftsapient.net/docs/integration-activation) with your chosen <Glossary>carrier</Glossary> via the **Integration Activation** screen._
+> 2. _Set up your tracking webhook. For more information on how to set up a tracking webhook, refer to the [Create tracking webhook](https://docs.intersoftsapient.net/docs/create-tracking-webhook) section. This is a one-time activity, you do not have to do this every time you add a tracking account._
+
+## How to add tracking account
 
 To add a tracking account in SAPIENT, follow the steps as explained in the following procedure.
 
-1. On the SAPIENT **Home** page, in the left navigation panel, select **API** > **Webhooks**. In the page that opens, select the **Tracking Accounts** tab.
+<ToggleList>
+  <ToggleListItem title={<strong>1. Access tracking accounts page</strong>} icon="fa-rocket">
+    <br />
 
-<Image align="center" alt="Accessing tracking accounts" border={true} caption="Accessing tracking accounts" src="https://files.readme.io/f53608e208015447ef8f7fd5f987b3ecf8415f81e2736ec01c552a9c41436479-Tracking_accounts_tab.png" />
+    On the SAPIENT **Home** page, in the left navigation panel, select **API** > **Webhooks**. In the page that opens, select the **Tracking Accounts** tab.
 
-2. In the **Tracking Accounts** page that opens, select ![alt text](https://files.readme.io/139bbda69af885f0824e5d5070ea342a6fb0a8d348c754389edb7a4dcfff7da2-Add_tracking_account_button.png).
+    <Image align="center" border={true} src="https://files.readme.io/f53608e208015447ef8f7fd5f987b3ecf8415f81e2736ec01c552a9c41436479-Tracking_accounts_tab.png" alt="Accessing tracking accounts" />
 
-<Image align="center" alt="Accessing option to add tracking account" border={true} caption="Accessing option to add tracking account" src="https://files.readme.io/78c8641717e62040ab3526e6706d6a1f3259fe7c85b2d92281d861538afc0ab8-Add_tracking_account_option.png" />
+    ***
+  </ToggleListItem>
 
-3. On the **Add Tracking account** page that appears, in the **DETAILS** block, enter the necessary information as explained in the following table.
+  <br />
 
-<Image align="center" alt="Adding tracking account" border={true} caption="Adding tracking account" src="https://files.readme.io/d5239464ffac95ad4b5081802a5b002a3e966e94ab27e760cf7ba3d2eeecaf56-Details_block_UPS.png" width="500px" />
+  <ToggleListItem title={<strong>2. Select option to add new tracking account</strong>} icon="fa-rocket">
+    <br />
 
-<AsteridkForMandatoryElements />
+    In the **Tracking Accounts** page that opens, select ![alt text](https://files.readme.io/139bbda69af885f0824e5d5070ea342a6fb0a8d348c754389edb7a4dcfff7da2-Add_tracking_account_button.png).
 
-<Table align={["center","left"]}>
-  <thead>
-    <tr>
-      <th>
-        Element
-      </th>
+    <Image align="center" border={true} src="https://files.readme.io/78c8641717e62040ab3526e6706d6a1f3259fe7c85b2d92281d861538afc0ab8-Add_tracking_account_option.png" alt="Accessing option to add tracking account" />
 
-      <th>
-        Description
-      </th>
-    </tr>
-  </thead>
+    ***
+  </ToggleListItem>
 
-  <tbody>
-    <tr>
-      <td>
-        **Carrier**\*
-      </td>
+  <br />
 
-      <td>
-        From the dropdown menu, select the carrier for which you want to create a tracking account.
-      </td>
-    </tr>
+  <ToggleListItem title={<strong>3. Enter account details </strong>} icon="fa-rocket">
+    <br />
 
-    <tr>
-      <td>
-        **Shipping Account**\*
-      </td>
+    On the **Add Tracking account** page that appears, in the **DETAILS** block, enter the necessary information as explained in the following table.
 
-      <td>
-        From the dropdown menu, select the <Glossary>shipping account</Glossary> for which you want to receive tracking.
+    <Image align="center" border={true} src="https://files.readme.io/d5239464ffac95ad4b5081802a5b002a3e966e94ab27e760cf7ba3d2eeecaf56-Details_block_UPS.png" width="500px" alt="Adding tracking account" />
 
-        For some carriers, you may also select the **All Shipping Accounts** option to add this tracking account for all existing and any new shipping accounts added to the customer account.
-      </td>
-    </tr>
-  </tbody>
-</Table>
+    <br />
 
-4. Once entered, an additional **SFTP DETAILS** block may appear for specific carriers, for example YODEL and EVRi. This is only required if the carrier supports receiving the tracking details via SFTP (Secure File Transfer Protocol). For more information on how to fill this block, refer to the [Carrier specific guides](https://docs.intersoftsapient.net/docs/carrier-specific-user-guides) section.
-5. After entering all the necessary information, select ![alt text](https://files.readme.io/ed87f1de8d9350f6fed52ac5c3b52ce0e63e2e6358aebac01389e9081c7b12d9-Add_tracking_account_button_2.png).
+    <AsteridkForMandatoryElements />
 
-Once the tracking account is set up, any carrier tracking data for this account will be sent to your tracking webhook.
+    <Table align={["center","left"]}>
+      <thead>
+        <tr>
+          <th>
+            Element
+          </th>
+
+          <th>
+            Description
+          </th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>
+            **Carrier**\*
+          </td>
+
+          <td>
+            From the dropdown menu, select the carrier for which you want to create a tracking account.
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            **Shipping Account**\*
+          </td>
+
+          <td>
+            From the dropdown menu, select the <Glossary>shipping account</Glossary> for which you want to receive tracking.
+
+            For some carriers, you may also select the **All Shipping Accounts** option to add this tracking account for all existing and any new shipping accounts added to the customer account.
+          </td>
+        </tr>
+      </tbody>
+    </Table>
+
+    <br />
+
+    Once entered, an additional **SFTP DETAILS** block may appear for specific carriers, for example YODEL and EVRi. This is only required if the carrier supports receiving the tracking details via SFTP (Secure File Transfer Protocol). For more information on how to fill this block, refer to the [Carrier specific guides](https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/carrrier-specific-user-guides) section.
+
+    ***
+  </ToggleListItem>
+
+  <br />
+
+  <ToggleListItem title={<strong>4. Complete setup </strong>} icon="fa-rocket">
+    <br />
+
+    After entering all the necessary information, select ![alt text](https://files.readme.io/ed87f1de8d9350f6fed52ac5c3b52ce0e63e2e6358aebac01389e9081c7b12d9-Add_tracking_account_button_2.png).
+
+    Once the tracking account is set up, any carrier tracking data for this account will be sent to your tracking webhook.
+  </ToggleListItem>
+</ToggleList>
+
+***
+
+### See also
+
+<Cards columns="3">
+  <Card title="Add Tracking Webhook" href="https://docs.intersoftsapient.net/docs/create-tracking-webhook" icon="fa-solid fa-calendar-circle-plus">
+    Configure your webhook endpoint to receive tracking data.
+  </Card>
+
+  <Card title="Set Up Tracking Webhook Connection" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/create-tracking-webhook" icon="fa-solid fa-code-pull-request">
+    Automate the instantaneous flow of information regarding the status of shipments.
+  </Card>
+
+  <Card title="Set Up Manifest Webhook" href="https://docs.intersoftsapient.net/docs/manifest-webhook" icon="fa-solid fa-webhook">
+    Enable webhook notifications for manifest-level tracking operations.
+  </Card>
+
+  <Card title="Track Events and Milestones" href="https://docs.intersoftsapient.net/docs/tracking-events-and-milestones" icon="fa-solid fa-chart-line-up">
+    Understand tracking events and milestone data.
+  </Card>
+
+  <Card title="Handle Webhook Suspension" href="https://docs.intersoftsapient.net/docs/webhook-suspension" icon="fa-solid fa-dial-max">
+    Manage and resolve webhook suspension scenarios.
+  </Card>
+</Cards>
