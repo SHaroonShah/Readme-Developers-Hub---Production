@@ -1,5 +1,5 @@
 ---
-title: Carrier specific user guides
+title: SAPIENT carrier integrations
 excerpt: >-
   Carrier-specific user guides are comprehensive resources that provide detailed
   instructions and information tailored to specific shipping carriers.
@@ -15,17 +15,48 @@ next:
 ---
 In this section you can access various guides developed for each available <Glossary>carrier</Glossary> on our system. The main purpose of introducing these guides is to facilitate easier and more efficient integration carrier services, ensuring that you have the right  information to successfully leverage shipping options.
 
-<Image align="center" border={false} width="400px" src="https://files.readme.io/74ba731b6e8c2de2b1f88444f2a643aea59249a0b6347c48c321069f9185fe71-Carrier_specifics.png" />
+<Banner isInline={true} message="" color="#ffb600" textColor="#ffffff" fontSize="14px" fontWeight="bold" />
 
-The following carrier-specific guides are included in this section:
+The following carrier guides are included in this section:
 
-* <Anchor label="Royal Mail" target="_blank" href="https://docs.intersoftsapient.net/docs/royal-mail">Royal Mail</Anchor>
-* <Anchor label="Royal Mail Importers" target="_blank" href="https://docs.intersoftsapient.net/docs/rm-importers">Royal Mail Importers</Anchor>
-* <Anchor label="EVRi" target="_blank" href="https://docs.intersoftsapient.net/docs/evri">EVRi</Anchor>
-* <Anchor label="YODEL" target="_blank" href="https://docs.intersoftsapient.net/docs/yodel">YODEL</Anchor>
-* <Anchor label="UPS" target="_blank" href="https://docs.intersoftsapient.net/docs/ups">UPS</Anchor>
-* <Anchor label="DX" target="_blank" href="https://docs.intersoftsapient.net/docs/dx">DX</Anchor>
-* <Anchor label="DX Freight" target="_blank" href="https://docs.intersoftsapient.net/docs/dx-freight#/">DX Freight</Anchor>
-* <Anchor label="The Delivery Group" target="_blank" href="https://docs.intersoftsapient.net/docs/the-delivery-group#/">The Delivery Group</Anchor>
-* <Anchor label="FedEx" target="_blank" href="https://docs.intersoftsapient.net/docs/fedex#/">FedEx</Anchor>
-* <Anchor label="InPost" target="_blank" href="https://docs.intersoftsapient.net/docs/inpost#/">InPost</Anchor>
+<Cards columns="5">
+  <Card title="" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/royal-mail#/" Width="200">
+    <Image align="center" src="https://files.readme.io/a9ee760d85555af384cfd0575c7bc99d51a1aada6dec34c8bfb588907ccd9422-RM_favicon.png" width="160px" alt="thumbnail" />
+  </Card>
+
+  <Card title="" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/an-post#/" Width="200">
+    <Image align="center" src="https://files.readme.io/ceca828b433cacc09b0543bef2b7f4de9c7a2189af47d307aeea1899c57f9dd5-An_post_logo_white.png" width="160px" alt="thumbnail" />
+  </Card>
+
+  <Card title="" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/dx#/" Width="200">
+    <Image align="center" src="https://files.readme.io/160d38a06e94f72bb4eed1107cfb82c795f7bb915566bfa72eb3b8b3698bf38d-DX_express_logo.png" width="160px" alt="thumbnail" />
+  </Card>
+
+  <Card title="" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/dx-freight#/" Width="200">
+    <Image align="center" src="https://files.readme.io/9b5162bacf5f3ac36b0200401aa0441bd609545eaf01e789087d520c1455ca64-DX_freight_logo.png" width="155px" alt="thumbnail" />
+  </Card>
+
+  <Card title="" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/evri#/" Width="200">
+    <Image align="center" src="https://files.readme.io/49cf864b835a4e2de7c4ebfd3cea85e552a3a27790c9dd755e39162cdb71c63e-image.png" width="150px" alt="thumbnail" />
+  </Card>
+
+  <Card title="" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/fedex#/" Width="200">
+    <Image align="center" src="https://files.readme.io/88a7599e1a64e2eb5cd20cc992a3a87dc3b68ebb766615ba6766c7f560586e5e-FedEx_White_BG.png" width="160px" alt="thumbnail" />
+  </Card>
+
+  <Card title="" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/inpost#/" Width="200">
+    <Image align="center" src="https://files.readme.io/c9a342d05f1245bceed832bf7bb489e46969f9bddf8cb6b92007139484f4cf6b-InPost_logo.png" width="160px" alt="thumbnail" />
+  </Card>
+
+  <Card title="" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/the-delivery-group#/" Width="200">
+    <Image align="center" src="https://files.readme.io/b5aa9b3a487e32e4187f0ceb0350547aed7b781d0e5ceed3af44d7f93124526e-TDG_white_logo.png" width="140px" alt="thumbnail" />
+  </Card>
+
+  <Card title="" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/ups#/" Width="200">
+    <Image align="center" src="https://files.readme.io/84a4a5263deb06eda05f635353182a78211838764f54b2dd5d50f170cd40cc57-UPS_logo_white.png" width="160px" alt="thumbnail" />
+  </Card>
+
+  <Card title="" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/yodel#/" Width="200">
+    <Image align="center" src="https://files.readme.io/61c486262839c956e4cc9acbe36948996187ed1caf5a9e2298414d5efc63fd2b-Yodel_logo_white.png" alt="thumbnail" />
+  </Card>
+</Cards>
