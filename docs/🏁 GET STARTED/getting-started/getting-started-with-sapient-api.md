@@ -70,7 +70,7 @@ Explore additional resources to deepen your understanding of the SAPIENT system 
 
 <Tabs>
   <Tab title="User Guides">
-    <Cards columns={3}>
+    <Cards columns={2}>
       <Card title="System User Guides" href="https://docs.intersoftsapient.net/v4.02/docs/system-user-guides#/versions" icon="fa-book-open" iconColor="">
         Learn how to maintain and configure your SAPIENT system effectively
       </Card>
