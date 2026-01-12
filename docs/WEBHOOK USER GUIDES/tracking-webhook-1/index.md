@@ -45,7 +45,7 @@ In this section, learn how to manage your webhook by accessing the following ess
     Automate the instantaneous flow of information regarding the status of shipments.
   </Card>
 
-  <Card title="Set Up Tracking Account" href="https://docs.intersoftsapient.net/docs/create-tracking-account" icon="fa-solid fa-alarm-plus">
+  <Card title="Add Tracking Account" href="https://docs.intersoftsapient.net/docs/create-tracking-account" icon="fa-solid fa-alarm-plus">
     Establish your tracking account for seamless integration.
   </Card>
 
