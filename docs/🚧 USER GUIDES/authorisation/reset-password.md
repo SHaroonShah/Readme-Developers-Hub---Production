@@ -84,7 +84,7 @@ Once finished, your password is successfully reset and updated. You can now log 
 ### See also
 
 <Cards>
-  <Card title="Guidelines for choosing strong password" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/guidelines-for-choosing-strong-password#/" icon="fa-solid fa-list">
+  <Card title="Guidelines for choosing strong password" href="https://docs.intersoftsapient.net/v4.02/docs/guidelines-for-choosing-strong-password#/versions" icon="fa-solid fa-list">
     Set a unique password to ensure the security of your account
   </Card>
 </Cards>
