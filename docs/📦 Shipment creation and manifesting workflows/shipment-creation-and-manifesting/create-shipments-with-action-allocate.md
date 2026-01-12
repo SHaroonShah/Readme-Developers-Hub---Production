@@ -43,3 +43,17 @@ If no value is set for this action in the **Create Shipment** request, then the 
 To view a step-by-step guide on how to process the shipments that are created with the action "Allocate," refer to the following API recipe:
 
 <Recipe slug="recipe-titleprocess-shipment-created-with-the-action-allocate" title="Process shipment created with the action &#x22;Allocate&#x22;" />
+
+***
+
+### See also
+
+<Cards columns="2">
+  <Card title="Process" href="https://docs.intersoftsapient.net/docs/create-shipment-with-action-process" icon="cog">
+    Finalise the shipment creation and prepares the shipment for transportation. This action generates a label in the Create Shipment response and the shipment is ready for manifesting immediately.
+  </Card>
+
+  <Card title="Create" href="https://docs.intersoftsapient.net/docs/create-shipments-with-action-create" icon="plus-circle">
+    Initiate a new shipment entry in the system and capture all necessary details to generate shipping documents. This action does not return labels immediately - requires Print Shipment API call.
+  </Card>
+</Cards>
