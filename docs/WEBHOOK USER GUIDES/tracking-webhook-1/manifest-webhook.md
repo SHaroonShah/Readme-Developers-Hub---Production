@@ -37,7 +37,7 @@ To set up the manifest webhook connection in SAPIENT, follow the instructions as
 
     On the SAPIENT **Home** page, in the left navigation panel, select **API** > **Webhooks**. In the page that opens,  select the **Manifest Webhook** tab.
 
-<Image align="center" alt="Accessing tracking webhook" border={true} caption="Accessing tracking webhook" src="https://files.readme.io/2e9bf0ceab366ca1de8ba425c319222ec683bf3338c285a74952d5d9baae6c05-Manifest_webhook_tab.png" />
+    <Image align="center" border={true} src="https://files.readme.io/2e9bf0ceab366ca1de8ba425c319222ec683bf3338c285a74952d5d9baae6c05-Manifest_webhook_tab.png" alt="Accessing tracking webhook" />
 
     ***
   </ToggleListItem>
@@ -49,131 +49,131 @@ To set up the manifest webhook connection in SAPIENT, follow the instructions as
 
     In the **WEBHOOK DETAILS** block of the **Tracking Webhook** tab, enter the necessary information as described in the following table.
 
-<Image align="center" border={true} width="500px" src="https://files.readme.io/f1b9e78c168e83ad35f8c5df9fccd857c57a045811daba57e58b2512f11b42f6-Manifest_webhook_details_block.png" className="border" />
+    <Image align="center" border={true} src="https://files.readme.io/f1b9e78c168e83ad35f8c5df9fccd857c57a045811daba57e58b2512f11b42f6-Manifest_webhook_details_block.png" width="500px" />
 
-<AsteridkForMandatoryElements />
+    <AsteridkForMandatoryElements />
 
-<Table align={["center","left","left"]}>
-  <thead>
-    <tr>
-      <th>
-        Element
-      </th>
+    <Table align={["center","left","left"]}>
+      <thead>
+        <tr>
+          <th>
+            Element
+          </th>
 
-      <th>
-        Basic authentication
-      </th>
+          <th>
+            Basic authentication
+          </th>
 
-      <th>
-        OAuth2 authentication
-      </th>
-    </tr>
-  </thead>
+          <th>
+            OAuth2 authentication
+          </th>
+        </tr>
+      </thead>
 
-  <tbody>
-    <tr>
-      <td>
-        **Authentication type***
-      </td>
+      <tbody>
+        <tr>
+          <td>
+            **Authentication type**\*
+          </td>
 
-      <td>
-        From the dropdown menu, if applicable, select the **Basic** authentication type.
+          <td>
+            From the dropdown menu, if applicable, select the **Basic** authentication type.
 
-        Basic is a simple authentication type built into the HTTP protocol. It involves sending the user's credentials (username and password) in an encoded format (Base64) within an HTTP header.
-      </td>
+            Basic is a simple authentication type built into the HTTP protocol. It involves sending the user's credentials (username and password) in an encoded format (Base64) within an HTTP header.
+          </td>
 
-      <td>
-        From the dropdown menu, if applicable, select the **OAuth2** authentication type.
+          <td>
+            From the dropdown menu, if applicable, select the **OAuth2** authentication type.
 
-        oAuth2 is a specific protocol used for authorisation that allows third-party applications to access the user's data without exposing their credentials.
-      </td>
-    </tr>
+            oAuth2 is a specific protocol used for authorisation that allows third-party applications to access the user's data without exposing their credentials.
+          </td>
+        </tr>
 
-    <tr>
-      <td>
-        **Endpoint URL***
-      </td>
+        <tr>
+          <td>
+            **Endpoint URL**\*
+          </td>
 
-      <td>
-        Enter your endpoint URL. This is the URL that we use to connect for identification purposes.
-      </td>
+          <td>
+            Enter your endpoint URL. This is the URL that we use to connect for identification purposes.
+          </td>
 
-      <td>
-        Enter your endpoint URL. This is the URL that we use to connect for identification purposes.
-      </td>
-    </tr>
+          <td>
+            Enter your endpoint URL. This is the URL that we use to connect for identification purposes.
+          </td>
+        </tr>
 
-    <tr>
-      <td>
-        **Username***
-      </td>
+        <tr>
+          <td>
+            **Username**\*
+          </td>
 
-      <td>
-        Enter your username to identify and authenticate the INTERSOFT payload.
-      </td>
+          <td>
+            Enter your username to identify and authenticate the INTERSOFT payload.
+          </td>
 
-      <td>
-        ❌ Not applicable
-      </td>
-    </tr>
+          <td>
+            ❌ Not applicable
+          </td>
+        </tr>
 
-    <tr>
-      <td>
-        **Password***
-      </td>
+        <tr>
+          <td>
+            **Password**\*
+          </td>
 
-      <td>
-        Enter the password for the username you entered to identify and authenticate the INTERSOFT payload.
-      </td>
+          <td>
+            Enter the password for the username you entered to identify and authenticate the INTERSOFT payload.
+          </td>
 
-      <td>
-        ❌ Not applicable
-      </td>
-    </tr>
+          <td>
+            ❌ Not applicable
+          </td>
+        </tr>
 
-    <tr>
-      <td>
-        **Token URL***
-      </td>
+        <tr>
+          <td>
+            **Token URL**\*
+          </td>
 
-      <td>
-        ❌ Not applicable
-      </td>
+          <td>
+            ❌ Not applicable
+          </td>
 
-      <td>
-        Enter your token URL. This is an endpoint we use to connect and get the security token.
-      </td>
-    </tr>
+          <td>
+            Enter your token URL. This is an endpoint we use to connect and get the security token.
+          </td>
+        </tr>
 
-    <tr>
-      <td>
-        **Client ID***
-      </td>
+        <tr>
+          <td>
+            **Client ID**\*
+          </td>
 
-      <td>
-        ❌ Not applicable
-      </td>
+          <td>
+            ❌ Not applicable
+          </td>
 
-      <td>
-        Enter your client ID  to identify and authenticate the INTERSOFT payload.
-      </td>
-    </tr>
+          <td>
+            Enter your client ID  to identify and authenticate the INTERSOFT payload.
+          </td>
+        </tr>
 
-    <tr>
-      <td>
-        **Secret***
-      </td>
+        <tr>
+          <td>
+            **Secret**\*
+          </td>
 
-      <td>
-        ❌ Not applicable
-      </td>
+          <td>
+            ❌ Not applicable
+          </td>
 
-      <td>
-        Enter your secret to identify and authenticate the INTERSOFT payload
-      </td>
-    </tr>
-  </tbody>
-</Table>
+          <td>
+            Enter your secret to identify and authenticate the INTERSOFT payload
+          </td>
+        </tr>
+      </tbody>
+    </Table>
 
     ***
   </ToggleListItem>
@@ -185,15 +185,15 @@ To set up the manifest webhook connection in SAPIENT, follow the instructions as
 
     After entering all the necessary details, select ![](https://files.readme.io/dcabcea774e82fdcf39f03bfcdcd2d95520a6aead65cb9bd47e7ccc32a8c085c-Test_button.png) to check if the setup is configured correctly. Once the test has been completed, and the setup configuration is correct, the webhook is activated and the following success response is displayed:
 
-<Image align="center" alt="Success response" border={true} caption="Success response" src="https://files.readme.io/0994fa6-image.png" width="660px" />
+    <Image align="center" border={true} src="https://files.readme.io/0994fa6-image.png" width="660px" alt="Success response" />
 
-Following the success response, a test tracking payload is sent to the webhook as follows:
+    Following the success response, a test tracking payload is sent to the webhook as follows:
 
-<Image align="center" alt="tracking payload response example" border={true} caption="tracking payload response example" src="https://files.readme.io/6b06c9d-image.png" />
+    <Image align="center" border={true} src="https://files.readme.io/6b06c9d-image.png" alt="tracking payload response example" />
 
-If for some reason, the connectivity test fails, the following message is displayed:
+    If for some reason, the connectivity test fails, the following message is displayed:
 
-<Image align="center" alt="Failed connection response" border={true} caption="Failed connection response" src="https://files.readme.io/65a4983-image.png" width="660px" />
+    <Image align="center" border={true} src="https://files.readme.io/65a4983-image.png" width="660px" alt="Failed connection response" />
 
     ***
   </ToggleListItem>
@@ -203,18 +203,42 @@ If for some reason, the connectivity test fails, the following message is displa
   <ToggleListItem title={<strong>4. Activate webhook</strong>} icon="fa-rocket">
     <br />
 
-   After, turn on the **Active** toggle if you wany to activate the manifest webhook.
+    After, turn on the **Active** toggle if you wany to activate the manifest webhook.
 
-<Image align="center" alt="Activating tracking webhook" border={true} caption="Activating manifest webhook" src="https://files.readme.io/a76feb6-image.png" width="660px" />
+    <Image align="center" border={true} src="https://files.readme.io/a76feb6-image.png" width="660px" alt="Activating tracking webhook" />
 
-> 🚧 _Important_
->
-> _The webhook only works if it is in the**Active** state. Any changes made to the webhook configuration deactivates it. Therefore, make sure the toggle is set to **Active** whenever the configuration is updated._
+    > 🚧 *Important*
+    >
+    > *The webhook only works if it is in the**Active** state. Any changes made to the webhook configuration deactivates it. Therefore, make sure the toggle is set to **Active** whenever the configuration is updated.*
   </ToggleListItem>
-<br />
-<ToggleListItem title={<strong>5. Save configuration</strong>} icon="fa-rocket">
+
+  <br />
+
+  <ToggleListItem title={<strong>5. Save configuration</strong>} icon="fa-rocket">
     <br />
 
-   Select ![](https://files.readme.io/2f9b4304c20f01f6272a39bbdeef71a6abc9242aec6337ed7c3926401517f2f1-save_changes_button_2.png) to confirm the setup completion.
+    Select ![](https://files.readme.io/2f9b4304c20f01f6272a39bbdeef71a6abc9242aec6337ed7c3926401517f2f1-save_changes_button_2.png) to confirm the setup completion.
   </ToggleListItem>
 </ToggleList>
+
+***
+
+### See also
+
+<Cards columns="2">
+  <Card title="Set Up Tracking Webhook Connection" href="https://docs.intersoftsapient.net/v4.02/docs/create-tracking-webhook" icon="fa-solid fa-code-pull-request">
+    Automate the instantaneous flow of information regarding the status of shipments.
+  </Card>
+
+  <Card title="Add Tracking Account" href="https://docs.intersoftsapient.net/docs/create-tracking-account" icon="fa-solid fa-alarm-plus">
+    Establish your tracking account for seamless integration.
+  </Card>
+
+  <Card title="Track Events and Milestones" href="https://docs.intersoftsapient.net/docs/tracking-events-and-milestones" icon="fa-solid fa-chart-line-up">
+    Understand tracking events and milestone data.
+  </Card>
+
+  <Card title="Handle Webhook Suspension" href="https://docs.intersoftsapient.net/docs/webhook-suspension" icon="fa-solid fa-dial-max">
+    Manage and resolve webhook suspension scenarios.
+  </Card>
+</Cards>
