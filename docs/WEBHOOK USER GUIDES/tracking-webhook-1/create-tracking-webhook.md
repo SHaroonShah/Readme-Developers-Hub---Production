@@ -155,7 +155,7 @@ To set up the tracking webhook connection in SAPIENT, perform the steps as expla
 ### See also
 
 <Cards>
-  <Card title="Set Up Tracking Account" href="https://docs.intersoftsapient.net/docs/create-tracking-account" icon="fa-solid fa-alarm-plus">
+  <Card title="Add Tracking Account" href="https://docs.intersoftsapient.net/docs/create-tracking-account" icon="fa-solid fa-alarm-plus">
     Establish your tracking account for seamless integration.
   </Card>
 
