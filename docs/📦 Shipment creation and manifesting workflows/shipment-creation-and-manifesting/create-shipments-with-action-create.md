@@ -43,3 +43,19 @@ If you do not want the <Glossary>tracking number</Glossary> returned until you s
 To view a step-by-step guide on how to process the shipments that are created with the action "Create," refer to the following API recipe:
 
 <Recipe slug="process-shipment-created-with-the-action-create" title="Process shipment created with the action &#x22;Create&#x22;" />
+
+***
+
+### See also
+
+<Cards columns="3">
+  <Card title="Process" href="https://docs.intersoftsapient.net/docs/create-shipment-with-action-process" icon="cog">
+    Finalise the shipment creation and prepares the shipment for transportation. This action generates a label in the Create Shipment response and the shipment is ready for manifesting immediately.
+  </Card>
+
+  <Card title="Allocate" href="https://docs.intersoftsapient.net/docs/create-shipments-with-action-allocate" icon="boxes">
+    Assign resources (like inventory items) to the shipment for fulfilment. This action returns carrier tracking number in the Create Shipment response but requires Print Shipment API for labels.
+  </Card>
+</Cards>
+
+<br />
