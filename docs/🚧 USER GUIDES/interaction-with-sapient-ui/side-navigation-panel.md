@@ -29,15 +29,15 @@ The side navigation panel is comprised of the following blocks:
     > A powerful feature for users to look up shipments using shipping locations and date filters. Quickly find specific shipments with advanced search capabilities.
   </Card>
 
-  <Card title="Shipment Processing" icon="fa-solid fa-loader" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/shipment-processing#/">
+  <Card title="Shipment Processing" icon="fa-solid fa-loader" href="https://docs.intersoftsapient.net/v4.02/docs/shipment-search#/versions">
     > An option that provides you with detailed information on managing or processing shipments. Handle all aspects of your shipment workflow from this centralised location.
   </Card>
 
-  <Card title="Maintenance" icon="fa-solid fa-tools" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/maintenance-guides#/">
+  <Card title="Maintenance" icon="fa-solid fa-tools" href="https://docs.intersoftsapient.net/v4.02/docs/maintenance-guides#/versions">
     > A comprehensive block that provides you with core operations for managing your shipments, including creating shipping accounts, adding users, managing products, and other essential administrative tasks.
   </Card>
 
-  <Card title="Utilities" icon="fa-solid fa-bars" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/log-out#/">
+  <Card title="Utilities" icon="fa-solid fa-bars" href="https://docs.intersoftsapient.net/v4.02/docs/log-out#/versions">
     > A block that provides you with miscellaneous actions and system utilities, such as logging out of the application and accessing additional tools and settings.
   </Card>
 </Cards>
