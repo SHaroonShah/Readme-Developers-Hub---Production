@@ -40,7 +40,7 @@ With the shipment processing feature, you can monitor and track the details of y
     Generate and process the shipping manifest for final shipment preparation.
   </Card>
 
-  <Card title="View Manifest History" href="https://docs.intersoftsapient.net/v4.02_Coding/docs/manifest-history#/" icon="fa-solid fa-file">
+  <Card title="View Manifest History" href="https://docs.intersoftsapient.net/v4.02/docs/manifest-history#/versions" icon="fa-solid fa-file">
     View a comprehensive record of all shipping manifests generated over time.
   </Card>
 </Cards>
