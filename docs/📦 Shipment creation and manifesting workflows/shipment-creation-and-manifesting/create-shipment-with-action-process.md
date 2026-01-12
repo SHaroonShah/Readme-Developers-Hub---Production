@@ -57,3 +57,18 @@ To use the Process action in your [Create Shipment](https://docs.intersoftsapien
 To view a step-by-step guide on how to process the shipments that are created with the action "Process," refer to the following API recipe:
 
 <Recipe slug="process-shipments-created-with-the-action-process" title="Process shipment created with the action “Process”" />
+
+***
+
+### See also
+
+<Cards columns="3">
+
+  <Card title="Create" href="https://docs.intersoftsapient.net/docs/create-shipments-with-action-create" icon="plus-circle">
+    Initiate a new shipment entry in the system and captures all necessary details to generate shipping documents. This action does not return labels immediately - requires Print Shipment API call.
+  </Card>
+
+  <Card title="Allocate" href="https://docs.intersoftsapient.net/docs/create-shipments-with-action-allocate" icon="boxes">
+    Assign resources (like inventory items) to the shipment for fulfilment. This action returns carrier tracking number in the Create Shipment response but requires Print Shipment API for labels.
+  </Card>
+</Cards>
