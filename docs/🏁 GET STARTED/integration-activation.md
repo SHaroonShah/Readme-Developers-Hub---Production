@@ -122,7 +122,7 @@ This section explains the components available on the **Integrations** page of t
   >
   > *You can only use the integration once you have activated it*.
 
-  4. After the integration is activated, you can now start configuring it. For more information on how to configure the integration, refer to the [Carrier specific user guides](https://docs.intersoftsapient.net/docs/carrier-specific-user-guides) and the [Additional services guides](https://docs.intersoftsapient.net/docs/additional-services-user-guides) section.
+  4. After the integration is activated, you can now start configuring it. For more information on how to configure the integration, refer to the [Carrier specific user guides](https://docs.intersoftsapient.net/v4.02/docs/carrier-specific-user-guides#/versions) section.
 
   Once the activation is confirmed, the system sends an email to the main user on the account as well as to the one who activated the integration.
 
