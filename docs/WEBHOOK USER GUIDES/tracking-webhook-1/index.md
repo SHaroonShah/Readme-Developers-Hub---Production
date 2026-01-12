@@ -38,10 +38,9 @@ With this solution, you can track:
 
 ## Get started
 
-In this section, learn how to:
+In this section, learn how to manage your webhook by accessing the following essential functions:
 
 <Cards columns="3">
-
   <Card title="Set Up Tracking Webhook Connection" href="https://docs.intersoftsapient.net/v4.02/docs/create-tracking-webhook" icon="fa-solid fa-code-pull-request">
     Automate the instantaneous flow of information regarding the status of shipments.
   </Card>
