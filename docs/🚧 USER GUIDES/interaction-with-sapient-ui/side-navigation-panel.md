@@ -21,7 +21,7 @@ The side navigation panel is located on the extreme left of the SAPIENT applicat
 The side navigation panel is comprised of the following blocks:
 
 <Cards>
-  <Card title="Home" icon="fa-solid fa-home" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/dashboard-1#/">
+  <Card title="Home" icon="fa-solid fa-home" href="https://docs.intersoftsapient.net/v4.02/docs/dashboard-1#/versions">
     > Link to the main landing page of the application. This serves as your central hub for accessing all SAPIENT features and getting an overview of your activities.
   </Card>
 
