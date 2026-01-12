@@ -124,12 +124,9 @@ To add a tracking account in SAPIENT, follow the steps as explained in the follo
 
 ### See also
 
-<Cards columns="3">
-  <Card title="Add Tracking Webhook" href="https://docs.intersoftsapient.net/docs/create-tracking-webhook" icon="fa-solid fa-calendar-circle-plus">
-    Configure your webhook endpoint to receive tracking data.
-  </Card>
+<Cards columns="2">
 
-  <Card title="Set Up Tracking Webhook Connection" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/create-tracking-webhook" icon="fa-solid fa-code-pull-request">
+  <Card title="Set Up Tracking Webhook Connection" href="https://docs.intersoftsapient.net/v4.02/docs/create-tracking-webhook" icon="fa-solid fa-code-pull-request">
     Automate the instantaneous flow of information regarding the status of shipments.
   </Card>
 
