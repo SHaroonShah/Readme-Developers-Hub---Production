@@ -57,8 +57,7 @@ next:
   </Card>
 
   <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/an-post#/versions" Width="200">
-    <Image align="center" border={false} width="100px" src="https://files.readme.io/7253017c7203767c79058b5b311e6ab302c34e8457fc234e79bb780fb5b3b58e-DPD_white_logo.png" />
-
+    <Image align="center" src="https://files.readme.io/7253017c7203767c79058b5b311e6ab302c34e8457fc234e79bb780fb5b3b58e-DPD_white_logo.png" width="100px" />
   </Card>
 
   <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/dx#/versions" Width="200">
@@ -90,7 +89,7 @@ next:
   </Card>
 
   <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/yodel#/versions" Width="200">
-    <Image align="center" src="https://files.readme.io/18b7b7236ea6945acf63b9451238228029c66f61844eaf365648a152181c1878-Yodel_logo_white.png" width="100px" />
+    <Image align="center" border={false} width="100px" src="https://files.readme.io/2e73b38cea3124ccafc735e816750a46eb26141d65f142460b218d8f6985fd2f-Yodel_logo_white.png" />
   </Card>
 </Cards>
 
@@ -133,5 +132,7 @@ next:
     > See our 99.9% uptime API status
   </Card>
 </Cards>
+
+<Image align="center" border={false} width="100px" src="https://files.readme.io/2e73b38cea3124ccafc735e816750a46eb26141d65f142460b218d8f6985fd2f-Yodel_logo_white.png" />
 
 <br />
