@@ -49,47 +49,47 @@ next:
 
 <Cards columns="5">
   <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/royal-mail#/versions" Width="200">
-    <Image align="center" src="https://files.readme.io/514358f6e25430c23011eb22309c50fd4bd5ef4604a192e718ee7638b3edd69b-RM_white_logo.png" width="100px" />
+    <Image align="center" border={false} width="100px" src="https://files.readme.io/ca682034958fed59c591856e8e0d48b40f426d2b7a3adabf3b48e8b441485302-RM_white_logo.png" />
   </Card>
 
   <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/an-post#/versions" Width="200">
-    <Image align="center" src="https://files.readme.io/4947f8d4f824501a0394da584541e34a8604f9cf15536fddacc9511fbaab3fd3-An_post_logo_white.png" width="100px" />
+    <Image align="center" src="https://files.readme.io/770237c3f809f1b4be1ccf51ca8418ce8440069178e4dd4ff1b563d0e4c7210b-An_post_logo_white.png" width="100px" />
   </Card>
 
   <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/an-post#/versions" Width="200">
-    <Image align="center" src="https://files.readme.io/7253017c7203767c79058b5b311e6ab302c34e8457fc234e79bb780fb5b3b58e-DPD_white_logo.png" width="100px" />
+    <Image align="center" src="https://files.readme.io/f6c3b60e1634e92c63b0de461282286ee7ab5dc85714c38c4f3e7124f9d3a722-DPD_white_logo.png" width="100px" />
   </Card>
 
   <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/dx#/versions" Width="200">
-    <Image align="center" src="https://files.readme.io/62f47dadd5f864471f2c2291eeec3d433872d660de1987a3db186bbc04ddf9ef-DX_express_white_logo.png" width="100px" />
+    <Image align="center" src="https://files.readme.io/b2686904eb7df8eec99dad01e8e3e65ace3b11db405ce5bbc60c338df134b61a-DX_express_white_logo.png" width="100px" />
   </Card>
 
   <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/dx-freight#/versions" Width="200">
-    <Image align="center" src="https://files.readme.io/2955c10dd18350c6c5da017b10f45bf20dead9ab6fdc12ebd6b9a8673c43914f-DX_freight_white_logo.png" width="100px" />
+    <Image align="center" src="https://files.readme.io/0a8f1f258eff90fce46730119559f05509d2577e564893ae6b78d6983b0e0a59-DX_freight_white_logo.png" width="100px" />
   </Card>
 
   <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/evri#/versions" Width="200">
-    <Image align="center" src="https://files.readme.io/1747ffb89cdc727f43a8e195836bc1803c2cd2cf332314d94f0e8550992ca2a6-EVRi_white_logo.png" width="100px" />
+    <Image align="center" src="https://files.readme.io/977a78885d79ebc4bb392dffe091cba218e3a1a43bb54918112a117de9c20850-EVRi_white_logo.png" width="100px" />
   </Card>
 
   <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/fedex#/versions" Width="200">
-    <Image align="center" src="https://files.readme.io/4dc983dee134206f0fff4dff7aba924329a029f5aab0a42b4e62eb38e30ead20-FedEx_white_logo.png" width="100px" />
+    <Image align="center" src="https://files.readme.io/3177ea019148646dc790839b457550d5afb4b97147964716a495af50c67c3470-FedEx_white_logo.png" width="100px" />
   </Card>
 
   <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/inpost#/versions" Width="200">
-    <Image align="center" src="https://files.readme.io/de102f381358d78c5252590e6978ac1c4bcc8438cbad367d63463a4250a9e387-InPost_white_logo.png" width="100px" />
+    <Image align="center" src="https://files.readme.io/fd33881958476474461aeb2782e3edb82cf11e91765108544679a189497f4dda-InPost_white_logo.png" width="100px" />
   </Card>
 
   <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/the-delivery-group#/versions" Width="200">
-    <Image align="center" src="https://files.readme.io/a052698d88a77921555c5b780aebac5b0d341d59c806605a15cbd440266c7ddf-TDG_white_logo.png" width="100px" />
+    <Image align="center" src="https://files.readme.io/08b253597544c513c34b80c3d4deaf361e4b993ccd4d29daab55599486a2c31f-TDG_white_logo.png" width="100px" />
   </Card>
 
   <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/ups#/versions" Width="200">
-    <Image align="center" src="https://files.readme.io/27d8a157b0363538bb73a75bac80cc8333221d590f919aa6202e82d31f614a2c-UPS_logo_white.png" width="100px" />
+    <Image align="center" src="https://files.readme.io/24ba24bb987cd0636f2f1194aa88345f6ddba59ad5e0fa03a6568a3911941bea-UPS_logo_white.png" width="100px" />
   </Card>
 
   <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/yodel#/versions" Width="200">
-    <Image align="center" border={false} width="100px" src="https://files.readme.io/2e73b38cea3124ccafc735e816750a46eb26141d65f142460b218d8f6985fd2f-Yodel_logo_white.png" />
+    <Image align="center" src="https://files.readme.io/2e73b38cea3124ccafc735e816750a46eb26141d65f142460b218d8f6985fd2f-Yodel_logo_white.png" width="100px" />
   </Card>
 </Cards>
 
@@ -132,7 +132,5 @@ next:
     > See our 99.9% uptime API status
   </Card>
 </Cards>
-
-<Image align="center" border={false} width="100px" src="https://files.readme.io/2e73b38cea3124ccafc735e816750a46eb26141d65f142460b218d8f6985fd2f-Yodel_logo_white.png" />
 
 <br />
