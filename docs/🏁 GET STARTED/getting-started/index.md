@@ -85,7 +85,7 @@ next:
   </Card>
 
   <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/yodel#/versions" Width="200">
-    <Image align="center" border={false} width="100px" src="https://files.readme.io/18b7b7236ea6945acf63b9451238228029c66f61844eaf365648a152181c1878-Yodel_logo_white.png" />
+    <Image align="center" src="https://files.readme.io/18b7b7236ea6945acf63b9451238228029c66f61844eaf365648a152181c1878-Yodel_logo_white.png" width="100px" />
   </Card>
 </Cards>
 
@@ -129,6 +129,6 @@ next:
   </Card>
 </Cards>
 
-<Image align="center" border={false} width="100px" src="https://files.readme.io/18b7b7236ea6945acf63b9451238228029c66f61844eaf365648a152181c1878-Yodel_logo_white.png" />
+<Image align="center" border={false} width="100px" src="https://files.readme.io/27d8a157b0363538bb73a75bac80cc8333221d590f919aa6202e82d31f614a2c-UPS_logo_white.png" />
 
 <br />
