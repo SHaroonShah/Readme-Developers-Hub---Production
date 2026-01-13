@@ -81,7 +81,7 @@ next:
   </Card>
 
   <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/ups#/versions" Width="200">
-    <Image align="center" src="https://files.readme.io/84a4a5263deb06eda05f635353182a78211838764f54b2dd5d50f170cd40cc57-UPS_logo_white.png" width="160px" alt="thumbnail" />
+    <Image align="center" border={false} width="100px" src="https://files.readme.io/27d8a157b0363538bb73a75bac80cc8333221d590f919aa6202e82d31f614a2c-UPS_logo_white.png" />
   </Card>
 
   <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/yodel#/versions" Width="200">
