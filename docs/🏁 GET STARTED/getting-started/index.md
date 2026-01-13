@@ -73,15 +73,16 @@ next:
   </Card>
 
   <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/inpost#/versions" Width="200">
-    <Image align="center" src="https://files.readme.io/c9a342d05f1245bceed832bf7bb489e46969f9bddf8cb6b92007139484f4cf6b-InPost_logo.png" width="160px" alt="thumbnail" />
+    <Image align="center" border={false} width="100px" src="https://files.readme.io/de102f381358d78c5252590e6978ac1c4bcc8438cbad367d63463a4250a9e387-InPost_white_logo.png" />
+
   </Card>
 
   <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/the-delivery-group#/versions" Width="200">
-    <Image align="center" src="https://files.readme.io/b5aa9b3a487e32e4187f0ceb0350547aed7b781d0e5ceed3af44d7f93124526e-TDG_white_logo.png" width="140px" alt="thumbnail" />
+    <Image align="center" src="https://files.readme.io/a052698d88a77921555c5b780aebac5b0d341d59c806605a15cbd440266c7ddf-TDG_white_logo.png" width="100px" />
   </Card>
 
   <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/ups#/versions" Width="200">
-    <Image align="center" border={false} width="100px" src="https://files.readme.io/27d8a157b0363538bb73a75bac80cc8333221d590f919aa6202e82d31f614a2c-UPS_logo_white.png" />
+    <Image align="center" src="https://files.readme.io/27d8a157b0363538bb73a75bac80cc8333221d590f919aa6202e82d31f614a2c-UPS_logo_white.png" width="100px" />
   </Card>
 
   <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/yodel#/versions" Width="200">
@@ -129,6 +130,6 @@ next:
   </Card>
 </Cards>
 
-<Image align="center" border={false} width="100px" src="https://files.readme.io/27d8a157b0363538bb73a75bac80cc8333221d590f919aa6202e82d31f614a2c-UPS_logo_white.png" />
+<Image align="center" border={false} width="100px" src="https://files.readme.io/de102f381358d78c5252590e6978ac1c4bcc8438cbad367d63463a4250a9e387-InPost_white_logo.png" />
 
 <br />
