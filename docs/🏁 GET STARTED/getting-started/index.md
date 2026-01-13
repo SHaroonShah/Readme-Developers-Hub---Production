@@ -49,14 +49,14 @@ next:
 
 <Cards columns="5">
   <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/royal-mail#/versions" Width="200">
-    <Image align="center" border={false} width="100px" src="https://files.readme.io/ca682034958fed59c591856e8e0d48b40f426d2b7a3adabf3b48e8b441485302-RM_white_logo.png" />
+    <Image align="center" src="https://files.readme.io/ca682034958fed59c591856e8e0d48b40f426d2b7a3adabf3b48e8b441485302-RM_white_logo.png" width="100px" />
   </Card>
 
   <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/an-post#/versions" Width="200">
     <Image align="center" src="https://files.readme.io/770237c3f809f1b4be1ccf51ca8418ce8440069178e4dd4ff1b563d0e4c7210b-An_post_logo_white.png" width="100px" />
   </Card>
 
-  <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/an-post#/versions" Width="200">
+  <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/dpd-uk" Width="200">
     <Image align="center" src="https://files.readme.io/f6c3b60e1634e92c63b0de461282286ee7ab5dc85714c38c4f3e7124f9d3a722-DPD_white_logo.png" width="100px" />
   </Card>
 
