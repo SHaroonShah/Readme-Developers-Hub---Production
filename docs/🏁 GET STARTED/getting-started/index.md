@@ -134,6 +134,4 @@ next:
   </Card>
 </Cards>
 
-<Image align="center" border={false} width="100px" src="https://files.readme.io/7253017c7203767c79058b5b311e6ab302c34e8457fc234e79bb780fb5b3b58e-DPD_white_logo.png" />
-
 <br />
