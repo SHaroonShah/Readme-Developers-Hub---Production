@@ -49,32 +49,36 @@ next:
 
 <Cards columns="5">
   <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/royal-mail#/versions" Width="200">
-    <Image align="center" src="https://files.readme.io/a9ee760d85555af384cfd0575c7bc99d51a1aada6dec34c8bfb588907ccd9422-RM_favicon.png" width="160px" alt="thumbnail" />
+    <Image align="center" src="https://files.readme.io/514358f6e25430c23011eb22309c50fd4bd5ef4604a192e718ee7638b3edd69b-RM_white_logo.png" width="100px" />
   </Card>
 
   <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/an-post#/versions" Width="200">
-    <Image align="center" src="https://files.readme.io/d9abe19c227f2929cd54060e73918e919883e231b2bc5fcc2648d48fd0e0d6f2-An_post_logo_white.png" width="160px" />
+    <Image align="center" src="https://files.readme.io/4947f8d4f824501a0394da584541e34a8604f9cf15536fddacc9511fbaab3fd3-An_post_logo_white.png" width="100px" />
+  </Card>
+
+  <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/an-post#/versions" Width="200">
+    <Image align="center" border={false} width="100px" src="https://files.readme.io/7253017c7203767c79058b5b311e6ab302c34e8457fc234e79bb780fb5b3b58e-DPD_white_logo.png" />
+
   </Card>
 
   <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/dx#/versions" Width="200">
-    <Image align="center" src="https://files.readme.io/160d38a06e94f72bb4eed1107cfb82c795f7bb915566bfa72eb3b8b3698bf38d-DX_express_logo.png" width="160px" alt="thumbnail" />
+    <Image align="center" src="https://files.readme.io/62f47dadd5f864471f2c2291eeec3d433872d660de1987a3db186bbc04ddf9ef-DX_express_white_logo.png" width="100px" />
   </Card>
 
   <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/dx-freight#/versions" Width="200">
-    <Image align="center" src="https://files.readme.io/9b5162bacf5f3ac36b0200401aa0441bd609545eaf01e789087d520c1455ca64-DX_freight_logo.png" width="155px" alt="thumbnail" />
+    <Image align="center" src="https://files.readme.io/2955c10dd18350c6c5da017b10f45bf20dead9ab6fdc12ebd6b9a8673c43914f-DX_freight_white_logo.png" width="100px" />
   </Card>
 
   <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/evri#/versions" Width="200">
-    <Image align="center" src="https://files.readme.io/5f47bbfece5dfa6b92a239bca05c7a58e433200896d66f591e03ec7de4c6b17f-EVRi_logo_white.png" width="100px" alt="thumbnail" />
+    <Image align="center" src="https://files.readme.io/1747ffb89cdc727f43a8e195836bc1803c2cd2cf332314d94f0e8550992ca2a6-EVRi_white_logo.png" width="100px" />
   </Card>
 
   <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/fedex#/versions" Width="200">
-    <Image align="center" src="https://files.readme.io/88a7599e1a64e2eb5cd20cc992a3a87dc3b68ebb766615ba6766c7f560586e5e-FedEx_White_BG.png" width="160px" alt="thumbnail" />
+    <Image align="center" src="https://files.readme.io/4dc983dee134206f0fff4dff7aba924329a029f5aab0a42b4e62eb38e30ead20-FedEx_white_logo.png" width="100px" />
   </Card>
 
   <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/inpost#/versions" Width="200">
-    <Image align="center" border={false} width="100px" src="https://files.readme.io/de102f381358d78c5252590e6978ac1c4bcc8438cbad367d63463a4250a9e387-InPost_white_logo.png" />
-
+    <Image align="center" src="https://files.readme.io/de102f381358d78c5252590e6978ac1c4bcc8438cbad367d63463a4250a9e387-InPost_white_logo.png" width="100px" />
   </Card>
 
   <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/the-delivery-group#/versions" Width="200">
@@ -130,6 +134,6 @@ next:
   </Card>
 </Cards>
 
-<Image align="center" border={false} width="100px" src="https://files.readme.io/de102f381358d78c5252590e6978ac1c4bcc8438cbad367d63463a4250a9e387-InPost_white_logo.png" />
+<Image align="center" border={false} width="100px" src="https://files.readme.io/7253017c7203767c79058b5b311e6ab302c34e8457fc234e79bb780fb5b3b58e-DPD_white_logo.png" />
 
 <br />
