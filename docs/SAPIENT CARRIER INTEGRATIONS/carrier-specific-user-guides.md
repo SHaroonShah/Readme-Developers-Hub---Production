@@ -20,43 +20,47 @@ In this section you can access various guides developed for each available <Glos
 The following carrier guides are included in this section:
 
 <Cards columns="5">
-  <Card title="" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/royal-mail#/" Width="200">
-    <Image align="center" src="https://files.readme.io/a9ee760d85555af384cfd0575c7bc99d51a1aada6dec34c8bfb588907ccd9422-RM_favicon.png" width="160px" alt="thumbnail" />
+  <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/royal-mail#/versions" Width="200">
+    <Image align="center" src="https://files.readme.io/ca682034958fed59c591856e8e0d48b40f426d2b7a3adabf3b48e8b441485302-RM_white_logo.png" width="100px" />
   </Card>
 
-  <Card title="" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/an-post#/" Width="200">
-    <Image align="center" src="https://files.readme.io/ceca828b433cacc09b0543bef2b7f4de9c7a2189af47d307aeea1899c57f9dd5-An_post_logo_white.png" width="160px" alt="thumbnail" />
+  <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/an-post#/versions" Width="200">
+    <Image align="center" src="https://files.readme.io/770237c3f809f1b4be1ccf51ca8418ce8440069178e4dd4ff1b563d0e4c7210b-An_post_logo_white.png" width="100px" />
   </Card>
 
-  <Card title="" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/dx#/" Width="200">
-    <Image align="center" src="https://files.readme.io/160d38a06e94f72bb4eed1107cfb82c795f7bb915566bfa72eb3b8b3698bf38d-DX_express_logo.png" width="160px" alt="thumbnail" />
+  <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/dpd-uk" Width="200">
+    <Image align="center" src="https://files.readme.io/f6c3b60e1634e92c63b0de461282286ee7ab5dc85714c38c4f3e7124f9d3a722-DPD_white_logo.png" width="100px" />
   </Card>
 
-  <Card title="" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/dx-freight#/" Width="200">
-    <Image align="center" src="https://files.readme.io/9b5162bacf5f3ac36b0200401aa0441bd609545eaf01e789087d520c1455ca64-DX_freight_logo.png" width="155px" alt="thumbnail" />
+  <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/dx#/versions" Width="200">
+    <Image align="center" src="https://files.readme.io/b2686904eb7df8eec99dad01e8e3e65ace3b11db405ce5bbc60c338df134b61a-DX_express_white_logo.png" width="100px" />
   </Card>
 
-  <Card title="" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/evri#/" Width="200">
-    <Image align="center" src="https://files.readme.io/49cf864b835a4e2de7c4ebfd3cea85e552a3a27790c9dd755e39162cdb71c63e-image.png" width="150px" alt="thumbnail" />
+  <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/dx-freight#/versions" Width="200">
+    <Image align="center" src="https://files.readme.io/0a8f1f258eff90fce46730119559f05509d2577e564893ae6b78d6983b0e0a59-DX_freight_white_logo.png" width="100px" />
   </Card>
 
-  <Card title="" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/fedex#/" Width="200">
-    <Image align="center" src="https://files.readme.io/88a7599e1a64e2eb5cd20cc992a3a87dc3b68ebb766615ba6766c7f560586e5e-FedEx_White_BG.png" width="160px" alt="thumbnail" />
+  <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/evri#/versions" Width="200">
+    <Image align="center" src="https://files.readme.io/977a78885d79ebc4bb392dffe091cba218e3a1a43bb54918112a117de9c20850-EVRi_white_logo.png" width="100px" />
   </Card>
 
-  <Card title="" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/inpost#/" Width="200">
-    <Image align="center" src="https://files.readme.io/c9a342d05f1245bceed832bf7bb489e46969f9bddf8cb6b92007139484f4cf6b-InPost_logo.png" width="160px" alt="thumbnail" />
+  <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/fedex#/versions" Width="200">
+    <Image align="center" src="https://files.readme.io/3177ea019148646dc790839b457550d5afb4b97147964716a495af50c67c3470-FedEx_white_logo.png" width="100px" />
   </Card>
 
-  <Card title="" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/the-delivery-group#/" Width="200">
-    <Image align="center" src="https://files.readme.io/b5aa9b3a487e32e4187f0ceb0350547aed7b781d0e5ceed3af44d7f93124526e-TDG_white_logo.png" width="140px" alt="thumbnail" />
+  <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/inpost#/versions" Width="200">
+    <Image align="center" src="https://files.readme.io/fd33881958476474461aeb2782e3edb82cf11e91765108544679a189497f4dda-InPost_white_logo.png" width="100px" />
   </Card>
 
-  <Card title="" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/ups#/" Width="200">
-    <Image align="center" src="https://files.readme.io/84a4a5263deb06eda05f635353182a78211838764f54b2dd5d50f170cd40cc57-UPS_logo_white.png" width="160px" alt="thumbnail" />
+  <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/the-delivery-group#/versions" Width="200">
+    <Image align="center" src="https://files.readme.io/08b253597544c513c34b80c3d4deaf361e4b993ccd4d29daab55599486a2c31f-TDG_white_logo.png" width="100px" />
   </Card>
 
-  <Card title="" href="https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/yodel#/" Width="200">
-    <Image align="center" src="https://files.readme.io/61c486262839c956e4cc9acbe36948996187ed1caf5a9e2298414d5efc63fd2b-Yodel_logo_white.png" alt="thumbnail" />
+  <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/ups#/versions" Width="200">
+    <Image align="center" src="https://files.readme.io/24ba24bb987cd0636f2f1194aa88345f6ddba59ad5e0fa03a6568a3911941bea-UPS_logo_white.png" width="100px" />
+  </Card>
+
+  <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/yodel#/versions" Width="200">
+    <Image align="center" src="https://files.readme.io/2e73b38cea3124ccafc735e816750a46eb26141d65f142460b218d8f6985fd2f-Yodel_logo_white.png" width="100px" />
   </Card>
 </Cards>
