@@ -10,7 +10,7 @@ hidden: false
 metadata:
   robots: index
 ---
-<Image align="center" border={false} width="100px" src="https://files.readme.io/c9a342d05f1245bceed832bf7bb489e46969f9bddf8cb6b92007139484f4cf6b-InPost_logo.png" />
+<Image align="center" border={false} width="150px" src="https://files.readme.io/c9a342d05f1245bceed832bf7bb489e46969f9bddf8cb6b92007139484f4cf6b-InPost_logo.png" />
 
 ***
 
