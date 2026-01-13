@@ -85,7 +85,7 @@ next:
   </Card>
 
   <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/yodel#/versions" Width="200">
-    <Image align="center" src="https://files.readme.io/61c486262839c956e4cc9acbe36948996187ed1caf5a9e2298414d5efc63fd2b-Yodel_logo_white.png" alt="thumbnail" />
+    <Image align="center" border={false} width="100px" src="https://files.readme.io/18b7b7236ea6945acf63b9451238228029c66f61844eaf365648a152181c1878-Yodel_logo_white.png" />
   </Card>
 </Cards>
 
@@ -128,5 +128,7 @@ next:
     > See our 99.9% uptime API status
   </Card>
 </Cards>
+
+<Image align="center" border={false} width="100px" src="https://files.readme.io/18b7b7236ea6945acf63b9451238228029c66f61844eaf365648a152181c1878-Yodel_logo_white.png" />
 
 <br />
