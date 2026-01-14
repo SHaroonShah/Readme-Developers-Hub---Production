@@ -43,7 +43,7 @@ next:
   </Card>
 </Cards>
 
-<Banner isInline={true} message="Carrier Guides" color="#ffb600" textColor="#ffffff" fontSize="20px" fontWeight="bold" />
+<Banner isInline={true} message="SAPIENT Carrier Integration Guides" color="#ffb600" textColor="#ffffff" fontSize="20px" fontWeight="bold" />
 
 <Banner isInline={true} message="" color="#ffb600" textColor="#ffffff" fontSize="14px" fontWeight="bold" />
 
