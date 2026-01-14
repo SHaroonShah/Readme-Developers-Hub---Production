@@ -27,19 +27,19 @@ next:
 
 <Cards columns={4}>
   <Card title="Getting Started" href="https://docs.intersoftsapient.net/v4.02/docs/getting-started-with-sapient-api#/versions" icon="fa-animation fa-plug" target="_blank">
-   > Build your integration with our API solution with minimal effort.
+     Build your integration with our API solution with minimal effort.
   </Card>
 
   <Card title="System User Guides" href="https://docs.intersoftsapient.net/v4.02/docs/system-user-guides#/versions" icon="fa-book-open">
-   > Learn how to interact with the SAPIENT UI in the most efficient way.
+     Learn how to interact with the SAPIENT UI in the most efficient way.
   </Card>
 
   <Card title="Workflows" href="https://docs.intersoftsapient.net/v4.02/docs/shipment-creation-and-manifesting#/versions" icon="fa-solid fa-arrow-progress">
-   > Learn about creating shipments and manifesting.
+     Learn about creating shipments and manifesting.
   </Card>
 
   <Card title="Activate Integration" href="https://docs.intersoftsapient.net/v4.02/docs/integration-activation#/versions" icon="fa-solid fa-circle-play">
-  >  Seamlessly connect with our existing carriers and manage your shipping operations from a single platform.
+     Seamlessly connect with our existing carriers and manage your shipping operations from a single platform.
   </Card>
 </Cards>
 
@@ -121,15 +121,15 @@ next:
 
 <Cards columns="3">
   <Card title="Glossary" href="https://docs.intersoftsapient.net/v4.02/docs/glossary-1#/versions" icon="fa-solid fa-arrow-down-a-z">
-    > Explore industry-wide terms and definitions used in SAPIENT.
+     Explore industry-wide terms and definitions used in SAPIENT.
   </Card>
 
   <Card title="Support" href="https://intersoftuk-servicedesk.atlassian.net/servicedesk/customer/portal/1" icon="fa-solid fa-comments-question-check">
-    > Contact our Support Team for assistance.
+     Contact our Support Team for assistance.
   </Card>
 
   <Card title="Status" href="https://www.readmestatus.com" icon="fa-solid fa-battery-bolt">
-    > See our 99.9% uptime API status.
+     See our 99.9% uptime API status.
   </Card>
 </Cards>
 
