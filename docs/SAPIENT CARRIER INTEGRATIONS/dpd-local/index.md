@@ -8,6 +8,7 @@ excerpt: >-
   UK, offering both domestic and international shipping services.
 deprecated: false
 hidden: true
+icon: fad fa-truck-fast
 metadata:
   robots: index
 ---
