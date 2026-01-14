@@ -9,6 +9,7 @@ excerpt: >-
   mailing services but also banking and government services.
 deprecated: false
 hidden: false
+icon: fad fa-truck-fast
 metadata:
   robots: index
 ---
