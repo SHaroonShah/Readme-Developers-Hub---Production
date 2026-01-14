@@ -8,6 +8,7 @@ excerpt: >-
   array of services, including ground shipping, air freight, and much more.
 deprecated: false
 hidden: false
+icon: fad fa-truck-fast
 metadata:
   title: ''
   description: ''
