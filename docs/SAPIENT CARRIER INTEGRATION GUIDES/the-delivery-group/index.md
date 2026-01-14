@@ -14,7 +14,7 @@ metadata:
 next:
   description: ''
 ---
-<Image align="center" border={false} width="100px" src="https://files.readme.io/286a64f989b3a1aabc9c959e88aeec2a6247d843683e6817ed6411711de16c8f-TDG_logo.png" />
+<Image align="center" border={false} width="900px" src="https://files.readme.io/79449f551fdc59a798a190db96a351020b9c97a2f34998ca7b6f1d0acfbf4691-TDG_white_banner.png" />
 
 ***
 
