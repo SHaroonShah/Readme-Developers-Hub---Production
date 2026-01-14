@@ -31,11 +31,11 @@ next:
   </Card>
 
   <Card title="System User Guides" href="https://docs.intersoftsapient.net/v4.02/docs/system-user-guides#/versions" icon="fa-book-open">
-    Learn how to interact with the SAPIENT UI in the most efficient way
+    Learn how to interact with the SAPIENT UI in the most efficient way.
   </Card>
 
   <Card title="Workflows" href="https://docs.intersoftsapient.net/v4.02/docs/shipment-creation-and-manifesting#/versions" icon="fa-solid fa-arrow-progress">
-    Learn about creating shipments and manifesting
+    Learn about creating shipments and manifesting.
   </Card>
 
   <Card title="Activate Integration" href="https://docs.intersoftsapient.net/v4.02/docs/integration-activation#/versions" icon="fa-solid fa-circle-play">
