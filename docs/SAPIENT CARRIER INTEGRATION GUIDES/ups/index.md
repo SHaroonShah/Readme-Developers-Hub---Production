@@ -20,7 +20,7 @@ next:
       slug: shipping-account-setup
       title: UPS shipping account setup
 ---
-<Image align="center" border={false} width="60px" src="https://files.readme.io/afec4e485f461b873476f04e7712572b474ba6552fdacea5d984530b5e16cd5b-image.png" />
+<Image align="center" border={false} width="900px" src="https://files.readme.io/1efbc69974d8c513405bf78d99ce1607bc40f3d646b3cd90bed19cdd8e454ad8-UPS_white_banner.png" />
 
 ***
 
