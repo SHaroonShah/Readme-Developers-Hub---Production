@@ -7,6 +7,10 @@ icon: fad fa-truck-fast
 metadata:
   robots: index
 ---
+<Image align="center" border={false} width="900px" src="https://files.readme.io/ec7877a4210f964edd4030c4599be01a423d26d55a53f64019ff4604a52ef069-DPD_white_banner.png" />
+
+***
+
 DPD are one of the leading delivery carriers in the UK, shipping domestically and internationally, offering a range of next-day and timed delivery with our 1-hour delivery window sent to customers via text or email on the morning of delivery, DPD also offer worldwide deliveries.
 
 ## Key features
