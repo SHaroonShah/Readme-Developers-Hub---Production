@@ -7,6 +7,7 @@ excerpt: >-
   services, focusing on delivering parcels, documents, and heavy items.
 deprecated: false
 hidden: false
+icon: fad fa-truck-fast
 metadata:
   title: ''
   description: ''
