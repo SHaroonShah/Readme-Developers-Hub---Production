@@ -15,7 +15,7 @@ metadata:
 next:
   description: ''
 ---
-<Image align="center" border={false} width="130px" src="https://files.readme.io/160d38a06e94f72bb4eed1107cfb82c795f7bb915566bfa72eb3b8b3698bf38d-DX_express_logo.png" />
+<Image align="center" border={false} width="900px" src="https://files.readme.io/18184b139f3c15f60566ae06ce4aacb8b6f3255b216fe298f6f8c971a8337e73-DX_Express_white_banner.png" />
 
 ***
 
