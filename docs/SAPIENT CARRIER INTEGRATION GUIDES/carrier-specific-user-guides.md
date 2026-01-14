@@ -1,8 +1,9 @@
 ---
 title: SAPIENT carrier integration GUIDES
 excerpt: >-
-  Carrier-specific user guides are comprehensive resources that provide detailed
-  instructions and information tailored to specific shipping carriers.
+  SAPIENT carrier integration user guides are comprehensive resources that
+  provide detailed instructions and information tailored to specific shipping
+  carriers.
 deprecated: false
 hidden: false
 icon: fad fa-truck-arrow-right
