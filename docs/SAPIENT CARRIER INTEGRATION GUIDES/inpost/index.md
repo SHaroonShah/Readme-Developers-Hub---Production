@@ -11,7 +11,7 @@ icon: fad fa-truck-fast
 metadata:
   robots: index
 ---
-<Image align="center" border={false} width="100px" src="https://files.readme.io/c9a342d05f1245bceed832bf7bb489e46969f9bddf8cb6b92007139484f4cf6b-InPost_logo.png" />
+<Image align="center" border={false} width="900px" src="https://files.readme.io/75762ee66dc10880c8cfd75e2d683174396ef3ed0fd727fd959f2eb44e013de6-InPost_white_banner.png" />
 
 ***
 
