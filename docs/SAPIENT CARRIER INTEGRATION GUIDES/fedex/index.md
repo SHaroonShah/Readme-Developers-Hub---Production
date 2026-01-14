@@ -16,7 +16,7 @@ metadata:
 next:
   description: ''
 ---
-<Image align="center" border={false} width="100px" src="https://files.readme.io/88a7599e1a64e2eb5cd20cc992a3a87dc3b68ebb766615ba6766c7f560586e5e-FedEx_White_BG.png" />
+<Image align="center" border={false} width="900px" src="https://files.readme.io/094a6ea764d7d28798166aaaafe13e3fbe491279d79b1fd691766a419eb13352-FedEx_white_banner.png" />
 
 ***
 
