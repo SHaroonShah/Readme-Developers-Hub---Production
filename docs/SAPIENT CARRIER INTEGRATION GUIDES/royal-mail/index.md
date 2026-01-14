@@ -18,7 +18,7 @@ next:
       title: Royal Mail shipping account setup
       type: basic
 ---
-<Image align="center" border={false} width="1000px" src="https://files.readme.io/d4120789d0d537740a4ace3f889bb8e909087028391ef94204830c884cc243f9-RM_white_banner.png" />
+<Image align="center" border={false} width="900px" src="https://files.readme.io/d4120789d0d537740a4ace3f889bb8e909087028391ef94204830c884cc243f9-RM_white_banner.png" />
 
 ***
 
