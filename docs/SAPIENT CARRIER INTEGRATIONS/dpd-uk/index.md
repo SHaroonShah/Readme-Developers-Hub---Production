@@ -3,6 +3,7 @@ title: DPD UK
 excerpt: "DPD is part of Geopost, one of the world leading parcel delivery networks operating in more than 50 countries.\_"
 deprecated: false
 hidden: false
+icon: fad fa-truck-fast
 metadata:
   robots: index
 ---
