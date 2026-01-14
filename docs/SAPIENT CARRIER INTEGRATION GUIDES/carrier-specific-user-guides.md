@@ -1,5 +1,5 @@
 ---
-title: SAPIENT carrier integrations
+title: SAPIENT carrier integration GUIDES
 excerpt: >-
   Carrier-specific user guides are comprehensive resources that provide detailed
   instructions and information tailored to specific shipping carriers.
