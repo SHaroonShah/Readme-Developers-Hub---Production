@@ -15,7 +15,7 @@ metadata:
 next:
   description: ''
 ---
-<Image align="center" border={false} width="130px" src="https://files.readme.io/9b5162bacf5f3ac36b0200401aa0441bd609545eaf01e789087d520c1455ca64-DX_freight_logo.png" />
+<Image align="center" border={false} width="900px" src="https://files.readme.io/ed4b0e49c08719ebbc9ac569d952798457c6cf7205c33335f35fa9bc462e65e3-DX_Freight_white_banner.png" />
 
 ***
 
