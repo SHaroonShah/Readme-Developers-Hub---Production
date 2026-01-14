@@ -121,7 +121,7 @@ next:
 
 <Cards columns="3">
   <Card title="Glossary" href="https://docs.intersoftsapient.net/v4.02/docs/glossary-1#/versions" icon="fa-solid fa-arrow-down-a-z">
-    > Explore industry-wide terms and definitions used in SAPIENT
+    > Explore industry-wide terms and definitions used in SAPIENT.
   </Card>
 
   <Card title="Support" href="https://intersoftuk-servicedesk.atlassian.net/servicedesk/customer/portal/1" icon="fa-solid fa-comments-question-check">
@@ -129,7 +129,7 @@ next:
   </Card>
 
   <Card title="Status" href="https://www.readmestatus.com" icon="fa-solid fa-battery-bolt">
-    > See our 99.9% uptime API status
+    > See our 99.9% uptime API status.
   </Card>
 </Cards>
 
