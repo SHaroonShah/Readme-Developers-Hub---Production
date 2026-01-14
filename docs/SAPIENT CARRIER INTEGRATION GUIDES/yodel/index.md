@@ -20,7 +20,7 @@ next:
       slug: shipping-account-setup-1
       title: Yodel shipping account setup
 ---
-<Image align="center" border={false} width="120px" src="https://files.readme.io/6bb2b97788b8ae71adbb45e1d2c1d8095e6ea532a364aafbf784365c823c24ba-image.png" />
+<Image align="center" border={false} width="900px" src="https://files.readme.io/3d6b9cd3a2a729d7bb30ada0f5836b3330a213d5425aa775cd814a13b958e44d-YODEL_white_banner.png" />
 
 ***
 
