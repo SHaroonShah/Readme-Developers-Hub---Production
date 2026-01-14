@@ -6,6 +6,7 @@ excerpt: >-
   over 200 countries, handling final mile delivery via partner couriers. 
 deprecated: false
 hidden: true
+icon: fad fa-truck-fast
 metadata:
   robots: index
 ---
