@@ -59,8 +59,8 @@ The DPD UK integration provides the following additional features:
 The following API services are provided by the DPD UK integration:
 
 * **Label integration**: The system generates the label by populating a stored label template with the relevant shipment data.
-* **Manifest integration** (via SFTP): A crucial API for DPD UK that generates an electronic manifest data file in the SAPIENT's default PDF format and send it to DPD UK via SFTP.
-* **Tracking integration** (via SFTP): Enables data files to be sent via SFTP and received through the SAPIENT tracking webhook.
+* **Manifest integration**: A crucial API for DPD UK that generates an electronic manifest data file in the SAPIENT's default PDF format and send it to DPD UK via SFTP.
+* **Tracking integration**: Enables data files to be sent via SFTP and received through the SAPIENT tracking webhook.
 
 ***
 
