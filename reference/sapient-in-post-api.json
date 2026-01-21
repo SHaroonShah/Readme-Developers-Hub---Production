@@ -86,7 +86,7 @@
                     "value": {
                       "ShippingAccounts": [
                         {
-                          "ShippingAccountId": "db61d235-80d0-4fe5-88e4-b2a0b1d3468f",
+                          "ShippingAccountId": "0b54abd7-2660-43ea-9d82-a2ea8ea7ecd3",
                           "CarrierCode": "INPOST",
                           "AccountNumber": "IN0000001",
                           "AccountType": "Sandbox",
@@ -96,11 +96,11 @@
                           "ContactName": "John Smith",
                           "ContactNumber": "0123456789",
                           "LastUpdatedBy": "User A",
-                          "LastUpdatedDateUtc": "2025-10-29T09:11:06.073Z",
+                          "LastUpdatedDateUtc": "2026-01-21T10:00:39.324Z",
                           "ClientId": "example@inpost.co.uk"
                         },
                         {
-                          "ShippingAccountId": "754ccb50-0b57-4bb0-968b-b994d30b32e3",
+                          "ShippingAccountId": "4ed002b8-baa5-44ec-b4a7-d2e2cb0daa7d",
                           "CarrierCode": "INPOST",
                           "AccountNumber": "IN0000007",
                           "AccountType": "Sandbox",
@@ -110,7 +110,7 @@
                           "ContactName": "Joan Smith",
                           "ContactNumber": "0123456789",
                           "LastUpdatedBy": "User B",
-                          "LastUpdatedDateUtc": "2025-10-29T09:11:06.073Z",
+                          "LastUpdatedDateUtc": "2026-01-21T10:00:39.324Z",
                           "ClientId": "example2@inpost.co.uk"
                         }
                       ],
@@ -260,7 +260,7 @@
                 "examples": {
                   "Response": {
                     "value": {
-                      "ShippingAccountId": "bf3c8f1d-3935-401a-8b35-86d216a8033b",
+                      "ShippingAccountId": "161ee768-a5e5-4047-b26d-628f24e09abb",
                       "CarrierCode": "INPOST",
                       "AccountNumber": "IN0000001",
                       "AccountType": "Sandbox",
@@ -270,7 +270,7 @@
                       "ContactName": "John Smith",
                       "ContactNumber": "0123456789",
                       "LastUpdatedBy": "User A",
-                      "LastUpdatedDateUtc": "2025-10-29T09:11:06.600Z",
+                      "LastUpdatedDateUtc": "2026-01-21T10:00:39.600Z",
                       "ClientId": "example@inpost.co.uk"
                     }
                   }
@@ -653,7 +653,7 @@
                       "ServiceCode": "B2C",
                       "DescriptionOfGoods": "Clothing",
                       "BusinessTransactionType": "B2C",
-                      "ShipmentDate": "2025-10-29",
+                      "ShipmentDate": "2026-01-21",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
@@ -661,8 +661,8 @@
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "1c0d7314-c3b1-40f1-812a-c156d22d5274",
-                      "ShippingLocationId": "efe4405b-9b03-4c6d-9087-5a045d655fc9",
+                      "ShippingAccountId": "f8a9365a-ae10-4a99-8607-e9c9c2954512",
+                      "ShippingLocationId": "ca423010-c5af-4e57-a060-738bc301b9c7",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -754,14 +754,14 @@
                       "ContentType": "NDX",
                       "ServiceCode": "B2C",
                       "DescriptionOfGoods": "Clothing",
-                      "ShipmentDate": "2025-10-29",
+                      "ShipmentDate": "2026-01-21",
                       "DeclaredWeight": 1.5,
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "8c077329-28b0-484e-b59a-69fa62c8c0e6",
-                      "ShippingLocationId": "7f1fd2a1-90cc-401e-9ec4-1ecdb1c9fcb2",
+                      "ShippingAccountId": "47e14946-ae03-4ca5-b7cd-60c1b5acf3bb",
+                      "ShippingLocationId": "295e805f-2bae-4a23-bc84-eb6badfb34e2",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -791,13 +791,13 @@
                       "ContentType": "NDX",
                       "ServiceCode": "RETURNS",
                       "DescriptionOfGoods": "Clothing",
-                      "ShipmentDate": "2025-10-29",
+                      "ShipmentDate": "2026-01-21",
                       "DeclaredWeight": 1.5,
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "161b63f7-0627-48d3-b452-dfedb2722569"
+                      "ShippingAccountId": "5332dfa6-3581-4392-9e9d-06e5b0eeb05a"
                     },
                     "Destination": {
                       "Address": {
@@ -837,7 +837,7 @@
                       "LabelFormat": "Pdf",
                       "Packages": [
                         {
-                          "ShipmentId": "262bb531-3f1d-4732-9ecf-067fabe5f6a2",
+                          "ShipmentId": "0aa5dc78-6422-4851-9bea-94556d392e5c",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "MD000000004409629",
                           "CarrierTrackingUrl": "https://tracking.inpost.co.uk/api/v2.0/MD000000004409629"
@@ -933,7 +933,7 @@
                 "examples": {
                   "PDF": {
                     "value": {
-                      "ShipmentId": "b1284fc7-02a9-4def-abd9-9840868361c4",
+                      "ShipmentId": "75358300-1e8b-41ab-b5f1-de2a75d5b078",
                       "TrackingNumber": "5949545283154118",
                       "CarrierTrackingUrl": "https://tracking.inpost.co.uk/api/v2.0/5949545283154118",
                       "Label": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
@@ -1024,7 +1024,7 @@
             "maxLength": 100,
             "minLength": 1,
             "type": "string",
-            "description": "A unique user-defined identifier for the shipping location, providing a convenient way to identify it, for example,  Home or Warehouse.",
+            "description": "A user-defined identifier for the shipping location. This information allows greater flexibility in recognising and referring to the location.",
             "example": "Main Warehouse"
           },
           "Timezone": {
@@ -1036,7 +1036,7 @@
           },
           "IsDefaultLocation": {
             "type": "boolean",
-            "description": "A boolean value indicating whether the shipping location is set as the default for shipping operations.\r<br />\r<br />***Note:** If true, then this location is set as the default one.Otherwise, it is set to false. The shipping account must have at least one default location.*",
+            "description": "A boolean value indicating whether the shipping location is set as the default for shipping operations, streamlining the selection process during shipments.\r<br />If the location is set as the default one, the customers no longer need to specify the location for every shipment request, reducing the risk of errors and delays. It enhances consistency by ensuring that all shipments are directed to the same default location.\r<br />\r<br />***Note:** If true, then this location is set as the default one. Otherwise, it is set to false.*\r<br />\r<br /> Enum [true, false]",
             "nullable": true,
             "example": false
           },
@@ -1071,7 +1071,7 @@
           "AddressId": {
             "maxLength": 70,
             "type": "string",
-            "description": "A unique identifier for the new shipping location that will be associated with the shipping account being added.\r<br />\r<br />***Note:** If this information is provided, then all the address fields will be ignored and the relevant information will be used from the addresses stored in the **Address Book**.*",
+            "description": "A unique identifier for the address associated with the shipping location. This ID serves as a reference point, allowing users to easily access, manage, and differentiate between different addresses stored in the system.\r<br />\r<br />***Note:** This ID is stored in the system's address book. If this information is provided, then all the fields under the **Address** object are ignored and the stored address in the **Address Book** will be used.*",
             "nullable": true,
             "example": "John Brown Default"
           },
@@ -1121,7 +1121,7 @@
             "maxLength": 2,
             "minLength": 2,
             "type": "string",
-            "description": "An abbreviation representing the country of the shipping location, typically following the ISO 3166-1 alpha-2 standard, for example,  \"GB\" for the United Kingdom.\r<br />\r<br />***Note**: This information is required if the address is not used from the stored addresses in the **Address Book***",
+            "description": "An abbreviation representing the country of the shipping location, following the ISO 3166-1 alpha-2 standard, for example, \"GB\" for the United Kingdom.\r<br />\r<br />***Note**: This information is only required if the address is not used from the stored addresses in the  **Address Book***",
             "nullable": true,
             "example": "GB"
           },
@@ -1134,7 +1134,7 @@
           "ContactPhone": {
             "maxLength": 20,
             "type": "string",
-            "description": "The contact phone number associated with the shipping location, facilitating communication regarding shipments or deliveries.\r<br />\r<br />***Note:** If the shipper address is not provided for the Create Shipment request, this information is used as the shipper's contact phone number for this location, instead of the shipping account contact phone number. Characters like +, /, -, or space are supported.*",
+            "description": "The contact phone number associated with the shipping location, facilitating communication regarding shipments or deliveries.\r<br />\r<br />***Note:** Characters like +, /, -, or space are supported.*",
             "format": "tel",
             "nullable": true,
             "example": "07123887422"
@@ -1372,7 +1372,7 @@
             "maxLength": 2,
             "minLength": 2,
             "type": "string",
-            "description": "An abbreviation representing the country of the shipping location, typically following the ISO 3166-1 alpha-2 standard, for example,  \"GB\" for the United Kingdom.\r<br />\r<br />***Note**: This information is required if the address is not used from the stored addresses in the **Address Book***",
+            "description": "An abbreviation representing the country of the shipping location, following the ISO 3166-1 alpha-2 standard, for example, \"GB\" for the United Kingdom.\r<br />\r<br />***Note**: This information is only required if the address is not used from the stored addresses in the  **Address Book***",
             "nullable": true,
             "example": "GB"
           },
@@ -2085,6 +2085,14 @@
             "nullable": true,
             "example": 145
           },
+          "ImageURL": {
+            "maxLength": 1000,
+            "type": "string",
+            "description": "This field provides the URL of the product image with the shipment details. This helps customers visually identify the product when selecting items for return in the Returns system.",
+            "format": "uri",
+            "nullable": true,
+            "example": "https://yourcompany.com/images/product.jpg"
+          },
           "HSCode": {
             "type": "string",
             "description": "The Harmonized System (HS) code used by customs to determine potential duties and taxes for the product. This code ranges from 6 to 13 alphanumeric characters, depending on specific services or destinations. Some countries may also use the HS codes of other character lengths.\r<br />\r<br />***Note:** Characters like space and dot are supported.*\r<br />\r<br />For more information on HS Codes and to find the correct HS Codes for your items, refer to the following link:  https://www.gov.uk/trade-tariff",
@@ -2119,7 +2127,7 @@
           "PNG"
         ],
         "type": "string",
-        "description": "Sets the label format that will be returned in the createShipment Response.\r<br />Valid values are:\r<br />**PDF** - returns a Base64-encoded PDF\r<br />**PNG** - returns a Base64-enconded PNG\r<br />Defaults to PDF if not populated."
+        "description": "Sets the label format that will be returned in the createShipment Response.\r<br />Valid values are:\r<br />**PDF** - returns a Base64-encoded PDF\r<br />**PNG** - returns a Base64-encoded PNG\r<br />Defaults to PDF if not populated."
       },
       "LabelFormatPackageResponseDetailsCreateShipmentResponse": {
         "type": "object",
@@ -2318,7 +2326,7 @@
             "maxLength": 2,
             "minLength": 2,
             "type": "string",
-            "description": "An abbreviation representing the country of the shipping location, typically following the ISO 3166-1 alpha-2 standard, for example,  \"GB\" for the United Kingdom.\r<br />\r<br />***Note**: This information is required if the address is not used from the stored addresses in the **Address Book***",
+            "description": "An abbreviation representing the country of the shipping location, following the ISO 3166-1 alpha-2 standard, for example, \"GB\" for the United Kingdom.\r<br />\r<br />***Note**: This information is only required if the address is not used from the stored addresses in the  **Address Book***",
             "nullable": true,
             "example": "GB"
           },
@@ -2442,7 +2450,7 @@
           "Line1": {
             "maxLength": 50,
             "type": "string",
-            "description": "The first line of the address, typically containing the primary address information such as house number and street name. <br/> <br/> ***Note:** Characters like +, /, -, or space are supported.*",
+            "description": "The first line of the address, typically containing the primary address information such as house number and street name. <br /><br />***Note:** This information is required if the address is not used from the stored addresses in the **Address Book**.*",
             "nullable": true,
             "example": "Brown Cottage"
           },
@@ -2463,21 +2471,21 @@
           "Town": {
             "maxLength": 50,
             "type": "string",
-            "description": "The town or city, indicating the specific locality where the shipping location is situated. <br/> <br/> ***Note:** This information is required if the address is not used from the stored addresses in the **Address Book**.*",
+            "description": "The town or city, indicating the specific locality where the shipping location is situated. <br /><br />***Note:** This information is required if the address is not used from the stored addresses in the **Address Book**.*",
             "nullable": true,
             "example": "Christchurch"
           },
           "Postcode": {
             "maxLength": 20,
             "type": "string",
-            "description": "The postal or ZIP code corresponding to the shipping location, used for mail sorting and to identify specific geographic areas.<br/> <br/> ***Note:** This information is only required for the addresses in the UK and for some outside it. To check for the postcode requirements, refer to the **Countries** API.*",
+            "description": "The postal or ZIP code corresponding to the shipping location, used for mail sorting and to identify specific geographic areas. <br /><br />***Note:** This information is required for the addresses in the UK and a for some outside it. To check for the postcode requirements, refer to the **Countries** API.*",
             "nullable": true,
             "example": "TW20 0HJ"
           },
           "County": {
             "maxLength": 50,
             "type": "string",
-            "description": "The county, state, or province in which the shipping location resides, providing additional geographical context for the address.<br/> <br/> ***Note:** This information may be required depending on the country. If the country is USA, Australia, or Canada, then it must be a valid state code or name, respectively. To check for the county/state/province requirements, refer to the **Countries** API.*",
+            "description": "The county, state, or province in which the shipping location resides, providing additional geographical context for the address.<br /> <br />***Note:** This information may be required depending on the country. If the country is USA, Australia, or Canada, then it must be a valid state code or name, respectively. To check for the county/state/province requirements, refer to the **Countries** API.*",
             "nullable": true,
             "example": "Surrey"
           },
@@ -2523,19 +2531,19 @@
         "properties": {
           "ShippingLocationId": {
             "type": "string",
-            "description": "A unique identifier for the shipping location assigned by the system, allowing users to reference and manage specific locations effectively.",
+            "description": "A unique identifier for the shipping location assigned by the system (shippingLocationId), allowing users to reference and manage specific locations effectively.",
             "format": "uuid"
           },
           "LocationAlias": {
             "maxLength": 100,
             "minLength": 1,
             "type": "string",
-            "description": "A unique, user-defined identifier for the shipping location, providing a convenient way to identify it, for example,  Home or Warehouse.",
+            "description": "A unique user-defined identifier for the shipping location, providing a convenient way to identify it, for example,  Home or Warehouse.",
             "example": "Main Warehouse"
           },
           "IsDefaultLocation": {
             "type": "boolean",
-            "description": "A boolean value indicating whether the shipping location is set as the default for shipping operations, streamlining the selection process during shipments.",
+            "description": "A boolean value indicating whether the shipping location is set as the default for shipping operations, streamlining the selection process during shipping.\r<br />\r<br />***Note:** If true, then this location is set as the default one. Otherwise, it is set to false.*",
             "example": false
           },
           "Timezone": {
@@ -2580,14 +2588,13 @@
             "type": "string",
             "description": "An optional second line for the address, often used for additional details like apartment numbers or suite designations.",
             "nullable": true,
-            "example": "10 Sky Lane"
+            "example": "Brown Cottage"
           },
           "Line3": {
             "maxLength": 50,
             "type": "string",
             "description": "A third optional line in the address to include any further address specifications, allowing for more detailed address information if necessary.",
-            "nullable": true,
-            "example": "Hills End"
+            "nullable": true
           },
           "Town": {
             "maxLength": 50,
@@ -2606,7 +2613,7 @@
           "County": {
             "maxLength": 50,
             "type": "string",
-            "description": "The county, state, or province in which the shipping location resides, providing additional geographical context for the address.<br/> <br/> ***Note:** This information may be required depending on the country. If the country is USA, Australia, or Canada, then it must be a valid state code or name, respectively. To check for the county/state/province requirements, refer to the **Countries** API.*",
+            "description": "The county, state, or province in which the shipping location resides, providing additional geographical context for the address.",
             "nullable": true,
             "example": "Surrey"
           },
@@ -2614,7 +2621,7 @@
             "maxLength": 2,
             "minLength": 2,
             "type": "string",
-            "description": "An abbreviation representing the country of the shipping location, typically following the ISO 3166-1 alpha-2 standard, for example,  \"GB\" for the United Kingdom.\r<br />\r<br />***Note**: This information is required if the address is not used from the stored addresses in the **Address Book***",
+            "description": "An abbreviation representing the country of the shipping location, following the ISO 3166-1 alpha-2 standard, for example,  \"GB\" for the United Kingdom.",
             "nullable": true,
             "example": "GB"
           },
@@ -2649,14 +2656,14 @@
         "properties": {
           "ShippingLocationId": {
             "type": "string",
-            "description": "A unique identifier for the shipping location assigned by the system, allowing users to reference and manage specific locations effectively.",
+            "description": "A unique identifier for the shipping location assigned by the system (shippingLocationId), allowing users to reference and manage specific locations effectively.",
             "format": "uuid"
           },
           "LocationAlias": {
             "maxLength": 100,
             "minLength": 1,
             "type": "string",
-            "description": "A unique, user-defined identifier for the shipping location, providing a convenient way to identify it, for example,  Home or Warehouse.",
+            "description": "A unique user-defined identifier for the shipping location, providing a convenient way to identify it, for example,  Home or Warehouse.",
             "example": "Main Warehouse"
           },
           "Timezone": {
