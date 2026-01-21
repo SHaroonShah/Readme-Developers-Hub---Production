@@ -154,7 +154,7 @@
                         "PostingLocationCode": "2345654321",
                         "ObaAccessCode": "123456",
                         "ReceivingHubCode": "002610",
-                        "ShippingLocationId": "5c1445ab-1032-48d0-92d3-930012b26c77"
+                        "ShippingLocationId": "30a89d7f-4918-4a36-bd40-639ed999ed2a"
                       }
                     ]
                   }
@@ -730,12 +730,12 @@
                       "ContentType": "NDX",
                       "ServiceCode": "CRL1",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2025-10-29",
+                      "ShipmentDate": "2026-01-21",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "45662b9e-3346-436e-bf5c-67dac61ec0af",
+                      "ShippingAccountId": "2b3c7610-8a43-4d6c-ac5b-b1878c2382b8",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -775,15 +775,15 @@
                       "ContentType": "NDX",
                       "ServiceCode": "CRL1",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2025-10-29",
+                      "ShipmentDate": "2026-01-21",
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM",
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "970dd3db-9b41-4ef9-9cf5-5f4deb9c2ca1",
-                      "ShippingLocationId": "90e6bdba-80ba-4b03-b939-d0d249956bdd",
+                      "ShippingAccountId": "f287577f-11f2-4654-88aa-84ea33fd6e49",
+                      "ShippingLocationId": "c5c93096-bd7c-49fe-a122-6ab08fcd072a",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -830,23 +830,23 @@
                     "Items": [
                       {
                         "SkuCode": "SKU123",
-                        "PackageOccurrence": 1,
                         "Quantity": 1,
                         "Description": "White Mens Large T-shirt",
                         "Value": 19.99,
                         "Weight": 0.5,
+                        "ImageURL": "https://yourcompany.com/images/product.jpg",
                         "HSCode": "6109100010",
-                        "CountryOfOrigin": "CN"
+                        "CountryOfOrigin": "GB"
                       },
                       {
                         "SkuCode": "SKU456",
-                        "PackageOccurrence": 1,
                         "Quantity": 2,
                         "Description": "Black Mens Large Jumper",
                         "Value": 32.99,
                         "Weight": 0.3,
+                        "ImageURL": "https://yourcompany.com/images/jumper-black.jpg",
                         "HSCode": "6110113000",
-                        "CountryOfOrigin": "CN"
+                        "CountryOfOrigin": "GB"
                       }
                     ],
                     "ReturnToSender": {
@@ -873,13 +873,13 @@
                       "ContentType": "NDX",
                       "ServiceCode": "OLA",
                       "DescriptionOfGoods": "Clothing",
-                      "ShipmentDate": "2025-10-29",
+                      "ShipmentDate": "2026-01-21",
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "MM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "2081b0e5-339c-4f30-905d-f106af454f7d",
+                      "ShippingAccountId": "204a5dd2-ea9a-4375-9b32-122b87e833f3",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -909,6 +909,7 @@
                         "Description": "White Mens Large T-shirt",
                         "Value": 19.99,
                         "Weight": 0.5,
+                        "ImageURL": "https://yourcompany.com/images/product.jpg",
                         "HSCode": "6109100010",
                         "CountryOfOrigin": "IT"
                       },
@@ -918,6 +919,7 @@
                         "Description": "Black Mens Large Jumper",
                         "Value": 32.99,
                         "Weight": 0.3,
+                        "ImageURL": "https://yourcompany.com/images/jumper-black.jpg",
                         "HSCode": "6110113000",
                         "CountryOfOrigin": "FR"
                       }
@@ -949,15 +951,15 @@
                       "ContentType": "NDX",
                       "ServiceCode": "OLA",
                       "DescriptionOfGoods": "Clothing",
-                      "ShipmentDate": "2025-10-29",
+                      "ShipmentDate": "2026-01-21",
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "MM",
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "9761b489-05dc-48ae-8ffe-09865404a62a",
-                      "ShippingLocationId": "017a768e-02e9-4df4-9ab0-5d25f364de58",
+                      "ShippingAccountId": "2b1bb226-a393-4063-a240-ff38711c11c7",
+                      "ShippingLocationId": "f6f1a347-cc58-4876-8723-18f3ed47d353",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -1011,6 +1013,7 @@
                         "Description": "White Mens Large T-shirt",
                         "Value": 19.99,
                         "Weight": 0.5,
+                        "ImageURL": "https://yourcompany.com/images/product.jpg",
                         "HSCode": "6109100010",
                         "CountryOfOrigin": "CN"
                       },
@@ -1021,6 +1024,7 @@
                         "Description": "Black Mens Large Jumper",
                         "Value": 32.99,
                         "Weight": 0.3,
+                        "ImageURL": "https://yourcompany.com/images/jumper-black.jpg",
                         "HSCode": "6110113000",
                         "CountryOfOrigin": "CN"
                       }
@@ -1034,7 +1038,7 @@
                       "OtherCharges": 32,
                       "QuotedLandedCost": 82.74,
                       "InvoiceNumber": "INV-12345",
-                      "InvoiceDate": "2025-10-29",
+                      "InvoiceDate": "2026-01-21",
                       "ExportLicenceRequired": false,
                       "Airn": "231.002.999-00"
                     },
@@ -1176,13 +1180,13 @@
                       "ContentType": "NDX",
                       "ServiceCode": "TPS",
                       "DescriptionOfGoods": "Aftershave",
-                      "ShipmentDate": "2025-10-29",
+                      "ShipmentDate": "2026-01-21",
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "ab28b897-da37-45f2-8574-e0c6ecf752cf",
+                      "ShippingAccountId": "ccddfc0a-c4ee-4169-88e8-82ea0a80dd77",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -1281,14 +1285,14 @@
                       "ContentType": "NDX",
                       "ServiceCode": "OLA",
                       "DescriptionOfGoods": "Clothing",
-                      "ShipmentDate": "2025-10-29",
+                      "ShipmentDate": "2026-01-21",
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "MM",
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "ad71925c-bd7c-4ed3-8456-599cc6787587",
+                      "ShippingAccountId": "a8ed57f4-ec98-446c-9b70-5069f087015f",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -1325,6 +1329,7 @@
                         "Description": "White Mens Large T-shirt",
                         "Value": 19.99,
                         "Weight": 0.5,
+                        "ImageURL": "https://yourcompany.com/images/product.jpg",
                         "HSCode": "6109100010",
                         "CountryOfOrigin": "IT"
                       },
@@ -1335,6 +1340,7 @@
                         "Description": "Black Mens Large Jumper",
                         "Value": 32.99,
                         "Weight": 0.3,
+                        "ImageURL": "https://yourcompany.com/images/jumper-black.jpg",
                         "HSCode": "6110113000",
                         "CountryOfOrigin": "FR"
                       }
@@ -1362,7 +1368,7 @@
                     "value": {
                       "Packages": [
                         {
-                          "ShipmentId": "4629493b-a9aa-47bd-9d48-44851df26c26",
+                          "ShipmentId": "0a50c278-2e51-4982-9b82-dc866d98e44b",
                           "PackageOccurrence": 1
                         }
                       ]
@@ -1375,7 +1381,7 @@
                           "CarrierDetails": {
                             "UniqueId": "3A07033860010000B2268"
                           },
-                          "ShipmentId": "c78b35b1-dc27-43e9-8314-5b8f95e76d83",
+                          "ShipmentId": "7cd5212c-0dd7-4e85-b717-706e6b8d4c6d",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "TT123456785GB",
                           "CarrierTrackingUrl": "https://www.royalmail.com/track-your-item#/tracking-results/TT123456785GB"
@@ -1392,7 +1398,7 @@
                           "CarrierDetails": {
                             "UniqueId": "4F006978600000137EB39"
                           },
-                          "ShipmentId": "1af1e035-6f67-41cb-8a00-1221d1225637",
+                          "ShipmentId": "e8f5d9be-7e54-47c1-999c-99409f6a42da",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "EO000250025GB",
                           "CarrierTrackingUrl": "https://www.royalmail.com/track-your-item#/tracking-results/EO000250025GB"
@@ -1421,7 +1427,7 @@
                               "Primary1DBarcodeData": "TT123456785GB"
                             }
                           },
-                          "ShipmentId": "17e4ef57-0ae7-44d0-8c98-8ee3d28fa16f",
+                          "ShipmentId": "4e925ab3-d360-4bf5-923e-1877ca9a0f73",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "TT123456785GB",
                           "CarrierTrackingUrl": "https://www.royalmail.com/track-your-item#/tracking-results/TT123456785GB"
@@ -1458,7 +1464,7 @@
                           "CarrierDetails": {
                             "UniqueId": "4F2310202400000AF1E3E"
                           },
-                          "ShipmentId": "b6dcde1e-0a50-4587-8a2b-99fe40cba869",
+                          "ShipmentId": "88f90a66-0042-41d6-aee4-901b104898f5",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "AB123456789GB",
                           "CarrierTrackingUrl": "https://www.royalmail.com/track-your-item#/tracking-results/AB123456789GB"
@@ -1467,7 +1473,7 @@
                           "CarrierDetails": {
                             "UniqueId": "4F2310202400000AF1E4C"
                           },
-                          "ShipmentId": "50355ea9-7df5-4c5b-8a2e-931401805614",
+                          "ShipmentId": "ceedf80b-38c1-4d78-a1c8-bb0dc1e606da",
                           "PackageOccurrence": 2,
                           "TrackingNumber": "AB123456790GB",
                           "CarrierTrackingUrl": "https://www.royalmail.com/track-your-item#/tracking-results/AB123456790GB"
@@ -1490,7 +1496,7 @@
                               "PartnerTrackingUrl": "https://gls-group.com/GROUP/en/parcel-tracking"
                             }
                           },
-                          "ShipmentId": "448bab58-5efc-40cf-9ea5-4888b7f02743",
+                          "ShipmentId": "af2e99f1-554c-474b-8488-c7eb497a5481",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "EO000250025GB",
                           "CarrierTrackingUrl": "https://www.royalmail.com/track-your-item#/tracking-results/EO000250025GB"
@@ -1512,7 +1518,7 @@
                               "PartnerTrackingUrl": "https://gls-group.com/GROUP/en/parcel-tracking"
                             }
                           },
-                          "ShipmentId": "daa94019-7ed1-4abb-bfca-9788dd483234",
+                          "ShipmentId": "47d8488a-0f24-4e94-ae09-bab13740fd34",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "EO000250025GB",
                           "CarrierTrackingUrl": "https://www.royalmail.com/track-your-item#/tracking-results/EO000250025GB",
@@ -1528,7 +1534,7 @@
                               "PartnerTrackingUrl": "https://gls-group.com/GROUP/en/parcel-tracking"
                             }
                           },
-                          "ShipmentId": "fe705c9a-294a-41ae-bb08-404679dc90d2",
+                          "ShipmentId": "d321be5e-17c0-41a9-b63a-e0bc0c8a5498",
                           "PackageOccurrence": 2,
                           "TrackingNumber": "EO000250458GB",
                           "CarrierTrackingUrl": "https://www.royalmail.com/track-your-item#/tracking-results/EO000250458GB",
@@ -1651,7 +1657,8 @@
                           "FormattedUniqueId": "3A-070 338 6001-000 0B2 000",
                           "GazetteerCodes": {
                             "Part1": "L55",
-                            "Part2": "G43"
+                            "Part2": "G43",
+                            "Part3": "SE"
                           },
                           "SecondaryRoutingCode": "NORW",
                           "Primary1DBarcodeImage": "iVBORw0KGgoAAAANSUhE....GgAAABoAQMAAAAn0ifiAAAA",
@@ -1803,8 +1810,8 @@
               "examples": {
                 "Create Collection With Timeslot ID": {
                   "value": {
-                    "SlotReservationId": "7cb6b739-ae27-412b-81ec-cb97391673a8",
-                    "SlotDate": "2025-10-29",
+                    "SlotReservationId": "5f6593cc-a054-4589-bdd4-9565d14bfe73",
+                    "SlotDate": "2026-01-21",
                     "BringMyLabel": false
                   }
                 },
@@ -1912,15 +1919,15 @@
                 },
                 "example": {
                   "ShipmentId": "072d80e4-8f9f-42e4-9c03-6b81a3597ce6",
-                  "SlotReservationId": "da8f1994-0b39-46fd-88b6-d6f5fea0fc80",
-                  "SlotReservationExpiryTime": "2025-10-29T09:21:35.076Z",
+                  "SlotReservationId": "80379f57-51cc-4dfe-a39a-e053cc09540e",
+                  "SlotReservationExpiryTime": "2026-01-21T10:09:50.076Z",
                   "Slots": [
                     {
-                      "SlotDate": "2025-10-30",
+                      "SlotDate": "2026-01-22",
                       "EstimatedWindow": "14:30-16:30"
                     },
                     {
-                      "SlotDate": "2025-10-31",
+                      "SlotDate": "2026-01-23",
                       "EstimatedWindow": "14:30-16:30"
                     }
                   ]
@@ -2086,12 +2093,12 @@
                     {
                       "ContainerId": "South East",
                       "ContainerBarcode": "TT12345678GB",
-                      "CreatedDateUtc": "2025-10-29T09:06:35.708Z",
+                      "CreatedDateUtc": "2026-01-21T09:54:50.767Z",
                       "ShippingLocationAlias": "Northern Warehouse",
                       "ShippingLocationId": "93f6d928-9456-434a-9d69-60f3b7dea091",
                       "ContainerStatus": "Manifested",
                       "DestinationCountryCode": "GB",
-                      "ExportDate": "2025-10-29",
+                      "ExportDate": "2026-01-21",
                       "Mawb": "125-12345678",
                       "RmService": "P",
                       "RmProduct": "T",
@@ -2106,12 +2113,12 @@
                     {
                       "ContainerId": "South West",
                       "ContainerBarcode": "TT12345679GB",
-                      "CreatedDateUtc": "2025-10-28T09:06:35.708Z",
+                      "CreatedDateUtc": "2026-01-20T09:54:50.767Z",
                       "ShippingLocationAlias": "Northern Warehouse",
                       "ShippingLocationId": "93f6d928-9456-434a-9d69-60f3b7dea091",
                       "ContainerStatus": "Active",
                       "DestinationCountryCode": "GB",
-                      "ExportDate": "2025-10-29",
+                      "ExportDate": "2026-01-21",
                       "Mawb": "125-12345678",
                       "RmService": "S",
                       "RmProduct": "O",
@@ -2455,12 +2462,12 @@
                     "value": {
                       "ContainerId": "South East",
                       "ContainerBarcode": "TT12345678GB",
-                      "CreatedDateUtc": "2025-10-29T09:06:36.215Z",
+                      "CreatedDateUtc": "2026-01-21T09:54:51.245Z",
                       "ShippingLocationAlias": "Northern Warehouse",
                       "ShippingLocationId": "93f6d928-9456-434a-9d69-60f3b7dea091",
                       "ContainerStatus": "Active",
                       "DestinationCountryCode": "GB",
-                      "ExportDate": "2025-10-29",
+                      "ExportDate": "2026-01-21",
                       "Mawb": "125-12345678",
                       "RmService": "P",
                       "RmProduct": "T",
@@ -2477,12 +2484,12 @@
                     "value": {
                       "ContainerId": "South East",
                       "ContainerBarcode": "TT12345678GB",
-                      "CreatedDateUtc": "2025-10-29T09:06:36.218Z",
+                      "CreatedDateUtc": "2026-01-21T09:54:51.248Z",
                       "ShippingLocationAlias": "Northern Warehouse",
                       "ShippingLocationId": "93f6d928-9456-434a-9d69-60f3b7dea091",
                       "ContainerStatus": "Active",
                       "DestinationCountryCode": "GB",
-                      "ExportDate": "2025-10-29",
+                      "ExportDate": "2026-01-21",
                       "Mawb": "125-12345678",
                       "RmService": "P",
                       "RmProduct": "T",
@@ -2739,7 +2746,7 @@
             "maxLength": 100,
             "minLength": 1,
             "type": "string",
-            "description": "A unique user-defined identifier for the shipping location, providing a convenient way to identify it, for example,  Home or Warehouse.",
+            "description": "A user-defined identifier for the shipping location. This information allows greater flexibility in recognising and referring to the location.",
             "example": "Main Warehouse"
           },
           "Timezone": {
@@ -2751,7 +2758,7 @@
           },
           "IsDefaultLocation": {
             "type": "boolean",
-            "description": "A boolean value indicating whether the shipping location is set as the default for shipping operations.\r<br />\r<br />***Note:** If true, then this location is set as the default one.Otherwise, it is set to false. The shipping account must have at least one default location.*",
+            "description": "A boolean value indicating whether the shipping location is set as the default for shipping operations, streamlining the selection process during shipments.\r<br />If the location is set as the default one, the customers no longer need to specify the location for every shipment request, reducing the risk of errors and delays. It enhances consistency by ensuring that all shipments are directed to the same default location.\r<br />\r<br />***Note:** If true, then this location is set as the default one. Otherwise, it is set to false.*\r<br />\r<br /> Enum [true, false]",
             "nullable": true,
             "example": false
           },
@@ -2786,7 +2793,7 @@
           "AddressId": {
             "maxLength": 70,
             "type": "string",
-            "description": "A unique identifier for the new shipping location that will be associated with the shipping account being added.\r<br />\r<br />***Note:** If this information is provided, then all the address fields will be ignored and the relevant information will be used from the addresses stored in the **Address Book**.*",
+            "description": "A unique identifier for the address associated with the shipping location. This ID serves as a reference point, allowing users to easily access, manage, and differentiate between different addresses stored in the system.\r<br />\r<br />***Note:** This ID is stored in the system's address book. If this information is provided, then all the fields under the **Address** object are ignored and the stored address in the **Address Book** will be used.*",
             "nullable": true,
             "example": "John Brown Default"
           },
@@ -2836,7 +2843,7 @@
             "maxLength": 2,
             "minLength": 2,
             "type": "string",
-            "description": "An abbreviation representing the country of the shipping location, typically following the ISO 3166-1 alpha-2 standard, for example,  \"GB\" for the United Kingdom.\r<br />\r<br />***Note**: This information is required if the address is not used from the stored addresses in the **Address Book***",
+            "description": "An abbreviation representing the country of the shipping location, following the ISO 3166-1 alpha-2 standard, for example, \"GB\" for the United Kingdom.\r<br />\r<br />***Note**: This information is only required if the address is not used from the stored addresses in the  **Address Book***",
             "nullable": true,
             "example": "GB"
           },
@@ -2849,7 +2856,7 @@
           "ContactPhone": {
             "maxLength": 20,
             "type": "string",
-            "description": "The contact phone number associated with the shipping location, facilitating communication regarding shipments or deliveries.\r<br />\r<br />***Note:** If the shipper address is not provided for the Create Shipment request, this information is used as the shipper's contact phone number for this location, instead of the shipping account contact phone number. Characters like +, /, -, or space are supported.*",
+            "description": "The contact phone number associated with the shipping location, facilitating communication regarding shipments or deliveries.\r<br />\r<br />***Note:** Characters like +, /, -, or space are supported.*",
             "format": "tel",
             "nullable": true,
             "example": "07123887422"
@@ -3194,7 +3201,7 @@
             "maxLength": 2,
             "minLength": 2,
             "type": "string",
-            "description": "An abbreviation representing the country of the shipping location, typically following the ISO 3166-1 alpha-2 standard, for example,  \"GB\" for the United Kingdom.\r<br />\r<br />***Note**: This information is required if the address is not used from the stored addresses in the **Address Book***",
+            "description": "An abbreviation representing the country of the shipping location, following the ISO 3166-1 alpha-2 standard, for example, \"GB\" for the United Kingdom.\r<br />\r<br />***Note**: This information is only required if the address is not used from the stored addresses in the  **Address Book***",
             "nullable": true,
             "example": "GB"
           },
@@ -3747,6 +3754,14 @@
             "nullable": true,
             "example": 145
           },
+          "ImageURL": {
+            "maxLength": 1000,
+            "type": "string",
+            "description": "This field provides the URL of the product image with the shipment details. This helps customers visually identify the product when selecting items for return in the Returns system.",
+            "format": "uri",
+            "nullable": true,
+            "example": "https://yourcompany.com/images/product.jpg"
+          },
           "HSCode": {
             "type": "string",
             "description": "The Harmonized System (HS) code used by customs to determine potential duties and taxes for the product. This code ranges from 6 to 13 alphanumeric characters, depending on specific services or destinations. Some countries may also use the HS codes of other character lengths.\r<br />\r<br />***Note:** Characters like space and dot are supported.*\r<br />\r<br />For more information on HS Codes and to find the correct HS Codes for your items, refer to the following link:  https://www.gov.uk/trade-tariff",
@@ -3970,7 +3985,7 @@
             "maxLength": 2,
             "minLength": 2,
             "type": "string",
-            "description": "An abbreviation representing the country of the shipping location, typically following the ISO 3166-1 alpha-2 standard, for example,  \"GB\" for the United Kingdom.\r<br />\r<br />***Note**: This information is required if the address is not used from the stored addresses in the **Address Book***",
+            "description": "An abbreviation representing the country of the shipping location, following the ISO 3166-1 alpha-2 standard, for example, \"GB\" for the United Kingdom.\r<br />\r<br />***Note**: This information is only required if the address is not used from the stored addresses in the  **Address Book***",
             "nullable": true,
             "example": "GB"
           },
@@ -4411,7 +4426,7 @@
           }
         },
         "additionalProperties": false,
-        "description": "This field provides specifics about the importer of record for a shipment, especially when the importer of record is not the same as the receiver. This field can include essential information such as the importer's name, address, EORI number, and VAT number, which are necessary for customs processing.\r<br />\r<br />***Note**: This field is optional if the sender is the same. However, for certain commercial shipments with DDP incoterms, even if the receiver and the importer are the same, this field is required.*"
+        "description": "This object provides specifics about the importer of record for a shipment, especially when the importer of record is not the same as the receiver. This object can include essential information such as the importer's name, address, EORI number, and VAT number, which are necessary for customs processing.\r<br />\r<br />***Note:** For certain commercial shipments with DDP incoterms, even if the receiver and the importer are the same, this object is required.*"
       },
       "RoyalMailLabelFormat": {
         "enum": [
@@ -5262,14 +5277,14 @@
         "properties": {
           "ShippingLocationId": {
             "type": "string",
-            "description": "A unique identifier for the shipping location assigned by the system, allowing users to reference and manage specific locations effectively.",
+            "description": "A unique identifier for the shipping location assigned by the system (shippingLocationId), allowing users to reference and manage specific locations effectively.",
             "format": "uuid"
           },
           "LocationAlias": {
             "maxLength": 100,
             "minLength": 1,
             "type": "string",
-            "description": "A unique, user-defined identifier for the shipping location, providing a convenient way to identify it, for example,  Home or Warehouse.",
+            "description": "A unique user-defined identifier for the shipping location, providing a convenient way to identify it, for example,  Home or Warehouse.",
             "example": "Main Warehouse"
           },
           "CarrierSpecifics": {
@@ -5418,7 +5433,7 @@
             "maxLength": 2,
             "minLength": 2,
             "type": "string",
-            "description": "An abbreviation representing the country of the shipping location, typically following the ISO 3166-1 alpha-2 standard, for example,  \"GB\" for the United Kingdom.\r<br />\r<br />***Note**: This information is required if the address is not used from the stored addresses in the **Address Book***",
+            "description": "An abbreviation representing the country of the shipping location, following the ISO 3166-1 alpha-2 standard, for example, \"GB\" for the United Kingdom.\r<br />\r<br />***Note**: This information is only required if the address is not used from the stored addresses in the  **Address Book***",
             "nullable": true,
             "example": "GB"
           },
@@ -5542,7 +5557,7 @@
           "Line1": {
             "maxLength": 40,
             "type": "string",
-            "description": "The first line of the address, typically containing the primary address information such as house number and street name. <br/> <br/> ***Note:** Characters like +, /, -, or space are supported.*",
+            "description": "The first line of the address, typically containing the primary address information such as house number and street name. <br /><br />***Note:** This information is required if the address is not used from the stored addresses in the **Address Book**.*",
             "nullable": true,
             "example": "Brown Cottage"
           },
@@ -5563,21 +5578,21 @@
           "Town": {
             "maxLength": 40,
             "type": "string",
-            "description": "The town or city, indicating the specific locality where the shipping location is situated. <br/> <br/> ***Note:** This information is required if the address is not used from the stored addresses in the **Address Book**.*",
+            "description": "The town or city, indicating the specific locality where the shipping location is situated. <br /><br />***Note:** This information is required if the address is not used from the stored addresses in the **Address Book**.*",
             "nullable": true,
             "example": "Christchurch"
           },
           "Postcode": {
             "maxLength": 10,
             "type": "string",
-            "description": "The postal or ZIP code corresponding to the shipping location, used for mail sorting and to identify specific geographic areas.<br/> <br/> ***Note:** This information is only required for the addresses in the UK and for some outside it. To check for the postcode requirements, refer to the **Countries** API.*",
+            "description": "The postal or ZIP code corresponding to the shipping location, used for mail sorting and to identify specific geographic areas. <br /><br />***Note:** This information is required for the addresses in the UK and a for some outside it. To check for the postcode requirements, refer to the **Countries** API.*",
             "nullable": true,
             "example": "TW20 0HJ"
           },
           "County": {
             "maxLength": 40,
             "type": "string",
-            "description": "The county, state, or province in which the shipping location resides, providing additional geographical context for the address.<br/> <br/> ***Note:** This information may be required depending on the country. If the country is USA, Australia, or Canada, then it must be a valid state code or name, respectively. To check for the county/state/province requirements, refer to the **Countries** API.*",
+            "description": "The county, state, or province in which the shipping location resides, providing additional geographical context for the address.<br /> <br />***Note:** This information may be required depending on the country. If the country is USA, Australia, or Canada, then it must be a valid state code or name, respectively. To check for the county/state/province requirements, refer to the **Countries** API.*",
             "nullable": true,
             "example": "Surrey"
           },
@@ -5624,14 +5639,13 @@
             "type": "string",
             "description": "An optional second line for the address, often used for additional details like apartment numbers or suite designations.",
             "nullable": true,
-            "example": "10 Sky Lane"
+            "example": "Brown Cottage"
           },
           "Line3": {
             "maxLength": 40,
             "type": "string",
             "description": "A third optional line in the address to include any further address specifications, allowing for more detailed address information if necessary.",
-            "nullable": true,
-            "example": "Hills End"
+            "nullable": true
           },
           "Town": {
             "maxLength": 40,
@@ -5650,7 +5664,7 @@
           "County": {
             "maxLength": 40,
             "type": "string",
-            "description": "The county, state, or province in which the shipping location resides, providing additional geographical context for the address.<br/> <br/> ***Note:** This information may be required depending on the country. If the country is USA, Australia, or Canada, then it must be a valid state code or name, respectively. To check for the county/state/province requirements, refer to the **Countries** API.*",
+            "description": "The county, state, or province in which the shipping location resides, providing additional geographical context for the address.",
             "nullable": true,
             "example": "Surrey"
           },
@@ -5658,7 +5672,7 @@
             "maxLength": 2,
             "minLength": 2,
             "type": "string",
-            "description": "An abbreviation representing the country of the shipping location, typically following the ISO 3166-1 alpha-2 standard, for example,  \"GB\" for the United Kingdom.\r<br />\r<br />***Note**: This information is required if the address is not used from the stored addresses in the **Address Book***",
+            "description": "An abbreviation representing the country of the shipping location, following the ISO 3166-1 alpha-2 standard, for example,  \"GB\" for the United Kingdom.",
             "nullable": true,
             "example": "GB"
           },
