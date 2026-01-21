@@ -1,6 +1,6 @@
 ---
 title: Update Location
-excerpt: "Update shipping location details.\r<br />Note: All required fields must be populated in the request, regardless if they need updating or not."
+excerpt: "Modify the details of an existing shipping location, such as address, contact details, and any other relevant fields.\r<br />\r<br />***Note:** All the required fields must be populated in the request, regardless of whether they need to be updated.*"
 api:
   file: sapient-core-api.json
   operationId: put_v4-shippinglocations-shippinglocationid

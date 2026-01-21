@@ -1,8 +1,8 @@
 ---
 title: Add Location
 excerpt: >-
-  Create a new shipping location with location alias, address details, and
-  timezone.
+  Create a new shipping location in the system by providing the location alias,
+  timezone, and address details.
 api:
   file: sapient-core-api.json
   operationId: post_v4-shippinglocations

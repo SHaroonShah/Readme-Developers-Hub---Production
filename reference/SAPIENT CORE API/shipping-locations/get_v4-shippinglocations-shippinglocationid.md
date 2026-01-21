@@ -1,8 +1,9 @@
 ---
 title: Get Location
 excerpt: >-
-  Provides information for a specific shipping location, including location
-  alias, timezone, address, when it was last updated, and by who.
+  Retrieves information on a specific shipping location set up on the system
+  under your customer account. The information typically includes location,
+  timezone, address, and so on.
 api:
   file: sapient-core-api.json
   operationId: get_v4-shippinglocations-shippinglocationid
