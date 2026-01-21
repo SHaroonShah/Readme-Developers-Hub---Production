@@ -1,0 +1,8 @@
+- get_v4-shippingaccounts-dpduk
+- post_v4-shippingaccounts-dpduk
+- get_v4-shippingaccounts-dpduk-shippingaccountid
+- put_v4-shippingaccounts-dpduk-shippingaccountid
+- get_v4-shippingaccounts-dpduk-shippingaccountid-shippinglocations
+- >-
+  get_v4-shippingaccounts-dpduk-shippingaccountid-shippinglocations-shippinglocationid
+- post_v4-shippingaccounts-dpduk-shippingaccountid-linklocations
