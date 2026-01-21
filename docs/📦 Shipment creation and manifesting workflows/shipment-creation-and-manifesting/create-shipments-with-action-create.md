@@ -34,7 +34,7 @@ If you do not want the <Glossary>tracking number</Glossary> returned until you s
 
 ### Workflow process
 
-<Image align="center" alt="Example flow of creating shipment with Create action" border={false} caption="Workflow for creating shipments with Create action" src="https://files.readme.io/822c8b02ea907f91f7549757093ce56cf1c8823b6b310fe73a1b7874474bc8f1-Create_flow.png" />
+<Image align="center" alt="Example flow of creating shipment with Create action" border={false} caption="Workflow for creating shipments with Create action" src="https://files.readme.io/78c4231e2c41e71f79311f611235bb723ab32914b9c38993902495a6f1e5773c-Create_shipment_with_action_create.png" />
 
 ***
 
