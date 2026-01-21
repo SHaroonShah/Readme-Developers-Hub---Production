@@ -22,7 +22,7 @@
           "Shipping Accounts"
         ],
         "summary": "Get Accounts",
-        "description": "Provides a list of FedEx shipping accounts only.\r<br />Information about the account number, account type, and contact details is included in the response.",
+        "description": "The Get Carrier Accounts endpoint will be used to retrieve the shipping account details associated with FedEx",
         "parameters": [
           {
             "name": "searchTerm",
@@ -94,7 +94,7 @@
                       "ContactName": "John Smith",
                       "ContactNumber": "0123456789",
                       "LastUpdatedBy": "User A",
-                      "LastUpdatedDateUtc": "2025-10-29T09:10:37.389Z"
+                      "LastUpdatedDateUtc": "2026-01-21T09:58:49.016Z"
                     },
                     {
                       "ShippingAccountId": "46d58272-5f6a-405d-a947-c46c9caea56f",
@@ -107,7 +107,7 @@
                       "ContactName": "Joan Smith",
                       "ContactNumber": "0123456789",
                       "LastUpdatedBy": "User B",
-                      "LastUpdatedDateUtc": "2025-10-29T09:10:37.389Z"
+                      "LastUpdatedDateUtc": "2026-01-21T09:58:49.016Z"
                     }
                   ],
                   "TotalCount": 2
@@ -194,7 +194,7 @@
                   "ContactName": "John Smith",
                   "ContactNumber": "0123456789",
                   "LastUpdatedBy": "User A",
-                  "LastUpdatedDateUtc": "2025-10-29T09:10:37.406Z"
+                  "LastUpdatedDateUtc": "2026-01-21T09:58:49.028Z"
                 }
               }
             }
@@ -496,14 +496,14 @@
                       "ContentType": "NDX",
                       "ServiceCode": "FXFirst",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2025-10-29",
+                      "ShipmentDate": "2026-01-21",
                       "DeclaredValue": 86,
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "77b1c757-a534-4137-992c-710b7a8dab1f",
+                      "ShippingAccountId": "9f5da1f8-4447-429a-a93a-42316e975b66",
                       "Reference1": "OrderRef56",
                       "Address": {
                         "ContactPhone": "01234567890",
@@ -562,7 +562,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "FXFirst",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2025-10-29",
+                      "ShipmentDate": "2026-01-21",
                       "DeclaredValue": 86,
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
@@ -570,8 +570,8 @@
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "67b1d7dd-69ee-434f-8434-784b9a0c834a",
-                      "ShippingLocationId": "c04b536e-e155-409e-814e-6ce79cd7646e",
+                      "ShippingAccountId": "56f48150-fefd-44f1-8806-3572566fa4ae",
+                      "ShippingLocationId": "c3d52426-3644-4201-9d0f-8b39471347d5",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -619,23 +619,23 @@
                     "Items": [
                       {
                         "SkuCode": "SKU123",
-                        "PackageOccurrence": 1,
                         "Quantity": 1,
                         "Description": "White Mens Large T-shirt",
-                        "Value": 19.99,
+                        "Value": 9,
                         "Weight": 0.5,
+                        "ImageURL": "https://yourcompany.com/images/product.jpg",
                         "HSCode": "6109100010",
-                        "CountryOfOrigin": "CN"
+                        "CountryOfOrigin": "GB"
                       },
                       {
                         "SkuCode": "SKU456",
-                        "PackageOccurrence": 1,
                         "Quantity": 2,
                         "Description": "Black Mens Large Jumper",
-                        "Value": 32.99,
+                        "Value": 10.5,
                         "Weight": 0.3,
+                        "ImageURL": "https://yourcompany.com/images/jumper-black.jpg",
                         "HSCode": "6110113000",
-                        "CountryOfOrigin": "CN"
+                        "CountryOfOrigin": "GB"
                       }
                     ]
                   }
@@ -647,14 +647,14 @@
                       "ContentType": "NDX",
                       "ServiceCode": "FXIntConP",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2025-10-29",
+                      "ShipmentDate": "2026-01-21",
                       "DeclaredValue": 30,
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "57b9cee8-8335-4cc9-93c8-b0efd029fd51",
+                      "ShippingAccountId": "a05cce36-6705-4d3b-9ed7-0485d2e48858",
                       "Reference1": "OrderRef56",
                       "EoriNumber": "GB213456789000",
                       "VatNumber": "GB213456789",
@@ -703,6 +703,7 @@
                         "Description": "White Mens Large T-shirt",
                         "Value": 9,
                         "Weight": 0.5,
+                        "ImageURL": "https://yourcompany.com/images/product.jpg",
                         "HSCode": "6109100010",
                         "CountryOfOrigin": "IT"
                       },
@@ -712,6 +713,7 @@
                         "Description": "Black Mens Large Jumper",
                         "Value": 10.5,
                         "Weight": 0.3,
+                        "ImageURL": "https://yourcompany.com/images/jumper-black.jpg",
                         "HSCode": "6110113000",
                         "CountryOfOrigin": "FR"
                       }
@@ -743,7 +745,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "FXIntConP",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2025-10-29",
+                      "ShipmentDate": "2026-01-21",
                       "DeclaredValue": 30,
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
@@ -751,8 +753,8 @@
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "c4ddd05b-cc08-49ba-bce4-c6bbe7f8f39e",
-                      "ShippingLocationId": "74040761-b259-4a4c-a177-805236b612f4",
+                      "ShippingAccountId": "407fc916-e48a-49ea-a57b-39a1d9f9c689",
+                      "ShippingLocationId": "6bc65a2c-c923-40c6-9b1e-c398fce7adba",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -806,6 +808,7 @@
                         "Description": "White Mens Large T-shirt",
                         "Value": 9,
                         "Weight": 0.5,
+                        "ImageURL": "https://yourcompany.com/images/product.jpg",
                         "HSCode": "6109100010",
                         "CountryOfOrigin": "CN"
                       },
@@ -816,6 +819,7 @@
                         "Description": "Black Mens Large Jumper",
                         "Value": 10.5,
                         "Weight": 0.3,
+                        "ImageURL": "https://yourcompany.com/images/jumper-black.jpg",
                         "HSCode": "6110113000",
                         "CountryOfOrigin": "CN"
                       }
@@ -828,7 +832,7 @@
                       "OtherCharges": 32,
                       "QuotedLandedCost": 82.74,
                       "InvoiceNumber": "INV-12345",
-                      "InvoiceDate": "2025-10-29",
+                      "InvoiceDate": "2026-01-21",
                       "ExportLicenceRequired": false,
                       "Airn": "231.002.999-00"
                     }
@@ -841,14 +845,14 @@
                       "ContentType": "NDX",
                       "ServiceCode": "FXIntConP",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2025-10-29",
+                      "ShipmentDate": "2026-01-21",
                       "DeclaredValue": 20,
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "3685c41b-b22e-4a95-9e30-bf35a3a98dd2",
+                      "ShippingAccountId": "e1b5de69-211b-4952-8e20-848e25dab08d",
                       "Reference1": "OrderRef56",
                       "Address": {
                         "AddressId": "John Brown Default"
@@ -887,7 +891,7 @@
                 "examples": {
                   "Create": {
                     "value": {
-                      "ConsignmentShipmentId": "d1c2d19f-8250-453d-8d8f-13127baf3c8f",
+                      "ConsignmentShipmentId": "06744629-75f2-4036-a160-cd2f51df67a4",
                       "Packages": [
                         {
                           "PackageOccurrence": 1
@@ -897,7 +901,7 @@
                   },
                   "Allocate": {
                     "value": {
-                      "ConsignmentShipmentId": "69a0b308-46ef-4ff7-afcf-d734dec689cb",
+                      "ConsignmentShipmentId": "9c54c935-1ac6-4ccd-80e1-b868ba4074d5",
                       "ConsignmentTrackingNumber": "L2861391",
                       "Packages": [
                         {
@@ -910,7 +914,7 @@
                   },
                   "Process - PDF": {
                     "value": {
-                      "ConsignmentShipmentId": "8eca2685-7739-462c-b886-6215fe0bbd3f",
+                      "ConsignmentShipmentId": "276d5c0f-b237-4c40-a91e-e6e9933a5b08",
                       "ConsignmentTrackingNumber": "L2861391",
                       "Labels": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
                       "LabelFormat": "PDF",
@@ -1011,7 +1015,7 @@
                 "examples": {
                   "PDF": {
                     "value": {
-                      "ShipmentId": "4930fb8f-4d24-4135-b8fe-2548f173fa75",
+                      "ShipmentId": "5c7e7121-f142-4587-84b5-5cd1d1806cd5",
                       "TrackingNumber": "H03TCA0000000118",
                       "CarrierTrackingUrl": "https://fedex.co.uk/H03TCA0000000118",
                       "Label": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
@@ -1302,7 +1306,7 @@
             "maxLength": 2,
             "minLength": 2,
             "type": "string",
-            "description": "An abbreviation representing the country of the shipping location, typically following the ISO 3166-1 alpha-2 standard, for example,  \"GB\" for the United Kingdom.\r<br />\r<br />***Note**: This information is required if the address is not used from the stored addresses in the **Address Book***",
+            "description": "An abbreviation representing the country of the shipping location, following the ISO 3166-1 alpha-2 standard, for example, \"GB\" for the United Kingdom.\r<br />\r<br />***Note**: This information is only required if the address is not used from the stored addresses in the  **Address Book***",
             "nullable": true,
             "example": "GB"
           },
@@ -2034,6 +2038,14 @@
             "nullable": true,
             "example": 145
           },
+          "ImageURL": {
+            "maxLength": 1000,
+            "type": "string",
+            "description": "This field provides the URL of the product image with the shipment details. This helps customers visually identify the product when selecting items for return in the Returns system.",
+            "format": "uri",
+            "nullable": true,
+            "example": "https://yourcompany.com/images/product.jpg"
+          },
           "HSCode": {
             "type": "string",
             "description": "The Harmonized System (HS) code used by customs to determine potential duties and taxes for the product. This code ranges from 6 to 13 alphanumeric characters, depending on specific services or destinations. Some countries may also use the HS codes of other character lengths.\r<br />\r<br />***Note:** Characters like space and dot are supported.*\r<br />\r<br />For more information on HS Codes and to find the correct HS Codes for your items, refer to the following link:  https://www.gov.uk/trade-tariff",
@@ -2207,7 +2219,7 @@
             "maxLength": 2,
             "minLength": 2,
             "type": "string",
-            "description": "An abbreviation representing the country of the shipping location, typically following the ISO 3166-1 alpha-2 standard, for example,  \"GB\" for the United Kingdom.\r<br />\r<br />***Note**: This information is required if the address is not used from the stored addresses in the **Address Book***",
+            "description": "An abbreviation representing the country of the shipping location, following the ISO 3166-1 alpha-2 standard, for example, \"GB\" for the United Kingdom.\r<br />\r<br />***Note**: This information is only required if the address is not used from the stored addresses in the  **Address Book***",
             "nullable": true,
             "example": "GB"
           },
@@ -2331,7 +2343,7 @@
           "Line1": {
             "maxLength": 35,
             "type": "string",
-            "description": "The first line of the address, typically containing the primary address information such as house number and street name. <br/> <br/> ***Note:** Characters like +, /, -, or space are supported.*",
+            "description": "The first line of the address, typically containing the primary address information such as house number and street name. <br /><br />***Note:** This information is required if the address is not used from the stored addresses in the **Address Book**.*",
             "nullable": true,
             "example": "Brown Cottage"
           },
@@ -2352,21 +2364,21 @@
           "Town": {
             "maxLength": 35,
             "type": "string",
-            "description": "The town or city, indicating the specific locality where the shipping location is situated. <br/> <br/> ***Note:** This information is required if the address is not used from the stored addresses in the **Address Book**.*",
+            "description": "The town or city, indicating the specific locality where the shipping location is situated. <br /><br />***Note:** This information is required if the address is not used from the stored addresses in the **Address Book**.*",
             "nullable": true,
             "example": "Christchurch"
           },
           "Postcode": {
             "maxLength": 10,
             "type": "string",
-            "description": "The postal or ZIP code corresponding to the shipping location, used for mail sorting and to identify specific geographic areas.<br/> <br/> ***Note:** This information is only required for the addresses in the UK and for some outside it. To check for the postcode requirements, refer to the **Countries** API.*",
+            "description": "The postal or ZIP code corresponding to the shipping location, used for mail sorting and to identify specific geographic areas. <br /><br />***Note:** This information is required for the addresses in the UK and a for some outside it. To check for the postcode requirements, refer to the **Countries** API.*",
             "nullable": true,
             "example": "TW20 0HJ"
           },
           "County": {
             "maxLength": 50,
             "type": "string",
-            "description": "The county, state, or province in which the shipping location resides, providing additional geographical context for the address.<br/> <br/> ***Note:** This information may be required depending on the country. If the country is USA, Australia, or Canada, then it must be a valid state code or name, respectively. To check for the county/state/province requirements, refer to the **Countries** API.*",
+            "description": "The county, state, or province in which the shipping location resides, providing additional geographical context for the address.<br /> <br />***Note:** This information may be required depending on the country. If the country is USA, Australia, or Canada, then it must be a valid state code or name, respectively. To check for the county/state/province requirements, refer to the **Countries** API.*",
             "nullable": true,
             "example": "Surrey"
           },
@@ -2412,19 +2424,19 @@
         "properties": {
           "ShippingLocationId": {
             "type": "string",
-            "description": "A unique identifier for the shipping location assigned by the system, allowing users to reference and manage specific locations effectively.",
+            "description": "A unique identifier for the shipping location assigned by the system (shippingLocationId), allowing users to reference and manage specific locations effectively.",
             "format": "uuid"
           },
           "LocationAlias": {
             "maxLength": 100,
             "minLength": 1,
             "type": "string",
-            "description": "A unique, user-defined identifier for the shipping location, providing a convenient way to identify it, for example,  Home or Warehouse.",
+            "description": "A unique user-defined identifier for the shipping location, providing a convenient way to identify it, for example,  Home or Warehouse.",
             "example": "Main Warehouse"
           },
           "IsDefaultLocation": {
             "type": "boolean",
-            "description": "A boolean value indicating whether the shipping location is set as the default for shipping operations, streamlining the selection process during shipments.",
+            "description": "A boolean value indicating whether the shipping location is set as the default for shipping operations, streamlining the selection process during shipping.\r<br />\r<br />***Note:** If true, then this location is set as the default one. Otherwise, it is set to false.*",
             "example": false
           },
           "Timezone": {
@@ -2469,14 +2481,13 @@
             "type": "string",
             "description": "An optional second line for the address, often used for additional details like apartment numbers or suite designations.",
             "nullable": true,
-            "example": "10 Sky Lane"
+            "example": "Brown Cottage"
           },
           "Line3": {
             "maxLength": 35,
             "type": "string",
             "description": "A third optional line in the address to include any further address specifications, allowing for more detailed address information if necessary.",
-            "nullable": true,
-            "example": "Hills End"
+            "nullable": true
           },
           "Town": {
             "maxLength": 35,
@@ -2495,7 +2506,7 @@
           "County": {
             "maxLength": 50,
             "type": "string",
-            "description": "The county, state, or province in which the shipping location resides, providing additional geographical context for the address.<br/> <br/> ***Note:** This information may be required depending on the country. If the country is USA, Australia, or Canada, then it must be a valid state code or name, respectively. To check for the county/state/province requirements, refer to the **Countries** API.*",
+            "description": "The county, state, or province in which the shipping location resides, providing additional geographical context for the address.",
             "nullable": true,
             "example": "Surrey"
           },
@@ -2503,7 +2514,7 @@
             "maxLength": 2,
             "minLength": 2,
             "type": "string",
-            "description": "An abbreviation representing the country of the shipping location, typically following the ISO 3166-1 alpha-2 standard, for example,  \"GB\" for the United Kingdom.\r<br />\r<br />***Note**: This information is required if the address is not used from the stored addresses in the **Address Book***",
+            "description": "An abbreviation representing the country of the shipping location, following the ISO 3166-1 alpha-2 standard, for example,  \"GB\" for the United Kingdom.",
             "nullable": true,
             "example": "GB"
           },
@@ -2538,14 +2549,14 @@
         "properties": {
           "ShippingLocationId": {
             "type": "string",
-            "description": "A unique identifier for the shipping location assigned by the system, allowing users to reference and manage specific locations effectively.",
+            "description": "A unique identifier for the shipping location assigned by the system (shippingLocationId), allowing users to reference and manage specific locations effectively.",
             "format": "uuid"
           },
           "LocationAlias": {
             "maxLength": 100,
             "minLength": 1,
             "type": "string",
-            "description": "A unique, user-defined identifier for the shipping location, providing a convenient way to identify it, for example,  Home or Warehouse.",
+            "description": "A unique user-defined identifier for the shipping location, providing a convenient way to identify it, for example,  Home or Warehouse.",
             "example": "Main Warehouse"
           },
           "Timezone": {
