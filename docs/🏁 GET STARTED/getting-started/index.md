@@ -8,7 +8,7 @@ excerpt: >-
   shipping API to easily create and manage shipments, generate labels, and more.
 deprecated: false
 hidden: false
-icon: far fa-warehouse
+icon: fad fa-warehouse
 link:
   new_tab: false
 metadata:
