@@ -57,10 +57,21 @@ The following API services are provided by the Amazon integration:
 
 * **Create shipment**: The integration for creating shipments to reflect Amazon as a primary carrier and allowing users to create shipments using the Create Shipment API endpoint that returns the label in base64 encoded format.
 * **Tracking**: Provides the tracking data via the tracking webhook.
-* **Cancel shipment**: Provides the ability to cancel shipments in the system. 
+* **Cancel shipment**: Provides the ability to cancel shipments in the system.
 
 ## Integration types
 
 * **Label integration**: The system generates the label by populating a stored label template with the relevant shipment data.
 * **Manifest integration**: This API generates an electronic manifest data file in the SAPIENT's default PDF format and send it to Amazon via SFTP.
 * **Tracking integration**: Enables data files to be sent via SFTP and received through the SAPIENT tracking webhook.
+
+***
+
+this section, learn how to:
+
+* [Add an Amazon shipping account](https://docs.intersoftsapient.net/docs/add-an-post-shipping-account#/)
+* [Add an An Amazon tracking account](https://docs.intersoftsapient.net/docs/add-an-post-tracking-account#/)
+
+> 📘 _Note_
+>
+> _For more information on how to activate the Amazon integration, refer to the [Activate integration](https://docs.intersoftsapient.net/docs/integration-activation#/) section._
