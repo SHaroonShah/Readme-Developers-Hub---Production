@@ -55,4 +55,5 @@ The Amazon integration provides the following additional features:
 
 The following integration types are included in the SAPIENT-Amazon integration:
 
-<br />
+* **Create shipment**: The integration for creating shipments to reflect Amazon as a primary carrier and allowing users to create shipments using the Create Shipment API endpoint that returns the label in base64 encoded format.
+* **Tracking**: Provides the tracking data via the tracking webhook.
