@@ -25,6 +25,6 @@ This integration provides the following key features:
 
 * Ship from Destinations: The integration supports shipping from locations in Great Britain (GB) only.
 * Ship to Destinations: Users can send shipments to Great Britain (GB) only, including Northern Ireland (NI).
-* Service Type: The integration is focused on outbound shipping on both, Amazon-owned marketplaces (referred to as ‘On Amazon’ shipments) and orders originating from non-Amazon owned channels (referred to as ‘Off Amazon’).
+* Service Type: The integration is focused on outbound shipping on both, Amazon-owned marketplaces (referred to as <Glossary>On-Amazon</Glossary> shipments) and orders originating from non-Amazon owned channels (referred to as <Glossary>Off-Amazon</Glossary>).
 * Incoterms: The integration supports shipping domestically within the shipper country only. Therefore, incoterms are not applicable.
 * Label Formats: <Glossary>PDF</Glossary> and <Glossary>PNG</Glossary>.
