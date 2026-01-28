@@ -28,3 +28,9 @@ This integration provides the following key features:
 * Service Type: The integration is focused on outbound shipping on both, Amazon-owned marketplaces (referred to as <Glossary>On-Amazon</Glossary> shipments) and orders originating from non-Amazon owned channels (referred to as <Glossary>Off-Amazon</Glossary>).
 * Incoterms: The integration supports shipping domestically within the shipper country only. Therefore, incoterms are not applicable.
 * Label Formats: <Glossary>PDF</Glossary> and <Glossary>PNG</Glossary>.
+
+> 📘 _Note_
+>
+> _The label formats are supported for both On Amazon and Off Amazon shipments. However, the available label formats depends on the service used._
+
+<br />
