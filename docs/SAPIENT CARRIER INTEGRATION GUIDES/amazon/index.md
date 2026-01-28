@@ -58,3 +58,9 @@ The following API services are provided by the Amazon integration:
 * **Create shipment**: The integration for creating shipments to reflect Amazon as a primary carrier and allowing users to create shipments using the Create Shipment API endpoint that returns the label in base64 encoded format.
 * **Tracking**: Provides the tracking data via the tracking webhook.
 * **Cancel shipment**: Provides the ability to cancel shipments in the system. 
+
+## Integration types
+
+* Label integration: The system generates the label by populating a stored label template with the relevant shipment data.
+* Manifest integration: This API is important for DPD UK that generates an electronic manifest data file in the SAPIENT's default PDF format and send it to DPD UK via SFTP.
+* Tracking integration: Enables data files to be sent via SFTP and received through the SAPIENT tracking webhook.
