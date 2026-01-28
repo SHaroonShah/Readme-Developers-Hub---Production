@@ -48,7 +48,7 @@ The Amazon integration provides the following additional features:
 * **Carrier specific fields**: The **CarrierSpecifics** object in the **Create Shipment** request contains the following fields:
   * **DeliveryInstructions**: To provide any additional instructions to the carrier regarding the delivery of the shipment.
   * **AmazonOrderID**: The unique Amazon ID for each order, which is only mandatory for On Amazon shipments.
-  * **AmazonOrderItemId**: The unique Amazon ID for each item in the order, which is only mandatory for for On Amazon shipments and is available at the item-level of the Create Shipment request. Additionally, the **SkuCode** field is included to link the **AmazonOrderItemId** to the corresponding item in the shipment.
+  * **AmazonOrderItemId**: The unique Amazon ID for each item in the order, which is only mandatory for for On Amazon shipments and is available at the item-level of the **Create Shipment** request. Additionally, the **SkuCode** field is included to link the **AmazonOrderItemId** to the corresponding item in the shipment.
   * **ShipmentDate**: The date when the shipment is created. This date can only be up to 9 days in the future, as Amazon automatically cancel any shipments that are not shipped with 10 days of creation.
 
 ## Carrier API services
