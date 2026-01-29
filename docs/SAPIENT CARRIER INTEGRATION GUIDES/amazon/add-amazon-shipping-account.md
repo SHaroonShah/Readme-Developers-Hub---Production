@@ -138,45 +138,7 @@ To add a shipping account for Amazon in SAPIENT, follow the instructions as expl
 
 <Image align="center" border={true} src="https://files.readme.io/7355f68879495a8c59f2ff1ef019fc1b924009ae7e9bbd4b57235553dfe18c5f-Shippig_account_confirmation_dialog_Amazon.png" className="border" />
 
-<Table align={["left","left"]}>
-  <thead>
-    <tr>
-      <th>
-        Button
-      </th>
 
-      <th>
-        Description
-      </th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <tr>
-      <td>
-        ![](https://files.readme.io/1668b1ad81bff395a051eb64db26205ccc5635e2636194e1a5725b16156243c8-Connect_now_button.png)
-      </td>
-
-      <td>
-        Select this button if you want to instantly connect this shipping account with your Amazon seller central account. Upon selection, you are directed to a new browser with the Amazon seller central login screen.
-
-        Enter your login details and sign in to connect your shipping account with your Amazon seller central account.
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        ![](https://files.readme.io/b737cad7a32d0b1390e7ba4b050cea234123af9a0baf7895c5080809ab367265-Connect_later_button.png)
-      </td>
-
-      <td>
-        Select this button to save the shipping account without linking it to your Amazon seller central. This option creates your shipping account with a **Disabled** status and a connection status of **Not Connected**.
-
-        You can connect the shipping account later by selecting this shipping account from the list and clicking ![](https://files.readme.io/8a55ea176fffa169c336d8f61757f2d9bafa0a91f6941c1eb10f1d66ed82b10d-Login_with_Amazon_button.png) provided in the **CARRIER DETAILS** block.
-      </td>
-    </tr>
-  </tbody>
-</Table>
 
 Once the shipping account is connected, its account status moves to **Enabled**. You can now start shipping with it.
 
