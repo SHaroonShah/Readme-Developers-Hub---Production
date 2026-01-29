@@ -227,7 +227,7 @@ To add a shipping account for Amazon in SAPIENT, follow the instructions as expl
 
         <br />
 
-        Once the shipping account is successfully connected, its account status moves to **Enabled**. You can now start shipping with it.
+        Once the shipping account is connected successfully, its account status moves to **Enabled**. You can now start shipping with it.
       </ToggleListItem>
     </ToggleList>
   </Tab>
@@ -418,7 +418,7 @@ To add a shipping account for Amazon in SAPIENT, follow the instructions as expl
               <td>
                 Select this button if you want to instantly connect this shipping account with your Amazon shipping account. Upon selection, you are directed to a new browser with the Amazon shipping login screen.
 
-                <Image align="center" border={false} width="200px" src="https://files.readme.io/b936abb006f01c8213b8911fd872052ac97979c8dc81457f1364468795245122-Amazon_shipping_dialog.png" />
+                <Image align="center" src="https://files.readme.io/b936abb006f01c8213b8911fd872052ac97979c8dc81457f1364468795245122-Amazon_shipping_dialog.png" width="200px" />
 
                 Enter your login details and sign in to connect your shipping account with your Amazon shipping account.
               </td>
@@ -442,7 +442,7 @@ To add a shipping account for Amazon in SAPIENT, follow the instructions as expl
 
         <br />
 
-        Once the shipping account is successfully connected, its account status moves to **Enabled**. You can now start shipping with it.
+        Once the shipping account is connected successfully, its account status moves to **Enabled**. You can now start shipping with it.
       </ToggleListItem>
     </ToggleList>
   </Tab>
