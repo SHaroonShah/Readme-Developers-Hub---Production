@@ -221,7 +221,7 @@ Once the shipping account is connected, its account status moves to **Enabled**.
       <td>
         Select this button to save the shipping account without linking it to your Amazon seller central. This option creates your shipping account with a **Disabled** status and a connection status of **Not Connected**.
 
-        You can connect the shipping account later by selecting this shipping account from the list and clicking ![](https://files.readme.io/8a55ea176fffa169c336d8f61757f2d9bafa0a91f6941c1eb10f1d66ed82b10d-Login_with_Amazon_button.png) provided in the **CARRIER DETAILS** block.
+        You can connect the shipping account later by selecting this shipping account from the list and clicking provided in the **CARRIER DETAILS** block.
       </td>
     </tr>
   </tbody>
