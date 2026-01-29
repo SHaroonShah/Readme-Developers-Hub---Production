@@ -26,25 +26,91 @@ In SAPIENT, you can add tracking accounts for Amazon to enhance visibility, impr
 
 To add a tracking account for Amazon in SAPIENT, follow the steps as explained in the following procedure.
 
-1. On the SAPIENT **Home** page, in the left navigation panel, select **API** > **Webhooks**. On the page that opens, select the **Tracking Accounts** tab.
+<br />
 
-<Image align="center" alt="Accessing tracking accounts" border={true} caption="Accessing tracking accounts" src="https://files.readme.io/b8bf0b939dcc8227cc88b32d2ee0707e13bbfecbe7a5d116f0b6f6ac1de3303b-Tracking_accounts_tab.png" />
+<ToggleList>
+  <ToggleListItem title={<strong>1. Access tracking accounts page</strong>} icon="fa-rocket">
+    <br />
 
-2. In the **Tracking Accounts** page that opens, select ![](https://files.readme.io/f879cc7a233a578517b8e8034e326bc5c585f67b641db9adc93d3388d2a6fb78-Add_tracking_account_button.png).
+    On the SAPIENT **Home** page, in the left navigation panel, select **API** > **Webhooks**. In the page that opens, select the **Tracking Accounts** tab.
 
-<Image align="center" alt="Accessing option to add tracking account" border={true} caption="Accessing option to add tracking account" src="https://files.readme.io/522a3682f6e9a14eca2037dd25d5d2aa0972d04bd862883f5a35ac532f1ffce8-Add_tracking_account_button_DX.png" />
+    <Image align="center" border={true} src="https://files.readme.io/f53608e208015447ef8f7fd5f987b3ecf8415f81e2736ec01c552a9c41436479-Tracking_accounts_tab.png" alt="Accessing tracking accounts" />
 
-3. On the **Add Tracking account** page that appears, in the **DETAILS** block, enter the necessary information as explained in the following table.
+    ***
+  </ToggleListItem>
 
-<Image align="center" alt="Adding tracking account" border={true} caption="Adding tracking account" src="https://files.readme.io/8129682a2f6d552a7048f6beaafc0d4758263e28c6d9f5f8531ebb552867a182-Adding_tracking_account_Amazon.png" width="500px" />
+  <br />
 
-<AsteridkForMandatoryElements />
+  <ToggleListItem title={<strong>2. Select option to add new tracking account</strong>} icon="fa-rocket">
+    <br />
 
-|        Element        | Description                                                                                 |
-| :-------------------: | :------------------------------------------------------------------------------------------ |
-|      **Carrier***     | From the dropdown menu, select AMAZON - Amazon as your carrier option.                      |
-| **Shipping Account*** | From the dropdown menu, select the shipping account for which you want to receive tracking. |
+    In the **Tracking Accounts** page that opens, select ![alt text](https://files.readme.io/139bbda69af885f0824e5d5070ea342a6fb0a8d348c754389edb7a4dcfff7da2-Add_tracking_account_button.png).
 
-4. After entering all the necessary information, select ![](https://files.readme.io/2b94d65d1e560fcc17ab8e2c3e2af0c1e52b9dad2a1484f80ad7652b734ba1be-Add_tracking_account_button_2.png).
+    <Image align="center" border={true} src="https://files.readme.io/78c8641717e62040ab3526e6706d6a1f3259fe7c85b2d92281d861538afc0ab8-Add_tracking_account_option.png" alt="Accessing option to add tracking account" />
 
-Once done, the Amazon tracking account is added successfully and appears in the **Tracking Accounts** list. You can now receive the tracking information on your <Glossary>shipments</Glossary>.
+    ***
+  </ToggleListItem>
+
+  <br />
+
+  <ToggleListItem title={<strong>3. Enter account details </strong>} icon="fa-rocket">
+    <br />
+
+    On the **Add Tracking account** page that appears, in the **DETAILS** block, enter the necessary information as explained in the following table.
+
+    <Image align="center" alt="Adding tracking account" border={true} caption="Adding tracking account" src="https://files.readme.io/8129682a2f6d552a7048f6beaafc0d4758263e28c6d9f5f8531ebb552867a182-Adding_tracking_account_Amazon.png" width="500px" />
+
+    <br />
+
+    <AsteridkForMandatoryElements />
+
+    <Table align={["center","left"]}>
+      <thead>
+        <tr>
+          <th>
+            Element
+          </th>
+
+          <th>
+            Description
+          </th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>
+            **Carrier**\*
+          </td>
+
+          <td>
+            From the dropdown menu, select the carrier for which you want to create a tracking account.
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            **Shipping Account**\*
+          </td>
+
+          <td>
+            From the dropdown menu, select the <Glossary>shipping account</Glossary> for which you want to receive tracking.
+          </td>
+        </tr>
+      </tbody>
+    </Table>
+
+    <br />
+    ***
+  </ToggleListItem>
+
+  <br />
+
+  <ToggleListItem title={<strong>4. Complete setup </strong>} icon="fa-rocket">
+    <br />
+
+    After entering all the necessary information, select ![alt text](https://files.readme.io/ed87f1de8d9350f6fed52ac5c3b52ce0e63e2e6358aebac01389e9081c7b12d9-Add_tracking_account_button_2.png).
+
+    Once done, the Amazon tracking account is added successfully and appears in the **Tracking Accounts** list. You can now receive the tracking information on your <Glossary>shipments</Glossary>.
+  </ToggleListItem>
+</ToggleList>
