@@ -18,7 +18,7 @@ In SAPIENT, you can add tracking accounts for Amazon to enhance visibility, impr
 >
 > 1. _Enabled the [label integration](https://docs.intersoftsapient.net/docs/integration-activation) with Amazon._
 > 2. _Enabled the [tracking integration](https://docs.intersoftsapient.net/docs/integration-activation) with Amazon._
-> 3. _Set up your<Glossary>tracking webhook</Glossary>. For more information on how to set up a tracking webhook, refer to the [Create tracking webhook](https://docs.intersoftsapient.net/docs/create-tracking-webhook) section. This is a one-time activity, you do not have to do this every time you add a tracking account._
+> 3. _Set up your <Glossary>tracking webhook</Glossary>. For more information on how to set up a tracking webhook, refer to the [Create tracking webhook](https://docs.intersoftsapient.net/docs/create-tracking-webhook) section. This is a one-time activity, you do not have to do this every time you add a tracking account._
 >
 > _If you wish to receive the tracking events via Intersoft using the tracking account you have created, make sure it is is activated by the Amazon team._
 
@@ -64,7 +64,7 @@ To add a tracking account for Amazon in SAPIENT, follow the steps as explained i
 
     |         Element        | Description                                                                                                      |
     | :--------------------: | :--------------------------------------------------------------------------------------------------------------- |
-    |      **Carrier**\*     | From the dropdown menu, select AMAZON - Amazon as your carrier option.                      |
+    |      **Carrier**\*     | From the dropdown menu, select AMAZON - Amazon as your carrier option.                                           |
     | **Shipping Account**\* | From the dropdown menu, select the <Glossary>shipping account</Glossary> for which you want to receive tracking. |
 
     <br />
