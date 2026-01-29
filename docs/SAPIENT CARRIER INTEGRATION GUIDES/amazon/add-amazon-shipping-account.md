@@ -203,8 +203,7 @@ To add a shipping account for Amazon in SAPIENT, follow the instructions as expl
               <td>
                 Select this button if you want to instantly connect this shipping account with your Amazon seller central account. Upon selection, you are directed to a new browser with the Amazon seller central login screen.
 
-       
-                  <Image align="center" src="https://files.readme.io/8f06734f14e98a0fe80890254ce53e2abc2cfd8c442b96a4e49979376d0d033a-Amazon_seller_central_dialog.png" width="200px" />
+                <Image align="center" src="https://files.readme.io/8f06734f14e98a0fe80890254ce53e2abc2cfd8c442b96a4e49979376d0d033a-Amazon_seller_central_dialog.png" width="200px" />
 
                 Enter your login details and sign in to connect your shipping account with your Amazon seller central account.
               </td>
@@ -237,3 +236,5 @@ To add a shipping account for Amazon in SAPIENT, follow the instructions as expl
 > 📘 _Note_
 >
 > _Shipping account(s) can be added and managed via API. For more information, refer to the <Anchor label="API References" target="_blank" href="https://docs.intersoftsapient.net/reference/get_v4-carriers">API References</Anchor> section._
+
+<Image align="center" border={false} width="200px" src="https://files.readme.io/d0fd1abff3fd7f3a592d47fec656a50a71b6eae4424782f59d58f450eec95988-Selecting_login_with_Amazon_button.png" />
