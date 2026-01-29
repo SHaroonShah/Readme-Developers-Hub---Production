@@ -18,7 +18,107 @@ To add a shipping account for Amazon in SAPIENT, follow the instructions as expl
 
 <Tabs>
   <Tab title="Add On-Amazon shipping account">
-    Welcome to the content that you can only see inside the first Tab.
+    To add an On-Amazon shipping account in SAPIENT, perform the steps as explained in the following procedure.
+<ToggleList>
+      <ToggleListItem title={<strong>1. Access the shipping accounts page</strong>} icon="fa-rocket">
+        <br />
+
+        In the left navigation panel, select **Shipping Accounts**.
+
+        <Image align="center" border={true} src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" alt="Accessing shipping accounts" />
+
+        ***
+      </ToggleListItem>
+
+      <br />
+
+      <ToggleListItem title={<strong>2. Select the add shipping account button</strong>} icon="fa-rocket">
+        <br />
+
+        On the **Shipping Accounts** page that opens, select the **Add Shipping Account** button.
+
+        <Image align="center" border={true} src="https://files.readme.io/8490d8ba65c4eca10caa8c051c5e73bf366fc5a6269e84a2bfb697544105b343-Add_shipping_account_option.png" alt="Accessing option to add shipping account" />
+
+        ***
+      </ToggleListItem>
+
+      <br />
+
+      <ToggleListItem title={<strong>3. Enter account details </strong>} icon="fa-rocket">
+        <br />
+
+        On the **Add Shipping Account** form that appears, fill in the **ACCOUNT DETAILS** block:
+
+        <Image align="center" border={true} src="https://files.readme.io/dc5c99c4576f2625aa7809d67c9cf26573ed44dbce51fdebc2df7f43013cde3b-Account_details_block.png" alt="Entering account details" />
+
+        <br />
+
+        <Callout icon="💡" theme="default">
+          ### *Tip*
+
+          *In the following table, the mandatory fields are marked with an asterisk (\*).*
+        </Callout>
+
+        | Element                 | Description                                                                                                   |
+        | ----------------------- | ------------------------------------------------------------------------------------------------------------- |
+        | **Carrier**\*           | From the dropdown list, select the carrier for which you want to add a shipping account.                      |
+        | **Shipping Location**\* | From the dropdown menu, select the location that you want to assign to the shipping account you are creating. |
+
+        ***
+      </ToggleListItem>
+
+      <br />
+
+      <ToggleListItem title={<strong>4. Enter shipping account details </strong>} icon="fa-rocket">
+        <br />
+
+        In the **SHIPPING ACCOUNT** block, enter the necessary information:
+
+        <Image align="center" border={true} src="https://files.readme.io/86c792139df738b9d3d72e61e3a2d9edf6e95e49ebaed402137335a66e796d4a-Shipping_account_block.png" width="400px" alt="Specifying shipping account details" />
+
+        <br />
+
+        <Callout icon="💡" theme="default">
+          ### *Tip*
+
+          *In the following table, the mandatory fields are marked with an asterisk (\*).*
+        </Callout>
+
+        | Element                         | Description                                                                                                                                                                                      |
+        | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+        | **Carrier Account Number**\*    | Enter the carrier account number. The format must be compliant with your selected carrier. Add leading zeros if needed to meet character length requirements                                     |
+        | **Account Type**\*              | Select either [Production](https://docs.intersoftsapient.net/docs/sandbox-account) (live environment) or [Sandbox](https://docs.intersoftsapient.net/docs/sandbox-account) (testing environment) |
+        | **Account Name**\*              | Enter the account name if different from customer name                                                                                                                                           |
+        | **Registered Email Address**\*  | Enter the email address used to register with the carrier                                                                                                                                        |
+        | **Registered Billing Postcode** | Enter the postcode for billing.<br /> `Note`: *If you are unsure of the postcode, use the one shown on your invoice.*                                                                            |
+
+        ### Contact Information
+
+        | Element              | Description                                                                          |
+        | -------------------- | ------------------------------------------------------------------------------------ |
+        | **Alias**\*          | Enter a memorable custom name for API requests instead of using shipping location ID |
+        | **Contact Name**\*   | Enter the primary contact name for this account                                      |
+        | **Contact Number**\* | Enter the contact phone number for this account                                      |
+
+        ***
+      </ToggleListItem>
+
+      <br />
+
+      <ToggleListItem title={<strong>5. Enter carrier-specific details</strong>} icon="fa-rocket">
+        <br />
+
+        In the **CARRIER DETAILS** block, complete the carrier-specific fields.
+
+        > 🚧 *Important*
+        >
+        > *The fields in this section vary depending on your selected carrier. Each carrier has unique requirements and authentication methods. To get more information on how to fill the fields in this block, refer to the[carrier specific guides](https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/carrrier-specific-user-guides#/) section.*
+
+        <br />
+
+        After entering all the required information, select ![](https://files.readme.io/c8e36ac323cf6d3859bfa7081ee7ab63495ded4fd04cdb97aa685e06071cf4b4-add_shipping_account_button_2.png).
+      </ToggleListItem>
+    </ToggleList>
   </Tab>
 
   <Tab title="Add Off-Amazon shipping account">
@@ -136,6 +236,8 @@ To add a shipping account for Amazon in SAPIENT, follow the instructions as expl
 6. After entering all the required information, select ![](https://files.readme.io/721eb0f8be0c99a924b61cbca6496517d03fcbbf235aa0c3d579c60b3131df2a-add_shipping_account_button_2.png).
 7. In the **Shipping Account Added** dialog that appears, based on your preferences, proceed as follows.
 
+<Image align="center" border={true} src="https://files.readme.io/7355f68879495a8c59f2ff1ef019fc1b924009ae7e9bbd4b57235553dfe18c5f-Shippig_account_confirmation_dialog_Amazon.png" className="border" />
+
 <Table align={["left","left"]}>
   <thead>
     <tr>
@@ -164,7 +266,7 @@ To add a shipping account for Amazon in SAPIENT, follow the instructions as expl
 
     <tr>
       <td>
-        ![](https://files.readme.io/b737cad7a32d0b1390e7ba4b050cea234123af9a0baf7895c5080809ab367265-Connect_later_button.png)
+        ![](https://files.readme.io/619a4b25c7ee5800144aa6889aa351de103c330e83f30fb8a818908e71e30df0-Connect_later_button.png)
       </td>
 
       <td>
@@ -175,10 +277,6 @@ To add a shipping account for Amazon in SAPIENT, follow the instructions as expl
     </tr>
   </tbody>
 </Table>
-
-<Image align="center" border={true} src="https://files.readme.io/7355f68879495a8c59f2ff1ef019fc1b924009ae7e9bbd4b57235553dfe18c5f-Shippig_account_confirmation_dialog_Amazon.png" className="border" />
-
-<br />
 
 Once the shipping account is connected, its account status moves to **Enabled**. You can now start shipping with it.
 
