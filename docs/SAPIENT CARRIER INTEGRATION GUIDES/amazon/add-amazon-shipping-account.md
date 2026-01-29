@@ -376,7 +376,7 @@ To add a shipping account for Amazon in SAPIENT, follow the instructions as expl
         >
         > *Use this block only if you have set your account type to**Production**. This block does not apply to the shipping accounts created with the **Sandbox** account type.*
 
-        <Image align="center" border={false} width="600px" src="https://files.readme.io/387253706a2df3ada57a5aa57ac517af6f17b943f7660795133f67edc54e2d78-carrier_details_block_Off_Amazon.png" />
+        <Image align="center" src="https://files.readme.io/387253706a2df3ada57a5aa57ac517af6f17b943f7660795133f67edc54e2d78-carrier_details_block_Off_Amazon.png" width="600px" />
       </ToggleListItem>
 
       <br />
@@ -453,5 +453,3 @@ To add a shipping account for Amazon in SAPIENT, follow the instructions as expl
 > _Shipping account(s) can be added and managed via API. For more information, refer to the <Anchor label="API References" target="_blank" href="https://docs.intersoftsapient.net/reference/get_v4-carriers">API References</Anchor> section._
 
 
-
-<br />
