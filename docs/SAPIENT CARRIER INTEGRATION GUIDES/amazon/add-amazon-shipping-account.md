@@ -234,7 +234,8 @@ To add a shipping account for Amazon in SAPIENT, follow the instructions as expl
 
   <Tab title="Add Off-Amazon shipping account">
     To add an Off-Amazon shipping accoun to SAPIENT, perform the steps as explained in the following prcedure.
- <ToggleList>
+
+    <ToggleList>
       <ToggleListItem title={<strong>1. Access the shipping accounts page</strong>} icon="fa-rocket">
         <br />
 
@@ -369,13 +370,13 @@ To add a shipping account for Amazon in SAPIENT, follow the instructions as expl
       <ToggleListItem title={<strong>5. Enter carrier-specific details</strong>} icon="fa-rocket">
         <br />
 
-        In the **CARRIER DETAILS** block, expand the **Amazon Account Type** dropdown field and select **On Amazon**.
+        In the **CARRIER DETAILS** block, expand the **Amazon Account Type** dropdown field and select **Off Amazon**.
 
         > 🚧 *Important*
         >
         > *Use this block only if you have set your account type to**Production**. This block does not apply to the shipping accounts created with the **Sandbox** account type.*
 
-        <Image align="center" border={true} src="https://files.readme.io/f43827dd6994b5da5d74fb6ec99a873e0386405a85d0769f4bb1d933e07e163e-carrier_details_block_On_Amazon.png" width="600px" alt="Entering carrier details" />
+        <Image align="center" border={false} width="600px" src="https://files.readme.io/387253706a2df3ada57a5aa57ac517af6f17b943f7660795133f67edc54e2d78-carrier_details_block_Off_Amazon.png" />
       </ToggleListItem>
 
       <br />
@@ -450,3 +451,7 @@ To add a shipping account for Amazon in SAPIENT, follow the instructions as expl
 > 📘 _Note_
 >
 > _Shipping account(s) can be added and managed via API. For more information, refer to the <Anchor label="API References" target="_blank" href="https://docs.intersoftsapient.net/reference/get_v4-carriers">API References</Anchor> section._
+
+
+
+<br />
