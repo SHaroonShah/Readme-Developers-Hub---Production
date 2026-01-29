@@ -224,9 +224,9 @@ To add a shipping account for Amazon in SAPIENT, follow the instructions as expl
             </tr>
           </tbody>
         </Table>
-
+<br />
           Once the shipping account is connected, its account status moves to **Enabled**. You can now start shipping with it.
-        <br />
+        
       </ToggleListItem>
     </ToggleList>
   </Tab>
