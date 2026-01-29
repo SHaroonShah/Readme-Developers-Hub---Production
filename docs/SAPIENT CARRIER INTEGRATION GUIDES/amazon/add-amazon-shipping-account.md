@@ -203,7 +203,7 @@ Once the shipping account is connected, its account status moves to **Enabled**.
   <tbody>
     <tr>
       <td>
-       (https://files.readme.io/df2a63a27b644cd71a77923edb3d6805c597778729db0f9741e1fc6aabd34184-Connect_now_button.png).
+       After entering all the required information, select ![](https://files.readme.io/df2a63a27b644cd71a77923edb3d6805c597778729db0f9741e1fc6aabd34184-Connect_now_button.png).
       </td>
 
       <td>
