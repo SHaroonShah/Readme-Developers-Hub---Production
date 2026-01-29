@@ -62,6 +62,11 @@ The following API services are provided by the Amazon integration:
 ## Integration types
 
 * **Label integration**: The system generates the label by populating a stored label template with the relevant shipment data.
+
+> 📘 _Note_
+>
+> _If any created shipments have not been manifested, it is advised to cancel them to avoid unwanted labels._
+
 * **Manifest integration**: This API generates an electronic manifest data file in the SAPIENT's default PDF format and send it to Amazon via SFTP.
 * **Tracking integration**: Enables data files to be sent via SFTP and received through the SAPIENT tracking webhook.
 
