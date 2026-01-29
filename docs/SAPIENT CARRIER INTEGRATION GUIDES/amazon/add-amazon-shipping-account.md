@@ -135,12 +135,59 @@ To add a shipping account for Amazon in SAPIENT, follow the instructions as expl
 
 6. After entering all the required information, select ![](https://files.readme.io/721eb0f8be0c99a924b61cbca6496517d03fcbbf235aa0c3d579c60b3131df2a-add_shipping_account_button_2.png).
 7. In the **Shipping Account Added** dialog that appears, based on your preferences, proceed as follows.
+
 <Image align="center" border={false} src="https://files.readme.io/7355f68879495a8c59f2ff1ef019fc1b924009ae7e9bbd4b57235553dfe18c5f-Shippig_account_confirmation_dialog_Amazon.png" />
-   1. ![](https://files.readme.io/1668b1ad81bff395a051eb64db26205ccc5635e2636194e1a5725b16156243c8-Connect_now_button.png): Select this button if you want to instantly connect this shipping account with your Amazon seller central account. Upon selection, you are directed to a new browser with the Amazon seller central login screen.
-   2. ![](https://files.readme.io/b737cad7a32d0b1390e7ba4b050cea234123af9a0baf7895c5080809ab367265-Connect_later_button.png):
+
+<Table align={["left","left"]}>
+  <thead>
+    <tr>
+      <th>
+        Button
+      </th>
+
+      <th>
+        Description
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        ![](https://files.readme.io/1668b1ad81bff395a051eb64db26205ccc5635e2636194e1a5725b16156243c8-Connect_now_button.png)
+      </td>
+
+      <td>
+        Select this button if you want to instantly connect this shipping account with your Amazon seller central account. Upon selection, you are directed to a new browser with the Amazon seller central login screen.  
+
+<Image align="center" border={false} width="200px" src="https://files.readme.io/8f2644d8387fd59fc30f291373ee29bb41d82dc422c5423be860d21f224e26d5-Amazon_seller_central_dialog.png" />
+
+        <br />
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        ![](https://files.readme.io/b737cad7a32d0b1390e7ba4b050cea234123af9a0baf7895c5080809ab367265-Connect_later_button.png)
+      </td>
+
+      <td>
+
+      </td>
+    </tr>
+  </tbody>
+</Table>
+
+<br />
+
+1. ![](https://files.readme.io/1668b1ad81bff395a051eb64db26205ccc5635e2636194e1a5725b16156243c8-Connect_now_button.png): 
+2. ![](https://files.readme.io/b737cad7a32d0b1390e7ba4b050cea234123af9a0baf7895c5080809ab367265-Connect_later_button.png):
 
 Once done, you have now successfully added a shipping account. You can now start shipping with it.
 
 > 📘 _Note_
 >
 > _Shipping account(s) can be added and managed via API. For more information, refer to the <Anchor label="API References" target="_blank" href="https://docs.intersoftsapient.net/reference/get_v4-carriers">API References</Anchor> section._
+
+
+<br />
