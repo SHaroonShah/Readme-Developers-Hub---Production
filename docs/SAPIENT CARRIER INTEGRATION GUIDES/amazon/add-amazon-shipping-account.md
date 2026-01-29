@@ -203,7 +203,7 @@ Once the shipping account is connected, its account status moves to **Enabled**.
   <tbody>
     <tr>
       <td>
-        ![](https://files.readme.io/1668b1ad81bff395a051eb64db26205ccc5635e2636194e1a5725b16156243c8-Connect_now_button.png)
+       
       </td>
 
       <td>
@@ -215,7 +215,7 @@ Once the shipping account is connected, its account status moves to **Enabled**.
 
     <tr>
       <td>
-        ![](https://files.readme.io/b737cad7a32d0b1390e7ba4b050cea234123af9a0baf7895c5080809ab367265-Connect_later_button.png)
+        
       </td>
 
       <td>
