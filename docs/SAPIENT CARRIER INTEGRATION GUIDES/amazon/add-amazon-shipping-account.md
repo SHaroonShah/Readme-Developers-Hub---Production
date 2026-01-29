@@ -160,6 +160,8 @@ To add a shipping account for Amazon in SAPIENT, follow the instructions as expl
       <td>
         Select this button if you want to instantly connect this shipping account with your Amazon seller central account. Upon selection, you are directed to a new browser with the Amazon seller central login screen.
 
+<Image align="center" border={false} caption="Connecting shipping account with Amazon seller central" src="https://files.readme.io/00a23b504ad69acd31e86eb699cbdd876b22e736e69d12b674f556c7224ce25b-Amazon_seller_central_dialog.png" width="200px" />
+
         Enter your login details and sign in to connect your shipping account with your Amazon seller central account.
 
         <br />
@@ -172,9 +174,13 @@ To add a shipping account for Amazon in SAPIENT, follow the instructions as expl
       </td>
 
       <td>
-        Select this button to save the shipping account without linking it to your Amazon seller central. This option creates your shipping account with a **Disabled** status and a connection status of **Not Connected**.  
+        Select this button to save the shipping account without linking it to your Amazon seller central. This option creates your shipping account with a **Disabled** status and a connection status of **Not Connected**.
 
-        You can connect the shipping account later by selecting this shipping account from the list and clicking  
+        You can connect the shipping account later by selecting this shipping account from the list and clicking ![](https://files.readme.io/8a55ea176fffa169c336d8f61757f2d9bafa0a91f6941c1eb10f1d66ed82b10d-Login_with_Amazon_button.png) provided in the **CARRIER DETAILS** block.  
+
+<Image align="center" border={false} caption="Selecting option to connect to Amazon seller central" src="https://files.readme.io/2464f2aed9dc8bafb457a75dfcc4544e8cf19e2c04c9e5220c71edb8c78912cf-Selecting_login_with_Amazon_button.png" width="200px" />
+
+        <br />
       </td>
     </tr>
   </tbody>
@@ -187,5 +193,9 @@ Once the shipping account is connected, its account status moves to Enabled. You
 > 📘 _Note_
 >
 > _Shipping account(s) can be added and managed via API. For more information, refer to the <Anchor label="API References" target="_blank" href="https://docs.intersoftsapient.net/reference/get_v4-carriers">API References</Anchor> section._
+
+
+
+
 
 <br />
