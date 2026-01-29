@@ -1,3 +1,4 @@
+- download-api-spec
 - carriers
 - shipping-locations
 - shipping-accounts
@@ -10,4 +11,3 @@
 - trackings
 - hurricane-services
 - reference-data
-- download-api-spec
