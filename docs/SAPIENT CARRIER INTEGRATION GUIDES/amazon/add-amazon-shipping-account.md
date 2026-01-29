@@ -16,6 +16,8 @@ In SAPIENT, you can create <Glossary>On-Amazon</Glossary> and <Glossary>Off-Amaz
 
 To add a shipping account for Amazon in SAPIENT, follow the instructions as explained in the following procedures for each account type.
 
+## How to add an Amazon shipping account
+
 <Tabs>
   <Tab title="Add On-Amazon shipping account">
     To add an On-Amazon shipping account to SAPIENT, perform the steps as explained in the following procedure.
