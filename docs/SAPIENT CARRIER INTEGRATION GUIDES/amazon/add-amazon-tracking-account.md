@@ -26,8 +26,6 @@ In SAPIENT, you can add tracking accounts for Amazon to enhance visibility, impr
 
 To add a tracking account for Amazon in SAPIENT, follow the steps as explained in the following procedure.
 
-<br />
-
 <ToggleList>
   <ToggleListItem title={<strong>1. Access tracking accounts page</strong>} icon="fa-rocket">
     <br />
@@ -58,49 +56,19 @@ To add a tracking account for Amazon in SAPIENT, follow the steps as explained i
 
     On the **Add Tracking account** page that appears, in the **DETAILS** block, enter the necessary information as explained in the following table.
 
-    <Image align="center" alt="Adding tracking account" border={true} caption="Adding tracking account" src="https://files.readme.io/8129682a2f6d552a7048f6beaafc0d4758263e28c6d9f5f8531ebb552867a182-Adding_tracking_account_Amazon.png" width="500px" />
+    <Image align="center" border={true} src="https://files.readme.io/8129682a2f6d552a7048f6beaafc0d4758263e28c6d9f5f8531ebb552867a182-Adding_tracking_account_Amazon.png" width="500px" alt="Adding tracking account" />
 
     <br />
 
     <AsteridkForMandatoryElements />
 
-    <Table align={["center","left"]}>
-      <thead>
-        <tr>
-          <th>
-            Element
-          </th>
-
-          <th>
-            Description
-          </th>
-        </tr>
-      </thead>
-
-      <tbody>
-        <tr>
-          <td>
-            **Carrier**\*
-          </td>
-
-          <td>
-            From the dropdown menu, select the carrier for which you want to create a tracking account.
-          </td>
-        </tr>
-
-        <tr>
-          <td>
-            **Shipping Account**\*
-          </td>
-
-          <td>
-            From the dropdown menu, select the <Glossary>shipping account</Glossary> for which you want to receive tracking.
-          </td>
-        </tr>
-      </tbody>
-    </Table>
+    |         Element        | Description                                                                                                      |
+    | :--------------------: | :--------------------------------------------------------------------------------------------------------------- |
+    |      **Carrier**\*     | From the dropdown menu, select the carrier for which you want to create a tracking account.                      |
+    | **Shipping Account**\* | From the dropdown menu, select the <Glossary>shipping account</Glossary> for which you want to receive tracking. |
 
     <br />
+
     ***
   </ToggleListItem>
 
