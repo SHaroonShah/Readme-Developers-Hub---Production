@@ -8,7 +8,7 @@ hidden: true
 metadata:
   robots: index
 ---
-In SAPIENT, you can create <Glossary>On-Amazon</Glossary> and <Glossary>Off-Amazon</Glossary>shipping accounts and then link it to the relevant <Glossary>shipping location</Glossary>(s).
+In SAPIENT, you can create <Glossary>On-Amazon</Glossary> and <Glossary>Off-Amazon</Glossary> shipping accounts and then link it to the relevant <Glossary>shipping location</Glossary>(s).
 
 > 🚧 _Important_
 >
