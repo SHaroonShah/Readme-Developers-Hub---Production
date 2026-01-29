@@ -17,15 +17,15 @@ next:
 ---
 In SAPIENT, you can add tracking accounts for DX Freight to enhance visibility, improving customer interactions, and streamlining logistics operations for DX.
 
-> 🚧 *Important*
+> 🚧 _Important_
 >
-> *Prior to adding a DX tracking account, make sure you have completed the following prerequisites:*
+> _Prior to adding a DX tracking account, make sure you have completed the following prerequisites:_
 >
-> 1. *Enabled the [label integration](https://docs.intersoftsapient.net/docs/integration-activation) with DX Freight.*
-> 2. *Enabled the [tracking integration](https://docs.intersoftsapient.net/docs/integration-activation) with DX Freight.*
-> 3. *Set up your<Glossary>tracking webhook</Glossary>. For more information on how to set up a tracking webhook, refer to the [Create tracking webhook](https://docs.intersoftsapient.net/docs/create-tracking-webhook) section. This is a one-time activity, you do not have to do this every time you add a tracking account.*
+> 1. _Enabled the [label integration](https://docs.intersoftsapient.net/docs/integration-activation) with DX Freight._
+> 2. _Enabled the [tracking integration](https://docs.intersoftsapient.net/docs/integration-activation) with DX Freight._
+> 3. _Set up your<Glossary>tracking webhook</Glossary>. For more information on how to set up a tracking webhook, refer to the [Create tracking webhook](https://docs.intersoftsapient.net/docs/create-tracking-webhook) section. This is a one-time activity, you do not have to do this every time you add a tracking account._
 >
-> *If you wish to receive the tracking events via Intersoft using the tracking account you have created, make sure it is is activated by the DX accounts team.*
+> _If you wish to receive the tracking events via Intersoft using the tracking account you have created, make sure it is is activated by the DX accounts team._
 
 To add a tracking account for DX Freight in SAPIENT, follow the steps as explained in the following procedure.
 
@@ -33,7 +33,7 @@ To add a tracking account for DX Freight in SAPIENT, follow the steps as explain
 
 <Image align="center" alt="Accessing tracking accounts" border={true} caption="Accessing tracking accounts" src="https://files.readme.io/b8bf0b939dcc8227cc88b32d2ee0707e13bbfecbe7a5d116f0b6f6ac1de3303b-Tracking_accounts_tab.png" />
 
-2. In the **Tracking Accounts** page that opens, select ![alt text](https://files.readme.io/f879cc7a233a578517b8e8034e326bc5c585f67b641db9adc93d3388d2a6fb78-Add_tracking_account_button.png).
+2. In the **Tracking Accounts** page that opens, select ![](https://files.readme.io/f879cc7a233a578517b8e8034e326bc5c585f67b641db9adc93d3388d2a6fb78-Add_tracking_account_button.png).
 
 <Image align="center" alt="Accessing option to add tracking account" border={true} caption="Accessing option to add tracking account" src="https://files.readme.io/522a3682f6e9a14eca2037dd25d5d2aa0972d04bd862883f5a35ac532f1ffce8-Add_tracking_account_button_DX.png" />
 
@@ -59,7 +59,7 @@ To add a tracking account for DX Freight in SAPIENT, follow the steps as explain
   <tbody>
     <tr>
       <td>
-        **Carrier**\*
+        **Carrier***
       </td>
 
       <td>
@@ -69,7 +69,7 @@ To add a tracking account for DX Freight in SAPIENT, follow the steps as explain
 
     <tr>
       <td>
-        **Shipping Account**\*
+        **Shipping Account***
       </td>
 
       <td>
@@ -81,6 +81,6 @@ To add a tracking account for DX Freight in SAPIENT, follow the steps as explain
   </tbody>
 </Table>
 
-4. After entering all the necessary information, select ![alt text](https://files.readme.io/2b94d65d1e560fcc17ab8e2c3e2af0c1e52b9dad2a1484f80ad7652b734ba1be-Add_tracking_account_button_2.png).
+4. After entering all the necessary information, select ![](https://files.readme.io/2b94d65d1e560fcc17ab8e2c3e2af0c1e52b9dad2a1484f80ad7652b734ba1be-Add_tracking_account_button_2.png).
 
-Once done, the DX Express tracking account is added successfully and appears in the **Tracking Accounts** list. You can now receive the tracking information on your <Glossary>shipments</Glossary>.
+Once done, the DX Freight tracking account is added successfully and appears in the **Tracking Accounts** list. You can now receive the tracking information on your <Glossary>shipments</Glossary>.
