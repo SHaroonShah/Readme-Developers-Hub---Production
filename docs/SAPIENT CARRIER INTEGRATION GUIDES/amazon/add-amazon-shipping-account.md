@@ -160,7 +160,7 @@ To add a shipping account for Amazon in SAPIENT, follow the instructions as expl
       <td>
         Select this button if you want to instantly connect this shipping account with your Amazon seller central account. Upon selection, you are directed to a new browser with the Amazon seller central login screen.
 
-Enter your login details and sign in to connect your shipping account with your Amazon seller central account. 
+        Enter your login details and sign in to connect your shipping account with your Amazon seller central account.
 
         <br />
       </td>
@@ -168,11 +168,13 @@ Enter your login details and sign in to connect your shipping account with your 
 
     <tr>
       <td>
-        ![](https://files.readme.io/b737cad7a32d0b1390e7ba4b050cea234123af9a0baf7895c5080809ab367265-Connect_later_button.png)   
+        ![](https://files.readme.io/b737cad7a32d0b1390e7ba4b050cea234123af9a0baf7895c5080809ab367265-Connect_later_button.png)
       </td>
 
       <td>
-        Select this button to save the shipping account without linking it to your Amazon seller central. This option creates your shipping account with a **Disabled** status and a connection status of **Not Connected**.
+        Select this button to save the shipping account without linking it to your Amazon seller central. This option creates your shipping account with a **Disabled** status and a connection status of **Not Connected**.  
+
+        You can connect the shipping account later by selecting this shipping account from the list and clicking  
       </td>
     </tr>
   </tbody>
@@ -180,11 +182,10 @@ Enter your login details and sign in to connect your shipping account with your 
 
 <br />
 
-1. ![](https://files.readme.io/1668b1ad81bff395a051eb64db26205ccc5635e2636194e1a5725b16156243c8-Connect_now_button.png):
-2. ![](https://files.readme.io/b737cad7a32d0b1390e7ba4b050cea234123af9a0baf7895c5080809ab367265-Connect_later_button.png):
-
 Once the shipping account is connected, its account status moves to Enabled. You can now start shipping with it.
 
 > 📘 _Note_
 >
 > _Shipping account(s) can be added and managed via API. For more information, refer to the <Anchor label="API References" target="_blank" href="https://docs.intersoftsapient.net/reference/get_v4-carriers">API References</Anchor> section._
+
+<br />
