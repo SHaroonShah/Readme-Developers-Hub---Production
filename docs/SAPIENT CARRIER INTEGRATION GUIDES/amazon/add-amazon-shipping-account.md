@@ -160,6 +160,8 @@ To add a shipping account for Amazon in SAPIENT, follow the instructions as expl
       <td>
         Select this button if you want to instantly connect this shipping account with your Amazon seller central account. Upon selection, you are directed to a new browser with the Amazon seller central login screen.
 
+Enter your login details and sign in to connect your shipping account with your Amazon seller central account. 
+
         <br />
       </td>
     </tr>
