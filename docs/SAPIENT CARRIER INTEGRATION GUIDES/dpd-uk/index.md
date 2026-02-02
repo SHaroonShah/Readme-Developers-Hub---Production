@@ -37,8 +37,8 @@ The following are the key services are provided by the DPD UK integration:
 
   _For more information on the service enhancements and carrier services, refer to the following endpoints:_
 
-  * Create Shipment
-  * Get Carrier Services
+  * [Create Shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-dpduk)
+  * [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services)
 </Callout>
 
 ## Additional features
