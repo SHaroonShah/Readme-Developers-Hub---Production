@@ -154,7 +154,7 @@ To add a shipping account for DPD UK in SAPIENT, follow the instructions as expl
       </td>
 
       <td>
-        Enter a unique 8-digit identifier as your authorisation code for DPD UK. This code is used to validate or link the manifest to the correct shipper or contract.   
+        Enter a unique 8-digit identifier as your authorisation code for DPD UK. This code is used to validate or link the manifest to the correct shipper or contract.
 
         _`Note`: This identifier is included in the manifest file names._
       </td>
@@ -166,7 +166,7 @@ To add a shipping account for DPD UK in SAPIENT, follow the instructions as expl
       </td>
 
       <td>
-        Enter the account number provided by DPD UK.
+        Enter the customer identifier which will be used in the barcode range and manifest files.
       </td>
     </tr>
   </tbody>
