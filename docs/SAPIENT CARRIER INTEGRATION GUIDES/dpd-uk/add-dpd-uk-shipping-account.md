@@ -166,7 +166,7 @@ To add a shipping account for DPD UK in SAPIENT, follow the instructions as expl
       </td>
 
       <td>
-        Enter the customer identifier which will be used in the barcode range and manifest files.
+        Enter the unique customer identifier which will be used in the barcode range and manifest files.
       </td>
     </tr>
   </tbody>
