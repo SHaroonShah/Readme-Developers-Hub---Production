@@ -33,6 +33,30 @@ This integration provides the following key features:
 * **Service Type**: The integration is focused on outbound shipping.
 * **label formats**: <Glossary>PDF</Glossary>
 
+## Service enhancements
+
+> 📘 _Note_
+>
+> _There are no service enhancements for this integration._
+
 ## Additional features
 
 The FedEx International Connect integration provides support for single-piece shipments. Consignment services are not supported by this integration.
+
+## Carrier API services
+
+The following API services are provided by the FedEx International Connect integration:
+
+* **Create shipment**: The integration for creating shipments to reflect FedEx as a primary carrier and allowing users to create shipments using the Create Shipment API endpoint that returns the label in base64 encoded format.
+* **Tracking**: Provides the tracking data via the tracking webhook.
+
+## Integration types
+
+* **Label integration**: The system generates the label by populating a stored label template with the relevant shipment data.
+
+> 📘 _Note_
+>
+> _If any created shipments have not been manifested, it is advised to cancel them to avoid unwanted labels._
+
+* **Manifest integration**: This API generates an electronic manifest data file in the SAPIENT's default PDF format and send it to FedEx via SFTP.
+* **Tracking integration**: Enables data files to be sent via SFTP and received through the SAPIENT tracking webhook
