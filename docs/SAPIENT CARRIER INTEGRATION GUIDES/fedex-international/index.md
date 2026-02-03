@@ -59,4 +59,4 @@ The following API services are provided by the FedEx International Connect integ
 > _If any created shipments have not been manifested, it is advised to cancel them to avoid unwanted labels._
 
 * **Manifest integration**: This API generates an electronic manifest data file in the SAPIENT's default PDF format and send it to FedEx via SFTP.
-* **Tracking integration**: Enables data files to be sent via SFTP and received through the SAPIENT tracking webhook
+* **Tracking integration**: Enables data files to be sent via SFTP and received through the SAPIENT tracking webhook.
