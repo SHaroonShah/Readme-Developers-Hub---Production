@@ -27,9 +27,9 @@ This integration provides the following key features:
 >
 > * _China_
 > * _Russia_
-> * _Australia_ 
+> * _Australia_
 
-* **Incoterms**: The integration supports <Glossary>DDU</Glossary> (Delivered Duty Unpaid), <Glossary>DDP</Glossary> (Delivered Duty Paid), and <Glossary>DAP</Glossary> (Delivered At Place).
+* **Incoterms**: The integration supports <Glossary>DDU</Glossary> (Delivered Duty Unpaid) and <Glossary>DDP</Glossary> (Delivered Duty Paid).
 * **Service Type**: The integration is focused on outbound shipping.
 
 <br />
