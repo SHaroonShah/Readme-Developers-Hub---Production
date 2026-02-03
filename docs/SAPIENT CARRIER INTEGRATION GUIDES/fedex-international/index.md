@@ -12,6 +12,24 @@ icon: fad fa-truck-fast
 metadata:
   robots: index
 ---
-> 🚧 _Important_
+FedEx International Connect is a flexible, cost-effective, worldwide delivery solution with standard e-commerce shipments in mind. Designed to help retailers connect with customers around the globe.
+
+## Key features
+
+This integration provides the following key features:
+
+* **Ship from destinations**: The integration supports shipping from locations in Great Britain (GB) only.
+* **Ship To Destinations**: Users can send <Glossary>shipments</Glossary> to Great Britain (GB), Europe, and the <Glossary>ROW</Glossary> (Rest of the World).
+
+> 📘 _Note_
 >
-> _This integration is currently under development. The contents are to be updated as soon as possible._
+> _The FedEx International Connect does not support shipping to the following ROW countries:_
+>
+> * _China_
+> * _Russia_
+> * _Australia_ 
+
+* **Incoterms**: The integration supports <Glossary>DDU</Glossary> (Delivered Duty Unpaid), <Glossary>DDP</Glossary> (Delivered Duty Paid), and <Glossary>DAP</Glossary> (Delivered At Place).
+* **Service Type**: The integration is focused on outbound shipping.
+
+<br />
