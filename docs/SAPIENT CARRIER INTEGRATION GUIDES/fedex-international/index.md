@@ -31,5 +31,6 @@ This integration provides the following key features:
 
 * **Incoterms**: The integration supports <Glossary>DDU</Glossary> (Delivered Duty Unpaid) and <Glossary>DDP</Glossary> (Delivered Duty Paid).
 * **Service Type**: The integration is focused on outbound shipping.
+* **label formats**: <Glossary>PDF</Glossary>
 
 <br />
