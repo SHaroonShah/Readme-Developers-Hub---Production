@@ -33,4 +33,6 @@ This integration provides the following key features:
 * **Service Type**: The integration is focused on outbound shipping.
 * **label formats**: <Glossary>PDF</Glossary>
 
-<br />
+## Additional features
+
+The FedEx International Connect integration provides support for single-piece shipments. Consignment services are not supported by this integration.
