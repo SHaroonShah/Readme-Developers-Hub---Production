@@ -49,26 +49,8 @@ The Amazon integration provides the following additional features:
   * **DeliveryInstructions**: To provide any additional instructions to the carrier regarding the delivery of the shipment.
   * **AmazonOrderID**: The unique Amazon ID for each order, which is only mandatory for On Amazon shipments.
   * **AmazonOrderItemId**: The unique Amazon ID for each item in the order, which is only mandatory for for On Amazon shipments and is available at the item-level of the **Create Shipment** request. Additionally, the **SkuCode** field is included to link the **AmazonOrderItemId** to the corresponding item in the shipment.
-  * **ShipmentDate**: The date when the shipment is created. This date can only be up to 9 days in the future, as Amazon automatically cancel any shipments that are not shipped with 10 days of creation.
 
-## Carrier API services
-
-The following API services are provided by the Amazon integration:
-
-* **Create shipment**: The integration for creating shipments to reflect Amazon as a primary carrier and allowing users to create shipments using the Create Shipment API endpoint that returns the label in base64 encoded format.
-* **Tracking**: Provides the tracking data via the tracking webhook.
-* **Cancel shipment**: Provides the ability to cancel shipments in the system.
-
-## Integration types
-
-* **Label integration**: The system generates the label by populating a stored label template with the relevant shipment data.
-
-> 📘 _Note_
->
-> _If any created shipments have not been manifested, it is advised to cancel them to avoid unwanted labels._
-
-* **Manifest integration**: This API generates an electronic manifest data file in the SAPIENT's default PDF format and send it to Amazon via SFTP.
-* **Tracking integration**: Enables data files to be sent via SFTP and received through the SAPIENT tracking webhook.
+<br />
 
 ***
 
