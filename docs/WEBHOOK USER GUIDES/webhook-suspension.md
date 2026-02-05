@@ -80,20 +80,20 @@ If the receiving endpoint (the system where the notifications are sent) is down 
 
   <Tabs>
     <Tab title="Client Errors (4xx)">
-      | Error Code | Description                | Details                                                    |
-      | :--------: | :------------------------- | :--------------------------------------------------------- |
-      |   **400**  | **Bad Request**            | Server cannot understand the request due to client error   |
-      |   **402**  | **Payment Required**       | Payment required to access the resource (experimental)     |
-      |   **403**  | **Forbidden**              | No permission to access the resource                       |
-      |   **410**  | **Gone**                   | Resource permanently unavailable and intentionally removed |
-      |   **413**  | **Payload Too Large**      | Request size exceeds server's file size limit              |
-      |   **414**  | **URL Too Long**           | Requested URL exceeds server processing limits             |
-      |   **415**  | **Unsupported Media Type** | Payload format not supported by server                     |
-      |   **416**  | **Range Not Satisfiable**  | Partial range request doesn't make sense for resource      |
-      |   **417**  | **Expectation Failed**     | Server cannot meet 'Expect' header conditions              |
-      |   **418**  | **I'm a teapot**           | The server refuses the attempt to brew coffee with a teapot              |
-      |   **426**  | **Upgrade Required**           | The server refuses to perform the request using the current protocol but might be willing to do so after the client upgrades to a different protocol.              |
-      |   **428**  | **Precondition Required**           | The origin server requires the request to be conditional              |
+      | Error Code | Description                | Details                                                                                                                                               |
+      | :--------: | :------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------- |
+      |   **400**  | **Bad Request**            | Server cannot understand the request due to client error                                                                                              |
+      |   **402**  | **Payment Required**       | Payment required to access the resource (experimental)                                                                                                |
+      |   **403**  | **Forbidden**              | No permission to access the resource                                                                                                                  |
+      |   **410**  | **Gone**                   | Resource permanently unavailable and intentionally removed                                                                                            |
+      |   **413**  | **Payload Too Large**      | Request size exceeds server's file size limit                                                                                                         |
+      |   **414**  | **URL Too Long**           | Requested URL exceeds server processing limits                                                                                                        |
+      |   **415**  | **Unsupported Media Type** | Payload format not supported by server                                                                                                                |
+      |   **416**  | **Range Not Satisfiable**  | Partial range request does not make sense for resource                                                                                                 |
+      |   **417**  | **Expectation Failed**     | Server cannot meet 'Expect' header conditions                                                                                                         |
+      |   **418**  | **I'm a teapot**           | The server refuses the attempt to brew coffee with a teapot                                                                                           |
+      |   **426**  | **Upgrade Required**       | The server refuses to perform the request using the current protocol but might be willing to do so after the client upgrades to a different protocol. |
+      |   **428**  | **Precondition Required**  | The origin server requires the request to be conditional                                                                                              |
     </Tab>
 
     <Tab title="Server Errors (5xx)">
@@ -116,18 +116,18 @@ If the receiving endpoint (the system where the notifications are sent) is down 
       | Error Code | Description                         | Details                                                    |
       | :--------: | :---------------------------------- | :--------------------------------------------------------- |
       |   **401**  | **Unauthorized**                    | Request lacks valid authentication credentials             |
-      |   **404**  | **Not Found**                       | Payment required to access the resource (experimental)     |
-      |   **405**  | **Method Not Allowed**              | No permission to access the resource                       |
-      |   **406**  | **Not Acceptable**                  | Resource permanently unavailable and intentionally removed |
-      |   **407**  | **Proxy Authentication Required**   | Request size exceeds server's file size limit              |
-      |   **408**  | **Request Timeout**                 | Requested URL exceeds server processing limits             |
-      |   **409**  | **Conflict**                        | Payload format not supported by server                     |
-      |   **411**  | **Length Required**                 | Partial range request doesn't make sense for resource      |
-      |   **412**  | **Precondition Failed**             | Server cannot meet 'Expect' header conditions              |
-      |   **425**  | **Too Early**                       | Easter egg status code (not used in practice)              |
-      |   **429**  | **Too Many Requests**               | Easter egg status code (not used in practice)              |
-      |   **431**  | **Request Header Fields Too Large** | Easter egg status code (not used in practice)              |
-      |   **451**  | **Unavailable For Legal Reasons**   | Easter egg status code (not used in practice)              |
+      |   **404**  | **Not Found**                       | The server cannot find the requested resource     |
+      |   **405**  | **Method Not Allowed**              | The request method is known by the server but is not supported by the target resource.                       |
+      |   **406**  | **Not Acceptable**                  | The web server does not find any content that conforms to the criteria given by the user agent. |
+      |   **407**  | **Proxy Authentication Required**   | Authentication is needed to be done by a proxy              |
+      |   **408**  | **Request Timeout**                 | Server attempts to shut down any unused connection             |
+      |   **409**  | **Conflict**                        | The request conflicts with the current state of the server                     |
+      |   **411**  | **Length Required**                 | Server rejected the request because the Content-Length header field is not defined      |
+      |   **412**  | **Precondition Failed**             | The request indicates preconditions in its headers which the server does not meet              |
+      |   **425**  | **Too Early**                       | The server is unwilling to risk processing a request that might be replayed              |
+      |   **429**  | **Too Many Requests**               | The user has sent too many requests in a given amount of time (rate limiting)              |
+      |   **431**  | **Request Header Fields Too Large** | The server is unwilling to process the request because its header fields are too large               |
+      |   **451**  | **Unavailable For Legal Reasons**   | The user agent requested a resource that cannot legally be provided              |
     </Tab>
 
     <Tab title="Server Errors (5xx)">
