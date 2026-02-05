@@ -49,10 +49,9 @@ If the receiving endpoint (the system where the notifications are sent) is down 
   |     4    |      3      | 30 minutes  |
   |     5    |      4      | 5 hours     |
   |     6    |      5      | 18 hours    |
-  |     7    |      6      | 24 hours    |
-  |     8    |      7      | 24 hours    |
+  |     7    |      6      | 72 hours    |
+  |     8    |      7      | 72 hours    |
 
-  \*Initial retry after first failure
 </Accordion>
 
 <Accordion title="Reactivation Process" icon="power-off">
