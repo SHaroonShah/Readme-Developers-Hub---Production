@@ -49,8 +49,6 @@ The Amazon integration provides the following additional features:
   * **AmazonOrderID**: The unique Amazon ID for each order, which is only mandatory for On Amazon shipments.
   * **AmazonOrderItemId**: The unique Amazon ID for each item in the order, which is only mandatory for for On Amazon shipments and is available at the item-level of the **Create Shipment** request. Additionally, the **SkuCode** field is included to link the **AmazonOrderItemId** to the corresponding item in the shipment.
 
-<br />
-
 ***
 
 this section, learn how to:
