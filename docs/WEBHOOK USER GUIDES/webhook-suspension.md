@@ -91,9 +91,9 @@ If the receiving endpoint (the system where the notifications are sent) is down 
       |   **415**  | **Unsupported Media Type** | Payload format not supported by server                     |
       |   **416**  | **Range Not Satisfiable**  | Partial range request doesn't make sense for resource      |
       |   **417**  | **Expectation Failed**     | Server cannot meet 'Expect' header conditions              |
-      |   **418**  | **I'm a teapot**           | Easter egg status code (not used in practice)              |
-      |   **426**  | **I'm a teapot**           | Easter egg status code (not used in practice)              |
-      |   **428**  | **I'm a teapot**           | Easter egg status code (not used in practice)              |
+      |   **418**  | **I'm a teapot**           | The server refuses the attempt to brew coffee with a teapot              |
+      |   **426**  | **Upgrade Required**           | The server refuses to perform the request using the current protocol but might be willing to do so after the client upgrades to a different protocol.              |
+      |   **428**  | **Precondition Required**           | The origin server requires the request to be conditional              |
     </Tab>
 
     <Tab title="Server Errors (5xx)">
@@ -113,21 +113,21 @@ If the receiving endpoint (the system where the notifications are sent) is down 
 
   <Tabs>
     <Tab title="Client Errors (4xx)">
-      | Error Code | Description                       | Details                                                    |
-      | :--------: | :-------------------------------- | :--------------------------------------------------------- |
-      |   **401**  | **Unauthorized**                  | Request lacks valid authentication credentials             |
-      |   **404**  | **Not Found**                     | Payment required to access the resource (experimental)     |
-      |   **405**  | **Method Not Allowed**            | No permission to access the resource                       |
-      |   **406**  | **Not Acceptable**                | Resource permanently unavailable and intentionally removed |
-      |   **407**  | **Proxy Authentication Required** | Request size exceeds server's file size limit              |
-      |   **408**  | **Request Timeout**                  | Requested URL exceeds server processing limits             |
-      |   **409**  | **Conflict**        | Payload format not supported by server                     |
-      |   **411**  | **Length Required**         | Partial range request doesn't make sense for resource      |
-      |   **412**  | **Precondition Failed**            | Server cannot meet 'Expect' header conditions              |
-      |   **425**  | **Too Early**                  | Easter egg status code (not used in practice)              |
-      |   **429**  | **Too Many Requests**                  | Easter egg status code (not used in practice)              |
-      |   **431**  | **Request Header Fields Too Large**                  | Easter egg status code (not used in practice)              |
-      |   **451**  | **Unavailable For Legal Reasons**                  | Easter egg status code (not used in practice)              |
+      | Error Code | Description                         | Details                                                    |
+      | :--------: | :---------------------------------- | :--------------------------------------------------------- |
+      |   **401**  | **Unauthorized**                    | Request lacks valid authentication credentials             |
+      |   **404**  | **Not Found**                       | Payment required to access the resource (experimental)     |
+      |   **405**  | **Method Not Allowed**              | No permission to access the resource                       |
+      |   **406**  | **Not Acceptable**                  | Resource permanently unavailable and intentionally removed |
+      |   **407**  | **Proxy Authentication Required**   | Request size exceeds server's file size limit              |
+      |   **408**  | **Request Timeout**                 | Requested URL exceeds server processing limits             |
+      |   **409**  | **Conflict**                        | Payload format not supported by server                     |
+      |   **411**  | **Length Required**                 | Partial range request doesn't make sense for resource      |
+      |   **412**  | **Precondition Failed**             | Server cannot meet 'Expect' header conditions              |
+      |   **425**  | **Too Early**                       | Easter egg status code (not used in practice)              |
+      |   **429**  | **Too Many Requests**               | Easter egg status code (not used in practice)              |
+      |   **431**  | **Request Header Fields Too Large** | Easter egg status code (not used in practice)              |
+      |   **451**  | **Unavailable For Legal Reasons**   | Easter egg status code (not used in practice)              |
     </Tab>
 
     <Tab title="Server Errors (5xx)">
