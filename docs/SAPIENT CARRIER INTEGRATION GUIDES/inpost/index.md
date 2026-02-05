@@ -37,10 +37,8 @@ These services include the following:
 ## Carrier API services
 
 * **API endpoints for shipment creation and QR code retrieval**: The integration includes specific API endpoints that developers can use to create shipments, get PUDO locations, and retrieve labels or QR codes. This enables seamless interaction between the InPost service and SAPIENT system, ensuring efficient data flow and functionality.
-  * Create Parcel endpoint for B2C service
-  * Create Parcel endpoint for returns service
-  * Get Label/QR code endpoint
-  * Get PUDO Locations endpoint
+  * Create shipment for B2C and returns services
+  * Get PUDO Locations
 
 In this section, learn how to:
 
