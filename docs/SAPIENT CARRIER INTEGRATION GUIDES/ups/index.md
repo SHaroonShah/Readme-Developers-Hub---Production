@@ -68,7 +68,6 @@ The UPS integration provides the following additional features:
 
 The following API services are provided by the UPS integration:
 
-* **Authorisation**: The integration to authenticate and authorise users to use the carrier services via API.
 * **Create Shipment**: The integration for creating shipments to reflect UPS as a primary carrier and allowing users to create shipments using the **Create Shipment** endpoint.
 * **Tracking**: The integration to track and monitor shipments in real time by receiving automatic updates on shipment status, delivery progress, and exceptions.
 
