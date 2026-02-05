@@ -127,6 +127,7 @@ If the receiving endpoint (the system where the notifications are sent) is down 
       |   **425**  | **Too Early**                  | Easter egg status code (not used in practice)              |
       |   **429**  | **Too Many Requests**                  | Easter egg status code (not used in practice)              |
       |   **431**  | **Request Header Fields Too Large**                  | Easter egg status code (not used in practice)              |
+      |   **451**  | **Unavailable For Legal Reasons**                  | Easter egg status code (not used in practice)              |
     </Tab>
 
     <Tab title="Server Errors (5xx)">
