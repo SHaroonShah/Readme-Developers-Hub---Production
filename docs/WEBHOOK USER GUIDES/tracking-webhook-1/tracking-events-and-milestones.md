@@ -6,7 +6,7 @@ excerpt: >-
   lifecycle, for example, shipment announced, shipment departed depot, delivered
   to safe place, and other.  On the contrary, _milestones_ refer to significant
   stages within the shipment process that are essential for monitoring process,
-  such as order created, label printed, out for delivery, and so on.
+  such as in transit, in custome, delivered, and so on.
 deprecated: false
 hidden: false
 icon: fad fa-timeline-arrow
