@@ -27,7 +27,7 @@ This integration provides the following key features:
 * **Ship to Destinations**: Users can send <Glossary>shipments</Glossary> to the Great Britain (GB) mainland only.
 * **Service Type**: The integration is focused on outbound and return shipping.
 
-## Carrier shipping services
+## Additional features
 
 These services include the following:
 
