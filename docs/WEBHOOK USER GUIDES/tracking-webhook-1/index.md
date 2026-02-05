@@ -18,27 +18,11 @@ The application sending the data sends a **POST** API call containing the data t
 
 INTERSOFT offers a comprehensive <Glossary>tracking webhook</Glossary> solution for receiving tracking events from carriers. The tracking data is sent to the customer’s endpoint configured in the tracking webhook setup.
 
-With this solution, you can track:
-
-<Cards columns="3">
-  <Card title="SAPIENT Shipments" icon="box">
-    Track all shipments created on the SAPIENT platform with comprehensive tracking data and real-time updates.
-  </Card>
-
-  <Card title="Intelligent Shipper" icon="truck">
-    Monitor specific shipments created on Intelligent Shipper for targeted tracking capabilities.
-  </Card>
-
-  <Card title="Royal Mail Integration" icon="mail-bulk">
-    Track Royal Mail shipments created on any external shipping platform or by individuals.
-  </Card>
-</Cards>
-
 ***
 
 ## Get started
 
-In this section, learn how to manage your webhook by accessing the following essential functions:
+In this section, learn how to manage your webhooks by accessing the following essential functions:
 
 <Cards columns="3">
   <Card title="Set Up Tracking Webhook Connection" href="https://docs.intersoftsapient.net/v4.02/docs/create-tracking-webhook" icon="fa-solid fa-code-pull-request">
