@@ -52,11 +52,4 @@ The Asendia integration provides the following additional features:
 * **Carrier specific fields**: The **CarrierSpecifics** object contains the following field:
   * **Format**: To specify whether the shipment to EU is either **B** (Boxable) or **N** (Non-boxable) on e-PAQ Standard and e-PAQ Plus services.
 
-## Carrier API services
-
-The following API services are provided by the Asendia integration:
-
-* **Create shipment**: The integration for creating shipments to reflect Asendia as a primary carrier and allowing users to create shipments using the **Create Shipment** that returns the <Glossary>label</Glossary> in base64 encoded format alongside a <Glossary>CN22</Glossary>. For postal services, a <Glossary>CN23</Glossary> is included is returned in the **Documents** section of the response for all <Glossary>dutiable shipments</Glossary>.
-* **Tracking**: Retrieves the tracking data via the tracking webhook.
-
 <br />
