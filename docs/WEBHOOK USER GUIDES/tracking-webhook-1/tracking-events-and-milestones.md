@@ -1,9 +1,8 @@
 ---
 title: Track events and milestones
 excerpt: >-
-  Tracking _all events_ refers to the setting that enables the monitoring and
-  logging of every possible event related to a shipment throughout its
-  lifecycle.
+  This setting enables the monitoring and logging of every possible event and
+  milestone related to a shipment throughout its lifecycle.
 deprecated: false
 hidden: false
 icon: fad fa-timeline-arrow
