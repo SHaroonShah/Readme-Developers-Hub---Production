@@ -9,7 +9,7 @@ metadata:
 ---
 The webhook operates using a POST API call, transmitting tracking events in a structured JSON format. This payload includes key shipment details such as tracking ID, tracking number, status tags, timestamps, event locations, and carrier‑specific metadata. The system ensures customers receive timely, accurate tracking updates throughout the parcel’s journey, offering full transparency from dispatch to delivery.
 
-Wirth this solution, you can track: 
+Wirth this solution, you can track:
 
 <Cards columns="3">
   <Card title="SAPIENT Shipments" icon="box">
@@ -31,3 +31,12 @@ To start receiving tracking updates, customers must configure their webhook with
 
 In this section, learn how to manage your tracking webhook by accessing the following essential functions:
 
+<Cards columns="3">
+  <Card title="Set Up Tracking Webhook Connection" href="https://docs.intersoftsapient.net/v4.02/docs/create-tracking-webhook" icon="fa-solid fa-code-pull-request">
+    Automate the instantaneous flow of information regarding the status of shipments.
+  </Card>
+
+  <Card title="Add Tracking Account" href="https://docs.intersoftsapient.net/docs/create-tracking-account" icon="fa-solid fa-alarm-plus">
+    Establish your tracking account for seamless integration.
+  </Card>
+</Cards>
