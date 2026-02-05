@@ -76,7 +76,7 @@ If the receiving endpoint (the system where the notifications are sent) is down 
 ## Error reference
 
 <Accordion title="Immediate suspension error codes" icon="bug">
- The immediate suspension may occur when the retry limit is exceeded. The following table lists the immediate suspension  codes that can help you troubleshoot webhook issues:
+  The immediate suspension may occur when the retry limit is exceeded. The following table lists the immediate suspension  codes that can help you troubleshoot webhook issues:
 
   <Tabs>
     <Tab title="Client Errors (4xx)">
@@ -109,25 +109,24 @@ If the receiving endpoint (the system where the notifications are sent) is down 
 </Accordion>
 
 <Accordion title="Retry suspension error codes" icon="bug">
- The system goes in the retry mode due to any temporary failures. In this case, the system retries the deiveries. The following table lists the retry suspension codes that can help you troubleshoot webhook issues:
+  The system goes in the retry mode due to any temporary failures. In this case, the system retries the deiveries. The following table lists the retry suspension codes that can help you troubleshoot webhook issues:
 
   <Tabs>
     <Tab title="Client Errors (4xx)">
-      | Error Code | Description                | Details                                                    |
-      | :--------: | :------------------------- | :--------------------------------------------------------- |
-      |   **401**  | **Unauthorized**           | Request lacks valid authentication credentials             |
-      |   **404**  | **Not Found**       				| Payment required to access the resource (experimental)     |
-      |   **405**  | **Method Not Allowed**     | No permission to access the resource                       |
-      |   **406**  | **Not Acceptable**         | Resource permanently unavailable and intentionally removed |
+      | Error Code | Description                       | Details                                                    |
+      | :--------: | :-------------------------------- | :--------------------------------------------------------- |
+      |   **401**  | **Unauthorized**                  | Request lacks valid authentication credentials             |
+      |   **404**  | **Not Found**                     | Payment required to access the resource (experimental)     |
+      |   **405**  | **Method Not Allowed**            | No permission to access the resource                       |
+      |   **406**  | **Not Acceptable**                | Resource permanently unavailable and intentionally removed |
       |   **407**  | **Proxy Authentication Required** | Request size exceeds server's file size limit              |
-      |   **408**  | **URL Too Long**           | Requested URL exceeds server processing limits             |
-      |   **409**  | **Unsupported Media Type** | Payload format not supported by server                     |
-      |   **411**  | **Range Not Satisfiable**  | Partial range request doesn't make sense for resource      |
-      |   **412**  | **Expectation Failed**     | Server cannot meet 'Expect' header conditions              |
-      |   **425**  | **I'm a teapot**           | Easter egg status code (not used in practice)              |
-      |   **429**  | **I'm a teapot**           | Easter egg status code (not used in practice)              |
-      |   **431**  | **I'm a teapot**           | Easter egg status code (not used in practice)              |
-      |   **450**  | **I'm a teapot**           | Easter egg status code (not used in practice)              |
+      |   **408**  | **Request Timeout**                  | Requested URL exceeds server processing limits             |
+      |   **409**  | **Conflict**        | Payload format not supported by server                     |
+      |   **411**  | **Length Required**         | Partial range request doesn't make sense for resource      |
+      |   **412**  | **Precondition Failed**            | Server cannot meet 'Expect' header conditions              |
+      |   **425**  | **Too Early**                  | Easter egg status code (not used in practice)              |
+      |   **429**  | **Too Many Requests**                  | Easter egg status code (not used in practice)              |
+      |   **431**  | **Request Header Fields Too Large**                  | Easter egg status code (not used in practice)              |
     </Tab>
 
     <Tab title="Server Errors (5xx)">
