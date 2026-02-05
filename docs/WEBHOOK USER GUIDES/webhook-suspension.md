@@ -89,7 +89,7 @@ If the receiving endpoint (the system where the notifications are sent) is down 
       |   **413**  | **Payload Too Large**      | Request size exceeds server's file size limit                                                                                                         |
       |   **414**  | **URL Too Long**           | Requested URL exceeds server processing limits                                                                                                        |
       |   **415**  | **Unsupported Media Type** | Payload format not supported by server                                                                                                                |
-      |   **416**  | **Range Not Satisfiable**  | Partial range request does not make sense for resource                                                                                                 |
+      |   **416**  | **Range Not Satisfiable**  | Partial range request does not make sense for resource                                                                                                |
       |   **417**  | **Expectation Failed**     | Server cannot meet 'Expect' header conditions                                                                                                         |
       |   **418**  | **I'm a teapot**           | The server refuses the attempt to brew coffee with a teapot                                                                                           |
       |   **426**  | **Upgrade Required**       | The server refuses to perform the request using the current protocol but might be willing to do so after the client upgrades to a different protocol. |
@@ -113,30 +113,30 @@ If the receiving endpoint (the system where the notifications are sent) is down 
 
   <Tabs>
     <Tab title="Client Errors (4xx)">
-      | Error Code | Description                         | Details                                                    |
-      | :--------: | :---------------------------------- | :--------------------------------------------------------- |
-      |   **401**  | **Unauthorized**                    | Request lacks valid authentication credentials             |
-      |   **404**  | **Not Found**                       | The server cannot find the requested resource     |
-      |   **405**  | **Method Not Allowed**              | The request method is known by the server but is not supported by the target resource.                       |
+      | Error Code | Description                         | Details                                                                                         |
+      | :--------: | :---------------------------------- | :---------------------------------------------------------------------------------------------- |
+      |   **401**  | **Unauthorized**                    | Request lacks valid authentication credentials                                                  |
+      |   **404**  | **Not Found**                       | The server cannot find the requested resource                                                   |
+      |   **405**  | **Method Not Allowed**              | The request method is known by the server but is not supported by the target resource.          |
       |   **406**  | **Not Acceptable**                  | The web server does not find any content that conforms to the criteria given by the user agent. |
-      |   **407**  | **Proxy Authentication Required**   | Authentication is needed to be done by a proxy              |
-      |   **408**  | **Request Timeout**                 | Server attempts to shut down any unused connection             |
-      |   **409**  | **Conflict**                        | The request conflicts with the current state of the server                     |
-      |   **411**  | **Length Required**                 | Server rejected the request because the Content-Length header field is not defined      |
-      |   **412**  | **Precondition Failed**             | The request indicates preconditions in its headers which the server does not meet              |
-      |   **425**  | **Too Early**                       | The server is unwilling to risk processing a request that might be replayed              |
-      |   **429**  | **Too Many Requests**               | The user has sent too many requests in a given amount of time (rate limiting)              |
-      |   **431**  | **Request Header Fields Too Large** | The server is unwilling to process the request because its header fields are too large               |
-      |   **451**  | **Unavailable For Legal Reasons**   | The user agent requested a resource that cannot legally be provided              |
+      |   **407**  | **Proxy Authentication Required**   | Authentication is needed to be done by a proxy                                                  |
+      |   **408**  | **Request Timeout**                 | Server attempts to shut down any unused connection                                              |
+      |   **409**  | **Conflict**                        | The request conflicts with the current state of the server                                      |
+      |   **411**  | **Length Required**                 | Server rejected the request because the Content-Length header field is not defined              |
+      |   **412**  | **Precondition Failed**             | The request indicates preconditions in its headers which the server does not meet               |
+      |   **425**  | **Too Early**                       | The server is unwilling to risk processing a request that might be replayed                     |
+      |   **429**  | **Too Many Requests**               | The user has sent too many requests in a given amount of time (rate limiting)                   |
+      |   **431**  | **Request Header Fields Too Large** | The server is unwilling to process the request because its header fields are too large          |
+      |   **451**  | **Unavailable For Legal Reasons**   | The user agent requested a resource that cannot legally be provided                             |
     </Tab>
 
     <Tab title="Server Errors (5xx)">
       | Error Code | Description                    | Details                                            |
       | :--------: | :----------------------------- | :------------------------------------------------- |
-      |   **500**  | **Not Implemented**            | Server doesn't support the required facility       |
-      |   **502**  | **HTTP Version Not Supported** | Server doesn't recognize the HTTP protocol version |
-      |   **503**  | **Variant Also Negotiates**    | Server configuration issue                         |
-      |   **504**  | **Not Extended**               | Server requires additional extensions              |
+      |   **500**  | **Internal Server Error**            | The server has encountered a situation it does not know how to handle       |
+      |   **502**  | **Bad Gateway** | The server, while working as a gateway to get a response needed to handle the request, got an invalid response |
+      |   **503**  | **Service Unavailable**    | The server is not ready to handle the request                         |
+      |   **504**  | **Gateway Timeout**               | The server is acting as a gateway and cannot get a response in time              |
     </Tab>
   </Tabs>
 </Accordion>
