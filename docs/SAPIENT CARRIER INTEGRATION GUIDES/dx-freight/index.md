@@ -59,10 +59,8 @@ The following are one of the main DX Freight service types tailored to meet diff
 
 The following API services are provided by the UPS integration:
 
-* **Get Session Key**: The integration to authenticate and authorise users to use the carrier services via API.
-* **Add Consignment**: The integration for creating shipments to reflect DXF as a primary carrier and allowing users to create shipments using the **Create Shipment** endpoint.
-* **Get Labels**: The integration to retrieve package labels in the <Glossary>PDF</Glossary>, <Glossary>ZPL203DPI</Glossary>, and <Glossary>ZPL300DPI</Glossary> formats.
-* **Delete consignment**: The integration to delete an existing shipment cancelled in SAPIENT.
+* **Create Shipment**: The integration for creating shipments to reflect DXF as a primary carrier and allowing users to create shipments using the **Create Shipment** endpoint.
+* **Delete shipment**: The integration to delete an existing shipment cancelled in SAPIENT.
 
 ## Integration types
 
