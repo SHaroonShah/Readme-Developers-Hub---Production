@@ -51,7 +51,6 @@ If the receiving endpoint (the system where the notifications are sent) is down 
   |     6    |      5      | 18 hours    |
   |     7    |      6      | 72 hours    |
   |     8    |      7      | 72 hours    |
-
 </Accordion>
 
 <Accordion title="Reactivation Process" icon="power-off">
@@ -76,7 +75,7 @@ If the receiving endpoint (the system where the notifications are sent) is down 
 
 ## Error reference
 
-<Accordion title="Common Error Codes" icon="bug">
+<Accordion title="Immediate suspension error codes" icon="bug">
   Understanding these error codes can help you troubleshoot webhook issues:
 
   <Tabs>
@@ -84,7 +83,6 @@ If the receiving endpoint (the system where the notifications are sent) is down 
       | Error Code | Description                | Details                                                    |
       | :--------: | :------------------------- | :--------------------------------------------------------- |
       |   **400**  | **Bad Request**            | Server cannot understand the request due to client error   |
-      |   **401**  | **Unauthorized**           | Request lacks valid authentication credentials             |
       |   **402**  | **Payment Required**       | Payment required to access the resource (experimental)     |
       |   **403**  | **Forbidden**              | No permission to access the resource                       |
       |   **410**  | **Gone**                   | Resource permanently unavailable and intentionally removed |
@@ -104,6 +102,41 @@ If the receiving endpoint (the system where the notifications are sent) is down 
       |   **506**  | **Variant Also Negotiates**         | Server configuration issue                          |
       |   **510**  | **Not Extended**                    | Server requires additional extensions               |
       |   **511**  | **Network Authentication Required** | Client authentication to gain network access failed |
+    </Tab>
+  </Tabs>
+</Accordion>
+<Accordion title="Retry suspension error codes" icon="bug">
+  Understanding these error codes can help you troubleshoot webhook issues:
+
+  <Tabs>
+    <Tab title="Client Errors (4xx)">
+      | Error Code | Description                | Details                                                    |
+      | :--------: | :------------------------- | :--------------------------------------------------------- |
+      |   **401**  | **Unauthorized**           | Request lacks valid authentication credentials             |
+      |   **404**  | **Payment Required**       | Payment required to access the resource (experimental)     |
+      |   **405**  | **Forbidden**              | No permission to access the resource                       |
+      |   **406**  | **Gone**                   | Resource permanently unavailable and intentionally removed |
+      |   **407**  | **Payload Too Large**      | Request size exceeds server's file size limit              |
+      |   **408**  | **URL Too Long**           | Requested URL exceeds server processing limits             |
+      |   **409**  | **Unsupported Media Type** | Payload format not supported by server                     |
+      |   **411**  | **Range Not Satisfiable**  | Partial range request doesn't make sense for resource      |
+      |   **412**  | **Expectation Failed**     | Server cannot meet 'Expect' header conditions              |
+      |   **425**  | **I'm a teapot**           | Easter egg status code (not used in practice)              |
+      |   **429**  | **I'm a teapot**           | Easter egg status code (not used in practice)              |
+      |   **431**  | **I'm a teapot**           | Easter egg status code (not used in practice)              |
+ 			|   **450**  | **I'm a teapot**           | Easter egg status code (not used in practice)              |
+
+
+    </Tab>
+
+    <Tab title="Server Errors (5xx)">
+      | Error Code | Description                         | Details                                             |
+      | :--------: | :---------------------------------- | :-------------------------------------------------- |
+      |   **500**  | **Not Implemented**                 | Server doesn't support the required facility        |
+      |   **502**  | **HTTP Version Not Supported**      | Server doesn't recognize the HTTP protocol version  |
+      |   **503**  | **Variant Also Negotiates**         | Server configuration issue                          |
+      |   **504**  | **Not Extended**                    | Server requires additional extensions               |
+
     </Tab>
   </Tabs>
 </Accordion>
