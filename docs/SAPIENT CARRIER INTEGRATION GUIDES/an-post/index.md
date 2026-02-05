@@ -41,12 +41,13 @@ This integration provides the following key features:
 
 ## Integration types
 
-* **Integrations in scope**: The following integrations are added to the scope:
-  * **Label integration**: This integration feature simplifies the process of generating and managing shipping labels in the standard 6x4 size, PDF format, which is essential for efficient logistics. Based on the destination country, customers must be aware of the following:
-    * For delivery to addresses in Northern Ireland (IE), only the shipping <Glossary>label</Glossary> is required.
-      * For delivery to EU destinations excluding Northern Ireland (IE), a security declaration is required.
-      * The signature image will be taken from the signature image the customer has uploaded for the shipping account in the [Logos and Signatures](https://docs.intersoftsapient.net/docs/add-signature-and-logo#/) screen.
-    * For delivery to ROW addresses, including GB and Northern Ireland (IE), a shipping label and <Glossary>CN23</Glossary> is required. Sapient will generate a separate address label and CN23, as this is consistent with the behaviour for other integrations.
+The following integrations are added to the scope:
+
+* **Label integration**: This integration feature simplifies the process of generating and managing shipping labels in the standard 6x4 size, PDF format, which is essential for efficient logistics. Based on the destination country, customers must be aware of the following:
+  * For delivery to addresses in Northern Ireland (IE), only the shipping <Glossary>label</Glossary> is required.
+    * For delivery to EU destinations excluding Northern Ireland (IE), a security declaration is required.
+    * The signature image will be taken from the signature image the customer has uploaded for the shipping account in the [Logos and Signatures](https://docs.intersoftsapient.net/docs/add-signature-and-logo#/) screen.
+  * For delivery to ROW addresses, including GB and Northern Ireland (IE), a shipping label and <Glossary>CN23</Glossary> is required. Sapient will generate a separate address label and CN23, as this is consistent with the behaviour for other integrations.
 
 > 📘 _Note_
 >
