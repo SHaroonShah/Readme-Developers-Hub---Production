@@ -11,7 +11,9 @@ The webhook operates using a POST API call, transmitting tracking events in a st
 
 To start receiving tracking updates, customers must configure their webhook within the INTERSOFT platform. Once enabled, the webhook can be tailored to send either milestones only or all tracking events, depending on business needs. This flexibility allows organisations to manage their data flow efficiently while maintaining full visibility of parcel movement.
 
-<br />
+***
+
+In this section, learn how to manage your tracking webhook by accessing the following essential functions:
 
 <Cards columns="3">
   <Card title="SAPIENT Shipments" icon="box">
