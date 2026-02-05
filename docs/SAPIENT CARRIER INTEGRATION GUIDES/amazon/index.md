@@ -56,8 +56,10 @@ The Amazon integration provides the following additional features:
 this section, learn how to:
 
 * <Anchor label="Add an Amazon shipping account" target="_blank" href="https://docs.intersoftsapient.net/docs/add-amazon-shipping-account">Add an Amazon shipping account</Anchor>
-* [Add an An Amazon tracking account](https://docs.intersoftsapient.net/docs/add-an-post-tracking-account#/)
+* [Add an Amazon tracking account](https://docs.intersoftsapient.net/docs/add-an-post-tracking-account#/)
 
 > 📘 _Note_
 >
 > _For more information on how to activate the Amazon integration, refer to the [Activate integration](https://docs.intersoftsapient.net/docs/integration-activation#/) section._
+
+<br />
