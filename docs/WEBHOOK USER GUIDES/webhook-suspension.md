@@ -92,6 +92,9 @@ If the receiving endpoint (the system where the notifications are sent) is down 
       |   **416**  | **Range Not Satisfiable**  | Partial range request doesn't make sense for resource      |
       |   **417**  | **Expectation Failed**     | Server cannot meet 'Expect' header conditions              |
       |   **418**  | **I'm a teapot**           | Easter egg status code (not used in practice)              |
+      |   **426**  | **I'm a teapot**           | Easter egg status code (not used in practice)              |
+ 			|   **428**  | **I'm a teapot**           | Easter egg status code (not used in practice)              |
+
     </Tab>
 
     <Tab title="Server Errors (5xx)">
@@ -105,6 +108,7 @@ If the receiving endpoint (the system where the notifications are sent) is down 
     </Tab>
   </Tabs>
 </Accordion>
+
 <Accordion title="Retry suspension error codes" icon="bug">
   Understanding these error codes can help you troubleshoot webhook issues:
 
@@ -124,19 +128,16 @@ If the receiving endpoint (the system where the notifications are sent) is down 
       |   **425**  | **I'm a teapot**           | Easter egg status code (not used in practice)              |
       |   **429**  | **I'm a teapot**           | Easter egg status code (not used in practice)              |
       |   **431**  | **I'm a teapot**           | Easter egg status code (not used in practice)              |
- 			|   **450**  | **I'm a teapot**           | Easter egg status code (not used in practice)              |
-
-
+      |   **450**  | **I'm a teapot**           | Easter egg status code (not used in practice)              |
     </Tab>
 
     <Tab title="Server Errors (5xx)">
-      | Error Code | Description                         | Details                                             |
-      | :--------: | :---------------------------------- | :-------------------------------------------------- |
-      |   **500**  | **Not Implemented**                 | Server doesn't support the required facility        |
-      |   **502**  | **HTTP Version Not Supported**      | Server doesn't recognize the HTTP protocol version  |
-      |   **503**  | **Variant Also Negotiates**         | Server configuration issue                          |
-      |   **504**  | **Not Extended**                    | Server requires additional extensions               |
-
+      | Error Code | Description                    | Details                                            |
+      | :--------: | :----------------------------- | :------------------------------------------------- |
+      |   **500**  | **Not Implemented**            | Server doesn't support the required facility       |
+      |   **502**  | **HTTP Version Not Supported** | Server doesn't recognize the HTTP protocol version |
+      |   **503**  | **Variant Also Negotiates**    | Server configuration issue                         |
+      |   **504**  | **Not Extended**               | Server requires additional extensions              |
     </Tab>
   </Tabs>
 </Accordion>
