@@ -13,7 +13,7 @@ metadata:
 next:
   description: ''
 ---
-In SAPIENT, you can create a Royal Mail shipping accounts by selecting your desired <Glossary>shipping location</Glossary>,  entering the corresponding account and carrier details, and then adding the account to the system.
+In SAPIENT, you can create a Royal Mail shipping account by selecting your desired <Glossary>shipping location</Glossary>,  entering the corresponding account and carrier details, and then adding the account to the system.
 
 > 🚧 _Important_
 >
