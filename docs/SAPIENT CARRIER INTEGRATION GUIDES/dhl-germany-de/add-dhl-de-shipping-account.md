@@ -2,7 +2,7 @@
 title: Add DHL DE shipping account
 deprecated: false
 hidden: false
-icon: fad fa-page
+icon: fad fa-calendar-circle-plus
 metadata:
   robots: index
 ---
