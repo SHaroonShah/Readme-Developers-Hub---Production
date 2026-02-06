@@ -13,7 +13,7 @@ metadata:
 next:
   description: ''
 ---
-In SAPIENT, you can create a shipping account with YODEL, assign your YODEL credentials to it, and then link it to the relevant <Glossary>shipping location</Glossary>(s).
+In SAPIENT, you can create a Yodel shipping account by selecting your desired <Glossary>shipping location</Glossary>,  entering the corresponding account and carrier details, and then adding the account to the system.
 
 > 🚧 _IMPORTANT_
 >
@@ -25,7 +25,7 @@ To add a shipping account for YODEL in SAPIENT, follow the instructions as expla
 
 <Image align="center" alt="Accessing shipping accounts" border={true} caption="Accessing shipping accounts" src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" />
 
-2. On the **Shipping Accounts** page that opens, select ![](https://files.readme.io/e27a112101fea1d20bb870a5c570ce3cb3889d2c514dd5bc0920c2ea630f9943-add_shipping_account_button.png).
+2. On the **Shipping Accounts** page that opens, select <Image border={false} src="https://files.readme.io/e27a112101fea1d20bb870a5c570ce3cb3889d2c514dd5bc0920c2ea630f9943-add_shipping_account_button.png" />.
 
 <Image align="center" alt="Accessing option to add shipping account" border={true} caption="Selecting option to add shipping account" src="https://files.readme.io/1f21da8d1e1c679c2ed31d67bfc7551e5c9477f2f22b16c279aed71ab9688809-Add_shipping_account_button_YODEL.png" />
 
@@ -186,7 +186,7 @@ To add a shipping account for YODEL in SAPIENT, follow the instructions as expla
   </tbody>
 </Table>
 
-6. After entering all the required information, select ![](https://files.readme.io/4d8fd2c9a6fad152f41e65d82274b94a6d3a8978f69bb88fbe74ba2d54138fe8-add_shipping_account_button_2.png).
+6. After entering all the required information, select <Image border={false} src="https://files.readme.io/4d8fd2c9a6fad152f41e65d82274b94a6d3a8978f69bb88fbe74ba2d54138fe8-add_shipping_account_button_2.png" />.
 
 Once done, you have now successfully added a shipping account. You can now start shipping with it.
 
