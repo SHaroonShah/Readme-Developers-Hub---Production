@@ -443,8 +443,6 @@ To add a shipping account for Amazon in SAPIENT, follow the instructions as expl
         </Table>
 
         <br />
-
-        
       </ToggleListItem>
 
       <br />
@@ -454,10 +452,11 @@ To add a shipping account for Amazon in SAPIENT, follow the instructions as expl
 
         In the authorisation page that opens, select the checkbox if you agree with the authorisation terms, select ![alt text](https://files.readme.io/3f6f67356aa9dca354db43483cb3e1c8739ed9112f2ce231fcef754fd3175f1a-Authorise_button.png).
 
-        <Image align="center" border={false} width="500px" src="https://files.readme.io/1377e7ba5e9d77c6a21cbfbc1838eaf509e30694fa8e8665be5100efd27bd1b2-Authorise_screen_Amazon_Off.png" />
+        <Image align="center" src="https://files.readme.io/1377e7ba5e9d77c6a21cbfbc1838eaf509e30694fa8e8665be5100efd27bd1b2-Authorise_screen_Amazon_Off.png" width="500px" />
 
-Once the shipping account is connected successfully, its status moves to **Enabled**. You can now start shipping with it.
+        Once the shipping account is connected successfully, its status moves to **Enabled**. You can now start shipping with it.
 
+<Image align="center" border={false} src="https://files.readme.io/08218f7241ea7b5336492b77d5bcbdc9303edca583575035c065a6d60cd784a0-Activate_and_enabled_Amazon_Off_account.png" />
 
         ***
       </ToggleListItem>
@@ -472,5 +471,3 @@ Once the shipping account is connected successfully, its status moves to **Enabl
 ***
 
 
-
-<br />
