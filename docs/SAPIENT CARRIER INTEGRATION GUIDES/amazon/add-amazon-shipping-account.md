@@ -17,7 +17,9 @@ In SAPIENT, you can create <Glossary>On-Amazon</Glossary> and <Glossary>Off-Amaz
 > _Once the Amazon integration is activated, please bear in mind the following:_
 >
 > * _You cannot switch between On‑Amazon and Off‑Amazon shipping accounts after they have been created.._
-> * _You can add and manage the shipping accounts via <Anchor label="API" target="_blank" href="https://docs.intersoftsapient.net/reference/get_v4-carriers">API</Anchor>, but you must log into the SAPIENT UI and complete the Login With Amazon (LWA) process._
+> * _You can add and manage the shipping accounts via API, but you must log into the SAPIENT UI and complete the Login With Amazon (LWA) process._
+>
+> _For more information on how to add and manage shipping accounts via the API, refer to the [API References](https://docs.intersoftsapient.net/reference/get_v4-carriers) section._
 
 To add a shipping account for Amazon in SAPIENT, follow the instructions as explained in the following procedures for each account type.
 
