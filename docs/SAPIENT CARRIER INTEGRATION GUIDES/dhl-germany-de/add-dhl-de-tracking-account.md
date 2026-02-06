@@ -2,7 +2,7 @@
 title: Add DHL DE tracking account
 deprecated: false
 hidden: false
-icon: fad fa-page
+icon: fad fa-square-plus
 metadata:
   robots: index
 ---
