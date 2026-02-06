@@ -13,6 +13,11 @@ In SAPIENT, you can create <Glossary>On-Amazon</Glossary> and <Glossary>Off-Amaz
 > 🚧 _Important_
 >
 > _Before you can set up a shipping account, make sure you have [enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) for Amazon._
+>
+> _Once the Amazon integration is activated, please bear in mind the following:_
+>
+> * _You cannot switch between On‑Amazon and Off‑Amazon shipping accounts after they have been created.._
+> * _You can add and manage the shipping accounts via <Anchor label="API" target="_blank" href="https://docs.intersoftsapient.net/reference/get_v4-carriers">API</Anchor>, but you must log into the SAPIENT UI and complete the Login With Amazon (LWA) process._
 
 To add a shipping account for Amazon in SAPIENT, follow the instructions as explained in the following procedures for each account type.
 
@@ -456,7 +461,7 @@ To add a shipping account for Amazon in SAPIENT, follow the instructions as expl
 
         Once the shipping account is connected successfully, its status moves to **Enabled**. You can now start shipping with it.
 
-<Image align="center" border={false} src="https://files.readme.io/08218f7241ea7b5336492b77d5bcbdc9303edca583575035c065a6d60cd784a0-Activate_and_enabled_Amazon_Off_account.png" />
+        <Image align="center" src="https://files.readme.io/08218f7241ea7b5336492b77d5bcbdc9303edca583575035c065a6d60cd784a0-Activate_and_enabled_Amazon_Off_account.png" />
 
         ***
       </ToggleListItem>
@@ -466,8 +471,9 @@ To add a shipping account for Amazon in SAPIENT, follow the instructions as expl
 
 > 📘 _Note_
 >
-> _Shipping account(s) can be added and managed via API. For more information, refer to the <Anchor label="API References" target="_blank" href="https://docs.intersoftsapient.net/reference/get_v4-carriers">API References</Anchor> section._
+> Once the Amazon integration is activated, please bear in mind the following: 
+>
+> * You cannot swap between the On-Amazon and Off-Amazon shipping accounts after their creation.
+> * You can add and manage the shipping accounts via <Anchor label="API" target="_blank" href="https://docs.intersoftsapient.net/reference/get_v4-carriers">API</Anchor>, but you first need to log into the SAPIENT UI and complete the Login With Amazon (LWA) process. 
 
 ***
-
-
