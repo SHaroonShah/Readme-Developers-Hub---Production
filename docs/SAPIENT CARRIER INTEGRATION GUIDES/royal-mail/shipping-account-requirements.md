@@ -13,7 +13,7 @@ metadata:
 next:
   description: ''
 ---
-In SAPIENT, you can create a shipping account with Royal Mail, assign your Royal Mail credentials to it, and then link it to the relevant <Glossary>shipping location</Glossary>(s).
+In SAPIENT, you can create a Royal Mail shipping accounts by selecting your desired <Glossary>shipping location</Glossary>,  entering the corresponding account and carrier details, and then adding the account to the system.
 
 > 🚧 _Important_
 >
@@ -29,7 +29,7 @@ To add a shipping account for Royal Mail in SAPIENT, follow the instructions as 
 
 <Image align="center" alt="Accessing shipping accounts" border={true} caption="Accessing shipping accounts" src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" />
 
-3. On the **Shipping Accounts** page that opens, select ![](https://files.readme.io/44690bc0342682d80d45da0ca9e41920f4a8e30430a7279053ef6348e2900569-add_shipping_account_button.png).
+3. On the **Shipping Accounts** page that opens, select <Image border={false} src="https://files.readme.io/44690bc0342682d80d45da0ca9e41920f4a8e30430a7279053ef6348e2900569-add_shipping_account_button.png" />.
 
 <Image align="center" alt="Accessing option to add shipping account" border={true} caption="Selecting option to add shipping account" src="https://files.readme.io/6a8c9af67fce1cfe9d27b55871687460e467417da0f236b1fa0a7a622241a67d-RM_create_shiipping_accounts_option.png" />
 
@@ -124,7 +124,7 @@ To add a shipping account for Royal Mail in SAPIENT, follow the instructions as 
       </td>
 
       <td>
-        Enter the postcode registered with Royal Mail for receiving invoices.  
+        Enter the postcode registered with Royal Mail for receiving invoices.
 
         `Note`: _If you are unsure of the postcode, use the one shown on your invoice._
       </td>
@@ -218,7 +218,7 @@ To add a shipping account for Royal Mail in SAPIENT, follow the instructions as 
   </tbody>
 </Table>
 
-7. After entering all the required information, select ![](https://files.readme.io/db03c9a2b7ee816f42db617829469dce01bbdfd35aca00ace480fd78db31aa11-add_shipping_account_button_2.png).
+7. After entering all the required information, select <Image border={false} src="https://files.readme.io/db03c9a2b7ee816f42db617829469dce01bbdfd35aca00ace480fd78db31aa11-add_shipping_account_button_2.png" />.
 
 Once done, you have now successfully added a shipping account. Once the account is [approved](https://docs.intersoftsapient.net/docs/royal-mail-sign-off#/), you can now start shipping with it.
 
