@@ -13,11 +13,11 @@ metadata:
 next:
   description: ''
 ---
-In SAPIENT, you can create a shipping account with UPS, assign your UPS credentials to it, and then link it to the relevant <Glossary>shipping location</Glossary>(s).
+In SAPIENT, you can create a UPS shipping account by selecting your desired <Glossary>shipping location</Glossary>,  entering the corresponding account and carrier details, and then adding the account to the system.
 
-> 🚧 *Important*
+> 🚧 _Important_
 >
-> *Before you can set up a shipping account, make sure you have[enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with UPS.*
+> _Before you can set up a shipping account, make sure you have[enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with UPS._
 
 To add a shipping account for UPS in SAPIENT, follow the instructions as explained in the following procedure.
 
@@ -25,7 +25,7 @@ To add a shipping account for UPS in SAPIENT, follow the instructions as explain
 
 <Image align="center" alt="Accessing shipping accounts" border={true} caption="Accessing shipping accounts" src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" />
 
-3. On the **Shipping Accounts** page that opens, select ![alt text](https://files.readme.io/a68fed3fbbb1668dedfcf9e0a5bd246f3f1dfa92bb6c7a47c175ad8df700e827-add_shipping_account_button.png).
+3. On the **Shipping Accounts** page that opens, select <Image alt="alt text" border={false} src="https://files.readme.io/a68fed3fbbb1668dedfcf9e0a5bd246f3f1dfa92bb6c7a47c175ad8df700e827-add_shipping_account_button.png" />.
 
 <Image align="center" alt="Accessing option to add shipping account" border={true} caption="Selecting option to add shipping account" src="https://files.readme.io/e0071b9f348522956cf0d9db5802f5bef56a11c5d3ff90f8a6bbedbc3c48d560-Add_shipping_account_button_UPS.png" />
 
@@ -35,18 +35,20 @@ To add a shipping account for UPS in SAPIENT, follow the instructions as explain
 
 <AsteridkForMandatoryElements />
 
-|         Element         | Description                                                                                                   |
-| :---------------------: | :------------------------------------------------------------------------------------------------------------ |
-|      **Carrier**\*      | From the dropdown list, select **UPS**.                                                                       |
-| **Shipping Location**\* | From the dropdown menu, select the location that you want to assign to the shipping account you are creating. |
+|         Element        | Description                                                                                                   |
+| :--------------------: | :------------------------------------------------------------------------------------------------------------ |
+|      **Carrier***      | From the dropdown list, select **UPS**.                                                                       |
+| **Shipping Location*** | From the dropdown menu, select the location that you want to assign to the shipping account you are creating. |
 
 5. In the **SHIPPING ACCOUNT** block, enter the necessary information as explained in the following table.
 
 <Image align="center" alt="Specifying shipping account details" border={true} caption="Specifying shipping account details" src="https://files.readme.io/ba28fb8f7a5840840e921e8649cf481a3c115804447f269786068d434d15fbcb-Shipping_account_block_UPS.png" width="400px" />
 
-> 💡 *Tip*
->
-> *In the following table, the mandatory fields are marked with an asterisk (\*).*
+<Callout icon="💡" theme="default">
+  ### _Tip_
+
+  _In the following table, the mandatory fields are marked with an asterisk (*)._
+</Callout>
 
 <Table align={["center","left"]}>
   <thead>
@@ -64,7 +66,7 @@ To add a shipping account for UPS in SAPIENT, follow the instructions as explain
   <tbody>
     <tr>
       <td>
-        **Carrier Account Number**\*
+        **Carrier Account Number***
       </td>
 
       <td>
@@ -74,7 +76,7 @@ To add a shipping account for UPS in SAPIENT, follow the instructions as explain
 
     <tr>
       <td>
-        **Account Name (if different than customer)**\*
+        **Account Name (if different than customer)***
       </td>
 
       <td>
@@ -84,7 +86,7 @@ To add a shipping account for UPS in SAPIENT, follow the instructions as explain
 
     <tr>
       <td>
-        **Account Type**\*
+        **Account Type***
       </td>
 
       <td>
@@ -98,7 +100,7 @@ To add a shipping account for UPS in SAPIENT, follow the instructions as explain
 
     <tr>
       <td>
-        **Alias**\*
+        **Alias***
       </td>
 
       <td>
@@ -108,7 +110,7 @@ To add a shipping account for UPS in SAPIENT, follow the instructions as explain
 
     <tr>
       <td>
-        **Contact Name**\*
+        **Contact Name***
       </td>
 
       <td>
@@ -118,7 +120,7 @@ To add a shipping account for UPS in SAPIENT, follow the instructions as explain
 
     <tr>
       <td>
-        **Contact Number**\*
+        **Contact Number***
       </td>
 
       <td>
@@ -150,7 +152,7 @@ To add a shipping account for UPS in SAPIENT, follow the instructions as explain
   <tbody>
     <tr>
       <td>
-        **UPS Client Id**\*
+        **UPS Client Id***
       </td>
 
       <td>
@@ -162,7 +164,7 @@ To add a shipping account for UPS in SAPIENT, follow the instructions as explain
 
     <tr>
       <td>
-        **UPS Client Secret**\*
+        **UPS Client Secret***
       </td>
 
       <td>
@@ -174,7 +176,7 @@ To add a shipping account for UPS in SAPIENT, follow the instructions as explain
   </tbody>
 </Table>
 
-7. After entering all the required information, select ![alt text](https://files.readme.io/7bacd208cbc1e3036e95df7c94e4b08f4f731910cf76b88ddd1eb137177b4018-add_shipping_account_button_2.png).
+7. After entering all the required information, select <Image alt="alt text" border={false} src="https://files.readme.io/7bacd208cbc1e3036e95df7c94e4b08f4f731910cf76b88ddd1eb137177b4018-add_shipping_account_button_2.png" />.
 
 Once done, you have now successfully added a shipping account. You can now start shipping with it.
 
