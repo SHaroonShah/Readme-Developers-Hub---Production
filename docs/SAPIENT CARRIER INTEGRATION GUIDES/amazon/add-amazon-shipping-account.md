@@ -446,18 +446,18 @@ To add a shipping account for Amazon in SAPIENT, follow the instructions as expl
 
         Once the shipping account is connected successfully, its status moves to **Enabled**. You can now start shipping with it.
       </ToggleListItem>
+
       <br />
 
       <ToggleListItem title={<strong>8. Authorise your account</strong>} icon="fa-rocket">
         <br />
 
-        In the authorisation page that opens, select the checkbox if you agree with the authorisation terms, select <Image alt="alt text" border={false} src="https://files.readme.io/3f6f67356aa9dca354db43483cb3e1c8739ed9112f2ce231fcef754fd3175f1a-Authorise_button.png" />
+        In the authorisation page that opens, select the checkbox if you agree with the authorisation terms, select ![alt text](https://files.readme.io/3f6f67356aa9dca354db43483cb3e1c8739ed9112f2ce231fcef754fd3175f1a-Authorise_button.png).
 
         <Image align="center" border={true} src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" alt="Accessing shipping accounts" />
 
         ***
       </ToggleListItem>
-
     </ToggleList>
   </Tab>
 </Tabs>
@@ -467,7 +467,5 @@ To add a shipping account for Amazon in SAPIENT, follow the instructions as expl
 > _Shipping account(s) can be added and managed via API. For more information, refer to the <Anchor label="API References" target="_blank" href="https://docs.intersoftsapient.net/reference/get_v4-carriers">API References</Anchor> section._
 
 ***
-
-
 
 <br />
