@@ -8,6 +8,4 @@ metadata:
 ---
 > 🚧 _Important_
 >
-> This integration is currently under development. The content will be live soon.
-
-<br />
+> _This integration is currently under development. The contents are to be updated as soon as possible._
