@@ -8,7 +8,7 @@ hidden: false
 metadata:
   robots: index
 ---
-In SAPIENT, you can create a An Post shipping accounts by selecting your desired <Glossary>shipping location</Glossary>,  entering the corresponding account and carrier details, and then adding the account to the system.
+In SAPIENT, you can create an An Post shipping account by selecting your desired <Glossary>shipping location</Glossary>,  entering the corresponding account and carrier details, and then adding the account to the system.
 
 > 🚧 _IMPORTANT_
 >
