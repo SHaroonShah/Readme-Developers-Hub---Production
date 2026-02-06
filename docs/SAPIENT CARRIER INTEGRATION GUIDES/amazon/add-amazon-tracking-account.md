@@ -71,7 +71,7 @@ To add a tracking account for Amazon in SAPIENT, follow the steps as explained i
 
     > 📘 *Note*
     >
-    > *If you wish to track every Amazon account created in SAPIENT, then you must add a tracking account for every one of them.*
+    > *If you wish to track every Amazon account created in SAPIENT, then you must add a tracking account for each one of them.*
 
     <br />
 
