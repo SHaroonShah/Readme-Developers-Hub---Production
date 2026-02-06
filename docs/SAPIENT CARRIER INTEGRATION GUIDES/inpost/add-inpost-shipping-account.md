@@ -9,14 +9,14 @@ icon: fad fa-square-plus
 metadata:
   robots: index
 ---
-In SAPIENT, you can create a shipping account with InPost, assign your InPost credentials to it, and then link it to the relevant <Glossary>shipping location</Glossary>(s).
+In SAPIENT, you can create an InPost shipping account by selecting your desired <Glossary>shipping location</Glossary>,  entering the corresponding account and carrier details, and then adding the account to the system.
 
-> 🚧 *Important*
+> 🚧 _Important_
 >
-> *Before you can set up a shipping account, be advised on the following:*
+> _Before you can set up a shipping account, be advised on the following:_
 >
-> * *Make sure to[enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with InPost.*
-> * *If you wish to use both the Outbound labelled and Returns labelless services, you must create separate shipping accounts for each. This is because the credentials—**ClientId** and **Bearer token**— differs for each account.*
+> * _Make sure to[enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with InPost._
+> * _If you wish to use both the Outbound labelled and Returns labelless services, you must create separate shipping accounts for each. This is because the credentials—**ClientId** and **Bearer token**— differs for each account._
 
 To add a shipping account for InPost in SAPIENT, follow the instructions as explained in the following procedure.
 
@@ -24,7 +24,7 @@ To add a shipping account for InPost in SAPIENT, follow the instructions as expl
 
 <Image align="center" alt="Accessing shipping accounts" border={true} caption="Accessing shipping accounts" src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" />
 
-2. On the **Shipping Accounts** page that opens, select ![](https://files.readme.io/e27a112101fea1d20bb870a5c570ce3cb3889d2c514dd5bc0920c2ea630f9943-add_shipping_account_button.png).
+2. On the **Shipping Accounts** page that opens, select <Image border={false} src="https://files.readme.io/e27a112101fea1d20bb870a5c570ce3cb3889d2c514dd5bc0920c2ea630f9943-add_shipping_account_button.png" />.
 
 <Image align="center" alt="Accessing option to add shipping account" border={true} caption="Selecting option to add shipping account" src="https://files.readme.io/1f21da8d1e1c679c2ed31d67bfc7551e5c9477f2f22b16c279aed71ab9688809-Add_shipping_account_button_YODEL.png" />
 
@@ -34,19 +34,19 @@ To add a shipping account for InPost in SAPIENT, follow the instructions as expl
 
 <AsteridkForMandatoryElements />
 
-|         Element         | Description                                                                                                                                 |
-| :---------------------: | :------------------------------------------------------------------------------------------------------------------------------------------ |
-|      **Carrier**\*      | From the dropdown list, select **INPOST - InPost**.                                                                                         |
-| **Shipping Location**\* | From the dropdown menu, select the <Glossary>shipping location</Glossary> that you want to assign to the shipping account you are creating. |
+|         Element        | Description                                                                                                                                 |
+| :--------------------: | :------------------------------------------------------------------------------------------------------------------------------------------ |
+|      **Carrier***      | From the dropdown list, select **INPOST - InPost**.                                                                                         |
+| **Shipping Location*** | From the dropdown menu, select the <Glossary>shipping location</Glossary> that you want to assign to the shipping account you are creating. |
 
 4. In the **SHIPPING ACCOUNT** block, enter the necessary information as explained in the following table.
 
 <Image align="center" alt="Specifying shipping account details" border={true} caption="Entering shipping account details" src="https://files.readme.io/aab73fec0c0be8505e9adce3450d783ae7d9f8ed4c7a9c0b9198b4682fb89679-Shipping_account_block_INPOST.png" width="500px" />
 
 <Callout icon="💡" theme="default">
-  ### *Tip*
+  ### _Tip_
 
-  *In the following table, the mandatory fields are marked with an asterisk (\*).*
+  _In the following table, the mandatory fields are marked with an asterisk (*)._
 </Callout>
 
 <Table align={["center","left"]}>
@@ -65,7 +65,7 @@ To add a shipping account for InPost in SAPIENT, follow the instructions as expl
   <tbody>
     <tr>
       <td>
-        **Account Name (if different than customer)**\*
+        **Account Name (if different than customer)***
       </td>
 
       <td>
@@ -75,7 +75,7 @@ To add a shipping account for InPost in SAPIENT, follow the instructions as expl
 
     <tr>
       <td>
-        **Account Type**\*
+        **Account Type***
       </td>
 
       <td>
@@ -89,7 +89,7 @@ To add a shipping account for InPost in SAPIENT, follow the instructions as expl
 
     <tr>
       <td>
-        **Alias**\*
+        **Alias***
       </td>
 
       <td>
@@ -99,7 +99,7 @@ To add a shipping account for InPost in SAPIENT, follow the instructions as expl
 
     <tr>
       <td>
-        **Contact Name**\*
+        **Contact Name***
       </td>
 
       <td>
@@ -109,7 +109,7 @@ To add a shipping account for InPost in SAPIENT, follow the instructions as expl
 
     <tr>
       <td>
-        **Contact Number**\*
+        **Contact Number***
       </td>
 
       <td>
@@ -119,9 +119,9 @@ To add a shipping account for InPost in SAPIENT, follow the instructions as expl
   </tbody>
 </Table>
 
-> 📘 *Note*
+> 📘 _Note_
 >
-> *Wh creating the shipping account, InPost does not require the carrier account number. However, after creating the account, you may see the account number for your InPost shipping account in the**Account Number** column of the **Shipping Accounts** table. This number is auto-generated by the SAPIENT system and must be ignored for InPost.*
+> _Wh creating the shipping account, InPost does not require the carrier account number. However, after creating the account, you may see the account number for your InPost shipping account in the**Account Number** column of the **Shipping Accounts** table. This number is auto-generated by the SAPIENT system and must be ignored for InPost._
 
 5. In the **CARRIER DETAILS** block, enter the necessary information as explained in the following table.
 
@@ -145,7 +145,7 @@ To add a shipping account for InPost in SAPIENT, follow the instructions as expl
   <tbody>
     <tr>
       <td>
-        **ClientId**\*
+        **ClientId***
       </td>
 
       <td>
@@ -155,23 +155,23 @@ To add a shipping account for InPost in SAPIENT, follow the instructions as expl
 
     <tr>
       <td>
-        **Token**\*
+        **Token***
       </td>
 
       <td>
         Enter the bearer token provided by InPost.
 
-        *`Note`: There is no authorisation/authentication API call needed to retrieve the bearer token.*
+        _`Note`: There is no authorisation/authentication API call needed to retrieve the bearer token._
       </td>
     </tr>
   </tbody>
 </Table>
 
-6. After entering all the required information, select ![](https://files.readme.io/4d8fd2c9a6fad152f41e65d82274b94a6d3a8978f69bb88fbe74ba2d54138fe8-add_shipping_account_button_2.png).
+6. After entering all the required information, select <Image border={false} src="https://files.readme.io/4d8fd2c9a6fad152f41e65d82274b94a6d3a8978f69bb88fbe74ba2d54138fe8-add_shipping_account_button_2.png" />.
 
-> 📘 *Note*
+> 📘 _Note_
 >
-> *When creating the shipping account, InPost does not require the carrier account number. However, after creating the account, you may see the account number for your InPost shipping account in the**Account Number** column of the **Shipping Accounts** table. This number is auto-generated by the SAPIENT system and must be ignored for InPost.*
+> _When creating the shipping account, InPost does not require the carrier account number. However, after creating the account, you may see the account number for your InPost shipping account in the**Account Number** column of the **Shipping Accounts** table. This number is auto-generated by the SAPIENT system and must be ignored for InPost._
 
 Once done, you have now successfully added a shipping account. You can now start shipping with it.
 
