@@ -1,5 +1,5 @@
 ---
-title: Download API Spec
+title: Download CORE API Spec
 deprecated: false
 hidden: false
 metadata:
