@@ -54,17 +54,14 @@ Expand the following sections to learn how to generate the Hazmat label for clas
 </Accordion>
 
 <Accordion title="Generate hazardous LQDG label" icon="fa-info-circle">
-  Limited Quantities Dangerous Goods (LQDG) are items that, althought classifies as dangerous under transport regulations, such as flammable liquids, aerosols, and so on, can be trasnsported with flexible packaging and label requirements when shipped in small quantities. 
-Shipments with such items must display a LQDG, ofteh a DO NOT FLY banner on the label to indicate limitattions on air transport. 
-  To use the Royal Mail LQDG template with DO NOT FLY banner, the customer must adhere to the following: 
+  Limited Quantities Dangerous Goods (LQDG) are items that, althought classifies as dangerous under transport regulations, such as flammable liquids, aerosols, and so on, can be trasnsported with flexible packaging and label requirements when shipped in small quantities.
+  Shipments with such items must display a LQDG, ofteh a DO NOT FLY banner on the label to indicate limitattions on air transport.
+  To use the Royal Mail LQDG template with DO NOT FLY banner, the customer must adhere to the following:
 
-* The hazmat element must be provided in the API request
-* The customers must have 'LQD' in their OBA contracts
-* The service used in the shipment request must be allowed to create hazardous shipment.
-* The PC District and PC Sector of the destination postcode must support hazardous shipment.
-* The total shipment weight must not exceed the LQDG Max Weight limit.
-* The UN codes must match the list of approved UN codes - Approved UN codes(https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fkb.intersoft.co.uk%2Fhubfs%2FUn%2520Numbers%2520that%2520can%2520be%2520utilised%2520in%2520Sapient.xlsx%3FhsLang%3Den\&wdOrigin=BROWSELINK)
-
+  * The hazmat element must be provided in the API request
+  * The customers must have 'LQD' in their OBA contracts
+  * The service used in the shipment request must be allowed to create hazardous shipment.
+  * The PC District and PC Sector of the destination postcode must support hazardous shipment.
+  * The total shipment weight must not exceed the LQDG Max Weight limit.
+  * The UN codes must match the list of approved UN codes - Approved UN codes ([https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fkb.intersoft.co.uk%2Fhubfs%2FUn%2520Numbers%2520that%2520can%2520be%2520utilised%2520in%2520Sapient.xlsx%3FhsLang%3Den\\\&wdOrigin=BROWSELINK](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fkb.intersoft.co.uk%2Fhubfs%2FUn%2520Numbers%2520that%2520can%2520be%2520utilised%2520in%2520Sapient.xlsx%3FhsLang%3Den\\\&wdOrigin=BROWSELINK))
 </Accordion>
-
-
