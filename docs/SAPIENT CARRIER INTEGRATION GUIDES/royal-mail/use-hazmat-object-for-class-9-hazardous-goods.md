@@ -63,5 +63,5 @@ Expand the following sections to learn how to generate the Hazmat label for clas
   * The service used in the shipment request must be allowed to create hazardous shipment.
   * The PC District and PC Sector of the destination postcode must support hazardous shipment.
   * The total shipment weight must not exceed the LQDG Max Weight limit.
-  * The UN codes must match the list of approved UN codes - Approved UN codes ([https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fkb.intersoft.co.uk%2Fhubfs%2FUn%2520Numbers%2520that%2520can%2520be%2520utilised%2520in%2520Sapient.xlsx%3FhsLang%3Den\\\&wdOrigin=BROWSELINK](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fkb.intersoft.co.uk%2Fhubfs%2FUn%2520Numbers%2520that%2520can%2520be%2520utilised%2520in%2520Sapient.xlsx%3FhsLang%3Den\\\&wdOrigin=BROWSELINK))
+  * The UN codes must match the list of approved UN codes - Approved UN codes (https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fkb.intersoft.co.uk%2Fhubfs%2FUn%2520Numbers%2520that%2520can%2520be%2520utilised%2520in%2520Sapient.xlsx%3FhsLang%3Den\&wdOrigin=BROWSELINK)
 </Accordion>
