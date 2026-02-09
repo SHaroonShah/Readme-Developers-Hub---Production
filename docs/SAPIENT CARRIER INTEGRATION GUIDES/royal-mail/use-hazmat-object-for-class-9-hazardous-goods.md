@@ -91,7 +91,7 @@ Expand the following sections to learn how to generate the Hazmat label for clas
 
   > 🚧 *Important*
   >
-  > *For any queries on the hazmat label generation, please contact your Royal Mail account manager*.
+  > *For any queries on the prerequisites for hazmat label generation, please contact your Royal Mail account manager*.
 </Accordion>
 
 <br />
