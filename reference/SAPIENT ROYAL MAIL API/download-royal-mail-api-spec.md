@@ -1,5 +1,5 @@
 ---
-title: Download Royal Mail API spec
+title: Download Royal Mail API Spec
 deprecated: false
 hidden: false
 metadata:
