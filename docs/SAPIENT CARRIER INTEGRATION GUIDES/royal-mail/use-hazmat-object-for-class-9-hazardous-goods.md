@@ -56,9 +56,9 @@ Expand the following sections to learn how to generate the Hazmat label for clas
 <Accordion title="Generate hazardous LQDG label">
   Limited Quantities Dangerous Goods (LQDG) are items that, althought classifies as dangerous under transport regulations, such as flammable liquids, aerosols, and so on, can be trasnsported with flexible packaging and label requirements when shipped in small quantities.
 
-  Shipments with such items must display a LQDG, ofteh a DO NOT FLY banner on the label to indicate limitattions on air transport.
+  Shipments with such items must display a LQDG, often a DO NOT FLY banner on the label to indicate limitattions on air transport.
 
-  To use the Royal Mail LQDG template with DO NOT FLY banner, the customer must adhere to the following:
+  To use the Royal Mail LQDG template with the **DO NOT FLY** banner, the customer must adhere to the following:
 
   * The hazmat element must be provided in the API request
   * The customers must have 'LQD' in their OBA contracts
