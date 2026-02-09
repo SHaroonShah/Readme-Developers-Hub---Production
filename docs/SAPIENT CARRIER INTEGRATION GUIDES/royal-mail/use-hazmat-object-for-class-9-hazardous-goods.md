@@ -86,11 +86,12 @@ Expand the following sections to learn how to generate the Hazmat label for clas
   | 7     | Radioactive material                                                                                                                               |
   | 8     | Corrosive substances                                                                                                                               |
   | 9     | Miscellaneous dangerous substances and articles                                                                                                    |
-  <br />
- > 🚧 *Important*
-  >
-  > *For any queries on the hazamat label generation, please contact your Royal Mail account manager*.
 
+  <br />
+
+  > 🚧 *Important*
+  >
+  > *For any queries on the hazmat label generation, please contact your Royal Mail account manager*.
 </Accordion>
 
 <br />
