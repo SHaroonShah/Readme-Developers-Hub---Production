@@ -48,7 +48,7 @@ Expand the following sections to learn how to generate the Hazmat label for clas
   * Nail Varnish
   * Toiletry or Medicinal Aerosols
 
-  <Image align="center" src="https://files.readme.io/aa4ac259770b0d327a8cd43d0e47c31f8af7b5b1b10cb41fd7c141830787b4e7-Hazmat_label_example_1.png" width="300px" />
+  <Image align="center" src="https://files.readme.io/aa4ac259770b0d327a8cd43d0e47c31f8af7b5b1b10cb41fd7c141830787b4e7-Hazmat_label_example_1.png" width="300px" alt="ID8000 label example" />
 
   <br />
 </Accordion>
