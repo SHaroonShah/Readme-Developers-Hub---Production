@@ -53,7 +53,7 @@ Expand the following sections to learn how to generate the Hazmat label for clas
   <br />
 </Accordion>
 
-<Accordion title="Generate hazardous LQDG label" icon="fa-info-circle">
+<Accordion title="Generate hazardous LQDG label">
   Limited Quantities Dangerous Goods (LQDG) are items that, althought classifies as dangerous under transport regulations, such as flammable liquids, aerosols, and so on, can be trasnsported with flexible packaging and label requirements when shipped in small quantities.
 
   Shipments with such items must display a LQDG, ofteh a DO NOT FLY banner on the label to indicate limitattions on air transport.
@@ -67,26 +67,25 @@ Expand the following sections to learn how to generate the Hazmat label for clas
   * The total shipment weight must not exceed the LQDG Max Weight limit.
   * The UN codes must match the list of approved UN codes - [Approved UN codes](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fkb.intersoft.co.uk%2Fhubfs%2FUn%2520Numbers%2520that%2520can%2520be%2520utilised%2520in%2520Sapient.xlsx%3FhsLang%3Den\&wdOrigin=BROWSELINK)
 
-For more information on the supported hazmat classes, refer to the following table: 
+  For more information on the supported hazmat classes, refer to the following table:
 
-| Class | Type of material                                                                                                                                   |
-| :---- | :------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1     | Explosive substances and articles                                                                                                                  |
-| 2.1   | Flammable gas (for example butane)                                                                                                                 |
-| 2.2   | Non-flammable and non-toxic gases which could cause asphyxiation, for example, nitrogen, helium, carbon dioxide) or oxidisers, for example, oxygen |
-| 2.3   | Toxic gases, for example, chlorine, phosgene, and so on                                                                                            |
-| 3     | Flammable liquids, for example, lighter fluid, petrol, and others                                                                                  |
-| 4.1   | Flammable solids, self-reactive substances and solid desensitised explosives                                                                       |
-| 4.2   | Substances liable to spontaneous combustion                                                                                                        |
-| 4.3   | Substances which, in contact with water, emit flammable gases                                                                                      |
-| 5.1   | Oxidising substances                                                                                                                               |
-| 5.2   | Organic peroxides                                                                                                                                  |
-| 6.1   | Toxic substances                                                                                                                                   |
-| 6.2   | Infectious substances                                                                                                                              |
-| 7     | Radioactive material                                                                                                                               |
-| 8     | Corrosive substances                                                                                                                               |
-| 9     | Miscellaneous dangerous substances and articles                                                                                                    |
-
+  | Class | Type of material                                                                                                                                   |
+  | :---- | :------------------------------------------------------------------------------------------------------------------------------------------------- |
+  | 1     | Explosive substances and articles                                                                                                                  |
+  | 2.1   | Flammable gas (for example butane)                                                                                                                 |
+  | 2.2   | Non-flammable and non-toxic gases which could cause asphyxiation, for example, nitrogen, helium, carbon dioxide) or oxidisers, for example, oxygen |
+  | 2.3   | Toxic gases, for example, chlorine, phosgene, and so on                                                                                            |
+  | 3     | Flammable liquids, for example, lighter fluid, petrol, and others                                                                                  |
+  | 4.1   | Flammable solids, self-reactive substances and solid desensitised explosives                                                                       |
+  | 4.2   | Substances liable to spontaneous combustion                                                                                                        |
+  | 4.3   | Substances which, in contact with water, emit flammable gases                                                                                      |
+  | 5.1   | Oxidising substances                                                                                                                               |
+  | 5.2   | Organic peroxides                                                                                                                                  |
+  | 6.1   | Toxic substances                                                                                                                                   |
+  | 6.2   | Infectious substances                                                                                                                              |
+  | 7     | Radioactive material                                                                                                                               |
+  | 8     | Corrosive substances                                                                                                                               |
+  | 9     | Miscellaneous dangerous substances and articles                                                                                                    |
 </Accordion>
 
 <br />
