@@ -14,7 +14,7 @@ icon: fad fa-fire
 metadata:
   robots: index
 ---
-<Accordion title="Generate hazmat (ID8000) label for Class 9 hazardous goods" icon="fa-info-circle">
+<Accordion title="Generate hazmat (ID8000) label for Class 9 hazardous goods">
   *Class 9 hazardous goods* encompass a variety of materials that, while not covered by the other eight hazardous material classes, still pose risks in transport. This category includes items that may be subject to specific regulations but do not fit the criteria for flammable, explosive, or otherwise dangerous materials. Class 9 goods include substances that may be environmentally hazardous or have other regulatory considerations.
 
   In SAPIENT, you can specify the class 9 hazardous goods [via the UI](https://docs.intersoftsapient.net/docs/add-product#/) or in the [Create Shipment request](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm#/).
