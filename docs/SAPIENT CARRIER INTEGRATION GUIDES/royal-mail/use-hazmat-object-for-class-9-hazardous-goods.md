@@ -58,10 +58,10 @@ Expand the following sections to learn how to generate the Hazmat label for clas
 
   Shipments with such items must display a LQDG, often a DO NOT FLY banner on the label to indicate limitattions on air transport.
 
-  To use the Royal Mail LQDG template with the **DO NOT FLY** banner, the customer must adhere to the following:
+  To use the Royal Mail LQDG template with the **DO NOT FLY** banner, you must adhere to the following:
 
   * The hazmat element must be provided in the API request
-  * The customers must have 'LQD' in their OBA contracts
+  * LQD in your OBA contracts must be specified
   * The service used in the shipment request must be allowed to create hazardous shipment.
   * The PC District and PC Sector of the destination postcode must support hazardous shipment.
   * The total shipment weight must not exceed the LQDG Max Weight limit.
@@ -86,6 +86,11 @@ Expand the following sections to learn how to generate the Hazmat label for clas
   | 7     | Radioactive material                                                                                                                               |
   | 8     | Corrosive substances                                                                                                                               |
   | 9     | Miscellaneous dangerous substances and articles                                                                                                    |
+  <br />
+ > 🚧 *Important*
+  >
+  > *For any queries on the hazamat label generation, please contact your Royal Mail account manager*.
+
 </Accordion>
 
 <br />
