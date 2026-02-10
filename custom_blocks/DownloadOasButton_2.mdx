@@ -1,6 +1,13 @@
 ---
 name: DownloadOasButton_2
 ---
+---
+title: "DownloadOASButton"
+description: "A button for downloading an OpenAPI file."
+author: "@olehshh"
+version: "1.0.0"
+---
+
 export const DownloadOASButton = ({ url }) => {
   const getFileNameFromUrl = (link) => {
     try {
@@ -11,68 +18,28 @@ export const DownloadOASButton = ({ url }) => {
     }
   };
 
-  const tryBlobDownload = async (downloadUrl, fileName) => {
-    // Attempt to fetch and blob (best UX, requires CORS on the file)
-    const res = await fetch(downloadUrl, { mode: 'cors' });
-    if (!res.ok) throw new Error(`HTTP error! Status: ${res.status}`);
-
-    const blob = await res.blob();
-    const objectUrl = URL.createObjectURL(blob);
-
-    try {
-      const link = document.createElement('a');
-      link.href = objectUrl;
-      link.download = fileName;
-      link.style.display = 'none';
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link);
-    } finally {
-      // Always revoke
-      URL.revokeObjectURL(objectUrl);
-    }
-  };
-
-  const tryAnchorDownload = (downloadUrl, fileName) => {
-    // Direct anchor fallback. Note: some browsers ignore `download` for cross-origin.
-    const link = document.createElement('a');
-    link.href = downloadUrl;
-    link.download = fileName; // best effort—may be ignored cross-origin
-    link.rel = 'noopener noreferrer';
-    link.style.display = 'none';
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
-
-  const tryIframeDownload = (downloadUrl) => {
-    // Hidden iframe fallback to avoid page navigation while triggering download
-    const iframe = document.createElement('iframe');
-    iframe.style.display = 'none';
-    iframe.src = downloadUrl;
-    document.body.appendChild(iframe);
-
-    // Clean up after a bit (download has already been triggered by then)
-    setTimeout(() => {
-      try {
-        document.body.removeChild(iframe);
-      } catch {}
-    }, 60_000);
-  };
-
   const handleDownload = async () => {
     const fileName = getFileNameFromUrl(url);
 
-
-    // 2) Fallback: anchor with download (may be ignored cross-origin)
     try {
-      tryAnchorDownload(url, fileName);
-      return;
+      const res = await fetch(url);
+      if (!res.ok) throw new Error(`HTTP error! Status: ${res.status}`);
+
+      const blob = await res.blob();
+      const objectUrl = URL.createObjectURL(blob);
+
+      const link = document.createElement('a');
+      link.href = objectUrl;
+      link.download = fileName;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+
+      URL.revokeObjectURL(objectUrl);
     } catch (err) {
-      console.warn('Anchor download failed. Falling back to iframe...', err);
+      console.error('Failed to download file:', err);
+      window.open(url, '_blank', 'noopener,noreferrer');
     }
-
-
   };
 
   return (
@@ -80,17 +47,15 @@ export const DownloadOASButton = ({ url }) => {
       onClick={handleDownload}
       className="
         flex items-center gap-3 px-4 py-2
-        bg-[#ffcc00] hover:bg-[#ffb600]
-        text-black font-semibold
+        bg-[#6] hover:bg-[#ffb600]
+        text-black font-semibold box-full
         shadow-md hover:shadow-lg cursor-pointer
         transform hover:scale-105 transition duration-300
       "
-      type="button"
     >
       <span>Download API Spec</span>
     </button>
   );
 };
 
-
-<DownloadOASButton url="https://docs.intersoftsapient.net/v4.02_4.03_Testing/openapi/sapient-core-api.json" />
+<DownloadOASButton url="https://demo-url.readme.io/openapi/openapi.json" />
