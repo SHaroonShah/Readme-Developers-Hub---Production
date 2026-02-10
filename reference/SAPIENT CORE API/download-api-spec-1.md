@@ -5,13 +5,6 @@ hidden: false
 metadata:
   robots: index
 ---
-<DownloadOASButton url="https://docs.intersoftsapient.net/v4.02_4.03_Testing/openapi/sapient-core-api.json" targer="download-frame" rel="nonopener"/>
-
-<DownloadOASButton url="https://demo-url.readme.io/openapi/openapi.json" />
-
-
-
-
-
+<DownloadOASButton url="https://docs.intersoftsapient.net/v4.02_4.03_Testing/openapi/sapient-core-api.json" />
 
 <br />
