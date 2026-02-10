@@ -1,7 +1,7 @@
 ---
 title: Download SAPIENT Core API spec
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
