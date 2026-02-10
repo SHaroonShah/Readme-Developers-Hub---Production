@@ -25,6 +25,8 @@ export const DownloadOASButton = ({ url }) => {
       const res = await fetch(url, { mode: 'cors' });
       if (!res.ok) throw new Error(`HTTP error! Status: ${res.status}`);
 
+			const blob = await res.blob();
+      
       
 
       const link = document.createElement('a');
