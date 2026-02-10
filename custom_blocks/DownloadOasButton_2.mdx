@@ -63,13 +63,6 @@ export const DownloadOASButton = ({ url }) => {
   const handleDownload = async () => {
     const fileName = getFileNameFromUrl(url);
 
-    // 1) Best path: fetch → blob
-    try {
-      await tryBlobDownload(url, fileName);
-      return;
-    } catch (err) {
-      console.warn('Blob download failed (likely CORS). Falling back...', err);
-    }
 
     // 2) Fallback: anchor with download (may be ignored cross-origin)
     try {
@@ -79,8 +72,7 @@ export const DownloadOASButton = ({ url }) => {
       console.warn('Anchor download failed. Falling back to iframe...', err);
     }
 
-    // 3) Last resort: hidden iframe (stays on page; relies on server Content-Disposition)
-    tryIframeDownload(url);
+
   };
 
   return (
