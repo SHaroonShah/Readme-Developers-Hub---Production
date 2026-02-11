@@ -64,5 +64,5 @@ The following API services are provided by the FedEx International Connect integ
 
 In this section, learn now to:
 
-* <Anchor label="Add a DPD UK shipping account" target="_blank" href="https://docs.intersoftsapient.net/docs/add-dpd-uk-shipping-account">Add a DPD UK shipping account</Anchor>
+* <Anchor label="Add a FedEx International Connect shipping account" target="_blank" href="https://docs.intersoftsapient.net/docs/add-fedex-international-shipping-account">Add a FedEx International Connect shipping account</Anchor>
 * <Anchor label="Add a DPD UK tracking account" target="_blank" href="https://docs.intersoftsapient.net/docs/add-dpd-uk-tracking-account">Add a DPD UK tracking account</Anchor>
