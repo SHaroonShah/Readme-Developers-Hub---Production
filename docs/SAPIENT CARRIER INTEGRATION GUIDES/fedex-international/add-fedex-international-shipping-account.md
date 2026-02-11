@@ -19,6 +19,9 @@ In SAPIENT, with the **Add Shipping Account** functionality, you can select the 
 
 To add a shipping account for FedEx International connect  in SAPIENT, perform the steps as explained in the following procedure.
 
+<Tabs>
+  <Tab title="Add via SAPIENT UI">
+    <br />
 <ToggleList>
   <ToggleListItem title={<strong>1. Access the shipping accounts page</strong>} icon="fa-rocket">
     <br />
@@ -156,7 +159,7 @@ To add a shipping account for FedEx International connect  in SAPIENT, perform t
 
     In the **CARRIER DETAILS** block, enter the necessary information as explained in the following table.
 
-    <Image align="center" border={true} width="500px" src="https://files.readme.io/a1f229d57e6bb784d4c1ed4b8d9353ea49753a79cdc843c0a8e4c885df8cc9f4-image.png" className="border" />
+    <Image align="center" border={true} src="https://files.readme.io/a1f229d57e6bb784d4c1ed4b8d9353ea49753a79cdc843c0a8e4c885df8cc9f4-image.png" width="500px" />
 
     <AsteridkForMandatoryElements />
 
@@ -198,23 +201,30 @@ To add a shipping account for FedEx International connect  in SAPIENT, perform t
       </tbody>
     </Table>
   </ToggleListItem>
-<br />
-<ToggleListItem title={<strong>6. Save and add shipping account</strong>} icon="fa-rocket">
-    <br />
-After entering all the required information, select ![](https://files.readme.io/4d8fd2c9a6fad152f41e65d82274b94a6d3a8978f69bb88fbe74ba2d54138fe8-add_shipping_account_button_2.png).
 
-Once done, you have now successfully added a shipping account. You can now start shipping with it.
+  <br />
+
+  <ToggleListItem title={<strong>6. Save and add shipping account</strong>} icon="fa-rocket">
+    <br />
+
+    After entering all the required information, select ![](https://files.readme.io/4d8fd2c9a6fad152f41e65d82274b94a6d3a8978f69bb88fbe74ba2d54138fe8-add_shipping_account_button_2.png).
+
+    Once done, you have now successfully added a shipping account. You can now start shipping with it.
 
     ***
   </ToggleListItem>
-</ToggleList>
+    </ToggleList>
+  </Tab>
+<Tab title="Add via API">
+  </Tab>
+</Tabs>
+
+
 
 > 📘 _Note_
 >
 > _Shipping account(s) can be added and managed via API. For more information, refer to the <Anchor label="API References" target="_blank" href="https://docs.intersoftsapient.net/reference/get_v4-carriers">API References</Anchor> section._
 
 ***
-
-
 
 <br />
