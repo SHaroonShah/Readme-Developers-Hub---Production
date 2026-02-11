@@ -23,8 +23,6 @@ In SAPIENT, you can add tracking accounts for FedEx International Connect to enh
 >
 > _If you wish to receive the tracking events via Intersoft using the tracking account you have created, make sure it is is activated by the FedEx International Connect team._
 
-<br />
-
 ## How to add Amazon tracking account
 
 To add a tracking account for Amazon in SAPIENT, follow the steps as explained in the following procedure.
@@ -59,7 +57,7 @@ To add a tracking account for Amazon in SAPIENT, follow the steps as explained i
 
     On the **Add Tracking account** page that appears, in the **DETAILS** block, enter the necessary information as explained in the following table.
 
-    <Image align="center" width="500px" src="https://files.readme.io/816583c0d60131ab3e91abb8978903f5e8bc2e40ee4281444841dfc5dcc8db54-image.png" />>
+        <Image align="center" src="https://files.readme.io/816583c0d60131ab3e91abb8978903f5e8bc2e40ee4281444841dfc5dcc8db54-image.png" width="500px" />>
 
     <br />
 
@@ -67,7 +65,7 @@ To add a tracking account for Amazon in SAPIENT, follow the steps as explained i
 
     |         Element        | Description                                                                                                      |
     | :--------------------: | :--------------------------------------------------------------------------------------------------------------- |
-    |      **Carrier**\*     | From the dropdown menu, select **FIC - FedEx International Connect** as your carrier option.                                       |
+    |      **Carrier**\*     | From the dropdown menu, select **FIC - FedEx International Connect** as your carrier option.                     |
     | **Shipping Account**\* | From the dropdown menu, select the <Glossary>shipping account</Glossary> for which you want to receive tracking. |
 
     <br />
@@ -105,7 +103,5 @@ To add a tracking account for Amazon in SAPIENT, follow the steps as explained i
     Understand tracking events and milestone data.
   </Card>
 </Cards>
-
-
 
 <br />
