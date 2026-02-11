@@ -171,6 +171,10 @@ To add a shipping account for InPost in SAPIENT, follow the instructions as expl
 
 Once done, you have now successfully added a shipping account. You can now start shipping with it.
 
+> 📘 _Note_
+>
+> _Shipping account(s) can be added and managed via API. For more information, refer to the <Anchor label="API References" target="_blank" href="https://docs.intersoftsapient.net/v4.03/reference/get_v4-shippingaccounts-inpost#/versions">API References</Anchor> section._
+
 ### See also
 
 * [Edit shipping account](https://docs.intersoftsapient.net/docs/edit-shipping-account)
