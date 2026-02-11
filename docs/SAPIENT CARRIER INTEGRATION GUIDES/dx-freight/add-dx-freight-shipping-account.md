@@ -25,7 +25,7 @@ To add a shipping account for DX Freight in SAPIENT, follow the instructions as 
 
 <Image align="center" alt="Accessing shipping accounts" border={true} caption="Accessing shipping accounts" src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" />
 
-2. On the **Shipping Accounts** page that opens, select <Image alt="alt text" border={false} src="https://files.readme.io/5eb134426849b1adb3049756830b6bef19e7dc67dca55891e64ff7b9c8eadd8e-add_shipping_account_button.png" />.
+2. On the **Shipping Accounts** page that opens, select ![alt text](https://files.readme.io/5eb134426849b1adb3049756830b6bef19e7dc67dca55891e64ff7b9c8eadd8e-add_shipping_account_button.png).
 
 <Image align="center" alt="Accessing option to add shipping account" border={true} caption="Selecting option to add shipping account" src="https://files.readme.io/3b149ee84f86fb8d4f02c43b2733c7eb85aea3ac6e2f01692af371f631570bf3-Add_shipping_account_button_DX.png" />
 
@@ -227,15 +227,17 @@ To add a shipping account for DX Freight in SAPIENT, follow the instructions as 
   </tbody>
 </Table>
 
-6. After entering all the required information, select <Image alt="alt text" border={false} src="https://files.readme.io/721eb0f8be0c99a924b61cbca6496517d03fcbbf235aa0c3d579c60b3131df2a-add_shipping_account_button_2.png" />.
+6. After entering all the required information, select ![alt text](https://files.readme.io/721eb0f8be0c99a924b61cbca6496517d03fcbbf235aa0c3d579c60b3131df2a-add_shipping_account_button_2.png).
 
 Once done, you have now successfully added a shipping account. You can now start shipping with it.
 
 > 📘 _Note_
 >
-> _Shipping account(s) can be added and managed via API. For more information, refer to the[API References](https://docs.intersoftsapient.net/reference/post_v4-shippingaccounts-dxf#/) section._
+> _Shipping account(s) can be added and managed via API. For more information, refer to the <Anchor label="API References" target="_blank" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-dxf">API References</Anchor> section._
 
 ### See also
 
 * [DX Freight sign-off](https://docs.intersoftsapient.net/docs/dx-freight-sign-off)
 * [Edit shipping account](https://docs.intersoftsapient.net/docs/edit-shipping-account)
+
+<br />
