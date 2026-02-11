@@ -198,6 +198,14 @@ To add a shipping account for FedEx International connect  in SAPIENT, perform t
       </tbody>
     </Table>
   </ToggleListItem>
+<ToggleListItem title={<strong>6. Save and add shipping account</strong>} icon="fa-rocket">
+    <br />
+After entering all the required information, select ![](https://files.readme.io/4d8fd2c9a6fad152f41e65d82274b94a6d3a8978f69bb88fbe74ba2d54138fe8-add_shipping_account_button_2.png).
+
+Once done, you have now successfully added a shipping account. You can now start shipping with it.
+
+    ***
+  </ToggleListItem>
 </ToggleList>
 
 > 📘 _Note_
