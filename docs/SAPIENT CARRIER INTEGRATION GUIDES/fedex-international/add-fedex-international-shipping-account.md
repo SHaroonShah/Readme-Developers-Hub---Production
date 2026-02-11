@@ -158,9 +158,49 @@ To add a shipping account for FedEx International connect  in SAPIENT, perform t
 
     <AsteridkForMandatoryElements />
 
-    |                                                          Element                                                          | Description                                                                                                       |
-    | :-----------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------- |
-    |                                   **FedEx International Connect Shipper Website URL**\*                                   | Enter the FedEx International Connect shipper website URL.                                                        |
-    |                                         **FedEx International Connect API Key**\*                                         | Enter the API Key for the FedEx International Connect account. This API key will be sent in in your API requests. |
+    |                        Element                        | Description                                                                                                       |
+    | :---------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------- |
+    | **FedEx International Connect Shipper Website URL**\* | Enter the FedEx International Connect shipper website URL.                                                        |
+    |       **FedEx International Connect API Key**\*       | Enter the API Key for the FedEx International Connect account. This API key will be sent in in your API requests. |
   </ToggleListItem>
 </ToggleList>
+
+<Table align={["left","left"]}>
+  <thead>
+    <tr>
+      <th>
+        Element 
+      </th>
+
+      <th>
+        Description
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        **FedEx International Connect Shipper Website URL***
+      </td>
+
+      <td>
+        Enter the FedEx International Connect shipper website URL.  
+
+        `_Note_`: _This is required in the API request if shipping to the USA._
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        **FedEx International Connect API Key***
+      </td>
+
+      <td>
+        Enter the API Key for the FedEx International Connect account. This API key will be sent in in your API requests.
+      </td>
+    </tr>
+  </tbody>
+</Table>
+
+<br />
