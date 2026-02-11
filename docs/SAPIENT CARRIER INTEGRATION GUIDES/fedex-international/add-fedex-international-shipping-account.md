@@ -200,4 +200,6 @@ To add a shipping account for FedEx International connect  in SAPIENT, perform t
   </ToggleListItem>
 </ToggleList>
 
-<br />
+> 📘 _Note_
+>
+> _Shipping account(s) can be added and managed via API. For more information, refer to the <Anchor label="API References" target="_blank" href="https://docs.intersoftsapient.net/reference/get_v4-carriers">API References</Anchor> section._
