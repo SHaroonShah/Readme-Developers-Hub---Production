@@ -206,7 +206,4 @@ To add a shipping account for FedEx International connect  in SAPIENT, perform t
 
 ***
 
-In this section, learn now to:
-
-* <Anchor label="Add a DPD UK shipping account" target="_blank" href="https://docs.intersoftsapient.net/docs/add-dpd-uk-shipping-account">Add a DPD UK shipping account</Anchor>
-* <Anchor label="Add a DPD UK tracking account" target="_blank" href="https://docs.intersoftsapient.net/docs/add-dpd-uk-tracking-account">Add a DPD UK tracking account</Anchor>
+<br />
