@@ -38,7 +38,7 @@ If you want to validate your FedEx shipping account via the recent invoice, then
   <tbody>
     <tr>
       <td>
-        **Invoice Number**\*
+        **Invoice Number***
       </td>
 
       <td>
@@ -48,19 +48,19 @@ If you want to validate your FedEx shipping account via the recent invoice, then
 
     <tr>
       <td>
-        **Invoice Date**\*
+        **Invoice Date***
       </td>
 
       <td>
         Enter the date when the invoice was issued.
 
-        *`Note`: The invoice date must have been issued within the last 90 days.*
+        _`Note`: The invoice date must have been issued within the last 90 days._
       </td>
     </tr>
 
     <tr>
       <td>
-        **Currency**\*
+        **Currency***
       </td>
 
       <td>
@@ -70,12 +70,12 @@ If you want to validate your FedEx shipping account via the recent invoice, then
 
     <tr>
       <td>
-        **Invoice Amount**\*
+        **Invoice Amount***
       </td>
 
       <td>
-        Enter the exact amount displayed on your invoice.\
-        *`Note`: The invoice amount must be in the US format with decimals, for example, 234.50.*
+        Enter the exact amount displayed on your invoice.  
+        _`Note`: The invoice amount must be in the US format with decimals, for example, 234.50._
       </td>
     </tr>
 
@@ -115,7 +115,7 @@ If you want to validate your FedEx shipping account via PIN, then you must selec
   <tbody>
     <tr>
       <td>
-        **Verify with PIN**\*
+        **Verify with PIN***
       </td>
 
       <td>
@@ -131,7 +131,7 @@ If you want to validate your FedEx shipping account via PIN, then you must selec
 
     <tr>
       <td>
-        **Request PIN**\*
+        **Request PIN***
       </td>
 
       <td>
@@ -141,19 +141,19 @@ If you want to validate your FedEx shipping account via PIN, then you must selec
 
     <tr>
       <td>
-        **Enter the 6 digit code we sent you**\*
+        **Enter the 6 digit code we sent you***
       </td>
 
       <td>
         Enter the 6-digit PIN code you received via the method you selected for the PIN generation request.
 
-        *`**Note**`: The pin is valid for 10 minutes only. If it is not utilised within this duration, you must request a new one.*
+        _`**Note**`: The pin is valid for 10 minutes only. If it is not utilised within this duration, you must request a new one._
       </td>
     </tr>
 
     <tr>
       <td>
-        **Request a new PIN**\*
+        **Request a new PIN***
       </td>
 
       <td>
@@ -175,4 +175,14 @@ If you want to validate your FedEx shipping account via PIN, then you must selec
 
 Once validated, if the all the entered information is correct, the FedEx passes the MFA validation and your FedEx shipping account is created successfully.
 
+> 📘 _Note_
+>
+> _Shipping account(s) can be added and managed via API. For more information, refer to the <Anchor label="API References" target="_blank" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-fedex">API References</Anchor> section._
+
+***
+
+### See also
+
 * [Edit FedEx shipping account](https://docs.intersoftsapient.net/docs/edit-fedex-shipping-account#/)
+
+<br />
