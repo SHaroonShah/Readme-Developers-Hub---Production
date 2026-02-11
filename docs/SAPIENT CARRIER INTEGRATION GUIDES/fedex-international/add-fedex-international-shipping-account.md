@@ -230,17 +230,6 @@ To add a shipping account for FedEx International connect  in SAPIENT, perform t
   </Tab>
 </Tabs>
 
-***
+<br />
 
-// Usage Example
-<Cards columns={3}>
-  <Card title="First Card" href="https://readme.com" icon="fa-home" iconColor="blue">
-    *Lorem ipsum dolor sit amet, consectetur adipiscing elit*
-  </Card>
-  <Card title="Third Card" icon="fa-star" iconColor="blue-500">
-    `Ut enim ad minim veniam, quis nostrud ullamco`
-  </Card>
-  <Card title="Fourth Card" icon="fa-question" iconColor="blue-500">
-    **Excepteur sint occaecat cupidatat non proident**
-  </Card>
-</Cards>
+<br />
