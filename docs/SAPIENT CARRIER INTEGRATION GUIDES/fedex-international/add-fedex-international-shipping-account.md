@@ -162,14 +162,12 @@ To add a shipping account for FedEx International connect  in SAPIENT, perform t
     | :---------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------- |
     | **FedEx International Connect Shipper Website URL**\* | Enter the FedEx International Connect shipper website URL.                                                        |
     |       **FedEx International Connect API Key**\*       | Enter the API Key for the FedEx International Connect account. This API key will be sent in in your API requests. |
-  </ToggleListItem>
-</ToggleList>
 
 <Table align={["left","left"]}>
   <thead>
     <tr>
       <th>
-        Element 
+        Element
       </th>
 
       <th>
@@ -185,9 +183,9 @@ To add a shipping account for FedEx International connect  in SAPIENT, perform t
       </td>
 
       <td>
-        Enter the FedEx International Connect shipper website URL.  
+        Enter the FedEx International Connect shipper website URL.
 
-        `_Note_`: _This is required in the API request if shipping to the USA._
+        `Note`: _This is required in the API request if shipping to the USA._
       </td>
     </tr>
 
@@ -202,5 +200,7 @@ To add a shipping account for FedEx International connect  in SAPIENT, perform t
     </tr>
   </tbody>
 </Table>
+  </ToggleListItem>
+</ToggleList>
 
 <br />
