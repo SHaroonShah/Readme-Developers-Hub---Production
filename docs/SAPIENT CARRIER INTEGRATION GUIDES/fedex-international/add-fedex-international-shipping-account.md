@@ -15,6 +15,8 @@ In SAPIENT, with the **Add Shipping Account** functionality, you can select the 
 >
 > _Before you can set up a shipping account, make sure you have enabled the [label integration](https://docs.intersoftsapient.net/docs/integration-activation) for FedEx International Connect._
 
+## How to add FedEx International Connect shipping account via UI
+
 To add a shipping account for FedEx International connect  in SAPIENT, perform the steps as explained in the following procedure.
 
 <ToggleList>
@@ -158,43 +160,43 @@ To add a shipping account for FedEx International connect  in SAPIENT, perform t
 
     <AsteridkForMandatoryElements />
 
-<Table align={["left","left"]}>
-  <thead>
-    <tr>
-      <th>
-        Element
-      </th>
+    <Table align={["left","left"]}>
+      <thead>
+        <tr>
+          <th>
+            Element
+          </th>
 
-      <th>
-        Description
-      </th>
-    </tr>
-  </thead>
+          <th>
+            Description
+          </th>
+        </tr>
+      </thead>
 
-  <tbody>
-    <tr>
-      <td>
-        **FedEx International Connect Shipper Website URL***
-      </td>
+      <tbody>
+        <tr>
+          <td>
+            **FedEx International Connect Shipper Website URL**\*
+          </td>
 
-      <td>
-        Enter the FedEx International Connect shipper website URL.
+          <td>
+            Enter the FedEx International Connect shipper website URL.
 
-        `Note`: _This is required in the API request if shipping to the USA._
-      </td>
-    </tr>
+            `Note`: *This is required in the API request if shipping to the USA.*
+          </td>
+        </tr>
 
-    <tr>
-      <td>
-        **FedEx International Connect API Key***
-      </td>
+        <tr>
+          <td>
+            **FedEx International Connect API Key**\*
+          </td>
 
-      <td>
-        Enter the API Key for the FedEx International Connect account. This API key will be sent in in your API requests.
-      </td>
-    </tr>
-  </tbody>
-</Table>
+          <td>
+            Enter the API Key for the FedEx International Connect account. This API key will be sent in in your API requests.
+          </td>
+        </tr>
+      </tbody>
+    </Table>
   </ToggleListItem>
 </ToggleList>
 
