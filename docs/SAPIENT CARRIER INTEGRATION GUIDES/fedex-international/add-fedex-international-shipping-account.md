@@ -53,7 +53,7 @@ To add a shipping account for FedEx International connect  in SAPIENT, perform t
 
     |         Element         | Description                                                                                                   |
     | :---------------------: | :------------------------------------------------------------------------------------------------------------ |
-    |      **Carrier**\*      | From the dropdown list, select **FedEx International Connect**.                                                                    |
+    |      **Carrier**\*      | From the dropdown list, select **FedEx International Connect**.                                               |
     | **Shipping Location**\* | From the dropdown menu, select the location that you want to assign to the shipping account you are creating. |
 
     ***
@@ -155,15 +155,12 @@ To add a shipping account for FedEx International connect  in SAPIENT, perform t
     In the **CARRIER DETAILS** block, enter the necessary information as explained in the following table.
 
     <Image align="center" border={true} src="https://files.readme.io/f43827dd6994b5da5d74fb6ec99a873e0386405a85d0769f4bb1d933e07e163e-carrier_details_block_On_Amazon.png" width="600px" alt="Entering carrier details" />
-    
-   <AsteridkForMandatoryElements />
 
-    |         Element         | Description                                                                                                   |
-    | :---------------------: | :------------------------------------------------------------------------------------------------------------ |
-    |      **FedEx International Connect Shipper Website URL**\*      | Enter the FedEx International Connect shipper website URL.                                                                    |
-    | **FedEx International Connect API Key**\* | Enter the API Key for the FedEx International Connect account. This API key will be sent in in your API requests.  |
-    Once the shipping account is connected successfully, its status moves to **Enabled**. You can now start shipping with it.
+    <AsteridkForMandatoryElements />
 
-
+    |                                                          Element                                                          | Description                                                                                                       |
+    | :-----------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------- |
+    |                                   **FedEx International Connect Shipper Website URL**\*                                   | Enter the FedEx International Connect shipper website URL.                                                        |
+    |                                         **FedEx International Connect API Key**\*                                         | Enter the API Key for the FedEx International Connect account. This API key will be sent in in your API requests. |
   </ToggleListItem>
 </ToggleList>
