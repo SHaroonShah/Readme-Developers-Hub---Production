@@ -230,4 +230,8 @@ To add a shipping account for FedEx International connect  in SAPIENT, perform t
   </Tab>
 </Tabs>
 
-<br />
+***
+
+### See also
+
+* [Edit shipping account](https://docs.intersoftsapient.net/docs/edit-shipping-account)
