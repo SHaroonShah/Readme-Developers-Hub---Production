@@ -2,7 +2,7 @@
 title: Handling invalid tracking numbers
 deprecated: false
 hidden: true
-icon: fad fa-warehouse
+icon: fad fa-calendar-circle-exclamation
 metadata:
   robots: index
 ---
@@ -27,11 +27,11 @@ The enhanced API now processes valid tracking numbers while isolating invalid on
 
     **Event Properties:**
 
-    - **Event code:** `INVD`
-    - **Event name:** Invalid Tracking Number
-    - **Event type:** Tracking
-    - **Milestone:** No
-    - **Stop the clock:** Yes
+    * **Event code:** `INVD`
+    * **Event name:** Invalid Tracking Number
+    * **Event type:** Tracking
+    * **Milestone:** No
+    * **Stop the clock:** Yes
   </Card>
 </Cards>
 
