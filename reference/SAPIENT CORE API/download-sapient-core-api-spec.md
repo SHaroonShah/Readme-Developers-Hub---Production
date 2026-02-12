@@ -8,6 +8,6 @@ metadata:
 ---
 <DownloadOASButton url="https://docs.intersoftsapient.net/openapi/sapient-core-api.json" />
 
-***
+<br />
 
 <br />
