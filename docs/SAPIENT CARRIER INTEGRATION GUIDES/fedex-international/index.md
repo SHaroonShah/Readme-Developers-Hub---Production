@@ -12,6 +12,10 @@ icon: fad fa-truck-fast
 metadata:
   robots: index
 ---
+<Image align="center" width="900px" src="https://files.readme.io/094a6ea764d7d28798166aaaafe13e3fbe491279d79b1fd691766a419eb13352-FedEx_white_banner.png" />
+
+***
+
 FedEx International Connect is a flexible, cost-effective, worldwide delivery solution with standard e-commerce shipments in mind. Designed to help retailers connect with customers around the globe.
 
 ## Key features
