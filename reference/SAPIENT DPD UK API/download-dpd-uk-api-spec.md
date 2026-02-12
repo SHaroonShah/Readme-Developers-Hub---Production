@@ -1,7 +1,7 @@
 ---
 title: Download DPD UK API Spec
 deprecated: false
-hidden: false
+hidden: true
 icon: fad fa-down-to-line
 metadata:
   robots: index
