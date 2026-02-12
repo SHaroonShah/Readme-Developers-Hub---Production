@@ -16,7 +16,7 @@ The Sapient;'s [Trackings](https://docs.intersoftsapient.net/reference/post_v4-t
   <Card title="Processing Behavior" icon="fa-cogs">
     * All tracking numbers in a request are accepted and inserted into the database (max 1000)
     * Invalid tracking numbers are marked as 'DO NOT TRACK' and not registered with the carrier
-    * Requests does not fail if invalid numbers are present—only invalid entries are marked accordingly
+    * Requests does not fail if invalid numbers are present—only invalid entries are marked
     * Duplicate tracking numbers within the same batch are accepted
   </Card>
 
