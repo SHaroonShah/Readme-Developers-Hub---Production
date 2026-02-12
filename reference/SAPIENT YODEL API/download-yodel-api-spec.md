@@ -7,3 +7,11 @@ metadata:
   robots: index
 ---
 <DownloadOASButton url="https://demo-url.readme.io/openapi/openapi.json" />
+
+<Banner
+  isInline={true}
+  color="#118cfd"
+  textColor="#ffffff"
+  fontSize="14px"
+  fontWeight="bold"
+ />
