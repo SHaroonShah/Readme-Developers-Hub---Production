@@ -33,6 +33,6 @@ The Sapient;'s [Trackings](https://docs.intersoftsapient.net/reference/post_v4-t
   </Card>
 </Cards>
 
-<Accordion title="Technical Details" icon="fa-info-circle">
+<Accordion title="Technical Details">
   The webhook payload includes mandatory fields as specified in the [API References](https://docs.intersoftsapient.net/reference/post_v4-trackings-pushpayloadexample) section. Invalid tracking numbers are processed asynchronously to ensure valid shipments continue tracking without interruption.
 </Accordion>
