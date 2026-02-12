@@ -6,4 +6,4 @@ icon: fad fa-down-to-line
 metadata:
   robots: index
 ---
-<DownloadOASButton url="https://demo-url.readme.io/openapi/openapi.json" align="centre" />
+<DownloadOASButton url="https://demo-url.readme.io/openapi/openapi.json" />
