@@ -15,7 +15,7 @@ In SAPIENT, with the **Add Shipping Account** functionality, you can select the 
 >
 > _Before you can set up a shipping account, make sure you have enabled the [label integration](https://docs.intersoftsapient.net/docs/integration-activation) for FedEx International Connect._
 
-## How to add FedEx International Connect shipping account via UI
+## How to add FedEx International Connect shipping account
 
 <Tabs>
   <Tab title="Add via SAPIENT UI">
