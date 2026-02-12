@@ -8,7 +8,7 @@ metadata:
 ---
 ## Overview
 
-The Sapient;'s [Trackings](https://docs.intersoftsapient.net/reference/post_v4-trackings) processes valid tracking numbers while isolating the invalid ones, providing clear feedback without failing the entire batch.
+The Sapient's [Trackings](https://docs.intersoftsapient.net/reference/post_v4-trackings) API processes valid tracking numbers while isolating the invalid ones, providing clear feedback without failing the entire batch.
 
 ## Handling procedure
 
