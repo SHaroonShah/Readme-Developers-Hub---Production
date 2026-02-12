@@ -41,11 +41,19 @@ The Sapient's [Trackings](https://docs.intersoftsapient.net/reference/post_v4-tr
 
 ### See also
 
-<Cards>
-<Card title="Track Events and Milestones" href="https://docs.intersoftsapient.net/docs/tracking-events-and-milestones" icon="fa-solid fa-chart-line-up">
-  Understand tracking events and milestone data.
+<Cards columns="3">
+
+  <Card title="Add Tracking Account" href="https://docs.intersoftsapient.net/docs/create-tracking-account" icon="fa-solid fa-alarm-plus">
+    Establish your tracking account for seamless integration.
+  </Card>
+
+  <Card title="Track Events and Milestones" href="https://docs.intersoftsapient.net/docs/tracking-events-and-milestones" icon="fa-solid fa-chart-line-up">
+    Understand tracking events and milestone data.
+  </Card>
+
+  <Card title="Handle Webhook Suspension" href="https://docs.intersoftsapient.net/docs/webhook-suspension" icon="fa-solid fa-dial-max">
+    Manage and resolve webhook suspension scenarios.
   </Card>
 </Cards>
-
 
 <br />
