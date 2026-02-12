@@ -1,5 +1,5 @@
 ---
-title: Handling invalid tracking numbers
+title: Handle invalid tracking numbers
 deprecated: false
 hidden: true
 icon: fad fa-calendar-circle-exclamation
@@ -36,3 +36,16 @@ The Sapient's [Trackings](https://docs.intersoftsapient.net/reference/post_v4-tr
 > 📘 _Note_
 >
 > _The webhook payload includes mandatory fields as specified in the <Anchor label="push payload example" target="_blank" href="https://docs.intersoftsapient.net/reference/post_v4-trackings-pushpayloadexample">push payload example</Anchor> section. Invalid tracking numbers are processed asynchronously to ensure valid shipments continue tracking without interruption._
+
+***
+
+### See also
+
+<Cards>
+<Card title="Track Events and Milestones" href="https://docs.intersoftsapient.net/docs/tracking-events-and-milestones" icon="fa-solid fa-chart-line-up">
+  Understand tracking events and milestone data.
+  </Card>
+</Cards>
+
+
+<br />
