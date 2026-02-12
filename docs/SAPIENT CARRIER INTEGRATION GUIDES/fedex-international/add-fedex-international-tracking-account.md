@@ -57,7 +57,7 @@ To add a tracking account for Amazon in SAPIENT, follow the steps as explained i
 
     On the **Add Tracking account** page that appears, in the **DETAILS** block, enter the necessary information as explained in the following table.
 
-        <Image align="center" src="https://files.readme.io/816583c0d60131ab3e91abb8978903f5e8bc2e40ee4281444841dfc5dcc8db54-image.png" width="500px" />>
+        <Image align="center" src="https://files.readme.io/816583c0d60131ab3e91abb8978903f5e8bc2e40ee4281444841dfc5dcc8db54-image.png" width="500px" />
 
     <br />
 
