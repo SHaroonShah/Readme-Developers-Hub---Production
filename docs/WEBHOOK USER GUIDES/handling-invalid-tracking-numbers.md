@@ -34,5 +34,5 @@ The Sapient;'s [Trackings](https://docs.intersoftsapient.net/reference/post_v4-t
 </Cards>
 
 <Accordion title="Technical Details">
-  The webhook payload includes mandatory fields as specified in the [API References](https://docs.intersoftsapient.net/reference/post_v4-trackings-pushpayloadexample) section. Invalid tracking numbers are processed asynchronously to ensure valid shipments continue tracking without interruption.
+  The webhook payload includes mandatory fields as specified in the [push payload example request](https://docs.intersoftsapient.net/reference/post_v4-trackings-pushpayloadexample) section. Invalid tracking numbers are processed asynchronously to ensure valid shipments continue tracking without interruption.
 </Accordion>
