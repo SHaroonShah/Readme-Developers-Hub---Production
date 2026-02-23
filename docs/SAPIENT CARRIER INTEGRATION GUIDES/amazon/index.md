@@ -7,7 +7,7 @@ excerpt: >-
   and two-day delivery, real-time tracking, photo-on-delivery, and customer
   notifications.
 deprecated: false
-hidden: true
+hidden: false
 icon: fad fa-truck-fast
 metadata:
   robots: index
