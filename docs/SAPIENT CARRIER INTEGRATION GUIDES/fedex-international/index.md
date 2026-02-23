@@ -7,7 +7,7 @@ excerpt: >-
   making it an essential partner for businesses seeking to optimise their
   shipping operations.
 deprecated: false
-hidden: true
+hidden: false
 icon: fad fa-truck-fast
 metadata:
   robots: index
