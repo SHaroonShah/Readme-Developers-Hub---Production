@@ -1,0 +1,8 @@
+- get_v4-shippingaccounts-fic
+- post_v4-shippingaccounts-fic
+- get_v4-shippingaccounts-fic-shippingaccountid
+- put_v4-shippingaccounts-fic-shippingaccountid
+- post_v4-shippingaccounts-fic-shippingaccountid-linklocations
+- get_v4-shippingaccounts-fic-shippingaccountid-shippinglocations
+- >-
+  get_v4-shippingaccounts-fic-shippingaccountid-shippinglocations-shippinglocationid
