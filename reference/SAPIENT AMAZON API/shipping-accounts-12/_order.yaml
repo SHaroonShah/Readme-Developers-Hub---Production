@@ -1,8 +1,0 @@
-- get_v4-shippingaccounts-amazon
-- post_v4-shippingaccounts-amazon
-- get_v4-shippingaccounts-amazon-shippingaccountid
-- put_v4-shippingaccounts-amazon-shippingaccountid
-- post_v4-shippingaccounts-amazon-shippingaccountid-linklocations
-- get_v4-shippingaccounts-amazon-shippingaccountid-shippinglocations
-- >-
-  get_v4-shippingaccounts-amazon-shippingaccountid-shippinglocations-shippinglocationid
