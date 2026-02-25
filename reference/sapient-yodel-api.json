@@ -2,7 +2,7 @@
   "openapi": "3.0.1",
   "info": {
     "title": "SAPIENT YODEL API",
-    "description": "# Introduction\nHere you will find requirements for integrating with INTERSOFT SAPIENT API.\n\nThe documentation specifically covers how the API can be used by business customers to conduct shipping activity with available carriers and provides the technical information to build this integration. The API allows customers to create and manage shipments, produce labels, customs documentation, and collection manifests, retrieve reference data such as carriers and countries, and maintain their own data such as shipping account details.\n\nIntersoft API is a fully RESTful service implemented using JSON messaging. You, as the customer are responsible for sending JSON messages and for maintaining the capability of receiving JSON messages in the format described in this specification. Request and response examples for each API service are included in this specification.\n\n# Authentication\n\nThe INTERSOFT SAPIENT API uses OAuth2 authentication.\n\nTo request the authorization token you need to create API credentials (Client ID and Secret) on the system first. If you have not done it already, log into your account and go to API Credentials or follow the link [add a link here with the path to the API Credentials menu]. Use the credentials to retrieve the authorization token.\n\nNote: Make sure you copy the Secret and keep it secure as you won't be able to view it again on the system.\n\n<!-- ReDoc-Inject: <SecurityDefinitions /> -->\n",
+    "description": "# Introduction\nHere you will find requirements for integrating with SAPIENT CORE API.\n\nThe documentation specifically covers how the API can be used by business customers to conduct shipping activity with available carriers and provides the technical information to build this integration. The API allows customers to create and manage shipments, produce labels, customs documentation, and collection manifests, retrieve reference data such as carriers and countries, and maintain their own data such as shipping account details.\n\nIntersoft API is a fully RESTful service implemented using JSON messaging. You, as the customer are responsible for sending JSON messages and for maintaining the capability of receiving JSON messages in the format described in this specification. Request and response examples for each API service are included in this specification.\n\n# Authentication\n\nThe SAPIENT CORE API uses OAuth2 authentication.\n\nTo request the authorization token you need to create API credentials (Client ID and Secret) on the system first. If you have not done it already, log into your account and go to API Credentials or follow the link [add a link here with the path to the API Credentials menu]. Use the credentials to retrieve the authorization token.\n\nNote: Make sure you copy the Secret and keep it secure as you won't be able to view it again on the system.\n\n<!-- ReDoc-Inject: <SecurityDefinitions /> -->\n",
     "version": "v4.0-YODEL",
     "x-logo": {
       "url": "/Content/images/redoc-logo.png",
@@ -96,7 +96,7 @@
                       "ContractNumber": "1511116",
                       "ScheduleNumber": "0001",
                       "LastUpdatedBy": "User A",
-                      "LastUpdatedDateUtc": "2026-01-21T09:56:12.075Z"
+                      "LastUpdatedDateUtc": "2026-02-25T07:59:20.493Z"
                     },
                     {
                       "ShippingAccountId": "46d58272-5f6a-405d-a947-c46c9caea56f",
@@ -111,7 +111,7 @@
                       "ContractNumber": "1511117",
                       "ScheduleNumber": "0002",
                       "LastUpdatedBy": "User B",
-                      "LastUpdatedDateUtc": "2026-01-21T09:56:12.075Z"
+                      "LastUpdatedDateUtc": "2026-02-25T07:59:20.493Z"
                     }
                   ],
                   "TotalCount": 2
@@ -187,7 +187,7 @@
                     "MeterNumber": "35111",
                     "ShippingLocations": [
                       {
-                        "ShippingLocationId": "d54a4808-fa90-41e5-8289-b568676477c8"
+                        "ShippingLocationId": "a2208175-1a01-4fc8-86dc-6e2440573ee0"
                       }
                     ]
                   }
@@ -320,7 +320,7 @@
                   "ContractNumber": "1511116",
                   "ScheduleNumber": "0001",
                   "LastUpdatedBy": "User A",
-                  "LastUpdatedDateUtc": "2026-01-21T09:56:12.405Z"
+                  "LastUpdatedDateUtc": "2026-02-25T07:59:20.786Z"
                 }
               }
             }
@@ -707,12 +707,12 @@
                       "ContentType": "NDX",
                       "ServiceCode": "1CN",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-01-21",
+                      "ShipmentDate": "2026-02-25",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "d2ae8455-7fa8-4e3b-8eb4-2deb2bb0f86c",
+                      "ShippingAccountId": "4d33cdde-6008-4f09-98ee-ccf9adabd3b7",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -750,15 +750,15 @@
                       "ContentType": "NDX",
                       "ServiceCode": "1CN",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-01-21",
+                      "ShipmentDate": "2026-02-25",
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM",
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "cf1a3db2-10e8-43bb-9c51-e3e8d829dcae",
-                      "ShippingLocationId": "112bbeb0-169b-4ba6-af80-845c6b247001",
+                      "ShippingAccountId": "28ec919f-3edc-40b3-89ba-f937b900e8cb",
+                      "ShippingLocationId": "ca381c71-bc2d-4226-8d38-691a7d92d3de",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -809,6 +809,7 @@
                         "Description": "White Mens Large T-shirt",
                         "Value": 19.99,
                         "Weight": 0.5,
+                        "ImageURL": "https://yourcompany.com/images/product.jpg",
                         "HSCode": "6109100010",
                         "CountryOfOrigin": "CN"
                       },
@@ -819,6 +820,7 @@
                         "Description": "Black Mens Large Jumper",
                         "Value": 32.99,
                         "Weight": 0.3,
+                        "ImageURL": "https://yourcompany.com/images/jumper-black.jpg",
                         "HSCode": "6110113000",
                         "CountryOfOrigin": "CN"
                       }
@@ -847,14 +849,14 @@
                       "ContentType": "NDX",
                       "ServiceCode": "1CEN",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-01-21",
+                      "ShipmentDate": "2026-02-25",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "ec6ecf04-f6a3-45b0-a700-436ffd1a73aa",
+                      "ShippingAccountId": "107ac341-197c-41a2-a517-4922095bf54f",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -885,6 +887,7 @@
                         "Description": "White Mens Large T-shirt",
                         "Value": 19.99,
                         "Weight": 0.5,
+                        "ImageURL": "https://yourcompany.com/images/product.jpg",
                         "HSCode": "6109100010",
                         "CountryOfOrigin": "IT"
                       },
@@ -894,12 +897,13 @@
                         "Description": "Black Mens Large Jumper",
                         "Value": 32.99,
                         "Weight": 0.3,
+                        "ImageURL": "https://yourcompany.com/images/jumper-black.jpg",
                         "HSCode": "6110113000",
                         "CountryOfOrigin": "FR"
                       }
                     ],
                     "Customs": {
-                      "ReasonForExport": "Sale of Goods",
+                      "ReasonForExport": "Sales",
                       "Incoterms": "DDU",
                       "ShippingCharges": 10
                     }
@@ -917,7 +921,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "1CEN",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-01-21",
+                      "ShipmentDate": "2026-02-25",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
@@ -925,8 +929,8 @@
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "e4b96280-dd45-40dc-bf0e-014c4b4d1d82",
-                      "ShippingLocationId": "3467e104-a48a-4e2d-8e80-cca556676ae9",
+                      "ShippingAccountId": "f54d7732-8de0-40dd-8a6f-848da1a1de5c",
+                      "ShippingLocationId": "8c32bf90-26ca-4b5f-b35a-92de2697e29c",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -977,6 +981,7 @@
                         "Description": "White Mens Large T-shirt",
                         "Value": 19.99,
                         "Weight": 0.5,
+                        "ImageURL": "https://yourcompany.com/images/product.jpg",
                         "HSCode": "6109100010",
                         "CountryOfOrigin": "CN"
                       },
@@ -987,12 +992,13 @@
                         "Description": "Black Mens Large Jumper",
                         "Value": 32.99,
                         "Weight": 0.3,
+                        "ImageURL": "https://yourcompany.com/images/jumper-black.jpg",
                         "HSCode": "6110113000",
                         "CountryOfOrigin": "CN"
                       }
                     ],
                     "Customs": {
-                      "ReasonForExport": "Sale Of Goods",
+                      "ReasonForExport": "Sales",
                       "Incoterms": "DDU",
                       "PreRegistrationNumber": "0123456789",
                       "PreRegistrationType": "GST",
@@ -1000,7 +1006,7 @@
                       "OtherCharges": 32,
                       "QuotedLandedCost": 82.74,
                       "InvoiceNumber": "INV-12345",
-                      "InvoiceDate": "2026-01-21",
+                      "InvoiceDate": "2026-02-25",
                       "ExportLicenceRequired": false,
                       "Airn": "231.002.999-00"
                     },
@@ -1028,12 +1034,12 @@
                       "ContentType": "NDX",
                       "ServiceCode": "1CN",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-01-21",
+                      "ShipmentDate": "2026-02-25",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "c7d75d1f-f726-4018-89f1-f64ab78a1b99",
+                      "ShippingAccountId": "d7522111-9be6-4fdf-9616-a5f72b923c25",
                       "Reference1": "OrderRef56",
                       "Address": {
                         "AddressId": "John Brown Default"
@@ -1078,7 +1084,7 @@
                     "value": {
                       "Packages": [
                         {
-                          "ShipmentId": "9430f3d6-a7fd-4dbd-8992-5f7e206781c5",
+                          "ShipmentId": "c014af48-8191-4f21-8e47-e01563088a16",
                           "PackageOccurrence": 1
                         }
                       ]
@@ -1086,7 +1092,7 @@
                   },
                   "Create - Consignment Shipment": {
                     "value": {
-                      "ConsignmentShipmentId": "71cbef57-cb45-40e7-8bdc-abba16e147fc",
+                      "ConsignmentShipmentId": "2e1ef361-a1ea-47f7-898c-a86b5ca7847f",
                       "Packages": [
                         {
                           "PackageOccurrence": 1
@@ -1098,7 +1104,7 @@
                     "value": {
                       "Packages": [
                         {
-                          "ShipmentId": "b6c601f9-1ced-45e0-b412-6316ef80897a",
+                          "ShipmentId": "e6a658c3-b87a-430b-9a85-5f504d5c6ae4",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "JJD0002234001002147",
                           "CarrierTrackingUrl": "https://www.yodel.co.uk/track?trackNumber=JJD0002234001002147"
@@ -1108,7 +1114,7 @@
                   },
                   "Allocate - Consignment Shipment": {
                     "value": {
-                      "ConsignmentShipmentId": "b4b7645b-892f-4b16-a47e-7f6934365873",
+                      "ConsignmentShipmentId": "403a3ca1-958c-4a23-a1ed-4d390f1931ac",
                       "ConsignmentTrackingNumber": "JJD0002234001002147",
                       "ConsignmentCarrierTrackingUrl": "https://www.yodel.co.uk/track?trackNumber=JJD0002234001002147",
                       "Packages": [
@@ -1126,7 +1132,7 @@
                       "LabelFormat": "PDF",
                       "Packages": [
                         {
-                          "ShipmentId": "0eb7a124-012c-4266-b20e-8373cb039cd6",
+                          "ShipmentId": "4d4507c9-7836-4f85-921a-8568c7c3eca9",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "JJD0002234001002147",
                           "CarrierTrackingUrl": "https://www.yodel.co.uk/track?trackNumber=JJD0002234001002147"
@@ -1136,7 +1142,7 @@
                   },
                   "Process - PDF - Consignment Shipment": {
                     "value": {
-                      "ConsignmentShipmentId": "7465b718-f6e3-47be-b548-5dee234e42c7",
+                      "ConsignmentShipmentId": "363a1282-65c0-4563-b436-26b7c0962698",
                       "ConsignmentTrackingNumber": "JJD0002234001002147",
                       "ConsignmentCarrierTrackingUrl": "https://www.yodel.co.uk/track?trackNumber=JJD0002234001002147",
                       "Labels": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
@@ -1156,7 +1162,7 @@
                       "LabelFormat": "PNG",
                       "Packages": [
                         {
-                          "ShipmentId": "ac145049-4575-47e0-9cda-91530e1eda6a",
+                          "ShipmentId": "b7f450a7-8e14-46ad-9f00-f14df73c45e7",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "JJD0002234001002147",
                           "CarrierTrackingUrl": "https://www.yodel.co.uk/track?trackNumber=JJD0002234001002147"
@@ -1166,7 +1172,7 @@
                   },
                   "Process - PNG - Consignment Shipment": {
                     "value": {
-                      "ConsignmentShipmentId": "75c90f35-4240-4915-bdbb-67f48a5e479a",
+                      "ConsignmentShipmentId": "b04ea31b-3a6b-4c38-8b31-1de16c7205f0",
                       "ConsignmentTrackingNumber": "JJD0002234001002147",
                       "ConsignmentCarrierTrackingUrl": "https://www.yodel.co.uk/track?trackNumber=JJD0002234001002147",
                       "Labels": "iVBORw0KGgoAAAANSUhEUgAA.....Hj16v8HJtP5+yLszwEAAAAASUVORK5CYII=",
@@ -1268,7 +1274,7 @@
                 "examples": {
                   "PDF": {
                     "value": {
-                      "ShipmentId": "51adefbb-bb2b-4c22-9272-a5221554fbc3",
+                      "ShipmentId": "c513fcba-8629-437a-bf90-81c11b685ee1",
                       "TrackingNumber": "H03TCA0000000118",
                       "CarrierTrackingUrl": "https://www.yodel.co.uk/track?trackNumber=H03TCA0000000118",
                       "Label": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
@@ -1277,7 +1283,7 @@
                   },
                   "PNG": {
                     "value": {
-                      "ShipmentId": "f8cf8170-5988-4592-b631-bd57200ebced",
+                      "ShipmentId": "8d147fb8-d5d3-42e1-822d-7e4083a459ac",
                       "TrackingNumber": "H03TCA0000000118",
                       "CarrierTrackingUrl": "https://www.yodel.co.uk/track?trackNumber=H03TCA0000000118",
                       "Label": "ëPNG♫◙→◙w0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
@@ -1495,7 +1501,7 @@
           "C2B"
         ],
         "type": "string",
-        "description": "Specifies the nature of the commercial transaction type associated with the shipment.\r<br />\r<br />Valid values are: \r<br /><ul><li>**B2C** - Business to Consumer</li><li>**B2B** - Business to Business</li><li>**D2C** - Direct 2 Consumer</li><li>**C2B** - Consumer to Business(that is, a returns shipment)</li></ul>"
+        "description": "Specifies the nature of the commercial transaction type associated with the shipment.\r<br />\r<br />Valid values are: \r<br /><ul><li>**B2C** - Business to Consumer</li><li>**B2B** - Business to Business</li><li>**D2C** - Direct 2 Consumer</li><li>**C2B** - Consumer to Business</li></ul>"
       },
       "ContentType": {
         "enum": [
@@ -1822,10 +1828,7 @@
       },
       "Hazmat": {
         "required": [
-          "Class",
-          "Quantity",
-          "UNCode",
-          "UnitOfMeasure"
+          "Class"
         ],
         "type": "object",
         "properties": {
@@ -1833,7 +1836,8 @@
             "maxLength": 4,
             "minLength": 4,
             "type": "string",
-            "description": "Mandatory if Hazmat information is present. UN Identification Number of the hazardous item.",
+            "description": "The United Nations (UN) code assigned to the hazardous material, which denotes its classification for transport. This code is critical for safety and compliance during shipping.\r<br />***Note:** This field must be populated only for domestic shipments using class 9 dangerous goods. If provided, then **Quantity** and **UnitOfMeasure** must also be specified.*",
+            "nullable": true,
             "example": "1002"
           },
           "ProperShippingName": {
@@ -1857,11 +1861,12 @@
             "example": "Nail Varnish"
           },
           "Quantity": {
-            "maximum": 9999999.99,
-            "minimum": 0.01,
+            "maximum": 5,
+            "minimum": 0.1,
             "type": "number",
-            "description": "Mandatory if Hazmat information is provided. The hazardous item quantity in the relevant unit of measure for one item.",
+            "description": "The quantity of the hazardous material in the specified UnitOfMeasure. This information is vital for compliance with shipping regulations pertaining to hazardous materials.\r<br />***Note:** This field is only required if **UnitOfMeasure** and **UNCode** is specified.*",
             "format": "double",
+            "nullable": true,
             "example": 3.5
           },
           "UnitOfMeasure": {
@@ -1899,11 +1904,12 @@
       },
       "HazmatUnitOfMeasure": {
         "enum": [
+          "NONE",
           "L",
           "KG"
         ],
         "type": "string",
-        "description": "Mandatory if Hazmat information is provided. The unit of measure for the dangerous goods, this is 'L' for liquids and gas and 'KG' for solids."
+        "description": "The unit of measurement for the quantity of hazardous material, for example, litres (for liquids) or kilograms (for solids). This provides clarity regarding the amount of hazardous goods present.\r<br />***Note:** This field is only required if **Quantity** and **UNCode** is specified.*"
       },
       "Item": {
         "required": [
@@ -2579,7 +2585,7 @@
           },
           "IsDefaultLocation": {
             "type": "boolean",
-            "description": "A boolean value indicating whether the shipping location is set as the default for shipping operations, streamlining the selection process during shipping.\r<br />\r<br />***Note:** If true, then this location is set as the default one. Otherwise, it is set to false.*",
+            "description": "A boolean value indicating whether the shipping location is set as the default for shipping operations, streamlining the selection process during shipping.\r<br />\r<br />***Note:** If true, then this location is set as the default one. Otherwise, it is set to false.*\r<br />            \r<br />Enum [True, False]",
             "example": false
           },
           "Timezone": {
