@@ -2,7 +2,7 @@
   "openapi": "3.0.1",
   "info": {
     "title": "SAPIENT EVRI API",
-    "description": "# Introduction\nHere you will find requirements for integrating with INTERSOFT SAPIENT API.\n\nThe documentation specifically covers how the API can be used by business customers to conduct shipping activity with available carriers and provides the technical information to build this integration. The API allows customers to create and manage shipments, produce labels, customs documentation, and collection manifests, retrieve reference data such as carriers and countries, and maintain their own data such as shipping account details.\n\nIntersoft API is a fully RESTful service implemented using JSON messaging. You, as the customer are responsible for sending JSON messages and for maintaining the capability of receiving JSON messages in the format described in this specification. Request and response examples for each API service are included in this specification.\n\n# Authentication\n\nThe INTERSOFT SAPIENT API uses OAuth2 authentication.\n\nTo request the authorization token you need to create API credentials (Client ID and Secret) on the system first. If you have not done it already, log into your account and go to API Credentials or follow the link [add a link here with the path to the API Credentials menu]. Use the credentials to retrieve the authorization token.\n\nNote: Make sure you copy the Secret and keep it secure as you won't be able to view it again on the system.\n\n<!-- ReDoc-Inject: <SecurityDefinitions /> -->\n",
+    "description": "# Introduction\nHere you will find requirements for integrating with SAPIENT CORE API.\n\nThe documentation specifically covers how the API can be used by business customers to conduct shipping activity with available carriers and provides the technical information to build this integration. The API allows customers to create and manage shipments, produce labels, customs documentation, and collection manifests, retrieve reference data such as carriers and countries, and maintain their own data such as shipping account details.\n\nIntersoft API is a fully RESTful service implemented using JSON messaging. You, as the customer are responsible for sending JSON messages and for maintaining the capability of receiving JSON messages in the format described in this specification. Request and response examples for each API service are included in this specification.\n\n# Authentication\n\nThe SAPIENT CORE API uses OAuth2 authentication.\n\nTo request the authorization token you need to create API credentials (Client ID and Secret) on the system first. If you have not done it already, log into your account and go to API Credentials or follow the link [add a link here with the path to the API Credentials menu]. Use the credentials to retrieve the authorization token.\n\nNote: Make sure you copy the Secret and keep it secure as you won't be able to view it again on the system.\n\n<!-- ReDoc-Inject: <SecurityDefinitions /> -->\n",
     "version": "v4.0-EVRI",
     "x-logo": {
       "url": "/Content/images/redoc-logo.png",
@@ -96,7 +96,7 @@
                       "Username": "Username A",
                       "SmsAlertGroupCode": "3363",
                       "LastUpdatedBy": "User A",
-                      "LastUpdatedDateUtc": "2026-01-21T09:55:25.313Z"
+                      "LastUpdatedDateUtc": "2026-02-25T07:58:49.023Z"
                     },
                     {
                       "ShippingAccountId": "46d58272-5f6a-405d-a947-c46c9caea56f",
@@ -111,7 +111,7 @@
                       "Username": "Username B",
                       "SmsAlertGroupCode": "3368",
                       "LastUpdatedBy": "User B",
-                      "LastUpdatedDateUtc": "2026-01-21T09:55:25.313Z"
+                      "LastUpdatedDateUtc": "2026-02-25T07:58:49.023Z"
                     }
                   ],
                   "TotalCount": 2
@@ -187,7 +187,7 @@
                     "SmsAlertGroupCode": "3363",
                     "ShippingLocations": [
                       {
-                        "ShippingLocationId": "aa255224-8ce5-4e71-b953-58491c0fbf47"
+                        "ShippingLocationId": "a8074198-13d9-4eb7-9fec-514ef9cf8bcc"
                       }
                     ]
                   }
@@ -320,7 +320,7 @@
                   "Username": "username",
                   "SmsAlertGroupCode": "3363",
                   "LastUpdatedBy": "User A",
-                  "LastUpdatedDateUtc": "2026-01-21T09:55:25.834Z"
+                  "LastUpdatedDateUtc": "2026-02-25T07:58:49.298Z"
                 }
               }
             }
@@ -708,12 +708,12 @@
                       "ContentType": "NDX",
                       "ServiceCode": "STND",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-01-21",
+                      "ShipmentDate": "2026-02-25",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "90ec4065-5778-473d-8fa0-e3eedbeefdfd",
+                      "ShippingAccountId": "7e30bf1f-5f04-4307-83c1-35936d5e1d84",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -757,15 +757,15 @@
                       "ContentType": "NDX",
                       "ServiceCode": "STND",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-01-21",
+                      "ShipmentDate": "2026-02-25",
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM",
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "39ad6db5-0860-4675-a455-291c4287d6c8",
-                      "ShippingLocationId": "043ea81e-9257-4994-a107-dfb4eac76d43",
+                      "ShippingAccountId": "4af322c4-f5d0-4a56-8d55-a71ce9b38c2b",
+                      "ShippingLocationId": "3c54dfcf-fabf-43df-a6fa-0320215fe846",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -854,13 +854,13 @@
                       "ContentType": "NDX",
                       "ServiceCode": "INTL",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-01-21",
+                      "ShipmentDate": "2026-02-25",
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "fc31efa5-69e8-49b1-adf7-8c6d2590a805",
+                      "ShippingAccountId": "9b7172ae-34c1-4785-8c78-bd11e45fbcfe",
                       "Reference1": "OrderRef56",
                       "EoriNumber": "GB12345",
                       "VatNumber": "VA12345"
@@ -929,15 +929,15 @@
                       "ContentType": "NDX",
                       "ServiceCode": "INTL",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-01-21",
+                      "ShipmentDate": "2026-02-25",
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM",
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "3bfbf979-8e0f-45fb-9817-cd615274cbeb",
-                      "ShippingLocationId": "64b6fc7f-202d-4835-80ee-3643207963b1",
+                      "ShippingAccountId": "092f4ca5-9a59-4316-a3a0-37c31ab90f39",
+                      "ShippingLocationId": "6b256798-831d-4e1c-aa45-a9b938f205e4",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -1014,7 +1014,7 @@
                       "OtherCharges": 32,
                       "QuotedLandedCost": 82.74,
                       "InvoiceNumber": "INV-12345",
-                      "InvoiceDate": "2026-01-21",
+                      "InvoiceDate": "2026-02-25",
                       "ExportLicenceRequired": false,
                       "Airn": "231.002.999-00"
                     },
@@ -1042,12 +1042,12 @@
                       "ContentType": "NDX",
                       "ServiceCode": "STND",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-01-21",
+                      "ShipmentDate": "2026-02-25",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "54df0a3b-8936-46b9-a2e0-bbd5c1fde5b4",
+                      "ShippingAccountId": "e2faad76-5e08-4bd4-a138-bb6d8ab839bc",
                       "Reference1": "OrderRef56",
                       "Address": {
                         "AddressId": "John Brown Default"
@@ -1092,7 +1092,7 @@
                     "value": {
                       "Packages": [
                         {
-                          "ShipmentId": "03e4c4ab-e5a8-499f-87e8-0ec39a3c656a",
+                          "ShipmentId": "06bfbf04-67e2-414f-9af4-afa49511a1cb",
                           "PackageOccurrence": 0
                         }
                       ]
@@ -1102,7 +1102,7 @@
                     "value": {
                       "Packages": [
                         {
-                          "ShipmentId": "2e5a6b40-2fd8-4196-bdb3-f8e23baa355b",
+                          "ShipmentId": "92398663-c028-44e1-8eb9-f408d7e96b7e",
                           "PackageOccurrence": 0,
                           "TrackingNumber": "H03TCA0000000118",
                           "CarrierTrackingUrl": "https://www.evri.com/track/parcel/H03TCA0000000118"
@@ -1116,7 +1116,7 @@
                       "LabelFormat": "PDF",
                       "Packages": [
                         {
-                          "ShipmentId": "8139ee32-8a22-4315-8c1c-8435f21828d6",
+                          "ShipmentId": "d44f3096-0e4b-4a88-95b0-58b7d1ede530",
                           "PackageOccurrence": 0,
                           "TrackingNumber": "H03TCA0000000118",
                           "CarrierTrackingUrl": "https://www.evri.com/track/parcel/H03TCA0000000118"
@@ -1130,7 +1130,7 @@
                       "LabelFormat": "PNG",
                       "Packages": [
                         {
-                          "ShipmentId": "432aed99-c3f6-485e-a15a-2a82650e49da",
+                          "ShipmentId": "1f5cc4b6-ed2f-4a19-abb5-f659c9cf17e6",
                           "PackageOccurrence": 0,
                           "TrackingNumber": "H03TCA0000000118",
                           "CarrierTrackingUrl": "https://www.evri.com/track/parcel/H03TCA0000000118"
@@ -1226,7 +1226,7 @@
                 "examples": {
                   "PDF": {
                     "value": {
-                      "ShipmentId": "3ad29ce2-7845-4428-8636-61888d85dfa5",
+                      "ShipmentId": "2723962e-1923-4bdd-ac64-0c1f156b6e87",
                       "TrackingNumber": "H03TCA0000000118",
                       "CarrierTrackingUrl": "https://www.evri.com/track/parcel/H03TCA0000000118",
                       "Label": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
@@ -1235,7 +1235,7 @@
                   },
                   "PNG": {
                     "value": {
-                      "ShipmentId": "bc81f2ff-c245-4f75-810b-eb3e4d4ad2cc",
+                      "ShipmentId": "dd98736a-bddd-45f0-afe3-dd2b0e48fc2d",
                       "TrackingNumber": "H03TCA0000000118",
                       "CarrierTrackingUrl": "https://www.evri.com/track/parcel/H03TCA0000000118",
                       "Label": "ëPNG♫◙→◙w0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
@@ -1524,7 +1524,7 @@
           "C2B"
         ],
         "type": "string",
-        "description": "Specifies the nature of the commercial transaction type associated with the shipment.\r<br />\r<br />Valid values are: \r<br /><ul><li>**B2C** - Business to Consumer</li><li>**B2B** - Business to Business</li><li>**D2C** - Direct 2 Consumer</li><li>**C2B** - Consumer to Business(that is, a returns shipment)</li></ul>"
+        "description": "Specifies the nature of the commercial transaction type associated with the shipment.\r<br />\r<br />Valid values are: \r<br /><ul><li>**B2C** - Business to Consumer</li><li>**B2B** - Business to Business</li><li>**D2C** - Direct 2 Consumer</li><li>**C2B** - Consumer to Business</li></ul>"
       },
       "ContentType": {
         "enum": [
@@ -2249,10 +2249,7 @@
       },
       "Hazmat": {
         "required": [
-          "Class",
-          "Quantity",
-          "UNCode",
-          "UnitOfMeasure"
+          "Class"
         ],
         "type": "object",
         "properties": {
@@ -2260,7 +2257,8 @@
             "maxLength": 4,
             "minLength": 4,
             "type": "string",
-            "description": "Mandatory if Hazmat information is present. UN Identification Number of the hazardous item.",
+            "description": "The United Nations (UN) code assigned to the hazardous material, which denotes its classification for transport. This code is critical for safety and compliance during shipping.\r<br />***Note:** This field must be populated only for domestic shipments using class 9 dangerous goods. If provided, then **Quantity** and **UnitOfMeasure** must also be specified.*",
+            "nullable": true,
             "example": "1002"
           },
           "ProperShippingName": {
@@ -2284,11 +2282,12 @@
             "example": "Nail Varnish"
           },
           "Quantity": {
-            "maximum": 9999999.99,
-            "minimum": 0.01,
+            "maximum": 5,
+            "minimum": 0.1,
             "type": "number",
-            "description": "Mandatory if Hazmat information is provided. The hazardous item quantity in the relevant unit of measure for one item.",
+            "description": "The quantity of the hazardous material in the specified UnitOfMeasure. This information is vital for compliance with shipping regulations pertaining to hazardous materials.\r<br />***Note:** This field is only required if **UnitOfMeasure** and **UNCode** is specified.*",
             "format": "double",
+            "nullable": true,
             "example": 3.5
           },
           "UnitOfMeasure": {
@@ -2326,11 +2325,12 @@
       },
       "HazmatUnitOfMeasure": {
         "enum": [
+          "NONE",
           "L",
           "KG"
         ],
         "type": "string",
-        "description": "Mandatory if Hazmat information is provided. The unit of measure for the dangerous goods, this is 'L' for liquids and gas and 'KG' for solids."
+        "description": "The unit of measurement for the quantity of hazardous material, for example, litres (for liquids) or kilograms (for solids). This provides clarity regarding the amount of hazardous goods present.\r<br />***Note:** This field is only required if **Quantity** and **UNCode** is specified.*"
       },
       "Item": {
         "required": [
@@ -3029,7 +3029,7 @@
           },
           "IsDefaultLocation": {
             "type": "boolean",
-            "description": "A boolean value indicating whether the shipping location is set as the default for shipping operations, streamlining the selection process during shipping.\r<br />\r<br />***Note:** If true, then this location is set as the default one. Otherwise, it is set to false.*",
+            "description": "A boolean value indicating whether the shipping location is set as the default for shipping operations, streamlining the selection process during shipping.\r<br />\r<br />***Note:** If true, then this location is set as the default one. Otherwise, it is set to false.*\r<br />            \r<br />Enum [True, False]",
             "example": false
           },
           "Timezone": {
