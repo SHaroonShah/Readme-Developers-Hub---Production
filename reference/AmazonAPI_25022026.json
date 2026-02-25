@@ -1,0 +1,2988 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "SAPIENT AMAZON API",
+    "description": "# Introduction\nHere you will find requirements for integrating with SAPIENT CORE API.\n\nThe documentation specifically covers how the API can be used by business customers to conduct shipping activity with available carriers and provides the technical information to build this integration. The API allows customers to create and manage shipments, produce labels, customs documentation, and collection manifests, retrieve reference data such as carriers and countries, and maintain their own data such as shipping account details.\n\nIntersoft API is a fully RESTful service implemented using JSON messaging. You, as the customer are responsible for sending JSON messages and for maintaining the capability of receiving JSON messages in the format described in this specification. Request and response examples for each API service are included in this specification.\n\n# Authentication\n\nThe SAPIENT CORE API uses OAuth2 authentication.\n\nTo request the authorization token you need to create API credentials (Client ID and Secret) on the system first. If you have not done it already, log into your account and go to API Credentials or follow the link [add a link here with the path to the API Credentials menu]. Use the credentials to retrieve the authorization token.\n\nNote: Make sure you copy the Secret and keep it secure as you won't be able to view it again on the system.\n\n<!-- ReDoc-Inject: <SecurityDefinitions /> -->\n",
+    "version": "v4.0-AMAZON",
+    "x-logo": {
+      "url": "/Content/images/redoc-logo.png",
+      "altText": "ReDoc"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://api.intersoftsapient.net/",
+      "description": "Sapient Server"
+    }
+  ],
+  "paths": {
+    "/v4/shippingAccounts/amazon": {
+      "get": {
+        "tags": [
+          "Shipping Accounts"
+        ],
+        "summary": "Get Accounts",
+        "description": "Provides a list of Amazon shipping accounts only.\r<br />Information about the account number, account type, and contact details is included in the response.",
+        "parameters": [
+          {
+            "name": "searchTerm",
+            "in": "query",
+            "description": "Search Term",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "pageSize",
+            "in": "query",
+            "description": "The maximum number of records per page.",
+            "schema": {
+              "maximum": 2147483647,
+              "minimum": 1,
+              "type": "integer",
+              "format": "int32",
+              "default": 100
+            }
+          },
+          {
+            "name": "pageNumber",
+            "in": "query",
+            "description": "The number of the requested page, starting at 1.",
+            "schema": {
+              "maximum": 2147483647,
+              "minimum": 1,
+              "type": "integer",
+              "format": "int32",
+              "default": 1
+            }
+          },
+          {
+            "name": "sortBy",
+            "in": "query",
+            "description": "Sort By\r<br />Default: Name",
+            "schema": {
+              "$ref": "#/components/schemas/ShippingAccountsSortBy"
+            }
+          },
+          {
+            "name": "sortDir",
+            "in": "query",
+            "description": "Sort Direction\r<br />Default: Ascending",
+            "schema": {
+              "$ref": "#/components/schemas/OrderDirection"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Returns a paged list of shipping accounts for the given carrier.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AmazonShippingAccountShippingAccountsPagedResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid request response.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                },
+                "example": {
+                  "Message": "Invalid Request",
+                  "Errors": [
+                    {
+                      "Message": "The page size must be 1 or greater.",
+                      "Cause": "pageSize",
+                      "ErrorCode": "E1002"
+                    },
+                    {
+                      "Message": "The page number must be 1 or greater.",
+                      "Cause": "pageNumber",
+                      "ErrorCode": "E1002"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        },
+        "security": [
+          {
+            "oauth2": []
+          }
+        ]
+      },
+      "post": {
+        "tags": [
+          "Shipping Accounts"
+        ],
+        "summary": "Add Account",
+        "description": "Add a shipping account for Amazon and link it with an existing shipping location.\r<br />Ensure to have required carrier details ready like Amazon account name (client name allocated by Amazon), username and password so that you can use the account for shipping with Amazon.",
+        "requestBody": {
+          "description": "Add Shipping Account Request",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AmazonAddShippingAccountRequest"
+              },
+              "examples": {
+                "Add account to existing location": {
+                  "value": {
+                    "AmazonAccountType": "OffAmazon",
+                    "AccountType": "Sandbox",
+                    "AccountName": "AB VideoGames",
+                    "AccountAlias": "AMAZON-99112347707",
+                    "ContactName": "John Smith",
+                    "ContactNumber": "0123456789",
+                    "ShippingLocations": [
+                      {
+                        "ShippingLocationId": "163af918-615d-4d93-a21b-68efb6584c2b"
+                      }
+                    ]
+                  }
+                },
+                "Add account at new location": {
+                  "value": {
+                    "AmazonAccountType": "OffAmazon",
+                    "AccountType": "Sandbox",
+                    "AccountName": "AB VideoGames",
+                    "AccountAlias": "AMAZON-99112347707",
+                    "ContactName": "John Smith",
+                    "ContactNumber": "0123456789",
+                    "ShippingLocations": [
+                      {
+                        "ShippingLocation": {
+                          "LocationAlias": "Main Warehouse",
+                          "Timezone": "Europe/London",
+                          "IsDefaultLocation": false,
+                          "Address": {
+                            "ContactPhone": "07123887422",
+                            "Line1": "Brown Cottage",
+                            "Line2": "10 Sky Lane",
+                            "Line3": "Hills End",
+                            "Town": "Christchurch",
+                            "Postcode": "TW20 0HJ",
+                            "County": "Surrey",
+                            "CountryCode": "GB"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "The shipping account was added successfully.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AddShippingAccountResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid request response.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                },
+                "example": {
+                  "Message": "Invalid Request",
+                  "Errors": [
+                    {
+                      "Message": "The account alias is required.",
+                      "Cause": "AccountAlias",
+                      "ErrorCode": "E1001"
+                    },
+                    {
+                      "Message": "Customer is Restricted to Sandbox.",
+                      "Cause": "AccountType",
+                      "ErrorCode": "E1003"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        },
+        "security": [
+          {
+            "oauth2": []
+          }
+        ]
+      }
+    },
+    "/v4/shippingAccounts/amazon/{shippingAccountId}": {
+      "get": {
+        "tags": [
+          "Shipping Accounts"
+        ],
+        "summary": "Get Account",
+        "description": "Provides details for a Amazon account.\r<br />Information about the account number, alias, account type, and contact details is included in the response.",
+        "parameters": [
+          {
+            "name": "shippingAccountId",
+            "in": "path",
+            "description": "Shipping Account Identifier\r<br />SAPIENT Shipping Account Id (assigned by SAPIENT) or Alias (assigned by you).",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Returns the shipping account.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AmazonShippingAccount"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "The shipping account was not found."
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        },
+        "security": [
+          {
+            "oauth2": []
+          }
+        ]
+      },
+      "put": {
+        "tags": [
+          "Shipping Accounts"
+        ],
+        "summary": "Update Account",
+        "description": "Update shipping account details.\r<br />Note: All required fields must be populated in the request, regardless if they need updating or not.",
+        "parameters": [
+          {
+            "name": "shippingAccountId",
+            "in": "path",
+            "description": "Shipping Account Identifier\r<br />SAPIENT Shipping Account Id (assigned by SAPIENT) or Alias (assigned by you).",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "description": "Shipping Account Details",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AmazonUpdateShippingAccountRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "The shipping account was updated successfully."
+          },
+          "400": {
+            "description": "Invalid request response.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                },
+                "example": {
+                  "Message": "Invalid Request",
+                  "Errors": [
+                    {
+                      "Message": "The account alias is required.",
+                      "Cause": "AccountAlias",
+                      "ErrorCode": "E1001"
+                    },
+                    {
+                      "Message": "Customer is Restricted to Sandbox.",
+                      "Cause": "AccountType",
+                      "ErrorCode": "E1003"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "The shipping account was not found."
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        },
+        "security": [
+          {
+            "oauth2": []
+          }
+        ]
+      }
+    },
+    "/v4/shippingAccounts/amazon/{shippingAccountId}/linkLocations": {
+      "post": {
+        "tags": [
+          "Shipping Accounts"
+        ],
+        "summary": "Link Locations",
+        "description": "Link one or more shipping locations with an Amazon shipping account.",
+        "parameters": [
+          {
+            "name": "shippingAccountId",
+            "in": "path",
+            "description": "Shipping Account Identifier\r<br />SAPIENT Shipping Account Id (assigned by SAPIENT) or Alias (assigned by you).",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "description": "Shipping Locations\r\nThe locations to associate with this shipping account.",
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/ShippingLocationIdRequest"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "The shipping location(s) have been linked to the account successfully."
+          },
+          "400": {
+            "description": "Invalid request response.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                },
+                "example": {
+                  "Message": "Invalid Request",
+                  "Errors": [
+                    {
+                      "Message": "The shipping location was not found",
+                      "Cause": "[2].ShippingLocationId",
+                      "ErrorCode": "E1004"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "The shipping account was not found."
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        },
+        "security": [
+          {
+            "oauth2": []
+          }
+        ]
+      }
+    },
+    "/v4/shippingAccounts/amazon/{shippingAccountId}/shippingLocations": {
+      "get": {
+        "tags": [
+          "Shipping Accounts"
+        ],
+        "summary": "Get Associated Locations",
+        "description": "Provides a list of all shipping locations associated with a Amazon shipping account.",
+        "parameters": [
+          {
+            "name": "shippingAccountId",
+            "in": "path",
+            "description": "Shipping Account Identifier\r<br />SAPIENT Shipping Account Id (assigned by SAPIENT) or Alias (assigned by you).",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "searchTerm",
+            "in": "query",
+            "description": "Search Term",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "pageSize",
+            "in": "query",
+            "description": "The maximum number of records per page.",
+            "schema": {
+              "maximum": 2147483647,
+              "minimum": 1,
+              "type": "integer",
+              "format": "int32",
+              "default": 100
+            }
+          },
+          {
+            "name": "pageNumber",
+            "in": "query",
+            "description": "The number of the requested page, starting at 1.",
+            "schema": {
+              "maximum": 2147483647,
+              "minimum": 1,
+              "type": "integer",
+              "format": "int32",
+              "default": 1
+            }
+          },
+          {
+            "name": "sortBy",
+            "in": "query",
+            "description": "Sort By\r<br />Default: Name",
+            "schema": {
+              "$ref": "#/components/schemas/ShippingLocationsSortBy"
+            }
+          },
+          {
+            "name": "sortDir",
+            "in": "query",
+            "description": "Sort Direction\r<br />Default: Ascending",
+            "schema": {
+              "$ref": "#/components/schemas/OrderDirection"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Returns a paged list of associated shipping locations.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ShippingLocationsForAccountPagedResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid request response.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                },
+                "example": {
+                  "Message": "Invalid Request",
+                  "Errors": [
+                    {
+                      "Message": "The page size must be 1 or greater.",
+                      "Cause": "pageSize",
+                      "ErrorCode": "E1002"
+                    },
+                    {
+                      "Message": "The page number must be 1 or greater.",
+                      "Cause": "pageNumber",
+                      "ErrorCode": "E1002"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "The shipping account was not found."
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        },
+        "security": [
+          {
+            "oauth2": []
+          }
+        ]
+      }
+    },
+    "/v4/shippingAccounts/amazon/{shippingAccountId}/shippingLocations/{shippingLocationId}": {
+      "get": {
+        "tags": [
+          "Shipping Accounts"
+        ],
+        "summary": "Get Associated Location",
+        "description": "Provides information for a specific shipping location linked to a Amazon shipping account including location alias, timezone, address, when it was last updated, and by who.",
+        "parameters": [
+          {
+            "name": "shippingAccountId",
+            "in": "path",
+            "description": "Shipping Account Identifier\r<br />SAPIENT Shipping Account Id (assigned by SAPIENT) or Alias (assigned by you).",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "shippingLocationId",
+            "in": "path",
+            "description": "Shipping Location Identifier\r<br />SAPIENT Shipping Location Id (assigned by SAPIENT) or Alias (assigned by you).",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Returns the associated shipping location",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ShippingLocation"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "The shipping location was not found."
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        },
+        "security": [
+          {
+            "oauth2": []
+          }
+        ]
+      }
+    },
+    "/v4/shipments/amazon": {
+      "post": {
+        "tags": [
+          "Shipments"
+        ],
+        "summary": "Create Shipment",
+        "description": "Create a Amazon shipment. This will return an image of the shipping label in PDF or PNG format.",
+        "requestBody": {
+          "description": "Shipment Details",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AmazonShipmentRequestCarrierSpecificsPackageDetailsLabelFormatCreateShipmentRequest"
+              },
+              "examples": {
+                "Domestic - OFF Amazon Basic Fields": {
+                  "value": {
+                    "ShipmentInformation": {
+                      "ReturnLabelsAtPackageLevel": false,
+                      "ContentType": "NDX",
+                      "ServiceCode": "1Day",
+                      "DescriptionOfGoods": "Clothes",
+                      "ShipmentDate": "2026-02-25",
+                      "DeclaredWeight": 1.5,
+                      "CurrencyCode": "GBP",
+                      "WeightUnitOfMeasure": "KG",
+                      "DimensionsUnitOfMeasure": "CM"
+                    },
+                    "Shipper": {
+                      "ShippingAccountId": "8d065127-f14e-4cc1-a6c8-c30ae59303a7",
+                      "Reference1": "OrderRef56"
+                    },
+                    "Destination": {
+                      "Address": {
+                        "ContactPhone": "07123456789",
+                        "ContactName": "John Smith",
+                        "CompanyName": "Company",
+                        "ContactEmail": "john.smith@example.com",
+                        "Line1": "10 Sky Road",
+                        "Town": "Woking",
+                        "Postcode": "GU21 4TE",
+                        "CountryCode": "GB"
+                      }
+                    },
+                    "Packages": [
+                      {
+                        "DeclaredWeight": 1.5,
+                        "Dimensions": {
+                          "Length": 40,
+                          "Width": 30,
+                          "Height": 20
+                        }
+                      }
+                    ],
+                    "Items": [
+                      {
+                        "Quantity": 1,
+                        "Description": "T-shirt",
+                        "Value": 101,
+                        "Weight": 0.5
+                      }
+                    ]
+                  }
+                },
+                "Domestic - OFF Amazon All Fields": {
+                  "value": {
+                    "CarrierSpecifics": {
+                      "DeliveryInstructions": "Instructions to the courier",
+                      "ItemEnhancements": {},
+                      "Enhancements": [
+                        "Otp"
+                      ]
+                    },
+                    "ShipmentInformation": {
+                      "Action": "Process",
+                      "LabelFormat": "PDF",
+                      "ReturnLabelsAtPackageLevel": false,
+                      "ContentType": "NDX",
+                      "ServiceCode": "1Day",
+                      "DescriptionOfGoods": "Clothes",
+                      "ShipmentDate": "2026-02-25",
+                      "DeclaredWeight": 1.5,
+                      "CurrencyCode": "GBP",
+                      "WeightUnitOfMeasure": "KG",
+                      "DimensionsUnitOfMeasure": "CM",
+                      "ContainerId": "South East"
+                    },
+                    "Shipper": {
+                      "ShippingAccountId": "d00efbfe-0ed0-460e-a2d4-74e5b25a23cf",
+                      "ShippingLocationId": "feeeefad-d42b-44ba-b8ab-2a3cd7224317",
+                      "Reference1": "OrderRef56",
+                      "DepartmentNumber": "0123456789",
+                      "EoriNumber": "GB213456789000",
+                      "VatNumber": "GB213456789",
+                      "Address": {
+                        "ContactPhone": "607723456789",
+                        "ContactName": "Jane Smith",
+                        "CompanyName": "Company & Co.",
+                        "ContactEmail": "email@server.com",
+                        "Line1": "Level 5",
+                        "Line2": "Hashmoore House",
+                        "Line3": "10 Sky Lane",
+                        "Town": "Leatherhead",
+                        "Postcode": "AA34 3AB",
+                        "County": "Surrey",
+                        "CountryCode": "GB"
+                      }
+                    },
+                    "Destination": {
+                      "EoriNumber": "GB123456789000",
+                      "VatNumber": "GB123456789",
+                      "Address": {
+                        "ContactPhone": "07123456789",
+                        "ContactName": "John Smith",
+                        "CompanyName": "Company",
+                        "ContactEmail": "john.smith@example.com",
+                        "Line1": "10 Sky Road",
+                        "Town": "Woking",
+                        "Postcode": "GU21 4TE",
+                        "CountryCode": "GB"
+                      }
+                    },
+                    "Packages": [
+                      {
+                        "PackageOccurrence": 1,
+                        "DeclaredWeight": 1.5,
+                        "Dimensions": {
+                          "Length": 40,
+                          "Width": 30,
+                          "Height": 20
+                        }
+                      }
+                    ],
+                    "Items": [
+                      {
+                        "SkuCode": "SKU123",
+                        "PackageOccurrence": 1,
+                        "Quantity": 1,
+                        "Description": "White Mens Large T-shirt",
+                        "Value": 19.99,
+                        "Weight": 0.5,
+                        "ImageURL": "https://yourcompany.com/images/product.jpg",
+                        "HSCode": "610910",
+                        "CountryOfOrigin": "CN"
+                      },
+                      {
+                        "SkuCode": "SKU456",
+                        "PackageOccurrence": 1,
+                        "Quantity": 2,
+                        "Description": "Black Mens Large Jumper",
+                        "Value": 32.99,
+                        "Weight": 0.3,
+                        "ImageURL": "https://yourcompany.com/images/jumper-black.jpg",
+                        "HSCode": "611011",
+                        "CountryOfOrigin": "CN"
+                      }
+                    ]
+                  }
+                },
+                "Domestic - ON Amazon Basic Fields": {
+                  "value": {
+                    "CarrierSpecifics": {
+                      "OrderId": "order_id",
+                      "ItemEnhancements": {
+                        "TSH-FFF-M": "item_id"
+                      },
+                      "Enhancements": []
+                    },
+                    "ShipmentInformation": {
+                      "ReturnLabelsAtPackageLevel": false,
+                      "ContentType": "NDX",
+                      "ServiceCode": "Prime",
+                      "DescriptionOfGoods": "Clothes",
+                      "ShipmentDate": "2026-02-25",
+                      "DeclaredWeight": 1.5,
+                      "CurrencyCode": "GBP",
+                      "WeightUnitOfMeasure": "KG",
+                      "DimensionsUnitOfMeasure": "CM"
+                    },
+                    "Shipper": {
+                      "ShippingAccountId": "31455e0d-253b-410c-9b95-53eeef0ff57d",
+                      "Reference1": "OrderRef56"
+                    },
+                    "Destination": {
+                      "Address": {
+                        "ContactPhone": "07123456789",
+                        "ContactName": "John Smith",
+                        "CompanyName": "Company",
+                        "ContactEmail": "john.smith@example.com",
+                        "Line1": "10 Sky Road",
+                        "Town": "Woking",
+                        "Postcode": "GU21 4TE",
+                        "CountryCode": "GB"
+                      }
+                    },
+                    "Packages": [
+                      {
+                        "DeclaredWeight": 1.5,
+                        "Dimensions": {
+                          "Length": 40,
+                          "Width": 30,
+                          "Height": 20
+                        }
+                      }
+                    ],
+                    "Items": [
+                      {
+                        "SkuCode": "TSH-FFF-M",
+                        "Quantity": 1,
+                        "Description": "T-shirt",
+                        "Value": 101,
+                        "Weight": 0.5
+                      }
+                    ]
+                  }
+                },
+                "Domestic - ON Amazon All Fields": {
+                  "value": {
+                    "CarrierSpecifics": {
+                      "DeliveryInstructions": "Instructions to the courier",
+                      "OrderId": "202-7179886-3817928",
+                      "ItemEnhancements": {
+                        "SKU123": "60334228527867",
+                        "SKU456": "60334228527868"
+                      },
+                      "Enhancements": [
+                        "Sod"
+                      ]
+                    },
+                    "ShipmentInformation": {
+                      "Action": "Process",
+                      "LabelFormat": "PDF",
+                      "ReturnLabelsAtPackageLevel": false,
+                      "ContentType": "NDX",
+                      "ServiceCode": "1Day",
+                      "DescriptionOfGoods": "Clothes",
+                      "ShipmentDate": "2026-02-25",
+                      "DeclaredWeight": 1.5,
+                      "CurrencyCode": "GBP",
+                      "WeightUnitOfMeasure": "KG",
+                      "DimensionsUnitOfMeasure": "CM",
+                      "ContainerId": "South East"
+                    },
+                    "Shipper": {
+                      "ShippingAccountId": "14a67df5-be4b-47e7-b72d-8e99e779ad78",
+                      "ShippingLocationId": "ad189143-e3e5-4a07-8969-52c6fe67b995",
+                      "Reference1": "OrderRef56",
+                      "DepartmentNumber": "0123456789",
+                      "EoriNumber": "GB213456789000",
+                      "VatNumber": "GB213456789",
+                      "Address": {
+                        "ContactPhone": "607723456789",
+                        "ContactName": "Jane Smith",
+                        "CompanyName": "Company & Co.",
+                        "ContactEmail": "email@server.com",
+                        "Line1": "Level 5",
+                        "Line2": "Hashmoore House",
+                        "Line3": "10 Sky Lane",
+                        "Town": "Leatherhead",
+                        "Postcode": "AA34 3AB",
+                        "County": "Surrey",
+                        "CountryCode": "GB"
+                      }
+                    },
+                    "Destination": {
+                      "EoriNumber": "GB123456789000",
+                      "VatNumber": "GB123456789",
+                      "Address": {
+                        "ContactPhone": "07123456789",
+                        "ContactName": "John Smith",
+                        "CompanyName": "Company",
+                        "ContactEmail": "john.smith@example.com",
+                        "Line1": "10 Sky Road",
+                        "Town": "Woking",
+                        "Postcode": "GU21 4TE",
+                        "CountryCode": "GB"
+                      }
+                    },
+                    "Packages": [
+                      {
+                        "PackageOccurrence": 1,
+                        "DeclaredWeight": 1.5,
+                        "Dimensions": {
+                          "Length": 40,
+                          "Width": 30,
+                          "Height": 20
+                        }
+                      }
+                    ],
+                    "Items": [
+                      {
+                        "SkuCode": "SKU123",
+                        "PackageOccurrence": 1,
+                        "Quantity": 1,
+                        "Description": "White Mens Large T-shirt",
+                        "Value": 19.99,
+                        "Weight": 0.5,
+                        "ImageURL": "https://yourcompany.com/images/product.jpg",
+                        "HSCode": "610910",
+                        "CountryOfOrigin": "CN"
+                      },
+                      {
+                        "SkuCode": "SKU456",
+                        "PackageOccurrence": 1,
+                        "Quantity": 2,
+                        "Description": "Black Mens Large Jumper",
+                        "Value": 32.99,
+                        "Weight": 0.3,
+                        "ImageURL": "https://yourcompany.com/images/jumper-black.jpg",
+                        "HSCode": "611011",
+                        "CountryOfOrigin": "CN"
+                      }
+                    ]
+                  }
+                },
+                "Using Address Book": {
+                  "value": {
+                    "ShipmentInformation": {
+                      "ReturnLabelsAtPackageLevel": false,
+                      "ContentType": "NDX",
+                      "ServiceCode": "1Day",
+                      "DescriptionOfGoods": "Clothes",
+                      "ShipmentDate": "2026-02-25",
+                      "CurrencyCode": "GBP",
+                      "WeightUnitOfMeasure": "KG",
+                      "DimensionsUnitOfMeasure": "CM"
+                    },
+                    "Shipper": {
+                      "ShippingAccountId": "00d00248-5e6c-4182-8f4d-c49ae28cbe81",
+                      "Reference1": "OrderRef56",
+                      "Address": {
+                        "AddressId": "John Brown Default"
+                      }
+                    },
+                    "Destination": {
+                      "Address": {
+                        "AddressId": "John Brown Default"
+                      }
+                    },
+                    "Packages": [
+                      {
+                        "DeclaredWeight": 1.5,
+                        "Dimensions": {
+                          "Length": 40,
+                          "Width": 30,
+                          "Height": 20
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "The shipment was created successfully.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/LabelFormatPackageResponseDetailsCreateShipmentResponse"
+                },
+                "examples": {
+                  "Create": {
+                    "value": {
+                      "Packages": [
+                        {
+                          "ShipmentId": "9f03edf0-ef08-439b-922d-cb8ba4875c7c",
+                          "PackageOccurrence": 1
+                        }
+                      ],
+                      "DocumentFormat": "PDF"
+                    }
+                  },
+                  "Allocate": {
+                    "value": {
+                      "Packages": [
+                        {
+                          "ShipmentId": "c4def23c-f817-4647-b508-50bf477f1f6c",
+                          "PackageOccurrence": 1,
+                          "TrackingNumber": "H03TCA0000000118",
+                          "CarrierTrackingUrl": "https://track.amazon.co.uk/tracking/H03TCA0000000118"
+                        }
+                      ],
+                      "DocumentFormat": "PDF"
+                    }
+                  },
+                  "Process - PDF": {
+                    "value": {
+                      "Labels": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
+                      "LabelFormat": "Pdf",
+                      "Packages": [
+                        {
+                          "ShipmentId": "e688148f-7bb9-4afa-8d42-77b3838d56b9",
+                          "PackageOccurrence": 1,
+                          "TrackingNumber": "H03TCA0000000118",
+                          "CarrierTrackingUrl": "https://track.amazon.co.uk/tracking/H03TCA0000000118"
+                        }
+                      ],
+                      "DocumentFormat": "PDF"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid request response.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                },
+                "example": {
+                  "Message": "Invalid Request",
+                  "Errors": [
+                    {
+                      "Message": "The name maximum length is 50 characters.",
+                      "Cause": "Destination.Address.ContactName",
+                      "ErrorCode": "E1002"
+                    },
+                    {
+                      "Message": "The service code is required.",
+                      "Cause": "ShipmentInformation.ServiceCode",
+                      "ErrorCode": "E1001"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "The carrier was not found."
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        },
+        "security": [
+          {
+            "oauth2": []
+          }
+        ]
+      }
+    },
+    "/v4/shipments/printLabel/amazon/{shipmentId}": {
+      "get": {
+        "tags": [
+          "Shipments"
+        ],
+        "summary": "Print Label",
+        "description": "This changes the status of the shipment to label printed. This should be done at the time of actual printing or label creation dependent on how you operate in reality. Shipments must be updated to printed status prior to manifesting.",
+        "parameters": [
+          {
+            "name": "shipmentId",
+            "in": "path",
+            "description": "Shipment ID\r<br />The Shipment ID may be an id or a tracking/barcode number.",
+            "required": true,
+            "schema": {
+              "maxLength": 36,
+              "minLength": 0,
+              "type": "string"
+            }
+          },
+          {
+            "name": "labelFormat",
+            "in": "query",
+            "description": "Label Format\r<br />            \r<br />**PDF** Base 64 encoded PDF\r<br />**PNG** Base 64 encoded PNG\r<br />            \r<br />Defaults To PDF",
+            "schema": {
+              "$ref": "#/components/schemas/LabelFormat"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Returns the printed label in the format specified.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/LabelFormatPrintLabelResponse"
+                },
+                "examples": {
+                  "PDF": {
+                    "value": {
+                      "ShipmentId": "386b8b44-e12b-445e-bc57-063de16b8a8b",
+                      "TrackingNumber": "H03TCA0000000118",
+                      "CarrierTrackingUrl": "https://track.amazon.co.uk/tracking/H03TCA0000000118",
+                      "Label": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
+                      "LabelFormat": "PDF"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid request response.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                },
+                "example": {
+                  "Message": "Invalid Request",
+                  "Errors": [
+                    {
+                      "Message": "The shipment has already been manifested and cannot be reprinted.",
+                      "Cause": "ShipmentStatus",
+                      "ErrorCode": "E1003"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "The shipment was not found."
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        },
+        "security": [
+          {
+            "oauth2": []
+          }
+        ]
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "AccountType": {
+        "enum": [
+          "Sandbox",
+          "Production"
+        ],
+        "type": "string",
+        "description": "Indicates whether the account is set up as a \"sandbox\" or \"production\" account. A **Sandbox** account is for testing and development, while a **Production** account is used for live shipments and transactions."
+      },
+      "AddShippingAccountLocation": {
+        "type": "object",
+        "properties": {
+          "ShippingLocationId": {
+            "maxLength": 100,
+            "type": "string",
+            "description": "This field is used to link an existing shipping location to the new shipping account that is being created, and either the shipping location Id or alias can be provided to link the shipping location to the shipping account.",
+            "nullable": true,
+            "example": "D94E8CFD-604B-4B87-83E9-3F20CAF02837"
+          },
+          "ShippingLocation": {
+            "$ref": "#/components/schemas/AddShippingAccountLocationNewLocation"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Add Shipping Account Location"
+      },
+      "AddShippingAccountLocationNewLocation": {
+        "required": [
+          "Address",
+          "LocationAlias",
+          "Timezone"
+        ],
+        "type": "object",
+        "properties": {
+          "LocationAlias": {
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string",
+            "description": "A user-defined identifier for the shipping location. This information allows greater flexibility in recognising and referring to the location.",
+            "example": "Main Warehouse"
+          },
+          "Timezone": {
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string",
+            "description": "The timezone in which the shipping location is located, important for scheduling and logistical considerations.",
+            "example": "Europe/London"
+          },
+          "IsDefaultLocation": {
+            "type": "boolean",
+            "description": "A boolean value indicating whether the shipping location is set as the default for shipping operations, streamlining the selection process during shipments.\r<br />If the location is set as the default one, the customers no longer need to specify the location for every shipment request, reducing the risk of errors and delays. It enhances consistency by ensuring that all shipments are directed to the same default location.\r<br />\r<br />***Note:** If true, then this location is set as the default one. Otherwise, it is set to false.*\r<br />\r<br /> Enum [true, false]",
+            "nullable": true,
+            "example": false
+          },
+          "Address": {
+            "$ref": "#/components/schemas/AddShippingLocationAddress"
+          }
+        },
+        "additionalProperties": false,
+        "description": "This object is used to create a new shipping location that will be linked to the shipping account that is being created."
+      },
+      "AddShippingAccountResponse": {
+        "type": "object",
+        "properties": {
+          "ShippingAccountId": {
+            "type": "string",
+            "description": "A unique identifier for the shipping account assigned by the system, allowing for efficient reference and management of individual accounts within the system.",
+            "format": "uuid"
+          },
+          "ShippingLocationId": {
+            "type": "string",
+            "description": "A unique identifier assigned to the new shipping location by the system. This ID is used to distinguish between different shipping locations within the system, facilitating, referencing and operations, such as updates, deletions, or specific queries related to that location.\r<br />\r<br />***Note:** This field is only populated if the details of a new location were provided in the request.*",
+            "format": "uuid",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false,
+        "description": "Add Shipping Account Response"
+      },
+      "AddShippingLocationAddress": {
+        "type": "object",
+        "properties": {
+          "AddressId": {
+            "maxLength": 70,
+            "type": "string",
+            "description": "A unique identifier for the address associated with the shipping location. This ID serves as a reference point, allowing users to easily access, manage, and differentiate between different addresses stored in the system.\r<br />\r<br />***Note:** This ID is stored in the system's address book. If this information is provided, then all the fields under the **Address** object are ignored and the stored address in the **Address Book** will be used.*",
+            "nullable": true,
+            "example": "John Brown Default"
+          },
+          "Line1": {
+            "maxLength": 50,
+            "type": "string",
+            "description": "The first line of the address, typically containing the primary address information such as house number and street name. <br/> <br/> ***Note:** Characters like +, /, -, or space are supported.*",
+            "nullable": true,
+            "example": "Brown Cottage"
+          },
+          "Line2": {
+            "maxLength": 50,
+            "type": "string",
+            "description": "An optional second line for the address, often used for additional details like apartment numbers or suite designations.",
+            "nullable": true,
+            "example": "10 Sky Lane"
+          },
+          "Line3": {
+            "maxLength": 50,
+            "type": "string",
+            "description": "A third optional line in the address to include any further address specifications, allowing for more detailed address information if necessary.",
+            "nullable": true,
+            "example": "Hills End"
+          },
+          "Town": {
+            "maxLength": 50,
+            "type": "string",
+            "description": "The town or city, indicating the specific locality where the shipping location is situated. <br/> <br/> ***Note:** This information is required if the address is not used from the stored addresses in the **Address Book**.*",
+            "nullable": true,
+            "example": "Christchurch"
+          },
+          "Postcode": {
+            "maxLength": 20,
+            "type": "string",
+            "description": "The postal or ZIP code corresponding to the shipping location, used for mail sorting and to identify specific geographic areas.<br/> <br/> ***Note:** This information is only required for the addresses in the UK and for some outside it. To check for the postcode requirements, refer to the **Countries** API.*",
+            "nullable": true,
+            "example": "TW20 0HJ"
+          },
+          "County": {
+            "maxLength": 50,
+            "type": "string",
+            "description": "The county, state, or province in which the shipping location resides, providing additional geographical context for the address.<br/> <br/> ***Note:** This information may be required depending on the country. If the country is USA, Australia, or Canada, then it must be a valid state code or name, respectively. To check for the county/state/province requirements, refer to the **Countries** API.*",
+            "nullable": true,
+            "example": "Surrey"
+          },
+          "CountryCode": {
+            "maxLength": 2,
+            "minLength": 2,
+            "type": "string",
+            "description": "An abbreviation representing the country of the shipping location, following the ISO 3166-1 alpha-2 standard, for example, \"GB\" for the United Kingdom.\r<br />\r<br />***Note**: This information is only required if the address is not used from the stored addresses in the  **Address Book***",
+            "nullable": true,
+            "example": "GB"
+          },
+          "What3Words": {
+            "type": "string",
+            "description": "A three-word location identifier provided by the What3words service, offering a precise way to define locations using a unique combination of three words, for example, the front door of 10 Downing Street in London is identified by slurs.this.shark.",
+            "nullable": true,
+            "example": "brick.space.employ"
+          },
+          "ContactPhone": {
+            "maxLength": 20,
+            "type": "string",
+            "description": "The contact phone number associated with the shipping location, facilitating communication regarding shipments or deliveries.\r<br />\r<br />***Note:** Characters like +, /, -, or space are supported.*",
+            "format": "tel",
+            "nullable": true,
+            "example": "07123887422"
+          }
+        },
+        "additionalProperties": false,
+        "description": "The complete address of the shipping location, consisting of multiple components including street information, locality, and so on."
+      },
+      "AmazonAccountConnectionStatus": {
+        "enum": [
+          "Success",
+          "Failed",
+          "NotConnected"
+        ],
+        "type": "string",
+        "description": "Amazon Possible Connection Statuses"
+      },
+      "AmazonAccountType": {
+        "enum": [
+          "OffAmazon",
+          "OnAmazon"
+        ],
+        "type": "string",
+        "description": "Specifies the type of Amazon account used for shipping."
+      },
+      "AmazonAddShippingAccountRequest": {
+        "required": [
+          "AccountAlias",
+          "AccountType",
+          "ContactName",
+          "ContactNumber",
+          "ShippingLocations"
+        ],
+        "type": "object",
+        "properties": {
+          "AccountType": {
+            "$ref": "#/components/schemas/AccountType"
+          },
+          "AmazonAccountType": {
+            "$ref": "#/components/schemas/AmazonAccountType"
+          },
+          "AccountName": {
+            "maxLength": 35,
+            "type": "string",
+            "description": "The official name of the shipping account as designated by the user or organisation, aiding in easy identification and reference of accounts.\r<br />\r<br />***Note:** By default, this value is set to the customer name if not provided in the request.*",
+            "nullable": true,
+            "example": "AB VideoGames"
+          },
+          "AccountAlias": {
+            "maxLength": 30,
+            "minLength": 1,
+            "type": "string",
+            "description": "A unique, user-defined name for the shipping account, providing a convenient way to reference the account in a more memorable manner.",
+            "example": "RM-99112347707"
+          },
+          "ContactName": {
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string",
+            "description": "The name of the primary contact person for the shipping account, facilitating communication regarding shipping and account-related matters.\r<br />\r<br />***Note:** If the shipper address is not provided in the Create Shipment request, this information is used as the shipper's contact name, if provided.*",
+            "example": "John Smith"
+          },
+          "ContactNumber": {
+            "maxLength": 20,
+            "minLength": 1,
+            "type": "string",
+            "description": "The phone number associated with the shipping account's primary contact person, facilitating communication regarding shipping inquiries, account management, and issue resolution.\r<br />\r<br />***Note:** If the shipper address is not provided in the Create Shipment request, this information is used as the shipper's contact phone number, if provided. Characters like +, /, -, or space are supported.*",
+            "format": "tel",
+            "example": "0123456789"
+          },
+          "ShippingLocations": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/AddShippingAccountLocation"
+            },
+            "description": "An object that allows the customer to specify the shipping location(s) that will be associated with the new shipping account. Within this object, the customer can either link the existing shipping location(s) or add a new one.\r<br />\r<br />***Note:** While adding a shipping account, make sure to provide at least one shipping location.If you are providing a new shipping location, then only one location can be added.*"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Amazon Add Shipping Account Request"
+      },
+      "AmazonEnhancementCode": {
+        "enum": [
+          "Otp",
+          "Sod"
+        ],
+        "type": "string",
+        "description": "Enhancement code of the service enhancement. Valid values are:\r<br /><list type=\"bullet\"><item><description><b>Otp</b> - a signature that provides One Time Password.</description></item><item><description><b>Sod</b> - a signature that provides Signature of Delivery.</description></item></list>"
+      },
+      "AmazonShipmentRequestCarrierSpecifics": {
+        "type": "object",
+        "properties": {
+          "DeliveryInstructions": {
+            "type": "string",
+            "description": "Delivery Instructions\r<br />Instructions to the courier, to locate the address or if the service permits such a delivery - to also advise a suitable leave safe location or neighbor to sign.",
+            "nullable": true
+          },
+          "OrderId": {
+            "type": "string",
+            "description": "Order Id\r<br />The identifier for the order generated in Amazon.",
+            "nullable": true
+          },
+          "ItemEnhancements": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string",
+              "nullable": true
+            },
+            "description": "Item Enhancements\r<br />The dictionary contains order item id and SKU code.",
+            "nullable": true
+          },
+          "Enhancements": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/AmazonEnhancementCode"
+            },
+            "description": "Any enhancements that you would like to add to the requested service.",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false,
+        "description": "Amazon-specific features that can be used when creating a TDG shipment."
+      },
+      "AmazonShipmentRequestCarrierSpecificsPackageDetailsLabelFormatCreateShipmentRequest": {
+        "required": [
+          "Destination",
+          "Packages",
+          "ShipmentInformation",
+          "Shipper"
+        ],
+        "type": "object",
+        "properties": {
+          "ShipmentInformation": {
+            "$ref": "#/components/schemas/LabelFormatShipmentInformation"
+          },
+          "Shipper": {
+            "$ref": "#/components/schemas/Shipper"
+          },
+          "Destination": {
+            "$ref": "#/components/schemas/Destination"
+          },
+          "CarrierSpecifics": {
+            "$ref": "#/components/schemas/AmazonShipmentRequestCarrierSpecifics"
+          },
+          "Packages": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/PackageDetails"
+            },
+            "description": "Used to provide information on the packages that are being sent in this shipment.  \r<br />\r<br />***Note:** You must add at least one package to the shipment.You can add a maximum of 50 packages in a single shipment.If the number of packages exceeds 50, an error will be returned, and the shipment will not be created.*"
+          },
+          "Items": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Item"
+            },
+            "description": "Used to provide information on the individual goods/products being shipped within the package. This includes vital details, such as SKU code for inventory tracking, quantity of each item, description for clarity, and shipping specifics like weight, customs classifications (HS Code), and country of origin.\r<br />\r<br />***Note:** The item information is only required for dutiable shipments.Non-Dutiable and Documents Only (DOX) shipments do not require item information. Please be advised that the item verification on a shipment is done via Hurricane services; therefore, it should be enabled.The maximum number of distinct items that will be verified in a single shipment is 15.*",
+            "nullable": true
+          },
+          "Customs": {
+            "$ref": "#/components/schemas/Customs"
+          },
+          "ReturnToSender": {
+            "$ref": "#/components/schemas/ReturnToSender"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Create Shipment Request"
+      },
+      "AmazonShippingAccount": {
+        "required": [
+          "AccountAlias",
+          "AccountName",
+          "AccountStatus",
+          "AccountType",
+          "CarrierCode",
+          "ContactName",
+          "ContactNumber",
+          "LastUpdatedBy",
+          "LastUpdatedDateUtc",
+          "ShippingAccountId"
+        ],
+        "type": "object",
+        "properties": {
+          "ShippingAccountId": {
+            "type": "string",
+            "description": "A unique identifier for each shipping account assigned by the system (ShippingAccountId), allowing for efficient reference and management of individual accounts within the system.",
+            "format": "uuid"
+          },
+          "CarrierCode": {
+            "minLength": 1,
+            "type": "string",
+            "description": "A unique identifier for the carrier associated with the shipping account. This code is typically alphanumeric and helps in identifying the specific carrier linked to the shipping account.",
+            "example": "RM"
+          },
+          "AccountNumber": {
+            "type": "string",
+            "description": "Carrier Account Number<br/>The account number generated by the system.",
+            "nullable": true,
+            "example": "0123456789"
+          },
+          "AccountType": {
+            "$ref": "#/components/schemas/AccountType"
+          },
+          "AccountName": {
+            "maxLength": 35,
+            "minLength": 1,
+            "type": "string",
+            "description": "The official name of the shipping account as designated by the user or organization, aiding in easy identification and reference of accounts.",
+            "example": "AB VideoGames"
+          },
+          "AccountAlias": {
+            "maxLength": 30,
+            "minLength": 1,
+            "type": "string",
+            "description": "A unique, user-defined name for the shipping account, providing a convenient way to reference the account in a more memorable manner.",
+            "example": "JSL"
+          },
+          "AccountStatus": {
+            "minLength": 1,
+            "type": "string",
+            "description": "The current status of the shipping account, which could denote whether it is enabled, disabled, or confirmed, helping users understand the account's usability.",
+            "example": "Enabled"
+          },
+          "ContactName": {
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string",
+            "description": "The name of the primary contact person for the shipping account, facilitating communication regarding shipping and account-related matters.",
+            "example": "John Smith"
+          },
+          "ContactNumber": {
+            "maxLength": 20,
+            "minLength": 1,
+            "type": "string",
+            "description": "The phone number associated with the shipping account's primary contact person, facilitating communication regarding shipping inquiries, account management, and issue resolution.",
+            "format": "tel",
+            "example": "0123456789"
+          },
+          "AmazonAccountConnectionStatus": {
+            "$ref": "#/components/schemas/AmazonAccountConnectionStatus"
+          },
+          "AmazonAccountType": {
+            "$ref": "#/components/schemas/AmazonAccountType"
+          },
+          "LastUpdatedBy": {
+            "minLength": 1,
+            "type": "string",
+            "description": "The identifier (such as a username or system account) of the individual or system that last modified the shipping account information, ensuring accountability.",
+            "example": "User A"
+          },
+          "LastUpdatedDateUtc": {
+            "type": "string",
+            "description": "A timestamp indicating the last time the shipping account details were updated, formatted in Coordinated Universal Time (UTC).",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Shipping Account.\r<br />An account that sends shipments. A shipping account is for a specified carrier.\r<br />You can have multiple shipping accounts.\r<br />A Shipping Account must have at least one Shipping Location."
+      },
+      "AmazonShippingAccountShippingAccountsPagedResponse": {
+        "required": [
+          "ShippingAccounts",
+          "TotalCount"
+        ],
+        "type": "object",
+        "properties": {
+          "ShippingAccounts": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/AmazonShippingAccount"
+            },
+            "description": "An array containing the shipping accounts associated with the shipping location that match the query parameters specified in the request."
+          },
+          "TotalCount": {
+            "type": "integer",
+            "description": "An integer representing the total number of shipping accounts associated with the specified shipping location, giving users a quick overview of how many accounts are linked to their operations.",
+            "format": "int32",
+            "example": 303
+          }
+        },
+        "additionalProperties": false,
+        "description": "The paged response containing the entities for the requested page only, and the total number available."
+      },
+      "AmazonUpdateShippingAccountRequest": {
+        "required": [
+          "AccountAlias",
+          "AccountName",
+          "AccountType",
+          "ContactName",
+          "ContactNumber"
+        ],
+        "type": "object",
+        "properties": {
+          "AccountType": {
+            "$ref": "#/components/schemas/AccountType"
+          },
+          "AmazonAccountType": {
+            "$ref": "#/components/schemas/AmazonAccountType"
+          },
+          "AccountName": {
+            "maxLength": 35,
+            "minLength": 1,
+            "type": "string",
+            "description": "The official name of the shipping account as designated by the user or organization, aiding in easy identification and reference of accounts.\r<br />\r<br />***Note:** By default, this value is set to the customer name if not provided in the request.*",
+            "example": "AB VideoGames"
+          },
+          "AccountAlias": {
+            "maxLength": 30,
+            "minLength": 1,
+            "type": "string",
+            "description": "A unique, user-defined name for the shipping account, providing a convenient way to reference the account in a more memorable manner.",
+            "example": "RM-99112347707"
+          },
+          "ContactName": {
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string",
+            "description": "The name of the primary contact person for the shipping account, facilitating communication regarding shipping and account-related matters.\r<br />\r<br />***Note:** If the shipper address is not provided in the Create Shipment request, this information is used as the shipper's contact name, if provided.*",
+            "example": "John Smith"
+          },
+          "ContactNumber": {
+            "maxLength": 20,
+            "minLength": 1,
+            "type": "string",
+            "description": "The phone number associated with the shipping account's primary contact person, facilitating communication regarding shipping inquiries, account management, and issue resolution.\r<br />\r<br />***Note:** If the shipper address is not provided in the Create Shipment request, this information is used as the shipper's contact phone number, if provided. Characters like +, /, -, or space are supported.*",
+            "format": "tel",
+            "example": "0123456789"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Amazon Update Shipping Account Request"
+      },
+      "BusinessTransactionType": {
+        "enum": [
+          "B2C",
+          "B2B",
+          "D2C",
+          "C2B"
+        ],
+        "type": "string",
+        "description": "Specifies the nature of the commercial transaction type associated with the shipment.\r<br />\r<br />Valid values are: \r<br /><ul><li>**B2C** - Business to Consumer</li><li>**B2B** - Business to Business</li><li>**D2C** - Direct 2 Consumer</li><li>**C2B** - Consumer to Business</li></ul>"
+      },
+      "ContentType": {
+        "enum": [
+          "NDX",
+          "DOX",
+          "HV"
+        ],
+        "type": "string",
+        "description": "Defines the type of contents being shipped. This helps the carrier manage the shipment according to its content type.\r<br />\r<br />Valid values are: <br />\r<br />**NDX** (Non Documents)\r<br />**DOX** (Documents)\r<br />**HV** (Non Documents of High Value)"
+      },
+      "CreateShipmentAction": {
+        "enum": [
+          "Process",
+          "Create",
+          "Allocate"
+        ],
+        "type": "string",
+        "description": "Indicates the operation to be performed for the shipment, determines the shipment status that is set on shipment creation and whether a shipment tracking number and labels are generated.\r<br />            \r<br />Valid values are:\r<br /><ul><li>**Process:** Creates a shipment tracking number, generates and prints a label for each package in the shipment, and returns the labels in the createShipment response. With this action, the shipment status is set to Ready to Manifest.</li><li>**Create:** Creates the shipment but does not allocate a tracking number, print the labels or return them in the createShipment response. The label(s) must be printed before the shipment is ready to manifest.</li><li>**Allocate:**  Creates the tracking number and label but does not print the labels or return them in the createShipment response. The label(s) must be printed before the shipment is ready to manifest.</li></ul>\r<br />***Note**: By default, this field is set to Process.*"
+      },
+      "Customs": {
+        "type": "object",
+        "properties": {
+          "ReasonForExport": {
+            "maxLength": 250,
+            "type": "string",
+            "description": "Identifies the purpose of the export, such as sale, gift, or return. This information is useful for customs processing to determine the appropriate tariffs and requirements.",
+            "nullable": true,
+            "example": "Sale of Goods"
+          },
+          "Incoterms": {
+            "$ref": "#/components/schemas/TermsOfTrade"
+          },
+          "PreRegistrationNumber": {
+            "maxLength": 50,
+            "type": "string",
+            "description": "A number for tax pre-registration in countries where required for compliance during DDU shipments.<br />\r<br />If applicable, this number is required for countries operating a Tax Pre-Registration scheme(for example, VOEC in Norway, GST in Australia) when shipping under DDU Incoterms.If not provided and DDU is specified, any pre-registration numbers configured in the Customs Settings GUI for the account will be used.\r<br />\r<br />***Note:** VAT and EORI numbers should be provided in the Shipper and receiver **VatNumber** and **EoriNumber** fields, not in this field.*",
+            "nullable": true,
+            "example": "0123456789"
+          },
+          "PreRegistrationType": {
+            "maxLength": 18,
+            "type": "string",
+            "description": "The type of pre-registration number provided in the PreRegistrationNumber element, specifying the registration scheme type. This field is mandatory if a PreRegistrationNumber is provided. Otherwise, it is ignored.\r<br />\r<br />***Note:** VAT and EORI numbers should be provided in the Shipper and receiver **VatNumber** and **EoriNumber** fields, not in this field.*",
+            "nullable": true,
+            "example": "GST"
+          },
+          "ShippingCharges": {
+            "maximum": 99999.99,
+            "minimum": 0,
+            "type": "number",
+            "description": "The postage amount paid by the customer for the international shipments, which can be 0.00 if free delivery is offered. This amount is used for calculating customs fees and should be in the currency specified in the **ShipmentInformation** > **Currency** field.",
+            "format": "double",
+            "nullable": true,
+            "example": 55.82
+          },
+          "OtherCharges": {
+            "maximum": 99999.99,
+            "minimum": 0,
+            "type": "number",
+            "description": "The additional costs charged to the customer beyond standard shipping, such as insurance fees. This field can be left blank or set to 0.00 if no additional charges apply. Values should be in the currency specified in the **ShipmentInformation** > **Currency** field.",
+            "format": "double",
+            "nullable": true,
+            "example": 32
+          },
+          "QuotedLandedCost": {
+            "maximum": 99999.99,
+            "minimum": 0,
+            "type": "number",
+            "description": "The total cost quoted to the customer when the shipment reaches the destination, including duties and taxes, and must be expressed in the currency specified in the **ShipmentInformation** > **Currency** field.\r<br />\r<br />***Note:** This information is required for some international destinations when the shipment incoterms are DDP.*",
+            "format": "double",
+            "nullable": true,
+            "example": 82.74
+          },
+          "InvoiceNumber": {
+            "maxLength": 35,
+            "type": "string",
+            "description": "A specific number that is associated with a shipment. This is useful for tracking, billing, and reconcilliation purposes.\r<br />\r<br />***Note:** When sending an item to an overseas address and a Commercial or Proforma invoice is available, the **InvoiceNumber** and **InvoiceDate** should be provided to support customs processing.If provided, it will be displayed on commercial invoices generated for the shipment.Please be advised that this field is required if the **InvoiceDate** is provided.*",
+            "nullable": true
+          },
+          "InvoiceDate": {
+            "type": "string",
+            "description": "The date on which the invoice was created. This information is useful for record-keeping, billing cycles, and tracking payment due dates. \r<br />\r<br />***Note:** The InvoiceDate must be in the YYYY-MM-DD format.This field is ignored if the **InvoiceNumber** is not provided. If the **InvoiceNumber** is provided without the invoice date, then the **InvoiceDate** defaults to today's date.*",
+            "format": "date",
+            "nullable": true
+          },
+          "ExportLicenceRequired": {
+            "type": "boolean",
+            "description": "A boolean flag indicating whether an export license is needed for the shipment, particularly for goods predominantly used for military purposes. If required, the export license should be affixed to the outside of the package.\r<br />\r<br />***Note:** To learn more about the types of items requiring an export license, refer to the UK Government website.*",
+            "nullable": true,
+            "example": false
+          },
+          "Airn": {
+            "maxLength": 20,
+            "type": "string",
+            "description": "The AIRN (Address Identification Reference Number) is the generic name given to a national identification number for the overseas recipient of an item. This is required by certain countries for customs clearance.\r<br />\r<br />***Note:** If the AIRN is available, then it should be provided for items being exported to countries where the customs/tax authority requests one, such as Russia and Brazil.*",
+            "nullable": true,
+            "example": "231.002.999-00"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Used to provide information for customs clearance related to the shipment. This includes, reasons for export, applicable incoterms, any pre-registration numbers and type required, shipping and other charges, as well as details about the invoice and whether an export license is needed. It ensures compliance with international shipping regulations."
+      },
+      "Destination": {
+        "required": [
+          "Address"
+        ],
+        "type": "object",
+        "properties": {
+          "EoriNumber": {
+            "maxLength": 17,
+            "type": "string",
+            "description": "The EORI (Economic Operators Registration and Identification) number for the receiver, which must start with the ISO Alpha-2 Country Code followed by up to 15 alphanumeric characters. For Northern Ireland, it starts with XI. \r<br />\r<br />***Note:** Make sure to provide this information here—not in the **Customs** object.*",
+            "nullable": true,
+            "example": "GB 123 4567 89 000"
+          },
+          "VatNumber": {
+            "maxLength": 15,
+            "type": "string",
+            "description": "The VAT (Value Added Tax) number for the receiver, which, if applicable, is used for tax compliance. \r<br />\r<br />***Note:** Make sure to provide this information here—not in the **Customs** object.*",
+            "nullable": true,
+            "example": "GB 123 4567 89"
+          },
+          "Address": {
+            "$ref": "#/components/schemas/DestinationAddress"
+          }
+        },
+        "additionalProperties": false,
+        "description": "An object providing details on the shipment destination, such as receiver and contact details."
+      },
+      "DestinationAddress": {
+        "type": "object",
+        "properties": {
+          "AddressId": {
+            "maxLength": 70,
+            "type": "string",
+            "description": "A unique identifier for the address. This information ensures that each address can be distinctly referenced and managed within the system.\r<br />\r<br />***Note:**  If this information is provided, then all the fields under the **Address** object are ignored and the stored address in the **Address Book** will be used.*",
+            "nullable": true,
+            "example": "John Brown Default"
+          },
+          "PudoId": {
+            "maxLength": 20,
+            "type": "string",
+            "description": "A unique identifier for a PUDO location. This ID is retrieved from the LocationId field of the Get PUDO Locations endpoint response and is essential for identifying the specific collection point for a Royal Mail shipment.\r<br />Note: Before providing the PudoId, keep in mind the following:\r<br />- The PudoId is only applicable for destination addresses when the shipment is being created as a collection shipment. Royal Mail does not utilise this ID for drop-off shipments.\r<br />- The destination contact name must be provided with either its contact email or phone number.\r<br />- The LocalCollect supplement code is not required - the system will automatically assign the relevant supplement codes based on the PudoId.",
+            "nullable": true
+          },
+          "ContactName": {
+            "maxLength": 50,
+            "type": "string",
+            "description": "The name of the primary contact person for the shipment at the address. <br /><br />***Note:** Either the **Contact Name** or **Company Name** must be provided.*",
+            "nullable": true,
+            "example": "Jane Doe"
+          },
+          "CompanyName": {
+            "maxLength": 50,
+            "type": "string",
+            "description": "The name of the company associated with the shipment at the address.<br /><br />***Note:** Either the **Contact Name** or **Company Name** must be provided.*",
+            "nullable": true,
+            "example": "My Company Ltd."
+          },
+          "ContactEmail": {
+            "maxLength": 254,
+            "type": "string",
+            "description": "The email address of the contact person for any communication regarding the shipment at the address.",
+            "format": "email",
+            "nullable": true,
+            "example": "jane@example.com"
+          },
+          "ContactPhone": {
+            "maxLength": 20,
+            "type": "string",
+            "description": "The contact phone number associated with the receiver, facilitating communication regarding shipments or deliveries.\r<br />\r<br />***Note:** Characters like +, /, -, or space are supported.*",
+            "nullable": true,
+            "example": "07123887422"
+          },
+          "Line1": {
+            "maxLength": 50,
+            "type": "string",
+            "description": "The first line of the address, typically containing the primary address information such as house number and street name. <br/> <br/> ***Note:** Characters like +, /, -, or space are supported.*",
+            "nullable": true,
+            "example": "Brown Cottage"
+          },
+          "Line2": {
+            "maxLength": 50,
+            "type": "string",
+            "description": "An optional second line for the address, often used for additional details like apartment numbers or suite designations.",
+            "nullable": true,
+            "example": "10 Sky Lane"
+          },
+          "Line3": {
+            "maxLength": 50,
+            "type": "string",
+            "description": "A third optional line in the address to include any further address specifications, allowing for more detailed address information if necessary.",
+            "nullable": true,
+            "example": "Hills End"
+          },
+          "Town": {
+            "maxLength": 50,
+            "type": "string",
+            "description": "The town or city, indicating the specific locality where the shipping location is situated. <br/> <br/> ***Note:** This information is required if the address is not used from the stored addresses in the **Address Book**.*",
+            "nullable": true,
+            "example": "Christchurch"
+          },
+          "Postcode": {
+            "maxLength": 20,
+            "type": "string",
+            "description": "The postal or ZIP code corresponding to the shipping location, used for mail sorting and to identify specific geographic areas.<br/> <br/> ***Note:** This information is only required for the addresses in the UK and for some outside it. To check for the postcode requirements, refer to the **Countries** API.*",
+            "nullable": true,
+            "example": "TW20 0HJ"
+          },
+          "County": {
+            "maxLength": 50,
+            "type": "string",
+            "description": "The county, state, or province in which the shipping location resides, providing additional geographical context for the address.<br/> <br/> ***Note:** This information may be required depending on the country. If the country is USA, Australia, or Canada, then it must be a valid state code or name, respectively. To check for the county/state/province requirements, refer to the **Countries** API.*",
+            "nullable": true,
+            "example": "Surrey"
+          },
+          "CountryCode": {
+            "maxLength": 2,
+            "minLength": 2,
+            "type": "string",
+            "description": "An abbreviation representing the country of the shipping location, following the ISO 3166-1 alpha-2 standard, for example, \"GB\" for the United Kingdom.\r<br />\r<br />***Note**: This information is only required if the address is not used from the stored addresses in the  **Address Book***",
+            "nullable": true,
+            "example": "GB"
+          },
+          "What3Words": {
+            "type": "string",
+            "description": "A three-word location identifier provided by the What3words service, offering a precise way to define locations using a unique combination of three words, for example, the front door of 10 Downing Street in London is identified by slurs.this.shark.",
+            "nullable": true,
+            "example": "brick.space.employ"
+          }
+        },
+        "additionalProperties": false,
+        "description": "The complete address of the receiver's location, consisting of multiple components including street information, locality, and so on."
+      },
+      "Dimensions": {
+        "required": [
+          "Height",
+          "Length",
+          "Width"
+        ],
+        "type": "object",
+        "properties": {
+          "Length": {
+            "minimum": 0.1,
+            "type": "number",
+            "description": "The length of the shipment package in the unit of measure specified in the **UnitOfMeasure** field.\r<br />\r<br />***Note:** The maximum accepted length is dependent on the service and package type.*",
+            "format": "double",
+            "example": 35
+          },
+          "Width": {
+            "minimum": 0.1,
+            "type": "number",
+            "description": "The width of the shipment package in the unit of measure specified in the UnitOfMeasure field.\r<br />\r<br />***Note:** The maximum accepted width is dependent on the service and package type.*",
+            "format": "double",
+            "example": 25
+          },
+          "Height": {
+            "minimum": 0.1,
+            "type": "number",
+            "description": "The length of the shipment package in the unit of measure specified in the **UnitOfMeasure** field.\r<br />\r<br />***Note:** The maximum accepted length is dependent on the service and package type.*",
+            "format": "double",
+            "example": 20
+          }
+        },
+        "additionalProperties": false,
+        "description": "Used to provide the maximum allowable dimensions for packages. It specifies the limits that must not be exceeded for packages to be eligible for the shipping service and package type.\r<br />\r<br />***Note:** The Dimensions object in the request is optional, but if it is provided, then all of the fields in the object (width, length, and height) must be populated.The maximum dimensions accepted are dependent on the service and the package type.*"
+      },
+      "DimensionsUnitOfMeasure": {
+        "enum": [
+          "CM",
+          "MM"
+        ],
+        "type": "string",
+        "description": "The unit of measure used for all the dimensions (length, width, height) values of the packages being shipped, allowing for measurements in millimeters and centimeters. This ensures consistency in how dimensions are handled.\r<br />\r<br />***Note:** By Default, this field is set to CM.*"
+      },
+      "DocumentFormat": {
+        "enum": [
+          "PDF",
+          "PNG",
+          "ZPL203DPI",
+          "ZPL300DPI"
+        ],
+        "type": "string",
+        "description": "Document Format\r<br />            \r<br />**PDF** Base 64 encoded PDF\r<br />**PNG** Base 64 encoded PNG\r<br />**ZPL203DPI** Base 64 encoded text for Zebra printer at 203 DPI\r<br />**ZPL300DPI** Base 64 encoded text for Zebra printer at 300 DPI\r<br />\r<br />Defaults To PDF"
+      },
+      "ErrorDetail": {
+        "type": "object",
+        "properties": {
+          "Message": {
+            "type": "string",
+            "nullable": true
+          },
+          "Cause": {
+            "type": "string",
+            "nullable": true
+          },
+          "ErrorCode": {
+            "type": "string",
+            "description": "<br /><br />**E1000** - System error<br />**E1001** - Required field<br />**E1002** - Invalid field<br />**E1003** - Invalid action<br />**E1004** - Item not found<br />",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ErrorResponse": {
+        "required": [
+          "Errors",
+          "Message"
+        ],
+        "type": "object",
+        "properties": {
+          "Message": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "Errors": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ErrorDetail"
+            }
+          }
+        },
+        "additionalProperties": false
+      },
+      "Hazmat": {
+        "required": [
+          "Class"
+        ],
+        "type": "object",
+        "properties": {
+          "UNCode": {
+            "maxLength": 4,
+            "minLength": 4,
+            "type": "string",
+            "description": "The United Nations (UN) code assigned to the hazardous material, which denotes its classification for transport. This code is critical for safety and compliance during shipping.\r<br />***Note:** This field must be populated only for domestic shipments using class 9 dangerous goods. If provided, then **Quantity** and **UnitOfMeasure** must also be specified.*",
+            "nullable": true,
+            "example": "1002"
+          },
+          "ProperShippingName": {
+            "maxLength": 100,
+            "type": "string",
+            "description": "Proper Shipping Name of the hazardous item being shipped.",
+            "nullable": true,
+            "example": "Compressed Air"
+          },
+          "Class": {
+            "maxLength": 3,
+            "minLength": 1,
+            "type": "string",
+            "description": "Mandatory if Hazmat information is provided. Used to provide the class number of the hazardous item being shipped.",
+            "example": "9"
+          },
+          "Id8000Category": {
+            "type": "string",
+            "description": "If the hazardous goods class is 9, an applicable ID8000 category is required. \r<br />If ID8000 category is provided with any hazardous goods class other than class 9, it will be ignored.\r<br />Available values are:\r<br />- Medicines\r<br />- Perfume/Aftershave\r<br />- Nail Varnish\r<br />- Toiletry or Medicinal Aerosols\r<br />\r<br />If a customer sends a Create Shipment request with the ID8000Category field populated and the Class field is populated with any value other than class 9,\r<br />the ID8000Category will be ignored and the data will not be saved on the shipment record.\r<br />If a customer sends a Create Shipment request with the ID8000Category field populated and the Class field is populated with 9,\r<br />the system will behave as it does currently (create the Product and save the ID8000 data to the product record)",
+            "nullable": true,
+            "example": "Nail Varnish"
+          },
+          "Quantity": {
+            "maximum": 5,
+            "minimum": 0.1,
+            "type": "number",
+            "description": "The quantity of the hazardous material in the specified UnitOfMeasure. This information is vital for compliance with shipping regulations pertaining to hazardous materials.\r<br />***Note:** This field is only required if **UnitOfMeasure** and **UNCode** is specified.*",
+            "format": "double",
+            "nullable": true,
+            "example": 3.5
+          },
+          "UnitOfMeasure": {
+            "$ref": "#/components/schemas/HazmatUnitOfMeasure"
+          },
+          "EmergencyActionCode": {
+            "maxLength": 4,
+            "minLength": 4,
+            "type": "string",
+            "description": "Emergency Action Code of the hazardous item.",
+            "nullable": true,
+            "example": "E012"
+          },
+          "HazchemNumber": {
+            "maxLength": 3,
+            "minLength": 3,
+            "type": "string",
+            "description": "The Hazchem Number of the item.",
+            "nullable": true
+          },
+          "SpecialistAdviceContactNumber": {
+            "maxLength": 20,
+            "type": "string",
+            "description": "The specialist advice phone number to contact if there are any issues with the hazardous item.\r<br />If not provided, when a hazardous stored product is used in create shipment request, the phone number will be set from the customer shipping account record.",
+            "nullable": true
+          },
+          "PrintId8000Label": {
+            "type": "boolean",
+            "description": "A boolean field that provides customers with the choice to generate the ID8000 label along with the shipping label. When set to true, the system returns the ID8000 labels for class 9 hazardous products contained within the shipment. By default, this field is set to false.\r<br />\r<br />***Note:** Before populating this field, keep in mind the following: \r<br /><ul><li>This field is ignored if the **Action** field is populated with values other than **Process**.</li><li>The ID8000 label is returned in the PDF format only.*</li></ul>",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false,
+        "description": "Hazmat Information"
+      },
+      "HazmatUnitOfMeasure": {
+        "enum": [
+          "NONE",
+          "L",
+          "KG"
+        ],
+        "type": "string",
+        "description": "The unit of measurement for the quantity of hazardous material, for example, litres (for liquids) or kilograms (for solids). This provides clarity regarding the amount of hazardous goods present.\r<br />***Note:** This field is only required if **Quantity** and **UNCode** is specified.*"
+      },
+      "Item": {
+        "required": [
+          "Quantity"
+        ],
+        "type": "object",
+        "properties": {
+          "SkuCode": {
+            "maxLength": 30,
+            "type": "string",
+            "description": "A unique Stock Keeping Unit (SKU) code assigned to the item. This code is used for tracking inventory, helping users identify specific items easily.",
+            "nullable": true,
+            "example": "C604-25-035"
+          },
+          "PackageOccurrence": {
+            "maximum": 99,
+            "minimum": 1,
+            "type": "integer",
+            "description": "A unique identifier for each package within the shipment that is used to assign items to a specific package. \r<br />\r<br />***Note:** The package occurence provided here must exist on one of the packages in the **Packages** object. If multiple packages exist and a consignment service is not used, this field is mandatory to ensure each package occurrence is distinct.*",
+            "format": "int32",
+            "nullable": true,
+            "example": 1
+          },
+          "Quantity": {
+            "maximum": 2147483647,
+            "minimum": 1,
+            "type": "integer",
+            "description": "The quantity of this item in the package being shipped.",
+            "format": "int32",
+            "example": 1
+          },
+          "Description": {
+            "maxLength": 255,
+            "type": "string",
+            "description": "A brief summary providing details about the specifc item being shipped, outlining its type, features, uses, and any pertinent information that helps users understand the item, such as 'skirt' instead of 'ladies clothing.'\r<br />\r<br />***Note:** This information is mandatory for dutiable shipments unless a SKU Code of a stored product is provided.If a SKU Code of a stored product is present and this field is left blank, it will be automatically populated from the stored product; if both are provided, the input in this field takes precedence.*",
+            "nullable": true,
+            "example": "White Tee-shirt"
+          },
+          "Value": {
+            "maximum": 9999999.99,
+            "minimum": 0,
+            "type": "number",
+            "description": "The monetary value of a single instance of the item, in the currency specified in the **CurrencyCode** field.\r<br />\r<br />***Note:** This information is mandatory for dutiable shipments unless a SKU Code of a stored product is provided.If a SKU Code of a stored product is present and this field is left blank, it will be automatically populated from the stored product; if both are provided, the input in this field takes precedence.*",
+            "format": "double",
+            "nullable": true,
+            "example": 98.99
+          },
+          "Weight": {
+            "maximum": 1000000,
+            "minimum": 0,
+            "type": "number",
+            "description": "The weight of a single instance of the item, in the unit of measure specified in the **WeightUnitOfMeasure** field. This is required for dutiable shipments unless a SKU Code from the stored product is used. If the SKU Code is available and the weight is left blank, it will be populated from the stored product; otherwise, the provided weight will be used.\r<br />\r<br />***Note:** The maximum allowed weight is 1000 KG.For non-dutiable shipments, a weight of 0 is accepted.For dutiable shipments, an item weight of 1 gram or greater must be provided.*",
+            "format": "double",
+            "nullable": true,
+            "example": 145
+          },
+          "ImageURL": {
+            "maxLength": 1000,
+            "type": "string",
+            "description": "This field provides the URL of the product image with the shipment details. This helps customers visually identify the product when selecting items for return in the Returns system.",
+            "format": "uri",
+            "nullable": true,
+            "example": "https://yourcompany.com/images/product.jpg"
+          },
+          "HSCode": {
+            "type": "string",
+            "description": "The Harmonized System (HS) code used by customs to determine potential duties and taxes for the product. This code ranges from 6 to 13 alphanumeric characters, depending on specific services or destinations. Some countries may also use the HS codes of other character lengths.\r<br />\r<br />***Note:** Characters like space and dot are supported.*\r<br />\r<br />For more information on HS Codes and to find the correct HS Codes for your items, refer to the following link:  https://www.gov.uk/trade-tariff",
+            "nullable": true,
+            "example": "6109100010"
+          },
+          "CountryOfOrigin": {
+            "maxLength": 2,
+            "minLength": 2,
+            "type": "string",
+            "description": "An abbreviation representing the country where the item was manufactured or produced, following the ISO 3166-1 alpha-2 standard, for example,  \"GB\" for the United Kingdom. This information is important for customs declarations and compliance with import/export regulations.\r<br />\r<br />***Note:** Depending on the carrier and destination country, this information may be required for dutiable shipments.*",
+            "nullable": true,
+            "example": "GB"
+          },
+          "SupplementaryUnits": {
+            "maximum": 10000000000000000,
+            "minimum": 0.000001,
+            "pattern": "^\\d+(\\.\\d{1,6})?$",
+            "type": "number",
+            "description": "This field specifies any additional unit of measurements that supplement the primary unit of measurements for the item being shipped.\r<br />For example: The HS code for PVC Black Flooring Roll 2.5mm is 391890. HMRC/Tariff determines that you provide a supplementary unit in square metres (MTK) with HS code 391890.\r<br />\r<br />*Note: For B2B shipments to Northern Ireland, this field is optional if the HMRC/Tariff determines that the Tariff/Harmonisation Code provided requires a supplementary unit.*\r<br />*You can enter values to a maximum of 6 decimal places.*",
+            "format": "double",
+            "nullable": true,
+            "example": 12.2
+          }
+        },
+        "additionalProperties": false,
+        "description": "Used to provide details of the items sent in the shipment package(s). \r<br />Item information is optional for domestic and non-dutiable shipments, but required for dutiable shipments. \r<br />If item information is provided, this element must be repeated for each unique item in the shipment."
+      },
+      "LabelFormat": {
+        "enum": [
+          "PDF",
+          "PNG"
+        ],
+        "type": "string",
+        "description": "Sets the label format that will be returned in the createShipment Response.\r<br />Valid values are:\r<br />**PDF** - returns a Base64-encoded PDF\r<br />**PNG** - returns a Base64-encoded PNG\r<br />Defaults to PDF if not populated."
+      },
+      "LabelFormatPackageResponseDetailsCreateShipmentResponse": {
+        "type": "object",
+        "properties": {
+          "ConsignmentShipmentId": {
+            "type": "string",
+            "description": "A unique identifier assigned to the shipment by the carrier. This ID is useful for tracking and managing the shipment throughout its transit journey and can be used in future queries or to reference the specific shipment.\r<br />\r<br />***Note:** This field is only populated if a consignment service was used in the request.*",
+            "format": "uuid",
+            "nullable": true,
+            "example": "c4e60776-288f-464e-b35b-ff0f3252c0f0"
+          },
+          "ConsignmentTrackingNumber": {
+            "type": "string",
+            "description": "A unique identifier assigned to the entire consignment shipment by the carrier. This number allows shippers and recipients to track the status and location of the entire shipment throughout its transit. It is useful for monitoring progress, ensuring timely delivery, and addressing any issues that may arise during transportation.\r<br />\r<br />***Note:** This field is only populated if the service is a consignment service.*",
+            "nullable": true,
+            "example": "DF12384739GB"
+          },
+          "ConsignmentCarrierTrackingUrl": {
+            "type": "string",
+            "description": "A URL link provided by the carrier that allows the shipper and recipients to access real-time tracking information about the consignment shipment. This link directs users to the carrier's website where they can view detailed status updates and current location of the shipment.\r<br />\r<br />***Note:** This field is only populated if this feature is available and the service is a consignment service.*",
+            "format": "uri",
+            "nullable": true,
+            "example": "http://shipmentcarrier.com/tracking/DF12384739GB"
+          },
+          "Labels": {
+            "type": "string",
+            "description": "<br>Returns the generated shipping labels for the shipment. This field is populated only if the requested action was \"Process.\" The labels include the necessary barcodes and shipping information  required for effective transit and delivery of the packages.<br/><br/>***Note:** This field has the following reservations:* <br/><ul><li>This field returns the labels only if the **ReturnLabelsAtPackageLevel** field is set to false.</li></ul>",
+            "nullable": true
+          },
+          "LabelFormat": {
+            "$ref": "#/components/schemas/LabelFormat"
+          },
+          "Packages": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/PackageResponseDetails"
+            },
+            "description": "An array that details information about each package included in the shipment. This includes essential data, such as package occurrence and tracking information. Each package is clearly documented to facilitate tracking and handling.",
+            "nullable": true
+          },
+          "Documents": {
+            "type": "string",
+            "description": "This object is only returned if the shipment is dutiable and the requested action was \"Process.\"  This object includes any requisite documentation necessary for customs clearance and compliance, ensuring that all regulatory requirements are met for international shipments.",
+            "nullable": true,
+            "example": "iVBORw0KGgoAAAANSUhEUgAA ... A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4"
+          },
+          "DocumentFormat": {
+            "$ref": "#/components/schemas/DocumentFormat"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Create Shipment Response"
+      },
+      "LabelFormatPrintLabelResponse": {
+        "required": [
+          "LabelFormat",
+          "ShipmentId"
+        ],
+        "type": "object",
+        "properties": {
+          "ShipmentId": {
+            "type": "string",
+            "description": "A unique identifier assigned to the shipment by the carrier for which the label is requested. This reaffirms the specific shipment being referenced.",
+            "format": "uuid",
+            "example": "c4e60776-288f-464e-b35b-ff0f3252c0f0"
+          },
+          "TrackingNumber": {
+            "type": "string",
+            "description": "A unique number assigned to the shipment that allows both the sender and the receiver to track the shipment's status and location throughout its transit. This number is essential for monitoring the delivery progress.",
+            "nullable": true,
+            "example": "TT12384739GB"
+          },
+          "CarrierTrackingUrl": {
+            "type": "string",
+            "description": "A URL link provided by the carrier that directs users to a webpage where they can track the shipment in real-time. This link provides detailed status updates and visibility into the shipment's journey.",
+            "format": "uri",
+            "nullable": true,
+            "example": "http://shipmentcarrier.com/tracking/DF12384739GB"
+          },
+          "Label": {
+            "type": "string",
+            "description": "The generated base64-encoded string of the shipping label in the format requested in the **LabelFormat** field. This label includes essential shipping information, barcodes, and addresses, necessary for the proper handling and delivery of the shipment.",
+            "nullable": true,
+            "example": "iVBORw0KGgoAAAANSUhEUgAA ... A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4"
+          },
+          "LabelFormat": {
+            "$ref": "#/components/schemas/LabelFormat"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Print Label Response"
+      },
+      "LabelFormatShipmentInformation": {
+        "required": [
+          "ContentType",
+          "DescriptionOfGoods",
+          "ServiceCode"
+        ],
+        "type": "object",
+        "properties": {
+          "Action": {
+            "$ref": "#/components/schemas/CreateShipmentAction"
+          },
+          "LabelFormat": {
+            "$ref": "#/components/schemas/LabelFormat"
+          },
+          "ReturnLabelsAtPackageLevel": {
+            "type": "boolean",
+            "description": "A boolean field that provides customers with the choice to generate labels at the package level instead of the shipment level. When set to true, the system returns labels for each individual package contained within the shipment.\r<br />This field is currently only supported for Royal Mail shipments.\r<br />\r<br />***Note**: This field is ignored if the **Action** field is populated with values other than **Process**. By default, this field is set to false.*",
+            "default": false
+          },
+          "ContentType": {
+            "$ref": "#/components/schemas/ContentType"
+          },
+          "ServiceCode": {
+            "maxLength": 10,
+            "minLength": 1,
+            "type": "string",
+            "description": "A valid unique code identifying the service selected for the shipment's delivery, which determines pricing, delivery speed, and other service attributes.",
+            "example": "CRL1"
+          },
+          "DescriptionOfGoods": {
+            "maxLength": 70,
+            "minLength": 1,
+            "type": "string",
+            "description": "A general description of the items being shipped, which may include details such as type, quantity, and specifications. This field provides clarity about the contents for customs and handling purposes.",
+            "example": "Clothing"
+          },
+          "BusinessTransactionType": {
+            "$ref": "#/components/schemas/BusinessTransactionType"
+          },
+          "ShipmentDate": {
+            "type": "string",
+            "description": "The scheduled date for the shipment to be shipped, which cannot be in the past and must not exceed 28 days into the future. If omitted, it defaults to the current date.",
+            "format": "date",
+            "nullable": true
+          },
+          "DeclaredValue": {
+            "maximum": 9999999.99,
+            "minimum": 0,
+            "type": "number",
+            "description": "The declared monetary value assigned to the shipment in the specified currency. If provided, it must equal or exceed the sum of all item values. If not provided, it defaults to the sum of all item values.",
+            "format": "double",
+            "nullable": true,
+            "example": 98.99
+          },
+          "DeclaredWeight": {
+            "minimum": 0.001,
+            "type": "number",
+            "description": "The total weight of the shipment in the unit of measure specified in the **WeightUnitOfMeasure** field. This weight should meet or exceed the weight of all packages or items and is required for consignment services. The minimum allowed weight is 0.001 Kg and the maximum is dependent on the carrier, service, and destination.\r<br />\r<br />***Note:** For all Non-Consignment Services, use the declared weight at the package level instead.*",
+            "format": "double",
+            "nullable": true,
+            "example": 1.5
+          },
+          "CurrencyCode": {
+            "maxLength": 3,
+            "minLength": 3,
+            "type": "string",
+            "description": "The three-letter ISO code indicating the currency in which any monetary value is specified (for example, USD, EUR). This ensures clarity for payment and invoicing purposes.",
+            "nullable": true,
+            "example": "GBP"
+          },
+          "WeightUnitOfMeasure": {
+            "$ref": "#/components/schemas/WeightUnitOfMeasure"
+          },
+          "DimensionsUnitOfMeasure": {
+            "$ref": "#/components/schemas/DimensionsUnitOfMeasure"
+          },
+          "ContainerId": {
+            "type": "string",
+            "description": "A unique identifier assigned by the system to the container in a shipment, so that the shipment can be added to the existing container when the shipment is created.\r<br />\r<br />If a valid **ContainerId** is specified, the shipments in the request will be automatically allocated to that container upon creation.If the **ContainerId** is provided, then the **Process** action is required.<br /> \r<br />***Note:** The container must already exist for the same Carrier and Shipping Location as the shipment.*",
+            "nullable": true,
+            "example": "South East"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Used to provide shipment-level information such as service code, content type, general goods description, total shipment weight and value etc."
+      },
+      "OrderDirection": {
+        "enum": [
+          "Ascending",
+          "Descending"
+        ],
+        "type": "string",
+        "description": "Order Direction"
+      },
+      "PackageDetails": {
+        "type": "object",
+        "properties": {
+          "PackageOccurrence": {
+            "maximum": 99,
+            "minimum": 1,
+            "type": "integer",
+            "description": "A unique identifier for each package within the shipment that is used to match a returned package ID to this package. This field can also be used to assign items to a specific package. \r<br />\r<br /> ***Note:** If multiple packages exist and a consignment service is not used, this field is mandatory to ensure each package occurrence is distinct.*",
+            "format": "int32",
+            "nullable": true,
+            "example": 1
+          },
+          "DeclaredWeight": {
+            "minimum": 0.001,
+            "type": "number",
+            "description": "The total weight of the package being declared in the unit of measure specified in the WeightUnitOfMeasure field. \r<br />\r<br />***Note:** The minimum allowed weight is 0.001 kg and the maximum weight is dependent on the carrier, service and destination.This field is mandatory for shipments using non-consignment services.*",
+            "format": "double",
+            "nullable": true,
+            "example": 1.5
+          },
+          "DeclaredValue": {
+            "maximum": 9999999.99,
+            "minimum": 0.01,
+            "type": "number",
+            "description": "The declared monetary value of the package specified in the **CurrencyCode** field.\r<br />\r<br />***Note:** If provided, then the declared value must meet or exceed the sum of all item values assigned to this package.Otherwise, it defaults to this sum.This value can be used for non-consignment services, though it is not mandatory.*",
+            "format": "double",
+            "nullable": true,
+            "example": 98.99
+          },
+          "Dimensions": {
+            "$ref": "#/components/schemas/Dimensions"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Shipment Package\r<br />Each shipment must have at least one package."
+      },
+      "PackageResponseDetails": {
+        "type": "object",
+        "properties": {
+          "ShipmentId": {
+            "type": "string",
+            "description": "A unique identifier associated with the specific shipment containing the package. This ID is crucial for linking the package to its overall shipment, aiding in organisation and tracking.\r<br />\r<br />***Note:** This field is only populated if the service is a non-consignment service.*",
+            "format": "uuid",
+            "nullable": true,
+            "example": "c4e60776-288f-464e-b35b-ff0f3252c0f0"
+          },
+          "PackageOccurrence": {
+            "type": "integer",
+            "description": "Identifies the sequential number or occurrence of the package provided in the request for the shipment. It allows for easy differentiation of multiple packages and helps manage inventory or logistics operations related to the shipment.",
+            "format": "int32"
+          },
+          "TrackingNumber": {
+            "type": "string",
+            "description": "The specific tracking number assigned to the package occurrence by the carrier. This number can be used to track the package's status and location during its transit.",
+            "nullable": true,
+            "example": "TT123456789GB"
+          },
+          "CarrierTrackingUrl": {
+            "type": "string",
+            "description": "A unique URL provided for each package that allows shippers and recipients to track the specific package directly on the carrier's website. This link leads to a dedicated tracking page where detailed updates can be accessed.\r<br />\r<br />***Note:** This field is only populated, if this feature is available.*",
+            "format": "uri",
+            "nullable": true
+          },
+          "Label": {
+            "type": "string",
+            "description": "This field provides the Base64-encoded label for each package in the shipment only if the **ReturnLabelsAtPackageLevel** field is set to True. If **ReturnLabelsAtPackageLevel** is not specified, or is set to False, then this field will not be returned, and instead, the main body of the Create Shipment response will include the label data.",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false,
+        "description": "Package Response On Create Details"
+      },
+      "ReturnToSender": {
+        "type": "object",
+        "properties": {
+          "Address": {
+            "$ref": "#/components/schemas/ReturnToSenderAddress"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Used to provide the address details to be used when returning the shipment back to the sender."
+      },
+      "ReturnToSenderAddress": {
+        "type": "object",
+        "properties": {
+          "AddressId": {
+            "maxLength": 70,
+            "type": "string",
+            "description": "A unique identifier for the address. This information ensures that each address can be distinctly referenced and managed within the system.\r<br />\r<br />***Note:**  If this information is provided, then all the fields under the **Address** object are ignored and the stored address in the **Address Book** will be used.*",
+            "nullable": true,
+            "example": "John Brown Default"
+          },
+          "PudoId": {
+            "maxLength": 20,
+            "type": "string",
+            "description": "A unique identifier for a PUDO location. This ID is retrieved from the LocationId field of the Get PUDO Locations endpoint response and is essential for identifying the specific collection point for a Royal Mail shipment.\r<br />Note: Before providing the PudoId, keep in mind the following:\r<br />- The PudoId is only applicable for destination addresses when the shipment is being created as a collection shipment. Royal Mail does not utilise this ID for drop-off shipments.\r<br />- The destination contact name must be provided with either its contact email or phone number.\r<br />- The LocalCollect supplement code is not required - the system will automatically assign the relevant supplement codes based on the PudoId.",
+            "nullable": true
+          },
+          "ContactName": {
+            "maxLength": 50,
+            "type": "string",
+            "description": "The name of the primary contact person for the shipment at the address. <br /><br />***Note:** Either the **Contact Name** or **Company Name** must be provided.*",
+            "nullable": true,
+            "example": "Jane Doe"
+          },
+          "CompanyName": {
+            "maxLength": 50,
+            "type": "string",
+            "description": "The name of the company associated with the shipment at the address.<br /><br />***Note:** Either the **Contact Name** or **Company Name** must be provided.*",
+            "nullable": true,
+            "example": "My Company Ltd."
+          },
+          "ContactEmail": {
+            "maxLength": 254,
+            "type": "string",
+            "description": "The email address of the contact person for any communication regarding the shipment at the address.",
+            "format": "email",
+            "nullable": true,
+            "example": "jane@example.com"
+          },
+          "ContactPhone": {
+            "maxLength": 20,
+            "type": "string",
+            "description": "The contact phone number associated with the return to sender address, facilitating communication regarding shipments or deliveries.\r<br />\r<br />***Note:** Characters like +, /, -, or space are supported.*",
+            "nullable": true,
+            "example": "07123887422"
+          },
+          "Line1": {
+            "maxLength": 50,
+            "type": "string",
+            "description": "The first line of the address, typically containing the primary address information such as house number and street name. <br/> <br/> ***Note:** Characters like +, /, -, or space are supported.*",
+            "nullable": true,
+            "example": "Brown Cottage"
+          },
+          "Line2": {
+            "maxLength": 50,
+            "type": "string",
+            "description": "An optional second line for the address, often used for additional details like apartment numbers or suite designations.",
+            "nullable": true,
+            "example": "10 Sky Lane"
+          },
+          "Line3": {
+            "maxLength": 50,
+            "type": "string",
+            "description": "A third optional line in the address to include any further address specifications, allowing for more detailed address information if necessary.",
+            "nullable": true,
+            "example": "Hills End"
+          },
+          "Town": {
+            "maxLength": 50,
+            "type": "string",
+            "description": "The town or city, indicating the specific locality where the shipping location is situated. <br/> <br/> ***Note:** This information is required if the address is not used from the stored addresses in the **Address Book**.*",
+            "nullable": true,
+            "example": "Christchurch"
+          },
+          "Postcode": {
+            "maxLength": 20,
+            "type": "string",
+            "description": "The postal or ZIP code corresponding to the shipping location, used for mail sorting and to identify specific geographic areas.<br/> <br/> ***Note:** This information is only required for the addresses in the UK and for some outside it. To check for the postcode requirements, refer to the **Countries** API.*",
+            "nullable": true,
+            "example": "TW20 0HJ"
+          },
+          "County": {
+            "maxLength": 50,
+            "type": "string",
+            "description": "The county, state, or province in which the shipping location resides, providing additional geographical context for the address.<br/> <br/> ***Note:** This information may be required depending on the country. If the country is USA, Australia, or Canada, then it must be a valid state code or name, respectively. To check for the county/state/province requirements, refer to the **Countries** API.*",
+            "nullable": true,
+            "example": "Surrey"
+          },
+          "CountryCode": {
+            "maxLength": 2,
+            "minLength": 2,
+            "type": "string",
+            "description": "An abbreviation representing the country of the shipping location, following the ISO 3166-1 alpha-2 standard, for example, \"GB\" for the United Kingdom.\r<br />\r<br />***Note**: This information is only required if the address is not used from the stored addresses in the  **Address Book***",
+            "nullable": true,
+            "example": "GB"
+          },
+          "What3Words": {
+            "type": "string",
+            "description": "A three-word location identifier provided by the What3words service, offering a precise way to define locations using a unique combination of three words, for example, the front door of 10 Downing Street in London is identified by slurs.this.shark.",
+            "nullable": true,
+            "example": "brick.space.employ"
+          }
+        },
+        "additionalProperties": false,
+        "description": "The complete address of the return to sender location, consisting of multiple components including street information, locality, and so on."
+      },
+      "Shipper": {
+        "required": [
+          "ShippingAccountId"
+        ],
+        "type": "object",
+        "properties": {
+          "ShippingAccountId": {
+            "maxLength": 36,
+            "minLength": 1,
+            "type": "string",
+            "description": "A unique identifier assigned by the system (shippingAccountId) or by you (alias) to the shipping account for which the shipment is being created.",
+            "example": "453"
+          },
+          "ShippingLocationId": {
+            "maxLength": 100,
+            "type": "string",
+            "description": "A unique identifier assigned by the system (shippingLocationId) or by you (alias) to the shipping location for which the shipment is being created.\r<br />\r<br />***Note:** This field is mandatory if more than one shipping location is available for the shipping account.*",
+            "nullable": true,
+            "example": "938"
+          },
+          "Reference1": {
+            "maxLength": 30,
+            "type": "string",
+            "description": "The shipper's reference for this shipment. This is usually the shipper's order number that is provided to the receiver when the order was made.\r<br />\r<br />***Note:** This information may be required based on the customer account settings in the GUI.*",
+            "nullable": true,
+            "example": "REF-12345-GB"
+          },
+          "Reference2": {
+            "maxLength": 30,
+            "type": "string",
+            "description": "An optional field that allows for additional identifying information that assists in shipment tracking and referencing.",
+            "nullable": true,
+            "example": "EXTERNALREF-12345-GB"
+          },
+          "DepartmentNumber": {
+            "maxLength": 10,
+            "type": "string",
+            "description": "An optional field where the shipper can specify the department number associated with the shipment.",
+            "nullable": true,
+            "example": "0123456789"
+          },
+          "EoriNumber": {
+            "maxLength": 17,
+            "type": "string",
+            "description": "The EORI (Economic Operators Registration and Identification) number for the shipper, which must start with the ISO Alpha-2 Country Code followed by up to 15 alphanumeric characters. For Northern Ireland, it starts with XI. \r<br />\r<br />***Note:** Make sure to provide this information here—not in the Customs object. This field is mandatory for B2B shipments from Great Britain to Northern Ireland.*",
+            "nullable": true,
+            "example": "GB 123 4567 89 000"
+          },
+          "VatNumber": {
+            "maxLength": 15,
+            "type": "string",
+            "description": "The VAT (Value Added Tax) number for the shipper, which is required for business transactions, helping to ensure compliance with tax regulations.\r<br />\r<br />***Note:** Make sure to provide this information here—not in the Customs object.*",
+            "nullable": true,
+            "example": "GB 123 4567 89"
+          },
+          "Address": {
+            "$ref": "#/components/schemas/ShipperAddress"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Used to provide shipper details such as address, contact details, VAT and EORI number etc."
+      },
+      "ShipperAddress": {
+        "type": "object",
+        "properties": {
+          "AddressId": {
+            "maxLength": 70,
+            "type": "string",
+            "description": "A unique identifier for the address. This information ensures that each address can be distinctly referenced and managed within the system.\r<br />\r<br />***Note:**  If this information is provided, then all the fields under the **Address** object are ignored and the stored address in the **Address Book** will be used.*",
+            "nullable": true,
+            "example": "John Brown Default"
+          },
+          "PudoId": {
+            "maxLength": 20,
+            "type": "string",
+            "description": "A unique identifier for a PUDO location. This ID is retrieved from the LocationId field of the Get PUDO Locations endpoint response and is essential for identifying the specific collection point for a Royal Mail shipment.\r<br />Note: Before providing the PudoId, keep in mind the following:\r<br />- The PudoId is only applicable for destination addresses when the shipment is being created as a collection shipment. Royal Mail does not utilise this ID for drop-off shipments.\r<br />- The destination contact name must be provided with either its contact email or phone number.\r<br />- The LocalCollect supplement code is not required - the system will automatically assign the relevant supplement codes based on the PudoId.",
+            "nullable": true
+          },
+          "ContactName": {
+            "maxLength": 50,
+            "type": "string",
+            "description": "The name of the primary contact person for the shipment at the address. <br /><br />***Note:** Either the **Contact Name** or **Company Name** must be provided.*",
+            "nullable": true,
+            "example": "Jane Doe"
+          },
+          "CompanyName": {
+            "maxLength": 50,
+            "type": "string",
+            "description": "The name of the company associated with the shipment at the address.<br /><br />***Note:** Either the **Contact Name** or **Company Name** must be provided.*",
+            "nullable": true,
+            "example": "My Company Ltd."
+          },
+          "ContactEmail": {
+            "maxLength": 254,
+            "type": "string",
+            "description": "The email address of the contact person for any communication regarding the shipment at the address.",
+            "format": "email",
+            "nullable": true,
+            "example": "jane@example.com"
+          },
+          "ContactPhone": {
+            "maxLength": 20,
+            "type": "string",
+            "description": "The contact phone number associated with the shipping location, facilitating communication regarding shipments or deliveries.\r<br />\r<br />***Note:** Characters like +, /, -, or space are supported.*",
+            "nullable": true,
+            "example": "07123887422"
+          },
+          "Line1": {
+            "maxLength": 50,
+            "type": "string",
+            "description": "The first line of the address, typically containing the primary address information such as house number and street name. <br /><br />***Note:** This information is required if the address is not used from the stored addresses in the **Address Book**.*",
+            "nullable": true,
+            "example": "Brown Cottage"
+          },
+          "Line2": {
+            "maxLength": 50,
+            "type": "string",
+            "description": "An optional second line for the address, often used for additional details like apartment numbers or suite designations.",
+            "nullable": true,
+            "example": "10 Sky Lane"
+          },
+          "Line3": {
+            "maxLength": 50,
+            "type": "string",
+            "description": "A third optional line in the address to include any further address specifications, allowing for more detailed address information if necessary.",
+            "nullable": true,
+            "example": "Hills End"
+          },
+          "Town": {
+            "maxLength": 50,
+            "type": "string",
+            "description": "The town or city, indicating the specific locality where the shipping location is situated. <br /><br />***Note:** This information is required if the address is not used from the stored addresses in the **Address Book**.*",
+            "nullable": true,
+            "example": "Christchurch"
+          },
+          "Postcode": {
+            "maxLength": 20,
+            "type": "string",
+            "description": "The postal or ZIP code corresponding to the shipping location, used for mail sorting and to identify specific geographic areas. <br /><br />***Note:** This information is required for the addresses in the UK and a for some outside it. To check for the postcode requirements, refer to the **Countries** API.*",
+            "nullable": true,
+            "example": "TW20 0HJ"
+          },
+          "County": {
+            "maxLength": 50,
+            "type": "string",
+            "description": "The county, state, or province in which the shipping location resides, providing additional geographical context for the address.<br /> <br />***Note:** This information may be required depending on the country. If the country is USA, Australia, or Canada, then it must be a valid state code or name, respectively. To check for the county/state/province requirements, refer to the **Countries** API.*",
+            "nullable": true,
+            "example": "Surrey"
+          },
+          "CountryCode": {
+            "maxLength": 2,
+            "minLength": 2,
+            "type": "string",
+            "description": "An abbreviation representing the country of the shipping location, typically following the ISO 3166-1 alpha-2 standard, for example,  \"GB\" for the United Kingdom.\r<br />\r<br />***Note:** This information is required if the address is not used from the stored addresses in the **Address Book**.*",
+            "nullable": true,
+            "example": "GB"
+          },
+          "What3Words": {
+            "type": "string",
+            "description": "A three-word location identifier provided by the What3words service, offering a precise way to define locations using a unique combination of three words, for example, the front door of 10 Downing Street in London is identified by slurs.this.shark.",
+            "nullable": true,
+            "example": "brick.space.employ"
+          }
+        },
+        "additionalProperties": false,
+        "description": "The complete address of the shipper's location, consisting of multiple components including street information, locality, and so on."
+      },
+      "ShippingAccountsSortBy": {
+        "enum": [
+          "Name",
+          "Alias",
+          "LastModified",
+          "CarrierAccountNumber"
+        ],
+        "type": "string",
+        "description": "Sort By"
+      },
+      "ShippingLocation": {
+        "required": [
+          "Address",
+          "IsDefaultLocation",
+          "LastUpdatedBy",
+          "LastUpdatedDateUtc",
+          "LocationAlias",
+          "ShippingLocationId",
+          "Timezone"
+        ],
+        "type": "object",
+        "properties": {
+          "ShippingLocationId": {
+            "type": "string",
+            "description": "A unique identifier for the shipping location assigned by the system (shippingLocationId), allowing users to reference and manage specific locations effectively.",
+            "format": "uuid"
+          },
+          "LocationAlias": {
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string",
+            "description": "A unique user-defined identifier for the shipping location, providing a convenient way to identify it, for example,  Home or Warehouse.",
+            "example": "Main Warehouse"
+          },
+          "IsDefaultLocation": {
+            "type": "boolean",
+            "description": "A boolean value indicating whether the shipping location is set as the default for shipping operations, streamlining the selection process during shipping.\r<br />\r<br />***Note:** If true, then this location is set as the default one. Otherwise, it is set to false.*\r<br />            \r<br />Enum [True, False]",
+            "example": false
+          },
+          "Timezone": {
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string",
+            "description": "The timezone in which the shipping location is located, important for scheduling and logistical considerations.",
+            "example": "Europe/London"
+          },
+          "LastUpdatedDateUtc": {
+            "type": "string",
+            "description": "A timestamp indicating the last time the shipping location details were updated, formatted in Coordinated Universal Time (UTC).",
+            "format": "date-time",
+            "example": "2022-02-06T16:13:24.010Z"
+          },
+          "LastUpdatedBy": {
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string",
+            "description": "The identifier (such as a username or system account) of the individual or system that last modified the shipping location information, ensuring accountability.",
+            "example": "User A"
+          },
+          "Address": {
+            "$ref": "#/components/schemas/ShippingLocationAddress"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Shipping Location\r<br />A location where the shipping account sends shipments from.\r<br />Every Shipping Account must have at least one Shipping Location.\r<br />A shipping account can have many shipping locations.\r<br />A shipping location can have many shipping accounts.\r<br />Each shipment created must be from an existing shipping location."
+      },
+      "ShippingLocationAddress": {
+        "type": "object",
+        "properties": {
+          "Line1": {
+            "maxLength": 50,
+            "type": "string",
+            "description": "The first line of the address, typically containing the primary address information such as house number and street name. <br/> <br/> ***Note:** Characters like +, /, -, or space are supported.*",
+            "nullable": true,
+            "example": "Brown Cottage"
+          },
+          "Line2": {
+            "maxLength": 50,
+            "type": "string",
+            "description": "An optional second line for the address, often used for additional details like apartment numbers or suite designations.",
+            "nullable": true,
+            "example": "Brown Cottage"
+          },
+          "Line3": {
+            "maxLength": 50,
+            "type": "string",
+            "description": "A third optional line in the address to include any further address specifications, allowing for more detailed address information if necessary.",
+            "nullable": true
+          },
+          "Town": {
+            "maxLength": 50,
+            "type": "string",
+            "description": "The town or city, indicating the specific locality where the shipping location is situated. <br/> <br/> ***Note:** This information is required if the address is not used from the stored addresses in the **Address Book**.*",
+            "nullable": true,
+            "example": "Christchurch"
+          },
+          "Postcode": {
+            "maxLength": 20,
+            "type": "string",
+            "description": "The postal or ZIP code corresponding to the shipping location, used for mail sorting and to identify specific geographic areas.<br/> <br/> ***Note:** This information is only required for the addresses in the UK and for some outside it. To check for the postcode requirements, refer to the **Countries** API.*",
+            "nullable": true,
+            "example": "TW20 0HJ"
+          },
+          "County": {
+            "maxLength": 50,
+            "type": "string",
+            "description": "The county, state, or province in which the shipping location resides, providing additional geographical context for the address.",
+            "nullable": true,
+            "example": "Surrey"
+          },
+          "CountryCode": {
+            "maxLength": 2,
+            "minLength": 2,
+            "type": "string",
+            "description": "An abbreviation representing the country of the shipping location, following the ISO 3166-1 alpha-2 standard, for example,  \"GB\" for the United Kingdom.",
+            "nullable": true,
+            "example": "GB"
+          },
+          "What3Words": {
+            "type": "string",
+            "description": "A three-word location identifier provided by the What3words service, offering a precise way to define locations using a unique combination of three words, for example, the front door of 10 Downing Street in London is identified by slurs.this.shark.",
+            "nullable": true,
+            "example": "brick.space.employ"
+          },
+          "ContactPhone": {
+            "maxLength": 20,
+            "type": "string",
+            "description": "The contact phone number associated with the shipping location, facilitating communication regarding shipments or deliveries.",
+            "format": "tel",
+            "nullable": true,
+            "example": "07123887422"
+          }
+        },
+        "additionalProperties": false,
+        "description": "The complete address of the shipping location, consisting of multiple components including street information, locality, and so on."
+      },
+      "ShippingLocationForAccount": {
+        "required": [
+          "Address",
+          "LastUpdatedBy",
+          "LastUpdatedDateUtc",
+          "LocationAlias",
+          "ShippingLocationId",
+          "Timezone"
+        ],
+        "type": "object",
+        "properties": {
+          "ShippingLocationId": {
+            "type": "string",
+            "description": "A unique identifier for the shipping location assigned by the system (shippingLocationId), allowing users to reference and manage specific locations effectively.",
+            "format": "uuid"
+          },
+          "LocationAlias": {
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string",
+            "description": "A unique user-defined identifier for the shipping location, providing a convenient way to identify it, for example,  Home or Warehouse.",
+            "example": "Main Warehouse"
+          },
+          "Timezone": {
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string",
+            "description": "The timezone in which the shipping location is located, important for scheduling and logistical considerations.",
+            "example": "Europe/London"
+          },
+          "LastUpdatedDateUtc": {
+            "type": "string",
+            "description": "A timestamp indicating the last time the shipping location details were updated, formatted in Coordinated Universal Time (UTC).",
+            "format": "date-time",
+            "example": "2022-02-06T16:13:24.010Z"
+          },
+          "LastUpdatedBy": {
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string",
+            "description": "The identifier (such as a username or system account) of the individual or system that last modified the shipping location information, ensuring accountability.",
+            "example": "User A"
+          },
+          "Address": {
+            "$ref": "#/components/schemas/ShippingLocationAddress"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Shipping Location\r<br />A location where the shipping account sends shipments from.\r<br />Every Shipping Account must have at least one Shipping Location.\r<br />A shipping account can have lots of shipping locations.\r<br />Each shipment created must be from an existing shipping location."
+      },
+      "ShippingLocationIdRequest": {
+        "required": [
+          "ShippingLocationId"
+        ],
+        "type": "object",
+        "properties": {
+          "ShippingLocationId": {
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string",
+            "description": "A unique identifier for the shipping location assigned by the system or by you (alias), allowing users to reference and manage specific locations effectively.\r<br />\r<br />***Note:** The information provided in this field and the ShippingAccountId field are being linked with each other.*",
+            "example": "D94E8CFD-604B-4B87-83E9-3F20CAF02837"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Shipping Location Id Request"
+      },
+      "ShippingLocationsForAccountPagedResponse": {
+        "required": [
+          "ShippingLocations",
+          "TotalCount"
+        ],
+        "type": "object",
+        "properties": {
+          "ShippingLocations": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ShippingLocationForAccount"
+            },
+            "description": "An array containing all  the shipping locations associated with the shipping account ID provided in the path parameter."
+          },
+          "TotalCount": {
+            "type": "integer",
+            "description": "An integer representing the total number of shipping locations associated with the specified shipping account that matches the search criteria, giving users a quick overview of how many locations are linked to their accounts.",
+            "format": "int32",
+            "example": 303
+          }
+        },
+        "additionalProperties": false,
+        "description": "The paged response containing the entities for the requested page only, and the total number available."
+      },
+      "ShippingLocationsSortBy": {
+        "enum": [
+          "Name"
+        ],
+        "type": "string",
+        "description": "Sort By"
+      },
+      "TermsOfTrade": {
+        "enum": [
+          "DDU",
+          "DDP",
+          "DAP",
+          "DAT"
+        ],
+        "type": "string",
+        "description": "Specifies the International Commercial Terms (Incoterms) applicable to the shipment, governing responsibilities and financial obligations. \r<br />\r<br />Valid values include the following: \r<br /><ul><li>**DDU** — Delivered Duty Unpaid.The receiver is responsible for paying customs duties and taxes.</li><li>**DDP** — Delivered Duty Paid.The seller is responsible for paying customs duties and taxes.</li><li>**DAP** — Delivered At Place.The receiver is responsible for paying customs duties and taxes.</li><li>**DAT** — Delivered At Terminal.The receiver is responsible for paying customs duties and taxes.</li></ul>\r<br />***Note:** By default, this field is set to DDU if not provided for dutiable shipments. Please be advised that this information is not required for non-dutiable shipments.*<br>Amazon does not support any incoterms."
+      },
+      "WeightUnitOfMeasure": {
+        "enum": [
+          "KG",
+          "Grams"
+        ],
+        "type": "string",
+        "description": " The unit of measure used for all weight values in the shipment, expressed in grams and kilograms, for example, **DeclaredWeight**, **ItemWeight**. This is crucial for accurately describing shipment weight.\r<br /> \r<br />***Note:** By default, this field is set to KG.*"
+      }
+    },
+    "securitySchemes": {
+      "oauth2": {
+        "type": "oauth2",
+        "description": "JSON Web Token (JWT) authorization header using the Bearer scheme.\r\n\r\nExample: \"bearer { token }\"",
+        "flows": {
+          "clientCredentials": {
+            "tokenUrl": "https://authentication.intersoftsapient.net/connect/token",
+            "scopes": {}
+          }
+        }
+      }
+    }
+  },
+  "security": [
+    {
+      "oauth2": []
+    }
+  ],
+  "tags": [
+    {
+      "name": "Shipping Accounts",
+      "description": "This section provides information relating to managing shipping accounts.\n\nA shipping account is where you assign your carrier credentials and link them to the relevant shipping location/s."
+    },
+    {
+      "name": "Shipments",
+      "description": "This section provides information relating to creating Amazon shipments, printing shipping labels, the customs documentation."
+    }
+  ],
+  "x-readme": {
+    "explorer-enabled": false
+  }
+}
