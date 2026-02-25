@@ -601,8 +601,8 @@
                       "CurrencyCode": "GBP"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "5a816631-2a5d-45ef-bbc0-b250c20c3c0d",
-                      "ShippingLocationId": "36005b64-aea4-43a7-b9e8-5d1162939597",
+                      "ShippingAccountId": "4baa2630-14f1-4f7d-b730-6a3eb4d258ed",
+                      "ShippingLocationId": "6ac6dc6e-244e-4712-ba2d-e79410ee56c6",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -637,12 +637,8 @@
                       "ContainsBatteries": false,
                       "ContainsLiquids": false,
                       "ServiceEnhancements": [
-                        {
-                          "Code": "PROOF_OF_IDENTITY"
-                        },
-                        {
-                          "Code": "PIN_REQUIRED"
-                        }
+                        "ID",
+                        "AGE"
                       ]
                     },
                     "ShipmentInformation": {
@@ -652,15 +648,15 @@
                       "ContentType": "NDX",
                       "ServiceCode": "11",
                       "DescriptionOfGoods": "Clothing",
-                      "ShipmentDate": "2026-01-21",
+                      "ShipmentDate": "2026-02-25",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "ca9a10e5-98e9-4a57-ab73-69e4382ad330",
-                      "ShippingLocationId": "2b81239d-0454-4f27-af91-ee2268c0bfff",
+                      "ShippingAccountId": "c2d67a70-af60-47a6-b01c-6b1534f320aa",
+                      "ShippingLocationId": "3dc0b3e0-3b8f-42e9-a054-9557e058bc23",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -750,13 +746,13 @@
                       "ContentType": "NDX",
                       "ServiceCode": "50",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-01-21",
+                      "ShipmentDate": "2026-02-25",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "cfe50fb8-e5e6-4705-b3f8-0813e4dbf5d2",
-                      "ShippingLocationId": "e5eaf2fd-1e26-4c80-8791-38fb80a48e66",
+                      "ShippingAccountId": "aa694629-b2f9-442a-b613-fa0b7c44acf1",
+                      "ShippingLocationId": "5c0395ce-a784-435e-90f6-aa7527323252",
                       "Reference1": "OrderRef56",
                       "EoriNumber": "GB12345",
                       "VatNumber": "GB12345"
@@ -821,12 +817,8 @@
                       "ContainsBatteries": false,
                       "ContainsLiquids": false,
                       "ServiceEnhancements": [
-                        {
-                          "Code": "PROOF_OF_IDENTITY"
-                        },
-                        {
-                          "Code": "PIN_REQUIRED"
-                        }
+                        "ID",
+                        "PIN"
                       ]
                     },
                     "ShipmentInformation": {
@@ -836,15 +828,15 @@
                       "ContentType": "NDX",
                       "ServiceCode": "50",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-01-21",
+                      "ShipmentDate": "2026-02-25",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "30b4a746-3bd7-41d2-b995-f8f54bb25ab2",
-                      "ShippingLocationId": "1ce34d2b-4042-491f-9bbc-de748c91ac2f",
+                      "ShippingAccountId": "c3fbb1f0-2fd7-4e4f-9056-e2d83d9d26d2",
+                      "ShippingLocationId": "52303f51-b5be-43b5-9e63-5208a0925848",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -922,7 +914,7 @@
                       "OtherCharges": 32,
                       "QuotedLandedCost": 82.74,
                       "InvoiceNumber": "INV-12345",
-                      "InvoiceDate": "2026-01-21",
+                      "InvoiceDate": "2026-02-25",
                       "ExportLicenceRequired": false,
                       "Airn": "231.002.999-00"
                     },
@@ -950,12 +942,12 @@
                       "ContentType": "NDX",
                       "ServiceCode": "SMHER24",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-01-21",
+                      "ShipmentDate": "2026-02-25",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "50ba5ff3-8aad-405c-be39-dbabac87c192",
+                      "ShippingAccountId": "4e35e5d7-b78e-4288-b225-cef05012c653",
                       "Reference1": "OrderRef56",
                       "Address": {
                         "AddressId": "John Brown Default"
@@ -993,7 +985,7 @@
                 "examples": {
                   "Create": {
                     "value": {
-                      "ConsignmentShipmentId": "fe84bb1d-2edf-4eba-a433-1b4fb0361de6",
+                      "ConsignmentShipmentId": "182aa2e3-3498-4dcf-a49d-082578dbf708",
                       "Packages": [
                         {
                           "PackageOccurrence": 1
@@ -1003,7 +995,7 @@
                   },
                   "Allocate": {
                     "value": {
-                      "ConsignmentShipmentId": "5ab4003d-3208-465e-be56-12b2e43d0e5d",
+                      "ConsignmentShipmentId": "a55644be-48c2-4a62-a873-ee9064c9d194",
                       "ConsignmentTrackingNumber": "UZ 123 456 789 IE",
                       "ConsignmentCarrierTrackingUrl": "https://track.dpd.co.uk/search?reference=UZ 123 456 789 IE",
                       "Packages": [
@@ -1017,7 +1009,7 @@
                   },
                   "Process - PDF": {
                     "value": {
-                      "ConsignmentShipmentId": "f0bf6773-1ad8-4c7c-86d9-a4f0c56400ba",
+                      "ConsignmentShipmentId": "756ab519-af6d-41b5-be4e-4baa1a8a8566",
                       "ConsignmentTrackingNumber": "UZ 123 456 789 IE",
                       "ConsignmentCarrierTrackingUrl": "https://track.dpd.co.uk/search?reference=UZ 123 456 789 IE",
                       "Labels": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
@@ -1119,7 +1111,7 @@
                 "examples": {
                   "PDF": {
                     "value": {
-                      "ShipmentId": "9247d368-c75b-4148-9df1-0cb64d98049c",
+                      "ShipmentId": "8ef869b9-fc03-4499-9b36-234bb591e1b1",
                       "TrackingNumber": "UZ 123 456 789 IE",
                       "CarrierTrackingUrl": "https://track.dpd.co.uk/search?reference=UZ 123 456 789 IE",
                       "Label": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
@@ -1337,7 +1329,7 @@
           "C2B"
         ],
         "type": "string",
-        "description": "Specifies the nature of the commercial transaction type associated with the shipment.\r<br />\r<br />Valid values are: \r<br /><ul><li>**B2C** - Business to Consumer</li><li>**B2B** - Business to Business</li><li>**D2C** - Direct 2 Consumer</li><li>**C2B** - Consumer to Business(that is, a returns shipment)</li></ul>"
+        "description": "Specifies the nature of the commercial transaction type associated with the shipment.\r<br />\r<br />Valid values are: \r<br /><ul><li>**B2C** - Business to Consumer</li><li>**B2B** - Business to Business</li><li>**D2C** - Direct 2 Consumer</li><li>**C2B** - Consumer to Business</li></ul>"
       },
       "ContentType": {
         "enum": [
@@ -1650,7 +1642,7 @@
             "minLength": 1,
             "pattern": "^\\d{8}$",
             "type": "string",
-            "description": "Authorisation Code\r<br />8-digit code used in manifest filenames.",
+            "description": "Authorisation Code.\r<br />A unique 8-digit identifier used as an authentication code for DPD UK.\r<br />This code validates or links the manifest to the correct shipper or contract.\r<br />            \r<br /><i><b>Note:</b> This identifier is included in the manifest file names.</i>",
             "example": "12345678"
           },
           "AccountName": {
@@ -1664,7 +1656,7 @@
             "minLength": 1,
             "pattern": "^\\d{4}$",
             "type": "string",
-            "description": "SLID is a customer identifier assigned by DPD UK.\r<br />It is used in barcode range tracking numbers etc.",
+            "description": "A customer identifier used in the barcode range and manifest files.",
             "example": "1234"
           },
           "AccountAlias": {
@@ -1700,20 +1692,14 @@
         "additionalProperties": false,
         "description": "DPD UK Add Shipping Account Request"
       },
-      "DpdUkServiceEnhancement": {
-        "required": [
-          "Code"
+      "DpdUkEnhancement": {
+        "enum": [
+          "ID",
+          "AGE",
+          "PIN"
         ],
-        "type": "object",
-        "properties": {
-          "Code": {
-            "minLength": 1,
-            "type": "string",
-            "description": "Enhancement code of the service enhancement. Valid values are:\r<br /><b>PIN_REQUIRED</b>, <br /><b>PIN_REQUIRED_AND_PROOF_OF_AGE</b>, <br /><b>PROOF_OF_AGE</b>, <br /><b>PROOF_OF_IDENTITY</b>"
-          }
-        },
-        "additionalProperties": false,
-        "description": "DPD UK Service Enhancement"
+        "type": "string",
+        "description": "Enhancement code of the service enhancement."
       },
       "DpdUkShipmentRequestCarrierSpecifics": {
         "required": [
@@ -1725,28 +1711,28 @@
           "DeliveryInstructions": {
             "maxLength": 256,
             "type": "string",
-            "description": "Delivery Instructions\r<br />A field to provide special instructions or requests to the carrier for handling the shipment, such as handling procedures or delivery preferences.",
+            "description": "A field to provide special instructions or requests to the carrier for handling the shipment, such as handling procedures or delivery preferences.",
             "nullable": true
           },
           "ContainsBatteries": {
             "type": "boolean",
-            "description": "`True` - Contains batteries\r<br />            `False` - Doesn't contain batteries\r<br />            Defaults to `False`"
+            "description": "Indicates whether the shipment contains any type of batteries. This is used to determine any special handling for restricted items.\r<br />\r<br />The accepted values are the following:\r<br /><ul><li>**True** - Contains batteries</li><li>**False** - Does not contain batteries</li></ul>\r<br />***Note:** By default, this field is set to false.*"
           },
           "ContainsLiquids": {
             "type": "boolean",
-            "description": "`True` - Contains liquids\r<br />            `False` - Doesn't contain liquids\r<br />            Defaults to `False`"
+            "description": "Indicates whether the shipment contains any type of liquid items, aiding in correct labeling and packaging of potentially spillable or regulated liquid materials for transportation.\r<br />\r<br />The accepted values are the following:\r<br /><ul><li>**True** - Contains liquids</li><li>**False** - Does not contain liquids</li></ul>\r<br />***Note:** By default, this field is set to false.*"
           },
           "ServiceEnhancements": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/DpdUkServiceEnhancement"
+              "$ref": "#/components/schemas/DpdUkEnhancement"
             },
-            "description": "Service Enhancements\r<br />List of DPD UK service enhancements that can be applied to the shipment",
+            "description": "An array of objects that allows shippers to specify any additional service enhancements they would like to apply to the requested shipping service,\r<br />offering flexibility in how the shipment is handled based on specific requirements or preferences.\r<br />            \r<br />This object specifies the particular enhancement code that is being applied to the shipment,\r<br />allowing customers to select multiple enhancements that can modify the shipping experience according to their preferences.\r<br />\r<br />Valid values are the following:\r<br /><ul><li>**ID** Requires the receiver to present valid identification at the point of delivery.</li><li>**Age** Ensures the recipient meets a minimum age requirement, like for age-restricted goods.</li><li>**PIN** A secure PIN is sent to the receiver, which must be provided upon delivery.</li></ul>\r<br />***Note:** The Age and PIN enhancement codes can be used together to require both age verification and pin confirmation upon delivery.*",
             "nullable": true
           }
         },
         "additionalProperties": false,
-        "description": "DPD UK - specific features that can be used when creating a DPD UK shipment."
+        "description": "Used to provide specific information related to the DPD UK shipment. This includes service enhancements and special handling instructions for the shipments being sent."
       },
       "DpdUkShipmentRequestCarrierSpecificsPackageDetailsLabelFormatCreateShipmentRequest": {
         "required": [
@@ -1817,7 +1803,7 @@
           "AuthorisationCode": {
             "pattern": "^\\d{8}$",
             "type": "string",
-            "description": "Authorisation Code\r<br />8-digit code used in manifest filenames.",
+            "description": "Authorisation Code.\r<br />A unique 8-digit identifier used as an authentication code for DPD UK.\r<br />This code validates or links the manifest to the correct shipper or contract.\r<br />            \r<br /><i><b>Note:</b> This identifier is included in the manifest file names.</i>",
             "nullable": true,
             "example": "12345678"
           },
@@ -1836,7 +1822,7 @@
           "Slid": {
             "pattern": "^\\d{4}$",
             "type": "string",
-            "description": "SLID is a customer identifier assigned by DPD UK.\r<br />It is used in barcode range tracking numbers etc.",
+            "description": "A customer identifier used in the barcode range and manifest files.",
             "nullable": true,
             "example": "1234"
           },
@@ -1944,7 +1930,7 @@
             "minLength": 1,
             "pattern": "^\\d{8}$",
             "type": "string",
-            "description": "Authorisation Code\r<br />8-digit code used in manifest filenames.",
+            "description": "Authorisation Code.\r<br />A unique 8-digit identifier used as an authentication code for DPD UK.\r<br />This code validates or links the manifest to the correct shipper or contract.\r<br />            \r<br /><i><b>Note:</b> This identifier is included in the manifest file names.</i>",
             "example": "12345678"
           },
           "AccountName": {
@@ -1958,7 +1944,7 @@
             "minLength": 1,
             "pattern": "^\\d{4}$",
             "type": "string",
-            "description": "SLID is a customer identifier assigned by DPD UK.\r<br />It is used in barcode range tracking numbers etc.",
+            "description": "A customer identifier used in the barcode range and manifest files.",
             "example": "1234"
           },
           "AccountAlias": {
@@ -2028,10 +2014,7 @@
       },
       "Hazmat": {
         "required": [
-          "Class",
-          "Quantity",
-          "UNCode",
-          "UnitOfMeasure"
+          "Class"
         ],
         "type": "object",
         "properties": {
@@ -2039,7 +2022,8 @@
             "maxLength": 4,
             "minLength": 4,
             "type": "string",
-            "description": "Mandatory if Hazmat information is present. UN Identification Number of the hazardous item.",
+            "description": "The United Nations (UN) code assigned to the hazardous material, which denotes its classification for transport. This code is critical for safety and compliance during shipping.\r<br />***Note:** This field must be populated only for domestic shipments using class 9 dangerous goods. If provided, then **Quantity** and **UnitOfMeasure** must also be specified.*",
+            "nullable": true,
             "example": "1002"
           },
           "ProperShippingName": {
@@ -2063,11 +2047,12 @@
             "example": "Nail Varnish"
           },
           "Quantity": {
-            "maximum": 9999999.99,
-            "minimum": 0.01,
+            "maximum": 5,
+            "minimum": 0.1,
             "type": "number",
-            "description": "Mandatory if Hazmat information is provided. The hazardous item quantity in the relevant unit of measure for one item.",
+            "description": "The quantity of the hazardous material in the specified UnitOfMeasure. This information is vital for compliance with shipping regulations pertaining to hazardous materials.\r<br />***Note:** This field is only required if **UnitOfMeasure** and **UNCode** is specified.*",
             "format": "double",
+            "nullable": true,
             "example": 3.5
           },
           "UnitOfMeasure": {
@@ -2105,11 +2090,12 @@
       },
       "HazmatUnitOfMeasure": {
         "enum": [
+          "NONE",
           "L",
           "KG"
         ],
         "type": "string",
-        "description": "Mandatory if Hazmat information is provided. The unit of measure for the dangerous goods, this is 'L' for liquids and gas and 'KG' for solids."
+        "description": "The unit of measurement for the quantity of hazardous material, for example, litres (for liquids) or kilograms (for solids). This provides clarity regarding the amount of hazardous goods present.\r<br />***Note:** This field is only required if **Quantity** and **UNCode** is specified.*"
       },
       "Item": {
         "required": [
@@ -2785,7 +2771,7 @@
           },
           "IsDefaultLocation": {
             "type": "boolean",
-            "description": "A boolean value indicating whether the shipping location is set as the default for shipping operations, streamlining the selection process during shipping.\r<br />\r<br />***Note:** If true, then this location is set as the default one. Otherwise, it is set to false.*",
+            "description": "A boolean value indicating whether the shipping location is set as the default for shipping operations, streamlining the selection process during shipping.\r<br />\r<br />***Note:** If true, then this location is set as the default one. Otherwise, it is set to false.*\r<br />            \r<br />Enum [True, False]",
             "example": false
           },
           "Timezone": {
@@ -2991,7 +2977,7 @@
           "DAT"
         ],
         "type": "string",
-        "description": "Specifies the International Commercial Terms (Incoterms) applicable to the shipment, governing responsibilities and financial obligations. \r<br />\r<br />Valid values include the following: \r<br /><ul><li>**DDU** — Delivered Duty Unpaid.The receiver is responsible for paying customs duties and taxes.</li><li>**DDP** — Delivered Duty Paid.The seller is responsible for paying customs duties and taxes.</li><li>**DAP** — Delivered At Place.The receiver is responsible for paying customs duties and taxes.</li><li>**DAT** — Delivered At Terminal.The receiver is responsible for paying customs duties and taxes.</li></ul>\r<br />***Note:** By default, this field is set to DDU if not provided for dutiable shipments. Please be advised that this information is not required for non-dutiable shipments.*"
+        "description": "Specifies the International Commercial Terms (Incoterms) applicable to the shipment, governing responsibilities and financial obligations. \r<br />\r<br />Valid values include the following: \r<br /><ul><li>**DDU** — Delivered Duty Unpaid.The receiver is responsible for paying customs duties and taxes.</li><li>**DDP** — Delivered Duty Paid.The seller is responsible for paying customs duties and taxes.</li><li>**DAP** — Delivered At Place.The receiver is responsible for paying customs duties and taxes.</li><li>**DAT** — Delivered At Terminal.The receiver is responsible for paying customs duties and taxes.</li></ul>\r<br />***Note:** By default, this field is set to DDU if not provided for dutiable shipments. Please be advised that this information is not required for non-dutiable shipments.*<br>DPD UK supports only **DAP** and **DDP**."
       },
       "WeightUnitOfMeasure": {
         "enum": [
