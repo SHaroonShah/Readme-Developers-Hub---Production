@@ -29,7 +29,7 @@ metadata:
 
   > 📘 *Note*
   >
-  > *The[Get Carrier](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode) and [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoints in our **SAPIENT CORE API** block can also be utilised to look for the carrier and its available services.*
+  > *The [Get Carrier](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode) and [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoints in our **SAPIENT CORE API** block can also be utilised to look for the carrier and its available services.*
 
   ## InPost tracking webhook
 
