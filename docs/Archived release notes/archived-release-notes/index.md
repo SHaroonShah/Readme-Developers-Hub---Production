@@ -17,6 +17,7 @@ next:
       title: Latest release notes
       url: https://docs.intersoftsapient.net/changelog
 ---
+* 2026 release notes
 * [2025 release notes](https://docs.intersoftsapient.net/docs/2025-release-notes)
 * [2024 release notes](https://docs.intersoftsapient.net/docs/2024-release-notes)
 * [2023 release notes](https://docs.intersoftsapient.net/docs/2023-release-notes)
