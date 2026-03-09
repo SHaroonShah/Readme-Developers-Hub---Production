@@ -123,8 +123,7 @@ metadata:
     * **Delete Location**
 
   ## A fresh new look for our Developers Hub documentation
-
-  We are excited to announce the first phase of our Developers Hub documentation redesign, bringing you a cleaner, more interactive experience to make finding information easier and faster.
+We are excited to announce the first phase of our Developers Hub documentation redesign, bringing you a cleaner, more interactive experience to make finding information easier and faster.
 
   ## What's new?
 
