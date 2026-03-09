@@ -7,7 +7,7 @@ icon: fad fa-notes
 metadata:
   robots: index
 ---
-<Accordion title="SAPIENT release notes - January 20, 2026" icon="fa-solid fa-page">
+<Accordion title="SAPIENT release notes - January 20, 2026" icon="">
   ## DPD UK integration
 
   The DPD UK integration has been added to the SAPIENT system. This integration expands our shipping options, allowing our customers to utilise DPD UK for their shipping needs, improving overall service flexibility and efficiency.
