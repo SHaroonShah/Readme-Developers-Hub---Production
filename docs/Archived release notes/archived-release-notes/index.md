@@ -17,7 +17,17 @@ next:
       title: Latest release notes
       url: https://docs.intersoftsapient.net/changelog
 ---
-* 2026 release notes
-* [2025 release notes](https://docs.intersoftsapient.net/docs/2025-release-notes)
-* [2024 release notes](https://docs.intersoftsapient.net/docs/2024-release-notes)
-* [2023 release notes](https://docs.intersoftsapient.net/docs/2023-release-notes)
+<Cards columns={4}>
+  <Card title="2026 release notes" icon="fa-regular fa-calendar">
+    Release notes for 2026.
+  </Card>
+  <Card title="2025 release notes" href="https://docs.intersoftsapient.net/docs/2025-release-notes" icon="fa-regular fa-calendar">
+    Release notes for 2025.
+  </Card>
+  <Card title="2024 release notes" href="https://docs.intersoftsapient.net/docs/2024-release-notes" icon="fa-regular fa-calendar">
+    Release notes for 2024.
+  </Card>
+  <Card title="2023 release notes" href="https://docs.intersoftsapient.net/docs/2023-release-notes" icon="fa-regular fa-calendar">
+    Release notes for 2023.
+  </Card>
+</Cards>
