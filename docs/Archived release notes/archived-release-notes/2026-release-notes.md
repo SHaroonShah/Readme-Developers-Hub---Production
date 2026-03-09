@@ -29,7 +29,7 @@ metadata:
 
   > 📘 *Note*
   >
-  > *The [Get Carrier](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode) and [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoints in our **SAPIENT CORE API** block can also be utilised to look for the carrier and its available services.*
+  > *The[Get Carrier](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode) and [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoints in our **SAPIENT CORE API** block can also be utilised to look for the carrier and its available services.*
 
   ## InPost tracking webhook
 
@@ -57,6 +57,8 @@ metadata:
   | RM48         | CRL2, PK2, PK4, FS2, PPF2 |
   | 1st Class    | STL1                      |
   | 2nd Class    | STL2                      |
+  <br />
+
 
   <Image align="center" src="https://files.readme.io/c39220c3e365dc6b73e85fb2222362ee9de492acadc1a2ab2085091ca4c0ac38-image.png" width="300px" />
 
