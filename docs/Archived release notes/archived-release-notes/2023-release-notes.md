@@ -3,7 +3,7 @@ title: 2023 release notes
 excerpt: This section includes the archived release notes published in the year 2023.
 deprecated: false
 hidden: false
-icon: fad fa-page
+icon: fad fa-notes
 metadata:
   title: ''
   description: ''
