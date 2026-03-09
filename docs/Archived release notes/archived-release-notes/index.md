@@ -1,8 +1,8 @@
 ---
 title: SAPIENT archived release notes
 excerpt: >-
-  In this section, you can view the release notes that have been previously
-  deployed on Readme.
+  In this section, you can view the release notes that have been deployed in
+  previous years.
 deprecated: false
 hidden: false
 icon: fad fa-notes
