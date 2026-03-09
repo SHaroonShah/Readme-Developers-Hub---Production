@@ -3,7 +3,7 @@ title: 2024 release notes
 excerpt: This section includes the archived release notes published in the year 2024.
 deprecated: false
 hidden: false
-icon: fad fa-page
+icon: fad fa-notes
 metadata:
   title: ''
   description: ''
