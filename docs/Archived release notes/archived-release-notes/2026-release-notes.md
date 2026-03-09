@@ -2,7 +2,7 @@
 title: 2026 release notes
 excerpt: This section includes the archived release notes published in the year 2026.
 deprecated: false
-hidden: false
+hidden: true
 icon: fad fa-notes
 metadata:
   robots: index
