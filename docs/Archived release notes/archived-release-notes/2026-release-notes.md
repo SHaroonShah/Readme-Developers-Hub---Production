@@ -58,7 +58,7 @@ metadata:
   | 1st Class    | STL1                      |
   | 2nd Class    | STL2                      |
 
-  <Image align="center" src="https://files.readme.io/c39220c3e365dc6b73e85fb2222362ee9de492acadc1a2ab2085091ca4c0ac38-image.png" width="300px"/>
+  <Image align="center" src="https://files.readme.io/c39220c3e365dc6b73e85fb2222362ee9de492acadc1a2ab2085091ca4c0ac38-image.png" width="300px" />
 
   ## Royal Mail OBA registered billing address validation
 
@@ -122,7 +122,7 @@ metadata:
     * **Update Location**
     * **Delete Location**
 
-    ## A fresh new look for our Developers Hub documentation
+  ## A fresh new look for our Developers Hub documentation
 
   We are excited to announce the first phase of our Developers Hub documentation redesign, bringing you a cleaner, more interactive experience to make finding information easier and faster.
 
