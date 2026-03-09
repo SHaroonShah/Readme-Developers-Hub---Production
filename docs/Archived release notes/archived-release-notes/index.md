@@ -18,11 +18,11 @@ next:
       url: https://docs.intersoftsapient.net/changelog
 ---
 <Cards columns={4}>
-  <Card title="2026 release notes" href="https://docs.intersoftsapient.net/docs/2026-release-notes" icon="fa-regular fa-gibbous">
+  <Card title="2026 release notes" href="https://docs.intersoftsapient.net/docs/2026-release-notes" icon="fa-regular fa-calendar-lines">
     Release notes for 2026.
   </Card>
 
-  <Card title="2025 release notes" href="https://docs.intersoftsapient.net/docs/2025-release-notes" icon="fa-regular fa-">
+  <Card title="2025 release notes" href="https://docs.intersoftsapient.net/docs/2025-release-notes" icon="fa-regular fa-calendar-lines">
     Release notes for 2025.
   </Card>
 
