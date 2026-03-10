@@ -18,7 +18,7 @@ next:
       title: Royal Mail shipping account setup
       type: basic
 ---
-<Image align="center" border={false} width="1000px" src="https://files.readme.io/740b0f20d74391637eec47a8969211425c98266a086cdae88b48d622527d46f9-RM_white_banner.png" />
+<Image align="center" width="1000px" src="https://files.readme.io/740b0f20d74391637eec47a8969211425c98266a086cdae88b48d622527d46f9-RM_white_banner.png" />
 
 ***
 
@@ -107,6 +107,12 @@ This integration represents a significant step towards optimising shipping funct
 
     <br />
 
+    <Accordion title="Pre Allocate Tracking Number" icon="hashtag">
+      Receive a Royal Mail Tracking Number that will be pre-allocated to the service and destination supplied in the request. No shipment or label will be produced using this endpoint. This endpoint can only be used for services that are assigned a tracking number.
+    </Accordion>
+  </Tab>
+
+  <Tab title="Advanced Services">
     <Accordion title="Print Label" icon="print">
       Generate and return the label for the Royal Mail shipment. This endpoint is utilised after a Royal Mail shipment has been created and is meant to facilitate the printing of the label required for that shipment.
 
@@ -114,21 +120,11 @@ This integration represents a significant step towards optimising shipping funct
       >
       > *This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting.*
     </Accordion>
-
-    <br />
-
-    <Accordion title="Print My Label QR Code" icon="qrcode">
+<br />
+<Accordion title="Print My Label QR Code" icon="qrcode">
       Generate an easy-to-scan QR code for the associated label specified in the **PrintLabel** API endpoint. This endpoint can only be used for Royal Mail Tracked Return services.
     </Accordion>
-
-    <br />
-
-    <Accordion title="Pre Allocate Tracking Number" icon="hashtag">
-      Receive a Royal Mail Tracking Number that will be pre-allocated to the service and destination supplied in the request. No shipment or label will be produced using this endpoint. This endpoint can only be used for services that are assigned a tracking number.
-    </Accordion>
-  </Tab>
-
-  <Tab title="Advanced Services">
+<br />
     <Accordion title="Offline Barcoding" icon="barcode">
       Request a specific range of barcodes for use in your shipping processes. Offline Barcoding is only available if it has been activated on your customer account in the GUI.
     </Accordion>
