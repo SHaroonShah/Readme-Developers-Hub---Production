@@ -114,7 +114,7 @@ This integration represents a significant step towards optimising shipping funct
 
   <Tab title="Advanced Services">
     <Accordion title="Print Label" icon="print">
-      Generate and return the label for the Royal Mail shipment. This endpoint is utilised after a Royal Mail shipment has been created and is meant to facilitate the printing of the label required for that shipment. This endpoint must be utilised when the label is not generated in the Create Shipment request.
+      Generate and return the label for the Royal Mail shipment. This endpoint must be utilised when the label is not generated in the Royal Mail Create Shipment request.
 
       > 📘 *Note*
       >
