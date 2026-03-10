@@ -114,17 +114,21 @@ This integration represents a significant step towards optimising shipping funct
 
   <Tab title="Advanced Services">
     <Accordion title="Print Label" icon="print">
-      Generate and return the label for the Royal Mail shipment. This endpoint is utilised after a Royal Mail shipment has been created and is meant to facilitate the printing of the label required for that shipment.
+      Generate and return the label for the Royal Mail shipment. This endpoint is utilised after a Royal Mail shipment has been created and is meant to facilitate the printing of the label required for that shipment. This endpoint must be utilised when the label is not generated in the Create Shipment request.
 
       > 📘 *Note*
       >
       > *This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting.*
     </Accordion>
-<br />
-<Accordion title="Print My Label QR Code" icon="qrcode">
+
+    <br />
+
+    <Accordion title="Print My Label QR Code" icon="qrcode">
       Generate an easy-to-scan QR code for the associated label specified in the **PrintLabel** API endpoint. This endpoint can only be used for Royal Mail Tracked Return services.
     </Accordion>
-<br />
+
+    <br />
+
     <Accordion title="Offline Barcoding" icon="barcode">
       Request a specific range of barcodes for use in your shipping processes. Offline Barcoding is only available if it has been activated on your customer account in the GUI.
     </Accordion>
