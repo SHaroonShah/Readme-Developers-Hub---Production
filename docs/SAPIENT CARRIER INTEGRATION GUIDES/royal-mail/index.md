@@ -150,12 +150,12 @@ This integration represents a significant step towards optimising shipping funct
 
       Unlike the common [Containers](https://docs.intersoftsapient.net/reference/get_v4-containers#/) API, the **International Arrivals Containers** endpoint is used for Royal Mail shipments that are being imported into GB only. For shipments in these containers, a <Glossary>data solution</Glossary> file is generated and sent to Royal Mail, which allows them to associate the shipments in the container with its associated ID, for better tracking and visibility purposes.
     </Accordion>
+  > 📘 *Note*
+  >
+  > *For more information on the API services, refer to the SAPIENT Royal Mail API endpoints.*
   </Tab>
-> 📘 _Note_
->
-> _For more information on the API services, refer to the SAPIENT Royal Mail API endpoints._
-
 </Tabs>
+
 
 ***
 
@@ -218,6 +218,5 @@ This integration represents a significant step towards optimising shipping funct
     Seamlessly connect with Royal Mail and manage your shipping operations from a single platform.
   </Card>
 </Cards>
-
 
 <br />
