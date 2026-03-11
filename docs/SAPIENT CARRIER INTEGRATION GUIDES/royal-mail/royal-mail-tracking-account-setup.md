@@ -30,90 +30,101 @@ In SAPIENT, you can add tracking accounts for Royal Mail to enhance visibility, 
 To add a tracking account for Royal Mail in SAPIENT, perform the steps as explained in the following procedure.
 
 <ToggleList>
-<ToggleListItem title="Step 1: Navigate to Tracking Accounts" icon="fa-route"> <br />
-  On the SAPIENT **Home** page, in the left navigation panel, select **API** > **Webhooks**. On the page that opens, select the **Tracking Accounts** tab.
+  <ToggleListItem title="1. Navigate to Tracking Accounts" icon="fa-route">
+    <br />
 
-  <Image align="center" border={true} src="https://files.readme.io/86ec4af66edcc1841f0e501f76224d944ebc62c345dae8b6c66944c9ff8585c3-Tracking_accounts_tab.png" alt="Accessing tracking accounts" />
-***
+    On the SAPIENT **Home** page, in the left navigation panel, select **API** > **Webhooks**. On the page that opens, select the **Tracking Accounts** tab.
+
+    <Image align="center" border={true} src="https://files.readme.io/86ec4af66edcc1841f0e501f76224d944ebc62c345dae8b6c66944c9ff8585c3-Tracking_accounts_tab.png" alt="Accessing tracking accounts" />
+
+    ***
   </ToggleListItem>
-<br />
 
+  <br />
 
-<ToggleListItem title="Step 2: Select Add Tracking Account" icon="fa-plus-circle"><br />
-  In the **Tracking Accounts** page, select ![](https://files.readme.io/c9db68351fac05183f1fb5e96c283dba68f88004061886b8c16c6da1b45a38ee-Add_tracking_account_button.png).
+  <ToggleListItem title="2. Select Add Tracking Account" icon="fa-plus-circle">
+    <br />
 
-      <Image align="center" border={true} src="https://files.readme.io/fdfcd880b84fd960b85197f1403debf6b591d0531f2ca13638b5fad703b4e560-Add_tracking_accounts_button.png" alt="Accessing option to add tracking account" />
-***
-      </ToggleListItem>
-<br />
+    In the **Tracking Accounts** page, select ![](https://files.readme.io/c9db68351fac05183f1fb5e96c283dba68f88004061886b8c16c6da1b45a38ee-Add_tracking_account_button.png).
 
+    <Image align="center" border={true} src="https://files.readme.io/fdfcd880b84fd960b85197f1403debf6b591d0531f2ca13638b5fad703b4e560-Add_tracking_accounts_button.png" alt="Accessing option to add tracking account" />
 
-<ToggleListItem title="Step 3: Fill in the tracking account details" icon="fa-file-alt"><br />
-  On the **Add Tracking account** page, in the **DETAILS** block, enter the necessary information as explained in the following table.
+    ***
+  </ToggleListItem>
 
-  <Image align="center" border={true} src="https://files.readme.io/f2159cfc5df8047ce939baae8432347a35e1010906cc7596b53f8eca75c6cf46-Add_tracking_account_screen.png" alt="Adding tracking account" />
+  <br />
 
-  <AsteridkForMandatoryElements />
+  <ToggleListItem title="3. Fill in the tracking account details" icon="fa-file-alt">
+    <br />
 
-  <Table align={["center","left"]}>
-    <thead>
-      <tr>
-        <th>
-          Element
-        </th>
+    On the **Add Tracking account** page, in the **DETAILS** block, enter the necessary information as explained in the following table.
 
-        <th>
-          Description
-        </th>
-      </tr>
-    </thead>
+    <Image align="center" border={true} src="https://files.readme.io/f2159cfc5df8047ce939baae8432347a35e1010906cc7596b53f8eca75c6cf46-Add_tracking_account_screen.png" alt="Adding tracking account" />
 
-    <tbody>
-      <tr>
-        <td>
-          **Carrier**\*
-        </td>
+    <AsteridkForMandatoryElements />
 
-        <td>
-          From the dropdown menu, select Royal Mail as your carrier option.
-        </td>
-      </tr>
+    <Table align={["center","left"]}>
+      <thead>
+        <tr>
+          <th>
+            Element
+          </th>
 
-      <tr>
-        <td>
-          **Receive tracking after Delivered event**
-        </td>
+          <th>
+            Description
+          </th>
+        </tr>
+      </thead>
 
-        <td>
-          Turn the toggle on/off to perform the following operations:
+      <tbody>
+        <tr>
+          <td>
+            **Carrier**\*
+          </td>
 
-          • Toggle on: to continue receiving any tracking events that occur after the final delivery in exceptional circumstances.
+          <td>
+            From the dropdown menu, select Royal Mail as your carrier option.
+          </td>
+        </tr>
 
-          • Toggle off (a default state): to stop receiving the tracking events after the final delivery.
-        </td>
-      </tr>
+        <tr>
+          <td>
+            **Receive tracking after Delivered event**
+          </td>
 
-      <tr>
-        <td>
-          **Shipping Account**\*
-        </td>
+          <td>
+            Turn the toggle on/off to perform the following operations:
 
-        <td>
-          From the dropdown menu, select the <Glossary>shipping account</Glossary> for which you want to receive tracking.
-        </td>
-      </tr>
-    </tbody>
-          </Table>
-***
-          </ToggleListItem>
-<br />
+            • Toggle on: to continue receiving any tracking events that occur after the final delivery in exceptional circumstances.
 
-<ToggleListItem title="Step 4: Submit the tracking account" icon="fa-check"> <br />
-  After entering all the necessary information, select ![](https://files.readme.io/024655253fdc0d7d670eb52d43cf3c30776a32082c8c99fd2c0d3cf2a7486fd5-Add_tracking_account_button_2.png).
+            • Toggle off (a default state): to stop receiving the tracking events after the final delivery.
+          </td>
+        </tr>
 
-  Once done, the Royal Mail tracking account is added successfully and appears in the **Tracking Accounts** list. You can now receive the tracking information on your <Glossary>shipments</Glossary>.
-              </ToggleListItem>
+        <tr>
+          <td>
+            **Shipping Account**\*
+          </td>
 
+          <td>
+            From the dropdown menu, select the <Glossary>shipping account</Glossary> for which you want to receive tracking.
+          </td>
+        </tr>
+      </tbody>
+    </Table>
 
+    ***
+  </ToggleListItem>
+
+  <br />
+
+  <ToggleListItem title="4.  Submit the tracking account" icon="fa-check">
+    <br />
+
+    After entering all the necessary information, select ![](https://files.readme.io/024655253fdc0d7d670eb52d43cf3c30776a32082c8c99fd2c0d3cf2a7486fd5-Add_tracking_account_button_2.png).
+
+    Once done, the Royal Mail tracking account is added successfully and appears in the **Tracking Accounts** list. You can now receive the tracking information on your <Glossary>shipments</Glossary>.
+  </ToggleListItem>
 </ToggleList>
+
 <br />
