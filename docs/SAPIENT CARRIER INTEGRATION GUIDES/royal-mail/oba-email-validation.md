@@ -36,13 +36,11 @@ An active OBA account must be provided for Intersoft to set up your account.
 To check whether your OBA account is active, follow the steps below.
 
 <ToggleList>
-<ToggleListItem title="1. Access the Royal Mail OBA website" icon="fa-globe">
-  Go to the Royal Mail [Online Business Account website](https://www.royalmail.com/discounts-payment/credit-account/online-business-account).
+  <ToggleListItem title="1. Access the Royal Mail OBA website" icon="fa-globe">
+    Go to the Royal Mail [Online Business Account website](https://www.royalmail.com/discounts-payment/credit-account/online-business-account).
   </ToggleListItem>
-</ToggleList>
 
-
-<Accordion title="Step 2: Log in with your credentials" icon="fa-sign-in-alt">
+<ToggleListItem title="2. Log in with your credentials" icon="fa-sign-in-alt">
   On the login page, enter your **email address** and **password**, then select **Log in**.
 
   <Image align="center" border={true} src="https://files.readme.io/ba7290711628e12af9e9a6131ca7fc9cbc8c63b417aff2dbd720fe1c6bce51b9-OBA_login_page.png" width="600px" alt="Logging into RM OBA" />
@@ -50,9 +48,9 @@ To check whether your OBA account is active, follow the steps below.
   > 📘 *Note*
   >
   > *If you do not know which email address is associated with your OBA account, please contact the OBA Helpdesk—call at 08457 950 950, or send an email at[oba.helpdesk@royalmail.com](mailto:oba.helpdesk@royalmail.com).*
-</Accordion>
+</ToggleListItem>
 
-<Accordion title="Step 3: Access your Online Business Account" icon="fa-check-circle">
+<ToggleListItem title="3. Access your Online Business Account" icon="fa-check-circle">
   Once logged in, select **Access Online Business Account**.
 
   <Image align="center" border={true} src="https://files.readme.io/463e646-image.png" alt="Accessing OBA" />
@@ -74,5 +72,5 @@ To check whether your OBA account is active, follow the steps below.
       > *If your OBA account is not active, contact Royal Mail to reactivate it via the following link:[https://business.help.royalmail.com/app/contact](https://business.help.royalmail.com/app/contact).*
     </Tab>
   </Tabs>
-</Accordion>
-
+  </ToggleListItem>
+</ToggleList>
