@@ -36,7 +36,9 @@ An active OBA account must be provided for Intersoft to set up your account.
 To check whether your OBA account is active, follow the steps below.
 
 <ToggleList>
-  <ToggleListItem title="1. Access the Royal Mail OBA website" icon="fa-globe"> <br />
+  <ToggleListItem title="1. Access the Royal Mail OBA website" icon="fa-globe">
+    <br />
+
     Go to the Royal Mail [Online Business Account website](https://www.royalmail.com/discounts-payment/credit-account/online-business-account).
 
     ***
@@ -44,7 +46,9 @@ To check whether your OBA account is active, follow the steps below.
 
   <br />
 
-  <ToggleListItem title="2. Log in with your credentials" icon="fa-sign-in-alt"> <br />
+  <ToggleListItem title="2. Log in with your credentials" icon="fa-sign-in-alt">
+    <br />
+
     On the login page, enter your **email address** and **password**, then select **Log in**.
 
     <Image align="center" border={true} src="https://files.readme.io/ba7290711628e12af9e9a6131ca7fc9cbc8c63b417aff2dbd720fe1c6bce51b9-OBA_login_page.png" width="600px" alt="Logging into RM OBA" />
@@ -58,11 +62,14 @@ To check whether your OBA account is active, follow the steps below.
 
   <br />
 
-  <ToggleListItem title="3. Access your Online Business Account" icon="fa-check-circle"> <br />
+  <ToggleListItem title="3. Access your Online Business Account" icon="fa-check-circle">
+    <br />
+
     Once logged in, select **Access Online Business Account**.
 
     <Image align="center" border={true} src="https://files.readme.io/463e646-image.png" alt="Accessing OBA" />
-<br />
+
+    <br />
 
     <Tabs>
       <Tab title="✅ Account is active">
@@ -78,7 +85,7 @@ To check whether your OBA account is active, follow the steps below.
 
         > 🚧 *Important*
         >
-        > *If your OBA account is not active, contact Royal Mail to reactivate it via the following link:[https://business.help.royalmail.com/app/contact](https://business.help.royalmail.com/app/contact).*
+        > *If your OBA account is not active, contact Royal Mail to reactivate it via the following link: [https://business.help.royalmail.com/app/contact](https://business.help.royalmail.com/app/contact).*
       </Tab>
     </Tabs>
   </ToggleListItem>
