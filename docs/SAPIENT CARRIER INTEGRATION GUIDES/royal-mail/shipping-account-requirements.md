@@ -23,31 +23,48 @@ In SAPIENT, you can create a Royal Mail shipping account by selecting your desir
 
 To add a shipping account for Royal Mail in SAPIENT, follow the instructions as explained in the following procedure.
 
+<Tabs>
+<Tab title="Via SAPIENT UI">
 <ToggleList>
-  <ToggleListItem title="1. Log in to SAPIENT" icon="fa-sign-in-alt"> <br />
+  <ToggleListItem title="1. Log in to SAPIENT" icon="fa-sign-in-alt">
+    <br />
+
     Log in to the SAPIENT platform using your credentials.
 
     <Image align="center" border={true} src="https://files.readme.io/fa5d0ced6ed38b419fa15c57f5b03fdddf6284adfcc85b48370c67d1aa07c5f8-Sapient_Login_window.png" width="500px" alt="Logging into SAPIENT" />
-***
+
+    ***
   </ToggleListItem>
-<br />
-  <ToggleListItem title="2. Navigate to Shipping Accounts" icon="fa-truck"> <br />
+
+  <br />
+
+  <ToggleListItem title="2. Navigate to Shipping Accounts" icon="fa-truck">
+    <br />
+
     On the **Home** page, in the left navigation panel, select **Shipping Accounts**.
 
     <Image align="center" border={true} src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" alt="Accessing shipping accounts" />
-***
-  </ToggleListItem>
-<br />
 
-  <ToggleListItem title="3. Select Add Shipping Account" icon="fa-plus-circle"> <br />
+    ***
+  </ToggleListItem>
+
+  <br />
+
+  <ToggleListItem title="3. Select Add Shipping Account" icon="fa-plus-circle">
+    <br />
+
     On the **Shipping Accounts** page, select ![](https://files.readme.io/44690bc0342682d80d45da0ca9e41920f4a8e30430a7279053ef6348e2900569-add_shipping_account_button.png).
 
     <Image align="center" border={true} src="https://files.readme.io/6a8c9af67fce1cfe9d27b55871687460e467417da0f236b1fa0a7a622241a67d-RM_create_shiipping_accounts_option.png" alt="Accessing option to add shipping account" />
-***
-  </ToggleListItem>
-<br />
 
-  <ToggleListItem title="4. Fill in Account Details" icon="fa-id-card"> <br />
+    ***
+  </ToggleListItem>
+
+  <br />
+
+  <ToggleListItem title="4. Fill in Account Details" icon="fa-id-card">
+    <br />
+
     On the **Add Shipping Account** form, in the **ACCOUNT DETAILS** block, fill in the information described in the following table.
 
     <Image align="center" border={true} src="https://files.readme.io/dc5c99c4576f2625aa7809d67c9cf26573ed44dbce51fdebc2df7f43013cde3b-Account_details_block.png" alt="Entering account details" />
@@ -58,10 +75,15 @@ To add a shipping account for Royal Mail in SAPIENT, follow the instructions as 
     | :---------------------: | :------------------------------------------------------------------------------------------------------------ |
     |      **Carrier**\*      | From the dropdown list, select **RM - Royal Mail**.                                                           |
     | **Shipping Location**\* | From the dropdown menu, select the location that you want to assign to the shipping account you are creating. |
-***
+
+    ***
   </ToggleListItem>
-<br />
-  <ToggleListItem title="Step 5. Enter Shipping Account details" icon="fa-file-alt"> <br />
+
+  <br />
+
+  <ToggleListItem title="5. Enter Shipping Account details" icon="fa-file-alt">
+    <br />
+
     In the **SHIPPING ACCOUNT** block, enter the necessary information as explained in the following table.
 
     <Image align="center" border={true} src="https://files.readme.io/86c792139df738b9d3d72e61e3a2d9edf6e95e49ebaed402137335a66e796d4a-Shipping_account_block.png" width="400px" alt="Specifying shipping account details" />
@@ -179,11 +201,15 @@ To add a shipping account for Royal Mail in SAPIENT, follow the instructions as 
         </tr>
       </tbody>
     </Table>
-***
-  </ToggleListItem>
-<br />
 
-  <ToggleListItem title="6. Enter Carrier Details" icon="fa-building"> <br />
+    ***
+  </ToggleListItem>
+
+  <br />
+
+  <ToggleListItem title="6. Enter Carrier Details" icon="fa-building">
+    <br />
+
     In the **CARRIER DETAILS** block, enter the necessary information as explained in the following table.
 
     <Image align="center" border={true} src="https://files.readme.io/0ca47335dbea534cb7d1b4ddce82c5eef9de68c4e17ac2c7169d6b82f3738835-carrier_details_block.png" width="400px" alt="Entering carrier details" />
@@ -239,16 +265,31 @@ To add a shipping account for Royal Mail in SAPIENT, follow the instructions as 
         </tr>
       </tbody>
     </Table>
-***
+
+    ***
   </ToggleListItem>
-<br />
-  <ToggleListItem title="7. Submit the Shipping Account" icon="fa-check"> <br />
+
+  <br />
+
+  <ToggleListItem title="7. Submit the Shipping Account" icon="fa-check">
+    <br />
+
     After entering all the required information, select ![](https://files.readme.io/db03c9a2b7ee816f42db617829469dce01bbdfd35aca00ace480fd78db31aa11-add_shipping_account_button_2.png).
 
     Once done, you have successfully added a shipping account. Once the account is [approved](https://docs.intersoftsapient.net/docs/royal-mail-sign-off#/), you can start shipping with it.
-***
+
+    ***
   </ToggleListItem>
-</ToggleList>
+  </ToggleList>
+  </Tab>
+  <Tab title="Via API">
+  </Tab>
+</Tabs>
+
+
+
+
+
 
 ***
 
