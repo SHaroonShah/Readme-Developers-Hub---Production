@@ -24,7 +24,9 @@ In SAPIENT, you can create a Royal Mail shipping account by selecting your desir
 <Tabs>
   <Tab title="Via SAPIENT UI">
     <br />
-To add a shipping account for Royal Mail in SAPIENT, follow the instructions as explained in the following procedure.
+
+    To add a shipping account for Royal Mail in SAPIENT, follow the instructions as explained in the following procedure.
+
     <ToggleList>
       <ToggleListItem title="1. Log in to SAPIENT" icon="fa-sign-in-alt">
         <br />
@@ -286,7 +288,7 @@ To add a shipping account for Royal Mail in SAPIENT, follow the instructions as 
   <Tab title="Via API">
     <br />
 
-    To add a Royal Mail shipping account via API, reefr to the following API endpoint.
+    To add a Royal Mail shipping account via API, refer to the following API endpoint.
 
     <Cards>
       <Card title="Add Account" href="https://docs.intersoftsapient.net/v4.03/reference/post_v4-shippingaccounts-rm" icon="fa-code">
