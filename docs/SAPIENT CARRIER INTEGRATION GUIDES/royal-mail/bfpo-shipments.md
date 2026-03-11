@@ -16,20 +16,34 @@ metadata:
 next:
   description: ''
 ---
-Royal Mail works in collaboration with the Ministry of Defence to provide BFPO services, handling the logistics of BFPO mail delivery; and as a part of its broader mailing services network, it ensures that military personnel receive their correspondence and packages in a timely manner.
+<Columns layout="auto">
+  <Column>
 
-In SAPIENT, you can use the **createShipment** request to facilitate the BFPO <Glossary>shipments</Glossary>.
+Royal Mail works in collaboration with the Ministry of Defence to provide BFPO services, handling the logistics of BFPO mail delivery. As part of its broader mailing services network, it ensures that military personnel receive their correspondence and packages in a timely manner.
 
-The British Forces Post Office® (BFPO) offers discounted mail delivery up to 2kg.
+In SAPIENT, you can use the **createShipment** request to facilitate BFPO <Glossary>shipments</Glossary>.
 
-The services that can be used for BFPO destinations are all domestic services, including Standard, Special Delivery and Tracked.
+  </Column>
+  <Column>
+
+> 📘 _Key facts_
+>
+> _• Discounted mail delivery up to **2kg**_
+> _• Supported by all domestic services: **Standard**, **Special Delivery**, and **Tracked**_
+
+  </Column>
+</Columns>
+
+## Destination format
 
 The **createShipment** request must contain the destination information in the following format:
 
-**ContactName**: service number, rank, and name.  
-**Address Line1**: Unit or Regiment.  
-**Town**: Operation or location name (if applicable).  
-**Postcode**: BFPO postcode.
+| Field | Value |
+| --- | --- |
+| **ContactName** | Service number, rank, and name |
+| **Address Line1** | Unit or Regiment |
+| **Town** | Operation or location name (if applicable) |
+| **Postcode** | BFPO postcode |
 
 > 🚧 _Important_
 >
