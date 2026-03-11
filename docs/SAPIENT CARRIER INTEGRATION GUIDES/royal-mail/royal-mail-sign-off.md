@@ -9,11 +9,25 @@ icon: far fa-clipboard-check
 metadata:
   robots: index
 ---
-To ensure a seamless integration between SAPIENT and Royal Mail’s shipping services, it is essential to understand how the **Get OBA Access Code** API is used across different account lifecycle events. Whether you are dding a new shipping account, transitioning a Sandbox account to Production, or linking a new location to an existing account either via UI or API, SAPIENT coordinates with Royal Mail to validate and activate shipping capabilities by calling its **OBA Access Code** API.
+<Columns layout="auto">
+  <Column>
 
-This section outlines the sign-off process for each scenario, highlights key API interactions and error handling to help customers navigate setup and updates with confidence.
+The **Get OBA Access Code** API is used across different account lifecycle events. Whether you are adding a new shipping account, transitioning a Sandbox account to Production, or linking a new location to an existing account (via UI or API), SAPIENT coordinates with Royal Mail to validate and activate shipping capabilities by calling the **OBA Access Code** API.
 
-## Adding Royal Mail shipping account
+  </Column>
+  <Column>
+
+> 📘 _Key scenarios covered_
+>
+> _• Adding a new shipping account_
+> _• Changing account type from Sandbox to Production_
+> _• Linking a new location to an existing account_
+> _• Post-approval activities_
+
+  </Column>
+</Columns>
+
+<Accordion title="Adding Royal Mail shipping account" icon="fa-plus">
 
 1. After sending the Royal Mail Add Account request with all mandatory fields populated except the OBA access code, SAPIENT sends a **Get OBA Access Code** Request to Royal Mail.
 2. If Royal Mail responds successfully, the shipping account is created in the **Active** status.
@@ -23,7 +37,9 @@ This section outlines the sign-off process for each scenario, highlights key API
 >
 > _If the <Glossary>account type</Glossary> is set to **Sandbox** and the OBA access code is not provided, SAPIENT does not send a request to Royal Mail and the account is created successfully without an OBA access code. You can use this account to create test shipments_
 
-## Changing account type from Sandbox to Production
+</Accordion>
+
+<Accordion title="Changing account type from Sandbox to Production" icon="fa-exchange-alt">
 
 1. If you change the Royal Mail shipping account type from **Sandbox** to **Production**, SAPIENT sends a **Get OBA Access Code** request to Royal Mail.
 2. If Royal Mail responds successfully, the account type is updated to **Production**.
@@ -38,13 +54,17 @@ This section outlines the sign-off process for each scenario, highlights key API
 > * _If any location fails, the account remains as Sandbox._
 > * _Once you switch from **Sandbox** to **Production**, the system makes a one-time **OBA Access Code** request. If the switch is successful, future changes to the account type will not trigger another OBA call, since the account is already approved and active._
 
-## Linking a new location to an existing shipping account
+</Accordion>
+
+<Accordion title="Linking a new location to an existing shipping account" icon="fa-link">
 
 1. When you send the Link Location request, SAPIENT sends the **Get OBA Access Code** request to Royal Mail.
 2. If Royal Mail responds successfully, the location is linked to the shipping account and a successful response is returned.
 3. If Royal Mail responds with an error, the location is not linked, and an [error message](https://docs.intersoftsapient.net/docs/royal-mail-sign-off#possible-oba-error-codes) is returned.
 
-## Post-approval activities
+</Accordion>
+
+<Accordion title="Post-approval activities" icon="fa-clipboard-check">
 
 After your shipping account has been approved by Royal Mail,  the status of your shipping account is changed to **'Enabled'**. Optionally, as part of the post-approval activities, you may perform the following tasks:
 
@@ -59,7 +79,9 @@ To view a step-by-step process on how to add a shipping account with a new shipp
 
 <Recipe slug="create-a-royal-mail-shipping-account-with-a-new-shipping-location" title="Create a shipping account with a new shipping location" />
 
-## Possible OBA error codes
+</Accordion>
+
+<Accordion title="Possible OBA error codes" icon="fa-exclamation-triangle">
 
 <Table align={["center","left","left"]}>
   <thead>
@@ -221,6 +243,12 @@ To view a step-by-step process on how to add a shipping account with a new shipp
   </tbody>
 </Table>
 
-### See also
+</Accordion>
 
-* [Edit shipping account](https://docs.intersoftsapient.net/docs/edit-shipping-account)
+<br />
+
+<Cards columns={1}>
+  <Card title="Edit shipping account" href="https://docs.intersoftsapient.net/docs/edit-shipping-account" icon="fa-pen-to-square">
+    Modify an existing Royal Mail shipping account's details.
+  </Card>
+</Cards>
