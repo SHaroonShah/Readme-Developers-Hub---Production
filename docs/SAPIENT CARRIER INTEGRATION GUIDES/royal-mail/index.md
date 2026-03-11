@@ -215,4 +215,8 @@ This integration represents a significant step towards optimising shipping funct
   </Card>
 </Cards>
 
+> 📘 _Note_
+>
+> _For more information on the API services, refer to the SAPIENT Royal Mail API endpoints._
+
 <br />
