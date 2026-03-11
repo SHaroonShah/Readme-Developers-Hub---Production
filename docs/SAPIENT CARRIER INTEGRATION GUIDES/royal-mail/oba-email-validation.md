@@ -36,14 +36,15 @@ An active OBA account must be provided for Intersoft to set up your account.
 To check whether your OBA account is active, follow the steps below.
 
 <ToggleList>
-  <ToggleListItem title="1. Access the Royal Mail OBA website" icon="fa-globe">
+  <ToggleListItem title="1. Access the Royal Mail OBA website" icon="fa-globe"> <br />
     Go to the Royal Mail [Online Business Account website](https://www.royalmail.com/discounts-payment/credit-account/online-business-account).
 
     ***
   </ToggleListItem>
-<br />
 
-  <ToggleListItem title="2. Log in with your credentials" icon="fa-sign-in-alt">
+  <br />
+
+  <ToggleListItem title="2. Log in with your credentials" icon="fa-sign-in-alt"> <br />
     On the login page, enter your **email address** and **password**, then select **Log in**.
 
     <Image align="center" border={true} src="https://files.readme.io/ba7290711628e12af9e9a6131ca7fc9cbc8c63b417aff2dbd720fe1c6bce51b9-OBA_login_page.png" width="600px" alt="Logging into RM OBA" />
@@ -54,12 +55,14 @@ To check whether your OBA account is active, follow the steps below.
 
     ***
   </ToggleListItem>
-<br />
 
-  <ToggleListItem title="3. Access your Online Business Account" icon="fa-check-circle">
+  <br />
+
+  <ToggleListItem title="3. Access your Online Business Account" icon="fa-check-circle"> <br />
     Once logged in, select **Access Online Business Account**.
 
     <Image align="center" border={true} src="https://files.readme.io/463e646-image.png" alt="Accessing OBA" />
+<br />
 
     <Tabs>
       <Tab title="✅ Account is active">
