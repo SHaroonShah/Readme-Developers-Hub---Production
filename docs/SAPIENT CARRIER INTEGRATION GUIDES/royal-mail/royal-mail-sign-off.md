@@ -13,7 +13,6 @@ The **Get OBA Access Code** API is used across different account lifecycle event
 
 This section outlines the sign-off process for each scenario, highlights key API interactions and error handling to help customers navigate setup and updates with confidence.
 
-
 <Accordion title="Adding Royal Mail shipping account" icon="fa-plus">
   1. After sending the Royal Mail Add Account request with all mandatory fields populated except the OBA access code, SAPIENT sends a **Get OBA Access Code** Request to Royal Mail.
   2. If Royal Mail responds successfully, the shipping account is created in the **Active** status.
@@ -75,7 +74,9 @@ This section outlines the sign-off process for each scenario, highlights key API
   |    E0016   | OBA registration failed - Matching record already exist in OBA                                | ObaAccessCodeApi          |
 </Accordion>
 
-<br />
+***
+
+### See also
 
 <Cards columns={1}>
   <Card title="Edit shipping account" href="https://docs.intersoftsapient.net/docs/edit-shipping-account" icon="fa-pen-to-square">
