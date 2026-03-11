@@ -155,7 +155,7 @@ This integration represents a significant step towards optimising shipping funct
 
 > 📘 _Note_
 >
-> _For more information on the API services, refer to the SAPIENT Royal Mail API endpoints._
+> _For more information on the API services, refer to the [SAPIENT Royal Mail](https://docs.intersoftsapient.net/v4.03/reference/post_v4-shipments-rm) API endpoints._
 
 ***
 
