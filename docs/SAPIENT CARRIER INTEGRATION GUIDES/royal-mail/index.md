@@ -208,7 +208,7 @@ This integration represents a significant step towards optimising shipping funct
         Generate a barcode range for your international arrivals containers to track the containers arriving in the UK.
       </Card>
 
-      <Card title="Royal Mail Importer Services" href="https://docs.intersoftsapient.net/v4.03/docs/rm-importers" icon="fa-solid fa-hand-holding-box">
+      <Card title="Royal Mail Importer Services" href="https://docs.intersoftsapient.net/v4.03/docs/rm-importers" icon="fa-solid fa-arrow-down-to-arc">
         Use the collection service to have your returns collected from your homes.
       </Card>
     </Cards>
