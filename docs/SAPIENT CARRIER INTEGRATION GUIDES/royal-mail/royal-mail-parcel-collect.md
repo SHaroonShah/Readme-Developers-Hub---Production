@@ -22,14 +22,16 @@ The collections service integration automates the return process, reducing manua
 
 The Royal Mail collection allows the system to default the dimensions and format based on the weight of the shipment, applying the maximum dimensions specified on our website for each format:
 
-| Weight range | Classification |
-| --- | --- |
-| **750g or under** | Large Letters |
-| **751g – 2kg** | Small Parcels |
+| Weight range            | Classification |
+| ----------------------- | -------------- |
+| **750g or under**       | Large Letters  |
+| **751g – 2kg**          | Small Parcels  |
 | **Over 2kg up to 20kg** | Medium Parcels |
 
 <Callout icon="🚧" theme="warning">
-  Before using this feature, make sure to enable the **Collect** integration via the [integration activation](https://docs.intersoftsapient.net/docs/integration-activation) page.
+  ### _Important_
+
+  _Before using this feature, make sure to enable the **Collect** integration via the [integration activation](https://docs.intersoftsapient.net/docs/integration-activation) page._
 </Callout>
 
 ## Create a return shipment
@@ -37,12 +39,14 @@ The Royal Mail collection allows the system to default the dimensions and format
 If you want to enable your customers to have their returns collected from their homes, create a Royal Mail shipment using one of Royal Mail's return services <Glossary>TSN Tracked Returns 24</Glossary> or <Glossary>TSS Tracked Returns 48</Glossary>. Ensure you meet [all the requirements](https://docs.intersoftsapient.net/docs/royal-mail-returns) when creating a returns shipment. You can then request a Royal Mail collection for the <Glossary>shipment</Glossary>.
 
 <Callout icon="🚧" theme="danger">
-  Royal Mail does not have the **Test** environment for Collection service. It can only be developed against the **Production** environment. This means that you need to book an actual collection and then cancel it before the date of the collection.
+  ### _Important_
+
+  _Royal Mail does not have the **Test** environment for Collection service. It can only be developed against the **Production** environment. This means that you need to book an actual collection and then cancel it before the date of the collection._
 </Callout>
 
-<Callout icon="📘" theme="info">
-  The return shipment must be created using the [Create Shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm) request.
-</Callout>
+> 📘 _Note_
+>
+> _The return shipment must be created using the [Create Shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm) request._
 
 ## Configure collection options
 
@@ -52,11 +56,13 @@ You can either allow SAPIENT to default the collection to the first available co
   By default, the labels are not brought by Royal Mail. If you need this enhancement, set the **BringMyLabel** parameter to **True**. The return shipments and collections do not require manifesting.
 </Accordion>
 
-<Image align="center" alt="Workflow for creating shipments using collection service" border={false} caption="Workflow for creating shipments using collection service" src="https://files.readme.io/23d766f112ee59190e6487da2b979ae6ab2368a441d69ab8f6c8463360b56f94-Collection_service_flow.png" />
+<Image align="center" alt="Workflow for creating shipments using collection service" caption="Workflow for creating shipments using collection service" src="https://files.readme.io/23d766f112ee59190e6487da2b979ae6ab2368a441d69ab8f6c8463360b56f94-Collection_service_flow.png" />
 
-<Callout icon="📘" theme="info">
-  The name displayed on the Parcel Collect notification sent to the end consumer is driven by the name set up on the <Glossary>Online Business Account</Glossary> (OBA) account. If you wish to change the name on your account, contact your Royal Mail account handler as you cannot change the name for Parcel Collect alone.
-</Callout>
+> 📘 _Note_
+>
+> _The name displayed on the Parcel Collect notification sent to the end consumer is driven by the name set up on the <Glossary>Online Business Account</Glossary> (OBA) account. If you wish to change the name on your account, contact your Royal Mail account handler as you cannot change the name for Parcel Collect alone._
+
+***
 
 ## Related resources
 
@@ -64,10 +70,14 @@ You can either allow SAPIENT to default the collection to the first available co
   <Card title="Create Shipment API" href="https://docs.intersoftsapient.net/reference/post_v4-shipments-rm" icon="fa-plus">
     Generate return labels for your packages.
   </Card>
+
   <Card title="Return requirements" href="https://docs.intersoftsapient.net/docs/royal-mail-returns" icon="fa-rotate-left">
     View all requirements for creating a returns shipment.
   </Card>
+
   <Card title="Integration activation" href="https://docs.intersoftsapient.net/docs/integration-activation" icon="fa-toggle-on">
     Enable the Collect integration for your account.
   </Card>
 </Cards>
+
+<br />
