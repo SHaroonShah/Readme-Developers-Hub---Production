@@ -64,7 +64,7 @@ You can either allow SAPIENT to default the collection to the first available co
 
 ***
 
-## Related resources
+### See also
 
 <Cards columns={3}>
   <Card title="Create Shipment API" href="https://docs.intersoftsapient.net/reference/post_v4-shipments-rm" icon="fa-plus">
