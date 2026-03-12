@@ -45,7 +45,7 @@ To ensure the correct generation of the return labels, meet all of the following
 >
 > _The labels created for the return service do not have to be manifested._
 
-## Optional: Paperless returns with QR code
+## Paperless returns with QR code (optional)
 
 If you are interested in the paperless return solution for your customers, you can generate a QR code after creating the shipment and share it with the end consumer. The customer can then take it to the post office, either printed or on a mobile device, and scan it to have the returns label printed.
 
