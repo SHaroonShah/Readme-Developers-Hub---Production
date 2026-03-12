@@ -209,7 +209,7 @@ This integration represents a significant step towards optimising shipping funct
       </Card>
 
       <Card title="Royal Mail Importer Services" href="https://docs.intersoftsapient.net/v4.03/docs/rm-importers" icon="fa-solid fa-arrow-down-to-arc">
-        Use the collection service to have your returns collected from your homes.
+        Use the Royal Mail import services to facilitates the importation of goods into the UK from overseas.
       </Card>
     </Cards>
   </Tab>
