@@ -136,5 +136,3 @@ next:
     > See our 99.9% uptime API status.
   </Card>
 </Cards>
-
-https://docs.intersoftsapient.net/docs/fedex-international
