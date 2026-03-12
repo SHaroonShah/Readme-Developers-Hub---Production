@@ -42,6 +42,14 @@ After you have all the <Glossary>shipment information</Glossary>, call the Royal
 
 ***
 
+## API Recipe
+
+Follow a step-by-step guide API recipe on how to use the pre-allocated tracking number
+
+<Recipe slug="use-pre-allocated-tracking-number" title="Use pre-allocated tracking number" />
+
+***
+
 ### See also
 
 <Cards columns={2}>
@@ -50,4 +58,4 @@ After you have all the <Glossary>shipment information</Glossary>, call the Royal
   </Card>
 </Cards>
 
-<Recipe slug="use-pre-allocated-tracking-number" title="Use pre-allocated tracking number" />
+<br />
