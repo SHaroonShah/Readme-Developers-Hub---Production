@@ -43,20 +43,23 @@ To ensure the correct generation of the return labels, meet all of the following
   For Royal Mail Importers, this can also be populated with *ITA Tracked Returns 24* or *ITB Tracked Returns 48*. Speak to your Royal Mail account manager to confirm which service code you should be using.
 </Accordion>
 
-<Callout icon="📘" theme="info">
-  The labels created for the return service do not have to be manifested.
-</Callout>
+> 📘 _Note_
+>
+> _The labels created for the return service do not have to be manifested._
 
 ## Optional: Paperless returns with QR code
 
 If you are interested in the paperless return solution for your customers, you can generate a QR code after creating the shipment and share it with the end consumer. The customer can then take it to the post office, either printed or on a mobile device, and scan it to have the returns label printed.
 
-## Related API references
+***
+
+## API refrences
 
 <Cards columns={2}>
   <Card title="Create Shipment" href="https://docs.intersoftsapient.net/reference/post_v4-shipments-rm" icon="fa-plus">
     Generate return labels for your packages.
   </Card>
+
   <Card title="Print My Label QR Code" href="https://docs.intersoftsapient.net/reference/get_v4-shipments-printmylabelqrcode-rm-shipmentid" icon="fa-qrcode">
     Generate a QR code for paperless returns.
   </Card>
