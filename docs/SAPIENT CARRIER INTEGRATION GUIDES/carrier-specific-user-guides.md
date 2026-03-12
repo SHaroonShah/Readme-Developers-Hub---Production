@@ -25,6 +25,10 @@ The following carrier guides are included in this section:
     <Image align="center" src="https://files.readme.io/ca682034958fed59c591856e8e0d48b40f426d2b7a3adabf3b48e8b441485302-RM_white_logo.png" width="100px" />
   </Card>
 
+  <Card title="" href="https://docs.intersoftsapient.net/docs/amazon" Width="200">
+    <Image align="center" src="https://files.readme.io/af2ebd212d4542b0c107ee36394f6454cdc5bd404b1b7948b14d08e5ed2a3e28-Amazon_shipping_logo_white.png" width="100px" />
+  </Card>
+
   <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/an-post#/versions" Width="200">
     <Image align="center" src="https://files.readme.io/770237c3f809f1b4be1ccf51ca8418ce8440069178e4dd4ff1b563d0e4c7210b-An_post_logo_white.png" width="100px" />
   </Card>
@@ -49,6 +53,10 @@ The following carrier guides are included in this section:
     <Image align="center" src="https://files.readme.io/3177ea019148646dc790839b457550d5afb4b97147964716a495af50c67c3470-FedEx_white_logo.png" width="100px" />
   </Card>
 
+  <Card title="" href="https://docs.intersoftsapient.net/docs/fedex-international" Width="200">
+    <Image align="center" src="https://files.readme.io/3177ea019148646dc790839b457550d5afb4b97147964716a495af50c67c3470-FedEx_white_logo.png" width="100px" />
+  </Card>
+
   <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/inpost#/versions" Width="200">
     <Image align="center" src="https://files.readme.io/fd33881958476474461aeb2782e3edb82cf11e91765108544679a189497f4dda-InPost_white_logo.png" width="100px" />
   </Card>
@@ -65,3 +73,5 @@ The following carrier guides are included in this section:
     <Image align="center" src="https://files.readme.io/2e73b38cea3124ccafc735e816750a46eb26141d65f142460b218d8f6985fd2f-Yodel_logo_white.png" width="100px" />
   </Card>
 </Cards>
+
+<br />
