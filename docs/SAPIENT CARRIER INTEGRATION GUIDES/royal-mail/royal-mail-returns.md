@@ -53,7 +53,7 @@ If you are interested in the paperless return solution for your customers, you c
 
 ***
 
-## API refrences
+## API references
 
 <Cards columns={2}>
   <Card title="Create Shipment" href="https://docs.intersoftsapient.net/reference/post_v4-shipments-rm" icon="fa-plus">
