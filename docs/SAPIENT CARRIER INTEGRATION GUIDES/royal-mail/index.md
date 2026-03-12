@@ -195,7 +195,7 @@ This integration represents a significant step towards optimising shipping funct
   </Tab>
 
   <Tab title="Advanced Features">
-    <Cards columns={3}>
+    <Cards columns={2}>
       <Card title="Collection Service" href="https://docs.intersoftsapient.net/docs/royal-mail-parcel-collect" icon="fa-solid fa-hand-holding-box">
         Use the collection service to have your returns collected from your homes.
       </Card>
