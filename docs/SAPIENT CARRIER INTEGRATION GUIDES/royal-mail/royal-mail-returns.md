@@ -17,9 +17,7 @@ metadata:
 next:
   description: ''
 ---
-In SAPIENT, if you are a Royal Mail customer, you can use the return service as follows:
-
-The only API call that you must develop for Royal Mail return services is [Create Shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm), which is used to generate the <Glossary>labels</Glossary> for your packages.
+In SAPIENT, if you are a Royal Mail customer, the only API call that you must develop for Royal Mail return services is [Create Shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm), which is used to generate the <Glossary>labels</Glossary> for your packages.
 
 ## Requirements for return labels
 
