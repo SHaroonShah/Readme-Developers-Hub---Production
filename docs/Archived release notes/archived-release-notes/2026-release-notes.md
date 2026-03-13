@@ -29,7 +29,7 @@ metadata:
 
   > 📘 *Note*
   >
-  > *The [Get Carrier](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode) and [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoints in our **SAPIENT CORE API** block can also be utilised to look for the carrier and its available services.*
+  > *The[Get Carrier](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode) and [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoints in our **SAPIENT CORE API** block can also be utilised to look for the carrier and its available services.*
 
   ## InPost tracking webhook
 
@@ -167,6 +167,100 @@ metadata:
   > *This is just the first phase of our redesign. The second phase is currently under development, which will introduce even more improvements, features, and upgrades to our documentation.*
 
   <br />
+</Accordion>
+
+<Accordion title="SAPIENT release notes - February 24, 2026" icon="fa-info-circle">
+  ## Royal Mail Windsor Framework updates
+  The following changes have been made for Royal Mail shipments sent from Great Britain to Northern Ireland (addresses with a GB country code and postcode beginning BT):
+
+1. The shipment declaredValue must equal the sum of the item values within the shipment. The declaredValue cannot be less than or greater than the sum of the item values.
+2. For B2B shipments where a pre-registration number with pre-registration type UKIMS is provided, previous logic that treated Item HS Code as optional has now been removed. Royal Mail’s standard reference data will now be used to determine whether Item HS Code is mandatory or optional. B2B shipments are validated against Ruleset K, which is documented in the <Anchor label="Royal Mail Validation Rules" target="_blank" href="https://docs.intersoftsapient.net/docs/royal-mail-validation-rules">Royal Mail Validation Rules</Anchor> guide.
+
+  ## Royal Mail Express 10 Service - Local Collect label templates added
+  Local Collect label templates have been added for the Express 10 service, so that labels for this service can now be generated containing the Local Collect text label.
+
+The following variations of the Express 10 label have been added:
+•	Express 10 service with Local Collect
+•	Express 10 service with Local Collect and ‘Do Not Fly’ statement (for LQDG)
+•	Express 10 service with Local Collect and signature
+•	Express 10 service with Local Collect, signature and ‘Do Not Fly’ statement
+
+See an example label below:
+
+<Image align="center" width="45% " src="https://files.readme.io/276e195454950b2caaa49aab4621fdc819e177a9ce0244cc1ddee32f948813df-Label.png" />
+
+  ## Royal Mail Collections API updates
+The following updates have been made to the Royal Mail Book Collection API:
+
+* New field added CollectionSafePlace – allows a designated safe place to be provided for the collection address that Royal Mail can securely collect the parcel from.
+* New field added OptOutFromRmNotifications – provides the option to choose whether or not collection notifications are sent to the consignee by Royal Mail.
+
+> 📘 _Note_
+>
+> _For more details on these changes, refer to the Royal Mail he <Anchor label="Book Collections API" target="_blank" href="https://docs.intersoftsapient.net/reference/post_v4-collections-rm-shipmentid">Book Collections API</Anchor> endpoint_
+
+  ## Hazardous Item updates
+The validation rules applied to hazardous items have been updated. The fields UNCode, Quantity and UnitofMeasure have changed from mandatory to conditional. These fields do not need to be provided for hazardous items, but if any of these fields is provided then all three must be. This change applies to the Royal Mail Create Shipment Request, Add Product and Update Product API requests, Get Product and Get Products API responses, and the Products UI. 
+
+> 📘 _Note_
+>
+> _For more details on the API updates, refer to the the <Anchor label="API References" target="_blank" href="https://docs.intersoftsapient.net/reference/">API References</Anchor> page._
+
+  ## New integration - Amazon
+The Amazon integration has been added to the SAPIENT system. This integration supports shipping via Amazon domestically within the UK for both orders created via Amazon and outside of Amazon.
+
+With this addition, the following information has been added to the swagger documentation:
+
+**New API endpoints**. A new **AMAZON** block has been added to our carrier-specific APIs. This block includes the following API endpoints:
+
+* **Shipping Account**
+  * **Get Accounts**: Retrieve a list of the Amazon shipping accounts.
+  * **Add Account**: Add a new Amazon shipping account.
+  * **Get Account**: Retrieve details of a specific Amazon shipping account.
+  * **Update Account**: Update details of an existing Amazon shipping account.
+  * **Link Locations**: Link shipping locations to an Amazon shipping account.
+  * **Get Associated Locations**: Retrieve locations linked to the Amazon shipping account.
+  * **Get Associated Location**: Retrieve details for a specific Amazon associated location.
+* **Shipments**
+  * **Create Shipment**: Create a new Amazon shipment request.
+  * **Print Label**: Generate a label for the Amazon shipment.
+* **Amazon shipping account screen**. As part of the new integration, customer users and Carrier Account Administrators can now configure the Amazon shipping account via the SAPIENT UI for creating shipments.  The **Add Shipping Account** screen will now include Amazon as a carrier for selection, with mandatory fields required for configuration. 
+
+> 📘 _Note_
+>
+> _For more information on how to set up an Amazon shipping account, refer to the  <Anchor label="Add Amazon Shipping Account" target="_blank" href="https://docs.intersoftsapient.net/docs/add-amazon-shipping-account">Add Amazon Shipping Account</Anchor> user guide._
+  
+  ## New integration - FedEx International Connect
+The FedEx International Connect integration has been added to the SAPIENT system. This integration supports shipping domestically within the UK, and to EU and Rest of World destinations. With this addition, the following information has been added to the swagger documentation:
+
+**New API endpoints**. A new **FEDEX INTERNATIONAL CONNECT** block has been added to our carrier-specific APIs. This block includes the following API endpoints:
+
+* **Shipping Account**
+  * **Get Accounts**: Retrieve a list of the FedEx International Connect shipping accounts.
+  * **Add Account**: Add a new FedEx International Connect shipping account.
+  * **Get Account**: Retrieve details of a specific FedEx International Connect shipping account.
+  * **Update Account**: Update details of an existing FedEx International Connect shipping account.
+  * **Link Locations**: Link shipping locations to an FedEx International Connect shipping accounts.
+  * **Get Associated Locations**: Retrieve locations linked to the FedEx International Connect shipping account.
+  * **Get Associated Location**: Retrieve details for a specific FedEx International Connect associated location.
+* **Shipments**
+  * **Create Shipment**: Create a new FedEx International Connect shipment request.
+  * **Print Label**: Generate a label for the FedEx International Connect shipment.
+* **FedEx International Connect shipping account screen**. As part of the new integration, customer users and Carrier Account Administrators can now configure the FedEx International Connect shipping account via the SAPIENT UI for creating shipments.  The **Add Shipping Account** screen will now include FedEx International Connect as a carrier for selection, with mandatory fields required for configuration. Additionally, carrier-specific fields for the FedEx International Connect integration include a mandatory **Shipper Website URL** and  an **API Key** (to be provided by the carrier).
+
+> 📘 _Note_
+>
+  > _For more information on how to set up a FedEx International Connect shipping account, refer to the <Anchor label="Add FedEx International Connect Shipping Account" target="_blank" href="https://docs.intersoftsapient.net/docs/add-fedex-international-shipping-account">Add FedEx International Connect Shipping Account</Anchor> user guide._
+  
+  ## Swagger documentation updates 
+The AnPost Create Shipment swagger has been updated to contain notes on some additional validation rules that apply to shipments to USA. The fields that have been updated are:
+
+* **Destination** > **Address** object
+* **Items** object > **HSCode**
+
+> 📘 _Note_
+>
+> _For more information on these updates, refer to the <Anchor label="An Post Create Shipment API swagger" target="_blank" href="https://docs.intersoftsapient.net/reference/post_v4-shipments-anpost">An Post Create Shipment API swagger</Anchor> documentation._
 </Accordion>
 
 <br />
