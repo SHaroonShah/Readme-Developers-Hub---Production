@@ -24,7 +24,10 @@ If you wish to use the Royal Mail import services, you can integrate with Inters
 
 ## Getting Started
 
-<Cards columns={3}>
+<Cards columns={4}>
+  <Card title="Integrate with Royal Mail Import Service" href="https://docs.intersoftsapient.net/docs/sandbox-development-api-requirements" icon="fa-solid fa-code">
+    API development requirements for Sandbox.
+  </Card>
   <Card title="Sandbox API development" href="https://docs.intersoftsapient.net/docs/sandbox-development-api-requirements" icon="fa-solid fa-code">
     API development requirements for Sandbox.
   </Card>
