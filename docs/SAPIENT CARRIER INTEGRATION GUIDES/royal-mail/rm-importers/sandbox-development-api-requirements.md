@@ -69,6 +69,7 @@ As a minimum, have the following API calls developed:
       Get details for a specific container.
     </Card>
   </Cards>
+<br />
 </Accordion>
 
 > 📘 _Note_
