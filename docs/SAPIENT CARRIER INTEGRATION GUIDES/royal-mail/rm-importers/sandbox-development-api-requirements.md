@@ -73,13 +73,15 @@ As a minimum, have the following API calls developed:
 
 > 📘 _Note_
 >
-> At INTERSOFT, we have developed a dedicated API endpoint for servers based in China.  To access this, kindly change your domain from **.net** to **.cn** for all the relevant endpoints you will be using.
+> _At INTERSOFT, we have developed a dedicated API endpoint for servers based in China.  To access this, kindly change your domain from **.net** to **.cn** for all the relevant endpoints you will be using._
 >
 > _For example, when creating a new shipment replace the[https://api.intersoftsapient.net/v4/shipments/rm](https://api.intersoftsapient.net/v4/shipments/rm) URL with [https://api.intersoftsapient.cn/v4/shipments/rm](https://api.intersoftsapient.net/v4/shipments/rm)._
 >
-> As a back-up, please develop **.net** as well.
+> _As a back-up, please develop **.net** as well._
 
-## See also
+***
+
+### See also
 
 <Cards>
   <Card title="Authentication" href="https://docs.intersoftsapient.net/docs/authentication" icon="fa-solid fa-lock">
