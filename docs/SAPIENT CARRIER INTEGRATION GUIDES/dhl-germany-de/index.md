@@ -1,7 +1,7 @@
 ---
 title: DHL Germany (DE)
 deprecated: false
-hidden: false
+hidden: true
 icon: fad fa-truck-fast
 metadata:
   robots: index
