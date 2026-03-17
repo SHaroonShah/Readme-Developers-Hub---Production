@@ -1,5 +1,5 @@
 ---
-title: Add DHL Express shippinf account
+title: Add DHL Express shipping account
 deprecated: false
 hidden: false
 icon: fad fa-truck-fast
