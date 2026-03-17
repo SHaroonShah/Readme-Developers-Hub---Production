@@ -37,9 +37,9 @@ As a minimum, have the following API calls developed:
   </Card>
 </Cards>
 
-<Callout icon="❗" theme="danger">
-  Manifest your shipments before they enter the Royal Mail network. Not doing so may result in delays, missing tracking, lack of notifications for your end consumers, surcharges, and other issues.
-</Callout>
+> 🚧 _Important_
+>
+> _Manifest your shipments before they enter the Royal Mail network. Not doing so may result in delays, missing tracking, lack of notifications for your end consumers, surcharges, and other issues._
 
 <Accordion title="International Arrivals Containers (A-Scan) — Freight 2 Post customers only" icon="fa-solid fa-ship">
   These API calls are **mandatory for Freight 2 Post customers**. Freight 2 Post customers must manifest their shipments by container.
