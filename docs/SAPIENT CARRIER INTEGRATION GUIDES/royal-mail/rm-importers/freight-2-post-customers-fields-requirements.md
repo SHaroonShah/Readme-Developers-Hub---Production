@@ -15,9 +15,9 @@ next:
 ---
 If you are importing goods into the UK via Freight 2 Post route, please ensure to provide the following details.
 
-> 🚧 *Important*
+> 🚧 _Important_
 >
-> *The following requirements are Royal Mail specific in addition to Intersoft's mandatory fields.*
+> _The following requirements are Royal Mail specific in addition to Intersoft's mandatory fields._
 
 <Table align={["center","left"]}>
   <thead>
@@ -107,6 +107,6 @@ If you are importing goods into the UK via Freight 2 Post route, please ensure t
   </tbody>
 </Table>
 
-> 🚧 *Please note*
+> 🚧 _Note_
 >
-> *The above are also requirements specific for Royal Mail customers creating international shipments.*
+> _The above are also requirements specific for Royal Mail customers creating international shipments._
