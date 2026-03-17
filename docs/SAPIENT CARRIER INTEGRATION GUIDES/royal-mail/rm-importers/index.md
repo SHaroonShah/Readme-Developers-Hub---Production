@@ -46,8 +46,19 @@ To integrate with the Royal Mail import services via SAPIENT, follow the steps l
    Production details will be provided to you when your account is switched onto production.
 7. After, develop all the [API calls required](https://docs.intersoftsapient.net/docs/sandbox-development-api-requirements) considering the specific requirements applicable to you:
 
-* If you are a Commercial Clearance customer, refer to the [corresponding requirements](https://docs.intersoftsapient.net/docs/commercial-clearance-customers).
-* If you are a Freight 2 Post customer, refer to the [corresponding requirements](https://docs.intersoftsapient.net/docs/freight-2-post-customers).
+<Columns layout="auto">
+  <Column>
+    **Commercial Clearance customers**
+
+    Refer to the [Commercial Clearance requirements](https://docs.intersoftsapient.net/docs/commercial-clearance-customers).
+  </Column>
+
+  <Column>
+    **Freight 2 Post customers**
+
+    Refer to the [Freight 2 Post requirements](https://docs.intersoftsapient.net/docs/freight-2-post-customers).
+  </Column>
+</Columns>
 
 > 🚧 *Important*
 >
@@ -61,22 +72,33 @@ To integrate with the Royal Mail import services via SAPIENT, follow the steps l
 
 9. Once the **Test Pack** is approved, our team will [switch your account to Production](https://docs.intersoftsapient.net/docs/switching-the-account-to-production) and share with you the details on the sign off process required by Royal Mail.
 
-Please direct any questions or issues with this service to [onboarding@intersoft.co.uk.](mailto:onboarding@intersoft.co.uk.). For INTERSOFT to investigate your issue accordingly, kindly include copies of both the API request and API response.
+<Callout icon="📧" theme="info">
+  **Need help?** Direct any questions or issues to [onboarding@intersoft.co.uk](mailto:onboarding@intersoft.co.uk).
 
-> 🚧 *Important*
->
-> *While submitting your issues to Intersoft, please do not include your API credentials in the request.*
+  When submitting an issue, include copies of both the API request and API response so INTERSOFT can investigate accordingly.
 
+  ⚠️ **Do not** include your API credentials in the request.
+</Callout>
 ## See also
 
-If you are interested as well in using returns service(s), refer to our article [here](https://docs.intersoftsapient.net/docs/switching-the-account-to-production) listing all the requirements.
+<Cards columns={2}>
+  <Card title="Returns services" href="https://docs.intersoftsapient.net/docs/switching-the-account-to-production" icon="fa-solid fa-rotate-left">
+    View all the requirements for using Royal Mail returns services.
+  </Card>
 
-If you are interested in our tracking solution, refer to the following sections on how to set up our <Glossary>tracking webhook</Glossary> solution:
+  <Card title="Tracking Webhook" href="https://docs.intersoftsapient.net/docs/tracking-webhook-1" icon="fa-solid fa-bell">
+    Set up the webhook connection, create a tracking account, and more.
+  </Card>
 
-* [Tracking Webhook](https://docs.intersoftsapient.net/docs/tracking-webhook-1): set up the webhook connection, create tracking account, and much more.
-* [Royal Mail tracking account setup](https://docs.intersoftsapient.net/docs/royal-mail-tracking-account-setup): set up Royal Mail <Glossary>tracking account</Glossary> .
-* [Response examples](https://docs.intersoftsapient.net/reference/post_v4-trackings-pushpayloadexample): view response example of the tracking webhook push notification payload, as sent to a customer's webhook when tracking information is received from a carrier.
+  <Card title="Royal Mail tracking account setup" href="https://docs.intersoftsapient.net/docs/royal-mail-tracking-account-setup" icon="fa-solid fa-magnifying-glass-location">
+    Set up a Royal Mail tracking account.
+  </Card>
 
-> 📘 *Note*
->
-> *To enable the**Tracking Webhook** solution, please contact our [Intersoft Onboarding](mailto:onboarding@intersoft.co.uk.) team.*
+  <Card title="Response examples" href="https://docs.intersoftsapient.net/reference/post_v4-trackings-pushpayloadexample" icon="fa-solid fa-code">
+    View response examples of the tracking webhook push notification payload.
+  </Card>
+</Cards>
+
+<Callout icon="📘" theme="info">
+  To enable the **Tracking Webhook** solution, contact the [Intersoft Onboarding](mailto:onboarding@intersoft.co.uk) team.
+</Callout>
