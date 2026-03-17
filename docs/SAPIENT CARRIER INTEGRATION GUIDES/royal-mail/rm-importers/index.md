@@ -180,6 +180,8 @@ To integrate with the Royal Mail import services via SAPIENT, follow the steps l
   </Card>
 </Cards>
 
+***
+
 ## See also
 
 <Cards columns={2}>
