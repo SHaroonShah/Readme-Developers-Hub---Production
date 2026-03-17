@@ -17,28 +17,57 @@ next:
 ---
 The [PUDO API](https://docs.intersoftsapient.net/reference/get_v4-pudolocations-carriercode-countrycode-postcode#/) enhances customer convenience by allowing them to access essential shipping options for both sending and returning packages seamlessly by offering the following options:
 
-* **Pick Up**: Allows customers to choose to collect their parcel from a PUDO point. It is particularly beneficial for those who may not always be available for direct delivery, helping to reduce missed delivery attempts and enhance overall customer satisfaction.
-* **Drop-off**: Allows customers to find a location where they can drop off a parcel they want to return.
+<Columns layout="auto">
+  <Column>
+    **📦 Pick Up**
+
+    Allows customers to choose to collect their parcel from a PUDO point. It is particularly beneficial for those who may not always be available for direct delivery, helping to reduce missed delivery attempts and enhance overall customer satisfaction.
+  </Column>
+
+  <Column>
+    **🔄 Drop-off**
+
+    Allows customers to find a location where they can drop off a parcel they want to return.
+  </Column>
+</Columns>
 
 <Image align="center" border={true} width="200px" src="https://files.readme.io/fc9948cba5b87c15e89ceda1d55fe6f022a938bb2b8661ace1f6f9c9e5572799-Post_office.gif" className="border" />
 
 With the advancements in the location services, Royal Mail now supports the following location types:
 
-📍**Customer Service point (CSP)**: Customer Service Point at a Delivery Office.
+<Cards columns={2}>
+  <Card title="Customer Service Point (CSP)" icon="fa-regular fa-building">
+    Customer Service Point at a Delivery Office.
+  </Card>
 
-📍**Post Office (POL)**: Nearby post office.
+  <Card title="Post Office (POL)" icon="fa-regular fa-envelope">
+    Nearby post office.
+  </Card>
 
-📍**Lockers (LOK)**: Convenient parcel lockers available for pickup.
+  <Card title="Lockers (LOK)" icon="fa-solid fa-lock">
+    Convenient parcel lockers available for pickup.
+  </Card>
 
-📍**Collect+ Stores (PSH)**: A network of retail outlets, offering parcel collection services.
+  <Card title="Collect+ Stores (PSH)" icon="fa-solid fa-store">
+    A network of retail outlets, offering parcel collection services.
+  </Card>
+</Cards>
 
-The SAPIENT system offers two effective approaches for accessing PUDO (Pick Up Drop Off) locations to enhance local collection options for Royal Mail customers.
+The SAPIENT system offers two approaches for accessing PUDO (Pick Up Drop Off) locations to enhance local collection options for Royal Mail customers.
 
-The first method utilises the [PUDO API](https://docs.intersoftsapient.net/reference/get_v4-pudolocations-carriercode-countrycode-postcode#/), which allows users to retrieve nearby collection points on an ad-hoc basis during checkout ensuring real-time access to essential location information.
+<Columns layout="auto">
+  <Column>
+    **PUDO API**
 
-The second approach involves SFTP (Secure File Transfer Protocol), where customers can download a comprehensive, daily-updated library of all available PUDO locations.
+    The [PUDO API](https://docs.intersoftsapient.net/reference/get_v4-pudolocations-carriercode-countrycode-postcode#/) allows users to retrieve nearby collection points on an ad-hoc basis during checkout, ensuring real-time access to location information.
+  </Column>
 
-Together, these options provide flexibility and convenience, catering to the diverse shipping needs of Royal Mail customers.
+  <Column>
+    **SFTP**
+
+    SFTP (Secure File Transfer Protocol) enables customers to download a comprehensive, daily-updated library of all available PUDO locations.
+  </Column>
+</Columns>
 
 Based on your requirements, you can choose various approaches to use the PUDO lookup and create a Royal Mail shipment with the Local Collect enhancement as explained in the following sections.
 
