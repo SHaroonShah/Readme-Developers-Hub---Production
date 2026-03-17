@@ -128,28 +128,57 @@ To integrate with the Royal Mail import services via SAPIENT, follow the steps l
   </ToggleListItem>
 </ToggleList>
 
-<Callout icon="💡" theme="default">
-  ### _Tip_
+## Need Help?
 
-  _Please direct any questions or issues with this service to [onboarding@intersoft.co.uk.](mailto:onboarding@intersoft.co.uk.). For INTERSOFT to investigate your issue accordingly, kindly include copies of both the API request and API response._
+<Callout icon="💡" theme="default">
+  _Please direct any questions or issues with this service to [onboarding@intersoft.co.uk](mailto:onboarding@intersoft.co.uk). For INTERSOFT to investigate your issue accordingly, kindly include copies of both the API request and API response._
 
   _While submitting your issues to Intersoft, please do not include your API credentials in the request._
 </Callout>
 
 ## Getting Started
 
-This section includes the following essential requirements and setup instructions:
+<Cards columns={3}>
+  <Card title="Sandbox API development" href="https://docs.intersoftsapient.net/docs/sandbox-development-api-requirements" icon="fa-solid fa-code">
+    API development requirements for Sandbox.
+  </Card>
 
-* [API development requirements for Sandbox](https://docs.intersoftsapient.net/docs/sandbox-development-api-requirements)
-* [Import requirements for Commercial Clearance customers](https://docs.intersoftsapient.net/docs/commercial-clearance-customers)
-* [Import requirements for Freight 2 Post customers](https://docs.intersoftsapient.net/docs/freight-2-post-customers)
-* [Field requirements for Freight 2 Post customers](https://docs.intersoftsapient.net/docs/freight-2-post-customers-fields-requirements)
-* [Sandbox Test Pack for Royal Mail import service](https://docs.intersoftsapient.net/docs/royal-mail-importers-sandbox-test-pack)
-* [Switch account to production](https://docs.intersoftsapient.net/docs/switching-the-account-to-production)
-* [Set up International Arrival Containers](https://docs.intersoftsapient.net/docs/add-barcode-range-for-international-arrival-containers)
-* [International Arrival Containers (A-Scan) flow](https://docs.intersoftsapient.net/docs/internation-arrival-containers-ascan-flow)
-* [A-Scan FAQs](https://docs.intersoftsapient.net/docs/a-scan-faqs)
-* [Combined label + CN22](https://docs.intersoftsapient.net/docs/combined-label)
+  <Card title="Sandbox Test Pack" href="https://docs.intersoftsapient.net/docs/royal-mail-importers-sandbox-test-pack" icon="fa-solid fa-clipboard-check">
+    Complete and submit the Test Pack for Royal Mail import service.
+  </Card>
+
+  <Card title="Switch to production" href="https://docs.intersoftsapient.net/docs/switching-the-account-to-production" icon="fa-solid fa-rocket">
+    Switch your account from Sandbox to production.
+  </Card>
+
+  <Card title="Commercial Clearance requirements" href="https://docs.intersoftsapient.net/docs/commercial-clearance-customers" icon="fa-solid fa-file-invoice">
+    Import requirements for Commercial Clearance customers.
+  </Card>
+
+  <Card title="Freight 2 Post requirements" href="https://docs.intersoftsapient.net/docs/freight-2-post-customers" icon="fa-solid fa-truck">
+    Import requirements for Freight 2 Post customers.
+  </Card>
+
+  <Card title="Freight 2 Post field requirements" href="https://docs.intersoftsapient.net/docs/freight-2-post-customers-fields-requirements" icon="fa-solid fa-list-check">
+    Field-level requirements for Freight 2 Post customers.
+  </Card>
+
+  <Card title="International Arrival Containers" href="https://docs.intersoftsapient.net/docs/add-barcode-range-for-international-arrival-containers" icon="fa-solid fa-barcode">
+    Set up International Arrival Containers (A-Scan).
+  </Card>
+
+  <Card title="A-Scan flow" href="https://docs.intersoftsapient.net/docs/internation-arrival-containers-ascan-flow" icon="fa-solid fa-arrows-spin">
+    International Arrival Containers (A-Scan) flow.
+  </Card>
+
+  <Card title="A-Scan FAQs" href="https://docs.intersoftsapient.net/docs/a-scan-faqs" icon="fa-solid fa-circle-question">
+    Frequently asked questions about A-Scan.
+  </Card>
+
+  <Card title="Combined label + CN22" href="https://docs.intersoftsapient.net/docs/combined-label" icon="fa-solid fa-tags">
+    Combined label and CN22 documentation.
+  </Card>
+</Cards>
 
 ## See also
 
