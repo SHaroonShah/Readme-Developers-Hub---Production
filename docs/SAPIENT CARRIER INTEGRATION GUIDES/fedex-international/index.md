@@ -27,7 +27,7 @@ This integration provides the following key features:
 
 > 📘 _Note_
 >
-> _The FedEx International Connect does not support shipping to the following ROW countries:_
+> _The SAPIENT system does not support shipping to the following ROW countries:_
 >
 > * _China_
 > * _Russia_
