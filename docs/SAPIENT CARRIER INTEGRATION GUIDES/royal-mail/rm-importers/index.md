@@ -128,8 +128,6 @@ To integrate with the Royal Mail import services via SAPIENT, follow the steps l
   </ToggleListItem>
 </ToggleList>
 
-<br />
-
 <Callout icon="💡" theme="default">
   ### _Tip_
 
@@ -137,6 +135,20 @@ To integrate with the Royal Mail import services via SAPIENT, follow the steps l
 
   _While submitting your issues to Intersoft, please do not include your API credentials in the request._
 </Callout>
+
+## Get Started
+
+This section includes the following essential requirements and setup instructions: 
+
+* API development requirements for Sandbox
+* Import requirements for Commercial Clearance customers
+* Import requirements for Freight 2 Post customers
+* Field requirements for Freight 2 Post customers
+* Sandbox Test Pack for Royal Mail import service
+* Switch account to production
+* Set up International Arrival Containers
+* A-Scan FAQs
+* Combined label + CN22
 
 ## See also
 
