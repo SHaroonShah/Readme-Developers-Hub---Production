@@ -29,7 +29,7 @@ If you wish to use the Royal Mail import services, you can integrate with Inters
     Follow a step-by-step guide on how to integarte the Royal Mail Import service with SAPIENT.
   </Card>
 
-  <Card title="Sandbox API development" href="https://docs.intersoftsapient.net/docs/sandbox-development-api-requirements" icon="fa-solid fa-gear-api">
+  <Card title="Sandbox API development" href="https://docs.intersoftsapient.net/docs/sandbox-development-api-requirements" icon="fa-solid fa-api">
     API development requirements for Sandbox.
   </Card>
 
