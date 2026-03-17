@@ -136,9 +136,9 @@ To integrate with the Royal Mail import services via SAPIENT, follow the steps l
   _While submitting your issues to Intersoft, please do not include your API credentials in the request._
 </Callout>
 
-## Get Started
+## Getting Started
 
-This section includes the following essential requirements and setup instructions: 
+This section includes the following essential requirements and setup instructions:
 
 * [API development requirements for Sandbox](https://docs.intersoftsapient.net/docs/sandbox-development-api-requirements)
 * [Import requirements for Commercial Clearance customers](https://docs.intersoftsapient.net/docs/commercial-clearance-customers)
