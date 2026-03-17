@@ -17,9 +17,9 @@ next:
 ---
 Intersoft API is a fully RESTful service implemented using JSON messaging. You, as the customer, are responsible for sending JSON messages and for maintaining the capability of receiving JSON messages in the format described in this section.
 
-<Callout icon="⚠️" theme="warning">
-  Prior to going live on SAPIENT, provide a <Glossary>bearer token</Glossary>. See [Authentication](https://docs.intersoftsapient.net/docs/authentication) for details.
-</Callout>
+> 🚧 _Important_
+>
+> _Prior to going live on SAPIENT, provide a <Glossary>bearer token</Glossary>. See [Authentication](https://docs.intersoftsapient.net/docs/authentication) for details._
 
 As a minimum, have the following API calls developed:
 
@@ -71,11 +71,11 @@ As a minimum, have the following API calls developed:
   </Cards>
 </Accordion>
 
-> 📘 *Note*
+> 📘 _Note_
 >
 > At INTERSOFT, we have developed a dedicated API endpoint for servers based in China.  To access this, kindly change your domain from **.net** to **.cn** for all the relevant endpoints you will be using.
 >
-> *For example, when creating a new shipment replace the[https://api.intersoftsapient.net/v4/shipments/rm](https://api.intersoftsapient.net/v4/shipments/rm) URL with [https://api.intersoftsapient.cn/v4/shipments/rm](https://api.intersoftsapient.net/v4/shipments/rm).*
+> _For example, when creating a new shipment replace the[https://api.intersoftsapient.net/v4/shipments/rm](https://api.intersoftsapient.net/v4/shipments/rm) URL with [https://api.intersoftsapient.cn/v4/shipments/rm](https://api.intersoftsapient.net/v4/shipments/rm)._
 >
 > As a back-up, please develop **.net** as well.
 
