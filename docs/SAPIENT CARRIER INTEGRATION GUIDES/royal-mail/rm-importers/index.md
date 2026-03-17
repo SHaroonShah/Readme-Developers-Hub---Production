@@ -24,53 +24,73 @@ If you wish to use the Royal Mail import services, you can integrate with Inters
 
 To integrate with the Royal Mail import services via SAPIENT, follow the steps listed below:
 
-1. At first, ensure to activate your account on SAPIENT as directed in an account confirmation email  sent to you from [onboarding@intersoftsapient.net](mailto:noreply@intelligentshipper.net).
+<Accordion title="Step 1: Activate your SAPIENT account" icon="fa-solid fa-user-check">
+  Activate your account on SAPIENT as directed in the account confirmation email sent to you from [onboarding@intersoftsapient.net](mailto:noreply@intelligentshipper.net).
+</Accordion>
 
-2. After, proceed to [creating your API Credentials](https://docs.intersoftsapient.net/docs/create-api-credentials).
+<Accordion title="Step 2: Create your API credentials" icon="fa-solid fa-key">
+  Proceed to [creating your API Credentials](https://docs.intersoftsapient.net/docs/create-api-credentials).
+</Accordion>
 
-3. Now, on the SAPIENT Home page, select **Integrations**. On the **Integrations** page that opens, within the **Royal Mail** block, select **LABELS**.
+<Accordion title="Step 3: Select the Royal Mail Labels integration" icon="fa-solid fa-tags">
+  On the SAPIENT Home page, select **Integrations**. On the **Integrations** page that opens, within the **Royal Mail** block, select **LABELS**.
 
-<Image align="center" alt="Selecting Royal Mail labels integration" border={true} caption="Selecting Royal Mail labels integration" src="https://files.readme.io/d83f58ad7239cbd1faadbb4d1783adbfceaaef163fb864672d6c2600b954e14e-Rm_lables_integration.png" />
+  <Image align="center" alt="Selecting Royal Mail labels integration" border={true} caption="Selecting Royal Mail labels integration" src="https://files.readme.io/d83f58ad7239cbd1faadbb4d1783adbfceaaef163fb864672d6c2600b954e14e-Rm_lables_integration.png" />
+</Accordion>
 
-4. On the integrations page that opens, in the **LABELS** block, select **ACTIVATE**.
+<Accordion title="Step 4: Activate the Labels integration" icon="fa-solid fa-toggle-on">
+  On the integrations page that opens, in the **LABELS** block, select **ACTIVATE**.
 
-<Image align="center" alt="Activating Royal Mail labels integration" border={true} caption="Activating Royal Mail labels integration" src="https://files.readme.io/abc4b6de2300fc06a50a56e87560afb0251fd5a13cf521fff5c473cdc4502d51-RM_Labels_activation.png" />
+  <Image align="center" alt="Activating Royal Mail labels integration" border={true} caption="Activating Royal Mail labels integration" src="https://files.readme.io/abc4b6de2300fc06a50a56e87560afb0251fd5a13cf521fff5c473cdc4502d51-RM_Labels_activation.png" />
+</Accordion>
 
-5. Once activated, now proceed to adding the  [Shipping Account](https://docs.intersoftsapient.net/docs/shipping-account-requirements) and [Shipping Location](https://docs.intersoftsapient.net/docs/add-a-shipping-location) for Royal Mail.
+<Accordion title="Step 5: Add Shipping Account and Shipping Location" icon="fa-solid fa-location-dot">
+  Add the [Shipping Account](https://docs.intersoftsapient.net/docs/shipping-account-requirements) and [Shipping Location](https://docs.intersoftsapient.net/docs/add-a-shipping-location) for Royal Mail.
 
-> 💡 *Tip*
->
-> *For Sandbox (Test) account, please fill the information with dummy details. For more information on how to set up a Royal Mail S<Glossary>hipping Account</Glossary> , refer to the [Set up Royal Mail Shipping Account](https://docs.intersoftsapient.net/docs/shipping-account-requirements) section.*
+  > 💡 *Tip*
+  >
+  > *For Sandbox (Test) account, fill the information with dummy details. For more information on how to set up a Royal Mail S<Glossary>hipping Account</Glossary>, refer to the [Set up Royal Mail Shipping Account](https://docs.intersoftsapient.net/docs/shipping-account-requirements) section.*
+</Accordion>
 
-6. If you are a Freight 2 Post customer, set up [International Arrival Containers (A-scan)](https://docs.intersoftsapient.net/docs/add-barcode-range-for-international-arrival-containers). For now the Customer Number can be filled with dummy details. The Barcode Range used for testing purposes should be AC40000001 to AC49999999.\
-   Production details will be provided to you when your account is switched onto production.
-7. After, develop all the [API calls required](https://docs.intersoftsapient.net/docs/sandbox-development-api-requirements) considering the specific requirements applicable to you:
+<Accordion title="Step 6: Set up International Arrival Containers (Freight 2 Post only)" icon="fa-solid fa-barcode">
+  If you are a Freight 2 Post customer, set up [International Arrival Containers (A-scan)](https://docs.intersoftsapient.net/docs/add-barcode-range-for-international-arrival-containers). For now the Customer Number can be filled with dummy details. The Barcode Range used for testing purposes should be **AC40000001** to **AC49999999**.
 
-<Columns layout="auto">
-  <Column>
-    **Commercial Clearance customers**
+  Production details will be provided to you when your account is switched onto production.
+</Accordion>
 
-    Refer to the [Commercial Clearance requirements](https://docs.intersoftsapient.net/docs/commercial-clearance-customers).
-  </Column>
+<Accordion title="Step 7: Develop the required API calls" icon="fa-solid fa-code">
+  Develop all the [API calls required](https://docs.intersoftsapient.net/docs/sandbox-development-api-requirements) considering the specific requirements applicable to you:
 
-  <Column>
-    **Freight 2 Post customers**
+  <Columns layout="auto">
+    <Column>
+      **Commercial Clearance customers**
 
-    Refer to the [Freight 2 Post requirements](https://docs.intersoftsapient.net/docs/freight-2-post-customers).
-  </Column>
-</Columns>
+      Refer to the [Commercial Clearance requirements](https://docs.intersoftsapient.net/docs/commercial-clearance-customers).
+    </Column>
 
-> 🚧 *Important*
->
-> *Please also ensure that you adhere to our[API Rate Limits](https://docs.intersoftsapient.net/docs/api-rate-limiting).*
+    <Column>
+      **Freight 2 Post customers**
 
-8. Once all the above steps have been done, make sure you complete our [Test Pack](https://docs.intersoftsapient.net/docs/royal-mail-importers-sandbox-test-pack) and submit it at [onboarding@intersoft.co.uk](mailto:onboarding@intersoft.co.uk).
+      Refer to the [Freight 2 Post requirements](https://docs.intersoftsapient.net/docs/freight-2-post-customers).
+    </Column>
+  </Columns>
 
-> 📘 *Note*
->
-> *A test pack is a critical step in the implementation process, ensuring a smooth transition to the live environment and minimising disruptions in shipping operations.*
+  > 🚧 *Important*
+  >
+  > *Ensure that you adhere to the [API Rate Limits](https://docs.intersoftsapient.net/docs/api-rate-limiting).*
+</Accordion>
 
-9. Once the **Test Pack** is approved, our team will [switch your account to Production](https://docs.intersoftsapient.net/docs/switching-the-account-to-production) and share with you the details on the sign off process required by Royal Mail.
+<Accordion title="Step 8: Complete and submit the Test Pack" icon="fa-solid fa-clipboard-check">
+  Complete the [Test Pack](https://docs.intersoftsapient.net/docs/royal-mail-importers-sandbox-test-pack) and submit it at [onboarding@intersoft.co.uk](mailto:onboarding@intersoft.co.uk).
+
+  > 📘 *Note*
+  >
+  > *A test pack is a critical step in the implementation process, ensuring a smooth transition to the live environment and minimising disruptions in shipping operations.*
+</Accordion>
+
+<Accordion title="Step 9: Switch to Production" icon="fa-solid fa-rocket">
+  Once the **Test Pack** is approved, our team will [switch your account to Production](https://docs.intersoftsapient.net/docs/switching-the-account-to-production) and share with you the details on the sign off process required by Royal Mail.
+</Accordion>
 
 <Callout icon="📧" theme="info">
   **Need help?** Direct any questions or issues to [onboarding@intersoft.co.uk](mailto:onboarding@intersoft.co.uk).
