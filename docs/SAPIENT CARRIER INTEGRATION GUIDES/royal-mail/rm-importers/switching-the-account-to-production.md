@@ -48,7 +48,7 @@ The full details on this are shared with you closer to the date.
 
 ## See also
 
-If you are interested in creating a Tracking Account for the newly added Shipping Account, refer to the following sections on how to set up our <Glossary>Tracking Webhook</Glossary> solution:
+If you are interested in creating a tracking account for the newly added Shipping Account, refer to the following sections on how to set up our <Glossary>Tracking Webhook</Glossary> solution:
 
 * [Tracking Webhook](https://docs.intersoftsapient.net/docs/tracking-webhook-1): set up the webhook connection, create tracking account, and much more.
 * [Response examples](https://docs.intersoftsapient.net/reference/post_v4-trackings-pushpayloadexample): view response example of the tracking webhook push notification payload, as sent to a customer's webhook when tracking information is received from a carrier.
