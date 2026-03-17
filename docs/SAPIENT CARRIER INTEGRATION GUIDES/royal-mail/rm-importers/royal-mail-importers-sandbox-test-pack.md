@@ -33,9 +33,10 @@ Before going live on SAPIENT, you are required to complete our Test Pack and sub
 3. **Gather Request and Response Examples**
 
    Provide an example of an API request and response for each of the following:
-   - Creating a <Glossary>shipment</Glossary>
-   - Cancelling a shipment
-   - Manifesting a shipment
+
+   * Creating a <Glossary>shipment</Glossary>
+   * Cancelling a shipment
+   * Manifesting a shipment
 
    <Accordion title="Additionally for Freight 2 Post customers" icon="fa-solid fa-truck">
      Provide examples of API requests and responses for International Arrivals Containers (A-Scan) related calls.
@@ -45,12 +46,10 @@ Before going live on SAPIENT, you are required to complete our Test Pack and sub
 
    Print test labels on a production printer. Share an image or scan of these labels, together with the rest of the required documents, for initial approval.
 
-5. **Submit the Test Pack**
+5. **Submit the Test Pack** at [onboarding@intersoft.co.uk](mailto:onboarding@intersoft.co.uk).
 
-   <Callout icon="📧" theme="success">
-     Submit the complete Test Pack at [onboarding@intersoft.co.uk](mailto:onboarding@intersoft.co.uk).
-   </Callout>
+> 📘 _Note_
+>
+> _Once the complete Test Pack is submitted, you can expect to hear from us within 5 working days._
 
-<Callout icon="📘" theme="info">
-  Once the complete Test Pack is submitted, you can expect to hear from us within 5 working days.
-</Callout>
+<br />
