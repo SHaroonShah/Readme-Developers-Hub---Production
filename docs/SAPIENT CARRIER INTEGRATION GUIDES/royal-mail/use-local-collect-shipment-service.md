@@ -17,21 +17,8 @@ next:
 ---
 The [PUDO API](https://docs.intersoftsapient.net/reference/get_v4-pudolocations-carriercode-countrycode-postcode#/) enhances customer convenience by allowing them to access essential shipping options for both sending and returning packages seamlessly by offering the following options:
 
-<Columns layout="auto">
-  <Column>
-    **📦 Pick Up**
-
-    Allows customers to choose to collect their parcel from a PUDO point. It is particularly beneficial for those who may not always be available for direct delivery, helping to reduce missed delivery attempts and enhance overall customer satisfaction.
-  </Column>
-
-  <Column>
-    **🔄 Drop-off**
-
-    Allows customers to find a location where they can drop off a parcel they want to return.
-  </Column>
-</Columns>
-
-<Image align="center" border={true} width="200px" src="https://files.readme.io/fc9948cba5b87c15e89ceda1d55fe6f022a938bb2b8661ace1f6f9c9e5572799-Post_office.gif" className="border" />
+* **Pick Up**: Allows customers to choose to collect their parcel from a PUDO point. It is particularly beneficial for those who may not always be available for direct delivery, helping to reduce missed delivery attempts and enhance overall customer satisfaction.
+* **Drop-off**: Allows customers to find a location where they can drop off a parcel they want to return.
 
 With the advancements in the location services, Royal Mail now supports the following location types:
 
