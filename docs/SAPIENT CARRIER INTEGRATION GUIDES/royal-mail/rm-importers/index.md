@@ -140,15 +140,16 @@ To integrate with the Royal Mail import services via SAPIENT, follow the steps l
 
 This section includes the following essential requirements and setup instructions: 
 
-* API development requirements for Sandbox
-* Import requirements for Commercial Clearance customers
-* Import requirements for Freight 2 Post customers
-* Field requirements for Freight 2 Post customers
-* Sandbox Test Pack for Royal Mail import service
-* Switch account to production
-* Set up International Arrival Containers
-* A-Scan FAQs
-* Combined label + CN22
+* [API development requirements for Sandbox](https://docs.intersoftsapient.net/docs/sandbox-development-api-requirements)
+* [Import requirements for Commercial Clearance customers](https://docs.intersoftsapient.net/docs/commercial-clearance-customers)
+* [Import requirements for Freight 2 Post customers](https://docs.intersoftsapient.net/docs/freight-2-post-customers)
+* [Field requirements for Freight 2 Post customers](https://docs.intersoftsapient.net/docs/freight-2-post-customers-fields-requirements)
+* [Sandbox Test Pack for Royal Mail import service](https://docs.intersoftsapient.net/docs/royal-mail-importers-sandbox-test-pack)
+* [Switch account to production](https://docs.intersoftsapient.net/docs/switching-the-account-to-production)
+* [Set up International Arrival Containers](https://docs.intersoftsapient.net/docs/add-barcode-range-for-international-arrival-containers)
+* [International Arrival Containers (A-Scan) flow](https://docs.intersoftsapient.net/docs/internation-arrival-containers-ascan-flow)
+* [A-Scan FAQs](https://docs.intersoftsapient.net/docs/a-scan-faqs)
+* [Combined label + CN22](https://docs.intersoftsapient.net/docs/combined-label)
 
 ## See also
 
