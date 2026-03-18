@@ -24,7 +24,7 @@ In SAPIENT, you can add a barcode range under the **International Arrival Contai
 
 ## How to set up barcode range for International Arrival Containers
 
-To add a barcode range for International Arrival Containers in SAPIENT, follow the steps as explained in the following procedure.
+To add a barcode range for International Arrival Containers in SAPIENT, perform the steps as explained in the following procedure.
 
 <ToggleList>
   <ToggleListItem title="1. Select Integrations page" icon="fa-solid fa-1">
