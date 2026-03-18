@@ -44,8 +44,8 @@ The full details on this are shared with you closer to the date.
 <Callout icon="⚠️" theme="warning">
   ### _Important_
 
-  Once you go-live any technical issues should be raised directly with our Tech Support team by following the steps listed [here](https://docs.intersoftsapient.net/docs/troubleshooting#/).
-  Enquiries regarding addition of the new services, features etc. should be continued being sent to [onboarding@intersoft.co.uk](mailto:onboarding@intersoft.co.uk).
+  _Once you go-live any technical issues should be raised directly with our Tech Support team by following the steps listed [here](https://docs.intersoftsapient.net/docs/troubleshooting#/)._
+  _Enquiries regarding addition of the new services, features etc. should be continued being sent to [onboarding@intersoft.co.uk](mailto:onboarding@intersoft.co.uk)._
 </Callout>
 
 ## See also
