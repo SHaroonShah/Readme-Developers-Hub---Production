@@ -20,52 +20,52 @@ next:
 Royal Mail have a set of import services. These are used for <Glossary>shipments</Glossary> that are imported and delivered into the UK. For shipments using these services with a shipment value of £135 or under, Royal Mail uses the label image to be a combined label by integrating the Royal Mail domestic tracked label with a <Glossary>CN22</Glossary> customs form into a single 6x4, ensuring compliance for international shipments.
 
 <Callout icon="🚧" theme="warning">
-This is a fully automated process, driven by what the customer populates the create shipment request with. The requirements for combined label + CN22 are as per below:
+  ### _Important_
 
-1. You are a Royal Mail Freight 2 Post customer, shipping from outside the UK to the UK.
-2. The shipment you have created contains up to 8 items.
-3. The total shipment value is £135 or under.
-4. The label format is requested in the PDF format.
+  _This is a fully automated process, driven by what the customer populates the create shipment request with. The requirements for combined label + CN22 are as per below:_
 
-For any other shipments that do not meet the requirements for a combined label, you will receive a standard shipping label and a separate <Glossary>CN23</Glossary> customs documentation within the Documents section of the create shipment response.
+  1. _You are a Royal Mail Freight 2 Post customer, shipping from outside the UK to the UK._
+  2. _The shipment you have created contains up to 8 items._
+  3. _The total shipment value is £135 or under._
+  4. _The label format is requested in the PDF format._
 
-Please be advised that for customs documentation the currency conversion functionality is in place, so if the shipment value is not provided in GBP, our system will convert it accordingly.
+  _For any other shipments that do not meet the requirements for a combined label, you will receive a standard shipping label and a separate <Glossary>CN23</Glossary> customs documentation within the Documents section of the create shipment response._
+
+  _Please be advised that for customs documentation the currency conversion functionality is in place, so if the shipment value is not provided in GBP, our system will convert it accordingly._
 </Callout>
 
 The combined label can be used over a multiple range of services as explained in the following table:
 
 <Accordion title="Supported service codes" icon="fa-solid fa-list">
-
-| Service Code | Service Name                                |
-| :----------: | :------------------------------------------ |
-|    **DEA**   | DE Import Std 24 Parcel                     |
-|    **DEB**   | DE Import RM24 Plus                         |
-|    **DEC**   | DE Import Std 24 LLTR                       |
-|    **DED**   | DE Import Std 48 LLTR                       |
-|    **ITA**   | Import DE Tracked Returns 24                |
-|    **ITB**   | Import DE Tracked Returns 48                |
-|    **ITC**   | Import DE Crossborder Tracked 24 (LBT) (HV) |
-|    **ITE**   | Import DE Crossborder Tracked 48 (LBT) (HV) |
-|    **ITF**   | Import DE Crossborder Tracked 24 (LBT)      |
-|    **ITL**   | Import DE Tracked 48 Parcels                |
-|    **ITM**   | Import DE Tracked 24 Parcels                |
-|    **ITN**   | Import DE Tracked 24- With Signature        |
-|    **ITS**   | Import DE Tracked 48 - Non Signature        |
-|    **DEP**   | DEImpUK Std24 PCL (WH)                      |
-|    **DEQ**   | DEImpUK Std24 LLTR (WH)                     |
-|    **DER**   | DEImpUK Std48 LLTR (WH)                     |
-|    **DEU**   | DEImpUK Trk48 PCL (BOX)(HV)(WH)             |
-|    **DEV**   | DEImpUK Trk48 PCL (BOX)(HV)(WH)             |
-|    **DEX**   | DEImpUK Trk48 PCL (BOX)(WH)                 |
-|    **DEY**   | DEImpUK Trk24 PCL (BOX)(WH)                 |
-|    **DEZ**   | DEImpUK Trk48 PCL (TPL)(WH)                 |
-|    **DE5**   | DEImpUK Trk24 PCL (TPM)(WH)                 |
-|    **DE9**   | DEImpUK Trk48 PCL (AGE)(HV)                 |
-|    **DE7**   | DEImpUK Trk24 PCL (AGE)(HV)(WH)             |
-|    **DE8**   | DEImpUK Trk48 PCL (AGE)(HV)(WH)             |
-|    **ITI**   | Import DE Tracked 24 Std Age                |
-|    **ITJ**   | Import DE Tracked 24 THV Age                |
-
+  | Service Code | Service Name                                |
+  | :----------: | :------------------------------------------ |
+  |    **DEA**   | DE Import Std 24 Parcel                     |
+  |    **DEB**   | DE Import RM24 Plus                         |
+  |    **DEC**   | DE Import Std 24 LLTR                       |
+  |    **DED**   | DE Import Std 48 LLTR                       |
+  |    **ITA**   | Import DE Tracked Returns 24                |
+  |    **ITB**   | Import DE Tracked Returns 48                |
+  |    **ITC**   | Import DE Crossborder Tracked 24 (LBT) (HV) |
+  |    **ITE**   | Import DE Crossborder Tracked 48 (LBT) (HV) |
+  |    **ITF**   | Import DE Crossborder Tracked 24 (LBT)      |
+  |    **ITL**   | Import DE Tracked 48 Parcels                |
+  |    **ITM**   | Import DE Tracked 24 Parcels                |
+  |    **ITN**   | Import DE Tracked 24- With Signature        |
+  |    **ITS**   | Import DE Tracked 48 - Non Signature        |
+  |    **DEP**   | DEImpUK Std24 PCL (WH)                      |
+  |    **DEQ**   | DEImpUK Std24 LLTR (WH)                     |
+  |    **DER**   | DEImpUK Std48 LLTR (WH)                     |
+  |    **DEU**   | DEImpUK Trk48 PCL (BOX)(HV)(WH)             |
+  |    **DEV**   | DEImpUK Trk48 PCL (BOX)(HV)(WH)             |
+  |    **DEX**   | DEImpUK Trk48 PCL (BOX)(WH)                 |
+  |    **DEY**   | DEImpUK Trk24 PCL (BOX)(WH)                 |
+  |    **DEZ**   | DEImpUK Trk48 PCL (TPL)(WH)                 |
+  |    **DE5**   | DEImpUK Trk24 PCL (TPM)(WH)                 |
+  |    **DE9**   | DEImpUK Trk48 PCL (AGE)(HV)                 |
+  |    **DE7**   | DEImpUK Trk24 PCL (AGE)(HV)(WH)             |
+  |    **DE8**   | DEImpUK Trk48 PCL (AGE)(HV)(WH)             |
+  |    **ITI**   | Import DE Tracked 24 Std Age                |
+  |    **ITJ**   | Import DE Tracked 24 THV Age                |
 </Accordion>
 
 For customers and businesses using Royal Mail for their shipping needs, this combined label offers a more efficient process, simplifying documentation and tracking for lower-value shipments. It is crucial to stay informed about this update and to prepare for the necessary adjustments in operations to accommodate the new label format.
@@ -78,11 +78,15 @@ For customers and businesses using Royal Mail for their shipping needs, this com
 
 ![](https://files.readme.io/1de176ff58b48339ad90e81801523d79f1aeb7817a48b316261447fe80be6e49-image.png)
 
-*CN23 customs documentation example*"
+_CN23 customs documentation example_"
   src="https://files.readme.io/28e12fbd3aa096410869143a313b58e10f2682a1d96999f7c837e0148bde8d61-Combined_Label_and_CN22_sample.png"
   width="500px"
 />
 
-<Callout icon="💡" theme="info">
-In the **Sign & Date** section of the combined label, you can use your own signature or logo if you have [added and configured it](https://docs.intersoftsapient.net/docs/add-signature-and-logo#/) via the SAPIENT UI. If the signature and logo has not been configured, then by default, the Shipper Contact Name is used.
+<Callout icon="💡" theme="default">
+  ### _Tip_
+
+  _In the **Sign & Date** section of the combined label, you can use your own signature or logo if you have [added and configured it](https://docs.intersoftsapient.net/docs/add-signature-and-logo#/) via the SAPIENT UI. If the signature and logo has not been configured, then by default, the Shipper Contact Name is used._
 </Callout>
+
+<br />
