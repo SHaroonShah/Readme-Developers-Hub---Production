@@ -16,65 +16,46 @@ metadata:
 next:
   description: ''
 ---
-The barcode ranges functionality facilitates the <Glossary>Data Solution</Glossary> on behalf of customers who are shipping into the UK from abroad. This solution is dependent on the customer allocating a <Glossary>shipment</Glossary> into a <Glossary>container</Glossary> . When all the shipments for that container have been allocated and a container manifested, a summary barcode is produced.
+Unlike the common **Containers** API, the [International Arrival Containers](https://docs.intersoftsapient.net/reference/post_v4-internationalarrivalscontainers-rm#/) endpoint is used for Royal Mail <Glossary>shipments</Glossary> that are being imported into UK only. For shipments in these <Glossary>container</Glossary>s, a <Glossary>Data Solution</Glossary> file is generated and sent to Royal Mail, which allows them to associate the shipments in the container with the `containerId` of the container, for better tracking and visibility purposes.
 
-This summary barcode, known as a WAND ID barcode is attached to the outside of the receptacle. As a result, an electronic Data Solution file is produced, in a predefined format and sent to Royal Mail, detailing the WAND ID and the individual shipment barcodes. It allows Royal Mail to process more efficiently shipments arriving in the UK.
+Using this endpoint, you can either create the shipments and allocate the already created container (**Option 1**) or first create the shipments and then the container and later allocate your shipments to the container (**Option 2**).
 
-In SAPIENT, you can add a barcode range under the **International Arrival Containers** API service to capture the data required to populate the Data Solution file.
+Based on your business requirements, you may proceed with any of the preceding options and ship as needed. The following flows explain the entire journey of the UK arrival containers.
 
-To add a barcode range for International Arrival Containers in SAPIENT, follow the steps as explained in the following procedure.
+### Create shipment and allocate container when the ContainerId is known
 
-1. In the left navigation panel, select **Integrations**.
+<Image align="center" className="border" border={true} width="1000px" src="https://files.readme.io/9bbca314d86f05e79fe4a8debb357a98b9c3176a7c47b4268a670f2b3c93fd90-ASCAN_flow_-_1.png" />
 
-<Image align="center" alt="Accessing integrations" border={true} caption="Accessing integrations" src="https://files.readme.io/84039ea8d38560195f244c1aba1f5fdc49e22260967548a94b5ddc56e5c79c00-Accessing_Integrations_option.png" />
+The flowchart outlines a process for creating a shipment and allocating a container when the `ContainerId` is known, starting with the creation of a container in advance. Then it follows with the creation of an order and a shipment request. It checks for the presence of the `ContainerId`; if known, it retrieves container details and proceeds to populate required fields. If the shipment is successfully created, <Glossary>tracking numbers</Glossary> and <Glossary>labels</Glossary> are generated, leading to the printing of labels and preparation of the shipment for despatch. If any errors occur during the process, appropriate error responses are returned to ensure all issues are addressed systematically.
 
-2. In the list of carrier integrations that appears, next to Royal Mail, select **LABELS**.
+### Create shipment when containerId is unknown and allocating them later
 
-<Image align="center" alt="Accessing labels integration" border={true} caption="Accessing labels integration" src="https://files.readme.io/3d5109652b0b0cee5b6649c52dc92786f106840ba45e6ecea801be23f2b8d6af-Labels_option.png" />
+<Image align="center" className="border" border={true} src="https://files.readme.io/97c8d939213ec0d082114c1b4fd8f46b2ddc42ddff3abd539626d0c21cc62f43-Flow_2.png" />
 
-3. On the page that opens, under the **Available Integrations** block, in the **LABELS** section, select **CONFIGURE**.
+The flow outlines the process of creating shipments when the `ContainerId` is unknown, which involves several key steps. First, an order is created by sending the [Create Shipment request](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm#/). If all required fields are populated, the shipment is successfully created, prompting the system to generate tracking numbers and labels. Subsequently, a container for a UK arrival is created, and a request to add a new container is sent. Shipments are allocated to the newly created container using an [Add/Remove Shipments request](https://docs.intersoftsapient.net/reference/put_v4-internationalarrivalscontainers-rm-containerid#/), allowing up to 10,000 shipments to be linked to a single container before packing the shipment and finalising the process.
 
-<Image align="center" alt="Configuring labels integration" border={true} caption="Configuring labels integration" src="https://files.readme.io/dc329170de3da55ba71a66858dc11d115904b5001362a12f87aea85d0e7656f4-Configure_labels_option.png" />
+### Manifest container
 
-4. In the **Configure Royal Mail** page that opens, select the **International Arrivals Container Settings** tab. In the page that opens, enter your six-digit customer number provided to you by our onboarding team and then select ![](https://files.readme.io/7c98764e6500bab5bbcb768bbff9aa47d0681116fc91a6a2921c0394178f7550-Save_changes_button.png).
-5. Once you are added, select ![](https://files.readme.io/d48a6a38086006b7b6e7e4edaaabed26a14571fe2fe075d2749bd142ac31f03f-Add_barcode_range_button.png).
+<Image align="center" className="border" border={true} src="https://files.readme.io/e29b772c2b3929f4f9950e2088f48fe8dc6bb679993a3029f3bd56747268b786-Flow_3.png" />
 
-<Image align="center" alt="Accessing option to add barcode range" border={true} caption="Accessing option to add barcode range" src="https://files.readme.io/b97eed8bcf06eb4bc0f3d303c0758e223459b710117e7e2464410003bd430bcb-Add_barcode_range_option.png" />
+The flowchart outlines the process for managing shipments with Royal Mail. Initially, it checks if all shipments have been allocated; if so, the shipments are <Glossary>manifested</Glossary> and its details are sent to Royal Mail for processing, along with the container details. Once the containers arrive in the UK, the shipments are converted from Freight 2 Post and injected to the Royal Mail network.
 
-5. In the **Barcode Range Details** form that opens, enter the necessary information as explained in the following table.
+As the shipments are in transit, tracking is initiated with a first tracking event triggered by the system. Subsequently, additional tracking events are logged upon reaching specific statuses, culminating in the delivery of the shipment, which is confirmed through a successful delivery trigger. If the expected number of shipments for that container have not been allocated, then you must revert back to continue allocating shipments until all are accounted for.
 
-<Image align="center" alt="Entering barcode range details" border={true} caption="Entering barcode range details" src="https://files.readme.io/f034c697c47c3c50bea13ef9821e4caec23a81ca1fc2252ab2457489d0c2a745-Barcode_range_details_form.png" />
-
-<AsteridkForMandatoryElements />
-
-|      Element     | Description                                                                                                                                                                                                                                                                                                                            |
-| :--------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|   **Prefix**\*   | Enter a fixed set of characters to be added at the beginning of the barcode numbers. It often indicates the type of shipment or the service provider, helping to categorize items within the system.                                                                                                                                   |
-| **Seed Start**\* | Enter the initial numbers in the barcode range. It marks the beginning of the numbering sequence for the barcodes to be generated, establishing where the sequence will commence.                                                                                                                                                      |
-|  **Seed End**\*  | Enter the final numbers in the barcode range. It denotes the endpoint of the numbering sequence, determining how many unique barcodes can be created within that range.                                                                                                                                                                |
-| **Total Number** | Represents the total count of unique barcodes that can be generated within the specified range, calculated as the difference between the seed end and seed start plus one (that is, Seed End - Seed Start + 1).                                                                                                                        |
-|   **Calculate**  | Select ![](https://files.readme.io/530aac60a4604cd28b9c5f84111d35151d47395157c95e3c0a1ef527b7fd4e02-Calculate_button.png) to compute the total number of barcodes based on the seed start and seed end fields. It validates the range and ensures consistency by recalculating the total whenever changes are made to the seed values. |
-
-<Callout icon="💡" theme="info">
-For development and testing purposes the Customer Number can be filled with dummy details. The Barcode Range used for testing purposes should be AC40000001 to AC49999999. Production details will be provided to you when your account is switched onto production.
-</Callout>
-
-Once the relevant information is entered, select ![](https://files.readme.io/79e0cb9c566226cd8b320dc3529f556e5d94e2faa0622645bd0bc2c572957cab-Add_barcode_range_button_2.png) to save and add the barcode. You can now use this barcode range in your [manifest shipments](https://docs.intersoftsapient.net/reference/post_v4-manifests-carriercode) request for International Arrival Containers. When the international arrival container is manifested, the Data Solution file is sent to Royal Mail via SFTP.
+<Image align="center" border={true} caption="Container barcode label example" src="https://files.readme.io/0fe72ecc237cd3cf26a2335f526ac2f68c9d2f65b921e5cea7554dd880ce1f72-ASCAN_label.jpg" width="400px" />
 
 ## See also
 
 <Cards columns={4}>
-  <Card title="ASCAN flow" href="https://docs.intersoftsapient.net/docs/internation-arrival-containers-ascan-flow#/" icon="fa-solid fa-barcode-read" target="_blank">
-    Learn how the **International Arrivals Containers** process works and get to know the entire journey of the UK arrival containers on the fly.
+  <Card title="Set up Internatinal Arrival Containers barcode ranges" href="https://docs.intersoftsapient.net/docs/add-barcode-range-for-international-arrival-containers#/" icon="fa-solid fa-barcode-read" target="_blank">
+    Configure a specific set of numbers designated for tracking containers arriving into the UK from overseas, facilitating efficient tracking and management.
   </Card>
 
-  <Card title="International Arrivals Containers API" href="https://docs.intersoftsapient.net/reference/post_v4-internationalarrivalscontainers-rm#/" icon="fa-solid fa-gear-complex-code">
-    Create and name (with and ID or alias) a new international arrivals container to be used for manifesting a specific group of shipments. Define which carrier and shipping location the container should be linked to.
+  <Card title="Internation Arrivals Containers API" href="https://docs.intersoftsapient.net/reference/post_v4-internationalarrivalscontainers-rm#/" icon="fa-solid fa-gear-complex-code">
+    *Create and name (with and ID or alias) a new international arrivals container to be used for manifesting a specific group of shipments. Define which carrier and shipping location the container should be linked to.*
   </Card>
 
-  <Card title="A-scan FAQs" href="https://docs.intersoftsapient.net/docs/a-scan-faqs#/" icon="fa-solid fa-messages-question">
-    Frequently asked questions regarding the International Arrivals Container API.
+  <Card title="A-Scan FAQs" href="https://docs.intersoftsapient.net/docs/a-scan-faqs#/" icon="fa-solid fa-messages-question">
+    *Frequently asked questions regarding the International Arrivals Containers API/A-Scan.*
   </Card>
 </Cards>
-
-&#x20;&#x20;
