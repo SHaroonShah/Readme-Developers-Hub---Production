@@ -89,12 +89,12 @@ To add a barcode range for International Arrival Containers in SAPIENT, follow t
     |  **Seed End**\*  | Enter the final numbers in the barcode range. It denotes the endpoint of the numbering sequence, determining how many unique barcodes can be created within that range.                                                                                                                                                                |
     | **Total Number** | Represents the total count of unique barcodes that can be generated within the specified range, calculated as the difference between the seed end and seed start plus one (that is, Seed End - Seed Start + 1).                                                                                                                        |
     |   **Calculate**  | Select ![](https://files.readme.io/530aac60a4604cd28b9c5f84111d35151d47395157c95e3c0a1ef527b7fd4e02-Calculate_button.png) to compute the total number of barcodes based on the seed start and seed end fields. It validates the range and ensures consistency by recalculating the total whenever changes are made to the seed values. |
-<br />
-Once the relevant information is entered, select ![](https://files.readme.io/79e0cb9c566226cd8b320dc3529f556e5d94e2faa0622645bd0bc2c572957cab-Add_barcode_range_button_2.png) to save and add the barcode. You can now use this barcode range in your [manifest shipments](https://docs.intersoftsapient.net/reference/post_v4-manifests-carriercode) request for International Arrival Containers. When the international arrival container is manifested, the Data Solution file is sent to Royal Mail via SFTP.
+
+    <br />
+
+    Once the relevant information is entered, select ![](https://files.readme.io/79e0cb9c566226cd8b320dc3529f556e5d94e2faa0622645bd0bc2c572957cab-Add_barcode_range_button_2.png) to save and add the barcode. You can now use this barcode range in your [manifest shipments](https://docs.intersoftsapient.net/reference/post_v4-manifests-carriercode) request for International Arrival Containers. When the international arrival container is manifested, the Data Solution file is sent to Royal Mail via SFTP.
   </ToggleListItem>
 </ToggleList>
-
-
 
 <Callout icon="💡" theme="default">
   ### _Tip_
@@ -112,7 +112,7 @@ Once the relevant information is entered, select ![](https://files.readme.io/79e
   </Card>
 
   <Card title="International Arrivals Containers API" href="https://docs.intersoftsapient.net/reference/post_v4-internationalarrivalscontainers-rm#/" icon="fa-solid fa-gear-complex-code">
-    Create and name (with and ID or alias) a new international arrivals container to be used for manifesting a specific group of shipments. Define which carrier and shipping location the container should be linked to.
+    Create and name (with and ID or alias) a new international arrivals container to be used for manifesting a specific group of shipments.
   </Card>
 
   <Card title="A-scan FAQs" href="https://docs.intersoftsapient.net/docs/a-scan-faqs#/" icon="fa-solid fa-messages-question">
