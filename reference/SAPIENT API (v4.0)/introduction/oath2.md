@@ -8,9 +8,9 @@ metadata:
 ---
 JSON Web Token (JWT) authorisation header using the Bearer scheme.
 
-* Example:
+* Example: "bearer {user.oauth2}"
 * **Security Scheme Type**: OAuth2
 * **Flow type**: `clientCredentials`
-* **Token URL**: 
+* **Token URL**:
 
 <br />
