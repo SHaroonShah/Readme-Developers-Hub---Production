@@ -2,7 +2,7 @@
   "openapi": "3.0.1",
   "info": {
     "title": "SAPIENT INPOST API",
-    "description": "# Introduction\nHere you will find requirements for integrating with SAPIENT CORE API.\n\nThe documentation specifically covers how the API can be used by business customers to conduct shipping activity with available carriers and provides the technical information to build this integration. The API allows customers to create and manage shipments, produce labels, customs documentation, and collection manifests, retrieve reference data such as carriers and countries, and maintain their own data such as shipping account details.\n\nIntersoft API is a fully RESTful service implemented using JSON messaging. You, as the customer are responsible for sending JSON messages and for maintaining the capability of receiving JSON messages in the format described in this specification. Request and response examples for each API service are included in this specification.\n\n# Authentication\n\nThe SAPIENT CORE API uses OAuth2 authentication.\n\nTo request the authorization token you need to create API credentials (Client ID and Secret) on the system first. If you have not done it already, log into your account and go to API Credentials or follow the link [add a link here with the path to the API Credentials menu]. Use the credentials to retrieve the authorization token.\n\nNote: Make sure you copy the Secret and keep it secure as you won't be able to view it again on the system.\n\n<!-- ReDoc-Inject: <SecurityDefinitions /> -->\n",
+    "description": "# Introduction\nHere you will find requirements for integrating with INTERSOFT SAPIENT API.\n\nThe documentation specifically covers how the API can be used by business customers to conduct shipping activity with available carriers and provides the technical information to build this integration. The API allows customers to create and manage shipments, produce labels, customs documentation, and collection manifests, retrieve reference data such as carriers and countries, and maintain their own data such as shipping account details.\n\nIntersoft API is a fully RESTful service implemented using JSON messaging. You, as the customer are responsible for sending JSON messages and for maintaining the capability of receiving JSON messages in the format described in this specification. Request and response examples for each API service are included in this specification.\n\n# Authentication\n\nThe INTERSOFT SAPIENT API uses OAuth2 authentication.\n\nTo request the authorization token you need to create API credentials (Client ID and Secret) on the system first. If you have not done it already, log into your account and go to API Credentials or follow the link [add a link here with the path to the API Credentials menu]. Use the credentials to retrieve the authorization token.\n\nNote: Make sure you copy the Secret and keep it secure as you won't be able to view it again on the system.\n\n<!-- ReDoc-Inject: <SecurityDefinitions /> -->\n",
     "version": "v4.0-INPOST",
     "x-logo": {
       "url": "/Content/images/redoc-logo.png",
@@ -86,7 +86,7 @@
                     "value": {
                       "ShippingAccounts": [
                         {
-                          "ShippingAccountId": "a593f8fe-c51c-4acb-97f4-8ec553c4e06c",
+                          "ShippingAccountId": "0f745325-693e-46c9-9e8a-19ec8397cc70",
                           "CarrierCode": "INPOST",
                           "AccountNumber": "IN0000001",
                           "AccountType": "Sandbox",
@@ -96,11 +96,11 @@
                           "ContactName": "John Smith",
                           "ContactNumber": "0123456789",
                           "LastUpdatedBy": "User A",
-                          "LastUpdatedDateUtc": "2026-02-25T08:02:56.146Z",
+                          "LastUpdatedDateUtc": "2026-03-18T09:34:15.828Z",
                           "ClientId": "example@inpost.co.uk"
                         },
                         {
-                          "ShippingAccountId": "16094aa3-59ce-4e1e-8fb8-61ae8ab6bd28",
+                          "ShippingAccountId": "e8c571dc-dc87-4b16-a8e9-3bd5adb45262",
                           "CarrierCode": "INPOST",
                           "AccountNumber": "IN0000007",
                           "AccountType": "Sandbox",
@@ -110,7 +110,7 @@
                           "ContactName": "Joan Smith",
                           "ContactNumber": "0123456789",
                           "LastUpdatedBy": "User B",
-                          "LastUpdatedDateUtc": "2026-02-25T08:02:56.146Z",
+                          "LastUpdatedDateUtc": "2026-03-18T09:34:15.828Z",
                           "ClientId": "example2@inpost.co.uk"
                         }
                       ],
@@ -260,7 +260,7 @@
                 "examples": {
                   "Response": {
                     "value": {
-                      "ShippingAccountId": "f9e65781-ab76-46d3-a81e-0ba1ac3ad15b",
+                      "ShippingAccountId": "851968c3-dea4-42e4-a174-93270706d0c1",
                       "CarrierCode": "INPOST",
                       "AccountNumber": "IN0000001",
                       "AccountType": "Sandbox",
@@ -270,7 +270,7 @@
                       "ContactName": "John Smith",
                       "ContactNumber": "0123456789",
                       "LastUpdatedBy": "User A",
-                      "LastUpdatedDateUtc": "2026-02-25T08:02:56.444Z",
+                      "LastUpdatedDateUtc": "2026-03-18T09:34:16.109Z",
                       "ClientId": "example@inpost.co.uk"
                     }
                   }
@@ -653,7 +653,7 @@
                       "ServiceCode": "B2C",
                       "DescriptionOfGoods": "Clothing",
                       "BusinessTransactionType": "B2C",
-                      "ShipmentDate": "2026-02-25",
+                      "ShipmentDate": "2026-03-18",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
@@ -661,8 +661,8 @@
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "d2b45c3c-d131-4342-8251-92d95a03b907",
-                      "ShippingLocationId": "5ad666a7-12fb-44d9-8fc3-48a3d90324f2",
+                      "ShippingAccountId": "e4139821-f0cc-41ae-8563-91a6a580fb05",
+                      "ShippingLocationId": "580f4285-b93d-4a8c-9262-fa267c902361",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -756,14 +756,14 @@
                       "ContentType": "NDX",
                       "ServiceCode": "B2C",
                       "DescriptionOfGoods": "Clothing",
-                      "ShipmentDate": "2026-02-25",
+                      "ShipmentDate": "2026-03-18",
                       "DeclaredWeight": 1.5,
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "f0a1acb7-741c-4ea3-aff7-7cdae8ab4e51",
-                      "ShippingLocationId": "0a880d3b-36aa-4521-b8d5-e2d96725c599",
+                      "ShippingAccountId": "b7bc00a6-10e7-4f5a-a0ff-28318c30f0ff",
+                      "ShippingLocationId": "73f2aff1-bb01-46c0-b029-9802736da77c",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -793,13 +793,13 @@
                       "ContentType": "NDX",
                       "ServiceCode": "RETURNS",
                       "DescriptionOfGoods": "Clothing",
-                      "ShipmentDate": "2026-02-25",
+                      "ShipmentDate": "2026-03-18",
                       "DeclaredWeight": 1.5,
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "2b081a5a-f0ec-4933-952c-97e67c31f1c7"
+                      "ShippingAccountId": "82db77d0-ac22-4470-ab54-49e801ff0a08"
                     },
                     "Destination": {
                       "Address": {
@@ -839,7 +839,7 @@
                       "LabelFormat": "Pdf",
                       "Packages": [
                         {
-                          "ShipmentId": "5df53816-c15f-4bc2-b0fb-87771b848f60",
+                          "ShipmentId": "d82bc61e-dd05-4e3f-840c-724dc61ad1a4",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "MD000000004409629",
                           "CarrierTrackingUrl": "https://tracking.inpost.co.uk/api/v2.0/MD000000004409629"
@@ -935,7 +935,7 @@
                 "examples": {
                   "PDF": {
                     "value": {
-                      "ShipmentId": "4e81c7e7-d988-4d38-84f3-c15264d0387f",
+                      "ShipmentId": "19e83cca-2ed9-4a95-bc53-881a0b6f6855",
                       "TrackingNumber": "5949545283154118",
                       "CarrierTrackingUrl": "https://tracking.inpost.co.uk/api/v2.0/5949545283154118",
                       "Label": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
@@ -1514,7 +1514,6 @@
           },
           "Quantity": {
             "maximum": 5,
-            "minimum": 0.1,
             "type": "number",
             "description": "The quantity of the hazardous material in the specified UnitOfMeasure. This information is vital for compliance with shipping regulations pertaining to hazardous materials.\r<br />***Note:** This field is only required if **UnitOfMeasure** and **UNCode** is specified.*",
             "format": "double",
