@@ -24,36 +24,24 @@ In SAPIENT, you can add a barcode range under the **International Arrival Contai
 
 To add a barcode range for International Arrival Containers in SAPIENT, follow the steps as explained in the following procedure.
 
-<Accordion title="Step 1: Select Integrations" icon="fa-solid fa-1">
-In the left navigation panel, select **Integrations**.
+1. In the left navigation panel, select **Integrations**.
 
 <Image align="center" alt="Accessing integrations" border={true} caption="Accessing integrations" src="https://files.readme.io/84039ea8d38560195f244c1aba1f5fdc49e22260967548a94b5ddc56e5c79c00-Accessing_Integrations_option.png" />
-</Accordion>
 
-<Accordion title="Step 2: Select Labels" icon="fa-solid fa-2">
-In the list of carrier integrations that appears, next to Royal Mail, select **LABELS**.
+2. In the list of carrier integrations that appears, next to Royal Mail, select **LABELS**.
 
 <Image align="center" alt="Accessing labels integration" border={true} caption="Accessing labels integration" src="https://files.readme.io/3d5109652b0b0cee5b6649c52dc92786f106840ba45e6ecea801be23f2b8d6af-Labels_option.png" />
-</Accordion>
 
-<Accordion title="Step 3: Configure Labels integration" icon="fa-solid fa-3">
-On the page that opens, under the **Available Integrations** block, in the **LABELS** section, select **CONFIGURE**.
+3. On the page that opens, under the **Available Integrations** block, in the **LABELS** section, select **CONFIGURE**.
 
 <Image align="center" alt="Configuring labels integration" border={true} caption="Configuring labels integration" src="https://files.readme.io/dc329170de3da55ba71a66858dc11d115904b5001362a12f87aea85d0e7656f4-Configure_labels_option.png" />
-</Accordion>
 
-<Accordion title="Step 4: Enter customer number and save" icon="fa-solid fa-4">
-In the **Configure Royal Mail** page that opens, select the **International Arrivals Container Settings** tab. In the page that opens, enter your six-digit customer number provided to you by our onboarding team and then select ![](https://files.readme.io/7c98764e6500bab5bbcb768bbff9aa47d0681116fc91a6a2921c0394178f7550-Save_changes_button.png).
-</Accordion>
-
-<Accordion title="Step 5: Add barcode range" icon="fa-solid fa-5">
-Once you are added, select ![](https://files.readme.io/d48a6a38086006b7b6e7e4edaaabed26a14571fe2fe075d2749bd142ac31f03f-Add_barcode_range_button.png).
+4. In the **Configure Royal Mail** page that opens, select the **International Arrivals Container Settings** tab. In the page that opens, enter your six-digit customer number provided to you by our onboarding team and then select ![](https://files.readme.io/7c98764e6500bab5bbcb768bbff9aa47d0681116fc91a6a2921c0394178f7550-Save_changes_button.png).
+5. Once you are added, select ![](https://files.readme.io/d48a6a38086006b7b6e7e4edaaabed26a14571fe2fe075d2749bd142ac31f03f-Add_barcode_range_button.png).
 
 <Image align="center" alt="Accessing option to add barcode range" border={true} caption="Accessing option to add barcode range" src="https://files.readme.io/b97eed8bcf06eb4bc0f3d303c0758e223459b710117e7e2464410003bd430bcb-Add_barcode_range_option.png" />
-</Accordion>
 
-<Accordion title="Step 6: Fill in the Barcode Range Details form" icon="fa-solid fa-6">
-In the **Barcode Range Details** form that opens, enter the necessary information as explained in the following table.
+5. In the **Barcode Range Details** form that opens, enter the necessary information as explained in the following table.
 
 <Image align="center" alt="Entering barcode range details" border={true} caption="Entering barcode range details" src="https://files.readme.io/f034c697c47c3c50bea13ef9821e4caec23a81ca1fc2252ab2457489d0c2a745-Barcode_range_details_form.png" />
 
@@ -66,7 +54,6 @@ In the **Barcode Range Details** form that opens, enter the necessary informatio
 |  **Seed End**\*  | Enter the final numbers in the barcode range. It denotes the endpoint of the numbering sequence, determining how many unique barcodes can be created within that range.                                                                                                                                                                |
 | **Total Number** | Represents the total count of unique barcodes that can be generated within the specified range, calculated as the difference between the seed end and seed start plus one (that is, Seed End - Seed Start + 1).                                                                                                                        |
 |   **Calculate**  | Select ![](https://files.readme.io/530aac60a4604cd28b9c5f84111d35151d47395157c95e3c0a1ef527b7fd4e02-Calculate_button.png) to compute the total number of barcodes based on the seed start and seed end fields. It validates the range and ensures consistency by recalculating the total whenever changes are made to the seed values. |
-</Accordion>
 
 <Callout icon="💡" theme="info">
 For development and testing purposes the Customer Number can be filled with dummy details. The Barcode Range used for testing purposes should be AC40000001 to AC49999999. Production details will be provided to you when your account is switched onto production.
