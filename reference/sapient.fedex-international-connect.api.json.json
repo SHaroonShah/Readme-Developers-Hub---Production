@@ -86,7 +86,7 @@
                     "value": {
                       "ShippingAccounts": [
                         {
-                          "ShippingAccountId": "3e7c2f9c-3b64-44e7-836b-87bdeb8a63fc",
+                          "ShippingAccountId": "d98c51a9-5182-4b50-bcbd-d3e7b84ac518",
                           "CarrierCode": "FIC",
                           "AccountType": "Sandbox",
                           "AccountName": "AB VideoGames",
@@ -96,10 +96,10 @@
                           "ContactNumber": "0123456789",
                           "ShipperWebsiteUrl": "https://www.example.com",
                           "LastUpdatedBy": "User A",
-                          "LastUpdatedDateUtc": "2026-02-25T08:03:55.413Z"
+                          "LastUpdatedDateUtc": "2026-03-18T09:35:20.978Z"
                         },
                         {
-                          "ShippingAccountId": "5904ce09-8453-41e3-81d4-75aa1fa7a2b0",
+                          "ShippingAccountId": "ebdbae3b-955b-46ac-83c0-67c342ccf2f0",
                           "CarrierCode": "FIC",
                           "AccountType": "Sandbox",
                           "AccountName": "KG Pet Shop",
@@ -109,7 +109,7 @@
                           "ContactNumber": "0123456789",
                           "ShipperWebsiteUrl": "https://www.example.com",
                           "LastUpdatedBy": "User B",
-                          "LastUpdatedDateUtc": "2026-02-25T08:03:55.413Z"
+                          "LastUpdatedDateUtc": "2026-03-18T09:35:20.978Z"
                         }
                       ],
                       "TotalCount": 2
@@ -258,7 +258,7 @@
                 "examples": {
                   "Response": {
                     "value": {
-                      "ShippingAccountId": "ddd14e03-83c6-4e4e-a8bd-1875381b3aec",
+                      "ShippingAccountId": "7df14c4a-3a0f-4ec1-8adb-4630fd2ce35e",
                       "CarrierCode": "FIC",
                       "AccountType": "Sandbox",
                       "AccountName": "AB VideoGames",
@@ -268,7 +268,7 @@
                       "ContactNumber": "0123456789",
                       "ShipperWebsiteUrl": "https://www.example.com",
                       "LastUpdatedBy": "User A",
-                      "LastUpdatedDateUtc": "2026-02-25T08:03:55.637Z"
+                      "LastUpdatedDateUtc": "2026-03-18T09:35:21.480Z"
                     }
                   }
                 }
@@ -645,14 +645,14 @@
                     "ShipmentInformation": {
                       "ReturnLabelsAtPackageLevel": false,
                       "ContentType": "NDX",
-                      "ServiceCode": "UK48",
+                      "ServiceCode": "RM48",
                       "DescriptionOfGoods": "Clothing",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "68152514-215e-4652-a41d-9a076f45f45c",
-                      "ShippingLocationId": "3211ca36-1252-43bc-b402-89d506ff06b2",
+                      "ShippingAccountId": "1840330b-c30f-4a50-8788-2328c1d6d1e4",
+                      "ShippingLocationId": "e9b50203-a1ec-46ee-af3a-3fa2558d4717",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -687,9 +687,9 @@
                       "LabelFormat": "PDF",
                       "ReturnLabelsAtPackageLevel": false,
                       "ContentType": "NDX",
-                      "ServiceCode": "UK48",
+                      "ServiceCode": "RM48",
                       "DescriptionOfGoods": "Clothing",
-                      "ShipmentDate": "2026-02-25",
+                      "ShipmentDate": "2026-03-18",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
@@ -787,7 +787,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "TPWW",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-02-25",
+                      "ShipmentDate": "2026-03-18",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP"
                     },
@@ -804,11 +804,11 @@
                         "ContactName": "John Smith",
                         "CompanyName": "Company",
                         "ContactEmail": "john.smith@example.com",
-                        "Line1": "10 Sky Road",
-                        "Town": "Sydney",
-                        "Postcode": "2000",
-                        "County": "NSW",
-                        "CountryCode": "AU"
+                        "Line1": "Fjordveien 12",
+                        "Town": "Bergen",
+                        "Postcode": "5004",
+                        "County": "Vestland",
+                        "CountryCode": "NO"
                       }
                     },
                     "Packages": [
@@ -846,8 +846,8 @@
                     "Customs": {
                       "ReasonForExport": "01",
                       "Incoterms": "DDU",
-                      "PreRegistrationNumber": "ARN1234567890",
-                      "PreRegistrationType": "GST"
+                      "PreRegistrationNumber": "VOEC12345678",
+                      "PreRegistrationType": "VOEC"
                     }
                   }
                 },
@@ -860,7 +860,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "TPWW",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-02-25",
+                      "ShipmentDate": "2026-03-18",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
@@ -888,18 +888,18 @@
                       }
                     },
                     "Destination": {
-                      "EoriNumber": "AU123456789000",
-                      "VatNumber": "AU123456789",
+                      "EoriNumber": "NO123456789000",
+                      "VatNumber": "NO123456789",
                       "Address": {
                         "ContactPhone": "07123456789",
                         "ContactName": "John Smith",
                         "CompanyName": "Company",
                         "ContactEmail": "john.smith@example.com",
-                        "Line1": "10 Sky Road",
-                        "Town": "Sydney",
-                        "Postcode": "2000",
-                        "County": "NSW",
-                        "CountryCode": "AU"
+                        "Line1": "Fjordveien 12",
+                        "Town": "Bergen",
+                        "Postcode": "5004",
+                        "County": "Vestland",
+                        "CountryCode": "NO"
                       }
                     },
                     "Packages": [
@@ -940,13 +940,13 @@
                     "Customs": {
                       "ReasonForExport": "01",
                       "Incoterms": "DDU",
-                      "PreRegistrationNumber": "ARN1234567890",
-                      "PreRegistrationType": "GST",
+                      "PreRegistrationNumber": "VOEC12345678",
+                      "PreRegistrationType": "VOEC",
                       "ShippingCharges": 55.82,
                       "OtherCharges": 32,
                       "QuotedLandedCost": 82.74,
                       "InvoiceNumber": "INV-12345",
-                      "InvoiceDate": "2026-02-25",
+                      "InvoiceDate": "2026-03-18",
                       "ExportLicenceRequired": false,
                       "Airn": "231.002.999-00"
                     },
@@ -972,9 +972,9 @@
                     "ShipmentInformation": {
                       "ReturnLabelsAtPackageLevel": false,
                       "ContentType": "NDX",
-                      "ServiceCode": "UK48",
+                      "ServiceCode": "RM48",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-02-25",
+                      "ShipmentDate": "2026-03-18",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
@@ -1019,7 +1019,7 @@
                     "value": {
                       "Packages": [
                         {
-                          "ShipmentId": "b57190ed-03c0-40a8-b241-b639c8e0d5e9",
+                          "ShipmentId": "ffbaae92-4dbe-4f2a-9df9-fdc915f8d9cb",
                           "PackageOccurrence": 1
                         }
                       ],
@@ -1030,7 +1030,7 @@
                     "value": {
                       "Packages": [
                         {
-                          "ShipmentId": "5c88eb1b-4e29-4af9-bef1-5c2a6402075e",
+                          "ShipmentId": "142ced3d-c318-4fbd-8d57-8fb4471b8409",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "MD000000004409629",
                           "CarrierTrackingUrl": "https://fictracking.fedex.com/?MyFICNumber=MD000000004409629"
@@ -1048,7 +1048,7 @@
                           "CarrierDetails": {
                             "LabelCopiesToPrint": 1
                           },
-                          "ShipmentId": "894e7858-e618-4e0b-a777-e1f18ddfcbbb",
+                          "ShipmentId": "a1aa5354-7e7a-43b2-a63a-6786c076dbdc",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "MD000000004409629",
                           "CarrierTrackingUrl": "https://fictracking.fedex.com/?MyFICNumber=MD000000004409629"
@@ -1137,7 +1137,7 @@
                 "examples": {
                   "PDF": {
                     "value": {
-                      "ShipmentId": "9b15e9ba-7b68-4d77-a344-639771235ead",
+                      "ShipmentId": "1e624772-8b29-40d3-aae0-dd7e40fc6f3a",
                       "TrackingNumber": "UZ 123 456 789 IE",
                       "CarrierTrackingUrl": "https://fictracking.fedex.com/?MyFICNumber=UZ 123 456 789 IE",
                       "Label": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
@@ -2122,7 +2122,6 @@
           },
           "Quantity": {
             "maximum": 5,
-            "minimum": 0.1,
             "type": "number",
             "description": "The quantity of the hazardous material in the specified UnitOfMeasure. This information is vital for compliance with shipping regulations pertaining to hazardous materials.\r<br />***Note:** This field is only required if **UnitOfMeasure** and **UNCode** is specified.*",
             "format": "double",
