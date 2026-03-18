@@ -373,14 +373,14 @@
                       "TrackingNumber": "TT000000005GB",
                       "BarcodeNumber": "4C0069786000000000B1F",
                       "Reference1": "OrderRef56",
-                      "ShipmentDate": "2026-02-25",
+                      "ShipmentDate": "2026-03-18",
                       "Status": "Created",
                       "ManifestNumber": "ISH2802532",
                       "ContainerId": "South East 1234",
                       "Carrier": "RM",
                       "DestinationCountryCode": "GB",
                       "LastUpdatedBy": "User A",
-                      "LastUpdatedDateUtc": "2026-02-25T07:57:26.490Z"
+                      "LastUpdatedDateUtc": "2026-03-18T09:29:47.193Z"
                     },
                     {
                       "ShippingAccountId": "310d6beb-ae36-40e7-918f-f92100c1719d",
@@ -388,14 +388,14 @@
                       "TrackingNumber": "",
                       "BarcodeNumber": "",
                       "Reference1": "OrderRef57",
-                      "ShipmentDate": "2026-02-25",
+                      "ShipmentDate": "2026-03-18",
                       "Status": "LabelPrinted",
                       "ManifestNumber": "",
                       "ContainerId": "",
                       "Carrier": "RM",
                       "DestinationCountryCode": "GB",
                       "LastUpdatedBy": "User B",
-                      "LastUpdatedDateUtc": "2026-02-25T07:57:26.490Z"
+                      "LastUpdatedDateUtc": "2026-03-18T09:29:47.193Z"
                     }
                   ],
                   "TotalCount": 2
@@ -724,11 +724,11 @@
               "example": [
                 {
                   "ShipmentId": "AD123456783GB",
-                  "ShipmentDate": "2026-03-02"
+                  "ShipmentDate": "2026-03-23"
                 },
                 {
                   "ShipmentId": "e3239e85-ddf8-4323-9064-b83c38eff927",
-                  "ShipmentDate": "2026-03-07"
+                  "ShipmentDate": "2026-03-28"
                 }
               ]
             }
@@ -1417,7 +1417,7 @@
                     {
                       "ContainerId": "South East",
                       "ContainerStatus": "Manifested",
-                      "CreatedDateUtc": "2026-02-25T07:57:23.183Z",
+                      "CreatedDateUtc": "2026-03-18T09:29:42.396Z",
                       "ShippingLocationId": "93f6d928-9456-434a-9d69-60f3b7dea091",
                       "ShippingLocationAlias": "Northern Warehouse",
                       "TotalWeight": 12,
@@ -1428,7 +1428,7 @@
                     {
                       "ContainerId": "South West",
                       "ContainerStatus": "Active",
-                      "CreatedDateUtc": "2026-02-24T07:57:23.183Z",
+                      "CreatedDateUtc": "2026-03-17T09:29:42.396Z",
                       "ShippingLocationId": "93f6d928-9456-434a-9d69-60f3b7dea091",
                       "ShippingLocationAlias": "Northern Warehouse",
                       "TotalWeight": 14,
@@ -1587,7 +1587,7 @@
                     "value": {
                       "ContainerId": "South East",
                       "ContainerStatus": "Active",
-                      "CreatedDateUtc": "2026-02-25T07:57:23.417Z",
+                      "CreatedDateUtc": "2026-03-18T09:29:42.613Z",
                       "CarrierCode": "RM",
                       "ShippingLocationId": "93f6d928-9456-434a-9d69-60f3b7dea091",
                       "ShippingLocationAlias": "Northern Warehouse",
@@ -1604,7 +1604,7 @@
                       "ManifestNumbers": [
                         "COS0000016"
                       ],
-                      "CreatedDateUtc": "2026-02-25T07:57:23.417Z",
+                      "CreatedDateUtc": "2026-03-18T09:29:42.614Z",
                       "CarrierCode": "RM",
                       "ShippingLocationId": "93f6d928-9456-434a-9d69-60f3b7dea091",
                       "ShippingLocationAlias": "Northern Warehouse",
@@ -1986,7 +1986,7 @@
                           "OriginalExportCode": "61091090001"
                         }
                       ],
-                      "GeneratedDate": "2026-02-25T07:57:23.900Z"
+                      "GeneratedDate": "2026-03-18T09:29:43.128Z"
                     }
                   },
                   "Incorrect HSCode": {
@@ -2008,7 +2008,7 @@
                           "OriginalExportCode": "61091090001"
                         }
                       ],
-                      "GeneratedDate": "2026-02-25T07:57:23.900Z"
+                      "GeneratedDate": "2026-03-18T09:29:43.128Z"
                     }
                   }
                 }
@@ -2203,7 +2203,7 @@
                   ],
                   "IsError": false,
                   "Notes": "<taxBreakdown><city><rate>0</rate><value>0</value></city><special><rate>0</rate><value>0</value></special><county><rate>0</rate><value>0</value></county><state><rate>0.06625</rate><value>0</value></state></taxBreakdown>",
-                  "GeneratedDate": "2026-02-25T07:57:24.498Z"
+                  "GeneratedDate": "2026-03-18T09:29:44.201Z"
                 }
               }
             }
@@ -2341,7 +2341,7 @@
                       "IsError": false,
                       "ErrorDescription": "",
                       "Notes": "",
-                      "GeneratedDate": "2026-02-25T07:57:24.714Z"
+                      "GeneratedDate": "2026-03-18T09:29:44.512Z"
                     }
                   },
                   "Prohibited Item": {
@@ -2362,7 +2362,7 @@
                       "IsError": true,
                       "ErrorDescription": "The item amaranth is prohibited",
                       "Notes": "",
-                      "GeneratedDate": "2026-02-25T07:57:24.714Z"
+                      "GeneratedDate": "2026-03-18T09:29:44.512Z"
                     }
                   }
                 }
@@ -2434,44 +2434,44 @@
               "examples": {
                 "Manifest by Shipping Account": {
                   "value": {
-                    "ShippingLocationId": "eec52235-2a03-44dd-b4e2-ab0edeb9a62d",
-                    "ShippingAccountId": "f3b0e281-0b81-402b-a3f2-d5c5b6c2a946",
+                    "ShippingLocationId": "7cbc6180-539d-46d6-bf4d-7f95566441bd",
+                    "ShippingAccountId": "e060e482-1cf3-4e97-aee4-c5fb29bbf957",
                     "Async": false
                   }
                 },
                 "Manifest by Shipping Account in the background": {
                   "value": {
-                    "ShippingLocationId": "5ee0b362-0492-42ab-b756-b1243d24c0a7",
-                    "ShippingAccountId": "022fdf99-9699-4597-a221-ff7c943104ba",
+                    "ShippingLocationId": "b519dd34-fc0d-4a99-93e2-77c508b28f05",
+                    "ShippingAccountId": "ccc920b8-802a-472f-b162-2cc549838182",
                     "Async": true
                   }
                 },
                 "Manifest by Service": {
                   "value": {
-                    "ShippingLocationId": "ee9170cb-63ef-4d00-b4d3-33061ce671bf",
+                    "ShippingLocationId": "b9640578-44c5-4911-9f6d-b0bc6c053799",
                     "ServiceCode": "EXPRESS",
                     "Async": false
                   }
                 },
                 "Manifest by Service for Shipping Account Only": {
                   "value": {
-                    "ShippingLocationId": "2a9aecfc-793e-43be-acbf-22bc6e419184",
-                    "ShippingAccountId": "4e183a5c-e7f2-4af9-bf3f-3c32e82fcf9f",
+                    "ShippingLocationId": "d971d0af-1541-4278-b782-2cd403ff9c48",
+                    "ShippingAccountId": "c6e1d67b-32eb-4961-aa33-7db9ec0c912e",
                     "ServiceCode": "EXPRESS",
                     "Async": false
                   }
                 },
                 "Manifest by Status": {
                   "value": {
-                    "ShippingLocationId": "b0cab70b-8f88-47ff-86cd-bfd2adf01ea5",
+                    "ShippingLocationId": "b4de6e58-b9db-413a-816c-fb8d0681f168",
                     "Status": "Picked",
                     "Async": false
                   }
                 },
                 "Manifest by Container": {
                   "value": {
-                    "ShippingLocationId": "cb8a9659-4161-4d9c-b699-80d649783062",
-                    "ContainerId": "065d9061-e7c3-49da-90a0-2935c5781cbd",
+                    "ShippingLocationId": "04df9336-12e3-46e9-9506-665c6efcf95b",
+                    "ContainerId": "5696510d-010e-4385-b459-2e77647fd082",
                     "Async": false
                   }
                 }
@@ -2841,16 +2841,16 @@
                           "WeightUnitOfMeasure": "KG",
                           "TotalShipments": 1,
                           "TotalItems": 1,
-                          "ManifestDate": "2026-02-25",
-                          "CreatedDateUtc": "2026-02-25T07:57:25.278Z",
+                          "ManifestDate": "2026-03-18",
+                          "CreatedDateUtc": "2026-03-18T09:29:45.110Z",
                           "ShippingLocation": {
-                            "ShippingLocationId": "30ada069-352e-4282-9a98-1d4d1839cdf3",
+                            "ShippingLocationId": "8cf6f955-af7a-4cd1-9668-a4af39e9ba64",
                             "LocationAlias": "London",
                             "LocationCountry": "GB",
                             "LocationPostcode": "TW20 0HJ"
                           },
                           "ShippingAccount": {
-                            "ShippingAccountId": "3f88e7d2-7243-4b4f-b313-dc30f42e770c",
+                            "ShippingAccountId": "d0f82656-758a-4933-8c5d-bf3045f7ab86",
                             "AccountName": "AccountName",
                             "AccountAlias": "Test",
                             "AccountNumber": "1234567890"
@@ -3200,7 +3200,6 @@
                               },
                               "Quantity": {
                                 "maximum": 5,
-                                "minimum": 0.1,
                                 "type": "number",
                                 "description": "The quantity of the hazardous material in the specified UnitOfMeasure.This information is vital for compliance with shipping regulations pertaining to hazardous materials.",
                                 "format": "double",
@@ -3273,7 +3272,7 @@
                             "ProperShippingName": "Compressed Air",
                             "Class": "9",
                             "Id8000Category": "Nail Varnish",
-                            "Quantity": 3.5,
+                            "Quantity": "3.5",
                             "UnitOfMeasure": "L",
                             "EmergencyActionCode": "E012",
                             "HazchemNumber": "string",
@@ -3477,7 +3476,6 @@
                       },
                       "Quantity": {
                         "maximum": 5,
-                        "minimum": 0.1,
                         "type": "number",
                         "description": "The quantity of the hazardous material in the specified UnitOfMeasure.This information is vital for compliance with shipping regulations pertaining to hazardous materials. <br>***Note**: This field is only required if **UnitOfMeasure** and **UNCode** is specified.*",
                         "format": "double",
@@ -3536,7 +3534,7 @@
                       "ProperShippingName": "Compressed Air",
                       "Class": "9",
                       "Id8000Category": "Nail Varnish",
-                      "Quantity": 3.5,
+                      "Quantity": "3.5",
                       "UnitOfMeasure": "L",
                       "EmergencyActionCode": "E012",
                       "HazchemNumber": "string",
@@ -3778,7 +3776,6 @@
                         },
                         "Quantity": {
                           "maximum": 5,
-                          "minimum": 0.1,
                           "type": "number",
                           "description": "The quantity of the hazardous material in the specified UnitOfMeasure.This information is vital for compliance with shipping regulations pertaining to hazardous materials.",
                           "format": "double",
@@ -3971,7 +3968,6 @@
                       },
                       "Quantity": {
                         "maximum": 5,
-                        "minimum": 0.1,
                         "type": "number",
                         "description": "The quantity of the hazardous material in the specified UnitOfMeasure.This information is vital for compliance with shipping regulations pertaining to hazardous materials. <br>***Note**: This field is only required if **UnitOfMeasure** and **UNCode** is specified.*",
                         "format": "double",
@@ -4030,7 +4026,7 @@
                       "ProperShippingName": "Compressed Air",
                       "Class": "9",
                       "Id8000Category": "Nail Varnish",
-                      "Quantity": 3.5,
+                      "Quantity": "3.5",
                       "UnitOfMeasure": "L",
                       "EmergencyActionCode": "E012",
                       "HazchemNumber": "string",
@@ -8274,7 +8270,6 @@
           },
           "Quantity": {
             "maximum": 5,
-            "minimum": 0.1,
             "type": "number",
             "description": "The quantity of the hazardous material in the specified UnitOfMeasure.This information is vital for compliance with shipping regulations pertaining to hazardous materials.",
             "format": "double",
