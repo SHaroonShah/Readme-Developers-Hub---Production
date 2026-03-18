@@ -2,7 +2,7 @@
   "openapi": "3.0.1",
   "info": {
     "title": "SAPIENT THE DELIVERY GROUP API",
-    "description": "# Introduction\nHere you will find requirements for integrating with SAPIENT CORE API.\n\nThe documentation specifically covers how the API can be used by business customers to conduct shipping activity with available carriers and provides the technical information to build this integration. The API allows customers to create and manage shipments, produce labels, customs documentation, and collection manifests, retrieve reference data such as carriers and countries, and maintain their own data such as shipping account details.\n\nIntersoft API is a fully RESTful service implemented using JSON messaging. You, as the customer are responsible for sending JSON messages and for maintaining the capability of receiving JSON messages in the format described in this specification. Request and response examples for each API service are included in this specification.\n\n# Authentication\n\nThe SAPIENT CORE API uses OAuth2 authentication.\n\nTo request the authorization token you need to create API credentials (Client ID and Secret) on the system first. If you have not done it already, log into your account and go to API Credentials or follow the link [add a link here with the path to the API Credentials menu]. Use the credentials to retrieve the authorization token.\n\nNote: Make sure you copy the Secret and keep it secure as you won't be able to view it again on the system.\n\n<!-- ReDoc-Inject: <SecurityDefinitions /> -->\n",
+    "description": "# Introduction\nHere you will find requirements for integrating with INTERSOFT SAPIENT API.\n\nThe documentation specifically covers how the API can be used by business customers to conduct shipping activity with available carriers and provides the technical information to build this integration. The API allows customers to create and manage shipments, produce labels, customs documentation, and collection manifests, retrieve reference data such as carriers and countries, and maintain their own data such as shipping account details.\n\nIntersoft API is a fully RESTful service implemented using JSON messaging. You, as the customer are responsible for sending JSON messages and for maintaining the capability of receiving JSON messages in the format described in this specification. Request and response examples for each API service are included in this specification.\n\n# Authentication\n\nThe INTERSOFT SAPIENT API uses OAuth2 authentication.\n\nTo request the authorization token you need to create API credentials (Client ID and Secret) on the system first. If you have not done it already, log into your account and go to API Credentials or follow the link [add a link here with the path to the API Credentials menu]. Use the credentials to retrieve the authorization token.\n\nNote: Make sure you copy the Secret and keep it secure as you won't be able to view it again on the system.\n\n<!-- ReDoc-Inject: <SecurityDefinitions /> -->\n",
     "version": "v4.0-TDG",
     "x-logo": {
       "url": "/Content/images/redoc-logo.png",
@@ -95,7 +95,7 @@
                       "ContactNumber": "0123456789",
                       "Username": "Username1",
                       "LastUpdatedBy": "User A",
-                      "LastUpdatedDateUtc": "2026-02-25T08:00:58.054Z"
+                      "LastUpdatedDateUtc": "2026-03-18T09:33:03.238Z"
                     },
                     {
                       "ShippingAccountId": "46d58272-5f6a-405d-a947-c46c9caea56f",
@@ -109,7 +109,7 @@
                       "ContactNumber": "0123456789",
                       "Username": "Username2",
                       "LastUpdatedBy": "User B",
-                      "LastUpdatedDateUtc": "2026-02-25T08:00:58.054Z"
+                      "LastUpdatedDateUtc": "2026-03-18T09:33:03.238Z"
                     }
                   ],
                   "TotalCount": 2
@@ -265,7 +265,7 @@
                   "ContactNumber": "0123456789",
                   "Username": "Username",
                   "LastUpdatedBy": "User A",
-                  "LastUpdatedDateUtc": "2026-02-25T08:00:58.293Z"
+                  "LastUpdatedDateUtc": "2026-03-18T09:33:03.517Z"
                 }
               }
             }
@@ -642,13 +642,13 @@
                       "ContentType": "NDX",
                       "ServiceCode": "SMHER24",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-02-25",
+                      "ShipmentDate": "2026-03-18",
                       "DeclaredWeight": 1.5,
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "5b6e03a0-0892-4da8-9e6b-a9ebc15cb69b",
+                      "ShippingAccountId": "cd0458d0-da2b-4ac9-a23e-03c235f97ebb",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -692,7 +692,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "SMHER24",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-02-25",
+                      "ShipmentDate": "2026-03-18",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
@@ -700,8 +700,8 @@
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "b34d2167-e21b-47e8-b6cc-f4df7daddf80",
-                      "ShippingLocationId": "3e65e1a0-a728-45be-96bb-6e581868a4ab",
+                      "ShippingAccountId": "075524a4-fe88-4785-98b4-65fe8e50e642",
+                      "ShippingLocationId": "0c2a2ced-85b0-4748-8d6c-e5bf445cdf59",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -778,14 +778,14 @@
                       "ContentType": "NDX",
                       "ServiceCode": "SMINT",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-02-25",
+                      "ShipmentDate": "2026-03-18",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "6f0e666c-f4c4-46d5-8b04-a1ec9133cae3",
+                      "ShippingAccountId": "09c3e3d9-ecba-48e7-b956-c18e2bc8ed08",
                       "Reference1": "OrderRef56",
                       "EoriNumber": "GB12345",
                       "VatNumber": "VA12345"
@@ -855,7 +855,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "SMINT",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-02-25",
+                      "ShipmentDate": "2026-03-18",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
@@ -863,8 +863,8 @@
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "0fd88fdd-382b-43d0-8362-8f9f3f00b2b5",
-                      "ShippingLocationId": "782b32cd-d638-4820-89c6-a6688455330d",
+                      "ShippingAccountId": "ca3783ac-8ad1-412f-ab03-622cdb2f1419",
+                      "ShippingLocationId": "3be18d27-6a47-4785-add7-91660fc5da01",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -942,7 +942,7 @@
                       "OtherCharges": 32,
                       "QuotedLandedCost": 82.74,
                       "InvoiceNumber": "INV-12345",
-                      "InvoiceDate": "2026-02-25",
+                      "InvoiceDate": "2026-03-18",
                       "ExportLicenceRequired": false,
                       "Airn": "231.002.999-00"
                     },
@@ -970,12 +970,12 @@
                       "ContentType": "NDX",
                       "ServiceCode": "SMHER24",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-02-25",
+                      "ShipmentDate": "2026-03-18",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "0d9ce056-4c28-4311-8967-839812c5b255",
+                      "ShippingAccountId": "0b3a6f35-d245-4a69-a79e-b2258607c206",
                       "Reference1": "OrderRef56",
                       "Address": {
                         "AddressId": "John Brown Default"
@@ -1015,7 +1015,7 @@
                     "value": {
                       "Packages": [
                         {
-                          "ShipmentId": "3f0aa3a3-ceb3-4186-8613-ae6a254d585c",
+                          "ShipmentId": "7a8af85d-e5e1-40b5-afbe-d421d2347681",
                           "PackageOccurrence": 1
                         }
                       ],
@@ -1026,7 +1026,7 @@
                     "value": {
                       "Packages": [
                         {
-                          "ShipmentId": "a4caa39d-3743-49f6-8ef5-d560d42f9c2c",
+                          "ShipmentId": "f08bfc4e-704a-44f4-82c9-0897e10f1408",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "H03TCA0000000118",
                           "CarrierTrackingUrl": "https://services.dockethub.com/Mosaic.DocketHub.ItemTracking/shipmenttracking/H03TCA0000000118"
@@ -1041,7 +1041,7 @@
                       "LabelFormat": "Pdf",
                       "Packages": [
                         {
-                          "ShipmentId": "5885b414-4ada-4b8b-b86f-f9f8807a92a9",
+                          "ShipmentId": "c3599114-f8bb-4702-ab93-60c33ba6fd32",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "H03TCA0000000118",
                           "CarrierTrackingUrl": "https://services.dockethub.com/Mosaic.DocketHub.ItemTracking/shipmenttracking/H03TCA0000000118"
@@ -1138,7 +1138,7 @@
                 "examples": {
                   "PDF": {
                     "value": {
-                      "ShipmentId": "f2d27826-566a-4df5-a515-3bdd204cee67",
+                      "ShipmentId": "263363e2-d153-4edb-a753-74e7d0f3c5fe",
                       "TrackingNumber": "H03TCA0000000118",
                       "CarrierTrackingUrl": "https://services.dockethub.com/Mosaic.DocketHub.ItemTracking/shipmenttracking/H03TCA0000000118",
                       "Label": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
@@ -1717,7 +1717,6 @@
           },
           "Quantity": {
             "maximum": 5,
-            "minimum": 0.1,
             "type": "number",
             "description": "The quantity of the hazardous material in the specified UnitOfMeasure. This information is vital for compliance with shipping regulations pertaining to hazardous materials.\r<br />***Note:** This field is only required if **UnitOfMeasure** and **UNCode** is specified.*",
             "format": "double",
