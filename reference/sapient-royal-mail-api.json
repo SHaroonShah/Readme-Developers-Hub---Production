@@ -154,7 +154,7 @@
                         "PostingLocationCode": "2345654321",
                         "ObaAccessCode": "123456",
                         "ReceivingHubCode": "002610",
-                        "ShippingLocationId": "5f18d465-7a02-4a97-b4c0-23d2bbe4394c"
+                        "ShippingLocationId": "eba10228-f2f7-4ed2-84d5-f62b8c03435d"
                       }
                     ]
                   }
@@ -730,12 +730,12 @@
                       "ContentType": "NDX",
                       "ServiceCode": "CRL1",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-02-25",
+                      "ShipmentDate": "2026-03-18",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "6c9e43d5-18e0-47af-b34c-5c4a9f126dcd",
+                      "ShippingAccountId": "901d4d9c-3ecd-4989-b913-1866c6958a74",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -775,15 +775,15 @@
                       "ContentType": "NDX",
                       "ServiceCode": "CRL1",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-02-25",
+                      "ShipmentDate": "2026-03-18",
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM",
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "d423feee-10d8-4d94-86b8-3d8d6aae5c37",
-                      "ShippingLocationId": "6c72f7fe-11dc-4e66-9a6a-66c05632cbc5",
+                      "ShippingAccountId": "6b77064c-78e6-4e27-bbb9-b7a5fe8d746e",
+                      "ShippingLocationId": "8bca9538-bd70-470a-b439-869d9fb09b8c",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -873,13 +873,13 @@
                       "ContentType": "NDX",
                       "ServiceCode": "OLA",
                       "DescriptionOfGoods": "Clothing",
-                      "ShipmentDate": "2026-02-25",
+                      "ShipmentDate": "2026-03-18",
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "MM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "3b208c5c-3056-48fb-a2ba-626b961c5f9a",
+                      "ShippingAccountId": "b852363d-a8ab-4e45-8038-0b413192706d",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -951,15 +951,15 @@
                       "ContentType": "NDX",
                       "ServiceCode": "OLA",
                       "DescriptionOfGoods": "Clothing",
-                      "ShipmentDate": "2026-02-25",
+                      "ShipmentDate": "2026-03-18",
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "MM",
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "2ef1f677-b18f-4a61-977b-4d91520ea6fb",
-                      "ShippingLocationId": "dcfc5850-539c-4b0a-a45d-b74685fd17b0",
+                      "ShippingAccountId": "87c5326b-d583-4e70-8161-05998f79fac3",
+                      "ShippingLocationId": "13da4676-6a28-40a9-a59f-2efca35ab952",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -1038,7 +1038,7 @@
                       "OtherCharges": 32,
                       "QuotedLandedCost": 82.74,
                       "InvoiceNumber": "INV-12345",
-                      "InvoiceDate": "2026-02-25",
+                      "InvoiceDate": "2026-03-18",
                       "ExportLicenceRequired": false,
                       "Airn": "231.002.999-00"
                     },
@@ -1180,13 +1180,13 @@
                       "ContentType": "NDX",
                       "ServiceCode": "TPS",
                       "DescriptionOfGoods": "Aftershave",
-                      "ShipmentDate": "2026-02-25",
+                      "ShipmentDate": "2026-03-18",
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "933a129f-4b9c-4f11-8fa3-245b6a68fdba",
+                      "ShippingAccountId": "2c61e6e9-fd84-4142-bc0e-8dc2a8893ca0",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -1285,14 +1285,14 @@
                       "ContentType": "NDX",
                       "ServiceCode": "OLA",
                       "DescriptionOfGoods": "Clothing",
-                      "ShipmentDate": "2026-02-25",
+                      "ShipmentDate": "2026-03-18",
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "MM",
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "eb852710-3cb6-4644-a6fc-78eb54ec7b19",
+                      "ShippingAccountId": "87554883-298d-4091-80c8-fafb0b50cf6f",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -1368,7 +1368,7 @@
                     "value": {
                       "Packages": [
                         {
-                          "ShipmentId": "da08a588-28c5-4a0d-9c54-c6d91eba4f77",
+                          "ShipmentId": "ba85dd31-9684-457a-ab86-11bbf21406f5",
                           "PackageOccurrence": 1
                         }
                       ]
@@ -1381,7 +1381,7 @@
                           "CarrierDetails": {
                             "UniqueId": "3A07033860010000B2268"
                           },
-                          "ShipmentId": "4e3f8ebd-4204-4889-92ee-4fa2c4a46f97",
+                          "ShipmentId": "3a41dae2-d5d5-4f77-9d0a-5e5f0222e21a",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "TT123456785GB",
                           "CarrierTrackingUrl": "https://www.royalmail.com/track-your-item#/tracking-results/TT123456785GB"
@@ -1398,7 +1398,7 @@
                           "CarrierDetails": {
                             "UniqueId": "4F006978600000137EB39"
                           },
-                          "ShipmentId": "3148819e-d16d-4158-8e13-a5fa22adb924",
+                          "ShipmentId": "9cdf6d60-3178-465c-92bf-04f28364ce78",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "EO000250025GB",
                           "CarrierTrackingUrl": "https://www.royalmail.com/track-your-item#/tracking-results/EO000250025GB"
@@ -1427,7 +1427,7 @@
                               "Primary1DBarcodeData": "TT123456785GB"
                             }
                           },
-                          "ShipmentId": "a1ff76e8-4f30-438c-85cf-944bb8f31f09",
+                          "ShipmentId": "b0998368-8c87-4328-bbe1-140659cd75bc",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "TT123456785GB",
                           "CarrierTrackingUrl": "https://www.royalmail.com/track-your-item#/tracking-results/TT123456785GB"
@@ -1464,7 +1464,7 @@
                           "CarrierDetails": {
                             "UniqueId": "4F2310202400000AF1E3E"
                           },
-                          "ShipmentId": "56455fc9-57f7-4c5c-89ce-110dd4c1f211",
+                          "ShipmentId": "7f34d328-fc68-4a5c-80dd-73e8a6214814",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "AB123456789GB",
                           "CarrierTrackingUrl": "https://www.royalmail.com/track-your-item#/tracking-results/AB123456789GB"
@@ -1473,7 +1473,7 @@
                           "CarrierDetails": {
                             "UniqueId": "4F2310202400000AF1E4C"
                           },
-                          "ShipmentId": "ffa40dba-5223-4057-8f30-6ed71b2db89a",
+                          "ShipmentId": "d72ec4a4-b820-4572-b91a-f0c3c57640fe",
                           "PackageOccurrence": 2,
                           "TrackingNumber": "AB123456790GB",
                           "CarrierTrackingUrl": "https://www.royalmail.com/track-your-item#/tracking-results/AB123456790GB"
@@ -1496,7 +1496,7 @@
                               "PartnerTrackingUrl": "https://gls-group.com/GROUP/en/parcel-tracking"
                             }
                           },
-                          "ShipmentId": "e8207bae-68b6-4019-a2d2-cf1201869024",
+                          "ShipmentId": "51c04d75-0332-4bca-a279-1267173e3232",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "EO000250025GB",
                           "CarrierTrackingUrl": "https://www.royalmail.com/track-your-item#/tracking-results/EO000250025GB"
@@ -1518,7 +1518,7 @@
                               "PartnerTrackingUrl": "https://gls-group.com/GROUP/en/parcel-tracking"
                             }
                           },
-                          "ShipmentId": "e476a82c-e9f2-45a7-95c0-eb103334c142",
+                          "ShipmentId": "8b5e313b-66df-461d-b8e2-17e21512c15d",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "EO000250025GB",
                           "CarrierTrackingUrl": "https://www.royalmail.com/track-your-item#/tracking-results/EO000250025GB",
@@ -1534,7 +1534,7 @@
                               "PartnerTrackingUrl": "https://gls-group.com/GROUP/en/parcel-tracking"
                             }
                           },
-                          "ShipmentId": "b1b55f00-671a-4607-a7f2-73393a6337eb",
+                          "ShipmentId": "ada6e2b0-5b53-432d-9163-7730f165f7f1",
                           "PackageOccurrence": 2,
                           "TrackingNumber": "EO000250458GB",
                           "CarrierTrackingUrl": "https://www.royalmail.com/track-your-item#/tracking-results/EO000250458GB",
@@ -1810,8 +1810,8 @@
               "examples": {
                 "Create Collection With Timeslot ID": {
                   "value": {
-                    "SlotReservationId": "d64ed1e2-e7cb-4fe2-8de5-d60d57d19056",
-                    "SlotDate": "2026-02-25",
+                    "SlotReservationId": "22ff8a2a-791c-4331-a92e-03fde07ca425",
+                    "SlotDate": "2026-03-18",
                     "BringMyLabel": false,
                     "OptOutFromRmNotifications": false,
                     "CollectionSafePlace": "Safe place description"
@@ -1826,8 +1826,8 @@
                 },
                 "Create Collection With Opt Out From RM Notifications": {
                   "value": {
-                    "SlotReservationId": "4f98129d-49ed-4776-8e59-7c0ea09ca66d",
-                    "SlotDate": "2026-02-25",
+                    "SlotReservationId": "57c4d0ee-75ef-4152-9449-a654f6d5b23e",
+                    "SlotDate": "2026-03-18",
                     "BringMyLabel": false,
                     "OptOutFromRmNotifications": true,
                     "CollectionSafePlace": "Safe place description"
@@ -1835,16 +1835,16 @@
                 },
                 "Create Collection Without Collection Safe Place": {
                   "value": {
-                    "SlotReservationId": "d1238a61-6109-404c-b762-084ecc404f27",
-                    "SlotDate": "2026-02-25",
+                    "SlotReservationId": "d1c1f284-4cc0-42f1-b555-c93fdfc0b7ff",
+                    "SlotDate": "2026-03-18",
                     "BringMyLabel": false,
                     "OptOutFromRmNotifications": false
                   }
                 },
                 "Create Collection With Collection Safe Place": {
                   "value": {
-                    "SlotReservationId": "6904dce7-0ede-46c6-b2cf-9ee463cabee2",
-                    "SlotDate": "2026-02-25",
+                    "SlotReservationId": "3d7ada0c-fca1-400f-ac56-8bbbda20ca8e",
+                    "SlotDate": "2026-03-18",
                     "BringMyLabel": false,
                     "OptOutFromRmNotifications": false,
                     "CollectionSafePlace": "Safe place description"
@@ -1949,15 +1949,15 @@
                 },
                 "example": {
                   "ShipmentId": "072d80e4-8f9f-42e4-9c03-6b81a3597ce6",
-                  "SlotReservationId": "bc9789f0-81b6-4202-a3ea-81623444457e",
-                  "SlotReservationExpiryTime": "2026-02-25T08:13:19.824Z",
+                  "SlotReservationId": "cc08bc48-8078-4b63-9e28-e288cab858e7",
+                  "SlotReservationExpiryTime": "2026-03-18T09:45:20.119Z",
                   "Slots": [
                     {
-                      "SlotDate": "2026-02-26",
+                      "SlotDate": "2026-03-19",
                       "EstimatedWindow": "14:30-16:30"
                     },
                     {
-                      "SlotDate": "2026-02-27",
+                      "SlotDate": "2026-03-20",
                       "EstimatedWindow": "14:30-16:30"
                     }
                   ]
@@ -2123,12 +2123,12 @@
                     {
                       "ContainerId": "South East",
                       "ContainerBarcode": "TT12345678GB",
-                      "CreatedDateUtc": "2026-02-25T07:58:20.154Z",
+                      "CreatedDateUtc": "2026-03-18T09:30:20.500Z",
                       "ShippingLocationAlias": "Northern Warehouse",
                       "ShippingLocationId": "93f6d928-9456-434a-9d69-60f3b7dea091",
                       "ContainerStatus": "Manifested",
                       "DestinationCountryCode": "GB",
-                      "ExportDate": "2026-02-25",
+                      "ExportDate": "2026-03-18",
                       "Mawb": "125-12345678",
                       "RmService": "P",
                       "RmProduct": "T",
@@ -2143,12 +2143,12 @@
                     {
                       "ContainerId": "South West",
                       "ContainerBarcode": "TT12345679GB",
-                      "CreatedDateUtc": "2026-02-24T07:58:20.154Z",
+                      "CreatedDateUtc": "2026-03-17T09:30:20.500Z",
                       "ShippingLocationAlias": "Northern Warehouse",
                       "ShippingLocationId": "93f6d928-9456-434a-9d69-60f3b7dea091",
                       "ContainerStatus": "Active",
                       "DestinationCountryCode": "GB",
-                      "ExportDate": "2026-02-25",
+                      "ExportDate": "2026-03-18",
                       "Mawb": "125-12345678",
                       "RmService": "S",
                       "RmProduct": "O",
@@ -2492,12 +2492,12 @@
                     "value": {
                       "ContainerId": "South East",
                       "ContainerBarcode": "TT12345678GB",
-                      "CreatedDateUtc": "2026-02-25T07:58:20.454Z",
+                      "CreatedDateUtc": "2026-03-18T09:30:20.798Z",
                       "ShippingLocationAlias": "Northern Warehouse",
                       "ShippingLocationId": "93f6d928-9456-434a-9d69-60f3b7dea091",
                       "ContainerStatus": "Active",
                       "DestinationCountryCode": "GB",
-                      "ExportDate": "2026-02-25",
+                      "ExportDate": "2026-03-18",
                       "Mawb": "125-12345678",
                       "RmService": "P",
                       "RmProduct": "T",
@@ -2514,12 +2514,12 @@
                     "value": {
                       "ContainerId": "South East",
                       "ContainerBarcode": "TT12345678GB",
-                      "CreatedDateUtc": "2026-02-25T07:58:20.455Z",
+                      "CreatedDateUtc": "2026-03-18T09:30:20.798Z",
                       "ShippingLocationAlias": "Northern Warehouse",
                       "ShippingLocationId": "93f6d928-9456-434a-9d69-60f3b7dea091",
                       "ContainerStatus": "Active",
                       "DestinationCountryCode": "GB",
-                      "ExportDate": "2026-02-25",
+                      "ExportDate": "2026-03-18",
                       "Mawb": "125-12345678",
                       "RmService": "P",
                       "RmProduct": "T",
@@ -3560,7 +3560,6 @@
           },
           "Quantity": {
             "maximum": 5,
-            "minimum": 0.1,
             "type": "number",
             "description": "The quantity of the hazardous material in the specified UnitOfMeasure. This information is vital for compliance with shipping regulations pertaining to hazardous materials.\r<br />***Note:** This field is only required if **UnitOfMeasure** and **UNCode** is specified.*",
             "format": "double",
