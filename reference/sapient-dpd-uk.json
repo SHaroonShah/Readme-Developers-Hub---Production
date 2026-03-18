@@ -601,8 +601,8 @@
                       "CurrencyCode": "GBP"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "4baa2630-14f1-4f7d-b730-6a3eb4d258ed",
-                      "ShippingLocationId": "6ac6dc6e-244e-4712-ba2d-e79410ee56c6",
+                      "ShippingAccountId": "74032199-a408-485e-a600-1ef85d94b6dd",
+                      "ShippingLocationId": "aaf0ff06-b69b-4e7a-8a2a-7ed4c4e6b237",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -648,15 +648,15 @@
                       "ContentType": "NDX",
                       "ServiceCode": "11",
                       "DescriptionOfGoods": "Clothing",
-                      "ShipmentDate": "2026-02-25",
+                      "ShipmentDate": "2026-03-18",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "c2d67a70-af60-47a6-b01c-6b1534f320aa",
-                      "ShippingLocationId": "3dc0b3e0-3b8f-42e9-a054-9557e058bc23",
+                      "ShippingAccountId": "8afc4baa-f2c9-445d-b6ad-6ba3b95039e1",
+                      "ShippingLocationId": "b3c72f3e-c5ae-450e-894e-eba281071e56",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -746,13 +746,13 @@
                       "ContentType": "NDX",
                       "ServiceCode": "50",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-02-25",
+                      "ShipmentDate": "2026-03-18",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "aa694629-b2f9-442a-b613-fa0b7c44acf1",
-                      "ShippingLocationId": "5c0395ce-a784-435e-90f6-aa7527323252",
+                      "ShippingAccountId": "e04eb3c4-7300-4451-beb7-dc4c4e0f327a",
+                      "ShippingLocationId": "e6e8714c-82e2-4308-a51e-e4101d635512",
                       "Reference1": "OrderRef56",
                       "EoriNumber": "GB12345",
                       "VatNumber": "GB12345"
@@ -828,15 +828,15 @@
                       "ContentType": "NDX",
                       "ServiceCode": "50",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-02-25",
+                      "ShipmentDate": "2026-03-18",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "c3fbb1f0-2fd7-4e4f-9056-e2d83d9d26d2",
-                      "ShippingLocationId": "52303f51-b5be-43b5-9e63-5208a0925848",
+                      "ShippingAccountId": "bbdddaa5-9c62-4932-b56c-47b29f011f6e",
+                      "ShippingLocationId": "0fdc4d4a-b63a-4402-9de4-8de586477e23",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -914,7 +914,7 @@
                       "OtherCharges": 32,
                       "QuotedLandedCost": 82.74,
                       "InvoiceNumber": "INV-12345",
-                      "InvoiceDate": "2026-02-25",
+                      "InvoiceDate": "2026-03-18",
                       "ExportLicenceRequired": false,
                       "Airn": "231.002.999-00"
                     },
@@ -942,12 +942,12 @@
                       "ContentType": "NDX",
                       "ServiceCode": "SMHER24",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-02-25",
+                      "ShipmentDate": "2026-03-18",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "4e35e5d7-b78e-4288-b225-cef05012c653",
+                      "ShippingAccountId": "46388670-7518-4c7e-9567-6fdca3fbb166",
                       "Reference1": "OrderRef56",
                       "Address": {
                         "AddressId": "John Brown Default"
@@ -985,7 +985,7 @@
                 "examples": {
                   "Create": {
                     "value": {
-                      "ConsignmentShipmentId": "182aa2e3-3498-4dcf-a49d-082578dbf708",
+                      "ConsignmentShipmentId": "3dea1e1d-0f2c-4246-b982-cc7c222efe44",
                       "Packages": [
                         {
                           "PackageOccurrence": 1
@@ -995,7 +995,7 @@
                   },
                   "Allocate": {
                     "value": {
-                      "ConsignmentShipmentId": "a55644be-48c2-4a62-a873-ee9064c9d194",
+                      "ConsignmentShipmentId": "bc4ea55f-95f5-4a7e-a18d-874a90a4b9a1",
                       "ConsignmentTrackingNumber": "UZ 123 456 789 IE",
                       "ConsignmentCarrierTrackingUrl": "https://track.dpd.co.uk/search?reference=UZ 123 456 789 IE",
                       "Packages": [
@@ -1009,7 +1009,7 @@
                   },
                   "Process - PDF": {
                     "value": {
-                      "ConsignmentShipmentId": "756ab519-af6d-41b5-be4e-4baa1a8a8566",
+                      "ConsignmentShipmentId": "63de6225-bc2f-421f-8e0b-d07caf37080e",
                       "ConsignmentTrackingNumber": "UZ 123 456 789 IE",
                       "ConsignmentCarrierTrackingUrl": "https://track.dpd.co.uk/search?reference=UZ 123 456 789 IE",
                       "Labels": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
@@ -1111,7 +1111,7 @@
                 "examples": {
                   "PDF": {
                     "value": {
-                      "ShipmentId": "8ef869b9-fc03-4499-9b36-234bb591e1b1",
+                      "ShipmentId": "8cf66846-34e2-4a3f-9aba-7423fb15f430",
                       "TrackingNumber": "UZ 123 456 789 IE",
                       "CarrierTrackingUrl": "https://track.dpd.co.uk/search?reference=UZ 123 456 789 IE",
                       "Label": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
@@ -2048,7 +2048,6 @@
           },
           "Quantity": {
             "maximum": 5,
-            "minimum": 0.1,
             "type": "number",
             "description": "The quantity of the hazardous material in the specified UnitOfMeasure. This information is vital for compliance with shipping regulations pertaining to hazardous materials.\r<br />***Note:** This field is only required if **UnitOfMeasure** and **UNCode** is specified.*",
             "format": "double",
