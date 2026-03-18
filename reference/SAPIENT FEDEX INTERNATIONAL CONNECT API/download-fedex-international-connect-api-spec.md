@@ -1,7 +1,7 @@
 ---
 title: Download FedEx International Connect API Spec
 deprecated: false
-hidden: true
+hidden: false
 metadata:
   robots: index
 ---
