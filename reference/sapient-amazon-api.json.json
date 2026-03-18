@@ -130,7 +130,7 @@
           "Shipping Accounts"
         ],
         "summary": "Add Account",
-        "description": "Add a shipping account for Amazon and link it with an existing shipping location.\r<br />Ensure to have required carrier details ready like Amazon account name (client name allocated by Amazon), username and password so that you can use the account for shipping with Amazon.",
+        "description": "Add a shipping account for Amazon and either link it with an existing shipping location or add a new shipping location that will be associated with the shipping account.\r<br />Ensure to have required carrier details ready like Amazon account name (client name allocated by Amazon), username and password so that you can use the account for shipping with Amazon.",
         "requestBody": {
           "description": "Add Shipping Account Request",
           "content": {
@@ -149,7 +149,7 @@
                     "ContactNumber": "0123456789",
                     "ShippingLocations": [
                       {
-                        "ShippingLocationId": "163af918-615d-4d93-a21b-68efb6584c2b"
+                        "ShippingLocationId": "e5388515-c597-4cae-8268-03d001e31c20"
                       }
                     ]
                   }
@@ -445,7 +445,7 @@
           "Shipping Accounts"
         ],
         "summary": "Get Associated Locations",
-        "description": "Provides a list of all shipping locations associated with a Amazon shipping account.",
+        "description": "Retrieve a list of shipping locations that are linked to a specific Amazon shipping account.",
         "parameters": [
           {
             "name": "shippingAccountId",
@@ -567,7 +567,7 @@
           "Shipping Accounts"
         ],
         "summary": "Get Associated Location",
-        "description": "Provides information for a specific shipping location linked to a Amazon shipping account including location alias, timezone, address, when it was last updated, and by who.",
+        "description": "Retrieve detailed information about a specific shipping location that is associated with an Amazon shipping account.",
         "parameters": [
           {
             "name": "shippingAccountId",
@@ -625,7 +625,7 @@
           "Shipments"
         ],
         "summary": "Create Shipment",
-        "description": "Create a Amazon shipment. This will return an image of the shipping label in PDF or PNG format.",
+        "description": "Create a new Amazon shipment by submitting the shipment details in your request and returning an image of the shipping label in the PDF and PNG formats.",
         "requestBody": {
           "description": "Shipment Details",
           "content": {
@@ -641,14 +641,14 @@
                       "ContentType": "NDX",
                       "ServiceCode": "1Day",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-02-25",
+                      "ShipmentDate": "2026-03-18",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "8d065127-f14e-4cc1-a6c8-c30ae59303a7",
+                      "ShippingAccountId": "b1b88cb3-b43c-4143-9dfb-65b6bb784e6b",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -686,11 +686,10 @@
                 "Domestic - OFF Amazon All Fields": {
                   "value": {
                     "CarrierSpecifics": {
-                      "DeliveryInstructions": "Instructions to the courier",
-                      "ItemEnhancements": {},
                       "Enhancements": [
                         "Otp"
-                      ]
+                      ],
+                      "DeliveryInstructions": "Instructions to the courier"
                     },
                     "ShipmentInformation": {
                       "Action": "Process",
@@ -699,7 +698,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "1Day",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-02-25",
+                      "ShipmentDate": "2026-03-18",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
@@ -707,8 +706,8 @@
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "d00efbfe-0ed0-460e-a2d4-74e5b25a23cf",
-                      "ShippingLocationId": "feeeefad-d42b-44ba-b8ab-2a3cd7224317",
+                      "ShippingAccountId": "e1bdb6d0-0a57-4764-a7a5-777f5ff96e33",
+                      "ShippingLocationId": "5b74ecf8-6059-42e6-a3a4-7d6db9c83b73",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -781,25 +780,22 @@
                 "Domestic - ON Amazon Basic Fields": {
                   "value": {
                     "CarrierSpecifics": {
-                      "OrderId": "order_id",
-                      "ItemEnhancements": {
-                        "TSH-FFF-M": "item_id"
-                      },
-                      "Enhancements": []
+                      "Enhancements": [],
+                      "OrderId": "order_id"
                     },
                     "ShipmentInformation": {
                       "ReturnLabelsAtPackageLevel": false,
                       "ContentType": "NDX",
                       "ServiceCode": "Prime",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-02-25",
+                      "ShipmentDate": "2026-03-18",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "31455e0d-253b-410c-9b95-53eeef0ff57d",
+                      "ShippingAccountId": "3a2bf951-bef1-4744-a4f5-4bc864415b07",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -826,7 +822,7 @@
                     ],
                     "Items": [
                       {
-                        "SkuCode": "TSH-FFF-M",
+                        "SkuCode": "item_id",
                         "Quantity": 1,
                         "Description": "T-shirt",
                         "Value": 101,
@@ -838,24 +834,20 @@
                 "Domestic - ON Amazon All Fields": {
                   "value": {
                     "CarrierSpecifics": {
-                      "DeliveryInstructions": "Instructions to the courier",
-                      "OrderId": "202-7179886-3817928",
-                      "ItemEnhancements": {
-                        "SKU123": "60334228527867",
-                        "SKU456": "60334228527868"
-                      },
                       "Enhancements": [
                         "Sod"
-                      ]
+                      ],
+                      "DeliveryInstructions": "Instructions to the courier",
+                      "OrderId": "202-7179886-3817928"
                     },
                     "ShipmentInformation": {
                       "Action": "Process",
                       "LabelFormat": "PDF",
                       "ReturnLabelsAtPackageLevel": false,
                       "ContentType": "NDX",
-                      "ServiceCode": "1Day",
+                      "ServiceCode": "Prime",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-02-25",
+                      "ShipmentDate": "2026-03-18",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
@@ -863,8 +855,8 @@
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "14a67df5-be4b-47e7-b72d-8e99e779ad78",
-                      "ShippingLocationId": "ad189143-e3e5-4a07-8969-52c6fe67b995",
+                      "ShippingAccountId": "16bbf37c-2da6-44e9-9747-8cdf95f8a7fa",
+                      "ShippingLocationId": "29c7d9aa-fd3b-4ac8-a516-e1b1a21359b9",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -910,7 +902,7 @@
                     ],
                     "Items": [
                       {
-                        "SkuCode": "SKU123",
+                        "SkuCode": "item_id_0",
                         "PackageOccurrence": 1,
                         "Quantity": 1,
                         "Description": "White Mens Large T-shirt",
@@ -921,7 +913,7 @@
                         "CountryOfOrigin": "CN"
                       },
                       {
-                        "SkuCode": "SKU456",
+                        "SkuCode": "item_id_1",
                         "PackageOccurrence": 1,
                         "Quantity": 2,
                         "Description": "Black Mens Large Jumper",
@@ -941,13 +933,13 @@
                       "ContentType": "NDX",
                       "ServiceCode": "1Day",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-02-25",
+                      "ShipmentDate": "2026-03-18",
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "00d00248-5e6c-4182-8f4d-c49ae28cbe81",
+                      "ShippingAccountId": "bdbe6870-c6ff-4213-8fcf-19b47a2ee7dd",
                       "Reference1": "OrderRef56",
                       "Address": {
                         "AddressId": "John Brown Default"
@@ -987,7 +979,7 @@
                     "value": {
                       "Packages": [
                         {
-                          "ShipmentId": "9f03edf0-ef08-439b-922d-cb8ba4875c7c",
+                          "ShipmentId": "d3d3f730-0bbe-48a5-a7ae-3120aa30e5fd",
                           "PackageOccurrence": 1
                         }
                       ],
@@ -998,7 +990,7 @@
                     "value": {
                       "Packages": [
                         {
-                          "ShipmentId": "c4def23c-f817-4647-b508-50bf477f1f6c",
+                          "ShipmentId": "cd920f2a-fdcf-41c6-bda9-09d25a5836e1",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "H03TCA0000000118",
                           "CarrierTrackingUrl": "https://track.amazon.co.uk/tracking/H03TCA0000000118"
@@ -1013,7 +1005,7 @@
                       "LabelFormat": "Pdf",
                       "Packages": [
                         {
-                          "ShipmentId": "e688148f-7bb9-4afa-8d42-77b3838d56b9",
+                          "ShipmentId": "f4c19f79-22d2-4c4d-b52d-b2ab1db73934",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "H03TCA0000000118",
                           "CarrierTrackingUrl": "https://track.amazon.co.uk/tracking/H03TCA0000000118"
@@ -1077,7 +1069,7 @@
           "Shipments"
         ],
         "summary": "Print Label",
-        "description": "This changes the status of the shipment to label printed. This should be done at the time of actual printing or label creation dependent on how you operate in reality. Shipments must be updated to printed status prior to manifesting.",
+        "description": "Generate and return the label for the Amazon shipment. This endpoint is utilised after an Amazon shipment has been created and is meant to facilitate the printing of the label required for that shipment.\r<br />\r<br />***Note:** This endpoint changes the shipment status to \"label printed\"​. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting.*",
         "parameters": [
           {
             "name": "shipmentId",
@@ -1110,7 +1102,7 @@
                 "examples": {
                   "PDF": {
                     "value": {
-                      "ShipmentId": "386b8b44-e12b-445e-bc57-063de16b8a8b",
+                      "ShipmentId": "99d0df06-0dc2-4500-a830-65f6bfc22759",
                       "TrackingNumber": "H03TCA0000000118",
                       "CarrierTrackingUrl": "https://track.amazon.co.uk/tracking/H03TCA0000000118",
                       "Label": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
@@ -1356,7 +1348,7 @@
           "AccountName": {
             "maxLength": 35,
             "type": "string",
-            "description": "The official name of the shipping account as designated by the user or organisation, aiding in easy identification and reference of accounts.\r<br />\r<br />***Note:** By default, this value is set to the customer name if not provided in the request.*",
+            "description": "The official name of the shipping account as designated by the user or organisation, aiding in easy identification and reference of accounts. <br/> <br/> ***Note:** By default, this value is set to the customer name if not provided in the request.<br/>The account name will appear on Amazon's tracking page and in notifications sent to the receiver if the shipper's company name is not provided.*",
             "nullable": true,
             "example": "AB VideoGames"
           },
@@ -1399,41 +1391,32 @@
           "Sod"
         ],
         "type": "string",
-        "description": "Enhancement code of the service enhancement. Valid values are:\r<br /><list type=\"bullet\"><item><description><b>Otp</b> - a signature that provides One Time Password.</description></item><item><description><b>Sod</b> - a signature that provides Signature of Delivery.</description></item></list>"
+        "description": "This object specifies the particular enhancement code that is being applied to the shipment, allowing customers to select multiple enhancements that can modify the shipping experience according to their preferences.\r<br />\r<br />Valid values are the following:\r<br /><list type=\"bullet\"><item><description><b>Signature on Delivery (SoD):</b> A signature is required upon delivery for verification of your shipment.</description></item><item><description><b>One Time Passcode (OTP):</b> A onetime passcode is required upon delivery for secure delivery confirmation. This passcode is sent by Amazon to the receiver. To use this enhancement code, the destination ContactPhone field must be populated with a valid phone number.</description></item></list>"
       },
       "AmazonShipmentRequestCarrierSpecifics": {
         "type": "object",
         "properties": {
-          "DeliveryInstructions": {
-            "type": "string",
-            "description": "Delivery Instructions\r<br />Instructions to the courier, to locate the address or if the service permits such a delivery - to also advise a suitable leave safe location or neighbor to sign.",
-            "nullable": true
-          },
-          "OrderId": {
-            "type": "string",
-            "description": "Order Id\r<br />The identifier for the order generated in Amazon.",
-            "nullable": true
-          },
-          "ItemEnhancements": {
-            "type": "object",
-            "additionalProperties": {
-              "type": "string",
-              "nullable": true
-            },
-            "description": "Item Enhancements\r<br />The dictionary contains order item id and SKU code.",
-            "nullable": true
-          },
           "Enhancements": {
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/AmazonEnhancementCode"
             },
-            "description": "Any enhancements that you would like to add to the requested service.",
+            "description": "An array of strings that specifies the particular enhancement code that is being applied to the shipment, allowing customers to select the desired enhancement that can modify the shipping experience according to their preferences.\r<br />\r<br />**Valid values are the following:**\r<br /><ul><li>**Signature on Delivery (SoD):** A signature is required upon delivery for verification of your shipment.</li><li>**One Time Passcode (OTP):** A onetime passcode is required upon delivery for secure delivery confirmation. This passcode is sent by Amazon to the receiver. To use this enhancement code, the destination **ContactPhone** field must be populated with a valid phone number.</li></ul>\r<br />***Note:** Only one service enhancement can be used per shipment.*",
+            "nullable": true
+          },
+          "DeliveryInstructions": {
+            "type": "string",
+            "description": "A field to provide special instructions or requests to the carrier for handling the shipment, such as handling procedures or delivery preferences.",
+            "nullable": true
+          },
+          "OrderId": {
+            "type": "string",
+            "description": "A unique Amazon identifier for each order.\r<br />\r<br />***Note:** This information is required only for On-Amazon shipments.*",
             "nullable": true
           }
         },
         "additionalProperties": false,
-        "description": "Amazon-specific features that can be used when creating a TDG shipment."
+        "description": "Amazon-specific features that can be used when creating an Amazon shipment."
       },
       "AmazonShipmentRequestCarrierSpecificsPackageDetailsLabelFormatCreateShipmentRequest": {
         "required": [
@@ -1616,7 +1599,7 @@
             "maxLength": 35,
             "minLength": 1,
             "type": "string",
-            "description": "The official name of the shipping account as designated by the user or organization, aiding in easy identification and reference of accounts.\r<br />\r<br />***Note:** By default, this value is set to the customer name if not provided in the request.*",
+            "description": "The official name of the shipping account as designated by the user or organisation, aiding in easy identification and reference of accounts. <br/> <br/> ***Note:** By default, this value is set to the customer name if not provided in the request.<br/>The account name will appear on Amazon's tracking page and in notifications sent to the receiver if the shipper's company name is not provided.*",
             "example": "AB VideoGames"
           },
           "AccountAlias": {
@@ -2014,7 +1997,6 @@
           },
           "Quantity": {
             "maximum": 5,
-            "minimum": 0.1,
             "type": "number",
             "description": "The quantity of the hazardous material in the specified UnitOfMeasure. This information is vital for compliance with shipping regulations pertaining to hazardous materials.\r<br />***Note:** This field is only required if **UnitOfMeasure** and **UNCode** is specified.*",
             "format": "double",
@@ -2072,7 +2054,7 @@
           "SkuCode": {
             "maxLength": 30,
             "type": "string",
-            "description": "A unique Stock Keeping Unit (SKU) code assigned to the item. This code is used for tracking inventory, helping users identify specific items easily.",
+            "description": "A unique Stock Keeping Unit (SKU) code assigned to the item. This code is useful for linking each Amazon OrderItemId to the corresponding item in the shipment.<br/><br/>Before populating this field, bear in mind the following:<br/><ul><li>This field is required for On-Amazon shipments and must be populated with the Amazon OrderItemId.</li><li>This field is not required for Off-Amazon shipments. However, if a value is provided, then it must be the item SkuCode.</li></ul>",
             "nullable": true,
             "example": "C604-25-035"
           },
@@ -2294,7 +2276,7 @@
           },
           "ShipmentDate": {
             "type": "string",
-            "description": "The scheduled date for the shipment to be shipped, which cannot be in the past and must not exceed 28 days into the future. If omitted, it defaults to the current date.",
+            "description": "The scheduled date for the shipment to be shipped, which cannot be in the past and must not exceed 9 days into the future.<br /><br />***Note:** The shipment date must be in the YYYY-MM-DD format. If not provided, then this field is set to the current date.*",
             "format": "date",
             "nullable": true
           },
