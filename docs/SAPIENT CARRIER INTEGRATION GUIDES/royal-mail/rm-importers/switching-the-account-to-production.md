@@ -27,7 +27,7 @@ To set up the  Production <Glossary>Shipping Account</Glossary>, perform the fol
 <Callout icon="💡" theme="default">
   ### _Tip_
 
-  _The Shipping Account you set up previously stay as the**Sandbox** account type and you can continue using it for testing purposes._
+  _The Shipping Account you set up previously stay as the **Sandbox** account type and you can continue using it for testing purposes._
 </Callout>
 
 4. If you are a Freight 2 Post customer, ensure that [International Arrival Containers (A-scan)](https://docs.intersoftsapient.net/docs/add-barcode-range-for-international-arrival-containers)  is set up with valid details provided to you by Intersoft Onboarding team.
@@ -41,19 +41,34 @@ The full details on this are shared with you closer to the date.
 
 6. Once the labels are signed off and the go-live action is agreed with Royal Mail,  you can start shipping via Intersoft SAPIENT.
 
-> 🚧 _Important_
->
-> _Once you go-live any technical issues should be raised directly with our Tech Support team by following the steps listed <Anchor label="here" target="_blank" href="https://docs.intersoftsapient.net/docs/troubleshooting#/">here</Anchor> .  
-> Enquiries regarding addition of the new services, features etc. should be continued being sent to  [onboarding@intersoft.co.uk](mailto:onboarding@intersoft.co.uk)._
+<Callout icon="⚠️" theme="warning">
+  ### _Important_
 
-## See also
+  _Once you go-live any technical issues should be raised directly with our Tech Support team by following the steps listed [here](https://docs.intersoftsapient.net/docs/troubleshooting#/)._
+  _Enquiries regarding addition of the new services, features etc. should be continued being sent to [onboarding@intersoft.co.uk](mailto:onboarding@intersoft.co.uk)._
+</Callout>
 
-If you are interested in creating a tracking account for the newly added Shipping Account, refer to the following sections on how to set up our <Glossary>Tracking Webhook</Glossary> solution:
+***
 
-* [Tracking Webhook](https://docs.intersoftsapient.net/docs/tracking-webhook-1): set up the webhook connection, create tracking account, and much more.
-* [Response examples](https://docs.intersoftsapient.net/reference/post_v4-trackings-pushpayloadexample): view response example of the tracking webhook push notification payload, as sent to a customer's webhook when tracking information is received from a carrier.
-* [Royal Mail Tracking Account setup](https://docs.intersoftsapient.net/docs/royal-mail-tracking-account-setup): set up Royal Mail tracking account.
+### See also
+
+If you are interested in creating a Tracking Account for the newly added Shipping Account, refer to the following sections on how to set up our <Glossary>Tracking Webhook</Glossary> solution:
+
+<Cards columns={3}>
+  <Card title="Tracking Webhook" href="https://docs.intersoftsapient.net/docs/tracking-webhook-1" icon="fa-solid fa-satellite-dish">
+    Set up the webhook connection, create tracking account, and much more.
+  </Card>
+
+  <Card title="Response examples" href="https://docs.intersoftsapient.net/reference/post_v4-trackings-pushpayloadexample" icon="fa-solid fa-code">
+    View response example of the tracking webhook push notification payload, as sent to a customer's webhook when tracking information is received from a carrier.
+  </Card>
+
+  <Card title="Royal Mail Tracking Account setup" href="https://docs.intersoftsapient.net/docs/royal-mail-tracking-account-setup" icon="fa-solid fa-truck">
+    Set up Royal Mail tracking account.
+  </Card>
+</Cards>
 
 > 📘 _Note_
 >
-> _To enable the**Tracking Webhook** solution, please contact our [Intersoft Onboarding](mailto:onboarding@intersoft.co.uk) team._
+> _To enable the **Tracking Webhook** solution, please contact our [Intersoft Onboarding](mailto:onboarding@intersoft.co.uk) team._
+
