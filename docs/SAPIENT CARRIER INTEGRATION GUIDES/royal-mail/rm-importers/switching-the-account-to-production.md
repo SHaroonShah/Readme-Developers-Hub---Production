@@ -66,6 +66,6 @@ If you are interested in creating a Tracking Account for the newly added Shippin
   </Card>
 </Cards>
 
-<Callout icon="📘" theme="info">
-  To enable the **Tracking Webhook** solution, please contact our [Intersoft Onboarding](mailto:onboarding@intersoft.co.uk) team.
-</Callout>
+> 📘 _Note_
+>
+> To enable the **Tracking Webhook** solution, please contact our [Intersoft Onboarding](mailto:onboarding@intersoft.co.uk) team.
