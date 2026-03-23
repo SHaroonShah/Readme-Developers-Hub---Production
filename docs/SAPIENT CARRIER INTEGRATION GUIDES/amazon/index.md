@@ -41,6 +41,9 @@ In the UK, Amazon Shipping covers England, Scotland, and Wales, offering seven-d
         <Glossary>PDF</Glossary> and <Glossary>PNG</Glossary>.
       </Card>
     </Cards>
+> 📘 _Note_
+>
+> _The label formats are supported for both On Amazon and Off Amazon shipments. However, the available label formats depends on the service used._
   </Tab>
 
   <Tab title="Additional Features">
@@ -53,10 +56,6 @@ In the UK, Amazon Shipping covers England, Scotland, and Wales, offering seven-d
       * **AmazonOrderItemId**: The unique Amazon ID for each item in the order, which is only mandatory for On Amazon shipments and is available at the item-level of the **Create Shipment** request. Additionally, the **SkuCode** field is included to link the **AmazonOrderItemId** to the corresponding item in the shipment.
   </Tab>
 </Tabs>
-
-> 📘 _Note_
->
-> _The label formats are supported for both On Amazon and Off Amazon shipments. However, the available label formats depends on the service used._
 
 ## Service enhancements
 
