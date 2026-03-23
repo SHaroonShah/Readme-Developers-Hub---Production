@@ -41,10 +41,12 @@ In the UK, Amazon Shipping covers England, Scotland, and Wales, offering seven-d
         <Glossary>PDF</Glossary> and <Glossary>PNG</Glossary>.
       </Card>
     </Cards>
-<br />
-> 📘 _Note_
->
-> _The label formats are supported for both On Amazon and Off Amazon shipments. However, the available label formats depends on the service used._
+
+    <br />
+
+    > 📘 *Note*
+    >
+    > *The label formats are supported for both On Amazon and Off Amazon shipments. However, the available label formats depends on the service used.*
   </Tab>
 
   <Tab title="Additional Features">
@@ -71,6 +73,7 @@ In the UK, Amazon Shipping covers England, Scotland, and Wales, offering seven-d
 </Tabs>
 
 ***
+
 ## Getting Started
 
 <Cards columns={2}>
@@ -81,7 +84,11 @@ In the UK, Amazon Shipping covers England, Scotland, and Wales, offering seven-d
   <Card title="Add an Amazon tracking account" icon="fa-solid fa-search-location" href="https://docs.intersoftsapient.net/docs/add-an-post-tracking-account#/">
     Configure tracking for your Amazon shipments.
   </Card>
+  <Card title="API References" icon="fa-solid fa-search-location" href="https://docs.intersoftsapient.net/docs/add-an-post-tracking-account#/">
+    Configure tracking for your Amazon shipments.
+  </Card>
 </Cards>
+
 <Banner isInline={true} message="Ready to integrate?" color="#ffb600" textColor="#ffffff" fontSize="20px" fontWeight="bold" width="120px" />
 
 <Cards>
