@@ -76,7 +76,7 @@ In the UK, Amazon Shipping covers England, Scotland, and Wales, offering seven-d
 
 ## Getting Started
 
-<Cards columns={2}>
+<Cards columns={3}>
   <Card title="Add an Amazon shipping account" icon="fa-solid fa-truck" href="https://docs.intersoftsapient.net/docs/add-amazon-shipping-account">
     Set up your Amazon shipping account to start creating shipments.
   </Card>
