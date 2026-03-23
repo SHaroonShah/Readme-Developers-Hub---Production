@@ -46,8 +46,9 @@ This integration represents a significant step towards optimising shipping funct
       <Card title="Incoterms Support" icon="fa-solid fa-file-contract">
         The integration supports <Glossary>DDU</Glossary>, <Glossary>DDP</Glossary>, <Glossary>DAP</Glossary>, and <Glossary>DAT</Glossary>.
       </Card>
-<Card title="Label Formats" icon="fa-label">
-  <Glossary>PDF</Glossary>, <Glossary>PNG</Glossary>, and <Glossary>ZPL</Glossary>.<br />
+
+      <Card title="Label Formats" icon="fa-solid fa-tag">
+        <Glossary>PDF</Glossary>, <Glossary>PNG</Glossary>, and <Glossary>ZPL</Glossary>.<br />
         The label formats are supported for both On Amazon and Off Amazon shipments. However, the available label formats depends on the service used.
       </Card>
     </Cards>
