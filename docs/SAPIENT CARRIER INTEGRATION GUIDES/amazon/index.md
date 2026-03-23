@@ -46,10 +46,6 @@ In the UK, Amazon Shipping covers England, Scotland, and Wales, offering seven-d
     </Cards>
 
     <br />
-
-    > 📘 *Note*
-    >
-    > *The label formats are supported for both On Amazon and Off Amazon shipments. However, the available label formats depends on the service used.*
   </Tab>
 
   <Tab title="Additional Features">
