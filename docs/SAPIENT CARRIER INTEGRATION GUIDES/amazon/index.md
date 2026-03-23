@@ -23,15 +23,15 @@ In the UK, Amazon Shipping covers England, Scotland, and Wales, offering seven-d
 <Tabs>
   <Tab title="Key Features">
     <Cards columns={2}>
-      <Card title="Shipping Origins" icon="fa-solid fa-truck">
+      <Card title="Shipping Origins" icon="fa-map-marker-alt">
         The integration supports shipping from locations in Great Britain (GB) only.
       </Card>
 
-      <Card title="Shipping Destinations" icon="fa-solid fa-location-dot">
+      <Card title="Shipping Destinations" icon="fa-solid fa-globe">
         Users can send shipments to Great Britain (GB) only, including Northern Ireland (NI).
       </Card>
 
-      <Card title="Service Type" icon="fa-solid fa-box">
+      <Card title="Service Type" icon="fa-solid fa-shipping-fast">
         The integration is focused on outbound shipping on both, Amazon-owned marketplaces (referred to as <Glossary>On-Amazon</Glossary> shipments) and orders originating from non-Amazon owned channels (referred to as <Glossary>Off-Amazon</Glossary>).
       </Card>
 
@@ -39,7 +39,7 @@ In the UK, Amazon Shipping covers England, Scotland, and Wales, offering seven-d
         The integration supports shipping domestically within the shipper country only. Therefore, incoterms are not applicable.
       </Card>
 
-      <Card title="Label Formats" icon="fa-solid fa-file">
+      <Card title="Label Formats" icon="fa-solid fa-file-contract">
         <Glossary>PDF</Glossary> and <Glossary>PNG</Glossary>.<br />
         The label formats are supported for both On Amazon and Off Amazon shipments. However, the available label formats depends on the service used.
       </Card>
