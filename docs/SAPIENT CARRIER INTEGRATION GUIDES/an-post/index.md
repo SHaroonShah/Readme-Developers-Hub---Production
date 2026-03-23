@@ -35,8 +35,7 @@ The integration of An Post, Ireland's national postal service, into the SAPIENT 
       </Card>
 
       <Card title="Service Type" icon="fa-solid fa-shipping-fast">
-        The integration is focused on outbound and inbound shipping.<br />
-An Post does not support consignment services; all services are single-package services only. Also, the Express International and Priority Post services are only available to limited destinations.
+        The integration is focused on outbound and inbound shipping.
       </Card>
 
       <Card title="Incoterms Support" icon="fa-solid fa-file-contract">
@@ -45,10 +44,14 @@ An Post does not support consignment services; all services are single-package s
 
       <Card title="Label Formats" icon="fa-solid fa-tag">
         <Glossary>PDF</Glossary> and <Glossary>PNG</Glossary>.<br />
-        The integration support labels in <Glossary>PDF</Glossary> and <Glossary>PNG</Glossary> formats. 
+        The integration support labels in <Glossary>PDF</Glossary> and <Glossary>PNG</Glossary> formats.
       </Card>
     </Cards>
-
+<Accordion title="Important considerations">
+Please bear in mind the following: 
+* An Post does not support consignment services; all services are single-package services only. Also, the Express International and Priority Post services are only available to limited destinations.
+* If shipping from GB to Ireland, undelivered or returned parcels will not be returned to your UK address. Instead, they must be returned to a designated PO Box address at the Portlaoise Mail Centre in Ireland. This information must be populated in the **ReturnToSender** section of the API documentation
+</Accordion>
     <br />
   </Tab>
 
