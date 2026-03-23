@@ -69,26 +69,6 @@ The integration of An Post, Ireland's national postal service, into the SAPIENT 
   </Tab>
 </Tabs>
 
-## Key Features
-
-This integration provides the following key features:
-
-* **Ship from destinations**: The integration supports shipping from locations in Ireland (IE) and Great Britain (GB).
-
-> 🚧 _Important_
->
-> _If shipping from GB to Ireland, undelivered or returned parcels will not be returned to your UK address. Instead, they must be returned to a designated PO Box address at the Portlaoise Mail Centre in Ireland. This information must be populated in the **ReturnToSender** section of the API documentation._
-
-* **Ship to Destinations**: Users can send <Glossary>shipments</Glossary> to Ireland (IE), Great Britain (GB), Europe, and the <Glossary>ROW</Glossary> (Rest of the World).
-* **Service Type**: The integration is focused on outbound and inbound shipping.
-
-> 📘 _Note_
->
-> _An Post does not support consignment services; all services are single-package services only. Also, the Express International and Priority Post services are only available to limited destinations._
-
-* **Supported incoterms**: <Glossary>DDU</Glossary>
-* **Label image formats**: <Glossary>PDF</Glossary> and <Glossary>PNG</Glossary>
-
 ## Integration types
 
 The following integrations are added to the scope:
