@@ -72,7 +72,7 @@ The integration of An Post, Ireland's national postal service, into the SAPIENT 
 ## API Services
 
 <Tabs>
-  <Tab title="Core Services">
+  <Tab title="Core Services"> <br />
     <Accordion title="Create Shipment" icon="plus-circle">
       The integration for creating shipments to reflect An Post as a primary carrier and allowing users to create shipments using the **Create Shipment** endpoint. Based on the destination country, customers must be aware of the following:
 
@@ -89,7 +89,7 @@ The integration of An Post, Ireland's national postal service, into the SAPIENT 
     <br />
   </Tab>
 
-  <Tab title="Advanced Services">
+  <Tab title="Advanced Services"> <br />
     <Accordion title="Print Label" icon="print">
       Generate and return the label for an An Post shipment. This endpoint must be utilised when the label is not generated in the An Post Create Shipment request.
 
