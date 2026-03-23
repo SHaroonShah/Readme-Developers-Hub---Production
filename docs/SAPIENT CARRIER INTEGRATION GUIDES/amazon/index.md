@@ -44,14 +44,14 @@ In the UK, Amazon Shipping covers England, Scotland, and Wales, offering seven-d
   </Tab>
 
   <Tab title="Additional Features">
-    * Single package shipments: Amazon only supports single package services. Consignment services are not supported in the this integration.
+    * **Single package shipments**: Amazon only supports single package services. Consignment services are not supported in the this integration.
 
-* Carrier-Specific Fields: The **CarrierSpecifics** object in the **Create Shipment** request contains the following fields:
+    * **Carrier-Specific Fields**: The **CarrierSpecifics** object in the **Create Shipment** request contains the following fields:
 
-        * **DeliveryInstructions**: To provide any additional instructions to the carrier regarding the delivery of the shipment.
-        * **AmazonOrderID**: The unique Amazon ID for each order, which is only mandatory for On Amazon shipments.
-        * **AmazonOrderItemId**: The unique Amazon ID for each item in the order, which is only mandatory for On Amazon shipments and is available at the item-level of the **Create Shipment** request. Additionally, the **SkuCode** field is included to link the **AmazonOrderItemId** to the corresponding item in the shipment.
- </Tab>
+      * **DeliveryInstructions**: To provide any additional instructions to the carrier regarding the delivery of the shipment.
+      * **AmazonOrderID**: The unique Amazon ID for each order, which is only mandatory for On Amazon shipments.
+      * **AmazonOrderItemId**: The unique Amazon ID for each item in the order, which is only mandatory for On Amazon shipments and is available at the item-level of the **Create Shipment** request. Additionally, the **SkuCode** field is included to link the **AmazonOrderItemId** to the corresponding item in the shipment.
+  </Tab>
 </Tabs>
 
 > 📘 _Note_
