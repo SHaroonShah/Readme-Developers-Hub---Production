@@ -20,7 +20,7 @@ In the UK, Amazon Shipping covers England, Scotland, and Wales, offering seven-d
 
 <Tabs>
   <Tab title="Key Features">
-    <Cards columns={3}>
+    <Cards columns={2}>
       <Card title="Shipping Origins" icon="fa-solid fa-truck">
         The integration supports shipping from locations in Great Britain (GB) only.
       </Card>
