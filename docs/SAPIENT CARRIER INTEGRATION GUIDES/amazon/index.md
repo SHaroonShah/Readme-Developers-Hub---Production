@@ -41,6 +41,9 @@ In the UK, Amazon Shipping covers England, Scotland, and Wales, offering seven-d
         <Glossary>PDF</Glossary> and <Glossary>PNG</Glossary>.
       </Card>
     </Cards>
+> 📘 _Note_
+>
+> _The label formats are supported for both On Amazon and Off Amazon shipments. However, the available label formats depends on the service used._
   </Tab>
 
   <Tab title="Additional Features">
@@ -65,28 +68,6 @@ In the UK, Amazon Shipping covers England, Scotland, and Wales, offering seven-d
     </Cards>
   </Tab>
 </Tabs>
-
-> 📘 _Note_
->
-> _The label formats are supported for both On Amazon and Off Amazon shipments. However, the available label formats depends on the service used._
-
-## Service enhancements
-
-The following key services are provided by the Amazon integration:
-
-<Columns layout="auto">
-  <Column>
-    **Signature on Delivery (SOD)**
-
-    A signature is required upon delivery for verification of your shipment.
-  </Column>
-
-  <Column>
-    **One Time Password (OTP)**
-
-    Amazon sends the receiver a one-time password to be used upon delivery.
-  </Column>
-</Columns>
 
 ***
 
