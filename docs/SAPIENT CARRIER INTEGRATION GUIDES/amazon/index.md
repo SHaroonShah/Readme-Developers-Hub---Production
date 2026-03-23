@@ -54,16 +54,17 @@ In the UK, Amazon Shipping covers England, Scotland, and Wales, offering seven-d
   </Tab>
 
   <Tab title="Service Enhancements">
-  <Cards>
-  <Card title="Signature on Delivery (SOD)">
-    A signature is required upon delivery for verification of your shipment.
-  </Card>
-  <Card title="One Time Password (OTP)">
-Amazon sends the receiver a one-time password to be used upon delivery.
- 	</Card>
-  </Cards>
-	</Tab>
-	</Tabs>
+    <Cards>
+      <Card title="Signature on Delivery (SOD)" icon="fa-solid fa-signature">
+        A signature is required upon delivery for verification of your shipment.
+      </Card>
+
+      <Card title="One Time Password (OTP)" icon="fa-solid fa-pin">
+        Amazon sends the receiver a one-time password to be used upon delivery.
+      </Card>
+    </Cards>
+  </Tab>
+</Tabs>
 
 > 📘 _Note_
 >
