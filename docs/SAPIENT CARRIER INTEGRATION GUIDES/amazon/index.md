@@ -41,6 +41,7 @@ In the UK, Amazon Shipping covers England, Scotland, and Wales, offering seven-d
 
       <Card title="Label Formats" icon="fa-solid fa-file">
         <Glossary>PDF</Glossary> and <Glossary>PNG</Glossary>.
+The label formats are supported for both On Amazon and Off Amazon shipments. However, the available label formats depends on the service used.
       </Card>
     </Cards>
 
