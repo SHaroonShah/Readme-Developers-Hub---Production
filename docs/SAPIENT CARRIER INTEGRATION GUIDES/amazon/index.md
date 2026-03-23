@@ -35,11 +35,11 @@ In the UK, Amazon Shipping covers England, Scotland, and Wales, offering seven-d
         The integration is focused on outbound shipping on both, Amazon-owned marketplaces (referred to as <Glossary>On-Amazon</Glossary> shipments) and orders originating from non-Amazon owned channels (referred to as <Glossary>Off-Amazon</Glossary>).
       </Card>
 
-      <Card title="Incoterms Support" icon="fa-solid fa-globe">
+      <Card title="Incoterms Support" icon="fa-solid fa-file-contract">
         The integration supports shipping domestically within the shipper country only. Therefore, incoterms are not applicable.
       </Card>
 
-      <Card title="Label Formats" icon="fa-solid fa-file-contract">
+      <Card title="Label Formats" icon="fa-solid fa-label">
         <Glossary>PDF</Glossary> and <Glossary>PNG</Glossary>.<br />
         The label formats are supported for both On Amazon and Off Amazon shipments. However, the available label formats depends on the service used.
       </Card>
