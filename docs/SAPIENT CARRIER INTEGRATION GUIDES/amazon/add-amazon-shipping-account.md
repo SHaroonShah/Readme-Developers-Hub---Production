@@ -482,6 +482,10 @@ To add a shipping account for Amazon in SAPIENT, follow the instructions as expl
 
 ### See also
 
-* [Edit shipping account](https://docs.intersoftsapient.net/docs/edit-shipping-account)
+<Cards columns={2}>
+  <Card title="Edit shipping account" href="https://docs.intersoftsapient.net/docs/edit-shipping-account" icon="fa-pen-to-square">
+    Modify an existing shipping account's details.
+  </Card>
+</Cards>
 
 <br />
