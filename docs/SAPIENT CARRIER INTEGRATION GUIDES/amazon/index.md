@@ -17,11 +17,6 @@ metadata:
 ***
 
 In the UK, Amazon Shipping covers England, Scotland, and Wales, offering seven-day pickup and delivery, including weekends at no extra cost. Customers benefit from various delivery options, such as Standard (3–5 days), One-Day, and Same-Day for Prime members.
-
-## Key features
-
-This integration provides the following key features:
-
 <Cards columns={2}>
   <Card title="Ship from Destinations" icon="fa-solid fa-truck">
     The integration supports shipping from locations in Great Britain (GB) only.
@@ -30,6 +25,7 @@ This integration provides the following key features:
     Users can send shipments to Great Britain (GB) only, including Northern Ireland (NI).
   </Card>
   <Card title="Service Type" icon="fa-solid fa-box">
+
     The integration is focused on outbound shipping on both, Amazon-owned marketplaces (referred to as <Glossary>On-Amazon</Glossary> shipments) and orders originating from non-Amazon owned channels (referred to as <Glossary>Off-Amazon</Glossary>).
   </Card>
   <Card title="Incoterms" icon="fa-solid fa-globe">
@@ -47,7 +43,6 @@ This integration provides the following key features:
 ## Service enhancements
 
 The following key services are provided by the Amazon integration:
-
 <Columns layout="auto">
   <Column>
     **Signature on Delivery (SOD)**
@@ -60,7 +55,6 @@ The following key services are provided by the Amazon integration:
     Amazon sends the receiver a one-time password to be used upon delivery.
   </Column>
 </Columns>
-
 ## Additional features
 
 The Amazon integration provides the following additional features:
