@@ -13,11 +13,67 @@ icon: fad fa-truck-fast
 metadata:
   robots: index
 ---
-<Image align="center" border={false} width="900px" src="https://files.readme.io/d86245cf158e8d0443810c7cd372e3bdf92fa171e4f3f933a46e26f30b1d64b2-An_Post_white_banner.png" />
+<Image align="center" width="900px" src="https://files.readme.io/d86245cf158e8d0443810c7cd372e3bdf92fa171e4f3f933a46e26f30b1d64b2-An_Post_white_banner.png" />
 
 ***
 
 The integration of An Post, Ireland's national postal service, into the SAPIENT platform is a significant step in enhancing shipping capabilities. This section discusses the in-scope features of this integration and the services this carrier offers.
+
+## Overview
+
+<br />
+
+<Tabs>
+  <Tab title="Key Features">
+    <Cards columns={2}>
+      <Card title="Shipping Origins" icon="fa-map-marker-alt">
+        The integration supports shipping from locations in Ireland (IE) and Great Britain (GB).
+      </Card>
+
+      <Card title="Shipping Destinations" icon="fa-solid fa-globe">
+        Users can send <Glossary>shipments</Glossary> to Ireland (IE), Great Britain (GB), Europe, and the <Glossary>ROW</Glossary> (Rest of the World).
+      </Card>
+
+      <Card title="Service Type" icon="fa-solid fa-shipping-fast">
+        The integration is focused on outbound and inbound shipping.<br />
+An Post does not support consignment services; all services are single-package services only. Also, the Express International and Priority Post services are only available to limited destinations.
+      </Card>
+
+      <Card title="Incoterms Support" icon="fa-solid fa-file-contract">
+        The integration supports <Glossary>DDU</Glossary> only.
+      </Card>
+
+      <Card title="Label Formats" icon="fa-solid fa-tag">
+        <Glossary>PDF</Glossary> and <Glossary>PNG</Glossary>.<br />
+        The integration support labels in <Glossary>PDF</Glossary> and <Glossary>PNG</Glossary> formats. 
+      </Card>
+    </Cards>
+
+    <br />
+  </Tab>
+
+  <Tab title="Additional Features">
+    * **Single package shipments**: Amazon only supports single package services. Consignment services are not supported in the this integration.
+
+    * **Carrier-Specific Fields**: The **CarrierSpecifics** object in the **Create Shipment** request contains the following fields:
+
+      * **DeliveryInstructions**: To provide any additional instructions to the carrier regarding the delivery of the shipment.
+      * **AmazonOrderID**: The unique Amazon ID for each order, which is only mandatory for On Amazon shipments.
+      * **AmazonOrderItemId**: The unique Amazon ID for each item in the order, which is only mandatory for On Amazon shipments and is available at the item-level of the **Create Shipment** request. Additionally, the **SkuCode** field is included to link the **AmazonOrderItemId** to the corresponding item in the shipment.
+  </Tab>
+
+  <Tab title="Service Enhancements">
+    <Cards columns={2}>
+      <Card title="Signature on Delivery (SOD)" icon="fa-solid fa-signature">
+        A signature is required upon delivery for verification of your shipment.
+      </Card>
+
+      <Card title="One Time Password (OTP)" icon="fa-solid fa-location-pin-lock">
+        Amazon sends the receiver a one-time password to be used upon delivery.
+      </Card>
+    </Cards>
+  </Tab>
+</Tabs>
 
 ## Key Features
 
