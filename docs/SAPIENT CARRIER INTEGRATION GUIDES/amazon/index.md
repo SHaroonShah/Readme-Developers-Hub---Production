@@ -59,7 +59,7 @@ In the UK, Amazon Shipping covers England, Scotland, and Wales, offering seven-d
         A signature is required upon delivery for verification of your shipment.
       </Card>
 
-      <Card title="One Time Password (OTP)" icon="fa-solid fa-pin-lock">
+      <Card title="One Time Password (OTP)" icon="fa-solid location-pin-lock">
         Amazon sends the receiver a one-time password to be used upon delivery.
       </Card>
     </Cards>
