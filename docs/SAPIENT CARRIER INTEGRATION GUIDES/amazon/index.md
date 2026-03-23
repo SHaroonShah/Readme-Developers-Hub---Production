@@ -71,8 +71,7 @@ In the UK, Amazon Shipping covers England, Scotland, and Wales, offering seven-d
 </Tabs>
 
 ***
-
-In this section, learn how to:
+##Getting Started
 
 <Cards columns={2}>
   <Card title="Add an Amazon shipping account" icon="fa-solid fa-plus" href="https://docs.intersoftsapient.net/docs/add-amazon-shipping-account">
@@ -83,9 +82,12 @@ In this section, learn how to:
     Configure tracking for your Amazon shipments.
   </Card>
 </Cards>
+<Banner isInline={true} message="Ready to integrate?" color="#ffb600" textColor="#ffffff" fontSize="20px" fontWeight="bold" width="120px" />
 
-> 📘 _Note_
->
-> _For more information on how to activate the Amazon integration, refer to the [Activate integration](https://docs.intersoftsapient.net/docs/integration-activation#/) section._
+<Cards>
+  <Card title="Activate this integration" href="https://docs.intersoftsapient.net/docs/integration-activation#/" icon="fa-solid fa-circle-play fa-beat" target="_blank">
+    Seamlessly connect with Amazon and manage your shipping operations from a single platform.
+  </Card>
+</Cards>
 
 <br />
