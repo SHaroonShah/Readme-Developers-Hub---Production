@@ -62,21 +62,8 @@ The integration of An Post, Ireland's national postal service, into the SAPIENT 
 
   <Tab title="Additional Features">
     <Cards>
-<Card title="Single Piece Shipments" icon="fa-solid fa-box">
-
-   An Post only supports single package services. Consignment services are not supported 
-      </Card>
-</Cards>
-</Tab>
-
-  <Tab title="Service Enhancements">
-    <Cards columns={2}>
-      <Card title="Signature on Delivery (SOD)" icon="fa-solid fa-signature">
-        A signature is required upon delivery for verification of your shipment.
-      </Card>
-
-      <Card title="One Time Password (OTP)" icon="fa-solid fa-location-pin-lock">
-        Amazon sends the receiver a one-time password to be used upon delivery.
+      <Card title="Single Piece Shipments" icon="fa-solid fa-box">
+        An Post only supports single package services. Consignment services are not supported
       </Card>
     </Cards>
   </Tab>
