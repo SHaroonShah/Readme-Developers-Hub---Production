@@ -84,8 +84,8 @@ In the UK, Amazon Shipping covers England, Scotland, and Wales, offering seven-d
   <Card title="Add an Amazon tracking account" icon="fa-solid fa-search-location" href="https://docs.intersoftsapient.net/docs/add-an-post-tracking-account#/">
     Configure tracking for your Amazon shipments.
   </Card>
-  <Card title="API References" icon="fa-solid fa-search-location" href="https://docs.intersoftsapient.net/docs/add-an-post-tracking-account#/">
-    Configure tracking for your Amazon shipments.
+  <Card title="API References" icon="fa-solid fa-search-location" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-amazon">
+    Explore the Amazon API endpoints for a seamless shipping experience.
   </Card>
 </Cards>
 
