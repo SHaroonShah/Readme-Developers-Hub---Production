@@ -17,6 +17,8 @@ metadata:
 ***
 
 In the UK, Amazon Shipping covers England, Scotland, and Wales, offering seven-day pickup and delivery, including weekends at no extra cost. Customers benefit from various delivery options, such as Standard (3–5 days), One-Day, and Same-Day for Prime members.
+<Tabs>
+<Tab title="Key Features">
 <Cards columns={2}>
   <Card title="Ship from Destinations" icon="fa-solid fa-truck">
     The integration supports shipping from locations in Great Britain (GB) only.
@@ -35,6 +37,17 @@ In the UK, Amazon Shipping covers England, Scotland, and Wales, offering seven-d
     <Glossary>PDF</Glossary> and <Glossary>PNG</Glossary>.
   </Card>
 </Cards>
+</Tab>
+<Tab title="Additional Features">
+
+* **Single package services**: Amazon only supports single package services.
+* **Carrier specific fields**: The **CarrierSpecifics** object in the **Create Shipment** request contains the following fields:
+  * **DeliveryInstructions**: To provide any additional instructions to the carrier regarding the delivery of the shipment.
+  * **AmazonOrderID**: The unique Amazon ID for each order, which is only mandatory for On Amazon shipments.
+  * **AmazonOrderItemId**: The unique Amazon ID for each item in the order, which is only mandatory for On Amazon shipments and is available at the item-level of the **Create Shipment** request. Additionally, the **SkuCode** field is included to link the **AmazonOrderItemId** to the corresponding item in the shipment.
+
+</Tab>
+</Tabs>
 
 > 📘 _Note_
 >
@@ -55,18 +68,8 @@ The following key services are provided by the Amazon integration:
     Amazon sends the receiver a one-time password to be used upon delivery.
   </Column>
 </Columns>
-## Additional features
-
-The Amazon integration provides the following additional features:
-
-* **Single package services**:  Amazon only supports single package services.
-* **Carrier specific fields**: The **CarrierSpecifics** object in the **Create Shipment** request contains the following fields:
-  * **DeliveryInstructions**: To provide any additional instructions to the carrier regarding the delivery of the shipment.
-  * **AmazonOrderID**: The unique Amazon ID for each order, which is only mandatory for On Amazon shipments.
-  * **AmazonOrderItemId**: The unique Amazon ID for each item in the order, which is only mandatory for for On Amazon shipments and is available at the item-level of the **Create Shipment** request. Additionally, the **SkuCode** field is included to link the **AmazonOrderItemId** to the corresponding item in the shipment.
 
 ***
-
 In this section, learn how to:
 
 <Cards columns={2}>
