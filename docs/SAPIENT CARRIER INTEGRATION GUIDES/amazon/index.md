@@ -39,7 +39,7 @@ In the UK, Amazon Shipping covers England, Scotland, and Wales, offering seven-d
         The integration supports shipping domestically within the shipper country only. Therefore, incoterms are not applicable.
       </Card>
 
-      <Card title="Label Formats" icon="fa-solid fa-label">
+      <Card title="Label Formats" icon="fa-solid fa-tag">
         <Glossary>PDF</Glossary> and <Glossary>PNG</Glossary>.<br />
         The label formats are supported for both On Amazon and Off Amazon shipments. However, the available label formats depends on the service used.
       </Card>
