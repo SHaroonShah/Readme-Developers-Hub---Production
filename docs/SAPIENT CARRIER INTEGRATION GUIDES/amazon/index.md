@@ -52,7 +52,18 @@ In the UK, Amazon Shipping covers England, Scotland, and Wales, offering seven-d
       * **AmazonOrderID**: The unique Amazon ID for each order, which is only mandatory for On Amazon shipments.
       * **AmazonOrderItemId**: The unique Amazon ID for each item in the order, which is only mandatory for On Amazon shipments and is available at the item-level of the **Create Shipment** request. Additionally, the **SkuCode** field is included to link the **AmazonOrderItemId** to the corresponding item in the shipment.
   </Tab>
-</Tabs>
+
+  <Tab title="Service Enhancements">
+  <Cards>
+  <Card title="Signature on Delivery (SOD)">
+    A signature is required upon delivery for verification of your shipment.
+  </Card>
+  <Card title="One Time Password (OTP)">
+Amazon sends the receiver a one-time password to be used upon delivery.
+ 	</Card>
+  </Cards>
+	</Tab>
+	</Tabs>
 
 > 📘 _Note_
 >
