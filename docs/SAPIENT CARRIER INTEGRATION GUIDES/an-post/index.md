@@ -21,8 +21,6 @@ The integration of An Post, Ireland's national postal service, into the SAPIENT 
 
 ## Overview
 
-<br />
-
 <Tabs>
   <Tab title="Key Features">
     <Cards columns={2}>
@@ -69,6 +67,8 @@ The integration of An Post, Ireland's national postal service, into the SAPIENT 
   </Tab>
 </Tabs>
 
+***
+
 ## API Services
 
 <Tabs>
@@ -81,7 +81,7 @@ The integration of An Post, Ireland's national postal service, into the SAPIENT 
       * For delivery to ROW addresses, including GB and Northern Ireland (IE), a shipping label and <Glossary>CN23</Glossary> is required. SAPIENT will generate a separate address label and CN23, as this is consistent with the behaviour for other integrations.
  > 📘 *Note*
       >
-      > *This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting.*
+      > _*Please be advised that the existing SAPIENT CN23 format will be used*_
 
     </Accordion>
 
