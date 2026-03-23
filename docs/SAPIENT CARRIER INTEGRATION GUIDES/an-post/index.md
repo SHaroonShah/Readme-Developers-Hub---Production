@@ -47,24 +47,27 @@ The integration of An Post, Ireland's national postal service, into the SAPIENT 
         The integration support labels in <Glossary>PDF</Glossary> and <Glossary>PNG</Glossary> formats.
       </Card>
     </Cards>
-<br />
-<Accordion title="Important considerations">
-Please bear in mind the following: 
-* An Post does not support consignment services; all services are single-package services only. Also, the Express International and Priority Post services are only available to limited destinations.
-* If shipping from GB to Ireland, undelivered or returned parcels will not be returned to your UK address. Instead, they must be returned to a designated PO Box address at the Portlaoise Mail Centre in Ireland. This information must be populated in the **ReturnToSender** section of the API documentation
-</Accordion>
+
+    <br />
+
+    <Accordion title="Important considerations">
+      Please bear in mind the following:
+
+      * An Post does not support consignment services; all services are single-package services only. Also, the Express International and Priority Post services are only available to limited destinations.
+      * If shipping from GB to Ireland, undelivered or returned parcels will not be returned to your UK address. Instead, they must be returned to a designated PO Box address at the Portlaoise Mail Centre in Ireland. This information must be populated in the **ReturnToSender** section of the API documentation
+    </Accordion>
+
     <br />
   </Tab>
 
   <Tab title="Additional Features">
-    * **Single package shipments**: Amazon only supports single package services. Consignment services are not supported in the this integration.
+    <Cards>
+<Card title="Single Piece Shipments" icon="fa-solid fa-box">
 
-    * **Carrier-Specific Fields**: The **CarrierSpecifics** object in the **Create Shipment** request contains the following fields:
-
-      * **DeliveryInstructions**: To provide any additional instructions to the carrier regarding the delivery of the shipment.
-      * **AmazonOrderID**: The unique Amazon ID for each order, which is only mandatory for On Amazon shipments.
-      * **AmazonOrderItemId**: The unique Amazon ID for each item in the order, which is only mandatory for On Amazon shipments and is available at the item-level of the **Create Shipment** request. Additionally, the **SkuCode** field is included to link the **AmazonOrderItemId** to the corresponding item in the shipment.
-  </Tab>
+   An Post only supports single package services. Consignment services are not supported 
+      </Card>
+</Cards>
+</Tab>
 
   <Tab title="Service Enhancements">
     <Cards columns={2}>
