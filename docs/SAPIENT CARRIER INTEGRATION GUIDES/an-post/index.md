@@ -41,7 +41,6 @@ The integration of An Post, Ireland's national postal service, into the SAPIENT 
       </Card>
 
       <Card title="Label Formats" icon="fa-solid fa-tag">
-        <Glossary>PDF</Glossary> and <Glossary>PNG</Glossary>.<br />
         The integration support labels in <Glossary>PDF</Glossary> and <Glossary>PNG</Glossary> formats.
       </Card>
     </Cards>
@@ -110,16 +109,34 @@ The integration of An Post, Ireland's national postal service, into the SAPIENT 
 
 ## Getting Started
 
+<Tabs>
+  <Tab title="Account Setup">
+    <Cards columns={3}>
+
+      <Card title="Shipping Account" href="https://docs.intersoftsapient.net/docs/shipping-account-requirements" icon="fa-solid fa-truck">
+        Access the step-by-step guide on how to set up An Post shipping account on SAPIENT.
+      </Card>
+
+      <Card title="Tracking Account" href="https://docs.intersoftsapient.net/docs/royal-mail-tracking-account-setup" icon="fa-solid fa-search-location">
+        Access the step-by-step guide on how to set up An Post tracking account on SAPIENT.
+      </Card>
+    </Cards>
+  </Tab>
+
+  <Tab title="Advanced Features">
+    <Cards columns={3}>
+      <Card title="Barcode Ranges" href="https://docs.intersoftsapient.net/docs/bfpo-shipments" icon="fa-solid fa-person-military-rifle">
+        Add barcode ranges to facilitate efficient tracking and management of shipments.
+      </Card>
+    </Cards>
+  </Tab>
+	</Tabs>
+<Banner isInline={true} message="Ready to integrate?" color="#ffb600" textColor="#ffffff" fontSize="20px" fontWeight="bold" width="120px" />
+
+<Cards>
+  <Card title="Activate this integration" href="https://docs.intersoftsapient.net/docs/integration-activation#/" icon="fa-solid fa-circle-play fa-beat" target="_blank">
+    Seamlessly connect with Royal Mail and manage your shipping operations from a single platform.
+  </Card>
+</Cards>
+
 <br />
-
-***
-
-In this section, learn how to:
-
-* [Add an An Post shipping account](https://docs.intersoftsapient.net/docs/add-an-post-shipping-account#/)
-* [Add an An Post tracking account](https://docs.intersoftsapient.net/docs/add-an-post-tracking-account#/)
-* [Add barcode range to an An Post shipping account](https://docs.intersoftsapient.net/docs/add-barcode-range-for-an-post-shipping-account#/)
-
-> 📘 _Note_
->
-> _For more information on how to activate the An Post integration, refer to the [Activate integration](https://docs.intersoftsapient.net/docs/integration-activation#/) section._
