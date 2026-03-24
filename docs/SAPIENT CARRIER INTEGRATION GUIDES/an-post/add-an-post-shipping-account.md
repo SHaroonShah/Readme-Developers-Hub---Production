@@ -21,9 +21,11 @@ In SAPIENT, you can create an An Post shipping account by selecting your desired
 <Tabs>
   <Tab title="Via SAPIENT UI">
     <br />
-To add an An Post shipping account via SAPIENT UI, perform the steps as explained in the following procedure.
+
+    To add an An Post shipping account via SAPIENT UI, perform the steps as explained in the following procedure:
+
     <ToggleList>
-      <ToggleListItem title="Step 1: Select Shipping Accounts" icon="fa-arrow-pointer">
+      <ToggleListItem title="1. Select Shipping Accounts" icon="fa-arrow-pointer">
         In the left navigation panel, select **Shipping Accounts**.
 
         <Image align="center" border={true} src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" alt="Accessing shipping accounts" />
@@ -33,7 +35,7 @@ To add an An Post shipping account via SAPIENT UI, perform the steps as explaine
 
       <br />
 
-      <ToggleListItem title="Step 2: Select option to add shipping account" icon="fa-plus">
+      <ToggleListItem title="2. Select option to add shipping account" icon="fa-plus">
         On the **Shipping Accounts** page that opens, select ![](https://files.readme.io/e27a112101fea1d20bb870a5c570ce3cb3889d2c514dd5bc0920c2ea630f9943-add_shipping_account_button.png).
 
         <Image align="center" border={true} src="https://files.readme.io/1f21da8d1e1c679c2ed31d67bfc7551e5c9477f2f22b16c279aed71ab9688809-Add_shipping_account_button_YODEL.png" alt="Accessing option to add shipping account" />
@@ -43,7 +45,7 @@ To add an An Post shipping account via SAPIENT UI, perform the steps as explaine
 
       <br />
 
-      <ToggleListItem title="Step 3: Enter account details" icon="fa-address-card">
+      <ToggleListItem title="3. Enter account details" icon="fa-address-card">
         On the **Add Shipping Account** form that appears, in the **ACCOUNT DETAILS** block, fill in the necessary information as described in the following table.
 
         <Image align="center" border={true} src="https://files.readme.io/bd4c02b7c9c557a48c13a92f58a9454ab0a5f8eb3aabdd462f6eba7147730d7d-Account_details_block_An_post.png" width="500px" alt="Entering account details" />
@@ -60,7 +62,7 @@ To add an An Post shipping account via SAPIENT UI, perform the steps as explaine
 
       <br />
 
-      <ToggleListItem title="Step 4: Enter shipping account details" icon="fa-truck">
+      <ToggleListItem title="4. Enter shipping account details" icon="fa-truck">
         In the **SHIPPING ACCOUNT** block, enter the necessary information as explained in the following table.
 
         <Image align="center" border={true} src="https://files.readme.io/95e80494ef1a7d23ee73c2d200a7ada240f0d1318161488c240a373d637f3c01-Shipping_account_block_An_Post.png" width="500px" alt="Specifying shipping account details" />
@@ -156,7 +158,7 @@ To add an An Post shipping account via SAPIENT UI, perform the steps as explaine
 
       <br />
 
-      <ToggleListItem title="Step 5: Save the shipping account" icon="fa-floppy-disk">
+      <ToggleListItem title="5. Save the shipping account" icon="fa-floppy-disk">
         After entering all the required information, select ![](https://files.readme.io/4d8fd2c9a6fad152f41e65d82274b94a6d3a8978f69bb88fbe74ba2d54138fe8-add_shipping_account_button_2.png).
         Once done, you have now successfully added a shipping account. You can now start <Anchor label="adding the barcode range" target="_blank" href="https://docs.intersoftsapient.net/docs/add-barcode-range-for-an-post-shipping-account#/">adding the barcode range</Anchor> to it and then use it for your shipping needs.
 
