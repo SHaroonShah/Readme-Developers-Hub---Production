@@ -22,7 +22,7 @@ In SAPIENT, you can add tracking accounts for An Post to enhance visibility, imp
 
 ## How to add An Post tracking account
 
-To add a tracking account for An Post in SAPIENT, follow the steps as explained in the following procedure.
+To add a tracking account for An Post in SAPIENT, perform the steps as explained in the following procedure.
 
 <ToggleList>
   <ToggleListItem title="1. Navigate to Tracking Accounts" icon="fa-arrow-pointer">
