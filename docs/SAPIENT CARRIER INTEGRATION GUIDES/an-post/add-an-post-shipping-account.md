@@ -19,7 +19,9 @@ In SAPIENT, you can create an An Post shipping account by selecting your desired
 ## How to add An Post shipping account
 
 <Tabs>
-  <Tab title="Via SAPIENT UI"> <br />
+  <Tab title="Via SAPIENT UI">
+    <br />
+To add an An Post shipping account via SAPIENT UI, perform the steps as explained in the following procedure.
     <ToggleList>
       <ToggleListItem title="Step 1: Select Shipping Accounts" icon="fa-arrow-pointer">
         In the left navigation panel, select **Shipping Accounts**.
