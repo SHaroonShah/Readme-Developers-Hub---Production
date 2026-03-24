@@ -133,7 +133,7 @@ The integration of An Post, Ireland's national postal service, into the SAPIENT 
 
 <Banner isInline={true} message="Ready to integrate?" color="#ffb600" textColor="#ffffff" fontSize="20px" fontWeight="bold" width="120px" />
 
-<Cards>
+<Cards columns={0}>
   <Card title="Activate this integration" href="https://docs.intersoftsapient.net/docs/integration-activation#/" icon="fa-solid fa-circle-play fa-beat" target="_blank">
     Seamlessly connect with Royal Mail and manage your shipping operations from a single platform.
   </Card>
