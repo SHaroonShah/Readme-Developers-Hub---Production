@@ -61,7 +61,7 @@ To add a tracking account for An Post in SAPIENT, follow the steps as explained 
   <br />
 
   <ToggleListItem title="4. Save the tracking account" icon="fa-floppy-disk">
-    After entering all the necessary information, select ![](https://files.readme.io/41bf635f2c82bf95197e5a2f62939d396ead6033e48a985a30965d84a5be57b8-Add_tracking_account_button_2.png).
+    After entering all the necessary information, select ![](https://files.readme.io/41bf635f2c82bf95197e5a2f62939d396ead6033e48a985a30965d84a5be57b8-Add_tracking_account_button_2.png). <br />
     Once done, the An Post tracking account is added successfully and appears in the **Tracking Accounts** list. You can now receive the tracking information on your <Glossary>shipments</Glossary>.
   </ToggleListItem>
 </ToggleList>
