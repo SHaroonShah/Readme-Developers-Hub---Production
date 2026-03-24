@@ -685,12 +685,13 @@ The following sections summarises the MDF validation rules, their respective shi
     <tr>
       <td>CountryCode</td>
     </tr>
-   <tr>
+
+    <tr>
       <td>EoriNumber</td>
     </tr>
 
     <tr>
-      <td rowspan="3"><strong>Destination</strong></td>
+      <td rowspan="5"><strong>Destination</strong></td>
       <td>ContactName</td>
     </tr>
 
@@ -701,7 +702,12 @@ The following sections summarises the MDF validation rules, their respective shi
     <tr>
       <td>Town</td>
     </tr>
-
+   <tr>
+      <td>CountryCode</td>
+    </tr>
+   <tr>
+      <td>EoriNumber</td>
+    </tr>
     <tr>
       <td rowspan="6"><strong>Items</strong></td>
       <td>Quantity</td>
