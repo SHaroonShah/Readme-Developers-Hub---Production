@@ -22,25 +22,33 @@ In SAPIENT, you can add tracking accounts for An Post to enhance visibility, imp
 
 To add a tracking account for An Post in SAPIENT, follow the steps as explained in the following procedure.
 
-1. In the left navigation panel, select **API** > **Webhooks**. On the page that opens, select the **Tracking Accounts** tab.
+<Accordion title="Step 1: Navigate to Tracking Accounts" icon="fa-arrow-pointer">
+  In the left navigation panel, select **API** > **Webhooks**. On the page that opens, select the **Tracking Accounts** tab.
 
-<Image align="center" alt="Accessing tracking accounts" border={true} caption="Accessing tracking accounts" src="https://files.readme.io/c3f6098979696b25cbdbe26921658742edef4520e983ae8c70cbe6f689e4aadf-Tracking_accounts_tab.png" />
+  <Image align="center" alt="Accessing tracking accounts" border={true} caption="Accessing tracking accounts" src="https://files.readme.io/c3f6098979696b25cbdbe26921658742edef4520e983ae8c70cbe6f689e4aadf-Tracking_accounts_tab.png" />
+</Accordion>
 
-2. In the **Tracking Accounts** page that opens, select ![](https://files.readme.io/63f1badb667ff6379f323bdc6485e8a519eb46938b0dcd4b98e384686ebb68e0-Add_tracking_account_button.png).
+<Accordion title="Step 2: Select option to add tracking account" icon="fa-plus">
+  In the **Tracking Accounts** page that opens, select ![](https://files.readme.io/63f1badb667ff6379f323bdc6485e8a519eb46938b0dcd4b98e384686ebb68e0-Add_tracking_account_button.png).
 
-<Image align="center" alt="Accessing option to add tracking account" border={true} caption="Accessing option to add tracking account" src="https://files.readme.io/c2f04a8e6b4e985e203082e192cfe4d35f0702aa38fa593bb2440e490295dd3a-Add_tracking_account_button_UPS.png" />
+  <Image align="center" alt="Accessing option to add tracking account" border={true} caption="Accessing option to add tracking account" src="https://files.readme.io/c2f04a8e6b4e985e203082e192cfe4d35f0702aa38fa593bb2440e490295dd3a-Add_tracking_account_button_UPS.png" />
+</Accordion>
 
-3. On the **Add Tracking account** page that appears, in the **DETAILS** block, enter the necessary information as explained in the following table.
+<Accordion title="Step 3: Enter tracking account details" icon="fa-address-card">
+  On the **Add Tracking account** page that appears, in the **DETAILS** block, enter the necessary information as explained in the following table.
 
-<Image align="center" alt="Adding tracking account" border={true} caption="Adding tracking account" src="https://files.readme.io/bdd3b8cd7af1eabe8440a60e0a01efce5c257219392d854103969955b32435d5-Adding_An_post_tracking_account.png" width="500px" />
+  <Image align="center" alt="Adding tracking account" border={true} caption="Adding tracking account" src="https://files.readme.io/bdd3b8cd7af1eabe8440a60e0a01efce5c257219392d854103969955b32435d5-Adding_An_post_tracking_account.png" width="500px" />
 
-<AsteridkForMandatoryElements />
+  <AsteridkForMandatoryElements />
 
-|         Element        | Description                                                                                                      |
-| :--------------------: | :--------------------------------------------------------------------------------------------------------------- |
-|      **Carrier**\*     | From the dropdown menu, select An Post as your carrier option.                                                   |
-| **Shipping Account**\* | From the dropdown menu, select the <Glossary>shipping account</Glossary> for which you want to receive tracking. |
+  |         Element        | Description                                                                                                      |
+  | :--------------------: | :--------------------------------------------------------------------------------------------------------------- |
+  |      **Carrier**\*     | From the dropdown menu, select An Post as your carrier option.                                                   |
+  | **Shipping Account**\* | From the dropdown menu, select the <Glossary>shipping account</Glossary> for which you want to receive tracking. |
+</Accordion>
 
-4. After entering all the necessary information, select ![](https://files.readme.io/41bf635f2c82bf95197e5a2f62939d396ead6033e48a985a30965d84a5be57b8-Add_tracking_account_button_2.png).
+<Accordion title="Step 4: Save the tracking account" icon="fa-floppy-disk">
+  After entering all the necessary information, select ![](https://files.readme.io/41bf635f2c82bf95197e5a2f62939d396ead6033e48a985a30965d84a5be57b8-Add_tracking_account_button_2.png).
+</Accordion>
 
 Once done, the An Post tracking account is added successfully and appears in the **Tracking Accounts** list. You can now receive the tracking information on your <Glossary>shipments</Glossary>.
