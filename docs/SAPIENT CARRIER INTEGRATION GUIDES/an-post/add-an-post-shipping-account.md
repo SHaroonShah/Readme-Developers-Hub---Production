@@ -16,8 +16,10 @@ In SAPIENT, you can create an An Post shipping account by selecting your desired
   _Before you can set up a shipping account, make sure you have [enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with An Post._
 </Callout>
 
-## How to add An Post shipping account 
+## How to add An Post shipping account
 
+<Tabs>
+<Tab title="Via SAPIENT UI">
 <ToggleList>
   <ToggleListItem title="Step 1: Select Shipping Accounts" icon="fa-arrow-pointer">
     In the left navigation panel, select **Shipping Accounts**.
@@ -158,7 +160,24 @@ In SAPIENT, you can create an An Post shipping account by selecting your desired
 
     ***
   </ToggleListItem>
-</ToggleList>
+  </ToggleList>
+  </Tab>
+
+    <Tab title="Via API">
+    <br />
+
+    To add an An Post shipping account via API, refer to the following API endpoint.
+
+    <Cards>
+      <Card title="Add Account" href="https://docs.intersoftsapient.net/reference/post_v4-shippingaccounts-anpost" icon="fa-code">
+        Add and manage An Post shipping account via API.
+      </Card>
+    </Cards>
+  </Tab>
+</Tabs>
+
+
+
 
 ***
 
