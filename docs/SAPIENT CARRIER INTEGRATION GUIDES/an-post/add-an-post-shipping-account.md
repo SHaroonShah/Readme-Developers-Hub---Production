@@ -11,47 +11,51 @@ metadata:
 In SAPIENT, you can create an An Post shipping account by selecting your desired <Glossary>shipping location</Glossary>,  entering the corresponding account and carrier details, and then adding the account to the system.
 
 <Callout icon="🚧" theme="warning">
-  **IMPORTANT**
+  ### _Important_
 
-  Before you can set up a shipping account, make sure you have [enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with An Post.
+  _Before you can set up a shipping account, make sure you have [enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with An Post._
 </Callout>
 
 To add a shipping account for An Post in SAPIENT, follow the instructions as explained in the following procedure.
 
-<Accordion title="Step 1: Select Shipping Accounts" icon="fa-arrow-pointer">
+<ToggleList>
+<ToggleListItem title="Step 1: Select Shipping Accounts" icon="fa-arrow-pointer">
   In the left navigation panel, select **Shipping Accounts**.
 
-  <Image align="center" alt="Accessing shipping accounts" border={true} caption="Accessing shipping accounts" src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" />
-</Accordion>
+  <Image align="center" border={true} src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" alt="Accessing shipping accounts" />
+***
+  </ToggleListItem> <br /> 
 
-<Accordion title="Step 2: Select option to add shipping account" icon="fa-plus">
+<ToggleListItem title="Step 2: Select option to add shipping account" icon="fa-plus">
   On the **Shipping Accounts** page that opens, select ![](https://files.readme.io/e27a112101fea1d20bb870a5c570ce3cb3889d2c514dd5bc0920c2ea630f9943-add_shipping_account_button.png).
 
-  <Image align="center" alt="Accessing option to add shipping account" border={true} caption="Selecting option to add shipping account" src="https://files.readme.io/1f21da8d1e1c679c2ed31d67bfc7551e5c9477f2f22b16c279aed71ab9688809-Add_shipping_account_button_YODEL.png" />
-</Accordion>
+  <Image align="center" border={true} src="https://files.readme.io/1f21da8d1e1c679c2ed31d67bfc7551e5c9477f2f22b16c279aed71ab9688809-Add_shipping_account_button_YODEL.png" alt="Accessing option to add shipping account" />
+***
+  </ToggleListItem> <br /> 
 
-<Accordion title="Step 3: Enter account details" icon="fa-address-card">
+<ToggleListItem title="Step 3: Enter account details" icon="fa-address-card">
   On the **Add Shipping Account** form that appears, in the **ACCOUNT DETAILS** block, fill in the necessary information as described in the following table.
 
-  <Image align="center" alt="Entering account details" border={true} caption="Entering account details" src="https://files.readme.io/bd4c02b7c9c557a48c13a92f58a9454ab0a5f8eb3aabdd462f6eba7147730d7d-Account_details_block_An_post.png" width="500px" />
+  <Image align="center" border={true} src="https://files.readme.io/bd4c02b7c9c557a48c13a92f58a9454ab0a5f8eb3aabdd462f6eba7147730d7d-Account_details_block_An_post.png" width="500px" alt="Entering account details" />
 
   <AsteridkForMandatoryElements />
 
-  |         Element        | Description                                                                                                                                 |
-  | :--------------------: | :------------------------------------------------------------------------------------------------------------------------------------------ |
-  |      **Carrier***      | From the dropdown list, select **ANPOST - An Post**.                                                                                        |
-  | **Shipping Location*** | From the dropdown menu, select the <Glossary>shipping location</Glossary> that you want to assign to the shipping account you are creating. |
-</Accordion>
+  |         Element         | Description                                                                                                                                 |
+  | :---------------------: | :------------------------------------------------------------------------------------------------------------------------------------------ |
+  |      **Carrier**\*      | From the dropdown list, select **ANPOST - An Post**.                                                                                        |
+  | **Shipping Location**\* | From the dropdown menu, select the <Glossary>shipping location</Glossary> that you want to assign to the shipping account you are creating. |
+***
+  </ToggleListItem> <br />
 
-<Accordion title="Step 4: Enter shipping account details" icon="fa-truck">
+<ToggleListItem title="Step 4: Enter shipping account details" icon="fa-truck">
   In the **SHIPPING ACCOUNT** block, enter the necessary information as explained in the following table.
 
-  <Image align="center" alt="Specifying shipping account details" border={true} caption="Entering shipping account details" src="https://files.readme.io/95e80494ef1a7d23ee73c2d200a7ada240f0d1318161488c240a373d637f3c01-Shipping_account_block_An_Post.png" width="500px" />
+  <Image align="center" border={true} src="https://files.readme.io/95e80494ef1a7d23ee73c2d200a7ada240f0d1318161488c240a373d637f3c01-Shipping_account_block_An_Post.png" width="500px" alt="Specifying shipping account details" />
 
   <Callout icon="💡" theme="default">
-    ### _Tip_
+    ### *Tip*
 
-    _In the following table, the mandatory fields are marked with an asterisk (*)._
+    *In the following table, the mandatory fields are marked with an asterisk (\*).*
   </Callout>
 
   <Table align={["center","left"]}>
@@ -70,7 +74,7 @@ To add a shipping account for An Post in SAPIENT, follow the instructions as exp
     <tbody>
       <tr>
         <td>
-          **Carrier Account Number***
+          **Carrier Account Number**\*
         </td>
 
         <td>
@@ -80,7 +84,7 @@ To add a shipping account for An Post in SAPIENT, follow the instructions as exp
 
       <tr>
         <td>
-          **Account Name (if different than customer)***
+          **Account Name (if different than customer)**\*
         </td>
 
         <td>
@@ -90,7 +94,7 @@ To add a shipping account for An Post in SAPIENT, follow the instructions as exp
 
       <tr>
         <td>
-          **Account Type***
+          **Account Type**\*
         </td>
 
         <td>
@@ -104,7 +108,7 @@ To add a shipping account for An Post in SAPIENT, follow the instructions as exp
 
       <tr>
         <td>
-          **Alias***
+          **Alias**\*
         </td>
 
         <td>
@@ -114,7 +118,7 @@ To add a shipping account for An Post in SAPIENT, follow the instructions as exp
 
       <tr>
         <td>
-          **Contact Name***
+          **Contact Name**\*
         </td>
 
         <td>
@@ -124,7 +128,7 @@ To add a shipping account for An Post in SAPIENT, follow the instructions as exp
 
       <tr>
         <td>
-          **Contact Number***
+          **Contact Number**\*
         </td>
 
         <td>
@@ -133,19 +137,18 @@ To add a shipping account for An Post in SAPIENT, follow the instructions as exp
       </tr>
     </tbody>
   </Table>
-</Accordion>
+***
+  </ToggleListItem><br /> 
 
-<Accordion title="Step 5: Save the shipping account" icon="fa-floppy-disk">
+<ToggleListItem title="Step 5: Save the shipping account" icon="fa-floppy-disk">
   After entering all the required information, select ![](https://files.readme.io/4d8fd2c9a6fad152f41e65d82274b94a6d3a8978f69bb88fbe74ba2d54138fe8-add_shipping_account_button_2.png).
-</Accordion>
-
 Once done, you have now successfully added a shipping account. You can now start <Anchor label="adding the barcode range" target="_blank" href="https://docs.intersoftsapient.net/docs/add-barcode-range-for-an-post-shipping-account#/">adding the barcode range</Anchor> to it and then use it for your shipping needs.
+***
+  </ToggleListItem>
+</ToggleList>
 
-<Callout icon="📘" theme="info">
-  **Note**
 
-  Shipping account(s) can be added and managed via API. For more information, refer to the <Anchor label="API References" target="_blank" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-anpost">API References</Anchor> section.
-</Callout>
+***
 
 ### See also
 
