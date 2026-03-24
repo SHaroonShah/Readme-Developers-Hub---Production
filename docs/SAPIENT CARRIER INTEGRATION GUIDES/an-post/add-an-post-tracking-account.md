@@ -20,6 +20,8 @@ In SAPIENT, you can add tracking accounts for An Post to enhance visibility, imp
 > 2. _Enabled the [tracking integration](https://docs.intersoftsapient.net/docs/integration-activation) with An Post._
 > 3. _Set up your <Glossary>tracking webhook</Glossary>. For more information on how to set up a tracking webhook, refer to the [Create tracking webhook](https://docs.intersoftsapient.net/docs/create-tracking-webhook) section. This is a one-time activity, you do not have to do this every time you add a tracking account._
 
+## How to add An Post tracking account
+
 To add a tracking account for An Post in SAPIENT, follow the steps as explained in the following procedure.
 
 <ToggleList>
