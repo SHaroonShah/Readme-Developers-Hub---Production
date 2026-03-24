@@ -666,7 +666,7 @@ The following sections summarises the MDF validation rules, their respective shi
     </tr>
 
     <tr>
-      <td rowspan="5"><strong>Shipper</strong></td>
+      <td rowspan="6"><strong>Shipper</strong></td>
       <td>ContactName</td>
     </tr>
 
@@ -684,6 +684,9 @@ The following sections summarises the MDF validation rules, their respective shi
 
     <tr>
       <td>CountryCode</td>
+    </tr>
+   <tr>
+      <td>EoriNumber</td>
     </tr>
 
     <tr>
