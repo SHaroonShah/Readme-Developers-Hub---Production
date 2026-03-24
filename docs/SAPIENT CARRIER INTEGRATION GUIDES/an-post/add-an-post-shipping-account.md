@@ -10,9 +10,11 @@ metadata:
 ---
 In SAPIENT, you can create an An Post shipping account by selecting your desired <Glossary>shipping location</Glossary>,  entering the corresponding account and carrier details, and then adding the account to the system.
 
-> 🚧 _IMPORTANT_
->
-> _Before you can set up a shipping account, make sure you have[enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with An Post._
+<Callout icon="🚧" theme="warning">
+  **IMPORTANT**
+
+  Before you can set up a shipping account, make sure you have [enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with An Post.
+</Callout>
 
 To add a shipping account for An Post in SAPIENT, follow the instructions as explained in the following procedure.
 
@@ -129,10 +131,16 @@ To add a shipping account for An Post in SAPIENT, follow the instructions as exp
 
 Once done, you have now successfully added a shipping account. You can now start <Anchor label="adding the barcode range" target="_blank" href="https://docs.intersoftsapient.net/docs/add-barcode-range-for-an-post-shipping-account#/">adding the barcode range</Anchor> to it and then use it for your shipping needs.
 
-> 📘 _Note_
->
-> _Shipping account(s) can be added and managed via API. For more information, refer to the <Anchor label="API References" target="_blank" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-anpost">API References</Anchor> section._
+<Callout icon="📘" theme="info">
+  **Note**
+
+  Shipping account(s) can be added and managed via API. For more information, refer to the <Anchor label="API References" target="_blank" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-anpost">API References</Anchor> section.
+</Callout>
 
 ### See also
 
-* [Edit shipping account](https://docs.intersoftsapient.net/docs/edit-shipping-account)
+<Cards>
+  <Card title="Edit shipping account" icon="fa-pen-to-square" href="https://docs.intersoftsapient.net/docs/edit-shipping-account">
+    Update or modify an existing shipping account.
+  </Card>
+</Cards>
