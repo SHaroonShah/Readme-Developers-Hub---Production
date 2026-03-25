@@ -16,6 +16,8 @@ In SAPIENT, for an An Post <Glossary>shipping account</Glossary>, you can add a 
 
 To add a barcode range for an An Post shipping account in SAPIENT, follow the steps as explained in the following procedure.
 
+<Accordion title="Procedure" icon="fa-list-ol">
+
 1. In the left navigation panel, select **Integrations**.
 
 <Image align="center" alt="Accessing integrations" border={true} caption="Accessing integrations" src="https://files.readme.io/84039ea8d38560195f244c1aba1f5fdc49e22260967548a94b5ddc56e5c79c00-Accessing_Integrations_option.png" />
@@ -35,7 +37,6 @@ To add a barcode range for an An Post shipping account in SAPIENT, follow the st
 5. In the **Barcode Range Details** form that opens, enter the necessary information as explained in the following table.
 
 <Image align="center" alt="Entering barcode range details" border={true} caption="Entering barcode range details" src="https://files.readme.io/c796a68058d34fce826f5fd4af9b779690559fa07e009194c9c2bbcc443b842a-Adding_an_post_barcode_range.png" />
-
 <AsteridkForMandatoryElements />
 
 <Table align={["center","left"]}>
@@ -129,3 +130,5 @@ To add a barcode range for an An Post shipping account in SAPIENT, follow the st
 </Table>
 
 Once the relevant information is entered, select ![](https://files.readme.io/e5a8c301d9e4f9f09e3a21633bae40e536aaff09f96776a43aeea8162ece2a4b-Add_range_button.png) to save and add the barcode range. You can now use this barcode range for your shipments.
+
+</Accordion>
