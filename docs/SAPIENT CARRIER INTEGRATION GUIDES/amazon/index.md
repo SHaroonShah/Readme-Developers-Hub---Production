@@ -68,8 +68,10 @@ In the UK, Amazon Shipping covers England, Scotland, and Wales, offering seven-d
         Amazon sends the receiver a one-time password to be used upon delivery.
       </Card>
     </Cards>
+
     <br />
-   <Callout icon="💡" theme="default">
+
+    <Callout icon="💡" theme="default">
       ### *Tip*
 
       *For more information on the service enhancements and carrier services, refer to the following endpoints:*
@@ -77,7 +79,6 @@ In the UK, Amazon Shipping covers England, Scotland, and Wales, offering seven-d
       * *[Create Shipment](https://docs.intersoftsapient.net/v4.03/reference/post_v4-shipments-amazon)*
       * *[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services)*
     </Callout>
-
   </Tab>
 </Tabs>
 
@@ -86,11 +87,11 @@ In the UK, Amazon Shipping covers England, Scotland, and Wales, offering seven-d
 ## Getting Started
 
 <Cards columns={3}>
-  <Card title="Add an Amazon shipping account" icon="fa-solid fa-truck" href="https://docs.intersoftsapient.net/docs/add-amazon-shipping-account">
+  <Card title="Add Amazon shipping account" icon="fa-solid fa-truck" href="https://docs.intersoftsapient.net/docs/add-amazon-shipping-account">
     Set up your Amazon shipping account to start creating shipments.
   </Card>
 
-  <Card title="Add an Amazon tracking account" icon="fa-solid fa-search-location" href="https://docs.intersoftsapient.net/docs/add-an-post-tracking-account#/">
+  <Card title="Add Amazon tracking account" icon="fa-solid fa-search-location" href="https://docs.intersoftsapient.net/docs/add-an-post-tracking-account#/">
     Configure tracking for your Amazon shipments.
   </Card>
 
