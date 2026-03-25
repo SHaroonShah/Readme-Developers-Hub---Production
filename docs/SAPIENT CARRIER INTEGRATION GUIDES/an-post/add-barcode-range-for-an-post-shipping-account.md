@@ -160,9 +160,16 @@ To add a barcode range for an An Post shipping account in SAPIENT, follow the st
   </ToggleListItem>
 </ToggleList>
 
-
 ***
 
 ### See also
+
+ 
+
+<Cards columns={2}>
+      <Card title="Shipping Account" href="https://docs.intersoftsapient.net/docs/add-an-post-shipping-account" icon="fa-solid fa-truck">
+        Access the step-by-step guide on how to set up An Post shipping account on SAPIENT.
+      </Card>
+</Cards>
 
 <br />
