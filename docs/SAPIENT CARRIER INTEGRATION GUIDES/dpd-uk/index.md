@@ -56,11 +56,11 @@ DPD are one of the leading delivery carriers in the UK, shipping domestically an
 
   <Tab title="Service Enhancements">
     <Cards columns={2}>
-      <Card title="Proof of Identity" icon="fa-solid fa-ID">
+      <Card title="Proof of Identity" icon="fa-solid fa-Id-card">
         Requires the receiver to present valid identification at the point of delivery.
       </Card>
 
-      <Card title="Proof of Age" icon="fa-solid fa-age">
+      <Card title="Proof of Age" icon="fa-solid fa-calendar-circle-user">
         Ensures the recipient meets a minimum age requirement, like for age-restricted goods.
       </Card>
 
