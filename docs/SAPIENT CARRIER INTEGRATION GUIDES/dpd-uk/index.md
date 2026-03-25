@@ -15,8 +15,6 @@ DPD are one of the leading delivery carriers in the UK, shipping domestically an
 
 ## Overview
 
-<br />
-
 <Tabs>
   <Tab title="Key Features">
     <Cards columns={2}>
