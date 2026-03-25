@@ -15,214 +15,229 @@ n SAPIENT, you can create a DPD UK shipping account by selecting your desired <G
 >
 > _Before you can set up a shipping account, make sure you have [enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) for DPD UK._
 
-To add a shipping account for DPD UK in SAPIENT, follow the instructions as explained in the following procedure.
+## How to add DPD UK shipping account
 
 <Tabs>
   <Tab title="Via SAPIENT UI">
     <br />
 
-    To add an An Post shipping account via SAPIENT UI, perform the steps as explained in the following procedure:
-<ToggleList>
-<ToggleListItem title="Step 1: Select Shipping Accounts" icon="fa-mouse-pointer">
-  In the left navigation panel, select **Shipping Accounts**.
+    To add a DPD UK shipping account via SAPIENT UI, perform the steps as explained in the following procedure:
 
-  <Image align="center" border={true} src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" alt="Accessing shipping accounts" />
-***
-  </ToggleListItem> <br /> 
+    <ToggleList>
+      <ToggleListItem title="1. Select the Shipping Accounts page" icon="fa-mouse-pointer">
+        In the left navigation panel, select **Shipping Accounts**.
 
-<ToggleListItem title="Step 2: Add Shipping Account" icon="fa-plus">
-  On the **Shipping Accounts** page that opens, select ![](https://files.readme.io/5eb134426849b1adb3049756830b6bef19e7dc67dca55891e64ff7b9c8eadd8e-add_shipping_account_button.png).
+        <Image align="center" border={true} src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" alt="Accessing shipping accounts" />
 
-  <Image align="center" border={true} src="https://files.readme.io/3b149ee84f86fb8d4f02c43b2733c7eb85aea3ac6e2f01692af371f631570bf3-Add_shipping_account_button_DX.png" alt="Accessing option to add shipping account" />
-***
-  </ToggleListItem> <br /> 
+        ***
+      </ToggleListItem>
 
-<ToggleListItem title="Step 3: Enter Account Details" icon="fa-file-alt">
-  On the **Add Shipping Account** form that appears, in the **ACCOUNT DETAILS** block, fill in the necessary information as described in the following table.
+      <br />
 
-  <Image align="center" border={true} src="https://files.readme.io/9e466e696ea305d18429dc70a57f6cfed758305cb42a7cb164d244a139e88383-DPD_UK_Account_Details_block.png" width="500px" alt="Entering account details" />
+      <ToggleListItem title="2. Select option to add shipping account" icon="fa-plus">
+        On the **Shipping Accounts** page that opens, select ![](https://files.readme.io/5eb134426849b1adb3049756830b6bef19e7dc67dca55891e64ff7b9c8eadd8e-add_shipping_account_button.png).
 
-  <AsteridkForMandatoryElements />
+        <Image align="center" border={true} src="https://files.readme.io/3b149ee84f86fb8d4f02c43b2733c7eb85aea3ac6e2f01692af371f631570bf3-Add_shipping_account_button_DX.png" alt="Accessing option to add shipping account" />
 
-  |         Element         | Description                                                                                                   |
-  | :---------------------: | :------------------------------------------------------------------------------------------------------------ |
-  |      **Carrier**\*      | From the dropdown list, select **DPD UK**.                                                                    |
-  | **Shipping Location**\* | From the dropdown menu, select the location that you want to assign to the shipping account you are creating. |
-***
-  </ToggleListItem> <br /> 
+        ***
+      </ToggleListItem>
 
-<ToggleListItem title="Step 4: Enter Shipping Account details" icon="fa-box">
-  In the **SHIPPING ACCOUNT** block, enter the necessary information as explained in the following table.
+      <br />
 
-  <Image align="center" border={true} src="https://files.readme.io/39d87085578107757d9093cbbe563490cfaddc225e515ed2da42c1ab2bef70ee-DPD_UK_Shipping_Account_block.png" width="400px" alt="Specifying shipping account details" />
+      <ToggleListItem title="3. Enter account details" icon="fa-file-alt">
+        On the **Add Shipping Account** form that appears, in the **ACCOUNT DETAILS** block, fill in the necessary information as described in the following table.
 
-  <Callout icon="💡" theme="default">
-    ### *Tip*
+        <Image align="center" border={true} src="https://files.readme.io/9e466e696ea305d18429dc70a57f6cfed758305cb42a7cb164d244a139e88383-DPD_UK_Account_Details_block.png" width="500px" alt="Entering account details" />
 
-    *In the following table, the mandatory fields are marked with an asterisk (\*).*
-  </Callout>
+        <AsteridkForMandatoryElements />
 
-  <Table align={["center","left"]}>
-    <thead>
-      <tr>
-        <th>
-          Element
-        </th>
+        |         Element         | Description                                                                                                   |
+        | :---------------------: | :------------------------------------------------------------------------------------------------------------ |
+        |      **Carrier**\*      | From the dropdown list, select **DPD UK**.                                                                    |
+        | **Shipping Location**\* | From the dropdown menu, select the location that you want to assign to the shipping account you are creating. |
 
-        <th>
-          Description
-        </th>
-      </tr>
-    </thead>
+        ***
+      </ToggleListItem>
 
-    <tbody>
-      <tr>
-        <td>
-          **Carrier Account Number**\*
-        </td>
+      <br />
 
-        <td>
-          Enter the account number, which is the DPD UK client ID.
+      <ToggleListItem title="4. Enter shipping account details" icon="fa-box">
+        In the **SHIPPING ACCOUNT** block, enter the necessary information as explained in the following table.
 
-          *`Note`: If you already have an account with DPD UK that is actively being used, and if you wish to receive tracking via Intersoft, then you need to request a new account number in order to integrate with Intersoft. This request can be made to your DPD account manager.*
-        </td>
-      </tr>
+        <Image align="center" border={true} src="https://files.readme.io/39d87085578107757d9093cbbe563490cfaddc225e515ed2da42c1ab2bef70ee-DPD_UK_Shipping_Account_block.png" width="400px" alt="Specifying shipping account details" />
 
-      <tr>
-        <td>
-          **Account Name (if different than customer)**\*
-        </td>
+        <Callout icon="💡" theme="default">
+          ### *Tip*
 
-        <td>
-          Enter the name of the account you are adding.
-        </td>
-      </tr>
+          *In the following table, the mandatory fields are marked with an asterisk (\*).*
+        </Callout>
 
-      <tr>
-        <td>
-          **Account Type**\*
-        </td>
+        <Table align={["center","left"]}>
+          <thead>
+            <tr>
+              <th>
+                Element
+              </th>
 
-        <td>
-          From the dropdown menu, select one of the following account types that you want to set up for the the shipping account you are adding:
+              <th>
+                Description
+              </th>
+            </tr>
+          </thead>
 
-          • **[Production](https://docs.intersoftsapient.net/docs/sandbox-account)**: a live environment where the final version of the application is deployed and made available to the users.
+          <tbody>
+            <tr>
+              <td>
+                **Carrier Account Number**\*
+              </td>
 
-          • **[Sandbox](https://docs.intersoftsapient.net/docs/sandbox-account)**: a testing environment that mimics the **Production** environment but is isolated from it. The sandbox environment is primarily used for development and testing purposes.
-        </td>
-      </tr>
+              <td>
+                Enter the account number, which is the DPD UK client ID.
 
-      <tr>
-        <td>
-          **Alias**\*
-        </td>
+                *`Note`: If you already have an account with DPD UK that is actively being used, and if you wish to receive tracking via Intersoft, then you need to request a new account number in order to integrate with Intersoft. This request can be made to your DPD account manager.*
+              </td>
+            </tr>
 
-        <td>
-          Enter a custom name which can be used in the API request instead of using the shipping account ID when connecting to us. Therefore, it is recommend that this name must be memorable and available for reference purposes.
-        </td>
-      </tr>
+            <tr>
+              <td>
+                **Account Name (if different than customer)**\*
+              </td>
 
-      <tr>
-        <td>
-          **Contact Name**\*
-        </td>
+              <td>
+                Enter the name of the account you are adding.
+              </td>
+            </tr>
 
-        <td>
-          Enter the contact name for the account you are adding.
-        </td>
-      </tr>
+            <tr>
+              <td>
+                **Account Type**\*
+              </td>
 
-      <tr>
-        <td>
-          **Contact Number**\*
-        </td>
+              <td>
+                From the dropdown menu, select one of the following account types that you want to set up for the the shipping account you are adding:
 
-        <td>
-          Enter the contact number for the account you are adding.
-        </td>
-      </tr>
-    </tbody>
-  </Table>
-***
-  </ToggleListItem> <br /> 
+                • **[Production](https://docs.intersoftsapient.net/docs/sandbox-account)**: a live environment where the final version of the application is deployed and made available to the users.
 
-<ToggleListItem title="Step 5: Enter Carrier Details" icon="fa-truck">
-  In the **CARRIER DETAILS** block, enter the necessary information as explained in the following table.
+                • **[Sandbox](https://docs.intersoftsapient.net/docs/sandbox-account)**: a testing environment that mimics the **Production** environment but is isolated from it. The sandbox environment is primarily used for development and testing purposes.
+              </td>
+            </tr>
 
-  <Image align="center" border={true} src="https://files.readme.io/7c33d0683d772640711106d7353fba4e51c9a321c1bcab6c03953d9fcd3b8570-DPD_UK_Carrier_Details_block.png" width="400px" alt="Entering carrier details" />
+            <tr>
+              <td>
+                **Alias**\*
+              </td>
 
-  <AsteridkForMandatoryElements />
+              <td>
+                Enter a custom name which can be used in the API request instead of using the shipping account ID when connecting to us. Therefore, it is recommend that this name must be memorable and available for reference purposes.
+              </td>
+            </tr>
 
-  <Table align={["center","left"]}>
-    <thead>
-      <tr>
-        <th>
-          Element
-        </th>
+            <tr>
+              <td>
+                **Contact Name**\*
+              </td>
 
-        <th>
-          Description
-        </th>
-      </tr>
-    </thead>
+              <td>
+                Enter the contact name for the account you are adding.
+              </td>
+            </tr>
 
-    <tbody>
-      <tr>
-        <td>
-          **Authorisation code**\*
-        </td>
+            <tr>
+              <td>
+                **Contact Number**\*
+              </td>
 
-        <td>
-          Enter a unique 8-digit identifier as your authorisation code for DPD UK. This code is used to validate or link the manifest to the correct shipper or contract.
+              <td>
+                Enter the contact number for the account you are adding.
+              </td>
+            </tr>
+          </tbody>
+        </Table>
 
-          *`Note`: This identifier is included in the manifest file names.*
-        </td>
-      </tr>
+        ***
+      </ToggleListItem>
 
-      <tr>
-        <td>
-          **SLID**\*
-        </td>
+      <br />
 
-        <td>
-          Enter the unique customer identifier which will be used in the barcode range and manifest files.
-        </td>
-      </tr>
-    </tbody>
-  </Table>
-***
-</ToggleListItem>
+      <ToggleListItem title="5. Enter carrier details" icon="fa-truck">
+        In the **CARRIER DETAILS** block, enter the necessary information as explained in the following table.
 
-<ToggleListItem title="Step 6: Submit the shipping account" icon="fa-check">
-  After entering all the required information, select ![](https://files.readme.io/721eb0f8be0c99a924b61cbca6496517d03fcbbf235aa0c3d579c60b3131df2a-add_shipping_account_button_2.png).
+        <Image align="center" border={true} src="https://files.readme.io/7c33d0683d772640711106d7353fba4e51c9a321c1bcab6c03953d9fcd3b8570-DPD_UK_Carrier_Details_block.png" width="400px" alt="Entering carrier details" />
 
-  Once done, you have now successfully added a shipping account. You can now start shipping with it.
-***
-  </ToggleListItem>
+        <AsteridkForMandatoryElements />
+
+        <Table align={["center","left"]}>
+          <thead>
+            <tr>
+              <th>
+                Element
+              </th>
+
+              <th>
+                Description
+              </th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>
+                **Authorisation code**\*
+              </td>
+
+              <td>
+                Enter a unique 8-digit identifier as your authorisation code for DPD UK. This code is used to validate or link the manifest to the correct shipper or contract.
+
+                *`Note`: This identifier is included in the manifest file names.*
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                **SLID**\*
+              </td>
+
+              <td>
+                Enter the unique customer identifier which will be used in the barcode range and manifest files.
+              </td>
+            </tr>
+          </tbody>
+        </Table>
+
+        ***
+      </ToggleListItem>
+
+      <ToggleListItem title="6. Save and add the shipping account" icon="fa-check">
+        After entering all the required information, select ![](https://files.readme.io/721eb0f8be0c99a924b61cbca6496517d03fcbbf235aa0c3d579c60b3131df2a-add_shipping_account_button_2.png).
+
+        Once done, you have now successfully added a shipping account. You can now start shipping with it.
+
+        ***
+      </ToggleListItem>
     </ToggleList>
   </Tab>
-<Tab title="Via API">
+
+  <Tab title="Via API">
     <br />
 
-    To add an An Post shipping account via API, refer to the following API endpoint.
+    To add a DPD UK shipping account via API, refer to the following API endpoint.
 
     <Cards>
-      <Card title="Add Account" href="https://docs.intersoftsapient.net/reference/post_v4-shippingaccounts-anpost" icon="fa-code">
-        Add and manage An Post shipping account via API.
+      <Card title="Add Account" href="https://docs.intersoftsapient.net/reference/post_v4-shippingaccounts-dpduk" icon="fa-code">
+        Add and manage DPD UK shipping account via API.
       </Card>
     </Cards>
   </Tab>
 </Tabs>
 
-
-
-
-> 📘 _Note_
->
-> _Shipping account(s) can be added and managed via API. For more information, refer to the <Anchor label="API References" target="_blank" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-dpduk">API References</Anchor> section._
+***
 
 ### See also
 
-* [Edit shipping account](https://docs.intersoftsapient.net/docs/edit-shipping-account)
+<Cards>
+  <Card title="Edit shipping account" icon="fa-pen-to-square" href="https://docs.intersoftsapient.net/docs/edit-shipping-account">
+    Update or modify an existing shipping account.
+  </Card>
+</Cards>
 
 <br />
