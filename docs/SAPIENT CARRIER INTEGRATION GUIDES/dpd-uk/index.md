@@ -72,8 +72,9 @@ DPD are one of the leading delivery carriers in the UK, shipping domestically an
         Requires PIN and age verification at the point of delivery for added security.
       </Card>
     </Cards>
+<br />
+    <Callout icon="💡" theme="default">
 
-    <Callout icon="💡" theme="default"> <br />
       ### *Tip*
 
       *For more information on the service enhancements and carrier services, refer to the following endpoints:*
