@@ -158,7 +158,7 @@ In SAPIENT, you can create an An Post shipping account by selecting your desired
 
       <br />
 
-      <ToggleListItem title="5. Save the shipping account" icon="fa-floppy-disk">
+      <ToggleListItem title="5. Save and add the shipping account" icon="fa-floppy-disk">
         After entering all the required information, select ![](https://files.readme.io/4d8fd2c9a6fad152f41e65d82274b94a6d3a8978f69bb88fbe74ba2d54138fe8-add_shipping_account_button_2.png).
         Once done, you have now successfully added a shipping account. You can now start <Anchor label="adding the barcode range" target="_blank" href="https://docs.intersoftsapient.net/docs/add-barcode-range-for-an-post-shipping-account#/">adding the barcode range</Anchor> to it and then use it for your shipping needs.
 
