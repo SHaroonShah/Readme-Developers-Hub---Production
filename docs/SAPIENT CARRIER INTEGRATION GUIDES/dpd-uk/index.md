@@ -92,13 +92,6 @@ DPD are one of the leading delivery carriers in the UK, shipping domestically an
   <Tab title="Core Services">
     <Accordion title="Create Shipment" icon="plus-circle">
       The integration for creating shipments to reflect DPD UK as a primary carrier and allowing users to create shipments using the **Create Shipment** endpoint.
-<Callout icon="💡" theme="default">
-  ### _Tip_
-
-  _For more information on the API endpoint, refer to the [Create Shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-dpduk)endpoint._
-
-</Callout>
-
     </Accordion>
 
     <br />
@@ -106,7 +99,7 @@ DPD are one of the leading delivery carriers in the UK, shipping domestically an
 
   <Tab title="Advanced Services">
     <Accordion title="Print Label" icon="print">
-      Generate and return the label for an An Post shipment. This endpoint must be utilised when the label is not generated in the An Post Create Shipment request.
+      Generate and return the label for a DPD UK shipment. This endpoint must be utilised when the label is not generated in the DPD UK Create Shipment request.
 
       > 📘 *Note*
       >
