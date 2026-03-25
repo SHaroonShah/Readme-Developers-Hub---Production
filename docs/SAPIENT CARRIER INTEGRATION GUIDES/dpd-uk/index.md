@@ -37,7 +37,6 @@ DPD are one of the leading delivery carriers in the UK, shipping domestically an
       </Card>
 
       <Card title="Label Formats" icon="fa-solid fa-tag">
-        <Glossary>PDF</Glossary> and <Glossary>PNG</Glossary>.<br />
         The integartion supports labels in the <Glossary>PDF</Glossary> format.
       </Card>
     </Cards>
@@ -47,9 +46,10 @@ DPD are one of the leading delivery carriers in the UK, shipping domestically an
 
   <Tab title="Additional Features">
     * **Consignment services**: Consignment services are supported, and DPD UK allows a maximum of 99 packages per consignment.
-> 📘 _Note_
->
-> _Please bear in mind that not all services offer consignment options._
+
+    > 📘 *Note*
+    >
+    > *Please bear in mind that not all services offer consignment options.*
 
     * **Carrier-Specific Fields**: The **CarrierSpecifics** object in the **Create Shipment** request contains the following fields:
 
@@ -65,21 +65,24 @@ DPD are one of the leading delivery carriers in the UK, shipping domestically an
       <Card title="Proof of Age" icon="fa-solid fa-age">
         Ensures the recipient meets a minimum age requirement, like for age-restricted goods.
       </Card>
-<Card title="Pin Required" icon="fa-solid fa-location-pin-lock">
+
+      <Card title="Pin Required" icon="fa-solid fa-location-pin-lock">
         A secure PIN is sent to the receiver, which must be provided upon delivery.
       </Card>
-<Card title="Pin Required & Proof of Age" icon="fa-solid fa-location-pin-lock">
+
+      <Card title="Pin Required & Proof of Age" icon="fa-solid fa-location-pin-lock">
         Requires PIN and age verification at the point of delivery for added security.
       </Card>
     </Cards>
-<Callout icon="💡" theme="default">
-  ### _Tip_
 
-  _For more information on the service enhancements and carrier services, refer to the following endpoints:_
+    <Callout icon="💡" theme="default">
+      ### *Tip*
 
-  * [Create Shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-dpduk)
-  * [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services)
-</Callout>
+      *For more information on the service enhancements and carrier services, refer to the following endpoints:*
+
+      * [Create Shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-dpduk)
+      * [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services)
+    </Callout>
   </Tab>
 </Tabs>
 
