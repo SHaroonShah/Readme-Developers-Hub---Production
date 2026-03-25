@@ -88,6 +88,39 @@ DPD are one of the leading delivery carriers in the UK, shipping domestically an
 
 ## API Services
 
+<Tabs>
+  <Tab title="Core Services">
+    <Accordion title="Create Shipment" icon="plus-circle">
+      The integration for creating shipments to reflect DPD UK as a primary carrier and allowing users to create shipments using the **Create Shipment** endpoint.
+<Callout icon="💡" theme="default">
+  ### _Tip_
+
+  _For more information on the API endpoint, refer to the [Create Shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-dpduk)endpoint._
+
+</Callout>
+
+    </Accordion>
+
+    <br />
+  </Tab>
+
+  <Tab title="Advanced Services">
+    <Accordion title="Print Label" icon="print">
+      Generate and return the label for an An Post shipment. This endpoint must be utilised when the label is not generated in the An Post Create Shipment request.
+
+      > 📘 *Note*
+      >
+      > *This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting.*
+    </Accordion>
+
+    <br />
+
+    <Accordion title="Tracking" icon="print">
+      This integration allows customers to monitor their shipments in real-time, providing transparency and peace of mind. Users can access detailed tracking information, including, real-time updates, tracking numbers, and delivery notifications.
+    </Accordion>
+  </Tab>
+</Tabs>
+
 The following API services are provided by the DPD UK integration:
 
 * **Label integration**: The system generates the label by populating a stored label template with the relevant shipment data.
