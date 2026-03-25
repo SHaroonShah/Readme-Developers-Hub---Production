@@ -17,40 +17,49 @@ n SAPIENT, you can create a DPD UK shipping account by selecting your desired <G
 
 To add a shipping account for DPD UK in SAPIENT, follow the instructions as explained in the following procedure.
 
-<Accordion title="Step 1: Select Shipping Accounts" icon="fa-mouse-pointer">
+<Tabs>
+  <Tab title="Via SAPIENT UI">
+    <br />
+
+    To add an An Post shipping account via SAPIENT UI, perform the steps as explained in the following procedure:
+<ToggleList>
+<ToggleListItem title="Step 1: Select Shipping Accounts" icon="fa-mouse-pointer">
   In the left navigation panel, select **Shipping Accounts**.
 
-  <Image align="center" alt="Accessing shipping accounts" border={true} caption="Accessing shipping accounts" src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" />
-</Accordion>
+  <Image align="center" border={true} src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" alt="Accessing shipping accounts" />
+***
+  </ToggleListItem> <br /> 
 
-<Accordion title="Step 2: Add Shipping Account" icon="fa-plus">
+<ToggleListItem title="Step 2: Add Shipping Account" icon="fa-plus">
   On the **Shipping Accounts** page that opens, select ![](https://files.readme.io/5eb134426849b1adb3049756830b6bef19e7dc67dca55891e64ff7b9c8eadd8e-add_shipping_account_button.png).
 
-  <Image align="center" alt="Accessing option to add shipping account" border={true} caption="Selecting option to add shipping account" src="https://files.readme.io/3b149ee84f86fb8d4f02c43b2733c7eb85aea3ac6e2f01692af371f631570bf3-Add_shipping_account_button_DX.png" />
-</Accordion>
+  <Image align="center" border={true} src="https://files.readme.io/3b149ee84f86fb8d4f02c43b2733c7eb85aea3ac6e2f01692af371f631570bf3-Add_shipping_account_button_DX.png" alt="Accessing option to add shipping account" />
+***
+  </ToggleListItem> <br /> 
 
-<Accordion title="Step 3: Enter Account Details" icon="fa-file-alt">
+<ToggleListItem title="Step 3: Enter Account Details" icon="fa-file-alt">
   On the **Add Shipping Account** form that appears, in the **ACCOUNT DETAILS** block, fill in the necessary information as described in the following table.
 
-  <Image align="center" alt="Entering account details" border={true} caption="Entering account details" src="https://files.readme.io/9e466e696ea305d18429dc70a57f6cfed758305cb42a7cb164d244a139e88383-DPD_UK_Account_Details_block.png" width="500px" />
+  <Image align="center" border={true} src="https://files.readme.io/9e466e696ea305d18429dc70a57f6cfed758305cb42a7cb164d244a139e88383-DPD_UK_Account_Details_block.png" width="500px" alt="Entering account details" />
 
   <AsteridkForMandatoryElements />
 
-  |         Element        | Description                                                                                                   |
-  | :--------------------: | :------------------------------------------------------------------------------------------------------------ |
-  |      **Carrier***      | From the dropdown list, select **DPD UK**.                                                                    |
-  | **Shipping Location*** | From the dropdown menu, select the location that you want to assign to the shipping account you are creating. |
-</Accordion>
+  |         Element         | Description                                                                                                   |
+  | :---------------------: | :------------------------------------------------------------------------------------------------------------ |
+  |      **Carrier**\*      | From the dropdown list, select **DPD UK**.                                                                    |
+  | **Shipping Location**\* | From the dropdown menu, select the location that you want to assign to the shipping account you are creating. |
+***
+  </ToggleListItem> <br /> 
 
-<Accordion title="Step 4: Enter Shipping Account details" icon="fa-box">
+<ToggleListItem title="Step 4: Enter Shipping Account details" icon="fa-box">
   In the **SHIPPING ACCOUNT** block, enter the necessary information as explained in the following table.
 
-  <Image align="center" alt="Specifying shipping account details" border={true} caption="Specifying shipping account details" src="https://files.readme.io/39d87085578107757d9093cbbe563490cfaddc225e515ed2da42c1ab2bef70ee-DPD_UK_Shipping_Account_block.png" width="400px" />
+  <Image align="center" border={true} src="https://files.readme.io/39d87085578107757d9093cbbe563490cfaddc225e515ed2da42c1ab2bef70ee-DPD_UK_Shipping_Account_block.png" width="400px" alt="Specifying shipping account details" />
 
   <Callout icon="💡" theme="default">
-    ### _Tip_
+    ### *Tip*
 
-    _In the following table, the mandatory fields are marked with an asterisk (*)._
+    *In the following table, the mandatory fields are marked with an asterisk (\*).*
   </Callout>
 
   <Table align={["center","left"]}>
@@ -69,19 +78,19 @@ To add a shipping account for DPD UK in SAPIENT, follow the instructions as expl
     <tbody>
       <tr>
         <td>
-          **Carrier Account Number***
+          **Carrier Account Number**\*
         </td>
 
         <td>
           Enter the account number, which is the DPD UK client ID.
 
-          _`Note`: If you already have an account with DPD UK that is actively being used, and if you wish to receive tracking via Intersoft, then you need to request a new account number in order to integrate with Intersoft. This request can be made to your DPD account manager._
+          *`Note`: If you already have an account with DPD UK that is actively being used, and if you wish to receive tracking via Intersoft, then you need to request a new account number in order to integrate with Intersoft. This request can be made to your DPD account manager.*
         </td>
       </tr>
 
       <tr>
         <td>
-          **Account Name (if different than customer)***
+          **Account Name (if different than customer)**\*
         </td>
 
         <td>
@@ -91,7 +100,7 @@ To add a shipping account for DPD UK in SAPIENT, follow the instructions as expl
 
       <tr>
         <td>
-          **Account Type***
+          **Account Type**\*
         </td>
 
         <td>
@@ -105,7 +114,7 @@ To add a shipping account for DPD UK in SAPIENT, follow the instructions as expl
 
       <tr>
         <td>
-          **Alias***
+          **Alias**\*
         </td>
 
         <td>
@@ -115,7 +124,7 @@ To add a shipping account for DPD UK in SAPIENT, follow the instructions as expl
 
       <tr>
         <td>
-          **Contact Name***
+          **Contact Name**\*
         </td>
 
         <td>
@@ -125,7 +134,7 @@ To add a shipping account for DPD UK in SAPIENT, follow the instructions as expl
 
       <tr>
         <td>
-          **Contact Number***
+          **Contact Number**\*
         </td>
 
         <td>
@@ -134,12 +143,13 @@ To add a shipping account for DPD UK in SAPIENT, follow the instructions as expl
       </tr>
     </tbody>
   </Table>
-</Accordion>
+***
+  </ToggleListItem> <br /> 
 
-<Accordion title="Step 5: Enter Carrier Details" icon="fa-truck">
+<ToggleListItem title="Step 5: Enter Carrier Details" icon="fa-truck">
   In the **CARRIER DETAILS** block, enter the necessary information as explained in the following table.
 
-  <Image align="center" alt="Entering carrier details" border={true} caption="Entering carrier details" src="https://files.readme.io/7c33d0683d772640711106d7353fba4e51c9a321c1bcab6c03953d9fcd3b8570-DPD_UK_Carrier_Details_block.png" width="400px" />
+  <Image align="center" border={true} src="https://files.readme.io/7c33d0683d772640711106d7353fba4e51c9a321c1bcab6c03953d9fcd3b8570-DPD_UK_Carrier_Details_block.png" width="400px" alt="Entering carrier details" />
 
   <AsteridkForMandatoryElements />
 
@@ -159,19 +169,19 @@ To add a shipping account for DPD UK in SAPIENT, follow the instructions as expl
     <tbody>
       <tr>
         <td>
-          **Authorisation code***
+          **Authorisation code**\*
         </td>
 
         <td>
           Enter a unique 8-digit identifier as your authorisation code for DPD UK. This code is used to validate or link the manifest to the correct shipper or contract.
 
-          _`Note`: This identifier is included in the manifest file names._
+          *`Note`: This identifier is included in the manifest file names.*
         </td>
       </tr>
 
       <tr>
         <td>
-          **SLID***
+          **SLID**\*
         </td>
 
         <td>
@@ -180,13 +190,32 @@ To add a shipping account for DPD UK in SAPIENT, follow the instructions as expl
       </tr>
     </tbody>
   </Table>
-</Accordion>
+***
+</ToggleListItem>
 
-<Accordion title="Step 6: Submit the shipping account" icon="fa-check">
+<ToggleListItem title="Step 6: Submit the shipping account" icon="fa-check">
   After entering all the required information, select ![](https://files.readme.io/721eb0f8be0c99a924b61cbca6496517d03fcbbf235aa0c3d579c60b3131df2a-add_shipping_account_button_2.png).
 
   Once done, you have now successfully added a shipping account. You can now start shipping with it.
-</Accordion>
+***
+  </ToggleListItem>
+    </ToggleList>
+  </Tab>
+<Tab title="Via API">
+    <br />
+
+    To add an An Post shipping account via API, refer to the following API endpoint.
+
+    <Cards>
+      <Card title="Add Account" href="https://docs.intersoftsapient.net/reference/post_v4-shippingaccounts-anpost" icon="fa-code">
+        Add and manage An Post shipping account via API.
+      </Card>
+    </Cards>
+  </Tab>
+</Tabs>
+
+
+
 
 > 📘 _Note_
 >
