@@ -23,80 +23,88 @@ In SAPIENT, you can add tracking accounts for DPD UK to enhance visibility, impr
 >
 > _If you wish to receive the tracking events via Intersoft using the tracking account you have created, make sure it is is activated by the DPD UK team._
 
-<Accordion title="Procedure" icon="fa-list-ol">
+## How to add DPD UK tracking account
 
-<Accordion title="Step 1: Access the Tracking Accounts tab" icon="fa-arrow-right">
+<ToggleList>
+  <ToggleListItem title="Step 1. Navigate to the Tracking Accounts tab" icon="fa-arrow-right">
+    On the SAPIENT **Home** page, in the left navigation panel, select **API** > **Webhooks**. On the page that opens, select the **Tracking Accounts** tab.
 
-On the SAPIENT **Home** page, in the left navigation panel, select **API** > **Webhooks**. On the page that opens, select the **Tracking Accounts** tab.
+    <Image align="center" border={true} src="https://files.readme.io/b8bf0b939dcc8227cc88b32d2ee0707e13bbfecbe7a5d116f0b6f6ac1de3303b-Tracking_accounts_tab.png" alt="Accessing tracking accounts" />
+***
+  </ToggleListItem> <br />
 
-<Image align="center" alt="Accessing tracking accounts" border={true} caption="Accessing tracking accounts" src="https://files.readme.io/b8bf0b939dcc8227cc88b32d2ee0707e13bbfecbe7a5d116f0b6f6ac1de3303b-Tracking_accounts_tab.png" />
+  <ToggleListItem title="2. Select option to add a tracking account" icon="fa-arrow-right">
+    In the **Tracking Accounts** page that opens, select ![](https://files.readme.io/f879cc7a233a578517b8e8034e326bc5c585f67b641db9adc93d3388d2a6fb78-Add_tracking_account_button.png).
 
-</Accordion>
+    <Image align="center" border={true} src="https://files.readme.io/522a3682f6e9a14eca2037dd25d5d2aa0972d04bd862883f5a35ac532f1ffce8-Add_tracking_account_button_DX.png" alt="Accessing option to add tracking account" />
+***
+  </ToggleListItem> <br />
 
-<Accordion title="Step 2: Select the option to add a tracking account" icon="fa-arrow-right">
+  <ToggleListItem title="3. Enter tracking account details" icon="fa-arrow-right">
+    On the **Add Tracking account** page that appears, in the **DETAILS** block, enter the necessary information as explained in the following table.
 
-In the **Tracking Accounts** page that opens, select ![](https://files.readme.io/f879cc7a233a578517b8e8034e326bc5c585f67b641db9adc93d3388d2a6fb78-Add_tracking_account_button.png).
+    <Image align="center" border={true} src="https://files.readme.io/0360cf8a986002fef3a87b152306907f660fb5c7f85e0f328e4f830b03b8a818-Adding_DPD_UK_tracking_account.png" width="500px" alt="Adding tracking account" />
 
-<Image align="center" alt="Accessing option to add tracking account" border={true} caption="Accessing option to add tracking account" src="https://files.readme.io/522a3682f6e9a14eca2037dd25d5d2aa0972d04bd862883f5a35ac532f1ffce8-Add_tracking_account_button_DX.png" />
+    <AsteridkForMandatoryElements />
 
-</Accordion>
+    <Table align={["center","left"]}>
+      <thead>
+        <tr>
+          <th>
+            Element
+          </th>
 
-<Accordion title="Step 3: Enter the tracking account details" icon="fa-arrow-right">
+          <th>
+            Description
+          </th>
+        </tr>
+      </thead>
 
-On the **Add Tracking account** page that appears, in the **DETAILS** block, enter the necessary information as explained in the following table.
+      <tbody>
+        <tr>
+          <td>
+            **Carrier**\*
+          </td>
 
-<Image align="center" alt="Adding tracking account" border={true} caption="Adding tracking account" src="https://files.readme.io/0360cf8a986002fef3a87b152306907f660fb5c7f85e0f328e4f830b03b8a818-Adding_DPD_UK_tracking_account.png" width="500px" />
+          <td>
+            From the dropdown menu, select DPD UK as your carrier option.
+          </td>
+        </tr>
 
-<AsteridkForMandatoryElements />
+        <tr>
+          <td>
+            **Shipping Account**\*
+          </td>
 
-<Table align={["center","left"]}>
-  <thead>
-    <tr>
-      <th>
-        Element
-      </th>
+          <td>
+            From the dropdown menu, select the shipping account for which you want to receive tracking.
 
-      <th>
-        Description
-      </th>
-    </tr>
-  </thead>
+            You can also select the **All Shipping Accounts** option to add this tracking account for all existing accounts.
+          </td>
+        </tr>
+      </tbody>
+    </Table>
+***
+  </ToggleListItem> <br />
 
-  <tbody>
-    <tr>
-      <td>
-        **Carrier***
-      </td>
+  <ToggleListItem title="4. Save and add the tracking account" icon="fa-arrow-right">
+    After entering all the necessary information, select ![](https://files.readme.io/2b94d65d1e560fcc17ab8e2c3e2af0c1e52b9dad2a1484f80ad7652b734ba1be-Add_tracking_account_button_2.png).
 
-      <td>
-        From the dropdown menu, select DPD UK as your carrier option.
-      </td>
-    </tr>
+    Once done, the DPD UK tracking account is added successfully and appears in the **Tracking Accounts** list. You can now receive the tracking information on your <Glossary>shipments</Glossary>.
+***
+  </ToggleListItem> <br />
+</ToggleList>
 
-    <tr>
-      <td>
-        **Shipping Account***
-      </td>
+***
 
-      <td>
-        From the dropdown menu, select the shipping account for which you want to receive tracking.
+### See also
 
-        You can also select the **All Shipping Accounts** option to add this tracking account for all existing accounts.
-      </td>
-    </tr>
-  </tbody>
-</Table>
+<Cards columns="2">
+  <Card title="Set Up Tracking Webhook Connection" href="https://docs.intersoftsapient.net/v4.02/docs/create-tracking-webhook" icon="fa-solid fa-code-pull-request">
+    Automate the instantaneous flow of information regarding the status of shipments.
+  </Card>
 
-</Accordion>
-
-<Accordion title="Step 4: Add the tracking account" icon="fa-arrow-right">
-
-After entering all the necessary information, select ![](https://files.readme.io/2b94d65d1e560fcc17ab8e2c3e2af0c1e52b9dad2a1484f80ad7652b734ba1be-Add_tracking_account_button_2.png).
-
-Once done, the DPD UK tracking account is added successfully and appears in the **Tracking Accounts** list. You can now receive the tracking information on your <Glossary>shipments</Glossary>.
-
-</Accordion>
-
-</Accordion>
-
-<br />
+  <Card title="Track Events and Milestones" href="https://docs.intersoftsapient.net/docs/tracking-events-and-milestones" icon="fa-solid fa-chart-line-up">
+    Understand tracking events and milestone data.
+  </Card>
+</Cards>
