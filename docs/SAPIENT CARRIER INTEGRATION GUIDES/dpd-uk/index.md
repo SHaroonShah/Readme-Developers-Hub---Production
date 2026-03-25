@@ -37,7 +37,7 @@ DPD are one of the leading delivery carriers in the UK, shipping domestically an
       </Card>
 
       <Card title="Label Formats" icon="fa-solid fa-tag">
-        The integartion supports labels in the <Glossary>PDF</Glossary> format.
+        The integration supports labels in the <Glossary>PDF</Glossary> format.
       </Card>
     </Cards>
 
