@@ -15,9 +15,6 @@ The primary purpose of creating barcodes is to facilitate efficient tracking and
 In SAPIENT, for an An Post <Glossary>shipping account</Glossary>, you can add a separate barcode number range per customer account and service.
 
 ## How to add barcode ranges to An Post shipping account
-
-To add a barcode range for an An Post shipping account in SAPIENT, follow the steps as explained in the following procedure.
-
 <Accordion title="1. Select the Integrations page" icon="fa-arrow-right">
 
 In the left navigation panel, select **Integrations**.
@@ -151,11 +148,6 @@ In the **Barcode Range Details** form that opens, enter the necessary informatio
 Once the relevant information is entered, select ![](https://files.readme.io/e5a8c301d9e4f9f09e3a21633bae40e536aaff09f96776a43aeea8162ece2a4b-Add_range_button.png) to save and add the barcode range. You can now use this barcode range for your shipments.
 
 </Accordion>
-
-***
-
-### See also
-
 <Cards columns={2}>
   <Card title="Add Shipping Account" href="https://docs.intersoftsapient.net/docs/add-an-post-shipping-account" icon="fa-solid fa-truck">
     Access the step-by-step guide on how to set up An Post shipping account on SAPIENT.
