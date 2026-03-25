@@ -205,7 +205,7 @@ n SAPIENT, you can create a DPD UK shipping account by selecting your desired <G
         </Table>
 
         ***
-      </ToggleListItem>
+      </ToggleListItem> <br />
 
       <ToggleListItem title="6. Save and add the shipping account" icon="fa-check">
         After entering all the required information, select ![](https://files.readme.io/721eb0f8be0c99a924b61cbca6496517d03fcbbf235aa0c3d579c60b3131df2a-add_shipping_account_button_2.png).
