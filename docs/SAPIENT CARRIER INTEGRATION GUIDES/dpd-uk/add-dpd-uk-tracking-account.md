@@ -23,7 +23,7 @@ In SAPIENT, you can add tracking accounts for DPD UK to enhance visibility, impr
 >
 > _If you wish to receive the tracking events via Intersoft using the tracking account you have created, make sure it is is activated by the DPD UK team._
 
-To add a tracking account for DPD UK in SAPIENT, follow the steps as explained in the following procedure.
+<Accordion title="Procedure" icon="fa-list-ol">
 
 1. On the SAPIENT **Home** page, in the left navigation panel, select **API** > **Webhooks**. On the page that opens, select the **Tracking Accounts** tab.
 
@@ -80,5 +80,7 @@ To add a tracking account for DPD UK in SAPIENT, follow the steps as explained i
 4. After entering all the necessary information, select ![](https://files.readme.io/2b94d65d1e560fcc17ab8e2c3e2af0c1e52b9dad2a1484f80ad7652b734ba1be-Add_tracking_account_button_2.png).
 
 Once done, the DPD UK tracking account is added successfully and appears in the **Tracking Accounts** list. You can now receive the tracking information on your <Glossary>shipments</Glossary>.
+
+</Accordion>
 
 <br />
