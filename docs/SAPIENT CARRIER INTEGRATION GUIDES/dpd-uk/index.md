@@ -56,7 +56,7 @@ DPD are one of the leading delivery carriers in the UK, shipping domestically an
 
   <Tab title="Service Enhancements">
     <Cards columns={2}>
-      <Card title="Proof of Identity" icon="fa-solid fa-Id-card">
+      <Card title="Proof of Identity" icon="fa-solid fa-id-card">
         Requires the receiver to present valid identification at the point of delivery.
       </Card>
 
