@@ -17,21 +17,21 @@ n SAPIENT, you can create a DPD UK shipping account by selecting your desired <G
 
 To add a shipping account for DPD UK in SAPIENT, follow the instructions as explained in the following procedure.
 
-1. In the left navigation panel, select **Shipping Accounts**.
+<Accordion title="Step 1: Select Shipping Accounts" icon="fa-mouse-pointer">
+  In the left navigation panel, select **Shipping Accounts**.
 
-<Accordion title="Select Shipping Accounts" icon="fa-mouse-pointer">
   <Image align="center" alt="Accessing shipping accounts" border={true} caption="Accessing shipping accounts" src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" />
 </Accordion>
 
-2. On the **Shipping Accounts** page that opens, select ![](https://files.readme.io/5eb134426849b1adb3049756830b6bef19e7dc67dca55891e64ff7b9c8eadd8e-add_shipping_account_button.png).
+<Accordion title="Step 2: Add Shipping Account" icon="fa-plus">
+  On the **Shipping Accounts** page that opens, select ![](https://files.readme.io/5eb134426849b1adb3049756830b6bef19e7dc67dca55891e64ff7b9c8eadd8e-add_shipping_account_button.png).
 
-<Accordion title="Add Shipping Account" icon="fa-plus">
   <Image align="center" alt="Accessing option to add shipping account" border={true} caption="Selecting option to add shipping account" src="https://files.readme.io/3b149ee84f86fb8d4f02c43b2733c7eb85aea3ac6e2f01692af371f631570bf3-Add_shipping_account_button_DX.png" />
 </Accordion>
 
-3. On the **Add Shipping Account** form that appears, in the **ACCOUNT DETAILS** block, fill in the necessary information as described in the following table.
+<Accordion title="Step 3: Enter Account Details" icon="fa-file-alt">
+  On the **Add Shipping Account** form that appears, in the **ACCOUNT DETAILS** block, fill in the necessary information as described in the following table.
 
-<Accordion title="Account Details fields" icon="fa-file-alt">
   <Image align="center" alt="Entering account details" border={true} caption="Entering account details" src="https://files.readme.io/9e466e696ea305d18429dc70a57f6cfed758305cb42a7cb164d244a139e88383-DPD_UK_Account_Details_block.png" width="500px" />
 
   <AsteridkForMandatoryElements />
@@ -42,9 +42,9 @@ To add a shipping account for DPD UK in SAPIENT, follow the instructions as expl
   | **Shipping Location*** | From the dropdown menu, select the location that you want to assign to the shipping account you are creating. |
 </Accordion>
 
-4. In the **SHIPPING ACCOUNT** block, enter the necessary information as explained in the following table.
+<Accordion title="Step 4: Enter Shipping Account details" icon="fa-box">
+  In the **SHIPPING ACCOUNT** block, enter the necessary information as explained in the following table.
 
-<Accordion title="Shipping Account fields" icon="fa-box">
   <Image align="center" alt="Specifying shipping account details" border={true} caption="Specifying shipping account details" src="https://files.readme.io/39d87085578107757d9093cbbe563490cfaddc225e515ed2da42c1ab2bef70ee-DPD_UK_Shipping_Account_block.png" width="400px" />
 
   <Callout icon="💡" theme="default">
@@ -136,9 +136,9 @@ To add a shipping account for DPD UK in SAPIENT, follow the instructions as expl
   </Table>
 </Accordion>
 
-5. In the **CARRIER DETAILS** block, enter the necessary information as explained in the following table.
+<Accordion title="Step 5: Enter Carrier Details" icon="fa-truck">
+  In the **CARRIER DETAILS** block, enter the necessary information as explained in the following table.
 
-<Accordion title="Carrier Details fields" icon="fa-truck">
   <Image align="center" alt="Entering carrier details" border={true} caption="Entering carrier details" src="https://files.readme.io/7c33d0683d772640711106d7353fba4e51c9a321c1bcab6c03953d9fcd3b8570-DPD_UK_Carrier_Details_block.png" width="400px" />
 
   <AsteridkForMandatoryElements />
@@ -182,9 +182,9 @@ To add a shipping account for DPD UK in SAPIENT, follow the instructions as expl
   </Table>
 </Accordion>
 
-6. After entering all the required information, select ![](https://files.readme.io/721eb0f8be0c99a924b61cbca6496517d03fcbbf235aa0c3d579c60b3131df2a-add_shipping_account_button_2.png).
+<Accordion title="Step 6: Submit the shipping account" icon="fa-check">
+  After entering all the required information, select ![](https://files.readme.io/721eb0f8be0c99a924b61cbca6496517d03fcbbf235aa0c3d579c60b3131df2a-add_shipping_account_button_2.png).
 
-<Accordion title="Submit the shipping account" icon="fa-check">
   Once done, you have now successfully added a shipping account. You can now start shipping with it.
 </Accordion>
 
