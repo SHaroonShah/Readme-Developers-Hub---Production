@@ -84,6 +84,7 @@ DPD are one of the leading delivery carriers in the UK, shipping domestically an
   </Tab>
 </Tabs>
 
+
 ***
 
 ## API Services
@@ -114,19 +115,28 @@ DPD are one of the leading delivery carriers in the UK, shipping domestically an
   </Tab>
 </Tabs>
 
-The following API services are provided by the DPD UK integration:
 
-* **Label integration**: The system generates the label by populating a stored label template with the relevant shipment data.
-* **Manifest integration**: A crucial API for DPD UK that generates an electronic manifest data file in the SAPIENT's default PDF format and send it to DPD UK via SFTP.
-* **Tracking integration**: Enables data files to be sent via SFTP and received through the SAPIENT tracking webhook.
 
-***
+## Getting Started
 
-In this section, learn now to:
+<Cards columns={3}>
+  <Card title="Add DPD UK shipping account" icon="fa-solid fa-truck" href="https://docs.intersoftsapient.net/docs/add-dpd-uk-shipping-account">
+    Set up your DPD UK shipping account to start creating shipments.
+  </Card>
 
-* <Anchor label="Add a DPD UK shipping account" target="_blank" href="https://docs.intersoftsapient.net/docs/add-dpd-uk-shipping-account">Add a DPD UK shipping account</Anchor>
-* <Anchor label="Add a DPD UK tracking account" target="_blank" href="https://docs.intersoftsapient.net/docs/add-dpd-uk-tracking-account">Add a DPD UK tracking account</Anchor>
+  <Card title="Add DPD UK tracking account" icon="fa-solid fa-search-location" href="https://docs.intersoftsapient.net/docs/add-dpd-uk-tracking-account">
+    Configure tracking for your DPD UK shipments.
+  </Card>
 
-> 📘 _Note_
->
-> _For more information on how to activate the DPD UK integration, refer to the [Activate integration](https://docs.intersoftsapient.net/docs/integration-activation#/) section._
+  <Card title="API References" icon="fa-solid fa-code" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-dpduk">
+    Explore the DPD UK API endpoints for a seamless shipping experience.
+  </Card>
+</Cards>
+
+<Banner isInline={true} message="Ready to integrate?" color="#ffb600" textColor="#ffffff" fontSize="20px" fontWeight="bold" width="120px" />
+
+<Cards columns={0}>
+  <Card title="Activate this integration" href="https://docs.intersoftsapient.net/docs/integration-activation#/" icon="fa-solid fa-circle-play fa-beat" target="_blank">
+    Seamlessly connect with DPD UK and manage your shipping operations from a single platform.
+  </Card>
+</Cards>
