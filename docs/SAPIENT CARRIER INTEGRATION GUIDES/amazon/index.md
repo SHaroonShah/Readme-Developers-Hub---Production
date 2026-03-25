@@ -68,6 +68,16 @@ In the UK, Amazon Shipping covers England, Scotland, and Wales, offering seven-d
         Amazon sends the receiver a one-time password to be used upon delivery.
       </Card>
     </Cards>
+    <br />
+   <Callout icon="💡" theme="default">
+      ### *Tip*
+
+      *For more information on the service enhancements and carrier services, refer to the following endpoints:*
+
+      * *[Create Shipment](https://docs.intersoftsapient.net/v4.03/reference/post_v4-shipments-amazon)*
+      * *[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services)*
+    </Callout>
+
   </Tab>
 </Tabs>
 
