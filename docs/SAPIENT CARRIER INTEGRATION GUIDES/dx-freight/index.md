@@ -23,8 +23,6 @@ Freight is one of DX's core solutions, also referred to as _IDW_ (Irregular Dime
 
 ## Overview
 
-<br />
-
 <Tabs>
   <Tab title="Key Features">
     <Cards columns={2}>
@@ -96,12 +94,15 @@ Freight is one of DX's core solutions, also referred to as _IDW_ (Irregular Dime
   <Tab title="Core Services">
     <Accordion title="Create Shipment" icon="plus-circle">
       The integration for creating shipments to reflect DXF as a primary carrier and allowing users to create shipments using the **Create Shipment** endpoint.
-    </Accordion> <br />
-<Accordion title="Delete Shipment" icon="plus-circle">
-The integration to delete an existing shipment cancelled in SAPIENT.
-  <br />
-</Accordion>
+    </Accordion>
 
+    <br />
+
+    <Accordion title="Delete Shipment" icon="plus-circle">
+      The integration to delete an existing shipment cancelled in SAPIENT.
+
+      <br />
+    </Accordion>
   </Tab>
 
   <Tab title="Advanced Services">
@@ -126,15 +127,17 @@ The integration to delete an existing shipment cancelled in SAPIENT.
 ## Getting Started
 
 <Cards columns={2}>
-      <Card title="Shipping Account" href="https://docs.intersoftsapient.net/docs/add-dx-freight-shipping-account" icon="fa-solid fa-truck">
-        Access the step-by-step guide on how to set up An Post shipping account on SAPIENT.
+  <Card title="Shipping Account" href="https://docs.intersoftsapient.net/docs/add-dx-freight-shipping-account" icon="fa-solid fa-truck">
+    Access the step-by-step guide on how to set up An Post shipping account on SAPIENT.
   </Card>
-<Card title="Tracking Account" href="https://docs.intersoftsapient.net/docs/add-dx-freight-tracking-account#/" icon="fa-solid fa-search-location">
-        Access the step-by-step guide on how to set up An Post tracking account on SAPIENT.
-      </Card>
-<Card title="DXF Sign-off Process" href="https://docs.intersoftsapient.net/docs/dx-freight-sign-off" icon="fa-solid fa-file-signature">
-        Complete all the necessary steps before using DXF for creating shipments on SAPIENT.
-      </Card>
+
+  <Card title="Tracking Account" href="https://docs.intersoftsapient.net/docs/add-dx-freight-tracking-account#/" icon="fa-solid fa-search-location">
+    Access the step-by-step guide on how to set up An Post tracking account on SAPIENT.
+  </Card>
+
+  <Card title="DXF Sign-off Process" href="https://docs.intersoftsapient.net/docs/dx-freight-sign-off" icon="fa-solid fa-file-signature">
+    Complete all the necessary steps before using DXF for creating shipments on SAPIENT.
+  </Card>
 </Cards>
 
 <Banner isInline={true} message="Ready to integrate?" color="#ffb600" textColor="#ffffff" fontSize="20px" fontWeight="bold" width="120px" />
