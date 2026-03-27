@@ -87,26 +87,26 @@ In the UK, Amazon Shipping covers England, Scotland, and Wales, offering seven-d
 ## Getting Started
 
 <Tabs>
-<Tab title="Account Setup">
-<Cards columns={3}>
-  <Card title="Add Amazon Shipping Account" icon="fa-solid fa-truck" href="https://docs.intersoftsapient.net/docs/add-amazon-shipping-account">
-    Set up your Amazon shipping account to start creating shipments.
-  </Card>
+  <Tab title="Account Setup">
+    <Cards columns={2}>
+      <Card title="Add Amazon Shipping Account" icon="fa-solid fa-truck" href="https://docs.intersoftsapient.net/docs/add-amazon-shipping-account">
+        Set up your Amazon shipping account to start creating shipments.
+      </Card>
 
-  <Card title="Add Amazon Tracking Account" icon="fa-solid fa-search-location" href="https://docs.intersoftsapient.net/docs/add-an-post-tracking-account#/">
-    Configure tracking for your Amazon shipments.
-  </Card>
-</Cards>
+      <Card title="Add Amazon Tracking Account" icon="fa-solid fa-search-location" href="https://docs.intersoftsapient.net/docs/add-an-post-tracking-account#/">
+        Configure tracking for your Amazon shipments.
+      </Card>
+    </Cards>
   </Tab>
 
-<Tab title="API References">
-<Cards>
-  <Card title="SAPIENT Amazon API" icon="fa-solid fa-code" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-amazon">
-    Explore the Amazon API endpoints for a seamless shipping experience.
-  </Card>
-</Cards>
-    </Tab>
-    </Tabs>
+  <Tab title="API References">
+    <Cards columns={0}>
+      <Card title="SAPIENT Amazon API" icon="fa-solid fa-code" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-amazon">
+        Explore the Amazon API endpoints for a seamless shipping experience.
+      </Card>
+    </Cards>
+  </Tab>
+</Tabs>
 
 <Banner isInline={true} message="Ready to integrate?" color="#ffb600" textColor="#ffffff" fontSize="20px" fontWeight="bold" width="120px" />
 
