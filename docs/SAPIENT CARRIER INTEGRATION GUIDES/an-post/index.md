@@ -129,10 +129,11 @@ The integration of An Post, Ireland's national postal service, into the SAPIENT 
       </Card>
     </Cards>
   </Tab>
- <Tab title="API References">
+
+  <Tab title="API References">
     <Cards columns={0}>
-      <Card title="Add Barcode Ranges" href="https://docs.intersoftsapient.net/docs/add-barcode-range-for-an-post-shipping-account" icon="fa-solid fa-barcode">
-        Add barcode ranges to facilitate efficient tracking and management of shipments.
+      <Card title="Add Barcode Ranges" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-anpost" icon="fa-solid fa-barcode">
+        Explore the An Post API endpoints for a seamless shipping experience.
       </Card>
     </Cards>
   </Tab>
