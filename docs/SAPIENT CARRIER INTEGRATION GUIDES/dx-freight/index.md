@@ -15,13 +15,72 @@ metadata:
 next:
   description: ''
 ---
-<Image align="center" border={false} width="900px" src="https://files.readme.io/ed4b0e49c08719ebbc9ac569d952798457c6cf7205c33335f35fa9bc462e65e3-DX_Freight_white_banner.png" />
+<Image align="center" width="900px" src="https://files.readme.io/ed4b0e49c08719ebbc9ac569d952798457c6cf7205c33335f35fa9bc462e65e3-DX_Freight_white_banner.png" />
 
 ***
 
 Freight is one of DX's core solutions, also referred to as _IDW_ (Irregular Dimensions and Weight), that provides delivery services to businesses and home addresses for multi-item <Glossary>consignment</Glossary>s, pallets up to 6 metres in length, and individual <Glossary>items</Glossary> in excess of 25 kg in weight.
 
-## Key features
+## Overview
+
+<br />
+
+<Tabs>
+  <Tab title="Key Features">
+    <Cards columns={2}>
+      <Card title="Shipping Origins" icon="fa-map-marker-alt">
+        The integration supports shipping from locations in Great Britain (GB) only.
+      </Card>
+
+      <Card title="Shipping Destinations" icon="fa-solid fa-globe">
+        Users can send <Glossary>shipments</Glossary> to Great Britain (GB) and Channel Islands. <br />
+Bear in mind that shipments to Channel Islands are treated as domestic destination for freight shipments.
+      </Card>
+
+      <Card title="Service Type" icon="fa-solid fa-shipping-fast">
+        The integration is focused on outbound shipping.
+      </Card>
+
+      <Card title="Incoterms Support" icon="fa-solid fa-file-contract">
+        The integration does not support any incoterms.
+      </Card>
+
+      <Card title="Label Formats" icon="fa-solid fa-tag">
+        The integration support labels in <Glossary>PDF</Glossary>, <Glossary>ZPL203DPI</Glossary>, and <Glossary>ZPL300DPI</Glossary>.
+      </Card>
+    </Cards>
+
+    <br />
+  </Tab>
+
+  <Tab title="Additional Features">
+  <Accordion title="Single Piece Shipments" icon="">
+    DX Freight supports a maximum of 999 packages in a shipment, but the SAPIENT maximum—99 is used instead.
+  </Accordion>
+
+  <Accordion title="DX-1" icon="">
+    A 1-man service type that is typically deigned for door to door standard next-day delivery of parcels weighing up to a specific limit (50 kg) to the capability of effectively handling pallets. This service is usually best for smaller and lighter <Glossary>package</Glossary>s. 1Man service type includes the following services:
+
+    * **ON**: Overnight
+    * **3D**: 3Day
+    * 930: Overnight 9:30
+    * AM: Overnight pre noon
+    * SAT: Saturday
+    * S93: Saturday 9:30
+  </Accordion>
+
+  <Accordion title="DX-2" icon="">
+    A 2-man service type that caters to larger and heavier <Glossary>shipments</Glossary>, typically allowing for items that require 2-person handling due to their size or weight. This service is useful particularly for businesses that deal with bulky items or items that cannot be managed by one person. 2Man service type includes the following services:
+
+    * **H1**: 2Man Overnight
+    * **H2**: 2Man Standard
+    * **HS**: 2Man Saturday
+    * **C1**: 2Man Collection Overnight
+    * **C2**: 2Man Collection Standard
+    * **CS**: 2Man Saturday Only
+  </Accordion>
+</Tab>
+</Tabs>
 
 This integration provides the following key features:
 
