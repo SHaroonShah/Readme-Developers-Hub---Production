@@ -54,9 +54,11 @@ Freight is one of DX's core solutions, also referred to as _IDW_ (Irregular Dime
   </Tab>
 
   <Tab title="Additional Features">
-    <Accordion title="Single Piece Shipments" icon="">
+    <Accordion title="Single piece shipments" icon="">
       DX Freight supports a maximum of 999 packages in a shipment, but the SAPIENT maximum—99 is used instead.
-    </Accordion> <br />
+    </Accordion>
+
+    <br />
 
     <Accordion title="DX-1" icon="">
       A 1-man service type that is typically deigned for door to door standard next-day delivery of parcels weighing up to a specific limit (50 kg) to the capability of effectively handling pallets. This service is usually best for smaller and lighter <Glossary>package</Glossary>s. 1Man service type includes the following services:
@@ -67,7 +69,9 @@ Freight is one of DX's core solutions, also referred to as _IDW_ (Irregular Dime
       * AM: Overnight pre noon
       * SAT: Saturday
       * S93: Saturday 9:30
-    </Accordion> <br />
+    </Accordion>
+
+    <br />
 
     <Accordion title="DX-2" icon="">
       A 2-man service type that caters to larger and heavier <Glossary>shipments</Glossary>, typically allowing for items that require 2-person handling due to their size or weight. This service is useful particularly for businesses that deal with bulky items or items that cannot be managed by one person. 2Man service type includes the following services:
