@@ -272,6 +272,7 @@ In SAPIENT, you can create a DX Freight shipping account by selecting your desir
 
   <Tab title="Via API">
     To add a DXF shipping account via API, refer to the following API endpoint.
+
     <Cards>
       <Card title="Add Account" href="https://docs.intersoftsapient.net/reference/post_v4-shippingaccounts-dxf" icon="fa-code">
         Add and manage DXF shipping account via API.
@@ -280,13 +281,18 @@ In SAPIENT, you can create a DX Freight shipping account by selecting your desir
   </Tab>
 </Tabs>
 
-<br />
-
-<Callout icon="book" theme="info">
-  Shipping account(s) can be added and managed via API. For more information, refer to the <Anchor label="API References" target="_blank" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-dxf">API References</Anchor> section.
-</Callout>
+***
 
 ### See also
+
+<Cards>
+  <Card title="Edit shipping account" icon="fa-pen-to-square" href="https://docs.intersoftsapient.net/docs/dx-freight-sign-off">
+    Update or modify an existing shipping account.
+  </Card>
+  <Card title="DX Freight Sign-Off" icon="fa-solid file-signature" href="https://docs.intersoftsapient.net/docs/dx-freight-sign-off">
+    Update or modify an existing shipping account.
+  </Card>
+</Cards>
 
 * [DX Freight sign-off](https://docs.intersoftsapient.net/docs/dx-freight-sign-off)
 * [Edit shipping account](https://docs.intersoftsapient.net/docs/edit-shipping-account)
