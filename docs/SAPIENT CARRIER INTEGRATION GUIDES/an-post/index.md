@@ -131,8 +131,8 @@ The integration of An Post, Ireland's national postal service, into the SAPIENT 
   </Tab>
 
   <Tab title="API References">
-    <Cards columns={0}>
-      <Card title="SAPIENT An Post API " href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-anpost" icon="fa-solid fa-barcode">
+    <Cards columns={2}>
+      <Card title="SAPIENT An Post API " href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-anpost" icon="fa-solid fa-code">
         Explore the An Post API endpoints for a seamless shipping experience.
       </Card>
     </Cards>
