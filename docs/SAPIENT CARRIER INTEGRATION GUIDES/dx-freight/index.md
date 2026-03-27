@@ -86,6 +86,41 @@ Freight is one of DX's core solutions, also referred to as _IDW_ (Irregular Dime
   </Tab>
 </Tabs>
 
+***
+
+## API Services
+
+<br />
+
+<Tabs>
+  <Tab title="Core Services">
+    <Accordion title="Create Shipment" icon="plus-circle">
+      The integration for creating shipments to reflect DXF as a primary carrier and allowing users to create shipments using the **Create Shipment** endpoint.
+    </Accordion> <br />
+<Accordion title="Delete Shipment" icon="plus-circle">
+The integration to delete an existing shipment cancelled in SAPIENT.
+  <br />
+</Accordion>
+
+  </Tab>
+
+  <Tab title="Advanced Services">
+    <Accordion title="Print Label" icon="print">
+      Generate and return the label for a DXF shipment in the PDF or ZPL format. This endpoint must be utilised when the label is not generated in the DXF Create Shipment request.
+
+      > 📘 *Note*
+      >
+      > *This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting.*
+    </Accordion>
+
+    <br />
+
+    <Accordion title="Tracking" icon="print">
+      This integration allows customers to monitor their shipments in real-time, providing transparency and peace of mind. Users can access detailed tracking information, including, real-time updates, tracking numbers, and delivery notifications. For DXF shipments, the data files to be sent via SFTP for both—1Man and 2Man services.
+    </Accordion>
+  </Tab>
+</Tabs>
+
 This integration provides the following key features:
 
 * **Ship from destinations**: The integration supports shipping from locations in Great Britain (GB) only.
