@@ -100,8 +100,6 @@ Freight is one of DX's core solutions, also referred to as _IDW_ (Irregular Dime
 
     <Accordion title="Delete Shipment" icon="plus-circle">
       The integration to delete an existing shipment cancelled in SAPIENT.
-
-      <br />
     </Accordion>
   </Tab>
 
