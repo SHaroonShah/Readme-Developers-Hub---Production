@@ -240,4 +240,4 @@ Once done, you have now successfully added a shipping account. You can now start
 * [DX Freight sign-off](https://docs.intersoftsapient.net/docs/dx-freight-sign-off)
 * [Edit shipping account](https://docs.intersoftsapient.net/docs/edit-shipping-account)
 
-c
+<br />
