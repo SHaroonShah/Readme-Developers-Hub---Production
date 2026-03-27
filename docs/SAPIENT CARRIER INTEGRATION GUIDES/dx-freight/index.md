@@ -23,8 +23,6 @@ Freight is one of DX's core solutions, also referred to as _IDW_ (Irregular Dime
 
 ## Overview
 
-<br />
-
 <Tabs>
   <Tab title="Key Features">
     <Cards columns={3}>
