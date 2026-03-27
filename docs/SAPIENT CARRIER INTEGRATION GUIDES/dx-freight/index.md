@@ -46,7 +46,7 @@ Freight is one of DX's core solutions, also referred to as _IDW_ (Irregular Dime
       </Card>
 
       <Card title="Label Formats" icon="fa-solid fa-tag">
-        The integration support labels in <Glossary>PDF</Glossary>, <Glossary>ZPL203DPI</Glossary>, and <Glossary>ZPL300DPI</Glossary>.
+        The integration support labels in <Glossary>PDF</Glossary>, <Glossary>ZPL203DPI</Glossary>, and <Glossary>ZPL300DPI</Glossary> formats.
       </Card>
     </Cards>
 
