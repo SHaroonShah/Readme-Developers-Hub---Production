@@ -27,7 +27,7 @@ Freight is one of DX's core solutions, also referred to as _IDW_ (Irregular Dime
 
 <Tabs>
   <Tab title="Key Features">
-    <Cards columns={3}>
+    <Cards columns={4}>
       <Card title="Shipping Origins" icon="fa-map-marker-alt">
         The integration supports shipping from locations in Great Britain (GB) only.
       </Card>
@@ -129,24 +129,30 @@ Freight is one of DX's core solutions, also referred to as _IDW_ (Irregular Dime
 ## Getting Started
 
 <Tabs>
-<Tab title="Account Setup">
-<Cards columns={2}>
-  <Card title="Add Shipping Account" href="https://docs.intersoftsapient.net/docs/add-dx-freight-shipping-account" icon="fa-solid fa-truck">
-    Access the step-by-step guide on how to set up An Post shipping account on SAPIENT.
-  </Card>
+  <Tab title="Account Setup">
+    <Cards columns={2}>
+      <Card title="Add Shipping Account" href="https://docs.intersoftsapient.net/docs/add-dx-freight-shipping-account" icon="fa-solid fa-truck">
+        Access the step-by-step guide on how to set up An Post shipping account on SAPIENT.
+      </Card>
 
-  <Card title="Add Tracking Account" href="https://docs.intersoftsapient.net/docs/add-dx-freight-tracking-account#/" icon="fa-solid fa-search-location">
-    Access the step-by-step guide on how to set up An Post tracking account on SAPIENT.
-  </Card>
-</Cards>
+      <Card title="Add Tracking Account" href="https://docs.intersoftsapient.net/docs/add-dx-freight-tracking-account#/" icon="fa-solid fa-search-location">
+        Access the step-by-step guide on how to set up An Post tracking account on SAPIENT.
+      </Card>
+    </Cards>
   </Tab>
-
+<Tab title="API References">
+    <Cards>
+      <Card title="SAPIENT DXF API" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-dxf" icon="fa-solid fa-code">
+        Explore the DX Freight API endpoints for a seamless shipping experience.
+      </Card>
+    </Cards>
+  </Tab>
   <Tab title="Related Topics">
-<Cards>
-  <Card title="DXF Sign-off Process" href="https://docs.intersoftsapient.net/docs/dx-freight-sign-off" icon="fa-solid fa-file-signature">
-    Complete all the necessary steps before using DXF for creating shipments on SAPIENT.
-  </Card>
-</Cards>
+    <Cards>
+      <Card title="DXF Sign-off Process" href="https://docs.intersoftsapient.net/docs/dx-freight-sign-off" icon="fa-solid fa-file-signature">
+        Complete all the necessary steps before using DXF for creating shipments on SAPIENT.
+      </Card>
+    </Cards>
   </Tab>
 </Tabs>
 
