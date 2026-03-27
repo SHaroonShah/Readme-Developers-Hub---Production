@@ -34,4 +34,10 @@ In order to ship with DX Express, consider the following:
 4. Although, the Intersoft DX Freight integration is approved by the <Glossary>carrier</Glossary>, it is recommended to create a few test labels with services you will be using and share the <Glossary>labels</Glossary> with the carrier for review to avoid any discrepancies.
 5. It is also recommended to run the end to end test to ensure that the integration was set up correctly by sending out a test parcel. If tracking has been enabled for the carrier, then you should also receive the tracking events via the <Glossary>tracking webhook</Glossary>.
 
+***
+
+### See also
+
+<br />
+
 <br />
