@@ -35,7 +35,7 @@ DPD are one of the leading delivery carriers in the UK, shipping domestically an
       </Card>
 
       <Card title="Label Formats" icon="fa-solid fa-tag">
-        The integration supports labels in the <Glossary>PDF</Glossary> format.
+        The integration supports labels in the <Glossary>PDF</Glossary> and <Glossary>PNG</Glossary> formats.
       </Card>
     </Cards>
 
@@ -80,8 +80,8 @@ DPD are one of the leading delivery carriers in the UK, shipping domestically an
 
       *For more information on the service enhancements and carrier services, refer to the following endpoints:*
 
-      * _[Create Shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-dpduk)_
-      * _[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services)_
+      * *[Create Shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-dpduk)*
+      * *[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services)*
     </Callout>
   </Tab>
 </Tabs>
