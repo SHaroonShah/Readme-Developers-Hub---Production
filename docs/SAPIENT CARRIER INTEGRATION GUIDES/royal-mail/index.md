@@ -167,17 +167,17 @@ This integration represents a significant step towards optimising shipping funct
 ## Getting Started
 
 <Tabs>
-  <Tab title="Account Setup">
+  <Tab title="Set up Royal Mail OBA">
     <Cards columns={3}>
       <Card title="Account Setup" href="https://docs.intersoftsapient.net/docs/oba-email-validation" icon="fa-solid fa-user-plus">
         Access the step-by-step guide on how to set up Royal Mail Online Business Account (OBA).
       </Card>
 
-      <Card title="Shipping Account" href="https://docs.intersoftsapient.net/docs/shipping-account-requirements" icon="fa-solid fa-truck">
+      <Card title="Add Shipping Account" href="https://docs.intersoftsapient.net/docs/shipping-account-requirements" icon="fa-solid fa-truck">
         Access the step-by-step guide on how to set up Royal Mail shipping account on SAPIENT.
       </Card>
 
-      <Card title="Tracking Account" href="https://docs.intersoftsapient.net/docs/royal-mail-tracking-account-setup" icon="fa-solid fa-search-location">
+      <Card title="Add Tracking Account" href="https://docs.intersoftsapient.net/docs/royal-mail-tracking-account-setup" icon="fa-solid fa-search-location">
         Access the step-by-step guide on how to set up Royal Mail tracking account on SAPIENT.
       </Card>
     </Cards>
@@ -218,13 +218,14 @@ This integration represents a significant step towards optimising shipping funct
       </Card>
     </Cards>
   </Tab>
-<Tab title="API References">
-      <Cards columns={0}>
-        <Card title="SAPIENT Royal Mail API " href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-rm" icon="fa-solid fa-barcode">
-          Explore the Royal Mail API endpoints for a seamless shipping experience.
-        </Card>
-      </Cards>
-    </Tab>
+
+  <Tab title="API References">
+    <Cards columns={0}>
+      <Card title="SAPIENT Royal Mail API " href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-rm" icon="fa-solid fa-barcode">
+        Explore the Royal Mail API endpoints for a seamless shipping experience.
+      </Card>
+    </Cards>
+  </Tab>
 </Tabs>
 
 <Banner isInline={true} message="Ready to integrate?" color="#ffb600" textColor="#ffffff" fontSize="20px" fontWeight="bold" width="120px" />
