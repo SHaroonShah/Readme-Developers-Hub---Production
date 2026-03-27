@@ -23,9 +23,11 @@ Freight is one of DX's core solutions, also referred to as _IDW_ (Irregular Dime
 
 ## Overview
 
+<br />
+
 <Tabs>
   <Tab title="Key Features">
-    <Cards columns={2}>
+    <Cards columns={3}>
       <Card title="Shipping Origins" icon="fa-map-marker-alt">
         The integration supports shipping from locations in Great Britain (GB) only.
       </Card>
@@ -100,6 +102,8 @@ Freight is one of DX's core solutions, also referred to as _IDW_ (Irregular Dime
 
     <Accordion title="Delete Shipment" icon="plus-circle">
       The integration to delete an existing shipment cancelled in SAPIENT.
+
+      <br />
     </Accordion>
   </Tab>
 
@@ -124,19 +128,27 @@ Freight is one of DX's core solutions, also referred to as _IDW_ (Irregular Dime
 
 ## Getting Started
 
+<Tabs>
+<Tab title="Account Setup">
 <Cards columns={2}>
-  <Card title="Shipping Account" href="https://docs.intersoftsapient.net/docs/add-dx-freight-shipping-account" icon="fa-solid fa-truck">
+  <Card title="Add Shipping Account" href="https://docs.intersoftsapient.net/docs/add-dx-freight-shipping-account" icon="fa-solid fa-truck">
     Access the step-by-step guide on how to set up An Post shipping account on SAPIENT.
   </Card>
 
-  <Card title="Tracking Account" href="https://docs.intersoftsapient.net/docs/add-dx-freight-tracking-account#/" icon="fa-solid fa-search-location">
+  <Card title="Add Tracking Account" href="https://docs.intersoftsapient.net/docs/add-dx-freight-tracking-account#/" icon="fa-solid fa-search-location">
     Access the step-by-step guide on how to set up An Post tracking account on SAPIENT.
   </Card>
+</Cards>
+  </Tab>
 
+  <Tab title="Related Topics">
+<Cards>
   <Card title="DXF Sign-off Process" href="https://docs.intersoftsapient.net/docs/dx-freight-sign-off" icon="fa-solid fa-file-signature">
     Complete all the necessary steps before using DXF for creating shipments on SAPIENT.
   </Card>
 </Cards>
+  </Tab>
+</Tabs>
 
 <Banner isInline={true} message="Ready to integrate?" color="#ffb600" textColor="#ffffff" fontSize="20px" fontWeight="bold" width="120px" />
 
@@ -145,5 +157,14 @@ Freight is one of DX's core solutions, also referred to as _IDW_ (Irregular Dime
     Seamlessly connect with Royal Mail and manage your shipping operations from a single platform.
   </Card>
 </Cards>
+
+In this section, learn how to:
+
+* [Add a DX Freight shipping account](https://docs.intersoftsapient.net/docs/add-dx-freight-shipping-account)
+* [Add a DX Freight tracking account](https://docs.intersoftsapient.net/docs/add-dx-freight-tracking-account#/)
+
+> 📘 _Note_
+>
+> _For more information on how to activate the DX Freight integration, refer to the [Activate integration](https://docs.intersoftsapient.net/docs/integration-activation#/) section._
 
 <br />
