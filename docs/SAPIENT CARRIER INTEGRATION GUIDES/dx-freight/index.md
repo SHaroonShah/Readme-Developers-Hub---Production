@@ -27,7 +27,7 @@ Freight is one of DX's core solutions, also referred to as _IDW_ (Irregular Dime
 
 <Tabs>
   <Tab title="Key Features">
-    <Cards columns={4}>
+    <Cards columns={3}>
       <Card title="Shipping Origins" icon="fa-map-marker-alt">
         The integration supports shipping from locations in Great Britain (GB) only.
       </Card>
@@ -140,13 +140,15 @@ Freight is one of DX's core solutions, also referred to as _IDW_ (Irregular Dime
       </Card>
     </Cards>
   </Tab>
-<Tab title="API References">
+
+  <Tab title="API References">
     <Cards>
       <Card title="SAPIENT DXF API" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-dxf" icon="fa-solid fa-code">
         Explore the DX Freight API endpoints for a seamless shipping experience.
       </Card>
     </Cards>
   </Tab>
+
   <Tab title="Related Topics">
     <Cards>
       <Card title="DXF Sign-off Process" href="https://docs.intersoftsapient.net/docs/dx-freight-sign-off" icon="fa-solid fa-file-signature">
