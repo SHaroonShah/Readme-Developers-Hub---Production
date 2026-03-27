@@ -124,7 +124,7 @@ Freight is one of DX's core solutions, also referred to as _IDW_ (Irregular Dime
     <br />
 
     <Accordion title="Tracking" icon="print">
-      This integration allows customers to monitor their shipments in real-time, providing transparency and peace of mind. Users can access detailed tracking information, including, real-time updates, tracking numbers, and delivery notifications. For DXF shipments, the data files to be sent via SFTP for both—1Man and 2Man services.
+      This integration allows customers to monitor their shipments in real-time, providing transparency and peace of mind. Users can access detailed tracking information, including, real-time updates, tracking numbers, and delivery notifications. For DXF shipments, the data files are sent via SFTP for both—1Man and 2Man services.
     </Accordion>
   </Tab>
 </Tabs>
