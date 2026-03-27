@@ -47,7 +47,9 @@ Freight is one of DX's core solutions, also referred to as _IDW_ (Irregular Dime
       <Card title="Label Formats" icon="fa-solid fa-tag">
         The integration support labels in <Glossary>PDF</Glossary>, <Glossary>ZPL203DPI</Glossary>, and <Glossary>ZPL300DPI</Glossary> formats.
       </Card>
-    </Cards> <br />
+    </Cards>
+
+    <br />
 
     > 📘 *Note*
     >
@@ -152,7 +154,7 @@ Freight is one of DX's core solutions, also referred to as _IDW_ (Irregular Dime
     </Cards>
   </Tab>
 
-  <Tab title="Related Topics">
+  <Tab title="Sign-Off">
     <Cards>
       <Card title="DXF Sign-off Process" href="https://docs.intersoftsapient.net/docs/dx-freight-sign-off" icon="fa-solid fa-file-signature">
         Complete all the necessary steps before using DXF for creating shipments on SAPIENT.
