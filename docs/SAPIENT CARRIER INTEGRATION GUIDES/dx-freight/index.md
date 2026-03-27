@@ -132,7 +132,7 @@ The integration to delete an existing shipment cancelled in SAPIENT.
 <Card title="Tracking Account" href="https://docs.intersoftsapient.net/docs/add-dx-freight-tracking-account#/" icon="fa-solid fa-search-location">
         Access the step-by-step guide on how to set up An Post tracking account on SAPIENT.
       </Card>
-<Card title="DXF Sign-off Process" href="https://docs.intersoftsapient.net/docs/dx-freight-sign-off" icon="fa-solid fa-signature">
+<Card title="DXF Sign-off Process" href="https://docs.intersoftsapient.net/docs/dx-freight-sign-off" icon="fa-solid fa-file-signature">
         Complete all the necessary steps before using DXF for creating shipments on SAPIENT.
       </Card>
 </Cards>
