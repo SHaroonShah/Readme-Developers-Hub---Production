@@ -167,9 +167,9 @@ This integration represents a significant step towards optimising shipping funct
 ## Getting Started
 
 <Tabs>
-  <Tab title="Set up Royal Mail OBA">
+  <Tab title="Account Setup">
     <Cards columns={3}>
-      <Card title="Account Setup" href="https://docs.intersoftsapient.net/docs/oba-email-validation" icon="fa-solid fa-user-plus">
+      <Card title="Set up Royal Mail OBA" href="https://docs.intersoftsapient.net/docs/oba-email-validation" icon="fa-solid fa-user-plus">
         Access the step-by-step guide on how to set up Royal Mail Online Business Account (OBA).
       </Card>
 
