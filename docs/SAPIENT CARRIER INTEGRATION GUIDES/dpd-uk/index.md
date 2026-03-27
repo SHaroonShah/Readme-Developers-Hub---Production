@@ -49,7 +49,7 @@ DPD are one of the leading delivery carriers in the UK, shipping domestically an
     >
     > *Please bear in mind that not all services offer consignment options.*
 
-    * **Carrier-Specific Fields**: The **CarrierSpecifics** object in the **Create Shipment** request contains the following fields:
+    * **Carrier-Specific Fields**: The **CarrierSpecifics** object in the **Create Shipment** request contains the following field:
 
       * **DeliveryInstructions**: To provide any additional instructions to the carrier regarding the delivery of the shipment
   </Tab>
