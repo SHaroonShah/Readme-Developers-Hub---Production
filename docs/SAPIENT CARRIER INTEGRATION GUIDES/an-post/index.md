@@ -112,11 +112,11 @@ The integration of An Post, Ireland's national postal service, into the SAPIENT 
 <Tabs>
   <Tab title="Account Setup">
     <Cards columns={2}>
-      <Card title="Shipping Account" href="https://docs.intersoftsapient.net/docs/add-an-post-shipping-account" icon="fa-solid fa-truck">
+      <Card title="Add Shipping Account" href="https://docs.intersoftsapient.net/docs/add-an-post-shipping-account" icon="fa-solid fa-truck">
         Access the step-by-step guide on how to set up An Post shipping account on SAPIENT.
       </Card>
 
-      <Card title="Tracking Account" href="https://docs.intersoftsapient.net/docs/add-an-post-tracking-account" icon="fa-solid fa-search-location">
+      <Card title="Add Tracking Account" href="https://docs.intersoftsapient.net/docs/add-an-post-tracking-account" icon="fa-solid fa-search-location">
         Access the step-by-step guide on how to set up An Post tracking account on SAPIENT.
       </Card>
     </Cards>
