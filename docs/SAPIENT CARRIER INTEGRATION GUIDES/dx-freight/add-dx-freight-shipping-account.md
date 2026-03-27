@@ -290,7 +290,7 @@ In SAPIENT, you can create a DX Freight shipping account by selecting your desir
     Update or modify an existing shipping account.
   </Card>
   <Card title="DX Freight Sign-Off" icon="fa-solid file-signature" href="https://docs.intersoftsapient.net/docs/dx-freight-sign-off">
-    Update or modify an existing shipping account.
+    Complete necessary steps before using DXF to create shipments in SAPIENT.
   </Card>
 </Cards>
 
