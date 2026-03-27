@@ -35,7 +35,7 @@ DPD are one of the leading delivery carriers in the UK, shipping domestically an
       </Card>
 
       <Card title="Label Formats" icon="fa-solid fa-tag">
-        The integration supports labels in the <Glossary>PDF</Glossary> and <Glossary>PNG</Glossary> formats.
+        The integration supports labels in the <Glossary>PDF</Glossary> format.
       </Card>
     </Cards>
 
@@ -94,10 +94,14 @@ DPD are one of the leading delivery carriers in the UK, shipping domestically an
   <Tab title="Core Services">
     <Accordion title="Create Shipment" icon="">
       The integration for creating shipments to reflect DPD UK as a primary carrier and allowing users to create shipments using the **Create Shipment** endpoint.
-    </Accordion> <br />
+    </Accordion>
+
+    <br />
+
     <Accordion title="Manifest" icon="">
-A crucial API for DPD UK that generates an electronic manifest data file in the SAPIENT's default PDF format and send it to DPD UK via SFTP.
-</Accordion>
+      A crucial API for DPD UK that generates an electronic manifest data file in the SAPIENT's default PDF format and send it to DPD UK via SFTP.
+    </Accordion>
+
     <br />
   </Tab>
 
