@@ -93,12 +93,10 @@ Freight is one of DX's core solutions, also referred to as _IDW_ (Irregular Dime
 
 ## API Services
 
-<br />
-
 <Tabs>
   <Tab title="Core Services">
     <Accordion title="Create Shipment" icon="plus-circle">
-      The integration for creating shipments to reflect DXF as a primary carrier and allowing users to create shipments using the **Create Shipment** endpoint.
+      The integration for creating shipments to reflect DX Freight as a primary carrier and allowing users to create shipments using the **Create Shipment** endpoint.
     </Accordion>
 
     <br />
@@ -112,7 +110,7 @@ Freight is one of DX's core solutions, also referred to as _IDW_ (Irregular Dime
 
   <Tab title="Advanced Services">
     <Accordion title="Print Label" icon="print">
-      Generate and return the label for a DXF shipment in the PDF or ZPL format. This endpoint must be utilised when the label is not generated in the DXF Create Shipment request.
+      Generate and return the label for a DX Freight shipment in the PDF or ZPL format. This endpoint must be utilised when the label is not generated in the DXF Create Shipment request.
 
       > 📘 *Note*
       >
@@ -135,11 +133,11 @@ Freight is one of DX's core solutions, also referred to as _IDW_ (Irregular Dime
   <Tab title="Account Setup">
     <Cards columns={2}>
       <Card title="Add Shipping Account" href="https://docs.intersoftsapient.net/docs/add-dx-freight-shipping-account" icon="fa-solid fa-truck">
-        Access the step-by-step guide on how to set up An Post shipping account on SAPIENT.
+        Access the step-by-step guide on how to set up a DX Freight shipping account on SAPIENT.
       </Card>
 
       <Card title="Add Tracking Account" href="https://docs.intersoftsapient.net/docs/add-dx-freight-tracking-account#/" icon="fa-solid fa-search-location">
-        Access the step-by-step guide on how to set up An Post tracking account on SAPIENT.
+        Access the step-by-step guide on how to set up a DX Freight tracking account on SAPIENT.
       </Card>
     </Cards>
   </Tab>
@@ -165,7 +163,7 @@ Freight is one of DX's core solutions, also referred to as _IDW_ (Irregular Dime
 
 <Cards columns={0}>
   <Card title="Activate this integration" href="https://docs.intersoftsapient.net/docs/integration-activation#/" icon="fa-solid fa-circle-play fa-beat" target="_blank">
-    Seamlessly connect with DXF and manage your shipping operations from a single platform.
+    Seamlessly connect with DX Freight and manage your shipping operations from a single platform.
   </Card>
 </Cards>
 
