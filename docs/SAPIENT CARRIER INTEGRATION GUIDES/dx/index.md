@@ -31,7 +31,7 @@ Express is one of DX's core solutions that provides a fast and secure next-day d
       </Card>
 
       <Card title="Shipping Destinations" icon="fa-solid fa-globe">
-        Users can send <Glossary>shipments</Glossary> to Great Britain (GB) and Northern Ireland (NI)——shipments to GB country code with a postcode beginning with BT).
+        Users can send <Glossary>shipments</Glossary> to Great Britain (GB) and Northern Ireland (NI)—shipments to GB country code with a postcode beginning with BT).
       </Card>
 
       <Card title="Service Type" icon="fa-solid fa-shipping-fast">
