@@ -136,7 +136,7 @@ Express is one of DX's core solutions that provides a fast and secure next-day d
     </Cards>
   </Tab>
 
-  <Tab title="Sign-Off">
+  <Tab title="DX Rate Limit">
     <Cards>
       <Card title="DX Rate Limiting" href="https://docs.intersoftsapient.net/docs/dx-rate-limit" icon="fa-solid fa-gauge-max">
         Learn more on how to restrict your API calls over a specified time frame.
