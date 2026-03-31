@@ -77,9 +77,10 @@ Express is one of DX's core solutions that provides a fast and secure next-day d
 
     <Accordion title="Cancel Shipment" icon="plus-circle">
       The integration for directly calling the DX’s API to cancel shipments within DX’s system, to ensures that cancellations are fully registered with DX, helping prevent customers from being mistakenly charged for cancelled shipments. <br />
-> 🚧 _Important_
->
-> _If you attempt to release a held shipment to a later date, please be aware that the shipment will no longer be eligible for cancellation._
+
+      > 🚧 *Important*
+      >
+      > *If you attempt to release a held shipment to a later date, please be aware that the shipment will no longer be eligible for cancellation.*
 
       <br />
     </Accordion>
@@ -87,7 +88,7 @@ Express is one of DX's core solutions that provides a fast and secure next-day d
 
   <Tab title="Advanced Services">
     <Accordion title="Print Label" icon="print">
-      Generate and return the label for a DXF shipment in the PDF or ZPL format. This endpoint must be utilised when the label is not generated in the DXF Create Shipment request.
+      Generate and return the label for a DX Express shipment in the PDF or ZPL format. This endpoint must be utilised when the label is not generated in the DX Express Create Shipment request.
 
       > 📘 *Note*
       >
