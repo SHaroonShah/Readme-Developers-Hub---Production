@@ -67,8 +67,6 @@ Express is one of DX's core solutions that provides a fast and secure next-day d
 
 ## API Services
 
-<br />
-
 <Tabs>
   <Tab title="Core Services">
     <Accordion title="Create Shipment" icon="plus-circle">
