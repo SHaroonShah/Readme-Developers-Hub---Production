@@ -56,7 +56,7 @@ Express is one of DX's core solutions that provides a fast and secure next-day d
         DX Express supports only single-piece shipments. The integration does not support consignment or multipiece shipments.
       </Card>
 
-      <Card title="Package types" icon="">
+      <Card title="Package types" icon="fa-solid fa-box-circle-check">
         DX support their own <Glossary>package type</Glossary>s. You can look up for the packages types by calling the [Get Carrier Service Package Types](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services-servicecode-packagetypes#/) endpoint.
       </Card>
     </Cards>
