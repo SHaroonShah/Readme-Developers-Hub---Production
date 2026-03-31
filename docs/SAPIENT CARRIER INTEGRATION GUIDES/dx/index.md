@@ -103,6 +103,57 @@ Express is one of DX's core solutions that provides a fast and secure next-day d
   </Tab>
 </Tabs>
 
+***
+
+## Getting Started
+
+<br />
+
+<Tabs>
+  <Tab title="Account Setup">
+    <Cards columns={2}>
+      <Card title="Add Shipping Account" href="https://docs.intersoftsapient.net/docs/shipping-accounts-5" icon="fa-solid fa-truck">
+        Access the step-by-step guide on how to set up a DX Express shipping account on SAPIENT.
+      </Card>
+
+      <Card title="Add Tracking Account" href="https://docs.intersoftsapient.net/docs/tracking-1" icon="fa-solid fa-search-location">
+        Access the step-by-step guide on how to set up a DX Express tracking account on SAPIENT.
+      </Card>
+    </Cards>
+  </Tab>
+
+  <Tab title="API References">
+    <Cards>
+      <Card title="SAPIENT DX Express API" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-dxf" icon="fa-solid fa-code">
+        Explore the DX Freight API endpoints for a seamless shipping experience.
+      </Card>
+    </Cards>
+  </Tab>
+
+  <Tab title="Sign-Off">
+    <Cards>
+      <Card title="DXF Sign-off Process" href="https://docs.intersoftsapient.net/docs/dx-freight-sign-off-copy" icon="fa-solid fa-file-signature">
+        Complete all the necessary steps before using DXF for creating shipments on SAPIENT.
+      </Card>
+    </Cards>
+  </Tab>
+ <Tab title="Sign-Off">
+    <Cards>
+      <Card title="DX Rate Limiting" href="https://docs.intersoftsapient.net/docs/dx-rate-limit" icon="fa-solid fa-gauge-max">
+        Learn more on how to restrict your API calls over a specified time frame.
+      </Card>
+    </Cards>
+  </Tab>
+</Tabs>
+
+<Banner isInline={true} message="Ready to integrate?" color="#ffb600" textColor="#ffffff" fontSize="20px" fontWeight="bold" width="120px" />
+
+<Cards columns={0}>
+  <Card title="Activate this integration" href="https://docs.intersoftsapient.net/docs/integration-activation#/" icon="fa-solid fa-circle-play fa-beat" target="_blank">
+    Seamlessly connect with DX Express and manage your shipping operations from a single platform.
+  </Card>
+</Cards>
+
 ## Key features
 
 The DX Express integration into the SAPIENT system provides the following key features:
