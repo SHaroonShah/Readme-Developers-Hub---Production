@@ -31,7 +31,7 @@ Freight is one of DX's core solutions, also referred to as _IDW_ (Irregular Dime
       </Card>
 
       <Card title="Shipping Destinations" icon="fa-solid fa-globe">
-        Users can send <Glossary>shipments</Glossary> to Great Britain (GB) and Channel Islands.
+        Users can send <Glossary>shipments</Glossary> to Great Britain (GB) and Channel Islands (CI).
       </Card>
 
       <Card title="Service Type" icon="fa-solid fa-shipping-fast">
