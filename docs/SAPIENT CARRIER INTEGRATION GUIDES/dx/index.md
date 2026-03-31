@@ -48,44 +48,20 @@ Express is one of DX's core solutions that provides a fast and secure next-day d
     </Cards>
 
     <br />
-
-    > 📘 *Note*
-    >
-    > *Bear in mind that shipments to Channel Islands are treated as domestic destination for freight shipments.*
-
-    <br />
   </Tab>
 
   <Tab title="Additional Features">
-    <Accordion title="Single piece shipments" icon="">
-      DX Freight supports a maximum of 999 packages in a shipment, but the SAPIENT maximum—99 is used instead.
-    </Accordion>
+<Cards>
+    <Card title="Single piece shipments" icon="fa-solid fa-box">
+      DX Express supports only single-piece shipments. The integration does not support consignment or multipiece shipments.
+    </Card>
 
     <br />
 
-    <Accordion title="DX-1 service" icon="">
-      A 1-man service type that is typically deigned for door to door standard next-day delivery of parcels weighing up to a specific limit (50 kg) to the capability of effectively handling pallets. This service is usually best for smaller and lighter <Glossary>package</Glossary>s. 1Man service type includes the following services:
-
-      * **ON**: Overnight
-      * **3D**: 3Day
-      * 930: Overnight 9:30
-      * AM: Overnight pre noon
-      * SAT: Saturday
-      * S93: Saturday 9:30
-    </Accordion>
-
-    <br />
-
-    <Accordion title="DX-2 service" icon="">
-      A 2-man service type that caters to larger and heavier <Glossary>shipments</Glossary>, typically allowing for items that require 2-person handling due to their size or weight. This service is useful particularly for businesses that deal with bulky items or items that cannot be managed by one person. 2Man service type includes the following services:
-
-      * **H1**: 2Man Overnight
-      * **H2**: 2Man Standard
-      * **HS**: 2Man Saturday
-      * **C1**: 2Man Collection Overnight
-      * **C2**: 2Man Collection Standard
-      * **CS**: 2Man Saturday Only
-    </Accordion>
+    <Card title="Package types" icon="">
+      DX support their own <Glossary>package type</Glossary>s. You can look up for the packages types by calling the [Get Carrier Service Package Types](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services-servicecode-packagetypes#/) endpoint.
+    </Card>
+</Cards>
   </Tab>
 </Tabs>
 
