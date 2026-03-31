@@ -51,7 +51,7 @@ Express is one of DX's core solutions that provides a fast and secure next-day d
   </Tab>
 
   <Tab title="Additional Features">
-    <Cards columns={3}>
+    <Cards columns={1}>
       <Card title="Single piece shipments" icon="fa-solid fa-box">
         DX Express supports only single-piece shipments. The integration does not support consignment or multipiece shipments.
       </Card>
