@@ -56,6 +56,14 @@ To log in to the SAPIENT system, follow the instructions as explained in the fol
 
   <ToggleListItem title={<strong>3. Complete Multi-Factor Authentication (MFA) if enabled</strong>} icon="fa-rocket">
     <br />
+> 🚧 _Important_
+>
+> _Before completing the MFA process, bear in mind the following:_ 
+>
+> * _By default, the MFA is disabled for all customer accounts._ 
+> * _Only a Customer Administrator user with **Users Administrator** permission has the option to enable MFA for all users associated with the customer account._
+>
+>
 
     After selecting the **Sign in** option, if MFA has been enabled on your customer account, then the **Account Verification** dialog is displayed. Enter the necessary information as explained in the following table.
 
@@ -72,7 +80,7 @@ To log in to the SAPIENT system, follow the instructions as explained in the fol
 
     > 📘 *Note*
     >
-    > *If MFA is not enabled for your customer account or you have snoozed the MFA prompt, then upon selecting ![alt text](https://files.readme.io/a522617839d2732b679420b974b89ab2da5b49f109ab460847db877fff9de78c-Sign_in_button.png) the SAPIENT home page opens.*
+    > *If MFA is not enabled for your customer account or you have snoozed the MFA prompt, then upon selecting![alt text](https://files.readme.io/a522617839d2732b679420b974b89ab2da5b49f109ab460847db877fff9de78c-Sign_in_button.png) the SAPIENT home page opens.*
 
     ***
   </ToggleListItem>
@@ -100,4 +108,4 @@ On the application header of the home page, you can access additional account op
   </Card>
 </Cards>
 
-
+<br />
