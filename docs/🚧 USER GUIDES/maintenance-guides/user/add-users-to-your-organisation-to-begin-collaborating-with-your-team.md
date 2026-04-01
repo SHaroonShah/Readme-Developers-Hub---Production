@@ -35,7 +35,7 @@ Moreover, different roles and permissions improve security by restricting access
     To add a user in SAPIENT, perform the steps as explained in the following procedure:
 
     <ToggleList>
-      <ToggleListItem title={<strong>1. Access users page</strong>} icon="fa-rocket">
+      <ToggleListItem title={<strong>1. Navigate to the **Users** page</strong>} icon="fa-rocket">
         <br />
 
         In the left navigation panel, select **Users**.
