@@ -71,7 +71,7 @@ To enable MFA on SAPIENT, perform the steps as explained in the following proced
 ### See also
 
 <Cards>
-  <Card title="Log in to SAPIENT " href="#" icon="fa-rocket">
+  <Card title="Log in to SAPIENT " href="#" icon="fa-solid fa-arrow-left-to-bracket">
     New to our platform? Follow this guide to get started.
-</Card>
+  </Card>
 </Cards>
