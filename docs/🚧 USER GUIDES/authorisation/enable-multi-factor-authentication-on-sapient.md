@@ -20,7 +20,7 @@ The main benefits of MFA are enhanced security, including reduced risk of unauth
 
 ## How to enable MFA on SAPIENT
 
-To enable MFA on SAPIENT, perform the steps as explained in the following procedure:
+To enable MFA on SAPIENT, perform the steps as explained in the following procedure.
 
 > 🚧 _Important_
 >
