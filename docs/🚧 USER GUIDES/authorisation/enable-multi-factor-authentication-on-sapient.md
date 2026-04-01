@@ -34,7 +34,7 @@ To enable MFA on SAPIENT, perform the steps as explained in the following proced
   <ToggleListItem title="1. Navigate to the Users page">
     <br />
 
-    On the SAPIENT home page that opens, from the side navigation panel, Select \**Users*.
+    On the SAPIENT home page that opens, from the side navigation panel, Select **Users**.
 
         <Image align="center" border={true} src="https://files.readme.io/dda0e89b323a4d869472cc629a9fc0349403f8ba24930ac43a31a8f9a7542929-Users_option.png" alt="Accessing users" />\*\*\*
   </ToggleListItem>
@@ -56,8 +56,9 @@ To enable MFA on SAPIENT, perform the steps as explained in the following proced
   <ToggleListItem title="3. Confirm and enable">
     <br />
 
-    In the **Confirm MFA Change** dialog that opens, select ![alt text](https://files.readme.io/e05434f39e8b0ce5f7e90556e8dc2427d9451784597ab415e4329884781892aa-Confirm_button.png). <br />
+    In the **Confirm MFA Change** dialog that opens, select ![alt text](https://files.readme.io/e05434f39e8b0ce5f7e90556e8dc2427d9451784597ab415e4329884781892aa-Confirm_button.png).
 
-    <Image align="center" src="https://files.readme.io/fdaebb200bcd4068197f356e1436a610c75896305b865dec1b4f825c2215f17c-Confirming_MFA.png" />
+    <Image align="center" src="https://files.readme.io/fdaebb200bcd4068197f356e1436a610c75896305b865dec1b4f825c2215f17c-Confirming_MFA.png" /> <br />
+Once done, the MFA is enabled successfully for the user accounts associated with this customer account. 
   </ToggleListItem>
 </ToggleList>
