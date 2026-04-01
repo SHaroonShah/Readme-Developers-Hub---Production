@@ -1,7 +1,7 @@
 ---
 title: Handle invalid tracking numbers
 deprecated: false
-hidden: true
+hidden: false
 icon: fad fa-calendar-circle-exclamation
 metadata:
   robots: index
