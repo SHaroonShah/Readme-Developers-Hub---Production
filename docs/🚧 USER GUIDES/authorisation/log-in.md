@@ -66,7 +66,7 @@ To log in to the SAPIENT system, follow the instructions as explained in the fol
     ***
   </ToggleListItem>
 
-  <ToggleListItem title={<strong>3. Access the home page</strong>} icon="fa-rocket">
+  <ToggleListItem title={<strong>4. Access the home page</strong>} icon="fa-rocket">
     <br />
 
     Once clicked, the SAPIENT Home page opens. You can now start using the system and execute your workflows.
