@@ -58,7 +58,20 @@ To enable MFA on SAPIENT, perform the steps as explained in the following proced
 
     In the **Confirm MFA Change** dialog that opens, select ![alt text](https://files.readme.io/e05434f39e8b0ce5f7e90556e8dc2427d9451784597ab415e4329884781892aa-Confirm_button.png).
 
-    <Image align="center" src="https://files.readme.io/fdaebb200bcd4068197f356e1436a610c75896305b865dec1b4f825c2215f17c-Confirming_MFA.png" /> <br />
-Once done, the MFA is enabled successfully for the user accounts associated with this customer account. 
+    <Image align="center" src="https://files.readme.io/fdaebb200bcd4068197f356e1436a610c75896305b865dec1b4f825c2215f17c-Confirming_MFA.png" />
+
+    <br />
+
+    Once done, the MFA is enabled successfully for all user accounts associated with this customer account. Now, all the associated users with this customer account are required to complete a 2-step verification process to log in to the SAPIENT application.
   </ToggleListItem>
 </ToggleList>
+
+***
+
+### See also
+
+<Cards>
+  <Card title="Log in to SAPIENT " href="#" icon="fa-rocket">
+    New to our platform? Follow this guide to get started.
+</Card>
+</Cards>
