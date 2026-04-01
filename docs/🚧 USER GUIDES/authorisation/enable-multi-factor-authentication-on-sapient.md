@@ -64,7 +64,7 @@ To enable MFA on SAPIENT, perform the steps as explained in the following proced
 
     Once done, the MFA is enabled successfully for all user accounts associated with this customer account. Now, all the associated users with this customer account are required to complete a 2-step verification process to log in to the SAPIENT application.
 
-    ![](https://files.readme.io/bcd39a77c75203354cd8e0c7f4a1329d349a1b33d709f8c541b958129ea43465-image.png)
+    <Image align="center" src="https://files.readme.io/bcd39a77c75203354cd8e0c7f4a1329d349a1b33d709f8c541b958129ea43465-image.png" />
   </ToggleListItem>
 </ToggleList>
 
@@ -77,6 +77,8 @@ To enable MFA on SAPIENT, perform the steps as explained in the following proced
     Access your SAPIENT account with your credentials and by completing the MFA process (if enabled).
   </Card>
 </Cards>
+
+<br />
 
 
 
