@@ -53,6 +53,18 @@ To log in to the SAPIENT system, follow the instructions as explained in the fol
   </ToggleListItem>
 
   <br />
+ <ToggleListItem title={<strong>3. Complete Multi-Factor Authentication (MFA) if enabled</strong>} icon="fa-rocket">
+    <br />
+
+    After selecting the **Sign in** option, if MFA has been enabled on your customer account, then the **Account Verification* dialog is displayed. Enter the necessary information as explained in the following table. prompting you to enter the 6-digit code sent your email address associated with your SAPIENT account.
+| Element                          | Description                                                                                                                                        |
+| :------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Code**                         | Enter the 6-digit code sent your email address associated with your SAPIENT account.                                                               |
+| **Do not ask again for 14 days** | Select this link to snooze the MFA for 14 days, after which you are required to complete the MFA step again to login to the SAPIENT application.   |
+| **Send a new code**              | Select this link if you did not receive the verification code. This option will generate and send a new code to your registered email address.     |   
+
+    ***
+  </ToggleListItem>
 
   <ToggleListItem title={<strong>3. Access the home page</strong>} icon="fa-rocket">
     <br />
@@ -74,5 +86,7 @@ On the application header of the home page, you can access additional account op
     Learn how to exit the system securely.
   </Card>
 </Cards>
+
+
 
 <br />
