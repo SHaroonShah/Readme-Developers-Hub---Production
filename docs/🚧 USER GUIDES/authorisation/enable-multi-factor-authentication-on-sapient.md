@@ -5,7 +5,7 @@ excerpt: >-
   applications, whereby a system requires a user to present a combination of two
   or more credentials to verify their identity and login.
 deprecated: false
-hidden: true
+hidden: false
 icon: fad fa-user-shield
 metadata:
   robots: index
