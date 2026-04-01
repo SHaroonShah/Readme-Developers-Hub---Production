@@ -56,14 +56,14 @@ To log in to the SAPIENT system, follow the instructions as explained in the fol
 
   <ToggleListItem title={<strong>3. Complete Multi-Factor Authentication (MFA) if enabled</strong>} icon="fa-rocket">
     <br />
-> 🚧 _Important_
->
-> _Before completing the MFA process, bear in mind the following:_ 
->
-> * _By default, the MFA is disabled for all customer accounts._ 
-> * _Only a Customer Administrator user with **Users Administrator** permission has the option to enable MFA for all users associated with the customer account._
->
->
+
+    > 🚧 *Important*
+    >
+    > *Before completing the MFA process, bear in mind the following:*
+    >
+    > * *By default, the MFA is disabled for all customer accounts.*
+    >
+    > * *Only a Customer Administrator user with**Users Administrator** permission has the option to enable MFA for all users associated with the customer account.*
 
     After selecting the **Sign in** option, if MFA has been enabled on your customer account, then the **Account Verification** dialog is displayed. Enter the necessary information as explained in the following table.
 
@@ -98,14 +98,18 @@ To log in to the SAPIENT system, follow the instructions as explained in the fol
 
 On the application header of the home page, you can access additional account options by selecting the user profile icon:
 
-<Cards columns={2}>
+<Cards columns={3}>
   <Card title="Change Password" href="https://docs.intersoftsapient.net/v4.02/docs/change-password" icon="fa-solid fa-key">
     Learn how to update the password for enhanced security.
+  </Card>
+  <Card title="Reset Password" href="https://docs.intersoftsapient.net/docs/reset-password" icon="fa-solid fa-unlock">
+    Recover access when you have forgotten your password.
   </Card>
 
   <Card title="Log out" href="https://docs.intersoftsapient.net/v4.02/docs/log-out" icon="fa-solid fa-arrow-right-from-bracket">
     Learn how to exit the system securely.
   </Card>
+
 </Cards>
 
 <br />
