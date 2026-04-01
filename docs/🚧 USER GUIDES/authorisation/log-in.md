@@ -67,11 +67,12 @@ To log in to the SAPIENT system, follow the instructions as explained in the fol
     | **Do not ask again for 14 days** | Select this link to snooze the MFA for 14 days, after which you are required to complete the MFA step again to login to the SAPIENT application.                                 |
     | **Send a new code**              | Select this link if you did not receive the verification code. This option will generate and send a new code to your registered email address.                                   |
     | **Verify and sign in**           | Select ![alt text](https://files.readme.io/8a307af6c7ec1ced0489d4f630029434fe08a575de45b9bf835df17bf4eaec82-Verify_and_sign_in_button.png) to log in to the SAPIENT application. |
-    <br />
-> 📘 _Note_
->
-> _If MFA is not enabled for your customer account or you have snoozed the MFA prompt, then the SAPIENT home page opens._
 
+    <br />
+
+    > 📘 *Note*
+    >
+    > *If MFA is not enabled for your customer account or you have snoozed the MFA prompt, then upon selecting **Sign in** the SAPIENT home page opens.*
 
     ***
   </ToggleListItem>
