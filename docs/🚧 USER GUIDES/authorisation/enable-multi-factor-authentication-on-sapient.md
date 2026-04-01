@@ -32,10 +32,10 @@ To enable MFA on SAPIENT, perform the steps as explained in the following proced
 
 
 <ToggleList>
-  <ToggleListItem title="Navigate to the Users page">
-    
+  <ToggleListItem title="1. Navigate to the Users page">
+    On the SAPIENT home page that opens, from the side navigation panel, Select **Users*.
   </ToggleListItem>
-  <ToggleListItem title="What’s an owl’s favorite drink?">
+  <ToggleListItem title="2. What’s an owl’s favorite drink?">
     Hoot beer 🥤
   </ToggleListItem>
 </ToggleList>
