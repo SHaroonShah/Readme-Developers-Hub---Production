@@ -53,15 +53,19 @@ To log in to the SAPIENT system, follow the instructions as explained in the fol
   </ToggleListItem>
 
   <br />
- <ToggleListItem title={<strong>3. Complete Multi-Factor Authentication (MFA) if enabled</strong>} icon="fa-rocket">
+
+  <ToggleListItem title={<strong>3. Complete Multi-Factor Authentication (MFA) if enabled</strong>} icon="fa-rocket">
     <br />
 
-    After selecting the **Sign in** option, if MFA has been enabled on your customer account, then the **Account Verification* dialog is displayed. Enter the necessary information as explained in the following table. prompting you to enter the 6-digit code sent your email address associated with your SAPIENT account.
-| Element                          | Description                                                                                                                                        |
-| :------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Code**                         | Enter the 6-digit code sent your email address associated with your SAPIENT account.                                                               |
-| **Do not ask again for 14 days** | Select this link to snooze the MFA for 14 days, after which you are required to complete the MFA step again to login to the SAPIENT application.   |
-| **Send a new code**              | Select this link if you did not receive the verification code. This option will generate and send a new code to your registered email address.     |   
+    After selecting the **Sign in** option, if MFA has been enabled on your customer account, then the **Account Verification** dialog is displayed. Enter the necessary information as explained in the following table.
+
+<Image align="center" border={true} caption="Entering MFA code" src="https://files.readme.io/62cbde26119f29ee7a847236d4c2e41c06307a6ed5032fe3cd6ea45161adbe04-image.png" width="400px" />
+
+    | Element                          | Description                                                                                                                                      |
+    | :------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------- |
+    | **Code**                         | Enter the 6-digit code sent your email address associated with your SAPIENT account.                                                             |
+    | **Do not ask again for 14 days** | Select this link to snooze the MFA for 14 days, after which you are required to complete the MFA step again to login to the SAPIENT application. |
+    | **Send a new code**              | Select this link if you did not receive the verification code. This option will generate and send a new code to your registered email address.   |
 
     ***
   </ToggleListItem>
