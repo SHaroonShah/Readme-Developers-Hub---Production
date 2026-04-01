@@ -59,7 +59,7 @@ To log in to the SAPIENT system, follow the instructions as explained in the fol
 
     After selecting the **Sign in** option, if MFA has been enabled on your customer account, then the **Account Verification** dialog is displayed. Enter the necessary information as explained in the following table.
 
-    <Image align="center" caption="Entering MFA code" src="https://files.readme.io/aedd19ae14dc2acd5800c767d63962b0f8275f09b30b58156c2bf9165ac6744f-image.png" width="400px" />
+    <Image align="center" src="https://files.readme.io/aedd19ae14dc2acd5800c767d63962b0f8275f09b30b58156c2bf9165ac6744f-image.png" width="400px" />
 
     | Element                          | Description                                                                                                                                      |
     | :------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -68,7 +68,7 @@ To log in to the SAPIENT system, follow the instructions as explained in the fol
     | **Send a new code**              | Select this link if you did not receive the verification code. This option will generate and send a new code to your registered email address.   |
 
     ***
-  </ToggleListItem>
+  </ToggleListItem> <br />
 
   <ToggleListItem title={<strong>4. Access the home page</strong>} icon="fa-rocket">
     <br />
@@ -90,7 +90,5 @@ On the application header of the home page, you can access additional account op
     Learn how to exit the system securely.
   </Card>
 </Cards>
-
-
 
 <br />
