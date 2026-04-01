@@ -30,12 +30,17 @@ To enable MFA on SAPIENT, perform the steps as explained in the following proced
 >
 > * _Only a Customer Administrator user with**Users Administrator** permission has the option to enable MFA for all users associated with the customer account._
 
-
 <ToggleList>
-  <ToggleListItem title="1. Navigate to the Users page">
-    On the SAPIENT home page that opens, from the side navigation panel, Select **Users*.
+  <ToggleListItem title="1. Navigate to the Users page"> <br />
+    On the SAPIENT home page that opens, from the side navigation panel, Select \**Users*.
   </ToggleListItem>
-  <ToggleListItem title="2. What’s an owl’s favorite drink?">
-    Hoot beer 🥤
+
+  <ToggleListItem title="2. Enable MFA"> <br />
+    On the **Users** page that opens, at the top right corner, turn on the **Enable MFA for all Users** toggle.
+  </ToggleListItem>
+ <ToggleListItem title="3. Confirm and enable"> <br />
+    In the **Confirm MFA Change** dialog that opens, select ![alt text](https://files.readme.io/e05434f39e8b0ce5f7e90556e8dc2427d9451784597ab415e4329884781892aa-Confirm_button.png). <br />
   </ToggleListItem>
 </ToggleList>
+
+<br />
