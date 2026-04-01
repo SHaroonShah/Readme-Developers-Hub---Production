@@ -270,4 +270,6 @@ metadata:
   > *For more information on these updates, refer to the<Anchor label="An Post Create Shipment API swagger" target="_blank" href="https://docs.intersoftsapient.net/reference/post_v4-shipments-anpost">An Post Create Shipment API swagger</Anchor> documentation.*
 </Accordion>
 
-<br />
+<Accordion title="SAPIENT release notes - March 18, 2026" icon="">
+  
+</Accordion>
