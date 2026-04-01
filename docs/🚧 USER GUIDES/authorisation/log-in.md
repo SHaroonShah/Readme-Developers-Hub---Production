@@ -61,11 +61,12 @@ To log in to the SAPIENT system, follow the instructions as explained in the fol
 
     <Image align="center" src="https://files.readme.io/aedd19ae14dc2acd5800c767d63962b0f8275f09b30b58156c2bf9165ac6744f-image.png" width="400px" />
 
-    | Element                          | Description                                                                                                                                      |
-    | :------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------- |
-    | **Code**                         | Enter the 6-digit code sent your email address associated with your SAPIENT account.                                                             |
-    | **Do not ask again for 14 days** | Select this link to snooze the MFA for 14 days, after which you are required to complete the MFA step again to login to the SAPIENT application. |
-    | **Send a new code**              | Select this link if you did not receive the verification code. This option will generate and send a new code to your registered email address.   |
+| Element                          | Description                                                                                                                                                                      |
+| :------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Code**                         | Enter the 6-digit code sent your email address associated with your SAPIENT account.                                                                                             |
+| **Do not ask again for 14 days** | Select this link to snooze the MFA for 14 days, after which you are required to complete the MFA step again to login to the SAPIENT application.                                 |
+| **Send a new code**              | Select this link if you did not receive the verification code. This option will generate and send a new code to your registered email address.                                   |
+| **Verify and sign in**           | Select ![alt text](https://files.readme.io/8a307af6c7ec1ced0489d4f630029434fe08a575de45b9bf835df17bf4eaec82-Verify_and_sign_in_button.png) to log in to the SAPIENT application. |
 
     ***
   </ToggleListItem> <br />
@@ -92,3 +93,5 @@ On the application header of the home page, you can access additional account op
 </Cards>
 
 <br />
+
+
