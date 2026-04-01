@@ -73,7 +73,7 @@ To log in to the SAPIENT system, follow the instructions as explained in the fol
   <ToggleListItem title={<strong>4. Access the home page</strong>} icon="fa-rocket">
     <br />
 
-    Once the MFA process has been successfully complted, the SAPIENT Home page opens. You can now start using the system and execute your workflows.
+    Once the MFA process has been successfully completed, the SAPIENT Home page opens. You can now start using the system and execute your workflows.
   </ToggleListItem>
 </ToggleList>
 
