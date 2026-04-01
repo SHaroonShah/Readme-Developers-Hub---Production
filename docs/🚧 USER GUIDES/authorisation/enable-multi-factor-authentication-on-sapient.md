@@ -28,7 +28,7 @@ To enable MFA on SAPIENT, perform the steps as explained in the following proced
 >
 > * _By default, the MFA is disabled for all customer accounts._
 >
-> * _Only a Customer Administrator user with**Users Administrator** permission has the option to enable MFA for all users associated with the customer account._
+> * _Only a Customer Administrator user with the **Users Administrator** permission has the option to enable MFA for all users associated with the customer account._
 
 <ToggleList>
   <ToggleListItem title="1. Navigate to the Users page">
