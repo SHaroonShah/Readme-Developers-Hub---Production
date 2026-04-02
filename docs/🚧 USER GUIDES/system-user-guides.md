@@ -51,14 +51,15 @@ metadata:
 ***
 
 <HTMLBlock>{`
-<video
-  controls
-  width="100%"
-  preload="metadata"
-  style="border-radius:8px">
-  <source src="https://www.dropbox.com/scl/fi/r6zyzmclrnnlg6lecglme/Intersoft-Delivery-Journey.mp4?rlkey=kr1nxfnbvznfjmzd2x7km0equ&st=6upu782s&dl=0" type="video/mp4" />
-  Your browser does not support the video tag.
-</video>
+<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
+  <iframe
+    src="https://player.vimeo.com/video/VIDEO_ID"
+    frameborder="0"
+    allow="autoplay; fullscreen; picture-in-picture"
+    allowfullscreen
+    style="position:absolute;top:0;left:0;width:100%;height:100%;">
+  </iframe>
+</div>
 `}</HTMLBlock>
 
 <br />
