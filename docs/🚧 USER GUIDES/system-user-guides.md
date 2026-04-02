@@ -50,8 +50,11 @@ metadata:
 
 ***
 
-<br />
-
+<HTMLBlock>{`
 <video controls width="100%" preload="metadata" playsInline style={{ borderRadius: '8px' }}>
   [https://www.dropbox.com/scl/fi/r6zyzmclrnnlg6lecglme/Intersoft-Delivery-Journey.mp4?raw=1](https://www.dropbox.com/scl/fi/r6zyzmclrnnlg6lecglme/Intersoft-Delivery-Journey.mp4?raw=1)
 </video>
+`}</HTMLBlock>
+
+<br />
+
