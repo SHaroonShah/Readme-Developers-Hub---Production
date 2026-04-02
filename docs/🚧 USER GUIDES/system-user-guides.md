@@ -50,8 +50,6 @@ metadata:
 
 ***
 
-Watch the video below:
-
 <HTMLBlock>{`
 <iframe width="560" height="315" 
 src="https://intersoftprogramming.s3.eu-north-1.amazonaws.com/Intersoft+Delivery+Journey.mp4" 
