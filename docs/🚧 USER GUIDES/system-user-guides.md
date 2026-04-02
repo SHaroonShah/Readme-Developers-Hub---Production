@@ -54,7 +54,6 @@ metadata:
 <video
   controls
        width="100%"
-autoplay="false"
 
   preload="metadata"
   style="border-radius:8px">
