@@ -24,7 +24,7 @@ To enable MFA on SAPIENT, perform the steps as explained in the following proced
 
 > 🚧 _Important_
 >
-> _Before enabling the MFA process, bear in mind the following:_
+> _Before enabling MFA on SAPIENT, bear in mind the following:_
 >
 > * _By default, the MFA is disabled for all customer accounts._
 >
@@ -79,7 +79,5 @@ To enable MFA on SAPIENT, perform the steps as explained in the following proced
 </Cards>
 
 <br />
-
-
 
 <br />
