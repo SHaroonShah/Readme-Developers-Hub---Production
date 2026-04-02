@@ -56,7 +56,7 @@ metadata:
   width="100%"
   preload="metadata"
   style="border-radius:8px">
-  <source src="https://your-cdn.com/demo.mp4" type="video/mp4" />
+  <source src="https://www.dropbox.com/scl/fi/r6zyzmclrnnlg6lecglme/Intersoft-Delivery-Journey.mp4?rlkey=kr1nxfnbvznfjmzd2x7km0equ&st=6upu782s&dl=0" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 `}</HTMLBlock>
