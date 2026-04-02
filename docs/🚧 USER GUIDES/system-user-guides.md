@@ -53,7 +53,7 @@ metadata:
 <HTMLBlock>{`
 <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
   <iframe
-    src="https://www.dropbox.com/scl/fi/r6zyzmclrnnlg6lecglme/Intersoft-Delivery-Journey.mp4?rlkey=kr1nxfnbvznfjmzd2x7km0equ&st=6upu782s&dl=0"
+    src="https://www.youtube.com/embed/dRXjlsBpMas"
     frameborder="0"
     allow="autoplay; fullscreen; picture-in-picture"
     allowfullscreen
