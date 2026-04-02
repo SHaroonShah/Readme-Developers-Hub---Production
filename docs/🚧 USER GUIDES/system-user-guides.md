@@ -50,16 +50,8 @@ metadata:
 
 ***
 
-<HTMLBlock>{`
-<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
-  <iframe
-    src="https://www.dropbox.com/scl/fi/r6zyzmclrnnlg6lecglme/Intersoft-Delivery-Journey.mp4?raw=1"
-    frameborder="0"
-    allow="autoplay; fullscreen; picture-in-picture"
-    allowfullscreen
-    style="position:absolute;top:0;left:0;width:100%;height:100%;">
-  </iframe>
-</div>
-`}</HTMLBlock>
-
 <br />
+
+<video controls width="100%" preload="metadata" playsInline style={{ borderRadius: '8px' }}>
+  [https://www.dropbox.com/scl/fi/r6zyzmclrnnlg6lecglme/Intersoft-Delivery-Journey.mp4?raw=1](https://www.dropbox.com/scl/fi/r6zyzmclrnnlg6lecglme/Intersoft-Delivery-Journey.mp4?raw=1)
+</video>
