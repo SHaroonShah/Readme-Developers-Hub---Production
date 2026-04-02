@@ -50,18 +50,6 @@ metadata:
 
 ***
 
-<HTMLBlock>{`
-<video
-  controls
-       width="100%"
-
-  preload="metadata"
-  style="border-radius:8px">
-  <source src="https://www.youtube.com/watch?v=dRXjlsBpMas" type="video/mp4" />
-  Your browser does not support the video tag.
-</video>
-`}</HTMLBlock>
-
 <br />
 
 <br />
