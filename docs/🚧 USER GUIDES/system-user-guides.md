@@ -57,7 +57,7 @@ metadata:
 
   preload="metadata"
   style="border-radius:8px">
-  <source src="https://your-cdn.com/demo.mp4" type="video/mp4" />
+  <source src="https://www.youtube.com/watch?v=dRXjlsBpMas" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 `}</HTMLBlock>
