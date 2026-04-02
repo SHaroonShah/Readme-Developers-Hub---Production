@@ -49,3 +49,9 @@ metadata:
 </Cards>
 
 ***
+
+<HTMLBlock>{`
+<iframe width="560" height="315" src="" title="YouTube video player" frameborder="solid" allow="accelerometer" autoplay="false; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true" />
+`}</HTMLBlock>
+
+<br />
