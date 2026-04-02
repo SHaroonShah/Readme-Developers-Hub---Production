@@ -49,7 +49,3 @@ metadata:
 </Cards>
 
 ***
-
-<br />
-
-<br />
