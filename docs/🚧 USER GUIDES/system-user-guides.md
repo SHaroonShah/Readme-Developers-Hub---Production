@@ -53,23 +53,14 @@ metadata:
 <HTMLBlock>{`
 <video
   controls
-  width="100%"
+       width="100%"
+autoplay="false"
+
   preload="metadata"
   style="border-radius:8px">
   <source src="https://your-cdn.com/demo.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
-`}</HTMLBlock>
-
-<HTMLBlock>{`
-<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
-  <iframe
-    src="https://www.youtube.com/embed/VIDEO_ID"
-    title="API Overview Video"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen
-    s
 `}</HTMLBlock>
 
 <br />
