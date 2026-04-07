@@ -54,7 +54,7 @@ This integration represents a significant step towards optimising shipping funct
     </Cards>
   </Tab>
 
-  <Tab title="Other features">
+  <Tab title="Additional features">
     <Cards columns={2}>
       <Card title="Single Piece shipments" icon="fa-solid fa-box">
         Support for single shipments is included in the integration, allowing users to send single shipment. However, users can create multiple single shipments via a single API call.
@@ -117,7 +117,7 @@ This integration represents a significant step towards optimising shipping funct
     </Accordion>
   </Tab>
 
-  <Tab title="Advanced Services">
+  <Tab title="Other Services">
     <Accordion title="Print Label" icon="print">
       Generate and return the label for the Royal Mail shipment. This endpoint must be utilised when the label is not generated in the Royal Mail Create Shipment request.
 
