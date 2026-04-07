@@ -126,6 +126,7 @@ This integration represents a significant step towards optimising shipping funct
 
     <Accordion title="Manifest Webhook" icon="map-marked-alt">
       Keep track of shipments and their statuses by to receiving real-time updates or notifications whenever specific events occur in the system (such as shipping updates, status changes, and so on) via the SAPIENT manifest webhook feature.
+
     </Accordion>
 
   </Tab>
@@ -245,3 +246,13 @@ This integration represents a significant step towards optimising shipping funct
 </Cards>
 
 <br />
+
+> 🚧 _Important_
+>
+> _You can manifest the shipments using any of the following parameters:_
+
+* _Shipping location_
+* _Shipping account_
+* _Shipment status (Picked)_
+* _Service code_
+* _Container_
