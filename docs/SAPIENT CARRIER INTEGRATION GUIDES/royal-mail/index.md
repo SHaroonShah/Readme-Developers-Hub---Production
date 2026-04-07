@@ -125,12 +125,9 @@ This integration represents a significant step towards optimising shipping funct
     <br />
 
     <Accordion title="Manifest Webhook" icon="map-marked-alt">
-      Retrieves a list of Pick-Up and Drop-Off (PUDO) locations associated with a specified carriers that are within a set radius of the postcode provided in the request. That radius is set to 10 Miles / 16.09 Kilometres.
-
-      > 🚧 *Important*
-      >
-      > *This endpoint must be called before the**Create Shipment** endpoint so that the desired PUDO location is selected in the Create Shipment request.*
+      Keep track of shipments and their statuses by to receiving real-time updates or notifications whenever specific events occur in the system (such as shipping updates, status changes, and so on) via the SAPIENT manifest webhook feature.
     </Accordion>
+
   </Tab>
 
   <Tab title="Other Services">
