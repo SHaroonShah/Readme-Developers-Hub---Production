@@ -112,9 +112,18 @@ This integration represents a significant step towards optimising shipping funct
 
     <br />
 
-    <Accordion title="Pre Allocate Tracking Number" icon="hashtag">
-      Receive a Royal Mail Tracking Number that will be pre-allocated to the service and destination supplied in the request. No shipment or label will be produced using this endpoint. This endpoint can only be used for services that are assigned a tracking number.
+    <Accordion title="Print My Label QR Code" icon="qrcode">
+      Generate an easy-to-scan QR code for the associated label specified in the **PrintLabel** API endpoint. This endpoint can only be used for Royal Mail Tracked Return services.
     </Accordion>
+    <br />
+  <Accordion title="PUDO Locations" icon="map-marked-alt">
+      Retrieves a list of Pick-Up and Drop-Off (PUDO) locations associated with a specified carriers that are within a set radius of the postcode provided in the request. That radius is set to 10 Miles / 16.09 Kilometres.
+
+      > 🚧 *Important*
+      >
+      > *This endpoint must be called before the**Create Shipment** endpoint so that the desired PUDO location is selected in the Create Shipment request.*
+    </Accordion>
+
   </Tab>
 
   <Tab title="Other Services">
@@ -127,25 +136,15 @@ This integration represents a significant step towards optimising shipping funct
     </Accordion>
 
     <br />
-
-    <Accordion title="Print My Label QR Code" icon="qrcode">
-      Generate an easy-to-scan QR code for the associated label specified in the **PrintLabel** API endpoint. This endpoint can only be used for Royal Mail Tracked Return services.
+ <Accordion title="Pre Allocate Tracking Number" icon="hashtag">
+      Receive a Royal Mail Tracking Number that will be pre-allocated to the service and destination supplied in the request. No shipment or label will be produced using this endpoint. This endpoint can only be used for services that are assigned a tracking number.
     </Accordion>
+    
 
     <br />
 
     <Accordion title="Offline Barcoding" icon="barcode">
       Request a specific range of barcodes for use in your shipping processes. Offline Barcoding is only available if it has been activated on your customer account in the GUI.
-    </Accordion>
-
-    <br />
-
-    <Accordion title="PUDO Locations" icon="map-marked-alt">
-      Retrieves a list of Pick-Up and Drop-Off (PUDO) locations associated with a specified carriers that are within a set radius of the postcode provided in the request. That radius is set to 10 Miles / 16.09 Kilometres.
-
-      > 🚧 *Important*
-      >
-      > *This endpoint must be called before the**Create Shipment** endpoint so that the desired PUDO location is selected in the Create Shipment request.*
     </Accordion>
 
     <br />
