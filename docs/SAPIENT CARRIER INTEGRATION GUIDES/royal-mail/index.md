@@ -54,7 +54,7 @@ This integration represents a significant step towards optimising shipping funct
     </Cards>
   </Tab>
 
-  <Tab title="Additional Features">
+  <Tab title="Other features">
     <Cards columns={2}>
       <Card title="Single Piece shipments" icon="fa-solid fa-box">
         Support for single shipments is included in the integration, allowing users to send single shipment. However, users can create multiple single shipments via a single API call.
