@@ -118,14 +118,14 @@ This integration represents a significant step towards optimising shipping funct
 
     <br />
 
-    <Accordion title="Tracking" icon="qrcode">
+    <Accordion title="Trackings" icon="qrcode">
       Register up to 1000 tracking numbers in a single API request and get real-time updates on your Royal Mail shipments.
     </Accordion>
 
     <br />
 
     <Accordion title="Manifest Webhook" icon="map-marked-alt">
-      Keep track of shipments and their statuses by to receiving real-time updates or notifications whenever specific events occur in the system (such as shipping updates, status changes, and so on) via the SAPIENT manifest webhook feature.
+      Keep track of shipments and their statuses by to receiving real-time updates or notifications whenever specific events occur in the system (such as shipping updates, status changes, and so on) via the SAPIENT Manifest Webhook feature.
 
       > 🚧 *Important*
       >
