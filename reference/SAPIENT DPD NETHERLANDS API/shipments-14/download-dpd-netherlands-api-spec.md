@@ -6,4 +6,4 @@ icon: fad fa-down-to-line
 metadata:
   robots: index
 ---
-<DownloadOASButton url="https://docs.intersoftsapient.net/openapi/sapient-dpd-uk.json" />
+<DownloadOASButton url="https://docs.intersoftsapient.net/openapi/sapient-dpd-netherlands-api.json" />
