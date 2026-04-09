@@ -373,14 +373,14 @@
                       "TrackingNumber": "TT000000005GB",
                       "BarcodeNumber": "4C0069786000000000B1F",
                       "Reference1": "OrderRef56",
-                      "ShipmentDate": "2026-03-18",
+                      "ShipmentDate": "2026-04-09",
                       "Status": "Created",
                       "ManifestNumber": "ISH2802532",
                       "ContainerId": "South East 1234",
                       "Carrier": "RM",
                       "DestinationCountryCode": "GB",
                       "LastUpdatedBy": "User A",
-                      "LastUpdatedDateUtc": "2026-03-18T09:29:47.193Z"
+                      "LastUpdatedDateUtc": "2026-04-09T08:06:29.524Z"
                     },
                     {
                       "ShippingAccountId": "310d6beb-ae36-40e7-918f-f92100c1719d",
@@ -388,14 +388,14 @@
                       "TrackingNumber": "",
                       "BarcodeNumber": "",
                       "Reference1": "OrderRef57",
-                      "ShipmentDate": "2026-03-18",
+                      "ShipmentDate": "2026-04-09",
                       "Status": "LabelPrinted",
                       "ManifestNumber": "",
                       "ContainerId": "",
                       "Carrier": "RM",
                       "DestinationCountryCode": "GB",
                       "LastUpdatedBy": "User B",
-                      "LastUpdatedDateUtc": "2026-03-18T09:29:47.193Z"
+                      "LastUpdatedDateUtc": "2026-04-09T08:06:29.524Z"
                     }
                   ],
                   "TotalCount": 2
@@ -724,11 +724,11 @@
               "example": [
                 {
                   "ShipmentId": "AD123456783GB",
-                  "ShipmentDate": "2026-03-23"
+                  "ShipmentDate": "2026-04-14"
                 },
                 {
                   "ShipmentId": "e3239e85-ddf8-4323-9064-b83c38eff927",
-                  "ShipmentDate": "2026-03-28"
+                  "ShipmentDate": "2026-04-19"
                 }
               ]
             }
@@ -1417,7 +1417,7 @@
                     {
                       "ContainerId": "South East",
                       "ContainerStatus": "Manifested",
-                      "CreatedDateUtc": "2026-03-18T09:29:42.396Z",
+                      "CreatedDateUtc": "2026-04-09T08:06:26.236Z",
                       "ShippingLocationId": "93f6d928-9456-434a-9d69-60f3b7dea091",
                       "ShippingLocationAlias": "Northern Warehouse",
                       "TotalWeight": 12,
@@ -1428,7 +1428,7 @@
                     {
                       "ContainerId": "South West",
                       "ContainerStatus": "Active",
-                      "CreatedDateUtc": "2026-03-17T09:29:42.396Z",
+                      "CreatedDateUtc": "2026-04-08T08:06:26.236Z",
                       "ShippingLocationId": "93f6d928-9456-434a-9d69-60f3b7dea091",
                       "ShippingLocationAlias": "Northern Warehouse",
                       "TotalWeight": 14,
@@ -1587,7 +1587,7 @@
                     "value": {
                       "ContainerId": "South East",
                       "ContainerStatus": "Active",
-                      "CreatedDateUtc": "2026-03-18T09:29:42.613Z",
+                      "CreatedDateUtc": "2026-04-09T08:06:26.443Z",
                       "CarrierCode": "RM",
                       "ShippingLocationId": "93f6d928-9456-434a-9d69-60f3b7dea091",
                       "ShippingLocationAlias": "Northern Warehouse",
@@ -1604,7 +1604,7 @@
                       "ManifestNumbers": [
                         "COS0000016"
                       ],
-                      "CreatedDateUtc": "2026-03-18T09:29:42.614Z",
+                      "CreatedDateUtc": "2026-04-09T08:06:26.443Z",
                       "CarrierCode": "RM",
                       "ShippingLocationId": "93f6d928-9456-434a-9d69-60f3b7dea091",
                       "ShippingLocationAlias": "Northern Warehouse",
@@ -1986,7 +1986,7 @@
                           "OriginalExportCode": "61091090001"
                         }
                       ],
-                      "GeneratedDate": "2026-03-18T09:29:43.128Z"
+                      "GeneratedDate": "2026-04-09T08:06:27.003Z"
                     }
                   },
                   "Incorrect HSCode": {
@@ -2008,7 +2008,7 @@
                           "OriginalExportCode": "61091090001"
                         }
                       ],
-                      "GeneratedDate": "2026-03-18T09:29:43.128Z"
+                      "GeneratedDate": "2026-04-09T08:06:27.003Z"
                     }
                   }
                 }
@@ -2203,7 +2203,7 @@
                   ],
                   "IsError": false,
                   "Notes": "<taxBreakdown><city><rate>0</rate><value>0</value></city><special><rate>0</rate><value>0</value></special><county><rate>0</rate><value>0</value></county><state><rate>0.06625</rate><value>0</value></state></taxBreakdown>",
-                  "GeneratedDate": "2026-03-18T09:29:44.201Z"
+                  "GeneratedDate": "2026-04-09T08:06:27.529Z"
                 }
               }
             }
@@ -2341,7 +2341,7 @@
                       "IsError": false,
                       "ErrorDescription": "",
                       "Notes": "",
-                      "GeneratedDate": "2026-03-18T09:29:44.512Z"
+                      "GeneratedDate": "2026-04-09T08:06:27.808Z"
                     }
                   },
                   "Prohibited Item": {
@@ -2362,7 +2362,7 @@
                       "IsError": true,
                       "ErrorDescription": "The item amaranth is prohibited",
                       "Notes": "",
-                      "GeneratedDate": "2026-03-18T09:29:44.512Z"
+                      "GeneratedDate": "2026-04-09T08:06:27.808Z"
                     }
                   }
                 }
@@ -2434,44 +2434,44 @@
               "examples": {
                 "Manifest by Shipping Account": {
                   "value": {
-                    "ShippingLocationId": "7cbc6180-539d-46d6-bf4d-7f95566441bd",
-                    "ShippingAccountId": "e060e482-1cf3-4e97-aee4-c5fb29bbf957",
+                    "ShippingLocationId": "2b39babb-fb5c-4e82-af00-545736253d0a",
+                    "ShippingAccountId": "f62fdeff-e7fa-42ca-ac6e-bcf270d66043",
                     "Async": false
                   }
                 },
                 "Manifest by Shipping Account in the background": {
                   "value": {
-                    "ShippingLocationId": "b519dd34-fc0d-4a99-93e2-77c508b28f05",
-                    "ShippingAccountId": "ccc920b8-802a-472f-b162-2cc549838182",
+                    "ShippingLocationId": "74aa9953-d462-41a8-bbe9-62b44f2ecca0",
+                    "ShippingAccountId": "bf3f8c41-c8d3-420a-b60a-5f2f4ad1fa51",
                     "Async": true
                   }
                 },
                 "Manifest by Service": {
                   "value": {
-                    "ShippingLocationId": "b9640578-44c5-4911-9f6d-b0bc6c053799",
+                    "ShippingLocationId": "90f08e88-3b3d-461f-8c44-c9ef069d6be8",
                     "ServiceCode": "EXPRESS",
                     "Async": false
                   }
                 },
                 "Manifest by Service for Shipping Account Only": {
                   "value": {
-                    "ShippingLocationId": "d971d0af-1541-4278-b782-2cd403ff9c48",
-                    "ShippingAccountId": "c6e1d67b-32eb-4961-aa33-7db9ec0c912e",
+                    "ShippingLocationId": "ac8cabd1-53df-4b4a-b7a3-33fc13d15bad",
+                    "ShippingAccountId": "4e3be458-cf19-4a08-9cbb-c600b3a9737e",
                     "ServiceCode": "EXPRESS",
                     "Async": false
                   }
                 },
                 "Manifest by Status": {
                   "value": {
-                    "ShippingLocationId": "b4de6e58-b9db-413a-816c-fb8d0681f168",
+                    "ShippingLocationId": "0c3eb9ad-1abe-4c01-aad1-7a8f079a97e1",
                     "Status": "Picked",
                     "Async": false
                   }
                 },
                 "Manifest by Container": {
                   "value": {
-                    "ShippingLocationId": "04df9336-12e3-46e9-9506-665c6efcf95b",
-                    "ContainerId": "5696510d-010e-4385-b459-2e77647fd082",
+                    "ShippingLocationId": "4db75b97-b68c-43b4-a61b-753a885007d6",
+                    "ContainerId": "3eb7cbf1-c455-4575-98d3-3b2e2463cbeb",
                     "Async": false
                   }
                 }
@@ -2841,16 +2841,16 @@
                           "WeightUnitOfMeasure": "KG",
                           "TotalShipments": 1,
                           "TotalItems": 1,
-                          "ManifestDate": "2026-03-18",
-                          "CreatedDateUtc": "2026-03-18T09:29:45.110Z",
+                          "ManifestDate": "2026-04-09",
+                          "CreatedDateUtc": "2026-04-09T08:06:28.241Z",
                           "ShippingLocation": {
-                            "ShippingLocationId": "8cf6f955-af7a-4cd1-9668-a4af39e9ba64",
+                            "ShippingLocationId": "06583b6c-ee44-43a1-9afd-b7db62cc85fa",
                             "LocationAlias": "London",
                             "LocationCountry": "GB",
                             "LocationPostcode": "TW20 0HJ"
                           },
                           "ShippingAccount": {
-                            "ShippingAccountId": "d0f82656-758a-4933-8c5d-bf3045f7ab86",
+                            "ShippingAccountId": "9446dfe5-2d78-4839-a067-5b79423597ff",
                             "AccountName": "AccountName",
                             "AccountAlias": "Test",
                             "AccountNumber": "1234567890"
@@ -3016,12 +3016,12 @@
           "Products"
         ],
         "summary": "Get Products",
-        "description": "Provides a list of all products set up on the system.",
+        "description": "Retrieves a list of products within the system that are available for shipping. With this endpoint, you can search for specific products based on various criteria and that provides relevant product details in the response. It is essential for inventory management, order processing, and logistics planning.",
         "parameters": [
           {
             "name": "searchTerm",
             "in": "query",
-            "description": "Search Term",
+            "description": "A string representing the term or keywords used to filter the search results for the products. This parameter helps you find specific products by name, SKU, or other relevant features.",
             "schema": {
               "type": "string"
             }
@@ -3029,7 +3029,7 @@
           {
             "name": "pageSize",
             "in": "query",
-            "description": "The maximum number of records per page.",
+            "description": "An integer that defines the number of product records returned per page in the response. For instance, if **pageSize** is set to 20, the API will return up to 20 products in each response.<br><br>***Note**: By default, this field is set to 100.*</br></br>",
             "schema": {
               "maximum": 2147483647,
               "minimum": 1,
@@ -3041,7 +3041,7 @@
           {
             "name": "pageNumber",
             "in": "query",
-            "description": "The number of the requested page, starting at 1.",
+            "description": "An integer indicating the specific page of results to retrieve, allowing for pagination of larger datasets. For example, if **pageNumber** is set to 3, the API will return the results corresponding to the third page of products based on the specified **pageSize**.<br><br>***Note**: By default, this field is set to 1.*</br></br>",
             "schema": {
               "maximum": 2147483647,
               "minimum": 1,
@@ -3053,7 +3053,7 @@
           {
             "name": "sortBy",
             "in": "query",
-            "description": "Sort By\r<br />Default: Description",
+            "description": "A string specifying the field by which to organise the search results. For instance, \"Weight\" could be used to sort products on weight values, arranging the results in a more user-friendly order.<br><br>***Note**: By default, this field is set to Description.*</br></br>",
             "schema": {
               "$ref": "#/components/schemas/ProductsSortBy"
             }
@@ -3061,7 +3061,7 @@
           {
             "name": "sortDir",
             "in": "query",
-            "description": "Sort Direction\r<br />Default: Ascending",
+            "description": "A string indicating the direction in which to sort the results, typically set to \"ascending\" or \"descending.\" For example, setting **sortDir** to \"Ascending\" while using \"Weight\" as **sortBy** would arrange the products from lower to higher weight values.<br><br>***Note**: By default, this field is set to Ascending.*</br></br>",
             "schema": {
               "$ref": "#/components/schemas/OrderDirection"
             }
@@ -3093,13 +3093,13 @@
                         "properties": {
                           "LastUpdatedDateUtc": {
                             "type": "string",
-                            "description": "Last Updated Date UTC",
+                            "description": "A timestamp in Coordinated Universal Time (UTC) indicating when the product details were last updated. This helps users understand the recency of the product information.",
                             "format": "date-time",
                             "example": "2022-02-06T16:13:24.010Z"
                           },
                           "LastUpdatedBy": {
                             "type": "string",
-                            "description": "Last Updated By",
+                            "description": "The identifier of the user or system that last modified the product details, ensuring accountability and traceability for updates.",
                             "nullable": true,
                             "example": "User A"
                           },
@@ -3107,21 +3107,21 @@
                             "maxLength": 30,
                             "minLength": 1,
                             "type": "string",
-                            "description": "Product SKU\r<br />Stock Keeping Unit Number.",
+                            "description": "A unique Stock Keeping Unit (SKU) code assigned to the product. This code is essential for tracking inventory, helping users identify specific products easily.",
                             "example": "SKU123"
                           },
                           "Description": {
                             "maxLength": 255,
                             "minLength": 1,
                             "type": "string",
-                            "description": "Product Description",
+                            "description": "A brief summary providing details about the product, outlining its features, uses, and any pertinent information that helps users understand the product.\r<br />\r<br />***Note**: If you use the data of the stored product in your create shipment requests, then this description will be used as the item description for customs purposes, detailing the specific item being shipped.*",
                             "example": "White Men Large T-shirt"
                           },
                           "Value": {
                             "maximum": 9999999.99,
                             "minimum": 0.01,
                             "type": "number",
-                            "description": "Product Value\r<br />The value of an individual product.",
+                            "description": "The commercial value of the product. This field is important for inventory valuation and pricing strategies.",
                             "format": "double",
                             "example": 19.99
                           },
@@ -3130,14 +3130,14 @@
                             "minimum": 0.001,
                             "minLength": 1,
                             "type": "string",
-                            "description": "Weight\r<br />The weight of an individual product in the unit of measure specified by WeightUnitOfMeasure (defaults to KG).\r<br />            \r<br />Required for dutiable shipments.\r<br />The minimum weight allowed is 1 gram(for dutiable shipments only).\r<br />The maximum weight allowed is 1000 KG.",
+                            "description": "The weight of the individual product in the unit of measure specified in the **WeightUnitOfMeasure** field.",
                             "example": "0.5"
                           },
                           "HSCode": {
                             "maxLength": 13,
                             "minLength": 6,
                             "type": "string",
-                            "description": "HS Code\r<br />The Harmonized Commodity Description and Coding System Code.\r<br />At minimum, the 6 alpha numeric code is required when the HS Code is provided (some services/destinations may require 8).\r<br />Up to a 13 digit alpha numeric code can be used.\r<br />Dots and spaces in your code are also allowed.\r<br />Used by Customs to calculate potential duties / taxes.\r<br />            \r<br />Required by some carriers for dutiable shipments.",
+                            "description": "The Harmonized System (HS) code used by customs to determine potential duties and taxes for the product. This code can be 6, 8, or 13 alphanumeric characters, depending on specific services or destinations. Some countries may also use the HS codes of other character lengths, such as 10 characters.",
                             "nullable": true,
                             "example": "6109100010"
                           },
@@ -3145,7 +3145,7 @@
                             "maxLength": 2,
                             "minLength": 2,
                             "type": "string",
-                            "description": "Country of Origin / Manufacture\r<br />ISO Alpha-2 Country Code\r<br />            \r<br />Required by some carriers for dutiable shipments.",
+                            "description": "An abbreviation representing the country where the product was manufactured or produced, following the ISO 3166-1 alpha-2 standard, for example, \"GB\" for the United Kingdom. This information is important for customs declarations and compliance with import/export regulations.",
                             "nullable": true,
                             "example": "GB"
                           },
@@ -3153,7 +3153,7 @@
                             "maxLength": 3,
                             "minLength": 3,
                             "type": "string",
-                            "description": "Currency Code\r<br />The currency code used for any monetary value related to the shipment.\r<br />3 letter ISO Currency Code\r<br />            \r<br />*Required if any monetary values other than zero are provided.*",
+                            "description": "An abbreviation representing the 3 letter ISO currency code in which the product's **Value** is expressed (for example, \"GBP\" for British pounds, \"EUR\" for euros). This is essential for financial transactions and international trade.",
                             "example": "GBP"
                           },
                           "WeightUnitOfMeasure": {
@@ -3162,7 +3162,7 @@
                               "Grams"
                             ],
                             "type": "string",
-                            "description": " The unit of measure used for all weight values in the shipment, expressed in grams and kilograms, for example, **DeclaredWeight**, **ItemWeight**. This is crucial for accurately describing shipment weight.\r<br /> \r<br />***Note:** By default, this field is set to KG.*"
+                            "description": "The unit of measurement for the weight provided, such as the product's **Weight**, indicating whether the weight is specified in kilograms (KG) or grams (G), ensuring clarity for shipping calculations."
                           },
                           "Hazmat": {
                             "required": [
@@ -3181,7 +3181,7 @@
                               "ProperShippingName": {
                                 "maxLength": 100,
                                 "type": "string",
-                                "description": "Proper Shipping Name of the hazardous item being shipped.",
+                                "description": "The official name designated for the hazardous material as required by regulations. This name is used to inform handlers of the nature of the hazard during transport.",
                                 "nullable": true,
                                 "example": "Compressed Air"
                               },
@@ -3189,19 +3189,19 @@
                                 "maxLength": 3,
                                 "minLength": 1,
                                 "type": "string",
-                                "description": "Mandatory if Hazmat information is provided. Used to provide the class number of the hazardous item being shipped.",
+                                "description": "The class number of the hazardous material as per UN regulations, indicating the potential risk associated with the product.",
                                 "example": "9"
                               },
                               "Id8000Category": {
                                 "type": "string",
-                                "description": "If the hazardous goods class is 9, an applicable ID8000 category is required. \r<br />If ID8000 category is provided with any hazardous goods class other than class 9, it will be ignored.\r<br />Available values are:\r<br />- Medicines\r<br />- Perfume/Aftershave\r<br />- Nail Varnish\r<br />- Toiletry or Medicinal Aerosols\r<br />\r<br />If a customer sends an Add Product request with the ID8000Category field populated and the Class field is populated with any value other than class 9, \r<br />the ID8000Category will be ignored and the data will not be saved on the product record.\r<br />If a customer sends an Add Product request with the ID8000Category field populated and the Class field is populated with class 9,\r<br />the system will behave as it does currently (create the Product and save the ID8000 data to the product record)",
+                                "description": "A specific category designation used for certain hazardous materials classified under Class 9, providing additional regulatory requirements for handling and transport.\r<br />Available values are the following:\r<br /><ul><li>Medicines</li><li>Perfume/Aftershave</li><li>Nail Varnish</li><li>Toiletry or Medicinal Aerosols</li></ul>",
                                 "nullable": true,
                                 "example": "Nail Varnish"
                               },
                               "Quantity": {
                                 "maximum": 5,
                                 "type": "number",
-                                "description": "The quantity of the hazardous material in the specified UnitOfMeasure.This information is vital for compliance with shipping regulations pertaining to hazardous materials.",
+                                "description": "The quantity of the hazardous material in the specified **UnitOfMeasure**. This information is vital for compliance with shipping regulations pertaining to hazardous materials.",
                                 "format": "double",
                                 "nullable": true,
                                 "example": 3.5
@@ -3219,7 +3219,7 @@
                                 "maxLength": 4,
                                 "minLength": 4,
                                 "type": "string",
-                                "description": "Emergency Action Code of the hazardous item.",
+                                "description": "A code providing emergency response instructions for handling hazardous materials during transport.This code is critical for safety and risk management.",
                                 "nullable": true,
                                 "example": "E012"
                               },
@@ -3227,31 +3227,31 @@
                                 "maxLength": 3,
                                 "minLength": 3,
                                 "type": "string",
-                                "description": "The Hazchem Number of the item.",
+                                "description": "A number that indicates the type of hazardous material and the precautions necessary for its transport. This helps in emergency situations through quick identification.",
                                 "nullable": true
                               },
                               "SpecialistAdviceContactNumber": {
                                 "maxLength": 20,
                                 "type": "string",
-                                "description": "The specialist advice phone number to contact if there are any issues with the hazardous item.\r<br />If not provided, when a hazardous stored product is used in create shipment request, the phone number will be set from the customer shipping account record.",
+                                "description": "A contact number for expert advice regarding the handling and transport of hazardous materials. This information is crucial during emergencies or if unusual situations arise.\r<br />\r<br />***Note:** If this information is not provided and the hazardous material is used in your **Create Shipment** request, then the contact number will be sent from the customer shipping account record.*",
                                 "nullable": true
                               }
                             },
-                            "description": "Hazmat Information"
+                            "description": "Specifies the details whether the product is classified as hazardous material. This designation impacts shipping regulations and handling procedures."
                           }
                         },
                         "description": "Product List"
                       },
-                      "description": "Products\r<br />The products for the requested page only."
+                      "description": "An array containing all products that match the search criteria for the specific page only.  Each object contains detailed information about individual products, including attributes necessary for identification and shipping."
                     },
                     "TotalCount": {
                       "type": "integer",
-                      "description": "Total Count\r<br />The total number of products available",
+                      "description": "An integer representing the total number of products that match the search criteria. This count provides users with an overview of how many product records are available based on the filters applied.",
                       "format": "int32",
                       "example": 32
                     }
                   },
-                  "description": "The paged response containing the entities for the requested page only, and the total number available."
+                  "description": "An array containing all products that match the search criteria for the specific page only.  Each object contains detailed information about individual products, including attributes necessary for identification and shipping."
                 },
                 "examples": {
                   "Products Page": {
@@ -3364,7 +3364,7 @@
           "Products"
         ],
         "summary": "Add Product",
-        "description": "Add a new product to your stored products that you can then use in your shipment requests.",
+        "description": "Add a new product to the system. With this endpoint, you can add product details in the request body, allowing the system to store them in the database, making the product available for further use in your shipment requests.",
         "requestBody": {
           "description": "Product details",
           "content": {
@@ -3383,21 +3383,21 @@
                     "maxLength": 30,
                     "minLength": 1,
                     "type": "string",
-                    "description": "Product SKU\r<br />Stock Keeping Unit Number.",
+                    "description": "A unique Stock Keeping Unit (SKU) code assigned to the product. This code is essential for tracking inventory, helping users identify specific products easily.",
                     "example": "SKU123"
                   },
                   "Description": {
                     "maxLength": 255,
                     "minLength": 1,
                     "type": "string",
-                    "description": "Product Description",
+                    "description": "A brief summary providing details about the product, outlining its features, uses, and any pertinent information that helps users understand the product.\r<br />\r<br />***Note**: If you use the data of the stored product in your create shipment requests, then this description will be used as the item description for customs purposes, detailing the specific item being shipped.*",
                     "example": "White Men Large T-shirt"
                   },
                   "Value": {
                     "maximum": 9999999.99,
                     "minimum": 0.01,
                     "type": "number",
-                    "description": "Product Value\r<br />The value of an individual product.",
+                    "description": "The commercial value of the product. This field is important for inventory valuation and pricing strategies.",
                     "format": "double",
                     "example": 19.99
                   },
@@ -3406,14 +3406,14 @@
                     "minimum": 0.001,
                     "minLength": 1,
                     "type": "string",
-                    "description": "Weight\r<br />The weight of an individual product in the unit of measure specified by WeightUnitOfMeasure (defaults to KG).\r<br />            \r<br />Required for dutiable shipments.\r<br />The minimum weight allowed is 1 gram(for dutiable shipments only).\r<br />The maximum weight allowed is 1000 KG.",
+                    "description": "The weight of the individual product in the unit of measure specified in the **WeightUnitOfMeasure** field. <br><br>***Note**: The maximum allowed weight is 1000 grams. For dutiable shipments, the minimum allowed weight is 0.001 Kg.*",
                     "example": "0.5"
                   },
                   "HSCode": {
                     "maxLength": 13,
                     "minLength": 6,
                     "type": "string",
-                    "description": "HS Code\r<br />The Harmonized Commodity Description and Coding System Code.\r<br />At minimum, the 6 alpha numeric code is required when the HS Code is provided (some services/destinations may require 8).\r<br />Up to a 13 digit alpha numeric code can be used.\r<br />Dots and spaces in your code are also allowed.\r<br />Used by Customs to calculate potential duties / taxes.\r<br />            \r<br />Required by some carriers for dutiable shipments.",
+                    "description": "The Harmonized System (HS) code used by customs to determine potential duties and taxes for the product. This code can be 6, 8, or 13 alphanumeric characters, depending on specific services or destinations. Some countries may also use the HS codes of other character lengths, such as 10 characters. <br><br>***Note**: Characters like space and dot are supported.*",
                     "nullable": true,
                     "example": "6109100010"
                   },
@@ -3421,7 +3421,7 @@
                     "maxLength": 2,
                     "minLength": 2,
                     "type": "string",
-                    "description": "Country of Origin / Manufacture\r<br />ISO Alpha-2 Country Code\r<br />            \r<br />Required by some carriers for dutiable shipments.",
+                    "description": "An abbreviation representing the country where the product was manufactured or produced, following the ISO 3166-1 alpha-2 standard, for example, \"GB\" for the United Kingdom. This information is important for customs declarations and compliance with import/export regulations.",
                     "nullable": true,
                     "example": "GB"
                   },
@@ -3429,7 +3429,7 @@
                     "maxLength": 3,
                     "minLength": 3,
                     "type": "string",
-                    "description": "Currency Code\r<br />The currency code used for any monetary value related to the shipment.\r<br />3 letter ISO Currency Code\r<br />            \r<br />*Required if any monetary values other than zero are provided.*",
+                    "description": "An abbreviation representing the 3 letter ISO currency code in which the product's **Value** is expressed (for example, \"GBP\" for British pounds, \"EUR\" for euros). This is essential for financial transactions and international trade.",
                     "example": "GBP"
                   },
                   "WeightUnitOfMeasure": {
@@ -3438,7 +3438,7 @@
                       "Grams"
                     ],
                     "type": "string",
-                    "description": " The unit of measure used for all weight values in the shipment, expressed in grams and kilograms, for example, **DeclaredWeight**, **ItemWeight**. This is crucial for accurately describing shipment weight.\r<br /> \r<br />***Note:** By default, this field is set to KG.*"
+                    "description": "The unit of measurement for the weight provided, such as the product's **Weight**, indicating whether the weight is specified in kilograms (KG) or grams (G), ensuring clarity for shipping calculations.<br><br>***Note**:  By default, this field is set to KG.*</br></br>"
                   },
                   "Hazmat": {
                     "required": [
@@ -3450,14 +3450,14 @@
                         "maxLength": 4,
                         "minLength": 4,
                         "type": "string",
-                        "description": "The United Nations (UN) code assigned to the hazardous material, which denotes its classification for transport. This code is critical for safety and compliance during shipping. <br>***Note**: This field must be populated only for domestic shipments using class 9 dangerous goods.If provided, then **Quantity** and **UnitOfMeasure** must also be specified.*",
+                        "description": "The United Nations (UN) code assigned to the hazardous material, which denotes its classification for transport. This code is critical for safety and compliance during shipping. <br><br>***Note**: This field must be populated only for domestic shipments using class 9 dangerous goods.If provided, then **Quantity** and **UnitOfMeasure** must also be specified.*",
                         "nullable": true,
                         "example": "1002"
                       },
                       "ProperShippingName": {
                         "maxLength": 100,
                         "type": "string",
-                        "description": "Proper Shipping Name of the hazardous item being shipped.",
+                        "description": "The official name designated for the hazardous material as required by regulations. This name is used to inform handlers of the nature of the hazard during transport.",
                         "nullable": true,
                         "example": "Compressed Air"
                       },
@@ -3465,19 +3465,19 @@
                         "maxLength": 3,
                         "minLength": 1,
                         "type": "string",
-                        "description": "Mandatory if Hazmat information is provided. Used to provide the class number of the hazardous item being shipped.",
+                        "description": "The class number of the hazardous material as per UN regulations, indicating the potential risk associated with the product.",
                         "example": "9"
                       },
                       "Id8000Category": {
                         "type": "string",
-                        "description": "If the hazardous goods class is 9, an applicable ID8000 category is required. \r<br />If ID8000 category is provided with any hazardous goods class other than class 9, it will be ignored.\r<br />Available values are:\r<br />- Medicines\r<br />- Perfume/Aftershave\r<br />- Nail Varnish\r<br />- Toiletry or Medicinal Aerosols\r<br />\r<br />If a customer sends an Add Product request with the ID8000Category field populated and the Class field is populated with any value other than class 9, \r<br />the ID8000Category will be ignored and the data will not be saved on the product record.\r<br />If a customer sends an Add Product request with the ID8000Category field populated and the Class field is populated with class 9,\r<br />the system will behave as it does currently (create the Product and save the ID8000 data to the product record)",
+                        "description": "A specific category designation used for certain hazardous materials classified under Class 9, providing additional regulatory requirements for handling and transport.\r<br />Available values are the following:\r<br /><ul><li>Medicines</li><li>Perfume/Aftershave</li><li>Nail Varnish</li><li>Toiletry or Medicinal Aerosols</li></ul>",
                         "nullable": true,
                         "example": "Nail Varnish"
                       },
                       "Quantity": {
                         "maximum": 5,
                         "type": "number",
-                        "description": "The quantity of the hazardous material in the specified UnitOfMeasure.This information is vital for compliance with shipping regulations pertaining to hazardous materials. <br>***Note**: This field is only required if **UnitOfMeasure** and **UNCode** is specified.*",
+                        "description": "The quantity of the hazardous material in the specified **UnitOfMeasure**. This information is vital for compliance with shipping regulations pertaining to hazardous materials. <br><br>***Note**: This field is only required if **UnitOfMeasure** and **UNCode** is specified.*",
                         "format": "double",
                         "nullable": true,
                         "example": 3.5
@@ -3489,13 +3489,13 @@
                           "KG"
                         ],
                         "type": "string",
-                        "description": "The unit of measurement for the quantity of hazardous material, for example, litres (for liquids) or kilograms (for solids). This provides clarity regarding the amount of hazardous goods present.<br>***Note**: This field is only required if **Quantity** and **UNCode** is specified.*"
+                        "description": "The unit of measurement for the quantity of hazardous material, for example, litres (for liquids) or kilograms (for solids). This provides clarity regarding the amount of hazardous goods present.<br><br>***Note**: This field is only required if **Quantity** and **UNCode** is specified.* </br></br>"
                       },
                       "EmergencyActionCode": {
                         "maxLength": 4,
                         "minLength": 4,
                         "type": "string",
-                        "description": "Emergency Action Code of the hazardous item.",
+                        "description": "A code providing emergency response instructions for handling hazardous materials during transport.This code is critical for safety and risk management.",
                         "nullable": true,
                         "example": "E012"
                       },
@@ -3503,17 +3503,17 @@
                         "maxLength": 3,
                         "minLength": 3,
                         "type": "string",
-                        "description": "The Hazchem Number of the item.",
+                        "description": "A number that indicates the type of hazardous material and the precautions necessary for its transport. This helps in emergency situations through quick identification.",
                         "nullable": true
                       },
                       "SpecialistAdviceContactNumber": {
                         "maxLength": 20,
                         "type": "string",
-                        "description": "The specialist advice phone number to contact if there are any issues with the hazardous item.\r<br />If not provided, when a hazardous stored product is used in create shipment request, the phone number will be set from the customer shipping account record.",
+                        "description": "A contact number for expert advice regarding the handling and transport of hazardous materials. This information is crucial during emergencies or if unusual situations arise.\r<br />\r<br />***Note:** If this information is not provided and the hazardous material is used in your **Create Shipment** request, then the contact number will be sent from the customer shipping account record.*",
                         "nullable": true
                       }
                     },
-                    "description": "Hazmat Information"
+                    "description": "Specifies the details whether the product is classified as hazardous material. This designation impacts shipping regulations and handling procedures."
                   }
                 },
                 "description": "Product"
@@ -3600,12 +3600,12 @@
           "Products"
         ],
         "summary": "Delete Product",
-        "description": "Deletes a specified product from the system.",
+        "description": "Remove a product from the system. With this endpoint, you can permanently delete a specified product from the database, which also ensures that it is no longer available to be used in your shipment requests.",
         "parameters": [
           {
             "name": "skuCode",
             "in": "path",
-            "description": "SKU Code\r<br />The SKU Code (Stock Keeping Unit Number assigned by you).",
+            "description": "A unique Stock Keeping Unit (SKU) code assigned to the product by you. This code is essential for tracking inventory, helping users identify specific products easily.",
             "required": true,
             "schema": {
               "type": "string"
@@ -3640,12 +3640,12 @@
           "Products"
         ],
         "summary": "Get Product",
-        "description": "Provides details for a specific product.\r<br />Information about the country of origin, value, weight, description, HS Code and Sku Code will be returned.",
+        "description": "Retrieves detailed information about a specific product based on its unique SKU code. With this endpoint, you can access all pertinent data related to the product, including its description, origin, value, weight, and so on, which is essential for inventory management, shipping logistics, and compliance with customs regulations.",
         "parameters": [
           {
             "name": "skuCode",
             "in": "path",
-            "description": "SKU Code\r<br />The SKU Code (Stock Keeping Unit Number assigned by you).",
+            "description": "A unique Stock Keeping Unit (SKU) code assigned to the product by you. This code is essential for tracking inventory, helping users identify specific products easily.",
             "required": true,
             "schema": {
               "type": "string"
@@ -3669,13 +3669,13 @@
                   "properties": {
                     "LastUpdatedDateUtc": {
                       "type": "string",
-                      "description": "Last Updated Date UTC",
+                      "description": "A timestamp in Coordinated Universal Time (UTC) indicating when the product details were last updated. This helps users understand the recency of the product information.",
                       "format": "date-time",
                       "example": "2022-02-06T16:13:24.010Z"
                     },
                     "LastUpdatedBy": {
                       "type": "string",
-                      "description": "Last Updated By",
+                      "description": "The identifier of the user or system that last modified the product details, ensuring accountability and traceability for updates.",
                       "nullable": true,
                       "example": "User A"
                     },
@@ -3683,21 +3683,21 @@
                       "maxLength": 30,
                       "minLength": 1,
                       "type": "string",
-                      "description": "Product SKU\r<br />Stock Keeping Unit Number.",
+                      "description": "A unique Stock Keeping Unit (SKU) code assigned to the product. This code is essential for tracking inventory, helping users identify specific products easily.",
                       "example": "SKU123"
                     },
                     "Description": {
                       "maxLength": 255,
                       "minLength": 1,
                       "type": "string",
-                      "description": "Product Description",
+                      "description": "A brief summary providing details about the product, outlining its features, uses, and any pertinent information that helps users understand the product.\r<br />\r<br />***Note**: If you use the data of the stored product in your create shipment requests, then this description will be used as the item description for customs purposes, detailing the specific item being shipped.*",
                       "example": "White Men Large T-shirt"
                     },
                     "Value": {
                       "maximum": 9999999.99,
                       "minimum": 0.01,
                       "type": "number",
-                      "description": "Product Value\r<br />The value of an individual product.",
+                      "description": "The commercial value of the product. This field is important for inventory valuation and pricing strategies.",
                       "format": "double",
                       "example": 19.99
                     },
@@ -3706,14 +3706,14 @@
                       "minimum": 0.001,
                       "minLength": 1,
                       "type": "string",
-                      "description": "Weight\r<br />The weight of an individual product in the unit of measure specified by WeightUnitOfMeasure (defaults to KG).\r<br />            \r<br />Required for dutiable shipments.\r<br />The minimum weight allowed is 1 gram(for dutiable shipments only).\r<br />The maximum weight allowed is 1000 KG.",
+                      "description": "The weight of the individual product in the unit of measure specified in the **WeightUnitOfMeasure** field.",
                       "example": "0.5"
                     },
                     "HSCode": {
                       "maxLength": 13,
                       "minLength": 6,
                       "type": "string",
-                      "description": "HS Code\r<br />The Harmonized Commodity Description and Coding System Code.\r<br />At minimum, the 6 alpha numeric code is required when the HS Code is provided (some services/destinations may require 8).\r<br />Up to a 13 digit alpha numeric code can be used.\r<br />Dots and spaces in your code are also allowed.\r<br />Used by Customs to calculate potential duties / taxes.\r<br />            \r<br />Required by some carriers for dutiable shipments.",
+                      "description": "The Harmonized System (HS) code used by customs to determine potential duties and taxes for the product. This code can be 6, 8, or 13 alphanumeric characters, depending on specific services or destinations. Some countries may also use the HS codes of other character lengths, such as 10 characters.",
                       "nullable": true,
                       "example": "6109100010"
                     },
@@ -3721,7 +3721,7 @@
                       "maxLength": 2,
                       "minLength": 2,
                       "type": "string",
-                      "description": "Country of Origin / Manufacture\r<br />ISO Alpha-2 Country Code\r<br />            \r<br />Required by some carriers for dutiable shipments.",
+                      "description": "An abbreviation representing the country where the product was manufactured or produced, following the ISO 3166-1 alpha-2 standard, for example, \"GB\" for the United Kingdom. This information is important for customs declarations and compliance with import/export regulations.",
                       "nullable": true,
                       "example": "GB"
                     },
@@ -3729,7 +3729,7 @@
                       "maxLength": 3,
                       "minLength": 3,
                       "type": "string",
-                      "description": "Currency Code\r<br />The currency code used for any monetary value related to the shipment.\r<br />3 letter ISO Currency Code\r<br />            \r<br />*Required if any monetary values other than zero are provided.*",
+                      "description": "An abbreviation representing the 3 letter ISO currency code in which the product's **Value** is expressed (for example, \"GBP\" for British pounds, \"EUR\" for euros). This is essential for financial transactions and international trade.",
                       "example": "GBP"
                     },
                     "WeightUnitOfMeasure": {
@@ -3738,7 +3738,7 @@
                         "Grams"
                       ],
                       "type": "string",
-                      "description": " The unit of measure used for all weight values in the shipment, expressed in grams and kilograms, for example, **DeclaredWeight**, **ItemWeight**. This is crucial for accurately describing shipment weight.\r<br /> \r<br />***Note:** By default, this field is set to KG.*"
+                      "description": "The unit of measurement for the weight provided, such as the product's **Weight**, indicating whether the weight is specified in kilograms (KG) or grams (G), ensuring clarity for shipping calculations."
                     },
                     "Hazmat": {
                       "required": [
@@ -3757,7 +3757,7 @@
                         "ProperShippingName": {
                           "maxLength": 100,
                           "type": "string",
-                          "description": "Proper Shipping Name of the hazardous item being shipped.",
+                          "description": "The official name designated for the hazardous material as required by regulations. This name is used to inform handlers of the nature of the hazard during transport.",
                           "nullable": true,
                           "example": "Compressed Air"
                         },
@@ -3765,19 +3765,19 @@
                           "maxLength": 3,
                           "minLength": 1,
                           "type": "string",
-                          "description": "Mandatory if Hazmat information is provided. Used to provide the class number of the hazardous item being shipped.",
+                          "description": "The class number of the hazardous material as per UN regulations, indicating the potential risk associated with the product.",
                           "example": "9"
                         },
                         "Id8000Category": {
                           "type": "string",
-                          "description": "If the hazardous goods class is 9, an applicable ID8000 category is required. \r<br />If ID8000 category is provided with any hazardous goods class other than class 9, it will be ignored.\r<br />Available values are:\r<br />- Medicines\r<br />- Perfume/Aftershave\r<br />- Nail Varnish\r<br />- Toiletry or Medicinal Aerosols\r<br />\r<br />If a customer sends an Add Product request with the ID8000Category field populated and the Class field is populated with any value other than class 9, \r<br />the ID8000Category will be ignored and the data will not be saved on the product record.\r<br />If a customer sends an Add Product request with the ID8000Category field populated and the Class field is populated with class 9,\r<br />the system will behave as it does currently (create the Product and save the ID8000 data to the product record)",
+                          "description": "A specific category designation used for certain hazardous materials classified under Class 9, providing additional regulatory requirements for handling and transport.\r<br />Available values are the following:\r<br /><ul><li>Medicines</li><li>Perfume/Aftershave</li><li>Nail Varnish</li><li>Toiletry or Medicinal Aerosols</li></ul>",
                           "nullable": true,
                           "example": "Nail Varnish"
                         },
                         "Quantity": {
                           "maximum": 5,
                           "type": "number",
-                          "description": "The quantity of the hazardous material in the specified UnitOfMeasure.This information is vital for compliance with shipping regulations pertaining to hazardous materials.",
+                          "description": "The quantity of the hazardous material in the specified **UnitOfMeasure**. This information is vital for compliance with shipping regulations pertaining to hazardous materials.",
                           "format": "double",
                           "nullable": true,
                           "example": 3.5
@@ -3795,7 +3795,7 @@
                           "maxLength": 4,
                           "minLength": 4,
                           "type": "string",
-                          "description": "Emergency Action Code of the hazardous item.",
+                          "description": "A code providing emergency response instructions for handling hazardous materials during transport.This code is critical for safety and risk management.",
                           "nullable": true,
                           "example": "E012"
                         },
@@ -3803,17 +3803,17 @@
                           "maxLength": 3,
                           "minLength": 3,
                           "type": "string",
-                          "description": "The Hazchem Number of the item.",
+                          "description": "A number that indicates the type of hazardous material and the precautions necessary for its transport. This helps in emergency situations through quick identification.",
                           "nullable": true
                         },
                         "SpecialistAdviceContactNumber": {
                           "maxLength": 20,
                           "type": "string",
-                          "description": "The specialist advice phone number to contact if there are any issues with the hazardous item.\r<br />If not provided, when a hazardous stored product is used in create shipment request, the phone number will be set from the customer shipping account record.",
+                          "description": "A contact number for expert advice regarding the handling and transport of hazardous materials. This information is crucial during emergencies or if unusual situations arise.\r<br />\r<br />***Note:** If this information is not provided and the hazardous material is used in your **Create Shipment** request, then the contact number will be sent from the customer shipping account record.*",
                           "nullable": true
                         }
                       },
-                      "description": "Hazmat Information"
+                      "description": "Specifies the details whether the product is classified as hazardous material. This designation impacts shipping regulations and handling procedures."
                     }
                   },
                   "description": "Product List"
@@ -3845,12 +3845,12 @@
           "Products"
         ],
         "summary": "Update Product",
-        "description": "Update a product that is already stored with new details. The whole product will be replaced with new details",
+        "description": "Modify the details of an existing product in the system based on its unique SKU code. With this endpoint, you can submit updates for various product attributes, ensuring that the product information remains current and accurate. This functionality is essential for inventory management, compliance with shipping regulations, and maintaining accurate records.",
         "parameters": [
           {
             "name": "skuCode",
             "in": "path",
-            "description": "SKU Code\r<br />The SKU Code (Stock Keeping Unit Number assigned by you).",
+            "description": "A unique Stock Keeping Unit (SKU) code assigned to the product by you. This code is essential for tracking inventory, helping users identify specific products easily.",
             "required": true,
             "schema": {
               "type": "string"
@@ -3875,21 +3875,21 @@
                     "maxLength": 30,
                     "minLength": 1,
                     "type": "string",
-                    "description": "Product SKU\r<br />Stock Keeping Unit Number.",
+                    "description": "A unique Stock Keeping Unit (SKU) code assigned to the product. This code is essential for tracking inventory, helping users identify specific products easily.",
                     "example": "SKU123"
                   },
                   "Description": {
                     "maxLength": 255,
                     "minLength": 1,
                     "type": "string",
-                    "description": "Product Description",
+                    "description": "A brief summary providing details about the product, outlining its features, uses, and any pertinent information that helps users understand the product.\r<br />\r<br />***Note**: If you use the data of the stored product in your create shipment requests, then this description will be used as the item description for customs purposes, detailing the specific item being shipped.*",
                     "example": "White Men Large T-shirt"
                   },
                   "Value": {
                     "maximum": 9999999.99,
                     "minimum": 0.01,
                     "type": "number",
-                    "description": "Product Value\r<br />The value of an individual product.",
+                    "description": "The commercial value of the product. This field is important for inventory valuation and pricing strategies.",
                     "format": "double",
                     "example": 19.99
                   },
@@ -3898,14 +3898,14 @@
                     "minimum": 0.001,
                     "minLength": 1,
                     "type": "string",
-                    "description": "Weight\r<br />The weight of an individual product in the unit of measure specified by WeightUnitOfMeasure (defaults to KG).\r<br />            \r<br />Required for dutiable shipments.\r<br />The minimum weight allowed is 1 gram(for dutiable shipments only).\r<br />The maximum weight allowed is 1000 KG.",
+                    "description": "The weight of the individual product in the unit of measure specified in the **WeightUnitOfMeasure** field. <br><br>***Note**: The maximum allowed weight is 1000 grams. For dutiable shipments, the minimum allowed weight is 0.001 Kg.*",
                     "example": "0.5"
                   },
                   "HSCode": {
                     "maxLength": 13,
                     "minLength": 6,
                     "type": "string",
-                    "description": "HS Code\r<br />The Harmonized Commodity Description and Coding System Code.\r<br />At minimum, the 6 alpha numeric code is required when the HS Code is provided (some services/destinations may require 8).\r<br />Up to a 13 digit alpha numeric code can be used.\r<br />Dots and spaces in your code are also allowed.\r<br />Used by Customs to calculate potential duties / taxes.\r<br />            \r<br />Required by some carriers for dutiable shipments.",
+                    "description": "The Harmonized System (HS) code used by customs to determine potential duties and taxes for the product. This code can be 6, 8, or 13 alphanumeric characters, depending on specific services or destinations. Some countries may also use the HS codes of other character lengths, such as 10 characters. <br><br>***Note**: Characters like space and dot are supported.*",
                     "nullable": true,
                     "example": "6109100010"
                   },
@@ -3913,7 +3913,7 @@
                     "maxLength": 2,
                     "minLength": 2,
                     "type": "string",
-                    "description": "Country of Origin / Manufacture\r<br />ISO Alpha-2 Country Code\r<br />            \r<br />Required by some carriers for dutiable shipments.",
+                    "description": "An abbreviation representing the country where the product was manufactured or produced, following the ISO 3166-1 alpha-2 standard, for example, \"GB\" for the United Kingdom. This information is important for customs declarations and compliance with import/export regulations.",
                     "nullable": true,
                     "example": "GB"
                   },
@@ -3921,7 +3921,7 @@
                     "maxLength": 3,
                     "minLength": 3,
                     "type": "string",
-                    "description": "Currency Code\r<br />The currency code used for any monetary value related to the shipment.\r<br />3 letter ISO Currency Code\r<br />            \r<br />*Required if any monetary values other than zero are provided.*",
+                    "description": "An abbreviation representing the 3 letter ISO currency code in which the product's **Value** is expressed (for example, \"GBP\" for British pounds, \"EUR\" for euros). This is essential for financial transactions and international trade.",
                     "example": "GBP"
                   },
                   "WeightUnitOfMeasure": {
@@ -3930,7 +3930,7 @@
                       "Grams"
                     ],
                     "type": "string",
-                    "description": " The unit of measure used for all weight values in the shipment, expressed in grams and kilograms, for example, **DeclaredWeight**, **ItemWeight**. This is crucial for accurately describing shipment weight.\r<br /> \r<br />***Note:** By default, this field is set to KG.*"
+                    "description": "The unit of measurement for the weight provided, such as the product's **Weight**, indicating whether the weight is specified in kilograms (KG) or grams (G), ensuring clarity for shipping calculations.<br><br>***Note**:  By default, this field is set to KG.*</br></br>"
                   },
                   "Hazmat": {
                     "required": [
@@ -3942,14 +3942,14 @@
                         "maxLength": 4,
                         "minLength": 4,
                         "type": "string",
-                        "description": "The United Nations (UN) code assigned to the hazardous material, which denotes its classification for transport. This code is critical for safety and compliance during shipping. <br>***Note**: This field must be populated only for domestic shipments using class 9 dangerous goods.If provided, then **Quantity** and **UnitOfMeasure** must also be specified.*",
+                        "description": "The United Nations (UN) code assigned to the hazardous material, which denotes its classification for transport. This code is critical for safety and compliance during shipping. <br><br>***Note**: This field must be populated only for domestic shipments using class 9 dangerous goods.If provided, then **Quantity** and **UnitOfMeasure** must also be specified.*",
                         "nullable": true,
                         "example": "1002"
                       },
                       "ProperShippingName": {
                         "maxLength": 100,
                         "type": "string",
-                        "description": "Proper Shipping Name of the hazardous item being shipped.",
+                        "description": "The official name designated for the hazardous material as required by regulations. This name is used to inform handlers of the nature of the hazard during transport.",
                         "nullable": true,
                         "example": "Compressed Air"
                       },
@@ -3957,19 +3957,19 @@
                         "maxLength": 3,
                         "minLength": 1,
                         "type": "string",
-                        "description": "Mandatory if Hazmat information is provided. Used to provide the class number of the hazardous item being shipped.",
+                        "description": "The class number of the hazardous material as per UN regulations, indicating the potential risk associated with the product.",
                         "example": "9"
                       },
                       "Id8000Category": {
                         "type": "string",
-                        "description": "If the hazardous goods class is 9, an applicable ID8000 category is required. \r<br />If ID8000 category is provided with any hazardous goods class other than class 9, it will be ignored.\r<br />Available values are:\r<br />- Medicines\r<br />- Perfume/Aftershave\r<br />- Nail Varnish\r<br />- Toiletry or Medicinal Aerosols\r<br />\r<br />If a customer sends an Add Product request with the ID8000Category field populated and the Class field is populated with any value other than class 9, \r<br />the ID8000Category will be ignored and the data will not be saved on the product record.\r<br />If a customer sends an Add Product request with the ID8000Category field populated and the Class field is populated with class 9,\r<br />the system will behave as it does currently (create the Product and save the ID8000 data to the product record)",
+                        "description": "A specific category designation used for certain hazardous materials classified under Class 9, providing additional regulatory requirements for handling and transport.\r<br />Available values are the following:\r<br /><ul><li>Medicines</li><li>Perfume/Aftershave</li><li>Nail Varnish</li><li>Toiletry or Medicinal Aerosols</li></ul>",
                         "nullable": true,
                         "example": "Nail Varnish"
                       },
                       "Quantity": {
                         "maximum": 5,
                         "type": "number",
-                        "description": "The quantity of the hazardous material in the specified UnitOfMeasure.This information is vital for compliance with shipping regulations pertaining to hazardous materials. <br>***Note**: This field is only required if **UnitOfMeasure** and **UNCode** is specified.*",
+                        "description": "The quantity of the hazardous material in the specified **UnitOfMeasure**. This information is vital for compliance with shipping regulations pertaining to hazardous materials. <br><br>***Note**: This field is only required if **UnitOfMeasure** and **UNCode** is specified.*",
                         "format": "double",
                         "nullable": true,
                         "example": 3.5
@@ -3981,13 +3981,13 @@
                           "KG"
                         ],
                         "type": "string",
-                        "description": "The unit of measurement for the quantity of hazardous material, for example, litres (for liquids) or kilograms (for solids). This provides clarity regarding the amount of hazardous goods present.<br>***Note**: This field is only required if **Quantity** and **UNCode** is specified.*"
+                        "description": "The unit of measurement for the quantity of hazardous material, for example, litres (for liquids) or kilograms (for solids). This provides clarity regarding the amount of hazardous goods present.<br><br>***Note**: This field is only required if **Quantity** and **UNCode** is specified.* </br></br>"
                       },
                       "EmergencyActionCode": {
                         "maxLength": 4,
                         "minLength": 4,
                         "type": "string",
-                        "description": "Emergency Action Code of the hazardous item.",
+                        "description": "A code providing emergency response instructions for handling hazardous materials during transport.This code is critical for safety and risk management.",
                         "nullable": true,
                         "example": "E012"
                       },
@@ -3995,17 +3995,17 @@
                         "maxLength": 3,
                         "minLength": 3,
                         "type": "string",
-                        "description": "The Hazchem Number of the item.",
+                        "description": "A number that indicates the type of hazardous material and the precautions necessary for its transport. This helps in emergency situations through quick identification.",
                         "nullable": true
                       },
                       "SpecialistAdviceContactNumber": {
                         "maxLength": 20,
                         "type": "string",
-                        "description": "The specialist advice phone number to contact if there are any issues with the hazardous item.\r<br />If not provided, when a hazardous stored product is used in create shipment request, the phone number will be set from the customer shipping account record.",
+                        "description": "A contact number for expert advice regarding the handling and transport of hazardous materials. This information is crucial during emergencies or if unusual situations arise.\r<br />\r<br />***Note:** If this information is not provided and the hazardous material is used in your **Create Shipment** request, then the contact number will be sent from the customer shipping account record.*",
                         "nullable": true
                       }
                     },
-                    "description": "Hazmat Information"
+                    "description": "Specifies the details whether the product is classified as hazardous material. This designation impacts shipping regulations and handling procedures."
                   }
                 },
                 "description": "Product"
@@ -5771,7 +5771,7 @@
             "maxLength": 30,
             "minLength": 1,
             "type": "string",
-            "description": "Product SKU\r<br />Stock Keeping Unit Number.",
+            "description": "A unique Stock Keeping Unit (SKU) code assigned to the product. This code is essential for tracking inventory, helping users identify specific products easily.",
             "example": "SKU123"
           }
         },
@@ -8175,21 +8175,21 @@
             "maxLength": 30,
             "minLength": 1,
             "type": "string",
-            "description": "Product SKU\r<br />Stock Keeping Unit Number.",
+            "description": "A unique Stock Keeping Unit (SKU) code assigned to the product. This code is essential for tracking inventory, helping users identify specific products easily.",
             "example": "SKU123"
           },
           "Description": {
             "maxLength": 255,
             "minLength": 1,
             "type": "string",
-            "description": "Product Description",
+            "description": "A brief summary providing details about the product, outlining its features, uses, and any pertinent information that helps users understand the product.\r<br />\r<br />***Note**: If you use the data of the stored product in your create shipment requests, then this description will be used as the item description for customs purposes, detailing the specific item being shipped.*",
             "example": "White Men Large T-shirt"
           },
           "Value": {
             "maximum": 9999999.99,
             "minimum": 0.01,
             "type": "number",
-            "description": "Product Value\r<br />The value of an individual product.",
+            "description": "The commercial value of the product. This field is important for inventory valuation and pricing strategies.",
             "format": "double",
             "example": 19.99
           },
@@ -8198,14 +8198,14 @@
             "minimum": 0.001,
             "minLength": 1,
             "type": "string",
-            "description": "Weight\r<br />The weight of an individual product in the unit of measure specified by WeightUnitOfMeasure (defaults to KG).\r<br />            \r<br />Required for dutiable shipments.\r<br />The minimum weight allowed is 1 gram(for dutiable shipments only).\r<br />The maximum weight allowed is 1000 KG.",
+            "description": "The weight of the individual product in the unit of measure specified in the **WeightUnitOfMeasure** field.",
             "example": "0.5"
           },
           "HSCode": {
             "maxLength": 13,
             "minLength": 6,
             "type": "string",
-            "description": "HS Code\r<br />The Harmonized Commodity Description and Coding System Code.\r<br />At minimum, the 6 alpha numeric code is required when the HS Code is provided (some services/destinations may require 8).\r<br />Up to a 13 digit alpha numeric code can be used.\r<br />Dots and spaces in your code are also allowed.\r<br />Used by Customs to calculate potential duties / taxes.\r<br />            \r<br />Required by some carriers for dutiable shipments.",
+            "description": "The Harmonized System (HS) code used by customs to determine potential duties and taxes for the product. This code can be 6, 8, or 13 alphanumeric characters, depending on specific services or destinations. Some countries may also use the HS codes of other character lengths, such as 10 characters.",
             "nullable": true,
             "example": "6109100010"
           },
@@ -8213,7 +8213,7 @@
             "maxLength": 2,
             "minLength": 2,
             "type": "string",
-            "description": "Country of Origin / Manufacture\r<br />ISO Alpha-2 Country Code\r<br />            \r<br />Required by some carriers for dutiable shipments.",
+            "description": "An abbreviation representing the country where the product was manufactured or produced, following the ISO 3166-1 alpha-2 standard, for example, \"GB\" for the United Kingdom. This information is important for customs declarations and compliance with import/export regulations.",
             "nullable": true,
             "example": "GB"
           },
@@ -8221,7 +8221,7 @@
             "maxLength": 3,
             "minLength": 3,
             "type": "string",
-            "description": "Currency Code\r<br />The currency code used for any monetary value related to the shipment.\r<br />3 letter ISO Currency Code\r<br />            \r<br />*Required if any monetary values other than zero are provided.*",
+            "description": "An abbreviation representing the 3 letter ISO currency code in which the product's **Value** is expressed (for example, \"GBP\" for British pounds, \"EUR\" for euros). This is essential for financial transactions and international trade.",
             "example": "GBP"
           },
           "WeightUnitOfMeasure": {
@@ -8251,7 +8251,7 @@
           "ProperShippingName": {
             "maxLength": 100,
             "type": "string",
-            "description": "Proper Shipping Name of the hazardous item being shipped.",
+            "description": "The official name designated for the hazardous material as required by regulations. This name is used to inform handlers of the nature of the hazard during transport.",
             "nullable": true,
             "example": "Compressed Air"
           },
@@ -8259,19 +8259,19 @@
             "maxLength": 3,
             "minLength": 1,
             "type": "string",
-            "description": "Mandatory if Hazmat information is provided. Used to provide the class number of the hazardous item being shipped.",
+            "description": "The class number of the hazardous material as per UN regulations, indicating the potential risk associated with the product.",
             "example": "9"
           },
           "Id8000Category": {
             "type": "string",
-            "description": "If the hazardous goods class is 9, an applicable ID8000 category is required. \r<br />If ID8000 category is provided with any hazardous goods class other than class 9, it will be ignored.\r<br />Available values are:\r<br />- Medicines\r<br />- Perfume/Aftershave\r<br />- Nail Varnish\r<br />- Toiletry or Medicinal Aerosols\r<br />\r<br />If a customer sends an Add Product request with the ID8000Category field populated and the Class field is populated with any value other than class 9, \r<br />the ID8000Category will be ignored and the data will not be saved on the product record.\r<br />If a customer sends an Add Product request with the ID8000Category field populated and the Class field is populated with class 9,\r<br />the system will behave as it does currently (create the Product and save the ID8000 data to the product record)",
+            "description": "A specific category designation used for certain hazardous materials classified under Class 9, providing additional regulatory requirements for handling and transport.\r<br />Available values are the following:\r<br /><ul><li>Medicines</li><li>Perfume/Aftershave</li><li>Nail Varnish</li><li>Toiletry or Medicinal Aerosols</li></ul>",
             "nullable": true,
             "example": "Nail Varnish"
           },
           "Quantity": {
             "maximum": 5,
             "type": "number",
-            "description": "The quantity of the hazardous material in the specified UnitOfMeasure.This information is vital for compliance with shipping regulations pertaining to hazardous materials.",
+            "description": "The quantity of the hazardous material in the specified **UnitOfMeasure**. This information is vital for compliance with shipping regulations pertaining to hazardous materials.",
             "format": "double",
             "nullable": true,
             "example": 3.5
@@ -8283,7 +8283,7 @@
             "maxLength": 4,
             "minLength": 4,
             "type": "string",
-            "description": "Emergency Action Code of the hazardous item.",
+            "description": "A code providing emergency response instructions for handling hazardous materials during transport.This code is critical for safety and risk management.",
             "nullable": true,
             "example": "E012"
           },
@@ -8291,18 +8291,18 @@
             "maxLength": 3,
             "minLength": 3,
             "type": "string",
-            "description": "The Hazchem Number of the item.",
+            "description": "A number that indicates the type of hazardous material and the precautions necessary for its transport. This helps in emergency situations through quick identification.",
             "nullable": true
           },
           "SpecialistAdviceContactNumber": {
             "maxLength": 20,
             "type": "string",
-            "description": "The specialist advice phone number to contact if there are any issues with the hazardous item.\r<br />If not provided, when a hazardous stored product is used in create shipment request, the phone number will be set from the customer shipping account record.",
+            "description": "A contact number for expert advice regarding the handling and transport of hazardous materials. This information is crucial during emergencies or if unusual situations arise.\r<br />\r<br />***Note:** If this information is not provided and the hazardous material is used in your **Create Shipment** request, then the contact number will be sent from the customer shipping account record.*",
             "nullable": true
           }
         },
         "additionalProperties": false,
-        "description": "Hazmat Information"
+        "description": "Specifies the details whether the product is classified as hazardous material. This designation impacts shipping regulations and handling procedures."
       },
       "ProductList": {
         "required": [
@@ -8316,13 +8316,13 @@
         "properties": {
           "LastUpdatedDateUtc": {
             "type": "string",
-            "description": "Last Updated Date UTC",
+            "description": "A timestamp in Coordinated Universal Time (UTC) indicating when the product details were last updated. This helps users understand the recency of the product information.",
             "format": "date-time",
             "example": "2022-02-06T16:13:24.010Z"
           },
           "LastUpdatedBy": {
             "type": "string",
-            "description": "Last Updated By",
+            "description": "The identifier of the user or system that last modified the product details, ensuring accountability and traceability for updates.",
             "nullable": true,
             "example": "User A"
           },
@@ -8330,21 +8330,21 @@
             "maxLength": 30,
             "minLength": 1,
             "type": "string",
-            "description": "Product SKU\r<br />Stock Keeping Unit Number.",
+            "description": "A unique Stock Keeping Unit (SKU) code assigned to the product. This code is essential for tracking inventory, helping users identify specific products easily.",
             "example": "SKU123"
           },
           "Description": {
             "maxLength": 255,
             "minLength": 1,
             "type": "string",
-            "description": "Product Description",
+            "description": "A brief summary providing details about the product, outlining its features, uses, and any pertinent information that helps users understand the product.\r<br />\r<br />***Note**: If you use the data of the stored product in your create shipment requests, then this description will be used as the item description for customs purposes, detailing the specific item being shipped.*",
             "example": "White Men Large T-shirt"
           },
           "Value": {
             "maximum": 9999999.99,
             "minimum": 0.01,
             "type": "number",
-            "description": "Product Value\r<br />The value of an individual product.",
+            "description": "The commercial value of the product. This field is important for inventory valuation and pricing strategies.",
             "format": "double",
             "example": 19.99
           },
@@ -8353,14 +8353,14 @@
             "minimum": 0.001,
             "minLength": 1,
             "type": "string",
-            "description": "Weight\r<br />The weight of an individual product in the unit of measure specified by WeightUnitOfMeasure (defaults to KG).\r<br />            \r<br />Required for dutiable shipments.\r<br />The minimum weight allowed is 1 gram(for dutiable shipments only).\r<br />The maximum weight allowed is 1000 KG.",
+            "description": "The weight of the individual product in the unit of measure specified in the **WeightUnitOfMeasure** field.",
             "example": "0.5"
           },
           "HSCode": {
             "maxLength": 13,
             "minLength": 6,
             "type": "string",
-            "description": "HS Code\r<br />The Harmonized Commodity Description and Coding System Code.\r<br />At minimum, the 6 alpha numeric code is required when the HS Code is provided (some services/destinations may require 8).\r<br />Up to a 13 digit alpha numeric code can be used.\r<br />Dots and spaces in your code are also allowed.\r<br />Used by Customs to calculate potential duties / taxes.\r<br />            \r<br />Required by some carriers for dutiable shipments.",
+            "description": "The Harmonized System (HS) code used by customs to determine potential duties and taxes for the product. This code can be 6, 8, or 13 alphanumeric characters, depending on specific services or destinations. Some countries may also use the HS codes of other character lengths, such as 10 characters.",
             "nullable": true,
             "example": "6109100010"
           },
@@ -8368,7 +8368,7 @@
             "maxLength": 2,
             "minLength": 2,
             "type": "string",
-            "description": "Country of Origin / Manufacture\r<br />ISO Alpha-2 Country Code\r<br />            \r<br />Required by some carriers for dutiable shipments.",
+            "description": "An abbreviation representing the country where the product was manufactured or produced, following the ISO 3166-1 alpha-2 standard, for example, \"GB\" for the United Kingdom. This information is important for customs declarations and compliance with import/export regulations.",
             "nullable": true,
             "example": "GB"
           },
@@ -8376,7 +8376,7 @@
             "maxLength": 3,
             "minLength": 3,
             "type": "string",
-            "description": "Currency Code\r<br />The currency code used for any monetary value related to the shipment.\r<br />3 letter ISO Currency Code\r<br />            \r<br />*Required if any monetary values other than zero are provided.*",
+            "description": "An abbreviation representing the 3 letter ISO currency code in which the product's **Value** is expressed (for example, \"GBP\" for British pounds, \"EUR\" for euros). This is essential for financial transactions and international trade.",
             "example": "GBP"
           },
           "WeightUnitOfMeasure": {
@@ -8401,17 +8401,17 @@
             "items": {
               "$ref": "#/components/schemas/ProductList"
             },
-            "description": "Products\r<br />The products for the requested page only."
+            "description": "An array containing all products that match the search criteria for the specific page only.  Each object contains detailed information about individual products, including attributes necessary for identification and shipping."
           },
           "TotalCount": {
             "type": "integer",
-            "description": "Total Count\r<br />The total number of products available",
+            "description": "An integer representing the total number of products that match the search criteria. This count provides users with an overview of how many product records are available based on the filters applied.",
             "format": "int32",
             "example": 32
           }
         },
         "additionalProperties": false,
-        "description": "The paged response containing the entities for the requested page only, and the total number available."
+        "description": "An array containing all products that match the search criteria for the specific page only.  Each object contains detailed information about individual products, including attributes necessary for identification and shipping."
       },
       "ProductsSortBy": {
         "enum": [
