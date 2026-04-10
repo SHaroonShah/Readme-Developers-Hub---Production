@@ -23,4 +23,6 @@ In SAPIENT, you can add tracking accounts for DPD Netherlands (NL)  to enhance v
 
 ## How to add DPD NL tracking account
 
+To add a tracking account for DPD NL in SAPIENT, follow the steps as explained in the following procedure.
+
 <br />
