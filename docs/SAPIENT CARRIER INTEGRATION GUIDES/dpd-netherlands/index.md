@@ -9,6 +9,12 @@ icon: fad fa-truck-fast
 metadata:
   robots: index
 ---
+<Image align="center" width="900px" src="https://files.readme.io/67505883534542d666a2fed1d64893c848534290da3ac931e7c09fce390c7fa5-DPD_NL_banner_white.png" />
+
+***
+
+<br />
+
 DPD NL ship domestically and internationally, and approximately 60% of their outbound volume is cross-border.
 
 The integration of DPD NL into the SAPIENT platform is a significant step in enhancing shipping capabilities. This section discusses the in-scope features of this integration and the services this carrier offers
