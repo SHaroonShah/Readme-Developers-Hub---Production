@@ -39,7 +39,7 @@ To add a shipping account for DPD NL in SAPIENT, follow the instructions as expl
 
 4. In the **SHIPPING ACCOUNT** block, enter the necessary information as explained in the following table.
 
-<Image align="center" alt="Specifying shipping account details" border={true} caption="Specifying shipping account details" src="https://files.readme.io/39d87085578107757d9093cbbe563490cfaddc225e515ed2da42c1ab2bef70ee-DPD_UK_Shipping_Account_block.png" width="400px" />
+<Image align="center" caption="Entering shipping account details" src="https://files.readme.io/038ffd980b7ea30489f1537526e454561ca8b4c6207f368f198f7b3a796b76ba-image.png" width="500px" />
 
 <Callout icon="💡" theme="default">
   ### _Tip_
@@ -61,18 +61,6 @@ To add a shipping account for DPD NL in SAPIENT, follow the instructions as expl
   </thead>
 
   <tbody>
-    <tr>
-      <td>
-        **Carrier Account Number***
-      </td>
-
-      <td>
-        Enter the account number, which is the DPD UK client ID.
-
-        _`Note`: If you already have an account with DPD UK that is actively being used, and if you wish to receive tracking via Intersoft, then you need to request a new account number in order to integrate with Intersoft. This request can be made to your DPD account manager._
-      </td>
-    </tr>
-
     <tr>
       <td>
         **Account Name (if different than customer)***
@@ -132,8 +120,6 @@ To add a shipping account for DPD NL in SAPIENT, follow the instructions as expl
 5. In the **CARRIER DETAILS** block, enter the necessary information as explained in the following table.
 
 <Image align="center" caption="Entering carrier-specific details" src="https://files.readme.io/50b1c2b340debdfc89d6ac4056545f954a35b3025eac1f05cc88699c6e481523-image.png" width="600px" />
-
-<br />
 
 <AsteridkForMandatoryElements />
 
