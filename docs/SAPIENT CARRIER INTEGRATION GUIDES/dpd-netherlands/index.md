@@ -54,7 +54,7 @@ The DPD NL integration provides the following additional features:
 The following API services are provided by the DPD NL integration:
 
 * **Create shipment**: The integration for creating shipments to reflect DPD NL as a primary carrier and allowing users to create shipments using the Create Shipment that returns the label in base64 encoded format.
-* **Manifest webhook**: 
+* **Manifest webhook**: Keep track of shipments and their statuses by to receiving real-time updates or notifications whenever specific events occur in the system (such as shipping updates, status changes, and so on) via the SAPIENT Manifest Webhook feature.
 * **Tracking**: Enables data files to be sent via SFTP and received through the SAPIENT tracking webhook.
 
 <br />
