@@ -60,8 +60,9 @@ next:
     <Image align="center" src="https://files.readme.io/770237c3f809f1b4be1ccf51ca8418ce8440069178e4dd4ff1b563d0e4c7210b-An_post_logo_white.png" width="100px" />
   </Card>
 
-<Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/dpd-uk" Width="200">
-    <Image align="center" width="100px" src="https://files.readme.io/5a70a2fe2e38f1d430044d342673286f578e1b246c31b76a319bd1a1aa3574f4-DPD_NL_logo_white.png" />  </Card>
+  <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/dpd-uk" Width="200">
+    <Image align="center" src="https://files.readme.io/5a70a2fe2e38f1d430044d342673286f578e1b246c31b76a319bd1a1aa3574f4-DPD_NL_logo_white.png" width="100px" />
+  </Card>
 
   <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/dpd-uk" Width="200">
     <Image align="center" src="https://files.readme.io/f6c3b60e1634e92c63b0de461282286ee7ab5dc85714c38c4f3e7124f9d3a722-DPD_white_logo.png" width="100px" />
@@ -84,7 +85,7 @@ next:
   </Card>
 
   <Card title="" href="https://docs.intersoftsapient.net/docs/fedex-international" Width="200">
-    <Image align="center" src="https://files.readme.io/3177ea019148646dc790839b457550d5afb4b97147964716a495af50c67c3470-FedEx_white_logo.png" width="100px" />
+    <Image align="center" width="100px" src="https://files.readme.io/3cdb0d5d090de20873f7cd36a635349ab6893f8bcfa0c55e7ff8a6966428e9c6-FIC_logo_white.png" />
   </Card>
 
   <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/inpost#/versions" Width="200">
@@ -144,6 +145,6 @@ next:
   </Card>
 </Cards>
 
-<Image align="center" width="100px" src="https://files.readme.io/5a70a2fe2e38f1d430044d342673286f578e1b246c31b76a319bd1a1aa3574f4-DPD_NL_logo_white.png" />
+
 
 <br />
