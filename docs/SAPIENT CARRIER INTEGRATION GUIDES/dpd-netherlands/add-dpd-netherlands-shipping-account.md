@@ -34,7 +34,7 @@ To add a shipping account for DPD NL in SAPIENT, follow the instructions as expl
 
 |         Element        | Description                                                                                                   |
 | :--------------------: | :------------------------------------------------------------------------------------------------------------ |
-|      **Carrier***      | From the dropdown list, select **DPD UK**.                                                                    |
+|      **Carrier***      | From the dropdown list, select **DPD Netherlands**.                                                           |
 | **Shipping Location*** | From the dropdown menu, select the location that you want to assign to the shipping account you are creating. |
 
 4. In the **SHIPPING ACCOUNT** block, enter the necessary information as explained in the following table.
@@ -131,7 +131,9 @@ To add a shipping account for DPD NL in SAPIENT, follow the instructions as expl
 
 5. In the **CARRIER DETAILS** block, enter the necessary information as explained in the following table.
 
-<Image align="center" alt="Entering carrier details" border={true} caption="Entering carrier details" src="https://files.readme.io/7c33d0683d772640711106d7353fba4e51c9a321c1bcab6c03953d9fcd3b8570-DPD_UK_Carrier_Details_block.png" width="400px" />
+<Image align="center" caption="Entering carrier-specific details" src="https://files.readme.io/50b1c2b340debdfc89d6ac4056545f954a35b3025eac1f05cc88699c6e481523-image.png" width="600px" />
+
+<br />
 
 <AsteridkForMandatoryElements />
 
@@ -151,27 +153,49 @@ To add a shipping account for DPD NL in SAPIENT, follow the instructions as expl
   <tbody>
     <tr>
       <td>
-        **Authorisation code***
+        **DPD Netherlands User ID***
       </td>
 
       <td>
-        Enter a unique 8-digit identifier as your authorisation code for DPD UK. This code is used to validate or link the manifest to the correct shipper or contract.
-
-        _`Note`: This identifier is included in the manifest file names._
+        The unique identifier for the user account associated with DPD Netherlands.
       </td>
     </tr>
 
     <tr>
       <td>
-        **SLID***
+        **DPD Netherlands Password**
       </td>
 
       <td>
-        Enter the unique customer identifier which will be used in the barcode range and manifest files.
+        The secure password used to authenticate the user account with DPD Netherlands.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        **DPD Netherlands Depot Number**
+      </td>
+
+      <td>
+        The unique 4-digit identifier for the specific depot or location where the shipment will be processed.
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        **DPD Netherlands Notification Language***
+      </td>
+
+      <td>
+        The language code used for DPD Netherlands delivery notifications to be sent via Email or SMS—provided in the ISO 3166-1 alpha-2 format, for example, English, Dutch, and French.
+
+        `Note`: _The notifications are only sent if either the Email or SMS enhancement code is provided in the create shipment request._
       </td>
     </tr>
   </tbody>
 </Table>
+
+<br />
 
 6. After entering all the required information, select ![](https://files.readme.io/721eb0f8be0c99a924b61cbca6496517d03fcbbf235aa0c3d579c60b3131df2a-add_shipping_account_button_2.png).
 
