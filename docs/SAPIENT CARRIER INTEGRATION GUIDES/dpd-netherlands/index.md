@@ -40,7 +40,7 @@ The following are the key services are provided by the DPD NL integration:
 <Callout icon="💡" theme="default">
   ### _Tip_
 
-  _For more information on the service enhancements and carrier services, refer to the API References section_
+  _For more information on the service enhancements and carrier services, refer to the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) API endpoint_
 </Callout>
 
 ## Additional features
