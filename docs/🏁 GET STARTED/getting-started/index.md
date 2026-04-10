@@ -60,7 +60,7 @@ next:
     <Image align="center" src="https://files.readme.io/770237c3f809f1b4be1ccf51ca8418ce8440069178e4dd4ff1b563d0e4c7210b-An_post_logo_white.png" width="100px" />
   </Card>
 
-  <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/dpd-uk" Width="200">
+  <Card title="" href="https://docs.intersoftsapient.net/docs/dpd-netherlands" Width="200">
     <Image align="center" src="https://files.readme.io/5a70a2fe2e38f1d430044d342673286f578e1b246c31b76a319bd1a1aa3574f4-DPD_NL_logo_white.png" width="100px" />
   </Card>
 
@@ -85,7 +85,7 @@ next:
   </Card>
 
   <Card title="" href="https://docs.intersoftsapient.net/docs/fedex-international" Width="200">
-    <Image align="center" width="100px" src="https://files.readme.io/02c517573a3d4b0e14de43871278942ed82b450abc4b51c39c0e3da92ea06bda-FIC_logo_white.png" />
+    <Image align="center" src="https://files.readme.io/02c517573a3d4b0e14de43871278942ed82b450abc4b51c39c0e3da92ea06bda-FIC_logo_white.png" width="100px" />
   </Card>
 
   <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/inpost#/versions" Width="200">
@@ -144,5 +144,3 @@ next:
     > See our 99.9% uptime API status.
   </Card>
 </Cards>
-
-
