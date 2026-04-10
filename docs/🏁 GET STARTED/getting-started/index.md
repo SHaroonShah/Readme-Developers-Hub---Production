@@ -85,7 +85,7 @@ next:
   </Card>
 
   <Card title="" href="https://docs.intersoftsapient.net/docs/fedex-international" Width="200">
-    <Image align="center" width="100px" src="https://files.readme.io/3cdb0d5d090de20873f7cd36a635349ab6893f8bcfa0c55e7ff8a6966428e9c6-FIC_logo_white.png" />
+    <Image align="center" width="100px" src="https://files.readme.io/02c517573a3d4b0e14de43871278942ed82b450abc4b51c39c0e3da92ea06bda-FIC_logo_white.png" />
   </Card>
 
   <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/inpost#/versions" Width="200">
@@ -146,5 +146,3 @@ next:
 </Cards>
 
 
-
-<br />
