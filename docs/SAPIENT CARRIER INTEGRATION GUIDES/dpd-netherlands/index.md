@@ -4,7 +4,7 @@ excerpt: >-
   DPD Netherlands (NL) is the branch of DPD operating in the Netherlands and is
   part of Geopost group.
 deprecated: false
-hidden: true
+hidden: false
 icon: fad fa-truck-fast
 metadata:
   robots: index
