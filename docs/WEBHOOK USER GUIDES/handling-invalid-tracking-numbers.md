@@ -29,15 +29,17 @@ Use this endpoint when you need:
   <Card title="Royal Mail only" icon="fa-truck">
     This endpoint supports Royal Mail shipments only.
   </Card>
+
   <Card title="30-day tracking window" icon="fa-calendar">
     Tracking updates are retained and pushed for up to 30 days from registration.
   </Card>
+
   <Card title="Batch limit" icon="fa-boxes-stacked">
     Submit up to 1,000 tracking numbers in a single `POST /v4/trackings` request.
   </Card>
 </Cards>
 
-## How it works
+# How it works
 
 1. Create a Royal Mail shipment, or obtain valid Royal Mail tracking numbers.
 2. Register the tracking numbers by submitting them to `POST /v4/trackings`.
@@ -61,34 +63,26 @@ Tracking registration is supported only for the following Royal Mail trackable s
 
 <Columns layout="auto">
   <Column>
+    ### Domestic services
 
-  ### Domestic services
-
-  * Tracked Standard
-  * Tracked High Volume
-  * Tracked Returns
-  * Special Delivery
-
+    * Tracked Standard
+    * Tracked High Volume
+    * Tracked Returns
+    * Special Delivery
   </Column>
+
   <Column>
+    ### International services
 
-  ### International services
-
-  * International Tracked
-  * International Signed
-  * International Tracked and Signed
-
+    * International Tracked
+    * International Signed
+    * International Tracked and Signed
   </Column>
 </Columns>
 
 Tracking registration requests submitted for unsupported products will not return tracking updates.
 
-## Request limits
-
-* Submit up to 1,000 tracking numbers in a single `POST /v4/trackings` request.
-* Use large submissions to register shipments in bulk with minimal API overhead.
-
-## Handle invalid tracking numbers
+# Handle invalid tracking numbers
 
 If a batch contains invalid tracking numbers, the [Trackings](https://docs.intersoftsapient.net/reference/post_v4-trackings) API continues processing the valid ones and reports the invalid entries separately.
 
