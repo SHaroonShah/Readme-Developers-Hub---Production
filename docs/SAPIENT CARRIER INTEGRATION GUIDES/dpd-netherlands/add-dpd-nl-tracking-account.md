@@ -6,6 +6,7 @@ excerpt: >-
   lifecycle which is received via the SAPIENT tracking webhook.
 deprecated: false
 hidden: false
+icon: fad fa-calendar-circle-plus
 metadata:
   robots: index
 ---
