@@ -34,7 +34,7 @@ Use this endpoint when you need:
     Tracking updates are retained and pushed for up to 30 days from registration.
   </Card>
 
-  <Card title="Batch limit" icon="fa-boxes-stacked">
+  <Card title="Batch Processing" icon="fa-boxes-stacked">
     Submit up to 1,000 tracking numbers in a single `POST /v4/trackings` request.
   </Card>
 </Cards>
