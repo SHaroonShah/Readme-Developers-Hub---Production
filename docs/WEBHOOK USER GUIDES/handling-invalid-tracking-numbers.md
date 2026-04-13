@@ -43,19 +43,19 @@ Use this endpoint when you need:
 
 1. Create a Royal Mail shipment, or obtain valid Royal Mail tracking numbers.
 2. Register the tracking numbers by submitting them to `POST /v4/trackings`.
-3. Intersoft begins monitoring the registered shipments.
-4. Intersoft pushes tracking updates to your webhook endpoint as events occur.
+3. INTERSOFT begins monitoring the registered shipments.
+4. INTERSOFT pushes tracking updates to your webhook endpoint as events occur.
 
 ## Tracking window and delivery behaviour
 
 * Tracking updates are retained and pushed for up to 30 days from registration.
 * After the 30‑day tracking window expires, updates for the registered tracking numbers are no longer generated.
 * Real-time tracking updates are delivered through webhook notifications.
-* No historical tracking events are sent when a tracking number is registered. Intersoft pushes only events that occur after registration.
+* No historical tracking events are sent when a tracking number is registered. INTERSOFT pushes only events that occur after registration.
 
 ## Retry behaviour
 
-If your webhook endpoint is temporarily unavailable, Intersoft retries delivery for up to 72 hours. After the retry window expires, undelivered events are discarded.
+If your webhook endpoint is temporarily unavailable, INTERSOFT retries delivery for up to 72 hours. After the retry window expires, undelivered events are discarded.
 
 ## Supported Royal Mail products
 
