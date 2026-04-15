@@ -31,10 +31,10 @@ This integration provides the following key features:
 
 > 📘 _Note_
 >
-> For returns shipments, the carrier uses the following label formats:
+> _For returns shipments, the carrier uses the following label formats:_
 >
-> * _QRCode_
-> * _QRCodeAndPDF_
+> * _QRCode_: _Digital‑only return label. Customer presents a QR code at a DPD Service Point, where the return label is printed and applied by DPD. No PDF label is provided._
+> * _QRCodeAndPDF_: _Hybrid return label. Customer receives both a QR code and a printable PDF label, allowing either print‑free returns at a Service Point or self‑printed label attachment._
 
 ## Service enhancements
 
