@@ -144,7 +144,7 @@ To add a shipping account for DPD NL in SAPIENT, follow the instructions as expl
       </td>
 
       <td>
-        The unique identifier for the user account associated with DPD Netherlands.
+        Enter unique identifier for the user account associated with DPD Netherlands.
       </td>
     </tr>
 
@@ -154,7 +154,7 @@ To add a shipping account for DPD NL in SAPIENT, follow the instructions as expl
       </td>
 
       <td>
-        The secure password used to authenticate the user account with DPD Netherlands.
+        Enter the secure password used to authenticate the user account with DPD Netherlands.
       </td>
     </tr>
 
@@ -164,7 +164,7 @@ To add a shipping account for DPD NL in SAPIENT, follow the instructions as expl
       </td>
 
       <td>
-        The unique 4-digit identifier for the specific depot or location where the shipment will be processed.
+        Enter the unique 4-digit identifier for the specific depot or location where the shipment will be processed.
       </td>
     </tr>
 
@@ -174,7 +174,7 @@ To add a shipping account for DPD NL in SAPIENT, follow the instructions as expl
       </td>
 
       <td>
-        The language code used for DPD Netherlands delivery notifications to be sent via Email or SMS—provided in the ISO 3166-1 alpha-2 format, for example, English, Dutch, and French.
+        Enter the language code used for DPD Netherlands delivery notifications to be sent via Email or SMS—provided in the ISO 3166-1 alpha-2 format, for example, English, Dutch, and French.
 
         `Note`: _The notifications are only sent if either the Email or SMS enhancement code is provided in the create shipment request._
       </td>
