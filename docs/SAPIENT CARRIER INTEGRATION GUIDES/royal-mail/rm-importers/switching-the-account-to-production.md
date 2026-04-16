@@ -23,7 +23,7 @@ To set up the  Production <Glossary>Shipping Account</Glossary>, perform the fol
 
 > 🚧 _Important_
 >
-> _Please ensure to enter the Posting Location Number Postcode in the **Shipping Locations** screen in SAPIENT which must match the Posting Location Number Postcode provided in the Royal Mail OBA._
+> _Please ensure to enter the Posting Location Number Postcode in the **Shipping Locations** screen in SAPIENT,  which must match the Posting Location Number Postcode provided in the Royal Mail OBA._
 
 2. After switching the Shipping Account to **Production**, an automatic request is sent to the Royal Mail OBA API. Depending on the account details provided, the system either accept it or reject it.
 3. If the OBA request is accepted, the **Account Status** changes from **Pending** to **Enabled**. Otherwise, it remains in the **Pending** state and you need to go back, fill in the correct Royal Mail account details and send the request again. You will be unable to use the **Production** Shipping Account until the Account Status is **Enabled**.
