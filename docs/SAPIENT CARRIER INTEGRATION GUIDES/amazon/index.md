@@ -12,7 +12,7 @@ icon: fad fa-truck-fast
 metadata:
   robots: index
 ---
-<Image align="center" border={false} width="900px" src="https://files.readme.io/79cb618e1191e3516e756266138d9bec63db210f2763f8d1ce8f27804893dfea-Amazon_white_banner.png" />
+<Image align="center" width="900px" src="https://files.readme.io/79cb618e1191e3516e756266138d9bec63db210f2763f8d1ce8f27804893dfea-Amazon_white_banner.png" />
 
 ***
 
@@ -44,6 +44,8 @@ The following are the key services are provided by the Amazon integration:
 The Amazon integration provides the following additional features:
 
 * **Single package services**:  Amazon only supports single package services.
+* **Seller display name**: Allows the shipper to display the seller name of the tracking communications and website, even if shipping under a different business name.
+* **Label customisation**: Allows shippers to customise shipping labels by adding details, such as referenceId/OrderId or seller name.
 * **Carrier specific fields**: The **CarrierSpecifics** object in the **Create Shipment** request contains the following fields:
   * **DeliveryInstructions**: To provide any additional instructions to the carrier regarding the delivery of the shipment.
   * **AmazonOrderID**: The unique Amazon ID for each order, which is only mandatory for On Amazon shipments.
