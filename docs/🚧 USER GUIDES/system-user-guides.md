@@ -61,4 +61,16 @@ allowfullscreen>
 </div>
 `}</HTMLBlock>
 
+<HTMLBlock>{`
+<div style="position: relative; padding-top: 56.25%;">
+  <iframe
+    src="https://customer-l3n6gmw8bpff5v82.cloudflarestream.com/34e3bd7ff3061be7fce5ae80471679bf/iframe?poster=https%3A%2F%2Fcustomer-l3n6gmw8bpff5v82.cloudflarestream.com%2F34e3bd7ff3061be7fce5ae80471679bf%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600"
+    loading="lazy"
+    style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"
+    allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;"
+    allowfullscreen="true"
+  ></iframe>
+</div>
+`}</HTMLBlock>
+
 <br />
