@@ -1,7 +1,7 @@
 ---
 title: Switch account to production
 excerpt: >-
-  The switching of the account from **Sandbox** to the **Production**
+  The switching of the shipping account from **Sandbox** to the **Production**
   environment occurs after thorough testing is completed in the **Sandbox**
   environment, ensuring that all functionalities work as intended, bugs have
   been fixed, and performance is optimised.
