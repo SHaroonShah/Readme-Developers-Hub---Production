@@ -1,10 +1,10 @@
 ---
 title: Switch account to production
 excerpt: >-
-  The switching of the account to the **Production** environment occurs after
-  thorough testing is completed in the **Sandbox** environment, ensuring that
-  all functionalities work as intended, bugs have been fixed, and performance is
-  optimised.
+  The switching of the account from **Sandbox** to the **Production**
+  environment occurs after thorough testing is completed in the **Sandbox**
+  environment, ensuring that all functionalities work as intended, bugs have
+  been fixed, and performance is optimised.
 deprecated: false
 hidden: false
 icon: fad fa-arrow-up-right-dots
@@ -19,9 +19,14 @@ Following the [Test Pack](https://docs.intersoftsapient.net/docs/royal-mail-impo
 
 To set up the  Production <Glossary>Shipping Account</Glossary>, perform the following steps.
 
-1. Add a [Shipping Account](https://docs.intersoftsapient.net/docs/add-a-shipping-account), ensuring that the <Glossary>account type</Glossary> is set to **Production**, and it is prepopulated with the correct Royal Mail account details, Royal Mail Account Number, Posting Location and Registered Email Address (email address used to access your <Glossary>Online Business Account</Glossary> (OBA) to view billing and reporting). For more information on how to fill in the fields, refer to the [Set up Royal Mail Shipping Account.](https://docs.intersoftsapient.net/docs/shipping-account-requirements) section.
-2. After the Shipping Account, an automatic request is sent to the OBA team. It may take 2-5 working days for them to review it and either accept it or reject it (depending if the Royal Mail account details provided were correct).
-3. If the OBA request is accepted, the **Account Status** changes from **Disabled** to **Enabled**. Otherwise, it remains disabled and you need to go back, fill in the correct Royal Mail account details and send the request again.  
+1. Edit the [Shipping Account](https://docs.intersoftsapient.net/docs/add-a-shipping-account), ensuring that the <Glossary>account type</Glossary> is set to **Production**, and it is prepopulated with the correct Royal Mail account details, Royal Mail Account Number, Posting Location Number (PLN), Registered Email Address (email address used to access your <Glossary>Online Business Account</Glossary> (OBA) to view billing and reporting), and Registered Billing Postcode. For more information on how to fill in the fields, refer to the [Set up Royal Mail Shipping Account.](https://docs.intersoftsapient.net/docs/shipping-account-requirements) section.
+
+> 🚧 _Important_
+>
+> _Please ensure to enter the Posting Location Number Postcode in the **Shipping Locations** screen in SAPIENT which must match the Posting Location Number Postcode provided in the Royal Mail OBA._
+
+2. After switching the Shipping Account to **Production**, an automatic request is sent to the Royal Mail OBA API. Depending on the account details provided, the system either accept it or reject it.
+3. If the OBA request is accepted, the **Account Status** changes from **Pending** to **Enabled**. Otherwise, it remains in the **Pending** state and you need to go back, fill in the correct Royal Mail account details and send the request again.  
    You will be unable to use the Production Shipping Account until the Account Status is Enabled.
 
 <Callout icon="💡" theme="default">
