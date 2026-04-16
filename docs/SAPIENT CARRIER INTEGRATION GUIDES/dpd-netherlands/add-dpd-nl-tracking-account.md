@@ -14,7 +14,7 @@ In SAPIENT, you can add tracking accounts for DPD Netherlands (NL)  to enhance v
 
 > 🚧 _Important_
 >
-> _Prior to adding a DPD UK tracking account, make sure you have completed the following prerequisites:_
+> _Prior to adding a DPD NL tracking account, make sure you have completed the following prerequisites:_
 >
 > 1. _Enabled the <Anchor label="label integration" target="_blank" href="https://docs.intersoftsapient.net/docs/integration-activation">label integration</Anchor> with DPD NL._
 > 2. _Enabled the <Anchor label="tracking integration" target="_blank" href="https://docs.intersoftsapient.net/docs/integration-activation">tracking integration</Anchor> with DPD NL._
