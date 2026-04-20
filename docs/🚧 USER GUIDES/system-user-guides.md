@@ -53,7 +53,7 @@ metadata:
 <HTMLBlock>{`
 <div style="display: flex; justify-content: center;">
 <iframe width="560" height="315" 
-src="https://customer-l3n6gmw8bpff5v82.cloudflarestream.com/34e3bd7ff3061be7fce5ae80471679bf/iframe?poster=https%3A%2F%2Fcustomer-l3n6gmw8bpff5v82.cloudflarestream.com%2F34e3bd7ff3061be7fce5ae80471679bf%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600" 
+src="https://media.intersoftsapient.net/videos/Intersoft_Delivery_Journey.mp4" 
 title="YouTube video player" frameborder="0" 
 allow="accelerometer" align="center" autoplay="false; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen>
@@ -62,14 +62,3 @@ allowfullscreen>
 `}</HTMLBlock>
 
 <br />
-
-<HTMLBlock>{`
-<div style="display: flex; justify-content: center;">
-<iframe width="560" height="315" 
-src="https://media.intersoftsapient.net/videos/Intersoft_Delivery_Journey.mp4" 
-title="YouTube video player" frameborder="0" 
-allow="accelerometer" align="center" autoplay="false; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen>
-  </iframe>
-</div>
-`}</HTMLBlock>
