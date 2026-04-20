@@ -29,8 +29,13 @@ To add a shipping account for DHL Germany in SAPIENT, perform the steps as expla
 
 3. On the **Add Shipping Account** form that appears, in the **ACCOUNT DETAILS** block, fill in the necessary information as described in the following table.
 
-<Callout icon="👍">
+<Image align="center" width="500px" src="https://files.readme.io/b7085aee7b1ca45c493a419c93c6866dac2426be296db4862aa890412013e36d-image.png" />
 
-</Callout>
+<AsteridkForMandatoryElements />
 
-<br />
+| Element                | Description                                                                                                   |
+| :--------------------- | :------------------------------------------------------------------------------------------------------------ |
+| **Carrier***           | From the dropdown list, select DHLDE -  DHL Germany.                                                          |
+| **Shipping Location*** | From the dropdown menu, select the location that you want to assign to the shipping account you are creating. |
+
+4. <br />
