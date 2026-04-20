@@ -52,12 +52,15 @@ metadata:
 
 <HTMLBlock>{`
 <div style="position: relative; padding-top: 56.25%;">
-  <iframe
+  <video
     src="https://media.intersoftsapient.net/videos/Intersoft_Delivery_Journey.mp4"
-    loading="lazy"
-    style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"
-    allow="accelerometer" autoplay="false; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"
-  ></iframe>
+    controls
+    preload="metadata"
+    playsinline
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+  >
+    Sorry, your browser doesn’t support embedded videos.
+  </video>
 </div>
 `}</HTMLBlock>
 
