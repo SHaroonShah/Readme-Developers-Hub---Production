@@ -51,13 +51,14 @@ metadata:
 ***
 
 <HTMLBlock>{`
-<div style="display: flex; justify-content: center;">
-<iframe width="560" height="315" 
-src="https://media.intersoftsapient.net/videos/Intersoft_Delivery_Journey.mp4" 
-title="YouTube video player" frameborder="0" 
-allow="accelerometer" align="center; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen>
-  </iframe>
+<div style="position: relative; padding-top: 56.25%;">
+  <iframe
+    src="https://media.intersoftsapient.net/videos/Intersoft_Delivery_Journey.mp4"
+    loading="lazy"
+    style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"
+    allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;"
+    allowfullscreen="true"
+  ></iframe>
 </div>
 `}</HTMLBlock>
 
