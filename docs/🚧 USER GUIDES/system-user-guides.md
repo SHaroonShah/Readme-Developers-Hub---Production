@@ -56,8 +56,7 @@ metadata:
     src="https://media.intersoftsapient.net/videos/Intersoft_Delivery_Journey.mp4"
     loading="lazy"
     style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"
-    allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;"
-    allowfullscreen="true"
+    allow="accelerometer" autoplay="false; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"
   ></iframe>
 </div>
 `}</HTMLBlock>
