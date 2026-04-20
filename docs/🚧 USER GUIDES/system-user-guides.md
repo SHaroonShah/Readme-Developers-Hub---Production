@@ -51,7 +51,7 @@ metadata:
 ***
 
 <HTMLBlock>{`
-<div style="position: center; padding-top: 56.25%;">
+<div style="position: relative; padding-top: 56.25%;">
   <video
     src="https://media.intersoftsapient.net/videos/Intersoft_Delivery_Journey.mp4"
     controls
