@@ -10,8 +10,6 @@ icon: fad fa-calendar-circle-plus
 metadata:
   robots: index
 ---
-> 🚧 _Important_
->
-> _This integration is currently under development. The contents are to be updated as soon as possible._
+In SAPIENT, you can add tracking accounts for DHL Germany  to enhance visibility, improving customer interactions, and streamlining logistics operations for DHL Germany.
 
 <br />
