@@ -66,10 +66,11 @@ The following API services are provided by the DHL Germany integration:
 
 In this section, learn how to:
 
-* [Add an An Post shipping account](https://docs.intersoftsapient.net/docs/add-an-post-shipping-account#/)
-* [Add an An Post tracking account](https://docs.intersoftsapient.net/docs/add-an-post-tracking-account#/)
-* [Add barcode range to an An Post shipping account](https://docs.intersoftsapient.net/docs/add-barcode-range-for-an-post-shipping-account#/)
+* <Anchor label="Add a DHL Germany shipping account" target="_blank" href="https://docs.intersoftsapient.net/docs/add-dhl-de-shipping-account">Add a DHL Germany shipping account</Anchor>
+* <Anchor label="Add a DHL Germany tracking account" target="_blank" href="https://docs.intersoftsapient.net/docs/add-dhl-de-tracking-account">Add a DHL Germany tracking account</Anchor>
 
 > 📘 _Note_
 >
 > _For more information on how to activate the An Post integration, refer to the [Activate integration](https://docs.intersoftsapient.net/docs/integration-activation#/) section._
+
+<br />
