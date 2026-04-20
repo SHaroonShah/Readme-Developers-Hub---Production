@@ -55,7 +55,7 @@ metadata:
 <iframe width="560" height="315" 
 src="https://media.intersoftsapient.net/videos/Intersoft_Delivery_Journey.mp4" 
 title="YouTube video player" frameborder="0" 
-allow="accelerometer" align="center" autoplay="false; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+allow="accelerometer" align="center; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen>
   </iframe>
 </div>
