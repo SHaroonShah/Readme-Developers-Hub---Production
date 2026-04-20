@@ -57,7 +57,7 @@ metadata:
     controls
     preload="metadata"
     playsinline
-    style="position: absolute; top: 0; left: 0; width: 50%; height: 50%;"
+    style="position: absolute; top: 0; left: 0; width: 85%; height: 85%;"
   >
     Sorry, your browser doesn’t support embedded videos.
   </video>
