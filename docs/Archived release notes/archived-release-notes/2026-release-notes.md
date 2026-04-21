@@ -337,7 +337,7 @@ metadata:
     * **Print Label**: Generate a label for the DPD Netherlands shipment.
   * **DPD Netherlands shipping account screen**. As part of the new integration, customer users and Carrier Account Administrators can now configure the DPD Netherlands shipping account via the SAPIENT UI for creating shipments.  The **Add Shipping Account** screen now includes DPD Netherlands as a carrier for selection, with mandatory fields required for configuration.
 
-    ## Swagger updates
+  ## Swagger updates
 
   The query and response field descriptions for our following CORE API endpoints have been updated to improve clarity and support correct usage of the API:
 
