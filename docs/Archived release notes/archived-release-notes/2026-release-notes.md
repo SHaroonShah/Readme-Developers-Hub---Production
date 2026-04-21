@@ -284,66 +284,66 @@ metadata:
   Routine back-end work and minor UI improvements were addressed and deployed.
 </Accordion>
 
-<br />
-
 <Accordion title="SAPIENT release notes - April 08, 2026" icon="">
- ## Multi-Factor Authentication (MFA) for SAPIENT
+  ## Multi-Factor Authentication (MFA) for SAPIENT
 
   Multi‑Factor Authentication (MFA) has been added to the SAPIENT user interface to enhance account security. When enabled at customer account level, all users are required to complete a two‑step verification during login. After entering their username and password, a one‑time verification code is sent to the user’s registered SAPIENT email address, which must be entered to access the platform. Additionally, users can choose to snooze the MFA prompt for up to 14 days.
 
-> 📘 _Note_
->
-> _Please note that the MFA feature will not be enforced upon deployment. By default, it will be disabled for all customer accounts unless it is activated by a Customer Administrator with the **User Administrator** permission_.
->
-> _For more information on the MFA process, refer to the following guides:_
->
-> * _[Enable Multi-Factor Authentication on SAPIENT](https://docs.intersoftsapient.net/docs/enable-multi-factor-authentication-on-sapient)_
-> * _[Log in to SAPIENT](https://docs.intersoftsapient.net/docs/log-in)_
+  > 📘 *Note*
+  >
+  > *Please note that the MFA feature will not be enforced upon deployment. By default, it will be disabled for all customer accounts unless it is activated by a Customer Administrator with the**User Administrator** permission*.
+  >
+  > *For more information on the MFA process, refer to the following guides:*
+  >
+  > * *[Enable Multi-Factor Authentication on SAPIENT](https://docs.intersoftsapient.net/docs/enable-multi-factor-authentication-on-sapient)*
+  > * *[Log in to SAPIENT](https://docs.intersoftsapient.net/docs/log-in)*
 
-
- ## Handle invalid tracking numbers
+  ## Handle invalid tracking numbers
 
   The SAPIENT's **Trackings** API  has been enhanced to improve visibility and handling of invalid tracking numbers submitted in batch requests.
 
-The API now accepts and processes all tracking numbers supplied in a single request (up to 1,000), without failing the entire batch when invalid entries are present. Valid tracking numbers are registered as normal, while invalid tracking numbers are identified and excluded from registration with Royal Mail.
+  The API now accepts and processes all tracking numbers supplied in a single request (up to 1,000), without failing the entire batch when invalid entries are present. Valid tracking numbers are registered as normal, while invalid tracking numbers are identified and excluded from registration with Royal Mail.
 
-Invalid tracking numbers are automatically marked as "DO NOT TRACK," and a corresponding tracking event is generated and sent to the customer via the Intersoft tracking webhook. This event provides clear feedback without impacting the processing of valid tracking numbers.
+  Invalid tracking numbers are automatically marked as "DO NOT TRACK," and a corresponding tracking event is generated and sent to the customer via the Intersoft tracking webhook. This event provides clear feedback without impacting the processing of valid tracking numbers.
 
-> 📘 _Note_
->
-  > _For more information, refer to the [Handle invalid tracking numbers](https://docs.intersoftsapient.net/docs/handling-invalid-tracking-numbers) guide._
+  > 📘 *Note*
+  >
+  > *For more information, refer to the[Handle invalid tracking numbers](https://docs.intersoftsapient.net/docs/handling-invalid-tracking-numbers) guide.*
 
- ## Tracking Webhook setup - UI enhancements
-A new mandatory **Notification Email** field has been added to the **Tracking Webhook** setup screen in SAPIENT. This email address will be used to receive webhook suspension notifications and replaces the previous behaviour where notifications were sent to the primary user email on the customer account.
+  ## Tracking Webhook setup - UI enhancements
 
-> 📘 _Note_
->
-> _Customers who already have a tracking webhook configured on SAPIENT, the new email field will be pre‑populated with the primary user email. Customers can review and update the email at any time._
+  A new mandatory **Notification Email** field has been added to the **Tracking Webhook** setup screen in SAPIENT. This email address will be used to receive webhook suspension notifications and replaces the previous behaviour where notifications were sent to the primary user email on the customer account.
+
+  > 📘 *Note*
+  >
+  > *Customers who already have a tracking webhook configured on SAPIENT, the new email field will be pre‑populated with the primary user email. Customers can review and update the email at any time.*
 
   ## New integration - DPD Netherlands (NL)
-The DPD Netherlands (NL) integration has been added to the SAPIENT system. This integration supports shipping domestically within the Netherlands, and to EU, GB, and Rest of World destinations. With this addition, the following information has been added to the swagger documentation:
 
-**New API endpoints**. A new **DPD NETHERLANDS** block has been added to our carrier-specific APIs. This block includes the following API endpoints:
+  The DPD Netherlands (NL) integration has been added to the SAPIENT system. This integration supports shipping domestically within the Netherlands, and to EU, GB, and Rest of World destinations. With this addition, the following information has been added to the swagger documentation:
 
-* **Shipping Account**
-  * **Get Accounts**: Retrieve a list of the DPD Netherlands shipping accounts.
-  * **Add Account**: Add a new DPD Netherlands shipping account.
-  * **Get Account**: Retrieve details of a specific DPD Netherlands shipping account.
-  * **Update Account**: Update details of an existing DPD Netherlands shipping account.
-  * **Link Locations**: Link shipping locations to a DPD Netherlands shipping accounts.
-  * **Get Associated Locations**: Retrieve locations linked to the DPD Netherlands shipping account.
-  * **Get Associated Location**: Retrieve details for a specific DPD Netherlands associated location.
-* **Shipments**
-  * **Create Shipment**: Create a new DPD Netherlands shipment request.
-  * **Print Label**: Generate a label for the DPD Netherlands shipment.
-* **DPD Netherlands shipping account screen**. As part of the new integration, customer users and Carrier Account Administrators can now configure the DPD Netherlands shipping account via the SAPIENT UI for creating shipments.  The **Add Shipping Account** screen now includes DPD Netherlands as a carrier for selection, with mandatory fields required for configuration.
+  **New API endpoints**. A new **DPD NETHERLANDS** block has been added to our carrier-specific APIs. This block includes the following API endpoints:
 
-  ## Swagger updates
-The query and response field descriptions for our following CORE API endpoints have been updated to improve clarity and support correct usage of the API:
+  * **Shipping Account**
+    * **Get Accounts**: Retrieve a list of the DPD Netherlands shipping accounts.
+    * **Add Account**: Add a new DPD Netherlands shipping account.
+    * **Get Account**: Retrieve details of a specific DPD Netherlands shipping account.
+    * **Update Account**: Update details of an existing DPD Netherlands shipping account.
+    * **Link Locations**: Link shipping locations to a DPD Netherlands shipping accounts.
+    * **Get Associated Locations**: Retrieve locations linked to the DPD Netherlands shipping account.
+    * **Get Associated Location**: Retrieve details for a specific DPD Netherlands associated location.
+  * **Shipments**
+    * **Create Shipment**: Create a new DPD Netherlands shipment request.
+    * **Print Label**: Generate a label for the DPD Netherlands shipment.
+  * **DPD Netherlands shipping account screen**. As part of the new integration, customer users and Carrier Account Administrators can now configure the DPD Netherlands shipping account via the SAPIENT UI for creating shipments.  The **Add Shipping Account** screen now includes DPD Netherlands as a carrier for selection, with mandatory fields required for configuration.
 
-* **Get Products**
-* **Add Product**
-* **Delete Product**
-* **Get Product**
-* **Update Product**
+    ## Swagger updates
+
+  The query and response field descriptions for our following CORE API endpoints have been updated to improve clarity and support correct usage of the API:
+
+  * **Get Products**
+  * **Add Product**
+  * **Delete Product**
+  * **Get Product**
+  * **Update Product**
 </Accordion>
