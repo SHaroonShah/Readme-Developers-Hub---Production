@@ -13,8 +13,11 @@ export const Card = ({ children, href, icon, iconColor, title, tooltip }) => {
       `}
       href={href}
 
-title={tooltip || title}              // 👈 hover title (tooltip)
-      aria-label={tooltip || title}
+
+// ✅ Tooltip only when tooltip is provided
+      {...(tooltip ? { title: tooltip } : {})}
+      // (Optional but recommended) accessibility label only when tooltip exists
+      {...(tooltip ? { 'aria-label': tooltip } : {})}
 
       // Always open in a new tab if href exists
       {...(href ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
