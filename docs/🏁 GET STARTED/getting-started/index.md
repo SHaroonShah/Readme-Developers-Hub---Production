@@ -145,8 +145,4 @@ next:
   </Card>
 </Cards>
 
-<HTMLBlock>{`
-<div class="rounded-md border border-gray-200 bg-white p-5 shadow-sm dark:border-white/10 dark:bg-inherit"></div>
-`}</HTMLBlock>
-
 <br />
