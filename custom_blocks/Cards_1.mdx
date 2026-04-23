@@ -3,7 +3,7 @@ name: Cards_1
 ---
 import React from 'react';
 
-export const Card = ({ children, href, icon, iconColor, title }) => {
+export const Card = ({ children, href, icon, iconColor, title, tooltip }) => {
   const Tag = href ? 'a' : 'div';
   return (
     <Tag
@@ -12,6 +12,10 @@ export const Card = ({ children, href, icon, iconColor, title }) => {
         ${href && 'no-underline! text-inherit! hover:bg-gray-100 dark:hover:bg-gray-600'}
       `}
       href={href}
+
+title={tooltip || title}              // 👈 hover title (tooltip)
+      aria-label={tooltip || title}
+
       // Always open in a new tab if href exists
       {...(href ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
     >
