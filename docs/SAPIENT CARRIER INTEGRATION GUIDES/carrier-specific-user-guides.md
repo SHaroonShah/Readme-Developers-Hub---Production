@@ -21,7 +21,7 @@ In this section you can access various guides developed for each available <Glos
 The following carrier guides are included in this section:
 
 <Cards columns="5">
-  <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/royal-mail#/versions" Width="200">
+  <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/royal-mail#/versions" Width="200" tooltip="Royal Mail">
     <Image align="center" src="https://files.readme.io/ca682034958fed59c591856e8e0d48b40f426d2b7a3adabf3b48e8b441485302-RM_white_logo.png" width="100px" />
   </Card>
 
