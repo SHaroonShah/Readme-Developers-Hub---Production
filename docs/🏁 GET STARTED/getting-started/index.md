@@ -61,7 +61,7 @@ next:
   </Card>
 
   <Card title="" href="https://docs.intersoftsapient.net/docs/dpd-netherlands" Width="200">
-    <Image align="center" width="100px" src="https://files.readme.io/6b80e2829d7d7b13fa471d18608848f7e0542e1d69b95f169ad61f48a0f8de2a-DPD_NL_logo_white.png" />
+    <Image align="center" src="https://files.readme.io/6b80e2829d7d7b13fa471d18608848f7e0542e1d69b95f169ad61f48a0f8de2a-DPD_NL_logo_white.png" width="100px" />
   </Card>
 
   <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/dpd-uk" Width="200">
@@ -85,7 +85,7 @@ next:
   </Card>
 
   <Card title="" href="https://docs.intersoftsapient.net/docs/fedex-international" Width="200">
-    <Image align="center" src="https://files.readme.io/02c517573a3d4b0e14de43871278942ed82b450abc4b51c39c0e3da92ea06bda-FIC_logo_white.png" width="100px" />
+    <Image align="center" width="100px" src="https://files.readme.io/fc1e60381ccba518401eda112d1bd50a456c6ffbc4d2002da3b0d5e43e42f343-FIC_logo_white.png" />
   </Card>
 
   <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/inpost#/versions" Width="200">
@@ -146,5 +146,3 @@ next:
 </Cards>
 
 
-
-<br />
