@@ -57,19 +57,3 @@ next:
   **Royal Mail Integration**\
   The Royal Mail Create Shipment API response now includes the ‘PartnerDetails’ field. This field is populated when a partnerLabel is used and left blank when a partnerLabel is not used for the shipment. For more information on creating a Royal Mail shipment, please refer to the API reference page and the Royal Mail API section.
 </details>
-
-<div className="rounded-md border border-gray-200 bg-white p-5 shadow-sm dark:border-white/10 dark:bg-inherit">
-  <Cards columns={3}>
-    <Card title="First Card" href="https://readme.com" icon="fa-home" iconColor="blue" tooltip="Go to ReadMe">
-      *Lorem ipsum dolor sit amet, consectetur adipiscing elit*
-    </Card>
-
-    <Card title="Third Card" icon="fa-star" iconColor="blue-500">
-      `Ut enim ad minim veniam, quis nostrud ullamco`
-    </Card>
-
-    <Card title="Fourth Card" icon="fa-question" iconColor="blue-500" tooltip="Help & FAQs">
-      **Excepteur sint occaecat cupidatat non proident**
-    </Card>
-  </Cards>
-</div>
