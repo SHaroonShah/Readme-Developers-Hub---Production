@@ -144,19 +144,3 @@ next:
     > See our 99.9% uptime API status.
   </Card>
 </Cards>
-
-<div className="rounded-md border border-gray-200 bg-white p-5 shadow-sm dark:border-white/10 dark:bg-inherit">
-  <Cards columns={3}>
-    <Card title="First Card" href="https://readme.com" icon="fa-home" iconColor="blue" tooltip="Go to ReadMe">
-      *Lorem ipsum dolor sit amet, consectetur adipiscing elit*
-    </Card>
-
-    <Card title="Third Card" icon="fa-star" iconColor="blue-500">
-      `Ut enim ad minim veniam, quis nostrud ullamco`
-    </Card>
-
-    <Card title="Fourth Card" icon="fa-question" iconColor="blue-500" tooltip="Help & FAQs">
-      **Excepteur sint occaecat cupidatat non proident**
-    </Card>
-  </Cards>
-</div>
