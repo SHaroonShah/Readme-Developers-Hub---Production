@@ -206,7 +206,7 @@ Based on your requirements, you can choose various approaches to use the PUDO lo
   <Callout icon="💡" theme="default">
     ### *Tip*
 
-    *The file is generated on a daily basis. To learn more about the file data, refer to the following example file:*
+    *The file is generated on a daily basis and it is recommended to get the latest PUDO file after our last schedule run at 7:30 AM (GST). To learn more about the file data, refer to the following example file:*
 
     * <a href="https://docs.google.com/spreadsheets/d/16ygmINFe4-1UUKqZ2Jwf3-7ms9Pl5qBMRVTUCz5XJJ0/edit?usp=sharing" target="_blank" rel="noopener noreferrer">RMPUDO20250718</a>
 
