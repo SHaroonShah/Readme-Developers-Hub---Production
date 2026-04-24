@@ -88,7 +88,7 @@ The integration of An Post, Ireland's national postal service, into the SAPIENT 
     <br />
   </Tab>
 
-  <Tab title="Advanced Services">
+  <Tab title="Other Services">
     <Accordion title="Print Label" icon="print">
       Generate and return the label for an An Post shipment. This endpoint must be utilised when the label is not generated in the An Post Create Shipment request.
 
