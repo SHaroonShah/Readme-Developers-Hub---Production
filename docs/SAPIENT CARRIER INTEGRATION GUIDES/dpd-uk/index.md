@@ -105,7 +105,7 @@ DPD are one of the leading delivery carriers in the UK, shipping domestically an
     <br />
   </Tab>
 
-  <Tab title="Advanced Services">
+  <Tab title="Other Services">
     <Accordion title="Print Label" icon="print">
       Generate and return the label for a DPD UK shipment. This endpoint must be utilised when the label is not generated in the DPD UK Create Shipment request.
 
