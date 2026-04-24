@@ -82,7 +82,7 @@ The integration of An Post, Ireland's national postal service, into the SAPIENT 
 
       > 📘 *Note*
       >
-      > **Please be advised that the existing SAPIENT CN23 format will be used**
+      > *Please be advised that the existing SAPIENT CN23 format will be used*.
     </Accordion>
 
     <br />
