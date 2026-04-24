@@ -86,7 +86,7 @@ Express is one of DX's core solutions that provides a fast and secure next-day d
     </Accordion>
   </Tab>
 
-  <Tab title="Advanced Services">
+  <Tab title="Other Services">
     <Accordion title="Print Label" icon="print">
       Generate and return the label for a DX Express shipment in the PDF or ZPL format. This endpoint must be utilised when the label is not generated in the DX Express Create Shipment request.
 
