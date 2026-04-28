@@ -107,7 +107,7 @@ If you are importing goods into the UK via Freight 2 Post route, please ensure t
 
     <tr>
       <td>
-        **CODE**
+        **CARRIER SPECIFICS > CODE**
       </td>
 
       <td>
