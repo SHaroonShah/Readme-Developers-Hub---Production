@@ -15,9 +15,9 @@ next:
 ---
 If you are importing goods into the UK via Freight 2 Post route, please ensure to provide the following details.
 
-> 🚧 *Important*
+> 🚧 _Important_
 >
-> *The following requirements are Royal Mail specific in addition to Intersoft's mandatory fields.*
+> _The following requirements are Royal Mail specific in addition to Intersoft's mandatory fields._
 
 <Table align={["center","left"]}>
   <thead>
@@ -104,9 +104,19 @@ If you are importing goods into the UK via Freight 2 Post route, please ensure t
         * ShippingCharges - please make sure to populate this field either with the exact amount the end customer was charged for shipping or with "0" if the shipping was for free.
       </td>
     </tr>
+
+    <tr>
+      <td>
+        **CODE**
+      </td>
+
+      <td>
+        * **CustomsEmail** (receiver email address) – Mandatory for PDDP, DDP, DTP, and Royal Mail Cross Border or Import products. The **Code** field must be set to **EM**, with a valid email provided in the **Destination** > **Address** > **ContactEmail** field.
+      </td>
+    </tr>
   </tbody>
 </Table>
 
-> 🚧 *Please note*
+> 🚧 _Please note_
 >
-> *The above are also requirements specific for Royal Mail customers creating international shipments.*
+> _The above are also requirements specific for Royal Mail customers creating international shipments._
