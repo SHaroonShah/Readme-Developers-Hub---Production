@@ -149,7 +149,7 @@
                     "ContactNumber": "0123456789",
                     "ShippingLocations": [
                       {
-                        "ShippingLocationId": "2a34d548-9fbd-472d-8eae-b820b82047ca"
+                        "ShippingLocationId": "32e28edf-2f94-43fe-b440-5236f3062105"
                       }
                     ]
                   }
@@ -641,14 +641,14 @@
                       "ContentType": "NDX",
                       "ServiceCode": "1Day",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-04-09",
+                      "ShipmentDate": "2026-04-29",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "5154c9b5-8ce6-4832-9f23-1f87cc8328aa",
+                      "ShippingAccountId": "1c39c6a8-6bd3-4ba1-912f-9cc1fa226480",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -698,7 +698,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "1Day",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-04-09",
+                      "ShipmentDate": "2026-04-29",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
@@ -706,8 +706,8 @@
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "ee701bd5-c7b1-42c4-ae12-4d6ac91798d7",
-                      "ShippingLocationId": "4d4ab528-4642-4952-9230-7731fc270f39",
+                      "ShippingAccountId": "4e906b54-72b5-45d5-a011-2a614b2c4ef6",
+                      "ShippingLocationId": "5cafc9c1-3d33-4c9f-b3f1-9ab1df72757a",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -788,14 +788,14 @@
                       "ContentType": "NDX",
                       "ServiceCode": "Prime",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-04-09",
+                      "ShipmentDate": "2026-04-29",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "8271cc08-aeae-4e16-a0d7-53d6b1737cb3",
+                      "ShippingAccountId": "69be8b6b-19cb-43c0-8d2d-e2d9b05fcc81",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -847,7 +847,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "Prime",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-04-09",
+                      "ShipmentDate": "2026-04-29",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
@@ -855,8 +855,8 @@
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "7abc5c9c-47ba-48d7-a646-3a5c40291fc1",
-                      "ShippingLocationId": "781755c1-e749-45c8-91c3-f6b0ba9250bd",
+                      "ShippingAccountId": "a84e1690-11aa-4262-9294-1040de50914e",
+                      "ShippingLocationId": "d0b1a41e-5fd3-4943-9fa5-076148000139",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -933,13 +933,13 @@
                       "ContentType": "NDX",
                       "ServiceCode": "1Day",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-04-09",
+                      "ShipmentDate": "2026-04-29",
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "16bf69eb-c879-49b8-9138-eb7f48b2699b",
+                      "ShippingAccountId": "9f4ef5ea-00a0-4040-a491-352d0d2eabc1",
                       "Reference1": "OrderRef56",
                       "Address": {
                         "AddressId": "John Brown Default"
@@ -979,7 +979,7 @@
                     "value": {
                       "Packages": [
                         {
-                          "ShipmentId": "04bae50f-5187-4ca0-9564-dcd33fab454d",
+                          "ShipmentId": "87f2ad16-2ea4-4e5b-a92a-66972ac16715",
                           "PackageOccurrence": 1
                         }
                       ],
@@ -990,7 +990,7 @@
                     "value": {
                       "Packages": [
                         {
-                          "ShipmentId": "019b9968-a811-406a-bdb6-4fbe34be93c9",
+                          "ShipmentId": "a55ccdde-b4e8-4458-a4b2-b3896c453329",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "H03TCA0000000118",
                           "CarrierTrackingUrl": "https://track.amazon.co.uk/tracking/H03TCA0000000118"
@@ -1005,7 +1005,7 @@
                       "LabelFormat": "Pdf",
                       "Packages": [
                         {
-                          "ShipmentId": "08fbcd6a-b390-4036-b1c0-67cb5fe9e9a1",
+                          "ShipmentId": "ce7286dd-5265-4069-b36e-a24fbceee194",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "H03TCA0000000118",
                           "CarrierTrackingUrl": "https://track.amazon.co.uk/tracking/H03TCA0000000118"
@@ -1102,7 +1102,7 @@
                 "examples": {
                   "PDF": {
                     "value": {
-                      "ShipmentId": "e4ffe857-1bdd-4643-b556-daf9ac2ce787",
+                      "ShipmentId": "6e2b4ad4-74e6-4e21-a6f5-dd85ac08d162",
                       "TrackingNumber": "H03TCA0000000118",
                       "CarrierTrackingUrl": "https://track.amazon.co.uk/tracking/H03TCA0000000118",
                       "Label": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
@@ -1401,7 +1401,7 @@
             "items": {
               "$ref": "#/components/schemas/AmazonEnhancementCode"
             },
-            "description": "An array of strings that specifies the particular enhancement code that is being applied to the shipment, allowing customers to select the desired enhancement that can modify the shipping experience according to their preferences.\r<br />\r<br />**Valid values are the following:**\r<br /><ul><li>**Signature on Delivery (SoD):** A signature is required upon delivery for verification of your shipment.</li><li>**One Time Passcode (OTP):** A onetime passcode is required upon delivery for secure delivery confirmation. This passcode is sent by Amazon to the receiver. To use this enhancement code, the destination **ContactPhone** field must be populated with a valid phone number.</li></ul>\r<br />***Note:** Only one service enhancement can be used per shipment.*",
+            "description": "An array of strings that specifies the particular enhancement code that is being applied to the shipment, allowing customers to select the desired enhancement that can modify the shipping experience according to their preferences.\r<br />\r<br />Valid values are the following:\r<br /><ul><li>**Signature on Delivery (SoD):** A signature is required upon delivery for verification of your shipment.</li><li>**One Time Passcode (OTP):** A onetime passcode is required upon delivery for secure delivery confirmation. This passcode is sent by Amazon to the receiver. To use this enhancement code, the destination **ContactPhone** field must be populated with a valid phone number.</li></ul>\r<br />***Note:** Only one service enhancement can be used per shipment.*",
             "nullable": true
           },
           "DeliveryInstructions": {
@@ -1991,7 +1991,7 @@
           },
           "Id8000Category": {
             "type": "string",
-            "description": "If the hazardous goods class is 9, an applicable ID8000 category is required. \r<br />If ID8000 category is provided with any hazardous goods class other than class 9, it will be ignored.\r<br />Available values are:\r<br />- Medicines\r<br />- Perfume/Aftershave\r<br />- Nail Varnish\r<br />- Toiletry or Medicinal Aerosols\r<br />\r<br />If a customer sends a Create Shipment request with the ID8000Category field populated and the Class field is populated with any value other than class 9,\r<br />the ID8000Category will be ignored and the data will not be saved on the shipment record.\r<br />If a customer sends a Create Shipment request with the ID8000Category field populated and the Class field is populated with 9,\r<br />the system will behave as it does currently (create the Product and save the ID8000 data to the product record)",
+            "description": "An optional ID8000 category for hazardous goods classified under Class 9.\r<br />If provided, the value must be one of the specified values listed below. If an invalid value is provided, a validation error will be returned.\r<br />If ID8000 category is provided with any hazardous goods class other than class 9, it will be ignored.\r<br />Available values are:\r<br />- Medicines\r<br />- Perfume/Aftershave\r<br />- Nail Varnish\r<br />- Toiletry or Medicinal Aerosols\r<br />\r<br />If a customer sends a Create Shipment request with the ID8000Category field populated and the Class field is populated with any value other than class 9,\r<br />the ID8000Category will be ignored and the data will not be saved on the shipment record.\r<br />If a customer sends a Create Shipment request with the ID8000Category field populated and the Class field is populated with 9,\r<br />the system will save the ID8000 data to the product record.",
             "nullable": true,
             "example": "Nail Varnish"
           },
