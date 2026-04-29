@@ -1,6 +1,4 @@
 ---
-title: Link Locations
-excerpt: Link one or more shipping locations with a DX shipping account.
 api:
   file: sapient-dx-api.json
   operationId: post_v4-shippingaccounts-dx-shippingaccountid-linklocations
