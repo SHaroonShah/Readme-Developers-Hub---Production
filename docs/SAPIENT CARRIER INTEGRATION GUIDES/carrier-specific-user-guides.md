@@ -33,6 +33,10 @@ The following carrier guides are included in this section:
     <Image align="center" src="https://files.readme.io/770237c3f809f1b4be1ccf51ca8418ce8440069178e4dd4ff1b563d0e4c7210b-An_post_logo_white.png" width="100px" />
   </Card>
 
+  <Card title="" href="https://docs.intersoftsapient.net/docs/dhl-germany-de" Width="200" tooltip="DHL Germany">
+    <Image align="center" src="https://files.readme.io/fccbd329f4603c5d17e777ec0940e7d7cab3e96878fc7a90bf09ade9a61ed52b-DHL_DE_logo_white.png" width="100px" />
+  </Card>
+
   <Card title="" href="https://docs.intersoftsapient.net/docs/dpd-netherlands" Width="200" tooltip="DPD Netherlands">
     <Image align="center" src="https://files.readme.io/6b80e2829d7d7b13fa471d18608848f7e0542e1d69b95f169ad61f48a0f8de2a-DPD_NL_logo_white.png" width="100px" />
   </Card>
@@ -77,5 +81,6 @@ The following carrier guides are included in this section:
     <Image align="center" src="https://files.readme.io/2e73b38cea3124ccafc735e816750a46eb26141d65f142460b218d8f6985fd2f-Yodel_logo_white.png" width="100px" />
   </Card>
 </Cards>
+
 
 <br />
