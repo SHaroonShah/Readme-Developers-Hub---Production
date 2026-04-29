@@ -10,6 +10,10 @@ icon: fad fa-truck-fast
 metadata:
   robots: index
 ---
+<Image align="center" width="900px" src="https://files.readme.io/69e32b34cc4006cc3d36ccac8b71078afbcf52de6c1037141797562e6aaf37b2-DHL_DE_banner_white.png" />
+
+***
+
 The integration of DHL Germany into the SAPIENT platform is a significant step in enhancing shipping capabilities. This section discusses the in-scope features of this integration and the services this carrier offers.
 
 ## Key features
