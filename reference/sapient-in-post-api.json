@@ -86,7 +86,7 @@
                     "value": {
                       "ShippingAccounts": [
                         {
-                          "ShippingAccountId": "41941af3-1a28-4d0e-b754-9f895e5891ce",
+                          "ShippingAccountId": "3313a855-27ea-42d8-b4f6-2d5fa5eb9a95",
                           "CarrierCode": "INPOST",
                           "AccountNumber": "IN0000001",
                           "AccountType": "Sandbox",
@@ -96,11 +96,11 @@
                           "ContactName": "John Smith",
                           "ContactNumber": "0123456789",
                           "LastUpdatedBy": "User A",
-                          "LastUpdatedDateUtc": "2026-04-09T08:11:49.709Z",
+                          "LastUpdatedDateUtc": "2026-04-29T08:45:36.049Z",
                           "ClientId": "example@inpost.co.uk"
                         },
                         {
-                          "ShippingAccountId": "bdec3668-dea4-470b-b84e-be3f7dcd704d",
+                          "ShippingAccountId": "7498a4b3-9fef-4e22-be2c-7eae16117210",
                           "CarrierCode": "INPOST",
                           "AccountNumber": "IN0000007",
                           "AccountType": "Sandbox",
@@ -110,7 +110,7 @@
                           "ContactName": "Joan Smith",
                           "ContactNumber": "0123456789",
                           "LastUpdatedBy": "User B",
-                          "LastUpdatedDateUtc": "2026-04-09T08:11:49.709Z",
+                          "LastUpdatedDateUtc": "2026-04-29T08:45:36.049Z",
                           "ClientId": "example2@inpost.co.uk"
                         }
                       ],
@@ -260,7 +260,7 @@
                 "examples": {
                   "Response": {
                     "value": {
-                      "ShippingAccountId": "0eb9dd34-bb34-4b48-96db-c317dbebc031",
+                      "ShippingAccountId": "3275dbbc-5335-434b-b423-4bf314aa647c",
                       "CarrierCode": "INPOST",
                       "AccountNumber": "IN0000001",
                       "AccountType": "Sandbox",
@@ -270,7 +270,7 @@
                       "ContactName": "John Smith",
                       "ContactNumber": "0123456789",
                       "LastUpdatedBy": "User A",
-                      "LastUpdatedDateUtc": "2026-04-09T08:11:49.991Z",
+                      "LastUpdatedDateUtc": "2026-04-29T08:45:36.333Z",
                       "ClientId": "example@inpost.co.uk"
                     }
                   }
@@ -653,7 +653,7 @@
                       "ServiceCode": "B2C",
                       "DescriptionOfGoods": "Clothing",
                       "BusinessTransactionType": "B2C",
-                      "ShipmentDate": "2026-04-09",
+                      "ShipmentDate": "2026-04-29",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
@@ -661,8 +661,8 @@
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "755bbb3c-4a00-482e-b7ae-47e36fe40d1d",
-                      "ShippingLocationId": "b02c1f87-b97e-4804-99fa-b90ffbe3fa58",
+                      "ShippingAccountId": "09d71c0b-a3dd-4b3c-a93c-0206023ac887",
+                      "ShippingLocationId": "787f35a7-67f3-47db-9a14-ef4f100e2021",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -756,14 +756,14 @@
                       "ContentType": "NDX",
                       "ServiceCode": "B2C",
                       "DescriptionOfGoods": "Clothing",
-                      "ShipmentDate": "2026-04-09",
+                      "ShipmentDate": "2026-04-29",
                       "DeclaredWeight": 1.5,
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "0a4d8d79-4fd0-4ee5-a856-c18649c2a80f",
-                      "ShippingLocationId": "38b6175b-1214-440a-9531-8c42cd3bd1eb",
+                      "ShippingAccountId": "464b1b18-26e6-4190-8da0-cbd7a44e4165",
+                      "ShippingLocationId": "96a07107-8165-413f-bccf-3358bd9b43b9",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -793,13 +793,13 @@
                       "ContentType": "NDX",
                       "ServiceCode": "RETURNS",
                       "DescriptionOfGoods": "Clothing",
-                      "ShipmentDate": "2026-04-09",
+                      "ShipmentDate": "2026-04-29",
                       "DeclaredWeight": 1.5,
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "8e396f4b-db01-4d5d-be82-eb8a51ea007b"
+                      "ShippingAccountId": "1fefdce1-db0e-496d-a192-43223574a0a5"
                     },
                     "Destination": {
                       "Address": {
@@ -839,7 +839,7 @@
                       "LabelFormat": "Pdf",
                       "Packages": [
                         {
-                          "ShipmentId": "f73371f7-ea10-41a6-9869-0f5bb9621d51",
+                          "ShipmentId": "8bd2cd62-6d06-4702-a4b5-bca2b8db92e5",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "MD000000004409629",
                           "CarrierTrackingUrl": "https://tracking.inpost.co.uk/api/v2.0/MD000000004409629"
@@ -935,7 +935,7 @@
                 "examples": {
                   "PDF": {
                     "value": {
-                      "ShipmentId": "7607d17c-782c-4bd3-9550-7f701a8f8ce4",
+                      "ShipmentId": "1ae8c2cc-04be-4a06-83a1-6830e1c56f36",
                       "TrackingNumber": "5949545283154118",
                       "CarrierTrackingUrl": "https://tracking.inpost.co.uk/api/v2.0/5949545283154118",
                       "Label": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
@@ -1508,7 +1508,7 @@
           },
           "Id8000Category": {
             "type": "string",
-            "description": "If the hazardous goods class is 9, an applicable ID8000 category is required. \r<br />If ID8000 category is provided with any hazardous goods class other than class 9, it will be ignored.\r<br />Available values are:\r<br />- Medicines\r<br />- Perfume/Aftershave\r<br />- Nail Varnish\r<br />- Toiletry or Medicinal Aerosols\r<br />\r<br />If a customer sends a Create Shipment request with the ID8000Category field populated and the Class field is populated with any value other than class 9,\r<br />the ID8000Category will be ignored and the data will not be saved on the shipment record.\r<br />If a customer sends a Create Shipment request with the ID8000Category field populated and the Class field is populated with 9,\r<br />the system will behave as it does currently (create the Product and save the ID8000 data to the product record)",
+            "description": "An optional ID8000 category for hazardous goods classified under Class 9.\r<br />If provided, the value must be one of the specified values listed below. If an invalid value is provided, a validation error will be returned.\r<br />If ID8000 category is provided with any hazardous goods class other than class 9, it will be ignored.\r<br />Available values are:\r<br />- Medicines\r<br />- Perfume/Aftershave\r<br />- Nail Varnish\r<br />- Toiletry or Medicinal Aerosols\r<br />\r<br />If a customer sends a Create Shipment request with the ID8000Category field populated and the Class field is populated with any value other than class 9,\r<br />the ID8000Category will be ignored and the data will not be saved on the shipment record.\r<br />If a customer sends a Create Shipment request with the ID8000Category field populated and the Class field is populated with 9,\r<br />the system will save the ID8000 data to the product record.",
             "nullable": true,
             "example": "Nail Varnish"
           },
