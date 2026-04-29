@@ -5,7 +5,7 @@ excerpt: >-
   Germany. They provide domestic shipping within Germany and international
   shipping to EU and ROW destinations.
 deprecated: false
-hidden: true
+hidden: false
 icon: fad fa-truck-fast
 metadata:
   robots: index
