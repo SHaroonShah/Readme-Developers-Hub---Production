@@ -94,7 +94,7 @@
                       "ContactName": "John Smith",
                       "ContactNumber": "0123456789",
                       "LastUpdatedBy": "User A",
-                      "LastUpdatedDateUtc": "2026-04-09T08:10:46.216Z"
+                      "LastUpdatedDateUtc": "2026-04-29T08:44:57.756Z"
                     },
                     {
                       "ShippingAccountId": "46d58272-5f6a-405d-a947-c46c9caea56f",
@@ -107,7 +107,7 @@
                       "ContactName": "Joan Smith",
                       "ContactNumber": "0123456789",
                       "LastUpdatedBy": "User B",
-                      "LastUpdatedDateUtc": "2026-04-09T08:10:46.216Z"
+                      "LastUpdatedDateUtc": "2026-04-29T08:44:57.756Z"
                     }
                   ],
                   "TotalCount": 2
@@ -194,7 +194,7 @@
                   "ContactName": "John Smith",
                   "ContactNumber": "0123456789",
                   "LastUpdatedBy": "User A",
-                  "LastUpdatedDateUtc": "2026-04-09T08:10:46.282Z"
+                  "LastUpdatedDateUtc": "2026-04-29T08:44:57.771Z"
                 }
               }
             }
@@ -496,14 +496,14 @@
                       "ContentType": "NDX",
                       "ServiceCode": "FXFirst",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-04-09",
+                      "ShipmentDate": "2026-04-29",
                       "DeclaredValue": 86,
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "59f2d8e5-fdc0-40b6-b2a1-63281f69b39a",
+                      "ShippingAccountId": "a4f7d597-bd91-4230-aa9c-d0ac388d4f90",
                       "Reference1": "OrderRef56",
                       "Address": {
                         "ContactPhone": "01234567890",
@@ -562,7 +562,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "FXFirst",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-04-09",
+                      "ShipmentDate": "2026-04-29",
                       "DeclaredValue": 86,
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
@@ -570,8 +570,8 @@
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "2ccb5d5c-6a23-4824-92cb-3035a3a2451c",
-                      "ShippingLocationId": "1f139f18-a486-4f5e-842f-db2ef00ca55b",
+                      "ShippingAccountId": "654ed5e6-a043-4f20-81cf-0dce9ea96b91",
+                      "ShippingLocationId": "6e1208e4-cfdb-41d0-8d05-04d91dfd2420",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -647,14 +647,14 @@
                       "ContentType": "NDX",
                       "ServiceCode": "FXIntConP",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-04-09",
+                      "ShipmentDate": "2026-04-29",
                       "DeclaredValue": 30,
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "2b44a879-3665-4fa0-ba04-038c37608ef3",
+                      "ShippingAccountId": "7d79b896-b52a-40ef-bfdf-ee6e72d67a34",
                       "Reference1": "OrderRef56",
                       "EoriNumber": "GB213456789000",
                       "VatNumber": "GB213456789",
@@ -745,7 +745,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "FXIntConP",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-04-09",
+                      "ShipmentDate": "2026-04-29",
                       "DeclaredValue": 30,
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
@@ -753,8 +753,8 @@
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "2d8ac5e3-d4c5-40f3-8d0c-2bca1fc8d5c4",
-                      "ShippingLocationId": "4cae65a6-7dac-4974-bfcf-edbbc0990882",
+                      "ShippingAccountId": "f5be2ce6-e563-42f7-9215-8ae653956917",
+                      "ShippingLocationId": "a5fea1b8-da3b-49cd-9ec5-5945779bfb60",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -832,7 +832,7 @@
                       "OtherCharges": 32,
                       "QuotedLandedCost": 82.74,
                       "InvoiceNumber": "INV-12345",
-                      "InvoiceDate": "2026-04-09",
+                      "InvoiceDate": "2026-04-29",
                       "ExportLicenceRequired": false,
                       "Airn": "231.002.999-00"
                     }
@@ -845,14 +845,14 @@
                       "ContentType": "NDX",
                       "ServiceCode": "FXIntConP",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-04-09",
+                      "ShipmentDate": "2026-04-29",
                       "DeclaredValue": 20,
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "5d81bb84-0f3c-4d7d-9e16-c44072ec6d36",
+                      "ShippingAccountId": "e12b55c1-ca34-4eab-9483-e2687c4655e4",
                       "Reference1": "OrderRef56",
                       "Address": {
                         "AddressId": "John Brown Default"
@@ -891,7 +891,7 @@
                 "examples": {
                   "Create": {
                     "value": {
-                      "ConsignmentShipmentId": "b35ec321-1f85-452b-b70a-dc666bca1080",
+                      "ConsignmentShipmentId": "6746db5f-a5a0-41bf-b3ab-ad0b0d3d5a54",
                       "Packages": [
                         {
                           "PackageOccurrence": 1
@@ -901,7 +901,7 @@
                   },
                   "Allocate": {
                     "value": {
-                      "ConsignmentShipmentId": "3601783d-b9ad-4ed6-8076-632d587cd1c7",
+                      "ConsignmentShipmentId": "0df02609-541e-46fb-b1d8-4032d030aaac",
                       "ConsignmentTrackingNumber": "L2861391",
                       "Packages": [
                         {
@@ -914,7 +914,7 @@
                   },
                   "Process - PDF": {
                     "value": {
-                      "ConsignmentShipmentId": "3160b0cf-7338-4e1c-8a8b-66571ae09a68",
+                      "ConsignmentShipmentId": "11cad52f-a745-42b2-b301-c4549e2bd52a",
                       "ConsignmentTrackingNumber": "L2861391",
                       "Labels": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
                       "LabelFormat": "PDF",
@@ -1015,7 +1015,7 @@
                 "examples": {
                   "PDF": {
                     "value": {
-                      "ShipmentId": "815b492b-f8c7-48e1-b726-f5d57ed86e16",
+                      "ShipmentId": "3a2b0e45-283f-4f30-a41f-abfedc1d2b49",
                       "TrackingNumber": "H03TCA0000000118",
                       "CarrierTrackingUrl": "https://fedex.co.uk/H03TCA0000000118",
                       "Label": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
@@ -1928,7 +1928,7 @@
           },
           "Id8000Category": {
             "type": "string",
-            "description": "If the hazardous goods class is 9, an applicable ID8000 category is required. \r<br />If ID8000 category is provided with any hazardous goods class other than class 9, it will be ignored.\r<br />Available values are:\r<br />- Medicines\r<br />- Perfume/Aftershave\r<br />- Nail Varnish\r<br />- Toiletry or Medicinal Aerosols\r<br />\r<br />If a customer sends a Create Shipment request with the ID8000Category field populated and the Class field is populated with any value other than class 9,\r<br />the ID8000Category will be ignored and the data will not be saved on the shipment record.\r<br />If a customer sends a Create Shipment request with the ID8000Category field populated and the Class field is populated with 9,\r<br />the system will behave as it does currently (create the Product and save the ID8000 data to the product record)",
+            "description": "An optional ID8000 category for hazardous goods classified under Class 9.\r<br />If provided, the value must be one of the specified values listed below. If an invalid value is provided, a validation error will be returned.\r<br />If ID8000 category is provided with any hazardous goods class other than class 9, it will be ignored.\r<br />Available values are:\r<br />- Medicines\r<br />- Perfume/Aftershave\r<br />- Nail Varnish\r<br />- Toiletry or Medicinal Aerosols\r<br />\r<br />If a customer sends a Create Shipment request with the ID8000Category field populated and the Class field is populated with any value other than class 9,\r<br />the ID8000Category will be ignored and the data will not be saved on the shipment record.\r<br />If a customer sends a Create Shipment request with the ID8000Category field populated and the Class field is populated with 9,\r<br />the system will save the ID8000 data to the product record.",
             "nullable": true,
             "example": "Nail Varnish"
           },
