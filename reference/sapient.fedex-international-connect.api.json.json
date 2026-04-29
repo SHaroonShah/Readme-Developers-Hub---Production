@@ -86,7 +86,7 @@
                     "value": {
                       "ShippingAccounts": [
                         {
-                          "ShippingAccountId": "e52fe88d-8d59-4221-bce7-b2a7af1aad77",
+                          "ShippingAccountId": "f2a5a8e6-900d-403b-af2a-6f9afce29c0a",
                           "CarrierCode": "FIC",
                           "AccountType": "Sandbox",
                           "AccountName": "AB VideoGames",
@@ -96,10 +96,10 @@
                           "ContactNumber": "0123456789",
                           "ShipperWebsiteUrl": "https://www.example.com",
                           "LastUpdatedBy": "User A",
-                          "LastUpdatedDateUtc": "2026-04-09T08:13:10.080Z"
+                          "LastUpdatedDateUtc": "2026-04-29T08:46:37.284Z"
                         },
                         {
-                          "ShippingAccountId": "d70799fa-0e83-4ba9-8b3b-0d7b0ded0c01",
+                          "ShippingAccountId": "f8e0a496-cb25-4655-b4e7-786650afb37a",
                           "CarrierCode": "FIC",
                           "AccountType": "Sandbox",
                           "AccountName": "KG Pet Shop",
@@ -109,7 +109,7 @@
                           "ContactNumber": "0123456789",
                           "ShipperWebsiteUrl": "https://www.example.com",
                           "LastUpdatedBy": "User B",
-                          "LastUpdatedDateUtc": "2026-04-09T08:13:10.080Z"
+                          "LastUpdatedDateUtc": "2026-04-29T08:46:37.284Z"
                         }
                       ],
                       "TotalCount": 2
@@ -258,7 +258,7 @@
                 "examples": {
                   "Response": {
                     "value": {
-                      "ShippingAccountId": "5aa276a3-88df-428e-a65c-7e53670417d0",
+                      "ShippingAccountId": "97b6508d-a7e8-449c-b36f-98279a951b40",
                       "CarrierCode": "FIC",
                       "AccountType": "Sandbox",
                       "AccountName": "AB VideoGames",
@@ -268,7 +268,7 @@
                       "ContactNumber": "0123456789",
                       "ShipperWebsiteUrl": "https://www.example.com",
                       "LastUpdatedBy": "User A",
-                      "LastUpdatedDateUtc": "2026-04-09T08:13:10.311Z"
+                      "LastUpdatedDateUtc": "2026-04-29T08:46:37.597Z"
                     }
                   }
                 }
@@ -651,8 +651,8 @@
                       "CurrencyCode": "GBP"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "e3a4d2c7-9e67-4362-ba3b-5dd454e29982",
-                      "ShippingLocationId": "ea7d8b7c-7604-4eab-923f-369e6751ae6e",
+                      "ShippingAccountId": "3e1c6f3b-16d6-43f9-b5d2-e86eee028c75",
+                      "ShippingLocationId": "90af2307-3b9a-498e-8a6e-78b313beefa1",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -689,7 +689,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "RM48",
                       "DescriptionOfGoods": "Clothing",
-                      "ShipmentDate": "2026-04-09",
+                      "ShipmentDate": "2026-04-29",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
@@ -787,7 +787,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "TPWW",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-04-09",
+                      "ShipmentDate": "2026-04-29",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP"
                     },
@@ -860,7 +860,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "TPWW",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-04-09",
+                      "ShipmentDate": "2026-04-29",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
@@ -946,7 +946,7 @@
                       "OtherCharges": 32,
                       "QuotedLandedCost": 82.74,
                       "InvoiceNumber": "INV-12345",
-                      "InvoiceDate": "2026-04-09",
+                      "InvoiceDate": "2026-04-29",
                       "ExportLicenceRequired": false,
                       "Airn": "231.002.999-00"
                     },
@@ -974,7 +974,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "RM48",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-04-09",
+                      "ShipmentDate": "2026-04-29",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
@@ -1019,7 +1019,7 @@
                     "value": {
                       "Packages": [
                         {
-                          "ShipmentId": "51e532a0-5568-4768-ae8e-0515c932436b",
+                          "ShipmentId": "745cd9c6-d255-44c5-a03b-43858fd56749",
                           "PackageOccurrence": 1
                         }
                       ],
@@ -1030,7 +1030,7 @@
                     "value": {
                       "Packages": [
                         {
-                          "ShipmentId": "c5654150-4808-4a37-aabc-07acd69301d1",
+                          "ShipmentId": "3a0c2147-0a0c-4def-a525-67f0ae6bff99",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "MD000000004409629",
                           "CarrierTrackingUrl": "https://fictracking.fedex.com/?MyFICNumber=MD000000004409629"
@@ -1048,7 +1048,7 @@
                           "CarrierDetails": {
                             "LabelCopiesToPrint": 1
                           },
-                          "ShipmentId": "6c9e32db-d93b-4ec6-abaa-311065ade437",
+                          "ShipmentId": "eb4c86a0-5fb3-4fd4-8e56-657a5cb2184e",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "MD000000004409629",
                           "CarrierTrackingUrl": "https://fictracking.fedex.com/?MyFICNumber=MD000000004409629"
@@ -1137,7 +1137,7 @@
                 "examples": {
                   "PDF": {
                     "value": {
-                      "ShipmentId": "cfbb406e-493b-49e7-ada8-53c8b4c1ec86",
+                      "ShipmentId": "a496be55-e613-4d3f-ab25-2db084bf9ab0",
                       "TrackingNumber": "UZ 123 456 789 IE",
                       "CarrierTrackingUrl": "https://fictracking.fedex.com/?MyFICNumber=UZ 123 456 789 IE",
                       "Label": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
@@ -2116,7 +2116,7 @@
           },
           "Id8000Category": {
             "type": "string",
-            "description": "If the hazardous goods class is 9, an applicable ID8000 category is required. \r<br />If ID8000 category is provided with any hazardous goods class other than class 9, it will be ignored.\r<br />Available values are:\r<br />- Medicines\r<br />- Perfume/Aftershave\r<br />- Nail Varnish\r<br />- Toiletry or Medicinal Aerosols\r<br />\r<br />If a customer sends a Create Shipment request with the ID8000Category field populated and the Class field is populated with any value other than class 9,\r<br />the ID8000Category will be ignored and the data will not be saved on the shipment record.\r<br />If a customer sends a Create Shipment request with the ID8000Category field populated and the Class field is populated with 9,\r<br />the system will behave as it does currently (create the Product and save the ID8000 data to the product record)",
+            "description": "An optional ID8000 category for hazardous goods classified under Class 9.\r<br />If provided, the value must be one of the specified values listed below. If an invalid value is provided, a validation error will be returned.\r<br />If ID8000 category is provided with any hazardous goods class other than class 9, it will be ignored.\r<br />Available values are:\r<br />- Medicines\r<br />- Perfume/Aftershave\r<br />- Nail Varnish\r<br />- Toiletry or Medicinal Aerosols\r<br />\r<br />If a customer sends a Create Shipment request with the ID8000Category field populated and the Class field is populated with any value other than class 9,\r<br />the ID8000Category will be ignored and the data will not be saved on the shipment record.\r<br />If a customer sends a Create Shipment request with the ID8000Category field populated and the Class field is populated with 9,\r<br />the system will save the ID8000 data to the product record.",
             "nullable": true,
             "example": "Nail Varnish"
           },
