@@ -601,8 +601,8 @@
                       "CurrencyCode": "GBP"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "ec0d9d24-36ea-48ee-8294-2d6911674bfb",
-                      "ShippingLocationId": "f813f2e2-9059-4e20-8fae-325e6aeac390",
+                      "ShippingAccountId": "56cdf9bb-8122-4908-bd97-620104168104",
+                      "ShippingLocationId": "3d64ba0a-79d9-4101-a90c-4cd6b72b157a",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -648,15 +648,15 @@
                       "ContentType": "NDX",
                       "ServiceCode": "11",
                       "DescriptionOfGoods": "Clothing",
-                      "ShipmentDate": "2026-04-09",
+                      "ShipmentDate": "2026-04-29",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "462a795c-4fde-4daa-813d-de20589c9b35",
-                      "ShippingLocationId": "60c5ce69-566f-4270-bc6a-9e256e76ea59",
+                      "ShippingAccountId": "cf837bc2-0cd6-42ae-8a7d-ed16e12d058a",
+                      "ShippingLocationId": "d2e9f80f-0d7c-4694-bd42-f637093da346",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -746,13 +746,13 @@
                       "ContentType": "NDX",
                       "ServiceCode": "50",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-04-09",
+                      "ShipmentDate": "2026-04-29",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "aac2e094-2568-4667-8b84-8dc8d4568f36",
-                      "ShippingLocationId": "d65f56b2-6ea4-4006-b6f8-025de80d38f1",
+                      "ShippingAccountId": "aeca94a3-5197-4131-a1f6-59e175b202bb",
+                      "ShippingLocationId": "788daae7-2ef5-41e9-a614-0869f19836e0",
                       "Reference1": "OrderRef56",
                       "EoriNumber": "GB12345",
                       "VatNumber": "GB12345"
@@ -828,15 +828,15 @@
                       "ContentType": "NDX",
                       "ServiceCode": "50",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-04-09",
+                      "ShipmentDate": "2026-04-29",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "962fedc0-a5c0-4d52-9daf-7604a9db43d8",
-                      "ShippingLocationId": "2f7f9603-41d1-4be5-9318-c5bb0b963acd",
+                      "ShippingAccountId": "13aade3f-6535-40a5-bc5a-a150440dd5e2",
+                      "ShippingLocationId": "438cb14f-e693-4470-96a8-10ddc1f4086e",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -914,7 +914,7 @@
                       "OtherCharges": 32,
                       "QuotedLandedCost": 82.74,
                       "InvoiceNumber": "INV-12345",
-                      "InvoiceDate": "2026-04-09",
+                      "InvoiceDate": "2026-04-29",
                       "ExportLicenceRequired": false,
                       "Airn": "231.002.999-00"
                     },
@@ -942,12 +942,12 @@
                       "ContentType": "NDX",
                       "ServiceCode": "SMHER24",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-04-09",
+                      "ShipmentDate": "2026-04-29",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "f5988a0b-8d0c-43b2-a0ab-fe52c4473a78",
+                      "ShippingAccountId": "74f4ce5e-42c3-4ea0-a8a7-60456d961d8c",
                       "Reference1": "OrderRef56",
                       "Address": {
                         "AddressId": "John Brown Default"
@@ -985,7 +985,7 @@
                 "examples": {
                   "Create": {
                     "value": {
-                      "ConsignmentShipmentId": "b066c2f6-9c46-4938-b7b2-1feb42a314a2",
+                      "ConsignmentShipmentId": "491d7b97-3abc-4d65-b3b6-3e67d07cb0e4",
                       "Packages": [
                         {
                           "PackageOccurrence": 1
@@ -995,7 +995,7 @@
                   },
                   "Allocate": {
                     "value": {
-                      "ConsignmentShipmentId": "8b802448-5c64-44ee-951a-25b03a0bab04",
+                      "ConsignmentShipmentId": "21f31630-097a-4289-ba64-fc5cccf5acb5",
                       "ConsignmentTrackingNumber": "UZ 123 456 789 IE",
                       "ConsignmentCarrierTrackingUrl": "https://track.dpd.co.uk/search?reference=UZ 123 456 789 IE",
                       "Packages": [
@@ -1009,7 +1009,7 @@
                   },
                   "Process - PDF": {
                     "value": {
-                      "ConsignmentShipmentId": "3ffc95ac-7149-4ff3-b088-e2c4a266fa6f",
+                      "ConsignmentShipmentId": "ee8079ed-97f0-4a1a-8c92-c610fed3ec69",
                       "ConsignmentTrackingNumber": "UZ 123 456 789 IE",
                       "ConsignmentCarrierTrackingUrl": "https://track.dpd.co.uk/search?reference=UZ 123 456 789 IE",
                       "Labels": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
@@ -1111,7 +1111,7 @@
                 "examples": {
                   "PDF": {
                     "value": {
-                      "ShipmentId": "d0ab4a7f-f51d-4725-89fc-4d5eb15e1b95",
+                      "ShipmentId": "fd425f3d-9b6c-4486-a166-c73480538f4a",
                       "TrackingNumber": "UZ 123 456 789 IE",
                       "CarrierTrackingUrl": "https://track.dpd.co.uk/search?reference=UZ 123 456 789 IE",
                       "Label": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
@@ -2042,7 +2042,7 @@
           },
           "Id8000Category": {
             "type": "string",
-            "description": "If the hazardous goods class is 9, an applicable ID8000 category is required. \r<br />If ID8000 category is provided with any hazardous goods class other than class 9, it will be ignored.\r<br />Available values are:\r<br />- Medicines\r<br />- Perfume/Aftershave\r<br />- Nail Varnish\r<br />- Toiletry or Medicinal Aerosols\r<br />\r<br />If a customer sends a Create Shipment request with the ID8000Category field populated and the Class field is populated with any value other than class 9,\r<br />the ID8000Category will be ignored and the data will not be saved on the shipment record.\r<br />If a customer sends a Create Shipment request with the ID8000Category field populated and the Class field is populated with 9,\r<br />the system will behave as it does currently (create the Product and save the ID8000 data to the product record)",
+            "description": "An optional ID8000 category for hazardous goods classified under Class 9.\r<br />If provided, the value must be one of the specified values listed below. If an invalid value is provided, a validation error will be returned.\r<br />If ID8000 category is provided with any hazardous goods class other than class 9, it will be ignored.\r<br />Available values are:\r<br />- Medicines\r<br />- Perfume/Aftershave\r<br />- Nail Varnish\r<br />- Toiletry or Medicinal Aerosols\r<br />\r<br />If a customer sends a Create Shipment request with the ID8000Category field populated and the Class field is populated with any value other than class 9,\r<br />the ID8000Category will be ignored and the data will not be saved on the shipment record.\r<br />If a customer sends a Create Shipment request with the ID8000Category field populated and the Class field is populated with 9,\r<br />the system will save the ID8000 data to the product record.",
             "nullable": true,
             "example": "Nail Varnish"
           },
