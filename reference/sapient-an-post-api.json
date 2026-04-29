@@ -86,7 +86,7 @@
                     "value": {
                       "ShippingAccounts": [
                         {
-                          "ShippingAccountId": "f6111bf7-2ff8-46f9-b306-c7d2af162637",
+                          "ShippingAccountId": "f7485273-1117-42aa-9a79-77b09657c83e",
                           "CarrierCode": "ANPOST",
                           "AccountNumber": "01234567",
                           "AccountType": "Sandbox",
@@ -96,10 +96,10 @@
                           "ContactName": "John Smith",
                           "ContactNumber": "0123456789",
                           "LastUpdatedBy": "User A",
-                          "LastUpdatedDateUtc": "2026-04-09T08:11:14.379Z"
+                          "LastUpdatedDateUtc": "2026-04-29T08:45:17.322Z"
                         },
                         {
-                          "ShippingAccountId": "789dc7c9-7add-4ef0-a9ed-939d7b57a38c",
+                          "ShippingAccountId": "8616950f-fc2e-4be1-97da-bf92c70e50bf",
                           "CarrierCode": "ANPOST",
                           "AccountNumber": "98765432",
                           "AccountType": "Sandbox",
@@ -109,7 +109,7 @@
                           "ContactName": "Joan Smith",
                           "ContactNumber": "0123456789",
                           "LastUpdatedBy": "User B",
-                          "LastUpdatedDateUtc": "2026-04-09T08:11:14.379Z"
+                          "LastUpdatedDateUtc": "2026-04-29T08:45:17.322Z"
                         }
                       ],
                       "TotalCount": 2
@@ -258,7 +258,7 @@
                 "examples": {
                   "Response": {
                     "value": {
-                      "ShippingAccountId": "286f717f-f7d6-47a0-9a21-f20fc2b15ec2",
+                      "ShippingAccountId": "315b59b2-cf7d-47f8-b260-7800dea9bd7b",
                       "CarrierCode": "ANPOST",
                       "AccountNumber": "12345678",
                       "AccountType": "Sandbox",
@@ -268,7 +268,7 @@
                       "ContactName": "John Smith",
                       "ContactNumber": "0123456789",
                       "LastUpdatedBy": "User A",
-                      "LastUpdatedDateUtc": "2026-04-09T08:11:14.772Z"
+                      "LastUpdatedDateUtc": "2026-04-29T08:45:17.614Z"
                     }
                   }
                 }
@@ -647,14 +647,14 @@
                       "ContentType": "NDX",
                       "ServiceCode": "EMS",
                       "DescriptionOfGoods": "Clothing",
-                      "ShipmentDate": "2026-04-09",
+                      "ShipmentDate": "2026-04-29",
                       "DeclaredWeight": 1.5,
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "0975c55e-d61e-4da6-9d15-9f9b21a3e550",
-                      "ShippingLocationId": "775672de-0ccb-4e81-8a56-037cae5d3626",
+                      "ShippingAccountId": "619d33ba-63a1-49fa-ba60-6d6c38c12e1e",
+                      "ShippingLocationId": "b1fa8296-4c8f-4d9a-919b-5a188f81719a",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -691,15 +691,15 @@
                       "ServiceCode": "EMS",
                       "DescriptionOfGoods": "Clothing",
                       "BusinessTransactionType": "B2C",
-                      "ShipmentDate": "2026-04-09",
+                      "ShipmentDate": "2026-04-29",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "09463886-8c42-4985-ac34-8f1443df54a2",
-                      "ShippingLocationId": "fae18559-1902-400f-a712-c1126b986453",
+                      "ShippingAccountId": "df326678-3ffd-4058-af5e-8daab247e034",
+                      "ShippingLocationId": "850c6cd6-0244-4dda-b71e-267e7f9a616d",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -792,15 +792,15 @@
                       "ContentType": "NDX",
                       "ServiceCode": "EXP",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-04-09",
+                      "ShipmentDate": "2026-04-29",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "f63bfd44-6930-49f1-8f11-13b5d1407a1f",
-                      "ShippingLocationId": "41fbedc5-4295-4ffc-981c-3982ae192537",
+                      "ShippingAccountId": "2dbc3290-88a7-437c-9fa3-08d347abf956",
+                      "ShippingLocationId": "7e262f82-7f46-4c98-85e2-adb3d8480b33",
                       "Reference1": "OrderRef56",
                       "EoriNumber": "GB12345",
                       "VatNumber": "VA12345"
@@ -867,15 +867,15 @@
                       "ContentType": "NDX",
                       "ServiceCode": "EXP",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-04-09",
+                      "ShipmentDate": "2026-04-29",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "680cf60b-0372-44e5-b40a-d389742868e5",
-                      "ShippingLocationId": "405d1cbc-7b93-4973-8a6b-7b4fd409f618",
+                      "ShippingAccountId": "918c10cb-56f8-431f-bb47-56475a690511",
+                      "ShippingLocationId": "2b8bc7db-f511-46fa-8e32-c3341a649bf7",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -953,7 +953,7 @@
                       "OtherCharges": 32,
                       "QuotedLandedCost": 82.74,
                       "InvoiceNumber": "INV-12345",
-                      "InvoiceDate": "2026-04-09",
+                      "InvoiceDate": "2026-04-29",
                       "ExportLicenceRequired": false,
                       "Airn": "231.002.999-00"
                     },
@@ -981,13 +981,13 @@
                       "ContentType": "NDX",
                       "ServiceCode": "EMS",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-04-09",
+                      "ShipmentDate": "2026-04-29",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "c7731d95-f666-401c-bbf9-52d2d481affb",
-                      "ShippingLocationId": "dfafab4b-52e7-4cc8-9ae7-76dd6bb9dbd1",
+                      "ShippingAccountId": "92faee72-3495-4185-8c33-36eb267b256a",
+                      "ShippingLocationId": "9729f1b4-c4cb-494e-b7da-f094a2572657",
                       "Reference1": "OrderRef56",
                       "Address": {
                         "AddressId": "John Brown Default"
@@ -1025,7 +1025,7 @@
                 "examples": {
                   "Create": {
                     "value": {
-                      "ConsignmentShipmentId": "6f2a028a-01cd-4fd3-b30a-73d648798cab",
+                      "ConsignmentShipmentId": "d76dc864-4238-431d-85a9-7d235a90c29a",
                       "Packages": [
                         {
                           "PackageOccurrence": 1
@@ -1035,7 +1035,7 @@
                   },
                   "Allocate": {
                     "value": {
-                      "ConsignmentShipmentId": "20aacccf-ae0b-4575-a076-2c64e37a3834",
+                      "ConsignmentShipmentId": "f8e848dc-e8fd-49a7-b06d-6658af21e241",
                       "ConsignmentTrackingNumber": "UZ 123 456 789 IE",
                       "ConsignmentCarrierTrackingUrl": "https://www.anpost.com/Post-Parcels/Track/Search/Results?rtt=1&items=UZ 123 456 789 IE",
                       "Packages": [
@@ -1049,7 +1049,7 @@
                   },
                   "Process - PDF": {
                     "value": {
-                      "ConsignmentShipmentId": "c2a28f56-7093-4800-b4b0-4a9c704e6223",
+                      "ConsignmentShipmentId": "be54db23-b3bb-4fc5-a2d1-7c50665175eb",
                       "ConsignmentTrackingNumber": "UZ 123 456 789 IE",
                       "ConsignmentCarrierTrackingUrl": "https://www.anpost.com/Post-Parcels/Track/Search/Results?rtt=1&items=UZ 123 456 789 IE",
                       "Labels": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
@@ -1151,7 +1151,7 @@
                 "examples": {
                   "PDF": {
                     "value": {
-                      "ShipmentId": "691d0828-9dc0-4e47-a815-5b62e439bc51",
+                      "ShipmentId": "b539b061-fbe6-4b1b-9567-10e3f20c7971",
                       "TrackingNumber": "UZ 123 456 789 IE",
                       "CarrierTrackingUrl": "https://www.anpost.com/Post-Parcels/Track/Search/Results?rtt=1&items=UZ 123 456 789 IE",
                       "Label": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
@@ -1948,7 +1948,7 @@
           },
           "Id8000Category": {
             "type": "string",
-            "description": "If the hazardous goods class is 9, an applicable ID8000 category is required. \r<br />If ID8000 category is provided with any hazardous goods class other than class 9, it will be ignored.\r<br />Available values are:\r<br />- Medicines\r<br />- Perfume/Aftershave\r<br />- Nail Varnish\r<br />- Toiletry or Medicinal Aerosols\r<br />\r<br />If a customer sends a Create Shipment request with the ID8000Category field populated and the Class field is populated with any value other than class 9,\r<br />the ID8000Category will be ignored and the data will not be saved on the shipment record.\r<br />If a customer sends a Create Shipment request with the ID8000Category field populated and the Class field is populated with 9,\r<br />the system will behave as it does currently (create the Product and save the ID8000 data to the product record)",
+            "description": "An optional ID8000 category for hazardous goods classified under Class 9.\r<br />If provided, the value must be one of the specified values listed below. If an invalid value is provided, a validation error will be returned.\r<br />If ID8000 category is provided with any hazardous goods class other than class 9, it will be ignored.\r<br />Available values are:\r<br />- Medicines\r<br />- Perfume/Aftershave\r<br />- Nail Varnish\r<br />- Toiletry or Medicinal Aerosols\r<br />\r<br />If a customer sends a Create Shipment request with the ID8000Category field populated and the Class field is populated with any value other than class 9,\r<br />the ID8000Category will be ignored and the data will not be saved on the shipment record.\r<br />If a customer sends a Create Shipment request with the ID8000Category field populated and the Class field is populated with 9,\r<br />the system will save the ID8000 data to the product record.",
             "nullable": true,
             "example": "Nail Varnish"
           },
