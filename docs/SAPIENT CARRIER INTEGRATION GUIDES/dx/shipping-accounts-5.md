@@ -219,4 +219,4 @@ Once done, you have now successfully added a shipping account. You can now start
   <p style={{ textAlign: "center" }}>
     <em>Accessing shipping accounts</em>
   </p>
-</Accordion>
+</Accordion> 
