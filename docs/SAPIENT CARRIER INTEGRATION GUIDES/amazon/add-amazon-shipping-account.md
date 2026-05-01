@@ -35,9 +35,10 @@ To add a shipping account for Amazon in SAPIENT, follow the instructions as expl
 
         In the left navigation panel, select **Shipping Accounts**.
 
-        <Image align="center" border={true} src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" alt="Accessing shipping accounts"/>
-
-        *Accessing shipping accounts*
+        <Image align="center" border={true} src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" alt="Accessing shipping accounts" />
+ <p style={{ textAlign: "center" }}>
+    <em>Accessing shipping accounts</em>
+  </p>
 
         ***
       </ToggleListItem>
