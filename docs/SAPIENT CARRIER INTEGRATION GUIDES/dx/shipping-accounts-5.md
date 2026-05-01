@@ -213,13 +213,15 @@ Once done, you have now successfully added a shipping account. You can now start
 * [DX Express sign-off](https://docs.intersoftsapient.net/docs/dx-freight-sign-off-copy)
 * [Edit shipping account](https://docs.intersoftsapient.net/docs/edit-shipping-account)
 
-<Image
-  align="center"
-  border={true}
-  src="https://files.readme.io/..."
-  alt="Accessing shipping accounts"
-/>
+<Accordion title="Test Step: Small caption style" icon="list-ol">
+  <Image
+    align="center"
+    border={true}
+    src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png"
+    alt="Accessing shipping accounts"
+  />
 
-<p style={{ textAlign: "center" }}>
-  <em>Accessing shipping accounts</em>
-</p>
+  <p style={{ textAlign: "center" }}>
+    <em>Accessing shipping accounts</em>
+  </p>
+</Accordion>
