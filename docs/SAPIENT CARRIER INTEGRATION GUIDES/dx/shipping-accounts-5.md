@@ -27,7 +27,7 @@ In SAPIENT, you can create a DX Express shipping account by selecting your desir
     To add a shipping account for DX in SAPIENT, follow the instructions as explained in the following procedure:
 
     <ToggleList>
-      <ToggleListItem title="Step 1: Select the Shipping Accounts page " icon="list-ol">
+      <ToggleListItem title="1. Select the Shipping Accounts page " icon="list-ol">
         In the left navigation panel, select **Shipping Accounts**.
 
         <Image align="center" border={true} src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" alt="Accessing shipping accounts" />
@@ -37,7 +37,7 @@ In SAPIENT, you can create a DX Express shipping account by selecting your desir
 
       <br />
 
-      <ToggleListItem title="Step 2: Select option to add shipping account" icon="list-ol">
+      <ToggleListItem title="2. Select option to add shipping account" icon="list-ol">
         On the **Shipping Accounts** page that opens, select ![](https://files.readme.io/5eb134426849b1adb3049756830b6bef19e7dc67dca55891e64ff7b9c8eadd8e-add_shipping_account_button.png).
 
         <Image align="center" border={true} src="https://files.readme.io/3b149ee84f86fb8d4f02c43b2733c7eb85aea3ac6e2f01692af371f631570bf3-Add_shipping_account_button_DX.png" alt="Accessing option to add shipping account" />
@@ -47,7 +47,7 @@ In SAPIENT, you can create a DX Express shipping account by selecting your desir
 
       <br />
 
-      <ToggleListItem title="Step 3: Enter account details" icon="list-ol">
+      <ToggleListItem title="3. Enter account details" icon="list-ol">
         On the **Add Shipping Account** form that appears, in the **ACCOUNT DETAILS** block, fill in the necessary information as described in the following table.
 
         <Image align="center" border={true} src="https://files.readme.io/a2dad7052816bc2eb88dccddb82ee81753d9b31a2b436529e7ee59084897374d-Account_details_block_DX.png" width="500px" alt="Entering account details" />
@@ -64,7 +64,7 @@ In SAPIENT, you can create a DX Express shipping account by selecting your desir
 
       <br />
 
-      <ToggleListItem title="Step 4: Enter shipping account details" icon="list-ol">
+      <ToggleListItem title="4. Enter shipping account details" icon="list-ol">
         In the **SHIPPING ACCOUNT** block, enter the necessary information as explained in the following table.
 
         <Image align="center" border={true} src="https://files.readme.io/d0eae769c813147e1ba1ff428f31e2a84852aba1218a4858b7324d86458cd559-Shipping_account_block_DX.png" width="400px" alt="Specifying shipping account details" />
@@ -162,7 +162,7 @@ In SAPIENT, you can create a DX Express shipping account by selecting your desir
 
       <br />
 
-      <ToggleListItem title="Step 5: Enter carrier details" icon="list-ol">
+      <ToggleListItem title="5. Enter carrier details" icon="list-ol">
         In the **CARRIER DETAILS** block, enter the necessary information as explained in the following table.
 
         <Image align="center" border={true} src="https://files.readme.io/fccccd4dc5ad4bc5f6a8bb8f7447d45b031f644466df17c80c3a9770a498fa66-carrier_details_block_DX.png" width="400px" alt="Entering carrier details" />
@@ -214,7 +214,7 @@ In SAPIENT, you can create a DX Express shipping account by selecting your desir
 
       <br />
 
-      <ToggleListItem title="Step 6: Save and add the shipping account" icon="list-ol">
+      <ToggleListItem title="6. Save and add the shipping account" icon="list-ol">
         After entering all the required information, select ![](https://files.readme.io/721eb0f8be0c99a924b61cbca6496517d03fcbbf235aa0c3d579c60b3131df2a-add_shipping_account_button_2.png).
 
         Once done, you have now successfully added a shipping account. You can now start shipping with it.
