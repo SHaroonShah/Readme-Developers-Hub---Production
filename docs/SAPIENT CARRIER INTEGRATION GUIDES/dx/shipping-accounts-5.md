@@ -24,7 +24,7 @@ In SAPIENT, you can create a DX Express shipping account by selecting your desir
 
 <Tabs>
   <Tab title="Via SAPIENT UI">
-    To add a shipping account for DX in SAPIENT, follow the instructions as explained in the following procedure:
+    To add a shipping account for DX Express in SAPIENT, follow the instructions as explained in the following procedure:
 
     <ToggleList>
       <ToggleListItem title="1. Select the Shipping Accounts page " icon="list-ol">
