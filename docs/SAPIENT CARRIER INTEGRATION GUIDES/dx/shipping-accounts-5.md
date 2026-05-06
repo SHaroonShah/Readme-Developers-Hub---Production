@@ -68,7 +68,7 @@ In SAPIENT, you can create a DX Express shipping account by selecting your desir
         In the **SHIPPING ACCOUNT** block, enter the necessary information as explained in the following table.
 
         <Image align="center" border={true} src="https://files.readme.io/d0eae769c813147e1ba1ff428f31e2a84852aba1218a4858b7324d86458cd559-Shipping_account_block_DX.png" width="400px" alt="Specifying shipping account details" />
-
+<br />
         <Callout icon="💡" theme="default">
           ### *Tip*
 
