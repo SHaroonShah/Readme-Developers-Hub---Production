@@ -40,11 +40,11 @@ In order to ship with DX Express, consider the following:
 
 <Cards columns={3}>
   <Card title="Add Shipping Account" href="https://docs.intersoftsapient.net/docs/add-dx-freight-shipping-account" icon="fa-solid fa-truck">
-    Access the step-by-step guide on how to set up An Post shipping account on SAPIENT.
+    Access the step-by-step guide on how to set up DX Freight shipping account on SAPIENT.
   </Card>
 
   <Card title="Add Tracking Account" href="https://docs.intersoftsapient.net/docs/add-dx-freight-tracking-account#/" icon="fa-solid fa-search-location">
-    Access the step-by-step guide on how to set up An Post tracking account on SAPIENT.
+    Access the step-by-step guide on how to set up DX Freight tracking account on SAPIENT.
   </Card>
 
   <Card title="API References" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-dxf" icon="fa-solid fa-code">
