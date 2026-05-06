@@ -243,7 +243,7 @@ In SAPIENT, you can create a DX Express shipping account by selecting your desir
 
 ### See also
 
-<Cards Columns={3}>
+<Cards columns={3}>
   <Card title="Edit shipping account" icon="fa-pen-to-square" href="https://docs.intersoftsapient.net/docs/dx-freight-sign-off">
     Update or modify an existing shipping account.
   </Card>
@@ -256,5 +256,3 @@ In SAPIENT, you can create a DX Express shipping account by selecting your desir
     Learn more about the DX rate limit on the number of requests that can be processed over a given period of time.
   </Card>
 </Cards>
-
-<br />
