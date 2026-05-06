@@ -51,7 +51,7 @@ To set up your DX API credentials, perform the steps as explained in the followi
     In the **Add API User** form that opens, enter the necessary information as explained in the following table.
 
     <Image align="center" border={true} src="https://files.readme.io/3e31ffe-image.png" alt="Adding API user" />
-
+<br />
     |       Element      | Description                                                                                                     |
     | :----------------: | :-------------------------------------------------------------------------------------------------------------- |
     |    **User name**   | Enter your username that you want to use to set up your DX <Glossary>shipping account</Glossary> via Intersoft. |
