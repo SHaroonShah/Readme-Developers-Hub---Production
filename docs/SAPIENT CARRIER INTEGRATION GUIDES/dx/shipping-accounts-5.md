@@ -233,9 +233,7 @@ In SAPIENT, you can create a DX Express shipping account by selecting your desir
   </Tab>
 </Tabs>
 
-> 📘 _Note_
->
-> _Shipping account(s) can be added and managed via API. For more information, refer to the <Anchor label="API References" target="_blank" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-dx">API References</Anchor> section._
+***
 
 ### See also
 
@@ -247,6 +245,7 @@ In SAPIENT, you can create a DX Express shipping account by selecting your desir
   <Card title="DX Express Sign-Off" icon="fa-solid fa-file-signature" href="https://docs.intersoftsapient.net/docs/dx-freight-sign-off-copy">
     Complete necessary steps before using DXF to create shipments in SAPIENT.
   </Card>
+
   <Card title="DX Rate Limit" icon="fa-solid fa-file-signature" href="https://docs.intersoftsapient.net/v4.03/docs/dx-rate-limit">
     Learn more about the DX rate limit on the number of requests that can be processed over a given period of time.
   </Card>
