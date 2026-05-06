@@ -21,23 +21,32 @@ To set up your DX API credentials, perform the steps as explained in the followi
 <ToggleList>
   <ToggleListItem title="1. Log in to DX Despatch Manager">
     Log into [DX Despatch Manager](https://despatch.dxdelivery.com/login?ReturnUrl=%2F) with your login credentials. These credentials are provided when your DX account was setup.
-***
+
+    ***
   </ToggleListItem>
-<br />
+
+  <br />
+
   <ToggleListItem title="2. Open API Access Management">
     Once you are logged in, select **Settings** > **API Access Management**.
 
     <Image align="center" border={true} src="https://files.readme.io/ed20103-image.png" alt="Accessing API access management" />
-***
+
+    ***
   </ToggleListItem>
-<br />
+
+  <br />
+
   <ToggleListItem title="3. Add an API user">
     On the page that opens, select **Add API User**.
 
     <Image align="center" border={true} src="https://files.readme.io/60673e2-image.png" alt="Selecting option to add API user " />
-***
+
+    ***
   </ToggleListItem>
-<br />
+
+  <br />
+
   <ToggleListItem title="4. Enter the API user details">
     In the **Add API User** form that opens, enter the necessary information as explained in the following table.
 
@@ -51,12 +60,15 @@ To set up your DX API credentials, perform the steps as explained in the followi
     |      **Name**      | Enter the name of the API user you are adding.                                                                  |
     |     **Account**    | From the dropdown menu, select the account type that you want use for the API user you are adding               |
     |      **Role**      | From the dropdown menu, select the role that you want to assign to the API user you are adding                  |
-***
+
+    ***
   </ToggleListItem>
-<br />
+
+  <br />
+
   <ToggleListItem title="5. Save the API user">
-    After entering the information, select **Save**.
-Once saved, the new API user has been created successfully. You can now use this information to set up the shipping account via Intersoft.
+    After entering the information, select **Save**. <br />
+    Once saved, the new API user has been created successfully. You can now use this information to set up the shipping account via Intersoft.
   </ToggleListItem>
 </ToggleList>
 
