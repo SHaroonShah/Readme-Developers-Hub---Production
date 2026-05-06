@@ -253,6 +253,6 @@ In SAPIENT, you can create a DX Express shipping account by selecting your desir
   </Card>
 
   <Card title="DX Rate Limit" icon="fa-solid fa-file-signature" href="https://docs.intersoftsapient.net/v4.03/docs/dx-rate-limit">
-    Learn more about the DX rate limit on the number of requests that can be processed over a given period of time.
+    Learn more about the DX rate limit set on the number of requests that can be processed over a given period of time.
   </Card>
 </Cards>
