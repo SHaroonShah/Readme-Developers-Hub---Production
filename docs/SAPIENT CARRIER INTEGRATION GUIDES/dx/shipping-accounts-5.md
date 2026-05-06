@@ -51,7 +51,9 @@ In SAPIENT, you can create a DX Express shipping account by selecting your desir
         On the **Add Shipping Account** form that appears, in the **ACCOUNT DETAILS** block, fill in the necessary information as described in the following table.
 
         <Image align="center" border={true} src="https://files.readme.io/a2dad7052816bc2eb88dccddb82ee81753d9b31a2b436529e7ee59084897374d-Account_details_block_DX.png" width="500px" alt="Entering account details" />
-<br />
+
+        <br />
+
         <AsteridkForMandatoryElements />
 
         |         Element         | Description                                                                                                   |
@@ -68,7 +70,9 @@ In SAPIENT, you can create a DX Express shipping account by selecting your desir
         In the **SHIPPING ACCOUNT** block, enter the necessary information as explained in the following table.
 
         <Image align="center" border={true} src="https://files.readme.io/d0eae769c813147e1ba1ff428f31e2a84852aba1218a4858b7324d86458cd559-Shipping_account_block_DX.png" width="400px" alt="Specifying shipping account details" />
-<br />
+
+        <br />
+
         <Callout icon="💡" theme="default">
           ### *Tip*
 
@@ -239,7 +243,7 @@ In SAPIENT, you can create a DX Express shipping account by selecting your desir
 
 ### See also
 
-<Cards>
+<Cards Columns={3}>
   <Card title="Edit shipping account" icon="fa-pen-to-square" href="https://docs.intersoftsapient.net/docs/dx-freight-sign-off">
     Update or modify an existing shipping account.
   </Card>
