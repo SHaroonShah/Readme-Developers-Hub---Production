@@ -48,8 +48,7 @@ This integration represents a significant step towards optimising shipping funct
       </Card>
 
       <Card title="Label Formats" icon="fa-solid fa-tag">
-        <Glossary>PDF</Glossary>, <Glossary>PNG</Glossary>, and <Glossary>ZPL</Glossary>.<br />
-        The label formats are supported for both On Amazon and Off Amazon shipments. However, the available label formats depends on the service used.
+        <Glossary>PDF</Glossary>, <Glossary>PNG</Glossary>, <Glossary>ZPL203DPI</Glossary>, <Glossary>ZPL300DPI</Glossary>, and <Glossary>DATASTREAM</Glossary>.<br />
       </Card>
     </Cards>
   </Tab>
