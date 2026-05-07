@@ -91,7 +91,7 @@ The EVRi integration into the SAPIENT platform enhances our shipping capabilitie
 
       *For more information on the service enhancements and carrier services, refer to the following endpoints:*
 
-      * *[Create Shipment](https://docs.intersoftsapient.net/v4.03/reference/post_v4-shipments-amazon)*
+      * *[Create Shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-evri)*
       * *[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services)*
     </Callout>
   </Tab>
@@ -141,8 +141,9 @@ The EVRi integration into the SAPIENT platform enhances our shipping capabilitie
       <Card title="Add EVRi Tracking Account" icon="fa-solid fa-search-location" href="https://docs.intersoftsapient.net/v4.03/docs/tracking-account-setup">
         Configure tracking for your EVRi shipments.
       </Card>
-<Card title="Add Child Client Department to Parent Shipping Account" icon="fa-solid fa-circle-user" href="https://docs.intersoftsapient.net/v4.03/docs/client-id-and-child-clinet-id-management-1">
-       Create a parent shipping account and have multiple sub-accounts.
+
+      <Card title="Add Child Client Department to Parent Shipping Account" icon="fa-solid fa-circle-user" href="https://docs.intersoftsapient.net/v4.03/docs/client-id-and-child-clinet-id-management-1">
+        Create a parent shipping account and have multiple sub-accounts.
       </Card>
     </Cards>
   </Tab>
