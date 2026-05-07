@@ -61,7 +61,7 @@ The EVRi integration into the SAPIENT platform enhances our shipping capabilitie
   <Tab title="Additional Features">
     <Cards columns={1}>
       <Card title="Single Piece Shipments" icon="fa-solid fa-box">
-       All services in this integration support only single-package services. Which means, only one package can be sent per request. Consignment services are not supported in the this integration.
+        All services in this integration support only single-package services. Which means, only one package can be sent per request. Consignment services are not supported in the this integration.
       </Card>
 
       <Card title="Carrier-specific Fields " icon="fa-solid fa-truck">
@@ -79,7 +79,7 @@ The EVRi integration into the SAPIENT platform enhances our shipping capabilitie
         A signature is required upon delivery for verification of your shipment.
       </Card>
 
-      <Card title="SMS" icon="fa-solid fa-location-pin-lock">
+      <Card title="SMS" icon="fa-solid fa-phone">
         Requires a contact number to receive delivery updates via SMS.
       </Card>
     </Cards>
