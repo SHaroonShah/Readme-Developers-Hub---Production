@@ -79,7 +79,7 @@ The EVRi integration into the SAPIENT platform enhances our shipping capabilitie
         A signature is required upon delivery for verification of your shipment.
       </Card>
 
-      <Card title="SMS" icon="fa-solid fa-phone">
+      <Card title="SMS" icon="fa-solid fa-message-sms">
         Requires a contact number to receive delivery updates via SMS.
       </Card>
     </Cards>
