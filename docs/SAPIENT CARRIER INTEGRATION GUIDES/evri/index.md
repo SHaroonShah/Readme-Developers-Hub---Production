@@ -134,14 +134,14 @@ The EVRi integration into the SAPIENT platform enhances our shipping capabilitie
 <Tabs>
   <Tab title="Account Setup">
     <Cards columns={2}>
-      <Card title="Add EVRi Shipping Account" icon="fa-solid fa-truck" href="https://docs.intersoftsapient.net/docs/add-amazon-shipping-account">
+      <Card title="Add EVRi Shipping Account" icon="fa-solid fa-truck" href="https://docs.intersoftsapient.net/v4.03/docs/shipping-account-setup-3">
         Set up your EVRi shipping account to start creating shipments.
       </Card>
 
-      <Card title="Add EVRi Tracking Account" icon="fa-solid fa-search-location" href="https://docs.intersoftsapient.net/docs/add-an-post-tracking-account#/">
+      <Card title="Add EVRi Tracking Account" icon="fa-solid fa-search-location" href="https://docs.intersoftsapient.net/v4.03/docs/tracking-account-setup">
         Configure tracking for your EVRi shipments.
       </Card>
-<Card title="Add Child Client Department to Parent Shipping Account" icon="fa-solid fa-circle-user" href="https://docs.intersoftsapient.net/docs/add-an-post-tracking-account#/">
+<Card title="Add Child Client Department to Parent Shipping Account" icon="fa-solid fa-circle-user" href="https://docs.intersoftsapient.net/v4.03/docs/client-id-and-child-clinet-id-management-1">
        Create a parent shipping account and have multiple sub-accounts.
       </Card>
     </Cards>
@@ -149,7 +149,7 @@ The EVRi integration into the SAPIENT platform enhances our shipping capabilitie
 
   <Tab title="API References">
     <Cards columns={2}>
-      <Card title="SAPIENT EVRi API" icon="fa-solid fa-code" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-amazon">
+      <Card title="SAPIENT EVRi API" icon="fa-solid fa-code" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-evri">
         Explore the EVRi API endpoints for a seamless shipping experience.
       </Card>
     </Cards>
@@ -160,14 +160,6 @@ The EVRi integration into the SAPIENT platform enhances our shipping capabilitie
 
 <Cards columns={0}>
   <Card title="Activate this integration" href="https://docs.intersoftsapient.net/docs/integration-activation#/" icon="fa-solid fa-circle-play fa-beat" target="_blank">
-    Seamlessly connect with Amazon and manage your shipping operations from a single platform.
+    Seamlessly connect with EVRi and manage your shipping operations from a single platform.
   </Card>
 </Cards>
-
-* [Add an EVRi shipping account](https://docs.intersoftsapient.net/docs/shipping-account-setup-3)
-* [Add an EVRi tracking account](https://docs.intersoftsapient.net/docs/tracking-account-setup)
-* [Add a child client department to parent shipping account](https://docs.intersoftsapient.net/docs/client-id-and-child-clinet-id-management-1#/)
-
-> 📘 _Note_
->
-> _For more information on how to activate the EVRi integration, refer to the <Anchor label="Activate integration" target="_blank" href="https://docs.intersoftsapient.net/docs/integration-activation#/">Activate integration</Anchor> section._
