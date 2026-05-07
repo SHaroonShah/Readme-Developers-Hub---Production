@@ -64,7 +64,7 @@ The EVRi integration into the SAPIENT platform enhances our shipping capabilitie
         * **Single package shipments**: All services in this integration support only single-package services. Which means, only one package can be sent per request. Consignment services are not supported in the this integration.
       </Card>
 
-      <Card title="Carrier-specific Fields " icon="fa-solid fa-box">
+      <Card title="Carrier-specific Fields " icon="fa-solid fa-truck">
         The **CarrierSpecifics** object in the Create Shipment request contains the following fields:
 
         * **SpecialInstruction1**: To provide special instructions or requests to the carrier for handling the shipment, such as handling procedures or delivery preferences.
