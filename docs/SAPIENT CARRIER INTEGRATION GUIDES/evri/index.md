@@ -50,25 +50,28 @@ The EVRi integration into the SAPIENT platform enhances our shipping capabilitie
         The intergration supports label in the <Glossary>PDF</Glossary> and <Glossary>PNG</Glossary> formats.<br />
       </Card>
     </Cards>
-> 📘 _Note_
->
-> _QR code generation is supported for the returns shipments only._
+
+    > 📘 *Note*
+    >
+    > *QR code generation is supported for the returns shipments only.*
 
     <br />
   </Tab>
 
   <Tab title="Additional Features">
-<Cards columns={2}>
+    <Cards columns={1}>
       <Card title="Single Piece Shipments" icon="fa-solid fa-box">
-    * **Single package shipments**: All services in this integration support only single-package services. Which means, only one package can be sent per request. Consignment services are not supported in the this integration.
-  </Card>
-<Card title="Carrier-specific Fields " icon="fa-solid fa-box">
-  The **CarrierSpecifics** object in the Create Shipment request contains the following fields:
-  * **SpecialInstruction1: To provide special instructions or requests to the carrier for handling the shipment, such as handling procedures or delivery preferences.
-  * ** SpecialInstruction2: To provide additional specific instructions concerning the shipment handling that Evri should be aware of.
-</Card>
-</Cards>      
-</Tab>
+        * **Single package shipments**: All services in this integration support only single-package services. Which means, only one package can be sent per request. Consignment services are not supported in the this integration.
+      </Card>
+
+      <Card title="Carrier-specific Fields " icon="fa-solid fa-box">
+        The **CarrierSpecifics** object in the Create Shipment request contains the following fields:
+
+        * **SpecialInstruction1**: To provide special instructions or requests to the carrier for handling the shipment, such as handling procedures or delivery preferences.
+        * **SpecialInstruction2**: To provide additional specific instructions concerning the shipment handling that Evri should be aware of.
+      </Card>
+    </Cards>
+  </Tab>
 
   <Tab title="Service Enhancements">
     <Cards columns={2}>
