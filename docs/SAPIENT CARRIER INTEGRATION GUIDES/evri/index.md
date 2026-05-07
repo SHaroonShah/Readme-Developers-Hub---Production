@@ -60,7 +60,7 @@ The EVRi integration into the SAPIENT platform enhances our shipping capabilitie
 
   <Tab title="Additional Features">
     <Cards columns={1}>
-      <Card title="Single Piece Shipments" icon="fa-solid fa-box">
+      <Card title="Single Package Shipments" icon="fa-solid fa-box">
         All services in this integration support only single-package services. Which means, only one package can be sent per request. Consignment services are not supported in the this integration.
       </Card>
 
@@ -76,7 +76,7 @@ The EVRi integration into the SAPIENT platform enhances our shipping capabilitie
   <Tab title="Service Enhancements">
     <Cards columns={2}>
       <Card title="Signed" icon="fa-solid fa-signature">
-        A signature is required upon delivery for verification of your shipment.
+        Requires a signature upon delivery for verification of your shipment.
       </Card>
 
       <Card title="SMS" icon="fa-solid fa-message-sms">
@@ -97,44 +97,72 @@ The EVRi integration into the SAPIENT platform enhances our shipping capabilitie
   </Tab>
 </Tabs>
 
-This integration provides the following key features:
+***
 
-**Ship from destinations**: The integration supports shipping from locations in Great Britain (GB) only.
+## API services
 
-* **Ship To Destinations**: Users can send <Glossary>shipments</Glossary> to Great Britain (GB), Europe, and the <Glossary>ROW</Glossary> (Rest of the World).
-* **Label formats**: The EVRi's label integration support labels in the <Glossary>PDF</Glossary> and <Glossary>PNG</Glossary> formats.
-* **Incoterms**: This integration only supports <Glossary>DDU</Glossary>.
-* **Service Type**: The integration is focused on outbound and Returns shipping services.
+<Tabs>
+  <Tab title="Core Services">
+    <Accordion title="Create Shipment" icon="plus-circle">
+      The integration for creating shipments to reflect EVRi as a primary carrier and allowing users to create shipments using the **Create Shipment** endpoint.
+    </Accordion>
+  </Tab>
 
-> 📘 _Note_
->
-> _QR code generation is supported for the returns shipments._
+  <Tab title="Other Services">
+    <Accordion title="Print Label" icon="print">
+      Generate and return the label for an EVRi shipment in the PDF or PNG format. This endpoint must be utilised when the label is not generated in the EVRi Create Shipment request.
 
-## Enhancements
+      > 📘 *Note*
+      >
+      > *This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting.*
+    </Accordion>
 
-The following are the key enhancements provided by the EVRi integration:
+    <br />
 
-* Service enhancements: These services include the following:
-  * **Signed**: Requires a signature upon delivery.
-  * **SMS**: Requires a contact number to receive delivery updates via SMS.
-
-## Additional features
-
-The EVRi integration provides the following additional features:
-
-* **Single package**: All services in this integration support only single-package services. Which means, only one package can be sent per request.
-
-## Integration types
-
-This integrations supports the following integration types on SAPIENT:
-
-**Label**: Enables delivery routing request to be used for outbound services, and collection routing request for the returns services.
-
-**Tracking**: Enables data files to be sent via SFTP.
+    <Accordion title="Tracking" icon="print">
+      This integration allows customers to monitor their shipments in real-time, providing transparency and peace of mind. Users can access detailed tracking information, including, real-time updates, tracking numbers, and delivery notifications. For EVRi shipments, the data files are sent via SFTP.
+    </Accordion>
+  </Tab>
+</Tabs>
 
 ***
 
-In this section, learn how to:
+## Getting Started
+
+<br />
+
+<Tabs>
+  <Tab title="Account Setup">
+    <Cards columns={2}>
+      <Card title="Add EVRi Shipping Account" icon="fa-solid fa-truck" href="https://docs.intersoftsapient.net/docs/add-amazon-shipping-account">
+        Set up your EVRi shipping account to start creating shipments.
+      </Card>
+
+      <Card title="Add EVRi Tracking Account" icon="fa-solid fa-search-location" href="https://docs.intersoftsapient.net/docs/add-an-post-tracking-account#/">
+        Configure tracking for your EVRi shipments.
+      </Card>
+<Card title="Add Child Client Department to Parent Shipping Account" icon="fa-solid fa-circle-user" href="https://docs.intersoftsapient.net/docs/add-an-post-tracking-account#/">
+       Create a parent shipping account and have multiple sub-accounts.
+      </Card>
+    </Cards>
+  </Tab>
+
+  <Tab title="API References">
+    <Cards columns={2}>
+      <Card title="SAPIENT EVRi API" icon="fa-solid fa-code" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-amazon">
+        Explore the EVRi API endpoints for a seamless shipping experience.
+      </Card>
+    </Cards>
+  </Tab>
+</Tabs>
+
+<Banner isInline={true} message="Ready to integrate?" color="#ffb600" textColor="#ffffff" fontSize="20px" fontWeight="bold" width="120px" />
+
+<Cards columns={0}>
+  <Card title="Activate this integration" href="https://docs.intersoftsapient.net/docs/integration-activation#/" icon="fa-solid fa-circle-play fa-beat" target="_blank">
+    Seamlessly connect with Amazon and manage your shipping operations from a single platform.
+  </Card>
+</Cards>
 
 * [Add an EVRi shipping account](https://docs.intersoftsapient.net/docs/shipping-account-setup-3)
 * [Add an EVRi tracking account](https://docs.intersoftsapient.net/docs/tracking-account-setup)
