@@ -39,35 +39,44 @@ To add a parent shipping account for EVRi in SAPIENT, follow the instructions as
         In the left navigation panel, select **Shipping Accounts**.
 
         <Image align="center" border={true} src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" alt="Accessing shipping accounts" />
-***
+
+        ***
       </ToggleListItem>
-<br />
+
+      <br />
+
       <ToggleListItem title="2. Select option to add shipping account">
         On the **Shipping Accounts** page that opens, select ![](https://files.readme.io/4dc0470535418171d8c974546d130f04a0fc60a878c7f7648b2da21309450830-add_shipping_account_button.png).
 
         <Image align="center" border={true} src="https://files.readme.io/93a0d9cc66a38e49c4bcffc89b73c11a567a5b518b19eac7ae22c7e39063c1b1-Add_shipping_account_button_EVRi.png" alt="Accessing option to add shipping account" />
-***
+
+        ***
       </ToggleListItem>
-<br />
+
+      <br />
+
       <ToggleListItem title="3. Enter account details">
         On the **Add Shipping Account** form that appears, in the **ACCOUNT DETAILS** block, fill in the necessary information as described in the following table.
 
         <Image align="center" border={true} src="https://files.readme.io/43991905bc228df5a0737e883ebcf6125535727cdb622711887e427c375d6763-Account_details_block_EVRi.png" alt="Entering account details" />
-
+<br />
         <AsteridkForMandatoryElements />
 
         |         Element         | Description                                                                                                                                 |
         | :---------------------: | :------------------------------------------------------------------------------------------------------------------------------------------ |
         |      **Carrier**\*      | From the dropdown list, select **EVRI - EVRi**.                                                                                             |
         | **Shipping Location**\* | From the dropdown menu, select the <Glossary>shipping location</Glossary> that you want to assign to the shipping account you are creating. |
-***
+
+        ***
       </ToggleListItem>
-<br />
-      <ToggleListItem title="Step 4: Enter shipping account details">
+
+      <br />
+
+      <ToggleListItem title="4. Enter shipping account details">
         In the **SHIPPING ACCOUNT** block, enter the necessary information as explained in the following table.
 
         <Image align="center" border={true} src="https://files.readme.io/9546c2ab0f9d76d0ac27f5b028e0be8c38f7ac52f6b46cc177ceefdb63a32de5-Shipping_account_block_EVRi.png" width="400px" alt="Specifying shipping account details" />
-
+<br />
         <Callout icon="💡" theme="default">
           ### *Tip*
 
@@ -153,14 +162,17 @@ To add a parent shipping account for EVRi in SAPIENT, follow the instructions as
             </tr>
           </tbody>
         </Table>
-***
+
+        ***
       </ToggleListItem>
-<br />
+
+      <br />
+
       <ToggleListItem title="5. Enter carrier details">
         In the **CARRIER DETAILS** block, enter the necessary information as explained in the following table.
 
         <Image align="center" border={true} src="https://files.readme.io/60e2321138104b3b4c2a28966427ea131d2d4a8fb8a5dc283362a9ded6220585-carrier_details_block_EVRi.png" width="400px" alt="Entering carrier details" />
-
+<br />
         <AsteridkForMandatoryElements />
 
         <Table align={["center","left"]}>
@@ -212,9 +224,12 @@ To add a parent shipping account for EVRi in SAPIENT, follow the instructions as
             </tr>
           </tbody>
         </Table>
-***
+
+        ***
       </ToggleListItem>
-<br />
+
+      <br />
+
       <ToggleListItem title="Step 6: Save and add the shipping account">
         After entering all the required information, select ![](https://files.readme.io/99e4e322c6a3f874e0258a73646a551aa2120d8d359b2ce5d09a4cf0eabcd44a-add_shipping_account_button_2.png). <br />
         Once done, you have now successfully added a shipping account. You can now start shipping with it.
