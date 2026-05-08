@@ -252,10 +252,6 @@ To add a parent shipping account for EVRi in SAPIENT, follow the instructions as
   </Tab>
 </Tabs>
 
-> 📘 _Note_
->
-> _Shipping account(s) can be added and managed via API. For more information, refer to the <Anchor label="API References" target="_blank" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-evri">API References</Anchor> section._
-
 ***
 
 ### See also
