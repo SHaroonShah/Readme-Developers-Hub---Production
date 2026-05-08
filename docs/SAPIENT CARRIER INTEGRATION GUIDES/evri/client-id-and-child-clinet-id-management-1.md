@@ -136,11 +136,9 @@ To add the child client department to the EVRi's parent shipping account, follow
 
   <ToggleListItem title="6. Save and add the child client department">
     After entering all the required information, select ![](https://files.readme.io/0db8af6a214edf8388a6fe90740721c220967596413a59cddb80e7cc96b07b19-Add_child_client_department_button_2.png). <br />
-Once done, the child client department is successfully added to your parent shipping account. You can now start using it in your create shipment requests.
+    Once done, the child client department is successfully added to your parent shipping account. You can now start using it in your create shipment requests.
   </ToggleListItem>
 </ToggleList>
-
-<br />
 
 <Callout icon="💡" theme="default">
   ### _Tip_
