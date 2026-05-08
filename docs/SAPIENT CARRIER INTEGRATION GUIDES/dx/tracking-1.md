@@ -29,7 +29,7 @@ In SAPIENT, you can add tracking accounts for DX Express to enhance visibility, 
 
 ## How to add DX Express tracking account
 
-To add a tracking account for DX Express in SAPIENT, perform the steps as explained in the following procedure:
+To add a tracking account for DX Express in SAPIENT, perform the steps as explained in the following procedure.
 
 <ToggleList>
   <ToggleListItem title="1. Navigate to the Tracking Account tab">
