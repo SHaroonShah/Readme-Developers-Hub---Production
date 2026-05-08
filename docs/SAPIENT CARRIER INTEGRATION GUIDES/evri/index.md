@@ -137,7 +137,7 @@ The EVRi integration into the SAPIENT platform enhances our shipping capabilitie
 
 <Tabs>
   <Tab title="Account Setup">
-    <Cards columns={2}>
+    <Cards columns={3}>
       <Card title="Add EVRi Shipping Account" icon="fa-solid fa-truck" href="https://docs.intersoftsapient.net/v4.03/docs/shipping-account-setup-3">
         Set up your EVRi shipping account to start creating shipments.
       </Card>
