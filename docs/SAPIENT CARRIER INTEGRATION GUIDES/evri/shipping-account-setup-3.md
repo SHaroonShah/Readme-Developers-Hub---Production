@@ -31,7 +31,7 @@ Unlike other carriers, EVRi customers can have a main (parent) shipping account 
 ## How to add EVRi shipping account
 
 <Tabs>
-  <Tab title="Via SAPIENT UI">
+  <Tab title="Via SAPIENT UI"> <br />
 To add a parent shipping account for EVRi in SAPIENT, follow the instructions as explained in the following procedure:
     <ToggleList>
       <ToggleListItem title="1. Select the Shipping Accounts page">
