@@ -256,4 +256,13 @@ To add a parent shipping account for EVRi in SAPIENT, follow the instructions as
 
 ### See also
 
+<Cards columns={2}>
+<Card title="Edit shipping account" icon="fa-pen-to-square" href="https://docs.intersoftsapient.net/docs/dx-freight-sign-off">
+    Update or modify an existing shipping account.
+  </Card>
+<Card title="Add Child Client Department to Parent Shipping Account" icon="fa-solid fa-circle-user" href="https://docs.intersoftsapient.net/v4.03/docs/client-id-and-child-clinet-id-management-1">
+        Create a parent shipping account and have multiple sub-accounts.
+      </Card>
+    </Cards>
+
 * [Edit shipping account](https://docs.intersoftsapient.net/docs/edit-shipping-account)
