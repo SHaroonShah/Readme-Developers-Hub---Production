@@ -56,8 +56,6 @@ The EVRi integration into the SAPIENT platform enhances our shipping capabilitie
     > 📘 *Note*
     >
     > *QR code generation is supported for the returns shipments only.*
-
-  
   </Tab>
 
   <Tab title="Additional Features">
@@ -107,6 +105,8 @@ The EVRi integration into the SAPIENT platform enhances our shipping capabilitie
   <Tab title="Core Services">
     <Accordion title="Create Shipment" icon="plus-circle">
       The integration for creating shipments to reflect EVRi as a primary carrier and allowing users to create shipments using the **Create Shipment** endpoint.
+    </Accordion><Accordion title="Manifest shipment" icon="plus-circle">
+      Enable customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/docs/manifest-webhook) to keep track of shipments and their statuses by to receiving real-time updates or notifications whenever specific events occur in the system (such as shipping updates, status changes, and so on).
     </Accordion>
   </Tab>
 
