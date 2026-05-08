@@ -36,7 +36,7 @@ In SAPIENT, you can add tracking accounts for DPD UK to enhance visibility, impr
 
   <br />
 
-  <ToggleListItem title="2. Select option to add a tracking account" icon="fa-arrow-right">
+  <ToggleListItem title="2. Select option to add tracking account" icon="fa-arrow-right">
     In the **Tracking Accounts** page that opens, select ![](https://files.readme.io/f879cc7a233a578517b8e8034e326bc5c585f67b641db9adc93d3388d2a6fb78-Add_tracking_account_button.png).
 
     <Image align="center" border={true} src="https://files.readme.io/522a3682f6e9a14eca2037dd25d5d2aa0972d04bd862883f5a35ac532f1ffce8-Add_tracking_account_button_DX.png" alt="Accessing option to add tracking account" />
@@ -120,3 +120,5 @@ In SAPIENT, you can add tracking accounts for DPD UK to enhance visibility, impr
     Understand tracking events and milestone data.
   </Card>
 </Cards>
+
+<br />
