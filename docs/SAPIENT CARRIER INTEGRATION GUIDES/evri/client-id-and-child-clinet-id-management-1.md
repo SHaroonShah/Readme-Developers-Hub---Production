@@ -17,7 +17,7 @@ next:
 ---
 In SAPIENT, unlike other carriers, EVRi customers can have a main (parent) <Glossary>shipping account</Glossary> and may choose to have multiple sub-accounts under the main account. For example, if the customers want to ship multiple different brands, enabling different departments, branches, or teams to manage their shipping needs independently while still being governed by a central administration.
 
-To add the child client department to the [EVRi'](https://docs.intersoftsapient.net/docs/shipping-account-setup-3#see-also-1)s parent shipping account, follow the steps as explained in the following procedure.
+To add the child client department to the EVRi's parent shipping account, follow the steps as explained in the following procedure.
 
 1. In the left navigation panel, select **Shipping Accounts**.
 
