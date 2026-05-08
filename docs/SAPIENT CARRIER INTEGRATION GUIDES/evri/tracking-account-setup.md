@@ -17,8 +17,6 @@ next:
 ---
 In SAPIENT, you can add tracking accounts for EVRi to enhance visibility, improving customer interactions, and streamlining logistics operations for EVRi.
 
-## Before you begin
-
 Before adding an EVRi tracking account, you need to [send a corresponding request to EVRi](mailto:evriclientdesk@evri.com) via email with your EVRi client account manager cc'd in your request. In the email, make sure to add the following information:
 
 * **Client ID**
@@ -37,7 +35,7 @@ It can take up to 5 working days for EVRi to set up the tracking and provide the
 
 ## How to add EVRi tracking account
 
-To add a tracking account for EVRi in SAPIENT, follow the steps as explained in the following procedure.
+To add a tracking account for EVRi in SAPIENT, perform the steps as explained in the following procedure.
 
 <ToggleList>
   <ToggleListItem title="1. Navigate to the Tracking Accounts tab">
