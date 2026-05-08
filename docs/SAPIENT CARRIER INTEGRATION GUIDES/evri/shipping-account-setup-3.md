@@ -265,4 +265,4 @@ To add a parent shipping account for EVRi in SAPIENT, follow the instructions as
       </Card>
     </Cards>
 
-* [Edit shipping account](https://docs.intersoftsapient.net/docs/edit-shipping-account)
+<br />
