@@ -244,10 +244,11 @@ Unlike other carriers, EVRi customers can have a main (parent) shipping account 
   </Tab>
 
   <Tab title="Via API">
-To add an EVRi shipping account via API, refer to the following API endpoint.
+    To add an EVRi shipping account via API, refer to the following API endpoint.
+
     <Cards>
-      <Card title="Add Account" href="https://docs.intersoftsapient.net/reference/post_v4-shippingaccounts-dpduk" icon="fa-code">
-        Add and manage DPD UK shipping account via API.
+      <Card title="Add Account" href="https://docs.intersoftsapient.net/reference/post_v4-shippingaccounts-evri" icon="fa-code">
+        Add and manage EVRi shipping account via API.
       </Card>
     </Cards>
   </Tab>
