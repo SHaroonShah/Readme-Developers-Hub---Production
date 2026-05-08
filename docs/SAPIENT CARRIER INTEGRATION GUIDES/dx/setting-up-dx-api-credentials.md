@@ -16,7 +16,9 @@ next:
 ---
 Before [adding the DX shipping cccount](https://docs.intersoftsapient.net/docs/shipping-accounts-5) with Intersoft, you need to make sure you have the necessary information required for the account setup. This is typically your **Username** and **Password** provided in your DX API credentials.
 
-To set up your DX API credentials, perform the steps as explained in the following procedure:
+## How to obtain DX API credentials
+
+To set up and obtain your DX API credentials, perform the steps as explained in the following procedure.
 
 <ToggleList>
   <ToggleListItem title="1. Log in to DX Despatch Manager">
@@ -51,7 +53,9 @@ To set up your DX API credentials, perform the steps as explained in the followi
     In the **Add API User** form that opens, enter the necessary information as explained in the following table.
 
     <Image align="center" border={true} src="https://files.readme.io/3e31ffe-image.png" alt="Adding API user" />
-<br />
+
+    <br />
+
     |       Element      | Description                                                                                                     |
     | :----------------: | :-------------------------------------------------------------------------------------------------------------- |
     |    **User name**   | Enter your username that you want to use to set up your DX <Glossary>shipping account</Glossary> via Intersoft. |
