@@ -33,8 +33,8 @@ This is the standard rate limit that DX has created, however based on your DX sh
 ### See also
 
 <Cards>
-  <Card title="DX Rate Limiting" href="https://docs.intersoftsapient.net/docs/api-rate-limiting" icon="fa-solid fa-gauge-max">
-    Learn more on how INTERSOFT handles API rate limiting .
+  <Card title="INTERSOT AP Rate Limiting" href="https://docs.intersoftsapient.net/docs/api-rate-limiting" icon="fa-solid fa-gauge-max">
+    Learn more on how INTERSOFT handles API rate limits.
   </Card>
 </Cards>
 
