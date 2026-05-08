@@ -17,7 +17,7 @@ next:
 ---
 In SAPIENT, unlike other carriers, EVRi customers can have a main (parent) <Glossary>shipping account</Glossary> and may choose to have multiple sub-accounts under the main account. For example, if the customers want to ship multiple different brands, enabling different departments, branches, or teams to manage their shipping needs independently while still being governed by a central administration.
 
-To add the child client department to the EVRi's parent shipping account, follow the steps as explained in the following procedure.
+To add the child client department to the [EVRi'](https://docs.intersoftsapient.net/docs/shipping-account-setup-3#see-also-1)s parent shipping account, follow the steps as explained in the following procedure.
 
 1. In the left navigation panel, select **Shipping Accounts**.
 
@@ -27,7 +27,7 @@ To add the child client department to the EVRi's parent shipping account, follow
 
 <Image align="center" border={true} caption="Selecting EVRi shipping account" src="https://files.readme.io/5c7b97571f4faf1a56e4084cf6216305a6215cf5fc95b824a38466f0ea9dfdd2-Selecting_EVRi_shipping_account.png" />
 
-3. In the **View Shipping Account \[Account Name]** page that opens, in the **CARRIER DETAILS** block, select ![](https://files.readme.io/1a04f65a02853417ac0ba36c0771ed4e9c07f508e5e3b7ee7423d7a572aeba18-Child_client_departments_button.png).
+3. In the **View Shipping Account [Account Name]** page that opens, in the **CARRIER DETAILS** block, select ![](https://files.readme.io/1a04f65a02853417ac0ba36c0771ed4e9c07f508e5e3b7ee7423d7a572aeba18-Child_client_departments_button.png).
 
 <Image align="center" border={true} caption="Accessing option to view child client departments" src="https://files.readme.io/b426866fc50d28daa7c738c1c9fef6c88d45fb993b37f57b742e83e40fa4b1a7-Accesisng_option_to_view_child_client_departments.png" />
 
@@ -57,7 +57,7 @@ To add the child client department to the EVRi's parent shipping account, follow
   <tbody>
     <tr>
       <td>
-        **Shipping Account Name**\*
+        **Shipping Account Name***
       </td>
 
       <td>
@@ -67,7 +67,7 @@ To add the child client department to the EVRi's parent shipping account, follow
 
     <tr>
       <td>
-        **Child Client Id**\*
+        **Child Client Id***
       </td>
 
       <td>
@@ -77,7 +77,7 @@ To add the child client department to the EVRi's parent shipping account, follow
 
     <tr>
       <td>
-        **Child Client Name**\*
+        **Child Client Name***
       </td>
 
       <td>
@@ -93,7 +93,7 @@ To add the child client department to the EVRi's parent shipping account, follow
       <td>
         Enter the SMS group code if you wish you receive delivery updates via SMS.
 
-        *`Note`: This is an optional field. If you provide this information, make sure to enable the SMS service enhancement in your[Create Shipment request](https://docs.intersoftsapient.net/reference/post_v4-shipments-evri#/).*
+        _`Note`: This is an optional field. If you provide this information, make sure to enable the SMS service enhancement in your[Create Shipment request](https://docs.intersoftsapient.net/reference/post_v4-shipments-evri#/)._
       </td>
     </tr>
   </tbody>
@@ -104,7 +104,7 @@ To add the child client department to the EVRi's parent shipping account, follow
 Once done, the child client department is successfully added to your parent shipping account. You can now start using it in your create shipment requests.
 
 <Callout icon="💡" theme="default">
-  ### *Tip*
+  ### _Tip_
 
-  *You can link more than one child client department to your parent shipping account. To do that, repeat the steps as explained in the preceding procedure.*
+  _You can link more than one child client department to your parent shipping account. To do that, repeat the steps as explained in the preceding procedure._
 </Callout>
