@@ -50,7 +50,7 @@ The EVRi integration into the SAPIENT platform enhances our shipping capabilitie
         The intergration supports label in the <Glossary>PDF</Glossary> and <Glossary>PNG</Glossary> formats.<br />
       </Card>
     </Cards>
-
+<br />
     > 📘 *Note*
     >
     > *QR code generation is supported for the returns shipments only.*
