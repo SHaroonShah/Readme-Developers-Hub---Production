@@ -22,6 +22,8 @@ In SAPIENT, you can create a DX Express shipping account by selecting your desir
 > 1. _[Enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) for DX Express_
 > 2. _Created and obtained the [DX API credentials](https://docs.intersoftsapient.net/v4.03/docs/setting-up-dx-api-credentials)_
 
+## How to add EVRi shipping account
+
 <Tabs>
   <Tab title="Via SAPIENT UI">
     To add a shipping account for DX Express in SAPIENT, follow the instructions as explained in the following procedure:
