@@ -16,7 +16,7 @@ metadata:
 next:
   description: ''
 ---
-The DX carrier integration has it's own specific rate limit of **20 API requests per minute**. This impacts the [Create Shipment ](https://api.test.intersoftsapient.net/docs/v4-DX/api/index.html#tag/Shipments/paths/~1v4~1shipments~1DX/post)endpoint when creating DX shipping labels.
+The DX carrier integration has it's own specific rate limit of **20 API requests per minute**. This impacts the [Create Shipment ](https://api.test.intersoftsapient.net/docs/v4-DX/api/index.html#tag/Shipments/paths/~1v4~1shipments~1DX/post) endpoint when creating DX shipping labels.
 
 The DX rate limit is set for all connections between Intersoft and the <Glossary>carrier</Glossary> for all activities relating to processing a <Glossary>shipment</Glossary>, including tracking which is requested in the background and therefore might impact the rate limit.
 
