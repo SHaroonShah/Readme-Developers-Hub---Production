@@ -20,7 +20,7 @@ next:
       slug: tracking-account-setup
       title: Tracking account setup
 ---
-In SAPIENT, you can create an EVRi shipping account by selecting your desired <Glossary>shipping location</Glossary>,  entering the corresponding account and carrier details, and then adding the account to the system.
+In SAPIENT, you can create an [EVRi](https://docs.intersoftsapient.net/docs/shipping-account-setup-3#see-also-1) shipping account by selecting your desired <Glossary>shipping location</Glossary>,  entering the corresponding account and carrier details, and then adding the account to the system.
 
 Unlike other carriers, EVRi customers can have a main (parent) shipping account and may choose to have multiple sub-accounts under the main account. For example, if the customers want to ship multiple different brands.
 
