@@ -347,3 +347,55 @@ metadata:
   * **Get Product**
   * **Update Product**
 </Accordion>
+
+<Accordion title="SAPIENT release notes - April 28, 2026" icon="">
+  ## New integration - DHL Germany
+The DHL Germany (DE) integration has been added to the SAPIENT system. This integration supports shipping domestically within Germany, and to EU, GB, and Rest of World destinations. With this addition, the following information has been added to the swagger documentation:
+
+**New API endpoints**. A new **DHL GERMANY** block has been added to our carrier-specific APIs. This block includes the following API endpoints:
+
+* **Shipping Account**
+  * **Get Accounts**: Retrieve a list of the DHL Germany shipping accounts.
+  * **Add Account**: Add a new DHL Germany shipping account.
+  * **Get Account**: Retrieve details of a specific DHL Germany shipping account.
+  * **Update Account**: Update details of an existing DHL Germany shipping account.
+  * **Link Locations**: Link shipping locations to a DHL Germany shipping accounts.
+  * **Get Associated Locations**: Retrieve locations linked to the DHL Germany shipping account.
+  * **Get Associated Location**: Retrieve details for a specific DHL Germany associated location.
+* **Shipments**
+  * **Create Shipment**: Create a new DHL Germany shipment request.
+  * **Print Label**: Generate a label for the DHL Germany shipment.
+* **DHL Germany shipping account screen**. As part of the new integration, customer users and Carrier Account Administrators can now configure the DHL Germany shipping account via the SAPIENT UI for creating shipments.  The **Add Shipping Account** screen now includes DHL Germany as a carrier for selection, with mandatory fields required for configuration.
+* **Tracking**: Enables customers to receive tracking updates through their integration with the SAPIENT tracking webhook.
+* **Manifest shipment**: Enable customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with DHL Germany.
+
+> 📘 _Note_
+>
+  > _For more information on this integration, refer to the [DHL Germany](https://docs.intersoftsapient.net/docs/dhl-germany-de) user guides._
+  
+  ## Domestic Royal Mail Tracked Returns label updates
+  The footer text on the following domestic Royal Mail Tracked Returns label templates has been updated to provide clear guidance on where to drop off the return parcels.
+
+| Product Code | Product Name              |
+| :----------- | :------------------------ |
+| **ITA**      | Import Tracked Returns 24 |
+| **TSN**      | Tracked Returns 24        |
+| **ITB**      | Import Tracked Returns 48 |
+| **TSS**      | Tracked Returns 48        |
+
+  <Image align="center" border={true} caption="Example of Royal Mail Tracked Returns 24 label with updated footer" src="https://files.readme.io/4df4a1f719b1868b12444eaf998f41da8fbff6864fd2b3914f04ec84e0e0065b-Tracked_Returns_24_Label.png" width="350px" />
+  
+  ## System maintenance
+  Routine back-end work, minor UI enhancements, and technical improvements were addressed and deployed.
+</Accordion>
+
+
+
+
+
+
+
+
+
+
+<br />
