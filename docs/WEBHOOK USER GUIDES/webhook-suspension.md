@@ -17,6 +17,8 @@ If the webhook is suspended, it looses all its tracking data. For example, if a 
 
 If the receiving endpoint (the system where the notifications are sent) is down or encounters errors, for example, time out, invalid data, SAPIENT may suspend sending further webhook notifications to avoid overwhelming the system.
 
+## How webhook suspension works
+
 <Cards columns={2}>
   <Card title="Quick Recovery" icon="bolt">
     Reactivate suspended webhooks immediately using the **Activate** toggle in the GUI to minimise data loss.
@@ -26,8 +28,6 @@ If the receiving endpoint (the system where the notifications are sent) is down 
     Set up dedicated webhook monitoring before suspension notifications are triggered for better reliability.
   </Card>
 </Cards>
-
-## How webhook suspension works
 
 <Accordion title="Suspension Process" icon="pause-circle">
   When your webhook endpoint is down or encounters errors, SAPIENT follows a structured retry process before suspending the webhook:
