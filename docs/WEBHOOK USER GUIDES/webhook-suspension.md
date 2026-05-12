@@ -33,9 +33,7 @@ If the receiving endpoint (the system where the notifications are sent) is down 
   1. **Error Detection**: The system detects issues like timeouts, invalid data, or server errors
   2. **Retry Attempts**: Multiple retry attempts are made following specific intervals
   3. **Threshold Exceeded**: If all retry attempts fail, the webhook is suspended
-  4. **Notification**: An email is sent to the primary user registered for the customer
-
-  > **Primary User**: Set up during customer onboarding. Contact Intersoft's onboarding team to change the primary user.
+  4. **Notification**: An email is sent to the user registered to receive the suspension notifications. This email can be specified during the Tracking Webhook setup process. 
 </Accordion>
 
 <Accordion title="Retry Schedule" icon="clock">
@@ -131,12 +129,12 @@ If the receiving endpoint (the system where the notifications are sent) is down 
     </Tab>
 
     <Tab title="Server Errors (5xx)">
-      | Error Code | Description                    | Details                                            |
-      | :--------: | :----------------------------- | :------------------------------------------------- |
-      |   **500**  | **Internal Server Error**            | The server has encountered a situation it does not know how to handle       |
-      |   **502**  | **Bad Gateway** | The server, while working as a gateway to get a response needed to handle the request, got an invalid response |
-      |   **503**  | **Service Unavailable**    | The server is not ready to handle the request                         |
-      |   **504**  | **Gateway Timeout**               | The server is acting as a gateway and cannot get a response in time              |
+      | Error Code | Description               | Details                                                                                                        |
+      | :--------: | :------------------------ | :------------------------------------------------------------------------------------------------------------- |
+      |   **500**  | **Internal Server Error** | The server has encountered a situation it does not know how to handle                                          |
+      |   **502**  | **Bad Gateway**           | The server, while working as a gateway to get a response needed to handle the request, got an invalid response |
+      |   **503**  | **Service Unavailable**   | The server is not ready to handle the request                                                                  |
+      |   **504**  | **Gateway Timeout**       | The server is acting as a gateway and cannot get a response in time                                            |
     </Tab>
   </Tabs>
 </Accordion>
