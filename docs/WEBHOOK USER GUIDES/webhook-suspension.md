@@ -33,7 +33,8 @@ If the receiving endpoint (the system where the notifications are sent) is down 
   1. **Error Detection**: The system detects issues like timeouts, invalid data, or server errors
   2. **Retry Attempts**: Multiple retry attempts are made following specific intervals
   3. **Threshold Exceeded**: If all retry attempts fail, the webhook is suspended
-  4. **Notification**: An email is sent to the user registered to receive the suspension notifications. This email can be specified during the Tracking Webhook setup process. 
+  4. **Notification**: An email is sent to the user registered to receive the suspension notifications. This email can be specified during the Tracking Webhook setup process.
+5. **Retry Loop**: When the webhook is suspended, it will be queued to retry again. 
 </Accordion>
 
 <Accordion title="Retry Schedule" icon="clock">
