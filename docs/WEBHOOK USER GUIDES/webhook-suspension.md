@@ -25,6 +25,10 @@ If the receiving endpoint (the system where the notifications are sent) is down 
   </Card>
 </Cards>
 
+> 🚧 _Important_
+>
+> _Once the webhook is suspended, it looses all its tracking data. For example, if a customer reactivates the webhook after one week, they loose one week of the tracking data. Therefore, if you do not want to loose any tracking data, then make sure to activate it promptly._
+
 ## How webhook suspension works
 
 <Accordion title="Suspension Process" icon="pause-circle">
