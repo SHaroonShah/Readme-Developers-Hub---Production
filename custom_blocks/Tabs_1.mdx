@@ -7,14 +7,14 @@ export const Tab = ({ children }) => {
   return <div>{children}</div>;
 };
 
-export const Tabs = ({ children, tabBorderGap = 2, activeBorderThickness = 3, activeBorderColor='#ca8a04', inactiveBorderColor='#e5e7eb' }) => {
+export const Tabs = ({ children, tabBorderGap = 4, activeBorderThickness = 3, activeBorderColor='#ca8a04', inactiveBorderColor='#e5e7eb' }) => {
   const [activeTab, setActiveTab] = useState(0);
 
   return (
     <div>
       <header>
         <nav className="border-b-2 border-white-200 dark:border-gray-600 mb-5"
-style={{ paddingBottom: tabBorderGap, borderBottom: `1px solid {#e5e7eb}`}}>
+style={{ paddingBotto: tabBorderGap, borderBottom: `1px solid {#e5e7eb}`}}>
           {children?.map((tab, index) => {
             const isActive = activeTab === index;
             return (
