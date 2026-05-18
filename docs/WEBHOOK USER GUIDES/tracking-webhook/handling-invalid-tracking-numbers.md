@@ -13,7 +13,7 @@ metadata:
 ---
 Register Royal Mail tracking numbers with the [Trackings](https://docs.intersoftsapient.net/reference/post_v4-trackings) API to receive webhook updates for eligible shipments created outside your standard INTERSOFT tracking flow.
 
-> ⚠️ _This endpoint is only supported for Royal Mail shipments and is a chargeable API feature. Customers should ensure tracking registration is performed only when required to avoid unnecessary costs._
+> 🛑 _This endpoint is only supported for Royal Mail shipments and is a chargeable API feature. Customers should ensure tracking registration is performed only when required to avoid unnecessary costs._
 
 INTERSOFT monitors each registered tracking number and pushes new events to your configured webhook for a defined tracking period.
 
