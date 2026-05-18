@@ -19,4 +19,3 @@ next:
 <Image src="https://files.readme.io/9131d5540865fd88c7c0cc07cb2b3478ad05e761cab1fa56ac5e9604ddab3a9a-Application_header.png" alt="Application header components" align="center" width="1000px" />
 
 
-<br />
