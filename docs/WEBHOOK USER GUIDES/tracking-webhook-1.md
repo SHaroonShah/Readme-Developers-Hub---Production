@@ -14,9 +14,9 @@ metadata:
 next:
   description: ''
 ---
-The application sending the data sends a **POST** API call containing the data to the receiving application​. The endpoint is hosted by the application receiving the data, not the application sending the data as with a request and response-based API​.
+The application sending the data issues a POST API call containing the payload to the receiving application. The endpoint is hosted by the receiving application, not the sender, unlike traditional request–response APIs. 
 
-INTERSOFT offers a comprehensive <Glossary>tracking webhook</Glossary> solution for receiving tracking events from carriers. The tracking data is sent to the customer’s endpoint configured in the tracking webhook setup.
+INTERSOFT offers comprehensive webhook solutions, including the <Glossary>tracking webhook</Glossary> and manifest webhook. The tracking webhook enables customers to receive tracking events from carriers, with data delivered directly to the configured endpoint. The manifest webhook, used alongside asynchronous manifesting, notifies customers when a manifest request has completed processing, sending the final status (successful or failed) to the configured endpoint without the need for polling.
 
 ***
 
