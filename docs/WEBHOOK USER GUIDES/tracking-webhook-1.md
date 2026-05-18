@@ -19,8 +19,8 @@ A webhook sends event data from one application to another. When an event occurs
 
 INTERSOFT supports two webhook types:
 
-- **<Glossary>Tracking webhook</Glossary>**: Receives tracking events from carriers and sends the data directly to your configured endpoint.
-- **Manifest webhook**: Works with asynchronous manifesting and notifies your configured endpoint when a manifest request has completed processing. The notification includes the final status: successful or failed.
+* **Tracking webhook**: Receives tracking events from carriers and sends the data directly to your configured endpoint.
+* **Manifest webhook**: Works with asynchronous manifesting and notifies your configured endpoint when a manifest request has completed processing. The notification includes the final status: successful or failed.
 
 ***
 
