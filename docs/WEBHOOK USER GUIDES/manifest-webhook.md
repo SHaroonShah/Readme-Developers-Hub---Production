@@ -227,7 +227,7 @@ To set up the manifest webhook connection in SAPIENT, follow the instructions as
 
 <Cards columns="2">
   <Card title="Manifest Shipments Asychronously" href="https://docs.intersoftsapient.net/docs/manifest-shipment-asychronously" icon="fa-solid fa-code-pull-request">
-    Automate the instantaneous flow of information regarding the status of shipments.
+    Manifest large volumes of shipments asychronously.
   </Card>
 </Cards>
 
