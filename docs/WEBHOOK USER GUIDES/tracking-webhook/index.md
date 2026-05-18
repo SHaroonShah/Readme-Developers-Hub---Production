@@ -40,14 +40,13 @@ In this section, learn how to manage your tracking webhook by accessing the foll
     Establish your tracking account for seamless integration.
   </Card>
 
-<Card title="Track Events and Milestones" href="https://docs.intersoftsapient.net/docs/tracking-events-and-milestones" icon="fa-solid fa-chart-line-up">
-  Understand tracking events and milestone data.
-</Card>
+  <Card title="Track Events and Milestones" href="https://docs.intersoftsapient.net/docs/tracking-events-and-milestones" icon="fa-solid fa-chart-line-up">
+    Understand tracking events and milestone data.
+  </Card>
 
-<Card title="Register Tracking Numbers via Trackings API" href="https://docs.intersoftsapient.net/docs/handling-invalid-tracking-numbers" icon="fa-solid fa-clipboard-clock">
-  Register Royal Mail tracking numbers to receive webhook updates for eligible shipments created outside your standard INTERSOFT tracking flow.
+  <Card title="Register Tracking Numbers via Trackings API" href="https://docs.intersoftsapient.net/docs/handling-invalid-tracking-numbers" icon="fa-solid fa-pen-clip">
+    Register Royal Mail tracking numbers to receive webhook updates for eligible shipments.
   </Card>
 </Cards>
-
 
 <br />
