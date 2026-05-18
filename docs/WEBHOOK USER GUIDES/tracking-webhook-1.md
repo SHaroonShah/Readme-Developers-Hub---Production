@@ -29,10 +29,6 @@ In this section, learn how to manage your webhooks by accessing the following es
     Automate the instantaneous flow of information regarding the status of shipments.
   </Card>
 
-  <Card title="Add Tracking Account" href="https://docs.intersoftsapient.net/docs/create-tracking-account" icon="fa-solid fa-alarm-plus">
-    Establish your tracking account for seamless integration.
-  </Card>
-
   <Card title="Set Up Manifest Webhook" href="https://docs.intersoftsapient.net/docs/manifest-webhook" icon="fa-solid fa-webhook">
     Enable webhook notifications for manifest-level tracking operations.
   </Card>
