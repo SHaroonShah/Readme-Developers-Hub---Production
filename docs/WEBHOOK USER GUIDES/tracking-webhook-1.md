@@ -15,7 +15,7 @@ next:
 ---
 Use INTERSOFT webhooks to receive real-time <Glossary>shipment</Glossary> and <Glossary>manifest</Glossary> updates at an endpoint you control.
 
-A webhook sends event data from one application to another. When an event occurs, the sending application issues a `POST` request containing the payload to the receiving application’s endpoint. Unlike traditional request–response APIs, the receiving application hosts the endpoint, not the sender. 
+A webhook sends event data from one application to another. When an event occurs, the sending application issues a `POST` request containing the payload to the receiving application’s endpoint. Unlike traditional request–response APIs, the receiving application hosts the endpoint, not the sender.
 
 INTERSOFT supports two webhook types:
 
