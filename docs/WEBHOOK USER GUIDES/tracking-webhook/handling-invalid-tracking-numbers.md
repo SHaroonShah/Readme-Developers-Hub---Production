@@ -13,17 +13,15 @@ metadata:
 ---
 Register Royal Mail tracking numbers with the [Trackings](https://docs.intersoftsapient.net/reference/post_v4-trackings) API to receive webhook updates for eligible shipments created outside your standard INTERSOFT tracking flow.
 
-> 🚧 _Important_
->
-> _This endpoint is only supported for Royal Mail shipments and is a chargeable API feature. Customers should ensure tracking registration is performed only when required to avoid unnecessary costs._
+> 🛑 _This endpoint is only supported for Royal Mail shipments and is a chargeable API feature. Customers should ensure tracking registration is performed only when required to avoid unnecessary costs._
 
 INTERSOFT monitors each registered tracking number and pushes new events to your configured webhook for a defined tracking period.
 
 Use this endpoint when you need:
 
-* Automated shipment visibility
-* Event‑driven tracking updates
-* Integration‑based tracking without polling APIs
+- Automated shipment visibility
+- Event‑driven tracking updates
+- Integration‑based tracking without polling APIs
 
 <Cards columns={3}>
   <Card title="Royal Mail only" icon="fa-truck">
@@ -48,10 +46,10 @@ Use this endpoint when you need:
 
 ## Tracking window and delivery behaviour
 
-* Tracking updates are retained and pushed for up to 30 days from registration.
-* After the 30‑day tracking window expires, updates for the registered tracking numbers are no longer generated.
-* Real-time tracking updates are delivered through webhook notifications.
-* No historical tracking events are sent when a tracking number is registered. INTERSOFT pushes only events that occur after registration.
+- Tracking updates are retained and pushed for up to 30 days from registration.
+- After the 30‑day tracking window expires, updates for the registered tracking numbers are no longer generated.
+- Real-time tracking updates are delivered through webhook notifications.
+- No historical tracking events are sent when a tracking number is registered. INTERSOFT pushes only events that occur after registration.
 
 ## Retry behaviour
 
