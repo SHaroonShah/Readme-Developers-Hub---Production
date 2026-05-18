@@ -193,6 +193,9 @@ The following events are considered as the final events.
   <Card title="Add Tracking Account" href="https://docs.intersoftsapient.net/docs/create-tracking-account" icon="fa-solid fa-alarm-plus">
     Establish your tracking account for seamless integration.
   </Card>
+<Card title="Register Tracking Numbers via Trackings API" href="https://docs.intersoftsapient.net/docs/handling-invalid-tracking-numbers" icon="fa-solid fa-pen-clip">
+    Register Royal Mail tracking numbers to receive webhook updates for eligible shipments.
+  </Card>
 
   <Card title="Handle Webhook Suspension" href="https://docs.intersoftsapient.net/docs/webhook-suspension" icon="fa-solid fa-dial-max">
     Manage and resolve webhook suspension scenarios.
