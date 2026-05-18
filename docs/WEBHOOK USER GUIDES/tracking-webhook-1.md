@@ -37,10 +37,6 @@ In this section, learn how to manage your webhooks by accessing the following es
     Enable webhook notifications for manifest-level tracking operations.
   </Card>
 
-  <Card title="Track Events and Milestones" href="https://docs.intersoftsapient.net/docs/tracking-events-and-milestones" icon="fa-solid fa-chart-line-up">
-    Understand tracking events and milestone data.
-  </Card>
-
   <Card title="Handle Webhook Suspension" href="https://docs.intersoftsapient.net/docs/webhook-suspension" icon="fa-solid fa-dial-max">
     Manage and resolve webhook suspension scenarios.
   </Card>
