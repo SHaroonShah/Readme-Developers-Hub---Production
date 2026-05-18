@@ -58,19 +58,7 @@ If the receiving endpoint (the system where the notifications are sent) is down 
 
 ## Best Practices
 
-### Prevention
 
-* Implement robust error handling
-* Set up monitoring and alerting
-* Ensure endpoint reliability
-* Test webhook endpoints regularly
-
-### Recovery
-
-* Monitor suspension notifications
-* Reactivate webhooks promptly
-* Verify endpoint functionality
-* Check for missed tracking data
 
 ***
 
