@@ -40,3 +40,6 @@ In this section, learn how to manage your tracking webhook by accessing the foll
     Establish your tracking account for seamless integration.
   </Card>
 </Cards>
+<Card title="Track Events and Milestones" href="https://docs.intersoftsapient.net/docs/tracking-events-and-milestones" icon="fa-solid fa-chart-line-up">
+    Understand tracking events and milestone data.
+  </Card>
