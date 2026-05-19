@@ -18,7 +18,7 @@ DPD are one of the leading delivery carriers in the UK, shipping domestically an
 This integration provides the following key features:
 
 * **Ship from destinations**: The integration supports shipping from locations in Great Britain (GB) only.
-* **Ship To Destinations**: Users can send shipments to Great Britain (GB), Europe, and the <Glossary>ROW</Glossary> (Rest of the World).
+* **Ship To Destinations**: Users can send shipments to Great Britain (GB), Europe (EU), and the Rest of the World (<Glossary>ROW</Glossary>).
 * **Service Type**: The integration is focused on outbound shipping.
 * **Incoterms**: <Glossary>DAP</Glossary> and <Glossary>DDP</Glossary>.
 * **Label formats**: <Glossary>PDF</Glossary>
