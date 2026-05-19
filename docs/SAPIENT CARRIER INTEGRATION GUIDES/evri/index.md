@@ -35,7 +35,7 @@ The EVRi integration into the SAPIENT platform enhances our shipping capabilitie
       </Card>
 
       <Card title="Shipping Destinations" icon="fa-solid fa-globe">
-        Users can send shipments to Great Britain (GB), Europe, and <Glossary>ROW</Glossary> (Rest of the World).
+        Users can send shipments to Great Britain (GB), Europe, and Rest of the World (<Glossary>ROW</Glossary>).
       </Card>
 
       <Card title="Service Type" icon="fa-solid fa-shipping-fast">
