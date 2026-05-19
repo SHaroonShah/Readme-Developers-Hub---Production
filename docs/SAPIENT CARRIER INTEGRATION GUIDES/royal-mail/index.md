@@ -18,7 +18,7 @@ next:
       title: Royal Mail shipping account setup
       type: basic
 ---
-<Image align="center" border={false} width="900px" src="https://files.readme.io/d4120789d0d537740a4ace3f889bb8e909087028391ef94204830c884cc243f9-RM_white_banner.png" />
+<Image align="center" width="900px" src="https://files.readme.io/d4120789d0d537740a4ace3f889bb8e909087028391ef94204830c884cc243f9-RM_white_banner.png" />
 
 ***
 
@@ -29,7 +29,7 @@ The Royal Mail-SAPIENT integration aims to enhance operational efficiency and pr
 This integration provides the following key features:
 
 * **Ship from destinations**:
-* **Ship To Destinations**: Primarily, the carrier is used for domestic shipping. However, users can also send <Glossary>shipments</Glossary> to Europe and the <Glossary>ROW</Glossary> (Rest of the World).
+* **Ship To Destinations**: Primarily, the carrier is used for domestic shipping. However, users can also send <Glossary>shipments</Glossary> to Europe (EU) and the Rest of the World (<Glossary>ROW</Glossary>).
 * **Service Type**: The integration is focused on inbound and outbound shipping.
 * **Incoterms**: The integration supports <Glossary>DDU</Glossary>, <Glossary>DDP</Glossary>, <Glossary>DAP</Glossary>, and <Glossary>DAT</Glossary>.
 
