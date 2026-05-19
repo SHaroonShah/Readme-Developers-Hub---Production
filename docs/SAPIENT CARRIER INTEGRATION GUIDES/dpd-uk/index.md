@@ -23,7 +23,7 @@ DPD are one of the leading delivery carriers in the UK, shipping domestically an
       </Card>
 
       <Card title="Shipping Destinations" icon="fa-solid fa-globe">
-        Users can send shipments to Great Britain (GB), Europe, and the <Glossary>ROW</Glossary> (Rest of the World).
+        Users can send shipments to Great Britain (GB), Europe, and the Rest of the World (<Glossary>ROW</Glossary>).
       </Card>
 
       <Card title="Service Type" icon="fa-solid fa-shipping-fast">
