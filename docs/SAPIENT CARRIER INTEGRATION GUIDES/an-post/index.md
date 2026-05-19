@@ -29,7 +29,7 @@ The integration of An Post, Ireland's national postal service, into the SAPIENT 
       </Card>
 
       <Card title="Shipping Destinations" icon="fa-solid fa-globe">
-        Users can send <Glossary>shipments</Glossary> to Ireland (IE), Great Britain (GB), Europe, and the <Glossary>ROW</Glossary> (Rest of the World).
+        Users can send <Glossary>shipments</Glossary> to Ireland (IE), Great Britain (GB), Europe, and the Rest of the World (<Glossary>ROW</Glossary>).
       </Card>
 
       <Card title="Service Type" icon="fa-solid fa-shipping-fast">
