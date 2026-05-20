@@ -51,5 +51,3 @@ In order to ship with DX Express, consider the following:
     Explore the DX Freight API endpoints for a seamless shipping experience.
   </Card>
 </Cards>
-
-<br />
