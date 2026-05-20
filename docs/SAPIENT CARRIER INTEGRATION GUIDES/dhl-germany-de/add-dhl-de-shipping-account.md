@@ -19,7 +19,8 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
 
 <Tabs>
   <Tab title="Via SAPIENT UI">
-To add a shipping account for DHL DE in SAPIENT, perform the steps as explained in the following procedure
+    To add a shipping account for DHL DE in SAPIENT, perform the steps as explained in the following procedure.
+
     <ToggleList>
       <ToggleListItem title="1. Select the Shipping Accounts page">
         In the left navigation panel, select **Shipping Accounts**.
