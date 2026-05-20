@@ -46,7 +46,7 @@ DPD are one of the leading delivery carriers in the UK, shipping domestically an
     <Cards columns={2}>
       <Card title="Consignment Services" icon="fa-cubes">
         The integration supports consignment services, and DPD UK allows a maximum of 99 packages per consignment.<br />
-        Please bear in mind that not all services offer consignment options.
+       > Please bear in mind that not all services offer consignment options.
       </Card>
 
       <Card title="Carrier-Specifics" icon="fa-map-marker-alt">
