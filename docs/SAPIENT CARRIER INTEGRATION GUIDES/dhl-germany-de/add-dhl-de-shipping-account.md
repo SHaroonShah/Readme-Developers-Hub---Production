@@ -28,14 +28,16 @@ Expand each step to view the related instructions and field details.
         In the left navigation panel, select **Shipping Accounts**.
 
         <Image align="center" src="https://files.readme.io/3d2349061f0415b118f4ffc1d5d1f0722422302161528022cbc28634eb90514f-image.png" />
+***
       </ToggleListItem>
-
+<br />
       <ToggleListItem title="2. Select option to add shipping account">
         On the **Shipping Accounts** page that opens, select ![](https://files.readme.io/4dc0470535418171d8c974546d130f04a0fc60a878c7f7648b2da21309450830-add_shipping_account_button.png).
 
         <Image align="center" src="https://files.readme.io/a42649a2e896b24618507db2db02d7f7347225eabc56e04b4f79bcefea7c8ea8-image.png" />
+***
       </ToggleListItem>
-
+<br />
       <ToggleListItem title="3. Enter account details">
         On the **Add Shipping Account** form that appears, in the **ACCOUNT DETAILS** block, fill in the necessary information as described in the following table.
 
@@ -47,8 +49,9 @@ Expand each step to view the related instructions and field details.
         | :---------------------- | :------------------------------------------------------------------------------------------------------------ |
         | **Carrier**\*           | From the dropdown list, select DHLDE -  DHL Germany.                                                          |
         | **Shipping Location**\* | From the dropdown menu, select the location that you want to assign to the shipping account you are creating. |
+***
       </ToggleListItem>
-
+<br />
       <ToggleListItem title="4. Enter shipping account details">
         In the **SHIPPING ACCOUNT** block, enter the necessary information as explained in the following table.
 
@@ -135,8 +138,9 @@ Expand each step to view the related instructions and field details.
             </tr>
           </tbody>
         </Table>
+***
       </ToggleListItem>
-
+<br />
       <ToggleListItem title="5. Enter carrier details">
         In the **CARRIER DETAILS** block, enter the necessary information as explained in the following table.
 
@@ -148,8 +152,9 @@ Expand each step to view the related instructions and field details.
         | :------------------------: | :-------------------------------------------------------------------------------- |
         | **DHL Germany Username**\* | Enter the unique identifier for the user account associated with DHL Germany.     |
         | **DHL Germany Password**\* | Enter the secure password used to authenticate the user account with DHL Germany. |
+***
       </ToggleListItem>
-
+<br />
       <ToggleListItem title="6. Save and add the shipping account">
         After entering all the required information, select ![](https://files.readme.io/99e4e322c6a3f874e0258a73646a551aa2120d8d359b2ce5d09a4cf0eabcd44a-add_shipping_account_button_2.png).
 
