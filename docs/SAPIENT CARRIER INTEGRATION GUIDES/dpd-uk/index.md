@@ -19,7 +19,7 @@ DPD are one of the leading delivery carriers in the UK, shipping domestically an
   <Tab title="Key Features">
     <Cards columns={2}>
       <Card title="Shipping Origins" icon="fa-map-marker-alt">
-        ThThe integration supports shipping from locations in Great Britain (GB) only.
+        The integration supports shipping from locations in Great Britain (GB) only.
       </Card>
 
       <Card title="Shipping Destinations" icon="fa-solid fa-globe">
