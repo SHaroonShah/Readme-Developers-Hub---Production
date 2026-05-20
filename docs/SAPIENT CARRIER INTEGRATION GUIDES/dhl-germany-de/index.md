@@ -64,7 +64,7 @@ The following API services are provided by the DHL Germany integration:
 > _Shipments can only be cancelled if they have not been manifested._
 
 * **Tracking**: Enables customers to receive tracking updates through their integration with the SAPIENT tracking webhook.
-* **Manifest shipment**: Enable customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT Manifest Webhook to keep track of shipments and their statuses by to receiving real-time updates or notifications whenever specific events occur in the system (such as shipping updates, status changes, and so on).
+* **Manifest shipment**: Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT Manifest Webhook to keep track of shipments and their statuses by to receiving real-time updates or notifications whenever specific events occur in the system (such as shipping updates, status changes, and so on).
 
 ***
 
