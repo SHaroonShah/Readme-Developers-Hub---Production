@@ -100,7 +100,9 @@ The integration of DHL Germany into the SAPIENT platform is a significant step i
 
       <br />
     </Accordion>
-<br />
+
+    <br />
+
     <Accordion title="Manifest Shipment" icon="plus-circle">
       Enable customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT Manifest Webhook to keep track of shipments and their statuses by to receiving real-time updates or notifications whenever specific events occur in the system (such as shipping updates, status changes, and so on).
 
@@ -137,8 +139,8 @@ The integration of DHL Germany into the SAPIENT platform is a significant step i
       <Card title="Add DHL Germany Tracking Account" icon="fa-solid fa-search-location" href="https://docs.intersoftsapient.net/docs/add-dhl-de-tracking-account">
         Configure tracking for your EVRi shipments.
       </Card>
-</Cards>
-      </Tab>
+    </Cards>
+  </Tab>
 
   <Tab title="API References">
     <Cards columns={2}>
@@ -153,7 +155,7 @@ The integration of DHL Germany into the SAPIENT platform is a significant step i
 
 <Cards columns={0}>
   <Card title="Activate this integration" href="https://docs.intersoftsapient.net/docs/integration-activation#/" icon="fa-solid fa-circle-play fa-beat" target="_blank">
-    Seamlessly connect with EVRi and manage your shipping operations from a single platform.
+    Seamlessly connect with DHL Germany and manage your shipping operations from a single platform.
   </Card>
 </Cards>
 
