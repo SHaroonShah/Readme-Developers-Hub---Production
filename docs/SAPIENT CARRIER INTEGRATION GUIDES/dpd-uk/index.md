@@ -43,16 +43,16 @@ DPD are one of the leading delivery carriers in the UK, shipping domestically an
   </Tab>
 
   <Tab title="Additional Features">
-<Cards columns={2}>
-<Card title="Consignment Services" icon="fa-cubes">
-    The integration supports consignment services, and DPD UK allows a maximum of 99 packages per consignment.
-Please bear in mind that not all services offer consignment options.
-  </Card>
-<Card title="Carrier-Specifics" icon="fa-map-marker-alt">
-  The **CarrierSpecifics** object in the **Create Shipment** request contains the **DeliveryInstructions** field to provide any additional instructions to the carrier regarding the delivery of the shipment
-  </Card>
-</Cards>
+    <Cards columns={2}>
+      <Card title="Consignment Services" icon="fa-cubes">
+        The integration supports consignment services, and DPD UK allows a maximum of 99 packages per consignment.<br />
+        Please bear in mind that not all services offer consignment options.
+      </Card>
 
+      <Card title="Carrier-Specifics" icon="fa-map-marker-alt">
+        The **CarrierSpecifics** object in the **Create Shipment** request contains the **DeliveryInstructions** field to provide any additional instructions to the carrier regarding the delivery of the shipment
+      </Card>
+    </Cards>
   </Tab>
 
   <Tab title="Service Enhancements">
