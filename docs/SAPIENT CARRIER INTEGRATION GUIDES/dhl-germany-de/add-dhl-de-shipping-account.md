@@ -48,7 +48,9 @@ Expand each step to view the related instructions and field details.
         On the **Add Shipping Account** form that appears, in the **ACCOUNT DETAILS** block, fill in the necessary information as described in the following table.
 
         <Image align="center" src="https://files.readme.io/b7085aee7b1ca45c493a419c93c6866dac2426be296db4862aa890412013e36d-image.png" width="500px" />
-<br />
+
+        <br />
+
         <AsteridkForMandatoryElements />
 
         | Element                 | Description                                                                                                   |
@@ -65,7 +67,9 @@ Expand each step to view the related instructions and field details.
         In the **SHIPPING ACCOUNT** block, enter the necessary information as explained in the following table.
 
         <Image align="center" src="https://files.readme.io/83810f18ee92f48d62b60191f940531365a413ee892f5fc77f3fd76772e24e87-image.png" width="400px" />
-<br />
+
+        <br />
+
         <AsteridkForMandatoryElements />
 
         <Table align={["center","left"]}>
@@ -157,7 +161,7 @@ Expand each step to view the related instructions and field details.
         In the **CARRIER DETAILS** block, enter the necessary information as explained in the following table.
 
         <Image align="center" src="https://files.readme.io/0bd2bd4e7974be809da0cb97fda2d4f39e52d8177dbf53777bfa5ab3f0022b5f-image.png" width="450px" />
-
+<br />
         <AsteridkForMandatoryElements />
 
         |           Element          | Description                                                                       |
