@@ -169,12 +169,14 @@ Expand each step to view the related instructions and field details.
   </Tab>
 </Tabs>
 
-> 📘 _Note_
->
-> _Shipping account(s) can be added and managed via API. For more information, refer to the API References section._
-
 ***
 
 ### See also
 
-* [Edit shipping account](https://docs.intersoftsapient.net/docs/edit-shipping-account)
+<Cards columns={2}>
+  <Card title="Edit shipping account" icon="fa-pen-to-square" href="https://docs.intersoftsapient.net/docs/dx-freight-sign-off">
+    Update or modify an existing shipping account.
+  </Card>
+</Cards>
+
+<br />
