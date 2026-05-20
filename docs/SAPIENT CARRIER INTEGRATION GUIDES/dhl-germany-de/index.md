@@ -83,9 +83,6 @@ The integration of DHL Germany (DE) into the SAPIENT platform is a significant s
       * *[Create Shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-dhlde)*
       * *[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services)*
     </Callout>
-
-
-    <br />
   </Tab>
 </Tabs>
 
