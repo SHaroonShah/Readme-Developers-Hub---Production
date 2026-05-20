@@ -31,34 +31,45 @@ To add a tracking account for DHL Germany in SAPIENT, follow the steps as explai
     In the left navigation panel, select **API** > **Webhooks**. On the page that opens, select the **Tracking Accounts** tab.
 
     <Image align="center" border={true} src="https://files.readme.io/0b0bf418cd10c99ea179b79f676a9185f00ad99670333f70f1848e77f0ee2fef-Tracking_accounts_tab.png" alt="Accessing tracking accounts" />
-***
+
+    ***
   </ToggleListItem>
-<br />
+
+  <br />
+
   <ToggleListItem title="2. Select option to add tracking account">
     In the **Tracking Accounts** page that opens, select ![alt text](https://files.readme.io/1797ee1f92c9e2a16f6b55d7a84e3ef14111e4ef4a7b3e13ff1acb538c1447e8-Add_tracking_account_button.png).
 
     <Image align="center" border={true} src="https://files.readme.io/faca47a22b3d4de7d74e54c6ea663a5156625b787a81a5c7568d2ef0688da840-Add_tracking_account_button_EVRi.png" alt="Accessing option to add tracking account" />
-***
+
+    ***
   </ToggleListItem>
-<br />
+
+  <br />
+
   <ToggleListItem title="3. Enter tracking account details">
     On the **Add Tracking account** page that appears, in the **DETAILS** block, enter the necessary information as explained in the following table.
 
     <Image align="center" src="https://files.readme.io/6f8492c7d2ea214fc444045c2540bea06c5468826e50660447fa4678b141c5a6-image.png" width="500px" />
-<br />
+
+    <br />
+
     <AsteridkForMandatoryElements />
 
     |         Element        | Description                                                                                                      |
     | :--------------------: | :--------------------------------------------------------------------------------------------------------------- |
     |      **Carrier**\*     | From the dropdown menu, select DHLDE - DHL Germany as your carrier option.                                       |
     | **Shipping Account**\* | From the dropdown menu, select the <Glossary>shipping account</Glossary> for which you want to receive tracking. |
-
+<br />
     <Callout icon="info" theme="info">
       *To track data for every shipping account, you must create a tracking account for each.*
     </Callout>
-***
+
+    ***
   </ToggleListItem>
-<br />
+
+  <br />
+
   <ToggleListItem title="Step 4: Save and add the tracking account">
     After entering all the necessary information, select ![alt text](https://files.readme.io/f713760b5bde9e21d187c9b978502b434343e34f9f3db55afa5b565d35d478cd-Add_tracking_account_button_2.png).
 
