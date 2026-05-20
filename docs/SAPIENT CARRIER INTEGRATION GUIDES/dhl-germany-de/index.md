@@ -75,6 +75,16 @@ The integration of DHL Germany (DE) into the SAPIENT platform is a significant s
       * **Abandon**: The undeliverable shipment is abandoned
     * **Bulky Goods**: A flag indicating whether the shipment includes bulky goods, for example, items that are large in size and shape and consume a large amount of space.
 
+    <Callout icon="💡" theme="default">
+      ### *Tip*
+
+      *For more information on the service enhancements and carrier services, refer to the following endpoints:*
+
+      * *[Create Shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-dhlde)*
+      * *[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services)*
+    </Callout>
+
+
     <br />
   </Tab>
 </Tabs>
