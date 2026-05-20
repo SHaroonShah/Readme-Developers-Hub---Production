@@ -93,13 +93,14 @@ The integration of DHL Germany into the SAPIENT platform is a significant step i
 
     <Accordion title="Cancel Shipment" icon="plus-circle">
       The integration to cancel any unwanted shipments, to ensures that cancellations are fully registered with DHL Germnay, helping prevent customers from being mistakenly charged for cancelled shipments. <br />
-     <Callout icon="info" theme="info">
+
+      <Callout icon="info" theme="info">
         *Shipments can only be cancelled if they have not been manifested.*
       </Callout>
 
       <br />
     </Accordion>
-
+<br />
     <Accordion title="Manifest Shipment" icon="plus-circle">
       Enable customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT Manifest Webhook to keep track of shipments and their statuses by to receiving real-time updates or notifications whenever specific events occur in the system (such as shipping updates, status changes, and so on).
 
