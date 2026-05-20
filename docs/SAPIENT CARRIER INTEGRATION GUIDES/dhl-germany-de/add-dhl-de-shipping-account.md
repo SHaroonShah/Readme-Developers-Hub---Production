@@ -159,7 +159,7 @@ Expand each step to view the related instructions and field details.
   </Tab>
 
   <Tab title="Via API">
-    To add an EVRi shipping account via API, refer to the following API endpoint.
+    To add a DHL Germany shipping account via API, refer to the following API endpoint.
 
     <Cards>
       <Card title="Add Account" href="https://docs.intersoftsapient.net/reference/post_v4-shippingaccounts-dhlde" icon="fa-code">
