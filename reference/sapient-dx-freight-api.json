@@ -22,12 +22,12 @@
           "Shipping Accounts"
         ],
         "summary": "Get Accounts",
-        "description": "Provides a list of DX Freight shipping accounts only.\r<br />Information about the account number, account type, and contact details is included in the response.",
+        "description": "Retrieves a list of DX Freight shipping accounts created on your customer account. With this endpoint, you can view and manage multiple shipping accounts by using various query parameters for filtering, pagination, and sorting the list of accounts, making it easier for users to find specific accounts.",
         "parameters": [
           {
             "name": "searchTerm",
             "in": "query",
-            "description": "Search Term",
+            "description": "A string representing the term or keywords used to filter shipping accounts. This can be an account name or identifier that you are interested in to narrow down the list based on the input.",
             "schema": {
               "type": "string"
             }
@@ -35,7 +35,7 @@
           {
             "name": "pageSize",
             "in": "query",
-            "description": "The maximum number of records per page.",
+            "description": "An integer that defines the number of account entries (records) returned per page in the response. For instance, if **pageSize** is set to 20, the API will return up to 20 accounts in each response.\r<br />\r<br />***Note:** By default, this value is set to 100.*",
             "schema": {
               "maximum": 2147483647,
               "minimum": 1,
@@ -47,7 +47,7 @@
           {
             "name": "pageNumber",
             "in": "query",
-            "description": "The number of the requested page, starting at 1.",
+            "description": "An integer indicating the specific page of results to retrieve, allowing for pagination of larger datasets. For example, if **pageNumber** is set to 3, the API will return the results corresponding to the third page of accounts based on the specified **pageSize**.\r<br />\r<br />***Note:** By default, this value is set to 1.*",
             "schema": {
               "maximum": 2147483647,
               "minimum": 1,
@@ -59,7 +59,7 @@
           {
             "name": "sortBy",
             "in": "query",
-            "description": "Sort By\r<br />Default: Name",
+            "description": "A string specifying the field by which to organise the search results. For instance, \"Name\" could be used to sort accounts alphabetically, arranging the results in a more user-friendly order.\r<br />\r<br />***Note:** By default, this value is set to Name.*",
             "schema": {
               "$ref": "#/components/schemas/ShippingAccountsSortBy"
             }
@@ -67,7 +67,7 @@
           {
             "name": "sortDir",
             "in": "query",
-            "description": "Sort Direction\r<br />Default: Ascending",
+            "description": "A string indicating the direction in which to sort the results, typically set to \"ascending\" or \"descending.\" For example, setting **sortDir** to \"Ascending\" while using \"Name\" as **sortBy** would arrange the locations from A to Z.\r<br />\r<br />***Note:** By default, this value is set to Ascending.*",
             "schema": {
               "$ref": "#/components/schemas/OrderDirection"
             }
@@ -96,7 +96,7 @@
                       "OriginServiceCenter": "99",
                       "ServiceType": "1 Man",
                       "LastUpdatedBy": "User A",
-                      "LastUpdatedDateUtc": "2026-04-29T08:44:16.195Z"
+                      "LastUpdatedDateUtc": "2026-05-20T08:51:20.586Z"
                     },
                     {
                       "ShippingAccountId": "46d58272-5f6a-405d-a947-c46c9caea56f",
@@ -111,7 +111,7 @@
                       "OriginServiceCenter": "89",
                       "ServiceType": "2 Man",
                       "LastUpdatedBy": "User B",
-                      "LastUpdatedDateUtc": "2026-04-29T08:44:16.195Z"
+                      "LastUpdatedDateUtc": "2026-05-20T08:51:20.586Z"
                     }
                   ],
                   "TotalCount": 2
@@ -165,7 +165,7 @@
           "Shipping Accounts"
         ],
         "summary": "Add Account",
-        "description": "Add a shipping account for DX Freight and link it with an existing shipping location.\r<br />Ensure to have required carrier details ready like DX Freight account number so that you can use the account for shipping with DX Freight.",
+        "description": "Add a shipping account for DX Freight and either link it with an existing shipping location or add a new shipping account that will be associated with the shipping account.",
         "requestBody": {
           "description": "Add Shipping Account Request",
           "content": {
@@ -235,12 +235,12 @@
           "Shipping Accounts"
         ],
         "summary": "Get Account",
-        "description": "Provides details for a DX Freight account.\r<br />Information about the account number, alias, account type, and contact details is included in the response.",
+        "description": "Retrieves details of a specific DX Freight shipping account created on your customer account. With this endpoint, you can access relevant details of that shipping account. This is useful for managing individual shipping accounts or verifying specific account attributes.",
         "parameters": [
           {
             "name": "shippingAccountId",
             "in": "path",
-            "description": "Shipping Account Identifier\r<br />SAPIENT Shipping Account Id (assigned by SAPIENT) or Alias (assigned by you).",
+            "description": "A unique identifier for the shipping account assigned by the system (ShippingAccountId) or by you (AccountAlias), allowing for efficient reference and management of individual accounts within the system.",
             "required": true,
             "schema": {
               "type": "string"
@@ -268,7 +268,7 @@
                   "OriginServiceCenter": "99",
                   "ServiceType": "1 Man",
                   "LastUpdatedBy": "User A",
-                  "LastUpdatedDateUtc": "2026-04-29T08:44:16.497Z"
+                  "LastUpdatedDateUtc": "2026-05-20T08:51:20.895Z"
                 }
               }
             }
@@ -297,12 +297,12 @@
           "Shipping Accounts"
         ],
         "summary": "Update Account",
-        "description": "Update shipping account details.\r<br />Note: All required fields must be populated in the request, regardless if they need updating or not.",
+        "description": "Update the details of an existing shipping account. With this endpoint, you can modify various attributes of the shipping account, such as contact information, service options, and others. This helps maintain current and accurate information for effective shipping operations.",
         "parameters": [
           {
             "name": "shippingAccountId",
             "in": "path",
-            "description": "Shipping Account Identifier\r<br />SAPIENT Shipping Account Id (assigned by SAPIENT) or Alias (assigned by you).",
+            "description": "A unique identifier for the shipping account assigned by the system (ShippingAccountId) or by you (AccountAlias), allowing for efficient reference and management of individual accounts within the system.",
             "required": true,
             "schema": {
               "type": "string"
@@ -379,7 +379,7 @@
           {
             "name": "shippingAccountId",
             "in": "path",
-            "description": "Shipping Account Identifier\r<br />SAPIENT Shipping Account Id (assigned by SAPIENT) or Alias (assigned by you).",
+            "description": "A unique identifier for the shipping account assigned by the system (ShippingAccountId) or by you (AccountAlias), allowing for efficient reference and management of individual accounts within the system.\r<br />\r<br />***Note:** The information provided in this field and the **ShippingLocationId** field are being linked with each other.*",
             "required": true,
             "schema": {
               "type": "string"
@@ -449,12 +449,12 @@
           "Shipping Accounts"
         ],
         "summary": "Get Associated Locations",
-        "description": "Provides a list of all shipping locations associated with a DX Freight shipping account.",
+        "description": "Retrieves a list of shipping locations that are linked to a specific DX Freight shipping account.",
         "parameters": [
           {
             "name": "shippingAccountId",
             "in": "path",
-            "description": "Shipping Account Identifier\r<br />SAPIENT Shipping Account Id (assigned by SAPIENT) or Alias (assigned by you).",
+            "description": "A unique identifier for the shipping account assigned by the system (ShippingAccountId) or by you (AccountAlias), allowing for efficient reference and management of individual accounts within the system. The response will return all the shipping locations linked to the shipping account ID provided here.",
             "required": true,
             "schema": {
               "type": "string"
@@ -463,7 +463,7 @@
           {
             "name": "searchTerm",
             "in": "query",
-            "description": "Search Term",
+            "description": "A string representing the term or keywords used to filter location results. For example, a search term like \"Manchester\" would return locations associated with that city, helping to narrow down the list based on the user input.",
             "schema": {
               "type": "string"
             }
@@ -471,7 +471,7 @@
           {
             "name": "pageSize",
             "in": "query",
-            "description": "The maximum number of records per page.",
+            "description": "An integer that defines the number of location entries (record) returned per page in the response. For instance, if **pageSize** is set to 20, the API will return up to 20 accounts in each response.\r<br />\r<br />***Note:** By default, this value is set to 100.*",
             "schema": {
               "maximum": 2147483647,
               "minimum": 1,
@@ -483,7 +483,7 @@
           {
             "name": "pageNumber",
             "in": "query",
-            "description": "The number of the requested page, starting at 1.",
+            "description": "An integer indicating the specific page of results to retrieve, allowing for pagination of larger datasets. For example, if **pageNumber** is set to 3, the API will return the results corresponding to the third page of accounts based on the specified **pageSize**.\r<br />\r<br />***Note:** By default, this value is set to 1.*",
             "schema": {
               "maximum": 2147483647,
               "minimum": 1,
@@ -495,7 +495,7 @@
           {
             "name": "sortBy",
             "in": "query",
-            "description": "Sort By\r<br />Default: Name",
+            "description": "A string specifying the field by which to organise the search results. For instance, \"Name\" could be used to sort locations alphabetically, arranging the results in a more user-friendly order.\r<br />\r<br />***Note:** By default, this value is set to Name.*",
             "schema": {
               "$ref": "#/components/schemas/ShippingLocationsSortBy"
             }
@@ -503,7 +503,7 @@
           {
             "name": "sortDir",
             "in": "query",
-            "description": "Sort Direction\r<br />Default: Ascending",
+            "description": "A string indicating the direction in which to sort the results, typically set to \"ascending\" or \"descending.\" For example, setting **sortDir** to \"Ascending\" while using \"Name\" as **sortBy** would arrange the locations from A to Z.\r<br />\r<br />***Note:** By default, this value is set to Ascending.*",
             "schema": {
               "$ref": "#/components/schemas/OrderDirection"
             }
@@ -571,12 +571,12 @@
           "Shipping Accounts"
         ],
         "summary": "Get Associated Location",
-        "description": "Provides information for a specific shipping location linked to a DX Freight shipping account including location alias, timezone, address, when it was last updated, and by who.",
+        "description": "Retrieve detailed information about a specific shipping location that is associated with a DX Freight shipping account.",
         "parameters": [
           {
             "name": "shippingAccountId",
             "in": "path",
-            "description": "Shipping Account Identifier\r<br />SAPIENT Shipping Account Id (assigned by SAPIENT) or Alias (assigned by you).",
+            "description": "A unique identifier for the shipping account assigned by the system (ShippingAccountId) or by you (AccountAlias), allowing for efficient reference and management of individual accounts within the system.\r<br />\r<br />***Note:** The information provided in this field and the **ShippingLocationId** field are being linked with each other for which the data is being returned in the response.*",
             "required": true,
             "schema": {
               "type": "string"
@@ -585,7 +585,7 @@
           {
             "name": "shippingLocationId",
             "in": "path",
-            "description": "Shipping Location Identifier\r<br />SAPIENT Shipping Location Id (assigned by SAPIENT) or Alias (assigned by you).",
+            "description": "A unique identifier for the shipping location assigned by the system or by you (alias), allowing users to reference and manage specific locations effectively.\r<br />\r<br />***Note:** The information provided in this field and the **ShippingAccountId** field are being linked with each other for which the data is being returned in the response.*",
             "required": true,
             "schema": {
               "type": "string"
@@ -629,7 +629,7 @@
           "Shipments"
         ],
         "summary": "Create Shipment",
-        "description": "Create a DX Freight shipment. This will return an image of the shipping label in PDF format.",
+        "description": "Create a new DX Freight shipment by submitting the shipment details in your request and returning an image of the shipping label in the PDF format.",
         "requestBody": {
           "description": "Shipment Details",
           "content": {
@@ -645,12 +645,12 @@
                       "ContentType": "NDX",
                       "ServiceCode": "3D",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-04-29",
+                      "ShipmentDate": "2026-05-20",
                       "DeclaredWeight": 1.5,
                       "WeightUnitOfMeasure": "KG"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "520991c9-0392-4c7a-ac7a-dcc4395da046",
+                      "ShippingAccountId": "6bff0923-4659-48b0-87f4-3a70c9ef3210",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -687,15 +687,15 @@
                       "ContentType": "NDX",
                       "ServiceCode": "3D",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-04-29",
+                      "ShipmentDate": "2026-05-20",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "732fd029-35fc-4851-ac7e-19d8b6aea2ce",
-                      "ShippingLocationId": "6ace1424-179c-4616-b78a-52ec5e5b73fd",
+                      "ShippingAccountId": "8aaf3c88-c148-473e-800c-292aa07fc670",
+                      "ShippingLocationId": "3a1ebad1-8478-46e1-9215-9ca56e1b0800",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -766,13 +766,13 @@
                       "ContentType": "NDX",
                       "ServiceCode": "3D",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-04-29",
+                      "ShipmentDate": "2026-05-20",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "590b578a-a33b-47cf-b752-e6669fbc78a5",
+                      "ShippingAccountId": "8ec4ce10-0572-4caa-92d3-9e71be5ef272",
                       "Reference1": "OrderRef56",
                       "EoriNumber": "GB213456789000",
                       "VatNumber": "GB213456789"
@@ -840,15 +840,15 @@
                       "ContentType": "NDX",
                       "ServiceCode": "3D",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-04-29",
+                      "ShipmentDate": "2026-05-20",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "2ca7c2fd-ea47-49ff-9bb7-93a68262977b",
-                      "ShippingLocationId": "01dabe03-5b01-4dc2-9e9e-28589dd41086",
+                      "ShippingAccountId": "e6153d6d-942f-472f-b0a0-cfb3e6ec5166",
+                      "ShippingLocationId": "59ff2812-1be6-460c-bf1c-e3843dce30cf",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -920,7 +920,7 @@
                       "OtherCharges": 32,
                       "QuotedLandedCost": 82.74,
                       "InvoiceNumber": "INV-12345",
-                      "InvoiceDate": "2026-04-29",
+                      "InvoiceDate": "2026-05-20",
                       "ExportLicenceRequired": false,
                       "Airn": "231.002.999-00"
                     }
@@ -933,12 +933,12 @@
                       "ContentType": "NDX",
                       "ServiceCode": "3D",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-04-29",
+                      "ShipmentDate": "2026-05-20",
                       "DeclaredWeight": 1.5,
                       "WeightUnitOfMeasure": "KG"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "26dcf943-ae00-4542-a9df-3ab4799db37c",
+                      "ShippingAccountId": "a32b873f-93fd-451d-9ec1-946d5c080e1c",
                       "Reference1": "OrderRef56",
                       "Address": {
                         "AddressId": "John Brown Default"
@@ -967,12 +967,12 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/DXFreightLabelFormatPackageResponseDetailsCreateShipmentResponse"
+                  "$ref": "#/components/schemas/DXFreightLabelFormatResponsePackageResponseDetailsCreateShipmentResponse"
                 },
                 "examples": {
                   "Create": {
                     "value": {
-                      "ConsignmentShipmentId": "c76f11fb-581f-4740-bccb-e724bd179bde",
+                      "ConsignmentShipmentId": "ab9f9ed9-51fc-49f3-9fe3-d6b0ddf41564",
                       "Packages": [
                         {
                           "PackageOccurrence": 1
@@ -982,7 +982,7 @@
                   },
                   "Allocate": {
                     "value": {
-                      "ConsignmentShipmentId": "b2d45cbe-2d47-4517-a38c-ec7db49eada6",
+                      "ConsignmentShipmentId": "39af3cbf-b82a-442e-ada0-45ccb7077ae2",
                       "ConsignmentTrackingNumber": "L2861391",
                       "ConsignmentCarrierTrackingUrl": "https://dx-track.com/track/dx.aspx?consno=L2861391&postcode=GU214TE",
                       "Packages": [
@@ -996,7 +996,7 @@
                   },
                   "Process - PDF": {
                     "value": {
-                      "ConsignmentShipmentId": "e47df210-69ce-462b-81a1-c729ac76f279",
+                      "ConsignmentShipmentId": "4a4f90bb-194a-4684-b7d4-bcf30e2b24b0",
                       "ConsignmentTrackingNumber": "L2861391",
                       "ConsignmentCarrierTrackingUrl": "https://dx-track.com/track/dx.aspx?consno=L2861391&postcode=GU214TE",
                       "Labels": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
@@ -1065,12 +1065,12 @@
           "Shipments"
         ],
         "summary": "Print Label",
-        "description": "This changes the status of the shipment to label printed. This should be done at the time of actual printing or label creation dependent on how you operate in reality. Shipments must be updated to printed status prior to manifesting.",
+        "description": "Generate and return the label for the DX Freight shipment. This endpoint is utilised after a DX Freight shipment has been created and is meant to facilitate the printing of the label required for that shipment. \r<br />\r<br />***Note:** This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting.*",
         "parameters": [
           {
             "name": "shipmentId",
             "in": "path",
-            "description": "Shipment Id\r<br />The Shipment Id may be an id or a tracking/barcode number.",
+            "description": "A unique identifier (shipmentId) or tracking number returned in the Create shipment response. This ID is used to reference and track specific shipments within the system.",
             "required": true,
             "schema": {
               "maxLength": 36,
@@ -1081,7 +1081,7 @@
           {
             "name": "labelFormat",
             "in": "query",
-            "description": "Label Format\r<br />            \r<br />**PDF** Base 64 encoded PDF\r<br />\r<br />Defaults To PDF",
+            "description": "The desired format for the shipping label that is to be generated and retrieved by the **createShipment** API response, such as PDF that returns a Base64-encoded label.\r<br />\r<br />***Note:** By default, this field is set to PDF.*",
             "schema": {
               "$ref": "#/components/schemas/DXFreightLabelFormat"
             }
@@ -1093,12 +1093,12 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/DXFreightLabelFormatPrintLabelResponse"
+                  "$ref": "#/components/schemas/DXFreightLabelFormatResponsePrintLabelResponse"
                 },
                 "examples": {
                   "PDF": {
                     "value": {
-                      "ShipmentId": "2e7db60b-8005-4b04-a4fd-3063ea92150b",
+                      "ShipmentId": "bdaced43-6120-4fed-8033-c801deacde74",
                       "TrackingNumber": "H03TCA0000000118",
                       "CarrierTrackingUrl": "https://dx-track.com/track/dx.aspx?consno=H03TCA0000000118&postcode=GU214TE",
                       "Label": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
@@ -1177,73 +1177,20 @@
         "additionalProperties": false,
         "description": "Add Shipping Account Location"
       },
-      "AddShippingAccountLocationNewLocation": {
-        "required": [
-          "Address",
-          "LocationAlias",
-          "Timezone"
-        ],
-        "type": "object",
-        "properties": {
-          "LocationAlias": {
-            "maxLength": 100,
-            "minLength": 1,
-            "type": "string",
-            "description": "A user-defined identifier for the shipping location. This information allows greater flexibility in recognising and referring to the location.",
-            "example": "Main Warehouse"
-          },
-          "Timezone": {
-            "maxLength": 100,
-            "minLength": 1,
-            "type": "string",
-            "description": "The timezone in which the shipping location is located, important for scheduling and logistical considerations.",
-            "example": "Europe/London"
-          },
-          "IsDefaultLocation": {
-            "type": "boolean",
-            "description": "A boolean value indicating whether the shipping location is set as the default for shipping operations, streamlining the selection process during shipments.\r<br />If the location is set as the default one, the customers no longer need to specify the location for every shipment request, reducing the risk of errors and delays. It enhances consistency by ensuring that all shipments are directed to the same default location.\r<br />\r<br />***Note:** If true, then this location is set as the default one. Otherwise, it is set to false.*\r<br />\r<br /> Enum [true, false]",
-            "nullable": true,
-            "example": false
-          },
-          "Address": {
-            "$ref": "#/components/schemas/AddShippingLocationAddress"
-          }
-        },
-        "additionalProperties": false,
-        "description": "This object is used to create a new shipping location that will be linked to the shipping account that is being created."
-      },
-      "AddShippingAccountResponse": {
-        "type": "object",
-        "properties": {
-          "ShippingAccountId": {
-            "type": "string",
-            "description": "A unique identifier for the shipping account assigned by the system, allowing for efficient reference and management of individual accounts within the system.",
-            "format": "uuid"
-          },
-          "ShippingLocationId": {
-            "type": "string",
-            "description": "A unique identifier assigned to the new shipping location by the system. This ID is used to distinguish between different shipping locations within the system, facilitating, referencing and operations, such as updates, deletions, or specific queries related to that location.\r<br />\r<br />***Note:** This field is only populated if the details of a new location were provided in the request.*",
-            "format": "uuid",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false,
-        "description": "Add Shipping Account Response"
-      },
-      "AddShippingLocationAddress": {
+      "AddShippingAccountLocationAddress": {
         "type": "object",
         "properties": {
           "AddressId": {
             "maxLength": 70,
             "type": "string",
-            "description": "A unique identifier for the address associated with the shipping location. This ID serves as a reference point, allowing users to easily access, manage, and differentiate between different addresses stored in the system.\r<br />\r<br />***Note:** This ID is stored in the system's address book. If this information is provided, then all the fields under the **Address** object are ignored and the stored address in the **Address Book** will be used.*",
+            "description": "A unique identifier for the new shipping location that will be associated with the shipping account being added.\r<br />\r<br />***Note:** If this information is provided, then all the address fields will be ignored and the relevant information will be used from the addresses stored in the **Address Book**.*",
             "nullable": true,
             "example": "John Brown Default"
           },
           "Line1": {
             "maxLength": 25,
             "type": "string",
-            "description": "The first line of the address, typically containing the primary address information such as house number and street name. <br/> <br/> ***Note:** Characters like +, /, -, or space are supported.*",
+            "description": "The first line of the address, typically containing the primary address information such as house number and street name.",
             "nullable": true,
             "example": "Brown Cottage"
           },
@@ -1299,7 +1246,7 @@
           "ContactPhone": {
             "maxLength": 20,
             "type": "string",
-            "description": "The contact phone number associated with the shipping location, facilitating communication regarding shipments or deliveries.\r<br />\r<br />***Note:** Characters like +, /, -, or space are supported.*",
+            "description": "The contact phone number associated with the shipping location, facilitating communication regarding shipments or deliveries.\r<br />            \r<br />***Note:** If the shipper address is not provided for the **Create Shipment** request, this information is used as the shipper's contact phone number for this location, instead of the shipping account contact phone number. Characters like +, /, -, or space are supported.*",
             "format": "tel",
             "nullable": true,
             "example": "07123887422"
@@ -1307,6 +1254,59 @@
         },
         "additionalProperties": false,
         "description": "The complete address of the shipping location, consisting of multiple components including street information, locality, and so on."
+      },
+      "AddShippingAccountLocationNewLocation": {
+        "required": [
+          "Address",
+          "LocationAlias",
+          "Timezone"
+        ],
+        "type": "object",
+        "properties": {
+          "LocationAlias": {
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string",
+            "description": "A unique user-defined identifier for the shipping location, providing a convenient way to identify it, for example, Home or Warehouse.",
+            "example": "Main Warehouse"
+          },
+          "IsDefaultLocation": {
+            "type": "boolean",
+            "description": "A boolean value indicating whether the shipping location is set as the default for shipping operations.\r<br />\r<br />***Note:** If true, then this location is set as the default one. Otherwise, it is set to false. The shipping account must have at least one default location.*",
+            "nullable": true,
+            "example": false
+          },
+          "Address": {
+            "$ref": "#/components/schemas/AddShippingAccountLocationAddress"
+          },
+          "Timezone": {
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string",
+            "description": "The timezone in which the shipping location is located, important for scheduling and logistical considerations.",
+            "example": "Europe/London"
+          }
+        },
+        "additionalProperties": false,
+        "description": "This object is used to create a new shipping location that will be linked to the shipping account that is being created."
+      },
+      "AddShippingAccountResponse": {
+        "type": "object",
+        "properties": {
+          "ShippingAccountId": {
+            "type": "string",
+            "description": "A unique identifier for the shipping account assigned by the system, allowing for efficient reference and management of individual accounts within the system.",
+            "format": "uuid"
+          },
+          "ShippingLocationId": {
+            "type": "string",
+            "description": "A unique identifier assigned to the new shipping location by the system. This ID is used to distinguish between different shipping locations within the system, facilitating, referencing and operations, such as updates, deletions, or specific queries related to that location.\r<br />\r<br />***Note:** This field is only populated if the details of a new location were provided in the request.*",
+            "format": "uuid",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false,
+        "description": "Add Shipping Account Response"
       },
       "BusinessTransactionType": {
         "enum": [
@@ -1316,7 +1316,7 @@
           "C2B"
         ],
         "type": "string",
-        "description": "Specifies the nature of the commercial transaction type associated with the shipment.\r<br />\r<br />Valid values are: \r<br /><ul><li>**B2C** - Business to Consumer</li><li>**B2B** - Business to Business</li><li>**D2C** - Direct 2 Consumer</li><li>**C2B** - Consumer to Business</li></ul>"
+        "description": "Specifies the nature of the commercial transaction type associated with the shipment.\r<br />\r<br />Valid values are:\r<br />\r<br />**B2C** - Business to Consumer\r<br />**B2B** - Business to Business\r<br />**D2C** - Direct to Consumer\r<br />**C2B** - Consumer to Business (that is, a returns shipment)\r<br /> \r<br />***Note:** By default, this field is set to B2C.*"
       },
       "ContentType": {
         "enum": [
@@ -1325,7 +1325,7 @@
           "HV"
         ],
         "type": "string",
-        "description": "Defines the type of contents being shipped. This helps the carrier manage the shipment according to its content type.\r<br />\r<br />Valid values are: <br />\r<br />**NDX** (Non Documents)\r<br />**DOX** (Documents)\r<br />**HV** (Non Documents of High Value)"
+        "description": "Defines the type of contents being shipped. This helps the carrier manage the shipment according to its content type.\r<br />\r<br />Valid values are:\r<br /><ul><li>**NDX** - Non Documents</li><li>**DOX** - Documents</li><li>**HV** - Non Documents of High Value</li></ul>"
       },
       "CreateShipmentAction": {
         "enum": [
@@ -1334,7 +1334,7 @@
           "Allocate"
         ],
         "type": "string",
-        "description": "Indicates the operation to be performed for the shipment, determines the shipment status that is set on shipment creation and whether a shipment tracking number and labels are generated.\r<br />            \r<br />Valid values are:\r<br /><ul><li>**Process:** Creates a shipment tracking number, generates and prints a label for each package in the shipment, and returns the labels in the createShipment response. With this action, the shipment status is set to Ready to Manifest.</li><li>**Create:** Creates the shipment but does not allocate a tracking number, print the labels or return them in the createShipment response. The label(s) must be printed before the shipment is ready to manifest.</li><li>**Allocate:**  Creates the tracking number and label but does not print the labels or return them in the createShipment response. The label(s) must be printed before the shipment is ready to manifest.</li></ul>\r<br />***Note**: By default, this field is set to Process.*"
+        "description": "Indicates the operation to be performed for the shipment, determines the shipment status that is set on shipment creation and whether a shipment tracking number and labels are generated.\r<br />\r<br />Valid values are:\r<br /><ul><li>**Process:** Creates a shipment tracking number, generates and prints a label for each package in the shipment, and returns the labels in the **createShipment** response. With this action, the shipment status is set to **Ready to Manifest**.</li><li>**Create:** Creates the shipment but does not allocate a tracking number, print the labels or return them in the **createShipment** response. The label(s) must be printed before the shipment is ready to manifest.</li><li>**Allocate:** Creates the tracking number and label but does not print the labels or return them in the **createShipment** response. The label(s) must be printed before the shipment is ready to manifest.</li></ul>\r<br />***Note:** By default, this field is set to Process.*"
       },
       "Customs": {
         "type": "object",
@@ -1352,14 +1352,14 @@
           "PreRegistrationNumber": {
             "maxLength": 50,
             "type": "string",
-            "description": "A number for tax pre-registration in countries where required for compliance during DDU shipments.<br />\r<br />If applicable, this number is required for countries operating a Tax Pre-Registration scheme(for example, VOEC in Norway, GST in Australia) when shipping under DDU Incoterms.If not provided and DDU is specified, any pre-registration numbers configured in the Customs Settings GUI for the account will be used.\r<br />\r<br />***Note:** VAT and EORI numbers should be provided in the Shipper and receiver **VatNumber** and **EoriNumber** fields, not in this field.*",
+            "description": "A number for tax pre-registration in countries where required for compliance during DDU shipments.<br />\r<br />If applicable, this number is required for countries operating a Tax Pre-Registration scheme (for example, VOEC in Norway, GST in Australia) when shipping under DDU Incoterms. If not provided and DDU is specified, any pre-registration numbers configured in the Customs Settings GUI for the account will be used.\r<br />\r<br />***Note:** VAT and EORI numbers should be provided in the Shipper and receiver **VatNumber** and **EoriNumber** fields, not in this field.*",
             "nullable": true,
             "example": "0123456789"
           },
           "PreRegistrationType": {
             "maxLength": 18,
             "type": "string",
-            "description": "The type of pre-registration number provided in the PreRegistrationNumber element, specifying the registration scheme type. This field is mandatory if a PreRegistrationNumber is provided. Otherwise, it is ignored.\r<br />\r<br />***Note:** VAT and EORI numbers should be provided in the Shipper and receiver **VatNumber** and **EoriNumber** fields, not in this field.*",
+            "description": "The type of pre-registration number provided in the **PreRegistrationNumber** element, specifying the registration scheme type. This field is mandatory if a **PreRegistrationNumber** is provided. Otherwise, it is ignored.\r<br />\r<br />***Note:** VAT and EORI numbers should be provided in the Shipper and receiver **VatNumber** and **EoriNumber** fields, not in this field.*",
             "nullable": true,
             "example": "GST"
           },
@@ -1393,18 +1393,18 @@
           "InvoiceNumber": {
             "maxLength": 35,
             "type": "string",
-            "description": "A specific number that is associated with a shipment. This is useful for tracking, billing, and reconcilliation purposes.\r<br />\r<br />***Note:** When sending an item to an overseas address and a Commercial or Proforma invoice is available, the **InvoiceNumber** and **InvoiceDate** should be provided to support customs processing.If provided, it will be displayed on commercial invoices generated for the shipment.Please be advised that this field is required if the **InvoiceDate** is provided.*",
+            "description": "A specific number that is associated with a shipment. This is useful for tracking, billing, and reconciliation purposes.\r<br />\r<br />***Note:** When sending an item to an overseas address and a Commercial or Proforma invoice is available, the **InvoiceNumber** and **InvoiceDate** should be provided to support customs processing.If provided, it will be displayed on commercial invoices generated for the shipment. Please be advised that this field is required if the **InvoiceDate** is provided.*",
             "nullable": true
           },
           "InvoiceDate": {
             "type": "string",
-            "description": "The date on which the invoice was created. This information is useful for record-keeping, billing cycles, and tracking payment due dates. \r<br />\r<br />***Note:** The InvoiceDate must be in the YYYY-MM-DD format.This field is ignored if the **InvoiceNumber** is not provided. If the **InvoiceNumber** is provided without the invoice date, then the **InvoiceDate** defaults to today's date.*",
+            "description": "The date on which the invoice was created. This information is useful for record-keeping, billing cycles, and tracking payment due dates. \r<br />\r<br />***Note:** The **InvoiceDate** must be in the YYYY-MM-DD format. This field is ignored if the **InvoiceNumber** is not provided. If the **InvoiceNumber** is provided without the invoice date, then the **InvoiceDate** defaults to today's date.*",
             "format": "date",
             "nullable": true
           },
           "ExportLicenceRequired": {
             "type": "boolean",
-            "description": "A boolean flag indicating whether an export license is needed for the shipment, particularly for goods predominantly used for military purposes. If required, the export license should be affixed to the outside of the package.\r<br />\r<br />***Note:** To learn more about the types of items requiring an export license, refer to the UK Government website.*",
+            "description": "A boolean flag indicating whether an export licence is needed for the shipment, particularly for goods predominantly used for military purposes. If required, the export licence should be affixed to the outside of the package.\r<br />\r<br />***Note:** To learn more about the types of items requiring an export licence, refer to the UK Government website.*",
             "nullable": true,
             "example": false
           },
@@ -1417,7 +1417,7 @@
           }
         },
         "additionalProperties": false,
-        "description": "Used to provide information for customs clearance related to the shipment. This includes, reasons for export, applicable incoterms, any pre-registration numbers and type required, shipping and other charges, as well as details about the invoice and whether an export license is needed. It ensures compliance with international shipping regulations."
+        "description": "Used to provide information for customs clearance related to the shipment. This includes, reasons for export, applicable incoterms, any pre-registration numbers and type required, shipping and other charges, as well as details about the invoice and whether an export licence is needed. It ensures compliance with international shipping regulations."
       },
       "DXFreightAddShippingAccountRequest": {
         "required": [
@@ -1469,21 +1469,21 @@
             "maxLength": 20,
             "minLength": 1,
             "type": "string",
-            "description": "Carrier Account Number\r<br />The account number given by the carrier.",
+            "description": "The number assigned to the shipping account by the carrier, typically used for tracking shipments and billing purposes.",
             "example": "010857948"
           },
           "Password": {
             "maxLength": 50,
             "minLength": 1,
             "type": "string",
-            "description": "Password for authentication",
+            "description": "The password associated with your DX Freight account. It is essential for securing the account and ensuring that only authorised users have access to shipping details and operations.",
             "example": "Password"
           },
           "OriginServiceCenter": {
             "maxLength": 2,
             "minLength": 2,
             "type": "string",
-            "description": "Customer Account Service Centre",
+            "description": "A code that represents the customer account service centre from which the shipments originate.",
             "example": "99"
           },
           "ServiceType": {
@@ -1505,9 +1505,16 @@
           "PDF"
         ],
         "type": "string",
-        "description": "Sets the label format that will be returned in the createShipment Response.\r<br />Valid values are:\r<br />**PDF** - returns a Base64-encoded PDF    \r<br />Defaults to PDF if not populated."
+        "description": "Specifies the format of the shipping label that will be returned in the **createShipment** response. The current accepted format is PDF, which will return a Base 64-encoded PDF of the shipping label.\r<br />\r<br />***Note:** By default, this field is set to PDF.*"
       },
-      "DXFreightLabelFormatPackageResponseDetailsCreateShipmentResponse": {
+      "DXFreightLabelFormatResponse": {
+        "enum": [
+          "PDF"
+        ],
+        "type": "string",
+        "description": "Specifies the format in which the generated shipping label was requested, for example, PDF."
+      },
+      "DXFreightLabelFormatResponsePackageResponseDetailsCreateShipmentResponse": {
         "type": "object",
         "properties": {
           "ConsignmentShipmentId": {
@@ -1532,11 +1539,11 @@
           },
           "Labels": {
             "type": "string",
-            "description": "<br>Returns the generated shipping labels for the shipment. This field is populated only if the requested action was \"Process.\" The labels include the necessary barcodes and shipping information  required for effective transit and delivery of the packages.<br/><br/>***Note:** This field has the following reservations:* <br/><ul><li>This field returns the labels only if the **ReturnLabelsAtPackageLevel** field is set to false.</li></ul>",
+            "description": "Returns the generated shipping labels for the shipment. This field is populated only if the requested action was \"Process.\" The labels include the necessary barcodes and shipping information required for effective transit and delivery of the packages.\n\n***Note:** This field returns the labels only if the **ReturnLabelsAtPackageLevel** field is set to false.*",
             "nullable": true
           },
           "LabelFormat": {
-            "$ref": "#/components/schemas/DXFreightLabelFormat"
+            "$ref": "#/components/schemas/DXFreightLabelFormatResponse"
           },
           "Packages": {
             "type": "array",
@@ -1559,7 +1566,7 @@
         "additionalProperties": false,
         "description": "Create Shipment Response"
       },
-      "DXFreightLabelFormatPrintLabelResponse": {
+      "DXFreightLabelFormatResponsePrintLabelResponse": {
         "required": [
           "LabelFormat",
           "ShipmentId"
@@ -1592,7 +1599,7 @@
             "example": "iVBORw0KGgoAAAANSUhEUgAA ... A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4"
           },
           "LabelFormat": {
-            "$ref": "#/components/schemas/DXFreightLabelFormat"
+            "$ref": "#/components/schemas/DXFreightLabelFormatResponse"
           }
         },
         "additionalProperties": false,
@@ -1612,11 +1619,6 @@
           "LabelFormat": {
             "$ref": "#/components/schemas/DXFreightLabelFormat"
           },
-          "ReturnLabelsAtPackageLevel": {
-            "type": "boolean",
-            "description": "A boolean field that provides customers with the choice to generate labels at the package level instead of the shipment level. When set to true, the system returns labels for each individual package contained within the shipment.\r<br />This field is currently only supported for Royal Mail shipments.\r<br />\r<br />***Note**: This field is ignored if the **Action** field is populated with values other than **Process**. By default, this field is set to false.*",
-            "default": false
-          },
           "ContentType": {
             "$ref": "#/components/schemas/ContentType"
           },
@@ -1624,7 +1626,7 @@
             "maxLength": 3,
             "minLength": 1,
             "type": "string",
-            "description": "A valid unique code identifying the service selected for the shipment's delivery, which determines pricing, delivery speed, and other service attributes.<br><br />A valid service code that is available to the delivery (and collection) address",
+            "description": "A valid unique code identifying the service selected for the shipment's delivery and collection address, which determines pricing, delivery speed, and other service attributes.",
             "example": "CRL1"
           },
           "DescriptionOfGoods": {
@@ -1639,7 +1641,7 @@
           },
           "ShipmentDate": {
             "type": "string",
-            "description": "The scheduled date for the shipment to be shipped, which cannot be in the past and must not exceed 28 days into the future. If omitted, it defaults to the current date.<br><br />*The shipment date must be in the YYYY-MM-DD format.*<br /><br />DX Freight - For a delivery: the date this item will be handed over to DX. If a collection has already taken place today, then the next collection day.",
+            "description": "The scheduled date for the shipment to be shipped, which cannot be in the past and must not exceed 28 days into the future. If omitted, it defaults to the current date.<br><br />***Note:** For a DX Freight delivery, this date corresponds to the date when the item is handed over to DX. If the collection has already taken place today, then it will be the next collection day.* <br /><br />*The shipment date must be in the YYYY-MM-DD format.*",
             "format": "date",
             "nullable": true
           },
@@ -1647,7 +1649,7 @@
             "maximum": 9999999.99,
             "minimum": 0,
             "type": "number",
-            "description": "The declared monetary value assigned to the shipment in the specified currency. If provided, it must equal or exceed the sum of all item values. If not provided, it defaults to the sum of all item values.",
+            "description": "The declared monetary value assigned to the shipment in the specified currency. If provided, it must equal or exceed the sum of all item values. If not provided, it defaults to the sum of all item values.\r<br />\r<br />***Note:** For Non-Consignment Services where multiple packages are declared, use the declared value at the package level instead.*",
             "format": "double",
             "nullable": true,
             "example": 98.99
@@ -1664,7 +1666,7 @@
             "maxLength": 3,
             "minLength": 3,
             "type": "string",
-            "description": "The three-letter ISO code indicating the currency in which any monetary value is specified (for example, USD, EUR). This ensures clarity for payment and invoicing purposes.",
+            "description": "The three-letter ISO code indicating the currency in which any monetary value is specified (for example, USD, EUR). This ensures clarity for payment and invoicing purposes.<br><br />***Note:** This information is required if any monetary values other than zero are provided.*",
             "nullable": true,
             "example": "GBP"
           },
@@ -1676,7 +1678,7 @@
           },
           "ContainerId": {
             "type": "string",
-            "description": "A unique identifier assigned by the system to the container in a shipment, so that the shipment can be added to the existing container when the shipment is created.\r<br />\r<br />If a valid **ContainerId** is specified, the shipments in the request will be automatically allocated to that container upon creation.If the **ContainerId** is provided, then the **Process** action is required.<br /> \r<br />***Note:** The container must already exist for the same Carrier and Shipping Location as the shipment.*",
+            "description": "A unique identifier assigned by the system or by you (alias) to the container in a shipment, so that the shipment can be added to the existing container when the shipment is created.\r<br />\r<br />If a valid **ContainerId** is specified, the shipments in the request will be automatically allocated to that container upon creation. If the **ContainerId** is provided, then the **Process** action is required.<br /> \r<br />***Note:** The container must already exist for the same Carrier and Shipping Location as the shipment.*",
             "nullable": true,
             "example": "South East"
           }
@@ -1691,7 +1693,7 @@
             "maximum": 99,
             "minimum": 1,
             "type": "integer",
-            "description": "A unique identifier for each package within the shipment that is used to match a returned package ID to this package. This field can also be used to assign items to a specific package. \r<br />\r<br /> ***Note:** If multiple packages exist and a consignment service is not used, this field is mandatory to ensure each package occurrence is distinct.*",
+            "description": "A unique identifier for each package within the shipment that is used to match a returned package ID to this package. This field can also be used to assign items to a specific package.\r\n\r\n***Note:** If multiple packages exist and a consignment service is not used, this field is mandatory to ensure each package occurrence is distinct.*",
             "format": "int32",
             "nullable": true,
             "example": 1
@@ -1702,7 +1704,7 @@
           "DeclaredWeight": {
             "minimum": 0.001,
             "type": "number",
-            "description": "The total weight of the package being declared in the unit of measure specified in the WeightUnitOfMeasure field. \r<br />\r<br />***Note:** The minimum allowed weight is 0.001 kg and the maximum weight is dependent on the carrier, service and destination.This field is mandatory for shipments using non-consignment services.*",
+            "description": "The total weight of the package being declared in the unit of measure specified in the **WeightUnitOfMeasure** field.\r<br />\r<br />***Note:** The minimum allowed weight is 0.001 kg and the maximum weight is dependent on the carrier, service and destination. This field is mandatory for shipments using non-consignment services.*",
             "format": "double",
             "nullable": true,
             "example": 1.5
@@ -1711,7 +1713,7 @@
             "maximum": 9999999.99,
             "minimum": 0.01,
             "type": "number",
-            "description": "The declared monetary value of the package specified in the **CurrencyCode** field.\r<br />\r<br />***Note:** If provided, then the declared value must meet or exceed the sum of all item values assigned to this package.Otherwise, it defaults to this sum.This value can be used for non-consignment services, though it is not mandatory.*",
+            "description": "The declared monetary value of the package specified in the **CurrencyCode** field.\r<br />\r<br />***Note:** If provided, then the declared value must meet or exceed the sum of all item values assigned to this package. Otherwise, it defaults to this sum. This value can be used for non-consignment services, though it is not mandatory.*",
             "format": "double",
             "nullable": true,
             "example": 98.99
@@ -1737,7 +1739,7 @@
           "EUROBAG"
         ],
         "type": "string",
-        "description": "The package type used for the shipment.\r<br />Defaults to largest package type (PALLET) for the requested service, if not provided.\r<br />Note: This field is Mandatory for DX Freight."
+        "description": "Defines the type of package being shipped (for example, tube, pallet, and so on). This helps DX Freight categorise and handle the package appropriately during transit.\r<br />\r<br />***Note:** This field is mandatory for DX Freight. If the package type is not provided in the create shipment request, then by default, this field is set to PALLET.*"
       },
       "DXFreightServiceTypes": {
         "enum": [
@@ -1745,7 +1747,7 @@
           "2 Man"
         ],
         "type": "string",
-        "description": "Accepted Values: 1 Man and 2 Man"
+        "description": "A categorisation of the type of service used for shipments created by this shipping account. The accepted values are the following:\r<br />\r<br />**• 1 Man**: This service type typically means that one crew member will handle the delivery. This is suitable for smaller, lighter items that one person can manage without assistance.\r<br /> \r<br />**• 2 Man**: This service type indicates that two personnel will be involved in the delivery process, which is often necessary for larger or heavier items that require additional handling or lifting."
       },
       "DXFreightShipmentRequestCarrierSpecifics": {
         "type": "object",
@@ -1753,24 +1755,24 @@
           "SpecialInstruction1": {
             "maxLength": 25,
             "type": "string",
-            "description": "Special Instruction 1\r<br />A field for specific guidance or requests for the carrier regarding the shipment, such as handling procedures or delivery preferences.",
+            "description": "A field to provide special instructions or requests to the carrier for handling the shipment, such as handling procedures or delivery preferences.",
             "nullable": true
           },
           "SpecialInstruction2": {
             "maxLength": 25,
             "type": "string",
-            "description": "Special Instruction 2\r<br />An additional field for further elaboration of any specific requirements or consideration that the carrier should be aware of.",
+            "description": "A field to provide additional specific instructions concerning the shipment handling that DX Freight should be aware of.",
             "nullable": true
           },
           "SpecialInstruction3": {
             "maxLength": 25,
             "type": "string",
-            "description": "Special Instruction 3\r<br />A field intended for any extra notes or detail that may not fit in the preceding fields, ensuring all relevant information is communicated correctly.",
+            "description": "A third field for any extra special instructions that may be necessary for processing the shipment, ensuring all relevant information is communicated correctly.",
             "nullable": true
           }
         },
         "additionalProperties": false,
-        "description": "DX Freight - specific features that can be used when creating a DX Freight shipment."
+        "description": "Used to provide specific information related to the DX Freight shipment. This includes special handling instructions for the shipments being sent."
       },
       "DXFreightShipmentRequestCarrierSpecificsDXFreightPackageDXFreightLabelFormatCreateShipmentRequest": {
         "required": [
@@ -1798,14 +1800,14 @@
             "items": {
               "$ref": "#/components/schemas/DXFreightPackage"
             },
-            "description": "Used to provide information on the packages that are being sent in this shipment.  \r<br />\r<br />***Note:** You must add at least one package to the shipment.You can add a maximum of 50 packages in a single shipment.If the number of packages exceeds 50, an error will be returned, and the shipment will not be created.*"
+            "description": "Used to provide information on the packages that are being sent in this shipment. You can add a maximum of 99 packages in a single shipment.<br /><br />***Note:** You must add at least one package to the shipment.*"
           },
           "Items": {
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/Item"
             },
-            "description": "Used to provide information on the individual goods/products being shipped within the package. This includes vital details, such as SKU code for inventory tracking, quantity of each item, description for clarity, and shipping specifics like weight, customs classifications (HS Code), and country of origin.\r<br />\r<br />***Note:** The item information is only required for dutiable shipments.Non-Dutiable and Documents Only (DOX) shipments do not require item information. Please be advised that the item verification on a shipment is done via Hurricane services; therefore, it should be enabled.The maximum number of distinct items that will be verified in a single shipment is 15.*",
+            "description": "Used to provide information on the individual goods/products being shipped within the package. This includes vital details, such as SKU code for inventory tracking, quantity of each item, description for clarity, and shipping specifics like weight, customs classifications (HS Code), and country of origin.\r<br />\r<br />***Note:** The item information is only required for dutiable shipments. Non-Dutiable and Documents Only (DOX) shipments do not require item information. Please be advised that the item verification on a shipment is done via Hurricane services; therefore, it should be enabled. The maximum number of distinct items that will be verified in a single shipment is 15.*",
             "nullable": true
           },
           "Customs": {
@@ -1859,7 +1861,7 @@
             "maxLength": 35,
             "minLength": 1,
             "type": "string",
-            "description": "The official name of the shipping account as designated by the user or organization, aiding in easy identification and reference of accounts.",
+            "description": "The official name of the shipping account as designated by the user or organisation, aiding in easy identification and reference of accounts.",
             "example": "AB VideoGames"
           },
           "AccountAlias": {
@@ -1894,7 +1896,7 @@
             "maxLength": 2,
             "minLength": 2,
             "type": "string",
-            "description": "Customer Account Service Centre",
+            "description": "A code that represents the customer account service centre from which the shipments originate.",
             "example": "99"
           },
           "ServiceType": {
@@ -1931,7 +1933,7 @@
           },
           "TotalCount": {
             "type": "integer",
-            "description": "An integer representing the total number of shipping accounts associated with the specified shipping location, giving users a quick overview of how many accounts are linked to their operations.",
+            "description": "An integer representing the total number of shipping accounts that match the query parameters sent in the request, giving users a quick overview of how many accounts are linked to their operations.",
             "format": "int32",
             "example": 303
           }
@@ -1960,7 +1962,7 @@
             "maxLength": 35,
             "minLength": 1,
             "type": "string",
-            "description": "The official name of the shipping account as designated by the user or organization, aiding in easy identification and reference of accounts.\r<br />\r<br />***Note:** By default, this value is set to the customer name if not provided in the request.*",
+            "description": "The official name of the shipping account as designated by the user or organisation, aiding in easy identification and reference of accounts.\r<br />\r<br />***Note:** By default, this value is set to the customer name if not provided in the request.*",
             "example": "AB VideoGames"
           },
           "AccountAlias": {
@@ -1974,14 +1976,14 @@
             "maxLength": 100,
             "minLength": 1,
             "type": "string",
-            "description": "The name of the primary contact person for the shipping account, facilitating communication regarding shipping and account-related matters.\r<br />\r<br />***Note:** If the shipper address is not provided in the Create Shipment request, this information is used as the shipper's contact name, if provided.*",
+            "description": "The name of the primary contact person for the shipping account, facilitating communication regarding shipping and account-related matters.",
             "example": "John Smith"
           },
           "ContactNumber": {
             "maxLength": 20,
             "minLength": 1,
             "type": "string",
-            "description": "The phone number associated with the shipping account's primary contact person, facilitating communication regarding shipping inquiries, account management, and issue resolution.\r<br />\r<br />***Note:** If the shipper address is not provided in the Create Shipment request, this information is used as the shipper's contact phone number, if provided. Characters like +, /, -, or space are supported.*",
+            "description": "The phone number associated with the shipping account's primary contact person, facilitating communication regarding shipping inquiries, account management, and issue resolution.",
             "format": "tel",
             "example": "0123456789"
           },
@@ -1989,21 +1991,21 @@
             "maxLength": 20,
             "minLength": 1,
             "type": "string",
-            "description": "Carrier Account Number\r<br />The account number given by the carrier.",
+            "description": "The number assigned to the shipping account by the carrier, typically used for tracking shipments and billing purposes.",
             "example": "010857948"
           },
           "Password": {
             "maxLength": 50,
             "minLength": 1,
             "type": "string",
-            "description": "Password for authentication",
+            "description": "The password associated with your DX Freight account. It is essential for securing the account and ensuring that only authorised users have access to shipping details and operations.",
             "example": "Password"
           },
           "OriginServiceCenter": {
             "maxLength": 2,
             "minLength": 2,
             "type": "string",
-            "description": "Customer Account Service Centre",
+            "description": "A code that represents the customer account service centre from which the shipments originate.",
             "example": "99"
           },
           "ServiceType": {
@@ -2022,14 +2024,14 @@
           "EoriNumber": {
             "maxLength": 17,
             "type": "string",
-            "description": "The EORI (Economic Operators Registration and Identification) number for the receiver, which must start with the ISO Alpha-2 Country Code followed by up to 15 alphanumeric characters. For Northern Ireland, it starts with XI. \r<br />\r<br />***Note:** Make sure to provide this information here—not in the **Customs** object.*",
+            "description": "The EORI (Economic Operators Registration and Identification) number for the receiver, which must start with the ISO Alpha-2 Country Code followed by up to 15 alphanumeric characters. For Northern Ireland, it starts with XI. \r<br />\r<br />***Note:** This field is mandatory for B2B shipments from GB to Northern Ireland or if the receiver is a business. Make sure to provide this information here—not in the **Customs** object.*",
             "nullable": true,
             "example": "GB 123 4567 89 000"
           },
           "VatNumber": {
             "maxLength": 15,
             "type": "string",
-            "description": "The VAT (Value Added Tax) number for the receiver, which, if applicable, is used for tax compliance. \r<br />\r<br />***Note:** Make sure to provide this information here—not in the **Customs** object.*",
+            "description": "The VAT (Value Added Tax) number for the receiver, which, if applicable, is used for tax compliance. \r<br />\r<br />***Note:** This field is mandatory if the receiver is a business. Make sure to provide this information here—not in the **Customs** object.*",
             "nullable": true,
             "example": "GB 123 4567 89"
           },
@@ -2046,15 +2048,9 @@
           "AddressId": {
             "maxLength": 70,
             "type": "string",
-            "description": "A unique identifier for the address. This information ensures that each address can be distinctly referenced and managed within the system.\r<br />\r<br />***Note:**  If this information is provided, then all the fields under the **Address** object are ignored and the stored address in the **Address Book** will be used.*",
+            "description": "A unique identifier for the address. This information ensures that each address can be distinctly referenced and managed within the system.\r<br />\r<br />***Note:** If this information is provided, then all the fields under the **Address** object are ignored and the stored address in the **Address Book** will be used.*",
             "nullable": true,
             "example": "John Brown Default"
-          },
-          "PudoId": {
-            "maxLength": 20,
-            "type": "string",
-            "description": "A unique identifier for a PUDO location. This ID is retrieved from the LocationId field of the Get PUDO Locations endpoint response and is essential for identifying the specific collection point for a Royal Mail shipment.\r<br />Note: Before providing the PudoId, keep in mind the following:\r<br />- The PudoId is only applicable for destination addresses when the shipment is being created as a collection shipment. Royal Mail does not utilise this ID for drop-off shipments.\r<br />- The destination contact name must be provided with either its contact email or phone number.\r<br />- The LocalCollect supplement code is not required - the system will automatically assign the relevant supplement codes based on the PudoId.",
-            "nullable": true
           },
           "ContactName": {
             "maxLength": 25,
@@ -2081,14 +2077,14 @@
           "ContactPhone": {
             "maxLength": 14,
             "type": "string",
-            "description": "The contact phone number associated with the receiver, facilitating communication regarding shipments or deliveries. <br/> <br/>*Note: The destination contact phone is required for DX Freight.*",
+            "description": "The contact phone number associated with the receiver, facilitating communication regarding shipments or deliveries. <br/> <br/>***Note:** The destination contact phone is required for DX Freight. Characters like +, /, -, or space are supported.*",
             "nullable": true,
             "example": "07123887422"
           },
           "Line1": {
             "maxLength": 25,
             "type": "string",
-            "description": "The first line of the address, typically containing the primary address information such as house number and street name. <br/> <br/> ***Note:** Characters like +, /, -, or space are supported.*",
+            "description": "The first line of the address, typically containing the primary address information such as house number and street name. <br/><br/> ***Note:** This information is required if the address is not used from the stored addresses in the **Address Book***.",
             "nullable": true,
             "example": "Brown Cottage"
           },
@@ -2163,20 +2159,20 @@
           "Width": {
             "minimum": 0.1,
             "type": "number",
-            "description": "The width of the shipment package in the unit of measure specified in the UnitOfMeasure field.\r<br />\r<br />***Note:** The maximum accepted width is dependent on the service and package type.*",
+            "description": "The width of the shipment package in the unit of measure specified in the **UnitOfMeasure** field.\r<br />\r<br />***Note:** The maximum accepted width is dependent on the service and package type.*",
             "format": "double",
             "example": 25
           },
           "Height": {
             "minimum": 0.1,
             "type": "number",
-            "description": "The length of the shipment package in the unit of measure specified in the **UnitOfMeasure** field.\r<br />\r<br />***Note:** The maximum accepted length is dependent on the service and package type.*",
+            "description": "The height of the shipment package in the unit of measure specified in the **UnitOfMeasure** field.\r<br />\r<br />***Note:** The maximum accepted height is dependent on the service and package type.*",
             "format": "double",
             "example": 20
           }
         },
         "additionalProperties": false,
-        "description": "Used to provide the maximum allowable dimensions for packages. It specifies the limits that must not be exceeded for packages to be eligible for the shipping service and package type.\r<br />\r<br />***Note:** The Dimensions object in the request is optional, but if it is provided, then all of the fields in the object (width, length, and height) must be populated.The maximum dimensions accepted are dependent on the service and the package type.*"
+        "description": "Used to provide the maximum allowable dimensions for packages. It specifies the limits that must not be exceeded for packages to be eligible for the shipping service and package type.\r<br />\r<br />***Note:** The Dimensions object in the request is optional, but if it is provided, then all of the fields in the object (width, length, and height) must be populated. The maximum dimensions accepted are dependent on the service and the package type.*"
       },
       "DimensionsUnitOfMeasure": {
         "enum": [
@@ -2184,7 +2180,7 @@
           "MM"
         ],
         "type": "string",
-        "description": "The unit of measure used for all the dimensions (length, width, height) values of the packages being shipped, allowing for measurements in millimeters and centimeters. This ensures consistency in how dimensions are handled.\r<br />\r<br />***Note:** By Default, this field is set to CM.*"
+        "description": "The unit of measure used for all the dimensions (length, width, height) values of the packages being shipped, allowing for measurements in millimeters and centimeters. This ensures consistency in how dimensions are handled.\r<br />\r<br />***Note:** By default, this field is set to CM.*"
       },
       "DocumentFormat": {
         "enum": [
@@ -2194,7 +2190,7 @@
           "ZPL300DPI"
         ],
         "type": "string",
-        "description": "Document Format\r<br />            \r<br />**PDF** Base 64 encoded PDF\r<br />**PNG** Base 64 encoded PNG\r<br />**ZPL203DPI** Base 64 encoded text for Zebra printer at 203 DPI\r<br />**ZPL300DPI** Base 64 encoded text for Zebra printer at 300 DPI\r<br />\r<br />Defaults To PDF"
+        "description": "Specifies the format in which the documents related to the shipment are provided. For example, a PDF Base 64 encoded PDF.\n\n This format is crucial for ensuring that the documents can be easily accessed, printed, and utilised during shipping and customs processes."
       },
       "ErrorDetail": {
         "type": "object",
@@ -2245,14 +2241,14 @@
             "maxLength": 4,
             "minLength": 4,
             "type": "string",
-            "description": "The United Nations (UN) code assigned to the hazardous material, which denotes its classification for transport. This code is critical for safety and compliance during shipping.\r<br />***Note:** This field must be populated only for domestic shipments using class 9 dangerous goods. If provided, then **Quantity** and **UnitOfMeasure** must also be specified.*",
+            "description": "The United Nations (UN) code assigned to the hazardous material, which denotes its classification for transport. This code is critical for safety and compliance during shipping.",
             "nullable": true,
             "example": "1002"
           },
           "ProperShippingName": {
             "maxLength": 100,
             "type": "string",
-            "description": "Proper Shipping Name of the hazardous item being shipped.",
+            "description": "The official name designated for the hazardous material as required by regulations. This name is used to inform handlers of the nature of the hazard during transport.",
             "nullable": true,
             "example": "Compressed Air"
           },
@@ -2260,19 +2256,19 @@
             "maxLength": 3,
             "minLength": 1,
             "type": "string",
-            "description": "Mandatory if Hazmat information is provided. Used to provide the class number of the hazardous item being shipped.",
+            "description": "The class number of the hazardous material as per UN regulations, indicating the potential risk associated with the product.",
             "example": "9"
           },
           "Id8000Category": {
             "type": "string",
-            "description": "An optional ID8000 category for hazardous goods classified under Class 9.\r<br />If provided, the value must be one of the specified values listed below. If an invalid value is provided, a validation error will be returned.\r<br />If ID8000 category is provided with any hazardous goods class other than class 9, it will be ignored.\r<br />Available values are:\r<br />- Medicines\r<br />- Perfume/Aftershave\r<br />- Nail Varnish\r<br />- Toiletry or Medicinal Aerosols\r<br />\r<br />If a customer sends a Create Shipment request with the ID8000Category field populated and the Class field is populated with any value other than class 9,\r<br />the ID8000Category will be ignored and the data will not be saved on the shipment record.\r<br />If a customer sends a Create Shipment request with the ID8000Category field populated and the Class field is populated with 9,\r<br />the system will save the ID8000 data to the product record.",
+            "description": "An optional designation used for certain hazardous materials classified under Class 9, providing additional regulatory requirements for handling and transport.\r<br />            \r<br />Available values are the following:\r<br />\r<br /><ul><li>Medicines</li><li>Perfume/Aftershave</li><li>Nail Varnish</li><li>Toiletry or Medical Aerosols</li></ul> \r<br />\r<br />When a customer submits a create shipment request, they must be aware of the following conditions:\r<br />\r<br /><ul><li> If the **ID8000Category** field is populated and the **Class** field is set to any value other than 9, then the **ID8000Category** will be disregarded, and the information will not be saved in the shipment record.</li><li> If the **ID8000Category** field is populated and the Class field is set to 9, then the system will create the product and save the **ID8000** data to the product record.</li></ul>",
             "nullable": true,
             "example": "Nail Varnish"
           },
           "Quantity": {
             "maximum": 5,
             "type": "number",
-            "description": "The quantity of the hazardous material in the specified UnitOfMeasure. This information is vital for compliance with shipping regulations pertaining to hazardous materials.\r<br />***Note:** This field is only required if **UnitOfMeasure** and **UNCode** is specified.*",
+            "description": "The quantity of the hazardous material in the specified **UnitOfMeasure**. This information is vital for compliance with shipping regulations pertaining to hazardous materials.",
             "format": "double",
             "nullable": true,
             "example": 3.5
@@ -2284,7 +2280,7 @@
             "maxLength": 4,
             "minLength": 4,
             "type": "string",
-            "description": "Emergency Action Code of the hazardous item.",
+            "description": "A code providing emergency response instructions for handling hazardous materials during transport. This code is critical for safety and risk management.",
             "nullable": true,
             "example": "E012"
           },
@@ -2292,13 +2288,13 @@
             "maxLength": 3,
             "minLength": 3,
             "type": "string",
-            "description": "The Hazchem Number of the item.",
+            "description": "A number that indicates the type of hazardous material and the precautions necessary for its transport. This helps in emergency situations through quick identification.",
             "nullable": true
           },
           "SpecialistAdviceContactNumber": {
             "maxLength": 20,
             "type": "string",
-            "description": "The specialist advice phone number to contact if there are any issues with the hazardous item.\r<br />If not provided, when a hazardous stored product is used in create shipment request, the phone number will be set from the customer shipping account record.",
+            "description": "A contact number for expert advice regarding the handling and transport of hazardous materials. This information is crucial during emergencies or if unusual situations arise.\r<br />***Note:** If this informarion is not provided and the hazardous material is used in your Create Shipment request, then the contact number will be sent from the customer shipping account record.*",
             "nullable": true
           },
           "PrintId8000Label": {
@@ -2401,7 +2397,7 @@
             "minimum": 0.000001,
             "pattern": "^\\d+(\\.\\d{1,6})?$",
             "type": "number",
-            "description": "This field specifies any additional unit of measurements that supplement the primary unit of measurements for the item being shipped.\r<br />For example: The HS code for PVC Black Flooring Roll 2.5mm is 391890. HMRC/Tariff determines that you provide a supplementary unit in square metres (MTK) with HS code 391890.\r<br />\r<br />*Note: For B2B shipments to Northern Ireland, this field is optional if the HMRC/Tariff determines that the Tariff/Harmonisation Code provided requires a supplementary unit.*\r<br />*You can enter values to a maximum of 6 decimal places.*",
+            "description": "This field specifies any additional unit of measurements that supplement the primary unit of measurements for the item being shipped.\r<br />For example: The HS code for PVC Black Flooring Roll 2.5mm is 391890. HMRC/Tariff determines that you provide a supplementary unit in square metres (MTK) with HS code 391890.\r<br />\r<br />***Note:** For B2B shipments to Northern Ireland, this field is optional if the HMRC/Tariff determines that the Tariff/Harmonisation Code provided requires a supplementary unit.*\r<br />*You can enter values to a maximum of 6 decimal places.*",
             "format": "double",
             "nullable": true,
             "example": 12.2
@@ -2462,7 +2458,7 @@
           }
         },
         "additionalProperties": false,
-        "description": "Return To Sender information such as address and contact details<br/>Not used for DX Freight"
+        "description": "Used to provide the address details to be used when returning the shipment back to the sender.\n\n***Note:** This parameter is not used by DX Freight.*"
       },
       "ReturnToSenderAddress": {
         "type": "object",
@@ -2470,15 +2466,9 @@
           "AddressId": {
             "maxLength": 70,
             "type": "string",
-            "description": "A unique identifier for the address. This information ensures that each address can be distinctly referenced and managed within the system.\r<br />\r<br />***Note:**  If this information is provided, then all the fields under the **Address** object are ignored and the stored address in the **Address Book** will be used.*",
+            "description": "A unique identifier for the address. This information ensures that each address can be distinctly referenced and managed within the system.\r<br />\r<br />***Note:** If this information is provided, then all the fields under the **Address** object are ignored and the stored address in the **Address Book** will be used.*",
             "nullable": true,
             "example": "John Brown Default"
-          },
-          "PudoId": {
-            "maxLength": 20,
-            "type": "string",
-            "description": "A unique identifier for a PUDO location. This ID is retrieved from the LocationId field of the Get PUDO Locations endpoint response and is essential for identifying the specific collection point for a Royal Mail shipment.\r<br />Note: Before providing the PudoId, keep in mind the following:\r<br />- The PudoId is only applicable for destination addresses when the shipment is being created as a collection shipment. Royal Mail does not utilise this ID for drop-off shipments.\r<br />- The destination contact name must be provided with either its contact email or phone number.\r<br />- The LocalCollect supplement code is not required - the system will automatically assign the relevant supplement codes based on the PudoId.",
-            "nullable": true
           },
           "ContactName": {
             "maxLength": 25,
@@ -2505,14 +2495,14 @@
           "ContactPhone": {
             "maxLength": 14,
             "type": "string",
-            "description": "The contact phone number associated with the return to sender address, facilitating communication regarding shipments or deliveries.\r<br />\r<br />***Note:** Characters like +, /, -, or space are supported.*<br><br/>***Note**: The destination contact phone is required for DX Freight.*",
+            "description": "The contact phone number associated with the return to sender address, facilitating communication regarding shipments or deliveries.\n\n***Note**: The destination contact phone is required for DX Freight. Characters like +, / , -, or space are supported.*",
             "nullable": true,
             "example": "07123887422"
           },
           "Line1": {
             "maxLength": 25,
             "type": "string",
-            "description": "The first line of the address, typically containing the primary address information such as house number and street name. <br/> <br/> ***Note:** Characters like +, /, -, or space are supported.*",
+            "description": "The first line of the address, typically containing the primary address information such as house number and street name. <br/><br/> ***Note:** This information is required if the address is not used from the stored addresses in the **Address Book***.",
             "nullable": true,
             "example": "Brown Cottage"
           },
@@ -2613,14 +2603,14 @@
           "EoriNumber": {
             "maxLength": 17,
             "type": "string",
-            "description": "The EORI (Economic Operators Registration and Identification) number for the shipper, which must start with the ISO Alpha-2 Country Code followed by up to 15 alphanumeric characters. For Northern Ireland, it starts with XI. \r<br />\r<br />***Note:** Make sure to provide this information here—not in the Customs object. This field is mandatory for B2B shipments from Great Britain to Northern Ireland.*",
+            "description": "The EORI (Economic Operators Registration and Identification) number for the shipper, which must start with the ISO Alpha-2 Country Code followed by up to 15 alphanumeric characters. For Northern Ireland, it starts with XI. \r<br />\r<br />***Note:** Make sure to provide this information here—not in the **Customs** object. This field is mandatory for B2B shipments from Great Britain to Northern Ireland.*",
             "nullable": true,
             "example": "GB 123 4567 89 000"
           },
           "VatNumber": {
             "maxLength": 15,
             "type": "string",
-            "description": "The VAT (Value Added Tax) number for the shipper, which is required for business transactions, helping to ensure compliance with tax regulations.\r<br />\r<br />***Note:** Make sure to provide this information here—not in the Customs object.*",
+            "description": "The VAT (Value Added Tax) number for the shipper, which is required for business transactions, helping to ensure compliance with tax regulations.\r<br />\r<br />***Note:** Make sure to provide this information here—not in the **Customs** object.*",
             "nullable": true,
             "example": "GB 123 4567 89"
           },
@@ -2637,15 +2627,9 @@
           "AddressId": {
             "maxLength": 70,
             "type": "string",
-            "description": "A unique identifier for the address. This information ensures that each address can be distinctly referenced and managed within the system.\r<br />\r<br />***Note:**  If this information is provided, then all the fields under the **Address** object are ignored and the stored address in the **Address Book** will be used.*",
+            "description": "A unique identifier for the address. This information ensures that each address can be distinctly referenced and managed within the system.\r<br />\r<br />***Note:** If this information is provided, then all the fields under the **Address** object are ignored and the stored address in the **Address Book** will be used.*",
             "nullable": true,
             "example": "John Brown Default"
-          },
-          "PudoId": {
-            "maxLength": 20,
-            "type": "string",
-            "description": "A unique identifier for a PUDO location. This ID is retrieved from the LocationId field of the Get PUDO Locations endpoint response and is essential for identifying the specific collection point for a Royal Mail shipment.\r<br />Note: Before providing the PudoId, keep in mind the following:\r<br />- The PudoId is only applicable for destination addresses when the shipment is being created as a collection shipment. Royal Mail does not utilise this ID for drop-off shipments.\r<br />- The destination contact name must be provided with either its contact email or phone number.\r<br />- The LocalCollect supplement code is not required - the system will automatically assign the relevant supplement codes based on the PudoId.",
-            "nullable": true
           },
           "ContactName": {
             "maxLength": 25,
@@ -2672,7 +2656,7 @@
           "ContactPhone": {
             "maxLength": 14,
             "type": "string",
-            "description": "The contact phone number associated with the shipping location, facilitating communication regarding shipments or deliveries.\r<br />\r<br />***Note:** Characters like +, /, -, or space are supported.*<br><br/>***Note**: The destination contact phone is required for DX Freight.*",
+            "description": "The contact phone number associated with the shipping location, facilitating communication regarding shipments or deliveries.\r<br />\r<br />***Note:** Characters like +, /, -, or space are supported.*",
             "nullable": true,
             "example": "07123887422"
           },
@@ -2700,21 +2684,21 @@
           "Town": {
             "maxLength": 50,
             "type": "string",
-            "description": "The town or city, indicating the specific locality where the shipping location is situated. <br /><br />***Note:** This information is required if the address is not used from the stored addresses in the **Address Book**.*",
+            "description": "The town or city, indicating the specific locality where the address is situated. <br /><br />***Note:** This information is required if the address is not used from the stored addresses in the **Address Book**.*",
             "nullable": true,
             "example": "Christchurch"
           },
           "Postcode": {
             "maxLength": 8,
             "type": "string",
-            "description": "The postal or ZIP code corresponding to the shipping location, used for mail sorting and to identify specific geographic areas. <br /><br />***Note:** This information is required for the addresses in the UK and a for some outside it. To check for the postcode requirements, refer to the **Countries** API.*",
+            "description": "The postal or ZIP code corresponding to the shipping location, used for mail sorting and to identify specific geographic areas. <br /><br />***Note:** This information is required for the addresses in the UK and for some outside it. To check for the postcode requirements, refer to the **Countries** API.*",
             "nullable": true,
             "example": "TW20 0HJ"
           },
           "County": {
             "maxLength": 50,
             "type": "string",
-            "description": "The county, state, or province in which the shipping location resides, providing additional geographical context for the address.<br /> <br />***Note:** This information may be required depending on the country. If the country is USA, Australia, or Canada, then it must be a valid state code or name, respectively. To check for the county/state/province requirements, refer to the **Countries** API.*",
+            "description": "The county, state, or province in which the shipping location resides, providing additional geographical context for the address.<br /><br />***Note:** This information may be required depending on the country. If the country is USA, Australia, or Canada, then it must be a valid state code or name, respectively. To check for the county/state/province requirements, refer to the **Countries** API.*",
             "nullable": true,
             "example": "Surrey"
           },
@@ -2722,7 +2706,7 @@
             "maxLength": 2,
             "minLength": 2,
             "type": "string",
-            "description": "An abbreviation representing the country of the shipping location, typically following the ISO 3166-1 alpha-2 standard, for example,  \"GB\" for the United Kingdom.\r<br />\r<br />***Note:** This information is required if the address is not used from the stored addresses in the **Address Book**.*",
+            "description": "An abbreviation representing the country of the shipping location, typically following the ISO 3166-1 alpha-2 standard, for example, \"GB\" for the United Kingdom.\r<br />\r<br />***Note:** This information is required if the address is not used from the stored addresses in the **Address Book**.*",
             "nullable": true,
             "example": "GB"
           },
@@ -2734,7 +2718,7 @@
           }
         },
         "additionalProperties": false,
-        "description": "The complete address of the shipper's location, consisting of multiple components including street information, locality, and so on."
+        "description": "The complete address of the shipper's location, consisting of multiple components including street information, locality, and so on.\r<br />\r<br />***Note:** If this information is not provided, then the shipping location's address will be used.*"
       },
       "ShippingAccountsSortBy": {
         "enum": [
@@ -2767,12 +2751,12 @@
             "maxLength": 100,
             "minLength": 1,
             "type": "string",
-            "description": "A unique user-defined identifier for the shipping location, providing a convenient way to identify it, for example,  Home or Warehouse.",
+            "description": "A unique user-defined identifier for the shipping location, providing a convenient way to identify it, for example, Home or Warehouse.",
             "example": "Main Warehouse"
           },
           "IsDefaultLocation": {
             "type": "boolean",
-            "description": "A boolean value indicating whether the shipping location is set as the default for shipping operations, streamlining the selection process during shipping.\r<br />\r<br />***Note:** If true, then this location is set as the default one. Otherwise, it is set to false.*\r<br />            \r<br />Enum [True, False]",
+            "description": "A boolean value indicating whether the shipping location is set as the default for shipping operations, streamlining the selection process during shipping.\r<br />\r<br />***Note:** If true, then this location is set as the default one. Otherwise, it is set to false.*",
             "example": false
           },
           "Timezone": {
@@ -2892,7 +2876,7 @@
             "maxLength": 100,
             "minLength": 1,
             "type": "string",
-            "description": "A unique user-defined identifier for the shipping location, providing a convenient way to identify it, for example,  Home or Warehouse.",
+            "description": "A unique user-defined identifier for the shipping location, providing a convenient way to identify it, for example, Home or Warehouse.",
             "example": "Main Warehouse"
           },
           "Timezone": {
@@ -2932,7 +2916,7 @@
             "maxLength": 100,
             "minLength": 1,
             "type": "string",
-            "description": "A unique identifier for the shipping location assigned by the system or by you (alias), allowing users to reference and manage specific locations effectively.\r<br />\r<br />***Note:** The information provided in this field and the ShippingAccountId field are being linked with each other.*",
+            "description": "A unique identifier for the shipping location assigned by the system or by you (alias), allowing users to reference and manage specific locations effectively.\r<br />\r<br />***Note:** The information provided in this field and the **ShippingAccountId** field are being linked with each other.*",
             "example": "D94E8CFD-604B-4B87-83E9-3F20CAF02837"
           }
         },
@@ -2978,7 +2962,7 @@
           "DAT"
         ],
         "type": "string",
-        "description": "Specifies the International Commercial Terms (Incoterms) applicable to the shipment, governing responsibilities and financial obligations. \r<br />\r<br />Valid values include the following: \r<br /><ul><li>**DDU** — Delivered Duty Unpaid.The receiver is responsible for paying customs duties and taxes.</li><li>**DDP** — Delivered Duty Paid.The seller is responsible for paying customs duties and taxes.</li><li>**DAP** — Delivered At Place.The receiver is responsible for paying customs duties and taxes.</li><li>**DAT** — Delivered At Terminal.The receiver is responsible for paying customs duties and taxes.</li></ul>\r<br />***Note:** By default, this field is set to DDU if not provided for dutiable shipments. Please be advised that this information is not required for non-dutiable shipments.*"
+        "description": "Specifies the International Commercial Terms (Incoterms) applicable to the shipment, governing responsibilities and financial obligations. \r<br />\r<br />Valid values include the following: \r<br /><ul><li>**DDU** — Delivered Duty Unpaid. The receiver is responsible for paying customs duties and taxes.</li><li>**DDP** — Delivered Duty Paid. The seller is responsible for paying customs duties and taxes.</li><li>**DAP** — Delivered At Place. The receiver is responsible for paying customs duties and taxes.</li><li>**DAT** — Delivered At Terminal. The receiver is responsible for paying customs duties and taxes.</li></ul>\r<br />***Note:** By default, this field is set to DDU if not provided for dutiable shipments. Please be advised that this information is not required for non-dutiable shipments.*"
       },
       "WeightUnitOfMeasure": {
         "enum": [
@@ -3014,7 +2998,7 @@
     },
     {
       "name": "Shipments",
-      "description": "DXFREIGHTSHIPMENTSDESCRIPTIONPLACEHOLDER"
+      "description": "This section provides information relating to creating DX Freight shipments, printing shipping labels, the customs documentation."
     }
   ],
   "x-readme": {
