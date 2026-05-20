@@ -14,7 +14,7 @@ metadata:
 
 ***
 
-The integration of DHL Germany into the SAPIENT platform is a significant step in enhancing shipping capabilities. This section discusses the in-scope features of this integration and the services this carrier offers.
+The integration of DHL Germany (DE) into the SAPIENT platform is a significant step in enhancing shipping capabilities. This section discusses the in-scope features of this integration and the services this carrier offers.
 
 <Tabs>
   <Tab title="Key Features">
