@@ -60,10 +60,12 @@ To add a tracking account for DHL Germany in SAPIENT, follow the steps as explai
     | :--------------------: | :--------------------------------------------------------------------------------------------------------------- |
     |      **Carrier**\*     | From the dropdown menu, select DHLDE - DHL Germany as your carrier option.                                       |
     | **Shipping Account**\* | From the dropdown menu, select the <Glossary>shipping account</Glossary> for which you want to receive tracking. |
-<br />
-    <Callout icon="info" theme="info">
-      *To track data for every shipping account, you must create a tracking account for each.*
-    </Callout>
+
+    <br />
+
+    > 📘 _Note_
+>
+> _To track data for every shipping account, you must create a tracking account for each._
 
     ***
   </ToggleListItem>
