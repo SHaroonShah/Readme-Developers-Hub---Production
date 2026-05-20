@@ -22,7 +22,7 @@ The integration of DHL Germany into the SAPIENT platform is a significant step i
 * **Ship To Destinations**: Users can send shipments domestically within Germany, to Great Britain (GB), Europe (EU), and <Glossary>ROW</Glossary> (Rest of the World).
 * **Service Type**: The integration is focused on outbound shipping only.
 * **Incoterms**: <Glossary>DAP</Glossary> and <Glossary>DDP</Glossary>.
-* **Label formats**: <Glossary>PDF</Glossary>, <Glossary>PNG</Glossary> (SAPIENT converts the PDF label image to PNG as standard), <Glossary>ZPL203DPI</Glossary>, and <Glossary>ZPL300DPI</Glossary>.
+* **Label formats**: <Glossary>PDF</Glossary>, <Glossary>PNG</Glossary>, <Glossary>ZPL203DPI</Glossary>, and <Glossary>ZPL300DPI</Glossary>.
 
 ## Service enhancements
 
