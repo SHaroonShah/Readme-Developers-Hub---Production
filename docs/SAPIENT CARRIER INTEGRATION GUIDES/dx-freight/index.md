@@ -25,7 +25,6 @@ Freight is one of DX's core solutions, also referred to as _IDW_ (Irregular Dime
 
 <Tabs>
   <Tab title="Key Features">
-
     <Cards columns={3}>
       <Card title="Shipping Origins" icon="fa-map-marker-alt">
         The integration supports shipping from locations in Great Britain (GB) only.
@@ -104,8 +103,10 @@ Freight is one of DX's core solutions, also referred to as _IDW_ (Irregular Dime
 
     <Accordion title="Delete Shipment" icon="plus-circle">
       The integration to delete an existing shipment cancelled in SAPIENT.
-
-      <br />
+    </Accordion>
+    <br />
+<Accordion title="Manifest Shipment" icon="plus-circle">
+      Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/v4.03/docs/manifest-webhook) to keep track of shipments and their statuses by to receiving real-time updates or notifications whenever specific events occur in the system (such as shipping updates, status changes, and so on).
     </Accordion>
   </Tab>
 
