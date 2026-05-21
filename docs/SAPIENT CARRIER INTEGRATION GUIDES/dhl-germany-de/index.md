@@ -136,6 +136,8 @@ The integration of DHL Germany (DE) into the SAPIENT platform is a significant s
 
 ***
 
+## Getting Started
+
 <Tabs>
   <Tab title="Account Setup">
     <Cards columns={3}>
