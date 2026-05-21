@@ -88,7 +88,7 @@ The integration of DHL Germany (DE) into the SAPIENT platform is a significant s
 
 ***
 
-## API services
+## API Services
 
 <Tabs>
   <Tab title="Core Services">
