@@ -34,13 +34,13 @@ SAPIENT also supports creating InPost outbound shipments that will be collected 
 
 <Columns layout="auto">
   <Column>
-  >  ### Lockers
+     ### Lockers
 
     Convenient parcel lockers available for pickup.
   </Column>
 
   <Column>
-  >  ### Parcel shops
+     ### Parcel shops
 
     Retail stores that offer parcel pickup and drop-off services.
   </Column>
