@@ -18,6 +18,51 @@ metadata:
 
 FedEx International Connect is a flexible, cost-effective, worldwide delivery solution with standard e-commerce shipments in mind. Designed to help retailers connect with customers around the globe.
 
+<Tabs>
+  <Tab title="Key Features">
+    <Cards columns={2}>
+      <Card title="Shipping Origins" icon="fa-map-marker-alt">
+        ThThe integration supports shipping from locations in Great Britain (GB) only.
+      </Card>
+
+      <Card title="Shipping Destinations" icon="fa-solid fa-globe">
+        Users can send shipments to Great Britain (GB), Europe (EU), and the Rest of the World (<Glossary>ROW</Glossary>).  
+> *Please note that this integration does not support shipping to China, Russia, and Australia.*
+      </Card>
+
+      <Card title="Service Type" icon="fa-solid fa-shipping-fast">
+        The integration is focused on outbound shipping.
+      </Card>
+
+      <Card title="Incoterms Support" icon="fa-solid fa-file-contract">
+        The integration supports <Glossary>DDU</Glossary> and <Glossary>DDP</Glossary> incoterms.
+      </Card>
+
+      <Card title="Label Formats" icon="fa-solid fa-tag">
+        The integration supports labels in the <Glossary>PDF</Glossary> format only.
+      </Card>
+    </Cards>
+
+    <br />
+  </Tab>
+
+  <Tab title="Additional Features">
+    * **Single-piece shipments**: The integration supports single-piece shipments. Consignment services are not supported by this integration
+
+    > 📘 *Note*
+    >
+    > *Please bear in mind that not all services offer consignment options.*
+  </Tab>
+
+  <Tab title="Service Enhancements">
+    > 📘 _Note_
+>
+> _There are no service enhancements for this integration._
+  </Tab>
+</Tabs>
+
+<br />
+
 ## Key features
 
 This integration provides the following key features:
