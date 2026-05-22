@@ -47,16 +47,17 @@ This integration offers several key features that streamline the shipping proces
       <Card title="Labelled B2C" icon="fa-solid fa-id-card">
         Generates and returns a label to be attached to the parcel for a B2C business transaction type deliveries.
       </Card>
-<Card title="Labelless Returns Using QR Codes" icon="fa-solid fa-id-card">
-  Generates a QR code for a return shipment which eliminates the need for printing shipping labels. This feature enhances the return process and makes it more environmentally friendly.
+
+      <Card title="Labelless Returns Using QR Codes" icon="fa-solid fa-id-card">
+        Generates a QR code for a return shipment which eliminates the need for printing shipping labels. This feature enhances the return process and makes it more environmentally friendly.
       </Card>
-</Cards>
+    </Cards>
   </Tab>
 
   <Tab title="Service Enhancements">
-    > 📘 _Note_
->
-> _There are no service enhancements for this integration._
+    > 📘 *Note*
+    >
+    > *There are no service enhancements for this integration.*
   </Tab>
 </Tabs>
 
@@ -74,17 +75,17 @@ This integration offers several key features that streamline the shipping proces
 
     <Accordion title="Manifest shipment" icon="plus-circle">
       Enable customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/docs/manifest-webhook) to keep track of shipments and their statuses by to receiving real-time updates or notifications whenever specific events occur in the system (such as shipping updates, status changes, and so on).
-> 📘 *Note*
+
+      > 📘 *Note*
       >
       > *If any created shipments have not been manifested, it is advised to cancel them to avoid unwanted labels.*
-
     </Accordion>
+
     <br />
-<Accordion title="Get PUDO locations" icon="plus-circle">
-  Enable customers to users to access essential shipping options for both sending and returning packages seamlessly via the [Get PUDO Locations endpoint](https://docs.intersoftsapient.net/reference/get_v4-pudolocations-carriercode-countrycode-postcode).
 
+    <Accordion title="Get PUDO locations" icon="plus-circle">
+      Enable customers to users to access essential shipping options for both sending and returning packages seamlessly via the [Get PUDO Locations endpoint](https://docs.intersoftsapient.net/reference/get_v4-pudolocations-carriercode-countrycode-postcode).
     </Accordion>
-
   </Tab>
 
   <Tab title="Other Services">
@@ -94,12 +95,6 @@ This integration offers several key features that streamline the shipping proces
       > 📘 *Note*
       >
       > *This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting.*
-    </Accordion>
-
-    <br />
-
-    <Accordion title="Tracking" icon="print">
-      This integration allows customers to monitor their shipments in real-time, providing transparency and peace of mind. Users can access detailed tracking information, including, real-time updates, tracking numbers, and delivery notifications. For EVRi shipments, the data files are sent via SFTP.
     </Accordion>
   </Tab>
 </Tabs>
@@ -116,7 +111,7 @@ This integration offers several key features that streamline the shipping proces
       </Card>
 
       <Card title="Use Inpost PUDO service" icon="fa-solid fa-search-location" href="https://docs.intersoftsapient.net/docs/pudo-integration">
-        Utilise the SAPIENT Pick Up and Drop Off (PUDO) service to use a convenient out of home option to collect or return InPost parcels at designated locations. 
+        Utilise the SAPIENT Pick Up and Drop Off (PUDO) service to use a convenient out of home option to collect or return InPost parcels at designated locations.
       </Card>
     </Cards>
   </Tab>
@@ -126,11 +121,13 @@ This integration offers several key features that streamline the shipping proces
       <Card title="SAPIENT InPost API" icon="fa-solid fa-code" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-inpost">
         Explore the InPost API endpoints for a seamless shipping experience.
       </Card>
+
       <Card title="Get PUDO Locations" icon="fa-solid fa-code" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-inpost">
         Explore the SAPIENT's core PUDO Locations endpoint to Rretrieves a list of Pick-Up and Drop-Off (PUDO) locations associated with InPost that are within a set radius of the postcode provided in the request.
       </Card>
     </Cards>
   </Tab>
+
   <Tab title="Sign-Off">
     <Cards>
       <Card title="Inpost Sign-off Process" href="https://docs.intersoftsapient.net/docs/inpost-sign-off" icon="fa-solid fa-file-signature">
