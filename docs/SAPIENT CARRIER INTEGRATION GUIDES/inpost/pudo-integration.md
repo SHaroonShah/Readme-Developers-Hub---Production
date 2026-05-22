@@ -71,3 +71,7 @@ If the `pudoId` field is included in the **Address** object of the InPost Create
 > * _The `pudoId` field is mandatory for B2C shipments._
 > * _The `pudoId` field must not be populated for returns services. The consumer can drop their return at any parcel locker or PUDO location._
 > * _If the `pudoId` is provided for a carrier that does not use PUDO, an error will be returned._
+
+***
+
+<br />
