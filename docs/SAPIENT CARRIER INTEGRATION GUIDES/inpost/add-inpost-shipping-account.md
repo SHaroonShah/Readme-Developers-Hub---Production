@@ -49,6 +49,7 @@ In SAPIENT, you can create an InPost shipping account by selecting your desired 
         On the **Add Shipping Account** form that appears, in the **ACCOUNT DETAILS** block, fill in the necessary information as described in the following table.
 
         <Image align="center" border={true} src="https://files.readme.io/8c5d5f5ff0cecf1feaa16ffc521a0feaf02bffc8c255c4ab9d967f4ad6bdf203-Account_details_block_Inpost.png" width="500px" alt="Entering account details" />
+
         <br />
 
         <AsteridkForMandatoryElements />
@@ -65,7 +66,7 @@ In SAPIENT, you can create an InPost shipping account by selecting your desired 
         In the **SHIPPING ACCOUNT** block, enter the necessary information as explained in the following table.
 
         <Image align="center" border={true} src="https://files.readme.io/aab73fec0c0be8505e9adce3450d783ae7d9f8ed4c7a9c0b9198b4682fb89679-Shipping_account_block_INPOST.png" width="500px" alt="Specifying shipping account details" />
-
+<br />
         <Callout icon="💡" theme="default">
           ### *Tip*
 
