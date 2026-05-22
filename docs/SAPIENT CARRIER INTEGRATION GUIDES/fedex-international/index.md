@@ -26,8 +26,9 @@ FedEx International Connect is a flexible, cost-effective, worldwide delivery so
       </Card>
 
       <Card title="Shipping Destinations" icon="fa-solid fa-globe">
-        Users can send shipments to Great Britain (GB), Europe (EU), and the Rest of the World (<Glossary>ROW</Glossary>).  
-> *Please note that this integration does not support shipping to China, Russia, and Australia.*
+        Users can send shipments to Great Britain (GB), Europe (EU), and the Rest of the World (<Glossary>ROW</Glossary>).
+
+        > *Please note that this integration does not support shipping to China, Russia, and Australia.*
       </Card>
 
       <Card title="Service Type" icon="fa-solid fa-shipping-fast">
@@ -47,18 +48,17 @@ FedEx International Connect is a flexible, cost-effective, worldwide delivery so
   </Tab>
 
   <Tab title="Additional Features">
-<Cards columns={1}>
-     <Card title="Single Package Shipments" icon="fa-solid fa-box">
-The integration supports single-package shipments. Consignment services are not supported by this integration
-
-    </Card>
-</Cards>
+    <Cards columns={1}>
+      <Card title="Single Package Shipments" icon="fa-solid fa-box">
+        The integration supports single-package shipments. Consignment services are not supported by this integration
+      </Card>
+    </Cards>
   </Tab>
 
   <Tab title="Service Enhancements">
-    > 📘 _Note_
->
-> _There are no service enhancements for this integration._
+    > 📘 *Note*
+    >
+    > *There are no service enhancements for this integration.*
   </Tab>
 </Tabs>
 
@@ -76,11 +76,10 @@ The integration supports single-package shipments. Consignment services are not 
 
     <Accordion title="Manifest shipment" icon="plus-circle">
       Enable customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/docs/manifest-webhook) to keep track of shipments and their statuses by to receiving real-time updates or notifications whenever specific events occur in the system (such as shipping updates, status changes, and so on).
-      <br />
-> 📘 _Note_
->
-> _If any created shipments have not been manifested, it is advised to cancel them to avoid unwanted labels._
 
+      > 📘 *Note*
+      >
+      > *If any created shipments have not been manifested, it is advised to cancel them to avoid unwanted labels.*
     </Accordion>
   </Tab>
 
