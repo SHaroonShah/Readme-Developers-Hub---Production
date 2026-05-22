@@ -230,4 +230,12 @@ In SAPIENT, you can create an InPost shipping account by selecting your desired 
 
 ### See also
 
-* [Edit shipping account](https://docs.intersoftsapient.net/docs/edit-shipping-account)
+<Cards columns={3}>
+  <Card title="Edit shipping account" icon="fa-pen-to-square" href="https://docs.intersoftsapient.net/docs/dx-freight-sign-off">
+    Update or modify an existing shipping account.
+  </Card>
+
+  <Card title="InPost Sign-Off" icon="fa-solid fa-file-signature" href="https://docs.intersoftsapient.net/docs/dx-freight-sign-off-copy">
+    Complete necessary steps before using DXF to create shipments in SAPIENT.
+  </Card>
+</Cards>
