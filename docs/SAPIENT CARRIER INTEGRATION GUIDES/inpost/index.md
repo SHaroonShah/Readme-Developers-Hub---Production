@@ -90,7 +90,7 @@ This integration offers several key features that streamline the shipping proces
 
   <Tab title="Other Services">
     <Accordion title="Print Label" icon="print">
-      Generate and return the label for an EVRi shipment in the PDF or PNG format. This endpoint must be utilised when the label is not generated in the EVRi Create Shipment request.
+      Generate and return the label for an InPost shipment in the PDF format. This endpoint must be utilised when the label is not generated in the InPost Create Shipment request.
 
       > 📘 *Note*
       >
