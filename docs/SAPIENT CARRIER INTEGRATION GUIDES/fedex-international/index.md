@@ -134,9 +134,6 @@ FedEx International Connect is a flexible, cost-effective, worldwide delivery so
   </Card>
 </Cards>
 
-***
+<br />
 
-In this section, learn now to:
-
-* <Anchor label="Add a FedEx International Connect shipping account" target="_blank" href="https://docs.intersoftsapient.net/docs/add-fedex-international-shipping-account">Add a FedEx International Connect shipping account</Anchor>
-* <Anchor label="Add a FedEx International Connect tracking account" target="_blank" href="https://docs.intersoftsapient.net/docs/add-fedex-international-tracking-account">Add a FedEx International Connect tracking account</Anchor>
+<br />
