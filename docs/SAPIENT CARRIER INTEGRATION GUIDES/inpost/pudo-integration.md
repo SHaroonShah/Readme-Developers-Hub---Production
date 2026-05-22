@@ -5,48 +5,73 @@ excerpt: >-
   out of home option to collect or return parcels at designated locations. These
   locations can include Automated Parcel Machines (APMs), that is Parcel Lockers
   and PUDOs (stores), offering greater convenience and flexibility for
-  customers. 
+  customers.
 deprecated: false
 hidden: false
 icon: fad fa-map-location
 metadata:
   robots: index
 ---
-For this service, InPost utilises the SAPIENT's [Get PUDO Locations](https://docs.intersoftsapient.net/reference/get_v4-pudolocations-carriercode-countrycode-postcode#/) endpoint that allows users to access essential shipping options for both sending and returning packages seamlessly by offering the following options:
+Use the InPost Pick Up and Drop Off (PUDO) service to retrieve collection and drop-off locations, then create outbound shipments for delivery to a PUDO point.
 
-* **Pick Up**: Allows customers to choose to collect their parcel from a <Glossary>PUDO</Glossary> point. It is particularly beneficial for those who may not always be available for direct delivery, helping to reduce missed delivery attempts and enhance overall customer satisfaction.
-* **Drop-off**: Allows customers to find a location where they can drop off a parcel they want to return.
+SAPIENT uses the [Get PUDO Locations](https://docs.intersoftsapient.net/reference/get_v4-pudolocations-carriercode-countrycode-postcode#/) endpoint to return available InPost PUDO locations. You can use this endpoint during checkout to show nearby collection points in real time.
 
-With this integration, InPost offers the following location types:
+SAPIENT also supports creating InPost outbound shipments that will be collected from a PUDO location.
 
-* **Lockers**: Convenient parcel lockers available for pickup.
-* **Parcel shops**: A network of retail stores, offering parcel pick up an drop off services.
+## Supported PUDO options
 
-The SAPIENT's [PUDO API](https://docs.intersoftsapient.net/reference/get_v4-pudolocations-carriercode-countrycode-postcode#/), allows users to retrieve nearby collection points on an ad-hoc basis during checkout ensuring real-time access to essential location information.
+<Cards columns={2}>
+  <Card title="Pick Up" icon="box-open">
+    Let customers collect their parcel from a <Glossary>PUDO</Glossary> point. This option helps reduce missed delivery attempts when customers are not available for direct delivery.
+  </Card>
 
-SAPIENT not only supports retrieving the PUDO location information, but also the creation of InPost outbound shipments that will be collected from a PUDO location.
+  <Card title="Drop-off" icon="location-dot">
+    Let customers find a location where they can drop off a parcel they want to return.
+  </Card>
+</Cards>
+
+## Location types
+
+<Columns layout="auto">
+  <Column>
+    ### Lockers
+
+    Convenient parcel lockers available for pickup.
+  </Column>
+
+  <Column>
+    ### Parcel shops
+
+    Retail stores that offer parcel pickup and drop-off services.
+  </Column>
+</Columns>
+
+## Prerequisite
 
 <Callout icon="🚧" theme="warn">
   ***Important***
 
-  *Before you can use the PUDO API, make sure you have[enabled the pudo integration](https://docs.intersoftsapient.net/docs/integration-activation) with InPost.*
+  *Before you use the PUDO API, make sure you have [enabled the PUDO integration](https://docs.intersoftsapient.net/docs/integration-activation) with InPost.*
 </Callout>
 
-You can [create an InPost shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-inpost#/) aimed at delivery to a PUDO point by using the following approach:
+## Create shipments to a PUDO point
 
-* By providing PUDO ID:
-  * The request must include `PudoId`.
-  * The destination's **ContactPhone** or **ContactEmail** information must be provided, so the end consumer can be notified when their item is ready to be collected from the PUDO location.
+To [create an InPost shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-inpost#/) for delivery to a PUDO point, provide the PUDO ID in the request.
 
-If the `pudoId` field is included in **Address** object of the InPost Create Shipment request, then SAPIENT recognises the specific InPost location by its unique ID, and the label will be generated with the address information of that PUDO location.
+The request must include:
+
+* `PudoId`
+* The destination **ContactPhone** or **ContactEmail**, so the end consumer can be notified when their item is ready to collect from the PUDO location
+
+If the `pudoId` field is included in the **Address** object of the InPost Create Shipment request, SAPIENT recognises the specific InPost location by its unique ID. The label is then generated with the address information of that PUDO location.
 
 <Callout icon="🚧" theme="warn">
   ***Important***
 
-  *Before providing the`pudoId`, make sure of the following:*
+  *Before providing the `pudoId`, make sure of the following:*
 
-  * *If the`pudoId` is provided for any address other than the destination address, an error will be returned.*
-  * *The`pudoId` field is mandatory for B2C shipments.*
-  * *The`pudoId` field must not be populated for the returns services. The consumer can drop their return at any parcel locker or PUDO location.*
-  * *If the`pudoId` is provided for a carrier that does not use PUDO, an error will be returned.*
+  * *If the `pudoId` is provided for any address other than the destination address, an error will be returned.*
+  * *The `pudoId` field is mandatory for B2C shipments.*
+  * *The `pudoId` field must not be populated for returns services. The consumer can drop their return at any parcel locker or PUDO location.*
+  * *If the `pudoId` is provided for a carrier that does not use PUDO, an error will be returned.*
 </Callout>
