@@ -11,17 +11,17 @@ icon: fad fa-calendar-circle-plus
 metadata:
   robots: index
 ---
-In SAPIENT, you can add tracking accounts for The Delivery Group to enhance visibility, improving customer interactions, and streamlining logistics operations for The Delivery Group.
+In SAPIENT, you can add tracking accounts for InPost to enhance visibility, improving customer interactions, and streamlining logistics operations for InPost.
 
 > 🚧 _Important_
 >
-> _Prior to adding The Delivery Group tracking account, make sure you have completed the following prerequisites:_
+> _Prior to adding InPost tracking account, make sure you have completed the following prerequisites:_
 >
-> 1. _Enabled the[label integration](https://docs.intersoftsapient.net/docs/integration-activation) with The Delivery Group._
-> 2. _Enabled the[tracking integration](https://docs.intersoftsapient.net/docs/integration-activation) with The Delivery Group._
+> 1. _Enabled the[label integration](https://docs.intersoftsapient.net/docs/integration-activation) with InPost._
+> 2. _Enabled the[tracking integration](https://docs.intersoftsapient.net/docs/integration-activation) with InPost._
 > 3. _Set up your<Glossary>tracking webhook</Glossary>. For more information on how to set up a tracking webhook, refer to the [Create tracking webhook](https://docs.intersoftsapient.net/docs/create-tracking-webhook) section. This is a one-time activity, you do not have to do this every time you add a tracking account._
 
-To add a tracking account for The Delivery Group in SAPIENT, follow the steps as explained in the following procedure.
+To add a tracking account for InPost in SAPIENT, follow the steps as explained in the following procedure.
 
 1. In the left navigation panel, select **API** > **Webhooks**. On the page that opens, select the **Tracking Accounts** tab.
 
@@ -39,18 +39,18 @@ To add a tracking account for The Delivery Group in SAPIENT, follow the steps as
 
 |        Element        | Description                                                                                                      |
 | :-------------------: | :--------------------------------------------------------------------------------------------------------------- |
-|      **Carrier***     | From the dropdown menu, select The Delivery Group as your carrier option.                                        |
+|      **Carrier***     | From the dropdown menu, select InPost as your carrier option.                                                    |
 | **Shipping Account*** | From the dropdown menu, select the <Glossary>shipping account</Glossary> for which you want to receive tracking. |
 
 4. After entering all the necessary information, select ![alt text](https://files.readme.io/41bf635f2c82bf95197e5a2f62939d396ead6033e48a985a30965d84a5be57b8-Add_tracking_account_button_2.png).
 
-Once done, the Delivery Group tracking account is added successfully and appears in the **Tracking Accounts** list. You can now receive the tracking information on your <Glossary>shipments</Glossary>.
+Once done, the InPost tracking account is added successfully and appears in the **Tracking Accounts** list. You can now receive the tracking information on your <Glossary>shipments</Glossary>.
 
 > 🚧 _Important_
 >
 > _Before you start receiving the tracking information, please bear in mind the following:_
 >
-> * _Sapient will start calling The Delivery Group’s tracking API 6 hours after the shipment is created in the database._
+> * _Sapient will start calling InPost’s tracking API 6 hours after the shipment is created in the database._
 > * _The frequency of tracking requests will be every 4 hours._
 > * _In the tracking request, SAPIENT will populate the**shipmentreference** field with the tracking number returned in the **carrierItemReference** field of the **SubmitItemAdvice** response._
 > * _SAPIET will stop checking for tracking data when the final tracking event is received._
