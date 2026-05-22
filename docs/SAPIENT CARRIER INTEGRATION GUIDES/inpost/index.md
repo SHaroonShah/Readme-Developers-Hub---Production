@@ -104,11 +104,46 @@ This integration offers several key features that streamline the shipping proces
   </Tab>
 </Tabs>
 
-* **API endpoints for shipment creation and QR code retrieval**: The integration includes specific API endpoints that developers can use to create shipments, get PUDO locations, and retrieve labels or QR codes. This enables seamless interaction between the InPost service and SAPIENT system, ensuring efficient data flow and functionality.
-  * Create shipment for B2C and returns services
-  * Get PUDO Locations
+***
 
-In this section, learn how to:
+## API Services
 
-* <Anchor label="Add an InPost shipping account" target="_blank" href="https://docs.intersoftsapient.net/docs/add-inpost-shipping-account#/">Add an InPost shipping account</Anchor>
-* [Use InPost PUDO service](https://docs.intersoftsapient.net/docs/pudo-integration#/)
+<Tabs>
+  <Tab title="Account Setup">
+    <Cards columns={3}>
+      <Card title="Add InPost Shipping Account" icon="fa-solid fa-truck" href="https://docs.intersoftsapient.net/docs/add-inpost-shipping-account">
+        Set up your InPost shipping account to start creating shipments.
+      </Card>
+
+      <Card title="Use Inpost PUDO service" icon="fa-solid fa-search-location" href="https://docs.intersoftsapient.net/docs/pudo-integration">
+        Utilise the SAPIENT Pick Up and Drop Off (PUDO) service to use a convenient out of home option to collect or return InPost parcels at designated locations. 
+      </Card>
+    </Cards>
+  </Tab>
+
+  <Tab title="API References">
+    <Cards columns={2}>
+      <Card title="SAPIENT InPost API" icon="fa-solid fa-code" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-inpost">
+        Explore the InPost API endpoints for a seamless shipping experience.
+      </Card>
+      <Card title="Get PUDO Locations" icon="fa-solid fa-code" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-inpost">
+        Explore the SAPIENT's core PUDO Locations endpoint to Rretrieves a list of Pick-Up and Drop-Off (PUDO) locations associated with InPost that are within a set radius of the postcode provided in the request.
+      </Card>
+    </Cards>
+  </Tab>
+  <Tab title="Sign-Off">
+    <Cards>
+      <Card title="Inpost Sign-off Process" href="https://docs.intersoftsapient.net/docs/inpost-sign-off" icon="fa-solid fa-file-signature">
+        Complete all the necessary steps before using InPost for creating shipments on SAPIENT.
+      </Card>
+    </Cards>
+  </Tab>
+</Tabs>
+
+<Banner isInline={true} message="Ready to integrate?" color="#ffb600" textColor="#ffffff" fontSize="20px" fontWeight="bold" width="120px" />
+
+<Cards columns={0}>
+  <Card title="Activate this integration" href="https://docs.intersoftsapient.net/docs/integration-activation#/" icon="fa-solid fa-circle-play fa-beat" target="_blank">
+    Seamlessly connect with InPost and manage your shipping operations from a single platform.
+  </Card>
+</Cards>
