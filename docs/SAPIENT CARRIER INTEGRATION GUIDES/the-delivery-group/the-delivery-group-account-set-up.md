@@ -23,7 +23,7 @@ As a TDG customer, you must follow the following prerequisites before onboarding
 
 > 🚧 _Important_
 >
-> _After you have received the API credentials from TDG, you can now set up a shipping account on SAPIENT. Before doing that, make sure you have[enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with The Delivery Group and have already [created a shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location)._
+> _After you have received the API credentials from TDG, you can now set up a shipping account on SAPIENT. Before doing that, make sure you have [enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with The Delivery Group and have already [created a shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location)._
 
 To add a shipping account for The Delivery Group in SAPIENT, follow the instructions as explained in the following procedure.
 
