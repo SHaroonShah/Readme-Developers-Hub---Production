@@ -44,7 +44,7 @@ This integration offers several key features that streamline the shipping proces
 
   <Tab title="Additional Features">
     <Cards column={1}>
-      <Card title="Labelled B2C" icon="fa-solid fa-file">
+      <Card title="Labelled B2C" icon="fa-solid fa-tag">
         Generates and returns a label to be attached to the parcel for a B2C business transaction type deliveries.
       </Card>
 
