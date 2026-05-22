@@ -59,7 +59,7 @@ To [create an InPost shipment](https://docs.intersoftsapient.net/reference/post_
 The request must include:
 
 * `PudoId`
-* The destination **ContactPhone** or **ContactEmail**, so the end consumer can be notified when their item is ready to collect from the PUDO location
+* The destination **ContactPhone** or **ContactEmail**, so the end consumer can be notified when their item is ready to collect from the PUDO location.
 
 If the `pudoId` field is included in the **Address** object of the InPost Create Shipment request, SAPIENT recognises the specific InPost location by its unique ID. The label is then generated with the address information of that PUDO location.
 
