@@ -123,7 +123,7 @@ This integration offers several key features that streamline the shipping proces
       </Card>
 
       <Card title="Get PUDO Locations" icon="fa-solid fa-code" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-inpost">
-        Explore the SAPIENT's core PUDO Locations endpoint to Rretrieves a list of Pick-Up and Drop-Off (PUDO) locations associated with InPost that are within a set radius of the postcode provided in the request.
+        Explore the SAPIENT's core PUDO Locations endpoint to reetrieve a list of Pick-Up and Drop-Off (PUDO) locations associated with InPost.
       </Card>
     </Cards>
   </Tab>
