@@ -54,55 +54,51 @@ This integration offers several key features that streamline the shipping proces
   </Tab>
 
   <Tab title="Service Enhancements">
-    <Cards columns={2}>
-      <Card title="Proof of Identity" icon="fa-solid fa-id-card">
-        Requires the receiver to present valid identification at the point of delivery.
-      </Card>
-
-      <Card title="Proof of Age" icon="fa-solid fa-calendar-circle-user">
-        Ensures the recipient meets a minimum age requirement, like for age-restricted goods.
-      </Card>
-
-      <Card title="Pin Required" icon="fa-solid fa-location-pin-lock">
-        A secure PIN is sent to the receiver, which must be provided upon delivery.
-      </Card>
-
-      <Card title="Pin Required & Proof of Age" icon="fa-solid fa-location-pin-lock">
-        Requires PIN and age verification at the point of delivery for added security.
-      </Card>
-    </Cards>
-
-    <br />
-
-    <Callout icon="💡" theme="default">
-      ### *Tip*
-
-      *For more information on the service enhancements and carrier services, refer to the following endpoints:*
-
-      * *[Create Shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-dpduk)*
-      * *[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services)*
-    </Callout>
+    > 📘 _Note_
+>
+> _There are no service enhancements for this integration._
   </Tab>
 </Tabs>
 
-<br />
+***
 
-## Key features
+## API services
 
-This integration provides the following key features:
+<Tabs>
+  <Tab title="Core Services">
+    <Accordion title="Create Shipment" icon="plus-circle">
+      The integration for creating shipments to reflect EVRi as a primary carrier and allowing users to create shipments using the **Create Shipment** endpoint.
+    </Accordion>
 
-* **Ship from destinations**: The integration supports shipping from locations in Great Britain (GB) mainland only (England, Wales, and Scotland).
-* **Ship to Destinations**: Users can send <Glossary>shipments</Glossary> to the Great Britain (GB) mainland only.
-* **Service Type**: The integration is focused on outbound and return shipping.
+    <br />
 
-## Additional features
+    <Accordion title="Manifest shipment" icon="plus-circle">
+      Enable customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/docs/manifest-webhook) to keep track of shipments and their statuses by to receiving real-time updates or notifications whenever specific events occur in the system (such as shipping updates, status changes, and so on).
+    </Accordion>
+    <br />
+<Accordion title="Get PUDO locations" icon="plus-circle">
+  Enable customers to users to access essential shipping options for both sending and returning packages seamlessly via the [Get PUDO Locations endpoint](https://docs.intersoftsapient.net/reference/get_v4-pudolocations-carriercode-countrycode-postcode).
 
-These services include the following:
+    </Accordion>
 
-* **Labelled B2C**: to generate and return a <Glossary>label</Glossary> to be attached to the parcel for a B2C <Glossary>business transaction type</Glossary> deliveries.
-* **Labelless returns using QR codes**: to generate a QR code for a return shipment which eliminates the need for printing shipping labels. This feature enhances the return process and makes it more environmentally friendly.
+  </Tab>
 
-## Carrier API services
+  <Tab title="Other Services">
+    <Accordion title="Print Label" icon="print">
+      Generate and return the label for an EVRi shipment in the PDF or PNG format. This endpoint must be utilised when the label is not generated in the EVRi Create Shipment request.
+
+      > 📘 *Note*
+      >
+      > *This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting.*
+    </Accordion>
+
+    <br />
+
+    <Accordion title="Tracking" icon="print">
+      This integration allows customers to monitor their shipments in real-time, providing transparency and peace of mind. Users can access detailed tracking information, including, real-time updates, tracking numbers, and delivery notifications. For EVRi shipments, the data files are sent via SFTP.
+    </Accordion>
+  </Tab>
+</Tabs>
 
 * **API endpoints for shipment creation and QR code retrieval**: The integration includes specific API endpoints that developers can use to create shipments, get PUDO locations, and retrieve labels or QR codes. This enables seamless interaction between the InPost service and SAPIENT system, ensuring efficient data flow and functionality.
   * Create shipment for B2C and returns services
