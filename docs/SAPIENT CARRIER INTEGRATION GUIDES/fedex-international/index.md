@@ -69,19 +69,24 @@ The integration supports single-package shipments. Consignment services are not 
 <Tabs>
   <Tab title="Core Services">
     <Accordion title="Create Shipment" icon="plus-circle">
-      The integration for creating shipments to reflect EVRi as a primary carrier and allowing users to create shipments using the **Create Shipment** endpoint.
+      The integration for creating shipments to reflect FedEx International Connect as a primary carrier and allowing users to create shipments using the Create Shipment API endpoint that returns the label in base64 encoded format.
     </Accordion>
 
     <br />
 
     <Accordion title="Manifest shipment" icon="plus-circle">
       Enable customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/docs/manifest-webhook) to keep track of shipments and their statuses by to receiving real-time updates or notifications whenever specific events occur in the system (such as shipping updates, status changes, and so on).
+      <br />
+> 📘 _Note_
+>
+> _If any created shipments have not been manifested, it is advised to cancel them to avoid unwanted labels._
+
     </Accordion>
   </Tab>
 
   <Tab title="Other Services">
     <Accordion title="Print Label" icon="print">
-      Generate and return the label for an EVRi shipment in the PDF or PNG format. This endpoint must be utilised when the label is not generated in the EVRi Create Shipment request.
+      Generate and return the label for a FedEx International Connect shipment in the PDF format. This endpoint must be utilised when the label is not generated in the FedEx International Connect Create Shipment request.
 
       > 📘 *Note*
       >
@@ -96,20 +101,39 @@ The integration supports single-package shipments. Consignment services are not 
   </Tab>
 </Tabs>
 
-The following API services are provided by the FedEx International Connect integration:
+***
 
-* **Create shipment**: The integration for creating shipments to reflect FedEx as a primary carrier and allowing users to create shipments using the Create Shipment API endpoint that returns the label in base64 encoded format.
-* **Tracking**: Provides the tracking data via the tracking webhook.
+## Getting Started
 
-## Integration types
+<Tabs>
+  <Tab title="Account Setup">
+    <Cards columns={3}>
+      <Card title="Add FedEx International Connect Shipping Account" icon="fa-solid fa-truck" href="https://docs.intersoftsapient.net/docs/add-fedex-international-shipping-account">
+        Set up your FedEx International Connect shipping account to start creating shipments.
+      </Card>
 
-* **Label integration**: The system generates the label by populating a stored label template with the relevant shipment data.
+      <Card title="Add FedEx International Connect Tracking Account" icon="fa-solid fa-search-location" href="https://docs.intersoftsapient.net/docs/add-fedex-international-tracking-account">
+        Configure tracking for your FedEx International Connect shipments.
+      </Card>
+    </Cards>
+  </Tab>
 
-> 📘 _Note_
->
-> _If any created shipments have not been manifested, it is advised to cancel them to avoid unwanted labels._
+  <Tab title="API References">
+    <Cards columns={2}>
+      <Card title="SAPIENT FedEx International Connect API" icon="fa-solid fa-code" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-fic">
+        Explore the FedEx International Connect API endpoints for a seamless shipping experience.
+      </Card>
+    </Cards>
+  </Tab>
+</Tabs>
 
-* **Tracking integration**: Enables data files to be sent via SFTP and received through the SAPIENT tracking webhook.
+<Banner isInline={true} message="Ready to integrate?" color="#ffb600" textColor="#ffffff" fontSize="20px" fontWeight="bold" width="120px" />
+
+<Cards columns={0}>
+  <Card title="Activate this integration" href="https://docs.intersoftsapient.net/docs/integration-activation#/" icon="fa-solid fa-circle-play fa-beat" target="_blank">
+    Seamlessly connect with  FedEx International Connect and manage your shipping operations from a single platform.
+  </Card>
+</Cards>
 
 ***
 
