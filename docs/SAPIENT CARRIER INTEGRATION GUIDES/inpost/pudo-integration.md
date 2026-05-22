@@ -25,7 +25,7 @@ SAPIENT also supports creating InPost outbound shipments that will be collected 
     Let customers collect their parcel from a <Glossary>PUDO</Glossary> point. This option helps reduce missed delivery attempts when customers are not available for direct delivery.
   </Card>
 
-  <Card title="Drop-off" icon="location-dot">
+  <Card title="Drop-off" icon="fa-solid fa-map-location-dot">
     Let customers find a location where they can drop off a parcel they want to return.
   </Card>
 </Cards>
