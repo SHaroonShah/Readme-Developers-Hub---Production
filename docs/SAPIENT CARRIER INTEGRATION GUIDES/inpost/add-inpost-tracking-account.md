@@ -33,24 +33,19 @@ To add a tracking account for InPost in SAPIENT, follow the steps as explained i
 
 3. On the **Add Tracking account** page that appears, in the **DETAILS** block, enter the necessary information as explained in the following table.
 
-<Image align="center" alt="Adding tracking account" border={true} caption="Adding tracking account" src="https://files.readme.io/735712a41dbd887aec9b1439e4c789d3df9be5e70fd91783386eaa7eb516a3ce-Adding_TDG_tracking_account.png" width="500px" />
+<Image align="center" width="500px" src="https://files.readme.io/5b6205178ac4271906dd189c12eb20b185fd0546605101c222850d01caae5675-image.png" />
+
+<br />
 
 <AsteridkForMandatoryElements />
 
 |        Element        | Description                                                                                                      |
 | :-------------------: | :--------------------------------------------------------------------------------------------------------------- |
-|      **Carrier***     | From the dropdown menu, select InPost as your carrier option.                                                    |
+|      **Carrier***     | From the dropdown menu, select **InPost** as your carrier option.                                                |
 | **Shipping Account*** | From the dropdown menu, select the <Glossary>shipping account</Glossary> for which you want to receive tracking. |
 
 4. After entering all the necessary information, select ![alt text](https://files.readme.io/41bf635f2c82bf95197e5a2f62939d396ead6033e48a985a30965d84a5be57b8-Add_tracking_account_button_2.png).
 
 Once done, the InPost tracking account is added successfully and appears in the **Tracking Accounts** list. You can now receive the tracking information on your <Glossary>shipments</Glossary>.
 
-> 🚧 _Important_
->
-> _Before you start receiving the tracking information, please bear in mind the following:_
->
-> * _Sapient will start calling InPost’s tracking API 6 hours after the shipment is created in the database._
-> * _The frequency of tracking requests will be every 4 hours._
-> * _In the tracking request, SAPIENT will populate the**shipmentreference** field with the tracking number returned in the **carrierItemReference** field of the **SubmitItemAdvice** response._
-> * _SAPIET will stop checking for tracking data when the final tracking event is received._
+<br />
