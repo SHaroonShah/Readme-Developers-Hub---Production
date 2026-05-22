@@ -109,7 +109,9 @@ This integration offers several key features that streamline the shipping proces
       <Card title="Add InPost Shipping Account" icon="fa-solid fa-truck" href="https://docs.intersoftsapient.net/docs/add-inpost-shipping-account">
         Set up your InPost shipping account to start creating shipments.
       </Card>
-
+<Card title="Add InPost Tracking Account" icon="fa-solid fa-search-location" href="https://docs.intersoftsapient.net/docs/add-inpost-tracking-account">
+        Configure tracking for your InPost shipments.
+      </Card>
       <Card title="Use Inpost PUDO service" icon="fa-solid fa-search-location" href="https://docs.intersoftsapient.net/docs/pudo-integration">
         Utilise the SAPIENT Pick Up and Drop Off (PUDO) service to use a convenient out of home option to collect or return InPost parcels at designated locations.
       </Card>
