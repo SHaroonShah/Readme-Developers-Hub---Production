@@ -19,7 +19,7 @@ In SAPIENT, you can create a DX Express shipping account by selecting your desir
 >
 > _Before you can set up a shipping account, make sure you have performed the following operations:_
 >
-> 1. _[Enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) for DX Express_
+> 1. _[Enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) for DX Express and have already [created a shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location)._
 > 2. _Created and obtained the [DX API credentials](https://docs.intersoftsapient.net/v4.03/docs/setting-up-dx-api-credentials)_
 
 ## How to add DX Express shipping account
