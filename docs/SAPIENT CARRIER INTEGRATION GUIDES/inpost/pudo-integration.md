@@ -36,13 +36,13 @@ SAPIENT also supports creating InPost outbound shipments that will be collected 
   <Column>
     ### Lockers
 
-   > Convenient parcel lockers available for pickup.
+    > Convenient parcel lockers available for pickup.
   </Column>
 
   <Column>
     ### Parcel shops
 
-   > Retail stores that offer parcel pickup and drop-off services.
+    > Retail stores that offer parcel pickup and drop-off services.
   </Column>
 </Columns>
 
@@ -52,7 +52,7 @@ SAPIENT also supports creating InPost outbound shipments that will be collected 
 >
 > _Before you use the PUDO API, make sure you have [enabled the PUDO integration](https://docs.intersoftsapient.net/docs/integration-activation) with InPost._
 
-## Create shipments to a PUDO point
+## Create shipments to a PUDO location
 
 To [create an InPost shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-inpost#/) for delivery to a PUDO point, provide the PUDO ID in the request.
 
