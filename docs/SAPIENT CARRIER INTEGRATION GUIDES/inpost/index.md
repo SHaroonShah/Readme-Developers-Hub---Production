@@ -105,7 +105,7 @@ This integration offers several key features that streamline the shipping proces
 
 <Tabs>
   <Tab title="Account Setup">
-    <Cards columns={3}>
+    <Cards columns={2}>
       <Card title="Add InPost Shipping Account" icon="fa-solid fa-truck" href="https://docs.intersoftsapient.net/docs/add-inpost-shipping-account">
         Set up your InPost shipping account to start creating shipments.
       </Card>
