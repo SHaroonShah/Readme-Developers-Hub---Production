@@ -12,7 +12,7 @@ In SAPIENT, you can create both <Glossary>On-Amazon</Glossary> and <Glossary>Off
 
 > 🚧 _Important_
 >
-> _Before you can set up a shipping account, make sure you have [enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) for Amazon._
+> _Before you can set up a shipping account, make sure you have [enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) for Amazon and have already [created a shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location)._
 >
 > _Once the Amazon integration is activated, please bear in mind the following:_
 >
@@ -193,7 +193,9 @@ To add a shipping account for Amazon in SAPIENT, follow the instructions as expl
         In the **Shipping Account Added** dialog that appears, based on your preferences, proceed as follows.
 
         <Image align="center" border={true} src="https://files.readme.io/7355f68879495a8c59f2ff1ef019fc1b924009ae7e9bbd4b57235553dfe18c5f-Shippig_account_confirmation_dialog_Amazon.png" />
-<br />
+
+        <br />
+
         <Table align={["left","left"]}>
           <thead>
             <tr>
