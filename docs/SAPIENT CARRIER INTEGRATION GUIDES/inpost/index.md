@@ -48,7 +48,7 @@ This integration offers several key features that streamline the shipping proces
         Generates and returns a label to be attached to the parcel for a B2C business transaction type deliveries.
       </Card>
 
-      <Card title="Labelless Returns Using QR Codes" icon="fa-solid fa-id-card">
+      <Card title="Labelless Returns Using QR Codes" icon="fa-solid fa-qrcode">
         Generates a QR code for a return shipment which eliminates the need for printing shipping labels. This feature enhances the return process and makes it more environmentally friendly.
       </Card>
     </Cards>
