@@ -32,7 +32,7 @@ SAPIENT also supports creating InPost outbound shipments that will be collected 
 
 ## Location types
 
-<Columns layout="auto" icon="fa-solid fa-location-pin-lock">
+<Columns layout="auto">
   <Column>
     ### Lockers
 
