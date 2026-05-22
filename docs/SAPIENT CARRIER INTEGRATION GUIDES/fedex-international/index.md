@@ -47,11 +47,12 @@ FedEx International Connect is a flexible, cost-effective, worldwide delivery so
   </Tab>
 
   <Tab title="Additional Features">
-    * **Single-piece shipments**: The integration supports single-piece shipments. Consignment services are not supported by this integration
+<Cards columns={1}>
+     <Card title="Single Package Shipments" icon="fa-solid fa-box">
+The integration supports single-package shipments. Consignment services are not supported by this integration
 
-    > 📘 *Note*
-    >
-    > *Please bear in mind that not all services offer consignment options.*
+    </Card>
+</Cards>
   </Tab>
 
   <Tab title="Service Enhancements">
@@ -61,38 +62,39 @@ FedEx International Connect is a flexible, cost-effective, worldwide delivery so
   </Tab>
 </Tabs>
 
-<br />
+***
 
-## Key features
+## API services
 
-This integration provides the following key features:
+<Tabs>
+  <Tab title="Core Services">
+    <Accordion title="Create Shipment" icon="plus-circle">
+      The integration for creating shipments to reflect EVRi as a primary carrier and allowing users to create shipments using the **Create Shipment** endpoint.
+    </Accordion>
 
-* **Ship from destinations**: The integration supports shipping from locations in Great Britain (GB) only.
-* **Ship To Destinations**: Users can send <Glossary>shipments</Glossary> to Great Britain (GB), Europe, and the <Glossary>ROW</Glossary> (Rest of the World).
+    <br />
 
-> 📘 _Note_
->
-> _The FedEx International Connect does not support shipping to the following ROW countries:_
->
-> * _China_
-> * _Russia_
-> * _Australia_
+    <Accordion title="Manifest shipment" icon="plus-circle">
+      Enable customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/docs/manifest-webhook) to keep track of shipments and their statuses by to receiving real-time updates or notifications whenever specific events occur in the system (such as shipping updates, status changes, and so on).
+    </Accordion>
+  </Tab>
 
-* **Incoterms**: The integration supports <Glossary>DDU</Glossary> (Delivered Duty Unpaid) and <Glossary>DDP</Glossary> (Delivered Duty Paid).
-* **Service Type**: The integration is focused on outbound shipping.
-* **label formats**: <Glossary>PDF</Glossary>
+  <Tab title="Other Services">
+    <Accordion title="Print Label" icon="print">
+      Generate and return the label for an EVRi shipment in the PDF or PNG format. This endpoint must be utilised when the label is not generated in the EVRi Create Shipment request.
 
-## Service enhancements
+      > 📘 *Note*
+      >
+      > *This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting.*
+    </Accordion>
 
-> 📘 _Note_
->
-> _There are no service enhancements for this integration._
+    <br />
 
-## Additional features
-
-The FedEx International Connect integration provides support for single-piece shipments. Consignment services are not supported by this integration.
-
-## Carrier API services
+    <Accordion title="Tracking" icon="print">
+      This integration allows customers to monitor their shipments in real-time, providing transparency and peace of mind. Users can access detailed tracking information, including, real-time updates, tracking numbers, and delivery notifications. For EVRi shipments, the data files are sent via SFTP.
+    </Accordion>
+  </Tab>
+</Tabs>
 
 The following API services are provided by the FedEx International Connect integration:
 
