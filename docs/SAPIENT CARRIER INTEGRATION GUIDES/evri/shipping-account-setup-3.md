@@ -26,7 +26,7 @@ Unlike other carriers, EVRi customers can have a main (parent) shipping account 
 
 > 🚧 _Important_
 >
-> _Before you can set up a shipping account, make sure you have[enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with EVRi._
+> _Before you can set up a shipping account, make sure you have[enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with EVRi and have already [created a shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location)._
 
 ## How to add EVRi shipping account
 
