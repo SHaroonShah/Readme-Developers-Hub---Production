@@ -21,7 +21,7 @@ SAPIENT also supports creating InPost outbound shipments that will be collected 
 ## Supported PUDO options
 
 <Cards columns={2}>
-  <Card title="Pick Up" icon="box-open">
+  <Card title="Pick Up" icon="fa-solid fa-truck-ramp-box">
     Let customers collect their parcel from a <Glossary>PUDO</Glossary> point. This option helps reduce missed delivery attempts when customers are not available for direct delivery.
   </Card>
 
