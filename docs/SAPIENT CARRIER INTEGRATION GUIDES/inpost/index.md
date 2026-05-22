@@ -74,6 +74,10 @@ This integration offers several key features that streamline the shipping proces
 
     <Accordion title="Manifest shipment" icon="plus-circle">
       Enable customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/docs/manifest-webhook) to keep track of shipments and their statuses by to receiving real-time updates or notifications whenever specific events occur in the system (such as shipping updates, status changes, and so on).
+> 📘 *Note*
+      >
+      > *If any created shipments have not been manifested, it is advised to cancel them to avoid unwanted labels.*
+
     </Accordion>
     <br />
 <Accordion title="Get PUDO locations" icon="plus-circle">
