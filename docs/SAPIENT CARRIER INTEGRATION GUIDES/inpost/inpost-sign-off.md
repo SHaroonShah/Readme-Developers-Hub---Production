@@ -12,12 +12,12 @@ metadata:
 Once you have [created](https://docs.intersoftsapient.net/docs/add-inpost-shipping-account#/) the InPost <Glossary>shipping account</Glossary>, make sure you have the correct information before you start using it to ship with InPost.
 
 <Callout icon="💡" theme="default">
-  ### *Tip*
+  ### _Tip_
 
-  *The InPost integration is pre-approved, but you must have the required information beforehand to ship with InPost.*
+  _The InPost integration is pre-approved, but you must have the required information beforehand to ship with InPost._
 </Callout>
 
-In order to ship with DX Express, consider the following:
+In order to ship with InPost, consider the following:
 
 1. The **ClientId** and **Bearer Token**  have been provided to you by InPost.
 2. Set up the shipping account with the <Glossary>account type</Glossary> set to **Production**.
