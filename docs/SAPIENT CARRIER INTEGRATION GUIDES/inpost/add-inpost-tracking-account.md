@@ -11,6 +11,3 @@ icon: fad fa-calendar-circle-plus
 metadata:
   robots: index
 ---
-> 🚧 *Important*
->
-> *This feature is currently under development. The contents are to be updated as soon as possible.*
