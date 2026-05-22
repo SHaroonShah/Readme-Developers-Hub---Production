@@ -48,11 +48,9 @@ SAPIENT also supports creating InPost outbound shipments that will be collected 
 
 ## Prerequisite
 
-<Callout icon="🚧" theme="warn">
-  ***Important***
-
-  *Before you use the PUDO API, make sure you have [enabled the PUDO integration](https://docs.intersoftsapient.net/docs/integration-activation) with InPost.*
-</Callout>
+> 🚧 _Important_
+>
+> _Before you use the PUDO API, make sure you have [enabled the PUDO integration](https://docs.intersoftsapient.net/docs/integration-activation) with InPost._
 
 ## Create shipments to a PUDO point
 
@@ -65,13 +63,11 @@ The request must include:
 
 If the `pudoId` field is included in the **Address** object of the InPost Create Shipment request, SAPIENT recognises the specific InPost location by its unique ID. The label is then generated with the address information of that PUDO location.
 
-<Callout icon="🚧" theme="warn">
-  ***Important***
-
-  *Before providing the `pudoId`, make sure of the following:*
-
-  * *If the `pudoId` is provided for any address other than the destination address, an error will be returned.*
-  * *The `pudoId` field is mandatory for B2C shipments.*
-  * *The `pudoId` field must not be populated for returns services. The consumer can drop their return at any parcel locker or PUDO location.*
-  * *If the `pudoId` is provided for a carrier that does not use PUDO, an error will be returned.*
-</Callout>
+> 🚧 _Important_
+>
+> _Before providing the `pudoId`, make sure of the following:_
+>
+> * _If the `pudoId` is provided for any address other than the destination address, an error will be returned._
+> * _The `pudoId` field is mandatory for B2C shipments._
+> * _The `pudoId` field must not be populated for returns services. The consumer can drop their return at any parcel locker or PUDO location._
+> * _If the `pudoId` is provided for a carrier that does not use PUDO, an error will be returned._
