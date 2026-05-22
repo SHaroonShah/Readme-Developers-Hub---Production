@@ -13,7 +13,7 @@ In SAPIENT, you can create an An Post shipping account by selecting your desired
 <Callout icon="🚧" theme="warning">
   ### _Important_
 
-  _Before you can set up a shipping account, make sure you have [enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with An Post._
+  _Before you can set up a shipping account, make sure you have [enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with An Post and have already [created a shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location)._
 </Callout>
 
 ## How to add An Post shipping account
