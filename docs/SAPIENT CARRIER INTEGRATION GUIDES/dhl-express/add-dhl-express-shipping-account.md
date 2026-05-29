@@ -147,7 +147,7 @@ To add a shipping account for DHL Express in SAPIENT, perform the steps as expla
   <tbody>
     <tr>
       <td>
-        **API Key***
+        <strong>API Key</strong>
       </td>
 
       <td>
@@ -157,7 +157,7 @@ To add a shipping account for DHL Express in SAPIENT, perform the steps as expla
 
     <tr>
       <td>
-        **API Secret***
+        <strong>API Secret</strong>
       </td>
 
       <td>
@@ -167,7 +167,7 @@ To add a shipping account for DHL Express in SAPIENT, perform the steps as expla
 
     <tr>
       <td>
-        **Archive Labels**
+        <strong>Archive Labels</strong>
       </td>
 
       <td>
@@ -192,7 +192,7 @@ To add a shipping account for DHL Express in SAPIENT, perform the steps as expla
 
     <tr>
       <td>
-        **Allow DHL to generate commercial invoices on your behalf**
+        <strong>Allow DHL to generate commercial invoices on your behalf</strong>
       </td>
 
       <td>
@@ -202,7 +202,7 @@ To add a shipping account for DHL Express in SAPIENT, perform the steps as expla
 
     <tr>
       <td>
-        **Use SAPIENT-generated invoices**
+        <strong>Use SAPIENT-generated invoices</strong>
       </td>
 
       <td>
