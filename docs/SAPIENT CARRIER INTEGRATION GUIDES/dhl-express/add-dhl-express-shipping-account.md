@@ -44,7 +44,7 @@ To add a shipping account for DHL Express in SAPIENT, perform the steps as expla
 
 <AsteridkForMandatoryElements />
 
-```
+<HTMLBlock>{`
 <Table align={["center","left"]}>
   <thead>
     <tr>
@@ -89,12 +89,12 @@ To add a shipping account for DHL Express in SAPIENT, perform the steps as expla
 
         Enabling this toggle saves DHL waybill documents from the create shipment response in the database and includes them in the manifest PDF when shipments are manifested.Note: The manifests can be downloaded from the SAPIENT’s View manifest history page.
 
-        _`Note`_: _The manifests can be downloaded from the SAPIENT’s [View manifest history](https://docs.intersoftsapient.net/docs/manifest-history) page._
+        _\`Note\`_: _The manifests can be downloaded from the SAPIENT’s [View manifest history](https://docs.intersoftsapient.net/docs/manifest-history) page._
       </td>
     </tr>
 
     <tr>
-      <td colspan="2"style={{ textAlign: "center" }}>
+      <td colspn="2"style={{ textAlign: "center" }}>
         **Enable Paperless Trade (PLT)**
 
         Turn on the toggle if you want to submit the customs documents electronically. If this toggle is enabled, then you must specify one the following options:
@@ -126,7 +126,7 @@ To add a shipping account for DHL Express in SAPIENT, perform the steps as expla
     </tr>
   </tbody>
 </Table>
-```
+`}</HTMLBlock>
 
 <br />
 
