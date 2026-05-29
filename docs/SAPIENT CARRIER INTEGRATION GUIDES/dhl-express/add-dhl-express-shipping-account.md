@@ -180,7 +180,9 @@ To add a shipping account for DHL Express in SAPIENT, perform the steps as expla
 
     <tr>
       <td colspan="2">
-        **Alias***
+        Enable Paperless Trade (PLT)
+
+Turn on the toggle if you want to submit the customs documents electronically. If this toggle is enabled, then you must specify one the following options:
       </td>
 
       <td>
@@ -190,21 +192,21 @@ To add a shipping account for DHL Express in SAPIENT, perform the steps as expla
 
     <tr>
       <td>
-        **Contact Name***
+        **Allow DHL to generate commercial invoices on your behalf**
       </td>
 
       <td>
-        Enter the contact name for the account you are adding.
+        Select this option for DHL to create and send the invoice electronically to the customs agency..
       </td>
     </tr>
 
     <tr>
       <td>
-        **Contact Number***
+        **Use SAPIENT-generated invoices**
       </td>
 
       <td>
-        Enter the contact number for the account you are adding.
+        Select this option to have SAPIENT generate the invoices from shipment data and send them to DHL.
       </td>
     </tr>
   </tbody>
