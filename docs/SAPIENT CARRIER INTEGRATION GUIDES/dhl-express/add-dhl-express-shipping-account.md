@@ -174,7 +174,7 @@ To add a shipping account for DHL Express in SAPIENT, perform the steps as expla
 
         Enabling this toggle saves DHL waybill documents from the create shipment response in the database and includes them in the manifest PDF when shipments are manifested.Note: The manifests can be downloaded from the SAPIENT’s View manifest history page.
 
-        `_Note_`: _The manifests can be downloaded from the SAPIENT’s [View manifest history](https://docs.intersoftsapient.net/docs/manifest-history) page._
+        *`Note`*: _The manifests can be downloaded from the SAPIENT’s [View manifest history](https://docs.intersoftsapient.net/docs/manifest-history) page._
       </td>
     </tr>
 
