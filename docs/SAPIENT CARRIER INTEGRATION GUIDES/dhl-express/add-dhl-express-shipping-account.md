@@ -166,7 +166,7 @@ To add a shipping account for DHL Express in SAPIENT, perform the steps as expla
 
     <tr>
       <td>
-        **Archive Labels***
+        **Archive Labels**
       </td>
 
       <td>
