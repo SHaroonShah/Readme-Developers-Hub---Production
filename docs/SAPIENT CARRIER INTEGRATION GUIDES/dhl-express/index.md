@@ -57,7 +57,7 @@ metadata:
     </tr>
 
     <tr>
-      <td colspan="2" style={{ textAlign: "center" }}>
+      <td colspan="2" style={{ textAlign: "left" }}>
         **Alias***
       </td>
     </tr>
