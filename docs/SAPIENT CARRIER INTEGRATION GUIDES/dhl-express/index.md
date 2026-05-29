@@ -60,10 +60,6 @@ metadata:
       <td colspan="2" style={{ textAlign: "center" }}>
         **Alias***
       </td>
-
-      <td style={{ textAlign: "left" }}>
-        Enter a custom name which can be used in the API request instead of using the shipping account ID when connecting to us. Therefore, it is recommended that this name must be memorable and available for reference purposes.
-      </td>
     </tr>
 
     <tr>
