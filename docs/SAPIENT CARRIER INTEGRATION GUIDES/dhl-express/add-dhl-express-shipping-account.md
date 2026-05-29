@@ -45,14 +45,14 @@ To add a shipping account for DHL Express in SAPIENT, perform the steps as expla
 <AsteridkForMandatoryElements />
 
 <HTMLBlock>{`
-<Table align={["center","left"]}>
+<Table>
   <thead>
     <tr>
-      <th style={{ textAlign: "center" }}>
+      <th>
         Element
       </th>
 
-      <th style={{ textAlign: "left" }}>
+      <th>
         Description
       </th>
     </tr>
@@ -60,67 +60,67 @@ To add a shipping account for DHL Express in SAPIENT, perform the steps as expla
 
   <tbody>
     <tr>
-      <td style={{ textAlign: "center" }}>
-        **API Key***
+      <td>
+        <strong>API Key*</strong>
       </td>
 
-      <td style={{ textAlign: "left" }}>
+      <td>
         Enter the API key for the user account associated with DHL Express.
       </td>
     </tr>
 
     <tr>
-      <td style={{ textAlign: "center" }}>
-        **API Secret***
+      <td>
+        <strong>API Secret*</strong>
       </td>
 
-      <td style={{ textAlign: "left" }}>
+      <td>
         Enter the API secret used to authenticate the user account with DHL Express.
       </td>
     </tr>
 
     <tr>
-      <td style={{ textAlign: "center" }}>
-        **Archive Labels**
+      <td>
+        <strong>Archive Labels</strong>
       </td>
 
-      <td style={{ textAlign: "left" }}>
+      <td>
         Turn on the toggle if you wish to include the DHL archived labels in the manifest.
-
+<br />
         Enabling this toggle saves DHL waybill documents from the create shipment response in the database and includes them in the manifest PDF when shipments are manifested.Note: The manifests can be downloaded from the SAPIENT’s View manifest history page.
-
+<br />
         _\`Note\`_: _The manifests can be downloaded from the SAPIENT’s [View manifest history](https://docs.intersoftsapient.net/docs/manifest-history) page._
       </td>
     </tr>
 
     <tr>
-      <td colspan="2"style={{ textAlign: "center" }}>
+      <td colspan="2">
         **Enable Paperless Trade (PLT)**
-
+<br />
         Turn on the toggle if you want to submit the customs documents electronically. If this toggle is enabled, then you must specify one the following options:
       </td>
 
-      <td style={{ textAlign: "left" }}>
+      <td>
 
       </td>
     </tr>
 
     <tr>
-      <td style={{ textAlign: "center" }}>
-        **Allow DHL to generate commercial invoices on your behalf**
+      <td>
+        <strong>Allow DHL to generate commercial invoices on your behalf</strong>
       </td>
 
-      <td style={{ textAlign: "left" }}>
+      <td>
         Select this option for DHL to create and send the invoice electronically to the customs agency..
       </td>
     </tr>
 
     <tr>
-      <td style={{ textAlign: "center" }}>
-        **Use SAPIENT-generated invoices**
+      <td>
+        <strong>Use SAPIENT-generated invoices</strong>
       </td>
 
-      <td style={{ textAlign: "left" }}>
+      <td>
         Select this option to have SAPIENT generate the invoices from shipment data and send them to DHL.
       </td>
     </tr>
