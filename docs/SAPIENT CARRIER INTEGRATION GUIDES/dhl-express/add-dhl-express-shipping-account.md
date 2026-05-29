@@ -64,7 +64,7 @@ To add a shipping account for DHL Express in SAPIENT, perform the steps as expla
       </td>
 
       <td>
-        Enter the unique 10-digit EKP (Einheitliche Kunden- und Produktnumme) number assigned by the DHL sales team.
+        Enter the carrier account number assigned to you by DHL Express.
       </td>
     </tr>
 
@@ -174,15 +174,15 @@ To add a shipping account for DHL Express in SAPIENT, perform the steps as expla
 
         Enabling this toggle saves DHL waybill documents from the create shipment response in the database and includes them in the manifest PDF when shipments are manifested.Note: The manifests can be downloaded from the SAPIENT’s View manifest history page.
 
-        *`Note`*: _The manifests can be downloaded from the SAPIENT’s [View manifest history](https://docs.intersoftsapient.net/docs/manifest-history) page._
+        _`Note`_: _The manifests can be downloaded from the SAPIENT’s [View manifest history](https://docs.intersoftsapient.net/docs/manifest-history) page._
       </td>
     </tr>
 
     <tr>
-      <td colspan="2">
+      <td>
         **Enable Paperless Trade (PLT)**
 
-Turn on the toggle if you want to submit the customs documents electronically. If this toggle is enabled, then you must specify one the following options:
+        Turn on the toggle if you want to submit the customs documents electronically. If this toggle is enabled, then you must specify one the following options:
       </td>
 
       <td>
@@ -225,83 +225,3 @@ Turn on the toggle if you want to submit the customs documents electronically. I
 ### See also
 
 * [Edit shipping account](https://docs.intersoftsapient.net/docs/edit-shipping-account)
-
-<Table align={["center","left"]}>
-  <thead>
-    <tr>
-      <th>
-        Element
-      </th>
-
-      <th>
-        Description
-      </th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <tr>
-      <td>
-        **API Key***
-      </td>
-
-      <td>
-        Enter the unique 10-digit EKP (Einheitliche Kunden- und Produktnumme) number assigned by the DHL sales team.
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        **API Secret***
-      </td>
-
-      <td>
-        Enter the name of the account you are adding.
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        **Archive Labels***
-      </td>
-
-      <td>
-        From the dropdown menu, select one of the following account types that you want to set up for the the shipping account you are adding:
-
-        • **[Production](https://docs.intersoftsapient.net/docs/sandbox-account)**: a live environment where the final version of the application is deployed and made available to the users.
-
-        • **[Sandbox](https://docs.intersoftsapient.net/docs/sandbox-account)**: a testing environment that mimics the **Production** environment but is isolated from it. The sandbox environment is primarily used for development and testing purposes.
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        **Alias***
-      </td>
-
-      <td>
-
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        **Contact Name***
-      </td>
-
-      <td>
-        Enter the contact name for the account you are adding.
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        **Contact Number***
-      </td>
-
-      <td>
-        Enter the contact number for the account you are adding.
-      </td>
-    </tr>
-  </tbody>
-</Table>
