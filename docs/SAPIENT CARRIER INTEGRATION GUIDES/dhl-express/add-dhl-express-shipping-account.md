@@ -95,8 +95,10 @@ To add a shipping account for DHL Express in SAPIENT, perform the steps as expla
 
     <tr>
       <td colspan="2">
-        **Enable Paperless Trade (PLT)**
+        <strong>Enable Paperless Trade (PLT)</strong>
+        <br />
 <br />
+
         Turn on the toggle if you want to submit the customs documents electronically. If this toggle is enabled, then you must specify one the following options:
       </td>
 
