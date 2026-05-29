@@ -24,7 +24,7 @@ This integration provides the following key features:
 
 ## Service enhancements
 
-DHL Express supports a range of shipment enhancements, each of which must be used in conjunction with the appropriate DHL Express enhancement code. 
+DHL Express supports a range of shipment enhancements, each of which must be used in conjunction with the appropriate DHL Express enhancement code.
 
 The following is a list of the key enhancements available through the DHL Express integration, along with their codes:
 
@@ -34,7 +34,7 @@ The following is a list of the key enhancements available through the DHL Expres
 * **Neutral Label (PP)**: Uses a generic shipment <Glossary>label</Glossary> that does not specify the shipment contents description. With this enhancement, shippers can keep the declared value of a shipment confidential from the final recipient. This service ensures that any document that could disclose the value of the contents is removed from the shipment before it is delivered.
 * **Verified Delivery (TF)**: Enables verified delivery using a QR code. DHL sends the QR code to the receiver, who must present it to the courier at the time of delivery.
 * **Email Notifications**: Sends email notifications to the recipient regarding shipment status updates. This enhancement does not have a special service code, as it is automatically triggered by the system when the Destination > ContactEmail filed is populated in the Create Shipment request.
-* **Dangerous Goods**: 
+* **Dangerous Goods**:
   * **ID8000 (HK)**: Generates the ID8000 label for shipments containing dangerous goods, ensuring compliance with safety regulations.
   * **Excepted Quantities (HH)**: Specifies shipments that include small quantities of dangerous goods exempt from standard regulations.
 
@@ -67,5 +67,11 @@ The following API services are provided by the DHL Express integration:
 * **Tracking**: Enables customers to receive tracking updates through their integration with the SAPIENT tracking webhook.
 * **Manifest shipment**: Enable customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT Manifest Webhook to keep track of shipments and their statuses by to receiving real-time updates or notifications whenever specific events occur in the system (such as shipping updates, status changes, and so on).
 
-<br />
+***
 
+In this section, learn how to:
+
+* <Anchor label="Add a DHL Express shipping account" target="_blank" href="https://docs.intersoftsapient.net/docs/add-dhl-express-shipping-account">Add a DHL Express shipping account</Anchor>
+* <Anchor label="Add a DHL Express tracking account" target="_blank" href="https://docs.intersoftsapient.net/docs/add-dhl-express-tracking-account">Add a DHL Express tracking account</Anchor>
+
+<br />
