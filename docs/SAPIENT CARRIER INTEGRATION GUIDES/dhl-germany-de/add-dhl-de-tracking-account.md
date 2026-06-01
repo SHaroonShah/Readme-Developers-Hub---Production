@@ -63,9 +63,9 @@ To add a tracking account for DHL Germany in SAPIENT, follow the steps as explai
 
     <br />
 
-    > 📘 _Note_
->
-> _To track data for every shipping account, you must create a tracking account for each._
+    > 📘 *Note*
+    >
+    > *To track data for every shipping account, you must create a tracking account for each.*
 
     ***
   </ToggleListItem>
@@ -78,3 +78,17 @@ To add a tracking account for DHL Germany in SAPIENT, follow the steps as explai
     Once done, the DHL Germany tracking account is added successfully and appears in the **Tracking Accounts** list. You can now receive the tracking information on your <Glossary>shipments</Glossary>.
   </ToggleListItem>
 </ToggleList>
+
+***
+
+### See also
+
+<Cards columns="2">
+  <Card title="Set Up Tracking Webhook Connection" href="https://docs.intersoftsapient.net/v4.02/docs/create-tracking-webhook" icon="fa-solid fa-code-pull-request">
+    Automate the instantaneous flow of information regarding the status of shipments.
+  </Card>
+
+  <Card title="Track Events and Milestones" href="https://docs.intersoftsapient.net/docs/tracking-events-and-milestones" icon="fa-solid fa-chart-line-up">
+    Understand tracking events and milestone data.
+  </Card>
+</Cards>
