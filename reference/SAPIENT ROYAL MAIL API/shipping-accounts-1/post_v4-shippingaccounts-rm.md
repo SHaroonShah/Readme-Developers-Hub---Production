@@ -2,7 +2,6 @@
 api:
   file: sapient-royal-mail-api.json
   operationId: post_v4-shippingaccounts-rm
-deprecated: false
 hidden: false
 metadata:
   title: ''
