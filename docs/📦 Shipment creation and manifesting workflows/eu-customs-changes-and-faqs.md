@@ -37,7 +37,7 @@ To help explain the change, here is a simple comparison of what is changing:
   These changes may apply if you:
 
   * Ship goods into the EU, particularly via eCommerce
-  * Send <Glossary>B2C</Glossary> (business-to-consumer) shipments
+  * Send B2C (business-to-consumer) shipments
   * Ship low-value goods (≤ €150)
 
   > 📘 *Note*
@@ -91,3 +91,5 @@ To help explain the change, here is a simple comparison of what is changing:
 <Accordion title="Where can I get more information?">
   Further details, including technical documentation and timelines, will be shared in advance of the changes going live.
 </Accordion>
+
+<br />
