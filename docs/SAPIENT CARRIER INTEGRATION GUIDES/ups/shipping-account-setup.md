@@ -17,7 +17,7 @@ In SAPIENT, you can create a UPS shipping account by selecting your desired <Glo
 
 > 🚧 _Important_
 >
-> _Before you can set up a shipping account, make sure you have[enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with UPS._
+> _Before you can set up a shipping account, make sure you have [enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with UPS._
 
 To add a shipping account for UPS in SAPIENT, follow the instructions as explained in the following procedure.
 
