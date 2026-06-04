@@ -84,7 +84,7 @@ To help explain the change, here is a simple comparison of what is changing:
 
   * API updates
   * Supporting documentation
-  * Guidance on required changes
+  * Guidance on required changes <br />
     Your account manager will also be available to support you.
 </Accordion>
 
