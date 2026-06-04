@@ -14,7 +14,7 @@ Recent EU customs reforms has introduced significant changes to how duties and d
 >
 > _From 1st July 2026, the existing €150 value threshold will be removed, meaning all goods may be subject to customs duties regardless of value. As part of this update, enhanced customs data will be required to support increased declaration obligations, reflecting a broader EU initiative to standardise and modernise cross‑border eCommerce processes._
 
-To help explain the change, here is a simple comparison of what is changing:
+To help explain the change, the following table provides a simple comparison of what is changing:
 
 | Current process (today)                                             | New process (from 2026 onwards)                                |
 | :------------------------------------------------------------------ | :------------------------------------------------------------- |
