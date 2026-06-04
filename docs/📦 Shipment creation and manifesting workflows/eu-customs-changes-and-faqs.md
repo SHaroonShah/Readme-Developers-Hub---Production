@@ -26,7 +26,8 @@ To help explain the change, the following table provides a simple comparison of 
 
 ***
 
-<Banner isInline={true} message="Frequently Asked Questions (FAQs)" color="#ffb600" textColor="#ffffff" fontSize="20px" fontWeight="bold" />
+## Frequently Asked Questions (FAQs)
+
 
 <Accordion title="When will these changes take effect?">
   The changes are expected to come into effect from 1st July 2026.
@@ -92,6 +93,10 @@ To help explain the change, the following table provides a simple comparison of 
 <Accordion title="Where can I get more information?">
   Further details, including technical documentation and timelines, will be shared in advance of the changes going live.
 </Accordion>
+
+<br />
+
+<br />
 
 <br />
 
