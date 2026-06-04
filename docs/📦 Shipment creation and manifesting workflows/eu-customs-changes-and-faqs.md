@@ -22,6 +22,8 @@ To help explain the change, here is a simple comparison of what is changing:
 | Customs responsibility is often handled later in the process        | Greater responsibility at the point of shipment creation       |
 | Product-level information is often minimal or optional              | More accurate and detailed product‑level data expected         |
 
+***
+
 ## Frequently Asked Questions (FAQs)
 
 <br />
