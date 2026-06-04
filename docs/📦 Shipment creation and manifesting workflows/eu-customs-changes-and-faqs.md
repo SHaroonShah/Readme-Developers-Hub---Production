@@ -86,7 +86,3 @@ Your account manager will also be available to support you.
 <Accordion title="Where can I get more information?">
   Further details, including technical documentation and timelines, will be shared in advance of the changes going live.
 </Accordion>
-
-> 📘 _Note_
->
-> _If you are unsure, please contact your account manager._
