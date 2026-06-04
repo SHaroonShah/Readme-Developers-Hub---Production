@@ -394,148 +394,149 @@ metadata:
 
 <Accordion title="SAPIENT release notes - May 19, 2026" icon="">
   ## Royal Mail - Parcelforce dimension validation update
+
   The dimension validation for Royal Mail - Parcelforce International non‑Consumer shipments has been removed. The system will now allow shipments where parcel dimensions exceed stored format limits, ensuring valid shipments are not rejected due to restricted validation.
+
   ## Tracking Webhook retry logic updates
+
   INTERSOFT Tracking Webhook delivery continues to follow the existing retry policy. Previously, certain errors caused the webhook to be suspended immediately, resulting in failed delivery attempts. This behaviour has been updated so that all delivery errors now enter the retry process rather than triggering immediate suspension. Once the retry limit is exhausted and the webhook becomes suspended, it remains suspended and no further delivery attempts or retries are performed.
+
   ## Royal Mail swagger documentation updates
-## Miscellaneous enhancements
 
-The following enhancements have been made to the **SAPIENT ROYAL MAIL API** endpoints.
+  ## Miscellaneous enhancements
 
-* **Create Shipment**:  The following two new categories have been added to the **Customs** > **ReasonForExport** field in addition to the existing categories:
-  * **ECommerce Sale of Goods** - for B2C or D2C shipments, such as goods sold directly to consumers via online retail.
-  * **Commercial Sale of Goods** - for B2B shipments, covering business to business commercial sales.
+  The following enhancements have been made to the **SAPIENT ROYAL MAIL API** endpoints.
 
-This is done so that the shipments are correctly classified as e-commerce or commercial sales, ensuring compliance with Royal Mail's latest specification.
+  * **Create Shipment**:  The following two new categories have been added to the **Customs** > **ReasonForExport** field in addition to the existing categories:
+    * **ECommerce Sale of Goods** - for B2C or D2C shipments, such as goods sold directly to consumers via online retail.
+    * **Commercial Sale of Goods** - for B2B shipments, covering business to business commercial sales.
 
-> 📘 _Note_
->
-> _Please keep in mind the following:_
->
-> * _If the existing **Sale of Goods** value is selected as the reason for export, the system automatically determines whether the shipment is **Ecommerce (B2C or D2C)** or **Commercial (B2B)** based on the value provided in the **BusinessTransactionType** field in the create shipment request._
-> * _If any of the new reason for export values are requested in the **Print Document** API, they will be displayed in the generated CN23 document._
-> * _This enhancement will be live starting 1st June 2026._
->
-> _For more information, refer to the <Anchor label="Create Shipment" target="_blank" href="https://docs.intersoftsapient.net/reference/post_v4-shipments-rm">Create Shipment</Anchor> and [Print Document](https://docs.intersoftsapient.net/reference/post_v4-shipments-printdocument-carriercode-shipmentid) API endpoints._
+  This is done so that the shipments are correctly classified as e-commerce or commercial sales, ensuring compliance with Royal Mail's latest specification.
 
-* **Get Carrier Services**. A new **Services** > **Get Carrier Services** endpoint has been added to the **SAPIENT ROYAL MAIL API** block, allowing users to retrieve the service levels associated with each requested service code.
+  > 📘 *Note*
+  >
+  > *Please keep in mind the following:*
+  >
+  > * *If the existing**Sale of Goods** value is selected as the reason for export, the system automatically determines whether the shipment is **Ecommerce (B2C or D2C)** or **Commercial (B2B)** based on the value provided in the **BusinessTransactionType** field in the create shipment request.*
+  > * *If any of the new reason for export values are requested in the**Print Document** API, they will be displayed in the generated CN23 document.*
+  > * *This enhancement will be live starting 1st June 2026.*
+  >
+  > *For more information, refer to the<Anchor label="Create Shipment" target="_blank" href="https://docs.intersoftsapient.net/reference/post_v4-shipments-rm">Create Shipment</Anchor> and [Print Document](https://docs.intersoftsapient.net/reference/post_v4-shipments-printdocument-carriercode-shipmentid) API endpoints.*
 
-```curl
-[
-  {
-    "ServiceCode": "CRL1",
-    "Description": "Royal Mail 24 Standard/Signed For (Parcel - Daily Rate Service)",
-    "CarrierSpecifics": {
-      "ServiceLevels": [
-        "01",
-        "02"
-      ]
+  * **Get Carrier Services**. A new **Services** > **Get Carrier Services** endpoint has been added to the **SAPIENT ROYAL MAIL API** block, allowing users to retrieve the service levels associated with each requested service code.
+
+  ```curl
+  [
+    {
+      "ServiceCode": "CRL1",
+      "Description": "Royal Mail 24 Standard/Signed For (Parcel - Daily Rate Service)",
+      "CarrierSpecifics": {
+        "ServiceLevels": [
+          "01",
+          "02"
+        ]
+      }
     }
-  }
-]
-```
+  ]
+  ```
 
-<p style={{ textAlign: "center" }}>
-  <em>Response payload example</em>
-</p>
+  <p style={{ textAlign: "center" }}>
+    <em>Response payload example</em>
+  </p>
 
-## Field description updates
+  ## Field description updates
 
-The query and response field descriptions for the following SAPIENT ROYAL MAIL API endpoints have been updated to improve clarity and support correct usage of the API:
+  The query and response field descriptions for the following SAPIENT ROYAL MAIL API endpoints have been updated to improve clarity and support correct usage of the API:
 
-<Columns layout="fixed">
-  <Column>
-    * **Shipping Accounts**
-      * Get Accounts
-      * Add Account
-      * Get Account
-      * Update Account
-      * Link Locations
-      * Get Associated Locations
-      * Get Associate Location
-      * Update Associated Location
-  </Column>
+  <Columns layout="fixed">
+    <Column>
+      * **Shipping Accounts**
+        * Get Accounts
+        * Add Account
+        * Get Account
+        * Update Account
+        * Link Locations
+        * Get Associated Locations
+        * Get Associate Location
+        * Update Associated Location
+    </Column>
 
-  <Column>
-    * **Shipments**
-      * Create Shipment
-      * Print Label
-      * Print My Label QR Code
-      * Pre Allocate Tracking Number
-  </Column>
+    <Column>
+      * **Shipments**
+        * Create Shipment
+        * Print Label
+        * Print My Label QR Code
+        * Pre Allocate Tracking Number
+    </Column>
 
-  <Column>
-    * **Collections**
-      * Book Collection
-      * Cancel Collection
-      * Get Collection Timeslots
-  </Column>
+    <Column>
+      * **Collections**
+        * Book Collection
+        * Cancel Collection
+        * Get Collection Timeslots
+    </Column>
 
-  <Column>
-    * **Offline Barcode Range**
-      * Get Barcode Range
-  </Column>
-</Columns>
+    <Column>
+      * **Offline Barcode Range**
+        * Get Barcode Range
+    </Column>
+  </Columns>
 
-<Columns layout="auto">
-  <Column>
-    * **International Arrivals Containers**
-      * Add Container
-      * Get Containers
-      * Update Containers
-      * Add/Remove Shipments
-      * Delete Containers
-      * Get Containers
-  </Column>
-</Columns>
+  <Columns layout="auto">
+    <Column>
+      * **International Arrivals Containers**
+        * Add Container
+        * Get Containers
+        * Update Containers
+        * Add/Remove Shipments
+        * Delete Containers
+        * Get Containers
+    </Column>
+  </Columns>
 
-<br />
   ## DX Freight swagger documentation updates
-The query and response field descriptions for the following SAPIENT DX FREIGHT API endpoints have been updated to improve clarity and support correct usage of the API:
 
-* **Shipments**
-  * Create Shipment
-  * Print Label
-* **Shipping Accounts**
-  * Get Accounts
-  * Add Account
-  * Get Account
-  * Update Account
-  * Link Locations
-  * Get Associated Locations
-  * Get Associate Location
-  ##  DPD UK swagger documentation updates
-A new **CarrierDetails** > **Barcode** field has been added at the **Packages** level in the **Create Shipment** endpoint response, allowing users to scan and track shipments and match them against the stored barcode information.
+  The query and response field descriptions for the following SAPIENT DX FREIGHT API endpoints have been updated to improve clarity and support correct usage of the API:
 
-```curl
-"LabelFormat": "PDF",
-    "Packages": [
-        {
-            "CarrierDetails": {
-                "Barcode": "%BT370QB15501999000067812826"
-            },
-            "PackageOccurrence": 1,
-            "TrackingNumber": "15501999000067",
-            "CarrierTrackingUrl": "https://track.dpd.co.uk/search?reference=15501999000067"
-        }
-    ]
+  * **Shipments**
+    * Create Shipment
+    * Print Label
+  * **Shipping Accounts**
+    * Get Accounts
+    * Add Account
+    * Get Account
+    * Update Account
+    * Link Locations
+    * Get Associated Locations
+    * Get Associate Location
+    ## DPD UK swagger documentation updates
 
-```
+  A new **CarrierDetails** > **Barcode** field has been added at the **Packages** level in the **Create Shipment** endpoint response, allowing users to scan and track shipments and match them against the stored barcode information.
 
-<p style={{ textAlign: "center" }}>
-  <em>Response payload example</em>
-</p>
+  ```curl
+  "LabelFormat": "PDF",
+      "Packages": [
+          {
+              "CarrierDetails": {
+                  "Barcode": "%BT370QB15501999000067812826"
+              },
+              "PackageOccurrence": 1,
+              "TrackingNumber": "15501999000067",
+              "CarrierTrackingUrl": "https://track.dpd.co.uk/search?reference=15501999000067"
+          }
+      ]
+
+  ```
+
+  <p style={{ textAlign: "center" }}>
+    <em>Response payload example</em>
+  </p>
 
   <br />
+
   ## SAPIENT CORE API swagger documention updates
-A new **CarrierSpecifics** object has been added to the **Get Carrier Services** endpoint response to include a **ServiceLevels** field, allowing users to retrieve the service levels associated with each requested service code (if available).
 
-
-
-
-
-
-
+  A new **CarrierSpecifics** object has been added to the **Get Carrier Services** endpoint response to include a **ServiceLevels** field, allowing users to retrieve the service levels associated with each requested service code (if available).
 </Accordion>
 
 <br />
