@@ -532,8 +532,6 @@ metadata:
     <em>Response payload example</em>
   </p>
 
-  <br />
-
   ## SAPIENT CORE API swagger documention updates
 
   A new **CarrierSpecifics** object has been added to the **Get Carrier Services** endpoint response to include a **ServiceLevels** field, allowing users to retrieve the service levels associated with each requested service code (if available).
