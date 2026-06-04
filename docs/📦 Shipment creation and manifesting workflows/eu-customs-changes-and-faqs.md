@@ -80,7 +80,7 @@ To help explain the change, here is a simple comparison of what is changing:
 </Accordion>
 
 <Accordion title="Will Intersoft support us through this?">
-  Yes — Intersoft will provide the impated customers with the following necessary information:
+  Yes—Intersoft will provide the impated customers with the following necessary information:
 
   * API updates
   * Supporting documentation
