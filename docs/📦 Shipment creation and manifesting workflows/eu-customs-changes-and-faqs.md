@@ -29,20 +29,21 @@ To help explain the change, here is a simple comparison of what is changing:
 ## Frequently Asked Questions (FAQs)
 
 <Accordion title="When will these changes take effect?">
-The changes are expected to come into effect from 1st July 2026.
-Further comms will be sent to confirm the exact timelines and guidance ahead of the go‑live date.
+  The changes are expected to come into effect from 1st July 2026.
+  Further comms will be sent to confirm the exact timelines and guidance ahead of the go‑live date.
 </Accordion>
-<br />
+
 <Accordion title="Does this apply to me??">
-These changes may apply if you:
-* Ship goods into the EU, particularly via eCommerce
-* Send B2C (business-to-consumer) shipments
-* Ship low-value goods (≤ €150)
+  These changes may apply if you:
+
+  * Ship goods into the EU, particularly via eCommerce
+  * Send B2C (business-to-consumer) shipments
+  * Ship low-value goods (≤ €150)
 </Accordion>
-<br />
+
 <Accordion title="When will these changes take effect?">
-The changes are expected to come into effect from 1st July 2026.
-Further comms will be sent to confirm the exact timelines and guidance ahead of the go‑live date.
+  The changes are expected to come into effect from 1st July 2026.
+  Further comms will be sent to confirm the exact timelines and guidance ahead of the go‑live date.
 </Accordion>
 
-
+<br />
