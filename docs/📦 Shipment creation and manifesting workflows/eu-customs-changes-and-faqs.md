@@ -39,6 +39,9 @@ To help explain the change, here is a simple comparison of what is changing:
   * Ship goods into the EU, particularly via eCommerce
   * Send B2C (business-to-consumer) shipments
   * Ship low-value goods (≤ €150)
+> 📘 _Note_
+>
+> _If you are unsure, please contact your account manager._
 </Accordion>
 
 <Accordion title="What types of shipments are most affected?">
@@ -83,3 +86,7 @@ Your account manager will also be available to support you.
 <Accordion title="Where can I get more information?">
   Further details, including technical documentation and timelines, will be shared in advance of the changes going live.
 </Accordion>
+
+> 📘 _Note_
+>
+> _If you are unsure, please contact your account manager._
