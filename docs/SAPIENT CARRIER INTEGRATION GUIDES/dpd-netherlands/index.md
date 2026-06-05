@@ -57,10 +57,6 @@ The integration of DPD NL into the SAPIENT platform is a significant step in enh
         The **CarrierSpecifics** object in the **Create Shipment** request includes **DeliveryInstructions** for providing additional delivery instructions to the carrier.
       </Card>
     </Cards>
-
-    > 📘 *Note*
-    >
-    > *Please bear in mind that not all services offer consignment options.*
   </Tab>
 
   <Tab title="Service Enhancements">
