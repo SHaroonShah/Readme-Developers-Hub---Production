@@ -56,7 +56,7 @@ The integration of DHL Germany (DE) into the SAPIENT platform is a significant s
   </Tab>
 
   <Tab title="Service Enhancements">
-    The following are the key services are provided by the DHL Germany integration:
+    The following are the key services enhancements provided by the DHL Germany integration:
 
     * **Preferred Neighbour**: Specifies a preferred neighbour to receive the shipment on recipient's behalf.   
     * **Preferred Location**: Specifies a preferred delivery location, such as a safe place or a specific entry point at the recipient’s address if they are unavailable.
