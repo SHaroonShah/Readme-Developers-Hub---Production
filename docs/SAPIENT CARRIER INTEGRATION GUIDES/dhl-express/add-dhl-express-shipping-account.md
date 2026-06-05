@@ -235,84 +235,90 @@ To add a shipping account for DHL Express in SAPIENT, perform the steps as expla
 <ToggleList>
   <ToggleListItem title="What type of books do owls like to read?">
     <Table>
-      <thead>
-        <tr>
-          <th>
-            <strong>API Key\*</strong>
-          </th>
+  <thead>
+   
+      <th>
+        Element
+      </th>
 
-          <th>
-            Enter the API key for the user account associated with DHL Express.
-          </th>
-        </tr>
-      </thead>
+      <th>
+        Description
+      </th>
+   
+  </thead>
 
-      <tbody>
-        
-          <td>
-            <strong>API Secret\*</strong>
-          </td>
+  <tbody>
+    <tr>
+      <td>
+        <strong>API Key*</strong>
+      </td>
 
-          <td>
-            Enter the API secret used to authenticate the user account with DHL Express.
-          </td>
-        
+      <td>
+        Enter the API key for the user account associated with DHL Express.
+      </td>
+    </tr>
 
-        
-          <td>
-            <strong>Archive Labels</strong>
-          </td>
+    <tr>
+      <td>
+        <strong>API Secret*</strong>
+      </td>
 
-          <td>
-            Turn on the toggle if you wish to include the DHL archived labels in the manifest.
+      <td>
+        Enter the API secret used to authenticate the user account with DHL Express.
+      </td>
+    </tr>
 
-            <br />
+    <tr>
+      <td>
+        <strong>Archive Labels</strong>
+      </td>
 
-            Enabling this toggle saves DHL waybill documents from the create shipment response in the database and includes them in the manifest PDF when shipments are manifested.Note: The manifests can be downloaded from the SAPIENT’s View manifest history page.
+      <td>
+        Turn on the toggle if you wish to include the DHL archived labels in the manifest.
+<br />
+        Enabling this toggle saves DHL waybill documents from the create shipment response in the database and includes them in the manifest PDF when shipments are manifested.Note: The manifests can be downloaded from the SAPIENT’s View manifest history page.
+        <br />
+<br />
+        <code><i>Note</i></code>: <i>The manifests can be downloaded from the SAPIENT’s <a href="https://docs.intersoftsapient.net/docs/manifest-history">View manifest history page</a>.</i>
+      </td>
+    </tr>
 
-            <br />
+    <tr>
+      <td colspan="2">
+        <strong>Enable Paperless Trade (PLT)</strong>
+        <br />
+<br />
 
-            <br />
+        Turn on the toggle if you want to submit the customs documents electronically. If this toggle is enabled, then you must specify one the following options:
+      </td>
 
-            <code><i>Note</i></code>: <i>The manifests can be downloaded from the SAPIENT’s <a href="https://docs.intersoftsapient.net/docs/manifest-history">View manifest history page</a>.</i>
-          </td>
-        
+      <td>
 
-        <tr>
-          <td>
-            <strong>Enable Paperless Trade (PLT)</strong>
+      </td>
+    </tr>
 
-            <br />
+    <tr>
+      <td>
+        <strong>Allow DHL to generate commercial invoices on your behalf</strong>
+      </td>
 
-            <br />
+      <td>
+        Select this option for DHL to create and send the invoice electronically to the customs agency.
+      </td>
+    </tr>
 
-            Turn on the toggle if you want to submit the customs documents electronically. If this toggle is enabled, then you must specify one the following options:
-          </td>
+    <tr>
+      <td>
+        <strong>Use SAPIENT-generated invoices</strong>
+      </td>
 
-          <td />
-        </tr>
+      <td>
+        Select this option to have SAPIENT generate the invoices from shipment data and send them to DHL.
+      </td>
+    </tr>
+  </tbody>
+</Table>
 
-        <tr>
-          <td>
-            <strong>Allow DHL to generate commercial invoices on your behalf</strong>
-          </td>
-
-          <td>
-            Select this option for DHL to create and send the invoice electronically to the customs agency.
-          </td>
-        </tr>
-
-        <tr>
-          <td>
-            <strong>Use SAPIENT-generated invoices</strong>
-          </td>
-
-          <td>
-            Select this option to have SAPIENT generate the invoices from shipment data and send them to DHL.
-          </td>
-        </tr>
-      </tbody>
-    </Table>
   </ToggleListItem>
 
   <ToggleListItem title="What’s an owl’s favorite drink?">
