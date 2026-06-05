@@ -96,10 +96,36 @@ The integration of DPD NL into the SAPIENT platform is a significant step in enh
 
 ## API Services
 
-The following API services are provided by the DPD NL integration:
+<br />
 
-* **Create shipment**: The integration for creating shipments to reflect DPD NL as a primary carrier and allowing users to create shipments using the Create Shipment that returns the label in base64 encoded format.
-* **Manifest webhook**: Keep track of shipments and their statuses by to receiving real-time updates or notifications whenever specific events occur in the system (such as shipping updates, status changes, and so on) via the SAPIENT Manifest Webhook feature.
-* **Tracking**: Enables data files to be sent via SFTP and received through the SAPIENT tracking webhook.
+<Tabs>
+  <Tab title="Core Services">
+    <Accordion title="Create Shipment" icon="plus-circle">
+      The integration for creating shipments to reflect DPD NL as a primary carrier and allowing users to create individual shipments requests using the **Create Shipment** endpoint.
+    </Accordion>
+
+    <br />
+
+    <Accordion title="Manifest Shipment" icon="plus-circle">
+      Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/v4.03/docs/manifest-webhook) to keep track of shipments and their statuses by to receiving real-time updates or notifications whenever specific events occur in the system (such as shipping updates, status changes, and so on).
+    </Accordion>
+  </Tab>
+
+  <Tab title="Other Services">
+    <Accordion title="Print Label" icon="print">
+      Generate and return the label for a DPD NL shipment in the supported label formats. This endpoint must be utilised when the label is not generated in the DPD NL Create Shipment request.
+
+      > 📘 *Note*
+      >
+      > *This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting.*
+    </Accordion>
+
+    <br />
+
+    <Accordion title="Tracking" icon="print">
+      Enables customers to receive tracking updates through their integration with the SAPIENT tracking webhook.
+    </Accordion>
+  </Tab>
+</Tabs>
 
 <br />
