@@ -169,9 +169,11 @@ DHL is the global leader in the logistics industry. DHL Express is a brand withi
 
   <Tab title="API References">
     <Cards columns={2}>
-      <Card title="Activate this integration" href="https://docs.intersoftsapient.net/docs/integration-activation#/" icon="fa-solid fa-circle-play fa-beat" target="_blank">
-        Connect with DHL Express and manage your shipping operations from a single platform.
+      <Cards columns={2}>
+      <Card title="SAPIENT DHL Express API" icon="fa-solid fa-code" href="">
+        Explore the Amazon API endpoints for a seamless shipping experience.
       </Card>
+    </Cards>
 
       <Card title="Review DHL Express services" icon="fa-solid fa-list-check">
         Review the DHL Express features, service enhancements, and API services before activating the integration.
