@@ -1,7 +1,7 @@
 ---
 title: Add Starlinks Global shipping account
 deprecated: false
-hidden: false
+hidden: true
 icon: fad fa-warehouse
 metadata:
   robots: index
