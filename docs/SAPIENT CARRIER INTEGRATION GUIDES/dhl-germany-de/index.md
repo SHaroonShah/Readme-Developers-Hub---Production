@@ -140,11 +140,11 @@ The integration of DHL Germany (DE) into the SAPIENT platform is a significant s
   <Tab title="Account Setup">
     <Cards columns={3}>
       <Card title="Add DHL Germany Shipping Account" icon="fa-solid fa-truck" href="https://docs.intersoftsapient.net/docs/add-dhl-de-shipping-account">
-        Set up your EVRi shipping account to start creating shipments.
+        Set up your DHL Germany shipping account to start creating shipments.
       </Card>
 
       <Card title="Add DHL Germany Tracking Account" icon="fa-solid fa-search-location" href="https://docs.intersoftsapient.net/docs/add-dhl-de-tracking-account">
-        Configure tracking for your EVRi shipments.
+        Configure tracking for your DHL Germany shipments.
       </Card>
     </Cards>
   </Tab>
