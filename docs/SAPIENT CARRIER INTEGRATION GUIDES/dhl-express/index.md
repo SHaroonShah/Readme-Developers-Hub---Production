@@ -76,39 +76,14 @@ DHL is the global leader in the logistics industry. DHL Express is a brand withi
   </Tab>
 
   <Tab title="Service Enhancements">
-    <Cards columns={2}>
-      <Card title="Saturday Delivery (AA)" icon="fa-solid fa-calendar-day">
-        Enables delivery on Saturdays, offering greater flexibility in shipping schedules.
-      </Card>
-
-      <Card title="Adult Signature (SD)" icon="fa-solid fa-signature">
-        Requires an adult signature upon delivery of the shipment, ensuring that the package is received by someone of legal age.
-      </Card>
-
-      <Card title="Shipment Insurance (II)" icon="fa-solid fa-shield-halved">
-        Provides insurance coverage for the shipment against loss or damage. If this enhancement is used, then the InsuranceValue field must be populated.
-      </Card>
-
-      <Card title="Neutral Label (PP)" icon="fa-solid fa-tag">
-        Uses a generic shipment <Glossary>label</Glossary> that does not specify the shipment contents description. With this enhancement, shippers can keep the declared value of a shipment confidential from the final recipient. This service ensures that any document that could disclose the value of the contents is removed from the shipment before it is delivered.
-      </Card>
-
-      <Card title="Verified Delivery (TF)" icon="fa-solid fa-qrcode">
-        Enables verified delivery using a QR code. DHL sends the QR code to the receiver, who must present it to the courier at the time of delivery.
-      </Card>
-
-      <Card title="Email Notifications" icon="fa-solid fa-envelope">
-        Sends email notifications to the recipient regarding shipment status updates. This enhancement does not have a special service code, as it is automatically triggered by the system when the Destination > ContactEmail field is populated in the Create Shipment request.
-      </Card>
-
-      <Card title="ID8000 Dangerous Goods (HK)" icon="fa-solid fa-exclamation-triangle">
-        Generates the ID8000 label for shipments containing dangerous goods, ensuring compliance with safety regulations.
-      </Card>
-
-      <Card title="Excepted Quantities (HH)" icon="fa-solid fa-flask">
-        Specifies shipments that include small quantities of dangerous goods exempt from standard regulations.
-      </Card>
-    </Cards>
+    * **Saturday Delivery (AA)**: Enables delivery on Saturdays, offering greater flexibility in shipping schedules.
+    * **Adult Signature (SD)**: Requires an adult signature upon delivery of the shipment, ensuring that the package is received by someone of legal age.
+    * **Shipment Insurance (II)**: Provides insurance coverage for the shipment against loss or damage. If this enhancement is used, then the InsuranceValue field must be populated.
+    * **Neutral Label (PP)**: Uses a generic shipment <Glossary>label</Glossary> that does not specify the shipment contents description. With this enhancement, shippers can keep the declared value of a shipment confidential from the final recipient. This service ensures that any document that could disclose the value of the contents is removed from the shipment before it is delivered.
+    * **Verified Delivery (TF)**: Enables verified delivery using a QR code. DHL sends the QR code to the receiver, who must present it to the courier at the time of delivery.
+    * **Email Notifications**: Sends email notifications to the recipient regarding shipment status updates. This enhancement does not have a special service code, as it is automatically triggered by the system when the Destination > ContactEmail field is populated in the Create Shipment request.
+    * **ID8000 Dangerous Goods (HK)**: Generates the ID8000 label for shipments containing dangerous goods, ensuring compliance with safety regulations.
+    * **Excepted Quantities (HH)**: Specifies shipments that include small quantities of dangerous goods exempt from standard regulations.
 
     <br />
 
