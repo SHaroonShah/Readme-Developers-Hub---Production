@@ -19,7 +19,7 @@ In SAPIENT, you can add tracking accounts for DHL Express to enhance visibility,
 >
 > 1. _Enabled the [label integration](https://docs.intersoftsapient.net/docs/integration-activation) with DHL Express._
 > 2. _Enabled the [tracking integration](https://docs.intersoftsapient.net/docs/integration-activation) with DHL Express._
-> 3. _Set up your<Glossary>tracking webhook</Glossary>. For more information on how to set up a tracking webhook, refer to the [Create tracking webhook](https://docs.intersoftsapient.net/docs/create-tracking-webhook) section. This is a one-time activity, you do not have to do this every time you add a tracking account._
+> 3. _Set up your <Glossary>tracking webhook</Glossary>. For more information on how to set up a tracking webhook, refer to the [Create tracking webhook](https://docs.intersoftsapient.net/docs/create-tracking-webhook) section. This is a one-time activity, you do not have to do this every time you add a tracking account._
 >
 > _If you wish to receive the tracking events via INTERSOFT using the tracking account you have created, make sure it is activated by the DHL Express team._
 
@@ -31,7 +31,7 @@ To add a tracking account for DHL Express in SAPIENT, follow the steps as explai
   <ToggleListItem title="1. Navigate to the Tracking Accounts tab">
     In the left navigation panel, select **API** > **Webhooks**. On the page that opens, select the **Tracking Accounts** tab.
 
-    <Image align="center" alt="Accessing tracking accounts" border={true} src="https://files.readme.io/c3f6098979696b25cbdbe26921658742edef4520e983ae8c70cbe6f689e4aadf-Tracking_accounts_tab.png" />
+    <Image align="center" border={true} src="https://files.readme.io/c3f6098979696b25cbdbe26921658742edef4520e983ae8c70cbe6f689e4aadf-Tracking_accounts_tab.png" alt="Accessing tracking accounts" />
 
     ***
   </ToggleListItem>
@@ -41,7 +41,7 @@ To add a tracking account for DHL Express in SAPIENT, follow the steps as explai
   <ToggleListItem title="2. Select option to add tracking account">
     In the **Tracking Accounts** page that opens, select ![alt text](https://files.readme.io/63f1badb667ff6379f323bdc6485e8a519eb46938b0dcd4b98e384686ebb68e0-Add_tracking_account_button.png).
 
-    <Image align="center" alt="Accessing option to add tracking account" border={true} src="https://files.readme.io/c2f04a8e6b4e985e203082e192cfe4d35f0702aa38fa593bb2440e490295dd3a-Add_tracking_account_button_UPS.png" />
+    <Image align="center" border={true} src="https://files.readme.io/c2f04a8e6b4e985e203082e192cfe4d35f0702aa38fa593bb2440e490295dd3a-Add_tracking_account_button_UPS.png" alt="Accessing option to add tracking account" />
 
     ***
   </ToggleListItem>
@@ -57,8 +57,8 @@ To add a tracking account for DHL Express in SAPIENT, follow the steps as explai
 
     <AsteridkForMandatoryElements />
 
-    |        Element        | Description                                                                                                      |
-    | :-------------------: | :--------------------------------------------------------------------------------------------------------------- |
+    |         Element        | Description                                                                                                      |
+    | :--------------------: | :--------------------------------------------------------------------------------------------------------------- |
     |      **Carrier**\*     | From the dropdown menu, select DHL Express as your carrier option.                                               |
     | **Shipping Account**\* | From the dropdown menu, select the <Glossary>shipping account</Glossary> for which you want to receive tracking. |
 
