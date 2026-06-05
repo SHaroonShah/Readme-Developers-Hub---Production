@@ -45,7 +45,7 @@ DHL is the global leader in the logistics industry. DHL Express is a brand withi
   </Tab>
 
   <Tab title="Additional Features">
-    <Cards columns={1}>
+    <Cards columns={2}>
       <Card title="Consignment Services" icon="fa-solid fa-boxes-stacked">
         DHL Express supports a maximum of 999 packages per consignment. In this case, the SAPIENT maximum of 99 will be used.
       </Card>
