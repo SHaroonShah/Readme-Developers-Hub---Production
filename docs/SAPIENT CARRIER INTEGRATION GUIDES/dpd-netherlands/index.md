@@ -135,20 +135,20 @@ The integration of DPD NL into the SAPIENT platform is a significant step in enh
 <Tabs>
   <Tab title="Account Setup">
     <Cards columns={3}>
-      <Card title="Add DPD NL Shipping Account" icon="fa-solid fa-truck" href="https://docs.intersoftsapient.net/docs/add-dpd-netherlands-shipping-account">
+      <Card title="Add DPD Netherlands Shipping Account" icon="fa-solid fa-truck" href="https://docs.intersoftsapient.net/docs/add-dpd-netherlands-shipping-account">
         Set up your DPD Netherlands shipping account to start creating shipments.
       </Card>
 
-      <Card title="Add DHL Germany Tracking Account" icon="fa-solid fa-search-location" href="https://docs.intersoftsapient.net/docs/add-dhl-de-tracking-account">
-        Configure tracking for your EVRi shipments.
+      <Card title="Add DPD Netherlands Tracking Account" icon="fa-solid fa-search-location" href="https://docs.intersoftsapient.net/docs/add-dpd-nl-tracking-account">
+        Configure tracking for your DPD Netherlands shipments.
       </Card>
     </Cards>
   </Tab>
 
   <Tab title="API References">
     <Cards columns={2}>
-      <Card title="SAPIENT DHL Germany API" icon="fa-solid fa-code" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-dhlde">
-        Explore the DHL Germany API endpoints for a seamless shipping experience.
+      <Card title="SAPIENT DPD Netherlands API" icon="fa-solid fa-code" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-dpdnl">
+        Explore the DPD Netherlands API endpoints for a seamless shipping experience.
       </Card>
     </Cards>
   </Tab>
@@ -158,6 +158,6 @@ The integration of DPD NL into the SAPIENT platform is a significant step in enh
 
 <Cards columns={0}>
   <Card title="Activate this integration" href="https://docs.intersoftsapient.net/docs/integration-activation#/" icon="fa-solid fa-circle-play fa-beat" target="_blank">
-    Seamlessly connect with DHL Germany and manage your shipping operations from a single platform.
+    Seamlessly connect with DPD Netherlands and manage your shipping operations from a single platform.
   </Card>
 </Cards>
