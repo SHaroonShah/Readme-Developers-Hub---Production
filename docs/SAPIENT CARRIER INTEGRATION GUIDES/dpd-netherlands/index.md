@@ -96,8 +96,6 @@ The integration of DPD NL into the SAPIENT platform is a significant step in enh
 
 ## API Services
 
-<br />
-
 <Tabs>
   <Tab title="Core Services">
     <Accordion title="Create Shipment" icon="plus-circle">
