@@ -248,16 +248,6 @@ To add a shipping account for DHL Express in SAPIENT, perform the steps as expla
       </thead>
 
       <tbody>
-        
-          <td>
-            <strong>API Secret\*</strong>
-          </td>
-
-          <td>
-            Enter the API secret used to authenticate the user account with DHL Express.
-          </td>
-       
-
         <tr>
           <td>
             <strong>Archive Labels</strong>
@@ -289,7 +279,7 @@ To add a shipping account for DHL Express in SAPIENT, perform the steps as expla
             Turn on the toggle if you want to submit the customs documents electronically. If this toggle is enabled, then you must specify one the following options:
           </td>
 
-          <td />
+
         </tr>
 
         <tr>
