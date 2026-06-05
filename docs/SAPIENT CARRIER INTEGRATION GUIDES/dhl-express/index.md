@@ -76,7 +76,7 @@ DHL is the global leader in the logistics industry. DHL Express is a brand withi
   </Tab>
 
   <Tab title="Service Enhancements">
-    <Cards columns={3}>
+    <Cards columns={2}>
       <Card title="Saturday Delivery (AA)" icon="fa-solid fa-calendar-day">
         Enables delivery on Saturdays, offering greater flexibility in shipping schedules.
       </Card>
@@ -167,7 +167,7 @@ DHL is the global leader in the logistics industry. DHL Express is a brand withi
     </Cards>
   </Tab>
 
-  <Tab title="Integration Activation">
+  <Tab title="API References">
     <Cards columns={2}>
       <Card title="Activate this integration" href="https://docs.intersoftsapient.net/docs/integration-activation#/" icon="fa-solid fa-circle-play fa-beat" target="_blank">
         Connect with DHL Express and manage your shipping operations from a single platform.
