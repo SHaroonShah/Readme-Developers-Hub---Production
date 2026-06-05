@@ -47,15 +47,19 @@ The integration of DPD NL into the SAPIENT platform is a significant step in enh
   </Tab>
 
   <Tab title="Additional Features">
-    * **Consignment services**: Consignment services are supported, and DPD UK allows a maximum of 99 packages per consignment.
+    <Cards columns={2}>
+      <Card title="Consignment services" icon="fa-solid fa-boxes-stacked">
+        Consignment services are supported, and DPD UK allows a maximum of 99 packages per consignment.
+      </Card>
+
+      <Card title="Carrier-Specific Fields" icon="fa-solid fa-list-check">
+        The **CarrierSpecifics** object in the **Create Shipment** request includes **DeliveryInstructions** for providing additional delivery instructions to the carrier.
+      </Card>
+    </Cards>
 
     > 📘 *Note*
     >
     > *Please bear in mind that not all services offer consignment options.*
-
-    * **Carrier-Specific Fields**: The **CarrierSpecifics** object in the **Create Shipment** request contains the following field:
-
-      * **DeliveryInstructions**: To provide any additional instructions to the carrier regarding the delivery of the shipment
   </Tab>
 
   <Tab title="Service Enhancements">
