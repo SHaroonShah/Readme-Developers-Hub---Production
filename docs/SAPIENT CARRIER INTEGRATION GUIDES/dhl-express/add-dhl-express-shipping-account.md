@@ -236,29 +236,19 @@ To add a shipping account for DHL Express in SAPIENT, perform the steps as expla
   <ToggleListItem title="What type of books do owls like to read?">
     <Table>
       <thead>
-        
+        <tr>
           <th>
-            Element
+            <strong>API Key\*</strong>
           </th>
 
           <th>
-            Description
+            Enter the API key for the user account associated with DHL Express.
           </th>
-
+        </tr>
       </thead>
 
       <tbody>
-        <tr>
-          <td>
-            <strong>API Key\*</strong>
-          </td>
-
-          <td>
-            Enter the API key for the user account associated with DHL Express.
-          </td>
-        </tr>
-
-        <tr>
+        
           <td>
             <strong>API Secret\*</strong>
           </td>
@@ -266,9 +256,9 @@ To add a shipping account for DHL Express in SAPIENT, perform the steps as expla
           <td>
             Enter the API secret used to authenticate the user account with DHL Express.
           </td>
-        </tr>
+        
 
-        <tr>
+        
           <td>
             <strong>Archive Labels</strong>
           </td>
@@ -286,7 +276,7 @@ To add a shipping account for DHL Express in SAPIENT, perform the steps as expla
 
             <code><i>Note</i></code>: <i>The manifests can be downloaded from the SAPIENT’s <a href="https://docs.intersoftsapient.net/docs/manifest-history">View manifest history page</a>.</i>
           </td>
-        </tr>
+        
 
         <tr>
           <td>
