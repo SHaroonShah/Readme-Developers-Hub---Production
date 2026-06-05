@@ -165,15 +165,21 @@ DHL is the global leader in the logistics industry. DHL Express is a brand withi
         Configure tracking for your DHL Express shipments.
       </Card>
     </Cards>
-
   </Tab>
+
   <Tab title="API References">
     <Cards columns={2}>
       <Card title="SAPIENT DHL Express API" icon="fa-solid fa-code" href="">
         Explore the DHL Express API endpoints for a seamless shipping experience.
       </Card>
     </Cards>
- </Tab>
+  </Tab>
 </Tabs>
 
-<br />
+<Banner isInline={true} message="Ready to integrate?" color="#ffb600" textColor="#ffffff" fontSize="20px" fontWeight="bold" width="120px" />
+
+<Cards columns={0}>
+  <Card title="Activate this integration" href="https://docs.intersoftsapient.net/docs/integration-activation#/" icon="fa-solid fa-circle-play fa-beat" target="_blank">
+    Seamlessly connect with DHL Express and manage your shipping operations from a single platform.
+  </Card>
+</Cards>
