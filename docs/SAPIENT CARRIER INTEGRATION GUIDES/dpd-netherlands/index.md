@@ -50,7 +50,8 @@ The integration of DPD NL into the SAPIENT platform is a significant step in enh
     <Cards columns={2}>
       <Card title="Consignment services" icon="fa-solid fa-boxes-stacked">
         Consignment services are supported, and DPD UK allows a maximum of 99 packages per consignment.
-> *Please bear in mind that not all services offer consignment options.*
+
+        > *Please bear in mind that not all services offer consignment options.*
       </Card>
 
       <Card title="Carrier-Specific Fields" icon="fa-solid fa-list-check">
@@ -90,8 +91,6 @@ The integration of DPD NL into the SAPIENT platform is a significant step in enh
     </Callout>
   </Tab>
 </Tabs>
-
-<br />
 
 ## Key features
 
