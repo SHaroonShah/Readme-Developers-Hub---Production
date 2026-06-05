@@ -165,21 +165,15 @@ DHL is the global leader in the logistics industry. DHL Express is a brand withi
         Configure tracking for your DHL Express shipments.
       </Card>
     </Cards>
-  </Tab>
 
+  </Tab>
   <Tab title="API References">
     <Cards columns={2}>
-      <Cards columns={2}>
       <Card title="SAPIENT DHL Express API" icon="fa-solid fa-code" href="">
-        Explore the Amazon API endpoints for a seamless shipping experience.
+        Explore the DHL Express API endpoints for a seamless shipping experience.
       </Card>
     </Cards>
-
-      <Card title="Review DHL Express services" icon="fa-solid fa-list-check">
-        Review the DHL Express features, service enhancements, and API services before activating the integration.
-      </Card>
-    </Cards>
-  </Tab>
+ </Tab>
 </Tabs>
 
 <br />
