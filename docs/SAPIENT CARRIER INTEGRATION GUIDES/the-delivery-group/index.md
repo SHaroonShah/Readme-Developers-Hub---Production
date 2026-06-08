@@ -63,9 +63,11 @@ The Delivery Group (TDG) hands shipments over to other carriers for final-mile d
   </Tab>
 
   <Tab title="Service Enhancements">
-    * **Signed**: Requires a signature upon delivery of the shipment.
-    * **Delivery Instructions**: Provides special instructions related to the delivery of the shipment. This may involve guidance on how the package should be handled or specific requests regarding the delivery location, such as leaving the shipment at the back door or delivering it to a neighbour to sign.
-
+    <Cards columns={2}>
+<Card title="Signed" icon="fa-solid fa-sign">
+  Requires a signature upon delivery of the shipment.
+</Card>
+</Cards>
     <br />
 
     <Callout icon="💡" theme="default">
