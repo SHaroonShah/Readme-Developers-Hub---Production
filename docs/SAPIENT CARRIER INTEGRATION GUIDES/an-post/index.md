@@ -64,7 +64,8 @@ The integration of An Post, Ireland's national postal service, into the SAPIENT 
       </Card>
     </Cards>
   </Tab>
- <Tab title="Service Enhancements">
+
+  <Tab title="Service Enhancements">
     > 📘 *Note*
     >
     > *There are no service enhancements for this integration.*
@@ -132,7 +133,7 @@ The integration of An Post, Ireland's national postal service, into the SAPIENT 
   </Tab>
 
   <Tab title="Advanced Features">
-    <Cards columns={0}>
+    <Cards columns={1}>
       <Card title="Add Barcode Ranges" href="https://docs.intersoftsapient.net/docs/add-barcode-range-for-an-post-shipping-account" icon="fa-solid fa-barcode">
         Add barcode ranges to facilitate efficient tracking and management of shipments.
       </Card>
