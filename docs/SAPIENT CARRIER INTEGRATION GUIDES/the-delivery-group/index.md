@@ -13,7 +13,7 @@ metadata:
 next:
   description: ''
 ---
-<Image align="center" border={false} width="900px" src="https://files.readme.io/79449f551fdc59a798a190db96a351020b9c97a2f34998ca7b6f1d0acfbf4691-TDG_white_banner.png" />
+<Image align="center" width="900px" src="https://files.readme.io/79449f551fdc59a798a190db96a351020b9c97a2f34998ca7b6f1d0acfbf4691-TDG_white_banner.png" />
 
 The Delivery Group integration supports outbound shipping from Great Britain to domestic, European, and Rest of the World destinations through SAPIENT.
 
@@ -52,7 +52,7 @@ The Delivery Group (TDG) hands shipments over to other carriers for final-mile d
 
   <Tab title="Additional Features">
     <Cards columns={2}>
-      <Card title="Package Type" icon="fa-solid fa-box">
+      <Card title="Single Piece shipments" icon="fa-solid fa-box">
         The Delivery Group supports single-package shipments only. Consignment services are not supported.
       </Card>
 
@@ -71,7 +71,7 @@ The Delivery Group (TDG) hands shipments over to other carriers for final-mile d
     <Callout icon="💡" theme="default">
       ### *Tip*
 
-      *For more information on the service enhancements and carrier services, refer to the API References section.*
+      *For more information on the service enhancements and carrier services, refer to the [API References](https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-tdg) section.*
     </Callout>
   </Tab>
 </Tabs>
