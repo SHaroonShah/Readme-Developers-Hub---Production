@@ -24,13 +24,6 @@ In SAPIENT, you can add tracking accounts for The Delivery Group to enhance visi
 > 1. _Enabled the [label integration](https://docs.intersoftsapient.net/docs/integration-activation) with The Delivery Group._
 > 2. _Enabled the [tracking integration](https://docs.intersoftsapient.net/docs/integration-activation) with The Delivery Group._
 > 3. _Set up your <Glossary>tracking webhook</Glossary>. For more information on how to set up a tracking webhook, refer to the [Create tracking webhook](https://docs.intersoftsapient.net/docs/create-tracking-webhook) section. This is a one-time activity, you do not have to do this every time you add a tracking account._
->
-> _Before you start receiving the tracking information, please bear in mind the following:_
->
-> * _SAPIENT will start calling The Delivery Group’s tracking API 6 hours after the shipment is created in the database._
-> * _The frequency of tracking requests will be every 4 hours._
-> * _In the tracking request, SAPIENT will populate the **shipmentreference** field with the tracking number returned in the **carrierItemReference** field of the **SubmitItemAdvice** response._
-> * _SAPIENT will stop checking for tracking data when the final tracking event is received._
 
 ## How to add The Delivery Group tracking account
 
@@ -82,6 +75,17 @@ To add a tracking account for The Delivery Group in SAPIENT, follow the steps as
     Once done, the Delivery Group tracking account is added successfully and appears in the **Tracking Accounts** list. You can now receive the tracking information on your <Glossary>shipments</Glossary>.
   </ToggleListItem>
 </ToggleList>
+
+<Accordion title="Important considerations" icon="fa-info-circle">
+  <Callout icon="🚧" theme="warn">
+  Before you start receiving the tracking information, please bear in mind the following:_
+
+  * _SAPIENT will start calling The Delivery Group’s tracking API 6 hours after the shipment is created in the database._
+  * _The frequency of tracking requests will be every 4 hours._
+  * _In the tracking request, SAPIENT will populate the **shipmentreference** field with the tracking number returned in the **carrierItemReference** field of the **SubmitItemAdvice** response._
+  * _SAPIENT will stop checking for tracking data when the final tracking event is received._
+</Callout>
+</Accordion>
 
 ***
 
