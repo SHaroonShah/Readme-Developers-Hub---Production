@@ -74,7 +74,7 @@ The Delivery Group (TDG) hands shipments over to other carriers for final-mile d
     <Callout icon="💡" theme="default">
       ### *Tip*
 
-      *For more information on the service enhancements and carrier services, refer to the [API References](https://docs.intersoftsapient.net/reference/post_v4-shipments-tdg) section.*
+      *For more information on the service enhancements and carrier services, refer to the[API References](https://docs.intersoftsapient.net/reference/post_v4-shipments-tdg) section.*
     </Callout>
   </Tab>
 </Tabs>
@@ -86,13 +86,29 @@ The Delivery Group (TDG) hands shipments over to other carriers for final-mile d
 <Tabs>
   <Tab title="Core Services">
     <Accordion title="Create Shipment" icon="plus-circle">
-      Pre-advises The Delivery Group of shipments. SAPIENT requests The Delivery Group to send the label in the **SubmitItemAdvice** response, which returns the shipment tracking number and label. There is no need to call the **GetLabel** API to retrieve the label.
+      The integration for creating shipments to reflect The Delivery Group as a primary carrier and allowing users to create individual shipments requests using the **Create Shipment** endpoint.
+    </Accordion>
+
+    <br />
+
+    <Accordion title="Manifest Shipment" icon="plus-circle">
+      Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/v4.03/docs/manifest-webhook) to keep track of shipments and their statuses by to receiving real-time updates or notifications whenever specific events occur in the system (such as shipping updates, status changes, and so on).
     </Accordion>
   </Tab>
 
   <Tab title="Other Services">
+    <Accordion title="Print Label" icon="print">
+      Generate and return the label for The Delivery Group shipment in the PDF or PNG format. This endpoint must be utilised when the label is not generated in The Delivery Group Create Shipment request.
+
+      > 📘 *Note*
+      >
+      > *This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting.*
+    </Accordion>
+
+    <br />
+
     <Accordion title="Tracking" icon="print">
-      The Delivery Group tracking API uses the username and password set on the shipping account linked to the tracking account to authorise requests to the Tracking API.
+      The Delivery Group’s tracking API uses the username and password set on the shipping account linked to the tracking account is used to authorise requests to the Tracking API. This integration allows customers to monitor their shipments in real-time, providing transparency and peace of mind. Users can access detailed tracking information, including, real-time updates, tracking numbers, and delivery notifications. 
     </Accordion>
   </Tab>
 </Tabs>
@@ -116,7 +132,7 @@ The Delivery Group (TDG) hands shipments over to other carriers for final-mile d
 
   <Tab title="API References">
     <Cards columns={2}>
-      <Card title="SAPIENT The Delivery Group API" icon="fa-solid fa-code" href="">
+      <Card title="SAPIENT The Delivery Group API" icon="fa-solid fa-code" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-tdg">
         Explore The Delivery Group API endpoints for shipping and tracking.
       </Card>
     </Cards>
