@@ -74,7 +74,7 @@ The Delivery Group (TDG) hands shipments over to other carriers for final-mile d
     <Callout icon="💡" theme="default">
       ### *Tip*
 
-      *For more information on the service enhancements and carrier services, refer to the [API References](https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-tdg) section.*
+      *For more information on the service enhancements and carrier services, refer to the [API References](https://docs.intersoftsapient.net/reference/post_v4-shipments-tdg) section.*
     </Callout>
   </Tab>
 </Tabs>
