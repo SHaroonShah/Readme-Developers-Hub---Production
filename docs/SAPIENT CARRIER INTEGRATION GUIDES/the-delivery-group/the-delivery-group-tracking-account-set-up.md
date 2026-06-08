@@ -77,7 +77,7 @@ To add a tracking account for The Delivery Group in SAPIENT, follow the steps as
 </ToggleList>
 
 <Accordion title="Important considerations" icon="fa-info-circle">
-  Before you start receiving the tracking information, please bear in mind the following:\_
+  Before you start receiving the tracking information, please bear in mind the following:
 
   * SAPIENT will start calling The Delivery Group’s tracking API 6 hours after the shipment is created in the database.
   * The frequency of tracking requests will be every 4 hours.
