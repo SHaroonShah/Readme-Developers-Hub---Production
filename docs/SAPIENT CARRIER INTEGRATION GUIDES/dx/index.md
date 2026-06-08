@@ -52,16 +52,17 @@ Express is one of DX's core solutions that provides a fast and secure next-day d
 
   <Tab title="Additional Features">
     <Cards columns={1}>
-      <Card title="Single piece shipments" icon="fa-solid fa-box">
+      <Card title="Single Piece Shipments" icon="fa-solid fa-box">
         DX Express supports only single-piece shipments. The integration does not support consignment or multipiece shipments.
       </Card>
 
-      <Card title="Package types" icon="fa-solid fa-box-circle-check">
+      <Card title="Package Types" icon="fa-solid fa-box-circle-check">
         DX support their own <Glossary>package type</Glossary>s. You can look up for the packages types by calling the [Get Carrier Service Package Types](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services-servicecode-packagetypes#/) endpoint.
       </Card>
     </Cards>
   </Tab>
- <Tab title="Service Enhancements">
+
+  <Tab title="Service Enhancements">
     > 📘 *Note*
     >
     > *There are no service enhancements for this integration.*
@@ -72,47 +73,7 @@ Express is one of DX's core solutions that provides a fast and secure next-day d
 
 ## API Services
 
-<Tabs>
-  <Tab title="Core Services">
-    <Accordion title="Create Shipment" icon="plus-circle">
-      The integration for creating shipments to reflect DX Express as a primary carrier and allowing users to create individual shipments requests using the **Create Shipment** endpoint.
-    </Accordion>
-
-    <br />
-
-    <Accordion title="Cancel Shipment" icon="plus-circle">
-      The integration for directly calling the DX’s API to cancel shipments within DX’s system, to ensures that cancellations are fully registered with DX, helping prevent customers from being mistakenly charged for cancelled shipments. <br />
-
-      > 🚧 *Important*
-      >
-      > *If you attempt to release a held shipment to a later date, please be aware that the shipment will no longer be eligible for cancellation.*
-
-      <br />
-    </Accordion>
-
-    <br />
-
-    <Accordion title="Manifest Shipment" icon="plus-circle">
-      Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/v4.03/docs/manifest-webhook) to keep track of shipments and their statuses by to receiving real-time updates or notifications whenever specific events occur in the system (such as shipping updates, status changes, and so on).
-    </Accordion>
-  </Tab>
-
-  <Tab title="Other Services">
-    <Accordion title="Print Label" icon="print">
-      Generate and return the label for a DX Express shipment in the PDF or ZPL format. This endpoint must be utilised when the label is not generated in the DX Express Create Shipment request.
-
-      > 📘 *Note*
-      >
-      > *This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting.*
-    </Accordion>
-
-    <br />
-
-    <Accordion title="Tracking" icon="print">
-      This integration allows customers to monitor their shipments in real-time, providing transparency and peace of mind. Users can access detailed tracking information, including, real-time updates, tracking numbers, and delivery notifications.
-    </Accordion>
-  </Tab>
-</Tabs>
+<br />
 
 ***
 
