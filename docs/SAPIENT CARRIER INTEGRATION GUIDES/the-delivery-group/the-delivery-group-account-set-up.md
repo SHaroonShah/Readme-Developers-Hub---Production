@@ -28,7 +28,7 @@ In SAPIENT, you can create a The Delivery Group (TDG) shipping account by select
 
 <Tabs>
   <Tab title="Via SAPIENT UI">
-    To add a shipping account for The Delivery Group in SAPIENT, follow the instructions as explained in the following procedure:
+    To add a shipping account for The Delivery Group in SAPIENT, perform the steps as explained in the following procedure:
 
     <ToggleList>
       <ToggleListItem title="1. Select the Shipping Accounts page " icon="list-ol">
@@ -179,41 +179,10 @@ In SAPIENT, you can create a The Delivery Group (TDG) shipping account by select
 
         <AsteridkForMandatoryElements />
 
-        <Table align={["center","left"]}>
-          <thead>
-            <tr>
-              <th>
-                Element
-              </th>
-
-              <th>
-                Description
-              </th>
-            </tr>
-          </thead>
-
-          <tbody>
-            <tr>
-              <td>
-                **The Delivery Group Username**\*
-              </td>
-
-              <td>
-                Enter the user name that is registered with The Delivery Group.
-              </td>
-            </tr>
-
-            <tr>
-              <td>
-                **The Delivery Group Password**\*
-              </td>
-
-              <td>
-                Enter the password associated with The Delivery Group account. It is essential for securing the account and ensuring that only authorized users have access to shipping details and operations.
-              </td>
-            </tr>
-          </tbody>
-        </Table>
+        |              Element              | Description                                                                                                                                                                                     |
+        | :-------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+        | **The Delivery Group Username**\* | Enter the user name that is registered with The Delivery Group.                                                                                                                                 |
+        | **The Delivery Group Password**\* | Enter the password associated with The Delivery Group account. It is essential for securing the account and ensuring that only authorized users have access to shipping details and operations. |
 
         ***
       </ToggleListItem>
