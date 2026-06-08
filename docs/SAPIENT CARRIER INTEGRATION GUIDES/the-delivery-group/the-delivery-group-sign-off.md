@@ -11,9 +11,11 @@ metadata:
 ---
 Once you have [created](https://docs.intersoftsapient.net/docs/the-delivery-group-account-set-up#/) the Delivery Group (TDG) <Glossary>shipping account</Glossary>, make sure you have the correct information before you start using it to ship with The Delivery Group.
 
-> 💡 *Tip*
->
-> *The Delivery Group integration is pre-approved, but you must have the required information beforehand to ship with this carrier.*
+<Callout icon="💡" theme="default">
+  ### _Tip_
+
+  _The Delivery Group integration is pre-approved, but you must have the required information beforehand to ship with this carrier._
+</Callout>
 
 In order to ship with The Delivery Group, consider the following:
 
@@ -24,3 +26,21 @@ In order to ship with The Delivery Group, consider the following:
 5. It is also recommended to run the end to end test to ensure that the integration was set up correctly by sending out a test parcel. If tracking has been enabled for the carrier, then you should also receive the tracking events via the <Glossary>tracking webhook</Glossary>.
 6. After the TDG sign-off, a confirmation will be sent to you agreeing to go live.
 7. Now, you can set your account type as **Production** and start shipping with it.
+
+***
+
+### See also
+
+<Cards columns={3}>
+  <Card title="Add Shipping Account" href="https://docs.intersoftsapient.net/docs/the-delivery-group-account-set-up" icon="fa-solid fa-truck">
+    Access the step-by-step guide on how to set up The Delivery Group shipping account on SAPIENT.
+  </Card>
+
+  <Card title="Add Tracking Account" href="https://docs.intersoftsapient.net/docs/the-delivery-group-tracking-account-set-up" icon="fa-solid fa-search-location">
+    Access the step-by-step guide on how to set up The Delivery Group tracking account on SAPIENT.
+  </Card>
+
+  <Card title="API References" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-tdg" icon="fa-solid fa-code">
+    Explore The Delivery Group API endpoints for a seamless shipping experience.
+  </Card>
+</Cards>
