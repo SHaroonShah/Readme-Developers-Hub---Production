@@ -1,9 +1,8 @@
 ---
 title: The Delivery Group
 excerpt: >-
-  The Delivery Group (TDG) is a prominent carrier specializing in mail
-  distribution services to enhance the efficiency of shipping and delivery
-  processes.
+  The Delivery Group integration supports outbound shipping from Great Britain
+  to domestic, European, and Rest of the World destinations through SAPIENT.
 deprecated: false
 hidden: false
 icon: fad fa-truck-fast
@@ -16,40 +15,115 @@ next:
 ---
 <Image align="center" border={false} width="900px" src="https://files.readme.io/79449f551fdc59a798a190db96a351020b9c97a2f34998ca7b6f1d0acfbf4691-TDG_white_banner.png" />
 
+The Delivery Group integration supports outbound shipping from Great Britain to domestic, European, and Rest of the World destinations through SAPIENT.
+
 ***
 
-The Delivery Group (TD handover to other carries for final mile delivery of their shipments. Therefore, the services for this integration include services for carriers such as Evri and Yodel. We just create the shipment with The Delivery Group using the requested service, and The Delivery Group manage sending the data and transferring the shipment to the final mile carrier.
+The Delivery Group (TDG) hands shipments over to other carriers for final-mile delivery. Services for this integration include carriers such as Evri and Yodel. SAPIENT creates the shipment with The Delivery Group using the requested service, and The Delivery Group manages sending the data and transferring the shipment to the final-mile carrier.
 
-## Key features
+## Overview
 
-The Delivery Group integration provides the following key features:
+<Tabs>
+  <Tab title="Key Features">
+    <Cards columns={2}>
+      <Card title="Shipping Origins" icon="fa-map-marker-alt">
+        The integration supports shipping from locations in Great Britain (GB) only.
+      </Card>
 
-* **Ship from destinations**: The integration supports shipping from locations in Great Britain (GB) only.
-* **Ship to destinations**: Users can send <Glossary>shipments</Glossary> to Great Britain (GB), Europe (EU), and the <Glossary>ROW</Glossary> (Rest of the World).
-* **Outbound/Returns services**: Outbound only.
-* **Incoterms**: <Glossary>DDU</Glossary> and <Glossary>DDP</Glossary>
-* **Label formats**: <Glossary>PDF</Glossary> and <Glossary>PNG</Glossary>.
+      <Card title="Shipping Destinations" icon="fa-solid fa-globe">
+        Users can send <Glossary>shipments</Glossary> to Great Britain (GB), Europe (EU), and the <Glossary>ROW</Glossary> (Rest of the World).
+      </Card>
 
-## Service enhancements
+      <Card title="Service Type" icon="fa-solid fa-shipping-fast">
+        The integration supports outbound shipping only.
+      </Card>
 
-* **Signed**: To require a signature is required upon delivery of the shipment.
-* **Delivery instructions**: To provide special instructions related to the delivery of the shipment. This may involve guidance on how the package should be handled or specific requests regarding the delivery location (for example, leave at the back door or deliver to a neighbour to sign).
+      <Card title="Incoterms Support" icon="fa-solid fa-file-contract">
+        The integration supports <Glossary>DDU</Glossary> and <Glossary>DDP</Glossary>.
+      </Card>
 
-## Additional features
+      <Card title="Label Formats" icon="fa-solid fa-tag">
+        <Glossary>PDF</Glossary> and <Glossary>PNG</Glossary>.
+      </Card>
+    </Cards>
 
-The TDG integration provides the following additional features:
+    <br />
+  </Tab>
 
-* **Package type**: Single-package shipments only. Consignment services are not supported.
-* **Package dimensions**: Mandatory for TDG.
+  <Tab title="Additional Features">
+    <Cards columns={2}>
+      <Card title="Package Type" icon="fa-solid fa-box">
+        The Delivery Group supports single-package shipments only. Consignment services are not supported.
+      </Card>
 
-## Carrier API services
+      <Card title="Package Dimensions" icon="fa-solid fa-ruler-combined">
+        Package dimensions are mandatory for The Delivery Group shipments.
+      </Card>
+    </Cards>
+  </Tab>
 
-The following services are included in the The Delivery Group carrier integration:
+  <Tab title="Service Enhancements">
+    * **Signed**: Requires a signature upon delivery of the shipment.
+    * **Delivery Instructions**: Provides special instructions related to the delivery of the shipment. This may involve guidance on how the package should be handled or specific requests regarding the delivery location, such as leaving the shipment at the back door or delivering it to a neighbour to sign.
 
-* **Create Shipment**: This is used to pre-advise the Delivery Group of shipments. In this case, we will request The Delivery Group to send the label in the **SubmitItemAdvice** response, which returns the shipment tracking number and label, therefore there is no need to call the **GetLabel** API to retrieve the label.
-* **Tracking**: The Delivery Group’s tracking API uses the username and password set on the shipping account linked to the tracking account is used to authorise requests to the Tracking API.
+    <br />
 
-In this section, learn how to
+    <Callout icon="💡" theme="default">
+      ### *Tip*
 
-* [Add the delivery group shipping account](https://docs.intersoftsapient.net/docs/the-delivery-group-account-set-up#/)
-* [Add the delivery group tracking account](https://docs.intersoftsapient.net/docs/the-delivery-group-tracking-account-set-up#/)
+      *For more information on the service enhancements and carrier services, refer to the API References section.*
+    </Callout>
+  </Tab>
+</Tabs>
+
+***
+
+## API Services
+
+<Tabs>
+  <Tab title="Core Services">
+    <Accordion title="Create Shipment" icon="plus-circle">
+      Pre-advises The Delivery Group of shipments. SAPIENT requests The Delivery Group to send the label in the **SubmitItemAdvice** response, which returns the shipment tracking number and label. There is no need to call the **GetLabel** API to retrieve the label.
+    </Accordion>
+  </Tab>
+
+  <Tab title="Other Services">
+    <Accordion title="Tracking" icon="print">
+      The Delivery Group tracking API uses the username and password set on the shipping account linked to the tracking account to authorise requests to the Tracking API.
+    </Accordion>
+  </Tab>
+</Tabs>
+
+***
+
+## Getting Started
+
+<Tabs>
+  <Tab title="Account Setup">
+    <Cards columns={2}>
+      <Card title="Add The Delivery Group Shipping Account" icon="fa-solid fa-truck" href="https://docs.intersoftsapient.net/docs/the-delivery-group-account-set-up#/">
+        Set up your The Delivery Group shipping account to start creating shipments.
+      </Card>
+
+      <Card title="Add The Delivery Group Tracking Account" icon="fa-solid fa-search-location" href="https://docs.intersoftsapient.net/docs/the-delivery-group-tracking-account-set-up#/">
+        Configure tracking for your The Delivery Group shipments.
+      </Card>
+    </Cards>
+  </Tab>
+
+  <Tab title="API References">
+    <Cards columns={2}>
+      <Card title="SAPIENT The Delivery Group API" icon="fa-solid fa-code" href="">
+        Explore The Delivery Group API endpoints for shipping and tracking.
+      </Card>
+    </Cards>
+  </Tab>
+</Tabs>
+
+<Banner isInline={true} message="Ready to integrate?" color="#ffb600" textColor="#ffffff" fontSize="20px" fontWeight="bold" width="120px" />
+
+<Cards columns={0}>
+  <Card title="Activate this integration" href="https://docs.intersoftsapient.net/docs/integration-activation#/" icon="fa-solid fa-circle-play fa-beat" target="_blank">
+    Connect with The Delivery Group and manage your shipping operations from a single platform.
+  </Card>
+</Cards>
