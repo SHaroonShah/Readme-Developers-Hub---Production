@@ -108,7 +108,7 @@ The Delivery Group (TDG) hands shipments over to other carriers for final-mile d
     <br />
 
     <Accordion title="Tracking" icon="print">
-      The Delivery Group’s tracking API uses the username and password set on the shipping account linked to the tracking account is used to authorise requests to the Tracking API. This integration allows customers to monitor their shipments in real-time, providing transparency and peace of mind. Users can access detailed tracking information, including, real-time updates, tracking numbers, and delivery notifications. 
+      The Delivery Group’s tracking API uses the username and password set on the shipping account linked to the tracking account is used to authorise requests to the Tracking API. This integration allows customers to monitor their shipments in real-time, providing transparency and peace of mind. Users can access detailed tracking information, including, real-time updates, tracking numbers, and delivery notifications.
     </Accordion>
   </Tab>
 </Tabs>
@@ -134,6 +134,13 @@ The Delivery Group (TDG) hands shipments over to other carriers for final-mile d
     <Cards columns={2}>
       <Card title="SAPIENT The Delivery Group API" icon="fa-solid fa-code" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-tdg">
         Explore The Delivery Group API endpoints for shipping and tracking.
+      </Card>
+    </Cards>
+  </Tab>
+ <Tab title="Sign-Off">
+    <Cards>
+      <Card title="TDG Sign-off Process" href="https://docs.intersoftsapient.net/docs/the-delivery-group-sign-off" icon="fa-solid fa-file-signature">
+        Complete all the necessary steps before using The Delivery Group for creating shipments on SAPIENT.
       </Card>
     </Cards>
   </Tab>
