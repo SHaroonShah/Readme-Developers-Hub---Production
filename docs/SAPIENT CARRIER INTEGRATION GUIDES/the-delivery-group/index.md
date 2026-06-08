@@ -64,16 +64,17 @@ The Delivery Group (TDG) hands shipments over to other carriers for final-mile d
 
   <Tab title="Service Enhancements">
     <Cards columns={2}>
-<Card title="Signed" icon="fa-solid fa-sign">
-  Requires a signature upon delivery of the shipment.
-</Card>
-</Cards>
+      <Card title="Signed" icon="fa-solid fa-signature">
+        Requires a signature upon delivery of the shipment.
+      </Card>
+    </Cards>
+
     <br />
 
     <Callout icon="💡" theme="default">
       ### *Tip*
 
-      *For more information on the service enhancements and carrier services, refer to the [API References](https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-tdg) section.*
+      *For more information on the service enhancements and carrier services, refer to the[API References](https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-tdg) section.*
     </Callout>
   </Tab>
 </Tabs>
