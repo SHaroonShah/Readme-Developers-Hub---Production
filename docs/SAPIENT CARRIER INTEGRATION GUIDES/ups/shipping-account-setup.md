@@ -212,5 +212,3 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
     Update or modify an existing shipping account.
   </Card>
 </Cards>
-
-<br />
