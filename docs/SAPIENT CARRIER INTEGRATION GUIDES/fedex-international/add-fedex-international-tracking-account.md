@@ -65,7 +65,7 @@ To add a tracking account for Amazon in SAPIENT, follow the steps as explained i
 
     |         Element        | Description                                                                                                      |
     | :--------------------: | :--------------------------------------------------------------------------------------------------------------- |
-    |      **Carrier**\*     | From the dropdown menu, select **FIC - FedEx International Connect** as your carrier option.                     |
+    |      **Carrier**\*     | From the dropdown menu, select FedEx International Connect as your carrier option.                     |
     | **Shipping Account**\* | From the dropdown menu, select the <Glossary>shipping account</Glossary> for which you want to receive tracking. |
 
     <br />
