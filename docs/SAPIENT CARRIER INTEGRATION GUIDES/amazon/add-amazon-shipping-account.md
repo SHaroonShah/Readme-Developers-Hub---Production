@@ -26,6 +26,10 @@ To add a shipping account for Amazon in SAPIENT, follow the instructions as expl
 ## How to add Amazon shipping account via UI
 
 <Tabs>
+  <Tab title="Via SAPIENT UI">
+</Tab>
+
+<Tabs>
   <Tab title="Add On-Amazon shipping account">
     To add an On-Amazon shipping account to SAPIENT, perform the steps as explained in the following procedure.
 
@@ -475,7 +479,12 @@ To add a shipping account for Amazon in SAPIENT, follow the instructions as expl
       </ToggleListItem>
     </ToggleList>
   </Tab>
+  </Tabs>
+  <Tab title="Via API">
+  </Tab>
 </Tabs>
+
+
 
 > 📘 _Note_
 >
