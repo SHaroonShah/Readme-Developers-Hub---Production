@@ -72,7 +72,7 @@ The UPS carrier integration within the SAPIENT system enables seamless communica
   </Tab>
 
   <Tab title="Service Enhancements">
-    <Cards columns={1}>
+    <Cards columns={2}>
       <Card title="Email Notification" icon="fa-solid fa-envelope">
         To use this enhancement, you must provide a valid email address.
       </Card>
