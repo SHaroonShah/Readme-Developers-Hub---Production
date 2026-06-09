@@ -189,8 +189,6 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
 
               <td>
                 Enter your UPS client ID.
-
-                _`Note`: In order to obtain your client ID, you need to create an application. This application is linked to your shipper account(s) and email address that are associated with your ups.com ID.  For a step by step guide on how to get these credentials, refer to the [Getting Started with UPS APIs](https://developer.ups.com/get-started?loc=en_US\&utm_source=hs_email\&utm_medium=email&_hsenc=p2ANqtz-8n0kt_beo2J5QHe3SljjztyPcwEo3zauJzWPnJINftBYbljxxRD5Wv334sxXTuPf_-cyWE) user guide._
               </td>
             </tr>
 
@@ -201,12 +199,15 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
 
               <td>
                 Enter your UPS client secret.
-
-                _`Note`: In order to obtain your client secret, you need to create an application. This application is linked to your shipper accounts(s) and email address that are associated with your ups.com ID.  For a step by step guide on how to get these credentials, refer to the [Getting Started with UPS APIs](https://developer.ups.com/get-started?loc=en_US\&utm_source=hs_email\&utm_medium=email&_hsenc=p2ANqtz-8n0kt_beo2J5QHe3SljjztyPcwEo3zauJzWPnJINftBYbljxxRD5Wv334sxXTuPf_-cyWE) user guide._
               </td>
             </tr>
           </tbody>
         </Table>
+        <br />
+> 📘 _Note_
+>
+> _In order to obtain your client secret, you need to create an application. This application is linked to your shipper accounts(s) and email address that are associated with your ups.com ID.  For a step by step guide on how to get these credentials, refer to the <Anchor label="Getting Started with UPS APIs" target="_blank" href="https://developer.ups.com/get-started?loc=en_US&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-">Getting Started with UPS APIs</Anchor> user guide._
+
 
         ***
       </ToggleListItem>
@@ -242,4 +243,6 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
   </Card>
 </Cards>
 
-<br />
+> 📘 _Note_
+>
+> In order to obtain your client secret, you need to create an application. This application is linked to your shipper accounts(s) and email address that are associated with your ups.com ID.  For a step by step guide on how to get these credentials, refer to the <Anchor label="Getting Started with UPS APIs" target="_blank" href="https://developer.ups.com/get-started?loc=en_US&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-">Getting Started with UPS APIs</Anchor> user guide.
