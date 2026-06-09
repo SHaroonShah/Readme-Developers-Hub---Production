@@ -21,12 +21,11 @@ In SAPIENT, you can create both <Glossary>On-Amazon</Glossary> and <Glossary>Off
 >
 > _For more information on how to add and manage shipping accounts via the API, refer to the [API References](https://docs.intersoftsapient.net/reference/get_v4-carriers) section._
 
-To add a shipping account for Amazon in SAPIENT, follow the instructions as explained in the following procedures for each account type.
-
 ## How to add Amazon shipping account via UI
 
 <Tabs>
   <Tab title="Via SAPIENT UI">
+To add a shipping account for Amazon in SAPIENT, follow the instructions as explained in the following procedures for each account type.
     <Accordion title="Add On-Amazon shipping account" icon="fa-brands fa-amazon">
       To add an On-Amazon shipping account to SAPIENT, perform the steps as explained in the following procedure.
 
@@ -247,7 +246,9 @@ To add a shipping account for Amazon in SAPIENT, follow the instructions as expl
         </ToggleListItem>
       </ToggleList>
     </Accordion>
-<br />
+
+    <br />
+
     <Accordion title="Add Off-Amazon shipping account" icon="fa-brands fa-amazon">
       To add an Off-Amazon shipping accoun to SAPIENT, perform the steps as explained in the following prcedure.
 
@@ -479,8 +480,7 @@ To add a shipping account for Amazon in SAPIENT, follow the instructions as expl
   </Tab>
 
   <Tab title="Via API">
-    
- To add an Amazon shipping account via API, refer to the following API endpoint.
+    To add an Amazon shipping account via API, refer to the following API endpoint.
 
     <Cards>
       <Card title="Add Account" href="https://docs.intersoftsapient.net/reference/post_v4-shippingaccounts-amazon" icon="fa-code">
