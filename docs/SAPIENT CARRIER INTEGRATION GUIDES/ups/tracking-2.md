@@ -27,7 +27,7 @@ In SAPIENT, you can add tracking accounts for UPS to enhance visibility, improvi
 
 ## How to add UPS tracking account
 
-To add a tracking account for UPS in SAPIENT, follow the steps as explained in the following procedure.
+To add a tracking account for UPS in SAPIENT, perform the steps as explained in the following procedure.
 
 <ToggleList>
   <ToggleListItem title="1. Navigate to the Tracking Accounts tab">
