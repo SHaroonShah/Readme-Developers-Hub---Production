@@ -168,46 +168,16 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
 
         <AsteridkForMandatoryElements />
 
-        <Table align={["center","left"]}>
-          <thead>
-            <tr>
-              <th>
-                Element
-              </th>
+        |         Element         | Description                   |
+        | :---------------------: | :---------------------------- |
+        |   **UPS Client Id**\*   | Enter your UPS client ID.     |
+        | **UPS Client Secret**\* | Enter your UPS client secret. |
 
-              <th>
-                Description
-              </th>
-            </tr>
-          </thead>
-
-          <tbody>
-            <tr>
-              <td>
-                **UPS Client Id**\*
-              </td>
-
-              <td>
-                Enter your UPS client ID.
-              </td>
-            </tr>
-
-            <tr>
-              <td>
-                **UPS Client Secret**\*
-              </td>
-
-              <td>
-                Enter your UPS client secret.
-              </td>
-            </tr>
-          </tbody>
-        </Table>
         <br />
-> 📘 _Note_
->
-> _In order to obtain your client secret, you need to create an application. This application is linked to your shipper accounts(s) and email address that are associated with your ups.com ID.  For a step by step guide on how to get these credentials, refer to the <Anchor label="Getting Started with UPS APIs" target="_blank" href="https://developer.ups.com/get-started?loc=en_US&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-">Getting Started with UPS APIs</Anchor> user guide._
 
+        > 📘 *Note*
+        >
+        > *To btain your client ID and secret, you need to create an application. This application is linked to your shipper accounts(s) and email address that are associated with your ups.com ID.  For a step by step guide on how to get these credentials, refer to the<Anchor label="Getting Started with UPS APIs" target="_blank" href="https://developer.ups.com/get-started?loc=en_US&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-">Getting Started with UPS APIs</Anchor> user guide.*
 
         ***
       </ToggleListItem>
