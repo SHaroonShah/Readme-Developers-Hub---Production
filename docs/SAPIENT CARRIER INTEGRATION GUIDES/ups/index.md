@@ -80,6 +80,7 @@ The UPS carrier integration within the SAPIENT system enables seamless communica
     * **Saturday Delivery**: Permits delivery on Saturdays, offering greater flexibility in shipping schedules.
     * **Adult Signature**: Requires an adult signature upon delivery, ensuring that the package is received by someone of legal age.
   </Tab>
+
   <Tab title="Carrier Services">
     <Cards columns={1}>
       <Card title="UPS Worldwide Express" icon="fa-solid fa-plane-departure">
@@ -109,43 +110,7 @@ The UPS carrier integration within the SAPIENT system enables seamless communica
 
 ## API Services
 
-<Tabs>
-  <Tab title="Carrier Services">
-    <Cards columns={1}>
-      <Card title="UPS Worldwide Express" icon="fa-solid fa-plane-departure">
-        This service provides guaranteed morning, next-business-day delivery to and from most business areas within the country and day-definite delivery within three days for international shipments from more than 45 countries and territories to more than 185 countries and territories.
-      </Card>
-
-      <Card title="UPS Standard" icon="fa-solid fa-truck">
-        This service provides scheduled day-definite delivery to and from most addresses within the country and scheduled day-definite delivery within five days for international shipments to and from more than 30 countries and territories.
-      </Card>
-
-      <Card title="UPS Worldwide Expedited" icon="fa-solid fa-earth-americas">
-        This service provides day-definite delivery to over 220 countries and territories. Fully tracked, with generous weight limits up to 150 lbs.
-      </Card>
-
-      <Card title="UPS Worldwide Expedited Plus" icon="fa-solid fa-gauge-high">
-        This service provides premium express service with the fastest international delivery times.
-      </Card>
-
-      <Card title="UPS Worldwide Saver" icon="fa-solid fa-business-time">
-        This service provides guaranteed afternoon delivery to over 215 countries and territories.
-      </Card>
-    </Cards>
-  </Tab>
-
-  <Tab title="API Capabilities">
-    <Cards columns={1}>
-      <Card title="Create Shipment" icon="fa-solid fa-box">
-        Create shipments using UPS as a primary carrier through the Create Shipment endpoint.
-      </Card>
-
-      <Card title="Tracking" icon="fa-solid fa-search-location">
-        Track and monitor shipments in real time by receiving automatic updates on shipment status, delivery progress, and exceptions.
-      </Card>
-    </Cards>
-  </Tab>
-</Tabs>
+<br />
 
 ***
 
