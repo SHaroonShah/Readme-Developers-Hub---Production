@@ -55,9 +55,9 @@ To add a tracking account for DPD NL in SAPIENT, follow the steps as explained i
 
     <AsteridkForMandatoryElements />
 
-    |         Element        | Description                                                                                                                                                                                                                               |
-    | :--------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-    |      **Carrier**\*     | From the dropdown menu, select DPD Netherlands as your carrier option.                                                                                                                                                                    |
+    |         Element        | Description                                                                                                                                                                                                                                      |
+    | :--------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+    |      **Carrier**\*     | From the dropdown menu, select DPD Netherlands as your carrier option.                                                                                                                                                                           |
     | **Shipping Account**\* | From the dropdown menu, select the <Glossary>shipping account</Glossary> for which you want to receive tracking. <br /> *`Note:`You can also select the**All Shipping Accounts** option to add this tracking account for all existing accounts.* |
 
     <br />
@@ -86,7 +86,7 @@ To add a tracking account for DPD NL in SAPIENT, follow the steps as explained i
 
   <br />
 
-  <ToggleListItem title="Step 5: Save and add the tracking account">
+  <ToggleListItem title="5. Save and add the tracking account">
     After entering all the necessary information, select ![](https://files.readme.io/2b94d65d1e560fcc17ab8e2c3e2af0c1e52b9dad2a1484f80ad7652b734ba1be-Add_tracking_account_button_2.png).
 
     Once done, the DPD NL tracking account is added successfully and appears in the **Tracking Accounts** list. You can now receive the tracking information on your <Glossary>shipments</Glossary>.
