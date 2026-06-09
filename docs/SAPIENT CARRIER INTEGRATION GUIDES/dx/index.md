@@ -84,9 +84,9 @@ Express is one of DX's core solutions that provides a fast and secure next-day d
     <Accordion title="Cancel Shipment" icon="plus-circle">
       The integration for directly calling the DX’s API to cancel shipments within DX’s system, to ensures that cancellations are fully registered with DX, helping prevent customers from being mistakenly charged for cancelled shipments. <br />
 
-      <Callout icon="info" theme="info">
-        *If you attempt to release a held shipment to a later date, please be aware that the shipment will no longer be eligible for cancellation. Shipments can only be cancelled if they have not been manifested.*
-      </Callout>
+     > 🚧 _Important_
+>
+> _If you attempt to release a held shipment to a later date, please be aware that the shipment will no longer be eligible for cancellation. Shipments can only be cancelled if they have not been manifested._
 
       <br />
     </Accordion>
@@ -164,3 +164,5 @@ Express is one of DX's core solutions that provides a fast and secure next-day d
     Seamlessly connect with DX Express and manage your shipping operations from a single platform.
   </Card>
 </Cards>
+
+<br />
