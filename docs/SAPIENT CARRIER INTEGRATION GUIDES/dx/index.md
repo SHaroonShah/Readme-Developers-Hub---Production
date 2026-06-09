@@ -73,7 +73,47 @@ Express is one of DX's core solutions that provides a fast and secure next-day d
 
 ## API Services
 
-<br />
+<Tabs>
+  <Tab title="Core Services">
+    <Accordion title="Create Shipment" icon="plus-circle">
+      The integration for creating shipments to reflect DX as a primary carrier and allowing users to create individual shipments requests using the **Create Shipment** endpoint.
+    </Accordion>
+
+    <br />
+
+    <Accordion title="Cancel Shipment" icon="plus-circle">
+      The integration for directly calling the DX’s API to cancel shipments within DX’s system, to ensures that cancellations are fully registered with DX, helping prevent customers from being mistakenly charged for cancelled shipments. <br />
+
+      <Callout icon="info" theme="info">
+        *If you attempt to release a held shipment to a later date, please be aware that the shipment will no longer be eligible for cancellation. Shipments can only be cancelled if they have not been manifested.*
+      </Callout>
+
+      <br />
+    </Accordion>
+
+    <br />
+
+    <Accordion title="Manifest Shipment" icon="plus-circle">
+      Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/v4.03/docs/manifest-webhook) to keep track of shipments and their statuses by to receiving real-time updates or notifications whenever specific events occur in the system (such as shipping updates, status changes, and so on).
+    </Accordion>
+  </Tab>
+
+  <Tab title="Other Services">
+    <Accordion title="Print Label" icon="print">
+      Generate and return the label for DX shipment in the supported label formats. This endpoint must be utilised when the label is not generated in the DX Create Shipment request.
+
+      > 📘 *Note*
+      >
+      > *This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting.*
+    </Accordion>
+
+    <br />
+
+    <Accordion title="Tracking" icon="print">
+      Enables customers to receive tracking updates through their integration with the SAPIENT tracking webhook.
+    </Accordion>
+  </Tab>
+</Tabs>
 
 ***
 
