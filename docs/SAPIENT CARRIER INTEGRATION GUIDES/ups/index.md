@@ -72,35 +72,13 @@ The UPS carrier integration within the SAPIENT system enables seamless communica
   </Tab>
 
   <Tab title="Service Enhancements">
-    <Cards columns={2}>
-      <Card title="Email Notification" icon="fa-solid fa-envelope">
-        To use this enhancement, you must provide a valid email address.
-      </Card>
-
-      <Card title="QV (Quantum View) Ship" icon="fa-solid fa-paper-plane">
-        Sends an email notification to the shipper when the shipment has been shipped.
-      </Card>
-
-      <Card title="QV Exception" icon="fa-solid fa-triangle-exclamation">
-        Notifies the shipper via email if there is an exception or issue with the shipment during transit.
-      </Card>
-
-      <Card title="QV Delivery" icon="fa-solid fa-circle-check">
-        Allows UPS to send an email notification to the shipper when the shipment has been successfully delivered.
-      </Card>
-
-      <Card title="Alternate Delivery Location" icon="fa-solid fa-map-location-dot">
-        Sends an email notification to the shipper with details of the alternative delivery location if the package cannot be delivered to the original address.
-      </Card>
-
-      <Card title="Saturday Delivery" icon="fa-solid fa-calendar-day">
-        Permits delivery on Saturdays, offering greater flexibility in shipping schedules.
-      </Card>
-
-      <Card title="Adult Signature" icon="fa-solid fa-signature">
-        Requires an adult signature upon delivery, ensuring that the package is received by someone of legal age.
-      </Card>
-    </Cards>
+    * **Email Notification**: To use this enhancement, you must provide a valid email address.
+    * **QV (Quantum View) Ship**: Sends an email notification to the shipper when the shipment has been shipped.
+    * **QV Exception**: Notifies the shipper via email if there is an exception or issue with the shipment during transit.
+    * **QV Delivery**: Allows UPS to send an email notification to the shipper when the shipment has been successfully delivered.
+    * **Alternate Delivery Location**: Sends an email notification to the shipper with details of the alternative delivery location if the package cannot be delivered to the original address.
+    * **Saturday Delivery**: Permits delivery on Saturdays, offering greater flexibility in shipping schedules.
+    * **Adult Signature**: Requires an adult signature upon delivery, ensuring that the package is received by someone of legal age.
   </Tab>
 </Tabs>
 
