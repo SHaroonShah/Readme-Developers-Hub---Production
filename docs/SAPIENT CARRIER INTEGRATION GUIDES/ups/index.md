@@ -96,7 +96,7 @@ The UPS carrier integration within the SAPIENT system enables seamless communica
 
     > 📘 *Note*
     >
-    > *For  the up-to-date carrier services, use the[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint.*
+    > *For  the up-to-date carrier services, use the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint.*
   </Tab>
 </Tabs>
 
