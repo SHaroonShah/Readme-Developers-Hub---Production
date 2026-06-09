@@ -25,7 +25,8 @@ In SAPIENT, you can create both <Glossary>On-Amazon</Glossary> and <Glossary>Off
 
 <Tabs>
   <Tab title="Via SAPIENT UI">
-To add a shipping account for Amazon in SAPIENT, perform the steps as explained in the following procedures for each account type.
+    To add a shipping account for Amazon in SAPIENT, perform the steps as explained in the following procedures for each account type.
+
     <Accordion title="Add On-Amazon shipping account" icon="fa-brands fa-amazon">
       To add an On-Amazon shipping account to SAPIENT, perform the steps as explained in the following procedure.
 
@@ -64,7 +65,9 @@ To add a shipping account for Amazon in SAPIENT, perform the steps as explained 
           On the **Add Shipping Account** form that appears, in the **ACCOUNT DETAILS** block, fill in the necessary information as described in the following table.
 
           <Image align="center" src="https://files.readme.io/10427aae4b293b0b20082bb43c8049ae5ed57cf38f954946f530b23053d64864-Account_details_block_Amazon.png" width="500px" alt="Entering account details" />
-<br />
+
+          <br />
+
           <AsteridkForMandatoryElements />
 
           |         Element         | Description                                                                                                   |
@@ -83,7 +86,9 @@ To add a shipping account for Amazon in SAPIENT, perform the steps as explained 
           In the **SHIPPING ACCOUNT** block, enter the necessary information as explained in the following table.
 
           <Image align="center" border={true} src="https://files.readme.io/53a765a066729b4aa4b2d740073f4681bc75f021b3c396fd317e9ba810a2247b-Shipping_account_block_Amazon.png" width="600px" alt="Specifying shipping account details" />
-<br />
+
+          <br />
+
           <Callout icon="💡" theme="default">
             ### *Tip*
 
@@ -283,7 +288,9 @@ To add a shipping account for Amazon in SAPIENT, perform the steps as explained 
           On the **Add Shipping Account** form that appears, in the **ACCOUNT DETAILS** block, fill in the necessary information as described in the following table.
 
           <Image align="center" src="https://files.readme.io/10427aae4b293b0b20082bb43c8049ae5ed57cf38f954946f530b23053d64864-Account_details_block_Amazon.png" width="500px" alt="Entering account details" />
-<br />
+
+          <br />
+
           <AsteridkForMandatoryElements />
 
           |         Element         | Description                                                                                                   |
@@ -302,7 +309,9 @@ To add a shipping account for Amazon in SAPIENT, perform the steps as explained 
           In the **SHIPPING ACCOUNT** block, enter the necessary information as explained in the following table.
 
           <Image align="center" border={true} src="https://files.readme.io/53a765a066729b4aa4b2d740073f4681bc75f021b3c396fd317e9ba810a2247b-Shipping_account_block_Amazon.png" width="600px" alt="Specifying shipping account details" />
-<br />
+
+          <br />
+
           <Callout icon="💡" theme="default">
             ### *Tip*
 
@@ -489,13 +498,6 @@ To add a shipping account for Amazon in SAPIENT, perform the steps as explained 
     </Cards>
   </Tab>
 </Tabs>
-
-> 📘 _Note_
->
-> _Once the Amazon integration is activated, please bear in mind the following:_
->
-> * _You cannot swap between the On-Amazon and Off-Amazon shipping accounts after their creation._
-> * _You can add and manage the shipping accounts via <Anchor label="API" target="_blank" href="https://docs.intersoftsapient.net/reference/post_v4-shippingaccounts-amazon">API</Anchor>, but you first need to log into the SAPIENT UI and complete the Login With Amazon (LWA) process._
 
 ***
 
