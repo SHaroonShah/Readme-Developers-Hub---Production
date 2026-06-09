@@ -58,13 +58,14 @@ To add a tracking account for DPD NL in SAPIENT, follow the steps as explained i
     |         Element        | Description                                                                                                      |
     | :--------------------: | :--------------------------------------------------------------------------------------------------------------- |
     |      **Carrier**\*     | From the dropdown menu, select DPD Netherlands as your carrier option.                                           |
-    | **Shipping Account**\* | From the dropdown menu, select the <Glossary>shipping account</Glossary> for which you want to receive tracking. |
+    | **Shipping Account**\* | From the dropdown menu, select the <Glossary>shipping account</Glossary> for which you want to receive tracking. 
+_`Note:`You can also select the**All Shipping Accounts** option to add this tracking account for all existing accounts._ |
 
     <br />
 
     > 📘 *Note*
     >
-    > *You can also select the **All Shipping Accounts** option to add this tracking account for all existing accounts.*
+    > *You can also select the**All Shipping Accounts** option to add this tracking account for all existing accounts.*
 
     ***
   </ToggleListItem>
@@ -80,8 +81,8 @@ To add a tracking account for DPD NL in SAPIENT, follow the steps as explained i
 
     <AsteridkForMandatoryElements />
 
-    |    Element    | Description                                                                                                               |
-    | :-----------: | :------------------------------------------------------------------------------------------------------------------------ |
+    |     Element    | Description                                                                                                               |
+    | :------------: | :------------------------------------------------------------------------------------------------------------------------ |
     | **Username**\* | Enter the username that you have received from DPD NL in response to the tracking account setup request you sent earlier. |
     | **Password**\* | Enter the password that you have received from DPD NL in response to the tracking account setup request you sent earlier. |
 
