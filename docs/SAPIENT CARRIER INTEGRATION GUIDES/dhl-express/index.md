@@ -71,11 +71,12 @@ DHL is the global leader in the logistics industry. DHL Express is a brand withi
     <Callout icon="📘" theme="default">
       ### *Note*
 
-      *For more information on Paperless Trade, refer to the <Anchor label="Add DHL Express shipping account" target="_blank" href="https://docs.intersoftsapient.net/docs/add-dhl-express-shipping-account">Add DHL Express shipping account</Anchor> section.*
+      *For more information on Paperless Trade, refer to the<Anchor label="Add DHL Express shipping account" target="_blank" href="https://docs.intersoftsapient.net/docs/add-dhl-express-shipping-account">Add DHL Express shipping account</Anchor> section.*
     </Callout>
   </Tab>
 
   <Tab title="Service Enhancements">
+The following are the key services enhancements provided by the DHL Express integration:
     * **Saturday Delivery (AA)**: Enables delivery on Saturdays, offering greater flexibility in shipping schedules.
     * **Adult Signature (SD)**: Requires an adult signature upon delivery of the shipment, ensuring that the package is received by someone of legal age.
     * **Shipment Insurance (II)**: Provides insurance coverage for the shipment against loss or damage. If this enhancement is used, then the InsuranceValue field must be populated.
