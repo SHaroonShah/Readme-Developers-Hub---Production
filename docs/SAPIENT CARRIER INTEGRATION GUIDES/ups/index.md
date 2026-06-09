@@ -165,12 +165,4 @@ Teh following are the key services provided by the UPS integration.
   </Card>
 </Cards>
 
-| Service Name                                     | Description                                                                                                                                                                                                                                                                             |
-| :----------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| UPS Worldwide Express (1-3 business days)        | This service provides guaranteed morning, next-business-day delivery to and from most business areas within the country and day-definite delivery within three days for international shipments from more than 45 countries and territories to more than 185 countries and territories. |
-| UPS Standard (1-5 business days)                 | This service provides scheduled day-definite delivery to and from most addresses within the country and scheduled day-definite delivery within five days for international shipments to and from more than 30 countries and territories.                                                |
-| UPS Worldwide Expedited (2-5 business days)      | This service provides day-definite delivery to over 220 countries and territories. Fully tracked, with generous weight limits (up to 150 lbs).                                                                                                                                          |
-| UPS Worldwide Expedited Plus (next business day) | This service provides premium express service with the fastest international delivery times.                                                                                                                                                                                            |
-| UPS Worldwide Saver (1-3 business days)          | This service provides guaranteed afternoon delivery to over 215 countries. and territories.                                                                                                                                                                                             |
-
 <br />
