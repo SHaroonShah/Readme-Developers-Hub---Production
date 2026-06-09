@@ -17,13 +17,13 @@ next:
 ---
 In SAPIENT, you can add tracking accounts for UPS to enhance visibility, improving customer interactions, and streamlining logistics operations for UPS.
 
-> 🚧 *Important*
+> 🚧 _Important_
 >
-> *Prior to adding a UPS tracking account, make sure you have completed the following prerequisites:*
+> _Prior to adding a UPS tracking account, make sure you have completed the following prerequisites:_
 >
-> 1. *Enabled the[label integration](https://docs.intersoftsapient.net/docs/integration-activation) with UPS.*
-> 2. *Enabled the[tracking integration](https://docs.intersoftsapient.net/docs/integration-activation) with UPS.*
-> 3. *Set up your<Glossary>tracking webhook</Glossary>. For more information on how to set up a tracking webhook, refer to the [Create tracking webhook](https://docs.intersoftsapient.net/docs/create-tracking-webhook) section. This is a one-time activity, you do not have to do this every time you add a tracking account.*
+> 1. _Enabled the [label integration](https://docs.intersoftsapient.net/docs/integration-activation) with UPS._
+> 2. _Enabled the [tracking integration](https://docs.intersoftsapient.net/docs/integration-activation) with UPS._
+> 3. _Set up your <Glossary>tracking webhook</Glossary>. For more information on how to set up a tracking webhook, refer to the [Create tracking webhook](https://docs.intersoftsapient.net/docs/create-tracking-webhook) section. This is a one-time activity, you do not have to do this every time you add a tracking account._
 
 To add a tracking account for UPS in SAPIENT, follow the steps as explained in the following procedure.
 
@@ -41,10 +41,10 @@ To add a tracking account for UPS in SAPIENT, follow the steps as explained in t
 
 <AsteridkForMandatoryElements />
 
-|         Element        | Description                                                                                                      |
-| :--------------------: | :--------------------------------------------------------------------------------------------------------------- |
-|      **Carrier**\*     | From the dropdown menu, select UPS as your carrier option.                                                       |
-| **Shipping Account**\* | From the dropdown menu, select the <Glossary>shipping account</Glossary> for which you want to receive tracking. |
+|        Element        | Description                                                                                                      |
+| :-------------------: | :--------------------------------------------------------------------------------------------------------------- |
+|      **Carrier***     | From the dropdown menu, select UPS as your carrier option.                                                       |
+| **Shipping Account*** | From the dropdown menu, select the <Glossary>shipping account</Glossary> for which you want to receive tracking. |
 
 4. After entering all the necessary information, select ![](https://files.readme.io/41bf635f2c82bf95197e5a2f62939d396ead6033e48a985a30965d84a5be57b8-Add_tracking_account_button_2.png).
 
