@@ -17,7 +17,7 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
 
 > 🚧 _Important_
 >
-> _Before you can set up a shipping account, make sure you have enabled the <Anchor label="label integration" target="_blank" href="https://docs.intersoftsapient.net/docs/integration-activation">label integration</Anchor> for UPS and have already [created a shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location)._
+> _Before you can set up a shipping account, make sure you have enabled the <Anchor label="label integration" target="_blank" href="https://docs.intersoftsapient.net/docs/integration-activation">label integration</Anchor> for UPS and have already <Anchor label="created a shipping location" target="_blank" href="https://docs.intersoftsapient.net/docs/add-a-shipping-location">created a shipping location</Anchor>._
 
 ## How to add UPS shipping account
 
