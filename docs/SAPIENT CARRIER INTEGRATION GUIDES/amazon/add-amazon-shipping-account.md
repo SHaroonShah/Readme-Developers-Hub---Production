@@ -479,9 +479,14 @@ To add a shipping account for Amazon in SAPIENT, follow the instructions as expl
   </Tab>
 
   <Tab title="Via API">
-    To add and manage Amazon shipping accounts via API, refer to the following API endpoint.
+    
+ To add an Amazon shipping account via API, refer to the following API endpoint.
 
-    * [Add Account](https://docs.intersoftsapient.net/reference/post_v4-shippingaccounts-amazon): Add and manage Amazon shipping accounts via API.
+    <Cards>
+      <Card title="Add Account" href="https://docs.intersoftsapient.net/reference/post_v4-shippingaccounts-amazon" icon="fa-code">
+        Add and manage An Post shipping account via API.
+      </Card>
+    </Cards>
   </Tab>
 </Tabs>
 
