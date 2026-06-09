@@ -64,7 +64,7 @@ To add a shipping account for Amazon in SAPIENT, perform the steps as explained 
           On the **Add Shipping Account** form that appears, in the **ACCOUNT DETAILS** block, fill in the necessary information as described in the following table.
 
           <Image align="center" src="https://files.readme.io/10427aae4b293b0b20082bb43c8049ae5ed57cf38f954946f530b23053d64864-Account_details_block_Amazon.png" width="500px" alt="Entering account details" />
-
+<br />
           <AsteridkForMandatoryElements />
 
           |         Element         | Description                                                                                                   |
@@ -83,7 +83,7 @@ To add a shipping account for Amazon in SAPIENT, perform the steps as explained 
           In the **SHIPPING ACCOUNT** block, enter the necessary information as explained in the following table.
 
           <Image align="center" border={true} src="https://files.readme.io/53a765a066729b4aa4b2d740073f4681bc75f021b3c396fd317e9ba810a2247b-Shipping_account_block_Amazon.png" width="600px" alt="Specifying shipping account details" />
-
+<br />
           <Callout icon="💡" theme="default">
             ### *Tip*
 
@@ -283,7 +283,7 @@ To add a shipping account for Amazon in SAPIENT, perform the steps as explained 
           On the **Add Shipping Account** form that appears, in the **ACCOUNT DETAILS** block, fill in the necessary information as described in the following table.
 
           <Image align="center" src="https://files.readme.io/10427aae4b293b0b20082bb43c8049ae5ed57cf38f954946f530b23053d64864-Account_details_block_Amazon.png" width="500px" alt="Entering account details" />
-
+<br />
           <AsteridkForMandatoryElements />
 
           |         Element         | Description                                                                                                   |
@@ -302,7 +302,7 @@ To add a shipping account for Amazon in SAPIENT, perform the steps as explained 
           In the **SHIPPING ACCOUNT** block, enter the necessary information as explained in the following table.
 
           <Image align="center" border={true} src="https://files.readme.io/53a765a066729b4aa4b2d740073f4681bc75f021b3c396fd317e9ba810a2247b-Shipping_account_block_Amazon.png" width="600px" alt="Specifying shipping account details" />
-
+<br />
           <Callout icon="💡" theme="default">
             ### *Tip*
 
