@@ -158,7 +158,7 @@ To add a shipping account for UPS in SAPIENT, follow the instructions as explain
       <td>
         Enter your UPS client ID.
 
-        `Note`: In order to obtain your client ID, you need to create an application. This application is linked to your shipper account(s) and email address that are associated with your ups.com ID.  For a step by step guide on how to get these credentials, refer to the [Getting Started with UPS APIs](https://developer.ups.com/get-started?loc=en_US\&utm_source=hs_email\&utm_medium=email&_hsenc=p2ANqtz-8n0kt_beo2J5QHe3SljjztyPcwEo3zauJzWPnJINftBYbljxxRD5Wv334sxXTuPf_-cyWE) user guide.
+        `Note`: In order to obtain your client ID, you need to create an application. This application is linked to your shipper account(s) and email address that are associated with your ups.com ID.  For a step by step guide on how to get these credentials, refer to the <Anchor label="Getting Started with UPS APIs" target="_blank" href="https://developer.ups.com/get-started?loc=en_US&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8n0kt_beo2J5QHe3SljjztyPcwEo3zauJzWPnJINftBYbljxxRD5Wv334sxXTuPf_-cyWE">Getting Started with UPS APIs</Anchor> user guide.
       </td>
     </tr>
 
