@@ -93,10 +93,11 @@ The UPS carrier integration within the SAPIENT system enables seamless communica
     | UPS Worldwide Saver (1-3 business days)          | This service provides guaranteed afternoon delivery to over 215 countries. and territories.                                                                                                                                                                                             |
 
     <br />
+<Callout icon="💡" theme="default">
+  ### _Tip_
 
-    > 📘 *Note*
-    >
-    > *For  the up-to-date carrier services, use the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint.*
+  _For the most up-to-date carrier services, use the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint._
+</Callout>
   </Tab>
 </Tabs>
 
