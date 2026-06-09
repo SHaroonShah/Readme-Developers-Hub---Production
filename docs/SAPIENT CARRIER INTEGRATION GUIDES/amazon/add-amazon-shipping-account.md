@@ -21,7 +21,7 @@ In SAPIENT, you can create both <Glossary>On-Amazon</Glossary> and <Glossary>Off
 >
 > _For more information on how to add and manage shipping accounts via the API, refer to the [API References](https://docs.intersoftsapient.net/reference/get_v4-carriers) section._
 
-## How to add Amazon shipping account via UI
+## How to add Amazon shipping account
 
 <Tabs>
   <Tab title="Via SAPIENT UI">
