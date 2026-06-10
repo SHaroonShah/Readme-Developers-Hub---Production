@@ -2,7 +2,6 @@
 api:
   file: sapient-core-api.json
   operationId: get_v4-shippinglocations-carriercode
-deprecated: false
 hidden: false
 metadata:
   title: ''

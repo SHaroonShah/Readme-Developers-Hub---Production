@@ -373,14 +373,14 @@
                       "TrackingNumber": "TT000000005GB",
                       "BarcodeNumber": "4C0069786000000000B1F",
                       "Reference1": "OrderRef56",
-                      "ShipmentDate": "2026-05-20",
+                      "ShipmentDate": "2026-06-10",
                       "Status": "Created",
                       "ManifestNumber": "ISH2802532",
                       "ContainerId": "South East 1234",
                       "Carrier": "RM",
                       "DestinationCountryCode": "GB",
                       "LastUpdatedBy": "User A",
-                      "LastUpdatedDateUtc": "2026-05-20T08:43:52.583Z"
+                      "LastUpdatedDateUtc": "2026-06-10T08:05:46.068Z"
                     },
                     {
                       "ShippingAccountId": "310d6beb-ae36-40e7-918f-f92100c1719d",
@@ -388,14 +388,14 @@
                       "TrackingNumber": "",
                       "BarcodeNumber": "",
                       "Reference1": "OrderRef57",
-                      "ShipmentDate": "2026-05-20",
+                      "ShipmentDate": "2026-06-10",
                       "Status": "LabelPrinted",
                       "ManifestNumber": "",
                       "ContainerId": "",
                       "Carrier": "RM",
                       "DestinationCountryCode": "GB",
                       "LastUpdatedBy": "User B",
-                      "LastUpdatedDateUtc": "2026-05-20T08:43:52.583Z"
+                      "LastUpdatedDateUtc": "2026-06-10T08:05:46.068Z"
                     }
                   ],
                   "TotalCount": 2
@@ -724,11 +724,11 @@
               "example": [
                 {
                   "ShipmentId": "AD123456783GB",
-                  "ShipmentDate": "2026-05-25"
+                  "ShipmentDate": "2026-06-15"
                 },
                 {
                   "ShipmentId": "e3239e85-ddf8-4323-9064-b83c38eff927",
-                  "ShipmentDate": "2026-05-30"
+                  "ShipmentDate": "2026-06-20"
                 }
               ]
             }
@@ -1417,7 +1417,7 @@
                     {
                       "ContainerId": "South East",
                       "ContainerStatus": "Manifested",
-                      "CreatedDateUtc": "2026-05-20T08:43:47.776Z",
+                      "CreatedDateUtc": "2026-06-10T08:05:40.860Z",
                       "ShippingLocationId": "93f6d928-9456-434a-9d69-60f3b7dea091",
                       "ShippingLocationAlias": "Northern Warehouse",
                       "TotalWeight": 12,
@@ -1428,7 +1428,7 @@
                     {
                       "ContainerId": "South West",
                       "ContainerStatus": "Active",
-                      "CreatedDateUtc": "2026-05-19T08:43:47.776Z",
+                      "CreatedDateUtc": "2026-06-09T08:05:40.860Z",
                       "ShippingLocationId": "93f6d928-9456-434a-9d69-60f3b7dea091",
                       "ShippingLocationAlias": "Northern Warehouse",
                       "TotalWeight": 14,
@@ -1587,7 +1587,7 @@
                     "value": {
                       "ContainerId": "South East",
                       "ContainerStatus": "Active",
-                      "CreatedDateUtc": "2026-05-20T08:43:48.099Z",
+                      "CreatedDateUtc": "2026-06-10T08:05:41.151Z",
                       "CarrierCode": "RM",
                       "ShippingLocationId": "93f6d928-9456-434a-9d69-60f3b7dea091",
                       "ShippingLocationAlias": "Northern Warehouse",
@@ -1604,7 +1604,7 @@
                       "ManifestNumbers": [
                         "COS0000016"
                       ],
-                      "CreatedDateUtc": "2026-05-20T08:43:48.100Z",
+                      "CreatedDateUtc": "2026-06-10T08:05:41.151Z",
                       "CarrierCode": "RM",
                       "ShippingLocationId": "93f6d928-9456-434a-9d69-60f3b7dea091",
                       "ShippingLocationAlias": "Northern Warehouse",
@@ -1986,7 +1986,7 @@
                           "OriginalExportCode": "61091090001"
                         }
                       ],
-                      "GeneratedDate": "2026-05-20T08:43:48.797Z"
+                      "GeneratedDate": "2026-06-10T08:05:41.974Z"
                     }
                   },
                   "Incorrect HSCode": {
@@ -2008,7 +2008,7 @@
                           "OriginalExportCode": "61091090001"
                         }
                       ],
-                      "GeneratedDate": "2026-05-20T08:43:48.797Z"
+                      "GeneratedDate": "2026-06-10T08:05:41.974Z"
                     }
                   }
                 }
@@ -2203,7 +2203,7 @@
                   ],
                   "IsError": false,
                   "Notes": "<taxBreakdown><city><rate>0</rate><value>0</value></city><special><rate>0</rate><value>0</value></special><county><rate>0</rate><value>0</value></county><state><rate>0.06625</rate><value>0</value></state></taxBreakdown>",
-                  "GeneratedDate": "2026-05-20T08:43:49.608Z"
+                  "GeneratedDate": "2026-06-10T08:05:42.950Z"
                 }
               }
             }
@@ -2341,7 +2341,7 @@
                       "IsError": false,
                       "ErrorDescription": "",
                       "Notes": "",
-                      "GeneratedDate": "2026-05-20T08:43:49.998Z"
+                      "GeneratedDate": "2026-06-10T08:05:43.352Z"
                     }
                   },
                   "Prohibited Item": {
@@ -2362,7 +2362,7 @@
                       "IsError": true,
                       "ErrorDescription": "The item amaranth is prohibited",
                       "Notes": "",
-                      "GeneratedDate": "2026-05-20T08:43:50.001Z"
+                      "GeneratedDate": "2026-06-10T08:05:43.352Z"
                     }
                   }
                 }
@@ -2434,44 +2434,44 @@
               "examples": {
                 "Manifest by Shipping Account": {
                   "value": {
-                    "ShippingLocationId": "29df69ba-19d4-4bb1-87fb-bd518150d719",
-                    "ShippingAccountId": "810757a3-bed1-4f0e-8d90-49442a4056af",
+                    "ShippingLocationId": "1aa82084-49ed-4183-8717-80f09dbf40c7",
+                    "ShippingAccountId": "938f5e36-d592-4272-8a4d-aeaa25817b68",
                     "Async": false
                   }
                 },
                 "Manifest by Shipping Account in the background": {
                   "value": {
-                    "ShippingLocationId": "6d65db41-521e-4f73-aff7-a3f0e212a549",
-                    "ShippingAccountId": "13de01cc-03b4-4248-bfb0-45b5eba10b2b",
+                    "ShippingLocationId": "3cd8c5af-d8b3-4ecc-98ae-26bdb4a8c317",
+                    "ShippingAccountId": "a443a0a1-1e3b-4d6a-9745-8b34a6a58c9f",
                     "Async": true
                   }
                 },
                 "Manifest by Service": {
                   "value": {
-                    "ShippingLocationId": "37d83bb9-8a75-4dff-b261-394b40d9290a",
+                    "ShippingLocationId": "e39b2f19-8742-4675-b6f9-c453eb0acd01",
                     "ServiceCode": "EXPRESS",
                     "Async": false
                   }
                 },
                 "Manifest by Service for Shipping Account Only": {
                   "value": {
-                    "ShippingLocationId": "caeaaa21-7abc-4b63-9a33-d75bdb4ab438",
-                    "ShippingAccountId": "4fb6e6e6-9a61-42d3-b301-a7b36884c7aa",
+                    "ShippingLocationId": "098cfb5b-8ea1-4f94-a7e0-4d865f53b7a4",
+                    "ShippingAccountId": "015d6100-1910-45d0-9c02-60ecbe4d14b3",
                     "ServiceCode": "EXPRESS",
                     "Async": false
                   }
                 },
                 "Manifest by Status": {
                   "value": {
-                    "ShippingLocationId": "e6970126-a6ff-466e-a5cf-a8656e28d941",
+                    "ShippingLocationId": "2f44c2e1-f201-4d1a-a04d-7049ecd6457d",
                     "Status": "Picked",
                     "Async": false
                   }
                 },
                 "Manifest by Container": {
                   "value": {
-                    "ShippingLocationId": "95a8af1e-816f-477f-843d-60dd354131e5",
-                    "ContainerId": "9fad40b2-1eda-497a-b479-873326a57a50",
+                    "ShippingLocationId": "b2e73eea-92a3-4d71-90f5-14418e95c64b",
+                    "ContainerId": "b1052f2e-44a6-4651-8238-c7cf397c9039",
                     "Async": false
                   }
                 }
@@ -2841,16 +2841,16 @@
                           "WeightUnitOfMeasure": "KG",
                           "TotalShipments": 1,
                           "TotalItems": 1,
-                          "ManifestDate": "2026-05-20",
-                          "CreatedDateUtc": "2026-05-20T08:43:50.713Z",
+                          "ManifestDate": "2026-06-10",
+                          "CreatedDateUtc": "2026-06-10T08:05:44.141Z",
                           "ShippingLocation": {
-                            "ShippingLocationId": "ce95ba4d-2079-49c0-bc2a-7e290b2eaea3",
+                            "ShippingLocationId": "2e3e2447-071c-4831-bbd9-facd103b4c12",
                             "LocationAlias": "London",
                             "LocationCountry": "GB",
                             "LocationPostcode": "TW20 0HJ"
                           },
                           "ShippingAccount": {
-                            "ShippingAccountId": "6418d2cc-aae3-40b0-869c-028a21ff9e9e",
+                            "ShippingAccountId": "3faa48ef-af04-4b2e-b1b1-1caa6e5a3608",
                             "AccountName": "AccountName",
                             "AccountAlias": "Test",
                             "AccountNumber": "1234567890"
@@ -8163,7 +8163,7 @@
           "ReasonForExport": {
             "maxLength": 30,
             "type": "string",
-            "description": "Reason for Export\r<br />Overrides the shipment's Reason for Export if provided.\r<br />If the carrier is UPU affiliated, then the allowed Reason for Exports are:\r<br />**Gift**\r<br />**Commercial Sample**\r<br />**Documents**\r<br />**Sale of Goods**\r<br />**Return of Goods**\r<br />**Mixed Content**\r<br />**Other**",
+            "description": "Identifies the purpose of the export, such as sale, gift, or return. This information is useful for customs processing to determine the appropriate tariffs and requirements. If the carrier is associated with the Universal Postal Union (UPU), then the allowed reasons for export are the following:<br /><br />• Gift<br />• Commercial Sample<br />• Documents<br />• Sale of Goods<br />• Ecommerce Sale of Goods<br />• Commercial Sale of Goods<br />• Return of Goods<br />• Mixed Content<br />• Other<br /><br />_**Note**_: _Before populating this field, keep in mind the following:_<br /><br />_If the **Sale of Goods** value is selected, the system automatically determines whether the shipment is **Ecommerce (B2C or D2C)** or **Commercial (B2B)** based on the value provided in the **BusinessTransactionType** field in the create shipment request._<br /><br />_If this information is provided, it overrides the shipment's reason for export._",
             "nullable": true,
             "example": "Gift"
           },
@@ -8478,7 +8478,8 @@
           "Weight",
           "Currency",
           "LastModified",
-          "Country"
+          "Country",
+          "Category"
         ],
         "type": "string",
         "description": "Sort By"
