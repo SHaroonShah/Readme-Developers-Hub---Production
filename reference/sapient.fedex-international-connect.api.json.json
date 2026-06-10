@@ -86,7 +86,7 @@
                     "value": {
                       "ShippingAccounts": [
                         {
-                          "ShippingAccountId": "7ca78f47-14b1-4957-846b-69eef958f5e2",
+                          "ShippingAccountId": "3d8f8f32-c464-4500-9081-10201e121c8c",
                           "CarrierCode": "FIC",
                           "AccountType": "Sandbox",
                           "AccountName": "AB VideoGames",
@@ -96,10 +96,10 @@
                           "ContactNumber": "0123456789",
                           "ShipperWebsiteUrl": "https://www.example.com",
                           "LastUpdatedBy": "User A",
-                          "LastUpdatedDateUtc": "2026-05-20T08:54:05.189Z"
+                          "LastUpdatedDateUtc": "2026-06-10T08:38:10.406Z"
                         },
                         {
-                          "ShippingAccountId": "649b918a-12fc-4065-864b-818c11569c06",
+                          "ShippingAccountId": "7e3243b9-a227-490f-8a44-dc4569eec0c3",
                           "CarrierCode": "FIC",
                           "AccountType": "Sandbox",
                           "AccountName": "KG Pet Shop",
@@ -109,7 +109,7 @@
                           "ContactNumber": "0123456789",
                           "ShipperWebsiteUrl": "https://www.example.com",
                           "LastUpdatedBy": "User B",
-                          "LastUpdatedDateUtc": "2026-05-20T08:54:05.189Z"
+                          "LastUpdatedDateUtc": "2026-06-10T08:38:10.407Z"
                         }
                       ],
                       "TotalCount": 2
@@ -258,7 +258,7 @@
                 "examples": {
                   "Response": {
                     "value": {
-                      "ShippingAccountId": "a19ec3fb-1441-4a11-bc05-9d99272e3bea",
+                      "ShippingAccountId": "afda126b-f76d-4ecd-aab6-1c398a000a7a",
                       "CarrierCode": "FIC",
                       "AccountType": "Sandbox",
                       "AccountName": "AB VideoGames",
@@ -268,7 +268,7 @@
                       "ContactNumber": "0123456789",
                       "ShipperWebsiteUrl": "https://www.example.com",
                       "LastUpdatedBy": "User A",
-                      "LastUpdatedDateUtc": "2026-05-20T08:54:05.488Z"
+                      "LastUpdatedDateUtc": "2026-06-10T08:38:10.692Z"
                     }
                   }
                 }
@@ -651,8 +651,8 @@
                       "CurrencyCode": "GBP"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "703b18bb-cbb7-4362-87d9-3afd44ddb906",
-                      "ShippingLocationId": "2bd2cab7-30c2-4905-9574-53fb5d8990aa",
+                      "ShippingAccountId": "b75b3705-db48-41b7-a7bc-c028f88a1ae3",
+                      "ShippingLocationId": "4ad70965-da76-4fa6-94ea-b382aba1d93f",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -689,7 +689,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "RM48",
                       "DescriptionOfGoods": "Clothing",
-                      "ShipmentDate": "2026-05-20",
+                      "ShipmentDate": "2026-06-10",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
@@ -787,7 +787,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "TPWW",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-05-20",
+                      "ShipmentDate": "2026-06-10",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP"
                     },
@@ -860,7 +860,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "TPWW",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-05-20",
+                      "ShipmentDate": "2026-06-10",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
@@ -946,7 +946,7 @@
                       "OtherCharges": 32,
                       "QuotedLandedCost": 82.74,
                       "InvoiceNumber": "INV-12345",
-                      "InvoiceDate": "2026-05-20",
+                      "InvoiceDate": "2026-06-10",
                       "ExportLicenceRequired": false,
                       "Airn": "231.002.999-00"
                     },
@@ -974,7 +974,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "RM48",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-05-20",
+                      "ShipmentDate": "2026-06-10",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
@@ -1019,7 +1019,7 @@
                     "value": {
                       "Packages": [
                         {
-                          "ShipmentId": "8b30f799-3dde-4769-9636-f3960fe63890",
+                          "ShipmentId": "25090949-a744-4910-bfff-4afafe4e411f",
                           "PackageOccurrence": 1
                         }
                       ],
@@ -1030,7 +1030,7 @@
                     "value": {
                       "Packages": [
                         {
-                          "ShipmentId": "998af212-157c-4440-ae6f-805b8c3913fd",
+                          "ShipmentId": "7103fe4d-2c38-40f1-818d-9abe9d15c4e3",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "MD000000004409629",
                           "CarrierTrackingUrl": "https://fictracking.fedex.com/?MyFICNumber=MD000000004409629"
@@ -1048,7 +1048,7 @@
                           "CarrierDetails": {
                             "LabelCopiesToPrint": 1
                           },
-                          "ShipmentId": "520f72c4-ff98-4044-b156-9f2235f58986",
+                          "ShipmentId": "c29b02a0-6af6-4e08-920f-441ed5979b2d",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "MD000000004409629",
                           "CarrierTrackingUrl": "https://fictracking.fedex.com/?MyFICNumber=MD000000004409629"
@@ -1137,7 +1137,7 @@
                 "examples": {
                   "PDF": {
                     "value": {
-                      "ShipmentId": "22d4d824-cd4a-4eb6-bf2d-74171ccb28a7",
+                      "ShipmentId": "116df538-b6b6-422b-9707-1e0f84befb6b",
                       "TrackingNumber": "UZ 123 456 789 IE",
                       "CarrierTrackingUrl": "https://fictracking.fedex.com/?MyFICNumber=UZ 123 456 789 IE",
                       "Label": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
