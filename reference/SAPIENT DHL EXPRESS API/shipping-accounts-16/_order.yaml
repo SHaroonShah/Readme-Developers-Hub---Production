@@ -1,0 +1,8 @@
+- get_v4-shippingaccounts-dhlexpress
+- post_v4-shippingaccounts-dhlexpress
+- get_v4-shippingaccounts-dhlexpress-shippingaccountid
+- put_v4-shippingaccounts-dhlexpress-shippingaccountid
+- post_v4-shippingaccounts-dhlexpress-shippingaccountid-linklocations
+- get_v4-shippingaccounts-dhlexpress-shippingaccountid-shippinglocations
+- >-
+  get_v4-shippingaccounts-dhlexpress-shippingaccountid-shippinglocations-shippinglocationid
