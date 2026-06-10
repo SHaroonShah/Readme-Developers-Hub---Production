@@ -2,7 +2,6 @@
 api:
   file: sapient-evri-api.json
   operationId: get_v4-shippingaccounts-evri-shippingaccountid
-deprecated: false
 hidden: false
 metadata:
   title: ''
