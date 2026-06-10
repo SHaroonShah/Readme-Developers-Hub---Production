@@ -154,7 +154,7 @@
                         "PostingLocationCode": "2345654321",
                         "ObaAccessCode": "123456",
                         "ReceivingHubCode": "002610",
-                        "ShippingLocationId": "9d06afc4-376a-4664-9d5e-1f76b28fa932"
+                        "ShippingLocationId": "1766a456-dda3-4eac-b6b8-cba859a08438"
                       }
                     ]
                   }
@@ -730,12 +730,12 @@
                       "ContentType": "NDX",
                       "ServiceCode": "CRL1",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-06-01",
+                      "ShipmentDate": "2026-06-10",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "52052a45-ea26-4023-abab-10a2cf6acd6e",
+                      "ShippingAccountId": "98f91af0-3db5-4d71-9a1f-35f23021330e",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -775,15 +775,15 @@
                       "ContentType": "NDX",
                       "ServiceCode": "CRL1",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-06-01",
+                      "ShipmentDate": "2026-06-10",
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM",
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "e5f93e0f-7016-41e7-bc8e-39033d18cc4f",
-                      "ShippingLocationId": "6bcfc68c-df8b-408a-a24c-97664db48ca5",
+                      "ShippingAccountId": "1fcb49fe-e11d-4a29-bd14-09440e4b5b33",
+                      "ShippingLocationId": "fc6e6ca6-70ff-4ded-b4d1-1a30ef144715",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -873,13 +873,13 @@
                       "ContentType": "NDX",
                       "ServiceCode": "OLA",
                       "DescriptionOfGoods": "Clothing",
-                      "ShipmentDate": "2026-06-01",
+                      "ShipmentDate": "2026-06-10",
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "MM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "caf009da-0cf9-44e7-9051-ada4f393fc96",
+                      "ShippingAccountId": "1f210cd0-3c24-4094-a737-ac4884ca6744",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -951,15 +951,15 @@
                       "ContentType": "NDX",
                       "ServiceCode": "OLA",
                       "DescriptionOfGoods": "Clothing",
-                      "ShipmentDate": "2026-06-01",
+                      "ShipmentDate": "2026-06-10",
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "MM",
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "a1bec81f-1eaf-4133-bb9c-00452cb2050d",
-                      "ShippingLocationId": "0adb4c1d-acab-48aa-beb7-b90d1e33a0e0",
+                      "ShippingAccountId": "3d0e2047-a3d1-4830-a1cf-4041fd88292c",
+                      "ShippingLocationId": "747f1cac-70e1-4c31-843c-e53b50bffac3",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -1038,7 +1038,7 @@
                       "OtherCharges": 32,
                       "QuotedLandedCost": 82.74,
                       "InvoiceNumber": "INV-12345",
-                      "InvoiceDate": "2026-06-01",
+                      "InvoiceDate": "2026-06-10",
                       "ExportLicenceRequired": false,
                       "Airn": "231.002.999-00"
                     },
@@ -1180,13 +1180,13 @@
                       "ContentType": "NDX",
                       "ServiceCode": "TPS",
                       "DescriptionOfGoods": "Aftershave",
-                      "ShipmentDate": "2026-06-01",
+                      "ShipmentDate": "2026-06-10",
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "dac18910-0866-4821-8c6c-eb1f7f21e93c",
+                      "ShippingAccountId": "4be0b2be-ba46-4bfb-ae76-13a6c32d5d01",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -1285,14 +1285,14 @@
                       "ContentType": "NDX",
                       "ServiceCode": "OLA",
                       "DescriptionOfGoods": "Clothing",
-                      "ShipmentDate": "2026-06-01",
+                      "ShipmentDate": "2026-06-10",
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "MM",
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "5a4bf6ab-3249-47eb-b0fd-0d9950bc1c1c",
+                      "ShippingAccountId": "f62db0f3-6787-4e2f-b297-fcfe2675b8f3",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -1368,7 +1368,7 @@
                     "value": {
                       "Packages": [
                         {
-                          "ShipmentId": "afe6f130-ce29-4fdb-8c07-041839b86e37",
+                          "ShipmentId": "b57677de-9731-4b79-89a4-1f4688b83fa5",
                           "PackageOccurrence": 1
                         }
                       ]
@@ -1381,7 +1381,7 @@
                           "CarrierDetails": {
                             "UniqueId": "3A07033860010000B2268"
                           },
-                          "ShipmentId": "0eb3610b-fd88-44f4-8663-3ef36b29cf1d",
+                          "ShipmentId": "ca5fc0ed-cd38-49d8-a239-c5f1ec42b31d",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "TT123456785GB",
                           "CarrierTrackingUrl": "https://www.royalmail.com/track-your-item#/tracking-results/TT123456785GB"
@@ -1398,7 +1398,7 @@
                           "CarrierDetails": {
                             "UniqueId": "4F006978600000137EB39"
                           },
-                          "ShipmentId": "3bb35634-c528-4704-b011-5695355f204c",
+                          "ShipmentId": "2870d8f0-8989-4508-9c42-8593cb1869d2",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "TT000250025GB",
                           "CarrierTrackingUrl": "https://www.royalmail.com/track-your-item#/tracking-results/TT000250025GB"
@@ -1427,7 +1427,7 @@
                               "Primary1DBarcodeData": "TT123456785GB"
                             }
                           },
-                          "ShipmentId": "83951721-8f61-4935-9d4e-5bbc950387d8",
+                          "ShipmentId": "4d7fca88-c496-4e74-9a25-d742d5de018f",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "TT123456785GB",
                           "CarrierTrackingUrl": "https://www.royalmail.com/track-your-item#/tracking-results/TT123456785GB"
@@ -1464,7 +1464,7 @@
                           "CarrierDetails": {
                             "UniqueId": "4F2310202400000AF1E3E"
                           },
-                          "ShipmentId": "328e01b6-3a28-4d05-bd81-e5c8f81d7b2c",
+                          "ShipmentId": "48a07808-9867-48d5-bc64-9e90a1599d9a",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "TT000250025GB",
                           "CarrierTrackingUrl": "https://www.royalmail.com/track-your-item#/tracking-results/TT000250025GB"
@@ -1473,7 +1473,7 @@
                           "CarrierDetails": {
                             "UniqueId": "4F2310202400000AF1E4C"
                           },
-                          "ShipmentId": "9258adb4-9d8c-45fc-8ef3-26419d60f4d1",
+                          "ShipmentId": "3f806172-0157-4590-b2c1-b84a2443cea9",
                           "PackageOccurrence": 2,
                           "TrackingNumber": "TT000250026GB",
                           "CarrierTrackingUrl": "https://www.royalmail.com/track-your-item#/tracking-results/TT000250026GB"
@@ -1496,7 +1496,7 @@
                               "PartnerTrackingUrl": "https://gls-group.com/GROUP/en/parcel-tracking"
                             }
                           },
-                          "ShipmentId": "ed0718f7-8236-4e7a-a063-2f83569c5472",
+                          "ShipmentId": "93efccb1-f5ee-4b3d-abb9-cc63d297ba70",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "TT000250025GB",
                           "CarrierTrackingUrl": "https://www.royalmail.com/track-your-item#/tracking-results/TT000250025GB"
@@ -1518,7 +1518,7 @@
                               "PartnerTrackingUrl": "https://gls-group.com/GROUP/en/parcel-tracking"
                             }
                           },
-                          "ShipmentId": "3aa6e89c-3029-4811-9e0d-64c2725d611c",
+                          "ShipmentId": "3e207889-64c6-422a-b5e2-b0ac14af4834",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "TT000250025GB",
                           "CarrierTrackingUrl": "https://www.royalmail.com/track-your-item#/tracking-results/TT000250025GB",
@@ -1534,7 +1534,7 @@
                               "PartnerTrackingUrl": "https://gls-group.com/GROUP/en/parcel-tracking"
                             }
                           },
-                          "ShipmentId": "9d5a81e1-f560-40c0-9a7b-62d5fff493bd",
+                          "ShipmentId": "b84245ae-93b0-4796-a076-0a28e54eae8c",
                           "PackageOccurrence": 2,
                           "TrackingNumber": "TT000250026GB",
                           "CarrierTrackingUrl": "https://www.royalmail.com/track-your-item#/tracking-results/TT000250026GB",
@@ -1810,8 +1810,8 @@
               "examples": {
                 "Create Collection With Timeslot ID": {
                   "value": {
-                    "SlotReservationId": "3e3b1209-6774-458b-86d6-6623772f9e65",
-                    "SlotDate": "2026-06-01",
+                    "SlotReservationId": "329fee2e-f56b-4ee8-a2c3-cad66f78deb4",
+                    "SlotDate": "2026-06-10",
                     "BringMyLabel": false,
                     "OptOutFromRmNotifications": false,
                     "CollectionSafePlace": "Safe place description"
@@ -1826,8 +1826,8 @@
                 },
                 "Create Collection With Opt Out From RM Notifications": {
                   "value": {
-                    "SlotReservationId": "44ec11d0-a9d8-4141-a0f0-0cf4c46280d1",
-                    "SlotDate": "2026-06-01",
+                    "SlotReservationId": "18ec4fd3-e343-4f0a-832a-571e93a92e13",
+                    "SlotDate": "2026-06-10",
                     "BringMyLabel": false,
                     "OptOutFromRmNotifications": true,
                     "CollectionSafePlace": "Safe place description"
@@ -1835,16 +1835,16 @@
                 },
                 "Create Collection Without Collection Safe Place": {
                   "value": {
-                    "SlotReservationId": "acca98b4-d719-453e-90ec-4c9294a9d581",
-                    "SlotDate": "2026-06-01",
+                    "SlotReservationId": "b61ab267-4880-4852-9a49-3a29390fa8cc",
+                    "SlotDate": "2026-06-10",
                     "BringMyLabel": false,
                     "OptOutFromRmNotifications": false
                   }
                 },
                 "Create Collection With Collection Safe Place": {
                   "value": {
-                    "SlotReservationId": "3430d096-6efc-4215-8d5c-f0cc9a691cff",
-                    "SlotDate": "2026-06-01",
+                    "SlotReservationId": "0c7b4ffa-38ad-445b-a846-6d790b4c3b1c",
+                    "SlotDate": "2026-06-10",
                     "BringMyLabel": false,
                     "OptOutFromRmNotifications": false,
                     "CollectionSafePlace": "Safe place description"
@@ -1949,15 +1949,15 @@
                 },
                 "example": {
                   "ShipmentId": "072d80e4-8f9f-42e4-9c03-6b81a3597ce6",
-                  "SlotReservationId": "72d74109-ef54-486b-b377-7745b50f07ff",
-                  "SlotReservationExpiryTime": "2026-06-01T10:18:42.914Z",
+                  "SlotReservationId": "d25b1a61-5cbf-46d2-a142-06bebed33617",
+                  "SlotReservationExpiryTime": "2026-06-10T08:21:53.183Z",
                   "Slots": [
                     {
-                      "SlotDate": "2026-06-02",
+                      "SlotDate": "2026-06-11",
                       "EstimatedWindow": "14:30-16:30"
                     },
                     {
-                      "SlotDate": "2026-06-03",
+                      "SlotDate": "2026-06-12",
                       "EstimatedWindow": "14:30-16:30"
                     }
                   ]
@@ -2272,12 +2272,12 @@
                     {
                       "ContainerId": "South East",
                       "ContainerBarcode": "TT12345678GB",
-                      "CreatedDateUtc": "2026-06-01T10:03:43.593Z",
+                      "CreatedDateUtc": "2026-06-10T08:06:53.820Z",
                       "ShippingLocationAlias": "Northern Warehouse",
                       "ShippingLocationId": "93f6d928-9456-434a-9d69-60f3b7dea091",
                       "ContainerStatus": "Manifested",
                       "DestinationCountryCode": "GB",
-                      "ExportDate": "2026-06-01",
+                      "ExportDate": "2026-06-10",
                       "Mawb": "125-12345678",
                       "RmService": "P",
                       "RmProduct": "T",
@@ -2292,12 +2292,12 @@
                     {
                       "ContainerId": "South West",
                       "ContainerBarcode": "TT12345679GB",
-                      "CreatedDateUtc": "2026-05-31T10:03:43.593Z",
+                      "CreatedDateUtc": "2026-06-09T08:06:53.820Z",
                       "ShippingLocationAlias": "Northern Warehouse",
                       "ShippingLocationId": "93f6d928-9456-434a-9d69-60f3b7dea091",
                       "ContainerStatus": "Active",
                       "DestinationCountryCode": "GB",
-                      "ExportDate": "2026-06-01",
+                      "ExportDate": "2026-06-10",
                       "Mawb": "125-12345678",
                       "RmService": "S",
                       "RmProduct": "O",
@@ -2843,12 +2843,12 @@
                     "value": {
                       "ContainerId": "South East",
                       "ContainerBarcode": "TT12345678GB",
-                      "CreatedDateUtc": "2026-06-01T10:03:44.090Z",
+                      "CreatedDateUtc": "2026-06-10T08:06:54.403Z",
                       "ShippingLocationAlias": "Northern Warehouse",
                       "ShippingLocationId": "93f6d928-9456-434a-9d69-60f3b7dea091",
                       "ContainerStatus": "Active",
                       "DestinationCountryCode": "GB",
-                      "ExportDate": "2026-06-01",
+                      "ExportDate": "2026-06-10",
                       "Mawb": "125-12345678",
                       "RmService": "P",
                       "RmProduct": "T",
@@ -2865,12 +2865,12 @@
                     "value": {
                       "ContainerId": "South East",
                       "ContainerBarcode": "TT12345678GB",
-                      "CreatedDateUtc": "2026-06-01T10:03:44.093Z",
+                      "CreatedDateUtc": "2026-06-10T08:06:54.405Z",
                       "ShippingLocationAlias": "Northern Warehouse",
                       "ShippingLocationId": "93f6d928-9456-434a-9d69-60f3b7dea091",
                       "ContainerStatus": "Active",
                       "DestinationCountryCode": "GB",
-                      "ExportDate": "2026-06-01",
+                      "ExportDate": "2026-06-10",
                       "Mawb": "125-12345678",
                       "RmService": "P",
                       "RmProduct": "T",
@@ -3566,7 +3566,7 @@
           "PudoId": {
             "maxLength": 20,
             "type": "string",
-            "description": "A unique identifier for a PUDO location. This ID is retrieved from the LocationId field of the Get PUDO Locations endpoint response and is essential for identifying the specific collection point for a Royal Mail shipment.\r<br />Note: Before providing the PudoId, keep in mind the following:\r<br />- The PudoId is only applicable for destination addresses when the shipment is being created as a collection shipment. Royal Mail does not utilise this ID for drop-off shipments.\r<br />- The destination contact name must be provided with either its contact email or phone number.\r<br />- The LocalCollect supplement code is not required - the system will automatically assign the relevant supplement codes based on the PudoId.",
+            "description": "A unique identifier for a PUDO location. This ID is retrieved from the **LocationId** field of the **Get PUDO Locations** endpoint response and is essential for identifying the specific collection point for a Royal Mail shipment.\r<br />\r<br />***Note:** Before providing the **PudoId**, keep in mind the following:*\r<br /><ul><li> *The **PudoId** is only applicable for destination addresses when the shipment is being created as a collection shipment. Royal Mail does not utilise this ID for drop-off shipments.*</li><li> *The destination contact name must be provided with either its contact email or phone number.*</li><li> *The **LocalCollect** supplement code is not required - the system will automatically assign the relevant supplement codes based on the PudoId.*</li></ul>",
             "nullable": true
           },
           "ContactName": {
@@ -4349,7 +4349,7 @@
           "PudoId": {
             "maxLength": 20,
             "type": "string",
-            "description": "A unique identifier for a PUDO location. This ID is retrieved from the LocationId field of the Get PUDO Locations endpoint response and is essential for identifying the specific collection point for a Royal Mail shipment.\r<br />Note: Before providing the PudoId, keep in mind the following:\r<br />- The PudoId is only applicable for destination addresses when the shipment is being created as a collection shipment. Royal Mail does not utilise this ID for drop-off shipments.\r<br />- The destination contact name must be provided with either its contact email or phone number.\r<br />- The LocalCollect supplement code is not required - the system will automatically assign the relevant supplement codes based on the PudoId.",
+            "description": "A unique identifier for a PUDO location. This ID is retrieved from the **LocationId** field of the **Get PUDO Locations** endpoint response and is essential for identifying the specific collection point for a Royal Mail shipment.\r<br />\r<br />***Note:** Before providing the **PudoId**, keep in mind the following:*\r<br /><ul><li> *The **PudoId** is only applicable for destination addresses when the shipment is being created as a collection shipment. Royal Mail does not utilise this ID for drop-off shipments.*</li><li> *The destination contact name must be provided with either its contact email or phone number.*</li><li> *The **LocalCollect** supplement code is not required - the system will automatically assign the relevant supplement codes based on the PudoId.*</li></ul>",
             "nullable": true
           },
           "ContactName": {
@@ -5857,7 +5857,7 @@
           "PudoId": {
             "maxLength": 20,
             "type": "string",
-            "description": "A unique identifier for a PUDO location. This ID is retrieved from the LocationId field of the Get PUDO Locations endpoint response and is essential for identifying the specific collection point for a Royal Mail shipment.\r<br />Note: Before providing the PudoId, keep in mind the following:\r<br />- The PudoId is only applicable for destination addresses when the shipment is being created as a collection shipment. Royal Mail does not utilise this ID for drop-off shipments.\r<br />- The destination contact name must be provided with either its contact email or phone number.\r<br />- The LocalCollect supplement code is not required - the system will automatically assign the relevant supplement codes based on the PudoId.",
+            "description": "A unique identifier for a PUDO location. This ID is retrieved from the **LocationId** field of the **Get PUDO Locations** endpoint response and is essential for identifying the specific collection point for a Royal Mail shipment.\r<br />\r<br />***Note:** Before providing the **PudoId**, keep in mind the following:*\r<br /><ul><li> *The **PudoId** is only applicable for destination addresses when the shipment is being created as a collection shipment. Royal Mail does not utilise this ID for drop-off shipments.*</li><li> *The destination contact name must be provided with either its contact email or phone number.*</li><li> *The **LocalCollect** supplement code is not required - the system will automatically assign the relevant supplement codes based on the PudoId.*</li></ul>",
             "nullable": true
           },
           "ContactName": {
@@ -6025,7 +6025,7 @@
           "PudoId": {
             "maxLength": 20,
             "type": "string",
-            "description": "A unique identifier for a PUDO location. This ID is retrieved from the LocationId field of the Get PUDO Locations endpoint response and is essential for identifying the specific collection point for a Royal Mail shipment.\r<br />Note: Before providing the PudoId, keep in mind the following:\r<br />- The PudoId is only applicable for destination addresses when the shipment is being created as a collection shipment. Royal Mail does not utilise this ID for drop-off shipments.\r<br />- The destination contact name must be provided with either its contact email or phone number.\r<br />- The LocalCollect supplement code is not required - the system will automatically assign the relevant supplement codes based on the PudoId.",
+            "description": "A unique identifier for a PUDO location. This ID is retrieved from the **LocationId** field of the **Get PUDO Locations** endpoint response and is essential for identifying the specific collection point for a Royal Mail shipment.\r<br />\r<br />***Note:** Before providing the **PudoId**, keep in mind the following:*\r<br /><ul><li> *The **PudoId** is only applicable for destination addresses when the shipment is being created as a collection shipment. Royal Mail does not utilise this ID for drop-off shipments.*</li><li> *The destination contact name must be provided with either its contact email or phone number.*</li><li> *The **LocalCollect** supplement code is not required - the system will automatically assign the relevant supplement codes based on the PudoId.*</li></ul>",
             "nullable": true
           },
           "ContactName": {
