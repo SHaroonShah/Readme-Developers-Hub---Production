@@ -5,7 +5,7 @@ excerpt: >-
   within the DHL Group known for its expedited delivery, both domestically
   within UK and internationally to EU and Rest of the World destinations.
 deprecated: false
-hidden: true
+hidden: false
 icon: fad fa-truck-fast
 metadata:
   robots: index
