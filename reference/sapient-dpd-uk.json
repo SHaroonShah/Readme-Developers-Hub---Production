@@ -601,8 +601,8 @@
                       "CurrencyCode": "GBP"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "e3f3a3c5-74f6-4783-9bf6-0f4ce34e9f08",
-                      "ShippingLocationId": "736543d8-ccff-4907-964c-a8fa384b518d",
+                      "ShippingAccountId": "49252762-53ff-4ca8-a12f-1ea7d795b310",
+                      "ShippingLocationId": "f81aa4c9-022b-4efb-a2e5-b5378687b7a5",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -648,15 +648,15 @@
                       "ContentType": "NDX",
                       "ServiceCode": "11",
                       "DescriptionOfGoods": "Clothing",
-                      "ShipmentDate": "2026-05-20",
+                      "ShipmentDate": "2026-06-10",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "76ac913b-e3e8-46f6-9713-b1feea1a0ac7",
-                      "ShippingLocationId": "5edec43b-5938-44e4-b373-a28ff67b7ab4",
+                      "ShippingAccountId": "337409c2-3f03-46eb-989f-8554e6fbdb9a",
+                      "ShippingLocationId": "410e6858-928b-4a67-9e2f-7d866a47d3c4",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -746,13 +746,13 @@
                       "ContentType": "NDX",
                       "ServiceCode": "50",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-05-20",
+                      "ShipmentDate": "2026-06-10",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "42795785-50fe-4f6a-ad62-b4b470cc7ce5",
-                      "ShippingLocationId": "68b102d8-4546-44ee-b38c-063fcf82829a",
+                      "ShippingAccountId": "f563bc07-d9b5-475a-bc44-b50f570f3be3",
+                      "ShippingLocationId": "54d023e0-10a7-4d4e-b65c-1636c5f0a559",
                       "Reference1": "OrderRef56",
                       "EoriNumber": "GB12345",
                       "VatNumber": "GB12345"
@@ -763,11 +763,11 @@
                         "ContactName": "John Smith",
                         "CompanyName": "Company",
                         "ContactEmail": "john.smith@example.com",
-                        "Line1": "10 Sky Road",
-                        "Town": "Sydney",
-                        "Postcode": "2000",
-                        "County": "NSW",
-                        "CountryCode": "AU"
+                        "Line1": "Fjordveien 12",
+                        "Town": "Bergen",
+                        "Postcode": "5004",
+                        "County": "Vestland",
+                        "CountryCode": "NO"
                       }
                     },
                     "Packages": [
@@ -805,8 +805,8 @@
                     "Customs": {
                       "ReasonForExport": "01",
                       "Incoterms": "DAP",
-                      "PreRegistrationNumber": "ARN1234567890",
-                      "PreRegistrationType": "GST"
+                      "PreRegistrationNumber": "VOEC12345678",
+                      "PreRegistrationType": "VOEC"
                     }
                   }
                 },
@@ -828,15 +828,15 @@
                       "ContentType": "NDX",
                       "ServiceCode": "50",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-05-20",
+                      "ShipmentDate": "2026-06-10",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "85de4264-3a5d-4757-abe2-90fb4ac9c3a6",
-                      "ShippingLocationId": "bb2b54e9-ce07-4a57-8cfb-99bc19bb6cd6",
+                      "ShippingAccountId": "db05aaf0-670c-4615-bbbe-ff553dd7432c",
+                      "ShippingLocationId": "8abc83c2-c64a-4072-8607-a5bfdd34bc12",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -856,18 +856,18 @@
                       }
                     },
                     "Destination": {
-                      "EoriNumber": "AU123456789000",
-                      "VatNumber": "AU123456789",
+                      "EoriNumber": "NO123456789000",
+                      "VatNumber": "NO123456789",
                       "Address": {
                         "ContactPhone": "07123456789",
                         "ContactName": "John Smith",
                         "CompanyName": "Company",
                         "ContactEmail": "john.smith@example.com",
-                        "Line1": "10 Sky Road",
-                        "Town": "Sydney",
-                        "Postcode": "2000",
-                        "County": "NSW",
-                        "CountryCode": "AU"
+                        "Line1": "Fjordveien 12",
+                        "Town": "Bergen",
+                        "Postcode": "5004",
+                        "County": "Vestland",
+                        "CountryCode": "NO"
                       }
                     },
                     "Packages": [
@@ -908,13 +908,13 @@
                     "Customs": {
                       "ReasonForExport": "01",
                       "Incoterms": "DAP",
-                      "PreRegistrationNumber": "ARN1234567890",
-                      "PreRegistrationType": "GST",
+                      "PreRegistrationNumber": "VOEC12345678",
+                      "PreRegistrationType": "VOEC",
                       "ShippingCharges": 55.82,
                       "OtherCharges": 32,
                       "QuotedLandedCost": 82.74,
                       "InvoiceNumber": "INV-12345",
-                      "InvoiceDate": "2026-05-20",
+                      "InvoiceDate": "2026-06-10",
                       "ExportLicenceRequired": false,
                       "Airn": "231.002.999-00"
                     },
@@ -942,12 +942,12 @@
                       "ContentType": "NDX",
                       "ServiceCode": "SMHER24",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-05-20",
+                      "ShipmentDate": "2026-06-10",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "6671f8b9-f8ac-484b-8d4b-b948bc182c74",
+                      "ShippingAccountId": "7e364a2b-6111-4d80-9356-d780e2609c49",
                       "Reference1": "OrderRef56",
                       "Address": {
                         "AddressId": "John Brown Default"
@@ -985,7 +985,7 @@
                 "examples": {
                   "Create": {
                     "value": {
-                      "ConsignmentShipmentId": "1e4c9f8a-81ff-4c93-b870-579ecdaa8b89",
+                      "ConsignmentShipmentId": "e6b6e00a-0f66-41a7-afd5-a3cd8169ca02",
                       "Packages": [
                         {
                           "CarrierDetails": {
@@ -998,26 +998,26 @@
                   },
                   "Allocate": {
                     "value": {
-                      "ConsignmentShipmentId": "59f0e48b-1d51-4dd7-b8a2-092c823c5480",
-                      "ConsignmentTrackingNumber": "UZ 123 456 789 IE",
-                      "ConsignmentCarrierTrackingUrl": "https://track.dpd.co.uk/search?reference=UZ 123 456 789 IE",
+                      "ConsignmentShipmentId": "90f3dc7d-69a2-4261-9821-8fd65f7a421f",
+                      "ConsignmentTrackingNumber": "12345678901234",
+                      "ConsignmentCarrierTrackingUrl": "https://track.dpd.co.uk/search?reference=12345678901234",
                       "Packages": [
                         {
                           "CarrierDetails": {
                             "Barcode": "%0LA11LZ15501999000004811826"
                           },
                           "PackageOccurrence": 1,
-                          "TrackingNumber": "UZ 123 456 789 IE",
-                          "CarrierTrackingUrl": "https://track.dpd.co.uk/search?reference=UZ 123 456 789 IE"
+                          "TrackingNumber": "12345678901234",
+                          "CarrierTrackingUrl": "https://track.dpd.co.uk/search?reference=12345678901234"
                         }
                       ]
                     }
                   },
                   "Process - PDF": {
                     "value": {
-                      "ConsignmentShipmentId": "6505fae4-fa8f-40b9-b6f1-aae4441296f9",
-                      "ConsignmentTrackingNumber": "UZ 123 456 789 IE",
-                      "ConsignmentCarrierTrackingUrl": "https://track.dpd.co.uk/search?reference=UZ 123 456 789 IE",
+                      "ConsignmentShipmentId": "9dc38121-f446-4748-810c-4b8d44751440",
+                      "ConsignmentTrackingNumber": "12345678901234",
+                      "ConsignmentCarrierTrackingUrl": "https://track.dpd.co.uk/search?reference=12345678901234",
                       "Labels": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
                       "LabelFormat": "Pdf",
                       "Packages": [
@@ -1026,8 +1026,8 @@
                             "Barcode": "%0LA11LZ15501999000004811826"
                           },
                           "PackageOccurrence": 1,
-                          "TrackingNumber": "UZ 123 456 789 IE",
-                          "CarrierTrackingUrl": "https://track.dpd.co.uk/search?reference=UZ 123 456 789 IE"
+                          "TrackingNumber": "12345678901234",
+                          "CarrierTrackingUrl": "https://track.dpd.co.uk/search?reference=12345678901234"
                         }
                       ]
                     }
@@ -1120,9 +1120,9 @@
                 "examples": {
                   "PDF": {
                     "value": {
-                      "ShipmentId": "29e687f9-d705-4920-a8a0-a02bf90af527",
-                      "TrackingNumber": "UZ 123 456 789 IE",
-                      "CarrierTrackingUrl": "https://track.dpd.co.uk/search?reference=UZ 123 456 789 IE",
+                      "ShipmentId": "690bdb63-787a-4f32-8613-ec3647a85f51",
+                      "TrackingNumber": "12345678901234",
+                      "CarrierTrackingUrl": "https://track.dpd.co.uk/search?reference=12345678901234",
                       "Label": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
                       "LabelFormat": "PDF"
                     }
