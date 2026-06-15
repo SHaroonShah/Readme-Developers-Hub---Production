@@ -18,7 +18,7 @@ next:
       slug: shipping-account-setup-1
       title: Yodel shipping account setup
 ---
-<Image align="center" border={false} width="900px" src="https://files.readme.io/3d6b9cd3a2a729d7bb30ada0f5836b3330a213d5425aa775cd814a13b958e44d-YODEL_white_banner.png" />
+<Image align="center" width="900px" src="https://files.readme.io/3d6b9cd3a2a729d7bb30ada0f5836b3330a213d5425aa775cd814a13b958e44d-YODEL_white_banner.png" />
 
 ***
 
@@ -77,25 +77,33 @@ YODEL is fully integrated into the Intersoft SAPIENT platform, allowing business
 <Tabs>
   <Tab title="Core Services">
     <Accordion title="Create Shipment" icon="plus-circle">
-      Create YODEL shipments through the SAPIENT Create Shipment API endpoint.
+      The integration for creating shipments to reflect Yodel as a primary carrier and allowing users to create shipments using the Create Shipment API endpoint that returns the label in base64 encoded format.
     </Accordion>
 
     <br />
 
-    <Accordion title="Label Integration" icon="plus-circle">
-      The YODEL label integration is in-house, which means the label is generated within the SAPIENT system without calling the carrier API.
+    <Accordion title="Manifest shipment" icon="plus-circle">
+        Enable customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/docs/manifest-webhook) to keep track of shipments and their statuses by to receiving real-time updates or notifications whenever specific events occur in the system (such as shipping updates, status changes, and so on).
+
+      > 📘 *Note*
+      >
+      > *If any created shipments have not been manifested, it is advised to cancel them to avoid unwanted labels.*
     </Accordion>
   </Tab>
 
   <Tab title="Other Services">
     <Accordion title="Print Label" icon="print">
-      Generate and return the label for a YODEL shipment using the SAPIENT Print Label API endpoint.
+      Generate and return the label for a FedEx International Connect shipment in the PDF format. This endpoint must be utilised when the label is not generated in the FedEx International Connect Create Shipment request.
+
+      > 📘 *Note*
+      >
+      > *This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting.*
     </Accordion>
 
     <br />
 
     <Accordion title="Tracking" icon="print">
-      The YODEL tracking integration enables data files to be sent via SFTP.
+      This integration allows customers to monitor their shipments in real-time, providing transparency and peace of mind. Users can access detailed tracking information, including, real-time updates, tracking numbers, and delivery notifications.The YODEL tracking integration enables data files to be sent via SFTP.
     </Accordion>
   </Tab>
 </Tabs>
