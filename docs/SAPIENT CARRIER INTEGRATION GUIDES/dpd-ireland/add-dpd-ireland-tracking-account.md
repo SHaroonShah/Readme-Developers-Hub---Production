@@ -1,28 +1,30 @@
 ---
 title: Add DPD Ireland tracking account
+excerpt: >-
+  A _tracking account_ is a dedicated account that enables the monitoring and
+  logging of every possible real-time event related to a shipment throughout its
+  lifecycle which is received via the SAPIENT tracking webhook.
 deprecated: false
 hidden: true
 icon: fad fa-calendar-circle-plus
 metadata:
   robots: index
 ---
-<br />
-
-In SAPIENT, you can add tracking accounts for DHL Germany  to enhance visibility, improving customer interactions, and streamlining logistics operations for DHL Germany.
+In SAPIENT, you can add tracking accounts for DPD Ireland  to enhance visibility, improving customer interactions, and streamlining logistics operations for DHL Germany.
 
 > 🚧 _Important_
 >
-> _Prior to adding an DHL Germany tracking account, make sure you have completed the following prerequisites:_
+> _Prior to adding a DPD Ireland tracking account, make sure you have completed the following prerequisites:_
 >
-> 1. _Enabled the [label integration](https://docs.intersoftsapient.net/docs/integration-activation) with DHL Germany._
-> 2. _Enabled the [tracking integration](https://docs.intersoftsapient.net/docs/integration-activation) with DHL Germany._
+> 1. _Enabled the [label integration](https://docs.intersoftsapient.net/docs/integration-activation) with DPD Ireland._
+> 2. _Enabled the [tracking integration](https://docs.intersoftsapient.net/docs/integration-activation) with DPD Ireland._
 > 3. _Set up your<Glossary>tracking webhook</Glossary>. For more information on how to set up a tracking webhook, refer to the [Create tracking webhook](https://docs.intersoftsapient.net/docs/create-tracking-webhook) section. This is a one-time activity, you do not have to do this every time you add a tracking account._
 >
-> _If you wish to receive the tracking events via INTERSOFT using the tracking account you have created, make sure it is is activated by the DHL Germany team._
+> _If you wish to receive the tracking events via INTERSOFT using the tracking account you have created, make sure it is is activated by the DPD Ireland team._
 
-## How to add DHL Germany tracking account
+## How to add DPD Ireland tracking account
 
-To add a tracking account for DHL Germany in SAPIENT, follow the steps as explained in the following procedure.
+To add a tracking account for DPD Ireland in SAPIENT, follow the steps as explained in the following procedure.
 
 1. In the left navigation panel, select **API** > **Webhooks**. On the page that opens, select the **Tracking Accounts** tab.
 
@@ -34,13 +36,13 @@ To add a tracking account for DHL Germany in SAPIENT, follow the steps as explai
 
 3. On the **Add Tracking account** page that appears, in the **DETAILS** block, enter the necessary information as explained in the following table.
 
-<Image align="center" caption="Entering carrier details" src="https://files.readme.io/6f8492c7d2ea214fc444045c2540bea06c5468826e50660447fa4678b141c5a6-image.png" width="500px" />
+<Image align="center" border={true} width="500px" src="https://files.readme.io/132187d592cc67e7de18f937f2caffdd80fe69c89284361d338ba7e4b572dbcb-image.png" className="border" />
 
 <AsteridkForMandatoryElements />
 
 |        Element        | Description                                                                                                      |
 | :-------------------: | :--------------------------------------------------------------------------------------------------------------- |
-|      **Carrier***     | From the dropdown menu, select DHLDE - DHL Germany as your carrier option.                                       |
+|      **Carrier***     | From the dropdown menu, select DPD Ireland as your carrier option.                                               |
 | **Shipping Account*** | From the dropdown menu, select the <Glossary>shipping account</Glossary> for which you want to receive tracking. |
 
 > 📘 _Note_
@@ -49,4 +51,6 @@ To add a tracking account for DHL Germany in SAPIENT, follow the steps as explai
 
 5. After entering all the necessary information, select ![alt text](https://files.readme.io/f713760b5bde9e21d187c9b978502b434343e34f9f3db55afa5b565d35d478cd-Add_tracking_account_button_2.png).
 
-Once done, the DHL Germany tracking account is added successfully and appears in the **Tracking Accounts** list. You can now receive the tracking information on your <Glossary>shipments</Glossary>.
+Once done, the DPD Ireland tracking account is added successfully and appears in the **Tracking Accounts** list. You can now receive the tracking information on your <Glossary>shipments</Glossary>.
+
+<br />
