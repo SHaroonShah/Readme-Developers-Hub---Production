@@ -60,7 +60,7 @@ next:
     <Image align="center" src="https://files.readme.io/770237c3f809f1b4be1ccf51ca8418ce8440069178e4dd4ff1b563d0e4c7210b-An_post_logo_white.png" width="100px" />
   </Card>
 
-  <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/an-post#/versions" Width="200" tooltip="DHL Express">
+  <Card title="" href="https://docs.intersoftsapient.net/docs/dhl-express" Width="200" tooltip="DHL Express">
     <Image align="center" src="https://files.readme.io/7f06ef6e137cd4e9c18f23b72ebb66ff288ef675fd705e2e4a18801eafc42d83-DHL_Express_logo_white.png" width="100px" />
   </Card>
 
