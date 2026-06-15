@@ -9,8 +9,6 @@ icon: fad fa-truck-fast
 metadata:
   robots: index
 ---
-<br />
-
 DPD Ireland ship domestically within Ireland and internationally to other EU and <Glossary>ROW</Glossary> countries.
 
 The integration of DPD IE into the SAPIENT platform is a significant step in enhancing shipping capabilities. This section provides more information on how DPD IE services can help you to deliver more for you and your customers.
