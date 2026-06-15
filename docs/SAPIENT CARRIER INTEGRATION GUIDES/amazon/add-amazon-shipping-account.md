@@ -36,11 +36,7 @@ In SAPIENT, you can create both <Glossary>On-Amazon</Glossary> and <Glossary>Off
 
           In the left navigation panel, select **Shipping Accounts**.
 
-          <Image align="center" border={true} src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" alt="Accessing shipping accounts" />
-
-          <p style={{ textAlign: "center" }}>
-            <em>Accessing shipping accounts</em>
-          </p>
+          <Image align="center" border={true} src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" alt="Accessing shipping accounts" caption="Accessing shipping accounts"/>
 
           ***
         </ToggleListItem>
@@ -52,7 +48,7 @@ In SAPIENT, you can create both <Glossary>On-Amazon</Glossary> and <Glossary>Off
 
           On the **Shipping Accounts** page that opens, select the **Add Shipping Account** button.
 
-          <Image align="center" border={true} src="https://files.readme.io/8490d8ba65c4eca10caa8c051c5e73bf366fc5a6269e84a2bfb697544105b343-Add_shipping_account_option.png" alt="Accessing option to add shipping account" caption="Selecting option to add shipping account"/>
+          <Image align="center" border={true} src="https://files.readme.io/8490d8ba65c4eca10caa8c051c5e73bf366fc5a6269e84a2bfb697544105b343-Add_shipping_account_option.png" alt="Accessing option to add shipping account" />
 
           ***
         </ToggleListItem>
