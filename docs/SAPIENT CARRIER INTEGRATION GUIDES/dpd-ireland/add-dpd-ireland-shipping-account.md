@@ -1,20 +1,23 @@
 ---
 title: Add DPD Ireland shipping account
+excerpt: >-
+  A _shipping account_ is a specific account set up with a shipping carrier or
+  logistics provider that enables businesses to manage shipping activities.
 deprecated: false
 hidden: true
 icon: fad fa-square-plus
 metadata:
   robots: index
 ---
-In SAPIENT, with the Add Shipping Account functionality, you can select the desired shipping location and then add a DHL Germany shipping account to it.
+In SAPIENT, with the **Add Shipping Account** functionality, you can select the desired shipping location and then add a DPD Ireland shipping account to it.
 
 > 🚧 _Important_
 >
 > _Before you can set up a shipping account, make sure you have enabled the <Anchor label="label integration" target="_blank" href="https://docs.intersoftsapient.net/docs/integration-activation">label integration</Anchor> for DHL Germany._
 
-## How to add DHL DE shipping account
+## How to add DPD Ireland shipping account
 
-To add a shipping account for DHL DE in SAPIENT, perform the steps as explained in the following procedure.
+To add a shipping account for DPD Ireland in SAPIENT, perform the steps as explained in the following procedure.
 
 1. In the left navigation panel, select **Shipping Accounts**.
 
@@ -26,18 +29,18 @@ To add a shipping account for DHL DE in SAPIENT, perform the steps as explained 
 
 3. On the **Add Shipping Account** form that appears, in the **ACCOUNT DETAILS** block, fill in the necessary information as described in the following table.
 
-<Image align="center" caption="Entering account details" src="https://files.readme.io/b7085aee7b1ca45c493a419c93c6866dac2426be296db4862aa890412013e36d-image.png" width="500px" />
+<Image align="center" width="550px" src="https://files.readme.io/86645219f87b869aff196c809ef6249918aa0e14533c668a9ac0b8be1f007cd9-image.png" />
 
 <AsteridkForMandatoryElements />
 
 | Element                | Description                                                                                                   |
 | :--------------------- | :------------------------------------------------------------------------------------------------------------ |
-| **Carrier***           | From the dropdown list, select DHLDE -  DHL Germany.                                                          |
+| **Carrier***           | From the dropdown list, select **DPDIE -  DPD Ireland**.                                                      |
 | **Shipping Location*** | From the dropdown menu, select the location that you want to assign to the shipping account you are creating. |
 
 4. In the **SHIPPING ACCOUNT** block, enter the necessary information as explained in the following table.
 
-<Image align="center" caption="Entering shipping account details" src="https://files.readme.io/83810f18ee92f48d62b60191f940531365a413ee892f5fc77f3fd76772e24e87-image.png" width="400px" />
+<Image align="center" width="500px" src="https://files.readme.io/c18989ccd749f6910c3f73b85cbf2bcca73358ef809018f03cfb226f78a6b82e-image.png" />
 
 <AsteridkForMandatoryElements />
 
@@ -61,7 +64,7 @@ To add a shipping account for DHL DE in SAPIENT, perform the steps as explained 
       </td>
 
       <td>
-        Enter the unique 10-digit EKP (Einheitliche Kunden- und Produktnumme) number assigned by the DHL sales team.
+        Enter the carrier account number assigned to you by DPD Ireland.
       </td>
     </tr>
 
@@ -123,14 +126,15 @@ To add a shipping account for DHL DE in SAPIENT, perform the steps as explained 
 
 5. In the **CARRIER DETAILS** block, enter the necessary information as explained in the following table.
 
-<Image align="center" caption="Entering carrier details" src="https://files.readme.io/0bd2bd4e7974be809da0cb97fda2d4f39e52d8177dbf53777bfa5ab3f0022b5f-image.png" width="450px" />
+<Image align="center" width="500px" src="https://files.readme.io/d4b4a30602ad21751b1cd1860976f17f00995d772dcbc15e817dde6c4188a483-image.png" />
 
 <AsteridkForMandatoryElements />
 
-|          Element          | Description                                                                       |
-| :-----------------------: | :-------------------------------------------------------------------------------- |
-| **DHL Germany Username*** | Enter the unique identifier for the user account associated with DHL Germany.     |
-| **DHL Germany Password*** | Enter the secure password used to authenticate the user account with DHL Germany. |
+|      Element     | Description                                                                                                                                                       |
+| :--------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|   **Username***  | Enter the username provided by DPD Ireland, used in API requests to authenticate the shipping account.                                                            |
+|   **Password***  | Enter the password associated with the DPD Ireland account, used alongside the username for API authentication.                                                   |
+| **Basic Token*** | Enter the secure authentication token provided by DPD Ireland, sent in the request header to support API authorisation; must be treated and stored as a password. |
 
 6. After entering all the required information, select ![](https://files.readme.io/99e4e322c6a3f874e0258a73646a551aa2120d8d359b2ce5d09a4cf0eabcd44a-add_shipping_account_button_2.png).
 
