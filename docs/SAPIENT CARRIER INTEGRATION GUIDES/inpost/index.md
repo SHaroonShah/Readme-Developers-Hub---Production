@@ -101,7 +101,7 @@ This integration offers several key features that streamline the shipping proces
 
 ***
 
-## API Services
+## Getting Started
 
 <Tabs>
   <Tab title="Account Setup">
