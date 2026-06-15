@@ -55,9 +55,9 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
 
         <AsteridkForMandatoryElements />
 
-        | Element                 | Description                                                                                                                      |
-        | :---------------------- | :------------------------------------------------------------------------------------------------------------------------------- |
-        | **Carrier**\*           | From the dropdown list, select **YODEL - Yodel**.                                                                                |
+        | Element                 | Description                                                                                                                                 |
+        | :---------------------- | :------------------------------------------------------------------------------------------------------------------------------------------ |
+        | **Carrier**\*           | From the dropdown list, select **YODEL - Yodel**.                                                                                           |
         | **Shipping Location**\* | From the dropdown menu, select the <Glossary>shipping location</Glossary> that you want to assign to the shipping account you are creating. |
 
         ***
@@ -212,7 +212,7 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
 
                 This number is used to create the unique YODEL barcode range.
 
-                _`Note:` The meter number must be unique and cannot be duplicated across shipping accounts._
+                *`Note:`The meter number must be unique and cannot be duplicated across shipping accounts.*
               </td>
             </tr>
           </tbody>
@@ -248,6 +248,9 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
 
 <Cards columns={2}>
   <Card title="Edit shipping account" icon="fa-pen-to-square" href="https://docs.intersoftsapient.net/docs/edit-shipping-account">
+    Update or modify an existing shipping account.
+  </Card>
+<Card title="Add barcode range to shipping account" icon="fa-solid fa-barcode" href="https://docs.intersoftsapient.net/docs/edit-shipping-account">
     Update or modify an existing shipping account.
   </Card>
 </Cards>
