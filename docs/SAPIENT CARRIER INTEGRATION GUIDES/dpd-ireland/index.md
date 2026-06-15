@@ -38,13 +38,13 @@ This integration provides the following key features:
 The following are the key services are provided by the DPD IE integration:
 
 * **Email Notification**: Delivery updates are sent via email. To use this enhancement code, the destination **ContactEmail** must be provided with a valid email address.   
-* **SMS Notification**: Delivery updates are sent via SMS. To use this enhancement code, the destination **ContactPhone** field must be provided with a valid phone number.
+* **SMS Notification**: Delivery updates are sent via SMS. To use this enhancement code, the destination **ContactPhone** field must be specified with a valid phone number.
 * Delivery options: DPD IE provides the following delivery options: 
-  * Neighbour: 
-  * Safe Place: 
-  * Letterbox:
-* Extra Insurance
-* Pin on Delivery: 
+  * Neighbour: Allows the delivery to be left with a nearby neighbour if the recipient is not available.
+  * Safe Place: Allows the delivery to be left in a specified secure location at the delivery address when the recipient is not available
+  * Letterbox: Indicates that the item is small enough to be delivered through the recipient’s letterbox.
+* Extra Insurance: Provides additional coverage for the shipment beyond the standard liability, protecting against loss or damage up to a specified value.
+* Pin on Delivery: Requires a secure PIN to be provided at the time of delivery to confirm receipt by the recipient. To use this enhancement code, the destination **ContactPhone** or **ContactEmail** fields must be specified with a valid phone number or email address.
 
 <Callout icon="💡" theme="default">
   ### _Tip_
@@ -54,9 +54,13 @@ The following are the key services are provided by the DPD IE integration:
 
 ## Additional features
 
-The DPD NL integration provides the following additional features:
+The DPD IE integration provides the following additional features:
 
-* **Consignment services**:  Consignment services are supported for all destinations except for GB.
+* **Consignment services**:  Multi-piece shipments are are supported for all services except DPD Air Express.
+
+> 📘 _Note_
+>
+> _For Domestic and DPD Classic services, the maximum number of packages allowed is 10, and for DPD Air Express,  it is 1._
 
 ## API Services
 
