@@ -41,10 +41,10 @@ The following are the key services are provided by the DPD IE integration:
 * **SMS Notification**: Delivery updates are sent via SMS. To use this enhancement code, the destination **ContactPhone** field must be specified with a valid phone number.
 * **Delivery options**: DPD IE provides the following delivery options:
   * **DelivertoNeighbour**: Allows the delivery to be left with a nearby neighbour if the recipient is not available.
-  * **DelivertoSafeplace**: Allows the delivery to be left in a specified secure location at the delivery address when the recipient is not available. if this enhancement is used, the details of the location must be specfied in the **SafeplaceLocation** field captured in the **CarrierSpecifics** block of the Create Shipment request.
+  * **DelivertoSafeplace**: Allows the delivery to be left in a specified secure location at the delivery address when the recipient is not available. If this enhancement is used, the details of the location must be specfied in the **SafeplaceLocation** field captured in the **CarrierSpecifics** block of the Create Shipment request.
   * **DeliverytoLetterbox**: Indicates that the item is small enough to be delivered through the recipient’s letterbox.
 * **ExtraInsurance**: Provides additional coverage for the shipment beyond the standard liability, protecting against loss or damage up to a specified value.
-* **PinonDelivery**: Requires a secure PIN to be provided at the time of delivery to confirm receipt by the recipient. To use this enhancement code, the destination **ContactPhone** or **ContactEmail** fields must be specified with a valid phone number or email address.
+* **PinOnDelivery**: Requires a secure PIN to be provided at the time of delivery to confirm receipt by the recipient. To use this enhancement code, the destination **ContactPhone** or **ContactEmail** fields must be specified with a valid phone number or email address.
 
 <Callout icon="💡" theme="default">
   ### _Tip_
