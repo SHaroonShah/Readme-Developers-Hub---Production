@@ -250,7 +250,7 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
   <Card title="Edit shipping account" icon="fa-pen-to-square" href="https://docs.intersoftsapient.net/docs/edit-shipping-account">
     Update or modify an existing shipping account.
   </Card>
-<Card title="Add barcode range to shipping account" icon="fa-solid fa-barcode" href="https://docs.intersoftsapient.net/docs/edit-shipping-account">
+<Card title="Add barcode range to shipping account" icon="fa-solid fa-barcode" href="https://docs.intersoftsapient.net/docs/barcode-range-setup-1">
     Update or modify an existing shipping account.
   </Card>
 </Cards>
