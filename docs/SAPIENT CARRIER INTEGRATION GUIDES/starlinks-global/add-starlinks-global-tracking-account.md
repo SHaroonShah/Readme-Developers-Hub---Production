@@ -2,7 +2,7 @@
 title: Add Starlinks Global tracking account
 deprecated: false
 hidden: true
-icon: fad fa-truck-fast
+icon: fad fa-calendar-circle-plus
 metadata:
   robots: index
 ---
