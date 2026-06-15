@@ -42,7 +42,7 @@ The following are the key services are provided by the DPD IE integration:
 * Delivery options: 
   * Neighbour:
   * Safe Place: 
-  * Latterbox:
+  * Letterbox:
 * Extra Insurance
 * Pin on Delivery: 
 
