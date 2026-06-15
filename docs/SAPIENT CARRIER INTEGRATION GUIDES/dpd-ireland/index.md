@@ -39,7 +39,7 @@ The following are the key services are provided by the DPD IE integration:
 
 * **Email Notification**: Delivery updates are sent via email. To use this enhancement code, the destination **ContactEmail** must be provided with a valid email address.   
 * **SMS Notification**: Delivery updates are sent via SMS. To use this enhancement code, the destination **ContactPhone** field must be specified with a valid phone number.
-* **Delivery options**: DPD IE provides the following delivery options: 
+* **Delivery options**: DPD IE provides the following delivery options:
   * **DelivertoNeighbour**: Allows the delivery to be left with a nearby neighbour if the recipient is not available.
   * **DelivertoSafeplace**: Allows the delivery to be left in a specified secure location at the delivery address when the recipient is not available. if this enhancement is used, the details of the location must be specfied in the **SafeplaceLocation** field captured in the **CarrierSpecifics** block of the Create Shipment request.
   * **DeliverytoLetterbox**: Indicates that the item is small enough to be delivered through the recipient’s letterbox.
@@ -63,7 +63,7 @@ The DPD IE integration provides the following additional features:
 > _For Domestic and DPD Classic services, the maximum number of packages allowed is 10, and for DPD Air Express,  it is 1._
 
 * **Delivery Instructions**: To provide special instructions related to the delivery of the shipment. This may involve guidance on how the package should be handled or specific requests regarding the delivery location (for example, leave at the back door or deliver to a neighbour to sign).
-* Safe Place Location: To provide details of the safe place location for the shipment. This field is mandatory if  the **DeliverToSafeplace** service enhancement is used. 
+* Safe Place Location: To provide details of the safe place location for the shipment. This field is mandatory if  the **DeliverToSafeplace** service enhancement is used.
 
 ## API Services
 
@@ -71,4 +71,4 @@ The following API services are provided by the DPD IE integration:
 
 * **Create shipment**: The integration for creating shipments to reflect DPD IE as a primary carrier and allowing users to create shipments using the Create Shipment that returns the label in base64 encoded format.
 * **Manifest webhook**: Keep track of shipments and their statuses by to receiving real-time updates or notifications whenever specific events occur in the system (such as shipping updates, status changes, and so on) via the SAPIENT Manifest Webhook feature.
-* **Tracking**: Enables data files to be sent via SFTP and received through the SAPIENT tracking webhook.
+* **Tracking**: Enables customers to receive tracking updates through their integration with the SAPIENT tracking webhook.
