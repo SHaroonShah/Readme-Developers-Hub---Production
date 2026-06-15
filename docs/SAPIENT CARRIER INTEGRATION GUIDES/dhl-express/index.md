@@ -10,7 +10,9 @@ icon: fad fa-truck-fast
 metadata:
   robots: noindex
 ---
-<br />
+<Image align="center" width="900px" src="https://files.readme.io/6d2f44c2963d766e80765aa229e350bec8d8f0ccad0c0129a54ca09abb760d80-DHL_Express_banner_white.png" />
+
+***
 
 The integration of DHL Express into the SAPIENT platform is a significant step in enhancing shipping capabilities. This section discusses the in-scope features of this integration and the services this carrier offers.
 
