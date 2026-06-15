@@ -127,7 +127,7 @@ next:
   </Card>
 
   <Card title="Hurricane Commerce Services" href="https://docs.intersoftsapient.net/v4.02/docs/hurricane-commerce-services#/versions" icon="fa-solid fa-hurricane">
-    Get logistics support for cross-border shipments via Hurricane Commerce Services
+    Get logistics support for cross-border shipments via Hurricane Commerce Services.
   </Card>
 
   <Card title="PUDO service" href="https://docs.intersoftsapient.net/v4.02/docs/use-local-collect-shipment-service#/versions" icon="fa-solid fa-store">
