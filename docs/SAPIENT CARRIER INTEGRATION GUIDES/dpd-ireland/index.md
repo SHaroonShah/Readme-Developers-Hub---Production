@@ -39,8 +39,8 @@ The following are the key services are provided by the DPD IE integration:
 
 * **Email Notification**: Delivery updates are sent via email. To use this enhancement code, the destination **ContactEmail** must be provided with a valid email address.   
 * **SMS Notification**: Delivery updates are sent via SMS. To use this enhancement code, the destination **ContactPhone** field must be provided with a valid phone number.
-* Delivery options: 
-  * Neighbour:
+* Delivery options: DPD IE provides the following delivery options: 
+  * Neighbour: 
   * Safe Place: 
   * Letterbox:
 * Extra Insurance
