@@ -61,7 +61,7 @@ next:
   </Card>
 
   <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/an-post#/versions" Width="200" tooltip="DHL Express">
-   <Image align="center" width="100px" src="https://files.readme.io/7f06ef6e137cd4e9c18f23b72ebb66ff288ef675fd705e2e4a18801eafc42d83-DHL_Express_logo_white.png" />
+    <Image align="center" src="https://files.readme.io/7f06ef6e137cd4e9c18f23b72ebb66ff288ef675fd705e2e4a18801eafc42d83-DHL_Express_logo_white.png" width="100px" />
   </Card>
 
   <Card title="" href="https://docs.intersoftsapient.net/docs/dhl-germany-de" Width="200" tooltip="DHL Germany">
@@ -76,7 +76,7 @@ next:
     <Image align="center" src="https://files.readme.io/f6c3b60e1634e92c63b0de461282286ee7ab5dc85714c38c4f3e7124f9d3a722-DPD_white_logo.png" width="100px" />
   </Card>
 
-  <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/dx#/versions" Width="200" tooltip="DX Express">
+  <Card title="" href="https://docs.intersoftsapient.net/docs/dhl-express" Width="200" tooltip="DX Express">
     <Image align="center" src="https://files.readme.io/b2686904eb7df8eec99dad01e8e3e65ace3b11db405ce5bbc60c338df134b61a-DX_express_white_logo.png" width="100px" />
   </Card>
 
@@ -154,5 +154,3 @@ next:
 </Cards>
 
 <br />
-
-
