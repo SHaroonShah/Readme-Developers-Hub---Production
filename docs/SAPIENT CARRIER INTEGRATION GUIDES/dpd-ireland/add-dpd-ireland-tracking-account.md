@@ -1,7 +1,7 @@
 ---
 title: Add DPD Ireland tracking account
 deprecated: false
-hidden: false
+hidden: true
 icon: fad fa-calendar-circle-plus
 metadata:
   robots: index
