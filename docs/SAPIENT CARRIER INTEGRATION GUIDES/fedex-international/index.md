@@ -95,7 +95,7 @@ FedEx International Connect is a flexible, cost-effective, worldwide delivery so
     <br />
 
     <Accordion title="Tracking" icon="print">
-      This integration allows customers to monitor their shipments in real-time, providing transparency and peace of mind. Users can access detailed tracking information, including, real-time updates, tracking numbers, and delivery notifications. For EVRi shipments, the data files are sent via SFTP.
+      This integration allows customers to monitor their shipments in real-time, providing transparency and peace of mind. Users can access detailed tracking information, including, real-time updates, tracking numbers, and delivery notifications.
     </Accordion>
   </Tab>
 </Tabs>
