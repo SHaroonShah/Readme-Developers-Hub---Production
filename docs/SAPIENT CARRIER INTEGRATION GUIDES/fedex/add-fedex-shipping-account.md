@@ -34,9 +34,7 @@ To add a shipping account for FedEx in SAPIENT, follow the instructions as expla
 > _You can create and manage the FedEx shipping account only via the SAPIENT UI._
 
 
-  
-
-    <ToggleList>
+<ToggleList>
       <ToggleListItem title="1. Select the Shipping Accounts page">
         In the left navigation panel, select **Shipping Accounts**.
 
@@ -81,43 +79,35 @@ To add a shipping account for FedEx in SAPIENT, follow the instructions as expla
 
         <Image align="center" border={true} src="https://files.readme.io/950ecf2078b82bd3fe88341fade42750572d13b77720c3d164f97625bb6ff8e5-FEDEX_Shipping_account_stage.png" alt="Entering shipping account details" />
 
-        ***
+        <Tabs>
+          <Tab title="5. Confirm FedEx end user license agreement">
+            At the **EULA** stage, [carefully read the FedEx end user license agreement](https://docs.intersoftsapient.net/docs/confirm-fedex-end-user-license-agreement#/) and confirm it by selecting the checkbox and ![](https://files.readme.io/a544674d471b96aadef7f8afe38ba10b912f11fb7b7fd758dc372d04dfbdd7da-I_agree_button.png) button to proceed to the next stage.
+
+            <Image align="center" border={true} src="https://files.readme.io/c3319a8a8ce0acdd3155e5d73cec44011b84d796486eca6a56e62728392a6925-FedEx_Eula_tab.png" alt="Accepting FedEx end-user license agreement" />
+          </Tab>
+
+          <Tab title="6. Enter shipping address details">
+            At the **Shipping Address** stage that appears, [specify the FedEx shipping address details](https://docs.intersoftsapient.net/docs/specify-shipping-address-details#/) so that the system can validate and match it with the address registered in the FedEx systems. Select ![](https://files.readme.io/467fc35d98b9402e95108b15780beb269e7b7c935be406e916cb506d31d25663-Submit_button.png). After the address has been validated, the **accountAuthToken** is generated. Save the generated token.
+
+            <Image align="center" border={true} src="https://files.readme.io/44a0d7bc452b2b65f362c4365107b07a28760e52cfce04c2ddd7418dbae127f3-FedEx_Shippig_address_stage.png" alt="Specifying FedEx shipping address details" />
+          </Tab>
+
+          <Tab title="7. Complete multi-factor authentication">
+            At the **Multi Factor Authentication** stage, [complete the multi-factor authentication process](https://docs.intersoftsapient.net/docs/initiate-multi-factoer-authentication-process#/) by using the invoice number or PIN generation validation methods. Select ![](https://files.readme.io/9ad4e9682f0c8d463a45785d7597c52ee40602f9e6a914f27bb6656409011726-Validate_button.png).
+
+            <Image align="center" src="https://files.readme.io/7b2058eb6bf72d27640c63a5d639fd9b2a4675a4c0e83b7236a917e77f748842-Recent_invoice_option.png" alt="Completing multi-factor authentication" />
+
+            <Callout icon="📘" theme="info">
+              *After submitting the form, if you have selected the **Enable Electronic Trade Documents (ETD)** checkbox, then a corresponding link is displayed with your successful account creation notification, prompting you to configure the ETD data via the [Signatures and logos](https://docs.intersoftsapient.net/docs/add-signature-and-logos-to-etd-documents#/) feature of SAPIENT.*
+            </Callout>
+          </Tab>
+
+          <Tab title="8. Start shipping">
+            Once validated, if all the entered information is correct, FedEx passes the MFA validation, and your FedEx shipping account is created successfully. At this point, INTERSOFT will get the new API credentials from FedEx for your shipping account for you to start shipping with your newly created FedEx account via our API.
+          </Tab>
+        </Tabs>
       </ToggleListItem>
-
-      <br />
-
-      <ToggleListItem title="5. Confirm FedEx end user license agreement">
-        At the **EULA** stage, [carefully read the FedEx end user license agreement](https://docs.intersoftsapient.net/docs/confirm-fedex-end-user-license-agreement#/) and confirm it by selecting the checkbox and ![](https://files.readme.io/a544674d471b96aadef7f8afe38ba10b912f11fb7b7fd758dc372d04dfbdd7da-I_agree_button.png) button to proceed to the next stage.
-
-        <Image align="center" border={true} src="https://files.readme.io/c3319a8a8ce0acdd3155e5d73cec44011b84d796486eca6a56e62728392a6925-FedEx_Eula_tab.png" alt="Accepting FedEx end-user license agreement" />
-
-        ***
-      </ToggleListItem>
-
-      <br />
-
-      <ToggleListItem title="6. Enter shipping address details">
-        At the **Shipping Address** stage that appears, [specify the FedEx shipping address details](https://docs.intersoftsapient.net/docs/specify-shipping-address-details#/) so that the system can validate and match it with the address registered in the FedEx systems. Select ![](https://files.readme.io/467fc35d98b9402e95108b15780beb269e7b7c935be406e916cb506d31d25663-Submit_button.png). After the address has been validated, the **accountAuthToken** is generated. Save the generated token.
-
-        <Image align="center" border={true} src="https://files.readme.io/44a0d7bc452b2b65f362c4365107b07a28760e52cfce04c2ddd7418dbae127f3-FedEx_Shippig_address_stage.png" alt="Specifying FedEx shipping address details" />
-
-        ***
-      </ToggleListItem>
-
-      <br />
-
-      <ToggleListItem title="7. Complete multi-factor authentication">
-        At the **Multi Factor Authentication** stage, [complete the multi-factor authentication process](https://docs.intersoftsapient.net/docs/initiate-multi-factoer-authentication-process#/) by using the invoice number or PIN generation validation methods. Select ![](https://files.readme.io/9ad4e9682f0c8d463a45785d7597c52ee40602f9e6a914f27bb6656409011726-Validate_button.png).
-
-        <Image align="center" src="https://files.readme.io/7b2058eb6bf72d27640c63a5d639fd9b2a4675a4c0e83b7236a917e77f748842-Recent_invoice_option.png" alt="Completing multi-factor authentication" />
-
-        > 📘 *Note*
-        >
-        > *After submitting the form, if you have selected the**Enable Electronic Trade Documents (ETD)** checkbox, then a corresponding link is displayed with your successful account creation notification, prompting you to configure the ETD data via the [Signatures and logos](https://docs.intersoftsapient.net/docs/add-signature-and-logos-to-etd-documents#/) feature of SAPIENT.*
-
-        Once validated, if all the entered information is correct, FedEx passes the MFA validation, and your FedEx shipping account is created successfully. At this point, INTERSOFT will get the new API credentials from FedEx for your shipping account for you to start shipping with your newly created FedEx account via our API.
-      </ToggleListItem>
-    </ToggleList>
+</ToggleList>
 
 ***
 
