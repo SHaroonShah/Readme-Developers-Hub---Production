@@ -67,14 +67,15 @@ FedEx is a global leader in logistics and delivery services, providing reliable 
     <Callout icon="📘" theme="default">
       ### *Note*
 
-      *For more information on Electronic Trade Document configuration, refer to the <Anchor label="Add FedEx shipping account" target="_blank" href="https://docs.intersoftsapient.net/docs/add-fedex-shipping-account">Add FedEx shipping account</Anchor> section.*
+      *For more information on Electronic Trade Document configuration, refer to the<Anchor label="Add FedEx shipping account" target="_blank" href="https://docs.intersoftsapient.net/docs/add-fedex-shipping-account">Add FedEx shipping account</Anchor> section.*
     </Callout>
   </Tab>
 
   <Tab title="Service Enhancements">
-The following are the key service enhancements provided by the FedEx integration:
+    The following are the key service enhancements provided by the FedEx integration:
+
     * **Saturday Delivery**: Enables package delivery on Saturdays for added convenience.
-    * **Declared Values**: Applies a surcharge if the requested declared value of the shipment exceeds the liability stated in FedEx's terms and conditions for the selected service. The _declared value_ of a package represents the maximum liability in connection with the shipment of the package, including, but not limited to, any loss, damage, delay, or missed delivery relating to that shipment. As the shipper, it’s your responsibility to prove any actual damages. Exposure to and risk of any loss in excess of your declared value is assumed by you.
+    * **Declared Values**: Applies a surcharge if the requested declared value of the shipment exceeds the liability stated in FedEx's terms and conditions for the selected service. The *declared value* of a package represents the maximum liability in connection with the shipment of the package, including, but not limited to, any loss, damage, delay, or missed delivery relating to that shipment. As the shipper, it’s your responsibility to prove any actual damages. Exposure to and risk of any loss in excess of your declared value is assumed by you.
     * **Adult Signature**: Obtains a signature from any person of legal age at the delivery address, subject to the provision of a valid ID. If no one qualified to sign is available, an attempt will be made to redeliver the package on another date. Legal age varies depending on the destination country/territory and is governed by local legal age of an adult, not the legal age to purchase specific products.
     * **Direct Signature**: Obtains a signature from someone at the delivery address only. If no one is available to sign, a redelivery attempt of the package will be made on another date.
     * **Indirect Signature**: Obtains a signature from someone at the delivery address, from a neighbour, or from a building manager. If no one is available to sign, the package will be delivered on another date.
@@ -143,7 +144,7 @@ The following are the key service enhancements provided by the FedEx integration
   </Tab>
 </Tabs>
 
-<Banner isInline={true} message="Ready to integrate?" color="#4D148C" textColor="#ffffff" fontSize="20px" fontWeight="bold" width="120px" />
+<Banner isInline={true} message="Ready to integrate?" color="#ffb600" textColor="#ffffff" fontSize="20px" fontWeight="bold" width="120px" />
 
 <Cards columns={0}>
   <Card title="Activate this integration" href="https://docs.intersoftsapient.net/docs/integration-activation#/" icon="fa-solid fa-circle-play fa-beat" target="_blank">
