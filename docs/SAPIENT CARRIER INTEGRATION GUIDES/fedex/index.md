@@ -109,7 +109,9 @@ The FedEx-SAPIENT integration aims to enhance operational efficiency and provide
     <Accordion title="Cancel Shipment" icon="print">
       The integration to cancel any unwanted shipments, to ensures that cancellations are fully registered with FedEx, helping prevent customers from being mistakenly charged for cancelled shipments.
     </Accordion>
-<br />
+
+    <br />
+
     <Callout icon="🚧" theme="warning">
       ### *Important*
 
@@ -153,7 +155,7 @@ The FedEx-SAPIENT integration aims to enhance operational efficiency and provide
 
   <Tab title="API References">
     <Cards columns={2}>
-      <Card title="SAPIENT FedEx API" icon="fa-solid fa-code" href="">
+      <Card title="SAPIENT FedEx API" icon="fa-solid fa-code" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-fedex">
         Explore the FedEx API endpoints.
       </Card>
     </Cards>
