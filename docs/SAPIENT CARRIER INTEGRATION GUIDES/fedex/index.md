@@ -16,7 +16,7 @@ metadata:
 next:
   description: ''
 ---
-<Image align="center" border={false} width="900px" src="https://files.readme.io/094a6ea764d7d28798166aaaafe13e3fbe491279d79b1fd691766a419eb13352-FedEx_white_banner.png" />
+<Image align="center" width="900px" src="https://files.readme.io/094a6ea764d7d28798166aaaafe13e3fbe491279d79b1fd691766a419eb13352-FedEx_white_banner.png" />
 
 ***
 
@@ -31,7 +31,7 @@ This integration provides the following key features:
 * **Incoterms**: The integration supports <Glossary>DDU</Glossary> (Delivered Duty Unpaid), <Glossary>DDP</Glossary> (Delivered Duty Paid), and <Glossary>DAP</Glossary> (Delivered At Place).
 * **Service Type**: The integration is focused on outbound shipping.
 
-## Enhancements
+## Service Enhancements
 
 The following are the key enhancements provided by the FedEx integration:
 
