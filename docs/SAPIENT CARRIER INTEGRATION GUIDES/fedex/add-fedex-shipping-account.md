@@ -27,9 +27,14 @@ In SAPIENT, you can create a FedEx shipping account by selecting your desired <G
 
 ## How to add FedEx shipping account
 
-<Tabs>
-  <Tab title="Via SAPIENT UI">
-    To add a shipping account for FedEx in SAPIENT, follow the instructions as explained in the following procedure:
+To add a shipping account for FedEx in SAPIENT, follow the instructions as explained in the following procedure:
+
+> 🚧 _Important_
+>
+> _You can create and manage the FedEx shipping account only via the SAPIENT UI._
+
+
+  
 
     <ToggleList>
       <ToggleListItem title="1. Select the Shipping Accounts page">
@@ -106,23 +111,13 @@ In SAPIENT, you can create a FedEx shipping account by selecting your desired <G
 
         <Image align="center" src="https://files.readme.io/7b2058eb6bf72d27640c63a5d639fd9b2a4675a4c0e83b7236a917e77f748842-Recent_invoice_option.png" alt="Completing multi-factor authentication" />
 
-        > 📘 _Note_
+        > 📘 *Note*
         >
-        > _After submitting the form, if you have selected the **Enable Electronic Trade Documents (ETD)** checkbox, then a corresponding link is displayed with your successful account creation notification, prompting you to configure the ETD data via the [Signatures and logos](https://docs.intersoftsapient.net/docs/add-signature-and-logos-to-etd-documents#/) feature of SAPIENT._
+        > *After submitting the form, if you have selected the**Enable Electronic Trade Documents (ETD)** checkbox, then a corresponding link is displayed with your successful account creation notification, prompting you to configure the ETD data via the [Signatures and logos](https://docs.intersoftsapient.net/docs/add-signature-and-logos-to-etd-documents#/) feature of SAPIENT.*
 
         Once validated, if all the entered information is correct, FedEx passes the MFA validation, and your FedEx shipping account is created successfully. At this point, INTERSOFT will get the new API credentials from FedEx for your shipping account for you to start shipping with your newly created FedEx account via our API.
       </ToggleListItem>
     </ToggleList>
-  </Tab>
-
-  <Tab title="Via API">
-    > 🚧 _Important_
-    >
-    > _You can create and manage the FedEx shipping account only via the SAPIENT UI._
-
-    <br />
-  </Tab>
-</Tabs>
 
 ***
 
