@@ -16,11 +16,7 @@ metadata:
 next:
   description: ''
 ---
-The FedEx integration supports outbound shipping from Great Britain and Europe to domestic, European, and Rest of the World destinations through SAPIENT.
-
-***
-
-FedEx is a global leader in logistics and delivery services, providing reliable express shipping and transportation solutions for international markets.
+The FedEx-SAPIENT integration aims to enhance operational efficiency and provide users with tailored shipping options. By leveraging FedEx's extensive capabilities, businesses can ensure a streamlined shipping process that meets diverse logistical needs. This integration represents a significant step towards optimising shipping functions within SAPIENT.
 
 ## Overview
 
