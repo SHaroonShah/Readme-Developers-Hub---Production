@@ -99,7 +99,7 @@ The integration of DHL Germany (DE) into the SAPIENT platform is a significant s
     <br />
 
     <Accordion title="Cancel Shipment" icon="plus-circle">
-      The integration to cancel any unwanted shipments, to ensures that cancellations are fully registered with DHL Germnay, helping prevent customers from being mistakenly charged for cancelled shipments. <br />
+      The integration to cancel any unwanted shipments, to ensures that cancellations are fully registered with DHL Germany, helping prevent customers from being mistakenly charged for cancelled shipments. <br />
 
       <Callout icon="info" theme="info">
         *Shipments can only be cancelled if they have not been manifested.*
