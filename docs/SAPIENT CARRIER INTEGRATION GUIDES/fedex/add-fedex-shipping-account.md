@@ -119,6 +119,8 @@ In SAPIENT, you can create a FedEx shipping account by selecting your desired <G
     > 🚧 _Important_
     >
     > _You can create and manage the FedEx shipping account only via the SAPIENT UI._
+
+    <br />
   </Tab>
 </Tabs>
 
