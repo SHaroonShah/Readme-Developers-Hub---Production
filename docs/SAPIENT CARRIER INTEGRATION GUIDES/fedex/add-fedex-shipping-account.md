@@ -87,7 +87,9 @@ To add a shipping account for FedEx in SAPIENT, follow the instructions as expla
         At the **Shipping Account** stage, you can specify the general details associated to your FedEx account number.
 
         <Image align="center" border={true} src="https://files.readme.io/8822b5421cd564a71a5d9e39a2ad6ec6cc6eb783034bb5979b0b2522299bdc55-FEDEX_Shipping_account_stage.png" alt="Specifying shipping account details" />
-<br />
+
+        <br />
+
         The information on how to fill in the the necessary information at this stage are explained in the following table.
 
         <Callout icon="💡" theme="default">
@@ -242,7 +244,9 @@ To add a shipping account for FedEx in SAPIENT, follow the instructions as expla
         After confirming the FedEx End-User License Agreement (EULA), the **Shipping Address** stage is the first factor of authentication, where you can specify the shipping address details that are associated with the 9-digit FedEx account number, so that the system can validate and match it with the addresses stored in the FedEx system.
 
         <Image align="center" border={true} src="https://files.readme.io/e0abd56eb4207f5e043cd1ba3259992715398fa85a2deaf011a014c8d02b85ca-FedEx_Shippig_address_stage.png" />
-<br />
+
+        <br />
+
         The information on how to fill in the the necessary information at this stage are explained in the following table.
 
         <AsteridkForMandatoryElements />
@@ -574,10 +578,6 @@ To add a shipping account for FedEx in SAPIENT, follow the instructions as expla
 
   <Card title="Add a shipping location" icon="fa-location-dot" href="https://docs.intersoftsapient.net/docs/add-a-shipping-location">
     Create the shipping location that you want to assign to the FedEx shipping account.
-  </Card>
-
-  <Card title="Specify shipping account details" icon="fa-list-check" href="https://docs.intersoftsapient.net/docs/specify-shipping-account-details#/">
-    Enter the general details associated with your FedEx account number.
   </Card>
 
   <Card title="Add signatures and logos to ETD documents" icon="fa-file-signature" href="https://docs.intersoftsapient.net/docs/add-signature-and-logos-to-etd-documents#/">
