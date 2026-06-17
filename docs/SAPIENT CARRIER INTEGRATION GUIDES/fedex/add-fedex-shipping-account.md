@@ -544,10 +544,10 @@ To add a shipping account for FedEx in SAPIENT, follow the instructions as expla
             </tbody>
           </Table>
         </Accordion>
-
+<br />
         > 📘 *Note*
         >
-        > *After submitting the form, if you have selected the**Enable Electronic Trade Documents (ETD)** checkbox, then a corresponding link is displayed with your successful account creation notification, prompting you to configure the ETD data via the [Signatures and logos](https://docs.intersoftsapient.net/docs/add-signature-and-logos-to-etd-documents#/) feature of SAPIENT.*
+        > *After submitting the form, if you have selected the **Enable Electronic Trade Documents (ETD)** checkbox, then a corresponding link is displayed with your successful account creation notification, prompting you to configure the ETD data via the [Signatures and logos](https://docs.intersoftsapient.net/docs/add-signature-and-logos-to-etd-documents#/) feature of SAPIENT.*
 
         ***
       </Tab>
