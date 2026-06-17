@@ -222,7 +222,7 @@ To add a shipping account for FedEx in SAPIENT, follow the instructions as expla
         |         **Contact Phone**        | Enter the phone number for the third party's primary contact person.                                                                                                                                                                                                                             |
         | **Third Party Account Number**\* | Enter the the unique FedEx account number of the third party that will be billed for the duties and taxes.                                                                                                                                                                                       |
         | **Tax Identification Numbers**\* | Enter the third party's tax identification numbers (TINs). If there are multiple TINs that need to be provided, separate each ID with a comma. This information is often required for customs clearance and ensures compliance with tax regulations.                                             |
-        |             **Next**             | Select ![alt text](https://files.readme.io/b6c8af0dd2df7d574d6e95a6d57dee08b1b36bfe92e4350a94cb3b7eee6a5b71-Next_button.png) to proceed to the **Shipping Address** stage of the form.                                 |
+        |             **Next**             | Select ![alt text](https://files.readme.io/b6c8af0dd2df7d574d6e95a6d57dee08b1b36bfe92e4350a94cb3b7eee6a5b71-Next_button.png) to proceed to the **Shipping Address** stage of the form.                                                                                                           |
         |            **Submit**            | Select ![alt text](https://files.readme.io/2ffa9cf28233588e3fa0be9258d8a2d6f5aa9d84f5e25f263c2c4d8c214cdbba-Submit_button.png) to create the shipping account and close the form. *`Note`: This button is only displayed if you have selected the**Sandbox** <Glossary>account type</Glossary>*. |
       </Tab>
 
@@ -359,7 +359,7 @@ To add a shipping account for FedEx in SAPIENT, follow the instructions as expla
               </td>
 
               <td>
-                Select ![alt text](https://files.readme.io/32d1e0325bb43e32995a83a961895c700550d54e72e6ecdece1661a2fe88d0a9-Previous_button.png) to return to the [Shipping Account](https://docs.intersoftsapient.net/docs/specify-shipping-account-details#/) stage and update the information, if needed.
+                Select ![alt text](https://files.readme.io/32d1e0325bb43e32995a83a961895c700550d54e72e6ecdece1661a2fe88d0a9-Previous_button.png) to return to the **Shipping Account** stage and update the information, if needed.
               </td>
             </tr>
 
@@ -547,15 +547,9 @@ To add a shipping account for FedEx in SAPIENT, follow the instructions as expla
 
         > 📘 *Note*
         >
-        > *Shipping account(s) can be added and managed via API. For more information, refer to the<Anchor label="API References" target="_blank" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-fedex">API References</Anchor> section.*
+        > *After submitting the form, if you have selected the**Enable Electronic Trade Documents (ETD)** checkbox, then a corresponding link is displayed with your successful account creation notification, prompting you to configure the ETD data via the [Signatures and logos](https://docs.intersoftsapient.net/docs/add-signature-and-logos-to-etd-documents#/) feature of SAPIENT.*
 
         ***
-
-        <br />
-
-        <Callout icon="📘" theme="info">
-          *After submitting the form, if you have selected the**Enable Electronic Trade Documents (ETD)** checkbox, then a corresponding link is displayed with your successful account creation notification, prompting you to configure the ETD data via the [Signatures and logos](https://docs.intersoftsapient.net/docs/add-signature-and-logos-to-etd-documents#/) feature of SAPIENT.*
-        </Callout>
       </Tab>
     </Tabs>
   </ToggleListItem>
