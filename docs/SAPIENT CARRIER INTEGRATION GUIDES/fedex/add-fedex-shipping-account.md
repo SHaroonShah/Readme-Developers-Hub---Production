@@ -77,6 +77,12 @@ To add a shipping account for FedEx in SAPIENT, follow the instructions as expla
     After specifying the carrier and shipping location, a new **CONNECT YOUR FEDEX ACCOUNT** form appears. At the **Shipping Account** stage of the form, [specify the general details](https://docs.intersoftsapient.net/docs/specify-shipping-account-details#/) associated to your FedEx account number.
 
     <Tabs>
+ <Tab title="5. Specify shipping account details">
+        At the **EULA** stage, [carefully read the FedEx end user license agreement](https://docs.intersoftsapient.net/docs/confirm-fedex-end-user-license-agreement#/) and confirm it by selecting the checkbox and ![](https://files.readme.io/a544674d471b96aadef7f8afe38ba10b912f11fb7b7fd758dc372d04dfbdd7da-I_agree_button.png) button to proceed to the next stage.
+
+        <Image align="center" border={true} src="https://files.readme.io/c3319a8a8ce0acdd3155e5d73cec44011b84d796486eca6a56e62728392a6925-FedEx_Eula_tab.png" alt="Accepting FedEx end-user license agreement" />
+      </Tab>
+
       <Tab title="5. Confirm EULA">
         At the **EULA** stage, [carefully read the FedEx end user license agreement](https://docs.intersoftsapient.net/docs/confirm-fedex-end-user-license-agreement#/) and confirm it by selecting the checkbox and ![](https://files.readme.io/a544674d471b96aadef7f8afe38ba10b912f11fb7b7fd758dc372d04dfbdd7da-I_agree_button.png) button to proceed to the next stage.
 
