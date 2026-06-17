@@ -143,9 +143,9 @@ You can also manifest shipments by:
         You have now successfully manifested your shipments.
 
         <Callout icon="💡" theme="default">
-          ### _*Tip*_
+          ### **Tip**
 
-          _If needed, you can export your manifest file by selecting the **Download as PDF** icon ![PDF icon](https://files.readme.io/e12fc39d80fd5eb7931db6e1db22df354422aa16bbc2c675f70c85c4a788431c-PDF_icon.png) in the **Manifest Number** column._
+          *If needed, you can export your manifest file by selecting the**Download as PDF** icon ![PDF icon](https://files.readme.io/e12fc39d80fd5eb7931db6e1db22df354422aa16bbc2c675f70c85c4a788431c-PDF_icon.png) in the **Manifest Number** column.*
 
           <Image align="center" border={true} src="https://files.readme.io/bc5120461fe99089d00c1c83f39a4e5e0706b8a62d25f2c39b697cb4377bf6b4-Accessing_held_shipmehts.png" alt="Accessing canceled shipments" />
         </Callout>
@@ -159,7 +159,7 @@ You can also manifest shipments by:
     To manifest shipments via our API, refer to the following endpoint
 
     <Cards>
-      <Card title="Manifest Shipments" href="https://docs.intersoftsapient.net/v4.02_Coding/reference/post_v4-manifests-carriercode#/" icon="fa-solid fa-code">
+      <Card title="Manifest Shipments" href="https://docs.intersoftsapient.net/docs/manifesting-shipments" icon="fa-solid fa-code">
         Complete API reference for manifesting shipments via our API
       </Card>
     </Cards>
