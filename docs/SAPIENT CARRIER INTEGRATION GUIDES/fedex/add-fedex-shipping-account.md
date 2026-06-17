@@ -104,12 +104,11 @@ To add a shipping account for FedEx in SAPIENT, follow the instructions as expla
           *After submitting the form, if you have selected the**Enable Electronic Trade Documents (ETD)** checkbox, then a corresponding link is displayed with your successful account creation notification, prompting you to configure the ETD data via the [Signatures and logos](https://docs.intersoftsapient.net/docs/add-signature-and-logos-to-etd-documents#/) feature of SAPIENT.*
         </Callout>
       </Tab>
-
-      <Tab title="8. Start shipping">
-        Once validated, if all the entered information is correct, FedEx passes the MFA validation, and your FedEx shipping account is created successfully. At this point, INTERSOFT will get the new API credentials from FedEx for your shipping account for you to start shipping with your newly created FedEx account via our API.
-      </Tab>
     </Tabs>
-  </ToggleListItem>
+</ToggleListItem>
+      <ToggleListItem title="8. Start shipping">
+        Once validated, if all the entered information is correct, FedEx passes the MFA validation, and your FedEx shipping account is created successfully. At this point, INTERSOFT will get the new API credentials from FedEx for your shipping account for you to start shipping with your newly created FedEx account via our API.
+      </ToggleListItem>
 </ToggleList>
 
 ***
