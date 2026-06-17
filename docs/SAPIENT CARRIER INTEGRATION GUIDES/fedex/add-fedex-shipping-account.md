@@ -105,10 +105,11 @@ To add a shipping account for FedEx in SAPIENT, follow the instructions as expla
         </Callout>
       </Tab>
     </Tabs>
-</ToggleListItem>
-      <ToggleListItem title="5. Start shipping">
-        Once validated, if all the entered information is correct, FedEx passes the MFA validation, and your FedEx shipping account is created successfully. At this point, INTERSOFT will get the new API credentials from FedEx for your shipping account for you to start shipping with your newly created FedEx account via our API.
-      </ToggleListItem>
+  </ToggleListItem>
+<br />
+  <ToggleListItem title="5. Start shipping">
+    Once validated, if all the entered information is correct, FedEx passes the MFA validation, and your FedEx shipping account is created successfully. At this point, INTERSOFT will get the new API credentials from FedEx for your shipping account for you to start shipping with your newly created FedEx account via our API.
+  </ToggleListItem>
 </ToggleList>
 
 ***
