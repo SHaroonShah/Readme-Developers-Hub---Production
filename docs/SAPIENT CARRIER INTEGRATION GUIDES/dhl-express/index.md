@@ -161,9 +161,21 @@ DHL is the global leader in the logistics industry. DHL Express is a brand withi
   </Card>
 </Cards>
 
-| Service Name | Description |
-| :----------- | :---------- |
-|              |             |
-|              |             |
+| Service Name                        | Description |
+| :---------------------------------- | :---------- |
+| Express 12:00 documents             |             |
+| Express Domestic 12:00              |             |
+| Express Domestic 9:00               |             |
+| Express 12:00 non documents         |             |
+| Express Worldwide documents         |             |
+| Express Domestic                    |             |
+| Express Worldwide ROW non documents |             |
+| Express Worldwide EU non documents  |             |
+| Economy Select documents            |             |
+| Economy Select non documents        |             |
+| Express 09:00 non documents         |             |
+| Express 10:30 non documents         |             |
+| Express 09:00 documents             |             |
+| Express 10:30 documents             |             |
 
 <br />
