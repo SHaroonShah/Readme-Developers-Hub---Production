@@ -59,6 +59,10 @@ The DPD IE integration provides the following additional features:
 * **Delivery Instructions**: To provide special instructions related to the delivery of the shipment. This may involve guidance on how the package should be handled or specific requests regarding the delivery location (for example, leave at the back door or deliver to a neighbour to sign).
 * Safe Place Location: To provide details of the safe place location for the shipment. This field is mandatory if  the **DeliverToSafeplace** service enhancement is used.
 
+## Carrier Services
+
+The following key services are included in the DPD Ireland integration.
+
 ## API Services
 
 The following API services are provided by the DPD IE integration:
