@@ -84,8 +84,8 @@ The UPS carrier integration within the SAPIENT system enables seamless communica
   <Tab title="Carrier Services">
     The following key services are provided by the UPS integration.
 
-    | Service Name                                     | Description                                                                                                                                                                                                                                                                             |
-    | :----------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+    | Service Name                                         | Description                                                                                                                                                                                                                                                                             |
+    | :--------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
     | **UPS Worldwide Express** (1-3 business days)        | This service provides guaranteed morning, next-business-day delivery to and from most business areas within the country and day-definite delivery within three days for international shipments from more than 45 countries and territories to more than 185 countries and territories. |
     | **UPS Standard** (1-5 business days)                 | This service provides scheduled day-definite delivery to and from most addresses within the country and scheduled day-definite delivery within five days for international shipments to and from more than 30 countries and territories.                                                |
     | **UPS Worldwide Expedited** (2-5 business days)      | This service provides day-definite delivery to over 220 countries and territories. Fully tracked, with generous weight limits (up to 150 lbs).                                                                                                                                          |
@@ -97,7 +97,7 @@ The UPS carrier integration within the SAPIENT system enables seamless communica
     <Callout icon="💡" theme="default">
       ### *Tip*
 
-      *For the most up-to-date carrier services, use the[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint.*
+      *For the most up-to-date carrier services, use the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint.*
     </Callout>
   </Tab>
 </Tabs>
