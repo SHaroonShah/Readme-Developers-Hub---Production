@@ -61,7 +61,17 @@ The DPD IE integration provides the following additional features:
 
 ## Carrier Services
 
-The following key services are included in the DPD Ireland integration.
+The following key services are provided by the DPD Ireland integration.
+
+| Service Name                       | Description                                                                                                                                              |
+| :--------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **DPD Saturday Delivery**          | This service provides domestic delivery service with parcel delivery scheduled for Saturday.                                                             |
+| **DPD Next Day**                   | This service provides domestic parcel delivery typically within the next working day.                                                                    |
+| **DPD Air Express**                | This service provides international air-based express service offering fast, next‑day delivery to global destinations.                                   |
+| **DPD Classic**                    | This service provides cost-effective road service with reliable delivery, including two‑day transit for routes such as Northern Ireland to Great Britain |
+| **DPD Classic International Road** | This service provides international road-based parcel delivery across Europe and beyond, offering economical and reliable transit times.                 |
+
+<br />
 
 ## API Services
 
