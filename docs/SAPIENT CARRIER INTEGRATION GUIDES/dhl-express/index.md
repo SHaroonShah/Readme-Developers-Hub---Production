@@ -94,24 +94,31 @@ DHL is the global leader in the logistics industry. DHL Express is a brand withi
 
       *For more information on the service enhancements and carrier services, refer to the API References section.*
     </Callout>
-<Tab title="Carrier Services">
-| Service Name                        | Description                                                                                                     |
-| :---------------------------------- | :-------------------------------------------------------------------------------------------------------------- |
-| Express 12:00 documents             | This service provides international document delivery by 12:00 noon next working day.                           |
-| Express Domestic 12:00              | This service provides domestic shipment delivered by 12:00 noon next working day.                               |
-| Express Domestic 9:00               | This service provides domestic shipment delivered by 09:00 next working day.                                    |
-| Express 12:00 non documents         | This service provides international non-document shipment delivered by 12:00 noon next working day.             |
-| Express Worldwide documents         | This service provides international document delivery by end of next possible working day.                      |
-| Express Domestic                    | This service provides domestic delivery by end of next working day.                                             |
-| Express Worldwide ROW non documents | This service provides international non-document delivery to Rest of World by end of next possible working day. |
-| Express Worldwide EU non documents  | This service provides international non-document delivery within EU by end of next working day.                 |
-| Economy Select documents            | This service provides cost-effective regional document delivery within Europe, typically 1–3 working days.      |
-| Economy Select non documents        | This service provides cost-effective regional non-document delivery within Europe, typically 1–3 working days.  |
-| Express 09:00 non documents         | This service provides international non-document shipment delivered by 09:00 next working day.                  |
-| Express 10:30 non documents         | This service provides international non-document shipment delivered by 10:30 next working day.                  |
-| Express 09:00 documents             | This service provides international non-document shipment delivered by 09:00 next working day.                  |
-  | Express 10:30 documents             | This service provides international document delivery by 10:30 next working day.                                |
-</Tab>
+
+    <Tab title="Carrier Services">
+      | Service Name                        | Description                                                                                                     |
+      | :---------------------------------- | :-------------------------------------------------------------------------------------------------------------- |
+      | Express 12:00 documents             | This service provides international document delivery by 12:00 noon next working day.                           |
+      | Express Domestic 12:00              | This service provides domestic shipment delivered by 12:00 noon next working day.                               |
+      | Express Domestic 9:00               | This service provides domestic shipment delivered by 09:00 next working day.                                    |
+      | Express 12:00 non documents         | This service provides international non-document shipment delivered by 12:00 noon next working day.             |
+      | Express Worldwide documents         | This service provides international document delivery by end of next possible working day.                      |
+      | Express Domestic                    | This service provides domestic delivery by end of next working day.                                             |
+      | Express Worldwide ROW non documents | This service provides international non-document delivery to Rest of World by end of next possible working day. |
+      | Express Worldwide EU non documents  | This service provides international non-document delivery within EU by end of next working day.                 |
+      | Economy Select documents            | This service provides cost-effective regional document delivery within Europe, typically 1–3 working days.      |
+      | Economy Select non documents        | This service provides cost-effective regional non-document delivery within Europe, typically 1–3 working days.  |
+      | Express 09:00 non documents         | This service provides international non-document shipment delivered by 09:00 next working day.                  |
+      | Express 10:30 non documents         | This service provides international non-document shipment delivered by 10:30 next working day.                  |
+      | Express 09:00 documents             | This service provides international non-document shipment delivered by 09:00 next working day.                  |
+      | Express 10:30 documents             | This service provides international document delivery by 10:30 next working day.                                |
+<br />
+<Callout icon="💡" theme="default">
+      ### *Tip*
+
+      *For the most up-to-date carrier services, use the[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint.*
+    </Callout>
+    </Tab>
   </Tab>
 </Tabs>
 
