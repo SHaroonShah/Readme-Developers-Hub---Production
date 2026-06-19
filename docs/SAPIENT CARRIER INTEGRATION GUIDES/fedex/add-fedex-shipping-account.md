@@ -207,7 +207,7 @@ To add a shipping account for FedEx in SAPIENT, follow the instructions as expla
             </tr>
           </tbody>
         </Table>
-
+<br />
         If the **Duties and taxes payment type** field is set to **Third Party**, then you must fill the additional fields as explained in the following table.
 
         |              Element             | Description                                                                                                                                                                                                                                                                                      |
