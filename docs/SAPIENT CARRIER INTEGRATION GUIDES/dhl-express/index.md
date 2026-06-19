@@ -97,9 +97,10 @@ DHL is the global leader in the logistics industry. DHL Express is a brand withi
   </Tab>
 
   <Tab title="Carrier Services">
-  The following key services are provided by the DHl Express integration.
-    | Service Name                        | Description                                                                                                     |
-    | :---------------------------------- | :-------------------------------------------------------------------------------------------------------------- |
+    The following key services are provided by the DHL Express integration.
+
+    | Service Name                            | Description                                                                                                     |
+    | :-------------------------------------- | :-------------------------------------------------------------------------------------------------------------- |
     | **Express 12:00 documents**             | This service provides international document delivery by 12:00 noon next working day.                           |
     | **Express Domestic 12:00**              | This service provides domestic shipment delivered by 12:00 noon next working day.                               |
     | **Express Domestic 9:00**               | This service provides domestic shipment delivered by 09:00 next working day.                                    |
@@ -113,7 +114,7 @@ DHL is the global leader in the logistics industry. DHL Express is a brand withi
     | **Express 09:00 non documents**         | This service provides international non-document shipment delivered by 09:00 next working day.                  |
     | **Express 10:30 non documents**         | This service provides international non-document shipment delivered by 10:30 next working day.                  |
     | **Express 09:00 documents**             | This service provides international non-document shipment delivered by 09:00 next working day.                  |
-    | **xpress 10:30 documents**             | This service provides international document delivery by 10:30 next working day.                                |
+    | **Express 10:30 documents**              | This service provides international document delivery by 10:30 next working day.                                |
 
     <br />
 
