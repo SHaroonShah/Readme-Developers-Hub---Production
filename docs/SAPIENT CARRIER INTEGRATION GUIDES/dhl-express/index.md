@@ -76,7 +76,8 @@ DHL is the global leader in the logistics industry. DHL Express is a brand withi
   </Tab>
 
   <Tab title="Service Enhancements">
-The following are the key services enhancements provided by the DHL Express integration:
+    The following are the key services enhancements provided by the DHL Express integration:
+
     * **Saturday Delivery (AA)**: Enables delivery on Saturdays, offering greater flexibility in shipping schedules.
     * **Adult Signature (SD)**: Requires an adult signature upon delivery of the shipment, ensuring that the package is received by someone of legal age.
     * **Shipment Insurance (II)**: Provides insurance coverage for the shipment against loss or damage. If this enhancement is used, then the InsuranceValue field must be populated.
@@ -159,3 +160,10 @@ The following are the key services enhancements provided by the DHL Express inte
     Seamlessly connect with DHL Express and manage your shipping operations from a single platform.
   </Card>
 </Cards>
+
+| Service Name | Description |
+| :----------- | :---------- |
+|              |             |
+|              |             |
+
+<br />
