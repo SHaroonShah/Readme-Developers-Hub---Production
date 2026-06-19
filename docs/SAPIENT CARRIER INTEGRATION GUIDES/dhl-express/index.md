@@ -161,21 +161,21 @@ DHL is the global leader in the logistics industry. DHL Express is a brand withi
   </Card>
 </Cards>
 
-| Service Name                        | Description |
-| :---------------------------------- | :---------- |
-| Express 12:00 documents             |             |
-| Express Domestic 12:00              |             |
-| Express Domestic 9:00               |             |
-| Express 12:00 non documents         |             |
-| Express Worldwide documents         |             |
-| Express Domestic                    |             |
-| Express Worldwide ROW non documents |             |
-| Express Worldwide EU non documents  |             |
-| Economy Select documents            |             |
-| Economy Select non documents        |             |
-| Express 09:00 non documents         |             |
-| Express 10:30 non documents         |             |
-| Express 09:00 documents             |             |
-| Express 10:30 documents             |             |
+| Service Name                        | Description                                                                                                     |
+| :---------------------------------- | :-------------------------------------------------------------------------------------------------------------- |
+| Express 12:00 documents             | This service provides international document delivery by 12:00 noon next working day.                           |
+| Express Domestic 12:00              | This service provides domestic shipment delivered by 12:00 noon next working day.                               |
+| Express Domestic 9:00               | This service provides domestic shipment delivered by 09:00 next working day.                                    |
+| Express 12:00 non documents         | This service provides international non-document shipment delivered by 12:00 noon next working day.             |
+| Express Worldwide documents         | This service provides international document delivery by end of next possible working day.                      |
+| Express Domestic                    | This service provides domestic delivery by end of next working day.                                             |
+| Express Worldwide ROW non documents | This service provides international non-document delivery to Rest of World by end of next possible working day. |
+| Express Worldwide EU non documents  | This service provides international non-document delivery within EU by end of next working day.                 |
+| Economy Select documents            | This service provides cost-effective regional document delivery within Europe, typically 1–3 working days.      |
+| Economy Select non documents        | This service provides cost-effective regional non-document delivery within Europe, typically 1–3 working days.  |
+| Express 09:00 non documents         | This service provides international non-document shipment delivered by 09:00 next working day.                  |
+| Express 10:30 non documents         | This service provides international non-document shipment delivered by 10:30 next working day.                  |
+| Express 09:00 documents             | This service provides international non-document shipment delivered by 09:00 next working day.                  |
+| Express 10:30 documents             | This service provides international document delivery by 10:30 next working day.                                |
 
 <br />
