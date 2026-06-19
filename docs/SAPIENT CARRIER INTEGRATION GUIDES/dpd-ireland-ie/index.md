@@ -71,7 +71,11 @@ The following key services are provided by the DPD Ireland integration.
 | **DPD Classic**                    | This service provides cost-effective road service with reliable delivery, including two‑day transit for routes such as Northern Ireland to Great Britain |
 | **DPD Classic International Road** | This service provides international road-based parcel delivery across Europe and beyond, offering economical and reliable transit times.                 |
 
-<br />
+<Callout icon="💡" theme="default">
+  ### _Tip_
+
+  _For the most up-to-date carrier services, use the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint._
+</Callout>
 
 ## API Services
 
