@@ -1,7 +1,7 @@
 ---
-title: Shipments Webhook
+title: Shipment Webhook
 excerpt: >-
-  The _Shipments Webhook_ introduces an asynchronous approach to shipment
+  The _Shipment Webhook_ introduces an asynchronous approach to shipment
   creation, decoupling request processing from immediate label generation. 
 deprecated: false
 hidden: true
