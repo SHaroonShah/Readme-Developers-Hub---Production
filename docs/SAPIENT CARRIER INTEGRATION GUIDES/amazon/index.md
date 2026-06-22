@@ -80,15 +80,14 @@ In the UK, Amazon Shipping covers England, Scotland, and Wales, offering seven-d
     <Callout icon="💡" theme="default">
       ### *Tip*
 
-      *For more information on the service enhancements, refer to the [Create Shipment](https://docs.intersoftsapient.net/v4.03/reference/post_v4-shipments-amazon) endpoint.*
-  
+      *For more information on the service enhancements, refer to the[Create Shipment](https://docs.intersoftsapient.net/v4.03/reference/post_v4-shipments-amazon) endpoint.*
     </Callout>
   </Tab>
 
   <Tab title="Carrier Services">
     The following key services are provided by teh Amazon integration.
 
-    | Service Name | Description                                                                                                                               |
+    | Service Name | Description                                                                                              |
     | :----------- | :---------------------------------------------------------------------------------------------------------------------------------------- |
     | **Prime**    | This service provides next-day delivery service with full tracking for Amazon marketplace orders.                                         |
     | **Standard** | This service provides two-day delivery service with tracking for Amazon marketplace orders.                                               |
@@ -101,7 +100,7 @@ In the UK, Amazon Shipping covers England, Scotland, and Wales, offering seven-d
     <Callout icon="💡" theme="default">
       ### *Tip*
 
-      *For the most up-to-date carrier services, use the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint.*
+      *For the most up-to-date carrier services, use the[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint.*
     </Callout>
   </Tab>
 </Tabs>
