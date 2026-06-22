@@ -87,7 +87,7 @@ In the UK, Amazon Shipping covers England, Scotland, and Wales, offering seven-d
   <Tab title="Carrier Services">
     The following key services are provided by teh Amazon integration.
 
-    | Service Name | Description                                                                                              |
+    | Service  Name |  Description                                                                                                                               |
     | :----------- | :---------------------------------------------------------------------------------------------------------------------------------------- |
     | **Prime**    | This service provides next-day delivery service with full tracking for Amazon marketplace orders.                                         |
     | **Standard** | This service provides two-day delivery service with tracking for Amazon marketplace orders.                                               |
