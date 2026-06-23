@@ -269,27 +269,27 @@ The following section displays a comprehensive structure of the milestones, even
                 </tr>
          <tr>
                 <td>CAAT</td>
-                <td>Collection was attempted but not completed</td>
+                <td>Collection was attempted but not completed.</td>
                 </tr>
          <tr>
                 <td>CAFI</td>
-                <td>Collection attempt failed because the location was inaccessible</td>
+                <td>Collection attempt failed because the location was inaccessible.</td>
                 </tr>
          <tr>
                 <td>CAFP</td>
-                <td>Collection attempt failed due to a packaging issue</td>
+                <td>Collection attempt failed due to a packaging issue.</td>
                 </tr>
          <tr>
                 <td>CAFN</td>
-                <td>Collection attempt failed because the shipment was not available</td>
+                <td>Collection attempt failed because the shipment was not available.</td>
                 </tr>
          <tr>
                 <td>CAFA</td>
-                <td>Collection attempt failed as there was no response at the location</td>
+                <td>Collection attempt failed as there was no response at the location.</td>
                 </tr>
          <tr>
                 <td>CAFO</td>
-                <td>Collection attempt failed due to oversize or overweight shipment</td>
+                <td>Collection attempt failed due to oversize or overweight shipment.</td>
                 </tr>
          <tr>
                 <td>CSPP</td>
@@ -297,23 +297,23 @@ The following section displays a comprehensive structure of the milestones, even
                 </tr>
          <tr>
                 <td>CSPI</td>
-                <td>Collection from safe place failed because access was not possible</td>
+                <td>Collection from safe place failed because access was not possible.</td>
                 </tr>
          <tr>
                 <td>CSPN</td>
-                <td>Collection from safe place failed as the shipment was not available</td>
+                <td>Collection from safe place failed as the shipment was not available.</td>
                 </tr>
          <tr>
                 <td>CSPO</td>
-                <td>Collection from safe place failed due to oversize or overweight shipment</td>
+                <td>Collection from safe place failed due to oversize or overweight shipment.</td>
                 </tr>
          <tr>
                 <td>CCAN</td>
-                <td>Collection request has been cancelled</td>
+                <td>Collection request has been cancelled.</td>
                 </tr>
          <tr>
                 <td>CNAT</td>
-                <td>Collection was not attempted</td>
+                <td>Collection was not attempted.</td>
                 </tr>
                 </table>
   `}</HTMLBlock>
