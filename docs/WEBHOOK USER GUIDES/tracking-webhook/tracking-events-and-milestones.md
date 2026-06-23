@@ -26,295 +26,295 @@ The following section displays a comprehensive structure of the milestones, even
 
 <Accordion title="Tracking Events and Milestones" icon="fa-duotone fa-solid fa-display-chart-up">
   <HTMLBlock>{`
-              <table>
-              <tr>
-              <th style="background-color: #778899;">Milestone Name</th>
-              <th style="background-color: #778899;">Milestone Order</th>
-              <th style="background-color: #778899;">Tracking Event Code</th>
-              <th style="background-color: #778899;">Tracking Event Name</th>
-              </tr>
-              <tr>
-              <td rowspan="7"><strong>It’s on its Way</strong></td>
-              <td rowspan="7">1</td>
-              <td>PSRE</td>
-              <td>Shipment Received</td>
-              </tr>
-              <tr>
-              <td>PSAN</td>
-              <td>Shipment Announced</td>
-              </tr>
-              <tr>
-              <td>PSCO</td>
-              <td>Shipment Collected</td>
-              </tr>
-              <tr>
-              <td>PSDE</td>
-              <td>Shipment Despatched</td>
-              </tr>
-           <tr>
-              <td>CAMD</td>
-              <td>Collection Amended</td>
-              </tr>
-           <tr>
-              <td>CSBK</td>
-              <td>Collection Successfully Booked</td>
-              </tr>
-           <tr>
-              <td>PSCS</td>
-              <td>Shipment Collected from a Safe place</td>
-              </tr>
-              <tr>
-              <td rowspan="5"><strong>In Transit</strong></td>
-              <td rowspan="5">2</td>
-              <td>PINT</td>
-              <td>In Transit</td>
-              </tr>
-              <tr>
-              <td>PPID</td>
-              <td>Shipment Processed in Depot</td>
-              </tr>
-              <tr>
-              <td>PRID</td>
-              <td>Shipment Received in Depot</td>
-              </tr>
-              <tr>
-              <td>PSDD</td>
-              <td>Shipment Departed Depot</td>
-              </tr>
-              <tr>
-              <td>IOWS</td>
-              <td>Oversize/weight Shipment</td>
-              </tr>
-              <tr>
-              <td rowspan="3"><strong>In Customs</strong></td>
-              <td rowspan="3">3</td>
-              <td>BCUI</td>
-              <td>Customs Inspection</td>
-              </tr>
-              <tr>
-              <td>BHBC</td>
-              <td>Held by Customs</td>
-              </tr>
-              <tr>
-              <td>BRBC</td>
-              <td>Released by Customs</td>
-              </tr>
-              <tr>
-              <td rowspan="1"><strong>Out for Delivery</strong></td>
-              <td>4</td>
-              <td>POFD</td>
-              <td>Out for Delivery</td>
-              </tr>
-              <tr>
-              <td rowspan="8"><strong>Delivery Attempt Failed</strong></td>
-              <td rowspan="8">5</td>
-              <td>FDAF</td>
-              <td>Delivery Attempt Failed</td>
-              </tr>
-              <tr>
-              <td>FNCO</td>
-              <td>Not Collected</td>
-              </tr>
-              <tr>
-              <td>FCAR</td>
-              <td>No Answer - Carded</td>
-              </tr>
-              <tr>
-              <td>FANK</td>
-              <td>Address Not Known</td>
-              </tr>
-              <tr>
-              <td>FRNK</td>
-              <td>Recipient Not Known</td>
-              </tr>
-              <tr>
-              <td>FRAA</td>
-              <td>Refused at Delivery Address</td>
-              </tr>
-              <tr>
-              <td>FINA</td>
-              <td>Incomplete Address</td>
-              </tr>
-              <tr>
-              <td>FUTA</td>
-              <td>Unable to Access Delivery Point</td>
-              </tr>
-              <tr>
-              <td rowspan="1"><strong>Part Delivered</strong></td>
-              <td>6</td>
-              <td>DPAR</td>
-              <td>Partially delivered</td>
-              </tr>
-              <tr>
-              <td rowspan="1"><strong>Ready for Collection</strong></td>
-              <td>7</td>
-              <td>DRFC</td>
-              <td>Ready for Collection</td>
-              </tr>
-              <tr>
-              <td rowspan="8"><strong>Delivered</strong></td>
-              <td rowspan="8">8</td>
-              <td>DELV</td>
-              <td>Delivered</td>
-              </tr>
-              <tr>
-              <td>DTSP</td>
-              <td>Delivered to Safe Place</td>
-              </tr>
-              <tr>
-              <td>DPOB</td>
-              <td>Delivered to PO Box</td>
-              </tr>
-              <tr>
-              <td>DDMG</td>
-              <td>Delivered Damaged</td>
-              </tr>
-              <tr>
-              <td>DTNB</td>
-              <td>Delivered to Neighbour - No Signature</td>
-              </tr>
-              <tr>
-              <td>DTNS</td>
-              <td>Delivered to Neighbour with Signature</td>
-              </tr>
-              <tr>
-              <td>DNSV</td>
-              <td>Delivered to Neighbour with Signature - ID Verified</td>
-              </tr>
-              <tr>
-              <td>DNSO</td>
-              <td>Delivered to Neighbour with Signature - Over 25</td>
-              </tr>
-              <tr>
-              <td rowspan="1"><strong>Collected</strong></td>
-              <td>9</td>
-              <td>DRCO</td>
-              <td>Recipient Collected</td>
-              </tr>
-              <tr>
-              <td rowspan="7"><strong>Undeliverable</strong></td>
-              <td rowspan="7">10</td>
-              <td>RTNS</td>
-              <td>Return to Sender</td>
-              </tr>
-              <tr>
-              <td>RUND</td>
-              <td>Undeliverable - Return to Sender</td>
-              </tr>
-              <tr>
-              <td>RNCO</td>
-              <td>Not Collected - Return to Sender</td>
-              </tr>
-              <tr>
-              <td>UDTS</td>
-              <td>Delivered to Sender</td>
-              </tr>
-              <tr>
-              <td>IDES</td>
-              <td>Shipment Lost/Destroyed</td>
-              </tr>
-              <tr>
-              <td>ICAN</td>
-              <td>Shipment Cancelled</td>
-              </tr>
-              <tr>
-              <td>FUDS</td>
-              <td>Undeliverable - Destroyed</td>
-              </tr>
+                <table>
+                <tr>
+                <th style="background-color: #778899;">Milestone Name</th>
+                <th style="background-color: #778899;">Milestone Order</th>
+                <th style="background-color: #778899;">Tracking Event Code</th>
+                <th style="background-color: #778899;">Tracking Event Name</th>
+                </tr>
+                <tr>
+                <td rowspan="7"><strong>It’s on its Way</strong></td>
+                <td rowspan="7">1</td>
+                <td>PSRE</td>
+                <td>The shipment has been received into the carrier network for processing.</td>
+                </tr>
+                <tr>
+                <td>PSAN</td>
+                <td>Shipment details have been received and the parcel is awaiting collection or handover.</td>
+                </tr>
+                <tr>
+                <td>PSCO</td>
+                <td>The shipment has been successfully collected by the carrier.</td>
+                </tr>
+                <tr>
+                <td>PSDE</td>
+                <td>he shipment has been dispatched and is moving through the carrier network.</td>
+                </tr>
+             <tr>
+                <td>CAMD</td>
+                <td>The scheduled collection has been updated or amended after booking.</td>
+                </tr>
+             <tr>
+                <td>CSBK</td>
+                <td>The collection request has been successfully booked and confirmed.</td>
+                </tr>
+             <tr>
+                <td>PSCS</td>
+                <td>The shipment has been collected from a designated safe place as instructed.</td>
+                </tr>
+                <tr>
+                <td rowspan="5"><strong>In Transit</strong></td>
+                <td rowspan="5">2</td>
+                <td>PINT</td>
+                <td>The shipment is in transit and progressing towards the delivery destination.</td>
+                </tr>
+                <tr>
+                <td>PPID</td>
+                <td>The shipment has been processed at a carrier depot facility.</td>
+                </tr>
+                <tr>
+                <td>PRID</td>
+                <td>The shipment has been received at a depot and is ready for sorting.</td>
+                </tr>
+                <tr>
+                <td>PSDD</td>
+                <td>The shipment has departed from a depot and is en route to the next location.</td>
+                </tr>
+                <tr>
+                <td>IOWS</td>
+                <td>The shipment exceeds size or weight limits and may require special handling.</td>
+                </tr>
+                <tr>
+                <td rowspan="3"><strong>In Customs</strong></td>
+                <td rowspan="3">3</td>
+                <td>BCUI</td>
+                <td> The shipment is undergoing customs inspection by authorities.</td>
+                </tr>
+                <tr>
+                <td>BHBC</td>
+                <td>The shipment is being held by customs pending further review or clearance.</td>
+                </tr>
+                <tr>
+                <td>BRBC</td>
+                <td>The shipment has been released by customs and will continue transit.</td>
+                </tr>
+                <tr>
+                <td rowspan="1"><strong>Out for Delivery</strong></td>
+                <td>4</td>
+                <td>POFD</td>
+                <td>Out for Delivery</td>
+                </tr>
+                <tr>
+                <td rowspan="8"><strong>Delivery Attempt Failed</strong></td>
+                <td rowspan="8">5</td>
+                <td>FDAF</td>
+                <td>Delivery Attempt Failed</td>
+                </tr>
+                <tr>
+                <td>FNCO</td>
+                <td>Not Collected</td>
+                </tr>
+                <tr>
+                <td>FCAR</td>
+                <td>No Answer - Carded</td>
+                </tr>
+                <tr>
+                <td>FANK</td>
+                <td>Address Not Known</td>
+                </tr>
+                <tr>
+                <td>FRNK</td>
+                <td>Recipient Not Known</td>
+                </tr>
+                <tr>
+                <td>FRAA</td>
+                <td>Refused at Delivery Address</td>
+                </tr>
+                <tr>
+                <td>FINA</td>
+                <td>Incomplete Address</td>
+                </tr>
+                <tr>
+                <td>FUTA</td>
+                <td>Unable to Access Delivery Point</td>
+                </tr>
+                <tr>
+                <td rowspan="1"><strong>Part Delivered</strong></td>
+                <td>6</td>
+                <td>DPAR</td>
+                <td>Partially delivered</td>
+                </tr>
+                <tr>
+                <td rowspan="1"><strong>Ready for Collection</strong></td>
+                <td>7</td>
+                <td>DRFC</td>
+                <td>Ready for Collection</td>
+                </tr>
+                <tr>
+                <td rowspan="8"><strong>Delivered</strong></td>
+                <td rowspan="8">8</td>
+                <td>DELV</td>
+                <td>Delivered</td>
+                </tr>
+                <tr>
+                <td>DTSP</td>
+                <td>Delivered to Safe Place</td>
+                </tr>
+                <tr>
+                <td>DPOB</td>
+                <td>Delivered to PO Box</td>
+                </tr>
+                <tr>
+                <td>DDMG</td>
+                <td>Delivered Damaged</td>
+                </tr>
+                <tr>
+                <td>DTNB</td>
+                <td>Delivered to Neighbour - No Signature</td>
+                </tr>
+                <tr>
+                <td>DTNS</td>
+                <td>Delivered to Neighbour with Signature</td>
+                </tr>
+                <tr>
+                <td>DNSV</td>
+                <td>Delivered to Neighbour with Signature - ID Verified</td>
+                </tr>
+                <tr>
+                <td>DNSO</td>
+                <td>Delivered to Neighbour with Signature - Over 25</td>
+                </tr>
+                <tr>
+                <td rowspan="1"><strong>Collected</strong></td>
+                <td>9</td>
+                <td>DRCO</td>
+                <td>Recipient Collected</td>
+                </tr>
+                <tr>
+                <td rowspan="7"><strong>Undeliverable</strong></td>
+                <td rowspan="7">10</td>
+                <td>RTNS</td>
+                <td>Return to Sender</td>
+                </tr>
+                <tr>
+                <td>RUND</td>
+                <td>Undeliverable - Return to Sender</td>
+                </tr>
+                <tr>
+                <td>RNCO</td>
+                <td>Not Collected - Return to Sender</td>
+                </tr>
+                <tr>
+                <td>UDTS</td>
+                <td>Delivered to Sender</td>
+                </tr>
+                <tr>
+                <td>IDES</td>
+                <td>Shipment Lost/Destroyed</td>
+                </tr>
+                <tr>
+                <td>ICAN</td>
+                <td>Shipment Cancelled</td>
+                </tr>
+                <tr>
+                <td>FUDS</td>
+                <td>Undeliverable - Destroyed</td>
+                </tr>
 
-              <tr>
-              <td rowspan="4"><strong>Transit Delay</strong></td>
-              <td rowspan="4">Null</td>
-              <td>IDIP</td>
-              <td>Delay in Processing</td>
-              </tr>
-              <tr>
-              <td>IFME</td>
-              <td>Force Majeure/ Exceptional Event</td>
-              </tr>
-              <tr>
-              <td>ISMI</td>
-              <td>Shipment Misrouted</td>
-              </tr>
-              <tr>
-              <td>PRET</td>
-              <td>Shipment Retention</td>
-              </tr>
-              <tr>
-              <td rowspan="18"><strong>N/A</strong></td>
-              <td rowspan="18">Null</td>
-              <td>ICLR</td>
-              <td>Shipment Customs Cleared</td>
-              </tr>
-              <tr>
-              <td>IARR</td>
-              <td>Shipment Arrived at Facility</td>
-              </tr>
-              <tr>
-              <td>IRCO</td>
-              <td>Shipment Ready for Collection from the Facility</td>
-              <tr>
-              <td>INVD</td>
-              <td>Invalid Tracking Number</td>
-              </tr>
-              <tr>
-              <td>ISOH</td>
-              <td>Shipment on Hold <br />
-              <b><i>Note</i></b>: <i>This event code is not triggered if the customer has configured the webhook to only receive milestones.</i></td>
-              </tr>
-              <tr>
-              <td>PSDP</td>
-              <td>Shipment Data Processed</td>
-              </tr>
-       <tr>
-              <td>CAAT</td>
-              <td>Collection was attempted but not completed</td>
-              </tr>
-       <tr>
-              <td>CAFI</td>
-              <td>Collection attempt failed because the location was inaccessible</td>
-              </tr>
-       <tr>
-              <td>CAFP</td>
-              <td>Collection attempt failed due to a packaging issue</td>
-              </tr>
-       <tr>
-              <td>CAFN</td>
-              <td>Collection attempt failed because the shipment was not available</td>
-              </tr>
-       <tr>
-              <td>CAFA</td>
-              <td>Collection attempt failed as there was no response at the location</td>
-              </tr>
-       <tr>
-              <td>CAFO</td>
-              <td>Collection attempt failed due to oversize or overweight shipment</td>
-              </tr>
-       <tr>
-              <td>CSPP</td>
-              <td>Collection from safe place failed due to a packaging issue</td>
-              </tr>
-       <tr>
-              <td>CSPI</td>
-              <td>Collection from safe place failed because access was not possible</td>
-              </tr>
-       <tr>
-              <td>CSPN</td>
-              <td>Collection from safe place failed as the shipment was not available</td>
-              </tr>
-       <tr>
-              <td>CSPO</td>
-              <td>Collection from safe place failed due to oversize or overweight shipment</td>
-              </tr>
-       <tr>
-              <td>CCAN</td>
-              <td>Collection request has been cancelled</td>
-              </tr>
-       <tr>
-              <td>CNAT</td>
-              <td>Collection was not attempted</td>
-              </tr>
-              </table>
+                <tr>
+                <td rowspan="4"><strong>Transit Delay</strong></td>
+                <td rowspan="4">Null</td>
+                <td>IDIP</td>
+                <td>Delay in Processing</td>
+                </tr>
+                <tr>
+                <td>IFME</td>
+                <td>Force Majeure/ Exceptional Event</td>
+                </tr>
+                <tr>
+                <td>ISMI</td>
+                <td>Shipment Misrouted</td>
+                </tr>
+                <tr>
+                <td>PRET</td>
+                <td>Shipment Retention</td>
+                </tr>
+                <tr>
+                <td rowspan="18"><strong>N/A</strong></td>
+                <td rowspan="18">Null</td>
+                <td>ICLR</td>
+                <td>Shipment Customs Cleared</td>
+                </tr>
+                <tr>
+                <td>IARR</td>
+                <td>Shipment Arrived at Facility</td>
+                </tr>
+                <tr>
+                <td>IRCO</td>
+                <td>Shipment Ready for Collection from the Facility</td>
+                <tr>
+                <td>INVD</td>
+                <td>Invalid Tracking Number</td>
+                </tr>
+                <tr>
+                <td>ISOH</td>
+                <td>Shipment on Hold <br />
+                <b><i>Note</i></b>: <i>This event code is not triggered if the customer has configured the webhook to only receive milestones.</i></td>
+                </tr>
+                <tr>
+                <td>PSDP</td>
+                <td>Shipment Data Processed</td>
+                </tr>
+         <tr>
+                <td>CAAT</td>
+                <td>Collection was attempted but not completed</td>
+                </tr>
+         <tr>
+                <td>CAFI</td>
+                <td>Collection attempt failed because the location was inaccessible</td>
+                </tr>
+         <tr>
+                <td>CAFP</td>
+                <td>Collection attempt failed due to a packaging issue</td>
+                </tr>
+         <tr>
+                <td>CAFN</td>
+                <td>Collection attempt failed because the shipment was not available</td>
+                </tr>
+         <tr>
+                <td>CAFA</td>
+                <td>Collection attempt failed as there was no response at the location</td>
+                </tr>
+         <tr>
+                <td>CAFO</td>
+                <td>Collection attempt failed due to oversize or overweight shipment</td>
+                </tr>
+         <tr>
+                <td>CSPP</td>
+                <td>Collection from safe place failed due to a packaging issue</td>
+                </tr>
+         <tr>
+                <td>CSPI</td>
+                <td>Collection from safe place failed because access was not possible</td>
+                </tr>
+         <tr>
+                <td>CSPN</td>
+                <td>Collection from safe place failed as the shipment was not available</td>
+                </tr>
+         <tr>
+                <td>CSPO</td>
+                <td>Collection from safe place failed due to oversize or overweight shipment</td>
+                </tr>
+         <tr>
+                <td>CCAN</td>
+                <td>Collection request has been cancelled</td>
+                </tr>
+         <tr>
+                <td>CNAT</td>
+                <td>Collection was not attempted</td>
+                </tr>
+                </table>
   `}</HTMLBlock>
 </Accordion>
 
