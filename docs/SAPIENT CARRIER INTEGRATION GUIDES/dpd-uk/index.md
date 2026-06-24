@@ -94,13 +94,13 @@ DPD are one of the leading delivery carriers in the UK, shipping domestically an
 
 <Tabs>
   <Tab title="Core Services">
-    <Accordion title="Create Shipment" icon="">
+    <Accordion title="Create Shipment">
       The integration for creating shipments to reflect DPD UK as a primary carrier and allowing users to create shipments using the **Create Shipment** endpoint.
     </Accordion>
 
     <br />
 
-    <Accordion title="Manifest" icon="">
+    <Accordion title="Manifest">
       A crucial API for DPD UK that generates an electronic manifest data file in the SAPIENT's default PDF format and send it to DPD UK via SFTP.
     </Accordion>
 
@@ -108,7 +108,7 @@ DPD are one of the leading delivery carriers in the UK, shipping domestically an
   </Tab>
 
   <Tab title="Other Services">
-    <Accordion title="Print Label" icon="print">
+    <Accordion title="Print Label">
       Generate and return the label for a DPD UK shipment. This endpoint must be utilised when the label is not generated in the DPD UK Create Shipment request.
 
       > 📘 *Note*
@@ -118,7 +118,7 @@ DPD are one of the leading delivery carriers in the UK, shipping domestically an
 
     <br />
 
-    <Accordion title="Tracking" icon="print">
+    <Accordion title="Tracking">
       This integration allows customers to monitor their shipments in real-time, providing transparency and peace of mind. Users can access detailed tracking information, including, real-time updates, tracking numbers, and delivery notifications.
     </Accordion>
   </Tab>
