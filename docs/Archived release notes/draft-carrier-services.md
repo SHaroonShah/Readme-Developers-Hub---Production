@@ -147,3 +147,25 @@ The following key services are provided by the DX Express integration.
 
   _For the most up-to-date carrier services, use the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint._
 </Callout>
+
+## DX Freight
+
+The following key services are provided by the DX Freight integration.
+
+| Service Name       | Description |
+| :----------------- | :---------- |
+| 3Day               |             |
+| Overnight 9:30     |             |
+| Overnight pre noon |             |
+| 2Man Overnight     |             |
+| 2Man Standard      |             |
+| 2Man Saturday      |             |
+| Overnight          |             |
+| Saturday 9:30      |             |
+| Saturday           |             |
+
+<Callout icon="💡" theme="default">
+  ### _Tip_
+
+  _For the most up-to-date carrier services, use the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint._
+</Callout>
