@@ -57,13 +57,13 @@ Freight is one of DX's core solutions, also referred to as _IDW_ (Irregular Dime
   </Tab>
 
   <Tab title="Additional Features">
-    <Accordion title="Single piece shipments" icon="">
+    <Accordion title="Single piece shipments">
       DX Freight supports a maximum of 999 packages in a shipment, but the SAPIENT maximum—99 is used instead.
     </Accordion>
 
     <br />
 
-    <Accordion title="DX-1 service" icon="">
+    <Accordion title="DX-1 service">
       A 1-man service type that is typically deigned for door to door standard next-day delivery of parcels weighing up to a specific limit (50 kg) to the capability of effectively handling pallets. This service is usually best for smaller and lighter <Glossary>package</Glossary>s. 1Man service type includes the following services:
 
       * **ON**: Overnight
@@ -76,7 +76,7 @@ Freight is one of DX's core solutions, also referred to as _IDW_ (Irregular Dime
 
     <br />
 
-    <Accordion title="DX-2 service" icon="">
+    <Accordion title="DX-2 service">
       A 2-man service type that caters to larger and heavier <Glossary>shipments</Glossary>, typically allowing for items that require 2-person handling due to their size or weight. This service is useful particularly for businesses that deal with bulky items or items that cannot be managed by one person. 2Man service type includes the following services:
 
       * **H1**: 2Man Overnight
@@ -87,7 +87,8 @@ Freight is one of DX's core solutions, also referred to as _IDW_ (Irregular Dime
       * **CS**: 2Man Saturday Only
     </Accordion>
   </Tab>
- <Tab title="Service Enhancements">
+
+  <Tab title="Service Enhancements">
     > 📘 *Note*
     >
     > *There are no service enhancements for this integration.*
@@ -100,25 +101,25 @@ Freight is one of DX's core solutions, also referred to as _IDW_ (Irregular Dime
 
 <Tabs>
   <Tab title="Core Services">
-    <Accordion title="Create Shipment" icon="plus-circle">
+    <Accordion title="Create Shipment">
       The integration for creating shipments to reflect DX Freight as a primary carrier and allowing users to create shipments using the **Create Shipment** endpoint.
     </Accordion>
 
     <br />
 
-    <Accordion title="Delete Shipment" icon="plus-circle">
+    <Accordion title="Delete Shipment">
       The integration to delete an existing shipment cancelled in SAPIENT.
     </Accordion>
 
     <br />
 
-    <Accordion title="Manifest Shipment" icon="plus-circle">
+    <Accordion title="Manifest Shipment">
       Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/v4.03/docs/manifest-webhook) to keep track of shipments and their statuses by to receiving real-time updates or notifications whenever specific events occur in the system (such as shipping updates, status changes, and so on).
     </Accordion>
   </Tab>
 
   <Tab title="Other Services">
-    <Accordion title="Print Label" icon="print">
+    <Accordion title="Print Label">
       Generate and return the label for a DX Freight shipment in the PDF or ZPL format. This endpoint must be utilised when the label is not generated in the DXF Create Shipment request.
 
       > 📘 *Note*
@@ -128,7 +129,7 @@ Freight is one of DX's core solutions, also referred to as _IDW_ (Irregular Dime
 
     <br />
 
-    <Accordion title="Tracking" icon="print">
+    <Accordion title="Tracking">
       This integration allows customers to monitor their shipments in real-time, providing transparency and peace of mind. Users can access detailed tracking information, including, real-time updates, tracking numbers, and delivery notifications. For DXF shipments, the data files are sent via SFTP for both—1Man and 2Man services.
     </Accordion>
   </Tab>
