@@ -85,19 +85,19 @@ The Delivery Group (TDG) hands shipments over to other carriers for final-mile d
 
 <Tabs>
   <Tab title="Core Services">
-    <Accordion title="Create Shipment" icon="plus-circle">
+    <Accordion title="Create Shipment">
       The integration for creating shipments to reflect The Delivery Group as a primary carrier and allowing users to create individual shipments requests using the **Create Shipment** endpoint.
     </Accordion>
 
     <br />
 
-    <Accordion title="Manifest Shipment" icon="plus-circle">
+    <Accordion title="Manifest Shipment">
       Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/v4.03/docs/manifest-webhook) to keep track of shipments and their statuses by to receiving real-time updates or notifications whenever specific events occur in the system (such as shipping updates, status changes, and so on).
     </Accordion>
   </Tab>
 
   <Tab title="Other Services">
-    <Accordion title="Print Label" icon="print">
+    <Accordion title="Print Label">
       Generate and return the label for The Delivery Group shipment in the PDF or PNG format. This endpoint must be utilised when the label is not generated in The Delivery Group Create Shipment request.
 
       > 📘 *Note*
@@ -107,7 +107,7 @@ The Delivery Group (TDG) hands shipments over to other carriers for final-mile d
 
     <br />
 
-    <Accordion title="Tracking" icon="print">
+    <Accordion title="Tracking">
       The Delivery Group’s tracking API uses the username and password set on the shipping account linked to the tracking account is used to authorise requests to the Tracking API. This integration allows customers to monitor their shipments in real-time, providing transparency and peace of mind. Users can access detailed tracking information, including, real-time updates, tracking numbers, and delivery notifications.
     </Accordion>
   </Tab>
@@ -137,7 +137,8 @@ The Delivery Group (TDG) hands shipments over to other carriers for final-mile d
       </Card>
     </Cards>
   </Tab>
- <Tab title="Sign-Off">
+
+  <Tab title="Sign-Off">
     <Cards>
       <Card title="TDG Sign-off Process" href="https://docs.intersoftsapient.net/docs/the-delivery-group-sign-off" icon="fa-solid fa-file-signature">
         Complete all the necessary steps before using The Delivery Group for creating shipments on SAPIENT.
