@@ -30,6 +30,8 @@ The following key services are provided by the An Post integration.
 
 ## DHL Express
 
+The following key services are provided by the DHL Express integration.
+
 | Service Name                        | Description |
 | :---------------------------------- | :---------- |
 | Express 12:00 documents             |             |
@@ -46,3 +48,27 @@ The following key services are provided by the An Post integration.
 | Express 10:30 non documents         |             |
 | Express 09:00 documents             |             |
 | Express 10:30 documents             |             |
+
+<Callout icon="💡" theme="default">
+  ### _Tip_
+
+  _For the most up-to-date carrier services, use the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint._
+</Callout>
+
+## DHL Germany
+
+<br />
+
+| Service Name            | Description |
+| :---------------------- | :---------- |
+| DHL Paket               |             |
+| DHL Paket International |             |
+| DHL Europaket           |             |
+| DHL Kleinpaket          |             |
+| Warenpost International |             |
+
+<Callout icon="💡" theme="default">
+  ### _Tip_
+
+  _For the most up-to-date carrier services, use the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint._
+</Callout>
