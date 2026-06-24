@@ -57,7 +57,7 @@ The following key services are provided by the DHL Express integration.
 
 ## DHL Germany
 
-<br />
+The following key services are provided by the DHL Germany integration.
 
 | Service Name            | Description |
 | :---------------------- | :---------- |
@@ -72,3 +72,38 @@ The following key services are provided by the DHL Express integration.
 
   _For the most up-to-date carrier services, use the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint._
 </Callout>
+
+## DPD Ireland
+
+The following key services are provided by the DPD Ireland integration.
+
+| Service Name              | Description |
+| :------------------------ | :---------- |
+| DPD Saturday Delivery     |             |
+| DPD Next Day              |             |
+| DPD Air Express           |             |
+| DPD Classic               |             |
+| DPD Classic International |             |
+
+<Callout icon="💡" theme="default">
+  ### _Tip_
+
+  _For the most up-to-date carrier services, use the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint._
+</Callout>
+
+## DPD Netherlands
+
+The following key services are provided by the DPD Netherlands integration.
+
+| Service Name               | Description |
+| :------------------------- | :---------- |
+| DPD Business Normal Parcel |             |
+| DPD Business Small Parcel  |             |
+| DPD Home Normal Parcel     |             |
+| DPD Home Small Parcel      |             |
+| DPD ParcelLetter           |             |
+| DPD Shop Return            |             |
+| DPD Home Saturday          |             |
+| DPD Business Saturday      |             |
+
+<br />
