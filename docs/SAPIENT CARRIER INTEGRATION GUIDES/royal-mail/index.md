@@ -66,7 +66,7 @@ This integration represents a significant step towards optimising shipping funct
   </Tab>
 
   <Tab title="Service Enhancements">
-    <Accordion title="Consequential Loss Coverage" icon="shield-alt">
+    <Accordion title="Consequential Loss Coverage">
       Royal Mail offers multiple tiers of consequential loss coverage to protect your shipments:
 
       * **CL1** - Consequential Loss £1000: Coverage for losses up to £1000.
@@ -78,7 +78,7 @@ This integration represents a significant step towards optimising shipping funct
 
     <br />
 
-    <Accordion title="Delivery Options & Notifications" icon="bell">
+    <Accordion title="Delivery Options & Notifications">
       Enhanced delivery and notification services:
 
       * **Signed**: A signature is required upon delivery, applicable to 24, 48, 1st Class, and 2nd Class services.
@@ -90,7 +90,7 @@ This integration represents a significant step towards optimising shipping funct
 
     <br />
 
-    <Accordion title="International Services" icon="plane">
+    <Accordion title="International Services">
       Additional enhancements for international shipments:
 
       * **CustomsEmail**: The receiver's email address will be included in eCustoms data. This enhancement code can be used with international services.
@@ -105,25 +105,25 @@ This integration represents a significant step towards optimising shipping funct
 
 <Tabs>
   <Tab title="Core Services">
-    <Accordion title="Create Shipment" icon="plus-circle">
+    <Accordion title="Create Shipment">
       The integration for creating shipments to reflect Royal Mail as a primary carrier and allowing users to create shipments using the **Create Shipment** endpoint.
     </Accordion>
 
     <br />
 
-    <Accordion title="Print My Label QR Code" icon="qrcode">
+    <Accordion title="Print My Label QR Code">
       Generate an easy-to-scan QR code for the associated label specified in the **PrintLabel** API endpoint. This endpoint can only be used for Royal Mail Tracked Return services.
     </Accordion>
 
     <br />
 
-    <Accordion title="Trackings" icon="qrcode">
+    <Accordion title="Trackings">
       Register up to 1000 tracking numbers in a single API request and get real-time updates on your Royal Mail shipments.
     </Accordion>
 
     <br />
 
-    <Accordion title="Manifest Webhook" icon="map-marked-alt">
+    <Accordion title="Manifest Webhook">
       Keep track of shipments and their statuses by to receiving real-time updates or notifications whenever specific events occur in the system (such as shipping updates, status changes, and so on) via the SAPIENT Manifest Webhook feature.
 
       > 🚧 *Important*
@@ -141,7 +141,7 @@ This integration represents a significant step towards optimising shipping funct
   </Tab>
 
   <Tab title="Other Services">
-    <Accordion title="Print Label" icon="print">
+    <Accordion title="Print Label">
       Generate and return the label for the Royal Mail shipment. This endpoint must be utilised when the label is not generated in the Royal Mail Create Shipment request.
 
       > 📘 *Note*
@@ -151,19 +151,19 @@ This integration represents a significant step towards optimising shipping funct
 
     <br />
 
-    <Accordion title="Pre Allocate Tracking Number" icon="hashtag">
+    <Accordion title="Pre Allocate Tracking Number">
       Receive a Royal Mail Tracking Number that will be pre-allocated to the service and destination supplied in the request. No shipment or label will be produced using this endpoint. This endpoint can only be used for services that are assigned a tracking number.
     </Accordion>
 
     <br />
 
-    <Accordion title="Offline Barcoding" icon="barcode">
+    <Accordion title="Offline Barcoding">
       Request a specific range of barcodes for use in your shipping processes. Offline Barcoding is only available if it has been activated on your customer account in the GUI.
     </Accordion>
 
     <br />
 
-    <Accordion title="PUDO Locations" icon="map-marked-alt">
+    <Accordion title="PUDO Locations">
       Retrieves a list of Pick-Up and Drop-Off (PUDO) locations associated with a specified carriers that are within a set radius of the postcode provided in the request. That radius is set to 10 Miles / 16.09 Kilometres.
 
       > 🚧 *Important*
@@ -172,8 +172,10 @@ This integration represents a significant step towards optimising shipping funct
 
       <br />
     </Accordion>
-<br />
-    <Accordion title="International Arrivals Containers" icon="container-storage">
+
+    <br />
+
+    <Accordion title="International Arrivals Containers">
       Create and name (with and ID or alias) a new international arrivals container to be used for manifesting a specific group of shipments. Define which carrier and shipping location the container should be linked to.
 
       Unlike the common [Containers](https://docs.intersoftsapient.net/reference/get_v4-containers#/) API, the **International Arrivals Containers** endpoint is used for Royal Mail shipments that are being imported into GB only. For shipments in these containers, a <Glossary>data solution</Glossary> file is generated and sent to Royal Mail, which allows them to associate the shipments in the container with its associated ID, for better tracking and visibility purposes.
