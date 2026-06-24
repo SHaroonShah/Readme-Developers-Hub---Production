@@ -70,9 +70,8 @@ The integration of An Post, Ireland's national postal service, into the SAPIENT 
     >
     > *There are no service enhancements for this integration.*
   </Tab>
-  <Tab title="Carrier Services">
-</Tab>
 
+  <Tab title="Carrier Services" />
 </Tabs>
 
 ***
@@ -81,7 +80,7 @@ The integration of An Post, Ireland's national postal service, into the SAPIENT 
 
 <Tabs>
   <Tab title="Core Services">
-    <Accordion title="Create Shipment" icon="plus-circle">
+    <Accordion title="Create Shipment">
       The integration for creating shipments to reflect An Post as a primary carrier and allowing users to create shipments using the **Create Shipment** endpoint. Based on the destination country, customers must be aware of the following:
 
       * * For delivery to addresses in Northern Ireland (IE), only the shipping <Glossary>label</Glossary> is required.
@@ -96,13 +95,13 @@ The integration of An Post, Ireland's national postal service, into the SAPIENT 
 
     <br />
 
-    <Accordion title="Manifest Shipment" icon="plus-circle">
+    <Accordion title="Manifest Shipment">
       Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/v4.03/docs/manifest-webhook) to keep track of shipments and their statuses by to receiving real-time updates or notifications whenever specific events occur in the system (such as shipping updates, status changes, and so on).
     </Accordion>
   </Tab>
 
   <Tab title="Other Services">
-    <Accordion title="Print Label" icon="print">
+    <Accordion title="Print Label">
       Generate and return the label for an An Post shipment. This endpoint must be utilised when the label is not generated in the An Post Create Shipment request.
 
       > 📘 *Note*
@@ -112,7 +111,7 @@ The integration of An Post, Ireland's national postal service, into the SAPIENT 
 
     <br />
 
-    <Accordion title="Tracking" icon="print">
+    <Accordion title="Tracking">
       This integration allows customers to monitor their shipments in real-time, providing transparency and peace of mind. Users can access detailed tracking information, including, real-time updates, tracking numbers, and delivery notifications.
     </Accordion>
   </Tab>
