@@ -132,3 +132,18 @@ The following key services are provided by the DPD UK integration.
 
   _For the most up-to-date carrier services, use the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint._
 </Callout>
+
+## DX Express
+
+The following key services are provided by the DX Express integration.
+
+| Service Name    | Description |
+| :-------------- | :---------- |
+| Secure Flex     |             |
+| Secure Business |             |
+
+<Callout icon="💡" theme="default">
+  ### _Tip_
+
+  _For the most up-to-date carrier services, use the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint._
+</Callout>
