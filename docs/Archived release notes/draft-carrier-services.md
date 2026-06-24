@@ -95,19 +95,36 @@ The following key services are provided by the DPD Ireland integration.
 
 The following key services are provided by the DPD Netherlands integration.
 
-| Service Name               | Description |
-| :------------------------- | :---------- |
-| DPD Business Normal Parcel |             |
-| DPD Business Small Parcel  |             |
-| DPD Home Normal Parcel     |             |
-| DPD Home Small Parcel      |             |
-| DPD ParcelLetter           |             |
-| DPD Shop Return            |             |
-| DPD Home Saturday          |             |
-| DPD Business Saturday      |             |
+| Service Name               | Description                       |
+| :------------------------- | :-------------------------------- |
+| DPD Business Normal Parcel |                                   |
+| DPD Business Small Parcel  |                                   |
+| DPD Home Normal Parcel     |                                   |
+| DPD Home Small Parcel      |                                   |
+| DPD ParcelLetter           | Only for delivery to NL addresses |
+| DPD Shop Return            |                                   |
+| DPD Home Saturday          |                                   |
+| DPD Business Saturday      |                                   |
 
 <Callout icon="💡" theme="default">
   ### _Tip_
 
   _For the most up-to-date carrier services, use the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint._
 </Callout>
+
+## DPD UK
+
+The following key services are provided by the DPD UK integration.
+
+| Service Name                              | Description |
+| :---------------------------------------- | :---------- |
+| DPD 10:30 (including Saturday and Sunday) |             |
+| DPD 12:00 (including Saturday)            |             |
+| DPD Next Day                              |             |
+| Freight - Next Day                        |             |
+| International Classic                     |             |
+| International Air Express                 |             |
+| DPD Direct                                |             |
+| DPD Direct Ireland                        |             |
+
+<br />
