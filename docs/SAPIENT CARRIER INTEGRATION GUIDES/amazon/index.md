@@ -87,13 +87,13 @@ In the UK, Amazon Shipping covers England, Scotland, and Wales, offering seven-d
   <Tab title="Carrier Services">
     The following key services are provided by teh Amazon integration.
 
-   | Service  Name | Description                                                                                                                               |
-| :------------ | :---------------------------------------------------------------------------------------------------------------------------------------- |
-| **Prime**     | This service provides next-day delivery service with full tracking for Amazon marketplace orders.                                         |
-| **Standard**  | This service provides two-day delivery service with tracking for Amazon marketplace orders.                                               |
-| **Economy**   | This service provides cost-effective tracked delivery service with a longer transit time for Amazon marketplace orders.                   |
-| **1Day**      | This service provides next-day delivery service for non-Amazon orders; may include limited or no tracking compared to On-Amazon services. |
-| **2Day**      | This service provides two-day delivery service for non-Amazon orders; may include limited or no tracking compared to On-Amazon services.  |
+    | Service  Name | Description                                                                                                                               |
+    | :------------ | :---------------------------------------------------------------------------------------------------------------------------------------- |
+    | **Prime**     | This service provides next-day delivery service with full tracking for Amazon marketplace orders.                                         |
+    | **Standard**  | This service provides two-day delivery service with tracking for Amazon marketplace orders.                                               |
+    | **Economy**   | This service provides cost-effective tracked delivery service with a longer transit time for Amazon marketplace orders.                   |
+    | **1Day**      | This service provides next-day delivery service for non-Amazon orders; may include limited or no tracking compared to On-Amazon services. |
+    | **2Day**      | This service provides two-day delivery service for non-Amazon orders; may include limited or no tracking compared to On-Amazon services.  |
 
     <br />
 
@@ -111,19 +111,19 @@ In the UK, Amazon Shipping covers England, Scotland, and Wales, offering seven-d
 
 <Tabs>
   <Tab title="Core Services">
-    <Accordion title="Create Shipment" icon="plus-circle">
+    <Accordion title="Create Shipment">
       The integration for creating shipments to reflect Amazon as a primary carrier and allowing users to create individual shipments requests using the **Create Shipment** endpoint.
     </Accordion>
 
     <br />
 
-    <Accordion title="Manifest Shipment" icon="plus-circle">
+    <Accordion title="Manifest Shipment">
       Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/v4.03/docs/manifest-webhook) to keep track of shipments and their statuses by to receiving real-time updates or notifications whenever specific events occur in the system (such as shipping updates, status changes, and so on).
     </Accordion>
   </Tab>
 
   <Tab title="Other Services">
-    <Accordion title="Print Label" icon="print">
+    <Accordion title="Print Label">
       Generate and return the label for an Amazon shipment in the supported label formats. This endpoint must be utilised when the label is not generated in the DHL Germany Create Shipment request.
 
       > 📘 *Note*
@@ -133,7 +133,7 @@ In the UK, Amazon Shipping covers England, Scotland, and Wales, offering seven-d
 
     <br />
 
-    <Accordion title="Tracking" icon="print">
+    <Accordion title="Tracking">
       Enables customers to receive tracking updates through their integration with the SAPIENT tracking webhook.
     </Accordion>
   </Tab>
