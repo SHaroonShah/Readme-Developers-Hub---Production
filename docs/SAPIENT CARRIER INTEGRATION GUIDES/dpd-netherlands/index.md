@@ -98,19 +98,19 @@ The integration of DPD NL into the SAPIENT platform is a significant step in enh
 
 <Tabs>
   <Tab title="Core Services">
-    <Accordion title="Create Shipment" icon="plus-circle">
+    <Accordion title="Create Shipment">
       The integration for creating shipments to reflect DPD NL as a primary carrier and allowing users to create individual shipments requests using the **Create Shipment** endpoint.
     </Accordion>
 
     <br />
 
-    <Accordion title="Manifest Shipment" icon="plus-circle">
+    <Accordion title="Manifest Shipment">
       Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/v4.03/docs/manifest-webhook) to keep track of shipments and their statuses by to receiving real-time updates or notifications whenever specific events occur in the system (such as shipping updates, status changes, and so on).
     </Accordion>
   </Tab>
 
   <Tab title="Other Services">
-    <Accordion title="Print Label" icon="print">
+    <Accordion title="Print Label">
       Generate and return the label for a DPD NL shipment in the supported label formats. This endpoint must be utilised when the label is not generated in the DPD NL Create Shipment request.
 
       > 📘 *Note*
@@ -120,7 +120,7 @@ The integration of DPD NL into the SAPIENT platform is a significant step in enh
 
     <br />
 
-    <Accordion title="Tracking" icon="print">
+    <Accordion title="Tracking">
       Enables customers to receive tracking updates through their integration with the SAPIENT tracking webhook.
     </Accordion>
   </Tab>
