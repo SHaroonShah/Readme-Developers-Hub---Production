@@ -75,31 +75,31 @@ Express is one of DX's core solutions that provides a fast and secure next-day d
 
 <Tabs>
   <Tab title="Core Services">
-    <Accordion title="Create Shipment" icon="plus-circle">
+    <Accordion title="Create Shipment">
       The integration for creating shipments to reflect DX as a primary carrier and allowing users to create individual shipments requests using the **Create Shipment** endpoint.
     </Accordion>
 
     <br />
 
-    <Accordion title="Cancel Shipment" icon="plus-circle">
+    <Accordion title="Cancel Shipment">
       The integration for directly calling the DX’s API to cancel shipments within DX’s system, to ensures that cancellations are fully registered with DX, helping prevent customers from being mistakenly charged for cancelled shipments. <br />
 
-     > 🚧 _Important_
->
-> _If you attempt to release a held shipment to a later date, please be aware that the shipment will no longer be eligible for cancellation. Shipments can only be cancelled if they have not been manifested._
+      > 🚧 *Important*
+      >
+      > *If you attempt to release a held shipment to a later date, please be aware that the shipment will no longer be eligible for cancellation. Shipments can only be cancelled if they have not been manifested.*
 
       <br />
     </Accordion>
 
     <br />
 
-    <Accordion title="Manifest Shipment" icon="plus-circle">
+    <Accordion title="Manifest Shipment">
       Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/v4.03/docs/manifest-webhook) to keep track of shipments and their statuses by to receiving real-time updates or notifications whenever specific events occur in the system (such as shipping updates, status changes, and so on).
     </Accordion>
   </Tab>
 
   <Tab title="Other Services">
-    <Accordion title="Print Label" icon="print">
+    <Accordion title="Print Label">
       Generate and return the label for DX shipment in the supported label formats. This endpoint must be utilised when the label is not generated in the DX Create Shipment request.
 
       > 📘 *Note*
@@ -109,7 +109,7 @@ Express is one of DX's core solutions that provides a fast and secure next-day d
 
     <br />
 
-    <Accordion title="Tracking" icon="print">
+    <Accordion title="Tracking">
       Enables customers to receive tracking updates through their integration with the SAPIENT tracking webhook.
     </Accordion>
   </Tab>
