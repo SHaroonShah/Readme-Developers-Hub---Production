@@ -27,7 +27,7 @@ In SAPIENT, you can create both <Glossary>On-Amazon</Glossary> and <Glossary>Off
   <Tab title="Via SAPIENT UI">
     To add a shipping account for Amazon in SAPIENT, perform the steps as explained in the following procedures for each account type.
 
-    <Accordion title="Add On-Amazon shipping account" icon="fa-brands fa-amazon">
+    <Accordion title="Add On-Amazon shipping account">
       To add an On-Amazon shipping account to SAPIENT, perform the steps as explained in the following procedure.
 
       <ToggleList>
@@ -36,7 +36,7 @@ In SAPIENT, you can create both <Glossary>On-Amazon</Glossary> and <Glossary>Off
 
           In the left navigation panel, select **Shipping Accounts**.
 
-          <Image align="center" border={true} src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" caption="Accessing shipping accounts" />
+          <Image align="center" border={true} src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" />
 
           ***
         </ToggleListItem>
@@ -48,7 +48,7 @@ In SAPIENT, you can create both <Glossary>On-Amazon</Glossary> and <Glossary>Off
 
           On the **Shipping Accounts** page that opens, select the **Add Shipping Account** button.
 
-          <Image align="center" border={true} src="https://files.readme.io/8490d8ba65c4eca10caa8c051c5e73bf366fc5a6269e84a2bfb697544105b343-Add_shipping_account_option.png" caption="Accessing option to add shipping account" />
+          <Image align="center" border={true} src="https://files.readme.io/8490d8ba65c4eca10caa8c051c5e73bf366fc5a6269e84a2bfb697544105b343-Add_shipping_account_option.png" />
 
           ***
         </ToggleListItem>
@@ -250,7 +250,7 @@ In SAPIENT, you can create both <Glossary>On-Amazon</Glossary> and <Glossary>Off
 
     <br />
 
-    <Accordion title="Add Off-Amazon shipping account" icon="fa-brands fa-amazon">
+    <Accordion title="Add Off-Amazon shipping account">
       To add an Off-Amazon shipping accoun to SAPIENT, perform the steps as explained in the following prcedure.
 
       <ToggleList>
