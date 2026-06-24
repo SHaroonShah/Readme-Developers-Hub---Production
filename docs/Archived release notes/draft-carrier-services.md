@@ -127,4 +127,8 @@ The following key services are provided by the DPD UK integration.
 | DPD Direct                                |             |
 | DPD Direct Ireland                        |             |
 
-<br />
+<Callout icon="💡" theme="default">
+  ### _Tip_
+
+  _For the most up-to-date carrier services, use the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint._
+</Callout>
