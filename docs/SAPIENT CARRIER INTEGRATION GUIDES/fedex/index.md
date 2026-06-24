@@ -65,7 +65,7 @@ The FedEx-SAPIENT integration aims to enhance operational efficiency and provide
     <Callout icon="📘" theme="default">
       ### *Note*
 
-      *For more information on Electronic Trade Document configuration, refer to the <Anchor label="Add FedEx shipping account" target="_blank" href="https://docs.intersoftsapient.net/docs/add-fedex-shipping-account">Add FedEx shipping account</Anchor> section.*
+      *For more information on Electronic Trade Document configuration, refer to the<Anchor label="Add FedEx shipping account" target="_blank" href="https://docs.intersoftsapient.net/docs/add-fedex-shipping-account">Add FedEx shipping account</Anchor> section.*
     </Callout>
   </Tab>
 
@@ -96,19 +96,19 @@ The FedEx-SAPIENT integration aims to enhance operational efficiency and provide
 
 <Tabs>
   <Tab title="Core Services">
-    <Accordion title="Create Shipment" icon="plus-circle">
+    <Accordion title="Create Shipment">
       The integration for creating shipments to reflect FedEx as a primary carrier and allowing users to create shipments using the Create Shipment endpoint.
     </Accordion>
 
     <br />
 
-    <Accordion title="Manifest Shipment" icon="plus-circle">
+    <Accordion title="Manifest Shipment">
       Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/v4.03/docs/manifest-webhook) to keep track of shipments and their statuses by to receiving real-time updates or notifications whenever specific events occur in the system (such as shipping updates, status changes, and so on).
     </Accordion>
 
     <br />
 
-    <Accordion title="Cancel Shipment" icon="print">
+    <Accordion title="Cancel Shipment">
       The integration to cancel any unwanted shipments, to ensures that cancellations are fully registered with FedEx, helping prevent customers from being mistakenly charged for cancelled shipments.
     </Accordion>
 
@@ -122,7 +122,7 @@ The FedEx-SAPIENT integration aims to enhance operational efficiency and provide
   </Tab>
 
   <Tab title="Other Services">
-    <Accordion title="Print Label" icon="print">
+    <Accordion title="Print Label">
       Generate and return the label for a DHL Germany shipment in the supported label formats. This endpoint must be utilised when the label is not generated in the DHL Germany Create Shipment request.
 
       > 📘 *Note*
@@ -132,7 +132,7 @@ The FedEx-SAPIENT integration aims to enhance operational efficiency and provide
 
     <br />
 
-    <Accordion title="Tracking" icon="print">
+    <Accordion title="Tracking">
       Enables customers to receive tracking updates through their integration with the SAPIENT tracking webhook.
     </Accordion>
   </Tab>
