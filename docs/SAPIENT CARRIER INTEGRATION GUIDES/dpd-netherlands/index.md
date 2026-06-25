@@ -90,6 +90,26 @@ The integration of DPD NL into the SAPIENT platform is a significant step in enh
       * *[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services)*
     </Callout>
   </Tab>
+  <Tab title="Carrier Services">
+The following key services are provided by the DPD Netherlands integration.
+
+| Service Name                                             | Description                                                                                                                                                                                        |
+| :------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **DPD Business Normal Parcel**                           | This service provides standard business-to-business delivery for parcels up to 31.5 kg, offering reliable transport across the Netherlands and Europe with tracking and multiple delivery attempts |
+| **DPD Business Small Parcel**                            | This service provides business-to-business delivery for lightweight parcels up to 3 kg, enabling cost-effective shipping of smaller consignments with full tracking and reliable transit.          |
+| **DPD Home Normal Parcel**                               | This service provides home delivery for standard parcels up to 31.5 kg, including Predict notifications with a 1-hour delivery window and options for recipients to manage delivery preferences.   |
+| **DPD Home Small Parcel**                                | This service provides home delivery for lightweight parcels up to 3 kg, offering a convenient and cost-efficient solution with tracking and flexible delivery options for recipients.              |
+| **DPD ParcelLetter** (Only for delivery to NL addresses) | This service provides mailbox delivery for very small parcels up to 1 kg, allowing items to be delivered through the letterbox without requiring recipient presence within Netherlands only.       |
+| **DPD Shop Return**                                      | This service provides a flexible returns solution that allows customers to return parcels via DPD Parcel Shops using printed or digital labels, including QR code options without printing.        |
+| **DPD Home Saturday**                                    | This service provides home delivery on Saturdays, enabling parcels collected during the week to be delivered to residential addresses at the weekend with full tracking visibility.                |
+| **DPD Business Saturday**                                | This service provides business delivery on Saturdays, allowing shipments to be delivered outside standard weekday business hours for improved flexibility and continuity of operations.            |
+<br />
+<Callout icon="💡" theme="default">
+  ### _Tip_
+
+  _For the most up-to-date carrier services, use the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint._
+</Callout>
+</Tab>
 </Tabs>
 
 ***
