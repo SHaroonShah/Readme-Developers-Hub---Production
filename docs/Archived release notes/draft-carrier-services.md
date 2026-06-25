@@ -116,16 +116,16 @@ The following key services are provided by the DPD Netherlands integration.
 
 The following key services are provided by the DPD UK integration.
 
-| Service Name                              | Description |
-| :---------------------------------------- | :---------- |
-| DPD 10:30 (including Saturday and Sunday) |             |
-| DPD 12:00 (including Saturday)            |             |
-| DPD Next Day                              |             |
-| Freight - Next Day                        |             |
-| International Classic                     |             |
-| International Air Express                 |             |
-| DPD Direct                                |             |
-| DPD Direct Ireland                        |             |
+| Service Name                              | Description                                                                                                                                                                                    |
+| :---------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| DPD 10:30 (including Saturday and Sunday) | This service provides next-working-day delivery by 10:30 AM, including weekend delivery options, ensuring time-critical shipments arrive early with full tracking visibility.                  |
+| DPD 12:00 (including Saturday)            | This service provides next-working-day delivery by 12:00 PM, including Saturday delivery, offering a reliable timed option for urgent parcels with tracking and delivery notifications.        |
+| DPD Next Day                              | This service provides next-working-day delivery across the UK by close of business, including tracking, delivery notifications, and flexible delivery options for recipients.                  |
+| Freight - Next Day                        | This service provides next-working-day delivery for heavier or bulk shipments, ensuring time-critical freight is transported efficiently within the UK distribution network.                   |
+| International Classic                     | This service provides reliable, cost-effective road-based delivery to European destinations, offering standard transit times with full tracking and parcel visibility.                         |
+| International Air Express                 | This service provides fast international delivery via an air network, offering expedited transit times, global coverage, and full tracking for urgent shipments worldwide.                     |
+| DPD Direct                                | This service provides international delivery solutions for e-commerce shipments, combining parcel delivery with customs clearance, tracking, and end-to-end visibility to global destinations. |
+| DPD Direct Ireland                        | This service provides dedicated delivery from the UK to Ireland, including customs handling, reliable transit times, and full tracking for cross-border shipments.                             |
 
 <Callout icon="💡" theme="default">
   ### _Tip_
