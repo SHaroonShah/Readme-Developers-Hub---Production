@@ -84,6 +84,23 @@ The integration of DHL Germany (DE) into the SAPIENT platform is a significant s
       * *[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services)*
     </Callout>
   </Tab>
+  <Tab title="Carrier Services">
+The following key services are provided by the DHL Germany integration.
+
+| Service Name                | Description                                                                                                                                                                                     |
+| :-------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **DHL Paket**               | This service provides reliable domestic parcel delivery within Germany, typically within 1–2 working days, with tracking, liability cover, and flexible delivery options.                       |
+| **DHL Paket International** | This service provides international parcel delivery to over 220 countries and territories, offering door-to-door shipping with tracking, customs handling, and reliable transit times.          |
+| **DHL Europaket**           | This service provides reliable parcel delivery across European destinations, offering cross-border shipping with defined transit times, tracking, and customs support where required.           |
+| **DHL Kleinpaket**          | This service provides cost-effective shipping for small, lightweight goods within Germany, including tracking, delivery confirmation, and liability coverage for low-value items.               |
+| **Warenpost International** | This service provides affordable international delivery for small, lightweight goods, offering flexible shipping options with optional tracking and customs processing for global destinations. |
+<br />
+<Callout icon="💡" theme="default">
+  ### _Tip_
+
+  _For the most up-to-date carrier services, use the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint._
+</Callout>
+</Tab>
 </Tabs>
 
 ***
