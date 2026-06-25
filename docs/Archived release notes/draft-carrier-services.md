@@ -264,14 +264,14 @@ The following key services are provided by The Delivery Group integration.
 
 The following key services are provided by the UPS integration.
 
-| Service Name               | Description |
-| :------------------------- | :---------- |
-| UPS World Express          |             |
-| UPS Standard               |             |
-| UPS Economy DDU            |             |
-| UPS Worldwide Express Plus |             |
-| UPS Worldwide Saver        |             |
-| UPS Economy DDP            |             |
+| Service Name               | Description                                                                                                                                                                                            |
+| :------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| UPS World Express          | This service provides fast international delivery within 1–3 business days, typically delivered by mid-morning or noon, with full tracking and time-definite delivery for urgent shipments.            |
+| UPS Standard               | This service provides reliable, day-definite delivery within 2–7 business days for domestic and cross-border European shipments, offering a cost-effective option with full tracking.                  |
+| UPS Economy DDU            | This service provides cost-effective international delivery for non-urgent shipments, where duties and taxes are paid by the recipient upon delivery, with tracking and flexible transit times.        |
+| UPS Worldwide Express Plus | This service provides the fastest international delivery option, with early-morning delivery typically by 8:30–9:00 AM within 1–3 business days, including full tracking and time-definite guarantees. |
+| UPS Worldwide Saver        | his service provides fast international delivery within 1–3 business days by end of day, offering a balance between speed and cost with full tracking and reliable transit times.                      |
+| UPS Economy DDP            | This service provides cost-effective international delivery for non-urgent shipments, where duties and taxes are prepaid by the sender, ensuring seamless delivery without charges to the recipient.   |
 
 <Callout icon="💡" theme="default">
   ### _Tip_
