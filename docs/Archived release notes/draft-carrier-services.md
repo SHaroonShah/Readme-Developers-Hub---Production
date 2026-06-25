@@ -9,18 +9,18 @@ metadata:
 
 The following key services are provided by the An Post integration.
 
-| Service Name                     | Description                                                                                                                                                                                                                                                                             |
-| :------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Express With Signature - Parcel) | This service provides guaranteed morning, next-business-day delivery to and from most business areas within the country and day-definite delivery within three days for international shipments from more than 45 countries and territories to more than 185 countries and territories. |
-| Standard Post                    | This service provides scheduled day-definite delivery to and from most addresses within the country and scheduled day-definite delivery within five days for international shipments to and from more than 30 countries and territories.                                                |
-| Priority Post                    | This service provides day-definite delivery to over 220 countries and territories. Fully tracked, with generous weight limits (up to 150 lbs).                                                                                                                                          |
-| Returns Service                  | This service provides premium express service with the fastest international delivery times.                                                                                                                                                                                            |
-| Courier                          | This service provides guaranteed afternoon delivery to over 215 countries. and territories.                                                                                                                                                                                             |
-| Express With Signature - Packet  |                                                                                                                                                                                                                                                                                         |
-| Express                          |                                                                                                                                                                                                                                                                                         |
-| Express International            |                                                                                                                                                                                                                                                                                         |
-| Registered Post                  |                                                                                                                                                                                                                                                                                         |
-| IBMS/Untracked                   |                                                                                                                                                                                                                                                                                         |
+| Service Name                     | Description                                                                                                |
+| :------------------------------- | :--------------------------------------------------------------------------------------------------------- |
+| Express With Signature - Parcel) | This service provides fast parcel delivery with signature confirmation upon delivery for added security.   |
+| Standard Post                    | This service provides cost-effective standard delivery for non-urgent items within the network.            |
+| Priority Post                    | This service provides faster delivery than standard post with prioritised handling.                        |
+| Returns Service                  | This service provides a simple and efficient process for returning items to the sender.                    |
+| Courier                          | This service provides expedited delivery with enhanced tracking and handling for time-sensitive shipments. |
+| Express With Signature - Packet  | This service provides fast packet delivery with signature confirmation upon delivery.                      |
+| Express                          | This service provides expedited delivery for urgent shipments within the network.                          |
+| Express International            | This service provides fast international delivery with prioritised handling and tracking.                  |
+| Registered Post                  | This service provides secure delivery with signature capture and compensation cover for valuable items     |
+| IBMS/Untracked                   | This service provides basic untracked delivery for low-value or non-priority shipments.                    |
 
 <Callout icon="💡" theme="default">
   ### _Tip_
@@ -288,6 +288,28 @@ The following key services are provided by the Yodel integration.
 | Yodel Xpect  |             |
 | Yodel Xpress |             |
 | Yodel Xpert  |             |
+
+<Callout icon="💡" theme="default">
+  ### _Tip_
+
+  _For the most up-to-date carrier services, use the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint._
+</Callout>
+
+## Royal Mail 
+
+The following key services are provided by the Royal Mail integration.
+
+| Service Name     | Description |
+| :--------------- | :---------- |
+| Tracked 24       |             |
+| Tracked 48       |             |
+| Untracked 24     |             |
+| Untracked 48     |             |
+| 1st Class        |             |
+| 2nd Class        |             |
+| Special Delivery |             |
+| International    |             |
+| Returns          |             |
 
 <Callout icon="💡" theme="default">
   ### _Tip_
