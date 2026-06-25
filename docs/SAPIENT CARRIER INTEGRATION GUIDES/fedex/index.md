@@ -88,6 +88,28 @@ The FedEx-SAPIENT integration aims to enhance operational efficiency and provide
       *For more information on the service enhancements and carrier services, refer to the API References section.*
     </Callout>
   </Tab>
+  <Tab title="Carrier Services">
+The following key services are provided by the FedEx integration.
+
+| Service Name                              | Description                                                                                                                                                                                         |
+| :---------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **FedEx® Economy**                        | This service provides cost-effective delivery for non-urgent shipments, typically delivered within a few working days with full tracking and reliable transit times.                                |
+| **FedEx® First**                          | This service provides early-morning, next-working-day delivery for urgent shipments, ensuring arrival at the start of the business day with time-definite delivery.                                 |
+| **FedEx® International Connect Plus**     | This service provides fast, cost-effective international e-commerce delivery with day-definite transit times, customs clearance, full tracking, and delivery management across global destinations. |
+| **FedEx International Economy®**          | This service provides cost-effective international delivery for less urgent shipments, typically completed within 2–5 business days with full tracking and customs clearance.                       |
+| **FedEx International First®**            | This service provides early-morning international delivery to selected destinations, offering time-definite delivery as early as 8:00–10:00 AM for urgent shipments.                                |
+| **FedEx International Priority®**         | This service provides fast international delivery within 1–3 business days, offering reliable, end-of-day delivery with tracking and customs-cleared processing.                                    |
+| **FedEx International Priority® Express** | This service provides expedited international delivery with time-definite arrival, typically by mid-morning or noon within 1–3 business days, including tracking and customs clearance.             |
+| **FedEx® Priority Express**               | This service provides time-definite, next-working-day delivery for urgent shipments, ensuring early delivery with full tracking and high-priority handling across the network.                      |
+| **FedEx® Priority**                       | This service provides fast, reliable delivery for time-sensitive shipments with delivery typically within 1–5 working days, including tracking and priority handling.                               |
+| **FedEx® Regional Economy**               | This service provides cost-effective, day-definite delivery within regions such as Europe, using road transport for less time-sensitive shipments with full tracking and customs support.           |
+<br />
+<Callout icon="💡" theme="default">
+  ### _Tip_
+
+  _For the most up-to-date carrier services, use the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint._
+</Callout>
+</Tab>
 </Tabs>
 
 ***
