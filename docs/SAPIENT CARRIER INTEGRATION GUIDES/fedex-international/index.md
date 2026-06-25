@@ -60,6 +60,22 @@ FedEx International Connect is a flexible, cost-effective, worldwide delivery so
     >
     > *There are no service enhancements for this integration.*
   </Tab>
+  <Tab title="Carrier Services">
+The following key services are provided by the FedEx International Connect integration.
+
+| Service Name                     | Description                                                                                                                                                                                                                                                 |
+| :------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **FIC - Express Priority**       | This service provides expedited international delivery for e-commerce shipments, offering faster transit times than standard International Connect services, with end-to-end tracking, customs clearance, and priority handling across global destinations. |
+| **FIC - Tracked Worldwide** (UK) | This service provides cost-effective international e-commerce delivery from the UK, offering global coverage, end-to-end tracking, and customs-cleared delivery for less urgent shipments to over 220 countries and territories.                            |
+| **Royal Mail Tracked 24**        | This service provides next-working-day delivery within the UK with full end-to-end tracking, delivery notifications, and proof of delivery, offering a fast and reliable domestic shipping solution.                                                        |
+| **Royal Mail Tracked 48**        | This service provides cost-effective UK delivery within 2–3 working days with full tracking, delivery notifications, and proof of delivery, suitable for less urgent domestic shipments.                                                                    |
+<br />
+<Callout icon="💡" theme="default">
+  ### _Tip_
+
+  _For the most up-to-date carrier services, use the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint._
+</Callout>
+</Tab>
 </Tabs>
 
 ***
