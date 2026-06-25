@@ -32,22 +32,22 @@ The following key services are provided by the An Post integration.
 
 The following key services are provided by the DHL Express integration.
 
-| Service Name                        | Description |
-| :---------------------------------- | :---------- |
-| Express 12:00 documents             |             |
-| Express Domestic 12:00              |             |
-| Express Domestic 9:00               |             |
-| Express 12:00 non documents         |             |
-| Express Worldwide documents         |             |
-| Express Domestic                    |             |
-| Express Worldwide ROW non documents |             |
-| Express Worldwide EU non documents  |             |
-| Economy Select documents            |             |
-| Economy Select non documents        |             |
-| Express 09:00 non documents         |             |
-| Express 10:30 non documents         |             |
-| Express 09:00 documents             |             |
-| Express 10:30 documents             |             |
+| Service Name                        | Description                                                                                                                        |
+| :---------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------- |
+| Express 12:00 documents             | This service provides expedited delivery of documents with a delivery commitment by 12:00 on the next working day where available. |
+| Express Domestic 12:00              | This service provides fast domestic delivery with a guaranteed delivery by 12:00 on the next working day.                          |
+| Express Domestic 9:00               | This service provides priority domestic delivery with a guaranteed delivery by 09:00 on the next working day.                      |
+| Express 12:00 non documents         | This service provides expedited delivery of parcels with a delivery commitment by 12:00 on the next working day where available.   |
+| Express Worldwide documents         | This service provides fast international delivery of documents with prioritised handling and tracking.                             |
+| Express Domestic                    | This service provides expedited next-day delivery within the domestic network.                                                     |
+| Express Worldwide ROW non documents | This service provides fast delivery of parcels to Rest of World destinations with prioritised handling and tracking.               |
+| Express Worldwide EU non documents  | This service provides fast delivery of parcels across European destinations with prioritised handling and tracking.                |
+| Economy Select documents            | This service provides cost-effective international delivery of documents with a longer transit time.                               |
+| Economy Select non documents        | This service provides cost-effective international delivery of parcels with a longer transit time.                                 |
+| Express 09:00 non documents         | This service provides priority delivery of parcels by 09:00 on the next working day.                                               |
+| Express 10:30 non documents         | This service provides expedited delivery of parcels by 10:30 on the next working day.                                              |
+| Express 09:00 documents             | This service provides priority delivery of documents by 09:00 on the next working day.                                             |
+| Express 10:30 documents             | This service provides expedited delivery of documents by 10:30 on the next working day.                                            |
 
 <Callout icon="💡" theme="default">
   ### _Tip_
@@ -59,13 +59,13 @@ The following key services are provided by the DHL Express integration.
 
 The following key services are provided by the DHL Germany integration.
 
-| Service Name            | Description |
-| :---------------------- | :---------- |
-| DHL Paket               |             |
-| DHL Paket International |             |
-| DHL Europaket           |             |
-| DHL Kleinpaket          |             |
-| Warenpost International |             |
+| Service Name            | Description                                                                                                                              |
+| :---------------------- | :--------------------------------------------------------------------------------------------------------------------------------------- |
+| DHL Paket               | This service provides reliable domestic parcel delivery within Germany with tracking and standard transit times.                         |
+| DHL Paket International | This service provides international parcel delivery with tracking and customs handling for cross-border shipments.                       |
+| DHL Europaket           | This service provides cost-effective parcel delivery across European destinations with standard transit times                            |
+| DHL Kleinpaket          | This service provides delivery of small parcels within Germany, offering a lightweight and economical shipping option.                   |
+| Warenpost International | This service provides cost-effective international delivery for small goods with limited tracking and prioritised cross-border handling. |
 
 <Callout icon="💡" theme="default">
   ### _Tip_
