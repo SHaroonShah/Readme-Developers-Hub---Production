@@ -210,3 +210,16 @@ The following key services are provided by the FedEx integration.
 
   _For the most up-to-date carrier services, use the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint._
 </Callout>
+
+## FedEx International Connect
+
+ The following key services are provided by the FedEx International Connect integration.
+
+| Service Name                 | Description |
+| :--------------------------- | :---------- |
+| FIC - Express Priority       |             |
+| FIC - Tracked Worldwide (UK) |             |
+| Royal Mail Tracked 24        |             |
+| Royal Mail Tracked 48        |             |
+
+<br />
