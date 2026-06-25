@@ -237,4 +237,20 @@ The following key services are provided by the InPost integration.
 | Labelled B2C      | Parcel collected from sender and delivered to the receiver. |
 | Labelless Returns | Parcel returned to the sender at a desired PUDO location.   |
 
+<Callout icon="💡" theme="default">
+  ### _Tip_
+
+  _For the most up-to-date carrier services, use the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint._
+</Callout>
+
+## The Delivery Group
+
+The following key services are provided by The Delivery Group integration.
+
+| Service Name | Description |
+| :----------- | :---------- |
+|              |             |
+|              |             |
+|              |             |
+
 <br />
