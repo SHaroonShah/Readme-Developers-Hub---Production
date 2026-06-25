@@ -67,6 +67,20 @@ Express is one of DX's core solutions that provides a fast and secure next-day d
     >
     > *There are no service enhancements for this integration.*
   </Tab>
+  <Tab title="Carrier Services">
+The following key services are provided by the DX Express integration.
+
+| Service Name        | Description                                                                                                                                                                       |
+| :------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Secure Flex**     | This service provides next-day delivery of parcels and packets, primarily to residential addresses across the UK, with secure handling, tracking, and flexible delivery options.  |
+| **Secure Business** | This service provides next-day delivery of parcels and packets to business addresses across the UK and Ireland, with secure handling and delivery during standard business hours. |
+<br />
+<Callout icon="💡" theme="default">
+  ### _Tip_
+
+  _For the most up-to-date carrier services, use the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint._
+</Callout>
+</Tab>
 </Tabs>
 
 ***
