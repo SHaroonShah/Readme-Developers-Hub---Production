@@ -283,11 +283,11 @@ The following key services are provided by the UPS integration.
 
 The following key services are provided by the Yodel integration.
 
-| Service Name | Description |
-| :----------- | :---------- |
-| Yodel Xpect  |             |
-| Yodel Xpress |             |
-| Yodel Xpert  |             |
+| Service Name | Description                                                                                                                                                                                                         |
+| :----------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Yodel Xpect  | This service provides fully tracked parcel delivery with next-day or two-day options, including a two-hour delivery window and in-flight notifications to give recipients greater control over delivery.            |
+| Yodel Xpress | This service provides fast, fully tracked delivery for small to medium parcels, offering next-day or two-day delivery with flexible delivery options and in-flight updates.                                         |
+| Yodel Xpert  | This service provides specialist delivery for high-value or sensitive items, offering enhanced tracking, address-only delivery options, and additional secure handling features for specific delivery requirements. |
 
 <Callout icon="💡" theme="default">
   ### _Tip_
@@ -299,17 +299,17 @@ The following key services are provided by the Yodel integration.
 
 The following key services are provided by the Royal Mail integration.
 
-| Service Name     | Description |
-| :--------------- | :---------- |
-| Tracked 24       |             |
-| Tracked 48       |             |
-| Untracked 24     |             |
-| Untracked 48     |             |
-| 1st Class        |             |
-| 2nd Class        |             |
-| Special Delivery |             |
-| International    |             |
-| Returns          |             |
+| Service Name     | Description                                                                                                                                                                               |
+| :--------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Tracked 24       | This service provides next-working-day delivery within the UK with full end-to-end tracking, delivery notifications, and proof of delivery for faster, time-sensitive shipments.          |
+| Tracked 48       | This service provides UK delivery within 2–3 working days with full tracking, delivery notifications, and proof of delivery for non-urgent shipments.                                     |
+| Untracked 24     | This service provides next-working-day delivery within the UK without full tracking, offering a cost-effective option for standard parcels with delivery confirmation.                    |
+| Untracked 48     | This service provides UK delivery within 2–3 working days without full tracking, offering a low-cost option for less time-sensitive shipments                                             |
+| 1st Class        | This service provides fast, untracked delivery within the UK, typically with a next-working-day delivery aim for letters and parcels.                                                     |
+| 2nd Class        | This service provides cost-effective UK delivery within 2–3 working days for letters and parcels, offering reliable but slower transit compared to 1st Class.                             |
+| Special Delivery | This service provides guaranteed next-working-day delivery within the UK, with time-definite options, full tracking, signature on delivery, and enhanced compensation for valuable items. |
+| International    | This service provides delivery of letters and parcels worldwide, offering a range of tracked and untracked options with varying delivery speeds and customs support.                      |
+| Returns          | This service provides convenient parcel return solutions, allowing customers to send items back to retailers using tracked or standard services with flexible drop-off options.           |
 
 <Callout icon="💡" theme="default">
   ### _Tip_
