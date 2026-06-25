@@ -9,18 +9,18 @@ metadata:
 
 The following key services are provided by the An Post integration.
 
-| Service Name                     | Description                                                                                                |
-| :------------------------------- | :--------------------------------------------------------------------------------------------------------- |
-| Express With Signature - Parcel) | This service provides fast parcel delivery with signature confirmation upon delivery for added security.   |
-| Standard Post                    | This service provides cost-effective standard delivery for non-urgent items within the network.            |
-| Priority Post                    | This service provides faster delivery than standard post with prioritised handling.                        |
-| Returns Service                  | This service provides a simple and efficient process for returning items to the sender.                    |
-| Courier                          | This service provides expedited delivery with enhanced tracking and handling for time-sensitive shipments. |
-| Express With Signature - Packet  | This service provides fast packet delivery with signature confirmation upon delivery.                      |
-| Express                          | This service provides expedited delivery for urgent shipments within the network.                          |
-| Express International            | This service provides fast international delivery with prioritised handling and tracking.                  |
-| Registered Post                  | This service provides secure delivery with signature capture and compensation cover for valuable items     |
-| IBMS/Untracked                   | This service provides basic untracked delivery for low-value or non-priority shipments.                    |
+| Service Name                    | Description                                                                                                                                                                                                                                                                         |
+| :------------------------------ | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Express With Signature - Parcel | This service provides next-working-day or expedited delivery of parcels with tracking and signature confirmation, offering secure, time-sensitive shipping with proof of delivery.                                                                                                  |
+| Standard Post                   | This service provides cost-effective standard delivery for non-urgent items within the network.                                                                                                                                                                                     |
+| Priority Post                   | This service provides faster delivery than standard post with prioritised handling.                                                                                                                                                                                                 |
+| Returns Service                 | This service provides a simple and efficient process for returning items to the sender.                                                                                                                                                                                             |
+| Courier                         | This service provides expedited delivery with enhanced tracking and handling for time-sensitive shipments.                                                                                                                                                                          |
+| Express With Signature - Packet | This service provides fast delivery of lightweight packets with tracking and a signature on delivery, ensuring secure receipt confirmation for smaller consignments.                                                                                                                |
+| Express                         | This service provides expedited delivery for urgent shipments within the network.                                                                                                                                                                                                   |
+| Express International           | This service provides fast international delivery with prioritised handling and tracking.                                                                                                                                                                                           |
+| Registered Post                 | This service provides secure delivery with signature capture and compensation cover for valuable items                                                                                                                                                                              |
+| IBMS/Untracked                  | This service provides cost-effective international business mail delivery for letters, packets, and lightweight parcels without full end-to-end tracking, suitable for non-urgent shipments.This service provides basic untracked delivery for low-value or non-priority shipments. |
 
 <Callout icon="💡" theme="default">
   ### _Tip_
@@ -32,22 +32,161 @@ The following key services are provided by the An Post integration.
 
 The following key services are provided by the DHL Express integration.
 
-| Service Name                        | Description                                                                                                                        |
-| :---------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------- |
-| Express 12:00 documents             | This service provides expedited delivery of documents with a delivery commitment by 12:00 on the next working day where available. |
-| Express Domestic 12:00              | This service provides fast domestic delivery with a guaranteed delivery by 12:00 on the next working day.                          |
-| Express Domestic 9:00               | This service provides priority domestic delivery with a guaranteed delivery by 09:00 on the next working day.                      |
-| Express 12:00 non documents         | This service provides expedited delivery of parcels with a delivery commitment by 12:00 on the next working day where available.   |
-| Express Worldwide documents         | This service provides fast international delivery of documents with prioritised handling and tracking.                             |
-| Express Domestic                    | This service provides expedited next-day delivery within the domestic network.                                                     |
-| Express Worldwide ROW non documents | This service provides fast delivery of parcels to Rest of World destinations with prioritised handling and tracking.               |
-| Express Worldwide EU non documents  | This service provides fast delivery of parcels across European destinations with prioritised handling and tracking.                |
-| Economy Select documents            | This service provides cost-effective international delivery of documents with a longer transit time.                               |
-| Economy Select non documents        | This service provides cost-effective international delivery of parcels with a longer transit time.                                 |
-| Express 09:00 non documents         | This service provides priority delivery of parcels by 09:00 on the next working day.                                               |
-| Express 10:30 non documents         | This service provides expedited delivery of parcels by 10:30 on the next working day.                                              |
-| Express 09:00 documents             | This service provides priority delivery of documents by 09:00 on the next working day.                                             |
-| Express 10:30 documents             | This service provides expedited delivery of documents by 10:30 on the next working day.                                            |
+<Table align={["left","left"]}>
+  <thead>
+    <tr>
+      <th>
+        Service Name
+      </th>
+
+      <th>
+        Description
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        Express 12:00 documents
+      </td>
+
+      <td>
+        <br />
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Express Domestic 12:00
+      </td>
+
+      <td>
+        <br />
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Express Domestic 9:00
+      </td>
+
+      <td>
+        <br />
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Express 12:00 non documents
+      </td>
+
+      <td>
+        <br />
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Express Worldwide documents
+      </td>
+
+      <td>
+        <br />
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Express Domestic
+      </td>
+
+      <td>
+        <br />
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Express Worldwide ROW non documents
+      </td>
+
+      <td>
+        <br />
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Express Worldwide EU non documents
+      </td>
+
+      <td>
+        <br />
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Economy Select documents
+      </td>
+
+      <td>
+        <br />
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Economy Select non documents
+      </td>
+
+      <td>
+        <br />
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Express 09:00 non documents
+      </td>
+
+      <td>
+        <br />
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Express 10:30 non documents
+      </td>
+
+      <td>
+        <br />
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Express 09:00 documents
+      </td>
+
+      <td>
+        <br />
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Express 10:30 documents
+      </td>
+
+      <td>
+        <br />
+      </td>
+    </tr>
+  </tbody>
+</Table>
 
 <Callout icon="💡" theme="default">
   ### _Tip_
