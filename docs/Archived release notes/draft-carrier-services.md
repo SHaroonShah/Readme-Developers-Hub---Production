@@ -262,7 +262,7 @@ The following key services are provided by The Delivery Group integration.
 
 ## UPS
 
-The following key services are provided by The Delivery Group integration.
+The following key services are provided by the UPS integration.
 
 | Service Name               | Description |
 | :------------------------- | :---------- |
@@ -272,6 +272,22 @@ The following key services are provided by The Delivery Group integration.
 | UPS Worldwide Express Plus |             |
 | UPS Worldwide Saver        |             |
 | UPS Economy DDP            |             |
+
+<Callout icon="💡" theme="default">
+  ### _Tip_
+
+  _For the most up-to-date carrier services, use the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint._
+</Callout>
+
+## Yodel
+
+The following key services are provided by the Yodel integration.
+
+| Service Name | Description |
+| :----------- | :---------- |
+| Yodel Xpect  |             |
+| Yodel Xpress |             |
+| Yodel Xpert  |             |
 
 <Callout icon="💡" theme="default">
   ### _Tip_
