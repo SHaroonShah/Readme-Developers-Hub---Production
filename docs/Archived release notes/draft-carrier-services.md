@@ -247,12 +247,12 @@ The following key services are provided by the InPost integration.
 
 The following key services are provided by The Delivery Group integration.
 
-| Service Name | Description |
-| :----------- | :---------- |
-| UTrak        |             |
-| ETrak        |             |
-| UK 24 Parcel |             |
-| UK 48 Parcel |             |
+| Service Name | Description                                                                                                                                                                                           |
+| :----------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| UTrak        | This service provides tracked UK delivery for e-commerce parcels, typically delivered within 2–3 working days, offering door-to-door tracking, flexible collections, and proof of delivery.           |
+| ETrak        | This service provides international tracked parcel delivery, enabling cross-border shipping with consolidated tracking, final-mile carrier integration, and delivery to over 220 global destinations. |
+| UK 24 Parcel | This service provides next-working-day delivery within the UK, offering full tracking, proof of delivery, and reliable transit for parcels up to standard weight limits.                              |
+| UK 48 Parcel | This service provides cost-effective UK delivery within two working days, including tracking and proof of delivery for less time-sensitive shipments.                                                 |
 
 <Callout icon="💡" theme="default">
   ### _Tip_
