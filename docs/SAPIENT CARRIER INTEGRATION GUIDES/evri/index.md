@@ -95,6 +95,23 @@ The EVRi integration into the SAPIENT platform enhances our shipping capabilitie
       * *[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services)*
     </Callout>
   </Tab>
+  <Tab title="Carrier Services">
+The following key services are provided by the Evri integration.
+
+| Service Name          | Description                                                                                                                                                                                   |
+| :-------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **International**     | This service provides international parcel delivery to over 200 countries and territories, offering global shipping with tracking and customs handling support.                               |
+| **Next Day Delivery** | This service provides next-working-day delivery across the UK, including tracking, delivery notifications, and weekend delivery options depending on location                                 |
+| **Returns**           | This service provides a convenient parcel returns solution, allowing customers to send items back to retailers via courier collection, ParcelShops, or lockers with full tracking visibility. |
+| **Sunday Service**    | This service provides parcel delivery on Sundays, offering extended weekend delivery coverage with tracking and flexible drop-off and collection options in supported areas.                  |
+| **Standard Delivery** | This service provides cost-effective parcel delivery within the UK, typically delivered within 2–4 working days with full tracking and flexible sending options.                              |
+<br />
+<Callout icon="💡" theme="default">
+  ### _Tip_
+
+  _For the most up-to-date carrier services, use the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint._
+</Callout>
+</Tab>
 </Tabs>
 
 ***
