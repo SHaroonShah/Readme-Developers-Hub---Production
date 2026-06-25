@@ -249,8 +249,13 @@ The following key services are provided by The Delivery Group integration.
 
 | Service Name | Description |
 | :----------- | :---------- |
-|              |             |
-|              |             |
-|              |             |
+| UTrak        |             |
+| ETrak        |             |
+| UK 24 Parcel |             |
+| UK 48 Parcel |             |
 
-<br />
+<Callout icon="💡" theme="default">
+  ### _Tip_
+
+  _For the most up-to-date carrier services, use the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint._
+</Callout>
