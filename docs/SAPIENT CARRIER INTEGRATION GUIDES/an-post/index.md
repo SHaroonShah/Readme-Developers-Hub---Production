@@ -72,6 +72,26 @@ The integration of An Post, Ireland's national postal service, into the SAPIENT 
   </Tab>
 
   <Tab title="Carrier Services" />
+The following key services are provided by the An Post integration.
+
+| Service Name                        | Description                                                                                                                                                                                                                                                                         |
+| :---------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Express With Signature - Parcel** | This service provides next-working-day or expedited delivery of parcels with tracking and signature confirmation, offering secure, time-sensitive shipping with proof of delivery.                                                                                                  |
+| **Standard Post**                   | This service provides cost-effective standard delivery for non-urgent items within the network.                                                                                                                                                                                     |
+| **Priority Post**                   | This service provides faster delivery than standard post with prioritised handling.                                                                                                                                                                                                 |
+| **Returns Service**                 | This service provides a simple and efficient process for returning items to the sender.                                                                                                                                                                                             |
+| **Courier**                         | This service provides expedited delivery with enhanced tracking and handling for time-sensitive shipments.                                                                                                                                                                          |
+| **Express With Signature - Packet** | This service provides fast delivery of lightweight packets with tracking and a signature on delivery, ensuring secure receipt confirmation for smaller consignments.                                                                                                                |
+| **Express**                         | This service provides expedited delivery for urgent shipments within the network.                                                                                                                                                                                                   |
+| **Express International**           | This service provides fast international delivery with prioritised handling and tracking.                                                                                                                                                                                           |
+| **Registered Post**                 | This service provides secure delivery with signature capture and compensation cover for valuable items                                                                                                                                                                              |
+| **IBMS/Untracked**                  | This service provides cost-effective international business mail delivery for letters, packets, and lightweight parcels without full end-to-end tracking, suitable for non-urgent shipments.This service provides basic untracked delivery for low-value or non-priority shipments. |
+<br />
+<Callout icon="💡" theme="default">
+  ### _Tip_
+
+  _For the most up-to-date carrier services, use the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint._
+</Callout>
 </Tabs>
 
 ***
