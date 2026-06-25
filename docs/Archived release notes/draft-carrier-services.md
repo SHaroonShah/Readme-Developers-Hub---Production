@@ -23,7 +23,7 @@ The following key services are provided by the An Post integration.
 | IBMS/Untracked                   |                                                                                                                                                                                                                                                                                         |
 
 <Callout icon="💡" theme="default">
-   ### _Tip_
+  ### _Tip_
 
   _For the most up-to-date carrier services, use the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint._
 </Callout>
@@ -163,6 +163,47 @@ The following key services are provided by the DX Freight integration.
 | Overnight          |             |
 | Saturday 9:30      |             |
 | Saturday           |             |
+
+<Callout icon="💡" theme="default">
+  ### _Tip_
+
+  _For the most up-to-date carrier services, use the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint._
+</Callout>
+
+## Evri
+
+The following key services are provided by the Evri integration.
+
+| Service Name      | Description |
+| :---------------- | :---------- |
+| International     |             |
+| Next Day Delivery |             |
+| Returns           |             |
+| Sunday Service    |             |
+| Standard Delivery |             |
+
+<Callout icon="💡" theme="default">
+  ### _Tip_
+
+  _For the most up-to-date carrier services, use the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint._
+</Callout>
+
+## FedEx 
+
+The following key services are provided by the FedEx integration.
+
+| Service Name                           | Description |
+| :------------------------------------- | :---------- |
+| FedEx® Economy                         |             |
+| FedEx® First                           |             |
+| FedEx® International Connect Plus      |             |
+| FedEx International Economy®           |             |
+| FedEx International First®             |             |
+| FedEx International Priority®          |             |
+| FedEx® International Priority® Express |             |
+| FedEx® Priority Express                |             |
+| FedEx® Priority                        |             |
+| FedEx® Regional Economy                |             |
 
 <Callout icon="💡" theme="default">
   ### _Tip_
