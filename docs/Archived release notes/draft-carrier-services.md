@@ -192,18 +192,18 @@ The following key services are provided by the Evri integration.
 
 The following key services are provided by the FedEx integration.
 
-| Service Name                           | Description |
-| :------------------------------------- | :---------- |
-| FedEx® Economy                         |             |
-| FedEx® First                           |             |
-| FedEx® International Connect Plus      |             |
-| FedEx International Economy®           |             |
-| FedEx International First®             |             |
-| FedEx International Priority®          |             |
-| FedEx® International Priority® Express |             |
-| FedEx® Priority Express                |             |
-| FedEx® Priority                        |             |
-| FedEx® Regional Economy                |             |
+| Service Name                          | Description                                                                                                                                                                                         |
+| :------------------------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| FedEx® Economy                        | This service provides cost-effective delivery for non-urgent shipments, typically delivered within a few working days with full tracking and reliable transit times.                                |
+| FedEx® First                          | This service provides early-morning, next-working-day delivery for urgent shipments, ensuring arrival at the start of the business day with time-definite delivery.                                 |
+| FedEx® International Connect Plus     | This service provides fast, cost-effective international e-commerce delivery with day-definite transit times, customs clearance, full tracking, and delivery management across global destinations. |
+| FedEx International Economy®          | This service provides cost-effective international delivery for less urgent shipments, typically completed within 2–5 business days with full tracking and customs clearance.                       |
+| FedEx International First®            | This service provides early-morning international delivery to selected destinations, offering time-definite delivery as early as 8:00–10:00 AM for urgent shipments.                                |
+| FedEx International Priority®         | This service provides fast international delivery within 1–3 business days, offering reliable, end-of-day delivery with tracking and customs-cleared processing.                                    |
+| FedEx International Priority® Express | This service provides expedited international delivery with time-definite arrival, typically by mid-morning or noon within 1–3 business days, including tracking and customs clearance.             |
+| FedEx® Priority Express               | This service provides time-definite, next-working-day delivery for urgent shipments, ensuring early delivery with full tracking and high-priority handling across the network.                      |
+| FedEx® Priority                       | This service provides fast, reliable delivery for time-sensitive shipments with delivery typically within 1–5 working days, including tracking and priority handling.                               |
+| FedEx® Regional Economy               | This service provides cost-effective, day-definite delivery within regions such as Europe, using road transport for less time-sensitive shipments with full tracking and customs support.           |
 
 <Callout icon="💡" theme="default">
   ### _Tip_
@@ -215,12 +215,12 @@ The following key services are provided by the FedEx integration.
 
  The following key services are provided by the FedEx International Connect integration.
 
-| Service Name                 | Description |
-| :--------------------------- | :---------- |
-| FIC - Express Priority       |             |
-| FIC - Tracked Worldwide (UK) |             |
-| Royal Mail Tracked 24        |             |
-| Royal Mail Tracked 48        |             |
+| Service Name                 | Description                                                                                                                                                                                                                                                 |
+| :--------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| FIC - Express Priority       | This service provides expedited international delivery for e-commerce shipments, offering faster transit times than standard International Connect services, with end-to-end tracking, customs clearance, and priority handling across global destinations. |
+| FIC - Tracked Worldwide (UK) | This service provides cost-effective international e-commerce delivery from the UK, offering global coverage, end-to-end tracking, and customs-cleared delivery for less urgent shipments to over 220 countries and territories.                            |
+| Royal Mail Tracked 24        | This service provides next-working-day delivery within the UK with full end-to-end tracking, delivery notifications, and proof of delivery, offering a fast and reliable domestic shipping solution.                                                        |
+| Royal Mail Tracked 48        | This service provides cost-effective UK delivery within 2–3 working days with full tracking, delivery notifications, and proof of delivery, suitable for less urgent domestic shipments.                                                                    |
 
 <Callout icon="💡" theme="default">
   ### _Tip_
@@ -232,10 +232,10 @@ The following key services are provided by the FedEx integration.
 
 The following key services are provided by the InPost integration.
 
-| Service Name      | Description                                                 |
-| :---------------- | :---------------------------------------------------------- |
-| Labelled B2C      | Parcel collected from sender and delivered to the receiver. |
-| Labelless Returns | Parcel returned to the sender at a desired PUDO location.   |
+| Service Name      | Description                                                                                                                                                                                                                                                                    |
+| :---------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Labelled B2C      | This service provides business-to-consumer parcel delivery using a printed shipping label, where the sender generates and attaches the label before drop-off at an InPost locker or shop.                                                                                      |
+| Labelless Returns | This service provides a label-free returns solution using a QR code, allowing customers to drop off parcels at the desired <Glossary>PUDO</Glossary> location, such as lockers or shops without printing labels, with tracking and labelling handled by InPost during transit. |
 
 <Callout icon="💡" theme="default">
   ### _Tip_
