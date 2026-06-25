@@ -68,6 +68,22 @@ YODEL is fully integrated into the Intersoft SAPIENT platform, allowing business
     >
     > *There are no service enhancements documented for this integration.*
   </Tab>
+  <Tab title="Carrier Services">
+The following key services are provided by the Yodel integration.
+
+| Service Name     | Description                                                                                                                                                                                                         |
+| :--------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Yodel Xpect**  | This service provides fully tracked parcel delivery with next-day or two-day options, including a two-hour delivery window and in-flight notifications to give recipients greater control over delivery.            |
+| **Yodel Xpress** | This service provides fast, fully tracked delivery for small to medium parcels, offering next-day or two-day delivery with flexible delivery options and in-flight updates.                                         |
+| **Yodel Xpert**  | This service provides specialist delivery for high-value or sensitive items, offering enhanced tracking, address-only delivery options, and additional secure handling features for specific delivery requirements. |
+<br />
+<Callout icon="💡" theme="default">
+  ### _Tip_
+
+  _For the most up-to-date carrier services, use the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint._
+</Callout>
+
+</Tab>
 </Tabs>
 
 ***
