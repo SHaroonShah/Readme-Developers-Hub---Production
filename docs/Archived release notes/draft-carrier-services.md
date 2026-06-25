@@ -137,10 +137,10 @@ The following key services are provided by the DPD UK integration.
 
 The following key services are provided by the DX Express integration.
 
-| Service Name    | Description |
-| :-------------- | :---------- |
-| Secure Flex     |             |
-| Secure Business |             |
+| Service Name    | Description                                                                                                                                                                       |
+| :-------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Secure Flex     | This service provides next-day delivery of parcels and packets, primarily to residential addresses across the UK, with secure handling, tracking, and flexible delivery options.  |
+| Secure Business | This service provides next-day delivery of parcels and packets to business addresses across the UK and Ireland, with secure handling and delivery during standard business hours. |
 
 <Callout icon="💡" theme="default">
   ### _Tip_
@@ -152,17 +152,17 @@ The following key services are provided by the DX Express integration.
 
 The following key services are provided by the DX Freight integration.
 
-| Service Name       | Description |
-| :----------------- | :---------- |
-| 3Day               |             |
-| Overnight 9:30     |             |
-| Overnight pre noon |             |
-| 2Man Overnight     |             |
-| 2Man Standard      |             |
-| 2Man Saturday      |             |
-| Overnight          |             |
-| Saturday 9:30      |             |
-| Saturday           |             |
+| Service Name       | Description                                                                                                                                                                          |
+| :----------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 3Day               | This service provides reliable delivery of freight within three working days, suitable for non-urgent shipments of heavy or irregular items with full tracking visibility.           |
+| Overnight 9:30     | This service provides next-working-day delivery of freight by 9:30 AM, ensuring early arrival for time-critical shipments with full tracking and confirmation.                       |
+| Overnight pre noon | This service provides next-working-day delivery of freight before 12:00 PM, offering a timed delivery option for urgent consignments requiring arrival before midday.                |
+| 2Man Overnight     | This service provides next-working-day delivery of large or heavy items requiring two-person handling, ensuring safe transport and placement for oversized consignments              |
+| 2Man Standard      | This service provides scheduled delivery of large or heavy items using a two-person crew, offering a cost-effective solution for non-urgent shipments requiring specialist handling. |
+| 2Man Saturday      | This service provides Saturday delivery of large or heavy items using a two-person crew, enabling convenient weekend delivery with specialist handling for oversized goods.          |
+| Overnight          | This service provides next-working-day delivery of freight, offering fast and reliable transport for heavy, bulky, or irregular shipments with full tracking.                        |
+| Saturday 9:30      | This service provides Saturday delivery of freight by 9:30 AM, ensuring early weekend delivery for time-sensitive consignments.                                                      |
+| Saturday           | This service provides standard Saturday delivery of freight, enabling weekend delivery of heavy or bulky items with full tracking and reliable handling.                             |
 
 <Callout icon="💡" theme="default">
   ### _Tip_
