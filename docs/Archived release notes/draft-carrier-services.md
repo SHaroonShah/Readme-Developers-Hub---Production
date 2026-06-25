@@ -222,4 +222,19 @@ The following key services are provided by the FedEx integration.
 | Royal Mail Tracked 24        |             |
 | Royal Mail Tracked 48        |             |
 
+<Callout icon="💡" theme="default">
+  ### _Tip_
+
+  _For the most up-to-date carrier services, use the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint._
+</Callout>
+
+## InPost
+
+The following key services are provided by the InPost integration.
+
+| Service Name      | Description                                                 |
+| :---------------- | :---------------------------------------------------------- |
+| Labelled B2C      | Parcel collected from sender and delivered to the receiver. |
+| Labelless Returns | Parcel returned to the sender at a desired PUDO location.   |
+
 <br />
