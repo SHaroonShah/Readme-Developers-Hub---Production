@@ -174,13 +174,13 @@ The following key services are provided by the DX Freight integration.
 
 The following key services are provided by the Evri integration.
 
-| Service Name      | Description |
-| :---------------- | :---------- |
-| International     |             |
-| Next Day Delivery |             |
-| Returns           |             |
-| Sunday Service    |             |
-| Standard Delivery |             |
+| Service Name      | Description                                                                                                                                                                                   |
+| :---------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| International     | This service provides international parcel delivery to over 200 countries and territories, offering global shipping with tracking and customs handling support.                               |
+| Next Day Delivery | This service provides next-working-day delivery across the UK, including tracking, delivery notifications, and weekend delivery options depending on location                                 |
+| Returns           | This service provides a convenient parcel returns solution, allowing customers to send items back to retailers via courier collection, ParcelShops, or lockers with full tracking visibility. |
+| Sunday Service    | This service provides parcel delivery on Sundays, offering extended weekend delivery coverage with tracking and flexible drop-off and collection options in supported areas.                  |
+| Standard Delivery | This service provides cost-effective parcel delivery within the UK, typically delivered within 2–4 working days with full tracking and flexible sending options.                              |
 
 <Callout icon="💡" theme="default">
   ### _Tip_
