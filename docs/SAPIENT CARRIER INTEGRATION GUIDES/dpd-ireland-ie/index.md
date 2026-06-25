@@ -63,13 +63,13 @@ The DPD IE integration provides the following additional features:
 
 The following key services are provided by the DPD Ireland integration.
 
-| Service Name                       | Description                                                                                                                                              |
-| :--------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **DPD Saturday Delivery**          | This service provides domestic delivery service with parcel delivery scheduled for Saturday.                                                             |
-| **DPD Next Day**                   | This service provides domestic parcel delivery typically within the next working day.                                                                    |
-| **DPD Air Express**                | This service provides international air-based express service offering fast, next‑day delivery to global destinations.                                   |
-| **DPD Classic**                    | This service provides cost-effective road service with reliable delivery, including two‑day transit for routes such as Northern Ireland to Great Britain |
-| **DPD Classic International Road** | This service provides international road-based parcel delivery across Europe and beyond, offering economical and reliable transit times.                 |
+| Service Name                  | Description                                                                                                                                                                                                           |
+| :---------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **DPD Saturday Delivery**     | This service provides weekend delivery of parcels on Saturdays, enabling businesses and recipients to receive shipments outside standard weekday delivery schedules.                                                  |
+| **DPD Next Day**              | This service provides fast, next-working-day delivery within Ireland and selected regions, ensuring parcels arrive quickly with reliable transit times and full tracking visibility.                                  |
+| **DPD Air Express**           | This service provides urgent international delivery via an established air network, offering next-day delivery to many destinations and worldwide coverage to over 200 countries with full tracking.                  |
+| **DPD Classic**               | This service provides reliable, cost-effective road-based parcel delivery across Ireland and Europe, offering fast standard transit times, full tracking, and high-volume shipping capabilities.                      |
+| **DPD Classic International** | This service provides international parcel delivery through DPD’s road and air network, combining competitive pricing with reliable transit times, full tracking, and coverage across Europe and global destinations. |
 
 <Callout icon="💡" theme="default">
   ### _Tip_
