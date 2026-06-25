@@ -64,34 +64,29 @@ The integration of An Post, Ireland's national postal service, into the SAPIENT 
       </Card>
     </Cards>
   </Tab>
+  <Tab title="Carrier Services">
+    The following key services are provided by the Royal Mail integration.
 
-  <Tab title="Service Enhancements">
-    > 📘 *Note*
-    >
-    > *There are no service enhancements for this integration.*
+    | Service Name         | Description                                                                                                                                                                               |
+    | :------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+    | **Tracked 24**       | This service provides next-working-day delivery within the UK with full end-to-end tracking, delivery notifications, and proof of delivery for faster, time-sensitive shipments.          |
+    | **Tracked 48**       | This service provides UK delivery within 2–3 working days with full tracking, delivery notifications, and proof of delivery for non-urgent shipments.                                     |
+    | **Untracked 24**     | This service provides next-working-day delivery within the UK without full tracking, offering a cost-effective option for standard parcels with delivery confirmation.                    |
+    | **Untracked 48**     | This service provides UK delivery within 2–3 working days without full tracking, offering a low-cost option for less time-sensitive shipments                                             |
+    | **1st Class**        | This service provides fast, untracked delivery within the UK, typically with a next-working-day delivery aim for letters and parcels.                                                     |
+    | **2nd Class**        | This service provides cost-effective UK delivery within 2–3 working days for letters and parcels, offering reliable but slower transit compared to 1st Class.                             |
+    | **Special Delivery** | This service provides guaranteed next-working-day delivery within the UK, with time-definite options, full tracking, signature on delivery, and enhanced compensation for valuable items. |
+    | **International**    | This service provides delivery of letters and parcels worldwide, offering a range of tracked and untracked options with varying delivery speeds and customs support.                      |
+    | **Returns**          | This service provides convenient parcel return solutions, allowing customers to send items back to retailers using tracked or standard services with flexible drop-off options.           |
+
+    <br />
+
+    <Callout icon="💡" theme="default">
+      ### *Tip*
+
+      *For the most up-to-date carrier services, use the[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint.*
+    </Callout>
   </Tab>
-
-  <Tab title="Carrier Services" />
-The following key services are provided by the An Post integration.
-
-| Service Name                        | Description                                                                                                                                                                                                                                                                         |
-| :---------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Express With Signature - Parcel** | This service provides next-working-day or expedited delivery of parcels with tracking and signature confirmation, offering secure, time-sensitive shipping with proof of delivery.                                                                                                  |
-| **Standard Post**                   | This service provides cost-effective standard delivery for non-urgent items within the network.                                                                                                                                                                                     |
-| **Priority Post**                   | This service provides faster delivery than standard post with prioritised handling.                                                                                                                                                                                                 |
-| **Returns Service**                 | This service provides a simple and efficient process for returning items to the sender.                                                                                                                                                                                             |
-| **Courier**                         | This service provides expedited delivery with enhanced tracking and handling for time-sensitive shipments.                                                                                                                                                                          |
-| **Express With Signature - Packet** | This service provides fast delivery of lightweight packets with tracking and a signature on delivery, ensuring secure receipt confirmation for smaller consignments.                                                                                                                |
-| **Express**                         | This service provides expedited delivery for urgent shipments within the network.                                                                                                                                                                                                   |
-| **Express International**           | This service provides fast international delivery with prioritised handling and tracking.                                                                                                                                                                                           |
-| **Registered Post**                 | This service provides secure delivery with signature capture and compensation cover for valuable items                                                                                                                                                                              |
-| **IBMS/Untracked**                  | This service provides cost-effective international business mail delivery for letters, packets, and lightweight parcels without full end-to-end tracking, suitable for non-urgent shipments.This service provides basic untracked delivery for low-value or non-priority shipments. |
-<br />
-<Callout icon="💡" theme="default">
-  ### _Tip_
-
-  _For the most up-to-date carrier services, use the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint._
-</Callout>
 </Tabs>
 
 ***
