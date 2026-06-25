@@ -259,3 +259,22 @@ The following key services are provided by The Delivery Group integration.
 
   _For the most up-to-date carrier services, use the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint._
 </Callout>
+
+## UPS
+
+The following key services are provided by The Delivery Group integration.
+
+| Service Name               | Description |
+| :------------------------- | :---------- |
+| UPS World Express          |             |
+| UPS Standard               |             |
+| UPS Economy DDU            |             |
+| UPS Worldwide Express Plus |             |
+| UPS Worldwide Saver        |             |
+| UPS Economy DDP            |             |
+
+<Callout icon="💡" theme="default">
+  ### _Tip_
+
+  _For the most up-to-date carrier services, use the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint._
+</Callout>
