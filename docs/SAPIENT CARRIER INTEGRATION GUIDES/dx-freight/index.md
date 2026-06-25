@@ -93,6 +93,27 @@ Freight is one of DX's core solutions, also referred to as _IDW_ (Irregular Dime
     >
     > *There are no service enhancements for this integration.*
   </Tab>
+  <Tab title="Carrier Services">
+The following key services are provided by the DX Freight integration.
+
+| Service Name           | Description                                                                                                                                                                          |
+| :--------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **3Day**               | This service provides reliable delivery of freight within three working days, suitable for non-urgent shipments of heavy or irregular items with full tracking visibility.           |
+| **Overnight 9:30**     | This service provides next-working-day delivery of freight by 9:30 AM, ensuring early arrival for time-critical shipments with full tracking and confirmation.                       |
+| **Overnight pre noon** | This service provides next-working-day delivery of freight before 12:00 PM, offering a timed delivery option for urgent consignments requiring arrival before midday.                |
+| **2Man Overnight**     | This service provides next-working-day delivery of large or heavy items requiring two-person handling, ensuring safe transport and placement for oversized consignments              |
+| **2Man Standard**      | This service provides scheduled delivery of large or heavy items using a two-person crew, offering a cost-effective solution for non-urgent shipments requiring specialist handling. |
+| **2Man Saturday**      | This service provides Saturday delivery of large or heavy items using a two-person crew, enabling convenient weekend delivery with specialist handling for oversized goods.          |
+| **Overnight**          | This service provides next-working-day delivery of freight, offering fast and reliable transport for heavy, bulky, or irregular shipments with full tracking.                        |
+| **Saturday 9:30**      | This service provides Saturday delivery of freight by 9:30 AM, ensuring early weekend delivery for time-sensitive consignments.                                                      |
+| **Saturday**           | This service provides standard Saturday delivery of freight, enabling weekend delivery of heavy or bulky items with full tracking and reliable handling.                             |
+<br />
+<Callout icon="💡" theme="default">
+  ### _Tip_
+
+  _For the most up-to-date carrier services, use the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint._
+</Callout>
+</Tab>
 </Tabs>
 
 ***
