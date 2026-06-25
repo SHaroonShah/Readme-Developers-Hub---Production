@@ -77,13 +77,13 @@ The following key services are provided by the DHL Germany integration.
 
 The following key services are provided by the DPD Ireland integration.
 
-| Service Name              | Description |
-| :------------------------ | :---------- |
-| DPD Saturday Delivery     |             |
-| DPD Next Day              |             |
-| DPD Air Express           |             |
-| DPD Classic               |             |
-| DPD Classic International |             |
+| Service Name              | Description                                                                                                                                                                                                           |
+| :------------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| DPD Saturday Delivery     | This service provides weekend delivery of parcels on Saturdays, enabling businesses and recipients to receive shipments outside standard weekday delivery schedules.                                                  |
+| DPD Next Day              | This service provides fast, next-working-day delivery within Ireland and selected regions, ensuring parcels arrive quickly with reliable transit times and full tracking visibility.                                  |
+| DPD Air Express           | This service provides urgent international delivery via an established air network, offering next-day delivery to many destinations and worldwide coverage to over 200 countries with full tracking.                  |
+| DPD Classic               | This service provides reliable, cost-effective road-based parcel delivery across Ireland and Europe, offering fast standard transit times, full tracking, and high-volume shipping capabilities.                      |
+| DPD Classic International | This service provides international parcel delivery through DPD’s road and air network, combining competitive pricing with reliable transit times, full tracking, and coverage across Europe and global destinations. |
 
 <Callout icon="💡" theme="default">
   ### _Tip_
@@ -95,16 +95,16 @@ The following key services are provided by the DPD Ireland integration.
 
 The following key services are provided by the DPD Netherlands integration.
 
-| Service Name               | Description                       |
-| :------------------------- | :-------------------------------- |
-| DPD Business Normal Parcel |                                   |
-| DPD Business Small Parcel  |                                   |
-| DPD Home Normal Parcel     |                                   |
-| DPD Home Small Parcel      |                                   |
-| DPD ParcelLetter           | Only for delivery to NL addresses |
-| DPD Shop Return            |                                   |
-| DPD Home Saturday          |                                   |
-| DPD Business Saturday      |                                   |
+| Service Name                                         | Description                                                                                                                                                                                        |
+| :--------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| DPD Business Normal Parcel                           | This service provides standard business-to-business delivery for parcels up to 31.5 kg, offering reliable transport across the Netherlands and Europe with tracking and multiple delivery attempts |
+| DPD Business Small Parcel                            | This service provides business-to-business delivery for lightweight parcels up to 3 kg, enabling cost-effective shipping of smaller consignments with full tracking and reliable transit.          |
+| DPD Home Normal Parcel                               | This service provides home delivery for standard parcels up to 31.5 kg, including Predict notifications with a 1-hour delivery window and options for recipients to manage delivery preferences.   |
+| DPD Home Small Parcel                                | This service provides home delivery for lightweight parcels up to 3 kg, offering a convenient and cost-efficient solution with tracking and flexible delivery options for recipients.              |
+| DPD ParcelLetter (Only for delivery to NL addresses) | This service provides mailbox delivery for very small parcels up to 1 kg, allowing items to be delivered through the letterbox without requiring recipient presence within Netherlands only.       |
+| DPD Shop Return                                      | This service provides a flexible returns solution that allows customers to return parcels via DPD Parcel Shops using printed or digital labels, including QR code options without printing.        |
+| DPD Home Saturday                                    | This service provides home delivery on Saturdays, enabling parcels collected during the week to be delivered to residential addresses at the weekend with full tracking visibility.                |
+| DPD Business Saturday                                | This service provides business delivery on Saturdays, allowing shipments to be delivered outside standard weekday business hours for improved flexibility and continuity of operations.            |
 
 <Callout icon="💡" theme="default">
   ### _Tip_
