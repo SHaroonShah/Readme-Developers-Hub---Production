@@ -59,13 +59,13 @@ The following key services are provided by the DHL Express integration.
 
 The following key services are provided by the DHL Germany integration.
 
-| Service Name            | Description                                                                                                                              |
-| :---------------------- | :--------------------------------------------------------------------------------------------------------------------------------------- |
-| DHL Paket               | This service provides reliable domestic parcel delivery within Germany with tracking and standard transit times.                         |
-| DHL Paket International | This service provides international parcel delivery with tracking and customs handling for cross-border shipments.                       |
-| DHL Europaket           | This service provides cost-effective parcel delivery across European destinations with standard transit times                            |
-| DHL Kleinpaket          | This service provides delivery of small parcels within Germany, offering a lightweight and economical shipping option.                   |
-| Warenpost International | This service provides cost-effective international delivery for small goods with limited tracking and prioritised cross-border handling. |
+| Service Name            | Description                                                                                                                                                                                     |
+| :---------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| DHL Paket               | This service provides reliable domestic parcel delivery within Germany, typically within 1–2 working days, with tracking, liability cover, and flexible delivery options.                       |
+| DHL Paket International | This service provides international parcel delivery to over 220 countries and territories, offering door-to-door shipping with tracking, customs handling, and reliable transit times.          |
+| DHL Europaket           | This service provides reliable parcel delivery across European destinations, offering cross-border shipping with defined transit times, tracking, and customs support where required.           |
+| DHL Kleinpaket          | This service provides cost-effective shipping for small, lightweight goods within Germany, including tracking, delivery confirmation, and liability coverage for low-value items.               |
+| Warenpost International | This service provides affordable international delivery for small, lightweight goods, offering flexible shipping options with optional tracking and customs processing for global destinations. |
 
 <Callout icon="💡" theme="default">
   ### _Tip_
