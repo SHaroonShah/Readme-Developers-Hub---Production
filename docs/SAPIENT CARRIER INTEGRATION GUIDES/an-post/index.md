@@ -65,27 +65,53 @@ The integration of An Post, Ireland's national postal service, into the SAPIENT 
     </Cards>
   </Tab>
   <Tab title="Carrier Services">
-    The following key services are provided by the Royal Mail integration.
+ The following key services are provided by the An Post integration.
 
-    | Service Name         | Description                                                                                                                                                                               |
-    | :------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-    | **Tracked 24**       | This service provides next-working-day delivery within the UK with full end-to-end tracking, delivery notifications, and proof of delivery for faster, time-sensitive shipments.          |
-    | **Tracked 48**       | This service provides UK delivery within 2–3 working days with full tracking, delivery notifications, and proof of delivery for non-urgent shipments.                                     |
-    | **Untracked 24**     | This service provides next-working-day delivery within the UK without full tracking, offering a cost-effective option for standard parcels with delivery confirmation.                    |
-    | **Untracked 48**     | This service provides UK delivery within 2–3 working days without full tracking, offering a low-cost option for less time-sensitive shipments                                             |
-    | **1st Class**        | This service provides fast, untracked delivery within the UK, typically with a next-working-day delivery aim for letters and parcels.                                                     |
-    | **2nd Class**        | This service provides cost-effective UK delivery within 2–3 working days for letters and parcels, offering reliable but slower transit compared to 1st Class.                             |
-    | **Special Delivery** | This service provides guaranteed next-working-day delivery within the UK, with time-definite options, full tracking, signature on delivery, and enhanced compensation for valuable items. |
-    | **International**    | This service provides delivery of letters and parcels worldwide, offering a range of tracked and untracked options with varying delivery speeds and customs support.                      |
-    | **Returns**          | This service provides convenient parcel return solutions, allowing customers to send items back to retailers using tracked or standard services with flexible drop-off options.           |
+| Service Name                        | Description                                                                                                                                                                                                                                                                         |
+| :---------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Express With Signature - Parcel** | This service provides next-working-day or expedited delivery of parcels with tracking and signature confirmation, offering secure, time-sensitive shipping with proof of delivery.                                                                                                  |
+| **Standard Post**                   | This service provides cost-effective standard delivery for non-urgent items within the network.                                                                                                                                                                                     |
+| **Priority Post**                   | This service provides faster delivery than standard post with prioritised handling.                                                                                                                                                                                                 |
+| **Returns Service**                 | This service provides a simple and efficient process for returning items to the sender.                                                                                                                                                                                             |
+| **Courier**                         | This service provides expedited delivery with enhanced tracking and handling for time-sensitive shipments.                                                                                                                                                                          |
+| **Express With Signature - Packet** | This service provides fast delivery of lightweight packets with tracking and a signature on delivery, ensuring secure receipt confirmation for smaller consignments.                                                                                                                |
+| **Express**                         | This service provides expedited delivery for urgent shipments within the network.                                                                                                                                                                                                   |
+| **Express International**           | This service provides fast international delivery with prioritised handling and tracking.                                                                                                                                                                                           |
+| **Registered Post**                 | This service provides secure delivery with signature capture and compensation cover for valuable items                                                                                                                                                                              |
+| **IBMS/Untracked**                  | This service provides cost-effective international business mail delivery for letters, packets, and lightweight parcels without full end-to-end tracking, suitable for non-urgent shipments.This service provides basic untracked delivery for low-value or non-priority shipments. |
 
-    <br />
+<Callout icon="💡" theme="default">
+  ### _Tip_
 
-    <Callout icon="💡" theme="default">
-      ### *Tip*
+  _For the most up-to-date carrier services, use the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint._
+</Callout>
 
-      *For the most up-to-date carrier services, use the[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint.*
-    </Callout>
+## DHL Express
+
+The following key services are provided by the DHL Express integration.
+
+| Service Name                            | Description                                                                                                                                                                                                 |
+| :-------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Express 12:00 documents**             | This service provides time-definite international delivery of document shipments before 12:00 PM on the next possible business day, with full tracking and expedited handling.                              |
+| **Express Domestic 12:00**              | This service provides time-definite domestic delivery before 12:00 PM on the next working day, with full tracking and priority handling for urgent shipments.                                               |
+| **Express Domestic 9:00**               | This service provides early-morning domestic delivery before 9:00 AM on the next working day, ensuring urgent shipments arrive at the start of the business day.                                            |
+| **Express 12:00 non documents**         | This service provides time-definite international delivery of parcels before 12:00 PM on the next possible business day, with customs clearance and full tracking visibility.                               |
+| **Express Worldwide documents**         | This service provides fast international delivery of document shipments by the end of the next possible business day, with door-to-door service and full tracking.                                          |
+| **Express Domestic**                    | This service provides reliable domestic express delivery by the end of the next working day, with full tracking and door-to-door service.                                                                   |
+| **Express Worldwide ROW non documents** | This service provides international delivery of parcels to rest-of-world destinations by the end of the next possible business day or within a few business days, with customs clearance and full tracking. |
+| **Express Worldwide EU non documents**  | This service provides expedited delivery of parcels across Europe, typically by the end of the next working day, with full tracking and customs-enabled processing where applicable                         |
+| **Economy Select documents**            | This service provides cost-effective delivery of document shipments across Europe within a defined number of business days, using road transport with full tracking.                                        |
+| **Economy Select non documents**        | This service provides cost-effective delivery of parcels across Europe within 2–4 business days, offering a balance between speed and cost with full tracking.                                              |
+| **Express 09:00 non documents**         | This service provides early morning international delivery of parcels before 9:00 AM on the next working day, with priority handling and full tracking.                                                     |
+| **Express 10:30 non documents**         | This service provides time-definite international delivery of parcels before 10:30 AM on the next working day, offering expedited transit and full tracking visibility.                                     |
+| **Express 09:00 documents**             | This service provides early morning international delivery of document shipments before 9:00 AM on the next working day, ensuring urgent delivery with priority handling and tracking.                      |
+| **Express 10:30 documents**             | This service provides time-definite international delivery of document shipments before 10:30 AM on the next working day, with expedited transit and full tracking visibility.                              |
+
+<Callout icon="💡" theme="default">
+  ### _Tip_
+
+  _For the most up-to-date carrier services, use the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint._
+</Callout>
   </Tab>
 </Tabs>
 
