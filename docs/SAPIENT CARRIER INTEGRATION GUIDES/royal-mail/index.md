@@ -97,27 +97,29 @@ This integration represents a significant step towards optimising shipping funct
       * **CustomsPhone**: The receiver's phone number will be included in eCustoms data. This enhancement code can be used with international services.
     </Accordion>
   </Tab>
-  <Tab title="Carrier Services">
-The following key services are provided by the Royal Mail integration.
 
-| Service Name     | Description                                                                                                                                                                               |
-| :--------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Tracked 24       | This service provides next-working-day delivery within the UK with full end-to-end tracking, delivery notifications, and proof of delivery for faster, time-sensitive shipments.          |
-| Tracked 48       | This service provides UK delivery within 2–3 working days with full tracking, delivery notifications, and proof of delivery for non-urgent shipments.                                     |
-| Untracked 24     | This service provides next-working-day delivery within the UK without full tracking, offering a cost-effective option for standard parcels with delivery confirmation.                    |
-| Untracked 48     | This service provides UK delivery within 2–3 working days without full tracking, offering a low-cost option for less time-sensitive shipments                                             |
-| 1st Class        | This service provides fast, untracked delivery within the UK, typically with a next-working-day delivery aim for letters and parcels.                                                     |
-| 2nd Class        | This service provides cost-effective UK delivery within 2–3 working days for letters and parcels, offering reliable but slower transit compared to 1st Class.                             |
-| Special Delivery | This service provides guaranteed next-working-day delivery within the UK, with time-definite options, full tracking, signature on delivery, and enhanced compensation for valuable items. |
-| International    | This service provides delivery of letters and parcels worldwide, offering a range of tracked and untracked options with varying delivery speeds and customs support.                      |
-| Returns          | This service provides convenient parcel return solutions, allowing customers to send items back to retailers using tracked or standard services with flexible drop-off options.           |
+  <Tab title="Carrier Services">
+  The following key services are provided by the Royal Mail integration.
+
+| Service Name         | Description                                                                                                                                                                               |
+| :------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Tracked 24**       | This service provides next-working-day delivery within the UK with full end-to-end tracking, delivery notifications, and proof of delivery for faster, time-sensitive shipments.          |
+| **Tracked 48**       | This service provides UK delivery within 2–3 working days with full tracking, delivery notifications, and proof of delivery for non-urgent shipments.                                     |
+| **Untracked 24**     | This service provides next-working-day delivery within the UK without full tracking, offering a cost-effective option for standard parcels with delivery confirmation.                    |
+| **Untracked 48**     | This service provides UK delivery within 2–3 working days without full tracking, offering a low-cost option for less time-sensitive shipments                                             |
+| **1st Class**        | This service provides fast, untracked delivery within the UK, typically with a next-working-day delivery aim for letters and parcels.                                                     |
+| **2nd Class**        | This service provides cost-effective UK delivery within 2–3 working days for letters and parcels, offering reliable but slower transit compared to 1st Class.                             |
+| **Special Delivery** | This service provides guaranteed next-working-day delivery within the UK, with time-definite options, full tracking, signature on delivery, and enhanced compensation for valuable items. |
+| **International**    | This service provides delivery of letters and parcels worldwide, offering a range of tracked and untracked options with varying delivery speeds and customs support.                      |
+| **Returns**          | This service provides convenient parcel return solutions, allowing customers to send items back to retailers using tracked or standard services with flexible drop-off options.           |
 
 <Callout icon="💡" theme="default">
   ### _Tip_
 
   _For the most up-to-date carrier services, use the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint._
-    </Callout>
-</Tab>
+</Callout>
+
+  </Tab>
 </Tabs>
 
 ***
