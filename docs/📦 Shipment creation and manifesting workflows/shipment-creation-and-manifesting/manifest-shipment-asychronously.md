@@ -44,6 +44,10 @@ This section provides detailed instructions and information regarding the asynch
 
 To manifest the shipments in an asynchronous manner via the API, you can use the following endpoints introduced in our core **Manifests** API endpoint:
 
+> ❗️ _Caution_
+>
+> _If there are shipments that cannot be manifested, the system will validate only the first 50 shipments and return any associated errors. However, the entire request will fail, and none of the shipments will be manifested._
+
 <Tabs>
   <Tab title="API Integration">
     ### Manifesting via API
