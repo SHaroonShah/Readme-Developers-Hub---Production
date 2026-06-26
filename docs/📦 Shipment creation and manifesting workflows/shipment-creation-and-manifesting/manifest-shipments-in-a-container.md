@@ -29,6 +29,10 @@ If your business process requires you to segregate the way you <Glossary>manifes
   </Card>
 </Cards>
 
+> ❗️ _Caution_
+>
+> _If there are shipments that cannot be manifested, the system will validate only the first 50 shipments and return any associated errors. However, the entire request will fail, and none of the shipments will be manifested._
+
 ## How container manifesting works
 
 You can create as many <Glossary>container</Glossary>(s) as you need and add numerous shipments to each container. Shipments in the container are manifested only when you manifest the container.
@@ -44,4 +48,4 @@ Once the container has been manifested, you can create a new container with the 
 
 ### Workflow process
 
-<Image align="center" alt="Workflow of manifesting shipment by container" border={false} caption="Workflow of manifesting shipment by container" src="https://files.readme.io/c426294f14151bd90d0a8cacc617a9e25f427a0974f4a4e0841350d8da0a5d0d-Manifest_by_container_flow.png" />
+<Image align="center" alt="Workflow of manifesting shipment by container" caption="Workflow of manifesting shipment by container" src="https://files.readme.io/c426294f14151bd90d0a8cacc617a9e25f427a0974f4a4e0841350d8da0a5d0d-Manifest_by_container_flow.png" />
