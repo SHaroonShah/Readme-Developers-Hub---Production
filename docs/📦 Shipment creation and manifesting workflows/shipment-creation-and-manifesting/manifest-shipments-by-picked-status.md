@@ -26,6 +26,10 @@ If you use the action [Create](https://docs.intersoftsapient.net/docs/create-shi
 
 ## Workflow options
 
+> ❗️ _Caution_
+>
+> _If there are shipments that cannot be manifested, the system will validate only the first 50 shipments and return any associated errors. However, the entire request will fail, and none of the shipments will be manifested._
+
 <Tabs>
   <Tab title="Process action (default)">
     When using the **Process** action in your Create Shipment requests:
@@ -46,7 +50,7 @@ If you use the action [Create](https://docs.intersoftsapient.net/docs/create-shi
 
 ### Workflow process
 
-<Image align="center" alt="Workflow of manifesting shipments with the Picked status" border={false} caption="Workflow of manifesting shipments by Picked status" src="https://files.readme.io/ed310971eabce3d2cd34b1a1a63a2d1683f26ee432f6cf1601d0dae6851b1a2e-Manifest_by_picked_flow.png" />
+<Image align="center" alt="Workflow of manifesting shipments with the Picked status" caption="Workflow of manifesting shipments by Picked status" src="https://files.readme.io/ed310971eabce3d2cd34b1a1a63a2d1683f26ee432f6cf1601d0dae6851b1a2e-Manifest_by_picked_flow.png" />
 
 ***
 
