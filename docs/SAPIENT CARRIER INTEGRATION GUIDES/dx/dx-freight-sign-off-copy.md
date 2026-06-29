@@ -1,8 +1,8 @@
 ---
 title: DX Express sign-off
 excerpt: >-
-  Sign-off is a process used by the carrier that all necessary steps have been
-  completed before using it for the creation of shipments.
+  Complete the DX Express sign-off steps so your shipping account is ready to
+  create shipments.
 deprecated: false
 hidden: false
 icon: far fa-clipboard-check
