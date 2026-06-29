@@ -173,12 +173,4 @@ In the UK, Amazon Shipping covers England, Scotland, and Wales, offering seven-d
   </Card>
 </Cards>
 
-| Service  Name | Description                                                                                                                               |
-| :------------ | :---------------------------------------------------------------------------------------------------------------------------------------- |
-| **Prime**     | This service provides next-day delivery service with full tracking for Amazon marketplace orders.                                         |
-| **Standard**  | This service provides two-day delivery service with tracking for Amazon marketplace orders.                                               |
-| **Economy**   | This service provides cost-effective tracked delivery service with a longer transit time for Amazon marketplace orders.                   |
-| **1Day**      | This service provides next-day delivery service for non-Amazon orders; may include limited or no tracking compared to On-Amazon services. |
-| **2Day**      | This service provides two-day delivery service for non-Amazon orders; may include limited or no tracking compared to On-Amazon services.  |
-
 <br />
