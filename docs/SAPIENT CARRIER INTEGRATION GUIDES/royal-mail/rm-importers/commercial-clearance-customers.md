@@ -20,9 +20,11 @@ Customers prepare commercial customs data/paperwork to their independent customs
 
 To efficiently handle the imports, make sure to fill in the necessary details as explained in the following table.
 
-> 💡 *Tip*
->
-> *In the following table, the mandatory requirements are marked with an asterisk (\*).*
+<Callout icon="💡" theme="default">
+  ### _Tip_
+
+  _In the following table, the mandatory requirements are marked with an asterisk (*)._
+</Callout>
 
 <Table align={["center","left"]}>
   <thead>
@@ -40,7 +42,7 @@ To efficiently handle the imports, make sure to fill in the necessary details as
   <tbody>
     <tr>
       <td>
-        **Shipper Address**\*
+        **Shipper Address***
       </td>
 
       <td>
@@ -50,7 +52,7 @@ To efficiently handle the imports, make sure to fill in the necessary details as
 
     <tr>
       <td>
-        **Return Address**\*
+        **Return Address***
       </td>
 
       <td>
@@ -70,7 +72,7 @@ To efficiently handle the imports, make sure to fill in the necessary details as
 
     <tr>
       <td>
-        **Manifest - Royal Mail Sales Order Summary**\*
+        **Manifest - Royal Mail Sales Order Summary***
       </td>
 
       <td>
@@ -80,13 +82,13 @@ To efficiently handle the imports, make sure to fill in the necessary details as
 
     <tr>
       <td>
-        **Royal Mail Sign Off**\*
+        **Royal Mail Sign Off***
       </td>
 
       <td>
         Required – physical labels only, where you will be requested to create couple of labels, manifest them and ship them to Royal Mail.
 
-        *`Note:`Details on this label are shared once the[Sandbox Test Pack](https://docs.intersoftsapient.net/docs/royal-mail-importers-sandbox-test-pack)  is approved.*
+        _`Note:`Details on this label are shared once the[Sandbox Test Pack](https://docs.intersoftsapient.net/docs/royal-mail-importers-sandbox-test-pack)  is approved._
       </td>
     </tr>
 
