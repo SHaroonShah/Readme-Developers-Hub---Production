@@ -13,52 +13,172 @@ metadata:
 
 ***
 
+<br />
+
 DPD NL ship domestically and internationally, and approximately 60% of their outbound volume is cross-border.
 
-The integration of DPD NL into the SAPIENT platform is a significant step in enhancing shipping capabilities. This section discusses the in-scope features of this integration and the services this carrier offers.
+The integration of DPD NL into the SAPIENT platform is a significant step in enhancing shipping capabilities. This section discusses the in-scope features of this integration and the services this carrier offers
 
-## Key features
+<Tabs>
+  <Tab title="Key Features">
+    <Cards columns={2}>
+      <Card title="Shipping Origins" icon="fa-map-marker-alt">
+        ThThe integration supports shipping from locations in Great Britain (GB) only.
+      </Card>
 
-This integration provides the following key features:
+      <Card title="Shipping Destinations" icon="fa-solid fa-globe">
+        Users can send shipments to Great Britain (GB), Europe, and the Rest of the World (<Glossary>ROW</Glossary>).
+      </Card>
 
-* **Ship from destinations**: The integration supports shipping from locations in Netherlands (NL) only.
-* **Ship To Destinations**: Users can send shipments domestically within Netherlands, to Great Britain (GB), Europe, and <Glossary>ROW</Glossary> (Rest of the World).
-* **Service Type**: The integration is focused on inbounds and outbound shipping.
-* **Incoterms**: <Glossary>DAP</Glossary> and <Glossary>DDP</Glossary>.
-* **Label formats**: <Glossary>PDF</Glossary>, <Glossary>ZPL203DPI</Glossary>, and <Glossary>ZPL203DPI</Glossary>.
+      <Card title="Service Type" icon="fa-solid fa-shipping-fast">
+        The integration is focused on outbound shipping.
+      </Card>
 
-> 📘 _Note_
->
-> _For returns shipments, the carrier uses the following label formats:_
->
-> * _QRCode_: _Digital‑only return label. Customer presents a QR code at a DPD Service Point, where the return label is printed and applied by DPD. No PDF label is provided._
-> * _QRCodeAndPDF_: _Hybrid return label. Customer receives both a QR code and a printable PDF label, allowing either print‑free returns at a Service Point or self‑printed label attachment._
+      <Card title="Incoterms Support" icon="fa-solid fa-file-contract">
+        The integration supports <Glossary>DAP</Glossary> and <Glossary>DDP</Glossary> incoterms.
+      </Card>
 
-## Service enhancements
+      <Card title="Label Formats" icon="fa-solid fa-tag">
+        The integration supports labels in the <Glossary>PDF</Glossary> format.
+      </Card>
+    </Cards>
 
-The following are the key services are provided by the DPD NL integration:
+    <br />
+  </Tab>
 
-* **Email**: Delivery updates are sent via email. To use this enhancement code, the destination **ContactEmail** must be provided with a valid email address.   
-* **SMS**: Delivery updates are sent via SMS. To use this enhancement code, the destination **ContactPhone** field must be provided with a valid phone number.
+  <Tab title="Additional Features">
+    <Cards columns={2}>
+      <Card title="Consignment services" icon="fa-solid fa-boxes-stacked">
+        Consignment services are supported, and DPD UK allows a maximum of 99 packages per consignment.
 
-<Callout icon="💡" theme="default">
-  ### _Tip_
+        > *Please bear in mind that not all services offer consignment options.*
+      </Card>
 
-  _For more information on the service enhancements and carrier services, refer to the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) API endpoint_
-</Callout>
+      <Card title="Carrier-Specific Fields" icon="fa-solid fa-list-check">
+        The **CarrierSpecifics** object in the **Create Shipment** request includes **DeliveryInstructions** for providing additional delivery instructions to the carrier.
+      </Card>
+    </Cards>
+  </Tab>
 
-## Additional features
+  <Tab title="Service Enhancements">
+    <Cards columns={2}>
+      <Card title="Proof of Identity" icon="fa-solid fa-id-card">
+        Requires the receiver to present valid identification at the point of delivery.
+      </Card>
 
-The DPD NL integration provides the following additional features:
+      <Card title="Proof of Age" icon="fa-solid fa-calendar-circle-user">
+        Ensures the recipient meets a minimum age requirement, like for age-restricted goods.
+      </Card>
 
-* **Consignment services**:  Consignment services are supported for all destinations except for GB.
+      <Card title="Pin Required" icon="fa-solid fa-location-pin-lock">
+        A secure PIN is sent to the receiver, which must be provided upon delivery.
+      </Card>
+
+      <Card title="Pin Required & Proof of Age" icon="fa-solid fa-location-pin-lock">
+        Requires PIN and age verification at the point of delivery for added security.
+      </Card>
+    </Cards>
+
+    <br />
+
+    <Callout icon="💡" theme="default">
+      ### *Tip*
+
+      *For more information on the service enhancements and carrier services, refer to the following endpoints:*
+
+      * *[Create Shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-dpduk)*
+      * *[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services)*
+    </Callout>
+  </Tab>
+
+  <Tab title="Carrier Services">
+    The following key services are provided by the DPD Netherlands integration.
+
+    | Service Name                                             | Description                                                                                                                                                                                        |
+    | :------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+    | **DPD Business Normal Parcel**                           | This service provides standard business-to-business delivery for parcels up to 31.5 kg, offering reliable transport across the Netherlands and Europe with tracking and multiple delivery attempts |
+    | **DPD Business Small Parcel**                            | This service provides business-to-business delivery for lightweight parcels up to 3 kg, enabling cost-effective shipping of smaller consignments with full tracking and reliable transit.          |
+    | **DPD Home Normal Parcel**                               | This service provides home delivery for standard parcels up to 31.5 kg, including Predict notifications with a 1-hour delivery window and options for recipients to manage delivery preferences.   |
+    | **DPD Home Small Parcel**                                | This service provides home delivery for lightweight parcels up to 3 kg, offering a convenient and cost-efficient solution with tracking and flexible delivery options for recipients.              |
+    | **DPD ParcelLetter** (Only for delivery to NL addresses) | This service provides mailbox delivery for very small parcels up to 1 kg, allowing items to be delivered through the letterbox without requiring recipient presence within Netherlands only.       |
+    | **DPD Shop Return**                                      | This service provides a flexible returns solution that allows customers to return parcels via DPD Parcel Shops using printed or digital labels, including QR code options without printing.        |
+    | **DPD Home Saturday**                                    | This service provides home delivery on Saturdays, enabling parcels collected during the week to be delivered to residential addresses at the weekend with full tracking visibility.                |
+    | **DPD Business Saturday**                                | This service provides business delivery on Saturdays, allowing shipments to be delivered outside standard weekday business hours for improved flexibility and continuity of operations.            |
+
+    <br />
+
+    <Callout icon="💡" theme="default">
+      ### *Tip*
+
+      *For the most up-to-date carrier services, use the[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint.*
+    </Callout>
+  </Tab>
+</Tabs>
+
+***
 
 ## API Services
 
-The following API services are provided by the DPD NL integration:
+<Tabs>
+  <Tab title="Core Services">
+    <Accordion title="Create Shipment">
+      The integration for creating shipments to reflect DPD NL as a primary carrier and allowing users to create individual shipments requests using the **Create Shipment** endpoint.
+    </Accordion>
 
-* **Create shipment**: The integration for creating shipments to reflect DPD NL as a primary carrier and allowing users to create shipments using the Create Shipment that returns the label in base64 encoded format.
-* **Manifest webhook**: Keep track of shipments and their statuses by to receiving real-time updates or notifications whenever specific events occur in the system (such as shipping updates, status changes, and so on) via the SAPIENT Manifest Webhook feature.
-* **Tracking**: Enables data files to be sent via SFTP and received through the SAPIENT tracking webhook.
+    <br />
 
-<br />
+    <Accordion title="Manifest Shipment">
+      Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/v4.03/docs/manifest-webhook) to keep track of shipments and their statuses by to receiving real-time updates or notifications whenever specific events occur in the system (such as shipping updates, status changes, and so on).
+    </Accordion>
+  </Tab>
+
+  <Tab title="Other Services">
+    <Accordion title="Print Label">
+      Generate and return the label for a DPD NL shipment in the supported label formats. This endpoint must be utilised when the label is not generated in the DPD NL Create Shipment request.
+
+      > 📘 *Note*
+      >
+      > *This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting.*
+    </Accordion>
+
+    <br />
+
+    <Accordion title="Tracking">
+      Enables customers to receive tracking updates through their integration with the SAPIENT tracking webhook.
+    </Accordion>
+  </Tab>
+</Tabs>
+
+***
+
+## Getting Started
+
+<Tabs>
+  <Tab title="Account Setup">
+    <Cards columns={3}>
+      <Card title="Add DPD Netherlands Shipping Account" icon="fa-solid fa-truck" href="https://docs.intersoftsapient.net/docs/add-dpd-netherlands-shipping-account">
+        Set up your DPD Netherlands shipping account to start creating shipments.
+      </Card>
+
+      <Card title="Add DPD Netherlands Tracking Account" icon="fa-solid fa-search-location" href="https://docs.intersoftsapient.net/docs/add-dpd-nl-tracking-account">
+        Configure tracking for your DPD Netherlands shipments.
+      </Card>
+    </Cards>
+  </Tab>
+
+  <Tab title="API References">
+    <Cards columns={2}>
+      <Card title="SAPIENT DPD Netherlands API" icon="fa-solid fa-code" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-dpdnl">
+        Explore the DPD Netherlands API endpoints for a seamless shipping experience.
+      </Card>
+    </Cards>
+  </Tab>
+</Tabs>
+
+<Banner isInline={true} message="Ready to integrate?" color="#ffb600" textColor="#ffffff" fontSize="20px" fontWeight="bold" width="120px" />
+
+<Cards columns={0}>
+  <Card title="Activate this integration" href="https://docs.intersoftsapient.net/docs/integration-activation#/" icon="fa-solid fa-circle-play fa-beat" target="_blank">
+    Seamlessly connect with DPD Netherlands and manage your shipping operations from a single platform.
+  </Card>
+</Cards>
