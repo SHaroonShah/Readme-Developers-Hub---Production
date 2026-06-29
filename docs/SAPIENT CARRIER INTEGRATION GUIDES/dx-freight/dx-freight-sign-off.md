@@ -1,8 +1,8 @@
 ---
 title: DX Freight sign-off
 excerpt: >-
-  Sign-off is a process used by the carrier that all necessary steps have been
-  completed before using it for creating the shipments.
+  Complete the DX Freight sign-off steps so your shipping account is ready to
+  create shipments.
 deprecated: false
 hidden: false
 icon: far fa-clipboard-check
