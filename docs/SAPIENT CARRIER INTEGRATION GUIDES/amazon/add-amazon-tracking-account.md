@@ -65,7 +65,7 @@ To add a tracking account for Amazon in SAPIENT, follow the steps as explained i
 
     |         Element        | Description                                                                                                      |
     | :--------------------: | :--------------------------------------------------------------------------------------------------------------- |
-    |      **Carrier**\*     | From the dropdown menu, select **AMAZON - Amazon** as your carrier option.                                       |
+    |      **Carrier**\*     | From the dropdown menu, select Amazon as your carrier option.                                                    |
     | **Shipping Account**\* | From the dropdown menu, select the <Glossary>shipping account</Glossary> for which you want to receive tracking. |
 
     <br />
