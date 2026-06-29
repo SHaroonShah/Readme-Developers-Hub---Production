@@ -15,31 +15,78 @@ metadata:
 next:
   description: ''
 ---
-Intersoft API is a fully RESTful service implemented using JSON messaging. You, as the customer are responsible for sending JSON messages and for maintaining the capability of receiving JSON messages in the format described in this section.
+Intersoft API is a fully RESTful service implemented using JSON messaging. You, as the customer, are responsible for sending JSON messages and for maintaining the capability of receiving JSON messages in the format described in this section.
 
-Prior to going live on SAPIENT, first provide a <Glossary>bearer token</Glossary> and make sure, as a minimum, to have the following API calls developed:
-
-* [Create Shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm): to generate the delivery <Glossary>labels</Glossary> for your packages.
-* [Update Status to Cancel](https://docs.intersoftsapient.net/reference/put_v4-shipments-status): to cancel/void a current shipping label. This can only be used before a <Glossary>shipment</Glossary> has been confirmed by being manifested.
-* International Arrivals Containers (A-scan) API calls - **relevant to Freight 2 Post customers only.  It is mandatory to use by Freight 2 Post customers.**\
-  API calls related to this are:
-  * [Add Container ](https://docs.intersoftsapient.net/reference/post_v4-internationalarrivalscontainers-rm): to create and name (with an ID or alias) a new International Arrivals Container to be used for manifesting a specific group of shipments.
-  * [Get Containers](https://docs.intersoftsapient.net/reference/get_v4-internationalarrivalscontainers-rm): to get a list of all International Arrivals Containers set up on the system.
-  * [Update Container](https://docs.intersoftsapient.net/reference/put_v4-internationalarrivalscontainers-rm-update-containerid): to update details of the International Arrivals Container.
-  * [Add / Remove Shipments](https://docs.intersoftsapient.net/reference/put_v4-internationalarrivalscontainers-rm-containerid): to allocate shipments to a container or remove them from it before the container will be manifested.
-  * [Delete Container](https://docs.intersoftsapient.net/reference/delete_v4-internationalarrivalscontainers-rm-containerid): to delete a specific container.
-  * [Get Container ](https://docs.intersoftsapient.net/reference/get_v4-internationalarrivalscontainers-rm-containerid): to get details for a specific container.
-* [Manifest Shipments](https://docs.intersoftsapient.net/reference/post_v4-manifests-carriercode): to closeout shipments, which produces the collection <Glossary>manifest</Glossary> (Royal Mail Sales Order Summary) to be handed over to the driver and triggers electronic <Glossary>pre-advice</Glossary> and billing data to be sent to the <Glossary>carrier</Glossary>. This must be done before your <Glossary>shipment</Glossary> enters Royal Mail network.  Not doing it may result in multiple issues such as delays, missing tracking, lack of notifications for your end consumers, surcharges, and others.\
-  **Freight 2 Post customers** must manifest their shipments by container.
-
-> 📘 *Note*
+> 🚧 _Important_
 >
-> At INTERSOFT, we have developed a dedicated API endpoint for servers based in China.  To access this, kindly change your domain from **.net** to **.cn** for all the relevant endpoints you will be using.
->
-> *For example, when creating a new shipment replace the[https://api.intersoftsapient.net/v4/shipments/rm](https://api.intersoftsapient.net/v4/shipments/rm) URL with [https://api.intersoftsapient.cn/v4/shipments/rm](https://api.intersoftsapient.net/v4/shipments/rm).*
->
-> As a back-up, please develop **.net** as well.
+> _Prior to going live on SAPIENT, provide a <Glossary>bearer token</Glossary>. See [Authentication](https://docs.intersoftsapient.net/docs/authentication) for details._
 
-## See also
+As a minimum, have the following API calls developed:
 
-* [Authentication](https://docs.intersoftsapient.net/docs/authentication)
+<Cards columns={3}>
+  <Card title="Create Shipment" href="https://docs.intersoftsapient.net/reference/post_v4-shipments-rm" icon="fa-solid fa-box">
+    Generate the delivery <Glossary>labels</Glossary> for your packages.
+  </Card>
+
+  <Card title="Update Status to Cancel" href="https://docs.intersoftsapient.net/reference/put_v4-shipments-status" icon="fa-solid fa-ban">
+    Cancel/void a current shipping label. Can only be used before a <Glossary>shipment</Glossary> has been confirmed by being manifested.
+  </Card>
+
+  <Card title="Manifest Shipments" href="https://docs.intersoftsapient.net/reference/post_v4-manifests-carriercode" icon="fa-solid fa-file-circle-check">
+    Closeout shipments to produce the collection <Glossary>manifest</Glossary> (Royal Mail Sales Order Summary) and trigger electronic <Glossary>pre-advice</Glossary> and billing data to be sent to the <Glossary>carrier</Glossary>.
+  </Card>
+</Cards>
+
+> 🚧 _Important_
+>
+> _Manifest your shipments before they enter the Royal Mail network. Not doing so may result in delays, missing tracking, lack of notifications for your end consumers, surcharges, and other issues._
+
+<Accordion title="International Arrivals Containers (A-Scan) — Freight 2 Post customers only" icon="">
+  These API calls are **mandatory for Freight 2 Post customers**. Freight 2 Post customers must manifest their shipments by container.
+
+  <Cards columns={3}>
+    <Card title="Add Container" href="https://docs.intersoftsapient.net/reference/post_v4-internationalarrivalscontainers-rm" icon="fa-solid fa-plus">
+      Create and name (with an ID or alias) a new International Arrivals Container for manifesting a specific group of shipments.
+    </Card>
+
+    <Card title="Get Containers" href="https://docs.intersoftsapient.net/reference/get_v4-internationalarrivalscontainers-rm" icon="fa-solid fa-list">
+      Get a list of all International Arrivals Containers set up on the system.
+    </Card>
+
+    <Card title="Update Container" href="https://docs.intersoftsapient.net/reference/put_v4-internationalarrivalscontainers-rm-update-containerid" icon="fa-solid fa-pen-to-square">
+      Update details of an International Arrivals Container.
+    </Card>
+
+    <Card title="Add / Remove Shipments" href="https://docs.intersoftsapient.net/reference/put_v4-internationalarrivalscontainers-rm-containerid" icon="fa-solid fa-arrows-left-right">
+      Allocate shipments to a container or remove them before manifesting.
+    </Card>
+
+    <Card title="Delete Container" href="https://docs.intersoftsapient.net/reference/delete_v4-internationalarrivalscontainers-rm-containerid" icon="fa-solid fa-trash">
+      Delete a specific container.
+    </Card>
+
+    <Card title="Get Container" href="https://docs.intersoftsapient.net/reference/get_v4-internationalarrivalscontainers-rm-containerid" icon="fa-solid fa-magnifying-glass">
+      Get details for a specific container.
+    </Card>
+  </Cards>
+
+  <br />
+</Accordion>
+
+> 📘 _Note_
+>
+> _At INTERSOFT, we have developed a dedicated API endpoint for servers based in China.  To access this, kindly change your domain from **.net** to **.cn** for all the relevant endpoints you will be using._
+>
+> _For example, when creating a new shipment replace the[https://api.intersoftsapient.net/v4/shipments/rm](https://api.intersoftsapient.net/v4/shipments/rm) URL with [https://api.intersoftsapient.cn/v4/shipments/rm](https://api.intersoftsapient.net/v4/shipments/rm)._
+>
+> _As a back-up, please develop **.net** as well._
+
+***
+
+### See also
+
+<Cards>
+  <Card title="Authentication" href="https://docs.intersoftsapient.net/docs/authentication" icon="fa-solid fa-lock">
+    Set up your bearer token and authenticate API requests.
+  </Card>
+</Cards>
