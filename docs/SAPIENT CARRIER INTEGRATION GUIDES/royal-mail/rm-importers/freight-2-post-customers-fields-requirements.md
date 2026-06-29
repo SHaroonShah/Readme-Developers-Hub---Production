@@ -104,19 +104,9 @@ If you are importing goods into the UK via Freight 2 Post route, please ensure t
         * ShippingCharges - please make sure to populate this field either with the exact amount the end customer was charged for shipping or with "0" if the shipping was for free.
       </td>
     </tr>
-
-    <tr>
-      <td>
-        **CARRIER SPECIFICS > CODE**
-      </td>
-
-      <td>
-        * **CustomsEmail** (receiver email address) – Mandatory for PDDP, DDP, DTP, and Royal Mail Cross Border or Import products. The **Code** field must be set to **EM**, with a valid email provided in the **Destination** > **Address** > **ContactEmail** field.
-      </td>
-    </tr>
   </tbody>
 </Table>
 
-> 🚧 _Please note_
+> 🚧 _Note_
 >
-> _The above are also requirements specific for Royal Mail customers creating international shipments._
+> _The requirements listed in the preceding table are also specific for Royal Mail customers creating international shipments._
