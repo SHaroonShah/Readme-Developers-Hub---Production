@@ -36,7 +36,7 @@ The Royal Mail collection allows the system to default the dimensions and format
 
 ## Create a return shipment
 
-If you want to enable your customers to have their returns collected from their homes, create a Royal Mail shipment using one of Royal Mail's return services <Glossary>TSN Tracked Returns 24</Glossary> or <Glossary>TSS Tracked Returns 48</Glossary>. Ensure you meet [all the requirements](https://docs.intersoftsapient.net/docs/royal-mail-returns) when creating a returns shipment. You can then request a Royal Mail collection for the <Glossary>shipment</Glossary>.
+If you want to enable your customers to have their returns collected from their homes, create a Royal Mail shipment using the Royal Mail's return services. Ensure you meet [all the requirements](https://docs.intersoftsapient.net/docs/royal-mail-returns) when creating a returns shipment. You can then request a Royal Mail collection for the <Glossary>shipment</Glossary>.
 
 <Callout icon="🚧" theme="danger">
   ### _Important_
