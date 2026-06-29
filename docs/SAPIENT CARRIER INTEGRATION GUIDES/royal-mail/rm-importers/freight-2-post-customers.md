@@ -17,9 +17,11 @@ This service typically involves the transportation of goods via a freight <Gloss
 
 In UK, the <Glossary>shipments</Glossary> arrive as freight. For custom clearance purposes, Royal Mail collect these items from the airline handler before converting them from Freight 2 Post. Once converted/recognised as postal, Royal Mail presents these items to customs as postal before injecting them into the UK network.
 
-> 💡 *Tip*
->
-> *In the following table, the mandatory requirements are marked with an asterisk (\*).*
+<Callout icon="💡" theme="default">
+  ### _Tip_
+
+  _In the following table, the mandatory requirements are marked with an asterisk (*)._
+</Callout>
 
 <Table align={["center","left"]}>
   <thead>
@@ -92,10 +94,10 @@ In UK, the <Glossary>shipments</Glossary> arrive as freight. For custom clearanc
       <td>
         Required – CDS checks and physical labels.
 
-        For CDS checks, you will be requested to create couple of labels, manifest them and share with us the PDFs so they can be reviewed and signed off.\
+        For CDS checks, you will be requested to create couple of labels, manifest them and share with us the PDFs so they can be reviewed and signed off.  
         For physical label sign off, you will be requested to create couple of labels, manifest them and ship them to Royal Mail.
 
-        *`Note:`Details on this label are shared once the[Sandbox Test Pack](https://docs.intersoftsapient.net/docs/royal-mail-importers-sandbox-test-pack)  is approved.*
+        _`Note:`Details on this label are shared once the[Sandbox Test Pack](https://docs.intersoftsapient.net/docs/royal-mail-importers-sandbox-test-pack)  is approved._
       </td>
     </tr>
 
@@ -113,6 +115,6 @@ In UK, the <Glossary>shipments</Glossary> arrive as freight. For custom clearanc
 
 <br />
 
-> 🚧 *Important*
+> 🚧 _Important_
 >
 > Please also remember to develop our **International Arrivals Containers (A-scan) API calls**. It's mandatory for Freight 2 Post customers.
