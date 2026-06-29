@@ -13,57 +13,167 @@ icon: fad fa-truck-fast
 metadata:
   robots: index
 ---
-<Image align="center" border={false} width="900px" src="https://files.readme.io/d86245cf158e8d0443810c7cd372e3bdf92fa171e4f3f933a46e26f30b1d64b2-An_Post_white_banner.png" />
+<Image align="center" width="900px" src="https://files.readme.io/d86245cf158e8d0443810c7cd372e3bdf92fa171e4f3f933a46e26f30b1d64b2-An_Post_white_banner.png" />
 
 ***
 
 The integration of An Post, Ireland's national postal service, into the SAPIENT platform is a significant step in enhancing shipping capabilities. This section discusses the in-scope features of this integration and the services this carrier offers.
 
-## Key Features
+## Overview
 
-This integration provides the following key features:
+<Tabs>
+  <Tab title="Key Features">
+    <Cards columns={2}>
+      <Card title="Shipping Origins" icon="fa-map-marker-alt">
+        The integration supports shipping from locations in Ireland (IE) and Great Britain (GB).
+      </Card>
 
-* **Ship from destinations**: The integration supports shipping from locations in Ireland (IE) and Great Britain (GB).
+      <Card title="Shipping Destinations" icon="fa-solid fa-globe">
+        Users can send <Glossary>shipments</Glossary> to Ireland (IE), Great Britain (GB), Europe, and the Rest of the World (<Glossary>ROW</Glossary>).
+      </Card>
 
-> 🚧 _Important_
->
-> _If shipping from GB to Ireland, undelivered or returned parcels will not be returned to your UK address. Instead, they must be returned to a designated PO Box address at the Portlaoise Mail Centre in Ireland. This information must be populated in the **ReturnToSender** section of the API documentation._
+      <Card title="Service Type" icon="fa-solid fa-shipping-fast">
+        The integration is focused on outbound and inbound shipping.
+      </Card>
 
-* **Ship to Destinations**: Users can send <Glossary>shipments</Glossary> to Ireland (IE), Great Britain (GB), Europe, and the <Glossary>ROW</Glossary> (Rest of the World).
-* **Service Type**: The integration is focused on outbound and inbound shipping.
+      <Card title="Incoterms Support" icon="fa-solid fa-file-contract">
+        The integration supports <Glossary>DDU</Glossary> only.
+      </Card>
 
-> 📘 _Note_
->
-> _An Post does not support consignment services; all services are single-package services only. Also, the Express International and Priority Post services are only available to limited destinations._
+      <Card title="Label Formats" icon="fa-solid fa-tag">
+        The integration support labels in <Glossary>PDF</Glossary> and <Glossary>PNG</Glossary> formats.
+      </Card>
+    </Cards>
 
-* **Supported incoterms**: <Glossary>DDU</Glossary>
-* **Label image formats**: <Glossary>PDF</Glossary> and <Glossary>PNG</Glossary>
+    <br />
 
-## Integration types
+    <Accordion title="Important considerations">
+      Please bear in mind the following:
 
-The following integrations are added to the scope:
+      * An Post does not support consignment services; all services are single-package services only. Also, the Express International and Priority Post services are only available to limited destinations.
+      * If shipping from GB to Ireland, undelivered or returned parcels will not be returned to your UK address. Instead, they must be returned to a designated PO Box address at the Portlaoise Mail Centre in Ireland. This information must be populated in the **ReturnToSender** section of the API documentation
+    </Accordion>
 
-* **Label integration**: This integration feature simplifies the process of generating and managing shipping labels in the standard 6x4 size, PDF format, which is essential for efficient logistics. Based on the destination country, customers must be aware of the following:
-  * For delivery to addresses in Northern Ireland (IE), only the shipping <Glossary>label</Glossary> is required.
-    * For delivery to EU destinations excluding Northern Ireland (IE), a security declaration is required.
-    * The signature image will be taken from the signature image the customer has uploaded for the shipping account in the [Logos and Signatures](https://docs.intersoftsapient.net/docs/add-signature-and-logo#/) screen.
-  * For delivery to ROW addresses, including GB and Northern Ireland (IE), a shipping label and <Glossary>CN23</Glossary> is required. Sapient will generate a separate address label and CN23, as this is consistent with the behaviour for other integrations.
+    <br />
+  </Tab>
 
-> 📘 _Note_
->
-> _Please be advised that the existing SAPIENT CN23 format will be used._
+  <Tab title="Additional Features">
+    <Cards>
+      <Card title="Single Piece Shipments" icon="fa-solid fa-box">
+        An Post only supports single package services. Consignment services are not supported
+      </Card>
+    </Cards>
+  </Tab>
 
-* **Tracking integration**: This integration allows customers to monitor their shipments in real-time, providing transparency and peace of mind. Users can access detailed tracking information, including, real-time updates, tracking numbers, and delivery notifications.
-* **Manifest or pre-advice integration**: This integration generate an electronic <Glossary>pre-advice</Glossary>/manifest file upon manifesting a shipment and sent to An Post via SFTP.
+  <Tab title="Carrier Services">
+    The following key services are provided by the An Post integration.
+
+    | Service Name                        | Description                                                                                                                                                                                                                                                                         |
+    | :---------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+    | **Express With Signature - Parcel** | This service provides next-working-day or expedited delivery of parcels with tracking and signature confirmation, offering secure, time-sensitive shipping with proof of delivery.                                                                                                  |
+    | **Standard Post**                   | This service provides cost-effective standard delivery for non-urgent items within the network.                                                                                                                                                                                     |
+    | **Priority Post**                   | This service provides faster delivery than standard post with prioritised handling.                                                                                                                                                                                                 |
+    | **Returns Service**                 | This service provides a simple and efficient process for returning items to the sender.                                                                                                                                                                                             |
+    | **Courier**                         | This service provides expedited delivery with enhanced tracking and handling for time-sensitive shipments.                                                                                                                                                                          |
+    | **Express With Signature - Packet** | This service provides fast delivery of lightweight packets with tracking and a signature on delivery, ensuring secure receipt confirmation for smaller consignments.                                                                                                                |
+    | **Express**                         | This service provides expedited delivery for urgent shipments within the network.                                                                                                                                                                                                   |
+    | **Express International**           | This service provides fast international delivery with prioritised handling and tracking.                                                                                                                                                                                           |
+    | **Registered Post**                 | This service provides secure delivery with signature capture and compensation cover for valuable items                                                                                                                                                                              |
+    | **IBMS/Untracked**                  | This service provides cost-effective international business mail delivery for letters, packets, and lightweight parcels without full end-to-end tracking, suitable for non-urgent shipments.This service provides basic untracked delivery for low-value or non-priority shipments. |
+
+    <br />
+
+    <Callout icon="💡" theme="default">
+      ### *Tip*
+
+      *For the most up-to-date carrier services, use the[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint.*
+    </Callout>
+  </Tab>
+</Tabs>
 
 ***
 
-In this section, learn how to:
+## API Services
 
-* [Add an An Post shipping account](https://docs.intersoftsapient.net/docs/add-an-post-shipping-account#/)
-* [Add an An Post tracking account](https://docs.intersoftsapient.net/docs/add-an-post-tracking-account#/)
-* [Add barcode range to an An Post shipping account](https://docs.intersoftsapient.net/docs/add-barcode-range-for-an-post-shipping-account#/)
+<Tabs>
+  <Tab title="Core Services">
+    <Accordion title="Create Shipment">
+      The integration for creating shipments to reflect An Post as a primary carrier and allowing users to create shipments using the **Create Shipment** endpoint. Based on the destination country, customers must be aware of the following:
 
-> 📘 _Note_
->
-> _For more information on how to activate the An Post integration, refer to the [Activate integration](https://docs.intersoftsapient.net/docs/integration-activation#/) section._
+      * * For delivery to addresses in Northern Ireland (IE), only the shipping <Glossary>label</Glossary> is required.
+          * For delivery to EU destinations excluding Northern Ireland (IE), a security declaration is required.
+          * The signature image will be taken from the signature image the customer has uploaded for the shipping account in the [Logos and Signatures](https://docs.intersoftsapient.net/docs/add-signature-and-logo#/) screen.
+            * For delivery to ROW addresses, including GB and Northern Ireland (IE), a shipping label and <Glossary>CN23</Glossary> is required. SAPIENT will generate a separate address label and CN23, as this is consistent with the behaviour for other integrations.
+
+      > 📘 *Note*
+      >
+      > *Please be advised that the existing SAPIENT CN23 format will be used*.
+    </Accordion>
+
+    <br />
+
+    <Accordion title="Manifest Shipment">
+      Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/v4.03/docs/manifest-webhook) to keep track of shipments and their statuses by to receiving real-time updates or notifications whenever specific events occur in the system (such as shipping updates, status changes, and so on).
+    </Accordion>
+  </Tab>
+
+  <Tab title="Other Services">
+    <Accordion title="Print Label">
+      Generate and return the label for an An Post shipment. This endpoint must be utilised when the label is not generated in the An Post Create Shipment request.
+
+      > 📘 *Note*
+      >
+      > *This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting.*
+    </Accordion>
+
+    <br />
+
+    <Accordion title="Tracking">
+      This integration allows customers to monitor their shipments in real-time, providing transparency and peace of mind. Users can access detailed tracking information, including, real-time updates, tracking numbers, and delivery notifications.
+    </Accordion>
+  </Tab>
+</Tabs>
+
+***
+
+## Getting Started
+
+<Tabs>
+  <Tab title="Account Setup">
+    <Cards columns={2}>
+      <Card title="Add Shipping Account" href="https://docs.intersoftsapient.net/docs/add-an-post-shipping-account" icon="fa-solid fa-truck">
+        Access the step-by-step guide on how to set up An Post shipping account on SAPIENT.
+      </Card>
+
+      <Card title="Add Tracking Account" href="https://docs.intersoftsapient.net/docs/add-an-post-tracking-account" icon="fa-solid fa-search-location">
+        Access the step-by-step guide on how to set up An Post tracking account on SAPIENT.
+      </Card>
+    </Cards>
+  </Tab>
+
+  <Tab title="Advanced Features">
+    <Cards columns={2}>
+      <Card title="Add Barcode Ranges" href="https://docs.intersoftsapient.net/docs/add-barcode-range-for-an-post-shipping-account" icon="fa-solid fa-barcode">
+        Add barcode ranges to facilitate efficient tracking and management of shipments.
+      </Card>
+    </Cards>
+  </Tab>
+
+  <Tab title="API References">
+    <Cards columns={2}>
+      <Card title="SAPIENT An Post API " href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-anpost" icon="fa-solid fa-code">
+        Explore the An Post API endpoints for a seamless shipping experience.
+      </Card>
+    </Cards>
+  </Tab>
+</Tabs>
+
+<Banner isInline={true} message="Ready to integrate?" color="#ffb600" textColor="#ffffff" fontSize="20px" fontWeight="bold" width="120px" />
+
+<Cards columns={0}>
+  <Card title="Activate this integration" href="https://docs.intersoftsapient.net/docs/integration-activation#/" icon="fa-solid fa-circle-play fa-beat" target="_blank">
+    Seamlessly connect with An Post and manage your shipping operations from a single platform.
+  </Card>
+</Cards>
+
+<br />
