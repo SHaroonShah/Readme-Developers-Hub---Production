@@ -1,7 +1,7 @@
 ---
 title: Switch account to production
 excerpt: >-
-  The switching of the account from **Sandbox** to the **Production**
+  The switching of the shipping account from **Sandbox** to the **Production**
   environment occurs after thorough testing is completed in the **Sandbox**
   environment, ensuring that all functionalities work as intended, bugs have
   been fixed, and performance is optimised.
@@ -23,11 +23,10 @@ To set up the  Production <Glossary>Shipping Account</Glossary>, perform the fol
 
 > 🚧 _Important_
 >
-> _Please ensure to enter the Posting Location Number Postcode in the **Shipping Locations** screen in SAPIENT which must match the Posting Location Number Postcode provided in the Royal Mail OBA._
+> _Please ensure to enter the Posting Location Number Postcode in the **Shipping Locations** screen in SAPIENT,  which must match the Posting Location Number Postcode provided in the Royal Mail OBA._
 
 2. After switching the Shipping Account to **Production**, an automatic request is sent to the Royal Mail OBA API. Depending on the account details provided, the system either accept it or reject it.
-3. If the OBA request is accepted, the **Account Status** changes from **Pending** to **Enabled**. Otherwise, it remains in the **Pending** state and you need to go back, fill in the correct Royal Mail account details and send the request again.  
-   You will be unable to use the Production Shipping Account until the Account Status is Enabled.
+3. If the OBA request is accepted, the **Account Status** changes from **Pending** to **Enabled**. Otherwise, it remains in the **Pending** state and you need to go back, fill in the correct Royal Mail account details and send the request again. You will be unable to use the **Production** Shipping Account until the Account Status is **Enabled**.
 
 <Callout icon="💡" theme="default">
   ### _Tip_
@@ -35,7 +34,7 @@ To set up the  Production <Glossary>Shipping Account</Glossary>, perform the fol
   _The Shipping Account you set up previously stay as the **Sandbox** account type and you can continue using it for testing purposes._
 </Callout>
 
-4. If you are a Freight 2 Post customer, ensure that [International Arrival Containers (A-scan)](https://docs.intersoftsapient.net/docs/add-barcode-range-for-international-arrival-containers)  is set up with valid details provided to you by Intersoft Onboarding team.
+4. If you are a Freight 2 Post customer, ensure that [International Arrival Containers (A-scan)](https://docs.intersoftsapient.net/docs/add-barcode-range-for-international-arrival-containers)  is set up with valid details provided to you by INTERSOFT Onboarding team.
 5. After, you you can proceed with the **label sign off** required by Royal Mail. The sign off depends on what type of Royal Mail you are:
 
 * **Royal Mail importers using Commercial Clearance route and Tracked High Volume customers**: involves physical label sign off—where you are requested to create couple of labels, manifest them, print them out using your production printers and ship them to Royal Mail for review and quality testing.
@@ -49,8 +48,7 @@ The full details on this are shared with you closer to the date.
 <Callout icon="⚠️" theme="warning">
   ### _Important_
 
-  _Once you go-live any technical issues should be raised directly with our Tech Support team by following the steps listed [here](https://docs.intersoftsapient.net/docs/troubleshooting#/)._
-  _Enquiries regarding addition of the new services, features etc. should be continued being sent to [onboarding@intersoft.co.uk](mailto:onboarding@intersoft.co.uk)._
+  _Once you go-live any technical issues should be raised directly with our Tech Support team by following the steps listed [here](https://docs.intersoftsapient.net/docs/troubleshooting#/)._ _Enquiries regarding addition of the new services, features etc. should be continued being sent to [onboarding@intersoft.co.uk](mailto:onboarding@intersoft.co.uk)._
 </Callout>
 
 ***
