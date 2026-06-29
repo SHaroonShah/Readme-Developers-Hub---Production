@@ -13,62 +13,170 @@ metadata:
 
 DPD are one of the leading delivery carriers in the UK, shipping domestically and internationally, offering a range of next-day and timed delivery with our 1-hour delivery window sent to customers via text or email on the morning of delivery, DPD also offer worldwide deliveries.
 
-## Key features
+## Overview
 
-This integration provides the following key features:
+<Tabs>
+  <Tab title="Key Features">
+    <Cards columns={2}>
+      <Card title="Shipping Origins" icon="fa-map-marker-alt">
+        The integration supports shipping from locations in Great Britain (GB) only.
+      </Card>
 
-* **Ship from destinations**: The integration supports shipping from locations in Great Britain (GB) only.
-* **Ship To Destinations**: Users can send shipments to Great Britain (GB), Europe (EU), and the Rest of the World (<Glossary>ROW</Glossary>).
-* **Service Type**: The integration is focused on outbound shipping.
-* **Incoterms**: <Glossary>DAP</Glossary> and <Glossary>DDP</Glossary>.
-* **Label formats**: <Glossary>PDF</Glossary>
+      <Card title="Shipping Destinations" icon="fa-solid fa-globe">
+        Users can send shipments to Great Britain (GB), Europe, and the Rest of the World (<Glossary>ROW</Glossary>).
+      </Card>
 
-## Service enhancements
+      <Card title="Service Type" icon="fa-solid fa-shipping-fast">
+        The integration is focused on outbound shipping.
+      </Card>
 
-The following are the key services are provided by the DPD UK integration:
+      <Card title="Incoterms Support" icon="fa-solid fa-file-contract">
+        The integration supports <Glossary>DAP</Glossary> and <Glossary>DDP</Glossary> incoterms.
+      </Card>
 
-* **Proof of Identity**: Requires the receiver to present valid identification at the point of delivery.
-* **Proof of Age**: Ensures the recipient meets a minimum age requirement, like for age-restricted goods.
-* **Pin Required**: A secure PIN is sent to the receiver, which must be provided upon delivery.
-* **Pin Required & Proof of Age**: Requires PIN and age verification at the point of delivery for added security.
+      <Card title="Label Formats" icon="fa-solid fa-tag">
+        The integration supports labels in the <Glossary>PDF</Glossary> format.
+      </Card>
+    </Cards>
 
-<Callout icon="💡" theme="default">
-  ### _Tip_
+    <br />
+  </Tab>
 
-  _For more information on the service enhancements and carrier services, refer to the following endpoints:_
+  <Tab title="Additional Features">
+    <Cards columns={2}>
+      <Card title="Consignment Services" icon="fa-cubes">
+        The integration supports consignment services, and DPD UK allows a maximum of 99 packages per consignment.<br />
 
-  * [_Create Shipment_](https://docs.intersoftsapient.net/reference/post_v4-shipments-dpduk)
-  * [_Get Carrier Services_](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services)
-</Callout>
+        > *Please bear in mind that not all services offer consignment options.*
+      </Card>
 
-## Additional features
+      <Card title="Carrier-Specifics" icon="fa-map-marker-alt">
+        The **CarrierSpecifics** object in the **Create Shipment** request contains the **DeliveryInstructions** field to provide any additional instructions to the carrier regarding the delivery of the shipment
+      </Card>
+    </Cards>
+  </Tab>
 
-The DPD UK integration provides the following additional features:
+  <Tab title="Service Enhancements">
+    <Cards columns={2}>
+      <Card title="Proof of Identity" icon="fa-solid fa-id-card">
+        Requires the receiver to present valid identification at the point of delivery.
+      </Card>
 
-* **Consignment services**:  Consignment services are supported, and DPD UK allows a maximum of 99 packages per consignment.
+      <Card title="Proof of Age" icon="fa-solid fa-calendar-circle-user">
+        Ensures the recipient meets a minimum age requirement, like for age-restricted goods.
+      </Card>
 
-> 📘 _Note_
->
-> _Please bear in mind that not all services offer consignment options._
+      <Card title="Pin Required" icon="fa-solid fa-location-pin-lock">
+        A secure PIN is sent to the receiver, which must be provided upon delivery.
+      </Card>
 
-* **Carrier specific fields**: The **CarrierSpecifics** object in the **Create Shipment** endpoint contains the following field:
-  * **DeliveryInstructions**: To provide any additional instructions to the carrier regarding the delivery of the shipment.
+      <Card title="Pin Required & Proof of Age" icon="fa-solid fa-location-pin-lock">
+        Requires PIN and age verification at the point of delivery for added security.
+      </Card>
+    </Cards>
 
-## Integration types
+    <br />
 
-The following API services are provided by the DPD UK integration:
+    <Callout icon="💡" theme="default">
+      ### *Tip*
 
-* **Label integration**: The system generates the label by populating a stored label template with the relevant shipment data.
-* **Manifest integration**: A crucial API for DPD UK that generates an electronic manifest data file in the SAPIENT's default PDF format and send it to DPD UK via SFTP.
-* **Tracking integration**: Enables data files to be sent via SFTP and received through the SAPIENT tracking webhook.
+      *For more information on the service enhancements and carrier services, refer to the following endpoints:*
+
+      * *[Create Shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-dpduk)*
+      * *[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services)*
+    </Callout>
+  </Tab>
+
+  <Tab title="Carrier Services">
+    The following key services are provided by the DPD UK integration.
+
+    | Service Name                                  | Description                                                                                                                                                                                    |
+    | :-------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+    | **DPD 10:30** (including Saturday and Sunday) | This service provides next-working-day delivery by 10:30 AM, including weekend delivery options, ensuring time-critical shipments arrive early with full tracking visibility.                  |
+    | \*\*DPD 12:00 \*\*(including Saturday)        | This service provides next-working-day delivery by 12:00 PM, including Saturday delivery, offering a reliable timed option for urgent parcels with tracking and delivery notifications.        |
+    | **DPD Next Day**                              | This service provides next-working-day delivery across the UK by close of business, including tracking, delivery notifications, and flexible delivery options for recipients.                  |
+    | **Freight - Next Day**                        | This service provides next-working-day delivery for heavier or bulk shipments, ensuring time-critical freight is transported efficiently within the UK distribution network.                   |
+    | **International Classic**                     | This service provides reliable, cost-effective road-based delivery to European destinations, offering standard transit times with full tracking and parcel visibility.                         |
+    | **International Air Express**                 | This service provides fast international delivery via an air network, offering expedited transit times, global coverage, and full tracking for urgent shipments worldwide.                     |
+    | **DPD Direct**                                | This service provides international delivery solutions for e-commerce shipments, combining parcel delivery with customs clearance, tracking, and end-to-end visibility to global destinations. |
+    | **DPD Direct Ireland**                        | This service provides dedicated delivery from the UK to Ireland, including customs handling, reliable transit times, and full tracking for cross-border shipments.                             |
+
+    <br />
+
+    <Callout icon="💡" theme="default">
+      ### *Tip*
+
+      *For the most up-to-date carrier services, use the[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint.*
+    </Callout>
+  </Tab>
+</Tabs>
 
 ***
 
-In this section, learn now to:
+## API Services
 
-* <Anchor label="Add a DPD UK shipping account" target="_blank" href="https://docs.intersoftsapient.net/docs/add-dpd-uk-shipping-account">Add a DPD UK shipping account</Anchor>
-* <Anchor label="Add a DPD UK tracking account" target="_blank" href="https://docs.intersoftsapient.net/docs/add-dpd-uk-tracking-account">Add a DPD UK tracking account</Anchor>
+<Tabs>
+  <Tab title="Core Services">
+    <Accordion title="Create Shipment">
+      The integration for creating shipments to reflect DPD UK as a primary carrier and allowing users to create shipments using the **Create Shipment** endpoint.
+    </Accordion>
 
-> 📘 _Note_
->
-> _For more information on how to activate the DPD UK integration, refer to the [Activate integration](https://docs.intersoftsapient.net/docs/integration-activation#/) section._
+    <br />
+
+    <Accordion title="Manifest">
+      A crucial API for DPD UK that generates an electronic manifest data file in the SAPIENT's default PDF format and send it to DPD UK via SFTP.
+    </Accordion>
+
+    <br />
+  </Tab>
+
+  <Tab title="Other Services">
+    <Accordion title="Print Label">
+      Generate and return the label for a DPD UK shipment. This endpoint must be utilised when the label is not generated in the DPD UK Create Shipment request.
+
+      > 📘 *Note*
+      >
+      > *This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting.*
+    </Accordion>
+
+    <br />
+
+    <Accordion title="Tracking">
+      This integration allows customers to monitor their shipments in real-time, providing transparency and peace of mind. Users can access detailed tracking information, including, real-time updates, tracking numbers, and delivery notifications.
+    </Accordion>
+  </Tab>
+</Tabs>
+
+***
+
+## Getting Started
+
+<Tabs>
+  <Tab title="Account Setup">
+    <Cards columns={2}>
+      <Card title="Add DPD UK Shipping Account" icon="fa-solid fa-truck" href="https://docs.intersoftsapient.net/docs/add-dpd-uk-shipping-account">
+        Set up your DPD UK shipping account to start creating shipments.
+      </Card>
+
+      <Card title="Add DPD UK Tracking Account" icon="fa-solid fa-search-location" href="https://docs.intersoftsapient.net/docs/add-dpd-uk-tracking-account">
+        Configure tracking for your DPD UK shipments.
+      </Card>
+    </Cards>
+  </Tab>
+
+  <Tab title="API References">
+    <Cards>
+      <Card title="SAPIENT DPD UK API" icon="fa-solid fa-code" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-dpduk">
+        Explore the DPD UK API endpoints for a seamless shipping experience.
+      </Card>
+    </Cards>
+  </Tab>
+</Tabs>
+
+<Banner isInline={true} message="Ready to integrate?" color="#ffb600" textColor="#ffffff" fontSize="20px" fontWeight="bold" width="120px" />
+
+<Cards columns={0}>
+  <Card title="Activate this integration" href="https://docs.intersoftsapient.net/docs/integration-activation#/" icon="fa-solid fa-circle-play fa-beat" target="_blank">
+    Seamlessly connect with DPD UK and manage your shipping operations from a single platform.
+  </Card>
+</Cards>
