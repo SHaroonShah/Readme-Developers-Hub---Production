@@ -14,9 +14,29 @@ metadata:
 ---
 The introduction of the new services represents a comprehensive approach to international and domestic shipping needs. Some international services require a partner label for completing the final mile delivery.
 
-A _partner label_ is a shipping label utilised in collaboration with other carriers, which facilitates the last-mile delivery of shipments. For Royal Mail, partners such as GLS and FedEx will use these partner labels to manage the final stages of delivery to the recipient outside the UK.
+<Columns layout="auto">
+  <Column>
+    ### What is a partner label?
 
-Partner label involves utilising two separate labels on a shipment to reflect both the originating carrier (Royal Mail) and the partner carrier (GLS or FedEx) responsible for the last-mile delivery. Therefore, for services using partner labels, SAPIENT will generate both the Royal Mail and partner label and return them in the Create Shipment response. This dual labelling mechanism helps streamline the logistics process and enhances tracking and accountability throughout the delivery journey. By utilising partners, Royal Mail aims to provide an enhanced service that meets customer expectations around the globe.
+    A *partner label* is a shipping label utilised in collaboration with other carriers, which facilitates the last-mile delivery of shipments. For Royal Mail, partners such as GLS and FedEx will use these partner labels to manage the final stages of delivery to the recipient outside the UK.
+
+    Partner label involves utilising two separate labels on a shipment to reflect both the originating carrier (Royal Mail) and the partner carrier (GLS or FedEx) responsible for the last-mile delivery. For services using partner labels, SAPIENT will generate both the Royal Mail and partner label and return them in the Create Shipment response.
+  </Column>
+
+  <Column>
+    ### Partner carriers
+
+    <Cards columns={1}>
+      <Card title="GLS" icon="fa-solid fa-truck">
+        Handles last-mile delivery for European services (EUROPRIORITY, IRELAND EXPRESS).
+      </Card>
+
+      <Card title="FedEx" icon="fa-solid fa-plane">
+        Handles last-mile delivery for global services (GLOBALEXPRESS).
+      </Card>
+    </Cards>
+  </Column>
+</Columns>
 
 > 🚧 _Important_
 >
@@ -65,8 +85,10 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
 
   ## API request and response for partner label
 
-  ```
-  {
+  <Tabs>
+    <Tab title="Request">
+      ```json
+      {
          "Shipper": {
        "ShippingAccountId": "27676a50-afe3-42be-bbdf-a46a51046bb8",
           "ShippingLocationID": "a46ce242-9235-4fce-a1bc-b15d45f02517",
@@ -115,7 +137,7 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
           "ServiceLevel": "01",
           "EbayVtn": "",
           "ServiceEnhancements": [          
-  ]
+      ]
       },
       "Packages": [
           {
@@ -170,39 +192,52 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
               "CountryCode": "GB"
           }
       }
-  }
+      }
+      ```
+    </Tab>
 
-  RESPOSNE
-
-  {
-  “Labels”: label string
-       "LabelFormat": "PDF",
-      "Packages": [
-          {
-              "CarrierDetails": {
-                  "UniqueId": "4F0069786000000E452FE",
-                  "PartnerDetails": {
-                      "PartnerName": "FedEx",
-                      "PartnerCode": "FedEx",
-                      "PartnerTrackingNumber": "794880860709",
-                      "PartnerTrackingUrl": "https://www.fedex.com/wtrk/track/?trknbr=794880860709"
-                  }
-              },
-              "ShipmentId": "f4fb041e-0d28-4370-95b3-4e09b1938cf8",
-              "PackageOccurrence": 1,
-              "TrackingNumber": "EI000055401GB",
-              "CarrierTrackingUrl": "https://www.royalmail.com/track-your-item#/tracking-results/EI000055401GB"
-          }
-      ]
-  }
-
-  ```
+    <Tab title="Response">
+      ```json
+      {
+          "Labels": "label string",
+          "LabelFormat": "PDF",
+          "Packages": [
+              {
+                  "CarrierDetails": {
+                      "UniqueId": "4F0069786000000E452FE",
+                      "PartnerDetails": {
+                          "PartnerName": "FedEx",
+                          "PartnerCode": "FedEx",
+                          "PartnerTrackingNumber": "794880860709",
+                          "PartnerTrackingUrl": "https://www.fedex.com/wtrk/track/?trknbr=794880860709"
+                      }
+                  },
+                  "ShipmentId": "f4fb041e-0d28-4370-95b3-4e09b1938cf8",
+                  "PackageOccurrence": 1,
+                  "TrackingNumber": "EI000055401GB",
+                  "CarrierTrackingUrl": "https://www.royalmail.com/track-your-item#/tracking-results/EI000055401GB"
+              }
+          ]
+      }
+      ```
+    </Tab>
+  </Tabs>
 
   ## Partner label template example
 
-  <Image align="center" src="https://files.readme.io/dc8ee4c38fbca556406dffd6bed5af8af1336871730ec786bdbaf1d9ebf0e238-image.png" width="300px" />
+  <Columns layout="auto">
+    <Column>
+      **Royal Mail label**
 
-  <Image align="center" border={true} src="https://files.readme.io/bb0e617b2ad053080ffaa51ae2d32b289789aa07072e167b07b835f4c6773e2a-image.png" width="300px" />
+      <Image align="center" src="https://files.readme.io/dc8ee4c38fbca556406dffd6bed5af8af1336871730ec786bdbaf1d9ebf0e238-image.png" width="300px" />
+    </Column>
+
+    <Column>
+      **Partner label**
+
+      <Image align="center" border={true} src="https://files.readme.io/bb0e617b2ad053080ffaa51ae2d32b289789aa07072e167b07b835f4c6773e2a-image.png" width="300px" />
+    </Column>
+  </Columns>
 
   <br />
 </Accordion>
@@ -282,9 +317,11 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
 
   ## API request and response for domestic label
 
-  ```
-  <?xml version="1.0" encoding="UTF-8"?>
-  <createShipmentRequest>
+  <Tabs>
+    <Tab title="Request">
+      ```xml
+      <?xml version="1.0" encoding="UTF-8"?>
+      <createShipmentRequest>
       <integrationHeader>
           <transactionId>BCMYH-ZOOFY-XPRKB-FKCCT-NYUGH-ZY</transactionId>
           <applicationId>XXXXX</applicationId>
@@ -371,34 +408,36 @@ Partner label involves utilising two separate labels on a shipment to reflect bo
                       </itemInformation>
                   </shipmentInformation>
               </shipment>
-    </createShipmentRequest>
+        </createShipmentRequest>
+      ```
+    </Tab>
 
-  RESPONSE
-
-  <createShipmentResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-      <integrationHeader>
-          <dateTimeStamp>2025-07-09 08:20</dateTimeStamp>
-          <transactionId>BCMYH-ZOOFY-XPRKB-FKCCT-NYUGH-ZY</transactionId>
-          <applicationId>XXXXXXX</applicationId>
-      </integrationHeader>
-      <completedShipment>
-          <packages>
-              <package>
-                  <packageId>1</packageId>
-                  <trackingNumber>PK000450027GB</trackingNumber>
-                  <uniqueId>28006978600000032D60B</uniqueId>
-                  <packageTrackingUrl>http://www.royalmail.com/portal/rm/track?trackNumber=PK000450027GB</packageTrackingUrl>
-                  <formattedUniqueId>28006978600000032D60B</formattedUniqueId>
-              </package>
-          </packages>
-          <carrierCode>RYML</carrierCode>
-          <labelImage>image String</labelImage>
-          <labelImageFormat>PDF</labelImageFormat>
-      </completedShipment>
-  </createShipmentResponse>
-
-
-  ```
+    <Tab title="Response">
+      ```xml
+      <createShipmentResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <integrationHeader>
+              <dateTimeStamp>2025-07-09 08:20</dateTimeStamp>
+              <transactionId>BCMYH-ZOOFY-XPRKB-FKCCT-NYUGH-ZY</transactionId>
+              <applicationId>XXXXXXX</applicationId>
+          </integrationHeader>
+          <completedShipment>
+              <packages>
+                  <package>
+                      <packageId>1</packageId>
+                      <trackingNumber>PK000450027GB</trackingNumber>
+                      <uniqueId>28006978600000032D60B</uniqueId>
+                      <packageTrackingUrl>http://www.royalmail.com/portal/rm/track?trackNumber=PK000450027GB</packageTrackingUrl>
+                      <formattedUniqueId>28006978600000032D60B</formattedUniqueId>
+                  </package>
+              </packages>
+              <carrierCode>RYML</carrierCode>
+              <labelImage>image String</labelImage>
+              <labelImageFormat>PDF</labelImageFormat>
+          </completedShipment>
+      </createShipmentResponse>
+      ```
+    </Tab>
+  </Tabs>
 
   ## Domestic label template example
 
