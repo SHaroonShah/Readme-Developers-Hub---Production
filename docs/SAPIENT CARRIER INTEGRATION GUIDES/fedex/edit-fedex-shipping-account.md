@@ -47,4 +47,10 @@ Once the changes are saved, the shipping account is updated successfully.
 
 ## See also
 
-* [Delete shipping account](https://docs.intersoftsapient.net/docs/delete-shipping-account#/)
+<Cards columns="1">
+  <Card title="Delete Account" href="https://docs.intersoftsapient.net/docs/delete-shipping-account#/" icon="fa-solid fa-trash">
+    Remove shipping accounts that are no longer needed or have been disabled.
+  </Card>
+</Cards>
+
+<br />
