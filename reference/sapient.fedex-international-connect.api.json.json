@@ -1,7 +1,7 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "SAPIENT FEDEX INTERNATIONAL CONNECT API",
+    "title": "FEDEX INTERNATIONAL CONNECT API",
     "description": "# Introduction\nHere you will find requirements for integrating with SAPIENT CORE API.\n\nThe documentation specifically covers how the API can be used by business customers to conduct shipping activity with available carriers and provides the technical information to build this integration. The API allows customers to create and manage shipments, produce labels, customs documentation, and collection manifests, retrieve reference data such as carriers and countries, and maintain their own data such as shipping account details.\n\nIntersoft API is a fully RESTful service implemented using JSON messaging. You, as the customer are responsible for sending JSON messages and for maintaining the capability of receiving JSON messages in the format described in this specification. Request and response examples for each API service are included in this specification.\n\n# Authentication\n\nThe SAPIENT CORE API uses OAuth2 authentication.\n\nTo request the authorization token you need to create API credentials (Client ID and Secret) on the system first. If you have not done it already, log into your account and go to API Credentials or follow the link [add a link here with the path to the API Credentials menu]. Use the credentials to retrieve the authorization token.\n\nNote: Make sure you copy the Secret and keep it secure as you won't be able to view it again on the system.\n\n<!-- ReDoc-Inject: <SecurityDefinitions /> -->\n",
     "version": "v4.0-FIC",
     "x-logo": {
@@ -86,7 +86,7 @@
                     "value": {
                       "ShippingAccounts": [
                         {
-                          "ShippingAccountId": "3d8f8f32-c464-4500-9081-10201e121c8c",
+                          "ShippingAccountId": "634f6660-7628-47d8-b5dd-84f83d6654bb",
                           "CarrierCode": "FIC",
                           "AccountType": "Sandbox",
                           "AccountName": "AB VideoGames",
@@ -96,10 +96,10 @@
                           "ContactNumber": "0123456789",
                           "ShipperWebsiteUrl": "https://www.example.com",
                           "LastUpdatedBy": "User A",
-                          "LastUpdatedDateUtc": "2026-06-10T08:38:10.406Z"
+                          "LastUpdatedDateUtc": "2026-06-30T08:54:21.262Z"
                         },
                         {
-                          "ShippingAccountId": "7e3243b9-a227-490f-8a44-dc4569eec0c3",
+                          "ShippingAccountId": "d923d941-b3ce-43ba-b413-e4e35fa6afc9",
                           "CarrierCode": "FIC",
                           "AccountType": "Sandbox",
                           "AccountName": "KG Pet Shop",
@@ -109,7 +109,7 @@
                           "ContactNumber": "0123456789",
                           "ShipperWebsiteUrl": "https://www.example.com",
                           "LastUpdatedBy": "User B",
-                          "LastUpdatedDateUtc": "2026-06-10T08:38:10.407Z"
+                          "LastUpdatedDateUtc": "2026-06-30T08:54:21.262Z"
                         }
                       ],
                       "TotalCount": 2
@@ -258,7 +258,7 @@
                 "examples": {
                   "Response": {
                     "value": {
-                      "ShippingAccountId": "afda126b-f76d-4ecd-aab6-1c398a000a7a",
+                      "ShippingAccountId": "7190e60d-de3c-4a23-be54-0623213c99cc",
                       "CarrierCode": "FIC",
                       "AccountType": "Sandbox",
                       "AccountName": "AB VideoGames",
@@ -268,7 +268,7 @@
                       "ContactNumber": "0123456789",
                       "ShipperWebsiteUrl": "https://www.example.com",
                       "LastUpdatedBy": "User A",
-                      "LastUpdatedDateUtc": "2026-06-10T08:38:10.692Z"
+                      "LastUpdatedDateUtc": "2026-06-30T08:54:21.668Z"
                     }
                   }
                 }
@@ -651,8 +651,8 @@
                       "CurrencyCode": "GBP"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "b75b3705-db48-41b7-a7bc-c028f88a1ae3",
-                      "ShippingLocationId": "4ad70965-da76-4fa6-94ea-b382aba1d93f",
+                      "ShippingAccountId": "aa0dc7e2-1351-4f05-89c0-f65f7561f6bf",
+                      "ShippingLocationId": "80be2330-f178-4bc4-a164-eeacbdd9462c",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -689,7 +689,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "RM48",
                       "DescriptionOfGoods": "Clothing",
-                      "ShipmentDate": "2026-06-10",
+                      "ShipmentDate": "2026-06-30",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
@@ -787,7 +787,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "TPWW",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-06-10",
+                      "ShipmentDate": "2026-06-30",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP"
                     },
@@ -860,7 +860,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "TPWW",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-06-10",
+                      "ShipmentDate": "2026-06-30",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
@@ -946,7 +946,7 @@
                       "OtherCharges": 32,
                       "QuotedLandedCost": 82.74,
                       "InvoiceNumber": "INV-12345",
-                      "InvoiceDate": "2026-06-10",
+                      "InvoiceDate": "2026-06-30",
                       "ExportLicenceRequired": false,
                       "Airn": "231.002.999-00"
                     },
@@ -974,7 +974,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "RM48",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-06-10",
+                      "ShipmentDate": "2026-06-30",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
@@ -1019,7 +1019,7 @@
                     "value": {
                       "Packages": [
                         {
-                          "ShipmentId": "25090949-a744-4910-bfff-4afafe4e411f",
+                          "ShipmentId": "5fe8db8f-6340-4308-8f12-11e1ceb0a4e3",
                           "PackageOccurrence": 1
                         }
                       ],
@@ -1030,7 +1030,7 @@
                     "value": {
                       "Packages": [
                         {
-                          "ShipmentId": "7103fe4d-2c38-40f1-818d-9abe9d15c4e3",
+                          "ShipmentId": "80289ca0-8d48-4014-ae44-c7a3e3d87317",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "MD000000004409629",
                           "CarrierTrackingUrl": "https://fictracking.fedex.com/?MyFICNumber=MD000000004409629"
@@ -1048,7 +1048,7 @@
                           "CarrierDetails": {
                             "LabelCopiesToPrint": 1
                           },
-                          "ShipmentId": "c29b02a0-6af6-4e08-920f-441ed5979b2d",
+                          "ShipmentId": "ccecaf0c-24d5-41b6-a8c9-0f22204bd5aa",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "MD000000004409629",
                           "CarrierTrackingUrl": "https://fictracking.fedex.com/?MyFICNumber=MD000000004409629"
@@ -1137,7 +1137,7 @@
                 "examples": {
                   "PDF": {
                     "value": {
-                      "ShipmentId": "116df538-b6b6-422b-9707-1e0f84befb6b",
+                      "ShipmentId": "e4577f31-57d7-4c0f-b94d-0a0395bcc0ac",
                       "TrackingNumber": "UZ 123 456 789 IE",
                       "CarrierTrackingUrl": "https://fictracking.fedex.com/?MyFICNumber=UZ 123 456 789 IE",
                       "Label": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
@@ -1894,6 +1894,7 @@
         "required": [
           "AccountAlias",
           "AccountName",
+          "AccountNumber",
           "AccountStatus",
           "AccountType",
           "CarrierCode",
@@ -1918,9 +1919,9 @@
             "example": "RM"
           },
           "AccountNumber": {
+            "minLength": 1,
             "type": "string",
             "description": "Carrier Account Number<br/>The account number generated by the system.",
-            "nullable": true,
             "example": "0123456789"
           },
           "AccountType": {
@@ -2235,6 +2236,18 @@
             "description": "An abbreviation representing the country where the item was manufactured or produced, following the ISO 3166-1 alpha-2 standard, for example,  \"GB\" for the United Kingdom. This information is important for customs declarations and compliance with import/export regulations.\r<br />\r<br />***Note:** Depending on the carrier and destination country, this information may be required for dutiable shipments.*",
             "nullable": true,
             "example": "GB"
+          },
+          "ManufactureProductId": {
+            "maxLength": 50,
+            "type": "string",
+            "description": "A unique manufacturer identifier for the item being shipped, for example, proprietary manufacturer code, model number, or internal code. This field is used to reference the shipped item and supports carrier-specific requirements.",
+            "nullable": true
+          },
+          "StandardisedProductId": {
+            "maxLength": 50,
+            "type": "string",
+            "description": "A globally recognised product identifier for the item being shipped, for example, GTIN, EAN, and UPC. This field is used for standardised item identification and supports carrier-specific requirements for customs and risk assessment.",
+            "nullable": true
           },
           "SupplementaryUnits": {
             "maximum": 10000000000000000,
