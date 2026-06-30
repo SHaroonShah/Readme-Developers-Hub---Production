@@ -23,7 +23,7 @@ In SAPIENT, you can add tracking accounts for FedEx International Connect to enh
 >
 > _If you wish to receive the tracking events via Intersoft using the tracking account you have created, make sure it is is activated by the FedEx International Connect team._
 
-## How to add Amazon tracking account
+## How to add FedEx International Connect tracking account
 
 To add a tracking account for Amazon in SAPIENT, follow the steps as explained in the following procedure.
 
@@ -57,7 +57,7 @@ To add a tracking account for Amazon in SAPIENT, follow the steps as explained i
 
     On the **Add Tracking account** page that appears, in the **DETAILS** block, enter the necessary information as explained in the following table.
 
-        <Image align="center" src="https://files.readme.io/816583c0d60131ab3e91abb8978903f5e8bc2e40ee4281444841dfc5dcc8db54-image.png" width="500px" />
+    <Image align="center" src="https://files.readme.io/816583c0d60131ab3e91abb8978903f5e8bc2e40ee4281444841dfc5dcc8db54-image.png" width="500px" />
 
     <br />
 
