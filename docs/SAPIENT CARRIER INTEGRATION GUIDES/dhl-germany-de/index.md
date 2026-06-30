@@ -10,7 +10,7 @@ icon: fad fa-truck-fast
 metadata:
   robots: index
 ---
-<Image align="center" width="900px" src="https://files.readme.io/69e32b34cc4006cc3d36ccac8b71078afbcf52de6c1037141797562e6aaf37b2-DHL_DE_banner_white.png" />
+<Image align="center" width="900px" src="https://files.readme.io/1c75f5e50dcdc7dfcdde00afa6ddf1f96bb34d0a329a8f93155a21e02605cc47-DHL_DE_banner_white.png" />
 
 ***
 
