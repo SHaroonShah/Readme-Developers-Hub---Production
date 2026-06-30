@@ -1,7 +1,7 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "SAPIENT DX API",
+    "title": "DX API",
     "description": "# Introduction\nHere you will find requirements for integrating with INTERSOFT SAPIENT API.\n\nThe documentation specifically covers how the API can be used by business customers to conduct shipping activity with available carriers and provides the technical information to build this integration. The API allows customers to create and manage shipments, produce labels, customs documentation, and collection manifests, retrieve reference data such as carriers and countries, and maintain their own data such as shipping account details.\n\nIntersoft API is a fully RESTful service implemented using JSON messaging. You, as the customer are responsible for sending JSON messages and for maintaining the capability of receiving JSON messages in the format described in this specification. Request and response examples for each API service are included in this specification.\n\n# Authentication\n\nThe INTERSOFT SAPIENT API uses OAuth2 authentication.\n\nTo request the authorization token you need to create API credentials (Client ID and Secret) on the system first. If you have not done it already, log into your account and go to API Credentials or follow the link [add a link here with the path to the API Credentials menu]. Use the credentials to retrieve the authorization token.\n\nNote: Make sure you copy the Secret and keep it secure as you won't be able to view it again on the system.\n\n<!-- ReDoc-Inject: <SecurityDefinitions /> -->\n",
     "version": "v4.0-DX",
     "x-logo": {
@@ -95,7 +95,7 @@
                       "ContactNumber": "0123456789",
                       "Username": "Username1",
                       "LastUpdatedBy": "User A",
-                      "LastUpdatedDateUtc": "2026-06-10T08:09:56.007Z"
+                      "LastUpdatedDateUtc": "2026-06-30T08:49:52.096Z"
                     },
                     {
                       "ShippingAccountId": "46d58272-5f6a-405d-a947-c46c9caea56f",
@@ -109,7 +109,7 @@
                       "ContactNumber": "0123456789",
                       "Username": "Username2",
                       "LastUpdatedBy": "User B",
-                      "LastUpdatedDateUtc": "2026-06-10T08:09:56.007Z"
+                      "LastUpdatedDateUtc": "2026-06-30T08:49:52.096Z"
                     }
                   ],
                   "TotalCount": 2
@@ -265,7 +265,7 @@
                   "ContactNumber": "0123456789",
                   "Username": "Username",
                   "LastUpdatedBy": "User A",
-                  "LastUpdatedDateUtc": "2026-06-10T08:09:56.474Z"
+                  "LastUpdatedDateUtc": "2026-06-30T08:49:52.490Z"
                 }
               }
             }
@@ -642,12 +642,12 @@
                       "ContentType": "NDX",
                       "ServiceCode": "SB",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-06-10",
+                      "ShipmentDate": "2026-06-30",
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "9f33512f-b28b-44b7-8c92-7025bac86c83",
+                      "ShippingAccountId": "d1207445-396c-488a-bf6f-6122b047f504",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -684,14 +684,14 @@
                       "ContentType": "NDX",
                       "ServiceCode": "SB",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-06-10",
+                      "ShipmentDate": "2026-06-30",
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "d3b0a695-f267-44bd-9544-b053e3ec850c",
-                      "ShippingLocationId": "89093ac9-5bcf-4536-aaf3-d5a946458cf3",
+                      "ShippingAccountId": "4de4c59b-33ed-4c0c-85e8-5604facd8665",
+                      "ShippingLocationId": "42ebdd9f-55b0-47ca-ba96-b024bf812db4",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -762,12 +762,12 @@
                       "ContentType": "NDX",
                       "ServiceCode": "SB",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-06-10",
+                      "ShipmentDate": "2026-06-30",
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "3e2213d9-0504-430b-9347-c2cb9ab14e61",
+                      "ShippingAccountId": "1e715c2b-892d-469a-8034-2ac898bce61a",
                       "Reference1": "OrderRef56",
                       "EoriNumber": "GB213456789000",
                       "VatNumber": "GB213456789"
@@ -835,14 +835,14 @@
                       "ContentType": "NDX",
                       "ServiceCode": "SB",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-06-10",
+                      "ShipmentDate": "2026-06-30",
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "0fc66f1b-ab8a-45b3-a3bb-71fe63e606bc",
-                      "ShippingLocationId": "bf19bf4c-0d45-4c47-8eec-ba9f3ed50cb0",
+                      "ShippingAccountId": "64c2c83b-cafe-4096-8032-9e617bcc8471",
+                      "ShippingLocationId": "7c479fb0-9720-4f5f-acfc-5897e8860fb3",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -914,7 +914,7 @@
                       "OtherCharges": 32,
                       "QuotedLandedCost": 82.74,
                       "InvoiceNumber": "INV-12345",
-                      "InvoiceDate": "2026-06-10",
+                      "InvoiceDate": "2026-06-30",
                       "ExportLicenceRequired": false,
                       "Airn": "231.002.999-00"
                     }
@@ -927,11 +927,11 @@
                       "ContentType": "NDX",
                       "ServiceCode": "SB",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-06-10",
+                      "ShipmentDate": "2026-06-30",
                       "WeightUnitOfMeasure": "KG"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "79b1ed35-38cc-43a4-80c3-0d9c0408a4ad",
+                      "ShippingAccountId": "249a2479-6a6b-457e-a03f-850d48a9c731",
                       "Reference1": "OrderRef56",
                       "Address": {
                         "AddressId": "John Brown Default"
@@ -967,7 +967,7 @@
                     "value": {
                       "Packages": [
                         {
-                          "ShipmentId": "d19922d4-241f-4966-ab16-90d0da3d4054",
+                          "ShipmentId": "5368580a-8e53-4b36-a9bf-7b945cb84ec0",
                           "PackageOccurrence": 1
                         }
                       ]
@@ -977,7 +977,7 @@
                     "value": {
                       "Packages": [
                         {
-                          "ShipmentId": "ea9e268a-0f8a-414b-b21b-51011d6767b4",
+                          "ShipmentId": "f8bd3faa-3efb-4624-894f-f57a347287ec",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "H03TCA0000000118",
                           "CarrierTrackingUrl": "https://my.dxdelivery.com/?tn=H03TCA0000000118&tpc=GU214TE"
@@ -991,7 +991,7 @@
                       "LabelFormat": "PDF",
                       "Packages": [
                         {
-                          "ShipmentId": "c8c434e0-4b75-4403-890c-8fc78049c081",
+                          "ShipmentId": "015ebd43-d793-483d-a8e0-ac3e7da3a24d",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "H03TCA0000000118",
                           "CarrierTrackingUrl": "https://my.dxdelivery.com/?tn=H03TCA0000000118&tpc=GU214TE"
@@ -1087,7 +1087,7 @@
                 "examples": {
                   "PDF": {
                     "value": {
-                      "ShipmentId": "3ab18c35-23b1-4880-b5fc-27434f546f56",
+                      "ShipmentId": "32a8bd73-2987-4df2-b89e-bbf35115a721",
                       "TrackingNumber": "H03TCA0000000118",
                       "CarrierTrackingUrl": "https://my.dxdelivery.com/?tn=H03TCA0000000118&tpc=GU214TE",
                       "Label": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
@@ -1790,6 +1790,7 @@
         "required": [
           "AccountAlias",
           "AccountName",
+          "AccountNumber",
           "AccountStatus",
           "AccountType",
           "CarrierCode",
@@ -1814,9 +1815,9 @@
             "example": "RM"
           },
           "AccountNumber": {
+            "minLength": 1,
             "type": "string",
             "description": "The number assigned to the shipping account by the carrier, typically used for tracking shipments and billing purposes.",
-            "nullable": true,
             "example": "0123456789"
           },
           "AccountType": {
@@ -2349,6 +2350,18 @@
             "description": "An abbreviation representing the country where the item was manufactured or produced, following the ISO 3166-1 alpha-2 standard, for example,  \"GB\" for the United Kingdom. This information is important for customs declarations and compliance with import/export regulations.\r<br />\r<br />***Note:** Depending on the carrier and destination country, this information may be required for dutiable shipments.*",
             "nullable": true,
             "example": "GB"
+          },
+          "ManufactureProductId": {
+            "maxLength": 50,
+            "type": "string",
+            "description": "A unique manufacturer identifier for the item being shipped, for example, proprietary manufacturer code, model number, or internal code. This field is used to reference the shipped item and supports carrier-specific requirements.",
+            "nullable": true
+          },
+          "StandardisedProductId": {
+            "maxLength": 50,
+            "type": "string",
+            "description": "A globally recognised product identifier for the item being shipped, for example, GTIN, EAN, and UPC. This field is used for standardised item identification and supports carrier-specific requirements for customs and risk assessment.",
+            "nullable": true
           },
           "SupplementaryUnits": {
             "maximum": 10000000000000000,
