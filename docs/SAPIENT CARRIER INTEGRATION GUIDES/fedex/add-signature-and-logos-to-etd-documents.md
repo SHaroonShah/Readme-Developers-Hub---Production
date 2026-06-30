@@ -10,130 +10,172 @@ icon: fad fa-file-doc
 metadata:
   robots: index
 ---
-In SAPIENT, you can add letterhead images and signatures to you ETDs to ensure that all shipping documents are consistent with the company’s branding, providing authentic and trustworthy representation of the business, particularly when dealing with customers and partners.
+In SAPIENT, you can add letterhead images and signatures to your ETDs to ensure that all shipping documents are consistent with the company’s branding, providing authentic and trustworthy representation of the business, particularly when dealing with customers and partners.
 
 While [specifying the FedEx shipping account details](https://docs.intersoftsapient.net/docs/specify-shipping-account-details#/) during the create shipping account process, if you have selected the **Enable Electronic Trade Documents (ETD)** checkbox, then you can configure the ETD data via the **Signatures and Logos** feature of SAPIENT.
 
+## How to configure ETD for a FedEx shipping account
+
 To add letterhead image and signature to your ETDs in SAPIENT, perform the steps as explained in the following procedure.
-
-1. In the left navigation panel, select **Customs Settings** > **Signatures and Logos**.
-
-<Image align="center" alt="Accessing signatures and logos" border={true} caption="Accessing signatures and logos" src="https://files.readme.io/00c81ec3f8935f700829d2ec2e8ed30d0fa0bd6fc0a5d658684f8609202fab93-Signatures_and_logos_option.png" />
-
-Alternatively, select the link that was displayed with your successful FedEx account creation notification, directing you to the **Signatures and Logos** page for ETD configuration.
-
-<Image align="center" border={true} caption="Selecting link to configure ETD documents" src="https://files.readme.io/1b876fd165eaa4b02e5b3b5f93d838fdcb8cdad9798ebd58c6f7ed45a01b92e4-ETD_config_notification.png" />
-
-2. In the **Signatures and Logos** page that opens, select ![](https://files.readme.io/2e03049feb3d93343e3c10aeb0958e95489136884c6fea556824482504e36176-Add_sign_and_logo_button.png).
-
-<Image align="center" alt="Accessing option to add signature and logo" border={true} caption="Accessing option to add signature and logo" src="https://files.readme.io/af0587aafff2921d2ae9f21523162ad00f35e5b667c43e7d98d5c5844644d248-Add_sign_and_logo_option.png" />
-
-3. In the **Add Signature and Logo** form that opens, in the **SHIPPING ACCOUNT** block, from the dropdown menu, select your FedEx <Glossary>shipping account</Glossary> for which you want to add the ETD documents.
-
-<Image align="center" alt="Selecting shipping account" border={true} caption="Selecting FedEx shipping account" src="https://files.readme.io/2a35a1f372f43c2ca5e3fb4e861cdaff59b039a5d61a870f882cdee2c37629bd-Selecting_FedEx_shipping_account_for_Logos.png" />
-
-4. In the **ELECTRONIC TRADE DOCUMENTS** block that opens, enter the enter the necessary information as explained in the following table.
 
 > 🚧 _Important_
 >
-> _This block is only available if the**Shipping Location** field is set to **All** and the ETD is enabled for your shipping account._
+> _The **ELECTRONIC TRADE DOCUMENTS** block is only available if the **Shipping Location** field is set to **All** and ETD is enabled for your shipping account._
 
-<Image align="center" alt="Entering signature, logo and their details" border={true} caption="Adding electronic trade documents" src="https://files.readme.io/e91ef385e6f0f934f5eb9b32ca72cf0e6a1b9cc2a636daf98659d25f7b655c36-FedEx_Logo_screen.png" />
+<ToggleList>
+  <ToggleListItem title="1. Select the Signatures and Logos page">
+    In the left navigation panel, select **Customs Settings** > **Signatures and Logos**.
 
-<Table align={["center","left"]}>
-  <thead>
-    <tr>
-      <th>
-        Element
-      </th>
+    <Image align="center" alt="Accessing signatures and logos" border={true} caption="Accessing signatures and logos" src="https://files.readme.io/00c81ec3f8935f700829d2ec2e8ed30d0fa0bd6fc0a5d658684f8609202fab93-Signatures_and_logos_option.png" />
 
-      <th>
-        Description
-      </th>
-    </tr>
-  </thead>
+    Alternatively, select the link that was displayed with your successful FedEx account creation notification, directing you to the **Signatures and Logos** page for ETD configuration.
 
-  <tbody>
-    <tr>
-      <td>
-        **Letterhead Image**
-      </td>
+    <Image align="center" border={true} caption="Selecting link to configure ETD documents" src="https://files.readme.io/1b876fd165eaa4b02e5b3b5f93d838fdcb8cdad9798ebd58c6f7ed45a01b92e4-ETD_config_notification.png" />
 
-      <td>
-        Select **Choose File**, follow the prompts of your computer, and then select the letterhead image that you want to upload.
+    ***
+  </ToggleListItem>
 
-        Alternatively, drag the desired logo file to this field.
-      </td>
-    </tr>
+  <br />
 
-    <tr>
-      <td>
-        **ETD Signature Image**
-      </td>
+  <ToggleListItem title="2. Select option to add signature and logo">
+    In the **Signatures and Logos** page that opens, select ![](https://files.readme.io/2e03049feb3d93343e3c10aeb0958e95489136884c6fea556824482504e36176-Add_sign_and_logo_button.png).
 
-      <td>
-        Select **Choose File**, follow the prompts of your computer, and then select the ETD signature image file that you want to upload.
+    <Image align="center" alt="Accessing option to add signature and logo" border={true} caption="Accessing option to add signature and logo" src="https://files.readme.io/af0587aafff2921d2ae9f21523162ad00f35e5b667c43e7d98d5c5844644d248-Add_sign_and_logo_option.png" />
 
-        Alternatively, drag the desired logo file to this field.
-      </td>
-    </tr>
+    ***
+  </ToggleListItem>
 
-    <tr>
-      <td>
-        **ETD Declaration Statement**
-      </td>
+  <br />
 
-      <td>
-        Carefully read the ETD declaration statement before proceeding.
+  <ToggleListItem title="3. Select the FedEx shipping account">
+    In the **Add Signature and Logo** form that opens, in the **SHIPPING ACCOUNT** block, from the dropdown menu, select your FedEx <Glossary>shipping account</Glossary> for which you want to add the ETD documents.
 
-        _`Note`: This filed is editable and if needed, you can modify this statement as per your business requirements._
-      </td>
-    </tr>
+    <Image align="center" alt="Selecting shipping account" border={true} caption="Selecting FedEx shipping account" src="https://files.readme.io/2a35a1f372f43c2ca5e3fb4e861cdaff59b039a5d61a870f882cdee2c37629bd-Selecting_FedEx_shipping_account_for_Logos.png" />
 
-    <tr>
-      <td>
-        **Add Documents & Images**
-      </td>
+    ***
+  </ToggleListItem>
 
-      <td>
-        Select 
+  <br />
 
-        ![](https://files.readme.io/f7ceba9e8e14a6f791412024b91067a8b8d456a409caa520dd553eec1af3ed42-Add_documents_and_images_button.png)
+  <ToggleListItem title="4. Add electronic trade documents">
+    In the **ELECTRONIC TRADE DOCUMENTS** block that opens, enter the necessary information as explained in the following table.
 
-         to save your documents.
-      </td>
-    </tr>
+    <Image align="center" alt="Entering signature, logo and their details" border={true} caption="Adding electronic trade documents" src="https://files.readme.io/e91ef385e6f0f934f5eb9b32ca72cf0e6a1b9cc2a636daf98659d25f7b655c36-FedEx_Logo_screen.png" />
 
-    <tr>
-      <td>
-        **Cancel**
-      </td>
+    <br />
 
-      <td>
-        Select 
+    <Table align={["center","left"]}>
+      <thead>
+        <tr>
+          <th>
+            Element
+          </th>
 
-        ![](https://files.readme.io/866310e4fa14cf86a31a827c203da1fa0b2f7dbd5f52e868b6d96692fc223f3d-Cancel_button.png)
+          <th>
+            Description
+          </th>
+        </tr>
+      </thead>
 
-         to discard the changes and close the form. No changes are saved in this case.
-      </td>
-    </tr>
-  </tbody>
-</Table>
+      <tbody>
+        <tr>
+          <td>
+            **Letterhead Image**
+          </td>
 
-> 📘 _Note_
->
-> _The**SIGNATURES & LOGO** block is not mandatory, if you do not want to configure it, then skip this section and select ![](https://files.readme.io/57defd548ada4f381b9968a291bb45d55b435feab09408e30266126b303228fc-Add_documents_and_images_button.png) to save your uploaded ETD documents. You may want to configure this block, for example, in cases where some destinations do not support ETD, and you wish to attach a <Glossary>commercial invoice</Glossary> to the parcel. To configure this block, refer to the [Add Signatures and Logos](https://docs.intersoftsapient.net/docs/add-signature-and-logo#/) section._
+          <td>
+            Select **Choose File**, follow the prompts of your computer, and then select the letterhead image that you want to upload.
 
-Once saved, the letterhead image and signatures are added successfully and appears in the **Signatures and Logos** list. These can now be used in any relevant ETDs.
+            Alternatively, drag the desired logo file to this field.
+          </td>
+        </tr>
 
-<Callout icon="💡" theme="default">
-  ### _Tip_
+        <tr>
+          <td>
+            **ETD Signature Image**
+          </td>
 
-  If you want to remove a specific ETD configuration, then in the **Signatures and Logos** list, next to the one you want to delete, select ![](https://files.readme.io/0979c7211f5ae99308ba3f765bd083d41949895562626a4f0cc33acd80b30762-Trash_icon.png).
+          <td>
+            Select **Choose File**, follow the prompts of your computer, and then select the ETD signature image file that you want to upload.
 
-  <Image align="center" alt="Deleting pre-registration number" border={true} caption="Deleting ETD configs" src="https://files.readme.io/18854da926a99e35b6280bbb19445cac623a73a7f01d8cb9df4c99cd2a6fe6e9-Removing_item.png" />
+            Alternatively, drag the desired logo file to this field.
+          </td>
+        </tr>
 
-  _Please be advised that the delete option only removes the ETD documents from the SAPIENT system, not the FedEx system. In order to update your ETD documents, you must replace them with the new ones so that they are replaced in the FedEx system next time when you call the create shipment API._
+        <tr>
+          <td>
+            **ETD Declaration Statement**
+          </td>
 
-  Alternatively, if you do not want to use any documents, simply [clear the Electronic Trade Documents (ETD) checkbox](https://docs.intersoftsapient.net/docs/specify-shipping-account-details#/).
-</Callout>
+          <td>
+            Carefully read the ETD declaration statement before proceeding.
+
+            _`Note`: This field is editable and if needed, you can modify this statement as per your business requirements._
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            **Add Documents & Images**
+          </td>
+
+          <td>
+            Select ![](https://files.readme.io/f7ceba9e8e14a6f791412024b91067a8b8d456a409caa520dd553eec1af3ed42-Add_documents_and_images_button.png) to save your documents.
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            **Cancel**
+          </td>
+
+          <td>
+            Select ![](https://files.readme.io/866310e4fa14cf86a31a827c203da1fa0b2f7dbd5f52e868b6d96692fc223f3d-Cancel_button.png) to discard the changes and close the form. No changes are saved in this case.
+          </td>
+        </tr>
+      </tbody>
+    </Table>
+
+    <br />
+
+    > 📘 _Note_
+    >
+    > _The **SIGNATURES & LOGO** block is not mandatory, if you do not want to configure it, then skip this section and select ![](https://files.readme.io/57defd548ada4f381b9968a291bb45d55b435feab09408e30266126b303228fc-Add_documents_and_images_button.png) to save your uploaded ETD documents. You may want to configure this block, for example, in cases where some destinations do not support ETD, and you wish to attach a <Glossary>commercial invoice</Glossary> to the parcel. To configure this block, refer to the [Add Signatures and Logos](https://docs.intersoftsapient.net/docs/add-signature-and-logo#/) section._
+
+    ***
+  </ToggleListItem>
+
+  <br />
+
+  <ToggleListItem title="5. Start using the ETD documents">
+    Once saved, the letterhead image and signatures are added successfully and appear in the **Signatures and Logos** list. These can now be used in any relevant ETDs.
+
+    <Callout icon="💡" theme="default">
+      ### _Tip_
+
+      If you want to remove a specific ETD configuration, then in the **Signatures and Logos** list, next to the one you want to delete, select ![](https://files.readme.io/0979c7211f5ae99308ba3f765bd083d41949895562626a4f0cc33acd80b30762-Trash_icon.png).
+
+      <Image align="center" alt="Deleting pre-registration number" border={true} caption="Deleting ETD configs" src="https://files.readme.io/18854da926a99e35b6280bbb19445cac623a73a7f01d8cb9df4c99cd2a6fe6e9-Removing_item.png" />
+
+      _Please be advised that the delete option only removes the ETD documents from the SAPIENT system, not the FedEx system. In order to update your ETD documents, you must replace them with the new ones so that they are replaced in the FedEx system next time when you call the create shipment API._
+
+      Alternatively, if you do not want to use any documents, simply [clear the Electronic Trade Documents (ETD) checkbox](https://docs.intersoftsapient.net/docs/specify-shipping-account-details#/).
+    </Callout>
+  </ToggleListItem>
+</ToggleList>
+
+***
+
+### See also
+
+<Cards columns={2}>
+  <Card title="Specify FedEx shipping account details" icon="fa-truck-fast" href="https://docs.intersoftsapient.net/docs/specify-shipping-account-details#/">
+    Enable ETD while specifying the FedEx shipping account details.
+  </Card>
+
+  <Card title="Add signatures and logos" icon="fa-file-signature" href="https://docs.intersoftsapient.net/docs/add-signature-and-logo#/">
+    Configure signatures and logos for cases where you need to attach a commercial invoice to the parcel.
+  </Card>
+</Cards>
+
+<br />
