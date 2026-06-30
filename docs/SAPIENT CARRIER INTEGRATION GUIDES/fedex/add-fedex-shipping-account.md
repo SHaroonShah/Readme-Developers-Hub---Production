@@ -234,7 +234,9 @@ To add a shipping account for FedEx in SAPIENT, follow the instructions as expla
         After successfully specifying the shipping account details, at the **EULA** stage, read the FedEx 3rd party end user license agreement and confirm it by selecting the **I accept the terms of FedEx EULA to start shipping** checkbox and ![alt text](https://files.readme.io/a544674d471b96aadef7f8afe38ba10b912f11fb7b7fd758dc372d04dfbdd7da-I_agree_button.png) button.
 
         <Image align="center" border={true} src="https://files.readme.io/81109fca62feb4ab8c27b0f031bbdd6e5f8e16fb0cc80ebb9e01d243bafc1621-FedEx_Eula_tab.png" />
-<br />
+
+        <br />
+
         > 🚧 *Important*
         >
         > *The checkbox is only activated after you have fully scrolled down to the bottom of the agreement. Please make sure you read the license agreement carefully before accepting it. Once the account is created, you cannot undo this selection.*
@@ -394,7 +396,7 @@ To add a shipping account for FedEx in SAPIENT, follow the instructions as expla
           If you want to validate your FedEx shipping account via the recent invoice, then you must select the **Recent Invoice** option, and enter the necessary information as described in the following table.
 
           <Image align="center" border={true} src="https://files.readme.io/d5ab0db4e4030ad6c483ebfee1f964109f4d0d4c3d8839a9224b656fb463a4e9-Recent_invoice_option.png" />
-
+<br />
           <AsteridkForMandatoryElements />
 
           <Table align={["center","left"]}>
@@ -473,7 +475,7 @@ To add a shipping account for FedEx in SAPIENT, follow the instructions as expla
           If you want to validate your FedEx shipping account via PIN, then you must select the **PIN Generation** option, and enter the necessary information as described in the following table.
 
           <Image align="center" border={true} src="https://files.readme.io/1dd479887e9c4881543742d8ef07a3a1c993eefa871db0e9125ccaa3918fc77e-PIN_generation_options.png" />
-
+<br />
           <AsteridkForMandatoryElements />
 
           <Table align={["center","left"]}>
