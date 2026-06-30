@@ -26,187 +26,246 @@ Unlike other carriers, EVRi customers can have a main (parent) shipping account 
 
 > 🚧 _Important_
 >
-> _Before you can set up a shipping account, make sure you have[enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with EVRi._
+> _Before you can set up a shipping account, make sure you have[enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with EVRi and have already [created a shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location)._
 
-To add a parent shipping account for EVRi in SAPIENT, follow the instructions as explained in the following procedure.
+## How to add EVRi shipping account
 
-1. In the left navigation panel, select **Shipping Accounts**.
+<Tabs>
+  <Tab title="Via SAPIENT UI">
+    To add a parent shipping account for EVRi in SAPIENT, follow the instructions as explained in the following procedure:
 
-<Image align="center" alt="Accessing shipping accounts" border={true} caption="Accessing shipping accounts" src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" />
+    <ToggleList>
+      <ToggleListItem title="1. Select the Shipping Accounts page">
+        In the left navigation panel, select **Shipping Accounts**.
 
-2. On the **Shipping Accounts** page that opens, select ![](https://files.readme.io/4dc0470535418171d8c974546d130f04a0fc60a878c7f7648b2da21309450830-add_shipping_account_button.png).
+        <Image align="center" border={true} src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" alt="Accessing shipping accounts" />
 
-<Image align="center" alt="Accessing option to add shipping account" border={true} caption="Selecting option to add shipping account" src="https://files.readme.io/93a0d9cc66a38e49c4bcffc89b73c11a567a5b518b19eac7ae22c7e39063c1b1-Add_shipping_account_button_EVRi.png" />
+        ***
+      </ToggleListItem>
 
-3. On the **Add Shipping Account** form that appears, in the **ACCOUNT DETAILS** block, fill in the necessary information as described in the following table.
+      <br />
 
-<Image align="center" alt="Entering account details" border={true} caption="Entering account details" src="https://files.readme.io/43991905bc228df5a0737e883ebcf6125535727cdb622711887e427c375d6763-Account_details_block_EVRi.png" />
+      <ToggleListItem title="2. Select option to add shipping account">
+        On the **Shipping Accounts** page that opens, select ![](https://files.readme.io/4dc0470535418171d8c974546d130f04a0fc60a878c7f7648b2da21309450830-add_shipping_account_button.png).
 
-<AsteridkForMandatoryElements />
+        <Image align="center" border={true} src="https://files.readme.io/93a0d9cc66a38e49c4bcffc89b73c11a567a5b518b19eac7ae22c7e39063c1b1-Add_shipping_account_button_EVRi.png" alt="Accessing option to add shipping account" />
 
-|         Element        | Description                                                                                                                                 |
-| :--------------------: | :------------------------------------------------------------------------------------------------------------------------------------------ |
-|      **Carrier***      | From the dropdown list, select **EVRI - EVRi**.                                                                                             |
-| **Shipping Location*** | From the dropdown menu, select the <Glossary>shipping location</Glossary> that you want to assign to the shipping account you are creating. |
+        ***
+      </ToggleListItem>
 
-4. In the **SHIPPING ACCOUNT** block, enter the necessary information as explained in the following table.
+      <br />
 
-<Image align="center" alt="Specifying shipping account details" border={true} caption="Specifying shipping account details" src="https://files.readme.io/9546c2ab0f9d76d0ac27f5b028e0be8c38f7ac52f6b46cc177ceefdb63a32de5-Shipping_account_block_EVRi.png" width="400px" />
+      <ToggleListItem title="3. Enter account details">
+        On the **Add Shipping Account** form that appears, in the **ACCOUNT DETAILS** block, fill in the necessary information as described in the following table.
 
-<Callout icon="💡" theme="default">
-  ### _Tip_
+        <Image align="center" border={true} src="https://files.readme.io/43991905bc228df5a0737e883ebcf6125535727cdb622711887e427c375d6763-Account_details_block_EVRi.png" alt="Entering account details" />
 
-  _In the following table, the mandatory fields are marked with an asterisk (*)._
-</Callout>
+        <br />
 
-<Table align={["center","left"]}>
-  <thead>
-    <tr>
-      <th>
-        Element
-      </th>
+        <AsteridkForMandatoryElements />
 
-      <th>
-        Description
-      </th>
-    </tr>
-  </thead>
+        |         Element         | Description                                                                                                                                 |
+        | :---------------------: | :------------------------------------------------------------------------------------------------------------------------------------------ |
+        |      **Carrier**\*      | From the dropdown list, select **EVRI - EVRi**.                                                                                             |
+        | **Shipping Location**\* | From the dropdown menu, select the <Glossary>shipping location</Glossary> that you want to assign to the shipping account you are creating. |
 
-  <tbody>
-    <tr>
-      <td>
-        **Carrier Account Number***
-      </td>
+        ***
+      </ToggleListItem>
 
-      <td>
-        Enter the account number for EVRi. This can also be known as your EVRi ClientID.
-      </td>
-    </tr>
+      <br />
 
-    <tr>
-      <td>
-        **Account Name (if different than customer)***
-      </td>
+      <ToggleListItem title="4. Enter shipping account details">
+        In the **SHIPPING ACCOUNT** block, enter the necessary information as explained in the following table.
 
-      <td>
-        Enter the name of the account you are adding. This can also be known as your EVRi Client Name.
-      </td>
-    </tr>
+        <Image align="center" border={true} src="https://files.readme.io/9546c2ab0f9d76d0ac27f5b028e0be8c38f7ac52f6b46cc177ceefdb63a32de5-Shipping_account_block_EVRi.png" width="400px" alt="Specifying shipping account details" />
 
-    <tr>
-      <td>
-        **Account Type***
-      </td>
+        <br />
 
-      <td>
-        From the dropdown menu, select one of the following account types that you want to set up for the the shipping account you are adding:
+        <Callout icon="💡" theme="default">
+          ### *Tip*
 
-        • **[Production](https://docs.intersoftsapient.net/docs/sandbox-account)**: a live environment where the final version of the application is deployed and made available to the users.
+          *In the following table, the mandatory fields are marked with an asterisk (\*).*
+        </Callout>
 
-        • **[Sandbox](https://docs.intersoftsapient.net/docs/sandbox-account)**: a testing environment that mimics the **Production** environment but is isolated from it. The sandbox environment is primarily used for development and testing purposes.
-      </td>
-    </tr>
+        <Table align={["center","left"]}>
+          <thead>
+            <tr>
+              <th>
+                Element
+              </th>
 
-    <tr>
-      <td>
-        **Alias***
-      </td>
+              <th>
+                Description
+              </th>
+            </tr>
+          </thead>
 
-      <td>
-        Enter a custom name which can be used in the API request instead of using the shipping account ID when connecting to us. Therefore, it is recommended that this name must be memorable and available for reference purposes.
-      </td>
-    </tr>
+          <tbody>
+            <tr>
+              <td>
+                **Carrier Account Number**\*
+              </td>
 
-    <tr>
-      <td>
-        **Contact Name***
-      </td>
+              <td>
+                Enter the account number for EVRi. This can also be known as your EVRi ClientID.
+              </td>
+            </tr>
 
-      <td>
-        Enter the contact name for the account you are adding.
-      </td>
-    </tr>
+            <tr>
+              <td>
+                **Account Name (if different than customer)**\*
+              </td>
 
-    <tr>
-      <td>
-        **Contact Number***
-      </td>
+              <td>
+                Enter the name of the account you are adding. This can also be known as your EVRi Client Name.
+              </td>
+            </tr>
 
-      <td>
-        Enter the contact number for the account you are adding.
-      </td>
-    </tr>
-  </tbody>
-</Table>
+            <tr>
+              <td>
+                **Account Type**\*
+              </td>
 
-5. In the **CARRIER DETAILS** block, enter the necessary information as explained in the following table.
+              <td>
+                From the dropdown menu, select one of the following account types that you want to set up for the the shipping account you are adding:
 
-<Image align="center" alt="Entering carrier details" border={true} caption="Entering carrier details" src="https://files.readme.io/60e2321138104b3b4c2a28966427ea131d2d4a8fb8a5dc283362a9ded6220585-carrier_details_block_EVRi.png" width="400px" />
+                • **[Production](https://docs.intersoftsapient.net/docs/sandbox-account)**: a live environment where the final version of the application is deployed and made available to the users.
 
-<AsteridkForMandatoryElements />
+                • **[Sandbox](https://docs.intersoftsapient.net/docs/sandbox-account)**: a testing environment that mimics the **Production** environment but is isolated from it. The sandbox environment is primarily used for development and testing purposes.
+              </td>
+            </tr>
 
-<Table align={["center","left"]}>
-  <thead>
-    <tr>
-      <th>
-        Element
-      </th>
+            <tr>
+              <td>
+                **Alias**\*
+              </td>
 
-      <th>
-        Description
-      </th>
-    </tr>
-  </thead>
+              <td>
+                Enter a custom name which can be used in the API request instead of using the shipping account ID when connecting to us. Therefore, it is recommended that this name must be memorable and available for reference purposes.
+              </td>
+            </tr>
 
-  <tbody>
-    <tr>
-      <td>
-        **Username***
-      </td>
+            <tr>
+              <td>
+                **Contact Name**\*
+              </td>
 
-      <td>
-        Enter your username (EVRi API credentials) These are received via email from EVRi's IT integration team for both the **Test** (SIT) and **Production** (Prod) environment.
+              <td>
+                Enter the contact name for the account you are adding.
+              </td>
+            </tr>
 
-        _`Note`: If you have chosen**Sandbox** in the **Account Type** field of the **SHIPPING ACCOUNT** block, then enter your SIT credentials and if you have chosen **Production** in the **Account Type** field of the **SHIPPING ACCOUNT** block, then enter your Prod credentials._
-      </td>
-    </tr>
+            <tr>
+              <td>
+                **Contact Number**\*
+              </td>
 
-    <tr>
-      <td>
-        **Password***
-      </td>
+              <td>
+                Enter the contact number for the account you are adding.
+              </td>
+            </tr>
+          </tbody>
+        </Table>
 
-      <td>
-        Enter the password for the username you have entered. This is received via email from EVRi's IT Integration team for both the **Test** (SIT) and **Production** (Prod) environment.
-      </td>
-    </tr>
+        ***
+      </ToggleListItem>
 
-    <tr>
-      <td>
-        **SMS Alert Group Code**
-      </td>
+      <br />
 
-      <td>
-        Enter the alert group code that is allocated to you by EVRi.
+      <ToggleListItem title="5. Enter carrier details">
+        In the **CARRIER DETAILS** block, enter the necessary information as explained in the following table.
 
-        This feature is only required if you wish to use the SMS notification enhancement.
-      </td>
-    </tr>
-  </tbody>
-</Table>
+        <Image align="center" border={true} src="https://files.readme.io/60e2321138104b3b4c2a28966427ea131d2d4a8fb8a5dc283362a9ded6220585-carrier_details_block_EVRi.png" width="400px" alt="Entering carrier details" />
 
-6. After entering all the required information, select ![](https://files.readme.io/99e4e322c6a3f874e0258a73646a551aa2120d8d359b2ce5d09a4cf0eabcd44a-add_shipping_account_button_2.png).
+        <br />
 
-Once done, you have now successfully added a shipping account. You can now start shipping with it.
+        <AsteridkForMandatoryElements />
 
-> 📘 _Note_
->
-> _Shipping account(s) can be added and managed via API. For more information, refer to the <Anchor label="API References" target="_blank" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-evri">API References</Anchor> section._
+        <Table align={["center","left"]}>
+          <thead>
+            <tr>
+              <th>
+                Element
+              </th>
+
+              <th>
+                Description
+              </th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>
+                **Username**\*
+              </td>
+
+              <td>
+                Enter your username (EVRi API credentials) These are received via email from EVRi's IT integration team for both the **Test** (SIT) and **Production** (Prod) environment.
+
+                *`Note`: If you have chosen**Sandbox** in the **Account Type** field of the **SHIPPING ACCOUNT** block, then enter your SIT credentials and if you have chosen **Production** in the **Account Type** field of the **SHIPPING ACCOUNT** block, then enter your Prod credentials.*
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                **Password**\*
+              </td>
+
+              <td>
+                Enter the password for the username you have entered. This is received via email from EVRi's IT Integration team for both the **Test** (SIT) and **Production** (Prod) environment.
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                **SMS Alert Group Code**
+              </td>
+
+              <td>
+                Enter the alert group code that is allocated to you by EVRi.
+
+                This feature is only required if you wish to use the SMS notification enhancement.
+              </td>
+            </tr>
+          </tbody>
+        </Table>
+
+        ***
+      </ToggleListItem>
+
+      <br />
+
+      <ToggleListItem title="6. Save and add the shipping account">
+        After entering all the required information, select ![](https://files.readme.io/99e4e322c6a3f874e0258a73646a551aa2120d8d359b2ce5d09a4cf0eabcd44a-add_shipping_account_button_2.png). <br />
+        Once done, you have now successfully added a shipping account. You can now start shipping with it.
+      </ToggleListItem>
+    </ToggleList>
+  </Tab>
+
+  <Tab title="Via API">
+    To add an EVRi shipping account via API, refer to the following API endpoint.
+
+    <Cards>
+      <Card title="Add Account" href="https://docs.intersoftsapient.net/reference/post_v4-shippingaccounts-evri" icon="fa-code">
+        Add and manage EVRi shipping account via API.
+      </Card>
+    </Cards>
+  </Tab>
+</Tabs>
 
 ***
 
 ### See also
 
-* [Edit shipping account](https://docs.intersoftsapient.net/docs/edit-shipping-account)
+<Cards columns={2}>
+  <Card title="Edit shipping account" icon="fa-pen-to-square" href="https://docs.intersoftsapient.net/docs/dx-freight-sign-off">
+    Update or modify an existing shipping account.
+  </Card>
+
+  <Card title="Add Child Client Department to Parent Shipping Account" icon="fa-solid fa-circle-user" href="https://docs.intersoftsapient.net/v4.03/docs/client-id-and-child-clinet-id-management-1">
+    Create a parent shipping account and have multiple sub-accounts.
+  </Card>
+</Cards>
 
 <br />
