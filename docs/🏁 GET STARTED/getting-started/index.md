@@ -65,7 +65,8 @@ next:
   </Card>
 
   <Card title="" href="https://docs.intersoftsapient.net/docs/dhl-germany-de" Width="200" tooltip="DHL Germany">
-    <Image align="center" src="https://files.readme.io/fccbd329f4603c5d17e777ec0940e7d7cab3e96878fc7a90bf09ade9a61ed52b-DHL_DE_logo_white.png" width="100px" />
+    <Image align="center" width="100px" src="https://files.readme.io/5a9a1a4a715f04f85a85171853a1ad9c0c3fcdd3c8701de39caf2ca7a1745d3b-DHL_DE_logo_white.png" />
+
   </Card>
 
   <Card title="" href="https://docs.intersoftsapient.net/docs/dpd-netherlands" Width="200" tooltip="DPD Netherlands">
