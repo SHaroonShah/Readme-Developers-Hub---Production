@@ -45,7 +45,9 @@ To edit a FedEx <Glossary>shipping account</Glossary> in SAPIENT, follow the ste
 
 Once the changes are saved, the shipping account is updated successfully.
 
-## See also
+***
+
+### See also
 
 <Cards columns="1">
   <Card title="Delete Account" href="https://docs.intersoftsapient.net/docs/delete-shipping-account#/" icon="fa-solid fa-trash">
