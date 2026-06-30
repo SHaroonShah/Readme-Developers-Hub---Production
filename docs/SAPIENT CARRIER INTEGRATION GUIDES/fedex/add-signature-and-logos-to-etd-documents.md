@@ -169,7 +169,7 @@ To add letterhead image and signature to your ETDs in SAPIENT, perform the steps
 ### See also
 
 <Cards columns={2}>
-  <Card title="Specify FedEx shipping account details" icon="fa-truck-fast" href="https://docs.intersoftsapient.net/docs/specify-shipping-account-details#/">
+  <Card title="Add FedEx shipping account" icon="fa-truck-fast" href="https://docs.intersoftsapient.net/v4.04/docs/add-fedex-shipping-account">
     Enable ETD while specifying the FedEx shipping account details.
   </Card>
 
