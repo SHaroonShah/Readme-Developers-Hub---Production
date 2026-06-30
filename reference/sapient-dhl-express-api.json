@@ -1,7 +1,7 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "SAPIENT DHL EXPRESS API",
+    "title": "DHL EXPRESS API",
     "description": "# Introduction\nHere you will find requirements for integrating with SAPIENT CORE API.\n\nThe documentation specifically covers how the API can be used by business customers to conduct shipping activity with available carriers and provides the technical information to build this integration. The API allows customers to create and manage shipments, produce labels, customs documentation, and collection manifests, retrieve reference data such as carriers and countries, and maintain their own data such as shipping account details.\n\nIntersoft API is a fully RESTful service implemented using JSON messaging. You, as the customer are responsible for sending JSON messages and for maintaining the capability of receiving JSON messages in the format described in this specification. Request and response examples for each API service are included in this specification.\n\n# Authentication\n\nThe SAPIENT CORE API uses OAuth2 authentication.\n\nTo request the authorization token you need to create API credentials (Client ID and Secret) on the system first. If you have not done it already, log into your account and go to API Credentials or follow the link [add a link here with the path to the API Credentials menu]. Use the credentials to retrieve the authorization token.\n\nNote: Make sure you copy the Secret and keep it secure as you won't be able to view it again on the system.\n\n<!-- ReDoc-Inject: <SecurityDefinitions /> -->\n",
     "version": "v4.0-DHLEXPRESS",
     "x-logo": {
@@ -97,7 +97,7 @@
                       "IsPaperlessTradeEnabled": true,
                       "PaperlessTradeInvoiceOption": "DhlGenerated",
                       "LastUpdatedBy": "User A",
-                      "LastUpdatedDateUtc": "2026-06-10T08:40:56.422Z"
+                      "LastUpdatedDateUtc": "2026-06-30T08:55:34.374Z"
                     },
                     {
                       "ShippingAccountId": "46d58272-5f6a-405d-a947-c46c9caea56f",
@@ -113,7 +113,7 @@
                       "IsPaperlessTradeEnabled": true,
                       "PaperlessTradeInvoiceOption": "SapientGenerated",
                       "LastUpdatedBy": "User B",
-                      "LastUpdatedDateUtc": "2026-06-10T08:40:56.422Z"
+                      "LastUpdatedDateUtc": "2026-06-30T08:55:34.374Z"
                     }
                   ],
                   "TotalCount": 2
@@ -270,7 +270,7 @@
                   "IsArchiveLabels": false,
                   "IsPaperlessTradeEnabled": false,
                   "LastUpdatedBy": "User A",
-                  "LastUpdatedDateUtc": "2026-06-10T08:40:56.738Z"
+                  "LastUpdatedDateUtc": "2026-06-30T08:55:34.663Z"
                 }
               }
             }
@@ -647,14 +647,14 @@
                       "ContentType": "NDX",
                       "ServiceCode": "DOT",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-06-10",
+                      "ShipmentDate": "2026-06-30",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "EUR",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "d4dec170-d236-4a38-8fe1-b4b1bea51114",
+                      "ShippingAccountId": "0e44e7f7-fbd5-4062-899b-33ec6ab7149d",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -708,7 +708,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "DOM",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-06-10",
+                      "ShipmentDate": "2026-06-30",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
@@ -716,8 +716,8 @@
                       "ContainerId": "Central Europe"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "5f0534d4-50b6-405b-b048-d091a387a25f",
-                      "ShippingLocationId": "3462d2c1-2554-44bb-8df7-a833b68e22bb",
+                      "ShippingAccountId": "c4167fdc-992c-432a-be37-68bf577e4108",
+                      "ShippingLocationId": "4d83da79-10c9-4fb8-b922-c75d4209747b",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -809,7 +809,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "DOM",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-06-10",
+                      "ShipmentDate": "2026-06-30",
                       "DeclaredWeight": 9,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
@@ -817,8 +817,8 @@
                       "ContainerId": "Central Europe"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "d588f7aa-2767-41ef-9ffd-89e3270c7bb6",
-                      "ShippingLocationId": "6677be34-9b72-444b-8d2a-21b013e07d8f",
+                      "ShippingAccountId": "edc96238-0415-463e-af7e-c40ca4a40016",
+                      "ShippingLocationId": "79e70fbd-f441-4311-ae4d-949d3fcb6a1f",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -1096,14 +1096,14 @@
                       "ContentType": "NDX",
                       "ServiceCode": "TDY",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-06-10",
+                      "ShipmentDate": "2026-06-30",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "EUR",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "d41420c8-ff1b-43bb-8b35-dcff9917218c",
+                      "ShippingAccountId": "66be55ff-e2bc-48e1-a052-73335eb5f322",
                       "Reference1": "OrderRef56",
                       "EoriNumber": "GB12345",
                       "VatNumber": "VA12345"
@@ -1161,7 +1161,7 @@
                       "PreRegistrationType": "IOSS",
                       "ShippingCharges": 20,
                       "InvoiceNumber": "INV-12345",
-                      "InvoiceDate": "2026-06-10"
+                      "InvoiceDate": "2026-06-30"
                     }
                   }
                 },
@@ -1185,7 +1185,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "TDY",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-06-10",
+                      "ShipmentDate": "2026-06-30",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
@@ -1193,8 +1193,8 @@
                       "ContainerId": "Central Europe"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "6aa85b62-01d0-4ab2-a82c-cbeea61fe9bc",
-                      "ShippingLocationId": "27ec5297-a4c2-449e-9d87-2c848c8afbad",
+                      "ShippingAccountId": "e4922e80-1730-4a3a-b921-23f7afc0dc3f",
+                      "ShippingLocationId": "e906ee24-2271-4e51-90ec-1b4d0f8a9565",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -1273,7 +1273,7 @@
                       "OtherCharges": 32,
                       "QuotedLandedCost": 82.74,
                       "InvoiceNumber": "INV-12345",
-                      "InvoiceDate": "2026-06-10",
+                      "InvoiceDate": "2026-06-30",
                       "ExportLicenceRequired": false,
                       "Airn": "231.002.999-00"
                     },
@@ -1314,7 +1314,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "TDY",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-06-10",
+                      "ShipmentDate": "2026-06-30",
                       "DeclaredWeight": 9,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
@@ -1322,8 +1322,8 @@
                       "ContainerId": "Central Europe"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "f137782f-19c1-4744-bc4e-0754a2b9e78d",
-                      "ShippingLocationId": "f30ed925-6151-46b5-8d72-2fbdb3be90fc",
+                      "ShippingAccountId": "d4d29e2d-dd0a-4118-8e21-6017786fc439",
+                      "ShippingLocationId": "ddee2afc-77f7-43f7-9690-a27d52d12729",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -1462,7 +1462,7 @@
                       "OtherCharges": 32,
                       "QuotedLandedCost": 82.74,
                       "InvoiceNumber": "INV-12345",
-                      "InvoiceDate": "2026-06-10",
+                      "InvoiceDate": "2026-06-30",
                       "ExportLicenceRequired": false,
                       "Airn": "231.002.999-00"
                     },
@@ -1497,14 +1497,14 @@
                       "ContentType": "NDX",
                       "ServiceCode": "WPX",
                       "DescriptionOfGoods": "Aftershave",
-                      "ShipmentDate": "2026-06-10",
+                      "ShipmentDate": "2026-06-30",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "7cb01bb4-7b53-45c7-bc4e-f42cbf2b26f3",
+                      "ShippingAccountId": "1ed04d97-c376-4e5c-82f0-3cf8f5feaf16",
                       "Reference1": "OrderRef56",
                       "EoriNumber": "GB12345",
                       "VatNumber": "VA12345"
@@ -1558,7 +1558,7 @@
                       "PreRegistrationType": "IOSS",
                       "ShippingCharges": 20,
                       "InvoiceNumber": "INV-12345",
-                      "InvoiceDate": "2026-06-10"
+                      "InvoiceDate": "2026-06-30"
                     }
                   }
                 },
@@ -1569,13 +1569,13 @@
                       "ContentType": "NDX",
                       "ServiceCode": "DOT",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-06-10",
+                      "ShipmentDate": "2026-06-30",
                       "CurrencyCode": "EUR",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "1723402e-62a2-4fff-8f88-260d55aebf27",
+                      "ShippingAccountId": "9a5d0065-1ee1-42e4-a2e4-bd903acf18e4",
                       "Reference1": "OrderRef56",
                       "Address": {
                         "AddressId": "John Brown Default"
@@ -1620,19 +1620,19 @@
                       "LabelFormat": "PDF",
                       "Packages": [
                         {
-                          "ShipmentId": "75960f8b-cc72-417f-9b0c-ceaac9355d8f",
+                          "ShipmentId": "97ce900a-533a-4f79-b4b7-7179628a09a6",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "JD012300001234567891",
                           "CarrierTrackingUrl": "https://www.dhl.com/gb-en/home/tracking.html?tracking-id=1234567890&submit=1?pieceTrackingNumber=JD012300001234567891"
                         },
                         {
-                          "ShipmentId": "75960f8b-cc72-417f-9b0c-ceaac9355d8f",
+                          "ShipmentId": "97ce900a-533a-4f79-b4b7-7179628a09a6",
                           "PackageOccurrence": 2,
                           "TrackingNumber": "JD012300001234567892",
                           "CarrierTrackingUrl": "https://www.dhl.com/gb-en/home/tracking.html?tracking-id=1234567890&submit=1?pieceTrackingNumber=JD012300001234567892"
                         },
                         {
-                          "ShipmentId": "75960f8b-cc72-417f-9b0c-ceaac9355d8f",
+                          "ShipmentId": "97ce900a-533a-4f79-b4b7-7179628a09a6",
                           "PackageOccurrence": 3,
                           "TrackingNumber": "JD012300001234567893",
                           "CarrierTrackingUrl": "https://www.dhl.com/gb-en/home/tracking.html?tracking-id=1234567890&submit=1?pieceTrackingNumber=JD012300001234567893"
@@ -1648,19 +1648,19 @@
                       "LabelFormat": "PNG",
                       "Packages": [
                         {
-                          "ShipmentId": "c7118542-530c-4c01-9dab-b6bff3d33058",
+                          "ShipmentId": "8a9b98ac-16f5-454e-bb38-6e29f0464ef6",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "JD012300001234567891",
                           "CarrierTrackingUrl": "https://www.dhl.com/gb-en/home/tracking.html?tracking-id=1234567890&submit=1?pieceTrackingNumber=JD012300001234567891"
                         },
                         {
-                          "ShipmentId": "c7118542-530c-4c01-9dab-b6bff3d33058",
+                          "ShipmentId": "8a9b98ac-16f5-454e-bb38-6e29f0464ef6",
                           "PackageOccurrence": 2,
                           "TrackingNumber": "JD012300001234567892",
                           "CarrierTrackingUrl": "https://www.dhl.com/gb-en/home/tracking.html?tracking-id=1234567890&submit=1?pieceTrackingNumber=JD012300001234567892"
                         },
                         {
-                          "ShipmentId": "c7118542-530c-4c01-9dab-b6bff3d33058",
+                          "ShipmentId": "8a9b98ac-16f5-454e-bb38-6e29f0464ef6",
                           "PackageOccurrence": 3,
                           "TrackingNumber": "JD012300001234567893",
                           "CarrierTrackingUrl": "https://www.dhl.com/gb-en/home/tracking.html?tracking-id=1234567890&submit=1?pieceTrackingNumber=JD012300001234567893"
@@ -1756,7 +1756,7 @@
                 "examples": {
                   "PDF": {
                     "value": {
-                      "ShipmentId": "8dc0ec17-3c6f-4bbd-8a5a-d00f3b7f7076",
+                      "ShipmentId": "1171ed3c-f81a-4861-9cc2-ba9a93dcbdd9",
                       "TrackingNumber": "1234567890",
                       "CarrierTrackingUrl": "https://www.dhl.com/gb-en/home/tracking.html?tracking-id=1234567890&submit=1",
                       "Label": "jVBERw0KGgoAAAANSUhEUgAA.....PDF",
@@ -1765,7 +1765,7 @@
                   },
                   "PNG": {
                     "value": {
-                      "ShipmentId": "cb74ed7f-8c09-48b6-bf84-b53d58aab09f",
+                      "ShipmentId": "4252419a-c015-472d-8b92-51967c5eba1e",
                       "TrackingNumber": "1234567890",
                       "CarrierTrackingUrl": "https://www.dhl.com/gb-en/home/tracking.html?tracking-id=1234567890&submit=1",
                       "Label": "iVBORw0KGgoAAAANSUhEUgAA.....PNG",
@@ -2268,23 +2268,23 @@
             "maxLength": 200,
             "minLength": 1,
             "type": "string",
-            "description": "API Key provided by DHL Express for MyDHL API access.",
+            "description": "A unique API Key assigned to a specific DHL Express account. It is essential for authenticating and authorising API requests.",
             "example": "dhlexpress_api_key"
           },
           "ApiSecret": {
             "maxLength": 200,
             "minLength": 1,
             "type": "string",
-            "description": "API Secret provided by DHL Express for MyDHL API access.",
+            "description": "A unique API Secret assigned to a specific DHL Express account. It is essential for authenticating and authorising API requests.",
             "example": "dhlexpress_api_secret"
           },
           "IsArchiveLabels": {
             "type": "boolean",
-            "description": "Archive Labels"
+            "description": "Indicates whether DHL waybill documents are available for download as PDF.\r<br />Valid values are the following:\r<br /><ul><li>**True** - the way bill documents will be available for download in PDF format</li><li>**False** - the way bill documents will not be available for download</li></ul>"
           },
           "IsPaperlessTradeEnabled": {
             "type": "boolean",
-            "description": "Paperless Trade (PLT) Enabled"
+            "description": "Indicates whether the documents are submitted electronically.\r<br />Valid values are the following:\r<br /><ul><li>**True** - the documents can be submitted electronically</li><li>**False** - the documents cannot be submitted electronically</li></ul>"
           },
           "PaperlessTradeInvoiceOption": {
             "$ref": "#/components/schemas/PaperlessTradeInvoiceOption"
@@ -2395,6 +2395,7 @@
         "required": [
           "AccountAlias",
           "AccountName",
+          "AccountNumber",
           "AccountStatus",
           "AccountType",
           "CarrierCode",
@@ -2418,9 +2419,9 @@
             "example": "RM"
           },
           "AccountNumber": {
+            "minLength": 1,
             "type": "string",
             "description": "The number assigned to the shipping account by the carrier, typically used for tracking shipments and billing purposes.",
-            "nullable": true,
             "example": "0123456789"
           },
           "AccountType": {
@@ -2463,11 +2464,11 @@
           },
           "IsArchiveLabels": {
             "type": "boolean",
-            "description": "Archive Labels"
+            "description": "Indicates whether DHL waybill documents are available for download as PDF.\r<br />Valid values are the following:\r<br /><ul><li>**True** - the way bill documents will be available for download in PDF format</li><li>**False** - the way bill documents will not be available for download</li></ul>"
           },
           "IsPaperlessTradeEnabled": {
             "type": "boolean",
-            "description": "Paperless Trade (PLT) Enabled"
+            "description": "Indicates whether the documents are submitted electronically.\r<br />Valid values are the following:\r<br /><ul><li>**True** - the documents can be submitted electronically</li><li>**False** - the documents cannot be submitted electronically</li></ul>"
           },
           "PaperlessTradeInvoiceOption": {
             "$ref": "#/components/schemas/PaperlessTradeInvoiceOption"
@@ -2567,23 +2568,23 @@
             "maxLength": 200,
             "minLength": 1,
             "type": "string",
-            "description": "API Key provided by DHL Express for MyDHL API access.",
+            "description": "A unique API Key assigned to a specific DHL Express account. It is essential for authenticating and authorising API requests.",
             "example": "dhlexpress_api_key"
           },
           "ApiSecret": {
             "maxLength": 200,
             "minLength": 1,
             "type": "string",
-            "description": "API Secret provided by DHL Express for MyDHL API access.",
+            "description": "A unique API Secret assigned to a specific DHL Express account. It is essential for authenticating and authorising API requests.",
             "example": "dhlexpress_api_secret"
           },
           "IsArchiveLabels": {
             "type": "boolean",
-            "description": "Archive Labels"
+            "description": "Indicates whether DHL waybill documents are available for download as PDF.\r<br />Valid values are the following:\r<br /><ul><li>**True** - the way bill documents will be available for download in PDF format</li><li>**False** - the way bill documents will not be available for download</li></ul>"
           },
           "IsPaperlessTradeEnabled": {
             "type": "boolean",
-            "description": "Paperless Trade (PLT) Enabled"
+            "description": "Indicates whether the documents are submitted electronically.\r<br />Valid values are the following:\r<br /><ul><li>**True** - the documents can be submitted electronically</li><li>**False** - the documents cannot be submitted electronically</li></ul>"
           },
           "PaperlessTradeInvoiceOption": {
             "$ref": "#/components/schemas/PaperlessTradeInvoiceOption"
@@ -2842,6 +2843,18 @@
             "description": "An abbreviation representing the country where the item was manufactured or produced, following the ISO 3166-1 alpha-2 standard, for example,  \"GB\" for the United Kingdom. This information is important for customs declarations and compliance with import/export regulations.\r<br />\r<br />***Note:** Depending on the carrier and destination country, this information may be required for dutiable shipments.*",
             "nullable": true,
             "example": "GB"
+          },
+          "ManufactureProductId": {
+            "maxLength": 50,
+            "type": "string",
+            "description": "A unique manufacturer identifier for the item being shipped, for example, proprietary manufacturer code, model number, or internal code. This field is used to reference the shipped item and supports carrier-specific requirements.",
+            "nullable": true
+          },
+          "StandardisedProductId": {
+            "maxLength": 50,
+            "type": "string",
+            "description": "A globally recognised product identifier for the item being shipped, for example, GTIN, EAN, and UPC. This field is used for standardised item identification and supports carrier-specific requirements for customs and risk assessment.",
+            "nullable": true
           },
           "Hazmat": {
             "$ref": "#/components/schemas/Hazmat"
@@ -3126,7 +3139,7 @@
           "SapientGenerated"
         ],
         "type": "string",
-        "description": "Represents the options for paperless trade invoice configuration in DHL Express shipping accounts."
+        "description": "Specifies the DHL Paperless Trade (PLT) invoice option for electronically transmitting commercial invoice documentation.\r<br />Valid values are the following:\r<br /><ul><li>**DhlGenerated**: This value allows DHL to create the invoice and send it electronically to the customs agency.</li><li>**SapientGenerated**: This value generates the invoice from the shipment data in SAPIENT and sends it to DHL.</li></ul><i>**Note**: This field is only applicable if the **IsPaperlessTradeEnables** field is set to true.</i>"
       },
       "ReturnToSender": {
         "type": "object",
