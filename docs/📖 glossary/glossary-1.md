@@ -221,6 +221,7 @@ next:
 
   * **Package**. A unit or container that holds goods or items being shipped from one location to another location.
   * **Package type**. A specific format or style in which goods are shipped. The choice of package can significantly effect shipping costs, handling, and overall logistics. Few example of the package types are boxes, bags, crates, drums, and so on. Some carriers have rules around max weight and max dimensions allowed for a service. A shipment can have between 1 and 99 packages. All packages in the shipments must be within the limits for the selected service.
+* **Partner label**: A shipping label utilised in collaboration with other carriers, which facilitates the last-mile delivery of shipments. For Royal Mail, partners such as GLS and FedEx will use these partner labels to manage the final stages of delivery to the recipient outside the UK.
   * **Portable Document Format (PDF)**. A Base 64 encoded PDF text that must be converted using a base64 to PDF convertor to create a PDF label.
   * **Pick-up and Drop-off (PUDO)**. A fulfillment and returns method whereby customers come to a designated site to collect items, or leave them as part of the returns process. Services are often provided by local stores, supermarkets, high street retailers, and smart lockers accessible by PIN codes.
   * **Portable Network Graphics (PNG)**. A Base 64 encoded PNG text that must be converted using a base64 to PNG convertor to create a PNG label.
