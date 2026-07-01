@@ -15,7 +15,7 @@ In SAPIENT, you can create an InPost shipping account by selecting your desired 
 >
 > _Before you can set up a shipping account, be advised on the following:_
 >
-> * _Make sure to[enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with InPost._
+> * _Make sure to [enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with InPost._
 > * _If you wish to use both the Outbound labelled and Returns labelless services, you must create separate shipping accounts for each. This is because the credentials—**ClientId** and **Bearer token**— differs for each account._
 
 ## How to add InPost shipping account
