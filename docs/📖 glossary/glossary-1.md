@@ -145,7 +145,9 @@ next:
 ***
 
 <Accordion title="O">
-  * **One Stop Shop (OSS)**. An an online portal, developed from the existing Mini One Stop Shop, that allows online businesses to report certain B2C EU supplies in a single member state. As such, a single quarterly payment and VAT return is due for the supplies covered by OSS, rather than multiple local returns and endless payments.
+* **Off-Amazon: An Amazon classification, where products are sold through other channels. In this case, Amazon Shipping is used as the delivery carrier.
+* **One Stop Shop (OSS)**. An an online portal, developed from the existing Mini One Stop Shop, that allows online businesses to report certain B2C EU supplies in a single member state. As such, a single quarterly payment and VAT return is due for the supplies covered by OSS, rather than multiple local returns and endless payments.
+* **On-Amazon**: An Amazon classification, where products sold on Amazon marketplace only. In this case, the delivery is available via Amazon Shipping or third-party carriers.
   * **Online Business Account (OBA)**. An online account service provided by Royal Mail for businesses to manage their mailing needs, including shipping and tracking parcels.
 
   For more information, refer to [www.royalmail.com/discounts-payment/credit-account/online-business-account](http://www.royalmail.com/discounts-payment/credit-account/online-business-account).
@@ -207,7 +209,6 @@ next:
 ***
 
 <Accordion title="U">
-
   * **Universal Postal Union (UPU)**. A primary forum for cooperation between postal sector players. It helps to ensure a truly universal network of up-to-date products and services.
 
   For more information, refer to [www.upu.int/en/home](http://www.upu.int/en/home).
@@ -216,35 +217,30 @@ next:
 ***
 
 <Accordion title="V">
-
   * **Value Added Tax (VAT) number**. A unique identifier assigned to a business or individual registered for Value Added Tax, necessary for conducting tax-exempt or taxable transactions.
 </Accordion>
 
 ***
 
 <Accordion title="W">
-
   * **What3words**. A three-word proprietary geocode system designed to identify any location on the surface of Earth with a resolution of about 3 metres. For example, 10 Downing Street is slurs.this.shark and Wembley Stadium is villa.first.mount.
 </Accordion>
 
 ***
 
 <Accordion title="X">
-
   *There are currently no abbreviations or terms available for this letter.*
 </Accordion>
 
 ***
 
 <Accordion title="Y">
-
   *There are currently no abbreviations or terms available for this letter.*
 </Accordion>
 
 ***
 
 <Accordion title="Z">
-
   * **ZPL300DPI**. A Base 64 encoded text for Zebra printer at 300 DPI – ZPL (Zebra Programming Language) the printing control language used by Zebra printers.
   * **ZPL203DPI**. A Base 64 encoded text for Zebra printer at 203 DPI – ZPL (Zebra Programming Language) the printing control language used by Zebra printers.
 </Accordion>
