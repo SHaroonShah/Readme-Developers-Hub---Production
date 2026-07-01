@@ -69,7 +69,7 @@ To add a tracking account for The Delivery Group in SAPIENT, follow the steps as
 
   <br />
 
-  <ToggleListItem title="Step 4: Save and add the tracking account">
+  <ToggleListItem title="4. Save and add the tracking account">
     After entering all the necessary information, select ![alt text](https://files.readme.io/41bf635f2c82bf95197e5a2f62939d396ead6033e48a985a30965d84a5be57b8-Add_tracking_account_button_2.png).
 
     Once done, the Delivery Group tracking account is added successfully and appears in the **Tracking Accounts** list. You can now receive the tracking information on your <Glossary>shipments</Glossary>.
