@@ -1,6 +1,8 @@
 ---
 title: 2026 release notes
-excerpt: This section includes the archived release notes published in the year 2026.
+excerpt: >-
+  This section includes the SAPIENT archived release notes published in the year
+  2026.
 deprecated: false
 hidden: false
 icon: fad fa-notes
