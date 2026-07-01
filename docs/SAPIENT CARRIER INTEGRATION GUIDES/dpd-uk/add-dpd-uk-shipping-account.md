@@ -19,7 +19,7 @@ In SAPIENT, you can create a DPD UK shipping account by selecting your desired <
 
 <Tabs>
   <Tab title="Via SAPIENT UI">
-    <br />
+    
 
     To add a DPD UK shipping account via SAPIENT UI, perform the steps as explained in the following procedure:
 
