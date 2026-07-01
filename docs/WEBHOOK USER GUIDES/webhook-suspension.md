@@ -19,7 +19,7 @@ If the receiving endpoint (the system where the notifications are sent) is down 
 
 ## How webhook suspension works
 
-<Accordion title="Suspension Process" icon="pause-circle">
+<Accordion title="Suspension Process">
   When your webhook endpoint is down or encounters errors, SAPIENT follows a structured retry process before suspending the webhook:
 
   1. **Error Detection**: The system detects issues like timeouts, invalid data, or server errors
@@ -29,7 +29,7 @@ If the receiving endpoint (the system where the notifications are sent) is down 
   5. **Retry Loop**: When the webhook is suspended, it will be queued to retry again.
 </Accordion>
 
-<Accordion title="Retry Schedule" icon="clock">
+<Accordion title="Retry Schedule">
   The system follows this retry schedule before suspending a webhook:
 
   | Retry ID | Retry Count | Interval    |
@@ -44,7 +44,7 @@ If the receiving endpoint (the system where the notifications are sent) is down 
   |     8    |      7      | 72 hours    |
 </Accordion>
 
-<Accordion title="Reactivation Process" icon="power-off">
+<Accordion title="Reactivation Process">
   To reactivate a suspended webhook:
 
   1. Navigate to the webhook configuration in your GUI
