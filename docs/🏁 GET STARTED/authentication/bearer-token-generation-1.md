@@ -40,7 +40,7 @@ Generating a bearer token is essential for securely managing access to APIs, all
 
 ***
 
-### Generating bearer token
+## How to generate bearer token
 
 To generate the bearer token, perform the steps as explained in the following procedure:
 
