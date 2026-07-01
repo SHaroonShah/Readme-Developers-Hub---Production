@@ -15,8 +15,8 @@ next:
 ---
 <Image align="center" width="600px" src="https://files.readme.io/ddccb660c9cfa1e97dcee3e4135fcfb75e96104c77298e466a7188223222c220-Glossary_image_art.png" />
 
-<details>
-  <summary>A</summary>
+
+  <Accordion title="A">
 
   <br />
 
@@ -24,7 +24,7 @@ next:
   * **Admin**. The owner of the system, who is responsible for configuring the system and manage access permissions.
   * **All tracking events**. A setting that enables the monitoring and logging of every possible event related to a shipment throughout its lifecycle, for example, shipment announced, shipment departed depot, delivered to safe place, and others.
   * **Associated shipping location**. The destination point linked to a shipping account, where goods are sent or received in the logistics process. To be able to use a shipping account to create shipments from one of your shipping locations, the shipping account and shipping locations must be linked. Some carriers require specific details before they will validate the link. You can link multiple shipping locations to a single shipping account and one shipping location to multiple shipping accounts. For Royal Mail these are your RM OBA number—the posting location code that has been assigned by Royal Mail and an OBA access code given to you by Royal Mail or is generated automatically by the system. You cannot create shipments using your shipping account and shipping location unless the Royal Mail OBA team validates your details.
-</details>
+</Accordion>
 
 ***
 
@@ -347,3 +347,5 @@ next:
   * **ZPL300DPI**. A Base 64 encoded text for Zebra printer at 300 DPI – ZPL (Zebra Programming Language) the printing control language used by Zebra printers.
   * **ZPL203DPI**. A Base 64 encoded text for Zebra printer at 203 DPI – ZPL (Zebra Programming Language) the printing control language used by Zebra printers.
 </details>
+
+<br />
