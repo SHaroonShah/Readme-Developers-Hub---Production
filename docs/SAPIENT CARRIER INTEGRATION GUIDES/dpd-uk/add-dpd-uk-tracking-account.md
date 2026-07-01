@@ -52,7 +52,7 @@ To add a tracking account for DPD UK in SAPIENT, follow the steps as explained i
     On the **Add Tracking account** page that appears, in the **DETAILS** block, enter the necessary information as explained in the following table.
 
     <Image align="center" border={true} src="https://files.readme.io/0360cf8a986002fef3a87b152306907f660fb5c7f85e0f328e4f830b03b8a818-Adding_DPD_UK_tracking_account.png" width="500px" alt="Adding tracking account" />
-
+<br />
     <AsteridkForMandatoryElements />
 
     <Table align={["center","left"]}>
