@@ -43,7 +43,7 @@ The integration of DPD Ireland (IE) into the SAPIENT platform is a significant s
   </Tab>
 
   <Tab title="Additional Features">
-    <Cards columns={1}>
+    <Cards columns={2}>
       <Card title="Consignment services" icon="fa-solid fa-boxes-stacked">
         Multi-piece shipments are supported for all services except DPD Air Express.
 > *For Domestic and DPD Classic services, the maximum number of packages allowed is 10, and for DPD Air Express, it is 1.*
