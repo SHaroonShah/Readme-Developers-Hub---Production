@@ -84,6 +84,7 @@ To add a shipping account for FedEx in SAPIENT, follow the instructions as expla
 
     <Tabs>
       <Tab title="1. Shipping Account">
+<br />
         At the **Shipping Account** stage, you can specify the general details associated to your FedEx account number.
 
         <Image align="center" border={true} src="https://files.readme.io/8822b5421cd564a71a5d9e39a2ad6ec6cc6eb783034bb5979b0b2522299bdc55-FEDEX_Shipping_account_stage.png" alt="Specifying shipping account details" />
