@@ -88,7 +88,7 @@ To efficiently handle the imports, make sure to fill in the necessary details as
       <td>
         Required – physical labels only, where you will be requested to create couple of labels, manifest them and ship them to Royal Mail.
 
-        _`Note:`Details on this label are shared once the[Sandbox Test Pack](https://docs.intersoftsapient.net/docs/royal-mail-importers-sandbox-test-pack)  is approved._
+        _`Note:`Details on this label are shared once the [Sandbox Test Pack](https://docs.intersoftsapient.net/docs/royal-mail-importers-sandbox-test-pack)  is approved._
       </td>
     </tr>
 
