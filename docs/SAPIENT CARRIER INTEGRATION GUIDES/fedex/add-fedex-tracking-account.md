@@ -23,7 +23,7 @@ In SAPIENT, you can add tracking accounts for FedEx to enhance visibility, impro
 >
 > 1. _Enabled the [label integration](https://docs.intersoftsapient.net/docs/integration-activation) with FedEx._
 > 2. _Enabled the [tracking integration](https://docs.intersoftsapient.net/docs/integration-activation) with FedEx._
-> 3. _Set up your<Glossary>tracking webhook</Glossary>. For more information on how to set up a tracking webhook, refer to the [Create tracking webhook](https://docs.intersoftsapient.net/docs/create-tracking-webhook) section. This is a one-time activity, you do not have to do this every time you add a tracking account._
+> 3. _Set up your <Glossary>tracking webhook</Glossary>. For more information on how to set up a tracking webhook, refer to the [Create tracking webhook](https://docs.intersoftsapient.net/docs/create-tracking-webhook) section. This is a one-time activity, you do not have to do this every time you add a tracking account._
 
 ## How to add FedEx tracking account
 
@@ -54,7 +54,9 @@ To add a tracking account for FedEx in SAPIENT, perform the steps as explained i
     On the **Add Tracking account** page that appears, in the **DETAILS** block, enter the necessary information as explained in the following table.
 
     <Image align="center" border={true} src="https://files.readme.io/30ef485f9710ebdcbd038ba34728a378b581e371d21be08b19bd9b416cb4e579-Adding_FedEx_tracking_account.png" width="500px" alt="Adding tracking account" />
-<br />
+
+    <br />
+
     <AsteridkForMandatoryElements />
 
     |         Element        | Description                                                                                                      |
