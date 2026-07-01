@@ -72,6 +72,7 @@ The UPS carrier integration within the SAPIENT system enables seamless communica
   </Tab>
 
   <Tab title="Service Enhancements">
+The following are the key service enhancements provided by the UPS integration:
     * **Email Notification**: To use this enhancement, you must provide a valid email address.
     * **QV (Quantum View) Ship**: Sends an email notification to the shipper when the shipment has been shipped.
     * **QV Exception**: Notifies the shipper via email if there is an exception or issue with the shipment during transit.
