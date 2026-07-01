@@ -85,7 +85,7 @@ YODEL is fully integrated into the Intersoft SAPIENT platform, allowing business
     <Callout icon="💡" theme="default">
       ### *Tip*
 
-      *For the most up-to-date carrier services, use the[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint.*
+      *For the most up-to-date carrier services, use the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint.*
     </Callout>
   </Tab>
 </Tabs>
