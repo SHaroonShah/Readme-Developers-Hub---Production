@@ -70,8 +70,6 @@ For customers and businesses using Royal Mail for their shipping needs, this com
 
 <Image align="center" border={true} caption="CN23 documentation example" src="https://files.readme.io/99c8343374d14f7e27598d5e1b16c081841819f76bd7b8b8242359a640cf8a1e-image.png" />
 
-<br />
-
 <Callout icon="💡" theme="default">
   ### _Tip_
 
