@@ -177,7 +177,7 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
 
         > 📘 *Note*
         >
-        > *To btain your client ID and secret, you need to create an application. This application is linked to your shipper accounts(s) and email address that are associated with your ups.com ID.  For a step by step guide on how to get these credentials, refer to the<Anchor label="Getting Started with UPS APIs" target="_blank" href="https://developer.ups.com/get-started?loc=en_US&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-">Getting Started with UPS APIs</Anchor> user guide.*
+        > *To btain your client ID and secret, you need to create an application. This application is linked to your shipper accounts(s) and email address that are associated with your ups.com ID.  For a step by step guide on how to get these credentials, refer to the <Anchor label="Getting Started with UPS APIs" target="_blank" href="https://developer.ups.com/get-started?loc=en_US&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-">Getting Started with UPS APIs</Anchor> user guide.*
 
         ***
       </ToggleListItem>
