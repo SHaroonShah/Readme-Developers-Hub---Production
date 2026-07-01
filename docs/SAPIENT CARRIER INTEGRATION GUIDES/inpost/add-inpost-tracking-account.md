@@ -17,9 +17,9 @@ In SAPIENT, you can add tracking accounts for InPost to enhance visibility, impr
 >
 > _Prior to adding InPost tracking account, make sure you have completed the following prerequisites:_
 >
-> 1. _Enabled the[label integration](https://docs.intersoftsapient.net/docs/integration-activation) with InPost._
-> 2. _Enabled the[tracking integration](https://docs.intersoftsapient.net/docs/integration-activation) with InPost._
-> 3. _Set up your<Glossary>tracking webhook</Glossary>. For more information on how to set up a tracking webhook, refer to the [Create tracking webhook](https://docs.intersoftsapient.net/docs/create-tracking-webhook) section. This is a one-time activity, you do not have to do this every time you add a tracking account._
+> 1. _Enabled the [label integration](https://docs.intersoftsapient.net/docs/integration-activation) with InPost._
+> 2. _Enabled the [tracking integration](https://docs.intersoftsapient.net/docs/integration-activation) with InPost._
+> 3. _Set up your <Glossary>tracking webhook</Glossary>. For more information on how to set up a tracking webhook, refer to the [Create tracking webhook](https://docs.intersoftsapient.net/docs/create-tracking-webhook) section. This is a one-time activity, you do not have to do this every time you add a tracking account._
 
 ## How to add InPost tracking account
 
