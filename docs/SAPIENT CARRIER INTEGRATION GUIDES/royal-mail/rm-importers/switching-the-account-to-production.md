@@ -19,7 +19,7 @@ Following the [Test Pack](https://docs.intersoftsapient.net/docs/royal-mail-impo
 
 ## How to switch account from Sandbox to Production
 
-To set up the Production <Glossary>Shipping Account</Glossary>, complete each step below.
+To set up the Production <Glossary>Shipping Account</Glossary>, perform the steps as explained in the following procedure. 
 
 <ToggleList>
   <ToggleListItem title="1. Edit the shipping account">
@@ -28,14 +28,20 @@ To set up the Production <Glossary>Shipping Account</Glossary>, complete each st
     > 🚧 *Important*
     >
     > *Please ensure to enter the Posting Location Number Postcode in the**Shipping Locations** screen in SAPIENT, which must match the Posting Location Number Postcode provided in the Royal Mail OBA.*
-***
+
+    ***
   </ToggleListItem>
-<br />
+
+  <br />
+
   <ToggleListItem title="2. Send the OBA API request">
     After switching the Shipping Account to **Production**, an automatic request is sent to the Royal Mail OBA API. Depending on the account details provided, the system either accepts it or rejects it.
-***
+
+    ***
   </ToggleListItem>
-<br />
+
+  <br />
+
   <ToggleListItem title="3. Check the account status">
     If the OBA request is accepted, the **Account Status** changes from **Pending** to **Enabled**. Otherwise, it remains in the **Pending** state and you need to go back, fill in the correct Royal Mail account details and send the request again. You will be unable to use the **Production** Shipping Account until the Account Status is **Enabled**.
 
@@ -44,14 +50,20 @@ To set up the Production <Glossary>Shipping Account</Glossary>, complete each st
 
       *The Shipping Account you set up previously stays as the**Sandbox** account type and you can continue using it for testing purposes.*
     </Callout>
-***
+
+    ***
   </ToggleListItem>
-<br />
+
+  <br />
+
   <ToggleListItem title="4. Set up International Arrival Containers">
     If you are a Freight 2 Post customer, ensure that [International Arrival Containers (A-scan)](https://docs.intersoftsapient.net/docs/add-barcode-range-for-international-arrival-containers) is set up with valid details provided to you by INTERSOFT Onboarding team.
-***
+
+    ***
   </ToggleListItem>
-<br />
+
+  <br />
+
   <ToggleListItem title="5. Complete label sign off">
     After this, you can proceed with the **label sign off** required by Royal Mail. The sign off depends on what type of Royal Mail customer you are:
 
@@ -59,9 +71,12 @@ To set up the Production <Glossary>Shipping Account</Glossary>, complete each st
     * **Royal Mail importers using Freight 2 Post route**: involves CDS checks as well as physical label sign off. For CDS checks, you are requested to create a couple of <Glossary>labels</Glossary>, <Glossary>manifest</Glossary> them and share with us the <Glossary>PDF</Glossary>s, so they can be reviewed and signed off before you proceed to the physical label sign off.
 
     The full details on this are shared with you closer to the date.
-***
+
+    ***
   </ToggleListItem>
-<br />
+
+  <br />
+
   <ToggleListItem title="6. Start shipping via Intersoft SAPIENT">
     Once the labels are signed off and the go-live action is agreed with Royal Mail, you can start shipping via Intersoft SAPIENT.
 
