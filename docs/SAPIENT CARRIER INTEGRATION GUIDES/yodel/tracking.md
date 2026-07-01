@@ -26,7 +26,7 @@ In SAPIENT, you can add tracking accounts for YODEL to enhance visibility, impro
 >    _**[Your client name] would like IOD tracking enabled for the following Yodel contract number (7 digit number). Please respond to this email with the SFTP username and password and file naming convention for IOD tracking files.**_
 > 2. _Enabled the [label integration](https://docs.intersoftsapient.net/docs/integration-activation) with YODEL._
 > 3. _Enabled the [tracking integration](https://docs.intersoftsapient.net/docs/integration-activation) with YODEL._
-> 4. _Set up your<Glossary>tracking webhook</Glossary>. For more information on how to set up a tracking webhook, refer to the [Create tracking webhook](https://docs.intersoftsapient.net/docs/create-tracking-webhook) section. This is a one-time activity, you do not have to do this every time you add a tracking account._
+> 4. _Set up your <Glossary>tracking webhook</Glossary>. For more information on how to set up a tracking webhook, refer to the [Create tracking webhook](https://docs.intersoftsapient.net/docs/create-tracking-webhook) section. This is a one-time activity, you do not have to do this every time you add a tracking account._
 
 ## How to add YODEL tracking account
 
