@@ -15,86 +15,102 @@ metadata:
 next:
   description: ''
 ---
-In SAPIENT, you can add tracking accounts for YODEL to enhance visibility, improving customer interactions, and streamlining logistics operations for YODEL.
+The primary purpose of creating tracking barcode ranges is to facilitate efficient tracking and management of shipments. Barcodes allow for the easy identification of items at various points in the shipping process, from dispatch to delivery. By assigning a unique barcode to each <Glossary>shipment</Glossary>, YODEL can streamline its operations and improve accuracy in handling processes.
 
-Before adding a YODEL tracking account, you need to [send a corresponding request](ISSOnbording@Yodel.co.uk) to YODEL via email with the subject line “*Intersoft (your client name) STFP IOD tracking request*”. In the body of the email, make sure to add the following details:
+The Yodel barcode is referred to as the License Plate Number, and is constructed as follows:​
 
-***\[Your client name] would like IOD tracking enabled for the following Yodel contract number (7 digit number). Please respond to this email with the SFTP username and password and file naming convention for IOD tracking files.***
+* 8-digit prefix with a static value of **JJD00022​**
+* 11-digit tracking number, consisting of:​
+  * 5-digit meter number​ provided during the [creation of the YODEL shipping account](https://docs.intersoftsapient.net/docs/shipping-account-setup-1#/). This number is variable and is used to automatically generate the barcode number range for the shipping account using that meter number.
+  * 6-digit number range, always 00001 to 99999
 
-> 🚧 *Important*
+> 🚧 _Important_
 >
-> *Prior to adding a YODEL tracking account, make sure you have completed the following prerequisites:*
+> _Before adding the barcode range, please be advised on the following:_
 >
-> 1. *Enabled the [label integration](https://docs.intersoftsapient.net/docs/integration-activation) with YODEL.*
-> 2. *Enabled the [tracking integration](https://docs.intersoftsapient.net/docs/integration-activation) with YODEL.*
-> 3. *Set up your<Glossary>tracking webhook</Glossary>. For more information on how to set up a tracking webhook, refer to the [Create tracking webhook](https://docs.intersoftsapient.net/docs/create-tracking-webhook) section. This is a one-time activity, you do not have to do this every time you add a tracking account.*
+> * _The barcode range will only be auto-generated if a range does not already exist for that <Glossary>shipping account</Glossary> and meter number._
+> * _The meter number must be unique and cannot be duplicated across shipping accounts._
+> * _When the number range expires, Yodel issues a new meter number to the customer to set up a new number range._
 
-To add a tracking account for YODEL in SAPIENT, follow the steps as explained in the following procedure.
+## How to add tracking barcode ranges to YODEL shipping account
 
-1. In the left navigation panel, select **API** > **Webhooks**. On the page that opens, select the **Tracking Accounts** tab.
+To add tracking barcode ranges to YODEL shipping account in SAPIENT, follow the steps as explained in the following procedure.
 
-<Image align="center" alt="Accessing tracking accounts" border={true} caption="Accessing tracking accounts" src="https://files.readme.io/3812e0d15bd2f19f64f9644a82d88a1ce95254d34f89ba7eb5de616c9fd0ff3c-Tracking_accounts_tab.png" />
+<ToggleList>
+  <ToggleListItem title="1. Select the Integrations page">
+    In the left navigation panel, select **Integrations**.
 
-2. In the **Tracking Accounts** page that opens, select ![alt text](https://files.readme.io/647be94f894111181386f1ec3cdd959a85938dd4c0cd8d123d206b7db0487c8d-Add_tracking_account_button.png).
+    <Image align="center" border={true} src="https://files.readme.io/84039ea8d38560195f244c1aba1f5fdc49e22260967548a94b5ddc56e5c79c00-Accessing_Integrations_option.png" alt="Accessing integrations" />
 
-<Image align="center" alt="Accessing option to add tracking account" border={true} caption="Accessing option to add tracking account" src="https://files.readme.io/f95d0d1892b2dd558068c2cb28e4885997e9341c545c83c597ba1134c74e73ea-Add_tracking_accounts_button_YODEL.png" />
+    ***
+  </ToggleListItem>
 
-3. On the **Add Tracking account** page that appears, in the **DETAILS** block, enter the necessary information as explained in the following table.
+  <br />
 
-<Image align="center" alt="Adding tracking account" border={true} caption="Adding tracking account" src="https://files.readme.io/e2b0cbf7a01deef853dcf1fddd0b7bbc151c981730d577b226c9e99c6166cb26-Details_block_YODEL.png" width="500px" />
+  <ToggleListItem title="2. Select the LABELS integration for YODEL">
+    In the list of carrier integrations that appears, next to YODEL, select **LABELS**.
 
-<AsteridkForMandatoryElements />
+    <Image align="center" border={true} src="https://files.readme.io/ac19caa168fb20a2222372d76a597bb2356a9fa778755b67be518f99c0b301fa-Accessing_YODEL_label_integration.png" alt="Accessing labels integration" />
 
-<Table align={["center","left"]}>
-  <thead>
-    <tr>
-      <th>
-        Element
-      </th>
+    ***
+  </ToggleListItem>
 
-      <th>
-        Description
-      </th>
-    </tr>
-  </thead>
+  <br />
 
-  <tbody>
-    <tr>
-      <td>
-        **Carrier**\*
-      </td>
+  <ToggleListItem title="3. Configure the LABELS integration">
+    On the page that opens, under the **Available Integrations** block, in the **LABELS** section, select **CONFIGURE**.
 
-      <td>
-        From the dropdown menu, select YODEL as your carrier option.
-      </td>
-    </tr>
+    <Image align="center" border={true} src="https://files.readme.io/929fcfc401a89d394d3c4cf236fa8aad9e1c300915efdf13c312ee009137e3f5-Configuring_YODEL_labels_integration.png" alt="Configuring labels integration" />
 
-    <tr>
-      <td>
-        **Shipping Account**\*
-      </td>
+    ***
+  </ToggleListItem>
 
-      <td>
-        From the dropdown menu, select the <Glossary>shipping account</Glossary> for which you want to receive  tracking.
+  <br />
 
-        You can also select the **All Shipping Accounts** option to add this tracking account for all existing accounts.
-      </td>
-    </tr>
-  </tbody>
-</Table>
+  <ToggleListItem title="4. Add a tracking barcode range">
+    In the **Configure YODEL** page that opens, select the **Tracking Ranges** tab and click ![](https://files.readme.io/9b441f42b92340c5b55aea80acf3097a095edd853fa67a58fd7e222cd5640c3d-Add_tracking_range_button.png).
 
-4. In the **SFTP DETAILS** block, enter the necessary information as explained in the following table:
+    <Image align="center" border={true} src="https://files.readme.io/50f00828730c4f0952268628bc6a78f253759fd809f059dcc682c6caeb7027cf-Selecting_add_tracking_range_for_YODEL.png" alt="Accessing option to add barcode range" />
 
-<Image align="center" width="500px" src="https://files.readme.io/b2437869c8baecd092365fb5631a2dc0e31e07454c824245442ab67bc10ec14c-SFTP_details_block_EVRi.png" />
+    ***
+  </ToggleListItem>
 
-<AsteridkForMandatoryElements />
+  <br />
 
-|     Element    | Description                                                                                                                |
-| :------------: | :------------------------------------------------------------------------------------------------------------------------- |
-| **Username**\* | Enter the username that you have received from YODEL in response to the tracking account setup request you sent earlier.   |
-| **Password**\* | Enter the password that you have received from YODEL in response to the tracking account setup request you sent earlier.   |
-|  **File Path** | Enter the file path that you have received from YODEL in response to your tracking account setup request you sent earlier. |
+  <ToggleListItem title="5. Enter tracking barcode range details">
+    In the form that opens, enter the necessary information as explained in the following table.
 
-5. After entering all the necessary information, select ![alt text](https://files.readme.io/d653c1f7e04a77a0bca6247e1bcbca03ccf933465c63ed23d2aa17b63243a632-Add_tracking_account_button_2.png).
+    <Image align="center" border={true} src="https://files.readme.io/76f934376420cd8244640ffaa6f789563de4bfd4b9965f9c3fa03eec7d5cf59b-Adding_YODEL_tracking_range.png" alt="Entering barcode range details" />
 
-Once done, the YODEL tracking account is added successfully and appears in the **Tracking Accounts** list. You can now receive the tracking information on your <Glossary>shipments</Glossary>.
+    <br />
+
+    <AsteridkForMandatoryElements />
+
+    |         Element        | Description                                                                                            |
+    | :--------------------: | :----------------------------------------------------------------------------------------------------- |
+    | **Shipping Account**\* | From the dropdown menu, select the YODEL shipping account for which you are adding the tracking range. |
+    |       **Prefix**       | A read-only field that represents the YODEL's default prefix value.                                    |
+    |        **Range**       | A read-only field that represents the YODEL's default 6-digit starting range value.                    |
+    |     **End Value**\*    | A read-only field that represents the YODEL's default 6-digit ending range value.                      |
+
+    ***
+  </ToggleListItem>
+
+  <br />
+
+  <ToggleListItem title="6. Save and add the tracking barcode range">
+    Once the relevant information is entered, select ![](https://files.readme.io/e5a8c301d9e4f9f09e3a21633bae40e536aaff09f96776a43aeea8162ece2a4b-Add_range_button.png) to save and add the tracking range.
+
+    You can now use this barcode range for your shipments.
+  </ToggleListItem>
+</ToggleList>
+
+***
+
+### See also
+
+<Cards columns="2">
+  <Card title="Add Shipping Account" href="https://docs.intersoftsapient.net/docs/shipping-account-setup-1" icon="fa-solid fa-truck">
+    Access the step-by-step guide on how to set up YODEL shipping account on SAPIENT.
+  </Card>
+</Cards>
