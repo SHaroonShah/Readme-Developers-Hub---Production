@@ -38,11 +38,9 @@ The Royal Mail collection allows the system to default the dimensions and format
 
 If you want to enable your customers to have their returns collected from their homes, create a Royal Mail shipment using the Royal Mail's return services. Ensure you meet [all the requirements](https://docs.intersoftsapient.net/docs/royal-mail-returns) when creating a returns shipment. You can then request a Royal Mail collection for the <Glossary>shipment</Glossary>.
 
-<Callout icon="🚧" theme="danger">
-  ### _Important_
-
-  _Royal Mail does not have the **Test** environment for Collection service. It can only be developed against the **Production** environment. This means that you need to book an actual collection and then cancel it before the date of the collection._
-</Callout>
+> 🚧 _Important_
+>
+> _Royal Mail does not have the **Test** environment for Collection service. It can only be developed against the **Production** environment. This means that you need to book an actual collection and then cancel it before the date of the collection._
 
 > 📘 _Note_
 >
