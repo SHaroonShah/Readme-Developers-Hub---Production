@@ -48,7 +48,7 @@ FedEx International Connect is a flexible, cost-effective, worldwide delivery so
   </Tab>
 
   <Tab title="Additional Features">
-    <Cards columns={1}>
+    <Cards columns={2}>
       <Card title="Single Package Shipments" icon="fa-solid fa-box">
         The integration supports single-package shipments. Consignment services are not supported by this integration
       </Card>
