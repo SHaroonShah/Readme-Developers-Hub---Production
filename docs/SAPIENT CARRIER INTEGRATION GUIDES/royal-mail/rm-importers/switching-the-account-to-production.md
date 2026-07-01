@@ -17,6 +17,8 @@ next:
 ---
 Following the [Test Pack](https://docs.intersoftsapient.net/docs/royal-mail-importers-sandbox-test-pack) run and approval, and successful UAT (user acceptance test), your account is switched from **Sandbox** to **Production**.
 
+## How to switch account from Sandbox to Peoduction
+
 To set up the  Production <Glossary>Shipping Account</Glossary>, perform the following steps.
 
 1. Edit the [Shipping Account](https://docs.intersoftsapient.net/docs/add-a-shipping-account), ensuring that the <Glossary>account type</Glossary> is set to **Production**, and it is prepopulated with the correct Royal Mail account details, Royal Mail Account Number, Posting Location Number (PLN), Registered Email Address (email address used to access your <Glossary>Online Business Account</Glossary> (OBA) to view billing and reporting), and Registered Billing Postcode. For more information on how to fill in the fields, refer to the [Set up Royal Mail Shipping Account.](https://docs.intersoftsapient.net/docs/shipping-account-requirements) section.
