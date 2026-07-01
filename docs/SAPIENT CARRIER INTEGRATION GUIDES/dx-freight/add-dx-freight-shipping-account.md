@@ -19,7 +19,7 @@ In SAPIENT, you can create a DX Freight shipping account by selecting your desir
 
 > 🚧 _Important_
 >
-> _Before you can set up a shipping account, make sure you have[enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with DX Freight and have already [created a shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location)._
+> _Before you can set up a shipping account, make sure you have [enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with DX Freight and have already [created a shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location)._
 
 ## How to add DXF shipping account
 
