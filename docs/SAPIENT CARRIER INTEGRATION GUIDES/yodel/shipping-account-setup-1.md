@@ -13,191 +13,245 @@ metadata:
 next:
   description: ''
 ---
-In SAPIENT, you can create a Yodel shipping account by selecting your desired <Glossary>shipping location</Glossary>,  entering the corresponding account and carrier details, and then adding the account to the system.
+In SAPIENT, with the Add Shipping Account functionality, you can select the desired shipping location and then add a YODEL shipping account to it.
 
-> 🚧 _IMPORTANT_
+> 🚧 _Important_
 >
-> _Before you can set up a shipping account, make sure you have[enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with YODEL._
+> _Before you can set up a shipping account, make sure you have enabled the <Anchor label="label integration" target="_blank" href="https://docs.intersoftsapient.net/docs/integration-activation">label integration</Anchor> for YODEL and have already <Anchor label="created a shipping location" target="_blank" href="https://docs.intersoftsapient.net/docs/add-a-shipping-location">created a shipping location</Anchor>._
 
-To add a shipping account for YODEL in SAPIENT, follow the instructions as explained in the following procedure.
+## How to add YODEL shipping account
 
-1. In the left navigation panel, select **Shipping Accounts**.
+<Tabs>
+  <Tab title="Via SAPIENT UI">
+    To add a shipping account for YODEL in SAPIENT, perform the steps as explained in the following procedure.
 
-<Image align="center" alt="Accessing shipping accounts" border={true} caption="Accessing shipping accounts" src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" />
+    <ToggleList>
+      <ToggleListItem title="1. Select the Shipping Accounts page">
+        In the left navigation panel, select **Shipping Accounts**.
 
-2. On the **Shipping Accounts** page that opens, select ![](https://files.readme.io/e27a112101fea1d20bb870a5c570ce3cb3889d2c514dd5bc0920c2ea630f9943-add_shipping_account_button.png).
+        <Image align="center" src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" alt="Accessing shipping accounts" />
 
-<Image align="center" alt="Accessing option to add shipping account" border={true} caption="Selecting option to add shipping account" src="https://files.readme.io/1f21da8d1e1c679c2ed31d67bfc7551e5c9477f2f22b16c279aed71ab9688809-Add_shipping_account_button_YODEL.png" />
+        ***
+      </ToggleListItem>
 
-3. On the **Add Shipping Account** form that appears, in the **ACCOUNT DETAILS** block, fill in the necessary information as described in the following table.
+      <br />
 
-<Image align="center" alt="Entering account details" border={true} caption="Entering account details" src="https://files.readme.io/c430911306cfc97f8609b300891198244b5504b1eb732e5cb8199dec132659eb-Account_details_block_YODEL.png" width="500px" />
+      <ToggleListItem title="2. Select option to add shipping account">
+        On the **Shipping Accounts** page that opens, select ![](https://files.readme.io/e27a112101fea1d20bb870a5c570ce3cb3889d2c514dd5bc0920c2ea630f9943-add_shipping_account_button.png).
 
-<AsteridkForMandatoryElements />
+        <Image align="center" src="https://files.readme.io/1f21da8d1e1c679c2ed31d67bfc7551e5c9477f2f22b16c279aed71ab9688809-Add_shipping_account_button_YODEL.png" alt="Accessing option to add shipping account" />
 
-|         Element        | Description                                                                                                                                 |
-| :--------------------: | :------------------------------------------------------------------------------------------------------------------------------------------ |
-|      **Carrier***      | From the dropdown list, select **YODEL - Yodel**.                                                                                           |
-| **Shipping Location*** | From the dropdown menu, select the <Glossary>shipping location</Glossary> that you want to assign to the shipping account you are creating. |
+        ***
+      </ToggleListItem>
 
-4. In the **SHIPPING ACCOUNT** block, enter the necessary information as explained in the following table.
+      <br />
 
-<Image align="center" alt="Specifying shipping account details" border={true} caption="Specifying shipping account details" src="https://files.readme.io/4668084ea31679c03a9b0cee35f97a98dff1a6a9b196155c7fb39b9e91c7b66e-Shipping_account_block_YODEL.png" width="500px" />
+      <ToggleListItem title="3. Enter account details">
+        On the **Add Shipping Account** form that appears, in the **ACCOUNT DETAILS** block, fill in the necessary information as described in the following table.
 
-<Callout icon="💡" theme="default">
-  ### _Tip_
+        <Image align="center" src="https://files.readme.io/c430911306cfc97f8609b300891198244b5504b1eb732e5cb8199dec132659eb-Account_details_block_YODEL.png" width="500px" alt="Entering account details" />
 
-  _In the following table, the mandatory fields are marked with an asterisk (*)._
-</Callout>
+        <br />
 
-<Table align={["center","left"]}>
-  <thead>
-    <tr>
-      <th>
-        Element
-      </th>
+        <AsteridkForMandatoryElements />
 
-      <th>
-        Description
-      </th>
-    </tr>
-  </thead>
+        | Element                 | Description                                                                                                                                 |
+        | :---------------------- | :------------------------------------------------------------------------------------------------------------------------------------------ |
+        | **Carrier**\*           | From the dropdown list, select **YODEL - Yodel**.                                                                                           |
+        | **Shipping Location**\* | From the dropdown menu, select the <Glossary>shipping location</Glossary> that you want to assign to the shipping account you are creating. |
 
-  <tbody>
-    <tr>
-      <td>
-        **Carrier Account Number***
-      </td>
+        ***
+      </ToggleListItem>
 
-      <td>
-        Enter the nine digit account number for YODEL.
-      </td>
-    </tr>
+      <br />
 
-    <tr>
-      <td>
-        **Account Name (if different than customer)***
-      </td>
+      <ToggleListItem title="4. Enter shipping account details">
+        In the **SHIPPING ACCOUNT** block, enter the necessary information as explained in the following table.
 
-      <td>
-        Enter the name of the account you are adding.
-      </td>
-    </tr>
+        <Image align="center" src="https://files.readme.io/4668084ea31679c03a9b0cee35f97a98dff1a6a9b196155c7fb39b9e91c7b66e-Shipping_account_block_YODEL.png" width="500px" alt="Specifying shipping account details" />
 
-    <tr>
-      <td>
-        **Account Type***
-      </td>
+        <br />
 
-      <td>
-        From the dropdown menu, select one of the following account types that you want to set up for the the shipping account you are adding:
+        <AsteridkForMandatoryElements />
 
-        • **[Production](https://docs.intersoftsapient.net/docs/sandbox-account)**: a live environment where the final version of the application is deployed and made available to the users.
+        <Table align={["center","left"]}>
+          <thead>
+            <tr>
+              <th>
+                Element
+              </th>
 
-        • **[Sandbox](https://docs.intersoftsapient.net/docs/sandbox-account)**: a testing environment that mimics the **Production** environment but is isolated from it. The sandbox environment is primarily used for development and testing purposes.
-      </td>
-    </tr>
+              <th>
+                Description
+              </th>
+            </tr>
+          </thead>
 
-    <tr>
-      <td>
-        **Alias***
-      </td>
+          <tbody>
+            <tr>
+              <td>
+                **Carrier Account Number**\*
+              </td>
 
-      <td>
-        Enter a custom name which can be used in the API request instead of using the shipping account ID when connecting to us. Therefore, it is recommended that this name must be memorable and available for reference purposes.
-      </td>
-    </tr>
+              <td>
+                Enter the nine digit account number for YODEL.
+              </td>
+            </tr>
 
-    <tr>
-      <td>
-        **Contact Name***
-      </td>
+            <tr>
+              <td>
+                **Account Name (if different than customer)**\*
+              </td>
 
-      <td>
-        Enter the contact name for the account you are adding.
-      </td>
-    </tr>
+              <td>
+                Enter the name of the account you are adding.
+              </td>
+            </tr>
 
-    <tr>
-      <td>
-        **Contact Number***
-      </td>
+            <tr>
+              <td>
+                **Account Type**\*
+              </td>
 
-      <td>
-        Enter the contact number for the account you are adding.
-      </td>
-    </tr>
-  </tbody>
-</Table>
+              <td>
+                From the dropdown menu, select one of the following account types that you want to set up for the the shipping account you are adding:
 
-5. In the **CARRIER DETAILS** block, enter the necessary information as explained in the following table.
+                • **[Production](https://docs.intersoftsapient.net/docs/sandbox-account)**: a live environment where the final version of the application is deployed and made available to the users.
 
-<Image align="center" alt="Entering carrier details" border={true} caption="Entering carrier details" src="https://files.readme.io/a2d5436c5b557ca7ba52fbd8239764e70cb7b9449239eceea0d5d0796ec7be3b-carrier_details_block_YODEL.png" width="400px" />
+                • **[Sandbox](https://docs.intersoftsapient.net/docs/sandbox-account)**: a testing environment that mimics the **Production** environment but is isolated from it. The sandbox environment is primarily used for development and testing purposes.
+              </td>
+            </tr>
 
-<AsteridkForMandatoryElements />
+            <tr>
+              <td>
+                **Alias**\*
+              </td>
 
-<Table align={["center","left"]}>
-  <thead>
-    <tr>
-      <th>
-        Element
-      </th>
+              <td>
+                Enter a custom name which can be used in the API request instead of using the shipping account ID when connecting to us. Therefore, it is recommended that this name must be memorable and available for reference purposes.
+              </td>
+            </tr>
 
-      <th>
-        Description
-      </th>
-    </tr>
-  </thead>
+            <tr>
+              <td>
+                **Contact Name**\*
+              </td>
 
-  <tbody>
-    <tr>
-      <td>
-        **Contract Number***
-      </td>
+              <td>
+                Enter the contact name for the account you are adding.
+              </td>
+            </tr>
 
-      <td>
-        Enter your seven digit YODEL contract number.
-      </td>
-    </tr>
+            <tr>
+              <td>
+                **Contact Number**\*
+              </td>
 
-    <tr>
-      <td>
-        **Schedule Number***
-      </td>
+              <td>
+                Enter the contact number for the account you are adding.
+              </td>
+            </tr>
+          </tbody>
+        </Table>
 
-      <td>
-        Enter your four digit YODEL schedule number
-      </td>
-    </tr>
+        ***
+      </ToggleListItem>
 
-    <tr>
-      <td>
-        **Meter Number***
-      </td>
+      <br />
 
-      <td>
-        Enter your five digit meter number.
+      <ToggleListItem title="5. Enter carrier details">
+        In the **CARRIER DETAILS** block, enter the necessary information as explained in the following table.
 
-        This number is used to create the unique YODEL barcode range.
+        <Image align="center" src="https://files.readme.io/a2d5436c5b557ca7ba52fbd8239764e70cb7b9449239eceea0d5d0796ec7be3b-carrier_details_block_YODEL.png" width="400px" alt="Entering carrier details" />
 
-        _`Note:`The meter number must be unique and cannot be duplicated across shipping accounts._
-      </td>
-    </tr>
-  </tbody>
-</Table>
+        <br />
 
-6. After entering all the required information, select ![](https://files.readme.io/4d8fd2c9a6fad152f41e65d82274b94a6d3a8978f69bb88fbe74ba2d54138fe8-add_shipping_account_button_2.png).
+        <AsteridkForMandatoryElements />
 
-Once done, you have now successfully added a shipping account. You can now start shipping with it.
+        <Table align={["center","left"]}>
+          <thead>
+            <tr>
+              <th>
+                Element
+              </th>
 
-> 📘 _Note_
->
-> _Shipping account(s) can be added and managed via API. For more information, refer to the <Anchor label="API References" target="_blank" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-ups">API References</Anchor> section._
+              <th>
+                Description
+              </th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>
+                **Contract Number**\*
+              </td>
+
+              <td>
+                Enter your seven digit YODEL contract number.
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                **Schedule Number**\*
+              </td>
+
+              <td>
+                Enter your four digit YODEL schedule number.
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                **Meter Number**\*
+              </td>
+
+              <td>
+                Enter your five digit meter number.
+
+                This number is used to create the unique YODEL barcode range.
+
+                *`Note:`The meter number must be unique and cannot be duplicated across shipping accounts.*
+              </td>
+            </tr>
+          </tbody>
+        </Table>
+
+        ***
+      </ToggleListItem>
+
+      <br />
+
+      <ToggleListItem title="6. Save and add the shipping account">
+        After entering all the required information, select ![](https://files.readme.io/4d8fd2c9a6fad152f41e65d82274b94a6d3a8978f69bb88fbe74ba2d54138fe8-add_shipping_account_button_2.png).
+
+        Once done, you have now successfully added a shipping account. You can now start shipping with it.
+      </ToggleListItem>
+    </ToggleList>
+  </Tab>
+
+  <Tab title="Via API">
+    To add a YODEL shipping account via API, refer to the following API endpoint.
+
+    <Cards>
+      <Card title="Add Account" href="https://docs.intersoftsapient.net/reference/post_v4-shippingaccounts-yodel" icon="fa-code">
+        Add and manage YODEL shipping account via API.
+      </Card>
+    </Cards>
+  </Tab>
+</Tabs>
 
 ***
 
 ### See also
 
-* [Edit shipping account](https://docs.intersoftsapient.net/docs/edit-shipping-account)
+<Cards columns={2}>
+  <Card title="Edit shipping account" icon="fa-pen-to-square" href="https://docs.intersoftsapient.net/docs/edit-shipping-account">
+    Update or modify an existing shipping account.
+  </Card>
 
-<br />
+  <Card title="Add barcode range to shipping account" icon="fa-solid fa-barcode" href="https://docs.intersoftsapient.net/docs/barcode-range-setup-1">
+    Add barcode ranges to facilitate efficient tracking and management of shipments.
+  </Card>
+</Cards>
