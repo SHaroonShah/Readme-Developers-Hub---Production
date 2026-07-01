@@ -232,7 +232,9 @@ To add a shipping account for FedEx in SAPIENT, follow the instructions as expla
         |            **Submit**            | Select ![alt text](https://files.readme.io/2ffa9cf28233588e3fa0be9258d8a2d6f5aa9d84f5e25f263c2c4d8c214cdbba-Submit_button.png) to create the shipping account and close the form. *`Note`: This button is only displayed if you have selected the**Sandbox** <Glossary>account type</Glossary>*. |
       </Tab>
 
-      <Tab title="2. EULA"> <br />
+      <Tab title="2. EULA">
+        <br />
+
         After successfully specifying the shipping account details, at the **EULA** stage, read the FedEx 3rd party end user license agreement and confirm it by selecting the **I accept the terms of FedEx EULA to start shipping** checkbox and ![alt text](https://files.readme.io/a544674d471b96aadef7f8afe38ba10b912f11fb7b7fd758dc372d04dfbdd7da-I_agree_button.png) button.
 
         <Image align="center" border={true} src="https://files.readme.io/81109fca62feb4ab8c27b0f031bbdd6e5f8e16fb0cc80ebb9e01d243bafc1621-FedEx_Eula_tab.png" />
@@ -246,7 +248,7 @@ To add a shipping account for FedEx in SAPIENT, follow the instructions as expla
         After you have read the EULA and confirmed your agreement, the system marks the agreement as signed with the current date and the name of the user who signed it. Now, you are proceeded to the **Shipping Address** stage of the form.
       </Tab>
 
-      <Tab title="3. Shipping Address (MFA 1)">
+      <Tab title="3. Shipping Address (MFA 1)"> <br />
         After confirming the FedEx End-User License Agreement (EULA), the **Shipping Address** stage is the first factor of authentication, where you can specify the shipping address details that are associated with the 9-digit FedEx account number, so that the system can validate and match it with the addresses stored in the FedEx system.
 
         <Image align="center" border={true} src="https://files.readme.io/e0abd56eb4207f5e043cd1ba3259992715398fa85a2deaf011a014c8d02b85ca-FedEx_Shippig_address_stage.png" />
@@ -391,7 +393,7 @@ To add a shipping account for FedEx in SAPIENT, follow the instructions as expla
         * If the validation fails (that is, the address is not matched in the FedEx systems), then a corresponding error message is displayed—and you will not proceed to the **Multi-Factor Authentication** (MFA) stage of the **Add Shipping Account** form. To proceed, you must enter the correct address details.
       </Tab>
 
-      <Tab title="4. Multi Factor Authentication (MFA 2)">
+      <Tab title="4. Multi Factor Authentication (MFA 2)"> <br />
         After specifying the shipping address details of your FedEx account and successfully completing the address validation, you are proceeded to the **Multi Factor Authentication** stage. This stage is the second factor of authentication, where you can validate your account with FedEx.
 
         <Accordion title="Authentication with recent invoice details">
