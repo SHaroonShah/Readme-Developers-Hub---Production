@@ -97,7 +97,7 @@ In UK, the <Glossary>shipments</Glossary> arrive as freight. For custom clearanc
         For CDS checks, you will be requested to create couple of labels, manifest them and share with us the PDFs so they can be reviewed and signed off.  
         For physical label sign off, you will be requested to create couple of labels, manifest them and ship them to Royal Mail.
 
-        _`Note:`Details on this label are shared once the[Sandbox Test Pack](https://docs.intersoftsapient.net/docs/royal-mail-importers-sandbox-test-pack)  is approved._
+        _`Note:`Details on this label are shared once the [Sandbox Test Pack](https://docs.intersoftsapient.net/docs/royal-mail-importers-sandbox-test-pack)  is approved._
       </td>
     </tr>
 
@@ -107,7 +107,7 @@ In UK, the <Glossary>shipments</Glossary> arrive as freight. For custom clearanc
       </td>
 
       <td>
-        To access the list of all of the **Create Shipment** fields required for Freight 2 Post customers, refer to the [Field requirements for Freight 2 post customers](https://docs.intersoftsapient.net/docs/freight-2-post-customers-fields-requirements) sectio
+        To access the list of all of the **Create Shipment** fields required for Freight 2 Post customers, refer to the [Field requirements for Freight 2 post customers](https://docs.intersoftsapient.net/docs/freight-2-post-customers-fields-requirements) section.
       </td>
     </tr>
   </tbody>
