@@ -19,18 +19,18 @@ next:
 ---
 Royal Mail have a set of import services. These are used for <Glossary>shipments</Glossary> that are imported and delivered into the UK. For shipments using these services with a shipment value of £135 or under, Royal Mail uses the label image to be a combined label by integrating the Royal Mail domestic tracked label with a <Glossary>CN22</Glossary> customs form into a single 6x4, ensuring compliance for international shipments.
 
-> 🚧 *Important*
+> 🚧 _Important_
 >
-> *This is a fully automated process, driven by what the customer populates the create shipment request with. The requirements for combined label + CN22 are as per below:*
+> _This is a fully automated process, driven by what the customer populates the create shipment request with. The requirements for combined label + CN22 are as per below:_
 >
-> 1. *You are a Royal Mail Freight 2 Post customer, shipping from outside the UK to the UK.*
-> 2. *The shipment you have created contains up to 8 items.*
-> 3. *The total shipment value is £135 or under.*
-> 4. *The label format is requested in the PDF format.*
+> 1. _You are a Royal Mail Freight 2 Post customer, shipping from outside the UK to the UK._
+> 2. _The shipment you have created contains up to 8 items._
+> 3. _The total shipment value is £135 or under._
+> 4. _The label format is requested in the PDF format._
 >
-> *For any other shipments that do not meet the requirements for a combined label, you will receive a standard shipping label and a separate<Glossary>CN23</Glossary> customs documentation within the Documents section of the create shipment response.*
+> _For any other shipments that do not meet the requirements for a combined label, you will receive a standard shipping label and a separate<Glossary>CN23</Glossary> customs documentation within the Documents section of the create shipment response._
 >
-> *Please be advised that for customs documentation the currency conversion functionality is in place, so if the shipment value is not provided in GBP, our system will convert it accordingly.*
+> _Please be advised that for customs documentation the currency conversion functionality is in place, so if the shipment value is not provided in GBP, our system will convert it accordingly._
 
 The combined label can be used over a multiple range of services as explained in the following table:
 
@@ -74,11 +74,14 @@ For customers and businesses using Royal Mail for their shipping needs, this com
 
 ![](https://files.readme.io/1de176ff58b48339ad90e81801523d79f1aeb7817a48b316261447fe80be6e49-image.png)
 
-*CN23 customs documentation example*"
+_CN23 customs documentation example_"
   src="https://files.readme.io/28e12fbd3aa096410869143a313b58e10f2682a1d96999f7c837e0148bde8d61-Combined_Label_and_CN22_sample.png"
   width="500px"
+align="center"
 />
 
-> 💡 *Tip*
->
-> *In the**Sign & Date** section of  the combined label, you can use your own signature or logo if you have [added and configured it](https://docs.intersoftsapient.net/docs/add-signature-and-logo#/) via the SAPIENT UI. If the signature and logo has not been configured, then by default, the Shipper Contact Name is used.*
+<Callout icon="💡" theme="default">
+  ### _Tip_
+
+  _In the**Sign & Date** section of  the combined label, you can use your own signature or logo if you have [added and configured it](https://docs.intersoftsapient.net/docs/add-signature-and-logo#/) via the SAPIENT UI. If the signature and logo has not been configured, then by default, the Shipper Contact Name is used._
+</Callout>
