@@ -56,7 +56,7 @@ To add a tracking account for DX Freight in SAPIENT, perform the steps as explai
     On the **Add Tracking account** page that appears, in the **DETAILS** block, enter the necessary information as explained in the following table.
 
     <Image align="center" border={true} src="https://files.readme.io/71660774643cc7fc552e07d51be76065dea9e76a94cbc63f0c29dfb7761d44e1-DXF_Add_Tracking_account_page.png" width="500px" alt="Adding tracking account" />
-
+<br />
     <AsteridkForMandatoryElements />
 
     <Table align={["center","left"]}>
