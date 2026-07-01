@@ -66,19 +66,11 @@ The combined label can be used over a multiple range of services as explained in
 
 For customers and businesses using Royal Mail for their shipping needs, this combined label offers a more efficient process, simplifying documentation and tracking for lower-value shipments. It is crucial to stay informed about this update and to prepare for the necessary adjustments in operations to accommodate the new label format.
 
-<Image
-  align="center"
-  alt="Combined label example"
-  border={true}
-  caption="Combined label + CN22 example
+<Image align="center" alt="Combined label example" border={true} caption="Combined label + CN22 example" src="https://files.readme.io/28e12fbd3aa096410869143a313b58e10f2682a1d96999f7c837e0148bde8d61-Combined_Label_and_CN22_sample.png" width="500px" />
 
-![](https://files.readme.io/1de176ff58b48339ad90e81801523d79f1aeb7817a48b316261447fe80be6e49-image.png)
+<Image align="center" border={true} caption="CN23 documentation example" src="https://files.readme.io/99c8343374d14f7e27598d5e1b16c081841819f76bd7b8b8242359a640cf8a1e-image.png" />
 
-_CN23 customs documentation example_"
-  src="https://files.readme.io/28e12fbd3aa096410869143a313b58e10f2682a1d96999f7c837e0148bde8d61-Combined_Label_and_CN22_sample.png"
-  width="500px"
-align="center"
-/>
+<br />
 
 <Callout icon="💡" theme="default">
   ### _Tip_
