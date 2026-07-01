@@ -20,7 +20,7 @@ The Delivery Group integration supports outbound shipping from Great Britain to 
 
 ***
 
-The Delivery Group (TDG) hands shipments over to other carriers for final-mile delivery. Services for this integration include carriers such as Evri and Yodel. SAPIENT creates the shipment with The Delivery Group using the requested service, and The Delivery Group manages sending the data and transferring the shipment to the final-mile carrier.
+The Delivery Group (TDG) hands shipments over to other carriers for <Glossary>final mile delivery</Glossary>. Services for this integration include carriers such as Evri and Yodel. SAPIENT creates the shipment with The Delivery Group using the requested service, and The Delivery Group manages sending the data and transferring the shipment to the final-mile carrier.
 
 ## Overview
 
