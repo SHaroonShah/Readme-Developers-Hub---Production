@@ -25,835 +25,274 @@ The following sections summarises the MDF validation rules, their respective shi
 > _The Royal Mail validation rules may change overtime. For the most accurate and up-to-date validation rules, please contact your Royal Mail account manager._
 
 <Accordion title="Ruleset A" icon="fa-solid fa-shield-check">
-  **Scenario example**: Domestic <Glossary>DOX</Glossary>, <Glossary>NDX</Glossary>, and international DOX shipments.
 
-  <table>
-    <tr>
-      <th>API object</th>
-      <th>Mandatory fields</th>
-    </tr>
+**Scenario example**: Domestic <Glossary>DOX</Glossary>, <Glossary>NDX</Glossary>, and international DOX shipments.
 
-    <tr>
-      <td rowspan="5"><strong>Shipper > Address</strong></td>
-      <td>ContactName</td>
-    </tr>
+  
+| API object | Mandatory fields |
+| --- | --- |
+| Shipper > Address | ContactName |
+| Shipper > Address | Line 1 |
+| Shipper > Address | Town |
+| Shipper > Address | Postcode |
+| Shipper > Address | CountryCode |
+| Destination > Address | ContactName |
+| Destination > Address | Line 1 |
+| Destination > Address | Town |
+| Destination > Address | CountryCode |
 
-    <tr>
-      <td>Line 1</td>
-    </tr>
-
-    <tr>
-      <td>Town</td>
-    </tr>
-
-    <tr>
-      <td>Postcode</td>
-    </tr>
-
-    <tr>
-      <td>CountryCode</td>
-    </tr>
-
-    <tr>
-      <td rowspan="4"><strong>Destination > Address</strong></td>
-      <td>ContactName</td>
-    </tr>
-
-    <tr>
-      <td>Line 1</td>
-    </tr>
-
-    <tr>
-      <td>Town</td>
-    </tr>
-
-    <tr>
-      <td>CountryCode</td>
-    </tr>
-  </table>
 </Accordion>
 
 <Accordion title="Ruleset B" icon="fa-solid fa-shield-check">
-  **Scenario example**: International non-document (<Glossary>NDX</Glossary>) shipments using <Glossary>DDU</Glossary> incoterm.
 
-  <table>
-    <tr>
-      <th>API object</th>
-      <th>Mandatory fields</th>
-    </tr>
+**Scenario example**: International non-document (<Glossary>NDX</Glossary>) shipments using <Glossary>DDU</Glossary> incoterm.
 
-    <tr>
-      <td rowspan="5"><strong>Shipper > Address</strong></td>
-      <td>ContactName</td>
-    </tr>
+  
+| API object | Mandatory fields |
+| --- | --- |
+| Shipper > Address | ContactName |
+| Shipper > Address | Line 1 |
+| Shipper > Address | Town |
+| Shipper > Address | PostCode |
+| Shipper > Address | CountryCode |
+| Destination > Address | ContactName |
+| Destination > Address | Line 1 |
+| Destination > Address | Town |
+| Destination > Address | CountryCode |
+| Items | Quantity |
+| Items | Description |
+| Items | Value |
+| Items | Weight |
 
-    <tr>
-      <td>Line 1</td>
-    </tr>
-
-    <tr>
-      <td>Town</td>
-    </tr>
-
-    <tr>
-      <td>PostCode</td>
-    </tr>
-
-    <tr>
-      <td>CountryCode</td>
-    </tr>
-
-    <tr>
-      <td rowspan="4"><strong>Destination > Address</strong></td>
-      <td>ContactName</td>
-    </tr>
-
-    <tr>
-      <td>Line 1</td>
-    </tr>
-
-    <tr>
-      <td>Town</td>
-    </tr>
-
-    <tr>
-      <td>CountryCode</td>
-    </tr>
-
-    <tr>
-      <td rowspan="4"><strong>Items</strong></td>
-      <td>Quantity</td>
-    </tr>
-
-    <tr>
-      <td>Description</td>
-    </tr>
-
-    <tr>
-      <td>Value</td>
-    </tr>
-
-    <tr>
-      <td>Weight</td>
-    </tr>
-  </table>
 </Accordion>
 
 <Accordion title="Ruleset C" icon="fa-solid fa-shield-check">
-  **Scenario example**: International non-document (<Glossary>NDX</Glossary>) shipments using <Glossary>DDU</Glossary> incoterm, with additional item information.
 
-  <table>
-    <tr>
-      <th>API object</th>
-      <th>Mandatory fields</th>
-    </tr>
+**Scenario example**: International non-document (<Glossary>NDX</Glossary>) shipments using <Glossary>DDU</Glossary> incoterm, with additional item information.
 
-    <tr>
-      <td rowspan="5"><strong>Shipper > Address</strong></td>
-      <td>ContactName</td>
-    </tr>
+  
+| API object | Mandatory fields |
+| --- | --- |
+| Shipper > Address | ContactName |
+| Shipper > Address | Line 1 |
+| Shipper > Address | Town |
+| Shipper > Address | PostCode |
+| Shipper > Address | CountryCode |
+| Destination > Address | ContactName |
+| Destination > Address | Line 1 |
+| Destination > Address | Town |
+| Destination > Address | CountryCode |
+| Items | Quantity |
+| Items | Description |
+| Items | Value |
+| Items | Weight |
+| Items | HSCode |
+| Items | CountryOfOrigin |
 
-    <tr>
-      <td>Line 1</td>
-    </tr>
-
-    <tr>
-      <td>Town</td>
-    </tr>
-
-    <tr>
-      <td>PostCode</td>
-    </tr>
-
-    <tr>
-      <td>CountryCode</td>
-    </tr>
-
-    <tr>
-      <td rowspan="4"><strong>Destination > Address</strong></td>
-      <td>ContactName</td>
-    </tr>
-
-    <tr>
-      <td>Line 1</td>
-    </tr>
-
-    <tr>
-      <td>Town</td>
-    </tr>
-
-    <tr>
-      <td>CountryCode</td>
-    </tr>
-
-    <tr>
-      <td rowspan="6"><strong>Items</strong></td>
-      <td>Quantity</td>
-    </tr>
-
-    <tr>
-      <td>Description</td>
-    </tr>
-
-    <tr>
-      <td>Value</td>
-    </tr>
-
-    <tr>
-      <td>Weight</td>
-    </tr>
-
-    <tr>
-      <td>HSCode</td>
-    </tr>
-
-    <tr>
-      <td>CountryOfOrigin</td>
-    </tr>
-  </table>
 </Accordion>
 
 <Accordion title="Ruleset D" icon="fa-solid fa-shield-check">
-  **Scenario example**: International non-document (<Glossary>NDX</Glossary>) shipments using <Glossary>DDU</Glossary>, with extra customs data and mandatory receiver contact details.
 
-  <table>
-    <tr>
-      <th>API object</th>
-      <th>Mandatory fields</th>
-    </tr>
+**Scenario example**: International non-document (<Glossary>NDX</Glossary>) shipments using <Glossary>DDU</Glossary>, with extra customs data and mandatory receiver contact details.
 
-    <tr>
-      <td rowspan="5"><strong>Shipper > Address</strong></td>
-      <td>ContactName</td>
-    </tr>
+  
+| API object | Mandatory fields |
+| --- | --- |
+| Shipper > Address | ContactName |
+| Shipper > Address | Line 1 |
+| Shipper > Address | Town |
+| Shipper > Address | PostCode |
+| Shipper > Address | CountryCode |
+| Destination > Address | ContactName |
+| Destination > Address | Line 1 |
+| Destination > Address | Town |
+| Destination > Address | CountryCode |
+| Destination > Address | ContactEmail |
+| Destination > Address | ContactPhone |
+| Items | Quantity |
+| Items | Description |
+| Items | Value |
+| Items | Weight |
+| Items | HSCode |
+| Items | CountryOfOrigin |
 
-    <tr>
-      <td>Line 1</td>
-    </tr>
-
-    <tr>
-      <td>Town</td>
-    </tr>
-
-    <tr>
-      <td>PostCode</td>
-    </tr>
-
-    <tr>
-      <td>CountryCode</td>
-    </tr>
-
-    <tr>
-      <td rowspan="6"><strong>Destination > Address</strong></td>
-      <td>ContactName</td>
-    </tr>
-
-    <tr>
-      <td>Line 1</td>
-    </tr>
-
-    <tr>
-      <td>Town</td>
-    </tr>
-
-    <tr>
-      <td>CountryCode</td>
-    </tr>
-
-    <tr>
-      <td>ContactEmail</td>
-    </tr>
-
-    <tr>
-      <td>ContactPhone</td>
-    </tr>
-
-    <tr>
-      <td rowspan="6"><strong>Items</strong></td>
-      <td>Quantity</td>
-    </tr>
-
-    <tr>
-      <td>Description</td>
-    </tr>
-
-    <tr>
-      <td>Value</td>
-    </tr>
-
-    <tr>
-      <td>Weight</td>
-    </tr>
-
-    <tr>
-      <td>HSCode</td>
-    </tr>
-
-    <tr>
-      <td>CountryOfOrigin</td>
-    </tr>
-  </table>
 </Accordion>
 
 <Accordion title="Ruleset E" icon="fa-solid fa-shield-check">
-  **Scenario example**: International non-document (<Glossary>NDX</Glossary>) shipments using <Glossary>DDP</Glossary> incoterm, sent to non-EU destinations, that is Rest of the World (<Glossary>ROW</Glossary>).
 
-  <table>
-    <tr>
-      <th>API object</th>
-      <th>Mandatory fields</th>
-    </tr>
+**Scenario example**: International non-document (<Glossary>NDX</Glossary>) shipments using <Glossary>DDP</Glossary> incoterm, sent to non-EU destinations, that is Rest of the World (<Glossary>ROW</Glossary>).
 
-    <tr>
-      <td rowspan="5"><strong>Shipper > Address</strong></td>
-      <td>ContactName</td>
-    </tr>
+  
+| API object | Mandatory fields |
+| --- | --- |
+| Shipper > Address | ContactName |
+| Shipper > Address | Line 1 |
+| Shipper > Address | Town |
+| Shipper > Address | PostCode |
+| Shipper > Address | CountryCode |
+| Destination > Address | ContactName |
+| Destination > Address | Line 1 |
+| Destination > Address | Town |
+| Destination > Address | CountryCode |
+| Destination > Address | ContactEmail |
+| Destination > Address | ContactPhone |
+| Items | Quantity |
+| Items | Description |
+| Items | Value |
+| Items | Weight |
+| Items | HSCode |
+| Items | CountryOfOrigin |
+| Customs | QuotedLandedCost |
 
-    <tr>
-      <td>Line 1</td>
-    </tr>
-
-    <tr>
-      <td>Town</td>
-    </tr>
-
-    <tr>
-      <td>PostCode</td>
-    </tr>
-
-    <tr>
-      <td>CountryCode</td>
-    </tr>
-
-    <tr>
-      <td rowspan="6"><strong>Destination > Address</strong></td>
-      <td>ContactName</td>
-    </tr>
-
-    <tr>
-      <td>Line 1</td>
-    </tr>
-
-    <tr>
-      <td>Town</td>
-    </tr>
-
-    <tr>
-      <td>CountryCode</td>
-    </tr>
-
-    <tr>
-      <td>ContactEmail</td>
-    </tr>
-
-    <tr>
-      <td>ContactPhone</td>
-    </tr>
-
-    <tr>
-      <td rowspan="6"><strong>Items</strong></td>
-      <td>Quantity</td>
-    </tr>
-
-    <tr>
-      <td>Description</td>
-    </tr>
-
-    <tr>
-      <td>Value</td>
-    </tr>
-
-    <tr>
-      <td>Weight</td>
-    </tr>
-
-    <tr>
-      <td>HSCode</td>
-    </tr>
-
-    <tr>
-      <td>CountryOfOrigin</td>
-    </tr>
-
-    <tr>
-      <td rowspan="1"><strong>Customs</strong></td>
-      <td>QuotedLandedCost</td>
-    </tr>
-  </table>
 </Accordion>
 
 <Accordion title="Ruleset F" icon="fa-solid fa-shield-check">
-  **Scenario example**: International non-document (<Glossary>NDX</Glossary>) shipments using <Glossary>DDP</Glossary> incoterm, sent to EU destinations.
 
-  <table>
-    <tr>
-      <th>API object</th>
-      <th>Mandatory fields</th>
-    </tr>
+**Scenario example**: International non-document (<Glossary>NDX</Glossary>) shipments using <Glossary>DDP</Glossary> incoterm, sent to EU destinations.
 
-    <tr>
-      <td rowspan="5"><strong>Shipper > Address</strong></td>
-      <td>ContactName</td>
-    </tr>
+  
+| API object | Mandatory fields |
+| --- | --- |
+| Shipper > Address | ContactName |
+| Shipper > Address | Line 1 |
+| Shipper > Address | Town |
+| Shipper > Address | PostCode |
+| Shipper > Address | CountryCode |
+| Shipper | EoriNumber |
+| Destination > Address | ContactName |
+| Destination > Address | Line 1 |
+| Destination > Address | Town |
+| Destination > Address | CountryCode |
+| Destination > Address | ContactEmail |
+| Destination > Address | ContactPhone |
+| Items | Quantity |
+| Items | Description |
+| Items | Value |
+| Items | Weight |
+| Items | HSCode |
+| Items | CountryOfOrigin |
+| Customs | QuotedLandedCost |
 
-    <tr>
-      <td>Line 1</td>
-    </tr>
-
-    <tr>
-      <td>Town</td>
-    </tr>
-
-    <tr>
-      <td>PostCode</td>
-    </tr>
-
-    <tr>
-      <td>CountryCode</td>
-    </tr>
-
-    <tr>
-      <td><strong>Shipper</strong></td>
-      <td>EoriNumber</td>
-    </tr>
-
-    <tr>
-      <td rowspan="6"><strong>Destination > Address</strong></td>
-      <td>ContactName</td>
-    </tr>
-
-    <tr>
-      <td>Line 1</td>
-    </tr>
-
-    <tr>
-      <td>Town</td>
-    </tr>
-
-    <tr>
-      <td>CountryCode</td>
-    </tr>
-
-    <tr>
-      <td>ContactEmail</td>
-    </tr>
-
-    <tr>
-      <td>ContactPhone</td>
-    </tr>
-
-    <tr>
-      <td rowspan="6"><strong>Items</strong></td>
-      <td>Quantity</td>
-    </tr>
-
-    <tr>
-      <td>Description</td>
-    </tr>
-
-    <tr>
-      <td>Value</td>
-    </tr>
-
-    <tr>
-      <td>Weight</td>
-    </tr>
-
-    <tr>
-      <td>HSCode</td>
-    </tr>
-
-    <tr>
-      <td>CountryOfOrigin</td>
-    </tr>
-
-    <tr>
-      <td><strong>Customs</strong></td>
-      <td>QuotedLandedCost</td>
-    </tr>
-  </table>
 </Accordion>
 
 <Accordion title="Ruleset G" icon="fa-solid fa-shield-check">
-  **Scenario example**: International non-document (<Glossary>NDX</Glossary>) shipments with an <Glossary>IOSS</Glossary> <Glossary>Pre-registration number</Glossary>, shipped to EU destinations.
 
-  <table>
-    <tr>
-      <th>API object</th>
-      <th>Mandatory fields</th>
-    </tr>
+**Scenario example**: International non-document (<Glossary>NDX</Glossary>) shipments with an <Glossary>IOSS</Glossary> <Glossary>Pre-registration number</Glossary>, shipped to EU destinations.
 
-    <tr>
-      <td rowspan="5"><strong>Shipper > Address</strong></td>
-      <td>ContactName</td>
-    </tr>
+  
+| API object | Mandatory fields |
+| --- | --- |
+| Shipper > Address | ContactName |
+| Shipper > Address | Line 1 |
+| Shipper > Address | Town |
+| Shipper > Address | PostCode |
+| Shipper > Address | CountryCode |
+| Destination > Address | ContactName |
+| Destination > Address | Line 1 |
+| Destination > Address | Town |
+| Destination > Address | CountryCode |
+| Destination > Address | ContactEmail |
+| Destination > Address | ContactPhone |
+| Items | Quantity |
+| Items | Description |
+| Items | Value |
+| Items | Weight |
+| Items | HSCode |
+| Items | CountryOfOrigin |
+| Customs | PreRegistrationNumber populated with the IOSS number |
+| Customs | PreRegistrationType defined as IOSS |
 
-    <tr>
-      <td>Line 1</td>
-    </tr>
-
-    <tr>
-      <td>Town</td>
-    </tr>
-
-    <tr>
-      <td>PostCode</td>
-    </tr>
-
-    <tr>
-      <td>CountryCode</td>
-    </tr>
-
-    <tr>
-      <td rowspan="6"><strong>Destination > Address</strong></td>
-      <td>ContactName</td>
-    </tr>
-
-    <tr>
-      <td>Line 1</td>
-    </tr>
-
-    <tr>
-      <td>Town</td>
-    </tr>
-
-    <tr>
-      <td>CountryCode</td>
-    </tr>
-
-    <tr>
-      <td>ContactEmail</td>
-    </tr>
-
-    <tr>
-      <td>ContactPhone</td>
-    </tr>
-
-    <tr>
-      <td rowspan="6"><strong>Items</strong></td>
-      <td>Quantity</td>
-    </tr>
-
-    <tr>
-      <td>Description</td>
-    </tr>
-
-    <tr>
-      <td>Value</td>
-    </tr>
-
-    <tr>
-      <td>Weight</td>
-    </tr>
-
-    <tr>
-      <td>HSCode</td>
-    </tr>
-
-    <tr>
-      <td>CountryOfOrigin</td>
-    </tr>
-
-    <tr>
-      <td rowspan="2"><strong>Customs</strong></td>
-      <td>PreRegistrationNumber populated with the IOSS number</td>
-    </tr>
-
-    <tr>
-      <td>PreRegistrationType defined as IOSS</td>
-    </tr>
-  </table>
 </Accordion>
 
 <Accordion title="Ruleset H" icon="fa-solid fa-shield-check">
-  **Scenario example**: International non-document (<Glossary>NDX</Glossary>) shipments with <Glossary>Pre-registration number</Glossary>.
 
-  <table>
-    <tr>
-      <th>API object</th>
-      <th>Mandatory fields</th>
-    </tr>
+**Scenario example**: International non-document (<Glossary>NDX</Glossary>) shipments with <Glossary>Pre-registration number</Glossary>.
 
-    <tr>
-      <td rowspan="5"><strong>Shipper > Address</strong></td>
-      <td>ContactName</td>
-    </tr>
+  
+| API object | Mandatory fields |
+| --- | --- |
+| Shipper > Address | ContactName |
+| Shipper > Address | Line 1 |
+| Shipper > Address | Town |
+| Shipper > Address | PostCode |
+| Shipper > Address | CountryCode |
+| Destination > Address | ContactName |
+| Destination > Address | Line 1 |
+| Destination > Address | Town |
+| Destination > Address | CountryCode |
+| Destination > Address | ContactEmail |
+| Destination > Address | ContactPhone |
+| Items | Quantity |
+| Items | Description |
+| Items | Value |
+| Items | Weight |
+| Items | HSCode |
+| Items | CountryOfOrigin |
+| Customs | PreRegistrationNumber |
+| Customs | PreRegistrationType |
 
-    <tr>
-      <td>Line 1</td>
-    </tr>
-
-    <tr>
-      <td>Town</td>
-    </tr>
-
-    <tr>
-      <td>PostCode</td>
-    </tr>
-
-    <tr>
-      <td>CountryCode</td>
-    </tr>
-
-    <tr>
-      <td rowspan="6"><strong>Destination > Address</strong></td>
-      <td>ContactName</td>
-    </tr>
-
-    <tr>
-      <td>Line 1</td>
-    </tr>
-
-    <tr>
-      <td>Town</td>
-    </tr>
-
-    <tr>
-      <td>CountryCode</td>
-    </tr>
-
-    <tr>
-      <td>ContactEmail</td>
-    </tr>
-
-    <tr>
-      <td>ContactPhone</td>
-    </tr>
-
-    <tr>
-      <td rowspan="6"><strong>Items</strong></td>
-      <td>Quantity</td>
-    </tr>
-
-    <tr>
-      <td>Description</td>
-    </tr>
-
-    <tr>
-      <td>Value</td>
-    </tr>
-
-    <tr>
-      <td>Weight</td>
-    </tr>
-
-    <tr>
-      <td>HSCode</td>
-    </tr>
-
-    <tr>
-      <td>CountryOfOrigin</td>
-    </tr>
-
-    <tr>
-      <td rowspan="2"><strong>Customs</strong></td>
-      <td>PreRegistrationNumber</td>
-    </tr>
-
-    <tr>
-      <td>PreRegistrationType</td>
-    </tr>
-  </table>
 </Accordion>
 
 <Accordion title="Ruleset K" icon="fa-solid fa-shield-check">
-  **Scenario example**: Shipment with B2B <Glossary>business transaction type</Glossary>.
 
-  <table>
-    <tr>
-      <th>API object</th>
-      <th>Mandatory fields</th>
-    </tr>
+**Scenario example**: Shipment with B2B <Glossary>business transaction type</Glossary>.
 
-    <tr>
-      <td rowspan="6"><strong>Shipper</strong></td>
-      <td>ContactName</td>
-    </tr>
+  
+| API object | Mandatory fields |
+| --- | --- |
+| Shipper | ContactName |
+| Shipper | Line 1 |
+| Shipper | Town |
+| Shipper | PostCode |
+| Shipper | CountryCode |
+| Shipper | EoriNumber |
+| Destination | ContactName |
+| Destination | Line 1 |
+| Destination | Town |
+| Destination | CountryCode |
+| Destination | EoriNumber |
+| Items | Quantity |
+| Items | Description |
+| Items | Value |
+| Items | Weight |
+| Items | HSCode |
+| Items | CountryOfOrigin |
 
-    <tr>
-      <td>Line 1</td>
-    </tr>
-
-    <tr>
-      <td>Town</td>
-    </tr>
-
-    <tr>
-      <td>PostCode</td>
-    </tr>
-
-    <tr>
-      <td>CountryCode</td>
-    </tr>
-
-    <tr>
-      <td>EoriNumber</td>
-    </tr>
-
-    <tr>
-      <td rowspan="5"><strong>Destination</strong></td>
-      <td>ContactName</td>
-    </tr>
-
-    <tr>
-      <td>Line 1</td>
-    </tr>
-
-    <tr>
-      <td>Town</td>
-    </tr>
-
-    <tr>
-      <td>CountryCode</td>
-    </tr>
-
-    <tr>
-      <td>EoriNumber</td>
-    </tr>
-
-    <tr>
-      <td rowspan="6"><strong>Items</strong></td>
-      <td>Quantity</td>
-    </tr>
-
-    <tr>
-      <td>Description</td>
-    </tr>
-
-    <tr>
-      <td>Value</td>
-    </tr>
-
-    <tr>
-      <td>Weight</td>
-    </tr>
-
-    <tr>
-      <td>HSCode</td>
-    </tr>
-
-    <tr>
-      <td>CountryOfOrigin</td>
-    </tr>
-  </table>
 </Accordion>
 
 <Accordion title="Ruleset L" icon="fa-solid fa-shield-check">
-  **Scenario example**: International non-document (<Glossary>NDX</Glossary>) shipments using <Glossary>DDP</Glossary> incoterm, with importer details required.
 
-  <table>
-    <tr>
-      <th>API object</th>
-      <th>Mandatory fields</th>
-    </tr>
+**Scenario example**: International non-document (<Glossary>NDX</Glossary>) shipments using <Glossary>DDP</Glossary> incoterm, with importer details required.
 
-    <tr>
-      <td rowspan="5"><strong>Shipper > Address</strong></td>
-      <td>ContactName</td>
-    </tr>
+  
+| API object | Mandatory fields |
+| --- | --- |
+| Shipper > Address | ContactName |
+| Shipper > Address | Line1 |
+| Shipper > Address | Town |
+| Shipper > Address | PostCode |
+| Shipper > Address | CountryCode |
+| Shipper | EoriNumber |
+| Destination > Address | ContactName |
+| Destination > Address | Line 1 |
+| Destination > Address | Town |
+| Destination > Address | CountryCode |
+| Destination > Address | ContactPhone |
+| Destination | EoriNumber |
+| Items | Quantity |
+| Items | Description |
+| Items | Value |
+| Items | Weight |
+| Items | HSCode |
+| Items | CountryOfOrigin |
+| Customs | QuotedLandedCost |
+| CarrierSpecifics > Importer > Address | ContactName |
+| CarrierSpecifics > Importer > Address | CompanyName |
+| CarrierSpecifics > Importer > Address | Line1 |
+| CarrierSpecifics > Importer > Address | Town |
+| CarrierSpecifics > Importer > Address | CountryCode |
+| CarrierSpecifics > Importer | EoriNumber |
 
-    <tr>
-      <td>Line1</td>
-    </tr>
-
-    <tr>
-      <td>Town</td>
-    </tr>
-
-    <tr>
-      <td>PostCode</td>
-    </tr>
-
-    <tr>
-      <td>CountryCode</td>
-    </tr>
-
-    <tr>
-      <td><strong>Shipper</strong></td>
-      <td>EoriNumber</td>
-    </tr>
-
-    <tr>
-      <td rowspan="5"><strong>Destination > Address</strong></td>
-      <td>ContactName</td>
-    </tr>
-
-    <tr>
-      <td>Line 1</td>
-    </tr>
-
-    <tr>
-      <td>Town</td>
-    </tr>
-
-    <tr>
-      <td>CountryCode</td>
-    </tr>
-
-    <tr>
-      <td>ContactPhone</td>
-    </tr>
-
-    <tr>
-      <td><strong>Destination</strong></td>
-      <td>EoriNumber</td>
-    </tr>
-
-    <tr>
-      <td rowspan="6"><strong>Items</strong></td>
-      <td>Quantity</td>
-    </tr>
-
-    <tr>
-      <td>Description</td>
-    </tr>
-
-    <tr>
-      <td>Value</td>
-    </tr>
-
-    <tr>
-      <td>Weight</td>
-    </tr>
-
-    <tr>
-      <td>HSCode</td>
-    </tr>
-
-    <tr>
-      <td>CountryOfOrigin</td>
-    </tr>
-
-    <tr>
-      <td><strong>Customs</strong></td>
-      <td>QuotedLandedCost</td>
-    </tr>
-
-    <tr>
-      <td rowspan="5"><strong>CarrierSpecifics > Importer > Address</strong></td>
-      <td>ContactName</td>
-    </tr>
-
-    <tr>
-      <td>CompanyName</td>
-    </tr>
-
-    <tr>
-      <td>Line1</td>
-    </tr>
-
-    <tr>
-      <td>Town</td>
-    </tr>
-
-    <tr>
-      <td>CountryCode</td>
-    </tr>
-<tr>
-      <td rowspan="1"><strong>CarrierSpecifics > Importer</strong></td>
-      <td>EoriNumber</td>
-    </tr>
-  </table>
 </Accordion>
 
 <br />
