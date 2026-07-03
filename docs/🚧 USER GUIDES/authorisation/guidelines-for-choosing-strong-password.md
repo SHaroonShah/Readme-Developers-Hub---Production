@@ -17,8 +17,8 @@ To maintain the security of your account, we check the following when you change
 
 If your password fails these checks, you will receive one of the following error messages:
 
-> * This password has been previously found in a data breach. Please choose a more secure password.
-> * That password is too weak; please choose a stronger password.
+> - This password has been previously found in a data breach. Please choose a more secure password.
+> - That password is too weak; please choose a stronger password.
 
 ***
 
@@ -36,7 +36,6 @@ If your password fails these checks, you will receive one of the following error
 
 <Tabs>
   <Tab title="Password managers (recommended)">
-    <br />
 
     We recommend you use a **[password manager](https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/password-managers)** for generating and storing your passwords. This is the most secure and convenient way to manage passwords. Used properly, it completely eliminates the risk of using a weak or commonly used password.
 
@@ -67,3 +66,5 @@ If your password fails these checks, you will receive one of the following error
     Using three random words can be difficult to remember across multiple online accounts requiring passwords, which is why our primary recommendation remains a password manager.
   </Tab>
 </Tabs>
+
+<br />
