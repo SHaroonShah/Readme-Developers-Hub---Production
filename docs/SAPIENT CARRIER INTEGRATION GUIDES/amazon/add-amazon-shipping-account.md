@@ -174,7 +174,7 @@ To add a shipping account for Amazon in SAPIENT, follow the instructions as expl
       <ToggleListItem title={<strong>7. Connect shipping account with your Amazon account</strong>} icon="fa-rocket">
         <br />
 
-        In the **Shipping Account Added** dialog that appears, based on your preferences, proceed as follows.
+        In the **Shipping Account Added** dialog that appears, based on your preferences, proceed as follows. <br />
 
         <Image align="center" border={true} src="https://files.readme.io/7355f68879495a8c59f2ff1ef019fc1b924009ae7e9bbd4b57235553dfe18c5f-Shippig_account_confirmation_dialog_Amazon.png" />
 
