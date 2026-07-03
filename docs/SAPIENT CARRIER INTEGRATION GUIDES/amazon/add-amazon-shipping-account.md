@@ -193,7 +193,7 @@ To add a shipping account for Amazon in SAPIENT, follow the instructions as expl
               <td>
                 Select this button if you want to instantly connect this shipping account with your Amazon seller central account. Upon selection, you are directed to a new browser with the Amazon seller central login screen.
                 <br />
-                <img src="https://files.readme.io/8f06734f14e98a0fe80890254ce53e2abc2cfd8c442b96a4e49979376d0d033a-Amazon_seller_central_dialog.png" alt="Amazon seller central dialog" style={{width: "200px", display: "block"}} />
+                <img src="https://files.readme.io/8f06734f14e98a0fe80890254ce53e2abc2cfd8c442b96a4e49979376d0d033a-Amazon_seller_central_dialog.png" alt="Amazon seller central dialog" style={{width: "100px", display: "block"}} />
                 <br />
                 Enter your login details and sign in to connect your shipping account with your Amazon seller central account.
               </td>
@@ -205,9 +205,9 @@ To add a shipping account for Amazon in SAPIENT, follow the instructions as expl
               <td>
                 Select this button to save the shipping account without linking it to your Amazon seller central. This option creates your shipping account with a <strong>Disabled</strong> status and a connection status of <strong>Not Connected</strong>.
                 <br />
-                You can connect the shipping account later by selecting this shipping account from the list and clicking <img src="https://files.readme.io/8a55ea176fffa169c336d8f61757f2d9bafa0a91f6941c1eb10f1d66ed82b10d-Login_with_Amazon_button.png" alt="Login with Amazon button" style={{display: "inline", verticalAlign: "middle", align: "center" height: "20px"}} /> provided in the <strong>CARRIER DETAILS</strong> block.
+                You can connect the shipping account later by selecting this shipping account from the list and clicking <img src="https://files.readme.io/8a55ea176fffa169c336d8f61757f2d9bafa0a91f6941c1eb10f1d66ed82b10d-Login_with_Amazon_button.png" alt="Login with Amazon button" style={{display: "inline", verticalAlign: "middle", height: "20px"}} /> provided in the <strong>CARRIER DETAILS</strong> block.
                 <br />
-                <img src="https://files.readme.io/d0fd1abff3fd7f3a592d47fec656a50a71b6eae4424782f59d58f450eec95988-Selecting_login_with_Amazon_button.png" alt="Selecting login with Amazon button" style={{width: "200px", display: "block"}} />
+                <img src="https://files.readme.io/d0fd1abff3fd7f3a592d47fec656a50a71b6eae4424782f59d58f450eec95988-Selecting_login_with_Amazon_button.png" alt="Selecting login with Amazon button" style={{width: "100px", align: "center", display: "block"}} />
               </td>
             </tr>
           </tbody>
