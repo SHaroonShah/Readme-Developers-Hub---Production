@@ -11,11 +11,9 @@ metadata:
 ---
 In SAPIENT, with the Add Shipping Account functionality, you can select the desired shipping location and then add a DPD NL shipping account to it.
 
-<Callout icon="🚧" theme="warn">
-  ### _Important_
-
-  _Before you can set up a shipping account, make sure you have enabled the <Anchor target="_blank" href="https://docs.intersoftsapient.net/docs/integration-activation">label integration</Anchor> for DPD NL and have already [created a shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location)._
-</Callout>
+> 🚧 _Important_
+>
+> _Before you can set up a shipping account, make sure you have enabled the <Anchor label="label integration" target="_blank" href="https://docs.intersoftsapient.net/docs/integration-activation">label integration</Anchor> for DPD NL and have already [created a shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location)._
 
 ## How to add DPD NL shipping account
 
@@ -27,7 +25,7 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
       <ToggleListItem title="1. Select the Shipping Accounts page">
         In the left navigation panel, select **Shipping Accounts**.
 
-        <Image align="center" border={true} src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" alt="Accessing shipping accounts" />
+        <Image align="center" alt="Accessing shipping accounts" border={true} caption="Accessing shipping accounts" src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" />
 
         ***
       </ToggleListItem>
@@ -37,19 +35,19 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
       <ToggleListItem title="2. Select option to add shipping account">
         On the **Shipping Accounts** page that opens, select ![](https://files.readme.io/5eb134426849b1adb3049756830b6bef19e7dc67dca55891e64ff7b9c8eadd8e-add_shipping_account_button.png).
 
-        <Image align="center" border={true} src="https://files.readme.io/3b149ee84f86fb8d4f02c43b2733c7eb85aea3ac6e2f01692af371f631570bf3-Add_shipping_account_button_DX.png" alt="Accessing option to add shipping account" />
+        <Image align="center" alt="Accessing option to add shipping account" border={true} caption="Selecting option to add shipping account" src="https://files.readme.io/3b149ee84f86fb8d4f02c43b2733c7eb85aea3ac6e2f01692af371f631570bf3-Add_shipping_account_button_DX.png" />
 
         ***
       </ToggleListItem>
 
-        <br />
+      <br />
 
       <ToggleListItem title="3. Enter account details">
         On the **Add Shipping Account** form that appears, in the **ACCOUNT DETAILS** block, fill in the necessary information as described in the following table.
 
-        <Image align="center" src="https://files.readme.io/3a455e2719e4881e477bf78f117fa269ddb148a02a7dbd95daf3fdb49afdf456-image.png" width="500px" />
+        <Image align="center" caption="Selecting DPD NL carrier" src="https://files.readme.io/3a455e2719e4881e477bf78f117fa269ddb148a02a7dbd95daf3fdb49afdf456-image.png" width="500px" />
 
-         <br />
+        <br />
 
         <AsteridkForMandatoryElements />
 
@@ -61,14 +59,14 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
         ***
       </ToggleListItem>
 
-        <br />
+      <br />
 
       <ToggleListItem title="4. Enter shipping account details">
         In the **SHIPPING ACCOUNT** block, enter the necessary information as explained in the following table.
 
-        <Image align="center" src="https://files.readme.io/038ffd980b7ea30489f1537526e454561ca8b4c6207f368f198f7b3a796b76ba-image.png" width="500px" />
+        <Image align="center" caption="Entering shipping account details" src="https://files.readme.io/038ffd980b7ea30489f1537526e454561ca8b4c6207f368f198f7b3a796b76ba-image.png" width="500px" />
 
-          <br />
+        <br />
 
         <AsteridkForMandatoryElements />
 
@@ -150,9 +148,9 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
       <ToggleListItem title="5. Enter carrier details">
         In the **CARRIER DETAILS** block, enter the necessary information as explained in the following table.
 
-        <Image align="center" src="https://files.readme.io/50b1c2b340debdfc89d6ac4056545f954a35b3025eac1f05cc88699c6e481523-image.png" width="600px" />
+        <Image align="center" caption="Entering carrier-specific details" src="https://files.readme.io/50b1c2b340debdfc89d6ac4056545f954a35b3025eac1f05cc88699c6e481523-image.png" width="600px" />
 
-       <br />
+        <br />
 
         <AsteridkForMandatoryElements />
 
@@ -208,7 +206,7 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
               <td>
                 Enter the language code used for DPD Netherlands delivery notifications to be sent via Email or SMS—provided in the ISO 3166-1 alpha-2 format, for example, English, Dutch, and French.
 
-                `Note`: *The notifications are only sent if either the Email or SMS enhancement code is provided in the create shipment request.*
+                `Note`: _The notifications are only sent if either the Email or SMS enhancement code is provided in the create shipment request._
               </td>
             </tr>
           </tbody>
