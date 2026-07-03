@@ -26,7 +26,9 @@ The following sections summarises the MDF validation rules, their respective shi
   _The Royal Mail validation rules may change overtime. For the most accurate and up-to-date validation rules, please contact your Royal Mail account manager._
 </Callout>
 
-<Accordion title="A">
+<Accordion title="Ruleset A" icon="fa-solid fa-shield-check">
+  **Scenario example**: Domestic <Glossary>DOX</Glossary>, <Glossary>NDX</Glossary>, and international DOX shipments.
+
   <table>
     <tr>
       <th>API object</th>
@@ -34,7 +36,7 @@ The following sections summarises the MDF validation rules, their respective shi
     </tr>
 
     <tr>
-      <td rowSpan="5"><strong>Shipper > Address</strong></td>
+      <td rowspan="5"><strong>Shipper > Address</strong></td>
       <td>ContactName</td>
     </tr>
 
@@ -55,7 +57,7 @@ The following sections summarises the MDF validation rules, their respective shi
     </tr>
 
     <tr>
-      <td rowSpan="4"><strong>Destination > Address</strong></td>
+      <td rowspan="4"><strong>Destination > Address</strong></td>
       <td>ContactName</td>
     </tr>
 
@@ -71,7 +73,6 @@ The following sections summarises the MDF validation rules, their respective shi
       <td>CountryCode</td>
     </tr>
   </table>
-
 </Accordion>
 
 <br />
