@@ -28,7 +28,6 @@ The following sections summarises the MDF validation rules, their respective shi
 
 <Accordion title="Ruleset A" icon="fa-solid fa-shield-check">
   **Scenario example**: Domestic <Glossary>DOX</Glossary>, <Glossary>NDX</Glossary>, and international DOX shipments.
-
   <table>
     <tr>
       <th>API object</th>
