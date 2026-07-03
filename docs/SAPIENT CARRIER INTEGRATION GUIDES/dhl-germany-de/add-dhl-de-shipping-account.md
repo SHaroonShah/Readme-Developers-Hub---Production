@@ -11,9 +11,11 @@ metadata:
 ---
 In SAPIENT, with the Add Shipping Account functionality, you can select the desired shipping location and then add a DHL Germany shipping account to it.
 
-> 🚧 _Important_
->
-> _Before you can set up a shipping account, make sure you have enabled the <Anchor label="label integration" target="_blank" href="https://docs.intersoftsapient.net/docs/integration-activation">label integration</Anchor> for DHL Germany and have already [created a shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location)._
+<Callout icon="🚧" theme="warn">
+  ### _Important_
+
+  _Before you can set up a shipping account, make sure you have enabled the <Anchor target="_blank" href="https://docs.intersoftsapient.net/docs/integration-activation">label integration</Anchor> for DHL Germany and have already [created a shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location)._
+</Callout>
 
 ## How to add DHL DE shipping account
 
@@ -25,7 +27,7 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
       <ToggleListItem title="1. Select the Shipping Accounts page">
         In the left navigation panel, select **Shipping Accounts**.
 
-        <Image align="center" src="https://files.readme.io/3d2349061f0415b118f4ffc1d5d1f0722422302161528022cbc28634eb90514f-image.png" alt="Accessing shipping accounts" />
+        <Image align="center" src="https://files.readme.io/3d2349061f0415b118f4ffc1d5d1f0722422302161528022cbc28634eb90514f-image.png" caption="Accessing shipping accounts" />
 
         ***
       </ToggleListItem>
