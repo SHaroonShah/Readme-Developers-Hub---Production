@@ -20,9 +20,11 @@ When creating a shipment, these validation rules verify that all necessary infor
 
 The following sections summarises the MDF validation rules, their respective shipment scenarios, and the mandatory fields for each rule. The field are mapped to their typical names for clarity and reference.
 
-> 🚧 _Important_
->
-> _The Royal Mail validation rules may change overtime. For the most accurate and up-to-date validation rules, please contact your Royal Mail account manager._
+<Callout icon="🚧" theme="warn">
+  ### _Important_
+
+  _The Royal Mail validation rules may change overtime. For the most accurate and up-to-date validation rules, please contact your Royal Mail account manager._
+</Callout>
 
 <Accordion title="Ruleset A" icon="fa-solid fa-shield-check">
   **Scenario example**: Domestic <Glossary>DOX</Glossary>, <Glossary>NDX</Glossary>, and international DOX shipments.
