@@ -400,8 +400,8 @@ To add a shipping account for Amazon in SAPIENT, follow the instructions as expl
                 Select this button to save the shipping account without linking it to your Amazon shipping account. This option creates your shipping account with a <strong>Disabled</strong> status and a connection status of <strong>Not Connected</strong>.
                 <br />
                 You can connect the shipping account later by selecting this shipping account from the list and clicking <img src="https://files.readme.io/8a55ea176fffa169c336d8f61757f2d9bafa0a91f6941c1eb10f1d66ed82b10d-Login_with_Amazon_button.png" alt="Login with Amazon button" style={{display: "inline", verticalAlign: "middle", height: "20px"}} /> provided in the <strong>CARRIER DETAILS</strong> block.
-
                 <br />
+                <br/>
                 <img align="center" width="300px" src="https://files.readme.io/d0fd1abff3fd7f3a592d47fec656a50a71b6eae4424782f59d58f450eec95988-Selecting_login_with_Amazon_button.png" alt="Selecting login with Amazon button" style={{width: "200px", display: "block"}} />
               </td>
             </tr>
