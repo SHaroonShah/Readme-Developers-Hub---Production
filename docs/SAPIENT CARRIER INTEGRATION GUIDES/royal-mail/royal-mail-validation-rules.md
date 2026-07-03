@@ -26,7 +26,7 @@ The following sections summarises the MDF validation rules, their respective shi
   _The Royal Mail validation rules may change overtime. For the most accurate and up-to-date validation rules, please contact your Royal Mail account manager._
 </Callout>
 
-
+<Accordion title="My Accordion Title" icon="fa-info-circle">
   <table>
     <tr>
       <th>API object</th>
@@ -71,7 +71,9 @@ The following sections summarises the MDF validation rules, their respective shi
       <td>CountryCode</td>
     </tr>
   </table>
+</Accordion>
 
+  
 
 <Accordion title="Ruleset B" icon="fa-solid fa-shield-check">
   **Scenario example**: International non-document (<Glossary>NDX</Glossary>) shipments using <Glossary>DDU</Glossary> incoterm.
