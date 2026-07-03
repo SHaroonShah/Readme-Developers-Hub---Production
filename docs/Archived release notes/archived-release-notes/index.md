@@ -35,9 +35,12 @@ next:
   </Card>
 </Cards>
 
-|   |   |   |
-| - | - | - |
-| 1 |   |   |
-| 2 |   |   |
+<table>
+  <tbody>
+    <tr>
+      <td colSpan="3">1, 2, and 3</td>
+    </tr>
+  </tbody>
+</table>
 
 <br />
