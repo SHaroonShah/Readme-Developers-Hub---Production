@@ -39,7 +39,7 @@ In SAPIENT, you can create both <Glossary>On-Amazon</Glossary> and <Glossary>Off
 
           In the left navigation panel, select **Shipping Accounts**.
 
-          <Image align="center" border={true} src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" alt="Shipping Accounts option" />
+          <Image align="center" border={true} src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" />
 
           ***
         </ToggleListItem>
@@ -51,14 +51,14 @@ In SAPIENT, you can create both <Glossary>On-Amazon</Glossary> and <Glossary>Off
 
           On the **Shipping Accounts** page that opens, select the **Add Shipping Account** button.
 
-          <Image align="center" border={true} src="https://files.readme.io/8490d8ba65c4eca10caa8c051c5e73bf366fc5a6269e84a2bfb697544105b343-Add_shipping_account_option.png" alt="Add Shipping Account button" />
+          <Image align="center" border={true} src="https://files.readme.io/8490d8ba65c4eca10caa8c051c5e73bf366fc5a6269e84a2bfb697544105b343-Add_shipping_account_option.png" />
 
           ***
         </ToggleListItem>
 
         <br />
 
-        <ToggleListItem title={<strong>3. Enter account details</strong>} icon="fa-rocket">
+        <ToggleListItem title={<strong>3. Enter account details </strong>} icon="fa-rocket">
           <br />
 
           On the **Add Shipping Account** form that appears, in the **ACCOUNT DETAILS** block, fill in the necessary information as described in the following table.
@@ -67,7 +67,7 @@ In SAPIENT, you can create both <Glossary>On-Amazon</Glossary> and <Glossary>Off
 
           <br />
 
-          <AsteriskForMandatoryElements />
+          <AsteridkForMandatoryElements />
 
           |         Element         | Description                                                                                                   |
           | :---------------------: | :------------------------------------------------------------------------------------------------------------ |
@@ -79,7 +79,7 @@ In SAPIENT, you can create both <Glossary>On-Amazon</Glossary> and <Glossary>Off
 
         <br />
 
-        <ToggleListItem title={<strong>4. Enter shipping account details</strong>} icon="fa-rocket">
+        <ToggleListItem title={<strong>4. Enter shipping account details </strong>} icon="fa-rocket">
           <br />
 
           In the **SHIPPING ACCOUNT** block, enter the necessary information as explained in the following table.
@@ -94,18 +94,23 @@ In SAPIENT, you can create both <Glossary>On-Amazon</Glossary> and <Glossary>Off
             *In the following table, the mandatory fields are marked with an asterisk (\*).*
           </Callout>
 
-          <Table align={["center", "left"]}>
+          <Table align={["center","left"]}>
             <thead>
               <tr>
-                <th>Element</th>
-                <th>Description</th>
+                <th>
+                  Element
+                </th>
+
+                <th>
+                  Description
+                </th>
               </tr>
             </thead>
 
             <tbody>
               <tr>
                 <td>
-                  <strong>Account Name (if different than customer)</strong>*
+                  **Account Name (if different than customer)**\*
                 </td>
 
                 <td>
@@ -115,33 +120,31 @@ In SAPIENT, you can create both <Glossary>On-Amazon</Glossary> and <Glossary>Off
 
               <tr>
                 <td>
-                  <strong>Account Type</strong>*
+                  **Account Type**\*
                 </td>
 
                 <td>
-                  From the dropdown menu, select one of the following account types that you want to set up for the shipping account you are adding:
-                  <br />
-                  <br />
-                  • <strong>https://docs.intersoftsapient.net/docs/sandbox-accountProduction</a></strong>: a live environment where the final version of the application is deployed and made available to the users.
-                  <br />
-                  <br />
-                  • <strong>https://docs.intersoftsapient.net/docs/sandbox-accountSandbox</a></strong>: a testing environment that mimics the <strong>Production</strong> environment but is isolated from it. The sandbox environment is primarily used for development and testing purposes.
+                  From the dropdown menu, select one of the following account types that you want to set up for the the shipping account you are adding:
+
+                  • **[Production](https://docs.intersoftsapient.net/docs/sandbox-account)**: a live environment where the final version of the application is deployed and made available to the users.
+
+                  • **[Sandbox](https://docs.intersoftsapient.net/docs/sandbox-account)**: a testing environment that mimics the **Production** environment but is isolated from it. The sandbox environment is primarily used for development and testing purposes.
                 </td>
               </tr>
 
               <tr>
                 <td>
-                  <strong>Alias</strong>*
+                  **Alias**\*
                 </td>
 
                 <td>
-                  Enter a custom name that can be used in the API request instead of the shipping account ID when connecting to us. Therefore, it is recommended that this name is memorable and available for reference purposes.
+                  Enter a custom name which can be used in the API request instead of using the shipping account ID when connecting to us. Therefore, it is recommend that this name must be memorable and available for reference purposes.
                 </td>
               </tr>
 
               <tr>
                 <td>
-                  <strong>Contact Name</strong>*
+                  **Contact Name**\*
                 </td>
 
                 <td>
@@ -151,7 +154,7 @@ In SAPIENT, you can create both <Glossary>On-Amazon</Glossary> and <Glossary>Off
 
               <tr>
                 <td>
-                  <strong>Contact Number</strong>*
+                  **Contact Number**\*
                 </td>
 
                 <td>
@@ -173,9 +176,9 @@ In SAPIENT, you can create both <Glossary>On-Amazon</Glossary> and <Glossary>Off
 
           > 🚧 *Important*
           >
-          > *Use this block only if you have set your account type to **Production**. This block does not apply to the shipping accounts created with the **Sandbox** account type.*
+          > *Use this block only if you have set your account type to**Production**. This block does not apply to the shipping accounts created with the **Sandbox** account type.*
 
-          <Image align="center" border={true} src="https://files.readme.io/f43827dd6994b5da5d74fb6ec99a873e0386405a85d0769f4bb1d933e07e163e-carrier_details_block_On_Amazon.png" width="600px" alt="Entering carrier details for On-Amazon account" />
+          <Image align="center" border={true} src="https://files.readme.io/f43827dd6994b5da5d74fb6ec99a873e0386405a85d0769f4bb1d933e07e163e-carrier_details_block_On_Amazon.png" width="600px" alt="Entering carrier details" />
         </ToggleListItem>
 
         <br />
@@ -183,7 +186,7 @@ In SAPIENT, you can create both <Glossary>On-Amazon</Glossary> and <Glossary>Off
         <ToggleListItem title={<strong>6. Save and add shipping account</strong>} icon="fa-rocket">
           <br />
 
-          After entering all the required information, select https://files.readme.io/721eb0f8be0c99a924b61cbca6496517d03fcbbf235aa0c3d579c60b3131df2a-add_shipping_account_button_2.png.
+          After entering all the required information, select ![](https://files.readme.io/721eb0f8be0c99a924b61cbca6496517d03fcbbf235aa0c3d579c60b3131df2a-add_shipping_account_button_2.png).
         </ToggleListItem>
 
         <br />
@@ -193,47 +196,49 @@ In SAPIENT, you can create both <Glossary>On-Amazon</Glossary> and <Glossary>Off
 
           In the **Shipping Account Added** dialog that appears, based on your preferences, proceed as follows.
 
-          <Image align="center" border={true} src="https://files.readme.io/7355f68879495a8c59f2ff1ef019fc1b924009ae7e9bbd4b57235553dfe18c5f-Shippig_account_confirmation_dialog_Amazon.png" alt="Shipping Account Added dialog" />
+          <Image align="center" border={true} src="https://files.readme.io/7355f68879495a8c59f2ff1ef019fc1b924009ae7e9bbd4b57235553dfe18c5f-Shippig_account_confirmation_dialog_Amazon.png" />
 
           <br />
 
-          <Table align={["left", "left"]}>
+          <Table align={["left","left"]}>
             <thead>
               <tr>
-                <th>Button</th>
-                <th>Description</th>
+                <th>
+                  Button
+                </th>
+
+                <th>
+                  Description
+                </th>
               </tr>
             </thead>
 
             <tbody>
               <tr>
                 <td>
-                  <img src="https://files.readme.io/1668b1ad81bff395a051eb64db26205ccc5635e2636194e1a5725b16156243c8-Connect_now_button.png" alt="Connect now button" />
+                  ![](https://files.readme.io/1668b1ad81bff395a051eb64db26205ccc5635e2636194e1a5725b16156243c8-Connect_now_button.png)
                 </td>
 
                 <td>
-                  Select this button if you want to instantly connect this shipping account with your Amazon Seller Central account. Upon selection, you are directed to a new browser with the Amazon Seller Central login screen.
-                  <br />
-                  <br />
-                  <img src="https://files.readme.io/8f06734f14e98a0fe80890254ce53e2abc2cfd8c442b96a4e49979376d0d033a-Amazon_seller_central_dialog.png" alt="Amazon Seller Central dialog" style={{ width: "50px", display: "block", margin: "0 auto" }} />
-                  <br />
-                  Enter your login details and sign in to connect your shipping account with your Amazon Seller Central account.
+                  Select this button if you want to instantly connect this shipping account with your Amazon seller central account. Upon selection, you are directed to a new browser with the Amazon seller central login screen.
+
+                  <Image align="center" src="https://files.readme.io/8f06734f14e98a0fe80890254ce53e2abc2cfd8c442b96a4e49979376d0d033a-Amazon_seller_central_dialog.png" width="200px" />
+
+                  Enter your login details and sign in to connect your shipping account with your Amazon seller central account.
                 </td>
               </tr>
 
               <tr>
                 <td>
-                  <img src="https://files.readme.io/619a4b25c7ee5800144aa6889aa351de103c330e83f30fb8a818908e71e30df0-Connect_later_button.png" alt="Connect later button" />
+                  ![](https://files.readme.io/619a4b25c7ee5800144aa6889aa351de103c330e83f30fb8a818908e71e30df0-Connect_later_button.png)
                 </td>
 
                 <td>
-                  Select this button to save the shipping account without linking it to your Amazon Seller Central account. This option creates your shipping account with a <strong>Disabled</strong> status and a connection status of <strong>Not Connected</strong>.
-                  <br />
-                  <br />
-                  You can connect the shipping account later by selecting this shipping account from the list and clicking <img src="https://files.readme.io/8a55ea176fffa169c336d8f61757f2d9bafa0a91f6941c1eb10f1d66ed82b10d-Login_with_Amazon_button.png" alt="Login with Amazon button" style={{ display: "inline", verticalAlign: "middle", height: "20px" }} /> provided in the <strong>CARRIER DETAILS</strong> block.
-                  <br />
-                  <br />
-                  <img src="https://files.readme.io/d0fd1abff3fd7f3a592d47fec656a50a71b6eae4424782f59d58f450eec95988-Selecting_login_with_Amazon_button.png" alt="Selecting Login with Amazon button" style={{ width: "100px", display: "block", margin: "0 auto" }} />
+                  Select this button to save the shipping account without linking it to your Amazon seller central. This option creates your shipping account with a **Disabled** status and a connection status of **Not Connected**.
+
+                  You can connect the shipping account later by selecting this shipping account from the list and clicking ![](https://files.readme.io/8a55ea176fffa169c336d8f61757f2d9bafa0a91f6941c1eb10f1d66ed82b10d-Login_with_Amazon_button.png) provided in the **CARRIER DETAILS** block.
+
+                  <Image align="center" src="https://files.readme.io/d0fd1abff3fd7f3a592d47fec656a50a71b6eae4424782f59d58f450eec95988-Selecting_login_with_Amazon_button.png" width="200px" />
                 </td>
               </tr>
             </tbody>
@@ -249,7 +254,7 @@ In SAPIENT, you can create both <Glossary>On-Amazon</Glossary> and <Glossary>Off
     <br />
 
     <Accordion title="Add Off-Amazon shipping account">
-      To add an Off-Amazon shipping account to SAPIENT, perform the steps as explained in the following procedure.
+      To add an Off-Amazon shipping accoun to SAPIENT, perform the steps as explained in the following prcedure.
 
       <ToggleList>
         <ToggleListItem title={<strong>1. Access the shipping accounts page</strong>} icon="fa-rocket">
@@ -276,7 +281,7 @@ In SAPIENT, you can create both <Glossary>On-Amazon</Glossary> and <Glossary>Off
 
         <br />
 
-        <ToggleListItem title={<strong>3. Enter account details</strong>} icon="fa-rocket">
+        <ToggleListItem title={<strong>3. Enter account details </strong>} icon="fa-rocket">
           <br />
 
           On the **Add Shipping Account** form that appears, in the **ACCOUNT DETAILS** block, fill in the necessary information as described in the following table.
@@ -285,7 +290,7 @@ In SAPIENT, you can create both <Glossary>On-Amazon</Glossary> and <Glossary>Off
 
           <br />
 
-          <AsteriskForMandatoryElements />
+          <AsteridkForMandatoryElements />
 
           |         Element         | Description                                                                                                   |
           | :---------------------: | :------------------------------------------------------------------------------------------------------------ |
@@ -297,7 +302,7 @@ In SAPIENT, you can create both <Glossary>On-Amazon</Glossary> and <Glossary>Off
 
         <br />
 
-        <ToggleListItem title={<strong>4. Enter shipping account details</strong>} icon="fa-rocket">
+        <ToggleListItem title={<strong>4. Enter shipping account details </strong>} icon="fa-rocket">
           <br />
 
           In the **SHIPPING ACCOUNT** block, enter the necessary information as explained in the following table.
@@ -312,18 +317,23 @@ In SAPIENT, you can create both <Glossary>On-Amazon</Glossary> and <Glossary>Off
             *In the following table, the mandatory fields are marked with an asterisk (\*).*
           </Callout>
 
-          <Table align={["center", "left"]}>
+          <Table align={["center","left"]}>
             <thead>
               <tr>
-                <th>Element</th>
-                <th>Description</th>
+                <th>
+                  Element
+                </th>
+
+                <th>
+                  Description
+                </th>
               </tr>
             </thead>
 
             <tbody>
               <tr>
                 <td>
-                  <strong>Account Name (if different than customer)</strong>*
+                  **Account Name (if different than customer)**\*
                 </td>
 
                 <td>
@@ -333,33 +343,31 @@ In SAPIENT, you can create both <Glossary>On-Amazon</Glossary> and <Glossary>Off
 
               <tr>
                 <td>
-                  <strong>Account Type</strong>*
+                  **Account Type**\*
                 </td>
 
                 <td>
-                  From the dropdown menu, select one of the following account types that you want to set up for the shipping account you are adding:
-                  <br />
-                  <br />
-                  • <strong>https://docs.intersoftsapient.net/docs/sandbox-accountProduction</a></strong>: a live environment where the final version of the application is deployed and made available to the users.
-                  <br />
-                  <br />
-                  • <strong>https://docs.intersoftsapient.net/docs/sandbox-accountSandbox</a></strong>: a testing environment that mimics the <strong>Production</strong> environment but is isolated from it. The sandbox environment is primarily used for development and testing purposes.
+                  From the dropdown menu, select one of the following account types that you want to set up for the the shipping account you are adding:
+
+                  • **[Production](https://docs.intersoftsapient.net/docs/sandbox-account)**: a live environment where the final version of the application is deployed and made available to the users.
+
+                  • **[Sandbox](https://docs.intersoftsapient.net/docs/sandbox-account)**: a testing environment that mimics the **Production** environment but is isolated from it. The sandbox environment is primarily used for development and testing purposes.
                 </td>
               </tr>
 
               <tr>
                 <td>
-                  <strong>Alias</strong>*
+                  **Alias**\*
                 </td>
 
                 <td>
-                  Enter a custom name that can be used in the API request instead of the shipping account ID when connecting to us. Therefore, it is recommended that this name is memorable and available for reference purposes.
+                  Enter a custom name which can be used in the API request instead of using the shipping account ID when connecting to us. Therefore, it is recommend that this name must be memorable and available for reference purposes.
                 </td>
               </tr>
 
               <tr>
                 <td>
-                  <strong>Contact Name</strong>*
+                  **Contact Name**\*
                 </td>
 
                 <td>
@@ -369,7 +377,7 @@ In SAPIENT, you can create both <Glossary>On-Amazon</Glossary> and <Glossary>Off
 
               <tr>
                 <td>
-                  <strong>Contact Number</strong>*
+                  **Contact Number**\*
                 </td>
 
                 <td>
@@ -391,9 +399,9 @@ In SAPIENT, you can create both <Glossary>On-Amazon</Glossary> and <Glossary>Off
 
           > 🚧 *Important*
           >
-          > *Use this block only if you have set your account type to **Production**. This block does not apply to the shipping accounts created with the **Sandbox** account type.*
+          > *Use this block only if you have set your account type to**Production**. This block does not apply to the shipping accounts created with the **Sandbox** account type.*
 
-          <Image align="center" src="https://files.readme.io/387253706a2df3ada57a5aa57ac517af6f17b943f7660795133f67edc54e2d78-carrier_details_block_Off_Amazon.png" width="600px" alt="Entering carrier details for Off-Amazon account" />
+          <Image align="center" src="https://files.readme.io/387253706a2df3ada57a5aa57ac517af6f17b943f7660795133f67edc54e2d78-carrier_details_block_Off_Amazon.png" width="600px" />
         </ToggleListItem>
 
         <br />
@@ -401,7 +409,7 @@ In SAPIENT, you can create both <Glossary>On-Amazon</Glossary> and <Glossary>Off
         <ToggleListItem title={<strong>6. Save and add shipping account</strong>} icon="fa-rocket">
           <br />
 
-          After entering all the required information, select https://files.readme.io/721eb0f8be0c99a924b61cbca6496517d03fcbbf235aa0c3d579c60b3131df2a-add_shipping_account_button_2.png.
+          After entering all the required information, select ![](https://files.readme.io/721eb0f8be0c99a924b61cbca6496517d03fcbbf235aa0c3d579c60b3131df2a-add_shipping_account_button_2.png).
         </ToggleListItem>
 
         <br />
@@ -411,47 +419,47 @@ In SAPIENT, you can create both <Glossary>On-Amazon</Glossary> and <Glossary>Off
 
           In the **Shipping Account Added** dialog that appears, based on your preferences, proceed as follows.
 
-          <Image align="center" border={true} src="https://files.readme.io/7355f68879495a8c59f2ff1ef019fc1b924009ae7e9bbd4b57235553dfe18c5f-Shippig_account_confirmation_dialog_Amazon.png" alt="Shipping Account Added dialog" />
+          <Image align="center" border={true} src="https://files.readme.io/7355f68879495a8c59f2ff1ef019fc1b924009ae7e9bbd4b57235553dfe18c5f-Shippig_account_confirmation_dialog_Amazon.png" />
 
-          <br />
-
-          <Table align={["left", "left"]}>
+          <Table align={["left","left"]}>
             <thead>
               <tr>
-                <th>Button</th>
-                <th>Description</th>
+                <th>
+                  Button
+                </th>
+
+                <th>
+                  Description
+                </th>
               </tr>
             </thead>
 
             <tbody>
               <tr>
                 <td>
-                  <img src="https://files.readme.io/1668b1ad81bff395a051eb64db26205ccc5635e2636194e1a5725b16156243c8-Connect_now_button.png" alt="Connect now button" />
+                  ![](https://files.readme.io/1668b1ad81bff395a051eb64db26205ccc5635e2636194e1a5725b16156243c8-Connect_now_button.png)
                 </td>
 
                 <td>
-                  Select this button if you want to instantly connect this shipping account with your Amazon Shipping account. Upon selection, you are directed to a new browser with the Amazon Shipping login screen.
-                  <br />
-                  <br />
-                  <img src="https://files.readme.io/b936abb006f01c8213b8911fd872052ac97979c8dc81457f1364468795245122-Amazon_shipping_dialog.png" alt="Amazon Shipping dialog" style={{ width: "200px", display: "block", margin: "0 auto" }} />
-                  <br />
-                  Enter your login details and sign in to connect your shipping account with your Amazon Shipping account.
+                  Select this button if you want to instantly connect this shipping account with your Amazon shipping account. Upon selection, you are directed to a new browser with the Amazon shipping login screen.
+
+                  <Image align="center" src="https://files.readme.io/b936abb006f01c8213b8911fd872052ac97979c8dc81457f1364468795245122-Amazon_shipping_dialog.png" width="200px" />
+
+                  Enter your login details and sign in to connect your shipping account with your Amazon shipping account.
                 </td>
               </tr>
 
               <tr>
                 <td>
-                  <img src="https://files.readme.io/619a4b25c7ee5800144aa6889aa351de103c330e83f30fb8a818908e71e30df0-Connect_later_button.png" alt="Connect later button" />
+                  ![](https://files.readme.io/619a4b25c7ee5800144aa6889aa351de103c330e83f30fb8a818908e71e30df0-Connect_later_button.png)
                 </td>
 
                 <td>
-                  Select this button to save the shipping account without linking it to your Amazon Shipping account. This option creates your shipping account with a <strong>Disabled</strong> status and a connection status of <strong>Not Connected</strong>.
-                  <br />
-                  <br />
-                  You can connect the shipping account later by selecting this shipping account from the list and clicking <img src="https://files.readme.io/8a55ea176fffa169c336d8f61757f2d9bafa0a91f6941c1eb10f1d66ed82b10d-Login_with_Amazon_button.png" alt="Login with Amazon button" style={{ display: "inline", verticalAlign: "middle", height: "20px" }} /> provided in the <strong>CARRIER DETAILS</strong> block.
-                  <br />
-                  <br />
-                  <img src="https://files.readme.io/d0fd1abff3fd7f3a592d47fec656a50a71b6eae4424782f59d58f450eec95988-Selecting_login_with_Amazon_button.png" alt="Selecting Login with Amazon button" style={{ width: "200px", display: "block", margin: "0 auto" }} />
+                  Select this button to save the shipping account without linking it to your Amazon shipping account. This option creates your shipping account with a **Disabled** status and a connection status of **Not Connected**.
+
+                  You can connect the shipping account later by selecting this shipping account from the list and clicking ![](https://files.readme.io/8a55ea176fffa169c336d8f61757f2d9bafa0a91f6941c1eb10f1d66ed82b10d-Login_with_Amazon_button.png) provided in the **CARRIER DETAILS** block.
+
+                  <Image align="center" src="https://files.readme.io/d0fd1abff3fd7f3a592d47fec656a50a71b6eae4424782f59d58f450eec95988-Selecting_login_with_Amazon_button.png" width="200px" />
                 </td>
               </tr>
             </tbody>
@@ -465,13 +473,13 @@ In SAPIENT, you can create both <Glossary>On-Amazon</Glossary> and <Glossary>Off
         <ToggleListItem title={<strong>8. Authorise your account</strong>} icon="fa-rocket">
           <br />
 
-          In the authorisation page that opens, select the checkbox if you agree with the authorisation terms, then select https://files.readme.io/3f6f67356aa9dca354db43483cb3e1c8739ed9112f2ce231fcef754fd3175f1a-Authorise_button.png.
+          In the authorisation page that opens, select the checkbox if you agree with the authorisation terms, select ![alt text](https://files.readme.io/3f6f67356aa9dca354db43483cb3e1c8739ed9112f2ce231fcef754fd3175f1a-Authorise_button.png).
 
-          <Image align="center" src="https://files.readme.io/1377e7ba5e9d77c6a21cbfbc1838eaf509e30694fa8e8665be5100efd27bd1b2-Authorise_screen_Amazon_Off.png" width="500px" alt="Authorisation screen for Off-Amazon account" />
+          <Image align="center" src="https://files.readme.io/1377e7ba5e9d77c6a21cbfbc1838eaf509e30694fa8e8665be5100efd27bd1b2-Authorise_screen_Amazon_Off.png" width="500px" />
 
           Once the shipping account is connected successfully, its status moves to **Enabled**. You can now start shipping with it.
 
-          <Image align="center" src="https://files.readme.io/08218f7241ea7b5336492b77d5bcbdc9303edca583575035c065a6d60cd784a0-Activate_and_enabled_Amazon_Off_account.png" alt="Activated and enabled Off-Amazon account" />
+          <Image align="center" src="https://files.readme.io/08218f7241ea7b5336492b77d5bcbdc9303edca583575035c065a6d60cd784a0-Activate_and_enabled_Amazon_Off_account.png" />
 
           ***
         </ToggleListItem>
@@ -484,7 +492,7 @@ In SAPIENT, you can create both <Glossary>On-Amazon</Glossary> and <Glossary>Off
 
     <Cards>
       <Card title="Add Account" href="https://docs.intersoftsapient.net/reference/post_v4-shippingaccounts-amazon" icon="fa-code">
-        Add and manage Amazon shipping accounts via API.
+        Add and manage Amazon shipping account via API.
       </Card>
     </Cards>
   </Tab>
