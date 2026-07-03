@@ -27,6 +27,7 @@ The following sections summarises the MDF validation rules, their respective shi
 </Callout>
 
 <Accordion title="My Accordion Title" icon="fa-info-circle">
+
   <table>
     <tr>
       <th>API object</th>
@@ -71,9 +72,10 @@ The following sections summarises the MDF validation rules, their respective shi
       <td>CountryCode</td>
     </tr>
   </table>
+
 </Accordion>
 
-  
+<br />
 
 <Accordion title="Ruleset B" icon="fa-solid fa-shield-check">
   **Scenario example**: International non-document (<Glossary>NDX</Glossary>) shipments using <Glossary>DDU</Glossary> incoterm.
