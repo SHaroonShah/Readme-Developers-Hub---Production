@@ -42,14 +42,14 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
         ***
       </ToggleListItem>
 
-      <br />
+        <br />
 
       <ToggleListItem title="3. Enter account details">
         On the **Add Shipping Account** form that appears, in the **ACCOUNT DETAILS** block, fill in the necessary information as described in the following table.
 
         <Image align="center" src="https://files.readme.io/3a455e2719e4881e477bf78f117fa269ddb148a02a7dbd95daf3fdb49afdf456-image.png" width="500px" />
 
-       <br />
+         <br />
 
         <AsteridkForMandatoryElements />
 
@@ -61,14 +61,14 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
         ***
       </ToggleListItem>
 
-      <br />
+        <br />
 
       <ToggleListItem title="4. Enter shipping account details">
         In the **SHIPPING ACCOUNT** block, enter the necessary information as explained in the following table.
 
         <Image align="center" src="https://files.readme.io/038ffd980b7ea30489f1537526e454561ca8b4c6207f368f198f7b3a796b76ba-image.png" width="500px" />
 
-        <br />
+          <br />
 
         <AsteridkForMandatoryElements />
 
