@@ -133,6 +133,7 @@ next:
   </Card>
 </Cards>
 
+<Accordion title="a">
 <table>
     <tr>
       <th>API object</th>
@@ -177,5 +178,6 @@ next:
       <td>CountryCode</td>
     </tr>
   </table>
+</Accordion>
 
 <br />
