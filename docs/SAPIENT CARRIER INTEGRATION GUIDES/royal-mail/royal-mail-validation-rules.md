@@ -26,8 +26,8 @@ The following sections summarises the MDF validation rules, their respective shi
   _The Royal Mail validation rules may change overtime. For the most accurate and up-to-date validation rules, please contact your Royal Mail account manager._
 </Callout>
 
-<Accordion title="My Accordion Title" icon="fa-info-circle">
-
+<ToggleList>
+<ToggleListItem title="A">
   <table>
     <tr>
       <th>API object</th>
@@ -72,8 +72,8 @@ The following sections summarises the MDF validation rules, their respective shi
       <td>CountryCode</td>
     </tr>
   </table>
-
-</Accordion>
+</ToggleListItem>
+</ToggleList>
 
 <br />
 
