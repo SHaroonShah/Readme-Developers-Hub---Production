@@ -11,9 +11,11 @@ metadata:
 ---
 In SAPIENT, with the Add Shipping Account functionality, you can select the desired shipping location and then add a DPD NL shipping account to it.
 
-> 🚧 _Important_
->
-> _Before you can set up a shipping account, make sure you have enabled the <Anchor label="label integration" target="_blank" href="https://docs.intersoftsapient.net/docs/integration-activation">label integration</Anchor> for DPD NL and have already [created a shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location)._
+<Callout icon="🚧" theme="warn">
+  ### _Important_
+
+  _Before you can set up a shipping account, make sure you have enabled the <Anchor target="_blank" href="https://docs.intersoftsapient.net/docs/integration-activation">label integration</Anchor> for DPD NL and have already [created a shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location)._
+</Callout>
 
 ## How to add DPD NL shipping account
 
@@ -47,7 +49,7 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
 
         <Image align="center" src="https://files.readme.io/3a455e2719e4881e477bf78f117fa269ddb148a02a7dbd95daf3fdb49afdf456-image.png" width="500px" />
 
-        <br />
+       <br />
 
         <AsteridkForMandatoryElements />
 
@@ -150,7 +152,7 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
 
         <Image align="center" src="https://files.readme.io/50b1c2b340debdfc89d6ac4056545f954a35b3025eac1f05cc88699c6e481523-image.png" width="600px" />
 
-        <br />
+       <br />
 
         <AsteridkForMandatoryElements />
 
