@@ -11,16 +11,18 @@ metadata:
 ---
 In SAPIENT, you can create both <Glossary>On-Amazon</Glossary> and <Glossary>Off-Amazon</Glossary> shipping accounts by selecting your desired <Glossary>shipping location</Glossary>,  entering the corresponding account and carrier details, and then adding the account to the system.
 
-> 🚧 _Important_
->
-> _Before you can set up a shipping account, make sure you have [enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) for Amazon and have already [created a shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location)._
->
-> _Once the Amazon integration is activated, please bear in mind the following:_
->
-> * _You cannot switch between On‑Amazon and Off‑Amazon shipping accounts after they have been created.._
-> * _You can add and manage the shipping accounts via API, but you must log into the SAPIENT UI and complete the Login With Amazon (LWA) process._
->
-> _For more information on how to add and manage shipping accounts via the API, refer to the [API References](https://docs.intersoftsapient.net/reference/get_v4-carriers) section._
+<Callout icon="🚧" theme="warn">
+  ### _Important_
+
+  _Before you can set up a shipping account, make sure you have [enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) for Amazon and have already [created a shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location)._
+
+  _Once the Amazon integration is activated, please bear in mind the following:_
+
+  - _You cannot switch between On‑Amazon and Off‑Amazon shipping accounts after they have been created.._
+  - _You can add and manage the shipping accounts via API, but you must log into the SAPIENT UI and complete the Login With Amazon (LWA) process._
+
+  _For more information on how to add and manage shipping accounts via the API, refer to the [API References](https://docs.intersoftsapient.net/reference/get_v4-carriers) section._
+</Callout>
 
 ## How to add Amazon shipping account
 
@@ -190,63 +192,56 @@ In SAPIENT, you can create both <Glossary>On-Amazon</Glossary> and <Glossary>Off
         <br />
 
         <ToggleListItem title={<strong>7. Connect shipping account with your Amazon account</strong>} icon="fa-rocket">
-          <br />
+        <br />
 
-          In the **Shipping Account Added** dialog that appears, based on your preferences, proceed as follows.
+        In the **Shipping Account Added** dialog that appears, based on your preferences, proceed as follows.
+ 
 
-          <Image align="center" border={true} src="https://files.readme.io/7355f68879495a8c59f2ff1ef019fc1b924009ae7e9bbd4b57235553dfe18c5f-Shippig_account_confirmation_dialog_Amazon.png" />
+        <Image align="center" border={true} src="https://files.readme.io/7355f68879495a8c59f2ff1ef019fc1b924009ae7e9bbd4b57235553dfe18c5f-Shippig_account_confirmation_dialog_Amazon.png" />
 
-          <br />
+        <br />
+        <Table align={["left","left"]}>
+          <thead>
+            <tr>
+              <th>Button</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <img src="https://files.readme.io/1668b1ad81bff395a051eb64db26205ccc5635e2636194e1a5725b16156243c8-Connect_now_button.png" alt="Connect now button" />
+              </td>
+              <td>
+                Select this button if you want to instantly connect this shipping account with your Amazon seller central account. Upon selection, you are directed to a new browser with the Amazon seller central login screen.
+                <br />
+                <br />
+                <img align="center" width="300px" src="https://files.readme.io/8f06734f14e98a0fe80890254ce53e2abc2cfd8c442b96a4e49979376d0d033a-Amazon_seller_central_dialog.png" alt="Amazon seller central dialog" style={{width: "50px", display: "block", align: "center"}} />
+                <br />
+                Enter your login details and sign in to connect your shipping account with your Amazon seller central account.
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <img src="https://files.readme.io/619a4b25c7ee5800144aa6889aa351de103c330e83f30fb8a818908e71e30df0-Connect_later_button.png" alt="Connect later button" />
+              </td>
+              <td>
+                Select this button to save the shipping account without linking it to your Amazon seller central. This option creates your shipping account with a <strong>Disabled</strong> status and a connection status of <strong>Not Connected</strong>.
+                <br />
+                You can connect the shipping account later by selecting this shipping account from the list and clicking <img src="https://files.readme.io/8a55ea176fffa169c336d8f61757f2d9bafa0a91f6941c1eb10f1d66ed82b10d-Login_with_Amazon_button.png" alt="Login with Amazon button" style={{display: "inline", verticalAlign: "middle", height: "20px"}} /> provided in the <strong>CARRIER DETAILS</strong> block.
+                <br />
+                <br />
+                <img align="center" width="300px" src="https://files.readme.io/d0fd1abff3fd7f3a592d47fec656a50a71b6eae4424782f59d58f450eec95988-Selecting_login_with_Amazon_button.png" alt="Selecting login with Amazon button" style={{width: "100px", display: "block"}} />
+              </td>
+            </tr>
+          </tbody>
+        </Table>
 
-          <Table align={["left","left"]}>
-            <thead>
-              <tr>
-                <th>
-                  Button
-                </th>
+        <br />
 
-                <th>
-                  Description
-                </th>
-              </tr>
-            </thead>
-
-            <tbody>
-              <tr>
-                <td>
-                  ![](https://files.readme.io/1668b1ad81bff395a051eb64db26205ccc5635e2636194e1a5725b16156243c8-Connect_now_button.png)
-                </td>
-
-                <td>
-                  Select this button if you want to instantly connect this shipping account with your Amazon seller central account. Upon selection, you are directed to a new browser with the Amazon seller central login screen.
-
-                  <Image align="center" src="https://files.readme.io/8f06734f14e98a0fe80890254ce53e2abc2cfd8c442b96a4e49979376d0d033a-Amazon_seller_central_dialog.png" width="200px" />
-
-                  Enter your login details and sign in to connect your shipping account with your Amazon seller central account.
-                </td>
-              </tr>
-
-              <tr>
-                <td>
-                  ![](https://files.readme.io/619a4b25c7ee5800144aa6889aa351de103c330e83f30fb8a818908e71e30df0-Connect_later_button.png)
-                </td>
-
-                <td>
-                  Select this button to save the shipping account without linking it to your Amazon seller central. This option creates your shipping account with a **Disabled** status and a connection status of **Not Connected**.
-
-                  You can connect the shipping account later by selecting this shipping account from the list and clicking ![](https://files.readme.io/8a55ea176fffa169c336d8f61757f2d9bafa0a91f6941c1eb10f1d66ed82b10d-Login_with_Amazon_button.png) provided in the **CARRIER DETAILS** block.
-
-                  <Image align="center" src="https://files.readme.io/d0fd1abff3fd7f3a592d47fec656a50a71b6eae4424782f59d58f450eec95988-Selecting_login_with_Amazon_button.png" width="200px" />
-                </td>
-              </tr>
-            </tbody>
-          </Table>
-
-          <br />
-
-          Once the shipping account is connected successfully, its status moves to **Enabled**. You can now start shipping with it.
-        </ToggleListItem>
-      </ToggleList>
+        Once the shipping account is connected successfully, its status moves to **Enabled**. You can now start shipping with it.
+      </ToggleListItem>
+    </ToggleList>
     </Accordion>
 
     <br />
