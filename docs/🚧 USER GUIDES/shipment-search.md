@@ -59,71 +59,130 @@ To search shipments in SAPIENT, perform the steps as explained in the following 
 
     <br />
 
-    <Table align={["center", "left"]}>
+    <Table align={["center","left"]}>
       <thead>
         <tr>
-          <th>Column</th>
-          <th>Description</th>
+          <th>
+            Column
+          </th>
+
+          <th>
+            Description
+          </th>
         </tr>
       </thead>
 
       <tbody>
         <tr>
-          <td><strong>Tracking Number</strong></td>
           <td>
-            <p>Unique identifier assigned to each shipment, allowing you to monitor its progress through the shipping system.</p>
-            <p>You can also download the shipment <Glossary>label</Glossary> or copy the <Glossary>tracking number</Glossary> by selecting the corresponding icons.</p>
+            **Tracking Number**
+          </td>
+
+          <td>
+            Represents the unique identifier assigned to each shipment, allowing users to monitor its progress through the shipping system.
+
+            Note: in this column, you can also download the shipment <Glossary>label</Glossary> or copy the <Glossary>tracking number</Glossary> by selecting the corresponding icons.
           </td>
         </tr>
 
         <tr>
-          <td><strong>Shipment date</strong></td>
-          <td>Date on which the shipment was processed and dispatched.</td>
+          <td>
+            **Shipment date**
+          </td>
+
+          <td>
+            Represents  date on which the shipment was processed and dispatched, essential for tracking timelines and delivery expectations.
+          </td>
         </tr>
 
         <tr>
-          <td><strong>Carrier</strong></td>
-          <td>Name and logo of the <Glossary>carrier</Glossary> responsible for delivering the shipment.</td>
+          <td>
+            **Carrier**
+          </td>
+
+          <td>
+            Represents the name and logo of the <Glossary>carrier</Glossary> responsible for delivering the shipment.
+          </td>
         </tr>
 
         <tr>
-          <td><strong>Account</strong></td>
-          <td>Account name associated with the shipment, used for billing and record-keeping purposes.</td>
+          <td>
+            **Account**
+          </td>
+
+          <td>
+            Represents the account name associated with the shipment, used for billing and record-keeping purposes within the system.
+          </td>
         </tr>
 
         <tr>
-          <td><strong>Reference</strong></td>
-          <td>Additional identifier, such as an order number or customer reference, that provides context for the shipment.</td>
+          <td>
+            **Reference**
+          </td>
+
+          <td>
+            Represents an additional identifier information, such as an order number or customer reference, providing context for the shipment.
+          </td>
         </tr>
 
         <tr>
-          <td><strong>Service</strong></td>
-          <td>Shipping service used, such as standard or express.</td>
+          <td>
+            **Service**
+          </td>
+
+          <td>
+            Represents the type of shipping service used (for example, standard, express), influencing delivery speed and cost.
+          </td>
         </tr>
 
         <tr>
-          <td><strong>Recipient</strong></td>
-          <td>Name of the individual or entity designated to receive the shipment.</td>
+          <td>
+            **Recipient**
+          </td>
+
+          <td>
+            Represents the name of the individual or entity designated to receive the shipment, important for ensuring accurate delivery.
+          </td>
         </tr>
 
         <tr>
-          <td><strong>Destination</strong></td>
-          <td>Final location where the shipment is being sent.</td>
+          <td>
+            **Destination**
+          </td>
+
+          <td>
+            Represents  final location where the shipment is being sent, needed for route planning and logistical coordination.
+          </td>
         </tr>
 
         <tr>
-          <td><strong>Status</strong></td>
-          <td>Current state of the shipment, such as <strong>Confirmed</strong> or <strong>Label Printed</strong>.</td>
+          <td>
+            **Status**
+          </td>
+
+          <td>
+            Represents  the current state of the shipment (for example, **Confirmed**, **Label Printed**, and so on), providing timely updates to users.
+          </td>
         </tr>
 
         <tr>
-          <td><strong>Packages</strong></td>
-          <td>Quantity of <Glossary>packages</Glossary> included in the shipment.</td>
+          <td>
+            **Packages**
+          </td>
+
+          <td>
+            Represents quantity of <Glossary>package</Glossary>s included in the shipment, vital for planning and inventory management.
+          </td>
         </tr>
 
         <tr>
-          <td><strong>Last Modified</strong></td>
-          <td>Date and time of the most recent update to the shipment's information.</td>
+          <td>
+            **Last Modified**
+          </td>
+
+          <td>
+            Represents the date and time of the most recent update to the shipment's information, helping users track changes and ensure accuracy.
+          </td>
         </tr>
       </tbody>
     </Table>
