@@ -133,4 +133,49 @@ next:
   </Card>
 </Cards>
 
+<table>
+    <tr>
+      <th>API object</th>
+      <th>Mandatory fields</th>
+    </tr>
+
+    <tr>
+      <td rowspan="5"><strong>Shipper > Address</strong></td>
+      <td>ContactName</td>
+    </tr>
+
+    <tr>
+      <td>Line 1</td>
+    </tr>
+
+    <tr>
+      <td>Town</td>
+    </tr>
+
+    <tr>
+      <td>Postcode</td>
+    </tr>
+
+    <tr>
+      <td>CountryCode</td>
+    </tr>
+
+    <tr>
+      <td rowspan="4"><strong>Destination > Address</strong></td>
+      <td>ContactName</td>
+    </tr>
+
+    <tr>
+      <td>Line 1</td>
+    </tr>
+
+    <tr>
+      <td>Town</td>
+    </tr>
+
+    <tr>
+      <td>CountryCode</td>
+    </tr>
+  </table>
+
 <br />
