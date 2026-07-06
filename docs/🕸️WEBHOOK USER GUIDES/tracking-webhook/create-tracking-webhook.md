@@ -23,7 +23,7 @@ To set up the tracking webhook connection in SAPIENT, perform the steps as expla
 
 <ToggleList>
   <ToggleListItem title={<strong>1. Access tracking webhook </strong>} icon="fa-rocket">
-    <br />
+    
 
     On the SAPIENT **Home** page, navigate to **API** > **Webhooks** in the left panel. The **Tracking Webhook** tab opens by default.
 
@@ -32,16 +32,16 @@ To set up the tracking webhook connection in SAPIENT, perform the steps as expla
     ***
   </ToggleListItem>
 
-    <br />
+    
 
   <ToggleListItem title={<strong>2. Configure webhook details</strong>} icon="fa-rocket">
-    <br />
+    
 
     In the **WEBHOOK DETAILS** block, enter the required information based on your authentication type:
 
     <Image align="center" src="https://files.readme.io/173014ddedd58a4c42eed5d291d03fa7455d10b511675e72f8e7434b6333186d-image.png" />
 
-    <br />
+    
 
     <AsteridkForMandatoryElements />
 
@@ -73,28 +73,28 @@ To set up the tracking webhook connection in SAPIENT, perform the steps as expla
     ***
   </ToggleListItem>
 
-    <br />
+    
 
   <ToggleListItem title={<strong>3. Test your configuration </strong>} icon="fa-rocket">
-    <br />
+    
 
     After entering all the necessary details, select ![](https://files.readme.io/dcabcea774e82fdcf39f03bfcdcd2d95520a6aead65cb9bd47e7ccc32a8c085c-Test_button.png) to check if the setup is configured correctly. Once the test has been completed, and the setup configuration is correct, the webhook is activated and the following success response is displayed:
 
     <Image align="center" border={true} src="https://files.readme.io/0994fa6-image.png" width="660px" alt="Success response" />
 
-    <br />
+    
 
     Following the success response, a test tracking payload is sent to the webhook as follows:
 
     <Image align="center" border={true} src="https://files.readme.io/6b06c9d-image.png" alt="tracking payload response example" />
 
-    <br />
+    
 
     If for some reason, the connectivity test fails, the following message is displayed:
 
     <Image align="center" border={true} src="https://files.readme.io/65a4983-image.png" width="660px" alt="Failed connection response" />
 
-    <br />
+    
 
     > 🚧 *Important*
     >
@@ -103,7 +103,7 @@ To set up the tracking webhook connection in SAPIENT, perform the steps as expla
     ***
   </ToggleListItem>
 
-    <br />
+    
 
   <ToggleListItem title={<strong>4. Select tracking event type </strong>} icon="fa-rocket">
     <br />
@@ -120,7 +120,7 @@ To set up the tracking webhook connection in SAPIENT, perform the steps as expla
       </Card>
     </Cards>
 
-    <br />
+    
 
     <Callout icon="💡" theme="default">
       ### *Tip*
@@ -131,16 +131,16 @@ To set up the tracking webhook connection in SAPIENT, perform the steps as expla
     ***
   </ToggleListItem>
 
-    <br />
+    
 
   <ToggleListItem title={<strong>5. Activate and save </strong>} icon="fa-rocket">
-    <br />
+    
 
     Turn on the **Active** toggle to enable the webhook
 
     <Image align="center" border={true} src="https://files.readme.io/a76feb6-image.png" width="660px" alt="Activating tracking webhook" />
 
-    <br />
+    
 
     Once activated, click ![Save changes](https://files.readme.io/2f9b4304c20f01f6272a39bbdeef71a6abc9242aec6337ed7c3926401517f2f1-save_changes_button_2.png) to complete setup.
 
