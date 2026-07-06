@@ -19,7 +19,7 @@ In SAPIENT, you can edit the <Glossary>shipping location</Glossary> to enhance c
 
 <Tabs>
   <Tab title="Edit via SAPIENT UI">
-    <br />
+    
 
     To edit a shipping location in SAPIENT, perform the steps as explained in the following procedure.
 
@@ -73,7 +73,7 @@ In SAPIENT, you can edit the <Glossary>shipping location</Glossary> to enhance c
   </Tab>
 
   <Tab title="Edit via API">
-    <br />
+   
 
     To update a shipping location via our API, refer to the following endpoint:
 
@@ -98,3 +98,5 @@ In SAPIENT, you can edit the <Glossary>shipping location</Glossary> to enhance c
     Remove shipping locations that are no longer needed.
   </Card>
 </Cards>
+
+<br />
