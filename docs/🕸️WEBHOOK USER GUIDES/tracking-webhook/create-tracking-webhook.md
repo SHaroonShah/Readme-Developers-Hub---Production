@@ -32,7 +32,7 @@ To set up the tracking webhook connection in SAPIENT, perform the steps as expla
     ***
   </ToggleListItem>
 
-  <br />
+    <br />
 
   <ToggleListItem title={<strong>2. Configure webhook details</strong>} icon="fa-rocket">
     <br />
@@ -73,7 +73,7 @@ To set up the tracking webhook connection in SAPIENT, perform the steps as expla
     ***
   </ToggleListItem>
 
-  <br />
+    <br />
 
   <ToggleListItem title={<strong>3. Test your configuration </strong>} icon="fa-rocket">
     <br />
@@ -103,7 +103,7 @@ To set up the tracking webhook connection in SAPIENT, perform the steps as expla
     ***
   </ToggleListItem>
 
-  <br />
+    <br />
 
   <ToggleListItem title={<strong>4. Select tracking event type </strong>} icon="fa-rocket">
     <br />
@@ -131,7 +131,7 @@ To set up the tracking webhook connection in SAPIENT, perform the steps as expla
     ***
   </ToggleListItem>
 
-  <br />
+    <br />
 
   <ToggleListItem title={<strong>5. Activate and save </strong>} icon="fa-rocket">
     <br />
@@ -174,6 +174,6 @@ To set up the tracking webhook connection in SAPIENT, perform the steps as expla
   </Card>
 </Cards>
 
-
+<br />
 
 <br />
