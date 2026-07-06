@@ -41,7 +41,7 @@ If your password fails these checks, you will receive one of the following error
 
     Password managers are built into most browsers. Alternatively, there are free and paid third-party solutions available.
 
-    <Accordion title="Password manager guidelines" icon="cog">
+    <Accordion title="Password manager guidelines">
       <br />
 
       When generating a password from a password manager, follow these guidelines:
