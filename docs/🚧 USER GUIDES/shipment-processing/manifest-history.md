@@ -179,8 +179,6 @@ To search and view manifested shipments in SAPIENT, perform the steps as explain
       </tbody>
     </Table>
 
-    <br />
-
     After viewing the manifest history, you can now return to the Home page and continue working with your ongoing shipments as needed.
   </ToggleListItem>
 </ToggleList>
