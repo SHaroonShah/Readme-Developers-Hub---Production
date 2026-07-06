@@ -247,12 +247,6 @@ next:
   * **ZPL203DPI**. A Base 64 encoded text for Zebra printer at 203 DPI – ZPL (Zebra Programming Language) the printing control language used by Zebra printers.
 </Accordion>
 
-| Eleemnt  | Description                       |
-| -------- | --------------------------------- |
-| One      | yes it is the right thing to do   |
-| Two      | You can do it but not recommended |
-| Three    | No, you cannot do it              |
-
 <br />
 
 <br />
