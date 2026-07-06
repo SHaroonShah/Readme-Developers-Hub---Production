@@ -20,7 +20,7 @@ In SAPIENT, you can delete a product to cleanup the database, preventing confusi
 
 <Tabs>
   <Tab title="Delete via SAPIENT UI">
-    <br />
+    
 
     To delete a product in SAPIENT, perform the steps as explained in the following procedure.
 
@@ -78,7 +78,7 @@ In SAPIENT, you can delete a product to cleanup the database, preventing confusi
   </Tab>
 
   <Tab title="Delete via API">
-    <br />
+    
 
     To delete a product via our API, refer to the following endpoint:
 
@@ -99,3 +99,5 @@ In SAPIENT, you can delete a product to cleanup the database, preventing confusi
     Create new product entries in your system with all necessary details and shipping requirements.
   </Card>
 </Cards>
+
+<br />
