@@ -17,41 +17,43 @@ next:
 ---
 Customs settings typically encompass documentation, declarations, tariff classifications, and other relevant information necessary for customs clearance.
 
-<Image align="center" border={false} width="500px" src="https://files.readme.io/e9f493e9f3e0e9c6504bbc0bba8673c647abe9ed3bc06427a1346e1067b41bcb-Customs_settings.png" />
+
+<Image src="https://files.readme.io/e9f493e9f3e0e9c6504bbc0bba8673c647abe9ed3bc06427a1346e1067b41bcb-Customs_settings.png" align="center" width="500px" />
+
 
 ## Key benefits of customs setting
 
 The main benefits of this setting are explained as follows:
 
 <Cards columns="2">
-  <Card title="Regulatory Compliance" icon="shield-alt">
+  <Card title="Regulatory Compliance" icon="fa-solid fa-shield-alt">
     Ensure all <Glossary>shipments</Glossary> meet legal requirements imposed by customs authorities across different countries.
   </Card>
 
-  <Card title="Accurate Documentation" icon="file-invoice">
+  <Card title="Accurate Documentation" icon="fa-solid fa-file-invoice">
     Generate necessary documents like <Glossary>commercial invoice</Glossary>s, export declarations, and packing lists.
   </Card>
 
-  <Card title="Duty & Tax Calculation" icon="calculator">
+  <Card title="Duty & Tax Calculation" icon="fa-solid fa-calculator">
     Calculate applicable duties and taxes based on product value and classification for financial planning.
   </Card>
 
-  <Card title="Tariff Classification" icon="tags">
+  <Card title="Tariff Classification" icon="fa-solid fa-tags">
     Assign correct <Glossary>HS Code</Glossary>s and tariff classifications to determine duties and ensure compliance.
   </Card>
 
-  <Card title="Restricted Items Management" icon="exclamation-triangle">
+  <Card title="Restricted Items Management" icon="fa-solid fa-exclamation-triangle">
     Handle restricted or prohibited items by flagging products and providing legal guidance.
   </Card>
 
-  <Card title="Enhanced Tracking" icon="search-location">
+  <Card title="Enhanced Tracking" icon="fa-solid fa-location-dot">
     Provide better visibility into shipment status during customs processing for improved transparency.
   </Card>
 </Cards>
 
 ***
 
-### Configuration guides
+## Configuration guides
 
 In this section, learn how to configure your customs settings with these essential operations:
 
