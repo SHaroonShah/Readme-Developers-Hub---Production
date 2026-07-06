@@ -29,6 +29,8 @@ To start receiving tracking updates, customers must configure their webhook with
 
 ***
 
+## Getting started
+
 In this section, learn how to manage your tracking webhook by accessing the following essential functions:
 
 <Cards columns="2">
