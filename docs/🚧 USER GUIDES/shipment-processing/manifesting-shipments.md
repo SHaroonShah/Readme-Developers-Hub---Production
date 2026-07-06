@@ -168,6 +168,8 @@ You can also manifest shipments by:
 
     ***
   </Tab>
+To view a step-by-step process on how to create and manifest shipments via API, refer to the following API recipe:
+<Recipe slug="release-and-manifest-held-shipments" title="Manifest picked shipments" />
 </Tabs>
 
 ### API recipe guide
