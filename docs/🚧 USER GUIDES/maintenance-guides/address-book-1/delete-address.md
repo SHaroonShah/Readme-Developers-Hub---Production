@@ -19,7 +19,7 @@ In SAPIENT, you can delete the address to keep the address book clean and manage
 
 <Tabs>
   <Tab title="Delete via SAPIENT UI">
-    <br />
+    
 
     To delete an address in SAPIENT, perform the steps as explained in the following procedure.
 
@@ -75,7 +75,7 @@ In SAPIENT, you can delete the address to keep the address book clean and manage
   </Tab>
 
   <Tab title="Delete via API">
-    <br />
+    
 
     To delete an address via our API, refer to the following endpoint:
 
@@ -96,3 +96,5 @@ In SAPIENT, you can delete the address to keep the address book clean and manage
     Create new addresses for customers, vendors, suppliers, or warehouse locations to expand your address repository.
   </Card>
 </Cards>
+
+<br />
