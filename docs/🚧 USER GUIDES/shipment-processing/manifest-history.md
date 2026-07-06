@@ -32,10 +32,10 @@ To search and view manifested shipments in SAPIENT, perform the steps as explain
     ***
   </ToggleListItem>
 
-  <br />
+     <br />
 
   <ToggleListItem title={<strong>2. Apply filters</strong>} icon="fa-rocket">
-    <br />
+     <br />
 
     In the **Manifest History** page that opens, in the **FILTERS** block, specify your filters based on which you want to search your shipments, and then select ![](https://files.readme.io/34fc7db79563540c7ec5a0d5ec80b50898cfa4ddd9fba622f178d517803116e6-Show_shipments_button.png).
 
@@ -43,7 +43,7 @@ To search and view manifested shipments in SAPIENT, perform the steps as explain
     >
     > *The maximum date range for manifest search is 30 days*.
 
-    <br />
+     <br />
 
     <Image align="center" border={true} src="https://files.readme.io/deeb8cf7c4927c2b815c757d722955250f58d02c85345f159c594a7fb238c59b-Manifest_history_filter.png" alt="Specifying filters" />
 
@@ -53,13 +53,13 @@ To search and view manifested shipments in SAPIENT, perform the steps as explain
   <br />
 
   <ToggleListItem title={<strong>3. View results </strong>} icon="fa-rocket">
-    <br />
+     <br />
 
     Once filtered, the **Manifest History** table displays the manifested shipments matching your search criteria. The columns displayed in the table are explained in the following table.
 
     <Image align="center" border={true} src="https://files.readme.io/7b056fb156b7f9215b4ed0ded2bc9a47f55ba8a45e473c7a72f7609259e26e52-Manifest_history_table.png" alt="Viewing shipments" />
 
-    <br />
+    
 
     <Table align={["center","left"]}>
       <thead>
@@ -184,3 +184,5 @@ To search and view manifested shipments in SAPIENT, perform the steps as explain
     After viewing the manifest history, you can now return to the Home page and continue working with your ongoing shipments as needed.
   </ToggleListItem>
 </ToggleList>
+
+<br />
