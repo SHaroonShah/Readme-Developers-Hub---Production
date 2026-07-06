@@ -19,7 +19,7 @@ In SAPIENT, you can edit the addresses that you have added previously to maintai
 
 <Tabs>
   <Tab title="Edit via SAPIENT UI">
-    <br />
+    
 
     To edit an address in SAPIENT, perform the steps as explained in the following procedure.
 
@@ -73,7 +73,7 @@ In SAPIENT, you can edit the addresses that you have added previously to maintai
   </Tab>
 
   <Tab title="Edit via API">
-    <br />
+    
 
     To edit an address via our API, refer to the following endpoint:
 
@@ -98,3 +98,5 @@ In SAPIENT, you can edit the addresses that you have added previously to maintai
     Remove outdated or unnecessary addresses to maintain a clean and organised address book.
   </Card>
 </Cards>
+
+<br />
