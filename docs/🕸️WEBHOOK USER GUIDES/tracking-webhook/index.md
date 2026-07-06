@@ -7,6 +7,8 @@ icon: fad fa-calendar-clock
 metadata:
   robots: index
 ---
+## <br />Overview
+
 The webhook operates using a POST API call, transmitting tracking events in a structured JSON format. This payload includes key shipment details such as tracking ID, tracking number, status tags, timestamps, event locations, and carrier‑specific metadata. The system ensures customers receive timely, accurate tracking updates throughout the parcel’s journey, offering full transparency from dispatch to delivery.
 
 Wirth this solution, you can track:
