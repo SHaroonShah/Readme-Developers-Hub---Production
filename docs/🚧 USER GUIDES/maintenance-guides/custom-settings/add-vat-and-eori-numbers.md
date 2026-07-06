@@ -24,7 +24,7 @@ next:
     **Value Added Tax (VAT)** numbers are essential for businesses engaged in trading goods and services across different countries, particularly in the European Union. It allows businesses to charge or reclaim VAT on sales and purchases.
   </Card>
 
-  <Card title="EORI Number" icon="fa-solid shipping-fast">
+  <Card title="EORI Number" icon="fa-solid fa-shipping-fast">
     **Economic Operators Registration and Identification (EORI)** number is necessary for businesses involved in customs activities within the EU. It is used to identify traders in customs systems.
   </Card>
 </Cards>
