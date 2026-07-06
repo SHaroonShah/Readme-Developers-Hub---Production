@@ -68,7 +68,9 @@ To log in to the SAPIENT system, follow the instructions as explained in the fol
     After selecting the **Sign in** option, if MFA has been enabled on your customer account, then the **Account Verification** dialog is displayed. Enter the necessary information as explained in the following table.
 
     <Image align="center" src="https://files.readme.io/aedd19ae14dc2acd5800c767d63962b0f8275f09b30b58156c2bf9165ac6744f-image.png" width="400px" />
-<br />
+
+    <br />
+
     | Element                          | Description                                                                                                                                                                      |
     | :------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
     | **Code**                         | Enter the 6-digit code sent your email address associated with your SAPIENT account.                                                                                             |
