@@ -15,15 +15,17 @@ next:
 ---
 In SAPIENT, you can create a <Glossary>shipping account</Glossary>, assign your <Glossary>carrier</Glossary> credentials to it, and then link them to the relevant <Glossary>shipping location</Glossary>(s).
 
-> 📘 _Note_
->
-> _Users with the**Admin** role permissions can create unlimited shipping accounts for their customers._
+<Callout icon="📘" theme="info">
+  ### _Note_
+
+  _Users with the_**_Admin_**_&#x20;role permissions can create unlimited shipping accounts for their customers._
+</Callout>
 
 ## How to add shipping account
 
 <Tabs>
   <Tab title="Add via SAPIENT UI">
-    <br />
+    
 
     To add a shipping account in SAPIENT, perform the steps as explained in the following procedure.
 
@@ -130,7 +132,7 @@ In SAPIENT, you can create a <Glossary>shipping account</Glossary>, assign your 
   </Tab>
 
   <Tab title="Add via API">
-    <br />
+    
 
     To add a shipping account via our API, refer to the following endpoint:
 
@@ -146,7 +148,7 @@ In SAPIENT, you can create a <Glossary>shipping account</Glossary>, assign your 
 
 ## Next steps
 
-<Accordion title="What's Next?" icon="arrow-right">
+<Accordion title="What's Next?">
   Once you've successfully added your shipping account, you can:
 
   * [Add a shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location) to your new shipping account
@@ -155,4 +157,3 @@ In SAPIENT, you can create a <Glossary>shipping account</Glossary>, assign your 
 </Accordion>
 
 <br />
-
