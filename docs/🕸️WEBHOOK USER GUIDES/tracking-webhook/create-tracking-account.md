@@ -62,7 +62,7 @@ To add a tracking account in SAPIENT, follow the steps as explained in the follo
 
     <Image align="center" border={true} src="https://files.readme.io/d5239464ffac95ad4b5081802a5b002a3e966e94ab27e760cf7ba3d2eeecaf56-Details_block_UPS.png" width="500px" alt="Adding tracking account" />
 
-    <br />
+    
 
     <AsteridkForMandatoryElements />
 
@@ -104,7 +104,7 @@ To add a tracking account in SAPIENT, follow the steps as explained in the follo
       </tbody>
     </Table>
 
-    <br />
+    
 
     Once entered, an additional **SFTP DETAILS** block may appear for specific carriers, for example YODEL and EVRi. This is only required if the carrier supports receiving the tracking details via SFTP (Secure File Transfer Protocol). For more information on how to fill this block, refer to the [Carrier specific guides](https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/carrrier-specific-user-guides) section.
 
