@@ -61,7 +61,7 @@ To search and view manifested shipments in SAPIENT, perform the steps as explain
 
     <br />
 
-    <Table align={["center","left"]}>
+    <Table align={["left","left"]}>
       <thead>
         <tr>
           <th>
