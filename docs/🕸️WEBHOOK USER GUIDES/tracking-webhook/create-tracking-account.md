@@ -17,12 +17,14 @@ next:
 ---
 To allow the system to automatically track <Glossary>shipments</Glossary> created on Intersoft SAPIENT and send tracking updates to the <Glossary>tracking webhook</Glossary> , the tracking accounts must be set up.
 
-> 🚧 _Important_
->
-> _Before setting up the tracking account, make sure that you have completed the following prerequisites:_
->
-> 1. _Successfully [enabled the label and tracking integration](https://docs.intersoftsapient.net/docs/integration-activation) with your chosen <Glossary>carrier</Glossary> via the **Integration Activation** screen._
-> 2. _Set up your tracking webhook. For more information on how to set up a tracking webhook, refer to the [Create tracking webhook](https://docs.intersoftsapient.net/docs/create-tracking-webhook) section. This is a one-time activity, you do not have to do this every time you add a tracking account._
+<Callout icon="🚧" theme="warn">
+  ### _Important_
+
+  _Before setting up the tracking account, make sure that you have completed the following prerequisites:_
+
+  1. _Successfully [enabled the label and tracking integration](https://docs.intersoftsapient.net/docs/integration-activation) with your chosen <Glossary>carrier</Glossary> via the&#x20;_**_Integration Activation_**_&#x20;screen._
+  2. _Set up your tracking webhook. For more information on how to set up a tracking webhook, refer to the [Create tracking webhook](https://docs.intersoftsapient.net/docs/create-tracking-webhook) section. This is a one-time activity, you do not have to do this every time you add a tracking account._
+</Callout>
 
 ## How to add tracking account
 
@@ -42,7 +44,7 @@ To add a tracking account in SAPIENT, follow the steps as explained in the follo
   <br />
 
   <ToggleListItem title={<strong>2. Select option to add new tracking account</strong>} icon="fa-rocket">
-    <br />
+  <br />
 
     In the **Tracking Accounts** page that opens, select ![alt text](https://files.readme.io/139bbda69af885f0824e5d5070ea342a6fb0a8d348c754389edb7a4dcfff7da2-Add_tracking_account_button.png).
 
@@ -54,7 +56,7 @@ To add a tracking account in SAPIENT, follow the steps as explained in the follo
   <br />
 
   <ToggleListItem title={<strong>3. Enter account details </strong>} icon="fa-rocket">
-    <br />
+  <br />
 
     On the **Add Tracking account** page that appears, in the **DETAILS** block, enter the necessary information as explained in the following table.
 
@@ -142,3 +144,5 @@ To add a tracking account in SAPIENT, follow the steps as explained in the follo
     Manage and resolve webhook suspension scenarios.
   </Card>
 </Cards>
+
+<br />
