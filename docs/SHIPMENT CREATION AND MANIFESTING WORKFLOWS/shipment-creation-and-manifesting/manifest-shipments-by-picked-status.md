@@ -18,17 +18,21 @@ next:
 ---
 If you want to ensure that only <Glossary>shipments</Glossary> that are ready to be picked up by the <Glossary>carrier</Glossary> are to be manifested, you can update the shipments’ status to **Picked** throughout the day when you compete the packing and labelling processes and <Glossary>manifest</Glossary> only picked shipments by calling the manifest service using the status “**Picked**”.
 
-> 🚧 _Important_
->
-> _Before updating the shipment status to**Picked**, make sure to print the <Glossary>labels</Glossary> . If you use the default action (that is [Process](https://docs.intersoftsapient.net/docs/create-shipment-with-action-process)) in your [Create Shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm) requests, the labels are returned in the response._
+<Callout icon="🚧" theme="warn">
+  ### _Important_
+
+  _Before updating the shipment status to_**_Picked_**_, make sure to print the <Glossary>labels</Glossary> . If you use the default action (that is [Process](https://docs.intersoftsapient.net/docs/create-shipment-with-action-process)) in your [Create Shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm) requests, the labels are returned in the response._
+</Callout>
 
 If you use the action [Create](https://docs.intersoftsapient.net/docs/create-shipments-with-action-create) or [Allocate](https://docs.intersoftsapient.net/docs/create-shipments-with-action-allocate), then you need to send a [Print Label](https://docs.intersoftsapient.net/reference/get_v4-shipments-printlabel-rm-shipmentid) request before you can update the shipment status to “**Picked**” and manifest by “**Picked**” status.
 
 ## Workflow options
 
-> ❗️ _Caution_
->
-> _If there are shipments that cannot be manifested, the system will validate only the first 50 shipments and return any associated errors. However, the entire request will fail, and none of the shipments will be manifested._
+<Callout icon="❗️" theme="error">
+  ### _Caution_
+
+  _If there are shipments that cannot be manifested, the system will validate only the first 50 shipments and return any associated errors. However, the entire request will fail, and none of the shipments will be manifested._
+</Callout>
 
 <Tabs>
   <Tab title="Process action (default)">
@@ -50,18 +54,20 @@ If you use the action [Create](https://docs.intersoftsapient.net/docs/create-shi
 
 ### Workflow process
 
-<Image align="center" alt="Workflow of manifesting shipments with the Picked status" caption="Workflow of manifesting shipments by Picked status" src="https://files.readme.io/ed310971eabce3d2cd34b1a1a63a2d1683f26ee432f6cf1601d0dae6851b1a2e-Manifest_by_picked_flow.png" />
+
+<Image src="https://files.readme.io/ed310971eabce3d2cd34b1a1a63a2d1683f26ee432f6cf1601d0dae6851b1a2e-Manifest_by_picked_flow.png" alt="Workflow of manifesting shipments with the Picked status" align="center" caption="Workflow of manifesting shipments by Picked status" />
+
 
 ***
 
 ## Key process steps
 
 <Cards columns={2}>
-  <Card title="Individual Updates" icon="box">
+  <Card title="Individual Updates" icon="fa-solid fa-box">
     Update shipment status one by one as items are packed and ready for pickup.
   </Card>
 
-  <Card title="Batch Updates" icon="boxes">
+  <Card title="Batch Updates" icon="fa-solid fa-boxes">
     Update multiple shipment statuses in batches, depending on your warehouse process workflow.
   </Card>
 </Cards>
