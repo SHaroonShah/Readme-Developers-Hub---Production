@@ -15,11 +15,11 @@ next:
   description: ''
 ---
 <Cards columns={2}>
-  <Card title="Pre-sorted packages" icon="box">
+  <Card title="Pre-sorted packages" icon="fa-solid fa-box">
     Perfect for packages that are already sorted and only need labels printed after shipment creation.
   </Card>
 
-  <Card title="On-demand label pinting" icon="print">
+  <Card title="On-demand label pinting" icon="fa-solid fa-print">
     Enables printing labels only when required in your warehouse process, optimizing workflow efficiency.
   </Card>
 </Cards>
@@ -34,7 +34,9 @@ If no value is set for this action in the **Create Shipment** request, then the 
 
 ### Workflow process
 
-<Image align="center" alt="Workflow for creating shipments with Allocate action" border={false} caption="Workflow for creating shipments with Allocate action" src="https://files.readme.io/ba62c3736040ac758d924aa4f0ec47c4dc6d3bcd390cd370b139454f8e2a4a47-Allocate_flow.png" />
+
+<Image src="https://files.readme.io/ba62c3736040ac758d924aa4f0ec47c4dc6d3bcd390cd370b139454f8e2a4a47-Allocate_flow.png" alt="Workflow for creating shipments with Allocate action" align="center" caption="Workflow for creating shipments with Allocate action" />
+
 
 ***
 
@@ -42,7 +44,7 @@ If no value is set for this action in the **Create Shipment** request, then the 
 
 To view a step-by-step guide on how to process the shipments that are created with the action "Allocate," refer to the following API recipe:
 
-<Recipe slug="recipe-titleprocess-shipment-created-with-the-action-allocate" title="Process shipment created with the action &#x22;Allocate&#x22;" />
+<Recipe slug="recipe-titleprocess-shipment-created-with-the-action-allocate" title="Process shipment created with the action "Allocate"" />
 
 ***
 
@@ -57,3 +59,5 @@ To view a step-by-step guide on how to process the shipments that are created wi
     Initiate a new shipment entry in the system and capture all necessary details to generate shipping documents. This action does not return labels immediately - requires Print Shipment API call.
   </Card>
 </Cards>
+
+<br />
