@@ -19,7 +19,7 @@ In SAPIENT, you can add as many addresses as you want to enhance the system's ef
 
 <Tabs>
   <Tab title="Add via SAPIENT UI">
-    <br />
+    
 
     To add an address to the address book in SAPIENT, perform the steps as explained in the following procedure.
 
@@ -108,7 +108,7 @@ In SAPIENT, you can add as many addresses as you want to enhance the system's ef
   </Tab>
 
   <Tab title="Add via API">
-    <br />
+    
 
     To add an address to the address book via our API, refer to the following endpoint:
 
@@ -133,3 +133,5 @@ In SAPIENT, you can add as many addresses as you want to enhance the system's ef
     Remove outdated or unnecessary addresses to maintain a clean and organised address book.
   </Card>
 </Cards>
+
+<br />
