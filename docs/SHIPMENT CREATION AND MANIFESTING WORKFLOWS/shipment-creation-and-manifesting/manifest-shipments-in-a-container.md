@@ -20,7 +20,7 @@ next:
 If your business process requires you to segregate the way you <Glossary>manifest</Glossary> your <Glossary>shipments</Glossary> , for example, you might want to manifest the shipments to the USA or any other country on a particular day of the week, or you need to pack and send express delivery orders first, then you can achieve this by using the **manifest by container** functionality.
 
 <Cards columns={2}>
-  <Card title="Destination-based segregation" icon="fa-solid globe-americas">
+  <Card title="Destination-based segregation" icon="fa-solid fa-globe">
     Manifest shipments to specific countries or regions on particular days of the week for better logistics planning.
   </Card>
 
