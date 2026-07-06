@@ -48,7 +48,9 @@ To use the Process action in your [Create Shipment](https://docs.intersoftsapien
 
 ### Workflow process
 
-<Image align="center" alt="Workflow for creating shipments with the Process action" border={false} caption="Workflow for creating shipments with Process action" src="https://files.readme.io/f762106c6e0adca64fd03cbc168faecdddceccf9adcb67b8bb963988cc3090bc-Process_flow.png" />
+
+<Image src="https://files.readme.io/f762106c6e0adca64fd03cbc168faecdddceccf9adcb67b8bb963988cc3090bc-Process_flow.png" alt="Workflow for creating shipments with the Process action" align="center" caption="Workflow for creating shipments with Process action" />
+
 
 ***
 
@@ -64,11 +66,13 @@ To view a step-by-step guide on how to process the shipments that are created wi
 
 <Cards columns="3">
 
-  <Card title="Create" href="https://docs.intersoftsapient.net/docs/create-shipments-with-action-create" icon="plus-circle">
+  <Card title="Create" href="https://docs.intersoftsapient.net/docs/create-shipments-with-action-create" icon="fa-fa-solid fa-plus-circle">
     Initiate a new shipment entry in the system and captures all necessary details to generate shipping documents. This action does not return labels immediately - requires Print Shipment API call.
   </Card>
 
-  <Card title="Allocate" href="https://docs.intersoftsapient.net/docs/create-shipments-with-action-allocate" icon="boxes">
+  <Card title="Allocate" href="https://docs.intersoftsapient.net/docs/create-shipments-with-action-allocate" icon="fa-solid fa-boxes">
     Assign resources (like inventory items) to the shipment for fulfilment. This action returns carrier tracking number in the Create Shipment response but requires Print Shipment API for labels.
   </Card>
 </Cards>
+
+<br />
