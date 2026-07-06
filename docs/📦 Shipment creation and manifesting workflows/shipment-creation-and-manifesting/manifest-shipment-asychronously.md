@@ -16,24 +16,26 @@ In the context of the <Glossary>shipment</Glossary> manifesting process, this me
 
 This section provides detailed instructions and information regarding the asynchronous shipment manifesting process for customers using the shipment manifest API or by [setting up the manifest webhook](https://docs.intersoftsapient.net/docs/manifest-webhook#/) in SAPIENT.
 
-> 🚧 _Important_
->
-> _We recommend using the **Manifest Shipments Async** API endpoint to manifest your shipments. However, if you are manifesting more than 20k shipments, then you must only use this endpoint to ensures that requests are processed through the new asynchronous queue, enabling better system performance and improved tracking._
+<Callout icon="🚧" theme="warn">
+  ### _Important_
+
+  _We recommend using the&#x20;_**_Manifest Shipments Async_**_&#x20;API endpoint to manifest your shipments. However, if you are manifesting more than 20k shipments, then you must only use this endpoint to ensures that requests are processed through the new asynchronous queue, enabling better system performance and improved tracking._
+</Callout>
 
 ***
 
 ## Key benefits
 
 <Cards columns="3">
-  <Card title="Enhanced Performance" icon="tachometer-alt">
+  <Card title="Enhanced Performance" icon="fa-solid fa-tachometer-alt">
     By processing manifest requests in the background, the system avoids performance bottlenecks, especially when handling large volumes of shipments simultaneously.
   </Card>
 
-  <Card title="Improved User Experience" icon="user-check">
+  <Card title="Improved User Experience" icon="fa-solid fa-user-check">
     Submit requests without waiting for long processing times and continue performing other tasks while shipments are being manifested.
   </Card>
 
-  <Card title="Reliable Queueing System" icon="list-ol">
+  <Card title="Reliable Queueing System" icon="fa-solid fa-list-ol">
     Requests are managed through a queueing system to ensure they are processed sequentially without overwhelming the system.
   </Card>
 </Cards>
@@ -44,9 +46,11 @@ This section provides detailed instructions and information regarding the asynch
 
 To manifest the shipments in an asynchronous manner via the API, you can use the following endpoints introduced in our core **Manifests** API endpoint:
 
-> ❗️ _Caution_
->
-> _If there are shipments that cannot be manifested, the system will validate only the first 50 shipments and return any associated errors. However, the entire request will fail, and none of the shipments will be manifested._
+<Callout icon="❗️" theme="error">
+  ### _Caution_
+
+  _If there are shipments that cannot be manifested, the system will validate only the first 50 shipments and return any associated errors. However, the entire request will fail, and none of the shipments will be manifested._
+</Callout>
 
 <Tabs>
   <Tab title="API Integration">
@@ -54,7 +58,7 @@ To manifest the shipments in an asynchronous manner via the API, you can use the
 
     Use the following endpoints introduced in our core **Manifests** API to manifest shipments asynchronously:
 
-    <Accordion title="Manifest Shipments Async" icon="paper-plane">
+    <Accordion title="Manifest Shipments Async">
       Submit manifest requests to be processed asynchronously. This endpoint accepts the same parameters as the existing [Manifests](https://docs.intersoftsapient.net/reference/post_v4-manifests-carriercode#/) endpoint, excluding the async parameter.
 
       A successful async manifest response returns the following parameters:
@@ -86,7 +90,7 @@ To manifest the shipments in an asynchronous manner via the API, you can use the
 
     <br />
 
-    <Accordion title="Get Manifest Request Status" icon="search">
+    <Accordion title="Get Manifest Request Status">
       Check the status of a submitted manifest request using the following parameters:
 
       * **manifestDetail**: An optional parameter that controls the response detail level:
