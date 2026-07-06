@@ -18,15 +18,17 @@ The main purpose of adding users is to enhance collaboration among various depar
 
 Moreover, different roles and permissions improve security by restricting access to sensitive information, while also allowing for a customised user experience.
 
-> 📘 _Note_
->
-> _You cannot add or manage users via API._
+<Callout icon="📘" theme="info">
+  ### _Note_
+
+  _You cannot add or manage users via API._
+</Callout>
 
 ## How to add user
 
 <Tabs>
   <Tab title="Add User">
-    <br />
+    
 
     > 🚧 *Important*
     >
@@ -211,3 +213,5 @@ Moreover, different roles and permissions improve security by restricting access
     Remove users from your organization when they are no longer needed.
   </Card>
 </Cards>
+
+<br />
