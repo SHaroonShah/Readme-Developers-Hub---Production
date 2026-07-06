@@ -89,7 +89,7 @@ After you have [cancelled](https://docs.intersoftsapient.net/docs/view-cancelled
 
 ## Key considerations
 
-<Accordion title="Special Cases and Notes" icon="exclamation-triangle">
+<Accordion title="Special Cases and Notes">
   ### Handling previously held shipments
 
   If the shipment was canceled while it was held and was recalled, then the recalled shipment goes back to the held status. If you wish to manifest it, then you must release it first.
