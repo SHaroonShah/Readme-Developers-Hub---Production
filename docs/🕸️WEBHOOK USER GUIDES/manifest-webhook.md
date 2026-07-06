@@ -211,6 +211,7 @@ To set up the manifest webhook connection in SAPIENT, follow the instructions as
 
     <Image align="center" border={true} src="https://files.readme.io/a76feb6-image.png" width="660px" alt="Activating tracking webhook" />
     <br />
+
     > 🚧 *Important*
     >
     > *The webhook only works if it is in the**Active** state. Any changes made to the webhook configuration deactivates it. Therefore, make sure the toggle is set to **Active** whenever the configuration is updated.*
