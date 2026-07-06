@@ -120,7 +120,7 @@ The process of adding a <Glossary>shipping location</Glossary> helps in streamli
 
     To add a new shipping location via our API, refer to the following endpoint:
 
-    <Cards columns={"2"}>
+    <Cards columns={2}>
       <Card title="Add Location" href="https://docs.intersoftsapient.net/reference/post_v4-shippinglocations#/" icon="fa-solid fa-code">
         Complete API reference for adding shipping location
       </Card>
