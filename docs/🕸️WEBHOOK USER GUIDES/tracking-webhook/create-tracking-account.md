@@ -44,7 +44,7 @@ To add a tracking account in SAPIENT, follow the steps as explained in the follo
   <br />
 
   <ToggleListItem title={<strong>2. Select option to add new tracking account</strong>} icon="fa-rocket">
-  <br />
+  
 
     In the **Tracking Accounts** page that opens, select ![alt text](https://files.readme.io/139bbda69af885f0824e5d5070ea342a6fb0a8d348c754389edb7a4dcfff7da2-Add_tracking_account_button.png).
 
