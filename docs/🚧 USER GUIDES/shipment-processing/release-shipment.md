@@ -34,7 +34,7 @@ In SAPIENT, you can anytime release the [held](https://docs.intersoftsapient.net
 
 <Tabs>
   <Tab title="Release via SAPIENT UI">
-    <br />
+    
 
     To release a shipment in SAPIENT, perform the steps as explained in the following procedure.
 
@@ -107,3 +107,5 @@ In SAPIENT, you can anytime release the [held](https://docs.intersoftsapient.net
     <Recipe />
   </Tab>
 </Tabs>
+
+<br />
