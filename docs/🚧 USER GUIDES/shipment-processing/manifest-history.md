@@ -57,17 +57,13 @@ To search and view manifested shipments in SAPIENT, perform the steps as explain
 
     Once filtered, the **Manifest History** table displays the manifested shipments matching your search criteria. The columns displayed in the table are explained in the following table.
 
-    <Image align="center" border={true} src="https://files.readme.io/7b056fb156b7f9215b4ed0ded2bc9a47f55ba8a45e473c7a72f7609259e26e52-Manifest_history_table.png" alt="Viewing shipments" />
-
-    <br />
+    <Image align="center" border={true} src="https://files.readme.io/7b056fb156b7f9215b4ed0ded2bc9a47f55ba8a45e473c7a72f7609259e26e52-Manifest_history_table.png" alt="Viewing shipments" />  
 
    | Element  | Description                       |
 | -------- | --------------------------------- |
 | One      | yes it is the right thing to do   |
 | Two      | You can do it but not recommended |
-| Three    | No, you cannot do it              |
-
-    <br />
+| Three    | No, you cannot do it              |  
 
     After viewing the manifest history, you can now return to the Home page and continue working with your ongoing shipments as needed.
   </ToggleListItem>
