@@ -19,9 +19,11 @@ next:
 ---
 The SAPIENT API has been designed to accommodate different methods of processing <Glossary>shipments</Glossary> , to fit in with the varied ways many businesses operate their despatching function. This section provides a high-level overview on the different methods available to manage when to print labels and how to manifest accurately at the end of each working day.
 
-> 📘 _Note_
->
-> _For more detailed information, please contact the Intersoft Customer Operations team to arrange a consultation._
+<Callout icon="📘" theme="info">
+  ### _Note_
+
+  _For more detailed information, please contact the Intersoft Customer Operations team to arrange a consultation._
+</Callout>
 
 <Tabs>
   <Tab title="Shipment actions">
@@ -55,7 +57,7 @@ The SAPIENT API has been designed to accommodate different methods of processing
 
     The *shipment status* indicates the current state or condition of a shipment within the shipment process. Each status reflects a specific phase in the shipment lifecycle, providing visibility to both shippers and recipients.
 
-    <Accordion title="Picked Status" icon="hand-paper">
+    <Accordion title="Picked Status">
       Indicates that the items for the shipment have been successfully collected from the inventory and are ready for the next steps in the shipment process.
 
       **Use case**: Print labels in advance by creating shipments using the **Process** action. When picked and ready to despatch, update the status to **Picked**. You can then manifest all picked shipments, ensuring unpicked shipments are not manifested.
@@ -63,7 +65,7 @@ The SAPIENT API has been designed to accommodate different methods of processing
 
     <br />
 
-    <Accordion title="Release Status" icon="unlock">
+    <Accordion title="Release Status">
       Indicates that the shipment has been authorised for despatch or has been cleared for shipment to the next destination.
 
       **Use case**: Manage approval workflows where shipments need authorisation before despatch.
@@ -71,7 +73,7 @@ The SAPIENT API has been designed to accommodate different methods of processing
 
     <br />
 
-    <Accordion title="Cancel Status" icon="times-circle">
+    <Accordion title="Cancel Status">
       Indicates that the shipment has been canceled and will not be processed any further.
 
       **Use case**: Prevents cancelled shipments from being included in manifests and carrier handovers.
@@ -79,7 +81,7 @@ The SAPIENT API has been designed to accommodate different methods of processing
 
     <br />
 
-    <Accordion title="Hold Status" icon="pause-circle">
+    <Accordion title="Hold Status">
       Indicates that the shipment is temporarily paused and is not progressing to the next phases of fulfillment or transport until the necessary requirements are fulfilled.
 
       **Use case**: Temporarily delay shipments that are awaiting stock, payment, or other requirements. Only included in manifest production once released.
@@ -121,7 +123,7 @@ The SAPIENT API has been designed to accommodate different methods of processing
 
     The <Glossary>pre-allocated tracking number</Glossary> API provides you the ability to request a pre-allocated Royal Mail tracking number for a destination and service.
 
-    <Accordion title="When to Use Pre-allocation" icon="barcode">
+    <Accordion title="When to Use Pre-allocation">
       If your warehouse or eCommerce site operates in a way that you require a tracking number to be linked with your order, but you do not have the final details of your order yet, then consider using the [Pre Allocate Tracking Number](https://docs.intersoftsapient.net/reference/post_v4-shipments-preallocatetrackingnumber-rm) service.
 
       **Benefits**:
@@ -133,7 +135,7 @@ The SAPIENT API has been designed to accommodate different methods of processing
 
     <br />
 
-    <Accordion title="How It Works" icon="workflow">
+    <Accordion title="How It Works">
       1. **Request pre-allocated tracking number** - Only minimal information required
       2. **Receive tracking number** - Issued without creating shipments or labels
       3. **Create shipment when ready** - Use the pre-allocated tracking number in the **PreAllocatedBarcode** object of the **Create Shipment** request
@@ -149,3 +151,5 @@ The SAPIENT API has been designed to accommodate different methods of processing
     > *Currently, this service is only available for Royal Mail services that have a 1D Tracking Number generated—this includes shipments using untracked services with the Royal Mail Recorded Signed for enhancement.*
   </Tab>
 </Tabs>
+
+<br />
