@@ -14,13 +14,13 @@ next:
   description: ''
 ---
 <Cards columns={2}>
-  <Card title="Key benefits">
+  <Card title="Key benefits" icon="fa-solid fa-circle-check">
     * Shipments are ready to be manifested immediately
     * Reduces the number of API calls required
     * Labels and CN23 forms are returned in the response
   </Card>
 
-  <Card title="When to use">
+  <Card title="When to use" icon="fa-solid fa-warehouse">
     Perfect for warehouses that simultaneously pick, pack, and stick labels to shipments
   </Card>
 </Cards>
