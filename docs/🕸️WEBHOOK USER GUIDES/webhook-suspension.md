@@ -31,7 +31,7 @@ If the receiving endpoint (the system where the notifications are sent) is down 
   5. **Retry Loop**: When the webhook is suspended, it will be queued to retry again.
 </Accordion>
 
-<Accordion title="Retry Schedule" icon="clock">
+<Accordion title="Retry Schedule">
   The system follows this retry schedule before suspending a webhook:
 
   | Retry ID | Retry Count | Interval    |
@@ -46,7 +46,7 @@ If the receiving endpoint (the system where the notifications are sent) is down 
   |     8    |      7      | 72 hours    |
 </Accordion>
 
-<Accordion title="Reactivation Process" icon="power-off">
+<Accordion title="Reactivation Process">
   To reactivate a suspended webhook:
 
   1. Navigate to the webhook configuration in your GUI
