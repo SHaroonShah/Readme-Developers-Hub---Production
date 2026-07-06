@@ -16,7 +16,9 @@ next:
 ---
 This section allows external applications to communicate with the shipping software, providing access to the features like webhooks, centralised repository of countries, currencies and time zones, and detailed API documentation. It is a crucial component for businesses looking to automate their shipping processes and enhance interoperability with other systems.
 
-<Image align="center" border={false} src="https://files.readme.io/ea95f0e26805cab264809f551589c0132329000fbd8b38cb7b2a3da167c9b5bc-clideo_editor_54ac2c759571401ebfeda5f11f3b9abd-ezgif.com-crop.gif" />
+
+<Image src="https://files.readme.io/ea95f0e26805cab264809f551589c0132329000fbd8b38cb7b2a3da167c9b5bc-clideo_editor_54ac2c759571401ebfeda5f11f3b9abd-ezgif.com-crop.gif" align="center" />
+
 
 ## API components
 
@@ -44,7 +46,7 @@ In this section, you can find information on the following components:
 
 ## Accessing reference data
 
-<Accordion title="How to Access Reference Data" icon="info-circle">
+<Accordion title="How to Access Reference Data">
   To access the reference data, perform the following steps:
 
   1. In the left navigation panel, select **API** > **Reference Data**
@@ -55,3 +57,5 @@ In this section, you can find information on the following components:
 
   <Image align="center" border={true} src="https://files.readme.io/d62554750f2d281c61e5434998a59109ab17c6a50e394fb984a16a02f8ad976f-Reference_data.png" alt="Accessing reference data" />
 </Accordion>
+
+<br />
