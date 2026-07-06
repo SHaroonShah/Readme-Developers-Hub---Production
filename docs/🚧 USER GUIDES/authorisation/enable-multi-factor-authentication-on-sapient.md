@@ -63,7 +63,7 @@ To enable MFA on SAPIENT, perform the steps as explained in the following proced
 
     In the **Confirm MFA Change** dialog that opens, select ![alt text](https://files.readme.io/e05434f39e8b0ce5f7e90556e8dc2427d9451784597ab415e4329884781892aa-Confirm_button.png).
 
-    <Image align="center" src="https://files.readme.io/fdaebb200bcd4068197f356e1436a610c75896305b865dec1b4f825c2215f17c-Confirming_MFA.png" />
+    <Image align="center" src="https://files.readme.io/fdaebb200bcd4068197f356e1436a610c75896305b865dec1b4f825c2215f17c-Confirming_MFA.png" caption="Confirming MFA activation"/>
 
     <br />
 
