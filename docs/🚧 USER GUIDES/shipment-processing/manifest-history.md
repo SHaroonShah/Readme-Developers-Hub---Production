@@ -53,7 +53,7 @@ To search and view manifested shipments in SAPIENT, perform the steps as explain
   <br />
 
   <ToggleListItem title={<strong>3. View results </strong>} icon="fa-rocket">
-    
+  <br />  
 
     Once filtered, the **Manifest History** table displays the manifested shipments matching your search criteria. The columns displayed in the table are explained in the following table.
 
