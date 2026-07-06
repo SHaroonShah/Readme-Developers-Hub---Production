@@ -66,7 +66,9 @@ In SAPIENT, you can delete the address to keep the address book clean and manage
         In the confirmation dialog that opens, select **Yes** to confirm your action.
 
         <Image align="center" border={true} src="https://files.readme.io/4e31a217220e21a41f5bc9ba834c5b99372c54eeaccce8ca36a685f73f73fb68-Confirming_address_deletion.png" width="350px" alt="Confirming deletion" />
+
         <br />
+
         Once confirmed, the address is deleted from the system and no longer displayed in the **Address Book** list.
 
         ***
