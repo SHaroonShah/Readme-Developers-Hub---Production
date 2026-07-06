@@ -30,15 +30,15 @@ The SAPIENT API has been designed to accommodate different methods of processing
     Shipment actions are specific operations that can be performed on a shipment during its lifecycle. These actions allow businesses to manage and control various aspects of the shipment process.
 
     <Cards columns="3">
-      <Card title="Process" href="https://docs.intersoftsapient.net/docs/create-shipment-with-action-process" icon="cog">
+      <Card title="Process" href="https://docs.intersoftsapient.net/docs/create-shipment-with-action-process" icon="fa-solid fa-cog">
         Finalises the shipment creation and prepares the shipment for transportation. A label is returned in the Create Shipment response and the shipment is ready for manifesting immediately.
       </Card>
 
-      <Card title="Create" href="https://docs.intersoftsapient.net/docs/create-shipments-with-action-create" icon="plus-circle">
+      <Card title="Create" href="https://docs.intersoftsapient.net/docs/create-shipments-with-action-create" icon="fa-solid fa-plus-circle">
         Initiates a new shipment entry in the system. Captures all necessary details to generate shipping documents. Does not return labels immediately - requires Print Shipment API call.
       </Card>
 
-      <Card title="Allocate" href="https://docs.intersoftsapient.net/docs/create-shipments-with-action-allocate" icon="boxes">
+      <Card title="Allocate" href="https://docs.intersoftsapient.net/docs/create-shipments-with-action-allocate" icon="fa-solid fa-boxes">
         Assigns resources (like inventory items) to the shipment for fulfilment. Returns carrier tracking number in Create Shipment response but requires Print Shipment API for labels.
       </Card>
     </Cards>
@@ -98,13 +98,13 @@ The SAPIENT API has been designed to accommodate different methods of processing
     Using the shipment status can be adopted for an operation to manage a fluid picking and packing set up. <Glossary>Containerisation</Glossary> allows users to manage shipments based on any number of variables.
 
     <Cards columns="2">
-      <Card title="Carrier Sortation" icon="sort">
+      <Card title="Carrier Sortation" icon="fa-solid fa-sort">
         For high volume users, your carrier may ask you to provide shipments pre-sorted based on service, destination or other factors. With containerisation, you can allocate shipments to a specific <Glossary>container</Glossary> and then manifest by container ID.
 
         **Examples**: Postcode sector, country code, or specific <Glossary>carrier</Glossary> service.
       </Card>
 
-      <Card title="Managing Despatch Dates" icon="calendar">
+      <Card title="Managing Despatch Dates" icon="fa-solid fa-calendar-days">
         If you process pre-orders that need to be despatched on a specific date, a container ID could be set up for each date and shipments allocated based on requirements with the manifesting done by date, at container level..
       </Card>
     </Cards>
