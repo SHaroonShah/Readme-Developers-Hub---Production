@@ -42,7 +42,6 @@ To set up the tracking webhook connection in SAPIENT, perform the steps as expla
     <Image align="center" src="https://files.readme.io/173014ddedd58a4c42eed5d291d03fa7455d10b511675e72f8e7434b6333186d-image.png" />
     <br />
     
-
     <AsteridkForMandatoryElements />
 
     <Tabs>
@@ -56,7 +55,6 @@ To set up the tracking webhook connection in SAPIENT, perform the steps as expla
         | **Password**\*     | Enter the password for the specified username                     |
 | **Notification Email**\*     | Enter the email address to receive the webhook suspension notifications.                       |
       </Tab>
-
       <Tab title="OAuth2 Authentication">
         **Authentication Type**: Authorization protocol allowing third-party access without exposing credentials
 
