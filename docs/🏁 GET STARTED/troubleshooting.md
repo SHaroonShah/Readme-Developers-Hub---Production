@@ -1,7 +1,7 @@
 ---
 title: Troubleshooting API issues
 excerpt: >-
-  Troubleshooting is a systematic process for identifying, diagnosing, and
+  _Troubleshooting_ is a systematic process for identifying, diagnosing, and
   resolving problems for issues. It involves investigating a malfunction or
   failure to ensure that system or process runs smoothly.
 deprecated: false
