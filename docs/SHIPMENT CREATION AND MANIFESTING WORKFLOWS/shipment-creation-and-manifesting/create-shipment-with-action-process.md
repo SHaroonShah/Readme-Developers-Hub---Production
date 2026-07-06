@@ -64,7 +64,7 @@ To view a step-by-step guide on how to process the shipments that are created wi
 
 ### See also
 
-<Cards columns="3">
+<Cards columns="2">
 
   <Card title="Create" href="https://docs.intersoftsapient.net/docs/create-shipments-with-action-create" icon="fa-fa-solid fa-plus-circle">
     Initiate a new shipment entry in the system and captures all necessary details to generate shipping documents. This action does not return labels immediately - requires Print Shipment API call.
