@@ -20,7 +20,7 @@ Deleting the <Glossary>shipping account</Glossary> that is no longer required is
 
 <Tabs>
   <Tab title="Delete via SAPIENT UI">
-    <br />
+    
 
     To delete a shipping account in SAPIENT, perform the steps as explained in the following procedure.
 
@@ -92,7 +92,7 @@ Deleting the <Glossary>shipping account</Glossary> that is no longer required is
   </Tab>
 
   <Tab title="Delete via API">
-    <br />
+    
 
     To delete a shipping account via our API, refer to the following endpoint:
 
@@ -113,3 +113,5 @@ Deleting the <Glossary>shipping account</Glossary> that is no longer required is
     Learn how to create a new shipping account in SAPIENT
   </Card>
 </Cards>
+
+<br />
