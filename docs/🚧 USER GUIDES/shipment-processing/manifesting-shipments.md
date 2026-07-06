@@ -30,9 +30,9 @@ In SAPIENT, you can <Glossary>manifest</Glossary> the <Glossary>shipment</Glossa
 
 You can also manifest shipments by:
 
-* Shipping location
-* Shipping account
-* Service code
+- Shipping location
+- Shipping account
+- Service code
 
 <Callout icon="💡" theme="default">
   ### _Tip_
@@ -44,7 +44,7 @@ You can also manifest shipments by:
 
 <Tabs>
   <Tab title="Manifest via SAPIENT UI">
-    <br />
+    
 
     To manifest a shipment in SAPIENT, perform the steps as explained in the following procedure.
 
@@ -154,7 +154,7 @@ You can also manifest shipments by:
   </Tab>
 
   <Tab title="Manifest via API">
-    <br />
+    
 
     To manifest shipments via our API, refer to the following endpoint
 
