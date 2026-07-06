@@ -51,7 +51,7 @@ To enable MFA on SAPIENT, perform the steps as explained in the following proced
 
     On the **Users** page that opens, at the top right corner, turn on the **Enable MFA for all Users** toggle.
 
-    <Image align="center" src="https://files.readme.io/b34f6d21ec9c4ac57266609334eda8c398a51ab83ef1840aeebbaf1939d4926c-Enabling_MFA.png" />
+    <Image align="center" src="https://files.readme.io/b34f6d21ec9c4ac57266609334eda8c398a51ab83ef1840aeebbaf1939d4926c-Enabling_MFA.png" caption="Enabling MFA"/>
 
     ***
   </ToggleListItem>
