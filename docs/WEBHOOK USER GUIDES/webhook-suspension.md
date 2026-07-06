@@ -13,7 +13,9 @@ metadata:
 next:
   description: ''
 ---
-> ❗️ _If the webhook is suspended, it looses all its tracking data. For example, if a customer reactivates the webhook after one week, they lose one week of the tracking data. Therefore, if you do not want to lose any tracking data, then make sure to activate it promptly._
+<Callout icon="❗️" theme="error">
+  ### _If the webhook is suspended, it loses all its tracking data. For example, if a customer reactivates the webhook after one week, they lose one week of the tracking data. Therefore, if you do not want to lose any tracking data, then make sure to activate it promptly._
+</Callout>
 
 If the receiving endpoint (the system where the notifications are sent) is down or encounters errors, for example, time out, invalid data, SAPIENT may suspend sending further webhook notifications to avoid overwhelming the system.
 
@@ -60,17 +62,17 @@ If the receiving endpoint (the system where the notifications are sent) is down 
 
 ### Prevention
 
-* Implement robust error handling
-* Set up monitoring and alerting
-* Ensure endpoint reliability
-* Test webhook endpoints regularly
+- Implement robust error handling
+- Set up monitoring and alerting
+- Ensure endpoint reliability
+- Test webhook endpoints regularly
 
 ### Recovery
 
-* Monitor suspension notifications
-* Reactivate webhooks promptly
-* Verify endpoint functionality
-* Check for missed tracking data
+- Monitor suspension notifications
+- Reactivate webhooks promptly
+- Verify endpoint functionality
+- Check for missed tracking data
 
 ***
 
@@ -93,3 +95,5 @@ If the receiving endpoint (the system where the notifications are sent) is down 
     Understand tracking events and milestone data.
   </Card>
 </Cards>
+
+<br />
