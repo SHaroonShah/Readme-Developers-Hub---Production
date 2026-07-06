@@ -16,11 +16,11 @@ next:
   description: ''
 ---
 <Cards columns={2}>
-  <Card title="Pre-orders & delayed stock" icon="clock">
+  <Card title="Pre-orders & delayed stock" icon="fa-solif fa-clock">
     Defer shipments when goods are not yet available, such as pre-orders or items awaiting restocking.
   </Card>
 
-  <Card title="Early availability" icon="fast-forward">
+  <Card title="Early availability" icon="fa-solid fast-forward">
     Move future-dated shipments to an earlier date when goods become available ahead of schedule.
   </Card>
 </Cards>
@@ -40,7 +40,9 @@ When goods become available before their scheduled shipment dates, you can also 
 
 ### Workflow process
 
-<Image align="center" alt="Workflow for defer shipment request" border={false} caption="Workflow for defer shipment request" src="https://files.readme.io/60bca3e1e424cc4ea4fedb09016ef3f69f29ff6deae8f0110fa57f62a7b8884e-Defer_flow.png" />
+
+<Image src="https://files.readme.io/60bca3e1e424cc4ea4fedb09016ef3f69f29ff6deae8f0110fa57f62a7b8884e-Defer_flow.png" alt="Workflow for defer shipment request" align="center" caption="Workflow for defer shipment request" />
+
 
 ***
 
@@ -49,3 +51,5 @@ When goods become available before their scheduled shipment dates, you can also 
 To view a step-by-step process on how to defer shipments via API, refer to the following API recipe:
 
 <Recipe slug="defer-shipment" title="Defer shipments" />
+
+<br />
