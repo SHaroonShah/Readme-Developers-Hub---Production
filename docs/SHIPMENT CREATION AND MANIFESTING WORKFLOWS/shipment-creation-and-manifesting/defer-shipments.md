@@ -20,7 +20,7 @@ next:
     Defer shipments when goods are not yet available, such as pre-orders or items awaiting restocking.
   </Card>
 
-  <Card title="Early availability" icon="fa-solid fa-rewind">
+  <Card title="Early availability" icon="fa-solid fa-forward">
     Move future-dated shipments to an earlier date when goods become available ahead of schedule.
   </Card>
 </Cards>
