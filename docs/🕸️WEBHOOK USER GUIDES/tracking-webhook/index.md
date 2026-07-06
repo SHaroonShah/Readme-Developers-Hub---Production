@@ -12,15 +12,15 @@ The webhook operates using a POST API call, transmitting tracking events in a st
 Wirth this solution, you can track:
 
 <Cards columns="3">
-  <Card title="SAPIENT Shipments" icon="box">
+  <Card title="SAPIENT Shipments" icon="fa-solid fa-boxes">
     Track all shipments created on the SAPIENT platform with comprehensive tracking data and real-time updates.
   </Card>
 
-  <Card title="Intelligent Shipper" icon="truck">
+  <Card title="Intelligent Shipper" icon="fa-solid fa-truck">
     Monitor specific shipments created on Intelligent Shipper for targeted tracking capabilities.
   </Card>
 
-  <Card title="Royal Mail Integration" icon="mail-bulk">
+  <Card title="Royal Mail Integration" icon="fa-solid fa-mail-bulk">
     Track Royal Mail shipments created on any external shipping platform or by individuals.
   </Card>
 </Cards>
