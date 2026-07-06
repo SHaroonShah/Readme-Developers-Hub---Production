@@ -15,8 +15,8 @@ next:
 ---
 Deleting the <Glossary>shipping location</Glossary> could occur due to various reasons, such as:
 
-* **Closure**: if a shipping facility is closed or no longer in use, deleting it helps avoid confusion in future shipping operations.
-* **Account changes**: When a business relocates or decides to consolidate shipping operations to fewer locations.
+- **Closure**: if a shipping facility is closed or no longer in use, deleting it helps avoid confusion in future shipping operations.
+- **Account changes**: When a business relocates or decides to consolidate shipping operations to fewer locations.
 
 In SAPIENT, you can delete the shipping location to keep the shipping database clean and manageable, preventing clutter from inactive or obsolete entries. It also improves the system performance and avoids potential confusion by ensuring only current and relevant shipping locations are available for selection or operation.
 
@@ -24,7 +24,7 @@ In SAPIENT, you can delete the shipping location to keep the shipping database c
 
 <Tabs>
   <Tab title="Delete via SAPIENT UI">
-    <br />
+    
 
     To edit a shipping location in SAPIENT, perform the steps as explained in the following procedure.
 
@@ -75,8 +75,8 @@ In SAPIENT, you can delete the shipping location to keep the shipping database c
     </ToggleList>
   </Tab>
 
-  <Tab title="Edit via API">
-    <br />
+  <Tab title="Delete via API">
+    
 
     To delete a shipping location via our API, refer to the following endpoint:
 
@@ -97,3 +97,5 @@ In SAPIENT, you can delete the shipping location to keep the shipping database c
     Learn how to create new shipping locations in SAPIENT
   </Card>
 </Cards>
+
+<br />
