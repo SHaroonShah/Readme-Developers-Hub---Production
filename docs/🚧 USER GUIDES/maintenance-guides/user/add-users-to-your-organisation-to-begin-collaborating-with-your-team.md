@@ -192,7 +192,7 @@ Moreover, different roles and permissions improve security by restricting access
 
 ### Post creation process
 
-<Accordion title="Email confirmation & account activation" icon="envelope">
+<Accordion title="Email confirmation & account activation">
   After the user is added:
 
   1. A confirmation email is sent to the specified email address.
