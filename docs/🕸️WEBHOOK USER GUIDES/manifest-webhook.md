@@ -18,14 +18,16 @@ next:
 ---
 The manifest webhook feature has several purposes:
 
-* **Real-time Updates**: to receive immediate notifications about shipment activities or status changes, ensuring that the information is up-to-date.
-* **Automation**: to automate the processing of shipping events, reducing manual work and enhances efficiency.
-* **Integration**: to better integration with various services and APIs by providing a mechanism to push data and initiate workflows based on shipping events.
-* **Error Handling**: to notify systems about issues or failures in shipment processing, allowing for timely corrections.
+- **Real-time Updates**: to receive immediate notifications about shipment activities or status changes, ensuring that the information is up-to-date.
+- **Automation**: to automate the processing of shipping events, reducing manual work and enhances efficiency.
+- **Integration**: to better integration with various services and APIs by providing a mechanism to push data and initiate workflows based on shipping events.
+- **Error Handling**: to notify systems about issues or failures in shipment processing, allowing for timely corrections.
 
-> 🚧 _Important_
->
-> _The manifest webhook is only used if you are using the manifest async endpoint to manifest asynchronously._
+<Callout icon="🚧" theme="warn">
+  ### _Important_
+
+  _The manifest webhook is only used if you are using the manifest async endpoint to manifest asynchronously._
+</Callout>
 
 ## How to set up manifest webhook connection
 
@@ -186,11 +188,11 @@ To set up the manifest webhook connection in SAPIENT, follow the instructions as
     After entering all the necessary details, select ![](https://files.readme.io/dcabcea774e82fdcf39f03bfcdcd2d95520a6aead65cb9bd47e7ccc32a8c085c-Test_button.png) to check if the setup is configured correctly. Once the test has been completed, and the setup configuration is correct, the webhook is activated and the following success response is displayed:
 
     <Image align="center" border={true} src="https://files.readme.io/0994fa6-image.png" width="660px" alt="Success response" />
-
+    <br />
     Following the success response, a test tracking payload is sent to the webhook as follows:
 
     <Image align="center" border={true} src="https://files.readme.io/6b06c9d-image.png" alt="tracking payload response example" />
-
+    <br />
     If for some reason, the connectivity test fails, the following message is displayed:
 
     <Image align="center" border={true} src="https://files.readme.io/65a4983-image.png" width="660px" alt="Failed connection response" />
@@ -206,7 +208,7 @@ To set up the manifest webhook connection in SAPIENT, follow the instructions as
     After, turn on the **Active** toggle if you wany to activate the manifest webhook.
 
     <Image align="center" border={true} src="https://files.readme.io/a76feb6-image.png" width="660px" alt="Activating tracking webhook" />
-
+    <br />
     > 🚧 *Important*
     >
     > *The webhook only works if it is in the**Active** state. Any changes made to the webhook configuration deactivates it. Therefore, make sure the toggle is set to **Active** whenever the configuration is updated.*
