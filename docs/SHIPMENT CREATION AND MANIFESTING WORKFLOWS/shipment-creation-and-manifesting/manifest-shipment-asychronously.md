@@ -58,7 +58,7 @@ To manifest the shipments in an asynchronous manner via the API, you can use the
 
     Use the following endpoints introduced in our core **Manifests** API to manifest shipments asynchronously:
 
-    <Accordion title="Manifest Shipments Async" icon="paper-plane">
+    <Accordion title="Manifest Shipments Async">
       Submit manifest requests to be processed asynchronously. This endpoint accepts the same parameters as the existing [Manifests](https://docs.intersoftsapient.net/reference/post_v4-manifests-carriercode#/) endpoint, excluding the async parameter.
 
       A successful async manifest response returns the following parameters:
@@ -90,7 +90,7 @@ To manifest the shipments in an asynchronous manner via the API, you can use the
 
     <br />
 
-    <Accordion title="Get Manifest Request Status" icon="search">
+    <Accordion title="Get Manifest Request Status">
       Check the status of a submitted manifest request using the following parameters:
 
       * **manifestDetail**: An optional parameter that controls the response detail level:
