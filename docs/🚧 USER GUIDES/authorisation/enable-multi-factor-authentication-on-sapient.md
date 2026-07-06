@@ -14,25 +14,28 @@ metadata:
 
 The main benefits of MFA are enhanced security, including reduced risk of unauthorised access and protection against phishing attacks. The MFA functionality enhances the security of SAPIENT, whilst also requiring minimal additional time and effort from users.
 
-> 🚧 _Important_
->
-> _In SAPIENT, the MFA feature can only be enabled or disabled at the customer account level. If MFA is enabled, all users associated with the customer account are required to complete a second verification step to login to the Sapient UI._
+<Callout icon="🚧" theme="warn">
+  ### _Important_
+
+  _In SAPIENT, the MFA feature can only be enabled or disabled at the customer account level. If MFA is enabled, all users associated with the customer account are required to complete a second verification step to login to the Sapient UI._
+</Callout>
 
 ## How to enable MFA on SAPIENT
 
 To enable MFA on SAPIENT, perform the steps as explained in the following procedure.
 
-> 🚧 _Important_
->
-> _Before enabling MFA on SAPIENT, bear in mind the following:_
->
-> * _By default, the MFA is disabled for all customer accounts._
->
-> * _Only a Customer Administrator user with the **Users Administrator** permission has the option to enable MFA for all users associated with the customer account._
+<Callout icon="🚧" theme="warn">
+  ### _Important_
+
+  _Before enabling MFA on SAPIENT, bear in mind the following:_
+
+  - _By default, the MFA is disabled for all customer accounts._
+
+  - _Only a Customer Administrator user with the&#x20;_**_Users Administrator_**_&#x20;permission has the option to enable MFA for all users associated with the customer account._
+</Callout>
 
 <ToggleList>
   <ToggleListItem title="1. Navigate to the Users page">
-    <br />
 
     On the SAPIENT home page that opens, from the side navigation panel, Select **Users**.
 
