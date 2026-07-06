@@ -164,9 +164,8 @@ You can also manifest shipments by:
       </Card>
     </Cards>
 
-    <br />
 
-    ***
+        ***
 
     ### API recipe guide
   
