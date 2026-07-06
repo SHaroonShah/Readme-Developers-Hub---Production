@@ -52,107 +52,141 @@ To search and view manifested shipments in SAPIENT, perform the steps as explain
 
   <br />
 
-  <ToggleListItem title={<strong>3. View results</strong>} icon="fa-rocket">
-  <br />
+  <ToggleListItem title={<strong>3. View results </strong>} icon="fa-rocket">
+    <br />
 
-  Once filtered, the **Manifest History** table displays the manifested shipments matching your search criteria. The columns displayed in the table are explained in the following table.
+    Once filtered, the **Manifest History** table displays the manifested shipments matching your search criteria. The columns displayed in the table are explained in the following table.
 
-  <Image
-    align="center"
-    border={true}
-    src="https://files.readme.io/7b056fb156b7f9215b4ed0ded2bc9a47f55ba8a45e473c7a72f7609259e26e52-Manifest_history_table.png"
-    alt="Viewing shipments"
-  />
+    <Image align="center" border={true} src="https://files.readme.io/7b056fb156b7f9215b4ed0ded2bc9a47f55ba8a45e473c7a72f7609259e26e52-Manifest_history_table.png" alt="Viewing shipments" />
 
-  <br />
+    <br />
 
-  <Table align={["center", "left"]}>
-    <thead>
-      <tr>
-        <th>Column</th>
-        <th>Description</th>
-      </tr>
-    </thead>
+    <Table align={["center","left"]}>
+      <thead>
+        <tr>
+          <th>
+            Column
+          </th>
 
-    <tbody>
-      <tr>
-        <td><strong>Date</strong></td>
-        <td>
-          Represents the specific date when the manifest was created, crucial for tracking and historical reference.
-        </td>
-      </tr>
+          <th>
+            Description
+          </th>
+        </tr>
+      </thead>
 
-      <tr>
-        <td><strong>Customer</strong></td>
-        <td>
-          Represents the name or identifier of the customer associated with the shipment, helping to manage relationships and service levels.
-        </td>
-      </tr>
+      <tbody>
+        <tr>
+          <td>
+            **Date**
+          </td>
 
-      <tr>
-        <td><strong>Shipping Location</strong></td>
-        <td>
-          Represents the <Glossary>shipping location</Glossary> or dispatch point of the shipment, important for logistics planning and route optimisation.
-        </td>
-      </tr>
+          <td>
+            Represents the specific date when the manifest was created, crucial for tracking and historical reference.
+          </td>
+        </tr>
 
-      <tr>
-        <td><strong>Shipping Account</strong></td>
-        <td>
-          Represents the <Glossary>shipping account</Glossary> number linked to the shipments for billing and record-keeping purposes.
-        </td>
-      </tr>
+        <tr>
+          <td>
+            **Customer**
+          </td>
 
-      <tr>
-        <td><strong>Manifest Number</strong></td>
-        <td>
-          Represents the unique identifier assigned to each manifest, used for tracking and organisational purposes.
-          <br />
-          <br />
-          Select the manifest number link to open and download the <Glossary>manifest</Glossary> file in either <Glossary>CSV</Glossary> or <Glossary>PDF</Glossary> format.
-        </td>
-      </tr>
+          <td>
+            Represents the  name or identifier of the customer associated with the shipment, helping to manage relationships and service levels.
+          </td>
+        </tr>
 
-      <tr>
-        <td><strong>Carrier</strong></td>
-        <td>
-          Represents the name and logo of the <Glossary>carrier</Glossary> responsible for delivering the shipment.
-        </td>
-      </tr>
+        <tr>
+          <td>
+            **Shipping Location**
+          </td>
 
-      <tr>
-        <td><strong>Service</strong></td>
-        <td>
-          Represents the type of shipping service used (for example, standard or express), influencing delivery speed and cost.
-        </td>
-      </tr>
+          <td>
+            Represents the <Glossary>shipping location</Glossary> or dispatch point of the shipment, important for logistics planning and route optimisation.
+          </td>
+        </tr>
 
-      <tr>
-        <td><strong>Weight</strong></td>
-        <td>
-          Represents the total weight of the shipments included in the manifest, essential for billing and compliance.
-        </td>
-      </tr>
+        <tr>
+          <td>
+            **Shipping Account**
+          </td>
 
-      <tr>
-        <td><strong>Packages</strong></td>
-        <td>
-          Represents the total number of <Glossary>packages</Glossary> included in the shipment, vital for planning and inventory management.
-        </td>
-      </tr>
+          <td>
+            Represents the <Glossary>shipping account</Glossary> number linked to the shipments for billing and record-keeping purposes.
+          </td>
+        </tr>
 
-      <tr>
-        <td><strong>Created</strong></td>
-        <td>
-          Represents the date and time when the manifest was generated, providing a timeline for shipping actions and record tracking.
-        </td>
-      </tr>
-    </tbody>
-  </Table>
+        <tr>
+          <td>
+            **Manifest Number**
+          </td>
 
-  <br />
+          <td>
+            Represents the unique identifier assigned to each manifest, used for tracking and organizational purposes.
 
-  After viewing the manifest history, you can return to the Home page and continue working with your ongoing shipments as needed.
-</ToggleListItem>
+            Select the manifest number link to open and download the <Glossary>manifest</Glossary> file either in <Glossary>CSV</Glossary> or <Glossary>PDF</Glossary>.
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            **Carrier**
+          </td>
+
+          <td>
+            Represents the name and logo of the <Glossary>carrier</Glossary> responsible for delivering the shipment.
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            **Service**
+          </td>
+
+          <td>
+            Represents the type of shipping service used (for example, standard, express), influencing delivery speed and cost.
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            **Weight**
+          </td>
+
+          <td>
+            Represents the total weight of the shipment included in the manifest, essential for billing and compliance.
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            **Packages**
+          </td>
+
+          <td>
+            Represents the total number of <Glossary>package</Glossary>s included in the shipment, vital for planning and inventory management.
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            **Created**
+          </td>
+
+          <td>
+            Represents the date and time when the manifest was generated, providing a timeline for shipping actions and record tracking.
+          </td>
+        </tr>
+      </tbody>
+    </Table>
+
+    <br />
+
+    After viewing the manifest history, you can now return to the Home page and continue working with your ongoing shipments as needed.
+  </ToggleListItem>
+</ToggleList>
+
+<br />
+
+
 
 <br />
