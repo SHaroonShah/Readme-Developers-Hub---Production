@@ -17,7 +17,9 @@ next:
 ---
 Customs settings typically encompass documentation, declarations, tariff classifications, and other relevant information necessary for customs clearance.
 
-<Image align="center" border={false} width="500px" src="https://files.readme.io/e9f493e9f3e0e9c6504bbc0bba8673c647abe9ed3bc06427a1346e1067b41bcb-Customs_settings.png" />
+
+<Image src="https://files.readme.io/e9f493e9f3e0e9c6504bbc0bba8673c647abe9ed3bc06427a1346e1067b41bcb-Customs_settings.png" align="center" width="500px" />
+
 
 ## Key benefits of customs setting
 
@@ -51,7 +53,7 @@ The main benefits of this setting are explained as follows:
 
 ***
 
-### Configuration guides
+## Configuration guides
 
 In this section, learn how to configure your customs settings with these essential operations:
 
