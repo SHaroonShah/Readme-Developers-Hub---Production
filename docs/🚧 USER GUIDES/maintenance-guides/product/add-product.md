@@ -31,7 +31,7 @@ In SAPIENT, you can add as many products as you want and use them in your <Gloss
 
 <Tabs>
   <Tab title="Add via SAPIENT UI">
-    <br />
+    
 
     To add a product in SAPIENT, perform the steps as explained in the following procedure.
 
@@ -315,7 +315,7 @@ In SAPIENT, you can add as many products as you want and use them in your <Gloss
   </Tab>
 
   <Tab title="Add via API">
-    <br />
+    
 
     To add a product via our API, refer to the following endpoint:
 
@@ -340,3 +340,5 @@ In SAPIENT, you can add as many products as you want and use them in your <Gloss
     Remove products from your system that are no longer needed.
   </Card>
 </Cards>
+
+<br />
