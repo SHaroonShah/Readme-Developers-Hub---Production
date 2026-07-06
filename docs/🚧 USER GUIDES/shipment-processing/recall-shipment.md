@@ -29,7 +29,7 @@ After you have [cancelled](https://docs.intersoftsapient.net/docs/view-cancelled
 
 <Tabs>
   <Tab title="Recall via SAPIENT UI">
-    <br />
+    
 
     To recall a shipment via the SAPIENT UI, perform the steps as explained in the following procedure.
 
@@ -73,7 +73,7 @@ After you have [cancelled](https://docs.intersoftsapient.net/docs/view-cancelled
   </Tab>
 
   <Tab title="Recall via API">
-    <br />
+    
 
     To recall shipment via our API, refer to the following endpoint:
 
