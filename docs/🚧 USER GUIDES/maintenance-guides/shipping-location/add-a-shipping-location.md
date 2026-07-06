@@ -20,7 +20,7 @@ The process of adding a <Glossary>shipping location</Glossary> helps in streamli
 
 <Tabs>
   <Tab title="Add via SAPIENT UI">
-    <br />
+    
 
     To add a shipping location in SAPIENT, perform the steps as explained in the following procedure.
 
@@ -116,7 +116,7 @@ The process of adding a <Glossary>shipping location</Glossary> helps in streamli
   </Tab>
 
   <Tab title="Add via API">
-    <br />
+    
 
     To add a new shipping location via our API, refer to the following endpoint:
 
@@ -145,3 +145,5 @@ The process of adding a <Glossary>shipping location</Glossary> helps in streamli
     Remove shipping locations that are no longer needed.
   </Card>
 </Cards>
+
+<br />
