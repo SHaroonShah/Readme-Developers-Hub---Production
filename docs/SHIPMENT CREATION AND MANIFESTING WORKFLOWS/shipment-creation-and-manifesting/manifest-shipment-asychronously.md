@@ -27,15 +27,15 @@ This section provides detailed instructions and information regarding the asynch
 ## Key benefits
 
 <Cards columns="3">
-  <Card title="Enhanced Performance" icon="fa-solid tachometer-alt">
+  <Card title="Enhanced Performance" icon="fa-solid fa-tachometer-alt">
     By processing manifest requests in the background, the system avoids performance bottlenecks, especially when handling large volumes of shipments simultaneously.
   </Card>
 
-  <Card title="Improved User Experience" icon="fa-solid user-check">
+  <Card title="Improved User Experience" icon="fa-solid fa-user-check">
     Submit requests without waiting for long processing times and continue performing other tasks while shipments are being manifested.
   </Card>
 
-  <Card title="Reliable Queueing System" icon="fa-solid list-ol">
+  <Card title="Reliable Queueing System" icon="fa-solid fa-list-ol">
     Requests are managed through a queueing system to ensure they are processed sequentially without overwhelming the system.
   </Card>
 </Cards>
