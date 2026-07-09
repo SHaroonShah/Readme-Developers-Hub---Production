@@ -56,59 +56,21 @@ To add a tracking account in SAPIENT, follow the steps as explained in the follo
   <br />
 
   <ToggleListItem title={<strong>3. Enter account details </strong>} icon="fa-rocket">
-  
 
-    On the **Add Tracking account** page that appears, in the **DETAILS** block, enter the necessary information as explained in the following table.
+On the **Add Tracking account** page that appears, in the **DETAILS** block, enter the necessary information as explained in the following table.
 
-    <Image align="center" border={true} src="https://files.readme.io/d5239464ffac95ad4b5081802a5b002a3e966e94ab27e760cf7ba3d2eeecaf56-Details_block_UPS.png" width="500px" alt="Adding tracking account" />
+<Image align="center" border={true} src="https://files.readme.io/d5239464ffac95ad4b5081802a5b002a3e966e94ab27e760cf7ba3d2eeecaf56-Details_block_UPS.png" width="500px" alt="Adding tracking account" />
 
-    
+\* Indicates a mandatory field.
 
-    <AsteridkForMandatoryElements />
+| Element | Description |
+| --- | --- |
+| **Carrier**\* | From the dropdown menu, select the carrier for which you want to create a tracking account. |
+| **Shipping Account**\* | From the dropdown menu, select the <Glossary>shipping account</Glossary> for which you want to receive tracking.<br /><br />For some carriers, you may also select the **All Shipping Accounts** option to add this tracking account for all existing and any new shipping accounts added to the customer account. |
 
-    <Table align={["center","left"]}>
-      <thead>
-        <tr>
-          <th>
-            Element
-          </th>
+Once entered, an additional **SFTP DETAILS** block may appear for specific carriers, for example YODEL and EVRi. This is only required if the carrier supports receiving the tracking details via SFTP (Secure File Transfer Protocol). For more information on how to fill this block, refer to the [Carrier specific guides](https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/carrrier-specific-user-guides) section.
 
-          <th>
-            Description
-          </th>
-        </tr>
-      </thead>
-
-      <tbody>
-        <tr>
-          <td>
-            **Carrier**\*
-          </td>
-
-          <td>
-            From the dropdown menu, select the carrier for which you want to create a tracking account.
-          </td>
-        </tr>
-
-        <tr>
-          <td>
-            **Shipping Account**\*
-          </td>
-
-          <td>
-            From the dropdown menu, select the <Glossary>shipping account</Glossary> for which you want to receive tracking.
-
-            For some carriers, you may also select the **All Shipping Accounts** option to add this tracking account for all existing and any new shipping accounts added to the customer account.
-          </td>
-        </tr>
-      </tbody>
-    </Table>
-
-    
-
-    Once entered, an additional **SFTP DETAILS** block may appear for specific carriers, for example YODEL and EVRi. This is only required if the carrier supports receiving the tracking details via SFTP (Secure File Transfer Protocol). For more information on how to fill this block, refer to the [Carrier specific guides](https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/carrrier-specific-user-guides) section.
-
-    ***
+***
   </ToggleListItem>
 
   <br />
