@@ -26,7 +26,7 @@ _Milestones_ refer to significant stages within the shipment process that are es
 
 If you choose to receive tracking milestones, bear in mind that each milestone only gets triggered once. To understand each milestone and its expected order of occurrence, refer to the information explained in the following table:
 
-<Accordion title="My Accordion Title" icon="fa-info-circle">
+<HTMLBlock>{`
 <Table align={["center","left"]}>
   <thead>
     <tr>
@@ -79,7 +79,7 @@ If you choose to receive tracking milestones, bear in mind that each milestone o
       <td>
         The shipment is undergoing customs inspections.
 
-        `Note`_: this is applicable to international shipments only._
+        \`Note\`_: this is applicable to international shipments only._
       </td>
     </tr>
 
@@ -154,8 +154,7 @@ If you choose to receive tracking milestones, bear in mind that each milestone o
     </tr>
   </tbody>
 </Table>
-
-</Accordion>
+`}</HTMLBlock>
 
 <Table align={["center","left"]}>
   <thead>
