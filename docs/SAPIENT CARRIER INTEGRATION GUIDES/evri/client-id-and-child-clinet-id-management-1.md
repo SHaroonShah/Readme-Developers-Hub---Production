@@ -71,63 +71,37 @@ To add the child client department to the EVRi's parent shipping account, follow
 
     <AsteridkForMandatoryElements />
 
-    <Table align={["center","left"]}>
+    <table>
       <thead>
         <tr>
-          <th>
-            Element
-          </th>
-
-          <th>
-            Description
-          </th>
+          <th>Element</th>
+          <th>Description</th>
         </tr>
       </thead>
-
       <tbody>
         <tr>
-          <td>
-            **Shipping Account Name**\*
-          </td>
-
-          <td>
-            Represents the name of the carrier account in the read-only mode for which you want to add the child client department.
-          </td>
+          <td><strong>Shipping Account Name</strong>&#42;</td>
+          <td>Represents the name of the carrier account in the read-only mode for which you want to add the child client department.</td>
         </tr>
-
         <tr>
-          <td>
-            **Child Client Id**\*
-          </td>
-
-          <td>
-            Enter your 3-digit client ID that you want to associate with the parent shipping account.
-          </td>
+          <td><strong>Child Client Id</strong>&#42;</td>
+          <td>Enter your 3-digit client ID that you want to associate with the parent shipping account.</td>
         </tr>
-
         <tr>
-          <td>
-            **Child Client Name**\*
-          </td>
-
-          <td>
-            Enter the name of the client that you are associating with the parent shipping account.
-          </td>
+          <td><strong>Child Client Name</strong>&#42;</td>
+          <td>Enter the name of the client that you are associating with the parent shipping account.</td>
         </tr>
-
         <tr>
-          <td>
-            **SMS Alert Group Code**
-          </td>
-
+          <td><strong>SMS Alert Group Code</strong></td>
           <td>
             Enter the SMS group code if you wish you receive delivery updates via SMS.
-
-            *`Note`: This is an optional field. If you provide this information, make sure to enable the SMS service enhancement in your[Create Shipment request](https://docs.intersoftsapient.net/reference/post_v4-shipments-evri#/).*
+            <br />
+            <br />
+            <em><code>Note</code>: This is an optional field. If you provide this information, make sure to enable the SMS service enhancement in your <a href="https://docs.intersoftsapient.net/reference/post_v4-shipments-evri#/">Create Shipment request</a>.</em>
           </td>
         </tr>
       </tbody>
-    </Table>
+    </table>
 
     ***
   </ToggleListItem>
