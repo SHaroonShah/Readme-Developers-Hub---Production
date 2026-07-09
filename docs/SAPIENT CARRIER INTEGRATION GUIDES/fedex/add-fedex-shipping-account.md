@@ -74,321 +74,257 @@ To add a shipping account for FedEx in SAPIENT, follow the instructions as expla
   <br />
 
   <ToggleListItem title="4. Connect account">
-    After specifying the carrier and shipping location, a new **CONNECT YOUR FEDEX ACCOUNT** form appears, which is comprised of multiple stages. Enter the necessary information as explained in the followig tabs.
+After specifying the carrier and shipping location, a new **CONNECT YOUR FEDEX ACCOUNT** form appears, which is comprised of multiple stages. Enter the necessary information as explained in the following sections.
 
-    <Callout icon="💡" theme="default">
-      ### *Tip*
+<Callout icon="💡" theme="default">
+  ### *Tip*
 
-      *When entering the information, follow the order in which the tabs are displayed.*
-    </Callout>
+  *When entering the information, follow the order in which the sections are displayed.*
+</Callout>
 
-    ### 1. Shipping Account
+### 1. Shipping Account
 
-    At the **Shipping Account** stage, you can specify the general details associated to your FedEx account number.
+At the **Shipping Account** stage, you can specify the general details associated to your FedEx account number.
 
-        <Image align="center" border={true} src="https://files.readme.io/8822b5421cd564a71a5d9e39a2ad6ec6cc6eb783034bb5979b0b2522299bdc55-FEDEX_Shipping_account_stage.png" alt="Specifying shipping account details" />
+<Image align="center" border={true} src="https://files.readme.io/8822b5421cd564a71a5d9e39a2ad6ec6cc6eb783034bb5979b0b2522299bdc55-FEDEX_Shipping_account_stage.png" alt="Specifying shipping account details" />
 
-        <br />
-
-        The information on how to fill in the the necessary information at this stage are explained in the following table.
-
-        <Callout icon="💡" theme="default">
-          ### *Tip*
-
-          *In the following table, the mandatory fields are marked with an asterisk (\*).*
-        </Callout>
-
-        <table>
-          <thead>
-            <tr>
-              <th>Element</th>
-              <th>Description</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td><strong>Carrier Account Number</strong>&#42;</td>
-              <td>
-                Enter the 9-digit account number for FedEx.
-                <br />
-                <br />
-                <em><code>Note</code>: The carrier account number must be an exact match with what FedEx have provided.</em>
-              </td>
-            </tr>
-            <tr>
-              <td><strong>Account Name (if different than customer)</strong>&#42;</td>
-              <td>Enter the name of the account you are adding.</td>
-            </tr>
-            <tr>
-              <td><strong>Account Type</strong>&#42;</td>
-              <td>
-                <p>From the dropdown menu, select one of the following account types that you want to set up for the the shipping account you are adding:</p>
-                <ul>
-                  <li><strong>Production</strong>: a live environment where the final version of the application is deployed and made available to the users. When you select <strong>Production</strong>, then upon selecting the Next button, you are proceeded to the next stages of the form for the address and MFA validation processes.</li>
-                  <li><strong>Sandbox</strong>: a testing environment that mimics the <strong>Production</strong> environment but is isolated from it. The sandbox environment is primarily used for development and testing purposes. If you select the <strong>Sandbox</strong> environment, then the shipping account is created without the address and MFA validation processes.</li>
-                </ul>
-                <em><code>Note</code>: You can use the <strong>Sandbox</strong> account to test the integration and generate test labels to ensure that it is configured correctly.</em>
-              </td>
-            </tr>
-            <tr>
-              <td><strong>Alias</strong>&#42;</td>
-              <td>Enter a custom name which can be used when connecting to us. Therefore, it is recommend that this name must be memorable and available for reference purposes.</td>
-            </tr>
-            <tr>
-              <td><strong>Contact Name</strong>&#42;</td>
-              <td>Enter the contact name for the account you are adding.</td>
-            </tr>
-            <tr>
-              <td><strong>Contact Number</strong>&#42;</td>
-              <td>Enter the contact number for the account you are adding.</td>
-            </tr>
-            <tr>
-              <td><strong>Enable Electronic Trade Documents (ETD)</strong></td>
-              <td>Select this checkbox if you want to utilise electronic trade documents when shipping with FedEx. If you have completed the account creation process with this option selected, then at the end of the from, the system prompts you to go to the <a href="https://docs.intersoftsapient.net/docs/add-signature-and-logos-to-etd-documents#/">Add signature and logo</a> page of the application to configure the required data for ETD.</td>
-            </tr>
-            <tr>
-              <td><strong>Duties and taxes payment type</strong>&#42;</td>
-              <td>
-                <p>From the dropdown menu, select one of the following options:</p>
-                <ul>
-                  <li><strong>Sender</strong> (a default value): The sender (or shipper) is responsible for any duties and taxes incurred when the shipment reaches its destination. This option is typically used when the sender wants full control over the shipment's costs.</li>
-                  <li><strong>ThirdParty</strong>: A third-party account is billed for duties and taxes. This option is used when the sender wants another designated company (not the sender or receiver) to pay the applicable fees. This means that the designated third party will bear the costs of duties and taxes instead of the sender or recipient.</li>
-                </ul>
-                <em><code>Note</code>: When the <strong>ThirdParty</strong> option is selected, an additional form is displayed for you to enter the third-party account details. For more information on how to fill this form, refer to the fields explained in the following table.</em>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-
-        <br />
-
-        If the **Duties and taxes payment type** field is set to **Third Party**, then you must fill the additional fields as explained in the following table.
-
-        |              Element             | Description                                                                                                                                                                                                                                                                                      |
-        | :------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-        |         **Contact Name**         | Enter the name of the primary contact person associated with the third party account.                                                                                                                                                                                                            |
-        |         **Company Name**         | Enter the name of the company associated with the third party account.                                                                                                                                                                                                                           |
-        |            **Country**           | From the dropdown menu, select the country in which the third party operates.                                                                                                                                                                                                                    |
-        |           **Address**\*          | Enter the first line of the third party's address, typically including the street address or location where the company is based. This is important for accurate delivery and communication.                                                                                                     |
-        |           **Address 2**          | Enter any additional address information that may be necessary, such as suite or apartment numbers, building names, or other relevant details that can help clarify the location.                                                                                                                |
-        |           **Address 3**          | Enter any extra details on the address to specify the location if the previous two fields do not fully convey the address.                                                                                                                                                                       |
-        |            **Town**\*            | Enter the town or city where the third party company is located.                                                                                                                                                                                                                                 |
-        |            **County**            | Enter the name of the county in which the the third party company is located.                                                                                                                                                                                                                    |
-        |           **Postcode**           | Enter the postal/ZIP code for the third party's address.                                                                                                                                                                                                                                         |
-        |         **Contact Phone**        | Enter the phone number for the third party's primary contact person.                                                                                                                                                                                                                             |
-        | **Third Party Account Number**\* | Enter the the unique FedEx account number of the third party that will be billed for the duties and taxes.                                                                                                                                                                                       |
-        | **Tax Identification Numbers**\* | Enter the third party's tax identification numbers (TINs). If there are multiple TINs that need to be provided, separate each ID with a comma. This information is often required for customs clearance and ensures compliance with tax regulations.                                             |
-        |             **Next**             | Select ![alt text](https://files.readme.io/b6c8af0dd2df7d574d6e95a6d57dee08b1b36bfe92e4350a94cb3b7eee6a5b71-Next_button.png) to proceed to the **Shipping Address** stage of the form.                                                                                                           |
-        |            **Submit**            | Select ![alt text](https://files.readme.io/2ffa9cf28233588e3fa0be9258d8a2d6f5aa9d84f5e25f263c2c4d8c214cdbba-Submit_button.png) to create the shipping account and close the form. *`Note`: This button is only displayed if you have selected the**Sandbox** <Glossary>account type</Glossary>*. |
-    ***
-
-    ### 2. EULA
-
-    After successfully specifying the shipping account details, at the **EULA** stage, read the FedEx 3rd party end user license agreement and confirm it by selecting the **I accept the terms of FedEx EULA to start shipping** checkbox and ![alt text](https://files.readme.io/a544674d471b96aadef7f8afe38ba10b912f11fb7b7fd758dc372d04dfbdd7da-I_agree_button.png) button.
-
-        <Image align="center" border={true} src="https://files.readme.io/81109fca62feb4ab8c27b0f031bbdd6e5f8e16fb0cc80ebb9e01d243bafc1621-FedEx_Eula_tab.png" />
-
-        <br />
-
-        > 🚧 *Important*
-        >
-        > *The checkbox is only activated after you have fully scrolled down to the bottom of the agreement. Please make sure you read the license agreement carefully before accepting it. Once the account is created, you cannot undo this selection.*
-
-        After you have read the EULA and confirmed your agreement, the system marks the agreement as signed with the current date and the name of the user who signed it. Now, you are proceeded to the **Shipping Address** stage of the form.
-    ***
-
-    ### 3. Shipping Address (MFA 1)
-
-    After confirming the FedEx End-User License Agreement (EULA), the **Shipping Address** stage is the first factor of authentication, where you can specify the shipping address details that are associated with the 9-digit FedEx account number, so that the system can validate and match it with the addresses stored in the FedEx system.
-
-        <Image align="center" border={true} src="https://files.readme.io/e0abd56eb4207f5e043cd1ba3259992715398fa85a2deaf011a014c8d02b85ca-FedEx_Shippig_address_stage.png" />
-
-        <br />
-
-        The information on how to fill in the the necessary information at this stage are explained in the following table.
-
-        <AsteridkForMandatoryElements />
-
-        <table>
-          <thead>
-            <tr>
-              <th>Element</th>
-              <th>Description</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td><strong>Customer Name</strong>&#42;</td>
-              <td>Enter the name of the company or organisation registered with FedEx.</td>
-            </tr>
-            <tr>
-              <td><strong>Country</strong>&#42;</td>
-              <td>From the dropdown menu, select the country in which the customer resides.</td>
-            </tr>
-            <tr>
-              <td><strong>Address</strong>&#42;</td>
-              <td>
-                Enter the first line of the customer's address, typically including the street address or location where the customer is based. This is important for accurate validation of the customer details.
-                <br />
-                <br />
-                <em><code>Note</code>: Make sure you enter the exact address that you have provided against your FedEx account number. If the address validation fails, you will not proceed to the <strong>Multi-Factor Authentication</strong> stage of the form.</em>
-              </td>
-            </tr>
-            <tr>
-              <td><strong>Address 2</strong>&#42;</td>
-              <td>Enter any additional address information that may be necessary, such as suite or apartment numbers, building names, or other relevant details that can help clarify the location.</td>
-            </tr>
-            <tr>
-              <td><strong>Address 3</strong>&#42;</td>
-              <td>Enter any extra details on the address to specify the location if the previous two fields do not fully convey the address.</td>
-            </tr>
-            <tr>
-              <td><strong>Town</strong>&#42;</td>
-              <td>Enter the town or city where the customer is located.</td>
-            </tr>
-            <tr>
-              <td><strong>County</strong></td>
-              <td>Enter the sate of the county where the customer is based.</td>
-            </tr>
-            <tr>
-              <td><strong>Postcode</strong>&#42;</td>
-              <td>Enter the postal/ZIP code for the customer's address.</td>
-            </tr>
-            <tr>
-              <td><strong>This is a residential address</strong></td>
-              <td>Select this checkbox if the address provided is a residential address.</td>
-            </tr>
-            <tr>
-              <td><strong>Previous</strong></td>
-              <td>Select the Previous button to return to the <strong>Shipping Account</strong> stage and update the information, if needed.</td>
-            </tr>
-            <tr>
-              <td><strong>Submit</strong></td>
-              <td>Select the Submit button to save the entered information.</td>
-            </tr>
-          </tbody>
-        </table>
-
-        Once the information is submitted, the system runs a validation check by validating the provided address via the**Address Validation** API. Based on the validation output, the system does the following:
-
-        * If the validation is successful, you can proceed to the **Multi Factor Authentication** stage of the form.
-        * If the validation fails (that is, the address is not matched in the FedEx systems), then a corresponding error message is displayed—and you will not proceed to the **Multi-Factor Authentication** (MFA) stage of the **Add Shipping Account** form. To proceed, you must enter the correct address details.
-    ***
-
-    ### 4. Multi Factor Authentication (MFA 2)
-
-    After specifying the shipping address details of your FedEx account and successfully completing the address validation, you are proceeded to the **Multi Factor Authentication** stage. This stage is the second factor of authentication, where you can validate your account with FedEx.
-
-        <Accordion title="Authentication with recent invoice details">
-          If you want to validate your FedEx shipping account via the recent invoice, then you must select the **Recent Invoice** option, and enter the necessary information as described in the following table.
-
-          <Image align="center" border={true} src="https://files.readme.io/d5ab0db4e4030ad6c483ebfee1f964109f4d0d4c3d8839a9224b656fb463a4e9-Recent_invoice_option.png" />
 <br />
-          <AsteridkForMandatoryElements />
 
-          <table>
-            <thead>
-              <tr>
-                <th>Element</th>
-                <th>Description</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><strong>Invoice Number</strong>&#42;</td>
-                <td>Enter a valid invoice number through which you want to authenticate the shipping account.</td>
-              </tr>
-              <tr>
-                <td><strong>Invoice Date</strong>&#42;</td>
-                <td>
-                  Enter the date when the invoice was issued.
-                  <br />
-                  <br />
-                  <em><code>Note</code>: The invoice date must have been issued within the last 90 days.</em>
-                </td>
-              </tr>
-              <tr>
-                <td><strong>Currency</strong>&#42;</td>
-                <td>From the dropdown menu, select the currency specified with the amount in your invoice.</td>
-              </tr>
-              <tr>
-                <td><strong>Invoice Amount</strong>&#42;</td>
-                <td>
-                  Enter the exact amount displayed on your invoice.
-                  <br />
-                  <br />
-                  <em><code>Note</code>: The invoice amount must be in the US format with decimals, for example, 234.50.</em>
-                </td>
-              </tr>
-              <tr>
-                <td><strong>Validate</strong></td>
-                <td>Select the Validate button to initiate the MFA validation process.</td>
-              </tr>
-            </tbody>
-          </table>
-        </Accordion>
+The information on how to fill in the necessary information at this stage is explained in the following table.
 
+<Callout icon="💡" theme="default">
+  ### *Tip*
+
+  *In the following table, the mandatory fields are marked with an asterisk (\*).*
+</Callout>
+
+<table>
+  <thead>
+    <tr>
+      <th>Element</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Carrier Account Number</strong>&#42;</td>
+      <td>
+        Enter the 9-digit account number for FedEx.
         <br />
+        <br />
+        <em><code>Note</code>: The carrier account number must be an exact match with what FedEx have provided.</em>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Account Name (if different than customer)</strong>&#42;</td>
+      <td>Enter the name of the account you are adding.</td>
+    </tr>
+    <tr>
+      <td><strong>Account Type</strong>&#42;</td>
+      <td>
+        <p>From the dropdown menu, select one of the following account types that you want to set up for the shipping account you are adding:</p>
+        <ul>
+          <li><strong>Production</strong>: a live environment where the final version of the application is deployed and made available to the users. When you select <strong>Production</strong>, then upon selecting the Next button, you are proceeded to the next stages of the form for the address and MFA validation processes.</li>
+          <li><strong>Sandbox</strong>: a testing environment that mimics the <strong>Production</strong> environment but is isolated from it. The sandbox environment is primarily used for development and testing purposes. If you select the <strong>Sandbox</strong> environment, then the shipping account is created without the address and MFA validation processes.</li>
+        </ul>
+        <em><code>Note</code>: You can use the <strong>Sandbox</strong> account to test the integration and generate test labels to ensure that it is configured correctly.</em>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Alias</strong>&#42;</td>
+      <td>Enter a custom name which can be used when connecting to us. Therefore, it is recommend that this name must be memorable and available for reference purposes.</td>
+    </tr>
+    <tr>
+      <td><strong>Contact Name</strong>&#42;</td>
+      <td>Enter the contact name for the account you are adding.</td>
+    </tr>
+    <tr>
+      <td><strong>Contact Number</strong>&#42;</td>
+      <td>Enter the contact number for the account you are adding.</td>
+    </tr>
+    <tr>
+      <td><strong>Enable Electronic Trade Documents (ETD)</strong></td>
+      <td>Select this checkbox if you want to utilise electronic trade documents when shipping with FedEx. If you have completed the account creation process with this option selected, then at the end of the form, the system prompts you to go to the <a href="https://docs.intersoftsapient.net/docs/add-signature-and-logos-to-etd-documents#/">Add signature and logo</a> page of the application to configure the required data for ETD.</td>
+    </tr>
+    <tr>
+      <td><strong>Duties and taxes payment type</strong>&#42;</td>
+      <td>
+        <p>From the dropdown menu, select one of the following options:</p>
+        <ul>
+          <li><strong>Sender</strong> (a default value): The sender (or shipper) is responsible for any duties and taxes incurred when the shipment reaches its destination. This option is typically used when the sender wants full control over the shipment's costs.</li>
+          <li><strong>ThirdParty</strong>: A third-party account is billed for duties and taxes. This option is used when the sender wants another designated company (not the sender or receiver) to pay the applicable fees. This means that the designated third party will bear the costs of duties and taxes instead of the sender or recipient.</li>
+        </ul>
+        <em><code>Note</code>: When the <strong>ThirdParty</strong> option is selected, an additional form is displayed for you to enter the third-party account details. For more information on how to fill this form, refer to the fields explained in the following table.</em>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-        <Accordion title="Authentication with PIN generation">
-          If you want to validate your FedEx shipping account via PIN, then you must select the **PIN Generation** option, and enter the necessary information as described in the following table.
-
-          <Image align="center" border={true} src="https://files.readme.io/1dd479887e9c4881543742d8ef07a3a1c993eefa871db0e9125ccaa3918fc77e-PIN_generation_options.png" />
 <br />
-          <AsteridkForMandatoryElements />
 
-          <table>
-            <thead>
-              <tr>
-                <th>Element</th>
-                <th>Description</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><strong>Verify with PIN</strong>&#42;</td>
-                <td>
-                  <p>From the dropdown menu, select one of the following options for the PIN generation request:</p>
-                  <ul>
-                    <li><strong>SMS</strong>: Select this option if you want to receive the PIN via SMS. In this case, the PIN is sent as as a text message to your contact number registered with your FedEx account.</li>
-                    <li><strong>Phone Call</strong>: Select this option if you want to receive the PIN via phone call. In this case, the PIN is disclosed on a phone call at your contact number registered with your FedEx account.</li>
-                    <li><strong>Email</strong>: Select this option if you want to receive the PIN via email. In this case, the PIN is sent as an email to your email address registered with your FedEx account.</li>
-                  </ul>
-                </td>
-              </tr>
-              <tr>
-                <td><strong>Request PIN</strong>&#42;</td>
-                <td>After selecting the desired method for PIN generation, select the Request PIN button to trigger the PIN generation process.</td>
-              </tr>
-              <tr>
-                <td><strong>Enter the 6 digit code we sent you</strong>&#42;</td>
-                <td>
-                  Enter the 6-digit PIN code you received via the method you selected for the PIN generation request.
-                  <br />
-                  <br />
-                  <em><code>Note</code>: The pin is valid for 10 minutes only. If it is not utilised within this duration, you must request a new one.</em>
-                </td>
-              </tr>
-              <tr>
-                <td><strong>Request a new PIN</strong>&#42;</td>
-                <td>Select this link if your current PIN has expired or you did not receive one in the initial request.</td>
-              </tr>
-              <tr>
-                <td><strong>Validate</strong></td>
-                <td>Select the Validate button to initiate the MFA validation process.</td>
-              </tr>
-            </tbody>
-          </table>
-        </Accordion>
+If the **Duties and taxes payment type** field is set to **Third Party**, then you must fill the additional fields as explained in the following table.
 
+<table>
+  <thead>
+    <tr>
+      <th>Element</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>Contact Name</strong></td><td>Enter the name of the primary contact person associated with the third party account.</td></tr>
+    <tr><td><strong>Company Name</strong></td><td>Enter the name of the company associated with the third party account.</td></tr>
+    <tr><td><strong>Country</strong></td><td>From the dropdown menu, select the country in which the third party operates.</td></tr>
+    <tr><td><strong>Address</strong>&#42;</td><td>Enter the first line of the third party's address, typically including the street address or location where the company is based. This is important for accurate delivery and communication.</td></tr>
+    <tr><td><strong>Address 2</strong></td><td>Enter any additional address information that may be necessary, such as suite or apartment numbers, building names, or other relevant details that can help clarify the location.</td></tr>
+    <tr><td><strong>Address 3</strong></td><td>Enter any extra details on the address to specify the location if the previous two fields do not fully convey the address.</td></tr>
+    <tr><td><strong>Town</strong>&#42;</td><td>Enter the town or city where the third party company is located.</td></tr>
+    <tr><td><strong>County</strong></td><td>Enter the name of the county in which the third party company is located.</td></tr>
+    <tr><td><strong>Postcode</strong></td><td>Enter the postal/ZIP code for the third party's address.</td></tr>
+    <tr><td><strong>Contact Phone</strong></td><td>Enter the phone number for the third party's primary contact person.</td></tr>
+    <tr><td><strong>Third Party Account Number</strong>&#42;</td><td>Enter the unique FedEx account number of the third party that will be billed for the duties and taxes.</td></tr>
+    <tr><td><strong>Tax Identification Numbers</strong>&#42;</td><td>Enter the third party's tax identification numbers (TINs). If there are multiple TINs that need to be provided, separate each ID with a comma. This information is often required for customs clearance and ensures compliance with tax regulations.</td></tr>
+    <tr><td><strong>Next</strong></td><td>Select the Next button to proceed to the <strong>Shipping Address</strong> stage of the form.</td></tr>
+    <tr><td><strong>Submit</strong></td><td>Select the Submit button to create the shipping account and close the form. <em><code>Note</code>: This button is only displayed if you have selected the <strong>Sandbox</strong> account type.</em></td></tr>
+  </tbody>
+</table>
+
+***
+
+### 2. EULA
+
+After successfully specifying the shipping account details, at the **EULA** stage, read the FedEx 3rd party end user license agreement and confirm it by selecting the **I accept the terms of FedEx EULA to start shipping** checkbox and the I agree button.
+
+<Image align="center" border={true} src="https://files.readme.io/81109fca62feb4ab8c27b0f031bbdd6e5f8e16fb0cc80ebb9e01d243bafc1621-FedEx_Eula_tab.png" />
+
+<br />
+
+> 🚧 *Important*
+>
+> *The checkbox is only activated after you have fully scrolled down to the bottom of the agreement. Please make sure you read the license agreement carefully before accepting it. Once the account is created, you cannot undo this selection.*
+
+After you have read the EULA and confirmed your agreement, the system marks the agreement as signed with the current date and the name of the user who signed it. Now, you are proceeded to the **Shipping Address** stage of the form.
+
+***
+
+### 3. Shipping Address (MFA 1)
+
+After confirming the FedEx End-User License Agreement (EULA), the **Shipping Address** stage is the first factor of authentication, where you can specify the shipping address details that are associated with the 9-digit FedEx account number, so that the system can validate and match it with the addresses stored in the FedEx system.
+
+<Image align="center" border={true} src="https://files.readme.io/e0abd56eb4207f5e043cd1ba3259992715398fa85a2deaf011a014c8d02b85ca-FedEx_Shippig_address_stage.png" />
+
+<br />
+
+The information on how to fill in the necessary information at this stage is explained in the following table.
+
+<AsteridkForMandatoryElements />
+
+<table>
+  <thead>
+    <tr>
+      <th>Element</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>Customer Name</strong>&#42;</td><td>Enter the name of the company or organisation registered with FedEx.</td></tr>
+    <tr><td><strong>Country</strong>&#42;</td><td>From the dropdown menu, select the country in which the customer resides.</td></tr>
+    <tr>
+      <td><strong>Address</strong>&#42;</td>
+      <td>
+        Enter the first line of the customer's address, typically including the street address or location where the customer is based. This is important for accurate validation of the customer details.
         <br />
+        <br />
+        <em><code>Note</code>: Make sure you enter the exact address that you have provided against your FedEx account number. If the address validation fails, you will not proceed to the <strong>Multi-Factor Authentication</strong> stage of the form.</em>
+      </td>
+    </tr>
+    <tr><td><strong>Address 2</strong>&#42;</td><td>Enter any additional address information that may be necessary, such as suite or apartment numbers, building names, or other relevant details that can help clarify the location.</td></tr>
+    <tr><td><strong>Address 3</strong>&#42;</td><td>Enter any extra details on the address to specify the location if the previous two fields do not fully convey the address.</td></tr>
+    <tr><td><strong>Town</strong>&#42;</td><td>Enter the town or city where the customer is located.</td></tr>
+    <tr><td><strong>County</strong></td><td>Enter the sate of the county where the customer is based.</td></tr>
+    <tr><td><strong>Postcode</strong>&#42;</td><td>Enter the postal/ZIP code for the customer's address.</td></tr>
+    <tr><td><strong>This is a residential address</strong></td><td>Select this checkbox if the address provided is a residential address.</td></tr>
+    <tr><td><strong>Previous</strong></td><td>Select the Previous button to return to the <strong>Shipping Account</strong> stage and update the information, if needed.</td></tr>
+    <tr><td><strong>Submit</strong></td><td>Select the Submit button to save the entered information.</td></tr>
+  </tbody>
+</table>
 
-        > 📘 *Note*
-        >
-        > *After submitting the form, if you have selected the**Enable Electronic Trade Documents (ETD)** checkbox, then a corresponding link is displayed with your successful account creation notification, prompting you to configure the ETD data via the [Signatures and logos](https://docs.intersoftsapient.net/docs/add-signature-and-logos-to-etd-documents#/) feature of SAPIENT.*
+Once the information is submitted, the system runs a validation check by validating the provided address via the **Address Validation** API. Based on the validation output, the system does the following:
 
-        ***
+* If the validation is successful, you can proceed to the **Multi Factor Authentication** stage of the form.
+* If the validation fails (that is, the address is not matched in the FedEx systems), then a corresponding error message is displayed—and you will not proceed to the **Multi-Factor Authentication** (MFA) stage of the **Add Shipping Account** form. To proceed, you must enter the correct address details.
 
+***
+
+### 4. Multi Factor Authentication (MFA 2)
+
+After specifying the shipping address details of your FedEx account and successfully completing the address validation, you are proceeded to the **Multi Factor Authentication** stage. This stage is the second factor of authentication, where you can validate your account with FedEx.
+
+<Accordion title="Authentication with recent invoice details">
+  If you want to validate your FedEx shipping account via the recent invoice, then you must select the **Recent Invoice** option, and enter the necessary information as described in the following table.
+
+  <Image align="center" border={true} src="https://files.readme.io/d5ab0db4e4030ad6c483ebfee1f964109f4d0d4c3d8839a9224b656fb463a4e9-Recent_invoice_option.png" />
+
+  <br />
+
+  <AsteridkForMandatoryElements />
+
+  <table>
+    <thead>
+      <tr><th>Element</th><th>Description</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>Invoice Number</strong>&#42;</td><td>Enter a valid invoice number through which you want to authenticate the shipping account.</td></tr>
+      <tr><td><strong>Invoice Date</strong>&#42;</td><td>Enter the date when the invoice was issued.<br /><br /><em><code>Note</code>: The invoice date must have been issued within the last 90 days.</em></td></tr>
+      <tr><td><strong>Currency</strong>&#42;</td><td>From the dropdown menu, select the currency specified with the amount in your invoice.</td></tr>
+      <tr><td><strong>Invoice Amount</strong>&#42;</td><td>Enter the exact amount displayed on your invoice.<br /><br /><em><code>Note</code>: The invoice amount must be in the US format with decimals, for example, 234.50.</em></td></tr>
+      <tr><td><strong>Validate</strong></td><td>Select the Validate button to initiate the MFA validation process.</td></tr>
+    </tbody>
+  </table>
+</Accordion>
+
+<br />
+
+<Accordion title="Authentication with PIN generation">
+  If you want to validate your FedEx shipping account via PIN, then you must select the **PIN Generation** option, and enter the necessary information as described in the following table.
+
+  <Image align="center" border={true} src="https://files.readme.io/1dd479887e9c4881543742d8ef07a3a1c993eefa871db0e9125ccaa3918fc77e-PIN_generation_options.png" />
+
+  <br />
+
+  <AsteridkForMandatoryElements />
+
+  <table>
+    <thead>
+      <tr><th>Element</th><th>Description</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Verify with PIN</strong>&#42;</td>
+        <td>
+          <p>From the dropdown menu, select one of the following options for the PIN generation request:</p>
+          <ul>
+            <li><strong>SMS</strong>: Select this option if you want to receive the PIN via SMS. In this case, the PIN is sent as as a text message to your contact number registered with your FedEx account.</li>
+            <li><strong>Phone Call</strong>: Select this option if you want to receive the PIN via phone call. In this case, the PIN is disclosed on a phone call at your contact number registered with your FedEx account.</li>
+            <li><strong>Email</strong>: Select this option if you want to receive the PIN via email. In this case, the PIN is sent as an email to your email address registered with your FedEx account.</li>
+          </ul>
+        </td>
+      </tr>
+      <tr><td><strong>Request PIN</strong>&#42;</td><td>After selecting the desired method for PIN generation, select the Request PIN button to trigger the PIN generation process.</td></tr>
+      <tr><td><strong>Enter the 6 digit code we sent you</strong>&#42;</td><td>Enter the 6-digit PIN code you received via the method you selected for the PIN generation request.<br /><br /><em><code>Note</code>: The pin is valid for 10 minutes only. If it is not utilised within this duration, you must request a new one.</em></td></tr>
+      <tr><td><strong>Request a new PIN</strong>&#42;</td><td>Select this link if your current PIN has expired or you did not receive one in the initial request.</td></tr>
+      <tr><td><strong>Validate</strong></td><td>Select the Validate button to initiate the MFA validation process.</td></tr>
+    </tbody>
+  </table>
+</Accordion>
+
+<br />
+
+> 📘 *Note*
+>
+> *After submitting the form, if you have selected the **Enable Electronic Trade Documents (ETD)** checkbox, then a corresponding link is displayed with your successful account creation notification, prompting you to configure the ETD data via the [Signatures and logos](https://docs.intersoftsapient.net/docs/add-signature-and-logos-to-etd-documents#/) feature of SAPIENT.*
+
+***
   </ToggleListItem>
 
   <br />
