@@ -53,127 +53,58 @@ To set up the manifest webhook connection in SAPIENT, follow the instructions as
 
     <AsteridkForMandatoryElements />
 
-    <Table align={["center","left","left"]}>
+    <table>
       <thead>
         <tr>
-          <th>
-            Element
-          </th>
-
-          <th>
-            Basic authentication
-          </th>
-
-          <th>
-            OAuth2 authentication
-          </th>
+          <th>Element</th>
+          <th>Basic authentication</th>
+          <th>OAuth2 authentication</th>
         </tr>
       </thead>
-
       <tbody>
         <tr>
+          <td><strong>Authentication type</strong>&#42;</td>
           <td>
-            **Authentication type**\*
+            <p>From the dropdown menu, if applicable, select the <strong>Basic</strong> authentication type.</p>
+            <p>Basic is a simple authentication type built into the HTTP protocol. It involves sending the user's credentials (username and password) in an encoded format (Base64) within an HTTP header.</p>
           </td>
-
           <td>
-            From the dropdown menu, if applicable, select the **Basic** authentication type.
-
-            Basic is a simple authentication type built into the HTTP protocol. It involves sending the user's credentials (username and password) in an encoded format (Base64) within an HTTP header.
-          </td>
-
-          <td>
-            From the dropdown menu, if applicable, select the **OAuth2** authentication type.
-
-            oAuth2 is a specific protocol used for authorisation that allows third-party applications to access the user's data without exposing their credentials.
+            <p>From the dropdown menu, if applicable, select the <strong>OAuth2</strong> authentication type.</p>
+            <p>OAuth2 is a specific protocol used for authorisation that allows third-party applications to access the user's data without exposing their credentials.</p>
           </td>
         </tr>
-
         <tr>
-          <td>
-            **Endpoint URL**\*
-          </td>
-
-          <td>
-            Enter your endpoint URL. This is the URL that we use to connect for identification purposes.
-          </td>
-
-          <td>
-            Enter your endpoint URL. This is the URL that we use to connect for identification purposes.
-          </td>
+          <td><strong>Endpoint URL</strong>&#42;</td>
+          <td>Enter your endpoint URL. This is the URL that we use to connect for identification purposes.</td>
+          <td>Enter your endpoint URL. This is the URL that we use to connect for identification purposes.</td>
         </tr>
-
         <tr>
-          <td>
-            **Username**\*
-          </td>
-
-          <td>
-            Enter your username to identify and authenticate the INTERSOFT payload.
-          </td>
-
-          <td>
-            ❌ Not applicable
-          </td>
+          <td><strong>Username</strong>&#42;</td>
+          <td>Enter your username to identify and authenticate the INTERSOFT payload.</td>
+          <td>❌ Not applicable</td>
         </tr>
-
         <tr>
-          <td>
-            **Password**\*
-          </td>
-
-          <td>
-            Enter the password for the username you entered to identify and authenticate the INTERSOFT payload.
-          </td>
-
-          <td>
-            ❌ Not applicable
-          </td>
+          <td><strong>Password</strong>&#42;</td>
+          <td>Enter the password for the username you entered to identify and authenticate the INTERSOFT payload.</td>
+          <td>❌ Not applicable</td>
         </tr>
-
         <tr>
-          <td>
-            **Token URL**\*
-          </td>
-
-          <td>
-            ❌ Not applicable
-          </td>
-
-          <td>
-            Enter your token URL. This is an endpoint we use to connect and get the security token.
-          </td>
+          <td><strong>Token URL</strong>&#42;</td>
+          <td>❌ Not applicable</td>
+          <td>Enter your token URL. This is an endpoint we use to connect and get the security token.</td>
         </tr>
-
         <tr>
-          <td>
-            **Client ID**\*
-          </td>
-
-          <td>
-            ❌ Not applicable
-          </td>
-
-          <td>
-            Enter your client ID  to identify and authenticate the INTERSOFT payload.
-          </td>
+          <td><strong>Client ID</strong>&#42;</td>
+          <td>❌ Not applicable</td>
+          <td>Enter your client ID to identify and authenticate the INTERSOFT payload.</td>
         </tr>
-
         <tr>
-          <td>
-            **Secret**\*
-          </td>
-
-          <td>
-            ❌ Not applicable
-          </td>
-
-          <td>
-            Enter your secret to identify and authenticate the INTERSOFT payload
-          </td>
+          <td><strong>Secret</strong>&#42;</td>
+          <td>❌ Not applicable</td>
+          <td>Enter your secret to identify and authenticate the INTERSOFT payload.</td>
         </tr>
       </tbody>
-    </Table>
+    </table>
 
     ***
   </ToggleListItem>
