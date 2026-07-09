@@ -55,43 +55,29 @@ In SAPIENT, you can create a DX Freight shipping account by selecting your desir
 
         <AsteridkForMandatoryElements />
 
-        <Table align={["center","left"]}>
+        <table>
           <thead>
             <tr>
-              <th>
-                Element
-              </th>
-
-              <th>
-                Description
-              </th>
+              <th>Element</th>
+              <th>Description</th>
             </tr>
           </thead>
-
           <tbody>
             <tr>
-              <td>
-                **Carrier**\*
-              </td>
-
-              <td>
-                From the dropdown list, select **DXF - DX Freight**.
-              </td>
+              <td><strong>Carrier</strong>&#42;</td>
+              <td>From the dropdown list, select <strong>DXF - DX Freight</strong>.</td>
             </tr>
-
             <tr>
-              <td>
-                **Shipping Location**\*
-              </td>
-
+              <td><strong>Shipping Location</strong>&#42;</td>
               <td>
                 From the dropdown menu, select the location that you want to assign to the shipping account you are creating.
-
-                *`Note`: Before selecting the shipping location, make sure you have[created one](https://docs.intersoftsapient.net/docs/add-a-shipping-location) beforehand.*
+                <br />
+                <br />
+                <em><code>Note</code>: Before selecting the shipping location, make sure you have <a href="https://docs.intersoftsapient.net/docs/add-a-shipping-location">created one</a> beforehand.</em>
               </td>
             </tr>
           </tbody>
-        </Table>
+        </table>
 
         ***
       </ToggleListItem>
@@ -107,89 +93,54 @@ In SAPIENT, you can create a DX Freight shipping account by selecting your desir
           Mandatory fields in the following table are marked with an asterisk (\*).
         </Callout>
 
-        <Table align={["center","left"]}>
+        <table>
           <thead>
             <tr>
-              <th>
-                Element
-              </th>
-
-              <th>
-                Description
-              </th>
+              <th>Element</th>
+              <th>Description</th>
             </tr>
           </thead>
-
           <tbody>
             <tr>
-              <td>
-                **Carrier Account Number**\*
-              </td>
-
+              <td><strong>Carrier Account Number</strong>&#42;</td>
               <td>
                 Enter the account number for DX Freight.
-
+                <br />
+                <br />
                 The format of the account number must be compliant with the carrier you have selected. For DX Freight, the account number must be 8 characters long.
-
-                *`Note`: If you already have an account with DX Freight that is actively being used, and if you wish to receive tracking via INTERSOFT, then you need to request DX to enable tracking and send it to INTERSOFT.*
+                <br />
+                <br />
+                <em><code>Note</code>: If you already have an account with DX Freight that is actively being used, and if you wish to receive tracking via INTERSOFT, then you need to request DX to enable tracking and send it to INTERSOFT.</em>
               </td>
             </tr>
-
             <tr>
+              <td><strong>Account Name (if different than customer)</strong>&#42;</td>
+              <td>Enter the name of the account you are adding.</td>
+            </tr>
+            <tr>
+              <td><strong>Account Type</strong>&#42;</td>
               <td>
-                **Account Name (if different than customer)**\*
-              </td>
-
-              <td>
-                Enter the name of the account you are adding.
+                <p>From the dropdown menu, select one of the following account types that you want to set up for the the shipping account you are adding:</p>
+                <ul>
+                  <li><strong>Production</strong>: A live environment where the final version of the application is deployed and made available to the users.</li>
+                  <li><strong>Sandbox</strong>: A testing environment that mimics the <strong>Production</strong> environment but is isolated from it. The sandbox environment is primarily used for development and testing purposes.</li>
+                </ul>
               </td>
             </tr>
-
             <tr>
-              <td>
-                **Account Type**\*
-              </td>
-
-              <td>
-                From the dropdown menu, select one of the following account types that you want to set up for the the shipping account you are adding:
-
-                • **[Production](https://docs.intersoftsapient.net/docs/sandbox-account)**: A live environment where the final version of the application is deployed and made available to the users.
-
-                • **[Sandbox](https://docs.intersoftsapient.net/docs/sandbox-account)**: A testing environment that mimics the **Production** environment but is isolated from it. The sandbox environment is primarily used for development and testing purposes.
-              </td>
+              <td><strong>Alias</strong>&#42;</td>
+              <td>Enter a custom name which can be used in the API request instead of using the shipping account ID when connecting to us. Therefore, it is recommend that this name must be memorable and available for reference purposes.</td>
             </tr>
-
             <tr>
-              <td>
-                **Alias**\*
-              </td>
-
-              <td>
-                Enter a custom name which can be used in the API request instead of using the shipping account ID when connecting to us. Therefore, it is recommend that this name must be memorable and available for reference purposes.
-              </td>
+              <td><strong>Contact Name</strong>&#42;</td>
+              <td>Enter the contact name for the account you are adding.</td>
             </tr>
-
             <tr>
-              <td>
-                **Contact Name**\*
-              </td>
-
-              <td>
-                Enter the contact name for the account you are adding.
-              </td>
-            </tr>
-
-            <tr>
-              <td>
-                **Contact Number**\*
-              </td>
-
-              <td>
-                Enter the contact number for the account you are adding.
-              </td>
+              <td><strong>Contact Number</strong>&#42;</td>
+              <td>Enter the contact number for the account you are adding.</td>
             </tr>
           </tbody>
-        </Table>
+        </table>
 
         ***
       </ToggleListItem>
@@ -203,59 +154,40 @@ In SAPIENT, you can create a DX Freight shipping account by selecting your desir
 
         <AsteridkForMandatoryElements />
 
-        <Table align={["center","left"]}>
+        <table>
           <thead>
             <tr>
-              <th>
-                Element
-              </th>
-
-              <th>
-                Description
-              </th>
+              <th>Element</th>
+              <th>Description</th>
             </tr>
           </thead>
-
           <tbody>
             <tr>
+              <td><strong>Origin Service Centre (Also referred to as "Depot")</strong>&#42;</td>
               <td>
-                **Origin Service Centre (Also referred to as "Depot")**\*
-              </td>
-
-              <td>
-                Enter the origin service code for identifying the correct physical location from which the <Glossary>shipments</Glossary> originate.
-
-                *`Note`: This code may vary depending on the selected service type, for example it can be a single number or a combination of  two letters and numbers. For more information, please contact DX Freight.*
+                Enter the origin service code for identifying the correct physical location from which the shipments originate.
+                <br />
+                <br />
+                <em><code>Note</code>: This code may vary depending on the selected service type, for example it can be a single number or a combination of two letters and numbers. For more information, please contact DX Freight.</em>
               </td>
             </tr>
-
             <tr>
-              <td>
-                **Password**\*
-              </td>
-
-              <td>
-                Enter the password associated with your DX Freight account. It is essential for securing the account and ensuring that only authorized users have access to shipping details and operations.
-              </td>
+              <td><strong>Password</strong>&#42;</td>
+              <td>Enter the password associated with your DX Freight account. It is essential for securing the account and ensuring that only authorized users have access to shipping details and operations.</td>
             </tr>
-
             <tr>
+              <td><strong>Service Type</strong>&#42;</td>
               <td>
-                **Service Type**\*
-              </td>
-
-              <td>
-                From the dropdown menu, select one the following service types that you want to use for your shipments, specifically in terms of the number of personnel involved in the delivery:
-
-                • **1 Man**: This service type typically means that one crew member will handle the delivery. This is suitable for smaller, lighter <Glossary>items</Glossary> that one person can manage without assistance.
-
-                • **2 Man**: This indicates that two personnel will be involved in the delivery process, which is often necessary for larger or heavier items that require additional handling or lifting.
-
-                *`Note`: Bear in mind that you need to create separate shipping accounts for each service type that you wish to use in your shipments.*
+                <p>From the dropdown menu, select one the following service types that you want to use for your shipments, specifically in terms of the number of personnel involved in the delivery:</p>
+                <ul>
+                  <li><strong>1 Man</strong>: This service type typically means that one crew member will handle the delivery. This is suitable for smaller, lighter items that one person can manage without assistance.</li>
+                  <li><strong>2 Man</strong>: This indicates that two personnel will be involved in the delivery process, which is often necessary for larger or heavier items that require additional handling or lifting.</li>
+                </ul>
+                <em><code>Note</code>: Bear in mind that you need to create separate shipping accounts for each service type that you wish to use in your shipments.</em>
               </td>
             </tr>
           </tbody>
-        </Table>
+        </table>
 
         ***
       </ToggleListItem>
