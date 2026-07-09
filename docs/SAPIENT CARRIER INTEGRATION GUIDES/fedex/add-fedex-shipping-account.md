@@ -82,9 +82,9 @@ To add a shipping account for FedEx in SAPIENT, follow the instructions as expla
       *When entering the information, follow the order in which the tabs are displayed.*
     </Callout>
 
-    <Tabs>
-      <Tab title="1. Shipping Account">
-        At the **Shipping Account** stage, you can specify the general details associated to your FedEx account number.
+    ### 1. Shipping Account
+
+    At the **Shipping Account** stage, you can specify the general details associated to your FedEx account number.
 
         <Image align="center" border={true} src="https://files.readme.io/8822b5421cd564a71a5d9e39a2ad6ec6cc6eb783034bb5979b0b2522299bdc55-FEDEX_Shipping_account_stage.png" alt="Specifying shipping account details" />
 
@@ -180,10 +180,11 @@ To add a shipping account for FedEx in SAPIENT, follow the instructions as expla
         | **Tax Identification Numbers**\* | Enter the third party's tax identification numbers (TINs). If there are multiple TINs that need to be provided, separate each ID with a comma. This information is often required for customs clearance and ensures compliance with tax regulations.                                             |
         |             **Next**             | Select ![alt text](https://files.readme.io/b6c8af0dd2df7d574d6e95a6d57dee08b1b36bfe92e4350a94cb3b7eee6a5b71-Next_button.png) to proceed to the **Shipping Address** stage of the form.                                                                                                           |
         |            **Submit**            | Select ![alt text](https://files.readme.io/2ffa9cf28233588e3fa0be9258d8a2d6f5aa9d84f5e25f263c2c4d8c214cdbba-Submit_button.png) to create the shipping account and close the form. *`Note`: This button is only displayed if you have selected the**Sandbox** <Glossary>account type</Glossary>*. |
-      </Tab>
+    ***
 
-      <Tab title="2. EULA">
-        After successfully specifying the shipping account details, at the **EULA** stage, read the FedEx 3rd party end user license agreement and confirm it by selecting the **I accept the terms of FedEx EULA to start shipping** checkbox and ![alt text](https://files.readme.io/a544674d471b96aadef7f8afe38ba10b912f11fb7b7fd758dc372d04dfbdd7da-I_agree_button.png) button.
+    ### 2. EULA
+
+    After successfully specifying the shipping account details, at the **EULA** stage, read the FedEx 3rd party end user license agreement and confirm it by selecting the **I accept the terms of FedEx EULA to start shipping** checkbox and ![alt text](https://files.readme.io/a544674d471b96aadef7f8afe38ba10b912f11fb7b7fd758dc372d04dfbdd7da-I_agree_button.png) button.
 
         <Image align="center" border={true} src="https://files.readme.io/81109fca62feb4ab8c27b0f031bbdd6e5f8e16fb0cc80ebb9e01d243bafc1621-FedEx_Eula_tab.png" />
 
@@ -194,10 +195,11 @@ To add a shipping account for FedEx in SAPIENT, follow the instructions as expla
         > *The checkbox is only activated after you have fully scrolled down to the bottom of the agreement. Please make sure you read the license agreement carefully before accepting it. Once the account is created, you cannot undo this selection.*
 
         After you have read the EULA and confirmed your agreement, the system marks the agreement as signed with the current date and the name of the user who signed it. Now, you are proceeded to the **Shipping Address** stage of the form.
-      </Tab>
+    ***
 
-      <Tab title="3. Shipping Address (MFA 1)">
-        After confirming the FedEx End-User License Agreement (EULA), the **Shipping Address** stage is the first factor of authentication, where you can specify the shipping address details that are associated with the 9-digit FedEx account number, so that the system can validate and match it with the addresses stored in the FedEx system.
+    ### 3. Shipping Address (MFA 1)
+
+    After confirming the FedEx End-User License Agreement (EULA), the **Shipping Address** stage is the first factor of authentication, where you can specify the shipping address details that are associated with the 9-digit FedEx account number, so that the system can validate and match it with the addresses stored in the FedEx system.
 
         <Image align="center" border={true} src="https://files.readme.io/e0abd56eb4207f5e043cd1ba3259992715398fa85a2deaf011a014c8d02b85ca-FedEx_Shippig_address_stage.png" />
 
@@ -207,142 +209,75 @@ To add a shipping account for FedEx in SAPIENT, follow the instructions as expla
 
         <AsteridkForMandatoryElements />
 
-        <Table align={["center","left"]}>
+        <table>
           <thead>
             <tr>
-              <th>
-                Element
-              </th>
-
-              <th>
-                Description
-              </th>
+              <th>Element</th>
+              <th>Description</th>
             </tr>
           </thead>
-
           <tbody>
             <tr>
-              <td>
-                **Customer Name**\*
-              </td>
-
-              <td>
-                Enter the name of the company or organisation registered with FedEx.
-              </td>
+              <td><strong>Customer Name</strong>&#42;</td>
+              <td>Enter the name of the company or organisation registered with FedEx.</td>
             </tr>
-
             <tr>
-              <td>
-                **Country**\*
-              </td>
-
-              <td>
-                From the dropdown menu, select the country in which the customer resides.
-              </td>
+              <td><strong>Country</strong>&#42;</td>
+              <td>From the dropdown menu, select the country in which the customer resides.</td>
             </tr>
-
             <tr>
-              <td>
-                **Address**\*
-              </td>
-
+              <td><strong>Address</strong>&#42;</td>
               <td>
                 Enter the first line of the customer's address, typically including the street address or location where the customer is based. This is important for accurate validation of the customer details.
-
-                *`Note:`Make sure you enter the exact address that you have provided against your FedEx account number. If the address validation fails, you will not proceed to the**Multi-Factor Authentication** stage of the form.*
+                <br />
+                <br />
+                <em><code>Note</code>: Make sure you enter the exact address that you have provided against your FedEx account number. If the address validation fails, you will not proceed to the <strong>Multi-Factor Authentication</strong> stage of the form.</em>
               </td>
             </tr>
-
             <tr>
-              <td>
-                **Address 2**\*
-              </td>
-
-              <td>
-                Enter any additional address information that may be necessary, such as suite or apartment numbers, building names, or other relevant details that can help clarify the location.
-              </td>
+              <td><strong>Address 2</strong>&#42;</td>
+              <td>Enter any additional address information that may be necessary, such as suite or apartment numbers, building names, or other relevant details that can help clarify the location.</td>
             </tr>
-
             <tr>
-              <td>
-                **Address 3**\*
-              </td>
-
-              <td>
-                Enter any extra details on the address to specify the location if the previous two fields do not fully convey the address.
-              </td>
+              <td><strong>Address 3</strong>&#42;</td>
+              <td>Enter any extra details on the address to specify the location if the previous two fields do not fully convey the address.</td>
             </tr>
-
             <tr>
-              <td>
-                **Town**\*
-              </td>
-
-              <td>
-                Enter the town or city where the customer is located.
-              </td>
+              <td><strong>Town</strong>&#42;</td>
+              <td>Enter the town or city where the customer is located.</td>
             </tr>
-
             <tr>
-              <td>
-                **County**
-              </td>
-
-              <td>
-                Enter the sate of the county where the customer is based.
-              </td>
+              <td><strong>County</strong></td>
+              <td>Enter the sate of the county where the customer is based.</td>
             </tr>
-
             <tr>
-              <td>
-                **Postcode**\*
-              </td>
-
-              <td>
-                Enter the postal/ZIP code for the customer's address.
-              </td>
+              <td><strong>Postcode</strong>&#42;</td>
+              <td>Enter the postal/ZIP code for the customer's address.</td>
             </tr>
-
             <tr>
-              <td>
-                **This is a residential address**
-              </td>
-
-              <td>
-                Select this checkbox if the address provided is a residential address.
-              </td>
+              <td><strong>This is a residential address</strong></td>
+              <td>Select this checkbox if the address provided is a residential address.</td>
             </tr>
-
             <tr>
-              <td>
-                **Previous**
-              </td>
-
-              <td>
-                Select ![alt text](https://files.readme.io/32d1e0325bb43e32995a83a961895c700550d54e72e6ecdece1661a2fe88d0a9-Previous_button.png) to return to the **Shipping Account** stage and update the information, if needed.
-              </td>
+              <td><strong>Previous</strong></td>
+              <td>Select the Previous button to return to the <strong>Shipping Account</strong> stage and update the information, if needed.</td>
             </tr>
-
             <tr>
-              <td>
-                **Submit**
-              </td>
-
-              <td>
-                Select ![alt text](https://files.readme.io/d1aaa1a96df2bb864b3c2ff0bca425a2c21b8a8e159fa5bca06bdd323c0b3775-Submit_button.png) to save the entered information.
-              </td>
+              <td><strong>Submit</strong></td>
+              <td>Select the Submit button to save the entered information.</td>
             </tr>
           </tbody>
-        </Table>
+        </table>
 
         Once the information is submitted, the system runs a validation check by validating the provided address via the**Address Validation** API. Based on the validation output, the system does the following:
 
         * If the validation is successful, you can proceed to the **Multi Factor Authentication** stage of the form.
         * If the validation fails (that is, the address is not matched in the FedEx systems), then a corresponding error message is displayed—and you will not proceed to the **Multi-Factor Authentication** (MFA) stage of the **Add Shipping Account** form. To proceed, you must enter the correct address details.
-      </Tab>
+    ***
 
-      <Tab title="4. Multi Factor Authentication (MFA 2)">
-        After specifying the shipping address details of your FedEx account and successfully completing the address validation, you are proceeded to the **Multi Factor Authentication** stage. This stage is the second factor of authentication, where you can validate your account with FedEx.
+    ### 4. Multi Factor Authentication (MFA 2)
+
+    After specifying the shipping address details of your FedEx account and successfully completing the address validation, you are proceeded to the **Multi Factor Authentication** stage. This stage is the second factor of authentication, where you can validate your account with FedEx.
 
         <Accordion title="Authentication with recent invoice details">
           If you want to validate your FedEx shipping account via the recent invoice, then you must select the **Recent Invoice** option, and enter the necessary information as described in the following table.
@@ -351,74 +286,46 @@ To add a shipping account for FedEx in SAPIENT, follow the instructions as expla
 <br />
           <AsteridkForMandatoryElements />
 
-          <Table align={["center","left"]}>
+          <table>
             <thead>
               <tr>
-                <th>
-                  Element
-                </th>
-
-                <th>
-                  Description
-                </th>
+                <th>Element</th>
+                <th>Description</th>
               </tr>
             </thead>
-
             <tbody>
               <tr>
-                <td>
-                  **Invoice Number**\*
-                </td>
-
-                <td>
-                  Enter a valid invoice number through which you want to authenticate the shipping account.
-                </td>
+                <td><strong>Invoice Number</strong>&#42;</td>
+                <td>Enter a valid invoice number through which you want to authenticate the shipping account.</td>
               </tr>
-
               <tr>
-                <td>
-                  **Invoice Date**\*
-                </td>
-
+                <td><strong>Invoice Date</strong>&#42;</td>
                 <td>
                   Enter the date when the invoice was issued.
-
-                  *`Note`: The invoice date must have been issued within the last 90 days.*
+                  <br />
+                  <br />
+                  <em><code>Note</code>: The invoice date must have been issued within the last 90 days.</em>
                 </td>
               </tr>
-
               <tr>
+                <td><strong>Currency</strong>&#42;</td>
+                <td>From the dropdown menu, select the currency specified with the amount in your invoice.</td>
+              </tr>
+              <tr>
+                <td><strong>Invoice Amount</strong>&#42;</td>
                 <td>
-                  **Currency**\*
-                </td>
-
-                <td>
-                  From the dropdown menu, select the currency specified with the amount in your invoice.
+                  Enter the exact amount displayed on your invoice.
+                  <br />
+                  <br />
+                  <em><code>Note</code>: The invoice amount must be in the US format with decimals, for example, 234.50.</em>
                 </td>
               </tr>
-
               <tr>
-                <td>
-                  **Invoice Amount**\*
-                </td>
-
-                <td>
-                  Enter the exact amount displayed on your invoice.\
-                  *`Note`: The invoice amount must be in the US format with decimals, for example, 234.50.*
-                </td>
-              </tr>
-
-              <tr>
-                <td>
-                  **Validate**
-                </td>
-
-                <td>
-                  Select ![alt text](https://files.readme.io/9ad4e9682f0c8d463a45785d7597c52ee40602f9e6a914f27bb6656409011726-Validate_button.png) to initiate the MFA validation process.
-                </td>
+                <td><strong>Validate</strong></td>
+                <td>Select the Validate button to initiate the MFA validation process.</td>
               </tr>
             </tbody>
-          </Table>
+          </table>
         </Accordion>
 
         <br />
@@ -430,79 +337,48 @@ To add a shipping account for FedEx in SAPIENT, follow the instructions as expla
 <br />
           <AsteridkForMandatoryElements />
 
-          <Table align={["center","left"]}>
+          <table>
             <thead>
               <tr>
-                <th>
-                  Element
-                </th>
-
-                <th>
-                  Description
-                </th>
+                <th>Element</th>
+                <th>Description</th>
               </tr>
             </thead>
-
             <tbody>
               <tr>
+                <td><strong>Verify with PIN</strong>&#42;</td>
                 <td>
-                  **Verify with PIN**\*
-                </td>
-
-                <td>
-                  From the dropdown menu, select one of the following options for the PIN generation request:
-
-                  • **SMS**: Select this option if you want to receive the PIN via SMS. In this case, the PIN is sent as as a text message to your contact number registered with your FedEx account.
-
-                  • **Phone Call**: Select this option if you want to receive the PIN via phone call. In this case, the PIN is disclosed on a phone call at your contact number registered with your FedEx account.
-
-                  • **Email**: Select this option if you want to receive the PIN via email. In this case, the PIN is sent as an email to your email address registered with your FedEx account.
+                  <p>From the dropdown menu, select one of the following options for the PIN generation request:</p>
+                  <ul>
+                    <li><strong>SMS</strong>: Select this option if you want to receive the PIN via SMS. In this case, the PIN is sent as as a text message to your contact number registered with your FedEx account.</li>
+                    <li><strong>Phone Call</strong>: Select this option if you want to receive the PIN via phone call. In this case, the PIN is disclosed on a phone call at your contact number registered with your FedEx account.</li>
+                    <li><strong>Email</strong>: Select this option if you want to receive the PIN via email. In this case, the PIN is sent as an email to your email address registered with your FedEx account.</li>
+                  </ul>
                 </td>
               </tr>
-
               <tr>
-                <td>
-                  **Request PIN**\*
-                </td>
-
-                <td>
-                  After selecting the desired method for PIN generation, select ![alt text](https://files.readme.io/ebe52fd81561c33e443aee0579c17fdf72a4d5359574d110acd760c025baec5a-Request_pin_button.png) to trigger the PIN generation process.
-                </td>
+                <td><strong>Request PIN</strong>&#42;</td>
+                <td>After selecting the desired method for PIN generation, select the Request PIN button to trigger the PIN generation process.</td>
               </tr>
-
               <tr>
-                <td>
-                  **Enter the 6 digit code we sent you**\*
-                </td>
-
+                <td><strong>Enter the 6 digit code we sent you</strong>&#42;</td>
                 <td>
                   Enter the 6-digit PIN code you received via the method you selected for the PIN generation request.
-
-                  *`**Note**`: The pin is valid for 10 minutes only. If it is not utilised within this duration, you must request a new one.*
+                  <br />
+                  <br />
+                  <em><code>Note</code>: The pin is valid for 10 minutes only. If it is not utilised within this duration, you must request a new one.</em>
                 </td>
               </tr>
-
               <tr>
-                <td>
-                  **Request a new PIN**\*
-                </td>
-
-                <td>
-                  Select this link if your current PIN has expired or you did not receive one in the initial request.
-                </td>
+                <td><strong>Request a new PIN</strong>&#42;</td>
+                <td>Select this link if your current PIN has expired or you did not receive one in the initial request.</td>
               </tr>
-
               <tr>
-                <td>
-                  **Validate**
-                </td>
-
-                <td>
-                  Select ![alt text](https://files.readme.io/9ad4e9682f0c8d463a45785d7597c52ee40602f9e6a914f27bb6656409011726-Validate_button.png) to initiate the MFA validation process.
-                </td>
+                <td><strong>Validate</strong></td>
+                <td>Select the Validate button to initiate the MFA validation process.</td>
               </tr>
             </tbody>
-          </Table>
+          </table>
         </Accordion>
 
         <br />
@@ -512,8 +388,7 @@ To add a shipping account for FedEx in SAPIENT, follow the instructions as expla
         > *After submitting the form, if you have selected the**Enable Electronic Trade Documents (ETD)** checkbox, then a corresponding link is displayed with your successful account creation notification, prompting you to configure the ETD data via the [Signatures and logos](https://docs.intersoftsapient.net/docs/add-signature-and-logos-to-etd-documents#/) feature of SAPIENT.*
 
         ***
-      </Tab>
-    </Tabs>
+
   </ToggleListItem>
 
   <br />
