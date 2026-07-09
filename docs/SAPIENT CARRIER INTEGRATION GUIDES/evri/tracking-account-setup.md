@@ -67,43 +67,29 @@ To add a tracking account for EVRi in SAPIENT, perform the steps as explained in
 
     <AsteridkForMandatoryElements />
 
-    <Table align={["center","left"]}>
+    <table>
       <thead>
         <tr>
-          <th>
-            Element
-          </th>
-
-          <th>
-            Description
-          </th>
+          <th>Element</th>
+          <th>Description</th>
         </tr>
       </thead>
-
       <tbody>
         <tr>
-          <td>
-            **Carrier**\*
-          </td>
-
-          <td>
-            From the dropdown menu, select EVRi as your carrier option.
-          </td>
+          <td><strong>Carrier</strong>&#42;</td>
+          <td>From the dropdown menu, select EVRi as your carrier option.</td>
         </tr>
-
         <tr>
+          <td><strong>Shipping Account</strong>&#42;</td>
           <td>
-            **Shipping Account**\*
-          </td>
-
-          <td>
-            From the dropdown menu, select the <Glossary>shipping account</Glossary> for which you want to receive tracking.
-
-            You can also select the **All Shipping Accounts** option to add this tracking account for all existing accounts.
+            From the dropdown menu, select the shipping account for which you want to receive tracking.
+            <br />
+            <br />
+            You can also select the <strong>All Shipping Accounts</strong> option to add this tracking account for all existing accounts.
           </td>
         </tr>
       </tbody>
-    </Table>
+    </table>
 
     ***
   </ToggleListItem>
@@ -119,11 +105,28 @@ To add a tracking account for EVRi in SAPIENT, perform the steps as explained in
 
     <AsteridkForMandatoryElements />
 
-    |     Element    | Description                                                                                                               |
-    | :------------: | :------------------------------------------------------------------------------------------------------------------------ |
-    | **Username**\* | Enter the username that you have received from EVRi in response to the tracking account setup request you sent earlier.   |
-    | **Password**\* | Enter the password that you have received from EVRi in response to the tracking account setup request you sent earlier.   |
-    |  **File Path** | Enter the file path that you have received from EVRi in response to your tracking account setup request you sent earlier. |
+    <table>
+      <thead>
+        <tr>
+          <th>Element</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Username</strong>&#42;</td>
+          <td>Enter the username that you have received from EVRi in response to the tracking account setup request you sent earlier.</td>
+        </tr>
+        <tr>
+          <td><strong>Password</strong>&#42;</td>
+          <td>Enter the password that you have received from EVRi in response to the tracking account setup request you sent earlier.</td>
+        </tr>
+        <tr>
+          <td><strong>File Path</strong></td>
+          <td>Enter the file path that you have received from EVRi in response to your tracking account setup request you sent earlier.</td>
+        </tr>
+      </tbody>
+    </table>
   </ToggleListItem>
 
   <br />
