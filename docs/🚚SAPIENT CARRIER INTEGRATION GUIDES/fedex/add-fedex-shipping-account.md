@@ -39,47 +39,14 @@ To add a shipping account for FedEx in SAPIENT, follow the instructions as expla
 
 <Image align="center" alt="Entering account details" border={true} caption="Entering account details" src="https://files.readme.io/0aa0c2e5571aecb4b468578dd7f4575502f692fed3703818183b78c9a4548a82-Add_shipping_account_FedEx.png" width="500px" />
 
-<AsteridkForMandatoryElements />
+\* Indicates a mandatory field.
 
-<Table align={["center","left"]}>
-  <thead>
-    <tr>
-      <th>
-        Element
-      </th>
+| Element | Description |
+| --- | --- |
+| **Carrier**\* | From the dropdown list, select **FEDEX - FedEx**. |
+| **Shipping Location**\* | From the dropdown menu, select the location that you want to assign to the shipping account you are creating.<br /><br />_`Note`: Before selecting the shipping location, make sure you have[created one](https://docs.intersoftsapient.net/docs/add-a-shipping-location) beforehand._ |
 
-      <th>
-        Description
-      </th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <tr>
-      <td>
-        **Carrier***
-      </td>
-
-      <td>
-        From the dropdown list, select **FEDEX - FedEx**.
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        **Shipping Location***
-      </td>
-
-      <td>
-        From the dropdown menu, select the location that you want to assign to the shipping account you are creating.
-
-        _`Note`: Before selecting the shipping location, make sure you have[created one](https://docs.intersoftsapient.net/docs/add-a-shipping-location) beforehand._
-      </td>
-    </tr>
-  </tbody>
-</Table>
-
-4. After specifying the carrier and shipping location, a new **CONNECT YOUR FEDEX ACCOUNT** form appears.  At the **Shipping Account** stage of the form, [specify the general details](https://docs.intersoftsapient.net/docs/specify-shipping-account-details#/) associated to your FedEx account number and then select <Image alt="alt text" border={false} src="https://files.readme.io/cc0b1ba97fd42622607551903346520543f58dfb3740f9f55eec3021b0a251d0-Next_button.png" />.
+4. After specifying the carrier and shipping location, a new **CONNECT YOUR FEDEX ACCOUNT** form appears. At the **Shipping Account** stage of the form, [specify the general details](https://docs.intersoftsapient.net/docs/specify-shipping-account-details#/) associated to your FedEx account number and then select ![Next button](https://files.readme.io/cc0b1ba97fd42622607551903346520543f58dfb3740f9f55eec3021b0a251d0-Next_button.png).
 
 <Image align="center" border={true} caption="Entering shipping account details" src="https://files.readme.io/950ecf2078b82bd3fe88341fade42750572d13b77720c3d164f97625bb6ff8e5-FEDEX_Shipping_account_stage.png" />
 
