@@ -64,133 +64,46 @@ To configure the Hurricane commerce service, follow the instructions as provided
   <br />
 
   <ToggleListItem title={<strong>4. Configure Hurricane services  </strong>} icon="fa-rocket">
-    <br />
 
-    On the **Configure Hurricane** page that opens, next to each available service, turn on the toggle for the service that you wish to configure.
+<br />
 
-    <Image
-      align="center"
-      border={true}
-      src="https://files.readme.io/3aaa4e5db150ef6800d6595f71b05fa7c207d4ac67d041c4180af7a4bb3b1e6e-Selecting_hurricane_service.png"
-      alt=">
-Selecting Hurricane services"
-    />
+On the **Configure Hurricane** page that opens, next to each available service, turn on the toggle for the service that you wish to configure.
+
+<Image align="center" border={true} src="https://files.readme.io/3aaa4e5db150ef6800d6595f71b05fa7c207d4ac67d041c4180af7a4bb3b1e6e-Selecting_hurricane_service.png" alt="Selecting Hurricane services" />
+
   </ToggleListItem>
 
   <br />
 
   <ToggleListItem title={<strong>5. Enable Hurricane services </strong>} icon="fa-rocket">
-    <br />
 
-    If you wish to select the **Enable Prohibited Items check on shipment creation** or **Enable Denied Parties check on shipment creation** options, then a **DENIED PARTIES AND PROHIBITED ITEMS COUNTRIES \[COUNTER]** table is displayed with the following columns.
+<br />
 
-    <Image
-      align="center"
-      border={true}
-      src="https://files.readme.io/034f4680d679a260821c6edc87a787cbb97887a401cb96e3ceb7904a811b6b1d-Configuring_hurricane_services.png"
-      alt=">
-Configuring Hurricane services"
-    />
+If you wish to select the **Enable Prohibited Items check on shipment creation** or **Enable Denied Parties check on shipment creation** options, then a **DENIED PARTIES AND PROHIBITED ITEMS COUNTRIES \[COUNTER]** table is displayed with the following columns.
 
-    <br />
+<Image align="center" border={true} src="https://files.readme.io/034f4680d679a260821c6edc87a787cbb97887a401cb96e3ceb7904a811b6b1d-Configuring_hurricane_services.png" alt="Configuring Hurricane services" />
 
-    <Table align={["center","left"]}>
-      <thead>
-        <tr>
-          <th>
-            Column
-          </th>
+<br />
 
-          <th>
-            Description
-          </th>
-        </tr>
-      </thead>
+| Column | Description |
+| --- | --- |
+| **Country Name** | Represents the name of the country for which the service is being configured. |
+| **Alpha-2 Code** | Represents the country code (initials) of the country for which the service is being configured. |
+| **Require Check for Denied Parties** | Represents whether the service needs to check for <Glossary>denied parties</Glossary> for this country. Typical values are **Yes** and **No**. |
+| **Denied Party Score** | Represents the threshold value above which the country is identified as denied.<br /><br />*Note: this value is set to 75 by default. You cannot change this value.* |
+| **Require Check for Prohibited Items** | Represents whether the service needs to check for prohibited items. Typical values are **Yes** and **No**. |
+| **Last Modified** | Represents the exact date, time, and the name of the user who last modified the information provided in the table. |
+| Actions | Select **View** to open a new screen, where you can manage the Hurricane services for that country. Additionally, from that page, you can also delete the country, if applicable. |
 
-      <tbody>
-        <tr>
-          <td>
-            **Country Name**
-          </td>
+<br />
 
-          <td>
-            Represents the name of the country for which the service is being configured.
-          </td>
-        </tr>
+<Callout icon="💡" theme="default">
+  ### *Tip*
 
-        <tr>
-          <td>
-            **Alpha-2 Code**
-          </td>
+  *You can also add a new country to the list by selecting the**Add Country** button and configure the desired hurricane services for it on the fly*.
+</Callout>
 
-          <td>
-            Represents the country code (initials) of the country for which the service is being configured.
-          </td>
-        </tr>
-
-        <tr>
-          <td>
-            **Require Check for Denied Parties**
-          </td>
-
-          <td>
-            Represents whether the service needs to check for <Glossary>denied parties</Glossary> for this country. Typical values are **Yes** and **No**.
-          </td>
-        </tr>
-
-        <tr>
-          <td>
-            **Denied Party Score**
-          </td>
-
-          <td>
-            Represents the threshold value above which the country is identified as denied.
-
-            *Note: this value is set to 75 by default. You cannot change this value.*
-          </td>
-        </tr>
-
-        <tr>
-          <td>
-            **Require Check for Prohibited Items**
-          </td>
-
-          <td>
-            Represents whether the service needs to check for prohibited items. Typical values are **Yes** and **No**.
-          </td>
-        </tr>
-
-        <tr>
-          <td>
-            **Last Modified**
-          </td>
-
-          <td>
-            Represents the exact date, time, and the name of the user who last modified the information provided in the table.
-          </td>
-        </tr>
-
-        <tr>
-          <td>
-            Actions
-          </td>
-
-          <td>
-            Select **View** to open a new screen, where you can manage the Hurricane services for that country. Additionally, from that page, you can also delete the country, if applicable.
-          </td>
-        </tr>
-      </tbody>
-    </Table>
-
-    <br />
-
-    <Callout icon="💡" theme="default">
-      ### *Tip*
-
-      *You can also add a new country to the list by selecting the**Add Country** button and configure the desired hurricane services for it on the fly*.
-    </Callout>
-
-    ***
+***
   </ToggleListItem>
 </ToggleList>
 
