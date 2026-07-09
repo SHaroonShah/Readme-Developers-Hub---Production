@@ -26,8 +26,6 @@ The following sections summarises the MDF validation rules, their respective shi
   _The Royal Mail validation rules may change overtime. For the most accurate and up-to-date validation rules, please contact your Royal Mail account manager._
 </Callout>
 
-<br />
-
 <Accordion title="Ruleset A" icon="fa-solid fa-shield-check">
   **Scenario example**: Domestic <Glossary>DOX</Glossary>, <Glossary>NDX</Glossary>, and international DOX shipments.  
 <table>
