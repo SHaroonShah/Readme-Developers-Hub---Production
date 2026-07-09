@@ -44,7 +44,7 @@ If you choose to receive tracking milestones, bear in mind that each milestone o
   <tbody>
     <tr>
       <td style={{ textAlign: "center" }}>
-        <stron>IT'S ON ITS WAY</strong>
+        <strong>IT'S ON ITS WAY</strong>
       </td>
 
       <td>
