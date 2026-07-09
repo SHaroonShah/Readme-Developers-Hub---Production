@@ -94,7 +94,7 @@ In SAPIENT, you can link on or more shipping locations to your carrier's existin
     To link a shipping location to an existing shipping account via our API, refer to the following endpoint:
 
     <Cards>
-      <Card title="Link Locations" href="https://docs.intersoftsapient.net/v4.02_Coding/reference/post_v4-shippingaccounts-rm-shippingaccountid-linklocations#/" icon="fa-solid fa-code">
+      <Card title="Link Locations" href="https://docs.intersoftsapient.net/docs/link-shipping-location-to-existing-shipping-account" icon="fa-solid fa-code">
         Complete API reference for linking shipping locations to an exsiting shipping account
       </Card>
     </Cards>
