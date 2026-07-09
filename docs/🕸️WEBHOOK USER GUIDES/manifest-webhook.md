@@ -47,137 +47,26 @@ To set up the manifest webhook connection in SAPIENT, follow the instructions as
   <br />
 
   <ToggleListItem title={<strong>2. Enter webhook details</strong>} icon="fa-rocket">
-    <br />
 
-    In the **WEBHOOK DETAILS** block of the **Tracking Webhook** tab, enter the necessary information as described in the following table.
+<br />
 
-    <Image align="center" border={true} src="https://files.readme.io/f1b9e78c168e83ad35f8c5df9fccd857c57a045811daba57e58b2512f11b42f6-Manifest_webhook_details_block.png" width="500px" />
+In the **WEBHOOK DETAILS** block of the **Tracking Webhook** tab, enter the necessary information as described in the following table.
 
-    <AsteridkForMandatoryElements />
+<Image align="center" border={true} src="https://files.readme.io/f1b9e78c168e83ad35f8c5df9fccd857c57a045811daba57e58b2512f11b42f6-Manifest_webhook_details_block.png" width="500px" />
 
-    <Table align={["center","left","left"]}>
-      <thead>
-        <tr>
-          <th>
-            Element
-          </th>
+\* Indicates a mandatory field.
 
-          <th>
-            Basic authentication
-          </th>
+| Element | Basic authentication | OAuth2 authentication |
+| --- | --- | --- |
+| **Authentication type**\* | From the dropdown menu, if applicable, select the **Basic** authentication type.<br /><br />Basic is a simple authentication type built into the HTTP protocol. It involves sending the user's credentials (username and password) in an encoded format (Base64) within an HTTP header. | From the dropdown menu, if applicable, select the **OAuth2** authentication type.<br /><br />oAuth2 is a specific protocol used for authorisation that allows third-party applications to access the user's data without exposing their credentials. |
+| **Endpoint URL**\* | Enter your endpoint URL. This is the URL that we use to connect for identification purposes. | Enter your endpoint URL. This is the URL that we use to connect for identification purposes. |
+| **Username**\* | Enter your username to identify and authenticate the INTERSOFT payload. | ❌ Not applicable |
+| **Password**\* | Enter the password for the username you entered to identify and authenticate the INTERSOFT payload. | ❌ Not applicable |
+| **Token URL**\* | ❌ Not applicable | Enter your token URL. This is an endpoint we use to connect and get the security token. |
+| **Client ID**\* | ❌ Not applicable | Enter your client ID  to identify and authenticate the INTERSOFT payload. |
+| **Secret**\* | ❌ Not applicable | Enter your secret to identify and authenticate the INTERSOFT payload |
 
-          <th>
-            OAuth2 authentication
-          </th>
-        </tr>
-      </thead>
-
-      <tbody>
-        <tr>
-          <td>
-            **Authentication type**\*
-          </td>
-
-          <td>
-            From the dropdown menu, if applicable, select the **Basic** authentication type.
-
-            Basic is a simple authentication type built into the HTTP protocol. It involves sending the user's credentials (username and password) in an encoded format (Base64) within an HTTP header.
-          </td>
-
-          <td>
-            From the dropdown menu, if applicable, select the **OAuth2** authentication type.
-
-            oAuth2 is a specific protocol used for authorisation that allows third-party applications to access the user's data without exposing their credentials.
-          </td>
-        </tr>
-
-        <tr>
-          <td>
-            **Endpoint URL**\*
-          </td>
-
-          <td>
-            Enter your endpoint URL. This is the URL that we use to connect for identification purposes.
-          </td>
-
-          <td>
-            Enter your endpoint URL. This is the URL that we use to connect for identification purposes.
-          </td>
-        </tr>
-
-        <tr>
-          <td>
-            **Username**\*
-          </td>
-
-          <td>
-            Enter your username to identify and authenticate the INTERSOFT payload.
-          </td>
-
-          <td>
-            ❌ Not applicable
-          </td>
-        </tr>
-
-        <tr>
-          <td>
-            **Password**\*
-          </td>
-
-          <td>
-            Enter the password for the username you entered to identify and authenticate the INTERSOFT payload.
-          </td>
-
-          <td>
-            ❌ Not applicable
-          </td>
-        </tr>
-
-        <tr>
-          <td>
-            **Token URL**\*
-          </td>
-
-          <td>
-            ❌ Not applicable
-          </td>
-
-          <td>
-            Enter your token URL. This is an endpoint we use to connect and get the security token.
-          </td>
-        </tr>
-
-        <tr>
-          <td>
-            **Client ID**\*
-          </td>
-
-          <td>
-            ❌ Not applicable
-          </td>
-
-          <td>
-            Enter your client ID  to identify and authenticate the INTERSOFT payload.
-          </td>
-        </tr>
-
-        <tr>
-          <td>
-            **Secret**\*
-          </td>
-
-          <td>
-            ❌ Not applicable
-          </td>
-
-          <td>
-            Enter your secret to identify and authenticate the INTERSOFT payload
-          </td>
-        </tr>
-      </tbody>
-    </Table>
-
-    ***
+***
   </ToggleListItem>
 
   <br />
