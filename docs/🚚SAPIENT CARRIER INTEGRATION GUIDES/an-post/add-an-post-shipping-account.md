@@ -46,85 +46,14 @@ To add a shipping account for An Post in SAPIENT, follow the instructions as exp
   _In the following table, the mandatory fields are marked with an asterisk (*)._
 </Callout>
 
-<Table align={["center","left"]}>
-  <thead>
-    <tr>
-      <th>
-        Element
-      </th>
-
-      <th>
-        Description
-      </th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <tr>
-      <td>
-        **Carrier Account Number***
-      </td>
-
-      <td>
-        Enter account number for An Post.
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        **Account Name (if different than customer)***
-      </td>
-
-      <td>
-        Enter the name of the account you are adding.
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        **Account Type***
-      </td>
-
-      <td>
-        From the dropdown menu, select one of the following account types that you want to set up for the the shipping account you are adding:
-
-        • **[Production](https://docs.intersoftsapient.net/docs/sandbox-account)**: a live environment where the final version of the application is deployed and made available to the users.
-
-        • **[Sandbox](https://docs.intersoftsapient.net/docs/sandbox-account)**: a testing environment that mimics the **Production** environment but is isolated from it. The sandbox environment is primarily used for development and testing purposes.
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        **Alias***
-      </td>
-
-      <td>
-        Enter a custom name which can be used in the API request instead of using the shipping account ID when connecting to us. Therefore, it is recommended that this name must be memorable and available for reference purposes.
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        **Contact Name***
-      </td>
-
-      <td>
-        Enter the contact name for the account you are adding.
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        **Contact Number***
-      </td>
-
-      <td>
-        Enter the contact number for the account you are adding.
-      </td>
-    </tr>
-  </tbody>
-</Table>
+| Element | Description |
+| --- | --- |
+| **Carrier Account Number**\* | Enter account number for An Post. |
+| **Account Name (if different than customer)**\* | Enter the name of the account you are adding. |
+| **Account Type**\* | From the dropdown menu, select one of the following account types that you want to set up for the the shipping account you are adding:<br /><br />• **[Production](https://docs.intersoftsapient.net/docs/sandbox-account)**: a live environment where the final version of the application is deployed and made available to the users.<br /><br />• **[Sandbox](https://docs.intersoftsapient.net/docs/sandbox-account)**: a testing environment that mimics the **Production** environment but is isolated from it. The sandbox environment is primarily used for development and testing purposes. |
+| **Alias**\* | Enter a custom name which can be used in the API request instead of using the shipping account ID when connecting to us. Therefore, it is recommended that this name must be memorable and available for reference purposes. |
+| **Contact Name**\* | Enter the contact name for the account you are adding. |
+| **Contact Number**\* | Enter the contact number for the account you are adding. |
 
 6. After entering all the required information, select ![](https://files.readme.io/4d8fd2c9a6fad152f41e65d82274b94a6d3a8978f69bb88fbe74ba2d54138fe8-add_shipping_account_button_2.png).
 
