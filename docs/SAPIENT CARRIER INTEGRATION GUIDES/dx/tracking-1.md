@@ -56,7 +56,9 @@ To add a tracking account for DX Express in SAPIENT, perform the steps as explai
     On the **Add Tracking account** page that appears, in the **DETAILS** block, enter the necessary information as explained in the following table.
 
     <Image align="center" border={true} src="https://files.readme.io/1b4b82b250370e66282af5e304070a09a935b19cd81f819d09576ae90d560271-Details_block_DX.png" width="500px" alt="Adding tracking account" />
-<br />
+
+    <br />
+
     <AsteridkForMandatoryElements />
 
     <table>
