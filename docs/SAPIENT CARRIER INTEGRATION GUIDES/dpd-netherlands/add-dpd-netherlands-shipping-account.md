@@ -61,24 +61,87 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
       <br />
 
       <ToggleListItem title="4. Enter shipping account details">
+        In the **SHIPPING ACCOUNT** block, enter the necessary information as explained in the following table.
 
-In the **SHIPPING ACCOUNT** block, enter the necessary information as explained in the following table.
+        <Image align="center" caption="Entering shipping account details" src="https://files.readme.io/038ffd980b7ea30489f1537526e454561ca8b4c6207f368f198f7b3a796b76ba-image.png" width="500px" />
 
-<Image align="center" caption="Entering shipping account details" src="https://files.readme.io/038ffd980b7ea30489f1537526e454561ca8b4c6207f368f198f7b3a796b76ba-image.png" width="500px" />
+        <br />
 
-<br />
+        <AsteridkForMandatoryElements />
 
-\* Indicates a mandatory field.
+        <Table align={["center","left"]}>
+          <thead>
+            <tr>
+              <th>
+                Element
+              </th>
 
-| Element | Description |
-| --- | --- |
-| **Account Name (if different than customer)**\* | Enter the name of the account you are adding. |
-| **Account Type**\* | From the dropdown menu, select one of the following account types that you want to set up for the the shipping account you are adding:<br /><br />• **[Production](https://docs.intersoftsapient.net/docs/sandbox-account)**: a live environment where the final version of the application is deployed and made available to the users.<br /><br />• **[Sandbox](https://docs.intersoftsapient.net/docs/sandbox-account)**: a testing environment that mimics the **Production** environment but is isolated from it. The sandbox environment is primarily used for development and testing purposes. |
-| **Alias**\* | Enter a custom name which can be used in the API request instead of using the shipping account ID when connecting to us. Therefore, it is recommended that this name must be memorable and available for reference purposes. |
-| **Contact Name**\* | Enter the contact name for the account you are adding. |
-| **Contact Number**\* | Enter the contact number for the account you are adding. |
+              <th>
+                Description
+              </th>
+            </tr>
+          </thead>
 
-***
+          <tbody>
+            <tr>
+              <td>
+                <strong>Account Name (if different than customer)</strong>*
+              </td>
+
+              <td>
+                Enter the name of the account you are adding.
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <strong>Account Type</strong>*
+              </td>
+
+              <td>
+                From the dropdown menu, select one of the following account types that you want to set up for the the shipping account you are adding:
+                <br />
+                <br />
+                • <strong><a href="https://docs.intersoftsapient.net/docs/sandbox-account">Production</a></strong>: a live environment where the final version of the application is deployed and made available to the users.
+                <br />
+                <br />
+                • <strong><a href="https://docs.intersoftsapient.net/docs/sandbox-account">Sandbox</a></strong>: a testing environment that mimics the <strong>Production</strong> environment but is isolated from it. The sandbox environment is primarily used for development and testing purposes.
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <strong>Alias</strong>*
+              </td>
+
+              <td>
+                Enter a custom name which can be used in the API request instead of using the shipping account ID when connecting to us. Therefore, it is recommended that this name must be memorable and available for reference purposes.
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <strong>Contact Name</strong>*
+              </td>
+
+              <td>
+                Enter the contact name for the account you are adding.
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <strong>Contact Number</strong>*
+              </td>
+
+              <td>
+                Enter the contact number for the account you are adding.
+              </td>
+            </tr>
+          </tbody>
+        </Table>
+
+        ***
       </ToggleListItem>
 
       <br />
@@ -108,7 +171,7 @@ In the **SHIPPING ACCOUNT** block, enter the necessary information as explained 
           <tbody>
             <tr>
               <td>
-                **DPD Netherlands User ID**\*
+                <strong>DPD Netherlands User ID</strong>*
               </td>
 
               <td>
@@ -118,7 +181,7 @@ In the **SHIPPING ACCOUNT** block, enter the necessary information as explained 
 
             <tr>
               <td>
-                **DPD Netherlands Password**
+                <strong>DPD Netherlands Password</strong>
               </td>
 
               <td>
@@ -128,7 +191,7 @@ In the **SHIPPING ACCOUNT** block, enter the necessary information as explained 
 
             <tr>
               <td>
-                **DPD Netherlands Depot Number**
+                <strong>DPD Netherlands Depot Number</strong>
               </td>
 
               <td>
@@ -138,13 +201,14 @@ In the **SHIPPING ACCOUNT** block, enter the necessary information as explained 
 
             <tr>
               <td>
-                **DPD Netherlands Notification Language**\*
+                <strong>DPD Netherlands Notification Language</strong>*
               </td>
 
               <td>
                 Enter the language code used for DPD Netherlands delivery notifications to be sent via Email or SMS—provided in the ISO 3166-1 alpha-2 format, for example, English, Dutch, and French.
-
-                `Note`: _The notifications are only sent if either the Email or SMS enhancement code is provided in the create shipment request._
+                <br />
+                <br />
+                <code>Note</code>: <em>The notifications are only sent if either the Email or SMS enhancement code is provided in the create shipment request.</em>
               </td>
             </tr>
           </tbody>
