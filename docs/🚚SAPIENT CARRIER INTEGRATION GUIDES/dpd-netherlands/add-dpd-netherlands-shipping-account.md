@@ -48,139 +48,26 @@ To add a shipping account for DPD NL in SAPIENT, follow the instructions as expl
   _In the following table, the mandatory fields are marked with an asterisk (*)._
 </Callout>
 
-<Table align={["center","left"]}>
-  <thead>
-    <tr>
-      <th>
-        Element
-      </th>
-
-      <th>
-        Description
-      </th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <tr>
-      <td>
-        **Account Name (if different than customer)***
-      </td>
-
-      <td>
-        Enter the name of the account you are adding.
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        **Account Type***
-      </td>
-
-      <td>
-        From the dropdown menu, select one of the following account types that you want to set up for the the shipping account you are adding:
-
-        • **[Production](https://docs.intersoftsapient.net/docs/sandbox-account)**: a live environment where the final version of the application is deployed and made available to the users.
-
-        • **[Sandbox](https://docs.intersoftsapient.net/docs/sandbox-account)**: a testing environment that mimics the **Production** environment but is isolated from it. The sandbox environment is primarily used for development and testing purposes.
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        **Alias***
-      </td>
-
-      <td>
-        Enter a custom name which can be used in the API request instead of using the shipping account ID when connecting to us. Therefore, it is recommend that this name must be memorable and available for reference purposes.
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        **Contact Name***
-      </td>
-
-      <td>
-        Enter the contact name for the account you are adding.
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        **Contact Number***
-      </td>
-
-      <td>
-        Enter the contact number for the account you are adding.
-      </td>
-    </tr>
-  </tbody>
-</Table>
+| Element | Description |
+| --- | --- |
+| **Account Name (if different than customer)**\* | Enter the name of the account you are adding. |
+| **Account Type**\* | From the dropdown menu, select one of the following account types that you want to set up for the the shipping account you are adding:<br /><br />• **[Production](https://docs.intersoftsapient.net/docs/sandbox-account)**: a live environment where the final version of the application is deployed and made available to the users.<br /><br />• **[Sandbox](https://docs.intersoftsapient.net/docs/sandbox-account)**: a testing environment that mimics the **Production** environment but is isolated from it. The sandbox environment is primarily used for development and testing purposes. |
+| **Alias**\* | Enter a custom name which can be used in the API request instead of using the shipping account ID when connecting to us. Therefore, it is recommend that this name must be memorable and available for reference purposes. |
+| **Contact Name**\* | Enter the contact name for the account you are adding. |
+| **Contact Number**\* | Enter the contact number for the account you are adding. |
 
 5. In the **CARRIER DETAILS** block, enter the necessary information as explained in the following table.
 
 <Image align="center" caption="Entering carrier-specific details" src="https://files.readme.io/50b1c2b340debdfc89d6ac4056545f954a35b3025eac1f05cc88699c6e481523-image.png" width="600px" />
 
-<AsteridkForMandatoryElements />
+\* Indicates a mandatory field.
 
-<Table align={["center","left"]}>
-  <thead>
-    <tr>
-      <th>
-        Element
-      </th>
-
-      <th>
-        Description
-      </th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <tr>
-      <td>
-        **DPD Netherlands User ID***
-      </td>
-
-      <td>
-        Enter unique identifier for the user account associated with DPD Netherlands.
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        **DPD Netherlands Password**
-      </td>
-
-      <td>
-        Enter the secure password used to authenticate the user account with DPD Netherlands.
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        **DPD Netherlands Depot Number**
-      </td>
-
-      <td>
-        Enter the unique 4-digit identifier for the specific depot or location where the shipment will be processed.
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        **DPD Netherlands Notification Language***
-      </td>
-
-      <td>
-        Enter the language code used for DPD Netherlands delivery notifications to be sent via Email or SMS—provided in the ISO 3166-1 alpha-2 format, for example, English, Dutch, and French.
-
-        `Note`: _The notifications are only sent if either the Email or SMS enhancement code is provided in the create shipment request._
-      </td>
-    </tr>
-  </tbody>
-</Table>
+| Element | Description |
+| --- | --- |
+| **DPD Netherlands User ID**\* | Enter unique identifier for the user account associated with DPD Netherlands. |
+| **DPD Netherlands Password** | Enter the secure password used to authenticate the user account with DPD Netherlands. |
+| **DPD Netherlands Depot Number** | Enter the unique 4-digit identifier for the specific depot or location where the shipment will be processed. |
+| **DPD Netherlands Notification Language**\* | Enter the language code used for DPD Netherlands delivery notifications to be sent via Email or SMS—provided in the ISO 3166-1 alpha-2 format, for example, English, Dutch, and French.<br /><br />`Note`: _The notifications are only sent if either the Email or SMS enhancement code is provided in the create shipment request._ |
 
 <br />
 
