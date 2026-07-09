@@ -44,26 +44,28 @@ To set up the tracking webhook connection in SAPIENT, perform the steps as expla
 
     <Tabs>
       <Tab title="Basic Authentication">
-        **Authentication Type**: Simple HTTP protocol authentication using encoded credentials (Base64)
 
-        | Field              | Description                                             |
-        | ------------------ | ------------------------------------------------------- |
-        | **Endpoint URL**\* | Enter your endpoint URL for connection identification         |
-        | **Username**\*     | Enter the username to identify and authenticate INTERSOFT payload |
-        | **Password**\*     | Enter the password for the specified username                     |
-| **Notification Email**\*     | Enter the email address to receive the webhook suspension notifications.                       |
+**Authentication Type**: Simple HTTP protocol authentication using encoded credentials (Base64)
+
+| Field | Description |
+| --- | --- |
+| **Endpoint URL**\* | Enter your endpoint URL for connection identification. |
+| **Username**\* | Enter the username to identify and authenticate INTERSOFT payload. |
+| **Password**\* | Enter the password for the specified username. |
+| **Notification Email**\* | Enter the email address to receive the webhook suspension notifications. |
 
       </Tab>
       <Tab title="OAuth2 Authentication">
-        **Authentication Type**: Authorization protocol allowing third-party access without exposing credentials
 
-        | Field              | Description                                            |
-        | ------------------ | ------------------------------------------------------ |
-        | **Endpoint URL**\* | Enter your endpoint URL for connection identification        |
-        | **Token URL**\*    | Enter the endpoint url to connect and retrieve security token        |
-        | **Client ID**\*    | Enter the client identifier for INTERSOFT payload authentication |
-        | **Secret**\*       | Enter the secret key for INTERSOFT payload authentication        |
-| **Notification Email**\*     | Enter the email address to receive the webhook suspension notifications. 
+**Authentication Type**: Authorization protocol allowing third-party access without exposing credentials
+
+| Field | Description |
+| --- | --- |
+| **Endpoint URL**\* | Enter your endpoint URL for connection identification. |
+| **Token URL**\* | Enter the endpoint url to connect and retrieve security token. |
+| **Client ID**\* | Enter the client identifier for INTERSOFT payload authentication. |
+| **Secret**\* | Enter the secret key for INTERSOFT payload authentication. |
+| **Notification Email**\* | Enter the email address to receive the webhook suspension notifications. |
 
       </Tab>
     </Tabs>
