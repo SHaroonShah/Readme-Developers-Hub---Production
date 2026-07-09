@@ -64,43 +64,29 @@ To add a tracking account in SAPIENT, follow the steps as explained in the follo
 
     <AsteridkForMandatoryElements />
 
-    <Table align={["center","left"]}>
+    <table>
       <thead>
         <tr>
-          <th>
-            Element
-          </th>
-
-          <th>
-            Description
-          </th>
+          <th>Element</th>
+          <th>Description</th>
         </tr>
       </thead>
-
       <tbody>
         <tr>
-          <td>
-            **Carrier**\*
-          </td>
-
-          <td>
-            From the dropdown menu, select the carrier for which you want to create a tracking account.
-          </td>
+          <td><strong>Carrier</strong>&#42;</td>
+          <td>From the dropdown menu, select the carrier for which you want to create a tracking account.</td>
         </tr>
-
         <tr>
+          <td><strong>Shipping Account</strong>&#42;</td>
           <td>
-            **Shipping Account**\*
-          </td>
-
-          <td>
-            From the dropdown menu, select the <Glossary>shipping account</Glossary> for which you want to receive tracking.
-
-            For some carriers, you may also select the **All Shipping Accounts** option to add this tracking account for all existing and any new shipping accounts added to the customer account.
+            From the dropdown menu, select the shipping account for which you want to receive tracking.
+            <br />
+            <br />
+            For some carriers, you may also select the <strong>All Shipping Accounts</strong> option to add this tracking account for all existing and any new shipping accounts added to the customer account.
           </td>
         </tr>
       </tbody>
-    </Table>
+    </table>
 
     <br />
 
