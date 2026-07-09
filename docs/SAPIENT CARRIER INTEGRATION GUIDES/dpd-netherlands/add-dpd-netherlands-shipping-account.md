@@ -69,57 +69,6 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
 
         <AsteridkForMandatoryElements />
 
-        <table>
-          <thead>
-            <tr>
-              <th>Element</th>
-              <th>Description</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td><strong>Account Name (if different than customer)</strong>&#42;</td>
-              <td>Enter the name of the account you are adding.</td>
-            </tr>
-            <tr>
-              <td><strong>Account Type</strong>&#42;</td>
-              <td>
-                <p>From the dropdown menu, select one of the following account types that you want to set up for the the shipping account you are adding:</p>
-                <ul>
-                  <li><strong>Production</strong>: a live environment where the final version of the application is deployed and made available to the users.</li>
-                  <li><strong>Sandbox</strong>: a testing environment that mimics the <strong>Production</strong> environment but is isolated from it. The sandbox environment is primarily used for development and testing purposes.</li>
-                </ul>
-              </td>
-            </tr>
-            <tr>
-              <td><strong>Alias</strong>&#42;</td>
-              <td>Enter a custom name which can be used in the API request instead of using the shipping account ID when connecting to us. Therefore, it is recommended that this name must be memorable and available for reference purposes.</td>
-            </tr>
-            <tr>
-              <td><strong>Contact Name</strong>&#42;</td>
-              <td>Enter the contact name for the account you are adding.</td>
-            </tr>
-            <tr>
-              <td><strong>Contact Number</strong>&#42;</td>
-              <td>Enter the contact number for the account you are adding.</td>
-            </tr>
-          </tbody>
-        </table>
-
-        ***
-      </ToggleListItem>
-
-      <br />
-
-      <ToggleListItem title="5. Enter carrier details">
-        In the **CARRIER DETAILS** block, enter the necessary information as explained in the following table.
-
-        <Image align="center" caption="Entering carrier-specific details" src="https://files.readme.io/50b1c2b340debdfc89d6ac4056545f954a35b3025eac1f05cc88699c6e481523-image.png" width="600px" />
-
-        <br />
-
-        <AsteridkForMandatoryElements />
-
         <Table align={["center","left"]}>
           <thead>
             <tr>
@@ -136,47 +85,105 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
           <tbody>
             <tr>
               <td>
-                **DPD Netherlands User ID**\*
+                **Account Name (if different than customer)**\*
               </td>
 
               <td>
-                Enter unique identifier for the user account associated with DPD Netherlands.
-              </td>
-            </tr>
-
-            <tr>
-              <td>
-                **DPD Netherlands Password**
-              </td>
-
-              <td>
-                Enter the secure password used to authenticate the user account with DPD Netherlands.
+                Enter the name of the account you are adding.
               </td>
             </tr>
 
             <tr>
               <td>
-                **DPD Netherlands Depot Number**
+                **Account Type**\*
               </td>
 
               <td>
-                Enter the unique 4-digit identifier for the specific depot or location where the shipment will be processed.
+                From the dropdown menu, select one of the following account types that you want to set up for the the shipping account you are adding:
+
+                • **[Production](https://docs.intersoftsapient.net/docs/sandbox-account)**: a live environment where the final version of the application is deployed and made available to the users.
+
+                • **[Sandbox](https://docs.intersoftsapient.net/docs/sandbox-account)**: a testing environment that mimics the **Production** environment but is isolated from it. The sandbox environment is primarily used for development and testing purposes.
               </td>
             </tr>
 
             <tr>
               <td>
-                **DPD Netherlands Notification Language**\*
+                **Alias**\*
               </td>
 
               <td>
-                Enter the language code used for DPD Netherlands delivery notifications to be sent via Email or SMS—provided in the ISO 3166-1 alpha-2 format, for example, English, Dutch, and French.
+                Enter a custom name which can be used in the API request instead of using the shipping account ID when connecting to us. Therefore, it is recommended that this name must be memorable and available for reference purposes.
+              </td>
+            </tr>
 
-                `Note`: _The notifications are only sent if either the Email or SMS enhancement code is provided in the create shipment request._
+            <tr>
+              <td>
+                **Contact Name**\*
+              </td>
+
+              <td>
+                Enter the contact name for the account you are adding.
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                **Contact Number**\*
+              </td>
+
+              <td>
+                Enter the contact number for the account you are adding.
               </td>
             </tr>
           </tbody>
         </Table>
+
+        ***
+      </ToggleListItem>
+
+      <br />
+
+      <ToggleListItem title="5. Enter carrier details">
+        In the **CARRIER DETAILS** block, enter the necessary information as explained in the following table.
+
+        <Image align="center" caption="Entering carrier-specific details" src="https://files.readme.io/50b1c2b340debdfc89d6ac4056545f954a35b3025eac1f05cc88699c6e481523-image.png" width="600px" />
+
+        <br />
+
+        <AsteridkForMandatoryElements />
+
+        <table>
+          <thead>
+            <tr>
+              <th>Element</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>DPD Netherlands User ID</strong>&#42;</td>
+              <td>Enter unique identifier for the user account associated with DPD Netherlands.</td>
+            </tr>
+            <tr>
+              <td><strong>DPD Netherlands Password</strong></td>
+              <td>Enter the secure password used to authenticate the user account with DPD Netherlands.</td>
+            </tr>
+            <tr>
+              <td><strong>DPD Netherlands Depot Number</strong></td>
+              <td>Enter the unique 4-digit identifier for the specific depot or location where the shipment will be processed.</td>
+            </tr>
+            <tr>
+              <td><strong>DPD Netherlands Notification Language</strong>&#42;</td>
+              <td>
+                Enter the language code used for DPD Netherlands delivery notifications to be sent via Email or SMS—provided in the ISO 3166-1 alpha-2 format, for example, English, Dutch, and French.
+                <br />
+                <br />
+                <em><code>Note</code>: The notifications are only sent if either the Email or SMS enhancement code is provided in the create shipment request.</em>
+              </td>
+            </tr>
+          </tbody>
+        </table>
 
         ***
       </ToggleListItem>
