@@ -56,45 +56,10 @@ Based on your requirements, you can choose various approaches to use the PUDO lo
 
   The following new query parameters have been added to the [Get PUDO Locations](https://docs.intersoftsapient.net/reference/get_v4-pudolocations-carriercode-countrycode-postcode#/) API request.
 
-  <Table align={["center","left"]}>
-    <thead>
-      <tr>
-        <th>
-          Element
-        </th>
-
-        <th>
-          Description
-        </th>
-      </tr>
-    </thead>
-
-    <tbody>
-      <tr>
-        <td>
-          **locationServices**
-        </td>
-
-        <td>
-          This parameter specifies the available services offered at the PUDO location, such as pickup, dropoff, or print in store.
-        </td>
-      </tr>
-
-      <tr>
-        <td>
-          **includeEnhancedLocationDetails**
-        </td>
-
-        <td>
-          This parameter determines whether the response includes additional details about each PUDO location.
-
-          • If set to true, the JSON response will include `enhancedLocationDetails` object for each PUDO location. This includes more comprehensive information, such as facilities available at the location, for example, disabled access, parking, and so on, distance from postcode, and any additional attributes relevant to the location that might insist customers in making informed decisions.
-
-          • If set to false, the response will be limited to the basic details of the PUDO locations without the enhanced attributes.
-        </td>
-      </tr>
-    </tbody>
-  </Table>
+| Element | Description |
+| --- | --- |
+| **locationServices** | This parameter specifies the available services offered at the PUDO location, such as pickup, dropoff, or print in store. |
+| **includeEnhancedLocationDetails** | This parameter determines whether the response includes additional details about each PUDO location.<br /><br />• If set to true, the JSON response will include `enhancedLocationDetails` object for each PUDO location. This includes more comprehensive information, such as facilities available at the location, for example, disabled access, parking, and so on, distance from postcode, and any additional attributes relevant to the location that might insist customers in making informed decisions.<br /><br />• If set to false, the response will be limited to the basic details of the PUDO locations without the enhanced attributes. |
 
   The following snippet represents an example JSON response schema of the Get PUDO Location endpoint.
 
