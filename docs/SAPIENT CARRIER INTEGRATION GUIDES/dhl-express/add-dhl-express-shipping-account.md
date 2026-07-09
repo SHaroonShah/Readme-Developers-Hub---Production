@@ -69,85 +69,46 @@ In SAPIENT, with the **Add Shipping Account** functionality, you can select the 
 
         <AsteridkForMandatoryElements />
 
-        <Table align={["center","left"]}>
+        <table>
           <thead>
             <tr>
-              <th>
-                Element
-              </th>
-
-              <th>
-                Description
-              </th>
+              <th>Element</th>
+              <th>Description</th>
             </tr>
           </thead>
-
           <tbody>
             <tr>
+              <td><strong>Carrier Account Number</strong>&#42;</td>
+              <td>Enter the carrier account number assigned to you by DHL Express.</td>
+            </tr>
+            <tr>
+              <td><strong>Account Name (if different than customer)</strong>&#42;</td>
+              <td>Enter the name of the account you are adding.</td>
+            </tr>
+            <tr>
+              <td><strong>Account Type</strong>&#42;</td>
               <td>
-                **Carrier Account Number**\*
-              </td>
-
-              <td>
-                Enter the carrier account number assigned to you by DHL Express.
+                <p>From the dropdown menu, select one of the following account types that you want to set up for the the shipping account you are adding:</p>
+                <ul>
+                  <li><strong>Production</strong>: a live environment where the final version of the application is deployed and made available to the users.</li>
+                  <li><strong>Sandbox</strong>: a testing environment that mimics the <strong>Production</strong> environment but is isolated from it. The sandbox environment is primarily used for development and testing purposes.</li>
+                </ul>
               </td>
             </tr>
-
             <tr>
-              <td>
-                **Account Name (if different than customer)**\*
-              </td>
-
-              <td>
-                Enter the name of the account you are adding.
-              </td>
+              <td><strong>Alias</strong>&#42;</td>
+              <td>Enter a custom name which can be used in the API request instead of using the shipping account ID when connecting to us. Therefore, it is recommended that this name must be memorable and available for reference purposes.</td>
             </tr>
-
             <tr>
-              <td>
-                **Account Type**\*
-              </td>
-
-              <td>
-                From the dropdown menu, select one of the following account types that you want to set up for the the shipping account you are adding:
-
-                • **[Production](https://docs.intersoftsapient.net/docs/sandbox-account)**: a live environment where the final version of the application is deployed and made available to the users.
-
-                • **[Sandbox](https://docs.intersoftsapient.net/docs/sandbox-account)**: a testing environment that mimics the **Production** environment but is isolated from it. The sandbox environment is primarily used for development and testing purposes.
-              </td>
+              <td><strong>Contact Name</strong>&#42;</td>
+              <td>Enter the contact name for the account you are adding.</td>
             </tr>
-
             <tr>
-              <td>
-                **Alias**\*
-              </td>
-
-              <td>
-                Enter a custom name which can be used in the API request instead of using the shipping account ID when connecting to us. Therefore, it is recommended that this name must be memorable and available for reference purposes.
-              </td>
-            </tr>
-
-            <tr>
-              <td>
-                **Contact Name**\*
-              </td>
-
-              <td>
-                Enter the contact name for the account you are adding.
-              </td>
-            </tr>
-
-            <tr>
-              <td>
-                **Contact Number**\*
-              </td>
-
-              <td>
-                Enter the contact number for the account you are adding.
-              </td>
+              <td><strong>Contact Number</strong>&#42;</td>
+              <td>Enter the contact number for the account you are adding.</td>
             </tr>
           </tbody>
-        </Table>
+        </table>
 
         ***
       </ToggleListItem>
@@ -163,88 +124,52 @@ In SAPIENT, with the **Add Shipping Account** functionality, you can select the 
 
         <AsteridkForMandatoryElements />
 
-        <HTMLBlock>{`
-<Table>
-  <thead>
-    <tr>
-      <th>
-        Element
-      </th>
-
-      <th>
-        Description
-      </th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <tr>
-      <td>
-        <strong>API Key*</strong>
-      </td>
-
-      <td>
-        Enter the API key for the user account associated with DHL Express.
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        <strong>API Secret*</strong>
-      </td>
-
-      <td>
-        Enter the API secret used to authenticate the user account with DHL Express.
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        <strong>Archive Labels</strong>
-      </td>
-
-      <td>
-        Turn on the toggle if you wish to include the DHL archived labels in the manifest.
-<br />
-        Enabling this toggle saves DHL waybill documents from the create shipment response in the database and includes them in the manifest PDF when shipments are manifested.Note: The manifests can be downloaded from the SAPIENT’s View manifest history page.
-        <br />
-<br />
-        <code><i>Note</i></code>: <i>The manifests can be downloaded from the SAPIENT’s <a href="https://docs.intersoftsapient.net/docs/manifest-history">View manifest history page</a>.</i>
-      </td>
-    </tr>
-
-    <tr>
-      <td colspan="2">
-        <strong>Enable Paperless Trade (PLT)</strong>
-        <br />
-<br />
-
-        Turn on the toggle if you want to submit the customs documents electronically. If this toggle is enabled, then you must specify one the following options:
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        <strong>Allow DHL to generate commercial invoices on your behalf</strong>
-      </td>
-
-      <td>
-        Select this option for DHL to create and send the invoice electronically to the customs agency.
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        <strong>Use SAPIENT-generated invoices</strong>
-      </td>
-
-      <td>
-        Select this option to have SAPIENT generate the invoices from shipment data and send them to DHL.
-      </td>
-    </tr>
-  </tbody>
-</Table>
-`}</HTMLBlock>
+        <table>
+          <thead>
+            <tr>
+              <th>Element</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>API Key</strong>&#42;</td>
+              <td>Enter the API key for the user account associated with DHL Express.</td>
+            </tr>
+            <tr>
+              <td><strong>API Secret</strong>&#42;</td>
+              <td>Enter the API secret used to authenticate the user account with DHL Express.</td>
+            </tr>
+            <tr>
+              <td><strong>Archive Labels</strong></td>
+              <td>
+                Turn on the toggle if you wish to include the DHL archived labels in the manifest.
+                <br />
+                <br />
+                Enabling this toggle saves DHL waybill documents from the create shipment response in the database and includes them in the manifest PDF when shipments are manifested.
+                <br />
+                <br />
+                <em><code>Note</code>: The manifests can be downloaded from the SAPIENT’s <a href="https://docs.intersoftsapient.net/docs/manifest-history">View manifest history page</a>.</em>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <strong>Enable Paperless Trade (PLT)</strong>
+                <br />
+                <br />
+                Turn on the toggle if you want to submit the customs documents electronically. If this toggle is enabled, then you must specify one the following options:
+              </td>
+            </tr>
+            <tr>
+              <td><strong>Allow DHL to generate commercial invoices on your behalf</strong></td>
+              <td>Select this option for DHL to create and send the invoice electronically to the customs agency.</td>
+            </tr>
+            <tr>
+              <td><strong>Use SAPIENT-generated invoices</strong></td>
+              <td>Select this option to have SAPIENT generate the invoices from shipment data and send them to DHL.</td>
+            </tr>
+          </tbody>
+        </table>
 
         ***
       </ToggleListItem>
