@@ -34,16 +34,17 @@ To set up the tracking webhook connection in SAPIENT, perform the steps as expla
 <br />
    
   <ToggleListItem title={<strong>2. Configure webhook details</strong>} icon="fa-rocket">
-    In the **WEBHOOK DETAILS** block, enter the required information based on your authentication type:
 
-    <Image align="center" src="https://files.readme.io/173014ddedd58a4c42eed5d291d03fa7455d10b511675e72f8e7434b6333186d-image.png" />
+In the **WEBHOOK DETAILS** block, enter the required information based on your authentication type:
 
-    <br />
+<Image align="center" src="https://files.readme.io/173014ddedd58a4c42eed5d291d03fa7455d10b511675e72f8e7434b6333186d-image.png" />
 
-    <AsteridkForMandatoryElements />
+<br />
 
-    <Tabs>
-      <Tab title="Basic Authentication">
+\* Indicates a mandatory field.
+
+<Tabs>
+  <Tab title="Basic Authentication">
 
 **Authentication Type**: Simple HTTP protocol authentication using encoded credentials (Base64)
 
@@ -54,8 +55,8 @@ To set up the tracking webhook connection in SAPIENT, perform the steps as expla
 | **Password**\* | Enter the password for the specified username. |
 | **Notification Email**\* | Enter the email address to receive the webhook suspension notifications. |
 
-      </Tab>
-      <Tab title="OAuth2 Authentication">
+  </Tab>
+  <Tab title="OAuth2 Authentication">
 
 **Authentication Type**: Authorization protocol allowing third-party access without exposing credentials
 
@@ -67,10 +68,10 @@ To set up the tracking webhook connection in SAPIENT, perform the steps as expla
 | **Secret**\* | Enter the secret key for INTERSOFT payload authentication. |
 | **Notification Email**\* | Enter the email address to receive the webhook suspension notifications. |
 
-      </Tab>
-    </Tabs>
+  </Tab>
+</Tabs>
 
-    ***
+***
   </ToggleListItem>
 <br />
     
