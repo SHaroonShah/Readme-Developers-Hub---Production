@@ -85,7 +85,7 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
           <tbody>
             <tr>
               <td>
-                **Account Name (if different than customer)**\*
+                <strong>Account Name (if different than customer)</strong>*
               </td>
 
               <td>
@@ -95,21 +95,23 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
 
             <tr>
               <td>
-                **Account Type**\*
+                <strong>Account Type</strong>*
               </td>
 
               <td>
                 From the dropdown menu, select one of the following account types that you want to set up for the the shipping account you are adding:
-
-                • **[Production](https://docs.intersoftsapient.net/docs/sandbox-account)**: a live environment where the final version of the application is deployed and made available to the users.
-
-                • **[Sandbox](https://docs.intersoftsapient.net/docs/sandbox-account)**: a testing environment that mimics the **Production** environment but is isolated from it. The sandbox environment is primarily used for development and testing purposes.
+                <br />
+                <br />
+                • <strong><a href="https://docs.intersoftsapient.net/docs/sandbox-account">Production</a></strong>: a live environment where the final version of the application is deployed and made available to the users.
+                <br />
+                <br />
+                • <strong><a href="https://docs.intersoftsapient.net/docs/sandbox-account">Sandbox</a></strong>: a testing environment that mimics the <strong>Production</strong> environment but is isolated from it. The sandbox environment is primarily used for development and testing purposes.
               </td>
             </tr>
 
             <tr>
               <td>
-                **Alias**\*
+                <strong>Alias</strong>*
               </td>
 
               <td>
@@ -119,7 +121,7 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
 
             <tr>
               <td>
-                **Contact Name**\*
+                <strong>Contact Name</strong>*
               </td>
 
               <td>
@@ -129,7 +131,7 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
 
             <tr>
               <td>
-                **Contact Number**\*
+                <strong>Contact Number</strong>*
               </td>
 
               <td>
@@ -169,7 +171,7 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
           <tbody>
             <tr>
               <td>
-                **DPD Netherlands User ID**\*
+                <strong>DPD Netherlands User ID</strong>*
               </td>
 
               <td>
@@ -179,7 +181,7 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
 
             <tr>
               <td>
-                **DPD Netherlands Password**
+                <strong>DPD Netherlands Password</strong>
               </td>
 
               <td>
@@ -189,7 +191,7 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
 
             <tr>
               <td>
-                **DPD Netherlands Depot Number**
+                <strong>DPD Netherlands Depot Number</strong>
               </td>
 
               <td>
@@ -199,13 +201,14 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
 
             <tr>
               <td>
-                **DPD Netherlands Notification Language**\*
+                <strong>DPD Netherlands Notification Language</strong>*
               </td>
 
               <td>
                 Enter the language code used for DPD Netherlands delivery notifications to be sent via Email or SMS—provided in the ISO 3166-1 alpha-2 format, for example, English, Dutch, and French.
-
-                `Note`: _The notifications are only sent if either the Email or SMS enhancement code is provided in the create shipment request._
+                <br />
+                <br />
+                <code>Note</code>: <em>The notifications are only sent if either the Email or SMS enhancement code is provided in the create shipment request.</em>
               </td>
             </tr>
           </tbody>
