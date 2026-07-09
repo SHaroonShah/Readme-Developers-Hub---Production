@@ -37,45 +37,12 @@ To add a tracking account for DPD UK in SAPIENT, follow the steps as explained i
 
 <Image align="center" alt="Adding tracking account" border={true} caption="Adding tracking account" src="https://files.readme.io/0360cf8a986002fef3a87b152306907f660fb5c7f85e0f328e4f830b03b8a818-Adding_DPD_UK_tracking_account.png" width="500px" />
 
-<AsteridkForMandatoryElements />
+\* Indicates a mandatory field.
 
-<Table align={["center","left"]}>
-  <thead>
-    <tr>
-      <th>
-        Element
-      </th>
-
-      <th>
-        Description
-      </th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <tr>
-      <td>
-        **Carrier***
-      </td>
-
-      <td>
-        From the dropdown menu, select DPD UK as your carrier option.
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        **Shipping Account***
-      </td>
-
-      <td>
-        From the dropdown menu, select the shipping account for which you want to receive tracking.
-
-        You can also select the **All Shipping Accounts** option to add this tracking account for all existing accounts.
-      </td>
-    </tr>
-  </tbody>
-</Table>
+| Element | Description |
+| --- | --- |
+| **Carrier**\* | From the dropdown menu, select DPD UK as your carrier option. |
+| **Shipping Account**\* | From the dropdown menu, select the shipping account for which you want to receive tracking.<br /><br />You can also select the **All Shipping Accounts** option to add this tracking account for all existing accounts. |
 
 4. After entering all the necessary information, select ![](https://files.readme.io/2b94d65d1e560fcc17ab8e2c3e2af0c1e52b9dad2a1484f80ad7652b734ba1be-Add_tracking_account_button_2.png).
 
