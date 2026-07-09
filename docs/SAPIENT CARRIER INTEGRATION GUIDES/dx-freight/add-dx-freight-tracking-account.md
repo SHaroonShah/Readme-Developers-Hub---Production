@@ -57,45 +57,33 @@ To add a tracking account for DX Freight in SAPIENT, perform the steps as explai
 
     <Image align="center" border={true} src="https://files.readme.io/71660774643cc7fc552e07d51be76065dea9e76a94cbc63f0c29dfb7761d44e1-DXF_Add_Tracking_account_page.png" width="500px" alt="Adding tracking account" />
 
+    <br />
+
     <AsteridkForMandatoryElements />
 
-    <Table align={["center","left"]}>
+    <table>
       <thead>
         <tr>
-          <th>
-            Element
-          </th>
-
-          <th>
-            Description
-          </th>
+          <th>Element</th>
+          <th>Description</th>
         </tr>
       </thead>
-
       <tbody>
         <tr>
-          <td>
-            **Carrier**\*
-          </td>
-
-          <td>
-            From the dropdown menu, select DX Freight as your carrier option.
-          </td>
+          <td><strong>Carrier</strong>&#42;</td>
+          <td>From the dropdown menu, select DX Freight as your carrier option.</td>
         </tr>
-
         <tr>
-          <td>
-            **Shipping Account**\*
-          </td>
-
+          <td><strong>Shipping Account</strong>&#42;</td>
           <td>
             From the dropdown menu, select the shipping account for which you want to receive tracking.
-
-            You can also select the **All Shipping Accounts** option to add this tracking account for all existing accounts.
+            <br />
+            <br />
+            You can also select the <strong>All Shipping Accounts</strong> option to add this tracking account for all existing accounts.
           </td>
         </tr>
       </tbody>
-    </Table>
+    </table>
 
     ***
   </ToggleListItem>
