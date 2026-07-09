@@ -59,43 +59,29 @@ To add a tracking account for DX Express in SAPIENT, perform the steps as explai
 <br />
     <AsteridkForMandatoryElements />
 
-    <Table align={["center","left"]}>
+    <table>
       <thead>
         <tr>
-          <th>
-            Element
-          </th>
-
-          <th>
-            Description
-          </th>
+          <th>Element</th>
+          <th>Description</th>
         </tr>
       </thead>
-
       <tbody>
         <tr>
-          <td>
-            **Carrier**\*
-          </td>
-
-          <td>
-            From the dropdown menu, select DX as your carrier option.
-          </td>
+          <td><strong>Carrier</strong>&#42;</td>
+          <td>From the dropdown menu, select DX as your carrier option.</td>
         </tr>
-
         <tr>
-          <td>
-            **Shipping Account**\*
-          </td>
-
+          <td><strong>Shipping Account</strong>&#42;</td>
           <td>
             From the dropdown menu, select the shipping account for which you want to receive tracking.
-
-            You can also select the **All Shipping Accounts** option to add this tracking account for all existing accounts.
+            <br />
+            <br />
+            You can also select the <strong>All Shipping Accounts</strong> option to add this tracking account for all existing accounts.
           </td>
         </tr>
       </tbody>
-    </Table>
+    </table>
 
     ***
   </ToggleListItem>
