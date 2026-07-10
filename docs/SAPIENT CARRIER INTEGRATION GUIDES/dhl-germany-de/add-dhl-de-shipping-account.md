@@ -11,9 +11,11 @@ metadata:
 ---
 In SAPIENT, with the Add Shipping Account functionality, you can select the desired shipping location and then add a DHL Germany shipping account to it.
 
-> 🚧 _Important_
->
-> _Before you can set up a shipping account, make sure you have enabled the <Anchor label="label integration" target="_blank" href="https://docs.intersoftsapient.net/docs/integration-activation">label integration</Anchor> for DHL Germany and have already [created a shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location)._
+<Callout icon="🚧" theme="warn">
+  ### _Important_
+
+  _Before you can set up a shipping account, make sure you have enabled the <Anchor target="_blank" href="https://docs.intersoftsapient.net/docs/integration-activation">label integration</Anchor> for DHL Germany and have already [created a shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location)._
+</Callout>
 
 ## How to add DHL DE shipping account
 
@@ -23,6 +25,9 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
 
     <ToggleList>
       <ToggleListItem title="1. Select the Shipping Accounts page">
+
+        <br />
+
         In the left navigation panel, select **Shipping Accounts**.
 
         <Image align="center" src="https://files.readme.io/3d2349061f0415b118f4ffc1d5d1f0722422302161528022cbc28634eb90514f-image.png" alt="Accessing shipping accounts" />
@@ -33,6 +38,9 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
       <br />
 
       <ToggleListItem title="2. Select option to add shipping account">
+  
+        <br />
+
         On the **Shipping Accounts** page that opens, select ![](https://files.readme.io/4dc0470535418171d8c974546d130f04a0fc60a878c7f7648b2da21309450830-add_shipping_account_button.png).
 
         <Image align="center" src="https://files.readme.io/a42649a2e896b24618507db2db02d7f7347225eabc56e04b4f79bcefea7c8ea8-image.png" alt="Selection option to add shipping account" />
@@ -43,6 +51,9 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
       <br />
 
       <ToggleListItem title="3. Enter account details">
+
+        <br />
+
         On the **Add Shipping Account** form that appears, in the **ACCOUNT DETAILS** block, fill in the necessary information as described in the following table.
 
         <Image align="center" src="https://files.readme.io/b7085aee7b1ca45c493a419c93c6866dac2426be296db4862aa890412013e36d-image.png" width="500px" alt="Entering account details" />
@@ -76,6 +87,9 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
       <br />
 
       <ToggleListItem title="4. Enter shipping account details">
+
+        <br />
+
         In the **SHIPPING ACCOUNT** block, enter the necessary information as explained in the following table.
 
         <Image align="center" src="https://files.readme.io/83810f18ee92f48d62b60191f940531365a413ee892f5fc77f3fd76772e24e87-image.png" width="400px" alt="Entering shipping account details" />
@@ -125,6 +139,9 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
       <br />
 
       <ToggleListItem title="5. Enter carrier details">
+
+        <br />
+
         In the **CARRIER DETAILS** block, enter the necessary information as explained in the following table.
 
         <Image align="center" src="https://files.readme.io/0bd2bd4e7974be809da0cb97fda2d4f39e52d8177dbf53777bfa5ab3f0022b5f-image.png" width="450px" alt="Entering carrier details" />
@@ -158,6 +175,9 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
       <br />
 
       <ToggleListItem title="6. Save and add the shipping account">
+
+        <br />
+
         After entering all the required information, select ![](https://files.readme.io/99e4e322c6a3f874e0258a73646a551aa2120d8d359b2ce5d09a4cf0eabcd44a-add_shipping_account_button_2.png).
 
         Once done, you have now successfully added a shipping account. You can now start shipping with it.
