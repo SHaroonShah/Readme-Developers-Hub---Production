@@ -12,15 +12,17 @@ metadata:
 ---
 In SAPIENT, you can add tracking accounts for DPD Ireland  to enhance visibility, improving customer interactions, and streamlining logistics operations for DHL Germany.
 
-> 🚧 _Important_
->
-> _Prior to adding a DPD Ireland tracking account, make sure you have completed the following prerequisites:_
->
-> 1. _Enabled the [label integration](https://docs.intersoftsapient.net/docs/integration-activation) with DPD Ireland._
-> 2. _Enabled the [tracking integration](https://docs.intersoftsapient.net/docs/integration-activation) with DPD Ireland._
-> 3. _Set up your<Glossary>tracking webhook</Glossary>. For more information on how to set up a tracking webhook, refer to the [Create tracking webhook](https://docs.intersoftsapient.net/docs/create-tracking-webhook) section. This is a one-time activity, you do not have to do this every time you add a tracking account._
->
-> _If you wish to receive the tracking events via INTERSOFT using the tracking account you have created, make sure it is is activated by the DPD Ireland team._
+<Callout icon="🚧" theme="warn">
+  ### _Important_
+
+  _Prior to adding a DPD Ireland tracking account, make sure you have completed the following prerequisites:_
+
+  1. _Enabled the [label integration](https://docs.intersoftsapient.net/docs/integration-activation) with DPD Ireland._
+  2. _Enabled the [tracking integration](https://docs.intersoftsapient.net/docs/integration-activation) with DPD Ireland._
+  3. _Set up your <Glossary>tracking webhook</Glossary>. For more information on how to set up a tracking webhook, refer to the [Create tracking webhook](https://docs.intersoftsapient.net/docs/create-tracking-webhook) section. This is a one-time activity, you do not have to do this every time you add a tracking account._
+
+  _If you wish to receive the tracking events via INTERSOFT using the tracking account you have created, make sure it is is activated by the DPD Ireland team._
+</Callout>
 
 ## How to add DPD Ireland tracking account
 
@@ -28,26 +30,34 @@ To add a tracking account for DPD Ireland in SAPIENT, follow the steps as explai
 
 1. In the left navigation panel, select **API** > **Webhooks**. On the page that opens, select the **Tracking Accounts** tab.
 
-<Image align="center" alt="Accessing tracking accounts" border={true} caption="Accessing tracking accounts" src="https://files.readme.io/0b0bf418cd10c99ea179b79f676a9185f00ad99670333f70f1848e77f0ee2fef-Tracking_accounts_tab.png" />
+
+<Image src="https://files.readme.io/0b0bf418cd10c99ea179b79f676a9185f00ad99670333f70f1848e77f0ee2fef-Tracking_accounts_tab.png" alt="Accessing tracking accounts" align="center" caption="Accessing tracking accounts" border={true} />
+
 
 2. In the **Tracking Accounts** page that opens, select ![alt text](https://files.readme.io/1797ee1f92c9e2a16f6b55d7a84e3ef14111e4ef4a7b3e13ff1acb538c1447e8-Add_tracking_account_button.png).
 
-<Image align="center" alt="Accessing option to add tracking account" border={true} caption="Accessing option to add tracking account" src="https://files.readme.io/faca47a22b3d4de7d74e54c6ea663a5156625b787a81a5c7568d2ef0688da840-Add_tracking_account_button_EVRi.png" />
+
+<Image src="https://files.readme.io/faca47a22b3d4de7d74e54c6ea663a5156625b787a81a5c7568d2ef0688da840-Add_tracking_account_button_EVRi.png" alt="Accessing option to add tracking account" align="center" caption="Accessing option to add tracking account" border={true} />
+
 
 3. On the **Add Tracking account** page that appears, in the **DETAILS** block, enter the necessary information as explained in the following table.
 
-<Image align="center" border={true} width="500px" src="https://files.readme.io/132187d592cc67e7de18f937f2caffdd80fe69c89284361d338ba7e4b572dbcb-image.png" className="border" />
+
+<Image src="https://files.readme.io/132187d592cc67e7de18f937f2caffdd80fe69c89284361d338ba7e4b572dbcb-image.png" align="center" width="500px" border={true} />
+
 
 <AsteridkForMandatoryElements />
 
-|        Element        | Description                                                                                                      |
-| :-------------------: | :--------------------------------------------------------------------------------------------------------------- |
-|      **Carrier***     | From the dropdown menu, select DPD Ireland as your carrier option.                                               |
-| **Shipping Account*** | From the dropdown menu, select the <Glossary>shipping account</Glossary> for which you want to receive tracking. |
+|         Element        | Description                                                                                                      |
+| :--------------------: | :--------------------------------------------------------------------------------------------------------------- |
+|      **Carrier**\*     | From the dropdown menu, select DPD Ireland as your carrier option.                                               |
+| **Shipping Account**\* | From the dropdown menu, select the <Glossary>shipping account</Glossary> for which you want to receive tracking. |
 
-> 📘 _Note_
->
-> _To track data for every shipping account, you must create a tracking account for each._
+<Callout icon="📘" theme="info">
+  ### _Note_
+
+  _To track data for every shipping account, you must create a tracking account for each._
+</Callout>
 
 5. After entering all the necessary information, select ![alt text](https://files.readme.io/f713760b5bde9e21d187c9b978502b434343e34f9f3db55afa5b565d35d478cd-Add_tracking_account_button_2.png).
 
