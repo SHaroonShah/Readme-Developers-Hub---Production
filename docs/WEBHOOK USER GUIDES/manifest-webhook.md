@@ -120,11 +120,13 @@ To set up the manifest webhook connection in SAPIENT, follow the instructions as
     <br />
     <Image align="center" border={true} src="https://files.readme.io/0994fa6-image.png" width="660px" alt="Success response" />
     <br />
+
     Following the success response, a test tracking payload is sent to the webhook as follows:
 
     <br />
     <Image align="center" border={true} src="https://files.readme.io/6b06c9d-image.png" alt="tracking payload response example" />
     <br />
+
     If for some reason, the connectivity test fails, the following message is displayed:
 
     <Image align="center" border={true} src="https://files.readme.io/65a4983-image.png" width="660px" alt="Failed connection response" />
