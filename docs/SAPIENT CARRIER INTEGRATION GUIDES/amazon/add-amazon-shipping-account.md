@@ -185,7 +185,7 @@ In SAPIENT, you can create both <Glossary>On-Amazon</Glossary> and <Glossary>Off
             <tbody>
               <tr>
                 <td align="left"><img src="https://files.readme.io/1668b1ad81bff395a051eb64db26205ccc5635e2636194e1a5725b16156243c8-Connect_now_button.png" alt="Connect now button" /></td>
-                <td align="left">Select this button if you want to instantly connect this shipping account with your Amazon seller central account. Upon selection, you are directed to a new browser with the Amazon seller central login screen.<br /><br /><img src="https://files.readme.io/8f06734f14e98a0fe80890254ce53e2abc2cfd8c442b96a4e49979376d0d033a-Amazon_seller_central_dialog.png" alt="Amazon seller central login screen" width="200px" /><br /><br />Enter your login details and sign in to connect your shipping account with your Amazon seller central account.</td>
+                <td align="left">Select this button if you want to instantly connect this shipping account with your Amazon seller central account. Upon selection, you are directed to a new browser with the Amazon seller central login screen.<br /><br /><img src="https://files.readme.io/8f06734f14e98a0fe80890254ce53e2abc2cfd8c442b96a4e49979376d0d033a-Amazon_seller_central_dialog.png" align="center" alt="Amazon seller central login screen" width="200px" /><br /><br />Enter your login details and sign in to connect your shipping account with your Amazon seller central account.</td>
               </tr>
               <tr>
                 <td align="left"><img src="https://files.readme.io/619a4b25c7ee5800144aa6889aa351de103c330e83f30fb8a818908e71e30df0-Connect_later_button.png" align="center" alt="Connect later button" /></td>
