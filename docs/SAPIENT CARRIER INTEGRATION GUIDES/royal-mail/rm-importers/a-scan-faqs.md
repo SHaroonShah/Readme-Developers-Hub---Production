@@ -1,5 +1,5 @@
 ---
-title: A-Scan FAQs
+title: International Arrivals Containers FAQs
 excerpt: Frequently asked questions reagrding the International Arrivals Container API.
 deprecated: false
 hidden: false
