@@ -13,7 +13,9 @@ icon: fad fa-truck-fast
 metadata:
   robots: index
 ---
-<Image align="center" width="900px" src="https://files.readme.io/d86245cf158e8d0443810c7cd372e3bdf92fa171e4f3f933a46e26f30b1d64b2-An_Post_white_banner.png" />
+
+<Image src="https://files.readme.io/d86245cf158e8d0443810c7cd372e3bdf92fa171e4f3f933a46e26f30b1d64b2-An_Post_white_banner.png" align="center" width="900px" />
+
 
 ***
 
@@ -63,6 +65,12 @@ The integration of An Post, Ireland's national postal service, into the SAPIENT 
         An Post only supports single package services. Consignment services are not supported
       </Card>
     </Cards>
+  </Tab>
+
+  <Tab title="Service Enhancements">
+    > 📘 *Note*
+    >
+    > *There are no service enhancements for this integration.*
   </Tab>
 
   <Tab title="Carrier Services">
