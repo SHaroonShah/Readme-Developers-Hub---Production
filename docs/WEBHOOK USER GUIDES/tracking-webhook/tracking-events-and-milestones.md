@@ -15,8 +15,8 @@ next:
 ---
 In SAPIENT, while [configuring the tracking webhook](https://docs.intersoftsapient.net/docs/create-tracking-webhook), You can choose to receive <Glossary>all tracking events</Glossary> or tracking <Glossary>milestones</Glossary> only.
 
-* If you select to receive milestones only, the system only pushes the tracking when a new milestone is triggered.
-* If you select to receive full tracking events, then the system pushes the tracking every time it receives a new tracking event from the carrier, regardless of whether the tracking event triggers a new milestone or not.
+- If you select to receive milestones only, the system only pushes the tracking when a new milestone is triggered.
+- If you select to receive full tracking events, then the system pushes the tracking every time it receives a new tracking event from the carrier, regardless of whether the tracking event triggers a new milestone or not.
 
 ***
 
@@ -326,6 +326,7 @@ _Milestones_ refer to significant stages within the shipment process that are es
 If you choose to receive tracking milestones, bear in mind that each milestone only gets triggered once. To understand each milestone and its expected order of occurrence, refer to the information explained in the following table:
 
 <Accordion title="Tracking Milestones" icon="fa-duotone fa-solid fa-display-chart-up">
+ <HTMLBlock>{`
   <Table align={["center","left"]}>
     <thead>
       <tr>
@@ -453,6 +454,7 @@ If you choose to receive tracking milestones, bear in mind that each milestone o
       </tr>
     </tbody>
   </Table>
+`}</HTMLBlock>
 </Accordion>
 
 ***
@@ -463,10 +465,10 @@ Final events are the stages of a shipment lifecycle where no further tracking st
 
 The following events are considered as the final events.
 
-* All delivered events
-* Recipient collected
-* Shipment lost/destroyed
-* Undeliverable - destroyed.
+- All delivered events
+- Recipient collected
+- Shipment lost/destroyed
+- Undeliverable - destroyed.
 
 ***
 
