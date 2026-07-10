@@ -27,6 +27,7 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
       <ToggleListItem title="1. Select the Shipping Accounts page">
 
         <br />
+
         In the left navigation panel, select **Shipping Accounts**.
 
         <Image align="center" alt="Accessing shipping accounts" border={true} caption="Accessing shipping accounts" src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" />
