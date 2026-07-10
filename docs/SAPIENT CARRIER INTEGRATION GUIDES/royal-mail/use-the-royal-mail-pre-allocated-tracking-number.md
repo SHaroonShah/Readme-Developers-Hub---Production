@@ -36,8 +36,6 @@ After you have all the <Glossary>shipment information</Glossary>, call the Royal
   **_The Create Shipment_**_&#x20;request using a pre-allocated tracking number can only have&#x20;_**_one package_**_, and all the information sent when requesting the pre-allocated tracking number must match the information sent in the&#x20;_**_Create Shipment_**_&#x20;request._
 </Callout>
 
-<br />
-
 
 <Image src="https://files.readme.io/6d031f6c0ef480d45d5d3e10ae5296035962f8070a2b289ecbe626789876113b-Manifest_by_preallocate_tracking_number_flow.png" alt="Workflow for creating shipments with pre-allocated tracking number" align="center" caption="Workflow for creating shipments with pre-allocated tracking number" />
 
