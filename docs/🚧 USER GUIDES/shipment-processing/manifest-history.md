@@ -61,123 +61,56 @@ To search and view manifested shipments in SAPIENT, perform the steps as explain
 
     <br />
 
-    <Table align={["center","left"]}>
+    <table>
       <thead>
         <tr>
-          <th>
-            Column
-          </th>
-
-          <th>
-            Description
-          </th>
+          <th align="center">Column</th>
+          <th align="left">Description</th>
         </tr>
       </thead>
-
       <tbody>
         <tr>
-          <td>
-            **Date**
-          </td>
-
-          <td>
-            Represents the specific date when the manifest was created, crucial for tracking and historical reference.
-          </td>
+          <td align="center"><strong>Date</strong></td>
+          <td align="left">Represents the specific date when the manifest was created, crucial for tracking and historical reference.</td>
         </tr>
-
         <tr>
-          <td>
-            **Customer**
-          </td>
-
-          <td>
-            Represents the  name or identifier of the customer associated with the shipment, helping to manage relationships and service levels.
-          </td>
+          <td align="center"><strong>Customer</strong></td>
+          <td align="left">Represents the name or identifier of the customer associated with the shipment, helping to manage relationships and service levels.</td>
         </tr>
-
         <tr>
-          <td>
-            **Shipping Location**
-          </td>
-
-          <td>
-            Represents the <Glossary>shipping location</Glossary> or dispatch point of the shipment, important for logistics planning and route optimisation.
-          </td>
+          <td align="center"><strong>Shipping Location</strong></td>
+          <td align="left">Represents the <Glossary>shipping location</Glossary> or dispatch point of the shipment, important for logistics planning and route optimisation.</td>
         </tr>
-
         <tr>
-          <td>
-            **Shipping Account**
-          </td>
-
-          <td>
-            Represents the <Glossary>shipping account</Glossary> number linked to the shipments for billing and record-keeping purposes.
-          </td>
+          <td align="center"><strong>Shipping Account</strong></td>
+          <td align="left">Represents the <Glossary>shipping account</Glossary> number linked to the shipments for billing and record-keeping purposes.</td>
         </tr>
-
         <tr>
-          <td>
-            **Manifest Number**
-          </td>
-
-          <td>
-            Represents the unique identifier assigned to each manifest, used for tracking and organizational purposes.
-
-            Select the manifest number link to open and download the <Glossary>manifest</Glossary> file either in <Glossary>CSV</Glossary> or <Glossary>PDF</Glossary>.
-          </td>
+          <td align="center"><strong>Manifest Number</strong></td>
+          <td align="left">Represents the unique identifier assigned to each manifest, used for tracking and organizational purposes.<br /><br />Select the manifest number link to open and download the <Glossary>manifest</Glossary> file either in <Glossary>CSV</Glossary> or <Glossary>PDF</Glossary>.</td>
         </tr>
-
         <tr>
-          <td>
-            **Carrier**
-          </td>
-
-          <td>
-            Represents the name and logo of the <Glossary>carrier</Glossary> responsible for delivering the shipment.
-          </td>
+          <td align="center"><strong>Carrier</strong></td>
+          <td align="left">Represents the name and logo of the <Glossary>carrier</Glossary> responsible for delivering the shipment.</td>
         </tr>
-
         <tr>
-          <td>
-            **Service**
-          </td>
-
-          <td>
-            Represents the type of shipping service used (for example, standard, express), influencing delivery speed and cost.
-          </td>
+          <td align="center"><strong>Service</strong></td>
+          <td align="left">Represents the type of shipping service used (for example, standard or express), influencing delivery speed and cost.</td>
         </tr>
-
         <tr>
-          <td>
-            **Weight**
-          </td>
-
-          <td>
-            Represents the total weight of the shipment included in the manifest, essential for billing and compliance.
-          </td>
+          <td align="center"><strong>Weight</strong></td>
+          <td align="left">Represents the total weight of the shipment included in the manifest, essential for billing and compliance.</td>
         </tr>
-
         <tr>
-          <td>
-            **Packages**
-          </td>
-
-          <td>
-            Represents the total number of <Glossary>package</Glossary>s included in the shipment, vital for planning and inventory management.
-          </td>
+          <td align="center"><strong>Packages</strong></td>
+          <td align="left">Represents the total number of <Glossary>package</Glossary>s included in the shipment, vital for planning and inventory management.</td>
         </tr>
-
         <tr>
-          <td>
-            **Created**
-          </td>
-
-          <td>
-            Represents the date and time when the manifest was generated, providing a timeline for shipping actions and record tracking.
-          </td>
+          <td align="center"><strong>Created</strong></td>
+          <td align="left">Represents the date and time when the manifest was generated, providing a timeline for shipping actions and record tracking.</td>
         </tr>
       </tbody>
-    </Table>
+    </table>
 
     <br />
 
