@@ -126,7 +126,7 @@ The following key services are provided by the DPD Ireland integration.
   <br />
 
  <Accordion title="Print Label">
-      Generate and return the label for a DHL Germany shipment in the supported label formats. This endpoint must be utilised when the label is not generated in the DHL Germany Create Shipment request.
+      Generate and return the label for a DPD Ireland shipment in the supported label formats. This endpoint must be utilised when the label is not generated in the DPD Ireland Create Shipment request.
 
       > 📘 *Note*
       >
