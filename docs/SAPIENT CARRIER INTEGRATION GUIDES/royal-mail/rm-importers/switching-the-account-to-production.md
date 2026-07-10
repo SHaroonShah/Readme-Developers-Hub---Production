@@ -19,10 +19,13 @@ Following the [Test Pack](https://docs.intersoftsapient.net/docs/royal-mail-impo
 
 ## How to switch account from Sandbox to Production
 
-To set up the Production <Glossary>Shipping Account</Glossary>, perform the steps as explained in the following procedure. 
+To set up the Production <Glossary>Shipping Account</Glossary>, perform the steps as explained in the following procedure.
 
 <ToggleList>
   <ToggleListItem title="1. Edit the shipping account">
+
+    <br />
+
     Edit the [Shipping Account](https://docs.intersoftsapient.net/docs/add-a-shipping-account), ensuring that the <Glossary>account type</Glossary> is set to **Production**, and it is prepopulated with the correct Royal Mail account details, Royal Mail Account Number, Posting Location Number (PLN), Registered Email Address (email address used to access your <Glossary>Online Business Account</Glossary> (OBA) to view billing and reporting), and Registered Billing Postcode. For more information on how to fill in the fields, refer to the [Set up Royal Mail Shipping Account.](https://docs.intersoftsapient.net/docs/shipping-account-requirements) section.
 
     > 🚧 *Important*
@@ -35,6 +38,9 @@ To set up the Production <Glossary>Shipping Account</Glossary>, perform the step
   <br />
 
   <ToggleListItem title="2. Send the OBA API request">
+
+    <br />
+
     After switching the Shipping Account to **Production**, an automatic request is sent to the Royal Mail OBA API. Depending on the account details provided, the system either accepts it or rejects it.
 
     ***
@@ -43,6 +49,9 @@ To set up the Production <Glossary>Shipping Account</Glossary>, perform the step
   <br />
 
   <ToggleListItem title="3. Check the account status">
+
+    <br />
+
     If the OBA request is accepted, the **Account Status** changes from **Pending** to **Enabled**. Otherwise, it remains in the **Pending** state and you need to go back, fill in the correct Royal Mail account details and send the request again. You will be unable to use the **Production** Shipping Account until the Account Status is **Enabled**.
 
     <Callout icon="💡" theme="default">
@@ -57,6 +66,9 @@ To set up the Production <Glossary>Shipping Account</Glossary>, perform the step
   <br />
 
   <ToggleListItem title="4. Set up International Arrival Containers">
+
+    <br />
+
     If you are a Freight 2 Post customer, ensure that [International Arrival Containers (A-scan)](https://docs.intersoftsapient.net/docs/add-barcode-range-for-international-arrival-containers) is set up with valid details provided to you by INTERSOFT Onboarding team.
 
     ***
@@ -65,6 +77,9 @@ To set up the Production <Glossary>Shipping Account</Glossary>, perform the step
   <br />
 
   <ToggleListItem title="5. Complete label sign off">
+
+    <br />
+
     After this, you can proceed with the **label sign off** required by Royal Mail. The sign off depends on what type of Royal Mail customer you are:
 
     * **Royal Mail importers using Commercial Clearance route and Tracked High Volume customers**: involves physical label sign off—where you are requested to create couple of labels, manifest them, print them out using your production printers and ship them to Royal Mail for review and quality testing.
@@ -78,6 +93,9 @@ To set up the Production <Glossary>Shipping Account</Glossary>, perform the step
   <br />
 
   <ToggleListItem title="6. Start shipping via Intersoft SAPIENT">
+
+    <br />
+
     Once the labels are signed off and the go-live action is agreed with Royal Mail, you can start shipping via Intersoft SAPIENT.
 
     <Callout icon="⚠️" theme="warning">
@@ -108,6 +126,10 @@ If you are interested in creating a Tracking Account for the newly added Shippin
   </Card>
 </Cards>
 
-> 📘 _Note_
->
-> _To enable the **Tracking Webhook** solution, please contact our [Intersoft Onboarding](mailto:onboarding@intersoft.co.uk) team._
+<Callout icon="📘" theme="info">
+  ### _Note_
+
+  _To enable the&#x20;_**_Tracking Webhook_**_&#x20;solution, please contact our [Intersoft Onboarding](mailto:onboarding@intersoft.co.uk) team._
+</Callout>
+
+<br />
