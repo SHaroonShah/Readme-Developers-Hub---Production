@@ -326,7 +326,7 @@ _Milestones_ refer to significant stages within the shipment process that are es
 If you choose to receive tracking milestones, bear in mind that each milestone only gets triggered once. To understand each milestone and its expected order of occurrence, refer to the information explained in the following table:
 
 <Accordion title="Tracking Milestones" icon="fa-duotone fa-solid fa-display-chart-up">
- <HTMLBlock>{`
+ 
   <Table align={["center","left"]}>
     <thead>
       <tr>
@@ -454,7 +454,6 @@ If you choose to receive tracking milestones, bear in mind that each milestone o
       </tr>
     </tbody>
   </Table>
- `}</HTMLBlock>
 </Accordion>
 
 ***
