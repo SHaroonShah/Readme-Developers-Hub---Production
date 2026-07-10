@@ -42,7 +42,9 @@ As the shipments are in transit, tracking is initiated with a first tracking eve
 <Image src="https://files.readme.io/0fe72ecc237cd3cf26a2335f526ac2f68c9d2f65b921e5cea7554dd880ce1f72-ASCAN_label.jpg" align="center" width="400px" caption="Container barcode label example" border={true} />
 
 
-## See also
+***
+
+### <br />See also
 
 <Cards columns={2}>
   <Card title="Set up Internatinal Arrival Containers barcode ranges" href="https://docs.intersoftsapient.net/docs/add-barcode-range-for-international-arrival-containers#/" icon="fa-solid fa-barcode-read" target="_blank">
