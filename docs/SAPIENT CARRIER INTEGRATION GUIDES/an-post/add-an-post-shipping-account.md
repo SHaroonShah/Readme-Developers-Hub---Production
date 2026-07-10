@@ -21,7 +21,7 @@ In SAPIENT, you can create an An Post shipping account by selecting your desired
 
 <Tabs>
   <Tab title="Via SAPIENT UI">
-    <br />
+    
 
     To add an An Post shipping account via SAPIENT UI, perform the steps as explained in the following procedure:
 
@@ -130,7 +130,7 @@ In SAPIENT, you can create an An Post shipping account by selecting your desired
   </Tab>
 
   <Tab title="Via API">
-    <br />
+    
 
     To add an An Post shipping account via API, refer to the following API endpoint.
 
