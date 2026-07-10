@@ -19,7 +19,7 @@ In SAPIENT, you can add tracking accounts for DHL Germany  to enhance visibility
 
   1. _Enabled the [label integration](https://docs.intersoftsapient.net/docs/integration-activation) with DHL Germany._
   2. _Enabled the [tracking integration](https://docs.intersoftsapient.net/docs/integration-activation) with DHL Germany._
-  3. _Set up your<Glossary>tracking webhook</Glossary>. For more information on how to set up a tracking webhook, refer to the [Create tracking webhook](https://docs.intersoftsapient.net/docs/create-tracking-webhook) section. This is a one-time activity, you do not have to do this every time you add a tracking account._
+  3. _Set up your <Glossary>tracking webhook</Glossary>. For more information on how to set up a tracking webhook, refer to the [Create tracking webhook](https://docs.intersoftsapient.net/docs/create-tracking-webhook) section. This is a one-time activity, you do not have to do this every time you add a tracking account._
 
   _If you wish to receive the tracking events via INTERSOFT using the tracking account you have created, make sure it is is activated by the DHL Germany team._
 </Callout>
