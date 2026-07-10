@@ -12,7 +12,9 @@ icon: fad fa-truck-fast
 metadata:
   robots: index
 ---
-<Image align="center" width="900px" src="https://files.readme.io/79cb618e1191e3516e756266138d9bec63db210f2763f8d1ce8f27804893dfea-Amazon_white_banner.png" />
+
+<Image src="https://files.readme.io/79cb618e1191e3516e756266138d9bec63db210f2763f8d1ce8f27804893dfea-Amazon_white_banner.png" align="center" width="900px" />
+
 
 ***
 
@@ -80,7 +82,7 @@ In the UK, Amazon Shipping covers England, Scotland, and Wales, offering seven-d
     <Callout icon="💡" theme="default">
       ### *Tip*
 
-      *For more information on the service enhancements, refer to the[Create Shipment](https://docs.intersoftsapient.net/v4.03/reference/post_v4-shipments-amazon) endpoint.*
+      *For more information on the service enhancements, refer to the [Create Shipment](https://docs.intersoftsapient.net/v4.03/reference/post_v4-shipments-amazon) endpoint.*
     </Callout>
   </Tab>
 
