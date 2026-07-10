@@ -14,9 +14,11 @@ metadata:
 ---
 If you wish to use the Royal Mail import services, you can integrate with Intersoft SAPIENT and start your seamless importing journey.
 
-> 🚧 _Important_
->
-> _This section is only applicable if you are a Royal Mail customer who is importing goods into the UK. Before initiating the integration, make sure you have an agreement with Royal Mail to use this service._
+<Callout icon="🚧" theme="warn">
+  ### _Important_
+
+  _This section is only applicable if you are a Royal Mail customer who is importing goods into the UK. Before initiating the integration, make sure you have an agreement with Royal Mail to use this service._
+</Callout>
 
 To integrate with the Royal Mail import services via SAPIENT, follow the steps listed below:
 
@@ -30,6 +32,8 @@ To integrate with the Royal Mail import services via SAPIENT, follow the steps l
   <br />
 
   <ToggleListItem title="2. Create your API credentials" icon="fa-solid fa-key">
+  <br />
+
     Proceed to [creating your API Credentials](https://docs.intersoftsapient.net/docs/create-api-credentials).
 
     ***
@@ -127,6 +131,8 @@ To integrate with the Royal Mail import services via SAPIENT, follow the steps l
 ## Need Help?
 
 <Callout icon="💡" theme="default">
+  ###
+
   _Please direct any questions or issues with this service to [onboarding@intersoft.co.uk](mailto:onboarding@intersoft.co.uk). For INTERSOFT to investigate your issue accordingly, kindly include copies of both the API request and API response._
 
   _While submitting your issues to Intersoft, please do not include your API credentials in the request._
@@ -154,6 +160,10 @@ To integrate with the Royal Mail import services via SAPIENT, follow the steps l
   </Card>
 </Cards>
 
-> 📘 _Note_
->
-> _To enable the **Tracking Webhook** solution, contact the [Intersoft Onboarding](mailto:onboarding@intersoft.co.uk) team._
+<Callout icon="📘" theme="info">
+  ### _Note_
+
+  _To enable the&#x20;_**_Tracking Webhook_**_&#x20;solution, contact the [Intersoft Onboarding](mailto:onboarding@intersoft.co.uk) team._
+</Callout>
+
+<br />
