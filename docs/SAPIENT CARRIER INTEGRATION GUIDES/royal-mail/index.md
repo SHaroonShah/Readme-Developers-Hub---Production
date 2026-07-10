@@ -18,7 +18,9 @@ next:
       title: Royal Mail shipping account setup
       type: basic
 ---
-<Image align="center" width="900px" src="https://files.readme.io/d4120789d0d537740a4ace3f889bb8e909087028391ef94204830c884cc243f9-RM_white_banner.png" />
+
+<Image src="https://files.readme.io/d4120789d0d537740a4ace3f889bb8e909087028391ef94204830c884cc243f9-RM_white_banner.png" align="center" width="900px" />
+
 
 ***
 
@@ -152,7 +154,7 @@ This integration represents a significant step towards optimising shipping funct
 
       > 🚧 *Important*
       >
-      > *You can<Glossary>manifest</Glossary> the shipments using any of the following parameters:*
+      > *You can <Glossary>manifest</Glossary> the shipments using any of the following parameters:*
       >
       > * *Shipping location*
       > * *Shipping account*
@@ -207,9 +209,11 @@ This integration represents a significant step towards optimising shipping funct
   </Tab>
 </Tabs>
 
-> 📘 _Note_
->
-> _For more information on the API services, refer to the [SAPIENT Royal Mail](https://docs.intersoftsapient.net/v4.03/reference/post_v4-shipments-rm) API endpoints._
+<Callout icon="📘" theme="info">
+  ### _Note_
+
+  _For more information on the API services, refer to the [SAPIENT Royal Mail](https://docs.intersoftsapient.net/v4.03/reference/post_v4-shipments-rm) API endpoints._
+</Callout>
 
 ***
 
