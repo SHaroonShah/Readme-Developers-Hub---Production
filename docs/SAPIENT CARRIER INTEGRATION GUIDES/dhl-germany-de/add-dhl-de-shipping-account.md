@@ -92,7 +92,7 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
 
         In the **SHIPPING ACCOUNT** block, enter the necessary information as explained in the following table.
 
-        <Image align="center" src="https://files.readme.io/83810f18ee92f48d62b60191f940531365a413ee892f5fc77f3fd76772e24e87-image.png" width="400px" alt="Entering shipping account details" />
+        <Image align="center" src="https://files.readme.io/83810f18ee92f48d62b60191f940531365a413ee892f5fc77f3fd76772e24e87-image.png" width="600px" alt="Entering shipping account details" />
 
         <br />
 
@@ -144,7 +144,7 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
 
         In the **CARRIER DETAILS** block, enter the necessary information as explained in the following table.
 
-        <Image align="center" src="https://files.readme.io/0bd2bd4e7974be809da0cb97fda2d4f39e52d8177dbf53777bfa5ab3f0022b5f-image.png" width="450px" alt="Entering carrier details" />
+        <Image align="center" src="https://files.readme.io/0bd2bd4e7974be809da0cb97fda2d4f39e52d8177dbf53777bfa5ab3f0022b5f-image.png" width="500px" alt="Entering carrier details" />
 
         <br />
 
