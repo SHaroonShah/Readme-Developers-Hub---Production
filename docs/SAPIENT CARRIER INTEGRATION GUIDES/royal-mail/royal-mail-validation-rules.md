@@ -147,7 +147,7 @@ The following sections summarises the MDF validation rules, their respective shi
 
 <Accordion title="Ruleset C" icon="fa-solid fa-shield-check">
   **Scenario example**: International non-document (<Glossary>NDX</Glossary>) shipments using <Glossary>DDU</Glossary> incoterm, with additional item information.
-
+<HTMLBlock>{`
   <table>
     <tr>
       <th>API object</th>
@@ -217,11 +217,12 @@ The following sections summarises the MDF validation rules, their respective shi
       <td>CountryOfOrigin</td>
     </tr>
   </table>
+`}</HTMLBlock>
 </Accordion>
 
 <Accordion title="Ruleset D" icon="fa-solid fa-shield-check">
   **Scenario example**: International non-document (<Glossary>NDX</Glossary>) shipments using <Glossary>DDU</Glossary>, with extra customs data and mandatory receiver contact details.
-
+<HTMLBlock>{`
   <table>
     <tr>
       <th>API object</th>
@@ -299,11 +300,12 @@ The following sections summarises the MDF validation rules, their respective shi
       <td>CountryOfOrigin</td>
     </tr>
   </table>
+`}</HTMLBlock>
 </Accordion>
 
 <Accordion title="Ruleset E" icon="fa-solid fa-shield-check">
   **Scenario example**: International non-document (<Glossary>NDX</Glossary>) shipments using <Glossary>DDP</Glossary> incoterm, sent to non-EU destinations, that is Rest of the World (<Glossary>ROW</Glossary>).
-
+<HTMLBlock>{`
   <table>
     <tr>
       <th>API object</th>
@@ -386,11 +388,12 @@ The following sections summarises the MDF validation rules, their respective shi
       <td>QuotedLandedCost</td>
     </tr>
   </table>
+`}</HTMLBlock>
 </Accordion>
 
 <Accordion title="Ruleset F" icon="fa-solid fa-shield-check">
   **Scenario example**: International non-document (<Glossary>NDX</Glossary>) shipments using <Glossary>DDP</Glossary> incoterm, sent to EU destinations.
-
+<HTMLBlock>{`
   <table>
     <tr>
       <th>API object</th>
@@ -478,11 +481,12 @@ The following sections summarises the MDF validation rules, their respective shi
       <td>QuotedLandedCost</td>
     </tr>
   </table>
+`}</HTMLBlock>
 </Accordion>
 
 <Accordion title="Ruleset G" icon="fa-solid fa-shield-check">
   **Scenario example**: International non-document (<Glossary>NDX</Glossary>) shipments with an <Glossary>IOSS</Glossary> <Glossary>Pre-registration number</Glossary>, shipped to EU destinations.
-
+<HTMLBlock>{`
   <table>
     <tr>
       <th>API object</th>
@@ -569,11 +573,12 @@ The following sections summarises the MDF validation rules, their respective shi
       <td>PreRegistrationType defined as IOSS</td>
     </tr>
   </table>
+`}</HTMLBlock>
 </Accordion>
 
 <Accordion title="Ruleset H" icon="fa-solid fa-shield-check">
   **Scenario example**: International non-document (<Glossary>NDX</Glossary>) shipments with <Glossary>Pre-registration number</Glossary>.
-
+<HTMLBlock>{`
   <table>
     <tr>
       <th>API object</th>
@@ -660,11 +665,12 @@ The following sections summarises the MDF validation rules, their respective shi
       <td>PreRegistrationType</td>
     </tr>
   </table>
+`}</HTMLBlock>
 </Accordion>
 
 <Accordion title="Ruleset K" icon="fa-solid fa-shield-check">
   **Scenario example**: Shipment with B2B <Glossary>business transaction type</Glossary>.
-
+<HTMLBlock>{`
   <table>
     <tr>
       <th>API object</th>
@@ -730,11 +736,12 @@ The following sections summarises the MDF validation rules, their respective shi
       <td>CountryOfOrigin</td>
     </tr>
   </table>
+`}</HTMLBlock>
 </Accordion>
 
 <Accordion title="Ruleset L" icon="fa-solid fa-shield-check">
   **Scenario example**: International non-document (<Glossary>NDX</Glossary>) shipments using <Glossary>DDP</Glossary> incoterm, with importer details required.
-
+<HTMLBlock>{`
   <table>
     <tr>
       <th>API object</th>
@@ -840,6 +847,7 @@ The following sections summarises the MDF validation rules, their respective shi
       <td>CountryCode</td>
     </tr>
   </table>
+`}</HTMLBlock>
 </Accordion>
 
 <br />
