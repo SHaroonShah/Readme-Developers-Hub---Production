@@ -69,6 +69,9 @@ To integrate with the Royal Mail import services via SAPIENT, follow the steps l
   <br />
 
   <ToggleListItem title="5. Add Shipping Account and Shipping Location" icon="fa-solid fa-location-dot">
+
+    <br />
+
     Add the [Shipping Account](https://docs.intersoftsapient.net/docs/shipping-account-requirements) and [Shipping Location](https://docs.intersoftsapient.net/docs/add-a-shipping-location) for Royal Mail.
 
     <Callout icon="💡" theme="default">
@@ -83,6 +86,9 @@ To integrate with the Royal Mail import services via SAPIENT, follow the steps l
   <br />
 
   <ToggleListItem title="6. Set up International Arrival Containers (Freight 2 Post only)" icon="fa-solid fa-barcode">
+
+    <br />
+
     If you are a Freight 2 Post customer, set up [International Arrival Containers (A-scan)](https://docs.intersoftsapient.net/docs/add-barcode-range-for-international-arrival-containers). For now the Customer Number can be filled with dummy details. The Barcode Range used for testing purposes should be **AC40000001** to **AC49999999**.
 
     Production details will be provided to you when your account is switched onto production.
@@ -93,6 +99,9 @@ To integrate with the Royal Mail import services via SAPIENT, follow the steps l
   <br />
 
   <ToggleListItem title="7. Develop the required API calls" icon="fa-solid fa-code">
+
+    <br />
+
     Develop all the [API calls required](https://docs.intersoftsapient.net/docs/sandbox-development-api-requirements) considering the specific requirements applicable to you:
 
     <Columns layout="auto">
@@ -119,6 +128,9 @@ To integrate with the Royal Mail import services via SAPIENT, follow the steps l
   <br />
 
   <ToggleListItem title="8. Complete and submit the Test Pack" icon="fa-solid fa-clipboard-check">
+
+    <br />
+
     Complete the [Test Pack](https://docs.intersoftsapient.net/docs/royal-mail-importers-sandbox-test-pack) and submit it at [onboarding@intersoft.co.uk](mailto:onboarding@intersoft.co.uk).
 
     > 📘 *Note*
@@ -131,6 +143,9 @@ To integrate with the Royal Mail import services via SAPIENT, follow the steps l
   <br />
 
   <ToggleListItem title="9. Switch to Production" icon="fa-solid fa-rocket">
+
+    <br />
+
     Once the **Test Pack** is approved, our team will [switch your account to Production](https://docs.intersoftsapient.net/docs/switching-the-account-to-production) and share with you the details on the sign off process required by Royal Mail.
   </ToggleListItem>
 </ToggleList>
