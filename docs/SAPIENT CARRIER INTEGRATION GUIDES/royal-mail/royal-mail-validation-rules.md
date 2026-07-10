@@ -845,7 +845,7 @@ The following sections summarises the MDF validation rules, their respective shi
       <td>CountryCode</td>
     </tr>
 <tr>
-      <td rowspan="1"><strong>CarrierSpecifics > Importer</strong></td>
+      <td rowspan="2"><strong>CarrierSpecifics > Importer</strong></td>
       <td>ContactName</td>
     </tr>
 <tr>
