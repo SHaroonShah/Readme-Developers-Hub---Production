@@ -161,7 +161,7 @@ Moreover, different roles and permissions improve security by restricting access
         User type with the ability to update settings relating to the customer.
       </Card>
 
-      <Card title="User Administrator" icon="fa-solid user-cog">
+      <Card title="User Administrator" icon="fa-solid fa-user-cog">
         User type with the ability to manage website users.
       </Card>
 
@@ -169,7 +169,7 @@ Moreover, different roles and permissions improve security by restricting access
         Permission that allows access to previous <Glossary>shipments</Glossary> and manifests.
       </Card>
 
-      <Card title="Shipment Manifesting" icon="fa-solid clipboard-list">
+      <Card title="Shipment Manifesting" icon="fa-solid fa-list">
         Permission that allows to <Glossary>manifest</Glossary> shipments via the SAPIENT UI.
       </Card>
     </Cards>
