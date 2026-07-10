@@ -39,7 +39,7 @@ To set up the tracking webhook connection in SAPIENT, perform the steps as expla
 
     In the **WEBHOOK DETAILS** block, enter the required information based on your authentication type:
 
-    <Image align="center" src="https://files.readme.io/173014ddedd58a4c42eed5d291d03fa7455d10b511675e72f8e7434b6333186d-image.png" />
+    <Image align="center" border={true} src="https://files.readme.io/9ce50f6d2ac1bc058b72b5232cf2b81a2ed76a909088ca2512d01f617884f1c4-Adding_tracking_webhook.png" width="500px" />
 
     <br />
 
@@ -51,10 +51,9 @@ To set up the tracking webhook connection in SAPIENT, perform the steps as expla
 
         | Field              | Description                                             |
         | ------------------ | ------------------------------------------------------- |
-        | **Endpoint URL**\* | Enter your endpoint URL for connection identification         |
-        | **Username**\*     | Enter the username to identify and authenticate INTERSOFT payload |
-        | **Password**\*     | Enter the password for the specified username                     |
-| **Notification Email**\*     | Enter the email address to receive the webhook suspension notifications.                       |
+        | **Endpoint URL**\* | Your endpoint URL for connection identification         |
+        | **Username**\*     | Username to identify and authenticate INTERSOFT payload |
+        | **Password**\*     | Password for the specified username                     |
       </Tab>
 
       <Tab title="OAuth2 Authentication">
@@ -62,11 +61,10 @@ To set up the tracking webhook connection in SAPIENT, perform the steps as expla
 
         | Field              | Description                                            |
         | ------------------ | ------------------------------------------------------ |
-        | **Endpoint URL**\* | Enter your endpoint URL for connection identification        |
-        | **Token URL**\*    | Enter the endpoint url to connect and retrieve security token        |
-        | **Client ID**\*    | Enter the client identifier for INTERSOFT payload authentication |
-        | **Secret**\*       | Enter the secret key for INTERSOFT payload authentication        |
-| **Notification Email**\*     | Enter the email address to receive the webhook suspension notifications. 
+        | **Endpoint URL**\* | Your endpoint URL for connection identification        |
+        | **Token URL**\*    | Endpoint to connect and retrieve security token        |
+        | **Client ID**\*    | Client identifier for INTERSOFT payload authentication |
+        | **Secret**\*       | Secret key for INTERSOFT payload authentication        |
       </Tab>
     </Tabs>
 
@@ -111,11 +109,11 @@ To set up the tracking webhook connection in SAPIENT, perform the steps as expla
     Choose your preferred tracking event level from the dropdown:
 
     <Cards columns={2}>
-      <Card title="Milestones" icon="fa-solid fa-flag">
+      <Card title="Milestones" icon="flag">
         Receive tracking milestones only, allowing key status updates throughout the shipping journey.
       </Card>
 
-      <Card title="Full Tracking Events" icon="fa-solid fa-stream">
+      <Card title="Full Tracking Events" icon="stream">
         Receive all tracking events with optional **Received Expired Event** toggle for shipments without tracking numbers after set days.
       </Card>
     </Cards>
@@ -173,7 +171,3 @@ To set up the tracking webhook connection in SAPIENT, perform the steps as expla
     Manage and resolve webhook suspension scenarios.
   </Card>
 </Cards>
-
-<br />
-
-<br />
