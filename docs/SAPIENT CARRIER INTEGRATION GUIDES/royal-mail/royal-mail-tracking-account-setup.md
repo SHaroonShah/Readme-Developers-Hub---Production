@@ -17,13 +17,15 @@ next:
 ---
 In SAPIENT, you can add tracking accounts for Royal Mail to enhance visibility, improving customer interactions, and streamlining logistics operations for Royal Mail.
 
-> 🚧 _Important_
->
-> _Prior to adding a Royal Mail tracking account, make sure you have completed the following prerequisites:_
->
-> 1. _Enabled the [label integration](https://docs.intersoftsapient.net/docs/integration-activation) with Royal Mail._
-> 2. _Enabled the [tracking integration](https://docs.intersoftsapient.net/docs/integration-activation) with Royal Mail._
-> 3. _Set up your<Glossary>tracking webhook</Glossary>. For more information on how to set up a tracking webhook, refer to the [Create tracking webhook](https://docs.intersoftsapient.net/docs/create-tracking-webhook) section. This is a one-time activity, you do not have to do this every time you add a tracking account._
+<Callout icon="🚧" theme="warn">
+  ### _Important_
+
+  _Prior to adding a Royal Mail tracking account, make sure you have completed the following prerequisites:_
+
+  1. _Enabled the [label integration](https://docs.intersoftsapient.net/docs/integration-activation) with Royal Mail._
+  2. _Enabled the [tracking integration](https://docs.intersoftsapient.net/docs/integration-activation) with Royal Mail._
+  3. _Set up your<Glossary>tracking webhook</Glossary>. For more information on how to set up a tracking webhook, refer to the [Create tracking webhook](https://docs.intersoftsapient.net/docs/create-tracking-webhook) section. This is a one-time activity, you do not have to do this every time you add a tracking account._
+</Callout>
 
 ## How to add Royal Mail tracking account
 
@@ -60,6 +62,7 @@ To add a tracking account for Royal Mail in SAPIENT, perform the steps as explai
     On the **Add Tracking account** page, in the **DETAILS** block, enter the necessary information as explained in the following table.
 
     <Image align="center" border={true} src="https://files.readme.io/f2159cfc5df8047ce939baae8432347a35e1010906cc7596b53f8eca75c6cf46-Add_tracking_account_screen.png" alt="Adding tracking account" />
+    <br />
 
     <AsteridkForMandatoryElements />
 
@@ -119,3 +122,5 @@ To add a tracking account for Royal Mail in SAPIENT, perform the steps as explai
     Understand tracking events and milestone data.
   </Card>
 </Cards>
+
+<br />
