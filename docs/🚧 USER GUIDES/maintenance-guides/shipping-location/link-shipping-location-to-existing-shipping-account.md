@@ -36,7 +36,7 @@ In SAPIENT, you can link on or more shipping locations to your carrier's existin
       <ToggleListItem title={<strong>2. Select location to link</strong>} icon="fa-rocket">
         <br />
 
-        On the **Shipping Locations** page that appears, select the shipping location that you want to link to an existing shipping account and on the **View Shipping Location\[location name]** form that opens, in the ASSOCIATED SHIPPING ACCOUNTS block, select ![](https://files.readme.io/80cdc77d8bb03dab8b51d717f073576dae0699b7acc8a964c6f2cf74bcd27556-Link_existing_shipping_account_button.png).
+        On the **Shipping Locations** page that appears, select the shipping location that you want to link to an existing shipping account and on the **View Shipping Location\[location name]** form that opens, in the **ASSOCIATED SHIPPING ACCOUNTS** block, select ![](https://files.readme.io/80cdc77d8bb03dab8b51d717f073576dae0699b7acc8a964c6f2cf74bcd27556-Link_existing_shipping_account_button.png).
 
         <Image align="center" border={true} src="https://files.readme.io/0caad28a80311077a940bff28ebd29c2ceadd655c014741d090bcb5c51f5cbc5-Linking_shipping_account.png" alt="Selecting option to add shipping location" />
 
