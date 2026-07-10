@@ -153,23 +153,23 @@ Moreover, different roles and permissions improve security by restricting access
     ## Available User Types and Permissions
 
     <Cards>
-      <Card title="Carrier Accounts Administrator" icon="truck">
+      <Card title="Carrier Accounts Administrator" icon="fa-solid fa-truck">
         User type with the ability to manage carrier accounts for all assigned <Glossary>carrier</Glossary>(s).
       </Card>
 
-      <Card title="Customer Configuration Manager" icon="cog">
+      <Card title="Customer Configuration Manager" icon="fa-solid fa-cog">
         User type with the ability to update settings relating to the customer.
       </Card>
 
-      <Card title="User Administrator" icon="user-cog">
+      <Card title="User Administrator" icon="fa-solid user-cog">
         User type with the ability to manage website users.
       </Card>
 
-      <Card title="History Access" icon="history">
+      <Card title="History Access" icon="fa-solid fa-history">
         Permission that allows access to previous <Glossary>shipments</Glossary> and manifests.
       </Card>
 
-      <Card title="Shipment Manifesting" icon="clipboard-list">
+      <Card title="Shipment Manifesting" icon="fa-solid clipboard-list">
         Permission that allows to <Glossary>manifest</Glossary> shipments via the SAPIENT UI.
       </Card>
     </Cards>
