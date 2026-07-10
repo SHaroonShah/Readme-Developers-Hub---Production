@@ -101,7 +101,7 @@ To set up the Production <Glossary>Shipping Account</Glossary>, perform the step
     <Callout icon="⚠️" theme="warning">
       ### *Important*
 
-      *Once you go-live any technical issues should be raised directly with our Tech Support team by following the steps listed[here](https://docs.intersoftsapient.net/docs/troubleshooting#/).* *Enquiries regarding addition of the new services, features etc. should be continued being sent to[onboarding@intersoft.co.uk](mailto:onboarding@intersoft.co.uk).*
+      *Once you go-live any technical issues should be raised directly with our Tech Support team by following the steps listed [here](https://docs.intersoftsapient.net/docs/troubleshooting#/).* *Enquiries regarding addition of the new services, features, and so on should be continued being sent to [onboarding@intersoft.co.uk](mailto:onboarding@intersoft.co.uk).*
     </Callout>
   </ToggleListItem>
 </ToggleList>
