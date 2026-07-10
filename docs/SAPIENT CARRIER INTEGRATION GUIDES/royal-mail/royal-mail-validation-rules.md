@@ -27,7 +27,8 @@ The following sections summarises the MDF validation rules, their respective shi
 </Callout>
 
 <Accordion title="Ruleset A" icon="fa-solid fa-shield-check">
-  **Scenario example**: Domestic <Glossary>DOX</Glossary>, <Glossary>NDX</Glossary>, and international DOX shipments.  
+  **Scenario example**: Domestic <Glossary>DOX</Glossary>, <Glossary>NDX</Glossary>, and international DOX shipments.
+<HTMLBlock>{`  
 <table>
     <tr>
       <th>API object</th>
@@ -72,6 +73,7 @@ The following sections summarises the MDF validation rules, their respective shi
       <td>CountryCode</td>
     </tr>
   </table>
+`}</HTMLBlock>
 </Accordion>
 
 <Accordion title="Ruleset B" icon="fa-solid fa-shield-check">
