@@ -80,7 +80,7 @@ The following sections summarises the MDF validation rules, their respective shi
 
 <Accordion title="Ruleset B" icon="fa-solid fa-shield-check">
   **Scenario example**: International non-document (<Glossary>NDX</Glossary>) shipments using <Glossary>DDU</Glossary> incoterm.
-
+<HTMLBlock>{`
   <table>
     <tr>
       <th>API object</th>
@@ -142,6 +142,7 @@ The following sections summarises the MDF validation rules, their respective shi
       <td>Weight</td>
     </tr>
   </table>
+`}</HTMLBlock>
 </Accordion>
 
 <Accordion title="Ruleset C" icon="fa-solid fa-shield-check">
