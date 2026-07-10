@@ -829,7 +829,7 @@ The following sections summarises the MDF validation rules, their respective shi
     </tr>
 
     <tr>
-      <td rowspan="5"><strong>CarrierSpecifics > Importer > Address</strong></td>
+      <td rowspan="4"><strong>CarrierSpecifics > Importer > Address</strong></td>
       <td>ContactName</td>
     </tr>
 
@@ -843,13 +843,6 @@ The following sections summarises the MDF validation rules, their respective shi
 
     <tr>
       <td>CountryCode</td>
-    </tr>
-<tr>
-      <td rowspan="2"><strong>CarrierSpecifics > Importer</strong></td>
-      <td>ContactName</td>
-    </tr>
-<tr>
-      <td>EORI Number</td>
     </tr>
   </table>
 `}</HTMLBlock>
