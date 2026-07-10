@@ -137,7 +137,7 @@ In SAPIENT, you can create a <Glossary>shipping account</Glossary>, assign your 
     To add a shipping account via our API, refer to the following endpoint:
 
     <Cards>
-      <Card title="Add Account" href="https://docs.intersoftsapient.net/reference/post_v4-shippingaccounts-rm#/" icon="fa-solid fa-code">
+      <Card title="Add Account" href="https://docs.intersoftsapient.net/reference/post_v4-shippingaccounts-rm" icon="fa-solid fa-code">
         Complete API reference for adding shipping account
       </Card>
     </Cards>
