@@ -844,6 +844,10 @@ The following sections summarises the MDF validation rules, their respective shi
     <tr>
       <td>CountryCode</td>
     </tr>
+<tr>
+      <td><strong>CarrierSpecifics > Importer</strong></td>
+      <td>EoriNumber</td>
+    </tr>
   </table>
 `}</HTMLBlock>
 </Accordion>
