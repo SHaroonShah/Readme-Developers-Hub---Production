@@ -78,6 +78,7 @@ To add a barcode range for International Arrival Containers in SAPIENT, perform 
 
     <Image align="center" border={true} src="https://files.readme.io/f034c697c47c3c50bea13ef9821e4caec23a81ca1fc2252ab2457489d0c2a745-Barcode_range_details_form.png" alt="Entering barcode range details" />
     <br />
+
     <AsteridkForMandatoryElements />
 
     |      Element     | Description                                                                                                                                                                                                                                                                                                                            |
