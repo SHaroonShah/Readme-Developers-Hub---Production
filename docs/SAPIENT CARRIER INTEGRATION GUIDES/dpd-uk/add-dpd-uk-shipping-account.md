@@ -19,6 +19,8 @@ In SAPIENT, you can create a DPD UK shipping account by selecting your desired <
 
 <Tabs>
   <Tab title="Via SAPIENT UI">
+    <br />
+
     To add a DPD UK shipping account via SAPIENT UI, perform the steps as explained in the following procedure:
 
     <ToggleList>
@@ -46,7 +48,7 @@ In SAPIENT, you can create a DPD UK shipping account by selecting your desired <
         On the **Add Shipping Account** form that appears, in the **ACCOUNT DETAILS** block, fill in the necessary information as described in the following table.
 
         <Image align="center" border={true} src="https://files.readme.io/9e466e696ea305d18429dc70a57f6cfed758305cb42a7cb164d244a139e88383-DPD_UK_Account_Details_block.png" width="500px" alt="Entering account details" />
-<br />
+
         <AsteridkForMandatoryElements />
 
         |         Element         | Description                                                                                                   |
@@ -63,94 +65,58 @@ In SAPIENT, you can create a DPD UK shipping account by selecting your desired <
         In the **SHIPPING ACCOUNT** block, enter the necessary information as explained in the following table.
 
         <Image align="center" border={true} src="https://files.readme.io/39d87085578107757d9093cbbe563490cfaddc225e515ed2da42c1ab2bef70ee-DPD_UK_Shipping_Account_block.png" width="400px" alt="Specifying shipping account details" />
-<br />
+
         <Callout icon="💡" theme="default">
           ### *Tip*
 
           *In the following table, the mandatory fields are marked with an asterisk (\*).*
         </Callout>
 
-        <Table align={["center","left"]}>
+        <table>
           <thead>
             <tr>
-              <th>
-                Element
-              </th>
-
-              <th>
-                Description
-              </th>
+              <th>Element</th>
+              <th>Description</th>
             </tr>
           </thead>
-
           <tbody>
             <tr>
-              <td>
-                **Carrier Account Number**\*
-              </td>
-
+              <td><strong>Carrier Account Number</strong>&#42;</td>
               <td>
                 Enter the account number, which is the DPD UK client ID.
-
-                *`Note`: If you already have an account with DPD UK that is actively being used, and if you wish to receive tracking via Intersoft, then you need to request a new account number in order to integrate with Intersoft. This request can be made to your DPD account manager.*
+                <br />
+                <br />
+                <em><code>Note</code>: If you already have an account with DPD UK that is actively being used, and if you wish to receive tracking via Intersoft, then you need to request a new account number in order to integrate with Intersoft. This request can be made to your DPD account manager.</em>
               </td>
             </tr>
-
             <tr>
+              <td><strong>Account Name (if different than customer)</strong>&#42;</td>
+              <td>Enter the name of the account you are adding.</td>
+            </tr>
+            <tr>
+              <td><strong>Account Type</strong>&#42;</td>
               <td>
-                **Account Name (if different than customer)**\*
-              </td>
-
-              <td>
-                Enter the name of the account you are adding.
+                <p>From the dropdown menu, select one of the following account types that you want to set up for the the shipping account you are adding:</p>
+                <ul>
+                  <li><strong>Production</strong>: a live environment where the final version of the application is deployed and made available to the users.</li>
+                  <li><strong>Sandbox</strong>: a testing environment that mimics the <strong>Production</strong> environment but is isolated from it. The sandbox environment is primarily used for development and testing purposes.</li>
+                </ul>
               </td>
             </tr>
-
             <tr>
-              <td>
-                **Account Type**\*
-              </td>
-
-              <td>
-                From the dropdown menu, select one of the following account types that you want to set up for the the shipping account you are adding:
-
-                • **[Production](https://docs.intersoftsapient.net/docs/sandbox-account)**: a live environment where the final version of the application is deployed and made available to the users.
-
-                • **[Sandbox](https://docs.intersoftsapient.net/docs/sandbox-account)**: a testing environment that mimics the **Production** environment but is isolated from it. The sandbox environment is primarily used for development and testing purposes.
-              </td>
+              <td><strong>Alias</strong>&#42;</td>
+              <td>Enter a custom name which can be used in the API request instead of using the shipping account ID when connecting to us. Therefore, it is recommend that this name must be memorable and available for reference purposes.</td>
             </tr>
-
             <tr>
-              <td>
-                **Alias**\*
-              </td>
-
-              <td>
-                Enter a custom name which can be used in the API request instead of using the shipping account ID when connecting to us. Therefore, it is recommend that this name must be memorable and available for reference purposes.
-              </td>
+              <td><strong>Contact Name</strong>&#42;</td>
+              <td>Enter the contact name for the account you are adding.</td>
             </tr>
-
             <tr>
-              <td>
-                **Contact Name**\*
-              </td>
-
-              <td>
-                Enter the contact name for the account you are adding.
-              </td>
-            </tr>
-
-            <tr>
-              <td>
-                **Contact Number**\*
-              </td>
-
-              <td>
-                Enter the contact number for the account you are adding.
-              </td>
+              <td><strong>Contact Number</strong>&#42;</td>
+              <td>Enter the contact number for the account you are adding.</td>
             </tr>
           </tbody>
-        </Table>
+        </table>
 
         ***
       </ToggleListItem>
@@ -161,46 +127,32 @@ In SAPIENT, you can create a DPD UK shipping account by selecting your desired <
         In the **CARRIER DETAILS** block, enter the necessary information as explained in the following table.
 
         <Image align="center" border={true} src="https://files.readme.io/7c33d0683d772640711106d7353fba4e51c9a321c1bcab6c03953d9fcd3b8570-DPD_UK_Carrier_Details_block.png" width="400px" alt="Entering carrier details" />
-<br />
+
         <AsteridkForMandatoryElements />
 
-        <Table align={["center","left"]}>
+        <table>
           <thead>
             <tr>
-              <th>
-                Element
-              </th>
-
-              <th>
-                Description
-              </th>
+              <th>Element</th>
+              <th>Description</th>
             </tr>
           </thead>
-
           <tbody>
             <tr>
-              <td>
-                **Authorisation code**\*
-              </td>
-
+              <td><strong>Authorisation code</strong>&#42;</td>
               <td>
                 Enter a unique 8-digit identifier as your authorisation code for DPD UK. This code is used to validate or link the manifest to the correct shipper or contract.
-
-                *`Note`: This identifier is included in the manifest file names.*
+                <br />
+                <br />
+                <em><code>Note</code>: This identifier is included in the manifest file names.</em>
               </td>
             </tr>
-
             <tr>
-              <td>
-                **SLID**\*
-              </td>
-
-              <td>
-                Enter the unique customer identifier which will be used in the barcode range and manifest files.
-              </td>
+              <td><strong>SLID</strong>&#42;</td>
+              <td>Enter the unique customer identifier which will be used in the barcode range and manifest files.</td>
             </tr>
           </tbody>
-        </Table>
+        </table>
 
         ***
       </ToggleListItem>
