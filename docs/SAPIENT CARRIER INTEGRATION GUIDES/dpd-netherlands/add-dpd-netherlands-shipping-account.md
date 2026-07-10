@@ -11,9 +11,11 @@ metadata:
 ---
 In SAPIENT, with the Add Shipping Account functionality, you can select the desired shipping location and then add a DPD NL shipping account to it.
 
-> 🚧 _Important_
->
-> _Before you can set up a shipping account, make sure you have enabled the <Anchor label="label integration" target="_blank" href="https://docs.intersoftsapient.net/docs/integration-activation">label integration</Anchor> for DPD NL and have already [created a shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location)._
+<Callout icon="🚧" theme="warn">
+  ### _Important_
+
+  _Before you can set up a shipping account, make sure you have enabled the <Anchor target="_blank" href="https://docs.intersoftsapient.net/docs/integration-activation">label integration</Anchor> for DPD NL and have already [created a shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location)._
+</Callout>
 
 ## How to add DPD NL shipping account
 
@@ -23,6 +25,8 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
 
     <ToggleList>
       <ToggleListItem title="1. Select the Shipping Accounts page">
+
+        <br />
         In the left navigation panel, select **Shipping Accounts**.
 
         <Image align="center" alt="Accessing shipping accounts" border={true} caption="Accessing shipping accounts" src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" />
@@ -33,6 +37,9 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
       <br />
 
       <ToggleListItem title="2. Select option to add shipping account">
+
+        <br />
+
         On the **Shipping Accounts** page that opens, select ![](https://files.readme.io/5eb134426849b1adb3049756830b6bef19e7dc67dca55891e64ff7b9c8eadd8e-add_shipping_account_button.png).
 
         <Image align="center" alt="Accessing option to add shipping account" border={true} caption="Selecting option to add shipping account" src="https://files.readme.io/3b149ee84f86fb8d4f02c43b2733c7eb85aea3ac6e2f01692af371f631570bf3-Add_shipping_account_button_DX.png" />
@@ -43,6 +50,9 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
       <br />
 
       <ToggleListItem title="3. Enter account details">
+
+        <br />
+
         On the **Add Shipping Account** form that appears, in the **ACCOUNT DETAILS** block, fill in the necessary information as described in the following table.
 
         <Image align="center" caption="Selecting DPD NL carrier" src="https://files.readme.io/3a455e2719e4881e477bf78f117fa269ddb148a02a7dbd95daf3fdb49afdf456-image.png" width="500px" />
@@ -76,6 +86,9 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
       <br />
 
       <ToggleListItem title="4. Enter shipping account details">
+
+        <br />
+
         In the **SHIPPING ACCOUNT** block, enter the necessary information as explained in the following table.
 
         <Image align="center" caption="Entering shipping account details" src="https://files.readme.io/038ffd980b7ea30489f1537526e454561ca8b4c6207f368f198f7b3a796b76ba-image.png" width="500px" />
@@ -121,6 +134,9 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
       <br />
 
       <ToggleListItem title="5. Enter carrier details">
+
+        <br />
+
         In the **CARRIER DETAILS** block, enter the necessary information as explained in the following table.
 
         <Image align="center" caption="Entering carrier-specific details" src="https://files.readme.io/50b1c2b340debdfc89d6ac4056545f954a35b3025eac1f05cc88699c6e481523-image.png" width="600px" />
@@ -162,6 +178,9 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
       <br />
 
       <ToggleListItem title="6. Save and add the shipping account">
+
+        <br />
+
         After entering all the required information, select ![](https://files.readme.io/721eb0f8be0c99a924b61cbca6496517d03fcbbf235aa0c3d579c60b3131df2a-add_shipping_account_button_2.png).
 
         Once done, you have now successfully added a shipping account. You can now start shipping with it.
