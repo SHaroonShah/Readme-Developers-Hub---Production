@@ -19,7 +19,7 @@ The SAPIENT top toolbar is located below the application header and contains ess
 
 <Cards columns={2}>
   <Card title="Breadcrumbs" icon="fa-sitemap">
-    > Navigate through your application hierarchy with breadcrumb trail navigation. Click any breadcrumb link to return to a previous page, or use the ![Home button]((https://files.readme.io/423a5ef6c3ac9b84d73c25bdda6f592032a9dc4a05e2bfba26d4b9314fbb0483-Home_button.png)
+    > Navigate through your application hierarchy with breadcrumb trail navigation. Click any breadcrumb link to return to a previous page, or use the ![Home button](https://files.readme.io/423a5ef6c3ac9b84d73c25bdda6f592032a9dc4a05e2bfba26d4b9314fbb0483-Home_button.png)
 ) home button to jump directly to the application's main page.
   </Card>
 
