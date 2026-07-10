@@ -30,9 +30,9 @@ In SAPIENT, you can <Glossary>manifest</Glossary> the <Glossary>shipment</Glossa
 
 You can also manifest shipments by:
 
-* Shipping location
-* Shipping account
-* Service code
+- Shipping location
+- Shipping account
+- Service code
 
 <Callout icon="💡" theme="default">
   ### _Tip_
@@ -98,7 +98,7 @@ You can also manifest shipments by:
 
         Next to your desired shipment, select the manifest button: ![Manifest button](https://files.readme.io/fcb77ce4360ada3f172a0dccfceec28b483d6f4aa3e2a6a467929cf803686efe-Manifest_button.png)
 
-                <Image align="center" border={true} src="https://files.readme.io/417b398230fd2d49d159b9cc0cffa33e38496a2e5649b8fe2ec36d0a3078ce4a-Manifest_option.png" alt="Manifesting shipment" />.
+        <Image align="center" border={true} src="https://files.readme.io/417b398230fd2d49d159b9cc0cffa33e38496a2e5649b8fe2ec36d0a3078ce4a-Manifest_option.png" alt="Manifesting shipment" />.
 
         ***
       </ToggleListItem>
