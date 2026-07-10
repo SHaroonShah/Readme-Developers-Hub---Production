@@ -32,6 +32,7 @@ To integrate with the Royal Mail import services via SAPIENT, follow the steps l
   <br />
 
   <ToggleListItem title="2. Create your API credentials" icon="fa-solid fa-key">
+
   <br />
 
     Proceed to [creating your API Credentials](https://docs.intersoftsapient.net/docs/create-api-credentials).
