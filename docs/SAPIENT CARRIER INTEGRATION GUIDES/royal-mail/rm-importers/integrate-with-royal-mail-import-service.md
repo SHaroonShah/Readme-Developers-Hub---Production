@@ -106,13 +106,13 @@ To integrate with the Royal Mail import services via SAPIENT, follow the steps l
 
     <Columns layout="auto">
       <Column>
-        **Commercial Clearance customers**
+       * **Commercial Clearance customers**
 
         Refer to the [Commercial Clearance requirements](https://docs.intersoftsapient.net/docs/commercial-clearance-customers).
       </Column>
 
       <Column>
-        **Freight 2 Post customers**
+       * **Freight 2 Post customers**
 
         Refer to the [Freight 2 Post requirements](https://docs.intersoftsapient.net/docs/freight-2-post-customers).
       </Column>
@@ -153,7 +153,7 @@ To integrate with the Royal Mail import services via SAPIENT, follow the steps l
 ## Need Help?
 
 <Callout icon="💡" theme="default">
-  ###
+  ### _Tip_
 
   _Please direct any questions or issues with this service to [onboarding@intersoft.co.uk](mailto:onboarding@intersoft.co.uk). For INTERSOFT to investigate your issue accordingly, kindly include copies of both the API request and API response._
 
