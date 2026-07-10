@@ -60,58 +60,37 @@ To add a tracking account for Royal Mail in SAPIENT, perform the steps as explai
     On the **Add Tracking account** page, in the **DETAILS** block, enter the necessary information as explained in the following table.
 
     <Image align="center" border={true} src="https://files.readme.io/f2159cfc5df8047ce939baae8432347a35e1010906cc7596b53f8eca75c6cf46-Add_tracking_account_screen.png" alt="Adding tracking account" />
-<br />
+
     <AsteridkForMandatoryElements />
 
-    <Table align={["center","left"]}>
+    <table>
       <thead>
         <tr>
-          <th>
-            Element
-          </th>
-
-          <th>
-            Description
-          </th>
+          <th>Element</th>
+          <th>Description</th>
         </tr>
       </thead>
-
       <tbody>
         <tr>
+          <td><strong>Carrier</strong>&#42;</td>
+          <td>From the dropdown menu, select Royal Mail as your carrier option.</td>
+        </tr>
+        <tr>
+          <td><strong>Receive tracking after Delivered event</strong></td>
           <td>
-            **Carrier**\*
-          </td>
-
-          <td>
-            From the dropdown menu, select Royal Mail as your carrier option.
+            <p>Turn the toggle on/off to perform the following operations:</p>
+            <ul>
+              <li><strong>Toggle on</strong>: to continue receiving any tracking events that occur after the final delivery in exceptional circumstances.</li>
+              <li><strong>Toggle off</strong> (a default state): to stop receiving the tracking events after the final delivery.</li>
+            </ul>
           </td>
         </tr>
-
         <tr>
-          <td>
-            **Receive tracking after Delivered event**
-          </td>
-
-          <td>
-            Turn the toggle on/off to perform the following operations:
-
-            • Toggle on: to continue receiving any tracking events that occur after the final delivery in exceptional circumstances.
-
-            • Toggle off (a default state): to stop receiving the tracking events after the final delivery.
-          </td>
-        </tr>
-
-        <tr>
-          <td>
-            **Shipping Account**\*
-          </td>
-
-          <td>
-            From the dropdown menu, select the <Glossary>shipping account</Glossary> for which you want to receive tracking.
-          </td>
+          <td><strong>Shipping Account</strong>&#42;</td>
+          <td>From the dropdown menu, select the shipping account for which you want to receive tracking.</td>
         </tr>
       </tbody>
-    </Table>
+    </table>
 
     ***
   </ToggleListItem>
