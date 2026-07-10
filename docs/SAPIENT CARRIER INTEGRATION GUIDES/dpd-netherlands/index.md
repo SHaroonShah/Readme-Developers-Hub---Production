@@ -9,7 +9,9 @@ icon: fad fa-truck-fast
 metadata:
   robots: index
 ---
-<Image align="center" width="900px" src="https://files.readme.io/67505883534542d666a2fed1d64893c848534290da3ac931e7c09fce390c7fa5-DPD_NL_banner_white.png" />
+
+<Image src="https://files.readme.io/67505883534542d666a2fed1d64893c848534290da3ac931e7c09fce390c7fa5-DPD_NL_banner_white.png" align="center" width="900px" />
+
 
 ***
 
@@ -155,7 +157,7 @@ The integration of DPD NL into the SAPIENT platform is a significant step in enh
 
 <Tabs>
   <Tab title="Account Setup">
-    <Cards columns={3}>
+    <Cards columns={2}>
       <Card title="Add DPD Netherlands Shipping Account" icon="fa-solid fa-truck" href="https://docs.intersoftsapient.net/docs/add-dpd-netherlands-shipping-account">
         Set up your DPD Netherlands shipping account to start creating shipments.
       </Card>
@@ -182,3 +184,5 @@ The integration of DPD NL into the SAPIENT platform is a significant step in enh
     Seamlessly connect with DPD Netherlands and manage your shipping operations from a single platform.
   </Card>
 </Cards>
+
+<br />
