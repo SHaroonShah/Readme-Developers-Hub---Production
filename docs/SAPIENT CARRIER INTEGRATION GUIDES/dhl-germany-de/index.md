@@ -10,7 +10,9 @@ icon: fad fa-truck-fast
 metadata:
   robots: index
 ---
-<Image align="center" width="900px" src="https://files.readme.io/1c75f5e50dcdc7dfcdde00afa6ddf1f96bb34d0a329a8f93155a21e02605cc47-DHL_DE_banner_white.png" />
+
+<Image src="https://files.readme.io/1c75f5e50dcdc7dfcdde00afa6ddf1f96bb34d0a329a8f93155a21e02605cc47-DHL_DE_banner_white.png" align="center" width="900px" />
+
 
 ***
 
@@ -101,7 +103,7 @@ The integration of DHL Germany (DE) into the SAPIENT platform is a significant s
     <Callout icon="💡" theme="default">
       ### *Tip*
 
-      *For the most up-to-date carrier services, use the[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint.*
+      *For the most up-to-date carrier services, use the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint.*
     </Callout>
   </Tab>
 </Tabs>
