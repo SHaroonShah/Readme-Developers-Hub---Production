@@ -15,15 +15,17 @@ next:
 ---
 In SAPIENT, you can create a Royal Mail shipping account by selecting your desired <Glossary>shipping location</Glossary>,  entering the corresponding account and carrier details, and then adding the account to the system.
 
-> 🚧 _Important_
->
-> _Before you can set up a shipping account, you must ensure you have[enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with Royal Mail and have already [created a shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location)._
+<Callout icon="🚧" theme="warn">
+  ### _Important_
+
+  _Before you can set up a shipping account, you must ensure you have[enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with Royal Mail and have already [created a shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location)._
+</Callout>
 
 ## How to Add Royal Mail shipping account
 
 <Tabs>
   <Tab title="Via SAPIENT UI">
-    <br />
+    
 
     To add a shipping account for Royal Mail in SAPIENT, follow the instructions as explained in the following procedure.
 
@@ -70,6 +72,7 @@ In SAPIENT, you can create a Royal Mail shipping account by selecting your desir
         On the **Add Shipping Account** form, in the **ACCOUNT DETAILS** block, fill in the information described in the following table.
 
         <Image align="center" border={true} src="https://files.readme.io/dc5c99c4576f2625aa7809d67c9cf26573ed44dbce51fdebc2df7f43013cde3b-Account_details_block.png" alt="Entering account details" />
+        <br />
 
         <AsteridkForMandatoryElements />
 
@@ -172,6 +175,7 @@ In SAPIENT, you can create a Royal Mail shipping account by selecting your desir
         In the **CARRIER DETAILS** block, enter the necessary information as explained in the following table.
 
         <Image align="center" border={true} src="https://files.readme.io/0ca47335dbea534cb7d1b4ddce82c5eef9de68c4e17ac2c7169d6b82f3738835-carrier_details_block.png" width="400px" alt="Entering carrier details" />
+        <br />
 
         <AsteridkForMandatoryElements />
 
@@ -226,7 +230,7 @@ In SAPIENT, you can create a Royal Mail shipping account by selecting your desir
   </Tab>
 
   <Tab title="Via API">
-    <br />
+    
 
     To add a Royal Mail shipping account via API, refer to the following API endpoint.
 
