@@ -9,7 +9,9 @@ icon: fad fa-truck-fast
 metadata:
   robots: index
 ---
-<Image align="center" width="900px" src="https://files.readme.io/5f844af2d7884698a45f3d8af806874028f7a16f36a6ce86bb9e28ee4e83363c-DPD_IE_banner_white.png" />
+
+<Image src="https://files.readme.io/5f844af2d7884698a45f3d8af806874028f7a16f36a6ce86bb9e28ee4e83363c-DPD_IE_banner_white.png" align="center" width="900px" />
+
 
 ***
 
@@ -47,8 +49,6 @@ The integration of DPD Ireland (IE) into the SAPIENT platform is a significant s
       <Card title="Consignment services" icon="fa-solid fa-boxes-stacked">
         Multi-piece shipments are supported for all services except DPD Air Express.
 
-        > 📘 _Note_
-        >
         > _For Domestic and DPD Classic services, the maximum number of packages allowed is 10, and for DPD Air Express, it is 1._
       </Card>
 
@@ -92,6 +92,7 @@ The following key services are provided by the DPD Ireland integration.
 | **DPD Classic**               | This service provides reliable, cost-effective road-based parcel delivery across Ireland and Europe, offering fast standard transit times, full tracking, and high-volume shipping capabilities.                      |
 | **DPD Classic International** | This service provides international parcel delivery through DPD’s road and air network, combining competitive pricing with reliable transit times, full tracking, and coverage across Europe and global destinations. |
 <br />
+
 <Callout icon="💡" theme="default">
   ### _Tip_
 
