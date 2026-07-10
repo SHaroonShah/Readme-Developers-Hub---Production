@@ -43,10 +43,13 @@ The integration of DPD Ireland (IE) into the SAPIENT platform is a significant s
   </Tab>
 
   <Tab title="Additional Features">
-    <Cards columns={2}>
+    <Cards columns={1}>
       <Card title="Consignment services" icon="fa-solid fa-boxes-stacked">
         Multi-piece shipments are supported for all services except DPD Air Express.
-> *For Domestic and DPD Classic services, the maximum number of packages allowed is 10, and for DPD Air Express, it is 1.*
+
+        > 📘 _Note_
+        >
+        > _For Domestic and DPD Classic services, the maximum number of packages allowed is 10, and for DPD Air Express, it is 1._
       </Card>
 
       <Card title="Delivery instructions" icon="fa-solid fa-clipboard-list">
@@ -74,29 +77,27 @@ The integration of DPD Ireland (IE) into the SAPIENT platform is a significant s
     <Callout icon="💡" theme="default">
       ### *Tip*
 
-      *For more information on the service enhancements and carrier services, refer to the[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) API endpoint.*
+      *For more information on the service enhancements and carrier services, refer to the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) API endpoint.*
     </Callout>
   </Tab>
 
   <Tab title="Carrier Services">
-    The following key services are provided by the DPD Ireland integration.
+The following key services are provided by the DPD Ireland integration.
 
-    | Service Name                  | Description                                                                                                                                                                                                           |
-    | :---------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-    | **DPD Saturday Delivery**     | This service provides weekend delivery of parcels on Saturdays, enabling businesses and recipients to receive shipments outside standard weekday delivery schedules.                                                  |
-    | **DPD Next Day**              | This service provides fast, next-working-day delivery within Ireland and selected regions, ensuring parcels arrive quickly with reliable transit times and full tracking visibility.                                  |
-    | **DPD Air Express**           | This service provides urgent international delivery via an established air network, offering next-day delivery to many destinations and worldwide coverage to over 200 countries with full tracking.                  |
-    | **DPD Classic**               | This service provides reliable, cost-effective road-based parcel delivery across Ireland and Europe, offering fast standard transit times, full tracking, and high-volume shipping capabilities.                      |
-    | **DPD Classic International** | This service provides international parcel delivery through DPD’s road and air network, combining competitive pricing with reliable transit times, full tracking, and coverage across Europe and global destinations. |
+| Service Name                  | Description                                                                                                                                                                                                           |
+| :---------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **DPD Saturday Delivery**     | This service provides weekend delivery of parcels on Saturdays, enabling businesses and recipients to receive shipments outside standard weekday delivery schedules.                                                  |
+| **DPD Next Day**              | This service provides fast, next-working-day delivery within Ireland and selected regions, ensuring parcels arrive quickly with reliable transit times and full tracking visibility.                                  |
+| **DPD Air Express**           | This service provides urgent international delivery via an established air network, offering next-day delivery to many destinations and worldwide coverage to over 200 countries with full tracking.                  |
+| **DPD Classic**               | This service provides reliable, cost-effective road-based parcel delivery across Ireland and Europe, offering fast standard transit times, full tracking, and high-volume shipping capabilities.                      |
+| **DPD Classic International** | This service provides international parcel delivery through DPD’s road and air network, combining competitive pricing with reliable transit times, full tracking, and coverage across Europe and global destinations. |
+<br />
+<Callout icon="💡" theme="default">
+  ### _Tip_
 
-    <br />
-
-    <Callout icon="💡" theme="default">
-      ### *Tip*
-
-      *For the most up-to-date carrier services, use the[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint.*
-    </Callout>
-  </Tab>
+  _For the most up-to-date carrier services, use the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint._
+</Callout>
+</Tab>
 </Tabs>
 
 ***
