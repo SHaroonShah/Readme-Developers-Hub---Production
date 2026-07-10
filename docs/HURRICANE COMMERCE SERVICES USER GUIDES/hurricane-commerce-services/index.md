@@ -14,7 +14,9 @@ metadata:
 next:
   description: ''
 ---
-<Image align="center" border={false} width="80px" src="https://files.readme.io/e6eb288c72c027145ecf580da34a19395ac8073f30d269ac0327d86c59102a55-Hurricane_logo.png" />
+
+<Image src="https://files.readme.io/e6eb288c72c027145ecf580da34a19395ac8073f30d269ac0327d86c59102a55-Hurricane_logo.png" align="center" width="80px" />
+
 
 ***
 
@@ -28,13 +30,13 @@ Their solutions use machine learning algorithms and data analysis to accurately 
 
 The Hurricane services have been [integrated into the SAPIENT APIs](https://api.test.intersoftsapient.net/docs/v4/api/index.html#tag/Hurricane-Services) to perform the following operations:
 
-* Validate and match description and HS6 code
-* Provide “most likely” or “suitable” 10-digit export codes
-* Generate a suitable description based on the provided HS6
-* Generate “most likely” or “suitable” HS6 based on the provided description
-* Calculate duty & tax
-* Check for prohibited and restricted items
-* Screen denied parties
+- Validate and match description and HS6 code
+- Provide “most likely” or “suitable” 10-digit export codes
+- Generate a suitable description based on the provided HS6
+- Generate “most likely” or “suitable” HS6 based on the provided description
+- Calculate duty & tax
+- Check for prohibited and restricted items
+- Screen denied parties
 
 Hurricane commerce services has quickly become a leader in the field of cross-border e-commerce solutions, with clients including major postal operators and retailers around the world. Their innovative technologies and commitment to accuracy and compliance have made them a trusted partner for businesses looking to expand their e-commerce operations internationally.
 
@@ -72,8 +74,10 @@ To learn more about the Hurricane commerce services and how it works with the SA
 
 <Banner isInline={true} message="Ready to integrate?" color="#ffb600" textColor="#ffffff" fontSize="20px" fontWeight="bold" width="120px" />
 
-<Cards>
+<Cards columns="1">
   <Card title="Configure Hurricane Commerce Services" href="https://docs.intersoftsapient.net/docs/configure-hurricane-commerce-service#/versions" icon="fa-solid fa-hurricane">
     Seamlessly connect with Hurricane services on SAPIENT and manage your cross-border shioments.
   </Card>
 </Cards>
+
+<br />
