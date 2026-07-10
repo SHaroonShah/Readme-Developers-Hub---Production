@@ -58,7 +58,7 @@ To search shipments in SAPIENT, perform the steps as explained in the following 
     <Image align="center" border={true} src="https://files.readme.io/c285916b7f58433871d17666a0e9fc2aa38ea4b929a4cb089304fd5b608b87ba-Shipment_search_table.png" alt="Viewing shipments" />
 
     <br />
-
+<HTMLBlock>{`
     <Table align={["center","left"]}>
       <thead>
         <tr>
@@ -186,7 +186,7 @@ To search shipments in SAPIENT, perform the steps as explained in the following 
         </tr>
       </tbody>
     </Table>
-
+`}</HTMLBlock>
     ***
   </ToggleListItem>
 </ToggleList>
