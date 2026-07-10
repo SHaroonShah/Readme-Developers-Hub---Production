@@ -67,43 +67,24 @@ To add a tracking account for DPD UK in SAPIENT, follow the steps as explained i
 
     <AsteridkForMandatoryElements />
 
-    <Table align={["center","left"]}>
+    <table>
       <thead>
         <tr>
-          <th>
-            Element
-          </th>
-
-          <th>
-            Description
-          </th>
+          <th align="center">Element</th>
+          <th align="left">Description</th>
         </tr>
       </thead>
-
       <tbody>
         <tr>
-          <td>
-            **Carrier**\*
-          </td>
-
-          <td>
-            From the dropdown menu, select DPD UK as your carrier option.
-          </td>
+          <td align="center"><strong>Carrier</strong>&#42;</td>
+          <td align="left">From the dropdown menu, select DPD UK as your carrier option.</td>
         </tr>
-
         <tr>
-          <td>
-            **Shipping Account**\*
-          </td>
-
-          <td>
-            From the dropdown menu, select the shipping account for which you want to receive tracking.
-
-            You can also select the **All Shipping Accounts** option to add this tracking account for all existing accounts.
-          </td>
+          <td align="center"><strong>Shipping Account</strong>&#42;</td>
+          <td align="left">From the dropdown menu, select the shipping account for which you want to receive tracking.<br /><br />You can also select the <strong>All Shipping Accounts</strong> option to add this tracking account for all existing accounts.</td>
         </tr>
       </tbody>
-    </Table>
+    </table>
 
     ***
   </ToggleListItem>
