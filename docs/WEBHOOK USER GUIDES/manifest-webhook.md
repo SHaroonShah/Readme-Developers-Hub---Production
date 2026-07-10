@@ -50,7 +50,7 @@ To set up the manifest webhook connection in SAPIENT, follow the instructions as
     In the **WEBHOOK DETAILS** block of the **Tracking Webhook** tab, enter the necessary information as described in the following table.
 
     <Image align="center" border={true} src="https://files.readme.io/f1b9e78c168e83ad35f8c5df9fccd857c57a045811daba57e58b2512f11b42f6-Manifest_webhook_details_block.png" width="500px" />
-
+<br />
     <AsteridkForMandatoryElements />
 
     <table>
@@ -115,11 +115,11 @@ To set up the manifest webhook connection in SAPIENT, follow the instructions as
     <br />
 
     After entering all the necessary details, select ![](https://files.readme.io/dcabcea774e82fdcf39f03bfcdcd2d95520a6aead65cb9bd47e7ccc32a8c085c-Test_button.png) to check if the setup is configured correctly. Once the test has been completed, and the setup configuration is correct, the webhook is activated and the following success response is displayed:
-
+<br />
     <Image align="center" border={true} src="https://files.readme.io/0994fa6-image.png" width="660px" alt="Success response" />
 
     Following the success response, a test tracking payload is sent to the webhook as follows:
-
+<br />
     <Image align="center" border={true} src="https://files.readme.io/6b06c9d-image.png" alt="tracking payload response example" />
 
     If for some reason, the connectivity test fails, the following message is displayed:
@@ -137,6 +137,7 @@ To set up the manifest webhook connection in SAPIENT, follow the instructions as
     After, turn on the **Active** toggle if you wany to activate the manifest webhook.
 
     <Image align="center" border={true} src="https://files.readme.io/a76feb6-image.png" width="660px" alt="Activating tracking webhook" />
+<br />
 
     > 🚧 *Important*
     >
