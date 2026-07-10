@@ -176,7 +176,7 @@ DHL is the global leader in the logistics industry. DHL Express is a brand withi
 
   <Tab title="API References">
     <Cards columns={2}>
-      <Card title="SAPIENT DHL Express API" icon="fa-solid fa-code" href="">
+      <Card title="SAPIENT DHL Express API" icon="fa-solid fa-code" href="https://docs.intersoftsapient.net/reference/post_v4-shippingaccounts-dhlexpress">
         Explore the DHL Express API endpoints for a seamless shipping experience.
       </Card>
     </Cards>
