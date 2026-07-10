@@ -122,7 +122,7 @@ DHL is the global leader in the logistics industry. DHL Express is a brand withi
     <Callout icon="💡" theme="default">
       ### *Tip*
 
-      *For the most up-to-date carrier services, use the[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint.*
+      *For the most up-to-date carrier services, use the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint.*
     </Callout>
   </Tab>
 </Tabs>
