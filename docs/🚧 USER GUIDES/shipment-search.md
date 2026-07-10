@@ -59,133 +59,60 @@ To search shipments in SAPIENT, perform the steps as explained in the following 
 
     <br />
 
-    <Table align={["center","left"]}>
+    <table>
       <thead>
         <tr>
-          <th>
-            Column
-          </th>
-
-          <th>
-            Description
-          </th>
+          <th align="center">Column</th>
+          <th align="left">Description</th>
         </tr>
       </thead>
-
       <tbody>
         <tr>
-          <td>
-            **Tracking Number**
-          </td>
-
-          <td>
-            Represents the unique identifier assigned to each shipment, allowing users to monitor its progress through the shipping system.
-
-            Note: in this column, you can also download the shipment <Glossary>label</Glossary> or copy the <Glossary>tracking number</Glossary> by selecting the corresponding icons.
-          </td>
+          <td align="center"><strong>Tracking Number</strong></td>
+          <td align="left">Represents the unique identifier assigned to each shipment, allowing users to monitor its progress through the shipping system.<br /><br /><em><code>Note</code></em>: In this column, you can also download the shipment <Glossary>label</Glossary> or copy the <Glossary>tracking number</Glossary> by selecting the corresponding icons.</td>
         </tr>
-
         <tr>
-          <td>
-            **Shipment date**
-          </td>
-
-          <td>
-            Represents  date on which the shipment was processed and dispatched, essential for tracking timelines and delivery expectations.
-          </td>
+          <td align="center"><strong>Shipment date</strong></td>
+          <td align="left">Represents the date on which the shipment was processed and dispatched, essential for tracking timelines and delivery expectations.</td>
         </tr>
-
         <tr>
-          <td>
-            **Carrier**
-          </td>
-
-          <td>
-            Represents the name and logo of the <Glossary>carrier</Glossary> responsible for delivering the shipment.
-          </td>
+          <td align="center"><strong>Carrier</strong></td>
+          <td align="left">Represents the name and logo of the <Glossary>carrier</Glossary> responsible for delivering the shipment.</td>
         </tr>
-
         <tr>
-          <td>
-            **Account**
-          </td>
-
-          <td>
-            Represents the account name associated with the shipment, used for billing and record-keeping purposes within the system.
-          </td>
+          <td align="center"><strong>Account</strong></td>
+          <td align="left">Represents the account name associated with the shipment, used for billing and record-keeping purposes within the system.</td>
         </tr>
-
         <tr>
-          <td>
-            **Reference**
-          </td>
-
-          <td>
-            Represents an additional identifier information, such as an order number or customer reference, providing context for the shipment.
-          </td>
+          <td align="center"><strong>Reference</strong></td>
+          <td align="left">Represents additional identifier information, such as an order number or customer reference, providing context for the shipment.</td>
         </tr>
-
         <tr>
-          <td>
-            **Service**
-          </td>
-
-          <td>
-            Represents the type of shipping service used (for example, standard, express), influencing delivery speed and cost.
-          </td>
+          <td align="center"><strong>Service</strong></td>
+          <td align="left">Represents the type of shipping service used (for example, standard or express), influencing delivery speed and cost.</td>
         </tr>
-
         <tr>
-          <td>
-            **Recipient**
-          </td>
-
-          <td>
-            Represents the name of the individual or entity designated to receive the shipment, important for ensuring accurate delivery.
-          </td>
+          <td align="center"><strong>Recipient</strong></td>
+          <td align="left">Represents the name of the individual or entity designated to receive the shipment, important for ensuring accurate delivery.</td>
         </tr>
-
         <tr>
-          <td>
-            **Destination**
-          </td>
-
-          <td>
-            Represents  final location where the shipment is being sent, needed for route planning and logistical coordination.
-          </td>
+          <td align="center"><strong>Destination</strong></td>
+          <td align="left">Represents the final location where the shipment is being sent, needed for route planning and logistical coordination.</td>
         </tr>
-
         <tr>
-          <td>
-            **Status**
-          </td>
-
-          <td>
-            Represents  the current state of the shipment (for example, **Confirmed**, **Label Printed**, and so on), providing timely updates to users.
-          </td>
+          <td align="center"><strong>Status</strong></td>
+          <td align="left">Represents the current state of the shipment (for example, <strong>Confirmed</strong>, <strong>Label Printed</strong>, and so on), providing timely updates to users.</td>
         </tr>
-
         <tr>
-          <td>
-            **Packages**
-          </td>
-
-          <td>
-            Represents quantity of <Glossary>package</Glossary>s included in the shipment, vital for planning and inventory management.
-          </td>
+          <td align="center"><strong>Packages</strong></td>
+          <td align="left">Represents the quantity of <Glossary>package</Glossary>s included in the shipment, vital for planning and inventory management.</td>
         </tr>
-
         <tr>
-          <td>
-            **Last Modified**
-          </td>
-
-          <td>
-            Represents the date and time of the most recent update to the shipment's information, helping users track changes and ensure accuracy.
-          </td>
+          <td align="center"><strong>Last Modified</strong></td>
+          <td align="left">Represents the date and time of the most recent update to the shipment's information, helping users track changes and ensure accuracy.</td>
         </tr>
       </tbody>
-    </Table>
+    </table>
 
     ***
   </ToggleListItem>
