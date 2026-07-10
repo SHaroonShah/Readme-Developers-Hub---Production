@@ -143,7 +143,7 @@ The following key services are provided by the DPD Ireland integration.
 
 <Tabs>
   <Tab title="Account Setup">
-    <Cards columns={3}>
+    <Cards columns={2}>
       <Card title="Add DPD Ireland Shipping Account" icon="fa-solid fa-truck" href="https://docs.intersoftsapient.net/docs/add-dpd-ireland-shipping-account">
         Set up your DPD Ireland shipping account to start creating shipments.
       </Card>
