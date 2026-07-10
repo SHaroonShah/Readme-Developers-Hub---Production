@@ -51,10 +51,24 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
 
         <AsteridkForMandatoryElements />
 
-        | Element                 | Description                                                                                                   |
-        | :---------------------- | :------------------------------------------------------------------------------------------------------------ |
-        | **Carrier**\*           | From the dropdown list, select DHLDE -  DHL Germany.                                                          |
-        | **Shipping Location**\* | From the dropdown menu, select the location that you want to assign to the shipping account you are creating. |
+        <table>
+          <thead>
+            <tr>
+              <th align="left">Element</th>
+              <th align="left">Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="left"><strong>Carrier</strong>&#42;</td>
+              <td align="left">From the dropdown list, select DHLDE - DHL Germany.</td>
+            </tr>
+            <tr>
+              <td align="left"><strong>Shipping Location</strong>&#42;</td>
+              <td align="left">From the dropdown menu, select the location that you want to assign to the shipping account you are creating.</td>
+            </tr>
+          </tbody>
+        </table>
 
         ***
       </ToggleListItem>
@@ -70,85 +84,40 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
 
         <AsteridkForMandatoryElements />
 
-        <Table align={["center","left"]}>
+        <table>
           <thead>
             <tr>
-              <th>
-                Element
-              </th>
-
-              <th>
-                Description
-              </th>
+              <th align="center">Element</th>
+              <th align="left">Description</th>
             </tr>
           </thead>
-
           <tbody>
             <tr>
-              <td>
-                **Carrier Account Number**\*
-              </td>
-
-              <td>
-                Enter the unique 10-digit EKP (Einheitliche Kunden- und Produktnumme) number assigned by the DHL sales team.
-              </td>
+              <td align="center"><strong>Carrier Account Number</strong>&#42;</td>
+              <td align="left">Enter the unique 10-digit EKP (Einheitliche Kunden- und Produktnumme) number assigned by the DHL sales team.</td>
             </tr>
-
             <tr>
-              <td>
-                **Account Name (if different than customer)**\*
-              </td>
-
-              <td>
-                Enter the name of the account you are adding.
-              </td>
+              <td align="center"><strong>Account Name (if different than customer)</strong>&#42;</td>
+              <td align="left">Enter the name of the account you are adding.</td>
             </tr>
-
             <tr>
-              <td>
-                **Account Type**\*
-              </td>
-
-              <td>
-                From the dropdown menu, select one of the following account types that you want to set up for the the shipping account you are adding:
-
-                • **[Production](https://docs.intersoftsapient.net/docs/sandbox-account)**: a live environment where the final version of the application is deployed and made available to the users.
-
-                • **[Sandbox](https://docs.intersoftsapient.net/docs/sandbox-account)**: a testing environment that mimics the **Production** environment but is isolated from it. The sandbox environment is primarily used for development and testing purposes.
-              </td>
+              <td align="center"><strong>Account Type</strong>&#42;</td>
+              <td align="left">From the dropdown menu, select one of the following account types that you want to set up for the shipping account you are adding:<br /><br /><ul><li><a href="https://docs.intersoftsapient.net/docs/sandbox-account"><strong>Production</strong></a>: a live environment where the final version of the application is deployed and made available to the users.</li><li><a href="https://docs.intersoftsapient.net/docs/sandbox-account"><strong>Sandbox</strong></a>: a testing environment that mimics the <strong>Production</strong> environment but is isolated from it. The sandbox environment is primarily used for development and testing purposes.</li></ul></td>
             </tr>
-
             <tr>
-              <td>
-                **Alias**\*
-              </td>
-
-              <td>
-                Enter a custom name which can be used in the API request instead of using the shipping account ID when connecting to us. Therefore, it is recommended that this name must be memorable and available for reference purposes.
-              </td>
+              <td align="center"><strong>Alias</strong>&#42;</td>
+              <td align="left">Enter a custom name which can be used in the API request instead of using the shipping account ID when connecting to us. Therefore, it is recommended that this name must be memorable and available for reference purposes.</td>
             </tr>
-
             <tr>
-              <td>
-                **Contact Name**\*
-              </td>
-
-              <td>
-                Enter the contact name for the account you are adding.
-              </td>
+              <td align="center"><strong>Contact Name</strong>&#42;</td>
+              <td align="left">Enter the contact name for the account you are adding.</td>
             </tr>
-
             <tr>
-              <td>
-                **Contact Number**\*
-              </td>
-
-              <td>
-                Enter the contact number for the account you are adding.
-              </td>
+              <td align="center"><strong>Contact Number</strong>&#42;</td>
+              <td align="left">Enter the contact number for the account you are adding.</td>
             </tr>
           </tbody>
-        </Table>
+        </table>
 
         ***
       </ToggleListItem>
@@ -164,10 +133,24 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
 
         <AsteridkForMandatoryElements />
 
-        |           Element          | Description                                                                       |
-        | :------------------------: | :-------------------------------------------------------------------------------- |
-        | **DHL Germany Username**\* | Enter the unique identifier for the user account associated with DHL Germany.     |
-        | **DHL Germany Password**\* | Enter the secure password used to authenticate the user account with DHL Germany. |
+        <table>
+          <thead>
+            <tr>
+              <th align="center">Element</th>
+              <th align="left">Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center"><strong>DHL Germany Username</strong>&#42;</td>
+              <td align="left">Enter the unique identifier for the user account associated with DHL Germany.</td>
+            </tr>
+            <tr>
+              <td align="center"><strong>DHL Germany Password</strong>&#42;</td>
+              <td align="left">Enter the secure password used to authenticate the user account with DHL Germany.</td>
+            </tr>
+          </tbody>
+        </table>
 
         ***
       </ToggleListItem>
