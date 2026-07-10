@@ -30,9 +30,9 @@ In SAPIENT, you can <Glossary>manifest</Glossary> the <Glossary>shipment</Glossa
 
 You can also manifest shipments by:
 
-- Shipping location
-- Shipping account
-- Service code
+* Shipping location
+* Shipping account
+* Service code
 
 <Callout icon="💡" theme="default">
   ### _Tip_
@@ -44,7 +44,7 @@ You can also manifest shipments by:
 
 <Tabs>
   <Tab title="Manifest via SAPIENT UI">
-    
+    <br />
 
     To manifest a shipment in SAPIENT, perform the steps as explained in the following procedure.
 
@@ -98,7 +98,7 @@ You can also manifest shipments by:
 
         Next to your desired shipment, select the manifest button: ![Manifest button](https://files.readme.io/fcb77ce4360ada3f172a0dccfceec28b483d6f4aa3e2a6a467929cf803686efe-Manifest_button.png)
 
-                <Image align="center" border={true} src="https://files.readme.io/417b398230fd2d49d159b9cc0cffa33e38496a2e5649b8fe2ec36d0a3078ce4a-Manifest_option.png" alt="Manifesting shipment" />.
+                <Image align="center" border={true} src="https://files.readme.io/417b398230fd2d49d159b9cc0cffa33e38496a2e5649b8fe2ec36d0a3078ce4a-Manifest_option.png" alt="Manifesting shipment" />).
 
         ***
       </ToggleListItem>
@@ -143,9 +143,9 @@ You can also manifest shipments by:
         You have now successfully manifested your shipments.
 
         <Callout icon="💡" theme="default">
-          ### **Tip**
+          ### _*Tip*_
 
-          *If needed, you can export your manifest file by selecting the**Download as PDF** icon ![PDF icon](https://files.readme.io/e12fc39d80fd5eb7931db6e1db22df354422aa16bbc2c675f70c85c4a788431c-PDF_icon.png) in the **Manifest Number** column.*
+          _If needed, you can export your manifest file by selecting the **Download as PDF** icon ![PDF icon](https://files.readme.io/e12fc39d80fd5eb7931db6e1db22df354422aa16bbc2c675f70c85c4a788431c-PDF_icon.png) in the **Manifest Number** column._
 
           <Image align="center" border={true} src="https://files.readme.io/bc5120461fe99089d00c1c83f39a4e5e0706b8a62d25f2c39b697cb4377bf6b4-Accessing_held_shipmehts.png" alt="Accessing canceled shipments" />
         </Callout>
@@ -154,20 +154,25 @@ You can also manifest shipments by:
   </Tab>
 
   <Tab title="Manifest via API">
-    
+    <br />
 
     To manifest shipments via our API, refer to the following endpoint
 
     <Cards>
-      <Card title="Manifest Shipments" href="https://docs.intersoftsapient.net/docs/manifesting-shipments" icon="fa-solid fa-code">
+      <Card title="Manifest Shipments" href="https://docs.intersoftsapient.net/v4.02_Coding/reference/post_v4-manifests-carriercode#/" icon="fa-solid fa-code">
         Complete API reference for manifesting shipments via our API
       </Card>
     </Cards>
 
-    ### API recipe guide
-  
-    <Recipe slug="release-and-manifest-held-shipments" title="Manifest picked shipments" />
+    <br />
 
+    ***
+
+    ### API recipe guide
+
+    To view a step-by-step process on how to create and manifest shipments via API, refer to the following API recipe:
+
+    <Recipe />
   </Tab>
 </Tabs>
 
