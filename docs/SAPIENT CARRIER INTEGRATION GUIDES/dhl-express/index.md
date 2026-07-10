@@ -72,7 +72,7 @@ DHL is the global leader in the logistics industry. DHL Express is a brand withi
     <Callout icon="📘" theme="default">
       ### *Note*
 
-      *For more information on Paperless Trade, refer to the<Anchor label="Add DHL Express shipping account" target="_blank" href="https://docs.intersoftsapient.net/docs/add-dhl-express-shipping-account">Add DHL Express shipping account</Anchor> section.*
+      *For more information on Paperless Trade, refer to the <Anchor label="Add DHL Express shipping account" target="_blank" href="https://docs.intersoftsapient.net/docs/add-dhl-express-shipping-account">Add DHL Express shipping account</Anchor> section.*
     </Callout>
   </Tab>
 
