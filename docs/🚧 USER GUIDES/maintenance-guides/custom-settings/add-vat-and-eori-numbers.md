@@ -105,86 +105,40 @@ To add the VAT and EORI numbers in SAPIENT, perform the steps as explained in th
 
     <AsteridkForMandatoryElements />
 
-    <Table align={["center","left"]}>
+    <table>
       <thead>
         <tr>
-          <th>
-            Element
-          </th>
-
-          <th>
-            Description
-          </th>
+          <th align="center">Element</th>
+          <th align="left">Description</th>
         </tr>
       </thead>
-
       <tbody>
         <tr>
-          <td>
-            **Shipping Location**
-          </td>
-
-          <td>
-            From the dropdown menu, select the <Glossary>shipping location</Glossary> for which you want to add the VAT/EORI number.
-            You can also select **All** if you want to add the VAT/EORI number for all the existing shipping accounts.
-          </td>
+          <td align="center"><strong>Shipping Location</strong></td>
+          <td align="left">From the dropdown menu, select the <Glossary>shipping location</Glossary> for which you want to add the VAT/EORI number.<br /><br />You can also select <strong>All</strong> if you want to add the VAT/EORI number for all the existing shipping accounts.</td>
         </tr>
-
         <tr>
-          <td>
-            **Country**
-          </td>
-
-          <td>
-            From the dropdown menu, select the specific destination country for which you want to add the VAT/EORI number.
-            You may select **All** if you want to include all the countries (that are, countries grouped by European Union or <Glossary>ROW</Glossary> categories).
-          </td>
+          <td align="center"><strong>Country</strong></td>
+          <td align="left">From the dropdown menu, select the specific destination country for which you want to add the VAT/EORI number.<br /><br />You may select <strong>All</strong> if you want to include all the countries (that are, countries grouped by European Union or <Glossary>ROW</Glossary> categories).</td>
         </tr>
-
         <tr>
-          <td>
-            **Country Group**
-          </td>
-
-          <td>
-            From the dropdown menu, select the country group for which you want to add the VAT/EORI number.
-            *Note: If you have selected a specific country in the**Country** field, then in this field, select **N/A**. Otherwise, select either **EuropeanUnion** or **RestOfTheWorld** options. In this case, the **Country** field value is set to **All**.*
-          </td>
+          <td align="center"><strong>Country Group</strong></td>
+          <td align="left">From the dropdown menu, select the country group for which you want to add the VAT/EORI number.<br /><br /><em><code>Note</code></em>: If you have selected a specific country in the <strong>Country</strong> field, then in this field, select <strong>N/A</strong>. Otherwise, select either <strong>EuropeanUnion</strong> or <strong>RestOfTheWorld</strong> options. In this case, the <strong>Country</strong> field value is set to <strong>All</strong>.</td>
         </tr>
-
         <tr>
-          <td>
-            **Type**\*
-          </td>
-
-          <td>
-            From the dropdown menu, select any of the following types that you want to associate with your VAT/EORI number:
-            • **VAT**
-            • **EORI**
-          </td>
+          <td align="center"><strong>Type</strong>&#42;</td>
+          <td align="left">From the dropdown menu, select any of the following types that you want to associate with your VAT/EORI number:<br /><br /><ul><li><strong>VAT</strong></li><li><strong>EORI</strong></li></ul></td>
         </tr>
-
         <tr>
-          <td>
-            **VAT/EORI Number**
-          </td>
-
-          <td>
-            Enter your VAT/EORI number based on the selection you have made in the **Type** field.
-          </td>
+          <td align="center"><strong>VAT/EORI Number</strong></td>
+          <td align="left">Enter your VAT/EORI number based on the selection you have made in the <strong>Type</strong> field.</td>
         </tr>
-
         <tr>
-          <td>
-            **Valid From**\*
-          </td>
-
-          <td>
-            From the date picker, select the date from which the VAT/EORI number you are adding is valid.
-          </td>
+          <td align="center"><strong>Valid From</strong>&#42;</td>
+          <td align="left">From the date picker, select the date from which the VAT/EORI number you are adding is valid.</td>
         </tr>
       </tbody>
-    </Table>
+    </table>
 
     ***
   </ToggleListItem>
