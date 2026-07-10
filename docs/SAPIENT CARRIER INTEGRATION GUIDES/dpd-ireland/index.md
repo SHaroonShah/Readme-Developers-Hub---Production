@@ -156,8 +156,8 @@ The following key services are provided by the DPD Ireland integration.
 
   <Tab title="API References">
     <Cards columns={2}>
-      <Card title="Get Carrier Services" icon="fa-solid fa-code" href="https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services">
-        Explore the available DPD Ireland carrier services and service enhancements.
+      <Card title="SAPIENT DPD Ireland API" icon="fa-solid fa-code" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-dpdireland">
+        Explore the DPD Ireland API endpoints for a seamless shipping experience.
       </Card>
     </Cards>
   </Tab>
