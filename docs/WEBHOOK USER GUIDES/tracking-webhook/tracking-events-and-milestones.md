@@ -454,7 +454,7 @@ If you choose to receive tracking milestones, bear in mind that each milestone o
       </tr>
     </tbody>
   </Table>
-`}</HTMLBlock>
+ `}</HTMLBlock>
 </Accordion>
 
 ***
