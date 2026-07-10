@@ -29,7 +29,7 @@ To configure the Hurricane commerce service, follow the instructions as provided
     From the **Home** page, in the left navigation panel, select **Integrations**.
 
     <Image align="center" border={true} src="https://files.readme.io/9edbbe0f060a9821348b7a077aae6171ab9fde12fd7b6d2ffdbe5d215b463f3a-Sapient_home_page.png" alt="Accessing integrations" />
-<br />
+    <br />
     > 🚧 *Important*
     >
     > *Before you configure the Hurricane service, please note that this is a chargeable service, you will be invoiced directly and any associated usage fees will be applied going forwards. Only approved personnel from your company should be given permission to access these pages and activate this service.*
@@ -163,3 +163,5 @@ To configure the Hurricane commerce service, follow the instructions as provided
     Discover import codes for prohibited and restricted items.
   </Card>
 </Cards>
+
+<br />
