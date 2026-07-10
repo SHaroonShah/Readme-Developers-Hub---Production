@@ -114,7 +114,8 @@ The following key services are provided by the DPD Ireland integration.
     <br />
 
     <Accordion title="Manifest Shipment">
-      Keep track of shipments and their statuses by receiving real-time updates or notifications whenever specific events occur in the system, such as shipping updates and status changes, via the SAPIENT Manifest Webhook feature.
+     Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/v4.03/docs/manifest-webhook) to keep track of shipments and their statuses by to receiving real-time updates or notifications whenever specific events occur in the system (such as shipping updates, status changes, and so on).
+    </Accordion>
     </Accordion>
   </Tab>
 
