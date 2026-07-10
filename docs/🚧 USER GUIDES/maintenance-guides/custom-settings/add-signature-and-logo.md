@@ -88,11 +88,11 @@ To add signature and logo in SAPIENT, follow the steps as explained in the follo
         </tr>
         <tr>
           <td align="center"><strong>Signature Name</strong></td>
-          <td align="left">Enter the name of the signature that you have uploaded.<br /><br /><em><code>Note</code></em>: This field is only required if the signature file is uploaded.</td>
+          <td align="left">Enter the name of the signature that you have uploaded.<br /><br /><em><code>Note</code> This field is only required if the signature file is uploaded.</em></td>
         </tr>
         <tr>
           <td align="center"><strong>Declaration Statement</strong>&#42;</td>
-          <td align="left">Carefully read the declaration statement before saving your documents.<br /><br /><em><code>Note</code></em>: This field is editable and if needed, you can modify this statement as per your business requirements.</td>
+          <td align="left">Carefully read the declaration statement before saving your documents.<br /><br /><em><code>Note</code>: This field is editable and if needed, you can modify this statement as per your business requirements.</em></td>
         </tr>
         <tr>
           <td align="center"><strong>Add Documents &amp; Images</strong></td>
@@ -118,3 +118,5 @@ To add signature and logo in SAPIENT, follow the steps as explained in the follo
     </Callout>
   </ToggleListItem>
 </ToggleList>
+
+<br />
