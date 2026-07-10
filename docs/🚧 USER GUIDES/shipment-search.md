@@ -51,7 +51,7 @@ To search shipments in SAPIENT, perform the steps as explained in the following 
   <br />
 
   <ToggleListItem title={<strong>3. View search results </strong>} icon="fa-rocket">
-    <br />
+  <br />
 
     Once filtered, the **Shipment Search** table displays the shipments matching your search criteria. The columns displayed in the table are explained in the following table.
 
