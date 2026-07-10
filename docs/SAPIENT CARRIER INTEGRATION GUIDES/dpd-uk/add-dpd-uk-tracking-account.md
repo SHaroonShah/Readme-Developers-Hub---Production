@@ -13,15 +13,17 @@ metadata:
 ---
 In SAPIENT, you can add tracking accounts for DPD UK to enhance visibility, improving customer interactions, and streamlining logistics operations for DPD UK.
 
-> 🚧 _Important_
->
-> _Prior to adding a DPD UK tracking account, make sure you have completed the following prerequisites:_
->
-> 1. _Enabled the <Anchor label="label integration" target="_blank" href="https://docs.intersoftsapient.net/docs/integration-activation">label integration</Anchor> with DPD UK._
-> 2. _Enabled the <Anchor label="tracking integration" target="_blank" href="https://docs.intersoftsapient.net/docs/integration-activation">tracking integration</Anchor> with DPD UK._
-> 3. _Set up your<Glossary>tracking webhook</Glossary>. For more information on how to set up a tracking webhook, refer to the [Create tracking webhook](https://docs.intersoftsapient.net/docs/create-tracking-webhook) section. This is a one-time activity, you do not have to do this every time you add a tracking account._
->
-> _If you wish to receive the tracking events via Intersoft using the tracking account you have created, make sure it is is activated by the DPD UK team._
+<Callout icon="🚧" theme="warn">
+  ### _Important_
+
+  _Prior to adding a DPD UK tracking account, make sure you have completed the following prerequisites:_
+
+  1. _Enabled the <Anchor target="_blank" href="https://docs.intersoftsapient.net/docs/integration-activation">label integration</Anchor> with DPD UK._
+  2. _Enabled the <Anchor target="_blank" href="https://docs.intersoftsapient.net/docs/integration-activation">tracking integration</Anchor> with DPD UK._
+  3. _Set up your <Glossary>tracking webhook</Glossary>. For more information on how to set up a tracking webhook, refer to the [Create tracking webhook](https://docs.intersoftsapient.net/docs/create-tracking-webhook) section. This is a one-time activity, you do not have to do this every time you add a tracking account._
+
+  _If you wish to receive the tracking events via Intersoft using the tracking account you have created, make sure it is is activated by the DPD UK team._
+</Callout>
 
 ## How to add DPD UK tracking account
 
