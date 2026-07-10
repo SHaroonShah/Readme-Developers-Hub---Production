@@ -66,101 +66,44 @@ To add signature and logo in SAPIENT, follow the steps as explained in the follo
 
     <br />
 
-    <Table align={["center","left"]}>
+    <table>
       <thead>
         <tr>
-          <th>
-            Element
-          </th>
-
-          <th>
-            Description
-          </th>
+          <th align="center">Element</th>
+          <th align="left">Description</th>
         </tr>
       </thead>
-
       <tbody>
         <tr>
-          <td>
-            **Shipping Location**
-          </td>
-
-          <td>
-            From the dropdown menu, select the <Glossary>shipping location</Glossary> for which you want to add the signature and logo.
-
-            You can also select **All** if you want to add the signature and logo for all the existing shipping accounts.
-          </td>
+          <td align="center"><strong>Shipping Location</strong></td>
+          <td align="left">From the dropdown menu, select the <Glossary>shipping location</Glossary> for which you want to add the signature and logo.<br /><br />You can also select <strong>All</strong> if you want to add the signature and logo for all the existing shipping accounts.</td>
         </tr>
-
         <tr>
-          <td>
-            **Logo Image**
-          </td>
-
-          <td>
-            Select **Choose File**, follow the prompts of your computer, and then select the logo file that you want to upload.
-
-            Alternatively, drag the desired logo file to this field.
-          </td>
+          <td align="center"><strong>Logo Image</strong></td>
+          <td align="left">Select <strong>Choose File</strong>, follow the prompts of your computer, and then select the logo file that you want to upload.<br /><br />Alternatively, drag the desired logo file to this field.</td>
         </tr>
-
         <tr>
-          <td>
-            **Signature Image**
-          </td>
-
-          <td>
-            Select **Choose File**, follow the prompts of your computer, and then select the signature file that you want to upload.
-
-            Alternatively, drag the desired signature file to this field.
-          </td>
+          <td align="center"><strong>Signature Image</strong></td>
+          <td align="left">Select <strong>Choose File</strong>, follow the prompts of your computer, and then select the signature file that you want to upload.<br /><br />Alternatively, drag the desired signature file to this field.</td>
         </tr>
-
         <tr>
-          <td>
-            **Signature Name**
-          </td>
-
-          <td>
-            Enter the name of the signature that you have uploaded.
-
-            *Note: This field is only required if the signature file is uploaded.*
-          </td>
+          <td align="center"><strong>Signature Name</strong></td>
+          <td align="left">Enter the name of the signature that you have uploaded.<br /><br /><em><code>Note</code></em>: This field is only required if the signature file is uploaded.</td>
         </tr>
-
         <tr>
-          <td>
-            **Declaration Statement**\*
-          </td>
-
-          <td>
-            Carefully read the declaration statement before saving your documents.
-
-            *`Note`: This filed is editable and if needed, you can modify this statement as per your business requirements.*
-          </td>
+          <td align="center"><strong>Declaration Statement</strong>&#42;</td>
+          <td align="left">Carefully read the declaration statement before saving your documents.<br /><br /><em><code>Note</code></em>: This field is editable and if needed, you can modify this statement as per your business requirements.</td>
         </tr>
-
         <tr>
-          <td>
-            **Add Documents & Images**
-          </td>
-
-          <td>
-            Select ![](https://files.readme.io/f7ceba9e8e14a6f791412024b91067a8b8d456a409caa520dd553eec1af3ed42-Add_documents_and_images_button.png) to save your documents.
-          </td>
+          <td align="center"><strong>Add Documents &amp; Images</strong></td>
+          <td align="left">Select <img src="https://files.readme.io/f7ceba9e8e14a6f791412024b91067a8b8d456a409caa520dd553eec1af3ed42-Add_documents_and_images_button.png" alt="Add Documents & Images button" /> to save your documents.</td>
         </tr>
-
         <tr>
-          <td>
-            **Cancel**
-          </td>
-
-          <td>
-            Select ![](https://files.readme.io/866310e4fa14cf86a31a827c203da1fa0b2f7dbd5f52e868b6d96692fc223f3d-Cancel_button.png) to discard the changes and close the form. No changes are saved in this case.
-          </td>
+          <td align="center"><strong>Cancel</strong></td>
+          <td align="left">Select <img src="https://files.readme.io/866310e4fa14cf86a31a827c203da1fa0b2f7dbd5f52e868b6d96692fc223f3d-Cancel_button.png" alt="Cancel button" /> to discard the changes and close the form. No changes are saved in this case.</td>
         </tr>
       </tbody>
-    </Table>
+    </table>
 
     <br />
 
