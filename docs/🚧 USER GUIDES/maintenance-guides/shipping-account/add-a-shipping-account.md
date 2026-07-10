@@ -132,8 +132,6 @@ In SAPIENT, you can create a <Glossary>shipping account</Glossary>, assign your 
   </Tab>
 
   <Tab title="Add via API">
-    
-
     To add a shipping account via our API, refer to the following endpoint:
 
     <Cards>
