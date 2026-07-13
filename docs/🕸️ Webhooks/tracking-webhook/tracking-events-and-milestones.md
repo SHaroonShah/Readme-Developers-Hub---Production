@@ -153,10 +153,12 @@ The following section displays a comprehensive structure of the milestones, even
                 </tr>
                 <tr>
                 <td>FINA</td>
+<td>Incomplete Address</td>
                 <td>Delivery failed due to incomplete or missing address details.</td>
                 </tr>
                 <tr>
                 <td>FUTA</td>
+<td>Unable to Access Delivery Point</td>
                 <td>Delivery could not be completed as access to the delivery location was not possible.
 </td>
                 </tr>
@@ -164,82 +166,100 @@ The following section displays a comprehensive structure of the milestones, even
                 <td rowspan="1"><strong>Part Delivered</strong></td>
                 <td>6</td>
                 <td>DPAR</td>
+<td>Partially delivered</td>
                 <td>The shipment has been partially delivered (only part of the consignment delivered).</td>
                 </tr>
                 <tr>
                 <td rowspan="1"><strong>Ready for Collection</strong></td>
                 <td>7</td>
                 <td>DRFC</td>
+<td>Ready for Collection</td>
                 <td>Ready for Collection</td>
                 </tr>
                 <tr>
                 <td rowspan="8"><strong>Delivered</strong></td>
                 <td rowspan="8">8</td>
                 <td>DELV</td>
+<td>Delivered</td>
                 <td>The shipment has been successfully delivered to the intended recipient.</td>
                 </tr>
                 <tr>
                 <td>DTSP</td>
+<td>Delivered to Safe Place</td>
                 <td>The shipment has been delivered to a designated safe place.</td>
                 </tr>
                 <tr>
                 <td>DPOB</td>
+<td>Delivered to PO Box</td>
                 <td>The shipment has been delivered to a PO Box.</td>
                 </tr>
                 <tr>
                 <td>DDMG</td>
+<td>Delivered Damaged</td>
                 <td>The shipment has been delivered but with reported damage.</td>
                 </tr>
                 <tr>
                 <td>DTNB</td>
+<td>Delivered to Neighbour - No Signature</td>
                 <td>The shipment has been delivered to a neighbour without signature confirmation.</td>
                 </tr>
                 <tr>
                 <td>DTNS</td>
+<td>Delivered to Neighbour with Signature</td>
                 <td>The shipment has been delivered to a neighbour with signature confirmation.</td>
                 </tr>
                 <tr>
                 <td>DNSV</td>
+<td>Delivered to Neighbour with Signature - ID Verified</td>
                 <td>The shipment has been delivered to a neighbour with ID verification and signature.</td>
                 </tr>
                 <tr>
                 <td>DNSO</td>
+ <td>Delivered to Neighbour with Signature - Over 25</td>
                 <td>The shipment has been delivered to a neighbour with signature and age verification of over 25.</td>
                 </tr>
                 <tr>
                 <td rowspan="1"><strong>Collected</strong></td>
                 <td>9</td>
                 <td>DRCO</td>
+<td>Recipient Collected</td>
                 <td>The shipment has been collected directly by the recipient from the carrier location.</td>
                 </tr>
                 <tr>
                 <td rowspan="7"><strong>Undeliverable</strong></td>
                 <td rowspan="7">10</td>
                 <td>RTNS</td>
+<td>Return to Sender</td>
                 <td> The shipment is being returned to the sender.</td>
                 </tr>
                 <tr>
                 <td>RUND</td>
+ <td>Undeliverable - Return to Sender</td>
                 <td>The shipment is undeliverable and is being returned to the sender.</td>
                 </tr>
                 <tr>
                 <td>RNCO</td>
+<td>Not Collected - Return to Sender</td>
                 <td>The shipment was not collected and is being returned to the sender.</td>
                 </tr>
                 <tr>
                 <td>UDTS</td>
+<td>Delivered to Sender</td>
                 <td>The returned shipment has been delivered back to the sender.</td>
                 </tr>
                 <tr>
                 <td>IDES</td>
+<td>Shipment Lost/Destroyed</td>
                 <td>The shipment has been lost or destroyed while in transit.</td>
                 </tr>
                 <tr>
                 <td>ICAN</td>
+<td>Shipment Cancelled</td>
                 <td>The shipment or collection request has been cancelled.</td>
                 </tr>
                 <tr>
                 <td>FUDS</td>
+<td>Undeliverable - Destroyed</td>
                 <td>The shipment is undeliverable and has been destroyed.</td>
                 </tr>
 
@@ -247,35 +267,43 @@ The following section displays a comprehensive structure of the milestones, even
                 <td rowspan="4"><strong>Transit Delay</strong></td>
                 <td rowspan="4">Null</td>
                 <td>IDIP</td>
+<td>Delay in Processing</td>
                 <td>The shipment processing has been delayed within the carrier network.</td>
                 </tr>
                 <tr>
                 <td>IFME</td>
+<td>Force Majeure/ Exceptional Event</td>
                 <td>Delivery is impacted due to an exceptional event (e.g. weather, disruption).</td>
                 </tr>
                 <tr>
                 <td>ISMI</td>
+<td>Shipment Misrouted</td>
                 <td>The shipment has been misrouted and is being redirected to the correct route.</td>
                 </tr>
                 <tr>
                 <td>PRET</td>
+ <td>Shipment Retention</td>
                 <td> The shipment is being held or retained by the carrier temporarily.</td>
                 </tr>
                 <tr>
                 <td rowspan="18"><strong>N/A</strong></td>
                 <td rowspan="18">Null</td>
                 <td>ICLR</td>
+<td>Shipment Customs Cleared</td>
                 <td>Customs clearance has been completed successfully.</td>
                 </tr>
                 <tr>
                 <td>IARR</td>
+<td>Shipment Arrived at Facility</td>
                 <td>The shipment has arrived at a processing or distribution facility.</td>
                 </tr>
                 <tr>
                 <td>IRCO</td>
+<td>Shipment Ready for Collection from the Facility</td>
                 <td>The shipment is ready for recipient collection from the carrier facility.</td>
                 <tr>
                 <td>INVD</td>
+<td>Invalid</td>
                 <td>The provided tracking number is invalid or not recognised by the carrier.</td>
                 </tr>
                 <tr>
