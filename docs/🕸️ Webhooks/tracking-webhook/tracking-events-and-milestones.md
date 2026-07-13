@@ -15,8 +15,8 @@ next:
 ---
 In SAPIENT, while [configuring the tracking webhook](https://docs.intersoftsapient.net/docs/create-tracking-webhook), You can choose to receive <Glossary>all tracking events</Glossary> or tracking <Glossary>milestones</Glossary> only.
 
-* If you select to receive milestones only, the system only pushes the tracking when a new milestone is triggered.
-* If you select to receive full tracking events, then the system pushes the tracking every time it receives a new tracking event from the carrier, regardless of whether the tracking event triggers a new milestone or not.
+- If you select to receive milestones only, the system only pushes the tracking when a new milestone is triggered.
+- If you select to receive full tracking events, then the system pushes the tracking every time it receives a new tracking event from the carrier, regardless of whether the tracking event triggers a new milestone or not.
 
 ***
 
@@ -32,11 +32,13 @@ The following section displays a comprehensive structure of the milestones, even
                 <th style="background-color: #778899;">Milestone Order</th>
                 <th style="background-color: #778899;">Tracking Event Code</th>
                 <th style="background-color: #778899;">Tracking Event Name</th>
+                <th style="background-color: #778899;">Tracking Event Description</th>
                 </tr>
                 <tr>
                 <td rowspan="7"><strong>It’s on its Way</strong></td>
                 <td rowspan="7">1</td>
                 <td>PSRE</td>
+                <td>Shipment Received</td>
                 <td>The shipment has been received into the carrier network for processing.</td>
                 </tr>
                 <tr>
@@ -351,10 +353,10 @@ Final events are the stages of a shipment lifecycle where no further tracking st
 
 The following events are considered as the final events.
 
-* All delivered events
-* Recipient collected
-* Shipment lost/destroyed
-* Undeliverable - destroyed.
+- All delivered events
+- Recipient collected
+- Shipment lost/destroyed
+- Undeliverable - destroyed.
 
 ***
 
