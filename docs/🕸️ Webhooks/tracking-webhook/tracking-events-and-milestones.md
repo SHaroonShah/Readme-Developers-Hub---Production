@@ -43,14 +43,17 @@ The following section displays a comprehensive structure of the milestones, even
                 </tr>
                 <tr>
                 <td>PSAN</td>
+                <td>Shipment Announced</td>
                 <td>Shipment details have been received and the parcel is awaiting collection or handover.</td>
                 </tr>
                 <tr>
                 <td>PSCO</td>
+                <td>Shipment Collected</td>
                 <td>The shipment has been successfully collected by the carrier.</td>
                 </tr>
                 <tr>
                 <td>PSDE</td>
+<td>Shipment Despatched</td>
                 <td>he shipment has been dispatched and is moving through the carrier network.</td>
                 </tr>
              <tr>
@@ -69,68 +72,83 @@ The following section displays a comprehensive structure of the milestones, even
                 <td rowspan="5"><strong>In Transit</strong></td>
                 <td rowspan="5">2</td>
                 <td>PINT</td>
+<td>In Transit</td>
                 <td>The shipment is in transit and progressing towards the delivery destination.</td>
                 </tr>
                 <tr>
                 <td>PPID</td>
+<td>Shipment Processed in Depot</td>
                 <td>The shipment has been processed at a carrier depot facility.</td>
                 </tr>
                 <tr>
                 <td>PRID</td>
+<td>Shipment Received in Depot</td>
                 <td>The shipment has been received at a depot and is ready for sorting.</td>
                 </tr>
                 <tr>
                 <td>PSDD</td>
+<td>Shipment Departed Depot</td>
                 <td>The shipment has departed from a depot and is en route to the next location.</td>
                 </tr>
                 <tr>
                 <td>IOWS</td>
+<td>Oversize/weight Shipment</td>
                 <td>The shipment exceeds size or weight limits and may require special handling.</td>
                 </tr>
                 <tr>
                 <td rowspan="3"><strong>In Customs</strong></td>
                 <td rowspan="3">3</td>
                 <td>BCUI</td>
+<td>Customs Inspection</td>
                 <td> The shipment is undergoing customs inspection by authorities.</td>
                 </tr>
                 <tr>
                 <td>BHBC</td>
+<td>Held by Customs</td>
                 <td>The shipment is being held by customs pending further review or clearance.</td>
                 </tr>
                 <tr>
                 <td>BRBC</td>
+<td>Released by Customs</td>
                 <td>The shipment has been released by customs and will continue transit.</td>
                 </tr>
                 <tr>
                 <td rowspan="1"><strong>Out for Delivery</strong></td>
                 <td>4</td>
                 <td>POFD</td>
+<td>Out for Delivery</td>
                 <td>The shipment is out for delivery and expected to reach the recipient.</td>
                 </tr>
                 <tr>
                 <td rowspan="8"><strong>Delivery Attempt Failed</strong></td>
                 <td rowspan="8">5</td>
                 <td>FDAF</td>
+<td>Delivery Attempt Failed</td>
                 <td>A delivery attempt was made but was unsuccessful.</td>
                 </tr>
                 <tr>
                 <td>FNCO</td>
+<td>Not Collected</td>
                 <td>The shipment was not collected as scheduled.</td>
                 </tr>
                 <tr>
                 <td>FCAR</td>
+<td>No Answer - Carded</td>
                 <td>Delivery was attempted but no answer; a notification card has been left.</td>
                 </tr>
                 <tr>
                 <td>FANK</td>
+<td>Address Not Known</td>
                 <td>Delivery failed due to an unknown or incorrect address.</td>
                 </tr>
                 <tr>
                 <td>FRNK</td>
+<td>Recipient Not Known</td>
                 <td>Delivery could not be completed as the recipient is not known at the address.</td>
                 </tr>
                 <tr>
                 <td>FRAA</td>
+<td>Refused at Delivery Address</td>
                 <td>Delivery was refused at the destination address.</td>
                 </tr>
                 <tr>
