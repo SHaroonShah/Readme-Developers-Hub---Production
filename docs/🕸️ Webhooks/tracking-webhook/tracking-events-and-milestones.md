@@ -308,11 +308,13 @@ The following section displays a comprehensive structure of the milestones, even
                 </tr>
                 <tr>
                 <td>ISOH</td>
+<td>Shipment on Hold</td>
                 <td>The shipment is currently on hold within the carrier network. <br />
                 <b><i>Note</i></b>: <i>This event code is not triggered if the customer has configured the webhook to only receive milestones.</i></td>
                 </tr>
                 <tr>
                 <td>PSDP</td>
+<td>Shipment Data Processed</td>
                 <td>Shipment data has been successfully processed in the system.</td>
                 </tr>
          <tr>
