@@ -4,7 +4,7 @@ excerpt: >-
   This setting enables the monitoring and logging of every possible event and
   milestone related to a shipment throughout its lifecycle.
 deprecated: false
-hidden: false
+hidden: true
 icon: fad fa-timeline-arrow
 metadata:
   title: ''
