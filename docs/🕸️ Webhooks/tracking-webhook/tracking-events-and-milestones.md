@@ -58,14 +58,17 @@ The following section displays a comprehensive structure of the milestones, even
                 </tr>
              <tr>
                 <td>CAMD</td>
+<td>Collection Amended</td>
                 <td>The scheduled collection has been updated or amended after booking.</td>
                 </tr>
              <tr>
                 <td>CSBK</td>
+<td>Collection Successfully Booked</td>
                 <td>The collection request has been successfully booked and confirmed.</td>
                 </tr>
              <tr>
                 <td>PSCS</td>
+<td>Shipment Collected  and left in a Safe Place</td>
                 <td>The shipment has been collected from a designated safe place as instructed.</td>
                 </tr>
                 <tr>
@@ -319,50 +322,62 @@ The following section displays a comprehensive structure of the milestones, even
                 </tr>
          <tr>
                 <td>CAAT</td>
+<td>Collection Attempted But Not Completed</td>
                 <td>Collection was attempted but not completed.</td>
                 </tr>
          <tr>
                 <td>CAFI</td>
+<td>Collection Attempt Failed</td>
                 <td>Collection attempt failed because the location was inaccessible.</td>
                 </tr>
          <tr>
                 <td>CAFP</td>
+<td>Collection Attempt Failed - Packaging Issue</td>
                 <td>Collection attempt failed due to a packaging issue.</td>
                 </tr>
          <tr>
                 <td>CAFN</td>
+<td>Collection Attempt Failed - Shipment Not Available</td>
                 <td>Collection attempt failed because the shipment was not available.</td>
                 </tr>
          <tr>
                 <td>CAFA</td>
+<td>Collection Attempt Failed - No Answer</td>
                 <td>Collection attempt failed as there was no response at the location.</td>
                 </tr>
          <tr>
                 <td>CAFO</td>
+<td>Collection Attempt Failed - Oversize/weight Shipment</td>
                 <td>Collection attempt failed due to oversize or overweight shipment.</td>
                 </tr>
          <tr>
                 <td>CSPP</td>
+<td>Collection Attempt Failed From Safe Place - Packaging Issue</td>
                 <td>Collection from safe place failed due to a packaging issue</td>
                 </tr>
          <tr>
                 <td>CSPI</td>
+<td>Collection Attempt Failed From Safe Place - Inaccessible</td>
                 <td>Collection from safe place failed because access was not possible.</td>
                 </tr>
          <tr>
                 <td>CSPN</td>
+<td>Collection Attempt Failed  From Safe Place - Shipment not available</td>
                 <td>Collection from safe place failed as the shipment was not available.</td>
                 </tr>
          <tr>
                 <td>CSPO</td>
+<td>Collection Attempt Failed  From Safe Place - Oversize/weight shipment</td>
                 <td>Collection from safe place failed due to oversize or overweight shipment.</td>
                 </tr>
          <tr>
                 <td>CCAN</td>
+<td>Collection Cancelled</td>
                 <td>Collection request has been cancelled.</td>
                 </tr>
          <tr>
                 <td>CNAT</td>
+<td>Collection Not Attempted</td>
                 <td>Collection was not attempted.</td>
                 </tr>
                 </table>
