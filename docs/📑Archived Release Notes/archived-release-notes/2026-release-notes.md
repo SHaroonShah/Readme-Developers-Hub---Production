@@ -11,6 +11,7 @@ metadata:
 ---
 <Accordion title="SAPIENT release notes - June 29, 2026" icon="">
 # Swagger documentation updates
+The following updates hve been made to our swagger documentation:
 
 ## EU customs changes
 
