@@ -69,7 +69,7 @@ In SAPIENT, you can add as many products as you want and use them in your <Gloss
           <Tab title="Basic product details">
             On the **Add Product** form that opens, in the **PRODUCT DETAILS** block, enter the necessary information.
 
-            <Image align="center" border={true} src="https://files.readme.io/3a7afb46d19e9ed7a9c70e204c3a8abfbc168b76acc5bd3c6bad4737f9734ce9-Product_details_form.png" alt="Entering location details" />
+            <Image align="center" border={true} src="https://files.readme.io/bb154e33c4ce1aac13fcc54301465da2cec7a83940ffbfd1379c2aac3101d9e5-image.png" alt="Entering location details" />
 
             <br />
 
@@ -235,4 +235,4 @@ In SAPIENT, you can add as many products as you want and use them in your <Gloss
   </Card>
 </Cards>
 
-<br />
+
