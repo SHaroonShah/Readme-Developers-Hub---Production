@@ -75,64 +75,64 @@ In SAPIENT, you can add as many products as you want and use them in your <Gloss
 
             <AsteridkForMandatoryElements />
 
-            <table>
-              <thead>
-                <tr>
-                  <th align="center">Element</th>
-                  <th align="left">Description</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td align="center"><strong>SKU Code</strong>&#42;</td>
-                  <td align="left">Enter the <Glossary>stock keeping unit</Glossary> of the product you are adding.</td>
-                </tr>
-                <tr>
-                  <td align="center"><strong>HS Code</strong></td>
-                  <td align="left">Enter the <Glossary>HS Code</Glossary> for the product you are adding.<br /><br /><em><code>Note</code></em>: A minimum of 6 alpha-numeric code is required when the HS Code is provided (some services/destinations may require 8). Additionally, this information is required by some carriers for dutiable shipments.</td>
-                </tr>
-                <tr>
-                  <td align="center"><strong>Description</strong>&#42;</td>
-                  <td align="left">Enter a detailed description of the product you are adding.</td>
-                </tr>
-                <tr>
-                  <td align="center"><strong>Country of Origin</strong></td>
-                  <td align="left">From the dropdown menu, select the country where the product you are adding was manufactured.<br /><br /><em><code>Note</code></em>: This information is required by some carriers for dutiable shipments.</td>
-                </tr>
-                  <tr>
-                  <td align="center"><strong>Manufacture Product Id</strong></td>
-                  <td align="left">Enter the unique identifier used to reference the product your adding.</td>
-                </tr>
-                <tr>
-                  <td align="center"><strong>Value</strong>&#42;</td>
-                  <td align="left">Enter the monetary value of the product you are adding.</td>
-                </tr>
-                <tr>
-                  <td align="center"><strong>Currency</strong>&#42;</td>
-                  <td align="left">From the dropdown menu, select the currency code in which the value of the product is set.<br /><br /><em><code>Note</code></em>: This information is required if any monetary values other than zero are provided.</td>
-                </tr>
-                <tr>
-                  <td align="center"><strong>Weight (kg)</strong>&#42;</td>
-                  <td align="left">Enter the weight of the product you are adding. The unit of measure is set to <strong>Kg</strong> by default and can be a maximum of 1000 kg.<br /><br /><em><code>Note</code></em>: This information is required for dutiable shipments and must be a minimum of 1 g.</td>
-                </tr>
- <tr>
-                  <td align="center"><strong>Category</strong>&#42;</td>
-                  <td align="left">Enter the category of the product you are adding.</td>
-                </tr>
-                  <tr>
-                  <td align="center"><strong>Standardised Product Id</strong></td>
-                  <td align="left">Enter the product identifier used for standardised item identification and to support your carrier-specific requirements for customs and risk assessment.</td>
-                </tr>
-                <tr>
-                  <td align="center"><strong>Hazardous Product</strong></td>
-                  <td align="left">This toggle is turned off by default. If the product you are adding is a hazardous material, then turn on this toggle and enter the necessary information as explained in the Hazardous product details tab.</td>
-                </tr>
-<tr>
-                  <td align="center"><strong>This product cannot be returned</strong></td>
-                  <td align="left">This toggle is turned off by default. Turn on the toggle if the product you are adding is non-returnable.<td>
-                </tr>
-              </tbody>
-            </table>
+<table>
+  <thead>
+    <tr>
+      <th align="center">Element</th>
+      <th align="left">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center"><strong>SKU Code</strong>&#42;</td>
+      <td align="left">Enter the stock keeping unit of the product you are adding.</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>HS Code</strong></td>
+      <td align="left">Enter the HS Code for the product you are adding.<br /><br /><em><code>Note</code></em>: A minimum of 6 alpha-numeric code is required when the HS Code is provided (some services/destinations may require 8). Additionally, this information is required by some carriers for dutiable shipments.</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Description</strong>&#42;</td>
+      <td align="left">Enter a detailed description of the product you are adding.</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Country of Origin</strong></td>
+      <td align="left">From the dropdown menu, select the country where the product you are adding was manufactured.<br /><br /><em><code>Note</code></em>: This information is required by some carriers for dutiable shipments.</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Manufacture Product Id</strong></td>
+      <td align="left">Enter the unique identifier used to reference the product you are adding.</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Value</strong>&#42;</td>
+      <td align="left">Enter the monetary value of the product you are adding.</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Currency</strong>&#42;</td>
+      <td align="left">From the dropdown menu, select the currency code in which the value of the product is set.<br /><br /><em><code>Note</code></em>: This information is required if any monetary values other than zero are provided.</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Weight (kg)</strong>&#42;</td>
+      <td align="left">Enter the weight of the product you are adding. The unit of measure is set to <strong>Kg</strong> by default and can be a maximum of 1000 kg.<br /><br /><em><code>Note</code></em>: This information is required for dutiable shipments and must be a minimum of 1 g.</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Category</strong>&#42;</td>
+      <td align="left">Enter the category of the product you are adding.</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Standardised Product Id</strong></td>
+      <td align="left">Enter the product identifier used for standardised item identification and to support your carrier-specific requirements for customs and risk assessment.</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Hazardous Product</strong></td>
+      <td align="left">This toggle is turned off by default. If the product you are adding is a hazardous material, turn on this toggle and enter the necessary information in the Hazardous product details tab.</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>This product cannot be returned</strong></td>
+      <td align="left">This toggle is turned off by default. Turn on the toggle if the product you are adding is non-returnable.</td>
+    </tr>
+  </tbody>
+</table>
           </Tab>
 
           <Tab title="Hazardous product details">
@@ -144,52 +144,52 @@ In SAPIENT, you can add as many products as you want and use them in your <Gloss
 
             <AsteridkForMandatoryElements />
 
-            <table>
-              <thead>
-                <tr>
-                  <th align="center">Element</th>
-                  <th align="left">Description</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td align="center"><strong>UN Code</strong>&#42;</td>
-                  <td align="left">Enter the unique four digit number assigned by the United Nations to identify hazardous substances. It helps in recognising the hazardous product during shipping.</td>
-                </tr>
-                <tr>
-                  <td align="center"><strong>Proper Shipping Name</strong></td>
-                  <td align="left">Enter the official name of the hazardous product as specified in the transport regulations, which clearly describes the substance and its potential hazards.</td>
-                </tr>
-                <tr>
-                  <td align="center"><strong>Quantity</strong>&#42;</td>
-                  <td align="left">Enter total amount of the hazardous product being shipped.</td>
-                </tr>
-                <tr>
-                  <td align="center"><strong>Unit of Measure</strong>&#42;</td>
-                  <td align="left">Enter the measurement unit (such as kilograms, litres, pounds, and so on) used to quantify the quantity of the hazardous product.</td>
-                </tr>
-                <tr>
-                  <td align="center"><strong>Class</strong>&#42;</td>
-                  <td align="left">Enter the classification number that reflects the type of hazard posed by the product (for example, inflammable, toxic, corrosive) which is crucial for determining the appropriate handling and transportation measures.</td>
-                </tr>
-                <tr>
-                  <td align="center"><strong>ID8000 Category</strong></td>
-                  <td align="left">This field is only available if the class of the hazardous product is 9.<br /><br />From the dropdown menu, select the category of the dangerous goods identified under ID8000 regulations.</td>
-                </tr>
-                <tr>
-                  <td align="center"><strong>Emergency Action Code</strong></td>
-                  <td align="left">Enter the code that indicates necessary emergency response actions to take in the event of of an incident involving the hazardous product during transport.</td>
-                </tr>
-                <tr>
-                  <td align="center"><strong>Hazchem Number</strong></td>
-                  <td align="left">Enter the number assigned to the hazardous material that indicates the specific firefighting and emergency response measures required, ensuring that responders have quick access to critical information.</td>
-                </tr>
-                <tr>
-                  <td align="center"><strong>Specialist Advice Contact Number</strong></td>
-                  <td align="left">Enter the telephone number for reaching an expert or specialist who can provide guidance on handling the hazardous product in case of emergencies or specific inquiries regarding its transport.</td>
-                </tr>
-              </tbody>
-            </table>
+<table>
+  <thead>
+    <tr>
+      <th align="center">Element</th>
+      <th align="left">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center"><strong>UN Code</strong>&#42;</td>
+      <td align="left">Enter the unique four digit number assigned by the United Nations to identify hazardous substances. It helps in recognising the hazardous product during shipping.</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Proper Shipping Name</strong></td>
+      <td align="left">Enter the official name of the hazardous product as specified in the transport regulations, which clearly describes the substance and its potential hazards.</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Quantity</strong>&#42;</td>
+      <td align="left">Enter the total amount of the hazardous product being shipped.</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Unit of Measure</strong>&#42;</td>
+      <td align="left">Enter the measurement unit, such as kilograms, litres, or pounds, used to quantify the hazardous product.</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Class</strong>&#42;</td>
+      <td align="left">Enter the classification number that reflects the type of hazard posed by the product, such as inflammable, toxic, or corrosive. This classification is crucial for determining the appropriate handling and transportation measures.</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>ID8000 Category</strong></td>
+      <td align="left">This field is only available if the class of the hazardous product is 9.<br /><br />From the dropdown menu, select the category of the dangerous goods identified under ID8000 regulations.</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Emergency Action Code</strong></td>
+      <td align="left">Enter the code that indicates necessary emergency response actions to take in the event of an incident involving the hazardous product during transport.</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Hazchem Number</strong></td>
+      <td align="left">Enter the number assigned to the hazardous material that indicates the specific firefighting and emergency response measures required, ensuring that responders have quick access to critical information.</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Specialist Advice Contact Number</strong></td>
+      <td align="left">Enter the telephone number for reaching an expert or specialist who can provide guidance on handling the hazardous product in case of emergencies or specific inquiries regarding its transport.</td>
+    </tr>
+  </tbody>
+</table>
           </Tab>
         </Tabs>
 
