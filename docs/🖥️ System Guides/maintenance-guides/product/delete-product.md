@@ -54,7 +54,7 @@ In SAPIENT, you can delete a product to cleanup the database, preventing confusi
 
         In the **Edit Product** form that opens, click ![](https://files.readme.io/63292b906edfcaf8554e4c4b9385b1ba483ec4ada1541955dde6ff5a78cc55fe-Delete_product_button.png).
 
-        <Image align="center" border={true} src="https://files.readme.io/c84f99786468144347b5039b2c1bde7322000a27e08f78cb070a4fbd17dbd9f0-Delete_product_option.png" alt="Selecting option to add shipping location" />
+        <Image align="center" border={true} src="https://files.readme.io/f641c117ff0c196bf8ac6a6ee86e69c0ef502bfaa646840f1f73e239b6f935a7-image.png" alt="Selecting option to add shipping location" />
 
         ***
       </ToggleListItem>
@@ -99,3 +99,5 @@ In SAPIENT, you can delete a product to cleanup the database, preventing confusi
     Create new product entries in your system with all necessary details and shipping requirements.
   </Card>
 </Cards>
+
+<br />
