@@ -51,7 +51,7 @@ In SAPIENT, you can add as many products as you want and use them in your <Gloss
       <ToggleListItem title={<strong>2. Select option to add product</strong>} icon="fa-rocket">
         <br />
 
-        On the **Products** page that appears, select ![alt text](https://files.readme.io/551c1450e733a95bd452603ef5b85d1a7117a44a87b0689da3cd7b09b6351023-Add_product_button.png).
+        On the **Products** page that appears, select ![alt text](https://files.readme.io/da5be64375756a300994c03536bf33b18d2b0cc962e5e7089d0342f299816021-image.png).
 
         <Image align="center" border={true} src="https://files.readme.io/dc08b7bdd1de178e0ec7835267721eea82af919b8f983ac89e33bcfdcb7ddef4-Add_product_option.png" alt="Selecting option to add shipping location" />
 
