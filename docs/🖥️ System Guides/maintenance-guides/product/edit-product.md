@@ -54,7 +54,7 @@ In SAPIENT, you can edit the <Glossary>product</Glossary>, ensuring that any cha
 
         In the **Edit Product** form that opens, start updating the necessary information as explained in the [Add product](https://docs.intersoftsapient.net/docs/add-product) section.
 
-        <Image align="center" border={true} src="https://files.readme.io/31fc405902585254ecaa88262b003ed2eac86db261007455a03b6b114699e91b-Editing_product.png" alt="Selecting option to add shipping location" />
+        <Image align="center" border={true} src="https://files.readme.io/689e170bdd66948ac7016628f9700c2480eff92dcba8bcdd2f9847ebfeaa6d46-image.png" alt="Selecting option to add shipping location" />
 
         ***
       </ToggleListItem>
@@ -99,3 +99,5 @@ In SAPIENT, you can edit the <Glossary>product</Glossary>, ensuring that any cha
     Remove products from your system that are no longer needed.
   </Card>
 </Cards>
+
+
