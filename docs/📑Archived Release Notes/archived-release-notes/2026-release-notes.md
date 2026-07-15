@@ -9,6 +9,69 @@ icon: fad fa-notes
 metadata:
   robots: index
 ---
+<Accordion title="SAPIENT release notes - June 29, 2026" icon="">
+# Swagger documentation updates
+
+## EU customs changes
+
+As part of the new EU customs regulations, the following fields have been added at the **Items** level of the **Create Shipment** endpoint for all carriers:
+
+* **ManufactureProductId**: A unique identifier used to reference the shipped item and support carrier-specific requirements.
+* **StandardiseProductId**: A globally recognised product identifier used for standardised item identification and to support carrier-specific requirements for customs and risk assessment.
+
+> 📘 _Note_
+>
+> _If applicable, this information may be included in the carrier's pre-advice._
+>
+> _For more information, refer to the <Anchor label="API References" target="_blank" href="https://docs.intersoftsapient.net/reference/introduction">API References</Anchor> section._
+
+## Royal Mail new optional field
+
+A new optional field, **AdditionalHandlingFeesPaid**, has been added to the **CarrierSpecifics** object of the Royal Mail **Create Shipment** endpoint. This field indicates whether any extra handling charges have already been paid by the shipper, helping improve cost visibility and ensure accurate shipment processing.
+
+> 📘 _Note_
+>
+> _If applicable, this information may be included in the carrier's pre-advice._
+>
+> _For more information, refer to the Royal Mail [Create Shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm) endpoint._
+
+## Royal Mail international label template updates
+All Royal Mail international label templates have been updated to consistently display “**Postage paid GB**”, ensuring consistency with Royal Mail requirements and approved label formats.
+
+<Image align="center" border={true} caption="Example of International Royal Mail Label template with updated format" src="https://files.readme.io/f071f3e8b1a1ee804789e653aa827d4bba8cb30bfa968b3a9b30ac844e4eb9bb-image.png" width="400px" />
+
+## New INTERSOFT tracking events
+The SAPIENT's Tracking Webhook has been updated improve collection outcomes by introducing the new following new INTERSOFT tracking event codes.
+
+| Tracking Event Code | Tracking Event Name                                                       |
+| :------------------ | :------------------------------------------------------------------------ |
+| CAMD                | Collection booking was updated or amended after initial scheduling.       |
+| CSBK                | Collection has been successfully booked and confirmed.                    |
+| PSCS                | Shipment has been collected and left in a designated safe place.          |
+| CAAT                | Collection was attempted but not completed.                               |
+| CAFI                | Collection attempt failed because the location was inaccessible.          |
+| CAFP                | Collection attempt failed due to a packaging issue.                       |
+| CAFN                | Collection attempt failed because the shipment was not available.         |
+| CAFA                | Collection attempt failed as there was no response at the location.       |
+| CAFO                | Collection attempt failed due to oversize or overweight shipment.         |
+| CSPP                | Collection from safe place failed due to a packaging issue.               |
+| CSPI                | Collection from safe place failed because access was not possible.        |
+| CSPN                | Collection from safe place failed as the shipment was not available.      |
+| CSPO                | Collection from safe place failed due to oversize or overweight shipment. |
+| CCAN                | Collection request has been cancelled.                                    |
+| CNAT                | Collection was not attempted.                                             |
+
+These new tracking event codes provides customers with clear, actionable tracking updates for failed collections, enabling faster issue resolution and improved operational decision-making.
+
+> 📘 _Note_
+>
+> _For detailed information on all tracking events and milestones, refer to the following sections:_
+>
+> * _[Track events and milestones](https://docs.intersoftsapient.net/docs/tracking-events-and-milestones)_
+> * [_Tracking Webhook Push Payload Example_](https://docs.intersoftsapient.net/reference/post_v4-trackings-pushpayloadexample)
+
+</Accordion>
+
 <Accordion title="SAPIENT release notes - June 09, 2026" icon="">
   ## New integration - DHL Express
 The DHL Express integration has been added to the SAPIENT system. This integration supports shipping domestically within UK, to EU and Rest of World destinations. With this addition, the following information has been added to the swagger documentation:
