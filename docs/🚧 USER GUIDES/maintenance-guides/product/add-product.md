@@ -32,7 +32,6 @@ In SAPIENT, you can add as many products as you want and use them in your <Gloss
 <Tabs>
   <Tab title="Add via SAPIENT UI">
     
-
     To add a product in SAPIENT, perform the steps as explained in the following procedure.
 
     <ToggleList>
