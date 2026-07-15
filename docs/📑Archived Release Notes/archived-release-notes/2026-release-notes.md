@@ -10,9 +10,6 @@ metadata:
   robots: index
 ---
 <Accordion title="SAPIENT release notes - June 29, 2026" icon="">
-# Swagger documentation updates
-The following updates hve been made to our swagger documentation:
-
 ## EU customs changes
 
 As part of the new EU customs regulations, the following fields have been added at the **Items** level of the **Create Shipment** endpoint for all carriers:
