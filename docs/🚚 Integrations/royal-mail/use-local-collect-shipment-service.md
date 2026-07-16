@@ -177,7 +177,7 @@ Based on your requirements, you can choose various approaches to use the PUDO lo
 
     * <a href="https://docs.google.com/spreadsheets/d/16ygmINFe4-1UUKqZ2Jwf3-7ms9Pl5qBMRVTUCz5XJJ0/edit?usp=sharing" target="_blank" rel="noopener noreferrer">RMPUDO20250718</a>
 
-    *The file will have a naming convention of RMPUDOyyyymmdd.csv and will be in csv format with comma delimiters. To learn more about the structure of the file refer to the<a href="https://docs.google.com/spreadsheets/d/1M86m55PXHYYoR97QIXCddtuqc80321CPKENqeKZ1y3I/edit?usp=sharing" target="_blank" rel="noopener noreferrer">PUDO file structure.</a>*
+    *The file will have a naming convention of RMPUDOyyyymmdd.csv and will be in csv format with comma delimiters. To learn more about the structure of the file refer to the <a href="https://docs.google.com/spreadsheets/d/1M86m55PXHYYoR97QIXCddtuqc80321CPKENqeKZ1y3I/edit?usp=sharing" target="_blank" rel="noopener noreferrer"> PUDO file structure.</a>*
   </Callout>
 </Accordion>
 
@@ -203,7 +203,7 @@ Based on your requirements, you can choose various approaches to use the PUDO lo
   >
   > * *If the`pudoId` is provided for any address other than the destination address, an error will be returned.*
   > * *If the`pudoId` is provided for a carrier that does not use PUDO, an error will be returned.*
-  > * *If the destination company name includes “c/o” and the`PudoId` is not populated, the existing Local Collect functionality will continue to apply.*
+  > * *If the destination company name includes “c/o” and the `PudoId` is not populated, the existing Local Collect functionality will continue to apply.*
 </Accordion>
 
 <br />
