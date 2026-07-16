@@ -33,16 +33,16 @@ next:
 ***
 
 <Accordion title="C">
-  * **Carrier**. A company that provide transportation services for cargo either by land, sea, or air.
-  * **Commercial invoice**. A document provided by the seller to the buyer that details the sale transaction, including item descriptions, quantities, and prices, used for customs declaration. The commercial invoice records accounts receivable for the seller (sender) and accounts payable for the buyer. The content of commercial invoice is almost the same as proforma invoice. However, the final sale price may vary with the proforma invoice, as proforma invoice is issued prior to actual sale taking place.
-  * **CN23**. A customs declaration form used for international shipments to provide details on the contents, value, and purpose of the goods being sent. Under international postal agreements, the sender must complete the CN23 form which should be fixed to the package. The CN23 is used for postal shipments only. Royal Mail is part of UPU.
-  * **Consignment**. Goods that are shipped from one location to another, typically under a shipping agreement or contract.
-  * **Consignment service**. A carrier service that allows multiple packages to be sent as one shipment (consignment). Not all carriers have consignment services.
-  * **Consignment tracking number**. A unique identifier assigned to a specific consignment that allows for tracking its movement and delivery status through the shipping process.
-  * **Container**. A standardized, durable boxes used to transport goods by various modes of transport, including ships, trucks, and trains. They facilitate the efficient movement and handling of cargo, protecting items from damage and theft. Containers come in various sizes, with the most common being the 20-foot and 40-foot units.
-  * **Containerisation**. A practice of using standardized containers for the transport and storage of goods, revolutionizing global shipping logistics. This method enhances efficiency by allowing for seamless transfer between different transport modes, reducing loading and unloading times. It has significantly lowered shipping costs and increased the speed of global trade.
-  * **Content type**. A description on the nature of the items in your shipment. A shipment can only have one content type. Values accepted by API v4 are DOX (documents), NDX (non documents) and HV (high value).
-  * **Customer**. An individual or organisation that utilises the system's services to manage the shipping and logistics of their products.
+ * **Carrier**. A company that provide transportation services for cargo either by land, sea, or air.
+ * **Commercial invoice**. A document provided by the seller to the buyer that details the sale transaction, including item descriptions, quantities, and prices, used for customs declaration. The commercial invoice records accounts receivable for the seller (sender) and accounts payable for the buyer. The content of commercial invoice is almost the same as proforma invoice. However, the final sale price may vary with the proforma invoice, as proforma invoice is issued prior to actual sale taking place.
+ * **CN23**. A customs declaration form used for international shipments to provide details on the contents, value, and purpose of the goods being sent. Under international postal agreements, the sender must complete the CN23 form which should be fixed to the package. The CN23 is used for postal shipments only. Royal Mail is part of UPU.
+* **Consignment**. Goods that are shipped from one location to another, typically under a shipping agreement or contract.
+ * **Consignment service**. A carrier service that allows multiple packages to be sent as one shipment (consignment). Not all carriers have consignment services.
+ * **Consignment tracking number**. A unique identifier assigned to a specific consignment that allows for tracking its movement and delivery status through the shipping process.
+ * **Container**. A standardized, durable boxes used to transport goods by various modes of transport, including ships, trucks, and trains. They facilitate the efficient movement and handling of cargo, protecting items from damage and theft. Containers come in various sizes, with the most common being the 20-foot and 40-foot units.
+ * **Containerisation**. A practice of using standardized containers for the transport and storage of goods, revolutionizing global shipping logistics. This method enhances efficiency by allowing for seamless transfer between different transport modes, reducing loading and unloading times. It has significantly lowered shipping costs and increased the speed of global trade.
+ * **Content type**. A description on the nature of the items in your shipment. A shipment can only have one content type. Values accepted by API v4 are DOX (documents), NDX (non documents) and HV (high value).
+ * **Customer**. An individual or organisation that utilises the system's services to manage the shipping and logistics of their products.
 </Accordion>
 
 ***
