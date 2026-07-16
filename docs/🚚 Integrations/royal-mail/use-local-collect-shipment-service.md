@@ -32,7 +32,7 @@ With the advancements in the location services, Royal Mail now supports the foll
 
 📍**Lockers (LOK)**: Convenient parcel lockers available for pickup.
 
-📍**RMShop**: A network of retail outlets, offering parcel collection services.
+📍**RMShop (PSH)**: A network of retail outlets, offering parcel collection services.
 
 The SAPIENT system offers two effective approaches for accessing PUDO (Pick Up Drop Off) locations to enhance local collection options for Royal Mail customers.
 
@@ -115,8 +115,8 @@ Based on your requirements, you can choose various approaches to use the PUDO lo
         },
         "enhancedLocationDetails": {
           "LocationType": "PSH",
-          "Supplier": "Collect+",
-          "SupplierLocationType": "Collect+",
+          "Supplier": "RMShop",
+          "SupplierLocationType": "RMShop",
           "LabelId": "31262463",
           "DistanceFromPostcode": "3.2",
           "DistanceUnit": "miles",
