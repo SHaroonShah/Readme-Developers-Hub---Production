@@ -17,8 +17,8 @@ next:
 ---
 The [PUDO API](https://docs.intersoftsapient.net/reference/get_v4-pudolocations-carriercode-countrycode-postcode#/) enhances customer convenience by allowing them to access essential shipping options for both sending and returning packages seamlessly by offering the following options:
 
-* **Pick Up**: Allows customers to choose to collect their parcel from a <Glossary>PUDO</Glossary> point. It is particularly beneficial for those who may not always be available for direct delivery, helping to reduce missed delivery attempts and enhance overall customer satisfaction.
-* **Drop-off**: Allows customers to find a location where they can drop off a parcel they want to return.
+- **Pick Up**: Allows customers to choose to collect their parcel from a <Glossary>PUDO</Glossary> point. It is particularly beneficial for those who may not always be available for direct delivery, helping to reduce missed delivery attempts and enhance overall customer satisfaction.
+- **Drop-off**: Allows customers to find a location where they can drop off a parcel they want to return.
 
 With the advancements in the location services, Royal Mail now supports the following location types:
 
@@ -35,8 +35,8 @@ With the advancements in the location services, Royal Mail now supports the foll
     Convenient parcel lockers available for pickup.
   </Card>
 
-  <Card title="Collect+ Stores (PSH)" icon="fa-solid fa-store">
-    A network of retail outlets, offering parcel collection services.
+  <Card title="RMShop (PSH)" icon="fa-solid fa-store">
+    A network of Royal Mail retail outlets, offering parcel collection services.
   </Card>
 </Cards>
 
@@ -143,8 +143,8 @@ Based on your requirements, you can choose various approaches to use the PUDO lo
         },
         "enhancedLocationDetails": {
           "LocationType": "PSH",
-          "Supplier": "Collect+",
-          "SupplierLocationType": "Collect+",
+          "Supplier": "RMShop",
+          "SupplierLocationType": "RMShop",
           "LabelId": "31262463",
           "DistanceFromPostcode": "3.2",
           "DistanceUnit": "miles",
@@ -205,7 +205,7 @@ Based on your requirements, you can choose various approaches to use the PUDO lo
 
     * <a href="https://docs.google.com/spreadsheets/d/16ygmINFe4-1UUKqZ2Jwf3-7ms9Pl5qBMRVTUCz5XJJ0/edit?usp=sharing" target="_blank" rel="noopener noreferrer">RMPUDO20250718</a>
 
-    *The file will have a naming convention of RMPUDOyyyymmdd.csv and will be in csv format with comma delimiters. To learn more about the structure of the file refer to the<a href="https://docs.google.com/spreadsheets/d/1M86m55PXHYYoR97QIXCddtuqc80321CPKENqeKZ1y3I/edit?usp=sharing" target="_blank" rel="noopener noreferrer">PUDO file structure.</a>*
+    *The file will have a naming convention of RMPUDOyyyymmdd.csv and will be in csv format with comma delimiters. To learn more about the structure of the file refer to the <a href="https://docs.google.com/spreadsheets/d/1M86m55PXHYYoR97QIXCddtuqc80321CPKENqeKZ1y3I/edit?usp=sharing" target="_blank" rel="noopener noreferrer">PUDO file structure.</a>*
   </Callout>
 </Accordion>
 
@@ -231,7 +231,7 @@ Based on your requirements, you can choose various approaches to use the PUDO lo
   >
   > * *If the`pudoId` is provided for any address other than the destination address, an error will be returned.*
   > * *If the`pudoId` is provided for a carrier that does not use PUDO, an error will be returned.*
-  > * *If the destination company name includes “c/o” and the`PudoId` is not populated, the existing Local Collect functionality will continue to apply.*
+  > * *If the destination company name includes “c/o” and the `PudoId` is not populated, the existing Local Collect functionality will continue to apply.*
 </Accordion>
 
 <br />
