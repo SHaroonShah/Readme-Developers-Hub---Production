@@ -17,10 +17,12 @@ next:
 ---
 The [PUDO API](https://docs.intersoftsapient.net/reference/get_v4-pudolocations-carriercode-countrycode-postcode#/) enhances customer convenience by allowing them to access essential shipping options for both sending and returning packages seamlessly by offering the following options:
 
-* **Pick Up**: Allows customers to choose to collect their parcel from a PUDO point. It is particularly beneficial for those who may not always be available for direct delivery, helping to reduce missed delivery attempts and enhance overall customer satisfaction.
-* **Drop-off**: Allows customers to find a location where they can drop off a parcel they want to return.
+- **Pick Up**: Allows customers to choose to collect their parcel from a PUDO point. It is particularly beneficial for those who may not always be available for direct delivery, helping to reduce missed delivery attempts and enhance overall customer satisfaction.
+- **Drop-off**: Allows customers to find a location where they can drop off a parcel they want to return.
 
-<Image align="center" border={true} width="200px" src="https://files.readme.io/fc9948cba5b87c15e89ceda1d55fe6f022a938bb2b8661ace1f6f9c9e5572799-Post_office.gif" className="border" />
+
+<Image src="https://files.readme.io/fc9948cba5b87c15e89ceda1d55fe6f022a938bb2b8661ace1f6f9c9e5572799-Post_office.gif" align="center" width="200px" border={true} />
+
 
 With the advancements in the location services, Royal Mail now supports the following location types:
 
@@ -30,7 +32,7 @@ With the advancements in the location services, Royal Mail now supports the foll
 
 📍**Lockers (LOK)**: Convenient parcel lockers available for pickup.
 
-📍**Collect+ Stores (PSH)**: A network of retail outlets, offering parcel collection services.
+📍**RMShop**: A network of retail outlets, offering parcel collection services.
 
 The SAPIENT system offers two effective approaches for accessing PUDO (Pick Up Drop Off) locations to enhance local collection options for Royal Mail customers.
 
@@ -171,7 +173,7 @@ Based on your requirements, you can choose various approaches to use the PUDO lo
   <Callout icon="💡" theme="default">
     ### *Tip*
 
-    *The file is generated on a daily basis and to ensure you are using the most up‑to‑date data, it is recommended to retrieve the latest PUDO file after the scheduled file pickup run at 7:30 AM (BST). To learn more about the file data, refer to the following example file:*
+    *The file is generated on a daily basis and to ensure you are using the most up‑to‑date data, it is recommended to retrieve the latest PUDO file after the scheduled file pickup run at 5:30 AM (BST). To learn more about the file data, refer to the following example file:*
 
     * <a href="https://docs.google.com/spreadsheets/d/16ygmINFe4-1UUKqZ2Jwf3-7ms9Pl5qBMRVTUCz5XJJ0/edit?usp=sharing" target="_blank" rel="noopener noreferrer">RMPUDO20250718</a>
 
