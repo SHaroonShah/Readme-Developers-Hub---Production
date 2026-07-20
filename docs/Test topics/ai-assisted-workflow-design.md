@@ -63,6 +63,8 @@ Follow these stages for every documentation change:
 
 ### 1. Documentation draft generator
 
+The Draft Prompt is responsible for generating the initial version of the documentation from trusted technical sources, such as product requirements, engineering notes, or API specifications. Its goal is to accelerate content creation while ensuring the output is clear, structured, and written in Markdown. The prompt explicitly instructs the AI not to invent technical details and to flag missing information for human review.
+
 #### Purpose
 
 Generate a first draft from engineering notes.
@@ -117,6 +119,7 @@ The reviewer confirms:
 - Missing prerequisites
 
 ### 2. Style guide reviewer
+The Review Prompt acts as an editorial assistant by reviewing drafted documentation for grammar, readability, formatting, and compliance with the documentation style guide. It focuses on improving the quality and consistency of the writing without altering the underlying technical meaning. All suggested changes are reviewed and approved by a Technical Writer before publication.
 
 #### Purpose
 
@@ -158,6 +161,7 @@ The Technical Writer approves all suggested edits before merging.
 - Formatting issues
 
 ### 3. Terminology checker
+The Terminology Check Prompt ensures that product terminology remains consistent across the entire documentation repository. It scans all Markdown files to identify inconsistent naming, outdated terms, or duplicate terminology and generates a report with recommended corrections. This helps maintain a single source of truth and prevents confusion for users as the product evolves.
 
 #### Purpose
 
@@ -198,6 +202,7 @@ The Product Manager confirms the official terminology before updates are applied
 - Customer confusion
 
 ### 4. Documentation quality checker
+The Quality Check Prompt performs a final validation of the documentation before publication. It checks for issues such as broken links, missing sections, placeholder text, formatting errors, duplicate content, and incomplete code examples. Instead of rewriting content, it generates a quality report that allows the Technical Writer to resolve issues before the documentation is merged and published.
 
 #### Purpose
 
@@ -247,3 +252,5 @@ The Technical Writer resolves all reported issues before approving the pull requ
 - Publishing incomplete documentation
 - Broken navigation
 - Missing content
+
+<br />
