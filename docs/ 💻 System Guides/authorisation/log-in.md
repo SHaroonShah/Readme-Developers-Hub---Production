@@ -47,7 +47,7 @@ To log in to the SAPIENT system, follow the instructions as explained in the fol
 
     Depending on the type of the user (<Glossary>admin</Glossary> or <Glossary>customer</Glossary>), you are offered to enter your email address and password, and then click ![alt text](https://files.readme.io/a522617839d2732b679420b974b89ab2da5b49f109ab460847db877fff9de78c-Sign_in_button.png).
 
-    <Image align="center" src="https://files.readme.io/fa5d0ced6ed38b419fa15c57f5b03fdddf6284adfcc85b48370c67d1aa07c5f8-Sapient_Login_window.png" width="300px" alt="Logging into SAPIENT" />
+    <Image align="center" src="https://files.readme.io/fa5d0ced6ed38b419fa15c57f5b03fdddf6284adfcc85b48370c67d1aa07c5f8-Sapient_Login_window.png" width="300px" caption="Logging into SAPIENT" />
 
     ***
   </ToggleListItem>
