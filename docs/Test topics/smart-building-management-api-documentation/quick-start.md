@@ -71,17 +71,20 @@ A successful response returns the building details.
 
 </Accordion>
 
-
 ***
 
 ### See also
 
-<Accordion title="What to read next" icon="arrow-right">
-
-- **Authentication Guide** for more detail about OAuth 2.0 authentication.
-- **API Reference** to explore available endpoints.
-- **Troubleshooting** if your request does not return the expected result.
-
-</Accordion>
+<Cards columns={3}>
+  <Card title="Authentication" href="/docs/authentication" icon="key">
+    Learn how to authenticate requests with OAuth 2.0.
+  </Card>
+  <Card title="API" href="/docs/api" icon="code">
+    Explore the available API resources and endpoints.
+  </Card>
+  <Card title="Troubleshooting" href="/docs/troubleshooting" icon="wrench">
+    Diagnose common integration issues.
+  </Card>
+</Cards>
 
 <br />
