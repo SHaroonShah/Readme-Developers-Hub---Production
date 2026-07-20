@@ -71,6 +71,12 @@ Smart building platforms can expose hundreds of endpoints. This documentation he
 
 Use an internet connection and HTTPS for every request. The API uses OAuth 2.0 authentication and JSON request and response bodies.
 
-This documentation covers API version `v1`.
+<Callout icon="📘" theme="info">
+  ### _Note_
+
+  _This documentation covers API version&#x20;_`v1`_._
+</Callout>
+
+<br />
 
 <br />
