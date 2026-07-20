@@ -51,7 +51,7 @@ Based on your requirements, you can choose various approaches to use the PUDO lo
 
   1. **Integration Activation**: The PUDO integration must be enabled within the Sapient system for customers to leverage this feature.
 
-  <Image align="center" border={true} src="https://files.readme.io/130681c4ccc5018415e332ba70d3239a8e6c5b1c30b509fd21437710dfe3c46a-image.png" />
+  <Image align="center" border={true} src="https://files.readme.io/130681c4ccc5018415e332ba70d3239a8e6c5b1c30b509fd21437710dfe3c46a-image.png" caption="Activating PUDO integration"/>
 
   2. **Ad-Hoc Calling**: During the checkout process, customers can call the PUDO API to retrieve a list of nearby collection points based on their delivery postcode.
   3. **Result Delivery**: The API responds with a real-time list of PUDO locations for selection.
@@ -142,7 +142,7 @@ Based on your requirements, you can choose various approaches to use the PUDO lo
   }
   ```
 
-  <Image align="center" src="https://files.readme.io/36569617c265f4481d748095c90867d93937deaf399ff2d0fa9ec68316f283ae-Local_Collect_label_example.png" />
+  <Image align="center" src="https://files.readme.io/36569617c265f4481d748095c90867d93937deaf399ff2d0fa9ec68316f283ae-Local_Collect_label_example.png" caption="Local colect label example"/>
 </Accordion>
 
 <Accordion title="Accessing PUDO Locations via SFTP for local collect">
