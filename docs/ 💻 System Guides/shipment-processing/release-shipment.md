@@ -44,7 +44,7 @@ In SAPIENT, you can anytime release the [held](https://docs.intersoftsapient.net
 
         In the side navigation panel, select the **Shipment Processing** > **Held** option.
 
-        <Image align="center" border={true} src="https://files.readme.io/c0796ec5b2d1123cc03bd22830f7520bddea1408599b62a0b00be63dff75e887-Held_option.png" alt="Accessing shipments" />
+        <Image align="center" border={true} src="https://files.readme.io/c0796ec5b2d1123cc03bd22830f7520bddea1408599b62a0b00be63dff75e887-Held_option.png" caption="Accessing shipments" />
 
         ***
       </ToggleListItem>
@@ -56,7 +56,7 @@ In SAPIENT, you can anytime release the [held](https://docs.intersoftsapient.net
 
         In the **Held Shipments** page that opens, select the checkboxes next to the shipments you want to release, and then select ![alt text](https://files.readme.io/ea4f0d57b9918ccc9192a3d230a9dbd24e3e5a33c864e0dd4e8c973181d78f46-Release_shipments_button.png).
 
-        <Image align="center" border={true} src="https://files.readme.io/a64211ea7a7073f81971a21ff07e429fe56864cd50f4be911b9af62da763fe8d-Releasing_shipment.png" alt="Recalling shipment" />
+        <Image align="center" border={true} src="https://files.readme.io/a64211ea7a7073f81971a21ff07e429fe56864cd50f4be911b9af62da763fe8d-Releasing_shipment.png" caption="Recalling shipment" />
 
         ***
 
@@ -70,7 +70,7 @@ In SAPIENT, you can anytime release the [held](https://docs.intersoftsapient.net
 
         In the confirmation dialog that appears, select **Yes**.
 
-        <Image align="center" border={true} src="https://files.readme.io/6357a15bc67e4c76c3e37aca5da2842b7bdb395cf3c3ce8fa6e6bd16bba7a751-Confirming_shipment_release.png" width="350px" alt="Confirming shipment recalling" />
+        <Image align="center" border={true} src="https://files.readme.io/6357a15bc67e4c76c3e37aca5da2842b7bdb395cf3c3ce8fa6e6bd16bba7a751-Confirming_shipment_release.png" width="350px" caption="Confirming shipment recalling" />
 
         <br />
 
