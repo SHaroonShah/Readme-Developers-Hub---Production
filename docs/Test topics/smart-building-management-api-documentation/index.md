@@ -53,9 +53,9 @@ You can retrieve live building data, manage equipment, automate workflows, and c
 Use an internet connection and HTTPS for every request. The API uses OAuth 2.0 authentication and JSON request and response bodies.
 
 <Callout icon="📘" theme="info">
-  ###
+  ### _Note_
 
-  This documentation covers API version `v1`.
+  _This documentation covers API version&#x20;_`v1`_._
 </Callout>
 
 <br />
