@@ -5,29 +5,4 @@ hidden: false
 metadata:
   robots: index
 ---
-│
-├── README.md
-│
-├── docs/
-│   ├── introduction.md
-│   ├── quick-start.md
-│   ├── authentication.md
-│   ├── api-reference.md
-│   └── troubleshooting.md
-│
-├── prompts/
-│   ├── draft-prompt.md
-│   ├── review-prompt.md
-│   └── terminology-check.md
-│
-├── workflows/
-│   ├── information-architecture.md
-│   ├── ai-workflow\.md
-│   └── documentation-lifecycle.md
-│
-├── diagrams/
-│   └── docs-lifecycle.mmd
-│
-└── .github/
-└── workflows/
-└── docs-validation.yml
+│<br />├── README.md<br />│<br />├── docs/<br />│   ├── introduction.md<br />│   ├── quick-start.md<br />│   ├── authentication.md<br />│   ├── api-reference.md<br />│   <br />│<br />├── prompts/<br />│   ├── draft-prompt.md<br />│   ├── review-prompt.md<br />│   └── terminology-check.md<br />│<br />├── workflows/<br />│   ├── information-architecture.md<br />│   ├── ai-workflow\.md<br />│   └── documentation-lifecycle.md<br />│<br />├── diagrams/<br />│   └── docs-lifecycle.mmd<br />│<br />└── .github/<br />└── workflows/<br />└── docs-validation.yml
