@@ -1,7 +1,7 @@
 ---
 title: Smart Building Management API Documentation
 deprecated: false
-hidden: false
+hidden: true
 icon: fad fa-warehouse
 metadata:
   robots: index
