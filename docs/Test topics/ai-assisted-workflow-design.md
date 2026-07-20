@@ -5,79 +5,58 @@ hidden: false
 metadata:
   robots: index
 ---
-You will use this workflow to create, review, validate, and publish AI-assisted documentation while keeping humans responsible for technical accuracy and final approval.
+# <br />Overview
+
+The documentation workflow combines generative AI with Docs-as-Code approach to improve efficiency, maintainability, and consistency, ensuring that the published content remains the single source of truth.
 
 <Callout icon="📘" theme="info">
-  ### AI is a writing assistant, not a source of truth
+  ### _Note_
 
-  A designated reviewer must review and approve every AI-generated output before deployment.
+  _Please bear in mind that the AI is treated only as a writing assistant rather than a source of truth. Every AI-generated output is reviewed and approved by a designated human resource before deployment._
 </Callout>
 
-## Workflow
+## <br />Workflow overview
 
-Follow these stages for every documentation change:
+Engineering Change<br />│<br />▼<br />Product Requirements<br />│<br />▼<br />Draft Content Generation by AI<br />│<br />▼<br />Style & Terminology Review by AI<br />│<br />▼<br />Human Technical Review<br />│<br />▼<br />Documentation Validation <br />│<br />▼<br />Pull Request Approval<br />│<br />▼<br />Documentation Published
 
-1. **Engineering change** — Capture the change that affects the product or its integration.
-2. **Product requirements** — Gather the requirements and supporting technical context.
-3. **AI draft generation** — Generate a first documentation draft from the available source material.
-4. **AI style and terminology review** — Check the draft against the style guide and approved terminology.
-5. **Human technical review** — Verify that the content is technically accurate.
-6. **Documentation validation** — Check formatting, links, examples, and completeness.
-7. **Pull request approval** — Obtain approval for the documentation change.
-8. **Publication** — Publish the approved documentation as the single source of truth.
+***
 
-## Responsibilities
+# AI vs Human responsibilities
 
-<Columns layout="auto">
-  <Column>
+| Steps       | AI Responsibility                            | Human Responsibility      |
+| ----------- | -------------------------------------------- | ------------------------- |
+| Drafting    | Generate first draft from engineering notes  | Verify technical accuracy |
+| Editing     | Improve grammar and readability              | Approve wording           |
+| Consistency | Enforce terminology and style guide          | Approve exceptions        |
+| Review      | Identify missing sections                    | Confirm completeness      |
+| Quality     | Detect broken formatting and inconsistencies | Final approval            |
 
-### AI responsibilities
+***
 
-| Activity | Responsibility |
-| --- | --- |
-| Drafting | Generate a first draft from engineering notes. |
-| Editing | Improve grammar and readability. |
-| Consistency | Enforce approved terminology and style-guide rules. |
-| Review | Identify missing sections. |
-| Quality | Detect broken formatting and inconsistencies. |
+## Use cases
 
-  </Column>
-  <Column>
+<ToggleList>
+  <ToggleListItem title="1. Documentation draft generator">
 
-### Human responsibilities
+### Purpose
 
-| Activity | Responsibility |
-| --- | --- |
-| Drafting | Verify technical accuracy. |
-| Editing | Approve wording. |
-| Consistency | Approve exceptions to terminology and style guidance. |
-| Review | Confirm completeness. |
-| Quality | Provide final approval. |
+Generate a first draft from engineering notes.
 
-  </Column>
-</Columns>
-
-## AI agent use cases
-
-### 1. Documentation draft generator
-
-Generate a first documentation draft from the attached reference documentation.
-
-#### Inputs
+### Inputs
 
 - Product specification
 - Engineering notes
 - API specification (OpenAPI or Swagger)
 - Release notes
 
-#### Outputs
+### Outputs
 
 - Markdown documentation
 - Example requests
 - Example responses
-- Suggested headings and glossary terms
+- Suggested headings
 
-<Accordion title="Draft-generator prompt" icon="file-lines">
+### Prompt
 
 ```text
 You are a Senior Technical Writer.
@@ -95,11 +74,9 @@ Requirements:
 - If information is missing, write "Information Required" instead of guessing.
 ```
 
-</Accordion>
+### Human review
 
-#### Human review
-
-Confirm the following before approval:
+The reviewer confirms:
 
 - Endpoint names
 - Parameters
@@ -107,28 +84,29 @@ Confirm the following before approval:
 - Response examples
 - Product terminology
 
-#### Risks mitigated
+### Risks mitigated
 
 - Hallucinated endpoints
 - Fake request examples
 - Incorrect parameters
 - Missing prerequisites
 
-***
+  </ToggleListItem>
+  <ToggleListItem title="2. Style guide reviewer">
 
-### 2. Style guide reviewer
+### Purpose
 
-Review documentation against the stored company style guide V1.0 without changing its technical meaning.
+Ensure all documentation follows the team's writing standards.
 
-#### Inputs
+### Inputs
 
 - Markdown documentation
 
-#### Outputs
+### Outputs
 
 - Style corrections only
 
-<Accordion title="Style-reviewer prompt" icon="pen-to-square">
+### Prompt
 
 ```text
 Review this documentation against the style guide.
@@ -139,42 +117,40 @@ Check:
 - Active voice
 - Consistent headings
 - Consistent terminology
-- Concise paragraphs
+- Short paragraphs
 - Bullet list formatting
-- Procedures in numbered steps
 
 Do not change technical meaning.
 ```
 
-</Accordion>
-
-#### Human review
+### Human review
 
 The Technical Writer approves all suggested edits before merging.
 
-#### Risks mitigated
+### Risks mitigated
 
 - Inconsistent terminology
 - Poor readability
 - Formatting issues
 
-***
+  </ToggleListItem>
+  <ToggleListItem title="3. Terminology checker">
 
-### 3. Terminology checker
+### Purpose
 
-Identify inconsistent product terminology across the documentation repository.
+Ensure consistent product terminology across all documentation.
 
-#### Inputs
+### Inputs
 
 - Entire documentation repository
 
-#### Outputs
+### Outputs
 
-- A list of inconsistent terms
+- List of inconsistent terms
 
 For example, the checker can identify competing terms such as **Building**, **Facility**, and **Site**, then recommend one preferred term.
 
-<Accordion title="Terminology-checker prompt" icon="magnifying-glass">
+### Prompt
 
 ```text
 Scan every Markdown file.
@@ -188,44 +164,42 @@ List:
 Do not rewrite documentation.
 ```
 
-</Accordion>
-
-#### Human review
+### Human review
 
 The Product Manager confirms the official terminology before updates are applied.
 
-#### Risks mitigated
+### Risks mitigated
 
 - Conflicting terminology
 - Duplicate concepts
 - Customer confusion
 
-***
+  </ToggleListItem>
+  <ToggleListItem title="4. Documentation quality checker">
 
-### 4. Documentation quality checker
+### Purpose
 
-Validate the documentation repository before publication and return only the issues that require attention.
+Validate documentation before publication.
 
-#### Inputs
+### Inputs
 
 - Entire repository
 
-#### Outputs
+### Outputs
 
 - Quality report
 
-#### Validation checks
+### Validation checks
 
 - Broken links
-- Broken tables
 - Missing headings
 - Empty sections
-- Missing image captions
+- Placeholder text
 - Missing code blocks
 - Missing examples
 - Duplicate content
 
-<Accordion title="Quality-checker prompt" icon="list-check">
+### Prompt
 
 ```text
 Review the documentation repository.
@@ -235,23 +209,24 @@ Check for:
 - Broken links
 - Missing examples
 - Duplicate sections
-- Broken tables
-- Formatting issues
-- Markdown code errors
+- Placeholder text
+- Formatting problems
+- Markdown errors
 
 Do not rewrite content.
 ```
 
-</Accordion>
-
-#### Human review
+### Human review
 
 The Technical Writer resolves all reported issues before approving the pull request.
 
-#### Risks mitigated
+### Risks mitigated
 
 - Publishing incomplete documentation
 - Broken navigation
 - Missing content
+
+  </ToggleListItem>
+</ToggleList>
 
 <br />
