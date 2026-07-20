@@ -111,9 +111,9 @@ Run documentation validation in the CI/CD pipeline before merging.
 - Check terminology consistency.
 
 <Callout icon="fa-solid fa-circle-exclamation" theme="warning">
-  ###
+  ### _Important_
 
-  Do not merge the pull request until every automated check passes.
+  _Do not merge the pull request until every automated check passes._
 </Callout>
 
 ## 7. Review the pull request
