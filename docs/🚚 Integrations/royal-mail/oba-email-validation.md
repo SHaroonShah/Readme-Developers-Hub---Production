@@ -17,9 +17,11 @@ next:
 ---
 In order for our customers to use Intersoft's Royal Mail label service, each customer must have an account set up with the Royal Mail Group. For that, we need to request an approval from Royal Mail to set up your account with us. Once your Royal Mail Account is set up, you are then able to submit an integration request.
 
-> 📘 _Note_
->
-> _If you do not have a Royal Mail Account, please [contact](https://www.royalmail.com/discounts-payment/credit-account/online-business-account) Royal Mail._
+<Callout icon="📘" theme="info">
+  ### _Note_
+
+  _If you do not have a Royal Mail Account, please [contact](https://www.royalmail.com/discounts-payment/credit-account/online-business-account) Royal Mail._
+</Callout>
 
 Please provide the below information so that your account with us can be set up accordingly.
 
@@ -27,9 +29,11 @@ Please provide the below information so that your account with us can be set up 
 
 An active OBA account must be provided for Intersoft to set up your account.
 
-> 🚧 _Important_
->
-> _If you do not log in to your OBA account for over 90 days, Royal Mail will deactivate your OBA account._
+<Callout icon="🚧" theme="warn">
+  ### _Important_
+
+  _If you do not log in to your OBA account for over 90 days, Royal Mail will deactivate your OBA account._
+</Callout>
 
 ## How to set up Royal Mail OBA account
 
@@ -51,7 +55,7 @@ To check whether your OBA account is active, follow the steps below.
 
     On the login page, enter your **email address** and **password**, then select **Log in**.
 
-    <Image align="center" border={true} src="https://files.readme.io/ba7290711628e12af9e9a6131ca7fc9cbc8c63b417aff2dbd720fe1c6bce51b9-OBA_login_page.png" width="600px" alt="Logging into RM OBA" />
+    <Image align="center" border={true} src="https://files.readme.io/ba7290711628e12af9e9a6131ca7fc9cbc8c63b417aff2dbd720fe1c6bce51b9-OBA_login_page.png" width="600px" caption="Logging into RM OBA" />
 
     > 📘 *Note*
     >
@@ -67,7 +71,7 @@ To check whether your OBA account is active, follow the steps below.
 
     Once logged in, select **Access Online Business Account**.
 
-    <Image align="center" border={true} src="https://files.readme.io/463e646-image.png" alt="Accessing OBA" />
+    <Image align="center" border={true} src="https://files.readme.io/463e646-image.png" caption="Accessing OBA" />
 
     <br />
 
@@ -77,7 +81,7 @@ To check whether your OBA account is active, follow the steps below.
 
         After accessing your OBA account, you can view your billing and reports for tracked services.
 
-        <Image align="center" border={true} src="https://files.readme.io/8bf81a9-image.png" alt="Displaying OBA" />
+        <Image align="center" border={true} src="https://files.readme.io/8bf81a9-image.png" caption="Displaying OBA" />
       </Tab>
 
       <Tab title="❌ Account is not active">
@@ -90,3 +94,5 @@ To check whether your OBA account is active, follow the steps below.
     </Tabs>
   </ToggleListItem>
 </ToggleList>
+
+<br />
