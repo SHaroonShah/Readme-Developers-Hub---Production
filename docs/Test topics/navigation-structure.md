@@ -19,9 +19,9 @@ Home
 ```
 
 <Callout icon="🧭" theme="info">
-  ###
+  ### _Note_
 
-  This navigation mirrors the developer journey from onboarding to implementation and support.
+  _This navigation mirrors the developer journey from onboarding to implementation and support._
 </Callout>
 
 ## Documentation page types
