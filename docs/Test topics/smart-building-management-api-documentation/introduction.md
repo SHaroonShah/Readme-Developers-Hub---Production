@@ -12,81 +12,51 @@ metadata:
 ---
 # Introduction
 
-Use the Smart Building Management API to integrate building systems with your custom applications.
+## What is the Smart Building API?
 
-## What you can do
-
-The API follows REST principles and exchanges JSON over HTTPS. Use it to access operational data and control connected building systems.
-
-<Columns layout="auto">
-  <Column>
-
-### Monitor your building
+The Smart Building Management API enables developers to integrate building systems into custom applications.
+Using the API, you can:
 
 - Retrieve live sensor data
 - Monitor HVAC systems
-- Access occupancy information
-- Track energy consumption
-
-  </Column>
-  <Column>
-
-### Manage building systems
-
 - Control lighting
+- Access occupancy information
 - Manage alarms
+- Track energy consumption
+  The API follows REST principles and communicates using JSON over HTTPS.
 
-  </Column>
-</Columns>
+***
 
-<br />
+## Documentation Structure
 
-## Documentation structure
+<Cards>
+  <Card title="Quick Start" icon="rocket">
+    Get up and running quickly.
+  </Card>
+  <Card title="Authentication" icon="lock">
+    Secure API access.
+  </Card>
+  <Card title="API Reference" icon="book">
+    Review endpoint details.
+  </Card>
+</Cards>
 
-Use these sections as you build your integration:
+***
 
-- **Quick Start** — Get up and running quickly.
-- **Authentication** — Secure API access.
-- **API Reference** — Review endpoint details.
-
-## API conventions
-
-<Columns layout="auto">
-  <Column>
+## Conventions
 
 ### Base URL
 
 [https://api.smartbuilding.example.com/v1](https://api.smartbuilding.example.com/v1)
 
-  </Column>
-  <Column>
-
-### Response format
+### Response Format
 
 All responses are returned as JSON.
-
-  </Column>
-</Columns>
-
-<br />
-
-<Columns layout="auto">
-  <Column>
 
 ### Authentication
 
 Every request requires a Bearer token.
 
-  </Column>
-  <Column>
-
 ### Versioning
 
-This documentation covers API version 1.
-
-  </Column>
-</Columns>
-
-<Callout icon="circle-info" theme="info">
-  Include a Bearer token with every request to authenticate with the API.
-</Callout>
+This documentation covers API Version 1.
