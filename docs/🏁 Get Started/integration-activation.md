@@ -34,7 +34,7 @@ This section explains the components available on the **Integrations** page of t
 
   2. On the **Home** page that opens, in the left navigation panel, select **Integrations**.
 
-  <Image align="center" border={true} src="https://files.readme.io/9edbbe0f060a9821348b7a077aae6171ab9fde12fd7b6d2ffdbe5d215b463f3a-Sapient_home_page.png" alt="Accessing integrations" />
+  <Image align="center" border={true} src="https://files.readme.io/9edbbe0f060a9821348b7a077aae6171ab9fde12fd7b6d2ffdbe5d215b463f3a-Sapient_home_page.png" caption="Accessing integrations" />
 
   <br />
 
@@ -44,7 +44,7 @@ This section explains the components available on the **Integrations** page of t
 
   3. On the **Integrations** page that opens, next to each carrier, the following integration types are displayed with their corresponding icons and symbols. Please select the needed integrations as per your business requirements.
 
-  <Image align="center" border={true} src="https://files.readme.io/42044e1252f492b4bd51e1ed7d86a66048cc74d82bf26ee7fc53761e7780c2c1-Integrations_page.png" alt="Selecting integrations" />
+  <Image align="center" border={true} src="https://files.readme.io/42044e1252f492b4bd51e1ed7d86a66048cc74d82bf26ee7fc53761e7780c2c1-Integrations_page.png" caption="Selecting integrations" />
 </Accordion>
 
 <Accordion title="Integration types" icon="">
@@ -68,7 +68,7 @@ This section explains the components available on the **Integrations** page of t
 <Accordion title="Carrier-specific integrations">
   The carrier-specific integrations can be accessed by selecting the carrier on the Integrations page. The carrier-specific page provides you with the full range of additional features and services offered by that carrier.
 
-  <Image align="center" border={true} src="https://files.readme.io/9b0f989-image.png" alt="Viewing carrier-specific integrations" />
+  <Image align="center" border={true} src="https://files.readme.io/9b0f989-image.png" caption="Viewing carrier-specific integrations" />
 
   <br />
 
