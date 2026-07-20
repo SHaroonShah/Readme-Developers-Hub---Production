@@ -18,9 +18,11 @@ During the [FedEx shipping account creation process](https://docs.intersoftsapie
 
 To add letterhead image and signature to your ETDs in SAPIENT, perform the steps as explained in the following procedure.
 
-> 🚧 _Important_
->
-> _The **ELECTRONIC TRADE DOCUMENTS** block is only available if the **Shipping Location** field is set to **All** and ETD is enabled for your shipping account._
+<Callout icon="🚧" theme="warn">
+  ### _Important_
+
+  _The&#x20;_**_ELECTRONIC TRADE DOCUMENTS_**_&#x20;block is only available if the&#x20;_**_Shipping Location_**_&#x20;field is set to&#x20;_**_All_**_&#x20;and ETD is enabled for your shipping account._
+</Callout>
 
 <ToggleList>
   <ToggleListItem title="1. Select the Signatures and Logos page">
@@ -60,7 +62,7 @@ To add letterhead image and signature to your ETDs in SAPIENT, perform the steps
   <ToggleListItem title="4. Add electronic trade documents">
     In the **ELECTRONIC TRADE DOCUMENTS** block that opens, enter the necessary information as explained in the following table.
 
-    <Image align="center" border={true} src="https://files.readme.io/e91ef385e6f0f934f5eb9b32ca72cf0e6a1b9cc2a636daf98659d25f7b655c36-FedEx_Logo_screen.png" alt="Entering signature, logo and their details" />
+    <Image align="center" border={true} src="https://files.readme.io/e91ef385e6f0f934f5eb9b32ca72cf0e6a1b9cc2a636daf98659d25f7b655c36-FedEx_Logo_screen.png" alt="Entering signature, logo, and their details" />
 
     <br />
 
