@@ -101,7 +101,6 @@ In SAPIENT, you can create a DPD UK shipping account by selecting your desired <
               <td>
                 Enter the account number, which is the DPD UK client ID.
                 <br />
-                <br />
                 <em><code>Note</code>: If you already have an account with DPD UK that is actively being used, and if you wish to receive tracking via Intersoft, then you need to request a new account number in order to integrate with Intersoft. This request can be made to your DPD account manager.</em>
               </td>
             </tr>
