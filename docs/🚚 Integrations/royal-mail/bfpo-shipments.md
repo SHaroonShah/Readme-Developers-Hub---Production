@@ -18,7 +18,7 @@ next:
 ---
 Royal Mail works in collaboration with the Ministry of Defence to provide BFPO services, handling the logistics of BFPO mail delivery. As part of its broader mailing services network, it ensures that military personnel receive their correspondence and packages in a timely manner.
 
-In SAPIENT, you can use the **createShipment** request to facilitate the BFPO <Glossary>shipments</Glossary>.
+In SAPIENT, you can use the **Create Shipment** request to facilitate the BFPO <Glossary>shipments</Glossary>.
 
 <Callout icon="📘" theme="info">
   ### _Note_
