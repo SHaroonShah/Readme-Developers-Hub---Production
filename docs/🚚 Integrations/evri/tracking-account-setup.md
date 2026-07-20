@@ -43,7 +43,7 @@ To add a tracking account for EVRi in SAPIENT, perform the steps as explained in
   <ToggleListItem title="1. Navigate to the Tracking Accounts tab">
     In the left navigation panel, select **API** > **Webhooks**. On the page that opens, select the **Tracking Accounts** tab.
 
-    <Image align="center" border={true} src="https://files.readme.io/0b0bf418cd10c99ea179b79f676a9185f00ad99670333f70f1848e77f0ee2fef-Tracking_accounts_tab.png" alt="Accessing tracking accounts" />
+    <Image align="center" border={true} src="https://files.readme.io/0b0bf418cd10c99ea179b79f676a9185f00ad99670333f70f1848e77f0ee2fef-Tracking_accounts_tab.png" caption="Accessing tracking accounts" />
 
     ***
   </ToggleListItem>
@@ -53,7 +53,7 @@ To add a tracking account for EVRi in SAPIENT, perform the steps as explained in
   <ToggleListItem title="2. Select option to add tracking account">
     In the **Tracking Accounts** page that opens, select ![alt text](https://files.readme.io/1797ee1f92c9e2a16f6b55d7a84e3ef14111e4ef4a7b3e13ff1acb538c1447e8-Add_tracking_account_button.png).
 
-    <Image align="center" border={true} src="https://files.readme.io/faca47a22b3d4de7d74e54c6ea663a5156625b787a81a5c7568d2ef0688da840-Add_tracking_account_button_EVRi.png" alt="Accessing option to add tracking account" />
+    <Image align="center" border={true} src="https://files.readme.io/faca47a22b3d4de7d74e54c6ea663a5156625b787a81a5c7568d2ef0688da840-Add_tracking_account_button_EVRi.png" caption="Accessing option to add tracking account" />
 
     ***
   </ToggleListItem>
@@ -63,7 +63,7 @@ To add a tracking account for EVRi in SAPIENT, perform the steps as explained in
   <ToggleListItem title="3. Enter tracking account details">
     On the **Add Tracking account** page that appears, in the **DETAILS** block, enter the necessary information as explained in the following table.
 
-    <Image align="center" border={true} src="https://files.readme.io/7659a1bf5fc38bc305bdb0fcca75fc3dd4d965efb34cb7a038bbd1ca34235cde-Details_block_EVRi.png" width="500px" alt="Adding tracking account" />
+    <Image align="center" border={true} src="https://files.readme.io/7659a1bf5fc38bc305bdb0fcca75fc3dd4d965efb34cb7a038bbd1ca34235cde-Details_block_EVRi.png" width="500px" caption="Adding tracking account" />
 
     <br />
 
@@ -115,7 +115,7 @@ To add a tracking account for EVRi in SAPIENT, perform the steps as explained in
   <ToggleListItem title="4. Enter SFTP details">
     In the **SFTP DETAILS** block, enter the necessary information as explained in the following table:
 
-    <Image align="center" src="https://files.readme.io/b2437869c8baecd092365fb5631a2dc0e31e07454c824245442ab67bc10ec14c-SFTP_details_block_EVRi.png" width="500px" />
+    <Image align="center" src="https://files.readme.io/b2437869c8baecd092365fb5631a2dc0e31e07454c824245442ab67bc10ec14c-SFTP_details_block_EVRi.png" width="500px" caption="Entering SFTP details" />
 
     <br />
 
