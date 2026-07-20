@@ -22,18 +22,22 @@ The DX rate limit is set for all connections between Intersoft and the <Glossary
 
 This is the standard rate limit that DX has created, however based on your DX shipping profile the limit might be increased. If you have any questions regarding your DX rate limit, please reach out to your DX account manager.
 
-> 🚧 _Important_
->
-> _If the DX rate limit is reached you will get the**503 Service Unavailable** error as shown in the following figure_.
->
-> <Image align="center" alt="Displaying 503 error message" border={true} caption="Displaying 503 error message" src="https://files.readme.io/141c03f-image.png" />
+<Callout icon="🚧" theme="warn">
+  ### _Important_
+
+  _If the DX rate limit is reached you will get the_**_503 Service Unavailable_**_&#x20;error as shown in the following figure_.
+
+
+  <Image src="https://files.readme.io/141c03f-image.png" alt="Displaying 503 error message" align="center" caption="Displaying 503 error message" border={true} />
+
+</Callout>
 
 ***
 
 ### See also
 
 <Cards>
-  <Card title="INTERSOT AP Rate Limiting" href="https://docs.intersoftsapient.net/docs/api-rate-limiting" icon="fa-solid fa-gauge-max">
+  <Card title="INTERSOFT API Rate Limiting" href="https://docs.intersoftsapient.net/docs/api-rate-limiting" icon="fa-solid fa-gauge-max">
     Learn more on how INTERSOFT handles API rate limits.
   </Card>
 </Cards>
