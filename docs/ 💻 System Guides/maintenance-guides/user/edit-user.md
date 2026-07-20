@@ -51,7 +51,7 @@ In SAPIENT, you can edit the users to maintain accurate and up-to-date records o
 
     <br />
 
-    <Image align="center" border={true} src="https://files.readme.io/8b00fa4896a209d03b12b11b629b1008c180492d00769d0534c3b4f4e587206f-Editing_user.png" caption="Selecting option to edit user" />
+    <Image align="center" border={true} src="https://files.readme.io/8b00fa4896a209d03b12b11b629b1008c180492d00769d0534c3b4f4e587206f-Editing_user.png" caption="Updating user details" />
 
     ***
   </ToggleListItem>
