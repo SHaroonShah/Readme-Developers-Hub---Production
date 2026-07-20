@@ -42,7 +42,7 @@ In SAPIENT, you can delete a product to cleanup the database, preventing confusi
 
         On the **Products** page that appears, from the list, select the product that you want to delete.
 
-        <Image align="center" border={true} src="https://files.readme.io/a1a7bc27c6253ce0355cb87cc2f549c247ac33518acf56a929598df85fda5882-Selecting_products_to_edit.png" />
+        <Image align="center" border={true} src="https://files.readme.io/a1a7bc27c6253ce0355cb87cc2f549c247ac33518acf56a929598df85fda5882-Selecting_products_to_edit.png" caption="Selecting product to delete"/>
 
         ***
       </ToggleListItem>
@@ -99,3 +99,5 @@ In SAPIENT, you can delete a product to cleanup the database, preventing confusi
     Create new product entries in your system with all necessary details and shipping requirements.
   </Card>
 </Cards>
+
+<br />
