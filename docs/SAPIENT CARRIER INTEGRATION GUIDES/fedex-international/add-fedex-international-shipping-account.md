@@ -11,9 +11,11 @@ metadata:
 ---
 In SAPIENT, with the **Add Shipping Account** functionality, you can select the desired shipping location and then add a FedEx International Connect shipping account to it
 
-> 🚧 _Important_
->
-> _Before you can set up a shipping account, make sure you have enabled the [label integration](https://docs.intersoftsapient.net/docs/integration-activation) for FedEx International Connect._
+<Callout icon="🚧" theme="warn">
+  ### _Important_
+
+  _Before you can set up a shipping account, make sure you have enabled the [label integration](https://docs.intersoftsapient.net/docs/integration-activation) for FedEx International Connect._
+</Callout>
 
 ## How to add FedEx International Connect shipping account in SAPIENT
 
@@ -53,7 +55,7 @@ In SAPIENT, with the **Add Shipping Account** functionality, you can select the 
         On the **Add Shipping Account** form that appears, in the **ACCOUNT DETAILS** block, fill in the necessary information as described in the following table.
 
         <Image align="center" src="https://files.readme.io/3d3f7869f2f26dca95da3be1dd3c6e2afe477883bca5c5c461d89250ad7073a3-image.png" width="500px" />
-
+        <br />
         <AsteridkForMandatoryElements />
 
         |         Element         | Description                                                                                                   |
@@ -72,7 +74,7 @@ In SAPIENT, with the **Add Shipping Account** functionality, you can select the 
         In the **SHIPPING ACCOUNT** block, enter the necessary information as explained in the following table.
 
         <Image align="center" border={true} src="https://files.readme.io/53a765a066729b4aa4b2d740073f4681bc75f021b3c396fd317e9ba810a2247b-Shipping_account_block_Amazon.png" width="600px" alt="Specifying shipping account details" />
-
+        <br />
         <Callout icon="💡" theme="default">
           ### *Tip*
 
@@ -127,7 +129,7 @@ In SAPIENT, with the **Add Shipping Account** functionality, you can select the 
         In the **CARRIER DETAILS** block, enter the necessary information as explained in the following table.
 
         <Image align="center" border={true} src="https://files.readme.io/a1f229d57e6bb784d4c1ed4b8d9353ea49753a79cdc843c0a8e4c885df8cc9f4-image.png" width="500px" />
-
+        < br />
         <AsteridkForMandatoryElements />
 
         <table>
@@ -186,4 +188,6 @@ In SAPIENT, with the **Add Shipping Account** functionality, you can select the 
 
 ### See also
 
-* [Edit shipping account](https://docs.intersoftsapient.net/docs/edit-shipping-account)
+- [Edit shipping account](https://docs.intersoftsapient.net/docs/edit-shipping-account)
+
+<br />
