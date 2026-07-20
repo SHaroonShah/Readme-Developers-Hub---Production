@@ -30,7 +30,7 @@ The process of adding a <Glossary>shipping location</Glossary> helps in streamli
 
         From the SAPIENT **Home** page, in the left navigation panel, select **Shipping Locations**.
 
-        <Image align="center" border={true} src="https://files.readme.io/a84f50bafad4110e2244fa56d73b34787cf197d6a4e3de326ad287880d85e835-Shipping_locations_option.png" alt="Accessing shipping locations" />
+        <Image align="center" border={true} src="https://files.readme.io/a84f50bafad4110e2244fa56d73b34787cf197d6a4e3de326ad287880d85e835-Shipping_locations_option.png" caption="Accessing shipping locations" />
 
         ***
       </ToggleListItem>
@@ -42,7 +42,7 @@ The process of adding a <Glossary>shipping location</Glossary> helps in streamli
 
         On the **Shipping Locations** page that appears, select ![alt text](https://files.readme.io/e50833cb14406497b4c50b5eb8c6997612af96e420fd9930bc45c1c883dd09a0-Add_shipping_location_button.png).
 
-        <Image align="center" border={true} src="https://files.readme.io/6e836d0e0573bdc15c4d746439001e41ccf2631c0e7bb1bc2f38149dee53e9e3-Selecting_add_shipping_location_button.png" alt="Selecting option to add shipping location" />
+        <Image align="center" border={true} src="https://files.readme.io/6e836d0e0573bdc15c4d746439001e41ccf2631c0e7bb1bc2f38149dee53e9e3-Selecting_add_shipping_location_button.png" caption="Selecting option to add shipping location" />
 
         ***
       </ToggleListItem>
@@ -54,7 +54,7 @@ The process of adding a <Glossary>shipping location</Glossary> helps in streamli
 
         On the **Add Shipping Location** form that opens, in the **LOCATION DETAILS** block, enter the necessary information.
 
-        <Image align="center" border={true} src="https://files.readme.io/5e6bebc209c1497103efb0288fd1a0d15ddc0bbb04d07e5d7bc4490f825c649b-Location_details_block.png" alt="Entering location details" />
+        <Image align="center" border={true} src="https://files.readme.io/5e6bebc209c1497103efb0288fd1a0d15ddc0bbb04d07e5d7bc4490f825c649b-Location_details_block.png" caption="Entering location details" />
 
         <br />
 
@@ -76,7 +76,7 @@ The process of adding a <Glossary>shipping location</Glossary> helps in streamli
 
         In the **ADDRESS DETAILS** block, enter the necessary information as shown below.
 
-        <Image align="center" border={true} src="https://files.readme.io/3e977f9b76554494861e9900b8b9a42a8853cb4d2d4aa45c1042487dfbfd2380-Address_details_block.png" alt="Entering address details" />
+        <Image align="center" border={true} src="https://files.readme.io/3e977f9b76554494861e9900b8b9a42a8853cb4d2d4aa45c1042487dfbfd2380-Address_details_block.png" caption="Entering address details" />
 
         <br />
 
