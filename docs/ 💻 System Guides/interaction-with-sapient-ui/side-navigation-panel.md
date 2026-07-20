@@ -17,7 +17,7 @@ next:
 The side navigation panel is located on the extreme left of the SAPIENT application. It incorporates the set of core features that you can use to quickly navigate to specific pages in the application, view the contents, set your preferences, perform your desired actions, and so on.
 
 
-<Image src="https://files.readme.io/de9ef03273783acf900834b8213af47f89e3066e701e4246458bdc10c854a490-Side_navigation_panel.png" alt="Side navigation panel" align="center" caption="Side navigation panel" border={true} />
+<Image src="https://files.readme.io/de9ef03273783acf900834b8213af47f89e3066e701e4246458bdc10c854a490-Side_navigation_panel.png" alt="Side navigation panel" align="center" caption="Side navigation panel" />
 
 
 The side navigation panel is comprised of the following blocks:
