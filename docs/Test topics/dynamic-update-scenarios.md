@@ -5,213 +5,195 @@ hidden: true
 metadata:
   robots: index
 ---
-# <br />Overview
+You will use these scenarios to update documentation accurately when product terminology, features, or technical behavior changes.
 
-Documentation must evolve alongside the product, not at the end of the development process so that it is not outdated or inconsistent.&#x20;
+## Overview
 
-This section demonstrates how the documentation system responds to different types of product changes during the SDLC while maintaining accuracy, consistency across the documentation.
+Documentation must evolve with the product so it does not become outdated or inconsistent. These scenarios show how the documentation process responds to common Software Development Lifecycle (SDLC) changes while maintaining accuracy and consistency.
 
-# Scenario 1 – Minor UI Terminology Change
+<Callout icon="fa-solid fa-user-check" theme="info">
+AI can identify inconsistencies, generate drafts, and validate formatting. Human reviewers remain responsible for approving product terminology and technical accuracy.
+</Callout>
 
-## Product Change
+## Scenario overview
 
-The user interface renames _Building Groups_ to _Spaces_.
-No backend functionality changes.
----------------------------------
+<Cards columns={3}>
+  <Card title="Terminology change" href="#scenario-1--minor-ui-terminology-change" icon="fa-solid fa-tags">
+    Update approved product language across affected documentation without changing backend behavior.
+  </Card>
+  <Card title="Feature launch" href="#scenario-2--major-feature-launch" icon="fa-solid fa-rocket">
+    Create and validate new documentation for a product capability and its APIs.
+  </Card>
+  <Card title="Outdated information" href="#scenario-3--conflicting-or-outdated-information" icon="fa-solid fa-triangle-exclamation">
+    Resolve conflicting technical values and restore a single source of truth.
+  </Card>
+</Cards>
 
-## Documentation Impact
+## Scenario 1 – Minor UI terminology change
 
-Affected pages:
+<Columns layout="auto">
+  <Column>
+
+### Product change
+
+The user interface renames *Building Groups* to *Spaces*. No backend functionality changes.
+
+  </Column>
+  <Column>
+
+### Documentation impact
+
+Update the following pages:
 
 - Introduction
 - Quick Start
 - API Reference
 - Troubleshooting
 
-***
+  </Column>
+</Columns>
 
-## AI Workflow
+### AI workflow
 
-### AI Agent
+**AI agent:** Terminology Checker
 
-Terminology Checker
+1. Scan every Markdown file for occurrences of the previous terminology.
+2. Recommend replacements using the approved term, *Spaces*.
+3. Generate a change report for review.
 
-### Tasks
+### Human review
 
-- Scan every Markdown file
-- Find occurrences of "Buildings"
-- Recommend replacing with "Commercial Sites"
-- Generate a change report
+The Product Manager confirms that *Spaces* is the approved product term. The Technical Writer reviews each suggested replacement to ensure it fits naturally in context.
 
-***
+### Quality checks
 
-## Human Review
+- Verify terminology consistency.
+- Test internal links.
+- Review navigation labels.
+- Check screenshot references.
 
-Product Manager verifies that "Spaces" is the approved product term.
-Technical Writer reviews each change to ensure the new term fits naturally within the content.
-----------------------------------------------------------------------------------------------
+### Approval
 
-## Quality Checks
+The Technical Writer approves the pull request, and the Documentation Owner merges the changes.
 
-- Terminology consistency
-- Broken internal links
-- Navigation labels
-- Screenshot references
+## Scenario 2 – Major feature launch
 
-***
+<Columns layout="auto">
+  <Column>
 
-## Approval
+### Product change
 
-Technical Writer approves the Pull Request.
-Documentation Owner merges changes.
------------------------------------
-
-# Scenario 2 – Major Feature Launch
-
-## Product Change
-
-A new _Energy Analytics Dashboard API_ is introduced.
-New endpoints include:
+A new *Energy Analytics Dashboard API* is introduced with endpoints for:
 
 - Energy consumption
 - Carbon emissions
 - Historical trends
 - Forecast data
 
-***
+  </Column>
+  <Column>
 
-## Documentation Impact
+### Documentation impact
 
-New documentation required:
+Create or update:
 
-- New API Reference pages
-- New Quick Start tutorial
-- Authentication updates
-- New troubleshooting section
-  Navigation must also be updated.
+- API Reference pages
+- A Quick Start tutorial
+- Authentication guidance
+- A troubleshooting section
+- Navigation for the new content
 
-***
+  </Column>
+</Columns>
 
-## AI Workflow
+### AI workflow
 
-### AI Draft Generator
+**AI Draft Generator** creates initial Markdown pages from:
 
-Creates initial Markdown pages using:
-
-- OpenAPI specification
+- The OpenAPI specification
 - Product requirements
 - Engineering design notes
 
-***
+**Style Guide Reviewer** checks that new pages follow documentation standards.
 
-### Style Guide Reviewer
-
-## Ensures all new pages follow the documentation standards.
-
-### Quality Checker
-
-Confirms:
+**Quality Checker** verifies:
 
 - Request examples
 - Response examples
 - Code formatting
 - Internal links
 
-***
+### Human review
 
-## Human Review
+The Software Engineer validates endpoints, parameters, payloads, and response examples. The Product Manager confirms feature descriptions, and the Technical Writer edits for clarity and usability.
 
-Software Engineer validates:
+### Approval
 
-- Endpoints
-- Parameters
-- Payloads
-- Response examples
-  Product Manager confirms feature descriptions.
-  Technical Writer edits for clarity and usability.
+All reviewers approve the pull request before publication.
 
-***
+## Scenario 3 – Conflicting or outdated information
 
-## Approval
+<Columns layout="auto">
+  <Column>
 
-## All reviewers approve the Pull Request before publication.
+### Product change
 
-# Scenario 3 – Conflicting or Outdated Information
+A support engineer reports that authentication tokens now expire after *30 minutes*, while the documentation still states *60 minutes*.
 
-## Product Change
+  </Column>
+  <Column>
 
-## A support engineer reports that authentication tokens now expire after _30 minutes, but the documentation still states60 minutes_.
+### Documentation impact
 
-## Documentation Impact
-
-Affected pages:
+Update the following pages:
 
 - Authentication
 - Quick Start
 - API Reference
 
-***
+  </Column>
+</Columns>
 
-## AI Workflow
+### AI workflow
 
-### AI Quality Checker
+**AI Quality Checker** identifies conflicting values across the documentation and produces a report for the affected pages:
 
-Flags conflicting values across documentation.
-Produces a report showing:
-Authentication.md
-Quick-Start.md
-API Reference.md
-----------------
+- `Authentication.md`
+- `Quick-Start.md`
+- `API Reference.md`
 
-### AI Terminology Checker
+**AI Terminology Checker** verifies that one approved value remains after the update.
 
-## Ensures only one approved value remains after updates.
+### Human review
 
-## Human Review
+The Backend Engineer confirms the correct token expiration. The Technical Writer updates every affected page.
 
-Backend Engineer confirms the correct token expiration.
-Technical Writer updates every affected page.
----------------------------------------------
+### Validation
 
-## Validation
-
-Automated checks confirm:
+Automated checks confirm that:
 
 - No conflicting values remain.
 - No duplicated guidance exists.
 - Internal links still work.
 
-***
+### Approval
 
-## Approval
+The Software Engineer and Technical Writer approve the pull request. Documentation is published with the next release.
 
-Pull Request approved by:
+## Summary
 
-- Software Engineer
-- Technical Writer
-  Documentation is published with the next release.
+| Scenario | AI role | Human review | Outcome |
+| --- | --- | --- | --- |
+| UI terminology change | Terminology detection and update suggestions | Product Manager and Technical Writer | Consistent terminology across documentation |
+| Major feature launch | Draft generation, style checks, and quality validation | Software Engineer, Product Manager, and Technical Writer | New documentation published with the product release |
+| Outdated or conflicting information | Conflict detection and repository-wide validation | Backend Engineer and Technical Writer | A single source of truth is restored |
 
-***
+## Key principles
 
-# Summary
+- Version-control documentation changes through Git.
+- Use AI to accelerate repetitive work, not to replace human validation.
+- Trigger documentation updates when product changes occur.
+- Treat documentation as part of the software development lifecycle.
+- Hold human reviewers accountable for technical accuracy and final approval.
 
-| Scenario                            | AI Role                                            | Human Review                                         | Outcome                                          |
-| ----------------------------------- | -------------------------------------------------- | ---------------------------------------------------- | ------------------------------------------------ |
-| UI terminology change               | Terminology detection and update suggestions       | Product Manager and Technical Writer                 | Consistent terminology across all documentation  |
-| Major feature launch                | Draft generation, style checks, quality validation | Software Engineer, Product Manager, Technical Writer | New documentation published with product release |
-| Outdated or conflicting information | Conflict detection and repository-wide validation  | Backend Engineer and Technical Writer                | Single source of truth restored                  |
-
-***
-
-# Key Principles
-
-These scenarios demonstrate several important documentation practices:
-
-- Documentation changes are version-controlled through Git.
-- AI accelerates repetitive tasks but never replaces human validation.
-- Product changes automatically trigger documentation updates.
-- Documentation is treated as part of the software development lifecycle.
-- Human reviewers remain responsible for technical accuracy and final approval.
-  By combining Docs-as-Code practices with AI-assisted workflows and structured review gates, the documentation remains accurate, scalable, and aligned with the evolving product.
-
-<br />
+Together, Docs-as-Code practices, AI-assisted workflows, and structured review gates keep documentation accurate, scalable, and aligned with the evolving product.
