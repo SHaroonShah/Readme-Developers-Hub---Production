@@ -55,7 +55,7 @@ To check whether your OBA account is active, follow the steps below.
 
     On the login page, enter your **email address** and **password**, then select **Log in**.
 
-    <Image align="center" border={true} src="https://files.readme.io/ba7290711628e12af9e9a6131ca7fc9cbc8c63b417aff2dbd720fe1c6bce51b9-OBA_login_page.png" width="600px" caption="Logging into RM OBA" />
+    <Image align="center" border={true} src="https://files.readme.io/ba7290711628e12af9e9a6131ca7fc9cbc8c63b417aff2dbd720fe1c6bce51b9-OBA_login_page.png" width="600px" caption="Logging into Royal Mail OBA" />
 
     > 📘 *Note*
     >
@@ -89,7 +89,7 @@ To check whether your OBA account is active, follow the steps below.
 
         > 🚧 *Important*
         >
-        > *If your OBA account is not active, contact Royal Mail to reactivate it via the following link:[https://business.help.royalmail.com/app/contact](https://business.help.royalmail.com/app/contact).*
+        > *If your OBA account is not active, contact Royal Mail to reactivate it via the following link: [https://business.help.royalmail.com/app/contact](https://business.help.royalmail.com/app/contact).*
       </Tab>
     </Tabs>
   </ToggleListItem>
