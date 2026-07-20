@@ -59,25 +59,28 @@ Follow these stages for every documentation change:
 
 ## AI agent use cases
 
-### 1. Documentation draft generator
+<ToggleList>
+  <ToggleListItem title="1. Documentation draft generator">
 
-Generate a first documentation draft from the attached reference documentation.
+### Purpose
 
-#### Inputs
+Generate a first draft from engineering notes.
+
+### Inputs
 
 - Product specification
 - Engineering notes
 - API specification (OpenAPI or Swagger)
 - Release notes
 
-#### Outputs
+### Outputs
 
 - Markdown documentation
 - Example requests
 - Example responses
-- Suggested headings and glossary terms
+- Suggested headings
 
-<Accordion title="Draft-generator prompt" icon="file-lines">
+### Prompt
 
 ```text
 You are a Senior Technical Writer.
@@ -95,11 +98,9 @@ Requirements:
 - If information is missing, write "Information Required" instead of guessing.
 ```
 
-</Accordion>
+### Human review
 
-#### Human review
-
-Confirm the following before approval:
+The reviewer confirms:
 
 - Endpoint names
 - Parameters
@@ -107,28 +108,29 @@ Confirm the following before approval:
 - Response examples
 - Product terminology
 
-#### Risks mitigated
+### Risks mitigated
 
 - Hallucinated endpoints
 - Fake request examples
 - Incorrect parameters
 - Missing prerequisites
 
-***
+  </ToggleListItem>
+  <ToggleListItem title="2. Style guide reviewer">
 
-### 2. Style guide reviewer
+### Purpose
 
-Review documentation against the stored company style guide V1.0 without changing its technical meaning.
+Ensure all documentation follows the team's writing standards.
 
-#### Inputs
+### Inputs
 
 - Markdown documentation
 
-#### Outputs
+### Outputs
 
 - Style corrections only
 
-<Accordion title="Style-reviewer prompt" icon="pen-to-square">
+### Prompt
 
 ```text
 Review this documentation against the style guide.
@@ -139,42 +141,40 @@ Check:
 - Active voice
 - Consistent headings
 - Consistent terminology
-- Concise paragraphs
+- Short paragraphs
 - Bullet list formatting
-- Procedures in numbered steps
 
 Do not change technical meaning.
 ```
 
-</Accordion>
-
-#### Human review
+### Human review
 
 The Technical Writer approves all suggested edits before merging.
 
-#### Risks mitigated
+### Risks mitigated
 
 - Inconsistent terminology
 - Poor readability
 - Formatting issues
 
-***
+  </ToggleListItem>
+  <ToggleListItem title="3. Terminology checker">
 
-### 3. Terminology checker
+### Purpose
 
-Identify inconsistent product terminology across the documentation repository.
+Ensure consistent product terminology across all documentation.
 
-#### Inputs
+### Inputs
 
 - Entire documentation repository
 
-#### Outputs
+### Outputs
 
-- A list of inconsistent terms
+- List of inconsistent terms
 
 For example, the checker can identify competing terms such as **Building**, **Facility**, and **Site**, then recommend one preferred term.
 
-<Accordion title="Terminology-checker prompt" icon="magnifying-glass">
+### Prompt
 
 ```text
 Scan every Markdown file.
@@ -188,44 +188,42 @@ List:
 Do not rewrite documentation.
 ```
 
-</Accordion>
-
-#### Human review
+### Human review
 
 The Product Manager confirms the official terminology before updates are applied.
 
-#### Risks mitigated
+### Risks mitigated
 
 - Conflicting terminology
 - Duplicate concepts
 - Customer confusion
 
-***
+  </ToggleListItem>
+  <ToggleListItem title="4. Documentation quality checker">
 
-### 4. Documentation quality checker
+### Purpose
 
-Validate the documentation repository before publication and return only the issues that require attention.
+Validate documentation before publication.
 
-#### Inputs
+### Inputs
 
 - Entire repository
 
-#### Outputs
+### Outputs
 
 - Quality report
 
-#### Validation checks
+### Validation checks
 
 - Broken links
-- Broken tables
 - Missing headings
 - Empty sections
-- Missing image captions
+- Placeholder text
 - Missing code blocks
 - Missing examples
 - Duplicate content
 
-<Accordion title="Quality-checker prompt" icon="list-check">
+### Prompt
 
 ```text
 Review the documentation repository.
@@ -235,23 +233,24 @@ Check for:
 - Broken links
 - Missing examples
 - Duplicate sections
-- Broken tables
-- Formatting issues
-- Markdown code errors
+- Placeholder text
+- Formatting problems
+- Markdown errors
 
 Do not rewrite content.
 ```
 
-</Accordion>
-
-#### Human review
+### Human review
 
 The Technical Writer resolves all reported issues before approving the pull request.
 
-#### Risks mitigated
+### Risks mitigated
 
 - Publishing incomplete documentation
 - Broken navigation
 - Missing content
+
+  </ToggleListItem>
+</ToggleList>
 
 <br />
