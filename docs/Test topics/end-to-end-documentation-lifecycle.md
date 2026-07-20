@@ -51,6 +51,23 @@ The Document Development Lifecycle (DDLC) integrates documentation work into the
   </Column>
 </Columns>
 
+## Flow chart
+
+```mermaid
+flowchart TD
+A[Product Change] --> B[Documentation Task Created]
+B --> C[Information Gathering]
+C --> D[AI Draft Generation]
+D --> E[Technical Writer Review]
+E --> F[Engineering Validation]
+F --> G[Automated Documentation Checks]
+G --> H{Checks Passed?}
+H -->|No| E
+H -->|Yes| I[Pull Request Approval]
+I --> J[Documentation Published]
+J --> K[Continuous Maintenance]
+```
+
 ## 1. Start from a product change
 
 Create documentation work whenever a product change affects what users need to know or do.
