@@ -28,7 +28,7 @@ To create new API credentials, follow the instructions as explained in the follo
 
     On the **Home** page, in the left navigation panel, select **API** > **Credentials**.
 
-    <Image align="center" border={true} src="https://files.readme.io/d293d6725e51d7d9aefd357ce17c120786c04f72132f6751c0051aa2fcacdd76-Credentials_option.png" alt="Accessing API credentials" />
+    <Image align="center" border={true} src="https://files.readme.io/d293d6725e51d7d9aefd357ce17c120786c04f72132f6751c0051aa2fcacdd76-Credentials_option.png" caption="Accessing API credentials" />
 
     ***
   </ToggleListItem>
@@ -40,7 +40,7 @@ To create new API credentials, follow the instructions as explained in the follo
 
     On the **API Credentials** page, select the **Create API Credentials** button.
 
-    <Image align="center" src="https://files.readme.io/94c18d9f5d3e5c663beae626b71b6bd8bd0d72614e7d70cb57905b252570c20e-Create_API_Credentials_button.png" alt="Selecting option to create API credentials" />
+    <Image align="center" src="https://files.readme.io/94c18d9f5d3e5c663beae626b71b6bd8bd0d72614e7d70cb57905b252570c20e-Create_API_Credentials_button.png" caption="Selecting option to create API credentials" />
 
     <br />
 
@@ -58,7 +58,7 @@ To create new API credentials, follow the instructions as explained in the follo
 
     On the **Add User** form that opens, in the **USER TYPE** block, from the **Type of User** dropdown, select the user type from the list of available ones.
 
-    <Image align="center" border={true} src="https://files.readme.io/bb66dcbf937dc36953a8242a21580c7d67c3e4d804f438040b8aecdebe3defe5-User_type_block.png" width="400px" alt="Specifying user type" />
+    <Image align="center" border={true} src="https://files.readme.io/bb66dcbf937dc36953a8242a21580c7d67c3e4d804f438040b8aecdebe3defe5-User_type_block.png" width="400px" caption="Specifying user type" />
 
     ***
   </ToggleListItem>
@@ -70,7 +70,7 @@ To create new API credentials, follow the instructions as explained in the follo
 
     In the **Create API Credentials** dialog, enter a brief memorable name for your API credential and select **Create**.
 
-    <Image align="center" border={true} src="https://files.readme.io/b15de257efd0a5495ae25acad8252acf0173f3a48bce625c4e5e4a9c461a7811-Create_API_Credentials_dialog.png" width="400px" alt="Creating API credentials" />
+    <Image align="center" border={true} src="https://files.readme.io/b15de257efd0a5495ae25acad8252acf0173f3a48bce625c4e5e4a9c461a7811-Create_API_Credentials_dialog.png" width="400px" caption="Creating API credentials" />
 
     ***
   </ToggleListItem>
@@ -82,7 +82,7 @@ To create new API credentials, follow the instructions as explained in the follo
 
     In the **API Credentials** dialog, copy the generated **Client ID** and **Secret**.
 
-    <Image align="center" border={true} src="https://files.readme.io/2792065801168e1bbda76a6bdae6035bf62a1d53d16fd27b2e49b72b2d199746-API_Credentials_dialog.png" width="400px" alt="Saving client ID and secret" />
+    <Image align="center" border={true} src="https://files.readme.io/2792065801168e1bbda76a6bdae6035bf62a1d53d16fd27b2e49b72b2d199746-API_Credentials_dialog.png" width="400px" caption="Saving client ID and secret" />
 
     <br />
 
