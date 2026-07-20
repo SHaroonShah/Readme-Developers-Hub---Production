@@ -34,7 +34,7 @@ You can retrieve live building data, manage equipment, automate workflows, and c
 
 ### Start with this knowledge
 
-- Work with REST APIs.
+- Work with <Glossary>REST APIs</Glossary>.
 - Use HTTP methods: `GET`, `POST`, `PUT`, and `DELETE`.
 - Read and write JSON.
 - Access your API credentials.
