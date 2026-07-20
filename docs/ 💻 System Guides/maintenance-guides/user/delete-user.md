@@ -40,7 +40,7 @@ Additionally, this process helps streamline user management by removing inactive
 
     On the **Users** page that appears, from the list select the user that you want to delete, and then in the **Edit User\[user name]** form that opens, select ![](https://files.readme.io/ba995922a9d4d840facdf2ad9a4ffdef969eb24477c4b85ba42682221649265f-Delete_user_button.png).
 
-    <Image align="center" border={true} src="https://files.readme.io/d648002a464a94ba8d34ec471c3b706d61d33ad19f466980e47014be2bd05d4d-Deleting_user.png" alt="Selecting option to add user" />
+    <Image align="center" border={true} src="https://files.readme.io/d648002a464a94ba8d34ec471c3b706d61d33ad19f466980e47014be2bd05d4d-Deleting_user.png" alt="Selecting option to delete user" />
 
     ***
   </ToggleListItem>
@@ -71,3 +71,5 @@ Additionally, this process helps streamline user management by removing inactive
     Learn how to add new users to your organisation and set up team collaboration.
   </Card>
 </Cards>
+
+<br />
