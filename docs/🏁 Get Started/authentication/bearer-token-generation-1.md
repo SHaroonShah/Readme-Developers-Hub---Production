@@ -55,7 +55,7 @@ To generate the bearer token, perform the steps as explained in the following pr
     <Callout icon="💡" theme="default">
       ### *Tip*
 
-      *If you do not have the Postman application, you can download it[here](https://www.postman.com/downloads/) or register for an online Postman account, respectively.*
+      *If you do not have the Postman application, you can download it [here](https://www.postman.com/downloads/) or register for an online Postman account, respectively.*
     </Callout>
 
     ***
