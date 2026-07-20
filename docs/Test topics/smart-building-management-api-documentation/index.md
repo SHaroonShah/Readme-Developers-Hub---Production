@@ -6,6 +6,8 @@ icon: fad fa-warehouse
 metadata:
   robots: index
 ---
+# Smart Building Management API Documentation Hub
+
 Use this overview to understand how to integrate with the fictional Smart Building Management REST API to monitor building data, control devices, and automate workflows.
 
 Smart building platforms can expose hundreds of endpoints. This documentation helps you authenticate successfully, find available endpoints, interpret API responses, troubleshoot integrations, and keep implementation guidance aligned with product updates.
