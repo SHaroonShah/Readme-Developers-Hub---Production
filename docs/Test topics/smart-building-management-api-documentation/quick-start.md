@@ -8,84 +8,80 @@ hidden: true
 metadata:
   robots: index
 ---
-## Overview
-
-This guide helps you make your first successful request to the Smart Building Management API.
-You'll learn how to:
-
-- Obtain API credentials
-- Authenticate
-- Send your first API request
-- Interpret the response
-
-***
+Make an authenticated request to retrieve information about a building.
 
 ## Prerequisites
 
-Before you begin, ensure you have:
+Complete these steps before you send a request:
 
-- An active Smart Building account
-- OAuth 2.0 client credentials
-- A REST client such as Postman or cURL
-- Access to your Building ID
+- Sign in to an active Smart Building account.
+- Get your OAuth 2.0 client credentials: a `client_id` and `client_secret`.
+- Install or open a REST client such as Postman, or use cURL.
+- Find the Building ID you want to retrieve.
 
-***
+## Make your first request
 
-## Step 1: Obtain an Access Token
+To make your first authentication request, perform the steps as explained in the following procedure.
 
-Send a POST request to the authentication endpoint.
-_Endpoint_
-POST /oauth/token
-_Request Body_
-json {
+<Accordion title="1. Obtain an access token">
+
+Send a `POST` request to `/oauth/token` with your OAuth 2.0 client credentials. The `client_credentials` grant exchanges your client credentials for a bearer token.
+
+```json Request body
+{
   "client_id": "your-client-id",
   "client_secret": "your-client-secret",
   "grant_type": "client_credentials"
 }
+```
 
-_Successful Response_
-json {
+A successful response includes the token to use in the next request and its lifetime in seconds.
+
+```json Successful response
+{
   "access_token": "eyJhbGciOi...",
   "expires_in": 3600,
   "token_type": "Bearer"
 }
+```
 
-***
+Copy the value of `access_token`.
 
-## Step 2: Call Your First Endpoint
+</Accordion>
 
-Retrieve information about a building.
-GET /api/v1/buildings/{buildingId}
-Example:
-http
+<Accordion title="2. Call the Buildings endpoint">
+
+Replace `1023` with your Building ID and `YOUR_ACCESS_TOKEN` with the access token from step 1.
+
+```http Request
 GET /api/v1/buildings/1023
 Authorization: Bearer YOUR_ACCESS_TOKEN
+```
 
-***
+A successful response returns the building details.
 
-## Example Response
-
-json {
+```json Successful response
+{
   "id": 1023,
   "name": "London Headquarters",
   "status": "Online",
   "floors": 12
 }
+```
+
+</Accordion>
+
 
 ***
 
-## See also
+### See also
 
-<Cards columns={3}>
-  <Card title="Authentication" href="/docs/authentication" icon="key">
-    Learn how to authenticate requests with OAuth 2.0.
-  </Card>
-  <Card title="API" href="/docs/api" icon="code">
-    Explore the available API resources and endpoints.
-  </Card>
-  <Card title="Troubleshooting" href="/docs/troubleshooting" icon="wrench">
-    Diagnose common integration issues.
-  </Card>
-</Cards>
+<Accordion title="What to read next" icon="arrow-right">
+
+- **Authentication Guide** for more detail about OAuth 2.0 authentication.
+- **API Reference** to explore available endpoints.
+- **Troubleshooting** if your request does not return the expected result.
+
+</Accordion>
 
 <br />
