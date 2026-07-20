@@ -29,7 +29,7 @@ In SAPIENT, you can delete the address to keep the address book clean and manage
 
         In the left navigation panel, select **Address Book**.
 
-        <Image align="center" border={true} src="https://files.readme.io/145195adcbdbf39b1faea51d1afa71dcc10a408409060a05d02bc12fb48a8630-Address_option.png" alt="Accessing address book" />
+        <Image align="center" border={true} src="https://files.readme.io/145195adcbdbf39b1faea51d1afa71dcc10a408409060a05d02bc12fb48a8630-Address_option.png" caption="Accessing address book" />
 
         ***
       </ToggleListItem>
@@ -41,7 +41,7 @@ In SAPIENT, you can delete the address to keep the address book clean and manage
 
         In the **Address Book** page that opens, from the list, select the address that you want delete.
 
-        <Image align="center" src="https://files.readme.io/ff8a355df4c747af6625d590d1ae4969c04ca1fc54583d44664f74dbaa97454d-Selecting_address_to_edit.png" />
+        <Image align="center" src="https://files.readme.io/ff8a355df4c747af6625d590d1ae4969c04ca1fc54583d44664f74dbaa97454d-Selecting_address_to_edit.png" caption="Selecting address to delete"/>
 
         ***
       </ToggleListItem>
@@ -53,7 +53,7 @@ In SAPIENT, you can delete the address to keep the address book clean and manage
 
         In the **Edit Address** form that opens, select ![](https://files.readme.io/e063903e72dbad4ea046d44cc7778b2228def2a4e7d8ff7ebde8655ca4c1db6f-Delete_address_button.png).
 
-        <Image align="center" border={true} src="https://files.readme.io/8ee8a38d915dabaa307e82477eb90a872a81ca5652829bfc0be6d1a7f7a999b6-Delete_address_option.png" alt="Deleting address" />
+        <Image align="center" border={true} src="https://files.readme.io/8ee8a38d915dabaa307e82477eb90a872a81ca5652829bfc0be6d1a7f7a999b6-Delete_address_option.png" caption="Deleting address" />
 
         ***
       </ToggleListItem>
@@ -65,7 +65,7 @@ In SAPIENT, you can delete the address to keep the address book clean and manage
 
         In the confirmation dialog that opens, select **Yes** to confirm your action.
 
-        <Image align="center" border={true} src="https://files.readme.io/4e31a217220e21a41f5bc9ba834c5b99372c54eeaccce8ca36a685f73f73fb68-Confirming_address_deletion.png" width="350px" alt="Confirming deletion" />
+        <Image align="center" border={true} src="https://files.readme.io/4e31a217220e21a41f5bc9ba834c5b99372c54eeaccce8ca36a685f73f73fb68-Confirming_address_deletion.png" width="350px" caption="Confirming address deletion" />
         <br />
 
         Once confirmed, the address is deleted from the system and no longer displayed in the **Address Book** list.
