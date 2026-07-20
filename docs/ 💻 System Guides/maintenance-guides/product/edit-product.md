@@ -42,7 +42,7 @@ In SAPIENT, you can edit the <Glossary>product</Glossary>, ensuring that any cha
 
         On the **Products** page that appears, from the list, select the product that you want to edit.
 
-        <Image align="center" border={true} src="https://files.readme.io/a1a7bc27c6253ce0355cb87cc2f549c247ac33518acf56a929598df85fda5882-Selecting_products_to_edit.png" captio="Selecting product to edit"/>
+        <Image align="center" border={true} src="https://files.readme.io/a1a7bc27c6253ce0355cb87cc2f549c247ac33518acf56a929598df85fda5882-Selecting_products_to_edit.png" caption="Selecting product to edit"/>
 
         ***
       </ToggleListItem>
