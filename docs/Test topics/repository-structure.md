@@ -1,7 +1,7 @@
 ---
 title: Repository Structure
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
