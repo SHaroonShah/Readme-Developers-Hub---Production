@@ -23,7 +23,7 @@ To reset your password in SAPIENT, follow the steps as explained in the followin
 
     In the Sign in form that opens, click the **Forgot Password?** link.
 
-    <Image align="center" border={true} src="https://files.readme.io/1fcc5c0d56c42a3f325897424b3ba0d66b1cb5249f16845a07aef94600a2abdf-Forgot_password_link.png" width="300px" caption="Resetting password" />
+    <Image align="center" border={true} src="https://files.readme.io/1fcc5c0d56c42a3f325897424b3ba0d66b1cb5249f16845a07aef94600a2abdf-Forgot_password_link.png" width="300px" caption="Initiating link for resetting password" />
 
     ***
   </ToggleListItem>
