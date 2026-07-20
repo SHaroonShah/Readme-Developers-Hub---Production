@@ -10,17 +10,18 @@ hidden: true
 metadata:
   robots: index
 ---
-## Overview
+Use OAuth 2.0 Client Credentials to obtain a Bearer token and authenticate each Smart Building API request.
 
-The Smart Building API uses OAuth 2.0 Client Credentials authentication.
-Every request must include a valid Bearer token.
-------------------------------------------------
-
-## Authentication Flow
+## Authentication flow
 
 <Accordion title="1. Request an access token" icon="key">
 
 Send your Client ID and Client Secret to the token endpoint.
+
+```http
+POST /oauth/token
+Content-Type: application/json
+```
 
 ```json Request body
 {
@@ -30,11 +31,7 @@ Send your Client ID and Client Secret to the token endpoint.
 }
 ```
 
-```http
-POST /oauth/token
-```
-
-The API returns an access token after it validates your credentials.
+The API validates your credentials and returns an access token.
 
 </Accordion>
 
@@ -48,29 +45,23 @@ Authorization: Bearer eyJhbGciOi...
 
 </Accordion>
 
-***
+## Token expiration
 
-## Token Expiration
+<Callout icon="clock" theme="info">
+Access tokens expire after 60 minutes. Generate a new token before the current token expires.
+</Callout>
 
-Access tokens expire after 60 minutes.
-Generate a new token before expiration.
----------------------------------------
+## Common authentication errors
 
-## Common Authentication Errors
+| Status | Meaning | What to do |
+| --- | --- | --- |
+| `401` | Unauthorized | Check your Client ID and Client Secret. |
+| `403` | Forbidden | Verify that your credentials have the required API permissions. |
+| `429` | Rate limited | Retry after the interval specified by the API. |
 
-| Status | Meaning      | Resolution                         |
-| ------ | ------------ | ---------------------------------- |
-| 401    | Unauthorized | Check Client ID or Secret          |
-| 403    | Forbidden    | Verify API permissions             |
-| 429    | Rate Limited | Retry after the specified interval |
+## Best practices
 
-***
-
-## Best Practices
-
-- Never expose Client Secrets.
+- Keep Client Secrets out of client-side code and source control.
 - Store credentials securely.
 - Rotate credentials regularly.
-- Use HTTPS for all requests.
-
-<br />
+- Send all API requests over HTTPS.
