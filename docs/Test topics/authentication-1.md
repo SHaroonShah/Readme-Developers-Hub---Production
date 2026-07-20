@@ -10,6 +10,8 @@ hidden: true
 metadata:
   robots: index
 ---
+_Authentication_ refers to the process of verifying the identity of a user or application that is trying to access an API. This is crucial for ensuring that only authorised users can interact with the API and access sensitive data or perform actions.
+
 Use OAuth 2.0 Client Credentials to obtain a Bearer token and authenticate each Smart Building API request.
 
 ## Authentication flow
