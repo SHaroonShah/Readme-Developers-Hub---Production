@@ -158,7 +158,7 @@ Based on your requirements, you can choose various approaches to use the PUDO lo
   >
   > * *[Enable PUDO integration](https://docs.intersoftsapient.net/v4.02_Archive/update/docs/integration-activation#/) via the Royal Mail Integration Activation screen.*
   >
-  >   <Image align="center" src="https://files.readme.io/735e213c58d29db4438e9cc89a873cba9c4a35bbaaf4f3663f68817f8c32327a-image.png" caption="Activatiing PUDO integration"/>
+  >   <Image align="center" src="https://files.readme.io/735e213c58d29db4438e9cc89a873cba9c4a35bbaaf4f3663f68817f8c32327a-image.png" caption="Activating PUDO integration"/>
   >
   > * *[Raise a request](mailto:onboarding@intersoftsapient.net) to our onboarding team to create a location for you to connect and download the PUDO data via SFTP by providing your RSA Public Key through a secure gateway. Our team will respond with the following connection details:*
   >   * *Host name*
