@@ -19,7 +19,7 @@ To edit a FedEx <Glossary>shipping account</Glossary> in SAPIENT, follow the ste
   <ToggleListItem title="1. Access the Shipping Accounts page">
     On the **Home** page that opens, in the left navigation panel, select **Shipping Accounts**.
 
-    <Image align="center" border={true} src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" alt="Accessing shipping accounts" />
+    <Image align="center" border={true} src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" caption="Accessing shipping accounts" />
 
     ***
   </ToggleListItem>
