@@ -5,7 +5,7 @@ hidden: true
 metadata:
   robots: index
 ---
-## Overview
+## End-to-End Documentation Lifecycle
 
 Documentation must evolve alongside the product, not at the end of the development process.  Similar to the Software Development Lifecycle (SDLC), the content generation must also follow the Document Development Lifecycle (DDLC).  This approach integrates documentation into the software development lifecycle (SDLC) using Docs-as-Code principles and AI-assisted automation.
 
