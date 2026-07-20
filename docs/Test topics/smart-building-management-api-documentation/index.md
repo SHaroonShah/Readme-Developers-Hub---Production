@@ -6,7 +6,9 @@ icon: fad fa-warehouse
 metadata:
   robots: index
 ---
-Use this overview to understand how to integrate with the fictional Smart Building Management REST API to monitor building data, control devices, and automate workflows.
+# <br />Introduction
+
+This section helps you understand on how to integrate with the fictional Smart Building Management REST API to monitor building data, control devices, and automate workflows.
 
 ## API scope
 
