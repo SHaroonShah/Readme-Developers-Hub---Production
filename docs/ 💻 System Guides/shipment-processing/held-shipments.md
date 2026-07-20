@@ -67,6 +67,8 @@ In SAPIENT, you can hold the <Glossary>shipments</Glossary> for 28 days. Shipmen
         <br />
 
         <Image align="center" border={true} src="https://files.readme.io/41603935fe204b0f21f146742408bd60584a5659ebb2a31c9302a475d93d24cf-sorting_and_changing_location.png" caption="Specifying filters" />
+
+        ***
       </ToggleListItem>
 
       <br />
