@@ -110,7 +110,7 @@ If you are importing goods into the UK via Freight 2 Post route, please ensure t
 </Table>
 
 <Callout icon="📘" theme="info">
-  ### ###_Note_
+  ### _Note_
 
   _The requirements listed in the preceding table are also specific for Royal Mail customers creating international shipments._
 </Callout>
