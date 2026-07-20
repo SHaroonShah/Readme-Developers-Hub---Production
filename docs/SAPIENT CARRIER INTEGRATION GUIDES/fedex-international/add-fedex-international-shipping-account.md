@@ -19,9 +19,9 @@ In SAPIENT, with the **Add Shipping Account** functionality, you can select the 
 
 <Tabs>
   <Tab title="Add via SAPIENT UI">
-    
+    <br />
 
-    To add a shipping account for FedEx International connect  in SAPIENT, perform the steps as explained in the following procedure.
+    To add a shipping account for FedEx International connect in SAPIENT, perform the steps as explained in the following procedure.
 
     <ToggleList>
       <ToggleListItem title={<strong>1. Access the shipping accounts page</strong>} icon="fa-rocket">
@@ -54,7 +54,7 @@ In SAPIENT, with the **Add Shipping Account** functionality, you can select the 
         On the **Add Shipping Account** form that appears, in the **ACCOUNT DETAILS** block, fill in the necessary information as described in the following table.
 
         <Image align="center" src="https://files.readme.io/3d3f7869f2f26dca95da3be1dd3c6e2afe477883bca5c5c461d89250ad7073a3-image.png" width="500px" />
-<br />
+
         <AsteridkForMandatoryElements />
 
         |         Element         | Description                                                                                                   |
@@ -73,82 +73,49 @@ In SAPIENT, with the **Add Shipping Account** functionality, you can select the 
         In the **SHIPPING ACCOUNT** block, enter the necessary information as explained in the following table.
 
         <Image align="center" border={true} src="https://files.readme.io/53a765a066729b4aa4b2d740073f4681bc75f021b3c396fd317e9ba810a2247b-Shipping_account_block_Amazon.png" width="600px" alt="Specifying shipping account details" />
-<br />
+
         <Callout icon="💡" theme="default">
           ### *Tip*
 
           *In the following table, the mandatory fields are marked with an asterisk (\*).*
         </Callout>
 
-        <Table align={["center","left"]}>
+        <table>
           <thead>
             <tr>
-              <th>
-                Element
-              </th>
-
-              <th>
-                Description
-              </th>
+              <th>Element</th>
+              <th>Description</th>
             </tr>
           </thead>
-
           <tbody>
             <tr>
+              <td><strong>Account Name (if different than customer)</strong>&#42;</td>
+              <td>Enter the name of the account you are adding.</td>
+            </tr>
+            <tr>
+              <td><strong>Account Type</strong>&#42;</td>
               <td>
-                **Account Name (if different than customer)**\*
-              </td>
-
-              <td>
-                Enter the name of the account you are adding.
+                <p>From the dropdown menu, select one of the following account types that you want to set up for the the shipping account you are adding:</p>
+                <ul>
+                  <li><strong>Production</strong>: a live environment where the final version of the application is deployed and made available to the users.</li>
+                  <li><strong>Sandbox</strong>: a testing environment that mimics the <strong>Production</strong> environment but is isolated from it. The sandbox environment is primarily used for development and testing purposes.</li>
+                </ul>
               </td>
             </tr>
-
             <tr>
-              <td>
-                **Account Type**\*
-              </td>
-
-              <td>
-                From the dropdown menu, select one of the following account types that you want to set up for the the shipping account you are adding:
-
-                • **[Production](https://docs.intersoftsapient.net/docs/sandbox-account)**: a live environment where the final version of the application is deployed and made available to the users.
-
-                • **[Sandbox](https://docs.intersoftsapient.net/docs/sandbox-account)**: a testing environment that mimics the **Production** environment but is isolated from it. The sandbox environment is primarily used for development and testing purposes.
-              </td>
+              <td><strong>Alias</strong>&#42;</td>
+              <td>Enter a custom name which can be used in the API request instead of using the shipping account ID when connecting to us. Therefore, it is recommend that this name must be memorable and available for reference purposes.</td>
             </tr>
-
             <tr>
-              <td>
-                **Alias**\*
-              </td>
-
-              <td>
-                Enter a custom name which can be used in the API request instead of using the shipping account ID when connecting to us. Therefore, it is recommend that this name must be memorable and available for reference purposes.
-              </td>
+              <td><strong>Contact Name</strong>&#42;</td>
+              <td>Enter the contact name for the account you are adding.</td>
             </tr>
-
             <tr>
-              <td>
-                **Contact Name**\*
-              </td>
-
-              <td>
-                Enter the contact name for the account you are adding.
-              </td>
-            </tr>
-
-            <tr>
-              <td>
-                **Contact Number**\*
-              </td>
-
-              <td>
-                Enter the contact number for the account you are adding.
-              </td>
+              <td><strong>Contact Number</strong>&#42;</td>
+              <td>Enter the contact number for the account you are adding.</td>
             </tr>
           </tbody>
-        </Table>
+        </table>
 
         ***
       </ToggleListItem>
@@ -161,46 +128,32 @@ In SAPIENT, with the **Add Shipping Account** functionality, you can select the 
         In the **CARRIER DETAILS** block, enter the necessary information as explained in the following table.
 
         <Image align="center" border={true} src="https://files.readme.io/a1f229d57e6bb784d4c1ed4b8d9353ea49753a79cdc843c0a8e4c885df8cc9f4-image.png" width="500px" />
-<br />
+
         <AsteridkForMandatoryElements />
 
-        <Table align={["left","left"]}>
+        <table>
           <thead>
             <tr>
-              <th>
-                Element
-              </th>
-
-              <th>
-                Description
-              </th>
+              <th>Element</th>
+              <th>Description</th>
             </tr>
           </thead>
-
           <tbody>
             <tr>
-              <td>
-                **FedEx International Connect Shipper Website URL**\*
-              </td>
-
+              <td><strong>FedEx International Connect Shipper Website URL</strong>&#42;</td>
               <td>
                 Enter the FedEx International Connect shipper website URL.
-
-                `Note`: *This is required in the API request if shipping to the USA.*
+                <br />
+                <br />
+                <em><code>Note</code>: This is required in the API request if shipping to the USA.</em>
               </td>
             </tr>
-
             <tr>
-              <td>
-                **FedEx International Connect API Key**\*
-              </td>
-
-              <td>
-                Enter the API Key for the FedEx International Connect account. This API key will be sent in in your API requests.
-              </td>
+              <td><strong>FedEx International Connect API Key</strong>&#42;</td>
+              <td>Enter the API Key for the FedEx International Connect account. This API key will be sent in in your API requests.</td>
             </tr>
           </tbody>
-        </Table>
+        </table>
       </ToggleListItem>
 
       <br />
@@ -217,8 +170,8 @@ In SAPIENT, with the **Add Shipping Account** functionality, you can select the 
     </ToggleList>
   </Tab>
 
-  <Tab title="Add via API">
-    
+  <Tab title="Via API">
+    <br />
 
     To add a shipping account via our API, refer to the following endpoint:
 
