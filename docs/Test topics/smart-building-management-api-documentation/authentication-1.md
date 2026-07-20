@@ -12,12 +12,14 @@ Use OAuth 2.0 Client Credentials to obtain a bearer token and authenticate each 
 Obtain your **Client ID** and **Client Secret** before requesting a token.
 
 <Callout icon="triangle-exclamation" theme="warning">
-  ### N
+  ### _Important_
 
-  Keep your Client Secret private. Do not expose it in client-side applications or source control.
+  _Keep your Client Secret private. Do not expose it in client-side applications or source control._
 </Callout>
 
 ## Authenticate a request
+
+To authenticate a request, perform the steps as explained in the following procedure.
 
 1. Send your Client ID and Client Secret to the token endpoint.
 
