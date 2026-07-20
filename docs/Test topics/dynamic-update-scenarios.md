@@ -1,7 +1,7 @@
 ---
 title: Dynamic Update Scenarios
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
