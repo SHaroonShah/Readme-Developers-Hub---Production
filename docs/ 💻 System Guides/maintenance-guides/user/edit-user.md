@@ -29,7 +29,7 @@ In SAPIENT, you can edit the users to maintain accurate and up-to-date records o
 
     In the left navigation panel, select **Users**.
 
-    <Image align="center" border={true} src="https://files.readme.io/dda0e89b323a4d869472cc629a9fc0349403f8ba24930ac43a31a8f9a7542929-Users_option.png" alt="Accessing users" />
+    <Image align="center" border={true} src="https://files.readme.io/dda0e89b323a4d869472cc629a9fc0349403f8ba24930ac43a31a8f9a7542929-Users_option.png" caption="Accessing users" />
 
     ***
   </ToggleListItem>
@@ -49,7 +49,7 @@ In SAPIENT, you can edit the users to maintain accurate and up-to-date records o
 
     <br />
 
-    <Image align="center" border={true} src="https://files.readme.io/8b00fa4896a209d03b12b11b629b1008c180492d00769d0534c3b4f4e587206f-Editing_user.png" alt="Selecting option to add user" />
+    <Image align="center" border={true} src="https://files.readme.io/8b00fa4896a209d03b12b11b629b1008c180492d00769d0534c3b4f4e587206f-Editing_user.png" caption="Selecting option to add user" />
 
     ***
   </ToggleListItem>
