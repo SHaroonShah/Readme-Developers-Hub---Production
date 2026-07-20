@@ -44,7 +44,7 @@ To create new API credentials, follow the instructions as explained in the follo
 
     <br />
 
-    > 📘 **Note**
+    > 📘 *Note*
     >
     > *You are only required to create these credentials the first time you log in.*
 
