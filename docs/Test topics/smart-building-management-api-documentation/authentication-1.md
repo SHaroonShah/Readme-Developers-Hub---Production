@@ -1,5 +1,10 @@
 ---
 title: Authentication
+excerpt: >-
+  _Authentication_ refers to the process of verifying the identity of a user or
+  application that is trying to access an API. This is crucial for ensuring that
+  only authorised users can interact with the API and access sensitive data or
+  perform actions.
 deprecated: false
 hidden: true
 metadata:
