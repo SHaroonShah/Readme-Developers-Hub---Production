@@ -8,7 +8,7 @@ hidden: true
 metadata:
   robots: index
 ---
-# <br />API References
+# API References
 
 This section provides you with the relevant endpoints that you can call to obtain details of a particular building.
 
