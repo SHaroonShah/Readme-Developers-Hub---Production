@@ -35,7 +35,7 @@ To add a tracking account for FedEx in SAPIENT, perform the steps as explained i
   <ToggleListItem title="1. Navigate to the Tracking Accounts tab" icon="chevron-right">
     On the SAPIENT **Home** page, in the left navigation panel, select **API** > **Webhooks**. On the page that opens, select the **Tracking Accounts** tab.
 
-    <Image align="center" border={true} src="https://files.readme.io/c3f6098979696b25cbdbe26921658742edef4520e983ae8c70cbe6f689e4aadf-Tracking_accounts_tab.png" alt="Accessing tracking accounts" />
+    <Image align="center" border={true} src="https://files.readme.io/c3f6098979696b25cbdbe26921658742edef4520e983ae8c70cbe6f689e4aadf-Tracking_accounts_tab.png" caption="Accessing tracking accounts" />
 
     ***
   </ToggleListItem>
@@ -45,7 +45,7 @@ To add a tracking account for FedEx in SAPIENT, perform the steps as explained i
   <ToggleListItem title="2. Select option add a tracking account" icon="chevron-right">
     In the **Tracking Accounts** page that opens, select ![](https://files.readme.io/63f1badb667ff6379f323bdc6485e8a519eb46938b0dcd4b98e384686ebb68e0-Add_tracking_account_button.png).
 
-    <Image align="center" border={true} src="https://files.readme.io/c2f04a8e6b4e985e203082e192cfe4d35f0702aa38fa593bb2440e490295dd3a-Add_tracking_account_button_UPS.png" alt="Accessing option to add tracking account" />
+    <Image align="center" border={true} src="https://files.readme.io/c2f04a8e6b4e985e203082e192cfe4d35f0702aa38fa593bb2440e490295dd3a-Add_tracking_account_button_UPS.png" caption="Accessing option to add tracking account" />
 
     ***
   </ToggleListItem>
@@ -55,7 +55,7 @@ To add a tracking account for FedEx in SAPIENT, perform the steps as explained i
   <ToggleListItem title="3. Enter tracking account details" icon="chevron-right">
     On the **Add Tracking account** page that appears, in the **DETAILS** block, enter the necessary information as explained in the following table.
 
-    <Image align="center" border={true} src="https://files.readme.io/30ef485f9710ebdcbd038ba34728a378b581e371d21be08b19bd9b416cb4e579-Adding_FedEx_tracking_account.png" width="500px" alt="Adding tracking account" />
+    <Image align="center" border={true} src="https://files.readme.io/30ef485f9710ebdcbd038ba34728a378b581e371d21be08b19bd9b416cb4e579-Adding_FedEx_tracking_account.png" width="500px" caption="Adding tracking account" />
 
     <br />
 
