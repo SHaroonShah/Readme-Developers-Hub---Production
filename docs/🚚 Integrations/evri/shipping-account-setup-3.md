@@ -38,7 +38,7 @@ Unlike other carriers, EVRi customers can have a main (parent) shipping account 
       <ToggleListItem title="1. Select the Shipping Accounts page">
         In the left navigation panel, select **Shipping Accounts**.
 
-        <Image align="center" border={true} src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" alt="Accessing shipping accounts" />
+        <Image align="center" border={true} src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" caption="Accessing shipping accounts" />
 
         ***
       </ToggleListItem>
@@ -48,7 +48,7 @@ Unlike other carriers, EVRi customers can have a main (parent) shipping account 
       <ToggleListItem title="2. Select option to add shipping account">
         On the **Shipping Accounts** page that opens, select ![](https://files.readme.io/4dc0470535418171d8c974546d130f04a0fc60a878c7f7648b2da21309450830-add_shipping_account_button.png).
 
-        <Image align="center" border={true} src="https://files.readme.io/93a0d9cc66a38e49c4bcffc89b73c11a567a5b518b19eac7ae22c7e39063c1b1-Add_shipping_account_button_EVRi.png" alt="Accessing option to add shipping account" />
+        <Image align="center" border={true} src="https://files.readme.io/93a0d9cc66a38e49c4bcffc89b73c11a567a5b518b19eac7ae22c7e39063c1b1-Add_shipping_account_button_EVRi.png" caption="Accessing option to add shipping account" />
 
         ***
       </ToggleListItem>
@@ -58,7 +58,7 @@ Unlike other carriers, EVRi customers can have a main (parent) shipping account 
       <ToggleListItem title="3. Enter account details">
         On the **Add Shipping Account** form that appears, in the **ACCOUNT DETAILS** block, fill in the necessary information as described in the following table.
 
-        <Image align="center" border={true} src="https://files.readme.io/43991905bc228df5a0737e883ebcf6125535727cdb622711887e427c375d6763-Account_details_block_EVRi.png" alt="Entering account details" />
+        <Image align="center" border={true} src="https://files.readme.io/43991905bc228df5a0737e883ebcf6125535727cdb622711887e427c375d6763-Account_details_block_EVRi.png" caption="Entering account details" />
 
         <br />
 
@@ -77,7 +77,7 @@ Unlike other carriers, EVRi customers can have a main (parent) shipping account 
       <ToggleListItem title="4. Enter shipping account details">
         In the **SHIPPING ACCOUNT** block, enter the necessary information as explained in the following table.
 
-        <Image align="center" border={true} src="https://files.readme.io/9546c2ab0f9d76d0ac27f5b028e0be8c38f7ac52f6b46cc177ceefdb63a32de5-Shipping_account_block_EVRi.png" width="400px" alt="Specifying shipping account details" />
+        <Image align="center" border={true} src="https://files.readme.io/9546c2ab0f9d76d0ac27f5b028e0be8c38f7ac52f6b46cc177ceefdb63a32de5-Shipping_account_block_EVRi.png" width="400px" caption="Specifying shipping account details" />
 
         <br />
 
@@ -175,7 +175,7 @@ Unlike other carriers, EVRi customers can have a main (parent) shipping account 
       <ToggleListItem title="5. Enter carrier details">
         In the **CARRIER DETAILS** block, enter the necessary information as explained in the following table.
 
-        <Image align="center" border={true} src="https://files.readme.io/60e2321138104b3b4c2a28966427ea131d2d4a8fb8a5dc283362a9ded6220585-carrier_details_block_EVRi.png" width="400px" alt="Entering carrier details" />
+        <Image align="center" border={true} src="https://files.readme.io/60e2321138104b3c2a28966427ea131d2d4a8fb8a5dc283362a9ded6220585-carrier_details_block_EVRi.png" width="400px" caption="Entering carrier details" />
 
         <br />
 
