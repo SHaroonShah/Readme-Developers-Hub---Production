@@ -48,16 +48,18 @@ Authorization: Bearer eyJhbGciOi...
 ## Token expiration
 
 <Callout icon="clock" theme="info">
-Access tokens expire after 60 minutes. Generate a new token before the current token expires.
+  ### _Note_
+
+  _Access tokens expire after 60 minutes. Generate a new token before the current token expires._
 </Callout>
 
 ## Common authentication errors
 
-| Status | Meaning | What to do |
-| --- | --- | --- |
-| `401` | Unauthorized | Check your Client ID and Client Secret. |
-| `403` | Forbidden | Verify that your credentials have the required API permissions. |
-| `429` | Rate limited | Retry after the interval specified by the API. |
+| Status | Meaning      | What to do                                                      |
+| ------ | ------------ | --------------------------------------------------------------- |
+| `401`  | Unauthorized | Check your Client ID and Client Secret.                         |
+| `403`  | Forbidden    | Verify that your credentials have the required API permissions. |
+| `429`  | Rate limited | Retry after the interval specified by the API.                  |
 
 ## Best practices
 
@@ -65,3 +67,5 @@ Access tokens expire after 60 minutes. Generate a new token before the current t
 - Store credentials securely.
 - Rotate credentials regularly.
 - Send all API requests over HTTPS.
+
+<br />
