@@ -64,7 +64,7 @@ Create documentation work whenever a product change affects what users need to k
   </Card>
 </Cards>
 
-**Output:** Create a documentation task alongside the development task.
+> **Output:** Create a documentation task alongside the development task.
 
 ## 2. Gather verified information
 
@@ -75,13 +75,13 @@ Build a documentation brief from trusted sources before drafting. Use the brief 
 - Review UI designs in Figma and relevant developer discussions.
 - Use release notes to confirm the scope of the product change.
 
-**Output:** A documentation brief containing verified technical information.
+> **Output:** A documentation brief containing verified technical information.
 
 ## 3. Create the initial draft
 
 Use the documentation brief and approved prompts to generate the first Markdown draft. AI may create the page structure, draft explanations, produce request and response examples, and suggest troubleshooting guidance.
 
-**Output:** Draft Markdown documentation.
+> **Output:** Draft Markdown documentation.
 
 ## 4. Review the draft
 
@@ -91,7 +91,7 @@ Have the Technical Writer review the draft before technical validation.
 - Confirm the content follows the style guide.
 - Resolve missing or unclear details with the engineering team.
 
-**Output:** A revised documentation draft.
+> **Output:** A revised documentation draft.
 
 ## 5. Validate technical content
 
@@ -120,13 +120,13 @@ Run documentation validation in the CI/CD pipeline before merging.
 
 Review documentation through a GitHub pull request. Include the Technical Writer and Software Engineer; involve the Product Manager when required. Resolve all comments before approval.
 
-**Output:** An approved pull request.
+> **Output:** An approved pull request.
 
 ## 8. Publish with the release
 
 Publish approved content through the Docs-as-Code pipeline with the corresponding software release. Match documentation versioning to product versioning.
 
-**Output:** Published, release-aligned documentation.
+> **Output:** Published, release-aligned documentation.
 
 ## 9. Maintain published documentation
 
