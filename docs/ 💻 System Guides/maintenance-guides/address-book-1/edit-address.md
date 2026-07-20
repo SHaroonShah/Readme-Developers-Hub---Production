@@ -29,7 +29,7 @@ In SAPIENT, you can edit the addresses that you have added previously to maintai
 
         In the left navigation panel, select **Address Book**.
 
-        <Image align="center" border={true} src="https://files.readme.io/145195adcbdbf39b1faea51d1afa71dcc10a408409060a05d02bc12fb48a8630-Address_option.png" alt="Accessing address book" />
+        <Image align="center" border={true} src="https://files.readme.io/145195adcbdbf39b1faea51d1afa71dcc10a408409060a05d02bc12fb48a8630-Address_option.png" caption="Accessing address book" />
 
         ***
       </ToggleListItem>
@@ -41,7 +41,7 @@ In SAPIENT, you can edit the addresses that you have added previously to maintai
 
         In the **Address Book** page that opens, from the list, select the address that you want edit.
 
-        <Image align="center" src="https://files.readme.io/ff8a355df4c747af6625d590d1ae4969c04ca1fc54583d44664f74dbaa97454d-Selecting_address_to_edit.png" />
+        <Image align="center" src="https://files.readme.io/ff8a355df4c747af6625d590d1ae4969c04ca1fc54583d44664f74dbaa97454d-Selecting_address_to_edit.png" caption="selecting address to edit"/>
 
         ***
       </ToggleListItem>
@@ -53,7 +53,7 @@ In SAPIENT, you can edit the addresses that you have added previously to maintai
 
         In the **Edit Address** form that opens, update the necessary information as explained in the [Add address](https://docs.intersoftsapient.net/docs/add-address#/) section.
 
-        <Image align="center" border={true} src="https://files.readme.io/1b3e80e0f16f5a38056c1e8fa5a41a42ce78f1012f724c2eaa3075a366de6b85-Editing_address.png" alt="Editing address" />
+        <Image align="center" border={true} src="https://files.readme.io/1b3e80e0f16f5a38056c1e8fa5a41a42ce78f1012f724c2eaa3075a366de6b85-Editing_address.png" caption="Editing address" />
 
         ***
       </ToggleListItem>
