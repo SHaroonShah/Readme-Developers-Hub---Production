@@ -12,7 +12,9 @@ Use OAuth 2.0 Client Credentials to obtain a bearer token and authenticate each 
 Obtain your **Client ID** and **Client Secret** before requesting a token.
 
 <Callout icon="triangle-exclamation" theme="warning">
-Keep your Client Secret private. Do not expose it in client-side applications or source control.
+  ### N
+
+  Keep your Client Secret private. Do not expose it in client-side applications or source control.
 </Callout>
 
 ## Authenticate a request
@@ -60,11 +62,11 @@ Send credentials and bearer tokens only over HTTPS to protect them while they ar
 
 ## Common authentication errors
 
-| Status | Meaning | Resolution |
-| --- | --- | --- |
-| `401` | Unauthorized | Check your Client ID or Client Secret. |
-| `403` | Forbidden | Verify that your API permissions allow the request. |
-| `429` | Rate limited | Retry after the specified interval. |
+| Status | Meaning      | Resolution                                          |
+| ------ | ------------ | --------------------------------------------------- |
+| `401`  | Unauthorized | Check your Client ID or Client Secret.              |
+| `403`  | Forbidden    | Verify that your API permissions allow the request. |
+| `429`  | Rate limited | Retry after the specified interval.                 |
 
 ## Optional: Credential management
 
