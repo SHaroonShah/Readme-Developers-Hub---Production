@@ -1,14 +1,13 @@
 ---
-title: '# Quick Start'
-excerpt: >-
-  Make your first authenticated request to the Smart Building Management API and
-  retrieve building details.
+title: Quick Start
 deprecated: false
 hidden: true
 metadata:
   robots: index
 ---
-Make an authenticated request to retrieve information about a building.
+# Quick Start
+
+Make your first authenticated request to the Smart Building Management API and retrieve building details.
 
 ## Prerequisites
 
