@@ -38,7 +38,7 @@ Documentation must evolve with the product so it does not become outdated or inc
 
 ### Product change
 
-The user interface renames *Building Groups* to *Spaces*. No backend functionality changes.
+The user interface renames *Buildings* to *Sites*. No backend functionality changes.
 
   </Column>
   <Column>
@@ -60,12 +60,12 @@ Update the following pages:
 **AI agent:** Terminology Checker
 
 1. Scan every Markdown file for occurrences of the previous terminology.
-2. Recommend replacements using the approved term, _Spaces_.
+2. Recommend replacements using the approved term, _Sites_.
 3. Generate a change report for review.
 
 ### Human review
 
-The Product Manager confirms that _Spaces_ is the approved product term. The Technical Writer reviews each suggested replacement to ensure it fits naturally in context.
+The Product Manager confirms that _Sites_ is the approved product term. The Technical Writer reviews each suggested replacement to ensure it fits naturally in context.
 
 ### Quality checks
 
@@ -99,7 +99,7 @@ A new *Energy Analytics Dashboard API* is introduced with endpoints for:
 
 Create or update:
 
-- API Reference pages
+- API Reference pages (new endpoint)
 - A Quick Start tutorial
 - Authentication guidance
 - A troubleshooting section
@@ -151,7 +151,7 @@ Update the following pages:
 
 - Authentication
 - Quick Start
-- API Reference
+- API References
 
   </Column>
 </Columns>
@@ -190,12 +190,6 @@ The Software Engineer and Technical Writer approve the pull request. Documentati
 | Major feature launch                | Draft generation, style checks, and quality validation | Software Engineer, Product Manager, and Technical Writer | New documentation published with the product release |
 | Outdated or conflicting information | Conflict detection and repository-wide validation      | Backend Engineer and Technical Writer                    | A single source of truth is restored                 |
 
-## Key principles
+##
 
-- Version-control documentation changes through Git.
-- Use AI to accelerate repetitive work, not to replace human validation.
-- Trigger documentation updates when product changes occur.
-- Treat documentation as part of the software development lifecycle.
-- Hold human reviewers accountable for technical accuracy and final approval.
-
-Together, Docs-as-Code practices, AI-assisted workflows, and structured review gates keep documentation accurate, scalable, and aligned with the evolving product.
+<br />
