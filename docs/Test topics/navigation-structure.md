@@ -7,15 +7,4 @@ metadata:
 ---
 # Navigation Structure
 
-Home
-│
-├── Introduction
-│
-├── Getting Started
-│     └── Quick Start
-│
-├── Authentication
-│
-├── API Reference
-│
-└── Troubleshooting
+Home<br />│<br />├── Introduction<br />│<br />├── Getting Started<br />│     └── Quick Start<br />│<br />├── Authentication<br />│<br />├── API Reference<br />
