@@ -12,7 +12,7 @@ next:
   description: ''
 ---
 
-<Image src="https://files.readme.io/9d86436a8d0d42a37f09ce932cd7bd683f1b84931bfd20d37aaf75b649e8dc49-Top_toolbar.png" alt="Top toolbar structure" align="center" caption="Top toolbar structure" border={true} />
+<Image src="https://files.readme.io/9d86436a8d0d42a37f09ce932cd7bd683f1b84931bfd20d37aaf75b649e8dc49-Top_toolbar.png" alt="Top toolbar structure" align="center" caption="Top toolbar structure" />
 
 
 The SAPIENT top toolbar is located below the application header and contains essential navigation and workspace management elements. Depending on your instance configuration, the toolbar may display different combinations of the following components:
