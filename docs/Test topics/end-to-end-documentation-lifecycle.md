@@ -5,212 +5,158 @@ hidden: false
 metadata:
   robots: index
 ---
-# <br />Overview
+You will use this lifecycle to create, validate, publish, and maintain documentation alongside each product change.
 
-Documentation must evolve alongside the product, not at the end of the development process.  Similar to the Software Development Lifecycle (SDLC), the content generation must also follow the Document Development Lifecycle (DDLC).  This approach integrates documentation into the software development lifecycle (SDLC) using Docs-as-Code principles and AI-assisted automation.
+## Overview
 
-This section provides information that ensures documentation remains accurate, reviewable, version-controlled, and ready at the time of production release.
+The Document Development Lifecycle (DDLC) integrates documentation work into the Software Development Lifecycle (SDLC). It uses Docs-as-Code practices and AI-assisted drafting so content is accurate, reviewable, version-controlled, and ready when the related software release ships.
 
-# Documentation Lifecycle
+<Callout icon="fa-solid fa-user-check" theme="info">
+AI can draft structure, explanations, examples, and troubleshooting guidance, but a human must review all AI-generated content. Do not use AI to introduce undocumented features or unverified technical details.
+</Callout>
 
-Product Change Request
-│
-▼
-Product Manager Creates User Story
-│
-▼
-Engineering Implementation Begins
-│
-▼
-Documentation Task Created
-│
-▼
-Information Gathering
-│
-▼
-AI Draft Generation
-│
-▼
-Technical Writer Review
-│
-▼
-Engineering Validation
-│
-▼
-Automated Documentation Checks
-│
-▼
-Pull Request Approval
-│
-▼
-Documentation Published
-│
-▼
-Continuous Maintenance
+## Documentation lifecycle
 
-***
+<Columns layout="auto">
+  <Column>
 
-# Step 1 – Product Change Trigger
+### Plan and gather
 
-## Trigger
+1. A product change triggers documentation work.
+2. The Product Manager creates a user story and engineering begins implementation.
+3. Create a documentation task with the development task.
+4. Gather verified technical information.
 
-Documentation work begins whenever one of the following occurs:
+  </Column>
+  <Column>
 
-- New feature development
-- API endpoint changes
-- UI updates
-- Bug fixes affecting user workflows
-- Product terminology changes
-- Deprecation of existing functionality
+### Draft and validate
 
-### Output
+5. Generate an AI-assisted draft from the approved documentation brief.
+6. Review the draft for clarity, accuracy, structure, and style.
+7. Have engineering validate technical details.
+8. Run automated documentation checks.
 
-## A documentation task is created alongside the development task.
+  </Column>
+  <Column>
 
-# Step 2 – Information Gathering
+### Approve and maintain
 
-The Technical Writer gathers information from trusted sources.
-Primary sources include:
+9. Resolve pull request comments and obtain approval.
+10. Publish documentation with the corresponding software release.
+11. Maintain the content as the product evolves.
 
-- Product Requirements Document (PRD)
-- Engineering design documents
-- OpenAPI/Swagger specification
-- UI designs (Figma)
-- Developer discussions
-- Release notes
+  </Column>
+</Columns>
 
-### Output
+## 1. Start from a product change
 
-## A documentation brief containing verified technical information.
+Create documentation work whenever a product change affects what users need to know or do.
 
-# Step 3 – AI Draft Generation
+<Cards columns={2}>
+  <Card title="Feature and interface changes" href="#1-start-from-a-product-change" icon="fa-solid fa-code">
+    Document new features, API endpoint changes, UI updates, and workflow-affecting bug fixes.
+  </Card>
+  <Card title="Product language and lifecycle changes" href="#1-start-from-a-product-change" icon="fa-solid fa-arrows-rotate">
+    Update content for terminology changes and deprecations of existing functionality.
+  </Card>
+</Cards>
 
-AI generates the initial draft using the documentation brief and approved prompts.
-AI may:
+**Output:** Create a documentation task alongside the development task.
 
-- Create page structure
-- Draft explanations
-- Produce request and response examples
-- Suggest troubleshooting guidance
-  AI does _not_ create undocumented features or invent technical details.
+## 2. Gather verified information
 
-### Output
+Build a documentation brief from trusted sources before drafting. Use the brief to confirm technical details rather than relying on assumptions.
 
-## Draft Markdown documentation.
+- Review the Product Requirements Document (PRD) and engineering design documents.
+- Verify API behavior in the OpenAPI or Swagger specification.
+- Review UI designs in Figma and relevant developer discussions.
+- Use release notes to confirm the scope of the product change.
 
-# Step 4 – Technical Writer Review
+**Output:** A documentation brief containing verified technical information.
 
-The Technical Writer reviews the draft for:
+## 3. Create the initial draft
 
-- Clarity
-- Accuracy
-- Readability
-- Structure
-- Style guide compliance
-  Any missing or unclear information is clarified with the engineering team before proceeding.
+Use the documentation brief and approved prompts to generate the first Markdown draft. AI may create the page structure, draft explanations, produce request and response examples, and suggest troubleshooting guidance.
 
-### Output
+**Output:** Draft Markdown documentation.
 
-## Revised documentation draft.
+## 4. Review the draft
 
-# Step 5 – Engineering Validation
+Have the Technical Writer review the draft before technical validation.
 
-A Software Engineer validates the technical content.
-Validation includes:
+- Check clarity, readability, and structure.
+- Confirm the content follows the style guide.
+- Resolve missing or unclear details with the engineering team.
 
-- Endpoint names
-- Parameters
-- Request payloads
-- Response examples
-- Authentication requirements
-- Error codes
+**Output:** A revised documentation draft.
 
-### Output
+## 5. Validate technical content
 
-## Technically approved documentation.
+Have a Software Engineer validate the draft against the implemented product.
 
-# Step 6 – Automated Documentation Validation
+- Confirm endpoint names, parameters, request payloads, and response examples.
+- Verify authentication requirements and error codes.
 
-Before merge, automated checks run through the CI/CD pipeline.
-Validation includes:
+**Output:** Technically approved documentation.
 
-- Markdown linting
-- Broken link detection
-- Formatting validation
-- Placeholder text detection
-- Terminology consistency checks
-  The pull request cannot be merged until all checks pass.
+## 6. Run automated checks
 
-***
+Run documentation validation in the CI/CD pipeline before merging.
 
-# Step 7 – Pull Request Review
+- Run Markdown linting and formatting validation.
+- Detect broken links and placeholder text.
+- Check terminology consistency.
 
-Documentation is reviewed through GitHub Pull Requests.
-Reviewers include:
+<Callout icon="fa-solid fa-circle-exclamation" theme="warning">
+Do not merge the pull request until every automated check passes.
+</Callout>
 
-- Technical Writer
-- Software Engineer
-- Product Manager (when required)
-  Comments are resolved before approval.
+## 7. Review the pull request
 
-***
+Review documentation through a GitHub pull request. Include the Technical Writer and Software Engineer; involve the Product Manager when required. Resolve all comments before approval.
 
-# Step 8 – Publishing
+**Output:** An approved pull request.
 
-Once approved, documentation is published automatically through the Docs-as-Code pipeline.
-Published content becomes available with the corresponding software release.
-Documentation versioning matches product versioning.
-----------------------------------------------------
+## 8. Publish with the release
 
-# Step 9 – Continuous Maintenance
+Publish approved content through the Docs-as-Code pipeline with the corresponding software release. Match documentation versioning to product versioning.
 
-Documentation remains under version control after publication.
-Changes are triggered by:
+**Output:** Published, release-aligned documentation.
 
-- Feature enhancements
-- Customer feedback
-- Support tickets
-- API changes
-- Product releases
-  Each update follows the same review workflow to maintain consistency and accuracy.
+## 9. Maintain published documentation
 
-***
+Keep documentation under version control after publication. Start the same workflow again when feature enhancements, customer feedback, support tickets, API changes, or product releases require an update.
 
-# Definition of Done (DoD)
+## Definition of Done
 
-Documentation is considered complete only when:
+Documentation is complete only when all of the following are true:
 
 - All required pages are written.
-- Technical content is validated by engineering.
+- Engineering has validated the technical content.
 - Examples have been tested.
 - Terminology matches the product.
-- AI-generated content has been reviewed by a human.
+- A human has reviewed AI-generated content.
 - Markdown passes automated validation.
 - Peer review comments are resolved.
-- Pull request is approved.
+- The pull request is approved.
 - Documentation is published with the software release.
 
-***
+## Quality gates
 
-# Quality Gates
+| Stage | Quality gate | Owner |
+| --- | --- | --- |
+| Planning | Documentation task created | Product Manager or Business Analyst |
+| Drafting | AI draft generated | Technical Writer |
+| Review | Technical accuracy verified | Subject Matter Experts (SMEs) |
+| Validation | Automated checks pass | CI/CD pipeline (GitHub) |
+| Approval | Pull request approved | Technical Writer |
+| Publishing | Documentation released with product | Release Manager or Technical Writer when using different publishing platforms |
 
-| Stage      | Quality Gate                        | Owner                                                                      |
-| ---------- | ----------------------------------- | -------------------------------------------------------------------------- |
-| Planning   | Documentation task created          | Product Manager/Business Analyst                                           |
-| Drafting   | AI draft generated                  | Technical Writer                                                           |
-| Review     | Technical accuracy verified         | Subject Matter Experts (SMEs)                                              |
-| Validation | Automated checks pass               | CI/CD Pipeline (GitHub)                                                    |
-| Approval   | Pull request approved               | Technical Writer                                                           |
-| Publishing | Documentation released with product | Release Manager/Technical Writer (if using different publishing platforms) |
+## Benefits
 
-***
-
-# Benefits of This Workflow
-
-- Documentation is developed in parallel with software.
-- AI accelerates repetitive tasks while humans ensure accuracy.
-- Git provides version history and traceability.
-- Automated validation reduces publishing errors.
-- Quality gates prevent incomplete or inaccurate documentation from reaching users.
-
-<br />
+- Develop documentation in parallel with software.
+- Use AI for repetitive drafting work while retaining human accountability for accuracy.
+- Maintain version history and traceability with Git.
+- Reduce publishing errors through automated validation.
+- Prevent incomplete or inaccurate content from reaching users through defined quality gates.
