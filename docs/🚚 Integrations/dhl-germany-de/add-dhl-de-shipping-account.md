@@ -30,7 +30,7 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
 
         In the left navigation panel, select **Shipping Accounts**.
 
-        <Image align="center" src="https://files.readme.io/3d2349061f0415b118f4ffc1d5d1f0722422302161528022cbc28634eb90514f-image.png" alt="Accessing shipping accounts" />
+        <Image align="center" src="https://files.readme.io/3d2349061f0415b118f4ffc1d5d1f0722422302161528022cbc28634eb90514f-image.png" caption="Shipping Accounts option in the navigation panel" />
 
         ***
       </ToggleListItem>
@@ -41,9 +41,9 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
   
         <br />
 
-        On the **Shipping Accounts** page that opens, select ![](https://files.readme.io/4dc0470535418171d8c974546d130f04a0fc60a878c7f7648b2da21309450830-add_shipping_account_button.png).
+        On the **Shipping Accounts** page that opens, select <Image src="https://files.readme.io/4dc0470535418171d8c974546d130f04a0fc60a878c7f7648b2da21309450830-add_shipping_account_button.png" caption="Add shipping account button" />.
 
-        <Image align="center" src="https://files.readme.io/a42649a2e896b24618507db2db02d7f7347225eabc56e04b4f79bcefea7c8ea8-image.png" alt="Selection option to add shipping account" />
+        <Image align="center" src="https://files.readme.io/a42649a2e896b24618507db2db02d7f7347225eabc56e04b4f79bcefea7c8ea8-image.png" caption="Option to add a shipping account" />
 
         ***
       </ToggleListItem>
@@ -56,7 +56,7 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
 
         On the **Add Shipping Account** form that appears, in the **ACCOUNT DETAILS** block, fill in the necessary information as described in the following table.
 
-        <Image align="center" src="https://files.readme.io/b7085aee7b1ca45c493a419c93c6866dac2426be296db4862aa890412013e36d-image.png" width="500px" alt="Entering account details" />
+        <Image align="center" src="https://files.readme.io/b7085aee7b1ca45c493a419c93c6866dac2426be296db4862aa890412013e36d-image.png" width="500px" caption="Account details for a DHL Germany shipping account" />
 
         <br />
 
@@ -92,7 +92,7 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
 
         In the **SHIPPING ACCOUNT** block, enter the necessary information as explained in the following table.
 
-        <Image align="center" src="https://files.readme.io/83810f18ee92f48d62b60191f940531365a413ee892f5fc77f3fd76772e24e87-image.png" width="600px" alt="Entering shipping account details" />
+        <Image align="center" src="https://files.readme.io/83810f18ee92f48d62b60191f940531365a413ee892f5fc77f3fd76772e24e87-image.png" width="600px" caption="Shipping account details for DHL Germany" />
 
         <br />
 
@@ -144,7 +144,7 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
 
         In the **CARRIER DETAILS** block, enter the necessary information as explained in the following table.
 
-        <Image align="center" src="https://files.readme.io/0bd2bd4e7974be809da0cb97fda2d4f39e52d8177dbf53777bfa5ab3f0022b5f-image.png" width="500px" alt="Entering carrier details" />
+        <Image align="center" src="https://files.readme.io/0bd2bd4e7974be809da0cb97fda2d4f39e52d8177dbf53777bfa5ab3f0022b5f-image.png" width="500px" caption="DHL Germany carrier details" />
 
         <br />
 
@@ -178,7 +178,7 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
 
         <br />
 
-        After entering all the required information, select ![](https://files.readme.io/99e4e322c6a3f874e0258a73646a551aa2120d8d359b2ce5d09a4cf0eabcd44a-add_shipping_account_button_2.png).
+        After entering all the required information, select <Image src="https://files.readme.io/99e4e322c6a3f874e0258a73646a551aa2120d8d359b2ce5d09a4cf0eabcd44a-add_shipping_account_button_2.png" caption="Add shipping account button" />.
 
         Once done, you have now successfully added a shipping account. You can now start shipping with it.
       </ToggleListItem>
