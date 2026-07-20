@@ -32,7 +32,7 @@ In SAPIENT, you can create a DPD UK shipping account by selecting your desired <
 
         In the left navigation panel, select **Shipping Accounts**.
 
-        <Image align="center" border={true} src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" alt="Accessing shipping accounts" />
+        <Image align="center" border={true} src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" caption="Accessing shipping accounts" />
 
         ***
       </ToggleListItem>
@@ -45,7 +45,7 @@ In SAPIENT, you can create a DPD UK shipping account by selecting your desired <
 
         On the **Shipping Accounts** page that opens, select ![](https://files.readme.io/5eb134426849b1adb3049756830b6bef19e7dc67dca55891e64ff7b9c8eadd8e-add_shipping_account_button.png).
 
-        <Image align="center" border={true} src="https://files.readme.io/3b149ee84f86fb8d4f02c43b2733c7eb85aea3ac6e2f01692af371f631570bf3-Add_shipping_account_button_DX.png" alt="Accessing option to add shipping account" />
+        <Image align="center" border={true} src="https://files.readme.io/3b149ee84f86fb8d4f02c43b2733c7eb85aea3ac6e2f01692af371f631570bf3-Add_shipping_account_button_DX.png" caption="Accessing option to add shipping account" />
 
         ***
       </ToggleListItem>
@@ -58,7 +58,7 @@ In SAPIENT, you can create a DPD UK shipping account by selecting your desired <
 
         On the **Add Shipping Account** form that appears, in the **ACCOUNT DETAILS** block, fill in the necessary information as described in the following table.
 
-        <Image align="center" border={true} src="https://files.readme.io/9e466e696ea305d18429dc70a57f6cfed758305cb42a7cb164d244a139e88383-DPD_UK_Account_Details_block.png" width="500px" alt="Entering account details" />
+        <Image align="center" border={true} src="https://files.readme.io/9e466e696ea305d18429dc70a57f6cfed758305cb42a7cb164d244a139e88383-DPD_UK_Account_Details_block.png" width="500px" caption="Entering account details" />
         <br />
 
         <AsteridkForMandatoryElements />
@@ -79,7 +79,7 @@ In SAPIENT, you can create a DPD UK shipping account by selecting your desired <
 
         In the **SHIPPING ACCOUNT** block, enter the necessary information as explained in the following table.
 
-        <Image align="center" border={true} src="https://files.readme.io/39d87085578107757d9093cbbe563490cfaddc225e515ed2da42c1ab2bef70ee-DPD_UK_Shipping_Account_block.png" width="400px" alt="Specifying shipping account details" />
+        <Image align="center" border={true} src="https://files.readme.io/39d87085578107757d9093cbbe563490cfaddc225e515ed2da42c1ab2bef70ee-DPD_UK_Shipping_Account_block.png" width="400px" caption="Specifying shipping account details" />
         <br />
 
         <Callout icon="💡" theme="default">
@@ -144,7 +144,7 @@ In SAPIENT, you can create a DPD UK shipping account by selecting your desired <
 
         In the **CARRIER DETAILS** block, enter the necessary information as explained in the following table.
 
-        <Image align="center" border={true} src="https://files.readme.io/7c33d0683d772640711106d7353fba4e51c9a321c1bcab6c03953d9fcd3b8570-DPD_UK_Carrier_Details_block.png" width="400px" alt="Entering carrier details" />
+        <Image align="center" border={true} src="https://files.readme.io/7c33d0683d772640711106d7353fba4e51c9a321c1bcab6c03953d9fcd3b8570-DPD_UK_Carrier_Details_block.png" width="400px" caption="Entering carrier details" />
         <br />
 
         <AsteridkForMandatoryElements />
