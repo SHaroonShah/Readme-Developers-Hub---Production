@@ -17,44 +17,30 @@ next:
 ---
 The [PUDO API](https://docs.intersoftsapient.net/reference/get_v4-pudolocations-carriercode-countrycode-postcode#/) enhances customer convenience by allowing them to access essential shipping options for both sending and returning packages seamlessly by offering the following options:
 
-* **Pick Up**: Allows customers to choose to collect their parcel from a PUDO point. It is particularly beneficial for those who may not always be available for direct delivery, helping to reduce missed delivery attempts and enhance overall customer satisfaction.
-* **Drop-off**: Allows customers to find a location where they can drop off a parcel they want to return.
+- **Pick Up**: Allows customers to choose to collect their parcel from a PUDO point. It is particularly beneficial for those who may not always be available for direct delivery, helping to reduce missed delivery attempts and enhance overall customer satisfaction.
+- **Drop-off**: Allows customers to find a location where they can drop off a parcel they want to return.
+
+
+<Image src="https://files.readme.io/fc9948cba5b87c15e89ceda1d55fe6f022a938bb2b8661ace1f6f9c9e5572799-Post_office.gif" align="center" width="200px" border={true} />
+
 
 With the advancements in the location services, Royal Mail now supports the following location types:
 
-<Cards columns={2}>
-  <Card title="Customer Service Point (CSP)" icon="fa-regular fa-building">
-    Customer Service Point at a Delivery Office.
-  </Card>
+📍**Customer Service point (CSP)**: Customer Service Point at a Delivery Office.
 
-  <Card title="Post Office (POL)" icon="fa-regular fa-envelope">
-    Nearby post office.
-  </Card>
+📍**Post Office (POL)**: Nearby post office.
 
-  <Card title="Lockers (LOK)" icon="fa-solid fa-lock">
-    Convenient parcel lockers available for pickup.
-  </Card>
+📍**Lockers (LOK)**: Convenient parcel lockers available for pickup.
 
-  <Card title="Collect+ Stores (PSH)" icon="fa-solid fa-store">
-    A network of retail outlets, offering parcel collection services.
-  </Card>
-</Cards>
+📍**RMShop (PSH)**: A network of retail outlets, offering parcel collection services.
 
-The SAPIENT system offers two approaches for accessing PUDO (Pick Up Drop Off) locations to enhance local collection options for Royal Mail customers.
+The SAPIENT system offers two effective approaches for accessing PUDO (Pick Up Drop Off) locations to enhance local collection options for Royal Mail customers.
 
-<Columns layout="auto">
-  <Column>
-    **PUDO API**
+The first method utilises the [PUDO API](https://docs.intersoftsapient.net/reference/get_v4-pudolocations-carriercode-countrycode-postcode#/), which allows users to retrieve nearby collection points on an ad-hoc basis during checkout ensuring real-time access to essential location information.
 
-    The [PUDO API](https://docs.intersoftsapient.net/reference/get_v4-pudolocations-carriercode-countrycode-postcode#/) allows users to retrieve nearby collection points on an ad-hoc basis during checkout, ensuring real-time access to location information.
-  </Column>
+The second approach involves SFTP (Secure File Transfer Protocol), where customers can download a comprehensive, daily-updated library of all available PUDO locations.
 
-  <Column>
-    **SFTP**
-
-    SFTP (Secure File Transfer Protocol) enables customers to download a comprehensive, daily-updated library of all available PUDO locations.
-  </Column>
-</Columns>
+Together, these options provide flexibility and convenience, catering to the diverse shipping needs of Royal Mail customers.
 
 Based on your requirements, you can choose various approaches to use the PUDO lookup and create a Royal Mail shipment with the Local Collect enhancement as explained in the following sections.
 
@@ -72,30 +58,10 @@ Based on your requirements, you can choose various approaches to use the PUDO lo
 
   The following new query parameters have been added to the [Get PUDO Locations](https://docs.intersoftsapient.net/reference/get_v4-pudolocations-carriercode-countrycode-postcode#/) API request.
 
-  <table>
-    <thead>
-      <tr>
-        <th>Element</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><strong>locationServices</strong></td>
-        <td>This parameter specifies the available services offered at the PUDO location, such as pickup, dropoff, or print in store.</td>
-      </tr>
-      <tr>
-        <td><strong>includeEnhancedLocationDetails</strong></td>
-        <td>
-          <p>This parameter determines whether the response includes additional details about each PUDO location.</p>
-          <ul>
-            <li>If set to true, the JSON response will include the <code>enhancedLocationDetails</code> object for each PUDO location. This includes more comprehensive information, such as facilities available at the location, for example, disabled access, parking, distance from postcode, and any additional attributes relevant to the location that might assist customers in making informed decisions.</li>
-            <li>If set to false, the response will be limited to the basic details of the PUDO locations without the enhanced attributes.</li>
-          </ul>
-        </td>
-      </tr>
-    </tbody>
-  </table>
+| Element | Description |
+| --- | --- |
+| **locationServices** | This parameter specifies the available services offered at the PUDO location, such as pickup, dropoff, or print in store. |
+| **includeEnhancedLocationDetails** | This parameter determines whether the response includes additional details about each PUDO location.<br /><br />• If set to true, the JSON response will include `enhancedLocationDetails` object for each PUDO location. This includes more comprehensive information, such as facilities available at the location, for example, disabled access, parking, and so on, distance from postcode, and any additional attributes relevant to the location that might insist customers in making informed decisions.<br /><br />• If set to false, the response will be limited to the basic details of the PUDO locations without the enhanced attributes. |
 
   The following snippet represents an example JSON response schema of the Get PUDO Location endpoint.
 
@@ -149,8 +115,8 @@ Based on your requirements, you can choose various approaches to use the PUDO lo
         },
         "enhancedLocationDetails": {
           "LocationType": "PSH",
-          "Supplier": "Collect+",
-          "SupplierLocationType": "Collect+",
+          "Supplier": "RMShop",
+          "SupplierLocationType": "RMShop",
           "LabelId": "31262463",
           "DistanceFromPostcode": "3.2",
           "DistanceUnit": "miles",
@@ -207,11 +173,11 @@ Based on your requirements, you can choose various approaches to use the PUDO lo
   <Callout icon="💡" theme="default">
     ### *Tip*
 
-    *The file is generated on a daily basis. To learn more about the file data, refer to the following example file:*
+    *The file is generated on a daily basis and to ensure you are using the most up‑to‑date data, it is recommended to retrieve the latest PUDO file after the scheduled file pickup run at 5:30 AM (BST). To learn more about the file data, refer to the following example file:*
 
-    * <a href="https://docs.google.com/spreadsheets/d/16ygmINFe4-1UUKqZ2Jwf3-7ms9Pl5qBMRVTUCz5XJJ0/edit?usp=sharing" target="_blank" rel="noopener noreferrer">RMPUDO20250718</a>
+    * <a href="https://docs.google.com/spreadsheets/d/1D-iXKCKu_Nc-iyRcXOShu62nx6BF-1ENcMKuEdxsfPk/edit?usp=sharing" target="_blank" rel="noopener noreferrer">RMPUDO20260716</a>
 
-    *The file will have a naming convention of RMPUDOyyyymmdd.csv and will be in csv format with comma delimiters. To learn more about the structure of the file refer to the<a href="https://docs.google.com/spreadsheets/d/1M86m55PXHYYoR97QIXCddtuqc80321CPKENqeKZ1y3I/edit?usp=sharing" target="_blank" rel="noopener noreferrer">PUDO file structure.</a>*
+    *The file will have a naming convention of RMPUDOyyyymmdd.csv and will be in csv format with comma delimiters. To learn more about the structure of the file refer to the <a href="https://docs.google.com/spreadsheets/d/1M86m55PXHYYoR97QIXCddtuqc80321CPKENqeKZ1y3I/edit?usp=sharing" target="_blank" rel="noopener noreferrer"> PUDO file structure.</a>*
   </Callout>
 </Accordion>
 
@@ -227,7 +193,7 @@ Based on your requirements, you can choose various approaches to use the PUDO lo
   2. By providing PUDO ID:
      1. The request must include `PudoId`.
      2. The **ServiceEnhancements** code—**LocalCollect** must not be used.
-     3. The **Email** or **SMS** notification service enhancement must not be used.
+     3. The **Email** or **SMS** notification service enhancement must be used by providing the destination's **ContactPhone** or **ContactEmail** information, so the end consumer can be notified when their item is ready to be collected from the post office.
 
   If the `pudoId` field is included in **Address** object of the Royal Mail Create Shipment request, then SAPIENT recognises the specific Royal Mail location by its unique ID, and the label will be generated with the address information of that PUDO location.
 
@@ -237,7 +203,7 @@ Based on your requirements, you can choose various approaches to use the PUDO lo
   >
   > * *If the`pudoId` is provided for any address other than the destination address, an error will be returned.*
   > * *If the`pudoId` is provided for a carrier that does not use PUDO, an error will be returned.*
-  > * *If the destination company name includes “c/o” and the`PudoId` is not populated, the existing Local Collect functionality will continue to apply.*
+  > * *If the destination company name includes “c/o” and the `PudoId` is not populated, the existing Local Collect functionality will continue to apply.*
 </Accordion>
 
 <br />
