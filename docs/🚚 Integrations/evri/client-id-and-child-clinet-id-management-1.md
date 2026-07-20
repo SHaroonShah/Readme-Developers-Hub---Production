@@ -35,7 +35,7 @@ To add the child client department to the EVRi's parent shipping account, follow
   <ToggleListItem title="2. Select the parent shipping account">
     In the **Shipping Accounts** page that appears, in the table, select the EVRi shipping account to which you want to add the child client department.
 
-    <Image align="center" border={true} src="https://files.readme.io/5c7b97571f4faf1a56e4084cf6216305a6215cf5fc95b824a38466f0ea9dfdd2-Selecting_EVRi_shipping_account.png" />
+    <Image align="center" border={true} src="https://files.readme.io/5c7b97571f4faf1a56e4084cf6216305a6215cf5fc95b824a38466f0ea9dfdd2-Selecting_EVRi_shipping_account.png" caption="Selecting parent shipping account"/>
 
     ***
   </ToggleListItem>
@@ -45,7 +45,7 @@ To add the child client department to the EVRi's parent shipping account, follow
   <ToggleListItem title="3. Select option to view child client departments">
     In the **View Shipping Account \[Account Name]** page that opens, in the **CARRIER DETAILS** block, select ![](https://files.readme.io/1a04f65a02853417ac0ba36c0771ed4e9c07f508e5e3b7ee7423d7a572aeba18-Child_client_departments_button.png).
 
-    <Image align="center" border={true} src="https://files.readme.io/b426866fc50d28daa7c738c1c9fef6c88d45fb993b37f57b742e83e40fa4b1a7-Accesisng_option_to_view_child_client_departments.png" />
+    <Image align="center" border={true} src="https://files.readme.io/b426866fc50d28daa7c738c1c9fef6c88d45fb993b37f57b742e83e40fa4b1a7-Accesisng_option_to_view_child_client_departments.png" caption="Accessing child-client departments"/>
 
     ***
   </ToggleListItem>
@@ -55,7 +55,7 @@ To add the child client department to the EVRi's parent shipping account, follow
   <ToggleListItem title="4. Select option to add child client department">
     In the **Child Client Departments** page that opens, select select ![](https://files.readme.io/a5634b2e65393faf626f20ce0e94e629ef718bff94a1dd808e0acdf74a0b4314-Add_child_client_departments_button.png).
 
-    <Image align="center" border={true} src="https://files.readme.io/576751ba28c641b484d85cbea8a3f3f7bfd3eafc2a21dc3408b18441d9f686f5-Selecting_option_to_add_child_client_department.png" />
+    <Image align="center" border={true} src="https://files.readme.io/576751ba28c641b484d85cbea8a3f3f7bfd3eafc2a21dc3408b18441d9f686f5-Selecting_option_to_add_child_client_department.png" caption="Selecting option to add child client department"/>
 
     ***
   </ToggleListItem>
@@ -65,7 +65,7 @@ To add the child client department to the EVRi's parent shipping account, follow
   <ToggleListItem title="5. Enter child client department details">
     In the **Add Child Client Department** form that opens, enter the necessary information as explained in the following table.
 
-    <Image align="center" border={true} src="https://files.readme.io/7349a7086efc76c3d5cffdaaf65b671a702cc733d090a03688277c701e833ea4-Adding_child_client_department.png" width="400px" />
+    <Image align="center" border={true} src="https://files.readme.io/7349a7086efc76c3d5cffdaaf65b671a702cc733d090a03688277c701e833ea4-Adding_child_client_department.png" width="400px" caption="Entering child client department details"/>
 
     <br />
 
