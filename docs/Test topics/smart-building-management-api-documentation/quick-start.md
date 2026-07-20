@@ -23,8 +23,6 @@ Complete these steps before you send a request:
 
 To make your first authentication request, perform the steps as explained in the following procedure.
 
-1. Get an access token.
-
 <Accordion title="Step 1: Obtain an access token">
 
 Send a `POST` request to `/oauth/token` with your OAuth 2.0 client credentials. The `client_credentials` grant exchanges your client credentials for a bearer token.
@@ -50,8 +48,6 @@ A successful response includes the token to use in the next request and its life
 Copy the value of `access_token`.
 
 </Accordion>
-
-2. Retrieve a building.
 
 <Accordion title="Step 2: Call the Buildings endpoint">
 
