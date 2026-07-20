@@ -15,23 +15,27 @@ next:
 ---
 In SAPIENT, you can create a FedEx shipping account by selecting your desired <Glossary>shipping location</Glossary>, entering the corresponding account and carrier details, and then adding the account to the system.
 
-> 🚧 _Important_
->
-> _Before setting up the <Glossary>shipping account</Glossary>, make sure:_
->
-> * _You have [enabled the integration](https://docs.intersoftsapient.net/docs/integration-activation) with FedEx and have already [created a shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location)._
-> * _You have the 9-digit FedEx carrier account number._
-> * _You have the exact shipping address that you have provided to FedEx, as this information is validated via the Address Validation API. If the address does not match, then a corresponding error message is displayed—and you will not proceed to the **Multi-Factor Authentication** (MFA) stage of the **Add Shipping Account** form._
->
-> _The multi-factor authentication is a crucial stage of the FedEx shipping account creation process, and this authentication must be completed by the FedEx account holder. This is done so that the account is validated in a secure manner and then can be used for shipping via our API._
+<Callout icon="🚧" theme="warn">
+  ### _Important_
+
+  _Before setting up the <Glossary>shipping account</Glossary>, make sure:_
+
+  - _You have [enabled the integration](https://docs.intersoftsapient.net/docs/integration-activation) with FedEx and have already [created a shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location)._
+  - _You have the 9-digit FedEx carrier account number._
+  - _You have the exact shipping address that you have provided to FedEx, as this information is validated via the Address Validation API. If the address does not match, then a corresponding error message is displayed—and you will not proceed to the&#x20;_**_Multi-Factor Authentication_**_&#x20;(MFA) stage of the&#x20;_**_Add Shipping Account_**_&#x20;form._
+
+  _The multi-factor authentication is a crucial stage of the FedEx shipping account creation process, and this authentication must be completed by the FedEx account holder. This is done so that the account is validated in a secure manner and then can be used for shipping via our API._
+</Callout>
 
 ## How to add FedEx shipping account
 
 To add a shipping account for FedEx in SAPIENT, follow the instructions as explained in the following procedure:
 
-> 🚧 _Important_
->
-> _You can create and manage the FedEx shipping account only via the SAPIENT UI._
+<Callout icon="🚧" theme="warn">
+  ### _Important_
+
+  _You can create and manage the FedEx shipping account only via the SAPIENT UI._
+</Callout>
 
 <ToggleList>
   <ToggleListItem title="1. Select the Shipping Accounts page">
@@ -47,7 +51,7 @@ To add a shipping account for FedEx in SAPIENT, follow the instructions as expla
   <ToggleListItem title="2. Select option to add shipping account">
     On the **Shipping Accounts** page that opens, select ![](https://files.readme.io/5eb134426849b1adb3049756830b6bef19e7dc67dca55891e64ff7b9c8eadd8e-add_shipping_account_button.png).
 
-    <Image align="center" border={true} src="https://files.readme.io/3b149ee84f86fb8d4f02c43b2733c7eb85aea3ac6e2f01692af371f631570bf3-Add_shipping_account_button_DX.png" caption="Accessing option to add shipping account" />
+    <Image align="center" border={true} src="https://files.readme.io/3b149ee84f86fb8d4f02c43b2733c7eb85aea3ac6e2f01692af371f631570bf3-Add_shipping_account_button_DX.png" caption="Selecting option to add shipping account" />
 
     ***
   </ToggleListItem>
@@ -88,7 +92,7 @@ To add a shipping account for FedEx in SAPIENT, follow the instructions as expla
 
         At the **Shipping Account** stage, you can specify the general details associated to your FedEx account number.
 
-        <Image align="center" border={true} src="https://files.readme.io/8822b5421cd564a71a5d9e39a2ad6ec6cc6eb783034bb5979b0b2522299bdc55-FEDEX_Shipping_account_stage.png" caption="Specifying shipping account details" />
+        <Image align="center" border={true} src="https://files.readme.io/8822b5421cd564a71a5d9e39a2ad6ec6cc6eb783034bb5979b0b2522299bdc55-FEDEX_Shipping_account_stage.png" caption="Entering shipping account details" />
 
         <br />
 
@@ -237,7 +241,7 @@ To add a shipping account for FedEx in SAPIENT, follow the instructions as expla
 
         After successfully specifying the shipping account details, at the **EULA** stage, read the FedEx 3rd party end user license agreement and confirm it by selecting the **I accept the terms of FedEx EULA to start shipping** checkbox and ![alt text](https://files.readme.io/a544674d471b96aadef7f8afe38ba10b912f11fb7b7fd758dc372d04dfbdd7da-I_agree_button.png) button.
 
-        <Image align="center" border={true} src="https://files.readme.io/81109fca62feb4ab8c27b0f031bbdd6e5f8e16fb0cc80ebb9e01d243bafc1621-FedEx_Eula_tab.png" />
+        <Image align="center" border={true} src="https://files.readme.io/81109fca62feb4ab8c27b0f031bbdd6e5f8e16fb0cc80ebb9e01d243bafc1621-FedEx_Eula_tab.png" caption="Confirming EULA agreement"/>
 
         <br />
 
@@ -251,7 +255,7 @@ To add a shipping account for FedEx in SAPIENT, follow the instructions as expla
       <Tab title="3. Shipping Address (MFA 1)"> <br />
         After confirming the FedEx End-User License Agreement (EULA), the **Shipping Address** stage is the first factor of authentication, where you can specify the shipping address details that are associated with the 9-digit FedEx account number, so that the system can validate and match it with the addresses stored in the FedEx system.
 
-        <Image align="center" border={true} src="https://files.readme.io/e0abd56eb4207f5e043cd1ba3259992715398fa85a2deaf011a014c8d02b85ca-FedEx_Shippig_address_stage.png" />
+        <Image align="center" border={true} src="https://files.readme.io/e0abd56eb4207f5e043cd1ba3259992715398fa85a2deaf011a014c8d02b85ca-FedEx_Shippig_address_stage.png" caption="Entering shipping address details"/>
 
         <br />
 
@@ -399,7 +403,7 @@ To add a shipping account for FedEx in SAPIENT, follow the instructions as expla
         <Accordion title="Authentication with recent invoice details">
           If you want to validate your FedEx shipping account via the recent invoice, then you must select the **Recent Invoice** option, and enter the necessary information as described in the following table.
 
-          <Image align="center" border={true} src="https://files.readme.io/d5ab0db4e4030ad6c483ebfee1f964109f4d0d4c3d8839a9224b656fb463a4e9-Recent_invoice_option.png" />
+          <Image align="center" border={true} src="https://files.readme.io/d5ab0db4e4030ad6c483ebfee1f964109f4d0d4c3d8839a9224b656fb463a4e9-Recent_invoice_option.png" caption="Configuring MFA with invoice details" />
 
           <br />
 
@@ -480,7 +484,7 @@ To add a shipping account for FedEx in SAPIENT, follow the instructions as expla
         <Accordion title="Authentication with PIN generation">
           If you want to validate your FedEx shipping account via PIN, then you must select the **PIN Generation** option, and enter the necessary information as described in the following table.
 
-          <Image align="center" border={true} src="https://files.readme.io/1dd479887e9c4881543742d8ef07a3a1c993eefa871db0e9125ccaa3918fc77e-PIN_generation_options.png" />
+          <Image align="center" border={true} src="https://files.readme.io/1dd479887e9c4881543742d8ef07a3a1c993eefa871db0e9125ccaa3918fc77e-PIN_generation_options.png" caption="Configuring MFA with PIN generation"/>
 
           <br />
 
