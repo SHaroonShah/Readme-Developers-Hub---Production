@@ -182,19 +182,4 @@ Documentation is complete only when all of the following are true:
 - Reduce publishing errors through automated validation.
 - Prevent incomplete or inaccurate content from reaching users through defined quality gates.
 
-```mermaid
-flowchart TD
-A[Product Change] --> B[Documentation Task Created]
-B --> C[Information Gathering]
-C --> D[AI Draft Generation]
-D --> E[Technical Writer Review]
-E --> F[Engineering Validation]
-F --> G[Automated Documentation Checks]
-G --> H{Checks Passed?}
-H -->|No| E
-H -->|Yes| I[Pull Request Approval]
-I --> J[Documentation Published]
-J --> K[Continuous Maintenance]
-```
-
 <br />
