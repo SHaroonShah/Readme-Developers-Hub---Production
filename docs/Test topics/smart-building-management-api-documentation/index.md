@@ -6,79 +6,69 @@ icon: fad fa-warehouse
 metadata:
   robots: index
 ---
-Project Overview
+Use this overview to understand how to integrate with the fictional Smart Building Management REST API to monitor building data, control devices, and automate workflows.
 
-What am I documenting?
+## API scope
 
-This project documents a fictional Smart Building Management REST API that allows developers and system integrators to monitor and control building devices such as HVAC systems, lighting, occupancy sensors, energy meters, and alarms.
+The API supports applications and third-party integrations for building devices, including HVAC systems, lighting, occupancy sensors, energy meters, and alarms.
 
-The API enables developers to build applications that retrieve live building data, manage equipment, automate workflows, and integrate smart building functionality into third-party platforms.
+You can retrieve live building data, manage equipment, automate workflows, and connect smart-building functionality to external platforms.
 
-⸻
+## Who should use this documentation
 
-Target Audience
+<Columns layout="auto">
+  <Column>
 
-This documentation is intended for:
+### Primary audiences
 
-- Software Developers
-- API Integrators
-- Solution Architects
-- Technical Consultants
-- QA Engineers
+- Software developers
+- API integrators
+- Solution architects
+- Technical consultants
+- QA engineers
 
-These users have basic knowledge of REST APIs, HTTP requests, and JSON.
+  </Column>
+  <Column>
 
-⸻
+### Start with this knowledge
 
-Problem Statement
+- Work with REST APIs.
+- Use HTTP methods: `GET`, `POST`, `PUT`, and `DELETE`.
+- Read and write JSON.
+- Access your API credentials.
+- Run requests with Postman, cURL, or a programming language that can make HTTP requests.
 
-Smart building platforms often expose hundreds of API endpoints. Without clear documentation, developers struggle to:
+  </Column>
+</Columns>
 
-- Authenticate successfully
-- Understand available endpoints
-- Interpret API responses
-- Troubleshoot integration issues
-- Keep documentation synchronized with product updates
+## Integration goals
 
-This documentation provides a structured and maintainable reference that enables users to integrate with the Smart Building API efficiently.
+<Columns layout="auto">
+  <Column>
 
-⸻
+### What you can do
 
-Learning Outcomes
+- Generate API credentials.
+- Authenticate with OAuth 2.0.
+- Make authenticated API requests.
+- Retrieve building information and sensor data.
+- Control building devices.
+- Handle common API errors and troubleshoot request failures.
 
-After reading this documentation, users will be able to:
+  </Column>
+  <Column>
 
-- Generate API credentials
-- Authenticate using OAuth 2.0
-- Make authenticated API requests
-- Retrieve building information
-- Query sensor data
-- Control building devices
-- Handle common API errors
-- Troubleshoot authentication and request failures
+### Problems this documentation addresses
 
-⸻
+Smart building platforms can expose hundreds of endpoints. This documentation helps you authenticate successfully, find available endpoints, interpret API responses, troubleshoot integrations, and keep implementation guidance aligned with product updates.
 
-Assumptions
+  </Column>
+</Columns>
 
-Readers are expected to:
+## API requirements and limitations
 
-- Understand REST APIs
-- Know HTTP methods (GET, POST, PUT, DELETE)
-- Be familiar with JSON
-- Have access to API credentials
-- Use tools such as Postman, cURL, or a programming language capable of making HTTP requests
+Use an internet connection and HTTPS for every request. The API uses OAuth 2.0 authentication and JSON request and response bodies.
 
-⸻
-
-Technical Limitations
-
-This documentation assumes:
-
-- Internet connectivity
-- HTTPS communication
-- OAuth 2.0 authentication
-- JSON request and response bodies
-- API version v1
+This documentation covers API version `v1`.
 
 <br />
