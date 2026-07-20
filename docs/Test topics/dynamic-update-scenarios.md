@@ -12,7 +12,9 @@ You will use these scenarios to update documentation accurately when product ter
 Documentation must evolve with the product so it does not become outdated or inconsistent. These scenarios show how the documentation process responds to common Software Development Lifecycle (SDLC) changes while maintaining accuracy and consistency.
 
 <Callout icon="fa-solid fa-user-check" theme="info">
-AI can identify inconsistencies, generate drafts, and validate formatting. Human reviewers remain responsible for approving product terminology and technical accuracy.
+  ### _Note_
+
+  _AI can identify inconsistencies, generate drafts, and validate formatting. Human reviewers remain responsible for approving product terminology and technical accuracy._
 </Callout>
 
 ## Scenario overview
@@ -188,11 +190,11 @@ The Software Engineer and Technical Writer approve the pull request. Documentati
 
 ## Summary
 
-| Scenario | AI role | Human review | Outcome |
-| --- | --- | --- | --- |
-| UI terminology change | Terminology detection and update suggestions | Product Manager and Technical Writer | Consistent terminology across documentation |
-| Major feature launch | Draft generation, style checks, and quality validation | Software Engineer, Product Manager, and Technical Writer | New documentation published with the product release |
-| Outdated or conflicting information | Conflict detection and repository-wide validation | Backend Engineer and Technical Writer | A single source of truth is restored |
+| Scenario                            | AI role                                                | Human review                                             | Outcome                                              |
+| ----------------------------------- | ------------------------------------------------------ | -------------------------------------------------------- | ---------------------------------------------------- |
+| UI terminology change               | Terminology detection and update suggestions           | Product Manager and Technical Writer                     | Consistent terminology across documentation          |
+| Major feature launch                | Draft generation, style checks, and quality validation | Software Engineer, Product Manager, and Technical Writer | New documentation published with the product release |
+| Outdated or conflicting information | Conflict detection and repository-wide validation      | Backend Engineer and Technical Writer                    | A single source of truth is restored                 |
 
 ## Key principles
 
