@@ -14,6 +14,6 @@ metadata:
 next:
   description: ''
 ---
-<Image alt="Table components" align="center" src="https://files.readme.io/8dbe5c897412016a536ca8c6adf30e57547dbf00803c11b22d2f5e0b9219ff6f-Table.png">
+<Image caption="Table components" align="center" src="https://files.readme.io/8dbe5c897412016a536ca8c6adf30e57547dbf00803c11b22d2f5e0b9219ff6f-Table.png">
   Table components
 </Image>
