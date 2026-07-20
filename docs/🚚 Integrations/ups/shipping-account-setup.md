@@ -29,7 +29,7 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
       <ToggleListItem title="1. Select the Shipping Accounts page">
         In the left navigation panel, select **Shipping Accounts**.
 
-        <Image align="center" src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" alt="Accessing shipping accounts" />
+        <Image align="center" src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" caption="Accessing shipping accounts" />
 
         ***
       </ToggleListItem>
@@ -39,7 +39,7 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
       <ToggleListItem title="2. Select option to add shipping account">
         On the **Shipping Accounts** page that opens, select ![](https://files.readme.io/a68fed3fbbb1668dedfcf9e0a5bd246f3f1dfa92bb6c7a47c175ad8df700e827-add_shipping_account_button.png).
 
-        <Image align="center" src="https://files.readme.io/e0071b9f348522956cf0d9db5802f5bef56a11c5d3ff90f8a6bbedbc3c48d560-Add_shipping_account_button_UPS.png" alt="Selection option to add shipping account" />
+        <Image align="center" src="https://files.readme.io/e0071b9f348522956cf0d9db5802f5bef56a11c5d3ff90f8a6bbedbc3c48d560-Add_shipping_account_button_UPS.png" caption="Selection option to add shipping account" />
 
         ***
       </ToggleListItem>
@@ -49,7 +49,7 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
       <ToggleListItem title="3. Enter account details">
         On the **Add Shipping Account** form that appears, in the **ACCOUNT DETAILS** block, fill in the necessary information as described in the following table.
 
-        <Image align="center" src="https://files.readme.io/a1e3a2edb2b84155855b5d3ef2e3f44e2884976af6a88883e53504fbcb2e5af2-Account_details_block_UPS.png" width="500px" alt="Entering account details" />
+        <Image align="center" src="https://files.readme.io/a1e3a2edb2b84155855b5d3ef2e3f44e2884976af6a88883e53504fbcb2e5af2-Account_details_block_UPS.png" width="500px" caption="Entering account details" />
 
         <br />
 
@@ -68,7 +68,7 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
       <ToggleListItem title="4. Enter shipping account details">
         In the **SHIPPING ACCOUNT** block, enter the necessary information as explained in the following table.
 
-        <Image align="center" src="https://files.readme.io/ba28fb8f7a5840840e921e8649cf481a3c115804447f269786068d434d15fbcb-Shipping_account_block_UPS.png" width="400px" alt="Entering shipping account details" />
+        <Image align="center" src="https://files.readme.io/ba28fb8f7a5840840e921e8649cf481a3c115804447f269786068d434d15fbcb-Shipping_account_block_UPS.png" width="400px" caption="Entering shipping account details" />
 
         <br />
 
@@ -162,7 +162,7 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
       <ToggleListItem title="5. Enter carrier details">
         In the **CARRIER DETAILS** block, enter the necessary information as explained in the following table.
 
-        <Image align="center" src="https://files.readme.io/a3b23bd3c50a8e648377a238d6eefe16f86441b03cc9c33a7bd6a7321b8640fe-carrier_details_block_UPS.png" width="450px" alt="Entering carrier details" />
+        <Image align="center" src="https://files.readme.io/a3b23bd3c50a8e648377a238d6eefe16f86441b03cc9c33a7bd6a7321b8640fe-carrier_details_block_UPS.png" width="450px" caption="Entering carrier details" />
 
         <br />
 
