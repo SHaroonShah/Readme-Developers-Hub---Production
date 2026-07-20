@@ -5,59 +5,71 @@ hidden: true
 metadata:
   robots: index
 ---
-## Overview
+Use OAuth 2.0 Client Credentials to obtain a bearer token and authenticate each Smart Building API request.
 
-The Smart Building API uses OAuth 2.0 Client Credentials authentication.
-Every request must include a valid Bearer token.
-------------------------------------------------
+## Prepare your credentials
 
-## Authentication Flow
+Obtain your **Client ID** and **Client Secret** before requesting a token.
 
-1. Send your Client ID and Client Secret.
-2. Receive an Access Token.
-3. Include the token in every API request.
+<Callout icon="triangle-exclamation" theme="warning">
+Keep your Client Secret private. Do not expose it in client-side applications or source control.
+</Callout>
 
-***
+## Authenticate a request
 
-## Request
+1. Send your Client ID and Client Secret to the token endpoint.
 
-POST /oauth/token
-json {
-  "client_id": "CLIENT_ID",
-  "client_secret": "CLIENT_SECRET",
-  "grant_type": "client_credentials"
-}
+   ```json Request body
+   {
+     "client_id": "CLIENT_ID",
+     "client_secret": "CLIENT_SECRET",
+     "grant_type": "client_credentials"
+   }
+   ```
 
-***
+   Send the body with this request:
 
-## Header Example
+   ```http
+   POST /oauth/token
+   ```
 
-http
-Authorization: Bearer eyJhbGciOi...
+2. Receive an access token from the API.
 
-***
+3. Add the access token as a Bearer token in the `Authorization` header of every API request.
 
-## Token Expiration
+   ```http
+   Authorization: Bearer eyJhbGciOi...
+   ```
 
-Access tokens expire after 60 minutes.
-Generate a new token before expiration.
----------------------------------------
+<Columns layout="auto">
+  <Column>
 
-## Common Authentication Errors
+### Token expiration
 
-| Status | Meaning      | Resolution                         |
-| ------ | ------------ | ---------------------------------- |
-| 401    | Unauthorized | Check Client ID or Secret          |
-| 403    | Forbidden    | Verify API permissions             |
-| 429    | Rate Limited | Retry after the specified interval |
+Access tokens expire after 60 minutes. Generate a new token before the current token expires.
 
-***
+  </Column>
+  <Column>
 
-## Best Practices
+### Use HTTPS
 
-- Never expose Client Secrets.
+Send credentials and bearer tokens only over HTTPS to protect them while they are transmitted.
+
+  </Column>
+</Columns>
+
+## Common authentication errors
+
+| Status | Meaning | Resolution |
+| --- | --- | --- |
+| `401` | Unauthorized | Check your Client ID or Client Secret. |
+| `403` | Forbidden | Verify that your API permissions allow the request. |
+| `429` | Rate limited | Retry after the specified interval. |
+
+## Optional: Credential management
+
 - Store credentials securely.
 - Rotate credentials regularly.
-- Use HTTPS for all requests.
+- Generate a new access token before it expires.
 
 <br />
