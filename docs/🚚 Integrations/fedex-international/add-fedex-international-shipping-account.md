@@ -42,7 +42,7 @@ In SAPIENT, with the **Add Shipping Account** functionality, you can select the 
 
         On the **Shipping Accounts** page that opens, select the **Add Shipping Account** button.
 
-        <Image align="center" border={true} src="https://files.readme.io/8490d8ba65c4eca10caa8c051c5e73bf366fc5a6269e84a2bfb697544105b343-Add_shipping_account_option.png" caption="Accessing option to add shipping account" />
+        <Image align="center" border={true} src="https://files.readme.io/8490d8ba65c4eca10caa8c051c5e73bf366fc5a6269e84a2bfb697544105b343-Add_shipping_account_option.png" caption="Selecting option to add shipping account" />
 
         ***
       </ToggleListItem>
@@ -54,7 +54,7 @@ In SAPIENT, with the **Add Shipping Account** functionality, you can select the 
 
         On the **Add Shipping Account** form that appears, in the **ACCOUNT DETAILS** block, fill in the necessary information as described in the following table.
 
-        <Image align="center" src="https://files.readme.io/3d3f7869f2f26dca95da3be1dd3c6e2afe477883bca5c5c461d89250ad7073a3-image.png" width="500px" />
+        <Image align="center" src="https://files.readme.io/3d3f7869f2f26dca95da3be1dd3c6e2afe477883bca5c5c461d89250ad7073a3-image.png" width="500px" caption="Entering account details"/>
         <br />
         <AsteridkForMandatoryElements />
 
@@ -73,7 +73,7 @@ In SAPIENT, with the **Add Shipping Account** functionality, you can select the 
 
         In the **SHIPPING ACCOUNT** block, enter the necessary information as explained in the following table.
 
-        <Image align="center" border={true} src="https://files.readme.io/53a765a066729b4aa4b2d740073f4681bc75f021b3c396fd317e9ba810a2247b-Shipping_account_block_Amazon.png" width="600px" caption="Specifying shipping account details" />
+        <Image align="center" border={true} src="https://files.readme.io/53a765a066729b4aa4b2d740073f4681bc75f021b3c396fd317e9ba810a2247b-Shipping_account_block_Amazon.png" width="600px" caption="Entering shipping account details" />
         <br />
         <Callout icon="💡" theme="default">
           ### *Tip*
@@ -128,7 +128,7 @@ In SAPIENT, with the **Add Shipping Account** functionality, you can select the 
 
         In the **CARRIER DETAILS** block, enter the necessary information as explained in the following table.
 
-        <Image align="center" border={true} src="https://files.readme.io/a1f229d57e6bb784d4c1ed4b8d9353ea49753a79cdc843c0a8e4c885df8cc9f4-image.png" width="500px" />
+        <Image align="center" border={true} src="https://files.readme.io/a1f229d57e6bb784d4c1ed4b8d9353ea49753a79cdc843c0a8e4c885df8cc9f4-image.png" width="500px" caption="Entering carrier-specific details"/>
         < br />
         <AsteridkForMandatoryElements />
 
