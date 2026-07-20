@@ -19,6 +19,8 @@ Home
 ```
 
 <Callout icon="🧭" theme="info">
+  ###
+
   This navigation mirrors the developer journey from onboarding to implementation and support.
 </Callout>
 
@@ -42,4 +44,10 @@ Home
   </Card>
 </Cards>
 
-<br />
+### <br />Layout Rationale
+
+The reason I structured the information in the preceding hierarchy is because this structure separates learning content from reference content, making it easier for different audiences to find what they need.&#x20;
+
+Developers can move from conceptual understanding to implementation without unnecessary context switching, while experienced users can jump directly to the API References section.
+
+<br />This design also aligns with Docs-as-Code approach by enabling independent updates, simpler code reviews, and AI-assisted maintenance without introducing duplicate or conflicting content.
