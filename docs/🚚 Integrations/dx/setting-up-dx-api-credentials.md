@@ -52,7 +52,7 @@ To set up and obtain your DX API credentials, perform the steps as explained in 
   <ToggleListItem title="4. Enter the API user details">
     In the **Add API User** form that opens, enter the necessary information as explained in the following table.
 
-    <Image align="center" border={true} src="https://files.readme.io/3e31ffe-image.png" caption="Adding API user" />
+    <Image align="center" border={true} src="https://files.readme.io/3e31ffe-image.png" caption="Entering API user details" />
 
     <br />
 
@@ -76,6 +76,10 @@ To set up and obtain your DX API credentials, perform the steps as explained in 
   </ToggleListItem>
 </ToggleList>
 
-> 📘 _Note_
->
-> _If you would like an account specifically for testing purposes, you can log a request with DX's service desk at [service.desk@dxdelivery.com](mailto:service.desk@dxdelivery.com) and request your own test API credentials._
+<Callout icon="📘" theme="info">
+  ### _Note_
+
+  _If you would like an account specifically for testing purposes, you can log a request with DX's service desk at [service.desk@dxdelivery.com](mailto:service.desk@dxdelivery.com) and request your own test API credentials._
+</Callout>
+
+<br />
