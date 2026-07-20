@@ -69,18 +69,18 @@ Send credentials and bearer tokens only over HTTPS to protect them while they ar
 
 ## Common authentication errors
 
-| Status | Meaning      | Resolution                                          |
-| ------ | ------------ | --------------------------------------------------- |
-| `401`  | Unauthorized | Check your Client ID or Client Secret.              |
-| `403`  | Forbidden    | Verify that your API permissions allow the request. |
-| `429`  | Rate limited | Retry after the specified interval.                 |
+| Error Code | Description  | Resolution                                          |
+| ---------- | ------------ | --------------------------------------------------- |
+| `401`      | Unauthorized | Check your Client ID or Client Secret.              |
+| `403`      | Forbidden    | Verify that your API permissions allow the request. |
+| `429`      | Rate limited | Retry after the specified interval.                 |
 
 ## Optional: Credential management
 
 <Callout icon="💡" theme="info">
   ### _Tip_
 
-  Please bear in mind the following:&#x20;
+  _Please bear in mind the following:_&#x20;
 
   - _Store credentials securely._
 
