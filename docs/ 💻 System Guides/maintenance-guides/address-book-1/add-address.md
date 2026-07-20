@@ -29,7 +29,7 @@ In SAPIENT, you can add as many addresses as you want to enhance the system's ef
 
         In the left navigation panel, select **Address Book**.
 
-        <Image align="center" border={true} src="https://files.readme.io/145195adcbdbf39b1faea51d1afa71dcc10a408409060a05d02bc12fb48a8630-Address_option.png" alt="Accessing address book" />
+        <Image align="center" border={true} src="https://files.readme.io/145195adcbdbf39b1faea51d1afa71dcc10a408409060a05d02bc12fb48a8630-Address_option.png" caption="Accessing address book" />
 
         ***
       </ToggleListItem>
@@ -41,7 +41,7 @@ In SAPIENT, you can add as many addresses as you want to enhance the system's ef
 
         In the **Address Book** page that opens, select ![alt text](https://files.readme.io/04fd0ca01e1aa046f9d359b1784c7829dfc49e228f54bd96c6929c86db7d79fa-Add_address_button.png).
 
-        <Image align="center" border={true} src="https://files.readme.io/8ae2dc77ad318b15a6820eafa0a2e377d27bdb399930a943b1234114ad63a4fc-Add_address_option.png" alt="Accessing option to add address" />
+        <Image align="center" border={true} src="https://files.readme.io/8ae2dc77ad318b15a6820eafa0a2e377d27bdb399930a943b1234114ad63a4fc-Add_address_option.png" caption="Accessing option to add address" />
 
         ***
       </ToggleListItem>
@@ -57,7 +57,7 @@ In SAPIENT, you can add as many addresses as you want to enhance the system's ef
         >
         > *If the Address id is not provided, then the system allocates one by default.*
 
-        <Image align="center" border={true} src="https://files.readme.io/023cc3556d6fb1c94f4a6342c6ec4bd549475a0e67cdde381a4aaa8fca5ac29a-Address_name_block.png" width="400px" alt="Adding address name" />
+        <Image align="center" border={true} src="https://files.readme.io/023cc3556d6fb1c94f4a6342c6ec4bd549475a0e67cdde381a4aaa8fca5ac29a-Address_name_block.png" width="400px" caption="Adding address name" />
 
         ***
       </ToggleListItem>
@@ -69,7 +69,7 @@ In SAPIENT, you can add as many addresses as you want to enhance the system's ef
 
         In the **ADDRESS DETAILS** block, enter the necessary information as explained in the following table.
 
-        <Image align="center" border={true} src="https://files.readme.io/7c75448e34131d863e8b073a1c6afc592b7938e71b88744e044df22b9f7f1cf7-Address_details_block_2.png" alt="Entering address details" />
+        <Image align="center" border={true} src="https://files.readme.io/7c75448e34131d863e8b073a1c6afc592b7938e71b88744e044df22b9f7f1cf7-Address_details_block_2.png" caption="Entering address details" />
 
         <br />
 
