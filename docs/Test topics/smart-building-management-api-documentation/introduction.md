@@ -1,9 +1,5 @@
 ---
 title: Introduction
-excerpt: >-
-  Integrate Smart Building Management API capabilities, including live sensor
-  data, HVAC monitoring, lighting control, alarms, occupancy, and energy
-  consumption.
 deprecated: false
 hidden: false
 icon: fad fa-warehouse
@@ -11,6 +7,8 @@ metadata:
   robots: index
 ---
 # Introduction
+
+Integrate Smart Building Management API capabilities, including live sensor data, HVAC monitoring, lighting control, alarms, occupancy, and energy consumption.
 
 ## What is the Smart Building API?
 
