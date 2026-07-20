@@ -18,7 +18,7 @@ Complete these steps before you send a request:
 - Install or open a REST client such as Postman, or use cURL.
 - Find the Building ID you want to retrieve.
 
-## Make your first request
+## Create Request
 
 To make your first authentication request, perform the steps as explained in the following procedure.
 
