@@ -1,7 +1,7 @@
 ---
 title: End-to-End Documentation Lifecycle
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
