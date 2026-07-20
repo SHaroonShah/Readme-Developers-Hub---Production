@@ -19,19 +19,21 @@ In SAPIENT, you can add tracking accounts for EVRi to enhance visibility, improv
 
 Before adding an EVRi tracking account, you need to [send a corresponding request to EVRi](mailto:evriclientdesk@evri.com) via email with your EVRi client account manager cc'd in your request. In the email, make sure to add the following information:
 
-* **Client ID**
-* **Client name**
-* **Schedule for receiving tracking files**
+- **Client ID**
+- **Client name**
+- **Schedule for receiving tracking files**
 
 It can take up to 5 working days for EVRi to set up the tracking and provide the relevant credentials.
 
-> 🚧 _Important_
->
-> _Prior to adding an EVRi tracking account, make sure you have completed the following prerequisites:_
->
-> 1. _Enabled the [label integration](https://docs.intersoftsapient.net/docs/integration-activation) with EVRi._
-> 2. _Enabled the [tracking integration](https://docs.intersoftsapient.net/docs/integration-activation) with EVRi._
-> 3. _Set up your<Glossary>tracking webhook</Glossary>. For more information on how to set up a tracking webhook, refer to the [Create tracking webhook](https://docs.intersoftsapient.net/docs/create-tracking-webhook) section. This is a one-time activity, you do not have to do this every time you add a tracking account._
+<Callout icon="🚧" theme="warn">
+  ### _Important_
+
+  _Prior to adding an EVRi tracking account, make sure you have completed the following prerequisites:_
+
+  1. _Enabled the [label integration](https://docs.intersoftsapient.net/docs/integration-activation) with EVRi._
+  2. _Enabled the [tracking integration](https://docs.intersoftsapient.net/docs/integration-activation) with EVRi._
+  3. _Set up your <Glossary>tracking webhook</Glossary>. For more information on how to set up a tracking webhook, refer to the [Create tracking webhook](https://docs.intersoftsapient.net/docs/create-tracking-webhook) section. This is a one-time activity, you do not have to do this every time you add a tracking account._
+</Callout>
 
 ## How to add EVRi tracking account
 
@@ -147,3 +149,5 @@ To add a tracking account for EVRi in SAPIENT, perform the steps as explained in
     Understand tracking events and milestone data.
   </Card>
 </Cards>
+
+<br />
