@@ -54,7 +54,7 @@ You can also manifest shipments by:
 
         In the side navigation panel, select the **Shipment Processing** > **Manifesting** option.
 
-        <Image align="center" border={true} src="https://files.readme.io/43b41b65377780fd19531fd2378483c9b0c7d99c88b2c5242e584ef4225c5dae-Accessing_manifesting_option.png" alt="Accessing shipments" />
+        <Image align="center" border={true} src="https://files.readme.io/43b41b65377780fd19531fd2378483c9b0c7d99c88b2c5242e584ef4225c5dae-Accessing_manifesting_option.png" caption="Accessing shipments" />
 
         ***
       </ToggleListItem>
@@ -71,7 +71,7 @@ You can also manifest shipments by:
 
         <br />
 
-        <Image align="center" border={true} src="https://files.readme.io/41603935fe204b0f21f146742408bd60584a5659ebb2a31c9302a475d93d24cf-sorting_and_changing_location.png" alt="Specifying filters" />
+        <Image align="center" border={true} src="https://files.readme.io/41603935fe204b0f21f146742408bd60584a5659ebb2a31c9302a475d93d24cf-sorting_and_changing_location.png" caption="Specifying filters" />
       </ToggleListItem>
 
       <br />
@@ -86,7 +86,7 @@ You can also manifest shipments by:
 
         <br />
 
-        <Image align="center" border={true} src="https://files.readme.io/41603935fe204b0f21f146742408bd60584a5659ebb2a31c9302a475d93d24cf-sorting_and_changing_location.png" alt="Specifying filters" />
+        <Image align="center" border={true} src="https://files.readme.io/41603935fe204b0f21f146742408bd60584a5659ebb2a31c9302a475d93d24cf-sorting_and_changing_location.png" caption="Specifying filters" />
 
         ***
       </ToggleListItem>
@@ -98,7 +98,7 @@ You can also manifest shipments by:
 
         Next to your desired shipment, select the manifest button: ![Manifest button](https://files.readme.io/fcb77ce4360ada3f172a0dccfceec28b483d6f4aa3e2a6a467929cf803686efe-Manifest_button.png)
 
-        <Image align="center" border={true} src="https://files.readme.io/417b398230fd2d49d159b9cc0cffa33e38496a2e5649b8fe2ec36d0a3078ce4a-Manifest_option.png" alt="Manifesting shipment" />.
+        <Image align="center" border={true} src="https://files.readme.io/417b398230fd2d49d159b9cc0cffa33e38496a2e5649b8fe2ec36d0a3078ce4a-Manifest_option.png" caption="Manifesting shipment" />.
 
         ***
       </ToggleListItem>
@@ -110,7 +110,7 @@ You can also manifest shipments by:
 
         Review the confirmation dialog carefully and select **Yes** if everything is correct.
 
-        <Image align="center" border={true} src="https://files.readme.io/2b517ebeb7b8975acf72b7691c2d98aa3fd26d639e5ae366fdb98d5c5ae9d80e-Confirming_manifest.png" width="350px" />
+        <Image align="center" border={true} src="https://files.readme.io/2b517ebeb7b8975acf72b7691c2d98aa3fd26d639e5ae366fdb98d5c5ae9d80e-Confirming_manifest.png" width="350px" caption="Confirming manifest"/>
 
         ***
       </ToggleListItem>
@@ -122,7 +122,7 @@ You can also manifest shipments by:
 
         After confirming, you are directed to the **Manifest Processing Page** to track your manifest progress.
 
-        <Image align="center" border={true} src="https://files.readme.io/94ad18f86e7c082888deddcd6fd000efdf60439d19d1779d552b579fe3f219d1-Manifest_processing_page.png" alt="Processing manifest" />
+        <Image align="center" border={true} src="https://files.readme.io/94ad18f86e7c082888deddcd6fd000efdf60439d19d1779d552b579fe3f219d1-Manifest_processing_page.png" caption="Processing manifest" />
 
         <br />
 
@@ -136,7 +136,7 @@ You can also manifest shipments by:
 
         Once processing is complete, expand the **Manifest/s processed** section using the view button: ![View manifests button](https://files.readme.io/b912251130f1a55af9a87de2cd47d96fa27576b740d7f5e4c4100d08470606d9-View_manifests_button.png)
 
-        <Image align="center" border={true} src="https://files.readme.io/a160eccb1432a48bba9e1295800375eb7307516e9c2fbcbb7d5f386f98648443-Manifest_details.png" alt="Viewing manifest details" />
+        <Image align="center" border={true} src="https://files.readme.io/a160eccb1432a48bba9e1295800375eb7307516e9c2fbcbb7d5f386f98648443-Manifest_details.png" caption="Viewing manifest details" />
 
         <br />
 
@@ -147,7 +147,7 @@ You can also manifest shipments by:
 
           _If needed, you can export your manifest file by selecting the **Download as PDF** icon ![PDF icon](https://files.readme.io/e12fc39d80fd5eb7931db6e1db22df354422aa16bbc2c675f70c85c4a788431c-PDF_icon.png) in the **Manifest Number** column._
 
-          <Image align="center" border={true} src="https://files.readme.io/bc5120461fe99089d00c1c83f39a4e5e0706b8a62d25f2c39b697cb4377bf6b4-Accessing_held_shipmehts.png" alt="Accessing canceled shipments" />
+          <Image align="center" border={true} src="https://files.readme.io/bc5120461fe99089d00c1c83f39a4e5e0706b8a62d25f2c39b697cb4377bf6b4-Accessing_held_shipmehts.png" caption="Accessing canceled shipments" />
         </Callout>
       </ToggleListItem>
     </ToggleList>
