@@ -35,7 +35,7 @@ In SAPIENT, you can create a <Glossary>shipping account</Glossary>, assign your 
 
         In the left navigation panel, select **Shipping Accounts**.
 
-        <Image align="center" border={true} src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" alt="Accessing shipping accounts" />
+        <Image align="center" border={true} src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" caption="Accessing shipping accounts" />
 
         ***
       </ToggleListItem>
@@ -47,7 +47,7 @@ In SAPIENT, you can create a <Glossary>shipping account</Glossary>, assign your 
 
         On the **Shipping Accounts** page that opens, select the **Add Shipping Account** button.
 
-        <Image align="center" border={true} src="https://files.readme.io/8490d8ba65c4eca10caa8c051c5e73bf366fc5a6269e84a2bfb697544105b343-Add_shipping_account_option.png" alt="Accessing option to add shipping account" />
+        <Image align="center" border={true} src="https://files.readme.io/8490d8ba65c4eca10caa8c051c5e73bf366fc5a6269e84a2bfb697544105b343-Add_shipping_account_option.png" caption="Accessing option to add shipping account" />
 
         ***
       </ToggleListItem>
@@ -59,7 +59,7 @@ In SAPIENT, you can create a <Glossary>shipping account</Glossary>, assign your 
 
         On the **Add Shipping Account** form that appears, fill in the **ACCOUNT DETAILS** block:
 
-        <Image align="center" border={true} src="https://files.readme.io/dc5c99c4576f2625aa7809d67c9cf26573ed44dbce51fdebc2df7f43013cde3b-Account_details_block.png" alt="Entering account details" />
+        <Image align="center" border={true} src="https://files.readme.io/dc5c99c4576f2625aa7809d67c9cf26573ed44dbce51fdebc2df7f43013cde3b-Account_details_block.png" caption="Entering account details" />
 
         <br />
 
@@ -84,7 +84,7 @@ In SAPIENT, you can create a <Glossary>shipping account</Glossary>, assign your 
 
         In the **SHIPPING ACCOUNT** block, enter the necessary information:
 
-        <Image align="center" border={true} src="https://files.readme.io/86c792139df738b9d3d72e61e3a2d9edf6e95e49ebaed402137335a66e796d4a-Shipping_account_block.png" width="400px" alt="Specifying shipping account details" />
+        <Image align="center" border={true} src="https://files.readme.io/86c792139df738b9d3d72e61e3a2d9edf6e95e49ebaed402137335a66e796d4a-Shipping_account_block.png" width="400px" caption="Specifying shipping account details" />
 
         <br />
 
