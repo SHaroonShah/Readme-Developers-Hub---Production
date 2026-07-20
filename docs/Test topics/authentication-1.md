@@ -26,7 +26,7 @@ Obtain your **Client ID** and **Client Secret** before requesting a token.
 
 To authenticate a request, perform the steps as explained in the following procedure.
 
-<Accordion title="Send your Client ID and Client Secret to the token endpoint" icon="fa-info-circle">
+<Accordion title="1. Send your Client ID and Client Secret to the token endpoint">
   ```json Request body
    {
      "client_id": "CLIENT_ID",
@@ -44,7 +44,7 @@ To authenticate a request, perform the steps as explained in the following proce
    Now, receive an access token from the API.
 </Accordion>
 
-<Accordion title="Add the access token as a Bearer token">
+<Accordion title="2. Add the access token as a Bearer token">
 Add the access token as a Bearer token in the `Authorization` header of every API request.
   ```http
    Authorization: Bearer eyJhbGciOi...
