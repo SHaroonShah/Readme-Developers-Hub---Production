@@ -53,7 +53,7 @@ In SAPIENT, you can add as many products as you want and use them in your <Gloss
 
         On the **Products** page that appears, select ![alt text](https://files.readme.io/551c1450e733a95bd452603ef5b85d1a7117a44a87b0689da3cd7b09b6351023-Add_product_button.png).
 
-        <Image align="center" border={true} src="https://files.readme.io/da5be64375756a300994c03536bf33b18d2b0cc962e5e7089d0342f299816021-image.png" caption="Selecting option to add shipping location" />
+        <Image align="center" border={true} src="https://files.readme.io/da5be64375756a300994c03536bf33b18d2b0cc962e5e7089d0342f299816021-image.png" caption="Selecting option to add product" />
 
         ***
       </ToggleListItem>
@@ -69,7 +69,7 @@ In SAPIENT, you can add as many products as you want and use them in your <Gloss
           <Tab title="Basic product details">
             On the **Add Product** form that opens, in the **PRODUCT DETAILS** block, enter the necessary information.
 
-            <Image align="center" border={true} src="https://files.readme.io/bb154e33c4ce1aac13fcc54301465da2cec7a83940ffbfd1379c2aac3101d9e5-image.png" caption="Entering location details" />
+            <Image align="center" border={true} src="https://files.readme.io/bb154e33c4ce1aac13fcc54301465da2cec7a83940ffbfd1379c2aac3101d9e5-image.png" caption="Entering product details" />
 
             <br />
 
@@ -138,7 +138,7 @@ In SAPIENT, you can add as many products as you want and use them in your <Gloss
           <Tab title="Hazardous product details">
             If the product you are adding is a hazardous material, then turn on ![alt text](https://files.readme.io/efe8272f619daf8eb5e78d9b1c0e910a406242d6d5a9ced9a84d013216a8521c-Hazardous_product_toggle.png) toggle and enter the necessary information as explained in the following table.
 
-            <Image align="center" border={true} src="https://files.readme.io/81567e5b0718c10f9e6955ed1b44915b5f824ddc836d0c1243b598f03225d20a-Hazardous_information_form.png" caption="Entering address details" />
+            <Image align="center" border={true} src="https://files.readme.io/81567e5b0718c10f9e6955ed1b44915b5f824ddc836d0c1243b598f03225d20a-Hazardous_information_form.png" caption="Entering hazardous product details" />
 
             <br />
 
