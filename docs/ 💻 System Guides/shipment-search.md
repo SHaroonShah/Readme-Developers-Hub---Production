@@ -27,7 +27,7 @@ To search shipments in SAPIENT, perform the steps as explained in the following 
 
     In the side navigation panel, select the **Shipment Search** option.
 
-    <Image align="center" border={true} src="https://files.readme.io/61c56d1eac2f021d25812b6f6bda320ace57046cc188b77226161bca4a73963e-Shipment_search_option.png" alt="Accessing shipments" />
+    <Image align="center" border={true} src="https://files.readme.io/61c56d1eac2f021d25812b6f6bda320ace57046cc188b77226161bca4a73963e-Shipment_search_option.png" caption="Accessing shipments" />
 
     ***
   </ToggleListItem>
@@ -43,7 +43,7 @@ To search shipments in SAPIENT, perform the steps as explained in the following 
     >
     > *The maximum date range for shipment search is 30 days*.
 
-    <Image align="center" border={true} src="https://files.readme.io/f9ddcaf850dfd3eab60dd8b53e411e104e71000c4a4447df5a251a6368f39409-Shipment_search_filter.png" alt="Specifying filters" />
+    <Image align="center" border={true} src="https://files.readme.io/f9ddcaf850dfd3eab60dd8b53e411e104e71000c4a4447df5a251a6368f39409-Shipment_search_filter.png" caption="Specifying filters" />
 
     ***
   </ToggleListItem>
@@ -55,7 +55,7 @@ To search shipments in SAPIENT, perform the steps as explained in the following 
 
     Once filtered, the **Shipment Search** table displays the shipments matching your search criteria. The columns displayed in the table are explained in the following table.
 
-    <Image align="center" border={true} src="https://files.readme.io/c285916b7f58433871d17666a0e9fc2aa38ea4b929a4cb089304fd5b608b87ba-Shipment_search_table.png" alt="Viewing shipments" />
+    <Image align="center" border={true} src="https://files.readme.io/c285916b7f58433871d17666a0e9fc2aa38ea4b929a4cb089304fd5b608b87ba-Shipment_search_table.png" caption="Viewing shipments" />
 
     <br />
 
@@ -117,3 +117,5 @@ To search shipments in SAPIENT, perform the steps as explained in the following 
     ***
   </ToggleListItem>
 </ToggleList>
+
+<br />
