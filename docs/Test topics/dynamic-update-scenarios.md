@@ -5,6 +5,8 @@ hidden: true
 metadata:
   robots: index
 ---
+# Dynamic Update Scenarios
+
 You will use these scenarios to update documentation accurately when product terminology, features, or technical behavior changes.
 
 ## Overview
