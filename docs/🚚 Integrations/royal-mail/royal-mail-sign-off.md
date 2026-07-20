@@ -20,7 +20,7 @@ This section outlines the sign-off process for each scenario, highlights key API
 
   > 📘 *Note*
   >
-  > *If the<Glossary>account type</Glossary> is set to **Sandbox** and the OBA access code is not provided, SAPIENT does not send a request to Royal Mail and the account is created successfully without an OBA access code. You can use this account to create test shipments*
+  > *If the <Glossary>account type</Glossary> is set to **Sandbox** and the OBA access code is not provided, SAPIENT does not send a request to Royal Mail and the account is created successfully without an OBA access code. You can use this account to create test shipments*
 </Accordion>
 
 <Accordion title="Changing account type from Sandbox to Production" icon="fa-exchange-alt">
@@ -52,7 +52,7 @@ This section outlines the sign-off process for each scenario, highlights key API
 
   > 📘 *Note*
   >
-  > *Shipping account(s) can be added and managed via API. For more information, refer to the[API References](https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts) section.*
+  > *Shipping account(s) can be added and managed via API. For more information, refer to the [API References](https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts) section.*
 
   To view a step-by-step process on how to add a shipping account with a new shipping location, refer to the following API recipe:
 
@@ -83,3 +83,5 @@ This section outlines the sign-off process for each scenario, highlights key API
     Modify an existing Royal Mail shipping account's details.
   </Card>
 </Cards>
+
+<br />
