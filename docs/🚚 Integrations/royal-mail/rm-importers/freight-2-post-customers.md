@@ -20,13 +20,13 @@ In UK, the <Glossary>shipments</Glossary> arrive as freight. For custom clearanc
 <Callout icon="💡" theme="default">
   ### _Tip_
 
-  _In the following table, the mandatory requirements are marked with an asterisk (*)._
+  _In the following table, the mandatory requirements are marked with an asterisk (\*)._
 </Callout>
 
 <Table align={["center","left"]}>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "center" }}>
         Requirement
       </th>
 
@@ -38,7 +38,7 @@ In UK, the <Glossary>shipments</Glossary> arrive as freight. For custom clearanc
 
   <tbody>
     <tr>
-      <td>
+      <td style={{ textAlign: "center" }}>
         **Shipper Address**
       </td>
 
@@ -48,22 +48,22 @@ In UK, the <Glossary>shipments</Glossary> arrive as freight. For custom clearanc
     </tr>
 
     <tr>
-      <td>
+      <td style={{ textAlign: "center" }}>
         **Return Address**
       </td>
 
       <td>
         **Return to Sender** section of the **Create Shipment** request to be populated with the Royal Mail Heathrow Distribution Centre address:
 
-        * **CompanyName**: COMPANY NAME - Royal Mail HWDC
-        * **Line1:** Axis Park, Hurricane Way
-        * **Town:** SLOUGH
-        * **Postcode:** SL95 1FP
+        - **CompanyName**: COMPANY NAME - Royal Mail HWDC
+        - **Line1:** Axis Park, Hurricane Way
+        - **Town:** SLOUGH
+        - **Postcode:** SL95 1FP
       </td>
     </tr>
 
     <tr>
-      <td>
+      <td style={{ textAlign: "center" }}>
         **Customs documentation**
       </td>
 
@@ -75,7 +75,7 @@ In UK, the <Glossary>shipments</Glossary> arrive as freight. For custom clearanc
     </tr>
 
     <tr>
-      <td>
+      <td style={{ textAlign: "center" }}>
         **Manifest - Royal Mail Sales Order Summary**
       </td>
 
@@ -87,22 +87,21 @@ In UK, the <Glossary>shipments</Glossary> arrive as freight. For custom clearanc
     </tr>
 
     <tr>
-      <td>
+      <td style={{ textAlign: "center" }}>
         **Royal Mail Sign Off**
       </td>
 
       <td>
         Required – CDS checks and physical labels.
 
-        For CDS checks, you will be requested to create couple of labels, manifest them and share with us the PDFs so they can be reviewed and signed off.  
-        For physical label sign off, you will be requested to create couple of labels, manifest them and ship them to Royal Mail.
+        For CDS checks, you will be requested to create couple of labels, manifest them and share with us the PDFs so they can be reviewed and signed off.<br />For physical label sign off, you will be requested to create couple of labels, manifest them and ship them to Royal Mail.
 
-        _`Note:`Details on this label are shared once the [Sandbox Test Pack](https://docs.intersoftsapient.net/docs/royal-mail-importers-sandbox-test-pack)  is approved._
+        `Note:`_Details on this label are shared once the [Sandbox Test Pack](https://docs.intersoftsapient.net/docs/royal-mail-importers-sandbox-test-pack)  is approved._
       </td>
     </tr>
 
     <tr>
-      <td>
+      <td style={{ textAlign: "center" }}>
         **Create Shipment field requirements**
       </td>
 
@@ -115,6 +114,10 @@ In UK, the <Glossary>shipments</Glossary> arrive as freight. For custom clearanc
 
 <br />
 
-> 🚧 _Important_
->
-> Please also remember to develop our **International Arrivals Containers (A-scan) API calls**. It's mandatory for Freight 2 Post customers.
+<Callout icon="🚧" theme="warn">
+  ### _Important_
+
+  _Please also remember to develop our&#x20;_**_International Arrivals Containers (A-scan) API calls_**_. It's mandatory for Freight 2 Post customers._
+</Callout>
+
+<br />
