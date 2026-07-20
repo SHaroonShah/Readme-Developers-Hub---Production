@@ -40,7 +40,7 @@ To edit a shipping account, perform the steps as explained in the following proc
 
     On the **Home** page that opens, in the left navigation panel, select **Shipping Accounts**.
 
-    <Image align="center" border={true} src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" alt="Accessing shipping accounts" />
+    <Image align="center" border={true} src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" caption="Accessing shipping accounts" />
 
     ***
   </ToggleListItem>
@@ -54,7 +54,7 @@ To edit a shipping account, perform the steps as explained in the following proc
 
     <br />
 
-    <Image align="center" border={true} src="https://files.readme.io/41603935fe204b0f21f146742408bd60584a5659ebb2a31c9302a475d93d24cf-sorting_and_changing_location.png" alt="Specifying filters" />
+    <Image align="center" border={true} src="https://files.readme.io/41603935fe204b0f21f146742408bd60584a5659ebb2a31c9302a475d93d24cf-sorting_and_changing_location.png" caption="Specifying filters" />
   </ToggleListItem>
 
   <br />
@@ -64,7 +64,7 @@ To edit a shipping account, perform the steps as explained in the following proc
 
     In the **View Shipping Account\[account name]** page that opens, select ![alt text](https://files.readme.io/af5c41de6009316deb4ab39f682b3be215f7a7673548911d06c333bc5ccf7606-Edit_shipping_account_button.png).
 
-    <Image align="center" border={true} src="https://files.readme.io/d81e673f87f261d6b098f8e062f8580297676b82eabd667fbb8a2df03beffd37-Edit_shipping_account_option.png" alt="Selecting option to edit shipping account" />
+    <Image align="center" border={true} src="https://files.readme.io/d81e673f87f261d6b098f8e062f8580297676b82eabd667fbb8a2df03beffd37-Edit_shipping_account_option.png" caption="Selecting option to edit shipping account" />
 
     ***
   </ToggleListItem>
@@ -76,7 +76,7 @@ To edit a shipping account, perform the steps as explained in the following proc
 
     In the **Edit Shipping Account\[account name]** form that opens, edit the necessary fields as explained in the [Add Shipping Account](doc:add-a-shipping-account) section. Select ![alt text](https://files.readme.io/7d51785d13050e8a7f07e25cfb722d4d8afcff81a9a6b017d397b1fbbdaabb54-Save_changes_button.png).
 
-    <Image align="center" border={true} src="https://files.readme.io/739afa80bd803ba071007e376bc6f3332ed5c2271b178d3b6f99ddad3f5a8f0b-Edit_shipping_account_page.png" alt="Editing shipping account" />
+    <Image align="center" border={true} src="https://files.readme.io/739afa80bd803ba071007e376bc6f3332ed5c2271b178d3b6f99ddad3f5a8f0b-Edit_shipping_account_page.png" caption="Editing shipping account" />
 
     <br />
 
