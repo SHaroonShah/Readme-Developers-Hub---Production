@@ -105,9 +105,7 @@ In SAPIENT, you can create a DX Freight shipping account by selecting your desir
 
         <Image align="center" border={true} src="https://files.readme.io/d0eae769c813147e1ba1ff428f31e2a84852aba1218a4858b7324d86458cd559-Shipping_account_block_DX.png" width="400px" alt="Specifying shipping account details" />
         <br />
-        <Callout icon="circle-info" theme="info">
-          Mandatory fields in the following table are marked with an asterisk (\*).
-        </Callout>
+        <AsteridkForMandatoryElements />
 
         <Table align={["center","left"]}>
           <thead>
