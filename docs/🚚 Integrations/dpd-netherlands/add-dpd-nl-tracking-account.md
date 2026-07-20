@@ -35,7 +35,7 @@ To add a tracking account for DPD NL in SAPIENT, follow the steps as explained i
 
     In the left navigation panel, select **API** > **Webhooks**. On the page that opens, select the **Tracking Accounts** tab.
 
-    <Image align="center" border={true} src="https://files.readme.io/b8bf0b939dcc8227cc88b32d2ee0707e13bbfecbe7a5d116f0b6f6ac1de3303b-Tracking_accounts_tab.png" alt="Accessing tracking accounts" />
+    <Image align="center" border={true} src="https://files.readme.io/b8bf0b939dcc8227cc88b32d2ee0707e13bbfecbe7a5d116f0b6f6ac1de3303b-Tracking_accounts_tab.png" caption="Accessing tracking accounts" />
 
     ***
   </ToggleListItem>
@@ -48,7 +48,7 @@ To add a tracking account for DPD NL in SAPIENT, follow the steps as explained i
 
     In the **Tracking Accounts** page that opens, select ![](https://files.readme.io/f879cc7a233a578517b8e8034e326bc5c585f67b641db9adc93d3388d2a6fb78-Add_tracking_account_button.png).
 
-    <Image align="center" border={true} src="https://files.readme.io/522a3682f6e9a14eca2037dd25d5d2aa0972d04bd862883f5a35ac532f1ffce8-Add_tracking_account_button_DX.png" alt="Accessing option to add tracking account" />
+    <Image align="center" border={true} src="https://files.readme.io/522a3682f6e9a14eca2037dd25d5d2aa0972d04bd862883f5a35ac532f1ffce8-Add_tracking_account_button_DX.png" caption="Accessing option to add tracking account" />
 
     ***
   </ToggleListItem>
@@ -61,7 +61,7 @@ To add a tracking account for DPD NL in SAPIENT, follow the steps as explained i
 
     On the **Add Tracking account** page that appears, in the **DETAILS** block, enter the necessary information as explained in the following table.
 
-    <Image align="center" src="https://files.readme.io/a9185dc5d398a65874e330becae04968f4c6e26cdf54de202c35bae70ec1480f-image.png" width="500px" alt="Adding tracking account" />
+    <Image align="center" src="https://files.readme.io/a9185dc5d398a65874e330becae04968f4c6e26cdf54de202c35bae70ec1480f-image.png" width="500px" caption="Adding tracking account" />
 
     <br />
 
@@ -85,7 +85,7 @@ To add a tracking account for DPD NL in SAPIENT, follow the steps as explained i
 
     In the **SFTP DETAILS** form that opens, enter the necessary information as explained in the following table.
 
-    <Image align="center" src="https://files.readme.io/882dd7294f04765d960fd4f1e7863182d31c3a6d11c41e4504cd1dcd08fa0277-image.png" width="500px" alt="Entering SFTP details" />
+    <Image align="center" src="https://files.readme.io/882dd7294f04765d960fd4f1e7863182d31c3a6d11c41e4504cd1dcd08fa0277-image.png" width="500px" caption="Entering SFTP details" />
 
     <br />
 
