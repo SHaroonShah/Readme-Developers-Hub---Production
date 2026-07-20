@@ -11,7 +11,7 @@ Use OAuth 2.0 Client Credentials to obtain a bearer token and authenticate each 
 
 Obtain your **Client ID** and **Client Secret** before requesting a token.
 
-<Callout icon="triangle-exclamation" theme="warning">
+<Callout icon="⚠️" theme="warning">
   ### _Important_
 
   _Keep your Client Secret private. Do not expose it in client-side applications or source control._
@@ -72,8 +72,16 @@ Send credentials and bearer tokens only over HTTPS to protect them while they ar
 
 ## Optional: Credential management
 
-- Store credentials securely.
-- Rotate credentials regularly.
-- Generate a new access token before it expires.
+<Callout icon="💡" theme="info">
+  ### _Tip_
+
+  Please bear in mind the following:&#x20;
+
+  - _Store credentials securely._
+
+  - _Rotate credentials regularly._
+
+  - _Generate a new access token before it expir&#x65;_&#x73;
+</Callout>
 
 <br />
