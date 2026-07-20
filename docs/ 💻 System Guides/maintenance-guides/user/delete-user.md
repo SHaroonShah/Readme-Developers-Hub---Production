@@ -28,7 +28,7 @@ Additionally, this process helps streamline user management by removing inactive
 
     In the left navigation panel, select **Users**.
 
-    <Image align="center" border={true} src="https://files.readme.io/dda0e89b323a4d869472cc629a9fc0349403f8ba24930ac43a31a8f9a7542929-Users_option.png" alt="Accessing users" />
+    <Image align="center" border={true} src="https://files.readme.io/dda0e89b323a4d869472cc629a9fc0349403f8ba24930ac43a31a8f9a7542929-Users_option.png" caption="Accessing users" />
 
     ***
   </ToggleListItem>
@@ -40,7 +40,7 @@ Additionally, this process helps streamline user management by removing inactive
 
     On the **Users** page that appears, from the list select the user that you want to delete, and then in the **Edit User\[user name]** form that opens, select ![](https://files.readme.io/ba995922a9d4d840facdf2ad9a4ffdef969eb24477c4b85ba42682221649265f-Delete_user_button.png).
 
-    <Image align="center" border={true} src="https://files.readme.io/d648002a464a94ba8d34ec471c3b706d61d33ad19f466980e47014be2bd05d4d-Deleting_user.png" alt="Selecting option to delete user" />
+    <Image align="center" border={true} src="https://files.readme.io/d648002a464a94ba8d34ec471c3b706d61d33ad19f466980e47014be2bd05d4d-Deleting_user.png" caption="Selecting option to delete user" />
 
     ***
   </ToggleListItem>
@@ -52,7 +52,7 @@ Additionally, this process helps streamline user management by removing inactive
 
     In the confirmation dialog that appears, select **Yes** to confirm your action.
 
-    <Image align="center" border={true} src="https://files.readme.io/e9750d4607f346cdcbf80a135558cbd56e48072b8cd7256d0d3c1d982123350e-Confirming_user_deletion.png" width="350px" alt="Confirming user deletion" />
+    <Image align="center" border={true} src="https://files.readme.io/e9750d4607f346cdcbf80a135558cbd56e48072b8cd7256d0d3c1d982123350e-Confirming_user_deletion.png" width="350px" caption="Confirming user deletion" />
 
     <br />
 
