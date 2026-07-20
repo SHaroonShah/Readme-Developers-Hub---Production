@@ -1,4 +1,3 @@
-- hurricane-commerce-services
 - carrier-specific-user-guides
 - royal-mail
 - amazon
@@ -15,6 +14,7 @@
 - evri
 - fedex
 - fedex-international
+- hurricane-commerce-services
 - inpost
 - spring-gds
 - starlinks-global
