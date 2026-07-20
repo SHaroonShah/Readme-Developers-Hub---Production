@@ -37,7 +37,7 @@ To add a tracking account for DX Express in SAPIENT, perform the steps as explai
   <ToggleListItem title="1. Navigate to the Tracking Account tab">
     On the SAPIENT **Home** page, in the left navigation panel, select **API** > **Webhooks**. On the page that opens, select the **Tracking Accounts** tab.
 
-    <Image align="center" border={true} src="https://files.readme.io/b8bf0b939dcc8227cc88b32d2ee0707e13bbfecbe7a5d116f0b6f6ac1de3303b-Tracking_accounts_tab.png" alt="Accessing tracking accounts" />
+    <Image align="center" border={true} src="https://files.readme.io/b8bf0b939dcc8227cc88b32d2ee0707e13bbfecbe7a5d116f0b6f6ac1de3303b-Tracking_accounts_tab.png" caption="Accessing tracking accounts" />
 
     ***
   </ToggleListItem>
@@ -47,7 +47,7 @@ To add a tracking account for DX Express in SAPIENT, perform the steps as explai
   <ToggleListItem title="2. Select option to add tracking account">
     In the **Tracking Accounts** page that opens, select ![alt text](https://files.readme.io/f879cc7a233a578517b8e8034e326bc5c585f67b641db9adc93d3388d2a6fb78-Add_tracking_account_button.png).
 
-    <Image align="center" border={true} src="https://files.readme.io/522a3682f6e9a14eca2037dd25d5d2aa0972d04bd862883f5a35ac532f1ffce8-Add_tracking_account_button_DX.png" alt="Accessing option to add tracking account" />
+    <Image align="center" border={true} src="https://files.readme.io/522a3682f6e9a14eca2037dd25d5d2aa0972d04bd862883f5a35ac532f1ffce8-Add_tracking_account_button_DX.png" caption="Accessing option to add tracking account" />
 
     ***
   </ToggleListItem>
@@ -57,7 +57,7 @@ To add a tracking account for DX Express in SAPIENT, perform the steps as explai
   <ToggleListItem title="3. Enter tracking account details">
     On the **Add Tracking account** page that appears, in the **DETAILS** block, enter the necessary information as explained in the following table.
 
-    <Image align="center" border={true} src="https://files.readme.io/1b4b82b250370e66282af5e304070a09a935b19cd81f819d09576ae90d560271-Details_block_DX.png" width="500px" alt="Adding tracking account" />
+    <Image align="center" border={true} src="https://files.readme.io/1b4b82b250370e66282af5e304070a09a935b19cd81f819d09576ae90d560271-Details_block_DX.png" width="500px" caption="Adding tracking account" />
 
     <br />
 
