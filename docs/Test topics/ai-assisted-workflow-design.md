@@ -61,28 +61,27 @@ Follow these stages for every documentation change:
 
 ## AI agent use cases
 
-<ToggleList>
-  <ToggleListItem title="1. Documentation draft generator">
+### 1. Documentation draft generator
 
-### Purpose
+#### Purpose
 
 Generate a first draft from engineering notes.
 
-### Inputs
+#### Inputs
 
 - Product specification
 - Engineering notes
 - API specification (OpenAPI or Swagger)
 - Release notes
 
-### Outputs
+#### Outputs
 
 - Markdown documentation
 - Example requests
 - Example responses
 - Suggested headings
 
-### Prompt
+#### Prompt
 
 ```text
 You are a Senior Technical Writer.
@@ -100,7 +99,7 @@ Requirements:
 - If information is missing, write "Information Required" instead of guessing.
 ```
 
-### Human review
+#### Human review
 
 The reviewer confirms:
 
@@ -110,29 +109,28 @@ The reviewer confirms:
 - Response examples
 - Product terminology
 
-### Risks mitigated
+#### Risks mitigated
 
 - Hallucinated endpoints
 - Fake request examples
 - Incorrect parameters
 - Missing prerequisites
 
-  </ToggleListItem>
-  <ToggleListItem title="2. Style guide reviewer">
+### 2. Style guide reviewer
 
-### Purpose
+#### Purpose
 
 Ensure all documentation follows the team's writing standards.
 
-### Inputs
+#### Inputs
 
 - Markdown documentation
 
-### Outputs
+#### Outputs
 
 - Style corrections only
 
-### Prompt
+#### Prompt
 
 ```text
 Review this documentation against the style guide.
@@ -149,34 +147,33 @@ Check:
 Do not change technical meaning.
 ```
 
-### Human review
+#### Human review
 
 The Technical Writer approves all suggested edits before merging.
 
-### Risks mitigated
+#### Risks mitigated
 
 - Inconsistent terminology
 - Poor readability
 - Formatting issues
 
-  </ToggleListItem>
-  <ToggleListItem title="3. Terminology checker">
+### 3. Terminology checker
 
-### Purpose
+#### Purpose
 
 Ensure consistent product terminology across all documentation.
 
-### Inputs
+#### Inputs
 
 - Entire documentation repository
 
-### Outputs
+#### Outputs
 
 - List of inconsistent terms
 
 For example, the checker can identify competing terms such as **Building**, **Facility**, and **Site**, then recommend one preferred term.
 
-### Prompt
+#### Prompt
 
 ```text
 Scan every Markdown file.
@@ -190,32 +187,31 @@ List:
 Do not rewrite documentation.
 ```
 
-### Human review
+#### Human review
 
 The Product Manager confirms the official terminology before updates are applied.
 
-### Risks mitigated
+#### Risks mitigated
 
 - Conflicting terminology
 - Duplicate concepts
 - Customer confusion
 
-  </ToggleListItem>
-  <ToggleListItem title="4. Documentation quality checker">
+### 4. Documentation quality checker
 
-### Purpose
+#### Purpose
 
 Validate documentation before publication.
 
-### Inputs
+#### Inputs
 
 - Entire repository
 
-### Outputs
+#### Outputs
 
 - Quality report
 
-### Validation checks
+#### Validation checks
 
 - Broken links
 - Missing headings
@@ -225,7 +221,7 @@ Validate documentation before publication.
 - Missing examples
 - Duplicate content
 
-### Prompt
+#### Prompt
 
 ```text
 Review the documentation repository.
@@ -242,17 +238,12 @@ Check for:
 Do not rewrite content.
 ```
 
-### Human review
+#### Human review
 
 The Technical Writer resolves all reported issues before approving the pull request.
 
-### Risks mitigated
+#### Risks mitigated
 
 - Publishing incomplete documentation
 - Broken navigation
 - Missing content
-
-  </ToggleListItem>
-</ToggleList>
-
-<br />
