@@ -52,7 +52,7 @@ Deleting the <Glossary>shipping account</Glossary> that is no longer required is
 
         In the **View Shipping Account\[account name]** page that opens, select ![alt text](https://files.readme.io/af5c41de6009316deb4ab39f682b3be215f7a7673548911d06c333bc5ccf7606-Edit_shipping_account_button.png).
 
-        <Image align="center" border={true} src="https://files.readme.io/d81e673f87f261d6b098f8e062f8580297676b82eabd667fbb8a2df03beffd37-Edit_shipping_account_option.png" caption="Selecting option to delete shipping account" />
+        <Image align="center" border={true} src="https://files.readme.io/d81e673f87f261d6b098f8e062f8580297676b82eabd667fbb8a2df03beffd37-Edit_shipping_account_option.png" caption="Selecting option to edit shipping account" />
 
         ***
       </ToggleListItem>
