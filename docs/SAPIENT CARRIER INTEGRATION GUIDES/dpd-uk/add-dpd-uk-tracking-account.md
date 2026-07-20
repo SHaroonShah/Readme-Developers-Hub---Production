@@ -70,8 +70,7 @@ In SAPIENT, you can add tracking accounts for DPD UK to enhance visibility, impr
         <tr>
           <td><strong>Shipping Account</strong>&#42;</td>
           <td>
-            From the dropdown menu, select the shipping account for which you want to receive tracking.
-            
+            From the dropdown menu, select the shipping account for which you want to receive tracking.  
             <br />
             You can also select the <strong>All Shipping Accounts</strong> option to add this tracking account for all existing accounts.
           </td>
