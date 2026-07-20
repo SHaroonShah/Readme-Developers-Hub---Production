@@ -42,9 +42,9 @@ To authenticate a request, perform the steps as explained in the following proce
    POST /oauth/token
    ```
 
-2. Receive an access token from the API.
+   Now, receive an access token from the API.
 
-3. Add the access token as a Bearer token in the `Authorization` header of every API request.
+2. Add the access token as a Bearer token in the `Authorization` header of every API request.
 
    ```http
    Authorization: Bearer eyJhbGciOi...
