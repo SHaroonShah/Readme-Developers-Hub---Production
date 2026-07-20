@@ -5,12 +5,14 @@ hidden: true
 metadata:
   robots: index
 ---
+# AI-Assisted Workflow Design
+
 You will use this workflow to create, review, validate, and publish AI-assisted documentation while keeping humans responsible for technical accuracy and final approval.
 
 <Callout icon="📘" theme="info">
-  ### AI is a writing assistant, not a source of truth
+  ### _Note_
 
-  A designated reviewer must review and approve every AI-generated output before deployment.
+  _Bear in mind that AI is a writing assistant, not a source of truth. A designated reviewer must review and approve every AI-generated output before deployment._
 </Callout>
 
 ## Workflow
