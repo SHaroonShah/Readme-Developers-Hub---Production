@@ -9,7 +9,9 @@ You will use this lifecycle to create, validate, publish, and maintain documenta
 
 ## Overview
 
-The Document Development Lifecycle (DDLC) integrates documentation work into the Software Development Lifecycle (SDLC). It uses Docs-as-Code practices and AI-assisted drafting so content is accurate, reviewable, version-controlled, and ready when the related software release ships.
+Documentation must evolve alongside the product, not at the end of the development process.  Similar to the Software Development Lifecycle (SDLC), the content generation must also follow the Document Development Lifecycle (DDLC).  This approach integrates documentation into the software development lifecycle (SDLC) using Docs-as-Code principles and AI-assisted automation.
+
+You will use this lifecycle to create, validate, publish, and maintain documentation alongside each product change.
 
 <Callout icon="fa-solid fa-user-check" theme="info">
   ### _Note_
