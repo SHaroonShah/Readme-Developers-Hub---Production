@@ -17,15 +17,17 @@ next:
 ---
 In SAPIENT, you can add tracking accounts for DX Freight to enhance visibility, improving customer interactions, and streamlining logistics operations for DX.
 
-> 🚧 _Important_
->
-> _Prior to adding a DX tracking account, make sure you have completed the following prerequisites:_
->
-> 1. _Enabled the [label integration](https://docs.intersoftsapient.net/docs/integration-activation) with DX Freight._
-> 2. _Enabled the [tracking integration](https://docs.intersoftsapient.net/docs/integration-activation) with DX Freight._
-> 3. _Set up your<Glossary>tracking webhook</Glossary>. For more information on how to set up a tracking webhook, refer to the [Create tracking webhook](https://docs.intersoftsapient.net/docs/create-tracking-webhook) section. This is a one-time activity, you do not have to do this every time you add a tracking account._
->
-> _If you wish to receive the tracking events via Intersoft using the tracking account you have created, make sure it is is activated by the DX accounts team._
+<Callout icon="🚧" theme="warn">
+  ### _Important_
+
+  _Prior to adding a DX tracking account, make sure you have completed the following prerequisites:_
+
+  1. _Enabled the [label integration](https://docs.intersoftsapient.net/docs/integration-activation) with DX Freight._
+  2. _Enabled the [tracking integration](https://docs.intersoftsapient.net/docs/integration-activation) with DX Freight._
+  3. _Set up your <Glossary>tracking webhook</Glossary>. For more information on how to set up a tracking webhook, refer to the [Create tracking webhook](https://docs.intersoftsapient.net/docs/create-tracking-webhook) section. This is a one-time activity, you do not have to do this every time you add a tracking account._
+
+  _If you wish to receive the tracking events via Intersoft using the tracking account you have created, make sure it is is activated by the DX accounts team._
+</Callout>
 
 ## How to add DX Freight tracking account
 
@@ -121,3 +123,5 @@ To add a tracking account for DX Freight in SAPIENT, perform the steps as explai
     Understand tracking events and milestone data.
   </Card>
 </Cards>
+
+<br />
