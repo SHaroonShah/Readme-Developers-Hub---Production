@@ -44,11 +44,12 @@ To authenticate a request, perform the steps as explained in the following proce
    Now, receive an access token from the API.
 </Accordion>
 
-2. Add the access token as a Bearer token in the `Authorization` header of every API request.
-
-   ```http
+<Accordion title="Add the access token as a Bearer token">
+Add the access token as a Bearer token in the `Authorization` header of every API request.
+  ```http
    Authorization: Bearer eyJhbGciOi...
    ```
+</Accordion>
 
 <Columns layout="auto">
   <Column>
