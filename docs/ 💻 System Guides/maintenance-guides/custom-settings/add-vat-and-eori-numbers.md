@@ -63,7 +63,7 @@ To add the VAT and EORI numbers in SAPIENT, perform the steps as explained in th
 
     In the left navigation panel, select **Customs Settings** > **VAT and EORI Numbers**.
 
-    <Image align="center" border={true} src="https://files.readme.io/d2f5fc850cb7428b8d4fe11242188b656639184480dd01c0e9eebe3cd144f15b-VAT_and_EORI_Numbers_option.png" alt="Accessing VAT/EORI numbers" />
+    <Image align="center" border={true} src="https://files.readme.io/d2f5fc850cb7428b8d4fe11242188b656639184480dd01c0e9eebe3cd144f15b-VAT_and_EORI_Numbers_option.png" caption="Accessing VAT/EORI numbers" />
 
     ***
   </ToggleListItem>
@@ -75,7 +75,7 @@ To add the VAT and EORI numbers in SAPIENT, perform the steps as explained in th
 
     In the **VAT and EORI Numbers** page that opens, select ![alt text](https://files.readme.io/cfc581cdc313b6976001d824d376acaf887d052bb884f729d8a58d5d1577f166-Add_VAT-EORI_number_button.png).
 
-    <Image align="center" border={true} src="https://files.readme.io/97201a3c79a244f53d8d8772dbe7b397a5b6332c1d568a93ecdcad4fc97aa783-Add_vat_and_eori_numbers_option.png" alt="Accessing option to add VAT/EORI number" />
+    <Image align="center" border={true} src="https://files.readme.io/97201a3c79a244f53d8d8772dbe7b397a5b6332c1d568a93ecdcad4fc97aa783-Add_vat_and_eori_numbers_option.png" caption="Accessing option to add VAT/EORI number" />
 
     ***
   </ToggleListItem>
@@ -87,7 +87,7 @@ To add the VAT and EORI numbers in SAPIENT, perform the steps as explained in th
 
     In the **Add VAT/EORI Number** form that opens, in the **SHIPPING ACCOUNT** block, from the dropdown menu, select the <Glossary>shipping account</Glossary> for which you want to add the VAT/EORI number.
 
-    <Image align="center" border={true} src="https://files.readme.io/4a14d44448f074b3ef3ae91182eb8f8cee848e50bb9da74ad642b26627ae7259-Shipping_account_block_3.png" alt="Selecting shipping account" />
+    <Image align="center" border={true} src="https://files.readme.io/4a14d44448f074b3ef3ae91182eb8f8cee848e50bb9da74ad642b26627ae7259-Shipping_account_block_3.png" caption="Selecting shipping account" />
 
     ***
   </ToggleListItem>
@@ -99,7 +99,7 @@ To add the VAT and EORI numbers in SAPIENT, perform the steps as explained in th
 
     In the **VAT/EORI NUMBER** block that appears, enter the necessary information as detailed in the configuration table below.
 
-    <Image align="center" border={true} src="https://files.readme.io/7c7d4e9ebcc049fcd2bd43fac3ce92d73d2f654b832d368199aeb91eb9e830e5-VAT-EORI_Number_block.png" alt="Entering VAT/EORI number and its details" />
+    <Image align="center" border={true} src="https://files.readme.io/7c7d4e9ebcc049fcd2bd43fac3ce92d73d2f654b832d368199aeb91eb9e830e5-VAT-EORI_Number_block.png" caption="Entering VAT/EORI number and its details" />
 
     <br />
 
@@ -157,7 +157,9 @@ To add the VAT and EORI numbers in SAPIENT, perform the steps as explained in th
 
       *If you want to remove the VAT and EORI number, then in the**VAT and EORI Numbers** list, next to the one you want to delete, select  ![alt text](https://files.readme.io/0979c7211f5ae99308ba3f765bd083d41949895562626a4f0cc33acd80b30762-Trash_icon.png).*
 
-      <Image align="center" border={true} src="https://files.readme.io/18854da926a99e35b6280bbb19445cac623a73a7f01d8cb9df4c99cd2a6fe6e9-Removing_item.png" alt="Deleting VAT/EORI number" />
+      <Image align="center" border={true} src="https://files.readme.io/18854da926a99e35b6280bbb19445cac623a73a7f01d8cb9df4c99cd2a6fe6e9-Removing_item.png" caption="Deleting VAT/EORI number" />
     </Callout>
   </ToggleListItem>
 </ToggleList>
+
+<br />
