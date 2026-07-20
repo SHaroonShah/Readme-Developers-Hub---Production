@@ -4,7 +4,7 @@ excerpt: >-
   This section provides you with the relevant endpoints that you can call to
   obtain details of a particular building.
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
