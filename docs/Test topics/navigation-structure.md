@@ -5,43 +5,41 @@ hidden: false
 metadata:
   robots: index
 ---
-# Navigation Structure
+Follow this navigation structure to move from onboarding through implementation and support.
 
-Home<br />│<br />├── Introduction<br />│<br />├── Getting Started<br />│     └── Quick Start<br />│<br />├── Authentication<br />│<br />├── API Reference
+## Navigation hierarchy
 
-<br />
+```text
+Home
+├── Introduction
+├── Getting Started
+│   └── Quick Start
+├── Authentication
+└── API Reference
+```
 
-## This navigation mirrors the developer journey from onboarding to implementation and support.
+<Callout icon="🧭" theme="info">
+  This navigation mirrors the developer journey from onboarding to implementation and support.
+</Callout>
 
-# Documentation Page Types
+## Documentation page types
 
-## 1. Concept Pages
+<Cards>
+  <Card title="Concept pages" icon="lightbulb">
+    **Purpose:** Explain foundational knowledge before you begin implementation.
 
-Purpose:
-Explain foundational knowledge before users begin implementation.
-Example:
+    **Example:** Introduction
+  </Card>
+  <Card title="How-to guides" icon="list-check">
+    **Purpose:** Walk you through a specific task with step-by-step instructions.
 
-- Introduction
+    **Examples:** Quick Start and Authentication
+  </Card>
+  <Card title="Reference pages" icon="book-open">
+    **Purpose:** Provide factual, detailed information you can consult while developing.
 
-***
-
-## 2. How-To Guides
-
-Purpose:
-Walk users through completing a specific task using step-by-step instructions.
-Examples:
-
-- Quick Start
-- Authentication
-
-***
-
-## 3. Reference Pages
-
-Purpose:
-Provide factual, detailed information that users can consult while developing.
-Example:
-
-- API Reference
+    **Example:** API Reference
+  </Card>
+</Cards>
 
 <br />
