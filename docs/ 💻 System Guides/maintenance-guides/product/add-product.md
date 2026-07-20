@@ -41,7 +41,7 @@ In SAPIENT, you can add as many products as you want and use them in your <Gloss
 
         In the left navigation panel, select **Products**.
 
-        <Image align="center" border={true} src="https://files.readme.io/ec355529da5603569fe7c27204b1b58b5f7368185e1daa06e9836a6a0c4e855b-Acccessing_products_option.png" caption="Accessing shipping locations" />
+        <Image align="center" border={true} src="https://files.readme.io/ec355529da5603569fe7c27204b1b58b5f7368185e1daa06e9836a6a0c4e855b-Acccessing_products_option.png" caption="Accessing products" />
 
         ***
       </ToggleListItem>
@@ -234,3 +234,5 @@ In SAPIENT, you can add as many products as you want and use them in your <Gloss
     Remove products from your system that are no longer needed.
   </Card>
 </Cards>
+
+<br />
