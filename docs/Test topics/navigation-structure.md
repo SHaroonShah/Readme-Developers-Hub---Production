@@ -10,12 +10,11 @@ Follow this navigation structure to move from onboarding through implementation 
 ## Navigation hierarchy
 
 ```text
-Home
+Smart Building Management API
 ├── Introduction
-├── Getting Started
 │   └── Quick Start
 ├── Authentication
-└── API Reference
+└── API References
 ```
 
 <Callout icon="🧭" theme="info">
