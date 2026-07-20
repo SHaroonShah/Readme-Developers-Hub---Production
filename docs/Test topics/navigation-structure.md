@@ -5,6 +5,8 @@ hidden: true
 metadata:
   robots: index
 ---
+# Navigation structure
+
 Follow this navigation structure to move from onboarding through implementation and support.
 
 ## Navigation hierarchy
