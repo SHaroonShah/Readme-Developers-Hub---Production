@@ -38,9 +38,11 @@ The introduction of the new services represents a comprehensive approach to inte
   </Column>
 </Columns>
 
-> 🚧 _Important_
->
-> _The list of Royal Mail Parcel Force international and domestic services shown in the following sections is not final and may change. For the most accurate and up-to-date service options, please use the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services#/) API endpoint. If you have questions about the available services or enhancements, please contact your Royal Mail account manager._
+<Callout icon="🚧" theme="warn">
+  ### _Important_
+
+  _The list of Royal Mail Parcel Force international and domestic services shown in the following sections is not final and may change. For the most accurate and up-to-date service options, please use the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services#/) API endpoint. If you have questions about the available services or enhancements, please contact your Royal Mail account manager._
+</Callout>
 
 <Accordion title="International services">
   The new Royal Mail international services are listed in the following table.
@@ -441,7 +443,7 @@ The introduction of the new services represents a comprehensive approach to inte
 
   ## Domestic label template example
 
-  <Image align="center" border={true} src="https://files.readme.io/c9bd0fc953ff5ea7953e9b41461c16de453bb7a6ab10c3bf2f12368bd3031c80-image.png" width="300px" />
+  <Image align="center" border={true} src="https://files.readme.io/c9bd0fc953ff5ea7953e9b41461c16de453bb7a6ab10c3bf2f12368bd3031c80-image.png" width="300px" caption="Domestic label template example"/>
 </Accordion>
 
 <br />
