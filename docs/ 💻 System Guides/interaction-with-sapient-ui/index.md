@@ -15,7 +15,9 @@ next:
 ---
 This section of the user guide explains the general UI elements that are available in SAPIENT and are involved in executing the workflows. This helps you orient yourself within different user interfaces (UIs).
 
-<Image align="center" border={false} width="900px" src="https://files.readme.io/861adf6f71014eaec71f405700d6caf2b539c93ac2359625b7ef5727d5f7d9a7-Interaction_with_SAP_UI_image.png" />
+
+<Image src="https://files.readme.io/861adf6f71014eaec71f405700d6caf2b539c93ac2359625b7ef5727d5f7d9a7-Interaction_with_SAP_UI_image.png" align="center" width="900px" caption="SAPIENT UI components" />
+
 
 ## Main UI components
 
@@ -41,3 +43,4 @@ Click any of the following cards to learn more about specific UI elements and th
   </Card>
 </Cards>
 
+<br />
