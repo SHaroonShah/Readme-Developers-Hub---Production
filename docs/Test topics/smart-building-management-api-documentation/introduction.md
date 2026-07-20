@@ -27,22 +27,6 @@ Using the API, you can:
 
 ***
 
-## Documentation Structure
-
-<Cards>
-  <Card title="Quick Start" icon="rocket">
-    Get up and running quickly.
-  </Card>
-  <Card title="Authentication" icon="lock">
-    Secure API access.
-  </Card>
-  <Card title="API Reference" icon="book">
-    Review endpoint details.
-  </Card>
-</Cards>
-
-***
-
 ## Conventions
 
 ### Base URL
@@ -60,3 +44,21 @@ Every request requires a Bearer token.
 ### Versioning
 
 This documentation covers API Version 1.
+
+***
+
+## Getting Started
+
+<Cards>
+  <Card title="Quick Start" icon="rocket">
+    Get up and running quickly.
+  </Card>
+  <Card title="Authentication" icon="lock">
+    Secure API access.
+  </Card>
+  <Card title="API Reference" icon="book">
+    Review endpoint details.
+  </Card>
+</Cards>
+
+<br />
