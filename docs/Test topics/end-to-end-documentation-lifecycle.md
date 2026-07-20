@@ -12,7 +12,9 @@ You will use this lifecycle to create, validate, publish, and maintain documenta
 The Document Development Lifecycle (DDLC) integrates documentation work into the Software Development Lifecycle (SDLC). It uses Docs-as-Code practices and AI-assisted drafting so content is accurate, reviewable, version-controlled, and ready when the related software release ships.
 
 <Callout icon="fa-solid fa-user-check" theme="info">
-AI can draft structure, explanations, examples, and troubleshooting guidance, but a human must review all AI-generated content. Do not use AI to introduce undocumented features or unverified technical details.
+  ### _Note_
+
+  _AI can draft structure, explanations, examples, and troubleshooting guidance, but a human must review all AI-generated content. Do not use AI to introduce undocumented features or unverified technical details._
 </Callout>
 
 ## Documentation lifecycle
@@ -109,7 +111,9 @@ Run documentation validation in the CI/CD pipeline before merging.
 - Check terminology consistency.
 
 <Callout icon="fa-solid fa-circle-exclamation" theme="warning">
-Do not merge the pull request until every automated check passes.
+  ###
+
+  Do not merge the pull request until every automated check passes.
 </Callout>
 
 ## 7. Review the pull request
@@ -144,13 +148,13 @@ Documentation is complete only when all of the following are true:
 
 ## Quality gates
 
-| Stage | Quality gate | Owner |
-| --- | --- | --- |
-| Planning | Documentation task created | Product Manager or Business Analyst |
-| Drafting | AI draft generated | Technical Writer |
-| Review | Technical accuracy verified | Subject Matter Experts (SMEs) |
-| Validation | Automated checks pass | CI/CD pipeline (GitHub) |
-| Approval | Pull request approved | Technical Writer |
+| Stage      | Quality gate                        | Owner                                                                         |
+| ---------- | ----------------------------------- | ----------------------------------------------------------------------------- |
+| Planning   | Documentation task created          | Product Manager or Business Analyst                                           |
+| Drafting   | AI draft generated                  | Technical Writer                                                              |
+| Review     | Technical accuracy verified         | Subject Matter Experts (SMEs)                                                 |
+| Validation | Automated checks pass               | CI/CD pipeline (GitHub)                                                       |
+| Approval   | Pull request approved               | Technical Writer                                                              |
 | Publishing | Documentation released with product | Release Manager or Technical Writer when using different publishing platforms |
 
 ## Benefits
@@ -160,3 +164,5 @@ Documentation is complete only when all of the following are true:
 - Maintain version history and traceability with Git.
 - Reduce publishing errors through automated validation.
 - Prevent incomplete or inaccurate content from reaching users through defined quality gates.
+
+<br />
