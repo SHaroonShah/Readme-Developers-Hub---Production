@@ -18,9 +18,9 @@ This endpoint returns information about a specific building.
 
 ### Path Parameters
 
-| Name       | Type    | Required | Description                                                                                                                          |
-| ---------- | ------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| buildingId | Integer | Yes      | A Unique  identifier for the building assigned by the system, allowing users to reference and manage specific buildings effectively. |
+| Field Name | Data Type | Mandatory | Description                                                                                                                          |
+| ---------- | --------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| buildingId | Integer   | Yes       | A Unique  identifier for the building assigned by the system, allowing users to reference and manage specific buildings effectively. |
 
 ***
 
