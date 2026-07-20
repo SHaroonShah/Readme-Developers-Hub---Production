@@ -10,71 +10,83 @@ hidden: true
 metadata:
   robots: index
 ---
-## Overview
+Use OAuth 2.0 Client Credentials to obtain a bearer token and authenticate each Smart Building API request.
 
-The Smart Building API uses OAuth 2.0 Client Credentials authentication.
-Every request must include a valid Bearer token.
-------------------------------------------------
+## Prepare your credentials
 
-## Authentication flow
+Obtain your **Client ID** and **Client Secret** before requesting a token.
 
-<Accordion title="1. Request an access token" icon="key">
+<Callout icon="⚠️" theme="warning">
+  ### _Important_
 
-Send your Client ID and Client Secret to the token endpoint.
+  _Keep your Client Secret private. Do not expose it in client-side applications or source control._
+</Callout>
 
-```json Request body
-{
-  "client_id": "CLIENT_ID",
-  "client_secret": "CLIENT_SECRET",
-  "grant_type": "client_credentials"
-}
-```
+## Authenticate a request
 
-```http
-POST /oauth/token
-```
+To authenticate a request, perform the steps as explained in the following procedure.
 
-</Accordion>
+1. Send your Client ID and Client Secret to the token endpoint.
 
-<Accordion title="2. Receive the access token" icon="arrow-right">
+   ```json Request body
+   {
+     "client_id": "CLIENT_ID",
+     "client_secret": "CLIENT_SECRET",
+     "grant_type": "client_credentials"
+   }
+   ```
 
-The API returns an access token after it validates your credentials.
+   Send the body with this request:
 
-</Accordion>
+   ```http
+   POST /oauth/token
+   ```
 
-<Accordion title="3. Authenticate each API request" icon="lock">
+   Now, receive an access token from the API.
 
-Add the access token to the `Authorization` header of every API request.
+2. Add the access token as a Bearer token in the `Authorization` header of every API request.
 
-```http
-Authorization: Bearer eyJhbGciOi...
-```
+   ```http
+   Authorization: Bearer eyJhbGciOi...
+   ```
 
-</Accordion>
+<Columns layout="auto">
+  <Column>
 
-***
+### Token expiration
 
-## Token Expiration
+Access tokens expire after 60 minutes. Generate a new token before the current token expires.
 
-Access tokens expire after 60 minutes.
-Generate a new token before expiration.
----------------------------------------
+  </Column>
+  <Column>
 
-## Common Authentication Errors
+### Use HTTPS
 
-| Status | Meaning      | Resolution                         |
-| ------ | ------------ | ---------------------------------- |
-| 401    | Unauthorized | Check Client ID or Secret          |
-| 403    | Forbidden    | Verify API permissions             |
-| 429    | Rate Limited | Retry after the specified interval |
+Send credentials and bearer tokens only over HTTPS to protect them while they are transmitted.
 
-***
+  </Column>
+</Columns>
 
-## Best Practices
+## Common authentication errors
 
-- Never expose Client Secrets.
-- Store credentials securely.
-- Rotate credentials regularly.
-- Use HTTPS for all requests.
+| Error Code | Description  | Resolution                                          |
+| ---------- | ------------ | --------------------------------------------------- |
+| `401`      | Unauthorized | Check your Client ID or Client Secret.              |
+| `403`      | Forbidden    | Verify that your API permissions allow the request. |
+| `429`      | Rate limited | Retry after the specified interval.                 |
+
+## Optional: Credential management
+
+<Callout icon="💡" theme="info">
+  ### _Tip_
+
+  _Please bear in mind the following:_&#x20;
+
+  - _Store credentials securely._
+
+  - _Rotate credentials regularly._
+
+  - _Generate a new access token before it expir&#x65;_&#x73;
+</Callout>
 
 <br />
