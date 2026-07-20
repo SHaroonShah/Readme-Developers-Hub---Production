@@ -61,7 +61,7 @@ Follow these stages for every documentation change:
 
 ### 1. Documentation draft generator
 
-Generate a first documentation draft from engineering notes.
+Generate a first documentation draft from the attached reference documentation.
 
 #### Inputs
 
@@ -75,7 +75,7 @@ Generate a first documentation draft from engineering notes.
 - Markdown documentation
 - Example requests
 - Example responses
-- Suggested headings
+- Suggested headings and glossary terms
 
 <Accordion title="Draft-generator prompt" icon="file-lines">
 
@@ -114,11 +114,11 @@ Confirm the following before approval:
 - Incorrect parameters
 - Missing prerequisites
 
----
+***
 
 ### 2. Style guide reviewer
 
-Review documentation against the team’s writing standards without changing its technical meaning.
+Review documentation against the stored company style guide V1.0 without changing its technical meaning.
 
 #### Inputs
 
@@ -139,8 +139,9 @@ Check:
 - Active voice
 - Consistent headings
 - Consistent terminology
-- Short paragraphs
+- Concise paragraphs
 - Bullet list formatting
+- Procedures in numbered steps
 
 Do not change technical meaning.
 ```
@@ -157,7 +158,7 @@ The Technical Writer approves all suggested edits before merging.
 - Poor readability
 - Formatting issues
 
----
+***
 
 ### 3. Terminology checker
 
@@ -199,7 +200,7 @@ The Product Manager confirms the official terminology before updates are applied
 - Duplicate concepts
 - Customer confusion
 
----
+***
 
 ### 4. Documentation quality checker
 
@@ -216,9 +217,10 @@ Validate the documentation repository before publication and return only the iss
 #### Validation checks
 
 - Broken links
+- Broken tables
 - Missing headings
 - Empty sections
-- Placeholder text
+- Missing image captions
 - Missing code blocks
 - Missing examples
 - Duplicate content
@@ -233,9 +235,9 @@ Check for:
 - Broken links
 - Missing examples
 - Duplicate sections
-- Placeholder text
-- Formatting problems
-- Markdown errors
+- Broken tables
+- Formatting issues
+- Markdown code errors
 
 Do not rewrite content.
 ```
@@ -251,3 +253,5 @@ The Technical Writer resolves all reported issues before approving the pull requ
 - Publishing incomplete documentation
 - Broken navigation
 - Missing content
+
+<br />
