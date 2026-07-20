@@ -59,7 +59,7 @@ To check whether your OBA account is active, follow the steps below.
 
     > 📘 *Note*
     >
-    > *If you do not know which email address is associated with your OBA account, please contact the OBA Helpdesk—call at 08457 950 950, or send an email at[oba.helpdesk@royalmail.com](mailto:oba.helpdesk@royalmail.com).*
+    > *If you do not know which email address is associated with your OBA account, please contact the OBA Helpdesk—call at 08457 950 950, or send an email at [oba.helpdesk@royalmail.com](mailto:oba.helpdesk@royalmail.com).*
 
     ***
   </ToggleListItem>
