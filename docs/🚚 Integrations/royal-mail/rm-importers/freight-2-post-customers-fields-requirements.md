@@ -15,14 +15,16 @@ next:
 ---
 If you are importing goods into the UK via Freight 2 Post route, please ensure to provide the following details.
 
-> 🚧 _Important_
->
-> _The following requirements are Royal Mail specific in addition to Intersoft's mandatory fields._
+<Callout icon="🚧" theme="warn">
+  ### _Important_
+
+  _The following requirements are Royal Mail specific in addition to Intersoft's mandatory fields._
+</Callout>
 
 <Table align={["center","left"]}>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "center" }}>
         Section
       </th>
 
@@ -34,79 +36,83 @@ If you are importing goods into the UK via Freight 2 Post route, please ensure t
 
   <tbody>
     <tr>
-      <td>
+      <td style={{ textAlign: "center" }}>
         **SHIPPER**
       </td>
 
       <td>
-        * ContactName - this must be an individual person's name, not a company name.
-        * CompanyName
-        * ContactEmail
-        * ContactPhone
-        * Line1
-        * Town
-        * Postcode
-        * CountryCode
+        - ContactName - this must be an individual person's name, not a company name.
+        - CompanyName
+        - ContactEmail
+        - ContactPhone
+        - Line1
+        - Town
+        - Postcode
+        - CountryCode
       </td>
     </tr>
 
     <tr>
-      <td>
+      <td style={{ textAlign: "center" }}>
         **DESTINATION**
       </td>
 
       <td>
-        * ContactName
-        * CompanyName - highly recommended
-        * ContactEmail
-        * ContactPhone
-        * Line1
-        * Town
-        * Postcode
-        * CountryCode
+        - ContactName
+        - CompanyName - highly recommended
+        - ContactEmail
+        - ContactPhone
+        - Line1
+        - Town
+        - Postcode
+        - CountryCode
       </td>
     </tr>
 
     <tr>
-      <td>
+      <td style={{ textAlign: "center" }}>
         **SHIPMENT INFORMATION**
       </td>
 
       <td>
-        * DescriptionOfGoods
-        * DeclaredValue
-        * DeclaredWeight
-        * CurrencyCode
+        - DescriptionOfGoods
+        - DeclaredValue
+        - DeclaredWeight
+        - CurrencyCode
       </td>
     </tr>
 
     <tr>
-      <td>
+      <td style={{ textAlign: "center" }}>
         **ITEMS**
       </td>
 
       <td>
-        * Quantity
-        * Description
-        * Value
-        * Weight
-        * HSCode
-        * CountryOfOrigin
+        - Quantity
+        - Description
+        - Value
+        - Weight
+        - HSCode
+        - CountryOfOrigin
       </td>
     </tr>
 
     <tr>
-      <td>
+      <td style={{ textAlign: "center" }}>
         **CUSTOMS**
       </td>
 
       <td>
-        * ShippingCharges - please make sure to populate this field either with the exact amount the end customer was charged for shipping or with "0" if the shipping was for free.
+        - ShippingCharges - please make sure to populate this field either with the exact amount the end customer was charged for shipping or with "0" if the shipping was for free.
       </td>
     </tr>
   </tbody>
 </Table>
 
-> 🚧 _Note_
->
-> _The requirements listed in the preceding table are also specific for Royal Mail customers creating international shipments._
+<Callout icon="📘" theme="info">
+  ### ###_Note_
+
+  _The requirements listed in the preceding table are also specific for Royal Mail customers creating international shipments._
+</Callout>
+
+<br />
