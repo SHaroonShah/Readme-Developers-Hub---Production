@@ -40,7 +40,7 @@ In SAPIENT, you can cancel the <Glossary>shipments</Glossary> to ensure that res
 
         In the side navigation panel, select **Shipment Processing** > **Manifesting**.
 
-        <Image align="center" border={true} src="https://files.readme.io/43b41b65377780fd19531fd2378483c9b0c7d99c88b2c5242e584ef4225c5dae-Accessing_manifesting_option.png" alt="Accessing shipments" />
+        <Image align="center" border={true} src="https://files.readme.io/43b41b65377780fd19531fd2378483c9b0c7d99c88b2c5242e584ef4225c5dae-Accessing_manifesting_option.png" caption="Accessing shipments" />
 
         ***
       </ToggleListItem>
@@ -57,7 +57,7 @@ In SAPIENT, you can cancel the <Glossary>shipments</Glossary> to ensure that res
 
         <br />
 
-        <Image align="center" border={true} src="https://files.readme.io/41603935fe204b0f21f146742408bd60584a5659ebb2a31c9302a475d93d24cf-sorting_and_changing_location.png" alt="Specifying filters" />
+        <Image align="center" border={true} src="https://files.readme.io/41603935fe204b0f21f146742408bd60584a5659ebb2a31c9302a475d93d24cf-sorting_and_changing_location.png" caption="Specifying filters" />
       </ToggleListItem>
 
       <br />
@@ -72,7 +72,7 @@ In SAPIENT, you can cancel the <Glossary>shipments</Glossary> to ensure that res
 
         <br />
 
-        <Image align="center" border={true} src="https://files.readme.io/4f3b0dfcf1502b52e1c71c7448e95814a0afee4d9d9b865ba27082f2acbde5ed-Narrowing_manifesting.png" alt="Viewing shipments" />
+        <Image align="center" border={true} src="https://files.readme.io/4f3b0dfcf1502b52e1c71c7448e95814a0afee4d9d9b865ba27082f2acbde5ed-Narrowing_manifesting.png" caption="Viewing shipments" />
 
         ***
       </ToggleListItem>
@@ -86,7 +86,7 @@ In SAPIENT, you can cancel the <Glossary>shipments</Glossary> to ensure that res
 
         <br />
 
-        <Image align="center" border={true} src="https://files.readme.io/1b5ebf0996d78e8b255de85c8da7e377d6f19524f9899bc8155d4b48f34ea0d0-Canceling_shipments.png" alt="Accessing option to cancel shipments" />
+        <Image align="center" border={true} src="https://files.readme.io/1b5ebf0996d78e8b255de85c8da7e377d6f19524f9899bc8155d4b48f34ea0d0-Canceling_shipments.png" caption="Accessing option to cancel shipments" />
 
         ***
       </ToggleListItem>
@@ -100,7 +100,7 @@ In SAPIENT, you can cancel the <Glossary>shipments</Glossary> to ensure that res
 
         <br />
 
-        <Image align="center" border={true} src="https://files.readme.io/add229243a38970d994d96735c0f6ad74a1ca4404fa57475b6c9fc2a85b038ad-Confirming_shipment_cancellation.png" width="350px" alt="Confirming shipment cancellation" />
+        <Image align="center" border={true} src="https://files.readme.io/add229243a38970d994d96735c0f6ad74a1ca4404fa57475b6c9fc2a85b038ad-Confirming_shipment_cancellation.png" width="350px" caption="Confirming shipment cancellation" />
       </ToggleListItem>
     </ToggleList>
 
@@ -109,7 +109,7 @@ In SAPIENT, you can cancel the <Glossary>shipments</Glossary> to ensure that res
 
       *You can access the canceled shipments directly from this page by selecting the**View Cancelled Shipments** option or by accessing the **Shipment Processing** > **Cancelled** option from the side navigation panel.*
 
-      <Image align="center" border={true} src="https://files.readme.io/98bb78638eb05e979777dfd34b1a13605cab5520fa6017f7a980a02fc38a0602-Canceled_shipments_option.png" alt="Accessing canceled shipments" />
+      <Image align="center" border={true} src="https://files.readme.io/98bb78638eb05e979777dfd34b1a13605cab5520fa6017f7a980a02fc38a0602-Canceled_shipments_option.png" caption="Accessing canceled shipments" />
     </Callout>
   </Tab>
 
