@@ -42,7 +42,7 @@ Moreover, different roles and permissions improve security by restricting access
 
         In the left navigation panel, select **Users**.
 
-        <Image align="center" border={true} src="https://files.readme.io/dda0e89b323a4d869472cc629a9fc0349403f8ba24930ac43a31a8f9a7542929-Users_option.png" alt="Accessing users" />
+        <Image align="center" border={true} src="https://files.readme.io/dda0e89b323a4d869472cc629a9fc0349403f8ba24930ac43a31a8f9a7542929-Users_option.png" caption="Accessing users" />
 
         ***
       </ToggleListItem>
@@ -54,7 +54,7 @@ Moreover, different roles and permissions improve security by restricting access
 
         On the **Users** page that appears, select the **Add User** button.
 
-        <Image align="center" border={true} src="https://files.readme.io/5dd3caded45f180a719da8bad14bebe550fa87a1a49abe4dd32d6ac541979509-Add_users_button.png" alt="Selecting option to add user" />
+        <Image align="center" border={true} src="https://files.readme.io/5dd3caded45f180a719da8bad14bebe550fa87a1a49abe4dd32d6ac541979509-Add_users_button.png" caption="Selecting option to add user" />
 
         ***
       </ToggleListItem>
@@ -66,7 +66,7 @@ Moreover, different roles and permissions improve security by restricting access
 
         On the **Add User** form that opens, in the **USER TYPE** block, from the **Type of User** dropdown, select the user type from the list of available ones.
 
-        <Image align="center" border={true} src="https://files.readme.io/bb66dcbf937dc36953a8242a21580c7d67c3e4d804f438040b8aecdebe3defe5-User_type_block.png" width="400px" alt="Specifying user type" />
+        <Image align="center" border={true} src="https://files.readme.io/bb66dcbf937dc36953a8242a21580c7d67c3e4d804f438040b8aecdebe3defe5-User_type_block.png" width="400px" caption="Specifying user type" />
 
         ***
       </ToggleListItem>
@@ -85,7 +85,7 @@ Moreover, different roles and permissions improve security by restricting access
 
         <br />
 
-        <Image align="center" border={true} src="https://files.readme.io/5c3b0190d7620a52e992ee8a9f1e82aa374d36c20b2394ff4c64531b2ad888f3-Customer_details_block.png" width="400px" alt="Entering customer details" />
+        <Image align="center" border={true} src="https://files.readme.io/5c3b0190d7620a52e992ee8a9f1e82aa374d36c20b2394ff4c64531b2ad888f3-Customer_details_block.png" width="400px" caption="Entering customer details" />
 
         ***
       </ToggleListItem>
@@ -97,7 +97,7 @@ Moreover, different roles and permissions improve security by restricting access
 
         In the **USER DETAILS** block, enter the necessary information:
 
-        <Image align="center" border={true} src="https://files.readme.io/4cf9c1127ab7a7b23af6107408ed6fc0e7500f1bacef3af2f2a51ad15c3be18e-User_details_block.png" width="400px" alt="Entering user details" />
+        <Image align="center" border={true} src="https://files.readme.io/4cf9c1127ab7a7b23af6107408ed6fc0e7500f1bacef3af2f2a51ad15c3be18e-User_details_block.png" width="400px" caption="Entering user details" />
 
         <br />
 
@@ -120,7 +120,7 @@ Moreover, different roles and permissions improve security by restricting access
 
         In the **PERMISSIONS** block, turn on toggles next to each permission to assign necessary permissions to the user.
 
-        <Image align="center" border={true} src="https://files.readme.io/2ed27a48c71de0cb667898056414d5f35d0fef1e4ba93113f74a641dddc8b13a-Permissions_block.png" width="400px" alt="Assigning permissions" />
+        <Image align="center" border={true} src="https://files.readme.io/2ed27a48c71de0cb667898056414d5f35d0fef1e4ba93113f74a641dddc8b13a-Permissions_block.png" width="400px" caption="Assigning permissions" />
 
         <br />
 
@@ -140,7 +140,7 @@ Moreover, different roles and permissions improve security by restricting access
 
         Once completed, a success message displays. You can choose to continue editing the user or return to the **Users** list.
 
-        <Image align="center" border={true} src="https://files.readme.io/8d8f9b98121ae25f8892d3079beff6342030746c83ec67bf5ae55a3166688ce4-Add_user_confirmation_dialog.png" width="350px" alt="Confirmation message" />
+        <Image align="center" border={true} src="https://files.readme.io/8d8f9b98121ae25f8892d3079beff6342030746c83ec67bf5ae55a3166688ce4-Add_user_confirmation_dialog.png" width="350px" caption="Confirmation message" />
 
         ***
       </ToggleListItem>
