@@ -8,6 +8,8 @@ metadata:
 ---
 Use this overview to understand how to integrate with the fictional Smart Building Management REST API to monitor building data, control devices, and automate workflows.
 
+Smart building platforms can expose hundreds of endpoints. This documentation helps you authenticate successfully, find available endpoints, interpret API responses, troubleshoot integrations, and keep implementation guidance aligned with product updates.
+
 ## API scope
 
 The API supports applications and third-party integrations for building devices, including HVAC systems, lighting, occupancy sensors, energy meters, and alarms.
@@ -44,9 +46,6 @@ You can retrieve live building data, manage equipment, automate workflows, and c
     - Control building devices.
     - Handle common API errors and troubleshoot request failures.
   </Card>
-  <Card title="Problems this documentation addresses" icon="triangle-exclamation">
-    Smart building platforms can expose hundreds of endpoints. This documentation helps you authenticate successfully, find available endpoints, interpret API responses, troubleshoot integrations, and keep implementation guidance aligned with product updates.
-  </Card>
 </Cards>
 
 ## API requirements and limitations
@@ -54,6 +53,8 @@ You can retrieve live building data, manage equipment, automate workflows, and c
 Use an internet connection and HTTPS for every request. The API uses OAuth 2.0 authentication and JSON request and response bodies.
 
 <Callout icon="📘" theme="info">
+  ###
+
   This documentation covers API version `v1`.
 </Callout>
 
