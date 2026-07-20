@@ -25,7 +25,7 @@ The Document Development Lifecycle (DDLC) integrates documentation work into the
 ### Plan and gather
 
 1. A product change triggers documentation work.
-2. The Product Manager creates a user story and engineering begins implementation.
+2. The Product Manager/Business Analyst creates a user story and engineering begins implementation.
 3. Create a documentation task with the development task.
 4. Gather verified technical information.
 
