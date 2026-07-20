@@ -25,7 +25,7 @@ To log out of SAPIENT, follow the steps as explained in the following procedure.
 
     In the application header, select the user icon.
 
-    <Image align="center" border={true} src="https://files.readme.io/9e1599436553f2802ddaa259364f1182248b22f106c78d7311424476e7178545-Accessing_user_icon.png" />
+    <Image align="center" border={true} src="https://files.readme.io/9e1599436553f2802ddaa259364f1182248b22f106c78d7311424476e7178545-Accessing_user_icon.png" caption="Accessing user icon" />
 
     ***
   </ToggleListItem>
@@ -37,7 +37,7 @@ To log out of SAPIENT, follow the steps as explained in the following procedure.
 
     In the dropdown menu that opens, select **Logout**.
 
-    <Image align="center" border={true} src="https://files.readme.io/cfcec17df89b1c8d62c3ceb2a1adf91f3a3c7fa8ef3b113a8208a8081c71c484-Log_out_option.png" width="150px" alt="Logging out of SAPIENT" />
+    <Image align="center" border={true} src="https://files.readme.io/cfcec17df89b1c8d62c3ceb2a1adf91f3a3c7fa8ef3b113a8208a8081c71c484-Log_out_option.png" width="150px" caption="Logging out of SAPIENT" />
 
     <br />
 
@@ -57,3 +57,4 @@ To log out of SAPIENT, follow the steps as explained in the following procedure.
   </ToggleListItem>
 </ToggleList>
 
+<br />
