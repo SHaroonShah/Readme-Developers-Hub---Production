@@ -30,7 +30,7 @@ In SAPIENT, you can edit the <Glossary>product</Glossary>, ensuring that any cha
 
         In the left navigation panel, select **Products**.
 
-        <Image align="center" border={true} src="https://files.readme.io/ec355529da5603569fe7c27204b1b58b5f7368185e1daa06e9836a6a0c4e855b-Acccessing_products_option.png" caption="Accessing shipping locations" />
+        <Image align="center" border={true} src="https://files.readme.io/ec355529da5603569fe7c27204b1b58b5f7368185e1daa06e9836a6a0c4e855b-Acccessing_products_option.png" alt="Accessing shipping locations" />
 
         ***
       </ToggleListItem>
@@ -54,7 +54,7 @@ In SAPIENT, you can edit the <Glossary>product</Glossary>, ensuring that any cha
 
         In the **Edit Product** form that opens, start updating the necessary information as explained in the [Add product](https://docs.intersoftsapient.net/docs/add-product) section.
 
-        <Image align="center" border={true} src="https://files.readme.io/689e170bdd66948ac7016628f9700c2480eff92dcba8bcdd2f9847ebfeaa6d46-image.png" caption="Selecting option to add shipping location" />
+        <Image align="center" border={true} src="https://files.readme.io/689e170bdd66948ac7016628f9700c2480eff92dcba8bcdd2f9847ebfeaa6d46-image.png" alt="Selecting option to add shipping location" />
 
         ***
       </ToggleListItem>
