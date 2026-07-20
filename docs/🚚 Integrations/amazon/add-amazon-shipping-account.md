@@ -39,7 +39,7 @@ In SAPIENT, you can create both <Glossary>On-Amazon</Glossary> and <Glossary>Off
 
           In the left navigation panel, select **Shipping Accounts**.
 
-          <Image align="center" border={true} src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" />
+          <Image align="center" border={true} src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" caption="Accessing shipping accoutns"/>
 
           ***
         </ToggleListItem>
@@ -51,7 +51,7 @@ In SAPIENT, you can create both <Glossary>On-Amazon</Glossary> and <Glossary>Off
 
           On the **Shipping Accounts** page that opens, select the **Add Shipping Account** button.
 
-          <Image align="center" border={true} src="https://files.readme.io/8490d8ba65c4eca10caa8c051c5e73bf366fc5a6269e84a2bfb697544105b343-Add_shipping_account_option.png" />
+          <Image align="center" border={true} src="https://files.readme.io/8490d8ba65c4eca10caa8c051c5e73bf366fc5a6269e84a2bfb697544105b343-Add_shipping_account_option.png" caption="Selecting option to add shipping account"/>
 
           ***
         </ToggleListItem>
@@ -63,7 +63,7 @@ In SAPIENT, you can create both <Glossary>On-Amazon</Glossary> and <Glossary>Off
 
           On the **Add Shipping Account** form that appears, in the **ACCOUNT DETAILS** block, fill in the necessary information as described in the following table.
 
-          <Image align="center" src="https://files.readme.io/10427aae4b293b0b20082bb43c8049ae5ed57cf38f954946f530b23053d64864-Account_details_block_Amazon.png" width="500px" alt="Entering account details" />
+          <Image align="center" src="https://files.readme.io/10427aae4b293b0b20082bb43c8049ae5ed57cf38f954946f530b23053d64864-Account_details_block_Amazon.png" width="500px" caption="Entering account details" />
 
           <br />
 
@@ -98,7 +98,7 @@ In SAPIENT, you can create both <Glossary>On-Amazon</Glossary> and <Glossary>Off
 
           In the **SHIPPING ACCOUNT** block, enter the necessary information as explained in the following table.
 
-          <Image align="center" border={true} src="https://files.readme.io/53a765a066729b4aa4b2d740073f4681bc75f021b3c396fd317e9ba810a2247b-Shipping_account_block_Amazon.png" width="600px" alt="Specifying shipping account details" />
+          <Image align="center" border={true} src="https://files.readme.io/53a765a066729b4aa4b2d740073f4681bc75f021b3c396fd317e9ba810a2247b-Shipping_account_block_Amazon.png" width="600px" caption="Specifying shipping account details" />
 
           <br />
 
@@ -153,7 +153,7 @@ In SAPIENT, you can create both <Glossary>On-Amazon</Glossary> and <Glossary>Off
           >
           > *Use this block only if you have set your account type to**Production**. This block does not apply to the shipping accounts created with the **Sandbox** account type.*
 
-          <Image align="center" border={true} src="https://files.readme.io/f43827dd6994b5da5d74fb6ec99a873e0386405a85d0769f4bb1d933e07e163e-carrier_details_block_On_Amazon.png" width="600px" alt="Entering carrier details" />
+          <Image align="center" border={true} src="https://files.readme.io/f43827dd6994b5da5d74fb6ec99a873e0386405a85d0769f4bb1d933e07e163e-carrier_details_block_On_Amazon.png" width="600px" caption="Entering carrier details" />
         </ToggleListItem>
 
         <br />
@@ -171,7 +171,7 @@ In SAPIENT, you can create both <Glossary>On-Amazon</Glossary> and <Glossary>Off
 
           In the **Shipping Account Added** dialog that appears, based on your preferences, proceed as follows.
 
-          <Image align="center" border={true} src="https://files.readme.io/7355f68879495a8c59f2ff1ef019fc1b924009ae7e9bbd4b57235553dfe18c5f-Shippig_account_confirmation_dialog_Amazon.png" />
+          <Image align="center" border={true} src="https://files.readme.io/7355f68879495a8c59f2ff1ef019fc1b924009ae7e9bbd4b57235553dfe18c5f-Shippig_account_confirmation_dialog_Amazon.png" cpation="Connecting shipping account"/>
 
           <br />
 
@@ -212,7 +212,7 @@ In SAPIENT, you can create both <Glossary>On-Amazon</Glossary> and <Glossary>Off
 
           In the left navigation panel, select **Shipping Accounts**.
 
-          <Image align="center" border={true} src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" alt="Accessing shipping accounts" />
+          <Image align="center" border={true} src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" caption="Accessing shipping accounts" />
 
           ***
         </ToggleListItem>
@@ -224,7 +224,7 @@ In SAPIENT, you can create both <Glossary>On-Amazon</Glossary> and <Glossary>Off
 
           On the **Shipping Accounts** page that opens, select the **Add Shipping Account** button.
 
-          <Image align="center" border={true} src="https://files.readme.io/8490d8ba65c4eca10caa8c051c5e73bf366fc5a6269e84a2bfb697544105b343-Add_shipping_account_option.png" alt="Accessing option to add shipping account" />
+          <Image align="center" border={true} src="https://files.readme.io/8490d8ba65c4eca10caa8c051c5e73bf366fc5a6269e84a2bfb697544105b343-Add_shipping_account_option.png" caption="Selecting option to add shipping account" />
 
           ***
         </ToggleListItem>
@@ -236,7 +236,7 @@ In SAPIENT, you can create both <Glossary>On-Amazon</Glossary> and <Glossary>Off
 
           On the **Add Shipping Account** form that appears, in the **ACCOUNT DETAILS** block, fill in the necessary information as described in the following table.
 
-          <Image align="center" src="https://files.readme.io/10427aae4b293b0b20082bb43c8049ae5ed57cf38f954946f530b23053d64864-Account_details_block_Amazon.png" width="500px" alt="Entering account details" />
+          <Image align="center" src="https://files.readme.io/10427aae4b293b0b20082bb43c8049ae5ed57cf38f954946f530b23053d64864-Account_details_block_Amazon.png" width="500px" caption="Entering account details" />
 
           <br />
 
@@ -271,7 +271,7 @@ In SAPIENT, you can create both <Glossary>On-Amazon</Glossary> and <Glossary>Off
 
           In the **SHIPPING ACCOUNT** block, enter the necessary information as explained in the following table.
 
-          <Image align="center" border={true} src="https://files.readme.io/53a765a066729b4aa4b2d740073f4681bc75f021b3c396fd317e9ba810a2247b-Shipping_account_block_Amazon.png" width="600px" alt="Specifying shipping account details" />
+          <Image align="center" border={true} src="https://files.readme.io/53a765a066729b4aa4b2d740073f4681bc75f021b3c396fd317e9ba810a2247b-Shipping_account_block_Amazon.png" width="600px" caption="Specifying shipping account details" />
 
           <br />
 
@@ -326,7 +326,7 @@ In SAPIENT, you can create both <Glossary>On-Amazon</Glossary> and <Glossary>Off
           >
           > *Use this block only if you have set your account type to**Production**. This block does not apply to the shipping accounts created with the **Sandbox** account type.*
 
-          <Image align="center" src="https://files.readme.io/387253706a2df3ada57a5aa57ac517af6f17b943f7660795133f67edc54e2d78-carrier_details_block_Off_Amazon.png" width="600px" />
+          <Image align="center" src="https://files.readme.io/387253706a2df3ada57a5aa57ac517af6f17b943f7660795133f67edc54e2d78-carrier_details_block_Off_Amazon.png" width="600px" caption="Entering carrier-specific details"/>
         </ToggleListItem>
 
         <br />
@@ -344,7 +344,7 @@ In SAPIENT, you can create both <Glossary>On-Amazon</Glossary> and <Glossary>Off
 
           In the **Shipping Account Added** dialog that appears, based on your preferences, proceed as follows.
 
-          <Image align="center" border={true} src="https://files.readme.io/7355f68879495a8c59f2ff1ef019fc1b924009ae7e9bbd4b57235553dfe18c5f-Shippig_account_confirmation_dialog_Amazon.png" />
+          <Image align="center" border={true} src="https://files.readme.io/7355f68879495a8c59f2ff1ef019fc1b924009ae7e9bbd4b57235553dfe18c5f-Shippig_account_confirmation_dialog_Amazon.png" caption="Connecting shipping account"/>
 
           <table>
             <thead>
@@ -375,7 +375,7 @@ In SAPIENT, you can create both <Glossary>On-Amazon</Glossary> and <Glossary>Off
 
           In the authorisation page that opens, select the checkbox if you agree with the authorisation terms, select ![alt text](https://files.readme.io/3f6f67356aa9dca354db43483cb3e1c8739ed9112f2ce231fcef754fd3175f1a-Authorise_button.png).
 
-          <Image align="center" src="https://files.readme.io/1377e7ba5e9d77c6a21cbfbc1838eaf509e30694fa8e8665be5100efd27bd1b2-Authorise_screen_Amazon_Off.png" width="500px" />
+          <Image align="center" src="https://files.readme.io/1377e7ba5e9d77c6a21cbfbc1838eaf509e30694fa8e8665be5100efd27bd1b2-Authorise_screen_Amazon_Off.png" width="500px" caption="Authorising shipping acount with Amazon"/>
 
           Once the shipping account is connected successfully, its status moves to **Enabled**. You can now start shipping with it.
 
