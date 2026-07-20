@@ -27,7 +27,7 @@ To search and view manifested shipments in SAPIENT, perform the steps as explain
 
     In the side navigation panel, select the **Shipment Processing** > **Manifest History** option.<br />
 
-    <Image align="center" border={true} src="https://files.readme.io/2dd0be5964170ba8e4d0b9956c1c4cd105810b50071de35c1494e585185b5aa9-Manifest_history_option.png" alt="Accessing shipments" />
+    <Image align="center" border={true} src="https://files.readme.io/2dd0be5964170ba8e4d0b9956c1c4cd105810b50071de35c1494e585185b5aa9-Manifest_history_option.png" caption="Accessing shipments" />
 
     ***
   </ToggleListItem>
@@ -45,7 +45,7 @@ To search and view manifested shipments in SAPIENT, perform the steps as explain
 
     <br />
 
-    <Image align="center" border={true} src="https://files.readme.io/deeb8cf7c4927c2b815c757d722955250f58d02c85345f159c594a7fb238c59b-Manifest_history_filter.png" alt="Specifying filters" />
+    <Image align="center" border={true} src="https://files.readme.io/deeb8cf7c4927c2b815c757d722955250f58d02c85345f159c594a7fb238c59b-Manifest_history_filter.png" caption="Specifying filters" />
 
     ***
   </ToggleListItem>
@@ -57,7 +57,7 @@ To search and view manifested shipments in SAPIENT, perform the steps as explain
 
     Once filtered, the **Manifest History** table displays the manifested shipments matching your search criteria. The columns displayed in the table are explained in the following table.
 
-    <Image align="center" border={true} src="https://files.readme.io/7b056fb156b7f9215b4ed0ded2bc9a47f55ba8a45e473c7a72f7609259e26e52-Manifest_history_table.png" alt="Viewing shipments" />
+    <Image align="center" border={true} src="https://files.readme.io/7b056fb156b7f9215b4ed0ded2bc9a47f55ba8a45e473c7a72f7609259e26e52-Manifest_history_table.png" caption="Viewing shipments" />
 
     <br />
 
