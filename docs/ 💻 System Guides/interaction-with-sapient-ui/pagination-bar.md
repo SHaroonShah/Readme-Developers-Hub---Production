@@ -30,7 +30,7 @@ Refer to the following table to find out more about the pagination bar options.
 <Callout icon="💡" theme="default">
   ### _Tip_
 
-  _You can also limit the number of entities in the table by selecting the entities from the_**_entries per page_**_&#x20; ![alt text](https://files.readme.io/9d9c6f5d79965d90b05c5d1826fb9c162f6733773a1962135047bb0c633710aa-Prev_button.png) dropdown._
+  _You can also limit the number of entities in the table by selecting the entities from the&#x20;_**_entries per page_**_&#x20; ![alt text](https://files.readme.io/9d9c6f5d79965d90b05c5d1826fb9c162f6733773a1962135047bb0c633710aa-Prev_button.png) dropdown._
 </Callout>
 
 <br />
