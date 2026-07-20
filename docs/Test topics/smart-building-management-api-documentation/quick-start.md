@@ -2,6 +2,7 @@
 title: Quick Start
 deprecated: false
 hidden: true
+icon: fad fa-alarm-exclamation
 metadata:
   robots: index
 ---
