@@ -6,9 +6,7 @@ icon: fad fa-warehouse
 metadata:
   robots: index
 ---
-# <br />Introduction
-
-This section helps you understand on how to integrate with the fictional Smart Building Management REST API to monitor building data, control devices, and automate workflows.
+Use this overview to understand how to integrate with the fictional Smart Building Management REST API to monitor building data, control devices, and automate workflows.
 
 ## API scope
 
@@ -18,65 +16,45 @@ You can retrieve live building data, manage equipment, automate workflows, and c
 
 ## Who should use this documentation
 
-<Columns layout="auto">
-  <Column>
-
-### Primary audiences
-
-- Software developers
-- API integrators
-- Solution architects
-- Technical consultants
-- QA engineers
-
-  </Column>
-  <Column>
-
-### Start with this knowledge
-
-- Work with <Glossary>REST APIs</Glossary>.
-- Use HTTP methods: `GET`, `POST`, `PUT`, and `DELETE`.
-- Read and write JSON.
-- Access your API credentials.
-- Run requests with Postman, cURL, or a programming language that can make HTTP requests.
-
-  </Column>
-</Columns>
+<Cards>
+  <Card title="Primary audiences" icon="users">
+    - Software developers
+    - API integrators
+    - Solution architects
+    - Technical consultants
+    - QA engineers
+  </Card>
+  <Card title="Start with this knowledge" icon="list-check">
+    - Work with REST APIs.
+    - Use HTTP methods: `GET`, `POST`, `PUT`, and `DELETE`.
+    - Read and write JSON.
+    - Access your API credentials.
+    - Run requests with Postman, cURL, or a programming language that can make HTTP requests.
+  </Card>
+</Cards>
 
 ## Integration goals
 
-<Columns layout="auto">
-  <Column>
-
-### What you can do
-
-- Generate API credentials.
-- Authenticate with OAuth 2.0.
-- Make authenticated API requests.
-- Retrieve building information and sensor data.
-- Control building devices.
-- Handle common API errors and troubleshoot request failures.
-
-  </Column>
-  <Column>
-
-### Problems this documentation addresses
-
-Smart building platforms can expose hundreds of endpoints. This documentation helps you authenticate successfully, find available endpoints, interpret API responses, troubleshoot integrations, and keep implementation guidance aligned with product updates.
-
-  </Column>
-</Columns>
+<Cards>
+  <Card title="What you can do" icon="circle-check">
+    - Generate API credentials.
+    - Authenticate with OAuth 2.0.
+    - Make authenticated API requests.
+    - Retrieve building information and sensor data.
+    - Control building devices.
+    - Handle common API errors and troubleshoot request failures.
+  </Card>
+  <Card title="Problems this documentation addresses" icon="triangle-exclamation">
+    Smart building platforms can expose hundreds of endpoints. This documentation helps you authenticate successfully, find available endpoints, interpret API responses, troubleshoot integrations, and keep implementation guidance aligned with product updates.
+  </Card>
+</Cards>
 
 ## API requirements and limitations
 
 Use an internet connection and HTTPS for every request. The API uses OAuth 2.0 authentication and JSON request and response bodies.
 
 <Callout icon="📘" theme="info">
-  ### _Note_
-
-  _This documentation covers API version&#x20;_`v1`_._
+  This documentation covers API version `v1`.
 </Callout>
-
-<br />
 
 <br />
