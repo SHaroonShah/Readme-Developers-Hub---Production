@@ -30,7 +30,7 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
 
         In the left navigation panel, select **Shipping Accounts**.
 
-        <Image align="center" alt="Accessing shipping accounts" border={true} caption="Accessing shipping accounts" src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" />
+        <Image align="center" caption="Accessing shipping accounts" border={true} caption="Accessing shipping accounts" src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" />
 
         ***
       </ToggleListItem>
@@ -43,7 +43,7 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
 
         On the **Shipping Accounts** page that opens, select ![](https://files.readme.io/5eb134426849b1adb3049756830b6bef19e7dc67dca55891e64ff7b9c8eadd8e-add_shipping_account_button.png).
 
-        <Image align="center" alt="Accessing option to add shipping account" border={true} caption="Selecting option to add shipping account" src="https://files.readme.io/3b149ee84f86fb8d4f02c43b2733c7eb85aea3ac6e2f01692af371f631570bf3-Add_shipping_account_button_DX.png" />
+        <Image align="center" caption="Selecting option to add shipping account" border={true} caption="Selecting option to add shipping account" src="https://files.readme.io/3b149ee84f86fb8d4f02c43b2733c7eb85aea3ac6e2f01692af371f631570bf3-Add_shipping_account_button_DX.png" />
 
         ***
       </ToggleListItem>
@@ -56,7 +56,7 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
 
         On the **Add Shipping Account** form that appears, in the **ACCOUNT DETAILS** block, fill in the necessary information as described in the following table.
 
-        <Image align="center" caption="Selecting DPD NL carrier" src="https://files.readme.io/3a455e2719e4881e477bf78f117fa269ddb148a02a7dbd95daf3fdb49afdf456-image.png" width="500px" />
+        <Image align="center" caption="Entering account details" src="https://files.readme.io/3a455e2719e4881e477bf78f117fa269ddb148a02a7dbd95daf3fdb49afdf456-image.png" width="500px" />
 
         <br />
 
