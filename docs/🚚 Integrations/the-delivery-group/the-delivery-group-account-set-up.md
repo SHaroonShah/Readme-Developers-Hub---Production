@@ -15,14 +15,16 @@ next:
 ---
 In SAPIENT, you can create a The Delivery Group (TDG) shipping account by selecting your desired <Glossary>shipping location</Glossary>,  entering the corresponding account and carrier details, and then adding the account to the system.
 
-> 🚧 _Important_
->
-> _Before you can set up a shipping account, make sure you have performed the following operations:_
->
-> 1. _Contacted the TDG sales team to discuss and agree on commercial terms and participate in initial onboarding discussions._
-> 2. _Confirmed that the Sales Account Manager has forwarded the account to the TDG Onboarding team, where an onboarding Manager will be assigned to you._
-> 3. _Received the necessary API credentials from the TDG Onboarding team for connecting to Intersoft._
-> 4. _[Enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) for The Delivery Group and have already [created a shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location)._
+<Callout icon="🚧" theme="warn">
+  ### _Important_
+
+  _Before you can set up a shipping account, make sure you have performed the following operations:_
+
+  1. _Contacted the TDG sales team to discuss and agree on commercial terms and participate in initial onboarding discussions._
+  2. _Confirmed that the Sales Account Manager has forwarded the account to the TDG Onboarding team, where an onboarding Manager will be assigned to you._
+  3. _Received the necessary API credentials from the TDG Onboarding team for connecting to Intersoft._
+  4. _[Enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) for The Delivery Group and have already [created a shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location)._
+</Callout>
 
 ## How to add The Delivery Group shipping account
 
@@ -34,7 +36,7 @@ In SAPIENT, you can create a The Delivery Group (TDG) shipping account by select
       <ToggleListItem title="1. Select the Shipping Accounts page " icon="list-ol">
         In the left navigation panel, select **Shipping Accounts**.
 
-        <Image align="center" border={true} src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" alt="Accessing shipping accounts" />
+        <Image align="center" border={true} src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" caption="Accessing shipping accounts" />
 
         ***
       </ToggleListItem>
@@ -44,7 +46,7 @@ In SAPIENT, you can create a The Delivery Group (TDG) shipping account by select
       <ToggleListItem title="2. Select option to add shipping account" icon="list-ol">
         On the **Shipping Accounts** page that opens, select ![](https://files.readme.io/5eb134426849b1adb3049756830b6bef19e7dc67dca55891e64ff7b9c8eadd8e-add_shipping_account_button.png).
 
-        <Image align="center" border={true} src="https://files.readme.io/3b149ee84f86fb8d4f02c43b2733c7eb85aea3ac6e2f01692af371f631570bf3-Add_shipping_account_button_DX.png" alt="Accessing option to add shipping account" />
+        <Image align="center" border={true} src="https://files.readme.io/3b149ee84f86fb8d4f02c43b2733c7eb85aea3ac6e2f01692af371f631570bf3-Add_shipping_account_button_DX.png" caption="Selecting option to add shipping account" />
 
         ***
       </ToggleListItem>
@@ -54,7 +56,7 @@ In SAPIENT, you can create a The Delivery Group (TDG) shipping account by select
       <ToggleListItem title="3. Enter account details" icon="list-ol">
         On the **Add Shipping Account** form that appears, in the **ACCOUNT DETAILS** block, fill in the necessary information as described in the following table.
 
-        <Image align="center" border={true} src="https://files.readme.io/f979b6d755483ee5fc3af33e47c43bbdf078b633d3b3fb581e0e0baf1e209b85-Account_details_block_TDG.png" width="500px" alt="Entering account details" />
+        <Image align="center" border={true} src="https://files.readme.io/f979b6d755483ee5fc3af33e47c43bbdf078b633d3b3fb581e0e0baf1e209b85-Account_details_block_TDG.png" width="500px" caption="Entering account details" />
 
         <br />
 
@@ -73,7 +75,7 @@ In SAPIENT, you can create a The Delivery Group (TDG) shipping account by select
       <ToggleListItem title="4. Enter shipping account details" icon="list-ol">
         In the **SHIPPING ACCOUNT** block, enter the necessary information as explained in the following table.
 
-        <Image align="center" border={true} src="https://files.readme.io/12ec9fe8afb8e032cec6894c74922036fc43d0290e2b288af427a0a6c6689d06-Shipping_account_block_TDG.png" width="400px" alt="Specifying shipping account details" />
+        <Image align="center" border={true} src="https://files.readme.io/12ec9fe8afb8e032cec6894c74922036fc43d0290e2b288af427a0a6c6689d06-Shipping_account_block_TDG.png" width="400px" caption="Entering shipping account details" />
 
         <br />
 
@@ -173,7 +175,7 @@ In SAPIENT, you can create a The Delivery Group (TDG) shipping account by select
       <ToggleListItem title="5. Enter carrier details" icon="list-ol">
         In the **CARRIER DETAILS** block, enter the necessary information as explained in the following table.
 
-        <Image align="center" border={true} src="https://files.readme.io/8dbf30060f2fe9a26e0b63a6a82fa6402ff99ed4d4c3e4f87547b240dd441c55-carrier_details_block_TDG.png" width="400px" alt="Entering carrier details" />
+        <Image align="center" border={true} src="https://files.readme.io/8dbf30060f2fe9a26e0b63a6a82fa6402ff99ed4d4c3e4f87547b240dd441c55-carrier_details_block_TDG.png" width="400px" caption="Entering carrier-specific details" />
 
         <br />
 
@@ -225,3 +227,5 @@ In SAPIENT, you can create a The Delivery Group (TDG) shipping account by select
     Add and manage The Delivery Group shipping account via API.
   </Card>
 </Cards>
+
+<br />
