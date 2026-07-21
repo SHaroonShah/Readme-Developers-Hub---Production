@@ -63,42 +63,41 @@ Follow these stages for every documentation change:
 
 ### 1. Documentation draft generator
 
-The Draft Prompt is responsible for generating the initial version of the documentation from trusted technical sources, such as product requirements, engineering notes, or API specifications. Its goal is to accelerate content creation while ensuring the output is clear, structured, and written in Markdown. The prompt explicitly instructs the AI not to invent technical details and to flag missing information for human review.
+The Draft generator agent is responsible for generating the initial version of the documentation from trusted technical sources, such as product requirements, user stories, engineering notes, or API specifications. Its goal is to accelerate content creation while ensuring the output is clear, structured, and written in Markdown. The prompt explicitly instructs the AI not to invent technical details and to flag missing information for human review.
 
 #### Purpose
 
-Generate a first draft from engineering notes.
+Generate a first draft from the provided information.&#x20;
 
 #### Inputs
 
 - Product specification
 - Engineering notes
 - API specification (OpenAPI or Swagger)
-- Release notes
+- User Stories
 
 #### Outputs
 
 - Markdown documentation
-- Example requests
-- Example responses
+- Example request payload
+- Example response payload
 - Suggested headings
 
 #### Prompt
 
 ```text
-You are a Senior Technical Writer.
-Generate documentation in Markdown.
+You are a Senior Technical Writer at SmartBuilding. Generate documentation in Markdown condisering the following guidelines:
 
-Requirements:
+Guidelines:
 - Write for software developers.
 - Use clear, concise language.
 - Include prerequisites.
-- Include request examples.
-- Include response examples.
+- Include request payload.
+- Include response payload.
 - Add troubleshooting if applicable.
-- Never invent endpoints.
-- Never invent parameters.
-- If information is missing, write "Information Required" instead of guessing.
+- Do not invent endpoints.
+- Do not invent parameters.
+- If any information is missing, write "Information Required" instead of guessing.
 ```
 
 #### Human review
@@ -119,11 +118,12 @@ The reviewer confirms:
 - Missing prerequisites
 
 ### 2. Style guide reviewer
-The Review Prompt acts as an editorial assistant by reviewing drafted documentation for grammar, readability, formatting, and compliance with the documentation style guide. It focuses on improving the quality and consistency of the writing without altering the underlying technical meaning. All suggested changes are reviewed and approved by a Technical Writer before publication.
+
+The Review generator agent serves as an editorial assistant by reviewing the initial draft documentation for grammar, readability, formatting, and compliance with the ingested documentation style guide. It focuses on improving the quality and consistency of the writing without altering the underlying technical meaning. All suggested changes are reviewed and approved by a Technical Writer before publication.
 
 #### Purpose
 
-Ensure all documentation follows the team's writing standards.
+Ensure all documentation follows the company style guide and standards.
 
 #### Inputs
 
@@ -136,9 +136,9 @@ Ensure all documentation follows the team's writing standards.
 #### Prompt
 
 ```text
-Review this documentation against the style guide.
+Review this documentation against the ingested style guide, keeping in view the following checks:
 
-Check:
+Checks:
 - Grammar
 - Tone
 - Active voice
@@ -161,7 +161,8 @@ The Technical Writer approves all suggested edits before merging.
 - Formatting issues
 
 ### 3. Terminology checker
-The Terminology Check Prompt ensures that product terminology remains consistent across the entire documentation repository. It scans all Markdown files to identify inconsistent naming, outdated terms, or duplicate terminology and generates a report with recommended corrections. This helps maintain a single source of truth and prevents confusion for users as the product evolves.
+
+The Terminology checker agent ensures that product terminology remains consistent across the entire documentation repository. It scans all Markdown files and glossary to identify inconsistent naming, outdated terms, or duplicate terminology and generates a report with recommended corrections. This helps maintain a single source of truth and prevents confusion for users as the product evolves.
 
 #### Purpose
 
@@ -193,7 +194,7 @@ Do not rewrite documentation.
 
 #### Human review
 
-The Product Manager confirms the official terminology before updates are applied.
+The Product Manager confirms the official terminology before updates are applied by the Technical Writer.
 
 #### Risks mitigated
 
@@ -202,7 +203,8 @@ The Product Manager confirms the official terminology before updates are applied
 - Customer confusion
 
 ### 4. Documentation quality checker
-The Quality Check Prompt performs a final validation of the documentation before publication. It checks for issues such as broken links, missing sections, placeholder text, formatting errors, duplicate content, and incomplete code examples. Instead of rewriting content, it generates a quality report that allows the Technical Writer to resolve issues before the documentation is merged and published.
+
+The Quality Check agent performs a final validation of the documentation before publication. It checks for issues such as broken links, missing sections, broken tables, formatting errors, duplicate content, and incomplete code examples. Instead of rewriting content, it generates an audit report that allows the Technical Writer to resolve issues before the documentation is merged and published.
 
 #### Purpose
 
@@ -214,14 +216,14 @@ Validate documentation before publication.
 
 #### Outputs
 
-- Quality report
+- Audit report
 
 #### Validation checks
 
 - Broken links
 - Missing headings
 - Empty sections
-- Placeholder text
+- Broken tables
 - Missing code blocks
 - Missing examples
 - Duplicate content
@@ -236,7 +238,7 @@ Check for:
 - Broken links
 - Missing examples
 - Duplicate sections
-- Placeholder text
+- Boken tables
 - Formatting problems
 - Markdown errors
 
