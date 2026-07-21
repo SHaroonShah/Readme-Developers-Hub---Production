@@ -46,7 +46,7 @@ To add a tracking account for DPD Ireland in SAPIENT, follow the steps in the fo
 
     <br />
 
-    In the **Tracking Accounts** page that opens, select <Image src="https://files.readme.io/1797ee1f92c9e2a16f6b55d7a84e3ef14111e4ef4a7b3e13ff1acb538c1447e8-Add_tracking_account_button.png" caption="Add tracking account button" />.
+    In the **Tracking Accounts** page that opens, select <Image src="https://files.readme.io/1797ee1f92c9e2a16f6b55d7a84e3ef14111e4ef4a7b3e13ff1acb538c1447e8-Add_tracking_account_button.png" />.
 
     <Image align="center" border={true} src="https://files.readme.io/faca47a22b3d4de7d74e54c6ea663a5156625b787a81a5c7568d2ef0688da840-Add_tracking_account_button_EVRi.png" caption="Accessing option to add tracking account" />
 
@@ -83,11 +83,11 @@ To add a tracking account for DPD Ireland in SAPIENT, follow the steps in the fo
 
   <br />
 
-  <ToggleListItem title="Step 4: Save and add the tracking account">
+  <ToggleListItem title="4. Save and add the tracking account">
 
     <br />
 
-    After entering all the necessary information, select <Image src="https://files.readme.io/f713760b5bde9e21d187c9b978502b434343e34f9f3db55afa5b565d35d478cd-Add_tracking_account_button_2.png" caption="Add tracking account button" />.
+    After entering all the necessary information, select <Image src="https://files.readme.io/f713760b5bde9e21d187c9b978502b434343e34f9f3db55afa5b565d35d478cd-Add_tracking_account_button_2.png" />.
 
     Once done, the DPD Ireland tracking account is added successfully and appears in the **Tracking Accounts** list. You can now receive the tracking information on your <Glossary>shipments</Glossary>.
   </ToggleListItem>
