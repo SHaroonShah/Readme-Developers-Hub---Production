@@ -28,7 +28,7 @@ To configure the Hurricane commerce service, follow the instructions as provided
 
     From the **Home** page, in the left navigation panel, select **Integrations**.
 
-    <Image align="center" border={true} src="https://files.readme.io/9edbbe0f060a9821348b7a077aae6171ab9fde12fd7b6d2ffdbe5d215b463f3a-Sapient_home_page.png" alt="Accessing integrations" />
+    <Image align="center" border={true} src="https://files.readme.io/9edbbe0f060a9821348b7a077aae6171ab9fde12fd7b6d2ffdbe5d215b463f3a-Sapient_home_page.png" caption="Accessing integrations" />
     <br />
 
     > 🚧 *Important*
@@ -45,7 +45,7 @@ To configure the Hurricane commerce service, follow the instructions as provided
 
     On the **Integrations** page that opens, in the **Hurricane** block, select **CUSTOMS** .
 
-    <Image align="center" border={true} src="https://files.readme.io/6ab95a5c1c86ae354fef99d35a7bc44c455705c6ff7e56217a30a01f58b9a29a-Accessing_hurricane_customs_service.png" alt="Accessing hurricane service" />
+    <Image align="center" border={true} src="https://files.readme.io/6ab95a5c1c86ae354fef99d35a7bc44c455705c6ff7e56217a30a01f58b9a29a-Accessing_hurricane_customs_service.png" caption="Accessing hurricane service" />
 
     ***
   </ToggleListItem>
@@ -57,7 +57,7 @@ To configure the Hurricane commerce service, follow the instructions as provided
 
     On the page that opens, view the services and features provided by Hurricane in their respective blocks, and if you wish to proceed, select **CONFIGURE**.
 
-    <Image align="center" border={true} src="https://files.readme.io/9617de8bf0d49838392c05d0184155859865df5391536e1b03685863fe928ef9-Selection_option_to_configure_HS.png" alt="Selecting option to configure hurricane service" />
+    <Image align="center" border={true} src="https://files.readme.io/9617de8bf0d49838392c05d0184155859865df5391536e1b03685863fe928ef9-Selection_option_to_configure_HS.png" caption="Selecting option to configure hurricane service" />
 
     ***
   </ToggleListItem>
@@ -69,7 +69,7 @@ To configure the Hurricane commerce service, follow the instructions as provided
 
     On the **Configure Hurricane** page that opens, next to each available service, turn on the toggle for the service that you wish to configure.
 
-    <Image align="center" border={true} src="https://files.readme.io/3aaa4e5db150ef6800d6595f71b05fa7c207d4ac67d041c4180af7a4bb3b1e6e-Selecting_hurricane_service.png" alt="Selecting Hurricane services" />
+    <Image align="center" border={true} src="https://files.readme.io/3aaa4e5db150ef6800d6595f71b05fa7c207d4ac67d041c4180af7a4bb3b1e6e-Selecting_hurricane_service.png" caption="Selecting Hurricane services" />
   </ToggleListItem>
 
   <br />
@@ -79,7 +79,7 @@ To configure the Hurricane commerce service, follow the instructions as provided
 
     If you wish to select the **Enable Prohibited Items check on shipment creation** or **Enable Denied Parties check on shipment creation** options, then a **DENIED PARTIES AND PROHIBITED ITEMS COUNTRIES \[COUNTER]** table is displayed with the following columns.
 
-    <Image align="center" border={true} src="https://files.readme.io/034f4680d679a260821c6edc87a787cbb97887a401cb96e3ceb7904a811b6b1d-Configuring_hurricane_services.png" alt="Configuring Hurricane services" />
+    <Image align="center" border={true} src="https://files.readme.io/034f4680d679a260821c6edc87a787cbb97887a401cb96e3ceb7904a811b6b1d-Configuring_hurricane_services.png" caption="Configuring Hurricane services" />
 
     <br />
 
