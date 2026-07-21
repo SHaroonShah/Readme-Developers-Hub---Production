@@ -1,29 +1,29 @@
 ---
-title: Smart Building Management API Documentation
+title: SmartBuilding API Documentation
 deprecated: false
 hidden: true
 icon: fad fa-warehouse
 metadata:
   robots: index
 ---
-# Smart Building Management API Documentation Hub
+# SmartBuilding API Documentation Hub
 
-Use this overview to understand how to integrate with the fictional Smart Building Management REST API to monitor building data, control devices, and automate workflows.
+Use this overview to understand how to integrate with the fictional SmartBuilding REST API to monitor building data, control devices, and automate workflows.
 
-Smart building platforms can expose hundreds of endpoints. This documentation helps you authenticate successfully, find available endpoints, interpret API responses, troubleshoot integrations, and keep implementation guidance aligned with product updates.
+SmartBuilding platform can expose hundreds of endpoints to our customers. This documentation helps you authenticate successfully, find available endpoints, interpret API responses, and keep implementation guidance aligned with product updates.
 
 ## API scope
 
-The API supports applications and third-party integrations for building devices, including HVAC systems, lighting, occupancy sensors, energy meters, and alarms.
+Our API supports applications and third-party integrations for building devices, including HVAC systems, lighting, occupancy sensors, energy meters, and alarms.
 
 You can retrieve live building data, manage equipment, automate workflows, and connect smart-building functionality to external platforms.
 
-## Who should use this documentation
+## Who should use this documentation hub
 
 <Cards>
   <Card title="Primary audiences" icon="users">
     - Software developers
-    - API integrators
+    - Third-party API integrators
     - Solution architects
     - Technical consultants
     - QA engineers
@@ -46,7 +46,6 @@ You can retrieve live building data, manage equipment, automate workflows, and c
     - Make authenticated API requests.
     - Retrieve building information and sensor data.
     - Control building devices.
-    - Handle common API errors and troubleshoot request failures.
   </Card>
 </Cards>
 
