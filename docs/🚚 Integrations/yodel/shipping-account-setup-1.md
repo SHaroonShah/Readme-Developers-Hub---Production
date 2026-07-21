@@ -15,9 +15,11 @@ next:
 ---
 In SAPIENT, with the Add Shipping Account functionality, you can select the desired shipping location and then add a YODEL shipping account to it.
 
-> 🚧 _Important_
->
-> _Before you can set up a shipping account, make sure you have enabled the <Anchor label="label integration" target="_blank" href="https://docs.intersoftsapient.net/docs/integration-activation">label integration</Anchor> for YODEL and have already <Anchor label="created a shipping location" target="_blank" href="https://docs.intersoftsapient.net/docs/add-a-shipping-location">created a shipping location</Anchor>._
+<Callout icon="🚧" theme="warn">
+  ### _Important_
+
+  _Before you can set up a shipping account, make sure you have enabled the <Anchor target="_blank" href="https://docs.intersoftsapient.net/docs/integration-activation">label integration</Anchor> for YODEL and have already <Anchor target="_blank" href="https://docs.intersoftsapient.net/docs/add-a-shipping-location">created a shipping location</Anchor>._
+</Callout>
 
 ## How to add YODEL shipping account
 
@@ -29,7 +31,7 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
       <ToggleListItem title="1. Select the Shipping Accounts page">
         In the left navigation panel, select **Shipping Accounts**.
 
-        <Image align="center" src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" alt="Accessing shipping accounts" />
+        <Image align="center" src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" caption="Accessing shipping accounts" />
 
         ***
       </ToggleListItem>
@@ -39,7 +41,7 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
       <ToggleListItem title="2. Select option to add shipping account">
         On the **Shipping Accounts** page that opens, select ![](https://files.readme.io/e27a112101fea1d20bb870a5c570ce3cb3889d2c514dd5bc0920c2ea630f9943-add_shipping_account_button.png).
 
-        <Image align="center" src="https://files.readme.io/1f21da8d1e1c679c2ed31d67bfc7551e5c9477f2f22b16c279aed71ab9688809-Add_shipping_account_button_YODEL.png" alt="Accessing option to add shipping account" />
+        <Image align="center" src="https://files.readme.io/1f21da8d1e1c679c2ed31d67bfc7551e5c9477f2f22b16c279aed71ab9688809-Add_shipping_account_button_YODEL.png" caption="Selecting option to add shipping account" />
 
         ***
       </ToggleListItem>
@@ -49,7 +51,7 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
       <ToggleListItem title="3. Enter account details">
         On the **Add Shipping Account** form that appears, in the **ACCOUNT DETAILS** block, fill in the necessary information as described in the following table.
 
-        <Image align="center" src="https://files.readme.io/c430911306cfc97f8609b300891198244b5504b1eb732e5cb8199dec132659eb-Account_details_block_YODEL.png" width="500px" alt="Entering account details" />
+        <Image align="center" src="https://files.readme.io/c430911306cfc97f8609b300891198244b5504b1eb732e5cb8199dec132659eb-Account_details_block_YODEL.png" width="500px" caption="Entering account details" />
 
         <br />
 
@@ -68,7 +70,7 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
       <ToggleListItem title="4. Enter shipping account details">
         In the **SHIPPING ACCOUNT** block, enter the necessary information as explained in the following table.
 
-        <Image align="center" src="https://files.readme.io/4668084ea31679c03a9b0cee35f97a98dff1a6a9b196155c7fb39b9e91c7b66e-Shipping_account_block_YODEL.png" width="500px" alt="Specifying shipping account details" />
+        <Image align="center" src="https://files.readme.io/4668084ea31679c03a9b0cee35f97a98dff1a6a9b196155c7fb39b9e91c7b66e-Shipping_account_block_YODEL.png" width="500px" caption="Entering shipping account details" />
 
         <br />
 
@@ -162,7 +164,7 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
       <ToggleListItem title="5. Enter carrier details">
         In the **CARRIER DETAILS** block, enter the necessary information as explained in the following table.
 
-        <Image align="center" src="https://files.readme.io/a2d5436c5b557ca7ba52fbd8239764e70cb7b9449239eceea0d5d0796ec7be3b-carrier_details_block_YODEL.png" width="400px" alt="Entering carrier details" />
+        <Image align="center" src="https://files.readme.io/a2d5436c5b557ca7ba52fbd8239764e70cb7b9449239eceea0d5d0796ec7be3b-carrier_details_block_YODEL.png" width="400px" caption="Entering carrier-specific details" />
 
         <br />
 
@@ -255,3 +257,5 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
     Add barcode ranges to facilitate efficient tracking and management of shipments.
   </Card>
 </Cards>
+
+<br />
