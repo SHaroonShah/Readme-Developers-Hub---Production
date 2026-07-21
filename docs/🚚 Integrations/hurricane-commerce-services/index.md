@@ -15,7 +15,7 @@ next:
   description: ''
 ---
 
-<Image src="https://files.readme.io/e6eb288c72c027145ecf580da34a19395ac8073f30d269ac0327d86c59102a55-Hurricane_logo.png" align="center" width="80px" />
+<Image src="https://files.readme.io/20ac198684c079bb4ffb1a4140d9d7a199495dc4a3a4f6554c74314c346583b3-Hurricane_banner.png" align="center" width="1000px" />
 
 
 ***
