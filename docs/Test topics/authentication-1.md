@@ -42,7 +42,7 @@ The API validates your credentials and returns an access token.
 Include the access token in the `Authorization` header of every API request.
 
 ```http
-Authorization: Bearer eyJhbGciOi...
+Authorization: Bearer eJhyuoiKL...
 ```
 
 </Accordion>
