@@ -12,8 +12,7 @@ Integrate SmartBuilding API capabilities, including live sensor data, HVAC monit
 
 ## What is the Smart Building API?
 
-The Smart Building Management API enables developers to integrate building systems into custom applications.
-Using the API, you can:
+The SmartBuilding API is a fully RESTful service that enables developers to integrate building systems into custom applications.<br />Using the API, you can:
 
 - Retrieve live sensor data
 - Monitor HVAC systems
@@ -21,7 +20,12 @@ Using the API, you can:
 - Access occupancy information
 - Manage alarms
 - Track energy consumption
-  The API follows REST principles and communicates using JSON over HTTPS.
+
+<Callout icon="📘" theme="info">
+  ### _Note_
+
+  _This API service is implemented using JSON messaging. You, as the customer, are responsible for sending JSON messages and for maintaining the capability of receiving JSON messages in the format described in this documentation._
+</Callout>
 
 ***
 
@@ -48,13 +52,13 @@ This documentation covers API Version 1.
 ## Getting Started
 
 <Cards>
-  <Card title="Quick Start" icon="rocket">
+  <Card title="Quick Start" icon="fa-rocket">
     Get up and running quickly.
   </Card>
-  <Card title="Authentication" icon="lock">
+  <Card title="Authentication" icon="fa-lock">
     Secure API access.
   </Card>
-  <Card title="API Reference" icon="book">
+  <Card title="API Reference" icon="fa-book">
     Review endpoint details.
   </Card>
 </Cards>
