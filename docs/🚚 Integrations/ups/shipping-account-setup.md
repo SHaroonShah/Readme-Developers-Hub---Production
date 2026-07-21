@@ -15,9 +15,11 @@ next:
 ---
 In SAPIENT, with the Add Shipping Account functionality, you can select the desired shipping location and then add a UPS shipping account to it.
 
-> 🚧 _Important_
->
-> _Before you can set up a shipping account, make sure you have enabled the <Anchor label="label integration" target="_blank" href="https://docs.intersoftsapient.net/docs/integration-activation">label integration</Anchor> for UPS and have already <Anchor label="created a shipping location" target="_blank" href="https://docs.intersoftsapient.net/docs/add-a-shipping-location">created a shipping location</Anchor>._
+<Callout icon="🚧" theme="warn">
+  ### _Important_
+
+  _Before you can set up a shipping account, make sure you have enabled the <Anchor target="_blank" href="https://docs.intersoftsapient.net/docs/integration-activation">label integration</Anchor> for UPS and have already <Anchor target="_blank" href="https://docs.intersoftsapient.net/docs/add-a-shipping-location">created a shipping location</Anchor>._
+</Callout>
 
 ## How to add UPS shipping account
 
@@ -39,7 +41,7 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
       <ToggleListItem title="2. Select option to add shipping account">
         On the **Shipping Accounts** page that opens, select ![](https://files.readme.io/a68fed3fbbb1668dedfcf9e0a5bd246f3f1dfa92bb6c7a47c175ad8df700e827-add_shipping_account_button.png).
 
-        <Image align="center" src="https://files.readme.io/e0071b9f348522956cf0d9db5802f5bef56a11c5d3ff90f8a6bbedbc3c48d560-Add_shipping_account_button_UPS.png" caption="Selection option to add shipping account" />
+        <Image align="center" src="https://files.readme.io/e0071b9f348522956cf0d9db5802f5bef56a11c5d3ff90f8a6bbedbc3c48d560-Add_shipping_account_button_UPS.png" caption="Selecting option to add shipping account" />
 
         ***
       </ToggleListItem>
@@ -162,7 +164,7 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
       <ToggleListItem title="5. Enter carrier details">
         In the **CARRIER DETAILS** block, enter the necessary information as explained in the following table.
 
-        <Image align="center" src="https://files.readme.io/a3b23bd3c50a8e648377a238d6eefe16f86441b03cc9c33a7bd6a7321b8640fe-carrier_details_block_UPS.png" width="450px" caption="Entering carrier details" />
+        <Image align="center" src="https://files.readme.io/a3b23bd3c50a8e648377a238d6eefe16f86441b03cc9c33a7bd6a7321b8640fe-carrier_details_block_UPS.png" width="450px" caption="Entering carrier-specific details" />
 
         <br />
 
@@ -212,3 +214,5 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
     Update or modify an existing shipping account.
   </Card>
 </Cards>
+
+<br />
