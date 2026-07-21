@@ -14,7 +14,7 @@ In SAPIENT, with the **Add Shipping Account** functionality, you can select the 
 <Callout icon="🚧" theme="warn">
   ### _Important_
 
-  _Before you can set up a shipping account, make sure you have enabled the <Anchor label="label integration" target="_blank" href="https://docs.intersoftsapient.net/docs/integration-activation">label integration</Anchor> for DHL Germany._
+  _Before you can set up a shipping account, make sure you have enabled the <Anchor target="_blank" href="https://docs.intersoftsapient.net/docs/integration-activation">label integration</Anchor> for DHL Germany._
 </Callout>
 
 ## How to add DPD Ireland shipping account
@@ -182,7 +182,7 @@ In SAPIENT, with the **Add Shipping Account** functionality, you can select the 
 
         <br />
 
-        After entering all the required information, select <Image src="https://files.readme.io/99e4e322c6a3f874e0258a73646a551aa2120d8d359b2ce5d09a4cf0eabcd44a-add_shipping_account_button_2.png" caption="Add shipping account button" />.
+        After entering all the required information, select <Image src="https://files.readme.io/99e4e322c6a3f874e0258a73646a551aa2120d8d359b2ce5d09a4cf0eabcd44a-add_shipping_account_button_2.png"/>.
 
         Once done, you have successfully added a shipping account. You can now start shipping with it.
       </ToggleListItem>
@@ -209,3 +209,5 @@ In SAPIENT, with the **Add Shipping Account** functionality, you can select the 
     Update or modify an existing shipping account.
   </Card>
 </Cards>
+
+<br />
