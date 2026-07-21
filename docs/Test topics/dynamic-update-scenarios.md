@@ -40,7 +40,7 @@ Documentation must evolve with the product so it does not become outdated or inc
 
 ### Product change
 
-The user interface renames *Building Groups* to *Spaces*. No backend functionality changes.
+The user interface renames *Building Groups* to *Sites*. No backend functionality changes.
 
   </Column>
   <Column>
@@ -62,12 +62,12 @@ Update the following pages:
 **AI agent:** Terminology Checker
 
 1. Scan every Markdown file for occurrences of the previous terminology.
-2. Recommend replacements using the approved term, *Spaces*.
+2. Recommend replacements using the approved term, *Sites*.
 3. Generate a change report for review.
 
 ### Human review
 
-The Product Manager confirms that *Spaces* is the approved product term. The Technical Writer reviews each suggested replacement to ensure it fits naturally in context.
+The Product Manager confirms that *Sites* is the approved product term. The Technical Writer reviews each suggested replacement to ensure it fits naturally in context.
 
 ### Quality checks
 
@@ -89,7 +89,7 @@ The Technical Writer approves the pull request, and the Documentation Owner merg
 
 ### Product change
 
-A new *Energy Analytics Dashboard API* is introduced with endpoints for:
+A new *Energy threshold PUSH notifications* is introduced with endpoints for:
 
 - Energy consumption
 - Carbon emissions
@@ -146,7 +146,7 @@ All reviewers approve the pull request before publication.
 
 ### Product change
 
-A support engineer reports that authentication tokens now expire after *30 minutes*, while the documentation still states *60 minutes*.
+A support engineer reports that authentication tokens now expire after *20 minutes*, while the documentation still states *40 minutes*.
 
   </Column>
   <Column>
