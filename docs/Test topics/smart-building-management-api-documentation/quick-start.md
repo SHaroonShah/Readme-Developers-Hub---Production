@@ -63,9 +63,9 @@ A successful response returns the building details.
 ```json Successful response
 {
   "id": 1023,
-  "name": "London Headquarters",
-  "status": "Online",
-  "floors": 12
+  "name": "London Kings Cross",
+  "status": "Active",
+  "floors": 42
 }
 ```
 
