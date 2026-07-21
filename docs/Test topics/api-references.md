@@ -46,7 +46,7 @@ accept: application/json
 
 {
   "id":1023,
-  "name":"London Kingscross",
+  "name":"London Kings Cross",
   "status":"Active",
   "timezone":"Europe/London",
   "floors":42
