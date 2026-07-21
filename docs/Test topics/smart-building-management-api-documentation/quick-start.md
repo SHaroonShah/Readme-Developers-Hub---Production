@@ -8,13 +8,13 @@ metadata:
 ---
 # Quick Start
 
-Make your first authenticated request to the Smart Building Management API and retrieve building details.
+Make your first authenticated request to the SmartBuilding API and retrieve building details.
 
 ## Prerequisites
 
-Complete these steps before you send a request:
+Prior to sending the API request, you must complete the following steps:
 
-- Sign in to an active Smart Building account.
+- Sign in to an active SmartBuilding account.
 - Get your OAuth 2.0 client credentials: a `client_id` and `client_secret`.
 - Install or open a REST client such as Postman, or use cURL.
 - Find the Building ID you want to retrieve.
@@ -39,7 +39,7 @@ A successful response includes the token to use in the next request and its life
 
 ```json Successful response
 {
-  "access_token": "eyJhbGciOi...",
+  "access_token": "eJhyuoiKL...",
   "expires_in": 3600,
   "token_type": "Bearer"
 }
@@ -51,7 +51,7 @@ Copy the value of `access_token`.
 
 <Accordion title="2. Call the Buildings endpoint">
 
-Replace `1023` with your Building ID and `YOUR_ACCESS_TOKEN` with the access token from step 1.
+Replace `1023` with your Building ID and `YOUR_ACCESS_TOKEN` with the access token returned from step 1.
 
 ```http Request
 GET /api/v1/buildings/1023
