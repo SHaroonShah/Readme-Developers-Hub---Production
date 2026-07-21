@@ -46,10 +46,10 @@ accept: application/json
 
 {
   "id":1023,
-  "name":"London Headquarters",
-  "status":"Online",
+  "name":"London Kingscross",
+  "status":"Active",
   "timezone":"Europe/London",
-  "floors":12
+  "floors":42
 }
 ```
 
