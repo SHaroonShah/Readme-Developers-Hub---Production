@@ -51,7 +51,7 @@ This documentation covers API Version 1.
 
 ## Getting Started
 
-<Cards>
+<Cards columns="3">
   <Card title="Quick Start" icon="fa-rocket">
     Get up and running quickly.
   </Card>
