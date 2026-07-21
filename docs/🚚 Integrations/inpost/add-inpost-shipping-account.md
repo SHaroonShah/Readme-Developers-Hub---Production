@@ -11,12 +11,14 @@ metadata:
 ---
 In SAPIENT, you can create an InPost shipping account by selecting your desired <Glossary>shipping location</Glossary>,  entering the corresponding account and carrier details, and then adding the account to the system.
 
-> 🚧 _Important_
->
-> _Before you can set up a shipping account, be advised on the following:_
->
-> * _Make sure to [enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with InPost._
-> * _If you wish to use both the Outbound labelled and Returns labelless services, you must create separate shipping accounts for each. This is because the credentials—**ClientId** and **Bearer token**— differs for each account._
+<Callout icon="🚧" theme="warn">
+  ### _Important_
+
+  _Before you can set up a shipping account, be advised on the following:_
+
+  - _Make sure to [enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with InPost._
+  - _If you wish to use both the Outbound labelled and Returns labelless services, you must create separate shipping accounts for each. This is because the credentials—_**_ClientId_**_&#x20;and&#x20;_**_Bearer token_**_— differs for each account._
+</Callout>
 
 ## How to add InPost shipping account
 
@@ -38,7 +40,7 @@ In SAPIENT, you can create an InPost shipping account by selecting your desired 
       <ToggleListItem title="2. Select opiton to add shipping account">
         On the **Shipping Accounts** page that opens, select ![](https://files.readme.io/e27a112101fea1d20bb870a5c570ce3cb3889d2c514dd5bc0920c2ea630f9943-add_shipping_account_button.png).
 
-        <Image align="center" border={true} src="https://files.readme.io/1f21da8d1e1c679c2ed31d67bfc7551e5c9477f2f22b16c279aed71ab9688809-Add_shipping_account_button_YODEL.png" caption="Accessing option to add shipping account" />
+        <Image align="center" border={true} src="https://files.readme.io/1f21da8d1e1c679c2ed31d67bfc7551e5c9477f2f22b16c279aed71ab9688809-Add_shipping_account_button_YODEL.png" caption="Selecting option to add shipping account" />
 
         ***
       </ToggleListItem>
@@ -65,7 +67,7 @@ In SAPIENT, you can create an InPost shipping account by selecting your desired 
       <ToggleListItem title="4. Enter shipping account details">
         In the **SHIPPING ACCOUNT** block, enter the necessary information as explained in the following table.
 
-        <Image align="center" border={true} src="https://files.readme.io/aab73fec0c0be8505e9adce3450d783ae7d9f8ed4c7a9c0b9198b4682fb89679-Shipping_account_block_INPOST.png" width="500px" caption="Specifying shipping account details" />
+        <Image align="center" border={true} src="https://files.readme.io/aab73fec0c0be8505e9adce3450d783ae7d9f8ed4c7a9c0b9198b4682fb89679-Shipping_account_block_INPOST.png" width="500px" caption="Entering shipping account details" />
 
         <br />
 
@@ -159,7 +161,7 @@ In SAPIENT, you can create an InPost shipping account by selecting your desired 
       <ToggleListItem title="5. Enter carrier details">
         In the **CARRIER DETAILS** block, enter the necessary information as explained in the following table.
 
-        <Image align="center" border={true} src="https://files.readme.io/3a5f6be5d0522b615c12181f01d628650d3ef6d3966de74d012fce372c78a302-carrier_details_block_InPost.png" width="400px" caption="Entering carrier details" />
+        <Image align="center" border={true} src="https://files.readme.io/3a5f6be5d0522b615c12181f01d628650d3ef6d3966de74d012fce372c78a302-carrier_details_block_InPost.png" width="400px" caption="Entering carrier-specific details" />
 
         <br />
 
