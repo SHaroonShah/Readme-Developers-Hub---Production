@@ -89,7 +89,7 @@ Build a documentation brief from trusted sources before drafting. Use the brief 
 
 - Review the Product Requirements Document (PRD) and engineering design documents.
 - Verify API behavior in the OpenAPI or Swagger specification.
-- Review UI designs in Figma and relevant developer discussions.
+- Review UI designs in Figma/ or with the Front-end developers.
 - Use release notes to confirm the scope of the product change.
 
 > **Output:** A documentation brief containing verified technical information.
@@ -105,16 +105,16 @@ Use the documentation brief and approved prompts to generate the first Markdown 
 Have the Technical Writer review the draft before technical validation.
 
 - Check clarity, readability, and structure.
-- Confirm the content follows the style guide.
+- Confirm the content follows the company style guide.
 - Resolve missing or unclear details with the engineering team.
 
 > **Output:** A revised documentation draft.
 
 ## 5. Validate technical content
 
-Have a Software Engineer validate the draft against the implemented product.
+Have a Software Engineer/Business analyst validate the draft against the implemented product.
 
-- Confirm endpoint names, parameters, request payloads, and response examples.
+- Confirm endpoint names, parameters, request payloads, field descriptions, and  response examples.
 - Verify authentication requirements and error codes.
 
 **Output:** Technically approved documentation.
@@ -130,7 +130,7 @@ Run documentation validation in the CI/CD pipeline before merging.
 <Callout icon="fa-solid fa-circle-exclamation" theme="warning">
   ### _Important_
 
-  _Do not merge the pull request until every automated check passes._
+  _Do not merge the pull request until every automated check has passed successfully.._
 </Callout>
 
 ## 7. Review the pull request
