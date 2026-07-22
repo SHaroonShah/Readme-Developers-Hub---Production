@@ -145,6 +145,14 @@ DHL is the global leader in the logistics industry. DHL Express is a brand withi
   </Tab>
 
   <Tab title="Other Services">
+    <Accordion title="Print Label">
+      Generate and return the label for The Delivery Group shipment in the PDF or PNG format. This endpoint must be utilised when the label is not generated in The Delivery Group Create Shipment request.
+
+      > 📘 *Note*
+      >
+      > *This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting.*
+    </Accordion>
+
     <Accordion title="Tracking">
       Enables customers to receive tracking updates through their integration with the SAPIENT tracking webhook.
     </Accordion>
