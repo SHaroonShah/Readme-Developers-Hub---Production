@@ -1,15 +1,13 @@
 ---
 title: Starlinks Global
-excerpt: >-
-  Starlinks Global provides international and domestic outbound delivery
-  services through the SAPIENT platform.
+excerpt: "Starlinks Global is a partner carrier providing international and domestic delivery solutions. They offer global delivery solutions for seamless cross-border trade, helping retailers deliver to nearly\_200 countries, even the regions which are typically complex to reach."
 deprecated: false
 hidden: true
 icon: fad fa-truck-fast
 metadata:
   robots: index
 ---
-Starlinks Global supports international and domestic outbound shipping through the SAPIENT platform.
+The integration of Starlinks Global into the SAPIENT platform is a significant step in enhancing shipping capabilities. This section discusses the in-scope features of this integration and the services this carrier offers.
 
 <Tabs>
   <Tab title="Key Features">
@@ -126,3 +124,5 @@ Starlinks Global supports international and domestic outbound shipping through t
 </Cards>
 
 <Banner isInline={true} message="Ready to integrate?" color="#ffb600" textColor="#ffffff" fontSize="20px" fontWeight="bold" width="120px" />
+
+<br />
