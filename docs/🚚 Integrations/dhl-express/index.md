@@ -146,7 +146,7 @@ DHL is the global leader in the logistics industry. DHL Express is a brand withi
 
   <Tab title="Other Services">
     <Accordion title="Print Label">
-      Generate and return the label for The Delivery Group shipment in the PDF or PNG format. This endpoint must be utilised when the label is not generated in The Delivery Group Create Shipment request.
+      Generate and return the label for DHL Express shipment in the PDF or PNG format. This endpoint must be utilised when the label is not generated in the DHL Express Create Shipment request.
 
       > 📘 *Note*
       >
