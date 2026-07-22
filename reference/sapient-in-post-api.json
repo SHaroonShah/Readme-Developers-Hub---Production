@@ -1,7 +1,7 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "INPOST API",
+    "title": "INPOST",
     "description": "# Introduction\nHere you will find requirements for integrating with INTERSOFT SAPIENT API.\n\nThe documentation specifically covers how the API can be used by business customers to conduct shipping activity with available carriers and provides the technical information to build this integration. The API allows customers to create and manage shipments, produce labels, customs documentation, and collection manifests, retrieve reference data such as carriers and countries, and maintain their own data such as shipping account details.\n\nIntersoft API is a fully RESTful service implemented using JSON messaging. You, as the customer are responsible for sending JSON messages and for maintaining the capability of receiving JSON messages in the format described in this specification. Request and response examples for each API service are included in this specification.\n\n# Authentication\n\nThe INTERSOFT SAPIENT API uses OAuth2 authentication.\n\nTo request the authorization token you need to create API credentials (Client ID and Secret) on the system first. If you have not done it already, log into your account and go to API Credentials or follow the link [add a link here with the path to the API Credentials menu]. Use the credentials to retrieve the authorization token.\n\nNote: Make sure you copy the Secret and keep it secure as you won't be able to view it again on the system.\n\n<!-- ReDoc-Inject: <SecurityDefinitions /> -->\n",
     "version": "v4.0-INPOST",
     "x-logo": {
@@ -86,7 +86,7 @@
                     "value": {
                       "ShippingAccounts": [
                         {
-                          "ShippingAccountId": "a2a9f976-128e-454c-8223-e57ddc16a47f",
+                          "ShippingAccountId": "46345f53-abfb-4dff-b326-eef848a10b0d",
                           "CarrierCode": "INPOST",
                           "AccountNumber": "IN0000001",
                           "AccountType": "Sandbox",
@@ -96,11 +96,11 @@
                           "ContactName": "John Smith",
                           "ContactNumber": "0123456789",
                           "LastUpdatedBy": "User A",
-                          "LastUpdatedDateUtc": "2026-06-30T08:52:58.266Z",
+                          "LastUpdatedDateUtc": "2026-07-22T08:09:44.883Z",
                           "ClientId": "example@inpost.co.uk"
                         },
                         {
-                          "ShippingAccountId": "485cba45-bce1-460f-a8f0-0c69c612e1a7",
+                          "ShippingAccountId": "9b526c8f-cff4-4abb-ac54-31871f1f0729",
                           "CarrierCode": "INPOST",
                           "AccountNumber": "IN0000007",
                           "AccountType": "Sandbox",
@@ -110,7 +110,7 @@
                           "ContactName": "Joan Smith",
                           "ContactNumber": "0123456789",
                           "LastUpdatedBy": "User B",
-                          "LastUpdatedDateUtc": "2026-06-30T08:52:58.266Z",
+                          "LastUpdatedDateUtc": "2026-07-22T08:09:44.883Z",
                           "ClientId": "example2@inpost.co.uk"
                         }
                       ],
@@ -260,7 +260,7 @@
                 "examples": {
                   "Response": {
                     "value": {
-                      "ShippingAccountId": "db783e39-9f85-4fef-9927-db264dc82348",
+                      "ShippingAccountId": "47a107ec-e901-48f2-b78d-377c4d65c64c",
                       "CarrierCode": "INPOST",
                       "AccountNumber": "IN0000001",
                       "AccountType": "Sandbox",
@@ -270,7 +270,7 @@
                       "ContactName": "John Smith",
                       "ContactNumber": "0123456789",
                       "LastUpdatedBy": "User A",
-                      "LastUpdatedDateUtc": "2026-06-30T08:52:58.574Z",
+                      "LastUpdatedDateUtc": "2026-07-22T08:09:45.189Z",
                       "ClientId": "example@inpost.co.uk"
                     }
                   }
@@ -302,7 +302,7 @@
           "Shipping Accounts"
         ],
         "summary": "Update Account",
-        "description": "Update shipping account details.\r<br />Note: All required fields must be populated in the request, regardless if they need updating or not.",
+        "description": "Update shipping account details.\r<br />\r<br />***Note:** All required fields must be populated in the request, regardless if they need updating or not.*",
         "parameters": [
           {
             "name": "shippingAccountId",
@@ -653,7 +653,7 @@
                       "ServiceCode": "B2C",
                       "DescriptionOfGoods": "Clothing",
                       "BusinessTransactionType": "B2C",
-                      "ShipmentDate": "2026-06-30",
+                      "ShipmentDate": "2026-07-22",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
@@ -661,8 +661,8 @@
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "0451e2e0-0762-472f-9563-e3aeb5824d48",
-                      "ShippingLocationId": "ee132e03-f300-468e-964b-f9528c669b9a",
+                      "ShippingAccountId": "1c88c697-5e7e-4d39-8eba-2b7bcbd92025",
+                      "ShippingLocationId": "37e36afc-0bb9-4ee1-960d-6e41d5559781",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -756,14 +756,14 @@
                       "ContentType": "NDX",
                       "ServiceCode": "B2C",
                       "DescriptionOfGoods": "Clothing",
-                      "ShipmentDate": "2026-06-30",
+                      "ShipmentDate": "2026-07-22",
                       "DeclaredWeight": 1.5,
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "0ce75da5-9869-4dc7-849a-628c033ead80",
-                      "ShippingLocationId": "26586db6-78b0-4495-b8f0-d2472c79da07",
+                      "ShippingAccountId": "5fa97835-28fc-4221-aef4-52bfd3a467d5",
+                      "ShippingLocationId": "26ef2908-c1a4-49d8-ac69-984aba00490a",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -793,13 +793,13 @@
                       "ContentType": "NDX",
                       "ServiceCode": "RETURNS",
                       "DescriptionOfGoods": "Clothing",
-                      "ShipmentDate": "2026-06-30",
+                      "ShipmentDate": "2026-07-22",
                       "DeclaredWeight": 1.5,
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "84c75e72-f836-4922-b116-1838b42aa79b"
+                      "ShippingAccountId": "a1f116c4-31a7-40f7-accb-ce38859699c7"
                     },
                     "Destination": {
                       "Address": {
@@ -839,7 +839,7 @@
                       "LabelFormat": "Pdf",
                       "Packages": [
                         {
-                          "ShipmentId": "81cbb4a2-6655-467a-aa9a-1af0cce11c36",
+                          "ShipmentId": "59509e9f-5280-4807-b4ba-1d60c680b698",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "MD000000004409629",
                           "CarrierTrackingUrl": "https://tracking.inpost.co.uk/api/v2.0/MD000000004409629"
@@ -935,7 +935,7 @@
                 "examples": {
                   "PDF": {
                     "value": {
-                      "ShipmentId": "5d07fee9-1749-46b2-819e-aaf85e6fe14e",
+                      "ShipmentId": "6d261a0c-63c8-47f3-9ca2-9f6a2ec735a0",
                       "TrackingNumber": "5949545283154118",
                       "CarrierTrackingUrl": "https://tracking.inpost.co.uk/api/v2.0/5949545283154118",
                       "Label": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
