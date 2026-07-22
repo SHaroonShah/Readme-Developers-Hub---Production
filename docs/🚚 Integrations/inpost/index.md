@@ -11,7 +11,9 @@ icon: fad fa-truck-fast
 metadata:
   robots: index
 ---
-<Image align="center" width="900px" src="https://files.readme.io/75762ee66dc10880c8cfd75e2d683174396ef3ed0fd727fd959f2eb44e013de6-InPost_white_banner.png" />
+
+<Image src="https://files.readme.io/75762ee66dc10880c8cfd75e2d683174396ef3ed0fd727fd959f2eb44e013de6-InPost_white_banner.png" align="center" width="900px" />
+
 
 ***
 
@@ -113,6 +115,10 @@ This integration offers several key features that streamline the shipping proces
       >
       > *This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting.*
     </Accordion>
+    <br />
+    <Accordion title="Tracking">
+      This integration allows customers to monitor their shipments in real-time, providing transparency and peace of mind. Users can access detailed tracking information, including, real-time updates, tracking numbers, and delivery notifications.
+    </Accordion>
   </Tab>
 </Tabs>
 
@@ -165,3 +171,5 @@ This integration offers several key features that streamline the shipping proces
     Seamlessly connect with InPost and manage your shipping operations from a single platform.
   </Card>
 </Cards>
+
+<br />
