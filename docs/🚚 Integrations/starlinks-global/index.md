@@ -110,7 +110,7 @@ The integration of Starlinks Global into the SAPIENT platform is a significant s
     <br />
 
     <Accordion title="Tracking">
-      Receive tracking updates through the SAPIENT tracking webhook.
+      This integration allows customers to monitor their shipments in real-time, providing transparency and peace of mind. Users can access detailed tracking information, including, real-time updates, tracking numbers, and delivery notifications.
     </Accordion>
   </Tab>
 </Tabs>
