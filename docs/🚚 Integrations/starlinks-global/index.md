@@ -13,11 +13,11 @@ The integration of Starlinks Global into the SAPIENT platform is a significant s
 
 This integration provides the following key features:
 
-- Ship from destinations: The integration supports shipping from locations in Great Britain (GB) only.
-- Ship To Destinations: Users can send shipments to Great Britain (GB), Europe (EU), and ROW (Rest of the World).
-- Service Type: The integration is focused on outbound shipping only.
-- Incoterms: DDU and DDP.
-- Label formats: PDF, PNG, and ZPL300DPI.
+- **Ship from destinations**: The integration supports shipping from locations in Great Britain (GB) only.
+- **Ship To Destinations**: Users can send shipments to Great Britain (GB), Europe (EU), and <Glossary>ROW</Glossary> (Rest of the World).
+- **Service Type**: The integration is focused on outbound shipping only.
+- **Incoterms**: <Glossary>DDU</Glossary>and <Glossary>DDP</Glossary>.
+- **Label formats**: <Glossary>PDF</Glossary>, <Glossary>PNG</Glossary>, and <Glossary>ZPL300DPI</Glossary>.
 
 # <br />Service enhancements
 
