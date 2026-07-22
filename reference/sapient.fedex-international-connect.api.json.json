@@ -1,7 +1,7 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "FEDEX INTERNATIONAL CONNECT API",
+    "title": "FEDEX INTERNATIONAL CONNECT",
     "description": "# Introduction\nHere you will find requirements for integrating with SAPIENT CORE API.\n\nThe documentation specifically covers how the API can be used by business customers to conduct shipping activity with available carriers and provides the technical information to build this integration. The API allows customers to create and manage shipments, produce labels, customs documentation, and collection manifests, retrieve reference data such as carriers and countries, and maintain their own data such as shipping account details.\n\nIntersoft API is a fully RESTful service implemented using JSON messaging. You, as the customer are responsible for sending JSON messages and for maintaining the capability of receiving JSON messages in the format described in this specification. Request and response examples for each API service are included in this specification.\n\n# Authentication\n\nThe SAPIENT CORE API uses OAuth2 authentication.\n\nTo request the authorization token you need to create API credentials (Client ID and Secret) on the system first. If you have not done it already, log into your account and go to API Credentials or follow the link [add a link here with the path to the API Credentials menu]. Use the credentials to retrieve the authorization token.\n\nNote: Make sure you copy the Secret and keep it secure as you won't be able to view it again on the system.\n\n<!-- ReDoc-Inject: <SecurityDefinitions /> -->\n",
     "version": "v4.0-FIC",
     "x-logo": {
@@ -86,7 +86,7 @@
                     "value": {
                       "ShippingAccounts": [
                         {
-                          "ShippingAccountId": "634f6660-7628-47d8-b5dd-84f83d6654bb",
+                          "ShippingAccountId": "7ef312d5-1f8a-42d7-8ede-cad4dcbaba2d",
                           "CarrierCode": "FIC",
                           "AccountType": "Sandbox",
                           "AccountName": "AB VideoGames",
@@ -96,10 +96,10 @@
                           "ContactNumber": "0123456789",
                           "ShipperWebsiteUrl": "https://www.example.com",
                           "LastUpdatedBy": "User A",
-                          "LastUpdatedDateUtc": "2026-06-30T08:54:21.262Z"
+                          "LastUpdatedDateUtc": "2026-07-22T08:11:11.731Z"
                         },
                         {
-                          "ShippingAccountId": "d923d941-b3ce-43ba-b413-e4e35fa6afc9",
+                          "ShippingAccountId": "90066191-030f-492d-9236-9ea1bbb6de99",
                           "CarrierCode": "FIC",
                           "AccountType": "Sandbox",
                           "AccountName": "KG Pet Shop",
@@ -109,7 +109,7 @@
                           "ContactNumber": "0123456789",
                           "ShipperWebsiteUrl": "https://www.example.com",
                           "LastUpdatedBy": "User B",
-                          "LastUpdatedDateUtc": "2026-06-30T08:54:21.262Z"
+                          "LastUpdatedDateUtc": "2026-07-22T08:11:11.731Z"
                         }
                       ],
                       "TotalCount": 2
@@ -258,7 +258,7 @@
                 "examples": {
                   "Response": {
                     "value": {
-                      "ShippingAccountId": "7190e60d-de3c-4a23-be54-0623213c99cc",
+                      "ShippingAccountId": "ed2ce2c8-8b1b-400c-9266-1a13f248ffe6",
                       "CarrierCode": "FIC",
                       "AccountType": "Sandbox",
                       "AccountName": "AB VideoGames",
@@ -268,7 +268,7 @@
                       "ContactNumber": "0123456789",
                       "ShipperWebsiteUrl": "https://www.example.com",
                       "LastUpdatedBy": "User A",
-                      "LastUpdatedDateUtc": "2026-06-30T08:54:21.668Z"
+                      "LastUpdatedDateUtc": "2026-07-22T08:11:12.039Z"
                     }
                   }
                 }
@@ -299,7 +299,7 @@
           "Shipping Accounts"
         ],
         "summary": "Update Account",
-        "description": "Update shipping account details.\r<br />Note: All required fields must be populated in the request, regardless if they need updating or not.",
+        "description": "Update shipping account details.\r<br />\r<br />***Note:** All required fields must be populated in the request, regardless if they need updating or not.*",
         "parameters": [
           {
             "name": "shippingAccountId",
@@ -651,8 +651,8 @@
                       "CurrencyCode": "GBP"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "aa0dc7e2-1351-4f05-89c0-f65f7561f6bf",
-                      "ShippingLocationId": "80be2330-f178-4bc4-a164-eeacbdd9462c",
+                      "ShippingAccountId": "d87c5bed-dd34-4be5-ad0b-6f13359f5f74",
+                      "ShippingLocationId": "63fe6b47-350f-4850-a5e0-57445c847b43",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -689,7 +689,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "RM48",
                       "DescriptionOfGoods": "Clothing",
-                      "ShipmentDate": "2026-06-30",
+                      "ShipmentDate": "2026-07-22",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
@@ -787,7 +787,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "TPWW",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-06-30",
+                      "ShipmentDate": "2026-07-22",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP"
                     },
@@ -860,7 +860,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "TPWW",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-06-30",
+                      "ShipmentDate": "2026-07-22",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
@@ -923,7 +923,9 @@
                         "Weight": 0.5,
                         "ImageURL": "https://yourcompany.com/images/product.jpg",
                         "HSCode": "61091000",
-                        "CountryOfOrigin": "CN"
+                        "CountryOfOrigin": "CN",
+                        "ManufactureProductId": "5449000000996",
+                        "StandardisedProductId": "4006381333931"
                       },
                       {
                         "SkuCode": "SKU456",
@@ -934,7 +936,9 @@
                         "Weight": 0.3,
                         "ImageURL": "https://yourcompany.com/images/jumper-black.jpg",
                         "HSCode": "61101130",
-                        "CountryOfOrigin": "CN"
+                        "CountryOfOrigin": "CN",
+                        "ManufactureProductId": "5449000000997",
+                        "StandardisedProductId": "4006381333932"
                       }
                     ],
                     "Customs": {
@@ -946,7 +950,7 @@
                       "OtherCharges": 32,
                       "QuotedLandedCost": 82.74,
                       "InvoiceNumber": "INV-12345",
-                      "InvoiceDate": "2026-06-30",
+                      "InvoiceDate": "2026-07-22",
                       "ExportLicenceRequired": false,
                       "Airn": "231.002.999-00"
                     },
@@ -974,7 +978,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "RM48",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-06-30",
+                      "ShipmentDate": "2026-07-22",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
@@ -1019,7 +1023,7 @@
                     "value": {
                       "Packages": [
                         {
-                          "ShipmentId": "5fe8db8f-6340-4308-8f12-11e1ceb0a4e3",
+                          "ShipmentId": "e133e0ea-70fe-4928-a1fa-800ace445a1d",
                           "PackageOccurrence": 1
                         }
                       ],
@@ -1030,7 +1034,7 @@
                     "value": {
                       "Packages": [
                         {
-                          "ShipmentId": "80289ca0-8d48-4014-ae44-c7a3e3d87317",
+                          "ShipmentId": "f8518c3b-e7da-4c2d-8e9a-479674972ae4",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "MD000000004409629",
                           "CarrierTrackingUrl": "https://fictracking.fedex.com/?MyFICNumber=MD000000004409629"
@@ -1048,7 +1052,7 @@
                           "CarrierDetails": {
                             "LabelCopiesToPrint": 1
                           },
-                          "ShipmentId": "ccecaf0c-24d5-41b6-a8c9-0f22204bd5aa",
+                          "ShipmentId": "12d10197-bf71-4b6f-b350-51c66cbd3c83",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "MD000000004409629",
                           "CarrierTrackingUrl": "https://fictracking.fedex.com/?MyFICNumber=MD000000004409629"
@@ -1137,7 +1141,7 @@
                 "examples": {
                   "PDF": {
                     "value": {
-                      "ShipmentId": "e4577f31-57d7-4c0f-b94d-0a0395bcc0ac",
+                      "ShipmentId": "b9927b2a-a9b4-4793-a96d-725dda934e8c",
                       "TrackingNumber": "UZ 123 456 789 IE",
                       "CarrierTrackingUrl": "https://fictracking.fedex.com/?MyFICNumber=UZ 123 456 789 IE",
                       "Label": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
