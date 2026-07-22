@@ -31,7 +31,7 @@ This integration provides the following key features:
 
 The Starlinks Global integration provides the following additional features:
 
-- Single-package services: Starlinks Global supports only single-package services. Consignment services are not supported in this integration.
+- **Single-package services**: Starlinks Global supports only single-package services. Consignment services are not supported in this integration.
 
 # Carrier services
 
