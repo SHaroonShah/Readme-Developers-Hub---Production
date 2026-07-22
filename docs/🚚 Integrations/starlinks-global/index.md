@@ -35,7 +35,23 @@ The Starlinks Global integration provides the following additional features:
 
 # Carrier services
 
-<br />
+The following key services are provided by the Starlinks Global integration.
+
+| Service Name                              | Description                                                                                                                  |
+| ----------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| International Home Delivery               | This service provides international delivery of parcels directly to the recipient's home address.                            |
+| International Express Service – Starlinks | This service provides expedited international delivery with end-to-end Starlinks handling.                                   |
+| International Express Service – Last-Mile | This service provides expedited international delivery with delivery completed by a local last-mile carrier.                 |
+| Final Mile                                | This service provides last-mile delivery from the destination hub to the recipient.                                          |
+| Domestic                                  | This service provides domestic parcel delivery within supported countries such as the UK, USA, and Australia.                |
+| Cross Border Direct – Starlinks Label     | This service provides cross-border parcel delivery using a Starlinks shipping label.                                         |
+| Cross Border Direct – Last-Mile Label     | This service provides cross-border parcel delivery using a last-mile carrier label for final delivery.                       |
+| Starlinks Domestic Premium                | This service provides premium domestic delivery within supported countries such as the UK, USA, and Australia.               |
+| Cross Border Light                        | This service provides a cost-effective cross-border delivery solution for lightweight shipments.                             |
+| Starlinks Border Flexi – Starlinks Label  | This service provides flexible cross-border delivery using a Starlinks shipping label.                                       |
+| Starlinks Border Flexi – Last-Mile Label  | This service provides flexible cross-border delivery with final delivery performed by a local last-mile carrier.             |
+| Starlinks Market Places – Starlinks Label | This service provides cross-border marketplace shipment delivery using a Starlinks shipping label.                           |
+| Starlinks Market Places – Last-Mile Label | This service provides cross-border marketplace shipment delivery with final delivery completed by a local last-mile carrier. |
 
 # Carrier API services
 
