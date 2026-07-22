@@ -86,20 +86,17 @@ The integration of Starlinks Global into the SAPIENT platform is a significant s
 <Tabs>
   <Tab title="Core Services">
     <Accordion title="Create Shipment">
-      Create Starlinks Global shipments using the **Create Shipment** endpoint. The response returns the shipping label in Base64-encoded format.
+      The integration for creating shipments to reflect Starlinks Global as a primary carrier and allowing users to create shipments using the **Create Shipment** endpoint.
     </Accordion>
 
     <br />
 
     <Accordion title="Manifest Shipment">
-      Retrieve information about shipment manifests created by the system and confirm when shipments have been manifested with the carrier. To receive real-time shipment and status updates, use the INTERSOFT Manifest Webhook.
+       Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/v4.03/docs/manifest-webhook) to keep track of shipments and their statuses by to receiving real-time updates or notifications whenever specific events occur in the system (such as shipping updates, status changes, and so on).
     </Accordion>
 
     <br />
 
-    <Accordion title="Tracking">
-      Receive tracking updates through the SAPIENT tracking webhook.
-    </Accordion>
   </Tab>
 
   <Tab title="Other Services">
@@ -109,6 +106,11 @@ The integration of Starlinks Global into the SAPIENT platform is a significant s
       > 📘 *Note*
       >
       > *This endpoint changes the shipment status to label printed. Call it when you print or create the label, based on your business process. Update shipments to label printed before manifesting.*
+    </Accordion>
+    <br />
+
+    <Accordion title="Tracking">
+      Receive tracking updates through the SAPIENT tracking webhook.
     </Accordion>
   </Tab>
 </Tabs>
