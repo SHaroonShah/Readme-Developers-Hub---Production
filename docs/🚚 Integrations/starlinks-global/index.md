@@ -58,6 +58,7 @@ The following key services are provided by the Starlinks Global integration.
 The following API services are provided by the Starlinks Global integration:
 
 - **Create shipment**: The integration for creating shipments to reflect Starlinks Global as a primary carrier and allowing users to create shipments using the Create Shipment that returns the label in base64 encoded format.
+- **Manifest Shipment**: Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT Manifest Webhook to keep track of shipments and their statuses by receiving real-time updates or notifications whenever specific events occur in the system, such as shipping updates and status changes.
 - **Tracking**: Enables customers to receive tracking updates through their integration with the SAPIENT tracking webhook.
 - **Manifest shipment**: Enable customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT Manifest Webhook to keep track of shipments and their statuses by to receiving real-time updates or notifications whenever specific events occur in the system (such as shipping updates, status changes, and so on).
 
