@@ -1,7 +1,7 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "DX API",
+    "title": "DX",
     "description": "# Introduction\nHere you will find requirements for integrating with INTERSOFT SAPIENT API.\n\nThe documentation specifically covers how the API can be used by business customers to conduct shipping activity with available carriers and provides the technical information to build this integration. The API allows customers to create and manage shipments, produce labels, customs documentation, and collection manifests, retrieve reference data such as carriers and countries, and maintain their own data such as shipping account details.\n\nIntersoft API is a fully RESTful service implemented using JSON messaging. You, as the customer are responsible for sending JSON messages and for maintaining the capability of receiving JSON messages in the format described in this specification. Request and response examples for each API service are included in this specification.\n\n# Authentication\n\nThe INTERSOFT SAPIENT API uses OAuth2 authentication.\n\nTo request the authorization token you need to create API credentials (Client ID and Secret) on the system first. If you have not done it already, log into your account and go to API Credentials or follow the link [add a link here with the path to the API Credentials menu]. Use the credentials to retrieve the authorization token.\n\nNote: Make sure you copy the Secret and keep it secure as you won't be able to view it again on the system.\n\n<!-- ReDoc-Inject: <SecurityDefinitions /> -->\n",
     "version": "v4.0-DX",
     "x-logo": {
@@ -95,7 +95,7 @@
                       "ContactNumber": "0123456789",
                       "Username": "Username1",
                       "LastUpdatedBy": "User A",
-                      "LastUpdatedDateUtc": "2026-06-30T08:49:52.096Z"
+                      "LastUpdatedDateUtc": "2026-07-22T08:07:03.650Z"
                     },
                     {
                       "ShippingAccountId": "46d58272-5f6a-405d-a947-c46c9caea56f",
@@ -109,7 +109,7 @@
                       "ContactNumber": "0123456789",
                       "Username": "Username2",
                       "LastUpdatedBy": "User B",
-                      "LastUpdatedDateUtc": "2026-06-30T08:49:52.096Z"
+                      "LastUpdatedDateUtc": "2026-07-22T08:07:03.650Z"
                     }
                   ],
                   "TotalCount": 2
@@ -265,7 +265,7 @@
                   "ContactNumber": "0123456789",
                   "Username": "Username",
                   "LastUpdatedBy": "User A",
-                  "LastUpdatedDateUtc": "2026-06-30T08:49:52.490Z"
+                  "LastUpdatedDateUtc": "2026-07-22T08:07:03.957Z"
                 }
               }
             }
@@ -642,12 +642,12 @@
                       "ContentType": "NDX",
                       "ServiceCode": "SB",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-06-30",
+                      "ShipmentDate": "2026-07-22",
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "d1207445-396c-488a-bf6f-6122b047f504",
+                      "ShippingAccountId": "72599536-e7d6-4897-a81f-62dba1dc8010",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -684,14 +684,14 @@
                       "ContentType": "NDX",
                       "ServiceCode": "SB",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-06-30",
+                      "ShipmentDate": "2026-07-22",
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "4de4c59b-33ed-4c0c-85e8-5604facd8665",
-                      "ShippingLocationId": "42ebdd9f-55b0-47ca-ba96-b024bf812db4",
+                      "ShippingAccountId": "802f7785-613b-4916-9312-a2955e865d47",
+                      "ShippingLocationId": "8007fbfc-0b9b-40fc-916c-6aab7c2aba56",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -762,12 +762,12 @@
                       "ContentType": "NDX",
                       "ServiceCode": "SB",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-06-30",
+                      "ShipmentDate": "2026-07-22",
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "1e715c2b-892d-469a-8034-2ac898bce61a",
+                      "ShippingAccountId": "346336de-26dd-4c99-99b7-6f3461a0d3ec",
                       "Reference1": "OrderRef56",
                       "EoriNumber": "GB213456789000",
                       "VatNumber": "GB213456789"
@@ -835,14 +835,14 @@
                       "ContentType": "NDX",
                       "ServiceCode": "SB",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-06-30",
+                      "ShipmentDate": "2026-07-22",
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "64c2c83b-cafe-4096-8032-9e617bcc8471",
-                      "ShippingLocationId": "7c479fb0-9720-4f5f-acfc-5897e8860fb3",
+                      "ShippingAccountId": "9a4742ad-5cc1-4fa5-a205-a73f5220141d",
+                      "ShippingLocationId": "c3c752c9-96c3-4246-bb87-93ee06fa1064",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -892,7 +892,9 @@
                         "Weight": 0.5,
                         "ImageURL": "https://yourcompany.com/images/product.jpg",
                         "HSCode": "6109100010",
-                        "CountryOfOrigin": "CN"
+                        "CountryOfOrigin": "CN",
+                        "ManufactureProductId": "5449000000996",
+                        "StandardisedProductId": "4006381333931"
                       },
                       {
                         "SkuCode": "SKU456",
@@ -903,7 +905,9 @@
                         "Weight": 0.3,
                         "ImageURL": "https://yourcompany.com/images/jumper-black.jpg",
                         "HSCode": "6110113000",
-                        "CountryOfOrigin": "CN"
+                        "CountryOfOrigin": "CN",
+                        "ManufactureProductId": "5449000000997",
+                        "StandardisedProductId": "4006381333932"
                       }
                     ],
                     "Customs": {
@@ -914,7 +918,7 @@
                       "OtherCharges": 32,
                       "QuotedLandedCost": 82.74,
                       "InvoiceNumber": "INV-12345",
-                      "InvoiceDate": "2026-06-30",
+                      "InvoiceDate": "2026-07-22",
                       "ExportLicenceRequired": false,
                       "Airn": "231.002.999-00"
                     }
@@ -927,11 +931,11 @@
                       "ContentType": "NDX",
                       "ServiceCode": "SB",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-06-30",
+                      "ShipmentDate": "2026-07-22",
                       "WeightUnitOfMeasure": "KG"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "249a2479-6a6b-457e-a03f-850d48a9c731",
+                      "ShippingAccountId": "f226fce3-8550-4614-91ad-942e7f18009c",
                       "Reference1": "OrderRef56",
                       "Address": {
                         "AddressId": "John Brown Default"
@@ -967,7 +971,7 @@
                     "value": {
                       "Packages": [
                         {
-                          "ShipmentId": "5368580a-8e53-4b36-a9bf-7b945cb84ec0",
+                          "ShipmentId": "5bb1ce28-e5ab-41e2-9455-8be523bf461a",
                           "PackageOccurrence": 1
                         }
                       ]
@@ -977,7 +981,7 @@
                     "value": {
                       "Packages": [
                         {
-                          "ShipmentId": "f8bd3faa-3efb-4624-894f-f57a347287ec",
+                          "ShipmentId": "3a033e14-ec1c-4dbc-8efb-daae14495999",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "H03TCA0000000118",
                           "CarrierTrackingUrl": "https://my.dxdelivery.com/?tn=H03TCA0000000118&tpc=GU214TE"
@@ -991,7 +995,7 @@
                       "LabelFormat": "PDF",
                       "Packages": [
                         {
-                          "ShipmentId": "015ebd43-d793-483d-a8e0-ac3e7da3a24d",
+                          "ShipmentId": "08a2d077-5d7c-42f1-9ee0-2e0181fd3869",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "H03TCA0000000118",
                           "CarrierTrackingUrl": "https://my.dxdelivery.com/?tn=H03TCA0000000118&tpc=GU214TE"
@@ -1087,7 +1091,7 @@
                 "examples": {
                   "PDF": {
                     "value": {
-                      "ShipmentId": "32a8bd73-2987-4df2-b89e-bbf35115a721",
+                      "ShipmentId": "1ef06b1f-0a71-4886-9ef3-64ad4c7e7a11",
                       "TrackingNumber": "H03TCA0000000118",
                       "CarrierTrackingUrl": "https://my.dxdelivery.com/?tn=H03TCA0000000118&tpc=GU214TE",
                       "Label": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
