@@ -1,7 +1,7 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "DHL GERMANY API",
+    "title": "DHL GERMANY",
     "description": "# Introduction\nHere you will find requirements for integrating with INTERSOFT SAPIENT API.\n\nThe documentation specifically covers how the API can be used by business customers to conduct shipping activity with available carriers and provides the technical information to build this integration. The API allows customers to create and manage shipments, produce labels, customs documentation, and collection manifests, retrieve reference data such as carriers and countries, and maintain their own data such as shipping account details.\n\nIntersoft API is a fully RESTful service implemented using JSON messaging. You, as the customer are responsible for sending JSON messages and for maintaining the capability of receiving JSON messages in the format described in this specification. Request and response examples for each API service are included in this specification.\n\n# Authentication\n\nThe INTERSOFT SAPIENT API uses OAuth2 authentication.\n\nTo request the authorization token you need to create API credentials (Client ID and Secret) on the system first. If you have not done it already, log into your account and go to API Credentials or follow the link [add a link here with the path to the API Credentials menu]. Use the credentials to retrieve the authorization token.\n\nNote: Make sure you copy the Secret and keep it secure as you won't be able to view it again on the system.\n\n<!-- ReDoc-Inject: <SecurityDefinitions /> -->\n",
     "version": "v4.0-DHLDE",
     "x-logo": {
@@ -95,7 +95,7 @@
                       "ContactName": "John Smith",
                       "ContactNumber": "0123456789",
                       "LastUpdatedBy": "User A",
-                      "LastUpdatedDateUtc": "2026-06-30T08:55:13.428Z"
+                      "LastUpdatedDateUtc": "2026-07-22T08:12:34.977Z"
                     },
                     {
                       "ShippingAccountId": "46d58272-5f6a-405d-a947-c46c9caea56f",
@@ -109,7 +109,7 @@
                       "ContactName": "Joan Smith",
                       "ContactNumber": "0123456789",
                       "LastUpdatedBy": "User B",
-                      "LastUpdatedDateUtc": "2026-06-30T08:55:13.428Z"
+                      "LastUpdatedDateUtc": "2026-07-22T08:12:34.977Z"
                     }
                   ],
                   "TotalCount": 2
@@ -265,7 +265,7 @@
                   "ContactName": "John Smith",
                   "ContactNumber": "0123456789",
                   "LastUpdatedBy": "User A",
-                  "LastUpdatedDateUtc": "2026-06-30T08:55:13.734Z"
+                  "LastUpdatedDateUtc": "2026-07-22T08:12:35.292Z"
                 }
               }
             }
@@ -294,7 +294,7 @@
           "Shipping Accounts"
         ],
         "summary": "Update Account",
-        "description": "Update shipping account details.\r<br />Note: All required fields must be populated in the request, regardless if they need updating or not.",
+        "description": "Update shipping account details.\r<br />\r<br />***Note:** All required fields must be populated in the request, regardless if they need updating or not.*",
         "parameters": [
           {
             "name": "shippingAccountId",
@@ -446,7 +446,7 @@
           "Shipping Accounts"
         ],
         "summary": "Get Associated Locations",
-        "description": "Provides a list of all shipping locations associated with a DhlGermany shipping account.",
+        "description": "Provides a list of all shipping locations associated with a DHL Germany shipping account.",
         "parameters": [
           {
             "name": "shippingAccountId",
@@ -626,7 +626,7 @@
           "Shipments"
         ],
         "summary": "Create Shipment",
-        "description": "Create a DhlGermany shipment. This will return an image of the shipping label in PDF or PNG format.",
+        "description": "Create a DHL Germany shipment. This will return an image of the shipping label in PDF or PNG format.",
         "requestBody": {
           "description": "Shipment Details",
           "content": {
@@ -645,13 +645,13 @@
                       "ContentType": "NDX",
                       "ServiceCode": "V01PAK",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-06-30",
+                      "ShipmentDate": "2026-07-22",
                       "DeclaredWeight": 1.5,
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "31285969-47cb-46af-b8b4-1794ffde6f93",
+                      "ShippingAccountId": "6d79e78f-2543-4328-9c8b-ea89bc514586",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -700,7 +700,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "V01PAK",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-06-30",
+                      "ShipmentDate": "2026-07-22",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
@@ -708,8 +708,8 @@
                       "ContainerId": "Central Europe"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "a9c61801-214e-4b1c-b1bd-6ea4028509f5",
-                      "ShippingLocationId": "e92a189c-601b-4e49-82ff-72f89f654997",
+                      "ShippingAccountId": "1a4c39f2-bbfc-4e0a-ad8e-7324e7c0a32a",
+                      "ShippingLocationId": "59950651-9bb1-40a0-9381-32aac7f1cae1",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -792,14 +792,14 @@
                       "ContentType": "NDX",
                       "ServiceCode": "V53WPAK",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-06-30",
+                      "ShipmentDate": "2026-07-22",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "EUR",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "c16d0841-6d9c-4686-a0d7-f9a230426ca8",
+                      "ShippingAccountId": "a10207b0-f56b-4a2b-85b7-ffaa0542153d",
                       "Reference1": "OrderRef56",
                       "EoriNumber": "GB12345",
                       "VatNumber": "VA12345"
@@ -879,7 +879,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "V53WPAK",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-06-30",
+                      "ShipmentDate": "2026-07-22",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
@@ -887,8 +887,8 @@
                       "ContainerId": "Central Europe"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "511c04e9-a137-4deb-bdbe-be90d8720340",
-                      "ShippingLocationId": "bd7013db-3744-4e18-9dcd-e149b851945e",
+                      "ShippingAccountId": "ef9b71ef-e7b6-4e08-a13c-bcf25693c121",
+                      "ShippingLocationId": "79668ab9-deda-4ec3-99fd-52b43a3dd19e",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -943,7 +943,9 @@
                         "Weight": 0.5,
                         "ImageURL": "https://yourcompany.com/images/product.jpg",
                         "HSCode": "6109100010",
-                        "CountryOfOrigin": "CN"
+                        "CountryOfOrigin": "CN",
+                        "ManufactureProductId": "5449000000996",
+                        "StandardisedProductId": "4006381333931"
                       },
                       {
                         "SkuCode": "SKU456",
@@ -954,7 +956,9 @@
                         "Weight": 0.3,
                         "ImageURL": "https://yourcompany.com/images/jumper-black.jpg",
                         "HSCode": "6110113000",
-                        "CountryOfOrigin": "CN"
+                        "CountryOfOrigin": "CN",
+                        "ManufactureProductId": "5449000000997",
+                        "StandardisedProductId": "4006381333932"
                       }
                     ],
                     "Customs": {
@@ -966,7 +970,7 @@
                       "OtherCharges": 32,
                       "QuotedLandedCost": 82.74,
                       "InvoiceNumber": "INV-12345",
-                      "InvoiceDate": "2026-06-30",
+                      "InvoiceDate": "2026-07-22",
                       "ExportLicenceRequired": false,
                       "Airn": "231.002.999-00"
                     },
@@ -997,12 +1001,12 @@
                       "ContentType": "NDX",
                       "ServiceCode": "V01PAK",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-06-30",
+                      "ShipmentDate": "2026-07-22",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "8e8a0d8f-fe1c-4715-8b47-bc65a901f879",
+                      "ShippingAccountId": "96065904-81db-4b7f-9671-2673e1e47d41",
                       "Reference1": "OrderRef56",
                       "Address": {
                         "AddressId": "John Brown Default"
@@ -1042,7 +1046,7 @@
                     "value": {
                       "Packages": [
                         {
-                          "ShipmentId": "89eb1eef-6b19-48a0-8cc7-76171419a424",
+                          "ShipmentId": "8f4a21a0-2ade-4e48-ad27-c947e1c8807f",
                           "PackageOccurrence": 1
                         }
                       ],
@@ -1053,7 +1057,7 @@
                     "value": {
                       "Packages": [
                         {
-                          "ShipmentId": "6bae12c5-6fb2-4d18-960c-e64d820544fc",
+                          "ShipmentId": "db99ee6a-08f9-45b8-b9a7-cf00c5dabf8e",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "AA0000000DE",
                           "CarrierTrackingUrl": "https://www.dhl.com/de-en/home/tracking.html?tracking-id=AA0000000DE&submit=1"
@@ -1068,7 +1072,7 @@
                       "LabelFormat": "Pdf",
                       "Packages": [
                         {
-                          "ShipmentId": "0e4c6fd2-4626-4532-b6c2-b70fb3565189",
+                          "ShipmentId": "0e727799-8998-4b00-8b67-9b3f1699a116",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "AA0000000DE",
                           "CarrierTrackingUrl": "https://www.dhl.com/de-en/home/tracking.html?tracking-id=AA0000000DE&submit=1"
@@ -1083,7 +1087,7 @@
                       "LabelFormat": "Zpl203Dpi",
                       "Packages": [
                         {
-                          "ShipmentId": "60cdd112-643e-4ff8-bf7f-971e5dd835c7",
+                          "ShipmentId": "6f9a4a1d-3039-4ca4-893c-1f89af53a4bd",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "AA0000000DE",
                           "CarrierTrackingUrl": "https://www.dhl.com/de-en/home/tracking.html?tracking-id=AA0000000DE&submit=1"
@@ -1180,7 +1184,7 @@
                 "examples": {
                   "PDF": {
                     "value": {
-                      "ShipmentId": "628f6adb-9ee6-440e-b86b-b171289557a4",
+                      "ShipmentId": "2100fb6b-36d4-4d85-910f-505225914551",
                       "TrackingNumber": "H03TCA0000000118",
                       "CarrierTrackingUrl": "https://www.dhl.com/de-en/home/tracking.html?tracking-id=H03TCA0000000118&submit=1",
                       "Label": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
