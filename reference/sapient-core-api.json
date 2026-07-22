@@ -373,14 +373,14 @@
                       "TrackingNumber": "TT000000005GB",
                       "BarcodeNumber": "4C0069786000000000B1F",
                       "Reference1": "OrderRef56",
-                      "ShipmentDate": "2026-06-30",
+                      "ShipmentDate": "2026-07-22",
                       "Status": "Created",
                       "ManifestNumber": "ISH2802532",
                       "ContainerId": "South East 1234",
                       "Carrier": "RM",
                       "DestinationCountryCode": "GB",
                       "LastUpdatedBy": "User A",
-                      "LastUpdatedDateUtc": "2026-06-30T08:47:07.434Z"
+                      "LastUpdatedDateUtc": "2026-07-22T08:03:15.899Z"
                     },
                     {
                       "ShippingAccountId": "310d6beb-ae36-40e7-918f-f92100c1719d",
@@ -388,14 +388,14 @@
                       "TrackingNumber": "",
                       "BarcodeNumber": "",
                       "Reference1": "OrderRef57",
-                      "ShipmentDate": "2026-06-30",
+                      "ShipmentDate": "2026-07-22",
                       "Status": "LabelPrinted",
                       "ManifestNumber": "",
                       "ContainerId": "",
                       "Carrier": "RM",
                       "DestinationCountryCode": "GB",
                       "LastUpdatedBy": "User B",
-                      "LastUpdatedDateUtc": "2026-06-30T08:47:07.434Z"
+                      "LastUpdatedDateUtc": "2026-07-22T08:03:15.899Z"
                     }
                   ],
                   "TotalCount": 2
@@ -724,11 +724,11 @@
               "example": [
                 {
                   "ShipmentId": "AD123456783GB",
-                  "ShipmentDate": "2026-07-05"
+                  "ShipmentDate": "2026-07-27"
                 },
                 {
                   "ShipmentId": "e3239e85-ddf8-4323-9064-b83c38eff927",
-                  "ShipmentDate": "2026-07-10"
+                  "ShipmentDate": "2026-08-01"
                 }
               ]
             }
@@ -1417,7 +1417,7 @@
                     {
                       "ContainerId": "South East",
                       "ContainerStatus": "Manifested",
-                      "CreatedDateUtc": "2026-06-30T08:47:01.236Z",
+                      "CreatedDateUtc": "2026-07-22T08:03:11.368Z",
                       "ShippingLocationId": "93f6d928-9456-434a-9d69-60f3b7dea091",
                       "ShippingLocationAlias": "Northern Warehouse",
                       "TotalWeight": 12,
@@ -1428,7 +1428,7 @@
                     {
                       "ContainerId": "South West",
                       "ContainerStatus": "Active",
-                      "CreatedDateUtc": "2026-06-29T08:47:01.236Z",
+                      "CreatedDateUtc": "2026-07-21T08:03:11.368Z",
                       "ShippingLocationId": "93f6d928-9456-434a-9d69-60f3b7dea091",
                       "ShippingLocationAlias": "Northern Warehouse",
                       "TotalWeight": 14,
@@ -1587,7 +1587,7 @@
                     "value": {
                       "ContainerId": "South East",
                       "ContainerStatus": "Active",
-                      "CreatedDateUtc": "2026-06-30T08:47:01.631Z",
+                      "CreatedDateUtc": "2026-07-22T08:03:11.609Z",
                       "CarrierCode": "RM",
                       "ShippingLocationId": "93f6d928-9456-434a-9d69-60f3b7dea091",
                       "ShippingLocationAlias": "Northern Warehouse",
@@ -1604,7 +1604,7 @@
                       "ManifestNumbers": [
                         "COS0000016"
                       ],
-                      "CreatedDateUtc": "2026-06-30T08:47:01.632Z",
+                      "CreatedDateUtc": "2026-07-22T08:03:11.609Z",
                       "CarrierCode": "RM",
                       "ShippingLocationId": "93f6d928-9456-434a-9d69-60f3b7dea091",
                       "ShippingLocationAlias": "Northern Warehouse",
@@ -1986,7 +1986,7 @@
                           "OriginalExportCode": "61091090001"
                         }
                       ],
-                      "GeneratedDate": "2026-06-30T08:47:02.477Z"
+                      "GeneratedDate": "2026-07-22T08:03:12.293Z"
                     }
                   },
                   "Incorrect HSCode": {
@@ -2008,7 +2008,7 @@
                           "OriginalExportCode": "61091090001"
                         }
                       ],
-                      "GeneratedDate": "2026-06-30T08:47:02.477Z"
+                      "GeneratedDate": "2026-07-22T08:03:12.293Z"
                     }
                   }
                 }
@@ -2203,7 +2203,7 @@
                   ],
                   "IsError": false,
                   "Notes": "<taxBreakdown><city><rate>0</rate><value>0</value></city><special><rate>0</rate><value>0</value></special><county><rate>0</rate><value>0</value></county><state><rate>0.06625</rate><value>0</value></state></taxBreakdown>",
-                  "GeneratedDate": "2026-06-30T08:47:03.535Z"
+                  "GeneratedDate": "2026-07-22T08:03:13.171Z"
                 }
               }
             }
@@ -2341,7 +2341,7 @@
                       "IsError": false,
                       "ErrorDescription": "",
                       "Notes": "",
-                      "GeneratedDate": "2026-06-30T08:47:03.971Z"
+                      "GeneratedDate": "2026-07-22T08:03:13.571Z"
                     }
                   },
                   "Prohibited Item": {
@@ -2362,7 +2362,7 @@
                       "IsError": true,
                       "ErrorDescription": "The item amaranth is prohibited",
                       "Notes": "",
-                      "GeneratedDate": "2026-06-30T08:47:03.973Z"
+                      "GeneratedDate": "2026-07-22T08:03:13.571Z"
                     }
                   }
                 }
@@ -2434,44 +2434,44 @@
               "examples": {
                 "Manifest by Shipping Account": {
                   "value": {
-                    "ShippingLocationId": "1ed329c8-2c9e-47be-a3eb-5cb0683fea22",
-                    "ShippingAccountId": "745a3a87-ab99-4add-a1bc-d2f519f66110",
+                    "ShippingLocationId": "9dbc9bb1-b590-4d20-81a2-8c7d6bee1c91",
+                    "ShippingAccountId": "86ee3469-7485-4de4-8754-642186c3d672",
                     "Async": false
                   }
                 },
                 "Manifest by Shipping Account in the background": {
                   "value": {
-                    "ShippingLocationId": "8544e0e7-05b8-40dd-aed3-92476796273e",
-                    "ShippingAccountId": "0ccd5547-8767-442f-8ee1-4b61be78d0c6",
+                    "ShippingLocationId": "8ff3ba0b-cc36-461b-b520-7084c71c05aa",
+                    "ShippingAccountId": "e5723e29-d285-46bb-950b-fe226cfba93d",
                     "Async": true
                   }
                 },
                 "Manifest by Service": {
                   "value": {
-                    "ShippingLocationId": "262ff6b3-ab6b-4454-8488-1a066b96fc71",
+                    "ShippingLocationId": "40f6873c-6db0-48f4-850c-7c09a2996457",
                     "ServiceCode": "EXPRESS",
                     "Async": false
                   }
                 },
                 "Manifest by Service for Shipping Account Only": {
                   "value": {
-                    "ShippingLocationId": "019d0785-c3ab-4a84-a133-5df14441dce5",
-                    "ShippingAccountId": "a2b284df-9d4f-4191-b54e-0b5585911a61",
+                    "ShippingLocationId": "e3521db7-ec20-4fcd-afab-5c2e5638f1b5",
+                    "ShippingAccountId": "cac4a5b8-feba-4fb2-a541-fd20f8cbf4e6",
                     "ServiceCode": "EXPRESS",
                     "Async": false
                   }
                 },
                 "Manifest by Status": {
                   "value": {
-                    "ShippingLocationId": "1f559fc7-a901-4862-9049-226587bbab8d",
+                    "ShippingLocationId": "2aceba4c-8938-40a9-8121-ca6f69221f95",
                     "Status": "Picked",
                     "Async": false
                   }
                 },
                 "Manifest by Container": {
                   "value": {
-                    "ShippingLocationId": "4335a5e6-bce7-4269-894d-b2d049333dc9",
-                    "ContainerId": "72cc78da-ed6a-4196-991e-218830f68a26",
+                    "ShippingLocationId": "3ecb684a-bbdd-43ed-a9ba-283ab87254fa",
+                    "ContainerId": "2e80f4c2-5a51-4ee9-99d5-0786ca221ecc",
                     "Async": false
                   }
                 }
@@ -2841,16 +2841,16 @@
                           "WeightUnitOfMeasure": "KG",
                           "TotalShipments": 1,
                           "TotalItems": 1,
-                          "ManifestDate": "2026-06-30",
-                          "CreatedDateUtc": "2026-06-30T08:47:04.938Z",
+                          "ManifestDate": "2026-07-22",
+                          "CreatedDateUtc": "2026-07-22T08:03:14.179Z",
                           "ShippingLocation": {
-                            "ShippingLocationId": "fdb4f02c-f7fa-4aa3-a91b-9774b6d47e8d",
+                            "ShippingLocationId": "13d846b2-1c63-4c23-9686-1616e41e7859",
                             "LocationAlias": "London",
                             "LocationCountry": "GB",
                             "LocationPostcode": "TW20 0HJ"
                           },
                           "ShippingAccount": {
-                            "ShippingAccountId": "145ee8fe-8e1d-4820-86d4-f8fa53583ab1",
+                            "ShippingAccountId": "aea02052-5ad6-4ce0-b4d1-f5ed2b9f2457",
                             "AccountName": "AccountName",
                             "AccountAlias": "Test",
                             "AccountNumber": "1234567890"
@@ -3164,6 +3164,18 @@
                             "type": "string",
                             "description": "The unit of measurement for the weight provided, such as the product's **Weight**, indicating whether the weight is specified in kilograms (KG) or grams (G), ensuring clarity for shipping calculations."
                           },
+                          "ManufactureProductId": {
+                            "maxLength": 50,
+                            "type": "string",
+                            "description": "A unique manufacturer identifier for the item being shipped, for example, proprietary manufacturer code, model number, or internal code. This field is used to reference the shipped item and supports carrier-specific requirements.",
+                            "nullable": true
+                          },
+                          "StandardisedProductId": {
+                            "maxLength": 50,
+                            "type": "string",
+                            "description": "A globally recognised product identifier for the item being shipped, for example, GTIN, EAN, and UPC. This field is used for standardised item identification and supports carrier-specific requirements for customs and risk assessment.",
+                            "nullable": true
+                          },
                           "Hazmat": {
                             "required": [
                               "Class"
@@ -3267,6 +3279,8 @@
                           "CountryOfOrigin": "GB",
                           "CurrencyCode": "GBP",
                           "WeightUnitOfMeasure": "KG",
+                          "ManufactureProductId": "5449000000996",
+                          "StandardisedProductId": "4006381333931",
                           "Hazmat": {
                             "UNCode": "1002",
                             "ProperShippingName": "Compressed Air",
@@ -3440,6 +3454,18 @@
                     "type": "string",
                     "description": "The unit of measurement for the weight provided, such as the product's **Weight**, indicating whether the weight is specified in kilograms (KG) or grams (G), ensuring clarity for shipping calculations.<br><br>***Note**:  By default, this field is set to KG.*</br></br>"
                   },
+                  "ManufactureProductId": {
+                    "maxLength": 50,
+                    "type": "string",
+                    "description": "A unique manufacturer identifier for the item being shipped, for example, proprietary manufacturer code, model number, or internal code. <br><br>This field is used to reference the shipped item and supports carrier-specific requirements.",
+                    "nullable": true
+                  },
+                  "StandardisedProductId": {
+                    "maxLength": 50,
+                    "type": "string",
+                    "description": "A globally recognised product identifier for the item being shipped, for example, GTIN, EAN, and UPC. <br><br>This field is used for standardised item identification and supports carrier-specific requirements for customs and risk assessment.",
+                    "nullable": true
+                  },
                   "Hazmat": {
                     "required": [
                       "Class"
@@ -3529,6 +3555,8 @@
                     "CountryOfOrigin": "GB",
                     "CurrencyCode": "GBP",
                     "WeightUnitOfMeasure": "KG",
+                    "ManufactureProductId": "5449000000996",
+                    "StandardisedProductId": "4006381333931",
                     "Hazmat": {
                       "UNCode": "1002",
                       "ProperShippingName": "Compressed Air",
@@ -3740,6 +3768,18 @@
                       "type": "string",
                       "description": "The unit of measurement for the weight provided, such as the product's **Weight**, indicating whether the weight is specified in kilograms (KG) or grams (G), ensuring clarity for shipping calculations."
                     },
+                    "ManufactureProductId": {
+                      "maxLength": 50,
+                      "type": "string",
+                      "description": "A unique manufacturer identifier for the item being shipped, for example, proprietary manufacturer code, model number, or internal code. This field is used to reference the shipped item and supports carrier-specific requirements.",
+                      "nullable": true
+                    },
+                    "StandardisedProductId": {
+                      "maxLength": 50,
+                      "type": "string",
+                      "description": "A globally recognised product identifier for the item being shipped, for example, GTIN, EAN, and UPC. This field is used for standardised item identification and supports carrier-specific requirements for customs and risk assessment.",
+                      "nullable": true
+                    },
                     "Hazmat": {
                       "required": [
                         "Class"
@@ -3932,6 +3972,18 @@
                     "type": "string",
                     "description": "The unit of measurement for the weight provided, such as the product's **Weight**, indicating whether the weight is specified in kilograms (KG) or grams (G), ensuring clarity for shipping calculations.<br><br>***Note**:  By default, this field is set to KG.*</br></br>"
                   },
+                  "ManufactureProductId": {
+                    "maxLength": 50,
+                    "type": "string",
+                    "description": "A unique manufacturer identifier for the item being shipped, for example, proprietary manufacturer code, model number, or internal code. <br><br>This field is used to reference the shipped item and supports carrier-specific requirements.",
+                    "nullable": true
+                  },
+                  "StandardisedProductId": {
+                    "maxLength": 50,
+                    "type": "string",
+                    "description": "A globally recognised product identifier for the item being shipped, for example, GTIN, EAN, and UPC. <br><br>This field is used for standardised item identification and supports carrier-specific requirements for customs and risk assessment.",
+                    "nullable": true
+                  },
                   "Hazmat": {
                     "required": [
                       "Class"
@@ -4021,6 +4073,8 @@
                     "CountryOfOrigin": "GB",
                     "CurrencyCode": "GBP",
                     "WeightUnitOfMeasure": "KG",
+                    "ManufactureProductId": "5449000000996",
+                    "StandardisedProductId": "4006381333931",
                     "Hazmat": {
                       "UNCode": "1002",
                       "ProperShippingName": "Compressed Air",
@@ -4256,8 +4310,8 @@
                           },
                           "EnhancedLocationDetails": {
                             "LocationType": "PSH",
-                            "Supplier": "Collect+",
-                            "SupplierLocationType": "Collect+",
+                            "Supplier": "RMShop",
+                            "SupplierLocationType": "RMShop",
                             "LabelId": "31262463",
                             "DistanceFromPostcode": 3.2,
                             "DistanceUnit": "miles",
@@ -4657,58 +4711,6 @@
           },
           "404": {
             "description": "The country code does not exist."
-          },
-          "500": {
-            "description": "Internal Server Error"
-          }
-        },
-        "security": [
-          {
-            "oauth2": []
-          }
-        ]
-      }
-    },
-    "/v4/carriers/rm/services": {
-      "get": {
-        "tags": [
-          "Services"
-        ],
-        "summary": "Get Carrier Services",
-        "description": "Retrieves the list of Royal Mail services available within the system. The response includes the service code and description for each Royal Mail service, along with Royal Mail‑specific service levels returned in the **CarrierSpecifics** object.\r<br />\r<br />***Note**: Each service returned represents a Royal Mail offering that may be available for use, subject to the customer's Royal Mail account configuration.*",
-        "parameters": [
-          {
-            "name": "shippingAccountId",
-            "in": "query",
-            "description": "SAPIENT Shipping Account Id (assigned by SAPIENT) or Alias (assigned by you). Include this to get carrier-specific fields such as service levels for your specific shipping account.",
-            "schema": {
-              "maxLength": 36,
-              "type": "string"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "Returns a list of services.",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/RoyalMailCarrierService"
-                  }
-                }
-              }
-            }
-          },
-          "401": {
-            "description": "Unauthorized"
-          },
-          "403": {
-            "description": "Forbidden"
-          },
-          "404": {
-            "description": "The carrier does not exist or is not enabled or shipping account is not valid/don't exist."
           },
           "500": {
             "description": "Internal Server Error"
@@ -6367,14 +6369,14 @@
           },
           "InvoiceDate": {
             "type": "string",
-            "description": "The date when the commercial invoice was issued.\r<br />Note: The invoice date must be in the YYYY-MM-DD format. If the date is not provided, it defaults to today's date.",
+            "description": "The date when the commercial invoice was issued.\r<br />\r<br />***Note**: The invoice date must be in the YYYY-MM-DD format. If the date is not provided, it defaults to today's date.*",
             "format": "date",
             "nullable": true
           },
           "Document": {
             "minLength": 1,
             "type": "string",
-            "description": "The base64-encoded string of the document to be uploaded.\r<br />\r<br />***Note**: The max file size allowed for the encoded base64 PDF is 2MB.*",
+            "description": "The base64-encoded string of the document to be uploaded.\r<br />            \r<br />***Note**: The max file size allowed for the encoded base64 PDF is 2MB.*",
             "example": "iVBORw0KGgoAAAANSUhEUgAA ... A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4"
           }
         },
@@ -7223,13 +7225,13 @@
           },
           "Supplier": {
             "type": "string",
-            "description": "Indicates the name of the supplier associated with the specific location type, for example, PSH (Collect + stores).",
+            "description": "Indicates the name of the supplier associated with the specific location type, for example, PSH (RMShop).",
             "nullable": true,
             "example": "Collect+"
           },
           "SupplierLocationType": {
             "type": "string",
-            "description": "A categorisation that indicates the specific type of supplier location, providing additional context about the addition options available at that location, for example, Collect +.",
+            "description": "A categorisation that indicates the specific type of supplier location, providing additional context about the addition options available at that location, for example, RMShop.",
             "nullable": true,
             "example": "Locker"
           },
@@ -7253,7 +7255,7 @@
           },
           "SupplementCode": {
             "type": "string",
-            "description": "A specific code that represents the type of location associated with a PUDO (Pick Up Drop Off) point. This code is essential in the pre-advice for shipments and indicates the type of PUDO location. However, when using the Create Shipment request, this code is automatically added based on the selected PUDO location.\r<br />\r<br />The codes may include the following with their associated suppliers:\r<br /><ul><li>**LC1**: Customer Service Point (CSP)—Royal Mail</li><li>**LC2**: Post Office (POL)—Post Office</li><li>**LC3**: Collect+ (Parcel Shop) (PSH)—Collect+ stores</li><li>**LC4**: Locker (LOK)—Quadient</li><li>**LC5**: Locker (LOK)—Royal Mail</li></ul>",
+            "description": "A specific code that represents the type of location associated with a PUDO (Pick Up Drop Off) point. This code is essential in the pre-advice for shipments and indicates the type of PUDO location. However, when using the Create Shipment request, this code is automatically added based on the selected PUDO location.\r<br />\r<br />The codes may include the following with their associated suppliers:\r<br /><ul><li>**LC1**: Customer Service Point (CSP)—Royal Mail</li><li>**LC2**: Post Office (POL)—Post Office</li><li>**LC3**: RMShop (PSH)—Royal Mail</li><li>**LC4**: Locker (LOK)—Quadient</li><li>**LC5**: Locker (LOK)—Royal Mail</li></ul>",
             "nullable": true
           },
           "LocationAvailableFeatures": {
@@ -8283,6 +8285,18 @@
           "WeightUnitOfMeasure": {
             "$ref": "#/components/schemas/WeightUnitOfMeasure"
           },
+          "ManufactureProductId": {
+            "maxLength": 50,
+            "type": "string",
+            "description": "A unique manufacturer identifier for the item being shipped, for example, proprietary manufacturer code, model number, or internal code.",
+            "nullable": true
+          },
+          "StandardisedProductId": {
+            "maxLength": 50,
+            "type": "string",
+            "description": "A globally recognised product identifier for the item being shipped, for example, GTIN, EAN, and UPC.",
+            "nullable": true
+          },
           "Hazmat": {
             "$ref": "#/components/schemas/ProductHazmat"
           }
@@ -8437,6 +8451,18 @@
           },
           "WeightUnitOfMeasure": {
             "$ref": "#/components/schemas/WeightUnitOfMeasure"
+          },
+          "ManufactureProductId": {
+            "maxLength": 50,
+            "type": "string",
+            "description": "A unique manufacturer identifier for the item being shipped, for example, proprietary manufacturer code, model number, or internal code.",
+            "nullable": true
+          },
+          "StandardisedProductId": {
+            "maxLength": 50,
+            "type": "string",
+            "description": "A globally recognised product identifier for the item being shipped, for example, GTIN, EAN, and UPC.",
+            "nullable": true
           },
           "Hazmat": {
             "$ref": "#/components/schemas/ProductHazmat"
@@ -9355,53 +9381,6 @@
         },
         "additionalProperties": false,
         "description": "Quoted Landed Cost Shipper Response"
-      },
-      "RoyalMailCarrierService": {
-        "required": [
-          "Description",
-          "ServiceCode"
-        ],
-        "type": "object",
-        "properties": {
-          "ServiceCode": {
-            "maxLength": 10,
-            "minLength": 1,
-            "type": "string",
-            "description": "A unique identifier for each shipping service provided by the carrier. This code is typically alphanumeric and allows for easy reference and differentiation between various carrier services offered, for example, CRL1, TPM, and so on.",
-            "example": "CRL1"
-          },
-          "Description": {
-            "maxLength": 100,
-            "minLength": 1,
-            "type": "string",
-            "description": "A detailed explanation of the carrier service, outlining its features, benefits, and any pertinent conditions. This information helps understand the scope and specifics of what the service entails.",
-            "example": "Royal Mail 24 Standard/Signed For (Parcel - Daily Rate Service)"
-          },
-          "CarrierSpecifics": {
-            "$ref": "#/components/schemas/RoyalMailServiceCarrierSpecifics"
-          }
-        },
-        "additionalProperties": false,
-        "description": "A Royal Mail carrier service, including carrier-specific properties when available."
-      },
-      "RoyalMailServiceCarrierSpecifics": {
-        "type": "object",
-        "properties": {
-          "ServiceLevels": {
-            "type": "array",
-            "items": {
-              "type": "string"
-            },
-            "description": "The Royal Mail service level associated with the carrier service. This value represents the specific service tier available under the customer's Royal Mail contract and is used to determine service eligibility and availability.",
-            "nullable": true,
-            "example": [
-              "01",
-              "02"
-            ]
-          }
-        },
-        "additionalProperties": false,
-        "description": "Used to provide carrier‑specific service information returned for Royal Mail. This object may include details, such as service level availability and other carrier‑specific attributes, enabling customers to determine availability of specific carrier offerings."
       },
       "ShipmentResponse": {
         "type": "object",
@@ -10411,10 +10390,6 @@
     {
       "name": "Reference Data",
       "description": "This section provides information about reference data used on the system."
-    },
-    {
-      "name": "Services",
-      "description": "This section provides information relating to Royal Mail carrier services."
     }
   ],
   "x-readme": {
