@@ -1,7 +1,7 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "YODEL API",
+    "title": "YODEL",
     "description": "# Introduction\nHere you will find requirements for integrating with INTERSOFT SAPIENT API.\n\nThe documentation specifically covers how the API can be used by business customers to conduct shipping activity with available carriers and provides the technical information to build this integration. The API allows customers to create and manage shipments, produce labels, customs documentation, and collection manifests, retrieve reference data such as carriers and countries, and maintain their own data such as shipping account details.\n\nIntersoft API is a fully RESTful service implemented using JSON messaging. You, as the customer are responsible for sending JSON messages and for maintaining the capability of receiving JSON messages in the format described in this specification. Request and response examples for each API service are included in this specification.\n\n# Authentication\n\nThe INTERSOFT SAPIENT API uses OAuth2 authentication.\n\nTo request the authorization token you need to create API credentials (Client ID and Secret) on the system first. If you have not done it already, log into your account and go to API Credentials or follow the link [add a link here with the path to the API Credentials menu]. Use the credentials to retrieve the authorization token.\n\nNote: Make sure you copy the Secret and keep it secure as you won't be able to view it again on the system.\n\n<!-- ReDoc-Inject: <SecurityDefinitions /> -->\n",
     "version": "v4.0-YODEL",
     "x-logo": {
@@ -96,7 +96,7 @@
                       "ContractNumber": "1511116",
                       "ScheduleNumber": "0001",
                       "LastUpdatedBy": "User A",
-                      "LastUpdatedDateUtc": "2026-06-30T08:49:01.428Z"
+                      "LastUpdatedDateUtc": "2026-07-22T08:05:45.586Z"
                     },
                     {
                       "ShippingAccountId": "46d58272-5f6a-405d-a947-c46c9caea56f",
@@ -111,7 +111,7 @@
                       "ContractNumber": "1511117",
                       "ScheduleNumber": "0002",
                       "LastUpdatedBy": "User B",
-                      "LastUpdatedDateUtc": "2026-06-30T08:49:01.428Z"
+                      "LastUpdatedDateUtc": "2026-07-22T08:05:45.586Z"
                     }
                   ],
                   "TotalCount": 2
@@ -187,7 +187,7 @@
                     "MeterNumber": "35111",
                     "ShippingLocations": [
                       {
-                        "ShippingLocationId": "e80a88bc-c755-4610-91ca-a6d355e93803"
+                        "ShippingLocationId": "53630144-304d-427b-8650-1503342a235d"
                       }
                     ]
                   }
@@ -320,7 +320,7 @@
                   "ContractNumber": "1511116",
                   "ScheduleNumber": "0001",
                   "LastUpdatedBy": "User A",
-                  "LastUpdatedDateUtc": "2026-06-30T08:49:01.947Z"
+                  "LastUpdatedDateUtc": "2026-07-22T08:05:45.963Z"
                 }
               }
             }
@@ -349,7 +349,7 @@
           "Shipping Accounts"
         ],
         "summary": "Update Account",
-        "description": "Update shipping account details.\r<br />Note: All required fields must be populated in the request, regardless if they need updating or not.",
+        "description": "Update shipping account details.\r<br />\r<br />***Note:** All required fields must be populated in the request, regardless if they need updating or not.*",
         "parameters": [
           {
             "name": "shippingAccountId",
@@ -707,12 +707,12 @@
                       "ContentType": "NDX",
                       "ServiceCode": "1CN",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-06-30",
+                      "ShipmentDate": "2026-07-22",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "1a08f5b7-8842-4066-bff0-8287d4695c36",
+                      "ShippingAccountId": "71618f41-e7dc-466a-ad39-01e35b79dda6",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -750,15 +750,15 @@
                       "ContentType": "NDX",
                       "ServiceCode": "1CN",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-06-30",
+                      "ShipmentDate": "2026-07-22",
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM",
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "4f70eae3-76f3-4740-843d-faced6eeb8b5",
-                      "ShippingLocationId": "ef236c3c-793e-41d7-bbe3-a484713afe80",
+                      "ShippingAccountId": "9f667abd-1555-4038-ba30-dd484b42e123",
+                      "ShippingLocationId": "76552db3-6294-4438-80ec-4790ee9e672d",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -849,14 +849,14 @@
                       "ContentType": "NDX",
                       "ServiceCode": "1CEN",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-06-30",
+                      "ShipmentDate": "2026-07-22",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "a5fc3b52-782f-4d4a-aa7a-1736f84d66e8",
+                      "ShippingAccountId": "53550dc3-5f5c-439c-91a9-7e0480f9c58f",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -921,7 +921,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "1CEN",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-06-30",
+                      "ShipmentDate": "2026-07-22",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
@@ -929,8 +929,8 @@
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "4393238d-d808-4677-be65-8ec819b7fb20",
-                      "ShippingLocationId": "4306a19d-65dd-4093-83fd-94afc3ec6724",
+                      "ShippingAccountId": "c1b38fdd-794e-4155-90d5-974b02dd6306",
+                      "ShippingLocationId": "8998dfa1-4b58-4154-9335-c662fb23c026",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -983,7 +983,9 @@
                         "Weight": 0.5,
                         "ImageURL": "https://yourcompany.com/images/product.jpg",
                         "HSCode": "6109100010",
-                        "CountryOfOrigin": "CN"
+                        "CountryOfOrigin": "CN",
+                        "ManufactureProductId": "5449000000996",
+                        "StandardisedProductId": "4006381333931"
                       },
                       {
                         "SkuCode": "SKU456",
@@ -994,7 +996,9 @@
                         "Weight": 0.3,
                         "ImageURL": "https://yourcompany.com/images/jumper-black.jpg",
                         "HSCode": "6110113000",
-                        "CountryOfOrigin": "CN"
+                        "CountryOfOrigin": "CN",
+                        "ManufactureProductId": "5449000000997",
+                        "StandardisedProductId": "4006381333932"
                       }
                     ],
                     "Customs": {
@@ -1006,7 +1010,7 @@
                       "OtherCharges": 32,
                       "QuotedLandedCost": 82.74,
                       "InvoiceNumber": "INV-12345",
-                      "InvoiceDate": "2026-06-30",
+                      "InvoiceDate": "2026-07-22",
                       "ExportLicenceRequired": false,
                       "Airn": "231.002.999-00"
                     },
@@ -1034,12 +1038,12 @@
                       "ContentType": "NDX",
                       "ServiceCode": "1CN",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-06-30",
+                      "ShipmentDate": "2026-07-22",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "dd79bf57-8f1b-43c7-8936-cda111728cd3",
+                      "ShippingAccountId": "d6922e50-aa9c-4a0e-a30c-98177edbf5cf",
                       "Reference1": "OrderRef56",
                       "Address": {
                         "AddressId": "John Brown Default"
@@ -1084,7 +1088,7 @@
                     "value": {
                       "Packages": [
                         {
-                          "ShipmentId": "0a16eff5-abbe-4f77-848f-b0f0440dcba1",
+                          "ShipmentId": "1b958df5-61d2-450a-8683-0497b796100b",
                           "PackageOccurrence": 1
                         }
                       ]
@@ -1092,7 +1096,7 @@
                   },
                   "Create - Consignment Shipment": {
                     "value": {
-                      "ConsignmentShipmentId": "32f0f191-0f8f-4240-a676-ad51598232a0",
+                      "ConsignmentShipmentId": "0da89c28-79f7-48e9-a693-d6da8726da39",
                       "Packages": [
                         {
                           "PackageOccurrence": 1
@@ -1104,7 +1108,7 @@
                     "value": {
                       "Packages": [
                         {
-                          "ShipmentId": "273041ff-3699-451a-9ce6-54409db0b4e1",
+                          "ShipmentId": "a2b90ddd-2397-48c8-bccf-d4852f996e58",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "JJD0002234001002147",
                           "CarrierTrackingUrl": "https://www.yodel.co.uk/track?trackNumber=JJD0002234001002147"
@@ -1114,7 +1118,7 @@
                   },
                   "Allocate - Consignment Shipment": {
                     "value": {
-                      "ConsignmentShipmentId": "0b32ec32-0931-4a31-93c6-31b8f40af0ba",
+                      "ConsignmentShipmentId": "4fed96f6-3c19-446e-955b-44d96480d85e",
                       "ConsignmentTrackingNumber": "JJD0002234001002147",
                       "ConsignmentCarrierTrackingUrl": "https://www.yodel.co.uk/track?trackNumber=JJD0002234001002147",
                       "Packages": [
@@ -1132,7 +1136,7 @@
                       "LabelFormat": "PDF",
                       "Packages": [
                         {
-                          "ShipmentId": "2506c6c0-7745-40ad-bbb9-c02bb922d74c",
+                          "ShipmentId": "3c116481-11e3-4519-8090-fb2d9ed0c1c6",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "JJD0002234001002147",
                           "CarrierTrackingUrl": "https://www.yodel.co.uk/track?trackNumber=JJD0002234001002147"
@@ -1142,7 +1146,7 @@
                   },
                   "Process - PDF - Consignment Shipment": {
                     "value": {
-                      "ConsignmentShipmentId": "1ceccb12-56ea-4b76-940b-b5ec11a5a90e",
+                      "ConsignmentShipmentId": "5bdf70b7-5c51-40bf-9c3c-7424c544fab0",
                       "ConsignmentTrackingNumber": "JJD0002234001002147",
                       "ConsignmentCarrierTrackingUrl": "https://www.yodel.co.uk/track?trackNumber=JJD0002234001002147",
                       "Labels": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
@@ -1162,7 +1166,7 @@
                       "LabelFormat": "PNG",
                       "Packages": [
                         {
-                          "ShipmentId": "3010f55b-4453-431f-9a96-0ce5ba4fd7d3",
+                          "ShipmentId": "cb7cdb5b-e952-4168-872c-715735346a63",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "JJD0002234001002147",
                           "CarrierTrackingUrl": "https://www.yodel.co.uk/track?trackNumber=JJD0002234001002147"
@@ -1172,7 +1176,7 @@
                   },
                   "Process - PNG - Consignment Shipment": {
                     "value": {
-                      "ConsignmentShipmentId": "7786a98f-08b3-44c0-87b5-b0431c2527bf",
+                      "ConsignmentShipmentId": "39b10f62-c2f6-43e1-81b8-64bb565c4d63",
                       "ConsignmentTrackingNumber": "JJD0002234001002147",
                       "ConsignmentCarrierTrackingUrl": "https://www.yodel.co.uk/track?trackNumber=JJD0002234001002147",
                       "Labels": "iVBORw0KGgoAAAANSUhEUgAA.....Hj16v8HJtP5+yLszwEAAAAASUVORK5CYII=",
@@ -1274,7 +1278,7 @@
                 "examples": {
                   "PDF": {
                     "value": {
-                      "ShipmentId": "a77a0d48-e588-413b-b037-f0106bbe3dd4",
+                      "ShipmentId": "5e313c39-68fb-44e2-8571-d44b5b8b9d2c",
                       "TrackingNumber": "H03TCA0000000118",
                       "CarrierTrackingUrl": "https://www.yodel.co.uk/track?trackNumber=H03TCA0000000118",
                       "Label": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
@@ -1283,7 +1287,7 @@
                   },
                   "PNG": {
                     "value": {
-                      "ShipmentId": "d134f9fe-15f8-421b-867e-4e33ebfcd3d3",
+                      "ShipmentId": "e0f2b47c-2d7b-4e3c-b37e-e3f4c589e639",
                       "TrackingNumber": "H03TCA0000000118",
                       "CarrierTrackingUrl": "https://www.yodel.co.uk/track?trackNumber=H03TCA0000000118",
                       "Label": "ëPNG♫◙→◙w0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
