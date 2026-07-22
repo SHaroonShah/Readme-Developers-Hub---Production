@@ -60,6 +60,11 @@ The following API services are provided by the Starlinks Global integration:
 - **Create shipment**: The integration for creating shipments to reflect Starlinks Global as a primary carrier and allowing users to create shipments using the Create Shipment that returns the label in base64 encoded format.
 - **Manifest Shipment**: Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT Manifest Webhook to keep track of shipments and their statuses by receiving real-time updates or notifications whenever specific events occur in the system, such as shipping updates and status changes.
 - **Tracking**: Enables customers to receive tracking updates through their integration with the SAPIENT tracking webhook.
-- **Manifest shipment**: Enable customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT Manifest Webhook to keep track of shipments and their statuses by to receiving real-time updates or notifications whenever specific events occur in the system (such as shipping updates, status changes, and so on).
+- **Print Label:&#x20;**&#x47;enerate and return the label for a DX Freight shipment in the PDF, PNG, or ZPL format. This endpoint must be utilised when the label is not generated in the DXF Create Shipment request.
+  <Callout icon="📘" theme="info">
+    ### _Note_
+
+    _This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting._
+  </Callout>
 
 <br />
