@@ -1,7 +1,7 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "DHL EXPRESS API",
+    "title": "DHL EXPRESS",
     "description": "# Introduction\nHere you will find requirements for integrating with SAPIENT CORE API.\n\nThe documentation specifically covers how the API can be used by business customers to conduct shipping activity with available carriers and provides the technical information to build this integration. The API allows customers to create and manage shipments, produce labels, customs documentation, and collection manifests, retrieve reference data such as carriers and countries, and maintain their own data such as shipping account details.\n\nIntersoft API is a fully RESTful service implemented using JSON messaging. You, as the customer are responsible for sending JSON messages and for maintaining the capability of receiving JSON messages in the format described in this specification. Request and response examples for each API service are included in this specification.\n\n# Authentication\n\nThe SAPIENT CORE API uses OAuth2 authentication.\n\nTo request the authorization token you need to create API credentials (Client ID and Secret) on the system first. If you have not done it already, log into your account and go to API Credentials or follow the link [add a link here with the path to the API Credentials menu]. Use the credentials to retrieve the authorization token.\n\nNote: Make sure you copy the Secret and keep it secure as you won't be able to view it again on the system.\n\n<!-- ReDoc-Inject: <SecurityDefinitions /> -->\n",
     "version": "v4.0-DHLEXPRESS",
     "x-logo": {
@@ -97,7 +97,7 @@
                       "IsPaperlessTradeEnabled": true,
                       "PaperlessTradeInvoiceOption": "DhlGenerated",
                       "LastUpdatedBy": "User A",
-                      "LastUpdatedDateUtc": "2026-06-30T08:55:34.374Z"
+                      "LastUpdatedDateUtc": "2026-07-22T08:13:21.882Z"
                     },
                     {
                       "ShippingAccountId": "46d58272-5f6a-405d-a947-c46c9caea56f",
@@ -113,7 +113,7 @@
                       "IsPaperlessTradeEnabled": true,
                       "PaperlessTradeInvoiceOption": "SapientGenerated",
                       "LastUpdatedBy": "User B",
-                      "LastUpdatedDateUtc": "2026-06-30T08:55:34.374Z"
+                      "LastUpdatedDateUtc": "2026-07-22T08:13:21.882Z"
                     }
                   ],
                   "TotalCount": 2
@@ -270,7 +270,7 @@
                   "IsArchiveLabels": false,
                   "IsPaperlessTradeEnabled": false,
                   "LastUpdatedBy": "User A",
-                  "LastUpdatedDateUtc": "2026-06-30T08:55:34.663Z"
+                  "LastUpdatedDateUtc": "2026-07-22T08:13:22.205Z"
                 }
               }
             }
@@ -299,7 +299,7 @@
           "Shipping Accounts"
         ],
         "summary": "Update Account",
-        "description": "Update shipping account details.\r<br />Note: All required fields must be populated in the request, regardless if they need updating or not.",
+        "description": "Update shipping account details.\r<br />\r<br />***Note:** All required fields must be populated in the request, regardless if they need updating or not.*",
         "parameters": [
           {
             "name": "shippingAccountId",
@@ -451,7 +451,7 @@
           "Shipping Accounts"
         ],
         "summary": "Get Associated Locations",
-        "description": "Provides a list of all shipping locations associated with a DhlExpress shipping account.",
+        "description": "Provides a list of all shipping locations associated with a DHL Express shipping account.",
         "parameters": [
           {
             "name": "shippingAccountId",
@@ -647,14 +647,14 @@
                       "ContentType": "NDX",
                       "ServiceCode": "DOT",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-06-30",
+                      "ShipmentDate": "2026-07-22",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "EUR",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "0e44e7f7-fbd5-4062-899b-33ec6ab7149d",
+                      "ShippingAccountId": "412db7d9-5285-4557-b493-e1b7871b982d",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -708,7 +708,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "DOM",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-06-30",
+                      "ShipmentDate": "2026-07-22",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
@@ -716,8 +716,8 @@
                       "ContainerId": "Central Europe"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "c4167fdc-992c-432a-be37-68bf577e4108",
-                      "ShippingLocationId": "4d83da79-10c9-4fb8-b922-c75d4209747b",
+                      "ShippingAccountId": "dc03447f-73c0-4d1c-be1c-40d050b30ed6",
+                      "ShippingLocationId": "ce199b31-2111-4d52-a82f-572a1346508a",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -809,7 +809,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "DOM",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-06-30",
+                      "ShipmentDate": "2026-07-22",
                       "DeclaredWeight": 9,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
@@ -817,8 +817,8 @@
                       "ContainerId": "Central Europe"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "edc96238-0415-463e-af7e-c40ca4a40016",
-                      "ShippingLocationId": "79e70fbd-f441-4311-ae4d-949d3fcb6a1f",
+                      "ShippingAccountId": "50448e80-19a6-4d4b-a6bb-a77b65879850",
+                      "ShippingLocationId": "8f880c73-016c-4f23-9b1d-2efe4fd7c39d",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -1096,14 +1096,14 @@
                       "ContentType": "NDX",
                       "ServiceCode": "TDY",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-06-30",
+                      "ShipmentDate": "2026-07-22",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "EUR",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "66be55ff-e2bc-48e1-a052-73335eb5f322",
+                      "ShippingAccountId": "b7940778-b689-4dae-8b20-57a443e85caa",
                       "Reference1": "OrderRef56",
                       "EoriNumber": "GB12345",
                       "VatNumber": "VA12345"
@@ -1161,7 +1161,7 @@
                       "PreRegistrationType": "IOSS",
                       "ShippingCharges": 20,
                       "InvoiceNumber": "INV-12345",
-                      "InvoiceDate": "2026-06-30"
+                      "InvoiceDate": "2026-07-22"
                     }
                   }
                 },
@@ -1185,7 +1185,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "TDY",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-06-30",
+                      "ShipmentDate": "2026-07-22",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
@@ -1193,8 +1193,8 @@
                       "ContainerId": "Central Europe"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "e4922e80-1730-4a3a-b921-23f7afc0dc3f",
-                      "ShippingLocationId": "e906ee24-2271-4e51-90ec-1b4d0f8a9565",
+                      "ShippingAccountId": "80a0d8b3-c509-42f4-9199-74add1bd79c4",
+                      "ShippingLocationId": "5e08ccb7-57df-43a0-9fc9-8c8e26d7aabd",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -1250,7 +1250,9 @@
                         "Weight": 0.5,
                         "ImageURL": "https://yourcompany.com/images/product.jpg",
                         "HSCode": "6109100010",
-                        "CountryOfOrigin": "CN"
+                        "CountryOfOrigin": "CN",
+                        "ManufactureProductId": "5449000000990",
+                        "StandardisedProductId": "4006381333930"
                       },
                       {
                         "SkuCode": "SKU456",
@@ -1261,7 +1263,9 @@
                         "Weight": 0.3,
                         "ImageURL": "https://yourcompany.com/images/jumper-black.jpg",
                         "HSCode": "6110113000",
-                        "CountryOfOrigin": "CN"
+                        "CountryOfOrigin": "CN",
+                        "ManufactureProductId": "5449000000991",
+                        "StandardisedProductId": "4006381333931"
                       }
                     ],
                     "Customs": {
@@ -1273,7 +1277,7 @@
                       "OtherCharges": 32,
                       "QuotedLandedCost": 82.74,
                       "InvoiceNumber": "INV-12345",
-                      "InvoiceDate": "2026-06-30",
+                      "InvoiceDate": "2026-07-22",
                       "ExportLicenceRequired": false,
                       "Airn": "231.002.999-00"
                     },
@@ -1314,7 +1318,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "TDY",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-06-30",
+                      "ShipmentDate": "2026-07-22",
                       "DeclaredWeight": 9,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
@@ -1322,8 +1326,8 @@
                       "ContainerId": "Central Europe"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "d4d29e2d-dd0a-4118-8e21-6017786fc439",
-                      "ShippingLocationId": "ddee2afc-77f7-43f7-9690-a27d52d12729",
+                      "ShippingAccountId": "edd7eaa6-eb73-46e0-bc8f-94fcb4cd8ff9",
+                      "ShippingLocationId": "dd7d78e0-58af-4c84-a0dd-a9776bca5f2a",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -1409,7 +1413,9 @@
                         "Weight": 0.5,
                         "ImageURL": "https://yourcompany.com/images/product.jpg",
                         "HSCode": "6109100010",
-                        "CountryOfOrigin": "CN"
+                        "CountryOfOrigin": "CN",
+                        "ManufactureProductId": "5449000000990",
+                        "StandardisedProductId": "4006381333930"
                       },
                       {
                         "SkuCode": "SKU456",
@@ -1420,7 +1426,9 @@
                         "Weight": 0.3,
                         "ImageURL": "https://yourcompany.com/images/jumper-black.jpg",
                         "HSCode": "6110113000",
-                        "CountryOfOrigin": "CN"
+                        "CountryOfOrigin": "CN",
+                        "ManufactureProductId": "5449000000991",
+                        "StandardisedProductId": "4006381333931"
                       },
                       {
                         "SkuCode": "TSHIRT-WHT-L",
@@ -1430,7 +1438,9 @@
                         "Value": 19.99,
                         "Weight": 0.25,
                         "HSCode": "61091000",
-                        "CountryOfOrigin": "BD"
+                        "CountryOfOrigin": "BD",
+                        "ManufactureProductId": "5449000000992",
+                        "StandardisedProductId": "4006381333932"
                       },
                       {
                         "SkuCode": "TSHIRT-WHT-L",
@@ -1440,7 +1450,9 @@
                         "Value": 19.99,
                         "Weight": 0.25,
                         "HSCode": "61091000",
-                        "CountryOfOrigin": "BD"
+                        "CountryOfOrigin": "BD",
+                        "ManufactureProductId": "5449000000993",
+                        "StandardisedProductId": "4006381333933"
                       },
                       {
                         "SkuCode": "TSHIRT-WHT-L",
@@ -1450,7 +1462,9 @@
                         "Value": 19.99,
                         "Weight": 0.25,
                         "HSCode": "61091000",
-                        "CountryOfOrigin": "BD"
+                        "CountryOfOrigin": "BD",
+                        "ManufactureProductId": "5449000000994",
+                        "StandardisedProductId": "4006381333934"
                       }
                     ],
                     "Customs": {
@@ -1462,7 +1476,7 @@
                       "OtherCharges": 32,
                       "QuotedLandedCost": 82.74,
                       "InvoiceNumber": "INV-12345",
-                      "InvoiceDate": "2026-06-30",
+                      "InvoiceDate": "2026-07-22",
                       "ExportLicenceRequired": false,
                       "Airn": "231.002.999-00"
                     },
@@ -1497,14 +1511,14 @@
                       "ContentType": "NDX",
                       "ServiceCode": "WPX",
                       "DescriptionOfGoods": "Aftershave",
-                      "ShipmentDate": "2026-06-30",
+                      "ShipmentDate": "2026-07-22",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "1ed04d97-c376-4e5c-82f0-3cf8f5feaf16",
+                      "ShippingAccountId": "6e280daa-7690-4b0d-9e4d-cb739bca10ab",
                       "Reference1": "OrderRef56",
                       "EoriNumber": "GB12345",
                       "VatNumber": "VA12345"
@@ -1558,7 +1572,7 @@
                       "PreRegistrationType": "IOSS",
                       "ShippingCharges": 20,
                       "InvoiceNumber": "INV-12345",
-                      "InvoiceDate": "2026-06-30"
+                      "InvoiceDate": "2026-07-22"
                     }
                   }
                 },
@@ -1569,13 +1583,13 @@
                       "ContentType": "NDX",
                       "ServiceCode": "DOT",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-06-30",
+                      "ShipmentDate": "2026-07-22",
                       "CurrencyCode": "EUR",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "9a5d0065-1ee1-42e4-a2e4-bd903acf18e4",
+                      "ShippingAccountId": "0b6a61c7-0b5e-40e8-9cb5-422edb7377aa",
                       "Reference1": "OrderRef56",
                       "Address": {
                         "AddressId": "John Brown Default"
@@ -1620,19 +1634,19 @@
                       "LabelFormat": "PDF",
                       "Packages": [
                         {
-                          "ShipmentId": "97ce900a-533a-4f79-b4b7-7179628a09a6",
+                          "ShipmentId": "5db6983a-3e66-42e6-8191-59f529d1e896",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "JD012300001234567891",
                           "CarrierTrackingUrl": "https://www.dhl.com/gb-en/home/tracking.html?tracking-id=1234567890&submit=1?pieceTrackingNumber=JD012300001234567891"
                         },
                         {
-                          "ShipmentId": "97ce900a-533a-4f79-b4b7-7179628a09a6",
+                          "ShipmentId": "5db6983a-3e66-42e6-8191-59f529d1e896",
                           "PackageOccurrence": 2,
                           "TrackingNumber": "JD012300001234567892",
                           "CarrierTrackingUrl": "https://www.dhl.com/gb-en/home/tracking.html?tracking-id=1234567890&submit=1?pieceTrackingNumber=JD012300001234567892"
                         },
                         {
-                          "ShipmentId": "97ce900a-533a-4f79-b4b7-7179628a09a6",
+                          "ShipmentId": "5db6983a-3e66-42e6-8191-59f529d1e896",
                           "PackageOccurrence": 3,
                           "TrackingNumber": "JD012300001234567893",
                           "CarrierTrackingUrl": "https://www.dhl.com/gb-en/home/tracking.html?tracking-id=1234567890&submit=1?pieceTrackingNumber=JD012300001234567893"
@@ -1648,19 +1662,19 @@
                       "LabelFormat": "PNG",
                       "Packages": [
                         {
-                          "ShipmentId": "8a9b98ac-16f5-454e-bb38-6e29f0464ef6",
+                          "ShipmentId": "c0e20081-113a-4df0-8b6d-727dd31e7613",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "JD012300001234567891",
                           "CarrierTrackingUrl": "https://www.dhl.com/gb-en/home/tracking.html?tracking-id=1234567890&submit=1?pieceTrackingNumber=JD012300001234567891"
                         },
                         {
-                          "ShipmentId": "8a9b98ac-16f5-454e-bb38-6e29f0464ef6",
+                          "ShipmentId": "c0e20081-113a-4df0-8b6d-727dd31e7613",
                           "PackageOccurrence": 2,
                           "TrackingNumber": "JD012300001234567892",
                           "CarrierTrackingUrl": "https://www.dhl.com/gb-en/home/tracking.html?tracking-id=1234567890&submit=1?pieceTrackingNumber=JD012300001234567892"
                         },
                         {
-                          "ShipmentId": "8a9b98ac-16f5-454e-bb38-6e29f0464ef6",
+                          "ShipmentId": "c0e20081-113a-4df0-8b6d-727dd31e7613",
                           "PackageOccurrence": 3,
                           "TrackingNumber": "JD012300001234567893",
                           "CarrierTrackingUrl": "https://www.dhl.com/gb-en/home/tracking.html?tracking-id=1234567890&submit=1?pieceTrackingNumber=JD012300001234567893"
@@ -1756,7 +1770,7 @@
                 "examples": {
                   "PDF": {
                     "value": {
-                      "ShipmentId": "1171ed3c-f81a-4861-9cc2-ba9a93dcbdd9",
+                      "ShipmentId": "d37e5959-2fae-4c1e-b923-1ca4d11d7f00",
                       "TrackingNumber": "1234567890",
                       "CarrierTrackingUrl": "https://www.dhl.com/gb-en/home/tracking.html?tracking-id=1234567890&submit=1",
                       "Label": "jVBERw0KGgoAAAANSUhEUgAA.....PDF",
@@ -1765,7 +1779,7 @@
                   },
                   "PNG": {
                     "value": {
-                      "ShipmentId": "4252419a-c015-472d-8b92-51967c5eba1e",
+                      "ShipmentId": "96f29897-39c1-409e-b665-6d4cc86a0f74",
                       "TrackingNumber": "1234567890",
                       "CarrierTrackingUrl": "https://www.dhl.com/gb-en/home/tracking.html?tracking-id=1234567890&submit=1",
                       "Label": "iVBORw0KGgoAAAANSUhEUgAA.....PNG",
@@ -2280,11 +2294,11 @@
           },
           "IsArchiveLabels": {
             "type": "boolean",
-            "description": "Indicates whether DHL waybill documents are available for download as PDF.\r<br />Valid values are the following:\r<br /><ul><li>**True** - the way bill documents will be available for download in PDF format</li><li>**False** - the way bill documents will not be available for download</li></ul>"
+            "description": "Indicates whether DHL waybill documents are available for download as PDF.\r<br />\r<br />Valid values are the following:\r<br /><ul><li>**True** - the way bill documents will be available for download in PDF format</li><li>**False** - the way bill documents will not be available for download</li></ul>"
           },
           "IsPaperlessTradeEnabled": {
             "type": "boolean",
-            "description": "Indicates whether the documents are submitted electronically.\r<br />Valid values are the following:\r<br /><ul><li>**True** - the documents can be submitted electronically</li><li>**False** - the documents cannot be submitted electronically</li></ul>"
+            "description": "Indicates whether the documents are submitted electronically.\r<br />\r<br />Valid values are the following:\r<br /><ul><li>**True** - the documents can be submitted electronically</li><li>**False** - the documents cannot be submitted electronically</li></ul>"
           },
           "PaperlessTradeInvoiceOption": {
             "$ref": "#/components/schemas/PaperlessTradeInvoiceOption"
@@ -2328,7 +2342,7 @@
           "DangerousGoodsExceptedQuantities"
         ],
         "type": "string",
-        "description": "This object specifies the particular enhancement code that is being applied to the shipment, allowing customers to select multiple enhancements that can modify the shipping experience according to their preferences.\r<br />\r<br />Accepted values are the following:\r<br /><ul><li><b>Saturday Delivery:</b> Enables delivery on Saturdays where available, offering greater flexibility in shipping schedules.</li><li><b>Adult Signature:</b> Requires an adult signature upon delivery of the shipment, ensuring that the package is received by someone of legal age.</li><li><b>Shipment Insurance:</b> Provides insurance coverage for the shipment against loss or damage. If this enhancement is used, then the InsuranceValue field must be populated.</li><li><b>Neutral Description Label:</b> Uses a generic shipment label that does not specify the shipment contents description.</li><li><b>Verified Delivery:</b> Enables verified delivery using a QR code. DHL sends the QR code to the receiver, who must present it to the courier at the time of delivery.</li><li><b>Label Free:</b> Requests the shipment to be sent without a standard shipping label, using QR code instead.</li><li><b>Dangerous Goods ID8000:</b> Generates the ID8000 labels for shipments containing dangerous goods, ensuring compliance with safety regulations. If this enhancement is used, then the UNCode field must be populated.</li><li><b>Dangerous Goods Excepted Quantities:</b> Specifies shipments that include small quantities of Class 9 dangerous goods exempt from standard regulations. If this enhancement is used, then the UNCode field must be populated.</li></ul>"
+        "description": "This object specifies the particular enhancement code that is being applied to the shipment, allowing customers to select multiple enhancements that can modify the shipping experience according to their preferences.\r<br />\r<br />Accepted values are the following:\r<br /><ul><li><b>Saturday Delivery:</b> Enables delivery on Saturdays where available, offering greater flexibility in shipping schedules.</li><li><b>Adult Signature:</b> Requires an adult signature upon delivery of the shipment, ensuring that the package is received by someone of legal age.</li><li><b>Shipment Insurance:</b> Provides insurance coverage for the shipment against loss or damage. If this enhancement is used, then the <b>InsuranceValue</b> field must be populated.</li><li><b>Neutral Description Label:</b> Uses a generic shipment label that does not specify the shipment contents description.</li><li><b>Verified Delivery:</b> Enables verified delivery using a QR code. DHL sends the QR code to the receiver, who must present it to the courier at the time of delivery.</li><li><b>Label Free:</b> Requests the shipment to be sent without a standard shipping label, using QR code instead.</li><li><b>Dangerous Goods ID8000:</b> Generates the ID8000 labels for shipments containing dangerous goods, ensuring compliance with safety regulations. If this enhancement is used, then the <b>UNCode</b> field must be populated.</li><li><b>Dangerous Goods Excepted Quantities:</b> Specifies shipments that include small quantities of Class 9 dangerous goods exempt from standard regulations. If this enhancement is used, then the <b>UNCode</b> field must be populated.</li></ul>"
       },
       "DhlExpressShipmentRequestCarrierSpecifics": {
         "type": "object",
@@ -2464,11 +2478,11 @@
           },
           "IsArchiveLabels": {
             "type": "boolean",
-            "description": "Indicates whether DHL waybill documents are available for download as PDF.\r<br />Valid values are the following:\r<br /><ul><li>**True** - the way bill documents will be available for download in PDF format</li><li>**False** - the way bill documents will not be available for download</li></ul>"
+            "description": "Indicates whether DHL waybill documents are available for download as PDF.\r<br />\r<br />Valid values are the following:\r<br /><ul><li>**True** - the way bill documents will be available for download in PDF format</li><li>**False** - the way bill documents will not be available for download</li></ul>"
           },
           "IsPaperlessTradeEnabled": {
             "type": "boolean",
-            "description": "Indicates whether the documents are submitted electronically.\r<br />Valid values are the following:\r<br /><ul><li>**True** - the documents can be submitted electronically</li><li>**False** - the documents cannot be submitted electronically</li></ul>"
+            "description": "Indicates whether the documents are submitted electronically.\r<br />\r<br />Valid values are the following:\r<br /><ul><li>**True** - the documents can be submitted electronically</li><li>**False** - the documents cannot be submitted electronically</li></ul>"
           },
           "PaperlessTradeInvoiceOption": {
             "$ref": "#/components/schemas/PaperlessTradeInvoiceOption"
@@ -2580,11 +2594,11 @@
           },
           "IsArchiveLabels": {
             "type": "boolean",
-            "description": "Indicates whether DHL waybill documents are available for download as PDF.\r<br />Valid values are the following:\r<br /><ul><li>**True** - the way bill documents will be available for download in PDF format</li><li>**False** - the way bill documents will not be available for download</li></ul>"
+            "description": "Indicates whether DHL waybill documents are available for download as PDF.\r<br />\r<br />Valid values are the following:\r<br /><ul><li>**True** - the way bill documents will be available for download in PDF format</li><li>**False** - the way bill documents will not be available for download</li></ul>"
           },
           "IsPaperlessTradeEnabled": {
             "type": "boolean",
-            "description": "Indicates whether the documents are submitted electronically.\r<br />Valid values are the following:\r<br /><ul><li>**True** - the documents can be submitted electronically</li><li>**False** - the documents cannot be submitted electronically</li></ul>"
+            "description": "Indicates whether the documents are submitted electronically.\r<br />\r<br />Valid values are the following:\r<br /><ul><li>**True** - the documents can be submitted electronically</li><li>**False** - the documents cannot be submitted electronically</li></ul>"
           },
           "PaperlessTradeInvoiceOption": {
             "$ref": "#/components/schemas/PaperlessTradeInvoiceOption"
@@ -3139,7 +3153,7 @@
           "SapientGenerated"
         ],
         "type": "string",
-        "description": "Specifies the DHL Paperless Trade (PLT) invoice option for electronically transmitting commercial invoice documentation.\r<br />Valid values are the following:\r<br /><ul><li>**DhlGenerated**: This value allows DHL to create the invoice and send it electronically to the customs agency.</li><li>**SapientGenerated**: This value generates the invoice from the shipment data in SAPIENT and sends it to DHL.</li></ul><i>**Note**: This field is only applicable if the **IsPaperlessTradeEnables** field is set to true.</i>"
+        "description": "Specifies the DHL Paperless Trade (PLT) invoice option for electronically transmitting commercial invoice documentation.\r<br />\r<br />Valid values are the following:\r<br /><ul><li>**DhlGenerated**: This value allows DHL to create the invoice and send it electronically to the customs agency.</li><li>**SapientGenerated**: This value generates the invoice from the shipment data in SAPIENT and sends it to DHL.</li></ul><i>**Note**: This field is only applicable if the **IsPaperlessTradeEnabled** field is set to true.</i>"
       },
       "ReturnToSender": {
         "type": "object",
