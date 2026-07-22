@@ -152,7 +152,7 @@ DHL is the global leader in the logistics industry. DHL Express is a brand withi
       >
       > *This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting.*
     </Accordion>
-
+    <br />
     <Accordion title="Tracking">
       Enables customers to receive tracking updates through their integration with the SAPIENT tracking webhook.
     </Accordion>
