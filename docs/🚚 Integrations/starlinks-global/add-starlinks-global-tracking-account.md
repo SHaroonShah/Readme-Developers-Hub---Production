@@ -26,44 +26,74 @@ In SAPIENT, you can add tracking accounts for Starlinks Global  to enhance visib
   _If you wish to receive the tracking events via Intersoft using the tracking account you have created, make sure it is is activated by the Starlinks Global team._
 </Callout>
 
-# How to add Starlinks Global tracking account
+## How to add Starlinks Global tracking account
 
-To add a tracking account for Starlinks Global in SAPIENT, perform the steps as explained in the following procedure.
+To add a tracking account for Starlinks Global in SAPIENT, follow the steps as explained in the following procedure.
 
-1. In the left navigation panel, select **API** > **Webhooks**. On the page that opens, select the **Tracking Accounts** tab.
+<ToggleList>
+  <ToggleListItem title="1. Navigate to the Tracking Accounts tab">
 
+    <br />
 
-<Image src="https://files.readme.io/c3f6098979696b25cbdbe26921658742edef4520e983ae8c70cbe6f689e4aadf-Tracking_accounts_tab.png" alt="Accessing tracking accounts" align="center" caption="Accessing tracking accounts" border={true} />
+    In the left navigation panel, select **API** > **Webhooks**. On the page that opens, select the **Tracking Accounts** tab.
 
+    <Image src="https://files.readme.io/c3f6098979696b25cbdbe26921658742edef4520e983ae8c70cbe6f689e4aadf-Tracking_accounts_tab.png" alt="Accessing tracking accounts" align="center" caption="Accessing tracking accounts" border={true} />
 
-2. In the **Tracking Accounts** page that opens, select ![](https://files.readme.io/63f1badb667ff6379f323bdc6485e8a519eb46938b0dcd4b98e384686ebb68e0-Add_tracking_account_button.png).
+    ***
+  </ToggleListItem>
 
+  <br />
 
-<Image src="https://files.readme.io/c2f04a8e6b4e985e203082e192cfe4d35f0702aa38fa593bb2440e490295dd3a-Add_tracking_account_button_UPS.png" alt="Accessing option to add tracking account" align="center" caption="Accessing option to add tracking account" border={true} />
+  <ToggleListItem title="2. Select option to add tracking account">
 
+    <br />
 
-3. On the **Add Tracking account** page that appears, in the **DETAILS** block, enter the necessary information as explained in the following table.
+    In the **Tracking Accounts** page that opens, select <Image src="https://files.readme.io/63f1badb667ff6379f323bdc6485e8a519eb46938b0dcd4b98e384686ebb68e0-Add_tracking_account_button.png" caption="Add tracking account button" />.
 
+    <Image src="https://files.readme.io/c2f04a8e6b4e985e203082e192cfe4d35f0702aa38fa593bb2440e490295dd3a-Add_tracking_account_button_UPS.png" alt="Accessing option to add tracking account" align="center" caption="Accessing option to add tracking account" border={true} />
 
-<Image src="https://files.readme.io/7ce9d5d481953d6a2e0d2c4f96ee147f66f0c2b0963fa83674aaaaae81329c5f-image.png" align="center" width="700px" caption="Adding tracking account" border={true} />
+    ***
+  </ToggleListItem>
 
+  <br />
 
-<AsteridkForMandatoryElements />
+  <ToggleListItem title="3. Enter tracking account details">
 
-|         Element        | Description                                                                                                      |
-| :--------------------: | :--------------------------------------------------------------------------------------------------------------- |
-|      **Carrier**\*     | From the dropdown menu, select Starlinks Global as your carrier option.                                          |
-| **Shipping Account**\* | From the dropdown menu, select the <Glossary>shipping account</Glossary> for which you want to receive tracking. |
+    <br />
 
-<Callout icon="📘" theme="info">
-  ### _Note_
+    On the **Add Tracking account** page that appears, in the **DETAILS** block, enter the necessary information as explained in the following table.
 
-  _To track data for every shipping account, you must create a tracking account for each._
-</Callout>
+    <Image src="https://files.readme.io/7ce9d5d481953d6a2e0d2c4f96ee147f66f0c2b0963fa83674aaaaae81329c5f-image.png" align="center" width="700px" caption="Adding tracking account" border={true} />
 
-4. After entering all the necessary information, select ![](https://files.readme.io/41bf635f2c82bf95197e5a2f62939d396ead6033e48a985a30965d84a5be57b8-Add_tracking_account_button_2.png).
+    <br />
 
-Once done, the Starlinks Global tracking account is added successfully and appears in the **Tracking Accounts** list. You can now receive the tracking information on your <Glossary>shipments</Glossary>.
+    <AsteridkForMandatoryElements />
+
+    |         Element        | Description                                                                                                      |
+    | :--------------------: | :--------------------------------------------------------------------------------------------------------------- |
+    |      **Carrier**\*     | From the dropdown menu, select Starlinks Global as your carrier option.                                          |
+    | **Shipping Account**\* | From the dropdown menu, select the <Glossary>shipping account</Glossary> for which you want to receive tracking. |
+
+    <br />
+
+    > 📘 *Note*
+    >
+    > *To track data for every shipping account, you must create a tracking account for each.*
+
+    ***
+  </ToggleListItem>
+
+  <br />
+
+  <ToggleListItem title="Step 4: Save and add the tracking account">
+
+    <br />
+
+    After entering all the necessary information, select <Image src="https://files.readme.io/41bf635f2c82bf95197e5a2f62939d396ead6033e48a985a30965d84a5be57b8-Add_tracking_account_button_2.png" caption="Add tracking account button" />.
+
+    Once done, the Starlinks Global tracking account is added successfully and appears in the **Tracking Accounts** list. You can now receive the tracking information on your <Glossary>shipments</Glossary>.
+  </ToggleListItem>
+</ToggleList>
 
 ***
 
