@@ -1,22 +1,19 @@
 ---
 title: EU Customs changes FAQs
+excerpt: >-
+  Recent EU customs reforms has introduced significant changes to how duties and
+  declarations are applied to goods entering the region.
 deprecated: false
 hidden: false
 icon: fad fa-newspaper
 metadata:
   robots: index
 ---
-## Overview
-
-Recent EU customs reforms has introduced significant changes to how duties and declarations are applied to goods entering the region.
-
 <Callout icon="❗️" theme="error">
   ### _What is changing?_
 
   _From 1st July 2026, the existing €150 value threshold will be removed, meaning all goods may be subject to customs duties regardless of value. As part of this update, enhanced customs data will be required to support increased declaration obligations, reflecting a broader EU initiative to standardise and modernise cross‑border eCommerce processes._
 </Callout>
-
-## Frequently Asked Questions (FAQs)
 
 <Accordion title="When will these changes take effect?">
   The changes are expected to come into effect from 1st July 2026.
