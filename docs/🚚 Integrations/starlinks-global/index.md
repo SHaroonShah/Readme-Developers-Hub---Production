@@ -7,6 +7,10 @@ icon: fad fa-truck-fast
 metadata:
   robots: index
 ---
+![](https://files.readme.io/f2a0fec9ac80f7564dafa93c51acde4175cd48e9b82c56bc40078318d18bdcf2-Starlinks_Global_banner.png)
+
+***
+
 The integration of Starlinks Global into the SAPIENT platform is a significant step in enhancing shipping capabilities. This section discusses the in-scope features of this integration and the services this carrier offers.
 
 <Tabs>
