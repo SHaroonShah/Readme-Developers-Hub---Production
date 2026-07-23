@@ -43,7 +43,7 @@ To add a shipping account for Starlinks Global in SAPIENT, perform the steps as 
 
 |         Element         | Description                                                                                                   |
 | :---------------------: | :------------------------------------------------------------------------------------------------------------ |
-|      **Carrier**\*      | From the dropdown list, select **UPS**.                                                                       |
+|      **Carrier**\*      | From the dropdown list, select **Starlinks Global**.                                                          |
 | **Shipping Location**\* | From the dropdown menu, select the location that you want to assign to the shipping account you are creating. |
 
 5. In the **SHIPPING ACCOUNT** block, enter the necessary information as explained in the following table.
