@@ -17,7 +17,7 @@ In SAPIENT, with **the Add Shipping Account** functionality, you can select the 
   _Before you can set up a shipping account, make sure you have enabled the&#x20;_[_label integration_](https://docs.intersoftsapient.net/docs/integration-activation)_&#x20;for Starlinks Global._
 </Callout>
 
-# <br />How to add Starlinks Global shipping account
+# How to add Starlinks Global shipping account
 
 To add a shipping account for Starlinks Global in SAPIENT, perform the steps as explained in the following procedure.
 
