@@ -132,7 +132,7 @@ In SAPIENT, with **the Add Shipping Account** functionality, you can select the 
 
         In the **CARRIER DETAILS** block, enter the necessary information as explained in the following table.
 
-        <Image src="https://files.readme.io/fea1554dd281c7a9c5b014dcfb1c3fa724d2b63043a3b8ed4a80233d8f96b788-image.png" align="center" caption="Entering carrier-specific details" border={true} />
+        <Image src="https://files.readme.io/fea1554dd281c7a9c5b014dcfb1c3fa724d2b63043a3b8ed4a80233d8f96b788-image.png" align="center" width="500px" caption="Entering carrier-specific details" border={true} />
 
         <br />
 
