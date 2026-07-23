@@ -48,7 +48,7 @@ To add a tracking account for Starlinks Global in SAPIENT, follow the steps as e
 
     <br />
 
-    In the **Tracking Accounts** page that opens, select <Image src="https://files.readme.io/63f1badb667ff6379f323bdc6485e8a519eb46938b0dcd4b98e384686ebb68e0-Add_tracking_account_button.png" caption="Add tracking account button" />.
+    In the **Tracking Accounts** page that opens, select <Image src="https://files.readme.io/63f1badb667ff6379f323bdc6485e8a519eb46938b0dcd4b98e384686ebb68e0-Add_tracking_account_button.png" />.
 
     <Image src="https://files.readme.io/c2f04a8e6b4e985e203082e192cfe4d35f0702aa38fa593bb2440e490295dd3a-Add_tracking_account_button_UPS.png" alt="Accessing option to add tracking account" align="center" caption="Accessing option to add tracking account" border={true} />
 
@@ -89,7 +89,7 @@ To add a tracking account for Starlinks Global in SAPIENT, follow the steps as e
 
     <br />
 
-    After entering all the necessary information, select <Image src="https://files.readme.io/41bf635f2c82bf95197e5a2f62939d396ead6033e48a985a30965d84a5be57b8-Add_tracking_account_button_2.png" caption="Add tracking account button" />.
+    After entering all the necessary information, select <Image src="https://files.readme.io/41bf635f2c82bf95197e5a2f62939d396ead6033e48a985a30965d84a5be57b8-Add_tracking_account_button_2.png" />.
 
     Once done, the Starlinks Global tracking account is added successfully and appears in the **Tracking Accounts** list. You can now receive the tracking information on your <Glossary>shipments</Glossary>.
   </ToggleListItem>
