@@ -31,7 +31,7 @@ To help explain the change, the following table provides a simple comparison of 
 ### See also
 
 <Cards columns={2}>
-  <Card title="EU Customs Changes FAQ's" href="https://docs.intersoftsapient.net/docs/windsor-framework-faqs#/" icon="fa-question-circle">
+  <Card title="EU Customs Changes FAQ's" href="https://docs.intersoftsapient.net/v4.04/docs/copy-of-eu-customs-changes-and-faqs" icon="fa-question-circle">
     Find answers to common queries and additional guidance on compliance.
   </Card>
 
