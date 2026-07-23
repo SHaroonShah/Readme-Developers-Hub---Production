@@ -119,12 +119,50 @@ The integration of Starlinks Global into the SAPIENT platform is a significant s
 
 ## Getting Started
 
-<Cards columns={1}>
-  <Card title="Activate this integration" href="https://docs.intersoftsapient.net/docs/integration-activation#/" icon="fa-solid fa-circle-play fa-beat" target="_blank">
-    Activate Starlinks Global before managing its shipping operations through SAPIENT.
-  </Card>
-</Cards>
+<Tabs>
+  <Tab title="Account Setup">
+    <Cards columns={3}>
+      <Card title="Add InPost Shipping Account" icon="fa-solid fa-truck" href="https://docs.intersoftsapient.net/docs/add-inpost-shipping-account">
+        Set up your InPost shipping account to start creating shipments.
+      </Card>
+
+      <Card title="Add InPost Tracking Account" icon="fa-solid fa-search-location" href="https://docs.intersoftsapient.net/docs/add-inpost-tracking-account">
+        Configure tracking for your InPost shipments.
+      </Card>
+
+      <Card title="Use Inpost PUDO service" icon="fa-solid fa-search-location" href="https://docs.intersoftsapient.net/docs/pudo-integration">
+        Utilise the SAPIENT Pick Up and Drop Off (PUDO) service to use a convenient out of home option to collect or return InPost parcels at designated locations.
+      </Card>
+    </Cards>
+  </Tab>
+
+  <Tab title="API References">
+    <Cards columns={2}>
+      <Card title="SAPIENT InPost API" icon="fa-solid fa-code" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-inpost">
+        Explore the InPost API endpoints for a seamless shipping experience.
+      </Card>
+
+      <Card title="Get PUDO Locations" icon="fa-solid fa-code" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-inpost">
+        Explore the SAPIENT's core PUDO Locations endpoint to reetrieve a list of Pick-Up and Drop-Off (PUDO) locations associated with InPost.
+      </Card>
+    </Cards>
+  </Tab>
+
+  <Tab title="Sign-Off">
+    <Cards>
+      <Card title="Inpost Sign-off Process" href="https://docs.intersoftsapient.net/docs/inpost-sign-off" icon="fa-solid fa-file-signature">
+        Complete all the necessary steps before using InPost for creating shipments on SAPIENT.
+      </Card>
+    </Cards>
+  </Tab>
+</Tabs>
 
 <Banner isInline={true} message="Ready to integrate?" color="#ffb600" textColor="#ffffff" fontSize="20px" fontWeight="bold" width="120px" />
+
+<Cards columns={0}>
+  <Card title="Activate this integration" href="https://docs.intersoftsapient.net/docs/integration-activation#/" icon="fa-solid fa-circle-play fa-beat" target="_blank">
+    Seamlessly connect with InPost and manage your shipping operations from a single platform.
+  </Card>
+</Cards>
 
 <br />
