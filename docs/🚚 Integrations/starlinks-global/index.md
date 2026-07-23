@@ -122,7 +122,7 @@ The integration of Starlinks Global into the SAPIENT platform is a significant s
 <Tabs>
   <Tab title="Account Setup">
     <Cards columns={3}>
-      <Card title="Add InPost Shipping Account" icon="fa-solid fa-truck" href="https://docs.intersoftsapient.net/docs/add-inpost-shipping-account">
+      <Card title="Add Starlinks GLobal Shipping Account" icon="fa-solid fa-truck" href="https://docs.intersoftsapient.net/v4.04/docs/add-starlinks-global-shipping-account">
         Set up your InPost shipping account to start creating shipments.
       </Card>
 
