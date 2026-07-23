@@ -46,7 +46,7 @@ The UPS carrier integration within the SAPIENT system enables seamless communica
       </Card>
 
       <Card title="Incoterms Support" icon="fa-solid fa-file-contract">
-        The integration supports <Glossary>DDU</Glossary> and <Glossary>DDP</Glossary> incoterms.
+        The integration supports <Glossary>DAP</Glossary> and <Glossary>DDP</Glossary> incoterms.
       </Card>
 
       <Card title="Label Formats" icon="fa-solid fa-tag">
