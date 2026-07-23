@@ -64,4 +64,64 @@ metadata:
 </div>
 `}</HTMLBlock>
 
+<Table>
+  <thead>
+    <tr>
+      <th>
+        Videos
+      </th>
+
+      <th>
+        Videos
+      </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>
+        <HTMLBlock>{`
+        <div style="position: relative; padding-top: 56.25%;">
+          <video
+            src="https://media.intersoftsapient.net/videos/Intersoft_Delivery_Journey.mp4"
+            controls
+            preload="metadata"
+            playsinline
+            style="position: absolute; top: 0; left: 15%; width: 85%; height: 85%;"
+          >
+            Sorry, your browser doesn’t support embedded videos.
+          </video>
+        </div>
+        `}</HTMLBlock>
+      </td>
+
+      <td>
+        <HTMLBlock>{`
+        <div style="position: relative; padding-top: 56.25%;">
+          <video
+            src="https://media.intersoftsapient.net/videos/Intersoft_Delivery_Journey.mp4"
+            controls
+            preload="metadata"
+            playsinline
+            style="position: absolute; top: 0; left: 15%; width: 85%; height: 85%;"
+          >
+            Sorry, your browser doesn’t support embedded videos.
+          </video>
+        </div>
+        `}</HTMLBlock>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        Intersoft marketing video
+      </td>
+
+      <td>
+        Intersoft marketing video
+      </td>
+    </tr>
+  </tbody>
+</Table>
+
 <br />
