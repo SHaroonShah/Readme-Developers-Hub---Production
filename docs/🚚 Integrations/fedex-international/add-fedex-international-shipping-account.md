@@ -37,7 +37,7 @@ In SAPIENT, with the **Add Shipping Account** functionality, you can select the 
 
       <br />
 
-      <ToggleListItem title={<strong>2. Select the add shipping account button</strong>} icon="fa-rocket">
+      <ToggleListItem title={<strong>2. Select option to add shipping account</strong>} icon="fa-rocket">
         <br />
 
         On the **Shipping Accounts** page that opens, select the **Add Shipping Account** button.
