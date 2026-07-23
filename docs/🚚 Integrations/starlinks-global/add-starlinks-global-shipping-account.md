@@ -56,7 +56,7 @@ In SAPIENT, with **the Add Shipping Account** functionality, you can select the 
 
         On the **Add Shipping Account** form that appears, in the **ACCOUNT DETAILS** block, fill in the necessary information as described in the following table.
 
-        <Image src="https://files.readme.io/0e740a5d4febd2dae888888ec78a9c3c7cc47c554e0d805db25abf5024ba1748-image.png" align="center" caption="Entering account details" border={true} />
+        <Image src="https://files.readme.io/0e740a5d4febd2dae888888ec78a9c3c7cc47c554e0d805db25abf5024ba1748-image.png" align="center" width="500px" caption="Entering account details" border={true} />
 
         <br />
 
