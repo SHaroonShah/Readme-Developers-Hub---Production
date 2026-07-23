@@ -30,3 +30,14 @@ To help explain the change, the following table provides a simple comparison of 
 
 ### See also
 
+<Cards columns={2}>
+  <Card title="EU Customs Changes FAQ's" href="https://docs.intersoftsapient.net/docs/windsor-framework-faqs#/" icon="fa-question-circle">
+    Find answers to common queries and additional guidance on compliance.
+  </Card>
+
+  <Card title="API References" href="https://docs.intersoftsapient.net/reference/post_v4-shipments-rm" icon="fa-code">
+    Complete API documentation for shipment creation and field requirements.
+  </Card>
+</Cards>
+
+<br />
