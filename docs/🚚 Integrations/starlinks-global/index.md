@@ -145,7 +145,7 @@ The integration of Starlinks Global into the SAPIENT platform is a significant s
 
 <Cards columns={0}>
   <Card title="Activate this integration" href="https://docs.intersoftsapient.net/docs/integration-activation#/" icon="fa-solid fa-circle-play fa-beat" target="_blank">
-    Seamlessly connect with InPost and manage your shipping operations from a single platform.
+    Seamlessly connect with Starlinks Global and manage your shipping operations from a single platform.
   </Card>
 </Cards>
 
