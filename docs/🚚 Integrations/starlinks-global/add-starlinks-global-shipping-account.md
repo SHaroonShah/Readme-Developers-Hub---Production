@@ -23,37 +23,45 @@ To add a shipping account for Starlinks Global in SAPIENT, perform the steps as 
 
 1. In the left navigation panel, select **Shipping Accounts**.
 
-<Image align="center" alt="Accessing shipping accounts" border={true} caption="Accessing shipping accounts" src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" />
+
+<Image src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" alt="Accessing shipping accounts" align="center" caption="Accessing shipping accounts" border={true} />
+
 
 3. On the **Shipping Accounts** page that opens, select ![alt text](https://files.readme.io/a68fed3fbbb1668dedfcf9e0a5bd246f3f1dfa92bb6c7a47c175ad8df700e827-add_shipping_account_button.png).
 
-<Image align="center" alt="Accessing option to add shipping account" border={true} caption="Selecting option to add shipping account" src="https://files.readme.io/e0071b9f348522956cf0d9db5802f5bef56a11c5d3ff90f8a6bbedbc3c48d560-Add_shipping_account_button_UPS.png" />
+
+<Image src="https://files.readme.io/e0071b9f348522956cf0d9db5802f5bef56a11c5d3ff90f8a6bbedbc3c48d560-Add_shipping_account_button_UPS.png" alt="Accessing option to add shipping account" align="center" caption="Selecting option to add shipping account" border={true} />
+
 
 4. On the **Add Shipping Account** form that appears, in the **ACCOUNT DETAILS** block, fill in the necessary information as described in the following table.
 
-<Image align="center" alt="Entering account details" border={true} caption="Entering account details" src="https://files.readme.io/a1e3a2edb2b84155855b5d3ef2e3f44e2884976af6a88883e53504fbcb2e5af2-Account_details_block_UPS.png" width="500px" />
+
+<Image src="https://files.readme.io/0e740a5d4febd2dae888888ec78a9c3c7cc47c554e0d805db25abf5024ba1748-image.png" align="center" caption="Entering account details" border={true} />
+
 
 <AsteridkForMandatoryElements />
 
-|         Element        | Description                                                                                                   |
-| :--------------------: | :------------------------------------------------------------------------------------------------------------ |
-|      **Carrier***      | From the dropdown list, select **UPS**.                                                                       |
-| **Shipping Location*** | From the dropdown menu, select the location that you want to assign to the shipping account you are creating. |
+|         Element         | Description                                                                                                   |
+| :---------------------: | :------------------------------------------------------------------------------------------------------------ |
+|      **Carrier**\*      | From the dropdown list, select **UPS**.                                                                       |
+| **Shipping Location**\* | From the dropdown menu, select the location that you want to assign to the shipping account you are creating. |
 
 5. In the **SHIPPING ACCOUNT** block, enter the necessary information as explained in the following table.
 
-<Image align="center" alt="Specifying shipping account details" border={true} caption="Specifying shipping account details" src="https://files.readme.io/ba28fb8f7a5840840e921e8649cf481a3c115804447f269786068d434d15fbcb-Shipping_account_block_UPS.png" width="400px" />
+
+<Image src="https://files.readme.io/72fbb84372b1189f1484466e78ee630740771119599185209582831a505f19b0-image.png" align="center" width="500px" caption="Entering shipping account details" border={true} />
+
 
 <Callout icon="💡" theme="default">
   ### _Tip_
 
-  _In the following table, the mandatory fields are marked with an asterisk (*)._
+  _In the following table, the mandatory fields are marked with an asterisk (\*)._
 </Callout>
 
 <Table align={["center","left"]}>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "center" }}>
         Element
       </th>
 
@@ -65,18 +73,8 @@ To add a shipping account for Starlinks Global in SAPIENT, perform the steps as 
 
   <tbody>
     <tr>
-      <td>
-        **Carrier Account Number***
-      </td>
-
-      <td>
-        Enter the account number for UPS.
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        **Account Name (if different than customer)***
+      <td style={{ textAlign: "center" }}>
+        **Account Name (if different than customer)**\*
       </td>
 
       <td>
@@ -85,8 +83,8 @@ To add a shipping account for Starlinks Global in SAPIENT, perform the steps as 
     </tr>
 
     <tr>
-      <td>
-        **Account Type***
+      <td style={{ textAlign: "center" }}>
+        **Account Type**\*
       </td>
 
       <td>
@@ -99,8 +97,8 @@ To add a shipping account for Starlinks Global in SAPIENT, perform the steps as 
     </tr>
 
     <tr>
-      <td>
-        **Alias***
+      <td style={{ textAlign: "center" }}>
+        **Alias**\*
       </td>
 
       <td>
@@ -109,8 +107,8 @@ To add a shipping account for Starlinks Global in SAPIENT, perform the steps as 
     </tr>
 
     <tr>
-      <td>
-        **Contact Name***
+      <td style={{ textAlign: "center" }}>
+        **Contact Name**\*
       </td>
 
       <td>
@@ -119,8 +117,8 @@ To add a shipping account for Starlinks Global in SAPIENT, perform the steps as 
     </tr>
 
     <tr>
-      <td>
-        **Contact Number***
+      <td style={{ textAlign: "center" }}>
+        **Contact Number**\*
       </td>
 
       <td>
@@ -132,63 +130,31 @@ To add a shipping account for Starlinks Global in SAPIENT, perform the steps as 
 
 6. In the **CARRIER DETAILS** block, enter the necessary information as explained in the following table.
 
-<Image align="center" alt="Entering carrier details" border={true} caption="Entering carrier details" src="https://files.readme.io/a3b23bd3c50a8e648377a238d6eefe16f86441b03cc9c33a7bd6a7321b8640fe-carrier_details_block_UPS.png" width="400px" />
+
+<Image src="https://files.readme.io/fea1554dd281c7a9c5b014dcfb1c3fa724d2b63043a3b8ed4a80233d8f96b788-image.png" align="center" caption="Entering carrier-specific details" border={true} />
+
 
 <AsteridkForMandatoryElements />
 
-<Table align={["center","left"]}>
-  <thead>
-    <tr>
-      <th>
-        Element
-      </th>
-
-      <th>
-        Description
-      </th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <tr>
-      <td>
-        **UPS Client Id***
-      </td>
-
-      <td>
-        Enter your UPS client ID.
-
-        `Note`: In order to obtain your client ID, you need to create an application. This application is linked to your shipper account(s) and email address that are associated with your ups.com ID.  For a step by step guide on how to get these credentials, refer to the <Anchor label="Getting Started with UPS APIs" target="_blank" href="https://developer.ups.com/get-started?loc=en_US&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8n0kt_beo2J5QHe3SljjztyPcwEo3zauJzWPnJINftBYbljxxRD5Wv334sxXTuPf_-cyWE">Getting Started with UPS APIs</Anchor> user guide.
-      </td>
-    </tr>
-
-    <tr>
-      <td>
-        **UPS Client Secret***
-      </td>
-
-      <td>
-        Enter your UPS client secret.
-
-        `Note`: In order to obtain your client secret, you need to create an application. This application is linked to your shipper accounts(s) and email address that are associated with your ups.com ID.  For a step by step guide on how to get these credentials, refer to the [Getting Started with UPS APIs](https://developer.ups.com/get-started?loc=en_US\&utm_source=hs_email\&utm_medium=email&_hsenc=p2ANqtz-8n0kt_beo2J5QHe3SljjztyPcwEo3zauJzWPnJINftBYbljxxRD5Wv334sxXTuPf_-cyWE) user guide.
-      </td>
-    </tr>
-  </tbody>
-</Table>
+|    Element    | Description                                                             |
+| :-----------: | :---------------------------------------------------------------------- |
+| **API Key**\* | Enter the API key for the user account associated with Starlinks Gobal. |
 
 7. After entering all the required information, select ![alt text](https://files.readme.io/7bacd208cbc1e3036e95df7c94e4b08f4f731910cf76b88ddd1eb137177b4018-add_shipping_account_button_2.png).
 
 Once done, you have now successfully added a shipping account. You can now start shipping with it.
 
-> 📘 _Note_
->
-> _Shipping account(s) can be added and managed via API. For more information, refer to the <Anchor label="API References" target="_blank" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-ups">API References</Anchor> section._
+<Callout icon="📘" theme="info">
+  ### _Note_
+
+  _Shipping account(s) can be added and managed via API. For more information, refer to the <Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-ups">API References</Anchor> section._
+</Callout>
 
 ***
 
 ### See also
 
-* [Edit shipping account](https://docs.intersoftsapient.net/docs/edit-shipping-account)
+- [Edit shipping account](https://docs.intersoftsapient.net/docs/edit-shipping-account)
 
 <br />
 
