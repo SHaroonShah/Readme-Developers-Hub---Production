@@ -134,7 +134,7 @@ The integration of Starlinks Global into the SAPIENT platform is a significant s
 
   <Tab title="API References">
     <Cards columns={2}>
-      <Card title="SAPIENT Starlinks Global API" icon="fa-solid fa-code" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-inpost">
+      <Card title="SAPIENT Starlinks Global API" icon="fa-solid fa-code" href="">
         Explore the Starlinks Global API endpoints for a seamless shipping experience.
       </Card>
     </Cards>
