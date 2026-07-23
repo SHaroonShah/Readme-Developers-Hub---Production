@@ -123,35 +123,19 @@ The integration of Starlinks Global into the SAPIENT platform is a significant s
   <Tab title="Account Setup">
     <Cards columns={3}>
       <Card title="Add Starlinks GLobal Shipping Account" icon="fa-solid fa-truck" href="https://docs.intersoftsapient.net/v4.04/docs/add-starlinks-global-shipping-account">
-        Set up your InPost shipping account to start creating shipments.
+        Set up your Starlinks Global shipping account to start creating shipments.
       </Card>
 
-      <Card title="Add InPost Tracking Account" icon="fa-solid fa-search-location" href="https://docs.intersoftsapient.net/docs/add-inpost-tracking-account">
-        Configure tracking for your InPost shipments.
-      </Card>
-
-      <Card title="Use Inpost PUDO service" icon="fa-solid fa-search-location" href="https://docs.intersoftsapient.net/docs/pudo-integration">
-        Utilise the SAPIENT Pick Up and Drop Off (PUDO) service to use a convenient out of home option to collect or return InPost parcels at designated locations.
+      <Card title="Add Starlinks Global Tracking Account" icon="fa-solid fa-search-location" href="https://docs.intersoftsapient.net/v4.04/docs/add-starlinks-global-tracking-account">
+        Configure tracking for your Starlinks Global shipments.
       </Card>
     </Cards>
   </Tab>
 
   <Tab title="API References">
     <Cards columns={2}>
-      <Card title="SAPIENT InPost API" icon="fa-solid fa-code" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-inpost">
-        Explore the InPost API endpoints for a seamless shipping experience.
-      </Card>
-
-      <Card title="Get PUDO Locations" icon="fa-solid fa-code" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-inpost">
-        Explore the SAPIENT's core PUDO Locations endpoint to reetrieve a list of Pick-Up and Drop-Off (PUDO) locations associated with InPost.
-      </Card>
-    </Cards>
-  </Tab>
-
-  <Tab title="Sign-Off">
-    <Cards>
-      <Card title="Inpost Sign-off Process" href="https://docs.intersoftsapient.net/docs/inpost-sign-off" icon="fa-solid fa-file-signature">
-        Complete all the necessary steps before using InPost for creating shipments on SAPIENT.
+      <Card title="SAPIENT Starlinks Global API" icon="fa-solid fa-code" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-inpost">
+        Explore the Starlinks Global API endpoints for a seamless shipping experience.
       </Card>
     </Cards>
   </Tab>
