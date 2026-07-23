@@ -24,7 +24,7 @@ In SAPIENT, with **the Add Shipping Account** functionality, you can select the 
     To add a shipping account for Starlinks Global in SAPIENT, perform the steps as explained in the following procedure.
 
     <ToggleList>
-      <ToggleListItem title="1. Select the Shipping Accounts page">
+      <ToggleListItem title="1. Access the Shipping Accounts page">
 
         <br />
 
