@@ -15,9 +15,11 @@ next:
 ---
 In SAPIENT, you can edit the users to maintain accurate and up-to-date records of users, reflecting changes in personnel or responsibilities. This process enhances security and operational efficiency by adjusting access rights based on the user’s evolving role within the organization.
 
-> 📘 _Note_
->
-> _You cannot add or manage users via API._
+<Callout icon="📘" theme="info">
+  ### _Note_
+
+  _You cannot add or manage users via API._
+</Callout>
 
 ## How to edit user
 
@@ -80,3 +82,5 @@ In SAPIENT, you can edit the users to maintain accurate and up-to-date records o
     Remove users from your organization when they are no longer needed.
   </Card>
 </Cards>
+
+<br />
