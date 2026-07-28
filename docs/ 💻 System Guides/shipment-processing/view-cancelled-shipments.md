@@ -96,7 +96,7 @@ In SAPIENT, you can cancel the <Glossary>shipments</Glossary> to ensure that res
       <ToggleListItem title={<strong>5. Confirm cancellation</strong>} icon="fa-rocket">
         <br />
 
-        In the confirmation dialog that opens, enter the reason for canceling the shipment and select **Yes** to confirm.
+        In the confirmation dialog that opens, choose the reason for canceling the shipment and select **Yes** to confirm.
 
         <br />
 
