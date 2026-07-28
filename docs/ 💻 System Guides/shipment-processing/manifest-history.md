@@ -43,7 +43,6 @@ To search and view manifested shipments in SAPIENT, perform the steps as explain
     >
     > *The maximum date range for manifest search is 30 days*.
 
-    <br />
 
     <Image align="center" border={true} src="https://files.readme.io/deeb8cf7c4927c2b815c757d722955250f58d02c85345f159c594a7fb238c59b-Manifest_history_filter.png" caption="Specifying filters" />
 
