@@ -62,7 +62,7 @@ If your password fails these checks, you will receive one of the following error
       ### *Tip*
 
       *For more information on the three random words, visit the following link: 
-      <br .>
+      <br />
       
       [https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/three-random-words](https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/three-random-words).*
     </Callout>
