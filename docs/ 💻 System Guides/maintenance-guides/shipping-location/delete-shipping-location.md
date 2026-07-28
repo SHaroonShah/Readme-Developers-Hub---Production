@@ -26,7 +26,7 @@ In SAPIENT, you can delete the shipping location to keep the shipping database c
   <Tab title="Delete via SAPIENT UI">
     
 
-    To edit a shipping location in SAPIENT, perform the steps as explained in the following procedure.
+    To delete a shipping location in SAPIENT, perform the steps as explained in the following procedure.
 
     <ToggleList>
       <ToggleListItem title={<strong>1. Access the shipping locations page</strong>} icon="fa-rocket">
