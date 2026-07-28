@@ -47,7 +47,6 @@ To add a pre-registration number via the SAPIENT UI, perform the steps as explai
     <br />
 
     In the **Pre-Registration Numbers** page that opens, select the following button.
-
     <Image align="center" src="https://files.readme.io/574f2d3dd4cce77a9cde0e299f8a2f591fab81c8c7b4b49266c81ed4528c661d-Add_pre-registration_number_button.png" />
 
     <Image align="center" src="https://files.readme.io/d7897eb60920589421496b60ad5a80cb6864a92a17cfb7f3f5aa143994d24e65-Add_pre-registration_number_option.png" caption="Accessing option to add pre-registration number" />
