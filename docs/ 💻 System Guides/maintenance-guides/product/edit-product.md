@@ -20,7 +20,7 @@ In SAPIENT, you can edit the <Glossary>product</Glossary>, ensuring that any cha
 
 <Tabs>
   <Tab title="Edit via SAPIENT UI">
-    <br />
+   
 
     To edit a product in SAPIENT, perform the steps as explained in the following procedure.
 
@@ -74,7 +74,7 @@ In SAPIENT, you can edit the <Glossary>product</Glossary>, ensuring that any cha
   </Tab>
 
   <Tab title="Edit via API">
-    <br />
+    
 
     To edit a product via our API, refer to the following endpoint:
 
