@@ -24,7 +24,7 @@ If your password fails these checks, you will receive one of the following error
 
 ## Password security management
 
-<Cards columns={2}>
+<Cards>
   <Card title="Password Managers" icon="fa-solid fa-shield">
     The most secure and convenient way to manage passwords. Generates and stores strong, unique passwords automatically.
   </Card>
@@ -36,19 +36,18 @@ If your password fails these checks, you will receive one of the following error
 
 <Tabs>
   <Tab title="Password managers (recommended)">
-
     We recommend you use a **[password manager](https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/password-managers)** for generating and storing your passwords. This is the most secure and convenient way to manage passwords. Used properly, it completely eliminates the risk of using a weak or commonly used password.
 
     Password managers are built into most browsers. Alternatively, there are free and paid third-party solutions available.
 
     <Accordion title="Password manager guidelines">
-      <br />
+
 
       When generating a password from a password manager, follow these guidelines:
 
-      * **Increase the length**: Set longer passwords (20+ characters), as they are generally more secure.
-      * **Include all characters**: Incorporate numbers, special characters, and upper and lower case letters.
-      * **Make it unique per site**: Always generate a new, unique password for each site.
+      - **Increase the length**: Set longer passwords (20+ characters), as they are generally more secure.
+      - **Include all characters**: Incorporate numbers, special characters, and upper and lower case letters.
+      - **Make it unique per site**: Always generate a new, unique password for each site.
     </Accordion>
   </Tab>
 
@@ -58,9 +57,9 @@ If your password fails these checks, you will receive one of the following error
     If you cannot use a password manager, consider using any three random words, for example, `horsebatteryhouse` as an alternative.
 
     <Callout icon="💡" theme="default">
-      ### *Tip*
+      ### _Tip_
 
-      *For more information on the three random words, visit the following link:[https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/three-random-words](https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/three-random-words).*
+      _For more information on the three random words, visit the following link: [https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/three-random-words](https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/three-random-words)._
     </Callout>
 
     Using three random words can be difficult to remember across multiple online accounts requiring passwords, which is why our primary recommendation remains a password manager.
