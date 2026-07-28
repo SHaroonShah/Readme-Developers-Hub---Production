@@ -40,7 +40,7 @@ Moreover, different roles and permissions improve security by restricting access
 
         In the left navigation panel, select **Users**.
 
-        <Image align="center" border={true} src="https://files.readme.io/dda0e89b323a4d869472cc629a9fc0349403f8ba24930ac43a31a8f9a7542929-Users_option.png" alt="Accessing users" />
+        <Image align="center" border={true} src="https://files.readme.io/dda0e89b323a4d869472cc629a9fc0349403f8ba24930ac43a31a8f9a7542929-Users_option.png" caption="Accessing users" />
 
         ***
       </ToggleListItem>
