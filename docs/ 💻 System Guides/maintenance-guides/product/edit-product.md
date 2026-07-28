@@ -62,7 +62,7 @@ In SAPIENT, you can edit the <Glossary>product</Glossary>, ensuring that any cha
 
             In the **Edit Product** form that opens, start updating the necessary information as explained in the [Add product](https://docs.intersoftsapient.net/docs/add-product) section.
 
-            <Image src="https://files.readme.io/5bc66255249758f2bdc3c0b5f98793d5cd15d2990ef50942a57a5cf632817e23-Editing_product.png" align="center" caption="Editing product details" border={true} />
+            
 
             ***
           </ToggleListItem>
