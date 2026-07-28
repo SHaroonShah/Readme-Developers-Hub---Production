@@ -16,7 +16,7 @@ next:
 ---
 The editing process ensures that the information is current and accurate, which is crucial for timely and correct shipping operations. Additionally, this process has the following advantages:
 
-<Cards columns={3}>
+<Cards>
   <Card title="Error Correction" icon="edit">
     When incorrect information is entered, it can be easily edited to rectify errors, helping to avoid shipping delays or returns caused by wrong details.
   </Card>
@@ -86,6 +86,10 @@ To edit a shipping account, perform the steps as explained in the following proc
   </ToggleListItem>
 </ToggleList>
 
-> 🚧 **_Important_**
->
-> _The fields in the **Edit Shipping Account** form may differ based on the carrier account you choose. For more information on how to correctly fill these fields, refer to the <Anchor label="Carrier specific user guides" target="_blank" href="https://docs.intersoftsapient.net/v4.02/docs/carrier-specific-user-guides#/versions">Carrier specific user guides</Anchor> section of our documentation._
+<Callout icon="🚧" theme="warn">
+  ### **_Important_**
+
+  _The fields in the&#x20;_**_Edit Shipping Account_**_&#x20;form may differ based on the carrier account you choose. For more information on how to correctly fill these fields, refer to the&#x20;_<Anchor target="_blank" href="https://docs.intersoftsapient.net/v4.04/docs/carrier-specific-user-guides">*Carrier specific user guides*</Anchor>_&#x20;section of our documentation._
+</Callout>
+
+<br />
