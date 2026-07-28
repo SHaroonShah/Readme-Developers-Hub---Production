@@ -167,10 +167,7 @@ Moreover, different roles and permissions improve security by restricting access
 
       <Card title="Shipment Manifesting" icon="fa-solid fa-list">
         Permission that allows to <Glossary>manifest</Glossary> shipments via the SAPIENT UI.
-      </Card> 
-      <Card title="Role-based Access to SAPIENT actions" href="https://docs.intersoftsapient.net/v4.04/docs/operations-operator-role-based-access-to-sapient-actions" target="_blank" icon="fa-solid fa-users">
-    Explore the roles and their associated permissions in SAPIENT.
-     </Card>
+      </Card>
     </Cards>
 
 
