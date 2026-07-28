@@ -44,4 +44,7 @@ In this section, learn how to manage your users with these essential operations:
   <Card title="Authorisation" href="https://docs.intersoftsapient.net/v4.02/docs/authorisation" icon="fa-solid fa-circle-plus">
     Learn more about user permissions, access controls, and security settings in the SAPIENT system.
   </Card>
+  <Card title="Role-based Access to SAPIENT actions" href="https://docs.intersoftsapient.net/v4.04/docs/operations-operator-role-based-access-to-sapient-actions" target="_blank" icon="fa-solid fa-users">
+    Explore the roles and their associated permissions in SAPIENT.
+  </Card>
 </Cards>
