@@ -20,62 +20,59 @@ In SAPIENT, you can edit the <Glossary>product</Glossary>, ensuring that any cha
 
 <Tabs>
   <Tab title="Edit via SAPIENT UI">
-    
-
     To edit a product in SAPIENT, perform the steps as explained in the following procedure.
 
-    <ToggleList>
-      <ToggleListItem title={<strong>1. Access the products page</strong>} icon="fa-rocket">
-        <br />
+    oduct specifications are accurately communicated throughout the shipping and logistics processes. This process eventually reduces the risk of shipping errors, delays, or issues related to regulatory compliance.
 
-        In the left navigation panel, select **Products**.
+    ## How to edit product
 
-        <Image align="center" border={true} src="https://files.readme.io/ec355529da5603569fe7c27204b1b58b5f7368185e1daa06e9836a6a0c4e855b-Acccessing_products_option.png" caption="Accessing products" />
+    <Tabs>
+      <Tab title="Edit via SAPIENT UI">
+        
 
-        ***
-      </ToggleListItem>
+        To edit a product in SAPIENT, perform the steps as explained in the following procedure.
 
-      <br />
+        <ToggleList>
+          <ToggleListItem title={<strong>1. Access the products page</strong>} icon="fa-rocket">
+            <br />
 
-      <ToggleListItem title={<strong>2. Select product to edit</strong>} icon="fa-rocket">
-        <br />
+            In the left navigation panel, select **Products**.
 
-        On the **Products** page that appears, from the list, select the product that you want to edit.
+            <Image align="center" border={true} src="https://files.readme.io/ec355529da5603569fe7c27204b1b58b5f7368185e1daa06e9836a6a0c4e855b-Acccessing_products_option.png" caption="Accessing products" />
 
-        <Image align="center" border={true} src="https://files.readme.io/a1a7bc27c6253ce0355cb87cc2f549c247ac33518acf56a929598df85fda5882-Selecting_products_to_edit.png" caption="Selecting product to edit"/>
+            ***
+          </ToggleListItem>
 
-        ***
-      </ToggleListItem>
+          <br />
 
-      <br />
+          <ToggleListItem title={<strong>2. Select product to edit</strong>} icon="fa-rocket">
+            <br />
 
-      <ToggleListItem title={<strong>3. Edit product</strong>} icon="fa-rocket">
-        <br />
+            On the **Products** page that appears, from the list, select the product that you want to edit.
 
-        In the **Edit Product** form that opens, start updating the necessary information as explained in the [Add product](https://docs.intersoftsapient.net/docs/add-product) section.
+            <Image align="center" border={true} src="https://files.readme.io/a1a7bc27c6253ce0355cb87cc2f549c247ac33518acf56a929598df85fda5882-Selecting_products_to_edit.png" caption="Selecting product to edit"/>
 
-        <Image align="center" border={true} src="https://files.readme.io/689e170bdd66948ac7016628f9700c2480eff92dcba8bcdd2f9847ebfeaa6d46-image.png" caption="Selecting option to edit product" />
+            ***
+          </ToggleListItem>
 
-        ***
-      </ToggleListItem>
+          <br />
 
-      <br />
+          <ToggleListItem title={<strong>3. Edit product</strong>} icon="fa-rocket">
+            <br />
 
-      <ToggleListItem title={<strong>4. Save changes </strong>} icon="fa-rocket">
-        <br />
+            In the **Edit Product** form that opens, start updating the necessary information as explained in the [Add product](https://docs.intersoftsapient.net/docs/add-product) section.
 
-        After entering all the relevant information, select ![](https://files.readme.io/44d2859089ab3d4ffcb5341e904f29d383f25f9fa79e210a09482d2a26998248-Save_changes_button.png).
+            <Image src="https://files.readme.io/5bc66255249758f2bdc3c0b5f98793d5cd15d2990ef50942a57a5cf632817e23-Editing_product.png" align="center" caption="Editing product details" border={true} />
 
-        Once done, the product is updated successfully. You can now manage it as per your business needs and use them in your <Glossary>shipment</Glossary> requests.
+            ***
+          </ToggleListItem>
 
-        ***
-      </ToggleListItem>
-    </ToggleList>
+          <br />
+
+       
   </Tab>
 
   <Tab title="Edit via API">
-    
-
     To edit a product via our API, refer to the following endpoint:
 
     <Cards>
@@ -90,7 +87,7 @@ In SAPIENT, you can edit the <Glossary>product</Glossary>, ensuring that any cha
 
 ### See also
 
-<Cards columns={2}>
+<Cards>
   <Card title="Add Product" href="https://docs.intersoftsapient.net/docs/add-product" icon="fa-solid fa-plus-circle">
     Create new product entries in your system with all necessary details and shipping requirements.
   </Card>
@@ -99,5 +96,9 @@ In SAPIENT, you can edit the <Glossary>product</Glossary>, ensuring that any cha
     Remove products from your system that are no longer needed.
   </Card>
 </Cards>
+
+
+
+
 
 <br />
