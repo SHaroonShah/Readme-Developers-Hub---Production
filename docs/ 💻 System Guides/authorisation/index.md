@@ -57,7 +57,7 @@ Manage your SAPIENT platform access with these essential functions:
     Safely exit your SAPIENT session.
   </Card>
 
-  <Card title="Role-based Access to SAPIENT actions" href="https://docs.intersoftsapient.net/v4.04/docs/operations-operator-role-based-access-to-sapient-actions" target="_blank">
+  <Card title="Role-based Access to SAPIENT actions" href="https://docs.intersoftsapient.net/v4.04/docs/operations-operator-role-based-access-to-sapient-actions" target="_blank" icon="fa-solid fa-users">
     Explore the roles and their associated permissions in SAPIENT.
   </Card>
 </Cards>
