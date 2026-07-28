@@ -125,7 +125,7 @@ To add a pre-registration number via the SAPIENT UI, perform the steps as explai
   <ToggleListItem title={<strong>5. Save the configuration </strong>} icon="fa-rocket">
     <br />
 
-    After entering the relevant information, select ![]("https://files.readme.io/5041628c1ebe60cd9a698ff4068b10ef8341649edfe2e513e460f7afddb93d08-Add_pre-registration_number_button_2.png).
+    After entering the relevant information, select ![](https://files.readme.io/5041628c1ebe60cd9a698ff4068b10ef8341649edfe2e513e460f7afddb93d08-Add_pre-registration_number_button_2.png).
 
     Once selected, the pre-registration number is added successfully and displays in the **Pre-Registration Numbers** list. You can now use this number in your [Create Shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm) request.
 
