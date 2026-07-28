@@ -14,6 +14,14 @@ In SAPIENT, you can add letterhead images and signatures to your ETDs to ensure 
 
 During the [FedEx shipping account creation process](https://docs.intersoftsapient.net/v4.04/docs/add-fedex-shipping-account), if you have selected the **Enable Electronic Trade Documents (ETD)** checkbox, then you can configure the ETD data via the **Signatures and Logos** feature of SAPIENT.
 
+<Callout icon="🚧" theme="warn">
+  ### _Important_
+
+  _Please bear in mind that ETD is only available when both the origin and destination countries support it. If either country is unsupported, the shipment will be processed as non-ETD and physical customs documents must be provided._
+</Callout>
+
+<br />
+
 ## How to configure ETD for a FedEx shipping account
 
 To add letterhead image and signature to your ETDs in SAPIENT, perform the steps as explained in the following procedure.
@@ -170,12 +178,12 @@ To add letterhead image and signature to your ETDs in SAPIENT, perform the steps
 
 ### See also
 
-<Cards columns={2}>
-  <Card title="Add FedEx shipping account" icon="fa-truck-fast" href="https://docs.intersoftsapient.net/v4.04/docs/add-fedex-shipping-account">
+<Cards>
+  <Card title="Add FedEx shipping account" href="https://docs.intersoftsapient.net/v4.04/docs/add-fedex-shipping-account" icon="fa-truck-fast">
     Enable ETD while specifying the FedEx shipping account details.
   </Card>
 
-  <Card title="Add signatures and logos" icon="fa-file-signature" href="https://docs.intersoftsapient.net/docs/add-signature-and-logo#/">
+  <Card title="Add signatures and logos" href="https://docs.intersoftsapient.net/docs/add-signature-and-logo#/" icon="fa-file-signature">
     Configure signatures and logos for cases where you need to attach a commercial invoice to the parcel.
   </Card>
 </Cards>
