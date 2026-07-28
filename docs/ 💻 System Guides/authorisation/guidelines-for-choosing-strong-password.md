@@ -61,10 +61,9 @@ If your password fails these checks, you will receive one of the following error
     <Callout icon="💡" theme="default">
       ### *Tip*
 
-      *For more information on the three random words, visit the following link*: 
-      <br />
-      
-      *[https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/three-random-words](https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/three-random-words).*
+      *For more information on the three random words, visit the following link: 
+
+      [https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/three-random-words](https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/three-random-words).*
     </Callout>
 
     Using three random words can be difficult to remember across multiple online accounts requiring passwords, which is why our primary recommendation remains a password manager.
