@@ -193,8 +193,6 @@ To add a shipping account for FedEx in SAPIENT, follow the instructions as expla
 
               <td>
                 Select this checkbox if you want to utilise electronic trade documents when shipping with FedEx. If you have completed the account creation process with this option selected, then at the end of the from, the system prompts you to go to the [Add signature and logo](https://docs.intersoftsapient.net/docs/add-signature-and-logos-to-etd-documents#/) page of the application to configure the required data for ETD.
-
-Note: Please bear in mind that ETD is only available when both the origin and destination countries support it. If either country is unsupported, the shipment will be processed as non-ETD and physical customs documents must be provide.
               </td>
             </tr>
 
