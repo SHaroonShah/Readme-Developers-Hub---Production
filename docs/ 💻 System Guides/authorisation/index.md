@@ -19,20 +19,20 @@ To sign in to the SAPIENT platform, there are several important factors that det
 
 ## Key access requirements
 
-<Cards columns={2}>
+<Cards>
   <Card title="Environment URL" icon="fa-solid fa-globe">
     You need the specific URL for your target environment:
 
-    * <Glossary>Development</Glossary> environment
-    * <Glossary>Test</Glossary> environment
-    * <Glossary>Production</Glossary> environment
+    - <Glossary>Development</Glossary> environment
+    - <Glossary>Test</Glossary> environment
+    - <Glossary>Production</Glossary> environment
   </Card>
 
   <Card title="User Type" icon="fa-solid fa-user">
     Your access level depends on your user role:
 
-    * <Glossary>Admin</Glossary> users have full system access
-    * <Glossary>Customer</Glossary> users have limited permissions
+    - <Glossary>Admin</Glossary> users have full system access
+    - <Glossary>Customer</Glossary> users have limited permissions
   </Card>
 </Cards>
 
@@ -40,7 +40,7 @@ To sign in to the SAPIENT platform, there are several important factors that det
 
 Manage your SAPIENT platform access with these essential functions:
 
-<Cards columns={4}>
+<Cards>
   <Card title="Log In" href="https://docs.intersoftsapient.net/docs/log-in" icon="fa-solid fa-arrow-left-to-bracket">
     Access your SAPIENT account with your credentials.
   </Card>
@@ -56,4 +56,10 @@ Manage your SAPIENT platform access with these essential functions:
   <Card title="Log Out" href="https://docs.intersoftsapient.net/docs/log-out" icon="fa-solid fa-arrow-right-from-bracket">
     Safely exit your SAPIENT session.
   </Card>
+
+  <Card title="Role-based Access to SAPIENT actions" href="https://docs.intersoftsapient.net/v4.04/docs/operations-operator-role-based-access-to-sapient-actions" target="_blank">
+    Explore the roles and their associated permissions in SAPIENT.
+  </Card>
 </Cards>
+
+<br />
