@@ -16,74 +16,84 @@ In SAPIENT, you can link on or more shipping locations to your carrier's existin
 
 <Tabs>
   <Tab title="Link via SAPIENT UI">
+    <br />
+
     To link a shipping location to an existing shippinh account in SAPIENT, perform the steps as explained in the following procedure.
 
-    enhances operational efficiency, supports scalability, and ensures compliance, making it easier to manage shipments from various origins under one system.
+    <ToggleList>
+      <ToggleListItem title={<strong>1. Access the shipping locations page</strong>} icon="fa-rocket">
+        <br />
 
-    ## How to link shipping location to an existing shipping account
+        In the left navigation panel, select **Shipping Locations**.
 
-    <Tabs>
-      <Tab title="Link via SAPIENT UI">
-        
+        <Image align="center" border={true} src="https://files.readme.io/a84f50bafad4110e2244fa56d73b34787cf197d6a4e3de326ad287880d85e835-Shipping_locations_option.png" alt="Accessing shipping locations" />
 
-        To link a shipping location to an existing shippinh account in SAPIENT, perform the steps as explained in the following procedure.
+        ***
+      </ToggleListItem>
 
-        <ToggleList>
-          <ToggleListItem title={<strong>1. Access the shipping locations page</strong>} icon="fa-rocket">
-            <br />
+      <br />
 
-            In the left navigation panel, select **Shipping Locations**.
+      <ToggleListItem title={<strong>2. Select location to link</strong>} icon="fa-rocket">
+        <br />
 
-            <Image align="center" border={true} src="https://files.readme.io/a84f50bafad4110e2244fa56d73b34787cf197d6a4e3de326ad287880d85e835-Shipping_locations_option.png" caption="Accessing shipping locations" />
+        On the **Shipping Locations** page that appears, select the shipping location that you want to link to an existing shipping account and on the **View Shipping Location\[location name]** form that opens, in the ASSOCIATED SHIPPING ACCOUNTS block, select ![](https://files.readme.io/80cdc77d8bb03dab8b51d717f073576dae0699b7acc8a964c6f2cf74bcd27556-Link_existing_shipping_account_button.png).
 
-            ***
-          </ToggleListItem>
+        <Image align="center" border={true} src="https://files.readme.io/0caad28a80311077a940bff28ebd29c2ceadd655c014741d090bcb5c51f5cbc5-Linking_shipping_account.png" alt="Selecting option to add shipping location" />
 
-          <br />
+        ***
+      </ToggleListItem>
 
-          <ToggleListItem title={<strong>2. Select location to link</strong>} icon="fa-rocket">
-            <br />
+      <br />
 
-            On the **Shipping Locations** page that appears, select the shipping location that you want to link to an existing shipping account and on the **View Shipping Location\[location name]** form that opens, in the **ASSOCIATED SHIPPING ACCOUNTS** block, select ![](https://files.readme.io/80cdc77d8bb03dab8b51d717f073576dae0699b7acc8a964c6f2cf74bcd27556-Link_existing_shipping_account_button.png).
+      <ToggleListItem title={<strong>3. Configure shipping account details </strong>} icon="fa-rocket">
+        <br />
 
-            <Image align="center" border={true} src="https://files.readme.io/0caad28a80311077a940bff28ebd29c2ceadd655c014741d090bcb5c51f5cbc5-Linking_shipping_account.png" caption="Selecting option to add shipping location" />
+        On the **Link Shipping Account** form that opens, update the necessary information as expalined in the following table.
 
-            ***
-          </ToggleListItem>
+        <Image align="center" border={true} src="https://files.readme.io/3de31c22fb2c5ee0f5257c680dbd966f3059acb17241abb26012ed820a9dc1f6-Entering_shipping_account_details.png" alt="Entering location details" />
 
-          <br />
+        <br />
 
-          <ToggleListItem title={<strong>3. Configure shipping account details </strong>} icon="fa-rocket">
-            <br />
+        <AsteridkForMandatoryElements />
 
-            On the **Link Shipping Account** form that opens, update the necessary information as expalined in the following table.
+        <Columns layout="auto">
+          <Column>
+            |         Element        | Description                                                                                           |
+            | :--------------------: | :---------------------------------------------------------------------------------------------------- |
+            |      **Carrier**\*     | From the dropdown menu, select the needed carrier.                                                    |
+            | **Shipping Account**\* | From the dropdown menu, select the shipping account to which you want to link this shipping location. |
+          </Column>
+        </Columns>
 
-            <Image align="center" border={true} src="https://files.readme.io/3de31c22fb2c5ee0f5257c680dbd966f3059acb17241abb26012ed820a9dc1f6-Entering_shipping_account_details.png" caption="Entering location details" />
+        <br />
 
-            <br />
+        > 📘 \&#xNAN;***Note***
+        >
+        > *If you have selected Royal Mail as your carrier option, then an additional**CARRIER DETAILS** block is displayed. To learn more on how to fill this block, refer to the <Anchor label="Add Royal Mail shipping account" target="_blank" href="https://docs.intersoftsapient.net/docs/shipping-account-requirements#/">Add Royal Mail shipping account</Anchor> section.*
 
-            <AsteridkForMandatoryElements />
+        ***
+      </ToggleListItem>
 
-            <Columns layout="auto">
-              <Column>
-                |         Element        | Description                                                                                           |
-                | :--------------------: | :---------------------------------------------------------------------------------------------------- |
-                |      **Carrier**\*     | From the dropdown menu, select the needed carrier.                                                    |
-                | **Shipping Account**\* | From the dropdown menu, select the shipping account to which you want to link this shipping location. |
-              </Column>
-            </Columns>
+      <br />
 
-            <br />
+      <ToggleListItem title={<strong>4. Save changes </strong>} icon="fa-rocket">
+        <br />
 
-            > 📘 \&#xNAN;***Note***
-            >
-            > *If you have selected Royal Mail as your carrier option, then an additional**CARRIER DETAILS** block is displayed. To learn more on how to fill this block, refer to the <Anchor label="Add Royal Mail shipping account" target="_blank" href="https://docs.intersoftsapie
+        After entering all the relevant information, select ![](https://files.readme.io/7f3338ad6d04eed0cfe60a5831902bd726f21988472aa810308695f020fe5b89-Link_shipping_account_button.png).
+
+        Once done, the shipping location is successfully linked to your shipping account.
+
+        ***
+      </ToggleListItem>
+    </ToggleList>
   </Tab>
 
   <Tab title="Link via API">
+    <br />
+
     To link a shipping location to an existing shipping account via our API, refer to the following endpoint:
 
-    <Cards columns="1">
+    <Cards>
       <Card title="Link Locations" href="https://docs.intersoftsapient.net/v4.02_Coding/reference/post_v4-shippingaccounts-rm-shippingaccountid-linklocations#/" icon="fa-solid fa-code">
         Complete API reference for linking shipping locations to an exsiting shipping account
       </Card>
