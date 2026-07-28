@@ -24,7 +24,7 @@ In SAPIENT, you can delete the shipping location to keep the shipping database c
 
 <Tabs>
   <Tab title="Delete via SAPIENT UI">
-    <br />
+    
 
     To edit a shipping location in SAPIENT, perform the steps as explained in the following procedure.
 
@@ -76,7 +76,7 @@ In SAPIENT, you can delete the shipping location to keep the shipping database c
   </Tab>
 
   <Tab title="Edit via API">
-    <br />
+    
 
     To delete a shipping location via our API, refer to the following endpoint:
 
