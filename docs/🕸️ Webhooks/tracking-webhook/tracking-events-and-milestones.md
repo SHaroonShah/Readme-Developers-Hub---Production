@@ -26,361 +26,361 @@ The following section displays a comprehensive structure of the milestones, even
 
 <Accordion title="Tracking Events and Milestones" icon="fa-duotone fa-solid fa-display-chart-up">
   <HTMLBlock>{`
-                <table>
-                <tr>
-                <th style="background-color: #778899;">Milestone Name</th>
-                <th style="background-color: #778899;">Milestone Order</th>
-                <th style="background-color: #778899;">Tracking Event Code</th>
-                <th style="background-color: #778899;">Tracking Event Name</th>
-                <th style="background-color: #778899;">Tracking Event Description</th>
-                </tr>
-                <tr>
-                <td rowspan="7"><strong>It’s on its Way</strong></td>
-                <td rowspan="7">1</td>
-                <td>PSRE</td>
-                <td>Shipment Received</td>
-                <td>The shipment has been received into the carrier network for processing.</td>
-                </tr>
-                <tr>
-                <td>PSAN</td>
-                <td>Shipment Announced</td>
-                <td>Shipment details have been received and the parcel is awaiting collection or handover.</td>
-                </tr>
-                <tr>
-                <td>PSCO</td>
-                <td>Shipment Collected</td>
-                <td>The shipment has been successfully collected by the carrier.</td>
-                </tr>
-                <tr>
-                <td>PSDE</td>
-<td>Shipment Despatched</td>
-                <td>he shipment has been dispatched and is moving through the carrier network.</td>
-                </tr>
-             <tr>
-                <td>CAMD</td>
-<td>Collection Amended</td>
-                <td>The scheduled collection has been updated or amended after booking.</td>
-                </tr>
-             <tr>
-                <td>CSBK</td>
-<td>Collection Successfully Booked</td>
-                <td>The collection request has been successfully booked and confirmed.</td>
-                </tr>
-             <tr>
-                <td>PSCS</td>
-<td>Shipment Collected  and left in a Safe Place</td>
-                <td>The shipment has been collected from a designated safe place as instructed.</td>
-                </tr>
-                <tr>
-                <td rowspan="5"><strong>In Transit</strong></td>
-                <td rowspan="5">2</td>
-                <td>PINT</td>
-<td>In Transit</td>
-                <td>The shipment is in transit and progressing towards the delivery destination.</td>
-                </tr>
-                <tr>
-                <td>PPID</td>
-<td>Shipment Processed in Depot</td>
-                <td>The shipment has been processed at a carrier depot facility.</td>
-                </tr>
-                <tr>
-                <td>PRID</td>
-<td>Shipment Received in Depot</td>
-                <td>The shipment has been received at a depot and is ready for sorting.</td>
-                </tr>
-                <tr>
-                <td>PSDD</td>
-<td>Shipment Departed Depot</td>
-                <td>The shipment has departed from a depot and is en route to the next location.</td>
-                </tr>
-                <tr>
-                <td>IOWS</td>
-<td>Oversize/weight Shipment</td>
-                <td>The shipment exceeds size or weight limits and may require special handling.</td>
-                </tr>
-                <tr>
-                <td rowspan="3"><strong>In Customs</strong></td>
-                <td rowspan="3">3</td>
-                <td>BCUI</td>
-<td>Customs Inspection</td>
-                <td> The shipment is undergoing customs inspection by authorities.</td>
-                </tr>
-                <tr>
-                <td>BHBC</td>
-<td>Held by Customs</td>
-                <td>The shipment is being held by customs pending further review or clearance.</td>
-                </tr>
-                <tr>
-                <td>BRBC</td>
-<td>Released by Customs</td>
-                <td>The shipment has been released by customs and will continue transit.</td>
-                </tr>
-                <tr>
-                <td rowspan="1"><strong>Out for Delivery</strong></td>
-                <td>4</td>
-                <td>POFD</td>
-<td>Out for Delivery</td>
-                <td>The shipment is out for delivery and expected to reach the recipient.</td>
-                </tr>
-                <tr>
-                <td rowspan="8"><strong>Delivery Attempt Failed</strong></td>
-                <td rowspan="8">5</td>
-                <td>FDAF</td>
-<td>Delivery Attempt Failed</td>
-                <td>A delivery attempt was made but was unsuccessful.</td>
-                </tr>
-                <tr>
-                <td>FNCO</td>
-<td>Not Collected</td>
-                <td>The shipment was not collected as scheduled.</td>
-                </tr>
-                <tr>
-                <td>FCAR</td>
-<td>No Answer - Carded</td>
-                <td>Delivery was attempted but no answer; a notification card has been left.</td>
-                </tr>
-                <tr>
-                <td>FANK</td>
-<td>Address Not Known</td>
-                <td>Delivery failed due to an unknown or incorrect address.</td>
-                </tr>
-                <tr>
-                <td>FRNK</td>
-<td>Recipient Not Known</td>
-                <td>Delivery could not be completed as the recipient is not known at the address.</td>
-                </tr>
-                <tr>
-                <td>FRAA</td>
-<td>Refused at Delivery Address</td>
-                <td>Delivery was refused at the destination address.</td>
-                </tr>
-                <tr>
-                <td>FINA</td>
-<td>Incomplete Address</td>
-                <td>Delivery failed due to incomplete or missing address details.</td>
-                </tr>
-                <tr>
-                <td>FUTA</td>
-<td>Unable to Access Delivery Point</td>
-                <td>Delivery could not be completed as access to the delivery location was not possible.
-</td>
-                </tr>
-                <tr>
-                <td rowspan="1"><strong>Part Delivered</strong></td>
-                <td>6</td>
-                <td>DPAR</td>
-<td>Partially delivered</td>
-                <td>The shipment has been partially delivered (only part of the consignment delivered).</td>
-                </tr>
-                <tr>
-                <td rowspan="1"><strong>Ready for Collection</strong></td>
-                <td>7</td>
-                <td>DRFC</td>
-<td>Ready for Collection</td>
-                <td>Ready for Collection</td>
-                </tr>
-                <tr>
-                <td rowspan="8"><strong>Delivered</strong></td>
-                <td rowspan="8">8</td>
-                <td>DELV</td>
-<td>Delivered</td>
-                <td>The shipment has been successfully delivered to the intended recipient.</td>
-                </tr>
-                <tr>
-                <td>DTSP</td>
-<td>Delivered to Safe Place</td>
-                <td>The shipment has been delivered to a designated safe place.</td>
-                </tr>
-                <tr>
-                <td>DPOB</td>
-<td>Delivered to PO Box</td>
-                <td>The shipment has been delivered to a PO Box.</td>
-                </tr>
-                <tr>
-                <td>DDMG</td>
-<td>Delivered Damaged</td>
-                <td>The shipment has been delivered but with reported damage.</td>
-                </tr>
-                <tr>
-                <td>DTNB</td>
-<td>Delivered to Neighbour - No Signature</td>
-                <td>The shipment has been delivered to a neighbour without signature confirmation.</td>
-                </tr>
-                <tr>
-                <td>DTNS</td>
-<td>Delivered to Neighbour with Signature</td>
-                <td>The shipment has been delivered to a neighbour with signature confirmation.</td>
-                </tr>
-                <tr>
-                <td>DNSV</td>
-<td>Delivered to Neighbour with Signature - ID Verified</td>
-                <td>The shipment has been delivered to a neighbour with ID verification and signature.</td>
-                </tr>
-                <tr>
-                <td>DNSO</td>
- <td>Delivered to Neighbour with Signature - Over 25</td>
-                <td>The shipment has been delivered to a neighbour with signature and age verification of over 25.</td>
-                </tr>
-                <tr>
-                <td rowspan="1"><strong>Collected</strong></td>
-                <td>9</td>
-                <td>DRCO</td>
-<td>Recipient Collected</td>
-                <td>The shipment has been collected directly by the recipient from the carrier location.</td>
-                </tr>
-                <tr>
-                <td rowspan="7"><strong>Undeliverable</strong></td>
-                <td rowspan="7">10</td>
-                <td>RTNS</td>
-<td>Return to Sender</td>
-                <td> The shipment is being returned to the sender.</td>
-                </tr>
-                <tr>
-                <td>RUND</td>
- <td>Undeliverable - Return to Sender</td>
-                <td>The shipment is undeliverable and is being returned to the sender.</td>
-                </tr>
-                <tr>
-                <td>RNCO</td>
-<td>Not Collected - Return to Sender</td>
-                <td>The shipment was not collected and is being returned to the sender.</td>
-                </tr>
-                <tr>
-                <td>UDTS</td>
-<td>Delivered to Sender</td>
-                <td>The returned shipment has been delivered back to the sender.</td>
-                </tr>
-                <tr>
-                <td>IDES</td>
-<td>Shipment Lost/Destroyed</td>
-                <td>The shipment has been lost or destroyed while in transit.</td>
-                </tr>
-                <tr>
-                <td>ICAN</td>
-<td>Shipment Cancelled</td>
-                <td>The shipment or collection request has been cancelled.</td>
-                </tr>
-                <tr>
-                <td>FUDS</td>
-<td>Undeliverable - Destroyed</td>
-                <td>The shipment is undeliverable and has been destroyed.</td>
-                </tr>
+                  <table>
+                  <tr>
+                  <th style="background-color: #778899;">Milestone Name</th>
+                  <th style="background-color: #778899;">Milestone Order</th>
+                  <th style="background-color: #778899;">Tracking Event Code</th>
+                  <th style="background-color: #778899;">Tracking Event Name</th>
+                  <th style="background-color: #778899;">Tracking Event Description</th>
+                  </tr>
+                  <tr>
+                  <td rowspan="7"><strong>It’s on its Way</strong></td>
+                  <td rowspan="7">1</td>
+                  <td>PSRE</td>
+                  <td>Shipment Received</td>
+                  <td>The shipment has been received into the carrier network for processing.</td>
+                  </tr>
+                  <tr>
+                  <td>PSAN</td>
+                  <td>Shipment Announced</td>
+                  <td>Shipment details have been received and the parcel is awaiting collection or handover.</td>
+                  </tr>
+                  <tr>
+                  <td>PSCO</td>
+                  <td>Shipment Collected</td>
+                  <td>The shipment has been successfully collected by the carrier.</td>
+                  </tr>
+                  <tr>
+                  <td>PSDE</td>
+  <td>Shipment Despatched</td>
+                  <td>he shipment has been dispatched and is moving through the carrier network.</td>
+                  </tr>
+               <tr>
+                  <td>CAMD</td>
+  <td>Collection Amended</td>
+                  <td>The scheduled collection has been updated or amended after booking.</td>
+                  </tr>
+               <tr>
+                  <td>CSBK</td>
+  <td>Collection Successfully Booked</td>
+                  <td>The collection request has been successfully booked and confirmed.</td>
+                  </tr>
+               <tr>
+                  <td>PSCS</td>
+  <td>Shipment Collected  and left in a Safe Place</td>
+                  <td>The shipment has been collected from a designated safe place as instructed.</td>
+                  </tr>
+                  <tr>
+                  <td rowspan="5"><strong>In Transit</strong></td>
+                  <td rowspan="5">2</td>
+                  <td>PINT</td>
+  <td>In Transit</td>
+                  <td>The shipment is in transit and progressing towards the delivery destination.</td>
+                  </tr>
+                  <tr>
+                  <td>PPID</td>
+  <td>Shipment Processed in Depot</td>
+                  <td>The shipment has been processed at a carrier depot facility.</td>
+                  </tr>
+                  <tr>
+                  <td>PRID</td>
+  <td>Shipment Received in Depot</td>
+                  <td>The shipment has been received at a depot and is ready for sorting.</td>
+                  </tr>
+                  <tr>
+                  <td>PSDD</td>
+  <td>Shipment Departed Depot</td>
+                  <td>The shipment has departed from a depot and is en route to the next location.</td>
+                  </tr>
+                  <tr>
+                  <td>IOWS</td>
+  <td>Oversize/weight Shipment</td>
+                  <td>The shipment exceeds size or weight limits and may require special handling.</td>
+                  </tr>
+                  <tr>
+                  <td rowspan="3"><strong>In Customs</strong></td>
+                  <td rowspan="3">3</td>
+                  <td>BCUI</td>
+  <td>Customs Inspection</td>
+                  <td> The shipment is undergoing customs inspection by authorities.</td>
+                  </tr>
+                  <tr>
+                  <td>BHBC</td>
+  <td>Held by Customs</td>
+                  <td>The shipment is being held by customs pending further review or clearance.</td>
+                  </tr>
+                  <tr>
+                  <td>BRBC</td>
+  <td>Released by Customs</td>
+                  <td>The shipment has been released by customs and will continue transit.</td>
+                  </tr>
+                  <tr>
+                  <td rowspan="1"><strong>Out for Delivery</strong></td>
+                  <td>4</td>
+                  <td>POFD</td>
+  <td>Out for Delivery</td>
+                  <td>The shipment is out for delivery and expected to reach the recipient.</td>
+                  </tr>
+                  <tr>
+                  <td rowspan="8"><strong>Delivery Attempt Failed</strong></td>
+                  <td rowspan="8">5</td>
+                  <td>FDAF</td>
+  <td>Delivery Attempt Failed</td>
+                  <td>A delivery attempt was made but was unsuccessful.</td>
+                  </tr>
+                  <tr>
+                  <td>FNCO</td>
+  <td>Not Collected</td>
+                  <td>The shipment was not collected as scheduled.</td>
+                  </tr>
+                  <tr>
+                  <td>FCAR</td>
+  <td>No Answer - Carded</td>
+                  <td>Delivery was attempted but no answer; a notification card has been left.</td>
+                  </tr>
+                  <tr>
+                  <td>FANK</td>
+  <td>Address Not Known</td>
+                  <td>Delivery failed due to an unknown or incorrect address.</td>
+                  </tr>
+                  <tr>
+                  <td>FRNK</td>
+  <td>Recipient Not Known</td>
+                  <td>Delivery could not be completed as the recipient is not known at the address.</td>
+                  </tr>
+                  <tr>
+                  <td>FRAA</td>
+  <td>Refused at Delivery Address</td>
+                  <td>Delivery was refused at the destination address.</td>
+                  </tr>
+                  <tr>
+                  <td>FINA</td>
+  <td>Incomplete Address</td>
+                  <td>Delivery failed due to incomplete or missing address details.</td>
+                  </tr>
+                  <tr>
+                  <td>FUTA</td>
+  <td>Unable to Access Delivery Point</td>
+                  <td>Delivery could not be completed as access to the delivery location was not possible.
+  </td>
+                  </tr>
+                  <tr>
+                  <td rowspan="1"><strong>Part Delivered</strong></td>
+                  <td>6</td>
+                  <td>DPAR</td>
+  <td>Partially delivered</td>
+                  <td>The shipment has been partially delivered (only part of the consignment delivered).</td>
+                  </tr>
+                  <tr>
+                  <td rowspan="1"><strong>Ready for Collection</strong></td>
+                  <td>7</td>
+                  <td>DRFC</td>
+  <td>Ready for Collection</td>
+                  <td>Ready for Collection</td>
+                  </tr>
+                  <tr>
+                  <td rowspan="8"><strong>Delivered</strong></td>
+                  <td rowspan="8">8</td>
+                  <td>DELV</td>
+  <td>Delivered</td>
+                  <td>The shipment has been successfully delivered to the intended recipient.</td>
+                  </tr>
+                  <tr>
+                  <td>DTSP</td>
+  <td>Delivered to Safe Place</td>
+                  <td>The shipment has been delivered to a designated safe place.</td>
+                  </tr>
+                  <tr>
+                  <td>DPOB</td>
+  <td>Delivered to PO Box</td>
+                  <td>The shipment has been delivered to a PO Box.</td>
+                  </tr>
+                  <tr>
+                  <td>DDMG</td>
+  <td>Delivered Damaged</td>
+                  <td>The shipment has been delivered but with reported damage.</td>
+                  </tr>
+                  <tr>
+                  <td>DTNB</td>
+  <td>Delivered to Neighbour - No Signature</td>
+                  <td>The shipment has been delivered to a neighbour without signature confirmation.</td>
+                  </tr>
+                  <tr>
+                  <td>DTNS</td>
+  <td>Delivered to Neighbour with Signature</td>
+                  <td>The shipment has been delivered to a neighbour with signature confirmation.</td>
+                  </tr>
+                  <tr>
+                  <td>DNSV</td>
+  <td>Delivered to Neighbour with Signature - ID Verified</td>
+                  <td>The shipment has been delivered to a neighbour with ID verification and signature.</td>
+                  </tr>
+                  <tr>
+                  <td>DNSO</td>
+   <td>Delivered to Neighbour with Signature - Over 25</td>
+                  <td>The shipment has been delivered to a neighbour with signature and age verification of over 25.</td>
+                  </tr>
+                  <tr>
+                  <td rowspan="1"><strong>Collected</strong></td>
+                  <td>9</td>
+                  <td>DRCO</td>
+  <td>Recipient Collected</td>
+                  <td>The shipment has been collected directly by the recipient from the carrier location.</td>
+                  </tr>
+                  <tr>
+                  <td rowspan="7"><strong>Undeliverable</strong></td>
+                  <td rowspan="7">10</td>
+                  <td>RTNS</td>
+  <td>Return to Sender</td>
+                  <td> The shipment is being returned to the sender.</td>
+                  </tr>
+                  <tr>
+                  <td>RUND</td>
+   <td>Undeliverable - Return to Sender</td>
+                  <td>The shipment is undeliverable and is being returned to the sender.</td>
+                  </tr>
+                  <tr>
+                  <td>RNCO</td>
+  <td>Not Collected - Return to Sender</td>
+                  <td>The shipment was not collected and is being returned to the sender.</td>
+                  </tr>
+                  <tr>
+                  <td>UDTS</td>
+  <td>Delivered to Sender</td>
+                  <td>The returned shipment has been delivered back to the sender.</td>
+                  </tr>
+                  <tr>
+                  <td>IDES</td>
+  <td>Shipment Lost/Destroyed</td>
+                  <td>The shipment has been lost or destroyed while in transit.</td>
+                  </tr>
+                  <tr>
+                  <td>ICAN</td>
+  <td>Shipment Cancelled</td>
+                  <td>The shipment or collection request has been cancelled.</td>
+                  </tr>
+                  <tr>
+                  <td>FUDS</td>
+  <td>Undeliverable - Destroyed</td>
+                  <td>The shipment is undeliverable and has been destroyed.</td>
+                  </tr>
 
-                <tr>
-                <td rowspan="4"><strong>Transit Delay</strong></td>
-                <td rowspan="4">Null</td>
-                <td>IDIP</td>
-<td>Delay in Processing</td>
-                <td>The shipment processing has been delayed within the carrier network.</td>
-                </tr>
-                <tr>
-                <td>IFME</td>
-<td>Force Majeure/ Exceptional Event</td>
-                <td>Delivery is impacted due to an exceptional event (e.g. weather, disruption).</td>
-                </tr>
-                <tr>
-                <td>ISMI</td>
-<td>Shipment Misrouted</td>
-                <td>The shipment has been misrouted and is being redirected to the correct route.</td>
-                </tr>
-                <tr>
-                <td>PRET</td>
- <td>Shipment Retention</td>
-                <td> The shipment is being held or retained by the carrier temporarily.</td>
-                </tr>
-                <tr>
-                <td rowspan="18"><strong>N/A</strong></td>
-                <td rowspan="18">Null</td>
-                <td>ICLR</td>
-<td>Shipment Customs Cleared</td>
-                <td>Customs clearance has been completed successfully.</td>
-                </tr>
-                <tr>
-                <td>IARR</td>
-<td>Shipment Arrived at Facility</td>
-                <td>The shipment has arrived at a processing or distribution facility.</td>
-                </tr>
-                <tr>
-                <td>IRCO</td>
-<td>Shipment Ready for Collection from the Facility</td>
-                <td>The shipment is ready for recipient collection from the carrier facility.</td>
-                <tr>
-                <td>INVD</td>
-<td>Invalid</td>
-                <td>The provided tracking number is invalid or not recognised by the carrier.</td>
-                </tr>
-                <tr>
-                <td>ISOH</td>
-<td>Shipment on Hold</td>
-                <td>The shipment is currently on hold within the carrier network. <br />
-                <b><i>Note</i></b>: <i>This event code is not triggered if the customer has configured the webhook to only receive milestones.</i></td>
-                </tr>
-                <tr>
-                <td>PSDP</td>
-<td>Shipment Data Processed</td>
-                <td>Shipment data has been successfully processed in the system.</td>
-                </tr>
-         <tr>
-                <td>CAAT</td>
-<td>Collection Attempted But Not Completed</td>
-                <td>Collection was attempted but not completed.</td>
-                </tr>
-         <tr>
-                <td>CAFI</td>
-<td>Collection Attempt Failed</td>
-                <td>Collection attempt failed because the location was inaccessible.</td>
-                </tr>
-         <tr>
-                <td>CAFP</td>
-<td>Collection Attempt Failed - Packaging Issue</td>
-                <td>Collection attempt failed due to a packaging issue.</td>
-                </tr>
-         <tr>
-                <td>CAFN</td>
-<td>Collection Attempt Failed - Shipment Not Available</td>
-                <td>Collection attempt failed because the shipment was not available.</td>
-                </tr>
-         <tr>
-                <td>CAFA</td>
-<td>Collection Attempt Failed - No Answer</td>
-                <td>Collection attempt failed as there was no response at the location.</td>
-                </tr>
-         <tr>
-                <td>CAFO</td>
-<td>Collection Attempt Failed - Oversize/weight Shipment</td>
-                <td>Collection attempt failed due to oversize or overweight shipment.</td>
-                </tr>
-         <tr>
-                <td>CSPP</td>
-<td>Collection Attempt Failed From Safe Place - Packaging Issue</td>
-                <td>Collection from safe place failed due to a packaging issue</td>
-                </tr>
-         <tr>
-                <td>CSPI</td>
-<td>Collection Attempt Failed From Safe Place - Inaccessible</td>
-                <td>Collection from safe place failed because access was not possible.</td>
-                </tr>
-         <tr>
-                <td>CSPN</td>
-<td>Collection Attempt Failed  From Safe Place - Shipment not available</td>
-                <td>Collection from safe place failed as the shipment was not available.</td>
-                </tr>
-         <tr>
-                <td>CSPO</td>
-<td>Collection Attempt Failed  From Safe Place - Oversize/weight shipment</td>
-                <td>Collection from safe place failed due to oversize or overweight shipment.</td>
-                </tr>
-         <tr>
-                <td>CCAN</td>
-<td>Collection Cancelled</td>
-                <td>Collection request has been cancelled.</td>
-                </tr>
-         <tr>
-                <td>CNAT</td>
-<td>Collection Not Attempted</td>
-                <td>Collection was not attempted.</td>
-                </tr>
-                </table>
+                  <tr>
+                  <td rowspan="4"><strong>Transit Delay</strong></td>
+                  <td rowspan="4">Null</td>
+                  <td>IDIP</td>
+  <td>Delay in Processing</td>
+                  <td>The shipment processing has been delayed within the carrier network.</td>
+                  </tr>
+                  <tr>
+                  <td>IFME</td>
+  <td>Force Majeure/ Exceptional Event</td>
+                  <td>Delivery is impacted due to an exceptional event (e.g. weather, disruption).</td>
+                  </tr>
+                  <tr>
+                  <td>ISMI</td>
+  <td>Shipment Misrouted</td>
+                  <td>The shipment has been misrouted and is being redirected to the correct route.</td>
+                  </tr>
+                  <tr>
+                  <td>PRET</td>
+   <td>Shipment Retention</td>
+                  <td> The shipment is being held or retained by the carrier temporarily.</td>
+                  </tr>
+                  <tr>
+                  <td rowspan="18"><strong>N/A</strong></td>
+                  <td rowspan="18">Null</td>
+                  <td>ICLR</td>
+  <td>Shipment Customs Cleared</td>
+                  <td>Customs clearance has been completed successfully.</td>
+                  </tr>
+                  <tr>
+                  <td>IARR</td>
+  <td>Shipment Arrived at Facility</td>
+                  <td>The shipment has arrived at a processing or distribution facility.</td>
+                  </tr>
+                  <tr>
+                  <td>IRCO</td>
+  <td>Shipment Ready for Collection from the Facility</td>
+                  <td>The shipment is ready for recipient collection from the carrier facility.</td>
+                  <tr>
+                  <td>INVD</td>
+  <td>Invalid</td>
+                  <td>The provided tracking number is invalid or not recognised by the carrier.</td>
+                  </tr>
+                  <tr>
+                  <td>ISOH</td>
+  <td>Shipment on Hold</td>
+                  <td>The shipment is currently on hold within the carrier network. <br />
+                  <b><i>Note</i></b>: <i>This event code is not triggered if the customer has configured the webhook to only receive milestones.</i></td>
+                  </tr>
+                  <tr>
+                  <td>PSDP</td>
+  <td>Shipment Data Processed</td>
+                  <td>Shipment data has been successfully processed in the system.</td>
+                  </tr>
+           <tr>
+                  <td>CAAT</td>
+  <td>Collection Attempted But Not Completed</td>
+                  <td>Collection was attempted but not completed.</td>
+                  </tr>
+           <tr>
+                  <td>CAFI</td>
+  <td>Collection Attempt Failed - Inaccessible</td>
+                  <td>Collection attempt failed because the location was inaccessible.</td>
+                  </tr>
+           <tr>
+                  <td>CAFP</td>
+  <td>Collection Attempt Failed - Packaging Issue</td>
+                  <td>Collection attempt failed due to a packaging issue.</td>
+                  </tr>
+           <tr>
+                  <td>CAFN</td>
+  <td>Collection Attempt Failed - Shipment Not Available</td>
+                  <td>Collection attempt failed because the shipment was not available.</td>
+                  </tr>
+           <tr>
+                  <td>CAFA</td>
+  <td>Collection Attempt Failed - No Answer</td>
+                  <td>Collection attempt failed as there was no response at the location.</td>
+                  </tr>
+           <tr>
+                  <td>CAFO</td>
+  <td>Collection Attempt Failed - Oversize/weight Shipment</td>
+                  <td>Collection attempt failed due to oversize or overweight shipment.</td>
+                  </tr>
+           <tr>
+                  <td>CSPP</td>
+  <td>Collection Attempt Failed From Safe Place - Packaging Issue</td>
+                  <td>Collection from safe place failed due to a packaging issue</td>
+                  </tr>
+           <tr>
+                  <td>CSPI</td>
+  <td>Collection Attempt Failed From Safe Place - Inaccessible</td>
+                  <td>Collection from safe place failed because access was not possible.</td>
+                  </tr>
+           <tr>
+                  <td>CSPN</td>
+  <td>Collection Attempt Failed  From Safe Place - Shipment not available</td>
+                  <td>Collection from safe place failed as the shipment was not available.</td>
+                  </tr>
+           <tr>
+                  <td>CSPO</td>
+  <td>Collection Attempt Failed  From Safe Place - Oversize/weight shipment</td>
+                  <td>Collection from safe place failed due to oversize or overweight shipment.</td>
+                  </tr>
+           <tr>
+                  <td>CCAN</td>
+  <td>Collection Cancelled</td>
+                  <td>Collection request has been cancelled.</td>
+                  </tr>
+           <tr>
+                  <td>CNAT</td>
+  <td>Collection Not Attempted</td>
+                  <td>Collection was not attempted.</td>
+                  </tr>
+                  </table>
   `}</HTMLBlock>
 </Accordion>
 
@@ -391,21 +391,19 @@ _Milestones_ refer to significant stages within the shipment process that are es
 If you choose to receive tracking milestones, bear in mind that each milestone only gets triggered once. To understand each milestone and its expected order of occurrence, refer to the information explained in the following table:
 
 <Accordion title="Tracking Milestones" icon="fa-duotone fa-solid fa-display-chart-up">
-
-| Milestone | Description |
-| --- | --- |
-| **IT'S ON ITS WAY** | The <Glossary>shipment</Glossary> was handed over or is on its way to the <Glossary>carrier</Glossary>. |
-| **IN TRANSIT** | The shipment is travelling through the carrier's network. |
-| **TRANSIT DELAY** | The shipment processing through the carrier's network is delayed. |
-| **IN CUSTOMS** | The shipment is undergoing customs inspections.<br /><br />*`Note`: this is applicable to international shipments only.* |
-| **OUT FOR DELIVERY** | The shipment is on the way to the recipient. |
-| **DELIVERY ATTEMPT FAILED** | The delivery was attempted, but failed. |
-| **READY FOR COLLECTION** | The shipment was left at a chosen location for the recipient to collect. |
-| **DELIVERED** | The shipment was successfully delivered to the recipient (or another person/place chosen by the recipient). |
-| **COLLECTED** | The shipment was successfully collected from the collection point. |
-| **PART DELIVERED** | The part of a consignment shipment was delivered successfully. |
-| **UNDELIVERABLE** | The delivery of the shipment was not possible. |
-
+  | Milestone                   | Description                                                                                                              |
+  | --------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+  | **IT'S ON ITS WAY**         | The <Glossary>shipment</Glossary> was handed over or is on its way to the <Glossary>carrier</Glossary>.                  |
+  | **IN TRANSIT**              | The shipment is travelling through the carrier's network.                                                                |
+  | **TRANSIT DELAY**           | The shipment processing through the carrier's network is delayed.                                                        |
+  | **IN CUSTOMS**              | The shipment is undergoing customs inspections.<br /><br />`Note`_: this is applicable to international shipments only._ |
+  | **OUT FOR DELIVERY**        | The shipment is on the way to the recipient.                                                                             |
+  | **DELIVERY ATTEMPT FAILED** | The delivery was attempted, but failed.                                                                                  |
+  | **READY FOR COLLECTION**    | The shipment was left at a chosen location for the recipient to collect.                                                 |
+  | **DELIVERED**               | The shipment was successfully delivered to the recipient (or another person/place chosen by the recipient).              |
+  | **COLLECTED**               | The shipment was successfully collected from the collection point.                                                       |
+  | **PART DELIVERED**          | The part of a consignment shipment was delivered successfully.                                                           |
+  | **UNDELIVERABLE**           | The delivery of the shipment was not possible.                                                                           |
 </Accordion>
 
 ***
