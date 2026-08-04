@@ -15,7 +15,7 @@ The integration of Starlinks Global into the SAPIENT platform is a significant s
 
 <Tabs>
   <Tab title="Key Features">
-    <Cards columns={2}>
+    <Cards>
       <Card title="Shipping Origins" icon="fa-map-marker-alt">
         The integration supports shipping from locations in Great Britain (GB) only.
       </Card>
@@ -37,11 +37,11 @@ The integration of Starlinks Global into the SAPIENT platform is a significant s
       </Card>
     </Cards>
 
-    <br />
+
   </Tab>
 
   <Tab title="Additional Features">
-    <Cards columns={1}>
+    <Cards>
       <Card title="Single-package Services" icon="fa-solid fa-box">
         Starlinks Global supports single-package services only. Consignment services are not supported.
       </Card>
@@ -49,36 +49,38 @@ The integration of Starlinks Global into the SAPIENT platform is a significant s
   </Tab>
 
   <Tab title="Service Enhancements">
-    > 📘 *Note*
-    >
-    > *There are no service enhancements for this integration.*
+    <Callout icon="📘" theme="info">
+      ### _Note_
+
+      _There are no service enhancements for this integration._
+    </Callout>
   </Tab>
 
   <Tab title="Carrier Services">
     The following services are available through the Starlinks Global integration.
 
-    | Service Name | Description |
-    | :--- | :--- |
-    | **International Home Delivery** | Delivers parcels internationally to the recipient’s home address. |
-    | **International Express Service – Starlinks** | Provides expedited international delivery with end-to-end Starlinks handling. |
-    | **International Express Service – Last-Mile** | Provides expedited international delivery, with final delivery completed by a local last-mile carrier. |
-    | **Final Mile** | Provides last-mile delivery from the destination hub to the recipient. |
-    | **Domestic** | Provides domestic parcel delivery within supported countries, including the UK, USA, and Australia. |
-    | **Cross Border Direct – Starlinks Label** | Provides cross-border parcel delivery using a Starlinks shipping label. |
-    | **Cross Border Direct – Last-Mile Label** | Provides cross-border parcel delivery using a last-mile carrier label for final delivery. |
-    | **Starlinks Domestic Premium** | Provides premium domestic delivery within supported countries, including the UK, USA, and Australia. |
-    | **Cross Border Light** | Provides a cost-effective cross-border delivery solution for lightweight shipments. |
-    | **Starlinks Border Flexi – Starlinks Label** | Provides flexible cross-border delivery using a Starlinks shipping label. |
-    | **Starlinks Border Flexi – Last-Mile Label** | Provides flexible cross-border delivery, with final delivery performed by a local last-mile carrier. |
-    | **Starlinks Market Places – Starlinks Label** | Provides cross-border marketplace shipment delivery using a Starlinks shipping label. |
+    | Service Name                                  | Description                                                                                                      |
+    | :-------------------------------------------- | :--------------------------------------------------------------------------------------------------------------- |
+    | **International Home Delivery**               | Delivers parcels internationally to the recipient’s home address.                                                |
+    | **International Express Service – Starlinks** | Provides expedited international delivery with end-to-end Starlinks handling.                                    |
+    | **International Express Service – Last-Mile** | Provides expedited international delivery, with final delivery completed by a local last-mile carrier.           |
+    | **Final Mile**                                | Provides last-mile delivery from the destination hub to the recipient.                                           |
+    | **Domestic**                                  | Provides domestic parcel delivery within supported countries, including the UK, USA, and Australia.              |
+    | **Cross Border Direct – Starlinks Label**     | Provides cross-border parcel delivery using a Starlinks shipping label.                                          |
+    | **Cross Border Direct – Last-Mile Label**     | Provides cross-border parcel delivery using a last-mile carrier label for final delivery.                        |
+    | **Starlinks Domestic Premium**                | Provides premium domestic delivery within supported countries, including the UK, USA, and Australia.             |
+    | **Cross Border Light**                        | Provides a cost-effective cross-border delivery solution for lightweight shipments.                              |
+    | **Starlinks Border Flexi – Starlinks Label**  | Provides flexible cross-border delivery using a Starlinks shipping label.                                        |
+    | **Starlinks Border Flexi – Last-Mile Label**  | Provides flexible cross-border delivery, with final delivery performed by a local last-mile carrier.             |
+    | **Starlinks Market Places – Starlinks Label** | Provides cross-border marketplace shipment delivery using a Starlinks shipping label.                            |
     | **Starlinks Market Places – Last-Mile Label** | Provides cross-border marketplace shipment delivery, with final delivery completed by a local last-mile carrier. |
 
-    <br />
+
 
     <Callout icon="💡" theme="default">
-      ### *Tip*
+      ### _Tip_
 
-      *For the most up-to-date carrier services, use the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint.*
+      _For the most up-to-date carrier services, use the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint._
     </Callout>
   </Tab>
 </Tabs>
@@ -93,25 +95,25 @@ The integration of Starlinks Global into the SAPIENT platform is a significant s
       The integration for creating shipments to reflect Starlinks Global as a primary carrier and allowing users to create shipments using the **Create Shipment** endpoint.
     </Accordion>
 
-    <br />
+
 
     <Accordion title="Manifest Shipment">
-       Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/v4.03/docs/manifest-webhook) to keep track of shipments and their statuses by to receiving real-time updates or notifications whenever specific events occur in the system (such as shipping updates, status changes, and so on).
+      Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/v4.03/docs/manifest-webhook), which provides updates on manifest requests, allowing you to track the progress and status of shipments prepared for carrier collection and delivery.
     </Accordion>
-
-    <br />
-
   </Tab>
 
   <Tab title="Other Services">
     <Accordion title="Print Label">
       Generate and return a label for a Starlinks Global shipment in PDF, PNG, or ZPL format. Use this endpoint when a label was not generated by the Starlinks Global Create Shipment request.
 
-      > 📘 *Note*
-      >
-      > *This endpoint changes the shipment status to label printed. Call it when you print or create the label, based on your business process. Update shipments to label printed before manifesting.*
+      <Callout icon="📘" theme="info">
+        ### _Note_
+
+        _This endpoint changes the shipment status to label printed. Call it when you print or create the label, based on your business process. Update shipments to label printed before manifesting._
+      </Callout>
     </Accordion>
-    <br />
+
+
 
     <Accordion title="Tracking">
       This integration allows customers to monitor their shipments in real-time, providing transparency and peace of mind. Users can access detailed tracking information, including, real-time updates, tracking numbers, and delivery notifications.
@@ -125,20 +127,20 @@ The integration of Starlinks Global into the SAPIENT platform is a significant s
 
 <Tabs>
   <Tab title="Account Setup">
-    <Cards columns={2}>
-      <Card title="Add Starlinks GLobal Shipping Account" icon="fa-solid fa-truck" href="https://docs.intersoftsapient.net/v4.04/docs/add-starlinks-global-shipping-account">
+    <Cards>
+      <Card title="Add Starlinks GLobal Shipping Account" href="https://docs.intersoftsapient.net/v4.04/docs/add-starlinks-global-shipping-account" icon="fa-solid fa-truck">
         Set up your Starlinks Global shipping account to start creating shipments.
       </Card>
 
-      <Card title="Add Starlinks Global Tracking Account" icon="fa-solid fa-search-location" href="https://docs.intersoftsapient.net/v4.04/docs/add-starlinks-global-tracking-account">
+      <Card title="Add Starlinks Global Tracking Account" href="https://docs.intersoftsapient.net/v4.04/docs/add-starlinks-global-tracking-account" icon="fa-solid fa-search-location">
         Configure tracking for your Starlinks Global shipments.
       </Card>
     </Cards>
   </Tab>
 
   <Tab title="API References">
-    <Cards columns={2}>
-      <Card title="SAPIENT Starlinks Global API" icon="fa-solid fa-code" href="">
+    <Cards>
+      <Card title="SAPIENT Starlinks Global API" icon="fa-solid fa-code">
         Explore the Starlinks Global API endpoints for a seamless shipping experience.
       </Card>
     </Cards>
@@ -147,10 +149,8 @@ The integration of Starlinks Global into the SAPIENT platform is a significant s
 
 <Banner isInline={true} message="Ready to integrate?" color="#ffb600" textColor="#ffffff" fontSize="20px" fontWeight="bold" width="120px" />
 
-<Cards columns={0}>
+<Cards>
   <Card title="Activate this integration" href="https://docs.intersoftsapient.net/docs/integration-activation#/" icon="fa-solid fa-circle-play fa-beat" target="_blank">
     Seamlessly connect with Starlinks Global and manage your shipping operations from a single platform.
   </Card>
 </Cards>
-
-<br />
