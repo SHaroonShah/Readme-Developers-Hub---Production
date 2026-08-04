@@ -17,11 +17,15 @@ The integration of Starlinks Global into the SAPIENT platform is a significant s
   <Tab title="Key Features">
     <Cards>
       <Card title="Shipping Origins" icon="fa-map-marker-alt">
-        The integration supports shipping from locations in Great Britain (GB) only.
+        The integration supports shipping from Great Britain (GB), Unites States of America (USA), Australia, and United Arab Emirates (UAE).
+
+        > _The integration also  supports ship domestically within USA, Australia, and UAE._
       </Card>
 
       <Card title="Shipping Destinations" icon="fa-solid fa-globe">
-        Send shipments to Great Britain (GB), Europe (EU), and <Glossary>ROW</Glossary> (Rest of the World).
+        Send shipments to Great Britain (GB), Europe (EU), Unites States of America (USA), Australia, United Arab Emirates (UAE), and <Glossary>ROW</Glossary> (Rest of the World).
+
+        > _The integration also supports sending shipments domestically within USA, Australia, and UAE._
       </Card>
 
       <Card title="Service Type" icon="fa-solid fa-shipping-fast">
@@ -90,7 +94,8 @@ The integration of Starlinks Global into the SAPIENT platform is a significant s
     <Accordion title="Create Shipment">
       The integration for creating shipments to reflect Starlinks Global as a primary carrier and allowing users to create shipments using the **Create Shipment** endpoint.
     </Accordion>
-    <br />
+
+
 
     <Accordion title="Manifest Shipment">
       Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/v4.03/docs/manifest-webhook), which provides updates on manifest requests, allowing you to track the progress and status of shipments prepared for carrier collection and delivery.
@@ -107,7 +112,8 @@ The integration of Starlinks Global into the SAPIENT platform is a significant s
         _This endpoint changes the shipment status to label printed. Call it when you print or create the label, based on your business process. Update shipments to label printed before manifesting._
       </Callout>
     </Accordion>
-    <br />
+
+
 
     <Accordion title="Tracking">
       This integration allows customers to monitor their shipments in real-time, providing transparency and peace of mind. Users can access detailed tracking information, including, real-time updates, tracking numbers, and delivery notifications.
