@@ -15,6 +15,8 @@ In SAPIENT, you can add tracking accounts for DPD Ireland to enhance visibility,
 <Callout icon="🚧" theme="warn">
   ### _Important_
 
+  _Please note that DPD Ireland uses the same credentials as the Create Shipment API. The credentials set on the shipping account also apply to the tracking account._
+
   _Prior to adding a DPD Ireland tracking account, make sure you have completed the following prerequisites:_
 
   1. _Enabled the [label integration](https://docs.intersoftsapient.net/docs/integration-activation) with DPD Ireland._
@@ -106,5 +108,3 @@ To add a tracking account for DPD Ireland in SAPIENT, follow the steps in the fo
     Understand tracking events and milestone data.
   </Card>
 </Cards>
-
-<br />
