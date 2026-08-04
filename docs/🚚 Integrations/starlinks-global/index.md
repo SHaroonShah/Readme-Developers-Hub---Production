@@ -36,8 +36,6 @@ The integration of Starlinks Global into the SAPIENT platform is a significant s
         The integration supports <Glossary>DDU</Glossary> and <Glossary>DDP</Glossary> incoterms.
       </Card>
     </Cards>
-
-
   </Tab>
 
   <Tab title="Additional Features">
@@ -75,8 +73,6 @@ The integration of Starlinks Global into the SAPIENT platform is a significant s
     | **Starlinks Market Places – Starlinks Label** | Provides cross-border marketplace shipment delivery using a Starlinks shipping label.                            |
     | **Starlinks Market Places – Last-Mile Label** | Provides cross-border marketplace shipment delivery, with final delivery completed by a local last-mile carrier. |
 
-
-
     <Callout icon="💡" theme="default">
       ### _Tip_
 
@@ -94,8 +90,7 @@ The integration of Starlinks Global into the SAPIENT platform is a significant s
     <Accordion title="Create Shipment">
       The integration for creating shipments to reflect Starlinks Global as a primary carrier and allowing users to create shipments using the **Create Shipment** endpoint.
     </Accordion>
-
-
+    <br />
 
     <Accordion title="Manifest Shipment">
       Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/v4.03/docs/manifest-webhook), which provides updates on manifest requests, allowing you to track the progress and status of shipments prepared for carrier collection and delivery.
@@ -112,8 +107,7 @@ The integration of Starlinks Global into the SAPIENT platform is a significant s
         _This endpoint changes the shipment status to label printed. Call it when you print or create the label, based on your business process. Update shipments to label printed before manifesting._
       </Callout>
     </Accordion>
-
-
+    <br />
 
     <Accordion title="Tracking">
       This integration allows customers to monitor their shipments in real-time, providing transparency and peace of mind. Users can access detailed tracking information, including, real-time updates, tracking numbers, and delivery notifications.
