@@ -119,7 +119,7 @@ The integration of DPD Ireland (IE) into the SAPIENT platform is a significant s
     <Accordion title="Tracking">
       Enables customers to receive tracking updates through their integration with the SAPIENT tracking webhook.
     </Accordion>
-
+<br />
     <Accordion title="Print Label">
       Generate and return the label for a DPD Ireland shipment in the supported label formats. This endpoint must be utilised when the label is not generated in the DPD Ireland Create Shipment request.
 
