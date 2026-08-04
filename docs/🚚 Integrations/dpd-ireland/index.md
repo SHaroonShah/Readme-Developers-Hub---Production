@@ -19,7 +19,7 @@ The integration of DPD Ireland (IE) into the SAPIENT platform is a significant s
 
 <Tabs>
   <Tab title="Key Features">
-    <Cards columns={2}>
+    <Cards>
       <Card title="Shipping Origins" icon="fa-map-marker-alt">
         The integration supports shipping from locations in Ireland (IE) and Northern Ireland (country code GB and postcodes beginning with BT).
       </Card>
@@ -41,11 +41,11 @@ The integration of DPD Ireland (IE) into the SAPIENT platform is a significant s
       </Card>
     </Cards>
 
-    <br />
+
   </Tab>
 
   <Tab title="Additional Features">
-    <Cards columns={2}>
+    <Cards>
       <Card title="Consignment services" icon="fa-solid fa-boxes-stacked">
         Multi-piece shipments are supported for all services except DPD Air Express.
 
@@ -65,40 +65,41 @@ The integration of DPD Ireland (IE) into the SAPIENT platform is a significant s
   <Tab title="Service Enhancements">
     The following are the key service enhancements provided by the DPD Ireland integration:
 
-    * **Email Notification**: Delivery updates are sent via email. To use this enhancement code, the destination **ContactEmail** must be provided with a valid email address.
-    * **SMS Notification**: Delivery updates are sent via SMS. To use this enhancement code, the destination **ContactPhone** field must be specified with a valid phone number.
-    * **Delivery options**: DPD IE provides the following delivery options:
-      * **DelivertoNeighbour**: Allows the delivery to be left with a nearby neighbour if the recipient is not available.
-      * **DelivertoSafeplace**: Allows the delivery to be left in a specified secure location at the delivery address when the recipient is not available. If this enhancement is used, the details of the location must be specified in the **SafeplaceLocation** field captured in the **CarrierSpecifics** block of the Create Shipment request.
-      * **DeliverytoLetterbox**: Indicates that the item is small enough to be delivered through the recipient’s letterbox.
-    * **ExtraInsurance**: Provides additional coverage for the shipment beyond the standard liability, protecting against loss or damage up to a specified value.
-    * **PinOnDelivery**: Requires a secure PIN to be provided at the time of delivery to confirm receipt by the recipient. To use this enhancement code, the destination **ContactPhone** or **ContactEmail** fields must be specified with a valid phone number or email address.
+    - **Email Notification**: Delivery updates are sent via email. To use this enhancement code, the destination **ContactEmail** must be provided with a valid email address.
+    - **SMS Notification**: Delivery updates are sent via SMS. To use this enhancement code, the destination **ContactPhone** field must be specified with a valid phone number.
+    - **Delivery options**: DPD IE provides the following delivery options:
+      - **DelivertoNeighbour**: Allows the delivery to be left with a nearby neighbour if the recipient is not available.
+      - **DelivertoSafeplace**: Allows the delivery to be left in a specified secure location at the delivery address when the recipient is not available. If this enhancement is used, the details of the location must be specified in the **SafeplaceLocation** field captured in the **CarrierSpecifics** block of the Create Shipment request.
+      - **DeliverytoLetterbox**: Indicates that the item is small enough to be delivered through the recipient’s letterbox.
+    - **ExtraInsurance**: Provides additional coverage for the shipment beyond the standard liability, protecting against loss or damage up to a specified value.
+    - **PinOnDelivery**: Requires a secure PIN to be provided at the time of delivery to confirm receipt by the recipient. To use this enhancement code, the destination **ContactPhone** or **ContactEmail** fields must be specified with a valid phone number or email address.
 
     <Callout icon="💡" theme="default">
-      ### *Tip*
+      ### _Tip_
 
-      *For more information on the service enhancements and carrier services, refer to the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) API endpoint.*
+      _For more information on the service enhancements and carrier services, refer to the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) API endpoint._
     </Callout>
   </Tab>
 
   <Tab title="Carrier Services">
-The following key services are provided by the DPD Ireland integration.
+    The following key services are provided by the DPD Ireland integration.
 
-| Service Name                  | Description                                                                                                                                                                                                           |
-| :---------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **DPD Saturday Delivery**     | This service provides weekend delivery of parcels on Saturdays, enabling businesses and recipients to receive shipments outside standard weekday delivery schedules.                                                  |
-| **DPD Next Day**              | This service provides fast, next-working-day delivery within Ireland and selected regions, ensuring parcels arrive quickly with reliable transit times and full tracking visibility.                                  |
-| **DPD Air Express**           | This service provides urgent international delivery via an established air network, offering next-day delivery to many destinations and worldwide coverage to over 200 countries with full tracking.                  |
-| **DPD Classic**               | This service provides reliable, cost-effective road-based parcel delivery across Ireland and Europe, offering fast standard transit times, full tracking, and high-volume shipping capabilities.                      |
-| **DPD Classic International** | This service provides international parcel delivery through DPD’s road and air network, combining competitive pricing with reliable transit times, full tracking, and coverage across Europe and global destinations. |
-<br />
+    | Service Name                  | Description                                                                                                                                                                                                           |
+    | :---------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+    | **DPD Saturday Delivery**     | This service provides weekend delivery of parcels on Saturdays, enabling businesses and recipients to receive shipments outside standard weekday delivery schedules.                                                  |
+    | **DPD Next Day**              | This service provides fast, next-working-day delivery within Ireland and selected regions, ensuring parcels arrive quickly with reliable transit times and full tracking visibility.                                  |
+    | **DPD Air Express**           | This service provides urgent international delivery via an established air network, offering next-day delivery to many destinations and worldwide coverage to over 200 countries with full tracking.                  |
+    | **DPD Classic**               | This service provides reliable, cost-effective road-based parcel delivery across Ireland and Europe, offering fast standard transit times, full tracking, and high-volume shipping capabilities.                      |
+    | **DPD Classic International** | This service provides international parcel delivery through DPD’s road and air network, combining competitive pricing with reliable transit times, full tracking, and coverage across Europe and global destinations. |
 
-<Callout icon="💡" theme="default">
-  ### _Tip_
 
-  _For the most up-to-date carrier services, use the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint._
-</Callout>
-</Tab>
+
+    <Callout icon="💡" theme="default">
+      ### _Tip_
+
+      _For the most up-to-date carrier services, use the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint._
+    </Callout>
+  </Tab>
 </Tabs>
 
 ***
@@ -111,11 +112,12 @@ The following key services are provided by the DPD Ireland integration.
       The integration for creating shipments to reflect DPD Ireland as a primary carrier and allowing users to create shipments using the **Create Shipment** endpoint, which returns the label in base64-encoded format.
     </Accordion>
 
-    <br />
+
 
     <Accordion title="Manifest Shipment">
-     Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/v4.03/docs/manifest-webhook) to keep track of shipments and their statuses by to receiving real-time updates or notifications whenever specific events occur in the system (such as shipping updates, status changes, and so on).
+      Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook,](https://docs.intersoftsapient.net/v4.03/docs/manifest-webhook) which provides updates on manifest requests, allowing you to track the progress and status of shipments prepared for carrier collection and delivery.
     </Accordion>
+
     </Accordion>
   </Tab>
 
@@ -124,16 +126,17 @@ The following key services are provided by the DPD Ireland integration.
       Enables customers to receive tracking updates through their integration with the SAPIENT tracking webhook.
     </Accordion>
 
-  <br />
 
- <Accordion title="Print Label">
+
+    <Accordion title="Print Label">
       Generate and return the label for a DPD Ireland shipment in the supported label formats. This endpoint must be utilised when the label is not generated in the DPD Ireland Create Shipment request.
 
-      > 📘 *Note*
-      >
-      > *This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting.*
-    </Accordion>
+      <Callout icon="📘" theme="info">
+        ### _Note_
 
+        _This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting._
+      </Callout>
+    </Accordion>
   </Tab>
 </Tabs>
 
@@ -143,20 +146,20 @@ The following key services are provided by the DPD Ireland integration.
 
 <Tabs>
   <Tab title="Account Setup">
-    <Cards columns={2}>
-      <Card title="Add DPD Ireland Shipping Account" icon="fa-solid fa-truck" href="https://docs.intersoftsapient.net/docs/add-dpd-ireland-shipping-account">
+    <Cards>
+      <Card title="Add DPD Ireland Shipping Account" href="https://docs.intersoftsapient.net/docs/add-dpd-ireland-shipping-account" icon="fa-solid fa-truck">
         Set up your DPD Ireland shipping account to start creating shipments.
       </Card>
 
-      <Card title="Add DPD Ireland Tracking Account" icon="fa-solid fa-search-location" href="https://docs.intersoftsapient.net/docs/add-dpd-ireland-tracking-account">
+      <Card title="Add DPD Ireland Tracking Account" href="https://docs.intersoftsapient.net/docs/add-dpd-ireland-tracking-account" icon="fa-solid fa-search-location">
         Configure tracking for your DPD Ireland shipments.
       </Card>
     </Cards>
   </Tab>
 
   <Tab title="API References">
-    <Cards columns={2}>
-      <Card title="SAPIENT DPD Ireland API" icon="fa-solid fa-code" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-dpdireland">
+    <Cards>
+      <Card title="SAPIENT DPD Ireland API" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-dpdireland" icon="fa-solid fa-code">
         Explore the DPD Ireland API endpoints for a seamless shipping experience.
       </Card>
     </Cards>
@@ -165,10 +168,8 @@ The following key services are provided by the DPD Ireland integration.
 
 <Banner isInline={true} message="Ready to integrate?" color="#ffb600" textColor="#ffffff" fontSize="20px" fontWeight="bold" width="120px" />
 
-<Cards columns={0}>
+<Cards>
   <Card title="Activate this integration" href="https://docs.intersoftsapient.net/docs/integration-activation#/" icon="fa-solid fa-circle-play fa-beat" target="_blank">
     Connect with DPD Ireland and manage your shipping operations from a single platform.
   </Card>
 </Cards>
-
-<br />
