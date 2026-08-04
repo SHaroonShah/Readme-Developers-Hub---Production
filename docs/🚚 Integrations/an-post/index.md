@@ -25,7 +25,7 @@ The integration of An Post, Ireland's national postal service, into the SAPIENT 
 
 <Tabs>
   <Tab title="Key Features">
-    <Cards columns={2}>
+    <Cards>
       <Card title="Shipping Origins" icon="fa-map-marker-alt">
         The integration supports shipping from locations in Ireland (IE) and Great Britain (GB).
       </Card>
@@ -47,16 +47,16 @@ The integration of An Post, Ireland's national postal service, into the SAPIENT 
       </Card>
     </Cards>
 
-    <br />
+
 
     <Accordion title="Important considerations">
       Please bear in mind the following:
 
-      * An Post does not support consignment services; all services are single-package services only. Also, the Express International and Priority Post services are only available to limited destinations.
-      * If shipping from GB to Ireland, undelivered or returned parcels will not be returned to your UK address. Instead, they must be returned to a designated PO Box address at the Portlaoise Mail Centre in Ireland. This information must be populated in the **ReturnToSender** section of the API documentation
+      - An Post does not support consignment services; all services are single-package services only. Also, the Express International and Priority Post services are only available to limited destinations.
+      - If shipping from GB to Ireland, undelivered or returned parcels will not be returned to your UK address. Instead, they must be returned to a designated PO Box address at the Portlaoise Mail Centre in Ireland. This information must be populated in the **ReturnToSender** section of the API documentation
     </Accordion>
 
-    <br />
+
   </Tab>
 
   <Tab title="Additional Features">
@@ -68,9 +68,11 @@ The integration of An Post, Ireland's national postal service, into the SAPIENT 
   </Tab>
 
   <Tab title="Service Enhancements">
-    > 📘 *Note*
-    >
-    > *There are no service enhancements for this integration.*
+    <Callout icon="📘" theme="info">
+      ### _Note_
+
+      _There are no service enhancements for this integration._
+    </Callout>
   </Tab>
 
   <Tab title="Carrier Services">
@@ -89,12 +91,12 @@ The integration of An Post, Ireland's national postal service, into the SAPIENT 
     | **Registered Post**                 | This service provides secure delivery with signature capture and compensation cover for valuable items                                                                                                                                                                              |
     | **IBMS/Untracked**                  | This service provides cost-effective international business mail delivery for letters, packets, and lightweight parcels without full end-to-end tracking, suitable for non-urgent shipments.This service provides basic untracked delivery for low-value or non-priority shipments. |
 
-    <br />
+
 
     <Callout icon="💡" theme="default">
-      ### *Tip*
+      ### _Tip_
 
-      *For the most up-to-date carrier services, use the[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint.*
+      _For the most up-to-date carrier services, use the[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint._
     </Callout>
   </Tab>
 </Tabs>
@@ -108,20 +110,22 @@ The integration of An Post, Ireland's national postal service, into the SAPIENT 
     <Accordion title="Create Shipment">
       The integration for creating shipments to reflect An Post as a primary carrier and allowing users to create shipments using the **Create Shipment** endpoint. Based on the destination country, customers must be aware of the following:
 
-      * * For delivery to addresses in Northern Ireland (IE), only the shipping <Glossary>label</Glossary> is required.
-          * For delivery to EU destinations excluding Northern Ireland (IE), a security declaration is required.
-          * The signature image will be taken from the signature image the customer has uploaded for the shipping account in the [Logos and Signatures](https://docs.intersoftsapient.net/docs/add-signature-and-logo#/) screen.
-            * For delivery to ROW addresses, including GB and Northern Ireland (IE), a shipping label and <Glossary>CN23</Glossary> is required. SAPIENT will generate a separate address label and CN23, as this is consistent with the behaviour for other integrations.
+      - - For delivery to addresses in Northern Ireland (IE), only the shipping <Glossary>label</Glossary> is required.
+          - For delivery to EU destinations excluding Northern Ireland (IE), a security declaration is required.
+          - The signature image will be taken from the signature image the customer has uploaded for the shipping account in the [Logos and Signatures](https://docs.intersoftsapient.net/docs/add-signature-and-logo#/) screen.
+            - For delivery to ROW addresses, including GB and Northern Ireland (IE), a shipping label and <Glossary>CN23</Glossary> is required. SAPIENT will generate a separate address label and CN23, as this is consistent with the behaviour for other integrations.
 
-      > 📘 *Note*
-      >
-      > *Please be advised that the existing SAPIENT CN23 format will be used*.
+      <Callout icon="📘" theme="info">
+        ### _Note_
+
+        _Please be advised that the existing SAPIENT CN23 format will be used_.
+      </Callout>
     </Accordion>
 
-    <br />
+
 
     <Accordion title="Manifest Shipment">
-      Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/v4.03/docs/manifest-webhook) to keep track of shipments and their statuses by to receiving real-time updates or notifications whenever specific events occur in the system (such as shipping updates, status changes, and so on).
+      Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/v4.03/docs/manifest-webhook), which provides updates on manifest requests, allowing you to track the progress and status of shipments prepared for carrier collection and delivery.
     </Accordion>
   </Tab>
 
@@ -129,12 +133,14 @@ The integration of An Post, Ireland's national postal service, into the SAPIENT 
     <Accordion title="Print Label">
       Generate and return the label for an An Post shipment. This endpoint must be utilised when the label is not generated in the An Post Create Shipment request.
 
-      > 📘 *Note*
-      >
-      > *This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting.*
+      <Callout icon="📘" theme="info">
+        ### _Note_
+
+        _This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting._
+      </Callout>
     </Accordion>
 
-    <br />
+
 
     <Accordion title="Tracking">
       This integration allows customers to monitor their shipments in real-time, providing transparency and peace of mind. Users can access detailed tracking information, including, real-time updates, tracking numbers, and delivery notifications.
@@ -148,7 +154,7 @@ The integration of An Post, Ireland's national postal service, into the SAPIENT 
 
 <Tabs>
   <Tab title="Account Setup">
-    <Cards columns={2}>
+    <Cards>
       <Card title="Add Shipping Account" href="https://docs.intersoftsapient.net/docs/add-an-post-shipping-account" icon="fa-solid fa-truck">
         Access the step-by-step guide on how to set up An Post shipping account on SAPIENT.
       </Card>
@@ -160,7 +166,7 @@ The integration of An Post, Ireland's national postal service, into the SAPIENT 
   </Tab>
 
   <Tab title="Advanced Features">
-    <Cards columns={2}>
+    <Cards>
       <Card title="Add Barcode Ranges" href="https://docs.intersoftsapient.net/docs/add-barcode-range-for-an-post-shipping-account" icon="fa-solid fa-barcode">
         Add barcode ranges to facilitate efficient tracking and management of shipments.
       </Card>
@@ -168,7 +174,7 @@ The integration of An Post, Ireland's national postal service, into the SAPIENT 
   </Tab>
 
   <Tab title="API References">
-    <Cards columns={2}>
+    <Cards>
       <Card title="SAPIENT An Post API " href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-anpost" icon="fa-solid fa-code">
         Explore the An Post API endpoints for a seamless shipping experience.
       </Card>
@@ -178,10 +184,8 @@ The integration of An Post, Ireland's national postal service, into the SAPIENT 
 
 <Banner isInline={true} message="Ready to integrate?" color="#ffb600" textColor="#ffffff" fontSize="20px" fontWeight="bold" width="120px" />
 
-<Cards columns={0}>
+<Cards>
   <Card title="Activate this integration" href="https://docs.intersoftsapient.net/docs/integration-activation#/" icon="fa-solid fa-circle-play fa-beat" target="_blank">
     Seamlessly connect with An Post and manage your shipping operations from a single platform.
   </Card>
 </Cards>
-
-<br />
