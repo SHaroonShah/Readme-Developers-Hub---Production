@@ -32,7 +32,7 @@ This integration represents a significant step towards optimising shipping funct
 
 <Tabs>
   <Tab title="Key Features">
-    <Cards columns={2}>
+    <Cards>
       <Card title="Shipping Origins" icon="fa-solid fa-map-marker-alt">
         The integration supports shipping from locations in Great Britain (GB) only.
       </Card>
@@ -56,7 +56,7 @@ This integration represents a significant step towards optimising shipping funct
   </Tab>
 
   <Tab title="Additional features">
-    <Cards columns={2}>
+    <Cards>
       <Card title="Single Piece shipments" icon="fa-solid fa-box">
         Support for single shipments is included in the integration, allowing users to send single shipment. However, users can create multiple single shipments via a single API call.
       </Card>
@@ -71,32 +71,32 @@ This integration represents a significant step towards optimising shipping funct
     <Accordion title="Consequential Loss Coverage">
       Royal Mail offers multiple tiers of consequential loss coverage to protect your shipments:
 
-      * **CL1** - Consequential Loss £1000: Coverage for losses up to £1000.
-      * **CL2** - Consequential Loss £2500: Coverage for losses up to £2500.
-      * **CL3** - Consequential Loss £5000: Coverage for losses up to £5000.
-      * **CL4** - Consequential Loss £7500: Coverage for losses up to £7500.
-      * **CL5** - Consequential Loss £10000: Coverage for losses up to £10000
+      - **CL1** - Consequential Loss £1000: Coverage for losses up to £1000.
+      - **CL2** - Consequential Loss £2500: Coverage for losses up to £2500.
+      - **CL3** - Consequential Loss £5000: Coverage for losses up to £5000.
+      - **CL4** - Consequential Loss £7500: Coverage for losses up to £7500.
+      - **CL5** - Consequential Loss £10000: Coverage for losses up to £10000
     </Accordion>
 
-    <br />
+
 
     <Accordion title="Delivery Options & Notifications">
       Enhanced delivery and notification services:
 
-      * **Signed**: A signature is required upon delivery, applicable to 24, 48, 1st Class, and 2nd Class services.
-      * **SMS**: Provides delivery updates via SMS for Special Delivery Guaranteed, Tracked, and Tracked High Volume services.
-      * **Email**: Sends delivery updates via email for eligible services, such as Special Delivery Guaranteed, Tracked and Tracked High Volume, International Tracked and International Tracked and Signed services.
-      * **Safeplace**: The shipment will be left in a specified safe place location; details must be provided in the SafeplaceLocation field. Can be used with Tracked, Tracked High Volume and 24/48 services.
-      * **LocalCollect**: The shipment will be delivered to a Post Office for collection by the receiver. Can be used with Special Delivery Guaranteed, Tracked and Tracked High Volume services.
+      - **Signed**: A signature is required upon delivery, applicable to 24, 48, 1st Class, and 2nd Class services.
+      - **SMS**: Provides delivery updates via SMS for Special Delivery Guaranteed, Tracked, and Tracked High Volume services.
+      - **Email**: Sends delivery updates via email for eligible services, such as Special Delivery Guaranteed, Tracked and Tracked High Volume, International Tracked and International Tracked and Signed services.
+      - **Safeplace**: The shipment will be left in a specified safe place location; details must be provided in the SafeplaceLocation field. Can be used with Tracked, Tracked High Volume and 24/48 services.
+      - **LocalCollect**: The shipment will be delivered to a Post Office for collection by the receiver. Can be used with Special Delivery Guaranteed, Tracked and Tracked High Volume services.
     </Accordion>
 
-    <br />
+
 
     <Accordion title="International Services">
       Additional enhancements for international shipments:
 
-      * **CustomsEmail**: The receiver's email address will be included in eCustoms data. This enhancement code can be used with international services.
-      * **CustomsPhone**: The receiver's phone number will be included in eCustoms data. This enhancement code can be used with international services.
+      - **CustomsEmail**: The receiver's email address will be included in eCustoms data. This enhancement code can be used with international services.
+      - **CustomsPhone**: The receiver's phone number will be included in eCustoms data. This enhancement code can be used with international services.
     </Accordion>
   </Tab>
 
@@ -115,12 +115,12 @@ This integration represents a significant step towards optimising shipping funct
     | **International**    | This service provides delivery of letters and parcels worldwide, offering a range of tracked and untracked options with varying delivery speeds and customs support.                      |
     | **Returns**          | This service provides convenient parcel return solutions, allowing customers to send items back to retailers using tracked or standard services with flexible drop-off options.           |
 
-    <br />
+
 
     <Callout icon="💡" theme="default">
-      ### *Tip*
+      ### _Tip_
 
-      *For the most up-to-date carrier services, use the[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint.*
+      _For the most up-to-date carrier services, use the[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint._
     </Callout>
   </Tab>
 </Tabs>
@@ -135,34 +135,36 @@ This integration represents a significant step towards optimising shipping funct
       The integration for creating shipments to reflect Royal Mail as a primary carrier and allowing users to create shipments using the **Create Shipment** endpoint.
     </Accordion>
 
-    <br />
+
 
     <Accordion title="Print My Label QR Code">
       Generate an easy-to-scan QR code for the associated label specified in the **PrintLabel** API endpoint. This endpoint can only be used for Royal Mail Tracked Return services.
     </Accordion>
 
-    <br />
+
 
     <Accordion title="Trackings">
       Register up to 1000 tracking numbers in a single API request and get real-time updates on your Royal Mail shipments.
     </Accordion>
 
-    <br />
+
 
     <Accordion title="Manifest Webhook">
-      Keep track of shipments and their statuses by to receiving real-time updates or notifications whenever specific events occur in the system (such as shipping updates, status changes, and so on) via the SAPIENT Manifest Webhook feature.
+      Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/v4.03/docs/manifest-webhook), which provides updates on manifest requests, allowing you to track the progress and status of shipments prepared for carrier collection and delivery.
 
-      > 🚧 *Important*
-      >
-      > *You can <Glossary>manifest</Glossary> the shipments using any of the following parameters:*
-      >
-      > * *Shipping location*
-      > * *Shipping account*
-      > * *Shipment status (Picked)*
-      > * *Service code*
-      > * *Container*
-      >
-      > *Additionally, any created shipments that have not been manifested, it is advised to cancel them to avoid any unwanted labels.*
+      <Callout icon="🚧" theme="warn">
+        ### _Important_
+
+        _You can <Glossary>manifest</Glossary> the Royal Mail shipments via the&#x20;_[_Manifest Shipments Async_](https://docs.intersoftsapient.net/reference/post_v4-manifests-async-carriercode)_&#x20;endpoint using any of the following parameters:_
+
+        - _Shipping location_
+        - _Shipping account_
+        - _Shipment status (Picked)_
+        - _Service code_
+        - _Container_
+
+        _Additionally, any created shipments that have not been manifested, it is advised to cancel them to avoid any unwanted labels._
+      </Callout>
     </Accordion>
   </Tab>
 
@@ -170,36 +172,40 @@ This integration represents a significant step towards optimising shipping funct
     <Accordion title="Print Label">
       Generate and return the label for the Royal Mail shipment. This endpoint must be utilised when the label is not generated in the Royal Mail Create Shipment request.
 
-      > 📘 *Note*
-      >
-      > *This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting.*
+      <Callout icon="📘" theme="info">
+        ### _Note_
+
+        _This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting._
+      </Callout>
     </Accordion>
 
-    <br />
+
 
     <Accordion title="Pre Allocate Tracking Number">
       Receive a Royal Mail Tracking Number that will be pre-allocated to the service and destination supplied in the request. No shipment or label will be produced using this endpoint. This endpoint can only be used for services that are assigned a tracking number.
     </Accordion>
 
-    <br />
+
 
     <Accordion title="Offline Barcoding">
       Request a specific range of barcodes for use in your shipping processes. Offline Barcoding is only available if it has been activated on your customer account in the GUI.
     </Accordion>
 
-    <br />
+
 
     <Accordion title="PUDO Locations">
       Retrieves a list of Pick-Up and Drop-Off (PUDO) locations associated with a specified carriers that are within a set radius of the postcode provided in the request. That radius is set to 10 Miles / 16.09 Kilometres.
 
-      > 🚧 *Important*
-      >
-      > *This endpoint must be called before the**Create Shipment** endpoint so that the desired PUDO location is selected in the Create Shipment request.*
+      <Callout icon="🚧" theme="warn">
+        ### _Important_
 
-      <br />
+        _This endpoint must be called before the_**_Create Shipment_**_&#x20;endpoint so that the desired PUDO location is selected in the Create Shipment request._
+      </Callout>
+
+
     </Accordion>
 
-    <br />
+
 
     <Accordion title="International Arrivals Containers">
       Create and name (with and ID or alias) a new international arrivals container to be used for manifesting a specific group of shipments. Define which carrier and shipping location the container should be linked to.
@@ -221,7 +227,7 @@ This integration represents a significant step towards optimising shipping funct
 
 <Tabs>
   <Tab title="Account Setup">
-    <Cards columns={3}>
+    <Cards>
       <Card title="Set up Royal Mail OBA" href="https://docs.intersoftsapient.net/docs/oba-email-validation" icon="fa-solid fa-user-plus">
         Access the step-by-step guide on how to set up Royal Mail Online Business Account (OBA).
       </Card>
@@ -237,7 +243,7 @@ This integration represents a significant step towards optimising shipping funct
   </Tab>
 
   <Tab title="Shipment Services">
-    <Cards columns={3}>
+    <Cards>
       <Card title="BFPO Shipments" href="https://docs.intersoftsapient.net/docs/bfpo-shipments" icon="fa-solid fa-person-military-rifle">
         Create BFPO shipments and send them to British military personnel, their families, and official organisations stationed abroad or in remote locations.
       </Card>
@@ -253,7 +259,7 @@ This integration represents a significant step towards optimising shipping funct
   </Tab>
 
   <Tab title="Advanced Features">
-    <Cards columns={2}>
+    <Cards>
       <Card title="Collection Service" href="https://docs.intersoftsapient.net/docs/royal-mail-parcel-collect" icon="fa-solid fa-hand-holding-box">
         Use the collection service to have your returns collected from your homes.
       </Card>
@@ -273,7 +279,7 @@ This integration represents a significant step towards optimising shipping funct
   </Tab>
 
   <Tab title="API References">
-    <Cards columns={2}>
+    <Cards>
       <Card title="SAPIENT Royal Mail API " href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-rm" icon="fa-solid fa-code">
         Explore the Royal Mail API endpoints for a seamless shipping experience.
       </Card>
@@ -283,7 +289,7 @@ This integration represents a significant step towards optimising shipping funct
 
 <Banner isInline={true} message="Ready to integrate?" color="#ffb600" textColor="#ffffff" fontSize="20px" fontWeight="bold" width="120px" />
 
-<Cards columns={0}>
+<Cards>
   <Card title="Activate this integration" href="https://docs.intersoftsapient.net/docs/integration-activation#/" icon="fa-solid fa-circle-play fa-beat" target="_blank">
     Seamlessly connect with Royal Mail and manage your shipping operations from a single platform.
   </Card>
