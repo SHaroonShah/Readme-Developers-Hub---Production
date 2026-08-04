@@ -20,7 +20,7 @@ DHL is the global leader in the logistics industry. DHL Express is a brand withi
 
 <Tabs>
   <Tab title="Key Features">
-    <Cards columns={2}>
+    <Cards>
       <Card title="Shipping Origins" icon="fa-map-marker-alt">
         The integration supports shipping from locations in Great Britain (GB) only.
       </Card>
@@ -42,11 +42,11 @@ DHL is the global leader in the logistics industry. DHL Express is a brand withi
       </Card>
     </Cards>
 
-    <br />
+
   </Tab>
 
   <Tab title="Additional Features">
-    <Cards columns={2}>
+    <Cards>
       <Card title="Consignment Services" icon="fa-solid fa-boxes-stacked">
         DHL Express supports a maximum of 999 packages per consignment. In this case, the SAPIENT maximum of 99 will be used.
       </Card>
@@ -62,38 +62,38 @@ DHL is the global leader in the logistics industry. DHL Express is a brand withi
       <Card title="Paperless Trade (PLT)" icon="fa-solid fa-file-invoice">
         Facilitates international shipping by enabling electronic submission of trade documents in the following two ways:
 
-        * **Use DHL-generated invoices**: DHL creates and sends the invoice electronically to the customs agency on your behalf.
-        * **Use SAPIENT-generated invoices**: SAPIENT generates the invoices from shipment data and sends them to DHL.
+        - **Use DHL-generated invoices**: DHL creates and sends the invoice electronically to the customs agency on your behalf.
+        - **Use SAPIENT-generated invoices**: SAPIENT generates the invoices from shipment data and sends them to DHL.
       </Card>
     </Cards>
 
-    <br />
+
 
     <Callout icon="📘" theme="default">
-      ### *Note*
+      ### _Note_
 
-      *For more information on Paperless Trade, refer to the <Anchor label="Add DHL Express shipping account" target="_blank" href="https://docs.intersoftsapient.net/docs/add-dhl-express-shipping-account">Add DHL Express shipping account</Anchor> section.*
+      _For more information on Paperless Trade, refer to the <Anchor target="_blank" href="https://docs.intersoftsapient.net/docs/add-dhl-express-shipping-account">Add DHL Express shipping account</Anchor> section._
     </Callout>
   </Tab>
 
   <Tab title="Service Enhancements">
     The following are the key services enhancements provided by the DHL Express integration:
 
-    * **Saturday Delivery (AA)**: Enables delivery on Saturdays, offering greater flexibility in shipping schedules.
-    * **Adult Signature (SD)**: Requires an adult signature upon delivery of the shipment, ensuring that the package is received by someone of legal age.
-    * **Shipment Insurance (II)**: Provides insurance coverage for the shipment against loss or damage. If this enhancement is used, then the InsuranceValue field must be populated.
-    * **Neutral Label (PP)**: Uses a generic shipment <Glossary>label</Glossary> that does not specify the shipment contents description. With this enhancement, shippers can keep the declared value of a shipment confidential from the final recipient. This service ensures that any document that could disclose the value of the contents is removed from the shipment before it is delivered.
-    * **Verified Delivery (TF)**: Enables verified delivery using a QR code. DHL sends the QR code to the receiver, who must present it to the courier at the time of delivery.
-    * **Email Notifications**: Sends email notifications to the recipient regarding shipment status updates. This enhancement does not have a special service code, as it is automatically triggered by the system when the Destination > ContactEmail field is populated in the Create Shipment request.
-    * **ID8000 Dangerous Goods (HK)**: Generates the ID8000 label for shipments containing dangerous goods, ensuring compliance with safety regulations.
-    * **Excepted Quantities (HH)**: Specifies shipments that include small quantities of dangerous goods exempt from standard regulations.
+    - **Saturday Delivery (AA)**: Enables delivery on Saturdays, offering greater flexibility in shipping schedules.
+    - **Adult Signature (SD)**: Requires an adult signature upon delivery of the shipment, ensuring that the package is received by someone of legal age.
+    - **Shipment Insurance (II)**: Provides insurance coverage for the shipment against loss or damage. If this enhancement is used, then the InsuranceValue field must be populated.
+    - **Neutral Label (PP)**: Uses a generic shipment <Glossary>label</Glossary> that does not specify the shipment contents description. With this enhancement, shippers can keep the declared value of a shipment confidential from the final recipient. This service ensures that any document that could disclose the value of the contents is removed from the shipment before it is delivered.
+    - **Verified Delivery (TF)**: Enables verified delivery using a QR code. DHL sends the QR code to the receiver, who must present it to the courier at the time of delivery.
+    - **Email Notifications**: Sends email notifications to the recipient regarding shipment status updates. This enhancement does not have a special service code, as it is automatically triggered by the system when the Destination > ContactEmail field is populated in the Create Shipment request.
+    - **ID8000 Dangerous Goods (HK)**: Generates the ID8000 label for shipments containing dangerous goods, ensuring compliance with safety regulations.
+    - **Excepted Quantities (HH)**: Specifies shipments that include small quantities of dangerous goods exempt from standard regulations.
 
-    <br />
+
 
     <Callout icon="💡" theme="default">
-      ### *Tip*
+      ### _Tip_
 
-      *For more information on the service enhancements and carrier services, refer to the API References section.*
+      _For more information on the service enhancements and carrier services, refer to the API References section._
     </Callout>
   </Tab>
 
@@ -117,12 +117,12 @@ DHL is the global leader in the logistics industry. DHL Express is a brand withi
     | **Express 09:00 documents**             | This service provides early morning international delivery of document shipments before 9:00 AM on the next working day, ensuring urgent delivery with priority handling and tracking.                      |
     | **Express 10:30 documents**             | This service provides time-definite international delivery of document shipments before 10:30 AM on the next working day, with expedited transit and full tracking visibility.                              |
 
-    <br />
+
 
     <Callout icon="💡" theme="default">
-      ### *Tip*
+      ### _Tip_
 
-      *For the most up-to-date carrier services, use the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint.*
+      _For the most up-to-date carrier services, use the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint._
     </Callout>
   </Tab>
 </Tabs>
@@ -137,10 +137,10 @@ DHL is the global leader in the logistics industry. DHL Express is a brand withi
       The integration for creating shipments to reflect DHL Express as a primary carrier and allowing users to create shipments using the Create Shipment that returns the label in base64 encoded format.
     </Accordion>
 
-    <br />
+
 
     <Accordion title="Manifest Shipment">
-      Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT Manifest Webhook to keep track of shipments and their statuses by receiving real-time updates or notifications whenever specific events occur in the system, such as shipping updates and status changes.
+      Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/v4.03/docs/manifest-webhook), which provides updates on manifest requests, allowing you to track the progress and status of shipments prepared for carrier collection and delivery.
     </Accordion>
   </Tab>
 
@@ -148,16 +148,20 @@ DHL is the global leader in the logistics industry. DHL Express is a brand withi
     <Accordion title="Print Label">
       Generate and return the label for DHL Express shipment in the PDF or PNG format. This endpoint must be utilised when the label is not generated in the DHL Express Create Shipment request.
 
-      > 📘 *Note*
-      >
-      > *This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting.*
+      <Callout icon="📘" theme="info">
+        ### _Note_
+
+        _This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting._
+      </Callout>
     </Accordion>
-    <br />
+
+
+
     <Accordion title="Tracking">
       Enables customers to receive tracking updates through their integration with the SAPIENT tracking webhook.
     </Accordion>
 
-    <br />
+
 
     <Accordion title="Archive Labels">
       Allows saving DHL waybill documents from the create shipment response in the database and includes them in the manifest PDF when shipments are manifested.
@@ -171,20 +175,20 @@ DHL is the global leader in the logistics industry. DHL Express is a brand withi
 
 <Tabs>
   <Tab title="Account Setup">
-    <Cards columns={2}>
-      <Card title="Add DHL Express Shipping Account" icon="fa-solid fa-truck" href="https://docs.intersoftsapient.net/docs/add-dhl-express-shipping-account">
+    <Cards>
+      <Card title="Add DHL Express Shipping Account" href="https://docs.intersoftsapient.net/docs/add-dhl-express-shipping-account" icon="fa-solid fa-truck">
         Set up your DHL Express shipping account to start creating shipments.
       </Card>
 
-      <Card title="Add DHL Express Tracking Account" icon="fa-solid fa-search-location" href="https://docs.intersoftsapient.net/docs/add-dhl-express-tracking-account">
+      <Card title="Add DHL Express Tracking Account" href="https://docs.intersoftsapient.net/docs/add-dhl-express-tracking-account" icon="fa-solid fa-search-location">
         Configure tracking for your DHL Express shipments.
       </Card>
     </Cards>
   </Tab>
 
   <Tab title="API References">
-    <Cards columns={2}>
-      <Card title="SAPIENT DHL Express API" icon="fa-solid fa-code" href="https://docs.intersoftsapient.net/reference/post_v4-shippingaccounts-dhlexpress">
+    <Cards>
+      <Card title="SAPIENT DHL Express API" href="https://docs.intersoftsapient.net/reference/post_v4-shippingaccounts-dhlexpress" icon="fa-solid fa-code">
         Explore the DHL Express API endpoints for a seamless shipping experience.
       </Card>
     </Cards>
@@ -193,10 +197,8 @@ DHL is the global leader in the logistics industry. DHL Express is a brand withi
 
 <Banner isInline={true} message="Ready to integrate?" color="#ffb600" textColor="#ffffff" fontSize="20px" fontWeight="bold" width="120px" />
 
-<Cards columns={0}>
+<Cards>
   <Card title="Activate this integration" href="https://docs.intersoftsapient.net/docs/integration-activation#/" icon="fa-solid fa-circle-play fa-beat" target="_blank">
     Seamlessly connect with DHL Express and manage your shipping operations from a single platform.
   </Card>
 </Cards>
-
-<br />
