@@ -43,8 +43,6 @@ metadata:
   ## System maintenance
 
   Routine back-end work, minor UI enhancements, and performance improvements were addressed and deployed.
-
-
 </Accordion>
 
 <Accordion title="SAPIENT release notes - June 29, 2026">
@@ -600,8 +598,6 @@ metadata:
   | 2nd Class    | STL2                      |
 
 
-
-
   <Image src="https://files.readme.io/c39220c3e365dc6b73e85fb2222362ee9de492acadc1a2ab2085091ca4c0ac38-image.png" align="center" width="300px" />
 
 
@@ -736,6 +732,4 @@ metadata:
 
     _This is just the first phase of our redesign. The second phase is currently under development, which will introduce even more improvements, features, and upgrades to our documentation._
   </Callout>
-
-
 </Accordion>
