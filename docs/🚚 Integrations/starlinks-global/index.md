@@ -150,7 +150,7 @@ The integration of Starlinks Global into the SAPIENT platform is a significant s
 <Banner isInline={true} message="Ready to integrate?" color="#ffb600" textColor="#ffffff" fontSize="20px" fontWeight="bold" width="120px" />
 
 <Cards>
-  <Card column="1" title="Activate this integration" href="https://docs.intersoftsapient.net/docs/integration-activation#/" icon="fa-solid fa-circle-play fa-beat" target="_blank">
+  <Card columns="0" title="Activate this integration" href="https://docs.intersoftsapient.net/docs/integration-activation#/" icon="fa-solid fa-circle-play fa-beat" target="_blank">
     Seamlessly connect with Starlinks Global and manage your shipping operations from a single platform.
   </Card>
 </Cards>
