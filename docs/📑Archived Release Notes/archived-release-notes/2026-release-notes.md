@@ -10,7 +10,7 @@ metadata:
   robots: index
 ---
 <Accordion title="SAPIENT release notes - July 21, 2026">
-  ## Swagger documentation updates
+  # Swagger documentation updates
 
   The following updates have been made to our Swagger documentation:&#x20;
 
@@ -40,7 +40,7 @@ metadata:
     _For more information, refer to the&#x20;_[_Get PUDO Locations_](https://docs.intersoftsapient.net/reference/get_v4-pudolocations-carriercode-countrycode-postcode)_&#x20;endpoint._
   </Callout>
 
-  ## System maintenance
+  # System maintenance
 
   Routine back-end work, minor UI enhancements, and performance improvements were addressed and deployed.
 </Accordion>
