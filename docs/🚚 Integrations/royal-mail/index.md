@@ -128,17 +128,20 @@ This integration represents a significant step towards optimising shipping funct
     <Accordion title="Create Shipment">
       The integration for creating shipments to reflect Royal Mail as a primary carrier and allowing users to create shipments using the **Create Shipment** endpoint.
     </Accordion>
-    <br />
+
+
 
     <Accordion title="Print My Label QR Code">
       Generate an easy-to-scan QR code for the associated label specified in the **PrintLabel** API endpoint. This endpoint can only be used for Royal Mail Tracked Return services.
     </Accordion>
-    <br />
+
+
 
     <Accordion title="Trackings">
       Register up to 1000 tracking numbers in a single API request and get real-time updates on your Royal Mail shipments.
     </Accordion>
-    <br />
+
+
 
     <Accordion title="Manifest Webhook">
       Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/v4.03/docs/manifest-webhook), which provides updates on manifest requests, allowing you to track the progress and status of shipments prepared for carrier collection and delivery.
@@ -169,17 +172,20 @@ This integration represents a significant step towards optimising shipping funct
         _This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting._
       </Callout>
     </Accordion>
-    <br />
+
+
 
     <Accordion title="Pre Allocate Tracking Number">
       Receive a Royal Mail Tracking Number that will be pre-allocated to the service and destination supplied in the request. No shipment or label will be produced using this endpoint. This endpoint can only be used for services that are assigned a tracking number.
     </Accordion>
-    <br />
+
+
 
     <Accordion title="Offline Barcoding">
       Request a specific range of barcodes for use in your shipping processes. Offline Barcoding is only available if it has been activated on your customer account in the GUI.
     </Accordion>
-    <br />
+
+
 
     <Accordion title="PUDO Locations">
       Retrieves a list of Pick-Up and Drop-Off (PUDO) locations associated with a specified carriers that are within a set radius of the postcode provided in the request. That radius is set to 10 Miles / 16.09 Kilometres.
@@ -190,7 +196,8 @@ This integration represents a significant step towards optimising shipping funct
         _This endpoint must be called before the_**_Create Shipment_**_&#x20;endpoint so that the desired PUDO location is selected in the Create Shipment request._
       </Callout>
     </Accordion>
-    <br />
+
+
 
     <Accordion title="International Arrivals Containers">
       Create and name (with and ID or alias) a new international arrivals container to be used for manifesting a specific group of shipments. Define which carrier and shipping location the container should be linked to.
