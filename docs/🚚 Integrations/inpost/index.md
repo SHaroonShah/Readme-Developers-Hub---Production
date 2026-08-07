@@ -23,7 +23,7 @@ This integration offers several key features that streamline the shipping proces
 
 <Tabs>
   <Tab title="Key Features">
-    <Cards columns={2}>
+    <Cards>
       <Card title="Shipping Origins" icon="fa-map-marker-alt">
         ThThe integration supports shipping from locations in Great Britain (GB) mainland only (England, Wales, and Scotlabd).
       </Card>
@@ -41,11 +41,11 @@ This integration offers several key features that streamline the shipping proces
       </Card>
     </Cards>
 
-    <br />
+
   </Tab>
 
   <Tab title="Additional Features">
-    <Cards column={1}>
+    <Cards>
       <Card title="Labelled B2C" icon="fa-solid fa-tag">
         Generates and returns a label to be attached to the parcel for a B2C business transaction type deliveries.
       </Card>
@@ -57,9 +57,11 @@ This integration offers several key features that streamline the shipping proces
   </Tab>
 
   <Tab title="Service Enhancements">
-    > 📘 *Note*
-    >
-    > *There are no service enhancements for this integration.*
+    <Callout icon="📘" theme="info">
+      ### _Note_
+
+      _There are no service enhancements for this integration._
+    </Callout>
   </Tab>
 
   <Tab title="Carrier Services">
@@ -70,12 +72,12 @@ This integration offers several key features that streamline the shipping proces
     | **Labelled B2C**      | This service provides business-to-consumer parcel delivery using a printed shipping label, where the sender generates and attaches the label before drop-off at an InPost locker or shop.                                                                                      |
     | **Labelless Returns** | This service provides a label-free returns solution using a QR code, allowing customers to drop off parcels at the desired <Glossary>PUDO</Glossary> location, such as lockers or shops without printing labels, with tracking and labelling handled by InPost during transit. |
 
-    <br />
+
 
     <Callout icon="💡" theme="default">
-      ### *Tip*
+      ### _Tip_
 
-      *For the most up-to-date carrier services, use the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint.*
+      _For the most up-to-date carrier services, use the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint._
     </Callout>
   </Tab>
 </Tabs>
@@ -90,17 +92,19 @@ This integration offers several key features that streamline the shipping proces
       The integration for creating shipments to reflect EVRi as a primary carrier and allowing users to create shipments using the **Create Shipment** endpoint.
     </Accordion>
 
-    <br />
+
 
     <Accordion title="Manifest shipment">
-      Enable customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/docs/manifest-webhook) to keep track of shipments and their statuses by to receiving real-time updates or notifications whenever specific events occur in the system (such as shipping updates, status changes, and so on).
+      Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/v4.03/docs/manifest-webhook), which provides updates on manifest requests, allowing you to track the progress and status of shipments prepared for carrier collection and delivery.
 
-      > 📘 *Note*
-      >
-      > *If any created shipments have not been manifested, it is advised to cancel them to avoid unwanted labels.*
+      <Callout icon="📘" theme="info">
+        ### _Note_
+
+        _If any created shipments have not been manifested, it is advised to cancel them to avoid unwanted labels._
+      </Callout>
     </Accordion>
 
-    <br />
+
 
     <Accordion title="Get PUDO locations">
       Enable customers to users to access essential shipping options for both sending and returning packages seamlessly via the [Get PUDO Locations endpoint](https://docs.intersoftsapient.net/reference/get_v4-pudolocations-carriercode-countrycode-postcode).
@@ -111,11 +115,15 @@ This integration offers several key features that streamline the shipping proces
     <Accordion title="Print Label">
       Generate and return the label for an InPost shipment in the PDF format. This endpoint must be utilised when the label is not generated in the InPost Create Shipment request.
 
-      > 📘 *Note*
-      >
-      > *This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting.*
+      <Callout icon="📘" theme="info">
+        ### _Note_
+
+        _This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting._
+      </Callout>
     </Accordion>
-    <br />
+
+
+
     <Accordion title="Tracking">
       This integration allows customers to monitor their shipments in real-time, providing transparency and peace of mind. Users can access detailed tracking information, including, real-time updates, tracking numbers, and delivery notifications.
     </Accordion>
@@ -128,28 +136,28 @@ This integration offers several key features that streamline the shipping proces
 
 <Tabs>
   <Tab title="Account Setup">
-    <Cards columns={3}>
-      <Card title="Add InPost Shipping Account" icon="fa-solid fa-truck" href="https://docs.intersoftsapient.net/docs/add-inpost-shipping-account">
+    <Cards>
+      <Card title="Add InPost Shipping Account" href="https://docs.intersoftsapient.net/docs/add-inpost-shipping-account" icon="fa-solid fa-truck">
         Set up your InPost shipping account to start creating shipments.
       </Card>
 
-      <Card title="Add InPost Tracking Account" icon="fa-solid fa-search-location" href="https://docs.intersoftsapient.net/docs/add-inpost-tracking-account">
+      <Card title="Add InPost Tracking Account" href="https://docs.intersoftsapient.net/docs/add-inpost-tracking-account" icon="fa-solid fa-search-location">
         Configure tracking for your InPost shipments.
       </Card>
 
-      <Card title="Use Inpost PUDO service" icon="fa-solid fa-search-location" href="https://docs.intersoftsapient.net/docs/pudo-integration">
+      <Card title="Use Inpost PUDO service" href="https://docs.intersoftsapient.net/docs/pudo-integration" icon="fa-solid fa-search-location">
         Utilise the SAPIENT Pick Up and Drop Off (PUDO) service to use a convenient out of home option to collect or return InPost parcels at designated locations.
       </Card>
     </Cards>
   </Tab>
 
   <Tab title="API References">
-    <Cards columns={2}>
-      <Card title="SAPIENT InPost API" icon="fa-solid fa-code" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-inpost">
+    <Cards>
+      <Card title="SAPIENT InPost API" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-inpost" icon="fa-solid fa-code">
         Explore the InPost API endpoints for a seamless shipping experience.
       </Card>
 
-      <Card title="Get PUDO Locations" icon="fa-solid fa-code" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-inpost">
+      <Card title="Get PUDO Locations" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-inpost" icon="fa-solid fa-code">
         Explore the SAPIENT's core PUDO Locations endpoint to reetrieve a list of Pick-Up and Drop-Off (PUDO) locations associated with InPost.
       </Card>
     </Cards>
@@ -166,10 +174,8 @@ This integration offers several key features that streamline the shipping proces
 
 <Banner isInline={true} message="Ready to integrate?" color="#ffb600" textColor="#ffffff" fontSize="20px" fontWeight="bold" width="120px" />
 
-<Cards columns={0}>
+<Cards>
   <Card title="Activate this integration" href="https://docs.intersoftsapient.net/docs/integration-activation#/" icon="fa-solid fa-circle-play fa-beat" target="_blank">
     Seamlessly connect with InPost and manage your shipping operations from a single platform.
   </Card>
 </Cards>
-
-<br />
