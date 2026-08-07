@@ -32,7 +32,7 @@ The UPS carrier integration within the SAPIENT system enables seamless communica
 
 <Tabs>
   <Tab title="Key Features">
-    <Cards columns={3}>
+    <Cards>
       <Card title="Shipping Origins" icon="fa-map-marker-alt">
         The integration supports shipping from locations in Great Britain (GB) only.
       </Card>
@@ -54,11 +54,11 @@ The UPS carrier integration within the SAPIENT system enables seamless communica
       </Card>
     </Cards>
 
-    <br />
+
   </Tab>
 
   <Tab title="Additional Features">
-    <Cards columns={2}>
+    <Cards>
       <Card title="Multi-piece Shipments" icon="fa-solid fa-boxes-stacked">
         UPS supports a maximum of 99999 pieces per single shipment request.
       </Card>
@@ -74,14 +74,15 @@ The UPS carrier integration within the SAPIENT system enables seamless communica
   </Tab>
 
   <Tab title="Service Enhancements">
-The following are the key service enhancements provided by the UPS integration:
-* **Email Notification**: To use this enhancement, you must provide a valid email address.
-* **QV (Quantum View) Ship**: Sends an email notification to the shipper when the shipment has been shipped.
-* **QV Exception**: Notifies the shipper via email if there is an exception or issue with the shipment during transit.
-* **QV Delivery**: Allows UPS to send an email notification to the shipper when the shipment has been successfully delivered.
-* **Alternate Delivery Location**: Sends an email notification to the shipper with details of the alternative delivery location if the package cannot be delivered to the original address.
-* **Saturday Delivery**: Permits delivery on Saturdays, offering greater flexibility in shipping schedules.
-* **Adult Signature**: Requires an adult signature upon delivery, ensuring that the package is received by someone of legal age.
+    The following are the key service enhancements provided by the UPS integration:
+
+    - **Email Notification**: To use this enhancement, you must provide a valid email address.
+    - **QV (Quantum View) Ship**: Sends an email notification to the shipper when the shipment has been shipped.
+    - **QV Exception**: Notifies the shipper via email if there is an exception or issue with the shipment during transit.
+    - **QV Delivery**: Allows UPS to send an email notification to the shipper when the shipment has been successfully delivered.
+    - **Alternate Delivery Location**: Sends an email notification to the shipper with details of the alternative delivery location if the package cannot be delivered to the original address.
+    - **Saturday Delivery**: Permits delivery on Saturdays, offering greater flexibility in shipping schedules.
+    - **Adult Signature**: Requires an adult signature upon delivery, ensuring that the package is received by someone of legal age.
   </Tab>
 
   <Tab title="Carrier Services">
@@ -95,12 +96,12 @@ The following are the key service enhancements provided by the UPS integration:
     | **UPS Worldwide Expedited Plus** (next business day) | This service provides premium express service with the fastest international delivery times.                                                                                                                                                                                            |
     | **UPS Worldwide Saver** (1-3 business days)          | This service provides guaranteed afternoon delivery to over 215 countries. and territories.                                                                                                                                                                                             |
 
-    <br />
+
 
     <Callout icon="💡" theme="default">
-      ### *Tip*
+      ### _Tip_
 
-      *For the most up-to-date carrier services, use the[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint.*
+      _For the most up-to-date carrier services, use the[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint._
     </Callout>
   </Tab>
 </Tabs>
@@ -115,10 +116,10 @@ The following are the key service enhancements provided by the UPS integration:
       The integration for creating shipments to reflect UPS as a primary carrier and allowing users to create individual shipments requests using the **Create Shipment** endpoint.
     </Accordion>
 
-    <br />
+
 
     <Accordion title="Manifest Shipment">
-      Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/v4.03/docs/manifest-webhook) to keep track of shipments and their statuses by to receiving real-time updates or notifications whenever specific events occur in the system (such as shipping updates, status changes, and so on).
+      Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/v4.03/docs/manifest-webhook), which provides updates on manifest requests, allowing you to track the progress and status of shipments prepared for carrier collection and delivery.
     </Accordion>
   </Tab>
 
@@ -126,12 +127,14 @@ The following are the key service enhancements provided by the UPS integration:
     <Accordion title="Print Label">
       Generate and return the label for a UPS shipment in the supported label formats. This endpoint must be utilised when the label is not generated in the DHL Germany Create Shipment request.
 
-      > 📘 *Note*
-      >
-      > *This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting.*
+      <Callout icon="📘" theme="info">
+        ### _Note_
+
+        _This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting._
+      </Callout>
     </Accordion>
 
-    <br />
+
 
     <Accordion title="Tracking">
       Enables customers to receive tracking updates through their integration with the SAPIENT tracking webhook.
@@ -145,7 +148,7 @@ The following are the key service enhancements provided by the UPS integration:
 
 <Tabs>
   <Tab title="Account Setup">
-    <Cards columns={2}>
+    <Cards>
       <Card title="Add Shipping Account" href="https://docs.intersoftsapient.net/docs/shipping-account-setup" icon="fa-solid fa-truck">
         Access the step-by-step guide on how to set up a UPS shipping account on SAPIENT.
       </Card>
@@ -167,10 +170,8 @@ The following are the key service enhancements provided by the UPS integration:
 
 <Banner isInline={true} message="Ready to integrate?" color="#ffb600" textColor="#ffffff" fontSize="20px" fontWeight="bold" width="120px" />
 
-<Cards columns={0}>
+<Cards>
   <Card title="Activate this integration" href="https://docs.intersoftsapient.net/docs/integration-activation#/" icon="fa-solid fa-circle-play fa-beat" target="_blank">
     Seamlessly connect with UPS and manage your shipping operations from a single platform.
   </Card>
 </Cards>
-
-<br />
