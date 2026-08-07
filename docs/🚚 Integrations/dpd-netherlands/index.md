@@ -23,7 +23,7 @@ The integration of DPD NL into the SAPIENT platform is a significant step in enh
 
 <Tabs>
   <Tab title="Key Features">
-    <Cards columns={2}>
+    <Cards>
       <Card title="Shipping Origins" icon="fa-map-marker-alt">
         ThThe integration supports shipping from locations in Great Britain (GB) only.
       </Card>
@@ -45,15 +45,15 @@ The integration of DPD NL into the SAPIENT platform is a significant step in enh
       </Card>
     </Cards>
 
-    <br />
+
   </Tab>
 
   <Tab title="Additional Features">
-    <Cards columns={2}>
+    <Cards>
       <Card title="Consignment services" icon="fa-solid fa-boxes-stacked">
         Consignment services are supported, and DPD UK allows a maximum of 99 packages per consignment.
 
-        > *Please bear in mind that not all services offer consignment options.*
+        > _Please bear in mind that not all services offer consignment options._
       </Card>
 
       <Card title="Carrier-Specific Fields" icon="fa-solid fa-list-check">
@@ -63,7 +63,7 @@ The integration of DPD NL into the SAPIENT platform is a significant step in enh
   </Tab>
 
   <Tab title="Service Enhancements">
-    <Cards columns={2}>
+    <Cards>
       <Card title="Proof of Identity" icon="fa-solid fa-id-card">
         Requires the receiver to present valid identification at the point of delivery.
       </Card>
@@ -81,15 +81,15 @@ The integration of DPD NL into the SAPIENT platform is a significant step in enh
       </Card>
     </Cards>
 
-    <br />
+
 
     <Callout icon="💡" theme="default">
-      ### *Tip*
+      ### _Tip_
 
-      *For more information on the service enhancements and carrier services, refer to the following endpoints:*
+      _For more information on the service enhancements and carrier services, refer to the following endpoints:_
 
-      * *[Create Shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-dpduk)*
-      * *[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services)*
+      - _[Create Shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-dpduk)_
+      - _[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services)_
     </Callout>
   </Tab>
 
@@ -107,12 +107,12 @@ The integration of DPD NL into the SAPIENT platform is a significant step in enh
     | **DPD Home Saturday**                                    | This service provides home delivery on Saturdays, enabling parcels collected during the week to be delivered to residential addresses at the weekend with full tracking visibility.                |
     | **DPD Business Saturday**                                | This service provides business delivery on Saturdays, allowing shipments to be delivered outside standard weekday business hours for improved flexibility and continuity of operations.            |
 
-    <br />
+
 
     <Callout icon="💡" theme="default">
-      ### *Tip*
+      ### _Tip_
 
-      *For the most up-to-date carrier services, use the[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint.*
+      _For the most up-to-date carrier services, use the[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint._
     </Callout>
   </Tab>
 </Tabs>
@@ -127,10 +127,10 @@ The integration of DPD NL into the SAPIENT platform is a significant step in enh
       The integration for creating shipments to reflect DPD NL as a primary carrier and allowing users to create individual shipments requests using the **Create Shipment** endpoint.
     </Accordion>
 
-    <br />
+
 
     <Accordion title="Manifest Shipment">
-      Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/v4.03/docs/manifest-webhook) to keep track of shipments and their statuses by to receiving real-time updates or notifications whenever specific events occur in the system (such as shipping updates, status changes, and so on).
+      Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/v4.03/docs/manifest-webhook), which provides updates on manifest requests, allowing you to track the progress and status of shipments prepared for carrier collection and delivery.
     </Accordion>
   </Tab>
 
@@ -138,12 +138,14 @@ The integration of DPD NL into the SAPIENT platform is a significant step in enh
     <Accordion title="Print Label">
       Generate and return the label for a DPD NL shipment in the supported label formats. This endpoint must be utilised when the label is not generated in the DPD NL Create Shipment request.
 
-      > 📘 *Note*
-      >
-      > *This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting.*
+      <Callout icon="📘" theme="info">
+        ### _Note_
+
+        _This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting._
+      </Callout>
     </Accordion>
 
-    <br />
+
 
     <Accordion title="Tracking">
       Enables customers to receive tracking updates through their integration with the SAPIENT tracking webhook.
@@ -157,20 +159,20 @@ The integration of DPD NL into the SAPIENT platform is a significant step in enh
 
 <Tabs>
   <Tab title="Account Setup">
-    <Cards columns={2}>
-      <Card title="Add DPD Netherlands Shipping Account" icon="fa-solid fa-truck" href="https://docs.intersoftsapient.net/docs/add-dpd-netherlands-shipping-account">
+    <Cards>
+      <Card title="Add DPD Netherlands Shipping Account" href="https://docs.intersoftsapient.net/docs/add-dpd-netherlands-shipping-account" icon="fa-solid fa-truck">
         Set up your DPD Netherlands shipping account to start creating shipments.
       </Card>
 
-      <Card title="Add DPD Netherlands Tracking Account" icon="fa-solid fa-search-location" href="https://docs.intersoftsapient.net/docs/add-dpd-nl-tracking-account">
+      <Card title="Add DPD Netherlands Tracking Account" href="https://docs.intersoftsapient.net/docs/add-dpd-nl-tracking-account" icon="fa-solid fa-search-location">
         Configure tracking for your DPD Netherlands shipments.
       </Card>
     </Cards>
   </Tab>
 
   <Tab title="API References">
-    <Cards columns={2}>
-      <Card title="SAPIENT DPD Netherlands API" icon="fa-solid fa-code" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-dpdnl">
+    <Cards>
+      <Card title="SAPIENT DPD Netherlands API" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-dpdnl" icon="fa-solid fa-code">
         Explore the DPD Netherlands API endpoints for a seamless shipping experience.
       </Card>
     </Cards>
@@ -179,10 +181,8 @@ The integration of DPD NL into the SAPIENT platform is a significant step in enh
 
 <Banner isInline={true} message="Ready to integrate?" color="#ffb600" textColor="#ffffff" fontSize="20px" fontWeight="bold" width="120px" />
 
-<Cards columns={0}>
+<Cards>
   <Card title="Activate this integration" href="https://docs.intersoftsapient.net/docs/integration-activation#/" icon="fa-solid fa-circle-play fa-beat" target="_blank">
     Seamlessly connect with DPD Netherlands and manage your shipping operations from a single platform.
   </Card>
 </Cards>
-
-<br />
