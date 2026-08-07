@@ -15,7 +15,9 @@ metadata:
 next:
   description: ''
 ---
-<Image align="center" width="900px" src="https://files.readme.io/ed4b0e49c08719ebbc9ac569d952798457c6cf7205c33335f35fa9bc462e65e3-DX_Freight_white_banner.png" />
+
+<Image src="https://files.readme.io/ed4b0e49c08719ebbc9ac569d952798457c6cf7205c33335f35fa9bc462e65e3-DX_Freight_white_banner.png" align="center" width="900px" />
+
 
 ***
 
@@ -25,13 +27,15 @@ Freight is one of DX's core solutions, also referred to as _IDW_ (Irregular Dime
 
 <Tabs>
   <Tab title="Key Features">
-    <Cards columns={3}>
+    <Cards>
       <Card title="Shipping Origins" icon="fa-map-marker-alt">
         The integration supports shipping from locations in Great Britain (GB) only.
       </Card>
 
       <Card title="Shipping Destinations" icon="fa-solid fa-globe">
         Users can send <Glossary>shipments</Glossary> to Great Britain (GB) and Channel Islands (CI).
+
+        > _Shipments to Channel Islands are treated as domestic destination for freight shipments._
       </Card>
 
       <Card title="Service Type" icon="fa-solid fa-shipping-fast">
@@ -45,15 +49,13 @@ Freight is one of DX's core solutions, also referred to as _IDW_ (Irregular Dime
       <Card title="Label Formats" icon="fa-solid fa-tag">
         The integration support labels in <Glossary>PDF</Glossary>, <Glossary>ZPL203DPI</Glossary>, and <Glossary>ZPL300DPI</Glossary> formats.
       </Card>
+
+      <Card>
+
+      </Card>
     </Cards>
 
-    <br />
 
-    > 📘 *Note*
-    >
-    > *Bear in mind that shipments to Channel Islands are treated as domestic destination for freight shipments.*
-
-    <br />
   </Tab>
 
   <Tab title="Additional Features">
@@ -61,37 +63,39 @@ Freight is one of DX's core solutions, also referred to as _IDW_ (Irregular Dime
       DX Freight supports a maximum of 999 packages in a shipment, but the SAPIENT maximum—99 is used instead.
     </Accordion>
 
-    <br />
+
 
     <Accordion title="DX-1 service">
       A 1-man service type that is typically deigned for door to door standard next-day delivery of parcels weighing up to a specific limit (50 kg) to the capability of effectively handling pallets. This service is usually best for smaller and lighter <Glossary>package</Glossary>s. 1Man service type includes the following services:
 
-      * **ON**: Overnight
-      * **3D**: 3Day
-      * 930: Overnight 9:30
-      * AM: Overnight pre noon
-      * SAT: Saturday
-      * S93: Saturday 9:30
+      - **ON**: Overnight
+      - **3D**: 3Day
+      - 930: Overnight 9:30
+      - AM: Overnight pre noon
+      - SAT: Saturday
+      - S93: Saturday 9:30
     </Accordion>
 
-    <br />
+
 
     <Accordion title="DX-2 service">
       A 2-man service type that caters to larger and heavier <Glossary>shipments</Glossary>, typically allowing for items that require 2-person handling due to their size or weight. This service is useful particularly for businesses that deal with bulky items or items that cannot be managed by one person. 2Man service type includes the following services:
 
-      * **H1**: 2Man Overnight
-      * **H2**: 2Man Standard
-      * **HS**: 2Man Saturday
-      * **C1**: 2Man Collection Overnight
-      * **C2**: 2Man Collection Standard
-      * **CS**: 2Man Saturday Only
+      - **H1**: 2Man Overnight
+      - **H2**: 2Man Standard
+      - **HS**: 2Man Saturday
+      - **C1**: 2Man Collection Overnight
+      - **C2**: 2Man Collection Standard
+      - **CS**: 2Man Saturday Only
     </Accordion>
   </Tab>
 
   <Tab title="Service Enhancements">
-    > 📘 *Note*
-    >
-    > *There are no service enhancements for this integration.*
+    <Callout icon="📘" theme="info">
+      ### _Note_
+
+      _There are no service enhancements for this integration._
+    </Callout>
   </Tab>
 
   <Tab title="Carrier Services">
@@ -109,12 +113,12 @@ Freight is one of DX's core solutions, also referred to as _IDW_ (Irregular Dime
     | **Saturday 9:30**      | This service provides Saturday delivery of freight by 9:30 AM, ensuring early weekend delivery for time-sensitive consignments.                                                      |
     | **Saturday**           | This service provides standard Saturday delivery of freight, enabling weekend delivery of heavy or bulky items with full tracking and reliable handling.                             |
 
-    <br />
+
 
     <Callout icon="💡" theme="default">
-      ### *Tip*
+      ### _Tip_
 
-      *For the most up-to-date carrier services, use the[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint.*
+      _For the most up-to-date carrier services, use the[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint._
     </Callout>
   </Tab>
 </Tabs>
@@ -129,16 +133,16 @@ Freight is one of DX's core solutions, also referred to as _IDW_ (Irregular Dime
       The integration for creating shipments to reflect DX Freight as a primary carrier and allowing users to create shipments using the **Create Shipment** endpoint.
     </Accordion>
 
-    <br />
+
 
     <Accordion title="Delete Shipment">
       The integration to delete an existing shipment cancelled in SAPIENT.
     </Accordion>
 
-    <br />
+
 
     <Accordion title="Manifest Shipment">
-      Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/v4.03/docs/manifest-webhook) to keep track of shipments and their statuses by to receiving real-time updates or notifications whenever specific events occur in the system (such as shipping updates, status changes, and so on).
+      Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/v4.03/docs/manifest-webhook), which provides updates on manifest requests, allowing you to track the progress and status of shipments prepared for carrier collection and delivery.
     </Accordion>
   </Tab>
 
@@ -146,12 +150,14 @@ Freight is one of DX's core solutions, also referred to as _IDW_ (Irregular Dime
     <Accordion title="Print Label">
       Generate and return the label for a DX Freight shipment in the PDF or ZPL format. This endpoint must be utilised when the label is not generated in the DXF Create Shipment request.
 
-      > 📘 *Note*
-      >
-      > *This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting.*
+      <Callout icon="📘" theme="info">
+        ### _Note_
+
+        _This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting._
+      </Callout>
     </Accordion>
 
-    <br />
+
 
     <Accordion title="Tracking">
       This integration allows customers to monitor their shipments in real-time, providing transparency and peace of mind. Users can access detailed tracking information, including, real-time updates, tracking numbers, and delivery notifications. For DXF shipments, the data files are sent via SFTP for both—1Man and 2Man services.
@@ -165,7 +171,7 @@ Freight is one of DX's core solutions, also referred to as _IDW_ (Irregular Dime
 
 <Tabs>
   <Tab title="Account Setup">
-    <Cards columns={2}>
+    <Cards>
       <Card title="Add Shipping Account" href="https://docs.intersoftsapient.net/docs/add-dx-freight-shipping-account" icon="fa-solid fa-truck">
         Access the step-by-step guide on how to set up a DX Freight shipping account on SAPIENT.
       </Card>
@@ -195,10 +201,8 @@ Freight is one of DX's core solutions, also referred to as _IDW_ (Irregular Dime
 
 <Banner isInline={true} message="Ready to integrate?" color="#ffb600" textColor="#ffffff" fontSize="20px" fontWeight="bold" width="120px" />
 
-<Cards columns={0}>
+<Cards>
   <Card title="Activate this integration" href="https://docs.intersoftsapient.net/docs/integration-activation#/" icon="fa-solid fa-circle-play fa-beat" target="_blank">
     Seamlessly connect with DX Freight and manage your shipping operations from a single platform.
   </Card>
 </Cards>
-
-<br />
