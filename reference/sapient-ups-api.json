@@ -1,7 +1,7 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "SAPIENT UPS API",
+    "title": "UPS",
     "description": "# Introduction\nHere you will find requirements for integrating with INTERSOFT SAPIENT API.\n\nThe documentation specifically covers how the API can be used by business customers to conduct shipping activity with available carriers and provides the technical information to build this integration. The API allows customers to create and manage shipments, produce labels, customs documentation, and collection manifests, retrieve reference data such as carriers and countries, and maintain their own data such as shipping account details.\n\nIntersoft API is a fully RESTful service implemented using JSON messaging. You, as the customer are responsible for sending JSON messages and for maintaining the capability of receiving JSON messages in the format described in this specification. Request and response examples for each API service are included in this specification.\n\n# Authentication\n\nThe INTERSOFT SAPIENT API uses OAuth2 authentication.\n\nTo request the authorization token you need to create API credentials (Client ID and Secret) on the system first. If you have not done it already, log into your account and go to API Credentials or follow the link [add a link here with the path to the API Credentials menu]. Use the credentials to retrieve the authorization token.\n\nNote: Make sure you copy the Secret and keep it secure as you won't be able to view it again on the system.\n\n<!-- ReDoc-Inject: <SecurityDefinitions /> -->\n",
     "version": "v4.0-UPS",
     "x-logo": {
@@ -95,7 +95,7 @@
                       "ContactNumber": "0123456789",
                       "UpsClientId": "ClientId",
                       "LastUpdatedBy": "User A",
-                      "LastUpdatedDateUtc": "2026-06-10T08:09:32.898Z"
+                      "LastUpdatedDateUtc": "2026-08-11T08:43:51.997Z"
                     },
                     {
                       "ShippingAccountId": "46d58272-5f6a-405d-a947-c46c9caea56f",
@@ -109,7 +109,7 @@
                       "ContactNumber": "0123456789",
                       "UpsClientId": "ClientId",
                       "LastUpdatedBy": "User B",
-                      "LastUpdatedDateUtc": "2026-06-10T08:09:32.898Z"
+                      "LastUpdatedDateUtc": "2026-08-11T08:43:51.997Z"
                     }
                   ],
                   "TotalCount": 2
@@ -184,7 +184,7 @@
                     "UpsClientSecret": "ClientSecret",
                     "ShippingLocations": [
                       {
-                        "ShippingLocationId": "dbb2ac23-bed6-4b84-af7c-e549e15b01f1"
+                        "ShippingLocationId": "5055457a-f91f-4da0-815e-714f78bf5168"
                       }
                     ]
                   }
@@ -315,7 +315,7 @@
                   "ContactNumber": "0123456789",
                   "UpsClientId": "ClientId",
                   "LastUpdatedBy": "User A",
-                  "LastUpdatedDateUtc": "2026-06-10T08:09:33.293Z"
+                  "LastUpdatedDateUtc": "2026-08-11T08:43:52.471Z"
                 }
               }
             }
@@ -344,7 +344,7 @@
           "Shipping Accounts"
         ],
         "summary": "Update Account",
-        "description": "Update shipping account details.\r<br />Note: All required fields must be populated in the request, regardless if they need updating or not.",
+        "description": "Update shipping account details.\r<br />\r<br />***Note:** All required fields must be populated in the request, regardless if they need updating or not.*",
         "parameters": [
           {
             "name": "shippingAccountId",
@@ -702,13 +702,13 @@
                       "ContentType": "NDX",
                       "ServiceCode": "11",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-06-10",
+                      "ShipmentDate": "2026-08-11",
                       "DeclaredWeight": 1.5,
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "73605b9c-d437-4238-8c64-c6d38a97b84b",
+                      "ShippingAccountId": "96c7da02-1708-4728-833d-76f1ca968fd5",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -751,7 +751,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "11",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-06-10",
+                      "ShipmentDate": "2026-08-11",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
@@ -759,8 +759,8 @@
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "543a8205-ddc6-478c-a487-2a7481e35204",
-                      "ShippingLocationId": "c7e877cc-c409-429c-af47-55dd29799ebc",
+                      "ShippingAccountId": "9c9b0673-28aa-4054-bd5b-b812fcc798e3",
+                      "ShippingLocationId": "7c70cdb0-302d-44ac-bf21-6338a8fbbfb0",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -837,14 +837,14 @@
                       "ContentType": "NDX",
                       "ServiceCode": "54",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-06-10",
+                      "ShipmentDate": "2026-08-11",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "08803227-95a9-4799-93a7-150f1376623f",
+                      "ShippingAccountId": "b8955014-d7db-43ae-b62c-6fc4e8f30e64",
                       "Reference1": "OrderRef56",
                       "EoriNumber": "GB12345",
                       "VatNumber": "VA12345"
@@ -916,7 +916,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "54",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-06-10",
+                      "ShipmentDate": "2026-08-11",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
@@ -924,8 +924,8 @@
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "04f535e3-b6e4-4bb4-9617-378408c36554",
-                      "ShippingLocationId": "5b75f087-b301-40cc-9e9d-07528403c3d6",
+                      "ShippingAccountId": "d015d872-99b1-4067-9976-32f8ca8bbf81",
+                      "ShippingLocationId": "5cb83607-4fc6-4c4a-a3c3-e9a44d087f1a",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -980,7 +980,9 @@
                         "Weight": 0.5,
                         "ImageURL": "https://yourcompany.com/images/product.jpg",
                         "HSCode": "6109100010",
-                        "CountryOfOrigin": "CN"
+                        "CountryOfOrigin": "CN",
+                        "ManufactureProductId": "5449000000996",
+                        "StandardisedProductId": "4006381333931"
                       },
                       {
                         "SkuCode": "SKU456",
@@ -991,7 +993,9 @@
                         "Weight": 0.3,
                         "ImageURL": "https://yourcompany.com/images/jumper-black.jpg",
                         "HSCode": "6110113000",
-                        "CountryOfOrigin": "CN"
+                        "CountryOfOrigin": "CN",
+                        "ManufactureProductId": "5449000000997",
+                        "StandardisedProductId": "4006381333932"
                       }
                     ],
                     "Customs": {
@@ -1003,7 +1007,7 @@
                       "OtherCharges": 32,
                       "QuotedLandedCost": 82.74,
                       "InvoiceNumber": "INV-12345",
-                      "InvoiceDate": "2026-06-10",
+                      "InvoiceDate": "2026-08-11",
                       "ExportLicenceRequired": false,
                       "Airn": "231.002.999-00"
                     },
@@ -1031,12 +1035,12 @@
                       "ContentType": "NDX",
                       "ServiceCode": "11",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-06-10",
+                      "ShipmentDate": "2026-08-11",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "9b1d6313-dbaf-42fb-9cf8-df2f3b0df2b9",
+                      "ShippingAccountId": "bf07a364-f161-4939-b6cf-a26fdae06edf",
                       "Reference1": "OrderRef56",
                       "Address": {
                         "AddressId": "John Brown Default"
@@ -1074,7 +1078,7 @@
                 "examples": {
                   "Create": {
                     "value": {
-                      "ConsignmentShipmentId": "6237f0d2-b298-4d61-842d-9eedd9b30863",
+                      "ConsignmentShipmentId": "b85c1f27-8f34-4612-bf05-1ee069d81b8b",
                       "Packages": [
                         {
                           "PackageOccurrence": 1
@@ -1084,7 +1088,7 @@
                   },
                   "Allocate": {
                     "value": {
-                      "ConsignmentShipmentId": "b418f2fb-0c17-41d5-ac71-e93424a8d40c",
+                      "ConsignmentShipmentId": "27215de5-6c78-49f9-8d65-47daf3ca0294",
                       "ConsignmentTrackingNumber": "H03TCA0000000118",
                       "ConsignmentCarrierTrackingUrl": "https://onlinetools.ups.com/api/track/v1/details/H03TCA0000000118",
                       "Packages": [
@@ -1098,7 +1102,7 @@
                   },
                   "Process - PDF": {
                     "value": {
-                      "ConsignmentShipmentId": "559cc71a-9c20-4c13-83b2-f37818c648b3",
+                      "ConsignmentShipmentId": "b0b7ec23-700b-4c7b-b4d2-3736547d9853",
                       "ConsignmentTrackingNumber": "H03TCA0000000118",
                       "ConsignmentCarrierTrackingUrl": "https://onlinetools.ups.com/api/track/v1/details/H03TCA0000000118",
                       "Labels": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
@@ -1114,7 +1118,7 @@
                   },
                   "Process - ZPL203": {
                     "value": {
-                      "ConsignmentShipmentId": "22f27870-8170-438e-b329-0cd10644e83d",
+                      "ConsignmentShipmentId": "ede36862-459d-465c-977c-7fb9c8351842",
                       "ConsignmentTrackingNumber": "H03TCA0000000118",
                       "ConsignmentCarrierTrackingUrl": "https://onlinetools.ups.com/api/track/v1/details/H03TCA0000000118",
                       "Labels": "Cl5YQQ0KXkxSTg0KXk1OWQ0K.....MDAwMDAwMDAwMDAwMDANCl5ETg0KXlhaDQo=",
@@ -1216,7 +1220,7 @@
                 "examples": {
                   "PDF": {
                     "value": {
-                      "ShipmentId": "7be652f8-bb80-40e6-a1b3-1090fa20b323",
+                      "ShipmentId": "9e059e0f-2056-4bc7-b7cd-0bd76254edbb",
                       "TrackingNumber": "H03TCA0000000118",
                       "CarrierTrackingUrl": "https://onlinetools.ups.com/api/track/v1/details/H03TCA0000000118",
                       "Label": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
@@ -1225,7 +1229,7 @@
                   },
                   "ZPL203DPI": {
                     "value": {
-                      "ShipmentId": "27308f55-5364-4ba6-af88-dfcb6b6dc3e5",
+                      "ShipmentId": "c43f193f-6c01-4fa4-b28e-d875574a9ebc",
                       "TrackingNumber": "H03TCA0000000118",
                       "CarrierTrackingUrl": "https://onlinetools.ups.com/api/track/v1/details/H03TCA0000000118",
                       "Label": "ëPNG♫◙→◙w0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
@@ -1922,6 +1926,18 @@
             "description": "An abbreviation representing the country where the item was manufactured or produced, following the ISO 3166-1 alpha-2 standard, for example,  \"GB\" for the United Kingdom. This information is important for customs declarations and compliance with import/export regulations.\r<br />\r<br />***Note:** Depending on the carrier and destination country, this information may be required for dutiable shipments.*",
             "nullable": true,
             "example": "GB"
+          },
+          "ManufactureProductId": {
+            "maxLength": 50,
+            "type": "string",
+            "description": "A unique manufacturer identifier for the item being shipped, for example, proprietary manufacturer code, model number, or internal code. This field is used to reference the shipped item and supports carrier-specific requirements.",
+            "nullable": true
+          },
+          "StandardisedProductId": {
+            "maxLength": 50,
+            "type": "string",
+            "description": "A globally recognised product identifier for the item being shipped, for example, GTIN, EAN, and UPC. This field is used for standardised item identification and supports carrier-specific requirements for customs and risk assessment.",
+            "nullable": true
           },
           "SupplementaryUnits": {
             "maximum": 10000000000000000,
@@ -2911,6 +2927,7 @@
         "required": [
           "AccountAlias",
           "AccountName",
+          "AccountNumber",
           "AccountStatus",
           "AccountType",
           "CarrierCode",
@@ -2935,9 +2952,9 @@
             "example": "RM"
           },
           "AccountNumber": {
+            "minLength": 1,
             "type": "string",
             "description": "The number assigned to the shipping account by the carrier, typically used for tracking shipments and billing purposes.",
-            "nullable": true,
             "example": "0123456789"
           },
           "AccountType": {
