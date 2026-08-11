@@ -140,7 +140,7 @@ To add a tracking account for YODEL in SAPIENT, perform the steps as explained i
     Add a tracking barcode range to your YODEL shipping account.
   </Card>
 
-  <Card title="Set Up Tracking Webhook Connection" href="https://docs.intersoftsapient.net/v4.02/docs/create-tracking-webhook" icon="fa-solid fa-code-pull-request">
+  <Card title="Set Up Tracking Webhook Connection" href="https://docs.intersoftsapient.net/v4.04/docs/create-tracking-webhook" icon="fa-solid fa-code-pull-request">
     Automate the instantaneous flow of information regarding the status of shipments.
   </Card>
 
