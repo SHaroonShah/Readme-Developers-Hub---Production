@@ -83,7 +83,7 @@ In SAPIENT, you can delete a product to cleanup the database, preventing confusi
     To delete a product via our API, refer to the following endpoint:
 
     <Cards>
-      <Card title="Delete Product" href="https://docs.intersoftsapient.net/v4.02_Coding/reference/delete_v4-products-skucode#/" icon="fa-solid fa-code">
+      <Card title="Delete Product" href="https://docs.intersoftsapient.net/v4.04/reference/delete_v4-products-skucode#/" icon="fa-solid fa-code">
         Complete API reference for deleting products
       </Card>
     </Cards>
