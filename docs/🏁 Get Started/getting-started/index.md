@@ -48,7 +48,7 @@ next:
 <Banner isInline={true} message="" color="#ffb600" textColor="#ffffff" fontSize="14px" fontWeight="bold" />
 
 <Cards columns="6">
-  <Card href="https://docs.intersoftsapient.net/v4.02/docs/royal-mail#/versions">
+  <Card href="https://docs.intersoftsapient.net/docs/royal-mail">
 
     <Image src="https://files.readme.io/ca682034958fed59c591856e8e0d48b40f426d2b7a3adabf3b48e8b441485302-RM_white_logo.png" align="center" width="100px" />
 
@@ -60,7 +60,7 @@ next:
 
   </Card>
 
-  <Card href="https://docs.intersoftsapient.net/v4.02/docs/an-post#/versions">
+  <Card href="https://docs.intersoftsapient.net/docs/an-post">
 
     <Image src="https://files.readme.io/770237c3f809f1b4be1ccf51ca8418ce8440069178e4dd4ff1b563d0e4c7210b-An_post_logo_white.png" align="center" width="100px" />
 
@@ -90,7 +90,7 @@ next:
 
   </Card>
 
-  <Card href="https://docs.intersoftsapient.net/v4.02/docs/dpd-uk">
+  <Card href="https://docs.intersoftsapient.net/docs/dpd-uk">
 
     <Image src="https://files.readme.io/f6c3b60e1634e92c63b0de461282286ee7ab5dc85714c38c4f3e7124f9d3a722-DPD_white_logo.png" align="center" width="100px" />
 
@@ -102,19 +102,19 @@ next:
 
   </Card>
 
-  <Card href="https://docs.intersoftsapient.net/v4.02/docs/dx-freight#/versions">
+  <Card href="https://docs.intersoftsapient.net/docs/dx-freight">
 
     <Image src="https://files.readme.io/0a8f1f258eff90fce46730119559f05509d2577e564893ae6b78d6983b0e0a59-DX_freight_white_logo.png" align="center" width="100px" />
 
   </Card>
 
-  <Card href="https://docs.intersoftsapient.net/v4.02/docs/evri#/versions">
+  <Card href="https://docs.intersoftsapient.net/docs/evri">
 
     <Image src="https://files.readme.io/977a78885d79ebc4bb392dffe091cba218e3a1a43bb54918112a117de9c20850-EVRi_white_logo.png" align="center" width="100px" />
 
   </Card>
 
-  <Card href="https://docs.intersoftsapient.net/v4.02/docs/fedex#/versions">
+  <Card href="https://docs.intersoftsapient.net/docs/fedex">
 
     <Image src="https://files.readme.io/3177ea019148646dc790839b457550d5afb4b97147964716a495af50c67c3470-FedEx_white_logo.png" align="center" width="100px" />
 
@@ -126,7 +126,7 @@ next:
 
   </Card>
 
-  <Card href="https://docs.intersoftsapient.net/v4.02/docs/inpost#/versions">
+  <Card href="https://docs.intersoftsapient.net/docs/inpost">
 
     <Image src="https://files.readme.io/fd33881958476474461aeb2782e3edb82cf11e91765108544679a189497f4dda-InPost_white_logo.png" align="center" width="100px" />
 
@@ -138,19 +138,19 @@ next:
 
   </Card>
 
-  <Card href="https://docs.intersoftsapient.net/v4.02/docs/the-delivery-group#/versions">
+  <Card href="https://docs.intersoftsapient.net/docs/the-delivery-group">
 
     <Image src="https://files.readme.io/08b253597544c513c34b80c3d4deaf361e4b993ccd4d29daab55599486a2c31f-TDG_white_logo.png" align="center" width="100px" />
 
   </Card>
 
-  <Card href="https://docs.intersoftsapient.net/v4.02/docs/ups#/versions">
+  <Card href="https://docs.intersoftsapient.net/docs/ups">
 
     <Image src="https://files.readme.io/24ba24bb987cd0636f2f1194aa88345f6ddba59ad5e0fa03a6568a3911941bea-UPS_logo_white.png" align="center" width="100px" />
 
   </Card>
 
-  <Card href="https://docs.intersoftsapient.net/v4.02/docs/yodel#/versions">
+  <Card href="https://docs.intersoftsapient.net/docs/yodel">
 
     <Image src="https://files.readme.io/2e73b38cea3124ccafc735e816750a46eb26141d65f142460b218d8f6985fd2f-Yodel_logo_white.png" align="center" width="100px" />
 
