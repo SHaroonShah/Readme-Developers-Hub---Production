@@ -1,7 +1,7 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "SAPIENT DPD UK API",
+    "title": "DPD UK",
     "description": "# Introduction\nHere you will find requirements for integrating with SAPIENT CORE API.\n\nThe documentation specifically covers how the API can be used by business customers to conduct shipping activity with available carriers and provides the technical information to build this integration. The API allows customers to create and manage shipments, produce labels, customs documentation, and collection manifests, retrieve reference data such as carriers and countries, and maintain their own data such as shipping account details.\n\nIntersoft API is a fully RESTful service implemented using JSON messaging. You, as the customer are responsible for sending JSON messages and for maintaining the capability of receiving JSON messages in the format described in this specification. Request and response examples for each API service are included in this specification.\n\n# Authentication\n\nThe SAPIENT CORE API uses OAuth2 authentication.\n\nTo request the authorization token you need to create API credentials (Client ID and Secret) on the system first. If you have not done it already, log into your account and go to API Credentials or follow the link [add a link here with the path to the API Credentials menu]. Use the credentials to retrieve the authorization token.\n\nNote: Make sure you copy the Secret and keep it secure as you won't be able to view it again on the system.\n\n<!-- ReDoc-Inject: <SecurityDefinitions /> -->\n",
     "version": "v4.0-DPDUK",
     "x-logo": {
@@ -247,7 +247,7 @@
           "Shipping Accounts"
         ],
         "summary": "Update Account",
-        "description": "Update shipping account details.\r<br />Note: All required fields must be populated in the request, regardless if they need updating or not.",
+        "description": "Update shipping account details.\r<br />\r<br />***Note:** All required fields must be populated in the request, regardless if they need updating or not.*",
         "parameters": [
           {
             "name": "shippingAccountId",
@@ -601,8 +601,8 @@
                       "CurrencyCode": "GBP"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "49252762-53ff-4ca8-a12f-1ea7d795b310",
-                      "ShippingLocationId": "f81aa4c9-022b-4efb-a2e5-b5378687b7a5",
+                      "ShippingAccountId": "8465892f-1bd7-4a07-836f-8318e7d1a58c",
+                      "ShippingLocationId": "60fe436b-d249-4e7f-8f30-da179b52365e",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -648,15 +648,15 @@
                       "ContentType": "NDX",
                       "ServiceCode": "11",
                       "DescriptionOfGoods": "Clothing",
-                      "ShipmentDate": "2026-06-10",
+                      "ShipmentDate": "2026-08-11",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "337409c2-3f03-46eb-989f-8554e6fbdb9a",
-                      "ShippingLocationId": "410e6858-928b-4a67-9e2f-7d866a47d3c4",
+                      "ShippingAccountId": "1e6c2170-4f30-4090-8a00-3c7362b90ebc",
+                      "ShippingLocationId": "a14ed532-98c4-4a03-bfcc-a2cc34e9acc4",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -746,13 +746,13 @@
                       "ContentType": "NDX",
                       "ServiceCode": "50",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-06-10",
+                      "ShipmentDate": "2026-08-11",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "f563bc07-d9b5-475a-bc44-b50f570f3be3",
-                      "ShippingLocationId": "54d023e0-10a7-4d4e-b65c-1636c5f0a559",
+                      "ShippingAccountId": "f69b8340-27e1-4133-89bd-c73c1bba02ec",
+                      "ShippingLocationId": "be2768b5-d994-42c2-a469-209628a8f468",
                       "Reference1": "OrderRef56",
                       "EoriNumber": "GB12345",
                       "VatNumber": "GB12345"
@@ -828,15 +828,15 @@
                       "ContentType": "NDX",
                       "ServiceCode": "50",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-06-10",
+                      "ShipmentDate": "2026-08-11",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "db05aaf0-670c-4615-bbbe-ff553dd7432c",
-                      "ShippingLocationId": "8abc83c2-c64a-4072-8607-a5bfdd34bc12",
+                      "ShippingAccountId": "89bc0e88-155c-4937-82de-9344db17dea2",
+                      "ShippingLocationId": "672f0138-384e-4f70-af06-880b75bda2cc",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -891,7 +891,9 @@
                         "Weight": 0.5,
                         "ImageURL": "https://yourcompany.com/images/product.jpg",
                         "HSCode": "61091000",
-                        "CountryOfOrigin": "CN"
+                        "CountryOfOrigin": "CN",
+                        "ManufactureProductId": "5449000000990",
+                        "StandardisedProductId": "4006381333930"
                       },
                       {
                         "SkuCode": "SKU456",
@@ -902,7 +904,9 @@
                         "Weight": 0.3,
                         "ImageURL": "https://yourcompany.com/images/jumper-black.jpg",
                         "HSCode": "61101130",
-                        "CountryOfOrigin": "CN"
+                        "CountryOfOrigin": "CN",
+                        "ManufactureProductId": "5449000000991",
+                        "StandardisedProductId": "4006381333931"
                       }
                     ],
                     "Customs": {
@@ -914,7 +918,7 @@
                       "OtherCharges": 32,
                       "QuotedLandedCost": 82.74,
                       "InvoiceNumber": "INV-12345",
-                      "InvoiceDate": "2026-06-10",
+                      "InvoiceDate": "2026-08-11",
                       "ExportLicenceRequired": false,
                       "Airn": "231.002.999-00"
                     },
@@ -942,12 +946,12 @@
                       "ContentType": "NDX",
                       "ServiceCode": "SMHER24",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-06-10",
+                      "ShipmentDate": "2026-08-11",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "7e364a2b-6111-4d80-9356-d780e2609c49",
+                      "ShippingAccountId": "452bb228-62c1-4a28-876e-75e3f90c4da0",
                       "Reference1": "OrderRef56",
                       "Address": {
                         "AddressId": "John Brown Default"
@@ -985,7 +989,7 @@
                 "examples": {
                   "Create": {
                     "value": {
-                      "ConsignmentShipmentId": "e6b6e00a-0f66-41a7-afd5-a3cd8169ca02",
+                      "ConsignmentShipmentId": "1ddef92e-f57b-47a9-87d9-69fdc6ddee6a",
                       "Packages": [
                         {
                           "CarrierDetails": {
@@ -998,7 +1002,7 @@
                   },
                   "Allocate": {
                     "value": {
-                      "ConsignmentShipmentId": "90f3dc7d-69a2-4261-9821-8fd65f7a421f",
+                      "ConsignmentShipmentId": "1738fcfc-0738-4b40-bf83-7afd751cdd50",
                       "ConsignmentTrackingNumber": "12345678901234",
                       "ConsignmentCarrierTrackingUrl": "https://track.dpd.co.uk/search?reference=12345678901234",
                       "Packages": [
@@ -1015,7 +1019,7 @@
                   },
                   "Process - PDF": {
                     "value": {
-                      "ConsignmentShipmentId": "9dc38121-f446-4748-810c-4b8d44751440",
+                      "ConsignmentShipmentId": "af822a8e-1504-435f-9a1c-56322fb37696",
                       "ConsignmentTrackingNumber": "12345678901234",
                       "ConsignmentCarrierTrackingUrl": "https://track.dpd.co.uk/search?reference=12345678901234",
                       "Labels": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
@@ -1120,7 +1124,7 @@
                 "examples": {
                   "PDF": {
                     "value": {
-                      "ShipmentId": "690bdb63-787a-4f32-8613-ec3647a85f51",
+                      "ShipmentId": "425d963a-b292-401a-a6d6-ab4e4e3d1bd1",
                       "TrackingNumber": "12345678901234",
                       "CarrierTrackingUrl": "https://track.dpd.co.uk/search?reference=12345678901234",
                       "Label": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
@@ -1839,6 +1843,7 @@
         "required": [
           "AccountAlias",
           "AccountName",
+          "AccountNumber",
           "AccountStatus",
           "AccountType",
           "CarrierCode",
@@ -1869,9 +1874,9 @@
             "example": "RM"
           },
           "AccountNumber": {
+            "minLength": 1,
             "type": "string",
             "description": "The number assigned to the shipping account by the carrier, typically used for tracking shipments and billing purposes.",
-            "nullable": true,
             "example": "0123456789"
           },
           "Slid": {
@@ -2227,6 +2232,18 @@
             "description": "An abbreviation representing the country where the item was manufactured or produced, following the ISO 3166-1 alpha-2 standard, for example,  \"GB\" for the United Kingdom. This information is important for customs declarations and compliance with import/export regulations.\r<br />\r<br />***Note:** Depending on the carrier and destination country, this information may be required for dutiable shipments.*",
             "nullable": true,
             "example": "GB"
+          },
+          "ManufactureProductId": {
+            "maxLength": 50,
+            "type": "string",
+            "description": "A unique manufacturer identifier for the item being shipped, for example, proprietary manufacturer code, model number, or internal code. This field is used to reference the shipped item and supports carrier-specific requirements.",
+            "nullable": true
+          },
+          "StandardisedProductId": {
+            "maxLength": 50,
+            "type": "string",
+            "description": "A globally recognised product identifier for the item being shipped, for example, GTIN, EAN, and UPC. This field is used for standardised item identification and supports carrier-specific requirements for customs and risk assessment.",
+            "nullable": true
           },
           "SupplementaryUnits": {
             "maximum": 10000000000000000,
