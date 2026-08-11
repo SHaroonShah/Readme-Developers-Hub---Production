@@ -119,7 +119,7 @@ The UPS carrier integration within the SAPIENT system enables seamless communica
 
 
     <Accordion title="Manifest Shipment">
-      Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/v4.03/docs/manifest-webhook), which provides updates on manifest requests, allowing you to track the progress and status of shipments prepared for carrier collection and delivery.
+      Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/v4.04/docs/manifest-webhook), which provides updates on manifest requests, allowing you to track the progress and status of shipments prepared for carrier collection and delivery.
     </Accordion>
   </Tab>
 
@@ -161,7 +161,7 @@ The UPS carrier integration within the SAPIENT system enables seamless communica
 
   <Tab title="API References">
     <Cards>
-      <Card title="SAPIENT UPS API" href="https://docs.intersoftsapient.net/v4.03/reference/post_v4-shippingaccounts-ups" icon="fa-solid fa-code">
+      <Card title="SAPIENT UPS API" href="https://docs.intersoftsapient.net/v4.04/reference/post_v4-shippingaccounts-ups" icon="fa-solid fa-code">
         Explore the UPS API endpoints for creating and managing UPS shipments on SAPIENT.
       </Card>
     </Cards>
