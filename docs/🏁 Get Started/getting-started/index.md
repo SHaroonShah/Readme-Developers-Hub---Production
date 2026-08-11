@@ -25,7 +25,7 @@ next:
 
 <Banner isInline={true} message="" color="#ffb600" textColor="#ffffff" fontSize="14px" fontWeight="bold" width="120px" />
 
-<Cards>
+<Cards columns={4}>
   <Card title="Getting Started" href="https://docs.intersoftsapient.net/v4.02/docs/getting-started-with-sapient-api#/versions" icon="fa-animation fa-plug" target="_blank">
     Build your integration with our API solution with minimal effort.
   </Card>
@@ -48,106 +48,69 @@ next:
 <Banner isInline={true} message="" color="#ffb600" textColor="#ffffff" fontSize="14px" fontWeight="bold" />
 
 <Cards columns="6">
-  <Card href="https://docs.intersoftsapient.net/v4.02/docs/royal-mail#/versions">
+  <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/royal-mail#/versions" Width="200" tooltip="Royal Mail">
+    <Image align="center" src="https://files.readme.io/ca682034958fed59c591856e8e0d48b40f426d2b7a3adabf3b48e8b441485302-RM_white_logo.png" width="100px" />
+  </Card>
 
-    <Image src="https://files.readme.io/ca682034958fed59c591856e8e0d48b40f426d2b7a3adabf3b48e8b441485302-RM_white_logo.png" align="center" width="100px" />
+  <Card title="" href="https://docs.intersoftsapient.net/docs/amazon" Width="200" tooltip="Amazon">
+    <Image align="center" src="https://files.readme.io/af2ebd212d4542b0c107ee36394f6454cdc5bd404b1b7948b14d08e5ed2a3e28-Amazon_shipping_logo_white.png" width="100px" />
+  </Card>
+
+  <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/an-post#/versions" Width="200" tooltip="An Post">
+    <Image align="center" src="https://files.readme.io/770237c3f809f1b4be1ccf51ca8418ce8440069178e4dd4ff1b563d0e4c7210b-An_post_logo_white.png" width="100px" />
+  </Card>
+
+  <Card title="" href="https://docs.intersoftsapient.net/docs/dhl-express" Width="200" tooltip="DHL Express">
+    <Image align="center" src="https://files.readme.io/7f06ef6e137cd4e9c18f23b72ebb66ff288ef675fd705e2e4a18801eafc42d83-DHL_Express_logo_white.png" width="100px" />
+  </Card>
+
+  <Card title="" href="https://docs.intersoftsapient.net/docs/dhl-germany-de" Width="200" tooltip="DHL Germany">
+    <Image align="center" width="100px" src="https://files.readme.io/5a9a1a4a715f04f85a85171853a1ad9c0c3fcdd3c8701de39caf2ca7a1745d3b-DHL_DE_logo_white.png" />
 
   </Card>
 
-  <Card href="https://docs.intersoftsapient.net/docs/amazon">
-
-    <Image src="https://files.readme.io/af2ebd212d4542b0c107ee36394f6454cdc5bd404b1b7948b14d08e5ed2a3e28-Amazon_shipping_logo_white.png" align="center" width="100px" />
-
+  <Card title="" href="https://docs.intersoftsapient.net/docs/dpd-netherlands" Width="200" tooltip="DPD Netherlands">
+    <Image align="center" src="https://files.readme.io/6b80e2829d7d7b13fa471d18608848f7e0542e1d69b95f169ad61f48a0f8de2a-DPD_NL_logo_white.png" width="100px" />
   </Card>
 
-  <Card href="https://docs.intersoftsapient.net/v4.02/docs/an-post#/versions">
-
-    <Image src="https://files.readme.io/770237c3f809f1b4be1ccf51ca8418ce8440069178e4dd4ff1b563d0e4c7210b-An_post_logo_white.png" align="center" width="100px" />
-
+  <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/dpd-uk" Width="200" tooltip="DPD UK">
+    <Image align="center" src="https://files.readme.io/f6c3b60e1634e92c63b0de461282286ee7ab5dc85714c38c4f3e7124f9d3a722-DPD_white_logo.png" width="100px" />
   </Card>
 
-  <Card href="https://docs.intersoftsapient.net/docs/dhl-express">
-
-    <Image src="https://files.readme.io/7f06ef6e137cd4e9c18f23b72ebb66ff288ef675fd705e2e4a18801eafc42d83-DHL_Express_logo_white.png" align="center" width="100px" />
-
+  <Card title="" href="https://docs.intersoftsapient.net/docs/dx" Width="200" tooltip="DX Express">
+    <Image align="center" src="https://files.readme.io/b2686904eb7df8eec99dad01e8e3e65ace3b11db405ce5bbc60c338df134b61a-DX_express_white_logo.png" width="100px" />
   </Card>
 
-  <Card href="https://docs.intersoftsapient.net/docs/dhl-germany-de">
-
-    <Image src="https://files.readme.io/5a9a1a4a715f04f85a85171853a1ad9c0c3fcdd3c8701de39caf2ca7a1745d3b-DHL_DE_logo_white.png" align="center" width="100px" />
-
+  <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/dx-freight#/versions" Width="200" tooltip="DX Freight">
+    <Image align="center" src="https://files.readme.io/0a8f1f258eff90fce46730119559f05509d2577e564893ae6b78d6983b0e0a59-DX_freight_white_logo.png" width="100px" />
   </Card>
 
- <Card href="https://docs.intersoftsapient.net/docs/dhl-germany-de">
-
-    <Image src="https://files.readme.io/93260d347b851247d45b5303df21402b633ca9b9b0a2355db165ee35e5941e20-DPD_Ireland_logo_white.png" width="100px" />
-
+  <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/evri#/versions" Width="200" tooltip="EVRi">
+    <Image align="center" src="https://files.readme.io/977a78885d79ebc4bb392dffe091cba218e3a1a43bb54918112a117de9c20850-EVRi_white_logo.png" width="100px" />
   </Card>
 
-  <Card href="https://docs.intersoftsapient.net/docs/dpd-netherlands">
-
-    <Image src="https://files.readme.io/6b80e2829d7d7b13fa471d18608848f7e0542e1d69b95f169ad61f48a0f8de2a-DPD_NL_logo_white.png" align="center" width="100px" />
-
+  <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/fedex#/versions" Width="200" tooltip="FedEx®">
+    <Image align="center" src="https://files.readme.io/3177ea019148646dc790839b457550d5afb4b97147964716a495af50c67c3470-FedEx_white_logo.png" width="100px" />
   </Card>
 
-  <Card href="https://docs.intersoftsapient.net/v4.02/docs/dpd-uk">
-
-    <Image src="https://files.readme.io/f6c3b60e1634e92c63b0de461282286ee7ab5dc85714c38c4f3e7124f9d3a722-DPD_white_logo.png" align="center" width="100px" />
-
+  <Card title="" href="https://docs.intersoftsapient.net/docs/fedex-international" Width="200" tooltip="FedEx® International Connect">
+    <Image align="center" src="https://files.readme.io/fc1e60381ccba518401eda112d1bd50a456c6ffbc4d2002da3b0d5e43e42f343-FIC_logo_white.png" width="100px" />
   </Card>
 
-  <Card href="https://docs.intersoftsapient.net/docs/dx">
-
-    <Image src="https://files.readme.io/b2686904eb7df8eec99dad01e8e3e65ace3b11db405ce5bbc60c338df134b61a-DX_express_white_logo.png" align="center" width="100px" />
-
+  <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/inpost#/versions" Width="200" tooltip="In Post">
+    <Image align="center" src="https://files.readme.io/fd33881958476474461aeb2782e3edb82cf11e91765108544679a189497f4dda-InPost_white_logo.png" width="100px" />
   </Card>
 
-  <Card href="https://docs.intersoftsapient.net/v4.02/docs/dx-freight#/versions">
-
-    <Image src="https://files.readme.io/0a8f1f258eff90fce46730119559f05509d2577e564893ae6b78d6983b0e0a59-DX_freight_white_logo.png" align="center" width="100px" />
-
+  <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/the-delivery-group#/versions" Width="200" tooltip="The Delivery Group">
+    <Image align="center" src="https://files.readme.io/08b253597544c513c34b80c3d4deaf361e4b993ccd4d29daab55599486a2c31f-TDG_white_logo.png" width="100px" />
   </Card>
 
-  <Card href="https://docs.intersoftsapient.net/v4.02/docs/evri#/versions">
-
-    <Image src="https://files.readme.io/977a78885d79ebc4bb392dffe091cba218e3a1a43bb54918112a117de9c20850-EVRi_white_logo.png" align="center" width="100px" />
-
+  <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/ups#/versions" Width="200" tooltip="United Parcel Service">
+    <Image align="center" src="https://files.readme.io/24ba24bb987cd0636f2f1194aa88345f6ddba59ad5e0fa03a6568a3911941bea-UPS_logo_white.png" width="100px" />
   </Card>
 
-  <Card href="https://docs.intersoftsapient.net/v4.02/docs/fedex#/versions">
-
-    <Image src="https://files.readme.io/3177ea019148646dc790839b457550d5afb4b97147964716a495af50c67c3470-FedEx_white_logo.png" align="center" width="100px" />
-
-  </Card>
-
-  <Card href="https://docs.intersoftsapient.net/docs/fedex-international">
-
-    <Image src="https://files.readme.io/fc1e60381ccba518401eda112d1bd50a456c6ffbc4d2002da3b0d5e43e42f343-FIC_logo_white.png" align="center" width="100px" />
-
-  </Card>
-
-  <Card href="https://docs.intersoftsapient.net/v4.02/docs/inpost#/versions">
-
-    <Image src="https://files.readme.io/fd33881958476474461aeb2782e3edb82cf11e91765108544679a189497f4dda-InPost_white_logo.png" align="center" width="100px" />
-
-  </Card>
-
-  <Card href="https://docs.intersoftsapient.net/v4.02/docs/the-delivery-group#/versions">
-
-    <Image src="https://files.readme.io/08b253597544c513c34b80c3d4deaf361e4b993ccd4d29daab55599486a2c31f-TDG_white_logo.png" align="center" width="100px" />
-
-  </Card>
-
-  <Card href="https://docs.intersoftsapient.net/v4.02/docs/ups#/versions">
-
-    <Image src="https://files.readme.io/24ba24bb987cd0636f2f1194aa88345f6ddba59ad5e0fa03a6568a3911941bea-UPS_logo_white.png" align="center" width="100px" />
-
-  </Card>
-
-  <Card href="https://docs.intersoftsapient.net/v4.02/docs/yodel#/versions">
-
-    <Image src="https://files.readme.io/2e73b38cea3124ccafc735e816750a46eb26141d65f142460b218d8f6985fd2f-Yodel_logo_white.png" align="center" width="100px" />
-
+  <Card title="" href="https://docs.intersoftsapient.net/v4.02/docs/yodel#/versions" Width="200" tooltip="Yodel">
+    <Image align="center" src="https://files.readme.io/2e73b38cea3124ccafc735e816750a46eb26141d65f142460b218d8f6985fd2f-Yodel_logo_white.png" width="100px" />
   </Card>
 </Cards>
 
@@ -155,7 +118,7 @@ next:
 
 <Banner isInline={true} message="" color="#ffb600" textColor="#ffffff" fontSize="14px" fontWeight="bold" />
 
-<Cards>
+<Cards columns={2}>
   <Card title="Webhooks" href="https://docs.intersoftsapient.net/v4.02/docs/tracking-webhook-1#/versions" icon="fa-solid fa-webhook" target="_blank">
     Get real-time updates on shipment status by sending notifications to the user's system.
   </Card>
@@ -191,5 +154,4 @@ next:
   </Card>
 </Cards>
 
-
-
+<br />
