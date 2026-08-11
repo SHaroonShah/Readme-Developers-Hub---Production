@@ -30,31 +30,31 @@ Get ready to integrate our powerful API into your existing systems. Whether you 
   <SimpleStep header="1. Create API Credentials">
     <Image align="center" src="https://files.readme.io/631288afff2a17353aead1452f46b1c8477702d40886341d0ee7b672de51bba0-API_icon.png" width="120px" />
 
-    [Set up your authentication credentials](https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/create-api-credentials#/) to start accessing the SAPIENT API securely
+    [Set up your authentication credentials](https://docs.intersoftsapient.net/v4.04/docs/create-api-credentials#/) to start accessing the SAPIENT API securely
   </SimpleStep>
 
   <SimpleStep header="2. Activate Integration">
     <Image align="center" src="https://files.readme.io/0d834350d524acfd7c9056a10823a436f98427aab0d97a5f88193414b311d680-Activate_icon.png" width="100px" />
 
-    [Enable your integration](https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/integration-activation#/) to begin using SAPIENT's shipping capabilities
+    [Enable your integration](https://docs.intersoftsapient.net/v4.04/docs/integration-activation#/) to begin using SAPIENT's shipping capabilities
   </SimpleStep>
 
   <SimpleStep header="3. Add Users">
     <Image align="center" src="https://files.readme.io/9182449761017b81f93b51f03c22f6653be9ce6379dd4c0f97d71f3b6b9eaadc-Add_user_icon.png" width="100px" />
 
-    [Add users](https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/add-users-to-your-organisation-to-begin-collaborating-with-your-team#/) and invite them to collaborate and manage your shipping operations
+    [Add users](https://docs.intersoftsapient.net/v4.04/docs/add-users-to-your-organisation-to-begin-collaborating-with-your-team#/) and invite them to collaborate and manage your shipping operations
   </SimpleStep>
 
   <SimpleStep header="4. Add Shipping Location">
     <Image align="center" src="https://files.readme.io/b39ab1a7142550c3018a81fedda67069e7e5a83c72b48e62e0d58010f4ef19f5-Add_location_icon.png" width="100px" />
 
-    [Configure your shipping locations](https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/add-a-shipping-location#/) to define from where the shipments will originate
+    [Configure your shipping locations](https://docs.intersoftsapient.net/v4.04/docs/add-a-shipping-location#/) to define from where the shipments will originate
   </SimpleStep>
 
   <SimpleStep header="5. Add Shipping Account">
     <Image align="center" src="https://files.readme.io/1e934778c9eaadac2f83179ce4f7d1d8a73897533c899d70e8bd570d4afea637-Add_shipping_account_icon.png" width="100px" />
 
-    [Set up carrier shipping accounts](https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/add-a-shipping-account#/) to enable shipping services through SAPIENT
+    [Set up carrier shipping accounts](https://docs.intersoftsapient.net/v4.04/docs/add-a-shipping-account#/) to enable shipping services through SAPIENT
   </SimpleStep>
 </SimpleStepper>
 
@@ -73,11 +73,11 @@ Explore additional resources to deepen your understanding of the SAPIENT system 
 <Tabs>
   <Tab title="User Guides">
     <Cards columns={2}>
-      <Card title="System User Guides" href="https://docs.intersoftsapient.net/v4.02/docs/system-user-guides#/versions" icon="fa-book-open" iconColor="">
+      <Card title="System User Guides" href="https://docs.intersoftsapient.net/v4.04/docs/system-user-guides#/versions" icon="fa-book-open" iconColor="">
         Learn how to maintain and configure your SAPIENT system effectively
       </Card>
 
-      <Card title="Carrier-Specific Guides" href="https://docs.intersoftsapient.net/v4.02/docs/carrier-specific-user-guides#/versions" icon="fa-book-open" iconColor="">
+      <Card title="Carrier-Specific Guides" href="https://docs.intersoftsapient.net/v4.04/docs/carrier-specific-user-guides#/versions" icon="fa-book-open" iconColor="">
         Explore the carrier integrations available on SAPIENT
       </Card>
     </Cards>
@@ -85,11 +85,11 @@ Explore additional resources to deepen your understanding of the SAPIENT system 
 
   <Tab title="Operations">
     <Cards columns={2}>
-      <Card title="Shipment Creation & Manifesting" href="https://docs.intersoftsapient.net/v4.02/docs/shipment-creation-and-manifesting#/versions" icon="fa-solid fa-arrow-progress" iconColor="">
+      <Card title="Shipment Creation & Manifesting" href="https://docs.intersoftsapient.net/v4.04/docs/shipment-creation-and-manifesting#/versions" icon="fa-solid fa-arrow-progress" iconColor="">
         Full flows on creating shipments and generating manifests
       </Card>
 
-      <Card title="Intersoft Tracking Webhook" href="https://docs.intersoftsapient.net/v4.02/docs/tracking-webhook-1#/versions" icon="fa-solid fa-webhook" iconColor="">
+      <Card title="Intersoft Tracking Webhook" href="https://docs.intersoftsapient.net/v4.04/docs/tracking-webhook-1#/versions" icon="fa-solid fa-webhook" iconColor="">
         Use our tracking webhook solution to receive real-time updates and data from various services and applications
       </Card>
     </Cards>
@@ -97,11 +97,11 @@ Explore additional resources to deepen your understanding of the SAPIENT system 
 
   <Tab title="Reference">
     <Cards columns={2}>
-      <Card title="Glossary" href="https://docs.intersoftsapient.net/v4.02/docs/glossary-1#/versions" icon="fa-solid fa-arrow-down-a-z">
+      <Card title="Glossary" href="https://docs.intersoftsapient.net/v4.04/docs/glossary-1#/versions" icon="fa-solid fa-arrow-down-a-z">
         Definitions and explanations of key terms used in SAPIENT.
       </Card>
 
-      <Card title="Archived Release Notes" href="https://docs.intersoftsapient.net/v4.02/docs/archived-release-notes#/versions" icon="fa-solid fa-box-archive">
+      <Card title="Archived Release Notes" href="https://docs.intersoftsapient.net/v4.04/docs/archived-release-notes#/versions" icon="fa-solid fa-box-archive">
         Historical information about previous system updates and changes.
       </Card>
     </Cards>
