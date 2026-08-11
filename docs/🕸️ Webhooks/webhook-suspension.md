@@ -27,7 +27,7 @@ If the receiving endpoint (the system where the notifications are sent) is down 
   1. **Error Detection**: The system detects issues like timeouts, invalid data, or server errors
   2. **Retry Attempts**: Multiple retry attempts are made following specific intervals
   3. **Threshold Exceeded**: If all retry attempts fail, the webhook is suspended
-  4. **Notification**: An email is sent to the user registered to receive the suspension notifications. This email can be specified while [configuring the Webhook details](https://docs.intersoftsapient.net/v4.02/docs/create-tracking-webhook).
+  4. **Notification**: An email is sent to the user registered to receive the suspension notifications. This email can be specified while [configuring the Webhook details](https://docs.intersoftsapient.net/v4.04/docs/create-tracking-webhook).
   5. **Retry Loop**: When the webhook is suspended, it will be queued to retry again.
 </Accordion>
 
@@ -79,7 +79,7 @@ If the receiving endpoint (the system where the notifications are sent) is down 
 ### See also
 
 <Cards columns="3">
-  <Card title="Set Up Tracking Webhook Connection" href="https://docs.intersoftsapient.net/v4.02/docs/create-tracking-webhook" icon="fa-solid fa-code-pull-request">
+  <Card title="Set Up Tracking Webhook Connection" href="https://docs.intersoftsapient.net/v4.04/docs/create-tracking-webhook" icon="fa-solid fa-code-pull-request">
     Automate the instantaneous flow of information regarding the status of shipments.
   </Card>
 
