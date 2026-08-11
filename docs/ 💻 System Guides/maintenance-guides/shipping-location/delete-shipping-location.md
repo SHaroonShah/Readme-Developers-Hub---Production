@@ -81,7 +81,7 @@ In SAPIENT, you can delete the shipping location to keep the shipping database c
     To delete a shipping location via our API, refer to the following endpoint:
 
     <Cards>
-      <Card title="Delete Location" href="https://docs.intersoftsapient.net/v4.02_Coding/reference/delete_v4-shippinglocations-shippinglocationid#/" icon="fa-solid fa-code">
+      <Card title="Delete Location" href="https://docs.intersoftsapient.net/v4.04/reference/delete_v4-shippinglocations-shippinglocationid#/" icon="fa-solid fa-code">
         Complete API reference for deleting shipping location
       </Card>
     </Cards>
