@@ -1,6 +1,6 @@
 ---
 title: Address Book
-excerpt: ''
+excerpt: This section provides information related to managing your shipping addresses.
 deprecated: false
 hidden: false
 metadata:

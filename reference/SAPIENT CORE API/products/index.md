@@ -1,6 +1,6 @@
 ---
 title: Products
-excerpt: ''
+excerpt: This section provides information relating to managing products.
 deprecated: false
 hidden: false
 metadata:

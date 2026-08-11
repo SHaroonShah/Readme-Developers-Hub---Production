@@ -1,6 +1,8 @@
 ---
 title: Shipments
-excerpt: ''
+excerpt: >-
+  This section provides information relating to creating shipments, printing
+  shipping labels and customs documentation.
 deprecated: false
 hidden: false
 metadata:

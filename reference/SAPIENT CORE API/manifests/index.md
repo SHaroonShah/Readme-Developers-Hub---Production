@@ -1,6 +1,8 @@
 ---
 title: Manifests
-excerpt: ''
+excerpt: >-
+  This section provides information relating to manifesting shipments for the
+  end of day process.
 deprecated: false
 hidden: false
 metadata:
