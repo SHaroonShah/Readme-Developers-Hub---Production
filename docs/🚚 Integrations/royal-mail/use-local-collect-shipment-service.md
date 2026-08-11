@@ -156,7 +156,7 @@ Based on your requirements, you can choose various approaches to use the PUDO lo
   >
   > *If you want to set up the PUDO integration, make sure to meet the following prerequisites:*
   >
-  > * *[Enable PUDO integration](https://docs.intersoftsapient.net/v4.02_Archive/update/docs/integration-activation#/) via the Royal Mail Integration Activation screen.*
+  > * *[Enable PUDO integration](https://docs.intersoftsapient.net/v4.04/docs/integration-activation#/) via the Royal Mail Integration Activation screen.*
   >
   >   <Image align="center" src="https://files.readme.io/735e213c58d29db4438e9cc89a873cba9c4a35bbaaf4f3663f68817f8c32327a-image.png" caption="Activating PUDO integration"/>
   >
