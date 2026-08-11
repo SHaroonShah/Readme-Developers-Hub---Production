@@ -29,7 +29,7 @@ INTERSOFT supports two webhook types:
 Choose the guide that matches the webhook task you want to complete:
 
 <Cards columns="3">
-  <Card title="Set Up Tracking Webhook Connection" href="https://docs.intersoftsapient.net/v4.02/docs/create-tracking-webhook" icon="fa-solid fa-code-pull-request">
+  <Card title="Set Up Tracking Webhook Connection" href="https://docs.intersoftsapient.net/v4.04/docs/create-tracking-webhook" icon="fa-solid fa-code-pull-request">
     Configure an endpoint to receive shipment tracking status updates.
   </Card>
 
