@@ -128,7 +128,7 @@ The EVRi integration into the SAPIENT platform enhances our shipping capabilitie
 
 
     <Accordion title="Manifest shipment">
-      Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/v4.03/docs/manifest-webhook), which provides updates on manifest requests, allowing you to track the progress and status of shipments prepared for carrier collection and delivery.
+      Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/v4.04/docs/manifest-webhook), which provides updates on manifest requests, allowing you to track the progress and status of shipments prepared for carrier collection and delivery.
     </Accordion>
   </Tab>
 
@@ -158,15 +158,15 @@ The EVRi integration into the SAPIENT platform enhances our shipping capabilitie
 <Tabs>
   <Tab title="Account Setup">
     <Cards>
-      <Card title="Add EVRi Shipping Account" href="https://docs.intersoftsapient.net/v4.03/docs/shipping-account-setup-3" icon="fa-solid fa-truck">
+      <Card title="Add EVRi Shipping Account" href="https://docs.intersoftsapient.net/v4.04/docs/shipping-account-setup-3" icon="fa-solid fa-truck">
         Set up your EVRi shipping account to start creating shipments.
       </Card>
 
-      <Card title="Add EVRi Tracking Account" href="https://docs.intersoftsapient.net/v4.03/docs/tracking-account-setup" icon="fa-solid fa-search-location">
+      <Card title="Add EVRi Tracking Account" href="https://docs.intersoftsapient.net/v4.04/docs/tracking-account-setup" icon="fa-solid fa-search-location">
         Configure tracking for your EVRi shipments.
       </Card>
 
-      <Card title="Add Child Client Department to Parent Shipping Account" href="https://docs.intersoftsapient.net/v4.03/docs/client-id-and-child-clinet-id-management-1" icon="fa-solid fa-circle-user">
+      <Card title="Add Child Client Department to Parent Shipping Account" href="https://docs.intersoftsapient.net/v4.04/docs/client-id-and-child-clinet-id-management-1" icon="fa-solid fa-circle-user">
         Create a parent shipping account and have multiple sub-accounts.
       </Card>
     </Cards>
