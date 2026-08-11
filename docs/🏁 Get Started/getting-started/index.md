@@ -56,7 +56,7 @@ next:
 
   <Card href="https://docs.intersoftsapient.net/docs/amazon">
 
-    <Image src="https://files.readme.io/af2ebd212d4542b0c107ee36394f6454cdc5bd404b1b7948b14d08e5ed2a3e28-Amazon_shipping_logo_white.png" align="center" width="100px" />
+    <Image src="https://files.readme.io/af2ebd212d4542b0c107ee36394f6454cdc5bd404b1b7948b14d08e5ed2a3e28-Amazon_shipping_logo_white.png" align="center" width="100px" tooltip="Amazon shipping" />
 
   </Card>
 
