@@ -214,7 +214,7 @@ In SAPIENT, you can add as many products as you want and use them in your <Gloss
     To add a product via our API, refer to the following endpoint:
 
     <Cards>
-      <Card title="Add Product" href="https://docs.intersoftsapient.net/v4.02_Coding/reference/post_v4-products#/" icon="fa-solid fa-code">
+      <Card title="Add Product" href="https://docs.intersoftsapient.net/v4.04/reference/post_v4-products#/" icon="fa-solid fa-code">
         Complete API reference for adding products
       </Card>
     </Cards>
