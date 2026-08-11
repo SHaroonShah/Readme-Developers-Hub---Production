@@ -52,7 +52,7 @@ To log out of SAPIENT, follow the steps as explained in the following procedure.
     <Callout icon="💡" theme="default">
       ### *Tip*
 
-      *You can also log out of from the system by selecting![](https://files.readme.io/b48e59dfed1d8e9e37160ed82cb6c411f6f667623b937a13b366596b3f690fbe-Log_out_icon.png) from the [side navigation panel](https://docs.intersoftsapient.net/v4.02_4.03_Testing/docs/side-navigation-panel#/).*
+      *You can also log out of from the system by selecting![](https://files.readme.io/b48e59dfed1d8e9e37160ed82cb6c411f6f667623b937a13b366596b3f690fbe-Log_out_icon.png) from the [side navigation panel](https://docs.intersoftsapient.net/v4.04/docs/side-navigation-panel#/).*
     </Callout>
   </ToggleListItem>
 </ToggleList>
