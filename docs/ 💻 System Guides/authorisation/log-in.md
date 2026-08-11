@@ -101,14 +101,14 @@ To log in to the SAPIENT system, follow the instructions as explained in the fol
 On the application header of the home page, you can access additional account options by selecting the user profile icon:
 
 <Cards columns={3}>
-  <Card title="Change Password" href="https://docs.intersoftsapient.net/v4.02/docs/change-password" icon="fa-solid fa-key">
+  <Card title="Change Password" href="https://docs.intersoftsapient.net/v4.04/docs/change-password" icon="fa-solid fa-key">
     Learn how to update the password for enhanced security.
   </Card>
   <Card title="Reset Password" href="https://docs.intersoftsapient.net/docs/reset-password" icon="fa-solid fa-unlock">
     Recover access when you have forgotten your password.
   </Card>
 
-  <Card title="Log out" href="https://docs.intersoftsapient.net/v4.02/docs/log-out" icon="fa-solid fa-arrow-right-from-bracket">
+  <Card title="Log out" href="https://docs.intersoftsapient.net/v4.04/docs/log-out" icon="fa-solid fa-arrow-right-from-bracket">
     Learn how to exit the system securely.
   </Card>
 
