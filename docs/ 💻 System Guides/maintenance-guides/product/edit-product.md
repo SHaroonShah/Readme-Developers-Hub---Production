@@ -79,7 +79,7 @@ In SAPIENT, you can edit the <Glossary>product</Glossary>, ensuring that any cha
     To edit a product via our API, refer to the following endpoint:
 
     <Cards>
-      <Card title="Update Product" href="https://docs.intersoftsapient.net/v4.02_Coding/reference/put_v4-products-skucode#/" icon="fa-solid fa-code">
+      <Card title="Update Product" href="https://docs.intersoftsapient.net/v4.04/reference/put_v4-products-skucode#/" icon="fa-solid fa-code">
         Complete API reference for editing products
       </Card>
     </Cards>
