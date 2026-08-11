@@ -159,7 +159,7 @@ You can also manifest shipments by:
     To manifest shipments via our API, refer to the following endpoint
 
     <Cards>
-      <Card title="Manifest Shipments" href="https://docs.intersoftsapient.net/v4.02_Coding/reference/post_v4-manifests-carriercode#/" icon="fa-solid fa-code">
+      <Card title="Manifest Shipments" href="https://docs.intersoftsapient.net/v4.04/reference/post_v4-manifests-carriercode#/" icon="fa-solid fa-code">
         Complete API reference for manifesting shipments via our API
       </Card>
     </Cards>
