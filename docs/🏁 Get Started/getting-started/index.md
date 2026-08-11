@@ -78,6 +78,12 @@ next:
 
   </Card>
 
+  <Card href="https://docs.intersoftsapient.net/docs/dhl-germany-de">
+
+    <Image src="https://files.readme.io/df17a2487d80b448a5ecd68469c4fd2f96abde558cb6380dbfa5dc69eceadaaf-DPD_Ireland_logo_white.png" align="center" width="100px" />
+
+  </Card>
+
   <Card href="https://docs.intersoftsapient.net/docs/dpd-netherlands">
 
     <Image src="https://files.readme.io/6b80e2829d7d7b13fa471d18608848f7e0542e1d69b95f169ad61f48a0f8de2a-DPD_NL_logo_white.png" align="center" width="100px" />
@@ -186,4 +192,3 @@ next:
 </Cards>
 
 
-<Image src="https://files.readme.io/df17a2487d80b448a5ecd68469c4fd2f96abde558cb6380dbfa5dc69eceadaaf-DPD_Ireland_logo_white.png" align="center" width="100px" />
