@@ -56,7 +56,7 @@ next:
 
   <Card href="https://docs.intersoftsapient.net/docs/amazon">
 
-    <Image src="https://files.readme.io/af2ebd212d4542b0c107ee36394f6454cdc5bd404b1b7948b14d08e5ed2a3e28-Amazon_shipping_logo_white.png" align="center" width="100px" tooltip="Amazon shipping" />
+    <Image src="https://files.readme.io/af2ebd212d4542b0c107ee36394f6454cdc5bd404b1b7948b14d08e5ed2a3e28-Amazon_shipping_logo_white.png" align="center" width="100px" />
 
   </Card>
 
@@ -80,7 +80,7 @@ next:
 
   <Card href="https://docs.intersoftsapient.net/docs/dhl-germany-de">
 
-    <Image src="https://files.readme.io/df17a2487d80b448a5ecd68469c4fd2f96abde558cb6380dbfa5dc69eceadaaf-DPD_Ireland_logo_white.png" align="center" width="100px" />
+    <Image src="https://files.readme.io/29395e7088c208b65f011671925824383dc65a6594a07b503f1e57163c96ed5a-DPD_Ireland_logo_white.png" width="100px" />
 
   </Card>
 
@@ -190,5 +190,6 @@ next:
     > See our 99.9% uptime API status.
   </Card>
 </Cards>
+
 
 
