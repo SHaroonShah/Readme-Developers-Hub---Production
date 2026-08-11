@@ -154,7 +154,7 @@
                         "PostingLocationCode": "2345654321",
                         "ObaAccessCode": "123456",
                         "ReceivingHubCode": "002610",
-                        "ShippingLocationId": "1766a456-dda3-4eac-b6b8-cba859a08438"
+                        "ShippingLocationId": "969492d4-8120-4b91-9462-2c115ba9b20f"
                       }
                     ]
                   }
@@ -730,12 +730,12 @@
                       "ContentType": "NDX",
                       "ServiceCode": "CRL1",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-06-10",
+                      "ShipmentDate": "2026-08-11",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "98f91af0-3db5-4d71-9a1f-35f23021330e",
+                      "ShippingAccountId": "f9d59730-1754-4959-960c-012d824c67a8",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -775,15 +775,15 @@
                       "ContentType": "NDX",
                       "ServiceCode": "CRL1",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-06-10",
+                      "ShipmentDate": "2026-08-11",
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM",
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "1fcb49fe-e11d-4a29-bd14-09440e4b5b33",
-                      "ShippingLocationId": "fc6e6ca6-70ff-4ded-b4d1-1a30ef144715",
+                      "ShippingAccountId": "17ffa6f5-8b95-48d8-962b-98667fe13e02",
+                      "ShippingLocationId": "7fa230b3-9fe5-45d0-81c5-60c2c9178db6",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -873,13 +873,13 @@
                       "ContentType": "NDX",
                       "ServiceCode": "OLA",
                       "DescriptionOfGoods": "Clothing",
-                      "ShipmentDate": "2026-06-10",
+                      "ShipmentDate": "2026-08-11",
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "MM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "1f210cd0-3c24-4094-a737-ac4884ca6744",
+                      "ShippingAccountId": "95b6d1da-d197-4f45-b3ea-fb416d32c557",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -935,6 +935,7 @@
                     "CarrierSpecifics": {
                       "ServiceLevel": "02",
                       "EbayVtn": "ebay1234abc",
+                      "AdditionalHandlingFeesPaid": false,
                       "ServiceEnhancements": [
                         {
                           "Code": "CustomsEmail"
@@ -951,15 +952,15 @@
                       "ContentType": "NDX",
                       "ServiceCode": "OLA",
                       "DescriptionOfGoods": "Clothing",
-                      "ShipmentDate": "2026-06-10",
+                      "ShipmentDate": "2026-08-11",
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "MM",
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "3d0e2047-a3d1-4830-a1cf-4041fd88292c",
-                      "ShippingLocationId": "747f1cac-70e1-4c31-843c-e53b50bffac3",
+                      "ShippingAccountId": "4db24de2-c421-4c25-b779-892992b306eb",
+                      "ShippingLocationId": "fc0142b2-6209-425d-b820-eaa05c2b7f0d",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -1015,7 +1016,9 @@
                         "Weight": 0.5,
                         "ImageURL": "https://yourcompany.com/images/product.jpg",
                         "HSCode": "6109100010",
-                        "CountryOfOrigin": "CN"
+                        "CountryOfOrigin": "CN",
+                        "ManufactureProductId": "5449000000996",
+                        "StandardisedProductId": "4006381333931"
                       },
                       {
                         "SkuCode": "SKU456",
@@ -1026,7 +1029,9 @@
                         "Weight": 0.3,
                         "ImageURL": "https://yourcompany.com/images/jumper-black.jpg",
                         "HSCode": "6110113000",
-                        "CountryOfOrigin": "CN"
+                        "CountryOfOrigin": "CN",
+                        "ManufactureProductId": "5449000000997",
+                        "StandardisedProductId": "4006381333932"
                       }
                     ],
                     "Customs": {
@@ -1038,7 +1043,7 @@
                       "OtherCharges": 32,
                       "QuotedLandedCost": 82.74,
                       "InvoiceNumber": "INV-12345",
-                      "InvoiceDate": "2026-06-10",
+                      "InvoiceDate": "2026-08-11",
                       "ExportLicenceRequired": false,
                       "Airn": "231.002.999-00"
                     },
@@ -1180,13 +1185,13 @@
                       "ContentType": "NDX",
                       "ServiceCode": "TPS",
                       "DescriptionOfGoods": "Aftershave",
-                      "ShipmentDate": "2026-06-10",
+                      "ShipmentDate": "2026-08-11",
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "4be0b2be-ba46-4bfb-ae76-13a6c32d5d01",
+                      "ShippingAccountId": "94aadac1-7750-4188-89e5-f4989fad3c91",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -1285,14 +1290,14 @@
                       "ContentType": "NDX",
                       "ServiceCode": "OLA",
                       "DescriptionOfGoods": "Clothing",
-                      "ShipmentDate": "2026-06-10",
+                      "ShipmentDate": "2026-08-11",
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "MM",
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "f62db0f3-6787-4e2f-b297-fcfe2675b8f3",
+                      "ShippingAccountId": "9ceaace4-305b-448a-b9da-d3d0a2eb0be6",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -1368,7 +1373,7 @@
                     "value": {
                       "Packages": [
                         {
-                          "ShipmentId": "b57677de-9731-4b79-89a4-1f4688b83fa5",
+                          "ShipmentId": "28a0bd52-db43-46ae-983f-4d9eea05707f",
                           "PackageOccurrence": 1
                         }
                       ]
@@ -1381,7 +1386,7 @@
                           "CarrierDetails": {
                             "UniqueId": "3A07033860010000B2268"
                           },
-                          "ShipmentId": "ca5fc0ed-cd38-49d8-a239-c5f1ec42b31d",
+                          "ShipmentId": "403b7deb-96b6-481e-a421-e81820b834f8",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "TT123456785GB",
                           "CarrierTrackingUrl": "https://www.royalmail.com/track-your-item#/tracking-results/TT123456785GB"
@@ -1398,7 +1403,7 @@
                           "CarrierDetails": {
                             "UniqueId": "4F006978600000137EB39"
                           },
-                          "ShipmentId": "2870d8f0-8989-4508-9c42-8593cb1869d2",
+                          "ShipmentId": "db19b87c-ac2d-4625-8d41-709d92421871",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "TT000250025GB",
                           "CarrierTrackingUrl": "https://www.royalmail.com/track-your-item#/tracking-results/TT000250025GB"
@@ -1427,7 +1432,7 @@
                               "Primary1DBarcodeData": "TT123456785GB"
                             }
                           },
-                          "ShipmentId": "4d7fca88-c496-4e74-9a25-d742d5de018f",
+                          "ShipmentId": "443a864c-4deb-47c4-8751-b54b77d9c3f8",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "TT123456785GB",
                           "CarrierTrackingUrl": "https://www.royalmail.com/track-your-item#/tracking-results/TT123456785GB"
@@ -1464,7 +1469,7 @@
                           "CarrierDetails": {
                             "UniqueId": "4F2310202400000AF1E3E"
                           },
-                          "ShipmentId": "48a07808-9867-48d5-bc64-9e90a1599d9a",
+                          "ShipmentId": "811d8f5f-8c5a-47f0-a6f6-fc29967a0d85",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "TT000250025GB",
                           "CarrierTrackingUrl": "https://www.royalmail.com/track-your-item#/tracking-results/TT000250025GB"
@@ -1473,7 +1478,7 @@
                           "CarrierDetails": {
                             "UniqueId": "4F2310202400000AF1E4C"
                           },
-                          "ShipmentId": "3f806172-0157-4590-b2c1-b84a2443cea9",
+                          "ShipmentId": "76d0bea5-2d5d-4eb0-9d13-8e3c5af66601",
                           "PackageOccurrence": 2,
                           "TrackingNumber": "TT000250026GB",
                           "CarrierTrackingUrl": "https://www.royalmail.com/track-your-item#/tracking-results/TT000250026GB"
@@ -1496,7 +1501,7 @@
                               "PartnerTrackingUrl": "https://gls-group.com/GROUP/en/parcel-tracking"
                             }
                           },
-                          "ShipmentId": "93efccb1-f5ee-4b3d-abb9-cc63d297ba70",
+                          "ShipmentId": "cc906040-f994-4261-8689-993ba72bff1f",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "TT000250025GB",
                           "CarrierTrackingUrl": "https://www.royalmail.com/track-your-item#/tracking-results/TT000250025GB"
@@ -1518,7 +1523,7 @@
                               "PartnerTrackingUrl": "https://gls-group.com/GROUP/en/parcel-tracking"
                             }
                           },
-                          "ShipmentId": "3e207889-64c6-422a-b5e2-b0ac14af4834",
+                          "ShipmentId": "1ffc9c0a-f022-4072-8887-7b780ca11c76",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "TT000250025GB",
                           "CarrierTrackingUrl": "https://www.royalmail.com/track-your-item#/tracking-results/TT000250025GB",
@@ -1534,7 +1539,7 @@
                               "PartnerTrackingUrl": "https://gls-group.com/GROUP/en/parcel-tracking"
                             }
                           },
-                          "ShipmentId": "b84245ae-93b0-4796-a076-0a28e54eae8c",
+                          "ShipmentId": "a7ba71d0-0823-44ae-921a-2f093198dd99",
                           "PackageOccurrence": 2,
                           "TrackingNumber": "TT000250026GB",
                           "CarrierTrackingUrl": "https://www.royalmail.com/track-your-item#/tracking-results/TT000250026GB",
@@ -1810,8 +1815,8 @@
               "examples": {
                 "Create Collection With Timeslot ID": {
                   "value": {
-                    "SlotReservationId": "329fee2e-f56b-4ee8-a2c3-cad66f78deb4",
-                    "SlotDate": "2026-06-10",
+                    "SlotReservationId": "bf672a6d-a93d-4a28-92f3-465c91a07060",
+                    "SlotDate": "2026-08-11",
                     "BringMyLabel": false,
                     "OptOutFromRmNotifications": false,
                     "CollectionSafePlace": "Safe place description"
@@ -1826,8 +1831,8 @@
                 },
                 "Create Collection With Opt Out From RM Notifications": {
                   "value": {
-                    "SlotReservationId": "18ec4fd3-e343-4f0a-832a-571e93a92e13",
-                    "SlotDate": "2026-06-10",
+                    "SlotReservationId": "26029873-9139-4a57-a5c2-3d635566eb28",
+                    "SlotDate": "2026-08-11",
                     "BringMyLabel": false,
                     "OptOutFromRmNotifications": true,
                     "CollectionSafePlace": "Safe place description"
@@ -1835,16 +1840,16 @@
                 },
                 "Create Collection Without Collection Safe Place": {
                   "value": {
-                    "SlotReservationId": "b61ab267-4880-4852-9a49-3a29390fa8cc",
-                    "SlotDate": "2026-06-10",
+                    "SlotReservationId": "3ecf0d56-1c51-4777-83fe-c54fe400a718",
+                    "SlotDate": "2026-08-11",
                     "BringMyLabel": false,
                     "OptOutFromRmNotifications": false
                   }
                 },
                 "Create Collection With Collection Safe Place": {
                   "value": {
-                    "SlotReservationId": "0c7b4ffa-38ad-445b-a846-6d790b4c3b1c",
-                    "SlotDate": "2026-06-10",
+                    "SlotReservationId": "09bc0613-1604-44c2-a21b-47f1b623f2b4",
+                    "SlotDate": "2026-08-11",
                     "BringMyLabel": false,
                     "OptOutFromRmNotifications": false,
                     "CollectionSafePlace": "Safe place description"
@@ -1949,15 +1954,15 @@
                 },
                 "example": {
                   "ShipmentId": "072d80e4-8f9f-42e4-9c03-6b81a3597ce6",
-                  "SlotReservationId": "d25b1a61-5cbf-46d2-a142-06bebed33617",
-                  "SlotReservationExpiryTime": "2026-06-10T08:21:53.183Z",
+                  "SlotReservationId": "2223ccdc-6492-4c48-a627-7225cb84e099",
+                  "SlotReservationExpiryTime": "2026-08-11T08:46:51.324Z",
                   "Slots": [
                     {
-                      "SlotDate": "2026-06-11",
+                      "SlotDate": "2026-08-12",
                       "EstimatedWindow": "14:30-16:30"
                     },
                     {
-                      "SlotDate": "2026-06-12",
+                      "SlotDate": "2026-08-13",
                       "EstimatedWindow": "14:30-16:30"
                     }
                   ]
@@ -2272,12 +2277,12 @@
                     {
                       "ContainerId": "South East",
                       "ContainerBarcode": "TT12345678GB",
-                      "CreatedDateUtc": "2026-06-10T08:06:53.820Z",
+                      "CreatedDateUtc": "2026-08-11T08:31:52.312Z",
                       "ShippingLocationAlias": "Northern Warehouse",
                       "ShippingLocationId": "93f6d928-9456-434a-9d69-60f3b7dea091",
                       "ContainerStatus": "Manifested",
                       "DestinationCountryCode": "GB",
-                      "ExportDate": "2026-06-10",
+                      "ExportDate": "2026-08-11",
                       "Mawb": "125-12345678",
                       "RmService": "P",
                       "RmProduct": "T",
@@ -2292,12 +2297,12 @@
                     {
                       "ContainerId": "South West",
                       "ContainerBarcode": "TT12345679GB",
-                      "CreatedDateUtc": "2026-06-09T08:06:53.820Z",
+                      "CreatedDateUtc": "2026-08-10T08:31:52.312Z",
                       "ShippingLocationAlias": "Northern Warehouse",
                       "ShippingLocationId": "93f6d928-9456-434a-9d69-60f3b7dea091",
                       "ContainerStatus": "Active",
                       "DestinationCountryCode": "GB",
-                      "ExportDate": "2026-06-10",
+                      "ExportDate": "2026-08-11",
                       "Mawb": "125-12345678",
                       "RmService": "S",
                       "RmProduct": "O",
@@ -2843,12 +2848,12 @@
                     "value": {
                       "ContainerId": "South East",
                       "ContainerBarcode": "TT12345678GB",
-                      "CreatedDateUtc": "2026-06-10T08:06:54.403Z",
+                      "CreatedDateUtc": "2026-08-11T08:31:52.920Z",
                       "ShippingLocationAlias": "Northern Warehouse",
                       "ShippingLocationId": "93f6d928-9456-434a-9d69-60f3b7dea091",
                       "ContainerStatus": "Active",
                       "DestinationCountryCode": "GB",
-                      "ExportDate": "2026-06-10",
+                      "ExportDate": "2026-08-11",
                       "Mawb": "125-12345678",
                       "RmService": "P",
                       "RmProduct": "T",
@@ -2865,12 +2870,12 @@
                     "value": {
                       "ContainerId": "South East",
                       "ContainerBarcode": "TT12345678GB",
-                      "CreatedDateUtc": "2026-06-10T08:06:54.405Z",
+                      "CreatedDateUtc": "2026-08-11T08:31:52.920Z",
                       "ShippingLocationAlias": "Northern Warehouse",
                       "ShippingLocationId": "93f6d928-9456-434a-9d69-60f3b7dea091",
                       "ContainerStatus": "Active",
                       "DestinationCountryCode": "GB",
-                      "ExportDate": "2026-06-10",
+                      "ExportDate": "2026-08-11",
                       "Mawb": "125-12345678",
                       "RmService": "P",
                       "RmProduct": "T",
@@ -3073,6 +3078,81 @@
         ],
         "type": "string",
         "description": "Indicates whether the account is set up as a \"sandbox\" or \"production\" account. A **Sandbox** account is for testing and development, while a **Production** account is used for live shipments and transactions."
+      },
+      "AddBulkContainerRequest": {
+        "required": [
+          "DestinationCountryCode",
+          "Importer",
+          "Shipper",
+          "ShippingLocationId"
+        ],
+        "type": "object",
+        "properties": {
+          "ShippingLocationId": {
+            "maxLength": 100,
+            "minLength": 1,
+            "type": "string",
+            "description": "A unique identifier for the shipping location assigned by the system (ShippingLocationId) or by you (LocationAlias) where the container will be stored or from which it will be dispatched. This parameter links the new container to a specific physical location, aiding in inventory management and logistical operations.",
+            "example": "Central Warehouse"
+          },
+          "ContainerId": {
+            "maxLength": 50,
+            "type": "string",
+            "description": "A unique identifier for the new container being created. This ID is used to reference and manage the specific container within the system, facilitating tracking and operational oversight.\r<br />\r<br />***Note**: By default, this field is set to the globally unique identifier.*",
+            "nullable": true,
+            "example": "South East 1234"
+          },
+          "Importer": {
+            "$ref": "#/components/schemas/BulkContainerImporter"
+          },
+          "Shipper": {
+            "$ref": "#/components/schemas/BulkContainerShipper"
+          },
+          "DestinationCountryCode": {
+            "maxLength": 2,
+            "minLength": 2,
+            "type": "string",
+            "description": "An abbreviation representing the destination country to which this container will be shipped, typically following the ISO 3166-1 alpha-2 standard, for example, \"US\" for the United States of America.",
+            "example": "DE"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Add Bulk Container Request"
+      },
+      "AddBulkContainerResponse": {
+        "required": [
+          "ContainerId",
+          "CreatedDate",
+          "CreatedDateUtc",
+          "ShippingLocationId"
+        ],
+        "type": "object",
+        "properties": {
+          "ContainerId": {
+            "minLength": 1,
+            "type": "string",
+            "description": "The unique identifier assigned to the newly created container. This ID is returned to the user as confirmation that the container has been successfully added to the system.",
+            "example": "South East 1234"
+          },
+          "CreatedDateUtc": {
+            "type": "string",
+            "description": "A timestamp indicating when the container was created in the system, formatted in Coordinated Universal Time (UTC). This information helps track the age and relevance of their container records.",
+            "format": "date-time"
+          },
+          "CreatedDate": {
+            "type": "string",
+            "description": "The specific date on which the container was created. This provides a clear reference for users to understand when the container was added to the system.",
+            "format": "date-time"
+          },
+          "ShippingLocationId": {
+            "minLength": 1,
+            "type": "string",
+            "description": "The unique identifier assigned by the system to the shipping location linked to the newly added container, providing context about where the container is stored or from where it will be despatched.",
+            "example": "Northern Warehouse"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Add Bulk Container Response"
       },
       "AddInternationalArrivalsContainerRequest": {
         "required": [
@@ -3298,6 +3378,342 @@
         "additionalProperties": false,
         "description": "Add Shipping Account Response"
       },
+      "BulkCommercialInvoiceRequest": {
+        "required": [
+          "Document"
+        ],
+        "type": "object",
+        "properties": {
+          "Document": {
+            "minLength": 1,
+            "type": "string",
+            "description": "The base64-encoded string of the document to be uploaded.\r<br />            \r<br />***Note**: The max file size allowed for the encoded base64 PDF is 2MB.*",
+            "example": "iVBORw0KGgoAAAANSUhEUgAA ... A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4"
+          },
+          "InvoiceNumber": {
+            "maxLength": 35,
+            "type": "string",
+            "description": "A unique identifier assigned to each commercial invoice, typically used for tracking and reference purposes.",
+            "nullable": true
+          },
+          "InvoiceDate": {
+            "type": "string",
+            "description": "The date when the commercial invoice was issued.\r<br />\r<br />***Note**: The invoice date must be in the YYYY-MM-DD format. If the date is not provided, it defaults to today's date.*",
+            "format": "date",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false,
+        "description": "Bulk Commercial Invoice Request"
+      },
+      "BulkContainer": {
+        "required": [
+          "DestinationCountryCode",
+          "Importer",
+          "Shipper"
+        ],
+        "type": "object",
+        "properties": {
+          "ContainerId": {
+            "type": "string",
+            "description": "An identifier for the shipping container associated with the shipment, important for managing cargo and logistics at scale.",
+            "nullable": true,
+            "example": "South East 1234"
+          },
+          "ContainerStatus": {
+            "$ref": "#/components/schemas/ContainerStatus"
+          },
+          "CreatedDateUtc": {
+            "type": "string",
+            "description": "A timestamp indicating when the queried container was created, formatted in Coordinated Universal Time (UTC). This allows users to track the age and relevance of their container records.",
+            "format": "date-time"
+          },
+          "ShippingLocationId": {
+            "type": "string",
+            "description": "A unique identifier for the shipping location assigned by the system from which the container originates. With it, you can track and manage containers by  a particular location.",
+            "nullable": true,
+            "example": "93f6d928-9456-434a-9d69-60f3b7dea091"
+          },
+          "ShippingLocationAlias": {
+            "type": "string",
+            "description": "A unique user-defined identifier  for the shipping location associated with the container, making it easier to reference and identify locations.",
+            "nullable": true,
+            "example": "Northern Warehouse"
+          },
+          "DestinationCountryCode": {
+            "maxLength": 2,
+            "minLength": 2,
+            "type": "string",
+            "description": "An abbreviation representing the destination country to which this container will be shipped, typically following the ISO 3166-1 alpha-2 standard, for example, \"US\" for the United States of America.",
+            "example": "GB"
+          },
+          "ExportDate": {
+            "type": "string",
+            "description": "The date provided by the customer or automatically set by the system when the container is finalised and ready for export. If the container is finalised on a different date, then this date will be overwritten.\r<br />\r<br />***Note:** The date must be in the YYYY-MM-DD format.*",
+            "format": "date",
+            "nullable": true
+          },
+          "Importer": {
+            "$ref": "#/components/schemas/BulkContainerImporter"
+          },
+          "Shipper": {
+            "$ref": "#/components/schemas/BulkContainerShipper"
+          },
+          "TotalWeight": {
+            "type": "number",
+            "description": "The total weight of the shipments contained within the shipping container. This value is essential for understanding the logistics and capacity of the container.",
+            "format": "double",
+            "example": 12.5
+          },
+          "WeightUnitOfMeasure": {
+            "$ref": "#/components/schemas/WeightUnitOfMeasure"
+          },
+          "TotalShipments": {
+            "type": "integer",
+            "description": "The total number of shipments contained within the specified container. This field helps users understand the shipping capacity and complexity of the container.",
+            "format": "int32",
+            "example": 23
+          },
+          "TotalPackages": {
+            "type": "integer",
+            "description": "An integer representing the total number of packages contained within the shipments linked to the container. This information helps users understand the volume of goods being transported.",
+            "format": "int32",
+            "example": 23
+          }
+        },
+        "additionalProperties": false,
+        "description": "Bulk Container"
+      },
+      "BulkContainerAddress": {
+        "required": [
+          "CountryCode",
+          "Line1",
+          "Town"
+        ],
+        "type": "object",
+        "properties": {
+          "ContactName": {
+            "maxLength": 40,
+            "type": "string",
+            "description": "The name of the primary contact person for the shipment at the address.",
+            "nullable": true,
+            "example": "Jane Doe"
+          },
+          "CompanyName": {
+            "maxLength": 40,
+            "type": "string",
+            "description": "The name of the company associated with the shipment at the address.",
+            "nullable": true,
+            "example": "My Company Ltd."
+          },
+          "Line1": {
+            "maxLength": 40,
+            "minLength": 1,
+            "type": "string",
+            "description": "The first line of the address, typically containing the primary address information such as house number and street name.\r<br />\r<br />***Note:** Characters like +, /, -, or space are supported.*",
+            "example": "Brown Cottage"
+          },
+          "Line2": {
+            "maxLength": 40,
+            "type": "string",
+            "description": "An optional second line for the address, often used for additional details like apartment numbers or suite designations.",
+            "nullable": true,
+            "example": "10 Sky Lane"
+          },
+          "Line3": {
+            "maxLength": 40,
+            "type": "string",
+            "description": "A third optional line in the address to include any further address specifications, allowing for more detailed address information if necessary.",
+            "nullable": true,
+            "example": "Hills End"
+          },
+          "Town": {
+            "maxLength": 40,
+            "minLength": 1,
+            "type": "string",
+            "description": "The town or city, indicating the specific locality where the shipping location is situated. \r<br />\r<br />***Note:** This information is required if the address is not used from the stored addresses in the Address Book.*",
+            "example": "Christchurch"
+          },
+          "Postcode": {
+            "maxLength": 10,
+            "type": "string",
+            "description": "The postal or ZIP code corresponding to the shipping location, used for mail sorting and to identify specific geographic areas.<br/> <br/> ***Note:** This information is only required for the addresses in the UK and for some outside it. To check for the postcode requirements, refer to the **Countries** API.*",
+            "nullable": true,
+            "example": "TW20 0HJ"
+          },
+          "County": {
+            "maxLength": 40,
+            "type": "string",
+            "description": "The county, state, or province in which the shipping location resides, providing additional geographical context for the address.<br/> <br/> ***Note:** This information may be required depending on the country. If the country is USA, Australia, or Canada, then it must be a valid state code or name, respectively. To check for the county/state/province requirements, refer to the **Countries** API.*",
+            "nullable": true,
+            "example": "Surrey"
+          },
+          "CountryCode": {
+            "maxLength": 2,
+            "minLength": 2,
+            "type": "string",
+            "description": "An abbreviation representing the country of the shipping location, following the ISO 3166-1 alpha-2 standard, for example, \"GB\" for the United Kingdom.",
+            "example": "GB"
+          },
+          "What3Words": {
+            "type": "string",
+            "description": "A three-word location identifier provided by the What3words service, offering a precise way to define locations using a unique combination of three words, for example, the front door of 10 Downing Street in London is identified by slurs.this.shark.",
+            "nullable": true,
+            "example": "brick.space.employ"
+          }
+        },
+        "additionalProperties": false,
+        "description": "The complete address of the shipper's  location, consisting of multiple components including street information, locality, and so on."
+      },
+      "BulkContainerAddressImporter": {
+        "required": [
+          "CompanyName",
+          "ContactName",
+          "CountryCode",
+          "Line1",
+          "Town"
+        ],
+        "type": "object",
+        "properties": {
+          "ContactName": {
+            "maxLength": 40,
+            "minLength": 1,
+            "type": "string",
+            "description": "The name of the primary contact person for the shipment at the address.",
+            "example": "Jane Doe"
+          },
+          "CompanyName": {
+            "maxLength": 40,
+            "minLength": 1,
+            "type": "string",
+            "description": "The name of the company associated with the shipment at the address.",
+            "example": "My Company Ltd."
+          },
+          "Line1": {
+            "maxLength": 40,
+            "minLength": 1,
+            "type": "string",
+            "description": "The first line of the address, typically containing the primary address information such as house number and street name.\r<br />\r<br />***Note:** Characters like +, /, -, or space are supported.*",
+            "example": "Brown Cottage"
+          },
+          "Line2": {
+            "maxLength": 40,
+            "type": "string",
+            "description": "An optional second line for the address, often used for additional details like apartment numbers or suite designations.",
+            "nullable": true,
+            "example": "10 Sky Lane"
+          },
+          "Line3": {
+            "maxLength": 40,
+            "type": "string",
+            "description": "A third optional line in the address to include any further address specifications, allowing for more detailed address information if necessary.",
+            "nullable": true,
+            "example": "Hills End"
+          },
+          "Town": {
+            "maxLength": 40,
+            "minLength": 1,
+            "type": "string",
+            "description": "The town or city, indicating the specific locality where the shipping location is situated. \r<br />\r<br />***Note:** This information is required if the address is not used from the stored addresses in the Address Book.*",
+            "example": "Christchurch"
+          },
+          "Postcode": {
+            "maxLength": 10,
+            "type": "string",
+            "description": "The postal or ZIP code corresponding to the shipping location, used for mail sorting and to identify specific geographic areas.<br/> <br/> ***Note:** This information is only required for the addresses in the UK and for some outside it. To check for the postcode requirements, refer to the **Countries** API.*",
+            "nullable": true,
+            "example": "TW20 0HJ"
+          },
+          "County": {
+            "maxLength": 40,
+            "type": "string",
+            "description": "The county, state, or province in which the shipping location resides, providing additional geographical context for the address.<br/> <br/> ***Note:** This information may be required depending on the country. If the country is USA, Australia, or Canada, then it must be a valid state code or name, respectively. To check for the county/state/province requirements, refer to the **Countries** API.*",
+            "nullable": true,
+            "example": "Surrey"
+          },
+          "CountryCode": {
+            "maxLength": 2,
+            "minLength": 2,
+            "type": "string",
+            "description": "An abbreviation representing the country of the shipping location, following the ISO 3166-1 alpha-2 standard, for example, \"GB\" for the United Kingdom.",
+            "example": "GB"
+          },
+          "What3Words": {
+            "type": "string",
+            "description": "A three-word location identifier provided by the What3words service, offering a precise way to define locations using a unique combination of three words, for example, the front door of 10 Downing Street in London is identified by slurs.this.shark.",
+            "nullable": true,
+            "example": "brick.space.employ"
+          }
+        },
+        "additionalProperties": false,
+        "description": "The complete address of the importer's location, consisting of multiple components including street information, locality, and so on."
+      },
+      "BulkContainerImporter": {
+        "required": [
+          "Address",
+          "EoriNumber"
+        ],
+        "type": "object",
+        "properties": {
+          "Address": {
+            "$ref": "#/components/schemas/BulkContainerAddressImporter"
+          },
+          "EoriNumber": {
+            "maxLength": 17,
+            "minLength": 1,
+            "type": "string",
+            "description": "The EORI (Economic Operators Registration and Identification) number for the importer of record, which must start with the ISO Alpha-2 Country Code followed by up to 15 alphanumeric characters. For Northern Ireland, it starts with XI.",
+            "example": "GB987654321224455"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Used to provide specifics about the importer of record for a shipment. This object can include essential information such as the importer's name, address, and EORI number, which are necessary for customs processing."
+      },
+      "BulkContainerShipper": {
+        "required": [
+          "Address",
+          "EoriNumber"
+        ],
+        "type": "object",
+        "properties": {
+          "Address": {
+            "$ref": "#/components/schemas/BulkContainerAddress"
+          },
+          "EoriNumber": {
+            "maxLength": 17,
+            "minLength": 1,
+            "type": "string",
+            "description": "The EORI (Economic Operators Registration and Identification) number for the shipper, which must start with the ISO Alpha-2 Country Code followed by up to 15 alphanumeric characters. For Northern Ireland, it starts with XI.",
+            "example": "GB987654321224455"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Used to provide shipper details such as address, contact details, VAT and EORI number etc."
+      },
+      "BulkContainersPagedResponse": {
+        "required": [
+          "Containers",
+          "TotalCount"
+        ],
+        "type": "object",
+        "properties": {
+          "Containers": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/BulkContainer"
+            },
+            "description": "An array containing all shipping containers associated with a user or account requested for the specific page only. Each object contains details about individual containers, such as identifiers and associated shipment data."
+          },
+          "TotalCount": {
+            "type": "integer",
+            "description": "An integer indicating the total number of containers that match the query criteria. This count provides you with an overview of how many container records are available in the system based on the filters applied.",
+            "format": "int32",
+            "example": 32
+          }
+        },
+        "additionalProperties": false,
+        "description": "The paged response containing the entities for the requested page only, and the total number available."
+      },
       "BusinessTransactionType": {
         "enum": [
           "B2C",
@@ -3442,6 +3858,18 @@
         ],
         "type": "string",
         "description": "Indicates the operation to be performed for the shipment, determines the shipment status that is set on shipment creation and whether a shipment tracking number and labels are generated.\r<br />\r<br />Valid values are:\r<br /><ul><li>**Process:** Creates a shipment tracking number, generates and prints a label for each package in the shipment, and returns the labels in the **createShipment** response. With this action, the shipment status is set to **Ready to Manifest**.</li><li>**Create:** Creates the shipment but does not allocate a tracking number, print the labels or return them in the **createShipment** response. The label(s) must be printed before the shipment is ready to manifest.</li><li>**Allocate:** Creates the tracking number and label but does not print the labels or return them in the **createShipment** response. The label(s) must be printed before the shipment is ready to manifest.</li></ul>\r<br />***Note:** By default, this field is set to Process.*<br>*Please be advised that if the shipment is created using a consignment service (shipments with multiple packages) with a partner carrier—via the **Create** or **Allocate** actions—then the system will split the packages into multiple individual shipments without generating the consignment number.*"
+      },
+      "CreateShipmentViaWebhookResponse": {
+        "type": "object",
+        "properties": {
+          "RequestId": {
+            "type": "string",
+            "description": "A unique identifier generated by SAPIENT for each shipment request submitted via the **Create Shipment Async** endpoint. This ID used to match the subsequent asynchronous Shipment Webhook response with the original request.",
+            "format": "uuid"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Create Shipment via shipment webhook Response"
       },
       "Customs": {
         "type": "object",
@@ -3771,6 +4199,100 @@
           }
         },
         "additionalProperties": false
+      },
+      "GetBulkContainerResponse": {
+        "required": [
+          "DestinationCountryCode",
+          "Importer",
+          "Shipper"
+        ],
+        "type": "object",
+        "properties": {
+          "ContainerId": {
+            "type": "string",
+            "description": "An identifier for the shipping container associated with the shipment, important for managing cargo and logistics at scale.",
+            "nullable": true,
+            "example": "South East 1234"
+          },
+          "ContainerStatus": {
+            "$ref": "#/components/schemas/ContainerStatus"
+          },
+          "CreatedDateUtc": {
+            "type": "string",
+            "description": "A timestamp indicating when the queried container was created, formatted in Coordinated Universal Time (UTC). This allows users to track the age and relevance of their container records.",
+            "format": "date-time"
+          },
+          "ShippingLocationId": {
+            "type": "string",
+            "description": "A unique identifier for the shipping location assigned by the system from which the container originates. With it, you can track and manage containers by  a particular location.",
+            "nullable": true,
+            "example": "93f6d928-9456-434a-9d69-60f3b7dea091"
+          },
+          "ShippingLocationAlias": {
+            "type": "string",
+            "description": "A unique user-defined identifier  for the shipping location associated with the container, making it easier to reference and identify locations.",
+            "nullable": true,
+            "example": "Northern Warehouse"
+          },
+          "DestinationCountryCode": {
+            "maxLength": 2,
+            "minLength": 2,
+            "type": "string",
+            "description": "An abbreviation representing the destination country to which this container will be shipped, typically following the ISO 3166-1 alpha-2 standard, for example, \"US\" for the United States of America.",
+            "example": "GB"
+          },
+          "ExportDate": {
+            "type": "string",
+            "description": "The date provided by the customer or automatically set by the system when the container is finalised and ready for export. If the container is finalised on a different date, then this date will be overwritten.\r<br />\r<br />***Note:** The date must be in the YYYY-MM-DD format.*",
+            "format": "date",
+            "nullable": true
+          },
+          "Importer": {
+            "$ref": "#/components/schemas/BulkContainerImporter"
+          },
+          "Shipper": {
+            "$ref": "#/components/schemas/BulkContainerShipper"
+          },
+          "TotalWeight": {
+            "type": "number",
+            "description": "The total weight of the shipments contained within the shipping container. This value is essential for understanding the logistics and capacity of the container.",
+            "format": "double",
+            "example": 12.5
+          },
+          "WeightUnitOfMeasure": {
+            "$ref": "#/components/schemas/WeightUnitOfMeasure"
+          },
+          "TotalShipments": {
+            "type": "integer",
+            "description": "The total number of shipments contained within the specified container. This field helps users understand the shipping capacity and complexity of the container.",
+            "format": "int32",
+            "example": 23
+          },
+          "TotalPackages": {
+            "type": "integer",
+            "description": "An integer representing the total number of packages contained within the shipments linked to the container. This information helps users understand the volume of goods being transported.",
+            "format": "int32",
+            "example": 23
+          },
+          "ManifestNumbers": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Unique identifiers for the manifests associated with the container. This field is populated only if the container has been manifested, ensuring seamless audit trails and helps customers verify and track the overall shipment manifest that includes all shipments within the container.",
+            "nullable": true
+          },
+          "Shipments": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ContainerShipments"
+            },
+            "description": "An array of shipments associated with the container. Each shipment object contains details about the specific shipments that have been allocated to the container, providing comprehensive tracking and management data.\r<br />\r<br />***Note:** This information is provided only if the **returnShipments** field is set to true in the query parameters request.*",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false,
+        "description": "Get Bulk Container Response"
       },
       "GetCollectionsTimeslotsResponse": {
         "type": "object",
@@ -4217,6 +4739,18 @@
             "description": "An abbreviation representing the country where the item was manufactured or produced, following the ISO 3166-1 alpha-2 standard, for example,  \"GB\" for the United Kingdom. This information is important for customs declarations and compliance with import/export regulations.\r<br />\r<br />***Note:** Depending on the carrier and destination country, this information may be required for dutiable shipments.*",
             "nullable": true,
             "example": "GB"
+          },
+          "ManufactureProductId": {
+            "maxLength": 50,
+            "type": "string",
+            "description": "A unique manufacturer identifier for the item being shipped, for example, proprietary manufacturer code, model number, or internal code. This field is used to reference the shipped item and supports carrier-specific requirements.",
+            "nullable": true
+          },
+          "StandardisedProductId": {
+            "maxLength": 50,
+            "type": "string",
+            "description": "A globally recognised product identifier for the item being shipped, for example, GTIN, EAN, and UPC. This field is used for standardised item identification and supports carrier-specific requirements for customs and risk assessment.",
+            "nullable": true
           },
           "Hazmat": {
             "$ref": "#/components/schemas/Hazmat"
@@ -4740,7 +5274,7 @@
           "CustomsPhone"
         ],
         "type": "string",
-        "description": "Enhancement code of the service enhancement. Valid values are:\r<br />**CL1** - Consequential Loss £1000\r<br />**CL2** - Consequential Loss £2500\r<br />**CL3** - Consequential Loss £5000\r<br />**CL4** - Consequential Loss £7500\r<br />**CL5** - Consequential Loss £10000 (Only 1 type of Consequential Loss is allowed)\r<br />**Signed** - a signature is required on delivery of the shipment. Can be used with 24, 48, 1st Class and 2nd Class services.\r<br />**SMS** - delivery updates will be sent via SMS. Can be used with Special Delivery Guaranteed, Tracked and Tracked High Volume services.\r<br />**Email** - delivery updates will be sent via email. Can be used with Special Delivery Guaranteed, Tracked and Tracked High Volume, International Tracked and International Tracked and Signed services.\r<br />**Safeplace** - the shipment will be left in a specified safeplace location. The location must be provided in the SafeplaceLocation field. Can be used with Tracked, Tracked High Volume and 24/48 services.\r<br />**LocalCollect** - the shipment will be delivered to a Post Office for collection by the receiver. Can be used with Special Delivery Guaranteed, Tracked and Tracked High Volume services.\r<br />**CustomsEmail** - Receiver email address will be used in eCustoms data. Can be used with International services. \r<br />**CustomsPhone** - Receiver phone number will be used in eCustoms data. Can be used with International services."
+        "description": "Enhancement code of the service enhancement. Valid values are:\n<br />**CL1** - Consequential Loss £1000\n<br />**CL2** - Consequential Loss £2500\n<br />**CL3** - Consequential Loss £5000\n<br />**CL4** - Consequential Loss £7500\n<br />**CL5** - Consequential Loss £10000 (Only 1 type of Consequential Loss is allowed)\n<br />**Signed** - a signature is required on delivery of the shipment. Can be used with 24, 48, 1st Class and 2nd Class services.\n<br />**SMS** - delivery updates will be sent via SMS. Can be used with Special Delivery Guaranteed, Tracked and Tracked High Volume services.\n<br />**Email** - delivery updates will be sent via email. Can be used with Special Delivery Guaranteed, Tracked and Tracked High Volume, International Tracked and International Tracked and Signed services.\n<br />**Safeplace** - the shipment will be left in a specified safeplace location. The location must be provided in the SafeplaceLocation field. Can be used with Tracked, Tracked High Volume and 24/48 services.\n<br />**LocalCollect** - the shipment will be delivered to a Post Office for collection by the receiver. Can be used with Special Delivery Guaranteed, Tracked and Tracked High Volume services.\n<br />**CustomsEmail** - Receiver email address will be used in eCustoms data. Can be used with International services. \n<br />**CustomsPhone** - Receiver phone number will be used in eCustoms data. Can be used with International services."
       },
       "RoyalMailGazetteerCodes": {
         "required": [
@@ -5240,7 +5774,7 @@
           "PrintedPapers"
         ],
         "type": "string",
-        "description": "Defines the type of package being shipped (for example, tube, pallet, and so on). This helps Royal Mail categorise and handle the package appropriately during transit.\r<br />\r<br />***Note:** By default, this field is set to the largest package type for the requested service.*"
+        "description": "Defines the type of package being shipped (for example, tube, pallet, and so on). This helps Royal Mail categorise and handle the package appropriately during transit.\n<br />\n<br />***Note:** By default, this field is set to the largest package type for the requested service.*"
       },
       "RoyalMailPartnerDetails": {
         "type": "object",
@@ -5338,12 +5872,17 @@
             "nullable": true,
             "example": "ebay1234ABC"
           },
+          "AdditionalHandlingFeesPaid": {
+            "type": "boolean",
+            "description": "Indicates whether additional handling fees have been prepaid by the sender.\r<br />            \r<br />Valid values are the following:\r<br /><ul><li> **True** - fees prepaid </li><li> **False** - fees not paid and must be paid by the recipient </li></ul>\r<br />            \r<br />***Note:** By default, this field is set to false. If set to true, the value may be included in the carrier's pre-advice data, if applicable.*",
+            "nullable": true
+          },
           "ServiceEnhancements": {
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/RoyalMailServiceEnhancement"
             },
-            "description": "An array of objects that allows shippers to specify any additional service enhancements they would like to apply to the requested shipping service, offering flexibility in how the shipment is handled based on specific requirements or preferences.\r<br />\r<br />***Note:** A maximum of 4 service enhancements can be used per shipment.*",
+            "description": "An array of objects that allows shippers to specify any additional service enhancements they would like to apply to the requested shipping service, offering flexibility in how the shipment is handled based on specific requirements or preferences.\r<br />            \r<br />***Note:** A maximum of 4 service enhancements can be used per shipment.*",
             "nullable": true
           },
           "OfflineBarcode": {
@@ -5354,7 +5893,7 @@
             "items": {
               "$ref": "#/components/schemas/RoyalMailOfflineBarcode"
             },
-            "description": "Used to create shipment records for shipments that had a tracking number allocated outside of SAPIENT. This feature is available only if it has been activated on a customer's account in the GUI.\r<br />\r<br />***Note:** If the OfflineBarcodes information is provided, then Process is the only valid action accepted in the Action field.*",
+            "description": "Used to create shipment records for shipments that had a tracking number allocated outside of SAPIENT. This feature is available only if it has been activated on a customer's account in the GUI.\r<br />            \r<br />***Note:** If the OfflineBarcodes information is provided, then Process is the only valid action accepted in the Action field.*",
             "nullable": true
           },
           "PreAllocatedTrackingNumber": {
@@ -5500,6 +6039,7 @@
         "required": [
           "AccountAlias",
           "AccountName",
+          "AccountNumber",
           "AccountRegisteredEmail",
           "AccountStatus",
           "AccountType",
@@ -5524,9 +6064,9 @@
             "example": "RM"
           },
           "AccountNumber": {
+            "minLength": 1,
             "type": "string",
             "description": "The number assigned to the shipping account by the carrier, typically used for tracking shipments and billing purposes.",
-            "nullable": true,
             "example": "0123456789"
           },
           "AccountType": {
