@@ -2,7 +2,7 @@
 title: Starlinks Global
 excerpt: "Starlinks Global is a partner carrier providing international and domestic delivery solutions. They offer global delivery solutions for seamless cross-border trade, helping retailers deliver to nearly\_200 countries, even the regions which are typically complex to reach."
 deprecated: false
-hidden: true
+hidden: false
 icon: fad fa-truck-fast
 metadata:
   robots: index
