@@ -132,6 +132,12 @@ next:
 
   </Card>
 
+<Card href="https://docs.intersoftsapient.net/v4.02/docs/inpost#/versions">
+
+    <Image src="https://files.readme.io/fd33881958476474461aeb2782e3edb82cf11e91765108544679a189497f4dda-InPost_white_logo.png" align="center" width="100px" />
+
+  </Card>
+
   <Card href="https://docs.intersoftsapient.net/v4.02/docs/the-delivery-group#/versions">
 
     <Image src="https://files.readme.io/08b253597544c513c34b80c3d4deaf361e4b993ccd4d29daab55599486a2c31f-TDG_white_logo.png" align="center" width="100px" />
@@ -190,6 +196,3 @@ next:
     > See our 99.9% uptime API status.
   </Card>
 </Cards>
-
-
-
