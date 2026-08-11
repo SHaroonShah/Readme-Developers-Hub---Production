@@ -26,19 +26,19 @@ next:
 <Banner isInline={true} message="" color="#ffb600" textColor="#ffffff" fontSize="14px" fontWeight="bold" width="120px" />
 
 <Cards>
-  <Card title="Getting Started" href="https://docs.intersoftsapient.net/v4.02/docs/getting-started-with-sapient-api#/versions" icon="fa-animation fa-plug" target="_blank">
+  <Card title="Getting Started" href="https://docs.intersoftsapient.net/v4.04/docs/getting-started-with-sapient-api#/versions" icon="fa-animation fa-plug" target="_blank">
     Build your integration with our API solution with minimal effort.
   </Card>
 
-  <Card title="System User Guides" href="https://docs.intersoftsapient.net/v4.02/docs/system-user-guides#/versions" icon="fa-book-open">
+  <Card title="System User Guides" href="https://docs.intersoftsapient.net/v4.04/docs/system-user-guides#/versions" icon="fa-book-open">
     Learn how to interact with the SAPIENT UI in the most efficient way.
   </Card>
 
-  <Card title="Workflows" href="https://docs.intersoftsapient.net/v4.02/docs/shipment-creation-and-manifesting#/versions" icon="fa-solid fa-arrow-progress">
+  <Card title="Workflows" href="https://docs.intersoftsapient.net/v4.04/docs/shipment-creation-and-manifesting#/versions" icon="fa-solid fa-arrow-progress">
     Learn about creating shipments and manifesting.
   </Card>
 
-  <Card title="Activate Integration" href="https://docs.intersoftsapient.net/v4.02/docs/integration-activation#/versions" icon="fa-solid fa-circle-play">
+  <Card title="Activate Integration" href="https://docs.intersoftsapient.net/v4.04/docs/integration-activation#/versions" icon="fa-solid fa-circle-play">
     Seamlessly connect with our existing carriers and manage your shipping operations from a single platform.
   </Card>
 </Cards>
@@ -162,19 +162,19 @@ next:
 <Banner isInline={true} message="" color="#ffb600" textColor="#ffffff" fontSize="14px" fontWeight="bold" />
 
 <Cards>
-  <Card title="Webhooks" href="https://docs.intersoftsapient.net/v4.02/docs/tracking-webhook-1#/versions" icon="fa-solid fa-webhook" target="_blank">
+  <Card title="Webhooks" href="https://docs.intersoftsapient.net/v4.04/docs/tracking-webhook-1#/versions" icon="fa-solid fa-webhook" target="_blank">
     Get real-time updates on shipment status by sending notifications to the user's system.
   </Card>
 
-  <Card title="Intersoft Tracking Events and Milestones" href="https://docs.intersoftsapient.net/v4.02/docs/tracking-events-and-milestones#/versions" icon="fa-solid fa-chart-line-up">
+  <Card title="Intersoft Tracking Events and Milestones" href="https://docs.intersoftsapient.net/v4.04/docs/tracking-events-and-milestones#/versions" icon="fa-solid fa-chart-line-up">
     View a comprehensive structure of the milestones, event codes, and events that occur throughout the shipping journey of a shipment.
   </Card>
 
-  <Card title="Hurricane Commerce Services" href="https://docs.intersoftsapient.net/v4.02/docs/hurricane-commerce-services#/versions" icon="fa-solid fa-hurricane">
+  <Card title="Hurricane Commerce Services" href="https://docs.intersoftsapient.net/v4.04/docs/hurricane-commerce-services#/versions" icon="fa-solid fa-hurricane">
     Get logistics support for cross-border shipments via Hurricane Commerce Services.
   </Card>
 
-  <Card title="PUDO service" href="https://docs.intersoftsapient.net/v4.02/docs/use-local-collect-shipment-service#/versions" icon="fa-solid fa-store">
+  <Card title="PUDO service" href="https://docs.intersoftsapient.net/v4.04/docs/use-local-collect-shipment-service#/versions" icon="fa-solid fa-store">
     Use the Royal Mail pick up and drop-off services for a conveninent out-of-home collection or return of your items.
   </Card>
 </Cards>
@@ -184,7 +184,7 @@ next:
 <Banner isInline={true} message="" color="#ffb600" textColor="#ffffff" fontSize="14px" fontWeight="bold" />
 
 <Cards columns="3">
-  <Card title="Glossary" href="https://docs.intersoftsapient.net/v4.02/docs/glossary-1#/versions" icon="fa-solid fa-arrow-down-a-z">
+  <Card title="Glossary" href="https://docs.intersoftsapient.net/v4.04/docs/glossary-1#/versions" icon="fa-solid fa-arrow-down-a-z">
     > Explore industry-wide terms and definitions used in SAPIENT.
   </Card>
 
