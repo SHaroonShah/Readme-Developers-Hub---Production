@@ -138,7 +138,7 @@ This integration represents a significant step towards optimising shipping funct
     </Accordion>
 
     <Accordion title="Manifest Webhook">
-      Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/v4.03/docs/manifest-webhook), which provides updates on manifest requests, allowing you to track the progress and status of shipments prepared for carrier collection and delivery.
+      Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/v4.04/docs/manifest-webhook), which provides updates on manifest requests, allowing you to track the progress and status of shipments prepared for carrier collection and delivery.
 
       <Callout icon="🚧" theme="warn">
         ### _Important_
@@ -196,7 +196,7 @@ This integration represents a significant step towards optimising shipping funct
 <Callout icon="📘" theme="info">
   ### _Note_
 
-  _For more information on the API services, refer to the [SAPIENT Royal Mail](https://docs.intersoftsapient.net/v4.03/reference/post_v4-shipments-rm) API endpoints._
+  _For more information on the API services, refer to the [SAPIENT Royal Mail](https://docs.intersoftsapient.net/v4.04/reference/post_v4-shipments-rm) API endpoints._
 </Callout>
 
 ***
@@ -250,7 +250,7 @@ This integration represents a significant step towards optimising shipping funct
         Generate a barcode range for your international arrivals containers to track the containers arriving in the UK.
       </Card>
 
-      <Card title="Royal Mail Importer Services" href="https://docs.intersoftsapient.net/v4.03/docs/rm-importers" icon="fa-solid fa-arrow-down-to-arc">
+      <Card title="Royal Mail Importer Services" href="https://docs.intersoftsapient.net/v4.04/docs/rm-importers" icon="fa-solid fa-arrow-down-to-arc">
         Use the Royal Mail import services to facilitate the importation of goods into the UK from overseas.
       </Card>
     </Cards>
