@@ -1,0 +1,8 @@
+- get_v4-shippingaccounts-starlinks
+- post_v4-shippingaccounts-starlinks
+- get_v4-shippingaccounts-starlinks-shippingaccountid
+- put_v4-shippingaccounts-starlinks-shippingaccountid
+- post_v4-shippingaccounts-starlinks-shippingaccountid-linklocations
+- get_v4-shippingaccounts-starlinks-shippingaccountid-shippinglocations
+- >-
+  get_v4-shippingaccounts-starlinks-shippingaccountid-shippinglocations-shippinglocationid
