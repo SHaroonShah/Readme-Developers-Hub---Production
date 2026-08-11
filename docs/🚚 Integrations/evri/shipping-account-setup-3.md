@@ -265,7 +265,7 @@ Unlike other carriers, EVRi customers can have a main (parent) shipping account 
     Update or modify an existing shipping account.
   </Card>
 
-  <Card title="Add Child Client Department to Parent Shipping Account" icon="fa-solid fa-circle-user" href="https://docs.intersoftsapient.net/v4.03/docs/client-id-and-child-clinet-id-management-1">
+  <Card title="Add Child Client Department to Parent Shipping Account" icon="fa-solid fa-circle-user" href="https://docs.intersoftsapient.net/v4.04/docs/client-id-and-child-clinet-id-management-1">
     Create a parent shipping account and have multiple sub-accounts.
   </Card>
 </Cards>
