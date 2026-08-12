@@ -95,8 +95,6 @@ The integration of Starlinks Global into the SAPIENT platform is a significant s
       The integration for creating shipments to reflect Starlinks Global as a primary carrier and allowing users to create shipments using the **Create Shipment** endpoint.
     </Accordion>
 
-
-
     <Accordion title="Manifest Shipment">
       Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/v4.03/docs/manifest-webhook), which provides updates on manifest requests, allowing you to track the progress and status of shipments prepared for carrier collection and delivery.
     </Accordion>
@@ -112,8 +110,6 @@ The integration of Starlinks Global into the SAPIENT platform is a significant s
         _This endpoint changes the shipment status to label printed. Call it when you print or create the label, based on your business process. Update shipments to label printed before manifesting._
       </Callout>
     </Accordion>
-
-
 
     <Accordion title="Tracking">
       This integration allows customers to monitor their shipments in real-time, providing transparency and peace of mind. Users can access detailed tracking information, including, real-time updates, tracking numbers, and delivery notifications.
@@ -139,7 +135,7 @@ The integration of Starlinks Global into the SAPIENT platform is a significant s
   </Tab>
 
   <Tab title="API References">
-    <Cards>
+    <Cards columns="2">
       <Card title="SAPIENT Starlinks Global API" icon="fa-solid fa-code">
         Explore the Starlinks Global API endpoints for a seamless shipping experience.
       </Card>
@@ -150,7 +146,7 @@ The integration of Starlinks Global into the SAPIENT platform is a significant s
 <Banner isInline={true} message="Ready to integrate?" color="#ffb600" textColor="#ffffff" fontSize="20px" fontWeight="bold" width="120px" />
 
 <Cards>
-  <Card columns="0" title="Activate this integration" href="https://docs.intersoftsapient.net/docs/integration-activation#/" icon="fa-solid fa-circle-play fa-beat" target="_blank">
+  <Card title="Activate this integration" href="https://docs.intersoftsapient.net/docs/integration-activation#/" icon="fa-solid fa-circle-play fa-beat" target="_blank">
     Seamlessly connect with Starlinks Global and manage your shipping operations from a single platform.
   </Card>
 </Cards>
