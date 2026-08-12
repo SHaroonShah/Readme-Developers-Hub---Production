@@ -125,7 +125,7 @@ next:
 
 <Banner isInline={true} message="" color="#ffb600" textColor="#ffffff" fontSize="14px" fontWeight="bold" />
 
-<Cards>
+<Cards columns="2">
   <Card title="Webhooks" href="https://docs.intersoftsapient.net/v4.04/docs/tracking-webhook-1#/versions" icon="fa-solid fa-webhook" target="_blank">
     Get real-time updates on shipment status by sending notifications to the user's system.
   </Card>
