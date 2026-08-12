@@ -25,7 +25,7 @@ next:
 
 <Banner isInline={true} message="" color="#ffb600" textColor="#ffffff" fontSize="14px" fontWeight="bold" width="120px" />
 
-<Cards columns="4">
+<Cards columns="2">
   <Card title="Getting Started" href="https://docs.intersoftsapient.net/v4.04/docs/getting-started-with-sapient-api#/versions" icon="fa-animation fa-plug" target="_blank">
     Build your integration with our API solution with minimal effort.
   </Card>
