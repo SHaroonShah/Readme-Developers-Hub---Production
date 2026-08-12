@@ -19,7 +19,7 @@ DPD are one of the leading delivery carriers in the UK, shipping domestically an
 
 <Tabs>
   <Tab title="Key Features">
-    <Cards columns={2}>
+    <Cards>
       <Card title="Shipping Origins" icon="fa-map-marker-alt">
         The integration supports shipping from locations in Great Britain (GB) only.
       </Card>
@@ -41,15 +41,15 @@ DPD are one of the leading delivery carriers in the UK, shipping domestically an
       </Card>
     </Cards>
 
-    <br />
+
   </Tab>
 
   <Tab title="Additional Features">
-    <Cards columns={2}>
+    <Cards>
       <Card title="Consignment Services" icon="fa-cubes">
         The integration supports consignment services, and DPD UK allows a maximum of 99 packages per consignment.<br />
 
-        > *Please bear in mind that not all services offer consignment options.*
+        > _Please bear in mind that not all services offer consignment options._
       </Card>
 
       <Card title="Carrier-Specifics" icon="fa-map-marker-alt">
@@ -59,7 +59,7 @@ DPD are one of the leading delivery carriers in the UK, shipping domestically an
   </Tab>
 
   <Tab title="Service Enhancements">
-    <Cards columns={2}>
+    <Cards>
       <Card title="Proof of Identity" icon="fa-solid fa-id-card">
         Requires the receiver to present valid identification at the point of delivery.
       </Card>
@@ -77,15 +77,15 @@ DPD are one of the leading delivery carriers in the UK, shipping domestically an
       </Card>
     </Cards>
 
-    <br />
+
 
     <Callout icon="💡" theme="default">
-      ### *Tip*
+      ### _Tip_
 
-      *For more information on the service enhancements and carrier services, refer to the following endpoints:*
+      _For more information on the service enhancements and carrier services, refer to the following endpoints:_
 
-      * *[Create Shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-dpduk)*
-      * *[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services)*
+      - _[Create Shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-dpduk)_
+      - _[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services)_
     </Callout>
   </Tab>
 
@@ -95,7 +95,7 @@ DPD are one of the leading delivery carriers in the UK, shipping domestically an
     | Service Name                                  | Description                                                                                                                                                                                    |
     | :-------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
     | **DPD 10:30** (including Saturday and Sunday) | This service provides next-working-day delivery by 10:30 AM, including weekend delivery options, ensuring time-critical shipments arrive early with full tracking visibility.                  |
-    | **DPD 12:00** (including Saturday)        | This service provides next-working-day delivery by 12:00 PM, including Saturday delivery, offering a reliable timed option for urgent parcels with tracking and delivery notifications.        |
+    | **DPD 12:00** (including Saturday)            | This service provides next-working-day delivery by 12:00 PM, including Saturday delivery, offering a reliable timed option for urgent parcels with tracking and delivery notifications.        |
     | **DPD Next Day**                              | This service provides next-working-day delivery across the UK by close of business, including tracking, delivery notifications, and flexible delivery options for recipients.                  |
     | **Freight - Next Day**                        | This service provides next-working-day delivery for heavier or bulk shipments, ensuring time-critical freight is transported efficiently within the UK distribution network.                   |
     | **International Classic**                     | This service provides reliable, cost-effective road-based delivery to European destinations, offering standard transit times with full tracking and parcel visibility.                         |
@@ -103,12 +103,12 @@ DPD are one of the leading delivery carriers in the UK, shipping domestically an
     | **DPD Direct**                                | This service provides international delivery solutions for e-commerce shipments, combining parcel delivery with customs clearance, tracking, and end-to-end visibility to global destinations. |
     | **DPD Direct Ireland**                        | This service provides dedicated delivery from the UK to Ireland, including customs handling, reliable transit times, and full tracking for cross-border shipments.                             |
 
-    <br />
+
 
     <Callout icon="💡" theme="default">
-      ### *Tip*
+      ### _Tip_
 
-      *For the most up-to-date carrier services, use the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint.*
+      _For the most up-to-date carrier services, use the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint._
     </Callout>
   </Tab>
 </Tabs>
@@ -123,25 +123,27 @@ DPD are one of the leading delivery carriers in the UK, shipping domestically an
       The integration for creating shipments to reflect DPD UK as a primary carrier and allowing users to create shipments using the **Create Shipment** endpoint.
     </Accordion>
 
-    <br />
+
 
     <Accordion title="Manifest">
       A crucial API for DPD UK that generates an electronic manifest data file in the SAPIENT's default PDF format and send it to DPD UK via SFTP.
     </Accordion>
 
-    <br />
+
   </Tab>
 
   <Tab title="Other Services">
     <Accordion title="Print Label">
       Generate and return the label for a DPD UK shipment. This endpoint must be utilised when the label is not generated in the DPD UK Create Shipment request.
 
-      > 📘 *Note*
-      >
-      > *This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting.*
+      <Callout icon="📘" theme="info">
+        ### _Note_
+
+        _This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting._
+      </Callout>
     </Accordion>
 
-    <br />
+
 
     <Accordion title="Tracking">
       This integration allows customers to monitor their shipments in real-time, providing transparency and peace of mind. Users can access detailed tracking information, including, real-time updates, tracking numbers, and delivery notifications.
@@ -155,12 +157,12 @@ DPD are one of the leading delivery carriers in the UK, shipping domestically an
 
 <Tabs>
   <Tab title="Account Setup">
-    <Cards columns={2}>
-      <Card title="Add DPD UK Shipping Account" icon="fa-solid fa-truck" href="https://docs.intersoftsapient.net/docs/add-dpd-uk-shipping-account">
+    <Cards>
+      <Card title="Add DPD UK Shipping Account" href="https://docs.intersoftsapient.net/docs/add-dpd-uk-shipping-account" icon="fa-solid fa-truck">
         Set up your DPD UK shipping account to start creating shipments.
       </Card>
 
-      <Card title="Add DPD UK Tracking Account" icon="fa-solid fa-search-location" href="https://docs.intersoftsapient.net/docs/add-dpd-uk-tracking-account">
+      <Card title="Add DPD UK Tracking Account" href="https://docs.intersoftsapient.net/docs/add-dpd-uk-tracking-account" icon="fa-solid fa-search-location">
         Configure tracking for your DPD UK shipments.
       </Card>
     </Cards>
@@ -168,7 +170,7 @@ DPD are one of the leading delivery carriers in the UK, shipping domestically an
 
   <Tab title="API References">
     <Cards>
-      <Card title="SAPIENT DPD UK API" icon="fa-solid fa-code" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-dpduk">
+      <Card title="SAPIENT DPD UK API" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-dpduk" icon="fa-solid fa-code">
         Explore the DPD UK API endpoints for a seamless shipping experience.
       </Card>
     </Cards>
@@ -177,10 +179,8 @@ DPD are one of the leading delivery carriers in the UK, shipping domestically an
 
 <Banner isInline={true} message="Ready to integrate?" color="#ffb600" textColor="#ffffff" fontSize="20px" fontWeight="bold" width="120px" />
 
-<Cards columns={0}>
+<Cards>
   <Card title="Activate this integration" href="https://docs.intersoftsapient.net/docs/integration-activation#/" icon="fa-solid fa-circle-play fa-beat" target="_blank">
     Seamlessly connect with DPD UK and manage your shipping operations from a single platform.
   </Card>
 </Cards>
-
-<br />
