@@ -30,8 +30,6 @@ In SAPIENT, you can cancel the <Glossary>shipments</Glossary> to ensure that res
 
 <Tabs>
   <Tab title="Cancel via SAPIENT UI">
-    
-
     To cancel a shipment via the SAPIENT UI, perform the steps as explained in the following procedure.
 
     <ToggleList>
@@ -105,20 +103,20 @@ In SAPIENT, you can cancel the <Glossary>shipments</Glossary> to ensure that res
     </ToggleList>
 
     <Callout icon="💡" theme="default">
-      ### *Tip*
+      ### _Tip_
 
-      *You can access the canceled shipments directly from this page by selecting the**View Cancelled Shipments** option or by accessing the **Shipment Processing** > **Cancelled** option from the side navigation panel.*
+      _You can access the canceled shipments directly from this page by selecting the_**_View Cancelled Shipments_**_&#x20;option or by accessing the&#x20;_**_Shipment Processing_**_&#x20;>&#x20;_**_Cancelled_**_&#x20;option from the side navigation panel._
 
-      <Image align="center" border={true} src="https://files.readme.io/98bb78638eb05e979777dfd34b1a13605cab5520fa6017f7a980a02fc38a0602-Canceled_shipments_option.png" caption="Accessing canceled shipments" />
+
+      <Image src="https://files.readme.io/98bb78638eb05e979777dfd34b1a13605cab5520fa6017f7a980a02fc38a0602-Canceled_shipments_option.png" align="center" caption="Accessing canceled shipments" border={true} />
+
     </Callout>
   </Tab>
 
   <Tab title="Cancel via API">
-    
-
     To cancel shipment via our API, refer to the following endpoint:
 
-    <Cards>
+    <Cards columns="2">
       <Card title="Update Status" href="https://docs.intersoftsapient.net/reference/put_v4-shipments-status" icon="fa-solid fa-code">
         Complete API reference for shipment status updates including cancellation
       </Card>
@@ -130,7 +128,7 @@ In SAPIENT, you can cancel the <Glossary>shipments</Glossary> to ensure that res
 
     To view a step-by-step process on how to cancel shipments via API, refer to the following API recipe:
 
-    <Recipe />
+    <Recipe  />
   </Tab>
 </Tabs>
 
