@@ -39,6 +39,10 @@ This integration offers several key features that streamline the shipping proces
       <Card title="Label Formats" icon="fa-solid fa-tag">
         The integration supports labels in the <Glossary>PDF</Glossary> format.
       </Card>
+
+      <Card title="Incoterm Support">
+        The integration only supports <Glossary>DDU</Glossary> incoterm.
+      </Card>
     </Cards>
   </Tab>
 
