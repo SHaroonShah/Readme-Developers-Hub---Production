@@ -40,7 +40,7 @@ This integration offers several key features that streamline the shipping proces
         The integration supports labels in the <Glossary>PDF</Glossary> format.
       </Card>
 
-      <Card title="Incoterm Support">
+      <Card title="Incoterms Support">
         The integration only supports <Glossary>DDU</Glossary> incoterm.
       </Card>
     </Cards>
