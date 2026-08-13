@@ -64,8 +64,7 @@ DHL is the global leader in the logistics industry. DHL Express is a brand withi
         - **Use SAPIENT-generated invoices**: SAPIENT generates the invoices from shipment data and sends them to DHL.
       </Card>
     </Cards>
-
-
+<br />
 
     <Callout icon="💡" theme="default">
       ### _Tip_
@@ -112,7 +111,7 @@ DHL is the global leader in the logistics industry. DHL Express is a brand withi
     | **Express 10:30 non documents**         | This service provides time-definite international delivery of parcels before 10:30 AM on the next working day, offering expedited transit and full tracking visibility.                                     |
     | **Express 09:00 documents**             | This service provides early morning international delivery of document shipments before 9:00 AM on the next working day, ensuring urgent delivery with priority handling and tracking.                      |
     | **Express 10:30 documents**             | This service provides time-definite international delivery of document shipments before 10:30 AM on the next working day, with expedited transit and full tracking visibility.                              |
-
+<br />
     <Callout icon="💡" theme="default">
       ### _Tip_
 
