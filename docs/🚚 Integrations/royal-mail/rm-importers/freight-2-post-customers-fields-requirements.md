@@ -25,7 +25,7 @@ If you are importing goods into the UK via Freight 2 Post route, please ensure t
   <thead>
     <tr>
       <th style={{ textAlign: "center" }}>
-        Section
+        API Object
       </th>
 
       <th>
