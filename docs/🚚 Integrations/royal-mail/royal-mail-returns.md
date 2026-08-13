@@ -38,12 +38,14 @@ To ensure the correct generation of the return labels, meet all of the following
 <Accordion title="ServiceCode" icon="fa-barcode">
   Populate with either <Glossary>TSN Tracked Returns 24</Glossary>, or <Glossary>TSS Tracked Returns 48</Glossary>.
 
-  For Royal Mail Importers, this can also be populated with *ITA Tracked Returns 24* or *ITB Tracked Returns 48*. Speak to your Royal Mail account manager to confirm which service code you should be using.
+  For Royal Mail Importers, this can also be populated with _ITA Tracked Returns 24_ or _ITB Tracked Returns 48_. Speak to your Royal Mail account manager to confirm which service code you should be using.
 </Accordion>
 
-> 📘 _Note_
->
-> _The labels created for the return service do not have to be manifested._
+<Callout icon="📘" theme="info">
+  ### _Note_
+
+  _The labels created for the return service do not have to be manifested._
+</Callout>
 
 ## Paperless returns with QR code (optional)
 
@@ -53,12 +55,12 @@ If you are interested in the paperless return solution for your customers, you c
 
 ## API references
 
-<Cards columns={2}>
-  <Card title="Create Shipment" href="https://docs.intersoftsapient.net/reference/post_v4-shipments-rm" icon="fa-plus">
+<Cards>
+  <Card title="Create Shipment" href="https://docs.intersoftsapient.net/reference/post_v4-shipments-rm" icon="fa-plus" target="_blank">
     Generate return labels for your packages.
   </Card>
 
-  <Card title="Print My Label QR Code" href="https://docs.intersoftsapient.net/reference/get_v4-shipments-printmylabelqrcode-rm-shipmentid" icon="fa-qrcode">
+  <Card title="Print My Label QR Code" href="https://docs.intersoftsapient.net/reference/get_v4-shipments-printmylabelqrcode-rm-shipmentid" icon="fa-qrcode" target="_blank">
     Generate a QR code for paperless returns.
   </Card>
 </Cards>
