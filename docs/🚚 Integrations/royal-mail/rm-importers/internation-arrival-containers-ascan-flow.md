@@ -56,7 +56,7 @@ As the shipments are in transit, tracking is initiated with a first tracking eve
   </Card>
 </Cards>
 
-<Cards columns="1">
+<Cards columns="2">
   <Card title="A-Scan FAQs" href="https://docs.intersoftsapient.net/docs/a-scan-faqs#/" icon="fa-solid fa-messages-question">
     _Frequently asked questions regarding the International Arrivals Containers API/A-Scan._
   </Card>
