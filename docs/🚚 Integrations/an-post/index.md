@@ -110,6 +110,7 @@ The integration of An Post, Ireland's national postal service, into the SAPIENT 
           - For delivery to EU destinations excluding Northern Ireland (IE), a security declaration is required.
           - The signature image will be taken from the signature image the customer has uploaded for the shipping account in the [Logos and Signatures](https://docs.intersoftsapient.net/docs/add-signature-and-logo#/) screen.
             - For delivery to ROW addresses, including GB and Northern Ireland (IE), a shipping label and <Glossary>CN23</Glossary> is required. SAPIENT will generate a separate address label and CN23, as this is consistent with the behaviour for other integrations.
+<br />
 
       <Callout icon="📘" theme="info">
         ### _Note_
