@@ -46,20 +46,18 @@ As the shipments are in transit, tracking is initiated with a first tracking eve
 
 ### <br />See also
 
-<Cards columns={2}>
+<Cards>
   <Card title="Set up Internatinal Arrival Containers barcode ranges" href="https://docs.intersoftsapient.net/docs/add-barcode-range-for-international-arrival-containers#/" icon="fa-solid fa-barcode-read" target="_blank">
     Configure a specific set of numbers designated for tracking containers arriving into the UK from overseas, facilitating efficient tracking and management.
   </Card>
 
-  <Card title="Internation Arrivals Containers API" href="https://docs.intersoftsapient.net/reference/post_v4-internationalarrivalscontainers-rm#/" icon="fa-solid fa-gear-complex-code">
+  <Card title="Internation Arrivals Containers API" href="https://docs.intersoftsapient.net/reference/post_v4-internationalarrivalscontainers-rm#/" icon="fa-solid fa-gear-complex-code" target="_blank">
     Create and name (with and ID or alias) a new international arrivals container to be used for manifesting a specific group of shipments. Define which carrier and shipping location the container should be linked to.
   </Card>
 </Cards>
 
-<Cards columns={2}>
+<Cards columns="1">
   <Card title="A-Scan FAQs" href="https://docs.intersoftsapient.net/docs/a-scan-faqs#/" icon="fa-solid fa-messages-question">
-    *Frequently asked questions regarding the International Arrivals Containers API/A-Scan.*
+    _Frequently asked questions regarding the International Arrivals Containers API/A-Scan._
   </Card>
 </Cards>
-
-<br />
