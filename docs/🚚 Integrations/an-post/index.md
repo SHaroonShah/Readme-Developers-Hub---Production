@@ -86,7 +86,8 @@ The integration of An Post, Ireland's national postal service, into the SAPIENT 
     | **Express International**           | This service provides fast international delivery with prioritised handling and tracking.                                                                                                                                                                                           |
     | **Registered Post**                 | This service provides secure delivery with signature capture and compensation cover for valuable items                                                                                                                                                                              |
     | **IBMS/Untracked**                  | This service provides cost-effective international business mail delivery for letters, packets, and lightweight parcels without full end-to-end tracking, suitable for non-urgent shipments.This service provides basic untracked delivery for low-value or non-priority shipments. |
-<br />
+
+
 
     <Callout icon="💡" theme="default">
       ### _Tip_
@@ -146,27 +147,27 @@ The integration of An Post, Ireland's national postal service, into the SAPIENT 
 <Tabs>
   <Tab title="Account Setup">
     <Cards>
-      <Card title="Add Shipping Account" href="https://docs.intersoftsapient.net/docs/add-an-post-shipping-account" icon="fa-solid fa-truck">
+      <Card title="Add Shipping Account" href="https://docs.intersoftsapient.net/docs/add-an-post-shipping-account" icon="fa-solid fa-truck" target="_blank">
         Access the step-by-step guide on how to set up An Post shipping account on SAPIENT.
       </Card>
 
-      <Card title="Add Tracking Account" href="https://docs.intersoftsapient.net/docs/add-an-post-tracking-account" icon="fa-solid fa-search-location">
+      <Card title="Add Tracking Account" href="https://docs.intersoftsapient.net/docs/add-an-post-tracking-account" icon="fa-solid fa-search-location" target="_blank">
         Access the step-by-step guide on how to set up An Post tracking account on SAPIENT.
       </Card>
     </Cards>
   </Tab>
 
   <Tab title="Advanced Features">
-    <Cards>
-      <Card title="Add Barcode Ranges" href="https://docs.intersoftsapient.net/docs/add-barcode-range-for-an-post-shipping-account" icon="fa-solid fa-barcode">
+    <Cards columns="2">
+      <Card title="Add Barcode Ranges" href="https://docs.intersoftsapient.net/docs/add-barcode-range-for-an-post-shipping-account" icon="fa-solid fa-barcode" target="_blank">
         Add barcode ranges to facilitate efficient tracking and management of shipments.
       </Card>
     </Cards>
   </Tab>
 
   <Tab title="API References">
-    <Cards>
-      <Card title="SAPIENT An Post API " href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-anpost" icon="fa-solid fa-code">
+    <Cards columns="2">
+      <Card title="SAPIENT An Post API " href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-anpost" icon="fa-solid fa-code" target="_blank">
         Explore the An Post API endpoints for a seamless shipping experience.
       </Card>
     </Cards>
