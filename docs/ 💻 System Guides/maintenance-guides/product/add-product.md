@@ -17,7 +17,7 @@ next:
 ---
 In SAPIENT, you can add as many products as you want and use them in your <Glossary>shipment</Glossary> request. This helps ensuring accurate data for pricing, labeling, and compliance.
 
-<Cards columns={2}>
+<Cards>
   <Card title="Regular Products" icon="fa-solid fa-box">
     Standard items with basic product information like dimensions, weight, and value.
   </Card>
@@ -31,8 +31,6 @@ In SAPIENT, you can add as many products as you want and use them in your <Gloss
 
 <Tabs>
   <Tab title="Add via SAPIENT UI">
-    
-
     To add a product in SAPIENT, perform the steps as explained in the following procedure.
 
     <ToggleList>
@@ -209,12 +207,10 @@ In SAPIENT, you can add as many products as you want and use them in your <Gloss
   </Tab>
 
   <Tab title="Add via API">
-    
-
     To add a product via our API, refer to the following endpoint:
 
-    <Cards>
-      <Card title="Add Product" href="https://docs.intersoftsapient.net/v4.04/reference/post_v4-products#/" icon="fa-solid fa-code">
+    <Cards columns="2">
+      <Card title="Add Product" href="https://docs.intersoftsapient.net/v4.04/reference/post_v4-products#/" icon="fa-solid fa-code" target="_blank">
         Complete API reference for adding products
       </Card>
     </Cards>
@@ -225,14 +221,12 @@ In SAPIENT, you can add as many products as you want and use them in your <Gloss
 
 ### See also
 
-<Cards columns={2}>
-  <Card title="Edit Product" href="https://docs.intersoftsapient.net/docs/edit-product" icon="fa-solid fa-edit">
+<Cards>
+  <Card title="Edit Product" href="https://docs.intersoftsapient.net/docs/edit-product" icon="fa-solid fa-edit" target="_blank">
     Modify existing product information, update specifications, or change handling instructions.
   </Card>
 
-  <Card title="Delete Product" href="https://docs.intersoftsapient.net/docs/delete-product" icon="fa-solid fa-trash-alt">
+  <Card title="Delete Product" href="https://docs.intersoftsapient.net/docs/delete-product" icon="fa-solid fa-trash-alt" target="_blank">
     Remove products from your system that are no longer needed.
   </Card>
 </Cards>
-
-<br />
