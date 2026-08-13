@@ -19,8 +19,6 @@ In SAPIENT, you can delete the address to keep the address book clean and manage
 
 <Tabs>
   <Tab title="Delete via SAPIENT UI">
-    
-
     To delete an address in SAPIENT, perform the steps as explained in the following procedure.
 
     <ToggleList>
@@ -76,12 +74,10 @@ In SAPIENT, you can delete the address to keep the address book clean and manage
   </Tab>
 
   <Tab title="Delete via API">
-    
-
     To delete an address via our API, refer to the following endpoint:
 
-    <Cards>
-      <Card title="Delete Address" href="https://docs.intersoftsapient.net/reference/delete_v4-addresses-addressid#/" icon="fa-solid fa-code">
+    <Cards columns="2">
+      <Card title="Delete Address" href="https://docs.intersoftsapient.net/reference/delete_v4-addresses-addressid#/" icon="fa-solid fa-code" target="_blank">
         Complete API reference for deleting address from address book
       </Card>
     </Cards>
@@ -92,10 +88,8 @@ In SAPIENT, you can delete the address to keep the address book clean and manage
 
 ### See also
 
-<Cards>
-  <Card title="Add Address" href="https://docs.intersoftsapient.net/docs/add-address" icon="fa-solid fa-plus-circle">
+<Cards columns="2">
+  <Card title="Add Address" href="https://docs.intersoftsapient.net/docs/add-address" icon="fa-solid fa-plus-circle" target="_blank">
     Create new addresses for customers, vendors, suppliers, or warehouse locations to expand your address repository.
   </Card>
 </Cards>
-
-<br />
