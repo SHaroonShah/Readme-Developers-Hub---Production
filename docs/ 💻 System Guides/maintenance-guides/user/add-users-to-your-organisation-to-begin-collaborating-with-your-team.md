@@ -161,7 +161,7 @@ Moreover, different roles and permissions improve security by restricting access
         User type with the ability to update settings relating to the customer.
       </Card>
 
-      <Card title="User Administrator" icon="fa-solid user-cog">
+      <Card title="User Administrator" icon="fa-solid fa-user">
         User type with the ability to manage website users.
       </Card>
 
