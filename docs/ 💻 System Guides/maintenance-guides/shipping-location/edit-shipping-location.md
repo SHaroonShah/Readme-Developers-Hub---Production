@@ -19,8 +19,6 @@ In SAPIENT, you can edit the <Glossary>shipping location</Glossary> to enhance c
 
 <Tabs>
   <Tab title="Edit via SAPIENT UI">
-    
-
     To edit a shipping location in SAPIENT, perform the steps as explained in the following procedure.
 
     <ToggleList>
@@ -73,12 +71,10 @@ In SAPIENT, you can edit the <Glossary>shipping location</Glossary> to enhance c
   </Tab>
 
   <Tab title="Edit via API">
-   
-
     To update a shipping location via our API, refer to the following endpoint:
 
-    <Cards>
-      <Card title="Update Location" href="https://docs.intersoftsapient.net/reference/put_v4-shippinglocations-shippinglocationid#/" icon="fa-solid fa-code">
+    <Cards columns="2">
+      <Card title="Update Location" href="https://docs.intersoftsapient.net/reference/put_v4-shippinglocations-shippinglocationid#/" icon="fa-solid fa-code" target="_blank">
         Complete API reference for updating shipping location
       </Card>
     </Cards>
@@ -90,13 +86,11 @@ In SAPIENT, you can edit the <Glossary>shipping location</Glossary> to enhance c
 ### See also
 
 <Cards columns="2">
-  <Card title="Link Location to Shipping Account" href="https://docs.intersoftsapient.net/v4.04/docs/link-shipping-location-to-existing-shipping-account" icon="Fa- solid fa-link">
+  <Card title="Link Location to Shipping Account" href="https://docs.intersoftsapient.net/v4.04/docs/link-shipping-location-to-existing-shipping-account" icon="Fa- solid fa-link" target="_blank">
     Learn how to link a shipping location with an existing shipping account.
   </Card>
 
-  <Card title="Delete Location" href="https://docs.intersoftsapient.net/docs/delete-shipping-location" icon="fa-solid fa-trash-alt">
+  <Card title="Delete Location" href="https://docs.intersoftsapient.net/docs/delete-shipping-location" icon="fa-solid fa-trash-alt" target="_blank">
     Remove shipping locations that are no longer needed.
   </Card>
 </Cards>
-
-<br />
