@@ -59,14 +59,14 @@ In this section, learn how to configure your customs settings with these essenti
 
 <Cards columns="3">
   <Card title="Pre-registration Number" href="https://docs.intersoftsapient.net/docs/add-pre-registration-number" icon="fa-solid fa-clipboard-list" target="_blank">
-    Learn how to add and configure <Glossary>pre-registration number</Glossary> for customs compliance
+    Learn how to add and configure <Glossary>pre-registration number</Glossary> for customs compliance.
   </Card>
 
   <Card title="VAT and EORI Numbers" href="https://docs.intersoftsapient.net/docs/add-vat-and-eori-numbers" icon="fa-solid fa-id-card" target="_blank">
-    Set up <Glossary>VAT</Glossary> and <Glossary>EORI</Glossary> numbers for European trade requirements
+    Set up <Glossary>VAT</Glossary> and <Glossary>EORI</Glossary> numbers for European trade requirements.
   </Card>
 
   <Card title="Signature and Logo" href="https://docs.intersoftsapient.net/docs/add-signature-and-logo" icon="fa-solid fa-signature" target="_blank">
-    Add your business signature and logo to customs documentation
+    Add your business signature and logo to customs documentation.
   </Card>
 </Cards>
