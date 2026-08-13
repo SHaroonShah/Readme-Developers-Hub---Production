@@ -17,15 +17,15 @@ metadata:
 Expand the following sections to learn how to generate the Hazmat label for class 9 hazardous goods, as well as for other classes, including their approved UN codes.
 
 <Accordion title="Generate hazmat (ID8000) label for Class 9 hazardous goods">
-  *Class 9 hazardous goods* encompass a variety of materials that, while not covered by the other eight hazardous material classes, still pose risks in transport. This category includes items that may be subject to specific regulations but do not fit the criteria for flammable, explosive, or otherwise dangerous materials. Class 9 goods include substances that may be environmentally hazardous or have other regulatory considerations.
+  _Class 9 hazardous goods_ encompass a variety of materials that, while not covered by the other eight hazardous material classes, still pose risks in transport. This category includes items that may be subject to specific regulations but do not fit the criteria for flammable, explosive, or otherwise dangerous materials. Class 9 goods include substances that may be environmentally hazardous or have other regulatory considerations.
 
   In SAPIENT, you can specify the class 9 hazardous goods [via the UI](https://docs.intersoftsapient.net/docs/add-product#/) or in the [Create Shipment request](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm#/).
 
-  As part of the Royal Mail integration into the Sapient system, an *ID8000 label* is to be generated alongside the standard shipping label for Class 9 hazardous goods. This is done to ensure that customers have all necessary documentation for compliant shipping practices.
+  As part of the Royal Mail integration into the Sapient system, an _ID8000 label_ is to be generated alongside the standard shipping label for Class 9 hazardous goods. This is done to ensure that customers have all necessary documentation for compliant shipping practices.
 
   The ID8000 label can only be printed under the following conditions:
 
-  1. **Class determination**: The ID8000 label is exclusively generated for \**Class 9* shipments; no other classes apply.
+  1. **Class determination**: The ID8000 label is exclusively generated for \*_Class 9_ shipments; no other classes apply.
 
   2. **ID8000Category field**: When creating the shipping request, the **Id8000Category** field in the API must be populated to match existing values.
 
@@ -37,20 +37,24 @@ Expand the following sections to learn how to generate the Hazmat label for clas
 
   6. **Label format**: Both the ID8000 label and the shipping label can only be generated as <Glossary>PDF</Glossary>s for hazmat shipments.
 
-  > 🚧 *Important*
-  >
-  > *The ID8000 labels are valid only within the UK; hence, if a Class 9 shipment's destination is outside of UK, the ID8000 label will not be generated.*
+  <Callout icon="🚧" theme="warn">
+    ### _Important_
+
+    _The ID8000 labels are valid only within the UK; hence, if a Class 9 shipment's destination is outside of UK, the ID8000 label will not be generated._
+  </Callout>
 
   The following are the accepted Values for ID8000Category:
 
-  * Medicine
-  * Perfume/Aftershave
-  * Nail Varnish
-  * Toiletry or Medicinal Aerosols
+  - Medicine
+  - Perfume/Aftershave
+  - Nail Varnish
+  - Toiletry or Medicinal Aerosols
 
-  <Image align="center" src="https://files.readme.io/aa4ac259770b0d327a8cd43d0e47c31f8af7b5b1b10cb41fd7c141830787b4e7-Hazmat_label_example_1.png" width="300px" caption="ID8000 label example" />
 
-  <br />
+  <Image src="https://files.readme.io/aa4ac259770b0d327a8cd43d0e47c31f8af7b5b1b10cb41fd7c141830787b4e7-Hazmat_label_example_1.png" align="center" width="300px" caption="ID8000 label example" />
+
+
+
 </Accordion>
 
 <Accordion title="Generate hazardous LQDG label">
@@ -60,12 +64,12 @@ Expand the following sections to learn how to generate the Hazmat label for clas
 
   To use the Royal Mail LQDG template with the **DO NOT FLY** banner, you must adhere to the following:
 
-  * The hazmat element must be provided in the API request
-  * LQD in your OBA contracts must be specified
-  * The service used in the shipment request must be allowed to create hazardous shipment.
-  * The PC District and PC Sector of the destination postcode must support hazardous shipment.
-  * The total shipment weight must not exceed the LQDG Max Weight limit.
-  * The UN codes must match the list of approved UN codes - [Approved UN codes](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fkb.intersoft.co.uk%2Fhubfs%2FUn%2520Numbers%2520that%2520can%2520be%2520utilised%2520in%2520Sapient.xlsx%3FhsLang%3Den\&wdOrigin=BROWSELINK)
+  - The hazmat element must be provided in the API request
+  - LQD in your OBA contracts must be specified
+  - The service used in the shipment request must be allowed to create hazardous shipment.
+  - The PC District and PC Sector of the destination postcode must support hazardous shipment.
+  - The total shipment weight must not exceed the LQDG Max Weight limit.
+  - The UN codes must match the list of approved UN codes - [Approved UN codes](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fkb.intersoft.co.uk%2Fhubfs%2FUn%2520Numbers%2520that%2520can%2520be%2520utilised%2520in%2520Sapient.xlsx%3FhsLang%3Den\&wdOrigin=BROWSELINK)
 
   For more information on the supported hazmat classes, refer to the following table:
 
@@ -87,11 +91,9 @@ Expand the following sections to learn how to generate the Hazmat label for clas
   | 8     | Corrosive substances                                                                                                                               |
   | 9     | Miscellaneous dangerous substances and articles                                                                                                    |
 
-  <br />
+  <Callout icon="🚧" theme="warn">
+    ### _Important_
 
-  > 🚧 *Important*
-  >
-  > *For any queries on the prerequisites for hazmat label generation, please contact your Royal Mail account manager*.
+    _For any queries on the prerequisites for hazmat label generation, please contact your Royal Mail account manager_.
+  </Callout>
 </Accordion>
-
-<br />
