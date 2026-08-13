@@ -41,25 +41,23 @@ To sign in to the SAPIENT platform, there are several important factors that det
 Manage your SAPIENT platform access with these essential functions:
 
 <Cards>
-  <Card title="Log In" href="https://docs.intersoftsapient.net/docs/log-in" icon="fa-solid fa-arrow-left-to-bracket">
+  <Card title="Log In" href="https://docs.intersoftsapient.net/docs/log-in" icon="fa-solid fa-arrow-left-to-bracket" target="_blank">
     Access your SAPIENT account with your credentials.
   </Card>
 
-  <Card title="Change Password" href="https://docs.intersoftsapient.net/docs/change-password" icon="fa-solid fa-key">
+  <Card title="Change Password" href="https://docs.intersoftsapient.net/docs/change-password" icon="fa-solid fa-key" target="_blank">
     Update your current password for enhanced security.
   </Card>
 
-  <Card title="Reset Password" href="https://docs.intersoftsapient.net/docs/reset-password" icon="fa-solid fa-unlock">
+  <Card title="Reset Password" href="https://docs.intersoftsapient.net/docs/reset-password" icon="fa-solid fa-unlock" target="_blank">
     Recover access when you have forgotten your password.
   </Card>
 
-  <Card title="Log Out" href="https://docs.intersoftsapient.net/docs/log-out" icon="fa-solid fa-arrow-right-from-bracket">
+  <Card title="Log Out" href="https://docs.intersoftsapient.net/docs/log-out" icon="fa-solid fa-arrow-right-from-bracket" target="_blank">
     Safely exit your SAPIENT session.
   </Card>
 
-  <Card title="Role-based Access to SAPIENT actions" href="https://docs.intersoftsapient.net/v4.04/docs/operations-operator-role-based-access-to-sapient-actions" target="_blank" icon="fa-solid fa-users">
+  <Card title="Role-based Access to SAPIENT actions" href="https://docs.intersoftsapient.net/v4.04/docs/operations-operator-role-based-access-to-sapient-actions" icon="fa-solid fa-users" target="_blank">
     Explore the roles and their associated permissions in SAPIENT.
   </Card>
 </Cards>
-
-<br />
