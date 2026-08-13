@@ -19,8 +19,6 @@ In SAPIENT, you can edit the addresses that you have added previously to maintai
 
 <Tabs>
   <Tab title="Edit via SAPIENT UI">
-    
-
     To edit an address in SAPIENT, perform the steps as explained in the following procedure.
 
     <ToggleList>
@@ -73,12 +71,10 @@ In SAPIENT, you can edit the addresses that you have added previously to maintai
   </Tab>
 
   <Tab title="Edit via API">
-    
-
     To edit an address via our API, refer to the following endpoint:
 
-    <Cards>
-      <Card title="Update Address Book" href="https://docs.intersoftsapient.net/reference/put_v4-addresses-addressid#/" icon="fa-solid fa-code">
+    <Cards columns="2">
+      <Card title="Update Address Book" href="https://docs.intersoftsapient.net/reference/put_v4-addresses-addressid#/" icon="fa-solid fa-code" target="_blank">
         Complete API reference for editing address in address book
       </Card>
     </Cards>
@@ -90,13 +86,11 @@ In SAPIENT, you can edit the addresses that you have added previously to maintai
 ### See also
 
 <Cards>
-  <Card title="Add Address" href="https://docs.intersoftsapient.net/docs/add-address" icon="fa-solid fa-plus-circle">
+  <Card title="Add Address" href="https://docs.intersoftsapient.net/docs/add-address" icon="fa-solid fa-plus-circle" target="_blank">
     Create new addresses for customers, vendors, suppliers, or warehouse locations to expand your address repository.
   </Card>
 
-  <Card title="Delete Address" href="https://docs.intersoftsapient.net/docs/delete-address" icon="fa-solid fa-trash">
+  <Card title="Delete Address" href="https://docs.intersoftsapient.net/docs/delete-address" icon="fa-solid fa-trash" target="_blank">
     Remove outdated or unnecessary addresses to maintain a clean and organised address book.
   </Card>
 </Cards>
-
-<br />
