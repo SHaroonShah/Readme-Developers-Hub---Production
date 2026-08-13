@@ -17,7 +17,7 @@ next:
 
 To access the SAPIENT system, you'll need to log in with your credentials. This guide covers the login process for different user types and includes helpful tips for managing your account.
 
-<Cards columns={2}>
+<Cards>
   <Card title="Admin Users" icon="fa-solid fa-user-shield">
     Administrative users with full system access and management capabilities
   </Card>
@@ -100,18 +100,16 @@ To log in to the SAPIENT system, follow the instructions as explained in the fol
 
 On the application header of the home page, you can access additional account options by selecting the user profile icon:
 
-<Cards columns={3}>
-  <Card title="Change Password" href="https://docs.intersoftsapient.net/v4.04/docs/change-password" icon="fa-solid fa-key">
+<Cards>
+  <Card title="Change Password" href="https://docs.intersoftsapient.net/v4.04/docs/change-password" icon="fa-solid fa-key" target="_blank">
     Learn how to update the password for enhanced security.
   </Card>
-  <Card title="Reset Password" href="https://docs.intersoftsapient.net/docs/reset-password" icon="fa-solid fa-unlock">
+
+  <Card title="Reset Password" href="https://docs.intersoftsapient.net/docs/reset-password" icon="fa-solid fa-unlock" target="_blank">
     Recover access when you have forgotten your password.
   </Card>
 
-  <Card title="Log out" href="https://docs.intersoftsapient.net/v4.04/docs/log-out" icon="fa-solid fa-arrow-right-from-bracket">
+  <Card title="Log out" href="https://docs.intersoftsapient.net/v4.04/docs/log-out" icon="fa-solid fa-arrow-right-from-bracket" target="_blank">
     Learn how to exit the system securely.
   </Card>
-
 </Cards>
-
-<br />
