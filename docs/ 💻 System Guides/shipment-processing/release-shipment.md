@@ -20,7 +20,7 @@ Releasing a shipment from hold is crucial for maintaining operational efficiency
 
 In SAPIENT, you can anytime release the [held](https://docs.intersoftsapient.net/docs/held-shipments) <Glossary>shipments</Glossary>.
 
-<Cards columns={2}>
+<Cards>
   <Card title="UI Method" icon="fa-solid fa-desktop">
     Release held shipments directly through the SAPIENT user interface using the step-by-step process below.
   </Card>
@@ -34,8 +34,6 @@ In SAPIENT, you can anytime release the [held](https://docs.intersoftsapient.net
 
 <Tabs>
   <Tab title="Release via SAPIENT UI">
-    
-
     To release a shipment in SAPIENT, perform the steps as explained in the following procedure.
 
     <ToggleList>
@@ -81,22 +79,22 @@ In SAPIENT, you can anytime release the [held](https://docs.intersoftsapient.net
     </ToggleList>
 
     <Callout icon="💡" theme="default">
-      ### *Tip*
+      ### _Tip_
 
-      *If you want to export the label for the held shipments, then in the**Tracking Number** column select ![](https://files.readme.io/3df26abe526e632f50567b6ad821d178d4193a2d068a9f584e3e6a2b547b4417-Cloud_icon.png). Follow the prompts of your computer and download it.*
+      _If you want to export the label for the held shipments, then in the_**_Tracking Number_**_&#x20;column select ![](https://files.readme.io/3df26abe526e632f50567b6ad821d178d4193a2d068a9f584e3e6a2b547b4417-Cloud_icon.png). Follow the prompts of your computer and download it._
     </Callout>
   </Tab>
 
   <Tab title="Release via API">
     To release shipment via our API, refer to the following endpoint
 
-    <Cards>
-      <Card title="Update Status" href="https://docs.intersoftsapient.net/reference/put_v4-shipments-status" icon="fa-solid fa-code">
+    <Cards columns="2">
+      <Card title="Update Status" href="https://docs.intersoftsapient.net/reference/put_v4-shipments-status" icon="fa-solid fa-code" target="_blank">
         Complete API reference for shipment status updates including releasing
       </Card>
     </Cards>
 
-    <br />
+
 
     ***
 
@@ -104,8 +102,6 @@ In SAPIENT, you can anytime release the [held](https://docs.intersoftsapient.net
 
     To view a step-by-step process on how to release held shipments and manifest them via API, refer to the following API recipe:
 
-    <Recipe />
+    <Recipe  />
   </Tab>
 </Tabs>
-
-<br />
