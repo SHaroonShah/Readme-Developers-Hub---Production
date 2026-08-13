@@ -74,7 +74,7 @@ After you have [cancelled](https://docs.intersoftsapient.net/docs/view-cancelled
     To recall shipment via our API, refer to the following endpoint:
 
     <Cards columns="2">
-      <Card title="Update Status" href="https://docs.intersoftsapient.net/reference/put_v4-shipments-status" icon="fa-solid fa-code">
+      <Card title="Update Status" href="https://docs.intersoftsapient.net/reference/put_v4-shipments-status" icon="fa-solid fa-code" target="_blank">
         Complete API reference for shipment status updates including recalling
       </Card>
     </Cards>
