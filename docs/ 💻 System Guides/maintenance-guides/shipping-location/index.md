@@ -29,7 +29,7 @@ The following are the primary purposes of a shipping location:
 In this section, learn how to mange your shipping locations with these essential operations:
 
 <Cards columns="4">
-  <Card title="Add Location" href="https://docs.intersoftsapient.net/docs/add-a-shipping-location" icon="Fa- solid fa-plus-circle" target="_blank">
+  <Card title="Add Location" href="https://docs.intersoftsapient.net/docs/add-a-shipping-location" icon="fa-solid fa-plus-circle" target="_blank">
     Learn how to create and set up a new shipping location in your system.
   </Card>
 
@@ -37,7 +37,7 @@ In this section, learn how to mange your shipping locations with these essential
     Modify existing shipping location details and settings.
   </Card>
 
-  <Card title="Link Location to Shipping Account" href="https://docs.intersoftsapient.net/v4.04/docs/link-shipping-location-to-existing-shipping-account" icon="Fa- solid fa-link" target="_blank">
+  <Card title="Link Location to Shipping Account" href="https://docs.intersoftsapient.net/v4.04/docs/link-shipping-location-to-existing-shipping-account" icon="fa-solid fa-link" target="_blank">
     Learn how to link a shipping location with an existing shipping account.
   </Card>
 
