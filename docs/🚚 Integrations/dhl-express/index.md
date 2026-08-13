@@ -44,7 +44,7 @@ DHL is the global leader in the logistics industry. DHL Express is a brand withi
   </Tab>
 
   <Tab title="Additional Features">
-    <Cards>
+    <Cards columns="2">
       <Card title="Consignment Services" icon="fa-solid fa-boxes-stacked">
         DHL Express supports a maximum of 999 packages per consignment. In this case, the SAPIENT maximum of 99 will be used.
       </Card>
@@ -64,7 +64,8 @@ DHL is the global leader in the logistics industry. DHL Express is a brand withi
         - **Use SAPIENT-generated invoices**: SAPIENT generates the invoices from shipment data and sends them to DHL.
       </Card>
     </Cards>
-<br />
+
+
 
     <Callout icon="💡" theme="default">
       ### _Tip_
