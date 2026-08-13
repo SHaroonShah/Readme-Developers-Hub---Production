@@ -25,8 +25,6 @@ In SAPIENT, you can create a <Glossary>shipping account</Glossary>, assign your 
 
 <Tabs>
   <Tab title="Add via SAPIENT UI">
-    
-
     To add a shipping account in SAPIENT, perform the steps as explained in the following procedure.
 
     <ToggleList>
@@ -134,8 +132,8 @@ In SAPIENT, you can create a <Glossary>shipping account</Glossary>, assign your 
   <Tab title="Add via API">
     To add a shipping account via our API, refer to the following endpoint:
 
-    <Cards>
-      <Card title="Add Account" href="https://docs.intersoftsapient.net/reference/post_v4-shippingaccounts-rm" icon="fa-solid fa-code">
+    <Cards columns="2">
+      <Card title="Add Account" href="https://docs.intersoftsapient.net/reference/post_v4-shippingaccounts-rm" icon="fa-solid fa-code" target="_blank">
         Complete API reference for adding shipping account
       </Card>
     </Cards>
@@ -149,9 +147,7 @@ In SAPIENT, you can create a <Glossary>shipping account</Glossary>, assign your 
 <Accordion title="What's Next?">
   Once you've successfully added your shipping account, you can:
 
-  * [Add a shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location) to your new shipping account
-  * Configure additional carrier settings
-  * Test your account in the sandbox environment before going live
+  - [Add a shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location) to your new shipping account
+  - Configure additional carrier settings
+  - Test your account in the sandbox environment before going live
 </Accordion>
-
-<br />
