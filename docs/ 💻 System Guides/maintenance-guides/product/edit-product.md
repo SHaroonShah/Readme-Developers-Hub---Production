@@ -20,8 +20,6 @@ In SAPIENT, you can edit the <Glossary>product</Glossary>, ensuring that any cha
 
 <Tabs>
   <Tab title="Edit via SAPIENT UI">
-   
-
     To edit a product in SAPIENT, perform the steps as explained in the following procedure.
 
     <ToggleList>
@@ -74,12 +72,10 @@ In SAPIENT, you can edit the <Glossary>product</Glossary>, ensuring that any cha
   </Tab>
 
   <Tab title="Edit via API">
-    
-
     To edit a product via our API, refer to the following endpoint:
 
-    <Cards>
-      <Card title="Update Product" href="https://docs.intersoftsapient.net/v4.04/reference/put_v4-products-skucode#/" icon="fa-solid fa-code">
+    <Cards columns="2">
+      <Card title="Update Product" href="https://docs.intersoftsapient.net/v4.04/reference/put_v4-products-skucode#/" icon="fa-solid fa-code" target="_blank">
         Complete API reference for editing products
       </Card>
     </Cards>
@@ -90,12 +86,12 @@ In SAPIENT, you can edit the <Glossary>product</Glossary>, ensuring that any cha
 
 ### See also
 
-<Cards columns={2}>
-  <Card title="Add Product" href="https://docs.intersoftsapient.net/docs/add-product" icon="fa-solid fa-plus-circle">
+<Cards>
+  <Card title="Add Product" href="https://docs.intersoftsapient.net/docs/add-product" icon="fa-solid fa-plus-circle" target="_blank">
     Create new product entries in your system with all necessary details and shipping requirements.
   </Card>
 
-  <Card title="Delete Product" href="https://docs.intersoftsapient.net/docs/delete-product" icon="fa-solid fa-trash-alt">
+  <Card title="Delete Product" href="https://docs.intersoftsapient.net/docs/delete-product" icon="fa-solid fa-trash-alt" target="_blank">
     Remove products from your system that are no longer needed.
   </Card>
 </Cards>
