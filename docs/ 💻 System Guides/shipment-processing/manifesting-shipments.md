@@ -44,8 +44,6 @@ You can also manifest shipments by:
 
 <Tabs>
   <Tab title="Manifest via SAPIENT UI">
-    
-
     To manifest a shipment in SAPIENT, perform the steps as explained in the following procedure.
 
     <ToggleList>
@@ -154,17 +152,15 @@ You can also manifest shipments by:
   </Tab>
 
   <Tab title="Manifest via API">
-    
-
     To manifest shipments via our API, refer to the following endpoint
 
-    <Cards>
-      <Card title="Manifest Shipments" href="https://docs.intersoftsapient.net/v4.04/reference/post_v4-manifests-carriercode#/" icon="fa-solid fa-code">
+    <Cards columns="2">
+      <Card title="Manifest Shipments" href="https://docs.intersoftsapient.net/v4.04/reference/post_v4-manifests-carriercode#/" icon="fa-solid fa-code" target="_blank">
         Complete API reference for manifesting shipments via our API
       </Card>
     </Cards>
 
-    <br />
+
 
     ***
 
@@ -172,8 +168,6 @@ You can also manifest shipments by:
 
     To view a step-by-step process on how to create and manifest shipments via API, refer to the following API recipe:
 
-    <Recipe />
+    <Recipe  />
   </Tab>
 </Tabs>
-
-<br />
