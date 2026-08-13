@@ -201,8 +201,6 @@ In SAPIENT, you can create both <Glossary>On-Amazon</Glossary> and <Glossary>Off
       </ToggleList>
     </Accordion>
 
-
-
     <Accordion title="Add Off-Amazon shipping account">
       To add an Off-Amazon shipping accoun to SAPIENT, perform the steps as explained in the following prcedure.
 
@@ -403,7 +401,7 @@ In SAPIENT, you can create both <Glossary>On-Amazon</Glossary> and <Glossary>Off
 ### See also
 
 <Cards columns="2">
-  <Card title="Edit shipping account" href="https://docs.intersoftsapient.net/docs/edit-shipping-account" icon="fa-pen-to-square" target="_blank" kind="tile">
+  <Card title="Edit shipping account" href="https://docs.intersoftsapient.net/docs/edit-shipping-account" icon="fa-pen-to-square" target="_blank">
     Modify an existing shipping account's details.
   </Card>
 </Cards>
