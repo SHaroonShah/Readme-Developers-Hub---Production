@@ -162,9 +162,9 @@ To integrate with the Royal Mail import services via SAPIENT, follow the steps l
 
 ***
 
-## See also
+### See also
 
-<Cards columns="4">
+<Cards columns="3">
   <Card title="Returns services" href="https://docs.intersoftsapient.net/docs/switching-the-account-to-production" icon="fa-solid fa-rotate-left" target="_blank">
     View all the requirements for using Royal Mail returns services.
   </Card>
