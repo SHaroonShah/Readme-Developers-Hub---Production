@@ -66,10 +66,8 @@ Additionally, this process helps streamline user management by removing inactive
 
 ### See also
 
-<Cards>
-  <Card title="Add User" href="https://docs.intersoftsapient.net/docs/add-users-to-your-organisation-to-begin-collaborating-with-your-team" icon="fa-solid fa-circle-plus">
+<Cards columns="2">
+  <Card title="Add User" href="https://docs.intersoftsapient.net/docs/add-users-to-your-organisation-to-begin-collaborating-with-your-team" icon="fa-solid fa-circle-plus" target="_blank">
     Learn how to add new users to your organisation and set up team collaboration.
   </Card>
 </Cards>
-
-<br />
