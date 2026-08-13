@@ -93,6 +93,7 @@ In the UK, Amazon Shipping covers England, Scotland, and Wales, offering seven-d
     | **1Day**      | This service provides next-day delivery service for non-Amazon orders; may include limited or no tracking compared to On-Amazon services. |
     | **2Day**      | This service provides two-day delivery service for non-Amazon orders; may include limited or no tracking compared to On-Amazon services.  |
    <br />
+
     <Callout icon="💡" theme="default">
       ### _Tip_
 
