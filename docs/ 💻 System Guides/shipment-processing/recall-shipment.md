@@ -15,7 +15,7 @@ next:
 ---
 After you have [cancelled](https://docs.intersoftsapient.net/docs/view-cancelled-shipments) the <Glossary>shipment</Glossary> in SAPIENT, you can anytime recall it and proceed with its processing. This might involve taking necessary actions to fulfil the order again after addressing the reasons for its cancellation.
 
-<Cards columns={2}>
+<Cards>
   <Card title="UI Method" icon="fa-solid fa-desktop">
     Recall shipments directly through the SAPIENT user interface using the step-by-step process below.
   </Card>
@@ -29,8 +29,6 @@ After you have [cancelled](https://docs.intersoftsapient.net/docs/view-cancelled
 
 <Tabs>
   <Tab title="Recall via SAPIENT UI">
-    
-
     To recall a shipment via the SAPIENT UI, perform the steps as explained in the following procedure.
 
     <ToggleList>
@@ -73,11 +71,9 @@ After you have [cancelled](https://docs.intersoftsapient.net/docs/view-cancelled
   </Tab>
 
   <Tab title="Recall via API">
-    
-
     To recall shipment via our API, refer to the following endpoint:
 
-    <Cards>
+    <Cards columns="2">
       <Card title="Update Status" href="https://docs.intersoftsapient.net/reference/put_v4-shipments-status" icon="fa-solid fa-code">
         Complete API reference for shipment status updates including recalling
       </Card>
@@ -102,5 +98,3 @@ After you have [cancelled](https://docs.intersoftsapient.net/docs/view-cancelled
 
   Recalled shipments automatically return to their previous status in the processing workflow, allowing you to continue where you left off.
 </Accordion>
-
-<br />
