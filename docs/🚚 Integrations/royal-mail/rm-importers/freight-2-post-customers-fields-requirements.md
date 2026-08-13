@@ -37,7 +37,7 @@ If you are importing goods into the UK via Freight 2 Post route, please ensure t
   <tbody>
     <tr>
       <td style={{ textAlign: "center" }}>
-        **SHIPPER**
+        **Shipper**
       </td>
 
       <td>
@@ -54,7 +54,7 @@ If you are importing goods into the UK via Freight 2 Post route, please ensure t
 
     <tr>
       <td style={{ textAlign: "center" }}>
-        **DESTINATION**
+        **Destination**
       </td>
 
       <td>
@@ -71,7 +71,7 @@ If you are importing goods into the UK via Freight 2 Post route, please ensure t
 
     <tr>
       <td style={{ textAlign: "center" }}>
-        **SHIPMENT INFORMATION**
+        **Shipment Information**
       </td>
 
       <td>
@@ -84,7 +84,7 @@ If you are importing goods into the UK via Freight 2 Post route, please ensure t
 
     <tr>
       <td style={{ textAlign: "center" }}>
-        **ITEMS**
+        **Items**
       </td>
 
       <td>
@@ -99,7 +99,7 @@ If you are importing goods into the UK via Freight 2 Post route, please ensure t
 
     <tr>
       <td style={{ textAlign: "center" }}>
-        **CUSTOMS**
+        **Customs**
       </td>
 
       <td>
@@ -114,5 +114,3 @@ If you are importing goods into the UK via Freight 2 Post route, please ensure t
 
   _The requirements listed in the preceding table are also specific for Royal Mail customers creating international shipments._
 </Callout>
-
-<br />
