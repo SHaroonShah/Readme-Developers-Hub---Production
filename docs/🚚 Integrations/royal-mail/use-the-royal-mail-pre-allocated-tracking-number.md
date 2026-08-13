@@ -58,10 +58,8 @@ Follow a step-by-step guide API recipe on how to use the pre-allocated tracking 
 
 ### See also
 
-<Cards columns={2}>
-  <Card title="Create Shipment API" href="https://docs.intersoftsapient.net/reference/post_v4-shipments-rm" icon="fa-plus">
+<Cards columns="2">
+  <Card title="Create Shipment API" href="https://docs.intersoftsapient.net/reference/post_v4-shipments-rm" icon="fa-plus" target="_blank">
     View the full API reference for creating Royal Mail shipments.
   </Card>
 </Cards>
-
-<br />
