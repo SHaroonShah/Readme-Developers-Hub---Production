@@ -123,20 +123,18 @@ To add a barcode range for International Arrival Containers in SAPIENT, perform 
 
 ### See also
 
-<Cards columns={2}>
+<Cards>
   <Card title="ASCAN flow" href="https://docs.intersoftsapient.net/docs/internation-arrival-containers-ascan-flow#/" icon="fa-solid fa-barcode-read" target="_blank">
     Learn how the **International Arrivals Containers** process works and get to know the entire journey of the UK arrival containers on the fly.
   </Card>
 
-  <Card title="International Arrivals Containers API" href="https://docs.intersoftsapient.net/reference/post_v4-internationalarrivalscontainers-rm#/" icon="fa-solid fa-gear-complex-code">
+  <Card title="International Arrivals Containers API" href="https://docs.intersoftsapient.net/reference/post_v4-internationalarrivalscontainers-rm#/" icon="fa-solid fa-gear-complex-code" target="_blank">
     Create and name (with and ID or alias) a new international arrivals container to be used for manifesting a specific group of shipments.
   </Card>
 </Cards>
 
-<Cards columns={2}>
+<Cards columns="2">
   <Card title="A-scan FAQs" href="https://docs.intersoftsapient.net/docs/a-scan-faqs#/" icon="fa-solid fa-messages-question">
     Frequently asked questions regarding the International Arrivals Container API.
   </Card>
 </Cards>
-
-<br />
