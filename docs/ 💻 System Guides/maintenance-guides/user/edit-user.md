@@ -74,13 +74,11 @@ In SAPIENT, you can edit the users to maintain accurate and up-to-date records o
 ### See also
 
 <Cards>
-  <Card title="Add User" href="https://docs.intersoftsapient.net/docs/add-users-to-your-organisation-to-begin-collaborating-with-your-team" icon="fa-solid fa-circle-plus">
+  <Card title="Add User" href="https://docs.intersoftsapient.net/docs/add-users-to-your-organisation-to-begin-collaborating-with-your-team" icon="fa-solid fa-circle-plus" target="_blank">
     Learn how to add new users to your organisation and set up team collaboration.
   </Card>
 
-  <Card title="Delete User" href="https://docs.intersoftsapient.net/docs/delete-user" icon="fa-solid fa-trash">
+  <Card title="Delete User" href="https://docs.intersoftsapient.net/docs/delete-user" icon="fa-solid fa-trash" target="_blank">
     Remove users from your organization when they are no longer needed.
   </Card>
 </Cards>
-
-<br />
