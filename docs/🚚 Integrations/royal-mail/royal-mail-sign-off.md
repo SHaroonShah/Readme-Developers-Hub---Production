@@ -18,9 +18,11 @@ This section outlines the sign-off process for each scenario, highlights key API
   2. If Royal Mail responds successfully, the shipping account is created in the **Active** status.
   3. If Royal Mail returns an error, the account is not created, and SAPIENT returns the [error response](https://docs.intersoftsapient.net/docs/royal-mail-sign-off#possible-oba-error-codes).
 
-  > 📘 *Note*
-  >
-  > *If the <Glossary>account type</Glossary> is set to **Sandbox** and the OBA access code is not provided, SAPIENT does not send a request to Royal Mail and the account is created successfully without an OBA access code. You can use this account to create test shipments*
+  <Callout icon="📘" theme="info">
+    ### _Note_
+
+    _If the <Glossary>account type</Glossary> is set to&#x20;_**_Sandbox_**_&#x20;and the OBA access code is not provided, SAPIENT does not send a request to Royal Mail and the account is created successfully without an OBA access code. You can use this account to create test shipments_
+  </Callout>
 </Accordion>
 
 <Accordion title="Changing account type from Sandbox to Production" icon="fa-exchange-alt">
@@ -28,14 +30,16 @@ This section outlines the sign-off process for each scenario, highlights key API
   2. If Royal Mail responds successfully, the account type is updated to **Production**.
   3. If Royal Mail responds with an error, the account remains as **Sandbox**, and an [error message](https://docs.intersoftsapient.net/docs/royal-mail-sign-off#possible-oba-error-codes) is returned.
 
-  > 🚧 *Important*
-  >
-  > *If your shipping account has multiple locations linked to it, then before transitioning to**Production**, keep in mind the following:*
-  >
-  > * *SAPIENT sends a separate**OBA Access Code** request for each linked location.*
-  > * *All locations must succeed for the account to be updated to**Production**.*
-  > * *If any location fails, the account remains as Sandbox.*
-  > * *Once you switch from**Sandbox** to **Production**, the system makes a one-time **OBA Access Code** request. If the switch is successful, future changes to the account type will not trigger another OBA call, since the account is already approved and active.*
+  <Callout icon="🚧" theme="warn">
+    ### _Important_
+
+    _If your shipping account has multiple locations linked to it, then before transitioning to_**_Production_**_, keep in mind the following:_
+
+    - _SAPIENT sends a separate_**_OBA Access Code_**_&#x20;request for each linked location._
+    - _All locations must succeed for the account to be updated to_**_Production_**_._
+    - _If any location fails, the account remains as Sandbox._
+    - _Once you switch from_**_Sandbox_**_&#x20;to&#x20;_**_Production_**_, the system makes a one-time&#x20;_**_OBA Access Code_**_&#x20;request. If the switch is successful, future changes to the account type will not trigger another OBA call, since the account is already approved and active._
+  </Callout>
 </Accordion>
 
 <Accordion title="Linking a new location to an existing shipping account" icon="fa-link">
@@ -50,9 +54,11 @@ This section outlines the sign-off process for each scenario, highlights key API
   1. You can check the account status by viewing the shipping account or via the [Get Account](https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-rm-shippingaccountid) API.
   2. It is also recommended to run the end to end test to ensure that the integration was set up correctly by sending out a test parcel. If tracking has been enabled for the carrier, then you should also receive the tracking events via the <Glossary>tracking webhook</Glossary>.
 
-  > 📘 *Note*
-  >
-  > *Shipping account(s) can be added and managed via API. For more information, refer to the [API References](https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts) section.*
+  <Callout icon="📘" theme="info">
+    ### _Note_
+
+    _Shipping account(s) can be added and managed via API. For more information, refer to the [API References](https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts) section._
+  </Callout>
 
   To view a step-by-step process on how to add a shipping account with a new shipping location, refer to the following API recipe:
 
@@ -78,10 +84,8 @@ This section outlines the sign-off process for each scenario, highlights key API
 
 ### See also
 
-<Cards columns={1}>
-  <Card title="Edit shipping account" href="https://docs.intersoftsapient.net/docs/edit-shipping-account" icon="fa-pen-to-square">
+<Cards columns="2">
+  <Card title="Edit shipping account" href="https://docs.intersoftsapient.net/docs/edit-shipping-account" icon="fa-pen-to-square" target="_blank">
     Modify an existing Royal Mail shipping account's details.
   </Card>
 </Cards>
-
-<br />
