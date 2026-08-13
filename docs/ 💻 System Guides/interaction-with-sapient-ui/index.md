@@ -25,22 +25,20 @@ The SAPIENT application consists of four main blocks, each serving a specific pu
 
 Click any of the following cards to learn more about specific UI elements and their functionalities:
 
-<Cards columns={2}>
-  <Card title="Application Header" href="https://docs.intersoftsapient.net/docs/application-header" icon="fa-solid fa-window-maximize">
+<Cards>
+  <Card title="Application Header" href="https://docs.intersoftsapient.net/docs/application-header" icon="fa-solid fa-window-maximize" target="_blank">
     > The top-level navigation and branding area that provides access to global application functions and user settings.
   </Card>
 
-  <Card title="Top Toolbar" href="https://docs.intersoftsapient.net/docs/top-toolbar" icon="fa-solid fa-browsers">
+  <Card title="Top Toolbar" href="https://docs.intersoftsapient.net/docs/top-toolbar" icon="fa-solid fa-browsers" target="_blank">
     > Contains frequently used tools and actions specific to your current workspace, enabling quick access to common operations.
   </Card>
 
-  <Card title="Side Navigation Panel" href="https://docs.intersoftsapient.net/docs/side-navigation-panel" icon="fa-solid fa-sidebar">
+  <Card title="Side Navigation Panel" href="https://docs.intersoftsapient.net/docs/side-navigation-panel" icon="fa-solid fa-sidebar" target="_blank">
     > Your primary navigation hub for accessing different modules, features, and sections within the SAPIENT application.
   </Card>
 
-  <Card title="Contents Panel" href="https://docs.intersoftsapient.net/docs/dashboard" icon="fa-solid fa-dashboard">
+  <Card title="Contents Panel" href="https://docs.intersoftsapient.net/docs/dashboard" icon="fa-solid fa-dashboard" target="_blank">
     > The main working area where you can view and interact with your data, reports, and primary application content.
   </Card>
 </Cards>
-
-<br />
