@@ -112,12 +112,8 @@ In UK, the <Glossary>shipments</Glossary> arrive as freight. For custom clearanc
   </tbody>
 </Table>
 
-<br />
-
 <Callout icon="🚧" theme="warn">
   ### _Important_
 
   _Please also remember to develop our&#x20;_**_International Arrivals Containers (A-scan) API calls_**_. It's mandatory for Freight 2 Post customers._
 </Callout>
-
-<br />
