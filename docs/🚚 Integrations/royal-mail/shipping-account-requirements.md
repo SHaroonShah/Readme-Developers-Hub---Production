@@ -37,8 +37,6 @@ In SAPIENT, you can create a Royal Mail shipping account by selecting your desir
         ***
       </ToggleListItem>
 
-
-
       <ToggleListItem title="2. Select the Add Shipping Account button" icon="fa-plus-circle">
         <br />
 
@@ -48,7 +46,6 @@ In SAPIENT, you can create a Royal Mail shipping account by selecting your desir
 
         ***
       </ToggleListItem>
-
 
 
       <ToggleListItem title="3. Enter account details" icon="fa-id-card">
@@ -68,8 +65,6 @@ In SAPIENT, you can create a Royal Mail shipping account by selecting your desir
 
         ***
       </ToggleListItem>
-
-
 
       <ToggleListItem title="4. Enter shipping account details" icon="fa-file-alt">
         <br />
@@ -152,8 +147,6 @@ In SAPIENT, you can create a Royal Mail shipping account by selecting your desir
         ***
       </ToggleListItem>
 
-
-
       <ToggleListItem title="5. Enter carrier details" icon="fa-building">
         <br />
 
@@ -199,8 +192,6 @@ In SAPIENT, you can create a Royal Mail shipping account by selecting your desir
 
         ***
       </ToggleListItem>
-
-
 
       <ToggleListItem title="6. Submit and save the shipping account" icon="fa-check">
         <br />
