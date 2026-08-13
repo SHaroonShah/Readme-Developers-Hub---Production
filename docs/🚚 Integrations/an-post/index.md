@@ -47,16 +47,12 @@ The integration of An Post, Ireland's national postal service, into the SAPIENT 
       </Card>
     </Cards>
 
-
-
     <Accordion title="Important considerations">
       Please bear in mind the following:
 
       - An Post does not support consignment services; all services are single-package services only. Also, the Express International and Priority Post services are only available to limited destinations.
       - If shipping from GB to Ireland, undelivered or returned parcels will not be returned to your UK address. Instead, they must be returned to a designated PO Box address at the Portlaoise Mail Centre in Ireland. This information must be populated in the **ReturnToSender** section of the API documentation
     </Accordion>
-
-
   </Tab>
 
   <Tab title="Additional Features">
@@ -90,8 +86,7 @@ The integration of An Post, Ireland's national postal service, into the SAPIENT 
     | **Express International**           | This service provides fast international delivery with prioritised handling and tracking.                                                                                                                                                                                           |
     | **Registered Post**                 | This service provides secure delivery with signature capture and compensation cover for valuable items                                                                                                                                                                              |
     | **IBMS/Untracked**                  | This service provides cost-effective international business mail delivery for letters, packets, and lightweight parcels without full end-to-end tracking, suitable for non-urgent shipments.This service provides basic untracked delivery for low-value or non-priority shipments. |
-
-
+<br />
 
     <Callout icon="💡" theme="default">
       ### _Tip_
@@ -122,8 +117,6 @@ The integration of An Post, Ireland's national postal service, into the SAPIENT 
       </Callout>
     </Accordion>
 
-
-
     <Accordion title="Manifest Shipment">
       Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/v4.04/docs/manifest-webhook), which provides updates on manifest requests, allowing you to track the progress and status of shipments prepared for carrier collection and delivery.
     </Accordion>
@@ -139,8 +132,6 @@ The integration of An Post, Ireland's national postal service, into the SAPIENT 
         _This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting._
       </Callout>
     </Accordion>
-
-
 
     <Accordion title="Tracking">
       This integration allows customers to monitor their shipments in real-time, providing transparency and peace of mind. Users can access detailed tracking information, including, real-time updates, tracking numbers, and delivery notifications.
