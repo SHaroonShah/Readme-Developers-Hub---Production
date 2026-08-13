@@ -89,13 +89,11 @@ To add a tracking account for An Post in SAPIENT, perform the steps as explained
 ### See also
 
 <Cards columns="2">
-  <Card title="Set Up Tracking Webhook Connection" href="https://docs.intersoftsapient.net/v4.04/docs/create-tracking-webhook" icon="fa-solid fa-code-pull-request">
+  <Card title="Set Up Tracking Webhook Connection" href="https://docs.intersoftsapient.net/v4.04/docs/create-tracking-webhook" icon="fa-solid fa-code-pull-request" target="_blank">
     Automate the instantaneous flow of information regarding the status of shipments.
   </Card>
 
-  <Card title="Track Events and Milestones" href="https://docs.intersoftsapient.net/docs/tracking-events-and-milestones" icon="fa-solid fa-chart-line-up">
+  <Card title="Track Events and Milestones" href="https://docs.intersoftsapient.net/docs/tracking-events-and-milestones" icon="fa-solid fa-chart-line-up" target="_blank">
     Understand tracking events and milestone data.
   </Card>
 </Cards>
-
-<br />
