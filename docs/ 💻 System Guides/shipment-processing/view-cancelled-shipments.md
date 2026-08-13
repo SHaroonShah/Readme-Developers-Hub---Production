@@ -117,7 +117,7 @@ In SAPIENT, you can cancel the <Glossary>shipments</Glossary> to ensure that res
     To cancel shipment via our API, refer to the following endpoint:
 
     <Cards columns="2">
-      <Card title="Update Status" href="https://docs.intersoftsapient.net/reference/put_v4-shipments-status" icon="fa-solid fa-code">
+      <Card title="Update Status" href="https://docs.intersoftsapient.net/reference/put_v4-shipments-status" icon="fa-solid fa-code" target="_blank">
         Complete API reference for shipment status updates including cancellation
       </Card>
     </Cards>
