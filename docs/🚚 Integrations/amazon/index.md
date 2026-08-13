@@ -74,7 +74,7 @@ In the UK, Amazon Shipping covers England, Scotland, and Wales, offering seven-d
         Amazon sends the receiver a one-time password to be used upon delivery.
       </Card>
     </Cards>
-
+    <br />
     <Callout icon="💡" theme="default">
       ### _Tip_
 
@@ -92,7 +92,7 @@ In the UK, Amazon Shipping covers England, Scotland, and Wales, offering seven-d
     | **Economy**   | This service provides cost-effective tracked delivery service with a longer transit time for Amazon marketplace orders.                   |
     | **1Day**      | This service provides next-day delivery service for non-Amazon orders; may include limited or no tracking compared to On-Amazon services. |
     | **2Day**      | This service provides two-day delivery service for non-Amazon orders; may include limited or no tracking compared to On-Amazon services.  |
-
+   <br />
     <Callout icon="💡" theme="default">
       ### _Tip_
 
