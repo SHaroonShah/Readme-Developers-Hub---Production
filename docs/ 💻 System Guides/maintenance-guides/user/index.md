@@ -40,7 +40,7 @@ In this section, learn how to manage your users with these essential operations:
 
 ***
 
-## See also
+### See also
 
 <Cards>
   <Card title="Authorisation" href="https://docs.intersoftsapient.net/v4.02/docs/authorisation" icon="fa-solid fa-circle-plus" target="_blank">
