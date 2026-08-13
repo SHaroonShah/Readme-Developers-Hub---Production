@@ -17,7 +17,7 @@ next:
 ---
 In SAPIENT, you can hold the <Glossary>shipments</Glossary> for 28 days. Shipments that are kept on hold longer than 28 days are cancelled automatically.
 
-<Cards columns={2}>
+<Cards>
   <Card title="UI Method" icon="fa-solid fa-desktop">
     Hold shipments directly through the SAPIENT user interface using the step-by-step process below.
   </Card>
@@ -30,17 +30,15 @@ In SAPIENT, you can hold the <Glossary>shipments</Glossary> for 28 days. Shipmen
 <Accordion title="Prerequisites and important information" icon="info-circle">
   Before holding a shipment, make sure of the following:
 
-  * You can only put shipments on hold that are in the **Label Printed** status, as only shipments with this status are included in manifests.
-  * If the shipments are released or taken off hold, they go back to the status from which they were kept on hold. For example, if the shipment was in the **Label Printed** status, after taking it off hold, it goes back to the **Label Printed** status.
-  * If the shipment was created 23 days ago and was taken off hold in the current date, it will be picked by manifesting with the current date and set this date as the actual shipment date—not the one created 23 days ago.
+  - You can only put shipments on hold that are in the **Label Printed** status, as only shipments with this status are included in manifests.
+  - If the shipments are released or taken off hold, they go back to the status from which they were kept on hold. For example, if the shipment was in the **Label Printed** status, after taking it off hold, it goes back to the **Label Printed** status.
+  - If the shipment was created 23 days ago and was taken off hold in the current date, it will be picked by manifesting with the current date and set this date as the actual shipment date—not the one created 23 days ago.
 </Accordion>
 
 ## How to hold shipment
 
 <Tabs>
   <Tab title="Hold via SAPIENT UI">
-    
-
     To hold a shipment in SAPIENT, perform the steps as explained in the following procedure.
 
     <ToggleList>
@@ -132,23 +130,23 @@ In SAPIENT, you can hold the <Glossary>shipments</Glossary> for 28 days. Shipmen
     </ToggleList>
 
     <Callout icon="💡" theme="default">
-      ### *Tip*
+      ### _Tip_
 
-      *You can access the held shipments directly from this page by selecting the**View Held Shipments** option or by accessing the **Shipment Processing** > **Held** option from the side navigation panel.*
+      _You can access the held shipments directly from this page by selecting the_**_View Held Shipments_**_&#x20;option or by accessing the&#x20;_**_Shipment Processing_**_&#x20;>&#x20;_**_Held_**_&#x20;option from the side navigation panel._
 
-      <Image align="center" border={true} src="https://files.readme.io/bc5120461fe99089d00c1c83f39a4e5e0706b8a62d25f2c39b697cb4377bf6b4-Accessing_held_shipmehts.png" caption="Accessing canceled shipments" />
+
+      <Image src="https://files.readme.io/bc5120461fe99089d00c1c83f39a4e5e0706b8a62d25f2c39b697cb4377bf6b4-Accessing_held_shipmehts.png" align="center" caption="Accessing canceled shipments" border={true} />
+
     </Callout>
   </Tab>
 
   <Tab title="Hold via API">
     To hold shipment via our API, refer to the following endpoint
 
-    <Cards>
-      <Card title="Update Status" href="https://docs.intersoftsapient.net/reference/put_v4-shipments-status" icon="fa-solid fa-code">
+    <Cards columns="2">
+      <Card title="Update Status" href="https://docs.intersoftsapient.net/reference/put_v4-shipments-status" icon="fa-solid fa-code" target="_blank">
         Complete API reference for shipment status updates including holding
       </Card>
     </Cards>
   </Tab>
 </Tabs>
-
-<br />
