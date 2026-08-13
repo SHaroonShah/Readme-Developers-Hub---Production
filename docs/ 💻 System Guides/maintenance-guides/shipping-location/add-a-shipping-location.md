@@ -20,8 +20,6 @@ The process of adding a <Glossary>shipping location</Glossary> helps in streamli
 
 <Tabs>
   <Tab title="Add via SAPIENT UI">
-    
-
     To add a shipping location in SAPIENT, perform the steps as explained in the following procedure.
 
     <ToggleList>
@@ -116,8 +114,6 @@ The process of adding a <Glossary>shipping location</Glossary> helps in streamli
   </Tab>
 
   <Tab title="Add via API">
-    
-
     To add a new shipping location via our API, refer to the following endpoint:
 
     <Cards columns="2">
@@ -133,17 +129,15 @@ The process of adding a <Glossary>shipping location</Glossary> helps in streamli
 ### See also
 
 <Cards columns="3">
-  <Card title="Edit Location" href="https://docs.intersoftsapient.net/docs/edit-shipping-location" icon="fa-solid fa-edit">
+  <Card title="Edit Location" href="https://docs.intersoftsapient.net/docs/edit-shipping-location" icon="fa-solid fa-edit" target="_blank">
     Modify existing shipping location details and settings.
   </Card>
 
-  <Card title="Link Location to Shipping Account" href="https://docs.intersoftsapient.net/v4.04/docs/link-shipping-location-to-existing-shipping-account#/" icon="Fa- solid fa-link">
+  <Card title="Link Location to Shipping Account" href="https://docs.intersoftsapient.net/v4.04/docs/link-shipping-location-to-existing-shipping-account#/" icon="Fa- solid fa-link" target="_blank">
     Learn how to link a shipping location with an existing shipping account.
   </Card>
 
-  <Card title="Delete Location" href="https://docs.intersoftsapient.net/docs/delete-shipping-location" icon="fa-solid fa-trash-alt">
+  <Card title="Delete Location" href="https://docs.intersoftsapient.net/docs/delete-shipping-location" icon="fa-solid fa-trash-alt" target="_blank">
     Remove shipping locations that are no longer needed.
   </Card>
 </Cards>
-
-<br />
