@@ -49,7 +49,7 @@ In the UK, Amazon Shipping covers England, Scotland, and Wales, offering seven-d
   </Tab>
 
   <Tab title="Additional Features">
-    <Cards>
+    <Cards columns="1">
       <Card title="Single Package Shipments" icon="fa-solid fa-box">
         Amazon only supports single package services. Consignment services are not supported in the this integration.
       </Card>
