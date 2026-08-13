@@ -20,16 +20,16 @@ The shipping of these products often requires specific handling, packaging, and 
 
 In this section, learn how to mange your products with these essential operations:
 
-<Cards columns={3}>
-  <Card title="Add Product" href="https://docs.intersoftsapient.net/docs/add-product" icon="fa-solid fa-plus-circle">
+<Cards>
+  <Card title="Add Product" href="https://docs.intersoftsapient.net/docs/add-product" icon="fa-solid fa-plus-circle" target="_blank">
     Create new product entries in your system with all necessary details and shipping requirements.
   </Card>
 
-  <Card title="Edit Product" href="https://docs.intersoftsapient.net/docs/edit-product" icon="fa-solid fa-edit">
+  <Card title="Edit Product" href="https://docs.intersoftsapient.net/docs/edit-product" icon="fa-solid fa-edit" target="_blank">
     Modify existing product information, update specifications, or change handling instructions.
   </Card>
 
-  <Card title="Delete Product" href="https://docs.intersoftsapient.net/docs/delete-product" icon="fa-solid fa-trash-alt">
+  <Card title="Delete Product" href="https://docs.intersoftsapient.net/docs/delete-product" icon="fa-solid fa-trash-alt" target="_blank">
     Remove products from your system that are no longer needed.
   </Card>
 </Cards>
