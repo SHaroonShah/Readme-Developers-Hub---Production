@@ -19,8 +19,6 @@ In SAPIENT, you can add as many addresses as you want to enhance the system's ef
 
 <Tabs>
   <Tab title="Add via SAPIENT UI">
-    
-
     To add an address to the address book in SAPIENT, perform the steps as explained in the following procedure.
 
     <ToggleList>
@@ -108,12 +106,10 @@ In SAPIENT, you can add as many addresses as you want to enhance the system's ef
   </Tab>
 
   <Tab title="Add via API">
-    
-
     To add an address to the address book via our API, refer to the following endpoint:
 
-    <Cards>
-      <Card title="Add Address Book" href="https://docs.intersoftsapient.net/reference/post_v4-addresses#/" icon="fa-solid fa-code">
+    <Cards columns="2">
+      <Card title="Add Address Book" href="https://docs.intersoftsapient.net/reference/post_v4-addresses#/" icon="fa-solid fa-code" target="_blank">
         Complete API reference for adding address to address book
       </Card>
     </Cards>
@@ -125,13 +121,11 @@ In SAPIENT, you can add as many addresses as you want to enhance the system's ef
 ### See also
 
 <Cards>
-  <Card title="Edit Address" href="https://docs.intersoftsapient.net/docs/edit-address" icon="fa-solid fa-edit">
+  <Card title="Edit Address" href="https://docs.intersoftsapient.net/docs/edit-address" icon="fa-solid fa-edit" target="_blank">
     Update existing address details to keep your records current and accurate for reliable shipping.
   </Card>
 
-  <Card title="Delete Address" href="https://docs.intersoftsapient.net/docs/delete-address" icon="fa-solid fa-trash">
+  <Card title="Delete Address" href="https://docs.intersoftsapient.net/docs/delete-address" icon="fa-solid fa-trash" target="_blank">
     Remove outdated or unnecessary addresses to maintain a clean and organised address book.
   </Card>
 </Cards>
-
-<br />
