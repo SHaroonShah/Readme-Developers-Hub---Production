@@ -173,7 +173,7 @@ Moreover, different roles and permissions improve security by restricting access
         Permission that allows to <Glossary>manifest</Glossary> shipments via the SAPIENT UI.
       </Card>
     </Cards>
-
+    <br />
     <Callout icon="🚧" theme="warn">
       ### _Important_
 
