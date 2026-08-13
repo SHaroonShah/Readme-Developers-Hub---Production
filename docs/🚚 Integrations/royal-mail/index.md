@@ -206,15 +206,15 @@ This integration represents a significant step towards optimising shipping funct
 <Tabs>
   <Tab title="Account Setup">
     <Cards>
-      <Card title="Set up Royal Mail OBA" href="https://docs.intersoftsapient.net/docs/oba-email-validation" icon="fa-solid fa-user-plus">
+      <Card title="Set up Royal Mail OBA" href="https://docs.intersoftsapient.net/docs/oba-email-validation" icon="fa-solid fa-user-plus" target="_blank">
         Access the step-by-step guide on how to set up Royal Mail Online Business Account (OBA).
       </Card>
 
-      <Card title="Add Shipping Account" href="https://docs.intersoftsapient.net/docs/shipping-account-requirements" icon="fa-solid fa-truck">
+      <Card title="Add Shipping Account" href="https://docs.intersoftsapient.net/docs/shipping-account-requirements" icon="fa-solid fa-truck" target="_blank">
         Access the step-by-step guide on how to set up Royal Mail shipping account on SAPIENT.
       </Card>
 
-      <Card title="Add Tracking Account" href="https://docs.intersoftsapient.net/docs/royal-mail-tracking-account-setup" icon="fa-solid fa-search-location">
+      <Card title="Add Tracking Account" href="https://docs.intersoftsapient.net/docs/royal-mail-tracking-account-setup" icon="fa-solid fa-search-location" target="_blank">
         Access the step-by-step guide on how to set up Royal Mail tracking account on SAPIENT.
       </Card>
     </Cards>
@@ -222,31 +222,31 @@ This integration represents a significant step towards optimising shipping funct
 
   <Tab title="Shipment Services">
     <Cards>
-      <Card title="BFPO Shipments" href="https://docs.intersoftsapient.net/docs/bfpo-shipments" icon="fa-solid fa-person-military-rifle">
+      <Card title="BFPO Shipments" href="https://docs.intersoftsapient.net/docs/bfpo-shipments" icon="fa-solid fa-person-military-rifle" target="_blank">
         Create BFPO shipments and send them to British military personnel, their families, and official organisations stationed abroad or in remote locations.
       </Card>
 
-      <Card title="Return Shipments" href="https://docs.intersoftsapient.net/docs/royal-mail-returns" icon="fa-solid fa-undo">
+      <Card title="Return Shipments" href="https://docs.intersoftsapient.net/docs/royal-mail-returns" icon="fa-solid fa-undo" target="_blank">
         Send your items back with the Royal Mail hassle-free returns service.
       </Card>
 
-      <Card title="Pre-allocated Tracking" href="https://docs.intersoftsapient.net/docs/use-the-royal-mail-pre-allocated-tracking-number" icon="fa-solid fa-input-numeric">
+      <Card title="Pre-allocated Tracking" href="https://docs.intersoftsapient.net/docs/use-the-royal-mail-pre-allocated-tracking-number" icon="fa-solid fa-input-numeric" target="_blank">
         Get the pre-allocated tracking number in advance for a shipment or order before despaching.
       </Card>
     </Cards>
   </Tab>
 
   <Tab title="Advanced Features">
-    <Cards>
-      <Card title="Collection Service" href="https://docs.intersoftsapient.net/docs/royal-mail-parcel-collect" icon="fa-solid fa-hand-holding-box">
+    <Cards columns="2">
+      <Card title="Collection Service" href="https://docs.intersoftsapient.net/docs/royal-mail-parcel-collect" icon="fa-solid fa-hand-holding-box" target="_blank">
         Use the collection service to have your returns collected from your homes.
       </Card>
 
-      <Card title="PUDO Service" href="https://docs.intersoftsapient.net/docs/use-local-collect-shipment-service#/" icon="fa-solid fa-store">
+      <Card title="PUDO Service" href="https://docs.intersoftsapient.net/docs/use-local-collect-shipment-service#/" icon="fa-solid fa-store" target="_blank">
         Use the Royal Mail pick up and drop-off services for a conveninent out-of-home collection or return of your items.
       </Card>
 
-      <Card title="International Containers" href="https://docs.intersoftsapient.net/docs/add-barcode-range-for-international-arrival-containers" icon="fa-solid fa-globe-americas">
+      <Card title="International Containers" href="https://docs.intersoftsapient.net/docs/add-barcode-range-for-international-arrival-containers" icon="fa-solid fa-globe-americas" target="_blank">
         Generate a barcode range for your international arrivals containers to track the containers arriving in the UK.
       </Card>
 
@@ -257,8 +257,8 @@ This integration represents a significant step towards optimising shipping funct
   </Tab>
 
   <Tab title="API References">
-    <Cards>
-      <Card title="SAPIENT Royal Mail API " href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-rm" icon="fa-solid fa-code">
+    <Cards columns="2">
+      <Card title="SAPIENT Royal Mail API " href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-rm" icon="fa-solid fa-code" target="_blank">
         Explore the Royal Mail API endpoints for a seamless shipping experience.
       </Card>
     </Cards>
