@@ -72,40 +72,38 @@ Explore additional resources to deepen your understanding of the SAPIENT system 
 
 <Tabs>
   <Tab title="User Guides">
-    <Cards columns={2}>
-      <Card title="System User Guides" href="https://docs.intersoftsapient.net/v4.04/docs/system-user-guides#/versions" icon="fa-book-open" iconColor="">
+    <Cards>
+      <Card title="System User Guides" href="https://docs.intersoftsapient.net/v4.04/docs/system-user-guides#/versions" icon="fa-book-open" target="_blank">
         Learn how to maintain and configure your SAPIENT system effectively
       </Card>
 
-      <Card title="Carrier-Specific Guides" href="https://docs.intersoftsapient.net/v4.04/docs/carrier-specific-user-guides#/versions" icon="fa-book-open" iconColor="">
+      <Card title="Carrier-Specific Guides" href="https://docs.intersoftsapient.net/v4.04/docs/carrier-specific-user-guides#/versions" icon="fa-book-open" target="_blank">
         Explore the carrier integrations available on SAPIENT
       </Card>
     </Cards>
   </Tab>
 
   <Tab title="Operations">
-    <Cards columns={2}>
-      <Card title="Shipment Creation & Manifesting" href="https://docs.intersoftsapient.net/v4.04/docs/shipment-creation-and-manifesting#/versions" icon="fa-solid fa-arrow-progress" iconColor="">
+    <Cards>
+      <Card title="Shipment Creation & Manifesting" href="https://docs.intersoftsapient.net/v4.04/docs/shipment-creation-and-manifesting#/versions" icon="fa-solid fa-arrow-progress" target="_blank">
         Full flows on creating shipments and generating manifests
       </Card>
 
-      <Card title="Intersoft Tracking Webhook" href="https://docs.intersoftsapient.net/v4.04/docs/tracking-webhook-1#/versions" icon="fa-solid fa-webhook" iconColor="">
+      <Card title="Intersoft Tracking Webhook" href="https://docs.intersoftsapient.net/v4.04/docs/tracking-webhook-1#/versions" icon="fa-solid fa-webhook" target="_blank">
         Use our tracking webhook solution to receive real-time updates and data from various services and applications
       </Card>
     </Cards>
   </Tab>
 
   <Tab title="Reference">
-    <Cards columns={2}>
-      <Card title="Glossary" href="https://docs.intersoftsapient.net/v4.04/docs/glossary-1#/versions" icon="fa-solid fa-arrow-down-a-z">
+    <Cards>
+      <Card title="Glossary" href="https://docs.intersoftsapient.net/v4.04/docs/glossary-1#/versions" icon="fa-solid fa-arrow-down-a-z" target="_blank">
         Definitions and explanations of key terms used in SAPIENT.
       </Card>
 
-      <Card title="Archived Release Notes" href="https://docs.intersoftsapient.net/v4.04/docs/archived-release-notes#/versions" icon="fa-solid fa-box-archive">
+      <Card title="Archived Release Notes" href="https://docs.intersoftsapient.net/v4.04/docs/archived-release-notes#/versions" icon="fa-solid fa-box-archive" target="_blank">
         Historical information about previous system updates and changes.
       </Card>
     </Cards>
   </Tab>
 </Tabs>
-
-<br />
