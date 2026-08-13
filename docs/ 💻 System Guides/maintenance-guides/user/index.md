@@ -16,22 +16,24 @@ next:
 ---
 Users can include a variety of roles such as shippers, warehouse staff, logistics managers, customer service representatives, and third-party service providers. Each user typically has specific permissions and access levels based on their role within the organization.
 
-<Image align="center" border={false} width="400px" src="https://files.readme.io/ba2e4cf676068f7374031536e0195f5b7bf19ca1f12dc8114b46e9a6e6750e19-Users_art.png" />
+
+<Image src="https://files.readme.io/ba2e4cf676068f7374031536e0195f5b7bf19ca1f12dc8114b46e9a6e6750e19-Users_art.png" align="center" width="400px" />
+
 
 ## User management
 
 In this section, learn how to manage your users with these essential operations:
 
 <Cards columns="3">
-  <Card title="Add User" href="https://docs.intersoftsapient.net/docs/add-users-to-your-organisation-to-begin-collaborating-with-your-team" icon="fa-solid fa-circle-plus">
+  <Card title="Add User" href="https://docs.intersoftsapient.net/docs/add-users-to-your-organisation-to-begin-collaborating-with-your-team" icon="fa-solid fa-circle-plus" target="_blank">
     Learn how to add new users to your organisation and set up team collaboration.
   </Card>
 
-  <Card title="Edit User" href="https://docs.intersoftsapient.net/docs/edit-user" icon="fa-solid fa-edit">
+  <Card title="Edit User" href="https://docs.intersoftsapient.net/docs/edit-user" icon="fa-solid fa-edit" target="_blank">
     Modify user profiles, permissions, and access levels for existing team members.
   </Card>
 
-  <Card title="Delete User" href="https://docs.intersoftsapient.net/docs/delete-user" icon="fa-solid fa-trash">
+  <Card title="Delete User" href="https://docs.intersoftsapient.net/docs/delete-user" icon="fa-solid fa-trash" target="_blank">
     Remove users from your organization when they are no longer needed.
   </Card>
 </Cards>
@@ -41,10 +43,11 @@ In this section, learn how to manage your users with these essential operations:
 ## See also
 
 <Cards>
-  <Card title="Authorisation" href="https://docs.intersoftsapient.net/v4.02/docs/authorisation" icon="fa-solid fa-circle-plus">
+  <Card title="Authorisation" href="https://docs.intersoftsapient.net/v4.02/docs/authorisation" icon="fa-solid fa-circle-plus" target="_blank">
     Learn more about user permissions, access controls, and security settings in the SAPIENT system.
   </Card>
-  <Card title="Role-based Access to SAPIENT actions" href="https://docs.intersoftsapient.net/v4.04/docs/operations-operator-role-based-access-to-sapient-actions" target="_blank" icon="fa-solid fa-users">
+
+  <Card title="Role-based Access to SAPIENT actions" href="https://docs.intersoftsapient.net/v4.04/docs/operations-operator-role-based-access-to-sapient-actions" icon="fa-solid fa-users" target="_blank">
     Explore the roles and their associated permissions in SAPIENT.
   </Card>
 </Cards>
