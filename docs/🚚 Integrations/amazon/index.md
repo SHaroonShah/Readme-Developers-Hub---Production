@@ -24,7 +24,7 @@ In the UK, Amazon Shipping covers England, Scotland, and Wales, offering seven-d
 
 <Tabs>
   <Tab title="Key Features">
-    <Cards>
+    <Cards columns="3">
       <Card title="Shipping Origins" icon="fa-map-marker-alt">
         The integration supports shipping from locations in Great Britain (GB) only.
       </Card>
@@ -46,8 +46,6 @@ In the UK, Amazon Shipping covers England, Scotland, and Wales, offering seven-d
         The label formats are supported for both On Amazon and Off Amazon shipments. However, the available label formats depends on the service used.
       </Card>
     </Cards>
-
-
   </Tab>
 
   <Tab title="Additional Features">
@@ -77,8 +75,6 @@ In the UK, Amazon Shipping covers England, Scotland, and Wales, offering seven-d
       </Card>
     </Cards>
 
-
-
     <Callout icon="💡" theme="default">
       ### _Tip_
 
@@ -96,8 +92,6 @@ In the UK, Amazon Shipping covers England, Scotland, and Wales, offering seven-d
     | **Economy**   | This service provides cost-effective tracked delivery service with a longer transit time for Amazon marketplace orders.                   |
     | **1Day**      | This service provides next-day delivery service for non-Amazon orders; may include limited or no tracking compared to On-Amazon services. |
     | **2Day**      | This service provides two-day delivery service for non-Amazon orders; may include limited or no tracking compared to On-Amazon services.  |
-
-
 
     <Callout icon="💡" theme="default">
       ### _Tip_
@@ -117,8 +111,6 @@ In the UK, Amazon Shipping covers England, Scotland, and Wales, offering seven-d
       The integration for creating shipments to reflect Amazon as a primary carrier and allowing users to create individual shipments requests using the **Create Shipment** endpoint.
     </Accordion>
 
-
-
     <Accordion title="Manifest Shipment">
       Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/v4.04/docs/manifest-webhook), which provides updates on manifest requests, allowing you to track the progress and status of shipments prepared for carrier collection and delivery.
     </Accordion>
@@ -135,8 +127,6 @@ In the UK, Amazon Shipping covers England, Scotland, and Wales, offering seven-d
       </Callout>
     </Accordion>
 
-
-
     <Accordion title="Tracking">
       Enables customers to receive tracking updates through their integration with the SAPIENT tracking webhook.
     </Accordion>
@@ -150,19 +140,19 @@ In the UK, Amazon Shipping covers England, Scotland, and Wales, offering seven-d
 <Tabs>
   <Tab title="Account Setup">
     <Cards>
-      <Card title="Add Amazon Shipping Account" href="https://docs.intersoftsapient.net/docs/add-amazon-shipping-account" icon="fa-solid fa-truck">
+      <Card title="Add Amazon Shipping Account" href="https://docs.intersoftsapient.net/docs/add-amazon-shipping-account" icon="fa-solid fa-truck" target="_blank">
         Set up your Amazon shipping account to start creating shipments.
       </Card>
 
-      <Card title="Add Amazon Tracking Account" href="https://docs.intersoftsapient.net/docs/add-an-post-tracking-account#/" icon="fa-solid fa-search-location">
+      <Card title="Add Amazon Tracking Account" href="https://docs.intersoftsapient.net/docs/add-an-post-tracking-account#/" icon="fa-solid fa-search-location" target="_blank">
         Configure tracking for your Amazon shipments.
       </Card>
     </Cards>
   </Tab>
 
   <Tab title="API References">
-    <Cards>
-      <Card title="SAPIENT Amazon API" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-amazon" icon="fa-solid fa-code">
+    <Cards columns="2">
+      <Card title="SAPIENT Amazon API" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-amazon" icon="fa-solid fa-code" target="_blank">
         Explore the Amazon API endpoints for a seamless shipping experience.
       </Card>
     </Cards>
