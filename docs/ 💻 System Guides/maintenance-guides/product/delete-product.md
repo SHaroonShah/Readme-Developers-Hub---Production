@@ -20,8 +20,6 @@ In SAPIENT, you can delete a product to cleanup the database, preventing confusi
 
 <Tabs>
   <Tab title="Delete via SAPIENT UI">
-    
-
     To delete a product in SAPIENT, perform the steps as explained in the following procedure.
 
     <ToggleList>
@@ -78,12 +76,10 @@ In SAPIENT, you can delete a product to cleanup the database, preventing confusi
   </Tab>
 
   <Tab title="Delete via API">
-    
-
     To delete a product via our API, refer to the following endpoint:
 
-    <Cards>
-      <Card title="Delete Product" href="https://docs.intersoftsapient.net/v4.04/reference/delete_v4-products-skucode#/" icon="fa-solid fa-code">
+    <Cards columns="2">
+      <Card title="Delete Product" href="https://docs.intersoftsapient.net/v4.04/reference/delete_v4-products-skucode#/" icon="fa-solid fa-code" target="_blank">
         Complete API reference for deleting products
       </Card>
     </Cards>
@@ -94,10 +90,8 @@ In SAPIENT, you can delete a product to cleanup the database, preventing confusi
 
 ### See also
 
-<Cards>
-  <Card title="Add Product" href="https://docs.intersoftsapient.net/docs/add-product" icon="fa-solid fa-plus-circle">
+<Cards columns="2">
+  <Card title="Add Product" href="https://docs.intersoftsapient.net/docs/add-product" icon="fa-solid fa-plus-circle" target="_blank">
     Create new product entries in your system with all necessary details and shipping requirements.
   </Card>
 </Cards>
-
-<br />
