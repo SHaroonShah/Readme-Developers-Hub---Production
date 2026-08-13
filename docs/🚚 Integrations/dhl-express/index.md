@@ -110,7 +110,8 @@ DHL is the global leader in the logistics industry. DHL Express is a brand withi
     | **Express 10:30 non documents**         | This service provides time-definite international delivery of parcels before 10:30 AM on the next working day, offering expedited transit and full tracking visibility.                                     |
     | **Express 09:00 documents**             | This service provides early morning international delivery of document shipments before 9:00 AM on the next working day, ensuring urgent delivery with priority handling and tracking.                      |
     | **Express 10:30 documents**             | This service provides time-definite international delivery of document shipments before 10:30 AM on the next working day, with expedited transit and full tracking visibility.                              |
-<br />
+
+
 
     <Callout icon="💡" theme="default">
       ### _Tip_
@@ -163,19 +164,19 @@ DHL is the global leader in the logistics industry. DHL Express is a brand withi
 <Tabs>
   <Tab title="Account Setup">
     <Cards>
-      <Card title="Add DHL Express Shipping Account" href="https://docs.intersoftsapient.net/docs/add-dhl-express-shipping-account" icon="fa-solid fa-truck">
+      <Card title="Add DHL Express Shipping Account" href="https://docs.intersoftsapient.net/docs/add-dhl-express-shipping-account" icon="fa-solid fa-truck" target="_blank">
         Set up your DHL Express shipping account to start creating shipments.
       </Card>
 
-      <Card title="Add DHL Express Tracking Account" href="https://docs.intersoftsapient.net/docs/add-dhl-express-tracking-account" icon="fa-solid fa-search-location">
+      <Card title="Add DHL Express Tracking Account" href="https://docs.intersoftsapient.net/docs/add-dhl-express-tracking-account" icon="fa-solid fa-search-location" target="_blank">
         Configure tracking for your DHL Express shipments.
       </Card>
     </Cards>
   </Tab>
 
   <Tab title="API References">
-    <Cards>
-      <Card title="SAPIENT DHL Express API" href="https://docs.intersoftsapient.net/reference/post_v4-shippingaccounts-dhlexpress" icon="fa-solid fa-code">
+    <Cards columns="2">
+      <Card title="SAPIENT DHL Express API" href="https://docs.intersoftsapient.net/reference/post_v4-shippingaccounts-dhlexpress" icon="fa-solid fa-code" target="_blank">
         Explore the DHL Express API endpoints for a seamless shipping experience.
       </Card>
     </Cards>
