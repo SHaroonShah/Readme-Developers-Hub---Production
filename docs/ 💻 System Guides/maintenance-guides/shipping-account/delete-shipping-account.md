@@ -20,8 +20,6 @@ Deleting the <Glossary>shipping account</Glossary> that is no longer required is
 
 <Tabs>
   <Tab title="Delete via SAPIENT UI">
-    
-
     To delete a shipping account in SAPIENT, perform the steps as explained in the following procedure.
 
     <ToggleList>
@@ -92,12 +90,10 @@ Deleting the <Glossary>shipping account</Glossary> that is no longer required is
   </Tab>
 
   <Tab title="Delete via API">
-    
-
     To delete a shipping account via our API, refer to the following endpoint:
 
-    <Cards>
-      <Card title="Delete Account" href="https://docs.intersoftsapient.net/reference/delete_v4-shippingaccounts-carriercode-shippingaccountid#/" icon="fa-solid fa-code">
+    <Cards columns="2">
+      <Card title="Delete Account" href="https://docs.intersoftsapient.net/reference/delete_v4-shippingaccounts-carriercode-shippingaccountid#/" icon="fa-solid fa-code" target="_blank">
         Complete API reference for deleting shipping account
       </Card>
     </Cards>
@@ -108,10 +104,8 @@ Deleting the <Glossary>shipping account</Glossary> that is no longer required is
 
 ### See also
 
-<Cards>
-  <Card title="Add shipping account" href="https://docs.intersoftsapient.net/docs/add-a-shipping-account" icon="fa-solid fa-plus">
+<Cards columns="2">
+  <Card title="Add shipping account" href="https://docs.intersoftsapient.net/docs/add-a-shipping-account" icon="fa-solid fa-plus" target="_blank">
     Learn how to create a new shipping account in SAPIENT
   </Card>
 </Cards>
-
-<br />
