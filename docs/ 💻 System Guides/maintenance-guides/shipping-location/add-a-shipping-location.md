@@ -133,7 +133,7 @@ The process of adding a <Glossary>shipping location</Glossary> helps in streamli
     Modify existing shipping location details and settings.
   </Card>
 
-  <Card title="Link Location to Shipping Account" href="https://docs.intersoftsapient.net/v4.04/docs/link-shipping-location-to-existing-shipping-account#/" icon="Fa- solid fa-link" target="_blank">
+  <Card title="Link Location to Shipping Account" href="https://docs.intersoftsapient.net/v4.04/docs/link-shipping-location-to-existing-shipping-account#/" icon="fa-solid fa-link" target="_blank">
     Learn how to link a shipping location with an existing shipping account.
   </Card>
 
