@@ -18,19 +18,23 @@ The main purpose of adding users is to enhance collaboration among various depar
 
 Moreover, different roles and permissions improve security by restricting access to sensitive information, while also allowing for a customised user experience.
 
-> 📘 _Note_
->
-> _You cannot add or manage users via API._
+<Callout icon="📘" theme="info">
+  ### _Note_
+
+  _You cannot add or manage users via API._
+</Callout>
 
 ## How to add user
 
 <Tabs>
   <Tab title="Add User">
-    <br />
 
-    > 🚧 *Important*
-    >
-    > *You cannot add or manage users via API.*
+
+    <Callout icon="🚧" theme="warn">
+      ### _Important_
+
+      _You cannot add or manage users via API._
+    </Callout>
 
     To add a user in SAPIENT, perform the steps as explained in the following procedure:
 
@@ -172,17 +176,19 @@ Moreover, different roles and permissions improve security by restricting access
       </Card>
     </Cards>
 
-    <br />
 
-    > 🚧 *Important*
-    >
-    > *The Admin user has access to all functionalities, but Administrator, Lead, or Operator roles must be assigned specific permissions.*
-    >
-    > *Whether the user has accepted the invite or not, you can update their roles and permissions from the**Users** tab on the **Edit User** page. Make your changes and select **Save Changes** to update*.
-    >
-    > *For detailed information on user roles and access permissions, refer to the[role-based access to SAPIENT actions](https://docs.intersoftsapient.net/docs/sapient-user-roles-and-permissions#/) section.*
 
-    <br />
+    <Callout icon="🚧" theme="warn">
+      ### _Important_
+
+      _The Admin user has access to all functionalities, but Administrator, Lead, or Operator roles must be assigned specific permissions._
+
+      _Whether the user has accepted the invite or not, you can update their roles and permissions from the_**_Users_**_&#x20;tab on the&#x20;_**_Edit User_**_&#x20;page. Make your changes and select&#x20;_**_Save Changes_**_&#x20;to update_.
+
+      _For detailed information on user roles and access permissions, refer to the[role-based access to SAPIENT actions](https://docs.intersoftsapient.net/docs/sapient-user-roles-and-permissions#/) section._
+    </Callout>
+
+
   </Tab>
 </Tabs>
 
@@ -203,15 +209,15 @@ Moreover, different roles and permissions improve security by restricting access
 ### See also
 
 <Cards columns="2">
-  <Card title="Edit User" href="https://docs.intersoftsapient.net/docs/edit-user" icon="fa-solid fa-edit">
+  <Card title="Edit User" href="https://docs.intersoftsapient.net/docs/edit-user" icon="fa-solid fa-edit" target="_blank">
     Modify user profiles, permissions, and access levels for existing team members.
   </Card>
 
-  <Card title="Delete User" href="https://docs.intersoftsapient.net/docs/delete-user" icon="fa-solid fa-trash">
+  <Card title="Delete User" href="https://docs.intersoftsapient.net/docs/delete-user" icon="fa-solid fa-trash" target="_blank">
     Remove users from your organization when they are no longer needed.
   </Card>
 
-  <Card title="Role-based Access to SAPIENT actions" href="https://docs.intersoftsapient.net/v4.04/docs/operations-operator-role-based-access-to-sapient-actions" target="_blank" icon="fa-solid fa-users">
+  <Card title="Role-based Access to SAPIENT actions" href="https://docs.intersoftsapient.net/v4.04/docs/operations-operator-role-based-access-to-sapient-actions" icon="fa-solid fa-users" target="_blank">
     Explore the roles and their associated permissions in SAPIENT.
-     </Card>
+  </Card>
 </Cards>
