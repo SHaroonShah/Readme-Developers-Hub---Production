@@ -110,18 +110,18 @@ To set up the Production <Glossary>Shipping Account</Glossary>, perform the step
 
 ### See also
 
-If you are interested in creating a Tracking Account for the newly added Shipping Account, refer to the following sections on how to set up our <Glossary>Tracking Webhook</Glossary> solution:
+If you are interested in creating a tracking account for the newly added shipping account, refer to the following sections on how to set up our <Glossary>Tracking Webhook</Glossary> solution:
 
-<Cards columns={3}>
-  <Card title="Tracking Webhook" href="https://docs.intersoftsapient.net/docs/tracking-webhook-1" icon="fa-solid fa-satellite-dish">
+<Cards>
+  <Card title="Tracking Webhook" href="https://docs.intersoftsapient.net/docs/tracking-webhook-1" icon="fa-solid fa-satellite-dish" target="_blank">
     Set up the webhook connection, create tracking account, and much more.
   </Card>
 
-  <Card title="Response examples" href="https://docs.intersoftsapient.net/reference/post_v4-trackings-pushpayloadexample" icon="fa-solid fa-code">
+  <Card title="Response examples" href="https://docs.intersoftsapient.net/reference/post_v4-trackings-pushpayloadexample" icon="fa-solid fa-code" target="_blank">
     View response example of the tracking webhook push notification payload, as sent to a customer's webhook when tracking information is received from a carrier.
   </Card>
 
-  <Card title="Royal Mail Tracking Account setup" href="https://docs.intersoftsapient.net/docs/royal-mail-tracking-account-setup" icon="fa-solid fa-truck">
+  <Card title="Royal Mail Tracking Account setup" href="https://docs.intersoftsapient.net/docs/royal-mail-tracking-account-setup" icon="fa-solid fa-truck" target="_blank">
     Set up Royal Mail tracking account.
   </Card>
 </Cards>
@@ -131,5 +131,3 @@ If you are interested in creating a Tracking Account for the newly added Shippin
 
   _To enable the&#x20;_**_Tracking Webhook_**_&#x20;solution, please contact our [Intersoft Onboarding](mailto:onboarding@intersoft.co.uk) team._
 </Callout>
-
-<br />
