@@ -1,5 +1,5 @@
 ---
-title: Welcome to SAPIENT Developers Hub
+title: Welcome to SAPIENT Developer Hub
 excerpt: >-
   Welcome to Intersoft SAPIENT, a scalable carrier management platform designed
   to facilitate seamless integration with various shipping carriers, third-party
