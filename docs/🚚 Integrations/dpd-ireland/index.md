@@ -108,8 +108,6 @@ The integration of DPD Ireland (IE) into the SAPIENT platform is a significant s
       The integration for creating shipments to reflect DPD Ireland as a primary carrier and allowing users to create shipments using the **Create Shipment** endpoint, which returns the label in base64-encoded format.
     </Accordion>
 
-
-
     <Accordion title="Manifest Shipment">
       Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/v4.04/docs/manifest-webhook), which provides updates on manifest requests, allowing you to track the progress and status of shipments prepared for carrier collection and delivery.
     </Accordion>
@@ -121,8 +119,6 @@ The integration of DPD Ireland (IE) into the SAPIENT platform is a significant s
     <Accordion title="Tracking">
       Enables customers to receive tracking updates through their integration with the SAPIENT tracking webhook.
     </Accordion>
-
-
 
     <Accordion title="Print Label">
       Generate and return the label for a DPD Ireland shipment in the supported label formats. This endpoint must be utilised when the label is not generated in the DPD Ireland Create Shipment request.
@@ -143,19 +139,19 @@ The integration of DPD Ireland (IE) into the SAPIENT platform is a significant s
 <Tabs>
   <Tab title="Account Setup">
     <Cards>
-      <Card title="Add DPD Ireland Shipping Account" href="https://docs.intersoftsapient.net/docs/add-dpd-ireland-shipping-account" icon="fa-solid fa-truck">
+      <Card title="Add DPD Ireland Shipping Account" href="https://docs.intersoftsapient.net/docs/add-dpd-ireland-shipping-account" icon="fa-solid fa-truck" target="_blank">
         Set up your DPD Ireland shipping account to start creating shipments.
       </Card>
 
-      <Card title="Add DPD Ireland Tracking Account" href="https://docs.intersoftsapient.net/docs/add-dpd-ireland-tracking-account" icon="fa-solid fa-search-location">
+      <Card title="Add DPD Ireland Tracking Account" href="https://docs.intersoftsapient.net/docs/add-dpd-ireland-tracking-account" icon="fa-solid fa-search-location" target="_blank">
         Configure tracking for your DPD Ireland shipments.
       </Card>
     </Cards>
   </Tab>
 
   <Tab title="API References">
-    <Cards>
-      <Card title="SAPIENT DPD Ireland API" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-dpdireland" icon="fa-solid fa-code">
+    <Cards columns="2">
+      <Card title="SAPIENT DPD Ireland API" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-dpdireland" icon="fa-solid fa-code" target="_blank">
         Explore the DPD Ireland API endpoints for a seamless shipping experience.
       </Card>
     </Cards>
