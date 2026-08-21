@@ -184,5 +184,8 @@ In SAPIENT, with the **Add Shipping Account** functionality, you can select the 
 ***
 
 ### See also
-
-- [Edit shipping account](https://docs.intersoftsapient.net/docs/edit-shipping-account)
+<Cards>
+<Card title="Edit shipping account" href="https://docs.intersoftsapient.net/docs/dx-freight-sign-off" icon="fa-pen-to-square" target="_blank">
+    Update or modify an existing shipping account.
+  </Card>
+</Cards>
