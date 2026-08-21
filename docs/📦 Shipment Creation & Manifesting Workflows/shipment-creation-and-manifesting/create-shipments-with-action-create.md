@@ -24,7 +24,7 @@ If you do not want the <Glossary>tracking number</Glossary> returned until you s
 
 ## How Create action works
 
-<Cards columns={2}>
+<Cards columns="2">
   <Card title="Delayed tracking numbers" icon="fa-solid fa-clock">
     Tracking numbers are not returned until you send the Print Label request, giving you flexibility in your shipping workflow.
   </Card>
@@ -53,13 +53,11 @@ To view a step-by-step guide on how to process the shipments that are created wi
 ### See also
 
 <Cards columns="2">
-  <Card title="Process" href="https://docs.intersoftsapient.net/docs/create-shipment-with-action-process" icon="fa-solid fa-cog">
+  <Card title="Process" href="https://docs.intersoftsapient.net/docs/create-shipment-with-action-process" icon="fa-solid fa-cog" target="_blank">
     Finalise the shipment creation and prepares the shipment for transportation. This action generates a label in the Create Shipment response and the shipment is ready for manifesting immediately.
   </Card>
 
-  <Card title="Allocate" href="https://docs.intersoftsapient.net/docs/create-shipments-with-action-allocate" icon="fa-solid fa-boxes">
+  <Card title="Allocate" href="https://docs.intersoftsapient.net/docs/create-shipments-with-action-allocate" icon="fa-solid fa-boxes" target="_blank">
     Assign resources (like inventory items) to the shipment for fulfilment. This action returns carrier tracking number in the Create Shipment response but requires Print Shipment API for labels.
   </Card>
 </Cards>
-
-<br />
