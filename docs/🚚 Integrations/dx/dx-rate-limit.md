@@ -36,10 +36,8 @@ This is the standard rate limit that DX has created, however based on your DX sh
 
 ### See also
 
-<Cards>
-  <Card title="INTERSOFT API Rate Limiting" href="https://docs.intersoftsapient.net/docs/api-rate-limiting" icon="fa-solid fa-gauge-max">
+<Cards columns="2">
+  <Card title="INTERSOFT API Rate Limiting" href="https://docs.intersoftsapient.net/docs/api-rate-limiting" icon="fa-solid fa-gauge-max" target="_blank">
     Learn more on how INTERSOFT handles API rate limits.
   </Card>
 </Cards>
-
-<br />
