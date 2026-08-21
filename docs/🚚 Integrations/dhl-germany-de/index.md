@@ -41,8 +41,6 @@ The integration of DHL Germany (DE) into the SAPIENT platform is a significant s
         The integration supports labels in the <Glossary>PDF</Glossary>, <Glossary>PNG</Glossary>, <Glossary>ZPL203DPI</Glossary>, and <Glossary>ZPL300DPI</Glossary> formats.
       </Card>
     </Cards>
-
-
   </Tab>
 
   <Tab title="Additional Features">
@@ -98,8 +96,6 @@ The integration of DHL Germany (DE) into the SAPIENT platform is a significant s
     | **DHL Kleinpaket**          | This service provides cost-effective shipping for small, lightweight goods within Germany, including tracking, delivery confirmation, and liability coverage for low-value items.               |
     | **Warenpost International** | This service provides affordable international delivery for small, lightweight goods, offering flexible shipping options with optional tracking and customs processing for global destinations. |
 
-
-
     <Callout icon="💡" theme="default">
       ### _Tip_
 
@@ -118,8 +114,6 @@ The integration of DHL Germany (DE) into the SAPIENT platform is a significant s
       The integration for creating shipments to reflect DHL Germany as a primary carrier and allowing users to create individual shipments requests using the **Create Shipment** endpoint.
     </Accordion>
 
-
-
     <Accordion title="Cancel Shipment">
       The integration to cancel any unwanted shipments, to ensures that cancellations are fully registered with DHL Germany, helping prevent customers from being mistakenly charged for cancelled shipments. <br />
 
@@ -128,11 +122,7 @@ The integration of DHL Germany (DE) into the SAPIENT platform is a significant s
 
         _Shipments can only be cancelled if they have not been manifested._
       </Callout>
-
-
     </Accordion>
-
-
 
     <Accordion title="Manifest Shipment">
       Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/v4.04/docs/manifest-webhook), which provides updates on manifest requests, allowing you to track the progress and status of shipments prepared for carrier collection and delivery.
@@ -150,8 +140,6 @@ The integration of DHL Germany (DE) into the SAPIENT platform is a significant s
       </Callout>
     </Accordion>
 
-
-
     <Accordion title="Tracking">
       Enables customers to receive tracking updates through their integration with the SAPIENT tracking webhook.
     </Accordion>
@@ -165,11 +153,11 @@ The integration of DHL Germany (DE) into the SAPIENT platform is a significant s
 <Tabs>
   <Tab title="Account Setup">
     <Cards>
-      <Card title="Add DHL Germany Shipping Account" href="https://docs.intersoftsapient.net/docs/add-dhl-de-shipping-account" icon="fa-solid fa-truck">
+      <Card title="Add DHL Germany Shipping Account" href="https://docs.intersoftsapient.net/docs/add-dhl-de-shipping-account" icon="fa-solid fa-truck" target="_blank">
         Set up your DHL Germany shipping account to start creating shipments.
       </Card>
 
-      <Card title="Add DHL Germany Tracking Account" href="https://docs.intersoftsapient.net/docs/add-dhl-de-tracking-account" icon="fa-solid fa-search-location">
+      <Card title="Add DHL Germany Tracking Account" href="https://docs.intersoftsapient.net/docs/add-dhl-de-tracking-account" icon="fa-solid fa-search-location" target="_blank">
         Configure tracking for your DHL Germany shipments.
       </Card>
     </Cards>
