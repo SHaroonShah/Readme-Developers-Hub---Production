@@ -38,7 +38,7 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
       <br />
 
       <ToggleListItem title="2. Select option to add shipping account">
-  
+
         <br />
 
         On the **Shipping Accounts** page that opens, select <Image src="https://files.readme.io/4dc0470535418171d8c974546d130f04a0fc60a878c7f7648b2da21309450830-add_shipping_account_button.png" caption="Add shipping account button" />.
@@ -189,7 +189,7 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
     To add a DHL Germany shipping account via API, refer to the following API endpoint.
 
     <Cards>
-      <Card title="Add Account" href="https://docs.intersoftsapient.net/reference/post_v4-shippingaccounts-dhlde" icon="fa-code">
+      <Card title="Add Account" href="https://docs.intersoftsapient.net/reference/post_v4-shippingaccounts-dhlde" icon="fa-code" target="_blank">
         Add and manage DHL Germany shipping account via API.
       </Card>
     </Cards>
@@ -200,10 +200,8 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
 
 ### See also
 
-<Cards columns={2}>
-  <Card title="Edit shipping account" icon="fa-pen-to-square" href="https://docs.intersoftsapient.net/docs/dx-freight-sign-off">
+<Cards columns="2">
+  <Card title="Edit shipping account" href="https://docs.intersoftsapient.net/docs/dx-freight-sign-off" icon="fa-pen-to-square" target="_blank">
     Update or modify an existing shipping account.
   </Card>
 </Cards>
-
-<br />
