@@ -589,11 +589,12 @@ To add a shipping account for FedEx in SAPIENT, follow the instructions as expla
 
 ### See also
 
-<Cards>
+<Cards columns="2">
   <Card title="Enable carrier integration" href="https://docs.intersoftsapient.net/docs/integration-activation" icon="fa-plug" target="_blank">
     Enable the FedEx integration before creating a FedEx shipping account.
   </Card>
-<Card title="Edit shipping account" href="https://docs.intersoftsapient.net/docs/dx-freight-sign-off" icon="fa-pen-to-square" target="_blank">
+
+  <Card title="Edit shipping account" href="https://docs.intersoftsapient.net/docs/dx-freight-sign-off" icon="fa-pen-to-square" target="_blank">
     Update or modify an existing shipping account.
   </Card>
 
