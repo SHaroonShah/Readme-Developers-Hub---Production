@@ -53,8 +53,6 @@ The UPS carrier integration within the SAPIENT system enables seamless communica
         The integration supports labels in <Glossary>PDF</Glossary>, <Glossary>PNG</Glossary>, and <Glossary>ZPL203DPI</Glossary> formats.
       </Card>
     </Cards>
-
-
   </Tab>
 
   <Tab title="Additional Features">
@@ -96,8 +94,6 @@ The UPS carrier integration within the SAPIENT system enables seamless communica
     | **UPS Worldwide Expedited Plus** (next business day) | This service provides premium express service with the fastest international delivery times.                                                                                                                                                                                            |
     | **UPS Worldwide Saver** (1-3 business days)          | This service provides guaranteed afternoon delivery to over 215 countries. and territories.                                                                                                                                                                                             |
 
-
-
     <Callout icon="💡" theme="default">
       ### _Tip_
 
@@ -116,8 +112,6 @@ The UPS carrier integration within the SAPIENT system enables seamless communica
       The integration for creating shipments to reflect UPS as a primary carrier and allowing users to create individual shipments requests using the **Create Shipment** endpoint.
     </Accordion>
 
-
-
     <Accordion title="Manifest Shipment">
       Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/v4.04/docs/manifest-webhook), which provides updates on manifest requests, allowing you to track the progress and status of shipments prepared for carrier collection and delivery.
     </Accordion>
@@ -134,8 +128,6 @@ The UPS carrier integration within the SAPIENT system enables seamless communica
       </Callout>
     </Accordion>
 
-
-
     <Accordion title="Tracking">
       Enables customers to receive tracking updates through their integration with the SAPIENT tracking webhook.
     </Accordion>
@@ -149,19 +141,19 @@ The UPS carrier integration within the SAPIENT system enables seamless communica
 <Tabs>
   <Tab title="Account Setup">
     <Cards>
-      <Card title="Add Shipping Account" href="https://docs.intersoftsapient.net/docs/shipping-account-setup" icon="fa-solid fa-truck">
+      <Card title="Add Shipping Account" href="https://docs.intersoftsapient.net/docs/shipping-account-setup" icon="fa-solid fa-truck" target="_blank">
         Access the step-by-step guide on how to set up a UPS shipping account on SAPIENT.
       </Card>
 
-      <Card title="Add Tracking Account" href="https://docs.intersoftsapient.net/docs/tracking-2" icon="fa-solid fa-search-location">
+      <Card title="Add Tracking Account" href="https://docs.intersoftsapient.net/docs/tracking-2" icon="fa-solid fa-search-location" target="_blank">
         Access the step-by-step guide on how to set up a UPS tracking account on SAPIENT.
       </Card>
     </Cards>
   </Tab>
 
   <Tab title="API References">
-    <Cards>
-      <Card title="SAPIENT UPS API" href="https://docs.intersoftsapient.net/v4.04/reference/post_v4-shippingaccounts-ups" icon="fa-solid fa-code">
+    <Cards columns="2">
+      <Card title="SAPIENT UPS API" href="https://docs.intersoftsapient.net/v4.04/reference/post_v4-shippingaccounts-ups" icon="fa-solid fa-code" target="_blank">
         Explore the UPS API endpoints for creating and managing UPS shipments on SAPIENT.
       </Card>
     </Cards>
