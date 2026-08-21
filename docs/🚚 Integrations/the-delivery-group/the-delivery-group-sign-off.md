@@ -31,16 +31,16 @@ In order to ship with The Delivery Group, consider the following:
 
 ### See also
 
-<Cards columns={3}>
-  <Card title="Add Shipping Account" href="https://docs.intersoftsapient.net/docs/the-delivery-group-account-set-up" icon="fa-solid fa-truck">
+<Cards columns="3">
+  <Card title="Add Shipping Account" href="https://docs.intersoftsapient.net/docs/the-delivery-group-account-set-up" icon="fa-solid fa-truck" target="_blank">
     Access the step-by-step guide on how to set up The Delivery Group shipping account on SAPIENT.
   </Card>
 
-  <Card title="Add Tracking Account" href="https://docs.intersoftsapient.net/docs/the-delivery-group-tracking-account-set-up" icon="fa-solid fa-search-location">
+  <Card title="Add Tracking Account" href="https://docs.intersoftsapient.net/docs/the-delivery-group-tracking-account-set-up" icon="fa-solid fa-search-location" target="_blank">
     Access the step-by-step guide on how to set up The Delivery Group tracking account on SAPIENT.
   </Card>
 
-  <Card title="API References" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-tdg" icon="fa-solid fa-code">
+  <Card title="API References" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-tdg" icon="fa-solid fa-code" target="_blank">
     Explore The Delivery Group API endpoints for a seamless shipping experience.
   </Card>
 </Cards>
