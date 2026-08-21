@@ -202,8 +202,8 @@ In SAPIENT, you can create a The Delivery Group (TDG) shipping account by select
   <Tab title="Via API">
     To add The Delivery Group shipping account via API, refer to the following API endpoint.
 
-    <Cards>
-      <Card title="API References" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-tdg" icon="fa-code">
+    <Cards columns="2">
+      <Card title="API References" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-tdg" icon="fa-code" target="_blank">
         Add and manage The Delivery Group shipping account via API.
       </Card>
     </Cards>
@@ -214,18 +214,16 @@ In SAPIENT, you can create a The Delivery Group (TDG) shipping account by select
 
 ### See also
 
-<Cards columns={3}>
-  <Card title="Edit shipping account" icon="fa-pen-to-square" href="https://docs.intersoftsapient.net/docs/edit-shipping-account">
+<Cards columns="3">
+  <Card title="Edit shipping account" href="https://docs.intersoftsapient.net/docs/edit-shipping-account" icon="fa-pen-to-square" target="_blank">
     Update or modify an existing shipping account.
   </Card>
 
-  <Card title="The Delivery Group sign-off" icon="fa-solid fa-file-signature" href="https://docs.intersoftsapient.net/docs/the-delivery-group-sign-off#/">
+  <Card title="The Delivery Group sign-off" href="https://docs.intersoftsapient.net/docs/the-delivery-group-sign-off#/" icon="fa-solid fa-file-signature" target="_blank">
     Complete the sign-off process before using The Delivery Group to create shipments in SAPIENT.
   </Card>
 
-  <Card title="API References" icon="fa-code" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-tdg">
+  <Card title="API References" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-tdg" icon="fa-code" target="_blank">
     Add and manage The Delivery Group shipping account via API.
   </Card>
 </Cards>
-
-<br />
