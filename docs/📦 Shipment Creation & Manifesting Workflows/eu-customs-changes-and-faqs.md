@@ -30,14 +30,12 @@ To help explain the change, the following table provides a simple comparison of 
 
 ### See also
 
-<Cards columns={2}>
-  <Card title="EU Customs Changes FAQ's" href="https://docs.intersoftsapient.net/v4.04/docs/copy-of-eu-customs-changes-and-faqs" icon="fa-question-circle">
+<Cards columns="2">
+  <Card title="EU Customs Changes FAQ's" href="https://docs.intersoftsapient.net/v4.04/docs/copy-of-eu-customs-changes-and-faqs" icon="fa-question-circle" target="_blank">
     Find answers to common queries and additional guidance on compliance.
   </Card>
 
-  <Card title="API References" href="https://docs.intersoftsapient.net/reference/post_v4-shipments-rm" icon="fa-code">
+  <Card title="API References" href="https://docs.intersoftsapient.net/reference/post_v4-shipments-rm" icon="fa-code" target="_blank">
     Complete API documentation for shipment creation and field requirements.
   </Card>
 </Cards>
-
-<br />
