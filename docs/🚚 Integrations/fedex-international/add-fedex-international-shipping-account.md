@@ -21,7 +21,6 @@ In SAPIENT, with the **Add Shipping Account** functionality, you can select the 
 
 <Tabs>
   <Tab title="Add via SAPIENT UI">
-
     To add a shipping account for FedEx International connect in SAPIENT, perform the steps as explained in the following procedure.
 
     <ToggleList>
@@ -172,12 +171,10 @@ In SAPIENT, with the **Add Shipping Account** functionality, you can select the 
   </Tab>
 
   <Tab title="Via API">
-   
-
     To add a shipping account via our API, refer to the following endpoint:
 
-    <Cards columns={2}>
-      <Card title="Add Account" href="https://docs.intersoftsapient.net/reference/post_v4-shippingaccounts-rm#/" icon="fa-solid fa-code">
+    <Cards columns="2">
+      <Card title="Add Account" href="https://docs.intersoftsapient.net/reference/post_v4-shippingaccounts-rm#/" icon="fa-solid fa-code" target="_blank">
         Complete API reference for adding shipping account
       </Card>
     </Cards>
@@ -189,5 +186,3 @@ In SAPIENT, with the **Add Shipping Account** functionality, you can select the 
 ### See also
 
 - [Edit shipping account](https://docs.intersoftsapient.net/docs/edit-shipping-account)
-
-<br />
