@@ -48,8 +48,6 @@ Express is one of DX's core solutions that provides a fast and secure next-day d
         The integration support labels in <Glossary>PDF</Glossary>, <Glossary>ZPL203DPI</Glossary>, and <Glossary>ZPL300DPI</Glossary> formats.
       </Card>
     </Cards>
-
-
   </Tab>
 
   <Tab title="Additional Features">
@@ -80,8 +78,6 @@ Express is one of DX's core solutions that provides a fast and secure next-day d
     | **Secure Flex**     | This service provides next-day delivery of parcels and packets, primarily to residential addresses across the UK, with secure handling, tracking, and flexible delivery options.  |
     | **Secure Business** | This service provides next-day delivery of parcels and packets to business addresses across the UK and Ireland, with secure handling and delivery during standard business hours. |
 
-
-
     <Callout icon="💡" theme="default">
       ### _Tip_
 
@@ -100,8 +96,6 @@ Express is one of DX's core solutions that provides a fast and secure next-day d
       The integration for creating shipments to reflect DX as a primary carrier and allowing users to create individual shipments requests using the **Create Shipment** endpoint.
     </Accordion>
 
-
-
     <Accordion title="Cancel Shipment">
       The integration for directly calling the DX’s API to cancel shipments within DX’s system, to ensures that cancellations are fully registered with DX, helping prevent customers from being mistakenly charged for cancelled shipments. <br />
 
@@ -110,11 +104,7 @@ Express is one of DX's core solutions that provides a fast and secure next-day d
 
         _If you attempt to release a held shipment to a later date, please be aware that the shipment will no longer be eligible for cancellation. Shipments can only be cancelled if they have not been manifested._
       </Callout>
-
-
     </Accordion>
-
-
 
     <Accordion title="Manifest Shipment">
       Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/v4.04/docs/manifest-webhook), which provides updates on manifest requests, allowing you to track the progress and status of shipments prepared for carrier collection and delivery.
@@ -132,8 +122,6 @@ Express is one of DX's core solutions that provides a fast and secure next-day d
       </Callout>
     </Accordion>
 
-
-
     <Accordion title="Tracking">
       Enables customers to receive tracking updates through their integration with the SAPIENT tracking webhook.
     </Accordion>
@@ -147,35 +135,35 @@ Express is one of DX's core solutions that provides a fast and secure next-day d
 <Tabs>
   <Tab title="Account Setup">
     <Cards>
-      <Card title="Add Shipping Account" href="https://docs.intersoftsapient.net/docs/shipping-accounts-5" icon="fa-solid fa-truck">
+      <Card title="Add Shipping Account" href="https://docs.intersoftsapient.net/docs/shipping-accounts-5" icon="fa-solid fa-truck" target="_blank">
         Access the step-by-step guide on how to set up a DX Express shipping account on SAPIENT.
       </Card>
 
-      <Card title="Add Tracking Account" href="https://docs.intersoftsapient.net/docs/tracking-1" icon="fa-solid fa-search-location">
+      <Card title="Add Tracking Account" href="https://docs.intersoftsapient.net/docs/tracking-1" icon="fa-solid fa-search-location" target="_blank">
         Access the step-by-step guide on how to set up a DX Express tracking account on SAPIENT.
       </Card>
     </Cards>
   </Tab>
 
   <Tab title="API References">
-    <Cards>
-      <Card title="SAPIENT DX Express API" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-dxf" icon="fa-solid fa-code">
+    <Cards columns="2">
+      <Card title="SAPIENT DX Express API" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-dxf" icon="fa-solid fa-code" target="_blank">
         Explore the DX Express API endpoints for a seamless shipping experience.
       </Card>
     </Cards>
   </Tab>
 
   <Tab title="Sign-Off">
-    <Cards>
-      <Card title="DXF Sign-off Process" href="https://docs.intersoftsapient.net/docs/dx-freight-sign-off-copy" icon="fa-solid fa-file-signature">
+    <Cards columns="2">
+      <Card title="DXF Sign-off Process" href="https://docs.intersoftsapient.net/docs/dx-freight-sign-off-copy" icon="fa-solid fa-file-signature" target="_blank">
         Complete all the necessary steps before using DX Express for creating shipments on SAPIENT.
       </Card>
     </Cards>
   </Tab>
 
   <Tab title="DX Rate Limit">
-    <Cards>
-      <Card title="DX Rate Limiting" href="https://docs.intersoftsapient.net/docs/dx-rate-limit" icon="fa-solid fa-gauge-max">
+    <Cards columns="2">
+      <Card title="DX Rate Limiting" href="https://docs.intersoftsapient.net/docs/dx-rate-limit" icon="fa-solid fa-gauge-max" target="_blank">
         Learn more on how to restrict your API calls over a specified time frame.
       </Card>
     </Cards>
