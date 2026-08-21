@@ -192,8 +192,8 @@ In SAPIENT, with the **Add Shipping Account** functionality, you can select the 
   <Tab title="Via API">
     To add and manage a shipping account via API, refer to the following API reference.
 
-    <Cards>
-      <Card title="API References" href="https://docs.intersoftsapient.net/reference/post_v4-shippingaccounts-dhlde" icon="fa-code">
+    <Cards columns="2">
+      <Card title="API References" href="https://docs.intersoftsapient.net/reference/post_v4-shippingaccounts-dhlde" icon="fa-code" target="_blank">
         Add and manage shipping accounts via API.
       </Card>
     </Cards>
@@ -204,10 +204,8 @@ In SAPIENT, with the **Add Shipping Account** functionality, you can select the 
 
 ### See also
 
-<Cards columns={2}>
-  <Card title="Edit shipping account" icon="fa-pen-to-square" href="https://docs.intersoftsapient.net/docs/edit-shipping-account">
+<Cards columns="2">
+  <Card title="Edit shipping account" href="https://docs.intersoftsapient.net/docs/edit-shipping-account" icon="fa-pen-to-square" target="_blank">
     Update or modify an existing shipping account.
   </Card>
 </Cards>
-
-<br />
