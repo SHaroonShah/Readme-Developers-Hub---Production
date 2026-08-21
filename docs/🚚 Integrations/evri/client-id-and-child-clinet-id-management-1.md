@@ -150,10 +150,8 @@ To add the child client department to the EVRi's parent shipping account, follow
 
 ### See also
 
-<Cards columns={2}>
-  <Card title="Add Parent Shipping Account" icon="fa-solid fa-truck" href="https://docs.intersoftsapient.net/v4.04/docs/shipping-account-setup-3">
+<Cards columns="2">
+  <Card title="Add Parent Shipping Account" href="https://docs.intersoftsapient.net/v4.04/docs/shipping-account-setup-3" icon="fa-solid fa-truck" target="_blank">
     Set up your EVRi parent shipping account to start creating shipments.
   </Card>
 </Cards>
-
-<br />
