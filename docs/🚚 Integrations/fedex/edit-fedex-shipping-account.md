@@ -66,9 +66,7 @@ To edit a FedEx <Glossary>shipping account</Glossary> in SAPIENT, follow the ste
 ### See also
 
 <Cards columns="2">
-  <Card title="Delete Account" href="https://docs.intersoftsapient.net/docs/delete-shipping-account#/" icon="fa-solid fa-trash">
+  <Card title="Delete Account" href="https://docs.intersoftsapient.net/docs/delete-shipping-account#/" icon="fa-solid fa-trash" target="_blank">
     Remove shipping accounts that are no longer needed or have been disabled.
   </Card>
 </Cards>
-
-<br />
