@@ -28,7 +28,7 @@ The FedEx-SAPIENT integration aims to enhance operational efficiency and provide
 
 <Tabs>
   <Tab title="Key Features">
-    <Cards>
+    <Cards columns="2">
       <Card title="Shipping Origins" icon="fa-map-marker-alt">
         The integration supports shipping from locations in Great Britain (GB) and Europe.
       </Card>
@@ -45,8 +45,6 @@ The FedEx-SAPIENT integration aims to enhance operational efficiency and provide
         The integration supports <Glossary>DDU</Glossary>, <Glossary>DDP</Glossary>, and <Glossary>DAP</Glossary>.
       </Card>
     </Cards>
-
-
   </Tab>
 
   <Tab title="Additional Features">
@@ -66,8 +64,6 @@ The FedEx-SAPIENT integration aims to enhance operational efficiency and provide
       </Card>
     </Cards>
 
-
-
     <Callout icon="📘" theme="default">
       ### _Note_
 
@@ -85,8 +81,6 @@ The FedEx-SAPIENT integration aims to enhance operational efficiency and provide
     - **Indirect Signature**: Obtains a signature from someone at the delivery address, from a neighbour, or from a building manager. If no one is available to sign, the package will be delivered on another date.
     - **No Signature Required**: Allows delivery without obtaining a signature if no one is available to sign. The package will be kept in a safe place.
     - **Email Notifications**: Sends notifications on delivery, estimated delivery, exceptions, shipment status, and tender.
-
-
 
     <Callout icon="💡" theme="default">
       ### _Tip_
@@ -111,8 +105,6 @@ The FedEx-SAPIENT integration aims to enhance operational efficiency and provide
     | **FedEx® Priority**                       | This service provides fast, reliable delivery for time-sensitive shipments with delivery typically within 1–5 working days, including tracking and priority handling.                               |
     | **FedEx® Regional Economy**               | This service provides cost-effective, day-definite delivery within regions such as Europe, using road transport for less time-sensitive shipments with full tracking and customs support.           |
 
-
-
     <Callout icon="💡" theme="default">
       ### _Tip_
 
@@ -131,8 +123,6 @@ The FedEx-SAPIENT integration aims to enhance operational efficiency and provide
       The integration for creating shipments to reflect FedEx as a primary carrier and allowing users to create shipments using the Create Shipment endpoint.
     </Accordion>
 
-
-
     <Accordion title="Manifest Shipment">
       Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/v4.04/docs/manifest-webhook), which provides updates on manifest requests, allowing you to track the progress and status of shipments prepared for carrier collection and delivery.
     </Accordion>
@@ -140,8 +130,6 @@ The FedEx-SAPIENT integration aims to enhance operational efficiency and provide
     <Accordion title="Cancel Shipment">
       The integration to cancel any unwanted shipments, to ensures that cancellations are fully registered with FedEx, helping prevent customers from being mistakenly charged for cancelled shipments.
     </Accordion>
-
-
 
     <Callout icon="🚧" theme="warning">
       ### _Important_
@@ -161,8 +149,6 @@ The FedEx-SAPIENT integration aims to enhance operational efficiency and provide
       </Callout>
     </Accordion>
 
-
-
     <Accordion title="Tracking">
       Enables customers to receive tracking updates through their integration with the SAPIENT tracking webhook.
     </Accordion>
@@ -176,19 +162,19 @@ The FedEx-SAPIENT integration aims to enhance operational efficiency and provide
 <Tabs>
   <Tab title="Account Setup">
     <Cards>
-      <Card title="Add FedEx Shipping Account" href="https://docs.intersoftsapient.net/docs/add-fedex-shipping-account" icon="fa-solid fa-truck">
+      <Card title="Add FedEx Shipping Account" href="https://docs.intersoftsapient.net/docs/add-fedex-shipping-account" icon="fa-solid fa-truck" target="_blank">
         Set up your FedEx shipping account to start creating shipments.
       </Card>
 
-      <Card title="Add FedEx Tracking Account" href="https://docs.intersoftsapient.net/docs/add-fedex-tracking-account" icon="fa-solid fa-search-location">
+      <Card title="Add FedEx Tracking Account" href="https://docs.intersoftsapient.net/docs/add-fedex-tracking-account" icon="fa-solid fa-search-location" target="_blank">
         Configure tracking for your FedEx shipments.
       </Card>
     </Cards>
   </Tab>
 
   <Tab title="API References">
-    <Cards>
-      <Card title="SAPIENT FedEx API" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-fedex" icon="fa-solid fa-code">
+    <Cards columns="2">
+      <Card title="SAPIENT FedEx API" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-fedex" icon="fa-solid fa-code" target="_blank">
         Explore the FedEx API endpoints.
       </Card>
     </Cards>
