@@ -15,7 +15,9 @@ metadata:
 next:
   description: ''
 ---
-<Image align="center" border={true} src="https://files.readme.io/1c67b5bfcde800b140388aef21b072010032929380b40bc2652f36fc7a5388cc-HS_code.png" className="border" />
+
+<Image src="https://files.readme.io/1c67b5bfcde800b140388aef21b072010032929380b40bc2652f36fc7a5388cc-HS_code.png" align="center" border={true} />
+
 
 As the world of eCommerce progresses, customs in countries around the globe are insisting on good quality data to facilitate simple clearance of goods being shipped. Many destinations now require electronic pre-advice data which includes Harmonised System commodity codes (<Glossary>HS Code</Glossary>).
 
@@ -23,7 +25,7 @@ Hurricane commerce service checks and identifies the HS code and their descripti
 
 With this fast and effective API service, you can either validate your current data for correction or look up the required codes and descriptions to ensure compliance when shipping cross-border. The API service assists you with the following:
 
-<Cards columns={2}>
+<Cards columns="2">
   <Card title="Validate and Match" icon="fa-check-circle">
     Validate and match HS code and description.
   </Card>
@@ -47,28 +49,30 @@ With this fast and effective API service, you can either validate your current d
 
 Accurate HS code data not only facilitates smooth processing of your data by customs, but also ensures that any duty and tax calculations are accurate.
 
-> 📘 _Note_
->
-> _For more information on how to use this API service, refer to the [Commodity Code Validation](https://docs.intersoftsapient.net/reference/post_v4-getcommoditycodevalidations) block of the **API References** section._
+<Callout icon="📘" theme="info">
+  ### _Note_
+
+  _For more information on how to use this API service, refer to the [Commodity Code Validation](https://docs.intersoftsapient.net/reference/post_v4-getcommoditycodevalidations) block of the&#x20;_**_API References_**_&#x20;section._
+</Callout>
 
 ***
 
 ### See also
 
-<Cards columns={2}>
-  <Card title="Quoted Landed Cost" href="https://docs.intersoftsapient.net/docs/brexituknorthernirelandandeurope" icon="fa-solid fa-money-bill-wave">
+<Cards columns="2">
+  <Card title="Quoted Landed Cost" href="https://docs.intersoftsapient.net/docs/brexituknorthernirelandandeurope" icon="fa-solid fa-money-bill-wave" target="_blank">
     Understand the quoted landed cost in cross-border e-commerce.
   </Card>
 
-  <Card title="Prohibited and Restricted Items" href="https://docs.intersoftsapient.net/docs/prohibited-and-restricted-items" icon="fa-solid fa-ban">
+  <Card title="Prohibited and Restricted Items" href="https://docs.intersoftsapient.net/docs/prohibited-and-restricted-items" icon="fa-solid fa-ban" target="_blank">
     Check the list of prohibited and restricted items.
   </Card>
 
-  <Card title="Export Codes Details" href="https://docs.intersoftsapient.net/docs/prohibited-and-restricted-codes-and-explanation" icon="fa-solid fa-file-export">
+  <Card title="Export Codes Details" href="https://docs.intersoftsapient.net/docs/prohibited-and-restricted-codes-and-explanation" icon="fa-solid fa-file-export" target="_blank">
     Explore export codes for prohibited and restricted items.
   </Card>
 
-  <Card title="Import Code Details" href="https://docs.intersoftsapient.net/docs/prohibited-and-restricted-codes-and-explanation-1" icon="fa-solid fa-file-import">
+  <Card title="Import Code Details" href="https://docs.intersoftsapient.net/docs/prohibited-and-restricted-codes-and-explanation-1" icon="fa-solid fa-file-import" target="_blank">
     Discover import codes for prohibited and restricted items.
   </Card>
 </Cards>
