@@ -14,9 +14,11 @@ metadata:
 ---
 One of the most significant aspects of the Windsor Framework is its impact on all <Glossary>carriers</Glossary> and <Glossary>customer</Glossary>s involved in shipping goods from Great Britain (GB) to Northern Ireland (NI). The framework delineates clear guidelines for Business-to-Business (B2B) and Business-to-Consumer (B2C) shipments, ensuring that regulations are followed while facilitating smoother trade operations.
 
-> 🚧 _Important_
->
-> _Businesses must familiarise themselves with the specific requirements set out in the [Windsor Framework](https://www.gov.uk/government/publications/moving-parcels-from-great-britain-to-northern-ireland-under-the-windsor-framework) by HMRC._
+<Callout icon="🚧" theme="warn">
+  ### _Important_
+
+  _Businesses must familiarise themselves with the specific requirements set out in the [Windsor Framework](https://www.gov.uk/government/publications/moving-parcels-from-great-britain-to-northern-ireland-under-the-windsor-framework) by HMRC._
+</Callout>
 
 ## System integration requirements
 
@@ -30,9 +32,11 @@ To align with the Windsor Framework changes, customers using the Sapient system 
 
     If you are sending B2B shipments, make sure to populate the following fields in your create shipment API request.
 
-    > 📘 *Note*
-    >
-    > *Please note that the following script is only displaying the necessary fields that are required for B2B shipments to NI. Please make sure these fields are populated along with all the necessary fields associated to that particular object. For more information on how to populate the required fields, refer to the[API References](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm) section.*
+    <Callout icon="📘" theme="info">
+      ### _Note_
+
+      _Please note that the following script is only displaying the necessary fields that are required for B2B shipments to NI. Please make sure these fields are populated along with all the necessary fields associated to that particular object. For more information on how to populate the required fields, refer to the[API References](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm) section._
+    </Callout>
 
     ```curl
     curl --request POST \ 
@@ -78,17 +82,19 @@ To align with the Windsor Framework changes, customers using the Sapient system 
 
     ### B2B required fields summary
 
-    * Exporter/sender details (including <Glossary>EORI</Glossary>)
-    * Importer/receiver details (including EORI)
-    * Customs value
-    * Country of origin
-    * Gross mass
-    * <Glossary>Description of goods</Glossary>
-    * <Glossary>HS Code</Glossary>/product classification
+    - Exporter/sender details (including <Glossary>EORI</Glossary>)
+    - Importer/receiver details (including EORI)
+    - Customs value
+    - Country of origin
+    - Gross mass
+    - <Glossary>Description of goods</Glossary>
+    - <Glossary>HS Code</Glossary>/product classification
 
-    > 📘 *Note*
-    >
-    > *The UKIMS or pre-registration number requirements are only applicable to B2B shipments.*
+    <Callout icon="📘" theme="info">
+      ### _Note_
+
+      _The UKIMS or pre-registration number requirements are only applicable to B2B shipments._
+    </Callout>
   </Tab>
 
   <Tab title="B2C Shipments">
@@ -98,14 +104,14 @@ To align with the Windsor Framework changes, customers using the Sapient system 
 
     ### B2C required fields summary
 
-    * Exporter/sender details
-    * Importer/receiver details
-    * Customs value
-    * Country of origin
-    * Gross mass
-    * <Glossary>Description of goods</Glossary>
-    * <Glossary>HS Code</Glossary>/product classification
-    * <Glossary>IOSS</Glossary> number (where held)
+    - Exporter/sender details
+    - Importer/receiver details
+    - Customs value
+    - Country of origin
+    - Gross mass
+    - <Glossary>Description of goods</Glossary>
+    - <Glossary>HS Code</Glossary>/product classification
+    - <Glossary>IOSS</Glossary> number (where held)
   </Tab>
 </Tabs>
 
@@ -117,14 +123,12 @@ To align with the Windsor Framework changes, customers using the Sapient system 
 
 ### See also
 
-<Cards columns={2}>
-  <Card title="Windsor Framework FAQ's" href="https://docs.intersoftsapient.net/docs/windsor-framework-faqs#/" icon="fa-question-circle">
+<Cards columns="2">
+  <Card title="Windsor Framework FAQ's" href="https://docs.intersoftsapient.net/docs/windsor-framework-faqs#/" icon="fa-question-circle" target="_blank">
     Find answers to common queries and additional guidance on compliance.
   </Card>
 
-  <Card title="API References" href="https://docs.intersoftsapient.net/reference/post_v4-shipments-rm" icon="fa-code">
+  <Card title="API References" href="https://docs.intersoftsapient.net/reference/post_v4-shipments-rm" icon="fa-code" target="_blank">
     Complete API documentation for shipment creation and field requirements.
   </Card>
 </Cards>
-
-<br />
