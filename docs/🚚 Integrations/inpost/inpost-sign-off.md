@@ -29,16 +29,16 @@ In order to ship with InPost, consider the following:
 
 ### See also
 
-<Cards columns={3}>
-  <Card title="Add Shipping Account" href="https://docs.intersoftsapient.net/docs/add-inpost-shipping-account" icon="fa-solid fa-truck">
+<Cards columns="3">
+  <Card title="Add Shipping Account" href="https://docs.intersoftsapient.net/docs/add-inpost-shipping-account" icon="fa-solid fa-truck" target="_blank">
     Access the step-by-step guide on how to set up an Inpost shipping account on SAPIENT.
   </Card>
 
-  <Card title="Add Tracking Account" href="https://docs.intersoftsapient.net/docs/add-inpost-tracking-account" icon="fa-solid fa-search-location">
+  <Card title="Add Tracking Account" href="https://docs.intersoftsapient.net/docs/add-inpost-tracking-account" icon="fa-solid fa-search-location" target="_blank">
     Access the step-by-step guide on how to set up an InPost tracking account on SAPIENT.
   </Card>
 
-  <Card title="API References" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-inpost" icon="fa-solid fa-code">
+  <Card title="API References" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-inpost" icon="fa-solid fa-code" target="_blank">
     Explore the InPost API endpoints for a seamless shipping experience.
   </Card>
 </Cards>
