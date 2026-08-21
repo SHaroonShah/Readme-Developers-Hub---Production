@@ -53,8 +53,6 @@ YODEL is fully integrated into the Intersoft SAPIENT platform, allowing business
         The integration supports labels in the <Glossary>PDF</Glossary> and <Glossary>PNG</Glossary> formats.
       </Card>
     </Cards>
-
-
   </Tab>
 
   <Tab title="Additional Features">
@@ -84,8 +82,6 @@ YODEL is fully integrated into the Intersoft SAPIENT platform, allowing business
     | **Yodel Xpress** | This service provides fast, fully tracked delivery for small to medium parcels, offering next-day or two-day delivery with flexible delivery options and in-flight updates.                                         |
     | **Yodel Xpert**  | This service provides specialist delivery for high-value or sensitive items, offering enhanced tracking, address-only delivery options, and additional secure handling features for specific delivery requirements. |
 
-
-
     <Callout icon="💡" theme="default">
       ### _Tip_
 
@@ -103,8 +99,6 @@ YODEL is fully integrated into the Intersoft SAPIENT platform, allowing business
     <Accordion title="Create Shipment">
       The integration for creating shipments to reflect Yodel as a primary carrier and allowing users to create shipments using the Create Shipment API endpoint that returns the label in base64 encoded format.
     </Accordion>
-
-
 
     <Accordion title="Manifest shipment">
       Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/v4.04/docs/manifest-webhook), which provides updates on manifest requests, allowing you to track the progress and status of shipments prepared for carrier collection and delivery.
@@ -128,8 +122,6 @@ YODEL is fully integrated into the Intersoft SAPIENT platform, allowing business
       </Callout>
     </Accordion>
 
-
-
     <Accordion title="Tracking">
       This integration allows customers to monitor their shipments in real-time, providing transparency and peace of mind. Users can access detailed tracking information, including, real-time updates, tracking numbers, and delivery notifications.The YODEL tracking integration enables data files to be sent via SFTP.
     </Accordion>
@@ -143,23 +135,23 @@ YODEL is fully integrated into the Intersoft SAPIENT platform, allowing business
 <Tabs>
   <Tab title="Account Setup">
     <Cards>
-      <Card title="Add YODEL Shipping Account" href="https://docs.intersoftsapient.net/docs/shipping-account-setup-1" icon="fa-solid fa-truck">
+      <Card title="Add YODEL Shipping Account" href="https://docs.intersoftsapient.net/docs/shipping-account-setup-1" icon="fa-solid fa-truck" target="_blank">
         Set up your YODEL shipping account to start creating shipments.
       </Card>
 
-      <Card title="Add YODEL Tracking Account" href="https://docs.intersoftsapient.net/docs/tracking" icon="fa-solid fa-search-location">
+      <Card title="Add YODEL Tracking Account" href="https://docs.intersoftsapient.net/docs/tracking" icon="fa-solid fa-search-location" target="_blank">
         Configure tracking for your YODEL shipments.
       </Card>
 
-      <Card title="Add a Tracking Barcode Range" href="https://docs.intersoftsapient.net/docs/barcode-range-setup-1#/" icon="fa-solid fa-barcode">
+      <Card title="Add a Tracking Barcode Range" href="https://docs.intersoftsapient.net/docs/barcode-range-setup-1#/" icon="fa-solid fa-barcode" target="_blank">
         Add a tracking barcode range to your YODEL shipping account.
       </Card>
     </Cards>
   </Tab>
 
   <Tab title="API References">
-    <Cards>
-      <Card title="SAPIENT YODEL API" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-yodel" icon="fa-solid fa-code">
+    <Cards columns="2">
+      <Card title="SAPIENT YODEL API" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-yodel" icon="fa-solid fa-code" target="_blank">
         Explore the YODEL API endpoints for shipping account and shipment workflows.
       </Card>
     </Cards>
