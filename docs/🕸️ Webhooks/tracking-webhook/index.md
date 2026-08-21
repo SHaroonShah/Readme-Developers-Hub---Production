@@ -36,21 +36,19 @@ To start receiving tracking updates, customers must configure their webhook with
 In this section, learn how to manage your tracking webhook by accessing the following essential functions:
 
 <Cards columns="2">
-  <Card title="Set Up Tracking Webhook Connection" href="https://docs.intersoftsapient.net/v4.04/docs/create-tracking-webhook" icon="fa-solid fa-code-pull-request">
+  <Card title="Set Up Tracking Webhook Connection" href="https://docs.intersoftsapient.net/v4.04/docs/create-tracking-webhook" icon="fa-solid fa-code-pull-request" target="_blank">
     Automate the instantaneous flow of information regarding the status of shipments.
   </Card>
 
-  <Card title="Add Tracking Account" href="https://docs.intersoftsapient.net/docs/create-tracking-account" icon="fa-solid fa-alarm-plus">
+  <Card title="Add Tracking Account" href="https://docs.intersoftsapient.net/docs/create-tracking-account" icon="fa-solid fa-alarm-plus" target="_blank">
     Establish your tracking account for seamless integration.
   </Card>
 
-  <Card title="Track Events and Milestones" href="https://docs.intersoftsapient.net/docs/tracking-events-and-milestones" icon="fa-solid fa-chart-line-up">
+  <Card title="Track Events and Milestones" href="https://docs.intersoftsapient.net/docs/tracking-events-and-milestones" icon="fa-solid fa-chart-line-up" target="_blank">
     Understand tracking events and milestone data.
   </Card>
 
-  <Card title="Register Tracking Numbers via Trackings API" href="https://docs.intersoftsapient.net/docs/handling-invalid-tracking-numbers" icon="fa-solid fa-pen-clip">
+  <Card title="Register Tracking Numbers via Trackings API" href="https://docs.intersoftsapient.net/docs/handling-invalid-tracking-numbers" icon="fa-solid fa-pen-clip" target="_blank">
     Register Royal Mail tracking numbers to receive webhook updates for eligible shipments.
   </Card>
 </Cards>
-
-<br />
