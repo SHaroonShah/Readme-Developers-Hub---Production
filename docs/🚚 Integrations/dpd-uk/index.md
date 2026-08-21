@@ -40,8 +40,6 @@ DPD are one of the leading delivery carriers in the UK, shipping domestically an
         The integration supports labels in the <Glossary>PDF</Glossary> format.
       </Card>
     </Cards>
-
-
   </Tab>
 
   <Tab title="Additional Features">
@@ -77,8 +75,6 @@ DPD are one of the leading delivery carriers in the UK, shipping domestically an
       </Card>
     </Cards>
 
-
-
     <Callout icon="💡" theme="default">
       ### _Tip_
 
@@ -103,8 +99,6 @@ DPD are one of the leading delivery carriers in the UK, shipping domestically an
     | **DPD Direct**                                | This service provides international delivery solutions for e-commerce shipments, combining parcel delivery with customs clearance, tracking, and end-to-end visibility to global destinations. |
     | **DPD Direct Ireland**                        | This service provides dedicated delivery from the UK to Ireland, including customs handling, reliable transit times, and full tracking for cross-border shipments.                             |
 
-
-
     <Callout icon="💡" theme="default">
       ### _Tip_
 
@@ -123,13 +117,9 @@ DPD are one of the leading delivery carriers in the UK, shipping domestically an
       The integration for creating shipments to reflect DPD UK as a primary carrier and allowing users to create shipments using the **Create Shipment** endpoint.
     </Accordion>
 
-
-
     <Accordion title="Manifest">
       A crucial API for DPD UK that generates an electronic manifest data file in the SAPIENT's default PDF format and send it to DPD UK via SFTP.
     </Accordion>
-
-
   </Tab>
 
   <Tab title="Other Services">
@@ -142,8 +132,6 @@ DPD are one of the leading delivery carriers in the UK, shipping domestically an
         _This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting._
       </Callout>
     </Accordion>
-
-
 
     <Accordion title="Tracking">
       This integration allows customers to monitor their shipments in real-time, providing transparency and peace of mind. Users can access detailed tracking information, including, real-time updates, tracking numbers, and delivery notifications.
@@ -158,19 +146,19 @@ DPD are one of the leading delivery carriers in the UK, shipping domestically an
 <Tabs>
   <Tab title="Account Setup">
     <Cards>
-      <Card title="Add DPD UK Shipping Account" href="https://docs.intersoftsapient.net/docs/add-dpd-uk-shipping-account" icon="fa-solid fa-truck">
+      <Card title="Add DPD UK Shipping Account" href="https://docs.intersoftsapient.net/docs/add-dpd-uk-shipping-account" icon="fa-solid fa-truck" target="_blank">
         Set up your DPD UK shipping account to start creating shipments.
       </Card>
 
-      <Card title="Add DPD UK Tracking Account" href="https://docs.intersoftsapient.net/docs/add-dpd-uk-tracking-account" icon="fa-solid fa-search-location">
+      <Card title="Add DPD UK Tracking Account" href="https://docs.intersoftsapient.net/docs/add-dpd-uk-tracking-account" icon="fa-solid fa-search-location" target="_blank">
         Configure tracking for your DPD UK shipments.
       </Card>
     </Cards>
   </Tab>
 
   <Tab title="API References">
-    <Cards>
-      <Card title="SAPIENT DPD UK API" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-dpduk" icon="fa-solid fa-code">
+    <Cards columns="2">
+      <Card title="SAPIENT DPD UK API" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-dpduk" icon="fa-solid fa-code" target="_blank">
         Explore the DPD UK API endpoints for a seamless shipping experience.
       </Card>
     </Cards>
