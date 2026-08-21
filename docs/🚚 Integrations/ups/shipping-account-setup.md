@@ -197,8 +197,8 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
   <Tab title="Via API">
     To add a UPS shipping account via API, refer to the following API endpoint.
 
-    <Cards>
-      <Card title="Add Account" href="https://docs.intersoftsapient.net/reference/post_v4-shippingaccounts-ups" icon="fa-code">
+    <Cards columns="2">
+      <Card title="Add Account" href="https://docs.intersoftsapient.net/reference/post_v4-shippingaccounts-ups" icon="fa-code" target="_blank">
         Add and manage UPS shipping account via API.
       </Card>
     </Cards>
@@ -209,10 +209,8 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
 
 ### See also
 
-<Cards columns={2}>
-  <Card title="Edit shipping account" icon="fa-pen-to-square" href="https://docs.intersoftsapient.net/docs/edit-shipping-account">
+<Cards columns="2">
+  <Card title="Edit shipping account" href="https://docs.intersoftsapient.net/docs/edit-shipping-account" icon="fa-pen-to-square" target="_blank">
     Update or modify an existing shipping account.
   </Card>
 </Cards>
-
-<br />
