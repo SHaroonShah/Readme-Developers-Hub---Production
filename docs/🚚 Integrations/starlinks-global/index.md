@@ -124,11 +124,11 @@ The integration of Starlinks Global into the SAPIENT platform is a significant s
 <Tabs>
   <Tab title="Account Setup">
     <Cards>
-      <Card title="Add Starlinks GLobal Shipping Account" href="https://docs.intersoftsapient.net/v4.04/docs/add-starlinks-global-shipping-account" icon="fa-solid fa-truck">
+      <Card title="Add Starlinks GLobal Shipping Account" href="https://docs.intersoftsapient.net/v4.04/docs/add-starlinks-global-shipping-account" icon="fa-solid fa-truck" target="_blank">
         Set up your Starlinks Global shipping account to start creating shipments.
       </Card>
 
-      <Card title="Add Starlinks Global Tracking Account" href="https://docs.intersoftsapient.net/v4.04/docs/add-starlinks-global-tracking-account" icon="fa-solid fa-search-location">
+      <Card title="Add Starlinks Global Tracking Account" href="https://docs.intersoftsapient.net/v4.04/docs/add-starlinks-global-tracking-account" icon="fa-solid fa-search-location" target="_blank">
         Configure tracking for your Starlinks Global shipments.
       </Card>
     </Cards>
@@ -136,7 +136,7 @@ The integration of Starlinks Global into the SAPIENT platform is a significant s
 
   <Tab title="API References">
     <Cards columns="2">
-      <Card title="SAPIENT Starlinks Global API" icon="fa-solid fa-code">
+      <Card title="SAPIENT Starlinks Global API" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-starlinks" icon="fa-solid fa-code" target="_blank">
         Explore the Starlinks Global API endpoints for a seamless shipping experience.
       </Card>
     </Cards>
