@@ -235,8 +235,8 @@ In SAPIENT, you can create a DX Express shipping account by selecting your desir
   <Tab title="Via API">
     To add a DX Express shipping account via API, refer to the following API endpoint.
 
-    <Cards>
-      <Card title="Add Account" href="https://docs.intersoftsapient.net/reference/post_v4-shippingaccounts-dx" icon="fa-code">
+    <Cards columns="2">
+      <Card title="Add Account" href="https://docs.intersoftsapient.net/reference/post_v4-shippingaccounts-dx" icon="fa-code" target="_blank">
         Add and manage DX Express shipping account via API.
       </Card>
     </Cards>
@@ -247,18 +247,16 @@ In SAPIENT, you can create a DX Express shipping account by selecting your desir
 
 ### See also
 
-<Cards columns={3}>
-  <Card title="Edit shipping account" icon="fa-pen-to-square" href="https://docs.intersoftsapient.net/docs/dx-freight-sign-off">
+<Cards columns="3">
+  <Card title="Edit shipping account" href="https://docs.intersoftsapient.net/docs/dx-freight-sign-off" icon="fa-pen-to-square" target="_blank">
     Update or modify an existing shipping account.
   </Card>
 
-  <Card title="DX Express Sign-Off" icon="fa-solid fa-file-signature" href="https://docs.intersoftsapient.net/docs/dx-freight-sign-off-copy">
+  <Card title="DX Express Sign-Off" href="https://docs.intersoftsapient.net/docs/dx-freight-sign-off-copy" icon="fa-solid fa-file-signature" target="_blank">
     Complete necessary steps before using DXF to create shipments in SAPIENT.
   </Card>
 
-  <Card title="DX Rate Limit" icon="fa-solid fa-file-signature" href="https://docs.intersoftsapient.net/v4.04/docs/dx-rate-limit">
+  <Card title="DX Rate Limit" href="https://docs.intersoftsapient.net/v4.04/docs/dx-rate-limit" icon="fa-solid fa-file-signature" target="_blank">
     Learn more about the DX rate limit set on the number of requests that can be processed over a given period of time.
   </Card>
 </Cards>
-
-<br />
