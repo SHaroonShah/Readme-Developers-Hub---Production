@@ -52,7 +52,7 @@ Accurate HS code data not only facilitates smooth processing of your data by cus
 <Callout icon="📘" theme="info">
   ### _Note_
 
-  _For more information on how to use this API service, refer to the [Commodity Code Validation](https://docs.intersoftsapient.net/reference/post_v4-getcommoditycodevalidations) block of the&#x20;_**_API References_**_&#x20;section._
+  _For more information on how to use this API service, refer to the&#x20;_<Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/post_v4-getcommoditycodevalidations">Commodity Code Validation</Anchor>_&#x20;block of the&#x20;_**_API References_**_&#x20;section._
 </Callout>
 
 ***
