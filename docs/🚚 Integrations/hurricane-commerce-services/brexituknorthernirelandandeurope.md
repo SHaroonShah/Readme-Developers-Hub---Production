@@ -16,9 +16,11 @@ metadata:
 next:
   description: ''
 ---
-<Image align="center" border={true} src="https://files.readme.io/da57719cc32502c64211e5e633a756ba6c2a110aebef12d763a10cff64c017e3-Duty_and_tax.png" className="border" />
 
-<Cards columns={2}>
+<Image src="https://files.readme.io/da57719cc32502c64211e5e633a756ba6c2a110aebef12d763a10cff64c017e3-Duty_and_tax.png" align="center" border={true} />
+
+
+<Cards columns="2">
   <Card title="Understanding Quoted Landed Cost" icon="fa-solid fa-money-bill-wave">
     Calculating accurate landed cost is hugely complex with each country. Since each country sets their own levels on the value of goods that can be imported before the taxes and duties are payable, they apply their own rules for the level of tax and duty on different types of goods.
   </Card>
@@ -36,28 +38,30 @@ next:
   </Card>
 </Cards>
 
-> 📘 _Note_
->
-> _For more information on how to use this API service, refer to the [Quoted Landed Cost](https://docs.intersoftsapient.net/reference/post_v4-quotedlandedcost#/) block of the **API References** section._
+<Callout icon="📘" theme="info">
+  ### _Note_
+
+  _For more information on how to use this API service, refer to the&#x20;_<Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/post_v4-quotedlandedcost#/">Quoted Landed Cost</Anchor>_&#x20;block of the&#x20;_**_API References_**_&#x20;section._
+</Callout>
 
 ***
 
 ### See also
 
-<Cards columns={2}>
-  <Card title="Commodity Code Validations" href="https://docs.intersoftsapient.net/docs/harmonized-system-codes-hs-codes" icon="fa-solid fa-barcode">
+<Cards columns="2">
+  <Card title="Commodity Code Validations" href="https://docs.intersoftsapient.net/docs/harmonized-system-codes-hs-codes" icon="fa-solid fa-barcode" target="_blank">
     Learn more about how Hurricane services validate commodity codes.
   </Card>
 
-  <Card title="Prohibited and Restricted Items" href="https://docs.intersoftsapient.net/docs/prohibited-and-restricted-items" icon="fa-solid fa-ban">
+  <Card title="Prohibited and Restricted Items" href="https://docs.intersoftsapient.net/docs/prohibited-and-restricted-items" icon="fa-solid fa-ban" target="_blank">
     Check the list of prohibited and restricted items.
   </Card>
 
-  <Card title="Export Codes Details" href="https://docs.intersoftsapient.net/docs/prohibited-and-restricted-codes-and-explanation" icon="fa-solid fa-file-export">
+  <Card title="Export Codes Details" href="https://docs.intersoftsapient.net/docs/prohibited-and-restricted-codes-and-explanation" icon="fa-solid fa-file-export" target="_blank">
     Explore export codes for prohibited and restricted items.
   </Card>
 
-  <Card title="Import Code Details" href="https://docs.intersoftsapient.net/docs/prohibited-and-restricted-codes-and-explanation-1" icon="fa-solid fa-file-import">
+  <Card title="Import Code Details" href="https://docs.intersoftsapient.net/docs/prohibited-and-restricted-codes-and-explanation-1" icon="fa-solid fa-file-import" target="_blank">
     Discover import codes for prohibited and restricted items.
   </Card>
 </Cards>
