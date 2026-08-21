@@ -14,7 +14,7 @@ metadata:
 next:
   description: ''
 ---
-<Cards columns={2}>
+<Cards columns="2">
   <Card title="Pre-sorted packages" icon="fa-solid fa-box">
     Perfect for packages that are already sorted and only need labels printed after shipment creation.
   </Card>
@@ -51,13 +51,11 @@ To view a step-by-step guide on how to process the shipments that are created wi
 ### See also
 
 <Cards columns="2">
-  <Card title="Process" href="https://docs.intersoftsapient.net/docs/create-shipment-with-action-process" icon="fa-solid fa-cog">
+  <Card title="Process" href="https://docs.intersoftsapient.net/docs/create-shipment-with-action-process" icon="fa-solid fa-cog" target="_blank">
     Finalise the shipment creation and prepares the shipment for transportation. This action generates a label in the Create Shipment response and the shipment is ready for manifesting immediately.
   </Card>
 
-  <Card title="Create" href="https://docs.intersoftsapient.net/docs/create-shipments-with-action-create" icon="fa-solid fa-plus-circle">
+  <Card title="Create" href="https://docs.intersoftsapient.net/docs/create-shipments-with-action-create" icon="fa-solid fa-plus-circle" target="_blank">
     Initiate a new shipment entry in the system and capture all necessary details to generate shipping documents. This action does not return labels immediately - requires Print Shipment API call.
   </Card>
 </Cards>
-
-<br />
