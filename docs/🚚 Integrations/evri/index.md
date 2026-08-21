@@ -150,23 +150,23 @@ The EVRi integration into the SAPIENT platform enhances our shipping capabilitie
 <Tabs>
   <Tab title="Account Setup">
     <Cards>
-      <Card title="Add EVRi Shipping Account" href="https://docs.intersoftsapient.net/v4.04/docs/shipping-account-setup-3" icon="fa-solid fa-truck">
+      <Card title="Add EVRi Shipping Account" href="https://docs.intersoftsapient.net/v4.04/docs/shipping-account-setup-3" icon="fa-solid fa-truck" target="_blank">
         Set up your EVRi shipping account to start creating shipments.
       </Card>
 
-      <Card title="Add EVRi Tracking Account" href="https://docs.intersoftsapient.net/v4.04/docs/tracking-account-setup" icon="fa-solid fa-search-location">
+      <Card title="Add EVRi Tracking Account" href="https://docs.intersoftsapient.net/v4.04/docs/tracking-account-setup" icon="fa-solid fa-search-location" target="_blank">
         Configure tracking for your EVRi shipments.
       </Card>
 
-      <Card title="Add Child Client Department to Parent Shipping Account" href="https://docs.intersoftsapient.net/v4.04/docs/client-id-and-child-clinet-id-management-1" icon="fa-solid fa-circle-user">
+      <Card title="Add Child Client Department to Parent Shipping Account" href="https://docs.intersoftsapient.net/v4.04/docs/client-id-and-child-clinet-id-management-1" icon="fa-solid fa-circle-user" target="_blank">
         Create a parent shipping account and have multiple sub-accounts.
       </Card>
     </Cards>
   </Tab>
 
   <Tab title="API References">
-    <Cards>
-      <Card title="SAPIENT EVRi API" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-evri" icon="fa-solid fa-code">
+    <Cards columns="2">
+      <Card title="SAPIENT EVRi API" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-evri" icon="fa-solid fa-code" target="_blank">
         Explore the EVRi API endpoints for a seamless shipping experience.
       </Card>
     </Cards>
