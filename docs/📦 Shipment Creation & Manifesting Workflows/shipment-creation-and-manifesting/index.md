@@ -32,30 +32,30 @@ The SAPIENT API has been designed to accommodate different methods of processing
     Shipment actions are specific operations that can be performed on a shipment during its lifecycle. These actions allow businesses to manage and control various aspects of the shipment process.
 
     <Cards columns="3">
-      <Card title="Process" href="https://docs.intersoftsapient.net/docs/create-shipment-with-action-process" icon="fa-solid fa-cog">
+      <Card title="Process" href="https://docs.intersoftsapient.net/docs/create-shipment-with-action-process" icon="fa-solid fa-cog" target="_blank">
         Finalises the shipment creation and prepares the shipment for transportation. A label is returned in the Create Shipment response and the shipment is ready for manifesting immediately.
       </Card>
 
-      <Card title="Create" href="https://docs.intersoftsapient.net/docs/create-shipments-with-action-create" icon="fa-solid fa-plus-circle">
+      <Card title="Create" href="https://docs.intersoftsapient.net/docs/create-shipments-with-action-create" icon="fa-solid fa-plus-circle" target="_blank">
         Initiates a new shipment entry in the system. Captures all necessary details to generate shipping documents. Does not return labels immediately - requires Print Shipment API call.
       </Card>
 
-      <Card title="Allocate" href="https://docs.intersoftsapient.net/docs/create-shipments-with-action-allocate" icon="fa-solid fa-boxes">
+      <Card title="Allocate" href="https://docs.intersoftsapient.net/docs/create-shipments-with-action-allocate" icon="fa-solid fa-boxes" target="_blank">
         Assigns resources (like inventory items) to the shipment for fulfilment. Returns carrier tracking number in Create Shipment response but requires Print Shipment API for labels.
       </Card>
     </Cards>
 
     ### Key differences
 
-    * **Process**: Label generated immediately, ready for manifesting
-    * **Create**: No immediate label or tracking number - generated when the Print Shipment API is called
-    * **Allocate**: Tracking number provided immediately, label generated when Print Shipment API is called
+    - **Process**: Label generated immediately, ready for manifesting
+    - **Create**: No immediate label or tracking number - generated when the Print Shipment API is called
+    - **Allocate**: Tracking number provided immediately, label generated when Print Shipment API is called
   </Tab>
 
   <Tab title="Shipment status">
     ## Use shipment status in Update Shipment API
 
-    The *shipment status* indicates the current state or condition of a shipment within the shipment process. Each status reflects a specific phase in the shipment lifecycle, providing visibility to both shippers and recipients.
+    The _shipment status_ indicates the current state or condition of a shipment within the shipment process. Each status reflects a specific phase in the shipment lifecycle, providing visibility to both shippers and recipients.
 
     <Accordion title="Picked Status">
       Indicates that the items for the shipment have been successfully collected from the inventory and are ready for the next steps in the shipment process.
@@ -63,7 +63,7 @@ The SAPIENT API has been designed to accommodate different methods of processing
       **Use case**: Print labels in advance by creating shipments using the **Process** action. When picked and ready to despatch, update the status to **Picked**. You can then manifest all picked shipments, ensuring unpicked shipments are not manifested.
     </Accordion>
 
-    <br />
+
 
     <Accordion title="Release Status">
       Indicates that the shipment has been authorised for despatch or has been cleared for shipment to the next destination.
@@ -71,7 +71,7 @@ The SAPIENT API has been designed to accommodate different methods of processing
       **Use case**: Manage approval workflows where shipments need authorisation before despatch.
     </Accordion>
 
-    <br />
+
 
     <Accordion title="Cancel Status">
       Indicates that the shipment has been canceled and will not be processed any further.
@@ -79,7 +79,7 @@ The SAPIENT API has been designed to accommodate different methods of processing
       **Use case**: Prevents cancelled shipments from being included in manifests and carrier handovers.
     </Accordion>
 
-    <br />
+
 
     <Accordion title="Hold Status">
       Indicates that the shipment is temporarily paused and is not progressing to the next phases of fulfillment or transport until the necessary requirements are fulfilled.
@@ -87,11 +87,13 @@ The SAPIENT API has been designed to accommodate different methods of processing
       **Use case**: Temporarily delay shipments that are awaiting stock, payment, or other requirements. Only included in manifest production once released.
     </Accordion>
 
-    <br />
 
-    > 📘 *Note*
-    >
-    > *The "**Hold**" and "**Release**" statuses are available if a shipment needs to be delayed and only included in manifest production once it has been released.*
+
+    <Callout icon="📘" theme="info">
+      ### _Note_
+
+      _The "_**_Hold_**_" and "_**_Release_**_" statuses are available if a shipment needs to be delayed and only included in manifest production once it has been released._
+    </Callout>
   </Tab>
 
   <Tab title="Containers">
@@ -111,11 +113,13 @@ The SAPIENT API has been designed to accommodate different methods of processing
       </Card>
     </Cards>
 
-    <br />
 
-    > 📘 *Note*
-    >
-    > *A container can be created with any Container ID that suits the needs of the organisation.*
+
+    <Callout icon="📘" theme="info">
+      ### _Note_
+
+      _A container can be created with any Container ID that suits the needs of the organisation._
+    </Callout>
   </Tab>
 
   <Tab title="Pre-allocate tracking API">
@@ -128,12 +132,12 @@ The SAPIENT API has been designed to accommodate different methods of processing
 
       **Benefits**:
 
-      * Link tracking numbers to orders early in the process
-      * Minimal validation required for quick number allocation
-      * Seamless integration with the Create Shipment API
+      - Link tracking numbers to orders early in the process
+      - Minimal validation required for quick number allocation
+      - Seamless integration with the Create Shipment API
     </Accordion>
 
-    <br />
+
 
     <Accordion title="How It Works">
       1. **Request pre-allocated tracking number** - Only minimal information required
@@ -144,12 +148,12 @@ The SAPIENT API has been designed to accommodate different methods of processing
       When requesting pre-allocated tracking number, only a small amount of information is passed in the request body and minimal validation is done to return a Royal Mail <Glossary>tracking number</Glossary>.
     </Accordion>
 
-    <br />
 
-    > 🚧 *Important*
-    >
-    > *Currently, this service is only available for Royal Mail services that have a 1D Tracking Number generated—this includes shipments using untracked services with the Royal Mail Recorded Signed for enhancement.*
+
+    <Callout icon="🚧" theme="warn">
+      ### _Important_
+
+      _Currently, this service is only available for Royal Mail services that have a 1D Tracking Number generated—this includes shipments using untracked services with the Royal Mail Recorded Signed for enhancement._
+    </Callout>
   </Tab>
 </Tabs>
-
-<br />
