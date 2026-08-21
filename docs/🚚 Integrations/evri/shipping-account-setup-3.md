@@ -248,8 +248,8 @@ Unlike other carriers, EVRi customers can have a main (parent) shipping account 
   <Tab title="Via API">
     To add an EVRi shipping account via API, refer to the following API endpoint.
 
-    <Cards>
-      <Card title="Add Account" href="https://docs.intersoftsapient.net/reference/post_v4-shippingaccounts-evri" icon="fa-code">
+    <Cards columns="2">
+      <Card title="Add Account" href="https://docs.intersoftsapient.net/reference/post_v4-shippingaccounts-evri" icon="fa-code" target="_blank">
         Add and manage EVRi shipping account via API.
       </Card>
     </Cards>
@@ -260,14 +260,12 @@ Unlike other carriers, EVRi customers can have a main (parent) shipping account 
 
 ### See also
 
-<Cards columns={2}>
-  <Card title="Edit shipping account" icon="fa-pen-to-square" href="https://docs.intersoftsapient.net/docs/dx-freight-sign-off">
+<Cards columns="2">
+  <Card title="Edit shipping account" href="https://docs.intersoftsapient.net/docs/dx-freight-sign-off" icon="fa-pen-to-square" target="_blank">
     Update or modify an existing shipping account.
   </Card>
 
-  <Card title="Add Child Client Department to Parent Shipping Account" icon="fa-solid fa-circle-user" href="https://docs.intersoftsapient.net/v4.04/docs/client-id-and-child-clinet-id-management-1">
+  <Card title="Add Child Client Department to Parent Shipping Account" href="https://docs.intersoftsapient.net/v4.04/docs/client-id-and-child-clinet-id-management-1" icon="fa-solid fa-circle-user" target="_blank">
     Create a parent shipping account and have multiple sub-accounts.
   </Card>
 </Cards>
-
-<br />
