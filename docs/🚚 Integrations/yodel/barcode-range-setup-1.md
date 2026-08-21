@@ -21,7 +21,7 @@ The Yodel barcode is referred to as the License Plate Number, and is constructed
 
 - 8-digit prefix with a static value of **JJD00022​**
 - 11-digit tracking number, consisting of:​
-  - 5-digit meter number​ provided during the [creation of the YODEL shipping account](https://docs.intersoftsapient.net/docs/shipping-account-setup-1#/). This number is variable and is used to automatically generate the barcode number range for the shipping account using that meter number.
+  - 5-digit meter number​ provided during the <Anchor target="_blank" href="https://docs.intersoftsapient.net/docs/shipping-account-setup-1#/">creation of the YODEL shipping account</Anchor>. This number is variable and is used to automatically generate the barcode number range for the shipping account using that meter number.
   - 6-digit number range, always 00001 to 99999
 
 <Callout icon="🚧" theme="warn">
@@ -112,9 +112,7 @@ To add tracking barcode ranges to YODEL shipping account in SAPIENT, follow the 
 ### See also
 
 <Cards columns="2">
-  <Card title="Add Shipping Account" href="https://docs.intersoftsapient.net/docs/shipping-account-setup-1" icon="fa-solid fa-truck">
+  <Card title="Add Shipping Account" href="https://docs.intersoftsapient.net/docs/shipping-account-setup-1" icon="fa-solid fa-truck" target="_blank">
     Access the step-by-step guide on how to set up YODEL shipping account on SAPIENT.
   </Card>
 </Cards>
-
-<br />
