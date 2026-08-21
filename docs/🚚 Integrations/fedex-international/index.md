@@ -45,8 +45,6 @@ FedEx International Connect is a flexible, cost-effective, worldwide delivery so
         The integration supports labels in the <Glossary>PDF</Glossary> format only.
       </Card>
     </Cards>
-
-
   </Tab>
 
   <Tab title="Additional Features">
@@ -75,8 +73,6 @@ FedEx International Connect is a flexible, cost-effective, worldwide delivery so
     | **Royal Mail Tracked 24**        | This service provides next-working-day delivery within the UK with full end-to-end tracking, delivery notifications, and proof of delivery, offering a fast and reliable domestic shipping solution.                                                        |
     | **Royal Mail Tracked 48**        | This service provides cost-effective UK delivery within 2–3 working days with full tracking, delivery notifications, and proof of delivery, suitable for less urgent domestic shipments.                                                                    |
 
-
-
     <Callout icon="💡" theme="default">
       ### _Tip_
 
@@ -94,8 +90,6 @@ FedEx International Connect is a flexible, cost-effective, worldwide delivery so
     <Accordion title="Create Shipment">
       The integration for creating shipments to reflect FedEx International Connect as a primary carrier and allowing users to create shipments using the Create Shipment API endpoint that returns the label in base64 encoded format.
     </Accordion>
-
-
 
     <Accordion title="Manifest shipment">
       Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/v4.04/docs/manifest-webhook), which provides updates on manifest requests, allowing you to track the progress and status of shipments prepared for carrier collection and delivery.
@@ -119,8 +113,6 @@ FedEx International Connect is a flexible, cost-effective, worldwide delivery so
       </Callout>
     </Accordion>
 
-
-
     <Accordion title="Tracking">
       This integration allows customers to monitor their shipments in real-time, providing transparency and peace of mind. Users can access detailed tracking information, including, real-time updates, tracking numbers, and delivery notifications.
     </Accordion>
@@ -134,19 +126,19 @@ FedEx International Connect is a flexible, cost-effective, worldwide delivery so
 <Tabs>
   <Tab title="Account Setup">
     <Cards>
-      <Card title="Add FedEx International Connect Shipping Account" href="https://docs.intersoftsapient.net/docs/add-fedex-international-shipping-account" icon="fa-solid fa-truck">
+      <Card title="Add FedEx International Connect Shipping Account" href="https://docs.intersoftsapient.net/docs/add-fedex-international-shipping-account" icon="fa-solid fa-truck" target="_blank">
         Set up your FedEx International Connect shipping account to start creating shipments.
       </Card>
 
-      <Card title="Add FedEx International Connect Tracking Account" href="https://docs.intersoftsapient.net/docs/add-fedex-international-tracking-account" icon="fa-solid fa-search-location">
+      <Card title="Add FedEx International Connect Tracking Account" href="https://docs.intersoftsapient.net/docs/add-fedex-international-tracking-account" icon="fa-solid fa-search-location" target="_blank">
         Configure tracking for your FedEx International Connect shipments.
       </Card>
     </Cards>
   </Tab>
 
   <Tab title="API References">
-    <Cards>
-      <Card title="SAPIENT FedEx International Connect API" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-fic" icon="fa-solid fa-code">
+    <Cards columns="2">
+      <Card title="SAPIENT FedEx International Connect API" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-fic" icon="fa-solid fa-code" target="_blank">
         Explore the FedEx International Connect API endpoints for a seamless shipping experience.
       </Card>
     </Cards>
