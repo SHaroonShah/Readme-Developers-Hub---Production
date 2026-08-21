@@ -13,7 +13,9 @@ metadata:
 ---
 Register Royal Mail tracking numbers with the [Trackings](https://docs.intersoftsapient.net/reference/post_v4-trackings) API to receive webhook updates for eligible shipments created outside your standard INTERSOFT tracking flow.
 
-> 🛑 _This endpoint is only supported for Royal Mail shipments and is a chargeable API feature. Customers should ensure tracking registration is performed only when required to avoid unnecessary costs._
+<Callout icon="🛑" theme="error">
+  ### _This endpoint is only supported for Royal Mail shipments and is a chargeable API feature. Customers should ensure tracking registration is performed only when required to avoid unnecessary costs._
+</Callout>
 
 INTERSOFT monitors each registered tracking number and pushes new events to your configured webhook for a defined tracking period.
 
@@ -23,7 +25,7 @@ Use this endpoint when you need:
 - Event‑driven tracking updates
 - Integration‑based tracking without polling APIs
 
-<Cards columns={3}>
+<Cards columns="3">
   <Card title="Royal Mail only" icon="fa-truck">
     This endpoint supports Royal Mail shipments only.
   </Card>
@@ -63,18 +65,18 @@ Tracking registration is supported only for the following Royal Mail trackable s
   <Column>
     ### Domestic services
 
-    * Tracked Standard
-    * Tracked High Volume
-    * Tracked Returns
-    * Special Delivery
+    - Tracked Standard
+    - Tracked High Volume
+    - Tracked Returns
+    - Special Delivery
   </Column>
 
   <Column>
     ### International services
 
-    * International Tracked
-    * International Signed
-    * International Tracked and Signed
+    - International Tracked
+    - International Signed
+    - International Tracked and Signed
   </Column>
 </Columns>
 
@@ -84,12 +86,12 @@ Tracking registration requests submitted for unsupported products will not retur
 
 If a batch contains invalid tracking numbers, the [Trackings](https://docs.intersoftsapient.net/reference/post_v4-trackings) API continues processing the valid ones and reports the invalid entries separately.
 
-<Cards columns={2}>
+<Cards columns="2">
   <Card title="Processing behaviour" icon="fa-cogs">
-    * All tracking numbers in a request are accepted and inserted into the database, up to 1,000 entries per request.
-    * Invalid tracking numbers are marked as `DO NOT TRACK` and are not registered with the carrier.
-    * The request does not fail when invalid numbers are present.
-    * Duplicate tracking numbers within the same batch are accepted.
+    - All tracking numbers in a request are accepted and inserted into the database, up to 1,000 entries per request.
+    - Invalid tracking numbers are marked as `DO NOT TRACK` and are not registered with the carrier.
+    - The request does not fail when invalid numbers are present.
+    - Duplicate tracking numbers within the same batch are accepted.
   </Card>
 
   <Card title="Invalid tracking event" icon="fa-exclamation-triangle">
@@ -97,34 +99,34 @@ If a batch contains invalid tracking numbers, the [Trackings](https://docs.inter
 
     **Event properties**
 
-    * **Event code:** `INVD`
-    * **Event name:** `Invalid Tracking Number`
-    * **Event type:** `Tracking`
-    * **Milestone:** `No`
-    * **Stop the clock:** `Yes`
+    - **Event code:** `INVD`
+    - **Event name:** `Invalid Tracking Number`
+    - **Event type:** `Tracking`
+    - **Milestone:** `No`
+    - **Stop the clock:** `Yes`
   </Card>
 </Cards>
 
-> 📘 _Note_
->
-> _The webhook payload includes the mandatory fields shown in the [push payload example](https://docs.intersoftsapient.net/reference/post_v4-trackings-pushpayloadexample). Invalid tracking numbers are processed asynchronously so valid shipments continue tracking without interruption._
+<Callout icon="📘" theme="info">
+  ### _Note_
+
+  _The webhook payload includes the mandatory fields shown in the [push payload example](https://docs.intersoftsapient.net/reference/post_v4-trackings-pushpayloadexample). Invalid tracking numbers are processed asynchronously so valid shipments continue tracking without interruption._
+</Callout>
 
 ***
 
 ### See also
 
 <Cards columns="3">
-  <Card title="Add Tracking Account" href="https://docs.intersoftsapient.net/docs/create-tracking-account" icon="fa-solid fa-alarm-plus">
+  <Card title="Add Tracking Account" href="https://docs.intersoftsapient.net/docs/create-tracking-account" icon="fa-solid fa-alarm-plus" target="_blank">
     Establish your tracking account for seamless integration.
   </Card>
 
-  <Card title="Track Events and Milestones" href="https://docs.intersoftsapient.net/docs/tracking-events-and-milestones" icon="fa-solid fa-chart-line-up">
+  <Card title="Track Events and Milestones" href="https://docs.intersoftsapient.net/docs/tracking-events-and-milestones" icon="fa-solid fa-chart-line-up" target="_blank">
     Understand tracking events and milestone data.
   </Card>
 
-  <Card title="Handle Webhook Suspension" href="https://docs.intersoftsapient.net/docs/webhook-suspension" icon="fa-solid fa-dial-max">
+  <Card title="Handle Webhook Suspension" href="https://docs.intersoftsapient.net/docs/webhook-suspension" icon="fa-solid fa-dial-max" target="_blank">
     Manage and resolve webhook suspension scenarios.
   </Card>
 </Cards>
-
-<br />
