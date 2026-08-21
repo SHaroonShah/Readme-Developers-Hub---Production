@@ -13,11 +13,11 @@ metadata:
 next:
   description: ''
 ---
-<Cards columns={2}>
+<Cards columns="2">
   <Card title="Key benefits" icon="fa-solid fa-circle-check">
-    * Shipments are ready to be manifested immediately
-    * Reduces the number of API calls required
-    * Labels and CN23 forms are returned in the response
+    - Shipments are ready to be manifested immediately
+    - Reduces the number of API calls required
+    - Labels and CN23 forms are returned in the response
   </Card>
 
   <Card title="When to use" icon="fa-solid fa-warehouse">
@@ -39,10 +39,10 @@ To use the Process action in your [Create Shipment](https://docs.intersoftsapien
   <Tab title="Expected response">
     The response will include:
 
-    * Shipment confirmation details
-    * Label data (ready for printing)
-    * CN23 forms (for international shipments)
-    * Shipment status: "Process"
+    - Shipment confirmation details
+    - Label data (ready for printing)
+    - CN23 forms (for international shipments)
+    - Shipment status: "Process"
   </Tab>
 </Tabs>
 
@@ -65,8 +65,7 @@ To view a step-by-step guide on how to process the shipments that are created wi
 ### See also
 
 <Cards columns="2">
-
-  <Card title="Create" href="https://docs.intersoftsapient.net/docs/create-shipments-with-action-create" icon="fa-fa-solid fa-plus-circle">
+  <Card title="Create" href="https://docs.intersoftsapient.net/docs/create-shipments-with-action-create" icon="fa-solid fa-plus-circle">
     Initiate a new shipment entry in the system and captures all necessary details to generate shipping documents. This action does not return labels immediately - requires Print Shipment API call.
   </Card>
 
@@ -74,5 +73,3 @@ To view a step-by-step guide on how to process the shipments that are created wi
     Assign resources (like inventory items) to the shipment for fulfilment. This action returns carrier tracking number in the Create Shipment response but requires Print Shipment API for labels.
   </Card>
 </Cards>
-
-<br />
