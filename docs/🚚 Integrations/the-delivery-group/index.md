@@ -134,27 +134,27 @@ The Delivery Group (TDG) hands shipments over to other carriers for <Glossary>fi
 <Tabs>
   <Tab title="Account Setup">
     <Cards>
-      <Card title="Add The Delivery Group Shipping Account" href="https://docs.intersoftsapient.net/docs/the-delivery-group-account-set-up#/" icon="fa-solid fa-truck">
+      <Card title="Add The Delivery Group Shipping Account" href="https://docs.intersoftsapient.net/docs/the-delivery-group-account-set-up#/" icon="fa-solid fa-truck" target="_blank">
         Set up your The Delivery Group shipping account to start creating shipments.
       </Card>
 
-      <Card title="Add The Delivery Group Tracking Account" href="https://docs.intersoftsapient.net/docs/the-delivery-group-tracking-account-set-up#/" icon="fa-solid fa-search-location">
+      <Card title="Add The Delivery Group Tracking Account" href="https://docs.intersoftsapient.net/docs/the-delivery-group-tracking-account-set-up#/" icon="fa-solid fa-search-location" target="_blank">
         Configure tracking for your The Delivery Group shipments.
       </Card>
     </Cards>
   </Tab>
 
   <Tab title="API References">
-    <Cards>
-      <Card title="SAPIENT The Delivery Group API" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-tdg" icon="fa-solid fa-code">
+    <Cards columns="2">
+      <Card title="SAPIENT The Delivery Group API" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-tdg" icon="fa-solid fa-code" target="_blank">
         Explore The Delivery Group API endpoints for shipping and tracking.
       </Card>
     </Cards>
   </Tab>
 
   <Tab title="Sign-Off">
-    <Cards>
-      <Card title="TDG Sign-off Process" href="https://docs.intersoftsapient.net/docs/the-delivery-group-sign-off" icon="fa-solid fa-file-signature">
+    <Cards columns="2">
+      <Card title="TDG Sign-off Process" href="https://docs.intersoftsapient.net/docs/the-delivery-group-sign-off" icon="fa-solid fa-file-signature" target="_blank">
         Complete all the necessary steps before using The Delivery Group for creating shipments on SAPIENT.
       </Card>
     </Cards>
