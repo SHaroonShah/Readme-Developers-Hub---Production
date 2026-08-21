@@ -63,9 +63,9 @@ To manifest the shipments in an asynchronous manner via the API, you can use the
 
       A successful async manifest response returns the following parameters:
 
-      * **ManifestRequestID**: GUID to uniquely identify the manifest request.
-      * **ManifestStatus**: Status of the request, defaults to `PENDING`.
-      * **ManifestCount**: Number of manifests created, which will be 0 when initially set to `PENDING`.
+      - **ManifestRequestID**: GUID to uniquely identify the manifest request.
+      - **ManifestStatus**: Status of the request, defaults to `PENDING`.
+      - **ManifestCount**: Number of manifests created, which will be 0 when initially set to `PENDING`.
 
       **Example request with service code parameter**
 
@@ -88,12 +88,12 @@ To manifest the shipments in an asynchronous manner via the API, you can use the
       ```
     </Accordion>
 
-    <br />
+
 
     <Accordion title="Get Manifest Request Status">
       Check the status of a submitted manifest request using the following parameters:
 
-      * **manifestDetail**: An optional parameter that controls the response detail level:
+      - **manifestDetail**: An optional parameter that controls the response detail level:
 
         → If set to `false` or not populated: Returns basic information (manifestId, manifestStatus, manifestCount)
 
@@ -129,24 +129,22 @@ To manifest the shipments in an asynchronous manner via the API, you can use the
 
     For more information on webhook, refer to the following sections:
 
-    <Cards columns="3">
-      <Card title="Set up manifest webhook" href="https://docs.intersoftsapient.net/docs/manifest-webhook#/" icon="fa-solid fa-webhook">
+    <Cards columns="2">
+      <Card title="Set up manifest webhook" href="https://docs.intersoftsapient.net/docs/manifest-webhook#/" icon="fa-solid fa-webhook" target="_blank">
         Configure webhooks to receive real-time notifications about manifest processing status.
       </Card>
 
-      <Card title="Manifest shipments via UI" href="https://docs.intersoftsapient.net/docs/manifesting-shipments#/" icon="fa-solid fa-desktop">
+      <Card title="Manifest shipments via UI" href="https://docs.intersoftsapient.net/docs/manifesting-shipments#/" icon="fa-solid fa-desktop" target="_blank">
         Learn how to manifest shipments using the SAPIENT user interface.
       </Card>
 
-      <Card title="View manifest history" href="https://docs.intersoftsapient.net/docs/manifest-history#/" icon="fa-solid fa-history">
+      <Card title="View manifest history" href="https://docs.intersoftsapient.net/docs/manifest-history#/" icon="fa-solid fa-history" target="_blank">
         Access and review your previous manifest requests and their status.
       </Card>
 
-      <Card title="Manifests API Reference" href="https://docs.intersoftsapient.net/reference/post_v4-manifests-carriercode#/" icon="fa-solid fa-code">
+      <Card title="Manifests API Reference" href="https://docs.intersoftsapient.net/reference/post_v4-manifests-carriercode#/" icon="fa-solid fa-code" target="_blank">
         View the complete API reference for the synchronous manifests endpoint.
       </Card>
     </Cards>
   </Tab>
 </Tabs>
-
-<br />
