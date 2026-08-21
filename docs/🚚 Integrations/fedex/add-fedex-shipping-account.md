@@ -590,17 +590,15 @@ To add a shipping account for FedEx in SAPIENT, follow the instructions as expla
 ### See also
 
 <Cards>
-  <Card title="Enable carrier integration" href="https://docs.intersoftsapient.net/docs/integration-activation" icon="fa-plug">
+  <Card title="Enable carrier integration" href="https://docs.intersoftsapient.net/docs/integration-activation" icon="fa-plug" target="_blank">
     Enable the FedEx integration before creating a FedEx shipping account.
   </Card>
 
-  <Card title="Add a shipping location" href="https://docs.intersoftsapient.net/docs/add-a-shipping-location" icon="fa-location-dot">
+  <Card title="Add a shipping location" href="https://docs.intersoftsapient.net/docs/add-a-shipping-location" icon="fa-location-dot" target="_blank">
     Create the shipping location that you want to assign to the FedEx shipping account.
   </Card>
 
-  <Card title="Add signatures and logos to ETD documents" href="https://docs.intersoftsapient.net/docs/add-signature-and-logos-to-etd-documents#/" icon="fa-file-signature">
+  <Card title="Add signatures and logos to ETD documents" href="https://docs.intersoftsapient.net/docs/add-signature-and-logos-to-etd-documents#/" icon="fa-file-signature" target="_blank">
     Configure ETD signatures and logos after creating the FedEx shipping account.
   </Card>
 </Cards>
-
-<br />
