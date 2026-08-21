@@ -81,10 +81,10 @@ To add a tracking account for The Delivery Group in SAPIENT, follow the steps as
 <Accordion title="Important considerations" icon="fa-info-circle">
   Before you start receiving the tracking information, please bear in mind the following:
 
-  * SAPIENT will start calling The Delivery Group’s tracking API 6 hours after the shipment is created in the database.
-  * The frequency of tracking requests will be every 4 hours.
-  * In the tracking request, SAPIENT will populate the**shipmentreference** field with the tracking number returned in the **carrierItemReference** field of the **SubmitItemAdvice** response.
-  * SAPIENT will stop checking for tracking data when the final tracking event is received.
+  - SAPIENT will start calling The Delivery Group’s tracking API 6 hours after the shipment is created in the database.
+  - The frequency of tracking requests will be every 4 hours.
+  - In the tracking request, SAPIENT will populate the**shipmentreference** field with the tracking number returned in the **carrierItemReference** field of the **SubmitItemAdvice** response.
+  - SAPIENT will stop checking for tracking data when the final tracking event is received.
 </Accordion>
 
 ***
@@ -92,13 +92,11 @@ To add a tracking account for The Delivery Group in SAPIENT, follow the steps as
 ### See also
 
 <Cards columns="2">
-  <Card title="Set Up Tracking Webhook Connection" href="https://docs.intersoftsapient.net/v4.04/docs/create-tracking-webhook" icon="fa-solid fa-code-pull-request">
+  <Card title="Set Up Tracking Webhook Connection" href="https://docs.intersoftsapient.net/v4.04/docs/create-tracking-webhook" icon="fa-solid fa-code-pull-request" target="_blank">
     Automate the instantaneous flow of information regarding the status of shipments.
   </Card>
 
-  <Card title="Track Events and Milestones" href="https://docs.intersoftsapient.net/docs/tracking-events-and-milestones" icon="fa-solid fa-chart-line-up">
+  <Card title="Track Events and Milestones" href="https://docs.intersoftsapient.net/docs/tracking-events-and-milestones" icon="fa-solid fa-chart-line-up" target="_blank">
     Understand tracking events and milestone data.
   </Card>
 </Cards>
-
-<br />
