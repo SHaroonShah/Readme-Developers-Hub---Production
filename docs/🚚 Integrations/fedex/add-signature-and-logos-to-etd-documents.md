@@ -20,8 +20,6 @@ During the [FedEx shipping account creation process](https://docs.intersoftsapie
   _Please bear in mind that ETD is only available when both the origin and destination countries support it. If either country is unsupported, the shipment will be processed as non-ETD and physical customs documents must be provided._
 </Callout>
 
-<br />
-
 ## How to configure ETD for a FedEx shipping account
 
 To add letterhead image and signature to your ETDs in SAPIENT, perform the steps as explained in the following procedure.
@@ -179,13 +177,11 @@ To add letterhead image and signature to your ETDs in SAPIENT, perform the steps
 ### See also
 
 <Cards>
-  <Card title="Add FedEx shipping account" href="https://docs.intersoftsapient.net/v4.04/docs/add-fedex-shipping-account" icon="fa-truck-fast">
+  <Card title="Add FedEx shipping account" href="https://docs.intersoftsapient.net/v4.04/docs/add-fedex-shipping-account" icon="fa-truck-fast" target="_blank">
     Enable ETD while specifying the FedEx shipping account details.
   </Card>
 
-  <Card title="Add signatures and logos" href="https://docs.intersoftsapient.net/docs/add-signature-and-logo#/" icon="fa-file-signature">
+  <Card title="Add signatures and logos" href="https://docs.intersoftsapient.net/docs/add-signature-and-logo#/" icon="fa-file-signature" target="_blank">
     Configure signatures and logos for cases where you need to attach a commercial invoice to the parcel.
   </Card>
 </Cards>
-
-<br />
