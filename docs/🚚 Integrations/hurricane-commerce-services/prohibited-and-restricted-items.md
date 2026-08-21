@@ -15,15 +15,19 @@ metadata:
 next:
   description: ''
 ---
-<Image align="center" border={true} src="https://files.readme.io/3e53aceb01b0e0ed75febefc59a27a61adb14eed84aa12e703de14ee0072c004-Prohibited_and_restricted_items.png" className="border" />
+
+<Image src="https://files.readme.io/3e53aceb01b0e0ed75febefc59a27a61adb14eed84aa12e703de14ee0072c004-Prohibited_and_restricted_items.png" align="center" border={true} />
+
 
 Hurricane provides your business with the information required to make a decision on whether goods can be imported or not, and what specific licences are required.
 
 The compliance API provides a standalone interface for the end user to check if there are any restrictions or prohibitions on the <Glossary>product</Glossary>(s) being shipped on the three main areas:
 
-<Image align="center" border={false} width="500px" src="https://files.readme.io/835f9346589257843f9525927bce07d472ce27b2e464281c37c99995b48c67cf-1212.png" />
 
-<Cards columns={1}>
+<Image src="https://files.readme.io/835f9346589257843f9525927bce07d472ce27b2e464281c37c99995b48c67cf-1212.png" align="center" width="500px" />
+
+
+<Cards columns="1">
   <Card title="Import" icon="fa-solid fa-arrow-down">
     Whether the product in question is able to be shipped into the destination country. There are products and commodities that cannot be shipped into certain countries without special documentation and some which are prohibited entirely. A good example is of alcohol-based perfumes into certain Muslim countries.
   </Card>
@@ -37,28 +41,30 @@ The compliance API provides a standalone interface for the end user to check if 
   </Card>
 </Cards>
 
-> 📘 _Note_
->
-> _For more information on how to use this API service, refer to the [Prohibited Items](https://docs.intersoftsapient.net/reference/post_v4-prohibiteditems) block of the **API References** section._
+<Callout icon="📘" theme="info">
+  ### _Note_
+
+  _For more information on how to use this API service, refer to the&#x20;_<Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/post_v4-prohibiteditems">Prohibited Items</Anchor>_&#x20;block of the&#x20;_**_API References_**_&#x20;section._
+</Callout>
 
 ***
 
 ### See also
 
-<Cards columns={2}>
-  <Card title="Commodity Code Validations" href="https://docs.intersoftsapient.net/docs/harmonized-system-codes-hs-codes" icon="fa-solid fa-barcode">
+<Cards columns="2">
+  <Card title="Commodity Code Validations" href="https://docs.intersoftsapient.net/docs/harmonized-system-codes-hs-codes" icon="fa-solid fa-barcode" target="_blank">
     Learn more about how Hurricane services validate commodity codes.
   </Card>
 
-  <Card title="Quoted Landed Cost" href="https://docs.intersoftsapient.net/docs/brexituknorthernirelandandeurope" icon="fa-solid fa-money-bill-wave">
+  <Card title="Quoted Landed Cost" href="https://docs.intersoftsapient.net/docs/brexituknorthernirelandandeurope" icon="fa-solid fa-money-bill-wave" target="_blank">
     Understand the quoted landed cost in cross-border e-commerce.
   </Card>
 
-  <Card title="Export Codes Details" href="https://docs.intersoftsapient.net/docs/prohibited-and-restricted-codes-and-explanation" icon="fa-solid fa-file-export">
+  <Card title="Export Codes Details" href="https://docs.intersoftsapient.net/docs/prohibited-and-restricted-codes-and-explanation" icon="fa-solid fa-file-export" target="_blank">
     Explore export codes for prohibited and restricted items.
   </Card>
 
-  <Card title="Import Code Details" href="https://docs.intersoftsapient.net/docs/prohibited-and-restricted-codes-and-explanation-1" icon="fa-solid fa-file-import">
+  <Card title="Import Code Details" href="https://docs.intersoftsapient.net/docs/prohibited-and-restricted-codes-and-explanation-1" icon="fa-solid fa-file-import" target="_blank">
     Discover import codes for prohibited and restricted items.
   </Card>
 </Cards>
