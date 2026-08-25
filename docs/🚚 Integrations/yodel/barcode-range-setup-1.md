@@ -6,7 +6,7 @@ excerpt: >-
   stages of the shipping and handling process, facilitating efficient tracking
   and management.
 deprecated: false
-hidden: false
+hidden: true
 icon: fad fa-barcode-read
 metadata:
   title: ''
