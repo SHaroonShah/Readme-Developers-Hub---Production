@@ -7,7 +7,7 @@ excerpt: >-
   including next-day delivery, standard service, and same-day delivery for
   certain locations.
 deprecated: false
-hidden: false
+hidden: true
 icon: fad fa-truck-fast
 metadata:
   title: ''
