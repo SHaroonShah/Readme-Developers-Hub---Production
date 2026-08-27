@@ -116,9 +116,6 @@ next:
     <Image src="https://files.readme.io/24ba24bb987cd0636f2f1194aa88345f6ddba59ad5e0fa03a6568a3911941bea-UPS_logo_white.png" align="center" width="100px" />
   </Card_1>
 
-  <Card_1 href="https://docs.intersoftsapient.net/docs/yodel" tooltip="Yodel">
-    <Image src="https://files.readme.io/2e73b38cea3124ccafc735e816750a46eb26141d65f142460b218d8f6985fd2f-Yodel_logo_white.png" align="center" width="100px" />
-  </Card_1>
 </Cards_1>
 
 <Banner isInline={true} message="Featured Content" color="#ffb600" textColor="#ffffff" fontSize="20px" fontWeight="bold" width="120px" />
