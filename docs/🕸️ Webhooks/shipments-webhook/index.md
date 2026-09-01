@@ -28,24 +28,20 @@ Submit a request to the **Create Shipment Async** endpoint. The system processes
 2. Performs initial schema validation on the request.
 3. Handles the request according to the webhook status.
 
-<Columns layout="auto">
-  <Column>
-
-### Webhook inactive
+<Tabs>
+  <Tab title="Webhook inactive">
 
 The system rejects the request with an error response, such as a webhook inactive or not configured error. You can use the standard **Create Shipment** endpoint instead.
 
-  </Column>
-  <Column>
-
-### Webhook active
+  </Tab>
+  <Tab title="Webhook active">
 
 The system accepts the request and returns a **RequestID**. It queues the shipment for asynchronous processing and sends the result to your configured webhook endpoint when processing finishes.
 
 The result contains either a success response for the requested action or an error response if processing fails.
 
-  </Column>
-</Columns>
+  </Tab>
+</Tabs>
 
 ## Retry process
 
