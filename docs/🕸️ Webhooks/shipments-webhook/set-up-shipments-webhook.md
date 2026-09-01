@@ -115,40 +115,12 @@ To set up the shipment webhook connection in SAPIENT, perform the steps as expla
 
   <br />
 
-  <ToggleListItem title={<strong>4. Select tracking event type </strong>} icon="fa-rocket">
-    <br />
-
-    Choose your preferred tracking event level from the dropdown:
-
-    <Cards columns={2}>
-      <Card title="Milestones" icon="flag">
-        Receive tracking milestones only, allowing key status updates throughout the shipping journey.
-      </Card>
-
-      <Card title="Full Tracking Events" icon="stream">
-        Receive all tracking events with optional **Received Expired Event** toggle for shipments without tracking numbers after set days.
-      </Card>
-    </Cards>
-
-    <br />
-
-    <Callout icon="💡" theme="default">
-      ### *Tip*
-
-      *Find detailed lists of milestones and tracking events in the[Tracking events and milestones](https://docs.intersoftsapient.net/docs/tracking-events-and-milestones) section.*
-    </Callout>
-
-    ***
-  </ToggleListItem>
-
-  <br />
-
-  <ToggleListItem title={<strong>5. Activate and save </strong>} icon="fa-rocket">
+  <ToggleListItem title={<strong>4. Activate and save </strong>} icon="fa-rocket">
     <br />
 
     Turn on the **Active** toggle to enable the webhook
 
-    <Image align="center" border={true} src="https://files.readme.io/a76feb6-image.png" width="660px" caption="Activating tracking webhook" />
+    <Image align="center" border={true} src="https://files.readme.io/a76feb6-image.png" width="660px" caption="Activating shipment webhook" />
 
     <br />
 
@@ -165,19 +137,6 @@ To set up the shipment webhook connection in SAPIENT, perform the steps as expla
 ***
 
 ### See also
-
-<Cards columns="2">
-  <Card title="Add Tracking Account" href="https://docs.intersoftsapient.net/docs/create-tracking-account" icon="fa-solid fa-alarm-plus" target="_blank">
-    Establish your tracking account for seamless integration.
-  </Card>
-
-  <Card title="Set Up Manifest Webhook" href="https://docs.intersoftsapient.net/docs/manifest-webhook" icon="fa-solid fa-webhook" target="_blank">
-    Enable webhook notifications for manifest-level tracking operations.
-  </Card>
-
-  <Card title="Track Events and Milestones" href="https://docs.intersoftsapient.net/docs/tracking-events-and-milestones" icon="fa-solid fa-chart-line-up" target="_blank">
-    Understand tracking events and milestone data.
-  </Card>
 
   <Card title="Handle Webhook Suspension" href="https://docs.intersoftsapient.net/docs/webhook-suspension" icon="fa-solid fa-dial-max" target="_blank">
     Manage and resolve webhook suspension scenarios.
