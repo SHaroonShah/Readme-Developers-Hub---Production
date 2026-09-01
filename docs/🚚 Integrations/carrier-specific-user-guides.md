@@ -88,10 +88,4 @@ The following carrier guides are included in this section:
   <Card_1 href="https://docs.intersoftsapient.net/docs/ups" tooltip="UPS">
     <Image src="https://files.readme.io/24ba24bb987cd0636f2f1194aa88345f6ddba59ad5e0fa03a6568a3911941bea-UPS_logo_white.png" align="center" width="100px" />
   </Card_1>
-
-  <Card_1 href="https://docs.intersoftsapient.net/docs/yodel" tooltip="Yodel">
-    <Image src="https://files.readme.io/2e73b38cea3124ccafc735e816750a46eb26141d65f142460b218d8f6985fd2f-Yodel_logo_white.png" align="center" width="100px" />
-  </Card_1>
 </Cards_1>
-
-<br />
