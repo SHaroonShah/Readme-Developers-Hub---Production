@@ -21,6 +21,7 @@ INTERSOFT supports two webhook types:
 
 - **Tracking webhook**: Receives tracking events from carriers and sends the data directly to your configured endpoint.
 - **Manifest webhook**: Works with [asynchronous manifesting](https://docs.intersoftsapient.net/docs/manifest-shipment-asychronously) and notifies your configured endpoint when a manifest request has completed processing. The notification includes the final status—successful or failed.
+- **Shipment webhook**: Create shipments asynchronously and receive processing results at your configured webhook endpoint.
 
 ***
 
@@ -33,8 +34,12 @@ Choose the guide that matches the webhook task you want to complete:
     Configure an endpoint to receive shipment tracking status updates.
   </Card>
 
-  <Card title="Set Up Manifest Webhook" href="https://docs.intersoftsapient.net/docs/manifest-webhook" icon="fa-solid fa-webhook" target="_blank">
+  <Card title="Set Up Manifest Webhook Connection" href="https://docs.intersoftsapient.net/docs/manifest-webhook" icon="fa-solid fa-webhook" target="_blank">
     Receive notifications when asynchronous manifest processing completes.
+  </Card>
+
+  <Card title="Set up Shipment Webhook Connection">
+    Create a shipment request using this endpoint for asynchronous processing.
   </Card>
 
   <Card title="Handle Webhook Suspension" href="https://docs.intersoftsapient.net/docs/webhook-suspension" icon="fa-solid fa-dial-max" target="_blank">
