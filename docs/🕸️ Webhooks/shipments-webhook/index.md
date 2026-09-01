@@ -55,7 +55,11 @@ The system stores responses in blob storage for re-delivery. Data-retention poli
 ## Getting started
 
 <Cards columns="2">
-  <Card title="Set Up Shipment Webhook Connection" href="https://docs.intersoftsapient.net/v4.04/docs/create-tracking-webhook" icon="fa-solid fa-code-pull-request" target="_blank">
+  <Card title="Set Up Shipment Webhook Connection" href="https://docs.intersoftsapient.net/docs/set-up-shipments-webhook" icon="fa-solid fa-code-pull-request" target="_blank">
     Automate the instantaneous flow of information regarding your shipments.
+  </Card>
+
+  <Card title="Create Shipment Async" href="https://docs.intersoftsapient.net/reference/post_v4-shipments-async-rm" icon="fad fa-square-plus" target="_blank">
+    Create a shipment request using this endpoint for asynchronous processing
   </Card>
 </Cards>
