@@ -122,7 +122,7 @@ To set up the shipment webhook connection in SAPIENT, perform the steps as expla
 
     > 🚧 *Important*
     >
-    > *The webhook only works in**Active** state. Configuration changes deactivate it, so ensure the toggle is **Active** after any updates.*
+    > *The webhook only works in **Active** state. Configuration changes deactivate it, so ensure the toggle is **Active** after any updates.*
 
     ***
   </ToggleListItem>
