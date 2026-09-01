@@ -69,7 +69,8 @@ To set up the shipment webhook connection in SAPIENT, perform the steps as expla
         | ------------------ | ------------------------------------------------------- |
         | **Endpoint URL**\* | Enter the endpoint URL for connection identification.         |
         | **Username**\*     | Enter the username to identify and authenticate INTERSOFT payload. |
-        | **Password**\*     | Enter the password for the specified username.                     |
+        | **Password**\*     | Enter the password for the specified username.           |
+| **Notification Email**\*     | Enter the email address where you want to receive the notifications when the webhook is suspended.           |
       </Tab>
 
       <Tab title="OAuth2 Authentication">
@@ -81,6 +82,7 @@ To set up the shipment webhook connection in SAPIENT, perform the steps as expla
         | **Token URL**\*    | Enter the endpoint to connect and retrieve security token.        |
         | **Client ID**\*    | Enter the client identifier for INTERSOFT payload authentication |
         | **Secret**\*       | Enter the secret key for INTERSOFT payload authentication        |
+| **Notification Email**\*     | Enter the email address where you want to receive the notifications when the webhook is suspended.           |
       </Tab>
     </Tabs>
 
