@@ -22,12 +22,12 @@
           "Shipping Accounts"
         ],
         "summary": "Get Accounts",
-        "description": "Provides a list of all shipping accounts for all carriers (created on your customer account).\r<br />Information about the associated carrier, account number, account type, and contact details is included in the response.",
+        "description": "Retrieves a list of all shipping accounts for all carriers created on your customer account.",
         "parameters": [
           {
             "name": "searchTerm",
             "in": "query",
-            "description": "Search Term",
+            "description": "A string representing the term or keywords used to filter shipping accounts results. This can be an account name or identifier that you are interested in to narrow down the list based on the input.",
             "schema": {
               "type": "string"
             }
@@ -35,7 +35,7 @@
           {
             "name": "pageSize",
             "in": "query",
-            "description": "The maximum number of records per page.",
+            "description": "An integer that defines the number of account entries (record) returned per page in the response. For instance, if **pageSize** is set to 20, the API will return up to 20 accounts in each response.\r<br />\r<br />***Note**: By default, this value is set to 100.*",
             "schema": {
               "maximum": 2147483647,
               "minimum": 1,
@@ -47,7 +47,7 @@
           {
             "name": "pageNumber",
             "in": "query",
-            "description": "The number of the requested page, starting at 1.",
+            "description": "An integer indicating the specific page of results to retrieve, allowing for pagination of larger datasets. For example, if **pageNumber** is set to 3, the API will return the results corresponding to the third page of accounts based on the specified **pageSize**.\r<br />\r<br />***Note**: By default, this value is set to 1.*",
             "schema": {
               "maximum": 2147483647,
               "minimum": 1,
@@ -59,7 +59,7 @@
           {
             "name": "sortBy",
             "in": "query",
-            "description": "Sort By\r<br />Default: Name",
+            "description": "A string specifying the field by which to organise the search results. For instance, \"Name\" could be used to sort locations alphabetically, arranging the results in a more user-friendly order.\r<br />\r<br />***Note**: By default, this value is set to Name.*",
             "schema": {
               "$ref": "#/components/schemas/ShippingAccountsSortBy"
             }
@@ -67,7 +67,7 @@
           {
             "name": "sortDir",
             "in": "query",
-            "description": "Sort Direction\r<br />Default: Ascending",
+            "description": "A string indicating the direction in which to sort the results, typically set to \"ascending\" or \"descending.\" For example, setting **sortDir** to \"Ascending\" while using \"Name\" as **sortBy** would arrange the locations from A to Z.\r<br />\r<br />***Note**: By default, this value is set to Ascending.*",
             "schema": {
               "$ref": "#/components/schemas/OrderDirection"
             }
@@ -132,12 +132,12 @@
           "Shipping Accounts"
         ],
         "summary": "Unlink Locations",
-        "description": "Unlink one or more shipping location from a specific carrier shipping account.",
+        "description": "Remove the association between particular shipping locations from a specific carrier shipping account.",
         "parameters": [
           {
             "name": "carrierCode",
             "in": "path",
-            "description": "Carrier Code",
+            "description": "A unique identifier for the carrier associated with the shipping account. This code is typically alphanumeric and helps in identifying the specific carrier linked to the shipping account.",
             "required": true,
             "schema": {
               "type": "string"
@@ -146,7 +146,7 @@
           {
             "name": "shippingAccountId",
             "in": "path",
-            "description": "Shipping Account Identifier\r<br />SAPIENT Shipping Account Id (assigned by SAPIENT) or Alias (assigned by you).",
+            "description": "A unique identifier for each shipping account assigned by the system or you (alias), allowing for efficient reference and management of individual accounts within the system.",
             "required": true,
             "schema": {
               "type": "string"
@@ -216,12 +216,12 @@
           "Shipping Accounts"
         ],
         "summary": "Delete Account",
-        "description": "Delete a specific shipping account.",
+        "description": "Delete an existing shipping account from the system that is no longer required.",
         "parameters": [
           {
             "name": "carrierCode",
             "in": "path",
-            "description": "Carrier Code",
+            "description": "A unique identifier for the carrier associated with the shipping account. This code is alphanumeric and helps in identifying the specific carrier linked to the shipping account.",
             "required": true,
             "schema": {
               "type": "string"
@@ -230,7 +230,7 @@
           {
             "name": "shippingAccountId",
             "in": "path",
-            "description": "Shipping Account Identifier\r<br />SAPIENT Shipping Account Id (assigned by SAPIENT) or Alias (assigned by you).",
+            "description": "A unique identifier for each shipping account assigned by the system (**shippingAccountId**) or you (**AccountAlias**), allowing for efficient reference and management of individual accounts within the system.",
             "required": true,
             "schema": {
               "type": "string"
@@ -267,12 +267,12 @@
           "Shipments"
         ],
         "summary": "Get Shipments",
-        "description": "Provides a list of shipments for the specified shipping location in a given time period.",
+        "description": "Retrieve a list of shipments for the specified shipping location in a given time period. With this endpoint, you can filter and view details of your shipments based on various criteria, such as status, date ranges, and other parameters.",
         "parameters": [
           {
             "name": "shippingLocationId",
             "in": "path",
-            "description": "Shipping Location Id\r<br />SAPIENT Shipping Location Id (assigned by SAPIENT) or Alias (assigned by you).\r<br />Filter by shipping location.",
+            "description": "A unique identifier for the shipping location assigned by the system or by you (alias), allowing users to reference and manage specific locations effectively.\r<br />\r<br />***Note**: To get the shipments for a particular shipping location, you can filter this value by the shipping location ID. If the **ShippingLocationId** is not provided, then the response will return shipments for all shipping locations.*",
             "required": true,
             "schema": {
               "type": "string"
@@ -281,7 +281,7 @@
           {
             "name": "shippingAccountId",
             "in": "query",
-            "description": "Shipping Account Id\r<br />SAPIENT Shipping Account Id (assigned by SAPIENT) or Alias (assigned by you).\r<br />Filter by shipping account.",
+            "description": "A unique identifier for each shipping account assigned by the system or you (alias), allowing for efficient reference and management of individual accounts within the system.\r<br />\r<br />***Note**: To get the shipments for a particular shipping account, you can filter this value by the shipping account ID. If the **ShippingAccountId** is not provided, then the response will return shipments for all shipping accounts.*",
             "schema": {
               "maxLength": 36,
               "type": "string"
@@ -290,7 +290,7 @@
           {
             "name": "carrierCode",
             "in": "query",
-            "description": "Carrier Code\r<br />If shippingAccountId and carrier are both provided, then the value sent in the carrier field will be ignored and the carrier associated with the shipping account will be used.",
+            "description": "A unique identifier for the carrier associated with the shipping account. This code is typically alphanumeric and helps in identifying the specific carrier linked to the shipping account.\r<br />\r<br />***Note**: If both the shipping account ID and the carrier code are provided, then the value sent in the **carrierCode** field is ignored and the carrier associated with the shipping account is used instead.*",
             "schema": {
               "maxLength": 10,
               "type": "string"
@@ -299,7 +299,7 @@
           {
             "name": "status",
             "in": "query",
-            "description": "Status\r<br />Filter by shipment status.",
+            "description": "Indicates the current state of a shipment. You can filter your shipments using any of the following statuses: \r<br />• **Created**: The shipment has been initiated but not processed.\r<br />• **OnHold**: The shipment is temporarily paused for various reasons.\r<br />• **Cancelled**: The shipment has been cancelled and will not proceed.\r<br />• **ReadyToPrint**: The shipment is prepared for label printing.\r<br />• **LabelPrinted**:  The shipping label has been generated and printed.\r<br />• **Confirmed**: The shipment has been confirmed and is set for processing.\r<br />• **Picked**: The package has been picked up for delivery.",
             "schema": {
               "$ref": "#/components/schemas/GetShipmentsStatusType"
             }
@@ -307,7 +307,7 @@
           {
             "name": "destinationCountryCode",
             "in": "query",
-            "description": "Country Code\r<br />ISO Alpha-2 Country Code per ISO 3166 Standard.",
+            "description": "An abbreviation representing the destination country for the shipment, following the ISO 3166-1 alpha-2 standard, for example, \"GB\" for the United Kingdom.",
             "schema": {
               "maxLength": 2,
               "minLength": 2,
@@ -317,7 +317,7 @@
           {
             "name": "dateFrom",
             "in": "query",
-            "description": "Date From\r<br />Defaults to Today's date if not provided.\r<br />Format: YYYY-MM-DD",
+            "description": "A timestamp indicating the start date for filtering shipments in the query. This helps users retrieve shipments created or processed after this specified date.\r<br />\r<br />***Note**: The date must be in the YYYY-MM-DD format. If the date is not provided, then the value in this field defaults to the current (today's) date.*",
             "schema": {
               "type": "string",
               "format": "date"
@@ -326,7 +326,7 @@
           {
             "name": "dateTo",
             "in": "query",
-            "description": "Date To\r<br />Defaults to Today's date if not provided.\r<br />Format: YYYY-MM-DD",
+            "description": "A timestamp indicating the end date for filtering shipments in the query. This allows users to view shipments processed up to this specified date.\r<br />\r<br />***Note**: The date must be in the YYYY-MM-DD format. If the date is not provided, then the value in this field defaults to the current (today's) date.*",
             "schema": {
               "type": "string",
               "format": "date"
@@ -335,7 +335,7 @@
           {
             "name": "pageSize",
             "in": "query",
-            "description": "The maximum number of records per page.",
+            "description": "An integer that defines the number of shipments returned per page in the response. For instance, if **pageSize** is set to 20, the API will return up to 20 shipments in each response.\r<br />\r<br />***Note**: By default, this value is set to 100.*",
             "schema": {
               "maximum": 2147483647,
               "minimum": 1,
@@ -347,7 +347,7 @@
           {
             "name": "pageNumber",
             "in": "query",
-            "description": "The number of the requested page, starting at 1.",
+            "description": "An integer indicating the specific page of results to retrieve, allowing for pagination of larger datasets. For example, if **pageNumber** is set to 3, the API will return the results corresponding to the third page of shipments based on the specified **pageSize**.\r<br />\r<br />***Note**: By default, this value is set to 1.*",
             "schema": {
               "maximum": 2147483647,
               "minimum": 1,
@@ -373,14 +373,14 @@
                       "TrackingNumber": "TT000000005GB",
                       "BarcodeNumber": "4C0069786000000000B1F",
                       "Reference1": "OrderRef56",
-                      "ShipmentDate": "2026-08-11",
+                      "ShipmentDate": "2026-09-01",
                       "Status": "Created",
                       "ManifestNumber": "ISH2802532",
                       "ContainerId": "South East 1234",
                       "Carrier": "RM",
                       "DestinationCountryCode": "GB",
                       "LastUpdatedBy": "User A",
-                      "LastUpdatedDateUtc": "2026-08-11T08:30:57.454Z"
+                      "LastUpdatedDateUtc": "2026-09-01T07:35:16.387Z"
                     },
                     {
                       "ShippingAccountId": "310d6beb-ae36-40e7-918f-f92100c1719d",
@@ -388,14 +388,14 @@
                       "TrackingNumber": "",
                       "BarcodeNumber": "",
                       "Reference1": "OrderRef57",
-                      "ShipmentDate": "2026-08-11",
+                      "ShipmentDate": "2026-09-01",
                       "Status": "LabelPrinted",
                       "ManifestNumber": "",
                       "ContainerId": "",
                       "Carrier": "RM",
                       "DestinationCountryCode": "GB",
                       "LastUpdatedBy": "User B",
-                      "LastUpdatedDateUtc": "2026-08-11T08:30:57.454Z"
+                      "LastUpdatedDateUtc": "2026-09-01T07:35:16.387Z"
                     }
                   ],
                   "TotalCount": 2
@@ -454,12 +454,12 @@
           "Shipments"
         ],
         "summary": "Print Document",
-        "description": "Request the associated Customs Documents for the printed label.",
+        "description": "Generate and print various shipping-related documents required for international shipping and customs clearance. With this endpoint, you can specify details of the document you wish to print, submit necessary information, and receive a formatted document in return, typically in the PDF format.",
         "parameters": [
           {
             "name": "carrierCode",
             "in": "path",
-            "description": "Carrier Code",
+            "description": "A unique identifier for the carrier associated with the shipping account. This code is typically alphanumeric and helps in identifying the specific carrier linked to the shipping account.",
             "required": true,
             "schema": {
               "type": "string"
@@ -468,7 +468,7 @@
           {
             "name": "shipmentId",
             "in": "path",
-            "description": "Shipment Id\r<br />The Shipment Id may be an id or a tracking/barcode number.",
+            "description": "A unique identifier for the specific shipment for which the document is being printed. This ID is used to reference and track specific shipments within the system.\r<br />\r<br />***Note**: This ID can be a tracking/barcode number.*",
             "required": true,
             "schema": {
               "maxLength": 36,
@@ -629,7 +629,7 @@
           "Shipments"
         ],
         "summary": "Update Status",
-        "description": "**Hold** - Put the shipments on hold for up to 28 days. Shipments on hold for longer than 28 days will be cancelled. A shipment on hold will not be included in an closeouts/manifests, but instead will remain in its current state. You can only put shipments on hold that are in the 'LabelPrinted' status as only shipments with this status are included in manifests.\r<br />            \r<br />**Cancel** - Use to cancel/void one or more current shipments. This can only be used before a shipment has been confirmed by being manifested.\r<br />            \r<br />**Release** - Use to release shipments from hold and shipments cancelled for less than 24 hours. Once released, the shipment will be included in the next manifest.\r<br />            \r<br />**Picked** - Set the shipment to picked. This means this shipment will only be manifested if you choose to manifest 'Picked' shipments.",
+        "description": "Modify the current status of one or more shipments in the system. With this endpoint, you can update the status of specified shipments, such as placing them on hold, cancelling them, releasing them for delivery, or marking them as picked.",
         "requestBody": {
           "description": "Update Status Request",
           "content": {
@@ -710,7 +710,7 @@
           "Shipments"
         ],
         "summary": "Defer Shipments",
-        "description": "Used to update the shipment shipping data for a current shipment.\r<br />A shipment can be deferred by a maximum of 28 days from the date of the request.\r<br />This service can only be used before the shipment has been manifested.\r<br />There can be a maximum of 99 defer requests per call.",
+        "description": "Postpone the processing or delivery of specific shipments. With this endpoint, you can specify which shipments you would like to defer and provide new shipment dates, streamlining the logistics workflow when shipments cannot proceed as planned due to issues, such as delays, scheduling conflicts, or customer requests.\r<br />\r<br />Before deferring a shipment, bear in mind the following:\r<br />\r<br />• The shipment can be deferred by a maximum of 28 days from the date of the request.\r<br />• The shipment can only be deferred before it has been manifested.\r<br />• The maximum allowable defer requests per call is 99.",
         "requestBody": {
           "description": "Defer shipment requests",
           "content": {
@@ -724,11 +724,11 @@
               "example": [
                 {
                   "ShipmentId": "AD123456783GB",
-                  "ShipmentDate": "2026-08-16"
+                  "ShipmentDate": "2026-09-06"
                 },
                 {
                   "ShipmentId": "e3239e85-ddf8-4323-9064-b83c38eff927",
-                  "ShipmentDate": "2026-08-21"
+                  "ShipmentDate": "2026-09-11"
                 }
               ]
             }
@@ -791,12 +791,12 @@
           "Address Book"
         ],
         "summary": "Get Addresses",
-        "description": "Provide a list of all shipping addresses under your customer account.",
+        "description": "Retrieve a list of shipping addresses for your customer account in the system. With this endpoint, you can get specific addresses based on various parameters, providing pagination and sorting features to help manage results effectively.",
         "parameters": [
           {
             "name": "searchTerm",
             "in": "query",
-            "description": "Search Term",
+            "description": "A string representing the term or keywords used to filter the search results for the addresses.This parameter helps you find specific addresses by different attributes.",
             "schema": {
               "type": "string"
             }
@@ -804,7 +804,7 @@
           {
             "name": "pageSize",
             "in": "query",
-            "description": "The maximum number of records per page.",
+            "description": "An integer that defines the number of address records returned per page in the response. For instance, if **pageSize** is set to 20, the API will return up to 20 addresses in each response.<br></br> ***Note:** By default, this value is set to 100*",
             "schema": {
               "maximum": 2147483647,
               "minimum": 1,
@@ -816,7 +816,7 @@
           {
             "name": "pageNumber",
             "in": "query",
-            "description": "The number of the requested page, starting at 1.",
+            "description": "An integer indicating the specific page of results to retrieve, allowing for pagination of larger datasets. For example, if **pageNumber** is set to 3, the API will return the results corresponding to the third page of addresses based on the specified **pageSize**.<br></br> ***Note:** By default, this value is set to 1.*",
             "schema": {
               "maximum": 2147483647,
               "minimum": 1,
@@ -828,7 +828,7 @@
           {
             "name": "sortBy",
             "in": "query",
-            "description": "Sort By\r<br />Default: Alias",
+            "description": "A string specifying the field by which to organise the search results. For instance, \"ContactName\" could be used to sort addresses alphabetically, arranging the results in a more user-friendly order.\r<br />\r<br />***Note:** By default, this field is set to ContactName.*",
             "schema": {
               "$ref": "#/components/schemas/AddressBookSortBy"
             }
@@ -836,7 +836,7 @@
           {
             "name": "sortDir",
             "in": "query",
-            "description": "Sort Direction\r<br />Default: Ascending",
+            "description": "A string indicating the direction in which to sort the results, typically set to \"ascending\" or \"descending.\" For example, setting **sortDir** to \"Ascending\" while using \"ContactName\" as **sortBy** would arrange the addresses from A to Z.\r<br />\r<br />***Note:** By default, this field is set to Ascending.*",
             "schema": {
               "$ref": "#/components/schemas/OrderDirection"
             }
@@ -898,8 +898,8 @@
         "tags": [
           "Address Book"
         ],
-        "summary": "Add Address Book",
-        "description": "Adds a new shipping address to your address book.",
+        "summary": "Add Address",
+        "description": "Add a new address to your system's address book. With this endpoint, you can create a new address and submit the necessary details of that address, enabling the system to store the information in the Address Book for later use in the Create Shipment requests.",
         "requestBody": {
           "description": "Address Book details",
           "content": {
@@ -963,13 +963,13 @@
         "tags": [
           "Address Book"
         ],
-        "summary": "Delete Address Book",
-        "description": "Deletes an address from your address book.",
+        "summary": "Delete Address",
+        "description": "Delete an address from the Address Book that is obsolete or no longer required in your shipment requests.",
         "parameters": [
           {
             "name": "addressId",
             "in": "path",
-            "description": " Address Identifier\r<br />SAPIENT AddressId (assigned by SAPIENT or by you).",
+            "description": "A unique identifier assigned by the system (ID) or by you (alias) of the address that is being deleted. This information ensures that each address can be distinctly referenced and managed within the system.",
             "required": true,
             "schema": {
               "type": "string"
@@ -1004,12 +1004,12 @@
           "Address Book"
         ],
         "summary": "Get Address",
-        "description": "Returns information for a specific address from your address book, including when it was last updated and by whom.",
+        "description": "Retrieves detailed information on a specific address record stored in the system's address book. With this endpoint, you can query for an address using a unique identifier and get the relevant details associated with it.",
         "parameters": [
           {
             "name": "addressId",
             "in": "path",
-            "description": " Address Identifier\r<br />SAPIENT AddressId (assigned by SAPIENT or by you).",
+            "description": "A unique identifier for each address record assigned by the system (ID) or by you (alias). This information ensures that each address is distinctly referenced and managed within the system.",
             "required": true,
             "schema": {
               "type": "string"
@@ -1050,13 +1050,13 @@
         "tags": [
           "Address Book"
         ],
-        "summary": "Update Address Book",
-        "description": "Updates a shipping address from your address book",
+        "summary": "Update Address",
+        "description": "Modify the details of an existing address record in the system's address book. With this endpoint, you can submit updated information for a specific address, ensuring that it reflects the most current and accurate data.",
         "parameters": [
           {
             "name": "addressId",
             "in": "path",
-            "description": " Address Identifier\r<br />SAPIENT AddressId (assigned by SAPIENT or by you).",
+            "description": "A unique identifier for each existing address record stored in the address book. This information ensures that each address can be distinctly referenced and managed within the system.",
             "required": true,
             "schema": {
               "type": "string"
@@ -1337,12 +1337,12 @@
           "Containers"
         ],
         "summary": "Get Containers",
-        "description": "Provides a list of all containers set up on the system.\r<br />Information about the associated carrier, shipping location, total weight, number of shipments and packages in the containers will be returned.",
+        "description": "Retrieves a list of shipping containers associated with a specific carrier and shipping location. With this endpoint, you can access information about the containers used for shipments, ensuring effective logistics management.",
         "parameters": [
           {
             "name": "carrierCode",
             "in": "query",
-            "description": "CarrierCode\r<br />Filter by carrier",
+            "description": "A unique identifier for the shipping carrier for which container information is being requested. This code is typically alphanumeric and helps in identifying the specific carrier linked to the container.",
             "schema": {
               "type": "string"
             }
@@ -1350,7 +1350,7 @@
           {
             "name": "shippingLocationId",
             "in": "query",
-            "description": "Shipping Location Id\r<br />SAPIENT Shipping Location Id (assigned by SAPIENT) or Alias (assigned by you).\r<br />Filter by shipping location",
+            "description": "A unique identifier for the shipping location assigned by the system (**ShippingLocationId**) or by you (**LocationAlias**). This parameter allows users to filter the results to only those containers associated with a specific shipping site.",
             "schema": {
               "type": "string"
             }
@@ -1358,7 +1358,7 @@
           {
             "name": "pageSize",
             "in": "query",
-            "description": "The maximum number of records per page.",
+            "description": "An integer that defines the maximum number of containers (records) returned per page in the response. For instance, if **pageSize** is set to 20, the API will return up to 20 containers in each response.\r<br />\r<br />***Note**: By default, this value is set to 100.*",
             "schema": {
               "maximum": 2147483647,
               "minimum": 1,
@@ -1370,7 +1370,7 @@
           {
             "name": "pageNumber",
             "in": "query",
-            "description": "The number of the requested page, starting at 1.",
+            "description": "An integer indicating the specific page of results to retrieve, allowing for pagination of larger datasets. For example, if **pageNumber** is set to 3, the API will return the results corresponding to the third page of containers based on the specified **pageSize**.\r<br />\r<br />***Note**: By default, this value is set to 1.*",
             "schema": {
               "maximum": 2147483647,
               "minimum": 1,
@@ -1382,7 +1382,7 @@
           {
             "name": "sortBy",
             "in": "query",
-            "description": "Sort By\r<br />Default: CreatedDateUtc",
+            "description": "A string specifying the field by which to organise the search results. For instance, \"CreateDate\" could be used to sort containers chronologically, arranging the results in a more user-friendly order.\r<br />\r<br />***Note**: By default, this field is set to CreatedDateUtc.*",
             "schema": {
               "$ref": "#/components/schemas/ContainersSortBy"
             }
@@ -1390,7 +1390,7 @@
           {
             "name": "sortDir",
             "in": "query",
-            "description": "Sort Direction\r<br />Default: Ascending",
+            "description": "A string indicating the direction in which to sort the results, typically set to \"ascending\" or \"descending.\" For example, setting **sortDir** to \"Ascending\" while using \"CreatedDateUtc\" as **sortBy** would arrange the container from latest creation date to oldest creation date.\r<br />\r<br />***Note**: By default, this value is set to Ascending.*",
             "schema": {
               "$ref": "#/components/schemas/OrderDirection"
             }
@@ -1398,7 +1398,7 @@
           {
             "name": "containerStatus",
             "in": "query",
-            "description": "The status of the container\r<br />Default: Active",
+            "description": "Indicates the current status of the container, helping customers quickly find the containers that meet their specific criteria.\r<br />\r<br />***Note**: By default, this field is set to Active.*",
             "schema": {
               "$ref": "#/components/schemas/ContainerStatusForFiltering"
             }
@@ -1417,7 +1417,7 @@
                     {
                       "ContainerId": "South East",
                       "ContainerStatus": "Manifested",
-                      "CreatedDateUtc": "2026-08-11T08:30:47.923Z",
+                      "CreatedDateUtc": "2026-09-01T07:35:13.861Z",
                       "ShippingLocationId": "93f6d928-9456-434a-9d69-60f3b7dea091",
                       "ShippingLocationAlias": "Northern Warehouse",
                       "TotalWeight": 12,
@@ -1428,7 +1428,7 @@
                     {
                       "ContainerId": "South West",
                       "ContainerStatus": "Active",
-                      "CreatedDateUtc": "2026-08-10T08:30:47.923Z",
+                      "CreatedDateUtc": "2026-08-31T07:35:13.861Z",
                       "ShippingLocationId": "93f6d928-9456-434a-9d69-60f3b7dea091",
                       "ShippingLocationAlias": "Northern Warehouse",
                       "TotalWeight": 14,
@@ -1488,7 +1488,7 @@
           "Containers"
         ],
         "summary": "Add Container",
-        "description": "Create and name (with and ID or alias) a new container to be used for manifesting a specific group of shipments. Define which carrier and shipping location the container should be linked to.",
+        "description": "Create and add new shipping containers to the system for manifesting specific group of shipments. With this endpoint, the system processes the creation of the specified container and associates it with a given carrier and shipping location. This API streamlines logistics management and helps ensure that container data is accurately maintained for shipping operations.",
         "requestBody": {
           "description": "Add Container Request",
           "content": {
@@ -1553,12 +1553,12 @@
           "Containers"
         ],
         "summary": "Get Container",
-        "description": "Provides details for a specific container.\r<br />Information about the associated carrier, shipping location, total weight, number of shipments and packages in the containers will be returned.",
+        "description": "Retrieves details of a particular shipping container associated with a specific carrier and shipping location. With this endpoint, you can access information on a specific container used for shipments, ensuring effective logistics management.",
         "parameters": [
           {
             "name": "containerId",
             "in": "path",
-            "description": "Container Id\r<br />SAPIENT Container Id (assigned by SAPIENT) or Alias (assigned by you) for the container.",
+            "description": "An identifier assigned by the SAPIENT system or by you (alias) for the shipping container, important for managing cargo and logistics at scale.",
             "required": true,
             "schema": {
               "type": "string"
@@ -1567,7 +1567,7 @@
           {
             "name": "returnShipments",
             "in": "query",
-            "description": "If set to True, the response will return a list of the shipments allocated to the container.\r<br />Defaults to False if not provided.",
+            "description": "A boolean parameter that, when set to true, modifies the response to include a list of shipments allocated to the container.\r<br />\r<br />***Note**: By default, this field is set to false, meaning that only the container's general details will be returned unless specified in the request.*",
             "schema": {
               "type": "boolean",
               "default": false
@@ -1576,7 +1576,7 @@
         ],
         "responses": {
           "200": {
-            "description": "Returns a details of the container.",
+            "description": "Returns the details of the container.",
             "content": {
               "application/json": {
                 "schema": {
@@ -1587,7 +1587,7 @@
                     "value": {
                       "ContainerId": "South East",
                       "ContainerStatus": "Active",
-                      "CreatedDateUtc": "2026-08-11T08:30:48.462Z",
+                      "CreatedDateUtc": "2026-09-01T07:35:14.013Z",
                       "CarrierCode": "RM",
                       "ShippingLocationId": "93f6d928-9456-434a-9d69-60f3b7dea091",
                       "ShippingLocationAlias": "Northern Warehouse",
@@ -1604,7 +1604,7 @@
                       "ManifestNumbers": [
                         "COS0000016"
                       ],
-                      "CreatedDateUtc": "2026-08-11T08:30:48.462Z",
+                      "CreatedDateUtc": "2026-09-01T07:35:14.013Z",
                       "CarrierCode": "RM",
                       "ShippingLocationId": "93f6d928-9456-434a-9d69-60f3b7dea091",
                       "ShippingLocationAlias": "Northern Warehouse",
@@ -1650,12 +1650,12 @@
           "Containers"
         ],
         "summary": "Add/Remove Shipments",
-        "description": "Allocate shipments to a container or remove them from it before the container will be manifested.",
+        "description": "Add one or more shipments to a specific shipping container or remove the shipments from the container. With this endpoint, you can update the container's contents by adding new shipments or removing the existing ones, facilitating optimised logistics management and accurate tracking of goods within containers.\r<br />\r<br />***Note**: Once the container has been manifested, the shipments cannot be added or removed.*",
         "parameters": [
           {
             "name": "containerId",
             "in": "path",
-            "description": "Container Id\r<br />SAPIENT Container Id (assigned by SAPIENT) or Alias (assigned by you).",
+            "description": "A unique identifier assigned by the system or by you (alias) for the container to which the shipments are being added or removed. This parameter is necessary for the API to identify which container's contents need to be added or removed.",
             "required": true,
             "schema": {
               "type": "string"
@@ -1747,12 +1747,12 @@
           "Containers"
         ],
         "summary": "Delete Container",
-        "description": "Delete a specific container.\r<br />Only containers with Active status can be deleted.",
+        "description": "Remove a specific shipping container from the system. When this endpoint is requested with the appropriate **ContainerId**, the system processes the deletion of the specified container along with its associated details. This API is essential for managing inventory and ensuring that any obsolete or unnecessary containers are no longer retained in the SAPIENT system.\r<br />\r<br />***Note**: If a container is deleted, the shipments inside it remain active but are no longer associated with the container.*",
         "parameters": [
           {
             "name": "containerId",
             "in": "path",
-            "description": "Container Id\r<br />SAPIENT Container Id (assigned by SAPIENT) or Alias (assigned by you).",
+            "description": "A unique identifier assigned by the system or by you (alias) for the container that is to be deleted. This ID is crucial for the API to identify which container the user wishes to remove from the system, ensuring that the deletion action is precise and targeted.",
             "required": true,
             "schema": {
               "type": "string"
@@ -1986,7 +1986,7 @@
                           "OriginalExportCode": "61091090001"
                         }
                       ],
-                      "GeneratedDate": "2026-08-11T08:30:50.021Z"
+                      "GeneratedDate": "2026-09-01T07:35:14.378Z"
                     }
                   },
                   "Incorrect HSCode": {
@@ -2008,7 +2008,7 @@
                           "OriginalExportCode": "61091090001"
                         }
                       ],
-                      "GeneratedDate": "2026-08-11T08:30:50.022Z"
+                      "GeneratedDate": "2026-09-01T07:35:14.378Z"
                     }
                   }
                 }
@@ -2203,7 +2203,7 @@
                   ],
                   "IsError": false,
                   "Notes": "<taxBreakdown><city><rate>0</rate><value>0</value></city><special><rate>0</rate><value>0</value></special><county><rate>0</rate><value>0</value></county><state><rate>0.06625</rate><value>0</value></state></taxBreakdown>",
-                  "GeneratedDate": "2026-08-11T08:30:51.623Z"
+                  "GeneratedDate": "2026-09-01T07:35:14.803Z"
                 }
               }
             }
@@ -2341,7 +2341,7 @@
                       "IsError": false,
                       "ErrorDescription": "",
                       "Notes": "",
-                      "GeneratedDate": "2026-08-11T08:30:52.264Z"
+                      "GeneratedDate": "2026-09-01T07:35:14.992Z"
                     }
                   },
                   "Prohibited Item": {
@@ -2362,7 +2362,7 @@
                       "IsError": true,
                       "ErrorDescription": "The item amaranth is prohibited",
                       "Notes": "",
-                      "GeneratedDate": "2026-08-11T08:30:52.266Z"
+                      "GeneratedDate": "2026-09-01T07:35:14.993Z"
                     }
                   }
                 }
@@ -2412,12 +2412,12 @@
           "Manifests"
         ],
         "summary": "Manifest Shipments",
-        "description": "By manifesting shipments you declare what shipments are ready for dispatch and will be handed over to the carrier. \r<br />The API allows you to manifest via the below methods (parameters):\r<br />\r<br />- shipping location\r<br />- shipping account\r<br />- shipment status (picked)\r<br />- service code\r<br />- container\r<br />\r<br />Note: If no parameters are set, all shipments in the LabelPrinted or Picked status will be manifested (excluding future dated shipments or shipments assigned to a container).\r<br />\r<br />The API response contains a manifest image which should be printed and handed over to the driver (if required).",
+        "description": "Declare what shipments are ready for dispatch and will be handed over to the carrier. A manifest is a document that summarises the details of the shipments being handed over to the carrier, such as items, weight, and destination information. With this endpoint, you can compile and submit these details for processing, helping to streamline shipping logistics and ensure compliance with carrier requirements.\r<br />\r<br />You can manifest the shipments using any of the following parameters:\r<br />\r<br />• Shipping location\r<br />• Shipping account\r<br />• Shipment status (Picked)\r<br />• Service code\r<br />• Container\r<br /> \r<br />***Note**: If none of the aforementioned parameters are used, then all the shipments in the **LabelPrinted** and **Picked** status will be manifested, excluding the future shipments or the shipments assigned to a container, respectively.*",
         "parameters": [
           {
             "name": "carrierCode",
             "in": "path",
-            "description": "Carrier Code",
+            "description": "A unique identifier representing the shipping carrier with which the shipments are associated. This code is alphanumeric and helps specify which carrier's requirements and formats are being followed when creating the manifest.",
             "required": true,
             "schema": {
               "type": "string"
@@ -2434,44 +2434,44 @@
               "examples": {
                 "Manifest by Shipping Account": {
                   "value": {
-                    "ShippingLocationId": "3451f7ef-ebe5-40af-81a9-b8a44f961363",
-                    "ShippingAccountId": "71bc8860-2040-4af1-8a4f-9ccd5cd4be31",
+                    "ShippingLocationId": "39f8ac68-60eb-42ff-821d-1cab994629c2",
+                    "ShippingAccountId": "31f582cf-3eae-4035-835f-c9ca2ba4a9dd",
                     "Async": false
                   }
                 },
                 "Manifest by Shipping Account in the background": {
                   "value": {
-                    "ShippingLocationId": "77aee5b9-70e3-4d62-bda9-f14aff0375ea",
-                    "ShippingAccountId": "df4b5c98-0163-48d0-be78-84042906ee74",
+                    "ShippingLocationId": "d2895c5c-b5ac-4f1b-8e55-9a60e97858b6",
+                    "ShippingAccountId": "0e09269b-4469-4210-a12d-34c467c083bb",
                     "Async": true
                   }
                 },
                 "Manifest by Service": {
                   "value": {
-                    "ShippingLocationId": "a4533642-9f25-45fa-bd96-17d5c6535b2b",
+                    "ShippingLocationId": "cd110021-8d18-430a-b3fd-b93e9a80a184",
                     "ServiceCode": "EXPRESS",
                     "Async": false
                   }
                 },
                 "Manifest by Service for Shipping Account Only": {
                   "value": {
-                    "ShippingLocationId": "a77bca99-9e5d-444a-a187-daae2782c037",
-                    "ShippingAccountId": "f89c5304-dc3a-46b9-b254-e118088b45e2",
+                    "ShippingLocationId": "5d3f29d7-0e1e-4541-a581-105b86f14411",
+                    "ShippingAccountId": "76e3d26d-fb79-4a2a-af00-0a5c2171f3c5",
                     "ServiceCode": "EXPRESS",
                     "Async": false
                   }
                 },
                 "Manifest by Status": {
                   "value": {
-                    "ShippingLocationId": "e02b88bf-a927-40ca-9a92-c152724c139f",
+                    "ShippingLocationId": "02245e0d-3ae4-499e-a392-6f9e5c10fbbc",
                     "Status": "Picked",
                     "Async": false
                   }
                 },
                 "Manifest by Container": {
                   "value": {
-                    "ShippingLocationId": "e0c6f0ac-277e-4a1a-a53a-d2bb1ad05a77",
-                    "ContainerId": "050a6729-5a75-4e73-8d63-e450219c0b3f",
+                    "ShippingLocationId": "e6587720-a75a-45a7-98b6-22bdb1b5f5f0",
+                    "ContainerId": "f3891caa-e6e4-4bbc-bb71-ae2e88d23b95",
                     "Async": false
                   }
                 }
@@ -2549,12 +2549,12 @@
           "Manifests"
         ],
         "summary": "Get Manifests",
-        "description": "Provides list of manifests created in a given time period for a specific carrier.",
+        "description": "Retrieves a list of manifests created with a specific carrier. With this endpoint, you can filter manifests based on various criteria, such as shipping locations, accounts, and date ranges, enabling efficient tracking and management of shipment manifests.",
         "parameters": [
           {
             "name": "carrierCode",
             "in": "path",
-            "description": "Carrier Code",
+            "description": "A unique identifier representing the shipping carrier for which the manifests are being queried. This code is alphanumeric and helps specify which carrier's manifests the request pertains to, ensuring that you retrieve relevant data.",
             "required": true,
             "schema": {
               "type": "string"
@@ -2563,7 +2563,7 @@
           {
             "name": "shippingLocationId",
             "in": "query",
-            "description": "Shipping Location Id\r<br />SAPIENT Shipping Location Id (assigned by SAPIENT) or Alias (assigned by you).\r<br />Filter by shipping location",
+            "description": "A unique identifier assigned by the system (**ShippingLocationId**) or by you (**LocationAlias**) for the shipping location from which the shipments are being manifested. This information is crucial for linking the manifest to the correct shipping point.",
             "schema": {
               "maxLength": 100,
               "type": "string"
@@ -2572,7 +2572,7 @@
           {
             "name": "containerId",
             "in": "query",
-            "description": "Container Id\r<br />SAPIENT Container Id (assigned by SAPIENT) or Alias (assigned by you) for the container.\r<br />Filter by container id",
+            "description": "An identifier assigned by the SAPIENT system or by you (alias) for the shipping container associated with the shipment, important for managing cargo and logistics at scale.",
             "schema": {
               "maxLength": 50,
               "type": "string"
@@ -2581,7 +2581,7 @@
           {
             "name": "shippingAccountId",
             "in": "query",
-            "description": "Shipping Account Id\r<br />SAPIENT Shipping Account Id (assigned by SAPIENT) or Alias (assigned by you).\r<br />Filter by shipping account",
+            "description": "A unique identifier assigned by the SAPIENT system (**ShippingAccountId**) or by you (**AccountAlias**) for the shipping account associated with the shipments. This information is important for billing and tracking purposes, connecting the manifest to the correct account. If needed, provide this information if you want to get the manifests by a specific shipping account only.",
             "schema": {
               "maxLength": 36,
               "type": "string"
@@ -2590,7 +2590,7 @@
           {
             "name": "dateFrom",
             "in": "query",
-            "description": "Date From\r<br />Defaults to Today's date if not provided.\r<br />Format: YYYY-MM-DD",
+            "description": "A timestamp indicating the start date for filtering manifests in the query. This allows you to retrieve manifests created after this specified date, providing a way to narrow down the results based on a specified start date.\r<br />\r<br />***Note**: The date must be in the YYYY-MM-DD format. By default, this date is set to current (today's) date.*",
             "schema": {
               "type": "string",
               "format": "date"
@@ -2599,7 +2599,7 @@
           {
             "name": "dateTo",
             "in": "query",
-            "description": "Date To\r<br />Defaults to Today's date if not provided.\r<br />Format: YYYY-MM-DD",
+            "description": "A timestamp indicating the end date for filtering manifests in the query. This provides a cutoff date for the results, allowing you to view manifests generated up to this date.\r<br />\r<br />***Note**: The date must be in the YYYY-MM-DD format. By default, this date is set to current (today's) date.*",
             "schema": {
               "type": "string",
               "format": "date"
@@ -2608,7 +2608,7 @@
           {
             "name": "pageSize",
             "in": "query",
-            "description": "The maximum number of records per page.",
+            "description": "An integer specifying the maximum number of manifests to return per page in the API's response. This parameter helps control the volume of data returned, enhancing performance and user experience.\r<br />\r<br />***Note**: By default, this field is set to 100.*",
             "schema": {
               "maximum": 2147483647,
               "minimum": 1,
@@ -2620,7 +2620,7 @@
           {
             "name": "pageNumber",
             "in": "query",
-            "description": "The number of the requested page, starting at 1.",
+            "description": "An integer indicating which page of results to retrieve, allowing for pagination of larger datasets. In this field, you can specify the page number to access specific segments of the total manifest records.\r<br />\r<br />***Note**: By default, this field is set to 1.*",
             "schema": {
               "maximum": 2147483647,
               "minimum": 1,
@@ -2692,12 +2692,12 @@
           "Manifests"
         ],
         "summary": "Manifest Shipments Async",
-        "description": "By manifesting shipments you declare what shipments are ready for dispatch and will be handed over to the carrier. \r<br />The API allows you to manifest via the below methods (parameters):\r<br />\r<br />- shipping location\r<br />- shipping account\r<br />- shipment status (picked)\r<br />- service code\r<br />- container\r<br />\r<br />Note: If no parameters are set, all shipments in the LabelPrinted or Picked status will be manifested (excluding future dated shipments or shipments assigned to a container).\r<br />\r<br />The API response contains a manifest image which should be printed and handed over to the driver (if required).",
+        "description": "Declare what shipments are ready for dispatch and will be handed over to the carrier. A manifest is a document that summarises the details of the shipments being handed over to the carrier, such as items, weight, and destination information. With this endpoint, you can compile and submit these details for processing, helping to streamline shipping logistics and ensure compliance with carrier requirements.\r<br />\r<br />You can manifest the shipments using any of the following parameters:\r<br />\r<br />• Shipping location\r<br />• Shipping account\r<br />• Shipment status (Picked)\r<br />• Service code\r<br />• Container\r<br /> \r<br />***Note**: If none of the aforementioned parameters are used, then all the shipments in the **LabelPrinted** and **Picked** status will be manifested, excluding the future shipments or the shipments assigned to a container, respectively.*",
         "parameters": [
           {
             "name": "carrierCode",
             "in": "path",
-            "description": "Carrier Code",
+            "description": "A unique identifier representing the shipping carrier with which the shipments are associated. This code is alphanumeric and helps specify which carrier's requirements and formats are being followed when creating the manifest.",
             "required": true,
             "schema": {
               "type": "string"
@@ -2783,12 +2783,12 @@
           "Manifests"
         ],
         "summary": "Get Manifest Request Status",
-        "description": "Provides base64 encoded image and details for a specific manifest request id.",
+        "description": "Retrieves the current status and details of a specific manifest request ID and, optionally, returns base64 encoded images and detailed manifest information.",
         "parameters": [
           {
             "name": "manifestRequestId",
             "in": "path",
-            "description": "ManifestRequestId\r<br />            This is a system Guid",
+            "description": "A unique identifier assigned by the system that specifies the manifest request.",
             "required": true,
             "schema": {
               "type": "string",
@@ -2798,7 +2798,7 @@
           {
             "name": "manifestDetail",
             "in": "query",
-            "description": "Manifest Detail \r<br />            Populate this and set to True to return full manifest details including manifest images. \r<br />            If set to \"False\" or not provided, then only manifestId, manifestStatus and manifestCount will be returned in the success response.",
+            "description": "Used to provide full details of the manifest. If set to true, a complete manifest details, including manifest image will be returned. If set to false, then only **manifestRequestId**, **manifestStatus**, and **manifestCount** are returned. \r<br />\r<br />***Note**: By default, this field is set to false.*",
             "schema": {
               "type": "boolean"
             }
@@ -2841,16 +2841,16 @@
                           "WeightUnitOfMeasure": "KG",
                           "TotalShipments": 1,
                           "TotalItems": 1,
-                          "ManifestDate": "2026-08-11",
-                          "CreatedDateUtc": "2026-08-11T08:30:53.624Z",
+                          "ManifestDate": "2026-09-01",
+                          "CreatedDateUtc": "2026-09-01T07:35:15.439Z",
                           "ShippingLocation": {
-                            "ShippingLocationId": "45e41f35-32d0-4312-ad62-1db521a60c18",
+                            "ShippingLocationId": "ce35ce74-8794-4fec-a5a3-6940f1719b05",
                             "LocationAlias": "London",
                             "LocationCountry": "GB",
                             "LocationPostcode": "TW20 0HJ"
                           },
                           "ShippingAccount": {
-                            "ShippingAccountId": "8e4d8a6d-7cc0-4f79-bc06-91b0c97ce114",
+                            "ShippingAccountId": "8d7b5edf-49f2-427a-ba75-d98ccaa977c3",
                             "AccountName": "AccountName",
                             "AccountAlias": "Test",
                             "AccountNumber": "1234567890"
@@ -2900,12 +2900,12 @@
           "Manifests"
         ],
         "summary": "Print Manifest",
-        "description": "Provides base64 encoded image and details for a specific manifest.",
+        "description": "Retrieves the base64 encoded printable version of a specified manifest for a particular carrier. With this endpoint, you can obtain a formatted document of the manifest that can be printed for shipping purposes, such as for inclusion in shipment packages or for compliance with logistics requirements.",
         "parameters": [
           {
             "name": "carrierCode",
             "in": "path",
-            "description": "Carrier Code",
+            "description": "A unique identifier for the shipping carrier associated with the manifest being requested. This code is alphanumeric and helps specify which carrier's manifest document should be retrieved, ensuring that you access the correct format and details related to that specific carrier's services.",
             "required": true,
             "schema": {
               "type": "string"
@@ -2914,7 +2914,7 @@
           {
             "name": "manifestNumber",
             "in": "path",
-            "description": "Manifest Number",
+            "description": "A unique identifier for the manifest that you want to retrieve for printing. This number allows the API to locate and return the specific manifest document requested by you, ensuring that you receive the correct information for your shipping needs.",
             "required": true,
             "schema": {
               "type": "string"
@@ -2958,12 +2958,12 @@
           "Manifests"
         ],
         "summary": "Get Manifest Details",
-        "description": "Provides manifest details for a specific manifest.",
+        "description": "Retrieves detailed information about a specific shipping manifest associated with a particular carrier. This endpoint provides you with comprehensive data about the shipments included in the manifest, allowing for easier tracking and management of the shipments being delivered.",
         "parameters": [
           {
             "name": "carrierCode",
             "in": "path",
-            "description": "Carrier Code",
+            "description": "A unique identifier for the shipping carrier associated with the manifest for which details are being requested. This code is alphanumeric and helps ensure that the API accurately references the correct carrier's manifest data.",
             "required": true,
             "schema": {
               "type": "string"
@@ -2972,7 +2972,7 @@
           {
             "name": "manifestNumber",
             "in": "path",
-            "description": "Manifest Number",
+            "description": "A unique identifier for the manifest whose details are being requested. This number allows the API to get the specific information related to that manifest, providing you with accurate data relevant to your shipments.",
             "required": true,
             "schema": {
               "type": "string"
@@ -4139,12 +4139,12 @@
           "PUDO Locations"
         ],
         "summary": "Get PUDO Locations",
-        "description": "The Get PUDO Locations endpoint returns a list of PUDO Locations that are within a set radius of the postcode provided in the request. That radius is set to 10 Miles / 16.09 Kilometres.\r<br />This endpoint must be called before the Create Shipment endpoint to select a PUDO location, and the PUDO location details are then provided in the Create Shipment request.\r<br />The endpoint currently only supports Royal Mail and InPost.",
+        "description": "Retrieves a list of Pick-Up and Drop-Off (PUDO) locations associated with a specified carrier that are within a set radius of the postcode provided in the request. That radius is set to 10 Miles / 16.09 Kilometres. With this endpoint, you can find convenient locations for dropping off or picking up shipments, enhancing logistical efficiency and user experience.\r<br />\r<br />Before calling this endpoint, bear in mind the following:\r<br />\r<br />• You must call this endpoint before the **Create Shipment** endpoint so that the desired PUDO location is selected in the **Create Shipment** request.\r<br />\r<br />• This endpoint is currently supported by Royal Mail and InPost.",
         "parameters": [
           {
             "name": "carrierCode",
             "in": "path",
-            "description": "Carrier Code\r<br />Example: RM",
+            "description": "A unique identifier for the shipping carrier for which the PUDO locations are being requested. This code helps specify the provider and ensures that the returned locations are relevant to the selected carrier's service.",
             "required": true,
             "schema": {
               "type": "string"
@@ -4153,7 +4153,7 @@
           {
             "name": "countryCode",
             "in": "path",
-            "description": "2 Digit ISO Country Code, per ISO 3166 Standard",
+            "description": "An abbreviation representing the country in which you are seeking PUDO locations, following the ISO 3166-1 alpha-2 standard, for example, \"GB\" for the United Kingdom.",
             "required": true,
             "schema": {
               "maxLength": 2,
@@ -4164,7 +4164,7 @@
           {
             "name": "postcode",
             "in": "path",
-            "description": "Recipient Postcode. \r<br />This will be used to retrieve the available PUDO locations",
+            "description": "The postal or ZIP code corresponding to the area where you want to find PUDO locations. This helps in retrieving the available PUDO locations by narrowing down the search to relevant locations nearby.",
             "required": true,
             "schema": {
               "maxLength": 10,
@@ -4183,7 +4183,7 @@
           {
             "name": "locationServices",
             "in": "query",
-            "description": " This parameter specifies the available at each PUDO location. It accepts the following values based on the options provided by the location: \r<br /> <ul><li>**Pickup**: Indicates that customers can collect their parcels from the location.</li><li>**Dropoff**: Indicates that the customers can drop off parcels for shipment at the location.</li><li>**Printinstore**: Indicates that the location offers printing services for shipping labels, allowing customers  to print their labels directly at the store.</li></ul>  \r<br />***Note**: If a service is selected, then the locations offering only the requested service will be returned in the response.*",
+            "description": " This parameter specifies the services available at each PUDO location. It accepts the following values based on the options provided by the location: \r<br /> <ul><li>**Pickup**: Indicates that customers can collect their parcels from the location.</li><li>**Dropoff**: Indicates that the customers can drop off parcels for shipment at the location.</li><li>**Printinstore**: Indicates that the location offers printing services for shipping labels, allowing customers to print their labels directly at the store.</li></ul>\r<br />***Note**: If a service is selected, then the locations offering only the requested service will be returned in the response.*",
             "schema": {
               "type": "string"
             }
@@ -4191,7 +4191,7 @@
           {
             "name": "enhancedLocationDetails",
             "in": "query",
-            "description": " This boolean parameter specifies whether the response includes additional detail about each PUDO location in the form of **enhancedLocationDetails** object.\r<br /> <ul><li>If set to true, the response will include **enhancedLocationDetails** object for each PUDO location. This object provides more comprehensive information, such as facilities available at the location, for example, disabled access, parking, and so on, distance from postcode, and any additional attributes relevant to the location that might insist customers in making informed decisions.</li><li>If set to false, the response will be limited to the basic details of the PUDO locations without the enhanced attributes.</li></ul>\r<br />***Note**: By default, this field is set to false.*",
+            "description": " This boolean parameter specifies whether the response includes additional detail about each PUDO location in the form of **enhancedLocationDetails** object.\r<br /> <ul><li>If set to true, the response will include **enhancedLocationDetails** object for each PUDO location. This object provides more comprehensive information, such as facilities available at the location, for example, disabled access, parking, and so on, distance from postcode, and any additional attributes relevant to the location that might assist customers in making informed decisions.</li><li>If set to false, the response will be limited to the basic details of the PUDO locations without the enhanced attributes.</li></ul>\r<br />***Note**: By default, this field is set to false.*",
             "schema": {
               "type": "boolean",
               "default": false
@@ -4742,7 +4742,7 @@
           {
             "name": "pageSize",
             "in": "query",
-            "description": "An integer that defines the number of location entries (record) returned per page in the response. For instance, if pageSize is set to 20, the API will return up to 20 locations in each response.\r<br />\r<br />***Note:** By default, this value is set to 100.*",
+            "description": "An integer that defines the number of location entries (record) returned per page in the response. For instance, if **pageSize** is set to 20, the API will return up to 20 locations in each response.\r<br />\r<br />***Note:** By default, this value is set to 100.*",
             "schema": {
               "maximum": 2147483647,
               "minimum": 1,
@@ -4754,7 +4754,7 @@
           {
             "name": "pageNumber",
             "in": "query",
-            "description": "An integer indicating the specific page of results to retrieve, allowing for pagination of larger datasets. For example, if pageNumber is set to 3, the API will return the results corresponding to the third page of locations based on the specified pageSize.\r<br />\r<br />***Note:** By default, this value is set to 1.*",
+            "description": "An integer indicating the specific page of results to retrieve, allowing for pagination of larger datasets. For example, if **pageNumber** is set to 3, the API will return the results corresponding to the third page of locations based on the specified **pageSize**.\r<br />\r<br />***Note:** By default, this value is set to 1.*",
             "schema": {
               "maximum": 2147483647,
               "minimum": 1,
@@ -5151,12 +5151,12 @@
           "Shipping Locations"
         ],
         "summary": "Get Associated Accounts",
-        "description": "Provides a list of all shipping accounts associated with a specified shipping location.",
+        "description": "Retrieves a list of shipping accounts that are linked to a specific shipping location.",
         "parameters": [
           {
             "name": "shippingLocationId",
             "in": "path",
-            "description": "A unique identifier assigned to the shipping location by the system (ShippingLocationId) or by you (alias). This ID is used to distinguish between different shipping locations within the system, facilitating, referencing and operations, such as updates, deletions, or specific queries related to that location.",
+            "description": "A unique identifier assigned to the shipping location by the system (**shippingLocationId**) or by you (**LocationAlias**). This ID is used to distinguish between different shipping locations within the system, facilitating referencing and operations, such as updates, deletions, or specific queries related to that location.",
             "required": true,
             "schema": {
               "type": "string"
@@ -5165,7 +5165,7 @@
           {
             "name": "searchTerm",
             "in": "query",
-            "description": "Search Term",
+            "description": "A string representing the term or keywords used to filter location results. For example, a search term like \"Manchester\" would return locations associated with that city, helping to narrow down the list based on the user input.",
             "schema": {
               "type": "string"
             }
@@ -5173,7 +5173,7 @@
           {
             "name": "pageSize",
             "in": "query",
-            "description": "The maximum number of records per page.",
+            "description": "An integer that defines the number of location entries (record) returned per page in the response. For instance, if **pageSize** is set to 20, the API will return up to 20 locations in each response.\r<br />\r<br />***Note**: By default, this value is set to 100.*",
             "schema": {
               "maximum": 2147483647,
               "minimum": 1,
@@ -5185,7 +5185,7 @@
           {
             "name": "pageNumber",
             "in": "query",
-            "description": "The number of the requested page, starting at 1.",
+            "description": "An integer indicating the specific page of results to retrieve, allowing for pagination of larger datasets. For example, if **pageNumber** is set to 3, the API will return the results corresponding to the third page of locations based on the specified **pageSize**.\r<br />\r<br />***Note**: By default, this value is set to 1.*",
             "schema": {
               "maximum": 2147483647,
               "minimum": 1,
@@ -5197,7 +5197,7 @@
           {
             "name": "sortBy",
             "in": "query",
-            "description": "Sort By\r<br />Default: Name",
+            "description": "A string specifying the field by which to organise the search results. For instance, \"Name\" could be used to sort locations alphabetically, arranging the results in a more user-friendly order.\r<br />\r<br />***Note**: By default, this value is set to Name.*",
             "schema": {
               "$ref": "#/components/schemas/ShippingAccountsSortBy"
             }
@@ -5205,7 +5205,7 @@
           {
             "name": "sortDir",
             "in": "query",
-            "description": "Sort Direction\r<br />Default: Ascending",
+            "description": "A string indicating the direction in which to sort the results, typically set to \"ascending\" or \"descending.\" For example, setting **sortDir** to \"Ascending\" while using \"Name\" as **sortBy** would arrange the locations from A to Z.\r<br />\r<br />***Note**: By default, this value is set to Ascending.*",
             "schema": {
               "$ref": "#/components/schemas/OrderDirection"
             }
@@ -5273,12 +5273,12 @@
           "Shipping Locations"
         ],
         "summary": "Get Carrier Locations",
-        "description": "Provides a list of all shipping locations associated with a specified carrier.\r<br />Note: A shipping location can be associated with more than one carrier. You would need to make individual API requests for each carrier.",
+        "description": "Retrieves a list of all shipping locations associated with a specific carrier. \r<br />\r<br />***Note**: A shipping location can be associated with more than one carrier. However, to get the carrier locations, you need to make individual API requests for each carrier.*",
         "parameters": [
           {
             "name": "carrierCode",
             "in": "path",
-            "description": "Carrier Code",
+            "description": "A unique identifier for the carrier associated with the shipping location. This code is alphanumeric and helps in identifying the specific carrier linked to the shipping location.",
             "required": true,
             "schema": {
               "type": "string"
@@ -5287,7 +5287,7 @@
           {
             "name": "searchTerm",
             "in": "query",
-            "description": "Search Term",
+            "description": "A string representing the term or keywords used to filter location results. For example, a search term like \"Manchester\" would return locations associated with that city, helping to narrow down the list based on the user input.",
             "schema": {
               "type": "string"
             }
@@ -5295,7 +5295,7 @@
           {
             "name": "pageSize",
             "in": "query",
-            "description": "The maximum number of records per page.",
+            "description": "An integer that defines the number of location entries (record) returned per page in the response. For instance, if **pageSize** is set to 20, the API will return up to 20 locations in each response.\r<br />\r<br />***Note**: By default, this value is set to 100.*",
             "schema": {
               "maximum": 2147483647,
               "minimum": 1,
@@ -5307,7 +5307,7 @@
           {
             "name": "pageNumber",
             "in": "query",
-            "description": "The number of the requested page, starting at 1.",
+            "description": "An integer indicating the specific page of results to retrieve, allowing for pagination of larger datasets. For example, if **pageNumber** is set to 3, the API will return the results corresponding to the third page of locations based on the specified **pageSize**.\r<br />\r<br />***Note**: By default, this value is set to 1.*",
             "schema": {
               "maximum": 2147483647,
               "minimum": 1,
@@ -5319,7 +5319,7 @@
           {
             "name": "sortBy",
             "in": "query",
-            "description": "Sort By\r<br />Default: Name",
+            "description": "A string specifying the field by which to organise the search results. For instance, \"Name\" could be used to sort locations alphabetically, arranging the results in a more user-friendly order.\r<br />\r<br />***Note**: By default, this value is set to Name.*",
             "schema": {
               "$ref": "#/components/schemas/ShippingLocationsSortBy"
             }
@@ -5327,7 +5327,7 @@
           {
             "name": "sortDir",
             "in": "query",
-            "description": "Sort Direction\r<br />Default: Ascending",
+            "description": "A string indicating the direction in which to sort the results, typically set to \"ascending\" or \"descending.\" For example, setting **sortDir** to \"Ascending\" while using \"Name\" as **sortBy** would arrange the locations from A to Z.\r<br />\r<br />***Note**: By default, this value is set to Ascending.*",
             "schema": {
               "$ref": "#/components/schemas/OrderDirection"
             }
@@ -5392,7 +5392,7 @@
           "Trackings"
         ],
         "summary": "Trackings",
-        "description": "*Note: This is a chargeable service, and you are billed automatically based on the number of shipments tracked using the **Trackings** API.* \r<br />\r<br />The **Trackings** API is an addition to the standard tracking webhook service, that automatically pushes tracking information for Royal Mail shipments created through Intersoft. This endpoint is intended for registering tracking numbers for shipments produced on other systems or different Intersoft accounts.\r<br />\r<br />\r<br />It is essential to note that this endpoint should not be be used for Royal Mail shipments created on your own Intersoft account. The primary function of this endpoint is to monitor tracking events and push the data to the tracking webhook, ensuring effective tracking management.",
+        "description": "The **Trackings** API facilitates the integration of the Sapient tracking webhook, enabling customers to receive tracking information for Royal Mail shipments that are not created within the INTERSOFT shipping platform, such as SAPIENT or IShipper. By utilising this endpoint, in a single request, you can register up to 1000 tracking numbers for which you wish to receive updates. Once registered, you can then seamlessly receive tracking data for these numbers through the our tracking webhook, enhancing visibility and efficiency in managing your shipments.\r<br />\r<br />It is essential to note that this endpoint should not be used for Royal Mail shipments created on your own INTERSOFT account.\r<br /> \r<br />***Note**: This is a chargeable service, and you are billed automatically based on the number of shipments tracked using the **Trackings** API.*",
         "requestBody": {
           "description": "Trackings Request",
           "content": {
@@ -5525,7 +5525,7 @@
           "Trackings"
         ],
         "summary": "Tracking Webhook Push Payload Example",
-        "description": "Example of the tracking webhook push notification payload, as sent to a customer's webhook when tracking information is received from a carrier.\r<br />For a webhook push notification to be triggered, the tracking number must be registered with SAPIENT and a tracking account and tracking webhook must be configured.\r<br />\r<br />*Note: this is an example of what SAPIENT posts to the customer, it is not a functioning API endpoint.*",
+        "description": "This API endpoint is an example of the tracking webhook push notification payload, as sent to a customer's webhook when tracking information is received from a carrier.\r<br /> \r<br />If the shipment has not been created in SAPIENT or IShipper, then use the **Trackings** API to register the shipment first in order to receive the tracking data via the tracking webhook.\r<br /> \r<br />***Note**: This is an example of the payload SAPIENT posts to the customer. It is not a functioning API endpoint.*",
         "requestBody": {
           "content": {
             "application/json": {
@@ -5635,28 +5635,28 @@
           "AddressId": {
             "maxLength": 70,
             "type": "string",
-            "description": "The address Id\r<br />Your identifier for the address. If none provided the system will allocate one.",
+            "description": "A unique identifier for each address record. This information ensures that each address can be distinctly referenced and managed within the system.",
             "nullable": true,
             "example": "John Brown Default"
           },
           "ContactName": {
             "maxLength": 50,
             "type": "string",
-            "description": "Contact Name\r<br />The contact name or company name is required.\r<br />Up to 50 characters may be allowed.However it is carrier dependent. Some carriers may allow less.",
+            "description": "The name of the primary contact associated with the address. This field is essential for identification and communication purposes.",
             "nullable": true,
             "example": "Jane Doe"
           },
           "CompanyName": {
             "maxLength": 50,
             "type": "string",
-            "description": "Company Name\r<br />The contact name or company name is required.\r<br />Up to 50 characters may be allowed.However it is carrier dependent. Some carriers may allow less.",
+            "description": "The name of the company linked to the address. This field provides context for the address, especially in business-related queries.",
             "nullable": true,
             "example": "My Company Ltd."
           },
           "ContactEmail": {
             "maxLength": 254,
             "type": "string",
-            "description": "Contact Phone Number",
+            "description": "The email address of the primary contact for the address. This is used for correspondence and can facilitate communication directly related to the address.",
             "format": "email",
             "nullable": true,
             "example": "jane@example.com"
@@ -5664,63 +5664,57 @@
           "ContactPhone": {
             "maxLength": 20,
             "type": "string",
-            "description": "Contact Phone Number",
+            "description": "The phone number of the primary contact associated with the address. This field is crucial for any immediate communication needs.",
             "format": "tel",
-            "nullable": true,
-            "example": "07123887422"
+            "nullable": true
           },
           "Line1": {
             "maxLength": 50,
             "minLength": 1,
             "type": "string",
-            "description": "Address Line 1\r<br />Up to 50 characters may be allowed, however it is carrier dependent and some carriers may allow less.",
+            "description": "The first line of the address, typically containing the primary address information such as house number and street name.",
             "example": "10 Sky Lane"
           },
           "Line2": {
             "maxLength": 50,
             "type": "string",
-            "description": "Address Line 2\r<br />Up to 50 characters may be allowed, however it is carrier dependent and some carriers may allow less.",
-            "nullable": true,
-            "example": "123 Main Street"
+            "description": "An optional second line for the address, often used for additional details like apartment numbers or suite designations.",
+            "nullable": true
           },
           "Line3": {
             "maxLength": 50,
             "type": "string",
-            "description": "Address Line 3\r<br />Up to 50 characters may be allowed, however it is carrier dependent and some carriers may allow less.",
-            "nullable": true,
-            "example": "Hills End"
+            "description": "A third optional line in the address to include any further address specifications, allowing for more detailed address information if necessary.",
+            "nullable": true
           },
           "Town": {
             "maxLength": 50,
             "minLength": 1,
             "type": "string",
-            "description": "Town\r<br />Up to 50 characters may be allowed, however it is carrier dependent and some carriers may allow less.",
-            "example": "Christchurch"
+            "description": "The town or city, indicating the specific locality where the address is located."
           },
           "Postcode": {
             "maxLength": 20,
             "type": "string",
-            "description": "Postcode / Zip\r<br />Required for United Kingdom addresses and some international addresses.\r<br />The Countries API can be used to check whether postcode/zip code is required for a country.\r<br />Up to 20 characters may be allowed, however it is carrier dependent and some carriers may allow less.",
-            "nullable": true,
-            "example": "TW20 0HJ"
+            "description": "The postal or ZIP code corresponding to the address, used to identify specific geographic areas.",
+            "nullable": true
           },
           "County": {
             "maxLength": 50,
             "type": "string",
-            "description": "County / State / Province\r<br />May be required depending on the country.\r<br />For USA, Australia and Canada, if provided, must be a valid state code or name.\r<br />The Countries API can be used to check whether county/state is required for a country.\r<br />Up to 50 characters may be allowed, however it is carrier dependent and some carriers may allow less.",
-            "nullable": true,
-            "example": "Surrey"
+            "description": "The county, state, or province in which the address is located, providing additional geographical context for the address.",
+            "nullable": true
           },
           "CountryCode": {
             "maxLength": 2,
             "minLength": 2,
             "type": "string",
-            "description": "Country Code\r<br />2 Digit ISO Country Code, per ISO 3166 Standard.",
+            "description": "An abbreviation representing the country of the address, following the ISO 3166-1 alpha-2 standard, for example, \"GB\" for the United Kingdom.",
             "example": "GB"
           },
           "What3Words": {
             "type": "string",
-            "description": "The what3words identifier for this address.",
+            "description": "A three-word location identifier provided by the What3words service, offering a precise way to define addresses using a unique combination of three words, for example, the front door of 10 Downing Street in London is identified by slurs.this.shark.",
             "nullable": true,
             "example": "brick.space.employ"
           }
@@ -5733,7 +5727,7 @@
         "properties": {
           "AddressId": {
             "type": "string",
-            "description": "Address Id / Alias Name",
+            "description": "A unique identifier for each address record assigned by the system. This information ensures that each address is distinctly referenced and managed within the system.",
             "nullable": true,
             "example": "93f6d928-9456-434a-9d69-60f3b7dea091"
           }
@@ -5752,20 +5746,20 @@
             "maxLength": 10,
             "minLength": 1,
             "type": "string",
-            "description": "Carrier Code",
+            "description": "A unique identifier for the shipping carrier for which a container is being created. This code is alphanumeric and helps in identifying the specific carrier linked to the container.",
             "example": "RM"
           },
           "ShippingLocationId": {
             "maxLength": 100,
             "minLength": 1,
             "type": "string",
-            "description": "Shipping Location Id\r<br />SAPIENT Shipping Location Id (assigned by SAPIENT) or Alias (assigned by you) of the shipping location that this container is for.",
+            "description": "A unique identifier for the shipping location assigned by the system (**ShippingLocationId**) or by you (**LocationAlias**) where the container will be stored or from which it will be dispatched. This parameter links the new container to a specific physical location, aiding in inventory management and logistical operations.",
             "example": "Central Warehouse"
           },
           "ContainerId": {
             "maxLength": 50,
             "type": "string",
-            "description": "Container Id\r<br />The Container Name/Alias for this container\r<br />Defaults to a globally unique identifier.",
+            "description": "A unique identifier for the new container being created. This ID is used to reference and manage the specific container within the SAPIENT system, facilitating tracking and operational oversight.\r<br />\r<br />***Note**: If this information is not provided, then by default, this field is set to the globally unique identifier (GUID).*",
             "nullable": true,
             "example": "South East 1234"
           }
@@ -5786,29 +5780,29 @@
           "ContainerId": {
             "minLength": 1,
             "type": "string",
-            "description": "Container Id\r<br />The Container Identifier",
+            "description": "The unique identifier assigned to the newly created container. This ID is returned to the user as confirmation that the container has been successfully added to the system.",
             "example": "South East 1234"
           },
           "CreatedDateUtc": {
             "type": "string",
-            "description": "Created Date UTC",
+            "description": "A timestamp indicating when the container was created in the system, formatted in Coordinated Universal Time (UTC). This information helps users to track the age and relevance of their container records.",
             "format": "date-time"
           },
           "CreatedDate": {
             "type": "string",
-            "description": "Created Date",
+            "description": "The specific date on which the container was created. This provides a clear reference for users to understand when the container was added to the system.",
             "format": "date-time"
           },
           "CarrierCode": {
             "minLength": 1,
             "type": "string",
-            "description": "Carrier Code\r<br />The carrier that the container is for.",
+            "description": "A unique identifier for the shipping carrier associated with the new container. This code is alphanumeric and helps confirming which carrier will handle the shipping and logistics for that container.",
             "example": "RM"
           },
           "ShippingLocationId": {
             "minLength": 1,
             "type": "string",
-            "description": "Shipping Location\r<br />The shipping location name/alias that this container is for.",
+            "description": "The unique identifier assigned by the user (alias) to the shipping location linked to the newly added container, providing context about where the container is stored or from where it will be despatched.",
             "example": "Northern Warehouse"
           }
         },
@@ -5967,29 +5961,29 @@
           "Line1": {
             "minLength": 1,
             "type": "string",
-            "description": "The 1st of the PUDO location address",
+            "description": "The first line of address of the PUDO location, typically containing the primary address information, such as house number and street name.",
             "example": "114-120 Camden High Street"
           },
           "Line2": {
             "type": "string",
-            "description": "The line 2 of the PUDO location address",
+            "description": "An optional second line of address of the PUDO location, often used for additional details like apartment numbers or suite designations.",
             "nullable": true,
             "example": "Camden Town"
           },
           "Line3": {
             "type": "string",
-            "description": "The line 3 of the PUDO Location address",
+            "description": "A third optional line of address of the PUDO location for further specifications, allowing for more detailed address information if necessary.",
             "nullable": true
           },
           "Town": {
             "minLength": 1,
             "type": "string",
-            "description": "City of the PUDO location",
+            "description": "The town or city of the PUDO location, indicating the specific locality where the PUDO location is situated.",
             "example": "London"
           },
           "Postcode": {
             "type": "string",
-            "description": "Postcode of the PUDO location",
+            "description": "The postal or ZIP code corresponding to the PUDO location's address, used for mail sorting and to identify the geographical area.",
             "nullable": true,
             "example": "TW18 4QR"
           },
@@ -6001,7 +5995,7 @@
           }
         },
         "additionalProperties": false,
-        "description": "Address"
+        "description": "The complete address information of the PUDO locations, containing further details necessary for users to find and access the locations."
       },
       "AddressBookList": {
         "required": [
@@ -6014,28 +6008,28 @@
           "AddressId": {
             "maxLength": 70,
             "type": "string",
-            "description": "The address Id\r<br />Your identifier for the address. If none provided the system will allocate one.",
+            "description": "A unique identifier for each address record. This information ensures that each address can be distinctly referenced and managed within the system.",
             "nullable": true,
             "example": "John Brown Default"
           },
           "ContactName": {
             "maxLength": 50,
             "type": "string",
-            "description": "Contact Name\r<br />The contact name or company name is required.\r<br />Up to 50 characters may be allowed.However it is carrier dependent. Some carriers may allow less.",
+            "description": "The name of the primary contact associated with the address. This field is essential for identification and communication purposes.",
             "nullable": true,
             "example": "Jane Doe"
           },
           "CompanyName": {
             "maxLength": 50,
             "type": "string",
-            "description": "Company Name\r<br />The contact name or company name is required.\r<br />Up to 50 characters may be allowed.However it is carrier dependent. Some carriers may allow less.",
+            "description": "The name of the company linked to the address. This field provides context for the address, especially in business-related queries.",
             "nullable": true,
             "example": "My Company Ltd."
           },
           "ContactEmail": {
             "maxLength": 254,
             "type": "string",
-            "description": "Contact Phone Number",
+            "description": "The email address of the primary contact for the address. This is used for correspondence and can facilitate communication directly related to the address.",
             "format": "email",
             "nullable": true,
             "example": "jane@example.com"
@@ -6043,77 +6037,70 @@
           "ContactPhone": {
             "maxLength": 20,
             "type": "string",
-            "description": "Contact Phone Number",
+            "description": "The phone number of the primary contact associated with the address. This field is crucial for any immediate communication needs.",
             "format": "tel",
-            "nullable": true,
-            "example": "07123887422"
+            "nullable": true
           },
           "Line1": {
             "maxLength": 50,
             "minLength": 1,
             "type": "string",
-            "description": "Address Line 1\r<br />Up to 50 characters may be allowed, however it is carrier dependent and some carriers may allow less.",
+            "description": "The first line of the address, typically containing the primary address information such as house number and street name.",
             "example": "10 Sky Lane"
           },
           "Line2": {
             "maxLength": 50,
             "type": "string",
-            "description": "Address Line 2\r<br />Up to 50 characters may be allowed, however it is carrier dependent and some carriers may allow less.",
-            "nullable": true,
-            "example": "123 Main Street"
+            "description": "An optional second line for the address, often used for additional details like apartment numbers or suite designations.",
+            "nullable": true
           },
           "Line3": {
             "maxLength": 50,
             "type": "string",
-            "description": "Address Line 3\r<br />Up to 50 characters may be allowed, however it is carrier dependent and some carriers may allow less.",
-            "nullable": true,
-            "example": "Hills End"
+            "description": "A third optional line in the address to include any further address specifications, allowing for more detailed address information if necessary.",
+            "nullable": true
           },
           "Town": {
             "maxLength": 50,
             "minLength": 1,
             "type": "string",
-            "description": "Town\r<br />Up to 50 characters may be allowed, however it is carrier dependent and some carriers may allow less.",
-            "example": "Christchurch"
+            "description": "The town or city, indicating the specific locality where the address is located."
           },
           "Postcode": {
             "maxLength": 20,
             "type": "string",
-            "description": "Postcode / Zip\r<br />Required for United Kingdom addresses and some international addresses.\r<br />The Countries API can be used to check whether postcode/zip code is required for a country.\r<br />Up to 20 characters may be allowed, however it is carrier dependent and some carriers may allow less.",
-            "nullable": true,
-            "example": "TW20 0HJ"
+            "description": "The postal or ZIP code corresponding to the address, used to identify specific geographic areas.",
+            "nullable": true
           },
           "County": {
             "maxLength": 50,
             "type": "string",
-            "description": "County / State / Province\r<br />May be required depending on the country.\r<br />For USA, Australia and Canada, if provided, must be a valid state code or name.\r<br />The Countries API can be used to check whether county/state is required for a country.\r<br />Up to 50 characters may be allowed, however it is carrier dependent and some carriers may allow less.",
-            "nullable": true,
-            "example": "Surrey"
+            "description": "The county, state, or province in which the address is located, providing additional geographical context for the address.",
+            "nullable": true
           },
           "CountryCode": {
             "maxLength": 2,
             "minLength": 2,
             "type": "string",
-            "description": "Country Code\r<br />2 Digit ISO Country Code, per ISO 3166 Standard.",
+            "description": "An abbreviation representing the country of the address, following the ISO 3166-1 alpha-2 standard, for example, \"GB\" for the United Kingdom.",
             "example": "GB"
           },
           "What3Words": {
             "type": "string",
-            "description": "The what3words identifier for this address.",
+            "description": "A three-word location identifier provided by the What3words service, offering a precise way to define addresses using a unique combination of three words, for example, the front door of 10 Downing Street in London is identified by slurs.this.shark.",
             "nullable": true,
             "example": "brick.space.employ"
           },
           "LastUpdatedDateUtc": {
             "type": "string",
-            "description": "Last Updated Date UTC",
+            "description": "A timestamp in Coordinated Universal Time (UTC) indicating when the address record was last updated.This helps users understand the recency of the address information.",
             "format": "date-time",
             "example": "2022-02-06T16:13:24.010Z"
           },
           "LastUpdatedBy": {
             "type": "string",
-            "description": "Last Updated By",
-            "nullable": true,
-            "example": "User A"
+            "description": "The identifier of the user or system that last modified the address details, ensuring accountability and traceability for updates.",
+            "nullable": true
           }
         },
         "additionalProperties": false,
@@ -6131,13 +6118,12 @@
             "items": {
               "$ref": "#/components/schemas/AddressBookList"
             },
-            "description": "Addresses\r<br />The addresses for the requested page only."
+            "description": "An array that contains the individual address records retrieved by the API. Each record includes detailed information about a specific address and its associated contact details."
           },
           "TotalCount": {
             "type": "integer",
-            "description": "Total Count\r<br />The total number of addresses available",
-            "format": "int32",
-            "example": 32
+            "description": "An integer representing the total number of address records that match the search criteria. This count provides users with an overview of how many address records are available based on the filters applied.",
+            "format": "int32"
           }
         },
         "additionalProperties": false,
@@ -6601,7 +6587,7 @@
         "properties": {
           "ContainerId": {
             "type": "string",
-            "description": "Container Id\r<br />The Container Identifier",
+            "description": "An identifier for the shipping container, important for managing cargo and logistics at scale.",
             "nullable": true,
             "example": "South East 1234"
           },
@@ -6610,30 +6596,30 @@
           },
           "CreatedDateUtc": {
             "type": "string",
-            "description": "Created Date UTC",
+            "description": "A timestamp indicating when each container was created, formatted in Coordinated Universal Time (UTC). This allows users to track the age and relevance of their container records.",
             "format": "date-time"
           },
           "CarrierCode": {
             "type": "string",
-            "description": "Carrier Code\r<br />The carrier that the container is for. Only shipments created for this carrier can be added to this container.",
+            "description": "The unique identifier for the carrier associated with each container. This confirms which carrier is linked to the container, essential for logistics tracking.",
             "nullable": true,
             "example": "RM"
           },
           "ShippingLocationId": {
             "type": "string",
-            "description": "Shipping Location Id\r<br />The assigned Id for this location.",
+            "description": "A unique identifier for the shipping location assigned by the system from which the container originates. With it, you can track and manage containers by a particular location.",
             "nullable": true,
             "example": "93f6d928-9456-434a-9d69-60f3b7dea091"
           },
           "ShippingLocationAlias": {
             "type": "string",
-            "description": "Shipping Location\r<br />The shipping location name/alias that this container is for. Only shipments created for this location can be added to this container.",
+            "description": "A unique user-defined identifier for the shipping location associated with the container, making it easier to reference and identify locations.",
             "nullable": true,
             "example": "Northern Warehouse"
           },
           "TotalWeight": {
             "type": "number",
-            "description": "Total Weight\r<br />The total weight of all the shipments currently added to the container.",
+            "description": "The total weight of the shipments contained within the shipping container. This value is essential for understanding the logistics and capacity of the container.",
             "format": "double",
             "example": 12.5
           },
@@ -6642,13 +6628,13 @@
           },
           "TotalShipments": {
             "type": "integer",
-            "description": "Total Shipments\r<br />The total number of shipments in the container.",
+            "description": "The total number of shipments contained within the specified container. This field helps users understand the shipping capacity and complexity of the container.",
             "format": "int32",
             "example": 23
           },
           "TotalPackages": {
             "type": "integer",
-            "description": "Total Packages\r<br />The total number of packages in the container",
+            "description": "An integer representing the total number of packages contained within the shipments linked to the container. This information helps users understand the volume of packages being transported.",
             "format": "int32",
             "example": 23
           }
@@ -6684,7 +6670,7 @@
           }
         },
         "additionalProperties": false,
-        "description": "Container Shipments"
+        "description": "An array of shipments associated with the container. Each shipment object contains details about the specific shipments that have been allocated to the container, providing comprehensive tracking and management data.\r<br />\r<br />***Note**: This information is provided only if the **returnShipments** field is set to true in the query parameters request.*"
       },
       "ContainerStatus": {
         "enum": [
@@ -6715,11 +6701,11 @@
             "items": {
               "$ref": "#/components/schemas/Container"
             },
-            "description": "Containers\r<br />The containers for the requested page only."
+            "description": "An array containing all shipping containers associated with the carrier and/or shipping location requested for the specific page only. Each object contains details about individual containers, such as identifiers and associated shipment data."
           },
           "TotalCount": {
             "type": "integer",
-            "description": "Total Count\r<br />The total number of containers available",
+            "description": "An integer indicating the total number of containers that match the query criteria. This count provides you with an overview of how many container records are available in the system based on the filters applied.",
             "format": "int32",
             "example": 32
           }
@@ -6861,50 +6847,50 @@
             "maxLength": 50,
             "minLength": 1,
             "type": "string",
-            "description": "Tracking Number"
+            "description": "The tracking number assigned to the shipment by the carrier. This number is used to monitor the shipment's progress and location in transit."
           },
           "ShipperReference": {
             "maxLength": 30,
             "type": "string",
-            "description": "Shipper Reference",
+            "description": "The shipper's reference for this shipment. This is usually the shipper's order number that is provided to the receiver when the order was made.",
             "nullable": true
           },
           "CarrierCode": {
             "maxLength": 10,
             "minLength": 1,
             "type": "string",
-            "description": "Carrier Code"
+            "description": "A unique identifier for the carrier associated with the shipping account. This code is typically alphanumeric and helps in identifying the specific carrier linked to the shipping account."
           },
           "CountryCode": {
             "maxLength": 2,
             "minLength": 2,
             "type": "string",
-            "description": "Country Code",
+            "description": "An abbreviation representing the country for the shipment, following the ISO 3166-1 alpha-2 standard, for example, \"GB\" for the United Kingdom.",
             "nullable": true
           },
           "Postcode": {
             "maxLength": 20,
             "type": "string",
-            "description": "Postcode",
+            "description": "The postal or ZIP code corresponding to the shipment's destination, used to identify specific geographic areas.",
             "nullable": true
           },
           "AccountNumber": {
             "maxLength": 20,
             "type": "string",
-            "description": "Carrier Account Number\r<br />The account number given by the carrier.",
+            "description": "The number assigned to the shipping account by the carrier, typically used for tracking shipments and billing purposes.",
             "nullable": true,
             "example": "9912347707"
           },
           "ShippingDate": {
             "type": "string",
-            "description": "Shipping Date\r<br />Shipping date in YYYY-MM-DD format. Required by some couriers.\r<br />            \r<br />Accepted Format: YYYY-MM-DD",
+            "description": "The date on which the shipment was sent. This information is important for tracking the timeline of delivery and for any time-sensitive shipment inquiries.\r<br />\r<br />***Note**: This information is required by some carriers. If this date is provided, then it must be in the YYYY-MM-DD format.*",
             "format": "date",
             "nullable": true
           },
           "ServiceCode": {
             "maxLength": 10,
             "type": "string",
-            "description": "Service Code",
+            "description": "The code representing the carrier's shipping service selected for the shipments.",
             "nullable": true
           }
         },
@@ -6978,12 +6964,12 @@
             "maxLength": 36,
             "minLength": 1,
             "type": "string",
-            "description": "Shipment Id\r<br />The shipment to apply the change to.\r<br />            \r<br />The Shipment Id may be an id or a tracking/barcode number.",
+            "description": "A unique identifier for the shipment that is being deferred. This ID is necessary to specify which shipment the new deferred status applies to, ensuring precise handling of the request.",
             "example": "AD123456783GB"
           },
           "ShipmentDate": {
             "type": "string",
-            "description": "Shipment Date\r<br />The new date that the packages are being shipped.\r<br />The date must not be in the past and cannot be more than 28 days in the future.\r<br />            \r<br />Accepted Format: YYYY-MM-DD",
+            "description": "A new date assigned to the shipment indicating when it is now scheduled to be manifested and shipped (handed over to the carrier). This field allows users to adjust their shipping timelines and effectively manage their logistics according to updated requirements or circumstances.\r<br />\r<br />Before entering the new shipment date, keep in mind the following:\r<br />• The date must be in the YYYY-MM-DD format.\r<br />• The date must not be in the past and cannot be more than 28 days in the future.",
             "format": "date"
           }
         },
@@ -7212,7 +7198,7 @@
           "CI"
         ],
         "type": "string",
-        "description": "Document Type \r<br />Defaults to CN23\r<br />\r<br />**CN23** CN23\r<br />**PI** Proforma Invoice\r<br />**CI** Commercial Invoice"
+        "description": "Specifies the type of document being requested for printing. Common types include the following: \r<br /><ul><li> **CN23**: A customs declaration form used for packages sent outside of the EU. A CN23 is typically only used for postal shipments, not commercial shipments.</li><li> **Proforma Invoice (PI)**: An estimated invoice provided prior to shipping, outlining the items, charges, and terms.</li><li> **Commercial Invoice (CI)**: A formal document provided by the seller to the buyer detailing the items sold, their prices, and terms of sale.</li></ul>\r<br />***Note**: By default, this field is set to CN23.*"
       },
       "EnhancedLocationDetails": {
         "type": "object",
@@ -7231,7 +7217,7 @@
           },
           "SupplierLocationType": {
             "type": "string",
-            "description": "A categorisation that indicates the specific type of supplier location, providing additional context about the addition options available at that location, for example, RMShop.",
+            "description": "A categorisation that indicates the specific type of supplier location, providing additional context about the additional options available at that location, for example, RMShop.",
             "nullable": true,
             "example": "Locker"
           },
@@ -7312,26 +7298,26 @@
         "properties": {
           "Longitude": {
             "type": "number",
-            "description": "Only returned for carriers that provide this information",
+            "description": "The longitude of the PUDO location, expressed in degrees. This value aids in accurately locating the position on a map.\r<br />\r<br />***Note**: This value is only returned for carriers that provide this information.*",
             "format": "double",
             "example": -0.51174
           },
           "Latitude": {
             "type": "number",
-            "description": "Only returned for carriers that provide this information",
+            "description": "The latitude of the PUDO location, expressed in degrees. This value, along with Longitude, allows for precise mapping of the location.",
             "format": "double",
             "example": 51.43341
           }
         },
         "additionalProperties": false,
-        "description": "The longitude and latitude for the PUDO location"
+        "description": "An object representing the geographical coordinates of the PUDO location, providing precise location data necessary for navigation and mapping."
       },
       "GetContainerResponse": {
         "type": "object",
         "properties": {
           "ContainerId": {
             "type": "string",
-            "description": "Container Id\r<br />The Container Identifier",
+            "description": "An identifier for the shipping container, important for managing cargo and logistics at scale.",
             "nullable": true,
             "example": "South East 1234"
           },
@@ -7340,7 +7326,7 @@
           },
           "CreatedDateUtc": {
             "type": "string",
-            "description": "Created Date UTC",
+            "description": "A timestamp indicating when each container was created, formatted in Coordinated Universal Time (UTC). This allows users to track the age and relevance of their container records.",
             "format": "date-time"
           },
           "ManifestNumbers": {
@@ -7348,30 +7334,30 @@
             "items": {
               "type": "string"
             },
-            "description": "Manifest Numbers.",
+            "description": "Unique identifiers for the manifests associated with the container. This field is populated only if the container has been manifested, ensuring seamless audit trails and helps customers verify and track the overall shipment manifest that includes all shipments within the container.",
             "nullable": true
           },
           "CarrierCode": {
             "type": "string",
-            "description": "Carrier Code\r<br />The carrier that the container is for. Only shipments created for this carrier can be added to this container.",
+            "description": "The unique identifier for the carrier associated with each container. This confirms which carrier is linked to the container, essential for logistics tracking.",
             "nullable": true,
             "example": "RM"
           },
           "ShippingLocationId": {
             "type": "string",
-            "description": "Shipping Location Id\r<br />The assigned Id for this location.",
+            "description": "A unique identifier for the shipping location assigned by the system from which the container originates. With it, you can track and manage containers by a particular location.",
             "nullable": true,
             "example": "93f6d928-9456-434a-9d69-60f3b7dea091"
           },
           "ShippingLocationAlias": {
             "type": "string",
-            "description": "Shipping Location\r<br />The shipping location name/alias that this container is for. Only shipments created for this location can be added to this container.",
+            "description": "A unique user-defined identifier for the shipping location associated with the container, making it easier to reference and identify locations.",
             "nullable": true,
             "example": "Northern Warehouse"
           },
           "TotalWeight": {
             "type": "number",
-            "description": "Total Weight\r<br />The total weight of all the shipments currently added to the container.",
+            "description": "The total weight of the shipments contained within the shipping container. This value is essential for understanding the logistics and capacity of the container.",
             "format": "double",
             "example": 12.5
           },
@@ -7380,13 +7366,13 @@
           },
           "TotalShipments": {
             "type": "integer",
-            "description": "Total Shipments\r<br />The total number of shipments in the container.",
+            "description": "The total number of shipments contained within the specified container. This field helps users understand the shipping capacity and complexity of the container.",
             "format": "int32",
             "example": 23
           },
           "TotalPackages": {
             "type": "integer",
-            "description": "Total Packages\r<br />The total number of packages in the container",
+            "description": "An integer representing the total number of packages contained within the shipments linked to the container. This information helps users understand the volume of packages being transported.",
             "format": "int32",
             "example": 23
           },
@@ -7395,7 +7381,7 @@
             "items": {
               "$ref": "#/components/schemas/ContainerShipments"
             },
-            "description": "Shipment Details\r<br />The shipments assigned to the container. Only populated if 'returnShipments' was set to true in the request query parameters.",
+            "description": "An array of shipments associated with the container. Each shipment object contains details about the specific shipments that have been allocated to the container, providing comprehensive tracking and management data.\r<br />\r<br />***Note**: This information is provided only if the **returnShipments** field is set to true in the query parameters request.*",
             "nullable": true
           }
         },
@@ -7410,12 +7396,12 @@
             "items": {
               "$ref": "#/components/schemas/Location"
             },
-            "description": "The locations",
+            "description": "An array of locations that match the criteria specified in the request. Each object contains details about individual locations available for pick-up or drop-off services.",
             "nullable": true
           },
           "TotalCount": {
             "type": "integer",
-            "description": "Total number of locations returned",
+            "description": "An integer representing the total number of PUDO locations that match the specified query criteria. This provides users with an overview of how many PUDO locations are available on the system, enabling better understanding of the dataset.",
             "format": "int32",
             "example": 10
           }
@@ -7456,19 +7442,19 @@
           "CarrierCode": {
             "minLength": 1,
             "type": "string",
-            "description": "Carrier code sent in the request\r<br />Valid values are the following: \r<br />**RM** - for Royal Mail\r<br />**INPOST** - for InPost",
+            "description": "The unique identifier representing the carrier associated with each PUDO location. This field ensures that the returned locations correspond to the specified carrier in the request.",
             "example": "RM"
           },
           "LocationAlias": {
             "minLength": 1,
             "type": "string",
-            "description": "The location alias.",
+            "description": "A unique user-defined identifier for the PUDO location, providing a convenient way to identify it, for example, Downtown Drop-off or Main Street Pick-up.",
             "example": "Post office limited"
           },
           "LocationId": {
             "minLength": 1,
             "type": "string",
-            "description": "For Royal Mail this will be the Postcode of the post office.",
+            "description": " A unique identifier for each PUDO location assigned by the system. This ID allows for easy reference and management of specific locations.\r<br />\r<br />***Note**: For Royal Mail, this value will be the postcode of the post office.*",
             "example": ""
           },
           "Address": {
@@ -7573,26 +7559,26 @@
             "maxLength": 18,
             "minLength": 1,
             "type": "string",
-            "description": "Manifest Number",
+            "description": "A unique identifier for the manifest, allowing for easy tracking and reference of the manifest document within the SAPIENT system.",
             "example": "ISH2802532"
           },
           "CarrierCode": {
             "maxLength": 10,
             "minLength": 1,
             "type": "string",
-            "description": "Carrier Code\r<br />The carrier that this manifest is for.",
+            "description": "The unique identifier of the carrier associated with the manifest. This confirms which shipping carrier's requirements the manifest adheres to.",
             "example": "RM"
           },
           "Service": {
             "maxLength": 100,
             "minLength": 1,
             "type": "string",
-            "description": "Service\r<br />The service included in this Manifest. If more than one, Mixed will be returned.",
+            "description": "The shipping service selected for the manifest. If there are multiple services involved, the response will return a mixed designation, categorising the services used.",
             "example": "Mixed"
           },
           "TotalWeight": {
             "type": "number",
-            "description": "Total Weight\r<br />Sum of the weight of all shipments included on the Manifest.",
+            "description": "The total weight of all shipments included in the manifest, typically representing the combined weight of the packages being shipped.",
             "format": "double",
             "example": 545.612
           },
@@ -7601,25 +7587,25 @@
           },
           "TotalShipments": {
             "type": "integer",
-            "description": "Total Shipments\r<br />The total number of shipments included on this Manifest.",
+            "description": "The total number of shipments included in the manifest, providing a quick overview of how many shipments are being sent.",
             "format": "int32",
             "example": 562
           },
           "TotalItems": {
             "type": "integer",
-            "description": "Total Items\r<br />The total number of items (packages) included on this Manifest.",
+            "description": "The total count of individual items (packages) within the shipments included in the manifest.",
             "format": "int32",
             "example": 562
           },
           "ManifestDate": {
             "type": "string",
-            "description": "Manifest Date\r<br />The date on the manifest.",
+            "description": "The date on which the manifest was created, offering a record of when the shipments were officially documented for shipping.",
             "format": "date",
             "example": "2024-07-16"
           },
           "CreatedDateUtc": {
             "type": "string",
-            "description": "Created Date UTC\r<br />The date the manifest was originally created.",
+            "description": "A timestamp indicating when the manifest was created, formatted in Coordinated Universal Time (UTC), providing a standard reference for the creation of the document.",
             "format": "date-time",
             "example": "2024-07-16T09:20:54.397Z"
           },
@@ -7639,14 +7625,14 @@
           "ShippingLocationId": {
             "maxLength": 100,
             "type": "string",
-            "description": "Shipping Location Identifier\r<br />SAPIENT Shipping Location Id (assigned by SAPIENT) or Alias (assigned by you) that we are manifesting.\r<br />            \r<br />*Required if you have more than one shipping location.*",
+            "description": "A unique identifier assigned by the system (**ShippingLocationId**) or by you (**LocationAlias**) for the shipping location from which the shipments are being manifested. This information is crucial for linking the manifest to the correct shipping point.",
             "nullable": true,
             "example": "D94E8CFD-604B-4B87-83E9-3F20CAF02837"
           },
           "ContainerId": {
             "maxLength": 50,
             "type": "string",
-            "description": "Container Id\r<br />Populate if you want to manifest a container.\r<br />You must have created the container and added the shipments to manifest to it first.\r<br />If this is populated, no other values other than the Shipping Location can be populated.",
+            "description": "The identifier for the container that holds the shipments being manifested. This field is necessary when shipments grouped together in a container are being manifested.\r<br />\r<br />***Note**: This information is only required if you want to manifest a container. If provided, make sure to enter the **Shipping Location**, as all other values are not applicable for this field. Prior to manifesting a container, ensure that you have created one and added the desired shipments to it.*",
             "nullable": true
           },
           "Status": {
@@ -7655,14 +7641,14 @@
           "ShippingAccountId": {
             "maxLength": 36,
             "type": "string",
-            "description": "Shipping Account Identifier\r<br />SAPIENT Shipping Account Id (assigned by SAPIENT) or Alias (assigned by you) that you want to manifest.\r<br />Populate if want to manifest a specific shipping account only.\r<br />*Not valid if you are manifesting by container.*",
+            "description": "A unique identifier assigned by the SAPIENT system for the shipping account associated with the shipments. This information is important for billing and tracking purposes, connecting the manifest to the correct account. If needed, provide this information if you want to manifest shipments by a specific shipping account only.\r<br />\r<br />***Note**: This information is not valid when manifesting shipments by container.*",
             "nullable": true,
             "example": "88470398-A520-4069-BDF9-69D11D48831A"
           },
           "ServiceCode": {
             "maxLength": 10,
             "type": "string",
-            "description": "Service Code\r<br />Populate if want to manifest a specific service only.\r<br />*Not valid if you are manifesting by container.*",
+            "description": "The code representing the carrier's shipping service selected for the shipments. If needed, provide the desired service code if you want to manifest shipments by a specific service only.\r<br />\r<br />***Note**: This information is not valid when manifesting shipments by container.*",
             "nullable": true,
             "example": "EXPRESS"
           }
@@ -7691,26 +7677,26 @@
             "maxLength": 18,
             "minLength": 1,
             "type": "string",
-            "description": "Manifest Number",
+            "description": "A unique identifier for the manifest, allowing for easy tracking and reference of the manifest document within the SAPIENT system.",
             "example": "ISH2802532"
           },
           "CarrierCode": {
             "maxLength": 10,
             "minLength": 1,
             "type": "string",
-            "description": "Carrier Code\r<br />The carrier that this manifest is for.",
+            "description": "The unique identifier of the carrier associated with the manifest. This confirms which shipping carrier's requirements the manifest adheres to.",
             "example": "RM"
           },
           "Service": {
             "maxLength": 100,
             "minLength": 1,
             "type": "string",
-            "description": "Service\r<br />The service included in this Manifest. If more than one, Mixed will be returned.",
+            "description": "The shipping service selected for the manifest. If there are multiple services involved, the response will return a mixed designation, categorising the services used.",
             "example": "Mixed"
           },
           "TotalWeight": {
             "type": "number",
-            "description": "Total Weight\r<br />Sum of the weight of all shipments included on the Manifest.",
+            "description": "The total weight of all shipments included in the manifest, typically representing the combined weight of the packages being shipped.",
             "format": "double",
             "example": 545.612
           },
@@ -7719,25 +7705,25 @@
           },
           "TotalShipments": {
             "type": "integer",
-            "description": "Total Shipments\r<br />The total number of shipments included on this Manifest.",
+            "description": "The total number of shipments included in the manifest, providing a quick overview of how many shipments are being sent.",
             "format": "int32",
             "example": 562
           },
           "TotalItems": {
             "type": "integer",
-            "description": "Total Items\r<br />The total number of items (packages) included on this Manifest.",
+            "description": "The total count of individual items (packages) within the shipments included in the manifest.",
             "format": "int32",
             "example": 562
           },
           "ManifestDate": {
             "type": "string",
-            "description": "Manifest Date\r<br />The date on the manifest.",
+            "description": "The date on which the manifest was created, offering a record of when the shipments were officially documented for shipping.",
             "format": "date",
             "example": "2024-07-16"
           },
           "CreatedDateUtc": {
             "type": "string",
-            "description": "Created Date UTC\r<br />The date the manifest was originally created.",
+            "description": "A timestamp indicating when the manifest was created, formatted in Coordinated Universal Time (UTC), providing a standard reference for the creation of the document.",
             "format": "date-time",
             "example": "2024-07-16T09:20:54.397Z"
           },
@@ -7752,7 +7738,7 @@
             "items": {
               "$ref": "#/components/schemas/ManifestShipment"
             },
-            "description": "Shipments"
+            "description": "An array of shipment objects contained within the specified manifest. Each shipment object provides detailed information about the individual shipments included in that manifest, such as tracking number, barcode number, and reference."
           }
         },
         "additionalProperties": false,
@@ -7764,14 +7750,14 @@
           "ShippingLocationId": {
             "maxLength": 100,
             "type": "string",
-            "description": "Shipping Location Identifier\r<br />SAPIENT Shipping Location Id (assigned by SAPIENT) or Alias (assigned by you) that we are manifesting.\r<br />            \r<br />*Required if you have more than one shipping location.*",
+            "description": "A unique identifier assigned by the system (**ShippingLocationId**) or by you (**LocationAlias**) for the shipping location from which the shipments are being manifested. This information is crucial for linking the manifest to the correct shipping point.",
             "nullable": true,
             "example": "D94E8CFD-604B-4B87-83E9-3F20CAF02837"
           },
           "ContainerId": {
             "maxLength": 50,
             "type": "string",
-            "description": "Container Id\r<br />Populate if you want to manifest a container.\r<br />You must have created the container and added the shipments to manifest to it first.\r<br />If this is populated, no other values other than the Shipping Location can be populated.",
+            "description": "The identifier for the container that holds the shipments being manifested. This field is necessary when shipments grouped together in a container are being manifested.\r<br />\r<br />***Note**: This information is only required if you want to manifest a container. If provided, make sure to enter the **Shipping Location**, as all other values are not applicable for this field. Prior to manifesting a container, ensure that you have created one and added the desired shipments to it.*",
             "nullable": true
           },
           "Status": {
@@ -7780,20 +7766,20 @@
           "ShippingAccountId": {
             "maxLength": 36,
             "type": "string",
-            "description": "Shipping Account Identifier\r<br />SAPIENT Shipping Account Id (assigned by SAPIENT) or Alias (assigned by you) that you want to manifest.\r<br />Populate if want to manifest a specific shipping account only.\r<br />*Not valid if you are manifesting by container.*",
+            "description": "A unique identifier assigned by the SAPIENT system for the shipping account associated with the shipments. This information is important for billing and tracking purposes, connecting the manifest to the correct account. If needed, provide this information if you want to manifest shipments by a specific shipping account only.\r<br />\r<br />***Note**: This information is not valid when manifesting shipments by container.*",
             "nullable": true,
             "example": "88470398-A520-4069-BDF9-69D11D48831A"
           },
           "ServiceCode": {
             "maxLength": 10,
             "type": "string",
-            "description": "Service Code\r<br />Populate if want to manifest a specific service only.\r<br />*Not valid if you are manifesting by container.*",
+            "description": "The code representing the carrier's shipping service selected for the shipments. If needed, provide the desired service code if you want to manifest shipments by a specific service only.\r<br />\r<br />***Note**: This information is not valid when manifesting shipments by container.*",
             "nullable": true,
             "example": "EXPRESS"
           },
           "Async": {
             "type": "boolean",
-            "description": "Async\r<br />Set to true if you don't want to wait for the manifest response. You will get an OK response with no data and can retrieve the manifest at a later point using the API.\r<br />This will happen in the background, so the manifest won't be available immediately and there's some validation that will not happen (for example, if there are no shipments to manifest)"
+            "description": "A boolean value indicating whether you want to execute the manifest request asynchronously. If set to true, the API will respond immediately with an OK status. The manifest will be processed in the background, allowing you to retrieve the manifest once the processing is complete."
           }
         },
         "additionalProperties": false,
@@ -7816,17 +7802,17 @@
           },
           "ManifestCount": {
             "type": "integer",
-            "description": "0 (Default value)\r<br />This will represent the total number of manifests that got created when ManifestRequestStatus is complete",
+            "description": "Total number of manifests created when the manifest request status is complete.",
             "format": "int32"
           },
           "ManifestRequestId": {
             "type": "string",
-            "description": "the Manifest Request Id",
+            "description": "A unique identifier assigned by the system that specifies the manifest request.",
             "format": "uuid"
           },
           "ManifestRequestStatus": {
             "type": "string",
-            "description": "This is the status of manifest request (Default to Pending)",
+            "description": "Indicates the current status of the manifest request.\r<br />\r<br />***Note**: By default, the status is set to Pending.*",
             "nullable": true
           },
           "Manifests": {
@@ -7834,7 +7820,7 @@
             "items": {
               "$ref": "#/components/schemas/ManifestResponse"
             },
-            "description": "The manifests created from the request",
+            "description": "An array of manifest objects for the requested page only, matching the query criteria. Each object contains detailed information about individual manifests, such as associated shipments, dates, service, and others.",
             "nullable": true
           }
         },
@@ -7861,33 +7847,33 @@
           "ManifestImage": {
             "minLength": 1,
             "type": "string",
-            "description": "Manifest - Base 64 encoded PDF",
+            "description": "The generated manifest document returned as a Base64-encoded PDF. This image represents the finalised version of the shipping manifest based on the submitted details.",
             "example": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4"
           },
           "ManifestNumber": {
             "maxLength": 18,
             "minLength": 1,
             "type": "string",
-            "description": "Manifest Number",
+            "description": "A unique identifier for the manifest, allowing for easy tracking and reference of the manifest document within the SAPIENT system.",
             "example": "ISH2802532"
           },
           "CarrierCode": {
             "maxLength": 10,
             "minLength": 1,
             "type": "string",
-            "description": "Carrier Code\r<br />The carrier that this manifest is for.",
+            "description": "The unique identifier of the carrier associated with the manifest. This confirms which shipping carrier's requirements the manifest adheres to.",
             "example": "RM"
           },
           "Service": {
             "maxLength": 100,
             "minLength": 1,
             "type": "string",
-            "description": "Service\r<br />The service included in this Manifest. If more than one, Mixed will be returned.",
+            "description": "The shipping service selected for the manifest. If there are multiple services involved, the response will return a mixed designation, categorising the services used.",
             "example": "Mixed"
           },
           "TotalWeight": {
             "type": "number",
-            "description": "Total Weight\r<br />Sum of the weight of all shipments included on the Manifest.",
+            "description": "The total weight of all shipments included in the manifest, typically representing the combined weight of the packages being shipped.",
             "format": "double",
             "example": 545.612
           },
@@ -7896,25 +7882,25 @@
           },
           "TotalShipments": {
             "type": "integer",
-            "description": "Total Shipments\r<br />The total number of shipments included on this Manifest.",
+            "description": "The total number of shipments included in the manifest, providing a quick overview of how many shipments are being sent.",
             "format": "int32",
             "example": 562
           },
           "TotalItems": {
             "type": "integer",
-            "description": "Total Items\r<br />The total number of items (packages) included on this Manifest.",
+            "description": "The total count of individual items (packages) within the shipments included in the manifest.",
             "format": "int32",
             "example": 562
           },
           "ManifestDate": {
             "type": "string",
-            "description": "Manifest Date\r<br />The date on the manifest.",
+            "description": "The date on which the manifest was created, offering a record of when the shipments were officially documented for shipping.",
             "format": "date",
             "example": "2024-07-16"
           },
           "CreatedDateUtc": {
             "type": "string",
-            "description": "Created Date UTC\r<br />The date the manifest was originally created.",
+            "description": "A timestamp indicating when the manifest was created, formatted in Coordinated Universal Time (UTC), providing a standard reference for the creation of the document.",
             "format": "date-time",
             "example": "2024-07-16T09:20:54.397Z"
           },
@@ -7939,19 +7925,19 @@
           "TrackingNumber": {
             "minLength": 1,
             "type": "string",
-            "description": "Tracking Number",
+            "description": "A unique identifier assigned to each shipment within the manifest, allowing you to track the progress and status of that shipment during transit. This number is crucial for logistics and customer inquiries.",
             "example": "TT000860906GB"
           },
           "BarcodeNumber": {
             "minLength": 1,
             "type": "string",
-            "description": "Barcode Number",
+            "description": "A unique barcode associated with each shipment in the manifest. This barcode is used for scanning and tracking purposes throughout the shipping process, enabling efficient handling and verification of shipments.",
             "example": "4C0069786000000014AC0"
           },
           "Reference1": {
             "minLength": 1,
             "type": "string",
-            "description": "Reference1",
+            "description": "The shipper's reference for the shipments within the manifest. This is usually the shipper's order number that is provided to the receiver when the order was made.",
             "example": "OrderRef56"
           }
         },
@@ -7963,7 +7949,7 @@
           "Picked"
         ],
         "type": "string",
-        "description": "Shipment Status\r<br />\r<br />Manifest only the shipments with the status of:\r<br />**Picked**\r<br />\r<br />Otherwise all shipments in a Label Printed or Picked status will be manifested.\r<br />*Not valid if you are manifesting by container.*"
+        "description": "Specifies the status of the shipments being manifested. The manifest can only be created for shipments with the **Picked** status, indicating that they are ready to be despatched. If this status is not specified, then all the shipments in either **LabelPrinted** or **Picked** status will be manifested.\r<br />\r<br />***Note**: This information is not valid when manifesting shipments by container.*"
       },
       "ManifestShipmentsAsyncResponse": {
         "type": "object",
@@ -7989,33 +7975,33 @@
         "properties": {
           "ShippingAccountId": {
             "type": "string",
-            "description": "Shipping Account Id\r<br />The system identifier for this shipping account.",
+            "description": "A unique identifier for each shipping account, allowing for efficient reference and management of individual accounts within the system.",
             "format": "uuid"
           },
           "AccountName": {
             "maxLength": 35,
             "minLength": 1,
             "type": "string",
-            "description": "Shipping Account Name",
+            "description": "The official name of the shipping account as designated by the user or organisation, aiding in easy identification and reference of accounts.",
             "example": "AB VideoGames"
           },
           "AccountAlias": {
             "maxLength": 30,
             "minLength": 1,
             "type": "string",
-            "description": "Shipping Account Alias\r<br />Your identifier for this shipping account.",
+            "description": "A user-defined name for the shipping account, providing a convenient way to reference the account in a more memorable manner.",
             "example": "Account 1"
           },
           "AccountNumber": {
             "maxLength": 30,
             "type": "string",
-            "description": "Shipping Account Number\r<br />The carrier's account number for this account.",
+            "description": "The number assigned to the shipping account by the carrier, typically used for tracking shipments and billing purposes.",
             "nullable": true,
             "example": "0123456789"
           }
         },
         "additionalProperties": false,
-        "description": "Shipping Account\r<br />The account that this manifest is for."
+        "description": "The shipping account associated with the shipments within the manifest."
       },
       "ManifestShippingLocation": {
         "required": [
@@ -8027,33 +8013,33 @@
         "properties": {
           "ShippingLocationId": {
             "type": "string",
-            "description": "Shipping Location Id\r<br />The system identifier for this shipping location.",
+            "description": "A unique identifier assigned by the system (ShippingLocationId) for the shipping location from which the shipments are being manifested. This information is crucial for linking the manifest to the correct shipping point.",
             "format": "uuid"
           },
           "LocationAlias": {
             "maxLength": 100,
             "minLength": 1,
             "type": "string",
-            "description": "Shipping Location Alias\r<br />Your identifier for this shipping location.",
+            "description": "A unique user-defined identifier for the shipping location, providing a convenient way to identify it, for example, Home or Warehouse.",
             "example": "Main Warehouse"
           },
           "LocationCountry": {
             "maxLength": 2,
             "minLength": 2,
             "type": "string",
-            "description": "Shipping Location Country Code\r<br />ISO Alpha-2 Country Code",
+            "description": "An abbreviation representing the country of the shipping location, following the ISO 3166-1 alpha-2 standard, for example, \"GB\" for the United Kingdom, ensuring that users have clear geographical context for the shipments being manifested.",
             "example": "GB"
           },
           "LocationPostcode": {
             "maxLength": 20,
             "type": "string",
-            "description": "Shipping Location Postcode",
+            "description": "The postal or ZIP code corresponding to the shipping location, used for sorting and identifying the geographical area of the despatch.",
             "nullable": true,
             "example": "TW20 0HJ"
           }
         },
         "additionalProperties": false,
-        "description": "Shipping Location\r<br />The location that this manifest is for."
+        "description": "The shipping location from which the shipments are being manifested, offering additional context about where the shipments originate."
       },
       "ManifestsPagedResponse": {
         "required": [
@@ -8067,11 +8053,11 @@
             "items": {
               "$ref": "#/components/schemas/Manifest"
             },
-            "description": "Manifests\r<br />The manifests for the requested page only."
+            "description": "An array of manifest objects for the requested page only, matching the query criteria. Each object contains detailed information about individual manifests, such as associated shipments, dates, service, and others."
           },
           "TotalCount": {
             "type": "integer",
-            "description": "Total Count\r<br />The total number of manifests available",
+            "description": "An integer representing the total number of manifests that match the specified query criteria.",
             "format": "int32",
             "example": 32
           }
@@ -8105,26 +8091,26 @@
           }
         },
         "additionalProperties": false,
-        "description": "A list of opening hours by day of week"
+        "description": "Precise information regarding the operating hours of the PUDO location by each day of the week, specifying when the location is open or closed to customers for pick-up or drop-off services."
       },
       "OpeningHoursTime": {
         "type": "object",
         "properties": {
           "OpeningTime": {
             "type": "string",
-            "description": "Opening time for this location in HH:MM:SS format",
+            "description": "The time when the PUDO location opens for business, providing users with essential information on when they can access the services.\r<br />\r<br />***Note**: This time is represented in the HH:MM:SS format.*",
             "nullable": true,
             "example": "09:00:00"
           },
           "ClosingTime": {
             "type": "string",
-            "description": "Closing time for this location in HH:MM:SS format",
+            "description": "The time when the PUDO location closes for business, helping users understand the operational hours and plan their visits accordingly.\r<br />\r<br />***Note**: This time is represented in the HH:MM:SS format.*",
             "nullable": true,
             "example": "17:30:00"
           }
         },
         "additionalProperties": false,
-        "description": "Opening Hours time"
+        "description": "The time when the PUDO location opens for business, providing users with essential information on when they can access the services.\r<br />\r<br />***Note**: This time is represented in the HH:MM:SS format.*"
       },
       "OrderDirection": {
         "enum": [
@@ -8144,54 +8130,54 @@
             "maximum": 5,
             "minimum": 1,
             "type": "integer",
-            "description": "Number of Copies",
+            "description": "An integer indicating how many copies of the specified document should be printed. This allows users to request multiple copies for various purposes, such as retaining records or providing documentation to customs.\r<br />\r<br />***Note**: By default, this value is set to 1.*",
             "format": "int32",
             "default": 1
           },
           "EoriNumber": {
             "maxLength": 17,
             "type": "string",
-            "description": "EORI Number\r<br />Shipper/Receiver's EORI number starts with the ISO Alpha-2 Country Code followed by a maximum 15 alphanumeric characters. For Northern Ireland starts with XI\r<br />Overrides the shipper's EORI number on the shipment if provided.\r<br />If both an EORI and VAT number exist, then only the EORI Number is printed on the CN23.",
+            "description": "The Economic Operators Registration and Identification (EORI) number assigned to businesses for trading in the EU. This number is necessary for customs clearance processes.\r<br />\r<br />Shipper/Receiver's EORI number starts with the ISO Alpha-2 Country Code followed by a maximum of 15 alphanumeric characters. For Northern Ireland, it starts with XI, respectively.\r<br />\r<br />***Note**: If this information is provided, it overrides the shipper's EORI number on the shipment. Additionally, if both VAT and EORI numbers are provided, then only the EORI number is printed on the CN23.*",
             "nullable": true,
             "example": "GB23456789000"
           },
           "VatNumber": {
             "maxLength": 15,
             "type": "string",
-            "description": "VAT Number\r<br />Overrides the shipper's VAT number on the shipment if provided.",
+            "description": "The Value Added Tax (VAT) registration number of the business or individual, used for taxation purposes in international transactions.\r<br />\r<br />***Note**: If this information is provided, it overrides the shipper's VAT number on the shipment.*",
             "nullable": true,
             "example": "GB 123 4567 89"
           },
           "ReasonForExport": {
             "maxLength": 30,
             "type": "string",
-            "description": "Identifies the purpose of the export, such as sale, gift, or return. This information is useful for customs processing to determine the appropriate tariffs and requirements. If the carrier is associated with the Universal Postal Union (UPU), then the allowed reasons for export are the following:<br /><br />• Gift<br />• Commercial Sample<br />• Documents<br />• Sale of Goods<br />• Ecommerce Sale of Goods<br />• Commercial Sale of Goods<br />• Return of Goods<br />• Mixed Content<br />• Other<br /><br />_**Note**_: _Before populating this field, keep in mind the following:_<br /><br />_If the **Sale of Goods** value is selected, the system automatically determines whether the shipment is **Ecommerce (B2C or D2C)** or **Commercial (B2B)** based on the value provided in the **BusinessTransactionType** field in the create shipment request._<br /><br />_If this information is provided, it overrides the shipment's reason for export._",
+            "description": "Identifies the purpose of the export, such as sale, gift, or return. This information is useful for customs processing to determine the appropriate tariffs and requirements.\r<br />\r<br />If the carrier is associated with the Universal Postal Union (UPU), then the allowed reasons for export are the following:\r<br /><ul><li>Gift</li><li>Commercial Sample</li><li>Documents</li><li>Sale of Goods</li><li>Ecommerce Sale of Goods</li><li>Commercial Sale of Goods</li><li>Return of Goods</li><li>Mixed Content</li><li>Other</li></ul>\r<br />***Note**: Before populating this field, keep in mind the following:*\r<br />\r<br /><ul><li>*If the **Sale of Goods** value is selected, the system automatically determines whether the shipment is **Ecommerce (B2C or D2C)** or **Commercial (B2B)** based on the value provided in the **BusinessTransactionType** field in the create shipment request.*</li><li>*If this information is provided, it overrides the shipment's reason for export.*</li></ul>",
             "nullable": true,
             "example": "Gift"
           },
           "Name": {
             "maxLength": 40,
             "type": "string",
-            "description": "Shipper's Name\r<br />Override the shipment's shipper's company/contact name if provided.",
+            "description": "The name of the individual (shipper) who is associated with the shipment. This personalises the documentation and can be important for official purposes.\r<br />\r<br />***Note**: If this information is provided, it overrides the shipment's shipper's company/contact name.*",
             "nullable": true,
             "example": "Jane Brown"
           },
           "Position": {
             "maxLength": 50,
             "type": "string",
-            "description": "Position\r<br />The shipper's job title in the sender's company.\r<br />*Note: The field can only be used with the proforma and commercial invoice. It will be ignored for CN23s.*",
+            "description": "The job title or position of the individual (shipper) named on the document. This information can add legitimacy and context to the document, especially if it is to be presented to authorities.\r<br />\r<br />***Note**: This field is only applicable for the proforma and commercial invoices. It is ignored for the CN23s.*",
             "nullable": true,
             "example": "Logistics Manager"
           },
           "SignatureImage": {
             "type": "string",
-            "description": "Signature Image\r<br />Base 64 encoded PNG or JPEG. Maximum image size supported is 240 x 34 pixels.\r<br />*Note: The field can only be used with the proforma and commercial invoice. It will be ignored for CN23s.*",
+            "description": "An image of the individual's signature, in the Base64 encoded PDF or JPEG format. This provides a digital representation of the signature, required on the customs documents for authenticity.\r<br />\r<br />***Note**: This field is only applicable for the proforma and commercial invoices. It is ignored for the CN23s.*",
             "nullable": true,
             "example": "iVBORw0KGgoAAAANSUhEUgAA ... A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4"
           },
           "CompanyStampImage": {
             "type": "string",
-            "description": "Company Stamp Image\r<br />Base 64 encoded PNG or JPEG. Maximum image size supported is 600 x 66 pixels.\r<br />*Note: The field can only be used with the proforma and commercial invoice. It will be ignored for CN23s.*",
+            "description": "An image of the company stamp, in the Base64 PDF or JPEG format. This stamp can be used to validate the document and provide a formal presentation of the company's authority.\r<br />\r<br />***Note**: This field is only applicable for the proforma and commercial invoices. It is ignored for the CN23s.*",
             "nullable": true,
             "example": "iVBORw0KGgoAAAANSUhEUgAA ... A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4"
           }
@@ -8209,15 +8195,24 @@
           "Document": {
             "minLength": 1,
             "type": "string",
-            "description": "Document\r<br />Base 64 encoded PDF",
+            "description": "The generated document returned as a Base64-encoded PDF, ready for downloading or printing. This represents the finalized version of the requested shipping document based on the provided parameters.",
             "example": "iVBORw0KGgoAAAANSUhEUgAA ... A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4"
           },
           "DocumentType": {
-            "$ref": "#/components/schemas/DocumentType"
+            "$ref": "#/components/schemas/PrintDocumentResponseDocumentType"
           }
         },
         "additionalProperties": false,
         "description": "Print Document Response"
+      },
+      "PrintDocumentResponseDocumentType": {
+        "enum": [
+          "CN23",
+          "PI",
+          "CI"
+        ],
+        "type": "string",
+        "description": "Specifies the type of document requested for printing. Common types include the following:\r<br /><ul><li> **CN23**: A customs declaration form used for packages sent outside of the EU.</li><li> **Proforma Invoice (PI)**: An estimated invoice provided prior to shipping, outlining the items, charges, and terms.</li><li> **Commercial Invoice (CI)**: A formal document provided by the seller to the buyer detailing the items sold, their prices, and terms of sale.</li></ul>\r<br />***Note**: By default, this field is set to CN23.*"
       },
       "Product": {
         "required": [
@@ -9387,67 +9382,67 @@
         "properties": {
           "ShippingAccountId": {
             "type": "string",
-            "description": "Shipping Account Id",
+            "description": "A unique identifier for each shipping account assigned by the SAPIENT system, allowing for efficient reference and management of individual accounts within the system.",
             "format": "uuid"
           },
           "ShipmentId": {
             "type": "string",
-            "description": "Shipment Id",
+            "description": "A unique identifier for each shipment. This ID is used to reference and track specific shipments within the system.",
             "format": "uuid"
           },
           "TrackingNumber": {
             "type": "string",
-            "description": "Tracking Number",
+            "description": "The tracking number assigned to the shipment by the carrier. This number is used to monitor the shipment's progress and location in transit.",
             "nullable": true
           },
           "BarcodeNumber": {
             "type": "string",
-            "description": "Barcode Number",
+            "description": "A unique barcode associated with the shipment, typically used for scanning and tracking purposes within logistics and shipping operations.",
             "nullable": true
           },
           "Reference1": {
             "type": "string",
-            "description": "Reference 1",
+            "description": "The shipper's reference for this shipment. This is usually the shipper's order number that is provided to the receiver when the order was made.",
             "nullable": true
           },
           "ShipmentDate": {
             "type": "string",
-            "description": "Shipment Date",
+            "description": "The date the shipment was created or dispatched. This timestamp helps users track the timeline of the shipment.\r<br />\r<br />***Note**: The date must be in the YYYY-MM-DD format.*",
             "format": "date"
           },
           "Status": {
             "type": "string",
-            "description": "Status",
+            "description": "The current operational status of the shipment, similar to the **Status** field described earlier, providing insight into where the shipment stands in its delivery process.",
             "nullable": true
           },
           "ManifestNumber": {
             "type": "string",
-            "description": "Manifest Number",
+            "description": "A unique number assigned to the shipment's manifest, which includes a list of all packages contained in a shipment, aiding in tracking and accountability.\r<br />\r<br />***Note**: If the shipment has not been manifested, then this field returns as blank.*",
             "nullable": true
           },
           "ContainerId": {
             "type": "string",
-            "description": "Container Id",
+            "description": "An identifier for any shipping container associated with the shipment, important for managing cargo and logistics at scale.",
             "nullable": true
           },
           "Carrier": {
             "type": "string",
-            "description": "Carrier Code",
+            "description": "A unique identifier for the carrier associated with the shipping account. This code is typically alphanumeric and helps in identifying the specific carrier linked to the shipping account.",
             "nullable": true
           },
           "DestinationCountryCode": {
             "type": "string",
-            "description": "Destination Country Code",
+            "description": "An abbreviation representing the destination country for the shipment, following the ISO 3166-1 alpha-2 standard, for example, \"GB\" for the United Kingdom.",
             "nullable": true
           },
           "LastUpdatedBy": {
             "type": "string",
-            "description": "Last Updated By",
+            "description": "The identifier (such as a username or system account) of the individual or system that last modified the shipment details, ensuring accountability.",
             "nullable": true
           },
           "LastUpdatedDateUtc": {
             "type": "string",
-            "description": "Last Updated Date UTC",
+            "description": "A timestamp indicating the last time the shipment details were updated, formatted in Coordinated Universal Time (UTC).",
             "format": "date-time"
           }
         },
@@ -9459,19 +9454,19 @@
         "properties": {
           "TrackingNumber": {
             "type": "string",
-            "description": "Tracking Number as provided in the request",
+            "description": "The tracking number assigned to the shipment by the carrier. This number is used to monitor the shipment's progress and location in transit.",
             "nullable": true,
             "example": "TT123456785GB"
           },
           "CarrierCode": {
             "type": "string",
-            "description": "Carrier Code as provided in the request",
+            "description": "A unique identifier for the carrier associated with the shipping account. This code is typically alphanumeric and helps in identifying the specific carrier linked to the shipping account.",
             "nullable": true,
             "example": "RM"
           },
           "ShipmentId": {
             "type": "string",
-            "description": "Shipment Id generated for the shipment",
+            "description": "A unique identifier for each shipment. This ID is used to reference and track specific shipments within the system.",
             "format": "uuid",
             "example": "c4e60776-288f-464e-b35b-ff0f3252c0f0"
           }
@@ -9491,31 +9486,31 @@
           "TrackingNumber": {
             "minLength": 1,
             "type": "string",
-            "description": "Tracking Number"
+            "description": "The tracking number assigned to the shipment by the carrier. This number is used to monitor the shipment's progress and location in transit."
           },
           "ShipmentId": {
             "type": "string",
-            "description": "Shipment Id\r<br />The shipment identifier as returned from creating shipments or from the trackings API endpoint.",
+            "description": "A unique identifier for each shipment as returned from the **Create Shipment** or **Trackings** API endpoint. This ID is used to reference and track specific shipments within the system.",
             "format": "uuid"
           },
           "ShipperReference": {
             "type": "string",
-            "description": "Shipper Reference\r<br />The shipper reference, as provided at the time the shipment was created or registered with the trackings API endpoint, or from the tracking event information (if available) if not supplied on shipment creation.",
+            "description": "The shipper's reference for this shipment. This is usually the shipper's order number that is provided to the receiver when the shipment was created.",
             "default": ""
           },
           "CarrierCode": {
             "minLength": 1,
             "type": "string",
-            "description": "Carrier Code"
+            "description": "A unique identifier for the carrier associated with the shipping account. This code is alphanumeric and helps in identifying the specific carrier."
           },
           "Milestone": {
             "type": "string",
-            "description": "Milestone\r<br />Either an empty string if the tracking event does not correspond to a milestone and no milestones have been triggered for the shipment, or else one of the following:\r<br />\r<br />- COLLECTED\r<br />- DELIVERED\r<br />- DELIVERY ATTEMPT FAILED\r<br />- IN CUSTOMS\r<br />- IN TRANSIT\r<br />- IT'S ON IT'S WAY\r<br />- OUT FOR DELIVERY\r<br />- PART DELIVERED\r<br />- READY FOR COLLECTION\r<br />- TRANSIT DELAY\r<br />- UNDELIVERABLE",
+            "description": "A sequence of stages within the shipment process that are essential for monitoring progress, such as collected, label printed, out for delivery, and so on.\r<br />\r<br />This can be an empty string if no milestone corresponds to the tracking event, or it may indicate a significant event that has occurred during shipment, such as the following:\r<br /> \r<br />• COLLECTED\r<br />• DELIVERED\r<br />• DELIVERY ATTEMPT FAILED\r<br />• IN CUSTOMS\r<br />• IN TRANSIT\r<br />• IT'S ON ITS WAY\r<br />• OUT FOR DELIVERY\r<br />• PART DELIVERED\r<br />• READY FOR COLLECTION\r<br />• TRANSIT DELAY\r<br />• UNDELIVERABLE",
             "default": ""
           },
           "MilestoneDateTime": {
             "type": "string",
-            "description": "Milestone Date/Time\r<br />Either an empty string if the tracking event does not correspond to a milestone and no milestones have been triggered for the shipment, or the milestone date and time.\r<br />Format: YYYY-MM-DD HH:MM:SS",
+            "description": "The date and time at which the milestone event occurred. This is crucial for understanding the timeline of the shipment's journey.\r<br />\r<br />***Note**: The milestone date and time will be in the YYYY-MM-DD HH:MM:SS format.*",
             "default": ""
           },
           "Events": {
@@ -9523,7 +9518,7 @@
             "items": {
               "$ref": "#/components/schemas/ShipmentTrackingWebhookPushPayloadEvent"
             },
-            "description": "Events"
+            "description": "An array of individual tracking events related to the shipment, providing detailed status updates and changes throughout the delivery process."
           }
         },
         "additionalProperties": false,
@@ -9541,13 +9536,13 @@
         "properties": {
           "EventId": {
             "type": "string",
-            "description": "Event Id\r<br />A unique identifier for the tracking event",
+            "description": "A unique identifier for each specific event within the tracking events.",
             "format": "uuid"
           },
           "EventType": {
             "minLength": 1,
             "type": "string",
-            "description": "Event Type\r<br />One of the following:\r<br />\r<br />- Delivery (if a final event)\r<br />- Milestone (if a tracking event that triggered a change of milestone)\r<br />- Tracking"
+            "description": "The type of event. This classification allows for quick identification of the shipment's status at any given time. The event type can be one of the following:\r<br /> \r<br />• Delivery (if a final event)\r<br />• Milestone (if a tracking event that triggered a change of milestone)\r<br />• Tracking"
           },
           "EventCode": {
             "$ref": "#/components/schemas/ShipmentTrackingWebhookPushPayloadEventCode"
@@ -9555,16 +9550,16 @@
           "EventDescription": {
             "minLength": 1,
             "type": "string",
-            "description": "Event Description"
+            "description": "A detailed description of the event, providing context and specifics about what happened at this stage of the shipment's journey."
           },
           "EventDateTime": {
             "minLength": 1,
             "type": "string",
-            "description": "Event Date/Time\r<br />Format: YYYY-MM-DD HH:MM:SS"
+            "description": "The date and time at which the event occurred, crucial for tracking the progress and timeline of the shipment.\r<br />\r<br />***Note**: The event date and time will be in the YYYY-MM-DD HH:MM:SS format.*"
           },
           "EventUtcOffset": {
             "type": "string",
-            "description": "Event UTC Offset\r<br />The UTC offset of the event date/time, if provided by the carrier.",
+            "description": "The offset from Coordinated Universal Time (UTC) at which the event occurred. If provided by the carrier, this helps in converting event times to different time zones as needed.",
             "default": ""
           },
           "EventLocation": {
@@ -9572,7 +9567,7 @@
           }
         },
         "additionalProperties": false,
-        "description": "Shipment Tracking Webhook Push Payload Event"
+        "description": "An array of individual tracking events related to the shipment, providing detailed status updates and changes throughout the delivery process."
       },
       "ShipmentTrackingWebhookPushPayloadEventCode": {
         "enum": [
@@ -9644,27 +9639,28 @@
           "PSRE",
           "RNCO",
           "RTNS",
-          "RUND"
+          "RUND",
+          "UDTS"
         ],
         "type": "string",
-        "description": "Event Code\r<br />Only supplied if the tracking webhook is configured to receive Full Tracking Events."
+        "description": "A specific code assigned to the event, aiding in further classification of the event type."
       },
       "ShipmentTrackingWebhookPushPayloadEventLocation": {
         "type": "object",
         "properties": {
           "Location": {
             "type": "string",
-            "description": "Location",
+            "description": "The specific geographical location (for example, city or facility name) where the event was recorded, providing insight into logistics.",
             "default": ""
           },
           "CountryCode": {
             "type": "string",
-            "description": "Country Code",
+            "description": "An abbreviation representing the country where the event location is based, following the ISO 3166-1 alpha-2 standard, for example, \"GB\" for the United Kingdom. This is important for international tracking and logistical considerations.",
             "default": ""
           }
         },
         "additionalProperties": false,
-        "description": "Shipment Tracking Webhook Push Payload Event Location"
+        "description": "The event location, indicating where the milestone or event took place."
       },
       "ShipmentsPagedResponse": {
         "required": [
@@ -9678,11 +9674,11 @@
             "items": {
               "$ref": "#/components/schemas/ShipmentResponse"
             },
-            "description": "Shipments\r<br />The shipments for the requested page only."
+            "description": "An array containing shipment objects for the requested page only. Each object includes detailed information about individual shipments."
           },
           "TotalCount": {
             "type": "integer",
-            "description": "Total Count\r<br />The total number of shipments matching the request.",
+            "description": "An integer representing the total number of shipments that match the specified query criteria. This provides users with an overview of how many shipments are available on the system, enabling better understanding of the dataset.",
             "format": "int32",
             "example": 32
           }
@@ -9708,7 +9704,7 @@
         "properties": {
           "ShippingAccountId": {
             "type": "string",
-            "description": "A unique identifier for each shipping account assigned by the system (ShippingAccountId), allowing for efficient reference and management of individual accounts within the system.",
+            "description": "A unique identifier for each shipping account assigned by the system **(ShippingAccountId)** or by you **(AccountAlias)**, allowing for efficient reference and management of individual accounts within the system.",
             "format": "uuid"
           },
           "CarrierCode": {
@@ -9730,7 +9726,7 @@
             "maxLength": 35,
             "minLength": 1,
             "type": "string",
-            "description": "The official name of the shipping account as designated by the user or organisation, aiding in easy identification and reference of accounts.",
+            "description": "The official name of the shipping account as designated by the user or organisation, aiding in easy identification and reference of accounts.\r<br />\r<br />***Note:** By default, this value is set to the customer name.*",
             "example": "AB VideoGames"
           },
           "AccountAlias": {
@@ -9743,7 +9739,7 @@
           "AccountStatus": {
             "minLength": 1,
             "type": "string",
-            "description": "The current status of the shipping account, which could denote whether it is enabled, disabled, or confirmed, helping users understand the account's usability.",
+            "description": "The current status of the shipping account, which could denote whether it is active, inactive, or suspended, helping users understand the account's usability.",
             "example": "Enabled"
           },
           "ContactName": {
@@ -9757,14 +9753,14 @@
             "maxLength": 20,
             "minLength": 1,
             "type": "string",
-            "description": "The phone number associated with the shipping account's primary contact person, facilitating communication regarding shipping inquiries, account management, and issue resolution.",
+            "description": "The phone number associated with the shipping account's primary contact person, facilitating communication regarding shipping inquiries, account management, and issue resolution.\r<br />\r<br />***Note**: Characters like +, /, -, or space are supported.*",
             "format": "tel",
             "example": "0123456789"
           },
           "LastUpdatedBy": {
             "minLength": 1,
             "type": "string",
-            "description": "The identifier (such as a username or system account) of the individual or system that last modified the shipping account information, ensuring accountability.",
+            "description": "The identifier (such as a username or system account) of the individual or system that last modified the shipping location information, ensuring accountability.",
             "example": "User A"
           },
           "LastUpdatedDateUtc": {
@@ -9788,11 +9784,11 @@
             "items": {
               "$ref": "#/components/schemas/ShippingAccount"
             },
-            "description": "An array containing the shipping accounts associated with the customer account that match the query parameters specified in the request."
+            "description": "An array containing all shipping accounts associated with the shipping location for the specific page only."
           },
           "TotalCount": {
             "type": "integer",
-            "description": "Total Count\r<br />The total number of accounts available",
+            "description": "An integer representing the total number of shipping accounts associated with the specified shipping location, giving users a quick overview of how many accounts are linked to their operations.",
             "format": "int32",
             "example": 303
           }
@@ -9824,7 +9820,7 @@
         "properties": {
           "ShippingLocationId": {
             "type": "string",
-            "description": "A unique identifier for the shipping location assigned by the system (shippingLocationId), allowing users to reference and manage specific locations effectively.",
+            "description": "A unique identifier assigned to the shipping location by the system (**shippingLocationId**). This ID is used to distinguish between different shipping locations within the system, facilitating, referencing and operations, such as updates, deletions, or specific queries related to that location.",
             "format": "uuid"
           },
           "LocationAlias": {
@@ -9836,7 +9832,7 @@
           },
           "IsDefaultLocation": {
             "type": "boolean",
-            "description": "A boolean value indicating whether the shipping location is set as the default for shipping operations, streamlining the selection process during shipping.\r<br />\r<br />***Note:** If true, then this location is set as the default one. Otherwise, it is set to false.*",
+            "description": "A boolean value indicating whether the shipping location is set as the default for shipping operations, streamlining the selection process during shipments. \r<br />\r<br />If the location is set as the default one, the customers no longer need to specify the location for every shipment request, reducing the risk of errors and delays. It enhances consistency by ensuring that all shipments are directed to the same default location.\r<br />\r<br />***Note:** If true, then this location is set as the default one. Otherwise, it is set to false.*",
             "example": false
           },
           "Timezone": {
@@ -9914,7 +9910,7 @@
             "maxLength": 2,
             "minLength": 2,
             "type": "string",
-            "description": "An abbreviation representing the country of the shipping location, following the ISO 3166-1 alpha-2 standard, for example,  \"GB\" for the United Kingdom.",
+            "description": "An abbreviation representing the country of the shipping location, following the ISO 3166-1 alpha-2 standard, for example, \"GB\" for the United Kingdom.",
             "nullable": true,
             "example": "GB"
           },
@@ -9946,7 +9942,7 @@
             "maxLength": 100,
             "minLength": 1,
             "type": "string",
-            "description": "A unique identifier for the shipping location assigned by the system or by you (alias), allowing users to reference and manage specific locations effectively.\r<br />\r<br />***Note:** The information provided in this field and the **ShippingAccountId** field are being linked with each other.*",
+            "description": "A unique identifier assigned to the shipping location by the system (**shippingLocationId**) or by you (**LocationAlias**). This ID is used to distinguish between different shipping locations within the system, facilitating referencing and operations, such as updates, deletions, or specific queries related to that location.",
             "example": "D94E8CFD-604B-4B87-83E9-3F20CAF02837"
           }
         },
@@ -10000,7 +9996,7 @@
             "items": {
               "$ref": "#/components/schemas/ShippingLocation"
             },
-            "description": "An array containing all shipping locations associated with a user or account requested for the specific page only."
+            "description": "An array containing all shipping locations for the user account associated with the CarrierCode that was requested for the specific page only."
           },
           "TotalCount": {
             "type": "integer",
@@ -10094,21 +10090,21 @@
           "ContactName": {
             "maxLength": 50,
             "type": "string",
-            "description": "Contact Name\r<br />The contact name or company name is required.\r<br />Up to 50 characters may be allowed.However it is carrier dependent. Some carriers may allow less.",
+            "description": "The name of the primary contact associated with the address. This field is essential for identification and communication purposes.",
             "nullable": true,
             "example": "Jane Doe"
           },
           "CompanyName": {
             "maxLength": 50,
             "type": "string",
-            "description": "Company Name\r<br />The contact name or company name is required.\r<br />Up to 50 characters may be allowed.However it is carrier dependent. Some carriers may allow less.",
+            "description": "The name of the company linked to the address. This field provides context for the address, especially in business-related queries.",
             "nullable": true,
             "example": "My Company Ltd."
           },
           "ContactEmail": {
             "maxLength": 254,
             "type": "string",
-            "description": "Contact Phone Number",
+            "description": "The email address of the primary contact for the address. This is used for correspondence and can facilitate communication directly related to the address.",
             "format": "email",
             "nullable": true,
             "example": "jane@example.com"
@@ -10116,63 +10112,57 @@
           "ContactPhone": {
             "maxLength": 20,
             "type": "string",
-            "description": "Contact Phone Number",
+            "description": "The phone number of the primary contact associated with the address. This field is crucial for any immediate communication needs.",
             "format": "tel",
-            "nullable": true,
-            "example": "07123887422"
+            "nullable": true
           },
           "Line1": {
             "maxLength": 50,
             "minLength": 1,
             "type": "string",
-            "description": "Address Line 1\r<br />Up to 50 characters may be allowed, however it is carrier dependent and some carriers may allow less.",
+            "description": "The first line of the address, typically containing the primary address information such as house number and street name.",
             "example": "10 Sky Lane"
           },
           "Line2": {
             "maxLength": 50,
             "type": "string",
-            "description": "Address Line 2\r<br />Up to 50 characters may be allowed, however it is carrier dependent and some carriers may allow less.",
-            "nullable": true,
-            "example": "123 Main Street"
+            "description": "An optional second line for the address, often used for additional details like apartment numbers or suite designations.",
+            "nullable": true
           },
           "Line3": {
             "maxLength": 50,
             "type": "string",
-            "description": "Address Line 3\r<br />Up to 50 characters may be allowed, however it is carrier dependent and some carriers may allow less.",
-            "nullable": true,
-            "example": "Hills End"
+            "description": "A third optional line in the address to include any further address specifications, allowing for more detailed address information if necessary.",
+            "nullable": true
           },
           "Town": {
             "maxLength": 50,
             "minLength": 1,
             "type": "string",
-            "description": "Town\r<br />Up to 50 characters may be allowed, however it is carrier dependent and some carriers may allow less.",
-            "example": "Christchurch"
+            "description": "The town or city, indicating the specific locality where the address is located."
           },
           "Postcode": {
             "maxLength": 20,
             "type": "string",
-            "description": "Postcode / Zip\r<br />Required for United Kingdom addresses and some international addresses.\r<br />The Countries API can be used to check whether postcode/zip code is required for a country.\r<br />Up to 20 characters may be allowed, however it is carrier dependent and some carriers may allow less.",
-            "nullable": true,
-            "example": "TW20 0HJ"
+            "description": "The postal or ZIP code corresponding to the address, used to identify specific geographic areas.",
+            "nullable": true
           },
           "County": {
             "maxLength": 50,
             "type": "string",
-            "description": "County / State / Province\r<br />May be required depending on the country.\r<br />For USA, Australia and Canada, if provided, must be a valid state code or name.\r<br />The Countries API can be used to check whether county/state is required for a country.\r<br />Up to 50 characters may be allowed, however it is carrier dependent and some carriers may allow less.",
-            "nullable": true,
-            "example": "Surrey"
+            "description": "The county, state, or province in which the address is located, providing additional geographical context for the address.",
+            "nullable": true
           },
           "CountryCode": {
             "maxLength": 2,
             "minLength": 2,
             "type": "string",
-            "description": "Country Code\r<br />2 Digit ISO Country Code, per ISO 3166 Standard.",
+            "description": "An abbreviation representing the country of the address, following the ISO 3166-1 alpha-2 standard, for example, \"GB\" for the United Kingdom.",
             "example": "GB"
           },
           "What3Words": {
             "type": "string",
-            "description": "The what3words identifier for this address.",
+            "description": "A three-word location identifier provided by the What3words service, offering a precise way to define addresses using a unique combination of three words, for example, the front door of 10 Downing Street in London is identified by slurs.this.shark.",
             "nullable": true,
             "example": "brick.space.employ"
           }
@@ -10291,7 +10281,7 @@
           },
           "Reason": {
             "type": "string",
-            "description": "Reason\r<br />The reason for this status update.\r<br />            \r<br />If the status you are updating to is 'Hold' the reason is required and must be one of the following values:\r<br />**Awaiting Dispatch**\r<br />**Awaiting Payment**\r<br />**Awaiting Stock**\r<br />**Awaiting Customer Response**\r<br />**Held for Shipping Day**\r<br />**Weight Consolidation**\r<br />**Warehouse Processing**\r<br />            \r<br />If the status you are updating to is 'Cancel', the reason is required and must be one of the following values:\r<br />**Order Cancelled**\r<br />**Packed in Error**\r<br />**Repacked**",
+            "description": "A string providing the reason for the status update. Depending on the shipment's current status, specify why a shipment's status is being changed, adding context and aiding in future audits and management.\r<br />\r<br />If the status you are updating to is **Hold**, then you must provide the reason using one of the following values:\r<br />• Awaiting Dispatch\r<br />• Awaiting Payment\r<br />• Awaiting Stock\r<br />• Awaiting Customer Response\r<br />• Held for Shipping Day\r<br />• Weight Consolidation\r<br />• Warehouse Processing\r<br />\r<br />If the status you are updating to is **Cancel**, then you must provide the reason using one of the following values:\r<br />• Order Cancelled\r<br />• Packed in Error\r<br />• Repacked",
             "nullable": true
           },
           "ShipmentIds": {
@@ -10299,7 +10289,7 @@
             "items": {
               "type": "string"
             },
-            "description": "Shipment Ids\r<br />The shipments to apply the change to.\r<br />There must be at least 1 shipment and a maximum of 99.\r<br />            \r<br />The Shipment Id may be an id or a tracking/barcode number.\r<br />For consignment shipments, only the consignment level tracking/barcode number can be used."
+            "description": "An array of unique identifiers for the shipments that are being updated. This field specifies to which shipments the new status will apply, allowing for batch processing of multiple shipments in a single request.\r<br />\r<br />***Note**: There must be at least one shipment and a maximum of 99. This value can be an ID or a tracking/barcode number. However, for consignment shipments, only the consignment-level tracking/barcode number can be used.*"
           }
         },
         "additionalProperties": false,
@@ -10313,7 +10303,7 @@
           "Picked"
         ],
         "type": "string",
-        "description": "Update Status Type\r<br />\r<br />**Hold** - Put the shipments on hold for up to 28 days. Shipments on hold for longer than 28 days will be cancelled. A shipment on hold will not be included in an closeouts/manifests, but instead will remain in its current state. You can only put shipments on hold that are in the 'LabelPrinted' status as only shipments with this status are included in manifests.\r<br />**Cancel** - Use to cancel/void one or more current shipments. This can only be used before a shipment has been confirmed by being manifested.\r<br />**Release** - Use to release shipments from hold and shipments cancelled for less than 24 hours. Once released, the shipment will be included in the next manifest.\r<br />**Picked** - Set the shipment to picked. This means this shipment will only be manifested if you choose to manifest 'Picked' shipments."
+        "description": "A field indicating one of the following statuses to assign to the specified shipments.\r<br /><ul><li><b>Hold</b>: Temporarily pauses the shipment, preventing it from proceeding until further action is taken. Before putting the shipment on hold, make sure of the following:\r<br /><ul><li>You can only put the shipments on hold for up to 28 days.</li><li>Shipments that are held for longer than 28 days will be cancelled.</li><li>A shipment on hold will not be included in an closeouts/manifests, but instead will remain in its current state.</li><li>You can only put shipments on hold that are in the **LabelPrinted** status, as only shipments with this status are included in the manifests.</li></ul></li><li><b>Cancel</b>: Marks the shipment as cancelled, indicating it will no longer be processed or delivered. This can only be used before a shipment has been confirmed by being manifested.</li><li><b>Release</b>: Changes the shipment status to indicate it is cleared for delivery or further processing. Used to release shipments that were held for less than 24 hours. Once released, the shipment is included in the next manifest.</li><li><b>Picked</b>: Indicates that the shipment has been picked up and is being prepared for delivery. This means this shipment will only be manifested if you choose to manifest the 'Picked' shipments.</li></ul>"
       },
       "WeightUnitOfMeasure": {
         "enum": [
@@ -10321,7 +10311,7 @@
           "Grams"
         ],
         "type": "string",
-        "description": " The unit of measure used for all weight values in the shipment, expressed in grams and kilograms, for example, **DeclaredWeight**, **ItemWeight**. This is crucial for accurately describing shipment weight.\r<br /> \r<br />***Note:** By default, this field is set to KG.*"
+        "description": "The unit of measurement for the weight provided, such as **TotalWeight**, indicating whether the weight is specified in kilograms (KG) or grams (G), ensuring clarity for shipping calculations.\r<br /> \r<br />***Note**: By default, this field is set to KG.*"
       }
     },
     "securitySchemes": {
@@ -10369,7 +10359,7 @@
     },
     {
       "name": "Containers",
-      "description": "A container is a way of grouping specific shipments together ready for manifesting.\n\nThis section provides information relating to creating and managing containers and their associated shipments prior to manifesting\n\nNote: It is not mandatory to develop the Container API, however this feature might help if you need to manifest certain groups of shipments separate from the rest of the shipments you produced that day i.e. you might want to create a container for Royal Mail's collection at 2PM, and than have a separate container for collection at 3PM. By placing all the individual shipments into a container this allows you to manifest unlimited numbers of shipments."
+      "description": "A container is a way of grouping specific shipments together ready for manifesting.\n\nThis section provides information relating to creating and managing containers and their associated shipments prior to manifesting\n\nNote: It is not mandatory to develop the Container API, however this feature might help if you need to manifest certain groups of shipments separate from the rest of the shipments you produced that day i.e. you might want to create a container for Royal Mail's collection at 2PM, and then have a separate container for collection at 3PM. By placing all the individual shipments into a container this allows you to manifest unlimited numbers of shipments."
     },
     {
       "name": "Products",
