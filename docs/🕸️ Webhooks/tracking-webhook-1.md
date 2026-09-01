@@ -38,7 +38,7 @@ Choose the guide that matches the webhook task you want to complete:
     Receive notifications when asynchronous manifest processing completes.
   </Card>
 
-  <Card title="Set up Shipment Webhook Connection">
+  <Card title="Set up Shipment Webhook Connection" icon="fad fa-pallet-boxes">
     Create a shipment request using this endpoint for asynchronous processing.
   </Card>
 
