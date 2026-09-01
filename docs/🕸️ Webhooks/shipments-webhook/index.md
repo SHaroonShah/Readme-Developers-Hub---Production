@@ -46,8 +46,6 @@ Submit a request to the **Create Shipment Async** endpoint. The system processes
   </Tab>
 </Tabs>
 
-<br />
-
 ## Retry process
 
 If the system cannot deliver a response to your webhook endpoint, it stores the failed response and retries delivery automatically.
