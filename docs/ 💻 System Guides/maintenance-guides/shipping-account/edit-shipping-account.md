@@ -17,15 +17,15 @@ next:
 The editing process ensures that the information is current and accurate, which is crucial for timely and correct shipping operations. Additionally, this process has the following advantages:
 
 <Cards>
-  <Card title="Error Correction" icon="edit">
+  <Card title="Error Correction" icon="fa-solid fa-edit">
     When incorrect information is entered, it can be easily edited to rectify errors, helping to avoid shipping delays or returns caused by wrong details.
   </Card>
 
-  <Card title="Enhanced User Experience" icon="user">
+  <Card title="Enhanced User Experience" icon="fa-solid fa-user">
     Enhances user experience by allowing for seamless updates to shipping preferences or settings based on changing needs.
   </Card>
 
-  <Card title="System Integration" icon="sync">
+  <Card title="System Integration" icon="fa-solid fa-sync">
     Helps to keep shipping information synchronised with other systems, such as inventory or order management systems.
   </Card>
 </Cards>
@@ -89,7 +89,5 @@ To edit a shipping account, perform the steps as explained in the following proc
 <Callout icon="🚧" theme="warn">
   ### **_Important_**
 
-  _The fields in the&#x20;_**_Edit Shipping Account_**_&#x20;form may differ based on the carrier account you choose. For more information on how to correctly fill these fields, refer to the&#x20;_<Anchor target="_blank" href="https://docs.intersoftsapient.net/v4.04/docs/carrier-specific-user-guides">*Carrier specific user guides*</Anchor>_&#x20;section of our documentation._
+  _The fields in the&#x20;_**_Edit Shipping Account_**_&#x20;form may differ based on the carrier account you choose. For more information on how to correctly fill these fields, refer to the&#x20;_<Anchor target="_blank" href="https://docs.intersoftsapient.net/v4.04/docs/carrier-specific-user-guides">_Carrier specific user guides_</Anchor>_&#x20;section of our documentation._
 </Callout>
-
-<br />
