@@ -13,6 +13,12 @@ Use the _Shipment Webhook_ to create shipments asynchronously, so you can submit
 
 Asynchronous processing separates request submission from label generation. This supports high-volume operations and lets you prepare shipments for pick-and-pack workflows before printing labels on demand.
 
+<Callout icon="📘" theme="info">
+  ### _Note_
+
+
+</Callout>
+
 ## Key benefits
 
 - Improves performance and reliability by removing synchronous dependencies.
