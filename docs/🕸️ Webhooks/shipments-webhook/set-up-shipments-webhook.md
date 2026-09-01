@@ -31,10 +31,6 @@ This functionality helps reduce API response-time dependency, improve scalabilit
 
 To set up the shipment webhook connection in SAPIENT, perform the steps as explained in the following procedure.
 
-
-<Image src="https://files.readme.io/964792810eaa120e94a1b00aa2c61af71856be5ae5244fbf6644b00f2fc191ea-Selecting_Shipment_Webhook_tab.png" align="center" caption="Accessing shipment webhook" border={true} />
-
-
 <br />
 
 <ToggleList>
@@ -55,7 +51,7 @@ To set up the shipment webhook connection in SAPIENT, perform the steps as expla
 
     In the **WEBHOOK DETAILS** block, enter the required information based on your authentication type:
 
-    <Image align="center" border={true} src="https://files.readme.io/9ce50f6d2ac1bc058b72b5232cf2b81a2ed76a909088ca2512d01f617884f1c4-Adding_tracking_webhook.png" width="500px" caption="Entering webhook details" />
+    <Image src="https://files.readme.io/b52b8bc9102dccbba515db81a71706b00d76d1a36fb89df2e68ce05a067b03d8-Shipment_Webhook_OAuth_screen.png" align="center" caption="Entering webhook details" border={true} />
 
     <br />
 
@@ -141,4 +137,5 @@ To set up the shipment webhook connection in SAPIENT, perform the steps as expla
   <Card title="Handle Webhook Suspension" href="https://docs.intersoftsapient.net/docs/webhook-suspension" icon="fa-solid fa-dial-max" target="_blank">
     Manage and resolve webhook suspension scenarios.
   </Card>
+
 </Cards>
