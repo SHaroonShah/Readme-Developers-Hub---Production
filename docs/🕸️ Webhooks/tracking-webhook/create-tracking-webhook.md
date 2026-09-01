@@ -123,7 +123,7 @@ To set up the tracking webhook connection in SAPIENT, perform the steps as expla
     <Callout icon="💡" theme="default">
       ### *Tip*
 
-      *Find detailed lists of milestones and tracking events in the[Tracking events and milestones](https://docs.intersoftsapient.net/docs/tracking-events-and-milestones) section.*
+      *Find detailed lists of milestones and tracking events in the [Tracking events and milestones](https://docs.intersoftsapient.net/docs/tracking-events-and-milestones) section.*
     </Callout>
 
     ***
@@ -144,7 +144,7 @@ To set up the tracking webhook connection in SAPIENT, perform the steps as expla
 
     > 🚧 *Important*
     >
-    > *The webhook only works in**Active** state. Configuration changes deactivate it, so ensure the toggle is **Active** after any updates.*
+    > *The webhook only works in **Active** state. Configuration changes deactivate it, so ensure the toggle is **Active** after any updates.*
 
     ***
   </ToggleListItem>
