@@ -135,8 +135,8 @@ To set up the shipment webhook connection in SAPIENT, perform the steps as expla
   <Card title="Handle Webhook Suspension" href="https://docs.intersoftsapient.net/docs/webhook-suspension" icon="fa-solid fa-dial-max" target="_blank">
     Manage and resolve webhook suspension scenarios.
   </Card>
- <Card title="Shipment Webhook" href="https://docs.intersoftsapient.net/docs/webhook-suspension" icon="fa-solid fa-webhook" target="_blank">
-    Explore and learn more on how to create a async shipment request.
+ <Card title="Shipment Webhook" href="https://docs.intersoftsapient.net/docs/shipments-webhook" icon="fa-solid fa-webhook" target="_blank">
+    Explore and learn more on how to use the Shipment Webhook to create shipments asynchronously and receive processing results at your configured webhook endpoint.
   </Card>
 
 </Cards>
