@@ -16,7 +16,7 @@ Asynchronous processing separates request submission from label generation. This
 <Callout icon="📘" theme="info">
   ### _Note_
 
-
+  _This feature is available for all carriers and supports all shipment actions, such as Allocate, Create, and Process when no action is specified.&#x20;_
 </Callout>
 
 ## Key benefits
