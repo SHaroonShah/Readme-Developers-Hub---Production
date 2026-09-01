@@ -9,7 +9,7 @@ icon: fad fa-webhook
 metadata:
   robots: index
 ---
-Use the *Shipment Webhook* to create shipments asynchronously, so you can submit shipment requests without waiting for immediate label generation.
+Use the _Shipment Webhook_ to create shipments asynchronously, so you can submit shipment requests without waiting for immediate label generation.
 
 Asynchronous processing separates request submission from label generation. This supports high-volume operations and lets you prepare shipments for pick-and-pack workflows before printing labels on demand.
 
@@ -30,16 +30,13 @@ Submit a request to the **Create Shipment Async** endpoint. The system processes
 
 <Tabs>
   <Tab title="Webhook inactive">
-
-The system rejects the request with an error response, such as a webhook inactive or not configured error. You can use the standard **Create Shipment** endpoint instead.
-
+    The system rejects the request with an error response, such as a webhook inactive or not configured error. You can use the standard **Create Shipment** endpoint instead.
   </Tab>
+
   <Tab title="Webhook active">
+    The system accepts the request and returns a **RequestID**. It queues the shipment for asynchronous processing and sends the result to your configured webhook endpoint when processing finishes.
 
-The system accepts the request and returns a **RequestID**. It queues the shipment for asynchronous processing and sends the result to your configured webhook endpoint when processing finishes.
-
-The result contains either a success response for the requested action or an error response if processing fails.
-
+    The result contains either a success response for the requested action or an error response if processing fails.
   </Tab>
 </Tabs>
 
@@ -51,4 +48,6 @@ When the webhook is suspended, the system retains pending responses and delivers
 
 The system stores responses in blob storage for re-delivery. Data-retention policies and storage-capacity considerations apply to stored responses.
 
-<br />
+***
+
+###
