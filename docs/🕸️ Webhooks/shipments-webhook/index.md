@@ -29,16 +29,18 @@ Submit a request to the **Create Shipment Async** endpoint. The system processes
 3. Handles the request according to the webhook status.
 
 <Tabs>
-  <Tab title="Webhook inactive">
-    The system rejects the request with an error response, such as a webhook inactive or not configured error. You can use the standard **Create Shipment** endpoint instead.
-  </Tab>
-
   <Tab title="Webhook active">
     The system accepts the request and returns a **RequestID**. It queues the shipment for asynchronous processing and sends the result to your configured webhook endpoint when processing finishes.
 
     The result contains either a success response for the requested action or an error response if processing fails.
   </Tab>
+
+  <Tab title="Webhook inactive">
+    The system rejects the request with an error response, such as a webhook inactive or not configured error. You can use the standard **Create Shipment** endpoint instead.
+  </Tab>
 </Tabs>
+
+<br />
 
 ## Retry process
 
@@ -49,6 +51,7 @@ When the webhook is suspended, the system retains pending responses and delivers
 The system stores responses in blob storage for re-delivery. Data-retention policies and storage-capacity considerations apply to stored responses.
 
 ***
+
 ## Getting started
 
 <Cards columns="2">
