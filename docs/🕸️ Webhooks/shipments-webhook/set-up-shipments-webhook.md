@@ -29,15 +29,21 @@ This functionality helps reduce API response-time dependency, improve scalabilit
 
 ## How to set up shipment webhook connection
 
-To set up the tracking webhook connection in SAPIENT, perform the steps as explained in the following procedure.
+To set up the shipment webhook connection in SAPIENT, perform the steps as explained in the following procedure.
+
+
+<Image src="https://files.readme.io/964792810eaa120e94a1b00aa2c61af71856be5ae5244fbf6644b00f2fc191ea-Selecting_Shipment_Webhook_tab.png" align="center" caption="Accessing shipment webhook" border={true} />
+
+
+<br />
 
 <ToggleList>
   <ToggleListItem title={<strong>1. Access tracking webhook </strong>} icon="fa-rocket">
     <br />
 
-    On the SAPIENT **Home** page, navigate to **API** > **Webhooks** in the left panel. The **Tracking Webhook** tab opens by default.
+    On the SAPIENT **Home** page, navigate to **API** > **Webhooks** in the left panel. On the page that opens, select the **Shipment Webhook** tab.
 
-    <Image align="center" border={true} src="https://files.readme.io/7becde66bf84f680af845714283a1b1f8b8d4a236c27df0d5feea8e22b2fa051-Tracking_webhok_tab.png" caption="Accessing tracking webhook" />
+    <Image src="https://files.readme.io/964792810eaa120e94a1b00aa2c61af71856be5ae5244fbf6644b00f2fc191ea-Selecting_Shipment_Webhook_tab.png" align="center" caption="Accessing shipment webhook" border={true} />
 
     ***
   </ToggleListItem>
@@ -61,9 +67,9 @@ To set up the tracking webhook connection in SAPIENT, perform the steps as expla
 
         | Field              | Description                                             |
         | ------------------ | ------------------------------------------------------- |
-        | **Endpoint URL**\* | Your endpoint URL for connection identification         |
-        | **Username**\*     | Username to identify and authenticate INTERSOFT payload |
-        | **Password**\*     | Password for the specified username                     |
+        | **Endpoint URL**\* | Enter the endpoint URL for connection identification.         |
+        | **Username**\*     | Enter the username to identify and authenticate INTERSOFT payload. |
+        | **Password**\*     | Enter the password for the specified username.                     |
       </Tab>
 
       <Tab title="OAuth2 Authentication">
@@ -71,10 +77,10 @@ To set up the tracking webhook connection in SAPIENT, perform the steps as expla
 
         | Field              | Description                                            |
         | ------------------ | ------------------------------------------------------ |
-        | **Endpoint URL**\* | Your endpoint URL for connection identification        |
-        | **Token URL**\*    | Endpoint to connect and retrieve security token        |
-        | **Client ID**\*    | Client identifier for INTERSOFT payload authentication |
-        | **Secret**\*       | Secret key for INTERSOFT payload authentication        |
+        | **Endpoint URL**\* | Enter the endpoint URL for connection identification.        |
+        | **Token URL**\*    | Enter the endpoint to connect and retrieve security token.        |
+        | **Client ID**\*    | Enter the client identifier for INTERSOFT payload authentication |
+        | **Secret**\*       | Enter the secret key for INTERSOFT payload authentication        |
       </Tab>
     </Tabs>
 
@@ -92,7 +98,7 @@ To set up the tracking webhook connection in SAPIENT, perform the steps as expla
 
     <br />
 
-    Following the success response, a test tracking payload is sent to the webhook as follows:
+    If the connection is successful, the following message is displayed:  
 
     <Image align="center" border={true} src="https://files.readme.io/6b06c9d-image.png" caption="tracking payload response example" />
 
@@ -181,5 +187,3 @@ To set up the tracking webhook connection in SAPIENT, perform the steps as expla
     Manage and resolve webhook suspension scenarios.
   </Card>
 </Cards>
-
-<br />
