@@ -31,8 +31,6 @@ This functionality helps reduce API response-time dependency, improve scalabilit
 
 To set up the shipment webhook connection in SAPIENT, perform the steps as explained in the following procedure.
 
-<br />
-
 <ToggleList>
   <ToggleListItem title={<strong>1. Access tracking webhook </strong>} icon="fa-rocket">
     <br />
