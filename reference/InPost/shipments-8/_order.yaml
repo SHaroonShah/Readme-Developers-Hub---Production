@@ -1,2 +1,3 @@
 - post_v4-shipments-inpost
 - get_v4-shipments-printlabel-inpost-shipmentid
+- post_v4-shipments-async-inpost
