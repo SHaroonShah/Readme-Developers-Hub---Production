@@ -100,12 +100,6 @@ To set up the shipment webhook connection in SAPIENT, perform the steps as expla
 
     <br />
 
-    If the connection is successful, the following message is displayed:  
-
-    <Image align="center" border={true} src="https://files.readme.io/6b06c9d-image.png" caption="tracking payload response example" />
-
-    <br />
-
     If for some reason, the connectivity test fails, the following message is displayed:
 
     <Image align="center" border={true} src="https://files.readme.io/65a4983-image.png" width="660px" caption="Failed connection response" />
