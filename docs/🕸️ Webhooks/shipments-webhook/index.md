@@ -66,6 +66,6 @@ The system stores responses in blob storage for re-delivery. Data-retention poli
   </Card>
 
   <Card title="Create Shipment Async" href="https://docs.intersoftsapient.net/reference/post_v4-shipments-async-rm" icon="fad fa-square-plus" target="_blank">
-    Create a shipment request using this endpoint for asynchronous processing
+    Create a shipment request using this endpoint for asynchronous processing.
   </Card>
 </Cards>
