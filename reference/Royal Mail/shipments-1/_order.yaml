@@ -1,5 +1,5 @@
 - post_v4-shipments-rm
+- post_v4-shipments-async-rm
 - get_v4-shipments-printlabel-rm-shipmentid
 - get_v4-shipments-printmylabelqrcode-rm-shipmentid
 - post_v4-shipments-preallocatetrackingnumber-rm
-- post_v4-shipments-async-rm
