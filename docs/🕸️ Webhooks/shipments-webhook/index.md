@@ -4,8 +4,10 @@ excerpt: >-
   Use the Shipment Webhook to create shipments asynchronously and receive
   processing results at your configured webhook endpoint.
 deprecated: false
-hidden: true
+hidden: false
 icon: fad fa-webhook
+link:
+  new_tab: false
 metadata:
   robots: index
 ---
