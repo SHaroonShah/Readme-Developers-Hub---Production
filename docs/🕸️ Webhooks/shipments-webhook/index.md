@@ -30,7 +30,7 @@ Asynchronous processing separates request submission from label generation. This
 
 Submit a request to the **Create Shipment Async** endpoint. The system processes the request as follows:
 
-1. Checks whether the **Shipment Webhook** is configured.
+1. Checks whether the **Shipment Webhook** is configured via the SAPIENT UI.
 2. Performs initial schema validation on the request.
 3. Handles the request according to the webhook status.
 
