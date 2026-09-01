@@ -7,7 +7,7 @@ excerpt: >-
   ID and then sends the completed shipment response (including labels and
   carrier details) to the customer's webhook endpoint once processing finishes.
 deprecated: false
-hidden: true
+hidden: false
 icon: fad fa-webhook
 metadata:
   robots: index
