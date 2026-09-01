@@ -109,11 +109,11 @@ To set up the tracking webhook connection in SAPIENT, perform the steps as expla
     Choose your preferred tracking event level from the dropdown:
 
     <Cards columns={2}>
-      <Card title="Milestones" icon="flag">
+      <Card title="Milestones" icon="fa-solid fa-flag">
         Receive tracking milestones only, allowing key status updates throughout the shipping journey.
       </Card>
 
-      <Card title="Full Tracking Events" icon="stream">
+      <Card title="Full Tracking Events" icon="fa-solid fa-stream">
         Receive all tracking events with optional **Received Expired Event** toggle for shipments without tracking numbers after set days.
       </Card>
     </Cards>
