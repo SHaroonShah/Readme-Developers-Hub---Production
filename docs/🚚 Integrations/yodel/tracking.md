@@ -1,5 +1,5 @@
 ---
-title: Add YODEL tracking account
+title: 'Add YODEL tracking account '
 excerpt: >-
   A _tracking account_ is a dedicated account that helps users, businesses, or
   customers to monitor and manage the status of shipments in real-time. This
@@ -8,12 +8,12 @@ excerpt: >-
 deprecated: false
 hidden: true
 icon: fad fa-calendar-circle-plus
+link:
+  new_tab: false
 metadata:
   title: ''
   description: ''
   robots: index
-next:
-  description: ''
 ---
 In SAPIENT, you can add tracking accounts for YODEL to enhance visibility, improving customer interactions, and streamlining logistics operations for YODEL.
 
@@ -22,12 +22,12 @@ In SAPIENT, you can add tracking accounts for YODEL to enhance visibility, impro
 
   _Prior to adding a YODEL tracking account, make sure you have completed the following prerequisites:_
 
-  1. _Sent the [corresponding request to YODEL](mailto:ISSOnbording@Yodel.co.uk) via email with the subject line “Intersoft (your client name) STFP IOD tracking request”. In the body of the email, make sure to add the following details:_
+  1. _Sent the&#x20;_[corresponding request to YODEL](mailto:ISSOnbording@Yodel.co.uk)_&#x20;via email with the subject line “Intersoft (your client name) STFP IOD tracking request”. In the body of the email, make sure to add the following details:_
 
      **_\[Your client name] would like IOD tracking enabled for the following Yodel contract number (7 digit number). Please respond to this email with the SFTP username and password and file naming convention for IOD tracking files._**
-  2. _Enabled the [label integration](https://docs.intersoftsapient.net/docs/integration-activation) with YODEL._
-  3. _Enabled the [tracking integration](https://docs.intersoftsapient.net/docs/integration-activation) with YODEL._
-  4. _Set up your <Glossary>tracking webhook</Glossary>. For more information on how to set up a tracking webhook, refer to the [Create tracking webhook](https://docs.intersoftsapient.net/docs/create-tracking-webhook) section. This is a one-time activity, you do not have to do this every time you add a tracking account._
+  2. _Enabled the&#x20;_[label integration](https://docs.intersoftsapient.net/docs/integration-activation)_&#x20;with YODEL._
+  3. _Enabled the&#x20;_[tracking integration](https://docs.intersoftsapient.net/docs/integration-activation)_&#x20;with YODEL._
+  4. _Set up your&#x20;_<Glossary>tracking webhook</Glossary>_. For more information on how to set up a tracking webhook, refer to the&#x20;_[Create tracking webhook](https://docs.intersoftsapient.net/docs/create-tracking-webhook)_&#x20;section. This is a one-time activity, you do not have to do this every time you add a tracking account._
 </Callout>
 
 ## How to add YODEL tracking account
