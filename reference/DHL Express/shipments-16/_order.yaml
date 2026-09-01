@@ -1,2 +1,3 @@
 - post_v4-shipments-dhlexpress
 - get_v4-shipments-printlabel-dhlexpress-shipmentid
+- post_v4-shipments-async-dhlexpress
