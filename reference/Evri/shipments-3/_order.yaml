@@ -1,4 +1,4 @@
 - post_v4-shipments-evri
+- post_v4-shipments-async-evri
 - get_v4-shipments-printlabel-evri-shipmentid
 - get_v4-shipments-printmylabelqrcode-evri-shipmentid
-- post_v4-shipments-async-evri
