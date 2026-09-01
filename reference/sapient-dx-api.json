@@ -95,7 +95,7 @@
                       "ContactNumber": "0123456789",
                       "Username": "Username1",
                       "LastUpdatedBy": "User A",
-                      "LastUpdatedDateUtc": "2026-08-11T08:44:22.465Z"
+                      "LastUpdatedDateUtc": "2026-09-01T07:38:05.600Z"
                     },
                     {
                       "ShippingAccountId": "46d58272-5f6a-405d-a947-c46c9caea56f",
@@ -109,7 +109,7 @@
                       "ContactNumber": "0123456789",
                       "Username": "Username2",
                       "LastUpdatedBy": "User B",
-                      "LastUpdatedDateUtc": "2026-08-11T08:44:22.465Z"
+                      "LastUpdatedDateUtc": "2026-09-01T07:38:05.600Z"
                     }
                   ],
                   "TotalCount": 2
@@ -265,7 +265,7 @@
                   "ContactNumber": "0123456789",
                   "Username": "Username",
                   "LastUpdatedBy": "User A",
-                  "LastUpdatedDateUtc": "2026-08-11T08:44:22.850Z"
+                  "LastUpdatedDateUtc": "2026-09-01T07:38:05.804Z"
                 }
               }
             }
@@ -384,7 +384,7 @@
           }
         ],
         "requestBody": {
-          "description": "A unique identifier for the shipping location assigned by the system or by you (alias), allowing users to reference and manage specific locations effectively.\r\n\r\n***Note:** The information provided in this field and the ShippingAccountId field are being linked with each other.*",
+          "description": "Shipping location details",
           "content": {
             "application/json": {
               "schema": {
@@ -642,12 +642,12 @@
                       "ContentType": "NDX",
                       "ServiceCode": "SB",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-08-11",
+                      "ShipmentDate": "2026-09-01",
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "369d3dc7-4046-46f5-9ac1-4fcf15120810",
+                      "ShippingAccountId": "10e1bcce-f2f5-45b7-a910-80a60cb961a4",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -684,14 +684,14 @@
                       "ContentType": "NDX",
                       "ServiceCode": "SB",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-08-11",
+                      "ShipmentDate": "2026-09-01",
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "9b49414b-27ca-4fa5-b1fd-158e0bc30ad1",
-                      "ShippingLocationId": "54e97dbe-34c9-4569-afe6-7b2a36ed355e",
+                      "ShippingAccountId": "4906def6-4900-49f1-9f34-d6cd02546122",
+                      "ShippingLocationId": "b5baaf7d-6ee8-4078-a053-bcd41a2dd12b",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -762,12 +762,12 @@
                       "ContentType": "NDX",
                       "ServiceCode": "SB",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-08-11",
+                      "ShipmentDate": "2026-09-01",
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "ef838c9a-42c5-44d0-8995-d4116adbf250",
+                      "ShippingAccountId": "49dde9c2-a9de-4ebf-92d2-c7c121e5e9b1",
                       "Reference1": "OrderRef56",
                       "EoriNumber": "GB213456789000",
                       "VatNumber": "GB213456789"
@@ -835,14 +835,14 @@
                       "ContentType": "NDX",
                       "ServiceCode": "SB",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-08-11",
+                      "ShipmentDate": "2026-09-01",
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "14acfcd4-8770-4170-be33-daac706bec3a",
-                      "ShippingLocationId": "8111a38a-e53a-4ce0-92e4-19faae2c6d47",
+                      "ShippingAccountId": "2db519f1-0428-4d51-ab1c-b351c4b5b4af",
+                      "ShippingLocationId": "ffd7d8c8-469b-4129-afc1-98b27c732e02",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -918,7 +918,7 @@
                       "OtherCharges": 32,
                       "QuotedLandedCost": 82.74,
                       "InvoiceNumber": "INV-12345",
-                      "InvoiceDate": "2026-08-11",
+                      "InvoiceDate": "2026-09-01",
                       "ExportLicenceRequired": false,
                       "Airn": "231.002.999-00"
                     }
@@ -931,11 +931,11 @@
                       "ContentType": "NDX",
                       "ServiceCode": "SB",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-08-11",
+                      "ShipmentDate": "2026-09-01",
                       "WeightUnitOfMeasure": "KG"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "d3bc6fe3-aaff-42c6-8fd0-1befa699b58f",
+                      "ShippingAccountId": "3775d632-5cd0-4244-96f8-6d5fa8d967aa",
                       "Reference1": "OrderRef56",
                       "Address": {
                         "AddressId": "John Brown Default"
@@ -971,7 +971,7 @@
                     "value": {
                       "Packages": [
                         {
-                          "ShipmentId": "be145d1d-d505-4d8f-868f-46b995a7e807",
+                          "ShipmentId": "2d6aad8a-174f-4d78-8b14-6e4f8f10acae",
                           "PackageOccurrence": 1
                         }
                       ]
@@ -981,7 +981,7 @@
                     "value": {
                       "Packages": [
                         {
-                          "ShipmentId": "a468aac2-7009-4b5c-89ec-424b28b93b3c",
+                          "ShipmentId": "2973c9ae-d3fa-4943-ba22-86f734281bf1",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "H03TCA0000000118",
                           "CarrierTrackingUrl": "https://my.dxdelivery.com/?tn=H03TCA0000000118&tpc=GU214TE"
@@ -995,7 +995,7 @@
                       "LabelFormat": "PDF",
                       "Packages": [
                         {
-                          "ShipmentId": "17c477f7-96f9-4ab6-941d-717119bb8c9b",
+                          "ShipmentId": "312f0836-6e36-4874-9b60-3a888ff3aee7",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "H03TCA0000000118",
                           "CarrierTrackingUrl": "https://my.dxdelivery.com/?tn=H03TCA0000000118&tpc=GU214TE"
@@ -1003,6 +1003,403 @@
                       ]
                     }
                   }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid request response.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                },
+                "example": {
+                  "Message": "Invalid Request",
+                  "Errors": [
+                    {
+                      "Message": "The name maximum length is 50 characters.",
+                      "Cause": "Destination.Address.ContactName",
+                      "ErrorCode": "E1002"
+                    },
+                    {
+                      "Message": "The service code is required.",
+                      "Cause": "ShipmentInformation.ServiceCode",
+                      "ErrorCode": "E1001"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "The carrier was not found."
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        },
+        "security": [
+          {
+            "oauth2": []
+          }
+        ]
+      }
+    },
+    "/v4/shipments/async/DX": {
+      "post": {
+        "tags": [
+          "Shipments"
+        ],
+        "summary": "Create Shipment Async",
+        "description": "Create a shipment request for asynchronous processing. Unlike the standard Create Shipment endpoint, this endpoint performs only initial validation on the shipment data and does not return a label in the response.\r<br /> \r<br />If the request passes validation and a Shipments Webhook is configured, the shipment is queued for background processing. The response from the Create Shipment request will be pushed to the webhook.\r<br /> \r<br />The immediate API response contains only a **RequestId**, which can be used to track and correlate the request with subsequent webhook responses.\r<br />\r<br />***Note**: This endpoint must only be used when the Shipments Webhook is configured within the SAPIENT UI.*",
+        "requestBody": {
+          "description": "Shipment Details",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DXShipmentRequestCarrierSpecificsDXPackageDXLabelFormatCreateShipmentRequest"
+              },
+              "examples": {
+                "Domestic - Basic Fields": {
+                  "value": {
+                    "ShipmentInformation": {
+                      "ReturnLabelsAtPackageLevel": false,
+                      "ContentType": "NDX",
+                      "ServiceCode": "SB",
+                      "DescriptionOfGoods": "Clothes",
+                      "ShipmentDate": "2026-09-01",
+                      "CurrencyCode": "GBP",
+                      "WeightUnitOfMeasure": "KG"
+                    },
+                    "Shipper": {
+                      "ShippingAccountId": "c7eee37a-d001-4938-a827-343eab4910f7",
+                      "Reference1": "OrderRef56"
+                    },
+                    "Destination": {
+                      "Address": {
+                        "ContactPhone": "07123456789",
+                        "ContactName": "John Smith",
+                        "CompanyName": "Company",
+                        "ContactEmail": "john.smith@example.com",
+                        "Line1": "10 Sky Road",
+                        "Town": "Woking",
+                        "Postcode": "GU21 4TE",
+                        "CountryCode": "GB"
+                      }
+                    },
+                    "Packages": [
+                      {
+                        "PackageType": "BOX",
+                        "DeclaredWeight": 1.5
+                      }
+                    ]
+                  }
+                },
+                "Domestic - All Fields": {
+                  "value": {
+                    "CarrierSpecifics": {
+                      "DeliveryInstructions": "Instructions to the courier",
+                      "CoverRequired": true,
+                      "CoverValue": 500
+                    },
+                    "ShipmentInformation": {
+                      "Action": "Process",
+                      "LabelFormat": "PDF",
+                      "ReturnLabelsAtPackageLevel": false,
+                      "ContentType": "NDX",
+                      "ServiceCode": "SB",
+                      "DescriptionOfGoods": "Clothes",
+                      "ShipmentDate": "2026-09-01",
+                      "CurrencyCode": "GBP",
+                      "WeightUnitOfMeasure": "KG",
+                      "ContainerId": "South East"
+                    },
+                    "Shipper": {
+                      "ShippingAccountId": "a2daeada-4b56-4ac2-b39e-418cf598b086",
+                      "ShippingLocationId": "7c80ffd3-2b4c-4827-8084-dae78dfa5f5c",
+                      "Reference1": "OrderRef56",
+                      "DepartmentNumber": "0123456789",
+                      "EoriNumber": "GB213456789000",
+                      "VatNumber": "GB213456789",
+                      "Address": {
+                        "ContactPhone": "607723456789",
+                        "ContactName": "Jane Smith",
+                        "CompanyName": "Company & Co.",
+                        "ContactEmail": "email@server.com",
+                        "Line1": "Level 5",
+                        "Line2": "Hashmoore House",
+                        "Line3": "10 Sky Lane",
+                        "Town": "Leatherhead",
+                        "Postcode": "AA34 3AB",
+                        "County": "Surrey",
+                        "CountryCode": "GB"
+                      }
+                    },
+                    "Destination": {
+                      "EoriNumber": "GB123456789000",
+                      "VatNumber": "GB123456789",
+                      "Address": {
+                        "ContactPhone": "07123456789",
+                        "ContactName": "John Smith",
+                        "CompanyName": "Company",
+                        "ContactEmail": "john.smith@example.com",
+                        "Line1": "10 Sky Road",
+                        "Town": "Woking",
+                        "Postcode": "GU21 4TE",
+                        "CountryCode": "GB"
+                      }
+                    },
+                    "Packages": [
+                      {
+                        "PackageType": "BOX",
+                        "PackageOccurrence": 1,
+                        "DeclaredWeight": 1.5
+                      }
+                    ],
+                    "Items": [
+                      {
+                        "SkuCode": "SKU123",
+                        "Quantity": 1,
+                        "Description": "White Mens Large T-shirt",
+                        "Value": 19.99,
+                        "Weight": 0.5,
+                        "ImageURL": "https://yourcompany.com/images/product.jpg",
+                        "HSCode": "6109100010",
+                        "CountryOfOrigin": "GB"
+                      },
+                      {
+                        "SkuCode": "SKU456",
+                        "Quantity": 2,
+                        "Description": "Black Mens Large Jumper",
+                        "Value": 32.99,
+                        "Weight": 0.3,
+                        "ImageURL": "https://yourcompany.com/images/jumper-black.jpg",
+                        "HSCode": "6110113000",
+                        "CountryOfOrigin": "GB"
+                      }
+                    ]
+                  }
+                },
+                "International - Basic Fields": {
+                  "value": {
+                    "ShipmentInformation": {
+                      "ReturnLabelsAtPackageLevel": false,
+                      "ContentType": "NDX",
+                      "ServiceCode": "SB",
+                      "DescriptionOfGoods": "Clothes",
+                      "ShipmentDate": "2026-09-01",
+                      "CurrencyCode": "GBP",
+                      "WeightUnitOfMeasure": "KG"
+                    },
+                    "Shipper": {
+                      "ShippingAccountId": "745a051e-7575-4a66-be00-b7624378128b",
+                      "Reference1": "OrderRef56",
+                      "EoriNumber": "GB213456789000",
+                      "VatNumber": "GB213456789"
+                    },
+                    "Destination": {
+                      "EoriNumber": "GB123456789000",
+                      "VatNumber": "9136726480",
+                      "Address": {
+                        "ContactPhone": "07123456789",
+                        "ContactName": "John Smith",
+                        "CompanyName": "Company",
+                        "ContactEmail": "john.smith@example.com",
+                        "Line1": "10 Sky Road",
+                        "Town": "Belfast",
+                        "Postcode": "BT1 1AA",
+                        "CountryCode": "GB"
+                      }
+                    },
+                    "Packages": [
+                      {
+                        "PackageType": "BOX",
+                        "DeclaredWeight": 1.5
+                      }
+                    ],
+                    "Items": [
+                      {
+                        "SkuCode": "SKU123",
+                        "Quantity": 1,
+                        "Description": "White Mens Large T-shirt",
+                        "Value": 19.99,
+                        "Weight": 0.5,
+                        "ImageURL": "https://yourcompany.com/images/product.jpg",
+                        "HSCode": "6109100010",
+                        "CountryOfOrigin": "IT"
+                      },
+                      {
+                        "SkuCode": "SKU456",
+                        "Quantity": 2,
+                        "Description": "Black Mens Large Jumper",
+                        "Value": 32.99,
+                        "Weight": 0.3,
+                        "ImageURL": "https://yourcompany.com/images/jumper-black.jpg",
+                        "HSCode": "6110113000",
+                        "CountryOfOrigin": "FR"
+                      }
+                    ],
+                    "Customs": {
+                      "ReasonForExport": "Sale of Goods",
+                      "Incoterms": "DDU",
+                      "ShippingCharges": 10
+                    }
+                  }
+                },
+                "International - All Fields": {
+                  "value": {
+                    "CarrierSpecifics": {
+                      "DeliveryInstructions": "Instructions to the courier",
+                      "CoverRequired": true,
+                      "CoverValue": 500
+                    },
+                    "ShipmentInformation": {
+                      "Action": "Process",
+                      "LabelFormat": "PDF",
+                      "ReturnLabelsAtPackageLevel": false,
+                      "ContentType": "NDX",
+                      "ServiceCode": "SB",
+                      "DescriptionOfGoods": "Clothes",
+                      "ShipmentDate": "2026-09-01",
+                      "CurrencyCode": "GBP",
+                      "WeightUnitOfMeasure": "KG",
+                      "ContainerId": "South East"
+                    },
+                    "Shipper": {
+                      "ShippingAccountId": "8b6d907c-ff0b-4913-ae17-ade122d11348",
+                      "ShippingLocationId": "52b75f34-8620-4220-bcb9-670d60fc8f3b",
+                      "Reference1": "OrderRef56",
+                      "DepartmentNumber": "0123456789",
+                      "EoriNumber": "GB213456789000",
+                      "VatNumber": "GB213456789",
+                      "Address": {
+                        "ContactPhone": "607723456789",
+                        "ContactName": "Jane Smith",
+                        "CompanyName": "Company & Co.",
+                        "ContactEmail": "email@server.com",
+                        "Line1": "Level 5",
+                        "Line2": "Hashmoore House",
+                        "Line3": "10 Sky Lane",
+                        "Town": "Leatherhead",
+                        "Postcode": "AA34 3AB",
+                        "County": "Surrey",
+                        "CountryCode": "GB"
+                      }
+                    },
+                    "Destination": {
+                      "EoriNumber": "GB123456789000",
+                      "VatNumber": "GB123456789",
+                      "Address": {
+                        "ContactPhone": "07123456789",
+                        "ContactName": "John Smith",
+                        "CompanyName": "Company",
+                        "ContactEmail": "john.smith@example.com",
+                        "Line1": "10 Sky Road",
+                        "Town": "Belfast",
+                        "Postcode": "BT1 1AA",
+                        "CountryCode": "GB"
+                      }
+                    },
+                    "Packages": [
+                      {
+                        "PackageType": "BOX",
+                        "PackageOccurrence": 1,
+                        "DeclaredWeight": 1.5
+                      }
+                    ],
+                    "Items": [
+                      {
+                        "SkuCode": "SKU123",
+                        "PackageOccurrence": 1,
+                        "Quantity": 1,
+                        "Description": "White Mens Large T-shirt",
+                        "Value": 19.99,
+                        "Weight": 0.5,
+                        "ImageURL": "https://yourcompany.com/images/product.jpg",
+                        "HSCode": "6109100010",
+                        "CountryOfOrigin": "CN",
+                        "ManufactureProductId": "5449000000996",
+                        "StandardisedProductId": "4006381333931"
+                      },
+                      {
+                        "SkuCode": "SKU456",
+                        "PackageOccurrence": 1,
+                        "Quantity": 2,
+                        "Description": "Black Mens Large Jumper",
+                        "Value": 32.99,
+                        "Weight": 0.3,
+                        "ImageURL": "https://yourcompany.com/images/jumper-black.jpg",
+                        "HSCode": "6110113000",
+                        "CountryOfOrigin": "CN",
+                        "ManufactureProductId": "5449000000997",
+                        "StandardisedProductId": "4006381333932"
+                      }
+                    ],
+                    "Customs": {
+                      "ReasonForExport": "Sale Of Goods",
+                      "PreRegistrationNumber": "0123456789",
+                      "PreRegistrationType": "GST",
+                      "ShippingCharges": 55.82,
+                      "OtherCharges": 32,
+                      "QuotedLandedCost": 82.74,
+                      "InvoiceNumber": "INV-12345",
+                      "InvoiceDate": "2026-09-01",
+                      "ExportLicenceRequired": false,
+                      "Airn": "231.002.999-00"
+                    }
+                  }
+                },
+                "Using Address Book": {
+                  "value": {
+                    "ShipmentInformation": {
+                      "ReturnLabelsAtPackageLevel": false,
+                      "ContentType": "NDX",
+                      "ServiceCode": "SB",
+                      "DescriptionOfGoods": "Clothes",
+                      "ShipmentDate": "2026-09-01",
+                      "WeightUnitOfMeasure": "KG"
+                    },
+                    "Shipper": {
+                      "ShippingAccountId": "28897c48-fc31-45c9-84e9-72d2a8bfda81",
+                      "Reference1": "OrderRef56",
+                      "Address": {
+                        "AddressId": "John Brown Default"
+                      }
+                    },
+                    "Destination": {
+                      "Address": {
+                        "AddressId": "John Brown Default"
+                      }
+                    },
+                    "Packages": [
+                      {
+                        "PackageType": "BOX",
+                        "DeclaredWeight": 1.5
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "The shipment was created successfully.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CreateShipmentViaWebhookResponse"
+                },
+                "example": {
+                  "RequestId": "ceee78e4-12c8-493e-881a-b79af33708a0"
                 }
               }
             }
@@ -1091,7 +1488,7 @@
                 "examples": {
                   "PDF": {
                     "value": {
-                      "ShipmentId": "a780f5ba-0441-469c-b9ad-9438e8aac34e",
+                      "ShipmentId": "3ee30402-936c-4950-b0b8-5149cb816b77",
                       "TrackingNumber": "H03TCA0000000118",
                       "CarrierTrackingUrl": "https://my.dxdelivery.com/?tn=H03TCA0000000118&tpc=GU214TE",
                       "Label": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
@@ -1309,7 +1706,7 @@
           "C2B"
         ],
         "type": "string",
-        "description": "Specifies the nature of the commercial transaction type associated with the shipment.\r<br />\r<br />Valid values are:\r<br />\r<br />**B2C** - Business to Consumer\r<br />**B2B** - Business to Business\r<br />**D2C** - Direct to Consumer\r<br />**C2B** - Consumer to Business (that is, a returns shipment)\r<br /> \r<br />***Note:** By default, this field is set to B2C.*<br>***Note:** This field is mandatory for shipments to the Channel Islands (CI). Additionally, it is recommended to use B2B (Business) and B2C (Flex) services for shipments to CI addresses. By default, this field is set to B2C.*"
+        "description": "Specifies the nature of the commercial transaction type associated with the shipment.\r<br />\r<br />Valid values are:\r<br />\r<br />**B2C** - Business to Consumer\r<br />**B2B** - Business to Business\r<br />**D2C** - Direct to Consumer\r<br />**C2B** - Consumer to Business\r<br /> \r<br />***Note:** By default, this field is set to B2C.*<br>***Note:** This field is mandatory for shipments to the Channel Islands (CI). Additionally, it is recommended to use B2B (Business) and B2C (Flex) services for shipments to CI addresses. By default, this field is set to B2C.*"
       },
       "ContentType": {
         "enum": [
@@ -1328,6 +1725,18 @@
         ],
         "type": "string",
         "description": "Indicates the operation to be performed for the shipment, determines the shipment status that is set on shipment creation and whether a shipment tracking number and labels are generated.\r<br />\r<br />Valid values are:\r<br /><ul><li>**Process:** Creates a shipment tracking number, generates and prints a label for each package in the shipment, and returns the labels in the **createShipment** response. With this action, the shipment status is set to **Ready to Manifest**.</li><li>**Create:** Creates the shipment but does not allocate a tracking number, print the labels or return them in the **createShipment** response. The label(s) must be printed before the shipment is ready to manifest.</li><li>**Allocate:** Creates the tracking number and label but does not print the labels or return them in the **createShipment** response. The label(s) must be printed before the shipment is ready to manifest.</li></ul>\r<br />***Note:** By default, this field is set to Process.*"
+      },
+      "CreateShipmentViaWebhookResponse": {
+        "type": "object",
+        "properties": {
+          "RequestId": {
+            "type": "string",
+            "description": "A unique identifier generated by SAPIENT for each shipment request submitted via the **Create Shipment Async** endpoint. This ID used to match the subsequent asynchronous Shipment Webhook response with the original request.",
+            "format": "uuid"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Create Shipment via shipment webhook Response"
       },
       "Customs": {
         "type": "object",
@@ -1491,7 +1900,8 @@
       },
       "DXLabelFormat": {
         "enum": [
-          "PDF"
+          "PDF",
+          "ZPL"
         ],
         "type": "string",
         "description": "Specifies the format in which the generated shipping label was requested, for example, PDF."
@@ -1809,7 +2219,7 @@
         "properties": {
           "ShippingAccountId": {
             "type": "string",
-            "description": "A unique identifier for each shipping account assigned by the system (ShippingAccountId), allowing for efficient reference and management of individual accounts within the system.",
+            "description": "A unique identifier for each shipping account assigned by the system **(ShippingAccountId)** or by you **(AccountAlias)**, allowing for efficient reference and management of individual accounts within the system.",
             "format": "uuid"
           },
           "CarrierCode": {
@@ -1831,7 +2241,7 @@
             "maxLength": 35,
             "minLength": 1,
             "type": "string",
-            "description": "The official name of the shipping account as designated by the user or organisation, aiding in easy identification and reference of accounts.",
+            "description": "The official name of the shipping account as designated by the user or organisation, aiding in easy identification and reference of accounts.\r<br />\r<br />***Note:** By default, this value is set to the customer name.*",
             "example": "AB VideoGames"
           },
           "AccountAlias": {
@@ -1844,7 +2254,7 @@
           "AccountStatus": {
             "minLength": 1,
             "type": "string",
-            "description": "The current status of the shipping account, which could denote whether it is enabled, disabled, or confirmed, helping users understand the account's usability.",
+            "description": "The current status of the shipping account, which could denote whether it is active, inactive, or suspended, helping users understand the account's usability.",
             "example": "Enabled"
           },
           "ContactName": {
@@ -1858,7 +2268,7 @@
             "maxLength": 20,
             "minLength": 1,
             "type": "string",
-            "description": "The phone number associated with the shipping account's primary contact person, facilitating communication regarding shipping inquiries, account management, and issue resolution.",
+            "description": "The phone number associated with the shipping account's primary contact person, facilitating communication regarding shipping inquiries, account management, and issue resolution.\r<br />\r<br />***Note**: Characters like +, /, -, or space are supported.*",
             "format": "tel",
             "example": "0123456789"
           },
@@ -1872,7 +2282,7 @@
           "LastUpdatedBy": {
             "minLength": 1,
             "type": "string",
-            "description": "The identifier (such as a username or system account) of the individual or system that last modified the shipping account information, ensuring accountability.",
+            "description": "The identifier (such as a username or system account) of the individual or system that last modified the shipping location information, ensuring accountability.",
             "example": "User A"
           },
           "LastUpdatedDateUtc": {
@@ -1896,11 +2306,11 @@
             "items": {
               "$ref": "#/components/schemas/DXShippingAccount"
             },
-            "description": "An array containing the shipping accounts associated with the shipping location that match the query parameters specified in the request."
+            "description": "An array containing all shipping accounts for the specific page only."
           },
           "TotalCount": {
             "type": "integer",
-            "description": "An integer representing the total number of shipping accounts that match the query parameters sent in the request, giving users a quick overview of how many accounts are linked to their operations.",
+            "description": "An integer representing the total number of shipping accounts, giving users a quick overview of how many accounts are linked to their operations.",
             "format": "int32",
             "example": 303
           }
@@ -2719,7 +3129,7 @@
         "properties": {
           "ShippingLocationId": {
             "type": "string",
-            "description": "A unique identifier for the shipping location assigned by the system (shippingLocationId), allowing users to reference and manage specific locations effectively.",
+            "description": "A unique identifier assigned to the shipping location by the system (**shippingLocationId**). This ID is used to distinguish between different shipping locations within the system, facilitating, referencing and operations, such as updates, deletions, or specific queries related to that location.",
             "format": "uuid"
           },
           "LocationAlias": {
@@ -2731,7 +3141,7 @@
           },
           "IsDefaultLocation": {
             "type": "boolean",
-            "description": "A boolean value indicating whether the shipping location is set as the default for shipping operations, streamlining the selection process during shipping.\r<br />\r<br />***Note:** If true, then this location is set as the default one. Otherwise, it is set to false.*",
+            "description": "A boolean value indicating whether the shipping location is set as the default for shipping operations, streamlining the selection process during shipments. \r<br />\r<br />If the location is set as the default one, the customers no longer need to specify the location for every shipment request, reducing the risk of errors and delays. It enhances consistency by ensuring that all shipments are directed to the same default location.\r<br />\r<br />***Note:** If true, then this location is set as the default one. Otherwise, it is set to false.*",
             "example": false
           },
           "Timezone": {
@@ -2809,7 +3219,7 @@
             "maxLength": 2,
             "minLength": 2,
             "type": "string",
-            "description": "An abbreviation representing the country of the shipping location, following the ISO 3166-1 alpha-2 standard, for example,  \"GB\" for the United Kingdom.",
+            "description": "An abbreviation representing the country of the shipping location, following the ISO 3166-1 alpha-2 standard, for example, \"GB\" for the United Kingdom.",
             "nullable": true,
             "example": "GB"
           },
@@ -2844,7 +3254,7 @@
         "properties": {
           "ShippingLocationId": {
             "type": "string",
-            "description": "A unique identifier for the shipping location assigned by the system (shippingLocationId), allowing users to reference and manage specific locations effectively.",
+            "description": "A unique identifier assigned to the shipping location by the system (**shippingLocationId**). This ID is used to distinguish between different shipping locations within the system, facilitating, referencing and operations, such as updates, deletions, or specific queries related to that location.",
             "format": "uuid"
           },
           "LocationAlias": {
@@ -2891,7 +3301,7 @@
             "maxLength": 100,
             "minLength": 1,
             "type": "string",
-            "description": "A unique identifier for the shipping location assigned by the system or by you (alias), allowing users to reference and manage specific locations effectively.\r<br />\r<br />***Note:** The information provided in this field and the **ShippingAccountId** field are being linked with each other.*",
+            "description": "A unique identifier assigned to the shipping location by the system (**shippingLocationId**) or by you (**LocationAlias**). This ID is used to distinguish between different shipping locations within the system, facilitating referencing and operations, such as updates, deletions, or specific queries related to that location.",
             "example": "D94E8CFD-604B-4B87-83E9-3F20CAF02837"
           }
         },
@@ -2945,7 +3355,7 @@
           "Grams"
         ],
         "type": "string",
-        "description": " The unit of measure used for all weight values in the shipment, expressed in grams and kilograms, for example, **DeclaredWeight**, **ItemWeight**. This is crucial for accurately describing shipment weight.\r<br /> \r<br />***Note:** By default, this field is set to KG.*"
+        "description": "The unit of measurement for the weight provided, such as **TotalWeight**, indicating whether the weight is specified in kilograms (KG) or grams (G), ensuring clarity for shipping calculations.\r<br /> \r<br />***Note**: By default, this field is set to KG.*"
       }
     },
     "securitySchemes": {
