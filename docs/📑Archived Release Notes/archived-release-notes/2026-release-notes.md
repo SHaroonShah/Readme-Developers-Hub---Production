@@ -59,7 +59,7 @@ metadata:
   <Callout icon="📘" theme="info">
     ### _Note_
 
-    _For more information on this integration, refer to the&#x20;_[_Starlinks Global user guides_](https://docs.intersoftsapient.net/docs/starlinks-global)_._
+    _For more information on this integration, refer to the&#x20;_<Anchor target="_blank" href="https://docs.intersoftsapient.net/docs/starlinks-global">_Starlinks Global user guides_</Anchor>_._
   </Callout>
 
   # SAPIENT Readme Developers Hub updates
