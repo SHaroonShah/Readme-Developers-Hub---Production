@@ -7,7 +7,7 @@ icon: fad fa-notes
 metadata:
   robots: index
 ---
-<Accordion title="SAPIENT release notes - August 11, 2026" icon="fa-info-circle">
+<Accordion title="SAPIENT release notes - August 11, 2026">
   # New integration - DPD Ireland
 
   The DPD Ireland integration has been added to the SAPIENT system. This integration supports shipping domestically within Ireland and Northern Ireland, and to EU, GB, and Rest of World destinations. With this addition, the following information has been added to the swagger documentation:
@@ -34,106 +34,109 @@ metadata:
 
     _For more information on this integration, refer to the DPD Ireland user guides._
   </Callout>
-# New integration - Starlinks Global
-The Starlinks Global integration has been added to the SAPIENT system. This integration supports shipping from Great Britain (GB), Unites States of America (USA), Australia, and United Arab Emirates (UAE), and to Unites States of America (USA), Australia, United Arab Emirates (UAE), and ROW (Rest of the World) destinations. With this addition, the following information has been added to the swagger documentation:
 
-**New API endpoints**. A new **Starlinks Global** block has been added to our carrier-specific APIs. This block includes the following API endpoints:
+  # New integration - Starlinks Global
 
-- **Shipping Account**
-  - **Get Accounts**: Retrieve a list of the Starlinks Global shipping accounts.
-  - **Add Account**: Add a new Starlinks Global shipping account.
-  - **Get Account**: Retrieve details of a specific Starlinks Global shipping account.
-  - **Update Account**: Update details of an existing Starlinks Global shipping account.
-  - **Link Locations**: Link shipping locations to a Starlinks Global shipping accounts.
-  - **Get Associated Locations**: Retrieve locations linked to the Starlinks Global shipping account.
-  - **Get Associated Location**: Retrieve details for a specific Starlinks Global associated location.
-- **Shipments**
-  - **Create Shipment**: Create a new Starlinks Global shipment request.
-  - **Print Label**: Generate a label for the Starlinks Global shipment.
-- **DPD Ireland shipping account screen**. As part of the new integration, customer users and Carrier Account Administrators can now configure the Starlinks Global shipping account via the SAPIENT UI for creating shipments.  The **Add Shipping Account** screen now includes Starlinks Global as a carrier for selection, with mandatory fields required for configuration.
-- **Tracking**: Enables customers to receive tracking updates through their integration with the SAPIENT tracking webhook.
-- **Manifest shipment**: Enable customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with Starlinks Global.
+  The Starlinks Global integration has been added to the SAPIENT system. This integration supports shipping from Great Britain (GB), Unites States of America (USA), Australia, and United Arab Emirates (UAE), and to Unites States of America (USA), Australia, United Arab Emirates (UAE), and ROW (Rest of the World) destinations. With this addition, the following information has been added to the swagger documentation:
 
-<Callout icon="📘" theme="info">
-  ### _Note_
+  **New API endpoints**. A new **Starlinks Global** block has been added to our carrier-specific APIs. This block includes the following API endpoints:
 
-  _For more information on this integration, refer to the Starlinks Global user guides._
-</Callout>
-# SAPIENT Readme Developers Hub updates
-Intersoft is pleased to share the latest updates to the SAPIENT Readme Developers Hub. These enhancements focus on improving navigation, usability, and content accessibility, making it easier for users to find the information they need and work more efficiently.
+  - **Shipping Account**
+    - **Get Accounts**: Retrieve a list of the Starlinks Global shipping accounts.
+    - **Add Account**: Add a new Starlinks Global shipping account.
+    - **Get Account**: Retrieve details of a specific Starlinks Global shipping account.
+    - **Update Account**: Update details of an existing Starlinks Global shipping account.
+    - **Link Locations**: Link shipping locations to a Starlinks Global shipping accounts.
+    - **Get Associated Locations**: Retrieve locations linked to the Starlinks Global shipping account.
+    - **Get Associated Location**: Retrieve details for a specific Starlinks Global associated location.
+  - **Shipments**
+    - **Create Shipment**: Create a new Starlinks Global shipment request.
+    - **Print Label**: Generate a label for the Starlinks Global shipment.
+  - **DPD Ireland shipping account screen**. As part of the new integration, customer users and Carrier Account Administrators can now configure the Starlinks Global shipping account via the SAPIENT UI for creating shipments.  The **Add Shipping Account** screen now includes Starlinks Global as a carrier for selection, with mandatory fields required for configuration.
+  - **Tracking**: Enables customers to receive tracking updates through their integration with the SAPIENT tracking webhook.
+  - **Manifest shipment**: Enable customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with Starlinks Global.
 
-<Accordion title="SAPIENT-aligned theme" icon="fad fa-game-console-handheld-crank">
-  The Readme Developers Hub theme has been updated to match the SAPIENT user interface, creating a more consistent and familiar experience.
+  <Callout icon="📘" theme="info">
+    ### _Note_
 
+    _For more information on this integration, refer to the Starlinks Global user guides._
+  </Callout>
 
-  <Image src="https://files.readme.io/23cb0a746423d8719b22a4ca45e1e2954aebc1d67720270e8a2c9bb95cfd1659-SAP_aligned_theme.png" align="center" width="500px" border={true} />
+  # SAPIENT Readme Developers Hub updates
 
+  Intersoft is pleased to share the latest updates to the SAPIENT Readme Developers Hub. These enhancements focus on improving navigation, usability, and content accessibility, making it easier for users to find the information they need and work more efficiently.
 
-  ##
-</Accordion>
-
-<Accordion title="New carrier card tooltips" icon="fad fa-tickets-perforated">
-  New tooltips have been configured for the carrier integration cards, making it easier to quickly identify carriers and navigate the documentation.
+  <Accordion title="SAPIENT-aligned theme" icon="fad fa-game-console-handheld-crank">
+    The Readme Developers Hub theme has been updated to match the SAPIENT user interface, creating a more consistent and familiar experience.
 
 
-  <Image src="https://files.readme.io/1d8fc27dffa486edacb68958a3e9d8c28da31d6b62d142d00a2c15b6dcc49589-Tooltips.png" align="center" width="500px" border={true} />
+    <Image src="https://files.readme.io/23cb0a746423d8719b22a4ca45e1e2954aebc1d67720270e8a2c9bb95cfd1659-SAP_aligned_theme.png" align="center" width="500px" border={true} />
 
 
-  ##
-</Accordion>
+    ##
+  </Accordion>
 
-<Accordion title="Enhanced navigation experience" icon="fad fa-triple-chevrons-down">
-  The left navigation pane has been reorganised with collapsible parent topics to reduce clutter and improve content discoverability.
-
-
-  <Image src="https://files.readme.io/c32024d8242cf855da698ac23f0a89d319a862d8d1ff09017a346a4600ed72ce-Left_pane.png" align="center" width="200px" border={true} />
-
-</Accordion>
-
-<Accordion title="Unified carrier information layout" icon="fad fa-table-layout">
-  A  new parent carrier topic layout has been introduced with dedicated tabs for:
-
-  - Key & Additional Features
-  - Service Enhancements
-  - In-Scope Carrier Services
-
-  Expandable accordions are also implemented for carrier API services, enabling easier access to detailed information.
+  <Accordion title="New carrier card tooltips" icon="fad fa-tickets-perforated">
+    New tooltips have been configured for the carrier integration cards, making it easier to quickly identify carriers and navigate the documentation.
 
 
-  <Image src="https://files.readme.io/a7a52c20457c2b08bc83d2952e8d6b89d8ffb5861751e21dfdd0056d81279eea-carrier_tabs.png" align="center" width="500px" border={true} />
-
-</Accordion>
-
-<Accordion title="Simplified step-by-step guides" icon="fad fa-code-pull-request-closed">
-  Long procedural pages have been streamlined with expandable step sections, allowing users to focus on relevant information and navigate instructions more easily.
+    <Image src="https://files.readme.io/1d8fc27dffa486edacb68958a3e9d8c28da31d6b62d142d00a2c15b6dcc49589-Tooltips.png" align="center" width="500px" border={true} />
 
 
-  <Image src="https://files.readme.io/dbf5c2e18be37974ffe0d262b6ad3f824364db05dee61b73a7fe596be82db5a6-Toggle_list_view.png" align="center" width="500px" />
+    ##
+  </Accordion>
 
-</Accordion>
-
-<Accordion title="Release notes organisation" icon="fad fa-calendar-lines">
-  The archived release notes are now organised by deployment month and date, making historical updates easier to find and review.
+  <Accordion title="Enhanced navigation experience" icon="fad fa-triple-chevrons-down">
+    The left navigation pane has been reorganised with collapsible parent topics to reduce clutter and improve content discoverability.
 
 
-  <Image src="https://files.readme.io/6eff35c021297a27604d5de24a4c61995c265ebacfcb990f14629e5d5fe55e80-Archived_release_notes.png" align="center" width="500px" border={true} />
+    <Image src="https://files.readme.io/c32024d8242cf855da698ac23f0a89d319a862d8d1ff09017a346a4600ed72ce-Left_pane.png" align="center" width="200px" border={true} />
 
-</Accordion>
+  </Accordion>
 
-# What's next
+  <Accordion title="Unified carrier information layout" icon="fad fa-table-layout">
+    A  new parent carrier topic layout has been introduced with dedicated tabs for:
 
-Our focus remains on making the SAPIENT Developers Hub more intuitive and accessible. Here's what you can look forward to next:
+    - Key & Additional Features
+    - Service Enhancements
+    - In-Scope Carrier Services
 
-## 🎥 Video tutorials
+    Expandable accordions are also implemented for carrier API services, enabling easier access to detailed information.
 
-We are introducing imbedded guided video tutorials to help users complete common tasks more easily, including:
 
-- Creating Shipping Accounts
-- Creating Tracking Accounts
-- Managing and configuring carrier integrations
-- Customer onboarding
-- Other advanced and complex procedures
+    <Image src="https://files.readme.io/a7a52c20457c2b08bc83d2952e8d6b89d8ffb5861751e21dfdd0056d81279eea-carrier_tabs.png" align="center" width="500px" border={true} />
 
+  </Accordion>
+
+  <Accordion title="Simplified step-by-step guides" icon="fad fa-code-pull-request-closed">
+    Long procedural pages have been streamlined with expandable step sections, allowing users to focus on relevant information and navigate instructions more easily.
+
+
+    <Image src="https://files.readme.io/dbf5c2e18be37974ffe0d262b6ad3f824364db05dee61b73a7fe596be82db5a6-Toggle_list_view.png" align="center" width="500px" />
+
+  </Accordion>
+
+  <Accordion title="Release notes organisation" icon="fad fa-calendar-lines">
+    The archived release notes are now organised by deployment month and date, making historical updates easier to find and review.
+
+
+    <Image src="https://files.readme.io/6eff35c021297a27604d5de24a4c61995c265ebacfcb990f14629e5d5fe55e80-Archived_release_notes.png" align="center" width="500px" border={true} />
+
+  </Accordion>
+
+  # What's next
+
+  Our focus remains on making the SAPIENT Developers Hub more intuitive and accessible. Here's what you can look forward to next:
+
+  ## 🎥 Video tutorials
+
+  We are introducing imbedded guided video tutorials to help users complete common tasks more easily, including:
+
+  - Creating Shipping Accounts
+  - Creating Tracking Accounts
+  - Managing and configuring carrier integrations
+  - Customer onboarding
+  - Other advanced and complex procedures
 </Accordion>
 
 <Accordion title="SAPIENT release notes - July 21, 2026">
