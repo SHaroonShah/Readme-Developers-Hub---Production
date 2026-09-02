@@ -32,7 +32,7 @@ metadata:
   <Callout icon="📘" theme="info">
     ### _Note_
 
-    _For more information on this integration, refer to the DPD Ireland user guides._
+    _For more information on this integration, refer to the&#x20;_[_DPD Ireland_](https://docs.intersoftsapient.net/docs/dpd-ireland)_&#x20;user guides._
   </Callout>
 
   # New integration - Starlinks Global
@@ -59,7 +59,7 @@ metadata:
   <Callout icon="📘" theme="info">
     ### _Note_
 
-    _For more information on this integration, refer to the Starlinks Global user guides._
+    _For more information on this integration, refer to the&#x20;_[_Starlinks Global user guides_](https://docs.intersoftsapient.net/docs/starlinks-global)_._
   </Callout>
 
   # SAPIENT Readme Developers Hub updates
