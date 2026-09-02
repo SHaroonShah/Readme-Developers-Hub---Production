@@ -15,7 +15,7 @@ The integration of Starlinks Global into the SAPIENT platform is a significant s
 
 <Tabs>
   <Tab title="Key Features">
-    <Cards>
+    <Cards columns="2">
       <Card title="Shipping Origins" icon="fa-map-marker-alt">
         The integration supports shipping from Great Britain (GB), Unites States of America (USA), Australia, and United Arab Emirates (UAE).
 
@@ -80,7 +80,7 @@ The integration of Starlinks Global into the SAPIENT platform is a significant s
     <Callout icon="💡" theme="default">
       ### _Tip_
 
-      _For the most up-to-date carrier services, use the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint._
+      _For the most up-to-date carrier services, use the&#x20;_[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services)_&#x20;endpoint._
     </Callout>
   </Tab>
 </Tabs>
