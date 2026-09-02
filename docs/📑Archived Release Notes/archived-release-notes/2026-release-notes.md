@@ -7,6 +7,135 @@ icon: fad fa-notes
 metadata:
   robots: index
 ---
+<Accordion title="SAPIENT release notes - August 11, 2026" icon="fa-info-circle">
+  # New integration - DPD Ireland
+
+  The DPD Ireland integration has been added to the SAPIENT system. This integration supports shipping domestically within Ireland and Northern Ireland, and to EU, GB, and Rest of World destinations. With this addition, the following information has been added to the swagger documentation:
+
+  **New API endpoints**. A new **DPD Ireland** block has been added to our carrier-specific APIs. This block includes the following API endpoints:
+
+  - **Shipping Account**
+    - **Get Accounts**: Retrieve a list of the DPD Ireland shipping accounts.
+    - **Add Account**: Add a new DPD Ireland shipping account.
+    - **Get Account**: Retrieve details of a specific DPD Ireland shipping account.
+    - **Update Account**: Update details of an existing DPD Ireland shipping account.
+    - **Link Locations**: Link shipping locations to a DPD Ireland shipping accounts.
+    - **Get Associated Locations**: Retrieve locations linked to the DPD Ireland shipping account.
+    - **Get Associated Location**: Retrieve details for a specific DPD Ireland associated location.
+  - **Shipments**
+    - **Create Shipment**: Create a new DPD Ireland shipment request.
+    - **Print Label**: Generate a label for the DPD Ireland shipment.
+  - **DPD Ireland shipping account screen**. As part of the new integration, customer users and Carrier Account Administrators can now configure the DPD Ireland shipping account via the SAPIENT UI for creating shipments.  The **Add Shipping Account** screen now includes DPD Ireland as a carrier for selection, with mandatory fields required for configuration.
+  - **Tracking**: Enables customers to receive tracking updates through their integration with the SAPIENT tracking webhook.
+  - **Manifest shipment**: Enable customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with DPD Ireland.
+
+  <Callout icon="📘" theme="info">
+    ### _Note_
+
+    _For more information on this integration, refer to the DPD Ireland user guides._
+  </Callout>
+# New integration - Starlinks Global
+The Starlinks Global integration has been added to the SAPIENT system. This integration supports shipping from Great Britain (GB), Unites States of America (USA), Australia, and United Arab Emirates (UAE), and to Unites States of America (USA), Australia, United Arab Emirates (UAE), and ROW (Rest of the World) destinations. With this addition, the following information has been added to the swagger documentation:
+
+**New API endpoints**. A new **Starlinks Global** block has been added to our carrier-specific APIs. This block includes the following API endpoints:
+
+- **Shipping Account**
+  - **Get Accounts**: Retrieve a list of the Starlinks Global shipping accounts.
+  - **Add Account**: Add a new Starlinks Global shipping account.
+  - **Get Account**: Retrieve details of a specific Starlinks Global shipping account.
+  - **Update Account**: Update details of an existing Starlinks Global shipping account.
+  - **Link Locations**: Link shipping locations to a Starlinks Global shipping accounts.
+  - **Get Associated Locations**: Retrieve locations linked to the Starlinks Global shipping account.
+  - **Get Associated Location**: Retrieve details for a specific Starlinks Global associated location.
+- **Shipments**
+  - **Create Shipment**: Create a new Starlinks Global shipment request.
+  - **Print Label**: Generate a label for the Starlinks Global shipment.
+- **DPD Ireland shipping account screen**. As part of the new integration, customer users and Carrier Account Administrators can now configure the Starlinks Global shipping account via the SAPIENT UI for creating shipments.  The **Add Shipping Account** screen now includes Starlinks Global as a carrier for selection, with mandatory fields required for configuration.
+- **Tracking**: Enables customers to receive tracking updates through their integration with the SAPIENT tracking webhook.
+- **Manifest shipment**: Enable customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with Starlinks Global.
+
+<Callout icon="📘" theme="info">
+  ### _Note_
+
+  _For more information on this integration, refer to the Starlinks Global user guides._
+</Callout>
+# SAPIENT Readme Developers Hub updates
+Intersoft is pleased to share the latest updates to the SAPIENT Readme Developers Hub. These enhancements focus on improving navigation, usability, and content accessibility, making it easier for users to find the information they need and work more efficiently.
+
+<Accordion title="SAPIENT-aligned theme" icon="fad fa-game-console-handheld-crank">
+  The Readme Developers Hub theme has been updated to match the SAPIENT user interface, creating a more consistent and familiar experience.
+
+
+  <Image src="https://files.readme.io/23cb0a746423d8719b22a4ca45e1e2954aebc1d67720270e8a2c9bb95cfd1659-SAP_aligned_theme.png" align="center" width="500px" border={true} />
+
+
+  ##
+</Accordion>
+
+<Accordion title="New carrier card tooltips" icon="fad fa-tickets-perforated">
+  New tooltips have been configured for the carrier integration cards, making it easier to quickly identify carriers and navigate the documentation.
+
+
+  <Image src="https://files.readme.io/1d8fc27dffa486edacb68958a3e9d8c28da31d6b62d142d00a2c15b6dcc49589-Tooltips.png" align="center" width="500px" border={true} />
+
+
+  ##
+</Accordion>
+
+<Accordion title="Enhanced navigation experience" icon="fad fa-triple-chevrons-down">
+  The left navigation pane has been reorganised with collapsible parent topics to reduce clutter and improve content discoverability.
+
+
+  <Image src="https://files.readme.io/c32024d8242cf855da698ac23f0a89d319a862d8d1ff09017a346a4600ed72ce-Left_pane.png" align="center" width="200px" border={true} />
+
+</Accordion>
+
+<Accordion title="Unified carrier information layout" icon="fad fa-table-layout">
+  A  new parent carrier topic layout has been introduced with dedicated tabs for:
+
+  - Key & Additional Features
+  - Service Enhancements
+  - In-Scope Carrier Services
+
+  Expandable accordions are also implemented for carrier API services, enabling easier access to detailed information.
+
+
+  <Image src="https://files.readme.io/a7a52c20457c2b08bc83d2952e8d6b89d8ffb5861751e21dfdd0056d81279eea-carrier_tabs.png" align="center" width="500px" border={true} />
+
+</Accordion>
+
+<Accordion title="Simplified step-by-step guides" icon="fad fa-code-pull-request-closed">
+  Long procedural pages have been streamlined with expandable step sections, allowing users to focus on relevant information and navigate instructions more easily.
+
+
+  <Image src="https://files.readme.io/dbf5c2e18be37974ffe0d262b6ad3f824364db05dee61b73a7fe596be82db5a6-Toggle_list_view.png" align="center" width="500px" />
+
+</Accordion>
+
+<Accordion title="Release notes organisation" icon="fad fa-calendar-lines">
+  The archived release notes are now organised by deployment month and date, making historical updates easier to find and review.
+
+
+  <Image src="https://files.readme.io/6eff35c021297a27604d5de24a4c61995c265ebacfcb990f14629e5d5fe55e80-Archived_release_notes.png" align="center" width="500px" border={true} />
+
+</Accordion>
+
+# What's next
+
+Our focus remains on making the SAPIENT Developers Hub more intuitive and accessible. Here's what you can look forward to next:
+
+## 🎥 Video tutorials
+
+We are introducing imbedded guided video tutorials to help users complete common tasks more easily, including:
+
+- Creating Shipping Accounts
+- Creating Tracking Accounts
+- Managing and configuring carrier integrations
+- Customer onboarding
+- Other advanced and complex procedures
+
+</Accordion>
+
 <Accordion title="SAPIENT release notes - July 21, 2026">
   # Swagger documentation updates
 
@@ -56,7 +185,7 @@ metadata:
 
     _If applicable, this information may be included in the carrier's pre-advice._
 
-    _For more information, refer to the <Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/introduction">API References</Anchor> section._
+    _For more information, refer to the&#x20;_<Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/introduction">API References</Anchor>_&#x20;section._
   </Callout>
 
   ## Royal Mail new optional field
@@ -68,7 +197,7 @@ metadata:
 
     _If applicable, this information may be included in the carrier's pre-advice._
 
-    _For more information, refer to the Royal Mail [Create Shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm) endpoint._
+    _For more information, refer to the Royal Mail&#x20;_[Create Shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm)_&#x20;endpoint._
   </Callout>
 
   ## Royal Mail international label template updates
@@ -108,7 +237,7 @@ metadata:
 
     _For detailed information on all tracking events and milestones, refer to the following sections:_
 
-    - _[Track events and milestones](https://docs.intersoftsapient.net/docs/tracking-events-and-milestones)_
+    - [Track events and milestones](https://docs.intersoftsapient.net/docs/tracking-events-and-milestones)
     - [_Tracking Webhook Push Payload Example_](https://docs.intersoftsapient.net/reference/post_v4-trackings-pushpayloadexample)
   </Callout>
 </Accordion>
@@ -138,7 +267,7 @@ metadata:
   <Callout icon="📘" theme="info">
     ### _Note_
 
-    _For more information on this integration, refer to the <Anchor target="_blank" href="https://docs.intersoftsapient.net/docs/dhl-express">DHL Express</Anchor> section._
+    _For more information on this integration, refer to the&#x20;_<Anchor target="_blank" href="https://docs.intersoftsapient.net/docs/dhl-express">DHL Express</Anchor>_&#x20;section._
   </Callout>
 
   ## Handling Pre-registration number
@@ -178,7 +307,7 @@ metadata:
     - _If any of the new reason for export values are requested in the_**_Print Document_**_&#x20;API, they will be displayed in the generated CN23 document._
     - _This enhancement will be live starting 1st June 2026._
 
-    _For more information, refer to the<Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/post_v4-shipments-rm">Create Shipment</Anchor> and [Print Document](https://docs.intersoftsapient.net/reference/post_v4-shipments-printdocument-carriercode-shipmentid) API endpoints._
+    _For more information, refer to the_<Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/post_v4-shipments-rm">Create Shipment</Anchor>_&#x20;and&#x20;_[Print Document](https://docs.intersoftsapient.net/reference/post_v4-shipments-printdocument-carriercode-shipmentid)_&#x20;API endpoints._
   </Callout>
 
   - **Get Carrier Services**. A new **Services** > **Get Carrier Services** endpoint has been added to the **SAPIENT ROYAL MAIL API** block, allowing users to retrieve the service levels associated with each requested service code.
@@ -320,7 +449,7 @@ metadata:
   <Callout icon="📘" theme="info">
     ### _Note_
 
-    _For more information on this integration, refer to the[DHL Germany](https://docs.intersoftsapient.net/docs/dhl-germany-de) user guides._
+    _For more information on this integration, refer to the_[DHL Germany](https://docs.intersoftsapient.net/docs/dhl-germany-de)_&#x20;user guides._
   </Callout>
 
   ## Domestic Royal Mail Tracked Returns label updates
@@ -355,8 +484,8 @@ metadata:
 
     _For more information on the MFA process, refer to the following guides:_
 
-    - _[Enable Multi-Factor Authentication on SAPIENT](https://docs.intersoftsapient.net/docs/enable-multi-factor-authentication-on-sapient)_
-    - _[Log in to SAPIENT](https://docs.intersoftsapient.net/docs/log-in)_
+    - [Enable Multi-Factor Authentication on SAPIENT](https://docs.intersoftsapient.net/docs/enable-multi-factor-authentication-on-sapient)
+    - [Log in to SAPIENT](https://docs.intersoftsapient.net/docs/log-in)
   </Callout>
 
   ## Handle invalid tracking numbers
@@ -370,7 +499,7 @@ metadata:
   <Callout icon="📘" theme="info">
     ### _Note_
 
-    _For more information, refer to the[Handle invalid tracking numbers](https://docs.intersoftsapient.net/docs/handling-invalid-tracking-numbers) guide._
+    _For more information, refer to the_[Handle invalid tracking numbers](https://docs.intersoftsapient.net/docs/handling-invalid-tracking-numbers)_&#x20;guide._
   </Callout>
 
   ## Tracking Webhook setup - UI enhancements
@@ -463,7 +592,7 @@ metadata:
   <Callout icon="📘" theme="info">
     ### _Note_
 
-    _For more details on these changes, refer to the Royal Mail he<Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/post_v4-collections-rm-shipmentid">Book Collections API</Anchor> endpoint_
+    _For more details on these changes, refer to the Royal Mail he_<Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/post_v4-collections-rm-shipmentid">Book Collections API</Anchor>_&#x20;endpoint_
   </Callout>
 
   ## Hazardous Item updates
@@ -473,7 +602,7 @@ metadata:
   <Callout icon="📘" theme="info">
     ### _Note_
 
-    _For more details on the API updates, refer to the the<Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/">API References</Anchor> page._
+    _For more details on the API updates, refer to the the_<Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/">API References</Anchor>_&#x20;page._
   </Callout>
 
   ## New integration - Amazon
@@ -500,7 +629,7 @@ metadata:
   <Callout icon="📘" theme="info">
     ### _Note_
 
-    _For more information on how to set up an Amazon shipping account, refer to the<Anchor target="_blank" href="https://docs.intersoftsapient.net/docs/add-amazon-shipping-account">Add Amazon Shipping Account</Anchor> user guide._
+    _For more information on how to set up an Amazon shipping account, refer to the_<Anchor target="_blank" href="https://docs.intersoftsapient.net/docs/add-amazon-shipping-account">Add Amazon Shipping Account</Anchor>_&#x20;user guide._
   </Callout>
 
   ## New integration - FedEx International Connect
@@ -525,7 +654,7 @@ metadata:
   <Callout icon="📘" theme="info">
     ### _Note_
 
-    _For more information on how to set up a FedEx International Connect shipping account, refer to the<Anchor target="_blank" href="https://docs.intersoftsapient.net/docs/add-fedex-international-shipping-account">Add FedEx International Connect Shipping Account</Anchor> user guide._
+    _For more information on how to set up a FedEx International Connect shipping account, refer to the_<Anchor target="_blank" href="https://docs.intersoftsapient.net/docs/add-fedex-international-shipping-account">Add FedEx International Connect Shipping Account</Anchor>_&#x20;user guide._
   </Callout>
 
   ## Swagger documentation updates
@@ -538,7 +667,7 @@ metadata:
   <Callout icon="📘" theme="info">
     ### _Note_
 
-    _For more information on these updates, refer to the<Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/post_v4-shipments-anpost">An Post Create Shipment API swagger</Anchor> documentation._
+    _For more information on these updates, refer to the_<Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/post_v4-shipments-anpost">An Post Create Shipment API swagger</Anchor>_&#x20;documentation._
   </Callout>
 </Accordion>
 
@@ -565,7 +694,7 @@ metadata:
   <Callout icon="📘" theme="info">
     ### _Note_
 
-    _The[Get Carrier](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode) and [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoints in our&#x20;_**_SAPIENT CORE API_**_&#x20;block can also be utilised to look for the carrier and its available services._
+    _The_[Get Carrier](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode)_&#x20;and&#x20;_[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services)_&#x20;endpoints in our&#x20;_**_SAPIENT CORE API_**_&#x20;block can also be utilised to look for the carrier and its available services._
   </Callout>
 
   ## InPost tracking webhook
