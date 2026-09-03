@@ -54,7 +54,7 @@ In the UK, Amazon Shipping covers England, Scotland, and Wales, offering seven-d
         Amazon only supports single package services. Consignment services are not supported in the this integration.
       </Card>
 
-      <Card title="Carrier-specific Fields " icon="fa-solid fa-truck">
+      <Card title="Carrier-specific fields " icon="fa-solid fa-truck">
         The **CarrierSpecifics** object in the Create Shipment request contains the following fields:
 
         - **DeliveryInstructions**: To provide any additional instructions to the carrier regarding the delivery of the shipment.
@@ -74,11 +74,13 @@ In the UK, Amazon Shipping covers England, Scotland, and Wales, offering seven-d
         Amazon sends the receiver a one-time password to be used upon delivery.
       </Card>
     </Cards>
-    <br />
+
+
+
     <Callout icon="💡" theme="default">
       ### _Tip_
 
-      _For more information on the service enhancements, refer to the [Create Shipment](https://docs.intersoftsapient.net/v4.04/reference/post_v4-shipments-amazon) endpoint._
+      _For more information on the service enhancements, refer to the&#x20;_[Create Shipment](https://docs.intersoftsapient.net/v4.04/reference/post_v4-shipments-amazon)_&#x20;endpoint._
     </Callout>
   </Tab>
 
@@ -92,12 +94,13 @@ In the UK, Amazon Shipping covers England, Scotland, and Wales, offering seven-d
     | **Economy**   | This service provides cost-effective tracked delivery service with a longer transit time for Amazon marketplace orders.                   |
     | **1Day**      | This service provides next-day delivery service for non-Amazon orders; may include limited or no tracking compared to On-Amazon services. |
     | **2Day**      | This service provides two-day delivery service for non-Amazon orders; may include limited or no tracking compared to On-Amazon services.  |
-   <br />
+
+
 
     <Callout icon="💡" theme="default">
       ### _Tip_
 
-      _For the most up-to-date carrier services, use the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint._
+      _For the most up-to-date carrier services, use the&#x20;_[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services)_&#x20;endpoint._
     </Callout>
   </Tab>
 </Tabs>
