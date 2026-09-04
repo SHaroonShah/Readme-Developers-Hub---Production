@@ -18,7 +18,7 @@ The primary purpose of creating API credentials is to enable secure and controll
 
 In SAPIENT, you can create you own API credentials with which you can track usage, manage permissions effectively, and protect your data from unauthorised access.
 
-## Hoe to create API credentials
+## How to create API credentials
 
 To create new API credentials, follow the instructions as explained in the following procedure.
 
@@ -95,5 +95,3 @@ To create new API credentials, follow the instructions as explained in the follo
     Once done,  your new API credentials are successfully created and appear in the **CURRENT API CREDENTIALS** table on the **API Credentials** page.  You can now use these credentials to authenticate each API call when making requests to the SAPIENT API.
   </ToggleListItem>
 </ToggleList>
-
-<br />
