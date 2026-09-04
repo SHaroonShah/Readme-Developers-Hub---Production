@@ -5,7 +5,9 @@ excerpt: >-
   completed before using it for creating the shipments.
 deprecated: false
 hidden: false
-icon: fad fa-clipboard-list-check
+icon: far fa-clipboard-check
+link:
+  new_tab: false
 metadata:
   robots: index
 ---
