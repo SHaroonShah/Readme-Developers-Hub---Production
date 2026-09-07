@@ -76,7 +76,7 @@ FedEx International Connect is a flexible, cost-effective, worldwide delivery so
     <Callout icon="💡" theme="default">
       ### _Tip_
 
-      _For the most up-to-date carrier services, use the[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint._
+      _For the most up-to-date carrier services, use the_[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services)_&#x20;endpoint._
     </Callout>
   </Tab>
 </Tabs>
@@ -88,7 +88,7 @@ FedEx International Connect is a flexible, cost-effective, worldwide delivery so
 <Tabs>
   <Tab title="Core Services">
     <Accordion title="Create Shipment">
-      The integration for creating shipments to reflect FedEx International Connect as a primary carrier and allowing users to create shipments using the Create Shipment API endpoint that returns the label in base64 encoded format.
+      The integration for creating shipments to reflect FedEx International Connect as a primary carrier and allowing users to create shipments using the <Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/post_v4-shipments-fic">Create Shipment</Anchor> endpoint that returns the label in base64 encoded format.
     </Accordion>
 
     <Accordion title="Manifest shipment">
@@ -104,7 +104,7 @@ FedEx International Connect is a flexible, cost-effective, worldwide delivery so
 
   <Tab title="Other Services">
     <Accordion title="Print Label">
-      Generate and return the label for a FedEx International Connect shipment in the PDF format. This endpoint must be utilised when the label is not generated in the FedEx International Connect Create Shipment request.
+      <Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/get_v4-shipments-printlabel-fic-shipmentid">Generate and return the label</Anchor> for a FedEx International Connect shipment in the PDF format. This endpoint must be utilised when the label is not generated in the FedEx International Connect Create Shipment request.
 
       <Callout icon="📘" theme="info">
         ### _Note_
