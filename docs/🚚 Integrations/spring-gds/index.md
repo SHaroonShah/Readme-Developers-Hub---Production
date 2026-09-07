@@ -53,11 +53,6 @@ The integration of Spring GDS into the SAPIENT platform is a significant step in
 
       </Card>
     </Cards>
-
-    <Cards>
-    <Card title="Carrier-Specific Fields" icon="fad fa-box">
-    </Card>
-    </Cards>
   </Tab>
 
   <Tab title="Service Enhancements">
