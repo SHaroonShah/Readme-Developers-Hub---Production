@@ -54,7 +54,7 @@ In the UK, Amazon Shipping covers England, Scotland, and Wales, offering seven-d
         Amazon only supports single package services. Consignment services are not supported in the this integration.
       </Card>
 
-      <Card title="Carrier-specific fields " icon="fa-solid fa-truck">
+      <Card title="Carrier-specific fields " icon="fad fa-list-check">
         The **CarrierSpecifics** object in the Create Shipment request contains the following fields:
 
         - **DeliveryInstructions**: To provide any additional instructions to the carrier regarding the delivery of the shipment.
@@ -75,8 +75,6 @@ In the UK, Amazon Shipping covers England, Scotland, and Wales, offering seven-d
       </Card>
     </Cards>
 
-
-
     <Callout icon="💡" theme="default">
       ### _Tip_
 
@@ -94,8 +92,6 @@ In the UK, Amazon Shipping covers England, Scotland, and Wales, offering seven-d
     | **Economy**   | This service provides cost-effective tracked delivery service with a longer transit time for Amazon marketplace orders.                   |
     | **1Day**      | This service provides next-day delivery service for non-Amazon orders; may include limited or no tracking compared to On-Amazon services. |
     | **2Day**      | This service provides two-day delivery service for non-Amazon orders; may include limited or no tracking compared to On-Amazon services.  |
-
-
 
     <Callout icon="💡" theme="default">
       ### _Tip_
