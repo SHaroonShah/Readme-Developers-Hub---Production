@@ -77,7 +77,7 @@ This integration offers several key features that streamline the shipping proces
     <Callout icon="💡" theme="default">
       ### _Tip_
 
-      _For the most up-to-date carrier services, use the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint._
+      _For the most up-to-date carrier services, use the&#x20;_[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services)_&#x20;endpoint._
     </Callout>
   </Tab>
 </Tabs>
@@ -89,7 +89,7 @@ This integration offers several key features that streamline the shipping proces
 <Tabs>
   <Tab title="Core Services">
     <Accordion title="Create Shipment">
-      The integration for creating shipments to reflect EVRi as a primary carrier and allowing users to create shipments using the **Create Shipment** endpoint.
+      The integration for creating shipments to reflect InPost as a primary carrier and allowing users to create shipments using the <Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/post_v4-shipments-inpost">Create Shipment</Anchor> endpoint.
     </Accordion>
 
     <Accordion title="Manifest shipment">
@@ -109,7 +109,7 @@ This integration offers several key features that streamline the shipping proces
 
   <Tab title="Other Services">
     <Accordion title="Print Label">
-      Generate and return the label for an InPost shipment in the PDF format. This endpoint must be utilised when the label is not generated in the InPost Create Shipment request.
+      [Generate and return the label](https://docs.intersoftsapient.net/reference/get_v4-shipments-printlabel-inpost-shipmentid) for an InPost shipment in the PDF format. This endpoint must be utilised when the label is not generated in the InPost Create Shipment request.
 
       <Callout icon="📘" theme="info">
         ### _Note_
