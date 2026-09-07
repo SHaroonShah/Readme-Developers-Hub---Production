@@ -46,7 +46,8 @@ The integration of An Post, Ireland's national postal service, into the SAPIENT 
         The integration support labels in <Glossary>PDF</Glossary> and <Glossary>PNG</Glossary> formats.
       </Card>
     </Cards>
-    <br />
+
+
 
     <Accordion title="Important considerations">
       Please bear in mind the following:
@@ -87,12 +88,13 @@ The integration of An Post, Ireland's national postal service, into the SAPIENT 
     | **Express International**           | This service provides fast international delivery with prioritised handling and tracking.                                                                                                                                                                                           |
     | **Registered Post**                 | This service provides secure delivery with signature capture and compensation cover for valuable items                                                                                                                                                                              |
     | **IBMS/Untracked**                  | This service provides cost-effective international business mail delivery for letters, packets, and lightweight parcels without full end-to-end tracking, suitable for non-urgent shipments.This service provides basic untracked delivery for low-value or non-priority shipments. |
-<br />
+
+
 
     <Callout icon="💡" theme="default">
       ### _Tip_
 
-      _For the most up-to-date carrier services, use the[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint._
+      _For the most up-to-date carrier services, use the_[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services)_&#x20;endpoint._
     </Callout>
   </Tab>
 </Tabs>
@@ -104,13 +106,14 @@ The integration of An Post, Ireland's national postal service, into the SAPIENT 
 <Tabs>
   <Tab title="Core Services">
     <Accordion title="Create Shipment">
-      The integration for creating shipments to reflect An Post as a primary carrier and allowing users to create shipments using the **Create Shipment** endpoint. Based on the destination country, customers must be aware of the following:
+      The integration for creating shipments to reflect An Post as a primary carrier and allowing users to create shipments using the <Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/post_v4-shipments-anpost">Create Shipment</Anchor> endpoint. Based on the destination country, customers must be aware of the following:
 
       - - For delivery to addresses in Northern Ireland (IE), only the shipping <Glossary>label</Glossary> is required.
           - For delivery to EU destinations excluding Northern Ireland (IE), a security declaration is required.
           - The signature image will be taken from the signature image the customer has uploaded for the shipping account in the [Logos and Signatures](https://docs.intersoftsapient.net/docs/add-signature-and-logo#/) screen.
             - For delivery to ROW addresses, including GB and Northern Ireland (IE), a shipping label and <Glossary>CN23</Glossary> is required. SAPIENT will generate a separate address label and CN23, as this is consistent with the behaviour for other integrations.
-<br />
+
+
 
       <Callout icon="📘" theme="info">
         ### _Note_
@@ -126,7 +129,7 @@ The integration of An Post, Ireland's national postal service, into the SAPIENT 
 
   <Tab title="Other Services">
     <Accordion title="Print Label">
-      Generate and return the label for an An Post shipment. This endpoint must be utilised when the label is not generated in the An Post Create Shipment request.
+      <Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/get_v4-shipments-printlabel-anpost-shipmentid">Generate and return the label</Anchor> for an An Post shipment. This endpoint must be utilised when the label is not generated in the An Post Create Shipment request.
 
       <Callout icon="📘" theme="info">
         ### _Note_
