@@ -7,7 +7,7 @@ metadata:
   robots: index
 ---
 
-<Image src="https://files.readme.io/75762ee66dc10880c8cfd75e2d683174396ef3ed0fd727fd959f2eb44e013de6-InPost_white_banner.png" align="center" width="900px" />
+<Image src="https://files.readme.io/7a82628e4e235002d83f650d09fae2c0cda1c19c1cf18ba7da0d892bae962f24-Spring_banner_white.png" align="center" width="900px" />
 
 
 ***
