@@ -120,7 +120,7 @@ The FedEx-SAPIENT integration aims to enhance operational efficiency and provide
 <Tabs>
   <Tab title="Core Services">
     <Accordion title="Create Shipment">
-      The integration for creating shipments to reflect FedEx as a primary carrier and allowing users to create shipments using the Create Shipment endpoint.
+      The integration for creating shipments to reflect FedEx as a primary carrier and allowing users to create shipments using the <Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/post_v4-shipments-fedex">Create Shipment</Anchor> endpoint.
     </Accordion>
 
     <Accordion title="Manifest Shipment">
@@ -128,7 +128,7 @@ The FedEx-SAPIENT integration aims to enhance operational efficiency and provide
     </Accordion>
 
     <Accordion title="Cancel Shipment">
-      The integration to cancel any unwanted shipments, to ensures that cancellations are fully registered with FedEx, helping prevent customers from being mistakenly charged for cancelled shipments.
+      The integration to [cancel any unwanted shipments](https://docs.intersoftsapient.net/reference/put_v4-shipments-status), to ensures that cancellations are fully registered with FedEx, helping prevent customers from being mistakenly charged for cancelled shipments.
     </Accordion>
 
     <Callout icon="🚧" theme="warning">
@@ -140,7 +140,7 @@ The FedEx-SAPIENT integration aims to enhance operational efficiency and provide
 
   <Tab title="Other Services">
     <Accordion title="Print Label">
-      Generate and return the label for a DHL Germany shipment in the supported label formats. This endpoint must be utilised when the label is not generated in the DHL Germany Create Shipment request.
+      <Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/get_v4-shipments-printlabel-fedex-shipmentid">Generate and return the label</Anchor> for a FedEx shipment in the supported label formats. This endpoint must be utilised when the label is not generated in the DHL Germany Create Shipment request.
 
       <Callout icon="📘" theme="info">
         ### _Note_
