@@ -84,8 +84,8 @@ The integration of DPD NL into the SAPIENT platform is a significant step in enh
 
       _For more information on the service enhancements and carrier services, refer to the following endpoints:_
 
-      - _[Create Shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-dpduk)_
-      - _[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services)_
+      - [Create Shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-dpduk)
+      - [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services)
     </Callout>
   </Tab>
 
@@ -106,7 +106,7 @@ The integration of DPD NL into the SAPIENT platform is a significant step in enh
     <Callout icon="💡" theme="default">
       ### _Tip_
 
-      _For the most up-to-date carrier services, use the[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint._
+      _For the most up-to-date carrier services, use the_[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services)_&#x20;endpoint._
     </Callout>
   </Tab>
 </Tabs>
@@ -118,7 +118,7 @@ The integration of DPD NL into the SAPIENT platform is a significant step in enh
 <Tabs>
   <Tab title="Core Services">
     <Accordion title="Create Shipment">
-      The integration for creating shipments to reflect DPD NL as a primary carrier and allowing users to create individual shipments requests using the **Create Shipment** endpoint.
+      The integration for creating shipments to reflect DPD NL as a primary carrier and allowing users to create individual shipments requests using the <Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/post_v4-shipments-dpdnl">Create Shipment</Anchor> endpoint.
     </Accordion>
 
     <Accordion title="Manifest Shipment">
@@ -128,7 +128,7 @@ The integration of DPD NL into the SAPIENT platform is a significant step in enh
 
   <Tab title="Other Services">
     <Accordion title="Print Label">
-      Generate and return the label for a DPD NL shipment in the supported label formats. This endpoint must be utilised when the label is not generated in the DPD NL Create Shipment request.
+      <Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/get_v4-shipments-printlabel-dpdnl-shipmentid">Generate and return the label</Anchor> for a DPD NL shipment in the supported label formats. This endpoint must be utilised when the label is not generated in the DPD NL Create Shipment request.
 
       <Callout icon="📘" theme="info">
         ### _Note_
