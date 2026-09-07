@@ -48,7 +48,7 @@ The FedEx-SAPIENT integration aims to enhance operational efficiency and provide
   </Tab>
 
   <Tab title="Additional Features">
-    <Cards>
+    <Cards columns="1">
       <Card title="Multipiece Shipments" icon="fa-solid fa-boxes-stacked">
         Support for multipiece shipments is included in the integration.
       </Card>
@@ -56,7 +56,7 @@ The FedEx-SAPIENT integration aims to enhance operational efficiency and provide
       <Card title="Package Types" icon="fa-solid fa-box">
         FedEx offers its own distinct <Glossary>package type</Glossary>s.
 
-        > _For more information on the carrier package types, use the<Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services-servicecode-packagetypes#/">Get Carrier Service Package Types</Anchor> endpoint._
+        > _For more information on the carrier package types, use the_<Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services-servicecode-packagetypes#/">Get Carrier Service Package Types</Anchor>_&#x20;endpoint._
       </Card>
 
       <Card title="Electronic Trade Document (ETD)" icon="fa-solid fa-file-invoice">
@@ -67,7 +67,7 @@ The FedEx-SAPIENT integration aims to enhance operational efficiency and provide
     <Callout icon="📘" theme="default">
       ### _Note_
 
-      _For more information on Electronic Trade Document configuration, refer to the<Anchor target="_blank" href="https://docs.intersoftsapient.net/docs/add-fedex-shipping-account">Add FedEx shipping account</Anchor> section._
+      _For more information on Electronic Trade Document configuration, refer to the_<Anchor target="_blank" href="https://docs.intersoftsapient.net/docs/add-fedex-shipping-account">Add FedEx shipping account</Anchor>_&#x20;section._
     </Callout>
   </Tab>
 
@@ -108,7 +108,7 @@ The FedEx-SAPIENT integration aims to enhance operational efficiency and provide
     <Callout icon="💡" theme="default">
       ### _Tip_
 
-      _For the most up-to-date carrier services, use the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint._
+      _For the most up-to-date carrier services, use the&#x20;_[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services)_&#x20;endpoint._
     </Callout>
   </Tab>
 </Tabs>
