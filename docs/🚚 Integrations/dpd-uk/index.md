@@ -80,8 +80,8 @@ DPD are one of the leading delivery carriers in the UK, shipping domestically an
 
       _For more information on the service enhancements and carrier services, refer to the following endpoints:_
 
-      - _[Create Shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-dpduk)_
-      - _[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services)_
+      - [Create Shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-dpduk)
+      - [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services)
     </Callout>
   </Tab>
 
@@ -102,7 +102,7 @@ DPD are one of the leading delivery carriers in the UK, shipping domestically an
     <Callout icon="💡" theme="default">
       ### _Tip_
 
-      _For the most up-to-date carrier services, use the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint._
+      _For the most up-to-date carrier services, use the&#x20;_[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services)_&#x20;endpoint._
     </Callout>
   </Tab>
 </Tabs>
@@ -114,7 +114,7 @@ DPD are one of the leading delivery carriers in the UK, shipping domestically an
 <Tabs>
   <Tab title="Core Services">
     <Accordion title="Create Shipment">
-      The integration for creating shipments to reflect DPD UK as a primary carrier and allowing users to create shipments using the **Create Shipment** endpoint.
+      The integration for creating shipments to reflect DPD UK as a primary carrier and allowing users to create shipments using the <Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/post_v4-shipments-dpduk">Create Shipment</Anchor> endpoint.
     </Accordion>
 
     <Accordion title="Manifest">
@@ -124,7 +124,7 @@ DPD are one of the leading delivery carriers in the UK, shipping domestically an
 
   <Tab title="Other Services">
     <Accordion title="Print Label">
-      Generate and return the label for a DPD UK shipment. This endpoint must be utilised when the label is not generated in the DPD UK Create Shipment request.
+      <Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/get_v4-shipments-printlabel-dpduk-shipmentid">Generate and return the label</Anchor> for a DPD UK shipment. This endpoint must be utilised when the label is not generated in the DPD UK Create Shipment request.
 
       <Callout icon="📘" theme="info">
         ### _Note_
