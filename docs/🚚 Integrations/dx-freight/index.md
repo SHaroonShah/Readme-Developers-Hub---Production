@@ -106,7 +106,7 @@ Freight is one of DX's core solutions, also referred to as _IDW_ (Irregular Dime
     <Callout icon="💡" theme="default">
       ### _Tip_
 
-      _For the most up-to-date carrier services, use the[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint._
+      _For the most up-to-date carrier services, use the_[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services)_&#x20;endpoint._
     </Callout>
   </Tab>
 </Tabs>
@@ -118,7 +118,7 @@ Freight is one of DX's core solutions, also referred to as _IDW_ (Irregular Dime
 <Tabs>
   <Tab title="Core Services">
     <Accordion title="Create Shipment">
-      The integration for creating shipments to reflect DX Freight as a primary carrier and allowing users to create shipments using the **Create Shipment** endpoint.
+      The integration for creating shipments to reflect DX Freight as a primary carrier and allowing users to create shipments using the <Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/post_v4-shipments-dxf">Create Shipment</Anchor> endpoint.
     </Accordion>
 
     <Accordion title="Delete Shipment">
@@ -132,7 +132,7 @@ Freight is one of DX's core solutions, also referred to as _IDW_ (Irregular Dime
 
   <Tab title="Other Services">
     <Accordion title="Print Label">
-      Generate and return the label for a DX Freight shipment in the PDF or ZPL format. This endpoint must be utilised when the label is not generated in the DXF Create Shipment request.
+      [Generate and return the label](https://docs.intersoftsapient.net/reference/get_v4-shipments-printlabel-dxf-shipmentid) for a DX Freight shipment in the PDF or ZPL format. This endpoint must be utilised when the label is not generated in the DXF Create Shipment request.
 
       <Callout icon="📘" theme="info">
         ### _Note_
