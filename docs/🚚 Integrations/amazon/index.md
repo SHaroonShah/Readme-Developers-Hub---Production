@@ -74,8 +74,7 @@ In the UK, Amazon Shipping covers England, Scotland, and Wales, offering seven-d
         Amazon sends the receiver a one-time password to be used upon delivery.
       </Card>
     </Cards>
-
-
+<br />
 
     <Callout icon="💡" theme="default">
       ### _Tip_
