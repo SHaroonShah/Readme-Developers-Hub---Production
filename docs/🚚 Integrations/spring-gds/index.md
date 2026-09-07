@@ -50,7 +50,7 @@ The integration of Spring GDS into the SAPIENT platform is a significant step in
       </Card>
 
       <Card title="Carrier Specifics" icon="fad fa-list-check">
-        he following fields are optional and are specified in the **CarrierSpecifics** block of the create shipment request.
+        The following fields are optional and are specified in the **CarrierSpecifics** block of the create shipment request.
 
         > _Before using the carrier-specific fields, please bear in mind the following:_
         >
@@ -75,15 +75,20 @@ The integration of Spring GDS into the SAPIENT platform is a significant step in
   <Tab title="Carrier Services">
     The following key services are provided by the InPost integration.
 
-    | Service Name          | Description                                                                                                                                                                                                                                                                    |
-    | :-------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-    | **Labelled B2C**      | This service provides business-to-consumer parcel delivery using a printed shipping label, where the sender generates and attaches the label before drop-off at an InPost locker or shop.                                                                                      |
-    | **Labelless Returns** | This service provides a label-free returns solution using a QR code, allowing customers to drop off parcels at the desired <Glossary>PUDO</Glossary> location, such as lockers or shops without printing labels, with tracking and labelling handled by InPost during transit. |
+    | Service Name        | Description                                                                                                                                                    |
+    | :------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+    | **Tracked**         | This service provides international parcel tracking throughout the delivery journey, helping customers monitor shipment progress from dispatch to delivery.    |
+    | **Signatured**      | This service provides proof of delivery through a signature upon receipt, offering added security and confirmation that the shipment has been delivered.       |
+    | Untracked           | This service provides a cost-effective delivery option without end-to-end tracking, suitable for non-critical shipments.                                       |
+    | Tracked Plus        | This service provides enhanced tracked delivery capabilities for selected customers, offering greater visibility and control over shipments.                   |
+    | MINI (Small/Boxabe) | This service provides a delivery solution designed for selected customers, supporting smaller shipments through the Spring network.                            |
+    | Express             | This service provides an expedited delivery option for selected customers, enabling faster transit times for time-sensitive shipments.                         |
+    | Signatured Plus     | This service provides tracked delivery with proof of delivery through a recipient signature, offering an additional level of shipment security and visibility. |
 
     <Callout icon="💡" theme="default">
       ### _Tip_
 
-      _For the most up-to-date carrier services, use the&#x20;_[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services)_&#x20;endpoint._
+      _For the most up-to-date carrier services, use the&#x20;_[_Get Carrier Services_](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services)_&#x20;endpoint._
     </Callout>
   </Tab>
 </Tabs>
