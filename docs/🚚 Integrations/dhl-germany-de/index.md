@@ -80,8 +80,8 @@ The integration of DHL Germany (DE) into the SAPIENT platform is a significant s
 
       _For more information on the service enhancements and carrier services, refer to the following endpoints:_
 
-      - _[Create Shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-dhlde)_
-      - _[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services)_
+      - [Create Shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-dhlde)
+      - [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services)
     </Callout>
   </Tab>
 
@@ -99,7 +99,7 @@ The integration of DHL Germany (DE) into the SAPIENT platform is a significant s
     <Callout icon="💡" theme="default">
       ### _Tip_
 
-      _For the most up-to-date carrier services, use the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint._
+      _For the most up-to-date carrier services, use the&#x20;_[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services)_&#x20;endpoint._
     </Callout>
   </Tab>
 </Tabs>
@@ -111,11 +111,11 @@ The integration of DHL Germany (DE) into the SAPIENT platform is a significant s
 <Tabs>
   <Tab title="Core Services">
     <Accordion title="Create Shipment">
-      The integration for creating shipments to reflect DHL Germany as a primary carrier and allowing users to create individual shipments requests using the **Create Shipment** endpoint.
+      The integration for creating shipments to reflect DHL Germany as a primary carrier and allowing users to create individual shipments requests using the <Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/post_v4-shipments-dhlde">Create Shipment</Anchor> endpoint.
     </Accordion>
 
     <Accordion title="Cancel Shipment">
-      The integration to cancel any unwanted shipments, to ensures that cancellations are fully registered with DHL Germany, helping prevent customers from being mistakenly charged for cancelled shipments. <br />
+      The integration to <Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/put_v4-shipments-status">cancel any unwanted shipments</Anchor>, to ensures that cancellations are fully registered with DHL Germany, helping prevent customers from being mistakenly charged for cancelled shipments. <br />
 
       <Callout icon="info" theme="info">
         ### _Note_
@@ -131,7 +131,7 @@ The integration of DHL Germany (DE) into the SAPIENT platform is a significant s
 
   <Tab title="Other Services">
     <Accordion title="Print Label">
-      Generate and return the label for a DHL Germany shipment in the supported label formats. This endpoint must be utilised when the label is not generated in the DHL Germany Create Shipment request.
+      <Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/get_v4-shipments-printlabel-dhlde-shipmentid">Generate and return the label</Anchor> for a DHL Germany shipment in the supported label formats. This endpoint must be utilised when the label is not generated in the DHL Germany Create Shipment request.
 
       <Callout icon="📘" theme="info">
         ### _Note_
