@@ -1,5 +1,9 @@
 ---
 title: Spring GDS
+excerpt: >-
+  Spring Global Delivery Solutions (GDS) is a carrier aggregator providing
+  international mail and parcel services through a network of final mile
+  delivery partners.
 deprecated: false
 hidden: true
 icon: fad fa-truck-fast
@@ -12,45 +16,42 @@ metadata:
 
 ***
 
-InPost provides a convenient, eco-friendly parcel delivery service through a network of 24/7 automated lockers and partnered shops in the UK. You can drop off or pick up parcels at these locations anytime, offering flexibility and ease for both senders and recipients.
-
-This integration offers several key features that streamline the shipping process. This article summarises the in-scope features of the integration and provides detailed explanations of the associated process flows.
+The integration of Spring GDS into the SAPIENT platform is a significant step in enhancing shipping capabilities. This section discusses the in-scope features of this integration and the services this carrier offers.
 
 <Tabs>
   <Tab title="Key Features">
     <Cards>
       <Card title="Shipping Origins" icon="fa-map-marker-alt">
-        The integration supports shipping from locations in Great Britain (GB) mainland only (England, Wales, and Scotlabd).
+        The integration supports shipping from locations in Great Britain (GB) and European Union (UN).
       </Card>
 
       <Card title="Shipping Destinations" icon="fa-solid fa-globe">
-        Users can send shipments to Great Britain (GB) mainland only.
+        Users can send shipments to Great Britain (GB), European Union (EU), Rest of the World ( <Glossary>ROW</Glossary>)
       </Card>
 
       <Card title="Service Type" icon="fa-solid fa-shipping-fast">
-        The integration is focused on outbound and inbound shipping.
+        The integration is focused on outbound shipping only.
       </Card>
 
       <Card title="Label Formats" icon="fa-solid fa-tag">
-        The integration supports labels in the <Glossary>PDF</Glossary> format.
+        The integration supports labels in the <Glossary>PDF</Glossary> , <Glossary>ZPL203DPI</Glossary>, and <Glossary>ZPL300DPI</Glossary> formats.
       </Card>
 
       <Card title="Incoterms Support">
-        The integration only supports <Glossary>DDU</Glossary> incoterm.
+        The integration supports <Glossary>DDU</Glossary> and <Glossary>DDP</Glossary>.
       </Card>
     </Cards>
   </Tab>
 
   <Tab title="Additional Features">
     <Cards>
-      <Card title="Labelled B2C" icon="fa-solid fa-tag">
-        Generates and returns a label to be attached to the parcel for a B2C business transaction type deliveries.
-      </Card>
-
-      <Card title="Labelless Returns Using QR Codes" icon="fa-solid fa-qrcode">
-        Generates a QR code for a return shipment which eliminates the need for printing shipping labels. This feature enhances the return process and makes it more environmentally friendly.
+      <Card title="Single-package Services" icon="fad fa-box">
+        Spring GDS supports only single-package services. Consignment services are not supported in this integration.
       </Card>
     </Cards>
+<Cards>
+<<Card title="Carrier-Specific Fields" icon="fad fa-box">
+</Cards>
   </Tab>
 
   <Tab title="Service Enhancements">
@@ -84,7 +85,7 @@ This integration offers several key features that streamline the shipping proces
 <Tabs>
   <Tab title="Core Services">
     <Accordion title="Create Shipment">
-      The integration for creating shipments to reflect EVRi as a primary carrier and allowing users to create shipments using the **Create Shipment** endpoint.
+      The integration for creating shipments to reflect SPRING GDS as a primary carrier and allowing users to create shipments using the **Create Shipment** endpoint.
     </Accordion>
 
     <Accordion title="Manifest shipment">
