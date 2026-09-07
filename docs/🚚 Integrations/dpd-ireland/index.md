@@ -75,7 +75,7 @@ The integration of DPD Ireland (IE) into the SAPIENT platform is a significant s
     <Callout icon="💡" theme="default">
       ### _Tip_
 
-      _For more information on the service enhancements and carrier services, refer to the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) API endpoint._
+      _For more information on the service enhancements and carrier services, refer to the&#x20;_[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services)_&#x20;API endpoint._
     </Callout>
   </Tab>
 
@@ -93,7 +93,7 @@ The integration of DPD Ireland (IE) into the SAPIENT platform is a significant s
     <Callout icon="💡" theme="default">
       ### _Tip_
 
-      _For the most up-to-date carrier services, use the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint._
+      _For the most up-to-date carrier services, use the&#x20;_[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services)_&#x20;endpoint._
     </Callout>
   </Tab>
 </Tabs>
@@ -105,7 +105,7 @@ The integration of DPD Ireland (IE) into the SAPIENT platform is a significant s
 <Tabs>
   <Tab title="Core Services">
     <Accordion title="Create Shipment">
-      The integration for creating shipments to reflect DPD Ireland as a primary carrier and allowing users to create shipments using the **Create Shipment** endpoint, which returns the label in base64-encoded format.
+      The integration for creating shipments to reflect DPD Ireland as a primary carrier and allowing users to create shipments using the <Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/post_v4-shipments-dpdie">Create Shipment</Anchor> endpoint, which returns the label in base64-encoded format.
     </Accordion>
 
     <Accordion title="Manifest Shipment">
@@ -121,7 +121,7 @@ The integration of DPD Ireland (IE) into the SAPIENT platform is a significant s
     </Accordion>
 
     <Accordion title="Print Label">
-      Generate and return the label for a DPD Ireland shipment in the supported label formats. This endpoint must be utilised when the label is not generated in the DPD Ireland Create Shipment request.
+      <Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/get_v4-shipments-printlabel-dpdie-shipmentid">Generate and return the label</Anchor> for a DPD Ireland shipment in the supported label formats. This endpoint must be utilised when the label is not generated in the DPD Ireland Create Shipment request.
 
       <Callout icon="📘" theme="info">
         ### _Note_
