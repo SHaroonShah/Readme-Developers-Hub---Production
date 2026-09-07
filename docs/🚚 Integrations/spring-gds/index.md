@@ -49,8 +49,17 @@ The integration of Spring GDS into the SAPIENT platform is a significant step in
         Spring GDS supports only single-package services. Consignment services are not supported in this integration.
       </Card>
 
-      <Card title="New Card">
+      <Card title="Carrier Specifics" icon="fad fa-list-check">
+        he following fields are optional and are specified in the **CarrierSpecifics** block of the create shipment request.
 
+        > _Before using the carrier-specific fields, please bear in mind the following:_
+        >
+        > - _Carrier-specific fields are only applicable to Spring Clear and default to false if not supplied and do not cause shipment validation failures when omitted._
+        > - _Spring Clear cannot be configured at the shipping account level or via any UI setting in SAPIENT. It is not a configurable feature on our side and depends on the customer’s agreement and setup with Spring GDS._
+        > - _If configured, you can trigger it by setting the incoterm to DDP in the create shipment request._
+
+        - **Preferential Origin Tag:&#x20;**&#x49;ndicates whether the goods qualify for preferential origin under a trade agreement between the origin and destination countries, making them eligible for a reduced or zero customs duty rate. Set this field to true only if the goods meet the applicable rules of origin.
+        - **Bonded Goods**: Indicates goods on which customs duty has not yet been paid yet, meaning they remain in a warehouse under customs supervision until the duty is settled.
       </Card>
     </Cards>
   </Tab>
