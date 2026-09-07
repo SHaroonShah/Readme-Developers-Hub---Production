@@ -81,7 +81,7 @@ Express is one of DX's core solutions that provides a fast and secure next-day d
     <Callout icon="💡" theme="default">
       ### _Tip_
 
-      _For the most up-to-date carrier services, use the[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint._
+      _For the most up-to-date carrier services, use the_[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services)_&#x20;endpoint._
     </Callout>
   </Tab>
 </Tabs>
@@ -93,7 +93,7 @@ Express is one of DX's core solutions that provides a fast and secure next-day d
 <Tabs>
   <Tab title="Core Services">
     <Accordion title="Create Shipment">
-      The integration for creating shipments to reflect DX as a primary carrier and allowing users to create individual shipments requests using the **Create Shipment** endpoint.
+      The integration for creating shipments to reflect DX as a primary carrier and allowing users to create individual shipments requests using the <Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/post_v4-shipments-dx">Create Shipment</Anchor> endpoint.
     </Accordion>
 
     <Accordion title="Cancel Shipment">
@@ -113,7 +113,7 @@ Express is one of DX's core solutions that provides a fast and secure next-day d
 
   <Tab title="Other Services">
     <Accordion title="Print Label">
-      Generate and return the label for DX shipment in the supported label formats. This endpoint must be utilised when the label is not generated in the DX Create Shipment request.
+      [Generate and return the label](https://docs.intersoftsapient.net/reference/get_v4-shipments-printlabel-dx-shipmentid) for DX shipment in the supported label formats. This endpoint must be utilised when the label is not generated in the DX Create Shipment request.
 
       <Callout icon="📘" theme="info">
         ### _Note_
