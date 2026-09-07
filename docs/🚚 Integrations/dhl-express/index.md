@@ -64,12 +64,13 @@ DHL is the global leader in the logistics industry. DHL Express is a brand withi
         - **Use SAPIENT-generated invoices**: SAPIENT generates the invoices from shipment data and sends them to DHL.
       </Card>
     </Cards>
-<br />
+
+
 
     <Callout icon="💡" theme="default">
       ### _Tip_
 
-      _For more information on Paperless Trade, refer to the <Anchor target="_blank" href="https://docs.intersoftsapient.net/docs/add-dhl-express-shipping-account">Add DHL Express shipping account</Anchor> section._
+      _For more information on Paperless Trade, refer to the&#x20;_<Anchor target="_blank" href="https://docs.intersoftsapient.net/docs/add-dhl-express-shipping-account">Add DHL Express shipping account</Anchor>_&#x20;section._
     </Callout>
   </Tab>
 
@@ -111,12 +112,13 @@ DHL is the global leader in the logistics industry. DHL Express is a brand withi
     | **Express 10:30 non documents**         | This service provides time-definite international delivery of parcels before 10:30 AM on the next working day, offering expedited transit and full tracking visibility.                                     |
     | **Express 09:00 documents**             | This service provides early morning international delivery of document shipments before 9:00 AM on the next working day, ensuring urgent delivery with priority handling and tracking.                      |
     | **Express 10:30 documents**             | This service provides time-definite international delivery of document shipments before 10:30 AM on the next working day, with expedited transit and full tracking visibility.                              |
-<br />
+
+
 
     <Callout icon="💡" theme="default">
       ### _Tip_
 
-      _For the most up-to-date carrier services, use the [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint._
+      _For the most up-to-date carrier services, use the&#x20;_[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services)_&#x20;endpoint._
     </Callout>
   </Tab>
 </Tabs>
@@ -128,7 +130,7 @@ DHL is the global leader in the logistics industry. DHL Express is a brand withi
 <Tabs>
   <Tab title="Core Services">
     <Accordion title="Create Shipment">
-      The integration for creating shipments to reflect DHL Express as a primary carrier and allowing users to create shipments using the Create Shipment that returns the label in base64 encoded format.
+      The integration for creating shipments to reflect DHL Express as a primary carrier and allowing users to create shipments using the <Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/post_v4-shipments-dhlexpress">Create Shipment</Anchor> endpoint that returns the label in base64 encoded format.
     </Accordion>
 
     <Accordion title="Manifest Shipment">
@@ -138,7 +140,7 @@ DHL is the global leader in the logistics industry. DHL Express is a brand withi
 
   <Tab title="Other Services">
     <Accordion title="Print Label">
-      Generate and return the label for DHL Express shipment in the PDF or PNG format. This endpoint must be utilised when the label is not generated in the DHL Express Create Shipment request.
+      [Generate and return the label](https://docs.intersoftsapient.net/reference/get_v4-shipments-printlabel-dhlexpress-shipmentid) for DHL Express shipment in the PDF or PNG format. This endpoint must be utilised when the label is not generated in the DHL Express Create Shipment request.
 
       <Callout icon="📘" theme="info">
         ### _Note_
