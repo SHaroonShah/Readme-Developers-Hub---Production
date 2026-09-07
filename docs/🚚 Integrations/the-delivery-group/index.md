@@ -73,7 +73,7 @@ The Delivery Group (TDG) hands shipments over to other carriers for <Glossary>fi
     <Callout icon="💡" theme="default">
       ### _Tip_
 
-      _For more information on the service enhancements and carrier services, refer to the[API References](https://docs.intersoftsapient.net/reference/post_v4-shipments-tdg) section._
+      _For more information on the service enhancements and carrier services, refer to the_[API References](https://docs.intersoftsapient.net/reference/post_v4-shipments-tdg)_&#x20;section._
     </Callout>
   </Tab>
 
@@ -90,7 +90,7 @@ The Delivery Group (TDG) hands shipments over to other carriers for <Glossary>fi
     <Callout icon="💡" theme="default">
       ### _Tip_
 
-      _For the most up-to-date carrier services, use the[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint._
+      _For the most up-to-date carrier services, use the_[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services)_&#x20;endpoint._
     </Callout>
   </Tab>
 </Tabs>
@@ -102,7 +102,7 @@ The Delivery Group (TDG) hands shipments over to other carriers for <Glossary>fi
 <Tabs>
   <Tab title="Core Services">
     <Accordion title="Create Shipment">
-      The integration for creating shipments to reflect The Delivery Group as a primary carrier and allowing users to create individual shipments requests using the **Create Shipment** endpoint.
+      The integration for creating shipments to reflect The Delivery Group as a primary carrier and allowing users to create individual shipments requests using the <Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/post_v4-shipments-tdg">Create Shipment</Anchor> endpoint.
     </Accordion>
 
     <Accordion title="Manifest Shipment">
@@ -112,7 +112,7 @@ The Delivery Group (TDG) hands shipments over to other carriers for <Glossary>fi
 
   <Tab title="Other Services">
     <Accordion title="Print Label">
-      Generate and return the label for The Delivery Group shipment in the PDF or PNG format. This endpoint must be utilised when the label is not generated in The Delivery Group Create Shipment request.
+      <Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/get_v4-shipments-printlabel-tdg-shipmentid">Generate and return the label</Anchor> for The Delivery Group shipment in the PDF or PNG format. This endpoint must be utilised when the label is not generated in The Delivery Group Create Shipment request.
 
       <Callout icon="📘" theme="info">
         ### _Note_
