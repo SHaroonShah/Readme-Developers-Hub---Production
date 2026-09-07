@@ -112,15 +112,11 @@ The integration of Spring GDS into the SAPIENT platform is a significant step in
         _If any created shipments have not been manifested, it is advised to cancel them to avoid unwanted labels._
       </Callout>
     </Accordion>
-
-    <Accordion title="Get PUDO locations">
-      Enable customers to users to access essential shipping options for both sending and returning packages seamlessly via the [Get PUDO Locations endpoint](https://docs.intersoftsapient.net/reference/get_v4-pudolocations-carriercode-countrycode-postcode).
-    </Accordion>
   </Tab>
 
   <Tab title="Other Services">
     <Accordion title="Print Label">
-      Generate and return the label for an InPost shipment in the PDF format. This endpoint must be utilised when the label is not generated in the InPost Create Shipment request.
+      Generate and return the label for a Spring GDS shipment in the PDF format. This endpoint must be utilised when the label is not generated in the Spring GDS Create Shipment request.
 
       <Callout icon="📘" theme="info">
         ### _Note_
