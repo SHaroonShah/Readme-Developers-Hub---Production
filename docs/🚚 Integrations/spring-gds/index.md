@@ -84,6 +84,7 @@ The integration of Spring GDS into the SAPIENT platform is a significant step in
     | MINI (Small/Boxabe) | This service provides a delivery solution designed for selected customers, supporting smaller shipments through the Spring network.                            |
     | Express             | This service provides an expedited delivery option for selected customers, enabling faster transit times for time-sensitive shipments.                         |
     | Signatured Plus     | This service provides tracked delivery with proof of delivery through a recipient signature, offering an additional level of shipment security and visibility. |
+<br />
 
     <Callout icon="💡" theme="default">
       ### _Tip_
