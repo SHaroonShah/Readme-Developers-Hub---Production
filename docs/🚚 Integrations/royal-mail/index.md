@@ -114,7 +114,7 @@ This integration represents a significant step towards optimising shipping funct
     <Callout icon="💡" theme="default">
       ### _Tip_
 
-      _For the most up-to-date carrier services, use the[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint._
+      _For the most up-to-date carrier services, use the_[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services)_&#x20;endpoint._
     </Callout>
   </Tab>
 </Tabs>
@@ -126,15 +126,15 @@ This integration represents a significant step towards optimising shipping funct
 <Tabs>
   <Tab title="Core Services">
     <Accordion title="Create Shipment">
-      The integration for creating shipments to reflect Royal Mail as a primary carrier and allowing users to create shipments using the **Create Shipment** endpoint.
+      The integration for creating shipments to reflect Royal Mail as a primary carrier and allowing users to [create shipments](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm) using the **Create Shipment** endpoint.
     </Accordion>
 
     <Accordion title="Print My Label QR Code">
-      Generate an easy-to-scan QR code for the associated label specified in the **PrintLabel** API endpoint. This endpoint can only be used for Royal Mail Tracked Return services.
+      [Generate](https://docs.intersoftsapient.net/reference/get_v4-shipments-printmylabelqrcode-rm-shipmentid) an easy-to-scan QR code for the associated label specified in the **PrintLabel** API endpoint. This endpoint can only be used for Royal Mail Tracked Return services.
     </Accordion>
 
     <Accordion title="Trackings">
-      Register up to 1000 tracking numbers in a single API request and get real-time updates on your Royal Mail shipments.
+      Register up to 1000 tracking numbers in a single [API request](https://docs.intersoftsapient.net/reference/post_v4-trackings) and get real-time updates on your Royal Mail shipments.
     </Accordion>
 
     <Accordion title="Manifest Webhook">
@@ -143,7 +143,7 @@ This integration represents a significant step towards optimising shipping funct
       <Callout icon="🚧" theme="warn">
         ### _Important_
 
-        _You can <Glossary>manifest</Glossary> the Royal Mail shipments via the&#x20;_[_Manifest Shipments Async_](https://docs.intersoftsapient.net/reference/post_v4-manifests-async-carriercode)_&#x20;endpoint using any of the following parameters:_
+        _You can&#x20;_<Glossary>manifest</Glossary>_&#x20;the Royal Mail shipments via the&#x20;_[_Manifest Shipments Async_](https://docs.intersoftsapient.net/reference/post_v4-manifests-async-carriercode)_&#x20;endpoint using any of the following parameters:_
 
         - _Shipping location_
         - _Shipping account_
@@ -158,7 +158,7 @@ This integration represents a significant step towards optimising shipping funct
 
   <Tab title="Other Services">
     <Accordion title="Print Label">
-      Generate and return the label for the Royal Mail shipment. This endpoint must be utilised when the label is not generated in the Royal Mail Create Shipment request.
+      [Generate and return the label](https://docs.intersoftsapient.net/reference/get_v4-shipments-printlabel-rm-shipmentid) for the Royal Mail shipment. This endpoint must be utilised when the label is not generated in the Royal Mail Create Shipment request.
 
       <Callout icon="📘" theme="info">
         ### _Note_
@@ -168,11 +168,11 @@ This integration represents a significant step towards optimising shipping funct
     </Accordion>
 
     <Accordion title="Pre Allocate Tracking Number">
-      Receive a Royal Mail Tracking Number that will be pre-allocated to the service and destination supplied in the request. No shipment or label will be produced using this endpoint. This endpoint can only be used for services that are assigned a tracking number.
+      Receive a Royal Mail Tracking Number that will be pre-allocated to the service and destination supplied in the request. No shipment or label will be produced using this endpoint. This [endpoint](https://docs.intersoftsapient.net/reference/post_v4-shipments-preallocatetrackingnumber-rm) can only be used for services that are assigned a tracking number.
     </Accordion>
 
     <Accordion title="Offline Barcoding">
-      Request a specific range of barcodes for use in your shipping processes. Offline Barcoding is only available if it has been activated on your customer account in the GUI.
+      [Request a specific range of barcodes](https://docs.intersoftsapient.net/reference/post_v4-offlinebarcodenumberrange-rm) for use in your shipping processes. Offline Barcoding is only available if it has been activated on your customer account in the GUI.
     </Accordion>
 
     <Accordion title="PUDO Locations">
@@ -181,12 +181,12 @@ This integration represents a significant step towards optimising shipping funct
       <Callout icon="🚧" theme="warn">
         ### _Important_
 
-        _This endpoint must be called before the_**_Create Shipment_**_&#x20;endpoint so that the desired PUDO location is selected in the Create Shipment request._
+        _This&#x20;_[_endpoint_](https://docs.intersoftsapient.net/reference/get_v4-pudolocations-carriercode-countrycode-postcode)_&#x20;must be called before the&#x20;_**_Create Shipment_**_&#x20;endpoint so that the desired PUDO location is selected in the create shipment request._
       </Callout>
     </Accordion>
 
     <Accordion title="International Arrivals Containers">
-      Create and name (with and ID or alias) a new international arrivals container to be used for manifesting a specific group of shipments. Define which carrier and shipping location the container should be linked to.
+      [Create and name (with and ID or alias) a new international arrivals container ](https://docs.intersoftsapient.net/reference/post_v4-internationalarrivalscontainers-rm)to be used for manifesting a specific group of shipments. Define which carrier and shipping location the container should be linked to.
 
       Unlike the common [Containers](https://docs.intersoftsapient.net/reference/get_v4-containers#/) API, the **International Arrivals Containers** endpoint is used for Royal Mail shipments that are being imported into GB only. For shipments in these containers, a <Glossary>data solution</Glossary> file is generated and sent to Royal Mail, which allows them to associate the shipments in the container with its associated ID, for better tracking and visibility purposes.
     </Accordion>
@@ -196,7 +196,7 @@ This integration represents a significant step towards optimising shipping funct
 <Callout icon="📘" theme="info">
   ### _Note_
 
-  _For more information on the API services, refer to the [SAPIENT Royal Mail](https://docs.intersoftsapient.net/v4.04/reference/post_v4-shipments-rm) API endpoints._
+  _For more information on the API services, refer to the&#x20;_[SAPIENT Royal Mail](https://docs.intersoftsapient.net/v4.04/reference/post_v4-shipments-rm)_&#x20;API endpoints._
 </Callout>
 
 ***
