@@ -87,8 +87,8 @@ The EVRi integration into the SAPIENT platform enhances our shipping capabilitie
 
       _For more information on the service enhancements and carrier services, refer to the following endpoints:_
 
-      - _[Create Shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-evri)_
-      - _[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services)_
+      - [Create Shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-evri)
+      - [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services)
     </Callout>
   </Tab>
 
@@ -106,7 +106,7 @@ The EVRi integration into the SAPIENT platform enhances our shipping capabilitie
     <Callout icon="💡" theme="default">
       ### _Tip_
 
-      _For the most up-to-date carrier services, use the[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services) endpoint._
+      _For the most up-to-date carrier services, use the_[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services)_&#x20;endpoint._
     </Callout>
   </Tab>
 </Tabs>
@@ -118,7 +118,7 @@ The EVRi integration into the SAPIENT platform enhances our shipping capabilitie
 <Tabs>
   <Tab title="Core Services">
     <Accordion title="Create Shipment">
-      The integration for creating shipments to reflect EVRi as a primary carrier and allowing users to create shipments using the **Create Shipment** endpoint.
+      The integration for creating shipments to reflect EVRi as a primary carrier and allowing users to create shipments using the <Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/post_v4-shipments-evri">Create Shipment</Anchor> endpoint.
     </Accordion>
 
     <Accordion title="Manifest shipment">
@@ -128,7 +128,7 @@ The EVRi integration into the SAPIENT platform enhances our shipping capabilitie
 
   <Tab title="Other Services">
     <Accordion title="Print Label">
-      Generate and return the label for an EVRi shipment in the PDF or PNG format. This endpoint must be utilised when the label is not generated in the EVRi Create Shipment request.
+      [Generate and return the label](https://docs.intersoftsapient.net/reference/get_v4-shipments-printlabel-evri-shipmentid) for an EVRi shipment in the PDF or PNG format. This endpoint must be utilised when the label is not generated in the EVRi Create Shipment request.
 
       <Callout icon="📘" theme="info">
         ### _Note_
