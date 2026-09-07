@@ -138,11 +138,11 @@ The integration of Spring GDS into the SAPIENT platform is a significant step in
 <Tabs>
   <Tab title="Account Setup">
     <Cards>
-      <Card title="Add Spring GDS Shipping Account" href="https://docs.intersoftsapient.net/docs/add-inpost-shipping-account" icon="fa-solid fa-truck" target="_blank">
+      <Card title="Add Spring GDS Shipping Account" href="https://docs.intersoftsapient.net/docs/add-spring-gds-shipping-account" icon="fa-solid fa-truck" target="_blank">
         Set up your InPost shipping account to start creating shipments.
       </Card>
 
-      <Card title="Add Spring GDS Tracking Account" href="https://docs.intersoftsapient.net/docs/add-inpost-tracking-account" icon="fa-solid fa-search-location" target="_blank">
+      <Card title="Add Spring GDS Tracking Account" href="https://docs.intersoftsapient.net/docs/add-spring-gds-tracking-account" icon="fa-solid fa-search-location" target="_blank">
         Configure tracking for your InPost shipments.
       </Card>
     </Cards>
