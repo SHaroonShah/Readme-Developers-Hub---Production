@@ -14,14 +14,14 @@ In SAPIENT, you can create both <Glossary>On-Amazon</Glossary> and <Glossary>Off
 <Callout icon="🚧" theme="warn">
   ### _Important_
 
-  _Before you can set up a shipping account, make sure you have [enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) for Amazon and have already [created a shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location)._
+  _Before you can set up a shipping account, make sure you have&#x20;_[_enabled the label integration_](https://docs.intersoftsapient.net/docs/integration-activation)_&#x20;for Amazon and have already&#x20;_[_created a shipping location_](https://docs.intersoftsapient.net/docs/add-a-shipping-location)_._
 
   _Once the Amazon integration is activated, please bear in mind the following:_
 
   - _You cannot switch between On‑Amazon and Off‑Amazon shipping accounts after they have been created.._
   - _You can add and manage the shipping accounts via API, but you must log into the SAPIENT UI and complete the Login With Amazon (LWA) process._
 
-  _For more information on how to add and manage shipping accounts via the API, refer to the [API References](https://docs.intersoftsapient.net/reference/get_v4-carriers) section._
+  _For more information on how to add and manage shipping accounts via the API, refer to the&#x20;_[_API References_](https://docs.intersoftsapient.net/reference/get_v4-carriers)_&#x20;section._
 </Callout>
 
 ## How to add Amazon shipping account
