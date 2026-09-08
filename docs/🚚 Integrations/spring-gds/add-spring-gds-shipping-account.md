@@ -177,11 +177,11 @@ In SAPIENT, you can create a Spring GDS shipping account by selecting your desir
           <tbody>
             <tr>
               <td>
-                **API Key**\*
+                **ClientId**\*
               </td>
 
               <td>
-                Enter the API key for the user account associated with Spring GDS..
+                Enter your client ID provided by Spring GDS.
               </td>
             </tr>
           </tbody>
@@ -215,11 +215,7 @@ In SAPIENT, you can create a Spring GDS shipping account by selecting your desir
 ### See also
 
 <Cards columns="2">
-  <Card title="Edit shipping account" href="https://docs.intersoftsapient.net/docs/dx-freight-sign-off" icon="fa-pen-to-square" target="_blank">
+  <Card title="Edit shipping account" href="https://docs.intersoftsapient.net/docs/edit-shipping-account" icon="fa-pen-to-square" target="_blank">
     Update or modify an existing shipping account.
-  </Card>
-
-  <Card title="Spring GDS Sign-Off" href="https://docs.intersoftsapient.net/docs/inpost-sign-off" icon="fa-solid fa-file-signature" target="_blank">
-    Complete necessary steps before using Spring GDS to create shipments in SAPIENT.
   </Card>
 </Cards>
