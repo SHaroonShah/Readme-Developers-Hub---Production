@@ -203,7 +203,7 @@ In SAPIENT, you can create a Spring GDS shipping account by selecting your desir
     To add a DX Express shipping account via API, refer to the following API endpoint.
 
     <Cards columns="2">
-      <Card title="Add Account" href="https://docs.intersoftsapient.net/reference/post_v4-shippingaccounts-dx" icon="fa-code" target="_blank">
+      <Card title="Add Account" icon="fa-code" target="_blank">
         Add and manage DX Express shipping account via API.
       </Card>
     </Cards>
