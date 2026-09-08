@@ -242,3 +242,7 @@ In SAPIENT, you can create a Spring GDS shipping account by selecting your desir
 
 
 <Image src="https://files.readme.io/15a6c976a04087718127d459e433769596d8b596a023ff548f4f0385fdac50cd-image.png" align="center" caption="Entering shipping account details" border={true} />
+
+
+
+<Image src="https://files.readme.io/55ac9f2eafbbb41d1e42e9862e10f2c9b149ca05727654c07b54950e67a5f0e0-image.png" align="center" caption="Entering carrier-specific details" border={true} />
