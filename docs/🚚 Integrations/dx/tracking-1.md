@@ -22,9 +22,9 @@ In SAPIENT, you can add tracking accounts for DX Express to enhance visibility, 
 
   _Prior to adding a DX tracking account, make sure you have completed the following prerequisites:_
 
-  1. _Enabled the [label integration](https://docs.intersoftsapient.net/docs/integration-activation) with DX Express._
-  2. _Enabled the [tracking integration](https://docs.intersoftsapient.net/docs/integration-activation) with DX Express._
-  3. _Set up your <Glossary>tracking webhook</Glossary>. For more information on how to set up a tracking webhook, refer to the [Create tracking webhook](https://docs.intersoftsapient.net/docs/create-tracking-webhook) section. This is a one-time activity, you do not have to do this every time you add a tracking account._
+  1. _Enabled the&#x20;_[_label integration_](https://docs.intersoftsapient.net/docs/integration-activation)_&#x20;with DX Express._
+  2. _Enabled the&#x20;_[_tracking integration_](https://docs.intersoftsapient.net/docs/integration-activation)_&#x20;with DX Express._
+  3. _Set up your&#x20;_<Glossary>tracking webhook</Glossary>_. For more information on how to set up a tracking webhook, refer to the&#x20;_[_Create tracking webhook_](https://docs.intersoftsapient.net/docs/create-tracking-webhook)_&#x20;section. This is a one-time activity, you do not have to do this every time you add a tracking account._
 
   _Also, if you already have an account with DX Express that is actively being used, and if you wish to receive tracking via Intersoft, you need to request a new account number in order to integrate with Intersoft. This request can be made to your DX account manager. Make sure this is done before you can set up a tracking account._
 </Callout>
