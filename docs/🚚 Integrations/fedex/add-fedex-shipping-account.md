@@ -18,9 +18,9 @@ In SAPIENT, you can create a FedEx shipping account by selecting your desired <G
 <Callout icon="🚧" theme="warn">
   ### _Important_
 
-  _Before setting up the <Glossary>shipping account</Glossary>, make sure:_
+  _Before setting up the&#x20;_<Glossary>shipping account</Glossary>_, make sure:_
 
-  - _You have [enabled the integration](https://docs.intersoftsapient.net/docs/integration-activation) with FedEx and have already [created a shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location)._
+  - _You have&#x20;_[_enabled the integration_](https://docs.intersoftsapient.net/docs/integration-activation)_&#x20;with FedEx and have already&#x20;_[_created a shipping location_](https://docs.intersoftsapient.net/docs/add-a-shipping-location)_._
   - _You have the 9-digit FedEx carrier account number._
   - _You have the exact shipping address that you have provided to FedEx, as this information is validated via the Address Validation API. If the address does not match, then a corresponding error message is displayed—and you will not proceed to the&#x20;_**_Multi-Factor Authentication_**_&#x20;(MFA) stage of the&#x20;_**_Add Shipping Account_**_&#x20;form._
 
