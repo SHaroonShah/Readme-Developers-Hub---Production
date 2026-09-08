@@ -22,9 +22,9 @@ In SAPIENT, you can add tracking accounts for The Delivery Group to enhance visi
 
   _Prior to adding a The Delivery Group tracking account, make sure you have completed the following prerequisites:_
 
-  1. _Enabled the [label integration](https://docs.intersoftsapient.net/docs/integration-activation) with The Delivery Group._
-  2. _Enabled the [tracking integration](https://docs.intersoftsapient.net/docs/integration-activation) with The Delivery Group._
-  3. _Set up your <Glossary>tracking webhook</Glossary>. For more information on how to set up a tracking webhook, refer to the [Create tracking webhook](https://docs.intersoftsapient.net/docs/create-tracking-webhook) section. This is a one-time activity, you do not have to do this every time you add a tracking account._
+  1. _Enabled the&#x20;_[_label integration_](https://docs.intersoftsapient.net/docs/integration-activation)_&#x20;with The Delivery Group._
+  2. _Enabled the&#x20;_[_tracking integration_](https://docs.intersoftsapient.net/docs/integration-activation)_&#x20;with The Delivery Group._
+  3. _Set up your&#x20;_<Glossary>tracking webhook</Glossary>_. For more information on how to set up a tracking webhook, refer to the&#x20;_[_Create tracking webhook_](https://docs.intersoftsapient.net/docs/create-tracking-webhook)_&#x20;section. This is a one-time activity, you do not have to do this every time you add a tracking account._
 </Callout>
 
 ## How to add The Delivery Group tracking account
