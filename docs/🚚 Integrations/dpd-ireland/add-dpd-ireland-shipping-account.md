@@ -14,7 +14,7 @@ In SAPIENT, with the **Add Shipping Account** functionality, you can select the 
 <Callout icon="🚧" theme="warn">
   ### _Important_
 
-  _Before you can set up a shipping account, make sure you have enabled the <Anchor target="_blank" href="https://docs.intersoftsapient.net/docs/integration-activation">label integration</Anchor> for DPD Ireland._
+  _Before you can set up a shipping account, make sure you have enabled the&#x20;_<Anchor target="_blank" href="https://docs.intersoftsapient.net/docs/integration-activation">_label integration_</Anchor>_&#x20;for DPD Ireland._
 </Callout>
 
 ## How to add DPD Ireland shipping account
