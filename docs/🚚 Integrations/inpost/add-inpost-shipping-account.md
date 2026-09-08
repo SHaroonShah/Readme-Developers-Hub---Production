@@ -221,7 +221,7 @@ In SAPIENT, you can create an InPost shipping account by selecting your desired 
     To add a DX Express shipping account via API, refer to the following API endpoint.
 
     <Cards columns="2">
-      <Card title="Add Account" href="https://docs.intersoftsapient.net/reference/post_v4-shippingaccounts-dx" icon="fa-code" target="_blank">
+      <Card title="Add Account" href="https://docs.intersoftsapient.net/reference/post_v4-shippingaccounts-inpost" icon="fa-code" target="_blank">
         Add and manage InPost shipping account via API.
       </Card>
     </Cards>
