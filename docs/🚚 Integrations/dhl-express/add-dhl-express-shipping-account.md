@@ -14,7 +14,7 @@ In SAPIENT, with the **Add Shipping Account** functionality, you can select the 
 <Callout icon="🚧" theme="warn">
   ### _Important_
 
-  _Before you can set up a shipping account, make sure you have enabled the <Anchor target="_blank" href="https://docs.intersoftsapient.net/docs/integration-activation">label integration</Anchor> for DHL Express._
+  _Before you can set up a shipping account, make sure you have enabled the&#x20;_<Anchor target="_blank" href="https://docs.intersoftsapient.net/docs/integration-activation">_label integration_</Anchor>_&#x20;for DHL Express._
 </Callout>
 
 ## How to add DHL Express shipping account
