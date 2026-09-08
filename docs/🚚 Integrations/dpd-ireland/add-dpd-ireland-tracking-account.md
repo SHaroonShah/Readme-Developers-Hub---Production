@@ -19,9 +19,9 @@ In SAPIENT, you can add tracking accounts for DPD Ireland to enhance visibility,
 
   _Prior to adding a DPD Ireland tracking account, make sure you have completed the following prerequisites:_
 
-  1. _Enabled the [label integration](https://docs.intersoftsapient.net/docs/integration-activation) with DPD Ireland._
-  2. _Enabled the [tracking integration](https://docs.intersoftsapient.net/docs/integration-activation) with DPD Ireland._
-  3. _Set up your <Glossary>tracking webhook</Glossary>. For more information on how to set up a tracking webhook, refer to the [Create tracking webhook](https://docs.intersoftsapient.net/docs/create-tracking-webhook) section. This is a one-time activity, you do not have to do this every time you add a tracking account._
+  1. _Enabled the&#x20;_[_label integration_](https://docs.intersoftsapient.net/docs/integration-activation)_&#x20;with DPD Ireland._
+  2. _Enabled the&#x20;_[_tracking integration_](https://docs.intersoftsapient.net/docs/integration-activation)_&#x20;with DPD Ireland._
+  3. _Set up your&#x20;_<Glossary>tracking webhook</Glossary>_. For more information on how to set up a tracking webhook, refer to the&#x20;_[_Create tracking webhook_](https://docs.intersoftsapient.net/docs/create-tracking-webhook)_&#x20;section. This is a one-time activity, you do not have to do this every time you add a tracking account._
 
   _If you wish to receive the tracking events via INTERSOFT using the tracking account you have created, make sure it is activated by the DPD Ireland team._
 </Callout>
