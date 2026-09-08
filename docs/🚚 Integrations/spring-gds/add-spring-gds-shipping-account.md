@@ -11,10 +11,7 @@ In SAPIENT, you can create a Spring GDS shipping account by selecting your desir
 <Callout icon="🚧" theme="warn">
   ### _Important_
 
-  _Before you can set up a shipping account, be advised on the following:_
-
-  - _Make sure to [enabled the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with Spring GDS._
-  - _If you wish to use both the Outbound labelled and Returns labelless services, you must create separate shipping accounts for each. This is because the credentials—_**_ClientId_**_&#x20;and&#x20;_**_Bearer token_**_— differs for each account._
+  _Before you can set up a shipping account, make sure you have enabled the&#x20;_<Anchor target="_blank" href="https://docs.intersoftsapient.net/docs/integration-activation">_label integration_</Anchor>_&#x20;for Spring GDS and have already&#x20;_<Anchor target="_blank" href="https://docs.intersoftsapient.net/docs/add-a-shipping-location">_created a shipping location_</Anchor>_._
 </Callout>
 
 ## How to add Spring GDS shipping account
