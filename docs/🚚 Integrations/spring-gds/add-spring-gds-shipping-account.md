@@ -177,11 +177,11 @@ In SAPIENT, you can create a Spring GDS shipping account by selecting your desir
           <tbody>
             <tr>
               <td>
-                **ClientId**\*
+                **API Key**\*
               </td>
 
               <td>
-                Enter your client ID provided by Spring GDS.
+                Enter the API key for the user account associated with Spring GDS..
               </td>
             </tr>
           </tbody>
