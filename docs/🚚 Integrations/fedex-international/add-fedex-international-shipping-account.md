@@ -14,7 +14,7 @@ In SAPIENT, with the **Add Shipping Account** functionality, you can select the 
 <Callout icon="🚧" theme="warn">
   ### _Important_
 
-  _Before you can set up a shipping account, make sure you have enabled the [label integration](https://docs.intersoftsapient.net/docs/integration-activation) for FedEx International Connect._
+  _Before you can set up a shipping account, make sure you have enabled the&#x20;_[_label integration_](https://docs.intersoftsapient.net/docs/integration-activation)_&#x20;for FedEx International Connect._
 </Callout>
 
 ## How to add FedEx International Connect shipping account in SAPIENT
