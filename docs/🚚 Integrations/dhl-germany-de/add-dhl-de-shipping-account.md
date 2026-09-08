@@ -14,7 +14,7 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
 <Callout icon="🚧" theme="warn">
   ### _Important_
 
-  _Before you can set up a shipping account, make sure you have enabled the <Anchor target="_blank" href="https://docs.intersoftsapient.net/docs/integration-activation">label integration</Anchor> for DHL Germany and have already [created a shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location)._
+  _Before you can set up a shipping account, make sure you have enabled the&#x20;_<Anchor target="_blank" href="https://docs.intersoftsapient.net/docs/integration-activation">_label integration_</Anchor>_&#x20;for DHL Germany and have already&#x20;_[_created a shipping location_](https://docs.intersoftsapient.net/docs/add-a-shipping-location)_._
 </Callout>
 
 ## How to add DHL DE shipping account
