@@ -20,7 +20,7 @@ SAPIENT also supports creating InPost outbound shipments that will be collected 
 
 ## Supported PUDO options
 
-<Cards columns={2}>
+<Cards columns="2">
   <Card title="Pick Up" icon="fa-solid fa-truck-ramp-box">
     Let customers collect their parcel from a <Glossary>PUDO</Glossary> point. This option helps reduce missed delivery attempts when customers are not available for direct delivery.
   </Card>
@@ -48,9 +48,11 @@ SAPIENT also supports creating InPost outbound shipments that will be collected 
 
 ## Prerequisite
 
-> 🚧 _Important_
->
-> _Before you use the PUDO API, make sure you have [enabled the PUDO integration](https://docs.intersoftsapient.net/docs/integration-activation) with InPost._
+<Callout icon="🚧" theme="warn">
+  ### _Important_
+
+  _Before you use the PUDO API, make sure you have&#x20;_[_enabled the PUDO integration_](https://docs.intersoftsapient.net/docs/integration-activation)_&#x20;with InPost._
+</Callout>
 
 ## Create shipments to a PUDO location
 
@@ -63,15 +65,15 @@ The request must include:
 
 If the `pudoId` field is included in the **Address** object of the InPost Create Shipment request, SAPIENT recognises the specific InPost location by its unique ID. The label is then generated with the address information of that PUDO location.
 
-> 🚧 _Important_
->
-> _Before providing the `pudoId`, make sure of the following:_
->
-> * _If the `pudoId` is provided for any address other than the destination address, an error will be returned._
-> * _The `pudoId` field is mandatory for B2C shipments._
-> * _The `pudoId` field must not be populated for returns services. The consumer can drop their return at any parcel locker or PUDO location._
-> * _If the `pudoId` is provided for a carrier that does not use PUDO, an error will be returned._
+<Callout icon="🚧" theme="warn">
+  ### _Important_
+
+  _Before providing the&#x20;_`pudoId`_, make sure of the following:_
+
+  * _If the&#x20;_`pudoId`_&#x20;is provided for any address other than the destination address, an error will be returned._
+  * _The&#x20;_`pudoId`_&#x20;field is mandatory for B2C shipments._
+  * _The&#x20;_`pudoId`_&#x20;field must not be populated for returns services. The consumer can drop their return at any parcel locker or PUDO location._
+  * _If the&#x20;_`pudoId`_&#x20;is provided for a carrier that does not use PUDO, an error will be returned._
+</Callout>
 
 ***
-
-<br />
