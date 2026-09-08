@@ -52,7 +52,7 @@ In SAPIENT, you can create a Spring GDS shipping account by selecting your desir
 
         |         Element         | Description                                                                                                                                 |
         | :---------------------: | :------------------------------------------------------------------------------------------------------------------------------------------ |
-        |      **Carrier**\*      | From the dropdown list, select **SPRING GDS - Spring GDS**.                                                                                         |
+        |      **Carrier**\*      | From the dropdown list, select **SPRING - Spring GDS**.                                                                                         |
         | **Shipping Location**\* | From the dropdown menu, select the <Glossary>shipping location</Glossary> that you want to assign to the shipping account you are creating. |
       </ToggleListItem>
 
@@ -235,3 +235,10 @@ In SAPIENT, you can create a Spring GDS shipping account by selecting your desir
     Complete necessary steps before using Spring GDS to create shipments in SAPIENT.
   </Card>
 </Cards>
+
+
+<Image src="https://files.readme.io/96ef6137dbaeefac63bd5a13e4c016a6c29db6e5cde7c0617355bfc15c06f78a-image.png" align="center" caption="Entering account details" border={true} />
+
+
+
+<Image src="https://files.readme.io/15a6c976a04087718127d459e433769596d8b596a023ff548f4f0385fdac50cd-image.png" align="center" caption="Entering shipping account details" border={true} />
