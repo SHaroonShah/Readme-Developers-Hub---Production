@@ -32,7 +32,7 @@ This integration represents a significant step towards optimising shipping funct
 
 <Tabs>
   <Tab title="Key Features">
-    <Cards>
+    <Cards columns="2">
       <Card title="Shipping Origins" icon="fa-solid fa-map-marker-alt">
         The integration supports shipping from locations in Great Britain (GB) only.
       </Card>
