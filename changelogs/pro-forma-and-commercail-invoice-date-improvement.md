@@ -1,7 +1,7 @@
 ---
 title: Commercial and Proforma invoice date format update
 author: Weronika Kucharska
-hidden: false
+hidden: true
 published_at: '2026-08-24T16:37:06.505Z'
 type: improved
 ---
