@@ -1,7 +1,7 @@
 ---
 title: Shipment Webhook and Asynchronous Shipment Creation
 author: Weronika Kucharska
-hidden: false
+hidden: true
 published_at: '2026-08-25T13:39:03.956Z'
 type: added
 ---
