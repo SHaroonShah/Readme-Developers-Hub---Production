@@ -1,7 +1,7 @@
 ---
 title: Swagger updates
 author: Weronika Kucharska
-hidden: false
+hidden: true
 published_at: '2026-08-24T16:25:50.560Z'
 type: improved
 ---
