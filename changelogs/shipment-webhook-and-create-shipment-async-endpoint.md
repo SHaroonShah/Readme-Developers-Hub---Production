@@ -22,6 +22,6 @@ Key capabilities include:
 - Shipment Webhook configuration through the Sapient user interface.
 - Automatic retry handling for failed webhook deliveries, with pending responses retained and resent when the webhook is reactivated.
 
-This functionality helps reduce API response-time dependency, improve scalability during high-volume periods, and provide greater flexibility for customers who wish to separate shipment creation from downstream label generation, documentation generation, and fulfilment processes
+This functionality helps reduce API response-time dependency, improve scalability during high-volume periods, and provide greater flexibility for customers who wish to separate shipment creation from downstream label generation, documentation generation, and fulfilment processes.
 
 <br />
