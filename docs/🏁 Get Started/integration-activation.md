@@ -23,31 +23,39 @@ next:
 
 This section explains the components available on the **Integrations** page of the SAPIENT platform. The Integrations page displays the <Glossary>carrier</Glossary>(s) that are available or coming soon to the platform. Each carrier has its own specific block with its description of what it offers as well as showcasing its available integration types. You can click into the carrier specific page by clicking their logo or the **Learn More** button.
 
-<Accordion title="Access integrations page" icon="">
+<Accordion title="Access integrations page">
   To access the **Integrations** page, perform the steps as explained in the following procedure:
 
   1. Log in to the SAPIENT platform using your credentials.
 
-  <Image align="center" border={true} src="https://files.readme.io/9d01c43822f6ea8e09f2dcc827a191c1d319511fdbf63e40e4a779b72ec3c46d-Sapient_Login_window.png" width="500px" caption="Logging into SAPIENT" />
 
-  <br />
+  <Image src="https://files.readme.io/9d01c43822f6ea8e09f2dcc827a191c1d319511fdbf63e40e4a779b72ec3c46d-Sapient_Login_window.png" align="center" width="500px" caption="Logging into SAPIENT" border={true} />
+
+
+
 
   2. On the **Home** page that opens, in the left navigation panel, select **Integrations**.
 
-  <Image align="center" border={true} src="https://files.readme.io/9edbbe0f060a9821348b7a077aae6171ab9fde12fd7b6d2ffdbe5d215b463f3a-Sapient_home_page.png" caption="Accessing integrations" />
 
-  <br />
+  <Image src="https://files.readme.io/9edbbe0f060a9821348b7a077aae6171ab9fde12fd7b6d2ffdbe5d215b463f3a-Sapient_home_page.png" align="center" caption="Accessing integrations" border={true} />
 
-  > 🚧 *Important*
-  >
-  > *The**Integrations** page contains access to some services that are chargeable, the associated fees are stated during the process. If you activate any of the chargeable services, you will be invoiced directly and any associated usage fees will be applied going forwards. Only approved personnel from your company should be given permission to access these pages and activate these services.*
+
+
+
+  <Callout icon="🚧" theme="warn">
+    ### _Important_
+
+    _The&#x20;_**_Integrations_**_&#x20;page contains access to some services that are chargeable, the associated fees are stated during the process. If you activate any of the chargeable services, you will be invoiced directly and any associated usage fees will be applied going forwards. Only approved personnel from your company should be given permission to access these pages and activate these services._
+  </Callout>
 
   3. On the **Integrations** page that opens, next to each carrier, the following integration types are displayed with their corresponding icons and symbols. Please select the needed integrations as per your business requirements.
 
-  <Image align="center" border={true} src="https://files.readme.io/42044e1252f492b4bd51e1ed7d86a66048cc74d82bf26ee7fc53761e7780c2c1-Integrations_page.png" caption="Selecting integrations" />
+
+  <Image src="https://files.readme.io/42044e1252f492b4bd51e1ed7d86a66048cc74d82bf26ee7fc53761e7780c2c1-Integrations_page.png" align="center" caption="Selecting integrations" border={true} />
+
 </Accordion>
 
-<Accordion title="Integration types" icon="">
+<Accordion title="Integration types">
   Each carrier offers different integration types, represented by specific icons and symbols. Here's what each one means:
 
   |                                       Integration types and icons                                       | Description                                                                                                 |
@@ -68,9 +76,11 @@ This section explains the components available on the **Integrations** page of t
 <Accordion title="Carrier-specific integrations">
   The carrier-specific integrations can be accessed by selecting the carrier on the Integrations page. The carrier-specific page provides you with the full range of additional features and services offered by that carrier.
 
-  <Image align="center" border={true} src="https://files.readme.io/9b0f989-image.png" caption="Viewing carrier-specific integrations" />
 
-  <br />
+  <Image src="https://files.readme.io/9b0f989-image.png" align="center" caption="Viewing carrier-specific integrations" border={true} />
+
+
+
 
   <ToggleList>
     <ToggleListItem title={<strong>Top Services</strong>}>
@@ -103,7 +113,7 @@ This section explains the components available on the **Integrations** page of t
   </ToggleList>
 </Accordion>
 
-<Accordion title="Activate integration" icon="">
+<Accordion title="Activate integration">
   After you have viewed the carrier-specific integrations and have decided to move forward with that carrier, you can now activate the integration.
   To do so, follow the instructions provided in the following procedure:
 
@@ -114,21 +124,23 @@ This section explains the components available on the **Integrations** page of t
   | :--------------------------------------------: | :--------------------------------------------: | :--------------------------------------------: |
   | ![](https://files.readme.io/b0940a4-image.png) | ![](https://files.readme.io/b8c6bfd-image.png) | ![](https://files.readme.io/11cb1ac-image.png) |
 
-  <br />
+
 
   3. In the **Integration Activation** screen, select the Terms and Conditions checkbox to agree to the company's terms on accessing and using their services.
 
-  > 🚧 *Important*
-  >
-  > *You can only use the integration once you have activated it*.
+  <Callout icon="🚧" theme="warn">
+    ### _Important_
+
+    _You can only use the integration once you have activated it_.
+  </Callout>
 
   4. After the integration is activated, you can now start configuring it. For more information on how to configure the integration, refer to the [Carrier specific user guides](https://docs.intersoftsapient.net/v4.04/docs/carrier-specific-user-guides#/versions) section.
 
   Once the activation is confirmed, the system sends an email to the main user on the account as well as to the one who activated the integration.
 
-  > 📘 *Note*
-  >
-  > *If you do not see the carrier(s) you are looking for, please reach out to our Customer Solutions team at [onboarding@intersoft.co.uk](mailto:onboarding@intersoft.co.uk) and we can consider getting these added in our upcoming deployment.*
-</Accordion>
+  <Callout icon="📘" theme="info">
+    ### _Note_
 
-<br />
+    _If you do not see the carrier(s) you are looking for, please reach out to our Customer Solutions team at&#x20;_[onboarding@intersoft.co.uk](mailto:onboarding@intersoft.co.uk)_&#x20;and we can consider getting these added in our upcoming deployment._
+  </Callout>
+</Accordion>
