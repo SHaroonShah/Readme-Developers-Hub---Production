@@ -195,6 +195,7 @@ In SAPIENT, you can create a Royal Mail shipping account by selecting your desir
 
         ***
       </ToggleListItem>
+    <br />
 
       <ToggleListItem title="6. Submit and save the shipping account" icon="fa-check">
         <br />
