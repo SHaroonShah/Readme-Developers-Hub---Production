@@ -18,7 +18,7 @@ In SAPIENT, you can create a <Glossary>shipping account</Glossary>, assign your 
 <Callout icon="📘" theme="info">
   ### _Note_
 
-  _Users with the_**_Admin_**_&#x20;role permissions can create unlimited shipping accounts for their customers._
+  _Users with the&#x20;_**_Admin_**_&#x20;role permissions can create unlimited shipping accounts for their customers._
 </Callout>
 
 ## How to add shipping account
