@@ -1,7 +1,7 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "AN POST",
+    "title": "An Post",
     "description": "# Introduction\nHere you will find requirements for integrating with INTERSOFT SAPIENT API.\n\nThe documentation specifically covers how the API can be used by business customers to conduct shipping activity with available carriers and provides the technical information to build this integration. The API allows customers to create and manage shipments, produce labels, customs documentation, and collection manifests, retrieve reference data such as carriers and countries, and maintain their own data such as shipping account details.\n\nIntersoft API is a fully RESTful service implemented using JSON messaging. You, as the customer are responsible for sending JSON messages and for maintaining the capability of receiving JSON messages in the format described in this specification. Request and response examples for each API service are included in this specification.\n\n# Authentication\n\nThe INTERSOFT SAPIENT API uses OAuth2 authentication.\n\nTo request the authorization token you need to create API credentials (Client ID and Secret) on the system first. If you have not done it already, log into your account and go to API Credentials or follow the link [add a link here with the path to the API Credentials menu]. Use the credentials to retrieve the authorization token.\n\nNote: Make sure you copy the Secret and keep it secure as you won't be able to view it again on the system.\n\n<!-- ReDoc-Inject: <SecurityDefinitions /> -->\n",
     "version": "v4.0-ANPOST",
     "x-logo": {
@@ -86,7 +86,7 @@
                     "value": {
                       "ShippingAccounts": [
                         {
-                          "ShippingAccountId": "5c6fd8bf-2bfe-4deb-9e86-1e234b0cd34e",
+                          "ShippingAccountId": "0e36eb3c-ee99-4176-b192-5ae6691ea30c",
                           "CarrierCode": "ANPOST",
                           "AccountNumber": "01234567",
                           "AccountType": "Sandbox",
@@ -96,10 +96,10 @@
                           "ContactName": "John Smith",
                           "ContactNumber": "0123456789",
                           "LastUpdatedBy": "User A",
-                          "LastUpdatedDateUtc": "2026-09-01T07:42:34.261Z"
+                          "LastUpdatedDateUtc": "2026-09-22T08:53:24.205Z"
                         },
                         {
-                          "ShippingAccountId": "3c9b4d11-6b9e-4ec6-803b-dd33cdceac60",
+                          "ShippingAccountId": "83b832fa-081a-4202-b326-5f21a699bbbd",
                           "CarrierCode": "ANPOST",
                           "AccountNumber": "98765432",
                           "AccountType": "Sandbox",
@@ -109,7 +109,7 @@
                           "ContactName": "Joan Smith",
                           "ContactNumber": "0123456789",
                           "LastUpdatedBy": "User B",
-                          "LastUpdatedDateUtc": "2026-09-01T07:42:34.261Z"
+                          "LastUpdatedDateUtc": "2026-09-22T08:53:24.205Z"
                         }
                       ],
                       "TotalCount": 2
@@ -258,7 +258,7 @@
                 "examples": {
                   "Response": {
                     "value": {
-                      "ShippingAccountId": "196c1896-a5b5-42ce-8095-569fa39b1350",
+                      "ShippingAccountId": "2a724ea4-d4c3-4632-9fee-3a42716bbc95",
                       "CarrierCode": "ANPOST",
                       "AccountNumber": "12345678",
                       "AccountType": "Sandbox",
@@ -268,7 +268,7 @@
                       "ContactName": "John Smith",
                       "ContactNumber": "0123456789",
                       "LastUpdatedBy": "User A",
-                      "LastUpdatedDateUtc": "2026-09-01T07:42:34.359Z"
+                      "LastUpdatedDateUtc": "2026-09-22T08:53:24.324Z"
                     }
                   }
                 }
@@ -647,14 +647,14 @@
                       "ContentType": "NDX",
                       "ServiceCode": "EMS",
                       "DescriptionOfGoods": "Clothing",
-                      "ShipmentDate": "2026-09-01",
+                      "ShipmentDate": "2026-09-22",
                       "DeclaredWeight": 1.5,
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "df74bafe-1fd2-4a84-a31d-35f3610269b0",
-                      "ShippingLocationId": "485fcfdf-995d-40f4-a68b-971103fa71f0",
+                      "ShippingAccountId": "6e9acd00-4ddb-4516-a64e-95319788c8f6",
+                      "ShippingLocationId": "6de96690-ebbc-480c-aeb3-1f1c8872073b",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -691,15 +691,15 @@
                       "ServiceCode": "EMS",
                       "DescriptionOfGoods": "Clothing",
                       "BusinessTransactionType": "B2C",
-                      "ShipmentDate": "2026-09-01",
+                      "ShipmentDate": "2026-09-22",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "3b817a8d-9d71-47c9-a915-7b7d4f2c488b",
-                      "ShippingLocationId": "9ef2ffad-996c-418d-a696-4fb4f1a0fa8b",
+                      "ShippingAccountId": "5fd09765-4c2c-4e7d-aa7d-353eafd1880c",
+                      "ShippingLocationId": "e651cff1-61c9-41a8-a0c6-6ceabe15cffb",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -792,15 +792,15 @@
                       "ContentType": "NDX",
                       "ServiceCode": "EXP",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-09-01",
+                      "ShipmentDate": "2026-09-22",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "510bd192-c42d-4f98-a9db-35f51a829e0b",
-                      "ShippingLocationId": "84e728e3-7fae-4891-a5c1-a66b775f971c",
+                      "ShippingAccountId": "9823260c-f97a-4d7a-bdb6-079293a249d1",
+                      "ShippingLocationId": "6f095c94-1582-4701-97e4-1de391cf5f06",
                       "Reference1": "OrderRef56",
                       "EoriNumber": "GB12345",
                       "VatNumber": "VA12345"
@@ -867,15 +867,15 @@
                       "ContentType": "NDX",
                       "ServiceCode": "EXP",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-09-01",
+                      "ShipmentDate": "2026-09-22",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "27b5e4ec-4cdb-4326-928b-be970d71cfaf",
-                      "ShippingLocationId": "525301b3-7736-440d-acd1-59583c830638",
+                      "ShippingAccountId": "443e7eb0-4ad9-4bce-bc96-a6b99ff31463",
+                      "ShippingLocationId": "2c8a289e-abbf-4253-b526-f6ace8f88a0b",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -957,7 +957,7 @@
                       "OtherCharges": 32,
                       "QuotedLandedCost": 82.74,
                       "InvoiceNumber": "INV-12345",
-                      "InvoiceDate": "2026-09-01",
+                      "InvoiceDate": "2026-09-22",
                       "ExportLicenceRequired": false,
                       "Airn": "231.002.999-00"
                     },
@@ -985,13 +985,13 @@
                       "ContentType": "NDX",
                       "ServiceCode": "EMS",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-09-01",
+                      "ShipmentDate": "2026-09-22",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "2c489a51-b54e-4488-881c-dcc7a4bb761e",
-                      "ShippingLocationId": "2b6e7c5a-05b7-4046-8603-76a121bca34f",
+                      "ShippingAccountId": "92b35067-c241-4bad-9371-c9838341136b",
+                      "ShippingLocationId": "ddc1a8dd-6850-4821-91f7-cf58ee5d5434",
                       "Reference1": "OrderRef56",
                       "Address": {
                         "AddressId": "John Brown Default"
@@ -1029,7 +1029,7 @@
                 "examples": {
                   "Create": {
                     "value": {
-                      "ConsignmentShipmentId": "c9a39487-534d-4434-a018-9535e8f503be",
+                      "ConsignmentShipmentId": "c8b00e94-6063-4ac9-b2fa-d4fc0148df4f",
                       "Packages": [
                         {
                           "PackageOccurrence": 1
@@ -1039,7 +1039,7 @@
                   },
                   "Allocate": {
                     "value": {
-                      "ConsignmentShipmentId": "c673b97f-4555-43b5-844a-0aee38f863f9",
+                      "ConsignmentShipmentId": "adc86ae6-3e6d-4428-bc05-8121b0e034df",
                       "ConsignmentTrackingNumber": "UZ 123 456 789 IE",
                       "ConsignmentCarrierTrackingUrl": "https://www.anpost.com/Post-Parcels/Track/Search/Results?rtt=1&items=UZ 123 456 789 IE",
                       "Packages": [
@@ -1053,7 +1053,7 @@
                   },
                   "Process - PDF": {
                     "value": {
-                      "ConsignmentShipmentId": "c90a8544-c7f6-4a60-a04c-392afe87ca99",
+                      "ConsignmentShipmentId": "eb931578-9df8-4695-939d-64acb7a504f8",
                       "ConsignmentTrackingNumber": "UZ 123 456 789 IE",
                       "ConsignmentCarrierTrackingUrl": "https://www.anpost.com/Post-Parcels/Track/Search/Results?rtt=1&items=UZ 123 456 789 IE",
                       "Labels": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
@@ -1138,14 +1138,14 @@
                       "ContentType": "NDX",
                       "ServiceCode": "EMS",
                       "DescriptionOfGoods": "Clothing",
-                      "ShipmentDate": "2026-09-01",
+                      "ShipmentDate": "2026-09-22",
                       "DeclaredWeight": 1.5,
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "12c3cfd0-c805-4c2d-9a1f-80be819f52d6",
-                      "ShippingLocationId": "fff32bf4-3eed-4cb9-8e41-fd1ed8a8bd46",
+                      "ShippingAccountId": "fd84ef23-eae3-48da-be92-eb3d06642436",
+                      "ShippingLocationId": "2b11f7cf-b90a-461f-8119-35db93108f84",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -1182,15 +1182,15 @@
                       "ServiceCode": "EMS",
                       "DescriptionOfGoods": "Clothing",
                       "BusinessTransactionType": "B2C",
-                      "ShipmentDate": "2026-09-01",
+                      "ShipmentDate": "2026-09-22",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "2ccda860-4fbc-4123-bc37-d542e96ff20e",
-                      "ShippingLocationId": "42d39a6e-308b-4269-9c35-11437ec753d6",
+                      "ShippingAccountId": "54ede325-6169-4aa2-8ee2-53a33f6e1797",
+                      "ShippingLocationId": "aa664c6c-4991-4f7e-ad89-a03fb8e1406a",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -1283,15 +1283,15 @@
                       "ContentType": "NDX",
                       "ServiceCode": "EXP",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-09-01",
+                      "ShipmentDate": "2026-09-22",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "2020903b-df8c-4f30-a262-bbde435d2591",
-                      "ShippingLocationId": "7b0456d2-ffbc-4fce-9bef-2595cfecbf72",
+                      "ShippingAccountId": "cde7037f-8121-4ea7-99d8-a0074576d913",
+                      "ShippingLocationId": "7f12a6e3-1f71-4305-98df-0419229dadc3",
                       "Reference1": "OrderRef56",
                       "EoriNumber": "GB12345",
                       "VatNumber": "VA12345"
@@ -1358,15 +1358,15 @@
                       "ContentType": "NDX",
                       "ServiceCode": "EXP",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-09-01",
+                      "ShipmentDate": "2026-09-22",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "d6e3fd75-be31-405e-a0ac-32117c18e06a",
-                      "ShippingLocationId": "1d1a7c3c-4bd9-4a50-8742-3940286af2ef",
+                      "ShippingAccountId": "f636041f-606f-4013-8527-e3b585e3b54b",
+                      "ShippingLocationId": "4ecaaa2b-4c7f-4ed8-9c28-5e2b3396d2df",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -1448,7 +1448,7 @@
                       "OtherCharges": 32,
                       "QuotedLandedCost": 82.74,
                       "InvoiceNumber": "INV-12345",
-                      "InvoiceDate": "2026-09-01",
+                      "InvoiceDate": "2026-09-22",
                       "ExportLicenceRequired": false,
                       "Airn": "231.002.999-00"
                     },
@@ -1476,13 +1476,13 @@
                       "ContentType": "NDX",
                       "ServiceCode": "EMS",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-09-01",
+                      "ShipmentDate": "2026-09-22",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "243d005a-34ad-4808-9de7-3c8931ab5255",
-                      "ShippingLocationId": "8bab9387-89bf-4736-a848-32296ef45fba",
+                      "ShippingAccountId": "8015f564-33fe-4670-beb9-48018a4dc62d",
+                      "ShippingLocationId": "45fa8332-b830-4ca7-b200-cfbf065aee0d",
                       "Reference1": "OrderRef56",
                       "Address": {
                         "AddressId": "John Brown Default"
@@ -1518,7 +1518,7 @@
                   "$ref": "#/components/schemas/CreateShipmentViaWebhookResponse"
                 },
                 "example": {
-                  "RequestId": "c7c62bde-312b-4996-8fd2-ad76dba0d5db"
+                  "RequestId": "b78737e9-7320-4cc1-917b-fb745b8fea19"
                 }
               }
             }
@@ -1607,7 +1607,7 @@
                 "examples": {
                   "PDF": {
                     "value": {
-                      "ShipmentId": "71f10f13-972d-4ee1-93c6-92aba4addf85",
+                      "ShipmentId": "8651fcae-f855-4dae-aa81-56388dc24629",
                       "TrackingNumber": "UZ 123 456 789 IE",
                       "CarrierTrackingUrl": "https://www.anpost.com/Post-Parcels/Track/Search/Results?rtt=1&items=UZ 123 456 789 IE",
                       "Label": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
@@ -1699,7 +1699,7 @@
           "Line1": {
             "maxLength": 35,
             "type": "string",
-            "description": "The first line of the address, typically containing the primary address information such as house number and street name.",
+            "description": "The first line of the address, typically containing the primary address information such as house number and street name.<br /><br />***Note:** This information is required if the address is not used from the stored addresses in the Address Book.*",
             "nullable": true,
             "example": "Brown Cottage"
           },
@@ -1896,7 +1896,7 @@
         "properties": {
           "ShippingAccountId": {
             "type": "string",
-            "description": "A unique identifier for each shipping account assigned by the system **(ShippingAccountId)** or by you **(AccountAlias)**, allowing for efficient reference and management of individual accounts within the system.",
+            "description": "A unique identifier for each shipping account assigned by the system **(ShippingAccountId)**, allowing for efficient reference and management of individual accounts within the system.",
             "format": "uuid"
           },
           "CarrierCode": {
@@ -1952,7 +1952,7 @@
           "LastUpdatedBy": {
             "minLength": 1,
             "type": "string",
-            "description": "The identifier (such as a username or system account) of the individual or system that last modified the shipping location information, ensuring accountability.",
+            "description": "The identifier (such as a username or system account) of the individual or system that last modified the shipping account information, ensuring accountability.",
             "example": "User A"
           },
           "LastUpdatedDateUtc": {
@@ -1976,11 +1976,11 @@
             "items": {
               "$ref": "#/components/schemas/AnPostShippingAccount"
             },
-            "description": "An array containing all shipping accounts for the specific page only."
+            "description": "An array containing the shipping accounts associated with the shipping location that match the query parameters specified in the request."
           },
           "TotalCount": {
             "type": "integer",
-            "description": "An integer representing the total number of shipping accounts, giving users a quick overview of how many accounts are linked to their operations.",
+            "description": "An integer representing the total number of shipping accounts that match the query parameters sent in the request, giving users a quick overview of how many accounts are linked to their operations.",
             "format": "int32",
             "example": 303
           }
@@ -2174,14 +2174,14 @@
           "EoriNumber": {
             "maxLength": 17,
             "type": "string",
-            "description": "The EORI (Economic Operators Registration and Identification) number for the receiver, which must start with the ISO Alpha-2 Country Code followed by up to 15 alphanumeric characters. For Northern Ireland, it starts with XI. \r<br />\r<br />***Note:** This field is mandatory for B2B shipments from GB to Northern Ireland or if the receiver is a business. Make sure to provide this information here—not in the **Customs** object.*",
+            "description": "The EORI (Economic Operators Registration and Identification) number for the receiver, which must start with the ISO Alpha-2 Country Code followed by up to 15 alphanumeric characters. For Northern Ireland, it starts with XI. \r<br />\r<br />***Note:**  Make sure to provide this information here—not in the **Customs** object.*",
             "nullable": true,
             "example": "GB 123 4567 89 000"
           },
           "VatNumber": {
             "maxLength": 15,
             "type": "string",
-            "description": "The VAT (Value Added Tax) number for the receiver, which, if applicable, is used for tax compliance. \r<br />\r<br />***Note:** This field is mandatory if the receiver is a business. Make sure to provide this information here—not in the **Customs** object.*",
+            "description": "The VAT (Value Added Tax) number for the receiver, which, if applicable, is used for tax compliance. \r<br />\r<br />***Note:**  Make sure to provide this information here—not in the **Customs** object.*",
             "nullable": true,
             "example": "GB 123 4567 89"
           },
@@ -2190,7 +2190,7 @@
           }
         },
         "additionalProperties": false,
-        "description": "An object providing details on the shipment destination, such as receiver and contact details."
+        "description": "An array of objects providing details on the shipment destination, such as receiver and contact details."
       },
       "DestinationAddress": {
         "type": "object",
@@ -3337,7 +3337,7 @@
             "maxLength": 100,
             "minLength": 1,
             "type": "string",
-            "description": "A unique identifier assigned to the shipping location by the system (**shippingLocationId**) or by you (**LocationAlias**). This ID is used to distinguish between different shipping locations within the system, facilitating referencing and operations, such as updates, deletions, or specific queries related to that location.",
+            "description": "A unique identifier for the shipping location assigned by the system or by you (alias), allowing users to reference and manage specific locations effectively.\r<br />\r<br />***Note:** The information provided in this field and the **ShippingAccountId** field are being linked with each other.*",
             "example": "D94E8CFD-604B-4B87-83E9-3F20CAF02837"
           }
         },
