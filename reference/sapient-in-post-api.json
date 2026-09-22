@@ -1,7 +1,7 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "INPOST",
+    "title": "InPost",
     "description": "# Introduction\nHere you will find requirements for integrating with INTERSOFT SAPIENT API.\n\nThe documentation specifically covers how the API can be used by business customers to conduct shipping activity with available carriers and provides the technical information to build this integration. The API allows customers to create and manage shipments, produce labels, customs documentation, and collection manifests, retrieve reference data such as carriers and countries, and maintain their own data such as shipping account details.\n\nIntersoft API is a fully RESTful service implemented using JSON messaging. You, as the customer are responsible for sending JSON messages and for maintaining the capability of receiving JSON messages in the format described in this specification. Request and response examples for each API service are included in this specification.\n\n# Authentication\n\nThe INTERSOFT SAPIENT API uses OAuth2 authentication.\n\nTo request the authorization token you need to create API credentials (Client ID and Secret) on the system first. If you have not done it already, log into your account and go to API Credentials or follow the link [add a link here with the path to the API Credentials menu]. Use the credentials to retrieve the authorization token.\n\nNote: Make sure you copy the Secret and keep it secure as you won't be able to view it again on the system.\n\n<!-- ReDoc-Inject: <SecurityDefinitions /> -->\n",
     "version": "v4.0-INPOST",
     "x-logo": {
@@ -86,7 +86,7 @@
                     "value": {
                       "ShippingAccounts": [
                         {
-                          "ShippingAccountId": "0396c3e6-b106-4411-a5a0-c497c87b2fd5",
+                          "ShippingAccountId": "ceb122b7-cbf4-4064-bf61-854d70d16519",
                           "CarrierCode": "INPOST",
                           "AccountNumber": "IN0000001",
                           "AccountType": "Sandbox",
@@ -96,11 +96,11 @@
                           "ContactName": "John Smith",
                           "ContactNumber": "0123456789",
                           "LastUpdatedBy": "User A",
-                          "LastUpdatedDateUtc": "2026-09-01T07:42:59.340Z",
+                          "LastUpdatedDateUtc": "2026-09-22T08:53:42.581Z",
                           "ClientId": "example@inpost.co.uk"
                         },
                         {
-                          "ShippingAccountId": "d029a377-0a19-42fd-820a-888fa96528a4",
+                          "ShippingAccountId": "8821af5e-10b4-43f4-ab25-b46fd0021480",
                           "CarrierCode": "INPOST",
                           "AccountNumber": "IN0000007",
                           "AccountType": "Sandbox",
@@ -110,7 +110,7 @@
                           "ContactName": "Joan Smith",
                           "ContactNumber": "0123456789",
                           "LastUpdatedBy": "User B",
-                          "LastUpdatedDateUtc": "2026-09-01T07:42:59.340Z",
+                          "LastUpdatedDateUtc": "2026-09-22T08:53:42.581Z",
                           "ClientId": "example2@inpost.co.uk"
                         }
                       ],
@@ -260,7 +260,7 @@
                 "examples": {
                   "Response": {
                     "value": {
-                      "ShippingAccountId": "44b87c0f-e198-402f-acc5-38da7afdc24b",
+                      "ShippingAccountId": "950c0118-f2b3-48c5-b9c2-90bea83c817c",
                       "CarrierCode": "INPOST",
                       "AccountNumber": "IN0000001",
                       "AccountType": "Sandbox",
@@ -270,7 +270,7 @@
                       "ContactName": "John Smith",
                       "ContactNumber": "0123456789",
                       "LastUpdatedBy": "User A",
-                      "LastUpdatedDateUtc": "2026-09-01T07:42:59.445Z",
+                      "LastUpdatedDateUtc": "2026-09-22T08:53:42.703Z",
                       "ClientId": "example@inpost.co.uk"
                     }
                   }
@@ -653,7 +653,7 @@
                       "ServiceCode": "B2C",
                       "DescriptionOfGoods": "Clothing",
                       "BusinessTransactionType": "B2C",
-                      "ShipmentDate": "2026-09-01",
+                      "ShipmentDate": "2026-09-22",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
@@ -661,8 +661,8 @@
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "c2881a1a-20e7-41c5-b19c-b5e0ced1bf48",
-                      "ShippingLocationId": "433b70af-d9ad-4ef3-9344-035e1488613f",
+                      "ShippingAccountId": "08eeaa4f-e2f9-41c4-a128-afe2f4a71615",
+                      "ShippingLocationId": "18ebe510-9927-48be-89f6-61dcf59dc199",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -756,14 +756,14 @@
                       "ContentType": "NDX",
                       "ServiceCode": "B2C",
                       "DescriptionOfGoods": "Clothing",
-                      "ShipmentDate": "2026-09-01",
+                      "ShipmentDate": "2026-09-22",
                       "DeclaredWeight": 1.5,
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "d42fb6f5-34a3-489e-a518-0fd2399ac48b",
-                      "ShippingLocationId": "db60a8a5-509d-4ad1-bd36-4a755e12bfcb",
+                      "ShippingAccountId": "bad42eb6-07a2-4747-bcbe-59df925420c4",
+                      "ShippingLocationId": "26867ed2-199e-42dc-b7bd-5b0f9a1df2c4",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -793,13 +793,13 @@
                       "ContentType": "NDX",
                       "ServiceCode": "RETURNS",
                       "DescriptionOfGoods": "Clothing",
-                      "ShipmentDate": "2026-09-01",
+                      "ShipmentDate": "2026-09-22",
                       "DeclaredWeight": 1.5,
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "3a36e9ec-7cd5-46b2-a0dd-c11ce2966fcf"
+                      "ShippingAccountId": "40f18424-debb-4b63-9c2c-a19a377539a6"
                     },
                     "Destination": {
                       "Address": {
@@ -839,7 +839,7 @@
                       "LabelFormat": "Pdf",
                       "Packages": [
                         {
-                          "ShipmentId": "b3c8eabb-57cf-4654-b359-fb5b412899fd",
+                          "ShipmentId": "364fdf9f-7ca8-41ad-81be-6e9bc9ac77c5",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "MD000000004409629",
                           "CarrierTrackingUrl": "https://tracking.inpost.co.uk/api/v2.0/MD000000004409629"
@@ -921,7 +921,7 @@
                       "ServiceCode": "B2C",
                       "DescriptionOfGoods": "Clothing",
                       "BusinessTransactionType": "B2C",
-                      "ShipmentDate": "2026-09-01",
+                      "ShipmentDate": "2026-09-22",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
@@ -929,8 +929,8 @@
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "804a798a-f9d0-4e73-b9cf-d1cbcae5bcb6",
-                      "ShippingLocationId": "d96b13fb-727e-4252-ac1a-eff132f92a2c",
+                      "ShippingAccountId": "e13d1813-ca51-41f6-a6a2-3bae89cca23a",
+                      "ShippingLocationId": "c5788529-dd61-4924-a8ba-e82d443ac41b",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -1024,14 +1024,14 @@
                       "ContentType": "NDX",
                       "ServiceCode": "B2C",
                       "DescriptionOfGoods": "Clothing",
-                      "ShipmentDate": "2026-09-01",
+                      "ShipmentDate": "2026-09-22",
                       "DeclaredWeight": 1.5,
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "d1dffab0-56d8-4d52-a9b6-04273a18110c",
-                      "ShippingLocationId": "5bf77e55-282e-4b16-9edb-d1a3233ad9d9",
+                      "ShippingAccountId": "04a593a0-88f4-4eaa-87cb-a859eda97ff7",
+                      "ShippingLocationId": "efc898f3-1b6e-47d9-8721-543b2a09fcf7",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -1061,13 +1061,13 @@
                       "ContentType": "NDX",
                       "ServiceCode": "RETURNS",
                       "DescriptionOfGoods": "Clothing",
-                      "ShipmentDate": "2026-09-01",
+                      "ShipmentDate": "2026-09-22",
                       "DeclaredWeight": 1.5,
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "3e03bf5f-9fe7-4eb4-b29e-ca8396c043a0"
+                      "ShippingAccountId": "6edb0e65-07fe-48d9-a2ba-76144b59a483"
                     },
                     "Destination": {
                       "Address": {
@@ -1101,7 +1101,7 @@
                   "$ref": "#/components/schemas/CreateShipmentViaWebhookResponse"
                 },
                 "example": {
-                  "RequestId": "7e51edc8-27e0-44b1-9846-7fa377bbb64c"
+                  "RequestId": "cee4d062-d7b3-43c7-b10e-ce3eb29c0281"
                 }
               }
             }
@@ -1190,7 +1190,7 @@
                 "examples": {
                   "PDF": {
                     "value": {
-                      "ShipmentId": "330833c2-3e2c-44d2-a483-da7b87c5059f",
+                      "ShipmentId": "d951c6da-c621-423e-ac23-acb0f3b555d3",
                       "TrackingNumber": "5949545283154118",
                       "CarrierTrackingUrl": "https://tracking.inpost.co.uk/api/v2.0/5949545283154118",
                       "Label": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
@@ -1282,7 +1282,7 @@
           "Line1": {
             "maxLength": 0,
             "type": "string",
-            "description": "The first line of the address, typically containing the primary address information such as house number and street name.",
+            "description": "The first line of the address, typically containing the primary address information such as house number and street name.<br /><br />***Note:** This information is required if the address is not used from the stored addresses in the Address Book.*",
             "nullable": true,
             "example": "Brown Cottage"
           },
@@ -1532,14 +1532,14 @@
           "EoriNumber": {
             "maxLength": 17,
             "type": "string",
-            "description": "The EORI (Economic Operators Registration and Identification) number for the receiver, which must start with the ISO Alpha-2 Country Code followed by up to 15 alphanumeric characters. For Northern Ireland, it starts with XI. \r<br />\r<br />***Note:** This field is mandatory for B2B shipments from GB to Northern Ireland or if the receiver is a business. Make sure to provide this information here—not in the **Customs** object.*",
+            "description": "The EORI (Economic Operators Registration and Identification) number for the receiver, which must start with the ISO Alpha-2 Country Code followed by up to 15 alphanumeric characters. For Northern Ireland, it starts with XI. \r<br />\r<br />***Note:**  Make sure to provide this information here—not in the **Customs** object.*",
             "nullable": true,
             "example": "GB 123 4567 89 000"
           },
           "VatNumber": {
             "maxLength": 15,
             "type": "string",
-            "description": "The VAT (Value Added Tax) number for the receiver, which, if applicable, is used for tax compliance. \r<br />\r<br />***Note:** This field is mandatory if the receiver is a business. Make sure to provide this information here—not in the **Customs** object.*",
+            "description": "The VAT (Value Added Tax) number for the receiver, which, if applicable, is used for tax compliance. \r<br />\r<br />***Note:**  Make sure to provide this information here—not in the **Customs** object.*",
             "nullable": true,
             "example": "GB 123 4567 89"
           },
@@ -1548,7 +1548,7 @@
           }
         },
         "additionalProperties": false,
-        "description": "An object providing details on the shipment destination, such as receiver and contact details."
+        "description": "An array of objects providing details on the shipment destination, such as receiver and contact details."
       },
       "DestinationAddress": {
         "type": "object",
@@ -2133,7 +2133,7 @@
         "properties": {
           "ShippingAccountId": {
             "type": "string",
-            "description": "A unique identifier for each shipping account assigned by the system **(ShippingAccountId)** or by you **(AccountAlias)**, allowing for efficient reference and management of individual accounts within the system.",
+            "description": "A unique identifier for each shipping account assigned by the system **(ShippingAccountId)**, allowing for efficient reference and management of individual accounts within the system.",
             "format": "uuid"
           },
           "CarrierCode": {
@@ -2196,7 +2196,7 @@
           "LastUpdatedBy": {
             "minLength": 1,
             "type": "string",
-            "description": "The identifier (such as a username or system account) of the individual or system that last modified the shipping location information, ensuring accountability.",
+            "description": "The identifier (such as a username or system account) of the individual or system that last modified the shipping account information, ensuring accountability.",
             "example": "User A"
           },
           "LastUpdatedDateUtc": {
@@ -2220,11 +2220,11 @@
             "items": {
               "$ref": "#/components/schemas/InPostShippingAccount"
             },
-            "description": "An array containing all shipping accounts for the specific page only."
+            "description": "An array containing the shipping accounts associated with the shipping location that match the query parameters specified in the request."
           },
           "TotalCount": {
             "type": "integer",
-            "description": "An integer representing the total number of shipping accounts, giving users a quick overview of how many accounts are linked to their operations.",
+            "description": "An integer representing the total number of shipping accounts that match the query parameters sent in the request, giving users a quick overview of how many accounts are linked to their operations.",
             "format": "int32",
             "example": 303
           }
@@ -2979,7 +2979,7 @@
             "maxLength": 100,
             "minLength": 1,
             "type": "string",
-            "description": "A unique identifier assigned to the shipping location by the system (**shippingLocationId**) or by you (**LocationAlias**). This ID is used to distinguish between different shipping locations within the system, facilitating referencing and operations, such as updates, deletions, or specific queries related to that location.",
+            "description": "A unique identifier for the shipping location assigned by the system or by you (alias), allowing users to reference and manage specific locations effectively.\r<br />\r<br />***Note:** The information provided in this field and the **ShippingAccountId** field are being linked with each other.*",
             "example": "D94E8CFD-604B-4B87-83E9-3F20CAF02837"
           }
         },
