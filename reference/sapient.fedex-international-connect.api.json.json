@@ -1,7 +1,7 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "FEDEX INTERNATIONAL CONNECT",
+    "title": "FedEx International Connect",
     "description": "# Introduction\nHere you will find requirements for integrating with SAPIENT CORE API.\n\nThe documentation specifically covers how the API can be used by business customers to conduct shipping activity with available carriers and provides the technical information to build this integration. The API allows customers to create and manage shipments, produce labels, customs documentation, and collection manifests, retrieve reference data such as carriers and countries, and maintain their own data such as shipping account details.\n\nIntersoft API is a fully RESTful service implemented using JSON messaging. You, as the customer are responsible for sending JSON messages and for maintaining the capability of receiving JSON messages in the format described in this specification. Request and response examples for each API service are included in this specification.\n\n# Authentication\n\nThe SAPIENT CORE API uses OAuth2 authentication.\n\nTo request the authorization token you need to create API credentials (Client ID and Secret) on the system first. If you have not done it already, log into your account and go to API Credentials or follow the link [add a link here with the path to the API Credentials menu]. Use the credentials to retrieve the authorization token.\n\nNote: Make sure you copy the Secret and keep it secure as you won't be able to view it again on the system.\n\n<!-- ReDoc-Inject: <SecurityDefinitions /> -->\n",
     "version": "v4.0-FIC",
     "x-logo": {
@@ -86,7 +86,7 @@
                     "value": {
                       "ShippingAccounts": [
                         {
-                          "ShippingAccountId": "cb70cd4e-96e0-4fcd-95e0-fe5b1e398294",
+                          "ShippingAccountId": "4165cb47-b470-4f7f-a009-ac6e1a3fde8b",
                           "CarrierCode": "FIC",
                           "AccountType": "Sandbox",
                           "AccountName": "AB VideoGames",
@@ -96,10 +96,10 @@
                           "ContactNumber": "0123456789",
                           "ShipperWebsiteUrl": "https://www.example.com",
                           "LastUpdatedBy": "User A",
-                          "LastUpdatedDateUtc": "2026-09-01T07:44:22.415Z"
+                          "LastUpdatedDateUtc": "2026-09-22T08:55:05.289Z"
                         },
                         {
-                          "ShippingAccountId": "e710cdf3-6052-4117-858e-deb05ced5c96",
+                          "ShippingAccountId": "9e9d4565-b7fe-410a-a28d-7ece9abf3af3",
                           "CarrierCode": "FIC",
                           "AccountType": "Sandbox",
                           "AccountName": "KG Pet Shop",
@@ -109,7 +109,7 @@
                           "ContactNumber": "0123456789",
                           "ShipperWebsiteUrl": "https://www.example.com",
                           "LastUpdatedBy": "User B",
-                          "LastUpdatedDateUtc": "2026-09-01T07:44:22.415Z"
+                          "LastUpdatedDateUtc": "2026-09-22T08:55:05.289Z"
                         }
                       ],
                       "TotalCount": 2
@@ -258,7 +258,7 @@
                 "examples": {
                   "Response": {
                     "value": {
-                      "ShippingAccountId": "f82299f4-d7f9-4eec-9050-a9752e9d261e",
+                      "ShippingAccountId": "62e26f96-38b9-46b7-a21e-1a753ed0269d",
                       "CarrierCode": "FIC",
                       "AccountType": "Sandbox",
                       "AccountName": "AB VideoGames",
@@ -268,7 +268,7 @@
                       "ContactNumber": "0123456789",
                       "ShipperWebsiteUrl": "https://www.example.com",
                       "LastUpdatedBy": "User A",
-                      "LastUpdatedDateUtc": "2026-09-01T07:44:22.523Z"
+                      "LastUpdatedDateUtc": "2026-09-22T08:55:05.449Z"
                     }
                   }
                 }
@@ -651,8 +651,8 @@
                       "CurrencyCode": "GBP"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "a76c2968-350f-47e6-be31-17d37a50c034",
-                      "ShippingLocationId": "a2c68aa9-8263-42ab-a6b3-7b425d114c96",
+                      "ShippingAccountId": "45089b49-f9a6-4b50-b460-99db9ec3c914",
+                      "ShippingLocationId": "98cd6d64-2044-491a-b379-f780c265bd93",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -689,7 +689,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "RM48",
                       "DescriptionOfGoods": "Clothing",
-                      "ShipmentDate": "2026-09-01",
+                      "ShipmentDate": "2026-09-22",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
@@ -787,7 +787,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "TPWW",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-09-01",
+                      "ShipmentDate": "2026-09-22",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP"
                     },
@@ -860,7 +860,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "TPWW",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-09-01",
+                      "ShipmentDate": "2026-09-22",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
@@ -950,7 +950,7 @@
                       "OtherCharges": 32,
                       "QuotedLandedCost": 82.74,
                       "InvoiceNumber": "INV-12345",
-                      "InvoiceDate": "2026-09-01",
+                      "InvoiceDate": "2026-09-22",
                       "ExportLicenceRequired": false,
                       "Airn": "231.002.999-00"
                     },
@@ -978,7 +978,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "RM48",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-09-01",
+                      "ShipmentDate": "2026-09-22",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
@@ -1023,7 +1023,7 @@
                     "value": {
                       "Packages": [
                         {
-                          "ShipmentId": "320c1fad-353d-43f3-af6e-c04922f7e798",
+                          "ShipmentId": "7a963f62-3a26-4e47-b033-7e42eee66649",
                           "PackageOccurrence": 1
                         }
                       ],
@@ -1034,7 +1034,7 @@
                     "value": {
                       "Packages": [
                         {
-                          "ShipmentId": "792eae51-c710-4e29-aff8-700bc1d9697b",
+                          "ShipmentId": "12f6cb7a-f357-4eb8-b192-27e2e62ef666",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "MD000000004409629",
                           "CarrierTrackingUrl": "https://fictracking.fedex.com/?MyFICNumber=MD000000004409629"
@@ -1052,7 +1052,7 @@
                           "CarrierDetails": {
                             "LabelCopiesToPrint": 1
                           },
-                          "ShipmentId": "640ea7e3-0296-4963-9e61-ce258bd0de26",
+                          "ShipmentId": "f8979177-277b-4167-afb0-3df14896f256",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "MD000000004409629",
                           "CarrierTrackingUrl": "https://fictracking.fedex.com/?MyFICNumber=MD000000004409629"
@@ -1136,8 +1136,8 @@
                       "CurrencyCode": "GBP"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "90cfdc82-d635-400e-b703-c1bb6e1a0c6a",
-                      "ShippingLocationId": "8b2e5f7d-f465-4828-a23c-bb40766c1e9f",
+                      "ShippingAccountId": "53949c58-838d-4646-b0df-c1a940c24c0a",
+                      "ShippingLocationId": "8bfb6d6d-60e8-4aed-9948-7fcf7961b914",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -1174,7 +1174,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "RM48",
                       "DescriptionOfGoods": "Clothing",
-                      "ShipmentDate": "2026-09-01",
+                      "ShipmentDate": "2026-09-22",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
@@ -1272,7 +1272,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "TPWW",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-09-01",
+                      "ShipmentDate": "2026-09-22",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP"
                     },
@@ -1345,7 +1345,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "TPWW",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-09-01",
+                      "ShipmentDate": "2026-09-22",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
@@ -1435,7 +1435,7 @@
                       "OtherCharges": 32,
                       "QuotedLandedCost": 82.74,
                       "InvoiceNumber": "INV-12345",
-                      "InvoiceDate": "2026-09-01",
+                      "InvoiceDate": "2026-09-22",
                       "ExportLicenceRequired": false,
                       "Airn": "231.002.999-00"
                     },
@@ -1463,7 +1463,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "RM48",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-09-01",
+                      "ShipmentDate": "2026-09-22",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
@@ -1504,7 +1504,7 @@
                   "$ref": "#/components/schemas/CreateShipmentViaWebhookResponse"
                 },
                 "example": {
-                  "RequestId": "f0f18559-6588-4fc3-b773-d1edd385cc32"
+                  "RequestId": "6a6f3496-3215-4f4d-85ca-d799d51912ed"
                 }
               }
             }
@@ -1585,7 +1585,7 @@
                 "examples": {
                   "PDF": {
                     "value": {
-                      "ShipmentId": "8949e3b7-8f5a-4699-9ae8-96548e05ced3",
+                      "ShipmentId": "b4e8fc14-e343-4323-a288-065f45b98316",
                       "TrackingNumber": "UZ 123 456 789 IE",
                       "CarrierTrackingUrl": "https://fictracking.fedex.com/?MyFICNumber=UZ 123 456 789 IE",
                       "Label": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
@@ -1677,7 +1677,7 @@
           "Line1": {
             "maxLength": 35,
             "type": "string",
-            "description": "The first line of the address, typically containing the primary address information such as house number and street name.",
+            "description": "The first line of the address, typically containing the primary address information such as house number and street name.<br /><br />***Note:** This information is required if the address is not used from the stored addresses in the Address Book.*",
             "nullable": true,
             "example": "Brown Cottage"
           },
@@ -1927,14 +1927,14 @@
           "EoriNumber": {
             "maxLength": 17,
             "type": "string",
-            "description": "The EORI (Economic Operators Registration and Identification) number for the receiver, which must start with the ISO Alpha-2 Country Code followed by up to 15 alphanumeric characters. For Northern Ireland, it starts with XI. \r<br />\r<br />***Note:** This field is mandatory for B2B shipments from GB to Northern Ireland or if the receiver is a business. Make sure to provide this information here—not in the **Customs** object.*",
+            "description": "The EORI (Economic Operators Registration and Identification) number for the receiver, which must start with the ISO Alpha-2 Country Code followed by up to 15 alphanumeric characters. For Northern Ireland, it starts with XI. \r<br />\r<br />***Note:**  Make sure to provide this information here—not in the **Customs** object.*",
             "nullable": true,
             "example": "GB 123 4567 89 000"
           },
           "VatNumber": {
             "maxLength": 15,
             "type": "string",
-            "description": "The VAT (Value Added Tax) number for the receiver, which, if applicable, is used for tax compliance. \r<br />\r<br />***Note:** This field is mandatory if the receiver is a business. Make sure to provide this information here—not in the **Customs** object.*",
+            "description": "The VAT (Value Added Tax) number for the receiver, which, if applicable, is used for tax compliance. \r<br />\r<br />***Note:**  Make sure to provide this information here—not in the **Customs** object.*",
             "nullable": true,
             "example": "GB 123 4567 89"
           },
@@ -1943,7 +1943,7 @@
           }
         },
         "additionalProperties": false,
-        "description": "An object providing details on the shipment destination, such as receiver and contact details."
+        "description": "An array of objects providing details on the shipment destination, such as receiver and contact details."
       },
       "DestinationAddress": {
         "type": "object",
@@ -2369,7 +2369,7 @@
         "properties": {
           "ShippingAccountId": {
             "type": "string",
-            "description": "A unique identifier for each shipping account assigned by the system **(ShippingAccountId)** or by you **(AccountAlias)**, allowing for efficient reference and management of individual accounts within the system.",
+            "description": "A unique identifier for each shipping account assigned by the system **(ShippingAccountId)**, allowing for efficient reference and management of individual accounts within the system.",
             "format": "uuid"
           },
           "CarrierCode": {
@@ -2432,7 +2432,7 @@
           "LastUpdatedBy": {
             "minLength": 1,
             "type": "string",
-            "description": "The identifier (such as a username or system account) of the individual or system that last modified the shipping location information, ensuring accountability.",
+            "description": "The identifier (such as a username or system account) of the individual or system that last modified the shipping account information, ensuring accountability.",
             "example": "User A"
           },
           "LastUpdatedDateUtc": {
@@ -2456,11 +2456,11 @@
             "items": {
               "$ref": "#/components/schemas/FedExInternationalConnectShippingAccount"
             },
-            "description": "An array containing all shipping accounts for the specific page only."
+            "description": "An array containing the shipping accounts associated with the shipping location that match the query parameters specified in the request."
           },
           "TotalCount": {
             "type": "integer",
-            "description": "An integer representing the total number of shipping accounts, giving users a quick overview of how many accounts are linked to their operations.",
+            "description": "An integer representing the total number of shipping accounts that match the query parameters sent in the request, giving users a quick overview of how many accounts are linked to their operations.",
             "format": "int32",
             "example": 303
           }
@@ -3375,7 +3375,7 @@
             "maxLength": 100,
             "minLength": 1,
             "type": "string",
-            "description": "A unique identifier assigned to the shipping location by the system (**shippingLocationId**) or by you (**LocationAlias**). This ID is used to distinguish between different shipping locations within the system, facilitating referencing and operations, such as updates, deletions, or specific queries related to that location.",
+            "description": "A unique identifier for the shipping location assigned by the system or by you (alias), allowing users to reference and manage specific locations effectively.\r<br />\r<br />***Note:** The information provided in this field and the **ShippingAccountId** field are being linked with each other.*",
             "example": "D94E8CFD-604B-4B87-83E9-3F20CAF02837"
           }
         },
