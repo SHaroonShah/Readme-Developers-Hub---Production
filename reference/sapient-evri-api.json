@@ -1,7 +1,7 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "EVRI",
+    "title": "Evri",
     "description": "# Introduction\nHere you will find requirements for integrating with INTERSOFT SAPIENT API.\n\nThe documentation specifically covers how the API can be used by business customers to conduct shipping activity with available carriers and provides the technical information to build this integration. The API allows customers to create and manage shipments, produce labels, customs documentation, and collection manifests, retrieve reference data such as carriers and countries, and maintain their own data such as shipping account details.\n\nIntersoft API is a fully RESTful service implemented using JSON messaging. You, as the customer are responsible for sending JSON messages and for maintaining the capability of receiving JSON messages in the format described in this specification. Request and response examples for each API service are included in this specification.\n\n# Authentication\n\nThe INTERSOFT SAPIENT API uses OAuth2 authentication.\n\nTo request the authorization token you need to create API credentials (Client ID and Secret) on the system first. If you have not done it already, log into your account and go to API Credentials or follow the link [add a link here with the path to the API Credentials menu]. Use the credentials to retrieve the authorization token.\n\nNote: Make sure you copy the Secret and keep it secure as you won't be able to view it again on the system.\n\n<!-- ReDoc-Inject: <SecurityDefinitions /> -->\n",
     "version": "v4.0-EVRI",
     "x-logo": {
@@ -22,12 +22,12 @@
           "Shipping Accounts"
         ],
         "summary": "Get Accounts",
-        "description": "Provides a list of Evri shipping accounts only.\r<br />Information about the account number, account type, and contact details is included in the response.",
+        "description": "Retrieves a list of Evri shipping accounts created on your customer account. With this endpoint, you can view and manage multiple shipping accounts by using various query parameters for filtering, pagination, and sorting the list of accounts, making it easier for users to find specific accounts.<br></br>",
         "parameters": [
           {
             "name": "searchTerm",
             "in": "query",
-            "description": "Search Term",
+            "description": "A string representing the term or keywords used to filter shipping accounts. This can be an account name or identifier that you are interested in to narrow down the list based on the  input.",
             "schema": {
               "type": "string"
             }
@@ -35,7 +35,7 @@
           {
             "name": "pageSize",
             "in": "query",
-            "description": "The maximum number of records per page.",
+            "description": "An integer that defines the number of account entries (records) returned per page in the response. For instance, if **pageSize** is set to 20, the API will return up to 20 accounts in each response.<br></br> ***Note:** By default, this value is set to 100.*",
             "schema": {
               "maximum": 2147483647,
               "minimum": 1,
@@ -47,7 +47,7 @@
           {
             "name": "pageNumber",
             "in": "query",
-            "description": "The number of the requested page, starting at 1.",
+            "description": "An integer indicating the specific page of results to retrieve, allowing for pagination of larger datasets. For example, if **pageNumber** is set to 3, the API will return the results corresponding to the third page of accounts based on the specified **pageSize**.<br></br> ***Note:** By default, this value is set to 1.*",
             "schema": {
               "maximum": 2147483647,
               "minimum": 1,
@@ -59,7 +59,7 @@
           {
             "name": "sortBy",
             "in": "query",
-            "description": "Sort By\r<br />Default: Name",
+            "description": "A string specifying the field by which to organise the search results. For instance, \"Name\" could be used to sort accounts alphabetically, arranging the results in a more user-friendly order.\r<br />\r<br />***Note:** By default, this value is set to Name.*",
             "schema": {
               "$ref": "#/components/schemas/ShippingAccountsSortBy"
             }
@@ -67,7 +67,7 @@
           {
             "name": "sortDir",
             "in": "query",
-            "description": "Sort Direction\r<br />Default: Ascending",
+            "description": "A string indicating the direction in which to sort the results, typically set to \"ascending\" or \"descending.\" For example, setting sortDir to \"Ascending\" while using \"Name\" as sortBy would arrange the locations from A to Z.\r<br />\r<br />***Note:** By default, this value is set to Ascending.*",
             "schema": {
               "$ref": "#/components/schemas/OrderDirection"
             }
@@ -96,7 +96,7 @@
                       "Username": "Username A",
                       "SmsAlertGroupCode": "3363",
                       "LastUpdatedBy": "User A",
-                      "LastUpdatedDateUtc": "2026-09-01T07:36:45.554Z"
+                      "LastUpdatedDateUtc": "2026-09-22T08:51:12.617Z"
                     },
                     {
                       "ShippingAccountId": "46d58272-5f6a-405d-a947-c46c9caea56f",
@@ -111,7 +111,7 @@
                       "Username": "Username B",
                       "SmsAlertGroupCode": "3368",
                       "LastUpdatedBy": "User B",
-                      "LastUpdatedDateUtc": "2026-09-01T07:36:45.554Z"
+                      "LastUpdatedDateUtc": "2026-09-22T08:51:12.617Z"
                     }
                   ],
                   "TotalCount": 2
@@ -187,7 +187,7 @@
                     "SmsAlertGroupCode": "3363",
                     "ShippingLocations": [
                       {
-                        "ShippingLocationId": "cbfb86cf-ff26-4f54-ba17-be0918bc927b"
+                        "ShippingLocationId": "ffe9d78e-d64d-4cd2-81f0-a3c7aa2aa5d7"
                       }
                     ]
                   }
@@ -287,12 +287,12 @@
           "Shipping Accounts"
         ],
         "summary": "Get Account",
-        "description": "Provides details for a Evri account.\r<br />Information about the account number, alias, account type, and contact details is included in the response.",
+        "description": "Retrieves details of a specific Evri shipping account created on your customer account. With this endpoint, you can access relevant details of that shipping account. This is useful for managing individual shipping accounts or verifying specific account attributes.",
         "parameters": [
           {
             "name": "shippingAccountId",
             "in": "path",
-            "description": "Shipping Account Identifier\r<br />SAPIENT Shipping Account Id (assigned by SAPIENT) or Alias (assigned by you).",
+            "description": "A unique identifier for the shipping account assigned by the system **(ShippingAccountId)** or by you **(AccountAlias)**, allowing for efficient reference and management of individual accounts within the system.",
             "required": true,
             "schema": {
               "type": "string"
@@ -320,7 +320,7 @@
                   "Username": "username",
                   "SmsAlertGroupCode": "3363",
                   "LastUpdatedBy": "User A",
-                  "LastUpdatedDateUtc": "2026-09-01T07:36:45.684Z"
+                  "LastUpdatedDateUtc": "2026-09-22T08:51:12.769Z"
                 }
               }
             }
@@ -349,12 +349,12 @@
           "Shipping Accounts"
         ],
         "summary": "Update Account",
-        "description": "Update shipping account details.\r<br />\r<br />***Note:** All required fields must be populated in the request, regardless if they need updating or not.*",
+        "description": "Update the details of an existing shipping account. With this endpoint, you can modify various attributes of the shipping account, such as contact information, service options, and others. This helps maintain current and accurate information for effective shipping operations.",
         "parameters": [
           {
             "name": "shippingAccountId",
             "in": "path",
-            "description": "Shipping Account Identifier\r<br />SAPIENT Shipping Account Id (assigned by SAPIENT) or Alias (assigned by you).",
+            "description": "A unique identifier for the shipping account assigned by the system (ShippingAccountId) or by you (AccountAlias), allowing for efficient reference and management of individual accounts within the system.",
             "required": true,
             "schema": {
               "type": "string"
@@ -442,7 +442,7 @@
           {
             "name": "shippingAccountId",
             "in": "path",
-            "description": "Shipping Account Identifier\r<br />SAPIENT Shipping Account Id (assigned by SAPIENT) or Alias (assigned by you).",
+            "description": "A unique identifier for the shipping account assigned by the system (ShippingAccountId) or by you (AccountAlias), allowing for efficient reference and management of individual accounts within the system.\r<br />\r<br />***Note:** The information provided in this field and the **ShippingLocationId** field are being linked with each other.*",
             "required": true,
             "schema": {
               "type": "string"
@@ -512,12 +512,12 @@
           "Shipping Accounts"
         ],
         "summary": "Get Associated Locations",
-        "description": "Provides a list of all shipping locations associated with a Evri shipping account.",
+        "description": "Retrieves a list of shipping locations that are linked to a specific Evri shipping account.",
         "parameters": [
           {
             "name": "shippingAccountId",
             "in": "path",
-            "description": "Shipping Account Identifier\r<br />SAPIENT Shipping Account Id (assigned by SAPIENT) or Alias (assigned by you).",
+            "description": "A unique identifier for the shipping account assigned by the system (ShippingAccountId) or by you (AccountAlias), allowing for efficient reference and management of individual accounts within the system. The response will return all the shipping locations linked to the shipping account ID provided here.",
             "required": true,
             "schema": {
               "type": "string"
@@ -526,7 +526,7 @@
           {
             "name": "searchTerm",
             "in": "query",
-            "description": "Search Term",
+            "description": "A string representing the term or keywords used to filter location results. For example, a search term like \"Manchester\" would return locations associated with that city, helping to narrow down the list based on the user input.",
             "schema": {
               "type": "string"
             }
@@ -534,7 +534,7 @@
           {
             "name": "pageSize",
             "in": "query",
-            "description": "The maximum number of records per page.",
+            "description": "An integer that defines the number of location entries (records) returned per page in the response. For instance, if **pageSize** is set to 20, the API will return up to 20 accounts in each response.<br /><br />***Note:** By default, this value is set to 100.*",
             "schema": {
               "maximum": 2147483647,
               "minimum": 1,
@@ -546,7 +546,7 @@
           {
             "name": "pageNumber",
             "in": "query",
-            "description": "The number of the requested page, starting at 1.",
+            "description": "An integer indicating the specific page of results to retrieve, allowing for pagination of larger datasets. For example, if **pageNumber** is set to 3, the API will return the results corresponding to the third page of accounts based on the specified **pageSize**.<br /><br />***Note:** By default, this value is set to 1.*",
             "schema": {
               "maximum": 2147483647,
               "minimum": 1,
@@ -558,7 +558,7 @@
           {
             "name": "sortBy",
             "in": "query",
-            "description": "Sort By\r<br />Default: Name",
+            "description": "A string specifying the field by which to organise the search results. For instance, \"Name\" could be used to sort locations alphabetically, arranging the results in a more user-friendly order.<br /><br />***Note:** By default, this value is set to Name.*",
             "schema": {
               "$ref": "#/components/schemas/ShippingLocationsSortBy"
             }
@@ -566,7 +566,7 @@
           {
             "name": "sortDir",
             "in": "query",
-            "description": "Sort Direction\r<br />Default: Ascending",
+            "description": "A string indicating the direction in which to sort the results, typically set to \"ascending\" or \"descending.\" For example, setting **sortDir** to \"Ascending\" while using \"Name\" as **sortBy** would arrange the locations from A to Z.<br /><br />***Note:** By default, this value is set to Ascending.*",
             "schema": {
               "$ref": "#/components/schemas/OrderDirection"
             }
@@ -639,7 +639,7 @@
           {
             "name": "shippingAccountId",
             "in": "path",
-            "description": "Shipping Account Identifier\r<br />SAPIENT Shipping Account Id (assigned by SAPIENT) or Alias (assigned by you).",
+            "description": "Shipping Account Identifier\r<br />A unique identifier for the shipping account assigned by the system (ShippingAccountId) or by you (AccountAlias), allowing for efficient reference and management of individual accounts within the system.<br /><br /> ***Note:** The information provided in this field and the **ShippingLocationId** field are being linked with each other for which the data is being returned in the response.*",
             "required": true,
             "schema": {
               "type": "string"
@@ -648,7 +648,7 @@
           {
             "name": "shippingLocationId",
             "in": "path",
-            "description": "Shipping Location Identifier\r<br />SAPIENT Shipping Location Id (assigned by SAPIENT) or Alias (assigned by you).",
+            "description": "A unique identifier for the shipping location assigned by the system or by you (alias), allowing users to reference and manage specific locations effectively.<br /><br /> ***Note:** The information provided in this field and the **ShippingAccountId** field are being linked with each other for which the data is being returned in the response.*",
             "required": true,
             "schema": {
               "type": "string"
@@ -692,7 +692,7 @@
           "Shipments"
         ],
         "summary": "Create Shipment",
-        "description": "Create a Evri shipment. This will return an image of the shipping label in PDF, PNG or ZPL format.",
+        "description": "Create a new Evri shipment by submitting the shipment details in your request and returning an image of the shipping label in the PDF and PNG formats.",
         "requestBody": {
           "description": "Shipment Details",
           "content": {
@@ -708,12 +708,12 @@
                       "ContentType": "NDX",
                       "ServiceCode": "STND",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-09-01",
+                      "ShipmentDate": "2026-09-22",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "3dc14957-84b6-429a-bb4c-0bcde2d91a3d",
+                      "ShippingAccountId": "db03d337-5b94-4430-b032-481d2dffcfbd",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -757,15 +757,15 @@
                       "ContentType": "NDX",
                       "ServiceCode": "STND",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-09-01",
+                      "ShipmentDate": "2026-09-22",
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM",
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "c0a9ea3a-18b2-4d5d-9b11-b46591279d82",
-                      "ShippingLocationId": "99775045-4ff3-47f9-8f65-dedc93bc6584",
+                      "ShippingAccountId": "f7c84705-9dea-460e-84fd-5cb333de7828",
+                      "ShippingLocationId": "3a7ad722-82c7-4690-b155-58331595f84b",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -854,13 +854,13 @@
                       "ContentType": "NDX",
                       "ServiceCode": "INTL",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-09-01",
+                      "ShipmentDate": "2026-09-22",
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "aab8dded-90e5-4967-8a45-b12056a2ff2d",
+                      "ShippingAccountId": "e5ecf41d-00b7-474d-85d3-b2ad6dbd9ad4",
                       "Reference1": "OrderRef56",
                       "EoriNumber": "GB12345",
                       "VatNumber": "VA12345"
@@ -929,15 +929,15 @@
                       "ContentType": "NDX",
                       "ServiceCode": "INTL",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-09-01",
+                      "ShipmentDate": "2026-09-22",
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM",
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "c88a31e6-fd6b-4e66-9c43-71f045d118f1",
-                      "ShippingLocationId": "91b4b5b3-1e05-40d8-b32d-b04f6dd5d2ec",
+                      "ShippingAccountId": "e9ba8e58-ce1e-470d-8df9-c42e9ec77cb9",
+                      "ShippingLocationId": "09b8d7c8-53af-4150-8e93-3fe5f1673e83",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -1018,7 +1018,7 @@
                       "OtherCharges": 32,
                       "QuotedLandedCost": 82.74,
                       "InvoiceNumber": "INV-12345",
-                      "InvoiceDate": "2026-09-01",
+                      "InvoiceDate": "2026-09-22",
                       "ExportLicenceRequired": false,
                       "Airn": "231.002.999-00"
                     },
@@ -1046,12 +1046,12 @@
                       "ContentType": "NDX",
                       "ServiceCode": "STND",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-09-01",
+                      "ShipmentDate": "2026-09-22",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "49fc0ce1-66aa-429c-b6a2-c3bd00a60a1e",
+                      "ShippingAccountId": "0c85aebd-75d7-4e53-bff4-c03ca28c83f8",
                       "Reference1": "OrderRef56",
                       "Address": {
                         "AddressId": "John Brown Default"
@@ -1096,7 +1096,7 @@
                     "value": {
                       "Packages": [
                         {
-                          "ShipmentId": "81111046-ffe7-42d2-9f18-21d38dd5c4ea",
+                          "ShipmentId": "818f15f3-a05e-4733-b718-d1578d5928a3",
                           "PackageOccurrence": 0
                         }
                       ]
@@ -1106,7 +1106,7 @@
                     "value": {
                       "Packages": [
                         {
-                          "ShipmentId": "7470d4a1-e369-41d3-abab-e84488724c74",
+                          "ShipmentId": "e36bcf98-febb-45b7-b695-a0ec0211b35e",
                           "PackageOccurrence": 0,
                           "TrackingNumber": "H03TCA0000000118",
                           "CarrierTrackingUrl": "https://www.evri.com/track/parcel/H03TCA0000000118"
@@ -1120,7 +1120,7 @@
                       "LabelFormat": "PDF",
                       "Packages": [
                         {
-                          "ShipmentId": "e68fcb69-c7f0-40d6-8e72-c5cd701b3c73",
+                          "ShipmentId": "3d3b26aa-8548-4adb-ab6b-a6aaf1497843",
                           "PackageOccurrence": 0,
                           "TrackingNumber": "H03TCA0000000118",
                           "CarrierTrackingUrl": "https://www.evri.com/track/parcel/H03TCA0000000118"
@@ -1134,7 +1134,7 @@
                       "LabelFormat": "PNG",
                       "Packages": [
                         {
-                          "ShipmentId": "72ef701c-5d7f-43b0-9880-696fac7e6d8c",
+                          "ShipmentId": "f8288fbc-7a6d-40dd-98dc-54c5a297e961",
                           "PackageOccurrence": 0,
                           "TrackingNumber": "H03TCA0000000118",
                           "CarrierTrackingUrl": "https://www.evri.com/track/parcel/H03TCA0000000118"
@@ -1213,12 +1213,12 @@
                       "ContentType": "NDX",
                       "ServiceCode": "STND",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-09-01",
+                      "ShipmentDate": "2026-09-22",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "730042b5-e692-439f-baba-7ba001be99e3",
+                      "ShippingAccountId": "46ca96a8-e282-4505-b28b-f7958f5437eb",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -1262,15 +1262,15 @@
                       "ContentType": "NDX",
                       "ServiceCode": "STND",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-09-01",
+                      "ShipmentDate": "2026-09-22",
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM",
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "5d6e4703-46b3-43c6-9f20-23419d782578",
-                      "ShippingLocationId": "17263866-3f17-408c-8a5d-1da1aec7a97e",
+                      "ShippingAccountId": "ba67d1f7-f235-49c2-9e48-01fa8db2d0e8",
+                      "ShippingLocationId": "8ed93d1b-b84f-4629-8fa2-5a0d302eef7a",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -1359,13 +1359,13 @@
                       "ContentType": "NDX",
                       "ServiceCode": "INTL",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-09-01",
+                      "ShipmentDate": "2026-09-22",
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "74412fbe-a2c3-41ff-a671-9f52c002654d",
+                      "ShippingAccountId": "372109a9-50f1-4103-9adb-ea0939f1d67b",
                       "Reference1": "OrderRef56",
                       "EoriNumber": "GB12345",
                       "VatNumber": "VA12345"
@@ -1434,15 +1434,15 @@
                       "ContentType": "NDX",
                       "ServiceCode": "INTL",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-09-01",
+                      "ShipmentDate": "2026-09-22",
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM",
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "971dfa12-b424-479c-8d5d-195308e53e04",
-                      "ShippingLocationId": "c7f56163-e19a-4960-aadf-cfacb84804f4",
+                      "ShippingAccountId": "9002b727-274d-47d2-b787-c2564044feb8",
+                      "ShippingLocationId": "d67125c3-04d8-4000-8f3e-8e152d73390b",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -1523,7 +1523,7 @@
                       "OtherCharges": 32,
                       "QuotedLandedCost": 82.74,
                       "InvoiceNumber": "INV-12345",
-                      "InvoiceDate": "2026-09-01",
+                      "InvoiceDate": "2026-09-22",
                       "ExportLicenceRequired": false,
                       "Airn": "231.002.999-00"
                     },
@@ -1551,12 +1551,12 @@
                       "ContentType": "NDX",
                       "ServiceCode": "STND",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-09-01",
+                      "ShipmentDate": "2026-09-22",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "455bbad7-229b-4c5d-ba08-4708f4d0f09e",
+                      "ShippingAccountId": "768db7ba-ecca-4132-a08c-e8777c189a99",
                       "Reference1": "OrderRef56",
                       "Address": {
                         "AddressId": "John Brown Default"
@@ -1597,7 +1597,7 @@
                   "$ref": "#/components/schemas/CreateShipmentViaWebhookResponse"
                 },
                 "example": {
-                  "RequestId": "1830ed5d-427c-4557-ba69-1d7a0289c8d8"
+                  "RequestId": "213a08cf-272a-4294-aa3f-9c1ec61c4d31"
                 }
               }
             }
@@ -1653,12 +1653,12 @@
           "Shipments"
         ],
         "summary": "Print Label",
-        "description": "This changes the status of the shipment to label printed. This should be done at the time of actual printing or label creation dependent on how you operate in reality. Shipments must be updated to printed status prior to manifesting.",
+        "description": "Generate and return the label for the Evri shipment. This endpoint is utilised after an Evri shipment has been created and is meant to facilitate the printing of the label required for that shipment.\r<br />\r<br />***Note:** This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting.*",
         "parameters": [
           {
             "name": "shipmentId",
             "in": "path",
-            "description": "Shipment Id\r<br />The Shipment Id may be an id or a tracking/barcode number.",
+            "description": "A unique identifier (shipmentId) or tracking number returned in the Create shipment response. This ID is used to reference and track specific shipments within the system.",
             "required": true,
             "schema": {
               "maxLength": 36,
@@ -1669,7 +1669,7 @@
           {
             "name": "labelFormat",
             "in": "query",
-            "description": "Label Format\r<br />\r<br />**PDF** Base 64 encoded PDF\r<br />**PNG** Base 64 encoded PNG\r<br />\r<br />Defaults To PDF",
+            "description": "The desired format for the shipping label that is to be generated and retrieved by the createShipment API response, such as PDF and PNG that returns a Base64-encoded PDF or PNG label.\r<br />\r<br />***Note:** By default, this field is set to PDF.*",
             "schema": {
               "$ref": "#/components/schemas/LabelFormat"
             }
@@ -1686,7 +1686,7 @@
                 "examples": {
                   "PDF": {
                     "value": {
-                      "ShipmentId": "ea983547-8cb2-4d14-9939-2549d5af6df3",
+                      "ShipmentId": "a8546bdb-ccc9-4904-929e-043b2939c7b4",
                       "TrackingNumber": "H03TCA0000000118",
                       "CarrierTrackingUrl": "https://www.evri.com/track/parcel/H03TCA0000000118",
                       "Label": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
@@ -1695,7 +1695,7 @@
                   },
                   "PNG": {
                     "value": {
-                      "ShipmentId": "271fd284-be88-4a09-aaa9-2896bb5cdf60",
+                      "ShipmentId": "00557474-05e6-425e-b47c-01018babe993",
                       "TrackingNumber": "H03TCA0000000118",
                       "CarrierTrackingUrl": "https://www.evri.com/track/parcel/H03TCA0000000118",
                       "Label": "ëPNG♫◙→◙w0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
@@ -1752,12 +1752,12 @@
           "Shipments"
         ],
         "summary": "Print My Label QR Code",
-        "description": "Request associated QR Code for the associated label in the print label call.",
+        "description": "Enhance the shipping and delivery process by generating an easy-to-scan QR code that contains essential shipment information.",
         "parameters": [
           {
             "name": "shipmentId",
             "in": "path",
-            "description": "Shipment Id\r<br />The Shipment Id may be an id or a tracking/barcode number.",
+            "description": "A unique identifier (shipmentId) or tracking number returned in the Create shipment response. This ID is used to reference and track specific shipment for which the QR is being generated.",
             "required": true,
             "schema": {
               "maxLength": 36,
@@ -1858,7 +1858,7 @@
           "Line1": {
             "maxLength": 32,
             "type": "string",
-            "description": "The first line of the address, typically containing the primary address information such as house number and street name.",
+            "description": "The first line of the address, typically containing the primary address information such as house number and street name.<br /><br />***Note:** This information is required if the address is not used from the stored addresses in the Address Book.*",
             "nullable": true,
             "example": "Brown Cottage"
           },
@@ -2108,14 +2108,14 @@
           "EoriNumber": {
             "maxLength": 17,
             "type": "string",
-            "description": "The EORI (Economic Operators Registration and Identification) number for the receiver, which must start with the ISO Alpha-2 Country Code followed by up to 15 alphanumeric characters. For Northern Ireland, it starts with XI. \r<br />\r<br />***Note:** This field is mandatory for B2B shipments from GB to Northern Ireland or if the receiver is a business. Make sure to provide this information here—not in the **Customs** object.*",
+            "description": "The EORI (Economic Operators Registration and Identification) number for the receiver, which must start with the ISO Alpha-2 Country Code followed by up to 15 alphanumeric characters. For Northern Ireland, it starts with XI. \r<br />\r<br />***Note:**  Make sure to provide this information here—not in the **Customs** object.*",
             "nullable": true,
             "example": "GB 123 4567 89 000"
           },
           "VatNumber": {
             "maxLength": 15,
             "type": "string",
-            "description": "The VAT (Value Added Tax) number for the receiver, which, if applicable, is used for tax compliance. \r<br />\r<br />***Note:** This field is mandatory if the receiver is a business. Make sure to provide this information here—not in the **Customs** object.*",
+            "description": "The VAT (Value Added Tax) number for the receiver, which, if applicable, is used for tax compliance. \r<br />\r<br />***Note:**  Make sure to provide this information here—not in the **Customs** object.*",
             "nullable": true,
             "example": "GB 123 4567 89"
           },
@@ -2124,7 +2124,7 @@
           }
         },
         "additionalProperties": false,
-        "description": "An object providing details on the shipment destination, such as receiver and contact details."
+        "description": "An array of objects providing details on the shipment destination, such as receiver and contact details."
       },
       "DestinationAddress": {
         "type": "object",
@@ -2168,7 +2168,7 @@
           "Line1": {
             "maxLength": 32,
             "type": "string",
-            "description": "The first line of the address, typically containing the primary address information such as house number and street name. <br/> <br/> ***Note:** Characters like +, /, -, or space are supported.*",
+            "description": "The first line of the address, typically containing the primary address information such as house number and street name. <br/><br/> ***Note:** This information is required if the address is not used from the stored addresses in the Address Book.*",
             "nullable": true,
             "example": "Brown Cottage"
           },
@@ -2274,7 +2274,7 @@
           "ZPL300DPI"
         ],
         "type": "string",
-        "description": "Specifies the format in which the documents related to the shipment are provided. For example, a Base 64 encoded PDF, PNG or ZPL203DPI, and ZPL300DPI.\r<br />\r<br />This format is crucial for ensuring that the documents can be easily accessed, printed, and utilised during shipping and customs processes."
+        "description": "Specifies the format in which the documents related to the shipment are provided. For example:<br/> <ul><li>**PDF** Base 64 encoded PDF</li><li>**PNG** Base 64 encoded PNG</li></ul>This format is crucial for ensuring that the documents can be easily accessed, printed, and utilised during shipping and customs processes."
       },
       "ErrorDetail": {
         "type": "object",
@@ -2332,7 +2332,7 @@
             "maxLength": 10,
             "minLength": 1,
             "type": "string",
-            "description": "Carrier Account Number\r<br />The account number given by the carrier.\r<br />The Client ID allocated by Evri.",
+            "description": "The number assigned to the shipping account by the carrier, typically used for tracking shipments and billing purposes.",
             "example": "9912347707"
           },
           "AccountType": {
@@ -2341,7 +2341,7 @@
           "AccountName": {
             "maxLength": 32,
             "type": "string",
-            "description": "Account Name\r<br />The name on this Account.\r<br />Enter the Client Name allocated by Evri.\r<br />Defaults to your Customer name if not provided.",
+            "description": "The official name of the shipping account as designated by the user or organisation, aiding in easy identification and reference of accounts.\r<br />\r<br />***Note:** By default, this value is set to the customer name if not provided in the request.*",
             "nullable": true,
             "example": "AB VideoGames"
           },
@@ -2371,21 +2371,21 @@
             "maxLength": 256,
             "minLength": 1,
             "type": "string",
-            "description": "The username used for the Evri API.",
+            "description": "The username linked to the customer account for Evri API. This is typically the login credential used by the customer to access their shipping account. The username is essential for authentication purposes, ensuring that only authorised users can manage shipments and account information.",
             "example": "username"
           },
           "Password": {
             "maxLength": 256,
             "minLength": 1,
             "type": "string",
-            "description": "The password used for the Evri API.",
+            "description": "The password associated with your Evri API. It is essential for securing the account and ensuring that only authorised users have access to shipping details and operations.",
             "example": "password"
           },
           "SmsAlertGroupCode": {
             "maxLength": 4,
             "minLength": 4,
             "type": "string",
-            "description": "The alert group code that is allocated by Evri. Required if you use the SMS notification enhancement.",
+            "description": "A specific code associated with SMS notifications allocated by Evri. This code identifies the group or category of SMS alerts that the customer has opted to receive regarding their shipments. It allows them to receive timely updates about their shipments via SMS, improving communication and tracking efficiency for deliveries.\r<br />\r<br />***Note:** This information is required if the SMS notification enhancement has been selected in the Create Shipment request.*",
             "nullable": true,
             "example": "1234"
           },
@@ -2406,7 +2406,7 @@
           "SMS"
         ],
         "type": "string",
-        "description": "Enhancement code of the service enhancement. Valid values are:\r<br />**Signed** - a signature is required on delivery of the shipment.\r<br />**SMS** - delivery updates will be sent via SMS."
+        "description": "Used to provide specific service enhancement options available with Evri. Each code corresponds to a particular enhancement that can be applied to the shipment.\r<br />\r<br />The valid values are the following: \r<br /><ul><li>**Signed:** This service enhancement code requires a signature upon delivery. When this service is selected, it ensures that the shipment is not delivered without obtaining a signature from the receiver.</li><li>**SMS:** This service enhancement code allows senders and receivers to receive real-time updates regarding the shipment via SMS notifications. This enhancement keeps the stakeholders informed of key delivery milestones.</li></ul>"
       },
       "EvriServiceEnhancement": {
         "required": [
@@ -2429,24 +2429,24 @@
             "items": {
               "$ref": "#/components/schemas/EvriServiceEnhancement"
             },
-            "description": "Service Enhancements\r<br />Any enhancements that you would like to add to the requested service.",
+            "description": "Used to specify optional additional services that can be applied to the shpment. These enhancements provide customers with extra features to improve delivery management, tracking, and communication.",
             "nullable": true
           },
           "SpecialInstruction1": {
             "maxLength": 32,
             "type": "string",
-            "description": "Special Instruction for Delivery",
+            "description": "A field to provide special instructions or requests to the carrier for handling the shipment, such as handling procedures or delivery preferences.",
             "nullable": true
           },
           "SpecialInstruction2": {
             "maxLength": 32,
             "type": "string",
-            "description": "Special Instruction for Delivery",
+            "description": "A field to provide additional specific instructions concerning the shipment handling that Evri should be aware of.",
             "nullable": true
           }
         },
         "additionalProperties": false,
-        "description": "Evri - specific features that can be used when creating a Evri shipment."
+        "description": "Used to provide specific information related to the Evri shipment. This includes service enhancements and special handling instructions for the shipments being sent."
       },
       "EvriShipmentRequestCarrierSpecificsPackageDetailsLabelFormatCreateShipmentRequest": {
         "required": [
@@ -2474,7 +2474,7 @@
             "items": {
               "$ref": "#/components/schemas/PackageDetails"
             },
-            "description": "Shipment Packages<br/>The packages that are being sent in this shipment.<br/>Only one package at a time is allowed."
+            "description": "Used to provide information on the packages that are being sent in this shipment. You can add a maximum of 99 packages in a single shipment.<br/><br/> ***Note:** You must add at least one package to the shipment.*"
           },
           "Items": {
             "type": "array",
@@ -2515,7 +2515,7 @@
         "properties": {
           "ShippingAccountId": {
             "type": "string",
-            "description": "A unique identifier for each shipping account assigned by the system **(ShippingAccountId)** or by you **(AccountAlias)**, allowing for efficient reference and management of individual accounts within the system.",
+            "description": "A unique identifier for each shipping account assigned by the system **(ShippingAccountId)**, allowing for efficient reference and management of individual accounts within the system.",
             "format": "uuid"
           },
           "CarrierCode": {
@@ -2537,7 +2537,7 @@
             "maxLength": 35,
             "minLength": 1,
             "type": "string",
-            "description": "The official name of the shipping account as designated by the user or organisation, aiding in easy identification and reference of accounts.\r<br />\r<br />***Note:** By default, this value is set to the customer name.*",
+            "description": "The official name of the shipping account as designated by the user or organisation, aiding in easy identification and reference of accounts.",
             "example": "AB VideoGames"
           },
           "AccountAlias": {
@@ -2564,7 +2564,7 @@
             "maxLength": 20,
             "minLength": 1,
             "type": "string",
-            "description": "The phone number associated with the shipping account's primary contact person, facilitating communication regarding shipping inquiries, account management, and issue resolution.\r<br />\r<br />***Note**: Characters like +, /, -, or space are supported.*",
+            "description": "The phone number associated with the shipping account's primary contact person, facilitating communication regarding shipping inquiries, account management, and issue resolution.",
             "format": "tel",
             "example": "0123456789"
           },
@@ -2572,35 +2572,35 @@
             "maxLength": 10,
             "minLength": 1,
             "type": "string",
-            "description": "The ClientId used for the Evri API.",
+            "description": "A unique identifier used for the Evri API. This ID is crucial for recognising and managing the customer shipping account, allowing for efficient tracking and processing of shipments associated with that account. It serves as a reference point for all interactions and transactions involving that specific customer account.",
             "example": "1234567890"
           },
           "ClientName": {
             "maxLength": 32,
             "minLength": 1,
             "type": "string",
-            "description": "The Client Name used for the Evri API.",
+            "description": "The name of the client associated with the shipping account. This may refer to an individual or a business entity that utilises Evri's shipping services.",
             "example": "Client name"
           },
           "Username": {
             "maxLength": 256,
             "minLength": 1,
             "type": "string",
-            "description": "The username used for the Evri API.",
+            "description": "The username linked to the customer account for Evri API. This is typically the login credential used by the customer to access their shipping account. The username is essential for authentication purposes, ensuring that only authorised users can manage shipments and account information.",
             "example": "username"
           },
           "SmsAlertGroupCode": {
             "maxLength": 4,
             "minLength": 4,
             "type": "string",
-            "description": "The alert group code that is allocated by Evri. Required if you use the SMS notification enhancement.",
+            "description": "A specific code associated with SMS notifications allocated by Evri. This code identifies the group or category of SMS alerts that the customer has opted to receive regarding their shipments. It allows them to receive timely updates about their shipments via SMS, improving communication and tracking efficiency for deliveries.",
             "nullable": true,
             "example": "1234"
           },
           "LastUpdatedBy": {
             "minLength": 1,
             "type": "string",
-            "description": "The identifier (such as a username or system account) of the individual or system that last modified the shipping location information, ensuring accountability.",
+            "description": "The identifier (such as a username or system account) of the individual or system that last modified the shipping account information, ensuring accountability.",
             "example": "User A"
           },
           "LastUpdatedDateUtc": {
@@ -2624,11 +2624,11 @@
             "items": {
               "$ref": "#/components/schemas/EvriShippingAccount"
             },
-            "description": "An array containing all shipping accounts for the specific page only."
+            "description": "An array containing the shipping accounts associated with the shipping location that match the query parameters specified in the request."
           },
           "TotalCount": {
             "type": "integer",
-            "description": "An integer representing the total number of shipping accounts, giving users a quick overview of how many accounts are linked to their operations.",
+            "description": "An integer representing the total number of shipping accounts that match the query parameters sent in the request, giving users a quick overview of how many accounts are linked to their operations.",
             "format": "int32",
             "example": 303
           }
@@ -2652,9 +2652,7 @@
           "AccountNumber": {
             "maxLength": 10,
             "minLength": 1,
-            "type": "string",
-            "description": "Carrier Account Number\r<br />The Client ID allocated by Evri.",
-            "example": "9912347707"
+            "type": "string"
           },
           "AccountType": {
             "$ref": "#/components/schemas/AccountType"
@@ -2663,7 +2661,7 @@
             "maxLength": 32,
             "minLength": 1,
             "type": "string",
-            "description": "Account Name\r<br />The name on this Account.\r<br />The Client Name allocated by Evri.",
+            "description": "The official name of the shipping account as designated by the user or organization, aiding in easy identification and reference of accounts.<br /><br />***Note:** By default, this value is set to the customer name if not provided in the request.*",
             "example": "AB VideoGames"
           },
           "AccountAlias": {
@@ -2692,21 +2690,21 @@
             "maxLength": 256,
             "minLength": 1,
             "type": "string",
-            "description": "The username used for the Evri API.",
+            "description": "The username linked to the customer account for Evri API. This is typically the login credential used by the customer to access their shipping account. The username is essential for authentication purposes, ensuring that only authorised users can manage shipments and account information.",
             "example": "username"
           },
           "Password": {
             "maxLength": 256,
             "minLength": 1,
             "type": "string",
-            "description": "The password used for the Evri API.",
+            "description": "The password associated with your Evri API. It is essential for securing the account and ensuring that only authorised users have access to shipping details and operations.",
             "example": "password"
           },
           "SmsAlertGroupCode": {
             "maxLength": 4,
             "minLength": 4,
             "type": "string",
-            "description": "The alert group code that is allocated by Evri. Required if you use the SMS notification enhancement.",
+            "description": "A specific code associated with SMS notifications allocated by Evri. This code identifies the group or category of SMS alerts that the customer has opted to receive regarding their shipments. It allows them to receive timely updates about their shipments via SMS, improving communication and tracking efficiency for deliveries.\r<br />\r<br />***Note:** This information is required if the SMS notification enhanement has been selected in the Create Shipment request.*",
             "nullable": true,
             "example": "1234"
           }
@@ -2907,7 +2905,7 @@
           "PNG"
         ],
         "type": "string",
-        "description": "Sets the label format that will be returned in the createShipment Response.\r<br />Valid values are:\r<br />**PDF** - returns a Base64-encoded PDF\r<br />**PNG** - returns a Base64-encoded PNG\r<br />Defaults to PDF if not populated."
+        "description": "Specifies the format of the shipping label that will be returned in the **createShipment** response. The current accepted format is PDF and PNG, which will return a Base 64-encoded string of the shipping label.<br/><br/>***Note:** By default, this field is set to PDF.*"
       },
       "LabelFormatPackageResponseDetailsCreateShipmentResponse": {
         "type": "object",
@@ -3036,7 +3034,7 @@
           },
           "ShipmentDate": {
             "type": "string",
-            "description": "The scheduled date for the shipment to be shipped, which cannot be in the past and must not exceed 28 days into the future. If omitted, it defaults to the current date.",
+            "description": "The scheduled date for the shipment to be shipped, which cannot be in the past and must not exceed 28 days into the future. If omitted, it defaults to the current date.<br /><br />***Note:** The shipment date must be in the YYYY-MM-DD format. If not provided, then this field is set to the current date.*",
             "format": "date",
             "nullable": true
           },
@@ -3061,7 +3059,7 @@
             "maxLength": 3,
             "minLength": 3,
             "type": "string",
-            "description": "The three-letter ISO code indicating the currency in which any monetary value is specified (for example, USD, EUR). This ensures clarity for payment and invoicing purposes.",
+            "description": "The three-letter ISO code indicating the currency in which any monetary value is specified (for example, USD, EUR). This ensures clarity for payment and invoicing purposes.<br><br />***Note:** Note: This information is required if any monetary values other than zero are provided.*",
             "nullable": true,
             "example": "GBP"
           },
@@ -3096,7 +3094,7 @@
             "maximum": 99,
             "minimum": 1,
             "type": "integer",
-            "description": "A unique identifier for each package within the shipment that is used to match a returned package ID to this package. This field can also be used to assign items to a specific package. \r<br />            \r<br />***Note:** For Royal Mail dutiable multi-package shipments that are not using a consignment service, items must be assigned to a package so that accurate customs information is given. Therefore, if the shipment contains more than one package, and it is not using a consignment service, then the **PackageOccurrence** is required.*",
+            "description": "A unique identifier for each package within the shipment that is used to match a returned package ID to this package. This field can also be used to assign items to a specific package. <br /><br /> ***Note:** If multiple packages exist and a consignment service is not used, this field is mandatory to ensure each package occurrence is distinct.*",
             "format": "int32",
             "nullable": true,
             "example": 1
@@ -3177,7 +3175,7 @@
           "QRCode": {
             "minLength": 1,
             "type": "string",
-            "description": "The actual QR image in the PNG format. This image can be decoded and rendered as an image. Scanning this QR code provides instant access to information about the shipment.",
+            "description": "The actual QR image represented in the base64 encoded PNG format, which can be decoded and rendered as an image. Scanning this QR code provides instant access to information about the shipment.",
             "example": "iVBORw0KGgoAAAANSUhEUgAA ... A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4"
           }
         },
@@ -3236,7 +3234,7 @@
           "Line1": {
             "maxLength": 32,
             "type": "string",
-            "description": "The first line of the address, typically containing the primary address information such as house number and street name. <br/> <br/> ***Note:** Characters like +, /, -, or space are supported.*",
+            "description": "The first line of the address, typically containing the primary address information such as house number and street name. <br/><br/> ***Note:** This information is required if the address is not used from the stored addresses in the Address Book.*",
             "nullable": true,
             "example": "Brown Cottage"
           },
@@ -3330,7 +3328,7 @@
           "DepartmentNumber": {
             "maxLength": 10,
             "type": "string",
-            "description": "An optional field where the shipper can specify the department number associated with the shipment.<br>Evri: 3 characters<br>If provided for an Evri shipment, Department Number must match a Child Client ID configured in the Child Client Departments UI",
+            "description": "An optional field where the shipper can specify the department number associated with the shipment.",
             "nullable": true,
             "example": "0123456789"
           },
@@ -3478,7 +3476,7 @@
         "properties": {
           "ShippingLocationId": {
             "type": "string",
-            "description": "A unique identifier assigned to the shipping location by the system (**shippingLocationId**). This ID is used to distinguish between different shipping locations within the system, facilitating, referencing and operations, such as updates, deletions, or specific queries related to that location.",
+            "description": "A unique, identifier for the shipping location assigned by the system, allowing users to reference and manage specific locations effectively.",
             "format": "uuid"
           },
           "LocationAlias": {
@@ -3490,7 +3488,7 @@
           },
           "IsDefaultLocation": {
             "type": "boolean",
-            "description": "A boolean value indicating whether the shipping location is set as the default for shipping operations, streamlining the selection process during shipments. \r<br />\r<br />If the location is set as the default one, the customers no longer need to specify the location for every shipment request, reducing the risk of errors and delays. It enhances consistency by ensuring that all shipments are directed to the same default location.\r<br />\r<br />***Note:** If true, then this location is set as the default one. Otherwise, it is set to false.*",
+            "description": "A boolean value indicating whether the shipping location is set as the default for shipping operations, streamlining the selection process during shipments.",
             "example": false
           },
           "Timezone": {
@@ -3526,7 +3524,7 @@
           "Line1": {
             "maxLength": 32,
             "type": "string",
-            "description": "The first line of the address, typically containing the primary address information such as house number and street name. <br/> <br/> ***Note:** Characters like +, /, -, or space are supported.*",
+            "description": "A unique, identifier for the shipping location assigned by the system, allowing users to reference and manage specific locations effectively.",
             "nullable": true,
             "example": "Brown Cottage"
           },
@@ -3603,7 +3601,7 @@
         "properties": {
           "ShippingLocationId": {
             "type": "string",
-            "description": "A unique identifier assigned to the shipping location by the system (**shippingLocationId**). This ID is used to distinguish between different shipping locations within the system, facilitating, referencing and operations, such as updates, deletions, or specific queries related to that location.",
+            "description": "A unique, identifier for the shipping location assigned by the system, allowing users to reference and manage specific locations effectively.",
             "format": "uuid"
           },
           "LocationAlias": {
@@ -3650,7 +3648,7 @@
             "maxLength": 100,
             "minLength": 1,
             "type": "string",
-            "description": "A unique identifier assigned to the shipping location by the system (**shippingLocationId**) or by you (**LocationAlias**). This ID is used to distinguish between different shipping locations within the system, facilitating referencing and operations, such as updates, deletions, or specific queries related to that location.",
+            "description": "A unique identifier for the shipping location assigned by the system or by you (alias), allowing users to reference and manage specific locations effectively.\r<br />\r<br />***Note:** The information provided in this field and the **ShippingAccountId** field are being linked with each other.*",
             "example": "D94E8CFD-604B-4B87-83E9-3F20CAF02837"
           }
         },
