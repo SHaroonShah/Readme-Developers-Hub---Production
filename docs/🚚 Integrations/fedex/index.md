@@ -54,7 +54,7 @@ The FedEx-SAPIENT integration aims to enhance operational efficiency and provide
   <Tab title="Additional Features">
     <Cards columns="1">
       <Card title="Multipiece Shipments" icon="fa-solid fa-boxes-stacked">
-        Support for multipiece shipments is included in the integration.
+        Support for multipiece shipments is included in the integration. A maximum of 30 packages can be added in a single shipment request.
       </Card>
 
       <Card title="Package Types" icon="fa-solid fa-box">
