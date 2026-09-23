@@ -38,7 +38,7 @@ The FedEx-SAPIENT integration aims to enhance operational efficiency and provide
       </Card>
 
       <Card title="Label Formats" icon="fa-solid fa-tag">
-        The intergration supports label in the <Glossary>PDF</Glossary>, <Glossary>ZPL203DPI</Glossary>, and <Glossary>ZPL300DPI</Glossary> formats<br />
+        The intergration supports label in the <Glossary>PDF</Glossary>, <Glossary>ZPL203DPI</Glossary>, and <Glossary>ZPL300DPI</Glossary> formats.<br />
       </Card>
 
       <Card title="Service Type" icon="fa-solid fa-shipping-fast">
