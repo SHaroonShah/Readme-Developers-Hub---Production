@@ -71,7 +71,7 @@ The FedEx-SAPIENT integration aims to enhance operational efficiency and provide
     <Callout icon="📘" theme="default">
       ### _Note_
 
-      _For more information on Electronic Trade Document configuration, refer to the_<Anchor target="_blank" href="https://docs.intersoftsapient.net/docs/add-fedex-shipping-account">Add FedEx shipping account</Anchor>_&#x20;section._
+      _For more information on Electronic Trade Document configuration, refer to the&#x20;_<Anchor target="_blank" href="https://docs.intersoftsapient.net/docs/add-fedex-shipping-account">_Add FedEx shipping account_</Anchor>_&#x20;section._
     </Callout>
   </Tab>
 
