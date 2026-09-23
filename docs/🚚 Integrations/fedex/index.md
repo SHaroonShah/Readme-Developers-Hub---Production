@@ -60,7 +60,7 @@ The FedEx-SAPIENT integration aims to enhance operational efficiency and provide
       <Card title="Package Types" icon="fa-solid fa-box">
         FedEx offers its own distinct <Glossary>package type</Glossary>s.
 
-        > _For more information on the carrier package types, use the_<Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services-servicecode-packagetypes#/">Get Carrier Service Package Types</Anchor>_&#x20;endpoint._
+        > _For more information on the carrier package types, use the&#x20;_<Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services-servicecode-packagetypes#/">_Get Carrier Service Package Types_</Anchor>_&#x20;endpoint._
       </Card>
 
       <Card title="Electronic Trade Document (ETD)" icon="fa-solid fa-file-invoice">
