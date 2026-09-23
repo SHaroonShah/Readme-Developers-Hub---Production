@@ -37,6 +37,10 @@ The FedEx-SAPIENT integration aims to enhance operational efficiency and provide
         Users can send <Glossary>shipments</Glossary> to Great Britain (GB), Europe, and Rest of the World (<Glossary>ROW</Glossary>).
       </Card>
 
+  <Card title="Label Formats" icon="fa-solid fa-tag">
+        The intergration supports label in the <Glossary>PDF</Glossary> and <Glossary>PNG</Glossary> formats.<br />
+      </Card>
+
       <Card title="Service Type" icon="fa-solid fa-shipping-fast">
         The integration is focused on outbound shipping only.
       </Card>
