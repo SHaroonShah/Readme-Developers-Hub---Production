@@ -1,11 +1,13 @@
 ---
-title: Copy of Add InPost shipping account
+title: Add InPost shipping account
 excerpt: >-
   A _shipping account_ is a specific account set up with a shipping carrier or
   logistics provider that enables businesses to manage shipping activities.
 deprecated: false
 hidden: true
 icon: fad fa-square-plus
+link:
+  new_tab: false
 metadata:
   robots: index
 ---
