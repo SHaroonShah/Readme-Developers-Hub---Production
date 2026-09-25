@@ -30,7 +30,7 @@ Wirth this solution, you can track:
 <Callout icon="🚧" theme="warn">
   ### _Important_
 
-  _Before setting up the the tracking webhook, make sure you have enabled the tracking integration in SAPIENT_.
+  _Before setting up the the tracking webhook, make sure you have&#x20;_[_enabled the tracking integration_](https://docs.intersoftsapient.net/docs/integration-activation)_&#x20;in SAPIENT_.
 </Callout>
 
 <br />
