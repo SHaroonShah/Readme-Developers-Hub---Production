@@ -18,14 +18,16 @@ next:
 ---
 If you wish to use the Royal Mail import services, you can integrate with Intersoft SAPIENT and start your seamless importing journey.
 
-> 🚧 _Important_
->
-> _This section is only applicable if you are a Royal Mail customer who is importing goods into the UK. Before initiating the integration, make sure you have an agreement with Royal Mail to use this service._
+<Callout icon="🚧" theme="warn">
+  ### _Important_
+
+  _This section is only applicable if you are a Royal Mail customer who is importing goods into the UK. Before initiating the integration, make sure you have an agreement with Royal Mail to use this service._
+</Callout>
 
 ## Getting Started
 
-<Cards columns={4}>
-  <Card title="Integrate with Royal Mail Import Service" href="https://docs.intersoftsapient.net/v4.03/docs/integrate-with-royal-mail-import-service" icon="fa-solid fa-code">
+<Cards columns="4">
+  <Card title="Integrate with Royal Mail Import Service" href="https://docs.intersoftsapient.net/docs/integrate-with-royal-mail-import-service" icon="fa-solid fa-code" target="_blank">
     Follow a step-by-step guide on how to integarte the Royal Mail Import service with SAPIENT.
   </Card>
 
@@ -69,5 +71,3 @@ If you wish to use the Royal Mail import services, you can integrate with Inters
     Combined label and CN22 documentation.
   </Card>
 </Cards>
-
-<br />
