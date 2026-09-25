@@ -105,7 +105,7 @@ In SAPIENT, you can cancel the <Glossary>shipments</Glossary> to ensure that res
     <Callout icon="💡" theme="default">
       ### _Tip_
 
-      _You can access the canceled shipments directly from this page by selecting the_**_View Cancelled Shipments_**_&#x20;option or by accessing the&#x20;_**_Shipment Processing_**_&#x20;>&#x20;_**_Cancelled_**_&#x20;option from the side navigation panel._
+      _You can access the canceled shipments directly from this page by selecting the&#x20;_**_View Cancelled Shipments_**_&#x20;option or by accessing the&#x20;_**_Shipment Processing_**_&#x20;>&#x20;_**_Cancelled_**_&#x20;option from the side navigation panel._
 
 
       <Image src="https://files.readme.io/98bb78638eb05e979777dfd34b1a13605cab5520fa6017f7a980a02fc38a0602-Canceled_shipments_option.png" align="center" caption="Accessing canceled shipments" border={true} />
