@@ -55,7 +55,7 @@ If you wish to use the Royal Mail import services, you can integrate with Inters
     Field-level requirements for Freight 2 Post customers.
   </Card>
 
-  <Card title="International Arrival Containers" href="https://docs.intersoftsapient.net/docs/add-barcode-range-for-international-arrival-containers" icon="fa-solid fa-barcode" target="_blank">
+  <Card title="International Arrival Containers" href="https://docs.intersoftsapient.net/docs/set-up-barcode-range-for-international-arrival-containers" icon="fa-solid fa-barcode" target="_blank">
     Set up International Arrival Containers (A-Scan).
   </Card>
 
