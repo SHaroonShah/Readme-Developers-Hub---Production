@@ -27,6 +27,14 @@ Wirth this solution, you can track:
   </Card>
 </Cards>
 
+<Callout icon="🚧" theme="warn">
+  ### _Important_
+
+  _Before setting up the the tracking webhook, make sure you have enabled the tracking integration in SAPIENT_.
+</Callout>
+
+<br />
+
 To start receiving tracking updates, customers must configure their webhook within the INTERSOFT platform. Once enabled, the webhook can be tailored to send either milestones only or all tracking events, depending on business needs. This flexibility allows organisations to manage their data flow efficiently while maintaining full visibility of parcel movement.
 
 ***
