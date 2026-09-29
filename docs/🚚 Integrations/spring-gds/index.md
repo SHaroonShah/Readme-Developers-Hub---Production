@@ -16,13 +16,15 @@ Spring GDS supports outbound international shipments from Great Britain and the 
 
 <Tabs>
   <Tab title="Key Features">
-    <Cards>
+    <Cards columns="2">
       <Card title="Shipping Origins" icon="fa-map-marker-alt">
         The integration supports shipping from Great Britain (GB) and the European Union (EU).
       </Card>
 
       <Card title="Shipping Destinations" icon="fa-solid fa-globe">
         You can send shipments to Great Britain (GB), Europe (EU), and the Rest of the World (ROW).
+
+        > _Shipping destinations are determined by the services enabled on your shipping account and the carrier service matrix._
       </Card>
 
       <Card title="Service Type" icon="fa-solid fa-shipping-fast">
@@ -41,7 +43,7 @@ Spring GDS supports outbound international shipments from Great Britain and the 
     <Callout icon="📘" theme="info">
       ### _Note_
 
-      _Shipping destinations are determined by the services enabled on your shipping account and the carrier service matrix._
+
     </Callout>
   </Tab>
 
