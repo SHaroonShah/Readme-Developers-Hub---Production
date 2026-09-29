@@ -107,22 +107,22 @@ Spring GDS supports outbound international shipments from Great Britain and the 
     <Accordion title="Manifest shipment">
       Retrieve information about shipment manifests created by the system and check when shipments have been successfully manifested with Spring GDS. For real-time updates, use the [Manifest Webhook](https://docs.intersoftsapient.net/v4.04/docs/manifest-webhook) to monitor manifest requests and the status of shipments prepared for carrier collection and delivery.
     </Accordion>
-</Tab>
 
- <Tab title="Other Services">
-    <Accordion title="Print Label">
-      [Generate and return the label](https://docs.intersoftsapient.net/reference/get_v4-shipments-printlabel-ups-shipmentid) for a UPS shipment in the supported label formats. This endpoint must be utilised when the label is not generated in the DHL Germany Create Shipment request.
+    <Tab title="Other Services">
+       <Accordion title="Print Label">
+         Generate and return the label for a Spring GDS shipment in the supported label formats. This endpoint must be utilised when the label is not generated in the Spring GDS Create Shipment request.
 
-      <Callout icon="📘" theme="info">
-        ### _Note_
+         <Callout icon="📘" theme="info">
+           ### _Note_
 
-        _This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting._
-      </Callout>
-    </Accordion>
+           _This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting._
+         </Callout>
+       </Accordion>
 
-    <Accordion title="Tracking">
-      Enables customers to receive tracking updates through their integration with the SAPIENT tracking webhook.
-    </Accordion>
+       <Accordion title="Tracking">
+         Enables customers to receive tracking updates through their integration with the SAPIENT tracking webhook.
+       </Accordion>
+     </Tab>
   </Tab>
 </Tabs>
 
