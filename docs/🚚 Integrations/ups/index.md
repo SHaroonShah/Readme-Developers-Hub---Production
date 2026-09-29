@@ -141,11 +141,11 @@ The UPS carrier integration within the SAPIENT system enables seamless communica
 <Tabs>
   <Tab title="Account Setup">
     <Cards>
-      <Card title="Add Shipping Account" href="https://docs.intersoftsapient.net/docs/shipping-account-setup" icon="fa-solid fa-truck" target="_blank">
+      <Card title="Add Shipping Account" href="https://docs.intersoftsapient.net/docs/add-spring-gds-shipping-accountaccount-setup" icon="fa-solid fa-truck" target="_blank">
         Access the step-by-step guide on how to set up a UPS shipping account on SAPIENT.
       </Card>
 
-      <Card title="Add Tracking Account" href="https://docs.intersoftsapient.net/docs/tracking-2" icon="fa-solid fa-search-location" target="_blank">
+      <Card title="Add Tracking Account" href="https://docs.intersoftsapient.net/docs/add-spring-gds-tracking-account" icon="fa-solid fa-search-location" target="_blank">
         Access the step-by-step guide on how to set up a UPS tracking account on SAPIENT.
       </Card>
     </Cards>
