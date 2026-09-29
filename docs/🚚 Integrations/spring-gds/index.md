@@ -136,6 +136,10 @@ Spring GDS supports outbound international shipments from Great Britain and the 
       <Card title="Add Spring GDS Shipping Account" href="https://docs.intersoftsapient.net/docs/add-spring-gds-shipping-account" icon="fa-solid fa-truck" target="_blank">
         Set up your Spring GDS shipping account before creating shipments.
       </Card>
+
+      <Card title="Add Spring GDS Tracking Account" href="https://docs.intersoftsapient.net/docs/add-spring-gds-tracking-account" icon="fa-solid fa-search-location" target="_blank">
+        Configure tracking for your Spring GDS shipments.
+      </Card>
     </Cards>
   </Tab>
 
