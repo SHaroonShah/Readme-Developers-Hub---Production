@@ -36,15 +36,9 @@ Spring GDS supports outbound international shipments from Great Britain and the 
       </Card>
 
       <Card title="Label Formats" icon="fa-solid fa-tag">
-        The integration supports labels in <Glossary>PDF</Glossary>, <Glossary>PNG</Glossary>, <Glossary>ZPL203DPI</Glossary>, and <Glossary>ZPL300DPI</Glossary>
+        The integration supports labels in <Glossary>PDF</Glossary>, <Glossary>PNG</Glossary>, <Glossary>ZPL203DPI</Glossary>, and <Glossary>ZPL300DPI</Glossary> formats.
       </Card>
     </Cards>
-
-    <Callout icon="📘" theme="info">
-      ### _Note_
-
-
-    </Callout>
   </Tab>
 
   <Tab title="Additional Features">
