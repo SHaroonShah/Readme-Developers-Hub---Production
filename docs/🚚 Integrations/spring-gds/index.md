@@ -76,16 +76,20 @@ Spring GDS supports outbound international shipments from Great Britain and the 
   <Tab title="Carrier Services">
     The following key services are provided by the Spring GDS integration.
 
-    | Service name          | Description                                                                                                                    |
-    | :-------------------- | :----------------------------------------------------------------------------------------------------------------------------- |
-    | **Create shipment**   | Creates a shipment with Spring GDS as the primary carrier and returns the label in Base64-encoded format.                      |
-    | **Tracking**          | Provides tracking updates through the SAPIENT tracking webhook.                                                                |
-    | **Manifest shipment** | Retrieves information about manifests created by the system and confirms when shipments have been manifested with the carrier. |
+    | Service name        | Description                                                                                                                    |
+    | :------------------ | :----------------------------------------------------------------------------------------------------------------------------- |
+    | **Tracked**         | Creates a shipment with Spring GDS as the primary carrier and returns the label in Base64-encoded format.                      |
+    | **Signatured**      | Provides tracking updates through the SAPIENT tracking webhook.                                                                |
+    | **Signatured Plus** |                                                                                                                                |
+    | **Untracked**       | Retrieves information about manifests created by the system and confirms when shipments have been manifested with the carrier. |
+    | **Tracked Plus**    |                                                                                                                                |
+    | **Small / Boxable** |                                                                                                                                |
+    | **Express**         |                                                                                                                                |
 
     <Callout icon="💡" theme="default">
       ### _Tip_
 
-      _For the most up-to-date carrier services, use the&#x20;_[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services)_&#x20;endpoint._
+      _For the most up-to-date carrier services, use the&#x20;_<Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services">_Get Carrier Services_</Anchor>_&#x20;endpoint._
     </Callout>
   </Tab>
 </Tabs>
