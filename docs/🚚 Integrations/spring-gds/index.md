@@ -107,7 +107,7 @@ Spring GDS supports outbound international shipments from Great Britain and the 
     <Accordion title="Manifest shipment">
       Retrieve information about shipment manifests created by the system and check when shipments have been successfully manifested with Spring GDS. For real-time updates, use the [Manifest Webhook](https://docs.intersoftsapient.net/v4.04/docs/manifest-webhook) to monitor manifest requests and the status of shipments prepared for carrier collection and delivery.
     </Accordion>
-
+    </Tab>
     <Tab title="Other Services">
        <Accordion title="Print Label">
          Generate and return the label for a Spring GDS shipment in the supported label formats. This endpoint must be utilised when the label is not generated in the Spring GDS Create Shipment request.
@@ -123,7 +123,6 @@ Spring GDS supports outbound international shipments from Great Britain and the 
          Enables customers to receive tracking updates through their integration with the SAPIENT tracking webhook.
        </Accordion>
      </Tab>
-  </Tab>
 </Tabs>
 
 ***
