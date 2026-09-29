@@ -119,7 +119,7 @@ The UPS carrier integration within the SAPIENT system enables seamless communica
 
   <Tab title="Other Services">
     <Accordion title="Print Label">
-      [Generate and return the label](https://docs.intersoftsapient.net/reference/get_v4-shipments-printlabel-ups-shipmentid) for a UPS shipment in the supported label formats. This endpoint must be utilised when the label is not generated in the DHL Germany Create Shipment request.
+      [Generate and return the label](https://docs.intersoftsapient.net/reference/get_v4-shipments-printlabel-ups-shipmentid) for a UPS shipment in the supported label formats. This endpoint must be utilised when the label is not generated in the UPS Create Shipment request.
 
       <Callout icon="📘" theme="info">
         ### _Note_
