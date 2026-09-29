@@ -12,60 +12,126 @@ link:
 metadata:
   robots: index
 ---
-The integration of Spring GDS into the SAPIENT platform is a significant step in enhancing shipping capabilities. This section discusses the in-scope features of this integration and the services this carrier offers.
+Spring GDS supports outbound international shipments from Great Britain and the European Union, with services determined by your enabled shipping account and carrier service matrix.
 
-Key features
+<Tabs>
+  <Tab title="Key Features">
+    <Cards>
+      <Card title="Shipping Origins" icon="fa-map-marker-alt">
+        The integration supports shipping from Great Britain (GB) and the European Union (EU).
+      </Card>
 
-This integration provides the following key features:
+      <Card title="Shipping Destinations" icon="fa-solid fa-globe">
+        You can send shipments to Great Britain (GB), Europe (EU), and the Rest of the World (ROW).
+      </Card>
 
-Shipping origins: The integration supports shipping from Great Britain (GB) and European Union (EU).
+      <Card title="Service Type" icon="fa-solid fa-shipping-fast">
+        The integration supports outbound shipping only.
+      </Card>
 
-Shipping destinations: Users can send shipments to Great Britain (GB), Europe (EU), and ROW (Rest of the World).
+      <Card title="Incoterms Support" icon="fa-solid fa-file-contract">
+        The integration supports Delivered Duty Unpaid (DDU) and Delivered Duty Paid (DDP) incoterms.
+      </Card>
 
-Note
+      <Card title="Label Formats" icon="fa-solid fa-tag">
+        The integration supports labels in PDF, PNG, and ZPL at 200 or 300 dots per inch (dpi).
+      </Card>
+    </Cards>
 
-Shipping destinations will be determined based on the services enabled on the shipping account and service matrix provided by the carrier.
+    <Callout icon="📘" theme="info">
+      ### _Note_
 
-Service Type: The integration is focused on outbound shipping only.
+      _Shipping destinations are determined by the services enabled on your shipping account and the carrier service matrix._
+    </Callout>
+  </Tab>
 
-Incoterms: DDU and DDP.
+  <Tab title="Additional Features">
+    <Cards>
+      <Card title="Single-package Services" icon="fa-solid fa-box">
+        Spring GDS supports single-package services only. Consignment services are not supported.
+      </Card>
 
-Label formats: PDF, PNG, and ZPL (200 and 300 dpi).
+      <Card title="Carrier-specific Fields" icon="fa-solid fa-sliders">
+        You can provide optional carrier-specific fields in the Carrier Specifics block of the Create Shipment request.
+      </Card>
+    </Cards>
 
-Service enhancements
+    <Callout icon="🚧" theme="warn">
+      ### _Important_
 
-Note
+      _Before you use the carrier-specific fields, be aware of the following:_
 
-There are no service enhancements for this integration.
+      - _Carrier-specific fields apply only to Spring Clear. They default to `false` when omitted and do not cause shipment-validation failures._
+      - _You cannot configure Spring Clear at shipping-account level or through a SAPIENT user interface setting. Its availability depends on your agreement and setup with Spring GDS._
+      - _When Spring Clear is configured, set the incoterm to DDP in the Create Shipment request to trigger it._
+      - _Use `PreferentialOriginTag` to indicate goods that qualify for reduced or zero-duty rates under an applicable international trade agreement. You are responsible for determining eligibility and meeting compliance obligations._
+      - _Use `BondedGoods` to indicate goods that remain under customs supervision because customs duties have not yet been paid._
+    </Callout>
+  </Tab>
 
-Additional features
+  <Tab title="Service Enhancements">
+    <Callout icon="📘" theme="info">
+      ### _Note_
 
-The Spring GDS integration provides the following additional features:
+      _There are no service enhancements for this integration._
+    </Callout>
+  </Tab>
 
-Single-package services: Spring GDS supports only single-package services. Consignment services are not supported in this integration.
+  <Tab title="Carrier Services">
+    The following key services are provided by the Spring GDS integration.
 
-Carrier-specific fields: The following fields are optional and are specified in the Carrier Specifics block of the create shipment request.
+    | Service name | Description |
+    | :--- | :--- |
+    | **Create shipment** | Creates a shipment with Spring GDS as the primary carrier and returns the label in Base64-encoded format. |
+    | **Tracking** | Provides tracking updates through the SAPIENT tracking webhook. |
+    | **Manifest shipment** | Retrieves information about manifests created by the system and confirms when shipments have been manifested with the carrier. |
 
-Important
+    <Callout icon="💡" theme="default">
+      ### _Tip_
 
-Before using the carrier-specific fields, please bear in mind the following:
+      _For the most up-to-date carrier services, use the&#x20;_[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services)_&#x20;endpoint._
+    </Callout>
+  </Tab>
+</Tabs>
 
-Carrier-specific fields are only applicable to Spring Clear and default to false if not supplied and do not cause shipment validation failures when omitted.
+***
 
-Spring Clear cannot be configured at the shipping account level or via any UI setting in SAPIENT. It is not a configurable feature on our side and depends on the customer’s agreement and setup with Spring GDS.
+## API services
 
-If configured, you can trigger it by setting the incoterm to DDP in the create shipment request.
+<Tabs>
+  <Tab title="Core Services">
+    <Accordion title="Create Shipment">
+      Create a shipment with Spring GDS as the primary carrier. The Create Shipment service returns the shipment label in Base64-encoded format.
+    </Accordion>
 
-PreferentialOriginTag: An optional field for reduced or zero duty rates under specific international trade agreements. Customers are expected to determine which of their products qualify for this treatment based on their own research and compliance obligations.
+    <Accordion title="Tracking">
+      Receive tracking updates for Spring GDS shipments through your SAPIENT tracking webhook integration.
+    </Accordion>
 
-BondedGoods: An optional field used to indicate goods where customs duties have not yet been paid, and the goods remain under customs supervision until duty payment.
+    <Accordion title="Manifest shipment">
+      Retrieve information about shipment manifests created by the system and check when shipments have been successfully manifested with Spring GDS. For real-time updates, use the [Manifest Webhook](https://docs.intersoftsapient.net/v4.04/docs/manifest-webhook) to monitor manifest requests and the status of shipments prepared for carrier collection and delivery.
+    </Accordion>
+  </Tab>
+</Tabs>
 
-Carrier API services
+***
 
-The following API services are provided by the Spring GDS integration:
+## Getting Started
 
-Create shipment: The integration for creating shipments to reflect Spring GDS as a primary carrier and allowing users to create shipments using the Create Shipment that returns the label in base64 encoded format.
+<Tabs>
+  <Tab title="Account Setup">
+    <Cards>
+      <Card title="Add Spring GDS Shipping Account" href="https://docs.intersoftsapient.net/docs/add-spring-gds-shipping-account" icon="fa-solid fa-truck" target="_blank">
+        Set up your Spring GDS shipping account before creating shipments.
+      </Card>
+    </Cards>
+  </Tab>
 
-Tracking: Enables customers to receive tracking updates through their integration with the SAPIENT tracking webhook.
-
-Manifest shipment: Enable customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT Manifest Webhook, which provides updates on manifest requests, allowing you to track the progress and status of shipments prepared for carrier collection and delivery.
+  <Tab title="API References">
+    <Cards>
+      <Card title="Get Carrier Services" href="https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services" icon="fa-solid fa-code" target="_blank">
+        Retrieve the services available for a carrier.
+      </Card>
+    </Cards>
+  </Tab>
+</Tabs>
