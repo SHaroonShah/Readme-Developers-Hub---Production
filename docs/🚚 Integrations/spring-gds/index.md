@@ -24,7 +24,7 @@ Spring GDS supports outbound international shipments from Great Britain and the 
       <Card title="Shipping Destinations" icon="fa-solid fa-globe">
         You can send shipments to Great Britain (GB), Europe (EU), and the Rest of the World (ROW).
 
-        > _Shipping destinations are determined by the services enabled on your shipping account and the carrier service matrix._
+        > _Shipping destinations are determined by the services enabled on your shipping account._
       </Card>
 
       <Card title="Service Type" icon="fa-solid fa-shipping-fast">
@@ -107,22 +107,23 @@ Spring GDS supports outbound international shipments from Great Britain and the 
     <Accordion title="Manifest shipment">
       Retrieve information about shipment manifests created by the system and check when shipments have been successfully manifested with Spring GDS. For real-time updates, use the [Manifest Webhook](https://docs.intersoftsapient.net/v4.04/docs/manifest-webhook) to monitor manifest requests and the status of shipments prepared for carrier collection and delivery.
     </Accordion>
-    </Tab>
-    <Tab title="Other Services">
-       <Accordion title="Print Label">
-         Generate and return the label for a Spring GDS shipment in the supported label formats. This endpoint must be utilised when the label is not generated in the Spring GDS Create Shipment request.
+  </Tab>
 
-         <Callout icon="📘" theme="info">
-           ### _Note_
+  <Tab title="Other Services">
+    <Accordion title="Print Label">
+      Generate and return the label for a Spring GDS shipment in the supported label formats. This endpoint must be utilised when the label is not generated in the Spring GDS Create Shipment request.
 
-           _This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting._
-         </Callout>
-       </Accordion>
+      <Callout icon="📘" theme="info">
+        ### _Note_
 
-       <Accordion title="Tracking">
-         Enables customers to receive tracking updates through their integration with the SAPIENT tracking webhook.
-       </Accordion>
-     </Tab>
+        _This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting._
+      </Callout>
+    </Accordion>
+
+    <Accordion title="Tracking">
+      Enables customers to receive tracking updates through their integration with the SAPIENT tracking webhook.
+    </Accordion>
+  </Tab>
 </Tabs>
 
 ***
