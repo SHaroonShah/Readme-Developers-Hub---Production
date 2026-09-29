@@ -5,7 +5,7 @@ excerpt: >-
   international mail and parcel services through a network of final mile
   delivery partners.
 deprecated: false
-hidden: false
+hidden: true
 icon: fad fa-truck-fast
 link:
   new_tab: false
