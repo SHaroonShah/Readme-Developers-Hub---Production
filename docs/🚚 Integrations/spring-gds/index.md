@@ -30,11 +30,11 @@ Spring GDS supports outbound international shipments from Great Britain and the 
       </Card>
 
       <Card title="Incoterms Support" icon="fa-solid fa-file-contract">
-        The integration supports Delivered Duty Unpaid (DDU) and Delivered Duty Paid (DDP) incoterms.
+        The integration supports <Glossary>DDU</Glossary> and <Glossary>DDP</Glossary> incoterms.
       </Card>
 
       <Card title="Label Formats" icon="fa-solid fa-tag">
-        The integration supports labels in PDF, PNG, and ZPL at 200 or 300 dots per inch (dpi).
+        The integration supports labels in <Glossary>PDF</Glossary>, <Glossary>PNG</Glossary>, <Glossary>ZPL203DPI</Glossary>, and <Glossary>ZPL300DPI</Glossary>
       </Card>
     </Cards>
 
@@ -61,11 +61,11 @@ Spring GDS supports outbound international shipments from Great Britain and the 
 
       _Before you use the carrier-specific fields, be aware of the following:_
 
-      - _Carrier-specific fields apply only to Spring Clear. They default to `false` when omitted and do not cause shipment-validation failures._
+      - _Carrier-specific fields apply only to Spring Clear. They default to&#x20;_`false`_&#x20;when omitted and do not cause shipment-validation failures._
       - _You cannot configure Spring Clear at shipping-account level or through a SAPIENT user interface setting. Its availability depends on your agreement and setup with Spring GDS._
       - _When Spring Clear is configured, set the incoterm to DDP in the Create Shipment request to trigger it._
-      - _Use `PreferentialOriginTag` to indicate goods that qualify for reduced or zero-duty rates under an applicable international trade agreement. You are responsible for determining eligibility and meeting compliance obligations._
-      - _Use `BondedGoods` to indicate goods that remain under customs supervision because customs duties have not yet been paid._
+      - _Use&#x20;_`PreferentialOriginTag`_&#x20;to indicate goods that qualify for reduced or zero-duty rates under an applicable international trade agreement. You are responsible for determining eligibility and meeting compliance obligations._
+      - _Use&#x20;_`BondedGoods`_&#x20;to indicate goods that remain under customs supervision because customs duties have not yet been paid._
     </Callout>
   </Tab>
 
@@ -80,10 +80,10 @@ Spring GDS supports outbound international shipments from Great Britain and the 
   <Tab title="Carrier Services">
     The following key services are provided by the Spring GDS integration.
 
-    | Service name | Description |
-    | :--- | :--- |
-    | **Create shipment** | Creates a shipment with Spring GDS as the primary carrier and returns the label in Base64-encoded format. |
-    | **Tracking** | Provides tracking updates through the SAPIENT tracking webhook. |
+    | Service name          | Description                                                                                                                    |
+    | :-------------------- | :----------------------------------------------------------------------------------------------------------------------------- |
+    | **Create shipment**   | Creates a shipment with Spring GDS as the primary carrier and returns the label in Base64-encoded format.                      |
+    | **Tracking**          | Provides tracking updates through the SAPIENT tracking webhook.                                                                |
     | **Manifest shipment** | Retrieves information about manifests created by the system and confirms when shipments have been manifested with the carrier. |
 
     <Callout icon="💡" theme="default">
