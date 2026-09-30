@@ -61,7 +61,7 @@ next:
   </Card_1>
 
   <Card_1 href="https://docs.intersoftsapient.net/docs/dhl-express" tooltip="DHL Express">
-    <Image src="https://files.readme.io/7f06ef6e137cd4e9c18f23b72ebb66ff288ef675fd705e2e4a18801eafc42d83-DHL_Express_logo_white.png" align="center" width="100px" />
+    <Image src="https://files.readme.io/d36e1e206db7054b5260c3ce8039d4c0ce70cf1ea3182ae186c596181ad784e4-DHL_Express_logo_white.png" align="center" width="100px" />
   </Card_1>
 
   <Card_1 href="https://docs.intersoftsapient.net/docs/dhl-germany-de" tooltip="DHL Germany">
@@ -157,3 +157,6 @@ next:
     > Find answers to common queries and additional guidance on compliance.
   </Card>
 </Cards>
+
+
+
