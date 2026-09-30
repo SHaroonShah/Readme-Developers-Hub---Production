@@ -5,7 +5,9 @@ excerpt: >-
   declarations are applied to goods entering the region.
 deprecated: false
 hidden: false
-icon: fad fa-newspaper
+icon: fad fa-comments-question
+link:
+  new_tab: false
 metadata:
   robots: index
 ---
@@ -27,9 +29,11 @@ metadata:
   * Send B2C (business-to-consumer) shipments
   * Ship low-value goods (≤ €150)
 
-  > 📘 *Note*
-  >
-  > *If you are unsure, please contact your account manager.*
+  <Callout icon="📘" theme="info">
+    ### _Note_
+
+    _If you are unsure, please contact your account manager._
+  </Callout>
 </Accordion>
 
 <Accordion title="What types of shipments are most affected?">
