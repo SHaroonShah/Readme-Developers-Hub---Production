@@ -40,6 +40,12 @@ If the receiving endpoint (the system where the notifications are sent) is down 
 <Accordion title="Retry Schedule">
   The system follows the following retry schedule before suspending a tracking or manifest webhook:
 
+  <Callout icon="📘" theme="info">
+    ### _Note_
+
+    _The initial retry attempts are not part of the standard webhook retry process. When the first delivery attempt fails and the webhook is not yet in retry mode, the system will automatically retry after 5 seconds, 30 seconds, and 60 seconds. If all three attempts fail, a failure message is displayed and the webhook enters the standard retry process._
+  </Callout>
+
   | Retry ID | Retry Count | Interval    |
   | :------: | :---------: | :---------- |
   |     1    |      0      | 5 minutes\* |
