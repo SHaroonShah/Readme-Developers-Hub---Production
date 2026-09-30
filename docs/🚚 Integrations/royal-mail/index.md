@@ -61,6 +61,10 @@ This integration represents a significant step towards optimising shipping funct
         Support for single shipments is included in the integration, allowing users to send single shipment. However, users can create multiple single shipments via a single API call.
       </Card>
 
+      <Card title="Multipiece shipments" icon="fad fa-boxes-stacked">
+        Support for consignments shipments is also included in the integration via the Royal Mail ParcelForce services.
+      </Card>
+
       <Card title="Package Types" icon="fa-solid fa-boxes">
         Royal Mail offers its own distinct <Glossary>package type</Glossary>s, such as Letter, Large letter, Parcel, and Printed papers. You can look up package types by calling the [Get Carrier Service Package Types](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services-servicecode-packagetypes#/) endpoint.
       </Card>
@@ -110,7 +114,8 @@ This integration represents a significant step towards optimising shipping funct
     | **Special Delivery** | This service provides guaranteed next-working-day delivery within the UK, with time-definite options, full tracking, signature on delivery, and enhanced compensation for valuable items. |
     | **International**    | This service provides delivery of letters and parcels worldwide, offering a range of tracked and untracked options with varying delivery speeds and customs support.                      |
     | **Returns**          | This service provides convenient parcel return solutions, allowing customers to send items back to retailers using tracked or standard services with flexible drop-off options.           |
-<br />
+
+    <br />
 
     <Callout icon="💡" theme="default">
       ### _Tip_
