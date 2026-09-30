@@ -32,14 +32,10 @@ This section explains the components available on the **Integrations** page of t
   <Image src="https://files.readme.io/9d01c43822f6ea8e09f2dcc827a191c1d319511fdbf63e40e4a779b72ec3c46d-Sapient_Login_window.png" align="center" width="500px" caption="Logging into SAPIENT" border={true} />
 
 
-
-
   2. On the **Home** page that opens, in the left navigation panel, select **Integrations**.
 
 
   <Image src="https://files.readme.io/9edbbe0f060a9821348b7a077aae6171ab9fde12fd7b6d2ffdbe5d215b463f3a-Sapient_home_page.png" align="center" caption="Accessing integrations" border={true} />
-
-
 
 
   <Callout icon="🚧" theme="warn">
@@ -51,7 +47,7 @@ This section explains the components available on the **Integrations** page of t
   3. On the **Integrations** page that opens, next to each carrier, the following integration types are displayed with their corresponding icons and symbols. Please select the needed integrations as per your business requirements.
 
 
-  <Image src="https://files.readme.io/42044e1252f492b4bd51e1ed7d86a66048cc74d82bf26ee7fc53761e7780c2c1-Integrations_page.png" align="center" caption="Selecting integrations" border={true} />
+  <Image src="https://files.readme.io/cf9d8a897ea2a2fe1065cb5974232fb122b554acfd6d27650d96ce36d575d0f9-Integrations_page.png" align="center" caption="Selecting integrations" border={true} />
 
 </Accordion>
 
@@ -78,8 +74,6 @@ This section explains the components available on the **Integrations** page of t
 
 
   <Image src="https://files.readme.io/9b0f989-image.png" align="center" caption="Viewing carrier-specific integrations" border={true} />
-
-
 
 
   <ToggleList>
@@ -123,8 +117,6 @@ This section explains the components available on the **Integrations** page of t
   |              Available integration             |         Pricing and contract agreement         |              Upcoming integrations             |
   | :--------------------------------------------: | :--------------------------------------------: | :--------------------------------------------: |
   | ![](https://files.readme.io/b0940a4-image.png) | ![](https://files.readme.io/b8c6bfd-image.png) | ![](https://files.readme.io/11cb1ac-image.png) |
-
-
 
   3. In the **Integration Activation** screen, select the Terms and Conditions checkbox to agree to the company's terms on accessing and using their services.
 
