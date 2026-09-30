@@ -154,6 +154,6 @@ next:
   </Card>
 
   <Card title="FAQs" href="https://docs.intersoftsapient.net/docs/frequently-asked-questions-faqs" icon="fad fa-comment-question" target="_blank">
-    > See our 99.9% uptime API status.
+    > Find answers to common queries and additional guidance on compliance.
   </Card>
 </Cards>
