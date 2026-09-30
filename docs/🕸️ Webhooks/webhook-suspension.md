@@ -32,7 +32,7 @@ If the receiving endpoint (the system where the notifications are sent) is down 
 </Accordion>
 
 <Accordion title="Retry Schedule">
-  The system follows this retry schedule before suspending a webhook:
+  The system follows the following retry schedule before suspending a tracking or manifest webhook:
 
   | Retry ID | Retry Count | Interval    |
   | :------: | :---------: | :---------- |
