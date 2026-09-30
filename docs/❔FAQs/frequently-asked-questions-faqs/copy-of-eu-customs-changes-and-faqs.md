@@ -5,7 +5,7 @@ excerpt: >-
   declarations are applied to goods entering the region.
 deprecated: false
 hidden: false
-icon: fad fa-comments-question
+icon: fad fa-comment-question
 link:
   new_tab: false
 metadata:
