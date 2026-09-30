@@ -54,6 +54,7 @@ If the receiving endpoint (the system where the notifications are sent) is down 
   |     8    |      7      | 72 hours    |
     </ToggleListItem>
   <br />
+
     <ToggleListItem title="Shipment webhook connection">
       The system follows the following retry schedule before suspending a shipment webhook:
 
