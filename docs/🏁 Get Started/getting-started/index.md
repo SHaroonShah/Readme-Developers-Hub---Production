@@ -61,7 +61,7 @@ next:
   </Card_1>
 
   <Card_1 href="https://docs.intersoftsapient.net/docs/dhl-express" tooltip="DHL Express">
-    <Image src="https://files.readme.io/d36e1e206db7054b5260c3ce8039d4c0ce70cf1ea3182ae186c596181ad784e4-DHL_Express_logo_white.png" align="center" width="100px" />
+    <Image src="https://files.readme.io/68b90d59886dcba8e09308cef816c57dc2a5d33cfec3e0ede283fac6867df8d8-DHL_Express_logo_white.png" align="center" width="100px" />
   </Card_1>
 
   <Card_1 href="https://docs.intersoftsapient.net/docs/dhl-germany-de" tooltip="DHL Germany">
