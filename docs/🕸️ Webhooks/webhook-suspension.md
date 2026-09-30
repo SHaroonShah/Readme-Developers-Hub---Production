@@ -53,16 +53,12 @@ If the receiving endpoint (the system where the notifications are sent) is down 
 
   The system follows the following retry schedule before suspending a shipment webhook:
 
-  | Retry ID | Retry Count | Interval    |
-  | :------: | :---------: | :---------- |
-  |     1    |      0      | 5 minutes\* |
-  |     2    |      1      | 10 minutes  |
-  |     3    |      2      | 15 minutes  |
-  |     4    |      3      | 30 minutes  |
-  |     5    |      4      | 5 hours     |
-  |     6    |      5      | 18 hours    |
-  |     7    |      6      | 72 hours    |
-  |     8    |      7      | 72 hours    |
+  | Retry ID |        Retry Count       | Interval                 |
+  | :------: | :----------------------: | :----------------------- |
+  |     1    |            10            | Every 10 minutes\*       |
+  |     2    |            24            | Every hour for 1 day     |
+  |     3    |            24            | Every 2 hours for 2 days |
+  |     4    | Remaining retry attempts | Every 4 hours            |
 </Accordion>
 
 <Accordion title="Reactivation Process">
