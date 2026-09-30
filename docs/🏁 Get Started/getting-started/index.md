@@ -153,7 +153,7 @@ next:
     > Contact our Support Team for assistance.
   </Card>
 
-  <Card title="Status" href="https://www.readmestatus.com" icon="fa-solid fa-battery-bolt" target="_blank">
+  <Card title="FAQs" href="https://www.readmestatus.com" icon="fad fa-comment-question" target="_blank">
     > See our 99.9% uptime API status.
   </Card>
 </Cards>
