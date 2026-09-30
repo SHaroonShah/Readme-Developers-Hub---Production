@@ -10,7 +10,9 @@ icon: fad fa-truck-fast
 metadata:
   robots: noindex
 ---
-The DHL Express integration supports outbound shipping from Great Britain to domestic, European, and Rest of the World destinations through SAPIENT.
+![](https://files.readme.io/48f52136ee61b28753f47a11e80ac24b0c1ace688039d04bf293045967209096-DHL_Express_banner_white.png)
+
+<br />
 
 ***
 
@@ -65,8 +67,6 @@ DHL is the global leader in the logistics industry. DHL Express is a brand withi
       </Card>
     </Cards>
 
-
-
     <Callout icon="💡" theme="default">
       ### _Tip_
 
@@ -112,8 +112,6 @@ DHL is the global leader in the logistics industry. DHL Express is a brand withi
     | **Express 10:30 non documents**         | This service provides time-definite international delivery of parcels before 10:30 AM on the next working day, offering expedited transit and full tracking visibility.                                     |
     | **Express 09:00 documents**             | This service provides early morning international delivery of document shipments before 9:00 AM on the next working day, ensuring urgent delivery with priority handling and tracking.                      |
     | **Express 10:30 documents**             | This service provides time-definite international delivery of document shipments before 10:30 AM on the next working day, with expedited transit and full tracking visibility.                              |
-
-
 
     <Callout icon="💡" theme="default">
       ### _Tip_
