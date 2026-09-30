@@ -28,7 +28,13 @@ If the receiving endpoint (the system where the notifications are sent) is down 
   2. **Retry Attempts**: Multiple retry attempts are made following specific intervals
   3. **Threshold Exceeded**: If all retry attempts fail, the webhook is suspended
   4. **Notification**: An email is sent to the user registered to receive the suspension notifications. This email can be specified while [configuring the Webhook details](https://docs.intersoftsapient.net/v4.04/docs/create-tracking-webhook).
-  5. **Retry Loop**: When the webhook is suspended, it will be queued to retry again.
+  5. **Retry Loop**: When the webhook is suspended, it will _be queued to retry again._
+
+  <Callout icon="🚧" theme="warn">
+    ### _Important_
+
+    _For shipment webhook, the system will retry the webhook connection for up to 14 days. If the webhook becomes available during this period, the connection will be established automatically. If the webhook remains unavailable after 14 days, the system will stop retrying and the webhook will be suspended._
+  </Callout>
 </Accordion>
 
 <Accordion title="Retry Schedule">
@@ -45,19 +51,18 @@ If the receiving endpoint (the system where the notifications are sent) is down 
   |     7    |      6      | 72 hours    |
   |     8    |      7      | 72 hours    |
 
-The system follows the following retry schedule before suspending a shipment webhook:
+  The system follows the following retry schedule before suspending a shipment webhook:
 
-| Retry ID | Retry Count | Interval    |
-| :------: | :---------: | :---------- |
-|     1    |      0      | 5 minutes\* |
-|     2    |      1      | 10 minutes  |
-|     3    |      2      | 15 minutes  |
-|     4    |      3      | 30 minutes  |
-|     5    |      4      | 5 hours     |
-|     6    |      5      | 18 hours    |
-|     7    |      6      | 72 hours    |
-|     8    |      7      | 72 hours    |
-
+  | Retry ID | Retry Count | Interval    |
+  | :------: | :---------: | :---------- |
+  |     1    |      0      | 5 minutes\* |
+  |     2    |      1      | 10 minutes  |
+  |     3    |      2      | 15 minutes  |
+  |     4    |      3      | 30 minutes  |
+  |     5    |      4      | 5 hours     |
+  |     6    |      5      | 18 hours    |
+  |     7    |      6      | 72 hours    |
+  |     8    |      7      | 72 hours    |
 </Accordion>
 
 <Accordion title="Reactivation Process">
