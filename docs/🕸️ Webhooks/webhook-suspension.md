@@ -95,7 +95,7 @@ If the receiving endpoint (the system where the notifications are sent) is down 
 
 ### See also
 
-<Cards columns="2">
+<Cards columns="3">
   <Card title="Set Up Tracking Webhook Connection" href="https://docs.intersoftsapient.net/v4.04/docs/create-tracking-webhook" icon="fa-solid fa-code-pull-request" target="_blank">
     Automate the instantaneous flow of information regarding the status of shipments.
   </Card>
