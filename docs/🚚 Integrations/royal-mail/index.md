@@ -65,7 +65,7 @@ This integration represents a significant step towards optimising shipping funct
         Support for multipiece shipments is also included in the integration via the Royal Mail ParcelForce services.
       </Card>
 
-      <Card title="Package Types" icon="fa-solid fa-boxes">
+      <Card title="Package Types" icon="fad fa-boxes-packing">
         Royal Mail offers its own distinct <Glossary>package type</Glossary>s, such as Letter, Large letter, Parcel, and Printed papers. You can look up package types by calling the [Get Carrier Service Package Types](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services-servicecode-packagetypes#/) endpoint.
       </Card>
     </Cards>
