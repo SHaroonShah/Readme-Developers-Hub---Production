@@ -12,8 +12,6 @@ metadata:
 ---
 ![](https://files.readme.io/48f52136ee61b28753f47a11e80ac24b0c1ace688039d04bf293045967209096-DHL_Express_banner_white.png)
 
-<br />
-
 ***
 
 DHL is the global leader in the logistics industry. DHL Express is a brand within the DHL Group known for expedited delivery, both domestically within the UK and internationally to EU and Rest of the World destinations.
