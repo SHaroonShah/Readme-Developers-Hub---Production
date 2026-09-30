@@ -63,6 +63,10 @@ When the webhook is suspended, the system retains pending responses and delivers
     Automate the instantaneous flow of information regarding your shipments.
   </Card>
 
+<Card title="Handle Webhook Suspension" href="https://docs.intersoftsapient.net/docs/webhook-suspension" icon="fa-solid fa-dial-max" target="_blank">
+    Review webhook suspension behaviour and restore delivery.
+  </Card>
+
   <Card title="Create Shipment Async" href="https://docs.intersoftsapient.net/reference/post_v4-shipments-async-rm" icon="fad fa-square-plus" target="_blank">
     Create a shipment request using this endpoint for asynchronous processing.
   </Card>
