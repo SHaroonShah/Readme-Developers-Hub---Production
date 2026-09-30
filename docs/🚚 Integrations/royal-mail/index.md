@@ -62,7 +62,7 @@ This integration represents a significant step towards optimising shipping funct
       </Card>
 
       <Card title="Multipiece shipments" icon="fad fa-boxes-stacked">
-        Support for consignments shipments is also included in the integration via the Royal Mail ParcelForce services.
+        Support for consignment is also included in the integration via the Royal Mail ParcelForce services.
       </Card>
 
       <Card title="Package Types" icon="fa-solid fa-boxes">
