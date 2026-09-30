@@ -38,7 +38,6 @@ If the receiving endpoint (the system where the notifications are sent) is down 
 </Accordion>
 
 <Accordion title="Retry Schedule">
-  // Usage
   <ToggleList>
     <ToggleListItem title="Manifest and Tracking webhook connection">
       The system follows the following retry schedule before suspending a tracking or manifest webhook:
@@ -54,6 +53,7 @@ If the receiving endpoint (the system where the notifications are sent) is down 
   |     7    |      6      | 72 hours    |
   |     8    |      7      | 72 hours    |
     </ToggleListItem>
+  <br />
     <ToggleListItem title="Shipment webhook connection">
       The system follows the following retry schedule before suspending a shipment webhook:
 
