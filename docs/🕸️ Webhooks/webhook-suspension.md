@@ -100,15 +100,11 @@ If the receiving endpoint (the system where the notifications are sent) is down 
     Automate the instantaneous flow of information regarding the status of shipments.
   </Card>
 
-  <Card title="Add Tracking Account" href="https://docs.intersoftsapient.net/docs/create-tracking-account" icon="fa-solid fa-alarm-plus" target="_blank">
-    Establish your tracking account for seamless integration.
+  <Card title="Set up Shipment Webhook Connection" href="https://docs.intersoftsapient.net/docs/set-up-shipments-webhook" icon="fad fa-pallet-boxes" target="_blank">
+    Create a shipment request using this endpoint for asynchronous processing.
   </Card>
 
   <Card title="Set Up Manifest Webhook" href="https://docs.intersoftsapient.net/docs/manifest-webhook" icon="fa-solid fa-webhook" target="_blank">
     Enable webhook notifications for manifest-level tracking operations.
-  </Card>
-
-  <Card title="Track Events and Milestones" href="https://docs.intersoftsapient.net/docs/tracking-events-and-milestones" icon="fa-solid fa-chart-line-up" target="_blank">
-    Understand tracking events and milestone data.
   </Card>
 </Cards>
