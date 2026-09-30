@@ -1,8 +1,8 @@
 ---
 title: Shipment Webhook
 excerpt: >-
-  Use the Shipment Webhook to create shipments asynchronously and receive
-  processing results at your configured webhook endpoint.
+  Use the Shipment Webhook to create shipments asynchronously for silent print
+  purposes and receive processing results at your configured webhook endpoint.
 deprecated: false
 hidden: false
 icon: fad fa-webhook
@@ -53,8 +53,6 @@ Submit a request to the **Create Shipment Async** endpoint. The system processes
 If the system cannot deliver a response to your webhook endpoint, it stores the failed response and retries delivery automatically.
 
 When the webhook is suspended, the system retains pending responses and delivers them after you reactivate the webhook. You cannot submit new asynchronous shipment requests while the webhook is suspended, which prevents the backlog from increasing.
-
-The system stores responses in blob storage for re-delivery. Data-retention policies and storage-capacity considerations apply to stored responses.
 
 ***
 
