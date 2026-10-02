@@ -218,7 +218,7 @@ In SAPIENT, you can create an InPost shipping account by selecting your desired 
   </Tab>
 
   <Tab title="Via API">
-    To add an InPostshipping account via API, refer to the following API endpoint.
+    To add an InPost shipping account via API, refer to the following API endpoint.
 
     <Cards columns="2">
       <Card title="Add Account" href="https://docs.intersoftsapient.net/reference/post_v4-shippingaccounts-inpost" icon="fa-code" target="_blank">
