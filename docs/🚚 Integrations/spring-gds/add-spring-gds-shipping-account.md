@@ -57,8 +57,8 @@ In SAPIENT, you can select a shipping location and add a Spring GDS shipping acc
 
         | Element | Description |
         | :--- | :--- |
-        | **Carrier**\* | Select Spring GDS from the dropdown list. |
-        | **Shipping Location**\* | Select the shipping location to assign to the account. |
+        | **Carrier**\* | From the dropdown list, select **SPRING - Spring GDS**. |
+        | **Shipping Location**\* | From the dropdown menu, select the location that you want to assign to the shipping account you are creating. |
 
         ***
       </ToggleListItem>
