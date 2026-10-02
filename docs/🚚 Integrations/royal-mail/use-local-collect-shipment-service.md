@@ -51,17 +51,19 @@ Based on your requirements, you can choose various approaches to use the PUDO lo
 
   1. **Integration Activation**: The PUDO integration must be enabled within the Sapient system for customers to leverage this feature.
 
-  <Image align="center" border={true} src="https://files.readme.io/130681c4ccc5018415e332ba70d3239a8e6c5b1c30b509fd21437710dfe3c46a-image.png" caption="Activating PUDO integration"/>
+
+  <Image src="https://files.readme.io/130681c4ccc5018415e332ba70d3239a8e6c5b1c30b509fd21437710dfe3c46a-image.png" align="center" caption="Activating PUDO integration" border={true} />
+
 
   2. **Ad-Hoc Calling**: During the checkout process, customers can call the PUDO API to retrieve a list of nearby collection points based on their delivery postcode.
   3. **Result Delivery**: The API responds with a real-time list of PUDO locations for selection.
 
   The following new query parameters have been added to the [Get PUDO Locations](https://docs.intersoftsapient.net/reference/get_v4-pudolocations-carriercode-countrycode-postcode#/) API request.
 
-| Element | Description |
-| --- | --- |
-| **locationServices** | This parameter specifies the available services offered at the PUDO location, such as pickup, dropoff, or print in store. |
-| **includeEnhancedLocationDetails** | This parameter determines whether the response includes additional details about each PUDO location.<br /><br />• If set to true, the JSON response will include `enhancedLocationDetails` object for each PUDO location. This includes more comprehensive information, such as facilities available at the location, for example, disabled access, parking, and so on, distance from postcode, and any additional attributes relevant to the location that might insist customers in making informed decisions.<br /><br />• If set to false, the response will be limited to the basic details of the PUDO locations without the enhanced attributes. |
+  | Element                            | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+  | ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+  | **locationServices**               | This parameter specifies the available services offered at the PUDO location, such as pickup, dropoff, or print in store.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+  | **includeEnhancedLocationDetails** | This parameter determines whether the response includes additional details about each PUDO location.<br /><br />• If set to true, the JSON response will include `enhancedLocationDetails` object for each PUDO location. This includes more comprehensive information, such as facilities available at the location, for example, disabled access, parking, and so on, distance from postcode, and any additional attributes relevant to the location that might insist customers in making informed decisions.<br /><br />• If set to false, the response will be limited to the basic details of the PUDO locations without the enhanced attributes. |
 
   The following snippet represents an example JSON response schema of the Get PUDO Location endpoint.
 
@@ -142,7 +144,9 @@ Based on your requirements, you can choose various approaches to use the PUDO lo
   }
   ```
 
-  <Image align="center" src="https://files.readme.io/36569617c265f4481d748095c90867d93937deaf399ff2d0fa9ec68316f283ae-Local_Collect_label_example.png" caption="Local colect label example"/>
+
+  <Image src="https://files.readme.io/36569617c265f4481d748095c90867d93937deaf399ff2d0fa9ec68316f283ae-Local_Collect_label_example.png" align="center" caption="Local colect label example" />
+
 </Accordion>
 
 <Accordion title="Accessing PUDO Locations via SFTP for local collect">
@@ -152,38 +156,41 @@ Based on your requirements, you can choose various approaches to use the PUDO lo
 
   You can use the SFTP solution, if you want to download the PUDO data into your own system to check the PUDO locations that are close by to a given address by yourself.
 
-  > 🚧 *Important*
-  >
-  > *If you want to set up the PUDO integration, make sure to meet the following prerequisites:*
-  >
-  > * *[Enable PUDO integration](https://docs.intersoftsapient.net/v4.04/docs/integration-activation#/) via the Royal Mail Integration Activation screen.*
-  >
-  >   <Image align="center" src="https://files.readme.io/735e213c58d29db4438e9cc89a873cba9c4a35bbaaf4f3663f68817f8c32327a-image.png" caption="Activating PUDO integration"/>
-  >
-  > * *[Raise a request](mailto:onboarding@intersoftsapient.net) to our onboarding team to create a location for you to connect and download the PUDO data via SFTP by providing your RSA Public Key through a secure gateway. Our team will respond with the following connection details:*
-  >   * *Host name*
-  >   * *Username*
-  >   * *Password*
-  >   * *Port number*
-  >
-  > *Once you have received the preceding details, use them along with your RSA private key to establish a connection to the SFTP server.*
+  <Callout icon="🚧" theme="warn">
+    ### _Important_
+
+    _If you want to set up the PUDO integration, make sure to meet the following prerequisites:_
+
+    - [Enable PUDO integration](https://docs.intersoftsapient.net/v4.04/docs/integration-activation#/)_&#x20;via the Royal Mail Integration Activation screen._
+
+
+      <Image src="https://files.readme.io/735e213c58d29db4438e9cc89a873cba9c4a35bbaaf4f3663f68817f8c32327a-image.png" align="center" caption="Activating PUDO integration" />
+
+
+    - [Raise a request](mailto:onboarding@intersoftsapient.net)_&#x20;to our onboarding team to create a location for you to connect and download the PUDO data via SFTP by providing your RSA Public Key through a secure gateway. Our team will respond with the following connection details:_
+      - _Host name_
+      - _Username_
+      - _Password_
+      - _Port number_
+
+    _Once you have received the preceding details, use them along with your RSA private key to establish a connection to the SFTP server._
+  </Callout>
 
   The PUDO SFTP solution provides you with all locations in a single file that you can store as a library.
 
   <Callout icon="💡" theme="default">
-    ### *Tip*
+    ### _Tip_
 
-    *The file is generated on a daily basis and to ensure you are using the most up‑to‑date data, it is recommended to retrieve the latest PUDO file after the scheduled file pickup run at 5:30 AM (BST). To learn more about the file data, refer to the following example file:*
+    _The file is generated on a daily basis and to ensure you are using the most up‑to‑date data, it is recommended to retrieve the latest PUDO file after the scheduled file pickup run at 5:30 AM (BST). To learn more about the file data, refer to the following example file:_
 
-    * <a href="https://docs.google.com/spreadsheets/d/1D-iXKCKu_Nc-iyRcXOShu62nx6BF-1ENcMKuEdxsfPk/edit?usp=sharing" target="_blank" rel="noopener noreferrer">RMPUDO20260716</a>
+    * <a href="https://docs.google.com/spreadsheets/d/1s0NWu6QNWXfmZCu9xyaMgF6JBlUcLy-JxDG5QZGkMJE/edit?usp=sharing" target="_blank" rel="noopener noreferrer">RMPUDO20260716</a>
 
-    *The file will have a naming convention of RMPUDOyyyymmdd.csv and will be in csv format with comma delimiters. To learn more about the structure of the file refer to the <a href="https://docs.google.com/spreadsheets/d/1M86m55PXHYYoR97QIXCddtuqc80321CPKENqeKZ1y3I/edit?usp=sharing" target="_blank" rel="noopener noreferrer"> PUDO file structure.</a>*
+    _The file will have a naming convention of RMPUDOyyyymmdd.csv and will be in csv format with comma delimiters. To learn more about the structure of the file refer to the&#x20;_<a href="https://docs.google.com/spreadsheets/d/1M86m55PXHYYoR97QIXCddtuqc80321CPKENqeKZ1y3I/edit?usp=sharing" target="_blank" rel="noopener noreferrer">_&#x20;PUDO file structure._</a>
   </Callout>
 </Accordion>
 
 <Accordion title="Create shipment using PUDO">
-  SAPIENT not only supports retrieving the PUDO location information, but also the creation of Royal Mail outbound shipments that will be collected from a PUDO location - Local Collect.\
-  There are two distinct ways to [create a Royal Mail shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm) aimed at delivery to a PUDO point:
+  SAPIENT not only supports retrieving the PUDO location information, but also the creation of Royal Mail outbound shipments that will be collected from a PUDO location - Local Collect.<br />There are two distinct ways to [create a Royal Mail shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm) aimed at delivery to a PUDO point:
 
   1. By providing the full address of the PUDO:
      1. The request must include “c/o” with the location name.
@@ -197,13 +204,13 @@ Based on your requirements, you can choose various approaches to use the PUDO lo
 
   If the `pudoId` field is included in **Address** object of the Royal Mail Create Shipment request, then SAPIENT recognises the specific Royal Mail location by its unique ID, and the label will be generated with the address information of that PUDO location.
 
-  > 🚧 *Important*
-  >
-  > *Before providing the`pudoId`, make sure of the following:*
-  >
-  > * *If the`pudoId` is provided for any address other than the destination address, an error will be returned.*
-  > * *If the`pudoId` is provided for a carrier that does not use PUDO, an error will be returned.*
-  > * *If the destination company name includes “c/o” and the `PudoId` is not populated, the existing Local Collect functionality will continue to apply.*
-</Accordion>
+  <Callout icon="🚧" theme="warn">
+    ### _Important_
 
-<br />
+    _Before providing the_`pudoId`_, make sure of the following:_
+
+    - _If the_`pudoId`_&#x20;is provided for any address other than the destination address, an error will be returned._
+    - _If the_`pudoId`_&#x20;is provided for a carrier that does not use PUDO, an error will be returned._
+    - _If the destination company name includes “c/o” and the&#x20;_`PudoId`_&#x20;is not populated, the existing Local Collect functionality will continue to apply._
+  </Callout>
+</Accordion>
