@@ -12,7 +12,7 @@ link:
 metadata:
   robots: index
 ---
-Use the *Manifest Webhook* to receive near real-time updates when a <Glossary>manifest</Glossary> request changes status or finishes processing.
+Use the _Manifest Webhook_ to receive near real-time updates when a <Glossary>manifest</Glossary> request changes status or finishes processing.
 
 The webhook sends notifications to your configured endpoint, so you do not need to poll the manifest request status endpoint. This is useful when large batches of shipments take time to process.
 
@@ -37,9 +37,11 @@ After you submit a request to the **Manifest Shipments Async** endpoint, the sys
 3. Updates the manifest request status during processing.
 4. Sends a webhook notification when the status changes or processing finishes.
 
-## Optional: Check manifest status
+<Callout icon="💡" theme="default">
+  ### _Tip_
 
-If you need more detail about a manifest request, use its **manifestRequestId** with the [Get Manifest Request Status](https://docs.intersoftsapient.net/reference/get_v4-manifests-manifeststatus-manifestrequestid) endpoint. You do not need to poll this endpoint to receive webhook updates.
+  _If you need more detail about a manifest request, use its&#x20;_**_manifestRequestId_**_&#x20;with the&#x20;_[_Get Manifest Request Status_](https://docs.intersoftsapient.net/reference/get_v4-manifests-manifeststatus-manifestrequestid)_&#x20;endpoint. You do not need to poll this endpoint to receive webhook updates._
+</Callout>
 
 ***
 
