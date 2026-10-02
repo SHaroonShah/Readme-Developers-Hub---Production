@@ -49,7 +49,7 @@ In SAPIENT, you can select a shipping location and add a Spring GDS shipping acc
       <ToggleListItem title="3. Enter account details">
         On the **Add Shipping Account** form, in the **ACCOUNT DETAILS** block, enter the information in the following table.
 
-        <Image align="center" src="https://files.readme.io/8c5d5f5ff0cecf1feaa16ffc521a0feaf02bffc8c255c4ab9d967f4ad6bdf203-Account_details_block_Inpost.png" width="500px" caption="Account details block (InPost example; select Spring GDS instead)" />
+       <Image src="https://files.readme.io/29ae30bbddc5752252fda00a08239b7a556e0fb0f2b66ac5aea7714c388e0035-image.png" align="center" caption="Entering account details" border={true} />
 
         <br />
 
@@ -157,4 +157,6 @@ In SAPIENT, you can select a shipping location and add a Spring GDS shipping acc
     Update or modify an existing shipping account.
   </Card>
 </Cards>
+
+
 
