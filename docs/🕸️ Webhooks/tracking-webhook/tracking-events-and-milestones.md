@@ -290,7 +290,7 @@ The following section displays a comprehensive structure of the milestones, even
                   </tr>
                   <tr>
                   <td rowspan="21"><strong>N/A</strong></td>
-                  <td rowspan="18">Null</td>
+                  <td rowspan="21">Null</td>
                   <td>ICLR</td>
   <td>Shipment Customs Cleared</td>
                   <td>Customs clearance has been completed successfully.</td>
