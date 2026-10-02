@@ -22,12 +22,11 @@ In SAPIENT, with the Add Shipping Account functionality, you can select the desi
 To add a shipping account for InPost in SAPIENT, follow the instructions as explained in the following procedure.
 
 1. In the left navigation panel, select **Shipping Accounts**.
+2.
+   <Image src="https://files.readme.io/5126b35b0d3d891af18e66aff39bac986726ee3d9a5a980ab09f69c3963cea61-image.png" align="center" caption="Accessing shipping accounts" border={true} />
 
 
-<Image src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" alt="Accessing shipping accounts" align="center" caption="Accessing shipping accounts" border={true} />
-
-
-2. On the **Shipping Accounts** page that opens, select ![](https://files.readme.io/e27a112101fea1d20bb870a5c570ce3cb3889d2c514dd5bc0920c2ea630f9943-add_shipping_account_button.png).
+2) On the **Shipping Accounts** page that opens, select ![](https://files.readme.io/e27a112101fea1d20bb870a5c570ce3cb3889d2c514dd5bc0920c2ea630f9943-add_shipping_account_button.png).
 
 
 <Image src="https://files.readme.io/1f21da8d1e1c679c2ed31d67bfc7551e5c9477f2f22b16c279aed71ab9688809-Add_shipping_account_button_YODEL.png" alt="Accessing option to add shipping account" align="center" caption="Selecting option to add shipping account" border={true} />
@@ -36,7 +35,7 @@ To add a shipping account for InPost in SAPIENT, follow the instructions as expl
 3. On the **Add Shipping Account** form that appears, in the **ACCOUNT DETAILS** block, fill in the necessary information as described in the following table.
 
 
-<Image src="https://files.readme.io/8c5d5f5ff0cecf1feaa16ffc521a0feaf02bffc8c255c4ab9d967f4ad6bdf203-Account_details_block_Inpost.png" alt="Entering account details" align="center" width="500px" caption="Entering account details" border={true} />
+<Image src="https://files.readme.io/dc84898326356154c879fd4cf87e9428eb358a16695dc4047d41d0664a025e90-image.png" align="center" caption="Entering account details" />
 
 
 <AsteridkForMandatoryElements />
@@ -137,7 +136,7 @@ To add a shipping account for InPost in SAPIENT, follow the instructions as expl
 5. In the **CARRIER DETAILS** block, enter the necessary information as explained in the following table.
 
 
-<Image src="https://files.readme.io/3a5f6be5d0522b615c12181f01d628650d3ef6d3966de74d012fce372c78a302-carrier_details_block_InPost.png" alt="Entering carrier details" align="center" width="400px" caption="Entering carrier details" border={true} />
+<Image src="https://files.readme.io/a2bdd5ce64f62752e539be3e8e5db0a97cdbc787616c36f6c3130b4dfcb3a418-image.png" align="center" caption="Entering carrier-specific details" border={true} />
 
 
 <AsteridkForMandatoryElements />
