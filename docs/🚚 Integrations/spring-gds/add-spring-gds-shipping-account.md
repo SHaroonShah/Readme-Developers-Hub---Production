@@ -16,7 +16,7 @@ In SAPIENT, you can select a shipping location and add a Spring GDS shipping acc
 <Callout icon="🚧" theme="warn">
   ### _Important_
 
-  _Before setting up the account, [enable the label integration](https://docs.intersoftsapient.net/docs/integration-activation) for Spring GDS and [create a shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location)._
+  _Before setting up the account,&#x20;_[enable the label integration](https://docs.intersoftsapient.net/docs/integration-activation)_&#x20;for Spring GDS and&#x20;_[create a shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location)_._
 </Callout>
 
 ## How to add a Spring GDS shipping account
@@ -135,11 +135,7 @@ In SAPIENT, you can select a shipping location and add a Spring GDS shipping acc
   </Tab>
 
   <Tab title="Via API">
-    <Callout icon="📘" theme="info">
-      ### _Note_
 
-      _This guide does not include a verified Spring GDS Add Account API endpoint. Do not use an InPost or UPS endpoint to create a Spring GDS account._
-    </Callout>
   </Tab>
 </Tabs>
 
