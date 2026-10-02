@@ -6,12 +6,13 @@ excerpt: >-
 deprecated: false
 hidden: false
 icon: fad fa-file-circle-minus
+link:
+  new_tab: false
 metadata:
   title: ''
   description: ''
   robots: index
-next:
-  description: ''
+table_of_contents: false
 ---
 <Callout icon="❗️" theme="error">
   ### _If the webhook is suspended, it loses all its tracking data. For example, if a customer reactivates the webhook after one week, they lose one week of the tracking data. Therefore, if you do not want to lose any tracking data, then make sure to activate it promptly._
