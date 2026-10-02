@@ -106,3 +106,6 @@ To add a tracking account for Spring GDS in SAPIENT, follow these steps.
     Understand tracking events and milestone data.
   </Card>
 </Cards>
+
+
+<Image src="https://files.readme.io/5a05049219932ce2eca5d134641828d27a97f321e20c6b9678f7f3714c8852b5-image.png" align="center" caption="Entering carrier details" border={true} />
