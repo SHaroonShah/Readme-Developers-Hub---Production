@@ -23,3 +23,19 @@ With this solution you can:&#x20;
 - Manifest processing: Receive notifications when a manifest request has been successfully processed and manifests have been created.
 - Monitor status: Track the progress of asynchronous manifest requests without polling the status endpoint.
 - Mange high-volume operations: Efficiently manage large manifest batches that require background processing.
+
+<Callout icon="🚧" theme="warn">
+  ### _Important_
+
+  _Before configuring a Manifest Webhook, ensure that a webhook endpoint has been created and authenticated within SAPIENT. Once enabled, manifest status notifications will be delivered automatically whenever a manifest request status changes._
+</Callout>
+
+## Workflow
+
+After submitting the request to the **Manifest Shipments Async** endpoint, the system processes the request as follows:
+
+1. Receives the manifest request and assigns a unique **manifestRequestId**.
+2. Processes the request asynchronously in the background.
+3. Updates the manifest request status throughout processing.
+4. Sends a webhook notification when the status changes or processing completes.
+5. The receiving application can use the **manifestRequestId** to retrieve detailed manifest information through the **Get Manifest Request Status** endpoint if required.
