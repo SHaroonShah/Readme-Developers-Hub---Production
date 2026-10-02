@@ -383,17 +383,17 @@ The following section displays a comprehensive structure of the milestones, even
    <tr>
                   <td>CDNO</td>
   <td>Delivery Notification Sent to Recipient</td>
-                  <td>Collection was not attempted.</td>
+                  <td>A delivery notification has been sent to the recipient.</td>
                   </tr>
    <tr>
                   <td>COMM</td>
   <td>Recipient Communication</td>
-                  <td>Collection was not attempted.</td>
+                  <td>Shipment-related communication has been sent to the recipient.</td>
                   </tr>
    <tr>
                   <td>CSNO</td>
   <td>Sender Communication</td>
-                  <td>Collection was not attempted.</td>
+                  <td>Shipment-related communication has been sent to the sender.</td>
                   </tr>
                   </table>
   `}</HTMLBlock>
