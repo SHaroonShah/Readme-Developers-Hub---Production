@@ -289,7 +289,7 @@ The following section displays a comprehensive structure of the milestones, even
                   <td> The shipment is being held or retained by the carrier temporarily.</td>
                   </tr>
                   <tr>
-                  <td rowspan="18"><strong>N/A</strong></td>
+                  <td rowspan="21"><strong>N/A</strong></td>
                   <td rowspan="18">Null</td>
                   <td>ICLR</td>
   <td>Shipment Customs Cleared</td>
@@ -378,6 +378,21 @@ The following section displays a comprehensive structure of the milestones, even
            <tr>
                   <td>CNAT</td>
   <td>Collection Not Attempted</td>
+                  <td>Collection was not attempted.</td>
+                  </tr>
+   <tr>
+                  <td>CDNO</td>
+  <td>Delivery Notification Sent to Recipient</td>
+                  <td>Collection was not attempted.</td>
+                  </tr>
+   <tr>
+                  <td>COMM</td>
+  <td>Recipient Communication</td>
+                  <td>Collection was not attempted.</td>
+                  </tr>
+   <tr>
+                  <td>CSNO</td>
+  <td>Sender Communication</td>
                   <td>Collection was not attempted.</td>
                   </tr>
                   </table>
