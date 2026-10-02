@@ -43,15 +43,15 @@ After submitting the request to the **Manifest Shipments Async** endpoint, the s
 ## Getting started
 
 <Cards columns="3">
-  <Card title="Set Up Manifest Webhook Connection" href="https://docs.intersoftsapient.net/docs/set-up-shipments-webhook" icon="fa-solid fa-code-pull-request" target="_blank">
-    Automate the instantaneous flow of information regarding your shipments.
+  <Card title="Set Up Manifest Webhook Connection" href="https://docs.intersoftsapient.net/docs/manifest-webhook" icon="fa-solid fa-code-pull-request" target="_blank">
+    Configure and receive notifications when asynchronous manifest processing completes
   </Card>
 
   <Card title="Handle Webhook Suspension" href="https://docs.intersoftsapient.net/docs/webhook-suspension" icon="fa-solid fa-dial-max" target="_blank">
     Review webhook suspension behaviour and restore delivery.
   </Card>
 
-  <Card title="Manifest Shipments Async" href="https://docs.intersoftsapient.net/reference/post_v4-shipments-async-rm" icon="fad fa-square-plus" target="_blank">
+  <Card title="Manifest Shipments Async" href="https://docs.intersoftsapient.net/reference/post_v4-manifests-async-carriercode" icon="fad fa-square-plus" target="_blank">
     Manifest a shipment request using this endpoint for asynchronous processing.
   </Card>
 </Cards>
