@@ -165,7 +165,11 @@ In SAPIENT, you can select a shipping location and add a Spring GDS shipping acc
   </Tab>
 
   <Tab title="Via API">
-
+    <Cards columns="2">
+      <Card title="Add Account" icon="fa-code" target="_blank">
+        Add and manage Spring GDS shipping account via API.
+      </Card>
+    </Cards>
   </Tab>
 </Tabs>
 
