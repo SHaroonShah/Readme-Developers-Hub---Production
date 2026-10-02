@@ -135,9 +135,8 @@ In SAPIENT, you can select a shipping location and add a Spring GDS shipping acc
       <br />
 
       <ToggleListItem title="6. Save and add the shipping account">
-        After entering the required information, select the Add Shipping Account button.
+        After entering the required information, select ![](https://files.readme.io/4d8fd2c9a6fad152f41e65d82274b94a6d3a8978f69bb88fbe74ba2d54138fe8-add_shipping_account_button_2.png).
 
-        <Image align="center" src="https://files.readme.io/4d8fd2c9a6fad152f41e65d82274b94a6d3a8978f69bb88fbe74ba2d54138fe8-add_shipping_account_button_2.png" />
 
         The account is ready to use when it appears on the **Shipping Accounts** page.
       </ToggleListItem>
