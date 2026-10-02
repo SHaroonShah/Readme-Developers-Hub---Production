@@ -117,7 +117,9 @@ In SAPIENT, you can select a shipping location and add a Spring GDS shipping acc
       <ToggleListItem title="5. Enter carrier details">
         In the **CARRIER DETAILS** block, enter the credentials for your Spring GDS account.
 
-        <Image align="center" src="https://files.readme.io/3a5f6be5d0522b615c12181f01d628650d3ef6d3966de74d012fce372c78a302-carrier_details_block_InPost.png" width="400px" caption="Carrier details block (InPost example; use the fields shown for Spring GDS in SAPIENT)" />
+        
+    <Image src="https://files.readme.io/bacf7e7edb694a134045cb75a501ba8e3503d5f284f87f6a381f6272c768f6f3-image.png" align="center" caption="Entering carrier-specific details" border={true} />
+
 
         <br />
 
@@ -157,6 +159,3 @@ In SAPIENT, you can select a shipping location and add a Spring GDS shipping acc
     Update or modify an existing shipping account.
   </Card>
 </Cards>
-
-
-
