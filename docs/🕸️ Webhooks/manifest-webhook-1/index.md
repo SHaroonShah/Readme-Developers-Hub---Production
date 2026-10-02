@@ -12,17 +12,15 @@ link:
 metadata:
   robots: index
 ---
-Manifest webhook eliminates the need to repeatedly check the status endpoint and provide near real-time updates when a <Glossary>manifest</Glossary> is processed, improving efficiency when handling large volumes of shipments.
+Use the *Manifest Webhook* to receive near real-time updates when a <Glossary>manifest</Glossary> request changes status or finishes processing.
 
-Instead of polling the [Get Manifest Request](https://docs.intersoftsapient.net/reference/get_v4-manifests-manifeststatus-manifestrequestid) Status endpoint at regular intervals, the system sends a webhook notification to a configured endpoint whenever the status of the manifest request changes or processing is completed.
+The webhook sends notifications to your configured endpoint, so you do not need to poll the manifest request status endpoint. This is useful when large batches of shipments take time to process.
 
-This solution is particularly useful for customers processing large shipment volumes, where manifest generation may take time to complete. By using webhooks, integrations can react immediately when manifests are available, improving efficiency and reducing unnecessary API traffic.
+## Key benefits
 
-With this solution you can:&#x20;
-
-- Manifest processing: Receive notifications when a manifest request has been successfully processed and manifests have been created.
-- Monitor status: Track the progress of asynchronous manifest requests without polling the status endpoint.
-- Mange high-volume operations: Efficiently manage large manifest batches that require background processing.
+- Receive notifications when a manifest request has been processed and manifests have been created.
+- Monitor asynchronous manifest requests without repeatedly polling the status endpoint.
+- Manage large manifest batches while they process in the background.
 
 <Callout icon="🚧" theme="warn">
   ### _Important_
@@ -32,19 +30,24 @@ With this solution you can:&#x20;
 
 ## Workflow
 
-After submitting the request to the **Manifest Shipments Async** endpoint, the system processes the request as follows:
+After you submit a request to the **Manifest Shipments Async** endpoint, the system processes it as follows:
 
 1. Receives the manifest request and assigns a unique **manifestRequestId**.
 2. Processes the request asynchronously in the background.
-3. Updates the manifest request status throughout processing.
-4. Sends a webhook notification when the status changes or processing completes.
-5. The receiving application can use the **manifestRequestId** to retrieve detailed manifest information through the **Get Manifest Request Status** endpoint if required.
+3. Updates the manifest request status during processing.
+4. Sends a webhook notification when the status changes or processing finishes.
+
+## Optional: Check manifest status
+
+If you need more detail about a manifest request, use its **manifestRequestId** with the [Get Manifest Request Status](https://docs.intersoftsapient.net/reference/get_v4-manifests-manifeststatus-manifestrequestid) endpoint. You do not need to poll this endpoint to receive webhook updates.
+
+***
 
 ## Getting started
 
 <Cards columns="3">
   <Card title="Set Up Manifest Webhook Connection" href="https://docs.intersoftsapient.net/docs/manifest-webhook" icon="fa-solid fa-code-pull-request" target="_blank">
-    Configure and receive notifications when asynchronous manifest processing completes
+    Configure your endpoint to receive notifications about asynchronous manifest processing.
   </Card>
 
   <Card title="Handle Webhook Suspension" href="https://docs.intersoftsapient.net/docs/webhook-suspension" icon="fa-solid fa-dial-max" target="_blank">
