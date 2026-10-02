@@ -2,7 +2,9 @@
 title: Manifest Webhook
 deprecated: false
 hidden: false
-icon: fad fa-warehouse
+icon: fad fa-truck-ramp
+link:
+  new_tab: false
 metadata:
   robots: index
 ---
