@@ -124,12 +124,31 @@ In SAPIENT, you can select a shipping location and add a Spring GDS shipping acc
         <br />
 
         <AsteridkForMandatoryElements />
+     <Table align={["center","left"]}>
+          <thead>
+            <tr>
+              <th>
+                Element
+              </th>
 
-        <Callout icon="📘" theme="info">
-          ### _Note_
+              <th>
+                Description
+              </th>
+            </tr>
+          </thead>
 
-          _Spring GDS credential field names and account-number requirements have not been confirmed in this guide. Check the required fields displayed for Spring GDS in the form and obtain those credentials from your Spring GDS account contact. Do not use InPost credentials._
-        </Callout>
+          <tbody>
+            <tr>
+              <td>
+                **API Key**\*
+              </td>
+
+              <td>
+                Enter the API key for the user account associated with Spring GDS.
+              </td>
+            </tr>
+          </tbody>
+        </Table>
 
         ***
       </ToggleListItem>
