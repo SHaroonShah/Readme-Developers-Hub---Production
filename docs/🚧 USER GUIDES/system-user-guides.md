@@ -14,7 +14,7 @@ metadata:
 ---
 ## Quick access guides
 
-<Cards columns={3}>
+<Cards columns="3">
   <Card title="Authorisation" href="https://docs.intersoftsapient.net/v4.02/docs/authorisation#/versions" icon="fa-solid fa-badge-check">
     > Learn how to authenticate and authorise access to the SAPIENT system securely
   </Card>
@@ -30,7 +30,7 @@ metadata:
 
 ## Operations & processing
 
-<Cards columns={2}>
+<Cards columns="2">
   <Card title="Search Shipments" href="https://docs.intersoftsapient.net/v4.02/docs/shipment-search#/versions" icon="fa-solid fa-magnifying-glass">
     > Learn efficient methods to search and locate shipments within the system
   </Card>
@@ -64,4 +64,17 @@ metadata:
 </div>
 `}</HTMLBlock>
 
-<br />
+<HTMLBlock>{`
+<div style="position: relative; padding-top: 56.25%;">
+<video
+src="https://media.intersoftsapient.net/videos/Intersoft_Delivery_Journey.mp4"
+poster="https://files.readme.io/4a855d2c57ea1e9e170779a29f408316f569a4129f71fd2ade49b6c10acfd135-SAPIENT_dashboard.png"
+controls
+preload="metadata"
+playsinline
+style="position: absolute; top: 0; left: 15%; width: 85%; height: 85%;"
+>
+Sorry, your browser doesn’t support embedded videos.
+</video>
+</div>
+`}</HTMLBlock>
