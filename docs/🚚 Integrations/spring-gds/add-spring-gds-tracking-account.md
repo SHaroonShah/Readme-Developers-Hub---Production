@@ -1,5 +1,9 @@
 ---
 title: Add Spring GDS tracking account
+excerpt: >-
+  A _tracking account_ is a dedicated account that enables the monitoring and
+  logging of every possible real-time event related to a shipment throughout its
+  lifecycle which is received via the SAPIENT tracking webhook.
 deprecated: false
 hidden: true
 icon: fad fa-calendar-circle-plus
@@ -8,3 +12,97 @@ link:
 metadata:
   robots: index
 ---
+In SAPIENT, you can add tracking accounts for FedEx International Connect to enhance visibility, improving customer interactions, and streamlining logistics operations for FedEx International Connect.
+
+<Callout icon="🚧" theme="warn">
+  ### _Important_
+
+  _Prior to adding a FedEx International Connect tracking account, make sure you have completed the following prerequisites:_
+
+  1. _Enabled the&#x20;_[_label integration_](https://docs.intersoftsapient.net/docs/integration-activation)_&#x20;with FedEx International Connect._
+  2. _Enabled the&#x20;_[_tracking integration_](https://docs.intersoftsapient.net/docs/integration-activation)_&#x20;with FedEx International Connect._
+  3. _Set up your&#x20;_<Glossary>tracking webhook</Glossary>_. For more information on how to set up a tracking webhook, refer to the&#x20;_[_Create tracking webhook_](https://docs.intersoftsapient.net/docs/create-tracking-webhook)_&#x20;section. This is a one-time activity, you do not have to do this every time you add a tracking account._
+
+  _If you wish to receive the tracking events via Intersoft using the tracking account you have created, make sure it is is activated by the FedEx International Connect team._
+</Callout>
+
+## How to add FedEx International Connect tracking account
+
+To add a tracking account for FedEx International Connect in SAPIENT, follow the steps as explained in the following procedure.
+
+<ToggleList>
+  <ToggleListItem title={<strong>1. Access tracking accounts page</strong>} icon="fa-rocket">
+    <br />
+
+    On the SAPIENT **Home** page, in the left navigation panel, select **API** > **Webhooks**. In the page that opens, select the **Tracking Accounts** tab.
+
+    <Image align="center" border={true} src="https://files.readme.io/f53608e208015447ef8f7fd5f987b3ecf8415f81e2736ec01c552a9c41436479-Tracking_accounts_tab.png" caption="Accessing tracking accounts" />
+
+    ***
+  </ToggleListItem>
+
+  <br />
+
+  <ToggleListItem title={<strong>2. Select option to add new tracking account</strong>} icon="fa-rocket">
+    <br />
+
+    In the **Tracking Accounts** page that opens, select ![alt text](https://files.readme.io/139bbda69af885f0824e5d5070ea342a6fb0a8d348c754389edb7a4dcfff7da2-Add_tracking_account_button.png).
+
+    <Image align="center" border={true} src="https://files.readme.io/78c8641717e62040ab3526e6706d6a1f3259fe7c85b2d92281d861538afc0ab8-Add_tracking_account_option.png" caption="Accessing option to add tracking account" />
+
+    ***
+  </ToggleListItem>
+
+  <br />
+
+  <ToggleListItem title={<strong>3. Enter account details </strong>} icon="fa-rocket">
+    <br />
+
+    On the **Add Tracking account** page that appears, in the **DETAILS** block, enter the necessary information as explained in the following table.
+
+    <Image align="center" src="https://files.readme.io/816583c0d60131ab3e91abb8978903f5e8bc2e40ee4281444841dfc5dcc8db54-image.png" width="500px" />
+
+    <br />
+
+    <AsteridkForMandatoryElements />
+
+    |         Element        | Description                                                                                                      |
+    | :--------------------: | :--------------------------------------------------------------------------------------------------------------- |
+    |      **Carrier**\*     | From the dropdown menu, select **FIC - FedEx International Connect** as your carrier option.                     |
+    | **Shipping Account**\* | From the dropdown menu, select the <Glossary>shipping account</Glossary> for which you want to receive tracking. |
+
+    <br />
+
+    > 📘 *Note*
+    >
+    > *If you wish to track every FedEx International Connect account created in SAPIENT, then you must add a tracking account for each one of them.*
+
+    <br />
+
+    ***
+  </ToggleListItem>
+
+  <br />
+
+  <ToggleListItem title={<strong>4. Complete setup </strong>} icon="fa-rocket">
+    <br />
+
+    After entering all the necessary information, select ![alt text](https://files.readme.io/ed87f1de8d9350f6fed52ac5c3b52ce0e63e2e6358aebac01389e9081c7b12d9-Add_tracking_account_button_2.png).
+
+    Once done, the FedEx International Connect tracking account is added successfully and appears in the **Tracking Accounts** list. You can now receive the tracking information on your <Glossary>shipments</Glossary>.
+  </ToggleListItem>
+</ToggleList>
+
+***
+
+### See also
+
+<Cards columns="2">
+  <Card title="Set Up Tracking Webhook Connection" href="https://docs.intersoftsapient.net/v4.04/docs/create-tracking-webhook" icon="fa-solid fa-code-pull-request" target="_blank">
+    Automate the instantaneous flow of information regarding the status of shipments.
+  </Card>
+
+  <Card title="Track Events and Milestones" href="https://docs.intersoftsapient.net/docs/tracking-events-and-milestones" icon="fa-solid fa-chart-line-up" target="_blank">
+    Understand tracking events and milestone data.
+  </Card>
+</Cards>
