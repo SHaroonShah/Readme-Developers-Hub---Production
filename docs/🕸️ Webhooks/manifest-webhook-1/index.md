@@ -39,3 +39,19 @@ After submitting the request to the **Manifest Shipments Async** endpoint, the s
 3. Updates the manifest request status throughout processing.
 4. Sends a webhook notification when the status changes or processing completes.
 5. The receiving application can use the **manifestRequestId** to retrieve detailed manifest information through the **Get Manifest Request Status** endpoint if required.
+
+## Getting started
+
+<Cards columns="3">
+  <Card title="Set Up Manifest Webhook Connection" href="https://docs.intersoftsapient.net/docs/set-up-shipments-webhook" icon="fa-solid fa-code-pull-request" target="_blank">
+    Automate the instantaneous flow of information regarding your shipments.
+  </Card>
+
+  <Card title="Handle Webhook Suspension" href="https://docs.intersoftsapient.net/docs/webhook-suspension" icon="fa-solid fa-dial-max" target="_blank">
+    Review webhook suspension behaviour and restore delivery.
+  </Card>
+
+  <Card title="Manifest Shipments Async" href="https://docs.intersoftsapient.net/reference/post_v4-shipments-async-rm" icon="fad fa-square-plus" target="_blank">
+    Manifest a shipment request using this endpoint for asynchronous processing.
+  </Card>
+</Cards>
