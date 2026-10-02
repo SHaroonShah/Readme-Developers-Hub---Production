@@ -39,6 +39,8 @@ In SAPIENT, you can select a shipping location and add a Spring GDS shipping acc
       <ToggleListItem title="2. Select option to add shipping account">
         On the **Shipping Accounts** page, select ![](https://files.readme.io/e27a112101fea1d20bb870a5c570ce3cb3889d2c514dd5bc0920c2ea630f9943-add_shipping_account_button.png).
 
+        <Image align="center" src="https://files.readme.io/1f21da8d1e1c679c2ed31d67bfc7551e5c9477f2f22b16c279aed71ab9688809-Add_shipping_account_button_YODEL.png" caption="Selecting the option to add a shipping account (example carrier shown)" />
+
         ***
       </ToggleListItem>
 
@@ -46,6 +48,8 @@ In SAPIENT, you can select a shipping location and add a Spring GDS shipping acc
 
       <ToggleListItem title="3. Enter account details">
         On the **Add Shipping Account** form, in the **ACCOUNT DETAILS** block, enter the information in the following table.
+
+        <Image align="center" src="https://files.readme.io/8c5d5f5ff0cecf1feaa16ffc521a0feaf02bffc8c255c4ab9d967f4ad6bdf203-Account_details_block_Inpost.png" width="500px" caption="Account details block (InPost example; select Spring GDS instead)" />
 
         <br />
 
@@ -63,6 +67,8 @@ In SAPIENT, you can select a shipping location and add a Spring GDS shipping acc
 
       <ToggleListItem title="4. Enter shipping account details">
         In the **SHIPPING ACCOUNT** block, enter the information in the following table.
+
+        <Image align="center" src="https://files.readme.io/aab73fec0c0be8505e9adce3450d783ae7d9f8ed4c7a9c0b9198b4682fb89679-Shipping_account_block_INPOST.png" width="500px" caption="Shipping account block (InPost example; Spring GDS fields may differ)" />
 
         <br />
 
@@ -111,6 +117,8 @@ In SAPIENT, you can select a shipping location and add a Spring GDS shipping acc
       <ToggleListItem title="5. Enter carrier details">
         In the **CARRIER DETAILS** block, enter the credentials for your Spring GDS account.
 
+        <Image align="center" src="https://files.readme.io/3a5f6be5d0522b615c12181f01d628650d3ef6d3966de74d012fce372c78a302-carrier_details_block_InPost.png" width="400px" caption="Carrier details block (InPost example; use the fields shown for Spring GDS in SAPIENT)" />
+
         <br />
 
         <AsteridkForMandatoryElements />
@@ -127,7 +135,9 @@ In SAPIENT, you can select a shipping location and add a Spring GDS shipping acc
       <br />
 
       <ToggleListItem title="6. Save and add the shipping account">
-        After entering the required information, select ![](https://files.readme.io/4d8fd2c9a6fad152f41e65d82274b94a6d3a8978f69bb88fbe74ba2d54138fe8-add_shipping_account_button_2.png).
+        After entering the required information, select the Add Shipping Account button.
+
+        <Image align="center" src="https://files.readme.io/4d8fd2c9a6fad152f41e65d82274b94a6d3a8978f69bb88fbe74ba2d54138fe8-add_shipping_account_button_2.png" caption="Adding the shipping account" />
 
         The account is ready to use when it appears on the **Shipping Accounts** page.
       </ToggleListItem>
