@@ -60,7 +60,7 @@ To add a tracking account for Spring GDS in SAPIENT, follow these steps.
 
     On the **Add Tracking account** page that appears, in the **DETAILS** block, enter the necessary information as explained in the following table.
 
-    <Image align="center" src="https://files.readme.io/816583c0d60131ab3e91abb8978903f5e8bc2e40ee4281444841dfc5dcc8db54-image.png" width="500px" />
+    <Image src="https://files.readme.io/5a05049219932ce2eca5d134641828d27a97f321e20c6b9678f7f3714c8852b5-image.png" align="center" caption="Entering tracking account details" border={true} />
 
     <br />
 
@@ -108,4 +108,4 @@ To add a tracking account for Spring GDS in SAPIENT, follow these steps.
 </Cards>
 
 
-<Image src="https://files.readme.io/5a05049219932ce2eca5d134641828d27a97f321e20c6b9678f7f3714c8852b5-image.png" align="center" caption="Entering carrier details" border={true} />
+
