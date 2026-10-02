@@ -76,15 +76,15 @@ Spring GDS supports outbound international shipments from Great Britain and the 
   <Tab title="Carrier Services">
     The following key services are provided by the Spring GDS integration.
 
-    | Service name        | Description                                                                                                                    |
-    | :------------------ | :----------------------------------------------------------------------------------------------------------------------------- |
-    | **Tracked**         | Creates a shipment with Spring GDS as the primary carrier and returns the label in Base64-encoded format.                      |
-    | **Signatured**      | Provides tracking updates through the SAPIENT tracking webhook.                                                                |
-    | **Signatured Plus** |                                                                                                                                |
-    | **Untracked**       | Retrieves information about manifests created by the system and confirms when shipments have been manifested with the carrier. |
-    | **Tracked Plus**    |                                                                                                                                |
-    | **Small / Boxable** |                                                                                                                                |
-    | **Express**         |                                                                                                                                |
+    | Service name        | Description                                                                                                                                                       |
+    | :------------------ | :---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+    | **Tracked**         | This service provides end-to-end shipment tracking, allowing senders and recipients to monitor parcel progress from dispatch to delivery.                         |
+    | **Signatured**      | This service provides end-to-end tracking and requires the recipient to sign for the parcel upon delivery as proof of receipt.                                    |
+    | **Signatured Plus** | This service provides end-to-end tracking, recipient signature confirmation, and enhanced delivery assurance for shipments requiring additional proof of receipt. |
+    | **Untracked**       | This service provides a cost-effective delivery option for low-value shipments without tracking updates or delivery confirmation.                                 |
+    | **Tracked Plus**    | This service provides end-to-end shipment tracking with additional delivery visibility and confirmation compared to standard tracked services.                    |
+    | **Small / Boxable** | his service provides delivery for small parcels and boxable items that meet the carrier's size and packaging requirements.                                        |
+    | **Express**         | This service provides expedited international delivery for time-sensitive shipments with faster transit times than standard services                              |
 
     <Callout icon="💡" theme="default">
       ### _Tip_
