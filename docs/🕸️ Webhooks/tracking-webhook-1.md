@@ -35,11 +35,11 @@ Choose the guide that matches the webhook task you want to complete:
   </Card>
 
   <Card title="Set Up Manifest Webhook Connection" href="https://docs.intersoftsapient.net/docs/manifest-webhook" icon="fa-solid fa-webhook" target="_blank">
-    Receive notifications when asynchronous manifest processing completes.
+    Configure and receive notifications when asynchronous manifest processing completes.
   </Card>
 
   <Card title="Set up Shipment Webhook Connection" href="https://docs.intersoftsapient.net/docs/set-up-shipments-webhook" icon="fad fa-pallet-boxes" target="_blank">
-    Create a shipment request using this endpoint for asynchronous processing.
+    Configure the shipment webhook and use this to create a shipment for asynchronous processing.
   </Card>
 
   <Card title="Handle Webhook Suspension" href="https://docs.intersoftsapient.net/docs/webhook-suspension" icon="fa-solid fa-dial-max" target="_blank">
