@@ -1,0 +1,17 @@
+---
+title: DTP shipment validation
+author: Syed Haroon Shah
+hidden: true
+published_at: '2026-10-05T16:00:45.033Z'
+---
+A new <Glossary>DTP</Glossary>-specific validation has been added for Royal Mail international export shipments. This enhancement enables DTP shipments to be validated against dedicated rules, helping ensure the correct services, destinations, and shipment information are used. This change improves validation accuracy and supports Royal Mail's evolving requirements for commercial export services.
+
+The DTP value can be specified in the **Create Shipment** > **CarrierSpecifics** > **TermsOfDelivery** field.
+
+<Callout icon="🚧" theme="warn">
+  ### _Important_
+
+  _Populate the&#x20;_**_TermsOfDelivery_**_&#x20;field with&#x20;_**_DTP_**_&#x20;only when the&#x20;_**_Incoterms_**_&#x20;field is set to&#x20;_<Glossary>DDP</Glossary>_. Otherwise, the shipment will fail validation and return an error.&#x20;_
+
+  > _For more information, refer to the Royal Mail&#x20;_<Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/post_v4-shipments-rm">_Create Shipment_</Anchor>_&#x20;endpoint._
+</Callout>
