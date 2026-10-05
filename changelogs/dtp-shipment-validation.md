@@ -11,5 +11,5 @@ The DTP value can be specified in the **Create Shipment** > **CarrierSpecifics**
 <Callout icon="🚧" theme="warn">
   ### _Important_
 
-  _Populate the&#x20;_**_TermsOfDelivery_**_&#x20;field to&#x20;_**_DTP_**_&#x20;only when the&#x20;_**_Incoterms_**_&#x20;field is set to&#x20;_<Glossary>DDP</Glossary>_. For more information, refer to the Royal Mail&#x20;_[_Create Shipment_](https://docs.proshipping.net/reference/post_v4-shipments-rm)_&#x20;endpoint._
+  _Populate the&#x20;_**_TermsOfDelivery_**_&#x20;field to&#x20;_**_DTP_**_&#x20;only when the&#x20;_**_Incoterms_**_&#x20;field is set to&#x20;_<Glossary>DDP</Glossary>_. For more information, refer to the Royal Mail&#x20;_<Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/post_v4-shipments-rm">_Create Shipment_</Anchor>_&#x20;endpoint._
 </Callout>
