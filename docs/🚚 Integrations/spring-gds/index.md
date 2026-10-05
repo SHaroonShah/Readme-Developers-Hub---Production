@@ -12,7 +12,7 @@ link:
 metadata:
   robots: index
 ---
-Spring GDS supports outbound international shipments from Great Britain and the European Union, with services determined by your enabled shipping account and carrier service matrix.
+The integration of Spring GDS into the SAPIENT platform is a significant step in enhancing shipping capabilities. This section discusses the in-scope features of this integration and the services this carrier offers.
 
 <Tabs>
   <Tab title="Key Features">
