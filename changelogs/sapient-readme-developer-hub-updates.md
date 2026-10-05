@@ -9,11 +9,15 @@ A new AI-powered tool, Ask AI has been added to the SAPIENT Readme Developer Hub
 <HTMLBlock>{`
 <div style="position: relative; padding-top: 56.25%;">
   <Image
-    src="https://files.readme.io/3cb2f379528ab68d724520634844555633c7d4e921b434c0a987e51814442a95-GIF.gif"
+    src="https://
+`}</HTMLBlock>
+
+<HTMLBlock>{`
+files.readme.io/3cb2f379528ab68d724520634844555633c7d4e921b434c0a987e51814442a95-GIF.gif"
     controls
     preload="metadata"
     playsinline
-    style="position: absolute; top: 0; left: 15%; width: 85%; height: 85%;"
+    style="position: absolute; top: 0; left: 0%; width: 85%; height: 85%;"
   >
     Sorry, your browser doesn’t support embedded videos.
   </Image>
