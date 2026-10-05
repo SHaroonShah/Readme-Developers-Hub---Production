@@ -4,7 +4,7 @@ author: Syed Haroon Shah
 hidden: true
 published_at: '2026-10-05T14:33:49.594Z'
 ---
-The Starlinks Global integration has been added to the SAPIENT system. This integration supports shipping from Great Britain (GB), Unites States of America (USA), Australia, and United Arab Emirates (UAE), and to Unites States of America (USA), Australia, United Arab Emirates (UAE), and ROW (Rest of the World) destinations. With this addition, the following information has been added to the swagger documentation:
+The Starlinks Global integration has been added to the SAPIENT system. This integration supports outbound international shipments from Great Britain (GB) and European Union (EU) and to GB domestically ,EU, and ROW (Rest of the World) destinations. With this addition, the following information has been added to the swagger documentation:
 
 **New API endpoints**. A new **Starlinks Global** block has been added to our carrier-specific APIs. This block includes the following API endpoints:
 
