@@ -17,7 +17,7 @@ files.readme.io/3cb2f379528ab68d724520634844555633c7d4e921b434c0a987e51814442a95
     controls
     preload="metadata"
     playsinline
-    style="position: absolute; top: 0; left: 0%; width: 85%; height: 85%;"
+    style="position: absolute; top: 0; left: 25%; width: 85%; height: 85%;"
   >
     Sorry, your browser doesn’t support embedded videos.
   </Image>
