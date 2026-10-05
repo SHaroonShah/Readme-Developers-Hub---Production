@@ -26,7 +26,7 @@ The DPD Ireland integration has been added to the SAPIENT system. This integrati
 <Callout icon="📘" theme="info">
   ### _Note_
 
-  _For more information on this integration, refer to the DPD Ireland user guides._
+  _For more information on this integration, refer to the&#x20;_<Anchor target="_blank" href="https://docs.intersoftsapient.net/docs/spring-gds">_Spring GDS_</Anchor>_&#x20;user guides._
 </Callout>
 
 <br />
