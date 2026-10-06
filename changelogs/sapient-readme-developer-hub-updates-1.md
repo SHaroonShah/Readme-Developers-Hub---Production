@@ -1,7 +1,7 @@
 ---
 title: SAPIENT Readme Developer Hub updates
 author: Syed Haroon Shah
-hidden: true
+hidden: false
 published_at: '2026-10-06T09:32:57.473Z'
 type: added
 ---
