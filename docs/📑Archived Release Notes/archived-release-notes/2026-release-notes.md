@@ -8,9 +8,42 @@ metadata:
   robots: index
 ---
 <Accordion title="SAPIENT release notes - September 22, 2026">
-  <Accordion title="" icon="fa-info-circle">
+  # An Post customs validation and incoterm updates
 
-  </Accordion>
+  The following enhancements have been made to the An Post integration on SAPIENT:&#x20;
+
+  - ### **An Post Incoterm updates&#x20;**
+    Shipment validation has been enhanced within SAPIENT to support Delivery Duty Paid (<Glossary>DDP</Glossary>) shipments for the An Post integration. Customers can now enter DDP as the incoterm and successfully create shipments without validation errors.
+  - ### **Enhanced customs validation**
+
+    To support updated An Post shipping requirements, SAPIENT now applies additional customs validation checks for shipments destined to the United States (US) and Puerto Rico (PR), reducing any risks of customs delay, rejections, and processing issues.&#x20;
+
+    <Callout icon="📘" theme="info">
+      ### _Note_
+
+      _Please note that An Post shipments to all other destinations are unaffected, and existing behaviour remains unchanged._
+    </Callout>
+
+# Swagger updates
+
+The following enhancements have been made to the swagger documentattion:&#x20;
+
+- **Evri API.** The query and response field descriptions for the following Evri endpoints have been updated to improve clarity and help ensure correct API implementation and usage.
+  - - **Shipping Account**
+      - **Get Accounts**
+      - **Add Account**
+      - **Get Account**
+      - **Update Account**
+      - **Link Locations**
+      - **Get Associated Locations**
+      - **Get Associated Location**
+
+    - **Shipments**
+      - **Create Shipment**
+      - **Print Label**
+      - **Print My Label QR Code**
+- **Royal Mail API.&#x20;**&#x54;he query and response field descriptions for all the Royal Mail **Link Locations** API endpoint have been updated to improve clarity and help ensure correct API implementation and usage.
+
 </Accordion>
 
 <Accordion title="SAPIENT release notes - August 31, 2026">
