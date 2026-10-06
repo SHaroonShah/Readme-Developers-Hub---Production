@@ -3,6 +3,7 @@ title: DTP shipment validation
 author: Syed Haroon Shah
 hidden: true
 published_at: '2026-10-06T09:33:34.306Z'
+type: added
 ---
 A new <Glossary>DTP</Glossary>-specific validation has been added for Royal Mail international export shipments. This enhancement enables DTP shipments to be validated against dedicated rules, helping ensure the correct services, destinations, and shipment information are used. This change improves validation accuracy and supports Royal Mail's evolving requirements for commercial export services.
 
