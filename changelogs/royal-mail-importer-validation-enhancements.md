@@ -3,6 +3,7 @@ title: Royal Mail Importer validation enhancements
 author: Syed Haroon Shah
 hidden: true
 published_at: '2026-10-06T09:45:16.272Z'
+type: improved
 ---
 The importer validation rules for Royal Mail international shipments has been updated to provide greater flexibility when supplying importer details:&#x20;
 
