@@ -1,7 +1,7 @@
 ---
 title: Royal Mail export validation updates
 author: Syed Haroon Shah
-hidden: true
+hidden: false
 published_at: '2026-10-06T09:34:04.502Z'
 type: improved
 ---
