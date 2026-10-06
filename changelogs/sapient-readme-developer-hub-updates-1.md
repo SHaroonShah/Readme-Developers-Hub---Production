@@ -9,3 +9,14 @@ A new AI-powered tool, Ask AI has been added to the SAPIENT Readme Developer Hub
 
 
 <Image src="https://files.readme.io/3cb2f379528ab68d724520634844555633c7d4e921b434c0a987e51814442a95-GIF.gif" align="center" border={true} />
+
+
+***
+
+### See also
+
+ <Cards>
+<Card title="Archived Release Notes" href="https://docs.intersoftsapient.net/v4.04/docs/archived-release-notes#/versions" icon="fa-solid fa-box-archive" target="_blank">
+        Historical information about previous system updates and changes.
+      </Card>
+ </Cards>
