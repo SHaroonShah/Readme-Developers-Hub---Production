@@ -7,6 +7,12 @@ icon: fad fa-notes
 metadata:
   robots: index
 ---
+<Accordion title="SAPIENT release notes - September 22, 2026">
+  <Accordion title="" icon="fa-info-circle">
+
+  </Accordion>
+</Accordion>
+
 <Accordion title="SAPIENT release notes - August 31, 2026">
   # Shipment Webhook and Asynchoronous Shipment
 
