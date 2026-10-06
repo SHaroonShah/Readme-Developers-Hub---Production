@@ -3,6 +3,7 @@ title: New integration - Spring GDS
 author: Syed Haroon Shah
 hidden: true
 published_at: '2026-10-06T09:59:34.060Z'
+type: added
 ---
 The Spring GDS integration has been added to the SAPIENT system. This integration supports shipping domestically within UK, to EU, and Rest of World (ROW) destinations. With this addition, the following information has been added to the swagger documentation:
 
