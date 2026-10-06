@@ -1,7 +1,7 @@
 ---
 title: New integration - Spring GDS
 author: Syed Haroon Shah
-hidden: true
+hidden: false
 published_at: '2026-10-06T09:59:34.060Z'
 type: added
 ---
