@@ -306,7 +306,7 @@ The following section displays a comprehensive structure of the milestones, even
                   <td>The shipment is ready for recipient collection from the carrier facility.</td>
                   <tr>
                   <td>INVD</td>
-  <td>Invalid</td>
+  <td>Invalid Tracking Number</td>
                   <td>The provided tracking number is invalid or not recognised by the carrier.</td>
                   </tr>
                   <tr>
