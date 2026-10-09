@@ -45,3 +45,11 @@ flowchart TD
     class B,F,L decision;
     class N review;
 ```
+
+<Callout icon="far fa-circle-info" theme="info">
+  ### _Note_
+
+  _When the same action applies to multiple shipments, include the eligible shipment identifiers in a single supported status update operation instead of calling the endpoint separately for every shipment._
+
+  _Review the response to confirm the outcome for each shipment._
+</Callout>
