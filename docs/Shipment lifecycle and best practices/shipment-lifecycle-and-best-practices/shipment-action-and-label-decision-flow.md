@@ -64,5 +64,5 @@ flowchart TD
 <Callout icon="🚧" theme="warning">
   ### _Important_
 
-  When **Action** is **Process**, use the label from the Create Shipment response. Do not call **Print Label** for the same shipment. Call **Print Label** when you used **Create** or **Allocate**.
+  _When&#x20;_**_Action_**_&#x20;is&#x20;_**_Process_**_, use the label from the Create Shipment response. Do not call&#x20;_**_Print Label_**_&#x20;for the same shipment. Call&#x20;_**_Print Label_**_&#x20;when you used&#x20;_**_Create_**_&#x20;or&#x20;_**_Allocate_**_._
 </Callout>
