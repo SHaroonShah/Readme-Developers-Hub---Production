@@ -11,17 +11,31 @@ icon: fad fa-truck-fast
 metadata:
   robots: index
 ---
-A shipment can move through several stages between creation and manifesting, depending on how it was created and whether any additional processing actions are required. Understanding this lifecycle helps you use the correct APIs at the appropriate time, reduce unnecessary API calls, and ensure shipments are processed efficiently.
+Follow the recommended SAPIENT shipment workflow from authentication and shipment creation through label generation, status management and manifesting.
 
-This guide explains the recommended SAPIENT shipment workflow, from creating a shipment and handling labels through to manifesting and carrier handover. It also covers common shipment management actions, including holding, releasing, cancelling, and recalling shipments, and highlights best practices to help you avoid common implementation mistakes.
+The action you select when creating a shipment determines how it is processed and whether you need further application programming interface (API) calls before manifesting. Use the guides below to choose an action, determine when to use the Print Label API, manage shipments and prepare them for carrier handover.
 
-Follow the recommended SAPIENT shipment lifecycle from shipment creation through label generation and manifesting. These guides explain when to use each shipment action, when the Print Label endpoint is required, and how to cancel, recall, hold or release one or multiple shipments efficiently.
+## Getting started
 
-Use this guide to:
+Start with authentication, then follow the shipment workflow in order. You can also open a specific guide when you need to manage a shipment or check whether it is ready to manifest.
 
-- Understand the complete shipment lifecycle in SAPIENT.
-- Choose the most appropriate shipment creation action (Process, Allocate, or Create).
-- Determine when the Print Label API is required and when it is not.
-- Manage shipment statuses throughout the processing workflow.
-- Process multiple shipments more efficiently where supported.
-- Ensure shipments are ready for manifesting and carrier collection.
+<Cards>
+  <Card title="Authentication best practices" href="/docs/authentication-best-practices" icon="key">
+    Obtain a bearer token and use it to authenticate your API requests.
+  </Card>
+  <Card title="Shipment lifecycle" href="/docs/shipment-lifecycle" icon="route">
+    Follow the stages from shipment creation to manifesting and carrier handover.
+  </Card>
+  <Card title="Shipment action and label decision flow" href="/docs/shipment-action-and-label-decision-flow" icon="tags">
+    Choose a shipment action and determine when you need the Print Label API.
+  </Card>
+  <Card title="Manage shipment status flow" href="/docs/manage-shipment-status-flow" icon="arrows-rotate">
+    Find the guidance for managing shipment statuses during processing.
+  </Card>
+  <Card title="Bulk status update flow" href="/docs/bulk-status-update-flow" icon="layer-group">
+    Find the guidance for updating statuses across multiple shipments.
+  </Card>
+  <Card title="Manifest readiness flow" href="/docs/manifest-readiness-flow" icon="clipboard-check">
+    Check the steps to take before manifesting shipments.
+  </Card>
+</Cards>
