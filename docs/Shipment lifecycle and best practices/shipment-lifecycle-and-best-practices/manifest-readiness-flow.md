@@ -6,19 +6,47 @@ icon: fad fa-truck-fast
 metadata:
   robots: index
 ---
-Before a shipment can be manifested, it must meet the required criteria for the selected manifesting method. Depending on how the shipment was created and processed, certain actions may need to be completed first, such as generating labels, releasing held shipments, or resolving shipment status issues.
+Check whether a labelled shipment is eligible for manifesting, then choose how to submit it for carrier handover.
 
-Understanding what makes a shipment eligible for manifesting helps prevent failed manifest requests and ensures shipments are included in the correct manifest. This is particularly important when working with different creation actions, shipment statuses, containers, or asynchronous manifesting processes.
+## Check shipment readiness
 
-<Callout icon="🚧" theme="warn">
-  ### _Important_
+Use the shipment's current state to decide what to do next:
 
-  _Shipments may be manifested by container, Picked status, shipping location, shipping account or service code. If no manifest parameters are supplied, shipments in LabelPrinted or Picked status are manifested, excluding future-dated shipments and those assigned to a container._
+| Shipment state | Next step |
+| :--- | :--- |
+| **LabelPrinted** or **Picked** | You can proceed to a manifesting method. |
+| **Held** | Release the shipment before manifesting. |
+| **Cancelled** | Do not include the shipment in a manifest. |
+| **Future-dated** | Wait until the shipment is eligible. |
 
-  _For asynchronous manifesting, the manifest webhook must be configured before using that workflow\._
+If the shipment does not have a label, generate one before following the readiness flow.
+
+## Choose a manifesting method
+
+Choose the path that matches how you want to select and submit shipments:
+
+<Cards>
+  <Card title="Manifest by Picked status" href="/docs/manifest-shipments-by-picked-status" icon="fa-check-circle">
+    Select shipments with **Picked** status.
+  </Card>
+  <Card title="Manifest in a container" href="/docs/manifest-shipments-in-a-container" icon="fa-box">
+    Manifest shipments assigned to a container.
+  </Card>
+  <Card title="Manifest asynchronously" href="/docs/manifest-shipments-asychronously" icon="fa-clock">
+    Submit an asynchronous request and receive completion through the configured manifest webhook.
+  </Card>
+  <Card title="Manifest through the SAPIENT UI" href="/docs/manifesting-shipments" icon="fa-desktop">
+    Use the user interface (UI) to manifest shipments.
+  </Card>
+</Cards>
+
+<Callout icon="🚧" theme="warning">
+  You can manifest by container, **Picked** status, shipping location, shipping account or service code. If you supply no manifest parameters, shipments in **LabelPrinted** or **Picked** status are manifested, excluding future-dated shipments and those assigned to a container. Configure the manifest webhook before using asynchronous manifesting.
 </Callout>
 
-The following workflow illustrates the key checks and decision points that determine whether a shipment is ready for manifesting and the available paths for submitting shipments to the carrier.
+## Follow the readiness flow
+
+Use the diagram to trace a shipment from its current state through manifesting and carrier handover.
 
 ```mermaid
 flowchart TD
