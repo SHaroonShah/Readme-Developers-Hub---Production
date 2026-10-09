@@ -6,11 +6,32 @@ icon: fad fa-truck-fast
 metadata:
   robots: index
 ---
-When the same action needs to be applied to multiple shipments, processing them individually can increase the number of API requests and add unnecessary complexity to your workflow. Where supported, SAPIENT allows you to update multiple shipments in a single operation, making shipment management more efficient and reducing processing time.
+Choose whether to submit one shipment identifier or a supported bulk status update request, then check the result for each shipment.
 
-This approach is particularly useful when large groups of shipments need to be cancelled, held, released, or otherwise updated as part of the same business process. Instead of performing the same action repeatedly for each shipment, you can submit a single request containing all applicable shipment identifiers and review the outcome for each shipment in the response.
+## Choose your request
 
-The following workflow demonstrates how to determine when a bulk status update should be used and outlines the recommended process for updating multiple shipments efficiently.
+Use the number of shipments requiring the same status change to select a path:
+
+<Columns layout="auto">
+  <Column>
+
+### One shipment
+
+Submit one shipment identifier for the required action.
+
+  </Column>
+  <Column>
+
+### Multiple shipments
+
+Collect the eligible shipment identifiers and submit them in one supported bulk status update request for the same action.
+
+  </Column>
+</Columns>
+
+## Follow the status update flow
+
+The diagram shows the available action paths—cancel, hold, release and the supported recall process—and how to review their results.
 
 ```mermaid
 flowchart TD
@@ -46,10 +67,12 @@ flowchart TD
     class N review;
 ```
 
+## Review the results
+
+1. Check the response for the outcome of each shipment identifier.
+2. If any update was unsuccessful, review the affected shipment and any carrier-specific conditions before continuing the workflow.
+3. Continue the workflow when there are no unsuccessful updates.
+
 <Callout icon="far fa-circle-info" theme="info">
-  ### _Note_
-
-  _When the same action applies to multiple shipments, include the eligible shipment identifiers in a single supported status update operation instead of calling the endpoint separately for every shipment._
-
-  _Review the response to confirm the outcome for each shipment._
+  Use a bulk status update only where the operation supports multiple shipments.
 </Callout>
