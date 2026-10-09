@@ -69,3 +69,9 @@ Use the following workflow to understand how shipments move through SAPIENT, ide
       class M,R exception;
   ```
 </Accordion>
+
+<Callout icon="🚧" theme="warn">
+  ### _Important_
+
+  _When Action is set to&#x20;_**_Process_**_, the shipment label is returned in the successful Create Shipment response. Do not call the&#x20;_**_Print Label_**_&#x20;endpoint afterwards. Use the Print Label endpoint when the shipment was created using&#x20;_**_Create_**_&#x20;or&#x20;_**_Allocate&#x20;_**_actions, as the label is not returned in the Create Shipment response._
+</Callout>
