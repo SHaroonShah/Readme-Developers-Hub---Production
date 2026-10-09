@@ -17,7 +17,7 @@ Use this workflow to choose a shipment creation action, identify when to generat
 
 The **Action** you select determines what the Create Shipment response returns. Open the guide for your chosen action for more detail.
 
-<Cards>
+<Cards columns="3">
   <Card title="Process" href="/docs/create-shipment-with-action-process" icon="fa-check-circle">
     Returns a tracking number and label. You do not need to call Print Label.
   </Card>
