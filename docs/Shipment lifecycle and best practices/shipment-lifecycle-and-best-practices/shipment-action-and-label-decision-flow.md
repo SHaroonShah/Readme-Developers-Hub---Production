@@ -40,3 +40,11 @@ flowchart TD
     class A,G,H,I,J endpoint;
     class B warning;
 ```
+
+<Callout icon="🚧" theme="warn">
+  ### _Important_
+
+  _If&#x20;_**_Action_**_&#x20;is set to&#x20;_**_Process_**_, use the label returned in the Create Shipment response. Do not call the&#x20;_**_Print Label_**_&#x20;endpoint for the same shipment._
+
+  _Call the Print Label endpoint when the shipment was created using&#x20;_**_Create_**_&#x20;or&#x20;_**_Allocate_**_&#x20;actions._
+</Callout>
