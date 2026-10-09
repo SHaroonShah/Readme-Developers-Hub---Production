@@ -21,9 +21,11 @@ The **Action** you select determines what the Create Shipment response returns. 
   <Card title="Process" href="/docs/create-shipment-with-action-process" icon="fa-check-circle">
     Returns a tracking number and label. You do not need to call Print Label.
   </Card>
+
   <Card title="Allocate" href="/docs/create-shipments-with-action-allocate" icon="fa-barcode">
     Returns a tracking number without a label. Call Print Label to generate the label.
   </Card>
+
   <Card title="Create" href="/docs/create-shipments-with-action-create" icon="fa-box">
     Creates the shipment without allocating a tracking number or label. Call Print Label to generate the label.
   </Card>
@@ -98,5 +100,7 @@ Once the label is available, decide whether the shipment needs another action be
 - **No further action:** Manifest the shipment so it is ready for carrier handover.
 
 <Callout icon="🚧" theme="warning">
+  ### _Important_
+
   When **Action** is **Process**, the successful Create Shipment response already includes the label. Do not call **Print Label** afterwards. Call **Print Label** for shipments created with **Create** or **Allocate**, because their Create Shipment responses do not include a label.
 </Callout>
