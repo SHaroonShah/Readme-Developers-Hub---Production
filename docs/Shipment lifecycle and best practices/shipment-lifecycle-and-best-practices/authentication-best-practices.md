@@ -75,3 +75,9 @@ This approach reduces authentication overhead, improves integration performance,
 | Storing credentials in source code           | Store credentials securely                      |
 | Creating a new token for every endpoint call | Use the same token across multiple API requests |
 | Not handling expired tokens                  | Detect failures and obtain a replacement token  |
+
+### Next steps
+
+Once a bearer token has been generated and stored, you can begin interacting with the SAPIENT APIs, such as creating shipments, generating labels, tracking shipments, and manifesting.
+
+<br />
