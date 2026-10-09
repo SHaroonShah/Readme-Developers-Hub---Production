@@ -11,11 +11,17 @@ icon: fad fa-truck-fast
 metadata:
   robots: index
 ---
-To ensure optimal performance and reduce unnecessary authentication traffic, you should store and reuse valid bearer tokens rather than generating a new token before every API request.&#x20;
+Store and reuse a valid bearer token to authenticate SAPIENT application programming interface (API) requests without generating a new token for every call.
 
-Several internal integration designs and authentication implementations used within SAPIENT follow this approach by storing access tokens and refreshing them only when they expire or become invalid.
+## Manage your token
+
+1. Generate a bearer token using your API credentials, then store the token and its returned expiry information securely.
+2. Before each API request, check whether the stored token is still valid. If it is, reuse it in the **Authorization** header.
+3. When the token expires or becomes invalid, generate a replacement and store it with its expiry information before making further requests.
 
 ## Authentication flow
+
+Follow the decision path to reuse a valid token or replace one that is no longer valid.
 
 ```mermaid
 flowchart TD
@@ -37,47 +43,32 @@ flowchart TD
     H -->|Yes| E
 ```
 
-## Track Token Expiry
+## Track token expiry
 
-Always monitor the expiry information returned by the authentication endpoint and generate a new token before the current token expires.
+Monitor the expiry information returned by the authentication endpoint. Request a replacement before the stored token expires so your next API request uses a valid token.
 
-Several authentication implementations within Intersoft store authentication tokens together with their expiry information and only request replacement tokens when required.
+## Handle authentication failures
 
-## Handle Authentication Failures&#x20;
+Authentication can fail if the token has expired or been revoked, or if the credentials are invalid. If an API request fails authentication:
 
-Authentication failures may occur when:
+1. Check whether the stored token has expired or is no longer valid.
+2. If it is, generate and store a replacement token.
+3. Retry the API request with the valid token.
+4. If authentication still fails, check your API credential configuration.
 
-- The token has expired.
-- The credentials are invalid.
-- The token has been revoked.
-
-If an authentication request fails:
-
-- Verify the token has not expired.
-- Generate a new token if required.
-- Retry the API request.
-- Investigate credential configuration if the issue persists.
-
-<Callout icon="🚧" theme="warn">
-  ### _Important_
-
-  _Generate a bearer token once, store it securely, and continue using it until it expires. Only request a new token when the current token is no longer valid._
+<Callout icon="🚧" theme="warning">
+  Store tokens securely. Do not generate a new token for every API request; replace a token when it expires or is no longer valid.
 </Callout>
 
-This approach reduces authentication overhead, improves integration performance, and aligns with common token management practices used across Intersoft integrations where valid access tokens are stored, reused, and refreshed only when necessary.
+## Common authentication mistakes
 
-### Common authentication mistakes
+| Avoid | Recommended |
+| :--- | :--- |
+| Generating a token before every API request. | Reuse a valid stored token. |
+| Ignoring token expiry. | Track expiry and replace the token before it expires. |
+| Storing credentials in source code. | Store credentials securely. |
+| Ignoring authentication failures. | Check token validity, retry with a valid token and investigate persistent failures. |
 
-| Avoid                                        | Recommended                                     |
-| -------------------------------------------- | ----------------------------------------------- |
-| Generating a token before every API request  | Cache and reuse valid tokens                    |
-| Ignoring token expiry                        | Track and refresh tokens when required          |
-| Storing credentials in source code           | Store credentials securely                      |
-| Creating a new token for every endpoint call | Use the same token across multiple API requests |
-| Not handling expired tokens                  | Detect failures and obtain a replacement token  |
+## Next steps
 
-### Next steps
-
-Once a bearer token has been generated and stored, you can begin interacting with the SAPIENT APIs, such as creating shipments, generating labels, tracking shipments, and manifesting.
-
-<br />
+Once you have stored a valid token, you can make authenticated SAPIENT API requests to create shipments, generate labels, track shipments and manifest.
