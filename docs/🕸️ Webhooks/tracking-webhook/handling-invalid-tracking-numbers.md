@@ -61,7 +61,7 @@ If your webhook endpoint is temporarily unavailable, INTERSOFT retries delivery 
 
 Tracking registration is supported only for the following Royal Mail trackable services:
 
-<Accordion title="Domestic services" icon="fa-info-circle">
+<Accordion title="Domestic services" icon="">
   | Product Code | Product Name                                         |
   | ------------ | ---------------------------------------------------- |
   | DE5          | Import UK Tracked 24 Parcel (TPM)(WH)                |
@@ -231,7 +231,7 @@ Tracking registration is supported only for the following Royal Mail trackable s
   | TSS          | Tracked Returns 48                                   |
 </Accordion>
 
-<Accordion title="International services" icon="fa-info-circle">
+<Accordion title="International services" icon="">
   | Product Code | Product Name                                                                       |
   | ------------ | ---------------------------------------------------------------------------------- |
   | BU3          | INTL IMP TRK PCL XCOMP CTRY PDDP                                                   |
