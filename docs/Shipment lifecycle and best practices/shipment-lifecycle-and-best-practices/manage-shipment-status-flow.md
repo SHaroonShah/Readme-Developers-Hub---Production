@@ -6,11 +6,30 @@ icon: fad fa-truck-fast
 metadata:
   robots: index
 ---
-After a shipment has been created, there may be situations where its status needs to be updated before it can be manifested or handed over to the carrier. SAPIENT provides several shipment management actions that allow you to control how a shipment progresses through the fulfilment process, including placing shipments on hold, releasing held shipments, cancelling shipments, and recalling previously cancelled shipments.
+Manage a shipment after creation by choosing whether to hold, release, cancel or recall it before manifesting.
 
-Understanding how these actions affect the shipment lifecycle is important, as certain statuses can prevent a shipment from being manifested until further action is taken. For example, shipments placed on hold must be released before they become eligible for manifesting.
+## Choose a status action
 
-The following workflow illustrates the relationship between the available shipment status actions and shows how shipments can move between the various states before continuing through the shipment lifecycle.
+Select the action that matches what you need to do with the shipment:
+
+<Cards>
+  <Card title="Hold shipment" href="/docs/held-shipments" icon="fa-pause-circle">
+    Temporarily exclude a shipment from manifesting until you release it.
+  </Card>
+  <Card title="Release shipment" href="/docs/release-shipment" icon="fa-play-circle">
+    Remove a shipment from hold so it can proceed towards manifesting.
+  </Card>
+  <Card title="Cancel shipment" href="/docs/view-cancelled-shipments" icon="fa-ban">
+    Stop a shipment and move it to **Cancelled**.
+  </Card>
+  <Card title="Recall shipment" href="/docs/recall-shipment" icon="fa-undo">
+    Reinstate a cancelled shipment within the first 24 hours.
+  </Card>
+</Cards>
+
+## Follow the status flow
+
+Use the diagram to see how each action affects the shipment's path to manifesting.
 
 ```mermaid
 flowchart TD
@@ -48,9 +67,9 @@ flowchart TD
     class B,F,J,M decision;
 ```
 
-## <br />Behaviour to explain below the flow
+## Manifesting and recall rules
 
-- Held shipments are excluded from manifesting. They must be released before they can be manifested. The manifest status filter supports Picked; without that filter, matching Picked or LabelPrinted shipments are included, but held shipments remain excluded.
-- Releasing a shipment removes it from hold so that it can be closed out. Multiple held shipments can be selected and released together through the UI.
-- Cancelled shipments can be recalled within the first 24 hours. A recalled shipment is restored to its previous processed or unprocessed state.&#x20;
-- If a shipment was cancelled while held and then recalled, it returns to the held status. It must therefore be released before manifesting.
+- **Held shipments:** Held shipments are excluded from manifesting. Release them before manifesting. The manifest status filter supports **Picked**; without that filter, matching **Picked** or **LabelPrinted** shipments are included, but held shipments remain excluded.
+- **Bulk release:** You can select and release multiple held shipments together in the user interface (UI) so they can be closed out.
+- **Recall period:** You can recall a cancelled shipment within the first 24 hours. Recall restores its previous processed or unprocessed state.
+- **Recall of a held shipment:** A shipment cancelled while on hold returns to **Held** when recalled. Release it before manifesting.
