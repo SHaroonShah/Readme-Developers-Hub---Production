@@ -6,7 +6,7 @@ icon: fad fa-truck-fast
 metadata:
   robots: index
 ---
-Manage a shipment after creation by choosing whether to hold, release, cancel or recall it before manifesting.
+Manage a shipment after creation by choosing whether to hold, release, defer, cancel or recall it before manifesting.
 
 ## Choose a status action
 
@@ -19,6 +19,10 @@ Select the action that matches what you need to do with the shipment:
 
   <Card title="Release shipment" href="/docs/release-shipment" icon="fa-play-circle">
     Remove a shipment from hold so it can proceed towards manifesting.
+  </Card>
+
+  <Card title="Defer shipment" href="/docs/defer-shipments" icon="fa-clock">
+    Move a shipment to a later date when it cannot ship immediately.
   </Card>
 
   <Card title="Cancel shipment" href="/docs/view-cancelled-shipments" icon="fa-ban">
