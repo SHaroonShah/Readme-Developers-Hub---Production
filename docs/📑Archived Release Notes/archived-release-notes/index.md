@@ -34,6 +34,3 @@ next:
     Release notes for 2023.
   </Card>
 </Cards>
-
-
-<Image src="https://files.readme.io/743292e9a953f1059cea4f8dcc56edaedc071c01d5462d173cd45616deed905c-image.png" width="1000px" />
