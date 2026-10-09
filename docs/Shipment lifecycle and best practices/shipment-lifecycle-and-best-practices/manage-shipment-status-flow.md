@@ -90,6 +90,7 @@ flowchart TD
 ## Manifesting and recall rules
 
 - **Held shipments:** Held shipments are excluded from manifesting. Release them before manifesting. The manifest status filter supports **Picked**; without that filter, matching **Picked** or **LabelPrinted** shipments are included, but held shipments remain excluded.
+- **Deferred shipments**: Shipments are postponed until a specified future date or time, after which the shipment can continue through the normal shipment lifecycle and become eligible for manifesting.
 - **Bulk release:** You can select and release multiple held shipments together in the user interface (UI) so they can be closed out.
 - **Recall period:** You can recall a cancelled shipment within the first 24 hours. Recall restores its previous processed or unprocessed state.
 - **Recall of a held shipment:** A shipment cancelled while on hold returns to **Held** when recalled. Release it before manifesting.
