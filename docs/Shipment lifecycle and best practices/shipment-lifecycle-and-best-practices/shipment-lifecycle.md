@@ -11,9 +11,27 @@ icon: fad fa-truck-fast
 metadata:
   robots: index
 ---
-The shipment lifecycle represents the recommended end-to-end workflow for creating, managing, and manifesting shipments in SAPIENT. It illustrates the key stages a shipment can move through, from the initial shipment creation request to manifesting and carrier handover.
+Use this workflow to choose a shipment creation action, identify when to generate a label and move your shipment towards manifesting and carrier handover.
 
-Use the following workflow to understand how shipments move through SAPIENT, identify the correct next step at each stage, and avoid common processing mistakes such as generating labels unnecessarily or performing manual actions that can be completed in bulk.
+## Choose a shipment action
+
+The **Action** you select determines what the Create Shipment response returns. Open the guide for your chosen action for more detail.
+
+<Cards>
+  <Card title="Process" href="/docs/create-shipment-with-action-process" icon="fa-check-circle">
+    Returns a tracking number and label. You do not need to call Print Label.
+  </Card>
+  <Card title="Allocate" href="/docs/create-shipments-with-action-allocate" icon="fa-barcode">
+    Returns a tracking number without a label. Call Print Label to generate the label.
+  </Card>
+  <Card title="Create" href="/docs/create-shipments-with-action-create" icon="fa-box">
+    Creates the shipment without allocating a tracking number or label. Call Print Label to generate the label.
+  </Card>
+</Cards>
+
+## View the full lifecycle
+
+Expand the flow to follow the shipment from preparation through label generation, further processing and manifesting.
 
 <Accordion title="Shipment lifecycle flow" icon="fa-info-circle">
   ```mermaid
@@ -70,8 +88,15 @@ Use the following workflow to understand how shipments move through SAPIENT, ide
   ```
 </Accordion>
 
-<Callout icon="🚧" theme="warn">
-  ### _Important_
+## After label generation
 
-  _When Action is set to&#x20;_**_Process_**_, the shipment label is returned in the successful Create Shipment response. Do not call the&#x20;_**_Print Label_**_&#x20;endpoint afterwards. Use the Print Label endpoint when the shipment was created using&#x20;_**_Create_**_&#x20;or&#x20;_**_Allocate&#x20;_**_actions, as the label is not returned in the Create Shipment response._
+Once the label is available, decide whether the shipment needs another action before manifesting:
+
+- **Hold:** Place the shipment on hold, then release it before manifesting.
+- **Cancel:** Cancel the shipment. If you need to process it again, recall it and return to the processing decision.
+- **Other processing:** Continue warehouse processing before manifesting.
+- **No further action:** Manifest the shipment so it is ready for carrier handover.
+
+<Callout icon="🚧" theme="warning">
+  When **Action** is **Process**, the successful Create Shipment response already includes the label. Do not call **Print Label** afterwards. Call **Print Label** for shipments created with **Create** or **Allocate**, because their Create Shipment responses do not include a label.
 </Callout>
