@@ -360,7 +360,11 @@ Tracking registration is supported only for the following Royal Mail trackable s
   | IX5          | irelandexpress Comp 1                                                              |
 </Accordion>
 
-Tracking registration requests submitted for unsupported products will not return tracking updates.
+<Callout icon="far fa-circle-info" theme="info">
+  ### _Note_
+
+  _Tracking registration requests submitted for unsupported services will not return tracking updates._
+</Callout>
 
 # Handle invalid tracking numbers
 
