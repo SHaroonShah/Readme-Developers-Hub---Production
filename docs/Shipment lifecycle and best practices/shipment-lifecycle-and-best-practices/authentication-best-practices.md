@@ -57,17 +57,19 @@ Authentication can fail if the token has expired or been revoked, or if the cred
 4. If authentication still fails, check your API credential configuration.
 
 <Callout icon="🚧" theme="warning">
-  Store tokens securely. Do not generate a new token for every API request; replace a token when it expires or is no longer valid.
+  ### _Important_
+
+  _Store tokens securely. Do not generate a new token for every API request; replace a token when it expires or is no longer valid._
 </Callout>
 
 ## Common authentication mistakes
 
-| Avoid | Recommended |
-| :--- | :--- |
-| Generating a token before every API request. | Reuse a valid stored token. |
-| Ignoring token expiry. | Track expiry and replace the token before it expires. |
-| Storing credentials in source code. | Store credentials securely. |
-| Ignoring authentication failures. | Check token validity, retry with a valid token and investigate persistent failures. |
+| Avoid                                        | Recommended                                                                         |
+| :------------------------------------------- | :---------------------------------------------------------------------------------- |
+| Generating a token before every API request. | Reuse a valid stored token.                                                         |
+| Ignoring token expiry.                       | Track expiry and replace the token before it expires.                               |
+| Storing credentials in source code.          | Store credentials securely.                                                         |
+| Ignoring authentication failures.            | Check token validity, retry with a valid token and investigate persistent failures. |
 
 ## Next steps
 
