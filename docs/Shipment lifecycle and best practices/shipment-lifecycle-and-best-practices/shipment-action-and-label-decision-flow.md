@@ -11,9 +11,27 @@ icon: fad fa-truck-fast
 metadata:
   robots: index
 ---
-Choosing the correct action is important for optimising your integration and avoiding unnecessary processing steps. For example, when using the Process action, tracking numbers and labels are returned directly in the Create Shipment response, making additional label generation requests unnecessary. In contrast, the Create and Allocate actions require further processing before the shipment is ready for manifesting.
+Choose the **Action** for your Create Shipment request and determine whether you need to call the Print Label application programming interface (API) before processing or manifesting the shipment.
 
-The following decision flow helps you determine the expected outcome of each shipment action and identifies when the Print Label API should be used. It also highlights the recommended processing path for each action so that shipments can progress efficiently through the shipment lifecycle.
+## Choose your action
+
+Use these paths to identify what the Create Shipment response contains and what to do next:
+
+<Cards>
+  <Card title="Process" href="/docs/create-shipment-with-action-process" icon="fa-check-circle">
+    The response includes a tracking number and label. Store and print the returned label; do not call Print Label.
+  </Card>
+  <Card title="Allocate" href="/docs/create-shipments-with-action-allocate" icon="fa-barcode">
+    The response includes a tracking number, but no label. Call Print Label, then store and print the returned label.
+  </Card>
+  <Card title="Create" href="/docs/create-shipments-with-action-create" icon="fa-box">
+    The shipment has no tracking number or label. Call Print Label, then store and print the returned label.
+  </Card>
+</Cards>
+
+## Follow the decision flow
+
+Follow your **Action** path from the Create Shipment request to shipment processing or manifesting.
 
 ```mermaid
 flowchart TD
@@ -41,10 +59,6 @@ flowchart TD
     class B warning;
 ```
 
-<Callout icon="🚧" theme="warn">
-  ### _Important_
-
-  _If&#x20;_**_Action_**_&#x20;is set to&#x20;_**_Process_**_, use the label returned in the Create Shipment response. Do not call the&#x20;_**_Print Label_**_&#x20;endpoint for the same shipment._
-
-  _Call the Print Label endpoint when the shipment was created using&#x20;_**_Create_**_&#x20;or&#x20;_**_Allocate_**_&#x20;actions._
+<Callout icon="🚧" theme="warning">
+  When **Action** is **Process**, use the label from the Create Shipment response. Do not call **Print Label** for the same shipment. Call **Print Label** when you used **Create** or **Allocate**.
 </Callout>
