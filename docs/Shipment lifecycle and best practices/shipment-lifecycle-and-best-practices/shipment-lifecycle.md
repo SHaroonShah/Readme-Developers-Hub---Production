@@ -102,5 +102,5 @@ Once the label is available, decide whether the shipment needs another action be
 <Callout icon="🚧" theme="warning">
   ### _Important_
 
-  When **Action** is **Process**, the successful Create Shipment response already includes the label. Do not call **Print Label** afterwards. Call **Print Label** for shipments created with **Create** or **Allocate**, because their Create Shipment responses do not include a label.
+  _When&#x20;_**_Action_**_&#x20;is&#x20;_**_Process_**_, the successful Create Shipment response already includes the label. Do not call&#x20;_**_Print Label_**_&#x20;afterwards. Call&#x20;_**_Print Label_**_&#x20;for shipments created with&#x20;_**_Create_**_&#x20;or&#x20;_**_Allocate_**_, because their Create Shipment responses do not include a label._
 </Callout>
