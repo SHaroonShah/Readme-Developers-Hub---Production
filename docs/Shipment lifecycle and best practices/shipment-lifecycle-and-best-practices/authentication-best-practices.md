@@ -41,6 +41,14 @@ flowchart TD
 
     H -->|No| I[Continue Processing]
     H -->|Yes| E
+
+    classDef ready fill:#dff6e4,stroke:#16823b,color:#123b1e;
+    classDef decision fill:#fff4cc,stroke:#b58100,color:#4d3900;
+    classDef action fill:#e8f1ff,stroke:#3973b8,color:#17365d;
+
+    class A,B,E,G action;
+    class C,H decision;
+    class D,F,I ready;
 ```
 
 ## Track token expiry
