@@ -14,18 +14,15 @@ Use the number of shipments requiring the same status change to select a path:
 
 <Columns layout="auto">
   <Column>
+    ### One shipment
 
-### One shipment
-
-Submit one shipment identifier for the required action.
-
+    Submit one shipment identifier for the required action.
   </Column>
+
   <Column>
+    ### Multiple shipments
 
-### Multiple shipments
-
-Collect the eligible shipment identifiers and submit them in one supported bulk status update request for the same action.
-
+    Collect the eligible shipment identifiers and submit them in one supported bulk status update request for the same action.
   </Column>
 </Columns>
 
@@ -74,5 +71,7 @@ flowchart TD
 3. Continue the workflow when there are no unsuccessful updates.
 
 <Callout icon="far fa-circle-info" theme="info">
-  Use a bulk status update only where the operation supports multiple shipments.
+  ### _Note_
+
+  _Use a bulk status update only where the operation supports multiple shipments._
 </Callout>
