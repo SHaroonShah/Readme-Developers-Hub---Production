@@ -17,7 +17,7 @@ Choose the **Action** for your Create Shipment request and determine whether you
 
 Use these paths to identify what the Create Shipment response contains and what to do next:
 
-<Cards>
+<Cards columns="3">
   <Card title="Process" href="/docs/create-shipment-with-action-process" icon="fa-check-circle">
     The response includes a tracking number and label. Store and print the returned label; do not call Print Label.
   </Card>
