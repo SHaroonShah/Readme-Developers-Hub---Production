@@ -20,22 +20,22 @@ The action you select when creating a shipment determines how it is processed an
 Start with authentication, then follow the shipment workflow in order. You can also open a specific guide when you need to manage a shipment or check whether it is ready to manifest.
 
 <Cards>
-  <Card title="Authentication best practices" href="/docs/authentication-best-practices" icon="key">
+  <Card title="Authentication best practices" href="/docs/authentication-best-practices" icon="fa-solid fa-key">
     Obtain a bearer token and use it to authenticate your API requests.
   </Card>
-  <Card title="Shipment lifecycle" href="/docs/shipment-lifecycle" icon="route">
+  <Card title="Shipment lifecycle" href="/docs/shipment-lifecycle" icon="fa-solid fa-route">
     Follow the stages from shipment creation to manifesting and carrier handover.
   </Card>
-  <Card title="Shipment action and label decision flow" href="/docs/shipment-action-and-label-decision-flow" icon="tags">
+  <Card title="Shipment action and label decision flow" href="/docs/shipment-action-and-label-decision-flow" icon="fa-solid fa-tags">
     Choose a shipment action and determine when you need the Print Label API.
   </Card>
-  <Card title="Manage shipment status flow" href="/docs/manage-shipment-status-flow" icon="arrows-rotate">
+  <Card title="Manage shipment status flow" href="/docs/manage-shipment-status-flow" icon="fa- solid fa-arrows-rotate">
     Find the guidance for managing shipment statuses during processing.
   </Card>
-  <Card title="Bulk status update flow" href="/docs/bulk-status-update-flow" icon="layer-group">
+  <Card title="Bulk status update flow" href="/docs/bulk-status-update-flow" icon="fa-solid fa-layer-group">
     Find the guidance for updating statuses across multiple shipments.
   </Card>
-  <Card title="Manifest readiness flow" href="/docs/manifest-readiness-flow" icon="clipboard-check">
+  <Card title="Manifest readiness flow" href="/docs/manifest-readiness-flow" icon="fa-solid fa-clipboard-check">
     Check the steps to take before manifesting shipments.
   </Card>
 </Cards>
