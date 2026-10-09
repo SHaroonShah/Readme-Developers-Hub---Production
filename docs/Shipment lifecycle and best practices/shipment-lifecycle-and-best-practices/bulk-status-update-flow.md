@@ -32,10 +32,12 @@ The diagram shows the available action paths—cancel, hold, release and the sup
 
 ```mermaid
 flowchart TD
+
     A["Identify shipments requiring<br/>the same status change"] --> B{How many shipments?}
 
     B -->|One| C[Submit one shipment identifier]
     B -->|Multiple| D[Collect the shipment identifiers]
+
     D --> E[Submit one bulk status update request]
 
     C --> F{Required action}
@@ -45,23 +47,29 @@ flowchart TD
     F -->|Hold| H[Apply Held status]
     F -->|Release| I[Apply Released status]
     F -->|Recall| J[Apply the supported recall process]
+    F -->|Defer| O[Apply Deferred status]
 
     G --> K[Review the result for each shipment]
     H --> K
     I --> K
     J --> K
+    O --> K
 
     K --> L{Any unsuccessful updates?}
+
     L -->|No| M[Continue workflow]
+
     L -->|Yes| N["Review the affected shipment<br/>and carrier-specific conditions"]
 
     classDef bulk fill:#dff6e4,stroke:#16823b,color:#123b1e;
     classDef decision fill:#fff4cc,stroke:#b58100,color:#4d3900;
     classDef review fill:#ffe2e2,stroke:#c53d3d,color:#571515;
+    classDef deferred fill:#e0f0ff,stroke:#3973b8,color:#17365d;
 
     class A,D,E,G,H,I,J,K,M bulk;
     class B,F,L decision;
     class N review;
+    class O deferred;
 ```
 
 ## Review the results
