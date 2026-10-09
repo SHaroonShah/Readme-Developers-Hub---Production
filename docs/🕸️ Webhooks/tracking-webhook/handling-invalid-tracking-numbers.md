@@ -57,12 +57,12 @@ Use this endpoint when you need:
 
 If your webhook endpoint is temporarily unavailable, INTERSOFT retries delivery for up to 72 hours. After the retry window expires, undelivered events are discarded.
 
-## Supported Royal Mail products
+## Supported Royal Mail services
 
 Tracking registration is supported only for the following Royal Mail trackable services:
 
-<Accordion title="Domestic services" icon="">
-  | Product Code | Product Name                                         |
+<Accordion title="Domestic services">
+  | Service Code | Service Name                                         |
   | ------------ | ---------------------------------------------------- |
   | DE5          | Import UK Tracked 24 Parcel (TPM)(WH)                |
   | DE7          | Import UK Tracked 24 Parcel High Volume (AGE)(WH)    |
@@ -231,133 +231,1262 @@ Tracking registration is supported only for the following Royal Mail trackable s
   | TSS          | Tracked Returns 48                                   |
 </Accordion>
 
-<Accordion title="International services" icon="">
-  | Product Code | Product Name                                                                       |
-  | ------------ | ---------------------------------------------------------------------------------- |
-  | BU3          | INTL IMP TRK PCL XCOMP CTRY PDDP                                                   |
-  | BU5          | INTL IMP TRK PCL DDP                                                               |
-  | BXC          | International Business Parcels Tracked Country Priced Boxable Extra Comp           |
-  | BXE          | International Business Parcels Tracked Country Priced Boxable DDP                  |
-  | BXF          | International Business Parcels Tracked Country Priced Boxable                      |
-  | BZU          | Intl Bus Parcels Tracked Extra Comp Ctry PDDP                                      |
-  | BZX          | Intl Business-NPC-TRK-LLTR PDDP                                                    |
-  | DE0          | Cross Border Parcels Tracked 0-30kg (EMS)                                          |
-  | DEI          | Cross Border Parcels Tracked                                                       |
-  | ETA          | International Parcels Tracked ETOE                                                 |
-  | ETD          | International Large Letters Tracked ETOE                                           |
-  | ETG          | International Parcels Tracked 0-30kg ETOE (E)                                      |
-  | ETH          | International Parcels Tracked 0-30kg Extra Comp ETOE (E)                           |
-  | ETL          | International Business PC Letters Tracked ETOE                                     |
-  | ETP          | International Business PC Large Letters Tracked ETOE                               |
-  | HVB          | International Parcels Tracked 0-30kg                                               |
-  | HVE          | International Parcels Tracked 0-30kg Extra Comp                                    |
-  | IT2          | International Business Parcels Tracked (Repair-VAT Exc)                            |
-  | IT3          | International Business Parcels Tracked (Repair-VAT Pay)                            |
-  | IT4          | International Business Parcels Tracked (Network)                                   |
-  | IT5          | International Business Large Letters Tracked (Network)                             |
-  | IT6          | International Business Parcels Tracked Country Priced Boxable (Network)            |
-  | ITO          | Cross Border Parcels Tracked Extra Comp 0-30kg (EMS)                               |
-  | ITQ          | Cross Border Parcels Tracked 0-30kg (INCNCT)                                       |
-  | ITT          | Cross Border Parcels Tracked Extra Comp 0-30kg (INCNCT)                            |
-  | LLH          | International Business NPC Large Letters Tracked Zone Sort                         |
-  | LLK          | International Business NPC Large Letters Tracked Zone Sort Extra Comp              |
-  | LLN          | International Business NPC Large Letters Tracked Country Priced Extra Comp         |
-  | MP1          | International Business Parcels Tracked Zone Sort                                   |
-  | MP4          | International Business Parcels Tracked Extra Comp Zone Sort                        |
-  | MP7          | International Business Parcels Tracked Country Priced                              |
-  | MP8          | International Business Parcels Tracked Extra Comp Country Priced                   |
-  | MPR          | International Business Parcel Tracked Country Priced                               |
-  | MQ1          | Int Bus Trck Prcls Flat Rate                                                       |
-  | MQ2          | Int Bus Trck Prcls Flt Rt Xcmp                                                     |
-  | MTK          | International Business Mail Tracked Country Priced                                 |
-  | MTS          | International Business Parcels Tracked Direct Ireland Country                      |
-  | OTA          | International Tracked On Account                                                   |
-  | OTB          | International Tracked On Account Extra Comp                                        |
-  | TIA          | International Business Parcels Tracked 0-30kg Extra Comp (R)                       |
-  | TIB          | International Business Parcels Tracked 0-30kg Extra Comp (C)                       |
-  | TIE          | International Business Parcels Semi-Tracked                                        |
-  | TIF          | International Business Large Letters Semi-Tracked                                  |
-  | TIH          | International Business Parcels Tracked Express (LQ)                                |
-  | BU1          | INTL IMP TRK PCL 0-30kg C PDDP                                                     |
-  | BU2          | INTL IMP TRK PCL 0-30kg C XCOMP PDDP                                               |
-  | BYB          | International Tracked Parcels DDP                                                  |
-  | BYD          | International Business Tracked Heavier DDP                                         |
-  | BYH          | International Business Tracked Heavier DDP Extra Comp                              |
-  | BYL          | INT BUS PCL TRK HVR IOSS DDP Comp 2                                                |
-  | BYM          | INT BUS PCL TRK HVR IOSS DDP Comp 3                                                |
-  | ETI          | International Parcels Tracked 0-30kg ETOE (C)                                      |
-  | ETJ          | International Parcels Tracked 0-30kg Extra Comp ETOE (C)                           |
-  | HVD          | International Business NPC Tracked Priority                                        |
-  | HVK          | International Parcels Tracked 0-30kg C Priority                                    |
-  | HVL          | International Parcels Tracked 0-30kg Extra Comp C Priority                         |
-  | ISD          | International Business Tracked Priority Extra Comp                                 |
-  | RC1          | INTL Trk Parcels 0-30kg E PDDP                                                     |
-  | RC2          | INTL Trk Parcels 0-30kg E PDDP Comp 1                                              |
-  | RC3          | INTL Trk Parcels 0-30kg E PDDP Comp 2                                              |
-  | RC4          | INTL Trk Parcels 0-30kg E PDDP Comp 3                                              |
-  | BZV          | INTL BUS PARCEL TRACK\&SIGN XTR CMP CTRY PDDP                                      |
-  | BZY          | INTL BUSINESS-NPC-TRKSGN-LLTR PDDP                                                 |
-  | ETB          | International Parcels Tracked & Signed ETOE                                        |
-  | ETE          | International Large Letters Tracked & Signed ETOE                                  |
-  | ETM          | International Business PC Letters Tracked & Signed ETOE                            |
-  | ETQ          | International Business PC Large Letters Tracked & Signed ETOE                      |
-  | ITW          | Cross Border Parcels Tracked & Signed Extra Comp 0-30kg (EMS)                      |
-  | ITY          | Cross Border Parcels Tracked & Signed Extra Comp 0-30kg (INCNCT)                   |
-  | IYX          | Cross Border Parcels Tracked & Signed 0-30kg (INCNCT)                              |
-  | MPM          | International Business Mail Tracked & Signed High Volume Country Priced            |
-  | MPP          | International Business Mail Tracked & Signed High Volume Extra Comp Country Priced |
-  | MTC          | International Business Mail Tracked & Signed Zone Sort                             |
-  | OTC          | International Tracked & Signed On Account                                          |
-  | OTD          | International Tracked & Signed On Account Extra Comp                               |
-  | CEO          | China Economy - Personal Effects                                                   |
-  | CEP          | China Economy - POL Drop                                                           |
-  | CEQ          | China Economy - Depot Drop                                                         |
-  | CER          | China Economy - 3PC                                                                |
-  | CES          | China Economy - Direct Hub Drop                                                    |
-  | EC1          | globalpriority Europe Comp 1                                                       |
-  | EC2          | globalpriority Europe Comp 2                                                       |
-  | EC3          | globalpriority Europe Comp 3                                                       |
-  | ECA          | globalpriority Europe                                                              |
-  | ER1          | europriority DTP IOSS Comp 1                                                       |
-  | ER2          | europriority DTP IOSS Comp 2                                                       |
-  | ER3          | europriority DTP IOSS Comp 3                                                       |
-  | ER6          | europriority DDP Comp 1                                                            |
-  | ER7          | europriority DDP Comp 2                                                            |
-  | ER8          | europriority DDP Comp 3                                                            |
-  | ERA          | europriority DTP IOSS                                                              |
-  | ERB          | europriority DDP                                                                   |
-  | GE1          | globalexpress DDP                                                                  |
-  | GE2          | globalexpress DDP Comp 1                                                           |
-  | GE3          | globalexpress DDP Comp 2                                                           |
-  | GE4          | globalexpress DDP Comp 3                                                           |
-  | GP1          | globalpriority ROW Comp 1                                                          |
-  | GP2          | globalpriority ROW Comp 2                                                          |
-  | GP3          | globalpriority ROW Comp 3                                                          |
-  | GPA          | globalpriority ROW                                                                 |
-  | GX1          | globalexpress Comp 1                                                               |
-  | GX2          | globalexpress Comp 2                                                               |
-  | GX3          | globalexpress Comp 3                                                               |
-  | GXR          | globalexpress                                                                      |
-  | IX1          | irelandexpress Comp 1                                                              |
-  | IX2          | irelandexpress Comp 2                                                              |
-  | IX3          | irelandexpress Comp 3                                                              |
-  | IXA          | irelandexpress                                                                     |
-  | EC4          | globalpriority ROW                                                                 |
-  | EC5          | globalpriority ROW Comp 1                                                          |
-  | EC6          | globalpriority ROW Comp 2                                                          |
-  | EC7          | globalpriority ROW Comp 3                                                          |
-  | ER0          | globalexpress Comp 3                                                               |
-  | ER4          | globalexpress                                                                      |
-  | ER5          | globalexpress Comp 1                                                               |
-  | ER9          | globalexpress Comp 2                                                               |
-  | GP4          | globalpriority Europe                                                              |
-  | GP5          | globalpriority Europe Comp 1                                                       |
-  | GP6          | globalpriority Europe Comp 2                                                       |
-  | GP7          | globalpriority Europe Comp 3                                                       |
-  | GX4          | irelandexpress Comp 2                                                              |
-  | GX5          | irelandexpress Comp 3                                                              |
-  | IX4          | irelandexpress                                                                     |
-  | IX5          | irelandexpress Comp 1                                                              |
+<Accordion title="International services">
+  <Table>
+    <thead>
+      <tr>
+        <th style={{ width: "20.9%" }}>
+          Service Code
+        </th>
+
+        <th style={{ width: "79%" }}>
+          Service Name
+        </th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>
+          BU3
+        </td>
+
+        <td>
+          INTL IMP TRK PCL XCOMP CTRY PDDP
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          BU5
+        </td>
+
+        <td>
+          INTL IMP TRK PCL DDP
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          BXC
+        </td>
+
+        <td>
+          International Business Parcels Tracked Country Priced Boxable Extra Comp
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          BXE
+        </td>
+
+        <td>
+          International Business Parcels Tracked Country Priced Boxable DDP
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          BXF
+        </td>
+
+        <td>
+          International Business Parcels Tracked Country Priced Boxable
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          BZU
+        </td>
+
+        <td>
+          Intl Bus Parcels Tracked Extra Comp Ctry PDDP
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          BZX
+        </td>
+
+        <td>
+          Intl Business-NPC-TRK-LLTR PDDP
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          DE0
+        </td>
+
+        <td>
+          Cross Border Parcels Tracked 0-30kg (EMS)
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          DEI
+        </td>
+
+        <td>
+          Cross Border Parcels Tracked
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          ETA
+        </td>
+
+        <td>
+          International Parcels Tracked ETOE
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          ETD
+        </td>
+
+        <td>
+          International Large Letters Tracked ETOE
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          ETG
+        </td>
+
+        <td>
+          International Parcels Tracked 0-30kg ETOE (E)
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          ETH
+        </td>
+
+        <td>
+          International Parcels Tracked 0-30kg Extra Comp ETOE (E)
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          ETL
+        </td>
+
+        <td>
+          International Business PC Letters Tracked ETOE
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          ETP
+        </td>
+
+        <td>
+          International Business PC Large Letters Tracked ETOE
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          HVB
+        </td>
+
+        <td>
+          International Parcels Tracked 0-30kg
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          HVE
+        </td>
+
+        <td>
+          International Parcels Tracked 0-30kg Extra Comp
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          IT2
+        </td>
+
+        <td>
+          International Business Parcels Tracked (Repair-VAT Exc)
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          IT3
+        </td>
+
+        <td>
+          International Business Parcels Tracked (Repair-VAT Pay)
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          IT4
+        </td>
+
+        <td>
+          International Business Parcels Tracked (Network)
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          IT5
+        </td>
+
+        <td>
+          International Business Large Letters Tracked (Network)
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          IT6
+        </td>
+
+        <td>
+          International Business Parcels Tracked Country Priced Boxable (Network)
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          ITO
+        </td>
+
+        <td>
+          Cross Border Parcels Tracked Extra Comp 0-30kg (EMS)
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          ITQ
+        </td>
+
+        <td>
+          Cross Border Parcels Tracked 0-30kg (INCNCT)
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          ITT
+        </td>
+
+        <td>
+          Cross Border Parcels Tracked Extra Comp 0-30kg (INCNCT)
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          LLH
+        </td>
+
+        <td>
+          International Business NPC Large Letters Tracked Zone Sort
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          LLK
+        </td>
+
+        <td>
+          International Business NPC Large Letters Tracked Zone Sort Extra Comp
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          LLN
+        </td>
+
+        <td>
+          International Business NPC Large Letters Tracked Country Priced Extra Comp
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          MP1
+        </td>
+
+        <td>
+          International Business Parcels Tracked Zone Sort
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          MP4
+        </td>
+
+        <td>
+          International Business Parcels Tracked Extra Comp Zone Sort
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          MP7
+        </td>
+
+        <td>
+          International Business Parcels Tracked Country Priced
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          MP8
+        </td>
+
+        <td>
+          International Business Parcels Tracked Extra Comp Country Priced
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          MPR
+        </td>
+
+        <td>
+          International Business Parcel Tracked Country Priced
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          MQ1
+        </td>
+
+        <td>
+          Int Bus Trck Prcls Flat Rate
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          MQ2
+        </td>
+
+        <td>
+          Int Bus Trck Prcls Flt Rt Xcmp
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          MTK
+        </td>
+
+        <td>
+          International Business Mail Tracked Country Priced
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          MTS
+        </td>
+
+        <td>
+          International Business Parcels Tracked Direct Ireland Country
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          OTA
+        </td>
+
+        <td>
+          International Tracked On Account
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          OTB
+        </td>
+
+        <td>
+          International Tracked On Account Extra Comp
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          TIA
+        </td>
+
+        <td>
+          International Business Parcels Tracked 0-30kg Extra Comp (R)
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          TIB
+        </td>
+
+        <td>
+          International Business Parcels Tracked 0-30kg Extra Comp (C)
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          TIE
+        </td>
+
+        <td>
+          International Business Parcels Semi-Tracked
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          TIF
+        </td>
+
+        <td>
+          International Business Large Letters Semi-Tracked
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          TIH
+        </td>
+
+        <td>
+          International Business Parcels Tracked Express (LQ)
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          BU1
+        </td>
+
+        <td>
+          INTL IMP TRK PCL 0-30kg C PDDP
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          BU2
+        </td>
+
+        <td>
+          INTL IMP TRK PCL 0-30kg C XCOMP PDDP
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          BYB
+        </td>
+
+        <td>
+          International Tracked Parcels DDP
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          BYD
+        </td>
+
+        <td>
+          International Business Tracked Heavier DDP
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          BYH
+        </td>
+
+        <td>
+          International Business Tracked Heavier DDP Extra Comp
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          BYL
+        </td>
+
+        <td>
+          INT BUS PCL TRK HVR IOSS DDP Comp 2
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          BYM
+        </td>
+
+        <td>
+          INT BUS PCL TRK HVR IOSS DDP Comp 3
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          ETI
+        </td>
+
+        <td>
+          International Parcels Tracked 0-30kg ETOE (C)
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          ETJ
+        </td>
+
+        <td>
+          International Parcels Tracked 0-30kg Extra Comp ETOE (C)
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          HVD
+        </td>
+
+        <td>
+          International Business NPC Tracked Priority
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          HVK
+        </td>
+
+        <td>
+          International Parcels Tracked 0-30kg C Priority
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          HVL
+        </td>
+
+        <td>
+          International Parcels Tracked 0-30kg Extra Comp C Priority
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          ISD
+        </td>
+
+        <td>
+          International Business Tracked Priority Extra Comp
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          RC1
+        </td>
+
+        <td>
+          INTL Trk Parcels 0-30kg E PDDP
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          RC2
+        </td>
+
+        <td>
+          INTL Trk Parcels 0-30kg E PDDP Comp 1
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          RC3
+        </td>
+
+        <td>
+          INTL Trk Parcels 0-30kg E PDDP Comp 2
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          RC4
+        </td>
+
+        <td>
+          INTL Trk Parcels 0-30kg E PDDP Comp 3
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          BZV
+        </td>
+
+        <td>
+          INTL BUS PARCEL TRACK\&SIGN XTR CMP CTRY PDDP
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          BZY
+        </td>
+
+        <td>
+          INTL BUSINESS-NPC-TRKSGN-LLTR PDDP
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          ETB
+        </td>
+
+        <td>
+          International Parcels Tracked & Signed ETOE
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          ETE
+        </td>
+
+        <td>
+          International Large Letters Tracked & Signed ETOE
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          ETM
+        </td>
+
+        <td>
+          International Business PC Letters Tracked & Signed ETOE
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          ETQ
+        </td>
+
+        <td>
+          International Business PC Large Letters Tracked & Signed ETOE
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          ITW
+        </td>
+
+        <td>
+          Cross Border Parcels Tracked & Signed Extra Comp 0-30kg (EMS)
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          ITY
+        </td>
+
+        <td>
+          Cross Border Parcels Tracked & Signed Extra Comp 0-30kg (INCNCT)
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          IYX
+        </td>
+
+        <td>
+          Cross Border Parcels Tracked & Signed 0-30kg (INCNCT)
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          MPM
+        </td>
+
+        <td>
+          International Business Mail Tracked & Signed High Volume Country Priced
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          MPP
+        </td>
+
+        <td>
+          International Business Mail Tracked & Signed High Volume Extra Comp Country Priced
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          MTC
+        </td>
+
+        <td>
+          International Business Mail Tracked & Signed Zone Sort
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          OTC
+        </td>
+
+        <td>
+          International Tracked & Signed On Account
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          OTD
+        </td>
+
+        <td>
+          International Tracked & Signed On Account Extra Comp
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          CEO
+        </td>
+
+        <td>
+          China Economy - Personal Effects
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          CEP
+        </td>
+
+        <td>
+          China Economy - POL Drop
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          CEQ
+        </td>
+
+        <td>
+          China Economy - Depot Drop
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          CER
+        </td>
+
+        <td>
+          China Economy - 3PC
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          CES
+        </td>
+
+        <td>
+          China Economy - Direct Hub Drop
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          EC1
+        </td>
+
+        <td>
+          globalpriority Europe Comp 1
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          EC2
+        </td>
+
+        <td>
+          globalpriority Europe Comp 2
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          EC3
+        </td>
+
+        <td>
+          globalpriority Europe Comp 3
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          ECA
+        </td>
+
+        <td>
+          globalpriority Europe
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          ER1
+        </td>
+
+        <td>
+          europriority DTP IOSS Comp 1
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          ER2
+        </td>
+
+        <td>
+          europriority DTP IOSS Comp 2
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          ER3
+        </td>
+
+        <td>
+          europriority DTP IOSS Comp 3
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          ER6
+        </td>
+
+        <td>
+          europriority DDP Comp 1
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          ER7
+        </td>
+
+        <td>
+          europriority DDP Comp 2
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          ER8
+        </td>
+
+        <td>
+          europriority DDP Comp 3
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          ERA
+        </td>
+
+        <td>
+          europriority DTP IOSS
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          ERB
+        </td>
+
+        <td>
+          europriority DDP
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          GE1
+        </td>
+
+        <td>
+          globalexpress DDP
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          GE2
+        </td>
+
+        <td>
+          globalexpress DDP Comp 1
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          GE3
+        </td>
+
+        <td>
+          globalexpress DDP Comp 2
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          GE4
+        </td>
+
+        <td>
+          globalexpress DDP Comp 3
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          GP1
+        </td>
+
+        <td>
+          globalpriority ROW Comp 1
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          GP2
+        </td>
+
+        <td>
+          globalpriority ROW Comp 2
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          GP3
+        </td>
+
+        <td>
+          globalpriority ROW Comp 3
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          GPA
+        </td>
+
+        <td>
+          globalpriority ROW
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          GX1
+        </td>
+
+        <td>
+          globalexpress Comp 1
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          GX2
+        </td>
+
+        <td>
+          globalexpress Comp 2
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          GX3
+        </td>
+
+        <td>
+          globalexpress Comp 3
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          GXR
+        </td>
+
+        <td>
+          globalexpress
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          IX1
+        </td>
+
+        <td>
+          irelandexpress Comp 1
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          IX2
+        </td>
+
+        <td>
+          irelandexpress Comp 2
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          IX3
+        </td>
+
+        <td>
+          irelandexpress Comp 3
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          IXA
+        </td>
+
+        <td>
+          irelandexpress
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          EC4
+        </td>
+
+        <td>
+          globalpriority ROW
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          EC5
+        </td>
+
+        <td>
+          globalpriority ROW Comp 1
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          EC6
+        </td>
+
+        <td>
+          globalpriority ROW Comp 2
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          EC7
+        </td>
+
+        <td>
+          globalpriority ROW Comp 3
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          ER0
+        </td>
+
+        <td>
+          globalexpress Comp 3
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          ER4
+        </td>
+
+        <td>
+          globalexpress
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          ER5
+        </td>
+
+        <td>
+          globalexpress Comp 1
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          ER9
+        </td>
+
+        <td>
+          globalexpress Comp 2
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          GP4
+        </td>
+
+        <td>
+          globalpriority Europe
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          GP5
+        </td>
+
+        <td>
+          globalpriority Europe Comp 1
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          GP6
+        </td>
+
+        <td>
+          globalpriority Europe Comp 2
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          GP7
+        </td>
+
+        <td>
+          globalpriority Europe Comp 3
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          GX4
+        </td>
+
+        <td>
+          irelandexpress Comp 2
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          GX5
+        </td>
+
+        <td>
+          irelandexpress Comp 3
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          IX4
+        </td>
+
+        <td>
+          irelandexpress
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          IX5
+        </td>
+
+        <td>
+          irelandexpress Comp 1
+        </td>
+      </tr>
+    </tbody>
+  </Table>
 </Accordion>
 
 <Callout icon="far fa-circle-info" theme="info">
