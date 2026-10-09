@@ -65,3 +65,13 @@ If an authentication request fails:
 </Callout>
 
 This approach reduces authentication overhead, improves integration performance, and aligns with common token management practices used across Intersoft integrations where valid access tokens are stored, reused, and refreshed only when necessary.
+
+### Common authentication mistakes
+
+| Avoid                                        | Recommended                                     |
+| -------------------------------------------- | ----------------------------------------------- |
+| Generating a token before every API request  | Cache and reuse valid tokens                    |
+| Ignoring token expiry                        | Track and refresh tokens when required          |
+| Storing credentials in source code           | Store credentials securely                      |
+| Creating a new token for every endpoint call | Use the same token across multiple API requests |
+| Not handling expired tokens                  | Detect failures and obtain a replacement token  |
