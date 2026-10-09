@@ -21,9 +21,11 @@ Use these paths to identify what the Create Shipment response contains and what 
   <Card title="Process" href="/docs/create-shipment-with-action-process" icon="fa-check-circle">
     The response includes a tracking number and label. Store and print the returned label; do not call Print Label.
   </Card>
+
   <Card title="Allocate" href="/docs/create-shipments-with-action-allocate" icon="fa-barcode">
     The response includes a tracking number, but no label. Call Print Label, then store and print the returned label.
   </Card>
+
   <Card title="Create" href="/docs/create-shipments-with-action-create" icon="fa-box">
     The shipment has no tracking number or label. Call Print Label, then store and print the returned label.
   </Card>
@@ -60,5 +62,7 @@ flowchart TD
 ```
 
 <Callout icon="🚧" theme="warning">
+  ### _Important_
+
   When **Action** is **Process**, use the label from the Create Shipment response. Do not call **Print Label** for the same shipment. Call **Print Label** when you used **Create** or **Allocate**.
 </Callout>
