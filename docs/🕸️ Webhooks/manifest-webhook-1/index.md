@@ -40,7 +40,7 @@ After you submit a request to the **Manifest Shipments Async** endpoint, the sys
 <Callout icon="💡" theme="default">
   ### _Tip_
 
-  _If you need more detail about a manifest request, use its&#x20;_**_manifestRequestId_**_&#x20;with the&#x20;_[_Get Manifest Request Status_](https://docs.intersoftsapient.net/reference/get_v4-manifests-manifeststatus-manifestrequestid)_&#x20;endpoint. You do not need to poll this endpoint to receive webhook updates._
+  _If you need more detail about a manifest request, use its&#x20;_**_manifestRequestId_**_&#x20;with the&#x20;_<Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/get_v4-manifests-manifeststatus-manifestrequestid">_Get Manifest Request Status_</Anchor>_&#x20;endpoint. You do not need to poll this endpoint to receive webhook updates._
 </Callout>
 
 ***
