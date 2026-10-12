@@ -104,10 +104,6 @@ The integration of Spring GDS into the SAPIENT platform is a significant step in
       Create a shipment with Spring GDS as the primary carrier. The Create Shipment service returns the shipment label in Base64-encoded format.
     </Accordion>
 
-    <Accordion title="Tracking">
-      Receive tracking updates for Spring GDS shipments through your SAPIENT tracking webhook integration.
-    </Accordion>
-
     <Accordion title="Manifest shipment">
       Retrieve information about shipment manifests created by the system and check when shipments have been successfully manifested with Spring GDS. For real-time updates, use the [Manifest Webhook](https://docs.intersoftsapient.net/v4.04/docs/manifest-webhook) to monitor manifest requests and the status of shipments prepared for carrier collection and delivery.
     </Accordion>
