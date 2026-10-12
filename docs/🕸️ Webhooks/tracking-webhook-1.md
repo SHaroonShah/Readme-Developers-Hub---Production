@@ -20,7 +20,7 @@ A webhook sends event data from one application to another. When an event occurs
 INTERSOFT supports three webhook types:
 
 - **Tracking webhook**: Receives tracking events from carriers and sends the data directly to your configured endpoint.
-- **Manifest webhook**: Works with [asynchronous manifesting](https://docs.intersoftsapient.net/docs/manifest-shipment-asychronously) and notifies your configured endpoint when a manifest request has completed processing. The notification includes the final status—successful or failed.
+- **Manifest webhook**: Works with <Anchor target="_blank" href="https://docs.intersoftsapient.net/docs/manifest-shipment-asychronously">asynchronous manifesting</Anchor> and notifies your configured endpoint when a manifest request has completed processing. The notification includes the final status—successful or failed.
 - **Shipment webhook**: Create shipments asynchronously and receive processing results at your configured webhook endpoint.
 
 ***
