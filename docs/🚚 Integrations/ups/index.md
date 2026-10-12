@@ -32,7 +32,7 @@ The UPS carrier integration within the SAPIENT system enables seamless communica
 
 <Tabs>
   <Tab title="Key Features">
-    <Cards>
+    <Cards columns="3">
       <Card title="Shipping Origins" icon="fa-map-marker-alt">
         The integration supports shipping from locations in Great Britain (GB) only.
       </Card>
