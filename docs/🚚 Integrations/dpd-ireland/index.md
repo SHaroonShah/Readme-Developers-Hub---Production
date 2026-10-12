@@ -19,7 +19,7 @@ The integration of DPD Ireland (IE) into the SAPIENT platform is a significant s
 
 <Tabs>
   <Tab title="Key Features">
-    <Cards>
+    <Cards columns="3">
       <Card title="Shipping Origins" icon="fa-map-marker-alt">
         The integration supports shipping from locations in Ireland (IE) and Northern Ireland (country code GB and postcodes beginning with BT).
       </Card>
