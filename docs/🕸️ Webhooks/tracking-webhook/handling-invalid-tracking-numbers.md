@@ -1523,7 +1523,7 @@ If a batch contains invalid tracking numbers, the <Anchor target="_blank" href="
 <Callout icon="📘" theme="info">
   ### _Note_
 
-  _The webhook payload includes the mandatory fields shown in the&#x20;_<Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/post_v4-trackings-pushpayloadexample">push payload example</Anchor>_. Invalid tracking numbers are processed asynchronously so valid shipments continue tracking without interruption._
+  _The webhook payload includes the mandatory fields shown in the&#x20;_<Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/post_v4-trackings-pushpayloadexample">_push payload example_</Anchor>_. Invalid tracking numbers are processed asynchronously so valid shipments continue tracking without interruption._
 </Callout>
 
 ***
