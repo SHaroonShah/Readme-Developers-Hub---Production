@@ -30,7 +30,7 @@ This integration provides the following key features:
 * **Ship To Destinations**: Users can send <Glossary>shipments</Glossary> to Great Britain (GB), Europe (EU), and the Rest of the World (<Glossary>ROW</Glossary>) destinations.
 * **Service Type**: The integration is focused on outbound shipping.
 * **Incoterms**: <Glossary>DAP</Glossary> and <Glossary>DDP</Glossary>.
-* **Label formats**: <Glossary>PDF</Glossary>, <Glossary>ZPL203DPI</Glossary>, and <Glossary>ZPL300DPI</Glossary>
+* **Label formats**: <Glossary>PDF</Glossary>, <Glossary>ZPL203DPI</Glossary>, and <Glossary>ZPL300DPI</Glossary>.
 
 ## Service enhancements
 
