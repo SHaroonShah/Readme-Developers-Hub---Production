@@ -23,7 +23,7 @@ The integration of DPD NL into the SAPIENT platform is a significant step in enh
 
 <Tabs>
   <Tab title="Key Features">
-    <Cards>
+    <Cards columns="3">
       <Card title="Shipping Origins" icon="fa-map-marker-alt">
         ThThe integration supports shipping from locations in Great Britain (GB) only.
       </Card>
