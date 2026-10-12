@@ -22,7 +22,7 @@ FedEx International Connect is a flexible, cost-effective, worldwide delivery so
 
 <Tabs>
   <Tab title="Key Features">
-    <Cards>
+    <Cards columns="3">
       <Card title="Shipping Origins" icon="fa-map-marker-alt">
         ThThe integration supports shipping from locations in Great Britain (GB) only.
       </Card>
