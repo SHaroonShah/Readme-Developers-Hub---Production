@@ -11,7 +11,7 @@ icon: fad fa-calendar-circle-exclamation
 metadata:
   robots: index
 ---
-Register Royal Mail tracking numbers with the [Trackings](https://docs.intersoftsapient.net/reference/post_v4-trackings) API to receive webhook updates for eligible shipments created outside your standard INTERSOFT tracking flow.
+Register Royal Mail tracking numbers with the <Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/post_v4-trackings">Trackings</Anchor> API to receive webhook updates for eligible shipments created outside your standard INTERSOFT tracking flow.
 
 <Callout icon="🛑" theme="error">
   ### _This endpoint is only supported for Royal Mail shipments and is a chargeable API feature. Customers should ensure tracking registration is performed only when required to avoid unnecessary costs._
@@ -1497,7 +1497,7 @@ Tracking registration is supported only for the following Royal Mail trackable s
 
 # Handle invalid tracking numbers
 
-If a batch contains invalid tracking numbers, the [Trackings](https://docs.intersoftsapient.net/reference/post_v4-trackings) API continues processing the valid ones and reports the invalid entries separately.
+If a batch contains invalid tracking numbers, the <Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/post_v4-trackings">Trackings</Anchor> API continues processing the valid ones and reports the invalid entries separately.
 
 <Cards columns="2">
   <Card title="Processing behaviour" icon="fa-cogs">
@@ -1523,7 +1523,7 @@ If a batch contains invalid tracking numbers, the [Trackings](https://docs.inter
 <Callout icon="📘" theme="info">
   ### _Note_
 
-  _The webhook payload includes the mandatory fields shown in the&#x20;_[push payload example](https://docs.intersoftsapient.net/reference/post_v4-trackings-pushpayloadexample)_. Invalid tracking numbers are processed asynchronously so valid shipments continue tracking without interruption._
+  _The webhook payload includes the mandatory fields shown in the&#x20;_<Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/post_v4-trackings-pushpayloadexample">push payload example</Anchor>_. Invalid tracking numbers are processed asynchronously so valid shipments continue tracking without interruption._
 </Callout>
 
 ***
