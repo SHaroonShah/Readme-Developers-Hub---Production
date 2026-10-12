@@ -57,7 +57,7 @@ When the webhook is suspended, the system retains pending responses and delivers
 <Callout icon="💡" theme="default">
   ### _Tip_
 
-  _For more information on suspension and retry logic, refer to the&#x20;_[_Handle webhook suspension_](https://docs.intersoftsapient.net/docs/webhook-suspension)_&#x20;section_.
+  _For more information on suspension and retry logic, refer to the&#x20;_<Anchor target="_blank" href="https://docs.intersoftsapient.net/docs/webhook-suspension">_Handle webhook suspension_</Anchor>_&#x20;section_.
 </Callout>
 
 <br />
