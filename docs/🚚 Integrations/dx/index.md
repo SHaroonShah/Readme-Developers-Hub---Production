@@ -27,7 +27,7 @@ Express is one of DX's core solutions that provides a fast and secure next-day d
 
 <Tabs>
   <Tab title="Key Features">
-    <Cards>
+    <Cards columns="3">
       <Card title="Shipping Origins" icon="fa-map-marker-alt">
         The integration supports shipping from locations in Great Britain (GB) only.
       </Card>
