@@ -12,40 +12,15 @@ icon: fad fa-truck-fast
 metadata:
   robots: index
 ---
-> 🚧 _Important_
->
-> _This integration is currently under development. The contents are to be updated as soon as possible._
+<Callout icon="🚧" theme="warn">
+  ### _Important_
+
+  _This integration is currently under development. The contents are to be updated as soon as possible._
+</Callout>
 
 DPD Local offers a range of specialist solutions and services. With over 6,000 drop-off locations throughout the UK, DPD Local gives customers the flexibility to arrange their deliveries around their needs. DPD Local also offers a range of collection services as well as free DPD Local tracking on every booking, whilst international shipping is available to send to one of over 200 countries worldwide at a low cost.
 
 This in an in-house integration, which means that the <Glossary>label</Glossary> will be generated in the SAPIENT system. Additionally, an electronic <Glossary>manifest</Glossary> data file is sent to DPD Local via SFTP when the shipments are manifested.
-
-## Key features
-
-<Tabs>
-  <Tab title="Ship From Destinations">
-    The integration supports shipping from locations in Great Britain (GB) only.
-  </Tab>
-
-  <Tab title="Ship To Destinations">
-    Users can send <Glossary>shipments</Glossary> to Great Britain (GB), Europe, and the <Glossary>ROW</Glossary> (Rest of the World).
-  </Tab>
-
-  <Tab title="Service Type">
-    The integration is focused on outbound shipping.
-  </Tab>
-
-  <Tab title="Incoterms">
-    The intergration supports the following incoterms:
-
-    * <Glossary>DAP</Glossary> <br />
-    * <Glossary>DDP</Glossary>.
-  </Tab>
-
-  <Tab title="Label Formats">
-    The integration supports generating labels on in the <Glossary>PDF</Glossary> format.
-  </Tab>
-</Tabs>
 
 ## Key features
 
@@ -78,25 +53,31 @@ The FedEx integration provides the following additional features:
 
 The following API services are provided by the DPD Local integration:
 
-> 🚧 _Important_
->
-> _Please bear in mind that DPD Local have separate specifications for domestic and international shipping along with some other specification for certain types of shipments, such as shipments to Northern Ireland (NI)._
+<Callout icon="🚧" theme="warn">
+  ### _Important_
+
+  _Please bear in mind that DPD Local have separate specifications for domestic and international shipping along with some other specification for certain types of shipments, such as shipments to Northern Ireland (NI)._
+</Callout>
 
 * **Label integration**: This in-house integration feature simplifies the process of generating and managing shipping labels in the PDF format by the SAPIENT system. DPD Local use routing data to determine if the destination post code and shipment data (such as weight and maximum number of packages) are valid for the service. If the data is valid, then the routing data is printed on the generated label.
 * **Routing data import integration (via SFTP)**: Imports the routing data from the DPD Local's SFTP location ans updates the routing data in the SAPIENT database.
 
-> 📘 _Note_
->
-> _The system only imports the data for services that are in scope and does not add any additional services into the integration. It only updates the routing data for the existing service codes._
+<Callout icon="📘" theme="info">
+  ### _Note_
+
+  _The system only imports the data for services that are in scope and does not add any additional services into the integration. It only updates the routing data for the existing service codes._
+</Callout>
 
 * **Manifest integration (via SFTP)**: Generates an electronic manifest data file in the SAPIENT's default <Glossary>PDF</Glossary> format and send it to DPD LOCAL via SFTP.
 * **Tracking integration (via SFTP)**: Enables data files to be sent via SFTP.
 
 ***
 
-> 📘 _Note_
->
-> _For more information on how to activate the DPD Local integration, refer to the [Activate integration](https://docs.intersoftsapient.net/docs/integration-activation#/) section._
+<Callout icon="📘" theme="info">
+  ### _Note_
+
+  _For more information on how to activate the DPD Local integration, refer to the&#x20;_[Activate integration](https://docs.intersoftsapient.net/docs/integration-activation#/)_&#x20;section._
+</Callout>
 
 <br />
 
