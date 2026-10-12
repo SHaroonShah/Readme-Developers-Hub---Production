@@ -46,6 +46,7 @@ The integration of An Post, Ireland's national postal service, into the SAPIENT 
         The integration support labels in <Glossary>PDF</Glossary> and <Glossary>PNG</Glossary> formats.
       </Card>
     </Cards>
+<br />
 
     <Accordion title="Important considerations">
       Please bear in mind the following:
