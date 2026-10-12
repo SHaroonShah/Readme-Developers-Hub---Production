@@ -22,8 +22,8 @@ To allow the system to automatically track <Glossary>shipments</Glossary> create
 
   _Before setting up the tracking account, make sure that you have completed the following prerequisites:_
 
-  1. _Successfully [enabled the label and tracking integration](https://docs.intersoftsapient.net/docs/integration-activation) with your chosen <Glossary>carrier</Glossary> via the&#x20;_**_Integration Activation_**_&#x20;screen._
-  2. _Set up your tracking webhook. For more information on how to set up a tracking webhook, refer to the [Create tracking webhook](https://docs.intersoftsapient.net/docs/create-tracking-webhook) section. This is a one-time activity, you do not have to do this every time you add a tracking account._
+  1. _Successfully&#x20;_<Anchor target="_blank" href="https://docs.intersoftsapient.net/docs/integration-activation">_enabled the label and tracking integration_</Anchor>_&#x20;with your chosen&#x20;_<Glossary>carrier</Glossary>_&#x20;via the&#x20;_**_Integration Activation_**_&#x20;screen._
+  2. _Set up your tracking webhook. For more information on how to set up a tracking webhook, refer to the&#x20;_<Anchor target="_blank" href="https://docs.intersoftsapient.net/docs/create-tracking-webhook">_Create tracking webhook_</Anchor>_&#x20;section. This is a one-time activity, you do not have to do this every time you add a tracking account._
 </Callout>
 
 ## How to add tracking account
