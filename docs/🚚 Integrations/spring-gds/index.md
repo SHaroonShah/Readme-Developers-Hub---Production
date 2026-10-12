@@ -153,3 +153,10 @@ The integration of Spring GDS into the SAPIENT platform is a significant step in
     </Cards>
   </Tab>
 </Tabs>
+<Banner isInline={true} message="Ready to integrate?" color="#ffb600" textColor="#ffffff" fontSize="20px" fontWeight="bold" width="120px" />
+
+<Cards>
+  <Card title="Activate this integration" href="https://docs.intersoftsapient.net/docs/integration-activation#/" icon="fa-solid fa-circle-play fa-beat" target="_blank">
+    Seamlessly connect with UPS and manage your shipping operations from a single platform.
+  </Card>
+</Cards>
