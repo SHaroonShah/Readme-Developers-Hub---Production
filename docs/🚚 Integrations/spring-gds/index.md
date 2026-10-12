@@ -51,7 +51,8 @@ The integration of Spring GDS into the SAPIENT platform is a significant step in
         You can provide optional carrier-specific fields in the Carrier Specifics block of the Create Shipment request.
       </Card>
     </Cards>
-<br />
+
+    <br />
 
     <Callout icon="🚧" theme="warn">
       ### _Important_
@@ -86,7 +87,8 @@ The integration of Spring GDS into the SAPIENT platform is a significant step in
     | **Tracked Plus**    | This service provides end-to-end shipment tracking with additional delivery visibility and confirmation compared to standard tracked services.                    |
     | **Small / Boxable** | his service provides delivery for small parcels and boxable items that meet the carrier's size and packaging requirements.                                        |
     | **Express**         | This service provides expedited international delivery for time-sensitive shipments with faster transit times than standard services                              |
-<br />
+
+    <br />
 
     <Callout icon="💡" theme="default">
       ### _Tip_
@@ -153,10 +155,11 @@ The integration of Spring GDS into the SAPIENT platform is a significant step in
     </Cards>
   </Tab>
 </Tabs>
+
 <Banner isInline={true} message="Ready to integrate?" color="#ffb600" textColor="#ffffff" fontSize="20px" fontWeight="bold" width="120px" />
 
 <Cards>
   <Card title="Activate this integration" href="https://docs.intersoftsapient.net/docs/integration-activation#/" icon="fa-solid fa-circle-play fa-beat" target="_blank">
-    Seamlessly connect with UPS and manage your shipping operations from a single platform.
+    Seamlessly connect with Spring GDS and manage your shipping operations from a single platform.
   </Card>
 </Cards>
