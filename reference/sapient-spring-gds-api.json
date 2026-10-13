@@ -1733,7 +1733,7 @@
         "tags": [
           "Shipments"
         ],
-        "summary": "Print Label.",
+        "summary": "Print Label",
         "description": "This changes the status of the shipment to label printed.",
         "parameters": [
           {
