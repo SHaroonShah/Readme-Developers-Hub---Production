@@ -5,7 +5,7 @@ excerpt: >-
   logging of every possible real-time event related to a shipment throughout its
   lifecycle which is received via the SAPIENT tracking webhook.
 deprecated: false
-hidden: true
+hidden: false
 icon: fad fa-calendar-circle-plus
 link:
   new_tab: false
@@ -106,6 +106,3 @@ To add a tracking account for Spring GDS in SAPIENT, follow these steps.
     Understand tracking events and milestone data.
   </Card>
 </Cards>
-
-
-
