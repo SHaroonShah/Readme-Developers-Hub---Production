@@ -111,7 +111,7 @@ The integration of Spring GDS into the SAPIENT platform is a significant step in
 <Tabs>
   <Tab title="Core Services">
     <Accordion title="Create Shipment">
-      Create a shipment with Spring GDS as the primary carrier. The Create Shipment service returns the shipment label in Base64-encoded format.
+      [Create a shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-spring) with Spring GDS as the primary carrier. The Create Shipment service returns the shipment label in Base64-encoded format.
     </Accordion>
 
     <Accordion title="Manifest shipment">
@@ -121,7 +121,7 @@ The integration of Spring GDS into the SAPIENT platform is a significant step in
 
   <Tab title="Other Services">
     <Accordion title="Print Label">
-      Generate and return the label for a Spring GDS shipment in the supported label formats. This endpoint must be utilised when the label is not generated in the Spring GDS Create Shipment request.
+      [Generate and return the label](https://docs.intersoftsapient.net/reference/get_v4-shipments-printlabel-spring-shipmentid) for a Spring GDS shipment in the supported label formats. This endpoint must be utilised when the label is not generated in the Spring GDS Create Shipment request.
 
       <Callout icon="📘" theme="info">
         ### _Note_
