@@ -95,7 +95,7 @@
                       "ContactNumber": "0123456789",
                       "UpsClientId": "ClientId",
                       "LastUpdatedBy": "User A",
-                      "LastUpdatedDateUtc": "2026-09-22T08:51:54.364Z"
+                      "LastUpdatedDateUtc": "2026-10-13T08:41:36.822Z"
                     },
                     {
                       "ShippingAccountId": "46d58272-5f6a-405d-a947-c46c9caea56f",
@@ -109,7 +109,7 @@
                       "ContactNumber": "0123456789",
                       "UpsClientId": "ClientId",
                       "LastUpdatedBy": "User B",
-                      "LastUpdatedDateUtc": "2026-09-22T08:51:54.364Z"
+                      "LastUpdatedDateUtc": "2026-10-13T08:41:36.822Z"
                     }
                   ],
                   "TotalCount": 2
@@ -184,7 +184,7 @@
                     "UpsClientSecret": "ClientSecret",
                     "ShippingLocations": [
                       {
-                        "ShippingLocationId": "204cfd02-1b2f-4a13-81dd-ffaf0e38cd7e"
+                        "ShippingLocationId": "0f151839-7ef5-43cd-ac5f-36095619f141"
                       }
                     ]
                   }
@@ -315,7 +315,7 @@
                   "ContactNumber": "0123456789",
                   "UpsClientId": "ClientId",
                   "LastUpdatedBy": "User A",
-                  "LastUpdatedDateUtc": "2026-09-22T08:51:54.604Z"
+                  "LastUpdatedDateUtc": "2026-10-13T08:41:37.074Z"
                 }
               }
             }
@@ -702,13 +702,13 @@
                       "ContentType": "NDX",
                       "ServiceCode": "11",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-09-22",
+                      "ShipmentDate": "2026-10-13",
                       "DeclaredWeight": 1.5,
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "85fc2be4-2aa2-4fea-b3cf-044debc042b5",
+                      "ShippingAccountId": "dbc302b6-fdb4-4ec9-a44a-477895ca750b",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -751,7 +751,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "11",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-09-22",
+                      "ShipmentDate": "2026-10-13",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
@@ -759,8 +759,8 @@
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "56338335-272b-4271-98e0-15fa39f7a27c",
-                      "ShippingLocationId": "d7654fab-43de-4ee3-a4c6-01a0f39bb2da",
+                      "ShippingAccountId": "5d73cdb9-f746-4239-9299-15731267557a",
+                      "ShippingLocationId": "0784b16d-e1c5-4dcb-ac8f-b531f7fd7e36",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -837,14 +837,14 @@
                       "ContentType": "NDX",
                       "ServiceCode": "54",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-09-22",
+                      "ShipmentDate": "2026-10-13",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "f2446cec-18bd-4abe-b645-5df419011f70",
+                      "ShippingAccountId": "556a48b8-b733-45ac-b318-6afc068df6f9",
                       "Reference1": "OrderRef56",
                       "EoriNumber": "GB12345",
                       "VatNumber": "VA12345"
@@ -916,7 +916,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "54",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-09-22",
+                      "ShipmentDate": "2026-10-13",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
@@ -924,8 +924,8 @@
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "ae29265e-e46a-492b-822e-0ab0b9e2d04b",
-                      "ShippingLocationId": "feae16fb-378d-4f3e-b03a-4646bc9a2e31",
+                      "ShippingAccountId": "2d6cb23c-7598-490d-9c88-77e7cb967cae",
+                      "ShippingLocationId": "d12c23da-a9f0-4b59-a070-2e2199810db3",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -1007,7 +1007,7 @@
                       "OtherCharges": 32,
                       "QuotedLandedCost": 82.74,
                       "InvoiceNumber": "INV-12345",
-                      "InvoiceDate": "2026-09-22",
+                      "InvoiceDate": "2026-10-13",
                       "ExportLicenceRequired": false,
                       "Airn": "231.002.999-00"
                     },
@@ -1035,12 +1035,12 @@
                       "ContentType": "NDX",
                       "ServiceCode": "11",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-09-22",
+                      "ShipmentDate": "2026-10-13",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "1a54bbbb-19e5-477d-95d5-2a8535fcc29b",
+                      "ShippingAccountId": "e09e52fa-e95b-4dbe-8bb6-ffd319027ee5",
                       "Reference1": "OrderRef56",
                       "Address": {
                         "AddressId": "John Brown Default"
@@ -1078,7 +1078,7 @@
                 "examples": {
                   "Create": {
                     "value": {
-                      "ConsignmentShipmentId": "7529cd4c-0e8c-42ea-a594-53b3cdccdb34",
+                      "ConsignmentShipmentId": "6c43b1bb-0be9-43c5-867b-5d77180fbab6",
                       "Packages": [
                         {
                           "PackageOccurrence": 1
@@ -1088,7 +1088,7 @@
                   },
                   "Allocate": {
                     "value": {
-                      "ConsignmentShipmentId": "5f1dfe61-1b93-4741-908f-7f2a94c5eb63",
+                      "ConsignmentShipmentId": "bad782d6-a289-4729-8cc8-e5ed735849b2",
                       "ConsignmentTrackingNumber": "H03TCA0000000118",
                       "ConsignmentCarrierTrackingUrl": "https://onlinetools.ups.com/api/track/v1/details/H03TCA0000000118",
                       "Packages": [
@@ -1102,7 +1102,7 @@
                   },
                   "Process - PDF": {
                     "value": {
-                      "ConsignmentShipmentId": "e4863234-b2b3-4401-b275-7d52dc8c6302",
+                      "ConsignmentShipmentId": "10cb3518-f69e-471e-a4f8-db3e40f2f5d5",
                       "ConsignmentTrackingNumber": "H03TCA0000000118",
                       "ConsignmentCarrierTrackingUrl": "https://onlinetools.ups.com/api/track/v1/details/H03TCA0000000118",
                       "Labels": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
@@ -1118,7 +1118,7 @@
                   },
                   "Process - ZPL203": {
                     "value": {
-                      "ConsignmentShipmentId": "1e4756b9-e00e-4830-ab29-9299e33e7b8d",
+                      "ConsignmentShipmentId": "5964a70b-4647-440b-a3c8-e32ca462addd",
                       "ConsignmentTrackingNumber": "H03TCA0000000118",
                       "ConsignmentCarrierTrackingUrl": "https://onlinetools.ups.com/api/track/v1/details/H03TCA0000000118",
                       "Labels": "Cl5YQQ0KXkxSTg0KXk1OWQ0K.....MDAwMDAwMDAwMDAwMDANCl5ETg0KXlhaDQo=",
@@ -1203,13 +1203,13 @@
                       "ContentType": "NDX",
                       "ServiceCode": "11",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-09-22",
+                      "ShipmentDate": "2026-10-13",
                       "DeclaredWeight": 1.5,
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "82effe49-9720-4580-90b6-d0810b64195e",
+                      "ShippingAccountId": "84f45b44-4ce4-40c3-9db9-959c423f1884",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -1252,7 +1252,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "11",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-09-22",
+                      "ShipmentDate": "2026-10-13",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
@@ -1260,8 +1260,8 @@
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "647afd7d-0c72-4e38-a3b3-ce74fc68ce2f",
-                      "ShippingLocationId": "8fae9f25-b494-46cb-bfcc-fa7e4e796641",
+                      "ShippingAccountId": "1d193fd7-331b-4d69-bcae-bf40e00a304d",
+                      "ShippingLocationId": "fb6406de-caa1-4660-ba4f-12033d9d1836",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -1338,14 +1338,14 @@
                       "ContentType": "NDX",
                       "ServiceCode": "54",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-09-22",
+                      "ShipmentDate": "2026-10-13",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "f3faedcc-e1a5-4efb-9c40-0619beb9e620",
+                      "ShippingAccountId": "b898b11b-e70a-4045-8bfb-c399278439f3",
                       "Reference1": "OrderRef56",
                       "EoriNumber": "GB12345",
                       "VatNumber": "VA12345"
@@ -1417,7 +1417,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "54",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-09-22",
+                      "ShipmentDate": "2026-10-13",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
@@ -1425,8 +1425,8 @@
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "5a5882fc-0bc6-4097-a841-8dd5179cb492",
-                      "ShippingLocationId": "13d3ece9-3c18-4728-8152-6fb33f047633",
+                      "ShippingAccountId": "44caa7a0-1f2e-4065-a87c-55c827e96924",
+                      "ShippingLocationId": "fa4e0859-e1e7-4399-b351-bfc738166006",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -1508,7 +1508,7 @@
                       "OtherCharges": 32,
                       "QuotedLandedCost": 82.74,
                       "InvoiceNumber": "INV-12345",
-                      "InvoiceDate": "2026-09-22",
+                      "InvoiceDate": "2026-10-13",
                       "ExportLicenceRequired": false,
                       "Airn": "231.002.999-00"
                     },
@@ -1536,12 +1536,12 @@
                       "ContentType": "NDX",
                       "ServiceCode": "11",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-09-22",
+                      "ShipmentDate": "2026-10-13",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "0977c3b9-3adb-4f9c-9c23-82c52c4d0420",
+                      "ShippingAccountId": "f94de250-98ad-4410-a893-4fb26b0bf62c",
                       "Reference1": "OrderRef56",
                       "Address": {
                         "AddressId": "John Brown Default"
@@ -1577,7 +1577,7 @@
                   "$ref": "#/components/schemas/CreateShipmentViaWebhookResponse"
                 },
                 "example": {
-                  "RequestId": "a306353d-74fd-4b01-9efb-7a613d9e3675"
+                  "RequestId": "a08b194c-1ea9-413e-91ff-7cd2b4cda8fa"
                 }
               }
             }
@@ -1666,7 +1666,7 @@
                 "examples": {
                   "PDF": {
                     "value": {
-                      "ShipmentId": "0849fa83-601e-4908-8b67-a2d3fc7b3ff0",
+                      "ShipmentId": "4b366781-5b76-499c-b0ff-00e3b1e2cd1f",
                       "TrackingNumber": "H03TCA0000000118",
                       "CarrierTrackingUrl": "https://onlinetools.ups.com/api/track/v1/details/H03TCA0000000118",
                       "Label": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
@@ -1675,7 +1675,7 @@
                   },
                   "ZPL203DPI": {
                     "value": {
-                      "ShipmentId": "e626db48-0ae2-4262-9c33-2dbf022f9109",
+                      "ShipmentId": "0462f92b-9228-497e-844f-242e187c03ab",
                       "TrackingNumber": "H03TCA0000000118",
                       "CarrierTrackingUrl": "https://onlinetools.ups.com/api/track/v1/details/H03TCA0000000118",
                       "Label": "ëPNG♫◙→◙w0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
@@ -1893,7 +1893,7 @@
           "C2B"
         ],
         "type": "string",
-        "description": "Specifies the nature of the commercial transaction type associated with the shipment.\r<br />\r<br />Valid values are:\r<br />\r<br />**B2C** - Business to Consumer\r<br />**B2B** - Business to Business\r<br />**D2C** - Direct to Consumer\r<br />**C2B** - Consumer to Business\r<br /> \r<br />***Note:** By default, this field is set to B2C.*"
+        "description": "Specifies the nature of the commercial transaction type associated with the shipment.\r<br />\r<br />Valid values are:\r<br /><ul><li> **B2C** - Business to Consumer </li><li> **B2B** - Business to Business </li><li> **D2C** - Direct to Consumer </li><li> **C2B** - Consumer to Business </li></ul> \r<br />***Note:** By default, this field is set to B2C.*"
       },
       "ContentType": {
         "enum": [
@@ -2325,7 +2325,7 @@
             "maximum": 99,
             "minimum": 1,
             "type": "integer",
-            "description": "A unique identifier for each package within the shipment that is used to assign items to a specific package. \r<br />\r<br />***Note:** The package occurence provided here must exist on one of the packages in the **Packages** object. If multiple packages exist and a consignment service is not used, this field is mandatory to ensure each package occurrence is distinct.*",
+            "description": "A unique identifier for each package within the shipment that is used to assign items to a specific package. \r<br />\r<br />***Note:** The package occurrence provided here must exist on one of the packages in the **Packages** object. If multiple packages exist and a consignment service is not used, this field is mandatory to ensure each package occurrence is distinct.*",
             "format": "int32",
             "nullable": true,
             "example": 1
@@ -2624,7 +2624,7 @@
           }
         },
         "additionalProperties": false,
-        "description": "Used to provide shipper details such as address, contact details, VAT and EORI number etc."
+        "description": "Used to provide shipper details such as address, contact details, VAT and EORI number, etc."
       },
       "ShipperAddress": {
         "type": "object",
@@ -2967,7 +2967,7 @@
           "DAT"
         ],
         "type": "string",
-        "description": "Specifies the International Commercial Terms (Incoterms) applicable to the shipment, governing responsibilities and financial obligations. \r<br />\r<br />Valid values include the following: \r<br /><ul><li>**DDU** — Delivered Duty Unpaid. The receiver is responsible for paying customs duties and taxes.</li><li>**DDP** — Delivered Duty Paid. The seller is responsible for paying customs duties and taxes.</li><li>**DAP** — Delivered At Place. The receiver is responsible for paying customs duties and taxes.</li><li>**DAT** — Delivered At Terminal. The receiver is responsible for paying customs duties and taxes.</li></ul>\r<br />***Note:** By default, this field is set to DDU if not provided for dutiable shipments. Please be advised that this information is not required for non-dutiable shipments.*"
+        "description": "Specifies the International Commercial Terms (Incoterms) applicable to the shipment, governing responsibilities and financial obligations. \r<br />\r<br />Valid values include the following: \r<br /><ul><li>**DDU** — Delivered Duty Unpaid. The receiver is responsible for paying customs duties and taxes.</li><li>**DDP** — Delivered Duty Paid. The seller is responsible for paying customs duties and taxes.</li><li>**DAP** — Delivered At Place. The receiver is responsible for paying customs duties and taxes.</li><li>**DAT** — Delivered At Terminal. The receiver is responsible for paying customs duties and taxes.</li></ul>\r<br />***Note**: By default, this field is set to DDU if not provided for dutiable shipments. Please be advised that this information is not required for non-dutiable shipments.*"
       },
       "UpsAddShippingAccountRequest": {
         "required": [
@@ -3603,7 +3603,7 @@
     },
     {
       "name": "Shipments",
-      "description": "This section provides information relating to creating UPS shipments, printing shipping labels, the customs documentation."
+      "description": "This section provides information relating to creating UPS shipments, printing shipping labels and customs documentation."
     }
   ],
   "x-readme": {
