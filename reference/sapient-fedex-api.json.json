@@ -22,12 +22,12 @@
           "Shipping Accounts"
         ],
         "summary": "Get Accounts",
-        "description": "The Get Carrier Accounts endpoint will be used to retrieve the shipping account details associated with FedEx",
+        "description": "Retrieves a list of FedEx shipping accounts created on your customer account. With this endpoint, you can view and manage multiple shipping accounts by using various query parameters for filtering, pagination, and sorting the list of accounts, making it easier for users to find specific accounts.",
         "parameters": [
           {
             "name": "searchTerm",
             "in": "query",
-            "description": "Search Term",
+            "description": "A string representing the term or keywords used to filter shipping accounts. This can be an account name or identifier that you are interested in to narrow down the list based on the input.",
             "schema": {
               "type": "string"
             }
@@ -35,7 +35,7 @@
           {
             "name": "pageSize",
             "in": "query",
-            "description": "The maximum number of records per page.",
+            "description": "An integer that defines the number of account entries (records) returned per page in the response. For instance, if **pageSize** is set to 20, the API will return up to 20 accounts in each response.\r<br />\r<br />***Note**: By default, this value is set to 100.*",
             "schema": {
               "maximum": 2147483647,
               "minimum": 1,
@@ -47,7 +47,7 @@
           {
             "name": "pageNumber",
             "in": "query",
-            "description": "The number of the requested page, starting at 1.",
+            "description": "An integer indicating the specific page of results to retrieve, allowing for pagination of larger datasets. For example, if **pageNumber** is set to 3, the API will return the results corresponding to the third page of accounts based on the specified **pageSize**.\r<br />\r<br />***Note**: By default, this value is set to 1.*",
             "schema": {
               "maximum": 2147483647,
               "minimum": 1,
@@ -59,7 +59,7 @@
           {
             "name": "sortBy",
             "in": "query",
-            "description": "Sort By\r<br />Default: Name",
+            "description": "A string specifying the field by which to organise the search results. For instance, \"Name\" could be used to sort accounts alphabetically, arranging the results in a more user-friendly order.\r<br />\r<br />***Note**: By default, this value is set to Name.*",
             "schema": {
               "$ref": "#/components/schemas/ShippingAccountsSortBy"
             }
@@ -67,7 +67,7 @@
           {
             "name": "sortDir",
             "in": "query",
-            "description": "Sort Direction\r<br />Default: Ascending",
+            "description": "A string indicating the direction in which to sort the results, typically set to \"ascending\" or \"descending.\" For example, setting **sortDir** to \"Ascending\" while using \"Name\" as **sortBy** would arrange the accounts from A to Z.\r<br />\r<br />***Note**: By default, this value is set to Ascending.*",
             "schema": {
               "$ref": "#/components/schemas/OrderDirection"
             }
@@ -94,7 +94,7 @@
                       "ContactName": "John Smith",
                       "ContactNumber": "0123456789",
                       "LastUpdatedBy": "User A",
-                      "LastUpdatedDateUtc": "2026-09-22T08:53:08.154Z"
+                      "LastUpdatedDateUtc": "2026-10-13T08:42:47.405Z"
                     },
                     {
                       "ShippingAccountId": "46d58272-5f6a-405d-a947-c46c9caea56f",
@@ -107,7 +107,7 @@
                       "ContactName": "Joan Smith",
                       "ContactNumber": "0123456789",
                       "LastUpdatedBy": "User B",
-                      "LastUpdatedDateUtc": "2026-09-22T08:53:08.154Z"
+                      "LastUpdatedDateUtc": "2026-10-13T08:42:47.405Z"
                     }
                   ],
                   "TotalCount": 2
@@ -163,12 +163,12 @@
           "Shipping Accounts"
         ],
         "summary": "Get Account",
-        "description": "Provides details for a FedEx account.\r<br />Information about the account number, alias, account type, and contact details is included in the response.",
+        "description": "Retrieves details of a specific FedEx shipping account created on your customer account. With this endpoint, you can access relevant details of that shipping account. This is useful for managing individual shipping accounts or verifying specific account attributes.",
         "parameters": [
           {
             "name": "shippingAccountId",
             "in": "path",
-            "description": "Shipping Account Identifier\r<br />SAPIENT Shipping Account Id (assigned by SAPIENT) or Alias (assigned by you).",
+            "description": "A unique identifier for the shipping account assigned by the system (**ShippingAccountId**) or by you (**AccountAlias**), allowing for efficient reference and management of individual accounts within the system.",
             "required": true,
             "schema": {
               "type": "string"
@@ -194,7 +194,7 @@
                   "ContactName": "John Smith",
                   "ContactNumber": "0123456789",
                   "LastUpdatedBy": "User A",
-                  "LastUpdatedDateUtc": "2026-09-22T08:53:08.164Z"
+                  "LastUpdatedDateUtc": "2026-10-13T08:42:47.414Z"
                 }
               }
             }
@@ -230,7 +230,7 @@
           {
             "name": "shippingAccountId",
             "in": "path",
-            "description": "Shipping Account Identifier\r<br />SAPIENT Shipping Account Id (assigned by SAPIENT) or Alias (assigned by you).",
+            "description": "A unique identifier for the shipping account assigned by the system (**ShippingAccountId**) or by you (**AccountAlias**), allowing for efficient reference and management of individual accounts within the system.\r<br />\r<br />***Note**: The information provided in this field and the **ShippingLocationId** field are being linked with each other.*",
             "required": true,
             "schema": {
               "type": "string"
@@ -300,12 +300,12 @@
           "Shipping Accounts"
         ],
         "summary": "Get Associated Locations",
-        "description": "Provides a list of all shipping locations associated with a DX shipping account.",
+        "description": "Retrieves a list of shipping locations that are linked to a specific FedEx shipping account.",
         "parameters": [
           {
             "name": "shippingAccountId",
             "in": "path",
-            "description": "Shipping Account Identifier\r<br />SAPIENT Shipping Account Id (assigned by SAPIENT) or Alias (assigned by you).",
+            "description": "A unique identifier for the shipping account assigned by the system (**ShippingAccountId**) or by you (**AccountAlias**), allowing for efficient reference and management of individual accounts within the system. The response will return all the shipping locations linked to the shipping account ID provided here.",
             "required": true,
             "schema": {
               "type": "string"
@@ -314,7 +314,7 @@
           {
             "name": "searchTerm",
             "in": "query",
-            "description": "Search Term",
+            "description": "A string representing the term or keywords used to filter location results. For example, a search term like \"Manchester\" would return locations associated with that city, helping to narrow down the list based on the user input.",
             "schema": {
               "type": "string"
             }
@@ -322,7 +322,7 @@
           {
             "name": "pageSize",
             "in": "query",
-            "description": "The maximum number of records per page.",
+            "description": "An integer that defines the number of location entries (records) returned per page in the response. For instance, if **pageSize** is set to 20, the API will return up to 20 accounts in each response.<br /><br />***Note:** By default, this value is set to 100.*",
             "schema": {
               "maximum": 2147483647,
               "minimum": 1,
@@ -334,7 +334,7 @@
           {
             "name": "pageNumber",
             "in": "query",
-            "description": "The number of the requested page, starting at 1.",
+            "description": "An integer indicating the specific page of results to retrieve, allowing for pagination of larger datasets. For example, if **pageNumber** is set to 3, the API will return the results corresponding to the third page of accounts based on the specified **pageSize**.<br /><br />***Note:** By default, this value is set to 1.*",
             "schema": {
               "maximum": 2147483647,
               "minimum": 1,
@@ -346,7 +346,7 @@
           {
             "name": "sortBy",
             "in": "query",
-            "description": "Sort By\r<br />Default: Name",
+            "description": "A string specifying the field by which to organise the search results. For instance, \"Name\" could be used to sort locations alphabetically, arranging the results in a more user-friendly order.<br /><br />***Note:** By default, this value is set to Name.*",
             "schema": {
               "$ref": "#/components/schemas/ShippingLocationsSortBy"
             }
@@ -354,7 +354,7 @@
           {
             "name": "sortDir",
             "in": "query",
-            "description": "Sort Direction\r<br />Default: Ascending",
+            "description": "A string indicating the direction in which to sort the results, typically set to \"ascending\" or \"descending.\" For example, setting **sortDir** to \"Ascending\" while using \"Name\" as **sortBy** would arrange the locations from A to Z.<br /><br />***Note:** By default, this value is set to Ascending.*",
             "schema": {
               "$ref": "#/components/schemas/OrderDirection"
             }
@@ -422,12 +422,12 @@
           "Shipping Accounts"
         ],
         "summary": "Get Associated Location",
-        "description": "Provides information for a specific shipping location linked to a DX shipping account including location alias, timezone, address, when it was last updated, and by who.",
+        "description": "Retrieve detailed information about a specific shipping location that is associated with a FedEx shipping account.",
         "parameters": [
           {
             "name": "shippingAccountId",
             "in": "path",
-            "description": "Shipping Account Identifier\r<br />SAPIENT Shipping Account Id (assigned by SAPIENT) or Alias (assigned by you).",
+            "description": "Shipping Account Identifier\r<br />A unique identifier for the shipping account assigned by the system (**ShippingAccountId**) or by you (**AccountAlias**), allowing for efficient reference and management of individual accounts within the system.",
             "required": true,
             "schema": {
               "type": "string"
@@ -436,7 +436,7 @@
           {
             "name": "shippingLocationId",
             "in": "path",
-            "description": "Shipping Location Identifier\r<br />SAPIENT Shipping Location Id (assigned by SAPIENT) or Alias (assigned by you).",
+            "description": "A unique identifier for the shipping location assigned by the system (**ShippingLocationId**) or by you (**LocationAlias**), allowing users to reference and manage specific locations effectively.",
             "required": true,
             "schema": {
               "type": "string"
@@ -480,7 +480,7 @@
           "Shipments"
         ],
         "summary": "Create Shipment",
-        "description": "Create a FedEx shipment. This will return an image of the shipping label in PDF and ZPL formats.",
+        "description": "Create a new FedEx shipment by submitting the shipment details in your request and returning an image of the shipping label in PDF or ZPL format.",
         "requestBody": {
           "description": "Shipment Details",
           "content": {
@@ -496,14 +496,14 @@
                       "ContentType": "NDX",
                       "ServiceCode": "FXFirst",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-09-22",
+                      "ShipmentDate": "2026-10-13",
                       "DeclaredValue": 86,
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "c49dd6e0-3a97-4182-a09a-3712ce66636c",
+                      "ShippingAccountId": "e5cf6615-4bd7-46de-b1eb-c3036d169409",
                       "Reference1": "OrderRef56",
                       "Address": {
                         "ContactPhone": "01234567890",
@@ -562,7 +562,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "FXFirst",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-09-22",
+                      "ShipmentDate": "2026-10-13",
                       "DeclaredValue": 86,
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
@@ -570,8 +570,8 @@
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "739ee8de-05bf-45b7-b905-4ab6899d46c1",
-                      "ShippingLocationId": "516d5967-658c-44ed-842a-ce52ba0e0a7a",
+                      "ShippingAccountId": "1eb346a4-6e7d-486c-8164-dae4e0b5c152",
+                      "ShippingLocationId": "71d4240b-26e2-4c9d-b39e-5212ded00938",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -647,14 +647,14 @@
                       "ContentType": "NDX",
                       "ServiceCode": "FXIntConP",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-09-22",
+                      "ShipmentDate": "2026-10-13",
                       "DeclaredValue": 30,
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "1fd1d619-77fd-4d48-9039-053379b6468c",
+                      "ShippingAccountId": "92c955c0-35af-4ec8-a2af-b7bdbc7e8ce6",
                       "Reference1": "OrderRef56",
                       "EoriNumber": "GB213456789000",
                       "VatNumber": "GB213456789",
@@ -745,7 +745,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "FXIntConP",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-09-22",
+                      "ShipmentDate": "2026-10-13",
                       "DeclaredValue": 30,
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
@@ -753,8 +753,8 @@
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "3b7df411-b032-4ea7-9b7e-f8dd5894869f",
-                      "ShippingLocationId": "cd3110b7-ca93-493d-8871-9d4dcd71449e",
+                      "ShippingAccountId": "e9c9704c-3db0-4284-94ec-cef2f17a8f23",
+                      "ShippingLocationId": "a105857a-590a-4fa4-98e1-a3678981ff6f",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -836,7 +836,7 @@
                       "OtherCharges": 32,
                       "QuotedLandedCost": 82.74,
                       "InvoiceNumber": "INV-12345",
-                      "InvoiceDate": "2026-09-22",
+                      "InvoiceDate": "2026-10-13",
                       "ExportLicenceRequired": false,
                       "Airn": "231.002.999-00"
                     }
@@ -849,14 +849,14 @@
                       "ContentType": "NDX",
                       "ServiceCode": "FXIntConP",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-09-22",
+                      "ShipmentDate": "2026-10-13",
                       "DeclaredValue": 20,
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "459d0f60-cb32-4aff-942e-5dce26a89186",
+                      "ShippingAccountId": "5dd48743-69bd-4b2d-9f73-038b98239df0",
                       "Reference1": "OrderRef56",
                       "Address": {
                         "AddressId": "John Brown Default"
@@ -895,7 +895,7 @@
                 "examples": {
                   "Create": {
                     "value": {
-                      "ConsignmentShipmentId": "8b2be077-3a17-47e1-ba0b-60c31272ed9b",
+                      "ConsignmentShipmentId": "425237f9-94cf-4601-9460-a41d2aba53a4",
                       "Packages": [
                         {
                           "PackageOccurrence": 1
@@ -905,7 +905,7 @@
                   },
                   "Allocate": {
                     "value": {
-                      "ConsignmentShipmentId": "d0b2544f-f179-4e95-9347-9d497d6238ca",
+                      "ConsignmentShipmentId": "54f2f624-4101-427a-ab82-e83e964433d3",
                       "ConsignmentTrackingNumber": "L2861391",
                       "Packages": [
                         {
@@ -918,7 +918,7 @@
                   },
                   "Process - PDF": {
                     "value": {
-                      "ConsignmentShipmentId": "43595b2b-e548-4708-bb2e-eb330916f21c",
+                      "ConsignmentShipmentId": "b59522a3-7500-466f-803d-1096aab4cd28",
                       "ConsignmentTrackingNumber": "L2861391",
                       "Labels": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
                       "LabelFormat": "PDF",
@@ -1002,14 +1002,14 @@
                       "ContentType": "NDX",
                       "ServiceCode": "FXFirst",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-09-22",
+                      "ShipmentDate": "2026-10-13",
                       "DeclaredValue": 86,
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "3cfbaaad-da2b-457a-85b5-462c216c50ce",
+                      "ShippingAccountId": "8fea1f41-10be-46c2-bc10-570409c45ce8",
                       "Reference1": "OrderRef56",
                       "Address": {
                         "ContactPhone": "01234567890",
@@ -1068,7 +1068,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "FXFirst",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-09-22",
+                      "ShipmentDate": "2026-10-13",
                       "DeclaredValue": 86,
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
@@ -1076,8 +1076,8 @@
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "4183d0e0-1556-4a53-b9b5-006abff75146",
-                      "ShippingLocationId": "7612e6ee-af76-4256-b4df-718c3bf32d1b",
+                      "ShippingAccountId": "4f2ada7e-1217-46f7-8fb2-1c563b6a4c8b",
+                      "ShippingLocationId": "f413556a-5675-4c05-8070-70cd345ca71f",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -1153,14 +1153,14 @@
                       "ContentType": "NDX",
                       "ServiceCode": "FXIntConP",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-09-22",
+                      "ShipmentDate": "2026-10-13",
                       "DeclaredValue": 30,
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "9293ad78-f161-46f4-9e7a-7fe69e0ed355",
+                      "ShippingAccountId": "1d2f3dab-940b-4089-b300-341a68a02722",
                       "Reference1": "OrderRef56",
                       "EoriNumber": "GB213456789000",
                       "VatNumber": "GB213456789",
@@ -1251,7 +1251,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "FXIntConP",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-09-22",
+                      "ShipmentDate": "2026-10-13",
                       "DeclaredValue": 30,
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
@@ -1259,8 +1259,8 @@
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "bff649aa-cd45-4d6b-9e77-732511020db9",
-                      "ShippingLocationId": "c3f5f939-bd34-45fb-83f4-518887a7cd66",
+                      "ShippingAccountId": "4e0c9e66-d46b-480b-a4c4-bf55da8258ea",
+                      "ShippingLocationId": "7773ac4a-3016-4f2c-bbd0-013f25cb9749",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
@@ -1342,7 +1342,7 @@
                       "OtherCharges": 32,
                       "QuotedLandedCost": 82.74,
                       "InvoiceNumber": "INV-12345",
-                      "InvoiceDate": "2026-09-22",
+                      "InvoiceDate": "2026-10-13",
                       "ExportLicenceRequired": false,
                       "Airn": "231.002.999-00"
                     }
@@ -1355,14 +1355,14 @@
                       "ContentType": "NDX",
                       "ServiceCode": "FXIntConP",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-09-22",
+                      "ShipmentDate": "2026-10-13",
                       "DeclaredValue": 20,
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "3267e5d0-5f9d-4341-a664-caeda9c6e2c2",
+                      "ShippingAccountId": "4b1cb90e-44ca-4e50-b73c-f0bedd7d8410",
                       "Reference1": "OrderRef56",
                       "Address": {
                         "AddressId": "John Brown Default"
@@ -1399,7 +1399,7 @@
                   "$ref": "#/components/schemas/CreateShipmentViaWebhookResponse"
                 },
                 "example": {
-                  "RequestId": "ec4f61ee-9aa3-44e4-b381-51b1c260848e"
+                  "RequestId": "101d7a0a-e1c1-49bb-abfe-6a71733afda3"
                 }
               }
             }
@@ -1455,12 +1455,12 @@
           "Shipments"
         ],
         "summary": "Print Label",
-        "description": "This changes the status of the shipment to label printed. This should be done at the time of actual printing or label creation dependent on how you operate in reality. Shipments must be updated to printed status prior to manifesting.",
+        "description": "Generate and return the label for the FedEx shipment. This endpoint is utilised after a FedEx shipment has been created and is meant to facilitate the printing of the label required for that shipment.\r<br />\r<br />***Note**: This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting.*",
         "parameters": [
           {
             "name": "shipmentId",
             "in": "path",
-            "description": "Shipment Id\r<br />The Shipment Id may be an id or a tracking/barcode number.",
+            "description": "A unique identifier (shipmentId) or tracking number returned in the Create shipment response. This ID is used to reference and track specific shipments within the system.",
             "required": true,
             "schema": {
               "maxLength": 36,
@@ -1471,7 +1471,7 @@
           {
             "name": "labelFormat",
             "in": "query",
-            "description": "Label Format\r<br />            \r<br />**PDF** Base 64 encoded PDF\r<br />**ZPL** Base 64 encoded ZPL\r<br />            \r<br />Defaults To PDF",
+            "description": " Specifies the format of the shipping label that will be returned in the **createShipment** response.\r<br /> \r<br /> The following are the valid values:\r<br /><ul><li> **PDF** - returns a Base64-encoded PDF </li><li> **ZPL** - returns Base 64 encoded text for Zebra printer </li></ul>\r<br /> ***Note**: By default, this field is set to PDF.*",
             "schema": {
               "$ref": "#/components/schemas/FedExLabelFormat"
             }
@@ -1488,7 +1488,7 @@
                 "examples": {
                   "PDF": {
                     "value": {
-                      "ShipmentId": "47570aaf-f8ab-44ed-9581-4b61f0104d2e",
+                      "ShipmentId": "8564bc1a-90b5-4c00-8eee-2085ce14e445",
                       "TrackingNumber": "H03TCA0000000118",
                       "CarrierTrackingUrl": "https://fedex.co.uk/H03TCA0000000118",
                       "Label": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
@@ -1558,7 +1558,7 @@
           "C2B"
         ],
         "type": "string",
-        "description": "Specifies the nature of the commercial transaction type associated with the shipment.\r<br />\r<br />Valid values are:\r<br />\r<br />**B2C** - Business to Consumer\r<br />**B2B** - Business to Business\r<br />**D2C** - Direct to Consumer\r<br />**C2B** - Consumer to Business\r<br /> \r<br />***Note:** By default, this field is set to B2C.*"
+        "description": "Specifies the nature of the commercial transaction type associated with the shipment.\r<br />\r<br />Valid values are:\r<br /><ul><li> **B2C** - Business to Consumer </li><li> **B2B** - Business to Business </li><li> **D2C** - Direct to Consumer </li><li> **C2B** - Consumer to Business </li></ul> \r<br />***Note:** By default, this field is set to B2C.*"
       },
       "ContentType": {
         "enum": [
@@ -1848,7 +1848,7 @@
           "ZPL300DPI"
         ],
         "type": "string",
-        "description": "Specifies the format in which the documents related to the shipment are provided. For example, a Base 64 encoded PDF, PNG or ZPL203DPI, and ZPL300DPI.\r<br />\r<br />This format is crucial for ensuring that the documents can be easily accessed, printed, and utilised during shipping and customs processes."
+        "description": "Specifies the format in which the documents related to the shipment are provided. For example, a Base 64 encoded PDF or ZPL. This format is crucial for ensuring that the documents can be easily accessed, printed, and utilised during shipping and customs processes."
       },
       "ErrorDetail": {
         "type": "object",
@@ -1895,7 +1895,7 @@
           "ZPL"
         ],
         "type": "string",
-        "description": "Sets the label format that will be returned in the createShipment Response.\r<br />Valid values are:\r<br />**PDF** - returns a Base64-encoded PDF\r<br />**ZPL** - returns a Base64-encoded ZPL\r<br />Defaults to PDF if not populated."
+        "description": " Specifies the format of the shipping label that will be returned in the **createShipment** response.\r<br /> \r<br /> The following are the valid values:\r<br /><ul><li> **PDF** - returns a Base64-encoded PDF </li><li> **ZPL** - returns Base 64 encoded text for Zebra printer </li></ul>\r<br /> ***Note**: By default, this field is set to PDF.*"
       },
       "FedExLabelFormatPackageResponseDetailsCreateShipmentResponse": {
         "type": "object",
@@ -1926,7 +1926,12 @@
             "nullable": true
           },
           "LabelFormat": {
-            "$ref": "#/components/schemas/FedExLabelFormat"
+            "enum": [
+              "PDF",
+              "ZPL"
+            ],
+            "type": "string",
+            "description": "Specifies the format in which the generated shipping labels are created, for example:\r\n  <ul>\r\n    <li> <b>PDF</b> - returns a Base64-encoded PDF </li>\r\n    <li> <b>ZPL</b> - returns Base 64 encoded text for Zebra printer </li>\r\n</ul>"
           },
           "Packages": {
             "type": "array",
@@ -1982,7 +1987,12 @@
             "example": "iVBORw0KGgoAAAANSUhEUgAA ... A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4"
           },
           "LabelFormat": {
-            "$ref": "#/components/schemas/FedExLabelFormat"
+            "enum": [
+              "PDF",
+              "ZPL"
+            ],
+            "type": "string",
+            "description": "Specifies the format in which the generated shipping label was requested, for example, PDF or ZPL."
           }
         },
         "additionalProperties": false,
@@ -2024,7 +2034,7 @@
           },
           "ShipmentDate": {
             "type": "string",
-            "description": "The scheduled date for the shipment to be shipped, which cannot be in the past and must not exceed 28 days into the future. If omitted, it defaults to the current date.<br><br />*The shipment date must be in the YYYY-MM-DD format.*<br /><br /> FedEx only allows future dates up to 10 days in the future.",
+            "description": "The scheduled date for the shipment to be shipped, which cannot be in the past and must not exceed 10 days into the future. If omitted, it defaults to the current date. <br /><br /> ***Note**: The shipment date must be in the YYYY-MM-DD format.*",
             "format": "date",
             "nullable": true
           },
@@ -2049,7 +2059,7 @@
             "maxLength": 3,
             "minLength": 3,
             "type": "string",
-            "description": "The three-letter ISO code indicating the currency in which any monetary value is specified (for example, USD, EUR). This ensures clarity for payment and invoicing purposes.",
+            "description": "The three-letter ISO code indicating the currency in which any monetary value is specified (for example, USD, EUR). This ensures clarity for payment and invoicing purposes.<br><br />***Note:** This information is required if any monetary values other than zero are provided.*",
             "nullable": true,
             "example": "GBP"
           },
@@ -2076,7 +2086,7 @@
             "maximum": 99,
             "minimum": 1,
             "type": "integer",
-            "description": "Used to match a returned Package ID to this package.<br /> Can also be used to assign items to this package.<br /> If provided, each package occurrence must be unique. <br /> Note: For FedEx dutiable multi-package shipments that are not using a consignment service, items must be assigned to a package so that accurate customs information is given. <br /> Therefore, if the shipment contains more than one package, and it isn't using a consignment service, then Package Occurrence is required.",
+            "description": "A unique identifier for each package within the shipment that is used to match a returned package ID to this package. This field can also be used to assign items to a specific package. \r\n\r\n***Note:** For FedEx dutiable shipments that are not using a consignment service, items must be assigned to a package so that accurate customs information is given. Therefore, if the shipment contains more than one package, and it is not using a consignment service, then the **PackageOccurrence** is required.*",
             "format": "int32",
             "nullable": true,
             "example": 1
@@ -2158,12 +2168,12 @@
             "items": {
               "$ref": "#/components/schemas/FedExSubPackageType"
             },
-            "description": "Sub packaging types\r<br />Indicate the subPackagingType, if you are using your own packaging for the shipment. \r<br />Use it for all shipments inbound to Canada (CA) and inbound shipments to the U.S. and Puerto Rico (PR) from Canada and Mexico (MX), subPackagingType is mandatory for shipments to Canada.",
+            "description": "Indicates the sub-packaging type, if you are using your own packaging for the shipment.\r<br />This object is used for all inbound shipments to Canada(CA) and to U.S, and Puerto Rico(PR) from Canada and Mexico(MX). \r<br />\r<br />***Note**: This object is mandatory for shipments to Canada.*",
             "nullable": true
           }
         },
         "additionalProperties": false,
-        "description": "FedEx - specific features that can be used when creating a FedEx shipment."
+        "description": "Used to provide information related to the specific operational requirements and service options that pertain to FedEx for the shipment. This object allows customers to specify enhancements that can be applied when creating the shipment for an enhanced shipping experience."
       },
       "FedExShipmentRequestCarrierSpecificsFedExPackageFedExLabelFormatCreateShipmentRequest": {
         "required": [
@@ -2191,7 +2201,7 @@
             "items": {
               "$ref": "#/components/schemas/FedExPackage"
             },
-            "description": "Shipment Packages<br/>The packages that are being sent in this shipment.<br/>There must be at least 1 package.<br/>A maximum of 30 packages are allowed"
+            "description": "Used to provide information on the packages that are being sent in this shipment. You can add a maximum of 30 packages in a single shipment.<br/><br/> ***Note:** You must add at least one package to the shipment.*"
           },
           "Items": {
             "type": "array",
@@ -2474,7 +2484,7 @@
             "maximum": 99,
             "minimum": 1,
             "type": "integer",
-            "description": "A unique identifier for each package within the shipment that is used to assign items to a specific package. \r<br />\r<br />***Note:** The package occurence provided here must exist on one of the packages in the **Packages** object. If multiple packages exist and a consignment service is not used, this field is mandatory to ensure each package occurrence is distinct.*",
+            "description": "A unique identifier for each package within the shipment that is used to assign items to a specific package. \r\n\r\n***Note:** For FexEx dutiable shipments that are not using a consignment service, items must be assigned to a package so that accurate customs information is given. Therefore, if the shipment contains more than one package, and it is not using a consignment service, then the **PackageOccurrence** is required.*",
             "format": "int32",
             "nullable": true,
             "example": 1
@@ -2750,7 +2760,7 @@
           "DepartmentNumber": {
             "maxLength": 10,
             "type": "string",
-            "description": "An optional field where the shipper can specify the department number associated with the shipment.",
+            "description": "An optional field where the shipper can specify the department number associated with the shipment.<br><br/>***Note:** If this number is provided for the FedEx shipment, make sure that this number already exists for the department that has been set up with FedEx, and must be exactly 10 characters in length.*",
             "nullable": true,
             "example": "0123456789"
           },
@@ -2773,7 +2783,7 @@
           }
         },
         "additionalProperties": false,
-        "description": "Used to provide shipper details such as address, contact details, VAT and EORI number etc."
+        "description": "Used to provide shipper details such as address, contact details, VAT and EORI number, etc."
       },
       "ShipperAddress": {
         "type": "object",
@@ -3116,7 +3126,7 @@
           "DAT"
         ],
         "type": "string",
-        "description": "Specifies the International Commercial Terms (Incoterms) applicable to the shipment, governing responsibilities and financial obligations. \r<br />\r<br />Valid values include the following: \r<br /><ul><li>**DDU** — Delivered Duty Unpaid. The receiver is responsible for paying customs duties and taxes.</li><li>**DDP** — Delivered Duty Paid. The seller is responsible for paying customs duties and taxes.</li><li>**DAP** — Delivered At Place. The receiver is responsible for paying customs duties and taxes.</li><li>**DAT** — Delivered At Terminal. The receiver is responsible for paying customs duties and taxes.</li></ul>\r<br />***Note:** By default, this field is set to DDU if not provided for dutiable shipments. Please be advised that this information is not required for non-dutiable shipments.*<br>FedEx does not support **DAT**."
+        "description": "Specifies the International Commercial Terms (Incoterms) applicable to the shipment, governing responsibilities and financial obligations. \n\nValid values include the following: \n<ul>\n<li><b>DDU</b> — Delivered Duty Unpaid. The receiver is responsible for paying customs duties and taxes.</li>\n<li><b>DDP</b> — Delivered Duty Paid. The seller is responsible for paying customs duties and taxes.</li>\n<li><b>DAP</b> — Delivered At Place. The receiver is responsible for paying customs duties and taxes.</li>\n</ul>\n<i><b>Note:</b> By default, this field is set to DDU if not provided for dutiable shipments. Please be advised that this information is not required for non-dutiable shipments.</i>"
       },
       "WeightUnitOfMeasure": {
         "enum": [
@@ -3152,7 +3162,7 @@
     },
     {
       "name": "Shipments",
-      "description": "This section provides information relating to creating FedEx shipments, printing shipping labels, the customs documentation."
+      "description": "This section provides information relating to creating FedEx shipments, printing shipping labels and customs documentation."
     }
   ],
   "x-readme": {
