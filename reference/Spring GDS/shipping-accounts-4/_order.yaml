@@ -1,0 +1,8 @@
+- get_v4-shippingaccounts-spring
+- post_v4-shippingaccounts-spring
+- get_v4-shippingaccounts-spring-shippingaccountid
+- put_v4-shippingaccounts-spring-shippingaccountid
+- post_v4-shippingaccounts-spring-shippingaccountid-linklocations
+- get_v4-shippingaccounts-spring-shippingaccountid-shippinglocations
+- >-
+  get_v4-shippingaccounts-spring-shippingaccountid-shippinglocations-shippinglocationid
