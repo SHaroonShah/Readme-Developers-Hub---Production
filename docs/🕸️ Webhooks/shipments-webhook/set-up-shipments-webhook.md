@@ -94,7 +94,7 @@ To set up the shipment webhook connection in SAPIENT, perform the steps as expla
 
     <br />
 
-   Following the success response, a test tracking payload is sent to the webhook as follows:
+   Following the success response, a test shipment payload is sent to the webhook as follows:
 
     ```text
 {
