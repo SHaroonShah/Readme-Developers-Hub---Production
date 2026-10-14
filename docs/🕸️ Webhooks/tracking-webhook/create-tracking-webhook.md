@@ -190,25 +190,3 @@ To set up the tracking webhook connection in SAPIENT, perform the steps as expla
     Manage and resolve webhook suspension scenarios.
   </Card>
 </Cards>
-
-```text
-{
-    "TrackingNumber": "TT12345678901GB",
-    "ShipmentId": "aa24f1fd-d976-4c28-bec8-fe3d6f84ec1e",
-    "ShipperReference": "myRef123",
-    "CarrierCode": "RM",
-    "Milestone": "IN TRANSIT",
-    "MilestoneDateTime": "2022-03-23 23:15:00",
-    "Events": [
-      {
-        "EventId": "3a0c17c5-0ca4-455c-ac65-a20d95e656bc",
-        "EventType": "Tracking",
-        "EventCode": "PSDD",
-        "EventDescription": "Shipment Departed Depot",
-        "EventDateTime": "2022-03-24 11:43:16",
-        "EventUtcOffset": "+01:00",
-        "EventLocation": {
-          "Location": "Heathrow",
-          "CountryCode": "GB"
-        }
-```
