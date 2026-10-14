@@ -186,13 +186,3 @@ To set up the manifest webhook connection in SAPIENT, follow the instructions as
     Manage and resolve webhook suspension scenarios.
   </Card>
 </Cards>
-
-```text
-{
-  "ShippingLocationId": "D94E8CFD-604B-4B87-83E9-3F20CAF02837",
-  "ContainerId": "123336545898",
-  "Status": "Picked",
-  "ShippingAccountId": "88470398-A520-4069-BDF9-69D11D48831A",
-  "ServiceCode": "EXPRESS"
-}
-```
