@@ -154,7 +154,7 @@ The integration of Spring GDS into the SAPIENT platform is a significant step in
   </Tab>
 
   <Tab title="API References">
-    <Cards columns="1">
+    <Cards columns="2">
       <Card title="Get Carrier Services" href="https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services" icon="fa-solid fa-code" target="_blank">
         Retrieve the services available for a carrier.
       </Card>
