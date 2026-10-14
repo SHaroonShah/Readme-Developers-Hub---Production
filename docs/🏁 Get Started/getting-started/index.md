@@ -103,6 +103,10 @@ next:
     <Image src="https://files.readme.io/fd33881958476474461aeb2782e3edb82cf11e91765108544679a189497f4dda-InPost_white_logo.png" align="center" width="100px" />
   </Card_1>
 
+<Card_1 href="https://docs.intersoftsapient.net/docs/inpost" tooltip="Spring GDS">
+    <Image src="https://files.readme.io/75da1339757f467dcd7d276afb696e8ce620ae15d05d2a2a64705179d0042939-Spring_Logo.png" align="center" width="100px" />
+  </Card_1>
+
   <Card_1 href="https://docs.intersoftsapient.net/docs/starlinks-global" tooltip="Starlinks Global">
     <Image src="https://files.readme.io/aaa73ee56fe0d73cee188bc5c5e18c79437dced5d9414b24d1e007abcd257bf7-Starlinks_logo_white.png" align="center" width="100px" />
   </Card_1>
