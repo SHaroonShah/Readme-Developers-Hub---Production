@@ -34,12 +34,11 @@ The following carrier guides are included in this section:
   </Card_1>
 
   <Card_1 href="https://docs.intersoftsapient.net/docs/dhl-express" tooltip="DHL Express">
-    <Image src="https://files.readme.io/7f06ef6e137cd4e9c18f23b72ebb66ff288ef675fd705e2e4a18801eafc42d83-DHL_Express_logo_white.png" align="center" width="100px" />
+    <Image src="https://files.readme.io/68b90d59886dcba8e09308cef816c57dc2a5d33cfec3e0ede283fac6867df8d8-DHL_Express_logo_white.png" align="center" width="100px" />
   </Card_1>
 
   <Card_1 href="https://docs.intersoftsapient.net/docs/dhl-germany-de" tooltip="DHL Germany">
-    <Image src="https://files.readme.io/5a9a1a4a715f04f85a85171853a1ad9c0c3fcdd3c8701de39caf2ca7a1745d3b-DHL_DE_logo_white.png" align="center" width="100px" />
-  </Card_1>
+    <Image src="https://files.readme.io/fc50148407d355beed3b2f583d6e1ef4b0a6e5601279d561e15aa849fbc6e210-DHL_DE_logo_white.png" align="center" width="100px" />  </Card_1>
 
   <Card_1 href="https://docs.intersoftsapient.net/docs/dpd-ireland" tooltip="DPD Ireland">
     <Image src="https://files.readme.io/29395e7088c208b65f011671925824383dc65a6594a07b503f1e57163c96ed5a-DPD_Ireland_logo_white.png" align="center" width="100px" />
@@ -77,8 +76,12 @@ The following carrier guides are included in this section:
     <Image src="https://files.readme.io/fd33881958476474461aeb2782e3edb82cf11e91765108544679a189497f4dda-InPost_white_logo.png" align="center" width="100px" />
   </Card_1>
 
+<Card_1 href="https://docs.intersoftsapient.net/docs/spring-gds" tooltip="Spring GDS">
+    <Image src="https://files.readme.io/75da1339757f467dcd7d276afb696e8ce620ae15d05d2a2a64705179d0042939-Spring_Logo.png" align="center" width="100px" />
+  </Card_1>
+
   <Card_1 href="https://docs.intersoftsapient.net/docs/starlinks-global" tooltip="Starlinks Global">
-    <Image src="https://files.readme.io/016d7006dcfd2b4813eb0895adc291d7f1eb09c385981d3d639210503b8bd6be-Starlinks_logo_white.png" align="center" width="100px" />
+    <Image src="https://files.readme.io/aaa73ee56fe0d73cee188bc5c5e18c79437dced5d9414b24d1e007abcd257bf7-Starlinks_logo_white.png" align="center" width="100px" />
   </Card_1>
 
   <Card_1 href="https://docs.intersoftsapient.net/docs/the-delivery-group" tooltip="The Delivery Group">
@@ -88,4 +91,5 @@ The following carrier guides are included in this section:
   <Card_1 href="https://docs.intersoftsapient.net/docs/ups" tooltip="UPS">
     <Image src="https://files.readme.io/24ba24bb987cd0636f2f1194aa88345f6ddba59ad5e0fa03a6568a3911941bea-UPS_logo_white.png" align="center" width="100px" />
   </Card_1>
+
 </Cards_1>
