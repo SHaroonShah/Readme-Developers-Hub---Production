@@ -103,7 +103,7 @@ next:
     <Image src="https://files.readme.io/fd33881958476474461aeb2782e3edb82cf11e91765108544679a189497f4dda-InPost_white_logo.png" align="center" width="100px" />
   </Card_1>
 
-<Card_1 href="https://docs.intersoftsapient.net/docs/inpost" tooltip="Spring GDS">
+<Card_1 href="https://docs.intersoftsapient.net/docs/spring-gds" tooltip="Spring GDS">
     <Image src="https://files.readme.io/75da1339757f467dcd7d276afb696e8ce620ae15d05d2a2a64705179d0042939-Spring_Logo.png" align="center" width="100px" />
   </Card_1>
 
@@ -160,6 +160,3 @@ next:
     > Find answers to common queries and additional guidance on compliance.
   </Card>
 </Cards>
-
-
-
