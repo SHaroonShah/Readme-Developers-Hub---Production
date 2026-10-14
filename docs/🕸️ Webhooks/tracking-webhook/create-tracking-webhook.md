@@ -103,7 +103,7 @@ To set up the tracking webhook connection in SAPIENT, perform the steps as expla
         "EventLocation": {
           "Location": "Heathrow",
           "CountryCode": "GB"
-        }
+}
 ```
     <br />
 
