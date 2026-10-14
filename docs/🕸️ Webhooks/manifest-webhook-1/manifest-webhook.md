@@ -132,8 +132,6 @@ To set up the manifest webhook connection in SAPIENT, follow the instructions as
   "ServiceCode": "EXPRESS"
 }
 ```
-
-```
     <br />
 
     If for some reason, the connectivity test fails, the following message is displayed:
