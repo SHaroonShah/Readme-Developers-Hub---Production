@@ -123,7 +123,15 @@ To set up the manifest webhook connection in SAPIENT, follow the instructions as
 
     Following the success response, a test tracking payload is sent to the webhook as follows:
 
-    <Image align="center" border={true} src="https://files.readme.io/6b06c9d-image.png" caption="tracking payload response example" />
+   ```text
+{
+  "ShippingLocationId": "D94E8CFD-604B-4B87-83E9-3F20CAF02837",
+  "ContainerId": "123336545898",
+  "Status": "Picked",
+  "ShippingAccountId": "88470398-A520-4069-BDF9-69D11D48831A",
+  "ServiceCode": "EXPRESS"
+}
+```
     <br />
 
     If for some reason, the connectivity test fails, the following message is displayed:
@@ -178,3 +186,13 @@ To set up the manifest webhook connection in SAPIENT, follow the instructions as
     Manage and resolve webhook suspension scenarios.
   </Card>
 </Cards>
+
+```text
+{
+  "ShippingLocationId": "D94E8CFD-604B-4B87-83E9-3F20CAF02837",
+  "ContainerId": "123336545898",
+  "Status": "Picked",
+  "ShippingAccountId": "88470398-A520-4069-BDF9-69D11D48831A",
+  "ServiceCode": "EXPRESS"
+}
+```
