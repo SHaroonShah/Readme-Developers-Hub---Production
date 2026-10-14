@@ -94,6 +94,43 @@ To set up the shipment webhook connection in SAPIENT, perform the steps as expla
 
     <br />
 
+   Following the success response, a test tracking payload is sent to the webhook as follows:
+
+    ```text
+{
+  "ShipmentInformation": {
+    "ReturnLabelsAtPackageLevel": false,
+    "ContentType": "NDX",
+    "ServiceCode": "CRL1",
+    "DescriptionOfGoods": "Clothes",
+    "ShipmentDate": "2026-10-13",
+    "WeightUnitOfMeasure": "KG",
+    "DimensionsUnitOfMeasure": "CM"
+  },
+  "Shipper": {
+    "ShippingAccountId": "689a9050-a143-4ead-8c93-9a00cb332347",
+    "Reference1": "OrderRef56"
+  },
+  "Destination": {
+    "Address": {
+      "ContactName": "John Smith",
+      "ContactEmail": "john.smith@example.com",
+      "ContactPhone": "07123456789",
+      "Line1": "10 Sky Road",
+      "Town": "Woking",
+      "Postcode": "GU21 4TE",
+      "CountryCode": "GB"
+    }
+  },
+  "Packages": [
+    {
+      "PackageType": "Parcel",
+      "DeclaredWeight": 1.5
+    }
+  ]
+}
+```
+
     If for some reason, the connectivity test fails, the following message is displayed:
 
     <Image align="center" border={true} src="https://files.readme.io/65a4983-image.png" width="660px" caption="Failed connection response" />
