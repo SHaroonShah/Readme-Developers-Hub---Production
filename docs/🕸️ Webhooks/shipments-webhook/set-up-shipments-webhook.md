@@ -96,7 +96,8 @@ To set up the shipment webhook connection in SAPIENT, perform the steps as expla
 
    Following the success response, a test shipment payload is sent to the webhook as follows:
 
-    ```cplusplus
+    ```Payload Example
+
 {
   "ShipmentInformation": {
     "ReturnLabelsAtPackageLevel": false,
