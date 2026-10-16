@@ -131,7 +131,6 @@ In SAPIENT, you can create a Royal Mail shipping account by selecting your desir
               <td>
                 Enter the postcode registered with Royal Mail for receiving invoices.
                 <br />
-                <br />
                 <em><code>Note</code>: If you are unsure of the postcode, use the one shown on your invoice.</em>
               </td>
             </tr>
