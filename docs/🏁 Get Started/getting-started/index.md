@@ -5,7 +5,8 @@ excerpt: >-
   to facilitate seamless integration with various shipping carriers, third-party
   logistics provider, and other eCommerce platforms. By leveraging APIs, SAPIENT
   enhances its adaptability and user friendliness, providing a simple, reliant
-  shipping API to easily create and manage shipments, generate labels, and more.
+  shipping API to easily create and manage shipments, generate labels, and much
+  more.
 deprecated: false
 hidden: false
 icon: fad fa-warehouse
