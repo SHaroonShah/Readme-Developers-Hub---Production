@@ -20,7 +20,7 @@ In SAPIENT, you can create a Royal Mail shipping account by selecting your desir
 
   _Before you can set up a Royal Mail shipping account, make sure you have completed the following prerequisites:&#x20;_
 
-  - [_Set up and activated_](https://docs.intersoftsapient.net/docs/oba-email-validation)_&#x20;the Royal Mail OBA account_
+  - [_Set up and activated_](https://docs.intersoftsapient.net/docs/oba-email-validation)_&#x20;the Royal Mail&#x20;_<Glossary>Online Business Account</Glossary> _(OBA) account_
   - [_Enabled the label integration_](https://docs.intersoftsapient.net/docs/integration-activation)_&#x20;with Royal Mail and have already&#x20;_[_created a shipping location_](https://docs.intersoftsapient.net/docs/add-a-shipping-location)
 </Callout>
 
