@@ -100,7 +100,6 @@ In SAPIENT, you can create a Royal Mail shipping account by selecting your desir
               <td>
                 Enter a ten digit account number. This must be a ten digit number. If your account number is shorter than this, then you need to add the required amount of zero's at the beginning of the number to ensure it is ten digits long.
                 <br />
-                <br />
                 The format of the account number must be compliant with the carrier you have selected. If your account number does not meet the requirements, you may need to add the required amount of zero's at the beginning of the number to ensure it is ten digit long.
               </td>
             </tr>
@@ -123,7 +122,6 @@ In SAPIENT, you can create a Royal Mail shipping account by selecting your desir
               <td><strong>Registered Email Address</strong>&#42;</td>
               <td>
                 Enter the email address that was used to register the Royal Mail online business account (OBA).
-                <br />
                 <br />
                 For more information on OBA, refer to the <a href="https://docs.intersoftsapient.net/docs/oba-email-validation">Set up Royal Mail OBA account</a> section.
               </td>
