@@ -39,14 +39,17 @@ The integration of An Post, Ireland's national postal service, into the SAPIENT 
       </Card>
 
       <Card title="Incoterms Support" icon="fa-solid fa-file-contract">
-        The integration supports <Glossary>DDU</Glossary> only.
+        The integration supports <Glossary>DDP</Glossary> and <Glossary>DDU</Glossary> incoterms.
+
+        > For  <Glossary>DDU</Glossary> incoterm, the the destination contact email must be provided.
       </Card>
 
       <Card title="Label Formats" icon="fa-solid fa-tag">
         The integration support labels in <Glossary>PDF</Glossary> and <Glossary>PNG</Glossary> formats.
       </Card>
     </Cards>
-<br />
+
+    <br />
 
     <Accordion title="Important considerations">
       Please bear in mind the following:
