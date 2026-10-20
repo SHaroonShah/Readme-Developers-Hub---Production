@@ -86,7 +86,7 @@
                     "value": {
                       "ShippingAccounts": [
                         {
-                          "ShippingAccountId": "c0525540-921d-4764-bdf0-ef6a1e4a8c25",
+                          "ShippingAccountId": "e475775d-0e58-438e-becb-e521af23369b",
                           "CarrierCode": "INPOST",
                           "AccountNumber": "IN0000001",
                           "AccountType": "Sandbox",
@@ -96,11 +96,11 @@
                           "ContactName": "John Smith",
                           "ContactNumber": "0123456789",
                           "LastUpdatedBy": "User A",
-                          "LastUpdatedDateUtc": "2026-10-13T08:44:02.763Z",
+                          "LastUpdatedDateUtc": "2026-10-20T14:23:44.992Z",
                           "ClientId": "example@inpost.co.uk"
                         },
                         {
-                          "ShippingAccountId": "8dde713d-7a5c-4d7a-9e3b-2605912059aa",
+                          "ShippingAccountId": "83e6a72d-7da9-4fc4-be34-5233f3887b2b",
                           "CarrierCode": "INPOST",
                           "AccountNumber": "IN0000007",
                           "AccountType": "Sandbox",
@@ -110,7 +110,7 @@
                           "ContactName": "Joan Smith",
                           "ContactNumber": "0123456789",
                           "LastUpdatedBy": "User B",
-                          "LastUpdatedDateUtc": "2026-10-13T08:44:02.763Z",
+                          "LastUpdatedDateUtc": "2026-10-20T14:23:44.992Z",
                           "ClientId": "example2@inpost.co.uk"
                         }
                       ],
@@ -260,7 +260,7 @@
                 "examples": {
                   "Response": {
                     "value": {
-                      "ShippingAccountId": "fb690e69-eb62-4afd-917f-ba18943f83ec",
+                      "ShippingAccountId": "6cb4532c-2021-45c0-8c46-c9a958c58613",
                       "CarrierCode": "INPOST",
                       "AccountNumber": "IN0000001",
                       "AccountType": "Sandbox",
@@ -270,7 +270,7 @@
                       "ContactName": "John Smith",
                       "ContactNumber": "0123456789",
                       "LastUpdatedBy": "User A",
-                      "LastUpdatedDateUtc": "2026-10-13T08:44:02.879Z",
+                      "LastUpdatedDateUtc": "2026-10-20T14:23:45.110Z",
                       "ClientId": "example@inpost.co.uk"
                     }
                   }
@@ -653,7 +653,7 @@
                       "ServiceCode": "B2C",
                       "DescriptionOfGoods": "Clothing",
                       "BusinessTransactionType": "B2C",
-                      "ShipmentDate": "2026-10-13",
+                      "ShipmentDate": "2026-10-20",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
@@ -661,17 +661,17 @@
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "127330f0-6311-4951-a54f-720a6c40f0cc",
-                      "ShippingLocationId": "d945e016-733e-47c7-9507-979f23c30f38",
+                      "ShippingAccountId": "18e0ec19-5ce9-4e03-b42e-07583a7db338",
+                      "ShippingLocationId": "47c4c7f7-73a1-4ebf-b13d-a7f6c62259d1",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
                       "VatNumber": "GB213456789",
                       "Address": {
+                        "ContactEmail": "email@server.com",
                         "ContactPhone": "607723456789",
                         "ContactName": "Jane Smith",
                         "CompanyName": "Company & Co.",
-                        "ContactEmail": "email@server.com",
                         "Line1": "Level 5",
                         "Line2": "Hashmoore House",
                         "Line3": "10 Sky Lane",
@@ -756,14 +756,14 @@
                       "ContentType": "NDX",
                       "ServiceCode": "B2C",
                       "DescriptionOfGoods": "Clothing",
-                      "ShipmentDate": "2026-10-13",
+                      "ShipmentDate": "2026-10-20",
                       "DeclaredWeight": 1.5,
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "805a0306-66af-4557-858e-8b185bbe0b7c",
-                      "ShippingLocationId": "5934e709-0fb8-40ba-8ac9-585b70357bca",
+                      "ShippingAccountId": "92fe06b6-5786-44d3-a557-a9c62b8bf267",
+                      "ShippingLocationId": "374050f0-0c49-46a4-b146-6994bd4afd16",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -793,13 +793,13 @@
                       "ContentType": "NDX",
                       "ServiceCode": "RETURNS",
                       "DescriptionOfGoods": "Clothing",
-                      "ShipmentDate": "2026-10-13",
+                      "ShipmentDate": "2026-10-20",
                       "DeclaredWeight": 1.5,
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "331512ab-320b-468b-931d-f4ec7460d7d8"
+                      "ShippingAccountId": "a0ebda91-280b-4622-9a43-a04fc76fe920"
                     },
                     "Destination": {
                       "Address": {
@@ -839,7 +839,7 @@
                       "LabelFormat": "Pdf",
                       "Packages": [
                         {
-                          "ShipmentId": "e563a527-3a75-4b83-acea-ceae6a2bfa89",
+                          "ShipmentId": "6391598c-7526-41fd-b70b-e8f32d655900",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "MD000000004409629",
                           "CarrierTrackingUrl": "https://tracking.inpost.co.uk/api/v2.0/MD000000004409629"
@@ -921,7 +921,7 @@
                       "ServiceCode": "B2C",
                       "DescriptionOfGoods": "Clothing",
                       "BusinessTransactionType": "B2C",
-                      "ShipmentDate": "2026-10-13",
+                      "ShipmentDate": "2026-10-20",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
@@ -929,17 +929,17 @@
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "b4f1f41b-88ba-44c1-8f9f-592e53f72b96",
-                      "ShippingLocationId": "eb4f748b-4c0c-45c1-875b-93e8a9bd06e7",
+                      "ShippingAccountId": "27e9ebe3-2e50-41d3-9794-ec534e6200fe",
+                      "ShippingLocationId": "95d3aa64-f6e2-4dee-bf56-e6ff8c39e7b1",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
                       "VatNumber": "GB213456789",
                       "Address": {
+                        "ContactEmail": "email@server.com",
                         "ContactPhone": "607723456789",
                         "ContactName": "Jane Smith",
                         "CompanyName": "Company & Co.",
-                        "ContactEmail": "email@server.com",
                         "Line1": "Level 5",
                         "Line2": "Hashmoore House",
                         "Line3": "10 Sky Lane",
@@ -1024,14 +1024,14 @@
                       "ContentType": "NDX",
                       "ServiceCode": "B2C",
                       "DescriptionOfGoods": "Clothing",
-                      "ShipmentDate": "2026-10-13",
+                      "ShipmentDate": "2026-10-20",
                       "DeclaredWeight": 1.5,
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "b128f3c6-165c-44f3-89d9-82ed5a166da1",
-                      "ShippingLocationId": "d4a0debd-ecdd-4eca-a0ee-306f90798bd4",
+                      "ShippingAccountId": "f53e3e85-e226-4414-9449-fc009a199a68",
+                      "ShippingLocationId": "a58dedc7-8dcd-430e-9112-5a0738ba857e",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -1061,13 +1061,13 @@
                       "ContentType": "NDX",
                       "ServiceCode": "RETURNS",
                       "DescriptionOfGoods": "Clothing",
-                      "ShipmentDate": "2026-10-13",
+                      "ShipmentDate": "2026-10-20",
                       "DeclaredWeight": 1.5,
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "522c696f-d64b-4c19-b076-593cd6c9808b"
+                      "ShippingAccountId": "dcc6f69f-f6ac-4fa7-9275-85065978ae1c"
                     },
                     "Destination": {
                       "Address": {
@@ -1101,7 +1101,7 @@
                   "$ref": "#/components/schemas/CreateShipmentViaWebhookResponse"
                 },
                 "example": {
-                  "RequestId": "179c3241-0e60-4cb0-886a-33e07d1407d7"
+                  "RequestId": "73185a83-f6c5-42e3-98a8-3c09a2e48fa3"
                 }
               }
             }
@@ -1190,7 +1190,7 @@
                 "examples": {
                   "PDF": {
                     "value": {
-                      "ShipmentId": "407594e0-c3a9-43c0-bbf2-8ae374b34b89",
+                      "ShipmentId": "36842327-dddd-4b1a-9cba-fe9afce5fb12",
                       "TrackingNumber": "5949545283154118",
                       "CarrierTrackingUrl": "https://tracking.inpost.co.uk/api/v2.0/5949545283154118",
                       "Label": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
@@ -2381,6 +2381,13 @@
             "maxLength": 50,
             "type": "string",
             "description": "A globally recognised product identifier for the item being shipped, for example, GTIN, EAN, and UPC. This field is used for standardised item identification and supports carrier-specific requirements for customs and risk assessment.",
+            "nullable": true
+          },
+          "PGAReferenceNumber": {
+            "maxLength": 50,
+            "pattern": "^[\\x20-\\x2B\\x2D-\\x7E]*$",
+            "type": "string",
+            "description": "The Partner Government Agency (PGA) reference number associated with the item, used to support customs and regulatory requirements for shipments to the United States and US territories.\r<br />\r<br />***Note:** This field is applicable to shipments destined for the United States and US territories.*",
             "nullable": true
           },
           "SupplementaryUnits": {
