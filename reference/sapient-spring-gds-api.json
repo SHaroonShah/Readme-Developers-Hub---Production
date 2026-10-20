@@ -86,7 +86,7 @@
                     "value": {
                       "ShippingAccounts": [
                         {
-                          "ShippingAccountId": "16f07f0b-6eb8-4390-8188-64240c685573",
+                          "ShippingAccountId": "a4824f1c-ed48-47d0-bf8d-8874bb2645b6",
                           "CarrierCode": "SPRING",
                           "AccountNumber": "SP0000001",
                           "AccountType": "Sandbox",
@@ -96,10 +96,10 @@
                           "ContactName": "John Smith",
                           "ContactNumber": "0123456789",
                           "LastUpdatedBy": "User A",
-                          "LastUpdatedDateUtc": "2026-10-13T08:46:36.692Z"
+                          "LastUpdatedDateUtc": "2026-10-20T14:27:46.666Z"
                         },
                         {
-                          "ShippingAccountId": "fdb6a183-1a3a-421e-8d3a-f1a71d3f87a9",
+                          "ShippingAccountId": "1f6f9b42-ff15-47f0-a230-9410b89a69f9",
                           "CarrierCode": "SPRING",
                           "AccountNumber": "SP0000002",
                           "AccountType": "Sandbox",
@@ -109,7 +109,7 @@
                           "ContactName": "Joan Smith",
                           "ContactNumber": "0123456789",
                           "LastUpdatedBy": "User B",
-                          "LastUpdatedDateUtc": "2026-10-13T08:46:36.692Z"
+                          "LastUpdatedDateUtc": "2026-10-20T14:27:46.666Z"
                         }
                       ],
                       "TotalCount": 2
@@ -258,7 +258,7 @@
                 "examples": {
                   "Response": {
                     "value": {
-                      "ShippingAccountId": "bed964f2-473d-4d48-90e5-16107207b20c",
+                      "ShippingAccountId": "c3292f85-3afb-4d98-be01-4ff448f62064",
                       "CarrierCode": "SPRING",
                       "AccountNumber": "SP0000001",
                       "AccountType": "Sandbox",
@@ -268,7 +268,7 @@
                       "ContactName": "John Smith",
                       "ContactNumber": "0123456789",
                       "LastUpdatedBy": "User A",
-                      "LastUpdatedDateUtc": "2026-10-13T08:46:36.813Z"
+                      "LastUpdatedDateUtc": "2026-10-20T14:27:46.824Z"
                     }
                   }
                 }
@@ -647,14 +647,14 @@
                       "ContentType": "NDX",
                       "ServiceCode": "TRCK",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-10-13",
+                      "ShipmentDate": "2026-10-20",
                       "DeclaredWeight": 1.5,
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "976a526a-1ae5-4e47-b015-3cde45039d92",
-                      "Reference1": "Order202610134636"
+                      "ShippingAccountId": "21c8b232-1865-469f-a1ee-fa126aa621a4",
+                      "Reference1": "Order202610202746"
                     },
                     "Destination": {
                       "Address": {
@@ -689,23 +689,23 @@
                       "ContentType": "NDX",
                       "ServiceCode": "TRCK",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-10-13",
+                      "ShipmentDate": "2026-10-20",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "3caa930f-24b0-40a4-a06d-9ab591ece884",
-                      "Reference1": "Order202610134636",
+                      "ShippingAccountId": "330ab909-2394-4b28-99b4-921b09704845",
+                      "Reference1": "Order202610202746",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
                       "VatNumber": "GB213456789",
                       "Address": {
+                        "ContactEmail": "thomas.schneider@example.com",
                         "ContactPhone": "017698765432",
                         "ContactName": "Thomas Schneider",
                         "CompanyName": "Schneider Elektrotechnik GmbH",
-                        "ContactEmail": "thomas.schneider@example.com",
                         "Line1": "Leopoldstraße 45",
                         "Line2": "Hashmoore House",
                         "Line3": "10 Sky Lane",
@@ -773,14 +773,14 @@
                       "ContentType": "NDX",
                       "ServiceCode": "TRCK",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-10-13",
+                      "ShipmentDate": "2026-10-20",
                       "DeclaredWeight": 1.5,
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "2cb8961e-7f97-44b8-ab81-6bcce6a8851b",
-                      "Reference1": "Order202610134636"
+                      "ShippingAccountId": "45a6dbf7-40b8-4b6c-b765-17d7ce258d5e",
+                      "Reference1": "Order202610202746"
                     },
                     "Destination": {
                       "Address": {
@@ -814,14 +814,14 @@
                       "ContentType": "NDX",
                       "ServiceCode": "TRCK",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-10-13",
+                      "ShipmentDate": "2026-10-20",
                       "DeclaredWeight": 1.5,
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "6dc12b17-ebcd-4a98-b969-64782b824d90",
-                      "Reference1": "Order202610134636"
+                      "ShippingAccountId": "77ff2f6b-98ed-45d2-a1f7-0f627271e152",
+                      "Reference1": "Order202610202746"
                     },
                     "Destination": {
                       "Address": {
@@ -855,14 +855,14 @@
                       "ContentType": "NDX",
                       "ServiceCode": "TRCK",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-10-13",
+                      "ShipmentDate": "2026-10-20",
                       "DeclaredWeight": 1.5,
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "2580cb3c-5102-4b1f-ace9-1c2ebd919b05",
-                      "Reference1": "Order202610134636"
+                      "ShippingAccountId": "3dcd2d87-3896-426d-877b-1537bab0bc57",
+                      "Reference1": "Order202610202746"
                     },
                     "Destination": {
                       "Address": {
@@ -895,15 +895,15 @@
                       "ContentType": "NDX",
                       "ServiceCode": "TRCK",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-10-13",
+                      "ShipmentDate": "2026-10-20",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "8b4f2576-7bcf-4a9d-905a-e333584e9dd8",
-                      "Reference1": "Order202610134636",
+                      "ShippingAccountId": "e8352afa-feaf-44e2-a8e0-b8c9efac047a",
+                      "Reference1": "Order202610202746",
                       "EoriNumber": "GB205672212000",
                       "VatNumber": "GB123456789"
                     },
@@ -982,23 +982,23 @@
                       "ContentType": "NDX",
                       "ServiceCode": "TRCK",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-10-13",
+                      "ShipmentDate": "2026-10-20",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "a4c063b5-8cea-4503-b390-4a43b5b8de73",
-                      "Reference1": "Order202610134636",
+                      "ShippingAccountId": "a362f3f0-367b-4042-83af-d9e2d2039fab",
+                      "Reference1": "Order202610202746",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
                       "VatNumber": "GB213456789",
                       "Address": {
+                        "ContactEmail": "thomas.schneider@example.com",
                         "ContactPhone": "017698765432",
                         "ContactName": "Thomas Schneider",
                         "CompanyName": "Schneider Elektrotechnik GmbH",
-                        "ContactEmail": "thomas.schneider@example.com",
                         "Line1": "Leopoldstraße 45",
                         "Line2": "Hashmoore House",
                         "Line3": "10 Sky Lane",
@@ -1066,7 +1066,7 @@
                       "OtherCharges": 32,
                       "QuotedLandedCost": 82.74,
                       "InvoiceNumber": "INV-12345",
-                      "InvoiceDate": "2026-10-13",
+                      "InvoiceDate": "2026-10-20",
                       "ExportLicenceRequired": false,
                       "Airn": "231.002.999-00"
                     }
@@ -1089,7 +1089,7 @@
                     "value": {
                       "Packages": [
                         {
-                          "ShipmentId": "b193ce1e-6ede-4bd5-9a65-f50b2a339eea",
+                          "ShipmentId": "c1400e8d-32f8-4b46-b029-f0859b03a13a",
                           "PackageOccurrence": 1
                         }
                       ],
@@ -1100,7 +1100,7 @@
                     "value": {
                       "Packages": [
                         {
-                          "ShipmentId": "2b42963d-04e9-4a16-bc03-4263e86f4684",
+                          "ShipmentId": "245233ee-ee72-4279-aa29-883f4ea705a6",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "CD123456789NL",
                           "CarrierTrackingUrl": "https://t.17track.net/en#nums=CD123456789NL"
@@ -1115,7 +1115,7 @@
                       "LabelFormat": "PDF",
                       "Packages": [
                         {
-                          "ShipmentId": "3bcdd1a4-0193-4ed3-ac2d-3f3c33440489",
+                          "ShipmentId": "f4520a30-5daa-4ea2-8098-4fc5b45c2b55",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "CD123456789NL",
                           "CarrierTrackingUrl": "https://t.17track.net/en#nums=CD123456789NL"
@@ -1130,7 +1130,7 @@
                       "LabelFormat": "PNG",
                       "Packages": [
                         {
-                          "ShipmentId": "69354e53-c9cb-4a26-a804-175aeaa498ba",
+                          "ShipmentId": "17c74a75-1a30-4767-979c-8c8342c5d2a3",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "CD123456789NL",
                           "CarrierTrackingUrl": "https://t.17track.net/en#nums=CD123456789NL"
@@ -1145,7 +1145,7 @@
                       "LabelFormat": "ZPL203DPI",
                       "Packages": [
                         {
-                          "ShipmentId": "62a33078-0362-4ed8-8692-de230f39300a",
+                          "ShipmentId": "27c3a1e4-109f-43a8-bbd8-ac2fd3f63dfd",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "CD123456789NL",
                           "CarrierTrackingUrl": "https://t.17track.net/en#nums=CD123456789NL"
@@ -1160,7 +1160,7 @@
                       "LabelFormat": "ZPL300DPI",
                       "Packages": [
                         {
-                          "ShipmentId": "18d7824a-a514-4cec-8ac5-b2578fa0d731",
+                          "ShipmentId": "49a119e2-f1f3-418d-9e4a-6c8f7f8b6306",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "CD123456789NL",
                           "CarrierTrackingUrl": "https://t.17track.net/en#nums=CD123456789NL"
@@ -1240,14 +1240,14 @@
                       "ContentType": "NDX",
                       "ServiceCode": "TRCK",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-10-13",
+                      "ShipmentDate": "2026-10-20",
                       "DeclaredWeight": 1.5,
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "3d80c912-006f-4b94-ac73-40ebec2de47b",
-                      "Reference1": "Order202610134636"
+                      "ShippingAccountId": "6afa084f-5750-4df9-bd1d-fcf76a626364",
+                      "Reference1": "Order202610202746"
                     },
                     "Destination": {
                       "Address": {
@@ -1282,23 +1282,23 @@
                       "ContentType": "NDX",
                       "ServiceCode": "TRCK",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-10-13",
+                      "ShipmentDate": "2026-10-20",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "947c9f98-5b21-4a66-8030-40a88dcead9a",
-                      "Reference1": "Order202610134636",
+                      "ShippingAccountId": "93d1885e-95d2-4a4d-9e50-ed1b1e235517",
+                      "Reference1": "Order202610202746",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
                       "VatNumber": "GB213456789",
                       "Address": {
+                        "ContactEmail": "thomas.schneider@example.com",
                         "ContactPhone": "017698765432",
                         "ContactName": "Thomas Schneider",
                         "CompanyName": "Schneider Elektrotechnik GmbH",
-                        "ContactEmail": "thomas.schneider@example.com",
                         "Line1": "Leopoldstraße 45",
                         "Line2": "Hashmoore House",
                         "Line3": "10 Sky Lane",
@@ -1366,14 +1366,14 @@
                       "ContentType": "NDX",
                       "ServiceCode": "TRCK",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-10-13",
+                      "ShipmentDate": "2026-10-20",
                       "DeclaredWeight": 1.5,
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "533ab3b1-20f8-4499-aa76-cd95d5c8c9f1",
-                      "Reference1": "Order202610134636"
+                      "ShippingAccountId": "63cf2867-472b-4094-ab3f-31ec98c7af78",
+                      "Reference1": "Order202610202746"
                     },
                     "Destination": {
                       "Address": {
@@ -1407,14 +1407,14 @@
                       "ContentType": "NDX",
                       "ServiceCode": "TRCK",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-10-13",
+                      "ShipmentDate": "2026-10-20",
                       "DeclaredWeight": 1.5,
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "85769b44-e923-4e6e-be5a-427326df4fe5",
-                      "Reference1": "Order202610134636"
+                      "ShippingAccountId": "93e4c988-fcac-44fd-90ac-16c8472aea71",
+                      "Reference1": "Order202610202746"
                     },
                     "Destination": {
                       "Address": {
@@ -1448,14 +1448,14 @@
                       "ContentType": "NDX",
                       "ServiceCode": "TRCK",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-10-13",
+                      "ShipmentDate": "2026-10-20",
                       "DeclaredWeight": 1.5,
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "d0b1ea46-7974-42db-8fda-defda972fe28",
-                      "Reference1": "Order202610134636"
+                      "ShippingAccountId": "1bc3ff87-ee0d-4a3b-894f-dc0d8b6e9db4",
+                      "Reference1": "Order202610202746"
                     },
                     "Destination": {
                       "Address": {
@@ -1488,15 +1488,15 @@
                       "ContentType": "NDX",
                       "ServiceCode": "TRCK",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-10-13",
+                      "ShipmentDate": "2026-10-20",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "9ed21140-d14d-427c-8930-c2dac93e6cfa",
-                      "Reference1": "Order202610134636",
+                      "ShippingAccountId": "dd3cbbed-b0cd-46bd-b7cf-394f9ff1a14c",
+                      "Reference1": "Order202610202746",
                       "EoriNumber": "GB205672212000",
                       "VatNumber": "GB123456789"
                     },
@@ -1575,23 +1575,23 @@
                       "ContentType": "NDX",
                       "ServiceCode": "TRCK",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-10-13",
+                      "ShipmentDate": "2026-10-20",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "8d66badb-8767-4748-841f-e366b0972723",
-                      "Reference1": "Order202610134636",
+                      "ShippingAccountId": "5bd12bb6-c8d6-46b9-8a79-d6d62c0b3680",
+                      "Reference1": "Order202610202746",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
                       "VatNumber": "GB213456789",
                       "Address": {
+                        "ContactEmail": "thomas.schneider@example.com",
                         "ContactPhone": "017698765432",
                         "ContactName": "Thomas Schneider",
                         "CompanyName": "Schneider Elektrotechnik GmbH",
-                        "ContactEmail": "thomas.schneider@example.com",
                         "Line1": "Leopoldstraße 45",
                         "Line2": "Hashmoore House",
                         "Line3": "10 Sky Lane",
@@ -1659,7 +1659,7 @@
                       "OtherCharges": 32,
                       "QuotedLandedCost": 82.74,
                       "InvoiceNumber": "INV-12345",
-                      "InvoiceDate": "2026-10-13",
+                      "InvoiceDate": "2026-10-20",
                       "ExportLicenceRequired": false,
                       "Airn": "231.002.999-00"
                     }
@@ -1678,7 +1678,7 @@
                   "$ref": "#/components/schemas/CreateShipmentViaWebhookResponse"
                 },
                 "example": {
-                  "RequestId": "af4fc865-9268-4efa-a1fa-0c1484d95755"
+                  "RequestId": "95a01336-0c26-409f-b6f9-df21de0bfbbe"
                 }
               }
             }
@@ -1733,7 +1733,7 @@
         "tags": [
           "Shipments"
         ],
-        "summary": "Print Label",
+        "summary": "Print Label.",
         "description": "This changes the status of the shipment to label printed.",
         "parameters": [
           {
@@ -1767,7 +1767,7 @@
                 "examples": {
                   "PDF": {
                     "value": {
-                      "ShipmentId": "7e2ce631-5cd6-4aaa-ae46-e73b030fee27",
+                      "ShipmentId": "5a871dcd-91c3-4043-b37b-ea065796a8cf",
                       "TrackingNumber": "CD123456789NL",
                       "CarrierTrackingUrl": "https://t.17track.net/en#nums=CD123456789NL",
                       "Label": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
@@ -1776,7 +1776,7 @@
                   },
                   "PNG": {
                     "value": {
-                      "ShipmentId": "861f91dc-9266-48da-b0a9-89c54c541163",
+                      "ShipmentId": "41d0e45b-83c2-4e38-955d-58d235194fe1",
                       "TrackingNumber": "CD123456789NL",
                       "CarrierTrackingUrl": "https://t.17track.net/en#nums=CD123456789NL",
                       "Label": "iVBORw0KGgoAAAANSUhEUgAAAPAAAAB8CAYAAAB...",
@@ -1785,7 +1785,7 @@
                   },
                   "ZPL203DPI": {
                     "value": {
-                      "ShipmentId": "2912e8eb-1d47-49dc-9953-09768b810d99",
+                      "ShipmentId": "6744c882-9be3-48b9-b1ed-8ccb9a1a343b",
                       "TrackingNumber": "CD123456789NL",
                       "CarrierTrackingUrl": "https://t.17track.net/en#nums=CD123456789NL",
                       "Label": "fkRHUjpkaGxsZz....MTkzICBERV5GU15YWg==",
@@ -1794,7 +1794,7 @@
                   },
                   "ZPL300DPI": {
                     "value": {
-                      "ShipmentId": "4b744cf7-0127-47b1-975e-327a14ea9455",
+                      "ShipmentId": "4e4733d2-a589-40a5-a71d-b1145d72440a",
                       "TrackingNumber": "CD123456789NL",
                       "CarrierTrackingUrl": "https://t.17track.net/en#nums=CD123456789NL",
                       "Label": "fkRHUjpkaGxsZz....MTkzICBERV5GU15YWg==",
@@ -2514,6 +2514,13 @@
             "maxLength": 50,
             "type": "string",
             "description": "A globally recognised product identifier for the item being shipped, for example, GTIN, EAN, and UPC. This field is used for standardised item identification and supports carrier-specific requirements for customs and risk assessment.",
+            "nullable": true
+          },
+          "PGAReferenceNumber": {
+            "maxLength": 50,
+            "pattern": "^[\\x20-\\x2B\\x2D-\\x7E]*$",
+            "type": "string",
+            "description": "The Partner Government Agency (PGA) reference number associated with the item, used to support customs and regulatory requirements for shipments to the United States and US territories.\r<br />\r<br />***Note:** This field is applicable to shipments destined for the United States and US territories.*",
             "nullable": true
           },
           "SupplementaryUnits": {
