@@ -29,7 +29,7 @@ Expand the following sections to learn how to generate the Hazmat label for clas
 
   2. **ID8000Category field**: When creating the shipping request, the **Id8000Category** field in the API must be populated to match existing values.
 
-  3. **PrintId8000Label field**: The Create Shipment API response will include the ID8000 label only if the **PrintId8000Label** field is populated with "yes."
+  3. **PrintId8000Label field**: The Create Shipment API response will include the ID8000 label only if the **PrintId8000Label** field is populated with "true."
 
   4. **Multiple items**: For shipments containing multiple Class 9 items, a single ID8000 label will be produced with all relevant categories checked on the label.
 
