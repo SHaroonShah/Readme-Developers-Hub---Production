@@ -86,7 +86,7 @@
                     "value": {
                       "ShippingAccounts": [
                         {
-                          "ShippingAccountId": "f19fdc5a-363a-4498-82ba-c8e193e2db58",
+                          "ShippingAccountId": "18dc9345-8b32-4f70-a6f9-07ab9eda0cd2",
                           "CarrierCode": "ANPOST",
                           "AccountNumber": "01234567",
                           "AccountType": "Sandbox",
@@ -96,10 +96,10 @@
                           "ContactName": "John Smith",
                           "ContactNumber": "0123456789",
                           "LastUpdatedBy": "User A",
-                          "LastUpdatedDateUtc": "2026-10-13T08:43:07.167Z"
+                          "LastUpdatedDateUtc": "2026-10-20T14:23:30.589Z"
                         },
                         {
-                          "ShippingAccountId": "e2ec2477-e958-4c44-8915-06181b10e1ed",
+                          "ShippingAccountId": "ee3efc64-1a9b-4f10-b6a3-57a5961e89ac",
                           "CarrierCode": "ANPOST",
                           "AccountNumber": "98765432",
                           "AccountType": "Sandbox",
@@ -109,7 +109,7 @@
                           "ContactName": "Joan Smith",
                           "ContactNumber": "0123456789",
                           "LastUpdatedBy": "User B",
-                          "LastUpdatedDateUtc": "2026-10-13T08:43:07.167Z"
+                          "LastUpdatedDateUtc": "2026-10-20T14:23:30.589Z"
                         }
                       ],
                       "TotalCount": 2
@@ -258,7 +258,7 @@
                 "examples": {
                   "Response": {
                     "value": {
-                      "ShippingAccountId": "a72c1ecd-1fd5-411e-a784-5017e1b1669a",
+                      "ShippingAccountId": "5a60f16f-f4ff-49e4-b270-8686b2b2b19b",
                       "CarrierCode": "ANPOST",
                       "AccountNumber": "12345678",
                       "AccountType": "Sandbox",
@@ -268,7 +268,7 @@
                       "ContactName": "John Smith",
                       "ContactNumber": "0123456789",
                       "LastUpdatedBy": "User A",
-                      "LastUpdatedDateUtc": "2026-10-13T08:43:07.322Z"
+                      "LastUpdatedDateUtc": "2026-10-20T14:23:30.712Z"
                     }
                   }
                 }
@@ -647,14 +647,14 @@
                       "ContentType": "NDX",
                       "ServiceCode": "EMS",
                       "DescriptionOfGoods": "Clothing",
-                      "ShipmentDate": "2026-10-13",
+                      "ShipmentDate": "2026-10-20",
                       "DeclaredWeight": 1.5,
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "5a1452c7-5ee7-402b-aefa-1ab3d4ced6cc",
-                      "ShippingLocationId": "62229789-dfe1-4c94-bf4f-7dbeaf3c8bca",
+                      "ShippingAccountId": "a890caf4-9a6f-4930-9205-15f346cc3761",
+                      "ShippingLocationId": "21ff751c-fd85-4dcd-963c-cbff7c4f7655",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -691,24 +691,24 @@
                       "ServiceCode": "EMS",
                       "DescriptionOfGoods": "Clothing",
                       "BusinessTransactionType": "B2C",
-                      "ShipmentDate": "2026-10-13",
+                      "ShipmentDate": "2026-10-20",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "039aade3-6206-4fdb-ada6-9e5e728914e4",
-                      "ShippingLocationId": "071d3e2e-97ca-476f-86f8-cc6ad41a02a9",
+                      "ShippingAccountId": "e3cd146c-b204-4dbd-b761-e0e25c34f2ba",
+                      "ShippingLocationId": "fee6bbd6-1570-4857-aa9f-1c856a3eb63e",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
                       "VatNumber": "GB213456789",
                       "Address": {
+                        "ContactEmail": "email@server.com",
                         "ContactPhone": "607723456789",
                         "ContactName": "Jane Smith",
                         "CompanyName": "Company & Co.",
-                        "ContactEmail": "email@server.com",
                         "Line1": "AER ARANN ISLANDS",
                         "Line2": "KILLEANY",
                         "Line3": "Flat 3",
@@ -792,15 +792,15 @@
                       "ContentType": "NDX",
                       "ServiceCode": "EXP",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-10-13",
+                      "ShipmentDate": "2026-10-20",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "e7372cec-183c-4343-9140-c9b1e0205286",
-                      "ShippingLocationId": "7e44d6d5-4a29-42f1-8ee6-bf80177f1838",
+                      "ShippingAccountId": "4908f660-8140-4264-a800-bc4b13af0349",
+                      "ShippingLocationId": "f4e160ef-837b-414c-882c-6c3b71843ce0",
                       "Reference1": "OrderRef56",
                       "EoriNumber": "GB12345",
                       "VatNumber": "VA12345"
@@ -867,24 +867,24 @@
                       "ContentType": "NDX",
                       "ServiceCode": "EXP",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-10-13",
+                      "ShipmentDate": "2026-10-20",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "a64aae53-bb4a-4691-ad05-ba824a8dde08",
-                      "ShippingLocationId": "0dbce6fa-2035-4f35-b4ba-d044c523b16b",
+                      "ShippingAccountId": "ba0c33c9-90b4-494d-886a-b9704f848909",
+                      "ShippingLocationId": "41d2cb9a-0585-4d4b-b3dc-ecbc638e41f3",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
                       "VatNumber": "GB213456789",
                       "Address": {
+                        "ContactEmail": "email@server.com",
                         "ContactPhone": "607723456789",
                         "ContactName": "Jane Smith",
                         "CompanyName": "Company & Co.",
-                        "ContactEmail": "email@server.com",
                         "Line1": "BALLINA TRAIN STATION",
                         "Line2": "STATION ROAD",
                         "Line3": "flat 4",
@@ -932,7 +932,8 @@
                         "HSCode": "6109100010",
                         "CountryOfOrigin": "CN",
                         "ManufactureProductId": "5449000000996",
-                        "StandardisedProductId": "4006381333931"
+                        "StandardisedProductId": "4006381333931",
+                        "PGAReferenceNumber": "FDA-PN-0001234567"
                       },
                       {
                         "SkuCode": "SKU456",
@@ -945,7 +946,8 @@
                         "HSCode": "6110113000",
                         "CountryOfOrigin": "CN",
                         "ManufactureProductId": "5449000000997",
-                        "StandardisedProductId": "4006381333932"
+                        "StandardisedProductId": "4006381333932",
+                        "PGAReferenceNumber": "FDA-PN-0001234567"
                       }
                     ],
                     "Customs": {
@@ -957,7 +959,7 @@
                       "OtherCharges": 32,
                       "QuotedLandedCost": 82.74,
                       "InvoiceNumber": "INV-12345",
-                      "InvoiceDate": "2026-10-13",
+                      "InvoiceDate": "2026-10-20",
                       "ExportLicenceRequired": false,
                       "Airn": "231.002.999-00"
                     },
@@ -985,13 +987,13 @@
                       "ContentType": "NDX",
                       "ServiceCode": "EMS",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-10-13",
+                      "ShipmentDate": "2026-10-20",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "10bde2bc-5cae-48cf-8a23-1ff81daa1901",
-                      "ShippingLocationId": "397f6d28-7497-44b0-9ff2-d0deec84684e",
+                      "ShippingAccountId": "a463ae0c-2d96-46bb-9578-183afc62cced",
+                      "ShippingLocationId": "e0e92702-b3ad-4021-88d7-15d7e465c5b4",
                       "Reference1": "OrderRef56",
                       "Address": {
                         "AddressId": "John Brown Default"
@@ -1029,7 +1031,7 @@
                 "examples": {
                   "Create": {
                     "value": {
-                      "ConsignmentShipmentId": "206d5bc0-f30d-401e-a344-abc2317a7614",
+                      "ConsignmentShipmentId": "1d9616b4-52d0-4640-97d5-60eb456f93a0",
                       "Packages": [
                         {
                           "PackageOccurrence": 1
@@ -1039,7 +1041,7 @@
                   },
                   "Allocate": {
                     "value": {
-                      "ConsignmentShipmentId": "63e17f97-548b-47c0-9768-5f67bb2c42f5",
+                      "ConsignmentShipmentId": "556f4a18-1f0e-42ee-ba00-1717d6de6af5",
                       "ConsignmentTrackingNumber": "UZ 123 456 789 IE",
                       "ConsignmentCarrierTrackingUrl": "https://www.anpost.com/Post-Parcels/Track/Search/Results?rtt=1&items=UZ 123 456 789 IE",
                       "Packages": [
@@ -1053,7 +1055,7 @@
                   },
                   "Process - PDF": {
                     "value": {
-                      "ConsignmentShipmentId": "bc49d024-1fb4-4cf9-90d3-5c7508cc5fd8",
+                      "ConsignmentShipmentId": "f9ee2e2b-5864-47b3-8fc1-67c6c3fadf08",
                       "ConsignmentTrackingNumber": "UZ 123 456 789 IE",
                       "ConsignmentCarrierTrackingUrl": "https://www.anpost.com/Post-Parcels/Track/Search/Results?rtt=1&items=UZ 123 456 789 IE",
                       "Labels": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
@@ -1138,14 +1140,14 @@
                       "ContentType": "NDX",
                       "ServiceCode": "EMS",
                       "DescriptionOfGoods": "Clothing",
-                      "ShipmentDate": "2026-10-13",
+                      "ShipmentDate": "2026-10-20",
                       "DeclaredWeight": 1.5,
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "025263f3-73df-48bd-b95d-9c1223052170",
-                      "ShippingLocationId": "80ed27ff-7071-47b2-b961-7ced3497ee84",
+                      "ShippingAccountId": "490b0e46-516e-44b7-bd70-f9cceac6eb99",
+                      "ShippingLocationId": "976200bf-8831-4d71-bfcc-73bd0a7c7fbb",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -1182,24 +1184,24 @@
                       "ServiceCode": "EMS",
                       "DescriptionOfGoods": "Clothing",
                       "BusinessTransactionType": "B2C",
-                      "ShipmentDate": "2026-10-13",
+                      "ShipmentDate": "2026-10-20",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "1b40b65f-4ec3-4644-9603-bfcf9669fdcb",
-                      "ShippingLocationId": "e0787e23-117a-4cbd-bc35-6a2c91a14beb",
+                      "ShippingAccountId": "e564a778-690b-44fa-b91f-3996c7d49d94",
+                      "ShippingLocationId": "26c3ad12-785c-4fb0-9332-48b4097e0320",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
                       "VatNumber": "GB213456789",
                       "Address": {
+                        "ContactEmail": "email@server.com",
                         "ContactPhone": "607723456789",
                         "ContactName": "Jane Smith",
                         "CompanyName": "Company & Co.",
-                        "ContactEmail": "email@server.com",
                         "Line1": "AER ARANN ISLANDS",
                         "Line2": "KILLEANY",
                         "Line3": "Flat 3",
@@ -1283,15 +1285,15 @@
                       "ContentType": "NDX",
                       "ServiceCode": "EXP",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-10-13",
+                      "ShipmentDate": "2026-10-20",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "ccf8709f-1553-498e-a5a6-d6b15b3e361d",
-                      "ShippingLocationId": "f2cb0e23-1cb3-4342-9a19-9a875b4d7722",
+                      "ShippingAccountId": "ce5b6694-5f1b-4798-8d56-1906cee9759a",
+                      "ShippingLocationId": "94c122ac-219f-4158-9bbc-701c698877d1",
                       "Reference1": "OrderRef56",
                       "EoriNumber": "GB12345",
                       "VatNumber": "VA12345"
@@ -1358,24 +1360,24 @@
                       "ContentType": "NDX",
                       "ServiceCode": "EXP",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-10-13",
+                      "ShipmentDate": "2026-10-20",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "1415017c-bb61-440a-9a7a-e08a6bd9fe16",
-                      "ShippingLocationId": "00c11602-28df-406d-a62f-919fecbc8804",
+                      "ShippingAccountId": "fe22df0b-5c55-4f95-aef9-ed210d13dd6c",
+                      "ShippingLocationId": "5712e9ea-3934-4944-b9ef-05de7f7fd74a",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
                       "VatNumber": "GB213456789",
                       "Address": {
+                        "ContactEmail": "email@server.com",
                         "ContactPhone": "607723456789",
                         "ContactName": "Jane Smith",
                         "CompanyName": "Company & Co.",
-                        "ContactEmail": "email@server.com",
                         "Line1": "BALLINA TRAIN STATION",
                         "Line2": "STATION ROAD",
                         "Line3": "flat 4",
@@ -1423,7 +1425,8 @@
                         "HSCode": "6109100010",
                         "CountryOfOrigin": "CN",
                         "ManufactureProductId": "5449000000996",
-                        "StandardisedProductId": "4006381333931"
+                        "StandardisedProductId": "4006381333931",
+                        "PGAReferenceNumber": "FDA-PN-0001234567"
                       },
                       {
                         "SkuCode": "SKU456",
@@ -1436,7 +1439,8 @@
                         "HSCode": "6110113000",
                         "CountryOfOrigin": "CN",
                         "ManufactureProductId": "5449000000997",
-                        "StandardisedProductId": "4006381333932"
+                        "StandardisedProductId": "4006381333932",
+                        "PGAReferenceNumber": "FDA-PN-0001234567"
                       }
                     ],
                     "Customs": {
@@ -1448,7 +1452,7 @@
                       "OtherCharges": 32,
                       "QuotedLandedCost": 82.74,
                       "InvoiceNumber": "INV-12345",
-                      "InvoiceDate": "2026-10-13",
+                      "InvoiceDate": "2026-10-20",
                       "ExportLicenceRequired": false,
                       "Airn": "231.002.999-00"
                     },
@@ -1476,13 +1480,13 @@
                       "ContentType": "NDX",
                       "ServiceCode": "EMS",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-10-13",
+                      "ShipmentDate": "2026-10-20",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "a21d37f5-6fac-401e-8718-109b4e2a4c0e",
-                      "ShippingLocationId": "f6430263-62e1-4c8b-a097-0aebf7bf1575",
+                      "ShippingAccountId": "3c9e0205-51f3-4b53-be1b-d5d179148189",
+                      "ShippingLocationId": "7489dd8d-9c5f-4b28-a077-7c53bfb68674",
                       "Reference1": "OrderRef56",
                       "Address": {
                         "AddressId": "John Brown Default"
@@ -1518,7 +1522,7 @@
                   "$ref": "#/components/schemas/CreateShipmentViaWebhookResponse"
                 },
                 "example": {
-                  "RequestId": "15352a28-0a9b-4408-be81-a71fb0bfdec3"
+                  "RequestId": "57a154c0-8a7c-4318-a5d4-a80c93a85561"
                 }
               }
             }
@@ -1607,7 +1611,7 @@
                 "examples": {
                   "PDF": {
                     "value": {
-                      "ShipmentId": "57952172-404b-47fc-95df-c17b126899e4",
+                      "ShipmentId": "97c4c022-e69e-4d82-93c0-1eb24a437d3f",
                       "TrackingNumber": "UZ 123 456 789 IE",
                       "CarrierTrackingUrl": "https://www.anpost.com/Post-Parcels/Track/Search/Results?rtt=1&items=UZ 123 456 789 IE",
                       "Label": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
@@ -2552,6 +2556,13 @@
             "maxLength": 50,
             "type": "string",
             "description": "A globally recognised product identifier for the item being shipped, for example, GTIN, EAN, and UPC. This field is used for standardised item identification and supports carrier-specific requirements for customs and risk assessment.",
+            "nullable": true
+          },
+          "PGAReferenceNumber": {
+            "maxLength": 50,
+            "pattern": "^[\\x20-\\x2B\\x2D-\\x7E]*$",
+            "type": "string",
+            "description": "The Partner Government Agency (PGA) reference number associated with the item, used to support customs and regulatory requirements for shipments to the United States and US territories.\r<br />\r<br />***Note:** This field is applicable to shipments destined for the United States and US territories.*",
             "nullable": true
           },
           "SupplementaryUnits": {
