@@ -96,7 +96,7 @@
                       "Username": "Username A",
                       "SmsAlertGroupCode": "3363",
                       "LastUpdatedBy": "User A",
-                      "LastUpdatedDateUtc": "2026-10-13T08:41:13.694Z"
+                      "LastUpdatedDateUtc": "2026-10-20T14:20:57.909Z"
                     },
                     {
                       "ShippingAccountId": "46d58272-5f6a-405d-a947-c46c9caea56f",
@@ -111,7 +111,7 @@
                       "Username": "Username B",
                       "SmsAlertGroupCode": "3368",
                       "LastUpdatedBy": "User B",
-                      "LastUpdatedDateUtc": "2026-10-13T08:41:13.694Z"
+                      "LastUpdatedDateUtc": "2026-10-20T14:20:57.909Z"
                     }
                   ],
                   "TotalCount": 2
@@ -187,7 +187,7 @@
                     "SmsAlertGroupCode": "3363",
                     "ShippingLocations": [
                       {
-                        "ShippingLocationId": "61325a6a-7cd1-452b-95fd-e5cad3ba49cc"
+                        "ShippingLocationId": "fe2b1803-4c70-43f6-97ff-04698197383b"
                       }
                     ]
                   }
@@ -320,7 +320,7 @@
                   "Username": "username",
                   "SmsAlertGroupCode": "3363",
                   "LastUpdatedBy": "User A",
-                  "LastUpdatedDateUtc": "2026-10-13T08:41:13.890Z"
+                  "LastUpdatedDateUtc": "2026-10-20T14:20:58.180Z"
                 }
               }
             }
@@ -708,12 +708,12 @@
                       "ContentType": "NDX",
                       "ServiceCode": "STND",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-10-13",
+                      "ShipmentDate": "2026-10-20",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "23ced7ef-69cd-48f5-8fad-e95a8084db05",
+                      "ShippingAccountId": "75cbaf16-27a0-47b6-9f4f-7f56003d59e6",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -757,24 +757,24 @@
                       "ContentType": "NDX",
                       "ServiceCode": "STND",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-10-13",
+                      "ShipmentDate": "2026-10-20",
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM",
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "bd9634f9-e9dd-4712-8664-ac9de0da297a",
-                      "ShippingLocationId": "02e4d817-cbc9-411d-81b2-ec3264f8d6ab",
+                      "ShippingAccountId": "3c216b42-e8ae-4208-9752-5c75cf0ee47c",
+                      "ShippingLocationId": "9961859b-44af-48e3-8540-fe47e359f14b",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
                       "VatNumber": "GB213456789",
                       "Address": {
+                        "ContactEmail": "email@server.com",
                         "ContactPhone": "607723456789",
                         "ContactName": "Jane Smith",
                         "CompanyName": "Company & Co.",
-                        "ContactEmail": "email@server.com",
                         "Line1": "Level 5",
                         "Line2": "Hashmoore House",
                         "Line3": "10 Sky Lane",
@@ -854,13 +854,13 @@
                       "ContentType": "NDX",
                       "ServiceCode": "INTL",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-10-13",
+                      "ShipmentDate": "2026-10-20",
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "9c55bd43-d029-4046-8313-161e804208a6",
+                      "ShippingAccountId": "c14aa9a2-9858-41ce-8bb9-16c76171a61f",
                       "Reference1": "OrderRef56",
                       "EoriNumber": "GB12345",
                       "VatNumber": "VA12345"
@@ -929,24 +929,24 @@
                       "ContentType": "NDX",
                       "ServiceCode": "INTL",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-10-13",
+                      "ShipmentDate": "2026-10-20",
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM",
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "92e9c883-2d2a-4283-a911-ca45cb83e6f9",
-                      "ShippingLocationId": "5f439025-958a-4ba9-a952-7cc09b188853",
+                      "ShippingAccountId": "775351ba-f5f6-48bb-b8d1-cc8fadedc43b",
+                      "ShippingLocationId": "d3438fbd-d4af-49c0-9741-0c5993a89aa5",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
                       "VatNumber": "GB213456789",
                       "Address": {
+                        "ContactEmail": "email@server.com",
                         "ContactPhone": "607723456789",
                         "ContactName": "Jane Smith",
                         "CompanyName": "Company & Co.",
-                        "ContactEmail": "email@server.com",
                         "Line1": "Level 5",
                         "Line2": "Hashmoore House",
                         "Line3": "10 Sky Lane",
@@ -993,7 +993,8 @@
                         "HSCode": "6109100010",
                         "CountryOfOrigin": "CN",
                         "ManufactureProductId": "5449000000996",
-                        "StandardisedProductId": "4006381333931"
+                        "StandardisedProductId": "4006381333931",
+                        "PGAReferenceNumber": "FDA-PN-0001234567"
                       },
                       {
                         "SkuCode": "SKU456",
@@ -1006,7 +1007,8 @@
                         "HSCode": "6110113000",
                         "CountryOfOrigin": "CN",
                         "ManufactureProductId": "5449000000997",
-                        "StandardisedProductId": "4006381333932"
+                        "StandardisedProductId": "4006381333932",
+                        "PGAReferenceNumber": "FDA-PN-0001234567"
                       }
                     ],
                     "Customs": {
@@ -1018,7 +1020,7 @@
                       "OtherCharges": 32,
                       "QuotedLandedCost": 82.74,
                       "InvoiceNumber": "INV-12345",
-                      "InvoiceDate": "2026-10-13",
+                      "InvoiceDate": "2026-10-20",
                       "ExportLicenceRequired": false,
                       "Airn": "231.002.999-00"
                     },
@@ -1046,12 +1048,12 @@
                       "ContentType": "NDX",
                       "ServiceCode": "STND",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-10-13",
+                      "ShipmentDate": "2026-10-20",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "e994e0d5-abaf-4404-96e4-d533fe644998",
+                      "ShippingAccountId": "7b12a147-49f3-4920-ac15-53d957bff609",
                       "Reference1": "OrderRef56",
                       "Address": {
                         "AddressId": "John Brown Default"
@@ -1096,7 +1098,7 @@
                     "value": {
                       "Packages": [
                         {
-                          "ShipmentId": "3ec4571f-5e33-4b2c-bf72-856cecbd6933",
+                          "ShipmentId": "a45e26d7-ada7-4273-a014-2e08a08fb125",
                           "PackageOccurrence": 0
                         }
                       ]
@@ -1106,7 +1108,7 @@
                     "value": {
                       "Packages": [
                         {
-                          "ShipmentId": "06ba01c4-67a5-44af-a198-69f6f627ddb7",
+                          "ShipmentId": "57deffee-d67f-40cd-8c8a-867386094bce",
                           "PackageOccurrence": 0,
                           "TrackingNumber": "H03TCA0000000118",
                           "CarrierTrackingUrl": "https://www.evri.com/track/parcel/H03TCA0000000118"
@@ -1120,7 +1122,7 @@
                       "LabelFormat": "PDF",
                       "Packages": [
                         {
-                          "ShipmentId": "501cb665-d4be-45ae-9238-b0b699f0dfd3",
+                          "ShipmentId": "62377adf-72c5-4636-a6f7-b790ab1aca8a",
                           "PackageOccurrence": 0,
                           "TrackingNumber": "H03TCA0000000118",
                           "CarrierTrackingUrl": "https://www.evri.com/track/parcel/H03TCA0000000118"
@@ -1134,7 +1136,7 @@
                       "LabelFormat": "PNG",
                       "Packages": [
                         {
-                          "ShipmentId": "e6e26d7b-24f6-4ac7-82da-e94895f40b8c",
+                          "ShipmentId": "6d41bec7-8278-419b-8b33-72a02bc0d569",
                           "PackageOccurrence": 0,
                           "TrackingNumber": "H03TCA0000000118",
                           "CarrierTrackingUrl": "https://www.evri.com/track/parcel/H03TCA0000000118"
@@ -1213,12 +1215,12 @@
                       "ContentType": "NDX",
                       "ServiceCode": "STND",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-10-13",
+                      "ShipmentDate": "2026-10-20",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "92358f28-2ea2-4a97-9a81-2319e85a6303",
+                      "ShippingAccountId": "54b9294e-fa6e-4ffc-9a48-5eb912dc8665",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -1262,24 +1264,24 @@
                       "ContentType": "NDX",
                       "ServiceCode": "STND",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-10-13",
+                      "ShipmentDate": "2026-10-20",
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM",
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "1cc59f9c-90c1-41dc-a8c1-0a8e7c0a0e3f",
-                      "ShippingLocationId": "859c854b-1d3c-4a30-b7de-a127e532625c",
+                      "ShippingAccountId": "373600e3-27fe-48c1-bcb6-e7f6129aadfb",
+                      "ShippingLocationId": "440ab3a6-1a70-43af-bbec-ce6f03a7c0f2",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
                       "VatNumber": "GB213456789",
                       "Address": {
+                        "ContactEmail": "email@server.com",
                         "ContactPhone": "607723456789",
                         "ContactName": "Jane Smith",
                         "CompanyName": "Company & Co.",
-                        "ContactEmail": "email@server.com",
                         "Line1": "Level 5",
                         "Line2": "Hashmoore House",
                         "Line3": "10 Sky Lane",
@@ -1359,13 +1361,13 @@
                       "ContentType": "NDX",
                       "ServiceCode": "INTL",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-10-13",
+                      "ShipmentDate": "2026-10-20",
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "5e7e6e2c-5af6-4f32-a7d5-dc9efa3a8ca3",
+                      "ShippingAccountId": "f13a2d2a-5e47-46ee-b2ae-5a2859842537",
                       "Reference1": "OrderRef56",
                       "EoriNumber": "GB12345",
                       "VatNumber": "VA12345"
@@ -1434,24 +1436,24 @@
                       "ContentType": "NDX",
                       "ServiceCode": "INTL",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-10-13",
+                      "ShipmentDate": "2026-10-20",
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM",
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "8a387d93-31d4-4828-ac4a-783a0b25007c",
-                      "ShippingLocationId": "fce69022-ee68-47e9-b289-2d331122dfc5",
+                      "ShippingAccountId": "1f12256f-015d-4f7a-8452-38e06f1e0b40",
+                      "ShippingLocationId": "1eff7e15-5469-4473-b815-877012192c2d",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
                       "VatNumber": "GB213456789",
                       "Address": {
+                        "ContactEmail": "email@server.com",
                         "ContactPhone": "607723456789",
                         "ContactName": "Jane Smith",
                         "CompanyName": "Company & Co.",
-                        "ContactEmail": "email@server.com",
                         "Line1": "Level 5",
                         "Line2": "Hashmoore House",
                         "Line3": "10 Sky Lane",
@@ -1498,7 +1500,8 @@
                         "HSCode": "6109100010",
                         "CountryOfOrigin": "CN",
                         "ManufactureProductId": "5449000000996",
-                        "StandardisedProductId": "4006381333931"
+                        "StandardisedProductId": "4006381333931",
+                        "PGAReferenceNumber": "FDA-PN-0001234567"
                       },
                       {
                         "SkuCode": "SKU456",
@@ -1511,7 +1514,8 @@
                         "HSCode": "6110113000",
                         "CountryOfOrigin": "CN",
                         "ManufactureProductId": "5449000000997",
-                        "StandardisedProductId": "4006381333932"
+                        "StandardisedProductId": "4006381333932",
+                        "PGAReferenceNumber": "FDA-PN-0001234567"
                       }
                     ],
                     "Customs": {
@@ -1523,7 +1527,7 @@
                       "OtherCharges": 32,
                       "QuotedLandedCost": 82.74,
                       "InvoiceNumber": "INV-12345",
-                      "InvoiceDate": "2026-10-13",
+                      "InvoiceDate": "2026-10-20",
                       "ExportLicenceRequired": false,
                       "Airn": "231.002.999-00"
                     },
@@ -1551,12 +1555,12 @@
                       "ContentType": "NDX",
                       "ServiceCode": "STND",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-10-13",
+                      "ShipmentDate": "2026-10-20",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "db78ddf2-bcee-42b4-bf03-396645ba964a",
+                      "ShippingAccountId": "c121d531-cb73-42b3-92d1-54035f92c34b",
                       "Reference1": "OrderRef56",
                       "Address": {
                         "AddressId": "John Brown Default"
@@ -1597,7 +1601,7 @@
                   "$ref": "#/components/schemas/CreateShipmentViaWebhookResponse"
                 },
                 "example": {
-                  "RequestId": "ca726850-192b-401a-8fb8-0f23b0553066"
+                  "RequestId": "bd14769c-a781-4020-809f-96a61594f77b"
                 }
               }
             }
@@ -1686,7 +1690,7 @@
                 "examples": {
                   "PDF": {
                     "value": {
-                      "ShipmentId": "c3e2c081-965a-489e-87cc-c1ebb8c6533d",
+                      "ShipmentId": "9c731b34-dd23-4782-8253-15b64c9e02fd",
                       "TrackingNumber": "H03TCA0000000118",
                       "CarrierTrackingUrl": "https://www.evri.com/track/parcel/H03TCA0000000118",
                       "Label": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
@@ -1695,7 +1699,7 @@
                   },
                   "PNG": {
                     "value": {
-                      "ShipmentId": "b43cc7e9-9336-4f28-9bd2-d7166d39d63f",
+                      "ShipmentId": "72a13129-f969-4479-9ea4-5847e3a344bf",
                       "TrackingNumber": "H03TCA0000000118",
                       "CarrierTrackingUrl": "https://www.evri.com/track/parcel/H03TCA0000000118",
                       "Label": "ëPNG♫◙→◙w0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
@@ -2884,6 +2888,13 @@
             "maxLength": 50,
             "type": "string",
             "description": "A globally recognised product identifier for the item being shipped, for example, GTIN, EAN, and UPC. This field is used for standardised item identification and supports carrier-specific requirements for customs and risk assessment.",
+            "nullable": true
+          },
+          "PGAReferenceNumber": {
+            "maxLength": 50,
+            "pattern": "^[\\x20-\\x2B\\x2D-\\x7E]*$",
+            "type": "string",
+            "description": "The Partner Government Agency (PGA) reference number associated with the item, used to support customs and regulatory requirements for shipments to the United States and US territories.\r<br />\r<br />***Note:** This field is applicable to shipments destined for the United States and US territories.*",
             "nullable": true
           },
           "SupplementaryUnits": {
