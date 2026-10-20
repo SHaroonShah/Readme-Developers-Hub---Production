@@ -94,7 +94,7 @@
                       "ContactName": "John Smith",
                       "ContactNumber": "0123456789",
                       "LastUpdatedBy": "User A",
-                      "LastUpdatedDateUtc": "2026-10-13T08:42:47.405Z"
+                      "LastUpdatedDateUtc": "2026-10-20T14:23:13.850Z"
                     },
                     {
                       "ShippingAccountId": "46d58272-5f6a-405d-a947-c46c9caea56f",
@@ -107,7 +107,7 @@
                       "ContactName": "Joan Smith",
                       "ContactNumber": "0123456789",
                       "LastUpdatedBy": "User B",
-                      "LastUpdatedDateUtc": "2026-10-13T08:42:47.405Z"
+                      "LastUpdatedDateUtc": "2026-10-20T14:23:13.850Z"
                     }
                   ],
                   "TotalCount": 2
@@ -194,7 +194,7 @@
                   "ContactName": "John Smith",
                   "ContactNumber": "0123456789",
                   "LastUpdatedBy": "User A",
-                  "LastUpdatedDateUtc": "2026-10-13T08:42:47.414Z"
+                  "LastUpdatedDateUtc": "2026-10-20T14:23:13.862Z"
                 }
               }
             }
@@ -496,20 +496,20 @@
                       "ContentType": "NDX",
                       "ServiceCode": "FXFirst",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-10-13",
+                      "ShipmentDate": "2026-10-20",
                       "DeclaredValue": 86,
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "e5cf6615-4bd7-46de-b1eb-c3036d169409",
+                      "ShippingAccountId": "9ed4e27a-b16f-442a-877a-acf51d335014",
                       "Reference1": "OrderRef56",
                       "Address": {
+                        "ContactEmail": "email@server.com",
                         "ContactPhone": "01234567890",
                         "ContactName": "Jane Smith",
                         "CompanyName": "Company",
-                        "ContactEmail": "email@server.com",
                         "Line1": "14 TOTTENHAM COURT ROAD",
                         "Town": "Englefield Green",
                         "Postcode": "W1T 1JY",
@@ -562,7 +562,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "FXFirst",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-10-13",
+                      "ShipmentDate": "2026-10-20",
                       "DeclaredValue": 86,
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
@@ -570,17 +570,17 @@
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "1eb346a4-6e7d-486c-8164-dae4e0b5c152",
-                      "ShippingLocationId": "71d4240b-26e2-4c9d-b39e-5212ded00938",
+                      "ShippingAccountId": "216910a2-5bc0-490a-b087-07172078fbba",
+                      "ShippingLocationId": "b037c943-2f0c-4fa8-8cc0-2094fa2f2e6e",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
                       "VatNumber": "GB213456789",
                       "Address": {
+                        "ContactEmail": "email@server.com",
                         "ContactPhone": "607723456789",
                         "ContactName": "Jane Smith",
                         "CompanyName": "Company & Co.",
-                        "ContactEmail": "email@server.com",
                         "Line1": "Level 5",
                         "Line2": "Hashmoore House",
                         "Line3": "10 Sky Lane",
@@ -647,22 +647,22 @@
                       "ContentType": "NDX",
                       "ServiceCode": "FXIntConP",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-10-13",
+                      "ShipmentDate": "2026-10-20",
                       "DeclaredValue": 30,
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "92c955c0-35af-4ec8-a2af-b7bdbc7e8ce6",
+                      "ShippingAccountId": "fc83ea05-0b5d-48f3-9d54-92b2265f35e4",
                       "Reference1": "OrderRef56",
                       "EoriNumber": "GB213456789000",
                       "VatNumber": "GB213456789",
                       "Address": {
+                        "ContactEmail": "email@server.com",
                         "ContactPhone": "01234567890",
                         "ContactName": "Jane Smith",
                         "CompanyName": "Company",
-                        "ContactEmail": "email@server.com",
                         "Line1": "14 TOTTENHAM COURT ROAD",
                         "Town": "Englefield Green",
                         "Postcode": "W1T 1JY",
@@ -745,7 +745,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "FXIntConP",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-10-13",
+                      "ShipmentDate": "2026-10-20",
                       "DeclaredValue": 30,
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
@@ -753,17 +753,17 @@
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "e9c9704c-3db0-4284-94ec-cef2f17a8f23",
-                      "ShippingLocationId": "a105857a-590a-4fa4-98e1-a3678981ff6f",
+                      "ShippingAccountId": "9e8f1adf-e2f6-4c03-bcd3-7b8bdcfb22b9",
+                      "ShippingLocationId": "b7b3da7f-e3d1-4f12-9923-0496e0a4bb95",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
                       "VatNumber": "GB213456789",
                       "Address": {
+                        "ContactEmail": "email@server.com",
                         "ContactPhone": "607723456789",
                         "ContactName": "Jane Smith",
                         "CompanyName": "Company & Co.",
-                        "ContactEmail": "email@server.com",
                         "Line1": "Level 5",
                         "Line2": "Hashmoore House",
                         "Line3": "10 Sky Lane",
@@ -812,7 +812,8 @@
                         "HSCode": "6109100010",
                         "CountryOfOrigin": "CN",
                         "ManufactureProductId": "5449000000996",
-                        "StandardisedProductId": "4006381333931"
+                        "StandardisedProductId": "4006381333931",
+                        "PGAReferenceNumber": "FDA-PN-0001234567"
                       },
                       {
                         "SkuCode": "SKU456",
@@ -825,7 +826,8 @@
                         "HSCode": "6110113000",
                         "CountryOfOrigin": "CN",
                         "ManufactureProductId": "5449000000997",
-                        "StandardisedProductId": "4006381333932"
+                        "StandardisedProductId": "4006381333932",
+                        "PGAReferenceNumber": "FDA-PN-0001234567"
                       }
                     ],
                     "Customs": {
@@ -836,7 +838,7 @@
                       "OtherCharges": 32,
                       "QuotedLandedCost": 82.74,
                       "InvoiceNumber": "INV-12345",
-                      "InvoiceDate": "2026-10-13",
+                      "InvoiceDate": "2026-10-20",
                       "ExportLicenceRequired": false,
                       "Airn": "231.002.999-00"
                     }
@@ -849,14 +851,14 @@
                       "ContentType": "NDX",
                       "ServiceCode": "FXIntConP",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-10-13",
+                      "ShipmentDate": "2026-10-20",
                       "DeclaredValue": 20,
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "5dd48743-69bd-4b2d-9f73-038b98239df0",
+                      "ShippingAccountId": "06dc2e13-ac0d-4044-a535-9c4c49a0af55",
                       "Reference1": "OrderRef56",
                       "Address": {
                         "AddressId": "John Brown Default"
@@ -895,7 +897,7 @@
                 "examples": {
                   "Create": {
                     "value": {
-                      "ConsignmentShipmentId": "425237f9-94cf-4601-9460-a41d2aba53a4",
+                      "ConsignmentShipmentId": "8aff5882-9452-4464-a4d0-98c29bfe15be",
                       "Packages": [
                         {
                           "PackageOccurrence": 1
@@ -905,7 +907,7 @@
                   },
                   "Allocate": {
                     "value": {
-                      "ConsignmentShipmentId": "54f2f624-4101-427a-ab82-e83e964433d3",
+                      "ConsignmentShipmentId": "e49b28d1-8f42-4b75-8d03-3e1d21e670d7",
                       "ConsignmentTrackingNumber": "L2861391",
                       "Packages": [
                         {
@@ -918,7 +920,7 @@
                   },
                   "Process - PDF": {
                     "value": {
-                      "ConsignmentShipmentId": "b59522a3-7500-466f-803d-1096aab4cd28",
+                      "ConsignmentShipmentId": "b32abe1d-6822-424c-9438-95743818f95d",
                       "ConsignmentTrackingNumber": "L2861391",
                       "Labels": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
                       "LabelFormat": "PDF",
@@ -1002,20 +1004,20 @@
                       "ContentType": "NDX",
                       "ServiceCode": "FXFirst",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-10-13",
+                      "ShipmentDate": "2026-10-20",
                       "DeclaredValue": 86,
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "8fea1f41-10be-46c2-bc10-570409c45ce8",
+                      "ShippingAccountId": "597677ac-23bf-4c55-bdb6-3905aa62a70b",
                       "Reference1": "OrderRef56",
                       "Address": {
+                        "ContactEmail": "email@server.com",
                         "ContactPhone": "01234567890",
                         "ContactName": "Jane Smith",
                         "CompanyName": "Company",
-                        "ContactEmail": "email@server.com",
                         "Line1": "14 TOTTENHAM COURT ROAD",
                         "Town": "Englefield Green",
                         "Postcode": "W1T 1JY",
@@ -1068,7 +1070,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "FXFirst",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-10-13",
+                      "ShipmentDate": "2026-10-20",
                       "DeclaredValue": 86,
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
@@ -1076,17 +1078,17 @@
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "4f2ada7e-1217-46f7-8fb2-1c563b6a4c8b",
-                      "ShippingLocationId": "f413556a-5675-4c05-8070-70cd345ca71f",
+                      "ShippingAccountId": "a469e121-2f80-4c95-aa1d-11b4bb22a6d2",
+                      "ShippingLocationId": "5249a88e-f160-48b8-8226-be22d276b41b",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
                       "VatNumber": "GB213456789",
                       "Address": {
+                        "ContactEmail": "email@server.com",
                         "ContactPhone": "607723456789",
                         "ContactName": "Jane Smith",
                         "CompanyName": "Company & Co.",
-                        "ContactEmail": "email@server.com",
                         "Line1": "Level 5",
                         "Line2": "Hashmoore House",
                         "Line3": "10 Sky Lane",
@@ -1153,22 +1155,22 @@
                       "ContentType": "NDX",
                       "ServiceCode": "FXIntConP",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-10-13",
+                      "ShipmentDate": "2026-10-20",
                       "DeclaredValue": 30,
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "1d2f3dab-940b-4089-b300-341a68a02722",
+                      "ShippingAccountId": "58857eb0-05f4-4cb4-b2f6-0ec8bc243352",
                       "Reference1": "OrderRef56",
                       "EoriNumber": "GB213456789000",
                       "VatNumber": "GB213456789",
                       "Address": {
+                        "ContactEmail": "email@server.com",
                         "ContactPhone": "01234567890",
                         "ContactName": "Jane Smith",
                         "CompanyName": "Company",
-                        "ContactEmail": "email@server.com",
                         "Line1": "14 TOTTENHAM COURT ROAD",
                         "Town": "Englefield Green",
                         "Postcode": "W1T 1JY",
@@ -1251,7 +1253,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "FXIntConP",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-10-13",
+                      "ShipmentDate": "2026-10-20",
                       "DeclaredValue": 30,
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
@@ -1259,17 +1261,17 @@
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "4e0c9e66-d46b-480b-a4c4-bf55da8258ea",
-                      "ShippingLocationId": "7773ac4a-3016-4f2c-bbd0-013f25cb9749",
+                      "ShippingAccountId": "0d4495b0-960f-4f8f-a3d6-4ccdab2826b6",
+                      "ShippingLocationId": "4e40fc94-dc4c-48c4-9851-0d6ca17d4100",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
                       "VatNumber": "GB213456789",
                       "Address": {
+                        "ContactEmail": "email@server.com",
                         "ContactPhone": "607723456789",
                         "ContactName": "Jane Smith",
                         "CompanyName": "Company & Co.",
-                        "ContactEmail": "email@server.com",
                         "Line1": "Level 5",
                         "Line2": "Hashmoore House",
                         "Line3": "10 Sky Lane",
@@ -1318,7 +1320,8 @@
                         "HSCode": "6109100010",
                         "CountryOfOrigin": "CN",
                         "ManufactureProductId": "5449000000996",
-                        "StandardisedProductId": "4006381333931"
+                        "StandardisedProductId": "4006381333931",
+                        "PGAReferenceNumber": "FDA-PN-0001234567"
                       },
                       {
                         "SkuCode": "SKU456",
@@ -1331,7 +1334,8 @@
                         "HSCode": "6110113000",
                         "CountryOfOrigin": "CN",
                         "ManufactureProductId": "5449000000997",
-                        "StandardisedProductId": "4006381333932"
+                        "StandardisedProductId": "4006381333932",
+                        "PGAReferenceNumber": "FDA-PN-0001234567"
                       }
                     ],
                     "Customs": {
@@ -1342,7 +1346,7 @@
                       "OtherCharges": 32,
                       "QuotedLandedCost": 82.74,
                       "InvoiceNumber": "INV-12345",
-                      "InvoiceDate": "2026-10-13",
+                      "InvoiceDate": "2026-10-20",
                       "ExportLicenceRequired": false,
                       "Airn": "231.002.999-00"
                     }
@@ -1355,14 +1359,14 @@
                       "ContentType": "NDX",
                       "ServiceCode": "FXIntConP",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-10-13",
+                      "ShipmentDate": "2026-10-20",
                       "DeclaredValue": 20,
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "4b1cb90e-44ca-4e50-b73c-f0bedd7d8410",
+                      "ShippingAccountId": "91064849-e14d-455b-a0d7-3791c470109f",
                       "Reference1": "OrderRef56",
                       "Address": {
                         "AddressId": "John Brown Default"
@@ -1399,7 +1403,7 @@
                   "$ref": "#/components/schemas/CreateShipmentViaWebhookResponse"
                 },
                 "example": {
-                  "RequestId": "101d7a0a-e1c1-49bb-abfe-6a71733afda3"
+                  "RequestId": "15a6e811-b40e-48d5-88e0-337a20815ec6"
                 }
               }
             }
@@ -1488,7 +1492,7 @@
                 "examples": {
                   "PDF": {
                     "value": {
-                      "ShipmentId": "8564bc1a-90b5-4c00-8eee-2085ce14e445",
+                      "ShipmentId": "4ffc55fc-caed-4231-9917-8707eddd8f84",
                       "TrackingNumber": "H03TCA0000000118",
                       "CarrierTrackingUrl": "https://fedex.co.uk/H03TCA0000000118",
                       "Label": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
@@ -2554,6 +2558,13 @@
             "maxLength": 50,
             "type": "string",
             "description": "A globally recognised product identifier for the item being shipped, for example, GTIN, EAN, and UPC. This field is used for standardised item identification and supports carrier-specific requirements for customs and risk assessment.",
+            "nullable": true
+          },
+          "PGAReferenceNumber": {
+            "maxLength": 50,
+            "pattern": "^[\\x20-\\x2B\\x2D-\\x7E]*$",
+            "type": "string",
+            "description": "The Partner Government Agency (PGA) reference number associated with the item, used to support customs and regulatory requirements for shipments to the United States and US territories.\r<br />\r<br />***Note:** This field is applicable to shipments destined for the United States and US territories.*",
             "nullable": true
           },
           "SupplementaryUnits": {
