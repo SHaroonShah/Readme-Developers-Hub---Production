@@ -95,7 +95,7 @@
                       "ContactName": "John Smith",
                       "ContactNumber": "0123456789",
                       "LastUpdatedBy": "User A",
-                      "LastUpdatedDateUtc": "2026-10-13T08:46:16.131Z"
+                      "LastUpdatedDateUtc": "2026-10-20T14:27:07.626Z"
                     },
                     {
                       "ShippingAccountId": "46d58272-5f6a-405d-a947-c46c9caea56f",
@@ -109,7 +109,7 @@
                       "ContactName": "Joan Smith",
                       "ContactNumber": "0123456789",
                       "LastUpdatedBy": "User B",
-                      "LastUpdatedDateUtc": "2026-10-13T08:46:16.131Z"
+                      "LastUpdatedDateUtc": "2026-10-20T14:27:07.626Z"
                     }
                   ],
                   "TotalCount": 2
@@ -265,7 +265,7 @@
                   "ContactName": "John Smith",
                   "ContactNumber": "0123456789",
                   "LastUpdatedBy": "User A",
-                  "LastUpdatedDateUtc": "2026-10-13T08:46:16.249Z"
+                  "LastUpdatedDateUtc": "2026-10-20T14:27:07.779Z"
                 }
               }
             }
@@ -642,20 +642,20 @@
                       "ContentType": "NDX",
                       "ServiceCode": "Saturday",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-10-13",
+                      "ShipmentDate": "2026-10-20",
                       "DeclaredWeight": 1.5,
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "6d4584fc-d50d-4ab0-b0ec-33175c8457a5",
+                      "ShippingAccountId": "7292cde4-4fb6-4498-a481-e557e5e7b744",
                       "Reference1": "OrderRef56",
                       "EoriNumber": "IE1234567T",
                       "VatNumber": "IE1234567T",
                       "Address": {
+                        "ContactEmail": "jane.smith@example.com",
                         "ContactPhone": "+353123456789",
                         "ContactName": "Jane Smith",
-                        "ContactEmail": "jane.smith@example.com",
                         "Line1": "Unit 1, Sandyford Business Park",
                         "Town": "Dublin",
                         "Postcode": "D18 X5P5",
@@ -708,7 +708,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "Saturday",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-10-13",
+                      "ShipmentDate": "2026-10-20",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
@@ -716,14 +716,14 @@
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "95658727-e33c-499a-8fbc-94f58869c211",
+                      "ShippingAccountId": "84fe0569-f3d4-4e9e-8c7e-8e3992aea07a",
                       "Reference1": "OrderRef56",
                       "EoriNumber": "IE1234567T",
                       "VatNumber": "IE1234567T",
                       "Address": {
+                        "ContactEmail": "jane.smith@example.com",
                         "ContactPhone": "+353123456789",
                         "ContactName": "Jane Smith",
-                        "ContactEmail": "jane.smith@example.com",
                         "Line1": "Unit 1, Sandyford Business Park",
                         "Town": "Dublin",
                         "Postcode": "D18 X5P5",
@@ -814,7 +814,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "Saturday",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-10-13",
+                      "ShipmentDate": "2026-10-20",
                       "DeclaredWeight": 9,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
@@ -822,14 +822,14 @@
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "38322c76-4e72-4a4b-8799-6a6c809d2779",
+                      "ShippingAccountId": "5572fdb1-25f0-4bc5-be36-66e3c925dcbe",
                       "Reference1": "OrderRef56",
                       "EoriNumber": "IE1234567T",
                       "VatNumber": "IE1234567T",
                       "Address": {
+                        "ContactEmail": "jane.smith@example.com",
                         "ContactPhone": "+353123456789",
                         "ContactName": "Jane Smith",
-                        "ContactEmail": "jane.smith@example.com",
                         "Line1": "Unit 1, Sandyford Business Park",
                         "Town": "Dublin",
                         "Postcode": "D18 X5P5",
@@ -1056,21 +1056,21 @@
                       "ServiceCode": "ClassicInt",
                       "DescriptionOfGoods": "Clothes",
                       "BusinessTransactionType": "B2C",
-                      "ShipmentDate": "2026-10-13",
+                      "ShipmentDate": "2026-10-20",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "EUR",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "7f333863-6804-4852-b82d-9ef90712314b",
+                      "ShippingAccountId": "0a678e11-540e-4f79-b82b-6d0fe88fcffb",
                       "Reference1": "OrderRef56",
                       "EoriNumber": "IE1234567T",
                       "VatNumber": "IE1234567T",
                       "Address": {
+                        "ContactEmail": "jane.smith@example.com",
                         "ContactPhone": "+353123456789",
                         "ContactName": "Jane Smith",
-                        "ContactEmail": "jane.smith@example.com",
                         "Line1": "Unit 1, Sandyford Business Park",
                         "Town": "Dublin",
                         "Postcode": "D18 X5P5",
@@ -1160,7 +1160,7 @@
                       "ServiceCode": "ClassicInt",
                       "DescriptionOfGoods": "Clothes",
                       "BusinessTransactionType": "B2C",
-                      "ShipmentDate": "2026-10-13",
+                      "ShipmentDate": "2026-10-20",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
@@ -1168,14 +1168,14 @@
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "40ebc882-7fa2-429f-8054-17b3bf352aad",
+                      "ShippingAccountId": "9ade871b-c1c0-484b-a0da-98e933564337",
                       "Reference1": "OrderRef56",
                       "EoriNumber": "IE1234567T",
                       "VatNumber": "IE1234567T",
                       "Address": {
+                        "ContactEmail": "jane.smith@example.com",
                         "ContactPhone": "+353123456789",
                         "ContactName": "Jane Smith",
-                        "ContactEmail": "jane.smith@example.com",
                         "Line1": "Unit 1, Sandyford Business Park",
                         "Town": "Dublin",
                         "Postcode": "D18 X5P5",
@@ -1218,7 +1218,8 @@
                         "HSCode": "6109100010",
                         "CountryOfOrigin": "CN",
                         "ManufactureProductId": "5449000000990",
-                        "StandardisedProductId": "4006381333930"
+                        "StandardisedProductId": "4006381333930",
+                        "PGAReferenceNumber": "FDA-PN-0001234567"
                       },
                       {
                         "SkuCode": "SKU456",
@@ -1230,7 +1231,8 @@
                         "HSCode": "6110113000",
                         "CountryOfOrigin": "CN",
                         "ManufactureProductId": "5449000000991",
-                        "StandardisedProductId": "4006381333931"
+                        "StandardisedProductId": "4006381333931",
+                        "PGAReferenceNumber": "FDA-PN-0001234567"
                       }
                     ],
                     "Customs": {
@@ -1242,7 +1244,7 @@
                       "OtherCharges": 32,
                       "QuotedLandedCost": 82.74,
                       "InvoiceNumber": "INV-12345",
-                      "InvoiceDate": "2026-10-13",
+                      "InvoiceDate": "2026-10-20",
                       "ExportLicenceRequired": false,
                       "Airn": "231.002.999-00"
                     },
@@ -1279,7 +1281,7 @@
                       "ServiceCode": "ClassicInt",
                       "DescriptionOfGoods": "Clothes",
                       "BusinessTransactionType": "B2C",
-                      "ShipmentDate": "2026-10-13",
+                      "ShipmentDate": "2026-10-20",
                       "DeclaredWeight": 9,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
@@ -1287,14 +1289,14 @@
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "7447e7fa-98c5-4b1b-b2f4-2ab049f410e4",
+                      "ShippingAccountId": "f0811656-7e41-4657-888e-f34c32a1691f",
                       "Reference1": "OrderRef56",
                       "EoriNumber": "IE1234567T",
                       "VatNumber": "IE1234567T",
                       "Address": {
+                        "ContactEmail": "jane.smith@example.com",
                         "ContactPhone": "+353123456789",
                         "ContactName": "Jane Smith",
-                        "ContactEmail": "jane.smith@example.com",
                         "Line1": "Unit 1, Sandyford Business Park",
                         "Town": "Dublin",
                         "Postcode": "D18 X5P5",
@@ -1367,7 +1369,8 @@
                         "HSCode": "6109100010",
                         "CountryOfOrigin": "CN",
                         "ManufactureProductId": "5449000000990",
-                        "StandardisedProductId": "4006381333930"
+                        "StandardisedProductId": "4006381333930",
+                        "PGAReferenceNumber": "FDA-PN-0001234567"
                       },
                       {
                         "SkuCode": "SKU456",
@@ -1379,7 +1382,8 @@
                         "HSCode": "6110113000",
                         "CountryOfOrigin": "CN",
                         "ManufactureProductId": "5449000000991",
-                        "StandardisedProductId": "4006381333931"
+                        "StandardisedProductId": "4006381333931",
+                        "PGAReferenceNumber": "FDA-PN-0001234567"
                       },
                       {
                         "SkuCode": "TSHIRT-WHT-L",
@@ -1391,7 +1395,8 @@
                         "HSCode": "09109105",
                         "CountryOfOrigin": "BD",
                         "ManufactureProductId": "5449000000992",
-                        "StandardisedProductId": "4006381333932"
+                        "StandardisedProductId": "4006381333932",
+                        "PGAReferenceNumber": "FDA-PN-0001234567"
                       },
                       {
                         "SkuCode": "LIION-BATT-5000MAH",
@@ -1403,7 +1408,8 @@
                         "HSCode": "09109105",
                         "CountryOfOrigin": "CN",
                         "ManufactureProductId": "5449000000993",
-                        "StandardisedProductId": "4006381333933"
+                        "StandardisedProductId": "4006381333933",
+                        "PGAReferenceNumber": "FDA-PN-0001234567"
                       },
                       {
                         "SkuCode": "TSHIRT-WHT-L",
@@ -1415,7 +1421,8 @@
                         "HSCode": "09109105",
                         "CountryOfOrigin": "BD",
                         "ManufactureProductId": "5449000000994",
-                        "StandardisedProductId": "4006381333934"
+                        "StandardisedProductId": "4006381333934",
+                        "PGAReferenceNumber": "FDA-PN-0001234567"
                       },
                       {
                         "SkuCode": "LIION-BATT-5000MAH",
@@ -1427,7 +1434,8 @@
                         "HSCode": "09109105",
                         "CountryOfOrigin": "CN",
                         "ManufactureProductId": "5449000000995",
-                        "StandardisedProductId": "4006381333935"
+                        "StandardisedProductId": "4006381333935",
+                        "PGAReferenceNumber": "FDA-PN-0001234567"
                       },
                       {
                         "SkuCode": "TSHIRT-WHT-L",
@@ -1439,7 +1447,8 @@
                         "HSCode": "09109105",
                         "CountryOfOrigin": "BD",
                         "ManufactureProductId": "5449000000996",
-                        "StandardisedProductId": "4006381333936"
+                        "StandardisedProductId": "4006381333936",
+                        "PGAReferenceNumber": "FDA-PN-0001234567"
                       },
                       {
                         "SkuCode": "LIION-BATT-5000MAH",
@@ -1451,7 +1460,8 @@
                         "HSCode": "09109105",
                         "CountryOfOrigin": "CN",
                         "ManufactureProductId": "5449000000997",
-                        "StandardisedProductId": "4006381333937"
+                        "StandardisedProductId": "4006381333937",
+                        "PGAReferenceNumber": "FDA-PN-0001234567"
                       }
                     ],
                     "Customs": {
@@ -1463,7 +1473,7 @@
                       "OtherCharges": 32,
                       "QuotedLandedCost": 82.74,
                       "InvoiceNumber": "INV-12345",
-                      "InvoiceDate": "2026-10-13",
+                      "InvoiceDate": "2026-10-20",
                       "ExportLicenceRequired": false,
                       "Airn": "231.002.999-00"
                     },
@@ -1495,10 +1505,10 @@
                 "examples": {
                   "Create": {
                     "value": {
-                      "ConsignmentShipmentId": "842213d9-0302-4fe1-9177-4755b5485b29",
+                      "ConsignmentShipmentId": "24b56a60-b864-456c-9ba3-4487c54de75f",
                       "Packages": [
                         {
-                          "ShipmentId": "e9c95eca-37e9-47ea-ae82-f9cc960eed92",
+                          "ShipmentId": "7d7a7006-41c8-47e3-a7cd-e325e0ad7849",
                           "PackageOccurrence": 0
                         }
                       ],
@@ -1507,12 +1517,12 @@
                   },
                   "Allocate": {
                     "value": {
-                      "ConsignmentShipmentId": "46bcf958-2da5-4440-8889-84eace4a1fe7",
+                      "ConsignmentShipmentId": "ddda0e66-7d19-4583-a067-c97a07d83f80",
                       "ConsignmentTrackingNumber": "1234567890",
                       "ConsignmentCarrierTrackingUrl": "https://www.dpd.ie/tracking/?consignmentNumber=1234567890",
                       "Packages": [
                         {
-                          "ShipmentId": "11de0a81-801b-4045-81f0-e738b06ae61f",
+                          "ShipmentId": "0ce329a2-a35a-4ecb-818a-e8c96cb5f7b3",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "1234567890"
                         }
@@ -1528,7 +1538,7 @@
                       "LabelFormat": "PDF",
                       "Packages": [
                         {
-                          "ShipmentId": "714a1379-4583-4fda-8e50-06f869e55146",
+                          "ShipmentId": "562c9550-4729-45cf-880e-9ab755f51e35",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "1234567890",
                           "BarcodeNumber": "JD012300001234567891"
@@ -1545,7 +1555,7 @@
                       "LabelFormat": "PNG",
                       "Packages": [
                         {
-                          "ShipmentId": "2beff661-3f91-4d0f-abcb-0faf677d93f5",
+                          "ShipmentId": "67d342f7-e85f-41b8-b0ef-6ba530c15262",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "1234567890",
                           "BarcodeNumber": "JD012300001234567891"
@@ -1562,19 +1572,19 @@
                       "LabelFormat": "PDF",
                       "Packages": [
                         {
-                          "ShipmentId": "097eadde-74c2-43f0-97db-372a4c0146e6",
+                          "ShipmentId": "a1f6490e-9814-4554-a055-3fff05d9256e",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "1234567890",
                           "BarcodeNumber": "JD012300001234567891"
                         },
                         {
-                          "ShipmentId": "097eadde-74c2-43f0-97db-372a4c0146e6",
+                          "ShipmentId": "a1f6490e-9814-4554-a055-3fff05d9256e",
                           "PackageOccurrence": 2,
                           "TrackingNumber": "1234567890",
                           "BarcodeNumber": "JD012300001234567892"
                         },
                         {
-                          "ShipmentId": "097eadde-74c2-43f0-97db-372a4c0146e6",
+                          "ShipmentId": "a1f6490e-9814-4554-a055-3fff05d9256e",
                           "PackageOccurrence": 3,
                           "TrackingNumber": "1234567890",
                           "BarcodeNumber": "JD012300001234567893"
@@ -1591,19 +1601,19 @@
                       "LabelFormat": "PDF",
                       "Packages": [
                         {
-                          "ShipmentId": "3137454c-8d54-4598-87bd-4bf5d353ac78",
+                          "ShipmentId": "b506afa4-d9be-4b7f-8885-05720441c512",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "1234567890",
                           "BarcodeNumber": "JD012300001234567891"
                         },
                         {
-                          "ShipmentId": "3137454c-8d54-4598-87bd-4bf5d353ac78",
+                          "ShipmentId": "b506afa4-d9be-4b7f-8885-05720441c512",
                           "PackageOccurrence": 2,
                           "TrackingNumber": "1234567890",
                           "BarcodeNumber": "JD012300001234567892"
                         },
                         {
-                          "ShipmentId": "3137454c-8d54-4598-87bd-4bf5d353ac78",
+                          "ShipmentId": "b506afa4-d9be-4b7f-8885-05720441c512",
                           "PackageOccurrence": 3,
                           "TrackingNumber": "1234567890",
                           "BarcodeNumber": "JD012300001234567893"
@@ -1684,20 +1694,20 @@
                       "ContentType": "NDX",
                       "ServiceCode": "Saturday",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-10-13",
+                      "ShipmentDate": "2026-10-20",
                       "DeclaredWeight": 1.5,
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "8b74d904-8162-4d67-8e5b-7e0530f9e6d5",
+                      "ShippingAccountId": "4ffde0aa-44c9-4057-88f8-091031cbbe1d",
                       "Reference1": "OrderRef56",
                       "EoriNumber": "IE1234567T",
                       "VatNumber": "IE1234567T",
                       "Address": {
+                        "ContactEmail": "jane.smith@example.com",
                         "ContactPhone": "+353123456789",
                         "ContactName": "Jane Smith",
-                        "ContactEmail": "jane.smith@example.com",
                         "Line1": "Unit 1, Sandyford Business Park",
                         "Town": "Dublin",
                         "Postcode": "D18 X5P5",
@@ -1750,7 +1760,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "Saturday",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-10-13",
+                      "ShipmentDate": "2026-10-20",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
@@ -1758,14 +1768,14 @@
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "884aa211-ff36-4e07-b976-2c4894e0d83e",
+                      "ShippingAccountId": "f50efd5a-e935-4de0-a63d-9a53b4c9d9d2",
                       "Reference1": "OrderRef56",
                       "EoriNumber": "IE1234567T",
                       "VatNumber": "IE1234567T",
                       "Address": {
+                        "ContactEmail": "jane.smith@example.com",
                         "ContactPhone": "+353123456789",
                         "ContactName": "Jane Smith",
-                        "ContactEmail": "jane.smith@example.com",
                         "Line1": "Unit 1, Sandyford Business Park",
                         "Town": "Dublin",
                         "Postcode": "D18 X5P5",
@@ -1856,7 +1866,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "Saturday",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-10-13",
+                      "ShipmentDate": "2026-10-20",
                       "DeclaredWeight": 9,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
@@ -1864,14 +1874,14 @@
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "657eaee2-b097-43b9-b1f8-9becfcb00d1e",
+                      "ShippingAccountId": "96fea10e-fd1a-47c8-ac59-9aa32d30eff0",
                       "Reference1": "OrderRef56",
                       "EoriNumber": "IE1234567T",
                       "VatNumber": "IE1234567T",
                       "Address": {
+                        "ContactEmail": "jane.smith@example.com",
                         "ContactPhone": "+353123456789",
                         "ContactName": "Jane Smith",
-                        "ContactEmail": "jane.smith@example.com",
                         "Line1": "Unit 1, Sandyford Business Park",
                         "Town": "Dublin",
                         "Postcode": "D18 X5P5",
@@ -2098,21 +2108,21 @@
                       "ServiceCode": "ClassicInt",
                       "DescriptionOfGoods": "Clothes",
                       "BusinessTransactionType": "B2C",
-                      "ShipmentDate": "2026-10-13",
+                      "ShipmentDate": "2026-10-20",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "EUR",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "57338592-8604-4b72-a36e-1407010f1611",
+                      "ShippingAccountId": "b676e253-779e-49df-892d-d6fec7dcfa02",
                       "Reference1": "OrderRef56",
                       "EoriNumber": "IE1234567T",
                       "VatNumber": "IE1234567T",
                       "Address": {
+                        "ContactEmail": "jane.smith@example.com",
                         "ContactPhone": "+353123456789",
                         "ContactName": "Jane Smith",
-                        "ContactEmail": "jane.smith@example.com",
                         "Line1": "Unit 1, Sandyford Business Park",
                         "Town": "Dublin",
                         "Postcode": "D18 X5P5",
@@ -2202,7 +2212,7 @@
                       "ServiceCode": "ClassicInt",
                       "DescriptionOfGoods": "Clothes",
                       "BusinessTransactionType": "B2C",
-                      "ShipmentDate": "2026-10-13",
+                      "ShipmentDate": "2026-10-20",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
@@ -2210,14 +2220,14 @@
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "be583ff5-97f6-47f4-a325-9765050e94bb",
+                      "ShippingAccountId": "a21ed907-5198-4531-8518-869b6a895582",
                       "Reference1": "OrderRef56",
                       "EoriNumber": "IE1234567T",
                       "VatNumber": "IE1234567T",
                       "Address": {
+                        "ContactEmail": "jane.smith@example.com",
                         "ContactPhone": "+353123456789",
                         "ContactName": "Jane Smith",
-                        "ContactEmail": "jane.smith@example.com",
                         "Line1": "Unit 1, Sandyford Business Park",
                         "Town": "Dublin",
                         "Postcode": "D18 X5P5",
@@ -2260,7 +2270,8 @@
                         "HSCode": "6109100010",
                         "CountryOfOrigin": "CN",
                         "ManufactureProductId": "5449000000990",
-                        "StandardisedProductId": "4006381333930"
+                        "StandardisedProductId": "4006381333930",
+                        "PGAReferenceNumber": "FDA-PN-0001234567"
                       },
                       {
                         "SkuCode": "SKU456",
@@ -2272,7 +2283,8 @@
                         "HSCode": "6110113000",
                         "CountryOfOrigin": "CN",
                         "ManufactureProductId": "5449000000991",
-                        "StandardisedProductId": "4006381333931"
+                        "StandardisedProductId": "4006381333931",
+                        "PGAReferenceNumber": "FDA-PN-0001234567"
                       }
                     ],
                     "Customs": {
@@ -2284,7 +2296,7 @@
                       "OtherCharges": 32,
                       "QuotedLandedCost": 82.74,
                       "InvoiceNumber": "INV-12345",
-                      "InvoiceDate": "2026-10-13",
+                      "InvoiceDate": "2026-10-20",
                       "ExportLicenceRequired": false,
                       "Airn": "231.002.999-00"
                     },
@@ -2321,7 +2333,7 @@
                       "ServiceCode": "ClassicInt",
                       "DescriptionOfGoods": "Clothes",
                       "BusinessTransactionType": "B2C",
-                      "ShipmentDate": "2026-10-13",
+                      "ShipmentDate": "2026-10-20",
                       "DeclaredWeight": 9,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
@@ -2329,14 +2341,14 @@
                       "ContainerId": "South East"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "74356408-37db-4b27-ab0e-b422ea31eed2",
+                      "ShippingAccountId": "70a091e7-0651-4be4-86a6-502ecae2a04d",
                       "Reference1": "OrderRef56",
                       "EoriNumber": "IE1234567T",
                       "VatNumber": "IE1234567T",
                       "Address": {
+                        "ContactEmail": "jane.smith@example.com",
                         "ContactPhone": "+353123456789",
                         "ContactName": "Jane Smith",
-                        "ContactEmail": "jane.smith@example.com",
                         "Line1": "Unit 1, Sandyford Business Park",
                         "Town": "Dublin",
                         "Postcode": "D18 X5P5",
@@ -2409,7 +2421,8 @@
                         "HSCode": "6109100010",
                         "CountryOfOrigin": "CN",
                         "ManufactureProductId": "5449000000990",
-                        "StandardisedProductId": "4006381333930"
+                        "StandardisedProductId": "4006381333930",
+                        "PGAReferenceNumber": "FDA-PN-0001234567"
                       },
                       {
                         "SkuCode": "SKU456",
@@ -2421,7 +2434,8 @@
                         "HSCode": "6110113000",
                         "CountryOfOrigin": "CN",
                         "ManufactureProductId": "5449000000991",
-                        "StandardisedProductId": "4006381333931"
+                        "StandardisedProductId": "4006381333931",
+                        "PGAReferenceNumber": "FDA-PN-0001234567"
                       },
                       {
                         "SkuCode": "TSHIRT-WHT-L",
@@ -2433,7 +2447,8 @@
                         "HSCode": "09109105",
                         "CountryOfOrigin": "BD",
                         "ManufactureProductId": "5449000000992",
-                        "StandardisedProductId": "4006381333932"
+                        "StandardisedProductId": "4006381333932",
+                        "PGAReferenceNumber": "FDA-PN-0001234567"
                       },
                       {
                         "SkuCode": "LIION-BATT-5000MAH",
@@ -2445,7 +2460,8 @@
                         "HSCode": "09109105",
                         "CountryOfOrigin": "CN",
                         "ManufactureProductId": "5449000000993",
-                        "StandardisedProductId": "4006381333933"
+                        "StandardisedProductId": "4006381333933",
+                        "PGAReferenceNumber": "FDA-PN-0001234567"
                       },
                       {
                         "SkuCode": "TSHIRT-WHT-L",
@@ -2457,7 +2473,8 @@
                         "HSCode": "09109105",
                         "CountryOfOrigin": "BD",
                         "ManufactureProductId": "5449000000994",
-                        "StandardisedProductId": "4006381333934"
+                        "StandardisedProductId": "4006381333934",
+                        "PGAReferenceNumber": "FDA-PN-0001234567"
                       },
                       {
                         "SkuCode": "LIION-BATT-5000MAH",
@@ -2469,7 +2486,8 @@
                         "HSCode": "09109105",
                         "CountryOfOrigin": "CN",
                         "ManufactureProductId": "5449000000995",
-                        "StandardisedProductId": "4006381333935"
+                        "StandardisedProductId": "4006381333935",
+                        "PGAReferenceNumber": "FDA-PN-0001234567"
                       },
                       {
                         "SkuCode": "TSHIRT-WHT-L",
@@ -2481,7 +2499,8 @@
                         "HSCode": "09109105",
                         "CountryOfOrigin": "BD",
                         "ManufactureProductId": "5449000000996",
-                        "StandardisedProductId": "4006381333936"
+                        "StandardisedProductId": "4006381333936",
+                        "PGAReferenceNumber": "FDA-PN-0001234567"
                       },
                       {
                         "SkuCode": "LIION-BATT-5000MAH",
@@ -2493,7 +2512,8 @@
                         "HSCode": "09109105",
                         "CountryOfOrigin": "CN",
                         "ManufactureProductId": "5449000000997",
-                        "StandardisedProductId": "4006381333937"
+                        "StandardisedProductId": "4006381333937",
+                        "PGAReferenceNumber": "FDA-PN-0001234567"
                       }
                     ],
                     "Customs": {
@@ -2505,7 +2525,7 @@
                       "OtherCharges": 32,
                       "QuotedLandedCost": 82.74,
                       "InvoiceNumber": "INV-12345",
-                      "InvoiceDate": "2026-10-13",
+                      "InvoiceDate": "2026-10-20",
                       "ExportLicenceRequired": false,
                       "Airn": "231.002.999-00"
                     },
@@ -2535,7 +2555,7 @@
                   "$ref": "#/components/schemas/CreateShipmentViaWebhookResponse"
                 },
                 "example": {
-                  "RequestId": "a659e214-f485-42b5-9c10-9c1a12e45dac"
+                  "RequestId": "fc5da132-753f-40b1-89f9-a90bb2d7c82a"
                 }
               }
             }
@@ -2624,7 +2644,7 @@
                 "examples": {
                   "PDF": {
                     "value": {
-                      "ShipmentId": "8cf8eae2-064a-4339-add7-2a67fadae37a",
+                      "ShipmentId": "1650b21c-c1d5-4b24-a3ad-90db52566f7e",
                       "TrackingNumber": "15502610025943",
                       "CarrierTrackingUrl": "https://www.dpd.ie/tracking/?consignmentNumber=15502610025943",
                       "Label": "JVBERi0xLjQKJeLjz9MKMSAwI.....T4+CnN0YXJ0eHJlZgo0MTQ5OAolJUVPRgo=",
@@ -2633,7 +2653,7 @@
                   },
                   "PNG": {
                     "value": {
-                      "ShipmentId": "27466e65-c934-4cbe-aab6-33841c8962a2",
+                      "ShipmentId": "9c2850a8-52bd-47ac-a465-b995c53ac81f",
                       "TrackingNumber": "15502610025943",
                       "CarrierTrackingUrl": "https://www.dpd.ie/tracking/?consignmentNumber=15502610025943",
                       "Label": "iVBORw0KGgoAAAANSUhEUgAAB.....XRFWHRQaXhlbFVuaXRzAG1ldGVyc5RC83Y=",
@@ -3775,6 +3795,13 @@
             "maxLength": 50,
             "type": "string",
             "description": "A globally recognised product identifier for the item being shipped, for example, GTIN, EAN, and UPC. This field is used for standardised item identification and supports carrier-specific requirements for customs and risk assessment.",
+            "nullable": true
+          },
+          "PGAReferenceNumber": {
+            "maxLength": 50,
+            "pattern": "^[\\x20-\\x2B\\x2D-\\x7E]*$",
+            "type": "string",
+            "description": "The Partner Government Agency (PGA) reference number associated with the item, used to support customs and regulatory requirements for shipments to the United States and US territories.\r<br />\r<br />***Note:** This field is applicable to shipments destined for the United States and US territories.*",
             "nullable": true
           },
           "SupplementaryUnits": {
