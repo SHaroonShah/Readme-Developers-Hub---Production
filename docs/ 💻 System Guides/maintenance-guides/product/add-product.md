@@ -88,7 +88,7 @@ In SAPIENT, you can add as many products as you want and use them in your <Gloss
                 </tr>
                 <tr>
                   <td align="center"><strong>HS Code</strong></td>
-                  <td align="left">Enter the HS Code for the product you are adding.<br /><br /><em><code>Note</code></em>: A minimum of 6 alpha-numeric code is required when the HS Code is provided (some services/destinations may require 8). Additionally, this information is required by some carriers for dutiable shipments.</td>
+                  <td align="left">Enter the HS Code for the product you are adding.<br /><br /><i><code>Note</code>: A minimum of 6 alpha-numeric code is required when the HS Code is provided (some services/destinations may require 8). Additionally, this information is required by some carriers for dutiable shipments.</i></td>
                 </tr>
                 <tr>
                   <td align="center"><strong>Description</strong>&#42;</td>
@@ -96,7 +96,7 @@ In SAPIENT, you can add as many products as you want and use them in your <Gloss
                 </tr>
                 <tr>
                   <td align="center"><strong>Country of Origin</strong></td>
-                  <td align="left">From the dropdown menu, select the country where the product you are adding was manufactured.<br /><br /><em><code>Note</code></em>: This information is required by some carriers for dutiable shipments.</td>
+                  <td align="left">From the dropdown menu, select the country where the product you are adding was manufactured.<br /><br /><i><code>Note</code>: This information is required by some carriers for dutiable shipments.</i> </td>
                 </tr>
                 <tr>
                   <td align="center"><strong>Manufacture Product Id</strong></td>
