@@ -102,6 +102,13 @@ In SAPIENT, you can add as many products as you want and use them in your <Gloss
                   <td align="center"><strong>Manufacture Product Id</strong></td>
                   <td align="left">Enter the unique identifier used to reference the product you are adding.</td>
                 </tr>
+    <tr>
+                  <td align="center"><strong>PGA Reference Number</strong></td>
+                  <td align="left">Enter the Partner Government Agency (PGA) reference number associated with the item to support customs and regulatory requirements for shipments to the United States and US territories.
+    <br />
+    <i><code>Note:</code> This field is only applicable to shipments destined for the United State and its territories.</i>
+    </td>
+                </tr>
                 <tr>
                   <td align="center"><strong>Value</strong>&#42;</td>
                   <td align="left">Enter the monetary value of the product you are adding.</td>
@@ -121,13 +128,6 @@ In SAPIENT, you can add as many products as you want and use them in your <Gloss
                 <tr>
                   <td align="center"><strong>Standardised Product Id</strong></td>
                   <td align="left">Enter the product identifier used for standardised item identification and to support your carrier-specific requirements for customs and risk assessment.</td>
-                </tr>
-    <tr>
-                  <td align="center"><strong>PGA Reference Number</strong></td>
-                  <td align="left">Enter the Partner Government Agency (PGA) reference number associated with the item to support customs and regulatory requirements for shipments to the United States and US territories.
-    <br />
-    <i><code>Note:</code> This field is only applicable to shipments destined for the United State and its territories.</i>
-    </td>
                 </tr>
                 <tr>
                   <td align="center"><strong>Hazardous Product</strong></td>
