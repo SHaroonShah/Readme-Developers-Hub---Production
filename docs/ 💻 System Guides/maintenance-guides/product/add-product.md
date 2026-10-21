@@ -65,9 +65,10 @@ In SAPIENT, you can add as many products as you want and use them in your <Gloss
 
         <Tabs>
           <Tab title="Basic product details">
-            On the **Add Product** form that opens, in the **PRODUCT DETAILS** block, enter the necessary information.
+            On the **Add Product** form that opens, in the **PRODUCT DETAILS** block, enter the necessary information.        
 
-            <Image align="center" border={true} src="https://files.readme.io/bb154e33c4ce1aac13fcc54301465da2cec7a83940ffbfd1379c2aac3101d9e5-image.png" caption="Entering product details" />
+    <Image src="https://files.readme.io/625e339f29ff2d04893655e3747149800ff1df37bccbeefaa7c55359fab04763-Adding_product_SAP.png" align="center" caption="Adding product details" border="true" />
+
 
             <br />
 
