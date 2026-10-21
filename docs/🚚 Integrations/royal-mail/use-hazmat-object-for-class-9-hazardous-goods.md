@@ -62,11 +62,11 @@ Expand the following sections to learn how to generate the Hazmat label for clas
 
   To use the Royal Mail LQDG template with the **DO NOT FLY** banner, you must adhere to the following:
 
-  - The hazmat element must be provided in the API request with the following mandatory values:&#x20;
-    - **UnCode**
-    - **Class**
-    - **Quantity**
-    - **UnitOfMeasure**
+  - The hazmat element must be provided in the API request with the following  values:&#x20;
+    - **UNCode: T**his field must be populated only for domestic shipments using class 9 dangerous goods. If provided, then **Quantity** and **UnitOfMeasure** must also be specified.
+    - **Class: This field is mandatory and must be provided**
+    - **Quantity:&#x20;**&#x54;his field is only required if **UnitOfMeasure** and **UNCode** is specified.
+    - **UnitOfMeasure:&#x20;**&#x54;his field is only required if **Quantity** and **UNCode** is specified.
   - LQD in your OBA contracts must be specified
   - The service used in the shipment request must be allowed to create hazardous shipment.
   - The PC District and PC Sector of the destination postcode must support hazardous shipment.
