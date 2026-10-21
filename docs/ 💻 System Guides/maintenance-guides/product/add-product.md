@@ -115,7 +115,7 @@ In SAPIENT, you can add as many products as you want and use them in your <Gloss
                 </tr>
                 <tr>
                   <td align="center"><strong>Currency</strong>&#42;</td>
-                  <td align="left">From the dropdown menu, select the currency code in which the value of the product is set.<br /><br /><em><code>Note</code></em>: This information is required if any monetary values other than zero are provided.</td>
+                  <td align="left">From the dropdown menu, select the currency code in which the value of the product is set.<br /><br /><i><code>Note</code>: This information is required if any monetary values other than zero are provided.</i></td>
                 </tr>
                 <tr>
                   <td align="center"><strong>Weight (kg)</strong>&#42;</td>
