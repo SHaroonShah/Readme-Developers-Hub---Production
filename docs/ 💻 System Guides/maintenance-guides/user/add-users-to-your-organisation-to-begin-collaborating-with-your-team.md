@@ -173,7 +173,9 @@ Moreover, different roles and permissions improve security by restricting access
         Permission that allows to <Glossary>manifest</Glossary> shipments via the SAPIENT UI.
       </Card>
     </Cards>
+
     <br />
+
     <Callout icon="🚧" theme="warn">
       ### _Important_
 
@@ -181,7 +183,7 @@ Moreover, different roles and permissions improve security by restricting access
 
       _Whether the user has accepted the invite or not, you can update their roles and permissions from the_**_Users_**_&#x20;tab on the&#x20;_**_Edit User_**_&#x20;page. Make your changes and select&#x20;_**_Save Changes_**_&#x20;to update_.
 
-      _For detailed information on user roles and access permissions, refer to the[role-based access to SAPIENT actions](https://docs.intersoftsapient.net/docs/sapient-user-roles-and-permissions#/) section._
+      _For detailed information on user roles and access permissions, refer to the&#x20;_<Anchor target="_blank" href="https://docs.intersoftsapient.net/docs/operations-operator-role-based-access-to-sapient-actions">_role-based access to SAPIENT actions_</Anchor>_&#x20;section._
     </Callout>
   </Tab>
 </Tabs>
