@@ -31,5 +31,5 @@ The InPost integration has been added to the SAPIENT system, which replaces the 
 <Callout icon="📘" theme="info">
   ### _Note_
 
-  _For more information on this integration, refer to the&#x20;_<Anchor target="_blank" href="https://docs.intersoftsapient.net/docs/spring-gds">_InPost_</Anchor>_&#x20;user guides._
+  _For more information on this integration, refer to the&#x20;_<Anchor target="_blank" href="https://docs.intersoftsapient.net/docs/inpost">_InPost_</Anchor>_&#x20;user guides._
 </Callout>
