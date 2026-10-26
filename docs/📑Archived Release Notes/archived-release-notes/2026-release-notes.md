@@ -7,6 +7,12 @@ icon: fad fa-notes
 metadata:
   robots: index
 ---
+<Accordion title="SAPIENT release notes - October 13, 2026">
+  <Accordion title="" icon="fa-info-circle">
+
+  </Accordion>
+</Accordion>
+
 <Accordion title="SAPIENT release notes - September 22, 2026">
   # An Post customs validation and incoterm updates
 
@@ -24,26 +30,25 @@ metadata:
       _Please note that An Post shipments to all other destinations are unaffected, and existing behaviour remains unchanged._
     </Callout>
 
-# Swagger updates
+  # Swagger updates
 
-The following enhancements have been made to the swagger documentattion:&#x20;
+  The following enhancements have been made to the swagger documentattion:&#x20;
 
-- **Evri API.** The query and response field descriptions for the following Evri endpoints have been updated to improve clarity and help ensure correct API implementation and usage.
-  - - **Shipping Account**
-      - **Get Accounts**
-      - **Add Account**
-      - **Get Account**
-      - **Update Account**
-      - **Link Locations**
-      - **Get Associated Locations**
-      - **Get Associated Location**
+  - **Evri API.** The query and response field descriptions for the following Evri endpoints have been updated to improve clarity and help ensure correct API implementation and usage.
+    - - **Shipping Account**
+        - **Get Accounts**
+        - **Add Account**
+        - **Get Account**
+        - **Update Account**
+        - **Link Locations**
+        - **Get Associated Locations**
+        - **Get Associated Location**
 
-    - **Shipments**
-      - **Create Shipment**
-      - **Print Label**
-      - **Print My Label QR Code**
-- **Royal Mail API.&#x20;**&#x54;he query and response field descriptions for all the Royal Mail **Link Locations** API endpoint have been updated to improve clarity and help ensure correct API implementation and usage.
-
+      - **Shipments**
+        - **Create Shipment**
+        - **Print Label**
+        - **Print My Label QR Code**
+  - **Royal Mail API.&#x20;**&#x54;he query and response field descriptions for all the Royal Mail **Link Locations** API endpoint have been updated to improve clarity and help ensure correct API implementation and usage.
 </Accordion>
 
 <Accordion title="SAPIENT release notes - August 31, 2026">
