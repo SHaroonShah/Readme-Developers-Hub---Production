@@ -60,7 +60,7 @@ To add a tracking account for InPost in SAPIENT, perform the steps as explained 
     |         Element        | Description                                                                                                      |
     | :--------------------: | :--------------------------------------------------------------------------------------------------------------- |
     |      **Carrier**\*     | From the dropdown menu, select InPost as your carrier option.                                                    |
-    | **Shipping Account**\* | From the dropdown menu, select the <Glossary>shipping account</Glossary> for which you want to receive tracking.|
+    | **Shipping Account**\* | From the dropdown menu, select the <Glossary>shipping account</Glossary> for which you want to receive tracking. You can also select the **All Shipping Accounts** option to add this tracking account for all existing accounts.|
 
     ***
   </ToggleListItem>
