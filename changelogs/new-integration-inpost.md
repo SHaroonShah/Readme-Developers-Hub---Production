@@ -18,6 +18,7 @@ The InPost integration has been added to the SAPIENT system, which replaces the 
   * **Get Associated Location**: Retrieve details for a specific InPost associated location.
   * **Shipments**
     * **Create Shipment**: Create a new InPost shipment request.
+    * **Create Shipment Async**: Create a new InPost shipment request for asynchronous processing.
     * **Print Label**: Generate a label for the InPost shipment.
 * **Get PUDO Locations**: Retrieve a list of InPost PUDO location for dropping off or picking up InPost shipments.&#x20;
 
