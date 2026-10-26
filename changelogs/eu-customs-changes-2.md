@@ -3,6 +3,7 @@ title: EU customs changes
 author: Syed Haroon Shah
 hidden: true
 published_at: '2026-10-26T11:24:17.186Z'
+type: added
 ---
 As part of the new EU customs regulations, the following fields have been added at the **Items** level of the **Create Shipment** endpoint for the following carriers:&#x20;
 
