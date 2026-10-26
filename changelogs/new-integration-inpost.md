@@ -25,6 +25,11 @@ The InPost integration has been added to the SAPIENT system, which replaces the 
 
 - **InPost shipping account screen**. As part of the InPost integration in Sapient, customer users and Carrier Account Administrators can now configure the InPost shipping account via the SAPIENT UI for creating shipments. This integration supports both outbound and return shipments using InPost’s eco-friendly parcel locker service across England, Wales, and Scotland. The **Add Shipping Account** screen will now include InPost as a carrier for selection, with mandatory fields required for configuration. Additionally, carrier-specific fields for the InPost integration include a mandatory **Client ID** and a **Bearer token** (to be provided by the carrier).
 
-<br />
+* **Tracking**: Enables customers to receive tracking updates through their integration with the SAPIENT tracking webhook.
+* **Manifest shipment**: Enable customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with InPost.
 
-<br />
+<Callout icon="📘" theme="info">
+  ### _Note_
+
+  _For more information on this integration, refer to the&#x20;_<Anchor target="_blank" href="https://docs.intersoftsapient.net/docs/spring-gds">_InPost_</Anchor>_&#x20;user guides._
+</Callout>
