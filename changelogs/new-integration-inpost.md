@@ -3,6 +3,7 @@ title: New integration - InPost
 author: Syed Haroon Shah
 hidden: true
 published_at: '2026-10-26T11:58:40.521Z'
+type: added
 ---
 The InPost integration has been added to the SAPIENT system, which replaces the existing integration.  This integration provides users with flexible shipping options, including lookup for convenient locker services for secure parcel pickups via the SAPIENT’s **PUDO Locations** endpoint. This enhancement streamlines shipment management and leverages new capabilities for a better shipping experience.
 
