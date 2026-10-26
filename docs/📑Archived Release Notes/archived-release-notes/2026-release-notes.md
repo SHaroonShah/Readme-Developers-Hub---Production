@@ -8,9 +8,7 @@ metadata:
   robots: index
 ---
 <Accordion title="SAPIENT release notes - October 13, 2026">
-  <Accordion title="" icon="fa-info-circle">
 
-  </Accordion>
 </Accordion>
 
 <Accordion title="SAPIENT release notes - September 22, 2026">
