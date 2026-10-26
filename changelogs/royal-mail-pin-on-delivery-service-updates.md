@@ -3,6 +3,7 @@ title: Royal Mail Pin on Delivery service updates
 author: Syed Haroon Shah
 hidden: true
 published_at: '2026-10-26T11:49:55.705Z'
+type: improved
 ---
 Royal Mail customers creating shipments using any of the following **Pin on Delivery** services must now provide both the destination **ContactEmail** and **ContactPhone** details:&#x20;
 
