@@ -2,10 +2,12 @@
 title: EU customs changes
 author: Syed Haroon Shah
 hidden: false
+metadata:
+  robots: noindex
 published_at: '2026-10-26T11:24:17.186Z'
 type: added
 ---
-As part of the new EU customs regulations, the following fields have been added at the **Items** level of the **Create Shipment** endpoint for the following carriers:&#x20;
+As part of the new EU customs regulations, **ManufactureProductId** and **StandardisedProductId** fields have been added at the **Items** level of the **Create Shipment** endpoint for the following carriers:&#x20;
 
 - [DHL Express](https://docs.intersoftsapient.net/reference/post_v4-shipments-dhlexpress)
 - [An Post](https://docs.intersoftsapient.net/reference/post_v4-shipments-anpost)
