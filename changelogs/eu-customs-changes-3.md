@@ -1,8 +1,9 @@
 ---
 title: EU customs changes
 author: Syed Haroon Shah
-hidden: true
-published_at: '2026-10-27T11:48:18.584Z'
+hidden: false
+published_at: '2026-10-27T11:22:48.973Z'
+type: improved
 ---
 As part of the new EU customs regulations, **ManufactureProductId** and **StandardisedProductId** fields have been added at the **Items** level of the **Create Shipment** endpoint for the following carriers:&#x20;
 
