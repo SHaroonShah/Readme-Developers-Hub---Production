@@ -9,37 +9,17 @@ type: added
 ---
 Royal Mail Pin on Delivery service updates
 
-<br />
+Royal Mail customers creating shipments using any of the following **Pin on Delivery** services must now provide both the destination **ContactEmail** and **ContactPhone** details:&#x20;
+
+| Service Code | Description                 |
+| ------------ | --------------------------- |
+| M01          | Tracked 24 with PIN (HV)    |
+| M02          | Tracked 48 with PIN (HV)    |
+| M04          | Tracked 24 with PIN         |
+| M05          | Tracked 48 with PIN         |
+| M06          | Import Tracked 24 with PIN  |
+| M13          | Import Tracked 48 with PIN  |
 
 <br />
 
-The InPost integration has been added to the SAPIENT system, which replaces the existing InPost integration.  This integration provides users with more flexible shipping options, including lookup for convenient locker services for secure parcel pickups via the SAPIENT’s **PUDO Locations** endpoint. This enhancement streamlines shipment management and leverages new capabilities for a better shipping experience.
-
-**New API endpoints**. A new **InPost** block has been added to our carrier-specific APIs. This block includes the following API endpoints:
-
-* **Shipping Account**
-  * **Get Accounts**: Retrieve a list of the InPost shipping accounts.
-  * **Add Account**: Add a new InPost shipping account.
-  * **Get Account**: Retrieve details of a specific InPost shipping account.
-  * **Update Account**: Update details of an existing InPost shipping account.
-  * **Link Locations**: Link shipping locations to an InPost shipping accounts.
-  * **Get Associated Locations**: Retrieve locations linked to the InPost shipping account.
-  * **Get Associated Location**: Retrieve details for a specific InPost associated location.
-  * **Shipments**
-    * **Create Shipment**: Create a new InPost shipment request.
-    * **Create Shipment Async**: Create a new InPost shipment request for asynchronous processing.
-    * **Print Label**: Generate a label for the InPost shipment.
-* **Get PUDO Locations**: Retrieve a list of InPost PUDO locations for dropping off or picking up InPost shipments.&#x20;
-
-***
-
-- **InPost shipping account screen**. As part of the InPost integration in Sapient, customer users and Carrier Account Administrators can now configure the InPost shipping account via the SAPIENT UI for creating shipments. This integration supports both outbound and return shipments using InPost’s eco-friendly parcel locker service across England, Wales, and Scotland. The **Add Shipping Account** screen will now include InPost as a carrier for selection, with mandatory fields required for configuration. Additionally, carrier-specific fields for the InPost integration include a mandatory **Client ID** and a **Bearer token** (to be provided by the carrier).
-
-* **Tracking**: Enables customers to receive tracking updates through their integration with the SAPIENT tracking webhook.
-* **Manifest shipment**: Enable customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with InPost.
-
-<Callout icon="📘" theme="info">
-  ### _Note_
-
-  _For more information on this integration, refer to the&#x20;_<Anchor target="_blank" href="https://docs.intersoftsapient.net/docs/inpost">_InPost_</Anchor>_&#x20;user guides._
-</Callout>
+<br />
