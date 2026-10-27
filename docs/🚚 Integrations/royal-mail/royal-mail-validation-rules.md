@@ -1147,3 +1147,95 @@ The following sections summarises the MDF validation rules, their respective shi
     </table>
   `}</HTMLBlock>
 </Accordion>
+
+<Accordion title="Ruleset Q" icon="fa-solid fa-shield-check">
+  **Scenario example**: International non-document (<Glossary>NDX</Glossary>) shipments using <Glossary>DDP</Glossary> incoterm, sent to US destinations only.
+
+  <HTMLBlock>{`
+    <table>
+      <tr>
+        <th>API object</th>
+        <th>Mandatory fields</th>
+      </tr>
+
+      <tr>
+        <td rowspan="6"><strong>Shipper > Address</strong></td>
+        <td>ContactName</td>
+      </tr>
+
+      <tr>
+        <td>Line 1</td>
+      </tr>
+
+      <tr>
+        <td>Town</td>
+      </tr>
+
+      <tr>
+        <td>PostCode</td>
+      </tr>
+
+      <tr>
+        <td>CountryCode</td>
+      </tr>
+  <tr>
+        <td>ContactEmail/ContactPhone</td>
+      </tr>
+
+      <tr>
+        <td rowspan="6"><strong>Destination > Address</strong></td>
+        <td>ContactName</td>
+      </tr>
+
+      <tr>
+        <td>Line 1</td>
+      </tr>
+
+      <tr>
+        <td>Town</td>
+      </tr>
+
+      <tr>
+        <td>CountryCode</td>
+      </tr>
+
+      <tr>
+        <td>ContactEmail</td>
+      </tr>
+
+      <tr>
+        <td>ContactPhone</td>
+      </tr>
+
+      <tr>
+        <td rowspan="6"><strong>Items</strong></td>
+        <td>Quantity</td>
+      </tr>
+
+      <tr>
+        <td>Description</td>
+      </tr>
+
+      <tr>
+        <td>Value</td>
+      </tr>
+
+      <tr>
+        <td>Weight</td>
+      </tr>
+
+      <tr>
+        <td>HSCode</td>
+      </tr>
+
+      <tr>
+        <td>CountryOfOrigin</td>
+      </tr>
+
+      <tr>
+        <td><strong>Customs</strong></td>
+        <td>QuotedLandedCost</td>
+      </tr>
+    </table>
+  `}</HTMLBlock>
+</Accordion>
