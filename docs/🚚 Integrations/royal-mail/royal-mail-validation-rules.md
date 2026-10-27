@@ -951,3 +951,99 @@ The following sections summarises the MDF validation rules, their respective shi
     </table>
   `}</HTMLBlock>
 </Accordion>
+
+<Accordion title="Ruleset G" icon="fa-solid fa-shield-check">
+  **Scenario example**: International non-document (<Glossary>NDX</Glossary>) shipments with an <Glossary>IOSS</Glossary> <Glossary>Pre-registration number</Glossary>, shipped to EU destinations.
+
+  <HTMLBlock>{`
+    <table>
+      <tr>
+        <th>API object</th>
+        <th>Mandatory fields</th>
+      </tr>
+
+      <tr>
+        <td rowspan="5"><strong>Shipper > Address</strong></td>
+        <td>ContactName</td>
+      </tr>
+
+      <tr>
+        <td>Line 1</td>
+      </tr>
+
+      <tr>
+        <td>Town</td>
+      </tr>
+
+      <tr>
+        <td>PostCode</td>
+      </tr>
+
+      <tr>
+        <td>CountryCode</td>
+      </tr>
+  <tr>
+        <td rowspan=""><strong>Shipper</strong></td>
+        <td>EoriNumber</td>
+      </tr>
+      <tr>
+        <td rowspan="6"><strong>Destination > Address</strong></td>
+        <td>ContactName</td>
+      </tr>
+
+      <tr>
+        <td>Line 1</td>
+      </tr>
+
+      <tr>
+        <td>Town</td>
+      </tr>
+
+      <tr>
+        <td>CountryCode</td>
+      </tr>
+
+      <tr>
+        <td>ContactEmail</td>
+      </tr>
+
+      <tr>
+        <td>ContactPhone</td>
+      </tr>
+
+      <tr>
+        <td rowspan="6"><strong>Items</strong></td>
+        <td>Quantity</td>
+      </tr>
+
+      <tr>
+        <td>Description</td>
+      </tr>
+
+      <tr>
+        <td>Value</td>
+      </tr>
+
+      <tr>
+        <td>Weight</td>
+      </tr>
+
+      <tr>
+        <td>HSCode</td>
+      </tr>
+
+      <tr>
+        <td>CountryOfOrigin</td>
+      </tr>
+
+      <tr>
+        <td rowspan="2"><strong>Customs</strong></td>
+        <td>PreRegistrationNumber populated with the IOSS number</td>
+      </tr>
+
+      <tr>
+        <td>PreRegistrationType defined as IOSS</td>
+      </tr>
+    </table>
+  `}</HTMLBlock>
+</Accordion>
