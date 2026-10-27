@@ -1,5 +1,5 @@
 ---
-title: New integration - InPost
+title: Royal Mail Pin on Delivery service updates
 author: Syed Haroon Shah
 hidden: false
 metadata:
@@ -7,8 +7,6 @@ metadata:
 published_at: '2026-10-26T11:58:40.521Z'
 type: added
 ---
-Royal Mail Pin on Delivery service updates
-
 Royal Mail customers creating shipments using any of the following **Pin on Delivery** services must now provide both the destination **ContactEmail** and **ContactPhone** details:&#x20;
 
 | Service Code | Description                 |
