@@ -1,8 +1,9 @@
 ---
 title: Royal Mail tracking data enhancements
 author: Syed Haroon Shah
-hidden: true
+hidden: false
 published_at: '2026-10-27T11:43:38.825Z'
+type: improved
 ---
 SAPIENT now captures location coordinates and estimated delivery information from the Royal Mail Push Tracking API, making this data available through the enhanced tracking webhook. The additional data includes the following information:
 
