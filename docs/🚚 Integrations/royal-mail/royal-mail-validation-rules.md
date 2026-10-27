@@ -1106,7 +1106,7 @@ The following sections summarises the MDF validation rules, their respective shi
       </tr>
 
       <tr>
-        <td rowspan="6"><strong>Items</strong></td>
+        <td rowspan="8"><strong>Items</strong></td>
         <td>Quantity</td>
       </tr>
 
@@ -1128,6 +1128,12 @@ The following sections summarises the MDF validation rules, their respective shi
 
       <tr>
         <td>CountryOfOrigin</td>
+      </tr>
+  <tr>
+        <td>SKUCode</td>
+      </tr>
+  <tr>
+        <td>ManufactureProductId</td>
       </tr>
 
       <tr>
