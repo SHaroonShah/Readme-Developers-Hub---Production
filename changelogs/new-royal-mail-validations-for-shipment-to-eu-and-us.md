@@ -1,5 +1,5 @@
 ---
-title: New Royal Mail validations for shipment to EU and US
+title: New Royal Mail validation for shipment to EU and US
 author: Syed Haroon Shah
 hidden: false
 metadata:
