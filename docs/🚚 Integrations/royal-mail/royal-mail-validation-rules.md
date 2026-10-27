@@ -946,7 +946,7 @@ The following sections summarises the MDF validation rules, their respective shi
         <td>SkuCode</td>
       </tr>
   <tr>
-        <td>ManufactureproductId</td>
+        <td>ManufactureProductId</td>
       </tr>
     </table>
   `}</HTMLBlock>
