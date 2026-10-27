@@ -1,8 +1,9 @@
 ---
 title: New Royal Mail validations for shipment to EU and US
 author: Syed Haroon Shah
-hidden: true
+hidden: false
 published_at: '2026-10-27T11:44:41.973Z'
+type: added
 ---
 The following fields have been made mandatory for any Royal Mail shipments destined to EU and US:
 
