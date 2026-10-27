@@ -36,7 +36,7 @@ The following fields have been made mandatory for any Royal Mail shipments desti
 
     <tr>
       <td>
-        United States (US)
+        Shipments to United States (US)
       </td>
 
       <td>
