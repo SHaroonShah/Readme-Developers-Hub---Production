@@ -952,8 +952,8 @@ The following sections summarises the MDF validation rules, their respective shi
   `}</HTMLBlock>
 </Accordion>
 
-<Accordion title="Ruleset G" icon="fa-solid fa-shield-check">
-  **Scenario example**: International non-document (<Glossary>NDX</Glossary>) shipments with an <Glossary>IOSS</Glossary> <Glossary>Pre-registration number</Glossary>, shipped to EU destinations.
+<Accordion title="Ruleset N" icon="fa-solid fa-shield-check">
+  **Scenario example**: International non-document (<Glossary>NDX</Glossary>) shipments with a <Glossary>DDP</Glossary>incoterm, product identifier, <Glossary>IOSS</Glossary>, <Glossary>Pre-registration number</Glossary>, shipped to EU destinations.
 
   <HTMLBlock>{`
     <table>
@@ -1012,7 +1012,7 @@ The following sections summarises the MDF validation rules, their respective shi
       </tr>
 
       <tr>
-        <td rowspan="6"><strong>Items</strong></td>
+        <td rowspan="8"><strong>Items</strong></td>
         <td>Quantity</td>
       </tr>
 
@@ -1035,14 +1035,15 @@ The following sections summarises the MDF validation rules, their respective shi
       <tr>
         <td>CountryOfOrigin</td>
       </tr>
-
-      <tr>
-        <td rowspan="2"><strong>Customs</strong></td>
-        <td>PreRegistrationNumber populated with the IOSS number</td>
+  <tr>
+        <td>SKUCode</td>
       </tr>
-
+  <tr>
+        <td>ManufactureProductId</td>
+      </tr>
       <tr>
-        <td>PreRegistrationType defined as IOSS</td>
+        <td rowspan=""><strong>Customs</strong></td>
+        <td>QuotedLandedCost</td>
       </tr>
     </table>
   `}</HTMLBlock>
