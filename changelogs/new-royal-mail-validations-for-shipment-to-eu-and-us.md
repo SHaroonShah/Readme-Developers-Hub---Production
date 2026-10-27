@@ -2,6 +2,8 @@
 title: New Royal Mail validations for shipment to EU and US
 author: Syed Haroon Shah
 hidden: false
+metadata:
+  robots: noindex
 published_at: '2026-10-27T11:44:41.973Z'
 type: added
 ---
@@ -23,7 +25,7 @@ The following fields have been made mandatory for any Royal Mail shipments desti
   <tbody>
     <tr>
       <td>
-        European Union (EU)
+        B2C shipments to European Union (EU)
       </td>
 
       <td>
