@@ -2,6 +2,8 @@
 title: New integration - InPost
 author: Syed Haroon Shah
 hidden: false
+metadata:
+  robots: noindex
 published_at: '2026-10-26T11:58:40.521Z'
 type: added
 ---
@@ -21,7 +23,7 @@ The InPost integration has been added to the SAPIENT system, which replaces the 
     * **Create Shipment**: Create a new InPost shipment request.
     * **Create Shipment Async**: Create a new InPost shipment request for asynchronous processing.
     * **Print Label**: Generate a label for the InPost shipment.
-* **Get PUDO Locations**: Retrieve a list of InPost PUDO location for dropping off or picking up InPost shipments.&#x20;
+* **Get PUDO Locations**: Retrieve a list of InPost PUDO locations for dropping off or picking up InPost shipments.&#x20;
 
 ***
 
