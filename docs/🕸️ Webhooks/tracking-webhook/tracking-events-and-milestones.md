@@ -289,8 +289,8 @@ The following section displays a comprehensive structure of the milestones, even
                   <td> The shipment is being held or retained by the carrier temporarily.</td>
                   </tr>
                   <tr>
-                  <td rowspan="21"><strong>N/A</strong></td>
-                  <td rowspan="21">Null</td>
+                  <td rowspan="22"><strong>N/A</strong></td>
+                  <td rowspan="22">Null</td>
                   <td>ICLR</td>
   <td>Shipment Customs Cleared</td>
                   <td>Customs clearance has been completed successfully.</td>
@@ -308,6 +308,11 @@ The following section displays a comprehensive structure of the milestones, even
                   <td>INVD</td>
   <td>Invalid Tracking Number</td>
                   <td>The provided tracking number is invalid or not recognised by the carrier.</td>
+                  </tr>
+    <tr>
+                  <td>IDAS</td>
+  <td>Damaged Shipment</td>
+                  <td>The shipment is damaged.</td>
                   </tr>
                   <tr>
                   <td>ISOH</td>
