@@ -7,6 +7,12 @@ metadata:
 published_at: '2026-10-26T11:58:40.521Z'
 type: added
 ---
+Royal Mail Pin on Delivery service updates
+
+<br />
+
+<br />
+
 The InPost integration has been added to the SAPIENT system, which replaces the existing InPost integration.  This integration provides users with more flexible shipping options, including lookup for convenient locker services for secure parcel pickups via the SAPIENT’s **PUDO Locations** endpoint. This enhancement streamlines shipment management and leverages new capabilities for a better shipping experience.
 
 **New API endpoints**. A new **InPost** block has been added to our carrier-specific APIs. This block includes the following API endpoints:
