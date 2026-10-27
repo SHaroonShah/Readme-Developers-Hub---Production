@@ -863,7 +863,7 @@ The following sections summarises the MDF validation rules, their respective shi
 </Accordion>
 
 <Accordion title="Ruleset M" icon="fa-solid fa-shield-check">
-  **Scenario example**: International non-document (<Glossary>NDX</Glossary>) shipments to EU only, using <Glossary>DDU</Glossary>, with product identifier, additional customs data, and mandatory receiver contact details.
+  **Scenario example**: International non-document (<Glossary>NDX</Glossary>) shipments to EU only, using <Glossary>DDU</Glossary>, with SKU code, product identifier, additional customs data, and mandatory receiver contact details.
 
   <HTMLBlock>{`
     <table>
