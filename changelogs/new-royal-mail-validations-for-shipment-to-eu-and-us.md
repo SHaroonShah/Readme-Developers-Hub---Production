@@ -1,5 +1,5 @@
 ---
-title: New Royal Mail validation for shipment to EU and US destinations
+title: Royal Mail validation updates for shipments to EU and US
 author: Syed Haroon Shah
 hidden: false
 metadata:
@@ -7,7 +7,7 @@ metadata:
 published_at: '2026-10-27T11:44:41.973Z'
 type: added
 ---
-The following fields have been made mandatory for any Royal Mail shipments destined to EU and US:
+Sapient has been updated to support additional shipment data required by Royal Mail for EU and US destinations:
 
 <Table>
   <thead>
@@ -17,7 +17,7 @@ The following fields have been made mandatory for any Royal Mail shipments desti
       </th>
 
       <th>
-        Mandatory Fields
+        Fields
       </th>
     </tr>
   </thead>
@@ -31,6 +31,7 @@ The following fields have been made mandatory for any Royal Mail shipments desti
       <td>
         - **SKUCode**
         - **ManufactureProductId**
+        - **StandardisedProductId**
       </td>
     </tr>
 
@@ -40,8 +41,11 @@ The following fields have been made mandatory for any Royal Mail shipments desti
       </td>
 
       <td>
-        Shipper **ContactEmail** or **ContactPhone**
+        - Shipper **ContactEmail** or **ContactPhone**
+        - **PGAReferenceNumber**
       </td>
     </tr>
   </tbody>
 </Table>
+
+Where applicable, these fields will be subject to mandatory validation once the corresponding Royal Mail requirements are enforced.
