@@ -76,6 +76,7 @@ This integration offers several key features that streamline the shipping proces
     | 2 Point Standard   | This service provides standard delivery to an InPost locker or shop.            |
     | 2 Point Express    | This service provides express delivery to an InPost locker or shop.             |
     | **Return**         | This service provides a parcel returns solution using an InPost Locker or Shop. |
+<br />
 
     <Callout icon="💡" theme="default">
       ### _Tip_
