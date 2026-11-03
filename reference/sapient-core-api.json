@@ -1,7 +1,7 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "Core API",
+    "title": "SAPIENT CORE API",
     "description": "# Introduction\nHere you will find requirements for integrating with SAPIENT CORE API.\n\nThe documentation specifically covers how the API can be used by business customers to conduct shipping activity with available carriers and provides the technical information to build this integration. The API allows customers to create and manage shipments, produce labels, customs documentation, and collection manifests, retrieve reference data such as carriers and countries, and maintain their own data such as shipping account details.\n\nIntersoft API is a fully RESTful service implemented using JSON messaging. You, as the customer are responsible for sending JSON messages and for maintaining the capability of receiving JSON messages in the format described in this specification. Request and response examples for each API service are included in this specification.\n\n# Authentication\n\nThe SAPIENT CORE API uses OAuth2 authentication.\n\nTo request the authorization token you need to create API credentials (Client ID and Secret) on the system first. If you have not done it already, log into your account and go to API Credentials or follow the link [add a link here with the path to the API Credentials menu]. Use the credentials to retrieve the authorization token.\n\nNote: Make sure you copy the Secret and keep it secure as you won't be able to view it again on the system.\n\n<!-- ReDoc-Inject: <SecurityDefinitions /> -->\n",
     "version": "v4.0",
     "x-logo": {
@@ -373,14 +373,14 @@
                       "TrackingNumber": "TT000000005GB",
                       "BarcodeNumber": "4C0069786000000000B1F",
                       "Reference1": "OrderRef56",
-                      "ShipmentDate": "2026-10-20",
+                      "ShipmentDate": "2026-11-03",
                       "Status": "Created",
                       "ManifestNumber": "ISH2802532",
                       "ContainerId": "South East 1234",
                       "Carrier": "RM",
                       "DestinationCountryCode": "GB",
                       "LastUpdatedBy": "User A",
-                      "LastUpdatedDateUtc": "2026-10-20T14:18:41.904Z"
+                      "LastUpdatedDateUtc": "2026-11-03T08:43:00.583Z"
                     },
                     {
                       "ShippingAccountId": "310d6beb-ae36-40e7-918f-f92100c1719d",
@@ -388,14 +388,14 @@
                       "TrackingNumber": "",
                       "BarcodeNumber": "",
                       "Reference1": "OrderRef57",
-                      "ShipmentDate": "2026-10-20",
+                      "ShipmentDate": "2026-11-03",
                       "Status": "LabelPrinted",
                       "ManifestNumber": "",
                       "ContainerId": "",
                       "Carrier": "RM",
                       "DestinationCountryCode": "GB",
                       "LastUpdatedBy": "User B",
-                      "LastUpdatedDateUtc": "2026-10-20T14:18:41.904Z"
+                      "LastUpdatedDateUtc": "2026-11-03T08:43:00.583Z"
                     }
                   ],
                   "TotalCount": 2
@@ -724,11 +724,11 @@
               "example": [
                 {
                   "ShipmentId": "AD123456783GB",
-                  "ShipmentDate": "2026-10-25"
+                  "ShipmentDate": "2026-11-08"
                 },
                 {
                   "ShipmentId": "e3239e85-ddf8-4323-9064-b83c38eff927",
-                  "ShipmentDate": "2026-10-30"
+                  "ShipmentDate": "2026-11-13"
                 }
               ]
             }
@@ -1417,7 +1417,7 @@
                     {
                       "ContainerId": "South East",
                       "ContainerStatus": "Manifested",
-                      "CreatedDateUtc": "2026-10-20T14:18:38.454Z",
+                      "CreatedDateUtc": "2026-11-03T08:42:57.639Z",
                       "ShippingLocationId": "93f6d928-9456-434a-9d69-60f3b7dea091",
                       "ShippingLocationAlias": "Northern Warehouse",
                       "TotalWeight": 12,
@@ -1428,7 +1428,7 @@
                     {
                       "ContainerId": "South West",
                       "ContainerStatus": "Active",
-                      "CreatedDateUtc": "2026-10-19T14:18:38.454Z",
+                      "CreatedDateUtc": "2026-11-02T08:42:57.639Z",
                       "ShippingLocationId": "93f6d928-9456-434a-9d69-60f3b7dea091",
                       "ShippingLocationAlias": "Northern Warehouse",
                       "TotalWeight": 14,
@@ -1587,7 +1587,7 @@
                     "value": {
                       "ContainerId": "South East",
                       "ContainerStatus": "Active",
-                      "CreatedDateUtc": "2026-10-20T14:18:38.658Z",
+                      "CreatedDateUtc": "2026-11-03T08:42:57.808Z",
                       "CarrierCode": "RM",
                       "ShippingLocationId": "93f6d928-9456-434a-9d69-60f3b7dea091",
                       "ShippingLocationAlias": "Northern Warehouse",
@@ -1604,7 +1604,7 @@
                       "ManifestNumbers": [
                         "COS0000016"
                       ],
-                      "CreatedDateUtc": "2026-10-20T14:18:38.658Z",
+                      "CreatedDateUtc": "2026-11-03T08:42:57.808Z",
                       "CarrierCode": "RM",
                       "ShippingLocationId": "93f6d928-9456-434a-9d69-60f3b7dea091",
                       "ShippingLocationAlias": "Northern Warehouse",
@@ -1986,7 +1986,7 @@
                           "OriginalExportCode": "61091090001"
                         }
                       ],
-                      "GeneratedDate": "2026-10-20T14:18:39.148Z"
+                      "GeneratedDate": "2026-11-03T08:42:58.206Z"
                     }
                   },
                   "Incorrect HSCode": {
@@ -2008,7 +2008,7 @@
                           "OriginalExportCode": "61091090001"
                         }
                       ],
-                      "GeneratedDate": "2026-10-20T14:18:39.148Z"
+                      "GeneratedDate": "2026-11-03T08:42:58.206Z"
                     }
                   }
                 }
@@ -2203,7 +2203,7 @@
                   ],
                   "IsError": false,
                   "Notes": "<taxBreakdown><city><rate>0</rate><value>0</value></city><special><rate>0</rate><value>0</value></special><county><rate>0</rate><value>0</value></county><state><rate>0.06625</rate><value>0</value></state></taxBreakdown>",
-                  "GeneratedDate": "2026-10-20T14:18:39.820Z"
+                  "GeneratedDate": "2026-11-03T08:42:58.657Z"
                 }
               }
             }
@@ -2341,7 +2341,7 @@
                       "IsError": false,
                       "ErrorDescription": "",
                       "Notes": "",
-                      "GeneratedDate": "2026-10-20T14:18:40.064Z"
+                      "GeneratedDate": "2026-11-03T08:42:58.891Z"
                     }
                   },
                   "Prohibited Item": {
@@ -2362,7 +2362,7 @@
                       "IsError": true,
                       "ErrorDescription": "The item amaranth is prohibited",
                       "Notes": "",
-                      "GeneratedDate": "2026-10-20T14:18:40.066Z"
+                      "GeneratedDate": "2026-11-03T08:42:58.893Z"
                     }
                   }
                 }
@@ -2434,44 +2434,44 @@
               "examples": {
                 "Manifest by Shipping Account": {
                   "value": {
-                    "ShippingLocationId": "393c8da1-9579-4b03-a7b3-8dab33e65660",
-                    "ShippingAccountId": "beee3522-f81f-4a50-9b09-4edc8fb2a9dc",
+                    "ShippingLocationId": "3c5a336a-dded-4774-9831-6b02f7146513",
+                    "ShippingAccountId": "0e7616b6-121e-4f87-b98b-26f4742f3c82",
                     "Async": false
                   }
                 },
                 "Manifest by Shipping Account in the background": {
                   "value": {
-                    "ShippingLocationId": "0bd611d5-fb1a-43a9-8880-38ded622627a",
-                    "ShippingAccountId": "463fb760-7fbc-401a-951b-317820c570ae",
+                    "ShippingLocationId": "fa583724-ea15-4bf3-9015-b5012a2a2788",
+                    "ShippingAccountId": "8986306a-e66f-4067-9b06-b79d7f786d6a",
                     "Async": true
                   }
                 },
                 "Manifest by Service": {
                   "value": {
-                    "ShippingLocationId": "334f1e39-f28c-4238-88bc-9a168c9d835f",
+                    "ShippingLocationId": "d046ffab-3ca4-4d06-b922-830d243f431a",
                     "ServiceCode": "EXPRESS",
                     "Async": false
                   }
                 },
                 "Manifest by Service for Shipping Account Only": {
                   "value": {
-                    "ShippingLocationId": "4d290226-2b45-4f7f-a101-37256458d8a4",
-                    "ShippingAccountId": "f1187252-e99c-4392-a0ce-c4fe4a23a5e5",
+                    "ShippingLocationId": "09c68c39-931d-4dde-8ddb-dcaa6a5a75ae",
+                    "ShippingAccountId": "3937226a-fe79-42b6-a636-0791c7b61b1a",
                     "ServiceCode": "EXPRESS",
                     "Async": false
                   }
                 },
                 "Manifest by Status": {
                   "value": {
-                    "ShippingLocationId": "2946a665-2061-465d-8cf5-9abdf17bcfa0",
+                    "ShippingLocationId": "46fb9bea-8f0d-41fa-b245-664dd3f43790",
                     "Status": "Picked",
                     "Async": false
                   }
                 },
                 "Manifest by Container": {
                   "value": {
-                    "ShippingLocationId": "1844fd98-ccfb-4bca-ae00-7fa7668a0373",
-                    "ContainerId": "2a47fbed-9e65-42b3-8f9a-b1407493816b",
+                    "ShippingLocationId": "0d10810d-2624-48ab-a675-cb486f7126d9",
+                    "ContainerId": "37c58e27-da79-4f22-88b7-7af4487373d4",
                     "Async": false
                   }
                 }
@@ -2841,16 +2841,16 @@
                           "WeightUnitOfMeasure": "KG",
                           "TotalShipments": 1,
                           "TotalItems": 1,
-                          "ManifestDate": "2026-10-20",
-                          "CreatedDateUtc": "2026-10-20T14:18:40.559Z",
+                          "ManifestDate": "2026-11-03",
+                          "CreatedDateUtc": "2026-11-03T08:42:59.295Z",
                           "ShippingLocation": {
-                            "ShippingLocationId": "d64634dc-84d9-4ae6-b5ea-ac4089a9f40e",
+                            "ShippingLocationId": "0ff68e74-1f36-42c3-a78e-9268e833409d",
                             "LocationAlias": "London",
                             "LocationCountry": "GB",
                             "LocationPostcode": "TW20 0HJ"
                           },
                           "ShippingAccount": {
-                            "ShippingAccountId": "f522bd98-1a07-4221-9af8-6a21b8d63b13",
+                            "ShippingAccountId": "cabd065b-d8fa-4d9b-8a59-e83d54bfe572",
                             "AccountName": "AccountName",
                             "AccountAlias": "Test",
                             "AccountNumber": "1234567890"
@@ -4195,7 +4195,7 @@
           "PUDO Locations"
         ],
         "summary": "Get PUDO Locations",
-        "description": "Retrieves a list of Pick-Up and Drop-Off (PUDO) locations associated with a specified carrier that are within a set radius of the postcode provided in the request. That radius is set to 10 Miles / 16.09 Kilometres. With this endpoint, you can find convenient locations for dropping off or picking up shipments, enhancing logistical efficiency and user experience.\r<br />\r<br />Before calling this endpoint, bear in mind the following:\r<br />\r<br />• You must call this endpoint before the **Create Shipment** endpoint so that the desired PUDO location is selected in the **Create Shipment** request.\r<br />\r<br />• This endpoint is currently supported by Royal Mail, InPost, InPost Global and DPD.\r<br />\r<br />• For InPost Global (`INPOSTGLB`) and DPD (`DPD`), the query parameter `shippingAccountId` is required (shipping account id or alias) so Sapient can authenticate to the carrier's location API using that account's credentials.",
+        "description": "Retrieves a list of Pick-Up and Drop-Off (PUDO) locations associated with a specified carrier that are within a set radius of the postcode provided in the request. That radius is set to 10 Miles / 16.09 Kilometres. With this endpoint, you can find convenient locations for dropping off or picking up shipments, enhancing logistical efficiency and user experience.\r<br />\r<br />Before calling this endpoint, bear in mind the following:\r<br />\r<br />• You must call this endpoint before the **Create Shipment** endpoint so that the desired PUDO location is selected in the **Create Shipment** request.\r<br />\r<br />• This endpoint is currently supported by Royal Mail, InPost and DPD.\r<br />\r<br />• For InPost (`INPOSTGLB`) and DPD (`DPD`), the query parameter `shippingAccountId` is required (shipping account id or alias) so Sapient can authenticate to the carrier's location API using that account's credentials.",
         "parameters": [
           {
             "name": "carrierCode",
@@ -4256,7 +4256,7 @@
           {
             "name": "shippingAccountId",
             "in": "query",
-            "description": "Shipping account id or alias. Required for InPost Global (`INPOSTGLB`) and DPD (`DPD`). Ignored for Royal Mail and legacy InPost.",
+            "description": "Shipping account id or alias. Required for InPost (`INPOSTGLB`) and DPD (`DPD`). Ignored for Royal Mail and legacy InPost.",
             "schema": {
               "type": "string"
             }
@@ -5607,19 +5607,29 @@
                       "ShipmentId": "aa24f1fd-d976-4c28-bec8-fe3d6f84ec1e",
                       "ShipperReference": "myRef123",
                       "CarrierCode": "RM",
-                      "Milestone": "IN TRANSIT",
-                      "MilestoneDateTime": "2022-03-23 23:15:00",
+                      "Milestone": "",
+                      "MilestoneDateTime": "2026-07-02 23:15:00",
                       "Events": [
                         {
                           "EventId": "3a0c17c5-0ca4-455c-ac65-a20d95e656bc",
                           "EventType": "Tracking",
-                          "EventCode": "PSDD",
-                          "EventDescription": "Shipment Departed Depot",
-                          "EventDateTime": "2022-03-24 11:43:16",
+                          "EventCode": "PSDP",
+                          "EventDescription": "Shipment Data Processed",
+                          "EventDateTime": "2026-07-02 23:15:00",
                           "EventUtcOffset": "+01:00",
                           "EventLocation": {
                             "Location": "Heathrow",
-                            "CountryCode": "GB"
+                            "CountryCode": "GB",
+                            "Latitude": 51.4707,
+                            "Longitude": -0.4599
+                          },
+                          "DeliveryInformation": {
+                            "EstimatedDeliveryDate": "2026-07-03",
+                            "EstimatedDeliveryWindow": {
+                              "StartTime": "10:00:00",
+                              "EndTime": "14:00:00",
+                              "UtcOffset": "-04:00"
+                            }
                           }
                         }
                       ]
@@ -5645,7 +5655,9 @@
                           "EventUtcOffset": "+01:00",
                           "EventLocation": {
                             "Location": "Heathrow",
-                            "CountryCode": "GB"
+                            "CountryCode": "GB",
+                            "Latitude": 51.4707,
+                            "Longitude": -0.4599
                           }
                         }
                       ]
@@ -9604,13 +9616,43 @@
       },
       "ShipmentTrackingWebhookPushPayloadDeliveryInformation": {
         "type": "object",
+        "properties": {
+          "EstimatedDeliveryDate": {
+            "type": "string",
+            "description": "The carrier's estimated delivery date on which the shipment is expected to be delivered.\r<br />\r<br />***Note**: For Royal Mail shipments, this information will be shared as PSDP (Shipment Data Processed) tracking event only if the estimated delivery date is available. The date must be in the YYYY-MM-DD format.*",
+            "format": "date",
+            "nullable": true
+          },
+          "EstimatedDeliveryWindow": {
+            "$ref": "#/components/schemas/ShipmentTrackingWebhookPushPayloadEstimatedDeliveryWindow"
+          }
+        },
         "additionalProperties": false,
         "description": "Used to provide estimated delivery information provided by the carrier."
       },
       "ShipmentTrackingWebhookPushPayloadEstimatedDeliveryWindow": {
         "type": "object",
+        "properties": {
+          "StartTime": {
+            "type": "string",
+            "description": "The estimated start time of the delivery window provided by the carrier.\r<br />\r<br />***Note**: The time must be in the HH:MM:SS format.*",
+            "format": "time",
+            "nullable": true
+          },
+          "EndTime": {
+            "type": "string",
+            "description": "The estimated end time of the delivery window provided by the carrier.\r<br />\r<br />***Note**: The time must be in the HH:MM:SS format.*",
+            "format": "time",
+            "nullable": true
+          },
+          "UtcOffset": {
+            "type": "string",
+            "description": "The offset from Coordinated Universal Time (UTC) associated with the estimated delivery time window, if provided by the carrier.",
+            "nullable": true
+          }
+        },
         "additionalProperties": false,
-        "description": "Used to provide the carrier's estimated delivery time window."
+        "description": "Used to provide the carrier's estimated delivery time window.\r<br />\r<br />***Note**: For Royal Mail shipments, this information will be shared as PSDP (Shipment Data Processed) tracking event only if the estimated delivery date is available.*"
       },
       "ShipmentTrackingWebhookPushPayloadEvent": {
         "required": [
@@ -9652,6 +9694,9 @@
           },
           "EventLocation": {
             "$ref": "#/components/schemas/ShipmentTrackingWebhookPushPayloadEventLocation"
+          },
+          "DeliveryInformation": {
+            "$ref": "#/components/schemas/ShipmentTrackingWebhookPushPayloadDeliveryInformation"
           }
         },
         "additionalProperties": false,
@@ -9745,10 +9790,22 @@
             "type": "string",
             "description": "An abbreviation representing the country where the event location is based, following the ISO 3166-1 alpha-2 standard, for example, \"GB\" for the United Kingdom. This is important for international tracking and logistical considerations.",
             "default": ""
+          },
+          "Latitude": {
+            "type": "number",
+            "description": "The latitude coordinate of the tracking event location.\r<br />\r<br />***Note**: This information is only populated if the data is returned by the carrier's tracking integration.*",
+            "format": "double",
+            "nullable": true
+          },
+          "Longitude": {
+            "type": "number",
+            "description": "The longitude coordinate of the tracking event location.\r<br />\r<br />***Note**: This information is only populated if the data is returned by the carrier's tracking integration.*",
+            "format": "double",
+            "nullable": true
           }
         },
         "additionalProperties": false,
-        "description": "The event location, indicating where the milestone or event took place."
+        "description": "Used to provide location details for the tracking event, such as latitude and longitude coordinates only when provided by the carrier."
       },
       "ShipmentsPagedResponse": {
         "required": [
