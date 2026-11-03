@@ -86,7 +86,7 @@
                     "value": {
                       "ShippingAccounts": [
                         {
-                          "ShippingAccountId": "62fbd37d-0409-492e-b6a7-5b4e35ba59c2",
+                          "ShippingAccountId": "f5b04e63-481b-46d2-ab9f-b66d6d917fa6",
                           "CarrierCode": "FIC",
                           "AccountType": "Sandbox",
                           "AccountName": "AB VideoGames",
@@ -96,10 +96,10 @@
                           "ContactNumber": "0123456789",
                           "ShipperWebsiteUrl": "https://www.example.com",
                           "LastUpdatedBy": "User A",
-                          "LastUpdatedDateUtc": "2026-10-20T14:25:11.040Z"
+                          "LastUpdatedDateUtc": "2026-11-03T08:49:11.000Z"
                         },
                         {
-                          "ShippingAccountId": "6bc04d6e-ad9b-486b-bf54-50a9ad9c3bce",
+                          "ShippingAccountId": "4cf933a5-bfc9-4cc0-a366-5b8dd5b4f3e3",
                           "CarrierCode": "FIC",
                           "AccountType": "Sandbox",
                           "AccountName": "KG Pet Shop",
@@ -109,7 +109,7 @@
                           "ContactNumber": "0123456789",
                           "ShipperWebsiteUrl": "https://www.example.com",
                           "LastUpdatedBy": "User B",
-                          "LastUpdatedDateUtc": "2026-10-20T14:25:11.040Z"
+                          "LastUpdatedDateUtc": "2026-11-03T08:49:11.000Z"
                         }
                       ],
                       "TotalCount": 2
@@ -258,7 +258,7 @@
                 "examples": {
                   "Response": {
                     "value": {
-                      "ShippingAccountId": "3b5ea2ce-ff9d-4b6d-b6f8-bf3daff05f31",
+                      "ShippingAccountId": "e4f69f2c-c681-4d17-ad7d-93d67fb124ff",
                       "CarrierCode": "FIC",
                       "AccountType": "Sandbox",
                       "AccountName": "AB VideoGames",
@@ -268,7 +268,7 @@
                       "ContactNumber": "0123456789",
                       "ShipperWebsiteUrl": "https://www.example.com",
                       "LastUpdatedBy": "User A",
-                      "LastUpdatedDateUtc": "2026-10-20T14:25:11.176Z"
+                      "LastUpdatedDateUtc": "2026-11-03T08:49:11.132Z"
                     }
                   }
                 }
@@ -651,8 +651,8 @@
                       "CurrencyCode": "GBP"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "2e0a96f0-4435-4524-a1c7-73dd68202b2f",
-                      "ShippingLocationId": "4fa7531d-f1ef-48d0-b683-bff36d40499e",
+                      "ShippingAccountId": "936b00f9-4f50-4758-af61-0df450b2ddb0",
+                      "ShippingLocationId": "8dc0375f-2dcc-401c-b754-931124f6641d",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -689,7 +689,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "RM48",
                       "DescriptionOfGoods": "Clothing",
-                      "ShipmentDate": "2026-10-20",
+                      "ShipmentDate": "2026-11-03",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
@@ -787,7 +787,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "TPWW",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-10-20",
+                      "ShipmentDate": "2026-11-03",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP"
                     },
@@ -830,7 +830,9 @@
                         "Weight": 0.5,
                         "ImageURL": "https://yourcompany.com/images/product.jpg",
                         "HSCode": "61091000",
-                        "CountryOfOrigin": "IT"
+                        "CountryOfOrigin": "IT",
+                        "ManufactureProductId": "5449000000996",
+                        "StandardisedProductId": "4006381333931"
                       },
                       {
                         "SkuCode": "SKU456",
@@ -840,7 +842,9 @@
                         "Weight": 0.3,
                         "ImageURL": "https://yourcompany.com/images/jumper-black.jpg",
                         "HSCode": "61101130",
-                        "CountryOfOrigin": "FR"
+                        "CountryOfOrigin": "FR",
+                        "ManufactureProductId": "5449000000997",
+                        "StandardisedProductId": "4006381333932"
                       }
                     ],
                     "Customs": {
@@ -860,7 +864,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "TPWW",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-10-20",
+                      "ShipmentDate": "2026-11-03",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
@@ -952,7 +956,7 @@
                       "OtherCharges": 32,
                       "QuotedLandedCost": 82.74,
                       "InvoiceNumber": "INV-12345",
-                      "InvoiceDate": "2026-10-20",
+                      "InvoiceDate": "2026-11-03",
                       "ExportLicenceRequired": false,
                       "Airn": "231.002.999-00"
                     },
@@ -980,7 +984,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "RM48",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-10-20",
+                      "ShipmentDate": "2026-11-03",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
@@ -1025,7 +1029,7 @@
                     "value": {
                       "Packages": [
                         {
-                          "ShipmentId": "46fdcd67-822b-4486-bd42-5cc773820f20",
+                          "ShipmentId": "e57168df-889d-4c4a-a656-d88923fe7399",
                           "PackageOccurrence": 1
                         }
                       ],
@@ -1036,7 +1040,7 @@
                     "value": {
                       "Packages": [
                         {
-                          "ShipmentId": "dadeeceb-ae05-4eb0-912a-76a4421ec000",
+                          "ShipmentId": "9aa905ee-3bfb-46b4-98b8-c05c9f254212",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "MD000000004409629",
                           "CarrierTrackingUrl": "https://fictracking.fedex.com/?MyFICNumber=MD000000004409629"
@@ -1054,7 +1058,7 @@
                           "CarrierDetails": {
                             "LabelCopiesToPrint": 1
                           },
-                          "ShipmentId": "76b2b84e-9337-4d98-bc5c-cf7b75175606",
+                          "ShipmentId": "eec0bb10-38fb-41f9-afd6-f22e0b66f61b",
                           "PackageOccurrence": 1,
                           "TrackingNumber": "MD000000004409629",
                           "CarrierTrackingUrl": "https://fictracking.fedex.com/?MyFICNumber=MD000000004409629"
@@ -1138,8 +1142,8 @@
                       "CurrencyCode": "GBP"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "a32c2506-ffc5-47ed-9a79-0c610e4a118f",
-                      "ShippingLocationId": "99764f46-5760-47aa-8eb9-ae7b6612790c",
+                      "ShippingAccountId": "2b846585-7b20-4925-9b29-83681d332c65",
+                      "ShippingLocationId": "f56490b1-70dc-4f3f-890d-31719ab79c34",
                       "Reference1": "OrderRef56"
                     },
                     "Destination": {
@@ -1176,7 +1180,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "RM48",
                       "DescriptionOfGoods": "Clothing",
-                      "ShipmentDate": "2026-10-20",
+                      "ShipmentDate": "2026-11-03",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
@@ -1274,7 +1278,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "TPWW",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-10-20",
+                      "ShipmentDate": "2026-11-03",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP"
                     },
@@ -1317,7 +1321,9 @@
                         "Weight": 0.5,
                         "ImageURL": "https://yourcompany.com/images/product.jpg",
                         "HSCode": "61091000",
-                        "CountryOfOrigin": "IT"
+                        "CountryOfOrigin": "IT",
+                        "ManufactureProductId": "5449000000996",
+                        "StandardisedProductId": "4006381333931"
                       },
                       {
                         "SkuCode": "SKU456",
@@ -1327,7 +1333,9 @@
                         "Weight": 0.3,
                         "ImageURL": "https://yourcompany.com/images/jumper-black.jpg",
                         "HSCode": "61101130",
-                        "CountryOfOrigin": "FR"
+                        "CountryOfOrigin": "FR",
+                        "ManufactureProductId": "5449000000997",
+                        "StandardisedProductId": "4006381333932"
                       }
                     ],
                     "Customs": {
@@ -1347,7 +1355,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "TPWW",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-10-20",
+                      "ShipmentDate": "2026-11-03",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
@@ -1439,7 +1447,7 @@
                       "OtherCharges": 32,
                       "QuotedLandedCost": 82.74,
                       "InvoiceNumber": "INV-12345",
-                      "InvoiceDate": "2026-10-20",
+                      "InvoiceDate": "2026-11-03",
                       "ExportLicenceRequired": false,
                       "Airn": "231.002.999-00"
                     },
@@ -1467,7 +1475,7 @@
                       "ContentType": "NDX",
                       "ServiceCode": "RM48",
                       "DescriptionOfGoods": "Clothes",
-                      "ShipmentDate": "2026-10-20",
+                      "ShipmentDate": "2026-11-03",
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
@@ -1508,7 +1516,7 @@
                   "$ref": "#/components/schemas/CreateShipmentViaWebhookResponse"
                 },
                 "example": {
-                  "RequestId": "686ae084-d77b-4351-a285-b0d5dda637d9"
+                  "RequestId": "2c147dbc-296b-4f6e-87aa-6245983df7ee"
                 }
               }
             }
@@ -1564,17 +1572,25 @@
           "Shipments"
         ],
         "summary": "Print Label",
-        "description": "This changes the status of the shipment to label printed. This should be done at the time of actual printing or label creation dependent on how you operate in reality. Shipments must be updated to printed status prior to manifesting.",
+        "description": "Generate and return the label for the FedEx International Connect shipment. This endpoint is utilised after a FedEx International Connect shipment has been created and is meant to facilitate the printing of the label required for that shipment.\r<br /><br />***Note:** This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting.*",
         "parameters": [
           {
             "name": "shipmentId",
             "in": "path",
-            "description": "Shipment Id\r<br />The Shipment Id may be an id or a tracking/barcode number.",
+            "description": "A unique identifier (shipmentId) or tracking number returned in the Create shipment response. This ID is used to reference and track specific shipments within the system.",
             "required": true,
             "schema": {
               "maxLength": 36,
               "minLength": 0,
               "type": "string"
+            }
+          },
+          {
+            "name": "labelFormat",
+            "in": "query",
+            "description": "Specifies the format of the shipping label that will be returned in the createShipment response.\r<br /><br /> The following are the accepted values:\r<br /><ul><li>**PDF** - returns a Base64-encoded PDF</li></ul>\r<br />***Note:**  By default, this field is set to PDF.*",
+            "schema": {
+              "$ref": "#/components/schemas/FedExInternationalConnectLabelFormat"
             }
           }
         ],
@@ -1584,12 +1600,12 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/LabelFormatPrintLabelResponse"
+                  "$ref": "#/components/schemas/FedExInternationalConnectLabelFormatPrintLabelResponse"
                 },
                 "examples": {
                   "PDF": {
                     "value": {
-                      "ShipmentId": "3787bae7-63e0-48fc-a288-fafaff6af2ed",
+                      "ShipmentId": "5cc0dbe2-2be8-41f6-8c04-cf9239d9dd5f",
                       "TrackingNumber": "UZ 123 456 789 IE",
                       "CarrierTrackingUrl": "https://fictracking.fedex.com/?MyFICNumber=UZ 123 456 789 IE",
                       "Label": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
@@ -2220,6 +2236,45 @@
         "type": "string",
         "description": "Sets the label format that will be returned in the createShipment Response.\r<br />Valid values are:\r<br />**PDF** - returns a Base64-encoded PDF\r<br />            \r<br />Defaults to PDF if not populated."
       },
+      "FedExInternationalConnectLabelFormatPrintLabelResponse": {
+        "required": [
+          "LabelFormat",
+          "ShipmentId"
+        ],
+        "type": "object",
+        "properties": {
+          "ShipmentId": {
+            "type": "string",
+            "description": "A unique identifier assigned to the shipment by the carrier for which the label is requested. This reaffirms the specific shipment being referenced.",
+            "format": "uuid",
+            "example": "c4e60776-288f-464e-b35b-ff0f3252c0f0"
+          },
+          "TrackingNumber": {
+            "type": "string",
+            "description": "A unique number assigned to the shipment that allows both the sender and the receiver to track the shipment's status and location throughout its transit. This number is essential for monitoring the delivery progress.",
+            "nullable": true,
+            "example": "TT12384739GB"
+          },
+          "CarrierTrackingUrl": {
+            "type": "string",
+            "description": "A URL link provided by the carrier that directs users to a webpage where they can track the shipment in real-time. This link provides detailed status updates and visibility into the shipment's journey.",
+            "format": "uri",
+            "nullable": true,
+            "example": "http://shipmentcarrier.com/tracking/DF12384739GB"
+          },
+          "Label": {
+            "type": "string",
+            "description": "The generated base64-encoded string of the shipping label in the format requested in the **LabelFormat** field. This label includes essential shipping information, barcodes, and addresses, necessary for the proper handling and delivery of the shipment.",
+            "nullable": true,
+            "example": "iVBORw0KGgoAAAANSUhEUgAA ... A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4"
+          },
+          "LabelFormat": {
+            "$ref": "#/components/schemas/FedExInternationalConnectLabelFormat"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Print Label Response"
+      },
       "FedExInternationalConnectLabelFormatShipmentInformation": {
         "required": [
           "ContentType",
@@ -2704,13 +2759,13 @@
           "ManufactureProductId": {
             "maxLength": 50,
             "type": "string",
-            "description": "A unique manufacturer identifier for the item being shipped, for example, proprietary manufacturer code, model number, or internal code. This field is used to reference the shipped item and supports carrier-specific requirements.",
+            "description": "A unique manufacturer identifier for the item being shipped, for example, proprietary manufacturer code, model number, or internal code. This field is used to reference the shipped item and supports carrier-specific requirements.\r<br />\r<br />***Note:** Some carriers may require this field for B2C shipments to EU destinations. Validation is performed by the relevant carrier integration based on carrier or regulatory requirements. If a required product identifier is not provided, the shipment may be rejected by the carrier.*",
             "nullable": true
           },
           "StandardisedProductId": {
             "maxLength": 50,
             "type": "string",
-            "description": "A globally recognised product identifier for the item being shipped, for example, GTIN, EAN, and UPC. This field is used for standardised item identification and supports carrier-specific requirements for customs and risk assessment.",
+            "description": "A globally recognised product identifier for the item being shipped, for example, GTIN, EAN, and UPC. This field is used for standardised item identification and supports carrier-specific requirements for customs and risk assessment.\r<br />\r<br />***Note:** Some carriers may require this field for B2C shipments to EU destinations. Validation is performed by the relevant carrier integration based on carrier or regulatory requirements. If a required product identifier is not provided, the shipment may be rejected by the carrier.*",
             "nullable": true
           },
           "PGAReferenceNumber": {
@@ -2794,45 +2849,6 @@
         "additionalProperties": false,
         "description": "Create Shipment Response"
       },
-      "LabelFormatPrintLabelResponse": {
-        "required": [
-          "LabelFormat",
-          "ShipmentId"
-        ],
-        "type": "object",
-        "properties": {
-          "ShipmentId": {
-            "type": "string",
-            "description": "A unique identifier assigned to the shipment by the carrier for which the label is requested. This reaffirms the specific shipment being referenced.",
-            "format": "uuid",
-            "example": "c4e60776-288f-464e-b35b-ff0f3252c0f0"
-          },
-          "TrackingNumber": {
-            "type": "string",
-            "description": "A unique number assigned to the shipment that allows both the sender and the receiver to track the shipment's status and location throughout its transit. This number is essential for monitoring the delivery progress.",
-            "nullable": true,
-            "example": "TT12384739GB"
-          },
-          "CarrierTrackingUrl": {
-            "type": "string",
-            "description": "A URL link provided by the carrier that directs users to a webpage where they can track the shipment in real-time. This link provides detailed status updates and visibility into the shipment's journey.",
-            "format": "uri",
-            "nullable": true,
-            "example": "http://shipmentcarrier.com/tracking/DF12384739GB"
-          },
-          "Label": {
-            "type": "string",
-            "description": "The generated base64-encoded string of the shipping label in the format requested in the **LabelFormat** field. This label includes essential shipping information, barcodes, and addresses, necessary for the proper handling and delivery of the shipment.",
-            "nullable": true,
-            "example": "iVBORw0KGgoAAAANSUhEUgAA ... A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4"
-          },
-          "LabelFormat": {
-            "$ref": "#/components/schemas/LabelFormat"
-          }
-        },
-        "additionalProperties": false,
-        "description": "Print Label Response"
-      },
       "OrderDirection": {
         "enum": [
           "Ascending",
@@ -2907,7 +2923,7 @@
             "items": {
               "$ref": "#/components/schemas/Item"
             },
-            "description": "Used to provide information on the individual goods/products being shipped within the package. This includes vital details, such as SKU code for inventory tracking, quantity of each item, description for clarity, and shipping specifics like weight, customs classifications (HS Code), and country of origin.\r<br />\r<br />***Note:** The item information is only required for dutiable shipments. Non-Dutiable and Documents Only (DOX) shipments do not require item information. Please be advised that the item verification on a shipment is done via Hurricane services; therefore, it should be enabled. The maximum number of distinct items that will be verified in a single shipment is 15.*",
+            "description": "Used to provide information on the individual goods/products being shipped within the package. This includes vital details, such as SKU code for inventory tracking, quantity of each item, description for clarity, and shipping specifics like weight, customs classifications (HS Code), and country of origin.\r<br />\r<br />***Note:** Item information is required only for dutiable shipments. Non-dutiable and Documents Only (DOX) shipments are exempt from this requirement. If Hurricane item verification is enabled during shipment creation, the system will verify a maximum of 15 distinct items per shipment.*",
             "nullable": true
           },
           "Customs": {
