@@ -69,13 +69,13 @@ This integration offers several key features that streamline the shipping proces
   <Tab title="Carrier Services">
     The following key services are provided by the InPost integration.
 
-    | Service Name          | Description                                                                                                                                                                                                                                                                    |
-    | :-------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-    | **2 Door Express**    | This service provides express delivery directly to the recipient’s address.                                                                                                                                                                                                    |
-    | 2 Door Standard       | This service provides standard delivery directly to the recipient’s address.                                                                                                                                                                                                   |
-    | 2 Point Standard      | This service provides standard delivery to an InPost locker or shop.                                                                                                                                                                                                           |
-    | 2 Point Express       | This service provides express delivery to an InPost locker or shop.                                                                                                                                                                                                            |
-    | **Labelless Returns** | This service provides a label-free returns solution using a QR code, allowing customers to drop off parcels at the desired <Glossary>PUDO</Glossary> location, such as lockers or shops without printing labels, with tracking and labelling handled by InPost during transit. |
+    | Service Name       | Description                                                                     |
+    | :----------------- | :------------------------------------------------------------------------------ |
+    | **2 Door Express** | This service provides express delivery directly to the recipient’s address.     |
+    | 2 Door Standard    | This service provides standard delivery directly to the recipient’s address.    |
+    | 2 Point Standard   | This service provides standard delivery to an InPost locker or shop.            |
+    | 2 Point Express    | This service provides express delivery to an InPost locker or shop.             |
+    | **Return**         | This service provides a parcel returns solution using an InPost Locker or Shop. |
 
     <Callout icon="💡" theme="default">
       ### _Tip_
