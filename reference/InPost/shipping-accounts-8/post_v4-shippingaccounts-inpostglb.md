@@ -1,6 +1,6 @@
 ---
 api:
   file: sapient-in-post-api.json
-  operationId: post_v4-shipments-inpost
+  operationId: post_v4-shippingaccounts-inpostglb
 hidden: false
 ---

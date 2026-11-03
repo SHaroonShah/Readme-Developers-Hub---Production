@@ -3,7 +3,7 @@
   "info": {
     "title": "InPost",
     "description": "# Introduction\nHere you will find requirements for integrating with INTERSOFT SAPIENT API.\n\nThe documentation specifically covers how the API can be used by business customers to conduct shipping activity with available carriers and provides the technical information to build this integration. The API allows customers to create and manage shipments, produce labels, customs documentation, and collection manifests, retrieve reference data such as carriers and countries, and maintain their own data such as shipping account details.\n\nIntersoft API is a fully RESTful service implemented using JSON messaging. You, as the customer are responsible for sending JSON messages and for maintaining the capability of receiving JSON messages in the format described in this specification. Request and response examples for each API service are included in this specification.\n\n# Authentication\n\nThe INTERSOFT SAPIENT API uses OAuth2 authentication.\n\nTo request the authorization token you need to create API credentials (Client ID and Secret) on the system first. If you have not done it already, log into your account and go to API Credentials or follow the link [add a link here with the path to the API Credentials menu]. Use the credentials to retrieve the authorization token.\n\nNote: Make sure you copy the Secret and keep it secure as you won't be able to view it again on the system.\n\n<!-- ReDoc-Inject: <SecurityDefinitions /> -->\n",
-    "version": "v4.0-INPOST",
+    "version": "v4.0-INPOSTGLB",
     "x-logo": {
       "url": "/Content/images/redoc-logo.png",
       "altText": "ReDoc"
@@ -16,7 +16,7 @@
     }
   ],
   "paths": {
-    "/v4/shippingAccounts/inpost": {
+    "/v4/shippingAccounts/inpostglb": {
       "get": {
         "tags": [
           "Shipping Accounts"
@@ -79,39 +79,41 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/InPostShippingAccountShippingAccountsPagedResponse"
+                  "$ref": "#/components/schemas/InPostGlobalShippingAccountShippingAccountsPagedResponse"
                 },
                 "examples": {
                   "Response": {
                     "value": {
                       "ShippingAccounts": [
                         {
-                          "ShippingAccountId": "e475775d-0e58-438e-becb-e521af23369b",
-                          "CarrierCode": "INPOST",
+                          "ShippingAccountId": "6df2123a-0e8a-40e8-8bd4-fc8219e9b811",
+                          "CarrierCode": "INPOSTGLB",
                           "AccountNumber": "IN0000001",
                           "AccountType": "Sandbox",
                           "AccountName": "AB VideoGames",
-                          "AccountAlias": "JSL",
+                          "AccountAlias": "INPGLB-001",
                           "AccountStatus": "Enabled",
                           "ContactName": "John Smith",
                           "ContactNumber": "0123456789",
                           "LastUpdatedBy": "User A",
-                          "LastUpdatedDateUtc": "2026-10-20T14:23:44.992Z",
-                          "ClientId": "example@inpost.co.uk"
+                          "LastUpdatedDateUtc": "2026-11-03T08:51:39.710Z",
+                          "ClientId": "inpost-client-id",
+                          "OrganisationId": "inpost-organisation-id"
                         },
                         {
-                          "ShippingAccountId": "83e6a72d-7da9-4fc4-be34-5233f3887b2b",
-                          "CarrierCode": "INPOST",
-                          "AccountNumber": "IN0000007",
+                          "ShippingAccountId": "adcac380-1a58-470f-a9e7-534652ea4edc",
+                          "CarrierCode": "INPOSTGLB",
+                          "AccountNumber": "IN0000002",
                           "AccountType": "Sandbox",
                           "AccountName": "KG Pet Shop",
-                          "AccountAlias": "KBPS",
+                          "AccountAlias": "INPGLB-002",
                           "AccountStatus": "Enabled",
                           "ContactName": "Joan Smith",
                           "ContactNumber": "0123456789",
                           "LastUpdatedBy": "User B",
-                          "LastUpdatedDateUtc": "2026-10-20T14:23:44.992Z",
-                          "ClientId": "example2@inpost.co.uk"
+                          "LastUpdatedDateUtc": "2026-11-03T08:51:39.710Z",
+                          "ClientId": "inpost-client-id-2",
+                          "OrganisationId": "inpost-organisation-id-2"
                         }
                       ],
                       "TotalCount": 2
@@ -167,13 +169,13 @@
           "Shipping Accounts"
         ],
         "summary": "Add Account",
-        "description": "Add a shipping account for InPost and link it with an existing shipping location.\r<br />Ensure to have required carrier details ready like InPost account name (client name allocated by InPost), username and password so that you can use the account for shipping with InPost.",
+        "description": "Add a shipping account for InPost and either link it with an existing shipping location or add a new shipping location that will be associated with the shipping account.",
         "requestBody": {
           "description": "Add Shipping Account Request",
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/InPostAddShippingAccountRequest"
+                "$ref": "#/components/schemas/InPostGlobalAddShippingAccountRequest"
               }
             }
           }
@@ -231,13 +233,13 @@
         ]
       }
     },
-    "/v4/shippingAccounts/inpost/{shippingAccountId}": {
+    "/v4/shippingAccounts/inpostglb/{shippingAccountId}": {
       "get": {
         "tags": [
           "Shipping Accounts"
         ],
         "summary": "Get Account",
-        "description": "Provides details for a InPost account.\r<br />Information about the account number, alias, account type, and contact details is included in the response.",
+        "description": "Provides details for an InPost account.\r<br />Information about the account number, alias, account type, and contact details is included in the response.",
         "parameters": [
           {
             "name": "shippingAccountId",
@@ -255,23 +257,24 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/InPostShippingAccount"
+                  "$ref": "#/components/schemas/InPostGlobalShippingAccount"
                 },
                 "examples": {
                   "Response": {
                     "value": {
-                      "ShippingAccountId": "6cb4532c-2021-45c0-8c46-c9a958c58613",
-                      "CarrierCode": "INPOST",
+                      "ShippingAccountId": "592ec113-e518-4c13-b6ea-0962fad25bb2",
+                      "CarrierCode": "INPOSTGLB",
                       "AccountNumber": "IN0000001",
                       "AccountType": "Sandbox",
                       "AccountName": "AB VideoGames",
-                      "AccountAlias": "JSL",
+                      "AccountAlias": "INPGLB-001",
                       "AccountStatus": "Enabled",
                       "ContactName": "John Smith",
                       "ContactNumber": "0123456789",
                       "LastUpdatedBy": "User A",
-                      "LastUpdatedDateUtc": "2026-10-20T14:23:45.110Z",
-                      "ClientId": "example@inpost.co.uk"
+                      "LastUpdatedDateUtc": "2026-11-03T08:51:39.834Z",
+                      "ClientId": "inpost-client-id",
+                      "OrganisationId": "inpost-organisation-id"
                     }
                   }
                 }
@@ -319,7 +322,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/InPostUpdateShippingAccountRequest"
+                "$ref": "#/components/schemas/InPostGlobalUpdateShippingAccountRequest"
               }
             }
           }
@@ -373,13 +376,13 @@
         ]
       }
     },
-    "/v4/shippingAccounts/inpost/{shippingAccountId}/linkLocations": {
+    "/v4/shippingAccounts/inpostglb/{shippingAccountId}/linkLocations": {
       "post": {
         "tags": [
           "Shipping Accounts"
         ],
         "summary": "Link Locations",
-        "description": "Link one or more shipping locations with a InPost shipping account.",
+        "description": "Link one or more shipping locations with an InPost shipping account.",
         "parameters": [
           {
             "name": "shippingAccountId",
@@ -392,7 +395,7 @@
           }
         ],
         "requestBody": {
-          "description": "Shipping location details",
+          "description": "A unique identifier for the shipping location assigned by the system or by you (alias), allowing users to reference and manage specific locations effectively.\r\nNote: The information provided in this field and the ShippingAccountId field are being linked with each other.",
           "content": {
             "application/json": {
               "schema": {
@@ -448,13 +451,13 @@
         ]
       }
     },
-    "/v4/shippingAccounts/inpost/{shippingAccountId}/shippingLocations": {
+    "/v4/shippingAccounts/inpostglb/{shippingAccountId}/shippingLocations": {
       "get": {
         "tags": [
           "Shipping Accounts"
         ],
         "summary": "Get Associated Locations",
-        "description": "Provides a list of all shipping locations associated with a InPost shipping account.",
+        "description": "Provides a list of all shipping locations associated with an InPost shipping account.",
         "parameters": [
           {
             "name": "shippingAccountId",
@@ -570,13 +573,13 @@
         ]
       }
     },
-    "/v4/shippingAccounts/inpost/{shippingAccountId}/shippingLocations/{shippingLocationId}": {
+    "/v4/shippingAccounts/inpostglb/{shippingAccountId}/shippingLocations/{shippingLocationId}": {
       "get": {
         "tags": [
           "Shipping Accounts"
         ],
         "summary": "Get Associated Location",
-        "description": "Provides information for a specific shipping location linked to a InPost shipping account including location alias, timezone, address, when it was last updated, and by who.",
+        "description": "Provides information for a specific shipping location linked to an InPost shipping account including location alias, timezone, address, when it was last updated, and by who.",
         "parameters": [
           {
             "name": "shippingAccountId",
@@ -628,48 +631,105 @@
         ]
       }
     },
-    "/v4/shipments/inpost": {
+    "/v4/shipments/inpostglb": {
       "post": {
         "tags": [
           "Shipments"
         ],
         "summary": "Create Shipment",
-        "description": "Create a InPost shipment. This will return an image of the shipping label in PDF or PNG format.",
+        "description": "Create an InPost shipment. This will return an image of the shipping label in PDF, PNG or ZPL format.",
         "requestBody": {
           "description": "Shipment Details",
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/InPostPackageInPostLabelFormatCreateShipmentRequest"
+                "$ref": "#/components/schemas/InPostGlobalCarrierSpecificsPackageDetailsInPostGlobalLabelFormatCreateShipmentRequest"
               },
               "examples": {
-                "Domestic - All Fields": {
+                "Address to address - Basic Fields": {
                   "value": {
+                    "CarrierSpecifics": {
+                      "Enhancements": [
+                        "ProofOfDelivery"
+                      ]
+                    },
+                    "ShipmentInformation": {
+                      "ReturnLabelsAtPackageLevel": false,
+                      "ContentType": "NDX",
+                      "ServiceCode": "2V",
+                      "DescriptionOfGoods": "Clothing",
+                      "ShipmentDate": "2026-11-03",
+                      "DeclaredWeight": 1.5,
+                      "WeightUnitOfMeasure": "KG",
+                      "DimensionsUnitOfMeasure": "CM"
+                    },
+                    "Shipper": {
+                      "ShippingAccountId": "603a5cb7-575c-4597-976d-ddc71e1b1f8b",
+                      "Reference1": "OrderRef56",
+                      "Address": {
+                        "ContactEmail": "shippermail@example.com",
+                        "ContactPhone": "447911123457",
+                        "ContactName": "John Doe",
+                        "Line1": "15 Sky Road",
+                        "Town": "Woking",
+                        "Postcode": "GU21 4TE",
+                        "CountryCode": "GB"
+                      }
+                    },
+                    "Destination": {
+                      "Address": {
+                        "ContactPhone": "447911123457",
+                        "ContactName": "John Smith",
+                        "ContactEmail": "john.smith@example.com",
+                        "Line1": "10 Sky Road",
+                        "Town": "Woking",
+                        "Postcode": "GU21 4TE",
+                        "CountryCode": "GB"
+                      }
+                    },
+                    "Packages": [
+                      {
+                        "DeclaredWeight": 1.5,
+                        "Dimensions": {
+                          "Length": 40,
+                          "Width": 30,
+                          "Height": 20
+                        }
+                      }
+                    ]
+                  }
+                },
+                "Address to address - All Fields": {
+                  "value": {
+                    "CarrierSpecifics": {
+                      "OrganisationId": "inpost-organisation-id",
+                      "Enhancements": [
+                        "ProofOfDelivery"
+                      ]
+                    },
                     "ShipmentInformation": {
                       "Action": "Process",
                       "LabelFormat": "PDF",
                       "ReturnLabelsAtPackageLevel": false,
                       "ContentType": "NDX",
-                      "ServiceCode": "B2C",
+                      "ServiceCode": "2V",
                       "DescriptionOfGoods": "Clothing",
-                      "BusinessTransactionType": "B2C",
-                      "ShipmentDate": "2026-10-20",
+                      "ShipmentDate": "2026-11-03",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
-                      "DimensionsUnitOfMeasure": "CM",
-                      "ContainerId": "South East"
+                      "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "18e0ec19-5ce9-4e03-b42e-07583a7db338",
-                      "ShippingLocationId": "47c4c7f7-73a1-4ebf-b13d-a7f6c62259d1",
+                      "ShippingAccountId": "d70dc878-0e3d-4ccb-828b-4a0862cf37a7",
+                      "ShippingLocationId": "3f0d8182-783e-4ce5-b8b3-607d7dc2945e",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
                       "VatNumber": "GB213456789",
                       "Address": {
                         "ContactEmail": "email@server.com",
-                        "ContactPhone": "607723456789",
+                        "ContactPhone": "447911123457",
                         "ContactName": "Jane Smith",
                         "CompanyName": "Company & Co.",
                         "Line1": "Level 5",
@@ -685,10 +745,8 @@
                       "EoriNumber": "GB123456789000",
                       "VatNumber": "GB123456789",
                       "Address": {
-                        "ContactPhone": "07123456789",
-                        "PudoId": "MD-36-171583",
+                        "ContactPhone": "447911123457",
                         "ContactName": "John Smith",
-                        "CompanyName": "Company",
                         "ContactEmail": "john.smith@example.com",
                         "Line1": "10 Sky Road",
                         "Town": "Woking",
@@ -701,9 +759,9 @@
                         "PackageOccurrence": 1,
                         "DeclaredWeight": 1.5,
                         "Dimensions": {
-                          "Length": 2.5,
-                          "Width": 20,
-                          "Height": 15
+                          "Length": 40,
+                          "Width": 30,
+                          "Height": 20
                         }
                       }
                     ],
@@ -748,64 +806,197 @@
                     }
                   }
                 },
-                "Domestic - B2C": {
+                "Address to point - Basic Fields": {
                   "value": {
                     "ShipmentInformation": {
-                      "LabelFormat": "PDF",
                       "ReturnLabelsAtPackageLevel": false,
                       "ContentType": "NDX",
-                      "ServiceCode": "B2C",
+                      "ServiceCode": "2L",
                       "DescriptionOfGoods": "Clothing",
-                      "ShipmentDate": "2026-10-20",
+                      "ShipmentDate": "2026-11-03",
                       "DeclaredWeight": 1.5,
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "92fe06b6-5786-44d3-a557-a9c62b8bf267",
-                      "ShippingLocationId": "374050f0-0c49-46a4-b146-6994bd4afd16",
-                      "Reference1": "OrderRef56"
-                    },
-                    "Destination": {
+                      "ShippingAccountId": "9ad4be13-817b-4a96-b8b3-db1068416857",
+                      "Reference1": "OrderRef56",
                       "Address": {
-                        "ContactPhone": "07123456789",
-                        "PudoId": "MD-36-171583",
-                        "ContactName": "John Smith",
-                        "CompanyName": "Company",
-                        "ContactEmail": "john.smith@example.com",
-                        "Line1": "10 Sky Road",
+                        "ContactEmail": "shippermail@example.com",
+                        "ContactPhone": "447911123457",
+                        "ContactName": "John Doe",
+                        "Line1": "15 Sky Road",
                         "Town": "Woking",
                         "Postcode": "GU21 4TE",
                         "CountryCode": "GB"
                       }
                     },
+                    "Destination": {
+                      "Address": {
+                        "ContactPhone": "447911123457",
+                        "PudoId": "GB_UKCAT26225",
+                        "ContactName": "John Smith",
+                        "CompanyName": "Company",
+                        "ContactEmail": "john.smith@example.com",
+                        "Line1": "10 Sky Road",
+                        "Town": "London",
+                        "Postcode": "EC1A 1BB",
+                        "CountryCode": "GB"
+                      }
+                    },
                     "Packages": [
                       {
-                        "DeclaredWeight": 1.5
+                        "DeclaredWeight": 1.5,
+                        "Dimensions": {
+                          "Length": 40,
+                          "Width": 30,
+                          "Height": 20
+                        }
                       }
                     ]
                   }
                 },
-                "Domestic - Returns": {
+                "Address to point - All Fields": {
                   "value": {
+                    "CarrierSpecifics": {
+                      "OrganisationId": "inpost-organisation-id"
+                    },
+                    "ShipmentInformation": {
+                      "Action": "Process",
+                      "LabelFormat": "PDF",
+                      "ReturnLabelsAtPackageLevel": false,
+                      "ContentType": "NDX",
+                      "ServiceCode": "2L",
+                      "DescriptionOfGoods": "Clothing",
+                      "ShipmentDate": "2026-11-03",
+                      "DeclaredWeight": 1.5,
+                      "CurrencyCode": "GBP",
+                      "WeightUnitOfMeasure": "KG",
+                      "DimensionsUnitOfMeasure": "CM"
+                    },
+                    "Shipper": {
+                      "ShippingAccountId": "5d5f0e78-3ee3-4c06-aca0-a0143fdf54f3",
+                      "ShippingLocationId": "4b6a2d3e-6b37-4f73-9897-08d4da79bb72",
+                      "Reference1": "OrderRef56",
+                      "DepartmentNumber": "0123456789",
+                      "EoriNumber": "GB213456789000",
+                      "VatNumber": "GB213456789",
+                      "Address": {
+                        "ContactEmail": "email@server.com",
+                        "ContactPhone": "447911123457",
+                        "ContactName": "Jane Smith",
+                        "CompanyName": "Company & Co.",
+                        "Line1": "Level 5",
+                        "Line2": "Hashmoore House",
+                        "Line3": "10 Sky Lane",
+                        "Town": "Leatherhead",
+                        "Postcode": "AA34 3AB",
+                        "County": "Surrey",
+                        "CountryCode": "GB"
+                      }
+                    },
+                    "Destination": {
+                      "EoriNumber": "GB123456789000",
+                      "VatNumber": "GB123456789",
+                      "Address": {
+                        "ContactPhone": "447911123457",
+                        "PudoId": "GB_UKCAT26225",
+                        "ContactName": "John Smith",
+                        "CompanyName": "Company",
+                        "ContactEmail": "john.smith@example.com",
+                        "Line1": "10 Sky Road",
+                        "Town": "London",
+                        "Postcode": "EC1A 1BB",
+                        "CountryCode": "GB"
+                      }
+                    },
+                    "Packages": [
+                      {
+                        "PackageOccurrence": 1,
+                        "DeclaredWeight": 1.5,
+                        "Dimensions": {
+                          "Length": 40,
+                          "Width": 30,
+                          "Height": 20
+                        }
+                      }
+                    ],
+                    "Items": [
+                      {
+                        "SkuCode": "SKU123",
+                        "PackageOccurrence": 1,
+                        "Quantity": 1,
+                        "Description": "White Mens Large T-shirt",
+                        "Value": 19.99,
+                        "Weight": 0.5,
+                        "ImageURL": "https://yourcompany.com/images/product.jpg",
+                        "HSCode": "6109100010",
+                        "CountryOfOrigin": "CN"
+                      },
+                      {
+                        "SkuCode": "SKU456",
+                        "PackageOccurrence": 1,
+                        "Quantity": 2,
+                        "Description": "Black Mens Large Jumper",
+                        "Value": 32.99,
+                        "Weight": 0.3,
+                        "ImageURL": "https://yourcompany.com/images/jumper-black.jpg",
+                        "HSCode": "6110113000",
+                        "CountryOfOrigin": "CN"
+                      }
+                    ],
+                    "ReturnToSender": {
+                      "Address": {
+                        "ContactPhone": "07723456789",
+                        "ContactName": "Jane Smith",
+                        "CompanyName": "Company & Co.",
+                        "ContactEmail": "email@server.com",
+                        "Line1": "Level 5",
+                        "Line2": "Hashmoore House",
+                        "Line3": "10 Sky Lane",
+                        "Town": "Leatherhead",
+                        "Postcode": "AA34 3AB",
+                        "County": "Surrey",
+                        "CountryCode": "GB"
+                      }
+                    }
+                  }
+                },
+                "Returns": {
+                  "value": {
+                    "CarrierSpecifics": {
+                      "OrganisationId": "inpost-organisation-id",
+                      "Enhancements": [
+                        "GenerateQrCode"
+                      ]
+                    },
                     "ShipmentInformation": {
                       "ReturnLabelsAtPackageLevel": false,
                       "ContentType": "NDX",
-                      "ServiceCode": "RETURNS",
+                      "ServiceCode": "RT",
                       "DescriptionOfGoods": "Clothing",
-                      "ShipmentDate": "2026-10-20",
+                      "ShipmentDate": "2026-11-03",
                       "DeclaredWeight": 1.5,
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "a0ebda91-280b-4622-9a43-a04fc76fe920"
+                      "ShippingAccountId": "353cd320-3266-4ec0-af7f-e4e0d44719dc",
+                      "Reference1": "OrderRef56",
+                      "Address": {
+                        "ContactEmail": "shippermail@example.com",
+                        "ContactPhone": "447911123457",
+                        "ContactName": "John Doe",
+                        "Line1": "15 Sky Road",
+                        "Town": "Woking",
+                        "Postcode": "GU21 4TE",
+                        "CountryCode": "GB"
+                      }
                     },
                     "Destination": {
                       "Address": {
-                        "ContactPhone": "07123456789",
+                        "ContactPhone": "447911123457",
                         "ContactName": "John Smith",
-                        "CompanyName": "Company",
                         "ContactEmail": "john.smith@example.com",
                         "Line1": "10 Sky Road",
                         "Town": "Woking",
@@ -815,7 +1006,12 @@
                     },
                     "Packages": [
                       {
-                        "DeclaredWeight": 1.5
+                        "DeclaredWeight": 1.5,
+                        "Dimensions": {
+                          "Length": 40,
+                          "Width": 30,
+                          "Height": 20
+                        }
                       }
                     ]
                   }
@@ -830,19 +1026,69 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/LabelFormatPackageResponseDetailsCreateShipmentResponse"
+                  "$ref": "#/components/schemas/InPostGlobalLabelFormatPackageResponseDetailsCreateShipmentResponse"
                 },
                 "examples": {
                   "Create": {
                     "value": {
-                      "Labels": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
-                      "LabelFormat": "Pdf",
                       "Packages": [
                         {
-                          "ShipmentId": "6391598c-7526-41fd-b70b-e8f32d655900",
+                          "ShipmentId": "41150b06-5a84-46ad-a836-7b25197f5328",
+                          "PackageOccurrence": 1
+                        }
+                      ]
+                    }
+                  },
+                  "Allocate": {
+                    "value": {
+                      "Packages": [
+                        {
+                          "ShipmentId": "66df9998-e846-4e40-81c3-b1a67583a5a2",
                           "PackageOccurrence": 1,
-                          "TrackingNumber": "MD000000004409629",
-                          "CarrierTrackingUrl": "https://tracking.inpost.co.uk/api/v2.0/MD000000004409629"
+                          "TrackingNumber": "IPG000000001234567",
+                          "CarrierTrackingUrl": "https://inpost.co.uk/tracking/result?parcel_code=IPG000000001234567"
+                        }
+                      ]
+                    }
+                  },
+                  "Process - PDF": {
+                    "value": {
+                      "Labels": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
+                      "LabelFormat": "PDF",
+                      "Packages": [
+                        {
+                          "ShipmentId": "91c29598-cda6-40de-8ae9-7c308c586b99",
+                          "PackageOccurrence": 1,
+                          "TrackingNumber": "IPG000000001234567",
+                          "CarrierTrackingUrl": "https://inpost.co.uk/tracking/result?parcel_code=IPG000000001234567"
+                        }
+                      ]
+                    }
+                  },
+                  "Process - PNG": {
+                    "value": {
+                      "Labels": "iVBORw0KGgoAAAANSUhE....GgAAABoAQMAAAAn0ifiAAAA",
+                      "LabelFormat": "PNG",
+                      "Packages": [
+                        {
+                          "ShipmentId": "33cdbd46-c59c-4788-8bd7-b83284814ae6",
+                          "PackageOccurrence": 1,
+                          "TrackingNumber": "IPG000000001234567",
+                          "CarrierTrackingUrl": "https://inpost.co.uk/tracking/result?parcel_code=IPG000000001234567"
+                        }
+                      ]
+                    }
+                  },
+                  "Process - ZPL203DPI": {
+                    "value": {
+                      "Labels": "Xkc.....FiXlhaAF5YQTBOLERZMDUvMTUvMjMsRlMKXlha",
+                      "LabelFormat": "ZPL203DPI",
+                      "Packages": [
+                        {
+                          "ShipmentId": "8b33da17-9e11-4628-9272-1fb1babd860c",
+                          "PackageOccurrence": 1,
+                          "TrackingNumber": "IPG000000001234567",
+                          "CarrierTrackingUrl": "https://inpost.co.uk/tracking/result?parcel_code=IPG000000001234567"
                         }
                       ]
                     }
@@ -896,7 +1142,7 @@
         ]
       }
     },
-    "/v4/shipments/async/inpost": {
+    "/v4/shipments/async/inpostglb": {
       "post": {
         "tags": [
           "Shipments"
@@ -908,36 +1154,93 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/InPostPackageInPostLabelFormatCreateShipmentRequest"
+                "$ref": "#/components/schemas/InPostGlobalCarrierSpecificsPackageDetailsInPostGlobalLabelFormatCreateShipmentRequest"
               },
               "examples": {
-                "Domestic - All Fields": {
+                "Address to address - Basic Fields": {
                   "value": {
+                    "CarrierSpecifics": {
+                      "Enhancements": [
+                        "ProofOfDelivery"
+                      ]
+                    },
+                    "ShipmentInformation": {
+                      "ReturnLabelsAtPackageLevel": false,
+                      "ContentType": "NDX",
+                      "ServiceCode": "2V",
+                      "DescriptionOfGoods": "Clothing",
+                      "ShipmentDate": "2026-11-03",
+                      "DeclaredWeight": 1.5,
+                      "WeightUnitOfMeasure": "KG",
+                      "DimensionsUnitOfMeasure": "CM"
+                    },
+                    "Shipper": {
+                      "ShippingAccountId": "d9acf025-75bb-48da-b5ad-2a146838b6ca",
+                      "Reference1": "OrderRef56",
+                      "Address": {
+                        "ContactEmail": "shippermail@example.com",
+                        "ContactPhone": "447911123457",
+                        "ContactName": "John Doe",
+                        "Line1": "15 Sky Road",
+                        "Town": "Woking",
+                        "Postcode": "GU21 4TE",
+                        "CountryCode": "GB"
+                      }
+                    },
+                    "Destination": {
+                      "Address": {
+                        "ContactPhone": "447911123457",
+                        "ContactName": "John Smith",
+                        "ContactEmail": "john.smith@example.com",
+                        "Line1": "10 Sky Road",
+                        "Town": "Woking",
+                        "Postcode": "GU21 4TE",
+                        "CountryCode": "GB"
+                      }
+                    },
+                    "Packages": [
+                      {
+                        "DeclaredWeight": 1.5,
+                        "Dimensions": {
+                          "Length": 40,
+                          "Width": 30,
+                          "Height": 20
+                        }
+                      }
+                    ]
+                  }
+                },
+                "Address to address - All Fields": {
+                  "value": {
+                    "CarrierSpecifics": {
+                      "OrganisationId": "inpost-organisation-id",
+                      "Enhancements": [
+                        "ProofOfDelivery"
+                      ]
+                    },
                     "ShipmentInformation": {
                       "Action": "Process",
                       "LabelFormat": "PDF",
                       "ReturnLabelsAtPackageLevel": false,
                       "ContentType": "NDX",
-                      "ServiceCode": "B2C",
+                      "ServiceCode": "2V",
                       "DescriptionOfGoods": "Clothing",
-                      "BusinessTransactionType": "B2C",
-                      "ShipmentDate": "2026-10-20",
+                      "ShipmentDate": "2026-11-03",
                       "DeclaredWeight": 1.5,
                       "CurrencyCode": "GBP",
                       "WeightUnitOfMeasure": "KG",
-                      "DimensionsUnitOfMeasure": "CM",
-                      "ContainerId": "South East"
+                      "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "27e9ebe3-2e50-41d3-9794-ec534e6200fe",
-                      "ShippingLocationId": "95d3aa64-f6e2-4dee-bf56-e6ff8c39e7b1",
+                      "ShippingAccountId": "d4d3bd22-675a-4105-a277-3c8d56c808b5",
+                      "ShippingLocationId": "04eb557b-64fa-4117-b965-4cd2a33a9b52",
                       "Reference1": "OrderRef56",
                       "DepartmentNumber": "0123456789",
                       "EoriNumber": "GB213456789000",
                       "VatNumber": "GB213456789",
                       "Address": {
                         "ContactEmail": "email@server.com",
-                        "ContactPhone": "607723456789",
+                        "ContactPhone": "447911123457",
                         "ContactName": "Jane Smith",
                         "CompanyName": "Company & Co.",
                         "Line1": "Level 5",
@@ -953,10 +1256,8 @@
                       "EoriNumber": "GB123456789000",
                       "VatNumber": "GB123456789",
                       "Address": {
-                        "ContactPhone": "07123456789",
-                        "PudoId": "MD-36-171583",
+                        "ContactPhone": "447911123457",
                         "ContactName": "John Smith",
-                        "CompanyName": "Company",
                         "ContactEmail": "john.smith@example.com",
                         "Line1": "10 Sky Road",
                         "Town": "Woking",
@@ -969,9 +1270,9 @@
                         "PackageOccurrence": 1,
                         "DeclaredWeight": 1.5,
                         "Dimensions": {
-                          "Length": 2.5,
-                          "Width": 20,
-                          "Height": 15
+                          "Length": 40,
+                          "Width": 30,
+                          "Height": 20
                         }
                       }
                     ],
@@ -1016,64 +1317,197 @@
                     }
                   }
                 },
-                "Domestic - B2C": {
+                "Address to point - Basic Fields": {
                   "value": {
                     "ShipmentInformation": {
-                      "LabelFormat": "PDF",
                       "ReturnLabelsAtPackageLevel": false,
                       "ContentType": "NDX",
-                      "ServiceCode": "B2C",
+                      "ServiceCode": "2L",
                       "DescriptionOfGoods": "Clothing",
-                      "ShipmentDate": "2026-10-20",
+                      "ShipmentDate": "2026-11-03",
                       "DeclaredWeight": 1.5,
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "f53e3e85-e226-4414-9449-fc009a199a68",
-                      "ShippingLocationId": "a58dedc7-8dcd-430e-9112-5a0738ba857e",
-                      "Reference1": "OrderRef56"
-                    },
-                    "Destination": {
+                      "ShippingAccountId": "b5016ce2-c3fc-4d58-8b3b-0be50be6e31a",
+                      "Reference1": "OrderRef56",
                       "Address": {
-                        "ContactPhone": "07123456789",
-                        "PudoId": "MD-36-171583",
-                        "ContactName": "John Smith",
-                        "CompanyName": "Company",
-                        "ContactEmail": "john.smith@example.com",
-                        "Line1": "10 Sky Road",
+                        "ContactEmail": "shippermail@example.com",
+                        "ContactPhone": "447911123457",
+                        "ContactName": "John Doe",
+                        "Line1": "15 Sky Road",
                         "Town": "Woking",
                         "Postcode": "GU21 4TE",
                         "CountryCode": "GB"
                       }
                     },
+                    "Destination": {
+                      "Address": {
+                        "ContactPhone": "447911123457",
+                        "PudoId": "GB_UKCAT26225",
+                        "ContactName": "John Smith",
+                        "CompanyName": "Company",
+                        "ContactEmail": "john.smith@example.com",
+                        "Line1": "10 Sky Road",
+                        "Town": "London",
+                        "Postcode": "EC1A 1BB",
+                        "CountryCode": "GB"
+                      }
+                    },
                     "Packages": [
                       {
-                        "DeclaredWeight": 1.5
+                        "DeclaredWeight": 1.5,
+                        "Dimensions": {
+                          "Length": 40,
+                          "Width": 30,
+                          "Height": 20
+                        }
                       }
                     ]
                   }
                 },
-                "Domestic - Returns": {
+                "Address to point - All Fields": {
                   "value": {
+                    "CarrierSpecifics": {
+                      "OrganisationId": "inpost-organisation-id"
+                    },
+                    "ShipmentInformation": {
+                      "Action": "Process",
+                      "LabelFormat": "PDF",
+                      "ReturnLabelsAtPackageLevel": false,
+                      "ContentType": "NDX",
+                      "ServiceCode": "2L",
+                      "DescriptionOfGoods": "Clothing",
+                      "ShipmentDate": "2026-11-03",
+                      "DeclaredWeight": 1.5,
+                      "CurrencyCode": "GBP",
+                      "WeightUnitOfMeasure": "KG",
+                      "DimensionsUnitOfMeasure": "CM"
+                    },
+                    "Shipper": {
+                      "ShippingAccountId": "88a11ac1-270a-4b3e-973d-f20b69dc17ea",
+                      "ShippingLocationId": "9ea0ae16-f837-422b-b045-620b42373c09",
+                      "Reference1": "OrderRef56",
+                      "DepartmentNumber": "0123456789",
+                      "EoriNumber": "GB213456789000",
+                      "VatNumber": "GB213456789",
+                      "Address": {
+                        "ContactEmail": "email@server.com",
+                        "ContactPhone": "447911123457",
+                        "ContactName": "Jane Smith",
+                        "CompanyName": "Company & Co.",
+                        "Line1": "Level 5",
+                        "Line2": "Hashmoore House",
+                        "Line3": "10 Sky Lane",
+                        "Town": "Leatherhead",
+                        "Postcode": "AA34 3AB",
+                        "County": "Surrey",
+                        "CountryCode": "GB"
+                      }
+                    },
+                    "Destination": {
+                      "EoriNumber": "GB123456789000",
+                      "VatNumber": "GB123456789",
+                      "Address": {
+                        "ContactPhone": "447911123457",
+                        "PudoId": "GB_UKCAT26225",
+                        "ContactName": "John Smith",
+                        "CompanyName": "Company",
+                        "ContactEmail": "john.smith@example.com",
+                        "Line1": "10 Sky Road",
+                        "Town": "London",
+                        "Postcode": "EC1A 1BB",
+                        "CountryCode": "GB"
+                      }
+                    },
+                    "Packages": [
+                      {
+                        "PackageOccurrence": 1,
+                        "DeclaredWeight": 1.5,
+                        "Dimensions": {
+                          "Length": 40,
+                          "Width": 30,
+                          "Height": 20
+                        }
+                      }
+                    ],
+                    "Items": [
+                      {
+                        "SkuCode": "SKU123",
+                        "PackageOccurrence": 1,
+                        "Quantity": 1,
+                        "Description": "White Mens Large T-shirt",
+                        "Value": 19.99,
+                        "Weight": 0.5,
+                        "ImageURL": "https://yourcompany.com/images/product.jpg",
+                        "HSCode": "6109100010",
+                        "CountryOfOrigin": "CN"
+                      },
+                      {
+                        "SkuCode": "SKU456",
+                        "PackageOccurrence": 1,
+                        "Quantity": 2,
+                        "Description": "Black Mens Large Jumper",
+                        "Value": 32.99,
+                        "Weight": 0.3,
+                        "ImageURL": "https://yourcompany.com/images/jumper-black.jpg",
+                        "HSCode": "6110113000",
+                        "CountryOfOrigin": "CN"
+                      }
+                    ],
+                    "ReturnToSender": {
+                      "Address": {
+                        "ContactPhone": "07723456789",
+                        "ContactName": "Jane Smith",
+                        "CompanyName": "Company & Co.",
+                        "ContactEmail": "email@server.com",
+                        "Line1": "Level 5",
+                        "Line2": "Hashmoore House",
+                        "Line3": "10 Sky Lane",
+                        "Town": "Leatherhead",
+                        "Postcode": "AA34 3AB",
+                        "County": "Surrey",
+                        "CountryCode": "GB"
+                      }
+                    }
+                  }
+                },
+                "Returns": {
+                  "value": {
+                    "CarrierSpecifics": {
+                      "OrganisationId": "inpost-organisation-id",
+                      "Enhancements": [
+                        "GenerateQrCode"
+                      ]
+                    },
                     "ShipmentInformation": {
                       "ReturnLabelsAtPackageLevel": false,
                       "ContentType": "NDX",
-                      "ServiceCode": "RETURNS",
+                      "ServiceCode": "RT",
                       "DescriptionOfGoods": "Clothing",
-                      "ShipmentDate": "2026-10-20",
+                      "ShipmentDate": "2026-11-03",
                       "DeclaredWeight": 1.5,
                       "WeightUnitOfMeasure": "KG",
                       "DimensionsUnitOfMeasure": "CM"
                     },
                     "Shipper": {
-                      "ShippingAccountId": "dcc6f69f-f6ac-4fa7-9275-85065978ae1c"
+                      "ShippingAccountId": "b112fabf-f405-481b-918d-adc40916e438",
+                      "Reference1": "OrderRef56",
+                      "Address": {
+                        "ContactEmail": "shippermail@example.com",
+                        "ContactPhone": "447911123457",
+                        "ContactName": "John Doe",
+                        "Line1": "15 Sky Road",
+                        "Town": "Woking",
+                        "Postcode": "GU21 4TE",
+                        "CountryCode": "GB"
+                      }
                     },
                     "Destination": {
                       "Address": {
-                        "ContactPhone": "07123456789",
+                        "ContactPhone": "447911123457",
                         "ContactName": "John Smith",
-                        "CompanyName": "Company",
                         "ContactEmail": "john.smith@example.com",
                         "Line1": "10 Sky Road",
                         "Town": "Woking",
@@ -1083,7 +1517,12 @@
                     },
                     "Packages": [
                       {
-                        "DeclaredWeight": 1.5
+                        "DeclaredWeight": 1.5,
+                        "Dimensions": {
+                          "Length": 40,
+                          "Width": 30,
+                          "Height": 20
+                        }
                       }
                     ]
                   }
@@ -1101,7 +1540,7 @@
                   "$ref": "#/components/schemas/CreateShipmentViaWebhookResponse"
                 },
                 "example": {
-                  "RequestId": "73185a83-f6c5-42e3-98a8-3c09a2e48fa3"
+                  "RequestId": "4b63bed9-48c4-4fff-b10f-d221ab7d7c57"
                 }
               }
             }
@@ -1151,18 +1590,18 @@
         ]
       }
     },
-    "/v4/shipments/printLabel/InPost/{shipmentId}": {
+    "/v4/shipments/printLabel/InPostGlb/{shipmentId}": {
       "get": {
         "tags": [
           "Shipments"
         ],
         "summary": "Print Label",
-        "description": "This changes the status of the shipment to label printed. This should be done at the time of actual printing or label creation dependent on how you operate in reality. Shipments must be updated to printed status prior to manifesting.",
+        "description": "Generate and return the label for the InPost shipment. This endpoint is utilised after an InPost shipment has been created and is meant to facilitate the printing of the label required for that shipment.\r<br /><br />***Note:** This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting.*",
         "parameters": [
           {
             "name": "shipmentId",
             "in": "path",
-            "description": "Shipment Id\r<br />The Shipment Id may be an id or a tracking/barcode number.",
+            "description": "A unique identifier (shipmentId) or tracking number returned in the Create shipment response. This ID is used to reference and track specific shipments within the system.",
             "required": true,
             "schema": {
               "maxLength": 36,
@@ -1173,9 +1612,9 @@
           {
             "name": "labelFormat",
             "in": "query",
-            "description": "Label Format\r<br />\r<br />**PDF** Base 64 encoded PDF\r<br />\r<br />Defaults To PDF",
+            "description": "Specifies the format of the shipping label that will be returned in the createShipment response.\r<br /><br /> The following are the accepted values:\r<br /><ul><li>**PDF** - returns a Base64-encoded PDF</li><li>**PNG** - returns a Base64-encoded PNG</li><li>**ZPL203DPI** - returns Base64-encoded text for Zebra printer at 203 DPI</li><li>**ZPL300DPI** - returns Base64-encoded text for Zebra printer at 300 DPI</li></ul>\r<br />***Note:**  By default, this field is set to PDF.*",
             "schema": {
-              "$ref": "#/components/schemas/InPostLabelFormat"
+              "$ref": "#/components/schemas/InPostGlobalLabelFormat"
             }
           }
         ],
@@ -1185,14 +1624,14 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/InPostLabelFormatPrintLabelResponse"
+                  "$ref": "#/components/schemas/InPostGlobalLabelFormatPrintLabelResponse"
                 },
                 "examples": {
                   "PDF": {
                     "value": {
-                      "ShipmentId": "36842327-dddd-4b1a-9cba-fe9afce5fb12",
-                      "TrackingNumber": "5949545283154118",
-                      "CarrierTrackingUrl": "https://tracking.inpost.co.uk/api/v2.0/5949545283154118",
+                      "ShipmentId": "a75f851c-0f94-4ad9-b7b9-0ef017a09819",
+                      "TrackingNumber": "IPG000000001234567",
+                      "CarrierTrackingUrl": "https://inpost.co.uk/tracking/result?parcel_code=IPG000000001234567",
                       "Label": "jVBERw0KGgoAAAANSUhEUgAA.....A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4",
                       "LabelFormat": "PDF"
                     }
@@ -1561,9 +2000,9 @@
             "example": "John Brown Default"
           },
           "PudoId": {
-            "maxLength": 50,
+            "maxLength": 255,
             "type": "string",
-            "description": "A unique identifier for a PUDO location. This ID is retrieved from the LocationId field of the Get PUDO Locations endpoint response and is essential for identifying the specific collection point for an InPost shipment.\r\n\r\nNote: Before providing the PudoId, keep in mind the following:\r\n\r\n- The PudoId is only applicable for destination addresses when the shipment is being created as a collection shipment.\r\n\r\n- The destination contact name must be provided with either its contact email or phone number.",
+            "description": "A unique identifier for a PUDO location. This ID is retrieved from the **LocationId** field of the **Get PUDO Locations** endpoint response and is essential for identifying the specific collection point for an InPost shipment, such as a parcel locker or a PUDO location.</br></br>_**Note**_: _Before providing the **PudoId**, keep in mind the following:</br>_<ul><li>_The **PudoId** is only applicable for destination addresses, and is required when shipping to a point._</li><li>_The destination contact name must be provided with either its contact email or phone number._</li></ul>",
             "nullable": true
           },
           "ContactName": {
@@ -1829,14 +2268,15 @@
         "type": "string",
         "description": "The unit of measurement for the quantity of hazardous material, for example, litres (for liquids) or kilograms (for solids). This provides clarity regarding the amount of hazardous goods present.\r<br />***Note:** This field is only required if **Quantity** and **UNCode** is specified.*"
       },
-      "InPostAddShippingAccountRequest": {
+      "InPostGlobalAddShippingAccountRequest": {
         "required": [
           "AccountAlias",
           "AccountType",
-          "BearerToken",
           "ClientId",
+          "ClientSecret",
           "ContactName",
           "ContactNumber",
+          "OrganisationId",
           "ShippingLocations"
         ],
         "type": "object",
@@ -1877,15 +2317,22 @@
             "maxLength": 255,
             "minLength": 1,
             "type": "string",
-            "description": "Client id\r<br />The client id given by the carrier.",
-            "example": "example@inpost.co.uk"
+            "description": "The client ID provided by InPost for OAuth authentication.",
+            "example": "inpost-client-id"
           },
-          "BearerToken": {
-            "maxLength": 50,
+          "ClientSecret": {
+            "maxLength": 255,
             "minLength": 1,
             "type": "string",
-            "description": "Bearer Token\r<br />The token given by the carrier.",
-            "example": "1234567890"
+            "description": "The client secret provided by InPost for OAuth authentication.",
+            "example": "inpost-client-secret"
+          },
+          "OrganisationId": {
+            "maxLength": 255,
+            "minLength": 1,
+            "type": "string",
+            "description": "A unique, default organisation identifier provided by InPost for creating shipments.\r<br />\r<br />***Note:** There can be multiple organisation IDs, as certain processes are managed by InPost at organisation level. If required, an alternative organisation ID can be provided using the OrganisationId field within the CarrierSpecifics object of the Create Shipment request. When supplied, the carrier-specific OrganisationId will override the default organisation ID configured on the shipping account for the shipment.*",
+            "example": "inpost-organisation-id"
           },
           "ShippingLocations": {
             "type": "array",
@@ -1898,14 +2345,143 @@
         "additionalProperties": false,
         "description": "InPost Add Shipping Account Request"
       },
-      "InPostLabelFormat": {
+      "InPostGlobalCarrierSpecifics": {
+        "type": "object",
+        "properties": {
+          "OrganisationId": {
+            "type": "string",
+            "description": "A unique organisation identifier provided by InPost for creating shipments.\r<br />\r<br />***Note:** There can be multiple organisation IDs, as certain processes are managed by InPost at organisation level. If this field is populated, then this organisation ID will override the default organisation ID configured on the shipping account for the shipment.*",
+            "nullable": true
+          },
+          "Enhancements": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/InPostGlobalEnhancementCode"
+            },
+            "description": "An array of objects that specifies the particular enhancement code that is being applied to the shipment, allowing customers to select the desired enhancement that can modify the shipping experience according to their preferences.\r<br />\r<br />Valid values are the following:\r<br /><ul><li>**ProofOfDelivery:** Enables proof of delivery for shipments collected from a sender address and delivered to a recipient address (address-to-address shipments). This service enhancement is mandatory for address-to-address shipments.</li><li>**GenerateQrCode:** Enables labelless parcel drop-off using a QR code for shipments that originate from an InPost locker or drop-off point rather than a sender address (point-origin shipments). This service enhancement is applicable only to return shipments.</li></ul>",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false,
+        "description": "InPost carrier-specific shipment fields."
+      },
+      "InPostGlobalCarrierSpecificsPackageDetailsInPostGlobalLabelFormatCreateShipmentRequest": {
+        "required": [
+          "Destination",
+          "Packages",
+          "ShipmentInformation",
+          "Shipper"
+        ],
+        "type": "object",
+        "properties": {
+          "ShipmentInformation": {
+            "$ref": "#/components/schemas/InPostGlobalLabelFormatShipmentInformation"
+          },
+          "Shipper": {
+            "$ref": "#/components/schemas/Shipper"
+          },
+          "Destination": {
+            "$ref": "#/components/schemas/Destination"
+          },
+          "CarrierSpecifics": {
+            "$ref": "#/components/schemas/InPostGlobalCarrierSpecifics"
+          },
+          "Packages": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/PackageDetails"
+            },
+            "description": "Used to provide information on the packages that are being sent in this shipment.<br />\r<br />***Note:**  You must add at least one package to the shipment.*"
+          },
+          "Items": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Item"
+            },
+            "description": "Used to provide information on the individual goods/products being shipped within the package. This includes vital details, such as SKU code for inventory tracking, quantity of each item, description for clarity, and shipping specifics like weight, customs classifications (HS Code), and country of origin.\r<br />\r<br />***Note:** Item information is required only for dutiable shipments. Non-dutiable and Documents Only (DOX) shipments are exempt from this requirement. If Hurricane item verification is enabled during shipment creation, the system will verify a maximum of 15 distinct items per shipment.*",
+            "nullable": true
+          },
+          "Customs": {
+            "$ref": "#/components/schemas/Customs"
+          },
+          "ReturnToSender": {
+            "$ref": "#/components/schemas/ReturnToSender"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Create Shipment Request"
+      },
+      "InPostGlobalEnhancementCode": {
         "enum": [
-          "PDF"
+          "ProofOfDelivery",
+          "GenerateQrCode"
         ],
         "type": "string",
-        "description": "Sets the label format that will be returned in the createShipment Response.\r<br />Valid values are:\r<br />**PDF** - returns a Base64-encoded PDF\r<br />            \r<br />Defaults to PDF if not populated."
+        "description": "An array of objects that specifies the particular enhancement code that is being applied to the shipment, allowing customers to select the desired enhancement that can modify the shipping experience according to their preferences.\r<br />            \r<br />Accepted values are the following:\r<br /><ul><li>**ProofOfDelivery:** Enables proof of delivery for shipments collected from a sender address and delivered to a recipient address (address-to-address shipments). This service enhancement is mandatory for address-to-address shipments.</li><li>**GenerateQrCode:** Enables labelless parcel drop-off using a QR code for shipments that originate from an InPost locker or drop-off point rather than a sender address (point-origin shipments). This service enhancement is applicable only to return shipments.</li></ul>"
       },
-      "InPostLabelFormatPrintLabelResponse": {
+      "InPostGlobalLabelFormat": {
+        "enum": [
+          "PDF",
+          "PNG",
+          "ZPL203DPI",
+          "ZPL300DPI"
+        ],
+        "type": "string",
+        "description": "Sets the label format that will be returned in the createShipment Response.\r<br />\r<br />Valid values are:\r<br /><ul><li>**PDF** - returns a Base64-encoded PDF</li><li>**PNG** - returns a Base64-encoded PNG</li><li>**ZPL203DPI** - returns a Base64-encoded ZPL label at 203 dpi</li><li>**ZPL300DPI** - returns a Base64-encoded ZPL label at 300 dpi</li></ul>\r<br />Defaults to PDF if not populated."
+      },
+      "InPostGlobalLabelFormatPackageResponseDetailsCreateShipmentResponse": {
+        "type": "object",
+        "properties": {
+          "ConsignmentShipmentId": {
+            "type": "string",
+            "description": "A unique identifier assigned to the shipment by the carrier. This ID is useful for tracking and managing the shipment throughout its transit journey and can be used in future queries or to reference the specific shipment.\r<br />\r<br />***Note:** This field is only populated if a consignment service was used in the request.*",
+            "format": "uuid",
+            "nullable": true,
+            "example": "c4e60776-288f-464e-b35b-ff0f3252c0f0"
+          },
+          "ConsignmentTrackingNumber": {
+            "type": "string",
+            "description": "A unique identifier assigned to the entire consignment shipment by the carrier. This number allows shippers and recipients to track the status and location of the entire shipment throughout its transit. It is useful for monitoring progress, ensuring timely delivery, and addressing any issues that may arise during transportation.\r<br />\r<br />***Note:** This field is only populated if the service is a consignment service.*",
+            "nullable": true,
+            "example": "DF12384739GB"
+          },
+          "ConsignmentCarrierTrackingUrl": {
+            "type": "string",
+            "description": "A URL link provided by the carrier that allows the shipper and recipients to access real-time tracking information about the consignment shipment. This link directs users to the carrier's website where they can view detailed status updates and current location of the shipment.\r<br />\r<br />***Note:** This field is only populated if this feature is available and the service is a consignment service.*",
+            "format": "uri",
+            "nullable": true,
+            "example": "http://shipmentcarrier.com/tracking/DF12384739GB"
+          },
+          "Labels": {
+            "type": "string",
+            "description": "Returns the generated shipping labels for the shipment. This field is populated only if the requested action was \"Process.\" The labels include the necessary barcodes and shipping information required for effective transit and delivery of the packages.\n\n***Note:** This field returns the labels only if the **ReturnLabelsAtPackageLevel** field is set to false.*",
+            "nullable": true
+          },
+          "LabelFormat": {
+            "$ref": "#/components/schemas/InPostGlobalLabelFormat"
+          },
+          "Packages": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/PackageResponseDetails"
+            },
+            "description": "An array that details information about each package included in the shipment. This includes essential data, such as package occurrence and tracking information. Each package is clearly documented to facilitate tracking and handling.",
+            "nullable": true
+          },
+          "Documents": {
+            "type": "string",
+            "description": "This object is only returned if the shipment is dutiable and the requested action was \"Process.\"  This object includes any requisite documentation necessary for customs clearance and compliance, ensuring that all regulatory requirements are met for international shipments.",
+            "nullable": true,
+            "example": "iVBORw0KGgoAAAANSUhEUgAA ... A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4"
+          },
+          "DocumentFormat": {
+            "$ref": "#/components/schemas/DocumentFormat"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Create Shipment Response"
+      },
+      "InPostGlobalLabelFormatPrintLabelResponse": {
         "required": [
           "LabelFormat",
           "ShipmentId"
@@ -1938,13 +2514,13 @@
             "example": "iVBORw0KGgoAAAANSUhEUgAA ... A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4"
           },
           "LabelFormat": {
-            "$ref": "#/components/schemas/InPostLabelFormat"
+            "$ref": "#/components/schemas/InPostGlobalLabelFormat"
           }
         },
         "additionalProperties": false,
         "description": "Print Label Response"
       },
-      "InPostLabelFormatShipmentInformation": {
+      "InPostGlobalLabelFormatShipmentInformation": {
         "required": [
           "ContentType",
           "DescriptionOfGoods",
@@ -1956,7 +2532,7 @@
             "$ref": "#/components/schemas/CreateShipmentAction"
           },
           "LabelFormat": {
-            "$ref": "#/components/schemas/InPostLabelFormat"
+            "$ref": "#/components/schemas/InPostGlobalLabelFormat"
           },
           "ContentType": {
             "$ref": "#/components/schemas/ContentType"
@@ -1980,7 +2556,7 @@
           },
           "ShipmentDate": {
             "type": "string",
-            "description": "The scheduled date for the shipment to be shipped, which cannot be in the past and must not exceed 28 days into the future. If omitted, it defaults to the current date.",
+            "description": "The scheduled date for the shipment to be shipped, which cannot be in the past or in the future.<br /><br />***Note:** The shipment date must be in the YYYY-MM-DD format. If not provided, then this field is set to the current date.*",
             "format": "date",
             "nullable": true
           },
@@ -2025,96 +2601,7 @@
         "additionalProperties": false,
         "description": "Used to provide shipment-level information such as service code, content type, general goods description, total shipment weight and value etc."
       },
-      "InPostPackage": {
-        "type": "object",
-        "properties": {
-          "PackageOccurrence": {
-            "maximum": 99,
-            "minimum": 1,
-            "type": "integer",
-            "description": "A unique identifier for each package within the shipment that is used to match a returned package ID to this package. This field can also be used to assign items to a specific package. \r<br />            \r<br />***Note:** For Royal Mail dutiable multi-package shipments that are not using a consignment service, items must be assigned to a package so that accurate customs information is given. Therefore, if the shipment contains more than one package, and it is not using a consignment service, then the **PackageOccurrence** is required.*",
-            "format": "int32",
-            "nullable": true,
-            "example": 1
-          },
-          "PackageType": {
-            "$ref": "#/components/schemas/InPostPackageTypeCode"
-          },
-          "DeclaredWeight": {
-            "minimum": 0.001,
-            "type": "number",
-            "description": "The total weight of the package being declared in the unit of measure specified in the **WeightUnitOfMeasure** field.\r<br />\r<br />***Note:** The minimum allowed weight is 0.001 kg and the maximum weight is dependent on the carrier, service and destination. This field is mandatory for shipments using non-consignment services.*",
-            "format": "double",
-            "nullable": true,
-            "example": 1.5
-          },
-          "DeclaredValue": {
-            "maximum": 9999999.99,
-            "minimum": 0.01,
-            "type": "number",
-            "description": "The declared monetary value of the package specified in the **CurrencyCode** field.\r<br />\r<br />***Note:** If provided, then the declared value must meet or exceed the sum of all item values assigned to this package. Otherwise, it defaults to this sum. This value can be used for non-consignment services, though it is not mandatory.*",
-            "format": "double",
-            "nullable": true,
-            "example": 98.99
-          },
-          "Dimensions": {
-            "$ref": "#/components/schemas/Dimensions"
-          }
-        },
-        "additionalProperties": false,
-        "description": "InPost Package"
-      },
-      "InPostPackageInPostLabelFormatCreateShipmentRequest": {
-        "required": [
-          "Destination",
-          "Packages",
-          "ShipmentInformation",
-          "Shipper"
-        ],
-        "type": "object",
-        "properties": {
-          "ShipmentInformation": {
-            "$ref": "#/components/schemas/InPostLabelFormatShipmentInformation"
-          },
-          "Shipper": {
-            "$ref": "#/components/schemas/Shipper"
-          },
-          "Destination": {
-            "$ref": "#/components/schemas/Destination"
-          },
-          "Packages": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/InPostPackage"
-            },
-            "description": "Shipment Packages<br/>The packages that are being sent in this shipment.<br/>Only one package at a time is allowed."
-          },
-          "Items": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/Item"
-            },
-            "description": "Used to provide information on the individual goods/products being shipped within the package. This includes vital details, such as SKU code for inventory tracking, quantity of each item, description for clarity, and shipping specifics like weight, customs classifications (HS Code), and country of origin.\r<br />\r<br />***Note:** The item information is only required for dutiable shipments. Non-Dutiable and Documents Only (DOX) shipments do not require item information. Please be advised that the item verification on a shipment is done via Hurricane services; therefore, it should be enabled. The maximum number of distinct items that will be verified in a single shipment is 15.*",
-            "nullable": true
-          },
-          "Customs": {
-            "$ref": "#/components/schemas/Customs"
-          },
-          "ReturnToSender": {
-            "$ref": "#/components/schemas/ReturnToSender"
-          }
-        },
-        "additionalProperties": false,
-        "description": "Create Shipment Request"
-      },
-      "InPostPackageTypeCode": {
-        "enum": [
-          "PARCEL"
-        ],
-        "type": "string",
-        "description": "The package type used for the shipment.\r<br />Defaults to \"PARCEL\" for InPost."
-      },
-      "InPostShippingAccount": {
+      "InPostGlobalShippingAccount": {
         "required": [
           "AccountAlias",
           "AccountName",
@@ -2127,6 +2614,7 @@
           "ContactNumber",
           "LastUpdatedBy",
           "LastUpdatedDateUtc",
+          "OrganisationId",
           "ShippingAccountId"
         ],
         "type": "object",
@@ -2190,8 +2678,15 @@
             "maxLength": 255,
             "minLength": 1,
             "type": "string",
-            "description": "Client id\r<br />The client id given by the carrier.",
-            "example": "example@inpost.co.uk"
+            "description": "The client ID provided by InPost for OAuth authentication.",
+            "example": "inpost-client-id"
+          },
+          "OrganisationId": {
+            "maxLength": 255,
+            "minLength": 1,
+            "type": "string",
+            "description": "A unique, default organisation identifier provided by InPost for creating shipments.\r<br />\r<br />***Note:** There can be multiple organisation IDs, as certain processes are managed by InPost at organisation level. If required, an alternative organisation ID can be provided using the OrganisationId field within the CarrierSpecifics object of the Create Shipment request. When supplied, the carrier-specific OrganisationId will override the default organisation ID configured on the shipping account for the shipment.*",
+            "example": "inpost-organisation-id"
           },
           "LastUpdatedBy": {
             "minLength": 1,
@@ -2208,7 +2703,7 @@
         "additionalProperties": false,
         "description": "Shipping Account\r<br />An account that sends shipments. A shipping account is for a specified carrier.\r<br />You can have multiple shipping accounts.\r<br />A Shipping Account must have at least one Shipping Location."
       },
-      "InPostShippingAccountShippingAccountsPagedResponse": {
+      "InPostGlobalShippingAccountShippingAccountsPagedResponse": {
         "required": [
           "ShippingAccounts",
           "TotalCount"
@@ -2218,7 +2713,7 @@
           "ShippingAccounts": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/InPostShippingAccount"
+              "$ref": "#/components/schemas/InPostGlobalShippingAccount"
             },
             "description": "An array containing the shipping accounts associated with the shipping location that match the query parameters specified in the request."
           },
@@ -2232,15 +2727,16 @@
         "additionalProperties": false,
         "description": "The paged response containing the entities for the requested page only, and the total number available."
       },
-      "InPostUpdateShippingAccountRequest": {
+      "InPostGlobalUpdateShippingAccountRequest": {
         "required": [
           "AccountAlias",
           "AccountName",
           "AccountType",
-          "BearerToken",
           "ClientId",
+          "ClientSecret",
           "ContactName",
-          "ContactNumber"
+          "ContactNumber",
+          "OrganisationId"
         ],
         "type": "object",
         "properties": {
@@ -2280,15 +2776,22 @@
             "maxLength": 255,
             "minLength": 1,
             "type": "string",
-            "description": "Client id\r<br />The client id given by the carrier.",
-            "example": "example@inpost.co.uk"
+            "description": "The client ID provided by InPost for OAuth authentication.",
+            "example": "inpost-client-id"
           },
-          "BearerToken": {
-            "maxLength": 50,
+          "ClientSecret": {
+            "maxLength": 255,
             "minLength": 1,
             "type": "string",
-            "description": "Bearer Token\r<br />The token given by the carrier.",
-            "example": "1234567890"
+            "description": "The client secret provided by InPost for OAuth authentication.",
+            "example": "inpost-client-secret"
+          },
+          "OrganisationId": {
+            "maxLength": 255,
+            "minLength": 1,
+            "type": "string",
+            "description": "A unique, default organisation identifier provided by InPost for creating shipments.\r<br />\r<br />***Note:** There can be multiple organisation IDs, as certain processes are managed by InPost at organisation level. If required, an alternative organisation ID can be provided using the OrganisationId field within the CarrierSpecifics object of the Create Shipment request. When supplied, the carrier-specific OrganisationId will override the default organisation ID configured on the shipping account for the shipment.*",
+            "example": "inpost-organisation-id"
           }
         },
         "additionalProperties": false,
@@ -2374,13 +2877,13 @@
           "ManufactureProductId": {
             "maxLength": 50,
             "type": "string",
-            "description": "A unique manufacturer identifier for the item being shipped, for example, proprietary manufacturer code, model number, or internal code. This field is used to reference the shipped item and supports carrier-specific requirements.",
+            "description": "A unique manufacturer identifier for the item being shipped, for example, proprietary manufacturer code, model number, or internal code. This field is used to reference the shipped item and supports carrier-specific requirements.\r<br />\r<br />***Note:** Some carriers may require this field for B2C shipments to EU destinations. Validation is performed by the relevant carrier integration based on carrier or regulatory requirements. If a required product identifier is not provided, the shipment may be rejected by the carrier.*",
             "nullable": true
           },
           "StandardisedProductId": {
             "maxLength": 50,
             "type": "string",
-            "description": "A globally recognised product identifier for the item being shipped, for example, GTIN, EAN, and UPC. This field is used for standardised item identification and supports carrier-specific requirements for customs and risk assessment.",
+            "description": "A globally recognised product identifier for the item being shipped, for example, GTIN, EAN, and UPC. This field is used for standardised item identification and supports carrier-specific requirements for customs and risk assessment.\r<br />\r<br />***Note:** Some carriers may require this field for B2C shipments to EU destinations. Validation is performed by the relevant carrier integration based on carrier or regulatory requirements. If a required product identifier is not provided, the shipment may be rejected by the carrier.*",
             "nullable": true
           },
           "PGAReferenceNumber": {
@@ -2404,66 +2907,6 @@
         "additionalProperties": false,
         "description": "Used to provide details of the items sent in the shipment package(s). \r<br />Item information is optional for domestic and non-dutiable shipments, but required for dutiable shipments. \r<br />If item information is provided, this element must be repeated for each unique item in the shipment."
       },
-      "LabelFormat": {
-        "enum": [
-          "PDF",
-          "PNG"
-        ],
-        "type": "string",
-        "description": "Sets the label format that will be returned in the createShipment Response.\r<br />Valid values are:\r<br />**PDF** - returns a Base64-encoded PDF\r<br />**PNG** - returns a Base64-encoded PNG\r<br />Defaults to PDF if not populated."
-      },
-      "LabelFormatPackageResponseDetailsCreateShipmentResponse": {
-        "type": "object",
-        "properties": {
-          "ConsignmentShipmentId": {
-            "type": "string",
-            "description": "A unique identifier assigned to the shipment by the carrier. This ID is useful for tracking and managing the shipment throughout its transit journey and can be used in future queries or to reference the specific shipment.\r<br />\r<br />***Note:** This field is only populated if a consignment service was used in the request.*",
-            "format": "uuid",
-            "nullable": true,
-            "example": "c4e60776-288f-464e-b35b-ff0f3252c0f0"
-          },
-          "ConsignmentTrackingNumber": {
-            "type": "string",
-            "description": "A unique identifier assigned to the entire consignment shipment by the carrier. This number allows shippers and recipients to track the status and location of the entire shipment throughout its transit. It is useful for monitoring progress, ensuring timely delivery, and addressing any issues that may arise during transportation.\r<br />\r<br />***Note:** This field is only populated if the service is a consignment service.*",
-            "nullable": true,
-            "example": "DF12384739GB"
-          },
-          "ConsignmentCarrierTrackingUrl": {
-            "type": "string",
-            "description": "A URL link provided by the carrier that allows the shipper and recipients to access real-time tracking information about the consignment shipment. This link directs users to the carrier's website where they can view detailed status updates and current location of the shipment.\r<br />\r<br />***Note:** This field is only populated if this feature is available and the service is a consignment service.*",
-            "format": "uri",
-            "nullable": true,
-            "example": "http://shipmentcarrier.com/tracking/DF12384739GB"
-          },
-          "Labels": {
-            "type": "string",
-            "description": "Returns the generated shipping labels for the shipment. This field is populated only if the requested action was \"Process.\" The labels include the necessary barcodes and shipping information required for effective transit and delivery of the packages.\n\n***Note:** This field returns the labels only if the **ReturnLabelsAtPackageLevel** field is set to false.*",
-            "nullable": true
-          },
-          "LabelFormat": {
-            "$ref": "#/components/schemas/LabelFormat"
-          },
-          "Packages": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/PackageResponseDetails"
-            },
-            "description": "An array that details information about each package included in the shipment. This includes essential data, such as package occurrence and tracking information. Each package is clearly documented to facilitate tracking and handling.",
-            "nullable": true
-          },
-          "Documents": {
-            "type": "string",
-            "description": "This object is only returned if the shipment is dutiable and the requested action was \"Process.\"  This object includes any requisite documentation necessary for customs clearance and compliance, ensuring that all regulatory requirements are met for international shipments.",
-            "nullable": true,
-            "example": "iVBORw0KGgoAAAANSUhEUgAA ... A4QAAAXcCAYAAAB6Q0CbAAAAAXNSR0IArs4"
-          },
-          "DocumentFormat": {
-            "$ref": "#/components/schemas/DocumentFormat"
-          }
-        },
-        "additionalProperties": false,
-        "description": "Create Shipment Response"
-      },
       "OrderDirection": {
         "enum": [
           "Ascending",
@@ -2471,6 +2914,42 @@
         ],
         "type": "string",
         "description": "Order Direction"
+      },
+      "PackageDetails": {
+        "type": "object",
+        "properties": {
+          "PackageOccurrence": {
+            "maximum": 99,
+            "minimum": 1,
+            "type": "integer",
+            "description": "A unique identifier for each package within the shipment that is used to match a returned package ID to this package. This field can also be used to assign items to a specific package. \r<br />            \r<br />***Note:** For Royal Mail dutiable multi-package shipments that are not using a consignment service, items must be assigned to a package so that accurate customs information is given. Therefore, if the shipment contains more than one package, and it is not using a consignment service, then the **PackageOccurrence** is required.*",
+            "format": "int32",
+            "nullable": true,
+            "example": 1
+          },
+          "DeclaredWeight": {
+            "minimum": 0.001,
+            "type": "number",
+            "description": "The total weight of the package being declared in the unit of measure specified in the **WeightUnitOfMeasure** field.\r<br />\r<br />***Note:** The minimum allowed weight is 0.001 kg and the maximum weight is dependent on the carrier, service and destination. This field is mandatory for shipments using non-consignment services.*",
+            "format": "double",
+            "nullable": true,
+            "example": 1.5
+          },
+          "DeclaredValue": {
+            "maximum": 9999999.99,
+            "minimum": 0.01,
+            "type": "number",
+            "description": "The declared monetary value of the package specified in the **CurrencyCode** field.\r<br />\r<br />***Note:** If provided, then the declared value must meet or exceed the sum of all item values assigned to this package. Otherwise, it defaults to this sum. This value can be used for non-consignment services, though it is not mandatory.*",
+            "format": "double",
+            "nullable": true,
+            "example": 98.99
+          },
+          "Dimensions": {
+            "$ref": "#/components/schemas/Dimensions"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Shipment Package\r<br />Each shipment must have at least one package."
       },
       "PackageResponseDetails": {
         "type": "object",
@@ -2529,9 +3008,9 @@
             "example": "John Brown Default"
           },
           "PudoId": {
-            "maxLength": 50,
+            "maxLength": 255,
             "type": "string",
-            "description": "A unique identifier for a PUDO location. This ID is retrieved from the LocationId field of the Get PUDO Locations endpoint response and is essential for identifying the specific collection point for an InPost shipment.\r\n\r\nNote: Before providing the PudoId, keep in mind the following:\r\n\r\n- The PudoId is only applicable for destination addresses when the shipment is being created as a collection shipment.\r\n\r\n- The destination contact name must be provided with either its contact email or phone number.",
+            "description": "A unique identifier for a PUDO location. This ID is retrieved from the **LocationId** field of the **Get PUDO Locations** endpoint response and is essential for identifying the specific collection point for an InPost shipment, such as a parcel locker or a PUDO location.</br></br>_**Note**_: _Before providing the **PudoId**, keep in mind the following:</br>_<ul><li>_The **PudoId** is only applicable for destination addresses, and is required when shipping to a point._</li><li>_The destination contact name must be provided with either its contact email or phone number._</li></ul>",
             "nullable": true
           },
           "ContactName": {
@@ -2696,9 +3175,9 @@
             "example": "John Brown Default"
           },
           "PudoId": {
-            "maxLength": 50,
+            "maxLength": 255,
             "type": "string",
-            "description": "A unique identifier for a PUDO location. This ID is retrieved from the LocationId field of the Get PUDO Locations endpoint response and is essential for identifying the specific collection point for an InPost shipment.\r\n\r\nNote: Before providing the PudoId, keep in mind the following:\r\n\r\n- The PudoId is only applicable for destination addresses when the shipment is being created as a collection shipment.\r\n\r\n- The destination contact name must be provided with either its contact email or phone number.",
+            "description": "A unique identifier for a PUDO location. This ID is retrieved from the **LocationId** field of the **Get PUDO Locations** endpoint response and is essential for identifying the specific collection point for an InPost shipment, such as a parcel locker or a PUDO location.</br></br>_**Note**_: _Before providing the **PudoId**, keep in mind the following:</br>_<ul><li>_The **PudoId** is only applicable for destination addresses, and is required when shipping to a point._</li><li>_The destination contact name must be provided with either its contact email or phone number._</li></ul>",
             "nullable": true
           },
           "ContactName": {
@@ -3032,7 +3511,7 @@
           "DAT"
         ],
         "type": "string",
-        "description": "Specifies the International Commercial Terms (Incoterms) applicable to the shipment, governing responsibilities and financial obligations. \r<br />\r<br />Valid values include the following: \r<br /><ul><li>**DDU** — Delivered Duty Unpaid. The receiver is responsible for paying customs duties and taxes.</li><li>**DDP** — Delivered Duty Paid. The seller is responsible for paying customs duties and taxes.</li><li>**DAP** — Delivered At Place. The receiver is responsible for paying customs duties and taxes.</li><li>**DAT** — Delivered At Terminal. The receiver is responsible for paying customs duties and taxes.</li></ul>\r<br />***Note**: By default, this field is set to DDU if not provided for dutiable shipments. Please be advised that this information is not required for non-dutiable shipments.*"
+        "description": "Specifies the International Commercial Terms (Incoterms) applicable to the shipment, governing responsibilities and financial obligations. \r<br />\r<br />Valid values include the following: \r<br /><ul><li>**DDU** — Delivered Duty Unpaid. The receiver is responsible for paying customs duties and taxes.</li><li>**DDP** — Delivered Duty Paid. The seller is responsible for paying customs duties and taxes.</li><li>**DAP** — Delivered At Place. The receiver is responsible for paying customs duties and taxes.</li><li>**DAT** — Delivered At Terminal. The receiver is responsible for paying customs duties and taxes.</li></ul>\r<br />***Note**: By default, this field is set to DDU if not provided for dutiable shipments. Please be advised that this information is not required for non-dutiable shipments.*<br>InPost supports only **DDU**."
       },
       "WeightUnitOfMeasure": {
         "enum": [
@@ -3068,7 +3547,7 @@
     },
     {
       "name": "Shipments",
-      "description": "This section provides information relating to creating InPost shipments, printing shipping labels and customs documentation."
+      "description": "This section provides information relating to creating InPost shipments and printing shipping labels."
     }
   ],
   "x-readme": {
