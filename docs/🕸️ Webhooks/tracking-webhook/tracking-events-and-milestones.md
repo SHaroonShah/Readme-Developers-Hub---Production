@@ -68,7 +68,7 @@ The following section displays a comprehensive structure of the milestones, even
                   </tr>
                <tr>
                   <td>PSCS</td>
-  <td>Shipment Collected  and left in a Safe Place</td>
+  <td>Shipment Collected</td>
                   <td>The shipment has been collected from a designated safe place as instructed.</td>
                   </tr>
                   <tr>
