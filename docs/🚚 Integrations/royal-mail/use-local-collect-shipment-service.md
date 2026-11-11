@@ -64,7 +64,7 @@ Based on your requirements, you can choose various approaches to use the PUDO lo
     - _If the destination company name includes “c/o” and the&#x20;_`PudoId`_&#x20;is not populated, the existing Local Collect functionality will continue to apply._
   </Callout>
 
-  ```json Payload Request Example
+  ```json Request Payload Example
   {
          "Shipper": {
        "ShippingAccountId": "bfb90234-b287-4913-855e-aa119df9c84e",
@@ -177,7 +177,7 @@ Based on your requirements, you can choose various approaches to use the PUDO lo
 
   The following snippet represents an example JSON response schema of the Get PUDO Location endpoint.
 
-  ```
+  ```json Response Payload Example
   {
     "Locations": [
       {
