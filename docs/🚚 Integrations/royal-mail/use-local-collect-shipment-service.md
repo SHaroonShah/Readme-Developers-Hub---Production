@@ -48,7 +48,7 @@ Based on your requirements, you can choose various approaches to use the PUDO lo
   SAPIENT not only supports retrieving the PUDO location information, but also the creation of Royal Mail outbound shipments that will be collected from a PUDO location - Local Collect.<br />There are two distinct ways to [create a Royal Mail shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm) aimed at delivery to a PUDO point:
 
   1. By providing PUDO ID (preferred method)&#x20;
-     1. The request must include `PudoId`.
+     1. The request must include the destination's  `PudoId` .
      2. The **ServiceEnhancements** code—**LocalCollect** must not be used.
      3. The **Email** or **SMS** notification service enhancement must be used by providing the destination's **ContactPhone** or **ContactEmail** information, so the end consumer can be notified when their item is ready to be collected from the post office.
 
@@ -63,6 +63,89 @@ Based on your requirements, you can choose various approaches to use the PUDO lo
     - _If the_`pudoId`_&#x20;is provided for a carrier that does not use PUDO, an error will be returned._
     - _If the destination company name includes “c/o” and the&#x20;_`PudoId`_&#x20;is not populated, the existing Local Collect functionality will continue to apply._
   </Callout>
+
+  ```json Payload Request Example
+  {
+         "Shipper": {
+       "ShippingAccountId": "bfb90234-b287-4913-855e-aa119df9c84e",
+          "ShippingLocationId": "1cce22a2-a6f7-4ce2-978a-640297c54603",
+          "Reference1": "OrderRef56",
+          "Address": {
+               "ContactName": "Jane Smith",
+              "CompanyName": "Company & Co.",
+              "ContactEmail": "J.smith@server.com",
+              "ContactPhone": "01753 689292",
+               "Line1": "Level 5",
+              "Line2": "Hashmore House",
+              "Line3": "10 Sky Lane",
+              "Town": "Leatherhead",
+              "Postcode": "AA34 3AB",
+              "County": "Surrey",
+              "CountryCode": "GB"
+          }},
+      "Destination": {
+          "Address": {
+              "PudoId": "001643315",
+              "ContactName": "Harry Johnson",
+              "companyname":"aberdeen post office",
+              "ContactEmail": "H.Johnson@gmail.com",
+              "ContactPhone": "07667676777",
+              "Line1": "",
+              "Town": "",
+              "Postcode": "",
+              "CountryCode": ""
+          }},
+          "ShipmentInformation": {
+          "ContentType": "NDX",
+          "DescriptionOfGoods": "Clothes",
+          "LabelFormat": "PDF",
+          "Action": "Process",
+          "CurrencyCode": "GBP",
+          "WeightUnitOfMeasure": "KG",
+          "DimensionsUnitOfMeasure": "CM",
+          "ServiceCode": "TPL"
+      },
+      "Packages": [
+          {
+                "PackageType": "parcel",
+              "PackageOccurrence": 1,
+              "DeclaredWeight": 1.5,
+              "Dimensions": {
+                  "Length": 40,
+                  "Width": 30,
+                  "Height": 10
+              }
+          }
+      ],
+      "Items": [
+           {
+               "SkuCode": "SKU895",
+        "PackageOccurrence": 1,
+        "Quantity": 1,
+        "Description": "T-shirt",
+        "Value": 29.99,
+        "Weight": 1,
+        "CountryOfOrigin": "CN"
+          }
+      ],
+     
+      "ReturnToSender": {
+          "Address": {
+                  "ContactName": "Jane Smith",
+              "CompanyName": "Company & Co.",
+              "ContactEmail": "J.smith@server.com",
+              "ContactPhone": "01753 689292",
+               "Line1": "Level 5",
+              "Line2": "Hashmore House",
+              "Line3": "10 Sky Lane",
+              "Town": "Leatherhead",
+              "Postcode": "AA34 3AB",
+              "County": "Surrey",
+              "CountryCode": "GB"
+          }
+      }
+  }
+  ```
 
   2. By providing the full address of the PUDO:
 
