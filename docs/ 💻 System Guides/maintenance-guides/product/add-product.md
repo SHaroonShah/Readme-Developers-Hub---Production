@@ -86,49 +86,60 @@ In SAPIENT, you can add as many products as you want and use them in your <Gloss
                   <td align="center"><strong>SKU Code</strong>&#42;</td>
                   <td align="left">Enter the stock keeping unit of the product you are adding.</td>
                 </tr>
+     <tr>
+                  <td align="center"><strong>Value</strong>&#42;</td>
+                  <td align="left">Enter the monetary value of the product you are adding.</td>
+                </tr>
                 <tr>
                   <td align="center"><strong>HS Code</strong></td>
                   <td align="left">Enter the HS Code for the product you are adding.<br /><br /><i><code>Note</code>: A minimum of 6 alpha-numeric code is required when the HS Code is provided (some services/destinations may require 8). Additionally, this information is required by some carriers for dutiable shipments.</i></td>
+                </tr>
+     <tr>
+                  <td align="center"><strong>Currency</strong>&#42;</td>
+                  <td align="left">From the dropdown menu, select the currency code in which the value of the product is set.<br /><br /><i><code>Note</code>: This information is required if any monetary values other than zero are provided.</i></td>
                 </tr>
                 <tr>
                   <td align="center"><strong>Description</strong>&#42;</td>
                   <td align="left">Enter a detailed description of the product you are adding.</td>
                 </tr>
+      <tr>
+                  <td align="center"><strong>Weight (kg)</strong>&#42;</td>
+                  <td align="left">Enter the weight of the product you are adding. The unit of measure is set to <strong>Kg</strong> by default and can be a maximum of 1000 kg.<br /><br /><em><code>Note</code></em>: This information is required for dutiable shipments and must be a minimum of 1 g.</td>
+                </tr>
                 <tr>
                   <td align="center"><strong>Country of Origin</strong></td>
                   <td align="left">From the dropdown menu, select the country where the product you are adding was manufactured.<br /><br /><i><code>Note</code>: This information is required by some carriers for dutiable shipments.</i> </td>
+                </tr>
+      <tr>
+                  <td align="center"><strong>Category</strong>&#42;</td>
+                  <td align="left">Enter the category of the product you are adding.</td>
                 </tr>
                 <tr>
                   <td align="center"><strong>Manufacture Product Id</strong></td>
                   <td align="left">Enter the unique identifier used to reference the product you are adding.</td>
                 </tr>
-    <tr>
+     <tr>
+                  <td align="center"><strong>Standardised Product Id</strong></td>
+                  <td align="left">Enter the product identifier used for standardised item identification and to support your carrier-specific requirements for customs and risk assessment.</td>
+                </tr>
+     <tr>
+                  <td align="center"><strong>EUDR Reference Type</strong></td>
+                  <td align="left">Enter the product identifier used for standardised item identification and to support your carrier-specific requirements for customs and risk assessment.</td>
+                </tr>
+     <tr>
+                  <td align="center"><strong>EUDR Reference Value</strong></td>
+                  <td align="left">Enter the product identifier used for standardised item identification and to support your carrier-specific requirements for customs and risk assessment.</td>
+                </tr>
+                <tr>
                   <td align="center"><strong>PGA Reference Number</strong></td>
                   <td align="left">Enter the Partner Government Agency (PGA) reference number associated with the item to support customs and regulatory requirements for shipments to the United States and US territories.
     <br />
     <i><code>Note:</code> This field is only applicable to shipments destined for the United State and its territories.</i>
     </td>
                 </tr>
-                <tr>
-                  <td align="center"><strong>Value</strong>&#42;</td>
-                  <td align="left">Enter the monetary value of the product you are adding.</td>
-                </tr>
-                <tr>
-                  <td align="center"><strong>Currency</strong>&#42;</td>
-                  <td align="left">From the dropdown menu, select the currency code in which the value of the product is set.<br /><br /><i><code>Note</code>: This information is required if any monetary values other than zero are provided.</i></td>
-                </tr>
-                <tr>
-                  <td align="center"><strong>Weight (kg)</strong>&#42;</td>
-                  <td align="left">Enter the weight of the product you are adding. The unit of measure is set to <strong>Kg</strong> by default and can be a maximum of 1000 kg.<br /><br /><em><code>Note</code></em>: This information is required for dutiable shipments and must be a minimum of 1 g.</td>
-                </tr>
-                <tr>
-                  <td align="center"><strong>Category</strong>&#42;</td>
-                  <td align="left">Enter the category of the product you are adding.</td>
-                </tr>
-                <tr>
-                  <td align="center"><strong>Standardised Product Id</strong></td>
-                  <td align="left">Enter the product identifier used for standardised item identification and to support your carrier-specific requirements for customs and risk assessment.</td>
-                </tr>
+              
+              
+               
                 <tr>
                   <td align="center"><strong>Hazardous Product</strong></td>
                   <td align="left">This toggle is turned off by default. If the product you are adding is a hazardous material, then turn on this toggle and enter the necessary information as explained in the Hazardous product details tab.</td>
