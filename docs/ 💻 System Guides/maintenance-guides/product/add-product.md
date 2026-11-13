@@ -124,11 +124,11 @@ In SAPIENT, you can add as many products as you want and use them in your <Gloss
                 </tr>
      <tr>
                   <td align="center"><strong>EUDR Reference Type</strong></td>
-                  <td align="left">Enter the type of EUDR reference applicable to the shipment item, such as Due Diligence Statement (DDS) Reference Number, Conventional DDS Reference Number,  Simplified Declaration Identifier (SDI), TARIC document code, or exemption code that identifies the applicable customs declaration case.</td>
+                  <td align="left">Enter the type of EUDR reference applicable to the shipment product/item, such as Due Diligence Statement (DDS) Reference Number, Conventional DDS Reference Number,  Simplified Declaration Identifier (SDI), TARIC document code, or exemption code that identifies the applicable customs declaration case.</td>
                 </tr>
      <tr>
                   <td align="center"><strong>EUDR Reference Value</strong></td>
-                  <td align="left">Enter the EUDR reference value applicable to the shipment item and associated with the selected EUDR Reference Type.</td>
+                  <td align="left">Enter the EUDR reference value applicable to the shipment product/item and associated with the selected EUDR Reference Type.</td>
                 </tr>
                 <tr>
                   <td align="center"><strong>PGA Reference Number</strong></td>
