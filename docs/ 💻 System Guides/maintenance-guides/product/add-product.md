@@ -67,7 +67,7 @@ In SAPIENT, you can add as many products as you want and use them in your <Gloss
           <Tab title="Basic product details">
             On the **Add Product** form that opens, in the **PRODUCT DETAILS** block, enter the necessary information.        
 
-    <Image src="https://files.readme.io/a7244001ba20bc5a341c586be454c7320f549d0f1f3e3251b5daab0f44aa5a39-Adding_product_SAP.png" align="center" caption="Adding product details" border={true} />
+    <Image src="https://files.readme.io/a7244001ba20bc5a341c586be454c7320f549d0f1f3e3251b5daab0f44aa5a39-Adding_product_SAP.png" align="center" caption="Entering product details" border={true} />
 
 
             <br />
@@ -157,7 +157,7 @@ In SAPIENT, you can add as many products as you want and use them in your <Gloss
 
             
 
-    <Image align="center" border={true} src="https://files.readme.io/81567e5b0718c10f9e6955ed1b44915b5f824ddc836d0c1243b598f03225d20a-Hazardous_information_form.png" alt="Entering hazardous product details" />
+    <Image align="center" border={true} src="https://files.readme.io/81567e5b0718c10f9e6955ed1b44915b5f824ddc836d0c1243b598f03225d20a-Hazardous_information_form.png" caption="Entering hazardous product details" />
 
 
             <br />
