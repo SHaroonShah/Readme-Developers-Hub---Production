@@ -53,7 +53,9 @@ In SAPIENT, you can edit the <Glossary>product</Glossary>, ensuring that any cha
         In the **Edit Product** form that opens, start updating the necessary information as explained in the [Add product](https://docs.intersoftsapient.net/docs/add-product) section.
 
         
-    <Image src="https://files.readme.io/d3be119894bfdf86f43a9e654657a9f015db75a959d7fe4ad3fa2984159f787e-Editing_product.png" align="center" caption="Editing product details" border={true} />
+
+    <Image src="https://files.readme.io/a737057503b78ce4249b1129cf9cce4bb29035f8e7b3ddb455c1d73e7a85e8c6-Editing_product.png" align="center" caption="Editing product details" border={true} />
+
 
 
         ***
