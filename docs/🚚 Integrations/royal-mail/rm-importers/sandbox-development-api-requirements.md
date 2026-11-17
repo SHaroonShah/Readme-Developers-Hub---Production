@@ -78,11 +78,11 @@ You must develop the following API calls:
 <Callout icon="📘" theme="info">
   ### _Note_
 
-  _At INTERSOFT, we have developed a dedicated API endpoint for servers based in China.  To access this, kindly change your domain from&#x20;_**_.net_**_&#x20;to&#x20;_**_.cn_**_&#x20;for all the relevant endpoints you will be using._
+  _If your servers are based in China, use the dedicated .cn API endpoints. Replace .net with .cn in the relevant endpoint URLs._
 
   _For example, when creating a new shipment replace the&#x20;_[https://api.intersoftsapient.net/v4/shipments/rm](https://api.intersoftsapient.net/v4/shipments/rm)_&#x20;URL with&#x20;_[https://api.intersoftsapient.cn/v4/shipments/rm](https://api.intersoftsapient.net/v4/shipments/rm)_._
 
-  _As a back-up, please develop&#x20;_**_.net_**_&#x20;as well._
+  _Your integration should also support the .net endpoints as a backup._
 </Callout>
 
 ***
