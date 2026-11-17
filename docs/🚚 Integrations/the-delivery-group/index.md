@@ -53,8 +53,8 @@ The Delivery Group (TDG) hands shipments over to other carriers for <Glossary>fi
 
   <Tab title="Additional Features">
     <Cards>
-      <Card title="Single Piece shipments" icon="fa-solid fa-box">
-        The Delivery Group supports single-package shipments only. Consignment services are not supported.
+      <Card title="Single-Piece shipments" icon="fa-solid fa-box">
+        The Delivery Group supports single-package shipments only. Consignment services are not supported in this integration.
       </Card>
 
       <Card title="Package Dimensions" icon="fa-solid fa-ruler-combined">
