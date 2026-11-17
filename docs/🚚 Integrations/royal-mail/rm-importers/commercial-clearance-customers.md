@@ -29,7 +29,7 @@ To efficiently handle the imports, make sure to fill in the necessary details as
 <Table align={["center","left"]}>
   <thead>
     <tr>
-      <th>
+      <th style={{ textAlign: "center" }}>
         Requirement
       </th>
 
@@ -41,8 +41,8 @@ To efficiently handle the imports, make sure to fill in the necessary details as
 
   <tbody>
     <tr>
-      <td>
-        **Shipper Address***
+      <td style={{ textAlign: "center" }}>
+        **Shipper Address**\*
       </td>
 
       <td>
@@ -51,8 +51,8 @@ To efficiently handle the imports, make sure to fill in the necessary details as
     </tr>
 
     <tr>
-      <td>
-        **Return Address***
+      <td style={{ textAlign: "center" }}>
+        **Return Address**\*
       </td>
 
       <td>
@@ -61,7 +61,7 @@ To efficiently handle the imports, make sure to fill in the necessary details as
     </tr>
 
     <tr>
-      <td>
+      <td style={{ textAlign: "center" }}>
         **Customs documentation**
       </td>
 
@@ -71,8 +71,8 @@ To efficiently handle the imports, make sure to fill in the necessary details as
     </tr>
 
     <tr>
-      <td>
-        **Manifest - Royal Mail Sales Order Summary***
+      <td style={{ textAlign: "center" }}>
+        **Manifest - Royal Mail Sales Order Summary**\*
       </td>
 
       <td>
@@ -81,19 +81,19 @@ To efficiently handle the imports, make sure to fill in the necessary details as
     </tr>
 
     <tr>
-      <td>
-        **Royal Mail Sign Off***
+      <td style={{ textAlign: "center" }}>
+        **Royal Mail Sign Off**\*
       </td>
 
       <td>
-        Required – physical labels only, where you will be requested to create couple of labels, manifest them and ship them to Royal Mail.
+        Physical label sign-off is required. You must create and manifest the required test labels, print them, and send the physical labels to Royal Mail for approval.
 
-        _`Note:`Details on this label are shared once the [Sandbox Test Pack](https://docs.intersoftsapient.net/docs/royal-mail-importers-sandbox-test-pack)  is approved._
+        `Note:`_Details on this label are shared once the&#x20;_[Sandbox Test Pack](https://docs.intersoftsapient.net/docs/royal-mail-importers-sandbox-test-pack)_&#x20; is approved._
       </td>
     </tr>
 
     <tr>
-      <td>
+      <td style={{ textAlign: "center" }}>
         **Create Shipment field requirements**
       </td>
 
