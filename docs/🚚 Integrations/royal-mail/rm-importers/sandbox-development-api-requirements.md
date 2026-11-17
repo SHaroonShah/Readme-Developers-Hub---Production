@@ -50,7 +50,7 @@ You must develop the following API calls:
 
   <Cards>
     <Card title="Add Container" href="https://docs.intersoftsapient.net/reference/post_v4-internationalarrivalscontainers-rm" icon="fa-solid fa-plus" target="_blank">
-      Create and name (with an ID or alias) a new International Arrivals Container for manifesting a specific group of shipments.
+      Create an International Arrivals Container and assign an ID or alias.
     </Card>
 
     <Card title="Get Containers" href="https://docs.intersoftsapient.net/reference/get_v4-internationalarrivalscontainers-rm" icon="fa-solid fa-list" target="_blank">
