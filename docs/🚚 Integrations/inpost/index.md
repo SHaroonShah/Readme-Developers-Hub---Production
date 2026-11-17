@@ -37,7 +37,7 @@ This integration offers several key features that streamline the shipping proces
       </Card>
 
       <Card title="Label Formats" icon="fa-solid fa-tag">
-        The integration supports labels in the <Glossary>PDF</Glossary> format.
+        The integration supports labels in the <Glossary>PDF</Glossary>, <Glossary>ZPL203DPI</Glossary>, and <Glossary>ZPL300DPI</Glossary> formats.
       </Card>
 
       <Card title="Incoterms Support">
@@ -76,7 +76,8 @@ This integration offers several key features that streamline the shipping proces
     | 2 Point Standard   | This service provides standard delivery to an InPost locker or shop.            |
     | 2 Point Express    | This service provides express delivery to an InPost locker or shop.             |
     | **Return**         | This service provides a parcel returns solution using an InPost Locker or Shop. |
-<br />
+
+    <br />
 
     <Callout icon="💡" theme="default">
       ### _Tip_
