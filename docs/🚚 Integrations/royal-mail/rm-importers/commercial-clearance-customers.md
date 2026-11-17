@@ -76,7 +76,7 @@ To efficiently handle the imports, make sure to fill in the necessary details as
       </td>
 
       <td>
-        Printed version to be handed over to the driver at the point of parcel collection.
+        Print the Royal Mail Sales Order Summary and give it to the driver when the parcels are collected.
       </td>
     </tr>
 
