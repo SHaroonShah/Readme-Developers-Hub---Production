@@ -7,9 +7,144 @@ icon: fad fa-notes
 metadata:
   robots: index
 ---
-<Accordion title="SAPIENT release notes - November 03, 2026" icon="">
+<Accordion title="SAPIENT release notes - November 03, 2026">
+  # EU customs changes
 
+  As part of the new EU customs regulations, **ManufactureProductId** and **StandardisedProductId** fields have been added at the **Items** level of the **Create Shipment** endpoint for the following carriers:&#x20;
+
+  - [DHL Express](https://docs.intersoftsapient.net/reference/post_v4-shipments-dhlexpress)
+  - [An Post](https://docs.intersoftsapient.net/reference/post_v4-shipments-anpost)
+  - [FedEx International Connect](https://docs.intersoftsapient.net/reference/post_v4-shipments-fic)
+  - [Spring GDS](https://docs.intersoftsapient.net/reference/post_v4-shipments-spring)
+  - [FedEx](https://docs.intersoftsapient.net/reference/post_v4-shipments-fedex)
+  - [The Delivery Group](https://docs.intersoftsapient.net/reference/post_v4-shipments-tdg)
+  - [UPS](https://docs.intersoftsapient.net/reference/post_v4-shipments-ups)
+
+  # Royal Mail validation updates for shipments to EU and US
+
+  Sapient has been updated to support additional shipment data required by Royal Mail for EU and US destinations:
+
+  <Table>
+    <thead>
+      <tr>
+        <th>
+          Destination
+        </th>
+
+        <th>
+          Fields
+        </th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>
+          B2C shipments to European Union (EU)
+        </td>
+
+        <td>
+          - **SKUCode**
+          - **ManufactureProductId**
+          - **StandardisedProductId**
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          Shipments to United States (US)
+        </td>
+
+        <td>
+          - Shipper **ContactEmail** or **ContactPhone**
+          - **PGAReferenceNumber**
+        </td>
+      </tr>
+    </tbody>
+  </Table>
+
+  Where applicable, these fields will be subject to mandatory validation once the corresponding Royal Mail requirements are enforced.
+
+  # Royal Mail tracking data enhancements
+
+  SAPIENT now captures location coordinates and estimated delivery information from the Royal Mail Push Tracking API, making this data available through the enhanced tracking webhook. The additional data includes the following information:
+
+  - **Latitude**
+  - **Longitude**
+  - **Estimated Delivery Data**
+  - **Estimated Delivery Time Window**
+
+  # Royal Mail LQDG product weight enhancements
+
+  The Royal Mail maximum LQDG product weight has been increased to 20 Kg for the following product codes:&#x20;
+
+  - **TPL**
+  - **TPN**
+  - **TPB**
+  - **TPM**
+  - **TPA**
+  - **TPC**
+
+  # Royal Mail Pin on Delivery service updates
+
+  Royal Mail customers creating shipments using any of the following **Pin on Delivery** services must now provide both the destination **ContactEmail** and **ContactPhone** details:&#x20;
+
+  | Service Code | Description                 |
+  | ------------ | --------------------------- |
+  | M01          | Tracked 24 with PIN (HV)    |
+  | M02          | Tracked 48 with PIN (HV)    |
+  | M04          | Tracked 24 with PIN         |
+  | M05          | Tracked 48 with PIN         |
+  | M06          | Import Tracked 24 with PIN  |
+  | M13          | Import Tracked 48 with PIN  |
+
+  # New integration - InPost
+
+  The InPost integration has been added to the SAPIENT system, which replaces the existing InPost integration.  This integration provides users with more flexible shipping options, including home deliveries, lookup for convenient locker services for secure parcel pickups via the SAPIENT’s **PUDO Locations** endpoint. This enhancement streamlines shipment management and leverages new capabilities for a better shipping experience.
+
+  **New API endpoints**. A new **InPost** block has been added to our carrier-specific APIs. This block includes the following API endpoints:
+
+  * **Shipping Account**
+    * **Get Accounts**: Retrieve a list of the InPost shipping accounts.
+    * **Add Account**: Add a new InPost shipping account.
+    * **Get Account**: Retrieve details of a specific InPost shipping account.
+    * **Update Account**: Update details of an existing InPost shipping account.
+    * **Link Locations**: Link shipping locations to an InPost shipping accounts.
+    * **Get Associated Locations**: Retrieve locations linked to the InPost shipping account.
+    * **Get Associated Location**: Retrieve details for a specific InPost associated location.
+    * **Shipments**
+      * **Create Shipment**: Create a new InPost shipment request.
+      * **Create Shipment Async**: Create a new InPost shipment request for asynchronous processing.
+      * **Print Label**: Generate a label for the InPost shipment.
+  * **Get PUDO Locations**: Retrieve a list of InPost PUDO locations for dropping off or picking up InPost shipments.&#x20;
+
+  ***
+
+  - **InPost shipping account screen**. As part of the InPost integration in Sapient, customer users and Carrier Account Administrators can now configure the InPost shipping account via the SAPIENT UI for creating shipments. This integration supports both outbound and return shipments using InPost’s eco-friendly parcel locker service across England, Wales, and Scotland. The **Add Shipping Account** screen will now include InPost as a carrier for selection, with mandatory fields required for configuration. Additionally, carrier-specific fields for the InPost integration include a mandatory **Client ID** and a **Bearer token** (to be provided by the carrier).
+
+  * **Tracking**: Enables customers to receive tracking updates through their integration with the SAPIENT tracking webhook.
+  * **Manifest shipment**: Enable customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with InPost.
+
+  <Callout icon="📘" theme="info">
+    ### _Note_
+
+    _For more information on this integration, refer to the&#x20;_<Anchor target="_blank" href="https://docs.intersoftsapient.net/docs/inpost">_InPost_</Anchor>_&#x20;user guides._
+  </Callout>
+
+  # Swagger documentation updates
+
+  The following updates have been made to the swagger documentation:
+
+  - As part of the US global trade changes, a new **PGAReferenceNumber** field has been added to the **Items** object of the Create Shipment request to capture the Partner Government Agency (PGA) reference information for shipments to United States and its territories.&#x20;
+    <Callout icon="far fa-circle-info" theme="info">
+      ### **_Note_**
+
+      _For more information, refer to the&#x20;_[_Create Shipment_](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm)_&#x20;endpoint._
+    </Callout>
+  - The **Items** object description in the **Create Shipment** request has been updated to to correctly indicate the Hurricane validation on the maximum number of items per shipment request, improving clarity and help ensure correct API implementation and usage.
 </Accordion>
+
+<br />
 
 <Accordion title="SAPIENT release notes - October 13, 2026">
   # New integration - Spring GDS
