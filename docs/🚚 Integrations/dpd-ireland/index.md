@@ -44,7 +44,7 @@ The integration of DPD Ireland (IE) into the SAPIENT platform is a significant s
 
   <Tab title="Additional Features">
     <Cards>
-      <Card title="Consignment services" icon="fa-solid fa-boxes-stacked">
+      <Card title="Consignment Services" icon="fa-solid fa-boxes-stacked">
         Multi-piece shipments are supported for all services except DPD Air Express.
 
         > _For Domestic and DPD Classic services, the maximum number of packages allowed is 10, and for DPD Air Express, it is 1._
@@ -54,7 +54,7 @@ The integration of DPD Ireland (IE) into the SAPIENT platform is a significant s
         Provide special instructions related to the delivery of the shipment. This may involve guidance on how the package should be handled or specific requests regarding the delivery location, such as leaving the shipment at the back door or delivering it to a neighbour to sign.
       </Card>
 
-      <Card title="Safe place location" icon="fa-solid fa-location-dot">
+      <Card title="Safe Place Location" icon="fa-solid fa-location-dot">
         Provide details of the safe place location for the shipment. This field is mandatory if the **DeliverToSafeplace** service enhancement is used.
       </Card>
     </Cards>
