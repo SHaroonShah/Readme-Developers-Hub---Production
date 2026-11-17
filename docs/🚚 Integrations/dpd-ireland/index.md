@@ -50,7 +50,7 @@ The integration of DPD Ireland (IE) into the SAPIENT platform is a significant s
         > _For Domestic and DPD Classic services, the maximum number of packages allowed is 10, and for DPD Air Express, it is 1._
       </Card>
 
-      <Card title="Delivery instructions" icon="fa-solid fa-clipboard-list">
+      <Card title="Delivery Instructions" icon="fa-solid fa-clipboard-list">
         Provide special instructions related to the delivery of the shipment. This may involve guidance on how the package should be handled or specific requests regarding the delivery location, such as leaving the shipment at the back door or delivering it to a neighbour to sign.
       </Card>
 
