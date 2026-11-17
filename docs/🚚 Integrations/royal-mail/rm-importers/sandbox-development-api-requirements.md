@@ -15,15 +15,15 @@ metadata:
 next:
   description: ''
 ---
-Intersoft API is a fully RESTful service implemented using JSON messaging. You, as the customer, are responsible for sending JSON messages and for maintaining the capability of receiving JSON messages in the format described in this section.
+The Intersoft API is a RESTful API that uses JSON messages. Your system must be able to send and receive JSON messages in the format described in this documentation.
 
 <Callout icon="🚧" theme="warn">
   ### _Important_
 
-  _Prior to going live on SAPIENT, provide a&#x20;_<Glossary>bearer token</Glossary>_. See&#x20;_[Authentication](https://docs.intersoftsapient.net/docs/authentication)_&#x20;for details._
+  _Before you use SAPIENT, you must authenticate your API requests using a&#x20;_<Glossary>bearer token</Glossary>_. See&#x20;_[_Authentication_](https://docs.intersoftsapient.net/docs/authentication)_&#x20;for more information._
 </Callout>
 
-As a minimum, have the following API calls developed:
+You must develop the following API calls:
 
 <Cards>
   <Card title="Create Shipment" href="https://docs.intersoftsapient.net/reference/post_v4-shipments-rm" icon="fa-solid fa-box" target="_blank">
@@ -31,11 +31,11 @@ As a minimum, have the following API calls developed:
   </Card>
 
   <Card title="Update Status to Cancel" href="https://docs.intersoftsapient.net/reference/put_v4-shipments-status" icon="fa-solid fa-ban" target="_blank">
-    Cancel/void a current shipping label. Can only be used before a <Glossary>shipment</Glossary> has been confirmed by being manifested.
+    Cancel a shipment before it has been manifested.
   </Card>
 
   <Card title="Manifest Shipments" href="https://docs.intersoftsapient.net/reference/post_v4-manifests-carriercode" icon="fa-solid fa-file-circle-check" target="_blank">
-    Closeout shipments to produce the collection <Glossary>manifest</Glossary> (Royal Mail Sales Order Summary) and trigger electronic <Glossary>pre-advice</Glossary> and billing data to be sent to the <Glossary>carrier</Glossary>.
+    Manifest your shipments to create the Royal Mail Sales Order Summary. This also sends the electronic pre-advice and billing data to Royal Mail.
   </Card>
 </Cards>
 
