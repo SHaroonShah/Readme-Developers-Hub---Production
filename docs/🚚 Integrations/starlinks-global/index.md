@@ -44,7 +44,7 @@ The integration of Starlinks Global into the SAPIENT platform is a significant s
 
   <Tab title="Additional Features">
     <Cards>
-      <Card title="Single-package Services" icon="fa-solid fa-box">
+      <Card title="Single-Piece Shipments" icon="fa-solid fa-box">
         Starlinks Global supports single-package services only. Consignment services are not supported.
       </Card>
     </Cards>
