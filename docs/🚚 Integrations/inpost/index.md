@@ -25,7 +25,7 @@ This integration offers several key features that streamline the shipping proces
   <Tab title="Key Features">
     <Cards columns="3">
       <Card title="Shipping Origins" icon="fa-map-marker-alt">
-        The integration supports shipping from locations in Great Britain (GB) mainland only (England, Wales, and Scotlabd).
+        The integration supports shipping from locations in Great Britain (GB) mainland only (England, Wales, and Scotland).
       </Card>
 
       <Card title="Shipping Destinations" icon="fa-solid fa-globe">
