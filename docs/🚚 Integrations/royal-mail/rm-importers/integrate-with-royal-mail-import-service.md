@@ -1,11 +1,8 @@
 ---
 title: Integrate with Royal Mail Import service
 excerpt: >-
-  The Royal Mail import service is a logistic solution provided by Royal Mail
-  that facilitates the importation of goods into the UK from overseas. It is
-  designed to simplify the process of receiving international parcels and
-  packages, ensuring that they are delivered efficiently and securely to the
-  customers.
+  The Royal Mail Import service allows you to send goods from overseas into the
+  UK for delivery by Royal Mail.
 deprecated: false
 hidden: false
 icon: fad fa-circle-exclamation-check
@@ -155,7 +152,7 @@ To integrate with the Royal Mail import services via SAPIENT, follow the steps l
 <Callout icon="💡" theme="default">
   ### _Tip_
 
-  _Please direct any questions or issues with this service to [onboarding@intersoft.co.uk](mailto:onboarding@intersoft.co.uk). For INTERSOFT to investigate your issue accordingly, kindly include copies of both the API request and API response._
+  _Please direct any questions or issues with this service to&#x20;_[onboarding@intersoft.co.uk](mailto:onboarding@intersoft.co.uk)_. For INTERSOFT to investigate your issue accordingly, kindly include copies of both the API request and API response._
 
   _While submitting your issues to Intersoft, please do not include your API credentials in the request._
 </Callout>
@@ -185,5 +182,5 @@ To integrate with the Royal Mail import services via SAPIENT, follow the steps l
 <Callout icon="📘" theme="info">
   ### _Note_
 
-  _To enable the&#x20;_**_Tracking Webhook_**_&#x20;solution, contact the [Intersoft Onboarding](mailto:onboarding@intersoft.co.uk) team._
+  _To enable the&#x20;_**_Tracking Webhook_**_&#x20;solution, contact the&#x20;_[Intersoft Onboarding](mailto:onboarding@intersoft.co.uk)_&#x20;team._
 </Callout>
