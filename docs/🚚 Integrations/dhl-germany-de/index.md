@@ -49,7 +49,7 @@ The integration of DHL Germany (DE) into the SAPIENT platform is a significant s
         DHL Germany supports only single-package services. Consignment services are not supported in this integration.
       </Card>
 
-      <Card title="Future-date shipments" icon="fa-solid fa-box-circle-check">
+      <Card title="Future-Date Shipments" icon="fa-solid fa-box-circle-check">
         DHL Germany allow shipments to be created up to one year in advance, so the SAPIENT maximum of 28 days will apply.
       </Card>
     </Cards>
