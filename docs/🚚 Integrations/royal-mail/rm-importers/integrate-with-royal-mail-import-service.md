@@ -9,7 +9,7 @@ icon: fad fa-circle-exclamation-check
 metadata:
   robots: index
 ---
-If you wish to use the Royal Mail import services, you can integrate with Intersoft SAPIENT and start your seamless importing journey.
+You can integrate with Intersoft SAPIENT to use the Royal Mail Import service.
 
 <Callout icon="🚧" theme="warn">
   ### _Important_
