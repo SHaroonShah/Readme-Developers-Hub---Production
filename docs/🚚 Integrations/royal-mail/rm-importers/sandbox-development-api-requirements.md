@@ -1,10 +1,8 @@
 ---
-title: API development requirements for Sandbox
+title: Sandbox API development requirements
 excerpt: >-
-  The development of some basic API calls is a process of creating and testing
-  essential API functions that are fundamental to the operation of a software
-  application. These initial API calls are typically recommended to handle core
-  functionalities that the software can rely on once it is fully operational.
+  Before you start testing in Sandbox, you must develop the required API calls
+  listed below.
 deprecated: false
 hidden: false
 icon: fad fa-circle-exclamation-check
