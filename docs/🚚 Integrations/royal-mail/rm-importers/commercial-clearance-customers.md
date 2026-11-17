@@ -1,9 +1,8 @@
 ---
 title: Import requirements for Commercial Clearance customers
 excerpt: >-
-  Commercial cClearance customers are businesses or organisations that require
-  specialised services to facilitate the import of goods, particularly focusing
-  on the customs clearance process.
+  Commercial Clearance is for customers importing goods into the UK who use
+  their own customs broker or logistics provider to manage customs clearance.
 deprecated: false
 hidden: false
 icon: fad fa-file-lines
@@ -14,8 +13,6 @@ metadata:
 next:
   description: ''
 ---
-The Commercial Clearance customers typically engage with customs brokers and logistics providers to ensure their shipments comply with regulatory requirements and are processed efficiently at borders.
-
 Customers must prepare the required customs data and documents according to their customs broker's requirements.<br />Royal Mail does not require this customs information. Shipments are created in SAPIENT using domestic shipment requirements and domestic labels. However, Commercial Clearance shipments use different Royal Mail service codes.
 
 Review the requirements in the table below.
