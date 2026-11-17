@@ -48,7 +48,7 @@ This integration offers several key features that streamline the shipping proces
 
   <Tab title="Additional Features">
     <Cards>
-      <Card title="Single Piece Shipments" icon="fad fa-box">
+      <Card title="Single-Piece Shipments" icon="fad fa-box">
         InPost supports only single-package services. Consignment services are not supported in this integration.
       </Card>
 
