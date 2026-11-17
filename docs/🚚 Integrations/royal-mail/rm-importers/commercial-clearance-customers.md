@@ -16,7 +16,7 @@ next:
 ---
 The Commercial Clearance customers typically engage with customs brokers and logistics providers to ensure their shipments comply with regulatory requirements and are processed efficiently at borders.
 
-Customers prepare commercial customs data/paperwork to their independent customs brokers specification. This has no implication on Royal Mail. Items are prepared by the shipping customer as if they were domestic using domestic labels and providing domestic specification data. The key difference to domestic is that Royal Mail have different service codes to domestic customers.
+Customers must prepare the required customs data and documents according to their customs broker's requirements.<br />Royal Mail does not require this customs information. Shipments are created in SAPIENT using domestic shipment requirements and domestic labels. However, Commercial Clearance shipments use different Royal Mail service codes.
 
 Review the requirements in the table below.
 
