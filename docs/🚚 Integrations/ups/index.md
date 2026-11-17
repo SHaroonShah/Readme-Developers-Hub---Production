@@ -57,8 +57,8 @@ The UPS carrier integration within the SAPIENT system enables seamless communica
 
   <Tab title="Additional Features">
     <Cards>
-      <Card title="Multi-piece Shipments" icon="fa-solid fa-boxes-stacked">
-        UPS supports a maximum of 99999 pieces per single shipment request.
+      <Card title="Consignment Services" icon="fa-solid fa-boxes-stacked">
+        Consignment services are supported, and UPS allows a maximum of 99999 pieces per single shipment request.
       </Card>
 
       <Card title="Label Integration" icon="fa-solid fa-tag">
