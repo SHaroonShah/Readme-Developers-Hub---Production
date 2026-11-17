@@ -45,7 +45,7 @@ The integration of DHL Germany (DE) into the SAPIENT platform is a significant s
 
   <Tab title="Additional Features">
     <Cards>
-      <Card title="Single piece shipments" icon="fa-solid fa-box">
+      <Card title="Single-Piece Shipments" icon="fa-solid fa-box">
         DHL Germany supports only single-package services. Consignment services are not supported in this integration.
       </Card>
 
