@@ -46,7 +46,7 @@ To efficiently handle the imports, make sure to fill in the necessary details as
       </td>
 
       <td>
-        UK based address.
+        Must be a UK address.
       </td>
     </tr>
 
@@ -56,7 +56,7 @@ To efficiently handle the imports, make sure to fill in the necessary details as
       </td>
 
       <td>
-        UK based address.
+        Must be a UK address.
       </td>
     </tr>
 
