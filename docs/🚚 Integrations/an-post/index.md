@@ -61,7 +61,7 @@ The integration of An Post, Ireland's national postal service, into the SAPIENT 
 
   <Tab title="Additional Features">
     <Cards>
-      <Card title="Single Piece Shipments" icon="fa-solid fa-box">
+      <Card title="Single-Piece Shipments" icon="fa-solid fa-box">
         An Post only supports single package services. Consignment services are not supported
       </Card>
     </Cards>
