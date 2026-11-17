@@ -1,11 +1,8 @@
 ---
 title: Royal Mail import service
 excerpt: >-
-  The Royal Mail import service is a logistic solution provided by Royal Mail
-  that facilitates the importation of goods into the UK from overseas. It is
-  designed to simplify the process of receiving international parcels and
-  packages, ensuring that they are delivered efficiently and securely to the
-  customers.
+  The Royal Mail Import service allows you to send goods from overseas into the
+  UK for delivery by Royal Mail.
 deprecated: false
 hidden: false
 icon: fad fa-file-import
