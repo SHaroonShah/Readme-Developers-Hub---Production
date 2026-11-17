@@ -7,6 +7,10 @@ icon: fad fa-notes
 metadata:
   robots: index
 ---
+<Accordion title="SAPIENT release notes - November 03, 2026" icon="fa-info-circle">
+
+</Accordion>
+
 <Accordion title="SAPIENT release notes - October 13, 2026">
   # New integration - Spring GDS
 
