@@ -21,7 +21,7 @@ Follow the steps below to integrate the Royal Mail Import service with SAPIENT:
 
 <ToggleList>
   <ToggleListItem title="1. Activate your SAPIENT account" icon="fa-solid fa-user-check">
-    Activate your account on SAPIENT as directed in the account confirmation email sent to you from [onboarding@intersoftsapient.net](mailto:noreply@intelligentshipper.net).
+    Follow the instructions in your account confirmation email to activate your SAPIENT account. The email will be sent from onboarding@intersoftsapient.net.
 
     ***
   </ToggleListItem>
