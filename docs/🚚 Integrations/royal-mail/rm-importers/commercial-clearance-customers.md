@@ -18,7 +18,7 @@ The Commercial Clearance customers typically engage with customs brokers and log
 
 Customers prepare commercial customs data/paperwork to their independent customs brokers specification. This has no implication on Royal Mail. Items are prepared by the shipping customer as if they were domestic using domestic labels and providing domestic specification data. The key difference to domestic is that Royal Mail have different service codes to domestic customers.
 
-To efficiently handle the imports, make sure to fill in the necessary details as explained in the following table.
+Review the requirements in the table below.
 
 <Callout icon="💡" theme="default">
   ### _Tip_
