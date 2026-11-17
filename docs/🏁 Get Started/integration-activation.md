@@ -89,7 +89,7 @@ This section explains the components available on the **Integrations** page of t
     <ToggleListItem title={<strong>Top Features</strong>}>
       This block entails the key functionalities that enhance the user experience and operational efficiency:
 
-      * Real-time tracking capabilities
+      * Real capabil-time trackingities
       * Automated label generation
       * Home collection services
       * Advanced shipping options
