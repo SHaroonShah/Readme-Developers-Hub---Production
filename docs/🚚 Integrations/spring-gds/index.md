@@ -49,7 +49,7 @@ The integration of Spring GDS into the SAPIENT platform is a significant step in
 
   <Tab title="Additional Features">
     <Cards>
-      <Card title="Single-package Services" icon="fa-solid fa-box">
+      <Card title="Single-Piece Shipments" icon="fa-solid fa-box">
         Spring GDS supports single-package services only. Consignment services are not supported.
       </Card>
 
