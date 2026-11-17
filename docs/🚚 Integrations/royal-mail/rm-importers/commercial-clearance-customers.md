@@ -98,8 +98,8 @@ To efficiently handle the imports, make sure to fill in the necessary details as
       </td>
 
       <td>
-        * Domestic shipments requirements as per our [API specs](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm)
-        * Destination Contact Email
+        * Follow the domestic shipment requirements in the [Create Shipment API specification](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm)
+        * Provide the Destination Contact Email
       </td>
     </tr>
   </tbody>
