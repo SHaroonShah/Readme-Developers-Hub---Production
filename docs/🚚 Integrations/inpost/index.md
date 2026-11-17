@@ -29,7 +29,7 @@ This integration offers several key features that streamline the shipping proces
       </Card>
 
       <Card title="Shipping Destinations" icon="fa-solid fa-globe">
-        Users can send shipments to Great Britain (GB) mainland only.
+        Users can send shipments to Great Britain (GB) mainland only (England, Wales, and Scotland).
       </Card>
 
       <Card title="Service Type" icon="fa-solid fa-shipping-fast">
@@ -48,6 +48,10 @@ This integration offers several key features that streamline the shipping proces
 
   <Tab title="Additional Features">
     <Cards>
+      <Card title="Single Piece Shipments" icon="fad fa-box">
+        InPost supports only single-package services. Consignment services are not supported in this integration.
+      </Card>
+
       <Card title="Labelled B2C" icon="fa-solid fa-tag">
         Generates and returns a label to be attached to the parcel for a B2C business transaction type deliveries.
       </Card>
