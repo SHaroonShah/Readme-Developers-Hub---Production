@@ -16,7 +16,7 @@ metadata:
 next:
   description: ''
 ---
-If you wish to use the Royal Mail import services, you can integrate with Intersoft SAPIENT and start your seamless importing journey.
+You can use Intersoft SAPIENT to integrate with the Royal Mail Import service and create your shipments.
 
 <Callout icon="🚧" theme="warn">
   ### _Important_
