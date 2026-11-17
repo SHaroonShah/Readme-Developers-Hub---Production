@@ -144,8 +144,6 @@ metadata:
   - The **Items** object description in the **Create Shipment** request has been updated to to correctly indicate the Hurricane validation on the maximum number of items per shipment request, improving clarity and help ensure correct API implementation and usage.
 </Accordion>
 
-<br />
-
 <Accordion title="SAPIENT release notes - October 13, 2026">
   # New integration - Spring GDS
 
