@@ -42,11 +42,11 @@ You must develop the following API calls:
 <Callout icon="🚧" theme="warn">
   ### _Important_
 
-  _Manifest your shipments before they enter the Royal Mail network. Not doing so may result in delays, missing tracking, lack of notifications for your end consumers, surcharges, and other issues._
+  _You must manifest your shipments before they enter the Royal Mail network. If you do not manifest your shipments, this may cause delivery delays, missing tracking information, missing customer notifications, surcharges, or other issues._
 </Callout>
 
 <Accordion title="International Arrivals Containers (A-Scan) — Freight 2 Post customers only">
-  These API calls are **mandatory for Freight 2 Post customers**. Freight 2 Post customers must manifest their shipments by container.
+  The following API calls are mandatory for Freight 2 Post customers. You must manifest your Freight 2 Post shipments by container.
 
   <Cards>
     <Card title="Add Container" href="https://docs.intersoftsapient.net/reference/post_v4-internationalarrivalscontainers-rm" icon="fa-solid fa-plus" target="_blank">
