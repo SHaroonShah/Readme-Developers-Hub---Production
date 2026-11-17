@@ -88,7 +88,7 @@ To efficiently handle the imports, make sure to fill in the necessary details as
       <td>
         Physical label sign-off is required. You must create and manifest the required test labels, print them, and send the physical labels to Royal Mail for approval.
 
-        `Note:`_Details on this label are shared once the&#x20;_[Sandbox Test Pack](https://docs.intersoftsapient.net/docs/royal-mail-importers-sandbox-test-pack)_&#x20; is approved._
+        `Note:`_Instructions for the physical label sign-off will be provided after your&#x20;_[_Sandbox Test Pack_](https://docs.intersoftsapient.net/docs/royal-mail-importers-sandbox-test-pack)_&#x20;has been approved._
       </td>
     </tr>
 
