@@ -7,7 +7,7 @@ icon: fad fa-notes
 metadata:
   robots: index
 ---
-<Accordion title="SAPIENT release notes - November 03, 2026" icon="fa-info-circle">
+<Accordion title="SAPIENT release notes - November 03, 2026" icon="">
 
 </Accordion>
 
