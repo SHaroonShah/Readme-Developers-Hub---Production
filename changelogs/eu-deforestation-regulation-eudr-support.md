@@ -30,23 +30,23 @@ To comply with this regulation, the following new fields have been added to the 
         </tr>
 
         <tr>
-          <td>Update Product</td>
+          <td colspan="2">Update Product</td>
         </tr>
 
         <tr>
-          <td>Get Product</td>
+          <td colspan="2">Get Product</td>
         </tr>
 
         <tr>
-          <td>Get Products</td>
+          <td colspan="2">Get Products</td>
         </tr>
 
         <tr>
-          <td>Town</td>
+          <td style="text-align: center;" colspan="2">SAPIENT UI</td>
         </tr>
 
         <tr>
-          <td>CountryCode</td>
+          <td colspan="2">CountryCode</td>
         </tr>
       </table>
 `}</HTMLBlock>
