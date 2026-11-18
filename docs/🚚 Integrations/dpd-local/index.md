@@ -55,8 +55,6 @@ Will be added soon.
 
 ## API Services
 
-The following API services are provided by the DPD Local integration:
-
 ### Core Services
 
 <Callout icon="🚧" theme="warn">
@@ -65,7 +63,7 @@ The following API services are provided by the DPD Local integration:
   _Please bear in mind that DPD Local have separate specifications for domestic and international shipping along with some other specification for certain types of shipments, such as shipments to Northern Ireland (NI)._
 </Callout>
 
-* **Create Shipment**: The integration for creating shipments to reflect Amazon as a primary carrier and allowing users to create individual shipments requests using the Create Shipment endpoint. This in-house integration feature simplifies the process of generating and managing shipping labels in the PDF format by the SAPIENT system. DPD Local use routing data to determine if the destination post code and shipment data (such as weight and maximum number of packages) are valid for the service. If the data is valid, then the routing data is printed on the generated label.
+* **Create Shipment**: The integration for creating shipments to reflect DPD Local as a primary carrier and allowing users to create individual shipments requests using the Create Shipment endpoint. This in-house integration feature simplifies the process of generating and managing shipping labels in the PDF format by the SAPIENT system. DPD Local use routing data to determine if the destination post code and shipment data (such as weight and maximum number of packages) are valid for the service. If the data is valid, then the routing data is printed on the generated label.
 
 <Callout icon="📘" theme="info">
   ### _Note_
@@ -87,6 +85,12 @@ The following API services are provided by the DPD Local integration:
 * **Tracking integration (via SFTP)**: This integration allows customers to monitor their shipments in real-time, providing transparency and peace of mind. Users can access detailed tracking information, including, real-time updates, tracking numbers, and delivery notifications. For DPD Local shipments, the data files are sent via SFTP.
 
 ***
+
+## Getting Started
+
+will be added soon
+
+## Ready to integrate?
 
 <Callout icon="📘" theme="info">
   ### _Note_
