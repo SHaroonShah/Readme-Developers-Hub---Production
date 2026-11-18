@@ -73,11 +73,18 @@ The following API services are provided by the DPD Local integration:
   _The system only imports the data for services that are in scope and does not add any additional services into the integration. It only updates the routing data for the existing service codes._
 </Callout>
 
-* **Manifest integration (via SFTP)**: Generates an electronic manifest data file in the SAPIENT's default <Glossary>PDF</Glossary> format and send it to DPD LOCAL via SFTP.
+* **Manifest Shipment (via SFTP)**: Generates an electronic manifest data file in the SAPIENT's default <Glossary>PDF</Glossary> format and send it to DPD LOCAL via SFTP.
+* **Get PUDO Locations**: Enable customers to users to access essential shipping options for both sending and returning packages seamlessly via the [Get PUDO Locations endpoint](https://docs.intersoftsapient.net/reference/get_v4-pudolocations-carriercode-countrycode-postcode).
 
 ### Other Services
 
-* **Tracking integration (via SFTP)**: Enables data files to be sent via SFTP.
+* Print Label: [Generate and return the label](https://docs.intersoftsapient.net/reference/get_v4-shipments-printlabel-inpost-shipmentid) for an InPost shipment in the PDF format. This endpoint must be utilised when the label is not generated in the InPost Create Shipment request.
+  <Callout icon="📘" theme="info">
+    ### _Note_
+
+    _This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting._
+  </Callout>
+* **Tracking integration (via SFTP)**: This integration allows customers to monitor their shipments in real-time, providing transparency and peace of mind. Users can access detailed tracking information, including, real-time updates, tracking numbers, and delivery notifications. For DPD Local shipments, the data files are sent via SFTP.
 
 ***
 
@@ -87,6 +94,4 @@ The following API services are provided by the DPD Local integration:
   _For more information on how to activate the DPD Local integration, refer to the&#x20;_[Activate integration](https://docs.intersoftsapient.net/docs/integration-activation#/)_&#x20;section._
 </Callout>
 
-<Glossary>pre-advice</Glossary>
 
-<br />
