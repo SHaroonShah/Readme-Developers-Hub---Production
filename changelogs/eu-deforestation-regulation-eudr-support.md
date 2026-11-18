@@ -22,7 +22,6 @@ To comply with this regulation, the following new fields have been added to the 
 
         <tr>
           <td colspan="2"><strong>Shipper > Address</strong></td>
-          <td>ContactName</td>
         </tr>
 
         <tr>
