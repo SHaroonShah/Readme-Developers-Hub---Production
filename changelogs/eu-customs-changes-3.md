@@ -1,7 +1,7 @@
 ---
 title: EU customs changes
 author: Syed Haroon Shah
-hidden: true
+hidden: false
 published_at: '2026-10-27T11:50:42.290Z'
 type: improved
 ---
