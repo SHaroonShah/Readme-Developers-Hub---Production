@@ -17,7 +17,7 @@ To comply with this regulation, the following new fields have been added to the 
 
   _In the&#x20;_**_Create Shipment_**_&#x20;endpoint, these fields are captured at the&#x20;_**_Items_**_&#x20;level. For more information, refer to the carrier's Create Shipment endpoint in the &#x20;_[_API References_](https://docs.intersoftsapient.net/reference/introduction)_&#x20;section._
 
-  _For Royal Mail shipments, these fields are also captured on the&#x20;_<Glossary>commercial invoice</Glossary>_&#x20;document._
+  _These fields are also captured on the carrier's&#x20;_<Glossary>commercial invoice</Glossary>_&#x20;document._
 </Callout>
 
 ***
