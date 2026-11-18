@@ -19,9 +19,8 @@ To comply with this regulation, the following new fields have been added to the 
           <th>API object</th>
           <th>Mandatory fields</th>
         </tr>
-
         <tr>
-          <td colspan="2"><strong>API Endpoints</strong></td>
+          <td style="text-align: center;" colspan="2"><strong>API Endpoints</strong></td>
         </tr>
 
         <tr>
