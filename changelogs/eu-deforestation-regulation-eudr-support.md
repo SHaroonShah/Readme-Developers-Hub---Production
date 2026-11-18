@@ -42,7 +42,7 @@ To comply with this regulation, the following new fields have been added to the 
         </tr>
 
         <tr>
-          <td style="text-align: center;" colspan="2">SAPIENT UI</td>
+          <td style="text-align: center;" colspan="2"><strong>SAPIENT UI</strong></td>
         </tr>
 
         <tr>
