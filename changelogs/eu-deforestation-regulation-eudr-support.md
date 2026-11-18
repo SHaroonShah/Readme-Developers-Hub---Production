@@ -32,17 +32,17 @@ To comply with this regulation, the following new fields have been added to the 
         </tr>
 
         <tr>
-          <td colspan="2">Update Product</td>
+          <td>Update Product</td>
 <td>Request Body Params</td>
         </tr>
 
         <tr>
-          <td colspan="2">Get Product</td>
+          <td>Get Product</td>
 <td>Response Body Params</td>
         </tr>
 
         <tr>
-          <td colspan="2">Get Products</td>
+          <td>Get Products</td>
 <td>Response Body Params</td>
         </tr>
 
