@@ -1,7 +1,7 @@
 ---
 title: Royal Mail LQDG product weight enhancements
 author: Syed Haroon Shah
-hidden: false
+hidden: true
 published_at: '2026-10-27T11:25:56.586Z'
 type: improved
 ---
