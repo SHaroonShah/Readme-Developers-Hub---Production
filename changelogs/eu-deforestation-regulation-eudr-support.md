@@ -25,6 +25,6 @@ To comply with this regulation, the following new fields have been added to the 
 
 <Cards columns="2">
   <Card title="Product" href="https://docs.intersoftsapient.net/docs/product" icon="fad fa-box-open-full" target="_blank">
-    Add, edit, and delete products via SAPIENT UI and manage their shipping requirements.
+    Add, edit, and delete products via SAPIENT UI and manage their EUDR shipping requirements.
   </Card>
 </Cards>
