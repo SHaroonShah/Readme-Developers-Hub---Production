@@ -1,7 +1,7 @@
 ---
 title: Royal Mail Pin on Delivery service updates
 author: Syed Haroon Shah
-hidden: true
+hidden: false
 metadata:
   robots: noindex
 published_at: '2026-10-26T11:58:40.521Z'
