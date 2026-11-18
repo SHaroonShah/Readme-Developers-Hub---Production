@@ -21,32 +21,27 @@ To comply with this regulation, the following new fields have been added to the 
         </tr>
 
         <tr>
-          <td colspan="2"><strong>Shipper > Address</strong></td>
+          <td colspan="2"><strong>API Endpoints</strong></td>
         </tr>
 
         <tr>
-          <td>Line 1</td>
+          <td>Create Shipment</td>
         </tr>
 
         <tr>
-          <td>Town</td>
+          <td>Add Product</td>
         </tr>
 
         <tr>
-          <td>Postcode</td>
+          <td>Update Product</td>
         </tr>
 
         <tr>
-          <td>CountryCode</td>
+          <td>Get Product</td>
         </tr>
 
         <tr>
-          <td rowspan="4"><strong>Destination > Address</strong></td>
-          <td>ContactName</td>
-        </tr>
-
-        <tr>
-          <td>Line 1</td>
+          <td>Get Products</td>
         </tr>
 
         <tr>
