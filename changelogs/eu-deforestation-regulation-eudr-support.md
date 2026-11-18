@@ -22,11 +22,11 @@ To comply with this regulation, the following new fields have been added to the 
         </tr>
 
         <tr>
-          <td>Create Shipment</td>
+          <td colspan="2">Create Shipment</td>
         </tr>
 
         <tr>
-          <td>Add Product</td>
+          <td colspan="2">Add Product</td>
         </tr>
 
         <tr>
@@ -49,8 +49,7 @@ To comply with this regulation, the following new fields have been added to the 
           <td>CountryCode</td>
         </tr>
       </table>
-    `}</HTMLBlock>
-
+`}</HTMLBlock>
 
 <Callout icon="far fa-circle-info" theme="info">
   ### **_Note_**
