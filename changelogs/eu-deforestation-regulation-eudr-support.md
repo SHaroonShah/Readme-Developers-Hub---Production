@@ -3,6 +3,7 @@ title: EU Deforestation Regulation (EUDR) support
 author: Syed Haroon Shah
 hidden: true
 published_at: '2026-11-17T14:05:12.946Z'
+type: added
 ---
 The EU Deforestation Regulation has introduced diligence requirements for products or items associated with deforestation, including wood, coffee, cocoa, rubber, palm oil, soy, and cattle-derived products. Businesses importing, exporting, or placing these goods on the EU market must submit an EUDR Due Diligence Statement (DDS) and provide the associated reference information.
 
