@@ -1,7 +1,7 @@
 ---
 title: EU Deforestation Regulation (EUDR) support
 author: Syed Haroon Shah
-hidden: false
+hidden: true
 published_at: '2026-11-17T14:05:12.946Z'
 type: added
 ---
