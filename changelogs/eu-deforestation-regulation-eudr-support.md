@@ -11,54 +11,6 @@ To comply with this regulation, the following new fields have been added to the 
 - **EUDRReferenceType**: Specifies the type of EUDR reference associated with the product, such as Due Diligence Statement (DDS) Reference Number, Conventional DDS Reference Number,  Simplified Declaration Identifier (SDI), TARIC document code, exemption code, or any carrier-specific codes that identifies the applicable customs declaration case.
 - **EUDRReferenceValue**: Specifies the EUDR reference value applicable to the product and associated with the selected **EUDRReferenceType**.
 
-<HTMLBlock>{`
-    <table>
-        <tr>
-          <th>API object</th>
-          <th>Location</th>
-        </tr>
-        <tr>
-          <td style="text-align: center;" colspan="2"><strong>API Endpoints</strong></td>
-        </tr>
-
-        <tr>
-          <td>Create Shipment</td>
-        <td>Items object</td>
-        </tr>
-
-        <tr>
-          <td>Add Product</td>
-<td>Request Body Params</td>
-        </tr>
-
-        <tr>
-          <td>Update Product</td>
-<td>Request Body Params</td>
-        </tr>
-
-        <tr>
-          <td>Get Product</td>
-<td>Response Body Params</td>
-        </tr>
-
-        <tr>
-          <td>Get Products</td>
-<td>Response Body Params</td>
-        </tr>
-
-        <tr>
-          <td style="text-align: center;" colspan="2"><strong>SAPIENT UI</strong></td>
-        </tr>
-
-        <tr>
-          <td colspan="2">Add Product UI</td>
-        </tr>
- <tr>
-          <td colspan="2">Edit Product UI</td>
-        </tr>
-      </table>
-`}</HTMLBlock>
-
 <Callout icon="far fa-circle-info" theme="info">
   ### **_Note_**
 
@@ -66,3 +18,10 @@ To comply with this regulation, the following new fields have been added to the 
 
   _For Royal Mail shipments, these fields are also captured on the&#x20;_<Glossary>commercial invoice</Glossary>_&#x20;document._
 </Callout>
+
+***
+
+### See also
+
+- Add Product
+- Edit Product
