@@ -10,6 +10,56 @@ To comply with this regulation, the following new fields have been added to the 
 
 - **EUDRReferenceType**: Specifies the type of EUDR reference associated with the product, such as Due Diligence Statement (DDS) Reference Number, Conventional DDS Reference Number,  Simplified Declaration Identifier (SDI), TARIC document code, exemption code, or any carrier-specific codes that identifies the applicable customs declaration case.
 - **EUDRReferenceValue**: Specifies the EUDR reference value applicable to the product and associated with the selected **EUDRReferenceType**.
+- <Accordion title="Ruleset A" icon="fa-solid fa-shield-check">
+    **Scenario example**: Domestic <Glossary>DOX</Glossary>, <Glossary>NDX</Glossary>, and international DOX shipments.
+
+    <HTMLBlock>{`
+    <table>
+        <tr>
+          <th>API object</th>
+          <th>Mandatory fields</th>
+        </tr>
+
+        <tr>
+          <td colspan="2"><strong>Shipper > Address</strong></td>
+          <td>ContactName</td>
+        </tr>
+
+        <tr>
+          <td>Line 1</td>
+        </tr>
+
+        <tr>
+          <td>Town</td>
+        </tr>
+
+        <tr>
+          <td>Postcode</td>
+        </tr>
+
+        <tr>
+          <td>CountryCode</td>
+        </tr>
+
+        <tr>
+          <td rowspan="4"><strong>Destination > Address</strong></td>
+          <td>ContactName</td>
+        </tr>
+
+        <tr>
+          <td>Line 1</td>
+        </tr>
+
+        <tr>
+          <td>Town</td>
+        </tr>
+
+        <tr>
+          <td>CountryCode</td>
+        </tr>
+      </table>
+    `}</HTMLBlock>
+  </Accordion>
 
 | Object                   | Location |   |
 | ------------------------ | -------- | - |
