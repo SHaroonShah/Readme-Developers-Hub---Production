@@ -22,23 +22,28 @@ To comply with this regulation, the following new fields have been added to the 
         </tr>
 
         <tr>
-          <td colspan="2">Create Shipment</td>
+          <td>Create Shipment</td>
+        <td>Items object</td>
         </tr>
 
         <tr>
           <td colspan="2">Add Product</td>
+<td>Request Body Params</td>
         </tr>
 
         <tr>
           <td colspan="2">Update Product</td>
+<td>Request Body Params</td>
         </tr>
 
         <tr>
           <td colspan="2">Get Product</td>
+<td>Response Body Params</td>
         </tr>
 
         <tr>
           <td colspan="2">Get Products</td>
+<td>Response Body Params</td>
         </tr>
 
         <tr>
@@ -46,7 +51,10 @@ To comply with this regulation, the following new fields have been added to the 
         </tr>
 
         <tr>
-          <td colspan="2">CountryCode</td>
+          <td colspan="2">Add Product UI</td>
+        </tr>
+ <tr>
+          <td colspan="2">Edit Product UI</td>
         </tr>
       </table>
 `}</HTMLBlock>
