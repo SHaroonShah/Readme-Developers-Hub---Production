@@ -27,7 +27,7 @@ To comply with this regulation, the following new fields have been added to the 
         </tr>
 
         <tr>
-          <td colspan="2">Add Product</td>
+          <td>Add Product</td>
 <td>Request Body Params</td>
         </tr>
 
