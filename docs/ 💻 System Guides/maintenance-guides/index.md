@@ -52,7 +52,7 @@ Use these guides to manage your account and configure your shipping operations:
     Generate API credentials for automated integrations and workflows.
   </Card>
 
-  <Card title="Product" href="https://docs.intersoftsapient.net/docs/product" icon="fad fa-box" target="_blank">
+  <Card title="Product" href="https://docs.intersoftsapient.net/docs/product" icon="fad fa-box-open-full" target="_blank">
     Add, edit and delete products and manage their shipping requirements.
   </Card>
 
