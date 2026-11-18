@@ -10,14 +10,12 @@ To comply with this regulation, the following new fields have been added to the 
 
 - **EUDRReferenceType**: Specifies the type of EUDR reference associated with the product, such as Due Diligence Statement (DDS) Reference Number, Conventional DDS Reference Number,  Simplified Declaration Identifier (SDI), TARIC document code, exemption code, or any carrier-specific codes that identifies the applicable customs declaration case.
 - **EUDRReferenceValue**: Specifies the EUDR reference value applicable to the product and associated with the selected **EUDRReferenceType**.
-- <Accordion title="Ruleset A" icon="fa-solid fa-shield-check">
-    **Scenario example**: Domestic <Glossary>DOX</Glossary>, <Glossary>NDX</Glossary>, and international DOX shipments.
 
-    <HTMLBlock>{`
+<HTMLBlock>{`
     <table>
         <tr>
           <th>API object</th>
-          <th>Mandatory fields</th>
+          <th>Location</th>
         </tr>
         <tr>
           <td style="text-align: center;" colspan="2"><strong>API Endpoints</strong></td>
@@ -52,16 +50,7 @@ To comply with this regulation, the following new fields have been added to the 
         </tr>
       </table>
     `}</HTMLBlock>
-  </Accordion>
 
-| Object                   | Location |   |
-| ------------------------ | -------- | - |
-| Create Shipment endpoint |          |   |
-| Add Product endpoint     |          |   |
-| Update Product endpoint  |          |   |
-| Get Product endpoint     |          |   |
-| Get Products endpoint    |          |   |
-|                          |          |   |
 
 <Callout icon="far fa-circle-info" theme="info">
   ### **_Note_**
