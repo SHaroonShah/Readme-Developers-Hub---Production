@@ -33,7 +33,7 @@ next:
 
 ## Essential setup guides
 
-In this section, learn how to mange your account with these essential operations:
+Use these guides to manage your account and configure your shipping operations:
 
 <Cards>
   <Card title="Add Shipping Account" href="https://docs.intersoftsapient.net/docs/add-a-shipping-account" icon="fa-solid fa-plus" target="_blank">
@@ -50,5 +50,21 @@ In this section, learn how to mange your account with these essential operations
 
   <Card title="Create API Credentials" href="https://docs.intersoftsapient.net/docs/create-api-credentials" icon="fa-solid fa-key" target="_blank">
     Generate API credentials for automated integrations and workflows.
+  </Card>
+
+  <Card title="Product" href="https://docs.intersoftsapient.net/docs/product" icon="far fa-box" target="_blank">
+    Add, edit and delete products and manage their shipping requirements.
+  </Card>
+
+  <Card title="Address book" href="https://docs.intersoftsapient.net/docs/address-book-1" icon="far fa-address-book" target="_blank">
+    Add, edit and delete saved shipping addresses.
+  </Card>
+
+  <Card title="Customs settings" href="https://docs.intersoftsapient.net/docs/custom-settings" icon="far fa-file-invoice" target="_blank">
+    Configure customs registration numbers, signatures and logos for shipping documents.
+  </Card>
+
+  <Card title="Integrations" href="https://docs.intersoftsapient.net/docs/integrations" icon="far fa-plug" target="_blank">
+    Learn how to access and activate carrier integrations.
   </Card>
 </Cards>
