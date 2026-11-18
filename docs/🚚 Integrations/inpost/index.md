@@ -101,7 +101,7 @@ This integration offers several key features that streamline the shipping proces
       The integration for creating shipments to reflect InPost as a primary carrier and allowing users to create shipments using the <Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/post_v4-shipments-inpost">Create Shipment</Anchor> endpoint.
     </Accordion>
 
-    <Accordion title="Manifest shipment">
+    <Accordion title="Manifest Shipment">
       Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/v4.04/docs/manifest-webhook), which provides updates on manifest requests, allowing you to track the progress and status of shipments prepared for carrier collection and delivery.
 
       <Callout icon="📘" theme="info">
@@ -111,7 +111,7 @@ This integration offers several key features that streamline the shipping proces
       </Callout>
     </Accordion>
 
-    <Accordion title="Get PUDO locations">
+    <Accordion title="Get PUDO Locations">
       Enable customers to users to access essential shipping options for both sending and returning packages seamlessly via the [Get PUDO Locations endpoint](https://docs.intersoftsapient.net/reference/get_v4-pudolocations-carriercode-countrycode-postcode).
     </Accordion>
   </Tab>
