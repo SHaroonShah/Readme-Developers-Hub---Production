@@ -1,7 +1,7 @@
 ---
 title: New integration - InPost
 author: Syed Haroon Shah
-hidden: true
+hidden: false
 metadata:
   robots: noindex
 published_at: '2026-10-26T11:49:55.705Z'
