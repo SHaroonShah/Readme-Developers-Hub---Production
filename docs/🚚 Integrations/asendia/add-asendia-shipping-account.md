@@ -92,40 +92,21 @@ In SAPIENT, you can create an Asendia shipping account by selecting your desired
             <tr>
               <td><strong>Carrier Account Number</strong>&#42;</td>
               <td>
-                Enter a ten digit account number. This must be a ten digit number. If your account number is shorter than this, then you need to add the required amount of zero's at the beginning of the number to ensure it is ten digits long.
-                <br />
-                The format of the account number must be compliant with the carrier you have selected. If your account number does not meet the requirements, you may need to add the required amount of zero's at the beginning of the number to ensure it is ten digit long.
+                Enter a ten digit account number.
               </td>
             </tr>
-            <tr>
-              <td><strong>Account Type</strong>&#42;</td>
-              <td>
-                <p>From the dropdown menu, select one of the following account types that you want to set up for the the shipping account you are adding:</p>
-                <ul>
-                  <li><strong>Production</strong>: a live environment where the final version of the application is deployed and made available to the users.</li>
-                  <li><strong>Sandbox</strong>: a testing environment that mimics the <strong>Production</strong> environment but is isolated from it. The sandbox environment is primarily used for development and testing purposes.</li>
-                </ul>
-                <em><code>Note</code>: For testing purposes, you can set up a <strong>Sandbox</strong> account for Royal Mail by using a dummy account number and PLN as this data is not validated and allows you to test the integration. If you choose to switch the account to <strong>Production</strong>, then the account details are sent to the Online Business Account (OBA) team and validated. Based on this validation, the shipping account is either approved or rejected.</em>
-              </td>
-            </tr>
-            <tr>
+     <tr>
               <td><strong>Account Name (if different than customer)</strong>&#42;</td>
               <td>Enter the name of the account you are adding.</td>
             </tr>
             <tr>
-              <td><strong>Registered Email Address</strong>&#42;</td>
+              <td><strong>Account Type</strong>&#42;</td>
               <td>
-                Enter the email address that was used to register the Royal Mail online business account (OBA).
-                <br />
-                For more information on OBA, refer to the <a href="https://docs.intersoftsapient.net/docs/oba-email-validation">Set up Royal Mail OBA account</a> section.
-              </td>
-            </tr>
-            <tr>
-              <td><strong>Registered Billing Postcode</strong></td>
-              <td>
-                Enter the postcode registered with Royal Mail for receiving invoices.
-                <br />
-                <em><code>Note</code>: If you are unsure of the postcode, use the one shown on your invoice.</em>
+                From the dropdown menu, select one of the following account types that you want to set up for the the shipping account you are adding:
+
+                • **[Production](https://docs.intersoftsapient.net/docs/sandbox-account)**: a live environment where the final version of the application is deployed and made available to the users.
+
+                • **[Sandbox](https://docs.intersoftsapient.net/docs/sandbox-account)**: a testing environment that mimics the **Production** environment but is isolated from it. The sandbox environment is primarily used for development and testing purposes.
               </td>
             </tr>
             <tr>
