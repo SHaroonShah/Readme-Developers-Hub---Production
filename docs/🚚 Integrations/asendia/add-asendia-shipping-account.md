@@ -39,7 +39,7 @@ In SAPIENT, you can create an Asendia shipping account by selecting your desired
       <ToggleListItem title="2. Select option to add shipping account" icon="far fa-plus">
         <br />
 
-        On the **Shipping Accounts** page, select <Image src="https://files.readme.io/e27a112101fea1d20bb870a5c570ce3cb3889d2c514dd5bc0920c2ea630f9943-add_shipping_account_button.png" caption="Add shipping account button" />.
+        On the **Shipping Accounts** page, select ![](https://files.readme.io/4dc0470535418171d8c974546d130f04a0fc60a878c7f7648b2da21309450830-add_shipping_account_button.png).
 
         <Image align="center" border={true} src="https://files.readme.io/1f21da8d1e1c679c2ed31d67bfc7551e5c9477f2f22b16c279aed71ab9688809-Add_shipping_account_button_YODEL.png" caption="Option to add a shipping account" />
 
