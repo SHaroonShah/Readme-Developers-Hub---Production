@@ -92,7 +92,7 @@ In SAPIENT, you can create an Asendia shipping account by selecting your desired
             <tr>
               <td><strong>Carrier Account Number</strong>&#42;</td>
               <td>
-                Enter a ten digit account number.
+                Enter a ten digit account number assigned by the carrier.
               </td>
             </tr>
      <tr>
@@ -148,12 +148,8 @@ In SAPIENT, you can create an Asendia shipping account by selecting your desired
           </thead>
           <tbody>
             <tr>
-              <td align="center"><strong>DHL Germany Username</strong>&#42;</td>
+              <td align="center"><strong>API Key</strong>&#42;</td>
               <td align="left">Enter the unique identifier for the user account associated with DHL Germany.</td>
-            </tr>
-            <tr>
-              <td align="center"><strong>DHL Germany Password</strong>&#42;</td>
-              <td align="left">Enter the secure password used to authenticate the user account with DHL Germany.</td>
             </tr>
           </tbody>
         </table>
