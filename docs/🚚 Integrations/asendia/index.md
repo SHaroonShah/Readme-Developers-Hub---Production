@@ -26,7 +26,23 @@ This integration provides the following key features:
 * **Incoterms**: <Glossary>DDU</Glossary>, <Glossary>DDP</Glossary>, and <Glossary>DAP</Glossary>.
 * **Label formats**: <Glossary>PDF</Glossary> and <Glossary>ZPL203DPI</Glossary>.
 
-## Carrier shipping services
+## Service enhancements
+
+<Callout icon="far fa-circle-info" theme="info">
+  ### **_Note_**
+
+  _There are no service enhancements for this integration._
+</Callout>
+
+## Additional features
+
+The Asendia integration provides the following additional features:
+
+* **Single-piece shipments**: Asendia only support single package services. Consignment services are not supported in this integration.
+* **Hazardous shipments**: Hazmat shipments are only supported with the e-PAQ Select and Elite DG services.
+* **Package Types**: Asendia has its own distinct package types that specifies whether the shipment to EU is either **B** (Boxable) or **N** (Non-boxable) on e-PAQ Standard and e-PAQ Plus services.
+
+## Carrier services
 
 The following are the key services are provided by the Asendia integration:
 
@@ -43,13 +59,6 @@ The following are the key services are provided by the Asendia integration:
   * e-PAQ Elite – Economy
   * e_PAQ Elite – Express
 
-## Additional features
-
-The Asendia integration provides the following additional features:
-
-* **Single package shipments**: Asendia only support single package shipments.
-* **Hazardous shipments**: Hazmat shipments are only supported with the e-PAQ Select and Elite DG services.
-* **Carrier specific fields**: The **CarrierSpecifics** object contains the following field:
-  * **Format**: To specify whether the shipment to EU is either **B** (Boxable) or **N** (Non-boxable) on e-PAQ Standard and e-PAQ Plus services.
+<br />
 
 <br />
