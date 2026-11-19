@@ -9,18 +9,16 @@ metadata:
 In SAPIENT, you can create an Asendia shipping account by selecting your desired shipping location, entering the corresponding account and carrier details, and then adding the account to the system.
 
 <Callout icon="🚧" theme="warn">
-  This integration is currently under development. This page follows the An Post setup template; the account fields and requirements have not yet been verified for Asendia. The images still show the source workflow.
-</Callout>
+  ### _Important_
 
-<Callout icon="🚧" theme="warn">
-  Before you set up a shipping account, [enable the label integration](https://docs.intersoftsapient.net/docs/integration-activation) with Asendia and [create a shipping location](https://docs.intersoftsapient.net/docs/add-a-shipping-location).
+  _Before you set up a shipping account,&#x20;_[_enable the label integration_](https://docs.intersoftsapient.net/docs/integration-activation)_&#x20;with Asendia and&#x20;_[_create a shipping location_](https://docs.intersoftsapient.net/docs/add-a-shipping-location)_._
 </Callout>
 
 ## How to add Asendia shipping account
 
 <Tabs>
   <Tab title="Via SAPIENT UI">
-    To add an Asendia shipping account via the SAPIENT user interface (UI), follow these steps:
+    To add an Asendia shipping account via the SAPIENT user interface (UI), perform the steps as explained in the following procedure:
 
     <ToggleList>
       <ToggleListItem title="1. Select the Shipping Accounts page" icon="far fa-arrow-pointer">
@@ -136,7 +134,13 @@ In SAPIENT, you can create an Asendia shipping account by selecting your desired
   </Tab>
 
   <Tab title="Via API">
-    An Asendia-specific Add Account API endpoint has not been verified for this guide. The An Post endpoint is not applicable to this page.
+    To add an An Post shipping account via API, refer to the following API endpoint.
+
+    <Cards columns="2">
+      <Card title="Add Account" href="https://docs.intersoftsapient.net/reference/post_v4-shippingaccounts-anpost" icon="fa-code" target="_blank">
+        Add and manage Asendia shipping account via API.
+      </Card>
+    </Cards>
   </Tab>
 </Tabs>
 
