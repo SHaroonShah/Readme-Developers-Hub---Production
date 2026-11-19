@@ -149,7 +149,7 @@ In SAPIENT, you can create an Asendia shipping account by selecting your desired
           <tbody>
             <tr>
               <td align="center"><strong>API Key</strong>&#42;</td>
-              <td align="left">Enter the unique identifier for the user account associated with DHL Germany.</td>
+              <td align="left">Enter the API key for the user account associated with Asendia.</td>
             </tr>
           </tbody>
         </table>
