@@ -29,7 +29,7 @@ In SAPIENT, you can create an Asendia shipping account by selecting your desired
 
         In the left navigation panel, select **Shipping Accounts**.
 
-        <Image align="center" border={true} src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" caption="Shipping Accounts option in the navigation panel" />
+        <Image align="center" border={true} src="https://files.readme.io/3e60281b3dfe72e1d825e37b48a9dbcb8a5446f083dc00aa30b8189f109e58dc-Shipping_account_option.png" caption="Accessing shipping accounts" />
 
         ***
       </ToggleListItem>
@@ -41,7 +41,7 @@ In SAPIENT, you can create an Asendia shipping account by selecting your desired
 
         On the **Shipping Accounts** page, select ![](https://files.readme.io/4dc0470535418171d8c974546d130f04a0fc60a878c7f7648b2da21309450830-add_shipping_account_button.png).
 
-        <Image align="center" border={true} src="https://files.readme.io/1f21da8d1e1c679c2ed31d67bfc7551e5c9477f2f22b16c279aed71ab9688809-Add_shipping_account_button_YODEL.png" caption="Option to add a shipping account" />
+        <Image align="center" border={true} src="https://files.readme.io/1f21da8d1e1c679c2ed31d67bfc7551e5c9477f2f22b16c279aed71ab9688809-Add_shipping_account_button_YODEL.png" caption="Selecting option to add shipping account" />
 
         ***
       </ToggleListItem>
@@ -53,7 +53,7 @@ In SAPIENT, you can create an Asendia shipping account by selecting your desired
 
         On the **Add Shipping Account** form, in the **ACCOUNT DETAILS** block, enter the information described below.
 
-        <Image align="center" border={true} src="https://files.readme.io/bd4c02b7c9c557a48c13a92f58a9454ab0a5f8eb3aabdd462f6eba7147730d7d-Account_details_block_An_post.png" width="500px" caption="Account details — source image awaiting replacement" />
+        <Image align="center" border={true} src="https://files.readme.io/bd4c02b7c9c557a48c13a92f58a9454ab0a5f8eb3aabdd462f6eba7147730d7d-Account_details_block_An_post.png" width="500px" caption="Entering account details" />
 
         <br />
 
@@ -61,8 +61,8 @@ In SAPIENT, you can create an Asendia shipping account by selecting your desired
 
         | Element | Description |
         | :---: | :--- |
-        | **Carrier**\* | Select the Asendia carrier option. |
-        | **Shipping Location**\* | Select the shipping location to assign to the account. |
+        | **Carrier**\* | From the dropdown list, select the Asendia as your carrier option. |
+        | **Shipping Location**\* | rom the dropdown menu, select the location that you want to assign to the shipping account you are creating.|
 
         ***
       </ToggleListItem>
@@ -74,7 +74,8 @@ In SAPIENT, you can create an Asendia shipping account by selecting your desired
 
         In the **SHIPPING ACCOUNT** block, enter the information described below.
 
-        <Image align="center" border={true} src="https://files.readme.io/95e80494ef1a7d23ee73c2d200a7ada240f0d1318161488c240a373d637f3c01-Shipping_account_block_An_Post.png" width="500px" caption="Shipping account details — source image awaiting replacement" />
+        <Image align="center" border={true} src="https://files.readme.io/95e80494ef1a7d23ee73c2d200a7ada240f0d1318161488c240a373d637f3c01-Shipping_account_block_An_Post.png" width="500px" caption="Entering shipping account details
+    " />
 
         <br />
 
@@ -124,9 +125,43 @@ In SAPIENT, you can create an Asendia shipping account by selecting your desired
         ***
       </ToggleListItem>
 
+     <ToggleListItem title="5. Enter carrier details">
+
+        <br />
+
+        In the **CARRIER DETAILS** block, enter the necessary information as explained in the following table.
+
+        <Image align="center" src="https://files.readme.io/0bd2bd4e7974be809da0cb97fda2d4f39e52d8177dbf53777bfa5ab3f0022b5f-image.png" width="500px" caption="Entering carrier-specific details" />
+
+        <br />
+
+        <AsteridkForMandatoryElements />
+
+        <table>
+          <thead>
+            <tr>
+              <th align="center">Element</th>
+              <th align="left">Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="center"><strong>DHL Germany Username</strong>&#42;</td>
+              <td align="left">Enter the unique identifier for the user account associated with DHL Germany.</td>
+            </tr>
+            <tr>
+              <td align="center"><strong>DHL Germany Password</strong>&#42;</td>
+              <td align="left">Enter the secure password used to authenticate the user account with DHL Germany.</td>
+            </tr>
+          </tbody>
+        </table>
+
+        ***
+      </ToggleListItem>
+
       <br />
 
-      <ToggleListItem title="5. Save and add the shipping account" icon="far fa-floppy-disk">
+      <ToggleListItem title="6. Save and add the shipping account" icon="far fa-floppy-disk">
         <br />
 
         After entering the required information, select ![](https://files.readme.io/99e4e322c6a3f874e0258a73646a551aa2120d8d359b2ce5d09a4cf0eabcd44a-add_shipping_account_button_2.png).
