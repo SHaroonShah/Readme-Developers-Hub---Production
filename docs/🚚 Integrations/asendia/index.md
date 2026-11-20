@@ -14,10 +14,6 @@ metadata:
 
 ***
 
-> 🚧 _Important_
->
-> _This integration is currently under development. The contents are to be updated as soon as possible._
-
 Asendia is an API integration and in SAPIENT, it integrates with its newest AShipping solution.
 
 ## Overview
@@ -74,16 +70,16 @@ Asendia is an API integration and in SAPIENT, it integrates with its newest AShi
   <Tab title="Carrier Services">
     The following key services are provided by the Asendia integration.
 
-    | Service name | Description |
-    | :---: | :--- |
-    | **e-PAQ Standard Priority** | This service provides cost-effective international postal delivery for lightweight parcels, with priority handling for faster delivery. |
-    | **e-PAQ Standard Non-Priority** | This service provides economical international postal delivery for lightweight parcels where delivery speed is less critical. |
-    | **e-PAQ Plus Mailbox** | This service provides tracked international postal delivery to the recipient’s mailbox, with tracking at key shipment milestones. |
-    | **e-PAQ Plus Personal** | This service provides tracked international postal delivery with personal delivery and an optional signature on receipt. |
-    | **e-PAQ Select** | This service provides fully tracked international parcel delivery through local e-commerce delivery specialists, with flexible delivery and customs options. |
-    | **e-PAQ Select (DG)** | This service provides tracked international parcel delivery for eligible dangerous goods through local e-commerce delivery specialists. |
-    | **e-PAQ Elite – Economy** | This service provides fully tracked international courier delivery using an economy option for less time-sensitive shipments. |
-    | **e_PAQ Elite – Express** | This service provides fast, fully tracked international courier delivery for urgent and high-value shipments. |
+    |           Service name          | Description                                                                                                                                                  |
+    | :-----------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+    |   **e-PAQ Standard Priority**   | This service provides cost-effective international postal delivery for lightweight parcels, with priority handling for faster delivery.                      |
+    | **e-PAQ Standard Non-Priority** | This service provides economical international postal delivery for lightweight parcels where delivery speed is less critical.                                |
+    |      **e-PAQ Plus Mailbox**     | This service provides tracked international postal delivery to the recipient’s mailbox, with tracking at key shipment milestones.                            |
+    |     **e-PAQ Plus Personal**     | This service provides tracked international postal delivery with personal delivery and an optional signature on receipt.                                     |
+    |         **e-PAQ Select**        | This service provides fully tracked international parcel delivery through local e-commerce delivery specialists, with flexible delivery and customs options. |
+    |      **e-PAQ Select (DG)**      | This service provides tracked international parcel delivery for eligible dangerous goods through local e-commerce delivery specialists.                      |
+    |    **e-PAQ Elite – Economy**    | This service provides fully tracked international courier delivery using an economy option for less time-sensitive shipments.                                |
+    |    **e_PAQ Elite – Express**    | This service provides fast, fully tracked international courier delivery for urgent and high-value shipments.                                                |
 
     <Callout icon="💡" theme="default">
       ### _Tip_
@@ -139,16 +135,12 @@ Asendia is an API integration and in SAPIENT, it integrates with its newest AShi
       <Card title="Add Asendia Tracking Account" href="https://docs.intersoftsapient.net/v4.04/docs/tracking-account-setup" icon="fa-solid fa-search-location" target="_blank">
         Configure tracking for your Asendia shipments.
       </Card>
-
-      <Card title="Add Child Client Department to Parent Shipping Account" href="https://docs.intersoftsapient.net/v4.04/docs/client-id-and-child-clinet-id-management-1" icon="fa-solid fa-circle-user" target="_blank">
-        Create a parent shipping account and have multiple sub-accounts.
-      </Card>
     </Cards>
   </Tab>
 
   <Tab title="API References">
     <Cards columns="2">
-      <Card title="SAPIENT Asendia API" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-evri" icon="fa-solid fa-code" target="_blank">
+      <Card title="SAPIENT Asendia API" icon="fa-solid fa-code" target="_blank">
         Explore the Asendia API endpoints for a seamless shipping experience.
       </Card>
     </Cards>
