@@ -10,7 +10,8 @@ icon: fad fa-truck-fast
 metadata:
   robots: index
 ---
-<Image src="https://files.readme.io/01dc0d3b7707e7095a26e08e874ca4fb1b7f2f82ba588e5d1c119b8f20e5e9c9-EVRi_white_banner.png" align="center" width="900px" />
+
+<Image src="https://files.readme.io/ed8e9fe0e729c2f600770140acdbb5ca5763f9e80e0c4d4867006947a4a1a14d-Asendia_banner_White.png" align="center" width="900px" />
 
 ***
 
