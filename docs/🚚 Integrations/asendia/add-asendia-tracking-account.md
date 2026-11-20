@@ -8,13 +8,7 @@ metadata:
 ---
 In SAPIENT, you can add tracking accounts for Asendia to enhance visibility, improving customer interactions, and streamlining logistics operations for Asendia.
 
-Before adding an Asendia tracking account, you need to [send a corresponding request to Asendia](mailto:evriclientdesk@evri.com) via email with your Asendia client account manager cc'd in your request. In the email, make sure to add the following information:
-
-- **Client ID**
-- **Client name**
-- **Schedule for receiving tracking files**
-
-It can take up to 5 working days for Asendia to set up the tracking and provide the relevant credentials.
+Asendia’s tracking API uses separate credentials to the label API. Therefore, the Asendia tracking account screen will contain different customer’s credentials for the tracking API.
 
 <Callout icon="🚧" theme="warn">
   ### _Important_
