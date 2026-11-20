@@ -53,7 +53,9 @@ In SAPIENT, you can create an Asendia shipping account by selecting your desired
 
         On the **Add Shipping Account** form, in the **ACCOUNT DETAILS** block, enter the information described below.
 
-        <Image align="center" border={true} src="https://files.readme.io/bd4c02b7c9c557a48c13a92f58a9454ab0a5f8eb3aabdd462f6eba7147730d7d-Account_details_block_An_post.png" width="500px" caption="Entering account details" />
+        
+    <Image src="https://files.readme.io/95b6bb934de15922a586816dd1975e4c520f4fd6623a863cfa5f77e4ed7bdf04-image.png" align="center" caption="Entering account details" border={true} />
+
 
         <br />
 
@@ -74,8 +76,9 @@ In SAPIENT, you can create an Asendia shipping account by selecting your desired
 
         In the **SHIPPING ACCOUNT** block, enter the information described below.
 
-        <Image align="center" border={true} src="https://files.readme.io/95e80494ef1a7d23ee73c2d200a7ada240f0d1318161488c240a373d637f3c01-Shipping_account_block_An_Post.png" width="500px" caption="Entering shipping account details
-    " />
+        
+    <Image src="https://files.readme.io/c31cdd42822de25b509117e4a79c2c315315f0e9dcf4077753816581a429f382-image.png" align="center" caption="Entering shipping account details" border={true} />
+
 
         <br />
 
@@ -133,7 +136,9 @@ In SAPIENT, you can create an Asendia shipping account by selecting your desired
 
         In the **CARRIER DETAILS** block, enter the necessary information as explained in the following table.
 
-        <Image align="center" src="https://files.readme.io/0bd2bd4e7974be809da0cb97fda2d4f39e52d8177dbf53777bfa5ab3f0022b5f-image.png" width="500px" caption="Entering carrier-specific details" />
+        
+    <Image src="https://files.readme.io/e2b20cf5cd539a1e2674ba8998e2517b83bafdb080cc566778e6d4161704679a-image.png" align="center" caption="Entering carrier-specific details" border={true} />
+
 
         <br />
 
