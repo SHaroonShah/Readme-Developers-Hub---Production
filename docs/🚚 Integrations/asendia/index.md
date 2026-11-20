@@ -106,7 +106,7 @@ Asendia is an API integration and in SAPIENT, it integrates with its newest AShi
 
   <Tab title="Other Services">
     <Accordion title="Print Label">
-      [Generate and return the label](https://docs.intersoftsapient.net/reference/get_v4-shipments-printlabel-evri-shipmentid) for an Asendia shipment in the PDF or ZPL203DPI format. This endpoint must be utilised when the label is not generated in the Asendia Create Shipment request.
+      <Anchor target="_blank" href="">Generate and return the label</Anchor> for an Asendia shipment in the PDF or ZPL203DPI format. This endpoint must be utilised when the label is not generated in the Asendia Create Shipment request.
 
       <Callout icon="📘" theme="info">
         ### _Note_
