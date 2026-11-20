@@ -64,7 +64,7 @@ In SAPIENT, you can create an Asendia shipping account by selecting your desired
         | Element | Description |
         | :---: | :--- |
         | **Carrier**\* | From the dropdown list, select the Asendia as your carrier option. |
-        | **Shipping Location**\* | From the dropdown menu, select the location that you want to assign to the shipping account you are creating.|
+        | **Shipping Location**\* | From the dropdown list, select the location that you want to assign to the shipping account you are creating.|
 
         ***
       </ToggleListItem>
