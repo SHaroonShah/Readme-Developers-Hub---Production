@@ -145,6 +145,3 @@ To add a tracking account for Asendia in SAPIENT, perform the steps as explained
     Understand tracking events and milestone data.
   </Card>
 </Cards>
-
-
-<Image src="https://files.readme.io/9482eb1b0b8f53416db75c3a9ec827abf1bdf086b9700783842693380ff25ed3-image.png" align="center" caption="Entering carrier tracking details" border={true} />
