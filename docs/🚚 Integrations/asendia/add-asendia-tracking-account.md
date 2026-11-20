@@ -105,10 +105,12 @@ To add a tracking account for Asendia in SAPIENT, perform the steps as explained
 
   <br />
 
-  <ToggleListItem title="4. Enter SFTP details">
+  <ToggleListItem title="4. Enter carrier tracking details">
     In the **SFTP DETAILS** block, enter the necessary information as explained in the following table:
 
-    <Image align="center" src="https://files.readme.io/b2437869c8baecd092365fb5631a2dc0e31e07454c824245442ab67bc10ec14c-SFTP_details_block_EVRi.png" width="500px" caption="Entering SFTP details" />
+    
+<Image src="https://files.readme.io/9482eb1b0b8f53416db75c3a9ec827abf1bdf086b9700783842693380ff25ed3-image.png" align="center" caption="Entering carrier tracking details" border={true} />
+
 
     <br />
 
@@ -116,9 +118,10 @@ To add a tracking account for Asendia in SAPIENT, perform the steps as explained
 
     |     Element    | Description                                                                                                               |
     | :------------: | :------------------------------------------------------------------------------------------------------------------------ |
-    | **Username**\* | Enter the username that you have received from Asendia in response to the tracking account setup request you sent earlier.   |
-    | **Password**\* | Enter the password that you have received from Asendia in response to the tracking account setup request you sent earlier.   |
-    |  **File Path** | Enter the file path that you have received from Asendia in response to your tracking account setup request you sent earlier. |
+    | **ClientId**\* | Enter the Client ID provided by Asendia for authenticating the tracking account.   |
+    | **ClientSecret**\* | Enter the Client Secret provided by Asendia for authenticating the tracking account.   |
+ |  **AccessKey** | Enter the Access Key provided by Asendia for accessing the Tracking API. |
+    |  **ApiKey** | Enter the API Key provided by Asendia for authorising Tracking API requests. |
   </ToggleListItem>
 
   <br />
@@ -142,3 +145,6 @@ To add a tracking account for Asendia in SAPIENT, perform the steps as explained
     Understand tracking events and milestone data.
   </Card>
 </Cards>
+
+
+<Image src="https://files.readme.io/9482eb1b0b8f53416db75c3a9ec827abf1bdf086b9700783842693380ff25ed3-image.png" align="center" caption="Entering carrier tracking details" border={true} />
