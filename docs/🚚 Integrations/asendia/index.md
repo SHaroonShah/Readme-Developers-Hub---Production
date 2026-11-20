@@ -11,7 +11,7 @@ metadata:
   robots: index
 ---
 
-<Image src="https://files.readme.io/ed8e9fe0e729c2f600770140acdbb5ca5763f9e80e0c4d4867006947a4a1a14d-Asendia_banner_White.png" align="center" width="900px" />
+<Image src="https://files.readme.io/f2d57c2f07af4f94d6e53f49acf46b9ad861884094f7a7df61afff48c15c7851-Asendia_banner_White.png" align="center" width="900px" />
 
 ***
 
