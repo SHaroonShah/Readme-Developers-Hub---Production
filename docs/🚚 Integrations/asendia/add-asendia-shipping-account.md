@@ -14,7 +14,7 @@ In SAPIENT, you can create an Asendia shipping account by selecting your desired
 <Callout icon="🚧" theme="warn">
   ### _Important_
 
-  _Before you set up a shipping account,&#x20;_[_enable the label integration_](https://docs.intersoftsapient.net/docs/integration-activation)_&#x20;with Asendia and&#x20;_[_create a shipping location_](https://docs.intersoftsapient.net/docs/add-a-shipping-location)_._
+  _Before you can set up a shipping account, make sure you have&#x20;_<Anchor target="_blank" href="https://docs.intersoftsapient.net/docs/integration-activation">_enable the label integration_</Anchor>_&#x20;with Asendia and and already&#x20;_<Anchor target="_blank" href="https://docs.intersoftsapient.net/docs/add-a-shipping-location">_created a shipping location_</Anchor>_._
 </Callout>
 
 ## How to add Asendia shipping account
