@@ -26,7 +26,7 @@ Asendia is an API integration and in SAPIENT, it integrates with its newest AShi
       </Card>
 
       <Card title="Shipping Destinations" icon="fa-solid fa-globe">
-        Users can send <Glossary>shipments</Glossary> to Great Britain (GB), Europe (EU), and Rest of teh World (<Glossary>ROW</Glossary> ).
+        Users can send <Glossary>shipments</Glossary> to Great Britain (GB), Europe (EU), and Rest of teh World (<Glossary>ROW</Glossary> ) destinations.
       </Card>
 
       <Card title="Service Type" icon="fa-solid fa-shipping-fast">
@@ -38,7 +38,7 @@ Asendia is an API integration and in SAPIENT, it integrates with its newest AShi
       </Card>
 
       <Card title="Label Formats" icon="fa-solid fa-tag">
-        <Glossary>PDF</Glossary> and <Glossary>ZPL203DPI</Glossary>.
+        The integration supports labels in the <Glossary>PDF</Glossary> and <Glossary>ZPL203DPI</Glossary> formats.
       </Card>
     </Cards>
   </Tab>
