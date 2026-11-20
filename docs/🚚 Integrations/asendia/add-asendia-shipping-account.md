@@ -95,7 +95,7 @@ In SAPIENT, you can create an Asendia shipping account by selecting your desired
             <tr>
               <td><strong>Carrier Account Number</strong>&#42;</td>
               <td>
-                Enter a ten digit account number assigned by the carrier.
+                Enter the ten-digit CRIMD number assigned by the Asendia.
               </td>
             </tr>
      <tr>
