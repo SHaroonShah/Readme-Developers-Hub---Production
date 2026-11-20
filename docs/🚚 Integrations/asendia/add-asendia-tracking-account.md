@@ -53,7 +53,8 @@ To add a tracking account for Asendia in SAPIENT, perform the steps as explained
   <ToggleListItem title="3. Enter tracking account details">
     On the **Add Tracking account** page that appears, in the **DETAILS** block, enter the necessary information as explained in the following table.
 
-    <Image align="center" border={true} src="https://files.readme.io/7659a1bf5fc38bc305bdb0fcca75fc3dd4d965efb34cb7a038bbd1ca34235cde-Details_block_EVRi.png" width="500px" caption="Adding tracking account" />
+    
+<Image src="https://files.readme.io/227b72cec9d3b71b42024fe9258fa26ba682b56704544ccbca466579071f8f1a-image.png" align="center" caption="Adding tracking account" border={true} />
 
     <br />
 
@@ -90,13 +91,15 @@ To add a tracking account for Asendia in SAPIENT, perform the steps as explained
 
           <td>
             From the dropdown menu, select the <Glossary>shipping account</Glossary> for which you want to receive tracking.
-
-            You can also select the **All Shipping Accounts** option to add this tracking account for all existing accounts.
           </td>
         </tr>
       </tbody>
     </Table>
+ <br />
 
+    > 📘 *Note*
+    >
+    > *To track data for every shipping account, you must create a tracking account for each.*
     ***
   </ToggleListItem>
 
@@ -139,3 +142,6 @@ To add a tracking account for Asendia in SAPIENT, perform the steps as explained
     Understand tracking events and milestone data.
   </Card>
 </Cards>
+
+
+<Image src="https://files.readme.io/227b72cec9d3b71b42024fe9258fa26ba682b56704544ccbca466579071f8f1a-image.png" align="center" caption="Adding tracking account" border={true} />
