@@ -15,7 +15,7 @@ metadata:
 
 ***
 
-Asendia is an API integration and in SAPIENT, it integrates with its newest AShipping solution.
+Asendia is an API integration and in SAPIENT, it integrates with its newest AShipping solution. The integration of Asendia into the SAPIENT platform is a significant step in enhancing shipping capabilities. This section discusses the in-scope features of this integration and the services this carrier offers.
 
 ## Overview
 
