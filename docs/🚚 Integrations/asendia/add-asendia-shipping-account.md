@@ -97,7 +97,7 @@ In SAPIENT, you can create an Asendia shipping account by selecting your desired
               <td>
                 Enter the 10-digit CRMID number assigned by Asendia.
 
-    If you are unsure of this number, contact your Asendia account manager.
+    <code>Note:</code> If you are unsure of this number, contact your Asendia account manager.
               </td>
             </tr>
      <tr>
