@@ -128,11 +128,11 @@ Asendia is an API integration and in SAPIENT, it integrates with its newest AShi
 <Tabs>
   <Tab title="Account Setup">
     <Cards>
-      <Card title="Add Asendia Shipping Account" href="https://docs.intersoftsapient.net/v4.04/docs/shipping-account-setup-3" icon="fa-solid fa-truck" target="_blank">
+      <Card title="Add Asendia Shipping Account" href="https://docs.intersoftsapient.net/docs/add-asendia-shipping-account" icon="fa-solid fa-truck" target="_blank">
         Set up your Asendia shipping account to start creating shipments.
       </Card>
 
-      <Card title="Add Asendia Tracking Account" href="https://docs.intersoftsapient.net/v4.04/docs/tracking-account-setup" icon="fa-solid fa-search-location" target="_blank">
+      <Card title="Add Asendia Tracking Account" href="https://docs.intersoftsapient.net/docs/add-asendia-tracking-account" icon="fa-solid fa-search-location" target="_blank">
         Configure tracking for your Asendia shipments.
       </Card>
     </Cards>
