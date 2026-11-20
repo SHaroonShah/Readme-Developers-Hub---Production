@@ -79,7 +79,7 @@ Asendia is an API integration and in SAPIENT, it integrates with its newest AShi
     |         **e-PAQ Select**        | This service provides fully tracked international parcel delivery through local e-commerce delivery specialists, with flexible delivery and customs options. |
     |      **e-PAQ Select (DG)**      | This service provides tracked international parcel delivery for eligible dangerous goods through local e-commerce delivery specialists.                      |
     |    **e-PAQ Elite – Economy**    | This service provides fully tracked international courier delivery using an economy option for less time-sensitive shipments.                                |
-    |    **e_PAQ Elite – Express**    | This service provides fast, fully tracked international courier delivery for urgent and high-value shipments.                                                |
+    |    **e-PAQ Elite – Express**    | This service provides fast, fully tracked international courier delivery for urgent and high-value shipments.                                                |
 
     <Callout icon="💡" theme="default">
       ### _Tip_
@@ -106,7 +106,7 @@ Asendia is an API integration and in SAPIENT, it integrates with its newest AShi
 
   <Tab title="Other Services">
     <Accordion title="Print Label">
-      [Generate and return the label](https://docs.intersoftsapient.net/reference/get_v4-shipments-printlabel-evri-shipmentid) for an Asendia shipment in the PDF or PNG format. This endpoint must be utilised when the label is not generated in the Asendia Create Shipment request.
+      [Generate and return the label](https://docs.intersoftsapient.net/reference/get_v4-shipments-printlabel-evri-shipmentid) for an Asendia shipment in the PDF or ZPL203DPI format. This endpoint must be utilised when the label is not generated in the Asendia Create Shipment request.
 
       <Callout icon="📘" theme="info">
         ### _Note_
@@ -116,7 +116,7 @@ Asendia is an API integration and in SAPIENT, it integrates with its newest AShi
     </Accordion>
 
     <Accordion title="Tracking">
-      This integration allows customers to monitor their shipments in real-time, providing transparency and peace of mind. Users can access detailed tracking information, including, real-time updates, tracking numbers, and delivery notifications. For Asendia shipments, the data files are sent via SFTP.
+      This integration allows customers to monitor their shipments in real-time, providing transparency and peace of mind. Users can access detailed tracking information, including, real-time updates, tracking numbers, and delivery notifications.
     </Accordion>
   </Tab>
 </Tabs>
