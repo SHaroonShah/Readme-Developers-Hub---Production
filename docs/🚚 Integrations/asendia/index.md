@@ -34,7 +34,7 @@ Asendia is an API integration and in SAPIENT, it integrates with its newest AShi
       </Card>
 
       <Card title="Incoterms Support" icon="fa-solid fa-file-contract">
-        <Glossary>DDU</Glossary>, <Glossary>DDP</Glossary>, and <Glossary>DAP</Glossary>.
+        The integration supports <Glossary>DDU</Glossary>,<Glossary>DDP</Glossary>, and <Glossary>DAP</Glossary>  incorterms.
       </Card>
 
       <Card title="Label Formats" icon="fa-solid fa-tag">
