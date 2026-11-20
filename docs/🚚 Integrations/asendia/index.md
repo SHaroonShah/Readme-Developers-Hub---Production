@@ -22,11 +22,11 @@ Asendia is an API integration and in SAPIENT, it integrates with its newest AShi
   <Tab title="Key Features">
     <Cards columns="3">
       <Card title="Shipping Origins" icon="fa-solid fa-map-marker-alt">
-        The integration supports shipping from locations in Great Britain (GB) only.
+        The integration supports shipping from locations in Great Britain (GB) and Northern Ireland (country code GB and postcodes beginning with BT).
       </Card>
 
       <Card title="Shipping Destinations" icon="fa-solid fa-globe">
-        Users can send <Glossary>shipments</Glossary> to Great Britain (GB), Europe (EU), and the <Glossary>ROW</Glossary> (Rest of the World).
+        Users can send <Glossary>shipments</Glossary> to Great Britain (GB), Europe (EU), and Rest of teh World (<Glossary>ROW</Glossary> ).
       </Card>
 
       <Card title="Service Type" icon="fa-solid fa-shipping-fast">
