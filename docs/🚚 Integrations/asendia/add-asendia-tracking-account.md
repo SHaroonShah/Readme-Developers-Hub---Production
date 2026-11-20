@@ -120,8 +120,8 @@ To add a tracking account for Asendia in SAPIENT, perform the steps as explained
     | :------------: | :------------------------------------------------------------------------------------------------------------------------ |
     | **ClientId**\* | Enter the Client ID provided by Asendia for authenticating the tracking account.   |
     | **ClientSecret**\* | Enter the Client Secret provided by Asendia for authenticating the tracking account.   |
- |  **AccessKey** | Enter the Access Key provided by Asendia for accessing the Tracking API. |
-    |  **ApiKey** | Enter the API Key provided by Asendia for authorising Tracking API requests. |
+ |  **AccessKey**\* | Enter the Access Key provided by Asendia for accessing the Tracking API. |
+    |  **ApiKey**\* | Enter the API Key provided by Asendia for authorising Tracking API requests. |
   </ToggleListItem>
 
   <br />
