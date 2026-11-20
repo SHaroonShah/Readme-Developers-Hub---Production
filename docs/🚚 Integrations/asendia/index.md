@@ -96,7 +96,7 @@ Asendia is an API integration and in SAPIENT, it integrates with its newest AShi
 <Tabs>
   <Tab title="Core Services">
     <Accordion title="Create Shipment">
-      The integration for creating shipments to reflect Asendia as a primary carrier and allowing users to create shipments using the <Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/post_v4-shipments-evri">Create Shipment</Anchor> endpoint.
+      The integration for creating shipments to reflect Asendia as a primary carrier and allowing users to create shipments using the <Anchor target="_blank" href="">Create Shipment</Anchor> endpoint.
     </Accordion>
 
     <Accordion title="Manifest shipment">
