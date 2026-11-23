@@ -55,8 +55,8 @@ This in an in-house integration, which means that the <Glossary>label</Glossary>
         <Glossary>consignment</Glossary> services are supported, and DPD Local allows a maximum of 99 <Glossary>package</Glossary>s per consignment.
       </Card>
 
-      <Card title="Future Dated Shipments" icon="fad fa-list-check">
-        DPD Local allows&#x20;
+      <Card title="Future Date Shipments" icon="fad fa-list-check">
+        DPD Local allow shipments to be created up to 7 days in advance, but can be extended to 30 days if approved by your DPD Local account manager. If not, then the SAPIENT maximum of 28 days will apply.
       </Card>
     </Cards>
   </Tab>
