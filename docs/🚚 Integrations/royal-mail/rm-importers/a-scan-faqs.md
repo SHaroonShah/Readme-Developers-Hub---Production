@@ -30,9 +30,9 @@ metadata:
 <Accordion title="How many parcel formats can the containers have?">
   Containers can only have one parcel format. This format is poupulated in the **RmContentFormat** field with one of the following values:
 
-  • **G**: Large Letters and Parcels
-
-  • **P**: Small Letters
+  - **G**: Large Letter
+  - **P**: Letter
+  - **E**: Parcel
 </Accordion>
 
 <Accordion title="When should the container be finalised/ manifested?">
