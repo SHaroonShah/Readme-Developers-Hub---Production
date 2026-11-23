@@ -18,13 +18,10 @@ metadata:
 <Accordion title="Are there any limits regarding the container’s weight?">
   Yes, the following are the accepted bag weights:
 
-  • Minimum weight 1.500 Kg
-
-  • Maximum weight applies to the following conditions:
-
-  • 30 Kg for all import services
-
-  • 11 Kg for any non-GB shipments, for example, those using the DEI, DEJ, PS5, PS7, and so on.
+  - Minimum weight 1.500 Kg
+  - Maximum weight applies to the following conditions:
+    - For import services, the maximum permitted weight is 30 Kg
+    - For any cross-border services, the maximum permitted weight is dependent on the service being used.&#x20;
 </Accordion>
 
 <Accordion title="How many parcel formats can the containers have?">
