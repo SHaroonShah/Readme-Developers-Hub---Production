@@ -109,11 +109,11 @@ In SAPIENT, you can create a DPD UK shipping account by selecting your desired <
             <tr>
               <td><strong>Account Type</strong>&#42;</td>
               <td>
-                <p>From the dropdown menu, select one of the following account types that you want to set up for the the shipping account you are adding:</p>
-                <ul>
-                  <li><strong>Production</strong>: a live environment where the final version of the application is deployed and made available to the users.</li>
-                  <li><strong>Sandbox</strong>: a testing environment that mimics the <strong>Production</strong> environment but is isolated from it. The sandbox environment is primarily used for development and testing purposes.</li>
-                </ul>
+                 From the dropdown menu, select one of the following account types that you want to set up for the the shipping account you are adding:
+
+                • **[Production](https://docs.intersoftsapient.net/docs/sandbox-account)**: a live environment where the final version of the application is deployed and made available to the users.
+
+                • **[Sandbox](https://docs.intersoftsapient.net/docs/sandbox-account)**: a testing environment that mimics the **Production** environment but is isolated from it. The sandbox environment is primarily used for development and testing purposes.
               </td>
             </tr>
             <tr>
