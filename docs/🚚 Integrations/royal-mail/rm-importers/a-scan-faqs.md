@@ -18,7 +18,7 @@ metadata:
 <Accordion title="Are there any limits regarding the container’s weight?">
   Yes, the following are the accepted bag weights:
 
-  • Minumum weight 1.500 Kg
+  • Minimum weight 1.500 Kg
 
   • Maximum weight applies to the following conditions:
 
