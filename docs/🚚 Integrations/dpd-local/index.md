@@ -123,7 +123,7 @@ This in an in-house integration, which means that the <Glossary>label</Glossary>
 
   <Tab title="Other Services">
     <Accordion title="Print Label">
-      [Generate and return the label](https://docs.intersoftsapient.net/reference/get_v4-shipments-printlabel-inpost-shipmentid) for an InPost shipment in the PDF format. This endpoint must be utilised when the label is not generated in the InPost Create Shipment request.
+      [Generate and return the label](https://docs.intersoftsapient.net/reference/get_v4-shipments-printlabel-inpost-shipmentid) for a DPD Local shipment in the PDF format. This endpoint must be utilised when the label is not generated in the InPost Create Shipment request.
 
       <Callout icon="📘" theme="info">
         ### _Note_
