@@ -12,6 +12,10 @@ icon: fad fa-truck-fast
 metadata:
   robots: index
 ---
+<Image src="https://files.readme.io/ec7877a4210f964edd4030c4599be01a423d26d55a53f64019ff4604a52ef069-DPD_white_banner.png" align="center" width="900px" />
+
+***
+
 <Callout icon="🚧" theme="warn">
   ### _Important_
 
@@ -22,80 +26,150 @@ DPD Local offers a range of specialist solutions and services. With over 6,000 d
 
 This in an in-house integration, which means that the <Glossary>label</Glossary> will be generated in the SAPIENT system. Additionally, an electronic <Glossary>manifest</Glossary> data file is sent to DPD Local via SFTP when the shipments are manifested.
 
-## Key features
+## Overview
 
-This integration provides the following key features:
+<Tabs>
+  <Tab title="Key Features">
+    <Cards columns="3">
+      <Card title="Shipping Origins" icon="far fa-map-marker-alt">
+        The integration supports shipping from locations in Great Britain (GB) only.
+      </Card>
 
-* **Ship from destinations**: The integration supports shipping from locations in Great Britain (GB) only.
-* **Ship To Destinations**: Users can send <Glossary>shipments</Glossary> to Great Britain (GB), Europe (EU), and the Rest of the World (<Glossary>ROW</Glossary>) destinations.
-* **Service Type**: The integration is focused on outbound shipping.
-* **Incoterms**: <Glossary>DAP</Glossary> and <Glossary>DDP</Glossary>.
-* **Label formats**: <Glossary>PDF</Glossary>, <Glossary>ZPL203DPI</Glossary>, and <Glossary>ZPL300DPI</Glossary>.
+      <Card title="Shipping Destinations" icon="far fa-globe">
+        Users can send <Glossary>shipments</Glossary> to Great Britain (GB), Europe (EU), and the Rest of the World (<Glossary>ROW</Glossary>) destinations.
+      </Card>
 
-## Service enhancements
+      <Card title="Service Type" icon="far fa-shipping-fast">
+        The integration is focused on outbound shipping.
+      </Card>
 
-The following are the key services are provided by the DPD Local integration:
+      <Card title="Incoterms Support" icon="far fa-file-contract">
+        <Glossary>DAP</Glossary> and <Glossary>DDP</Glossary>.
+      </Card>
 
-* **Proof of Identity**: Requires the receiver to present valid identification at the point of delivery.
-* **Proof of Age**: Ensures the recipient meets a minimum age requirement, like for age-restricted goods.
-* **Pin Required**: A secure PIN is sent to the receiver, which must be provided upon delivery.
-* **Pin Required & Proof of Age**: Requires PIN and age verification at the point of delivery for added security.
+      <Card title="Label Formats" icon="far fa-tag">
+        <Glossary>PDF</Glossary>, <Glossary>ZPL203DPI</Glossary>, and <Glossary>ZPL300DPI</Glossary>.
+      </Card>
+    </Cards>
+  </Tab>
 
-## Additional features
+  <Tab title="Additional Features">
+    The FedEx integration provides the following additional features:
 
-The FedEx integration provides the following additional features:
+    <Cards>
+      <Card title="Consignment Services" icon="far fa-cubes">
+        <Glossary>consignment</Glossary> services are supported, and DPD Local allows a maximum of 99 <Glossary>package</Glossary>s per consignment.
+      </Card>
 
-* **Consignment services**:  <Glossary>consignment</Glossary> services are supported, and DPD Local allows a maximum of 99 <Glossary>package</Glossary>s per consignment.
-* **Carrier specific fields**: The **CarrierSpecifics** object contains the following field:
-  * **DeliveryInstructions**: To provide any additional instructions to the <Glossary>carrier</Glossary> regarding the delivery of the shipment.
+      <Card title="Carrier-Specifics" icon="far fa-map-marker-alt">
+        The **CarrierSpecifics** object contains the following field:
 
-## Carrier Services
+        * **DeliveryInstructions**: To provide any additional instructions to the <Glossary>carrier</Glossary> regarding the delivery of the shipment.
+      </Card>
+    </Cards>
+  </Tab>
 
-Will be added soon.
+  <Tab title="Service Enhancements">
+    The following are the key services are provided by the DPD Local integration:
+
+    <Cards>
+      <Card title="Proof of Identity" icon="far fa-id-card">
+        Requires the receiver to present valid identification at the point of delivery.
+      </Card>
+
+      <Card title="Proof of Age" icon="far fa-calendar-circle-user">
+        Ensures the recipient meets a minimum age requirement, like for age-restricted goods.
+      </Card>
+
+      <Card title="Pin Required" icon="far fa-location-pin-lock">
+        A secure PIN is sent to the receiver, which must be provided upon delivery.
+      </Card>
+
+      <Card title="Pin Required & Proof of Age" icon="far fa-location-pin-lock">
+        Requires PIN and age verification at the point of delivery for added security.
+      </Card>
+    </Cards>
+  </Tab>
+
+  <Tab title="Carrier Services">
+    Will be added soon.
+  </Tab>
+</Tabs>
+
+***
 
 ## API Services
 
-### Core Services
+<Tabs>
+  <Tab title="Core Services">
+    <Callout icon="🚧" theme="warn">
+      ### _Important_
 
-<Callout icon="🚧" theme="warn">
-  ### _Important_
+      _Please bear in mind that DPD Local have separate specifications for domestic and international shipping along with some other specification for certain types of shipments, such as shipments to Northern Ireland (NI)._
+    </Callout>
 
-  _Please bear in mind that DPD Local have separate specifications for domestic and international shipping along with some other specification for certain types of shipments, such as shipments to Northern Ireland (NI)._
-</Callout>
+    <Accordion title="Create Shipment">
+      The integration for creating shipments to reflect DPD Local as a primary carrier and allowing users to create individual shipments requests using the Create Shipment endpoint. This in-house integration feature simplifies the process of generating and managing shipping labels in the PDF format by the SAPIENT system. DPD Local use routing data to determine if the destination post code and shipment data (such as weight and maximum number of packages) are valid for the service. If the data is valid, then the routing data is printed on the generated label.
 
-* **Create Shipment**: The integration for creating shipments to reflect DPD Local as a primary carrier and allowing users to create individual shipments requests using the Create Shipment endpoint. This in-house integration feature simplifies the process of generating and managing shipping labels in the PDF format by the SAPIENT system. DPD Local use routing data to determine if the destination post code and shipment data (such as weight and maximum number of packages) are valid for the service. If the data is valid, then the routing data is printed on the generated label.
+      <Callout icon="📘" theme="info">
+        ### _Note_
 
-<Callout icon="📘" theme="info">
-  ### _Note_
+        _The system only imports the data for services that are in scope and does not add any additional services into the integration. It only updates the routing data for the existing service codes._
+      </Callout>
+    </Accordion>
 
-  _The system only imports the data for services that are in scope and does not add any additional services into the integration. It only updates the routing data for the existing service codes._
-</Callout>
+    <Accordion title="Manifest Shipment (via SFTP)">
+      Generates an electronic manifest data file in the SAPIENT's default <Glossary>PDF</Glossary> format and send it to DPD LOCAL via SFTP.
+    </Accordion>
 
-* **Manifest Shipment (via SFTP)**: Generates an electronic manifest data file in the SAPIENT's default <Glossary>PDF</Glossary> format and send it to DPD LOCAL via SFTP.
-* **Get PUDO Locations**: Enable customers to users to access essential shipping options for both sending and returning packages seamlessly via the [Get PUDO Locations endpoint](https://docs.intersoftsapient.net/reference/get_v4-pudolocations-carriercode-countrycode-postcode).
+    <Accordion title="Get PUDO Locations">
+      Enable customers to users to access essential shipping options for both sending and returning packages seamlessly via the [Get PUDO Locations endpoint](https://docs.intersoftsapient.net/reference/get_v4-pudolocations-carriercode-countrycode-postcode).
+    </Accordion>
+  </Tab>
 
-### Other Services
+  <Tab title="Other Services">
+    <Accordion title="Print Label">
+      [Generate and return the label](https://docs.intersoftsapient.net/reference/get_v4-shipments-printlabel-inpost-shipmentid) for an InPost shipment in the PDF format. This endpoint must be utilised when the label is not generated in the InPost Create Shipment request.
 
-* Print Label: [Generate and return the label](https://docs.intersoftsapient.net/reference/get_v4-shipments-printlabel-inpost-shipmentid) for an InPost shipment in the PDF format. This endpoint must be utilised when the label is not generated in the InPost Create Shipment request.
-  <Callout icon="📘" theme="info">
-    ### _Note_
+      <Callout icon="📘" theme="info">
+        ### _Note_
 
-    _This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting._
-  </Callout>
-* **Tracking integration (via SFTP)**: This integration allows customers to monitor their shipments in real-time, providing transparency and peace of mind. Users can access detailed tracking information, including, real-time updates, tracking numbers, and delivery notifications. For DPD Local shipments, the data files are sent via SFTP.
+        _This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting._
+      </Callout>
+    </Accordion>
+
+    <Accordion title="Tracking integration (via SFTP)">
+      This integration allows customers to monitor their shipments in real-time, providing transparency and peace of mind. Users can access detailed tracking information, including, real-time updates, tracking numbers, and delivery notifications. For DPD Local shipments, the data files are sent via SFTP.
+    </Accordion>
+  </Tab>
+</Tabs>
 
 ***
 
 ## Getting Started
 
-will be added soon
+<Tabs>
+  <Tab title="Account Setup">
+    <Cards>
+      <Card title="Add DPD Local Shipping Account" href="https://docs.intersoftsapient.net/docs/add-dpd-local-shipping-account" icon="far fa-truck" target="_blank">
+        Set up your DPD Local shipping account to start creating shipments.
+      </Card>
 
-## Ready to integrate?
+      <Card title="Add DPD Local Tracking Account" href="https://docs.intersoftsapient.net/docs/add-dpd-local-tracking-account" icon="far fa-search-location" target="_blank">
+        Configure tracking for your DPD Local shipments.
+      </Card>
+    </Cards>
+  </Tab>
 
-<Callout icon="📘" theme="info">
-  ### _Note_
+  <Tab title="API References">
+    will be added soon
+  </Tab>
+</Tabs>
 
-  _For more information on how to activate the DPD Local integration, refer to the&#x20;_[Activate integration](https://docs.intersoftsapient.net/docs/integration-activation#/)_&#x20;section._
-</Callout>
+<Banner isInline={true} message="Ready to integrate?" color="#ffb600" textColor="#ffffff" fontSize="20px" fontWeight="bold" width="120px" />
 
-
+<Cards>
+  <Card title="Activate this integration" href="https://docs.intersoftsapient.net/docs/integration-activation#/" icon="far fa-circle-play" target="_blank">
+    For more information on how to activate the DPD Local integration, refer to the Activate integration section.
+  </Card>
+</Cards>
