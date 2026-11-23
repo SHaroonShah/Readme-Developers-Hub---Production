@@ -67,19 +67,19 @@ This in an in-house integration, which means that the <Glossary>label</Glossary>
     The following are the key services are provided by the DPD Local integration:
 
     <Cards>
-      <Card title="Proof of Identity" icon="far fa-id-card">
+      <Card title="Proof of Identity" icon="fad fa-id-card">
         Requires the receiver to present valid identification at the point of delivery.
       </Card>
 
-      <Card title="Proof of Age" icon="far fa-calendar-circle-user">
+      <Card title="Proof of Age" icon="fad fa-calendar-circle-user">
         Ensures the recipient meets a minimum age requirement, like for age-restricted goods.
       </Card>
 
-      <Card title="Pin Required" icon="far fa-location-pin-lock">
+      <Card title="Pin Required" icon="fad fa-location-pin-lock">
         A secure PIN is sent to the receiver, which must be provided upon delivery.
       </Card>
 
-      <Card title="Pin Required & Proof of Age" icon="far fa-location-pin-lock">
+      <Card title="Pin Required & Proof of Age" icon="fad fa-location-pin-lock">
         Requires PIN and age verification at the point of delivery for added security.
       </Card>
     </Cards>
