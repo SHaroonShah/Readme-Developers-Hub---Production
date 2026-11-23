@@ -76,11 +76,15 @@ To add a tracking account for DPD Local in SAPIENT, follow the steps as explaine
         </tr>
         <tr>
           <td align="center"><strong>Shipping Account</strong>&#42;</td>
-          <td align="left">From the dropdown menu, select the shipping account for which you want to receive tracking.<br /><br />You can also select the <strong>All Shipping Accounts</strong> option to add this tracking account for all existing accounts.</td>
+          <td align="left">From the dropdown menu, select the shipping account for which you want to receive tracking.</td>
         </tr>
       </tbody>
     </table>
-
+<br />
+> 📘 *Note*
+    >
+    > *To track data for every shipping account, you must create a tracking account for each.*
+    ***
     ***
   </ToggleListItem>
 
