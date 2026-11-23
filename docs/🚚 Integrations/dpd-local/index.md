@@ -55,10 +55,8 @@ This in an in-house integration, which means that the <Glossary>label</Glossary>
         <Glossary>consignment</Glossary> services are supported, and DPD Local allows a maximum of 99 <Glossary>package</Glossary>s per consignment.
       </Card>
 
-      <Card title="Carrier-Specifics" icon="fad fa-list-check">
-        The **CarrierSpecifics** object contains the following field:
-
-        * **DeliveryInstructions**: To provide any additional instructions to the <Glossary>carrier</Glossary> regarding the delivery of the shipment.
+      <Card title="Future Dated Shipments" icon="fad fa-list-check">
+        DPD Local allows&#x20;
       </Card>
     </Cards>
   </Tab>
