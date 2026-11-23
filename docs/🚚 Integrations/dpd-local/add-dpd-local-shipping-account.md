@@ -188,7 +188,7 @@ In SAPIENT, you can create a DPD Local shipping account by selecting your desire
     To add a DPD Local shipping account via API, refer to the following API endpoint.
 
     <Cards columns="2">
-      <Card title="Add Account" href="https://docs.intersoftsapient.net/reference/post_v4-shippingaccounts-dpduk" icon="fa-code" target="_blank">
+      <Card title="Add Account" icon="fa-code" target="_blank">
         Add and manage DPD Local shipping account via API.
       </Card>
     </Cards>
