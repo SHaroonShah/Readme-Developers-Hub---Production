@@ -25,23 +25,23 @@ This in an in-house integration, which means that the <Glossary>label</Glossary>
 <Tabs>
   <Tab title="Key Features">
     <Cards columns="3">
-      <Card title="Shipping Origins" icon="far fa-map-marker-alt">
+      <Card title="Shipping Origins" icon="fad fa-location-dot">
         The integration supports shipping from locations in Great Britain (GB) only.
       </Card>
 
-      <Card title="Shipping Destinations" icon="far fa-globe">
+      <Card title="Shipping Destinations" icon="fad fa-globe">
         Users can send <Glossary>shipments</Glossary> to Great Britain (GB), Europe (EU), and the Rest of the World (<Glossary>ROW</Glossary>) destinations.
       </Card>
 
-      <Card title="Service Type" icon="far fa-shipping-fast">
+      <Card title="Service Type" icon="fad fa-truck-fast">
         The integration is focused on outbound shipping.
       </Card>
 
-      <Card title="Incoterms Support" icon="far fa-file-contract">
+      <Card title="Incoterms Support" icon="fad fa-file-contract">
         The integration supports <Glossary>DAP</Glossary> and <Glossary>DDP</Glossary> incoterms.
       </Card>
 
-      <Card title="Label Formats" icon="far fa-tag">
+      <Card title="Label Formats" icon="fad fa-tag">
         The integration supports labels in the <Glossary>PDF</Glossary>, <Glossary>ZPL203DPI</Glossary>, and <Glossary>ZPL300DPI</Glossary> formats.
       </Card>
     </Cards>
@@ -51,11 +51,11 @@ This in an in-house integration, which means that the <Glossary>label</Glossary>
     The FedEx integration provides the following additional features:
 
     <Cards>
-      <Card title="Consignment Services" icon="far fa-cubes">
+      <Card title="Consignment Services" icon="fad fa-boxes-stacked">
         <Glossary>consignment</Glossary> services are supported, and DPD Local allows a maximum of 99 <Glossary>package</Glossary>s per consignment.
       </Card>
 
-      <Card title="Carrier-Specifics" icon="far fa-map-marker-alt">
+      <Card title="Carrier-Specifics" icon="fad fa-list-check">
         The **CarrierSpecifics** object contains the following field:
 
         * **DeliveryInstructions**: To provide any additional instructions to the <Glossary>carrier</Glossary> regarding the delivery of the shipment.
