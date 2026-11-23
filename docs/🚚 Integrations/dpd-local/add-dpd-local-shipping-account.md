@@ -52,14 +52,15 @@ In SAPIENT, you can create a DPD Local shipping account by selecting your desire
 
         On the **Add Shipping Account** form that appears, in the **ACCOUNT DETAILS** block, fill in the necessary information as described in the following table.
 
-        <Image align="center" border={true} src="https://files.readme.io/9e466e696ea305d18429dc70a57f6cfed758305cb42a7cb164d244a139e88383-DPD_UK_Account_Details_block.png" width="500px" caption="Entering account details" />
+        <Image src="https://files.readme.io/0bf771710894e28b32544ee1d8bf0234b879666a0e78f4accc9223fa557b8275-image.png" align="center" caption="Entering account details" border={true} />
+    >
         <br />
 
         <AsteridkForMandatoryElements />
 
         |         Element         | Description                                                                                                   |
         | :---------------------: | :------------------------------------------------------------------------------------------------------------ |
-        |      **Carrier**\*      | From the dropdown list, select **DPD Local**.                                                                    |
+        |      **Carrier**\*      | From the dropdown list, select DPD Local as your carrier option.                                                                    |
         | **Shipping Location**\* | From the dropdown menu, select the location that you want to assign to the shipping account you are creating. |
 
         ***
@@ -73,7 +74,8 @@ In SAPIENT, you can create a DPD Local shipping account by selecting your desire
 
         In the **SHIPPING ACCOUNT** block, enter the necessary information as explained in the following table.
 
-        <Image align="center" border={true} src="https://files.readme.io/39d87085578107757d9093cbbe563490cfaddc225e515ed2da42c1ab2bef70ee-DPD_UK_Shipping_Account_block.png" width="400px" caption="Specifying shipping account details" />
+        <Image src="https://files.readme.io/c9ba2c7e217fe95baa32302ba11066d8a351c94cc67683ae26207a62dd1ae77f-image.png" align="center" caption="Entering shipping account details" border={true} />
+
         <br />
 
         <Callout icon="💡" theme="default">
@@ -138,7 +140,8 @@ In SAPIENT, you can create a DPD Local shipping account by selecting your desire
 
         In the **CARRIER DETAILS** block, enter the necessary information as explained in the following table.
 
-        <Image align="center" border={true} src="https://files.readme.io/7c33d0683d772640711106d7353fba4e51c9a321c1bcab6c03953d9fcd3b8570-DPD_UK_Carrier_Details_block.png" width="400px" caption="Entering carrier details" />
+        <Image src="https://files.readme.io/debe2eee0ec10c04b070243818f709eb03568261c4642c3cdb6170f6eb3e36fb-image.png" align="center" caption="Entering carrier-specific details" />
+
         <br />
 
         <AsteridkForMandatoryElements />
@@ -152,7 +155,7 @@ In SAPIENT, you can create a DPD Local shipping account by selecting your desire
           </thead>
           <tbody>
             <tr>
-              <td><strong>Authorisation code</strong>&#42;</td>
+              <td><strong>API Key</strong>&#42;</td>
               <td>
                 Enter a unique 8-digit identifier as your authorisation code for DPD Local. This code is used to validate or link the manifest to the correct shipper or contract.
                 <br />
@@ -160,7 +163,7 @@ In SAPIENT, you can create a DPD Local shipping account by selecting your desire
               </td>
             </tr>
             <tr>
-              <td><strong>SLID</strong>&#42;</td>
+              <td><strong>API Secret</strong>&#42;</td>
               <td>Enter the unique customer identifier which will be used in the barcode range and manifest files.</td>
             </tr>
           </tbody>
@@ -204,3 +207,5 @@ In SAPIENT, you can create a DPD Local shipping account by selecting your desire
     Update or modify an existing shipping account.
   </Card>
 </Cards>
+
+<Image src="https://files.readme.io/debe2eee0ec10c04b070243818f709eb03568261c4642c3cdb6170f6eb3e36fb-image.png" align="center" caption="Entering carrier-specific details" />
