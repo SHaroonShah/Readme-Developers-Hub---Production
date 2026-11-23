@@ -161,9 +161,10 @@ In SAPIENT, you can create a DPD Local shipping account by selecting your desire
           </tbody>
         </table>
     <br />
+
     > 📘 *Note*
         >
-        > *Different **API Key** and **API Secret** credentials must be used for Sandbox and Production accounts.*
+        > *The **API Key** and **API Secret** credentials must be separate for Sandbox and Production accounts.*
         ***
 
         ***
