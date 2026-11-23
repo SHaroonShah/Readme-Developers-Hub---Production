@@ -205,5 +205,3 @@ In SAPIENT, you can create a DPD Local shipping account by selecting your desire
     Update or modify an existing shipping account.
   </Card>
 </Cards>
-
-<Image src="https://files.readme.io/debe2eee0ec10c04b070243818f709eb03568261c4642c3cdb6170f6eb3e36fb-image.png" align="center" caption="Entering carrier-specific details" />
