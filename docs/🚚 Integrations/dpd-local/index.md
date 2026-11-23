@@ -16,12 +16,6 @@ metadata:
 
 ***
 
-<Callout icon="🚧" theme="warn">
-  ### _Important_
-
-  _This integration is currently under development. The contents are to be updated as soon as possible._
-</Callout>
-
 DPD Local offers a range of specialist solutions and services. With over 6,000 drop-off locations throughout the UK, DPD Local gives customers the flexibility to arrange their deliveries around their needs. DPD Local also offers a range of collection services as well as free DPD Local tracking on every booking, whilst international shipping is available to send to one of over 200 countries worldwide at a low cost.
 
 This in an in-house integration, which means that the <Glossary>label</Glossary> will be generated in the SAPIENT system. Additionally, an electronic <Glossary>manifest</Glossary> data file is sent to DPD Local via SFTP when the shipments are manifested.
@@ -44,11 +38,11 @@ This in an in-house integration, which means that the <Glossary>label</Glossary>
       </Card>
 
       <Card title="Incoterms Support" icon="far fa-file-contract">
-        <Glossary>DAP</Glossary> and <Glossary>DDP</Glossary>.
+        The integration supports <Glossary>DAP</Glossary> and <Glossary>DDP</Glossary> incoterms.
       </Card>
 
       <Card title="Label Formats" icon="far fa-tag">
-        <Glossary>PDF</Glossary>, <Glossary>ZPL203DPI</Glossary>, and <Glossary>ZPL300DPI</Glossary>.
+        The integration supports labels in the <Glossary>PDF</Glossary>, <Glossary>ZPL203DPI</Glossary>, and <Glossary>ZPL300DPI</Glossary> formats.
       </Card>
     </Cards>
   </Tab>
