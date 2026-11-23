@@ -92,14 +92,7 @@ In SAPIENT, you can create a DPD Local shipping account by selecting your desire
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td><strong>Carrier Account Number</strong>&#42;</td>
-              <td>
-                Enter the account number, which is the DPD Local client ID.
-                <br />
-                <em><code>Note</code>: If you already have an account with DPD Local that is actively being used, and if you wish to receive tracking via Intersoft, then you need to request a new account number in order to integrate with Intersoft. This request can be made to your DPD account manager.</em>
-              </td>
-            </tr>
+            
             <tr>
               <td><strong>Account Name (if different than customer)</strong>&#42;</td>
               <td>Enter the name of the account you are adding.</td>
