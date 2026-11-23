@@ -150,17 +150,21 @@ In SAPIENT, you can create a DPD Local shipping account by selecting your desire
             <tr>
               <td><strong>API Key</strong>&#42;</td>
               <td>
-                Enter a unique 8-digit identifier as your authorisation code for DPD Local. This code is used to validate or link the manifest to the correct shipper or contract.
+                Enter the API Key provided by DPD Local for authetnicating the API requests.
                 <br />
-                <em><code>Note</code>: This identifier is included in the manifest file names.</em>
               </td>
             </tr>
             <tr>
               <td><strong>API Secret</strong>&#42;</td>
-              <td>Enter the unique customer identifier which will be used in the barcode range and manifest files.</td>
+              <td>Enter the API Secrect for the enetered API Key provided by DPD Local.</td>
             </tr>
           </tbody>
         </table>
+    <br />
+    > 📘 *Note*
+        >
+        > *Different **API Key** and **API Secret** credentials must be used for Sandbox and Production accounts.*
+        ***
 
         ***
       </ToggleListItem>
