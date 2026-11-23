@@ -22,7 +22,7 @@ metadata:
 
   • Maximum weight applies to the following conditions:
 
-  • 30 Kg for any GB shipments
+  • 30 Kg for all import services
 
   • 11 Kg for any non-GB shipments, for example, those using the DEI, DEJ, PS5, PS7, and so on.
 </Accordion>
