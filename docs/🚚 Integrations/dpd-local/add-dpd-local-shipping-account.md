@@ -53,7 +53,7 @@ In SAPIENT, you can create a DPD Local shipping account by selecting your desire
         On the **Add Shipping Account** form that appears, in the **ACCOUNT DETAILS** block, fill in the necessary information as described in the following table.
 
         <Image src="https://files.readme.io/0bf771710894e28b32544ee1d8bf0234b879666a0e78f4accc9223fa557b8275-image.png" align="center" caption="Entering account details" border={true} />
-    >
+
         <br />
 
         <AsteridkForMandatoryElements />
