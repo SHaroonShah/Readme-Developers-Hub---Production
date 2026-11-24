@@ -39,7 +39,11 @@ You can use Intersoft SAPIENT to integrate with the Royal Mail Import service an
   <Card title="Switch to production" href="https://docs.intersoftsapient.net/docs/switching-the-account-to-production" icon="fa-solid fa-rocket" target="_blank">
     Switch your account from Sandbox to production.
   </Card>
+</Cards>
 
+## Getting Started
+
+<Cards>
   <Card title="Commercial Clearance requirements" href="https://docs.intersoftsapient.net/docs/commercial-clearance-customers" icon="fa-solid fa-file-invoice" target="_blank">
     Import requirements for Commercial Clearance customers.
   </Card>
