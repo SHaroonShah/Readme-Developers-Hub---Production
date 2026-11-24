@@ -186,12 +186,6 @@ This in an in-house integration, which means that the <Glossary>label</Glossary>
       | **Direct Ireland** | This service provides direct parcel delivery between the UK and Ireland. DPD Ireland documents UK/Ireland services using both air and land/sea transport. |
       | **Air Classic**    | This service provides international parcel delivery by air for less time-sensitive shipments.                                                             |
     </Accordion>
-
-    <br />
-
-    <Accordion title="Parcel Services" icon="fa-info-circle">
-
-    </Accordion>
   </Tab>
 </Tabs>
 
