@@ -18,7 +18,9 @@ The Intersoft API is a RESTful API that uses JSON messages. Your system must be 
 <Callout icon="🚧" theme="warn">
   ### _Important_
 
-  _Before you use SAPIENT, you must authenticate your API requests using a&#x20;_<Glossary>bearer token</Glossary>_. See&#x20;_[_Authentication_](https://docs.intersoftsapient.net/docs/authentication)_&#x20;for more information._
+  _Before you use SAPIENT, you must authenticate your API requests using a&#x20;_<Glossary>bearer token</Glossary>_. for more information, refer to the&#x20;_[_Authentication_](https://docs.intersoftsapient.net/docs/authentication)_&#x20;section._
+
+  _Please bear in mind that SAPIENT applies rate limits to all API requests. Your integration must be able to handle HTTP 429 responses when a rate limit is exceeded. For more information, refer to the&#x20;_[_API Rate Limiting_](https://docs.intersoftsapient.net/docs/api-rate-limiting)_&#x20;section._
 </Callout>
 
 You must develop the following API calls:
