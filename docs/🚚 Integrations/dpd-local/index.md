@@ -146,7 +146,7 @@ This in an in-house integration, which means that the <Glossary>label</Glossary>
       </Callout>
     </Accordion>
 
-    <Accordion title="Tracking integration (via SFTP)">
+    <Accordion title="Tracking Integration">
       Enables customers to receive tracking updates through their integration with the SAPIENT tracking webhook.
     </Accordion>
   </Tab>
