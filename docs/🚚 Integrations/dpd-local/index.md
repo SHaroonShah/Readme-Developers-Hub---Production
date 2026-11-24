@@ -42,7 +42,7 @@ This in an in-house integration, which means that the <Glossary>label</Glossary>
       </Card>
 
       <Card title="Label Formats" icon="fad fa-tag">
-        The integration supports labels in the <Glossary>PDF</Glossary>, <Glossary>ZPL203DPI</Glossary>, and <Glossary>ZPL300DPI</Glossary> formats.
+        The integration supports labels in the <Glossary>PDF</Glossary>,<Glossary>PNG</Glossary>, <Glossary>ZPL203DPI</Glossary>, and <Glossary>ZPL300DPI</Glossary> formats.
       </Card>
     </Cards>
   </Tab>
