@@ -1,0 +1,23 @@
+navigation:
+  - kind: home
+    name: Home
+    icon: far fa-house
+  - kind: guide
+    directory: docs
+    name: User Guides
+    icon: far fa-book-open
+  - kind: recipes
+    directory: recipes
+    name: API Recipes
+    icon: far fa-flask
+  - kind: reference
+    directory: reference
+    name: API References
+    icon: far fa-code-simple
+  - kind: changelog
+    name: Release Notes
+    icon: far fa-bullhorn
+  - kind: discuss
+    name: Community
+    hidden: true
+    icon: far fa-comments
