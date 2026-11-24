@@ -23,7 +23,7 @@ You can use Intersoft SAPIENT to integrate with the Royal Mail Import service an
 
 ## Getting Started
 
-<Cards columns="4">
+<Cards columns="2">
   <Card title="Integrate with Royal Mail Import Service" href="https://docs.intersoftsapient.net/docs/integrate-with-royal-mail-import-service" icon="fa-solid fa-code" target="_blank">
     Follow a step-by-step guide on how to integrate the Royal Mail Import service with SAPIENT.
   </Card>
@@ -41,7 +41,7 @@ You can use Intersoft SAPIENT to integrate with the Royal Mail Import service an
   </Card>
 </Cards>
 
-## Getting Started
+## Royal Mail import service requirements and information
 
 <Cards>
   <Card title="Commercial Clearance requirements" href="https://docs.intersoftsapient.net/docs/commercial-clearance-customers" icon="fa-solid fa-file-invoice" target="_blank">
