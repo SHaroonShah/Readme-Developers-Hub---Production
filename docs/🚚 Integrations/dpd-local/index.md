@@ -102,7 +102,7 @@ This in an in-house integration, which means that the <Glossary>label</Glossary>
   <Tab title="Carrier Services">
     The following key services are provided by the DHL Germany integration.
 
-    <Accordion title="Parcel Services" icon="fa-info-circle">
+    <Accordion title="Parcel Services" icon="">
       | Service Name            | Description                                                      |
       | ----------------------- | ---------------------------------------------------------------- |
       | Parcel - Two Day        | This service provides parcel delivery within two working days.   |
@@ -119,7 +119,7 @@ This in an in-house integration, which means that the <Glossary>label</Glossary>
 
     <br />
 
-    <Accordion title="ExpressPak 1 Kg Services" icon="fa-info-circle">
+    <Accordion title="ExpressPak 1 Kg Services" icon="">
       | Service Name                    | Description                                                                        |
       | ------------------------------- | ---------------------------------------------------------------------------------- |
       | **ExpressPak - Next Day**       | This service provides next-working-day delivery for ExpressPak shipments.          |
@@ -135,7 +135,7 @@ This in an in-house integration, which means that the <Glossary>label</Glossary>
 
     <br />
 
-    <Accordion title="Express-Pak 5 Kg Services" icon="fa-info-circle">
+    <Accordion title="Express-Pak 5 Kg Services" icon="">
       | Service Name                    | Description                                                                        |
       | ------------------------------- | ---------------------------------------------------------------------------------- |
       | **ExpressPak - Next Day**       | This service provides next-working-day delivery for ExpressPak shipments.          |
@@ -151,7 +151,7 @@ This in an in-house integration, which means that the <Glossary>label</Glossary>
 
     <br />
 
-    <Accordion title="Pickup/Shop Services" icon="fa-info-circle">
+    <Accordion title="Pickup/Shop Services" icon="">
       | Service Name       | Description                                                                                              |
       | ------------------ | -------------------------------------------------------------------------------------------------------- |
       | **Ship to Shop**   | This service provides parcel delivery to a selected DPD Pickup location for collection by the recipient. |
@@ -160,7 +160,7 @@ This in an in-house integration, which means that the <Glossary>label</Glossary>
 
     <br />
 
-    <Accordion title="Freight Services" icon="fa-info-circle">
+    <Accordion title="Freight Services" icon="">
       | Service Name                 | Description                                                            |
       | ---------------------------- | ---------------------------------------------------------------------- |
       | **Freight - Next Day**       | This service provides next-working-day delivery for freight shipments. |
@@ -176,7 +176,7 @@ This in an in-house integration, which means that the <Glossary>label</Glossary>
 
     <br />
 
-    <Accordion title="International Services" icon="fa-info-circle">
+    <Accordion title="International Services" icon="">
       | Service Name       | Description                                                                                                                                               |
       | ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
       | **Road Classic**   | This service provides cost-effective international parcel delivery by road to European destinations.                                                      |
