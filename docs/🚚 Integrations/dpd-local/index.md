@@ -153,7 +153,7 @@ This in an in-house integration, which means that the <Glossary>label</Glossary>
       | Service Name       | Description                                                                                              |
       | ------------------ | -------------------------------------------------------------------------------------------------------- |
       | **Ship to Shop**   | This service provides parcel delivery to a selected DPD Pickup location for collection by the recipient. |
-      | **Return to Shop** | This service provides parcel returns through a participating DPD Pickup location.                        |
+      | **Return to Shop** | This service provides parcel returns through a participating DPD Pickup location.|
     </Accordion>
 
     <br />
