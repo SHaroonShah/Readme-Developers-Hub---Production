@@ -100,7 +100,7 @@ This in an in-house integration, which means that the <Glossary>label</Glossary>
   </Tab>
 
   <Tab title="Carrier Services">
-    Will be added soon.
+
   </Tab>
 </Tabs>
 
