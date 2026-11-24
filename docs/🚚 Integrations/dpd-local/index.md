@@ -12,7 +12,7 @@ icon: fad fa-truck-fast
 metadata:
   robots: index
 ---
-<Image src="https://files.readme.io/ec7877a4210f964edd4030c4599be01a423d26d55a53f64019ff4604a52ef069-DPD_white_banner.png" align="center" width="900px" />
+<Image src="https://files.readme.io/b26280ece7a6768b3fd4eba85780740a3589a1ac583036df185651d98e5073a2-DPD_Local_banner_White.png" align="center" width="900px" />
 
 ***
 
