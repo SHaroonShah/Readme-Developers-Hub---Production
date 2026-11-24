@@ -63,7 +63,7 @@ This in an in-house integration, which means that the <Glossary>label</Glossary>
         Provides parcel delivery to a selected DPD Pickup location, allowing the recipient to collect the parcel at their convenience.
       </Card>
 
-      <Card title="Paperless Returns">
+      <Card title="Paperless Returns" icon="fad fa-barcode">
         DPD Local rovides a paperless returns solution using a 2D/QR barcode, allowing customers to return parcels at a participating DPD Pickup Shop without printing a return label themselves.
       </Card>
     </Cards>
