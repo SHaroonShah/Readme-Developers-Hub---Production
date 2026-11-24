@@ -71,7 +71,7 @@ This in an in-house integration, which means that the <Glossary>label</Glossary>
     <Callout icon="🚧" theme="warn">
       ### _Important_
 
-      _The following service enhancements are not passed through the standard Create Shipment request. Instead, they are configured at the account level. If you require multiple service enhancements, you must configure a separate DPD Local shipping account for each one._
+      _The following service enhancements are not passed through the standard Create Shipment request. Instead, they are configured at the account level. If you require multiple service enhancements, you must configure a separate DPD Local account for each one._
     </Callout>
 
     <br />
