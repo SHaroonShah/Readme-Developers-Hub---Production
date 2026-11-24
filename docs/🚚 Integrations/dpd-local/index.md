@@ -58,6 +58,10 @@ This in an in-house integration, which means that the <Glossary>label</Glossary>
       <Card title="Future Date Shipments" icon="fad fa-box-circle-check">
         DPD Local allow shipments to be created up to 7 days in advance, but can be extended to 30 days if approved by your DPD Local account manager. If not, then the SAPIENT maximum of 28 days will apply.
       </Card>
+
+      <Card title="Ship to Shop">
+        Provides parcel delivery to a selected DPD Pickup location, allowing the recipient to collect the parcel at their convenience.
+      </Card>
     </Cards>
   </Tab>
 
