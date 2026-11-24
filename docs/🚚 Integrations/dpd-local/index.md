@@ -116,21 +116,71 @@ This in an in-house integration, which means that the <Glossary>label</Glossary>
       | Parcel - Sunday 10:30   | This service provides Sunday parcel delivery by 10:30.           |
       | Parcel - Sunday 12:00   | This service provides Sunday parcel delivery by 12:00.           |
     </Accordion>
+
+    <br />
+
+    <Accordion title="ExpressPak 1 Kg Services" icon="fa-info-circle">
+      | Service Name                    | Description                                                                        |
+      | ------------------------------- | ---------------------------------------------------------------------------------- |
+      | **ExpressPak - Next Day**       | This service provides next-working-day delivery for ExpressPak shipments.          |
+      | **ExpressPak - Next Day 12:00** | This service provides next-working-day delivery for ExpressPak shipments by 12:00. |
+      | **ExpressPak - Next Day 10:30** | This service provides next-working-day delivery for ExpressPak shipments by 10:30. |
+      | **ExpressPak - Saturday 12:00** | This service provides Saturday delivery for ExpressPak shipments by 12:00.         |
+      | **ExpressPak - Saturday 10:30** | This service provides Saturday delivery for ExpressPak shipments by 10:30.         |
+      | **ExpressPak - Saturday**       | This service provides Saturday delivery for ExpressPak shipments.                  |
+      | **ExpressPak - Sunday**         | This service provides Sunday delivery for ExpressPak shipments.                    |
+      | **ExpressPak - Sunday 10:30**   | This service provides Sunday delivery for ExpressPak shipments by 10:30.           |
+      | **ExpressPak - Sunday 12:00**   | This service provides Sunday delivery for ExpressPak shipments by 12:00.           |
+    </Accordion>
 <br />
-<Accordion title="ExpressPak 1 Kg" icon="fa-info-circle">
-</Accordion>
-<br />
-<Accordion title="Parcel Services" icon="fa-info-circle">
-</Accordion>
-<br />
-<Accordion title="Parcel Services" icon="fa-info-circle">
-</Accordion>
-<br />
-<Accordion title="Parcel Services" icon="fa-info-circle">
-</Accordion>
-<br />
-<Accordion title="Parcel Services" icon="fa-info-circle">
-</Accordion>
+    <Accordion title="Express-Pak Services" icon="fa-info-circle">
+      | Service Name                    | Description                                                                        |
+      | ------------------------------- | ---------------------------------------------------------------------------------- |
+      | **ExpressPak - Next Day**       | This service provides next-working-day delivery for ExpressPak shipments.          |
+      | **ExpressPak - Next Day 12:00** | This service provides next-working-day delivery for ExpressPak shipments by 12:00. |
+      | **ExpressPak - Next Day 10:30** | This service provides next-working-day delivery for ExpressPak shipments by 10:30. |
+      | **ExpressPak - Saturday 12:00** | This service provides Saturday delivery for ExpressPak shipments by 12:00.         |
+      | **ExpressPak - Saturday 10:30** | This service provides Saturday delivery for ExpressPak shipments by 10:30.         |
+      | **ExpressPak - Saturday**       | This service provides Saturday delivery for ExpressPak shipments.                  |
+      | **ExpressPak - Sunday**         | This service provides Sunday delivery for ExpressPak shipments.                    |
+      | **ExpressPak - Sunday 10:30**   | This service provides Sunday delivery for ExpressPak shipments by 10:30.           |
+      | **ExpressPak - Sunday 12:00**   | This service provides Sunday delivery for ExpressPak shipments by 12:00.           |
+    </Accordion>
+
+    <Accordion title="Pickup/Shop Services" icon="fa-info-circle">
+      | Service Name       | Description                                                                                              |
+      | ------------------ | -------------------------------------------------------------------------------------------------------- |
+      | **Ship to Shop**   | This service provides parcel delivery to a selected DPD Pickup location for collection by the recipient. |
+      | **Return to Shop** | This service provides parcel returns through a participating DPD Pickup location.                        |
+    </Accordion>
+
+    <br />
+
+    <Accordion title="Freight Services" icon="fa-info-circle">
+      | Service Name                 | Description                                                            |
+      | ---------------------------- | ---------------------------------------------------------------------- |
+      | **Freight - Next Day**       | This service provides next-working-day delivery for freight shipments. |
+      | **Freight - Next Day 12:00** | This service provides next-working-day freight delivery by 12:00.      |
+      | **Freight - Next Day 10:30** | This service provides next-working-day freight delivery by 10:30.      |
+      | **Freight - Saturday 12:00** | This service provides Saturday freight delivery by 12:00.              |
+      | **Freight - Saturday 10:30** | This service provides Saturday freight delivery by 10:30.              |
+      | **Freight - Saturday**       | This service provides freight delivery on Saturday.                    |
+      | **Freight - Sunday**         | This service provides freight delivery on Sunday.                      |
+      | **Freight - Sunday 10:30**   | This service provides Sunday freight delivery by 10:30.                |
+      | **Freight - Sunday 12:00**   | This service provides Sunday freight delivery by 12:00.                |
+    </Accordion>
+
+    <br />
+
+    <Accordion title="Parcel Services" icon="fa-info-circle">
+
+    </Accordion>
+
+    <br />
+
+    <Accordion title="Parcel Services" icon="fa-info-circle">
+
+    </Accordion>
   </Tab>
 </Tabs>
 
