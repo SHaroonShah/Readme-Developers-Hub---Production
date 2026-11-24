@@ -50,7 +50,7 @@ This in an in-house integration, which means that the <Glossary>label</Glossary>
   <Tab title="Additional Features">
     The FedEx integration provides the following additional features:
 
-    <Cards>
+    <Cards columns="2">
       <Card title="Consignment Services" icon="fad fa-boxes-stacked">
         <Glossary>consignment</Glossary> services are supported, and DPD Local allows a maximum of 99 <Glossary>package</Glossary>s per consignment.
       </Card>
@@ -64,7 +64,7 @@ This in an in-house integration, which means that the <Glossary>label</Glossary>
       </Card>
 
       <Card title="Paperless Returns">
-        DPD Local provides a paperless returns solution using a 2D/QR barcode, allowing customers to return parcels at a participating DPD Pickup Shop without printing a return label themselves.
+        DPD Local rovides a paperless returns solution using a 2D/QR barcode, allowing customers to return parcels at a participating DPD Pickup Shop without printing a return label themselves.
       </Card>
     </Cards>
   </Tab>
