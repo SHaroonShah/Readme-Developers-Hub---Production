@@ -253,6 +253,13 @@ This in an in-house integration, which means that the <Glossary>label</Glossary>
         </tbody>
       </Table>
     </Accordion>
+<br />
+
+<Callout icon="💡" theme="default">
+      ### _Tip_
+
+      _For the most up-to-date carrier services, use the&#x20;_[_Get Carrier Services_](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services)_&#x20;endpoint._
+    </Callout>
   </Tab>
 </Tabs>
 
