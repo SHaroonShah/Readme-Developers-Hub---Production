@@ -132,9 +132,10 @@ This in an in-house integration, which means that the <Glossary>label</Glossary>
       | **ExpressPak - Sunday 10:30**   | This service provides Sunday delivery for ExpressPak shipments by 10:30.           |
       | **ExpressPak - Sunday 12:00**   | This service provides Sunday delivery for ExpressPak shipments by 12:00.           |
     </Accordion>
-<br />
 
-    <Accordion title="Express-Pak Services" icon="fa-info-circle">
+    <br />
+
+    <Accordion title="Express-Pak 5 Kg Services" icon="fa-info-circle">
       | Service Name                    | Description                                                                        |
       | ------------------------------- | ---------------------------------------------------------------------------------- |
       | **ExpressPak - Next Day**       | This service provides next-working-day delivery for ExpressPak shipments.          |
@@ -148,13 +149,13 @@ This in an in-house integration, which means that the <Glossary>label</Glossary>
       | **ExpressPak - Sunday 12:00**   | This service provides Sunday delivery for ExpressPak shipments by 12:00.           |
     </Accordion>
 
-<br />
+    <br />
 
     <Accordion title="Pickup/Shop Services" icon="fa-info-circle">
-      | Service Name       | Description                                                                                         |
+      | Service Name       | Description                                                                                              |
       | ------------------ | -------------------------------------------------------------------------------------------------------- |
       | **Ship to Shop**   | This service provides parcel delivery to a selected DPD Pickup location for collection by the recipient. |
-      | **Return to Shop** | This service provides parcel returns through a participating DPD Pickup location.|
+      | **Return to Shop** | This service provides parcel returns through a participating DPD Pickup location.                        |
     </Accordion>
 
     <br />
@@ -175,8 +176,15 @@ This in an in-house integration, which means that the <Glossary>label</Glossary>
 
     <br />
 
-    <Accordion title="Parcel Services" icon="fa-info-circle">
-
+    <Accordion title="International Services" icon="fa-info-circle">
+      | Service Name       | Description                                                                                                                                               |
+      | ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+      | **Road Classic**   | This service provides cost-effective international parcel delivery by road to European destinations.                                                      |
+      | **Road Classic**   | This service provides cost-effective international parcel delivery by road to European destinations.                                                      |
+      | **Air Express**    | This service provides fast international parcel delivery by air for time-sensitive shipments.                                                             |
+      | **Direct**         | This service provides direct international delivery of parcels to supported destinations.                                                                 |
+      | **Direct Ireland** | This service provides direct parcel delivery between the UK and Ireland. DPD Ireland documents UK/Ireland services using both air and land/sea transport. |
+      | **Air Classic**    | This service provides international parcel delivery by air for less time-sensitive shipments.                                                             |
     </Accordion>
 
     <br />
