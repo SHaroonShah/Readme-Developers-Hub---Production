@@ -102,7 +102,7 @@ This in an in-house integration, which means that the <Glossary>label</Glossary>
   <Tab title="Carrier Services">
     The following key services are provided by the DHL Germany integration.
 
-    <Accordion title="Parcel Services" icon="">
+    <Accordion title="Parcel Services">
       | Service Name            | Description                                                      |
       | ----------------------- | ---------------------------------------------------------------- |
       | Parcel - Two Day        | This service provides parcel delivery within two working days.   |
@@ -119,7 +119,7 @@ This in an in-house integration, which means that the <Glossary>label</Glossary>
 
     <br />
 
-    <Accordion title="ExpressPak 1 Kg Services" icon="">
+    <Accordion title="ExpressPak 1 Kg Services">
       | Service Name                    | Description                                                                        |
       | ------------------------------- | ---------------------------------------------------------------------------------- |
       | **ExpressPak - Next Day**       | This service provides next-working-day delivery for ExpressPak shipments.          |
@@ -135,7 +135,7 @@ This in an in-house integration, which means that the <Glossary>label</Glossary>
 
     <br />
 
-    <Accordion title="Express-Pak 5 Kg Services" icon="">
+    <Accordion title="Express-Pak 5 Kg Services">
       | Service Name                    | Description                                                                        |
       | ------------------------------- | ---------------------------------------------------------------------------------- |
       | **ExpressPak - Next Day**       | This service provides next-working-day delivery for ExpressPak shipments.          |
@@ -151,7 +151,7 @@ This in an in-house integration, which means that the <Glossary>label</Glossary>
 
     <br />
 
-    <Accordion title="Pickup/Shop Services" icon="">
+    <Accordion title="Pickup/Shop Services">
       | Service Name       | Description                                                                                              |
       | ------------------ | -------------------------------------------------------------------------------------------------------- |
       | **Ship to Shop**   | This service provides parcel delivery to a selected DPD Pickup location for collection by the recipient. |
@@ -160,7 +160,7 @@ This in an in-house integration, which means that the <Glossary>label</Glossary>
 
     <br />
 
-    <Accordion title="Freight Services" icon="">
+    <Accordion title="Freight Services">
       | Service Name                 | Description                                                            |
       | ---------------------------- | ---------------------------------------------------------------------- |
       | **Freight - Next Day**       | This service provides next-working-day delivery for freight shipments. |
@@ -176,15 +176,82 @@ This in an in-house integration, which means that the <Glossary>label</Glossary>
 
     <br />
 
-    <Accordion title="International Services" icon="">
-      | Service Name       | Description                                                                                                                                               |
-      | ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-      | **Road Classic**   | This service provides cost-effective international parcel delivery by road to European destinations.                                                      |
-      | **Road Classic**   | This service provides cost-effective international parcel delivery by road to European destinations.                                                      |
-      | **Air Express**    | This service provides fast international parcel delivery by air for time-sensitive shipments.                                                             |
-      | **Direct**         | This service provides direct international delivery of parcels to supported destinations.                                                                 |
-      | **Direct Ireland** | This service provides direct parcel delivery between the UK and Ireland. DPD Ireland documents UK/Ireland services using both air and land/sea transport. |
-      | **Air Classic**    | This service provides international parcel delivery by air for less time-sensitive shipments.                                                             |
+    <Accordion title="International Services">
+      <Table>
+        <thead>
+          <tr>
+            <th style={{ width: "19.5%" }}>
+              Service Name
+            </th>
+
+            <th style={{ width: "80.4%" }}>
+              Description
+            </th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>
+              **Road Classic**
+            </td>
+
+            <td>
+              This service provides cost-effective international parcel delivery by road to European destinations.
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              **Road Classic**
+            </td>
+
+            <td>
+              This service provides cost-effective international parcel delivery by road to European destinations.
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              **Air Express**
+            </td>
+
+            <td>
+              This service provides fast international parcel delivery by air for time-sensitive shipments.
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              **Direct**
+            </td>
+
+            <td>
+              This service provides direct international delivery of parcels to supported destinations.
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              **Direct Ireland**
+            </td>
+
+            <td>
+              This service provides direct parcel delivery between the UK and Ireland. DPD Ireland documents UK/Ireland services using both air and land/sea transport.
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              **Air Classic**
+            </td>
+
+            <td>
+              This service provides international parcel delivery by air for less time-sensitive shipments.
+            </td>
+          </tr>
+        </tbody>
+      </Table>
     </Accordion>
   </Tab>
 </Tabs>
