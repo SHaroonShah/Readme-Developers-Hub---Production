@@ -133,6 +133,7 @@ This in an in-house integration, which means that the <Glossary>label</Glossary>
       | **ExpressPak - Sunday 12:00**   | This service provides Sunday delivery for ExpressPak shipments by 12:00.           |
     </Accordion>
 <br />
+
     <Accordion title="Express-Pak Services" icon="fa-info-circle">
       | Service Name                    | Description                                                                        |
       | ------------------------------- | ---------------------------------------------------------------------------------- |
@@ -146,6 +147,7 @@ This in an in-house integration, which means that the <Glossary>label</Glossary>
       | **ExpressPak - Sunday 10:30**   | This service provides Sunday delivery for ExpressPak shipments by 10:30.           |
       | **ExpressPak - Sunday 12:00**   | This service provides Sunday delivery for ExpressPak shipments by 12:00.           |
     </Accordion>
+
 <br />
     <Accordion title="Pickup/Shop Services" icon="fa-info-circle">
       | Service Name       | Description                                                                                              |
