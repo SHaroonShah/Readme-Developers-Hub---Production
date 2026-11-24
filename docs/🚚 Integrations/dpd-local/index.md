@@ -116,6 +116,21 @@ This in an in-house integration, which means that the <Glossary>label</Glossary>
       | Parcel - Sunday 10:30   | This service provides Sunday parcel delivery by 10:30.           |
       | Parcel - Sunday 12:00   | This service provides Sunday parcel delivery by 12:00.           |
     </Accordion>
+<br />
+<Accordion title="ExpressPak 1 Kg" icon="fa-info-circle">
+</Accordion>
+<br />
+<Accordion title="Parcel Services" icon="fa-info-circle">
+</Accordion>
+<br />
+<Accordion title="Parcel Services" icon="fa-info-circle">
+</Accordion>
+<br />
+<Accordion title="Parcel Services" icon="fa-info-circle">
+</Accordion>
+<br />
+<Accordion title="Parcel Services" icon="fa-info-circle">
+</Accordion>
   </Tab>
 </Tabs>
 
