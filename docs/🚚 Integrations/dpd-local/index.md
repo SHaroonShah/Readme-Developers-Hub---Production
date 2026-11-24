@@ -147,7 +147,7 @@ This in an in-house integration, which means that the <Glossary>label</Glossary>
     </Accordion>
 
     <Accordion title="Tracking integration (via SFTP)">
-      This integration allows customers to monitor their shipments in real-time, providing transparency and peace of mind. Users can access detailed tracking information, including, real-time updates, tracking numbers, and delivery notifications. For DPD Local shipments, the data files are sent via SFTP.
+      Enables customers to receive tracking updates through their integration with the SAPIENT tracking webhook.
     </Accordion>
   </Tab>
 </Tabs>
