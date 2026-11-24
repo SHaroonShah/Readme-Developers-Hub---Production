@@ -21,7 +21,7 @@ You can use Intersoft SAPIENT to integrate with the Royal Mail Import service an
   _This section is only applicable if you are a Royal Mail customer who is importing goods into the UK. Before initiating the integration, make sure you have an agreement with Royal Mail to use this service._
 </Callout>
 
-## Getting Started
+## Getting started
 
 <Cards columns="2">
   <Card title="Integrate with Royal Mail Import Service" href="https://docs.intersoftsapient.net/docs/integrate-with-royal-mail-import-service" icon="fa-solid fa-code" target="_blank">
