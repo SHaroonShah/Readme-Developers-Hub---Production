@@ -1,8 +1,8 @@
 ---
 title: Import requirements for Freight 2 Post customers
 excerpt: >-
-  Freight 2 Post customers are businesses or organisations that utilise a
-  shipping service that combines freight transport with postal delivery methods.
+  Freight 2 Post is for customers who send goods to the UK as freight before the
+  goods enter the Royal Mail postal network.
 deprecated: false
 hidden: false
 icon: fad fa-file-circle-info
@@ -96,7 +96,7 @@ In UK, the <Glossary>shipments</Glossary> arrive as freight. For custom clearanc
 
         For CDS checks, you will be requested to create couple of labels, manifest them and share with us the PDFs so they can be reviewed and signed off.<br />For physical label sign off, you will be requested to create couple of labels, manifest them and ship them to Royal Mail.
 
-        `Note:`_Details on this label are shared once the [Sandbox Test Pack](https://docs.intersoftsapient.net/docs/royal-mail-importers-sandbox-test-pack)  is approved._
+        `Note:`_Details on this label are shared once the&#x20;_[Sandbox Test Pack](https://docs.intersoftsapient.net/docs/royal-mail-importers-sandbox-test-pack)_&#x20; is approved._
       </td>
     </tr>
 
