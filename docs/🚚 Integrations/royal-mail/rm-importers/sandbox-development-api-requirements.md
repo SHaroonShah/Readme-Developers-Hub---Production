@@ -26,7 +26,7 @@ The Intersoft API is a RESTful API that uses JSON messages. Your system must be 
 You must develop the following API calls:
 
 <Cards>
-  <Card title="Create Shipment" href="https://docs.intersoftsapient.net/reference/post_v4-shipments-rm" icon="fa-solid fa-box" target="_blank">
+  <Card title="Create Shipm" href="https://docs.intersoftsapient.net/reference/post_v4-shipments-rm" icon="fa-solid fa-box" target="_blank">
     Generate the delivery <Glossary>labels</Glossary> for your packages.
   </Card>
 
@@ -54,7 +54,7 @@ You must develop the following API calls:
     </Card>
 
     <Card title="Get Containers" href="https://docs.intersoftsapient.net/reference/get_v4-internationalarrivalscontainers-rm" icon="fa-solid fa-list" target="_blank">
-      Get a list of all International Arrivals Containers set up on the system.
+      Get a list of your International Arrivals Containers.&#x20;
     </Card>
 
     <Card title="Update Container" href="https://docs.intersoftsapient.net/reference/put_v4-internationalarrivalscontainers-rm-update-containerid" icon="fa-solid fa-pen-to-square" target="_blank">
@@ -66,11 +66,11 @@ You must develop the following API calls:
     </Card>
 
     <Card title="Delete Container" href="https://docs.intersoftsapient.net/reference/delete_v4-internationalarrivalscontainers-rm-containerid" icon="fa-solid fa-trash" target="_blank">
-      Delete a specific container.
+      Delete an International Arrivals Container.
     </Card>
 
     <Card title="Get Container" href="https://docs.intersoftsapient.net/reference/get_v4-internationalarrivalscontainers-rm-containerid" icon="fa-solid fa-magnifying-glass" target="_blank">
-      Get details for a specific container.
+      Get the details of an International Arrivals Container.
     </Card>
   </Cards>
 </Accordion>
@@ -87,7 +87,7 @@ You must develop the following API calls:
 
 ***
 
-### See also
+### Related guides
 
 <Cards columns="2">
   <Card title="Authentication" href="https://docs.intersoftsapient.net/docs/authentication" icon="fa-solid fa-lock" target="_blank">
