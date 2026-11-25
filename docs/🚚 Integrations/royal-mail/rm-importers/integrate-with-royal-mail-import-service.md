@@ -128,7 +128,7 @@ Follow the steps below to integrate the Royal Mail Import service with SAPIENT:
 
     <br />
 
-    Complete the following [Test Pack requirements](https://docs.intersoftsapient.net/docs/royal-mail-importers-sandbox-test-pack) and submit it at [onboarding@intersoft.co.uk](mailto:onboarding@intersoft.co.uk).
+    Complete the following [Test Pack requirements](https://docs.intersoftsapient.net/docs/royal-mail-importers-sandbox-test-pack) and submit the completed Test Pack to [onboarding@intersoft.co.uk](mailto:onboarding@intersoft.co.uk).
 
     > 📘 *Note*
     >
