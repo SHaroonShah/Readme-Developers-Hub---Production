@@ -80,7 +80,7 @@ When the shipments arrive in the UK, they arrive as freight. Royal Mail collects
       <td>
         Not required.
 
-        There is no one to hand over the paperwork and the customers provide the pre-alert data to HWDC which acts as a replacement of the manifest paperwork.
+        Freight 2 Post customers provide pre-alert data to HWDC instead of a Royal Mail Sales Order Summary.
       </td>
     </tr>
 
@@ -90,11 +90,11 @@ When the shipments arrive in the UK, they arrive as freight. Royal Mail collects
       </td>
 
       <td>
-        Required – CDS checks and physical labels.
+        Required. Royal Mail requires both CDS checks and physical label sign-off.
 
-        For CDS checks, you will be requested to create couple of labels, manifest them and share with us the PDFs so they can be reviewed and signed off.<br />For physical label sign off, you will be requested to create couple of labels, manifest them and ship them to Royal Mail.
+        For CDS checks, you must create and manifest the required test labels and send the label PDFs to Intersoft for review and approval.<br />For physical label sign-off, you must create and manifest the required test labels, print them, and send the physical labels to Royal Mail for approval.
 
-        `Note:`_Details on this label are shared once the&#x20;_[Sandbox Test Pack](https://docs.intersoftsapient.net/docs/royal-mail-importers-sandbox-test-pack)_&#x20; is approved._
+        `Note: `_Instructions for the CDS checks and physical label sign-off will be provided after your&#x20;_[_Sandbox Test Pack_](https://docs.intersoftsapient.net/docs/royal-mail-importers-sandbox-test-pack)_&#x20; has been approved._
       </td>
     </tr>
 
@@ -104,7 +104,7 @@ When the shipments arrive in the UK, they arrive as freight. Royal Mail collects
       </td>
 
       <td>
-        To access the list of all of the **Create Shipment** fields required for Freight 2 Post customers, refer to the [Field requirements for Freight 2 post customers](https://docs.intersoftsapient.net/docs/freight-2-post-customers-fields-requirements) section.
+        See [Field requirements for Freight 2 Post customers](https://docs.intersoftsapient.net/docs/freight-2-post-customers-fields-requirements) for the required Create Shipment fields.
       </td>
     </tr>
   </tbody>
