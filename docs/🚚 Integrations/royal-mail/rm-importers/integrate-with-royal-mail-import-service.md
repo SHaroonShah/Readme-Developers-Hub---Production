@@ -152,7 +152,7 @@ Follow the steps below to integrate the Royal Mail Import service with SAPIENT:
 <Callout icon="💡" theme="default">
   ### _Tip_
 
-  _If you have a question or experience an issue with the Royal Mail Import service, contact the Intersoft Onboarding team by e-mailing&#x20;_[_onboarding@intersoft.co.uk._](mailto:onboarding@intersoft.co.uk)
+  _If you have a question or experience an issue with the Royal Mail Import service, contact the Intersoft Onboarding team at&#x20;_[_onboarding@intersoft.co.uk._](mailto:onboarding@intersoft.co.uk)
 
   _If you are reporting an API issue, include a copy of both the API request and API response. This will help us investigate the issue._
 
