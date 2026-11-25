@@ -43,7 +43,7 @@ When the shipments arrive in the UK, they arrive as freight. Royal Mail collects
       </td>
 
       <td>
-        Based in another country (that is, outside the UK).
+        Must be an address outside the UK.
       </td>
     </tr>
 
@@ -53,7 +53,7 @@ When the shipments arrive in the UK, they arrive as freight. Royal Mail collects
       </td>
 
       <td>
-        **Return to Sender** section of the **Create Shipment** request to be populated with the Royal Mail Heathrow Distribution Centre address:
+        In the **Create Shipment** request, use the Royal Mail Heathrow Distribution Centre address in the **Return to Sender** section:
 
         - **CompanyName**: COMPANY NAME - Royal Mail HWDC
         - **Line1:** Axis Park, Hurricane Way
@@ -70,7 +70,7 @@ When the shipments arrive in the UK, they arrive as freight. Royal Mail collects
       <td>
         Required.
 
-        This can be either a combined label + <Glossary>CN22</Glossary> or <Glossary>CN23</Glossary> separately. Please see [here ](https://docs.intersoftsapient.net/docs/combined-label#/)for more information on this.
+        This can be either a combined shipping label + <Glossary>CN22</Glossary>, or a shipping label with a separate <Glossary>CN23</Glossary>. See [Combined label + CN22](https://docs.intersoftsapient.net/docs/combined-label#/) for more information on this.
       </td>
     </tr>
 
