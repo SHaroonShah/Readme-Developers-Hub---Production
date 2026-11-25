@@ -79,7 +79,7 @@ Review the requirements in the table below.
 
     <tr>
       <td style={{ textAlign: "center" }}>
-        **Royal Mail Sign Off**\*
+        **Royal Mail Sign-off**\*
       </td>
 
       <td>
@@ -95,8 +95,8 @@ Review the requirements in the table below.
       </td>
 
       <td>
-        * Follow the domestic shipment requirements in the [Create Shipment API specification](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm)
-        * Provide the Destination Contact Email
+        * Follow the domestic shipment requirements in the [Create Shipment API specification.](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm)
+        * Provide the Destination Contact Email.
       </td>
     </tr>
   </tbody>
