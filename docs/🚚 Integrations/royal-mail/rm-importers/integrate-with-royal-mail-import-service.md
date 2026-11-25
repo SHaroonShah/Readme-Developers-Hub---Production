@@ -143,7 +143,7 @@ Follow the steps below to integrate the Royal Mail Import service with SAPIENT:
 
     <br />
 
-    Once the **Test Pack** is approved, our team will [switch your account to Production](https://docs.intersoftsapient.net/docs/switching-the-account-to-production) and share with you the details on the sign off process required by Royal Mail.
+    Once your **Test Pack** is approved, our team will [switch your account to Production](https://docs.intersoftsapient.net/docs/switching-the-account-to-production) and provide details of the Royal Mail sign-off process.
   </ToggleListItem>
 </ToggleList>
 
