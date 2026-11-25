@@ -13,9 +13,9 @@ metadata:
 next:
   description: ''
 ---
-This service typically involves the transportation of goods via a freight <Glossary>carrier</Glossary> (such as trucks, ships, or air freight) to a central location, followed by delivery through postal service to the final location.
+Goods are transported to the UK by freight and then enter the Royal Mail network for final delivery.
 
-In UK, the <Glossary>shipments</Glossary> arrive as freight. For custom clearance purposes, Royal Mail collect these items from the airline handler before converting them from Freight 2 Post. Once converted/recognised as postal, Royal Mail presents these items to customs as postal before injecting them into the UK network.
+When the shipments arrive in the UK, they arrive as freight. Royal Mail collects the shipments from the airline handler and processes them as postal items for customs clearance. After customs clearance, the shipments enter the Royal Mail network for final delivery.
 
 <Callout icon="💡" theme="default">
   ### _Tip_
