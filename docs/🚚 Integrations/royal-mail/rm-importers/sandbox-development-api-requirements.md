@@ -18,16 +18,16 @@ The Intersoft API is a RESTful API that uses JSON messages. Your system must be 
 <Callout icon="🚧" theme="warn">
   ### _Important_
 
-  _Before you use SAPIENT, you must authenticate your API requests using a&#x20;_<Glossary>bearer token</Glossary>_. for more information, refer to the&#x20;_[_Authentication_](https://docs.intersoftsapient.net/docs/authentication)_&#x20;section._
+  _Before you send API requests to SAPIENT, you must authenticate them using a&#x20;_<Glossary>bearer token</Glossary>_. See&#x20;_[_Authentication_](https://docs.intersoftsapient.net/docs/authentication)_&#x20;for more information._
 
-  _Please bear in mind that SAPIENT applies rate limits to all API requests. Your integration must be able to handle HTTP 429 responses when a rate limit is exceeded. For more information, refer to the&#x20;_[_API Rate Limiting_](https://docs.intersoftsapient.net/docs/api-rate-limiting)_&#x20;section._
+  _SAPIENT applies rate limits to all API requests. Your integration must be able to handle HTTP 429 responses when a rate limit is exceeded. See&#x20;_[_API Rate Limiting_](https://docs.intersoftsapient.net/docs/api-rate-limiting)_&#x20;for more information._
 </Callout>
 
 You must develop the following API calls:
 
 <Cards>
-  <Card title="Create Shipm" href="https://docs.intersoftsapient.net/reference/post_v4-shipments-rm" icon="fa-solid fa-box" target="_blank">
-    Generate the delivery <Glossary>labels</Glossary> for your packages.
+  <Card title="Create Shipment" href="https://docs.intersoftsapient.net/reference/post_v4-shipments-rm" icon="fa-solid fa-box" target="_blank">
+    Create a shipment and generate the delivery <Glossary>label</Glossary>.
   </Card>
 
   <Card title="Update Status to Cancel" href="https://docs.intersoftsapient.net/reference/put_v4-shipments-status" icon="fa-solid fa-ban" target="_blank">
