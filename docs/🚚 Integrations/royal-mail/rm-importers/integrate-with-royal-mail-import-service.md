@@ -86,9 +86,9 @@ Follow the steps below to integrate the Royal Mail Import service with SAPIENT:
 
     <br />
 
-    If you are a Freight 2 Post customer, set up [International Arrival Containers (A-scan)](https://docs.intersoftsapient.net/docs/add-barcode-range-for-international-arrival-containers). For now the Customer Number can be filled with dummy details. The Barcode Range used for testing purposes should be **AC40000001** to **AC49999999**.
+    If you are a Freight 2 Post customer, set up [International Arrival Containers (A-Scan)](https://docs.intersoftsapient.net/docs/add-barcode-range-for-international-arrival-containers). For Sandbox testing, you can use dummy details for the Customer Number. Use the barcode range **AC40000001** to **AC49999999** for testing.
 
-    Production details will be provided to you when your account is switched onto production.
+    We will provide your Production details when your account is switched to Production.
 
     ***
   </ToggleListItem>
