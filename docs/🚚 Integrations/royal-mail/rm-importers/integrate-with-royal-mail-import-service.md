@@ -65,7 +65,7 @@ Follow the steps below to integrate the Royal Mail Import service with SAPIENT:
 
   <br />
 
-  <ToggleListItem title="5. Add Shipping Account and Shipping Location" icon="fa-solid fa-location-dot">
+  <ToggleListItem title="5. Add your Shipping Account and Shipping Location" icon="fa-solid fa-location-dot">
 
     <br />
 
@@ -128,11 +128,11 @@ Follow the steps below to integrate the Royal Mail Import service with SAPIENT:
 
     <br />
 
-    Complete the [Test Pack](https://docs.intersoftsapient.net/docs/royal-mail-importers-sandbox-test-pack) and submit it at [onboarding@intersoft.co.uk](mailto:onboarding@intersoft.co.uk).
+    Complete the following [Test Pack requirements](https://docs.intersoftsapient.net/docs/royal-mail-importers-sandbox-test-pack) and submit it at [onboarding@intersoft.co.uk](mailto:onboarding@intersoft.co.uk).
 
     > 📘 *Note*
     >
-    > *A test pack is a critical step in the implementation process, ensuring a smooth transition to the live environment and minimising disruptions in shipping operations.*
+    > *Before you can move to Production, you must complete and submit the Royal Mail Import Sandbox Test Pack. The Test Pack confirms that your integration has been tested correctly.*
 
     ***
   </ToggleListItem>
