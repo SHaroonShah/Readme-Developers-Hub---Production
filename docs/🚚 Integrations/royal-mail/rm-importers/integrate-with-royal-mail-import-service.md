@@ -56,7 +56,7 @@ Follow the steps below to integrate the Royal Mail Import service with SAPIENT:
 
     <br />
 
-    On the integrations page, in the **LABELS** section, select **ACTIVATE**.
+    On the Integrations page, in the **LABELS** section, select **ACTIVATE**.
 
     <Image align="center" border={true} src="https://files.readme.io/abc4b6de2300fc06a50a56e87560afb0251fd5a13cf521fff5c473cdc4502d51-RM_Labels_activation.png" caption="Activating the Royal Mail labels integration" />
 
