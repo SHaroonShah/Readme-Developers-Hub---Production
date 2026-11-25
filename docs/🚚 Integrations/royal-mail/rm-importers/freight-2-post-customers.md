@@ -113,5 +113,5 @@ When the shipments arrive in the UK, they arrive as freight. Royal Mail collects
 <Callout icon="🚧" theme="warn">
   ### _Important_
 
-  _Freight 2 Post customers must develop the International Arrivals Containers (A-Scan) API calls. See&#x20;_[_International Arrivals Containers (A-Scan) flow_](https://docs.intersoftsapient.net/docs/internation-arrival-containers-ascan-flow)_&#x20;for more information.&#x20;_
+  _Freight 2 Post customers must develop the International Arrivals Containers (A-Scan) API calls. See&#x20;_[_International Arrivals Containers (A-Scan)_](https://docs.intersoftsapient.net/reference/post_v4-internationalarrivalscontainers-rm)_&#x20;for more information.&#x20;_
 </Callout>
