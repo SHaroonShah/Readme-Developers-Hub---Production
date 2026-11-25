@@ -13,8 +13,6 @@ metadata:
 next:
   description: ''
 ---
-Goods are transported to the UK by freight and then enter the Royal Mail network for final delivery.
-
 When the shipments arrive in the UK, they arrive as freight. Royal Mail collects the shipments from the airline handler and processes them as postal items for customs clearance. After customs clearance, the shipments enter the Royal Mail network for final delivery.
 
 <Callout icon="💡" theme="default">
