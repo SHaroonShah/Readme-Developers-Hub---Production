@@ -68,7 +68,7 @@ When the shipments arrive in the UK, they arrive as freight. Royal Mail collects
       <td>
         Required.
 
-        Depending on the shipment, SAPIENT will generate either a combined shipping label + <Glossary>CN22</Glossary>, or a shipping label with a separate <Glossary>CN23</Glossary>. See [Combined label + CN22](https://docs.intersoftsapient.net/docs/combined-label#/) for more information on this.
+        Depending on the shipment, SAPIENT will generate either a combined shipping label + <Glossary>CN22</Glossary> or a shipping label with a separate <Glossary>CN23</Glossary>. See [Combined label + CN22](https://docs.intersoftsapient.net/docs/combined-label#/) for more information.
       </td>
     </tr>
 
