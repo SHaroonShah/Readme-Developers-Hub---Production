@@ -74,7 +74,7 @@ Follow the steps below to integrate the Royal Mail Import service with SAPIENT:
     <Callout icon="💡" theme="default">
       ### *Tip*
 
-      *For Sandbox (Test) account, you can use dummy details. For more instructions on how to set up a Royal Mail S<Glossary>hipping Account</Glossary>, see [Set up Royal Mail Shipping Account](https://docs.intersoftsapient.net/docs/shipping-account-requirements).*
+      *For your Sandbox (Test) account, you can use dummy details. For more instructions on how to set up a Royal Mail S<Glossary>hipping Account</Glossary>, see [Set up Royal Mail Shipping Account](https://docs.intersoftsapient.net/docs/shipping-account-requirements).*
     </Callout>
 
     ***
