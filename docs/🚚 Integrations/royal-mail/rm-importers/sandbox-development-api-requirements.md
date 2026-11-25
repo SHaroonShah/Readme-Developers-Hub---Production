@@ -27,7 +27,7 @@ You must develop the following API calls:
 
 <Cards>
   <Card title="Create Shipment" href="https://docs.intersoftsapient.net/reference/post_v4-shipments-rm" icon="fa-solid fa-box" target="_blank">
-    Create a shipment and generate the delivery <Glossary>label</Glossary>.
+    Create a shipment and generate the delivery <Glossary>labels</Glossary>.
   </Card>
 
   <Card title="Update Status to Cancel" href="https://docs.intersoftsapient.net/reference/put_v4-shipments-status" icon="fa-solid fa-ban" target="_blank">
