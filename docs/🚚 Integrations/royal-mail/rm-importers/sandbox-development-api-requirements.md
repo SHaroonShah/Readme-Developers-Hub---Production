@@ -80,7 +80,7 @@ You must develop the following API calls:
 
   _If your servers are based in China, use the dedicated .cn API endpoints. Replace .net with .cn in the relevant endpoint URLs._
 
-  _For example, when creating a new shipment replace the&#x20;_[https://api.intersoftsapient.net/v4/shipments/rm](https://api.intersoftsapient.net/v4/shipments/rm)_&#x20;URL with&#x20;_[https://api.intersoftsapient.cn/v4/shipments/rm](https://api.intersoftsapient.net/v4/shipments/rm)_._
+  _For example, when creating a new shipment, replace the&#x20;_[https://api.intersoftsapient.net/v4/shipments/rm](https://api.intersoftsapient.net/v4/shipments/rm)_&#x20;URL with&#x20;_[https://api.intersoftsapient.cn/v4/shipments/rm](https://api.intersoftsapient.net/v4/shipments/rm)_._
 
   _Your integration should also support the .net endpoints as a backup._
 </Callout>
