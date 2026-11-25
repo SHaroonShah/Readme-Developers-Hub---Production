@@ -86,7 +86,7 @@ When the shipments arrive in the UK, they arrive as freight. Royal Mail collects
 
     <tr>
       <td style={{ textAlign: "center" }}>
-        **Royal Mail Sign Off**
+        **Royal Mail Sign-off**
       </td>
 
       <td>
