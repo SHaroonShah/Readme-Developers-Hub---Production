@@ -166,7 +166,7 @@ Follow the steps below to integrate the Royal Mail Import service with SAPIENT:
     View all the requirements for using Royal Mail returns services.
   </Card>
 
-  <Card title="Tracking Webhook" href="https://docs.intersoftsapient.net/docs/tracking-webhook-1" icon="fa-solid fa-bell" target="_blank">
+  <Card title="Webhooks" href="https://docs.intersoftsapient.net/docs/tracking-webhook-1" icon="fa-solid fa-bell" target="_blank">
     Set up the webhook connection, create a tracking account, and more.
 
     > _To enable the&#x20;_**_Tracking Webhook_**_&#x20;solution, contact the&#x20;_[_Intersoft Onboarding_](mailto:onboarding@intersoft.co.uk)_&#x20;team._
