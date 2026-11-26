@@ -1,5 +1,5 @@
 ---
-title: InPost PUDO service
+title: Use InPost PUDO service
 excerpt: >-
   The Pick Up and Drop Off (PUDO) service enables customers to use a convenient
   out of home option to collect or return parcels at designated locations. These
