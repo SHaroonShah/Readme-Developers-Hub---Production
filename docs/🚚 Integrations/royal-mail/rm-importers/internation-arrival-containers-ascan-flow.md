@@ -27,6 +27,8 @@ In Option 1, create the International Arrival Container first and get the `Conta
 
 ### Option 2: Create shipment when containerId is unknown and allocating them later
 
+The diagram below shows the Option 2 flow.
+
 <Image src="https://files.readme.io/97c8d939213ec0d082114c1b4fd8f46b2ddc42ddff3abd539626d0c21cc62f43-Flow_2.png" align="center" border={true} />
 
 
