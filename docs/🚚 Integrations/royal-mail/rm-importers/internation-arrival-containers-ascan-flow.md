@@ -6,14 +6,20 @@ icon: fad fa-container-storage
 metadata:
   robots: index
 ---
-Unlike the common **Containers** API, the [International Arrival Containers](https://docs.intersoftsapient.net/reference/post_v4-internationalarrivalscontainers-rm#/) endpoint is used for Royal Mail <Glossary>shipments</Glossary> that are being imported into UK only. For shipments in these <Glossary>container</Glossary>s, a <Glossary>Data Solution</Glossary> file is generated and sent to Royal Mail, which allows them to associate the shipments in the container with the `containerId` of the container, for better tracking and visibility purposes.
+The International [Arrival Containers (A-Scan)](https://docs.intersoftsapient.net/reference/post_v4-internationalarrivalscontainers-rm#/) API is used for Royal Mail shipments being imported into the UK.
 
-Using this endpoint, you can either create the shipments and allocate the already created container (**Option 1**) or first create the shipments and then the container and later allocate your shipments to the container (**Option 2**).
+For shipments in an International Arrival Container, a<Glossary>Data Solution</Glossary> file is generated and sent to Royal Mail. This allows Royal Mail to link the shipments to the `containerId` for tracking and visibility.
 
-Based on your business requirements, you may proceed with any of the preceding options and ship as needed. The following flows explain the entire journey of the UK arrival containers.
+Do not use the standard Containers API for Royal Mail Import shipments. Use the [International Arrival Containers (A-Scan) ](https://docs.intersoftsapient.net/reference/post_v4-internationalarrivalscontainers-rm#/)API instead.<br /><br />You can create and allocate shipments to an International Arrival Container in two ways:
 
-### Create shipment and allocate container when the ContainerId is known
+- **Option 1:** Create the container first. Then create the shipments and allocate them to the existing container using the ContainerId.
+- **Option 2:** Create the shipments first. Then create the container and allocate the shipments to it.
 
+Choose the option that best fits your integration. The diagrams below show the steps for each option.
+
+### Option 1: Create the container before creating the shipment
+
+Use this option when you create the International Arrival Container first and already have the ContainerId when creating the shipment.
 
 <Image src="https://files.readme.io/9bbca314d86f05e79fe4a8debb357a98b9c3176a7c47b4268a670f2b3c93fd90-ASCAN_flow_-_1.png" align="center" width="1000px" border={true} />
 
