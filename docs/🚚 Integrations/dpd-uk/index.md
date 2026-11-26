@@ -119,6 +119,7 @@ DPD are one of the leading delivery carriers in the UK, shipping domestically an
     | **International Air Express**                 | This service provides fast international delivery via an air network, offering expedited transit times, global coverage, and full tracking for urgent shipments worldwide.                     |
     | **DPD Direct**                                | This service provides international delivery solutions for e-commerce shipments, combining parcel delivery with customs clearance, tracking, and end-to-end visibility to global destinations. |
     | **DPD Direct Ireland**                        | This service provides dedicated delivery from the UK to Ireland, including customs handling, reliable transit times, and full tracking for cross-border shipments.                             |
+<br />
 
     <Callout icon="💡" theme="default">
       ### _Tip_
