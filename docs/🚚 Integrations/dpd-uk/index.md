@@ -44,7 +44,7 @@ DPD are one of the leading delivery carriers in the UK, shipping domestically an
   </Tab>
 
   <Tab title="Additional Features">
-    <Cards>
+    <Cards columns="2">
       <Card title="Consignment Services" icon="fa-cubes">
         The integration supports consignment services, and DPD UK allows a maximum of 99 packages per consignment.<br />
 
@@ -52,7 +52,7 @@ DPD are one of the leading delivery carriers in the UK, shipping domestically an
       </Card>
 
       <Card title="Future Date Shipments" icon="fad fa-box-circle-check">
-        DPD Local allow shipments to be created up to 7 days in advance, but can be extended to 30 days if approved by your DPD Local account manager. If not, then the SAPIENT maximum of 28 days will apply.
+        DPD allow shipments to be created up to 7 days in advance, but can be extended to 30 days if approved by your DPD account manager. If not, then the SAPIENT maximum of 28 days will apply.
       </Card>
 
       <Card title="Ship to Shop" icon="fad fa-person-carry-box">
@@ -60,7 +60,7 @@ DPD are one of the leading delivery carriers in the UK, shipping domestically an
       </Card>
 
       <Card title="Paperless Returns" icon="fad fa-barcode">
-        DPD Local rovides a paperless returns solution using a 2D/QR barcode, allowing customers to return parcels at a participating DPD Pickup Shop without printing a return label themselves.
+        DPD provides a paperless returns solution using a 2D/QR barcode, allowing customers to return parcels at a participating DPD Pickup Shop without printing a return label themselves.
       </Card>
     </Cards>
   </Tab>
