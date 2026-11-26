@@ -114,7 +114,7 @@ Create and manifest the required test labels, print them using your production p
       ### *Important*
 
       *After you go live, report any technical issues to the Intersoft Technical Support team. See [Support Guidance] (https://docs.intersoftsapient.net/docs/troubleshooting) for information on how to raise an issue.* 
-For requests to add new services or features, continue to contact the Intersoft Onboarding team at [onboarding@intersoft.co.uk](mailto:onboarding@intersoft.co.uk).*
+For requests to add new services or features, continue to contact the Intersoft Onboarding team at [onboarding@intersoft.co.uk](mailto:onboarding@intersoft.co.uk).
     </Callout>
   </ToggleListItem>
 </ToggleList>
