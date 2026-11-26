@@ -75,24 +75,25 @@ DPD are one of the leading delivery carriers in the UK, shipping domestically an
     </Callout>
 
     <br />
+
     <Cards>
       <Card title="Proof of Identity" icon="fa-solid fa-id-card">
         Requires the receiver to present valid identification at the point of delivery.
       </Card>
 
-    <Card title="Proof of Age" icon="fa-solid fa-calendar-circle-user">
-            Ensures the recipient meets a minimum age requirement, like for age-restricted goods.
-          </Card>
+      <Card title="Proof of Age" icon="fa-solid fa-calendar-circle-user">
+        Ensures the recipient meets a minimum age requirement, like for age-restricted goods.
+      </Card>
 
-    <Card title="Pin Required" icon="fa-solid fa-location-pin-lock">
-            A secure PIN is sent to the receiver, which must be provided upon delivery.
-          </Card>
+      <Card title="Pin Required" icon="fa-solid fa-location-pin-lock">
+        A secure PIN is sent to the receiver, which must be provided upon delivery.
+      </Card>
 
-    <Card title="Pin Required & Proof of Age" icon="fa-solid fa-location-pin-lock">
-            Requires PIN and age verification at the point of delivery for added security.
-          </Card>
-
+      <Card title="Pin Required & Proof of Age" icon="fa-solid fa-location-pin-lock">
+        Requires PIN and age verification at the point of delivery for added security.
+      </Card>
     </Cards>
+
     <br />
 
     <Callout icon="💡" theme="default">
@@ -122,7 +123,7 @@ DPD are one of the leading delivery carriers in the UK, shipping domestically an
     <Callout icon="💡" theme="default">
       ### _Tip_
 
-      _For the most up-to-date carrier services, use the&#x20;_[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services)_&#x20;endpoint._
+      _For the most up-to-date carrier services, use the&#x20;_[_Get Carrier Services_](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services)_&#x20;endpoint._
     </Callout>
   </Tab>
 </Tabs>
