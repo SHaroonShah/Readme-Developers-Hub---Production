@@ -103,18 +103,18 @@ This in an in-house integration, which means that the <Glossary>label</Glossary>
     The following key services are provided by the DHL Germany integration.
 
     <Accordion title="Parcel Services">
-      | Service Name            | Description                                                      |
-      | ----------------------- | ---------------------------------------------------------------- |
-      | Parcel - Two Day        | This service provides parcel delivery within two working days.   |
-      | Parcel - Next Day       | This service provides parcel delivery on the next working day.   |
-      | Parcel - Next Day 12:00 | This service provides next-working-day parcel delivery by 12:00. |
-      | Parcel - Next Day 10:30 | This service provides next-working-day parcel delivery by 10:30. |
-      | Parcel - Saturday 12:00 | This service provides Saturday parcel delivery by 12:00.         |
-      | Parcel - Saturday 10:30 | This service provides Saturday parcel delivery by 10:30.         |
-      | Parcel - Saturday       | This service provides parcel delivery on Saturday.               |
-      | Parcel - Sunday         | This service provides parcel delivery on Sunday.                 |
-      | Parcel - Sunday 10:30   | This service provides Sunday parcel delivery by 10:30.           |
-      | Parcel - Sunday 12:00   | This service provides Sunday parcel delivery by 12:00.           |
+      | Service Name                | Description                                                      |
+      | --------------------------- | ---------------------------------------------------------------- |
+      | **Parcel - Two Day**        | This service provides parcel delivery within two working days.   |
+      | **Parcel - Next Day**       | This service provides parcel delivery on the next working day.   |
+      | **Parcel - Next Day 12:00** | This service provides next-working-day parcel delivery by 12:00. |
+      | **Parcel - Next Day 10:30** | This service provides next-working-day parcel delivery by 10:30. |
+      | **Parcel - Saturday 12:00** | This service provides Saturday parcel delivery by 12:00.         |
+      | **Parcel - Saturday 10:30** | This service provides Saturday parcel delivery by 10:30.         |
+      | **Parcel - Saturday**       | This service provides parcel delivery on Saturday.               |
+      | **Parcel - Sunday**         | This service provides parcel delivery on Sunday.                 |
+      | **Parcel - Sunday 10:30**   | This service provides Sunday parcel delivery by 10:30.           |
+      | **Parcel - Sunday 12:00**   | This service provides Sunday parcel delivery by 12:00.           |
     </Accordion>
 
     <br />
@@ -253,9 +253,10 @@ This in an in-house integration, which means that the <Glossary>label</Glossary>
         </tbody>
       </Table>
     </Accordion>
-<br />
 
-<Callout icon="💡" theme="default">
+    <br />
+
+    <Callout icon="💡" theme="default">
       ### _Tip_
 
       _For the most up-to-date carrier services, use the&#x20;_[_Get Carrier Services_](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services)_&#x20;endpoint._
