@@ -84,7 +84,7 @@ You cannot use the **Production** Shipping Account until the Account Status is *
 
   <br />
 
-  <ToggleListItem title="5. Complete label sign off">
+  <ToggleListItem title="5. Complete label sign-off">
 
     <br />
 
