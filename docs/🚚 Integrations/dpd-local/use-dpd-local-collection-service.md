@@ -71,6 +71,8 @@ When the cancellation is successful, SAPIENT returns a success response and upda
 
 ### See also
 
-<br />
-
-<br />
+<Cards columns="2">
+  <Card title="API References" icon="fa-solid fa-code" target="_blank">
+    Explore the DPD Local API endpoints for a seamless shipping experience.
+  </Card>
+</Cards>
