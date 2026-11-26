@@ -31,7 +31,7 @@ The diagram below shows the Option 2 flow.
 
 <Image src="https://files.readme.io/97c8d939213ec0d082114c1b4fd8f46b2ddc42ddff3abd539626d0c21cc62f43-Flow_2.png" align="center" border={true} />
 
-In Option 2, create the shipments first without a `ContainerId`. If the shipments are created successfully, the response returns the tracking details and Base64-encoded label data. You can then decode and print the labels.<br />Next, create the International Arrival Container and get the ContainerId. Use the [Add/Remove Shipments ](https://docs.intersoftsapient.net/reference/put_v4-internationalarrivalscontainers-rm-containerid#/)request to allocate the shipments to the container.<br />You can allocate up to 10,000 shipments to one container.<br />If required information is missing or incorrect, the shipment is not created and an error response is returned.
+In Option 2, create the shipments first without a `ContainerId`. If the shipments are created successfully, the response returns the tracking details and Base64-encoded label data. You can then decode and print the labels.<br />Next, create the International Arrival Container and get the `ContainerId`. Use the [Add/Remove Shipments ](https://docs.intersoftsapient.net/reference/put_v4-internationalarrivalscontainers-rm-containerid#/)request to allocate the shipments to the container.<br />You can allocate up to 10,000 shipments to one container.<br />If required information is missing or incorrect, the shipment is not created and an error response is returned.
 
 ### Manifest container
 
