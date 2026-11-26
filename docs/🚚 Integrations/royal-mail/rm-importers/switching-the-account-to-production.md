@@ -92,7 +92,7 @@ You cannot use the **Production** Shipping Account until the Account Status is *
 
     * **Commercial Clearance and Tracked High Volume**: Physical label sign-off is required. Create and manifest the required test labels, print them using your production printer, and send the physical labels to Royal Mail for review and approval.
 
-**Freight 2 Post**: Both CDS checks and physical label sign-off are required.
+* **Freight 2 Post**: Both CDS checks and physical label sign-off are required.
 For CDS checks, create and manifest the required test labels and send the label PDFs to Intersoft for review and approval.
 For physical label sign-off, create and manifest the required test labels, print them using your production printer, and send the physical labels to Royal Mail for review and approval.
 
