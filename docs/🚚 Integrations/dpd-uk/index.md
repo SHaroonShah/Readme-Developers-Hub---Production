@@ -66,7 +66,7 @@ DPD are one of the leading delivery carriers in the UK, shipping domestically an
   </Tab>
 
   <Tab title="Service Enhancements">
- The following are the key services are provided by the DPD Local integration:
+    The following are the key services are provided by the DPD integration:
 
     <Callout icon="🚧" theme="warn">
       ### _Important_
@@ -80,27 +80,28 @@ DPD are one of the leading delivery carriers in the UK, shipping domestically an
         Requires the receiver to present valid identification at the point of delivery.
       </Card>
 
-      <Card title="Proof of Age" icon="fa-solid fa-calendar-circle-user">
-        Ensures the recipient meets a minimum age requirement, like for age-restricted goods.
-      </Card>
+    <Card title="Proof of Age" icon="fa-solid fa-calendar-circle-user">
+            Ensures the recipient meets a minimum age requirement, like for age-restricted goods.
+          </Card>
 
-      <Card title="Pin Required" icon="fa-solid fa-location-pin-lock">
-        A secure PIN is sent to the receiver, which must be provided upon delivery.
-      </Card>
+    <Card title="Pin Required" icon="fa-solid fa-location-pin-lock">
+            A secure PIN is sent to the receiver, which must be provided upon delivery.
+          </Card>
 
-      <Card title="Pin Required & Proof of Age" icon="fa-solid fa-location-pin-lock">
-        Requires PIN and age verification at the point of delivery for added security.
-      </Card>
+    <Card title="Pin Required & Proof of Age" icon="fa-solid fa-location-pin-lock">
+            Requires PIN and age verification at the point of delivery for added security.
+          </Card>
+
     </Cards>
-<br />
+    <br />
 
     <Callout icon="💡" theme="default">
       ### _Tip_
 
       _For more information on the service enhancements and carrier services, refer to the following endpoints:_
 
-      - [Create Shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-dpduk)
-      - [Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services)
+      - [_Create Shipment_](https://docs.intersoftsapient.net/reference/post_v4-shipments-dpduk)
+      - [_Get Carrier Services_](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services)
     </Callout>
   </Tab>
 
