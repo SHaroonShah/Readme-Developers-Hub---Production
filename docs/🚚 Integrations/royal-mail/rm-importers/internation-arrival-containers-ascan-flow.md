@@ -23,7 +23,7 @@ The diagram below shows the Option 1 flow.
 
 <Image src="https://files.readme.io/9bbca314d86f05e79fe4a8debb357a98b9c3176a7c47b4268a670f2b3c93fd90-ASCAN_flow_-_1.png" align="center" width="1000px" border={true} />
 
-In Option 1, create the International Arrival Container first and get the `ContainerId`. When you create a shipment, include the `ContainerId` to allocate the shipment to the container.<br />If the shipment is created successfully, the response returns the tracking number and Base64-encoded label. You can then decode and print the label and prepare the shipment for dispatch.<br />If required information is missing or incorrect, the shipment is not created and an error response is returned.
+In Option 1, create the International Arrival Container first and get the `ContainerId`. When you create a shipment, include the `ContainerId` to allocate the shipment to the container.<br />If the shipment is created successfully, the response returns the tracking details and Base64-encoded label data. You can then decode and print the labels and prepare the shipment for dispatch.<br />If required information is missing or incorrect, the shipment is not created and an error response is returned.
 
 ### Create shipment when containerId is unknown and allocating them later
 
