@@ -329,11 +329,11 @@ This in an in-house integration, which means that the <Glossary>label</Glossary>
   </Tab>
 
   <Tab title="API References">
-    <Cards>
-      <Card title="SAPIENT InPost API" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-inpost" icon="fa-solid fa-code" target="_blank">
-        Explore the InPost API endpoints for a seamless shipping experience.
+    <Cards columns="2">
+      <Card title="SAPIENT DPD Local API" icon="fa-solid fa-code" target="_blank">
+        Explore the DPD Local API endpoints for a seamless shipping experience.
       </Card>
-</Cards>
+    </Cards>
   </Tab>
 </Tabs>
 
