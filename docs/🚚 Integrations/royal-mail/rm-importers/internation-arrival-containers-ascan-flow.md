@@ -38,11 +38,11 @@ In Option 2, create the shipments first without a `ContainerId`. If the shipment
 
 <Image src="https://files.readme.io/e29b772c2b3929f4f9950e2088f48fe8dc6bb679993a3029f3bd56747268b786-Flow_3.png" align="center" border={true} />
 
+Before manifesting the container, make sure all shipments have been allocated to it. If shipments are still missing, continue allocating them before you manifest the container.
 
-The flowchart outlines the process for managing shipments with Royal Mail. Initially, it checks if all shipments have been allocated; if so, the shipments are <Glossary>manifested</Glossary> and its details are sent to Royal Mail for processing, along with the container details. Once the containers arrive in the UK, the shipments are converted from Freight 2 Post and injected to the Royal Mail network.
+When the container is ready, manifest it using the container details and `ContainerId`. The container and shipment details are then sent to Royal Mail, and the container label is returned.
 
-As the shipments are in transit, tracking is initiated with a first tracking event triggered by the system. Subsequently, additional tracking events are logged upon reaching specific statuses, culminating in the delivery of the shipment, which is confirmed through a successful delivery trigger. If the expected number of shipments for that container have not been allocated, then you must revert back to continue allocating shipments until all are accounted for.
-
+The container can then be sent to the UK. When it arrives, the shipments enter the Royal Mail network for final delivery. Tracking events are generated as the shipments move through the Royal Mail network.
 
 <Image src="https://files.readme.io/0fe72ecc237cd3cf26a2335f526ac2f68c9d2f65b921e5cea7554dd880ce1f72-ASCAN_label.jpg" align="center" width="400px" caption="Container barcode label example" border={true} />
 
