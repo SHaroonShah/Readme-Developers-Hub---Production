@@ -17,7 +17,7 @@ Do not use the standard Containers API for Royal Mail Import shipments. Use the 
 
 Choose the option that best fits your integration. The diagrams below show the steps for each option.
 
-### Option 1: Option 1: Create the container before creating shipments
+### Option 1: Create the container before creating the shipment
 
 The diagram below shows the Option 1 flow.
 
