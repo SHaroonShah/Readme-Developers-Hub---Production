@@ -66,6 +66,15 @@ DPD are one of the leading delivery carriers in the UK, shipping domestically an
   </Tab>
 
   <Tab title="Service Enhancements">
+ The following are the key services are provided by the DPD Local integration:
+
+    <Callout icon="🚧" theme="warn">
+      ### _Important_
+
+      _The following service enhancements are not passed through the standard Create Shipment request. Instead, they are configured at the account level. If you require multiple service enhancements, you must configure a separate DPD Local account for each one._
+    </Callout>
+
+    <br />
     <Cards>
       <Card title="Proof of Identity" icon="fa-solid fa-id-card">
         Requires the receiver to present valid identification at the point of delivery.
