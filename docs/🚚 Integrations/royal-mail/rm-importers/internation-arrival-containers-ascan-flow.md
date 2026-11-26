@@ -49,20 +49,20 @@ The container can then be sent to the UK. When it arrives, the shipments enter t
 
 ***
 
-### <br />See also
+### <br />Related guides
 
 <Cards>
   <Card title="Set up Internatinal Arrival Containers barcode ranges" href="https://docs.intersoftsapient.net/docs/add-barcode-range-for-international-arrival-containers#/" icon="fa-solid fa-barcode-read" target="_blank">
-    Configure a specific set of numbers designated for tracking containers arriving into the UK from overseas, facilitating efficient tracking and management.
+    Set up the barcode range used to identify and track International Arrival Containers arriving in the UK.
   </Card>
 
   <Card title="Internation Arrivals Containers API" href="https://docs.intersoftsapient.net/reference/post_v4-internationalarrivalscontainers-rm#/" icon="fa-solid fa-gear-complex-code" target="_blank">
-    Create and name (with and ID or alias) a new international arrivals container to be used for manifesting a specific group of shipments. Define which carrier and shipping location the container should be linked to.
+    Create an International Arrival Container and assign an ID or alias. Select the carrier and Shipping Location linked to the container.
   </Card>
 </Cards>
 
 <Cards columns="2">
   <Card title="A-Scan FAQs" href="https://docs.intersoftsapient.net/docs/a-scan-faqs#/" icon="fa-solid fa-messages-question">
-    _Frequently asked questions regarding the International Arrivals Containers API/A-Scan._
+    Find answers to common questions about International Arrival Containers (A-Scan).
   </Card>
 </Cards>
