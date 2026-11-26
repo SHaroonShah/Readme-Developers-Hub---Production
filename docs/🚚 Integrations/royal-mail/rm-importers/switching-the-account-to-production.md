@@ -130,11 +130,11 @@ If you want to use the<Glossary>Tracking Webhook</Glossary> for your new Product
     Set up the webhook connection, create tracking account, and much more.
   </Card>
 
-  <Card title="Response examples" href="https://docs.intersoftsapient.net/reference/post_v4-trackings-pushpayloadexample" icon="fa-solid fa-code" target="_blank">
-    View response example of the tracking webhook push notification payload, as sent to a customer's webhook when tracking information is received from a carrier.
-  </Card>
-
   <Card title="Royal Mail Tracking Account setup" href="https://docs.intersoftsapient.net/docs/royal-mail-tracking-account-setup" icon="fa-solid fa-truck" target="_blank">
     Set up Royal Mail tracking account.
+  </Card>
+
+  <Card title="Response examples" href="https://docs.intersoftsapient.net/reference/post_v4-trackings-pushpayloadexample" icon="fa-solid fa-code" target="_blank">
+    View response example of the tracking webhook push notification payload, as sent to a customer's webhook when tracking information is received from a carrier.
   </Card>
 </Cards>
