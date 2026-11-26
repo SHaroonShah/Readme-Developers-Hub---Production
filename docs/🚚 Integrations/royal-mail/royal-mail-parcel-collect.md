@@ -31,7 +31,7 @@ The Royal Mail collection allows the system to default the dimensions and format
 <Callout icon="🚧" theme="warning">
   ### _Important_
 
-  _Before using this feature, make sure to enable the&#x20;_**_Collect_**_&#x20;integration via the&#x20;_[integration activation](https://docs.intersoftsapient.net/docs/integration-activation)_&#x20;page._
+  _Before using this feature, make sure to enable the&#x20;_**_Collect_**_&#x20;integration via the&#x20;_[_integration activation_](https://docs.intersoftsapient.net/docs/integration-activation)_&#x20;page._
 </Callout>
 
 ## Create a return shipment
