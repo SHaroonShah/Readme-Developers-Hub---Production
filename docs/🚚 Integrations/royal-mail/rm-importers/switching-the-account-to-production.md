@@ -88,12 +88,15 @@ You cannot use the **Production** Shipping Account until the Account Status is *
 
     <br />
 
-    After this, you can proceed with the **label sign off** required by Royal Mail. The sign off depends on what type of Royal Mail customer you are:
+    After your Production setup is complete, you must complete the **Royal Mail label sign-off** process. The sign-off requirements depend on your Royal Mail Import service.
 
-    * **Royal Mail importers using Commercial Clearance route and Tracked High Volume customers**: involves physical label sign off—where you are requested to create couple of labels, manifest them, print them out using your production printers and ship them to Royal Mail for review and quality testing.
-    * **Royal Mail importers using Freight 2 Post route**: involves CDS checks as well as physical label sign off. For CDS checks, you are requested to create a couple of <Glossary>labels</Glossary>, <Glossary>manifest</Glossary> them and share with us the <Glossary>PDF</Glossary>s, so they can be reviewed and signed off before you proceed to the physical label sign off.
+    * **Commercial Clearance and Tracked High Volume**: Physical label sign-off is required. Create and manifest the required test labels, print them using your production printer, and send the physical labels to Royal Mail for review and approval.
 
-    The full details on this are shared with you closer to the date.
+**Freight 2 Post**: Both CDS checks and physical label sign-off are required.
+For CDS checks, create and manifest the required test labels and send the label PDFs to Intersoft for review and approval.
+For physical label sign-off, create and manifest the required test labels, print them using your production printer, and send the physical labels to Royal Mail for review and approval.
+
+    The Intersoft Onboarding team will provide the full sign-off instructions when you reach this stage.
 
     ***
   </ToggleListItem>
