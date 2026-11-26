@@ -1,5 +1,5 @@
 ---
-title: Use PUDO service
+title: Use Royal Mail PUDO service
 excerpt: >-
   The Royal Mail Pick Up and Drop Off (PUDO) service enables customers to use a
   convenient out of home option to collect or return parcels at designated
