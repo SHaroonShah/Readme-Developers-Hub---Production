@@ -1,8 +1,8 @@
 ---
 title: Field requirements for Freight 2 Post customers
 excerpt: >-
-  Freight 2 post customers are businesses or organisations that utilise a
-  shipping service that combines freight transport with postal delivery methods.
+  Freight 2 Post is for customers who send goods to the UK as freight before the
+  goods enter the Royal Mail postal network.
 deprecated: false
 hidden: false
 icon: fad fa-file-circle-exclamation
@@ -13,12 +13,12 @@ metadata:
 next:
   description: ''
 ---
-If you are importing goods into the UK via Freight 2 Post route, please ensure to provide the following details.
+If you are importing goods into the UK using Freight 2 Post, you must provide the following details.
 
 <Callout icon="🚧" theme="warn">
   ### _Important_
 
-  _The following requirements are Royal Mail specific in addition to Intersoft's mandatory fields._
+  _The requirements below are specific to Royal Mail and are required in addition to Intersoft's mandatory API fields._
 </Callout>
 
 <Table align={["center","left"]}>
@@ -41,7 +41,7 @@ If you are importing goods into the UK via Freight 2 Post route, please ensure t
       </td>
 
       <td>
-        - ContactName - this must be an individual person's name, not a company name.
+        - ContactName - must contain an individual's name, not a company name.
         - CompanyName
         - ContactEmail
         - ContactPhone
