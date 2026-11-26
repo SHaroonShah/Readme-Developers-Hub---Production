@@ -308,7 +308,7 @@ This in an in-house integration, which means that the <Glossary>label</Glossary>
     <Accordion title="Tracking Integration">
       Enables customers to receive tracking updates through their integration with the SAPIENT tracking webhook.
     </Accordion>
-<Accordion title="Collection">
+<Accordion title="Collections">
       Enables customers to manage collections for existing DPD Local shipments. With this set of endpoints, customers can retrieve available collection timeslots, book a collection, and cancel an existing collection when required.
     </Accordion>
   </Tab>
