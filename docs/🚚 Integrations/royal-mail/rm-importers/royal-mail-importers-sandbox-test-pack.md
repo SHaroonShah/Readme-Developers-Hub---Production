@@ -35,7 +35,7 @@ Complete the following Test Pack requirements:
 4. **Print Test Labels**
 
    Print the test labels using your production printer. Include an image or scan of the printed labels with your Test Pack for initial approval.
-5. **Submit the completed Test Pack** to [onboarding@intersoft.co.uk](mailto:onboarding@intersoft.co.uk). [onboarding@intersoft.co.uk](mailto:onboarding@intersoft.co.uk).
+5. **Submit the completed Test Pack** to [onboarding@intersoft.co.uk](mailto:onboarding@intersoft.co.uk).
 
 <Callout icon="📘" theme="info">
   ### _Note_
