@@ -19,7 +19,7 @@ Choose the option that best fits your integration. The diagrams below show the s
 
 ### Option 1: Create the container before creating the shipment
 
-Use this option when you create the International Arrival Container first and already have the ContainerId when creating the shipment.
+The diagram below shows the Option 1 flow.
 
 <Image src="https://files.readme.io/9bbca314d86f05e79fe4a8debb357a98b9c3176a7c47b4268a670f2b3c93fd90-ASCAN_flow_-_1.png" align="center" width="1000px" border={true} />
 
