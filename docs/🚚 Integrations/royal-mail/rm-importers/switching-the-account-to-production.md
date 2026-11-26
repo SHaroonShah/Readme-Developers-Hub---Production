@@ -41,11 +41,11 @@ See [Set up Royal Mail Shipping Account](https://docs.intersoftsapient.net/docs/
 
   <br />
 
-  <ToggleListItem title="2. Send the OBA API request">
+  <ToggleListItem title="2. Validate your Production Shipping Account">
 
     <br />
 
-    After switching the Shipping Account to **Production**, an automatic request is sent to the Royal Mail OBA API. Depending on the account details provided, the system either accepts it or rejects it.
+    After you create your Production Shipping Account, SAPIENT automatically sends the account details to the Royal Mail OBA API for validation. Royal Mail will either accept or reject the details provided.
 
     ***
   </ToggleListItem>
@@ -56,7 +56,11 @@ See [Set up Royal Mail Shipping Account](https://docs.intersoftsapient.net/docs/
 
     <br />
 
-    If the OBA request is accepted, the **Account Status** changes from **Pending** to **Enabled**. Otherwise, it remains in the **Pending** state and you need to go back, fill in the correct Royal Mail account details and send the request again. You will be unable to use the **Production** Shipping Account until the Account Status is **Enabled**.
+    If Royal Mail accepts the account details, the **Account Status** changes from **Pending** to **Enabled**.
+
+If the details are rejected, the **Account Status** remains **Pending**. Check your Royal Mail account details, correct any incorrect information, and submit the request again.
+
+You cannot use the **Production** Shipping Account until the Account Status is **Enabled**.
 
     <Callout icon="💡" theme="default">
       ### *Tip*
