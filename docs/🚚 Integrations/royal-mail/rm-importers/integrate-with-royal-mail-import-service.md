@@ -173,7 +173,7 @@ Follow the steps below to integrate the Royal Mail Import service with SAPIENT:
   </Card>
 
   <Card title="Add Royal Mail Tracking Account" href="https://docs.intersoftsapient.net/docs/royal-mail-tracking-account-setup" icon="fa-solid fa-magnifying-glass-location" target="_blank">
-    Set up a Royal Mail tracking account.
+    Access the step-by-step guide on how to set up Royal Mail tracking account on SAPIENT.
   </Card>
 
   <Card title="Response Examples" href="https://docs.intersoftsapient.net/reference/post_v4-trackings-pushpayloadexample" icon="fa-solid fa-code">
