@@ -12,7 +12,7 @@ For shipments in an International Arrival Container, a<Glossary>Data Solution</G
 
 Do not use the standard Containers API for Royal Mail Import shipments. Use the [International Arrival Containers (A-Scan) ](https://docs.intersoftsapient.net/reference/post_v4-internationalarrivalscontainers-rm#/)API instead.<br /><br />You can create and allocate shipments to an International Arrival Container in two ways:
 
-- **Option 1:** Create the container first. Then create the shipments and allocate them to the existing container using the ContainerId.
+- **Option 1:** Create the container first. Then create the shipments and allocate them to the existing container using the `containerId`.
 - **Option 2:** Create the shipments first. Then create the container and allocate the shipments to it.
 
 Choose the option that best fits your integration. The diagrams below show the steps for each option.
