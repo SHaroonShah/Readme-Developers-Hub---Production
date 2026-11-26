@@ -55,7 +55,7 @@ When booking a collection for your shipment:
 - Provide the selected collection date and start/end times.
 - Provide the collection address and contact details, even when the collection address is the same as the sender address.
 - Ensure a contact name and telephone number are available because these are required for DPD collections.
-- Use **BringMyLabel** if the shipment requires the driver to provide the label. If it is not provided, it defaults to false.
+- Set the `BringMyLabel` parameter to true if the shipment requires the driver to provide the label. If it is not provided, it defaults to false.
 
 After a successful booking, SAPIENT stores the collection details against the shipment so they can be used if the collection is subsequently cancelled.
 
