@@ -121,9 +121,9 @@ For requests to add new services or features, continue to contact the Intersoft 
 
 ***
 
-### See also
+### Optional: Set up tracking
 
-If you are interested in creating a tracking account for the newly added shipping account, refer to the following sections on how to set up our <Glossary>Tracking Webhook</Glossary> solution:
+If you want to use the<Glossary>Tracking Webhook</Glossary> for your new Production Shipping Account, see the guides below.
 
 <Cards>
   <Card title="Tracking Webhook" href="https://docs.intersoftsapient.net/docs/tracking-webhook-1" icon="fa-solid fa-satellite-dish" target="_blank">
@@ -138,9 +138,3 @@ If you are interested in creating a tracking account for the newly added shippin
     Set up Royal Mail tracking account.
   </Card>
 </Cards>
-
-<Callout icon="📘" theme="info">
-  ### _Note_
-
-  _To enable the&#x20;_**_Tracking Webhook_**_&#x20;solution, please contact our&#x20;_[Intersoft Onboarding](mailto:onboarding@intersoft.co.uk)_&#x20;team._
-</Callout>
