@@ -122,7 +122,7 @@ To add a barcode range for International Arrival Containers in SAPIENT, perform 
 ### See also
 
 <Cards>
-  <Card title="ASCAN flow" href="https://docs.intersoftsapient.net/docs/internation-arrival-containers-ascan-flow#/" icon="fa-solid fa-barcode-read" target="_blank">
+  <Card title="A-Scan Flow" href="https://docs.intersoftsapient.net/docs/internation-arrival-containers-ascan-flow#/" icon="fa-solid fa-barcode-read" target="_blank">
     Learn how the **International Arrivals Containers** process works and get to know the entire journey of the UK arrival containers on the fly.
   </Card>
 
