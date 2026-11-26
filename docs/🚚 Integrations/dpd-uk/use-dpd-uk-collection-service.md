@@ -29,14 +29,14 @@ After activating the intergration and before booking a collection, make sure you
 
 ## Retrieve available collection timeslots
 
-Use Get Collections Timeslots API endpoint to retrieve the available dates and time windows for the shipment.
+Use the  **Get Collections Timeslots** API endpoint to retrieve the available dates and time windows for the shipment.
 
 You can request collection from either:
 
-- the sender address associated with the shipment; or
+- the shipper address associated with the shipment; or
 - an alternative collection address, by providing the collection postcode and country code.
 
-If you do not provide an alternative postcode and country code, SAPIENT uses the sender postcode and country code from the shipment.
+If you do not provide an alternative postcode and country code, SAPIENT uses the shipper postcode and country code from the shipment.
 
 The response provides the available collection date, start time, end time, and the applicable cut-off time.
 
@@ -48,20 +48,20 @@ The response provides the available collection date, start time, end time, and t
 
 ## Book collection
 
-Once you have selected an available timeslot, use Book Collection API endpoint to arrange the collection for your existing shipment.
+Once you have selected an available timeslot, use the **Book Collection** API endpoint to arrange the collection for your existing shipment.
 
 When booking a collection for your shipment:
 
 - Provide the selected collection date and start/end times.
 - Provide the collection address and contact details, even when the collection address is the same as the sender address.
 - Ensure a contact name and telephone number are available because these are required for DPD collections.
-- Use BringMyLabel if the shipment requires the driver to provide the label. If it is not provided, it defaults to false.
+- Use **BringMyLabel** if the shipment requires the driver to provide the label. If it is not provided, it defaults to false.
 
 After a successful booking, SAPIENT stores the collection details against the shipment so they can be used if the collection is subsequently cancelled.
 
 ## Cancel collection
 
-If the collection is no longer required, use Cancel Collection and provide the shipmentId or tracking number for the shipment. SAPIENT retrieves the required collection information from the existing shipment record and submits the cancellation to DPD.
+If the collection is no longer required, use the **Cancel Collection** API endpoint and provide the `shipmentId` or tracking number for the shipment. SAPIENT retrieves the required collection information from the existing shipment record and submits the cancellation to DPD.
 
 When the cancellation is successful, SAPIENT returns a success response and updates the shipment to indicate that the collection has been cancelled.
 
