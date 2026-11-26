@@ -103,7 +103,7 @@ If you are importing goods into the UK using Freight 2 Post, you must provide th
       </td>
 
       <td>
-        - ShippingCharges - please make sure to populate this field either with the exact amount the end customer was charged for shipping or with "0" if the shipping was for free.
+        - ShippingCharges - enter the exact amount charged to the end customer for shipping. If the customer was not charged for shipping, enter "0".
       </td>
     </tr>
   </tbody>
@@ -112,5 +112,5 @@ If you are importing goods into the UK using Freight 2 Post, you must provide th
 <Callout icon="📘" theme="info">
   ### _Note_
 
-  _The requirements listed in the preceding table are also specific for Royal Mail customers creating international shipments._
+  _The requirements in the table above also apply to Royal Mail international shipments._
 </Callout>
