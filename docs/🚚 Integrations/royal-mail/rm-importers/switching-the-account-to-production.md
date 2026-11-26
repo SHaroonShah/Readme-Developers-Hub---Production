@@ -77,7 +77,7 @@ You cannot use the **Production** Shipping Account until the Account Status is *
 
     <br />
 
-    If you are a Freight 2 Post customer, ensure that [International Arrival Containers (A-scan)](https://docs.intersoftsapient.net/docs/add-barcode-range-for-international-arrival-containers) is set up with valid details provided to you by INTERSOFT Onboarding team.
+    If you are a Freight 2 Post customer, update your[International Arrival Containers (A-scan)](https://docs.intersoftsapient.net/docs/add-barcode-range-for-international-arrival-containers)  with the Production details provided by the Intersoft Onboarding team.
 
     ***
   </ToggleListItem>
