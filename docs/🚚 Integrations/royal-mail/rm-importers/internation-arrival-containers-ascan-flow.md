@@ -8,11 +8,11 @@ metadata:
 ---
 The International [Arrival Containers (A-Scan)](https://docs.intersoftsapient.net/reference/post_v4-internationalarrivalscontainers-rm#/) API is used for Royal Mail shipments being imported into the UK.
 
-For shipments in an International Arrival Container, a<Glossary>Data Solution</Glossary> file is generated and sent to Royal Mail. This allows Royal Mail to link the shipments to the `containerId` for tracking and visibility.
+For shipments in an International Arrival Container, a<Glossary>Data Solution</Glossary> file is generated and sent to Royal Mail. This allows Royal Mail to link the shipments to the `ContainerId` for tracking and visibility.
 
 Do not use the standard Containers API for Royal Mail Import shipments. Use the [International Arrival Containers (A-Scan) ](https://docs.intersoftsapient.net/reference/post_v4-internationalarrivalscontainers-rm#/)API instead.<br /><br />You can create and allocate shipments to an International Arrival Container in two ways:
 
-- **Option 1:** Create the container first. Then create the shipments and allocate them to the existing container using the `containerId`.
+- **Option 1:** Create the container first. Then create the shipments and allocate them to the existing container using the `ContainerId`.
 - **Option 2:** Create the shipments first. Then create the container and allocate the shipments to it.
 
 Choose the option that best fits your integration. The diagrams below show the steps for each option.
@@ -23,8 +23,7 @@ The diagram below shows the Option 1 flow.
 
 <Image src="https://files.readme.io/9bbca314d86f05e79fe4a8debb357a98b9c3176a7c47b4268a670f2b3c93fd90-ASCAN_flow_-_1.png" align="center" width="1000px" border={true} />
 
-
-The flowchart outlines a process for creating a shipment and allocating a container when the `ContainerId` is known, starting with the creation of a container in advance. Then it follows with the creation of an order and a shipment request. It checks for the presence of the `ContainerId`; if known, it retrieves container details and proceeds to populate required fields. If the shipment is successfully created, <Glossary>tracking numbers</Glossary> and <Glossary>labels</Glossary> are generated, leading to the printing of labels and preparation of the shipment for despatch. If any errors occur during the process, appropriate error responses are returned to ensure all issues are addressed systematically.
+In Option 1, create the International Arrival Container first and get the `ContainerId`. When you create a shipment, include the `ContainerId` to allocate the shipment to the container.<br />If the shipment is created successfully, the response returns the tracking number and Base64-encoded label. You can then decode and print the label and prepare the shipment for dispatch.<br />If required information is missing or incorrect, the shipment is not created and an error response is returned.
 
 ### Create shipment when containerId is unknown and allocating them later
 
