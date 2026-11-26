@@ -25,8 +25,7 @@ The diagram below shows the Option 1 flow.
 
 In Option 1, create the International Arrival Container first and get the `ContainerId`. When you create a shipment, include the `ContainerId` to allocate the shipment to the container.<br />If the shipment is created successfully, the response returns the tracking details and Base64-encoded label data. You can then decode and print the labels and prepare the shipment for dispatch.<br />If required information is missing or incorrect, the shipment is not created and an error response is returned.
 
-### Create shipment when containerId is unknown and allocating them later
-
+### Option 2: Create shipment when containerId is unknown and allocating them later
 
 <Image src="https://files.readme.io/97c8d939213ec0d082114c1b4fd8f46b2ddc42ddff3abd539626d0c21cc62f43-Flow_2.png" align="center" border={true} />
 
