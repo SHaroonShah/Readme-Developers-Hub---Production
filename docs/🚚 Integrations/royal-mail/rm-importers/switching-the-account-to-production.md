@@ -1,10 +1,5 @@
 ---
-title: Switch account to production
-excerpt: >-
-  The switching of the shipping account from **Sandbox** to the **Production**
-  environment occurs after thorough testing is completed in the **Sandbox**
-  environment, ensuring that all functionalities work as intended, bugs have
-  been fixed, and performance is optimised.
+title: Set up your Production Shipping Account
 deprecated: false
 hidden: false
 icon: fad fa-arrow-up-right-dots
@@ -15,22 +10,31 @@ metadata:
 next:
   description: ''
 ---
-Following the [Test Pack](https://docs.intersoftsapient.net/docs/royal-mail-importers-sandbox-test-pack) run and approval, and successful UAT (user acceptance test), your account is switched from **Sandbox** to **Production**.
+After your [Test Pack](https://docs.intersoftsapient.net/docs/royal-mail-importers-sandbox-test-pack) has been approved, you can set up a separate Production Shipping Account.  <br /><br />Keep your Sandbox Shipping Account for testing. Do not change it to Production.
 
-## How to switch account from Sandbox to Production
+## How to set up your Production Shipping Account
 
-To set up the Production <Glossary>Shipping Account</Glossary>, perform the steps as explained in the following procedure.
+Complete the steps below to create and set up your Production Shipping Account.
 
 <ToggleList>
-  <ToggleListItem title="1. Edit the shipping account">
+  <ToggleListItem title="1. Create your Production Shipping Account">
 
     <br />
 
-    Edit the [Shipping Account](https://docs.intersoftsapient.net/docs/add-a-shipping-account), ensuring that the <Glossary>account type</Glossary> is set to **Production**, and it is prepopulated with the correct Royal Mail account details, Royal Mail Account Number, Posting Location Number (PLN), Registered Email Address (email address used to access your <Glossary>Online Business Account</Glossary> (OBA) to view billing and reporting), and Registered Billing Postcode. For more information on how to fill in the fields, refer to the [Set up Royal Mail Shipping Account.](https://docs.intersoftsapient.net/docs/shipping-account-requirements) section.
+    Create a new Royal Mail [Shipping Account](https://docs.intersoftsapient.net/docs/add-a-shipping-account) and set the account type to Production. Enter your Production Royal Mail account details:
+
+- Royal Mail Account Number
+- Posting Location Number (PLN)
+- Registered Email Address
+- Registered Billing Postcode
+
+The Registered Email Address must be the email address used to access your Royal Mail Online Business Account (OBA).
+
+See [Set up Royal Mail Shipping Account.](https://docs.intersoftsapient.net/docs/shipping-account-requirements) for more information about these fields.
 
     > 🚧 *Important*
     >
-    > *Please ensure to enter the Posting Location Number Postcode in the**Shipping Locations** screen in SAPIENT, which must match the Posting Location Number Postcode provided in the Royal Mail OBA.*
+    > *Enter your Posting Location Number Postcode in the **Shipping Location** details in SAPIENT. The postcode must match the Posting Location Number Postcode in your Royal Mail OBA.* 
 
     ***
   </ToggleListItem>
@@ -129,5 +133,5 @@ If you are interested in creating a tracking account for the newly added shippin
 <Callout icon="📘" theme="info">
   ### _Note_
 
-  _To enable the&#x20;_**_Tracking Webhook_**_&#x20;solution, please contact our [Intersoft Onboarding](mailto:onboarding@intersoft.co.uk) team._
+  _To enable the&#x20;_**_Tracking Webhook_**_&#x20;solution, please contact our&#x20;_[Intersoft Onboarding](mailto:onboarding@intersoft.co.uk)_&#x20;team._
 </Callout>
