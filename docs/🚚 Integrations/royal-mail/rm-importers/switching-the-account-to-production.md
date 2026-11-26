@@ -21,7 +21,7 @@ Complete the steps below to create and set up your Production Shipping Account.
 
     <br />
 
-    Create a new Royal Mail [Shipping Account](https://docs.intersoftsapient.net/docs/add-a-shipping-account) and set the account type to Production. Enter your Production Royal Mail account details:
+    Create a new Royal Mail [Shipping Account](https://docs.intersoftsapient.net/docs/add-a-shipping-account) and set the Account Type to Production. Enter your Production Royal Mail account details:
 
 - Royal Mail Account Number
 - Posting Location Number (PLN)
@@ -30,7 +30,7 @@ Complete the steps below to create and set up your Production Shipping Account.
 
 The Registered Email Address must be the email address used to access your Royal Mail Online Business Account (OBA).
 
-See [Set up Royal Mail Shipping Account.](https://docs.intersoftsapient.net/docs/shipping-account-requirements) for more information about these fields.
+See [Set up Royal Mail Shipping Account](https://docs.intersoftsapient.net/docs/shipping-account-requirements) for more information about these fields.
 
     > 🚧 *Important*
     >
