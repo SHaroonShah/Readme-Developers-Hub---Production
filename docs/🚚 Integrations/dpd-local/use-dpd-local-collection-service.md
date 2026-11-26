@@ -31,7 +31,7 @@ After activating the intergration and before booking a collection, make sure you
 
 ## Retrieve available collection timeslots
 
-Use Get Collections Timeslots API endpoint to retrieve the available dates and time windows for the shipment.
+Use the **Get Collections Timeslots** API endpoint to retrieve the available dates and time windows for the shipment.
 
 You can request collection from either:
 
@@ -50,7 +50,7 @@ The response provides the available collection date, start time, end time, and t
 
 ## Book collection
 
-Once you have selected an available timeslot, use Book Collection API endpoint to arrange the collection for your existing shipment.
+Once you have selected an available timeslot, use the **Book Collection** API endpoint to arrange the collection for your existing shipment.
 
 When booking a collection for your shipment:
 
@@ -63,7 +63,7 @@ After a successful booking, SAPIENT stores the collection details against the sh
 
 ## Cancel collection
 
-If the collection is no longer required, use Cancel Collection and provide the shipmentId or tracking number for the shipment. SAPIENT retrieves the required collection information from the existing shipment record and submits the cancellation to DPD.
+If the collection is no longer required, use the **Cancel Collection** API endpoint and provide the shipmentId or tracking number for the shipment. SAPIENT retrieves the required collection information from the existing shipment record and submits the cancellation to DPD.
 
 When the cancellation is successful, SAPIENT returns a success response and updates the shipment to indicate that the collection has been cancelled.
 
