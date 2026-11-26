@@ -154,7 +154,7 @@ Follow the steps below to integrate the Royal Mail Import service with SAPIENT:
 
   _If you are reporting an API issue, include a copy of both the API request and API response. This will help us investigate the issue._
 
-  _Important: Do not include your API credentials when sending API requests or responses to Intersoft._
+  _Do not include your API credentials when sending API requests or responses to Intersoft._
 </Callout>
 
 ***
