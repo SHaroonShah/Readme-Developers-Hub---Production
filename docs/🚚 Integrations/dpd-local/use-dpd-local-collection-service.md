@@ -35,10 +35,10 @@ Use Get Collections Timeslots API endpoint to retrieve the available dates and t
 
 You can request collection from either:
 
-- the sender address associated with the shipment; or
+- the shipper address associated with the shipment; or
 - an alternative collection address, by providing the collection postcode and country code.
 
-If you do not provide an alternative postcode and country code, SAPIENT uses the sender postcode and country code from the shipment.
+If you do not provide an alternative postcode and country code, SAPIENT uses the shipper postcode and country code from the shipment.
 
 The response provides the available collection date, start time, end time, and the applicable cut-off time.
 
