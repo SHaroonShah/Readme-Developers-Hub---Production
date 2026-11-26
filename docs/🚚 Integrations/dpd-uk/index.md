@@ -51,8 +51,16 @@ DPD are one of the leading delivery carriers in the UK, shipping domestically an
         > _Please bear in mind that not all services offer consignment options._
       </Card>
 
-      <Card title="Carrier-Specifics" icon="fa-map-marker-alt">
-        The **CarrierSpecifics** object in the **Create Shipment** request contains the **DeliveryInstructions** field to provide any additional instructions to the carrier regarding the delivery of the shipment
+      <Card title="Future Date Shipments" icon="fad fa-box-circle-check">
+        DPD Local allow shipments to be created up to 7 days in advance, but can be extended to 30 days if approved by your DPD Local account manager. If not, then the SAPIENT maximum of 28 days will apply.
+      </Card>
+
+      <Card title="Ship to Shop" icon="fad fa-person-carry-box">
+        Provides parcel delivery to a selected DPD Pickup location, allowing the recipient to collect the parcel at their convenience.
+      </Card>
+
+      <Card title="Paperless Returns" icon="fad fa-barcode">
+        DPD Local rovides a paperless returns solution using a 2D/QR barcode, allowing customers to return parcels at a participating DPD Pickup Shop without printing a return label themselves.
       </Card>
     </Cards>
   </Tab>
