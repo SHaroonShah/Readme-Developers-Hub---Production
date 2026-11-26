@@ -137,6 +137,9 @@ DPD are one of the leading delivery carriers in the UK, shipping domestically an
     <Accordion title="Tracking">
       This integration allows customers to monitor their shipments in real-time, providing transparency and peace of mind. Users can access detailed tracking information, including, real-time updates, tracking numbers, and delivery notifications.
     </Accordion>
+<Accordion title="Collections">
+      Enables customers to manage collections for existing DPD shipments. With this set of endpoints, customers can retrieve available collection timeslots, book a collection, and cancel an existing collection when required.
+    </Accordion>
   </Tab>
 </Tabs>
 
