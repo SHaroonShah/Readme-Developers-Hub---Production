@@ -65,7 +65,7 @@ You cannot use the **Production** Shipping Account until the Account Status is *
     <Callout icon="💡" theme="default">
       ### *Tip*
 
-      *The Shipping Account you set up previously stays as the**Sandbox** account type and you can continue using it for testing purposes.*
+      *Keep your existing **Sandbox Shipping Account** for testing. Your new Production Shipping Account is separate from your Sandbox Shipping Account.*
     </Callout>
 
     ***
