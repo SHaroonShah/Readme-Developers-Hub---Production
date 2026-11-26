@@ -25,14 +25,13 @@ The diagram below shows the Option 1 flow.
 
 In Option 1, create the International Arrival Container first and get the `ContainerId`. When you create a shipment, include the `ContainerId` to allocate the shipment to the container.<br />If the shipment is created successfully, the response returns the tracking details and Base64-encoded label data. You can then decode and print the labels and prepare the shipment for dispatch.<br />If required information is missing or incorrect, the shipment is not created and an error response is returned.
 
-### Option 2: Create shipment when containerId is unknown and allocating them later
+### Option 2: Create the shipments before creating the container
 
 The diagram below shows the Option 2 flow.
 
 <Image src="https://files.readme.io/97c8d939213ec0d082114c1b4fd8f46b2ddc42ddff3abd539626d0c21cc62f43-Flow_2.png" align="center" border={true} />
 
-
-The flow outlines the process of creating shipments when the `ContainerId` is unknown, which involves several key steps. First, an order is created by sending the [Create Shipment request](https://docs.intersoftsapient.net/reference/post_v4-shipments-rm#/). If all required fields are populated, the shipment is successfully created, prompting the system to generate tracking numbers and labels. Subsequently, a container for a UK arrival is created, and a request to add a new container is sent. Shipments are allocated to the newly created container using an [Add/Remove Shipments request](https://docs.intersoftsapient.net/reference/put_v4-internationalarrivalscontainers-rm-containerid#/), allowing up to 10,000 shipments to be linked to a single container before packing the shipment and finalising the process.
+In Option 2, create the shipments first without a `ContainerId`. If the shipments are created successfully, the response returns the tracking details and Base64-encoded label data. You can then decode and print the labels.<br />Next, create the International Arrival Container and get the ContainerId. Use the [Add/Remove Shipments ](https://docs.intersoftsapient.net/reference/put_v4-internationalarrivalscontainers-rm-containerid#/)request to allocate the shipments to the container.<br />You can allocate up to 10,000 shipments to one container.<br />If required information is missing or incorrect, the shipment is not created and an error response is returned.
 
 ### Manifest container
 
