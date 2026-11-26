@@ -108,12 +108,13 @@ Create and manifest the required test labels, print them using your production p
 
     <br />
 
-    Once the labels are signed off and the go-live action is agreed with Royal Mail, you can start shipping via Intersoft SAPIENT.
+    Once Royal Mail has approved your labels and confirmed that you can go live, you can start shipping via Intersoft SAPIENT.
 
     <Callout icon="⚠️" theme="warning">
       ### *Important*
 
-      *Once you go-live any technical issues should be raised directly with our Tech Support team by following the steps listed [here](https://docs.intersoftsapient.net/docs/troubleshooting#/).* *Enquiries regarding addition of the new services, features, and so on should be continued being sent to [onboarding@intersoft.co.uk](mailto:onboarding@intersoft.co.uk).*
+      *After you go live, report any technical issues to the Intersoft Technical Support team. See [linked support guidance] (https://docs.intersoftsapient.net/docs/troubleshooting#/) for information on how to raise an issue.* 
+For requests to add new services or features, continue to contact the Intersoft Onboarding team at [onboarding@intersoft.co.uk](mailto:onboarding@intersoft.co.uk).*
     </Callout>
   </ToggleListItem>
 </ToggleList>
