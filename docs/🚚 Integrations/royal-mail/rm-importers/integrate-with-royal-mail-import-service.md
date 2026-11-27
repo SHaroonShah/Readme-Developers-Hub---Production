@@ -99,17 +99,18 @@ Follow the steps below to integrate the Royal Mail Import service with SAPIENT:
 
     <br />
 
-    Develop all the [API calls required](https://docs.intersoftsapient.net/docs/sandbox-development-api-requirements) considering the specific requirements applicable to you:
+    Develop and test the required [API calls](https://docs.intersoftsapient.net/docs/sandbox-development-api-requirements) in the Sandbox environment. For more information, refer to the [Sandbox API development](https://docs.intersoftsapient.net/docs/sandbox-development-api-requirements) section.
+Additionally, you must follow the requirements for your service:
 
     <Columns layout="auto">
       <Column>
-       * **Commercial Clearance customers**
+       * **Commercial Clearance**
 
         Refer to the [Commercial Clearance requirements](https://docs.intersoftsapient.net/docs/commercial-clearance-customers).
       </Column>
 
       <Column>
-       * **Freight 2 Post customers**
+       * **Freight 2 Post**
 
         Refer to the [Freight 2 Post requirements](https://docs.intersoftsapient.net/docs/freight-2-post-customers).
       </Column>
