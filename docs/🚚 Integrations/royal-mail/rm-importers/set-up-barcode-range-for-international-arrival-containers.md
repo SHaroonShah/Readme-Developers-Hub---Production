@@ -14,9 +14,9 @@ metadata:
 
 The barcode range is used as part of the <Glossary>Data Solution</Glossary> for shipments being imported into the UK.<br />Shipments must be allocated to an International Arrival Container. When all shipments have been allocated and the container is manifested, a container barcode is generated.
 
-The container barcode, known as the WAND ID barcode, is attached to the outside of the container.A Data Solution file is then generated and sent to Royal Mail. The file contains the WAND ID and the individual shipment barcodes, allowing Royal Mail to identify the container and the shipments allocated to it.
+The container barcode, known as the WAND ID barcode, is attached to the outside of the container. <br />A Data Solution file is then generated and sent to Royal Mail. The file contains the WAND ID and the individual shipment barcodes, allowing Royal Mail to identify the container and the shipments allocated to it.
 
-In SAPIENT, you can add a barcode range under the **International Arrival Containers** API service to capture the data required to populate the Data Solution file.
+In SAPIENT, set up a barcode range under the International Arrival Containers (A-Scan) service. The barcode range provides the container barcode numbers required for the Data Solution file.
 
 ## How to set up barcode range for International Arrival Containers
 
