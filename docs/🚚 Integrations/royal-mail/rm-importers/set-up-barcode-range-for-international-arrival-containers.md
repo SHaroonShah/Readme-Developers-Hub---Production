@@ -49,13 +49,13 @@ Follow the steps below to set up a barcode range in SAPIENT.
 
   <br />
 
-  <ToggleListItem title="3.: Configure Labels integration" icon="fa-solid fa-3">
+  <ToggleListItem title="3.: Configure the Labels integration" icon="fa-solid fa-3">
 
     <br />
 
-    On the page that opens, under the **Available Integrations** block, in the **LABELS** section, select **CONFIGURE**.
+    Under **Available Integrations**, in the **LABELS** section, select **CONFIGURE**.
 
-    <Image align="center" border={true} src="https://files.readme.io/dc329170de3da55ba71a66858dc11d115904b5001362a12f87aea85d0e7656f4-Configure_labels_option.png" caption="Configuring labels integration" />
+    <Image align="center" border={true} src="https://files.readme.io/dc329170de3da55ba71a66858dc11d115904b5001362a12f87aea85d0e7656f4-Configure_labels_option.png" caption="Configuring the Labels integration" />
 
     ***
   </ToggleListItem>
