@@ -72,6 +72,7 @@ FedEx International Connect is a flexible, cost-effective, worldwide delivery so
     | **FIC - Tracked Worldwide** (UK) | This service provides cost-effective international e-commerce delivery from the UK, offering global coverage, end-to-end tracking, and customs-cleared delivery for less urgent shipments to over 220 countries and territories.                            |
     | **Royal Mail Tracked 24**        | This service provides next-working-day delivery within the UK with full end-to-end tracking, delivery notifications, and proof of delivery, offering a fast and reliable domestic shipping solution.                                                        |
     | **Royal Mail Tracked 48**        | This service provides cost-effective UK delivery within 2–3 working days with full tracking, delivery notifications, and proof of delivery, suitable for less urgent domestic shipments.                                                                    |
+<br />
 
     <Callout icon="💡" theme="default">
       ### _Tip_
@@ -90,6 +91,7 @@ FedEx International Connect is a flexible, cost-effective, worldwide delivery so
     <Accordion title="Create Shipment">
       The integration for creating shipments to reflect FedEx International Connect as a primary carrier and allowing users to create shipments using the <Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/post_v4-shipments-fic">Create Shipment</Anchor> endpoint that returns the label in base64 encoded format.
     </Accordion>
+<br />
 
     <Accordion title="Manifest shipment">
       Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/v4.04/docs/manifest-webhook), which provides updates on manifest requests, allowing you to track the progress and status of shipments prepared for carrier collection and delivery.
@@ -112,6 +114,7 @@ FedEx International Connect is a flexible, cost-effective, worldwide delivery so
         _This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting._
       </Callout>
     </Accordion>
+<br />
 
     <Accordion title="Tracking">
       This integration allows customers to monitor their shipments in real-time, providing transparency and peace of mind. Users can access detailed tracking information, including, real-time updates, tracking numbers, and delivery notifications.
