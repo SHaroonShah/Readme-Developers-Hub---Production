@@ -76,7 +76,8 @@ The integration of Starlinks Global into the SAPIENT platform is a significant s
     | **Starlinks Border Flexi – Last-Mile Label**  | Provides flexible cross-border delivery, with final delivery performed by a local last-mile carrier.             |
     | **Starlinks Market Places – Starlinks Label** | Provides cross-border marketplace shipment delivery using a Starlinks shipping label.                            |
     | **Starlinks Market Places – Last-Mile Label** | Provides cross-border marketplace shipment delivery, with final delivery completed by a local last-mile carrier. |
-<br />
+
+    <br />
 
     <Callout icon="💡" theme="default">
       ### _Tip_
@@ -95,7 +96,8 @@ The integration of Starlinks Global into the SAPIENT platform is a significant s
     <Accordion title="Create Shipment">
       The integration for creating shipments to reflect Starlinks Global as a primary carrier and allowing users to create shipments using the <Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/post_v4-shipments-starlinks">Create Shipment</Anchor> endpoint.
     </Accordion>
-<br />
+
+    <br />
 
     <Accordion title="Manifest Shipment">
       Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/v4.03/docs/manifest-webhook), which provides updates on manifest requests, allowing you to track the progress and status of shipments prepared for carrier collection and delivery.
@@ -112,10 +114,11 @@ The integration of Starlinks Global into the SAPIENT platform is a significant s
         _This endpoint changes the shipment status to label printed. Call it when you print or create the label, based on your business process. Update shipments to label printed before manifesting._
       </Callout>
     </Accordion>
-<br />
+
+    <br />
 
     <Accordion title="Tracking">
-      This integration allows customers to monitor their shipments in real-time, providing transparency and peace of mind. Users can access detailed tracking information, including, real-time updates, tracking numbers, and delivery notifications.
+      This integration allows customers to monitor their shipments in real-time, providing transparency and peace of mind. With the [ SAPIENT tracking webhook](https://docs.intersoftsapient.net/docs/tracking-webhook), users can get detailed tracking information, including, real-time updates, tracking numbers, and delivery notifications.
     </Accordion>
   </Tab>
 </Tabs>
