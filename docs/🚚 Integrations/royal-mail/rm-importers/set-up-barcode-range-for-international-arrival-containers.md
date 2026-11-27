@@ -18,18 +18,18 @@ The container barcode, known as the WAND ID barcode, is attached to the outside 
 
 In SAPIENT, set up a barcode range under the International Arrival Containers (A-Scan) service. The barcode range provides the container barcode numbers required for the Data Solution file.
 
-## How to set up barcode range for International Arrival Containers
+## How to set up a barcode range for International Arrival Containers
 
-To add a barcode range for International Arrival Containers in SAPIENT, perform the steps as explained in the following procedure.
+Follow the steps below to set up a barcode range in SAPIENT.
 
 <ToggleList>
-  <ToggleListItem title="1. Select Integrations page" icon="fa-solid fa-1">
+  <ToggleListItem title="1. Open the Integrations page" icon="fa-solid fa-1">
 
     <br />
 
     In the left navigation panel, select **Integrations**.
 
-    <Image align="center" border={true} src="https://files.readme.io/84039ea8d38560195f244c1aba1f5fdc49e22260967548a94b5ddc56e5c79c00-Accessing_Integrations_option.png" caption="Accessing integrations" />
+    <Image align="center" border={true} src="https://files.readme.io/84039ea8d38560195f244c1aba1f5fdc49e22260967548a94b5ddc56e5c79c00-Accessing_Integrations_option.png" caption="Opening the Integrations page" />
 
     ***
   </ToggleListItem>
