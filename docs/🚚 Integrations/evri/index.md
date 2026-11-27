@@ -172,7 +172,7 @@ The EVRi integration into the SAPIENT platform enhances our shipping capabilitie
 
   <Tab title="API References">
     <Cards columns="2">
-      <Card title="SAPIENT EVRi API" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-evri" icon="fa-solid fa-code" target="_blank">
+      <Card title="Evri API" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-evri" icon="fa-solid fa-code" target="_blank">
         Explore the EVRi API endpoints for a seamless shipping experience.
       </Card>
     </Cards>
