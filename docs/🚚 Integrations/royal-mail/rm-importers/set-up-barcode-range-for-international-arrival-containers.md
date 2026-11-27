@@ -40,9 +40,9 @@ Follow the steps below to set up a barcode range in SAPIENT.
 
     <br />
 
-    In the list of carrier integrations that appears, next to Royal Mail, select **LABELS**.
+    In the Royal Mail section, select **LABELS**.
 
-    <Image align="center" border={true} src="https://files.readme.io/3d5109652b0b0cee5b6649c52dc92786f106840ba45e6ecea801be23f2b8d6af-Labels_option.png" caption="Accessing labels integration" />
+    <Image align="center" border={true} src="https://files.readme.io/3d5109652b0b0cee5b6649c52dc92786f106840ba45e6ecea801be23f2b8d6af-Labels_option.png" caption="Selecting the Royal Mail Labels integration" />
 
     ***
   </ToggleListItem>
