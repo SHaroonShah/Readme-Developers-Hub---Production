@@ -133,7 +133,7 @@ Enter the Prefix, Seed Start and Seed End provided by the Intersoft Onboarding t
 </Cards>
 
 <Cards columns="2">
-  <Card title="A-scan FAQs" href="https://docs.intersoftsapient.net/docs/a-scan-faqs#/" icon="fa-solid fa-messages-question">
+  <Card title="A-Scan FAQs" href="https://docs.intersoftsapient.net/docs/a-scan-faqs#/" icon="fa-solid fa-messages-question">
     Find answers to common questions about International Arrivals Containers (A-Scan).
   </Card>
 </Cards>
