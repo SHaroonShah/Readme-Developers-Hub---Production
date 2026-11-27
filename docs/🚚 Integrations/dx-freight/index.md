@@ -102,6 +102,7 @@ Freight is one of DX's core solutions, also referred to as _IDW_ (Irregular Dime
     | **Overnight**          | This service provides next-working-day delivery of freight, offering fast and reliable transport for heavy, bulky, or irregular shipments with full tracking.                        |
     | **Saturday 9:30**      | This service provides Saturday delivery of freight by 9:30 AM, ensuring early weekend delivery for time-sensitive consignments.                                                      |
     | **Saturday**           | This service provides standard Saturday delivery of freight, enabling weekend delivery of heavy or bulky items with full tracking and reliable handling.                             |
+<br />
 
     <Callout icon="💡" theme="default">
       ### _Tip_
@@ -120,6 +121,7 @@ Freight is one of DX's core solutions, also referred to as _IDW_ (Irregular Dime
     <Accordion title="Create Shipment">
       The integration for creating shipments to reflect DX Freight as a primary carrier and allowing users to create shipments using the <Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/post_v4-shipments-dxf">Create Shipment</Anchor> endpoint.
     </Accordion>
+<br />
 
     <Accordion title="Delete Shipment">
       The integration to delete an existing shipment cancelled in SAPIENT.
@@ -140,6 +142,7 @@ Freight is one of DX's core solutions, also referred to as _IDW_ (Irregular Dime
         _This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting._
       </Callout>
     </Accordion>
+<br />
 
     <Accordion title="Tracking">
       This integration allows customers to monitor their shipments in real-time, providing transparency and peace of mind. Users can access detailed tracking information, including, real-time updates, tracking numbers, and delivery notifications. For DXF shipments, the data files are sent via SFTP for both—1Man and 2Man services.
