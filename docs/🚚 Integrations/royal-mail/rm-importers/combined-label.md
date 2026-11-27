@@ -27,7 +27,7 @@ For eligible Royal Mail Import shipments with a total value of £135 or less, SA
 
   _If the shipment does not meet all of these requirements, SAPIENT will return a standard shipping label and a separate CN23 customs document in the Documents section of the Create Shipment response._
 
-  _If the shipment value is provided in a currency other than GBP, SAPIENT automatically converts the value to GBP._
+  _If the shipment value is provided in a currency other than GBP, SAPIENT automatically converts the value to GBP to determine which customs document is required._
 </Callout>
 
 The combined label can be used over a multiple range of services as explained in the following table:
