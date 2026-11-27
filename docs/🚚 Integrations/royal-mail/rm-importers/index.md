@@ -25,19 +25,19 @@ You can use Intersoft SAPIENT to integrate with the Royal Mail Import service an
 
 <Cards columns="2">
   <Card title="Integrate with Royal Mail Import Service" href="https://docs.intersoftsapient.net/docs/integrate-with-royal-mail-import-service" icon="fa-solid fa-code" target="_blank">
-    Follow a step-by-step guide on how to integrate the Royal Mail Import service with SAPIENT.
+    Follow the steps to integrate the Royal Mail Import service with SAPIENT.
   </Card>
 
   <Card title="Sandbox API development" href="https://docs.intersoftsapient.net/docs/sandbox-development-api-requirements" icon="fa-solid fa-code-merge" target="_blank">
-    API development requirements for Sandbox.
+    Develop and test the required API calls in Sandbox.
   </Card>
 
   <Card title="Sandbox Test Pack" href="https://docs.intersoftsapient.net/docs/royal-mail-importers-sandbox-test-pack" icon="fa-solid fa-clipboard-check" target="_blank">
-    Complete and submit the Test Pack for Royal Mail import service.
+    Complete and submit the Royal Mail Import Sandbox Test Pack.
   </Card>
 
-  <Card title="Switch to production" href="https://docs.intersoftsapient.net/docs/switching-the-account-to-production" icon="fa-solid fa-rocket" target="_blank">
-    Switch your account from Sandbox to production.
+  <Card title="Set up your Production Shipping Account" href="https://docs.intersoftsapient.net/docs/switching-the-account-to-production" icon="fa-solid fa-rocket" target="_blank">
+    Create and set up a separate Production Shipping Account. Keep your Sandbox Shipping Account for testing.
   </Card>
 </Cards>
 
