@@ -155,7 +155,7 @@ The integration of DPD Ireland (IE) into the SAPIENT platform is a significant s
 
   <Tab title="API References">
     <Cards columns="2">
-      <Card title="SAPIENT DPD Ireland API" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-dpdireland" icon="fa-solid fa-code" target="_blank">
+      <Card title="DPD Ireland API" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-dpdireland" icon="fa-solid fa-code" target="_blank">
         Explore the DPD Ireland API endpoints for a seamless shipping experience.
       </Card>
     </Cards>
