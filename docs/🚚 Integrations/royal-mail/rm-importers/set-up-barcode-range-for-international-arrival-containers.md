@@ -108,7 +108,7 @@ Enter the Prefix, Seed Start and Seed End provided by the Intersoft Onboarding t
 
     <br />
 
-    After entering the required information, select ![](https://files.readme.io/79e0cb9c566226cd8b320dc3529f556e5d94e2faa0622645bd0bc2c572957cab-Add_barcode_range_button_2.png) to save the barcode range.You can then use the barcode range when manifesting International Arrival Containers. When the container is manifested, the Data Solution file is sent to Royal Mail via SFTP.
+    After entering the required information, select ![](https://files.readme.io/79e0cb9c566226cd8b320dc3529f556e5d94e2faa0622645bd0bc2c572957cab-Add_barcode_range_button_2.png) to save the barcode range. You can then use the barcode range when manifesting International Arrival Containers. When the container is manifested, the Data Solution file is sent to Royal Mail via SFTP.
   </ToggleListItem>
 </ToggleList>
 
