@@ -110,12 +110,13 @@ DHL is the global leader in the logistics industry. DHL Express is a brand withi
     | **Express 10:30 non documents**         | This service provides time-definite international delivery of parcels before 10:30 AM on the next working day, offering expedited transit and full tracking visibility.                                     |
     | **Express 09:00 documents**             | This service provides early morning international delivery of document shipments before 9:00 AM on the next working day, ensuring urgent delivery with priority handling and tracking.                      |
     | **Express 10:30 documents**             | This service provides time-definite international delivery of document shipments before 10:30 AM on the next working day, with expedited transit and full tracking visibility.                              |
-<br />
+
+    <br />
 
     <Callout icon="💡" theme="default">
       ### _Tip_
 
-      _For the most up-to-date carrier services, use the&#x20;_[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services)_&#x20;endpoint._
+      _For the most up-to-date carrier services, use the&#x20;_<Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services">_Get Carrier Services_</Anchor>_&#x20;endpoint._
     </Callout>
   </Tab>
 </Tabs>
@@ -129,7 +130,8 @@ DHL is the global leader in the logistics industry. DHL Express is a brand withi
     <Accordion title="Create Shipment">
       The integration for creating shipments to reflect DHL Express as a primary carrier and allowing users to create shipments using the <Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/post_v4-shipments-dhlexpress">Create Shipment</Anchor> endpoint that returns the label in base64 encoded format.
     </Accordion>
-<br />
+
+    <br />
 
     <Accordion title="Manifest Shipment">
       Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/v4.03/docs/manifest-webhook), which provides updates on manifest requests, allowing you to track the progress and status of shipments prepared for carrier collection and delivery.
@@ -146,12 +148,14 @@ DHL is the global leader in the logistics industry. DHL Express is a brand withi
         _This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting._
       </Callout>
     </Accordion>
-<br />
+
+    <br />
 
     <Accordion title="Tracking">
-      Enables customers to receive tracking updates through their integration with the SAPIENT tracking webhook.
+      This integration allows customers to monitor their shipments in real-time, providing transparency and peace of mind. With the [ SAPIENT tracking webhook](https://docs.intersoftsapient.net/docs/tracking-webhook), users can get detailed tracking information, including, real-time updates, tracking numbers, and delivery notifications.
     </Accordion>
-<br />
+
+    <br />
 
     <Accordion title="Archive Labels">
       Allows saving DHL waybill documents from the create shipment response in the database and includes them in the manifest PDF when shipments are manifested.
