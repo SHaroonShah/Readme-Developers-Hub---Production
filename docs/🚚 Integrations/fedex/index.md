@@ -188,7 +188,7 @@ The FedEx-SAPIENT integration aims to enhance operational efficiency and provide
 
   <Tab title="API References">
     <Cards columns="2">
-      <Card title="SAPIENT FedEx API" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-fedex" icon="fa-solid fa-code" target="_blank">
+      <Card title="FedEx API" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-fedex" icon="fa-solid fa-code" target="_blank">
         Explore the FedEx API endpoints.
       </Card>
     </Cards>
