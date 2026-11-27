@@ -109,11 +109,12 @@ The integration of DPD Ireland (IE) into the SAPIENT platform is a significant s
       The integration for creating shipments to reflect DPD Ireland as a primary carrier and allowing users to create shipments using the <Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/post_v4-shipments-dpdie">Create Shipment</Anchor> endpoint, which returns the label in base64-encoded format.
     </Accordion>
 <br />
+
     <Accordion title="Manifest Shipment">
       Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/v4.04/docs/manifest-webhook), which provides updates on manifest requests, allowing you to track the progress and status of shipments prepared for carrier collection and delivery.
     </Accordion>
 
-    </Accordion>
+   
   </Tab>
 
   <Tab title="Other Services">
