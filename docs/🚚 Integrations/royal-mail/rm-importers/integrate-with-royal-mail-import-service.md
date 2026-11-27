@@ -115,7 +115,7 @@ Additionally, you must follow the requirements for your service:
 
     > 🚧 *Important*
     >
-    > *Ensure that you adhere to the[API Rate Limits](https://docs.intersoftsapient.net/docs/api-rate-limiting).*
+    > *Ensure that you adhere to the [API Rate Limits](https://docs.intersoftsapient.net/docs/api-rate-limiting).*
 
     ***
   </ToggleListItem>
