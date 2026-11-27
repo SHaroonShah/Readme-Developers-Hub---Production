@@ -115,25 +115,25 @@ Enter the Prefix, Seed Start and Seed End provided by the Intersoft Onboarding t
 <Callout icon="💡" theme="default">
   ### _Tip_
 
-  _For development and testing purposes the Customer Number can be filled with dummy details. The Barcode Range used for testing purposes should be AC40000001 to AC49999999. Production details will be provided to you when your account is switched onto production._
+  _For Sandbox testing, you can use dummy details for the Customer Number. Use the barcode range AC40000001 to AC49999999 for testing._<br />_The Intersoft Onboarding team will provide the Customer Number and barcode range details for your Production setup._
 </Callout>
 
 ***
 
-### See also
+### Related guides
 
 <Cards>
-  <Card title="A-Scan Flow" href="https://docs.intersoftsapient.net/docs/internation-arrival-containers-ascan-flow#/" icon="fa-solid fa-barcode-read" target="_blank">
-    Learn how the **International Arrivals Containers** process works and get to know the entire journey of the UK arrival containers on the fly.
+  <Card title="A-Scan Fflow" href="https://docs.intersoftsapient.net/docs/internation-arrival-containers-ascan-flow#/" icon="fa-solid fa-barcode-read" target="_blank">
+    Learn how th&#x65;**&#x20;International Arrivals Containers (A-Scan)** process works.
   </Card>
 
   <Card title="International Arrivals Containers API" href="https://docs.intersoftsapient.net/reference/post_v4-internationalarrivalscontainers-rm#/" icon="fa-solid fa-gear-complex-code" target="_blank">
-    Create and name (with and ID or alias) a new international arrivals container to be used for manifesting a specific group of shipments.
+    Create an International Arrivals Container and assign an ID or alias. Use the container to group shipments for manifesting.
   </Card>
 </Cards>
 
 <Cards columns="2">
   <Card title="A-scan FAQs" href="https://docs.intersoftsapient.net/docs/a-scan-faqs#/" icon="fa-solid fa-messages-question">
-    Frequently asked questions regarding the International Arrivals Container API.
+    Find answers to common questions about International Arrivals Containers (A-Scan).
   </Card>
 </Cards>
