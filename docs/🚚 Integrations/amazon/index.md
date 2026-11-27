@@ -158,7 +158,7 @@ In the UK, Amazon Shipping covers England, Scotland, and Wales, offering seven-d
 
   <Tab title="API References">
     <Cards columns="2">
-      <Card title="SAPIENT Amazon API" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-amazon" icon="fa-solid fa-code" target="_blank">
+      <Card title="Amazon API" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-amazon" icon="fa-solid fa-code" target="_blank">
         Explore the Amazon API endpoints for a seamless shipping experience.
       </Card>
     </Cards>
