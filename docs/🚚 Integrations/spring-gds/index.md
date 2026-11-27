@@ -160,7 +160,7 @@ The integration of Spring GDS into the SAPIENT platform is a significant step in
   <Tab title="API References">
     <Cards columns="2">
       <Card title="Spring GDS API" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-spring" icon="fa-solid fa-code" target="_blank">
-        Retrieve the services available for a carrier.
+        Explore the Spring GDS API endpoints for a seamless shipping experience.
       </Card>
     </Cards>
   </Tab>
