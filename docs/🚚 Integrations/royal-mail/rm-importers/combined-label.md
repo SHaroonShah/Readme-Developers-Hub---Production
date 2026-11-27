@@ -62,9 +62,6 @@ The combined label is available for the Royal Mail services listed in the table 
 |    **ITI**   | Import DE Tracked 24 Std Age                |
 |    **ITJ**   | Import DE Tracked 24 THV Age                |
 
-For customers and businesses using Royal Mail for their shipping needs, this combined label offers a more efficient process, simplifying documentation and tracking for lower-value shipments. It is crucial to stay informed about this update and to prepare for the necessary adjustments in operations to accommodate the new label format.
-
-
 <Image src="https://files.readme.io/28e12fbd3aa096410869143a313b58e10f2682a1d96999f7c837e0148bde8d61-Combined_Label_and_CN22_sample.png" alt="Combined label example" align="center" width="500px" caption="Combined label + CN22 example" border={true} />
 
 
@@ -76,5 +73,5 @@ For customers and businesses using Royal Mail for their shipping needs, this com
 <Callout icon="💡" theme="default">
   ### _Tip_
 
-  _In the&#x20;_**_Sign & Date_**_&#x20;section of  the combined label, you can use your own signature or logo if you have&#x20;_[added and configured it](https://docs.intersoftsapient.net/docs/add-signature-and-logo#/)_&#x20;via the SAPIENT UI. If the signature and logo has not been configured, then by default, the Shipper Contact Name is used._
+  _In the&#x20;_**_Sign & Date_**_&#x20;section, SAPIENT can use the&#x20;_[_signature or logo configured_]()_&#x20;in your SAPIENT account. If no signature or logo is configured, the Shipper Contact Name is used by default._
 </Callout>
