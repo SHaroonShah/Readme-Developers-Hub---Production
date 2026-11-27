@@ -149,7 +149,7 @@ The Delivery Group (TDG) hands shipments over to other carriers for <Glossary>fi
 
   <Tab title="API References">
     <Cards columns="2">
-      <Card title="SAPIENT The Delivery Group API" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-tdg" icon="fa-solid fa-code" target="_blank">
+      <Card title="The Delivery Group API" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-tdg" icon="fa-solid fa-code" target="_blank">
         Explore The Delivery Group API endpoints for shipping and tracking.
       </Card>
     </Cards>
