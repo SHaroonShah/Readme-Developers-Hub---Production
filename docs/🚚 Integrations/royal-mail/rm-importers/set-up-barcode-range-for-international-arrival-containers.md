@@ -123,7 +123,7 @@ Enter the Prefix, Seed Start and Seed End provided by the Intersoft Onboarding t
 ### Related guides
 
 <Cards>
-  <Card title="A-Scan Fflow" href="https://docs.intersoftsapient.net/docs/internation-arrival-containers-ascan-flow#/" icon="fa-solid fa-barcode-read" target="_blank">
+  <Card title="A-Scan flow" href="https://docs.intersoftsapient.net/docs/internation-arrival-containers-ascan-flow#/" icon="fa-solid fa-barcode-read" target="_blank">
     Learn how th&#x65;**&#x20;International Arrivals Containers (A-Scan)** process works.
   </Card>
 
