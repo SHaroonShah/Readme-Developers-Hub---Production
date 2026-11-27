@@ -102,12 +102,13 @@ The integration of DPD NL into the SAPIENT platform is a significant step in enh
     | **DPD Shop Return**                                      | This service provides a flexible returns solution that allows customers to return parcels via DPD Parcel Shops using printed or digital labels, including QR code options without printing.        |
     | **DPD Home Saturday**                                    | This service provides home delivery on Saturdays, enabling parcels collected during the week to be delivered to residential addresses at the weekend with full tracking visibility.                |
     | **DPD Business Saturday**                                | This service provides business delivery on Saturdays, allowing shipments to be delivered outside standard weekday business hours for improved flexibility and continuity of operations.            |
-<br />
+
+    <br />
 
     <Callout icon="💡" theme="default">
       ### _Tip_
 
-      _For the most up-to-date carrier services, use the_[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services)_&#x20;endpoint._
+      _For the most up-to-date carrier services, use the&#x20;_[_Get Carrier Services_](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services)_&#x20;endpoint._
     </Callout>
   </Tab>
 </Tabs>
@@ -121,7 +122,8 @@ The integration of DPD NL into the SAPIENT platform is a significant step in enh
     <Accordion title="Create Shipment">
       The integration for creating shipments to reflect DPD NL as a primary carrier and allowing users to create individual shipments requests using the <Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/post_v4-shipments-dpdnl">Create Shipment</Anchor> endpoint.
     </Accordion>
-<br />
+
+    <br />
 
     <Accordion title="Manifest Shipment">
       Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/v4.04/docs/manifest-webhook), which provides updates on manifest requests, allowing you to track the progress and status of shipments prepared for carrier collection and delivery.
@@ -138,10 +140,11 @@ The integration of DPD NL into the SAPIENT platform is a significant step in enh
         _This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting._
       </Callout>
     </Accordion>
-<br />
+
+    <br />
 
     <Accordion title="Tracking">
-      Enables customers to receive tracking updates through their integration with the SAPIENT tracking webhook.
+      This integration allows customers to monitor their shipments in real-time, providing transparency and peace of mind. With the [ SAPIENT tracking webhook](https://docs.intersoftsapient.net/docs/tracking-webhook), users can get detailed tracking information, including, real-time updates, tracking numbers, and delivery notifications.
     </Accordion>
   </Tab>
 </Tabs>
