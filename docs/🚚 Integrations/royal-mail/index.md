@@ -278,7 +278,7 @@ This integration represents a significant step towards optimising shipping funct
 
   <Tab title="API References">
     <Cards columns="2">
-      <Card title="SAPIENT Royal Mail API " href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-rm" icon="fa-solid fa-code" target="_blank">
+      <Card title="Royal Mail API " href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-rm" icon="fa-solid fa-code" target="_blank">
         Explore the Royal Mail API endpoints for a seamless shipping experience.
       </Card>
     </Cards>
