@@ -191,7 +191,7 @@ DPD are one of the leading delivery carriers in the UK, shipping domestically an
 
   <Tab title="API References">
     <Cards columns="2">
-      <Card title="SAPIENT DPD UK API" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-dpduk" icon="fa-solid fa-code" target="_blank">
+      <Card title="DPD UK API" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-dpduk" icon="fa-solid fa-code" target="_blank">
         Explore the DPD UK API endpoints for a seamless shipping experience.
       </Card>
     </Cards>
