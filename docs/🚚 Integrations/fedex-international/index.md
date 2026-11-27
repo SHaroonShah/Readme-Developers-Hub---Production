@@ -144,7 +144,7 @@ FedEx International Connect is a flexible, cost-effective, worldwide delivery so
 
   <Tab title="API References">
     <Cards columns="2">
-      <Card title="SAPIENT FedEx International Connect API" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-fic" icon="fa-solid fa-code" target="_blank">
+      <Card title="FedEx International Connect API" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-fic" icon="fa-solid fa-code" target="_blank">
         Explore the FedEx International Connect API endpoints for a seamless shipping experience.
       </Card>
     </Cards>
