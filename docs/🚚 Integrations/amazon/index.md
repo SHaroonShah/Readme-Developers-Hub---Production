@@ -92,6 +92,7 @@ In the UK, Amazon Shipping covers England, Scotland, and Wales, offering seven-d
     | **Economy**   | This service provides cost-effective tracked delivery service with a longer transit time for Amazon marketplace orders.                   |
     | **1Day**      | This service provides next-day delivery service for non-Amazon orders; may include limited or no tracking compared to On-Amazon services. |
     | **2Day**      | This service provides two-day delivery service for non-Amazon orders; may include limited or no tracking compared to On-Amazon services.  |
+<br />
 
     <Callout icon="💡" theme="default">
       ### _Tip_
@@ -110,7 +111,7 @@ In the UK, Amazon Shipping covers England, Scotland, and Wales, offering seven-d
     <Accordion title="Create Shipment">
       The integration for creating shipments to reflect Amazon as a primary carrier and allowing users to create individual shipments requests using the [Create Shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-amazon) endpoint.
     </Accordion>
-
+<br />
     <Accordion title="Manifest Shipment">
       Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/v4.04/docs/manifest-webhook), which provides updates on manifest requests, allowing you to track the progress and status of shipments prepared for carrier collection and delivery.
     </Accordion>
@@ -126,7 +127,7 @@ In the UK, Amazon Shipping covers England, Scotland, and Wales, offering seven-d
         _This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting._
       </Callout>
     </Accordion>
-
+<br />
     <Accordion title="Tracking">
       Enables customers to receive tracking updates through their integration with the SAPIENT tracking webhook.
     </Accordion>
