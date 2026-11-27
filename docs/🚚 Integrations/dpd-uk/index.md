@@ -119,7 +119,8 @@ DPD are one of the leading delivery carriers in the UK, shipping domestically an
     | **International Air Express**                 | This service provides fast international delivery via an air network, offering expedited transit times, global coverage, and full tracking for urgent shipments worldwide.                     |
     | **DPD Direct**                                | This service provides international delivery solutions for e-commerce shipments, combining parcel delivery with customs clearance, tracking, and end-to-end visibility to global destinations. |
     | **DPD Direct Ireland**                        | This service provides dedicated delivery from the UK to Ireland, including customs handling, reliable transit times, and full tracking for cross-border shipments.                             |
-<br />
+
+    <br />
 
     <Callout icon="💡" theme="default">
       ### _Tip_
@@ -138,7 +139,8 @@ DPD are one of the leading delivery carriers in the UK, shipping domestically an
     <Accordion title="Create Shipment">
       The integration for creating shipments to reflect DPD UK as a primary carrier and allowing users to create shipments using the <Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/post_v4-shipments-dpduk">Create Shipment</Anchor> endpoint.
     </Accordion>
-<br />
+
+    <br />
 
     <Accordion title="Manifest">
       A crucial API for DPD UK that generates an electronic manifest data file in the SAPIENT's default PDF format and send it to DPD UK via SFTP.
@@ -155,14 +157,16 @@ DPD are one of the leading delivery carriers in the UK, shipping domestically an
         _This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting._
       </Callout>
     </Accordion>
-<br />
+
+    <br />
 
     <Accordion title="Tracking">
-      This integration allows customers to monitor their shipments in real-time, providing transparency and peace of mind. Users can access detailed tracking information, including, real-time updates, tracking numbers, and delivery notifications.
+      This integration allows customers to monitor their shipments in real-time, providing transparency and peace of mind. With the [ SAPIENT tracking webhook](https://docs.intersoftsapient.net/docs/tracking-webhook), users can get detailed tracking information, including, real-time updates, tracking numbers, and delivery notifications.
     </Accordion>
-<br />
 
-<Accordion title="Collections">
+    <br />
+
+    <Accordion title="Collections">
       Enables customers to manage collections for existing DPD shipments. With this set of endpoints, customers can retrieve available collection timeslots, book a collection, and cancel an existing collection when required.
     </Accordion>
   </Tab>
