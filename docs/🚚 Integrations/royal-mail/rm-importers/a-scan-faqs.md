@@ -25,22 +25,24 @@ metadata:
   - For other cross-border services, the maximum weight depends on the service used.
 </Accordion>
 
-<Accordion title="How many parcel formats can the containers have?">
-  Containers can only have one parcel format. This format is poupulated in the **RmContentFormat** field with one of the following values:
+<Accordion title="How many parcel formats can one container have?">
+  A container can have only one parcel format. Enter the applicable value in the RmContentFormat field:
 
-  - **G**: Large Letter
-  - **P**: Letter
-  - **E**: Parcel
+  G: Large Letter
+  P: Letter
+  E: Parcel
 </Accordion>
 
-<Accordion title="When should the container be finalised/ manifested?">
-  The container must be finalised latest by one hour before the flight lands in the UK, so that Royal Mail can receive all the data on time.
+<Accordion title="When should the container be manifested?">
+  Manifest the container no later than one hour before the flight arrives in the UK. This allows Royal Mail to receive the required data before the flight arrives.
 </Accordion>
 
-<Accordion title="What needs to pupolated in the RMService field?">
-  The **RMService** field must be populated with **P** (Priority).
+<Accordion title="What value should I enter in the RMService field?">
+  Enter P (Priority) in the RMService field.
 </Accordion>
 
-<Accordion title="What are the event codes in the tracking API complete for ETSF?">
-  You will first get the **PSAN** tracking event code which indicates that pre-advice was received by Royal Mail—then **PRID**—shipment received in the depot event once the shipment arrives in the UK.
+<Accordion title="What tracking event codes will I receive for ETSF?">
+  The first tracking event is **PSAN**, which confirms that Royal Mail has received the pre-advice.
+
+  When the shipment arrives in the UK and is received at the depot, the **PRID&#x20;**&#x74;racking event is generated.
 </Accordion>
