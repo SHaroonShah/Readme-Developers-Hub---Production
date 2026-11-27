@@ -26,11 +26,11 @@ metadata:
 </Accordion>
 
 <Accordion title="How many parcel formats can one container have?">
-  A container can have only one parcel format. Enter the applicable value in the RmContentFormat field:
+  A container can have only one parcel format. Enter the applicable value in the **RmContentFormat&#x20;**&#x66;ield:
 
-  G: Large Letter
-  P: Letter
-  E: Parcel
+  **G:&#x20;**&#x4C;arge Letter
+  **P**: Letter
+  **E**: Parcel
 </Accordion>
 
 <Accordion title="When should the container be manifested?">
@@ -38,7 +38,7 @@ metadata:
 </Accordion>
 
 <Accordion title="What value should I enter in the RMService field?">
-  Enter **P&#x20;**(Priority) in the RMService field.
+  Enter **P&#x20;**(Priority) in the **RMService&#x20;**&#x66;ield.
 </Accordion>
 
 <Accordion title="What tracking event codes will I receive for ETSF?">
