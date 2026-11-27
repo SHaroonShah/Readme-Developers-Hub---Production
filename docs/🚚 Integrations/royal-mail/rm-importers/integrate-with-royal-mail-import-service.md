@@ -137,11 +137,11 @@ Additionally, you must follow the requirements for your service:
 
   <br />
 
-  <ToggleListItem title="9. Switch to Production" icon="fa-solid fa-rocket">
+  <ToggleListItem title="9. Set up your Production Shipping Account" icon="fa-solid fa-rocket">
 
     <br />
 
-    Once your **Test Pack** is approved, our team will [switch your account to Production](https://docs.intersoftsapient.net/docs/switching-the-account-to-production) and provide details of the Royal Mail sign-off process.
+    Once your **Test Pack** is approved, set up a separate Production Shipping Account. Keep your existing Sandbox Shipping Account for testing. See   [Set up your Production Shipping Account](https://docs.intersoftsapient.net/docs/switching-the-account-to-production) for the steps to complete your Production setup and Royal Mail sign-off.
   </ToggleListItem>
 </ToggleList>
 
