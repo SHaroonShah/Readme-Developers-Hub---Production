@@ -38,7 +38,7 @@ metadata:
 </Accordion>
 
 <Accordion title="What value should I enter in the RMService field?">
-  Enter P (Priority) in the RMService field.
+  Enter **P&#x20;**(Priority) in the RMService field.
 </Accordion>
 
 <Accordion title="What tracking event codes will I receive for ETSF?">
