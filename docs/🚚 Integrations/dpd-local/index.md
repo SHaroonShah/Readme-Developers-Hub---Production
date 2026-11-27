@@ -285,10 +285,12 @@ This in an in-house integration, which means that the <Glossary>label</Glossary>
         _The system only imports the data for services that are in scope and does not add any additional services into the integration. It only updates the routing data for the existing service codes._
       </Callout>
     </Accordion>
+<br />
 
     <Accordion title="Manifest Shipment (via SFTP)">
       Generates an electronic manifest data file in the SAPIENT's default <Glossary>PDF</Glossary> format and send it to DPD LOCAL via SFTP.
     </Accordion>
+<br />
 
     <Accordion title="Get PUDO Locations">
       Enable customers to users to access essential shipping options for both sending and returning packages seamlessly via the [Get PUDO Locations endpoint](https://docs.intersoftsapient.net/reference/get_v4-pudolocations-carriercode-countrycode-postcode).
@@ -305,10 +307,13 @@ This in an in-house integration, which means that the <Glossary>label</Glossary>
         _This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting._
       </Callout>
     </Accordion>
+<br />
 
     <Accordion title="Tracking Integration">
       Enables customers to receive tracking updates through their integration with the SAPIENT tracking webhook.
     </Accordion>
+<br />
+
 <Accordion title="Collections">
       Enables customers to manage collections for existing DPD Local shipments. With this set of endpoints, customers can retrieve available collection timeslots, book a collection, and cancel an existing collection when required.
     </Accordion>
