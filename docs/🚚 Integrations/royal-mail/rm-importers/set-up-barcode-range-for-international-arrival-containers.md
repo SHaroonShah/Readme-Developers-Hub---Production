@@ -77,7 +77,7 @@ Follow the steps below to set up a barcode range in SAPIENT.
 
     <br />
 
-   Select + ![](https://files.readme.io/d48a6a38086006b7b6e7e4edaaabed26a14571fe2fe075d2749bd142ac31f03f-Add_barcode_range_button.png).
+   Select ![](https://files.readme.io/d48a6a38086006b7b6e7e4edaaabed26a14571fe2fe075d2749bd142ac31f03f-Add_barcode_range_button.png).
 
     <Image align="center" border={true} src="https://files.readme.io/b97eed8bcf06eb4bc0f3d303c0758e223459b710117e7e2464410003bd430bcb-Add_barcode_range_option.png" caption="Adding a barcode range" />
 
