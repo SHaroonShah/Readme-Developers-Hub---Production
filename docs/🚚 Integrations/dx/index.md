@@ -77,6 +77,7 @@ Express is one of DX's core solutions that provides a fast and secure next-day d
     | :------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
     | **Secure Flex**     | This service provides next-day delivery of parcels and packets, primarily to residential addresses across the UK, with secure handling, tracking, and flexible delivery options.  |
     | **Secure Business** | This service provides next-day delivery of parcels and packets to business addresses across the UK and Ireland, with secure handling and delivery during standard business hours. |
+<br />
 
     <Callout icon="💡" theme="default">
       ### _Tip_
@@ -95,6 +96,7 @@ Express is one of DX's core solutions that provides a fast and secure next-day d
     <Accordion title="Create Shipment">
       The integration for creating shipments to reflect DX as a primary carrier and allowing users to create individual shipments requests using the <Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/post_v4-shipments-dx">Create Shipment</Anchor> endpoint.
     </Accordion>
+<br />
 
     <Accordion title="Cancel Shipment">
       The integration for directly calling the DX’s API to cancel shipments within DX’s system, to ensures that cancellations are fully registered with DX, helping prevent customers from being mistakenly charged for cancelled shipments. <br />
@@ -105,6 +107,7 @@ Express is one of DX's core solutions that provides a fast and secure next-day d
         _If you attempt to release a held shipment to a later date, please be aware that the shipment will no longer be eligible for cancellation. Shipments can only be cancelled if they have not been manifested._
       </Callout>
     </Accordion>
+<br />
 
     <Accordion title="Manifest Shipment">
       Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/v4.04/docs/manifest-webhook), which provides updates on manifest requests, allowing you to track the progress and status of shipments prepared for carrier collection and delivery.
@@ -121,6 +124,7 @@ Express is one of DX's core solutions that provides a fast and secure next-day d
         _This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting._
       </Callout>
     </Accordion>
+<br />
 
     <Accordion title="Tracking">
       Enables customers to receive tracking updates through their integration with the SAPIENT tracking webhook.
