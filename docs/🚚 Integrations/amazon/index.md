@@ -112,6 +112,7 @@ In the UK, Amazon Shipping covers England, Scotland, and Wales, offering seven-d
       The integration for creating shipments to reflect Amazon as a primary carrier and allowing users to create individual shipments requests using the [Create Shipment](https://docs.intersoftsapient.net/reference/post_v4-shipments-amazon) endpoint.
     </Accordion>
 <br />
+
     <Accordion title="Manifest Shipment">
       Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/v4.04/docs/manifest-webhook), which provides updates on manifest requests, allowing you to track the progress and status of shipments prepared for carrier collection and delivery.
     </Accordion>
@@ -128,6 +129,7 @@ In the UK, Amazon Shipping covers England, Scotland, and Wales, offering seven-d
       </Callout>
     </Accordion>
 <br />
+
     <Accordion title="Tracking">
       Enables customers to receive tracking updates through their integration with the SAPIENT tracking webhook.
     </Accordion>
