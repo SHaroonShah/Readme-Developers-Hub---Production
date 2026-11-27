@@ -93,6 +93,7 @@ The UPS carrier integration within the SAPIENT system enables seamless communica
     | **UPS Worldwide Expedited** (2-5 business days)      | This service provides day-definite delivery to over 220 countries and territories. Fully tracked, with generous weight limits (up to 150 lbs).                                                                                                                                          |
     | **UPS Worldwide Expedited Plus** (next business day) | This service provides premium express service with the fastest international delivery times.                                                                                                                                                                                            |
     | **UPS Worldwide Saver** (1-3 business days)          | This service provides guaranteed afternoon delivery to over 215 countries. and territories.                                                                                                                                                                                             |
+<br />
 
     <Callout icon="💡" theme="default">
       ### _Tip_
@@ -111,6 +112,7 @@ The UPS carrier integration within the SAPIENT system enables seamless communica
     <Accordion title="Create Shipment">
       The integration for creating shipments to reflect UPS as a primary carrier and allowing users to create individual shipments requests using the <Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/post_v4-shipments-ups">Create Shipment</Anchor> endpoint.
     </Accordion>
+<br />
 
     <Accordion title="Manifest Shipment">
       Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/v4.04/docs/manifest-webhook), which provides updates on manifest requests, allowing you to track the progress and status of shipments prepared for carrier collection and delivery.
@@ -127,6 +129,7 @@ The UPS carrier integration within the SAPIENT system enables seamless communica
         _This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting._
       </Callout>
     </Accordion>
+<br />
 
     <Accordion title="Tracking">
       Enables customers to receive tracking updates through their integration with the SAPIENT tracking webhook.
