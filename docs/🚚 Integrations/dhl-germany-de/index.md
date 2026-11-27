@@ -115,8 +115,9 @@ The integration of DHL Germany (DE) into the SAPIENT platform is a significant s
       The integration for creating shipments to reflect DHL Germany as a primary carrier and allowing users to create individual shipments requests using the <Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/post_v4-shipments-dhlde">Create Shipment</Anchor> endpoint.
     </Accordion>
 <br />
+
     <Accordion title="Cancel Shipment">
-      The integration to <Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/put_v4-shipments-status">cancel any unwanted shipments</Anchor>, to ensures that cancellations are fully registered with DHL Germany, helping prevent customers from being mistakenly charged for cancelled shipments. <br />
+      The integration to <Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/put_v4-shipments-status">cancel any unwanted shipments</Anchor>, to ensures that cancellations are fully registered with DHL Germany, helping prevent customers from being mistakenly charged for cancelled shipments.
 
       <Callout icon="info" theme="info">
         ### _Note_
@@ -125,6 +126,7 @@ The integration of DHL Germany (DE) into the SAPIENT platform is a significant s
       </Callout>
     </Accordion>
 <br />
+
     <Accordion title="Manifest Shipment">
       Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/v4.04/docs/manifest-webhook), which provides updates on manifest requests, allowing you to track the progress and status of shipments prepared for carrier collection and delivery.
     </Accordion>
@@ -141,6 +143,7 @@ The integration of DHL Germany (DE) into the SAPIENT platform is a significant s
       </Callout>
     </Accordion>
 <br />
+
     <Accordion title="Tracking">
       Enables customers to receive tracking updates through their integration with the SAPIENT tracking webhook.
     </Accordion>
