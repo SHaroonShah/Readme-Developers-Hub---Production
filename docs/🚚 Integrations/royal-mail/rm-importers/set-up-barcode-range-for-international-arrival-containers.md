@@ -62,24 +62,24 @@ Follow the steps below to set up a barcode range in SAPIENT.
 
   <br />
 
-  <ToggleListItem title="4. Enter customer number and save" icon="fa-solid fa-4">
+  <ToggleListItem title="4. Enter your Customer Number" icon="fa-solid fa-4">
 
     <br />
 
-    In the **Configure Royal Mail** page that opens, select the **International Arrivals Container Settings** tab. In the page that opens, enter your six-digit customer number provided to you by our onboarding team and then select ![](https://files.readme.io/7c98764e6500bab5bbcb768bbff9aa47d0681116fc91a6a2921c0394178f7550-Save_changes_button.png).
+    On the **Configure Royal Mail** page, select the **International Arrivals Container Settings** tab. Enter the six-digit Customer Number provided by the Intersoft Onboarding team, then select ![](https://files.readme.io/7c98764e6500bab5bbcb768bbff9aa47d0681116fc91a6a2921c0394178f7550-Save_changes_button.png).
 
     ***
   </ToggleListItem>
 
   <br />
 
-  <ToggleListItem title="5. Add barcode range" icon="fa-solid fa-5">
+  <ToggleListItem title="5. Add a barcode range" icon="fa-solid fa-5">
 
     <br />
 
-    Once you are added, select ![](https://files.readme.io/d48a6a38086006b7b6e7e4edaaabed26a14571fe2fe075d2749bd142ac31f03f-Add_barcode_range_button.png).
+   Select + ![](https://files.readme.io/d48a6a38086006b7b6e7e4edaaabed26a14571fe2fe075d2749bd142ac31f03f-Add_barcode_range_button.png).
 
-    <Image align="center" border={true} src="https://files.readme.io/b97eed8bcf06eb4bc0f3d303c0758e223459b710117e7e2464410003bd430bcb-Add_barcode_range_option.png" caption="Accessing option to add barcode range" />
+    <Image align="center" border={true} src="https://files.readme.io/b97eed8bcf06eb4bc0f3d303c0758e223459b710117e7e2464410003bd430bcb-Add_barcode_range_option.png" caption="Adding a barcode range" />
 
     ***
   </ToggleListItem>
