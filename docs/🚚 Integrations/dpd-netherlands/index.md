@@ -168,7 +168,7 @@ The integration of DPD NL into the SAPIENT platform is a significant step in enh
 
   <Tab title="API References">
     <Cards columns="2">
-      <Card title="SAPIENT DPD Netherlands API" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-dpdnl" icon="fa-solid fa-code" target="_blank">
+      <Card title="DPD Netherlands API" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-dpdnl" icon="fa-solid fa-code" target="_blank">
         Explore the DPD Netherlands API endpoints for a seamless shipping experience.
       </Card>
     </Cards>
