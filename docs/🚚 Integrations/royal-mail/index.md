@@ -202,7 +202,6 @@ This integration represents a significant step towards optimising shipping funct
         _This&#x20;_<Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/get_v4-pudolocations-carriercode-countrycode-postcode">_endpoint_</Anchor>_&#x20;must be called before the&#x20;_**_Create Shipment_**_&#x20;endpoint so that the desired PUDO location is selected in the create shipment request._
       </Callout>
     </Accordion>
-
     <br />
 
         <Accordion title="International Arrivals Containers">
