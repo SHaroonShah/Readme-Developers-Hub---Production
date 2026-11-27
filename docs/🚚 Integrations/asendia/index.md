@@ -81,6 +81,7 @@ Asendia is an API integration and in SAPIENT, it integrates with its newest AShi
     |      **e-PAQ Select (DG)**      | This service provides tracked international parcel delivery for eligible dangerous goods through local e-commerce delivery specialists.                      |
     |    **e-PAQ Elite – Economy**    | This service provides fully tracked international courier delivery using an economy option for less time-sensitive shipments.                                |
     |    **e-PAQ Elite – Express**    | This service provides fast, fully tracked international courier delivery for urgent and high-value shipments.                                                |
+<br />
 
     <Callout icon="💡" theme="default">
       ### _Tip_
@@ -99,7 +100,7 @@ Asendia is an API integration and in SAPIENT, it integrates with its newest AShi
     <Accordion title="Create Shipment">
       The integration for creating shipments to reflect Asendia as a primary carrier and allowing users to create shipments using the <Anchor target="_blank" href="">Create Shipment</Anchor> endpoint.
     </Accordion>
-
+<br />
     <Accordion title="Manifest shipment">
       Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/v4.04/docs/manifest-webhook), which provides updates on manifest requests, allowing you to track the progress and status of shipments prepared for carrier collection and delivery.
     </Accordion>
@@ -115,7 +116,7 @@ Asendia is an API integration and in SAPIENT, it integrates with its newest AShi
         _This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting._
       </Callout>
     </Accordion>
-
+<br />
     <Accordion title="Tracking">
       This integration allows customers to monitor their shipments in real-time, providing transparency and peace of mind. Users can access detailed tracking information, including, real-time updates, tracking numbers, and delivery notifications.
     </Accordion>
