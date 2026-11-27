@@ -75,7 +75,7 @@ The integration of DPD Ireland (IE) into the SAPIENT platform is a significant s
     <Callout icon="💡" theme="default">
       ### _Tip_
 
-      _For more information on the service enhancements and carrier services, refer to the&#x20;_[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services)_&#x20;API endpoint._
+      _For more information on the service enhancements and carrier services, refer to the&#x20;_[_Get Carrier Services_](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services)_&#x20;API endpoint._
     </Callout>
   </Tab>
 
@@ -89,7 +89,8 @@ The integration of DPD Ireland (IE) into the SAPIENT platform is a significant s
     | **DPD Air Express**           | This service provides urgent international delivery via an established air network, offering next-day delivery to many destinations and worldwide coverage to over 200 countries with full tracking.                  |
     | **DPD Classic**               | This service provides reliable, cost-effective road-based parcel delivery across Ireland and Europe, offering fast standard transit times, full tracking, and high-volume shipping capabilities.                      |
     | **DPD Classic International** | This service provides international parcel delivery through DPD’s road and air network, combining competitive pricing with reliable transit times, full tracking, and coverage across Europe and global destinations. |
-<br />
+
+    <br />
 
     <Callout icon="💡" theme="default">
       ### _Tip_
