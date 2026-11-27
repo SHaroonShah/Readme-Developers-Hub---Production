@@ -30,7 +30,7 @@ For eligible Royal Mail Import shipments with a total value of £135 or less, SA
   _If the shipment value is provided in a currency other than GBP, SAPIENT automatically converts the value to GBP to determine which customs document is required._
 </Callout>
 
-The combined label can be used over a multiple range of services as explained in the following table:
+The combined label is available for the Royal Mail services listed in the table below:
 
 | Service Code | Service Name                                |
 | :----------: | :------------------------------------------ |
