@@ -130,6 +130,7 @@ DHL is the global leader in the logistics industry. DHL Express is a brand withi
       The integration for creating shipments to reflect DHL Express as a primary carrier and allowing users to create shipments using the <Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/post_v4-shipments-dhlexpress">Create Shipment</Anchor> endpoint that returns the label in base64 encoded format.
     </Accordion>
 <br />
+
     <Accordion title="Manifest Shipment">
       Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/v4.03/docs/manifest-webhook), which provides updates on manifest requests, allowing you to track the progress and status of shipments prepared for carrier collection and delivery.
     </Accordion>
@@ -146,10 +147,12 @@ DHL is the global leader in the logistics industry. DHL Express is a brand withi
       </Callout>
     </Accordion>
 <br />
+
     <Accordion title="Tracking">
       Enables customers to receive tracking updates through their integration with the SAPIENT tracking webhook.
     </Accordion>
 <br />
+
     <Accordion title="Archive Labels">
       Allows saving DHL waybill documents from the create shipment response in the database and includes them in the manifest PDF when shipments are manifested.
     </Accordion>
