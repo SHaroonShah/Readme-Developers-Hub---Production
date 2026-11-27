@@ -134,7 +134,7 @@ The UPS carrier integration within the SAPIENT system enables seamless communica
     <br />
 
     <Accordion title="Tracking">
-      Enables customers to receive tracking updates through their integration with the[ SAPIENT tracking webhook.](https://docs.intersoftsapient.net/docs/tracking-webhook)
+      This integration allows customers to monitor their shipments in real-time, providing transparency and peace of mind. With the [ SAPIENT tracking webhook](https://docs.intersoftsapient.net/docs/tracking-webhook) , users can get detailed tracking information, including, real-time updates, tracking numbers, and delivery notifications.
     </Accordion>
   </Tab>
 </Tabs>
