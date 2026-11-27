@@ -158,7 +158,7 @@ The UPS carrier integration within the SAPIENT system enables seamless communica
 
   <Tab title="API References">
     <Cards columns="2">
-      <Card title="SAPIENT UPS API" href="https://docs.intersoftsapient.net/v4.04/reference/post_v4-shippingaccounts-ups" icon="fa-solid fa-code" target="_blank">
+      <Card title="UPS API" href="https://docs.intersoftsapient.net/v4.04/reference/post_v4-shippingaccounts-ups" icon="fa-solid fa-code" target="_blank">
         Explore the UPS API endpoints for creating and managing UPS shipments on SAPIENT.
       </Card>
     </Cards>
