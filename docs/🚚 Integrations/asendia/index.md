@@ -146,7 +146,7 @@ Asendia is an API integration and in SAPIENT, it integrates with its newest AShi
 
   <Tab title="API References">
     <Cards columns="2">
-      <Card title="SAPIENT Asendia API" icon="fa-solid fa-code" target="_blank">
+      <Card title="Asendia API" icon="fa-solid fa-code" target="_blank">
         Explore the Asendia API endpoints for a seamless shipping experience.
       </Card>
     </Cards>
