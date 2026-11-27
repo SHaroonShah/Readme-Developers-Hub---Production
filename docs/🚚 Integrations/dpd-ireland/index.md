@@ -118,12 +118,6 @@ The integration of DPD Ireland (IE) into the SAPIENT platform is a significant s
   </Tab>
 
   <Tab title="Other Services">
-    <Accordion title="Tracking">
-      This integration allows customers to monitor their shipments in real-time, providing transparency and peace of mind. With the [ SAPIENT tracking webhook](https://docs.intersoftsapient.net/docs/tracking-webhook), users can get detailed tracking information, including, real-time updates, tracking numbers, and delivery notifications.
-    </Accordion>
-
-    <br />
-
     <Accordion title="Print Label">
       <Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/get_v4-shipments-printlabel-dpdie-shipmentid">Generate and return the label</Anchor> for a DPD Ireland shipment in the supported label formats. This endpoint must be utilised when the label is not generated in the DPD Ireland Create Shipment request.
 
@@ -133,6 +127,12 @@ The integration of DPD Ireland (IE) into the SAPIENT platform is a significant s
         _This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting._
       </Callout>
     </Accordion>
+<br /> 
+
+    <Accordion title="Tracking">
+      This integration allows customers to monitor their shipments in real-time, providing transparency and peace of mind. With the [ SAPIENT tracking webhook](https://docs.intersoftsapient.net/docs/tracking-webhook), users can get detailed tracking information, including, real-time updates, tracking numbers, and delivery notifications.
+    </Accordion>
+
   </Tab>
 </Tabs>
 
