@@ -108,12 +108,13 @@ The FedEx-SAPIENT integration aims to enhance operational efficiency and provide
     | **FedEx® Priority Express**               | This service provides time-definite, next-working-day delivery for urgent shipments, ensuring early delivery with full tracking and high-priority handling across the network.                      |
     | **FedEx® Priority**                       | This service provides fast, reliable delivery for time-sensitive shipments with delivery typically within 1–5 working days, including tracking and priority handling.                               |
     | **FedEx® Regional Economy**               | This service provides cost-effective, day-definite delivery within regions such as Europe, using road transport for less time-sensitive shipments with full tracking and customs support.           |
-<br />
+
+    <br />
 
     <Callout icon="💡" theme="default">
       ### _Tip_
 
-      _For the most up-to-date carrier services, use the&#x20;_[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services)_&#x20;endpoint._
+      _For the most up-to-date carrier services, use the&#x20;_<Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services">_Get Carrier Services_</Anchor>_&#x20;endpoint._
     </Callout>
   </Tab>
 </Tabs>
@@ -127,17 +128,20 @@ The FedEx-SAPIENT integration aims to enhance operational efficiency and provide
     <Accordion title="Create Shipment">
       The integration for creating shipments to reflect FedEx as a primary carrier and allowing users to create shipments using the <Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/post_v4-shipments-fedex">Create Shipment</Anchor> endpoint.
     </Accordion>
-<br />
+
+    <br />
 
     <Accordion title="Manifest Shipment">
       Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/v4.04/docs/manifest-webhook), which provides updates on manifest requests, allowing you to track the progress and status of shipments prepared for carrier collection and delivery.
     </Accordion>
-<br />
+
+    <br />
 
     <Accordion title="Cancel Shipment">
       The integration to [cancel any unwanted shipments](https://docs.intersoftsapient.net/reference/put_v4-shipments-status), to ensures that cancellations are fully registered with FedEx, helping prevent customers from being mistakenly charged for cancelled shipments.
     </Accordion>
-<br />
+
+    <br />
 
     <Callout icon="🚧" theme="warning">
       ### _Important_
@@ -156,10 +160,11 @@ The FedEx-SAPIENT integration aims to enhance operational efficiency and provide
         _This endpoint changes the status of the shipment to label printed. This endpoint should be called at the time of actual printing or label creation, depending on how your business operates. Shipments must be updated to label printed status prior to manifesting._
       </Callout>
     </Accordion>
-<br />
+
+    <br />
 
     <Accordion title="Tracking">
-      Enables customers to receive tracking updates through their integration with the SAPIENT tracking webhook.
+      This integration allows customers to monitor their shipments in real-time, providing transparency and peace of mind. With the [ SAPIENT tracking webhook](https://docs.intersoftsapient.net/docs/tracking-webhook), users can get detailed tracking information, including, real-time updates, tracking numbers, and delivery notifications.
     </Accordion>
   </Tab>
 </Tabs>
