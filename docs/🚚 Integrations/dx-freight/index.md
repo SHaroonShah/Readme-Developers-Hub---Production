@@ -102,12 +102,13 @@ Freight is one of DX's core solutions, also referred to as _IDW_ (Irregular Dime
     | **Overnight**          | This service provides next-working-day delivery of freight, offering fast and reliable transport for heavy, bulky, or irregular shipments with full tracking.                        |
     | **Saturday 9:30**      | This service provides Saturday delivery of freight by 9:30 AM, ensuring early weekend delivery for time-sensitive consignments.                                                      |
     | **Saturday**           | This service provides standard Saturday delivery of freight, enabling weekend delivery of heavy or bulky items with full tracking and reliable handling.                             |
-<br />
+
+    <br />
 
     <Callout icon="💡" theme="default">
       ### _Tip_
 
-      _For the most up-to-date carrier services, use the_[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services)_&#x20;endpoint._
+      _For the most up-to-date carrier services, use the&#x20;_<Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services">_Get Carrier Services_</Anchor>_&#x20;endpoint._
     </Callout>
   </Tab>
 </Tabs>
