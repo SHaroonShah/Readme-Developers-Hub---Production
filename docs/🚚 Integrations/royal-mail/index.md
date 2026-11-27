@@ -202,12 +202,14 @@ This integration represents a significant step towards optimising shipping funct
         _This&#x20;_<Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/get_v4-pudolocations-carriercode-countrycode-postcode">_endpoint_</Anchor>_&#x20;must be called before the&#x20;_**_Create Shipment_**_&#x20;endpoint so that the desired PUDO location is selected in the create shipment request._
       </Callout>
     </Accordion>
+
     <br />
 
-        <Accordion title="International Arrivals Containers">
-          <Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/post_v4-internationalarrivalscontainers-rm">Create and name (with and ID or alias) a new international arrivals container </Anchor>to be used for manifesting a specific group of shipments. Define which carrier and shipping location the container should be linked to.
+    <Accordion title="International Arrivals Containers">
+      <Anchor target="_blank" href="https://docs.intersoftsapient.net/reference/post_v4-internationalarrivalscontainers-rm">Create and name (with and ID or alias) a new international arrivals container </Anchor>to be used for manifesting a specific group of shipments. Define which carrier and shipping location the container should be linked to.
 
-    Unlike the common [Containers](https://docs.intersoftsapient.net/reference/get_v4-containers#/) API, the **International Arrivals Containers** endpoint is used for Royal Mail shipments that are being imported into GB only. For shipments in these containers, a <Glossary>data solution</Glossary> file is generated and sent to Royal Mail, which allows them to associate the shipments in the container with its associated ID, for better tracking and visibility purposes. </Accordion>
+      Unlike the common [Containers](https://docs.intersoftsapient.net/reference/get_v4-containers#/) API, the **International Arrivals Containers** endpoint is used for Royal Mail shipments that are being imported into GB only. For shipments in these containers, a <Glossary>data solution</Glossary> file is generated and sent to Royal Mail, which allows them to associate the shipments in the container with its associated ID, for better tracking and visibility purposes.
+    </Accordion>
   </Tab>
 </Tabs>
 
