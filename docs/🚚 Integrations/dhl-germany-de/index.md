@@ -173,7 +173,7 @@ The integration of DHL Germany (DE) into the SAPIENT platform is a significant s
 
   <Tab title="API References">
     <Cards columns="2">
-      <Card title="SAPIENT DHL Germany API" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-dhlde" icon="fa-solid fa-code" target="_blank">
+      <Card title="DHL Germany API" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-dhlde" icon="fa-solid fa-code" target="_blank">
         Explore the DHL Germany API endpoints for a seamless shipping experience.
       </Card>
     </Cards>
