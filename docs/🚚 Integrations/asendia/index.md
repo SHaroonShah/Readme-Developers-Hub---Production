@@ -101,6 +101,7 @@ Asendia is an API integration and in SAPIENT, it integrates with its newest AShi
       The integration for creating shipments to reflect Asendia as a primary carrier and allowing users to create shipments using the <Anchor target="_blank" href="">Create Shipment</Anchor> endpoint.
     </Accordion>
 <br />
+
     <Accordion title="Manifest shipment">
       Enables customers to retrieve information about shipment manifests created by the system and track when shipments have been successfully manifested with the carrier. For customers who need real‑time updates, we strongly recommend using the INTERSOFT [Manifest Webhook](https://docs.intersoftsapient.net/v4.04/docs/manifest-webhook), which provides updates on manifest requests, allowing you to track the progress and status of shipments prepared for carrier collection and delivery.
     </Accordion>
@@ -117,6 +118,7 @@ Asendia is an API integration and in SAPIENT, it integrates with its newest AShi
       </Callout>
     </Accordion>
 <br />
+
     <Accordion title="Tracking">
       This integration allows customers to monitor their shipments in real-time, providing transparency and peace of mind. Users can access detailed tracking information, including, real-time updates, tracking numbers, and delivery notifications.
     </Accordion>
