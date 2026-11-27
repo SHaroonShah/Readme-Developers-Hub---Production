@@ -90,12 +90,13 @@ The integration of An Post, Ireland's national postal service, into the SAPIENT 
     | **Express International**           | This service provides fast international delivery with prioritised handling and tracking.                                                                                                                                                                                           |
     | **Registered Post**                 | This service provides secure delivery with signature capture and compensation cover for valuable items                                                                                                                                                                              |
     | **IBMS/Untracked**                  | This service provides cost-effective international business mail delivery for letters, packets, and lightweight parcels without full end-to-end tracking, suitable for non-urgent shipments.This service provides basic untracked delivery for low-value or non-priority shipments. |
-<br />
+
+    <br />
 
     <Callout icon="💡" theme="default">
       ### _Tip_
 
-      _For the most up-to-date carrier services, use the_[Get Carrier Services](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services)_&#x20;endpoint._
+      _For the most up-to-date carrier services, use the &#x20;_[_Get Carrier Services_](https://docs.intersoftsapient.net/reference/get_v4-carriers-carriercode-services)_&#x20;endpoint._
     </Callout>
   </Tab>
 </Tabs>
