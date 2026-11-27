@@ -91,6 +91,7 @@ Follow the steps below to set up a barcode range in SAPIENT.
     <br />
 
     In the **Barcode Range Details** form, enter the required information as explained in the table below.
+Enter the Prefix, Seed Start and Seed End provided by the Intersoft Onboarding team.
 
     <Image align="center" border={true} src="https://files.readme.io/f034c697c47c3c50bea13ef9821e4caec23a81ca1fc2252ab2457489d0c2a745-Barcode_range_details_form.png" caption="Entering barcode range details" />
     <br />
@@ -107,7 +108,7 @@ Follow the steps below to set up a barcode range in SAPIENT.
 
     <br />
 
-    Once the relevant information is entered, select ![](https://files.readme.io/79e0cb9c566226cd8b320dc3529f556e5d94e2faa0622645bd0bc2c572957cab-Add_barcode_range_button_2.png) to save and add the barcode. You can now use this barcode range in your [manifest shipments](https://docs.intersoftsapient.net/reference/post_v4-manifests-carriercode) request for International Arrival Containers. When the international arrival container is manifested, the Data Solution file is sent to Royal Mail via SFTP.
+    After entering the required information, select ![](https://files.readme.io/79e0cb9c566226cd8b320dc3529f556e5d94e2faa0622645bd0bc2c572957cab-Add_barcode_range_button_2.png) to save the barcode range.You can then use the barcode range when manifesting International Arrival Containers. When the container is manifested, the Data Solution file is sent to Royal Mail via SFTP.
   </ToggleListItem>
 </ToggleList>
 
