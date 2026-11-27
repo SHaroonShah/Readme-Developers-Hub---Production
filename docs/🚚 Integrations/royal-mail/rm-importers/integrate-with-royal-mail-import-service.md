@@ -104,15 +104,11 @@ Additionally, you must follow the requirements for your service:
 
     <Columns layout="auto">
       <Column>
-       * **Commercial Clearance**
-
-        Refer to the [Commercial Clearance requirements](https://docs.intersoftsapient.net/docs/commercial-clearance-customers).
+       * **Commercial Clearance**: Refer to the [Commercial Clearance requirements](https://docs.intersoftsapient.net/docs/commercial-clearance-customers).
       </Column>
 
       <Column>
-       * **Freight 2 Post**
-
-        Refer to the [Freight 2 Post requirements](https://docs.intersoftsapient.net/docs/freight-2-post-customers).
+       * **Freight 2 Post**: Refer to the [Freight 2 Post requirements](https://docs.intersoftsapient.net/docs/freight-2-post-customers).
       </Column>
     </Columns>
 
