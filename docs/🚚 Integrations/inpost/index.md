@@ -162,7 +162,7 @@ This integration offers several key features that streamline the shipping proces
 
   <Tab title="API References">
     <Cards>
-      <Card title="SAPIENT InPost API" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-inpost" icon="fa-solid fa-code" target="_blank">
+      <Card title="InPost API" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-inpost" icon="fa-solid fa-code" target="_blank">
         Explore the InPost API endpoints for a seamless shipping experience.
       </Card>
 
