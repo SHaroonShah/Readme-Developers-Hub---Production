@@ -155,7 +155,7 @@ Express is one of DX's core solutions that provides a fast and secure next-day d
 
   <Tab title="API References">
     <Cards columns="2">
-      <Card title="SAPIENT DX Express API" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-dxf" icon="fa-solid fa-code" target="_blank">
+      <Card title="DX Express API" href="https://docs.intersoftsapient.net/reference/get_v4-shippingaccounts-dxf" icon="fa-solid fa-code" target="_blank">
         Explore the DX Express API endpoints for a seamless shipping experience.
       </Card>
     </Cards>
