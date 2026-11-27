@@ -1,6 +1,8 @@
 ---
 title: International Arrivals Containers FAQs
-excerpt: Frequently asked questions reagrding the International Arrivals Container API.
+excerpt: >-
+  Find answers to common questions about International Arrivals Containers
+  (A-Scan).
 deprecated: false
 hidden: false
 icon: fad fa-comment-question
@@ -8,20 +10,19 @@ metadata:
   robots: index
 ---
 <Accordion title="Is A-Scan mandatory?">
-  The Royal Mail International Product Team have mandated that all Freight to Post customers must have an A-Scan set up.
+  Yes. A-Scan is mandatory for all Freight 2 Post customers.
 </Accordion>
 
 <Accordion title="Can you have multiple services in one container?">
-  No, you cannot mix different services within a bag. The bags must be separated by service in accordance with the mail preparation specifications for each service.
+  No. You cannot mix different services in one container. You must use a separate container for each service, in line with the mail preparation requirements for that service.
 </Accordion>
 
-<Accordion title="Are there any limits regarding the container’s weight?">
-  Yes, the following are the accepted bag weights:
+<Accordion title="Are there any container weight limits?">
+  Yes. The following weight limits apply:
 
-  - Minimum weight 1.500 Kg
-  - Maximum weight applies to the following conditions:
-    - For import services, the maximum permitted weight is 30 Kg
-    - For any cross-border services, the maximum permitted weight is dependent on the service being used.&#x20;
+  - Minimum weight: 1.5 kg
+  - Maximum weight for Import services: 30 kg
+  - For other cross-border services, the maximum weight depends on the service used.
 </Accordion>
 
 <Accordion title="How many parcel formats can the containers have?">
