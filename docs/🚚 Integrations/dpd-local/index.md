@@ -343,7 +343,7 @@ This in an in-house integration, which means that the <Glossary>label</Glossary>
 
   <Tab title="API References">
     <Cards columns="2">
-      <Card title="SAPIENT DPD Local API" icon="fa-solid fa-code" target="_blank">
+      <Card title="DPD Local API" icon="fa-solid fa-code" target="_blank">
         Explore the DPD Local API endpoints for a seamless shipping experience.
       </Card>
     </Cards>
