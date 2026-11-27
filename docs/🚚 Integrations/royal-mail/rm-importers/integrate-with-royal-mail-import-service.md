@@ -111,6 +111,7 @@ Additionally, you must follow the requirements for your service:
        * **Freight 2 Post**: Refer to the [Freight 2 Post requirements](https://docs.intersoftsapient.net/docs/freight-2-post-customers).
       </Column>
     </Columns>
+<br />
 
     > 🚧 *Important*
     >
